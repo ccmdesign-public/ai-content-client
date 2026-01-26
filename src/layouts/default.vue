@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-svh grid grid-rows-[auto_1fr_auto]">
+  <div class="min-h-svh flex flex-col">
     <!-- Hero Header -->
     <header
       v-if="hero"
       role="banner"
-      class="bg-secondary flex flex-col"
+      class="bg-secondary flex flex-col shrink-0"
       :class="heroSizeClasses"
     >
       <!-- Top Navigation -->
@@ -18,6 +18,7 @@
           <nav role="navigation" class="hidden md:block">
             <ul class="flex items-center gap-4">
               <li><NuxtLink to="/" class="text-muted-foreground hover:text-foreground hover:underline">Home</NuxtLink></li>
+              <li><NuxtLink to="/tools" class="text-muted-foreground hover:text-foreground hover:underline">Tools</NuxtLink></li>
             </ul>
           </nav>
         </div>
@@ -34,7 +35,7 @@
     </header>
 
     <!-- Main Body -->
-    <div class="flex min-h-0">
+    <div class="flex flex-1 min-h-0">
       <SidebarNav v-if="showSidebar" class="shrink-0 hidden md:block" />
       <main class="flex-1 overflow-y-auto min-w-0">
         <div class="max-w-5xl mx-auto w-full px-4 py-6">
@@ -44,7 +45,7 @@
     </div>
 
     <!-- Footer -->
-    <footer v-if="footer" role="contentinfo" class="bg-secondary py-6">
+    <footer v-if="footer" role="contentinfo" class="bg-secondary py-6 shrink-0">
       <div class="max-w-6xl mx-auto px-4 flex items-center justify-between text-sm text-muted-foreground">
         <span>&copy; {{ new Date().getFullYear() }} YouTube Summaries</span>
         <a href="#" class="hover:text-foreground hover:underline">Built with Nuxt</a>

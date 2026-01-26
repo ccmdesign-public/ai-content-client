@@ -88,7 +88,7 @@ export default defineNuxtConfig({
     // Prerender all routes including RSS feeds
     prerender: {
       crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml']
+      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json']
     }
   },
   // Route rules for static generation

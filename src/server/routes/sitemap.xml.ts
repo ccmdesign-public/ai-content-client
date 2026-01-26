@@ -45,6 +45,13 @@ export default defineEventHandler(async (event) => {
     priority: 1.0
   })
 
+  // Tools directory page
+  urls.push({
+    loc: '/tools',
+    changefreq: 'daily',
+    priority: 0.9
+  })
+
   // Summary pages
   for (const summary of summaries) {
     urls.push({
