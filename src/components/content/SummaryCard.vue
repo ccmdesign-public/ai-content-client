@@ -2,17 +2,14 @@
 import { formatDate } from '~/utils/formatDate'
 import { marked } from 'marked'
 
-// Configure marked for compact rendering (no <p> wrappers on single paragraphs)
 const renderer = {
   paragraph({ tokens }: { tokens: any[] }) {
-    // Parse inline tokens to HTML, then return without <p> wrapper
     return (this as any).parser.parseInline(tokens)
   }
 }
 
 marked.use({ renderer })
 
-// Summary with nested metadata structure
 interface SummaryMetadata {
   videoId: string
   title: string
@@ -32,112 +29,38 @@ defineProps<{
 </script>
 
 <template>
-  <article class="summary-card">
+  <article class="flex border-t border-border gap-4 py-4 max-md:flex-col">
     <img
       v-if="summary.metadata.thumbnailUrl"
       :src="summary.metadata.thumbnailUrl"
       :alt="`Thumbnail for ${summary.metadata.title}`"
-      class="summary-card__thumb"
+      class="max-w-60 shrink-0 aspect-video object-cover rounded-md max-md:max-w-full"
       loading="lazy"
     />
-    <div class="summary-card__content">
-      <div class="summary-card__meta | cluster">
-        <a :href="`/channels/${summary.metadata.channel}`" class="summary-card__channel">{{ summary.metadata.channel }}</a>
-        <span class="summary-card__separator">|</span>
-        <span class="summary-card__date">{{ formatDate(summary.metadata.publishedAt) }}</span>
+    <div class="flex-1 min-w-0">
+      <div class="flex flex-wrap items-center gap-2 text-sm text-muted-foreground mb-2">
+        <a :href="`/channels/${summary.metadata.channel}`" class="font-medium hover:text-foreground">{{ summary.metadata.channel }}</a>
+        <span class="text-border">|</span>
+        <span>{{ formatDate(summary.metadata.publishedAt) }}</span>
         <a
           :href="summary.metadata.youtubeUrl"
           target="_blank"
           rel="noopener"
-          class="summary-card__youtube"
+          class="ml-auto hover:text-foreground hover:underline"
         >
           Watch on YouTube
         </a>
       </div>
-      <h3 class="summary-card__title">
-        <NuxtLink :to="`/summaries/${summary.metadata.videoId}`">
+      <h3 class="text-lg font-semibold mb-2">
+        <NuxtLink :to="`/summaries/${summary.metadata.videoId}`" class="hover:text-primary hover:underline">
           {{ summary.metadata.title }}
         </NuxtLink>
       </h3>
       <div
         v-if="summary.tldr"
-        class="summary-card__tldr"
+        class="text-sm text-muted-foreground prose prose-sm prose-zinc dark:prose-invert max-w-none [&_ul]:list-disc [&_ul]:ml-4"
         v-html="marked.parse(summary.tldr)"
       />
     </div>
   </article>
 </template>
-
-<style scoped>
-.summary-card {
-  display: flex;
-  background: var(--color-surface, #fff);
-  border-top: 1px solid var(--color-base-tint-10, #e5e7eb);
-  align-items: flex-start;
-  gap: var(--space-m, 1rem);
-}
-
-@media (max-width: 600px) {
-  .summary-card {
-    flex-direction: column;
-  }
-}
-
-.summary-card__thumb {
-  margin-top: var(--space-m, 1rem);
-  max-width: 240px;
-  flex-shrink: 0;
-  aspect-ratio: 16/9;
-  object-fit: cover;
-  border-radius: var(--radius-s);
-}
-
-.summary-card__content {
-  flex: 1;
-  min-width: 0;
-  padding-block: var(--space-m, 1rem);
-
-  p, li {
-    font-size: var(--size--1) !important;
-  }
-  
-}
-
-.summary-card__meta {
-}
-
-.summary-card__channel {
-  font-weight: 500 !important;
-}
-
-.summary-card__separator {
-  color: var(--color-base-tint-10);
-}
-
-.summary-card__youtube {
-  margin-left: auto;
-}
-
-.summary-card__title {
-}
-
-.summary-card__title a {
-}
-
-.summary-card__title a:hover {
-}
-
-.summary-card__tldr {
-}
-
-.summary-card__tldr :deep(ul) {
-  list-style-type: disc;
-}
-
-.summary-card__tldr :deep(li) {
-}
-
-.summary-card__tldr :deep(strong) {
-  font-weight: 600;
-}
-</style>
