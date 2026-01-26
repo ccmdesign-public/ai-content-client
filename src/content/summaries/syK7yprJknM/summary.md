@@ -99,6 +99,17 @@ tools:
     url: "https://www.hostinger.com/david"
   - name: "n8n"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - chatgpt
+  - gemini
+  - copilot
+  - terminal
+  - vscode
 ---
 
 ## Key Takeaways

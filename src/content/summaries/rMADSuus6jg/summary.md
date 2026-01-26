@@ -76,6 +76,14 @@ tools:
     url: null
   - name: "localGPT"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - rag
+  - agents
+  - embeddings
+  - llm
+  - architecture
 ---
 
 ## Key Takeaways

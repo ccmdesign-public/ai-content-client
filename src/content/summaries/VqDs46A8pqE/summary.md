@@ -101,6 +101,16 @@ tools:
     url: null
   - name: "/install"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - automation
+  - best-practices
+  - git
 ---
 
 ## Key Takeaways

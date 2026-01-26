@@ -67,6 +67,15 @@ tools:
     url: null
   - name: "GitHub Copilot CLI"
     url: "https://github.com/github/copilot-cli"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - copilot
+  - vscode
+  - git
+  - workflow
 ---
 
 ## Key Takeaways

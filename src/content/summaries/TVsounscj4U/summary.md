@@ -53,6 +53,13 @@ tools:
     url: null
   - name: "Raycast"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Mobile Development"
+tags:
+  - gemini
+  - llm
+  - ios
 ---
 
 ## Key Takeaways

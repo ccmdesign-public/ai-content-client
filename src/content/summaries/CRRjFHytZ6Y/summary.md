@@ -78,6 +78,13 @@ tools:
     url: null
   - name: "Tesla Autopilot"
     url: "https://www.tesla.com/autopilot"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - model-training
+  - ai-coding
 ---
 
 ## Key Takeaways

@@ -80,6 +80,15 @@ tools:
     url: null
   - name: "Google Business Profile"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - automation
+  - workflow
+  - saas
+  - api-design
 ---
 
 ## Key Takeaways

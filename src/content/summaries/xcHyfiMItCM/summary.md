@@ -104,6 +104,15 @@ tools:
     url: null
   - name: "Zapier"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - automation
+  - workflow
+  - analytics
 ---
 
 ## Key Takeaways

@@ -79,6 +79,16 @@ tools:
     url: null
   - name: "Next.js"
     url: null
+categories:
+  - "Web Development"
+  - "AI & Machine Learning"
+tags:
+  - gemini
+  - claude
+  - ai-coding
+  - nextjs
+  - tailwind
+  - ui
 ---
 
 ## Key Takeaways

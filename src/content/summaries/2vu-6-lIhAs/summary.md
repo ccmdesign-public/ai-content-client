@@ -95,6 +95,16 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - ux
+  - ui
+  - design-systems
+  - react
+  - tailwind
+  - ai-coding
 ---
 
 ## Key Takeaways

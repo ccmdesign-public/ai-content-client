@@ -106,6 +106,17 @@ tools:
     url: null
   - name: "Databricks Asset Bundles"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - data-pipeline
+  - workflow
+  - automation
+  - best-practices
 ---
 
 ## Key Takeaways

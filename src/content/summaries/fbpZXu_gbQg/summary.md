@@ -66,6 +66,15 @@ tools:
     url: null
   - name: "Comet"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - chatgpt
+  - claude
+  - gemini
+  - prompt-engineering
+  - agents
 ---
 
 ## Key Takeaways

@@ -69,6 +69,15 @@ tools:
     url: "https://goo.gle/4aY7zSV"
   - name: "React"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - agents
+  - gcp
+  - gemini
+  - architecture
+  - api-design
 ---
 
 ## Key Takeaways

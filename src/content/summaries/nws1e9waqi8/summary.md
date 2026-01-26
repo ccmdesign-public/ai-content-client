@@ -81,6 +81,16 @@ tools:
     url: null
   - name: "Git"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - ai-coding
+  - figma
+  - design-systems
+  - ux
+  - ui
+  - workflow
 ---
 
 ## Key Takeaways

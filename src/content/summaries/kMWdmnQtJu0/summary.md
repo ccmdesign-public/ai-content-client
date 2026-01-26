@@ -75,6 +75,14 @@ tools:
     url: null
   - name: "FigJam"
     url: null
+categories:
+  - "Product & Design"
+tags:
+  - ux
+  - figma
+  - design-systems
+  - product-strategy
+  - best-practices
 ---
 
 ## Key Takeaways

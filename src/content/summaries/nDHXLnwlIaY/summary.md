@@ -99,6 +99,15 @@ tools:
     url: null
   - name: "v0"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - claude
+  - ux
+  - ui
+  - prompt-engineering
+  - design-systems
 ---
 
 ## Key Takeaways

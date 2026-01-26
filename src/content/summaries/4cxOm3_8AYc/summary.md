@@ -57,6 +57,14 @@ ai:
   processingTimeMs: 3578340
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - agents
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

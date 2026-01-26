@@ -64,6 +64,16 @@ tools:
     url: "https://github.com/snarktank/ralph"
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - automation
+  - workflow
+  - architecture
 ---
 
 ## Key Takeaways

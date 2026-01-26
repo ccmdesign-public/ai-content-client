@@ -103,6 +103,17 @@ ai:
 tools:
   - name: "Figma"
     url: null
+categories:
+  - "Product & Design"
+  - "Business & Career"
+tags:
+  - ux
+  - ui
+  - figma
+  - design-systems
+  - leadership
+  - career-growth
+  - interviewing
 ---
 
 ## Key Takeaways

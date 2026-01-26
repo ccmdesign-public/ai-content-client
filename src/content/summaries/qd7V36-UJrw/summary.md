@@ -63,6 +63,13 @@ tools:
     url: null
   - name: "Tally"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - automation
+  - saas
+  - workflow
 ---
 
 ## Key Takeaways

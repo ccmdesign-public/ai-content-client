@@ -88,6 +88,17 @@ tools:
     url: null
   - name: "Buildmygraphic"
     url: "https://buildmygraphic.com/"
+categories:
+  - "Web Development"
+  - "Tools & Productivity"
+tags:
+  - typescript
+  - react
+  - nextjs
+  - tailwind
+  - nodejs
+  - postgresql
+  - ai-coding
 ---
 
 ## Key Takeaways

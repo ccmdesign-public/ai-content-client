@@ -94,6 +94,16 @@ tools:
     url: "https://github.com/JeredBlu/eval-marketplace"
   - name: "ChatGPT"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - claude
+  - chatgpt
+  - ai-coding
+  - agents
+  - automation
 ---
 
 ## Key Takeaways

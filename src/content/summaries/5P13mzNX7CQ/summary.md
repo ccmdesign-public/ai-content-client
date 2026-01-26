@@ -61,6 +61,14 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - freelancing
+  - automation
 ---
 
 ## Key Takeaways

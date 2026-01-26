@@ -111,6 +111,15 @@ ai:
 tools:
   - name: "Arcade.dev"
     url: "https://www.arcade.dev/"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - agents
+  - prompt-engineering
+  - api-design
+  - architecture
 ---
 
 ## Key Takeaways

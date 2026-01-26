@@ -86,6 +86,15 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - rag
+  - agents
+  - llm
+  - prompt-engineering
+  - architecture
+  - embeddings
 ---
 
 In this discussion, Nina Lopatina from Contextual AI outlines the transition from traditional Retrieval-Augmented Generation (RAG) to the more sophisticated discipline of "Context Engineering." As large language models (LLMs) evolve, the bottleneck has shifted from model intelligence to the quality and relevance of the data provided in the prompt.

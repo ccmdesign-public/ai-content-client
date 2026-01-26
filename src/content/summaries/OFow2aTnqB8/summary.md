@@ -71,6 +71,16 @@ tools:
     url: "https://github.com/github/copilot-cli"
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - copilot
+  - git
+  - best-practices
+  - architecture
+  - agents
 ---
 
 ## Key Takeaways

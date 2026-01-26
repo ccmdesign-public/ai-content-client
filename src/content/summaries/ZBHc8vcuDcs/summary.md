@@ -81,6 +81,14 @@ tools:
     url: "https://console.anthropic.com/dashboard"
   - name: "ChatGPT"
     url: "https://chatgpt.com/share/68c2ca06-ebf4-8011-8d66-959e9d2e30cf"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - chatgpt
+  - prompt-engineering
+  - claude
+  - best-practices
 ---
 
 ## Key Takeaways

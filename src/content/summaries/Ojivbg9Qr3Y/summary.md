@@ -149,6 +149,16 @@ tools:
     url: null
   - name: "Freepik"
     url: "https://www.freepik.com"
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - figma
+  - ui
+  - ux
+  - design-systems
+  - ai-coding
+  - workflow
 ---
 
 ## Key Takeaways

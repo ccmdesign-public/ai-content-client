@@ -79,6 +79,14 @@ tools:
     url: null
   - name: "NP Digital"
     url: "http://npdigital.com"
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - gemini
+  - saas
+  - automation
 ---
 
 ## Key Takeaways

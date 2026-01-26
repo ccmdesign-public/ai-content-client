@@ -91,6 +91,15 @@ tools:
     url: null
   - name: "Claude AI"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - automation
+  - workflow
+  - prompt-engineering
 ---
 
 ## Key Takeaways

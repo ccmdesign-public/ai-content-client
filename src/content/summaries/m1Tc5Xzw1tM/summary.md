@@ -68,6 +68,15 @@ tools:
     url: null
   - name: "Recursive Language Model (RLM) framework"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - agents
+  - rag
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

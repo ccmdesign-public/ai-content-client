@@ -85,6 +85,15 @@ tools:
     url: null
   - name: "Midjourney"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - gemini
+  - computer-vision
+  - prompt-engineering
+  - visualization
+  - ui
 ---
 
 ## Key Takeaways

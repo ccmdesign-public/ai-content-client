@@ -38,6 +38,14 @@ tools:
     url: null
   - name: "Netsuite"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - agents
+  - architecture
+  - data-pipeline
+  - llm
 ---
 
 ## Key Takeaways

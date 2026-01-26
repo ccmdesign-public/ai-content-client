@@ -152,6 +152,15 @@ tools:
     url: null
   - name: "Blitzy"
     url: "https://qr.diamandis.com/blitzy"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - gemini
+  - llm
+  - agents
+  - ai-coding
+  - startup
 ---
 
 ## Key Takeaways

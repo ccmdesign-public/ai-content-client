@@ -102,6 +102,16 @@ tools:
     url: null
   - name: "Search"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - chatgpt
+  - claude
+  - ai-coding
+  - startup
+  - product-strategy
 ---
 
 ## Key Takeaways

@@ -91,6 +91,15 @@ tools:
     url: null
   - name: "ChatGPT 5.2"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - chatgpt
+  - ai-coding
+  - agents
+  - prompt-engineering
 ---
 
 ## Key Takeaways

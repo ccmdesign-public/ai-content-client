@@ -59,6 +59,16 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - react
+  - vercel
+  - automation
 ---
 
 ## Key Takeaways

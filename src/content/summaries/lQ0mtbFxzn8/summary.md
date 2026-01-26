@@ -82,6 +82,14 @@ tools:
     url: null
   - name: "Box"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

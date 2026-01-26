@@ -56,6 +56,12 @@ tools:
     url: "https://www.kpmg.us/ai"
   - name: "Vanta"
     url: "https://vanta.com/nlw"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - computer-vision
+  - agents
 ---
 
 ## Key Takeaways

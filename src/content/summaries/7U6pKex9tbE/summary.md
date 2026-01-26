@@ -111,6 +111,14 @@ tools:
     url: "https://www.make.com/en/register?pc=duncan"
   - name: "Blotato"
     url: "https://blotato.com/?ref=duncan"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - automation
+  - python
+  - workflow
 ---
 
 ## Key Takeaways

@@ -88,6 +88,12 @@ tools:
     url: null
   - name: "AI Scientist"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - chatgpt
+  - model-training
 ---
 
 ## Key Takeaways

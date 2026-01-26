@@ -60,6 +60,14 @@ tools:
     url: "https://betterstack.com/"
   - name: "GitHub"
     url: "https://github.com"
+categories:
+  - "Web Development"
+  - "Business & Career"
+tags:
+  - tailwind
+  - ai-coding
+  - monetization
+  - saas
 ---
 
 ## Key Takeaways

@@ -48,6 +48,15 @@ tools:
     url: null
   - name: "Windsurf"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - agents
+  - testing
+  - best-practices
+  - architecture
 ---
 
 ## Key Takeaways

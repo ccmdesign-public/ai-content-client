@@ -77,6 +77,14 @@ tools:
     url: "https://claude.com/download"
   - name: "Claude for Desktop"
     url: "https://claude.com/download"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - prompt-engineering
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

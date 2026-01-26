@@ -75,6 +75,14 @@ tools:
     url: null
   - name: "Midjourney"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - gemini
+  - chatgpt
+  - claude
+  - model-training
 ---
 
 ## Key Takeaways

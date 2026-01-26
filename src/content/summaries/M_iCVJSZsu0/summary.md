@@ -107,6 +107,16 @@ tools:
     url: null
   - name: "Terminal"
     url: null
+categories:
+  - "Tools & Productivity"
+  - "AI & Machine Learning"
+tags:
+  - claude
+  - ai-coding
+  - terminal
+  - automation
+  - workflow
+  - agents
 ---
 
 ## Key Takeaways

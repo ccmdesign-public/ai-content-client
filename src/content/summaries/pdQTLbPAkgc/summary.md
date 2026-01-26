@@ -84,6 +84,16 @@ tools:
     url: null
   - name: "Qwen2-VL"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - indie-hacker
+  - automation
+  - embeddings
 ---
 
 ## Key Takeaways

@@ -36,6 +36,14 @@ tools:
     url: null
   - name: "Wiz"
     url: null
+categories:
+  - "Security"
+  - "DevOps & Infrastructure"
+tags:
+  - aws
+  - vulnerability
+  - ci-cd
+  - best-practices
 ---
 
 ## Key Takeaways

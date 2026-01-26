@@ -141,6 +141,10 @@ ai:
 tools:
   - name: "ConvertKit"
     url: "https://cleananddelicious.ck.page/weeklynewsletter"
+categories:
+  - "Tools & Productivity"
+tags:
+  - workflow
 ---
 
 ## Key Takeaways

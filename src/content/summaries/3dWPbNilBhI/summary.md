@@ -34,6 +34,13 @@ tools:
     url: null
   - name: "Claude"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - gemini
+  - agents
 ---
 
 ## Key Takeaways

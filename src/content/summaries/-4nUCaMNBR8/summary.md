@@ -54,6 +54,16 @@ tools:
     url: null
   - name: "Docker"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - agents
+  - llm
+  - automation
+  - workflow
+  - claude
 ---
 
 ## Key Takeaways

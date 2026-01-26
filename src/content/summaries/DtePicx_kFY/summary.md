@@ -196,6 +196,13 @@ tools:
     url: "https://cyber.fund/"
   - name: "Rescript"
     url: "https://app.rescript.info/"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - model-training
+  - architecture
+  - nlp
 ---
 
 ## Key Takeaways

@@ -70,6 +70,14 @@ tools:
     url: null
   - name: "OmniDoc bench"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - rag
+  - computer-vision
+  - model-training
+  - performance
 ---
 
 ## Key Takeaways

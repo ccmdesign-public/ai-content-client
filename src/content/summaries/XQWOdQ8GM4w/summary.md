@@ -57,6 +57,15 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - claude
+  - prompt-engineering
+  - rag
+  - ai-coding
+  - best-practices
 ---
 
 ## Key Takeaways

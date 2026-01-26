@@ -41,6 +41,12 @@ tools:
     url: null
   - name: "Server-Sent Events"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - agents
+  - architecture
+  - api-design
 ---
 
 ## Key Takeaways

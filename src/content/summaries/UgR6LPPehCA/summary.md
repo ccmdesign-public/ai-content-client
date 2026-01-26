@@ -54,6 +54,11 @@ tools:
     url: null
   - name: "Nano Banana Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - gemini
 ---
 
 ## Key Takeaways

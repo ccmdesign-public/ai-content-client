@@ -72,6 +72,15 @@ tools:
     url: null
   - name: "Visual Studio Code"
     url: null
+categories:
+  - "Tools & Productivity"
+  - "AI & Machine Learning"
+tags:
+  - git
+  - vscode
+  - ai-coding
+  - copilot
+  - workflow
 ---
 
 ## Key Takeaways

@@ -72,6 +72,16 @@ tools:
     url: null
   - name: "Depot"
     url: "https://soydev.link/depot"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - ai-coding
+  - copilot
+  - agents
+  - career-growth
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

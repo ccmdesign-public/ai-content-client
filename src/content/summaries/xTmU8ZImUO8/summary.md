@@ -107,6 +107,15 @@ tools:
     url: null
   - name: "LangGraph"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - rag
+  - agents
+  - python
+  - embeddings
 ---
 
 ## Key Takeaways

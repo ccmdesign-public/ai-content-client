@@ -113,6 +113,15 @@ tools:
     url: null
   - name: "Rovo"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - design-systems
+  - figma
+  - ai-coding
+  - tailwind
+  - prompt-engineering
 ---
 
 ## Key Takeaways

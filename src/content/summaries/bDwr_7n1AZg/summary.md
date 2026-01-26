@@ -89,6 +89,16 @@ tools:
     url: null
   - name: "Radix UI"
     url: null
+categories:
+  - "Programming"
+  - "Mobile Development"
+tags:
+  - rust
+  - react-native
+  - flutter
+  - tailwind
+  - ios
+  - android
 ---
 
 ## Key Takeaways

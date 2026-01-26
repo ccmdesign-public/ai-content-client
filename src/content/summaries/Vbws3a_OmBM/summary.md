@@ -51,6 +51,14 @@ tools:
     url: null
   - name: "Omnihuman"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - gemini
+  - ai-coding
+  - agents
+  - nlp
 ---
 
 ## Key Takeaways

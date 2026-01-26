@@ -49,6 +49,15 @@ tools:
     url: null
   - name: "Claude Skills"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

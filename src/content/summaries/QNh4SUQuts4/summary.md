@@ -141,6 +141,16 @@ tools:
     url: null
   - name: "Apple Health"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - gemini
+  - ai-coding
+  - ui
+  - ux
+  - react
+  - tailwind
 ---
 
 ## Key Takeaways

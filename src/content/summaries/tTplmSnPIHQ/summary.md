@@ -51,6 +51,14 @@ tools:
     url: null
   - name: "Google Workspace"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - gemini
+  - llm
+  - prompt-engineering
+  - workflow
 ---
 
 ## Key Takeaways

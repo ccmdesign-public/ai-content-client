@@ -28,6 +28,14 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "Web Development"
+  - "Product & Design"
+tags:
+  - accessibility
+  - llm
+  - ux
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -89,6 +89,15 @@ tools:
     url: null
   - name: "Shadcn UI"
     url: null
+categories:
+  - "Web Development"
+  - "Product & Design"
+tags:
+  - react
+  - tailwind
+  - design-systems
+  - accessibility
+  - ai-coding
 ---
 
 ## Key Takeaways

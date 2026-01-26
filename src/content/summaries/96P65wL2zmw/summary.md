@@ -80,6 +80,15 @@ tools:
     url: null
   - name: "Knowledge Graphs"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - llm
+  - gemini
+  - rag
+  - python
+  - data-pipeline
 ---
 
 ## Key Takeaways

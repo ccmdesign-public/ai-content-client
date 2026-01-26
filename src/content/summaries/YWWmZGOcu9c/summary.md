@@ -89,6 +89,13 @@ ai:
   processingTimeMs: 80120
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools: []
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - career-growth
+  - llm
+  - best-practices
 ---
 
 ## Key Takeaways

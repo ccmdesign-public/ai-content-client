@@ -51,6 +51,12 @@ ai:
   processingTimeMs: 36926
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools: []
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - model-training
+  - agents
 ---
 
 ## Key Takeaways

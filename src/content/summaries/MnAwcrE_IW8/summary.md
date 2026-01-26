@@ -116,6 +116,10 @@ ai:
   totalTokens: 4201
   processingTimeMs: 18206
 tools: []
+categories:
+  - "Product & Design"
+tags:
+  - best-practices
 ---
 
 ## Key Takeaways

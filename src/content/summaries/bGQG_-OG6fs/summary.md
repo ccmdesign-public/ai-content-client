@@ -74,6 +74,12 @@ tools:
     url: null
   - name: "Google Ads"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - analytics
+  - monetization
+  - product-strategy
 ---
 
 ## Key Takeaways

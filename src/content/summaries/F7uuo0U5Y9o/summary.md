@@ -85,6 +85,10 @@ ai:
   totalTokens: 3741
   processingTimeMs: 15614
 tools: []
+categories:
+  - "Tools & Productivity"
+tags:
+  - workflow
 ---
 
 ## Key Takeaways

@@ -116,6 +116,11 @@ ai:
   totalTokens: 6919
   processingTimeMs: 17249
 tools: []
+categories:
+  - "Data & Analytics"
+tags:
+  - analytics
+  - best-practices
 ---
 
 ## Key Takeaways

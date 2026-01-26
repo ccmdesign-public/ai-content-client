@@ -103,6 +103,15 @@ tools:
     url: null
   - name: "Things"
     url: "https://culturedcode.com/things/"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - agents
+  - ai-coding
+  - startup
+  - indie-hacker
 ---
 
 ## Key Takeaways

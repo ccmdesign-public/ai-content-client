@@ -48,6 +48,14 @@ tools:
     url: null
   - name: "VS Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - vscode
+  - performance
 ---
 
 ## Key Takeaways

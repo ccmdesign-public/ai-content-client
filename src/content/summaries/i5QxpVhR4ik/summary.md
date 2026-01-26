@@ -64,6 +64,10 @@ ai:
   totalTokens: 3713
   processingTimeMs: 17928
 tools: []
+categories:
+  - "Tools & Productivity"
+tags:
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -38,6 +38,11 @@ ai:
   totalTokens: 4560
   processingTimeMs: 15482
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - leadership
+  - career-growth
 ---
 
 ## Key Takeaways

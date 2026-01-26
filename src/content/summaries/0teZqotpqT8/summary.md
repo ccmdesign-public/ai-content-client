@@ -62,6 +62,13 @@ ai:
 tools:
   - name: "Lovable"
     url: "https://lovable.app"
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - career-growth
+  - llm
+  - interviewing
 ---
 
 ## Key Takeaways

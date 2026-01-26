@@ -89,6 +89,14 @@ tools:
     url: null
   - name: "apt"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Security"
+tags:
+  - docker
+  - kubernetes
+  - security
+  - best-practices
 ---
 
 ## Key Takeaways

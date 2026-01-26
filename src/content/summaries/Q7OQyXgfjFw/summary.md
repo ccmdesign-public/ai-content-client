@@ -56,6 +56,15 @@ ai:
 tools:
   - name: "Nano Banana Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tags:
+  - llm
+  - agents
+  - api-design
+  - saas
+  - automation
 ---
 
 ## Key Takeaways

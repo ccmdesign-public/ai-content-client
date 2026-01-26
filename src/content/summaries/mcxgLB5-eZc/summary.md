@@ -108,6 +108,15 @@ tools:
     url: null
   - name: "Ruby on Rails"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - best-practices
+  - architecture
+  - workflow
 ---
 
 ## Key Takeaways

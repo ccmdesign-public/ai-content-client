@@ -114,6 +114,15 @@ tools:
     url: null
   - name: "Excel"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - automation
+  - workflow
+  - copilot
 ---
 
 ## Key Takeaways

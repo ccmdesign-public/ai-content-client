@@ -105,6 +105,16 @@ tools:
     url: null
   - name: "MROS"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - agents
+  - claude
+  - workflow
+  - automation
+  - best-practices
 ---
 
 ## Key Takeaways

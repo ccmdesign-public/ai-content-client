@@ -54,6 +54,16 @@ tools:
     url: null
   - name: "Agent OS"
     url: "https://buildermethods.com/agent-os"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - claude
+  - chatgpt
+  - workflow
+  - agents
+  - best-practices
 ---
 
 ## Key Takeaways

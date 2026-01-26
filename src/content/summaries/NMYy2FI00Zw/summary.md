@@ -22,6 +22,13 @@ ai:
   totalTokens: 1756
   processingTimeMs: 93867
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - saas
+  - monetization
+  - product-strategy
 ---
 
 ## Key Takeaways

@@ -53,6 +53,13 @@ tools:
     url: null
   - name: "OpenAI"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Mobile Development"
+tags:
+  - ai-coding
+  - llm
+  - startup
 ---
 
 ## Key Takeaways

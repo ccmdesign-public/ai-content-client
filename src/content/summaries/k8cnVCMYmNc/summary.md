@@ -71,6 +71,15 @@ tools:
     url: null
   - name: "Codex"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - agents
+  - llm
+  - python
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

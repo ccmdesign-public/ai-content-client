@@ -92,6 +92,15 @@ tools:
     url: null
   - name: "GPT-5"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

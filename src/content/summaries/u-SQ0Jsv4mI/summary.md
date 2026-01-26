@@ -150,6 +150,16 @@ tools:
     url: "https://openrouter.ai/state-of-ai"
   - name: "Artificial Analysis"
     url: "https://artificialanalysis.ai/models"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - agents
+  - ai-coding
+  - claude
+  - gemini
+  - architecture
+  - career-growth
 ---
 
 ## Key Takeaways

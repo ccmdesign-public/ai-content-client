@@ -53,6 +53,13 @@ tools:
     url: null
   - name: "Google Search"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - monetization
+  - product-strategy
 ---
 
 ## Key Takeaways

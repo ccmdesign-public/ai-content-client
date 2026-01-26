@@ -70,6 +70,15 @@ tools:
     url: null
   - name: "Playwright"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - copilot
+  - vscode
+  - agents
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

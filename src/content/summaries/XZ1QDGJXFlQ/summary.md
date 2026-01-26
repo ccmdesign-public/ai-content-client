@@ -77,6 +77,15 @@ tools:
     url: null
   - name: "DeepSeek"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - prompt-engineering
+  - chatgpt
+  - gemini
+  - claude
+  - rag
 ---
 
 ## Key Takeaways

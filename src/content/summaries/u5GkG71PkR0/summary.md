@@ -99,6 +99,16 @@ tools:
     url: null
   - name: "Astral UV"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - python
+  - testing
+  - automation
 ---
 
 ## Key Takeaways

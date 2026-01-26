@@ -110,6 +110,16 @@ tools:
     url: null
   - name: "Sparkle"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - copilot
+  - figma
+  - architecture
 ---
 
 ## Key Takeaways

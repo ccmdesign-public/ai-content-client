@@ -73,6 +73,14 @@ tools:
     url: null
   - name: "Bventi"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - monetization
+  - saas
+  - indie-hacker
+  - startup
+  - llm
 ---
 
 ## Key Takeaways

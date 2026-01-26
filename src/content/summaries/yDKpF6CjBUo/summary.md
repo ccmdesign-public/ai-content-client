@@ -90,6 +90,15 @@ tools:
     url: null
   - name: "Google Ads"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - gemini
+  - agents
+  - api-design
+  - gcp
 ---
 
 ## Key Takeaways

@@ -118,6 +118,13 @@ tools:
     url: "https://latecheckout.agency/"
   - name: "The Vibe Marketer"
     url: "https://www.thevibemarketer.com/"
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - indie-hacker
+  - saas
+  - monetization
 ---
 
 ## Key Takeaways

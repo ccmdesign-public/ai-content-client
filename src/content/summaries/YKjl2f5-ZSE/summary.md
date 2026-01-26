@@ -59,6 +59,13 @@ tools:
     url: null
   - name: "SketchyBar"
     url: null
+categories:
+  - "Tools & Productivity"
+tags:
+  - terminal
+  - automation
+  - workflow
+  - scripting
 ---
 
 ## Key Takeaways

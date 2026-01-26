@@ -46,6 +46,14 @@ tools:
     url: null
   - name: "GPT-5"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - model-training
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -97,6 +97,15 @@ tools:
     url: null
   - name: "NotebookLM"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - chatgpt
+  - gemini
+  - claude
+  - llm
+  - workflow
 ---
 
 ## Key Takeaways

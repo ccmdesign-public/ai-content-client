@@ -93,6 +93,15 @@ tools:
     url: "https://www.reddit.com"
   - name: "LinkedIn"
     url: "https://www.linkedin.com"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - agents
+  - automation
+  - product-strategy
+  - best-practices
 ---
 
 ## Key Takeaways

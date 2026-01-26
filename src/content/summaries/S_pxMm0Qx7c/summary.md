@@ -99,6 +99,16 @@ tools:
     url: null
   - name: "Slack"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - workflow
+  - automation
+  - best-practices
+  - terminal
 ---
 
 ## Key Takeaways

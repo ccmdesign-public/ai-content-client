@@ -58,6 +58,14 @@ tools:
     url: null
   - name: "GPT-5.1"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - claude
+  - llm
+  - agents
+  - gemini
 ---
 
 ## Key Takeaways

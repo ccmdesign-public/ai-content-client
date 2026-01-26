@@ -57,6 +57,13 @@ tools:
     url: null
   - name: "Amazon CloudFront"
     url: null
+categories:
+  - "Security"
+  - "DevOps & Infrastructure"
+tags:
+  - aws
+  - vulnerability
+  - architecture
 ---
 
 ## Key Takeaways

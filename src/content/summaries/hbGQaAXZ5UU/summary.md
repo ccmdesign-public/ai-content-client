@@ -77,6 +77,14 @@ ai:
 tools:
   - name: "Laravel"
     url: "https://lrvl.co/eo-channel"
+categories:
+  - "Business & Career"
+  - "Product & Design"
+tags:
+  - startup
+  - user-research
+  - product-strategy
+  - saas
 ---
 
 ## Key Takeaways

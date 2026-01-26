@@ -46,6 +46,12 @@ tools:
     url: null
   - name: "Amazon SNS"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+tags:
+  - aws
+  - architecture
+  - performance
 ---
 
 ## Key Takeaways

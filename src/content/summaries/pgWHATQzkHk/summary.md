@@ -100,6 +100,16 @@ tools:
     url: null
   - name: "OpenAI API"
     url: null
+categories:
+  - "Tools & Productivity"
+  - "DevOps & Infrastructure"
+tags:
+  - typescript
+  - react
+  - docker
+  - kubernetes
+  - postgresql
+  - workflow
 ---
 
 ## Key Takeaways

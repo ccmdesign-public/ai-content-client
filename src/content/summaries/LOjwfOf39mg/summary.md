@@ -79,6 +79,15 @@ tools:
     url: null
   - name: "OpenCode"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - copilot
+  - claude
+  - agents
+  - terminal
 ---
 
 ## Key Takeaways

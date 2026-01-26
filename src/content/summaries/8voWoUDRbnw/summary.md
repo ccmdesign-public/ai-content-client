@@ -55,6 +55,14 @@ ai:
   totalTokens: 2469
   processingTimeMs: 13674
 tools: []
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - product-strategy
+  - leadership
+  - best-practices
 ---
 
 ## Key Takeaways

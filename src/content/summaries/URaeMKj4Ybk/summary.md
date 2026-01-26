@@ -26,6 +26,12 @@ tools:
     url: null
   - name: "Orlando"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - saas
+  - monetization
 ---
 
 ## Key Takeaways

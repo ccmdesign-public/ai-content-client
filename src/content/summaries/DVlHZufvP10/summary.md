@@ -43,6 +43,16 @@ tools:
     url: null
   - name: "React"
     url: null
+categories:
+  - "Web Development"
+  - "AI & Machine Learning"
+tags:
+  - claude
+  - ai-coding
+  - react
+  - nextjs
+  - tailwind
+  - ui
 ---
 
 The video explores the integration of the "frontend-design" plugin within Claude Code, Anthropic’s agentic command-line tool. This combination represents a significant shift in developer experience, moving from manual CSS/component writing to high-level architectural prompting.

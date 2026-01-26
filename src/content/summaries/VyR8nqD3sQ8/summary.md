@@ -102,6 +102,14 @@ tools:
     url: "https://instagram.com/thedankoe"
   - name: "LinkedIn"
     url: "https://linkedin.com/in/thedankoe"
+categories:
+  - "Business & Career"
+tags:
+  - indie-hacker
+  - saas
+  - monetization
+  - career-growth
+  - startup
 ---
 
 ## Key Takeaways

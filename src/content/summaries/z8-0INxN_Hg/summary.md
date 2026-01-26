@@ -70,6 +70,15 @@ ai:
   totalTokens: 2027
   processingTimeMs: 11147
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - llm
+  - rag
+  - embeddings
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

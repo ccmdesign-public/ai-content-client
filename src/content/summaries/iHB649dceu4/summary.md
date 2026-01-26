@@ -56,6 +56,15 @@ tools:
     url: null
   - name: "Language Server Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - vscode
+  - embeddings
+  - architecture
+  - llm
 ---
 
 ## Key Takeaways

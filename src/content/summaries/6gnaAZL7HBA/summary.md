@@ -51,6 +51,12 @@ ai:
   processingTimeMs: 20156
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools: []
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - model-training
+  - best-practices
 ---
 
 ## Key Takeaways

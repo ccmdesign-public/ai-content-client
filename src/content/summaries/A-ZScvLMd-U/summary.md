@@ -96,6 +96,15 @@ tools:
     url: null
   - name: "Node.js"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - ai-coding
+  - prompt-engineering
+  - automation
 ---
 
 ## Key Takeaways

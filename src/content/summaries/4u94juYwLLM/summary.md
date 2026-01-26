@@ -69,6 +69,15 @@ tools:
     url: "https://www.figma.com/figjam"
   - name: "Claude Artifacts"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - ux
+  - ui
+  - figma
+  - design-systems
+  - ai-coding
 ---
 
 ## Key Takeaways

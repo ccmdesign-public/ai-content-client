@@ -38,6 +38,12 @@ tools:
     url: null
   - name: "Recall"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Security"
+tags:
+  - vulnerability
+  - compliance
 ---
 
 ## Key Takeaways

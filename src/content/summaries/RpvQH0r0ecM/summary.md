@@ -120,6 +120,16 @@ tools:
     url: "https://github.comankral"
   - name: "dev browser"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - ai-coding
+  - claude
+  - automation
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

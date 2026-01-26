@@ -54,6 +54,15 @@ tools:
     url: null
   - name: "GitHub Copilot"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - copilot
+  - claude
+  - prompt-engineering
+  - workflow
 ---
 
 ## Key Takeaways

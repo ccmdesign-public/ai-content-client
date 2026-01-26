@@ -62,6 +62,14 @@ tools:
     url: "https://zo.computer"
   - name: "OpenAI"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - architecture
+  - aws
+  - performance
 ---
 
 ## Key Takeaways

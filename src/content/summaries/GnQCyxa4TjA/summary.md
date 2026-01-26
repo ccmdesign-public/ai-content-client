@@ -79,6 +79,14 @@ tools:
     url: null
   - name: "SWE-bench Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - model-training
+  - ai-coding
+  - architecture
 ---
 
 ## Key Takeaways

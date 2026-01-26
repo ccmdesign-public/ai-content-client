@@ -73,6 +73,15 @@ tools:
     url: null
   - name: "GitHub"
     url: "https://github.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - copilot
+  - vscode
+  - agents
+  - workflow
+  - git
 ---
 
 ## Key Takeaways

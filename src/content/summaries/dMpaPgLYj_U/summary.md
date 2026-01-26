@@ -62,6 +62,16 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tags:
+  - ai-coding
+  - claude
+  - nextjs
+  - javascript
+  - tailwind
+  - gemini
 ---
 
 ## Key Takeaways

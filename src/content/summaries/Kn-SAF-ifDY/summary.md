@@ -84,6 +84,15 @@ tools:
     url: null
   - name: "Timo"
     url: "https://www.tiimoapp.com/?utm_source=departmentofproduct_newsletter"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - figma
+  - workflow
 ---
 
 ## Key Takeaways

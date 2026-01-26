@@ -83,6 +83,14 @@ tools:
     url: null
   - name: "Graphite"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - agents
+  - architecture
+  - security
+  - llm
 ---
 
 ## Key Takeaways

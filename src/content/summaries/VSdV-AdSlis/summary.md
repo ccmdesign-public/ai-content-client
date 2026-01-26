@@ -50,6 +50,16 @@ tools:
     url: null
   - name: "Okta"
     url: null
+categories:
+  - "Security"
+  - "AI & Machine Learning"
+tags:
+  - agents
+  - authentication
+  - oauth
+  - jwt
+  - api-design
+  - best-practices
 ---
 
 ## Key Takeaways

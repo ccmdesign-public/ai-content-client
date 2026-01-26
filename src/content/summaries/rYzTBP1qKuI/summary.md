@@ -88,6 +88,15 @@ tools:
     url: "https://github.com/"
   - name: "Kubernetes"
     url: null
+categories:
+  - "Tools & Productivity"
+  - "Web Development"
+tags:
+  - debugging
+  - vscode
+  - api-design
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

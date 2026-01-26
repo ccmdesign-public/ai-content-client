@@ -67,6 +67,14 @@ tools:
     url: "www.kpmg.us/ai"
   - name: "Vanta"
     url: "https://vanta.com/nlw"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - ai-coding
+  - startup
+  - monetization
 ---
 
 ## Key Takeaways

@@ -48,6 +48,15 @@ tools:
     url: "https://storytellingdb.com/go/perplexity"
   - name: "Claude 3.5 Sonnet"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - claude
+  - prompt-engineering
+  - automation
+  - workflow
 ---
 
 The video introduces a sophisticated automation workflow designed to move beyond generic AI writing and toward the specific, high-caliber craft required for award-winning short fiction (e.g., Hugo, Nebula, or Shirley Jackson awards). The core premise is that "award-winning" writing follows identifiable patterns of psychological resonance and structural precision that can be mapped and emulated.

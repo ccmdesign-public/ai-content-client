@@ -34,6 +34,14 @@ tools:
     url: null
   - name: "PNPM"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

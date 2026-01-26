@@ -63,6 +63,15 @@ tools:
     url: null
   - name: "n8n"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - agents
+  - testing
+  - debugging
+  - automation
 ---
 
 ## Key Takeaways

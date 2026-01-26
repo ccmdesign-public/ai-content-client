@@ -74,6 +74,14 @@ tools:
     url: null
   - name: "zlib"
     url: null
+categories:
+  - "Security"
+  - "Data & Analytics"
+tags:
+  - mongodb
+  - vulnerability
+  - debugging
+  - best-practices
 ---
 
 ## Key Takeaways

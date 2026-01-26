@@ -65,6 +65,17 @@ tools:
     url: null
   - name: "Lucene"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - claude
+  - gemini
+  - chatgpt
+  - ai-coding
+  - testing
+  - best-practices
 ---
 
 ## Key Takeaways

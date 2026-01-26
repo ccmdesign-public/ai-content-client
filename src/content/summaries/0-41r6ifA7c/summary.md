@@ -64,6 +64,17 @@ tools:
     url: null
   - name: "Final Cut"
     url: null
+categories:
+  - "Product & Design"
+  - "Business & Career"
+tags:
+  - ux
+  - ui
+  - figma
+  - indie-hacker
+  - product-strategy
+  - tailwind
+  - user-research
 ---
 
 ## Key Takeaways

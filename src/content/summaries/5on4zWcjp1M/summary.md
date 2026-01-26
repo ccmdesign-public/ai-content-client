@@ -78,6 +78,13 @@ ai:
 tools:
   - name: "Better Stack"
     url: "https://betterstack.com/"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - monitoring
+  - logging
 ---
 
 ## Key Takeaways

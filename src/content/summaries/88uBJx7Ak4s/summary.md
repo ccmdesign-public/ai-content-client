@@ -77,6 +77,14 @@ tools:
     url: null
   - name: "YouTube"
     url: null
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - saas
+  - monetization
+  - product-strategy
 ---
 
 ## Key Takeaways

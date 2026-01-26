@@ -53,6 +53,14 @@ tools:
     url: null
   - name: "Cerebras"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - aws
+  - startup
+  - chatgpt
 ---
 
 ## Key Takeaways

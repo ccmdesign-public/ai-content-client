@@ -64,6 +64,16 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - copilot
+  - agents
+  - prompt-engineering
+  - vscode
 ---
 
 ## Key Takeaways

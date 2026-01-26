@@ -82,6 +82,15 @@ tools:
     url: null
   - name: "Tailwind CSS"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - gemini
+  - claude
+  - chatgpt
+  - agents
 ---
 
 ## Key Takeaways

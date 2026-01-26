@@ -92,6 +92,14 @@ tools:
     url: null
   - name: "vLLM"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - api-design
+  - agents
+  - claude
 ---
 
 ## Key Takeaways

@@ -76,6 +76,14 @@ tools:
     url: "https://blog.cloudflare.com/code-mode/"
   - name: "Cursor"
     url: "https://cursor.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - performance
 ---
 
 ## Key Takeaways

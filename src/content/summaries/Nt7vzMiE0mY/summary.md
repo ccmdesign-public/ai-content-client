@@ -95,6 +95,15 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "Nano Banana Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - computer-vision
+  - agents
+  - automation
+  - product-strategy
 ---
 
 ## Key Takeaways

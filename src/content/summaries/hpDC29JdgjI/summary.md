@@ -109,6 +109,16 @@ tools:
     url: "https://manus.com"
   - name: "Devin"
     url: "https://www.cognition-labs.com"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - workflow
+  - startup
+  - best-practices
 ---
 
 ## Key Takeaways

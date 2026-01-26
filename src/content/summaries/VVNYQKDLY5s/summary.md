@@ -91,6 +91,15 @@ tools:
     url: null
   - name: "Pinecone"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - embeddings
+  - rag
+  - llm
+  - sql
+  - best-practices
 ---
 
 ## Key Takeaways

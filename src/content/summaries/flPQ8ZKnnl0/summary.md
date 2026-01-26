@@ -22,6 +22,14 @@ ai:
   totalTokens: 11621
   processingTimeMs: 105002
 tools: []
+categories:
+  - "Product & Design"
+tags:
+  - ux
+  - accessibility
+  - user-research
+  - design-systems
+  - best-practices
 ---
 
 ## Key Takeaways

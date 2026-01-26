@@ -59,6 +59,14 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - llm
+  - copilot
+  - terminal
 ---
 
 ## Key Takeaways

@@ -108,6 +108,15 @@ tools:
     url: null
   - name: "BM25"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - rag
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -81,6 +81,15 @@ tools:
     url: null
   - name: "Web Components"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tags:
+  - agents
+  - react
+  - vue
+  - design-systems
+  - api-design
 ---
 
 ## Key Takeaways

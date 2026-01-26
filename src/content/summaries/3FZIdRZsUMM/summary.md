@@ -65,6 +65,16 @@ tools:
     url: null
   - name: "ChatGPT"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - testing
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

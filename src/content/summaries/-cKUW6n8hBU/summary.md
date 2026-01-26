@@ -82,6 +82,16 @@ tools:
     url: null
   - name: "LangChain"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - prompt-engineering
+  - python
+  - architecture
+  - best-practices
+  - fine-tuning
 ---
 
 ## Key Takeaways

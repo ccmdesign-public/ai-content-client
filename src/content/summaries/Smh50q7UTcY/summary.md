@@ -63,6 +63,13 @@ tools:
     url: null
   - name: "Vio"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - gemini
+  - claude
+  - llm
 ---
 
 ## Key Takeaways

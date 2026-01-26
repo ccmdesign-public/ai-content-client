@@ -86,6 +86,14 @@ tools:
     url: "https://huggingface.co/collections/mistralai/ministral-3"
   - name: "ffmpeg"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - automation
+  - terminal
 ---
 
 ## Key Takeaways

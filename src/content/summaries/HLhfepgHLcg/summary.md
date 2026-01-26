@@ -121,6 +121,15 @@ tools:
     url: null
   - name: "Greptile"
     url: "https://greptile.com/go/berman"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - chatgpt
+  - computer-vision
+  - model-training
+  - aws
 ---
 
 ## Key Takeaways

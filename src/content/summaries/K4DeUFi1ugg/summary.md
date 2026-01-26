@@ -81,6 +81,15 @@ tools:
     url: null
   - name: "Phi-4"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - chatgpt
+  - claude
+  - gemini
+  - rag
+  - model-training
 ---
 
 ## Key Takeaways

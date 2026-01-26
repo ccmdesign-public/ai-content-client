@@ -55,6 +55,13 @@ tools:
     url: null
   - name: "Amazon S3"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Security"
+tags:
+  - aws
+  - encryption
+  - best-practices
 ---
 
 ## Key Takeaways

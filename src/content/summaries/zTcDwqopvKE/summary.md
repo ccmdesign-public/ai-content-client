@@ -99,6 +99,16 @@ ai:
 tools:
   - name: "Tactical Agentic Coding"
     url: "https://agenticengineer.com/tactical-agentic-coding?y=zTcDwqopvKE"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - agents
+  - ai-coding
+  - automation
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -145,6 +145,15 @@ tools:
     url: null
   - name: "StackAI"
     url: "https://bit.ly/4lkbvir"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - chatgpt
+  - claude
+  - gemini
+  - agents
+  - model-training
 ---
 
 ## Key Takeaways

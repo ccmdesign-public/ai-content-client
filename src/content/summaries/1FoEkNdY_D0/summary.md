@@ -52,6 +52,13 @@ ai:
   totalTokens: 1680
   processingTimeMs: 13336
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+categories:
+  - "DevOps & Infrastructure"
+  - "Security"
+tags:
+  - aws
+  - encryption
+  - compliance
 ---
 
 ## Key Takeaways

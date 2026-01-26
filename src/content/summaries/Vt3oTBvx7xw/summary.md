@@ -87,6 +87,16 @@ ai:
   totalTokens: 16291
   processingTimeMs: 32866
 tools: []
+categories:
+  - "Product & Design"
+  - "Business & Career"
+tags:
+  - ux
+  - ui
+  - design-systems
+  - leadership
+  - startup
+  - best-practices
 ---
 
 ## Key Takeaways

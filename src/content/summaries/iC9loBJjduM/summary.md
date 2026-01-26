@@ -71,6 +71,15 @@ tools:
     url: null
   - name: "Google AI Studio"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - chatgpt
+  - agents
+  - architecture
 ---
 
 ## Key Takeaways

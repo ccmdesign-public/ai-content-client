@@ -88,6 +88,16 @@ tools:
     url: null
   - name: "MMEB Leaderboard"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tags:
+  - llm
+  - embeddings
+  - rag
+  - computer-vision
+  - nlp
+  - model-training
 ---
 
 ## Key Takeaways

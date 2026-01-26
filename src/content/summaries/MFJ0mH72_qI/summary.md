@@ -77,6 +77,17 @@ tools:
     url: null
   - name: "OpenAI"
     url: null
+categories:
+  - "Web Development"
+  - "AI & Machine Learning"
+tags:
+  - react
+  - nextjs
+  - tailwind
+  - ai-coding
+  - testing
+  - design-systems
+  - agents
 ---
 
 ## Key Takeaways

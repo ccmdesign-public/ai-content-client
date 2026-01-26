@@ -85,6 +85,15 @@ tools:
     url: null
   - name: "Dash"
     url: null
+categories:
+  - "Web Development"
+  - "Programming"
+tags:
+  - python
+  - react
+  - typescript
+  - tailwind
+  - best-practices
 ---
 
 ## Key Takeaways

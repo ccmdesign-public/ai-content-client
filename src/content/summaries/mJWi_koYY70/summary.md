@@ -53,6 +53,14 @@ tools:
     url: null
   - name: "Stripe APIs"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

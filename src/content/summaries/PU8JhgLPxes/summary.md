@@ -83,6 +83,16 @@ tools:
     url: null
   - name: "Perplexity"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - gemini
+  - agents
+  - automation
+  - workflow
+  - python
 ---
 
 ## Key Takeaways

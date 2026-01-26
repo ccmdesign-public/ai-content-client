@@ -63,6 +63,16 @@ tools:
     url: null
   - name: "Sora"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - saas
+  - indie-hacker
+  - monetization
+  - startup
 ---
 
 ## Key Takeaways

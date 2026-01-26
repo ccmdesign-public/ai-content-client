@@ -35,6 +35,14 @@ tools:
     url: null
   - name: "Shopify"
     url: null
+categories:
+  - "Product & Design"
+tags:
+  - ux
+  - ui
+  - design-systems
+  - accessibility
+  - user-research
 ---
 
 ## Key Takeaways

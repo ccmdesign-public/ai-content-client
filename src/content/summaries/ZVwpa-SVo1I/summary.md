@@ -57,6 +57,13 @@ tools:
     url: null
   - name: "CloudFront"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+tags:
+  - aws
+  - architecture
+  - performance
+  - encryption
 ---
 
 ## Key Takeaways

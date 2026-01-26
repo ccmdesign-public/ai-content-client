@@ -102,6 +102,12 @@ tools:
     url: "https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%E2%80%99s-new-in-microsoft-teams--december-2025/4482056"
   - name: "tiny-diffusion"
     url: "https://github.com/nathan-barry/tiny-diffusion"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - rag
 ---
 
 The video outlines a series of pivotal updates in the AI landscape, focusing on enterprise expansion, architectural efficiency, and autonomous agent capabilities.

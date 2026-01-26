@@ -50,6 +50,13 @@ ai:
   totalTokens: 2702
   processingTimeMs: 23293
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - product-strategy
+  - user-research
+  - saas
 ---
 
 ## Key Takeaways

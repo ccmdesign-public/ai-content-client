@@ -70,6 +70,14 @@ tools:
     url: null
   - name: "Manus"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - agents
+  - llm
+  - rag
+  - architecture
+  - prompt-engineering
 ---
 
 ## Key Takeaways

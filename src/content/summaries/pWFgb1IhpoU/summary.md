@@ -72,6 +72,14 @@ ai:
   totalTokens: 5879
   processingTimeMs: 59665
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - llm
+  - product-strategy
+  - best-practices
 ---
 
 ## Key Takeaways

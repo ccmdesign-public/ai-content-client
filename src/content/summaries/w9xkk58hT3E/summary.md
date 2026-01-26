@@ -59,6 +59,16 @@ tools:
     url: null
   - name: "Grok"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - gemini
+  - claude
+  - chatgpt
+  - agents
+  - product-strategy
 ---
 
 ## Key Takeaways

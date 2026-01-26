@@ -49,6 +49,13 @@ tools:
     url: null
   - name: "AutoGen"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - model-training
+  - python
 ---
 
 ## Key Takeaways

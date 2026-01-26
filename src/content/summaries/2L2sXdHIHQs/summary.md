@@ -57,6 +57,12 @@ tools:
     url: null
   - name: "Discord"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - product-strategy
+  - saas
+  - startup
 ---
 
 ## Key Takeaways

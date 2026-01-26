@@ -116,6 +116,14 @@ tools:
     url: null
   - name: "LiveKit CLI"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - agents
+  - llm
+  - python
+  - api-design
 ---
 
 ## Key Takeaways

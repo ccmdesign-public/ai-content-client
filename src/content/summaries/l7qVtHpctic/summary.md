@@ -105,6 +105,14 @@ tools:
     url: "https://github.com/kenneth-liao/mcp-launchpad"
   - name: "AI Launchpad Marketplace"
     url: "https://github.com/kenneth-liao/ai-launchpad-marketplace"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - performance
 ---
 
 ## Key Takeaways

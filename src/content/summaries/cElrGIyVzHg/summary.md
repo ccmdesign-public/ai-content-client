@@ -44,6 +44,16 @@ tools:
     url: null
   - name: "PowerShell"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Security"
+tags:
+  - git
+  - aws
+  - azure
+  - gcp
+  - terminal
+  - encryption
 ---
 
 ## Key Takeaways

@@ -60,6 +60,14 @@ tools:
     url: null
   - name: "conda"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - python
+  - performance
+  - architecture
 ---
 
 ## Key Takeaways

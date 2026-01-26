@@ -81,6 +81,14 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - testing
+  - ai-coding
+  - automation
+  - best-practices
 ---
 
 ## Key Takeaways

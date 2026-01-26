@@ -61,6 +61,12 @@ tools:
     url: null
   - name: "Mi455 GPU"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - gemini
+  - agents
 ---
 
 ## Key Takeaways

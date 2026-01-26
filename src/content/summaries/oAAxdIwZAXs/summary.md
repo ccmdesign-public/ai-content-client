@@ -66,6 +66,12 @@ ai:
   totalTokens: 3631
   processingTimeMs: 13076
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - career-growth
+  - leadership
 ---
 
 ## Key Takeaways

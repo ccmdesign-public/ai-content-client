@@ -48,6 +48,15 @@ tools:
     url: null
   - name: "Git"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - agents
+  - git
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

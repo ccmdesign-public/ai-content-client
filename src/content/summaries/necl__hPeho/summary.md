@@ -110,6 +110,15 @@ tools:
     url: null
   - name: "Windsurf"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - workflow
+  - git
+  - best-practices
 ---
 
 ## Key Takeaways

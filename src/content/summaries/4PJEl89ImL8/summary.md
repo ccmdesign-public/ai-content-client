@@ -128,6 +128,14 @@ tools:
     url: "https://adenhq.com/?ref=manuagi"
   - name: "Hal9"
     url: "https://hal9.com/?ref=manuagi"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - ai-coding
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

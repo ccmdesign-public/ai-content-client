@@ -66,6 +66,14 @@ tools:
     url: "ssh terminal.shop"
   - name: "boot.dev"
     url: "https://boot.dev/prime"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - copilot
+  - vscode
 ---
 
 ## Key Takeaways

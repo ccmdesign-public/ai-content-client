@@ -45,6 +45,15 @@ tools:
     url: null
   - name: "DS-Bench Light"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - prompt-engineering
+  - agents
+  - llm
+  - ai-coding
+  - testing
+  - best-practices
 ---
 
 ## Key Takeaways

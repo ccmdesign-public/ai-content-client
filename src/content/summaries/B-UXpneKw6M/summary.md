@@ -96,6 +96,16 @@ tools:
     url: "https://youtu.be/MFJ0mH72_qI?si=8GN4_7kMy0D9HVip"
   - name: "Claude Browser Extension"
     url: "https://youtu.be/NuKrtiJqW3Y?si=7Hi_ubVdlC8jalFC"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - testing
+  - git
+  - workflow
 ---
 
 ## Key Takeaways

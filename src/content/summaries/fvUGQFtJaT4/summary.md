@@ -82,6 +82,14 @@ tools:
     url: "https://github.com/anthropics/skills/"
   - name: "Gemini CLI extensions"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - claude
+  - agents
+  - prompt-engineering
+  - python
+  - automation
 ---
 
 ## Key Takeaways

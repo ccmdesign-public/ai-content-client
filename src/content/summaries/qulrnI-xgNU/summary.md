@@ -113,6 +113,16 @@ tools:
     url: null
   - name: "OpenRouter"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - automation
+  - docker
+  - workflow
 ---
 
 ## Key Takeaways

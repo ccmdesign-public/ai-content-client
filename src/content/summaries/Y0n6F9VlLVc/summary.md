@@ -120,6 +120,17 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - ai-coding
+  - claude
+  - figma
+  - tailwind
+  - ux
+  - ui
+  - design-systems
 ---
 
 ## Key Takeaways

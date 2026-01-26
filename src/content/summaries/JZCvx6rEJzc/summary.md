@@ -62,6 +62,14 @@ ai:
   totalTokens: 2822
   processingTimeMs: 11340
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - rag
+  - data-pipeline
+  - product-strategy
 ---
 
 ## Key Takeaways

@@ -53,6 +53,16 @@ tools:
     url: null
   - name: "App Store"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - startup
+  - indie-hacker
+  - automation
 ---
 
 ## Key Takeaways

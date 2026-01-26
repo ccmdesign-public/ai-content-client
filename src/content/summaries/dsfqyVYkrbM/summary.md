@@ -80,6 +80,13 @@ tools:
     url: null
   - name: "Wikipedia"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - llm
+  - career-growth
 ---
 
 ## Key Takeaways

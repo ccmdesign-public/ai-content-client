@@ -76,6 +76,16 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - ai-coding
+  - typescript
+  - terminal
+  - automation
 ---
 
 ## Key Takeaways

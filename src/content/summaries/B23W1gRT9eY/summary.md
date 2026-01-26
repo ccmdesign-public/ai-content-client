@@ -98,6 +98,16 @@ tools:
     url: null
   - name: "Notion"
     url: "https://www.notion.so"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - gemini
+  - agents
+  - automation
+  - workflow
+  - career-growth
 ---
 
 ## Key Takeaways

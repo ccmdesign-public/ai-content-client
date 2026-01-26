@@ -87,6 +87,14 @@ tools:
     url: null
   - name: "SST"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - api-design
+  - monetization
 ---
 
 ## Key Takeaways

@@ -77,6 +77,17 @@ tools:
     url: null
   - name: "GitHub Copilot"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - ai-coding
+  - claude
+  - copilot
+  - saas
+  - indie-hacker
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

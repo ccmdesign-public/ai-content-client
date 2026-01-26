@@ -80,6 +80,13 @@ tools:
     url: null
   - name: "GPT-4"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - computer-vision
+  - model-training
+  - architecture
 ---
 
 ## Key Takeaways

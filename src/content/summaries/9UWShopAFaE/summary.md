@@ -49,6 +49,15 @@ tools:
     url: "https://www.kpmg.us/ai"
   - name: "Vanta"
     url: "https://vanta.com/nlw"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - agents
+  - leadership
+  - product-strategy
+  - security
 ---
 
 ## Key Takeaways

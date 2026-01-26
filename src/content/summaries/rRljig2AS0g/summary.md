@@ -109,6 +109,15 @@ tools:
     url: null
   - name: "Figma"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - ai-coding
+  - figma
+  - design-systems
+  - ux
+  - career-growth
 ---
 
 ## Key Takeaways

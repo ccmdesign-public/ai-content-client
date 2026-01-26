@@ -98,6 +98,15 @@ ai:
 tools:
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - agents
+  - ai-coding
+  - architecture
+  - automation
+  - best-practices
 ---
 
 ## Key Takeaways

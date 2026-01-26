@@ -113,6 +113,16 @@ tools:
     url: null
   - name: "LLM proxy"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - ai-coding
+  - copilot
+  - career-growth
+  - startup
+  - agents
 ---
 
 ## Key Takeaways

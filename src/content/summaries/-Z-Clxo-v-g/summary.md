@@ -96,6 +96,15 @@ tools:
     url: null
   - name: "Rev"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - nlp
+  - llm
+  - automation
+  - python
+  - terminal
 ---
 
 ## Key Takeaways

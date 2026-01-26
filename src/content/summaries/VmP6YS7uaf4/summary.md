@@ -93,6 +93,15 @@ tools:
     url: null
   - name: "Custom GPTs"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - chatgpt
+  - gemini
+  - llm
+  - workflow
+  - best-practices
 ---
 
 ## Key Takeaways

@@ -98,6 +98,16 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - agents
+  - ai-coding
+  - automation
+  - testing
+  - scripting
 ---
 
 ## Key Takeaways

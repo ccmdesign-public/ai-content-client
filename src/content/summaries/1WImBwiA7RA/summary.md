@@ -67,6 +67,15 @@ tools:
     url: null
   - name: "Vercel AI SDK"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - ai-coding
+  - claude
+  - agents
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

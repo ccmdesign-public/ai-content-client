@@ -31,6 +31,15 @@ tools:
     url: null
   - name: "Claude"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - ai-coding
+  - llm
+  - copilot
+  - career-growth
+  - best-practices
 ---
 
 ## Key Takeaways

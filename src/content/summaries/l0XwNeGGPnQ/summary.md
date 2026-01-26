@@ -62,6 +62,13 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "IBM Cyber Range"
     url: "https://ibm.biz/BdbW4L"
+categories:
+  - "Security"
+  - "Business & Career"
+tags:
+  - vulnerability
+  - best-practices
+  - leadership
 ---
 
 ## Key Takeaways

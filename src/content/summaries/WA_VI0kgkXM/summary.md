@@ -105,6 +105,14 @@ tools:
     url: "https://gemini.google.com"
   - name: "Google AI Studio"
     url: "https://aistudio.google.com"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - gemini
+  - llm
+  - computer-vision
+  - ui
 ---
 
 ## Key Takeaways

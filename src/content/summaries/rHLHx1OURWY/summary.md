@@ -67,6 +67,13 @@ ai:
 tools:
   - name: "Grok"
     url: "https://grok.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - product-strategy
+  - best-practices
 ---
 
 ## Key Takeaways

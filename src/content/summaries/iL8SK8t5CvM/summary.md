@@ -63,6 +63,13 @@ tools:
     url: null
   - name: "Ubersuggest"
     url: null
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - analytics
+  - saas
 ---
 
 ## Key Takeaways

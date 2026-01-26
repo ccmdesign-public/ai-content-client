@@ -109,6 +109,15 @@ tools:
     url: null
   - name: "Scrimba"
     url: "https://scrimba.com/?via=worldofai"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - gemini
+  - ai-coding
+  - react
+  - terminal
+  - workflow
 ---
 
 ## Key Takeaways

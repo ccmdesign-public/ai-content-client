@@ -79,6 +79,12 @@ ai:
 tools:
   - name: "HeyPresto"
     url: "https://www.heypresto.ai/"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - prompt-engineering
+  - best-practices
 ---
 
 ## Key Takeaways

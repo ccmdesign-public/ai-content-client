@@ -85,6 +85,14 @@ tools:
     url: null
   - name: "Eleven Labs"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - chatgpt
+  - agents
+  - api-design
+  - product-strategy
 ---
 
 ## Key Takeaways

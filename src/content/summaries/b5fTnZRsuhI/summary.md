@@ -126,6 +126,14 @@ tools:
     url: null
   - name: "vLex"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - startup
+  - saas
+  - monetization
+  - leadership
+  - product-strategy
 ---
 
 ## Key Takeaways

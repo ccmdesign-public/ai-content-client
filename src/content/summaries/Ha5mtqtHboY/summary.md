@@ -24,6 +24,10 @@ ai:
 tools:
   - name: "Waking Up"
     url: "https://www.wakingup.com/makingsense"
+categories:
+  - "Tools & Productivity"
+tags:
+  - workflow
 ---
 
 The modern smartphone has evolved into a "digital slot machine" that exploits human neurobiology to capture and hold attention. The central conflict of the digital age is that our devices are designed by thousands of engineers to be as addictive as possible, creating a state of perpetual distraction that erodes our ability to be present, think deeply, and maintain mental clarity.

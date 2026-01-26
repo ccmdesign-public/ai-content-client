@@ -70,6 +70,10 @@ ai:
 tools:
   - name: "Starlink"
     url: null
+categories:
+  - "Business & Career"
+tags:
+  - startup
 ---
 
 ## Key Takeaways

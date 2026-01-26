@@ -158,6 +158,15 @@ tools:
     url: null
   - name: "IdeaBrowser"
     url: "https://www.ideabrowser.com/"
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - startup
+  - indie-hacker
+  - saas
+  - monetization
 ---
 
 ## Key Takeaways

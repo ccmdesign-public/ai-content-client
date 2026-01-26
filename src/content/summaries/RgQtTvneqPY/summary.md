@@ -111,6 +111,17 @@ tools:
     url: null
   - name: "Reuben"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - chatgpt
+  - claude
+  - gemini
+  - model-training
+  - agents
+  - startup
 ---
 
 ## Key Takeaways

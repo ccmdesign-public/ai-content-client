@@ -44,6 +44,15 @@ tools:
     url: null
   - name: "Next.js"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - nextjs
+  - architecture
+  - interviewing
 ---
 
 Claude Code is Anthropic’s command-line interface (CLI) tool designed for agentic coding. While its primary use is writing and refactoring code, the "Interview" mode is a specialized setting focused on knowledge transfer, architectural understanding, and professional development.

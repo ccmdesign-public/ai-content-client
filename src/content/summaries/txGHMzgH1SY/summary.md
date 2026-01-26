@@ -59,6 +59,14 @@ ai:
 tools:
   - name: "NanoBanana Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - llm
+  - prompt-engineering
+  - ui
+  - design-systems
 ---
 
 ## Key Takeaways

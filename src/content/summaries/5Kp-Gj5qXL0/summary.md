@@ -91,6 +91,14 @@ tools:
     url: null
   - name: "Stargate"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - model-training
+  - aws
+  - gcp
 ---
 
 ## Key Takeaways

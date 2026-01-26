@@ -98,6 +98,16 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tags:
+  - ai-coding
+  - agents
+  - testing
+  - automation
+  - vercel
+  - claude
 ---
 
 ## Key Takeaways

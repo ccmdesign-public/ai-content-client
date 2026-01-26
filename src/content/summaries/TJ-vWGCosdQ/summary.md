@@ -57,6 +57,13 @@ tools:
     url: null
   - name: "Gemini 3"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - agents
+  - llm
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

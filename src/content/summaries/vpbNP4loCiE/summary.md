@@ -93,6 +93,14 @@ tools:
     url: null
   - name: "Cloudflare Workers"
     url: null
+categories:
+  - "Web Development"
+  - "DevOps & Infrastructure"
+tags:
+  - javascript
+  - vercel
+  - netlify
+  - performance
 ---
 
 ## Key Takeaways

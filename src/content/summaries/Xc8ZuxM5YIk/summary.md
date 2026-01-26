@@ -45,6 +45,14 @@ tools:
     url: null
   - name: "QRadar SIEM"
     url: "https://ibm.biz/Bdb6wi"
+categories:
+  - "Security"
+tags:
+  - penetration-testing
+  - vulnerability
+  - authentication
+  - monitoring
+  - best-practices
 ---
 
 ## Key Takeaways

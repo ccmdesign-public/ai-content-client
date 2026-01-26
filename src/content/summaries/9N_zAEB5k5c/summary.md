@@ -100,6 +100,12 @@ ai:
   totalTokens: 3163
   processingTimeMs: 14301
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - leadership
+  - career-growth
+  - best-practices
 ---
 
 ## Key Takeaways

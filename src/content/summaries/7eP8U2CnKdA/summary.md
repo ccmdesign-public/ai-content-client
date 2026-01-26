@@ -130,6 +130,13 @@ tools:
     url: null
   - name: "Amazon CloudWatch"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+tags:
+  - aws
+  - architecture
+  - monitoring
+  - encryption
 ---
 
 ## Key Takeaways

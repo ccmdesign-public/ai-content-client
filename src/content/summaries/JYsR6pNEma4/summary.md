@@ -71,6 +71,14 @@ tools:
     url: "https://antigravity.google/"
   - name: "Git"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - git
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

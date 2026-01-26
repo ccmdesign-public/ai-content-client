@@ -142,6 +142,14 @@ tools:
     url: null
   - name: "Claude"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - computer-vision
+  - prompt-engineering
+  - llm
+  - workflow
 ---
 
 ## Key Takeaways

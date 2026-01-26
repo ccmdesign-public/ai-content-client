@@ -100,6 +100,16 @@ tools:
     url: null
   - name: "RyoOS"
     url: null
+categories:
+  - "Product & Design"
+  - "AI & Machine Learning"
+tags:
+  - ai-coding
+  - ux
+  - ui
+  - figma
+  - design-systems
+  - agents
 ---
 
 ## Key Takeaways

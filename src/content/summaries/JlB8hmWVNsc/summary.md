@@ -80,6 +80,12 @@ tools:
     url: null
   - name: "NP Digital"
     url: "http://npdigital.com"
+categories:
+  - "Business & Career"
+tags:
+  - career-growth
+  - monetization
+  - startup
 ---
 
 ## Key Takeaways

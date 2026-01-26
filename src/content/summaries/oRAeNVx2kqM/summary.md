@@ -109,6 +109,15 @@ tools:
     url: null
   - name: "Google Workspace"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - gemini
+  - ai-coding
+  - agents
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

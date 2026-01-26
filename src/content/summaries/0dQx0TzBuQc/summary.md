@@ -51,6 +51,12 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "KodeKloud"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+tags:
+  - architecture
+  - best-practices
 ---
 
 ## Key Takeaways

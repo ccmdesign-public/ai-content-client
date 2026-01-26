@@ -35,6 +35,15 @@ tools:
     url: null
   - name: "Notion"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - nlp
+  - ai-coding
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

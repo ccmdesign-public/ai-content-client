@@ -87,6 +87,15 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - gemini
+  - automation
+  - workflow
+  - agents
 ---
 
 ## Key Takeaways

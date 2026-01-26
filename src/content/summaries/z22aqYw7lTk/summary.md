@@ -24,6 +24,13 @@ ai:
 tools:
   - name: "Google Sites"
     url: null
+categories:
+  - "Product & Design"
+tags:
+  - ux
+  - accessibility
+  - user-research
+  - best-practices
 ---
 
 ## Key Takeaways

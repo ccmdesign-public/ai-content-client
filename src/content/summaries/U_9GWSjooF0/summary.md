@@ -61,6 +61,13 @@ tools:
     url: null
   - name: "NanoBanana Pro"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - prompt-engineering
+  - ui
+  - gemini
 ---
 
 ## Key Takeaways

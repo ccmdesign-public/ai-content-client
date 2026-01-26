@@ -87,6 +87,13 @@ ai:
 tools:
   - name: "Gemini"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - gemini
+  - llm
+  - monetization
 ---
 
 ## Key Takeaways

@@ -61,6 +61,14 @@ tools:
     url: null
   - name: "Open Coder"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+tags:
+  - llm
+  - ai-coding
+  - computer-vision
+  - python
 ---
 
 ## Key Takeaways

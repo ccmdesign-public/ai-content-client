@@ -79,6 +79,16 @@ tools:
     url: "https://github.com/anthropics/skills/blob/main/web-artifacts-builder/SKILL.md"
   - name: "Visual Studio Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - claude
+  - ai-coding
+  - prompt-engineering
+  - react
+  - ui
+  - design-systems
 ---
 
 ## Key Takeaways

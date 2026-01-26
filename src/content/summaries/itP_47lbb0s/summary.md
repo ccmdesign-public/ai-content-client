@@ -70,6 +70,11 @@ ai:
   totalTokens: 7506
   processingTimeMs: 59726
 tools: []
+categories:
+  - "Business & Career"
+tags:
+  - product-strategy
+  - roadmapping
 ---
 
 ## Key Takeaways

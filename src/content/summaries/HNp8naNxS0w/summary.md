@@ -64,6 +64,12 @@ tools:
     url: "https://github.com/BetterStackHQ"
   - name: "w3techs"
     url: "https://w3techs.com/technologies/details/js-jquery"
+categories:
+  - "Web Development"
+tags:
+  - javascript
+  - nodejs
+  - performance
 ---
 
 ## Key Takeaways

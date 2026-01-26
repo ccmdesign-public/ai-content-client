@@ -44,6 +44,17 @@ tools:
     url: null
   - name: "npm"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - ai-coding
+  - agents
+  - copilot
+  - prompt-engineering
+  - typescript
+  - best-practices
 ---
 
 ## Key Takeaways

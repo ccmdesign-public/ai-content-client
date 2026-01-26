@@ -69,6 +69,16 @@ tools:
     url: null
   - name: "VAG"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - gemini
+  - ai-coding
+  - agents
+  - testing
+  - git
+  - workflow
 ---
 
 ## Key Takeaways

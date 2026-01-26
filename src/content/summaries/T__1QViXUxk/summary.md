@@ -48,6 +48,11 @@ ai:
 tools:
   - name: "Stan Store"
     url: "https://stan.store"
+categories:
+  - "Business & Career"
+tags:
+  - interviewing
+  - career-growth
 ---
 
 ## Key Takeaways

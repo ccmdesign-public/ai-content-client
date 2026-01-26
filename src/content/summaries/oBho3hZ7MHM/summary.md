@@ -149,6 +149,16 @@ tools:
     url: "https://brex.com/howiai"
   - name: "Graphite"
     url: "https://graphitedev.link/howiai"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - prompt-engineering
+  - automation
+  - workflow
+  - vscode
 ---
 
 ## Key Takeaways

@@ -100,6 +100,16 @@ tools:
     url: null
   - name: "GPT 5.1"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - claude
+  - gemini
+  - chatgpt
+  - ai-coding
+  - copilot
+  - computer-vision
 ---
 
 ## Key Takeaways

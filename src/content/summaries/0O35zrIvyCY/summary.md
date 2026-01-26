@@ -74,6 +74,14 @@ ai:
   totalTokens: 16080
   processingTimeMs: 42138
 tools: []
+categories:
+  - "Business & Career"
+  - "Product & Design"
+tags:
+  - career-growth
+  - freelancing
+  - product-strategy
+  - visualization
 ---
 
 ## Key Takeaways

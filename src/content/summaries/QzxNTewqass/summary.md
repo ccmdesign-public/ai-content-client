@@ -77,6 +77,12 @@ ai:
 tools:
   - name: "HubSpot"
     url: "https://clickhubspot.com/u99"
+categories:
+  - "Business & Career"
+tags:
+  - leadership
+  - best-practices
+  - product-strategy
 ---
 
 ## Key Takeaways

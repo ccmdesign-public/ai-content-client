@@ -68,6 +68,15 @@ tools:
     url: null
   - name: "Node.js"
     url: null
+categories:
+  - "Web Development"
+  - "Data & Analytics"
+tags:
+  - typescript
+  - nodejs
+  - ai-coding
+  - claude
+  - sql
 ---
 
 ## Key Takeaways

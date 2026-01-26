@@ -83,6 +83,14 @@ tools:
     url: null
   - name: "ChatGPT"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - agents
+  - model-training
+  - chatgpt
+  - claude
 ---
 
 ## Key Takeaways

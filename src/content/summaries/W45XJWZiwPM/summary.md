@@ -71,6 +71,16 @@ tools:
     url: null
   - name: "Git"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - ai-coding
+  - claude
+  - copilot
+  - git
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

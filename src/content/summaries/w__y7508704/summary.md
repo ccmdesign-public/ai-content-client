@@ -37,6 +37,13 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "watsonx"
     url: "https://ibm.biz/Bdb6wR"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - nlp
+  - model-training
+  - best-practices
 ---
 
 ## Key Takeaways

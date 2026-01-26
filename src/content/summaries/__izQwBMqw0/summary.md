@@ -93,6 +93,16 @@ tools:
     url: null
   - name: "C++"
     url: null
+categories:
+  - "Security"
+  - "Programming"
+tags:
+  - vulnerability
+  - rust
+  - go
+  - swift
+  - monitoring
+  - best-practices
 ---
 
 ## Key Takeaways

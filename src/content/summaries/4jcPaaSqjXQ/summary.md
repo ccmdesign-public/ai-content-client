@@ -36,6 +36,14 @@ tools:
     url: null
   - name: "PowerPoint"
     url: null
+categories:
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - accessibility
+  - design-systems
+  - best-practices
+  - react
 ---
 
 ## Key Takeaways

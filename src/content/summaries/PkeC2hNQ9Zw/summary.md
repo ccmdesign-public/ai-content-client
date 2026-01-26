@@ -85,6 +85,16 @@ tools:
     url: null
   - name: "Better Stack"
     url: "https://betterstack.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - vercel
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

@@ -117,6 +117,16 @@ tools:
     url: null
   - name: "GitHub Copilot"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - automation
+  - terminal
+  - workflow
 ---
 
 ## Key Takeaways

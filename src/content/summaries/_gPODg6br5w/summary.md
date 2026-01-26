@@ -107,6 +107,16 @@ tools:
     url: null
   - name: "Co-work"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - automation
+  - workflow
+  - architecture
+  - postgresql
+  - python
 ---
 
 ## Key Takeaways

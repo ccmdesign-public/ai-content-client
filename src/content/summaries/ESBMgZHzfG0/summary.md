@@ -45,6 +45,14 @@ tools:
     url: null
   - name: "watsonx"
     url: "https://ibm.biz/BdbTRQ"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - rag
+  - agents
+  - embeddings
+  - architecture
 ---
 
 ## Key Takeaways

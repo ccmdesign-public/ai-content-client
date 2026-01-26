@@ -30,6 +30,15 @@ tools:
     url: null
   - name: "GitHub"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - ai-coding
+  - testing
+  - best-practices
+  - architecture
 ---
 
 ## Key Takeaways

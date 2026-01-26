@@ -134,6 +134,17 @@ tools:
     url: "https://www.thevibemarketer.com/"
   - name: "Ralph loops"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - llm
+  - claude
+  - ai-coding
+  - agents
+  - testing
+  - best-practices
+  - workflow
 ---
 
 ## Key Takeaways

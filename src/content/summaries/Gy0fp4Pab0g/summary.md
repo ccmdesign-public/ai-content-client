@@ -64,6 +64,14 @@ tools:
     url: "https://www.reddit.com"
   - name: "terminal.shop"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - chatgpt
+  - claude
+  - career-growth
 ---
 
 ## Key Takeaways

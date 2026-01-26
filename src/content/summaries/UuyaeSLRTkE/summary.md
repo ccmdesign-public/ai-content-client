@@ -80,6 +80,14 @@ tools:
     url: null
   - name: "AI Builder Club"
     url: "https://www.aibuilderclub.com/"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - gemini
+  - prompt-engineering
+  - ai-coding
+  - best-practices
 ---
 
 ## Key Takeaways

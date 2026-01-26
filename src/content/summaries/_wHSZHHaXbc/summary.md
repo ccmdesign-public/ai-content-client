@@ -153,6 +153,15 @@ tools:
     url: null
   - name: "fal.ai"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - gemini
+  - llm
+  - ai-coding
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

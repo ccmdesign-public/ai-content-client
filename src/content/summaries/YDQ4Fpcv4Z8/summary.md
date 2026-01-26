@@ -43,6 +43,14 @@ tools:
     url: null
   - name: "Claude Cowork"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - claude
+  - ai-coding
+  - llm
+  - startup
 ---
 
 ## Key Takeaways

@@ -144,6 +144,15 @@ tools:
     url: null
   - name: "Claude Desktop"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - claude
+  - agents
+  - ai-coding
+  - testing
+  - automation
 ---
 
 ## Key Takeaways

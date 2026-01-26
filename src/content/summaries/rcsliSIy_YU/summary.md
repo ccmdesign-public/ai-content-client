@@ -53,6 +53,16 @@ tools:
     url: null
   - name: "AllHands"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - agents
+  - ai-coding
+  - refactoring
+  - automation
+  - best-practices
+  - architecture
 ---
 
 ## Key Takeaways

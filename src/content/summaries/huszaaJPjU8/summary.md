@@ -86,6 +86,14 @@ tools:
     url: null
   - name: "Zapier"
     url: "https://bit.ly/4qSsFXA"
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - rag
+  - architecture
+  - model-training
+  - python
 ---
 
 ## Key Takeaways

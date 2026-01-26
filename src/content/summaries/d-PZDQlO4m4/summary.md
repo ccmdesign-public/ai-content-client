@@ -102,6 +102,15 @@ tools:
     url: "https://github.com/jacob-bd/notebooklm-mcp"
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - automation
+  - claude
+  - gemini
+  - workflow
 ---
 
 ## Key Takeaways

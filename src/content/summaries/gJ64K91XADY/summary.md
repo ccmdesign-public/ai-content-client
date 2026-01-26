@@ -78,6 +78,14 @@ tools:
     url: null
   - name: "Comet"
     url: null
+categories:
+  - "Business & Career"
+  - "AI & Machine Learning"
+tags:
+  - chatgpt
+  - gemini
+  - saas
+  - analytics
 ---
 
 ## Key Takeaways

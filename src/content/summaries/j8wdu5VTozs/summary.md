@@ -142,6 +142,15 @@ tools:
     url: null
   - name: "Money Mode AI"
     url: "https://chatgpt.com/g/g-693c7932014c8191b272e9088a5e14d2-money-mode-ai"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - agents
+  - ai-coding
+  - prompt-engineering
+  - automation
+  - workflow
 ---
 
 ## Key Takeaways

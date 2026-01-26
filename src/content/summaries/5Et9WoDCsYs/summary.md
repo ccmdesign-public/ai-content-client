@@ -97,6 +97,14 @@ ai:
   totalTokens: 8629
   processingTimeMs: 20743
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - startup
+  - saas
+  - career-growth
 ---
 
 ## Key Takeaways

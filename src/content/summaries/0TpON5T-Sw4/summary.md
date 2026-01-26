@@ -122,6 +122,15 @@ tools:
     url: null
   - name: "Obsidian"
     url: null
+categories:
+  - "Tools & Productivity"
+  - "AI & Machine Learning"
+tags:
+  - automation
+  - workflow
+  - chatgpt
+  - claude
+  - llm
 ---
 
 ## Key Takeaways

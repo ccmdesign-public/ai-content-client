@@ -143,6 +143,15 @@ tools:
     url: null
   - name: "Gumdrop"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - llm
+  - claude
+  - gemini
+  - agents
+  - ai-coding
 ---
 
 ## Key Takeaways

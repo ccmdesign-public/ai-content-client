@@ -47,6 +47,16 @@ tools:
     url: "https://ibm.biz/BdbtwH"
   - name: "MCP"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - llm
+  - agents
+  - rag
+  - python
+  - workflow
+  - automation
 ---
 
 ## Key Takeaways

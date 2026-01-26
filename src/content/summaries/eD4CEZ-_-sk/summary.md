@@ -49,6 +49,15 @@ tools:
     url: null
   - name: "Suno API"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - agents
+  - ai-coding
+  - automation
+  - javascript
 ---
 
 ## Key Takeaways

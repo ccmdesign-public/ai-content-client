@@ -49,6 +49,14 @@ ai:
   totalTokens: 4651
   processingTimeMs: 22944
 tools: []
+categories:
+  - "AI & Machine Learning"
+tags:
+  - llm
+  - model-training
+  - agents
+  - ai-coding
+  - architecture
 ---
 
 ## Key Takeaways

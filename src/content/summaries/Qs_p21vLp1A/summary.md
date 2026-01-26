@@ -74,6 +74,14 @@ tools:
     url: null
   - name: "Reddit"
     url: null
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+tags:
+  - chatgpt
+  - startup
+  - analytics
+  - best-practices
 ---
 
 ## Key Takeaways

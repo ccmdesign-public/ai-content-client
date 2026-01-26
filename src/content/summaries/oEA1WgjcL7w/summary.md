@@ -83,6 +83,16 @@ tools:
     url: "https://automaker.app/"
   - name: "GitHub"
     url: "https://github.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - ai-coding
+  - agents
+  - nodejs
+  - python
+  - automation
 ---
 
 ## Key Takeaways

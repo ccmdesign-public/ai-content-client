@@ -37,6 +37,16 @@ tools:
     url: null
   - name: "Git"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - claude
+  - copilot
+  - ai-coding
+  - git
+  - best-practices
+  - testing
 ---
 
 ## Key Takeaways

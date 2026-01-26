@@ -34,6 +34,13 @@ tools:
     url: null
   - name: "iMessage"
     url: null
+categories:
+  - "Mobile Development"
+  - "Tools & Productivity"
+tags:
+  - ios
+  - encryption
+  - automation
 ---
 
 ## Key Takeaways

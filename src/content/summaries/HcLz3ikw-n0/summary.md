@@ -102,6 +102,16 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tags:
+  - claude
+  - ai-coding
+  - figma
+  - tailwind
+  - accessibility
+  - design-systems
 ---
 
 ## Key Takeaways
