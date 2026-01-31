@@ -27,10 +27,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Credit : AI Generated Image]()
 
 ## A quick story to set the stage

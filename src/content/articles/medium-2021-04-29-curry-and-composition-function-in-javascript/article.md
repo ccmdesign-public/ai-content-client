@@ -22,10 +22,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 In this article i will discuss about:
 
 1.  Higher Order Function

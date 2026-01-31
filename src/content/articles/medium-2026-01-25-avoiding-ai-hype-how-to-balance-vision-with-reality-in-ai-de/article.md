@@ -27,10 +27,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 In recent years, artificial intelligence has become the term of development, shock, and change. Every day, we read headlines about how they have discovered a breakthrough, and how we are about to see machines taking the place of doctors, artists, and decision-makers. However, not all that is glittering is GPU-powered gold.
 
 The hype of AI is frequently the result of media attention, investor pressure, and misunderstood studies. The result? Too high hopes and illusions that often do not correspond to the current possibilities of the AI systems. Prior to constructing or implementing any AI-powered solution, it is important to distinguish between theory and practice.

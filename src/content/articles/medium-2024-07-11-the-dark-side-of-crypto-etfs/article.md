@@ -27,10 +27,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 The approval of Bitcoin, Ethereum, and Solana ETFs has generated excitement among investors. However, there are growing concerns that these financial products might not be as beneficial for the cryptocurrency ecosystem as they appear.

@@ -20,13 +20,9 @@ tags:
 
 [Martin Lucas](/@martin_13819?source=post_page---byline--85135f3ea04b---------------------------------------)
 
-5 min read·6 hours ago
+5 min read·2 days ago
 
 \--
-
-Listen
-
-Share
 
 ![]()
 

@@ -27,10 +27,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Jyväskylä, Finland, Image Courtesy: Unsplash, Tommaso Fornoni]()
 
 In the [previous article](/thebackendtech/mastering-java-concurrency-core-concepts-and-essentials-6e5291cd324a), we talked about some of the core interfaces of the `java.util.concurrent`package. This article will dive into more advanced constructs — *ScheduledExecutorService*, *ThreadFactory*, and *ThreadPoolExecutor*.

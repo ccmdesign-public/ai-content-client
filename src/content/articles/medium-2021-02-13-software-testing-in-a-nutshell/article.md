@@ -25,10 +25,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 **Software Testing** is a method to check whether the actual software product matches expected requirements and to ensure that the software product is defect-free. This article only focuses on the unit, integration, and API but there are more than 150 types of testing types and still adding. Also, note that not all testing types are applicable to all projects but depend on the nature & scope of the project.

@@ -16,13 +16,9 @@ tags:
 
 [Indranil Saha](/@sahaindranil816?source=post_page---byline--d78efee04d3f---------------------------------------)
 
-5 min read·11 hours ago
+5 min read·2 days ago
 
 \--
-
-Listen
-
-Share
 
 ![]()
 

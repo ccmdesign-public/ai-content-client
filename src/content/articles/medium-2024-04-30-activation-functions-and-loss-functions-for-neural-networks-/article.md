@@ -27,10 +27,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 When one starts to develop their own neural networks, it is easy to get overwhelmed by the wide variety of options available for each parameter of the model.Which activation function to use for each hidden layer? Which activation function for the output layer? When to use Binary Cross Entropy vs Categorical Cross Entropy?

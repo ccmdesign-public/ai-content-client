@@ -18,10 +18,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 ## What is this ?

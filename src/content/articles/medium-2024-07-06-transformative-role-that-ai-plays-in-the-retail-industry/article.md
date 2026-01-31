@@ -22,10 +22,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 AI in retail plays a key role in deriving key insights with regard to various markets for enhancing different touchpoints in the customer service sector. It is useful in addressing issues pertaining to fit and fabric in the [artificial intelligence in apparel industry](https://www.anolytics.ai/solutions/retail/). It will play a key role in ensuring that our garments are tailored as per our body shape in fit and size.

@@ -25,10 +25,6 @@ Jul 6, 2020
 
 \--
 
-Listen
-
-Share
-
 ![Image Credits: Unsplash]()
 
 **Step 1**: Commit/Stash any recent changes but don’t push them.

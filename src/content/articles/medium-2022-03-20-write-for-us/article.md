@@ -24,10 +24,6 @@ tags:
 
 4
 
-Listen
-
-Share
-
 ![]()
 
 **Voice of Code (VoC)** is a non-profit platform managed by [***Microsoft Learn Student Ambassadors***](https://studentambassadors.microsoft.com/) seeking to foster technical acumen amongst readers via educational blogging. The Medium publication is a collection of enlightening, lucid content seeking to empower the readership with cutting-edge technical knowledge. It aims to be a one-stop destination for all your technical cravings!

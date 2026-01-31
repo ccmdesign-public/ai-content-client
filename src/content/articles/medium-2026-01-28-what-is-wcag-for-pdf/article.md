@@ -20,13 +20,9 @@ tags:
 
 [PDF4WCAG](/@pdf4wcag?source=post_page---byline--deec12e818b0---------------------------------------)
 
-5 min read·1 day ago
+5 min read·2 days ago
 
 \--
-
-Listen
-
-Share
 
 The **WCAG** (Web Content Accessibility Guidelines) is a set of recommendations for making web content more accessible. It is developed by [W3C’s](https://developer.mozilla.org/en-US/docs/Glossary/WAI) WAI, primarily for people with disabilities — but also for all user agents, including some highly limited devices or services, such as digital assistants.
 

@@ -26,10 +26,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Credit : AI Generated Image]()
 
 You don’t need a giant team or a mystery stack to ship an LLM app on AWS. You need a small core: a clean API, a grounded retrieval layer, safety rails, and observability that tells you when things drift. This guide walks through that path in plain English with just enough code to move you from a working demo to something you can trust in front of users.

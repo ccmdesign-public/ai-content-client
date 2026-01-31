@@ -26,10 +26,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Photo by Steve Johnson on Unsplash]()
 
 For years, link building has been the backbone of SEO. It’s what helps websites earn authority, gain visibility, and rank higher on Google.

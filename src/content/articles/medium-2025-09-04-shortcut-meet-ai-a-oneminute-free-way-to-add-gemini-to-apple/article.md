@@ -26,10 +26,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Credit : AI Generated Image]()
 
 Apple Shortcuts is great at moving data from A to B. It gets clumsy the moment you need reasoning: summarize a messy web page, classify a string from another app, extract a few fields from an email, or rephrase a text before sharing. This piece shows a simple path to add generative power to any Shortcut with a self‑hosted micro‑API that runs on Cloudflare Workers and calls Google’s Gemini. No subscriptions inside the Shortcut, no extra apps to switch into.

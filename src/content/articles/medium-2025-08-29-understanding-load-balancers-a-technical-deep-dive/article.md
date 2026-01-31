@@ -29,10 +29,6 @@ Featured
 
 \--
 
-Listen
-
-Share
-
 ![Image Courtesy: https://unsplash.com/photos/three-traffic-lights-hanging-from-a-wire-with-a-blue-sky-in-the-background-Y-W7GoXLJgw]()
 
 A load balancer distributes incoming network traffic across multiple servers to ensure that no single server is overloaded, and the traffic is uniformly distributed. This improves the application availability, scalability, performance and the reliability.

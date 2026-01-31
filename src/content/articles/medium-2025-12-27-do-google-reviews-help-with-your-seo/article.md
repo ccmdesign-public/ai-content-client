@@ -28,10 +28,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Photo by henry perks on Unsplash]()
 
 When people search for a business online, one of the first things they notice is the reviews. Star ratings, customer comments, and overall reputation often influence whether someone clicks your listing or moves on to a competitor. But beyond trust and conversions, a common question remains:

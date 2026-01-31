@@ -24,10 +24,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Handheld AR Application on Unity.]()
 
 Prerequisites:

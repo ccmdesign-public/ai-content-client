@@ -25,10 +25,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 Although I am still not cool enough (better word: *experienced*) to claim that ‘keynote speaker’ is my middle name, all I can say through the little understanding that I have gathered by speaking at a handful of conferences like Google’s Devfest India or Major League Hacking’s Hackcon is that conferences are really cool, but getting a chance to speak at them is unimaginably cooler. When I say cool, I’m not just speaking about all the speaker drip and the headshots with a mic that soon make it to one’s LinkedIn profiles. From ‘cool’ here, I refer to all the exposure, career opportunities, and networking prospects that come one’s way by sharing their experiences and learnings on reputed global platforms. (*and maybe also the cool speaker schwag :D*)
 
 ![]()

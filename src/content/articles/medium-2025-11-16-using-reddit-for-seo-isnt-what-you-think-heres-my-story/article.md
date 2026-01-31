@@ -29,10 +29,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![Photo by Brett Jordan on Unsplash]()
 
 When I first heard that Reddit could help improve SEO, I thought I’d struck gold. I imagined posting my website links, getting tons of visitors, and ranking higher on Google overnight.

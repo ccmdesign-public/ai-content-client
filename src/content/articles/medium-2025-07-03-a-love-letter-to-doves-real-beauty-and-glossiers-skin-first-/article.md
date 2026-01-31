@@ -25,10 +25,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 Hindsight, as they say, is 20/20. When Alessia Cara sang about self-love, she wasn’t just performing — she was validating a movement.At her live performance at the MTV VMAs in 2017, she cast away her accessories and slipped out of a stunning red dress, revealing a simple outfit and wiping off her makeup onstage. It was raw, unfiltered, and deeply symbolic — a moment that resonated with anyone who’s ever felt uncomfortable in their own skin.
 
 Her song became an anthem for the countless people taught to hide what makes them unique. It spoke to those who’ve covered their freckles, concealed their scars, and agonized over blemishes, wrinkles, or uneven skin tones. It was a reminder that beauty isn’t something you achieve through filters or flawless makeup. It’s the confidence to step out as you are, imperfections and all, and let your inner light shine outward.

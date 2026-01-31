@@ -22,10 +22,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![]()
 
 ## 9 Things You Should Practice for Logic Building

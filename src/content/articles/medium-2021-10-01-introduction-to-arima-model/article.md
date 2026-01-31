@@ -23,10 +23,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ## A brief introduction followed by implementation
 
 ![]()

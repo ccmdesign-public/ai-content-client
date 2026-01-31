@@ -24,10 +24,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 [
 
 ## Sorting: Comparator | HackerRank
