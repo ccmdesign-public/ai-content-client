@@ -37,6 +37,18 @@ const toolSchema = z.object({
   url: z.string().url().nullable()
 })
 
+// Article schema for written content from Medium, Substack, etc.
+const articleSchema = z.object({
+  title: z.string(),
+  subtitle: z.string().optional(),
+  author: z.string(),
+  platform: z.string(),           // "medium" | "substack"
+  publicationName: z.string(),    // Display name for grouping
+  url: z.string(),                // Original source URL
+  publishedAt: z.string(),        // ISO date
+  tags: z.array(z.string()).optional()
+})
+
 export default defineContentConfig({
   collections: {
     summaries: defineCollection({
@@ -62,6 +74,14 @@ export default defineContentConfig({
         // AI processing metrics
         ai: aiMetricsSchema.optional()
       })
+    }),
+    articles: defineCollection({
+      type: 'page',
+      source: {
+        include: 'articles/*/article.md',
+        cwd: contentDir
+      },
+      schema: articleSchema
     })
   }
 })

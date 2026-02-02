@@ -32,8 +32,9 @@ function getDateGroup(date: Date): DateGroup {
   return 'older'
 }
 
-export function useDateGroups<T extends { processedAt: string }>(
-  items: Ref<T[]>
+export function useDateGroups<T>(
+  items: Ref<T[]>,
+  getDate: (item: T) => string = (item) => (item as { processedAt: string }).processedAt
 ) {
   const segments = computed<DateSegment<T>[]>(() => {
     const groups = new Map<DateGroup, T[]>()
@@ -45,7 +46,9 @@ export function useDateGroups<T extends { processedAt: string }>(
 
     // Sort items into groups
     for (const item of items.value) {
-      const date = new Date(item.processedAt)
+      const dateStr = getDate(item)
+      if (!dateStr) continue
+      const date = new Date(dateStr)
       const group = getDateGroup(date)
       groups.get(group)!.push(item)
     }
