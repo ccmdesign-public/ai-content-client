@@ -17,14 +17,14 @@ defineProps<{
         <span class="font-normal text-muted-foreground/60">({{ segment.items.length }})</span>
       </h2>
       <ul class="flex flex-col gap-4 list-none p-0 m-0">
-        <li v-for="item in segment.items" :key="item.metadata?.videoId">
-          <SummaryCard :summary="item" />
+        <li v-for="item in segment.items" :key="item.metadata?.videoId || item.path">
+          <FeedItem :item="item" />
         </li>
       </ul>
     </section>
 
     <div v-if="segments.length === 0" class="text-center py-12 text-muted-foreground">
-      <p>No summaries found.</p>
+      <p>No content found.</p>
     </div>
   </div>
 </template>

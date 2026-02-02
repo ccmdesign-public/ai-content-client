@@ -1,20 +1,58 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
+import { useArticleStream } from '~/composables/useArticleStream'
 
 definePageMeta({
   hero: false,
   footer: false
 })
 
-const { data: summaries, pending } = useContentStream('summaries')
-const { segments } = useDateGroups(computed(() => summaries.value || []))
+const { data: summaries, pending: summariesPending } = useContentStream('summaries')
+const { articles, pending: articlesPending } = useArticleStream()
+
+const pending = computed(() => summariesPending.value || articlesPending.value)
+
+// Combine and normalize items with a unified date field
+interface FeedItem {
+  _type: 'summary' | 'article'
+  _date: string
+  [key: string]: unknown
+}
+
+const allItems = computed<FeedItem[]>(() => {
+  const items: FeedItem[] = []
+
+  // Add summaries with normalized date
+  for (const summary of summaries.value || []) {
+    items.push({
+      ...summary,
+      _type: 'summary',
+      _date: summary.processedAt
+    })
+  }
+
+  // Add articles with normalized date
+  for (const article of articles.value || []) {
+    items.push({
+      ...article,
+      _type: 'article',
+      _date: article.publishedAt
+    })
+  }
+
+  return items
+})
+
+const { segments } = useDateGroups(allItems, (item) => item._date)
+
+const totalCount = computed(() => (summaries.value?.length || 0) + (articles.value?.length || 0))
 </script>
 
 <template>
   <div class="home-page">
     <header class="page-header">
-      <h1>All Summaries</h1>
-      <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
+      <h1>Latest Content</h1>
+      <p class="page-header__count">{{ totalCount }} items</p>
     </header>
 
     <div v-if="pending" class="loading">Loading...</div>
