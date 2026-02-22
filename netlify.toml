@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "20"
   # Increase memory for builds with many summary pages
-  NODE_OPTIONS = "--max-old-space-size=4096"
+  NODE_OPTIONS = "--max-old-space-size=6144"
   # Disable all secret scanning - video summaries discuss API keys/tokens causing false positives
   # See: https://ntl.fyi/configure-secrets-scanning
   SECRETS_SCAN_ENABLED = "false"

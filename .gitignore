@@ -26,7 +26,6 @@ logs
 .env
 .env.*
 !.env.example
-/content/
 
 # YouTube Summarizer data
 !src/content/summaries/.gitkeep
@@ -35,11 +34,9 @@ logs
 _archive/
 .gemini/
 .cursor/
-.claude/
 .codex/
 .cursorrules
 AGENTS.md
-CLAUDE.md
 GEMINI.md
 .factory/
 _process/

@@ -88,7 +88,9 @@ export default defineNuxtConfig({
     // Prerender all routes including RSS feeds
     prerender: {
       crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json']
+      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
+      // Limit concurrency to prevent memory exhaustion during static generation
+      concurrency: 2
     }
   },
   // Route rules for static generation
