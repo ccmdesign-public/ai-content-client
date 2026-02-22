@@ -84,19 +84,26 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'static',
-    // Prerender all routes including RSS feeds
+    preset: 'netlify',
+    // Only prerender essential static routes
     prerender: {
-      crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
-      // Limit concurrency to prevent memory exhaustion during static generation
+      crawlLinks: false,
+      routes: ['/', '/summaries', '/articles', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
       concurrency: 1
     }
   },
-  // Route rules for static generation
+  // Hybrid rendering: prerender main pages, ISR for individual content pages
   routeRules: {
-    // Prerender all pages at build time
-    '/**': { prerender: true }
+    // Main listing pages - prerender at build time
+    '/': { prerender: true },
+    '/summaries': { prerender: true },
+    '/articles': { prerender: true },
+    '/tools': { prerender: true },
+    // Individual content pages - ISR with 1 hour cache, stale-while-revalidate
+    '/summaries/**': { isr: 3600 },
+    '/articles/**': { isr: 3600 },
+    // Static assets - long cache
+    '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } }
   },
   components: [
     {
