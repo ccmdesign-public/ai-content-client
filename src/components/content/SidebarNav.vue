@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useArticleStream } from '~/composables/useArticleStream'
+import { usePublications } from '~/composables/usePublications'
 import { useTruncate } from '~/composables/useTruncate'
 
 const { enabledPlaylists } = usePlaylistsConfig()
 const { enabledChannels } = useChannelsConfig()
+const { articles } = useArticleStream()
+const { publications } = usePublications(articles)
 </script>
 
 <template>
@@ -43,6 +47,21 @@ const { enabledChannels } = useChannelsConfig()
               active-class="text-primary bg-primary/10 font-medium"
             >
               {{ useTruncate(channel.name, 20) }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </section>
+
+      <section v-if="publications.length" class="mb-6">
+        <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">Articles</h3>
+        <ul class="list-none p-0 m-0">
+          <li v-for="publication in publications" :key="publication.slug">
+            <NuxtLink
+              :to="`/articles/publications/${publication.slug}`"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
+            >
+              {{ useTruncate(publication.name, 20) }}
             </NuxtLink>
           </li>
         </ul>
