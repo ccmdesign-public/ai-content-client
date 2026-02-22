@@ -25,10 +25,6 @@ tags:
 
 \--
 
-Listen
-
-Share
-
 ![image annotation]()
 
 Image annotation services refer to writing or labeling content to train machine learning models. They are especially useful in artificial intelligence (AI) and computer vision projects in identifying objects, faces, text, and other image patterns, making applications like autonomous cars, medical imaging, retail analytics, and security surveillance possible.
