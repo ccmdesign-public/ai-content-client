@@ -90,7 +90,7 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
       // Limit concurrency to prevent memory exhaustion during static generation
-      concurrency: 2
+      concurrency: 1
     }
   },
   // Route rules for static generation

@@ -4,8 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Increase memory for builds with many summary pages
-  NODE_OPTIONS = "--max-old-space-size=6144"
+  # Increase memory for builds with many summary pages (8GB max on Netlify)
+  NODE_OPTIONS = "--max-old-space-size=8192"
   # Disable all secret scanning - video summaries discuss API keys/tokens causing false positives
   # See: https://ntl.fyi/configure-secrets-scanning
   SECRETS_SCAN_ENABLED = "false"
