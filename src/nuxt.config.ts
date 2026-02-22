@@ -88,7 +88,7 @@ export default defineNuxtConfig({
     // Only prerender essential static routes
     prerender: {
       crawlLinks: false,
-      routes: ['/', '/summaries', '/articles', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
+      routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
       concurrency: 1
     }
   },
@@ -96,8 +96,6 @@ export default defineNuxtConfig({
   routeRules: {
     // Main listing pages - prerender at build time
     '/': { prerender: true },
-    '/summaries': { prerender: true },
-    '/articles': { prerender: true },
     '/tools': { prerender: true },
     // Individual content pages - ISR with 1 hour cache, stale-while-revalidate
     '/summaries/**': { isr: 3600 },
