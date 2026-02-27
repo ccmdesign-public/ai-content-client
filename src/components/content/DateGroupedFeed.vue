@@ -17,7 +17,7 @@ defineProps<{
         <span class="font-normal text-muted-foreground/60">({{ segment.items.length }})</span>
       </h2>
       <ul class="flex flex-col gap-4 list-none p-0 m-0">
-        <li v-for="item in segment.items" :key="item.metadata?.videoId || item.path">
+        <li v-for="item in segment.items" :key="item._type === 'summary' ? `summary-${item.metadata?.videoId}` : `article-${item.path}`">
           <FeedItem :item="item" />
         </li>
       </ul>

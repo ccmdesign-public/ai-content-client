@@ -4,11 +4,11 @@ defineProps<{
 }>()
 
 function isArticle(item: Record<string, unknown>): boolean {
-  return 'publicationName' in item && 'publishedAt' in item
+  return item._type === 'article' || ('publicationName' in item && 'publishedAt' in item)
 }
 
 function isSummary(item: Record<string, unknown>): boolean {
-  return 'metadata' in item && 'processedAt' in item
+  return item._type === 'summary' || ('metadata' in item && 'processedAt' in item)
 }
 </script>
 
