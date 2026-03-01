@@ -125,13 +125,9 @@ OpenAI hiring OpenClaw creator Peter Steinberger reveals the AI industry's 2026 
 
 Peter Steinberger, an Austrian developer who previously sold his company for nine figures, created **OpenClaw**—a self-hosted AI agent platform that connects to WhatsApp, executes shell commands, manages emails, and even modifies its own source code. The project exploded from 2k to 200k GitHub stars in under three months, becoming GitHub's fastest-growing repository despite Steinberger bleeding $20k/month.
 
-### The Hiring Decision
+### The Hiring DecisionBoth Meta's Mark Zuckerberg and OpenAI's Sam Altman pursued Steinberger. Zuckerberg engaged personally via WhatsApp, giving direct product feedback, while Altman offered computational resources and alignment with OpenAI's agent roadmap. Steinberger chose OpenAI primarily for **mission alignment**—building an agent "his mother could use"—and access to frontier models.
 
-Both Meta's Mark Zuckerberg and OpenAI's Sam Altman pursued Steinberger. Zuckerberg engaged personally via WhatsApp, giving direct product feedback, while Altman offered computational resources and alignment with OpenAI's agent roadmap. Steinberger chose OpenAI primarily for **mission alignment**—building an agent "his mother could use"—and access to frontier models.
-
-### What OpenAI Acquired
-
-OpenAI didn't acquire OpenClaw itself, which moves to an independent foundation. Instead, they gained:
+### What OpenAI AcquiredOpenAI didn't acquire OpenClaw itself, which moves to an independent foundation. Instead, they gained:
 
 - **Developer trust**: Steinberger's authenticity as an independent developer who built publicly
 
@@ -141,13 +137,9 @@ OpenAI didn't acquire OpenClaw itself, which moves to an independent foundation.
 
 - **Security experience**: Hands-on experience from patching 40+ vulnerabilities in OpenClaw
 
-### Strategic Implications
+### Strategic ImplicationsThis hire signals OpenAI's push into **personal agent products** beyond ChatGPT. With Codex for coding and OpenClaw's proven agent capabilities, OpenAI aims to create persistent agents that manage cross-platform tasks like email, calendars, and messaging. The security challenges OpenClaw faced—including remote code execution vulnerabilities—highlight the risks of giving AI agents real system access.
 
-This hire signals OpenAI's push into **personal agent products** beyond ChatGPT. With Codex for coding and OpenClaw's proven agent capabilities, OpenAI aims to create persistent agents that manage cross-platform tasks like email, calendars, and messaging. The security challenges OpenClaw faced—including remote code execution vulnerabilities—highlight the risks of giving AI agents real system access.
-
-### Open
-
-Claw's FutureThe project will remain open-source with OpenAI's sponsorship, following a **Chrome/Chromium model** where OpenClaw serves as the open foundation and OpenAI builds commercial products atop it. However, with Steinberger inside OpenAI, the project's direction may align more with OpenAI's priorities.
+### OpenClaw's FutureThe project will remain open-source with OpenAI's sponsorship, following a **Chrome/Chromium model** where OpenClaw serves as the open foundation and OpenAI builds commercial products atop it. However, with Steinberger inside OpenAI, the project's direction may align more with OpenAI's priorities.
 
 ## Context
 

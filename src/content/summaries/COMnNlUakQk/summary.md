@@ -126,21 +126,13 @@ Claude SEO is an AI-powered suite that consolidates multiple SEO functions into 
 
 Claude SEO represents a significant advancement in SEO automation, combining 12 specialized skills into a single AI agent powered by Claude Code. The system replaces the need for multiple traditional SEO tools by performing comprehensive website analysis through parallel processing of multiple specialized agents.
 
-### Core Capabilities
+### Core CapabilitiesThe suite includes **SEO Audit** for full website analysis, **SEO Page** for deep single-page examination, **SEO Sitemap** for XML sitemap analysis and generation, **SEO Schema** for detecting, validating, and generating structured data, **SEO Images** for optimization analysis, **Technical SEO**, **Content SEO** for E-A-T and quality analysis, and the creator's favorite: **SEO GEO** (Generative Engine Optimization) that optimizes content for AI search engines like ChatGPT, Gemini, and Claude.
 
-The suite includes **SEO Audit** for full website analysis, **SEO Page** for deep single-page examination, **SEO Sitemap** for XML sitemap analysis and generation, **SEO Schema** for detecting, validating, and generating structured data, **SEO Images** for optimization analysis, **Technical SEO**, **Content SEO** for E-A-T and quality analysis, and the creator's favorite: **SEO GEO** (Generative Engine Optimization) that optimizes content for AI search engines like ChatGPT, Gemini, and Claude.
+### Practical DemonstrationThe video shows a real-time audit of rankingstein.pro, where the system identifies the business type, pulls the sitemap, analyzes each page, and runs technical SEO, schema structure, performance, and mobile analysis using tools like **Playwright** for visual page inspection. The audit completes in under 3 minutes with a detailed health score breakdown across seven categories.
 
-### Practical Demonstration
+### Output GenerationThe system generates comprehensive reports with actionable insights, including specific fixes needed, and can produce professional PDF documents suitable for client presentations. For schema analysis, it validates existing JSON-LD, microdata, and RDFa while generating corrected schema code ready for implementation.
 
-The video shows a real-time audit of rankingstein.pro, where the system identifies the business type, pulls the sitemap, analyzes each page, and runs technical SEO, schema structure, performance, and mobile analysis using tools like **Playwright** for visual page inspection. The audit completes in under 3 minutes with a detailed health score breakdown across seven categories.
-
-### Output Generation
-
-The system generates comprehensive reports with actionable insights, including specific fixes needed, and can produce professional PDF documents suitable for client presentations. For schema analysis, it validates existing JSON-LD, microdata, and RDFa while generating corrected schema code ready for implementation.
-
-### Installation and Usage
-
-Available on GitHub, Claude SEO can be installed with a single command for Unix, Mac OS, or Linux systems, with separate repositories available for Visual Studio Code integration. The system includes quality gates that warn at 100 pages to ensure proper processing and accurate results.
+### Installation and UsageAvailable on GitHub, Claude SEO can be installed with a single command for Unix, Mac OS, or Linux systems, with separate repositories available for Visual Studio Code integration. The system includes quality gates that warn at 100 pages to ensure proper processing and accurate results.
 
 ## Context
 

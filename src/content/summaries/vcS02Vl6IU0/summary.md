@@ -104,9 +104,7 @@ This IBM Security Intelligence podcast, featuring experts from X-Force, analyzes
 
 ## Summary
 
-### Introduction and 2026 Threat Intelligence Index Highlights
-
-The podcast, hosted by Matt Kazinski, features IBM X-Force experts Claire Nunees, Chris Cedi, and Joe Satri. They begin by dissecting the key findings from the newly released 2026 IBM X-Force Threat Intelligence Index (TII). The report, compiled from incident response data, penetration tests, and dark web monitoring, reveals a significant shift in the cyber threat landscape.
+### Introduction and 2026 Threat Intelligence Index HighlightsThe podcast, hosted by Matt Kazinski, features IBM X-Force experts Claire Nunees, Chris Cedi, and Joe Satri. They begin by dissecting the key findings from the newly released 2026 IBM X-Force Threat Intelligence Index (TII). The report, compiled from incident response data, penetration tests, and dark web monitoring, reveals a significant shift in the cyber threat landscape.
 
 The most striking finding is a **44% increase in the exploitation of public-facing applications**, making it the top attack vector for the year. Chris Cedi, an author of the report, notes that over half (56%) of these exploited vulnerabilities did not require any authentication, representing a critical security oversight. The panel attributes this surge to the rise in **supply chain attacks** targeting development ecosystems. As systems become more interconnected, the interfaces and trust relationships between them create new vulnerabilities for attackers to exploit.
 
@@ -116,21 +114,15 @@ A recurring theme is the failure to implement **security 101** practices. Joe Sa
 
 While displaced from the top spot, **credential theft** was still the initial vector in 32% of incidents. Chris explains its enduring popularity: it is low-cost, highly effective, and allows attackers to operate stealthily by appearing as legitimate users. The report also found over **300,000 ChatGPT credentials exposed on the dark web**. Joe warns that AI credentials are particularly valuable targets because AI agents are often granted extensive permissions across systems, databases, and domains. Compromising an AI agent provides an attacker with broad access and capabilities, a concept they refer to as 'stealing the AI's soul'.
 
-### AI Agents as Both Targets and Weapons
-
-The discussion delves into two recent stories that illustrate the dual nature of AI in the threat landscape. First, info-stealer malware was found exfiltrating OpenClaw agent configuration files (termed 'soul.md' files), which contain the agent's operating principles and guidelines. Claire cautions against anthropomorphizing AI but agrees that stealing a customized agent could expose sensitive organizational data or proprietary processes embedded in its training and interactions.
+### AI Agents as Both Targets and WeaponsThe discussion delves into two recent stories that illustrate the dual nature of AI in the threat landscape. First, info-stealer malware was found exfiltrating OpenClaw agent configuration files (termed 'soul.md' files), which contain the agent's operating principles and guidelines. Claire cautions against anthropomorphizing AI but agrees that stealing a customized agent could expose sensitive organizational data or proprietary processes embedded in its training and interactions.
 
 Second, attackers compromised an npm package for the AI coding tool 'Klein' to secretly install the OpenClaw agent on victims' devices. This represents AI agents being used as the **malware payload itself**. Chris and Joe note this is a dangerous evolution of supply chain attacks, where a trusted component delivers a highly capable, autonomous agent with significant permissions, all without the user's knowledge. This tactic opens the door to new, disruptive forms of attack.
 
-### Weaknesses in AI Infrastructure and Governance
-
-The conversation turns to a Cisco report on the state of AI security, which warns that core AI infrastructure components are vulnerable. Protocols like the **Model Context Protocol (MCP)** and agent-to-agent communication have created a vast, often unmonitored attack surface. Furthermore, most model repositories lack cryptographic assurances of a model's provenance, training data, or modifications.
+### Weaknesses in AI Infrastructure and GovernanceThe conversation turns to a Cisco report on the state of AI security, which warns that core AI infrastructure components are vulnerable. Protocols like the **Model Context Protocol (MCP)** and agent-to-agent communication have created a vast, often unmonitored attack surface. Furthermore, most model repositories lack cryptographic assurances of a model's provenance, training data, or modifications.
 
 Joe emphasizes the critical need for **AI governance**. Organizations must have programs to vet and authorize AI tools, but they also must contend with 'shadow AI'—employees using unauthorized AI services that could leak sensitive company data. Chris laments that, despite years of advocacy for 'security by design,' new technologies like AI still see security treated as an afterthought due to the pressure to rush to market.
 
-### A Human-Centric Approach to Threat Intelligence
-
-The final segment discusses an op-ed advocating for organizing threat intelligence around **human vulnerabilities** rather than adversary types (e.g., nation-state vs. cybercriminal). The argument is that tactics like email bombing are used across different threat categories, and defenses focused on the human impact (financial loss, data theft, harassment) could be more effective and broadly understandable.
+### A Human-Centric Approach to Threat IntelligenceThe final segment discusses an op-ed advocating for organizing threat intelligence around **human vulnerabilities** rather than adversary types (e.g., nation-state vs. cybercriminal). The argument is that tactics like email bombing are used across different threat categories, and defenses focused on the human impact (financial loss, data theft, harassment) could be more effective and broadly understandable.
 
 Chris sees value in both specialized expertise and this unified approach, especially when communicating risks to clients. Joe shares lessons from collaborative initiatives like the Costa Rica Cybersecurity Cluster, where sharing experiences across organizations reveals common blind spots and best practices. Claire stresses the importance of making threat intelligence **human-centered** and digestible, helping people understand how threats personally impact them, not just their organization.
 

@@ -134,21 +134,13 @@ Ahrefs has introduced significant updates to its SEO and analytics platform. •
 ### Rank Tracker 2.0
 Rank Tracker has been completely overhauled with a new tech stack, resulting in faster reports and keyword management. Users can now select, edit, or delete keywords in bulk, and the SER overview allows comparison of time periods with search intent breakdowns by percentage for monitoring changes over time.
 
-### Brand Radar Enhancements
+### Brand Radar EnhancementsBrand Radar now covers web pages powered by Ahrefs' 16 billion page index, alongside AI overviews. New features include location filters for country-specific tracking and two scopes: market scope for all results and competitive scope for brand mentions. Metrics like market share and reach help benchmark against total market and competitors.
 
-Brand Radar now covers web pages powered by Ahrefs' 16 billion page index, alongside AI overviews. New features include location filters for country-specific tracking and two scopes: market scope for all results and competitive scope for brand mentions. Metrics like market share and reach help benchmark against total market and competitors.
+### Web Analytics and AI Content HelperWeb analytics widgets now have comparison mode for time periods and relative mode for percentage share shifts. The AI content helper adds an 'Ask AI' button on topic cards, opening a focused chat trained on specific topics with prompt suggestions for content refinement and idea generation.
 
-### Web Analytics and AI Content Helper
+### Site Explorer and Always-on AuditsSite Explorer's organic keywords report consolidates all locations into one place for quick traffic drop analysis. Always-on audits (AOA) allow 24/7 crawling with alerts for critical issues, prioritizing high-value pages based on traffic and internal links. AOA requires Pro or Max plans, crawling at 1 URL/min on Pro and up to 30 URLs/min on Max, and complements scheduled crawls.
 
-Web analytics widgets now have comparison mode for time periods and relative mode for percentage share shifts. The AI content helper adds an 'Ask AI' button on topic cards, opening a focused chat trained on specific topics with prompt suggestions for content refinement and idea generation.
-
-### Site Explorer and Always-on Audits
-
-Site Explorer's organic keywords report consolidates all locations into one place for quick traffic drop analysis. Always-on audits (AOA) allow 24/7 crawling with alerts for critical issues, prioritizing high-value pages based on traffic and internal links. AOA requires Pro or Max plans, crawling at 1 URL/min on Pro and up to 30 URLs/min on Max, and complements scheduled crawls.
-
-### Other Updates
-
-Patches support a new deployment mode via Cloudflare worker for server-side application on Cloudflare-hosted sites. The top menu is fully customizable with favorites saved to your account. The dashboard now includes a total visitor section from web analytics, showing actual visitor counts and average monthly visitors.
+### Other UpdatesPatches support a new deployment mode via Cloudflare worker for server-side application on Cloudflare-hosted sites. The top menu is fully customizable with favorites saved to your account. The dashboard now includes a total visitor section from web analytics, showing actual visitor counts and average monthly visitors.
 
 ## Context
 

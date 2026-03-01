@@ -81,21 +81,15 @@ This podcast episode from Agency Secrets provides a roadmap for marketing agency
 
 ## Summary
 
-### Introduction: The Agency Scaling Crossroads
-
-Adam and Dave, hosts of the Modern Marketing Podcast, frame the central challenge every agency owner faces: hitting a 'fork in the road' where they must decide whether to scale the business into a true asset or remain trapped in a cycle of overwork. They identify three primary audience segments: the side-hustler with 1-2 clients, the 'stuck' agency owner making $5k-$50k/month but not growing profitably, and the established owner who wants to remove themselves from day-to-day operations to achieve location and time freedom.
+### Introduction: The Agency Scaling CrossroadsAdam and Dave, hosts of the Modern Marketing Podcast, frame the central challenge every agency owner faces: hitting a 'fork in the road' where they must decide whether to scale the business into a true asset or remain trapped in a cycle of overwork. They identify three primary audience segments: the side-hustler with 1-2 clients, the 'stuck' agency owner making $5k-$50k/month but not growing profitably, and the established owner who wants to remove themselves from day-to-day operations to achieve location and time freedom.
 
 They debunk the pervasive myth that agency growth requires a linear increase in the owner's hours. Instead, they argue that sustainable scaling is about working *on* the business, not *in* it. The hosts share their personal journeys from limiting beliefs—thinking a seven-figure, owner-independent agency was impossible—to the realization that it's not only achievable but replicable through systems and mindset shifts.
 
-### Stage 1: The Side-Hustle to Full-Time Leap
-
-For the agency owner with 1-2 clients, the advice is straightforward: keep costs minimal and focus obsessively on client acquisition. The goal is to reach a point where the side hustle generates at least 25% of your required income on a part-time basis, which statistically indicates you can successfully transition to full-time. During this phase, you will likely be the primary 'doer,' but the focus should be on over-delivering for early clients to gather testimonials and case studies that fuel future sales.
+### Stage 1: The Side-Hustle to Full-Time LeapFor the agency owner with 1-2 clients, the advice is straightforward: keep costs minimal and focus obsessively on client acquisition. The goal is to reach a point where the side hustle generates at least 25% of your required income on a part-time basis, which statistically indicates you can successfully transition to full-time. During this phase, you will likely be the primary 'doer,' but the focus should be on over-delivering for early clients to gather testimonials and case studies that fuel future sales.
 
 Automation at this stage is less about business systems and more about 'life systems'—streamlining personal chores and responsibilities to free up maximum time for Outreach and client work. The core activity is Revenue Generating Activities (RGAs), primarily outbound outreach (email, DMs) and beginning to build inbound marketing systems.
 
-### Stage 2: Breaking the Plateau with Delegation
-
-The 'stuck' agency owner, often generating $5k-$20k/month but feeling month-to-month pressure, typically has a client acquisition problem masked by a time problem. The hosts argue that more sales will solve most issues, as the resulting cash flow allows for strategic hiring.
+### Stage 2: Breaking the Plateau with DelegationThe 'stuck' agency owner, often generating $5k-$20k/month but feeling month-to-month pressure, typically has a client acquisition problem masked by a time problem. The hosts argue that more sales will solve most issues, as the resulting cash flow allows for strategic hiring.
 
 The critical shift here is to stop equating growth with personal effort and start leveraging the 80/20 principle. Most agencies are trying to do too many different services for too many different types of clients. The solution is to identify the 20% of services and clients that drive 80% of profits and double down on them.
 
@@ -106,9 +100,7 @@ The critical shift here is to stop equating growth with personal effort and star
 
 *   **Adopt an 'agency-as-broker' model.** You don't need to be the expert in every service you offer. Your role is to be the expert in *getting clients* and then connecting them with the best contractors (e.g., SEO specialists, web developers, ad managers) to do the work. The client only cares about the result, not who executes it.
 
-### Stage 3: Building the Owner-Independent Agency
-
-For the owner aiming to step away from day-to-day operations, systemization through niching and productization is non-negotiable. A niche allows you to create repeatable, proven systems that contractors can execute flawlessly without constant owner intervention. This transforms your service from a custom consultancy into a scalable, productized offering.
+### Stage 3: Building the Owner-Independent AgencyFor the owner aiming to step away from day-to-day operations, systemization through niching and productization is non-negotiable. A niche allows you to create repeatable, proven systems that contractors can execute flawlessly without constant owner intervention. This transforms your service from a custom consultancy into a scalable, productized offering.
 
 **The final mindset shift is from operator to 'conductor' or 'chess master.'** Your value is no longer in *doing* the work but in:
 1.  **Setting the strategic vision** and acquiring the right clients.
@@ -117,9 +109,7 @@ For the owner aiming to step away from day-to-day operations, systemization thro
 
 The hosts emphasize that this process requires 'ego destruction.' The business must be built to run without you. When you achieve this, you unlock true location and time freedom, as evidenced by their own ability to take extended trips while their agencies continue to operate profitably.
 
-### Conclusion: The Life-Changing Potential
-
-Adam and Dave conclude by reflecting on the transformative power of building a scalable agency. It provides not just financial abundance but the ultimate freedom to design your life. They encourage persistence through the struggles, reminding viewers that the 'pot of gold'—a profitable, freedom-providing business—is genuinely life-changing and worth the strategic effort to build systems, delegate effectively, and master the art of client acquisition.
+### Conclusion: The Life-Changing PotentialAdam and Dave conclude by reflecting on the transformative power of building a scalable agency. It provides not just financial abundance but the ultimate freedom to design your life. They encourage persistence through the struggles, reminding viewers that the 'pot of gold'—a profitable, freedom-providing business—is genuinely life-changing and worth the strategic effort to build systems, delegate effectively, and master the art of client acquisition.
 
 ## Context
 

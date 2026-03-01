@@ -126,13 +126,9 @@ This video details Ahrefs's September 2025 product updates, focusing on new capa
 
 The September 2025 update for Ahrefs is packed with 18 new features and improvements, headlined by significant expansions to Brand Radar and the introduction of a new integration framework.
 
-### Brand Radar Enhancements
+### Brand Radar EnhancementsThe core of Brand Radar has been upgraded with two major features. **Entities** allow users to group multiple spelling variations or names for a brand or competitor into a single entity, ensuring all mentions are counted cohesively for a cleaner brand footprint view. **Topics** introduces a new report and overview widget that clusters search queries by parent topics from Keywords Explorer, helping users identify and prioritize new content opportunities. Additional Brand Radar updates include saved reports with access controls, a new filter builder for overview charts, dedicated filters for Cited Domains/Pages reports, Google Sheets export support, and the first endpoint of the new Brand Radar API for AI responses.
 
-The core of Brand Radar has been upgraded with two major features. **Entities** allow users to group multiple spelling variations or names for a brand or competitor into a single entity, ensuring all mentions are counted cohesively for a cleaner brand footprint view. **Topics** introduces a new report and overview widget that clusters search queries by parent topics from Keywords Explorer, helping users identify and prioritize new content opportunities. Additional Brand Radar updates include saved reports with access controls, a new filter builder for overview charts, dedicated filters for Cited Domains/Pages reports, Google Sheets export support, and the first endpoint of the new Brand Radar API for AI responses.
-
-### Platform-Wide Updates
-
-Multiple core Ahrefs tools received substantial updates:
+### Platform-Wide UpdatesMultiple core Ahrefs tools received substantial updates:
 
 *   **Web Analytics**: Users can now compare funnels across dates, export tracked events directly, and access a new **Possible 404 report** that flags pages receiving visits but likely returning 404 errors, often due to AI chatbot hallucinations.
 
@@ -144,9 +140,7 @@ Multiple core Ahrefs tools received substantial updates:
 
 *   **Rank Tracker**: User notes in Rank Tracker and GSC charts are now shared across the entire workspace.
 
-### Ahrefs Connect & API Changes
-
-The update announces **Ahrefs Connect**, a new OAuth-based system for third-party integrations built on API v3. It allows other tools to pull Ahrefs data like competitive intelligence and site audits directly into their workflows. Extra API units have been added to Lite, Standard, and Advanced plans for Connect usage. The company confirms that **API v2 and all legacy integrations will stop working on November 1, 2025**, marking a complete transition to the new API v3 infrastructure.
+### Ahrefs Connect & API ChangesThe update announces **Ahrefs Connect**, a new OAuth-based system for third-party integrations built on API v3. It allows other tools to pull Ahrefs data like competitive intelligence and site audits directly into their workflows. Extra API units have been added to Lite, Standard, and Advanced plans for Connect usage. The company confirms that **API v2 and all legacy integrations will stop working on November 1, 2025**, marking a complete transition to the new API v3 infrastructure.
 
 ## Context
 

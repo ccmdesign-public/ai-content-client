@@ -146,16 +146,12 @@ IndyDevDan compares Claude Code and Pi, highlighting Pi's open-source, customiza
 
 ## Summary
 
-### Introduction: The Need for New Tools
-
-The video opens with the premise that engineers are limited by their tools, and mainstream agentic coding tools like Claude Code create constraints as they prioritize profit and mass adoption over niche engineering needs. The presenter introduces Pi as an open-source, unopinionated counterattack to Claude Code, designed for mid-to-senior level engineers who want to expand beyond what everyone else is doing.
+### Introduction: The Need for New ToolsThe video opens with the premise that engineers are limited by their tools, and mainstream agentic coding tools like Claude Code create constraints as they prioritize profit and mass adoption over niche engineering needs. The presenter introduces Pi as an open-source, unopinionated counterattack to Claude Code, designed for mid-to-senior level engineers who want to expand beyond what everyone else is doing.
 
 ### Design Philosophy: Claude Code vs. Pi
 The core difference lies in philosophy: Claude Code offers a great out-of-the-box experience with strong opinions, safety modes, and a 10,000-token system prompt, while Pi adopts a minimal approach with a 200-token prompt, no safety modes ("YOLO mode"), full device access by default, and support for any model. Pi is built on the principle "If I don't need it, it won't be built," giving engineers complete control over every aspect of the agent harness.
 
-### Tier 1: Customizing the Agent Harness
-
-The first tier demonstrates Pi's extreme customizability through extensions. The presenter shows how to:
+### Tier 1: Customizing the Agent HarnessThe first tier demonstrates Pi's extreme customizability through extensions. The presenter shows how to:
 
 * Create a pure flow-focused interface that strips away all UI except the conversation.
 
@@ -165,9 +161,7 @@ The first tier demonstrates Pi's extreme customizability through extensions. The
 
 * Control the agent's workflow deterministically using hooks that block actions until specific conditions are met.
 
-### Tier 2: Multi-Agent Orchestration
-
-The second tier showcases how Pi enables building sophisticated multi-agent systems:
+### Tier 2: Multi-Agent OrchestrationThe second tier showcases how Pi enables building sophisticated multi-agent systems:
 
 * Creating agent teams (scout, planner, builder, reviewer, documenter) that work together through a dispatch system.
 
@@ -177,13 +171,9 @@ The second tier showcases how Pi enables building sophisticated multi-agent syst
 
 * Implementing a "system select" feature to dynamically change the primary agent's system prompt and specialization.
 
-### Tier 3: Meta-Agents and the Future
+### Tier 3: Meta-Agents and the FutureThe final tier explores meta-agents that build other agents. The presenter demonstrates a Pi agent with eight expert sub-agents, each specializing in different aspects of Pi development. This represents the future of agentic engineering: specialized agents working under an orchestrator to create unique solutions at scale. The key insight is that specialization doesn't stop at the model level—you must customize your entire agentic coding tool to achieve differentiated results.
 
-The final tier explores meta-agents that build other agents. The presenter demonstrates a Pi agent with eight expert sub-agents, each specializing in different aspects of Pi development. This represents the future of agentic engineering: specialized agents working under an orchestrator to create unique solutions at scale. The key insight is that specialization doesn't stop at the model level—you must customize your entire agentic coding tool to achieve differentiated results.
-
-### Strategic Recommendations and Conclusion
-
-The presenter recommends a hedging strategy: use Claude Code for 80% of work (especially in enterprise contexts) but allocate 20% to Pi for experimental, next-generation agentic coding. Pi excels when you need full control, want to avoid lock-in, or have outgrown Claude Code's limitations. The ultimate goal is building codebases that run themselves through powerful agent orchestration, moving beyond the "age of slop" where everyone uses the same tools to generate similar outputs.
+### Strategic Recommendations and ConclusionThe presenter recommends a hedging strategy: use Claude Code for 80% of work (especially in enterprise contexts) but allocate 20% to Pi for experimental, next-generation agentic coding. Pi excels when you need full control, want to avoid lock-in, or have outgrown Claude Code's limitations. The ultimate goal is building codebases that run themselves through powerful agent orchestration, moving beyond the "age of slop" where everyone uses the same tools to generate similar outputs.
 
 ## Context
 

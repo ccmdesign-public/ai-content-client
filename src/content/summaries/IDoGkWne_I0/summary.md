@@ -144,25 +144,15 @@ Gemini's Canvas and Gems features transform how you build practical tools with A
 
 The video demonstrates five practical use cases for Google Gemini's Canvas and Gems features, showing how anyone can build interactive web applications in under two minutes using simple prompts.
 
-### Building Animated Invitations
+### Building Animated InvitationsYou can create fully animated dinner invitations with embedded maps, calendar integration, and guest Wi-Fi details using a single prompt. The app includes interactive maps with directions, calendar buttons for easy RSVP, and stylish animations that make sharing with friends more engaging than traditional text messages.
 
-You can create fully animated dinner invitations with embedded maps, calendar integration, and guest Wi-Fi details using a single prompt. The app includes interactive maps with directions, calendar buttons for easy RSVP, and stylish animations that make sharing with friends more engaging than traditional text messages.
+### Personal Card VaultBuild a secure digital wallet for credit card information with flipping animations that reveal CVV numbers. The app allows adding multiple cards, copying card numbers with one click, and can be enhanced with PIN protection layers. This solves the common problem of needing card details when shopping online or in stores.
 
-### Personal Card Vault
+### Executive Data DashboardsUpload spreadsheet data and create interactive business dashboards with scenario planners. Gemini can analyze 18 months of sales data and build visualizations showing revenue trends, customer growth, and what-if analysis simulations. The resulting app includes adjustable sliders for churn rates and growth projections.
 
-Build a secure digital wallet for credit card information with flipping animations that reveal CVV numbers. The app allows adding multiple cards, copying card numbers with one click, and can be enhanced with PIN protection layers. This solves the common problem of needing card details when shopping online or in stores.
+### Notebook-Powered AnalyticsConnect directly to NotebookLM to build analytics dashboards without uploading data separately. The video shows creating a YouTube performance dashboard that pulls views, watch time, and subscriber data automatically. This demonstrates how Canvas can leverage existing data sources for rapid app development.
 
-### Executive Data Dashboards
-
-Upload spreadsheet data and create interactive business dashboards with scenario planners. Gemini can analyze 18 months of sales data and build visualizations showing revenue trends, customer growth, and what-if analysis simulations. The resulting app includes adjustable sliders for churn rates and growth projections.
-
-### Notebook-Powered Analytics
-
-Connect directly to NotebookLM to build analytics dashboards without uploading data separately. The video shows creating a YouTube performance dashboard that pulls views, watch time, and subscriber data automatically. This demonstrates how Canvas can leverage existing data sources for rapid app development.
-
-### Architecture Diagram Intelligence
-
-Combine Canvas with Gems to create reusable tools for analyzing technical diagrams. Upload any architecture diagram, get text explanations, then build interactive visualizations where you can click components for detailed explanations and simulate data flows. This creates living documentation that helps teams understand complex systems.
+### Architecture Diagram IntelligenceCombine Canvas with Gems to create reusable tools for analyzing technical diagrams. Upload any architecture diagram, get text explanations, then build interactive visualizations where you can click components for detailed explanations and simulate data flows. This creates living documentation that helps teams understand complex systems.
 
 The key advantage is **reusability** – once you create a Gem for a specific task type (like diagram analysis), you can reuse it with new inputs without rewriting prompts. Canvas serves as the execution engine, while Gems provide the repeatable workflow logic.
 

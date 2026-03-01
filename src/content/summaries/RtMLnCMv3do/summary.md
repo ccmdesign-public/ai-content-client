@@ -117,27 +117,19 @@ The video argues the primary framework for understanding AI's impact on jobs is 
 
 ## Summary
 
-### The Real AI Failure Mode Isn't Disobedience
-
-The video opens with a counterintuitive framing of AI's impact on software development. It references a high-profile incident where an AI coding agent deleted a production database during a code freeze. However, the speaker argues that the focus on 'disobedient' agents is misplaced. The far more expensive and quiet failure mode is when AI agents execute specifications flawlessly, but the specification itself is wrong. This leads to code that 'does the wrong thing correctly.'
+### The Real AI Failure Mode Isn't DisobedienceThe video opens with a counterintuitive framing of AI's impact on software development. It references a high-profile incident where an AI coding agent deleted a production database during a code freeze. However, the speaker argues that the focus on 'disobedient' agents is misplaced. The far more expensive and quiet failure mode is when AI agents execute specifications flawlessly, but the specification itself is wrong. This leads to code that 'does the wrong thing correctly.'
 
 Data from CodeRabbit and Google's DORA report is cited, showing AI-generated code produces 1.7x more logic issues and correlates with a 9% climb in bug rates alongside a 90% increase in AI adoption. The core insight is that the bottleneck in software creation is shifting from the cost of *production* (writing code) to the cost of *specification* (defining what to build). Amazon's launch of the Cairo developer environment, which forces testable specs before code generation, is highlighted as a key signal of this shift.
 
-### The Collapsing Cost of Production and Exploding Demand
-
-The marginal cost of producing software is collapsing towards zero, with examples like 90% of Cloud Code being written by Claude Code and three-person teams building what required ten people 18 months ago. Companies like Cursor generate $16M per employee partly due to AI code generation. This capability curve is steepening, not leveling off.
+### The Collapsing Cost of Production and Exploding DemandThe marginal cost of producing software is collapsing towards zero, with examples like 90% of Cloud Code being written by Claude Code and three-person teams building what required ten people 18 months ago. Companies like Cursor generate $16M per employee partly due to AI code generation. This capability curve is steepening, not leveling off.
 
 When the cost of a good goes to zero, economic history shows demand explodes. The video argues the total addressable market for software is functionally infinite but has been constrained by production cost. The world is 'underbuilt' on software, with countless business processes running on spreadsheets, email, and phone calls. As production costs fall to 'two bucks in API calls,' this constraint lifts, and the market for software will explode. This is the optimistic case for why total software employment may grow, not shrink, aligning with Francois Chollet's translation analogy.
 
-### The Specification Bottleneck and the Inversion of Risk
-
-The majority of software projects fail not due to bad engineering, but because 'nobody specified the correct thing to build.' Vague directives like 'make it user-friendly' are not specifications. The entire discipline of software engineering (agile, sprint planning) evolved to force specification out of vague human language.
+### The Specification Bottleneck and the Inversion of RiskThe majority of software projects fail not due to bad engineering, but because 'nobody specified the correct thing to build.' Vague directives like 'make it user-friendly' are not specifications. The entire discipline of software engineering (agile, sprint planning) evolved to force specification out of vague human language.
 
 Historically, the high cost and time of building (6 months, half a million dollars) acted as a filter on spec quality. Organizations were forced to think carefully. AI is removing that cost filter, which also removes the incentive to specify well. The risk inverts: you can now build the wrong thing at unprecedented speed and scale. A 'vibecoded' app built in an afternoon for $20 in API calls with a wrong spec isn't a time-saver; it's a waste that could harm customers. The scarce resource is no longer the ability to write code, but the ability to define what the code should do.
 
-### The Great Bifurcation: Two Emerging Classes of Knowledge Workers
-
-This shift is creating a stark bifurcation in the job market, starting with software engineering but extending to all knowledge work.
+### The Great Bifurcation: Two Emerging Classes of Knowledge WorkersThis shift is creating a stark bifurcation in the job market, starting with software engineering but extending to all knowledge work.
 
 *   **Class 1: High-Value Specifiers:** These individuals 'drive high-value tokens.' They specify precisely, architect systems, manage fleets of agents (not just one), and evaluate output against intention. They hold the entire product and its trade-offs in their head and use AI to execute at previously impossible scale. Their output is bounded only by their judgment and attention, not hours in the day. They command extraordinary pricing power, evidenced by companies like Midjourney ($200M revenue with 11 people), Cursor ($16M per employee), and Lovable. They capture the value that used to be distributed across entire teams.
 
@@ -145,9 +137,7 @@ This shift is creating a stark bifurcation in the job market, starting with soft
 
 The solopreneur thesis only applies to the first class (10-20% of the workforce). For the other 80%, the future means smaller teams, higher expectations, and compressed unit economics. The core differentiator is **economic output generated per unit of human judgment**.
 
-### Convergence of All Knowledge Work and Required Mindset Shifts
-
-The video argues software engineers are just the 'canary in the coal mine.' All knowledge work (analysis, consulting, project management, legal, finance, marketing) runs on the same substrate AI is transforming: it happens on computers, produces digital outputs, and can be described, formalized, and validated. Two forces are breaking the assumption that knowledge work is too vague to automate: 1) A huge fraction of it (reports, slide decks, status updates) is coordination overhead for large organizations, which AI makes leaner, deleting that work. 2) The remaining high-judgment work is becoming more verifiable (e.g., financial strategies as testable models, contract review as pattern matching).
+### Convergence of All Knowledge Work and Required Mindset ShiftsThe video argues software engineers are just the 'canary in the coal mine.' All knowledge work (analysis, consulting, project management, legal, finance, marketing) runs on the same substrate AI is transforming: it happens on computers, produces digital outputs, and can be described, formalized, and validated. Two forces are breaking the assumption that knowledge work is too vague to automate: 1) A huge fraction of it (reports, slide decks, status updates) is coordination overhead for large organizations, which AI makes leaner, deleting that work. 2) The remaining high-judgment work is becoming more verifiable (e.g., financial strategies as testable models, contract review as pattern matching).
 
 The cognitive task is converging: translating vague human intent into precise, executable instructions. Therefore, all knowledge workers must adopt core engineering disciplines:
 

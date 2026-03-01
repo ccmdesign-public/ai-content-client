@@ -59,23 +59,15 @@ Former YC engineers Cat and Zach share their startup journey from internal tools
 
 ## Summary
 
-### From YC Software Team to Startup Founders
+### From YC Software Team to Startup FoundersCat and Zach met while working on Y Combinator's internal software team, building critical tools like Bookface (a social network for founders) and handling the complex software infrastructure needed to manage thousands of startups. Inspired by the founders they worked with and early access to innovations like OpenAI (which started as YC Research), they caught the 'startup bug' and decided to build their own company.
 
-Cat and Zach met while working on Y Combinator's internal software team, building critical tools like Bookface (a social network for founders) and handling the complex software infrastructure needed to manage thousands of startups. Inspired by the founders they worked with and early access to innovations like OpenAI (which started as YC Research), they caught the 'startup bug' and decided to build their own company.
-
-### The Pivot Journey: Three Ideas to Product-Market Fit
-
-Their startup journey involved three distinct phases. First, they attempted to build a 'better Siri'—a broad consumer AI assistant that could perform tasks like calling Ubers or ordering food. This proved confusing for users due to its undefined capabilities. Their second idea, an AI that makes outbound phone calls for consumers, went viral. Users employed it for tasks like negotiating car prices across multiple dealerships and waiting on hold for flight refunds, even attracting organic attention from celebrities like Reese Witherspoon.
+### The Pivot Journey: Three Ideas to Product-Market FitTheir startup journey involved three distinct phases. First, they attempted to build a 'better Siri'—a broad consumer AI assistant that could perform tasks like calling Ubers or ordering food. This proved confusing for users due to its undefined capabilities. Their second idea, an AI that makes outbound phone calls for consumers, went viral. Users employed it for tasks like negotiating car prices across multiple dealerships and waiting on hold for flight refunds, even attracting organic attention from celebrities like Reese Witherspoon.
 However, this app suffered from low retention—users loved it for one-off tasks but didn't need it regularly. The pivotal insight came from inbound requests from users of the consumer app who asked, 'Can I use this for my business?' This led to their third and current idea: **Simple AI**, an enterprise product providing 'AI voice that sells.'
 
-### Landing the First Major Customer: Omaha Steaks
-
-The breakthrough came when the CEO of Omaha Steaks, a century-old company that does most of its revenue over the phone, used their consumer app to prank-call his COO. He immediately saw its potential to solve his 'hair-on-fire' problem: the company had to 15x its workforce for the holiday season, relying on unreliable temp workers who were poorly trained, leading to massive lost sales.
+### Landing the First Major Customer: Omaha SteaksThe breakthrough came when the CEO of Omaha Steaks, a century-old company that does most of its revenue over the phone, used their consumer app to prank-call his COO. He immediately saw its potential to solve his 'hair-on-fire' problem: the company had to 15x its workforce for the holiday season, relying on unreliable temp workers who were poorly trained, leading to massive lost sales.
 Cat and Zach spent two weeks in Omaha, Nebraska, embedding with the team to understand their complex, legacy business. They integrated with archaic **AS400 terminal systems** that ran on-premise servers and could only be updated once a day at 6 AM. The company assigned two full-time engineers just to build APIs for Simple AI, highlighting the critical importance of the solution.
 
-### How Simple AI Works and Why It's Better
-
-Simple AI acts as the first point of contact for inbound sales calls. The AI greets callers, answers product questions, explains complex packages and promotions, takes billing and shipping information, and completes the sale end-to-end with no human intervention.
+### How Simple AI Works and Why It's BetterSimple AI acts as the first point of contact for inbound sales calls. The AI greets callers, answers product questions, explains complex packages and promotions, takes billing and shipping information, and completes the sale end-to-end with no human intervention.
 The system's advantages are significant:
 
 *   **Superhuman Performance:** It achieves a **30% higher upsell rate** than even trained, full-time human agents by consistently applying the best sales techniques learned from top performers.
@@ -86,9 +78,7 @@ The system's advantages are significant:
 
 *   **Superior Customer Experience:** Freed from the pressure to minimize 'average handle time,' the AI can have conversational, empathetic interactions, making customers feel heard and building loyalty.
 
-### Technical Challenges and Building a Moat
-
-The founders emphasize that while a basic voice agent demo is easy, building a production-grade, reliable system is immensely complex, creating a strong technical moat:
+### Technical Challenges and Building a MoatThe founders emphasize that while a basic voice agent demo is easy, building a production-grade, reliable system is immensely complex, creating a strong technical moat:
 
 *   **Latency:** They target sub-600ms response times for natural conversation, requiring custom fine-tuned models instead of slower general-purpose LLMs.
 

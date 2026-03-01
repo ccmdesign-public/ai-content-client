@@ -180,13 +180,9 @@ Internet Vin demonstrates how Obsidian and Claude Code combine to create a power
 
 ## Summary
 
-### Introduction: The Obsidian + Claude Code Partnership
+### Introduction: The Obsidian + Claude Code PartnershipGreg Isenberg introduces his guest, Internet Vin, to explain a transformative workflow pairing Obsidian, a popular ‘second brain’ note-taking tool, with Claude Code, Anthropic’s natural language command-line agent. Vin frames the episode’s goal: to learn how to use these tools as a ‘thinking partner,’ stop repeatedly explaining context to AI agents, and discover hidden patterns in your own thinking.
 
-Greg Isenberg introduces his guest, Internet Vin, to explain a transformative workflow pairing Obsidian, a popular ‘second brain’ note-taking tool, with Claude Code, Anthropic’s natural language command-line agent. Vin frames the episode’s goal: to learn how to use these tools as a ‘thinking partner,’ stop repeatedly explaining context to AI agents, and discover hidden patterns in your own thinking.
-
-### Understanding the Core Tools: Claude Code and Obsidian
-
-Vin begins by demystifying **Claude Code**. It’s an agent that operates in your terminal, allowing you to control your computer through natural language commands, like creating files or reading directories. The key problem it solves is **context persistence**. Instead of re-explaining a complex project in every new chat session, you can save that description to a markdown file and have Claude Code reference it anytime, feeding the AI high-quality, reusable context.
+### Understanding the Core Tools: Claude Code and ObsidianVin begins by demystifying **Claude Code**. It’s an agent that operates in your terminal, allowing you to control your computer through natural language commands, like creating files or reading directories. The key problem it solves is **context persistence**. Instead of re-explaining a complex project in every new chat session, you can save that description to a markdown file and have Claude Code reference it anytime, feeding the AI high-quality, reusable context.
 
 He then explains **Obsidian**. At its base, it’s an interface for a folder of markdown files (a ‘vault’). Its superpower is **bidirectional linking**, allowing you to create a network of relationships between notes—like linking a daily note to a person file or a project file. This creates a graph of your knowledge, which is more expressive than a simple folder hierarchy and works more like associative human memory.
 
@@ -194,9 +190,7 @@ He then explains **Obsidian**. At its base, it’s an interface for a folder of 
 
 The breakthrough is the **Obsidian CLI** (Command Line Interface). This tool allows Claude Code to do two crucial things: read all the files in your Obsidian vault *and* understand the link graph between them. This means the AI doesn’t just see isolated notes; it sees how your ideas about startups, filmmaking, personal habits, and specific people are interconnected. With this holistic view, it can perform tasks impossible for a human at scale, like scanning hundreds of notes to surface a latent idea you’ve been circling for a year.
 
-### Demonstrating Powerful Commands and Workflows
-
-Vin demonstrates a suite of custom commands he built, showing the system’s move from reflection to action.
+### Demonstrating Powerful Commands and WorkflowsVin demonstrates a suite of custom commands he built, showing the system’s move from reflection to action.
 
 *   **`/context`**: Loads a complete picture of his current life and work by reading context files, daily notes, and following backlinks.
 
@@ -208,9 +202,7 @@ Vin demonstrates a suite of custom commands he built, showing the system’s mov
 
 A key example from the `/ideas` command output suggested building a ‘`/graduate`’ command—a tool to scan daily notes for fledgling ideas and help promote them into standalone, linked notes. Vin then had Claude Code immediately build that suggested command, illustrating a virtuous cycle where the AI analyzes your thinking and then builds tools to improve it.
 
-### Philosophy, Privacy, and the Future of Human-Computer Interaction
-
-The conversation shifts to the philosophical implications. Vin uses LLMs primarily as **thinking partners** for reflection and understanding, not just building. He emphasizes a strict separation: the AI can suggest and build *tools*, but he alone writes the core content in his vault. This ensures the vault remains a pure reflection of his thinking, not the AI’s.
+### Philosophy, Privacy, and the Future of Human-Computer InteractionThe conversation shifts to the philosophical implications. Vin uses LLMs primarily as **thinking partners** for reflection and understanding, not just building. He emphasizes a strict separation: the AI can suggest and build *tools*, but he alone writes the core content in his vault. This ensures the vault remains a pure reflection of his thinking, not the AI’s.
 
 They discuss the privacy paradox: giving an agent like OpenClaw access to your Obsidian vault (your second brain) is incredibly powerful for autonomous delegation but also ‘scary.’ Vin purposely shares a lot to understand the technology’s implications, but acknowledges everyone must decide their own comfort level, as this reshapes fundamental concepts of privacy.
 

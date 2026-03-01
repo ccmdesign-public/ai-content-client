@@ -102,17 +102,11 @@ The video explores three core AI agent design patterns with practical implementa
 
 The video is the first in a series on AI agent design patterns, focusing on three foundational architectures for building agentic systems. It provides practical code examples and live demos using Google's ADK (Agent Development Kit) to illustrate each pattern's implementation and trade-offs.
 
-### Single Agent Pattern
+### Single Agent PatternThis is the most fundamental pattern, where a single agent handles all tasks using its reasoning capabilities and available tools. The example shows a trip-planning agent using a Google search tool. While simple to implement and flexible for straightforward multi-step tasks, it becomes unreliable for complex workflows due to AI's non-deterministic nature. The agent's behavior depends entirely on system instructions in a massive prompt, offering little control.
 
-This is the most fundamental pattern, where a single agent handles all tasks using its reasoning capabilities and available tools. The example shows a trip-planning agent using a Google search tool. While simple to implement and flexible for straightforward multi-step tasks, it becomes unreliable for complex workflows due to AI's non-deterministic nature. The agent's behavior depends entirely on system instructions in a massive prompt, offering little control.
+### Sequential Agent PatternThis pattern introduces control by breaking tasks into specialized agents that execute in a fixed order, like an assembly line. The example demonstrates a food-finding agent passing its results via a shared session state to a transportation agent. This provides predictable, reliable execution for highly structured, repeatable tasks. However, the rigid predefined structure makes it inflexible and unable to adapt to dynamic situations.
 
-### Sequential Agent Pattern
-
-This pattern introduces control by breaking tasks into specialized agents that execute in a fixed order, like an assembly line. The example demonstrates a food-finding agent passing its results via a shared session state to a transportation agent. This provides predictable, reliable execution for highly structured, repeatable tasks. However, the rigid predefined structure makes it inflexible and unable to adapt to dynamic situations.
-
-### Parallel Agent Pattern
-
-This pattern optimizes for speed by running multiple specialized agents concurrently for independent subtasks. The example shows museum, concert, and restaurant finder agents searching simultaneously, with results aggregated by a final summarizing agent. This significantly reduces latency but incurs higher initial costs from running multiple agents and adds complexity from the required synthesis step.
+### Parallel Agent PatternThis pattern optimizes for speed by running multiple specialized agents concurrently for independent subtasks. The example shows museum, concert, and restaurant finder agents searching simultaneously, with results aggregated by a final summarizing agent. This significantly reduces latency but incurs higher initial costs from running multiple agents and adds complexity from the required synthesis step.
 
 The video concludes by comparing the patterns: single agents offer simplicity but lack control, sequential agents provide reliability but are inflexible, and parallel agents deliver speed but increase cost and complexity. The next episode will cover more advanced patterns like orchestrator, review and critique, loop agent, and agent-as-tool.
 

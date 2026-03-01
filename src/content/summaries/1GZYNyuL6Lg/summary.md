@@ -100,13 +100,9 @@ Claude Co-work's new **plugins** feature transforms the platform from a general-
 ### Skills vs. Plugins
 **Skills** are reusable sets of custom instructions for single tasks, such as generating branded invoices or writing SEO articles. They are accessible in any chat and act as the AI's 'hands' for execution. **Plugins**, however, are comprehensive bundles of multiple skills, tools, and external connectors designed to perform entire job roles. An analogy used is that a skill is a single recipe card, while a plugin is an experienced chef who knows the whole cookbook and can manage a kitchen.
 
-### Using Pre-built Plugins
+### Using Pre-built PluginsUsers can browse and install ready-made plugins from Claude's marketplace for roles like marketing, finance, legal, and data analysis. For example, the finance plugin includes six bundled skills (auditing, reconciliation, etc.) and can connect to external tools like Snowflake, Google Cloud BigQuery, Slack, and Microsoft 365. Plugins are activated within Co-work, and users can run specific commands (e.g., 'write an email sequence') to execute complex workflows.
 
-Users can browse and install ready-made plugins from Claude's marketplace for roles like marketing, finance, legal, and data analysis. For example, the finance plugin includes six bundled skills (auditing, reconciliation, etc.) and can connect to external tools like Snowflake, Google Cloud BigQuery, Slack, and Microsoft 365. Plugins are activated within Co-work, and users can run specific commands (e.g., 'write an email sequence') to execute complex workflows.
-
-### Customization and Building Plugins
-
-The power of plugins is amplified by customization. Users can modify existing plugins by asking Claude to tailor them to their specific business context and needs. Furthermore, users can build plugins from scratch. Claude can generate a complete plugin based on a simple prompt (e.g., 'build a lead magnet launch kit'). The process involves describing the desired function, and Claude will create a plugin file that can be saved and used immediately.
+### Customization and Building PluginsThe power of plugins is amplified by customization. Users can modify existing plugins by asking Claude to tailor them to their specific business context and needs. Furthermore, users can build plugins from scratch. Claude can generate a complete plugin based on a simple prompt (e.g., 'build a lead magnet launch kit'). The process involves describing the desired function, and Claude will create a plugin file that can be saved and used immediately.
 
 ### Integration and Execution
 A key workflow demonstrated involves linking a plugin to a **Claude Project**. Projects contain deep business context and knowledge. By starting a task in Co-work with a project active, the plugin leverages that specific information to produce highly relevant outputs, such as a multi-email welcome sequence tailored to the user's audience and past content.

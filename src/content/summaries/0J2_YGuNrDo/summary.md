@@ -165,13 +165,9 @@ Claude Code transforms Claude from a chat interface into an orchestration platfo
 
 The video demonstrates how Claude Code moves beyond traditional AI chat interfaces to create coordinated AI agent teams that work together in a shared workspace. Unlike siloed Claude projects that require manual coordination, Claude Code agents can share context, files, and automatically hand off work between specialized team members.
 
-### Core Architecture
+### Core ArchitectureEach Claude Code agent requires three components defined in a single markdown file: **role and responsibilities**, **knowledge and workflow details**, and **MCP tools** they can access. The system uses a project-level claude.md file as a central system prompt that contains agent routing rules, telling Claude when and which agent to delegate tasks to based on trigger phrases.
 
-Each Claude Code agent requires three components defined in a single markdown file: **role and responsibilities**, **knowledge and workflow details**, and **MCP tools** they can access. The system uses a project-level claude.md file as a central system prompt that contains agent routing rules, telling Claude when and which agent to delegate tasks to based on trigger phrases.
-
-### Building a Marketing Agency Team
-
-Grace demonstrates building five specialized agents for a marketing agency:
+### Building a Marketing Agency TeamGrace demonstrates building five specialized agents for a marketing agency:
 1. **Content Strategist**: Basic agent without skills or tools that creates content research documents
 2. **Presentation Specialist**: Uses official document creation skills with brand color palettes
 3. **Data Analyst**: Integrates MCP tools (Notion, J4, Hrefs) to connect to external data sources
@@ -185,9 +181,7 @@ Grace demonstrates building five specialized agents for a marketing agency:
 • **Custom skill creation** extends official skills for brand-specific workflows
 • **Multi-agent workflows** automatically coordinate between agents for complex tasks
 
-### Practical Implementation
-
-The demo shows a complete workflow where Claude coordinates agents to: research a content topic, create a blog post, and generate a presentation deck—all using the same research findings and maintaining brand consistency. The system creates 5,000-word blog posts, branded presentations, and social media content while automatically scheduling posts to Notion calendars.
+### Practical ImplementationThe demo shows a complete workflow where Claude coordinates agents to: research a content topic, create a blog post, and generate a presentation deck—all using the same research findings and maintaining brand consistency. The system creates 5,000-word blog posts, branded presentations, and social media content while automatically scheduling posts to Notion calendars.
 
 ## Context
 

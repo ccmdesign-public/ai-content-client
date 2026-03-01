@@ -131,9 +131,7 @@ Claude Code's latest update fundamentally changes AI-assisted development with t
 
 Anthropic's latest Claude Code update represents a paradigm shift in AI-assisted development, pushing coding assistance into an entirely new category. The Claude Opus 4.6 model now completes real software tasks in roughly 14.5 hours—half the time it would take a human developer for a full workday's worth of tasks.
 
-### Claude Code Desktop Enhancements
-
-The desktop application now features server previews that can spin up development servers and preview running applications directly within the interface. It autonomously reads console logs, catches errors, and iterates in real-time without requiring constant developer oversight. The system demonstrated creating a complete modern coffee store website from just a sample image prompt, generating dynamic front-end components with professional styling that would typically require days of manual development.
+### Claude Code Desktop EnhancementsThe desktop application now features server previews that can spin up development servers and preview running applications directly within the interface. It autonomously reads console logs, catches errors, and iterates in real-time without requiring constant developer oversight. The system demonstrated creating a complete modern coffee store website from just a sample image prompt, generating dynamic front-end components with professional styling that would typically require days of manual development.
 
 Beyond front-end work, Claude Code now integrates deeply with development workflows:
 
@@ -145,9 +143,7 @@ Beyond front-end work, Claude Code now integrates deeply with development workfl
 
 - **Multi-agent deployment** for handling different tasks simultaneously
 
-### Claude Code Security
-
-The new security feature (currently in limited research preview) represents a significant advancement in automated code analysis. Unlike traditional UI-based scanners that require multiple reruns, Claude autonomously reads and reasons about code like a human security researcher. It understands component interactions, traces data flows through complex systems, and proposes targeted patches for vulnerabilities that traditional tools often miss.
+### Claude Code SecurityThe new security feature (currently in limited research preview) represents a significant advancement in automated code analysis. Unlike traditional UI-based scanners that require multiple reruns, Claude autonomously reads and reasons about code like a human security researcher. It understands component interactions, traces data flows through complex systems, and proposes targeted patches for vulnerabilities that traditional tools often miss.
 
 The system includes multi-stage verification, human-in-the-loop oversight, and dashboard integrations for inspecting findings and approving fixes directly within Claude Code.
 

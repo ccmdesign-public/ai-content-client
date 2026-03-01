@@ -144,9 +144,7 @@ The video provides a comprehensive guide for digital marketers to leverage Googl
 ### Core Workflow and Tips
 A major focus is on **product shot and creative generation**. The presenter demonstrates how to take a product image and a reference ad style to create perfectly styled shots. A key workaround for the model's lack of direct aspect ratio control is to upload a blank canvas from **Canva** with the desired dimensions as the final reference image.
 
-### Powerful Marketing Use Cases
-
-The video walks through 10 specific applications:
+### Powerful Marketing Use CasesThe video walks through 10 specific applications:
 
 *   **Lifestyle Marketing Photos**: Generate context-rich images by specifying a target persona (e.g., "urban commuter," "university student").
 
@@ -166,9 +164,7 @@ The video walks through 10 specific applications:
 
 *   **Mood Board Creation**: Quickly draft client mood boards by providing a theme and letting the AI propose a cohesive set of images and a color palette.
 
-### Best Practices and Limitations
-
-The presenter emphasizes using AI thoughtfully: be transparent with audiences, avoid using it for authentic user-generated content, and always add text in post-production using image editing tools due to the models' poor text-rendering capabilities. For best results, start new chats if quality degrades and use no more than two reference images at a time for blending tasks.
+### Best Practices and LimitationsThe presenter emphasizes using AI thoughtfully: be transparent with audiences, avoid using it for authentic user-generated content, and always add text in post-production using image editing tools due to the models' poor text-rendering capabilities. For best results, start new chats if quality degrades and use no more than two reference images at a time for blending tasks.
 
 ## Context
 

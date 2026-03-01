@@ -178,15 +178,11 @@ The video argues against tool overload and advocates for strategic workflow desi
 
 The core message is a shift from accumulating AI tools to developing deep expertise in building interconnected workflows with a few key platforms. The presenter frames popular AI tools as a team of specialists: **ChatGPT** as the generalist assistant, **Gemini** as the integrated builder for visualization, **Claude** as the visual strategist, **Perplexity** as the specialized researcher, and **Notebook LM** as the knowledge synthesizer.
 
-### Research and Analysis Workflows
-
-Instead of starting research in a vacuum, the video demonstrates building a **persistent knowledge base**. For market research on a furniture brand, you first create a **ChatGPT Project**, upload a brand overview, and then run Deep Research within that project. The AI generates a context-aware report, which you then upload back to the project, essentially training it. This creates a self-improving system for generating strategy documents, buyer profiles, and competitive analyses.
+### Research and Analysis WorkflowsInstead of starting research in a vacuum, the video demonstrates building a **persistent knowledge base**. For market research on a furniture brand, you first create a **ChatGPT Project**, upload a brand overview, and then run Deep Research within that project. The AI generates a context-aware report, which you then upload back to the project, essentially training it. This creates a self-improving system for generating strategy documents, buyer profiles, and competitive analyses.
 
 For maximum control, combine **Perplexity** and **Notebook LM**. Use Perplexity to find and list specific source URLs (e.g., for competitor analysis), then import those URLs into Notebook LM. By assigning a persona (like 'growth consultant') to the Notebook, you get strategic analysis and report generation based solely on your chosen sources, dramatically reducing hallucinations.
 
-### Strategic Visualization
-
-Turn research into visuals using **Gemini's** massive context window and Canvas mode. Export a research report from Perplexity as a PDF, upload it to Gemini Canvas, and prompt it to create infographics, charts, and process diagrams. The Canvas mode consistently produces better visuals than standard chat.
+### Strategic VisualizationTurn research into visuals using **Gemini's** massive context window and Canvas mode. Export a research report from Perplexity as a PDF, upload it to Gemini Canvas, and prompt it to create infographics, charts, and process diagrams. The Canvas mode consistently produces better visuals than standard chat.
 
 For more strategic and reusable dashboards, use **Claude Projects**. Upload a trends report (sourced via Perplexity) and a color palette to a Claude Project, then ask it to create an interactive dashboard. Save this dashboard as a template within the project; future reports uploaded to the same project will automatically generate dashboards in the same format.
 

@@ -141,19 +141,11 @@ AI search optimization focuses on three core relationships with AI: content rele
 
 The video presents a comprehensive framework for optimizing a brand's presence in AI search engines, structured around three key relationships:
 
-### Make AI Love Your Content
+### Make AI Love Your ContentThis involves ensuring your content is relevant and fresh. Methods include using **keyword gap analysis** in Semrush to identify opportunities competitors are ranking for, then using AI tools like Perplexity or Gemini to analyze top-ranked pages and generate optimization checklists. For new sites, the **keyword strategy builder** in Semrush helps map out topic clusters to establish topical authority, which trains AI to recognize your expertise.
 
-This involves ensuring your content is relevant and fresh. Methods include using **keyword gap analysis** in Semrush to identify opportunities competitors are ranking for, then using AI tools like Perplexity or Gemini to analyze top-ranked pages and generate optimization checklists. For new sites, the **keyword strategy builder** in Semrush helps map out topic clusters to establish topical authority, which trains AI to recognize your expertise.
+### Make AI Trust Your BrandAI validates brand authority across platforms. The strategy involves analyzing **brand performance** in Semrush to see share of voice and sentiment across AI engines. You identify third-party publications and social channels (Reddit, YouTube, LinkedIn) where your brand is (or should be) mentioned. The goal is to build offsite signals through outreach, providing unique data or expert quotes to these sources.
 
-### Make AI Trust Your Brand
-
-AI validates brand authority across platforms. The strategy involves analyzing **brand performance** in Semrush to see share of voice and sentiment across AI engines. You identify third-party publications and social channels (Reddit, You
-
-Tube, LinkedIn) where your brand is (or should be) mentioned. The goal is to build offsite signals through outreach, providing unique data or expert quotes to these sources.
-
-### Make AI Not Hate Your Site
-
-Technical SEO is critical for AI accessibility. A **site audit** in Semrush checks for AI-specific issues: ensuring robots.txt doesn't block AI bots (like Gemini), maintaining a flat site structure (crawl depth ≤3) for easier indexing, and implementing **schema markup** (FAQ, Article, Product) to help AI engines understand and extract content entities.
+### Make AI Not Hate Your SiteTechnical SEO is critical for AI accessibility. A **site audit** in Semrush checks for AI-specific issues: ensuring robots.txt doesn't block AI bots (like Gemini), maintaining a flat site structure (crawl depth ≤3) for easier indexing, and implementing **schema markup** (FAQ, Article, Product) to help AI engines understand and extract content entities.
 
 Throughout, the presenter emphasizes a **data-first, AI-second** approach, using tools to gather insights (Semrush for data, Gemini/NotebookLM for analysis) before creating or optimizing content. The core principle is to be genuinely helpful to your audience, as visibility is a byproduct of being a trustworthy source.
 

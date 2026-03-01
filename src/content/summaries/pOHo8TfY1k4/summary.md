@@ -71,21 +71,13 @@ The video analyzes the escalating public conflict between Anthropic and the US D
 
 The video details a rapid and public confrontation between AI company Anthropic and the US Department of War (Pentagon) that culminated in a government-ordered blacklisting.
 
-### The Core Dispute
+### The Core DisputeAnthropic CEO Dario Amodei published a statement defending the company's 'red lines': its Claude model should not be used for **mass domestic surveillance of Americans** or to power **fully autonomous weapons**. Anthropic's position was that AI surveillance is undemocratic and current technology is not reliable enough for autonomous weaponry. The Pentagon, led by Secretary Pete Hagseth, issued an ultimatum: remove these terms of service restrictions by a Friday deadline or be cut off from the entire military supply chain. The government's stance was that a private company should not dictate operational policy to the US military.
 
-Anthropic CEO Dario Amodei published a statement defending the company's 'red lines': its Claude model should not be used for **mass domestic surveillance of Americans** or to power **fully autonomous weapons**. Anthropic's position was that AI surveillance is undemocratic and current technology is not reliable enough for autonomous weaponry. The Pentagon, led by Secretary Pete Hagseth, issued an ultimatum: remove these terms of service restrictions by a Friday deadline or be cut off from the entire military supply chain. The government's stance was that a private company should not dictate operational policy to the US military.
+### Escalation to a CrisisWhen Anthropic held firm, President Trump intervened on Truth Social, calling the company 'radical left woke' and directing every federal agency to immediately cease all use of Anthropic's technology. Secretary Hagseth followed by formally designating Anthropic a **supply chain risk to national security**, an unprecedented move for an American company. This designation threatened to prevent any Pentagon contractor, supplier, or partner (potentially including cloud giants like AWS, Google Cloud, and Azure) from doing business with Anthropic.
 
-### Escalation to a Crisis
+### Immediate Reactions and FalloutThe legal and business communities reacted with shock, questioning the legality and speed of the 'supply chain risk' designation and warning of profound damage to the US business environment and defense tech ecosystem. Meanwhile, **OpenAI CEO Sam Altman** announced his company had reached an agreement with the Pentagon to deploy its models in classified networks, claiming the deal reflected the same principles against mass surveillance and for human responsibility in the use of force.
 
-When Anthropic held firm, President Trump intervened on Truth Social, calling the company 'radical left woke' and directing every federal agency to immediately cease all use of Anthropic's technology. Secretary Hagseth followed by formally designating Anthropic a **supply chain risk to national security**, an unprecedented move for an American company. This designation threatened to prevent any Pentagon contractor, supplier, or partner (potentially including cloud giants like AWS, Google Cloud, and Azure) from doing business with Anthropic.
-
-### Immediate Reactions and Fallout
-
-The legal and business communities reacted with shock, questioning the legality and speed of the 'supply chain risk' designation and warning of profound damage to the US business environment and defense tech ecosystem. Meanwhile, **OpenAI CEO Sam Altman** announced his company had reached an agreement with the Pentagon to deploy its models in classified networks, claiming the deal reflected the same principles against mass surveillance and for human responsibility in the use of force.
-
-### Broader Implications and Debates
-
-The video synthesizes six major strands of public debate that emerged:
+### Broader Implications and DebatesThe video synthesizes six major strands of public debate that emerged:
 1.  Anthropic is morally right to set AI red lines.
 2.  Anthropic's stance may be reasonable, but the government cannot be constrained by it.
 3.  Private companies should not set government policy.

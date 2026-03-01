@@ -77,17 +77,13 @@ The video argues that the evolution of programming has culminated in natural lan
 
 The video presents a historical perspective on programming language evolution to argue that natural language is now the most critical 'language' for interacting with AI.
 
-### The Evolution of Programming Languages
-
-The journey began with **machine languages** and **assembler** (like IBM's for System/360), which were purely machine-centric. This progressed to **high-level languages** like FORTRAN (for mathematics), COBOL (for business), and BASIC, which introduced more human-readable syntax but were still far from natural speech.
+### The Evolution of Programming LanguagesThe journey began with **machine languages** and **assembler** (like IBM's for System/360), which were purely machine-centric. This progressed to **high-level languages** like FORTRAN (for mathematics), COBOL (for business), and BASIC, which introduced more human-readable syntax but were still far from natural speech.
 
 To combat unstructured 'spaghetti code,' **structured programming languages** emerged, including PL/I and Pascal. The paradigm then shifted to **object-oriented programming** with languages like C++ and Smalltalk, modeling the world as interacting objects.
 
 The rise of the web demanded platform-agnostic languages, leading to **Java** ('write once, run anywhere') and scripting languages like **JavaScript** and **PHP**. Later, **scripting languages** like **Python** and **Ruby** prioritized developer productivity, while modern **safe languages** like **Go** (for cloud/microservices) and **Rust** introduced guardrails for memory safety and reliability.
 
-### The AI Era and Natural Language
-
-This entire evolution represents computers moving closer to understanding humans. We have now reached a pivotal point with **large language models (LLMs)**. Instead of learning a computer's language, we can use our own—**natural language processing**—to communicate intent via **prompts**. This allows us to bypass the traditional step of translating intent into precise instructions; AI handles that translation, delivering results directly from our expressed intent.
+### The AI Era and Natural LanguageThis entire evolution represents computers moving closer to understanding humans. We have now reached a pivotal point with **large language models (LLMs)**. Instead of learning a computer's language, we can use our own—**natural language processing**—to communicate intent via **prompts**. This allows us to bypass the traditional step of translating intent into precise instructions; AI handles that translation, delivering results directly from our expressed intent.
 
 The core message is democratization: you don't need a computer science degree to instruct computers effectively in the AI era. The language you've spoken all your life is now a powerful programming tool.
 

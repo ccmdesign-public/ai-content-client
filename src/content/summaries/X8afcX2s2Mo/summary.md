@@ -167,21 +167,13 @@ Claude Skills transform marketing workflows by packaging expertise into reusable
 
 The video demonstrates how to build an AI-powered marketing team using Claude Skills, which are reusable modules containing marketing expertise, SOPs, frameworks, and brand standards. By teaching Claude your marketing processes once, you can automate consistent deliverables across multiple projects.
 
-### Building the Foundation Skills
+### Building the Foundation SkillsYou start by creating five core marketing skills: **marketing research and strategy** (using Perplexity MCP for search), **social media content creation** (based on proven storytelling frameworks), **creative designer** (using Google's Nano Banana model for visuals), **data analysis**, and **campaign presentation**. Each skill is created by providing Claude with your SOPs, context files, and examples, then having it generate the skill file with detailed workflows.
 
-You start by creating five core marketing skills: **marketing research and strategy** (using Perplexity MCP for search), **social media content creation** (based on proven storytelling frameworks), **creative designer** (using Google's Nano Banana model for visuals), **data analysis**, and **campaign presentation**. Each skill is created by providing Claude with your SOPs, context files, and examples, then having it generate the skill file with detailed workflows.
+### Skill Orchestration and Agent TeamsThe real power comes from combining skills. For a campaign launch, Claude can orchestrate multiple skills—like content creation and creative design—to generate 10 Instagram posts with matching visuals in minutes. For complex tasks like quarterly reviews, Claude acts as a **team lead**, creating **sub-agents** to parallelize research, data analysis, and presentation building using different skills.
 
-### Skill Orchestration and Agent Teams
+### Portability and DistributionSkills can be packaged into **plugins** for distribution across projects. This means you can build a marketing skill library once and deploy it to any new brand project or even different tools like Cursor. The plugin system maintains brand consistency while adapting to new contexts.
 
-The real power comes from combining skills. For a campaign launch, Claude can orchestrate multiple skills—like content creation and creative design—to generate 10 Instagram posts with matching visuals in minutes. For complex tasks like quarterly reviews, Claude acts as a **team lead**, creating **sub-agents** to parallelize research, data analysis, and presentation building using different skills.
-
-### Portability and Distribution
-
-Skills can be packaged into **plugins** for distribution across projects. This means you can build a marketing skill library once and deploy it to any new brand project or even different tools like Cursor. The plugin system maintains brand consistency while adapting to new contexts.
-
-### Practical Implementation
-
-Key implementation details include:
+### Practical ImplementationKey implementation details include:
 
 - Setting up **project folders** with brand context files and Claude.md instructions
 

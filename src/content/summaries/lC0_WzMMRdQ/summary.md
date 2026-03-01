@@ -111,9 +111,7 @@ This video discusses a framework for creating better YouTube content that conver
 
 The video presents a conversation about improving YouTube content creation, focusing on moving beyond consistent but mediocre performance (2-3,000 views per video) to creating more viral outliers.
 
-### The Five Ps Framework
-
-The core framework introduced is the **'Five Ps'**: Promise, Pain, Proof, Picture, Plan. This structure helps creators craft compelling video openings:
+### The Five Ps FrameworkThe core framework introduced is the **'Five Ps'**: Promise, Pain, Proof, Picture, Plan. This structure helps creators craft compelling video openings:
 
 - **Promise**: Start with what viewers will gain from watching
 
@@ -129,9 +127,7 @@ A key insight is that **in educational content, the messenger is inseparable fro
 
 - even mundane tweets get massive engagement because of his established credibility from building multiple valuable companies.
 
-### Practical Improvement Strategies
-
-Several practical strategies are mentioned:
+### Practical Improvement StrategiesSeveral practical strategies are mentioned:
 
 - **Study successful videos** using tools like VidIQ to analyze hooks and structure
 

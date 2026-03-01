@@ -124,19 +124,13 @@ Manis Mail enables AI delegation through email, offering a unique workflow integ
 
 Manis Mail is an AI platform that allows users to create multiple specialized AI agents, each with its own custom email address. Instead of interacting through chat interfaces, you delegate work by forwarding emails to these agent addresses. The platform then processes the request and replies with the completed task, all within your email workflow.
 
-### How It Works
-
-You create agents for specific purposes—like competitive analysis or content repurposing—by giving them a custom email address and a prompt defining their task. For example, a competitive analysis agent might extract key product announcements, pricing changes, and messaging shifts from forwarded articles, then compile a one-page brief with recommended actions for the marketing team.
+### How It WorksYou create agents for specific purposes—like competitive analysis or content repurposing—by giving them a custom email address and a prompt defining their task. For example, a competitive analysis agent might extract key product announcements, pricing changes, and messaging shifts from forwarded articles, then compile a one-page brief with recommended actions for the marketing team.
 
 The video demonstrates two practical use cases: analyzing competitor launches (like Airtable's Super Agent) and extracting content ideas from newsletters. By forwarding relevant emails to these agents, you receive analyzed reports or content suggestions back in your inbox without ever leaving your email client.
 
-### Key Advantages Over Major Platforms
+### Key Advantages Over Major PlatformsUnlike OpenAI's Gmail connector, Google Gemini's AI features, or Claude's co-work capabilities, Manis Mail provides **dedicated email addresses for each agent**. This creates a more seamless delegation experience than chat-based interfaces where you're constantly prompting and switching contexts. The presenter emphasizes that while major platforms have AI capabilities, none offer this specific email-based agent delegation model.
 
-Unlike OpenAI's Gmail connector, Google Gemini's AI features, or Claude's co-work capabilities, Manis Mail provides **dedicated email addresses for each agent**. This creates a more seamless delegation experience than chat-based interfaces where you're constantly prompting and switching contexts. The presenter emphasizes that while major platforms have AI capabilities, none offer this specific email-based agent delegation model.
-
-### Advanced Automation
-
-You can set up **Gmail filters** to automatically forward specific types of emails (like newsletters) to your agents. This creates a completely automated system where incoming content is processed without manual intervention, with agents emailing you back with extracted insights and content ideas.
+### Advanced AutomationYou can set up **Gmail filters** to automatically forward specific types of emails (like newsletters) to your agents. This creates a completely automated system where incoming content is processed without manual intervention, with agents emailing you back with extracted insights and content ideas.
 
 The core value proposition is **workflow integration** rather than just AI capability. By meeting users where they already spend time—in their inbox—Manis Mail reduces the friction of adopting AI tools and makes delegation as simple as forwarding an email.
 

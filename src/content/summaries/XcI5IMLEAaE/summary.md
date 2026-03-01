@@ -80,19 +80,13 @@ The co-founders of Pylon, a YC W23 company, detail their path from idea explorat
 
 ## Summary
 
-### Founding Team Background and Motivation
+### Founding Team Background and MotivationMarty, Robert, and Advith, the co-founders of Pylon, came together through shared experiences at Caltech, internships at companies like Slack, DoorDash, and Airbnb, and a mutual realization that starting a company was an inevitable path. They were driven more by a desire for 'fun and adventure' and building a large company than by passion for a specific idea. A key early lesson was writing out a 'best outcome/worst outcome' document to rationally assess the risk of leaving stable jobs, which helped solidify their decision to pursue entrepreneurship full-time.
 
-Marty, Robert, and Advith, the co-founders of Pylon, came together through shared experiences at Caltech, internships at companies like Slack, DoorDash, and Airbnb, and a mutual realization that starting a company was an inevitable path. They were driven more by a desire for 'fun and adventure' and building a large company than by passion for a specific idea. A key early lesson was writing out a 'best outcome/worst outcome' document to rationally assess the risk of leaving stable jobs, which helped solidify their decision to pursue entrepreneurship full-time.
-
-### The Pivot-Filled Journey to an Idea
-
-The team spent significant time in 'pivot hell,' exploring ideas ranging from an alumni portal and health tech to digital real estate in the metaverse, often building before proper validation. They learned to refine their validation process with each iteration. A critical breakthrough was their method for evaluating ideas: they created a Google Sheet to perform bottoms-up market analysis on different opportunities, comparing them to successful horizontal B2B SaaS companies like Rippling. This exercise revealed that **broad, horizontal markets** (like tools for any company) offered orders-of-magnitude more potential than niche verticals.
+### The Pivot-Filled Journey to an IdeaThe team spent significant time in 'pivot hell,' exploring ideas ranging from an alumni portal and health tech to digital real estate in the metaverse, often building before proper validation. They learned to refine their validation process with each iteration. A critical breakthrough was their method for evaluating ideas: they created a Google Sheet to perform bottoms-up market analysis on different opportunities, comparing them to successful horizontal B2B SaaS companies like Rippling. This exercise revealed that **broad, horizontal markets** (like tools for any company) offered orders-of-magnitude more potential than niche verticals.
 
 Their framework for selecting an idea centered on finding a **large existing market** with an **emerging trend** they could latch onto. They focused on B2B because of clearer pain points and monetization paths. This led them to explore the broader customer support category, noticing that Salesforce's largest revenue driver was its Service Cloud, signaling a massive market.
 
-### Discovering and Validating the Pylon Idea
-
-The pivotal insight came from a friend who described the chaotic problem of providing customer support over shared **Slack channels**—a new, post-pandemic way businesses were communicating. The pain was visceral: teams had to manually copy-paste outage messages into hundreds of channels. They validated this by immediately testing it with their network, including the founder of Hightouch (a company literally named for its 'high-touch' Slack support), who confirmed they were actively seeking a solution. This passed the **Mom Test** convincingly.
+### Discovering and Validating the Pylon IdeaThe pivotal insight came from a friend who described the chaotic problem of providing customer support over shared **Slack channels**—a new, post-pandemic way businesses were communicating. The pain was visceral: teams had to manually copy-paste outage messages into hundreds of channels. They validated this by immediately testing it with their network, including the founder of Hightouch (a company literally named for its 'high-touch' Slack support), who confirmed they were actively seeking a solution. This passed the **Mom Test** convincingly.
 
 Their validation process was relentless: they quit their jobs to iterate daily, sending personalized LinkedIn messages to 40+ prospects per person each morning. They asked open-ended questions about workflows, tools, and pain points, leaving room for unexpected insights. This confirmed the 'why now': a shift from email to conversational platforms (Slack, Teams, WhatsApp) for B2B communication, which broke traditional support workflows.
 
@@ -101,9 +95,7 @@ They built a minimal viable product in a week: a simple integration that tickete
 
 For the first year, Pylon was a niche integration product, reaching ~$400k ARR. Signs to expand into a full platform emerged: customers asked for more core ticketing features, some wanted to use Pylon *instead* of Zendesk, and the incumbents were seen as outdated, especially with the rise of AI. They pivoted to build a full, AI-native B2B customer support platform.
 
-### Integrating AI and Future Vision
-
-Initially skeptical of AI as a silver bullet, they integrated it by focusing on core customer problems. Their key advantage was their **conversational data set**, which AI could now structure to enable new workflows. They advise companies to introspect on their core data and identify workflows where AI can provide value, even with some error margin, and to sequence their product roadmap as the technology improves.
+### Integrating AI and Future VisionInitially skeptical of AI as a silver bullet, they integrated it by focusing on core customer problems. Their key advantage was their **conversational data set**, which AI could now structure to enable new workflows. They advise companies to introspect on their core data and identify workflows where AI can provide value, even with some error margin, and to sequence their product roadmap as the technology improves.
 
 Today, Pylon is a Series B company with 79 employees, over a thousand customers (including Honeycomb, Linear, Incident.io), and eight-figure ARR. The future vision expands from a ticketing system to a **central hub for all customer-facing teams** (support, success, account management), structuring conversational data for use across product and marketing, evolving towards an 'AI Salesforce.' The company is focused on intentional scaling—opening new offices, building leadership, and maintaining founder involvement in key decisions to steer towards their goal of a billion-dollar company.
 

@@ -136,25 +136,15 @@ Tyler Den, co-founder of Beehive and former Morning Brew employee, reveals that 
 
 ## Summary
 
-### Introduction to Newsletter Profitability
+### Introduction to Newsletter ProfitabilityTyler Den, co-founder of Beehive and former early Morning Brew employee, opens by revealing his side-project newsletter generates over $500,000 in annual revenue with just 5 hours of work per week. His list of 120,000 subscribers is emailed once a week. He stresses that most of this revenue is profit due to minimal costs, using Beehive for the platform and free invoicing software. The core thesis is that you don't need hundreds of thousands of subscribers to be profitable; you need the right offer for the right audience. Even a list of 500-5,000 targeted subscribers can generate significant income.
 
-Tyler Den, co-founder of Beehive and former early Morning Brew employee, opens by revealing his side-project newsletter generates over $500,000 in annual revenue with just 5 hours of work per week. His list of 120,000 subscribers is emailed once a week. He stresses that most of this revenue is profit due to minimal costs, using Beehive for the platform and free invoicing software. The core thesis is that you don't need hundreds of thousands of subscribers to be profitable; you need the right offer for the right audience. Even a list of 500-5,000 targeted subscribers can generate significant income.
+### Building the Foundation: Website and SetupThe demonstration begins by creating a new newsletter from zero. The first step is signing up for Beehive. Tyler emphasizes the importance of starting with a **website**, which acts as the hub for collecting emails. Beehive provides templates and an AI-powered website builder where you can even upload a screenshot of a site you like to clone its design. They create a mock newsletter called "Brand News" about the band Brand New, choosing a simple blog template and customizing colors and fonts in minutes. A subscribe form is added to the homepage, and the site is published.
 
-### Building the Foundation: Website and Setup
+### Designing the Email and Welcome AutomationNext, they design the newsletter email template itself, choosing from Beehive's pre-built designs. Tyler discusses the design philosophy, advocating for either intentionally unique/quirky designs (like his Windows 98-themed newsletter) or beautifully polished ones, but avoiding the middle ground. They then set up a simple **automation**: a welcome email sent immediately when someone subscribes. Tyler explains the power of automations can be extended—for example, sending a follow-up email to subscribers who haven't opened an email in seven days, or rewarding those who do engage.
 
-The demonstration begins by creating a new newsletter from zero. The first step is signing up for Beehive. Tyler emphasizes the importance of starting with a **website**, which acts as the hub for collecting emails. Beehive provides templates and an AI-powered website builder where you can even upload a screenshot of a site you like to clone its design. They create a mock newsletter called "Brand News" about the band Brand New, choosing a simple blog template and customizing colors and fonts in minutes. A subscribe form is added to the homepage, and the site is published.
+### Growing the Audience: Free and Paid StrategiesWith the basics built, the focus shifts to growth. Initial free strategies include posting on social media (Instagram, LinkedIn, X) and using Beehive's **Recommendation Network**. This is a reciprocal system where you recommend other newsletters in your niche, and they can recommend you back, exposing you to their audiences. For paid growth, Tyler introduces **Beehive Boost**, a two-sided marketplace. You can set a bounty (e.g., $2.50) you'll pay for each new verified subscriber sent to you by other newsletters. Conversely, you can apply to promote other newsletters for a fee (e.g., $3 per subscriber), creating an income stream that can be reinvested into your own growth. He shares that he pays about $1.45 to acquire a subscriber via Facebook ads but makes back about $0.65 immediately through Boost, making his net cost very low.
 
-### Designing the Email and Welcome Automation
-
-Next, they design the newsletter email template itself, choosing from Beehive's pre-built designs. Tyler discusses the design philosophy, advocating for either intentionally unique/quirky designs (like his Windows 98-themed newsletter) or beautifully polished ones, but avoiding the middle ground. They then set up a simple **automation**: a welcome email sent immediately when someone subscribes. Tyler explains the power of automations can be extended—for example, sending a follow-up email to subscribers who haven't opened an email in seven days, or rewarding those who do engage.
-
-### Growing the Audience: Free and Paid Strategies
-
-With the basics built, the focus shifts to growth. Initial free strategies include posting on social media (Instagram, LinkedIn, X) and using Beehive's **Recommendation Network**. This is a reciprocal system where you recommend other newsletters in your niche, and they can recommend you back, exposing you to their audiences. For paid growth, Tyler introduces **Beehive Boost**, a two-sided marketplace. You can set a bounty (e.g., $2.50) you'll pay for each new verified subscriber sent to you by other newsletters. Conversely, you can apply to promote other newsletters for a fee (e.g., $3 per subscriber), creating an income stream that can be reinvested into your own growth. He shares that he pays about $1.45 to acquire a subscriber via Facebook ads but makes back about $0.65 immediately through Boost, making his net cost very low.
-
-### Monetization: The Multi-Lever Approach
-
-This is the core of the presentation. Tyler breaks down his $500k+ revenue model, which uses several levers simultaneously.
+### Monetization: The Multi-Lever ApproachThis is the core of the presentation. Tyler breaks down his $500k+ revenue model, which uses several levers simultaneously.
 
 *   **Sponsorships via Beehive Ad Network:** Beehive's ad network automatically matches newsletters with sponsors. Tyler shows an offer paying $2.50 per click, estimating $275 for a single placement. He charges $5,000-$7,000 per sponsored placement in his weekly email, generating $20k-$30k per month.
 
@@ -166,9 +156,7 @@ This is the core of the presentation. Tyler breaks down his $500k+ revenue model
 
 The key insight is that these streams feed each other. Ad revenue funds growth via Boost, which grows the list, which allows him to charge more for sponsorships.
 
-### The Secret Weapon: Audience Segmentation and Surveys
-
-Tyler and host Chris Koerner highlight the most underutilized feature: **surveys**. Tyler's newsletter has collected nearly 40,000 survey responses. He asks about profession, skills, revenue goals, and investment capacity. This first-party data is invaluable. He can segment his list to find, for example, the 1.3% who said they could invest over $1 million. This data is compiled into a powerful **media kit** he uses to sell sponsorships, proving his audience's quality and buying power. He even has automations that remind subscribers of the goal they stated a year prior, driving incredible engagement.
+### The Secret Weapon: Audience Segmentation and SurveysTyler and host Chris Koerner highlight the most underutilized feature: **surveys**. Tyler's newsletter has collected nearly 40,000 survey responses. He asks about profession, skills, revenue goals, and investment capacity. This first-party data is invaluable. He can segment his list to find, for example, the 1.3% who said they could invest over $1 million. This data is compiled into a powerful **media kit** he uses to sell sponsorships, proving his audience's quality and buying power. He even has automations that remind subscribers of the goal they stated a year prior, driving incredible engagement.
 
 ### Conclusion and Expert Credentials
 In closing, Tyler reveals he is the co-founder of Beehive and was the second employee at Morning Brew, where he helped scale it to 4 million readers. This expertise underpins the entire tutorial. He concludes by directing viewers to Beehive to start their own newsletter, to his personal newsletter (Big Desk Energy), and to his social profiles.

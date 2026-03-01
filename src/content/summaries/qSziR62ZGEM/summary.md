@@ -141,9 +141,7 @@ The video from UI Collective teaches designers how to implement precise AI audit
 
 ## Summary
 
-### Introduction and Philosophy
-
-The video begins by addressing a request from a viewer for a simpler tutorial on using AI to audit Figma pages for basic mistakes. The instructor clarifies this is not about getting general design feedback from AI models like ChatGPT or Claude. He argues that approach is flawed because AI lacks context about the application, design system, and project goals, leading to generic feedback that can cause designers to second-guess themselves.
+### Introduction and PhilosophyThe video begins by addressing a request from a viewer for a simpler tutorial on using AI to audit Figma pages for basic mistakes. The instructor clarifies this is not about getting general design feedback from AI models like ChatGPT or Claude. He argues that approach is flawed because AI lacks context about the application, design system, and project goals, leading to generic feedback that can cause designers to second-guess themselves.
 
 He establishes a core philosophy: designers should use AI for targeted, technical audits to catch inconsistencies before developer handoff, not for creative or user flow feedback. This preserves the designer's role and ensures AI augments rather than replaces their expertise. The goal is to build a system that checks for specific issues like incorrect spacing values and misapplied color variables.
 
@@ -151,9 +149,7 @@ He establishes a core philosophy: designers should use AI for targeted, technica
 
 The technical foundation is built using **Cursor**, an AI workspace, connected to **Figma** via the **Figma MCP (Model Context Protocol)**. This connection allows the AI to read and analyze Figma design files directly. The instructor walks through downloading Cursor, accessing the Figma MCP catalog, and authenticating the connection. This setup is crucial as it enables the subsequent AI commands to interact with live Figma designs.
 
-### Building a Spacing Audit System
-
-The first major audit system focuses on spacing inconsistencies—a common source of bugs and visual polish issues. The instructor explains why overly granular rules (e.g., specific padding for every button size) become unmaintainable. Instead, he advocates for auditing page-level spacing: page margins, spacing between cards/widgets, and spacing between text elements (like headings and paragraphs).
+### Building a Spacing Audit SystemThe first major audit system focuses on spacing inconsistencies—a common source of bugs and visual polish issues. The instructor explains why overly granular rules (e.g., specific padding for every button size) become unmaintainable. Instead, he advocates for auditing page-level spacing: page margins, spacing between cards/widgets, and spacing between text elements (like headings and paragraphs).
 
 The process involves two parts in Cursor. First, a **Rule** is created (e.g., `spacing-rules.md`) that defines the baseline values. For example:
 
@@ -172,9 +168,7 @@ Second, a reusable **Command** is built (e.g., `check-spacing`). This command re
 
 The instructor demonstrates the command by providing links to sample Figma frames with intentional errors. The AI successfully identifies that a desktop page margin of 60px should be 64px, a card gap of 28px should be 24px, and a heading/paragraph gap of 12px should be 20px. It repeats the process correctly for a mobile frame, using the different values defined in the rule.
 
-### Building a Color Variable Audit System
-
-The second system audits the correct application of Figma color variables (or tokens). The instructor stresses simplification. Instead of feeding the AI every token from a complex design system (like error, success, warning states), you should only provide the core variables a designer would manually apply when building a page: surface colors, text colors, icon colors, and border colors.
+### Building a Color Variable Audit SystemThe second system audits the correct application of Figma color variables (or tokens). The instructor stresses simplification. Instead of feeding the AI every token from a complex design system (like error, success, warning states), you should only provide the core variables a designer would manually apply when building a page: surface colors, text colors, icon colors, and border colors.
 
 He demonstrates a clever shortcut. Instead of manually writing rules for each token group, he creates a Figma page with tables listing the simplified tokens, their light/dark mode values, and descriptions of when to use them. He then asks the Cursor AI to **automatically generate four Cursor rules** (for surface, text, icon, and border) based solely on the content of that provided Figma page. This automates the rule-creation process.
 
@@ -186,9 +180,7 @@ With the rules generated, he builds a `check-variables` command. Its steps instr
 
 Testing the command on a sample frame, the AI correctly flags several issues: text with no variable applied (just a hex code), a page background using `surface/secondary` instead of `surface/page`, a card using `surface/page` where `surface/default` or `surface/secondary` is more appropriate, and a `border/focus` applied to a non-interactive element, which it flags for review. It correctly reports no icon color issues when none are present.
 
-### Limitations and Conclusion
-
-The instructor notes a current limitation: Figma MCP cannot identify **text styles**, only color variables. This means audits for detached or incorrectly applied text styles are not yet possible, though this may change in the future.
+### Limitations and ConclusionThe instructor notes a current limitation: Figma MCP cannot identify **text styles**, only color variables. This means audits for detached or incorrectly applied text styles are not yet possible, though this may change in the future.
 
 He concludes by emphasizing the power of this targeted approach, especially for large client design files. By creating these reusable, rule-based AI commands, designers can automate the tedious technical checks for spacing and variables, ensuring consistency and freeing up time for higher-value design work. The entire system is built to be a scalable, maintainable part of a professional design workflow.
 

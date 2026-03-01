@@ -97,9 +97,7 @@ The narrative shifted significantly with Google's successful launch of **Gemini 
 ### Current Competitive Landscape
 The introduction of **Claude Opus 4.5** by Anthropic further intensified competition, with its performance rapidly gaining acclaim and being called potentially the most important model release of 2025. Anthropic followed this with **Co-work**, while Google and Apple solidified a deal for future Apple intelligence to be powered by **Gemini models**, shifting momentum towards Anthropic and Google.
 
-### Chat
-
-GPT 5.5 Rumors Emerge
+### ChatGPT 5.5 Rumors Emerge
 Amidst this competitive climate, rumors about a new ChatGPT model are circulating widely. Dan Mack tweeted about **"GPT-5.3 codenamed Garlic"**, citing a reliable source, predicting stronger pre-training and gold-winning reasoning techniques. Another leaker suggested GPT-5.2 was a "rushed early checkpoint" and the full model would drop in January. Speculation also suggests the new model will be **multimodal**, capable of generating images and audio, though naming (GPT-5.5 vs. GPT-5.3) remains unclear. Users like Andrew Curran are reporting their ChatGPT acting differently, hinting at possible test groups, and an OpenAI developer posted an "eyes emoji," further fueling the speculation.
 
 ### OpenAI's Hardware Ambitions

@@ -127,45 +127,31 @@ Anthropic's disclosure about Chinese labs stealing Claude's capabilities is a sy
 
 ## Summary
 
-### The Incident and Its Misleading Framing
-
-Anthropic disclosed that three Chinese AI labs—DeepSeek, Moonshot, and MiniMax—ran industrial-scale extraction campaigns using 24,000 fraudulent accounts to conduct 16 million automated conversations with Claude. Their goal was to distill Claude's capabilities, particularly its reasoning and agentic coding abilities, by generating chain-of-thought training data at scale. MiniMax's operation alone involved 13 million exchanges focused on agentic coding and tool orchestration. The labs used proxy services and Hydra cluster architectures to evade geographic restrictions and detection, with MiniMax pivoting within 24 hours of a new Claude release to capture the latest capabilities.
+### The Incident and Its Misleading FramingAnthropic disclosed that three Chinese AI labs—DeepSeek, Moonshot, and MiniMax—ran industrial-scale extraction campaigns using 24,000 fraudulent accounts to conduct 16 million automated conversations with Claude. Their goal was to distill Claude's capabilities, particularly its reasoning and agentic coding abilities, by generating chain-of-thought training data at scale. MiniMax's operation alone involved 13 million exchanges focused on agentic coding and tool orchestration. The labs used proxy services and Hydra cluster architectures to evade geographic restrictions and detection, with MiniMax pivoting within 24 hours of a new Claude release to capture the latest capabilities.
 
 While Anthropic framed this as a national security and Cold War issue, the speaker argues this is a **'Napster problem'**—a universal economic dynamic, not a uniquely Chinese one. The most valuable intelligence created by American companies is stored as weightless, copyable math, and the **pressure gradient** between the trillion-dollar value of frontier capabilities and the thousand-dollar cost of extraction ensures information will always flow. This gradient exists for every actor on Earth, not just state-backed labs.
 
-### What Distillation Actually Produces: The Narrow Manifold Problem
-
-Distillation does not produce a copy of the original model; it produces a **compression** or **lossy version**. A frontier model like Claude Opus is trained on a vast, diverse corpus over months, resulting in a **high-dimensional capability space**—a wide manifold of competence across reasoning, tool use, error recovery, and sustained workflows. A distilled model, trained only on a subset of the frontier model's outputs, learns to reproduce specific behaviors but occupies a **narrower manifold**.
+### What Distillation Actually Produces: The Narrow Manifold ProblemDistillation does not produce a copy of the original model; it produces a **compression** or **lossy version**. A frontier model like Claude Opus is trained on a vast, diverse corpus over months, resulting in a **high-dimensional capability space**—a wide manifold of competence across reasoning, tool use, error recovery, and sustained workflows. A distilled model, trained only on a subset of the frontier model's outputs, learns to reproduce specific behaviors but occupies a **narrower manifold**.
 
 This creates a **brittleness problem** that benchmark maxing obscures. Distilled models can score comparably on coding evals because they're optimized for those tasks, but they lack the underlying representational structure to generalize. The speaker's personal testing of Kimi (Moonshot's model) shows it excels at PowerPoint generation but falls apart on sustained agentic work where it needs to navigate obstacles, adapt approaches, and use tools in unanticipated combinations.
 
-### The Critical Gap: Agentic Work and Undermeasured Performance
-
-AI value is rapidly moving toward **sustained autonomous agentic work**—workflows that run for hours or days, coordinate across tools, and require true generality. The performance gap between frontier and distilled models is narrow on short, well-defined tasks but becomes a **chasm** on extended agentic work. A distilled model might be 90% as good for 15% of the cost on email classification, but only 40% as effective on a week-long autonomous coding sprint across multiple repositories.
+### The Critical Gap: Agentic Work and Undermeasured PerformanceAI value is rapidly moving toward **sustained autonomous agentic work**—workflows that run for hours or days, coordinate across tools, and require true generality. The performance gap between frontier and distilled models is narrow on short, well-defined tasks but becomes a **chasm** on extended agentic work. A distilled model might be 90% as good for 15% of the cost on email classification, but only 40% as effective on a week-long autonomous coding sprint across multiple repositories.
 
 Current evaluation suites don't measure this because **'off-manifold' generality tests** for sustained autonomous work don't exist yet. Failures appear at 3 a.m. when an agent encounters something outside its training distribution after running for nine hours. This **performance shadow** is the most undermeasured risk in enterprise AI today.
 
-### A Practical Framework: Matching Provenance to Scope
-
-The speaker proposes a simple framework: plot tasks on two axes—**task scope** (narrow/well-defined to wide/open-ended) and **model provenance** (frontier-trained to distilled). On narrow tasks, the gap barely matters; distilled models offer excellent value. On wide tasks requiring generality, sustained coherence, and adaptation to unanticipated situations, you need frontier models with their wider manifolds.
+### A Practical Framework: Matching Provenance to ScopeThe speaker proposes a simple framework: plot tasks on two axes—**task scope** (narrow/well-defined to wide/open-ended) and **model provenance** (frontier-trained to distilled). On narrow tasks, the gap barely matters; distilled models offer excellent value. On wide tasks requiring generality, sustained coherence, and adaptation to unanticipated situations, you need frontier models with their wider manifolds.
 
 **Model routing skill**—knowing where your task sits on this map and choosing accordingly—is now a competitive advantage. Google's strategy of offering intelligence on tap across a range of capabilities (Gemini Flash for classification, 3.1 Pro for heavier tasks, etc.) at different price points exemplifies this approach.
 
-### The Economics and Inevitability of Distillation
-
-The economics are staggering: MiniMax spent roughly $2 million (at retail API prices) to extract capabilities that cost $2+ billion to develop—a **1,000:1 return on theft**. No rational economic actor leaves that money on the table. Every non-hyperscaler lab—smaller American startups, European labs, open-source projects—faces the same pressure gradient.
+### The Economics and Inevitability of DistillationThe economics are staggering: MiniMax spent roughly $2 million (at retail API prices) to extract capabilities that cost $2+ billion to develop—a **1,000:1 return on theft**. No rational economic actor leaves that money on the table. Every non-hyperscaler lab—smaller American startups, European labs, open-source projects—faces the same pressure gradient.
 
 Distillation exists on a spectrum from industrial extraction to researchers using Claude's outputs to inform their own architecture. Even talent acquisition operates on the same principle: it's cheaper to acquire existing intelligence (via researchers moving between labs) than to develop it independently. Meta's recruitment of researchers from Google, OpenAI, and Anthropic with nine-figure packages reflects this dynamic.
 
-### Personal and Strategic Implications
-
-For individuals at frontier labs, you are targets for human intelligence operations because the knowledge in your head about training techniques and architectural decisions is worth more per kilogram than anything else in tech. For tool selectors, you must **learn to identify and demand generality** through off-manifold probes—testing models on hard, real-world tasks in your domain and observing how they break.
+### Personal and Strategic ImplicationsFor individuals at frontier labs, you are targets for human intelligence operations because the knowledge in your head about training techniques and architectural decisions is worth more per kilogram than anything else in tech. For tool selectors, you must **learn to identify and demand generality** through off-manifold probes—testing models on hard, real-world tasks in your domain and observing how they break.
 
 For leaders, the ROI case for frontier models is clear for high-value agentic work, while distilled models suffice for routine tasks. The AI capability floor is rising, but the **ceiling matters for differentiation**. Don't build critical workflows on models whose capabilities are borrowed from a frontier that's pulling away from them.
 
-### The Big Picture: Pressure Gradients, Not Borders
-
-The speaker concludes that Anthropic's disclosure reveals a **universal dynamic with Chinese characteristics**. The specific features (censorship training data, state-backed labs) are particular to China, but the underlying economic forces apply globally. Safeguards like behavioral fingerprinting and detection classifiers are **speed bumps**, not walls, and in an exponential capability curve, a three-month edge is meaningful.
+### The Big Picture: Pressure Gradients, Not BordersThe speaker concludes that Anthropic's disclosure reveals a **universal dynamic with Chinese characteristics**. The specific features (censorship training data, state-backed labs) are particular to China, but the underlying economic forces apply globally. Safeguards like behavioral fingerprinting and detection classifiers are **speed bumps**, not walls, and in an exponential capability curve, a three-month edge is meaningful.
 
 The three key takeaways are: assume frontier capabilities will leak (it's about speed, not possibility); distilled models are systematically worse in ways benchmarks don't capture; and tool selection must be matched to problem type based on a real understanding of representational depth, not marketing copy.
 

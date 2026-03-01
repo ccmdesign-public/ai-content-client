@@ -74,9 +74,7 @@ LLMs are ideal for tasks that are **single-step** and **low complexity**, where 
 
 - Answering simple questions like "What does this error code mean?"
 
-### When to Use an AI Agent
-
-Agents shine for **multi-step reasoning** tasks that require planning, tool use, and autonomy. Examples include:
+### When to Use an AI AgentAgents shine for **multi-step reasoning** tasks that require planning, tool use, and autonomy. Examples include:
 
 - Researching competitors, compiling data, and emailing a report
 

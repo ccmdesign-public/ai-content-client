@@ -156,19 +156,13 @@ Software developer Bash Bunny discusses the evolving developer landscape, from t
 
 ## Summary
 
-### Introduction and Background
+### Introduction and BackgroundBash Bunny introduces herself as a former Charm employee who maintained terminal tooling for nearly four years. Her journey into terminal-focused development began when a friend pressured her to try Vim during an early livestream, introducing her to the power of command-line workflows. She discovered that scripting and automation significantly improved her efficiency at previous jobs, leading to deeper exploration of terminal applications.
 
-Bash Bunny introduces herself as a former Charm employee who maintained terminal tooling for nearly four years. Her journey into terminal-focused development began when a friend pressured her to try Vim during an early livestream, introducing her to the power of command-line workflows. She discovered that scripting and automation significantly improved her efficiency at previous jobs, leading to deeper exploration of terminal applications.
-
-### Development Tools and Workflows
-
-The conversation covers tool evolution from VS Code with Vim keybinds to full Neovim adoption, driven by limitations in VS Code's Vim emulation. Bash eventually switched to **Doom Emacs** primarily for its stability compared to Neovim's breaking plugin changes and for **org mode**'s integrated task management. Org mode allows scheduling, recurring tasks, file linking, and exporting to multiple formats, though remote access remains a challenge compared to cloud solutions like Notion.
+### Development Tools and WorkflowsThe conversation covers tool evolution from VS Code with Vim keybinds to full Neovim adoption, driven by limitations in VS Code's Vim emulation. Bash eventually switched to **Doom Emacs** primarily for its stability compared to Neovim's breaking plugin changes and for **org mode**'s integrated task management. Org mode allows scheduling, recurring tasks, file linking, and exporting to multiple formats, though remote access remains a challenge compared to cloud solutions like Notion.
 
 She discusses hardware experimentation including split keyboards (Dactyl Manuform) and the difficult transition period, plus her current move from i3 to Sway window manager on Linux, noting compatibility issues with Wayland and display mirroring. Bash maintains that Mac offers better out-of-the-box stability for development, especially for video editing and gaming compatibility.
 
-### Programming Languages and Learning
-
-The discussion touches on language preferences and learning approaches:
+### Programming Languages and LearningThe discussion touches on language preferences and learning approaches:
 
 * **Rust vs. C++** - Bash jokes about "teaching your mom C++ instead of Rust" as playful teasing of Rust's passionate community
 
@@ -177,9 +171,7 @@ The discussion touches on language preferences and learning approaches:
 
 * **Open source challenges** - AI-generated low-quality contributions increase maintainer burden, requiring careful filtering of learning resources
 
-### AI in Development Workflows
-
-Bash shares nuanced perspectives on AI-assisted coding:
+### AI in Development WorkflowsBash shares nuanced perspectives on AI-assisted coding:
 
 * **Business vs. hobby use** - AI makes sense for corporate speed and reduced mental load but can hinder learning in personal projects
 
@@ -191,9 +183,7 @@ Bash shares nuanced perspectives on AI-assisted coding:
 
 She describes a game development experiment using Cursor with minimal code review that resulted in shipping difficulties, highlighting the risks of over-reliance. Bash emphasizes that while AI excels at specific, scoped problems, foundational learning still requires traditional methods like recall practice and problem-solving.
 
-### Community Building and Streaming
-
-Bash details her approach to creating supportive streaming communities:
+### Community Building and StreamingBash details her approach to creating supportive streaming communities:
 
 * **Setting community tone** - Establishing clear etiquette where skill level doesn't determine welcome status
 
@@ -205,9 +195,7 @@ Bash details her approach to creating supportive streaming communities:
 
 She notes that streaming has accelerated her learning through community feedback while allowing her to motivate others. The key is separating performance from self-worth and maintaining spaces where people can code without excessive pressure.
 
-### Development Philosophy and Hot Takes
-
-Bash's development philosophy centers on practical learning through doing, even with imperfect implementations. Her "hot takes" include:
+### Development Philosophy and Hot TakesBash's development philosophy centers on practical learning through doing, even with imperfect implementations. Her "hot takes" include:
 
 * **Challenge preservation** - Maintaining problem-solving tolerance despite AI shortcuts
 

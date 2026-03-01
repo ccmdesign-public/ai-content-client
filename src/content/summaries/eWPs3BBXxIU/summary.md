@@ -159,9 +159,7 @@ Claude Code released version 2.1.59, introducing five new features and two bug f
 
 Users gain full control over this new memory system with the **`/memory` command**, allowing them to review and manage everything Claude remembers. This ensures transparency and gives developers the ability to fine-tune the persisted context.
 
-### Quality of Life Upgrades
-
-Three significant quality of life upgrades were also included in this release:
+### Quality of Life UpgradesThree significant quality of life upgrades were also included in this release:
 
 *   **`/copy` command**: This interactive picker allows users to select and copy individual code blocks or the entire response from Claude, offering more granular control over output.
 

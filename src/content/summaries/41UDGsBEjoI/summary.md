@@ -123,25 +123,19 @@ The video contrasts two competing visions for AI agents that shipped just 20 min
 
 The video presents a framework for understanding two radically different approaches to AI agents that emerged from competing releases by OpenAI and Anthropic in February 2026.
 
-### Codex 5.3: The Autonomous Specialist
-
-OpenAI's **Codex 5.3** is engineered for **autonomous correctness**. It's designed to be handed a complex task—like refactoring a payment module or analyzing a dense meeting transcript—and left alone for hours or even days. The system is built on a three-layer architecture (orchestrator, executors, recovery) that plans, self-tests, and corrects errors, prioritizing trustworthy output over speed.
+### Codex 5.3: The Autonomous SpecialistOpenAI's **Codex 5.3** is engineered for **autonomous correctness**. It's designed to be handed a complex task—like refactoring a payment module or analyzing a dense meeting transcript—and left alone for hours or even days. The system is built on a three-layer architecture (orchestrator, executors, recovery) that plans, self-tests, and corrects errors, prioritizing trustworthy output over speed.
 
 Key evidence for this capability includes benchmark dominance: a 77.3% score on Terminal Bench 2.0 (vs. Opus's 65.4%) and a 64.7% score on OS World Verified, a 25% speed increase over its predecessor while using 93% fewer tokens. OpenAI used earlier Codex versions to help build and debug the 5.3 model itself, testing it against real production code from day one.
 
 The new **Codex desktop app** acts as a command center, allowing multiple agents to run in parallel in isolated 'work trees' without risking the main codebase. The vision is shifting from writing code to directing agents that write code, like a manager directing reports.
 
-### Opus 4.6: The Integrated Coordinator
-
-Anthropic's **Opus 4.6** takes the opposite approach, betting on **integration and coordination**. Its core is minimal (read, write, edit, run bash) by design, allowing it to extend through the **Model Context Protocol (MCP)** into any external tool an organization uses, like Slack, GitHub, or Google Drive.
+### Opus 4.6: The Integrated CoordinatorAnthropic's **Opus 4.6** takes the opposite approach, betting on **integration and coordination**. Its core is minimal (read, write, edit, run bash) by design, allowing it to extend through the **Model Context Protocol (MCP)** into any external tool an organization uses, like Slack, GitHub, or Google Drive.
 
 Where Codex runs agents in parallel but independently, Claude's agents form **coordinating teams**. A lead agent can decompose a project, and specialist agents message each other directly to resolve dependencies. This is built for workflows that span multiple tools, like a quarterly close pulling data from an accounting system, comparing it in Sheets, and drafting explanations in a Doc.
 
 Anthropic's broader bet is shown in **Claude Co-work**, extending the agent paradigm to all knowledge work—finance, legal, marketing—not just coding.
 
-### Strategic Implications and How to Choose
-
-The presenter argues the 'which is better' benchmark race is the wrong question. The right question is which organizational muscle you want to build: **delegation** (Codex) or **coordination** (Claude).
+### Strategic Implications and How to ChooseThe presenter argues the 'which is better' benchmark race is the wrong question. The right question is which organizational muscle you want to build: **delegation** (Codex) or **coordination** (Claude).
 
 **Choose Codex 5.3 when:**
 *   The task is a high-correctness, non-negotiable problem (e.g., payment systems, board reports).

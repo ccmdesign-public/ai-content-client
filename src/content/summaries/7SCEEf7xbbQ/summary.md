@@ -102,9 +102,7 @@ Amazon has triggered the biggest power shift in advertising since Google dominat
 
 This consolidation mirrors Google's early 2000s strategy with search advertising, where they unified fragmented local ad networks into one platform. Amazon's advantage comes from its unique first-party purchase data from over 300 million users. While Google knows what you search for and Facebook knows what you engage with, Amazon knows what you actually bought, when you bought it, and when you're likely to run out.
 
-### How Programmatic Advertising Works
-
-Amazon's DSP allows advertisers to set budgets, target audiences based on purchase behavior, and upload creative assets. The platform then automatically bids on ad slots across streaming services in real-time auctions. Amazon tracks everything from impressions to purchases, creating closed-loop attribution for e-commerce brands.
+### How Programmatic Advertising WorksAmazon's DSP allows advertisers to set budgets, target audiences based on purchase behavior, and upload creative assets. The platform then automatically bids on ad slots across streaming services in real-time auctions. Amazon tracks everything from impressions to purchases, creating closed-loop attribution for e-commerce brands.
 
 For non-e-commerce businesses, Amazon uses **household identity** technology and **Amazon Marketing Cloud** to connect TV ad views with subsequent actions across devices on the same Wi-Fi network. This allows service-based businesses to target customers based on shopping behavior proxies
 
