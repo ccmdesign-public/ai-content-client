@@ -122,9 +122,13 @@ A real-world example demonstrates using three agent teammates for newsletter rev
 ### Critical Limitations and Considerations
 **Cost is a major concern** - Anthropic documents up to 7x more token usage compared to normal sessions, primarily due to communication overhead where messages become input tokens for all teammates. **Teammates cannot spawn sub-agents**, which limits workflow portability and forces redesign of existing sub-agent dependent processes. **Context isolation** means teammates start with empty context windows, placing heavy importance on team lead prompt design. **Idle costs** continue accumulating until teams are explicitly cleaned up using the team delete tool.
 
-### Optimization StrategiesThe video introduces free skills for analyzing agent team performance: one generates HTML visualizations of conversations, while another analyzes exported markdown to provide suitability verdicts and prompt optimization recommendations. Key optimization insights include breaking monolithic tasks into smaller subtasks with checkpoints, avoiding redundant work requests, and ensuring proper context sharing between agents.
+### Optimization Strategies
 
-### Best Use CasesThe sweet spot for Agent Teams includes research, code review, content review, and multi-service development where agents owning different pieces can benefit from shared context and challenging perspectives. The feature is particularly valuable when communication between specialized agents can prevent errors or improve quality through collaborative analysis.
+The video introduces free skills for analyzing agent team performance: one generates HTML visualizations of conversations, while another analyzes exported markdown to provide suitability verdicts and prompt optimization recommendations. Key optimization insights include breaking monolithic tasks into smaller subtasks with checkpoints, avoiding redundant work requests, and ensuring proper context sharing between agents.
+
+### Best Use Cases
+
+The sweet spot for Agent Teams includes research, code review, content review, and multi-service development where agents owning different pieces can benefit from shared context and challenging perspectives. The feature is particularly valuable when communication between specialized agents can prevent errors or improve quality through collaborative analysis.
 
 ## Context
 

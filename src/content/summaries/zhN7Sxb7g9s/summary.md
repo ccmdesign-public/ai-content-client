@@ -126,7 +126,9 @@ Google's Lyria 3, integrated directly into the Gemini app, is a groundbreaking A
 
 The model offers extensive creative control, allowing users to specify genre, instruments, vocals, tempo, and mood. The most impressive feature is its **multimodal capability**: users can upload a photo, and Lyria will analyze the image's visual elements and 'vibe' to compose original music. A demonstration using a photo of the Golden Gate Bridge resulted in a complete track with lyrics, cover art, and subtitles generated in under a minute.
 
-### Core FunctionalitiesLyria 3 supports several powerful workflows:
+### Core Functionalities
+
+Lyria 3 supports several powerful workflows:
 
 *   **Text-to-Music**: Start with a simple text prompt (e.g., 'a fun rock song about coding late at night').
 

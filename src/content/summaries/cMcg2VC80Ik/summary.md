@@ -120,7 +120,9 @@ Creating professional AI-generated UIs requires moving beyond prompting to a str
 
 The video demonstrates a sophisticated workflow for generating professional-grade UI designs using AI, emphasizing that the quality comes from process rather than prompt engineering alone. The presenter shows how to transform a generic finance dashboard prompt into a polished, production-ready design through systematic preparation.
 
-### The Problem with Basic AI DesignTraditional approaches involve feeding AI a prompt and hoping for good output, or providing reference screenshots that AI often misunderstands. This leads to inconsistent designs where future pages don't match the initial aesthetic, as AI fails to grasp granular details like drop shadows, spacing patterns, and typography hierarchies.
+### The Problem with Basic AI Design
+
+Traditional approaches involve feeding AI a prompt and hoping for good output, or providing reference screenshots that AI often misunderstands. This leads to inconsistent designs where future pages don't match the initial aesthetic, as AI fails to grasp granular details like drop shadows, spacing patterns, and typography hierarchies.
 
 ### The Three-Phase Workflow
 **Phase 1: Competitor Analysis**
@@ -132,7 +134,9 @@ Have AI identify common threads across all analyzed competitors. This moves beyo
 **Phase 3: Rule Creation**
 Synthesize these common threads into an **enforceable Cursor rule** that AI will reference for all future designs. This creates a **design persona** that ensures consistency across the entire project, not just the initial screen.
 
-### Execution and ResultsThe presenter shows how applying this workflow transforms a basic Claude Opus 4.6-generated dashboard into a sophisticated design featuring thoughtful balance displays, color-coded metrics, insights sections, tabbed performance graphs, and clean transaction tables. The side-by-side comparison reveals dramatic improvement: from a generic sidebar layout to something that could be shown to clients as a first draft.
+### Execution and Results
+
+The presenter shows how applying this workflow transforms a basic Claude Opus 4.6-generated dashboard into a sophisticated design featuring thoughtful balance displays, color-coded metrics, insights sections, tabbed performance graphs, and clean transaction tables. The side-by-side comparison reveals dramatic improvement: from a generic sidebar layout to something that could be shown to clients as a first draft.
 
 ### Key Insights
 • **Research curation matters**: Screenshots should have cohesive aesthetics (avoid mixing dark/light modes, contrasting color schemes, different fonts).

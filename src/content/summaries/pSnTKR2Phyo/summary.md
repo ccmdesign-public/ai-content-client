@@ -141,14 +141,20 @@ Claude's integration with Remotion transforms video creation into a prompt-based
 
 ## Summary
 
-### IntroductionClaude has introduced a new skill called Remotion that allows users to create videos simply by typing prompts. This tutorial demonstrates how to leverage this capability for various video types, from product demos to full YouTube videos.
+### Introduction
+
+Claude has introduced a new skill called Remotion that allows users to create videos simply by typing prompts. This tutorial demonstrates how to leverage this capability for various video types, from product demos to full YouTube videos.
 
 ### Level 1: Basic Setup
 To get started, download **Claude Desktop** and install the **Remotion skill** via the command `npx skills add remotion`. This gives Claude the ability to generate videos based on textual descriptions. Users can specify assets, colors, and content from websites to create motion graphics.
 
-### Level 2: Skill StackingEnhance videos by stacking additional skills. Through **Wavespeed**, integrate **11 Labs** for AI-generated voiceovers and **Nano Banana Pro** for custom visuals. Claude can be trained using a `claude.md` file to remember these preferences, ensuring consistent styling across videos.
+### Level 2: Skill Stacking
 
-### Level 3: Video ChainingFor longer content like YouTube videos, provide a script and have Claude create individual videos for each section. Then, chain them together with your recording to produce a final video. Claude acts as an orchestrator, stitching intros, outros, and middle sections seamlessly.
+Enhance videos by stacking additional skills. Through **Wavespeed**, integrate **11 Labs** for AI-generated voiceovers and **Nano Banana Pro** for custom visuals. Claude can be trained using a `claude.md` file to remember these preferences, ensuring consistent styling across videos.
+
+### Level 3: Video Chaining
+
+For longer content like YouTube videos, provide a script and have Claude create individual videos for each section. Then, chain them together with your recording to produce a final video. Claude acts as an orchestrator, stitching intros, outros, and middle sections seamlessly.
 
 This approach democratizes video creation, making it accessible to non-technical users and paving the way for autonomous content generation.
 

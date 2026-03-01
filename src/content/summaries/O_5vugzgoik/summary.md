@@ -113,7 +113,9 @@ The agent ran the Skills MD store, promoting its own setup tools including Chrom
 • Operational costs approximately $100-120/month
 • Net profit of about $20, making the experiment cost-neutral
 
-### Technical Setup and Future PlansThe agent runs on a Mac Mini with low electricity consumption. The creator mentioned having a separate private system for job applications that has landed actual interviews. Future plans include:
+### Technical Setup and Future Plans
+
+The agent runs on a Mac Mini with low electricity consumption. The creator mentioned having a separate private system for job applications that has landed actual interviews. Future plans include:
 • Adding streaming capabilities to show the agent's activities in real-time
 • Training new skills
 • Creating more content about using AI for YouTube video creation

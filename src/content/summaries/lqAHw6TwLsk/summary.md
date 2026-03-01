@@ -159,19 +159,33 @@ Perplexity Comet transforms from an AI search engine to an **agentic browser** t
 
 Perplexity Comet represents a significant evolution from AI search to **AI browser agent** that can execute tasks rather than just find information. The agent operates through two interfaces: the main chat window for complex multi-step tasks and the assistant sidebar for quick contextual actions within your current webpage.
 
-### Live Marketing Intelligence AgentThis agent analyzes multiple competitor websites simultaneously by accessing content across all open browser tabs. Instead of manually copying data, it extracts key insights from entire websites (not just homepages) and can export comprehensive reports directly to Google Docs. The process that used to take hours can now be completed in 15 minutes with live screenshots showing exactly which pages are being analyzed.
+### Live Marketing Intelligence Agent
 
-### Research Organization AgentTransforms cluttered research sessions into organized workspaces by grouping relevant tabs based on content understanding. Agents can analyze all open research pages at once to identify common themes and implications, saving navigation time between tabs. Users can save prompts as shortcut commands with predefined instructions, search modes, and model selections for consistent execution.
+This agent analyzes multiple competitor websites simultaneously by accessing content across all open browser tabs. Instead of manually copying data, it extracts key insights from entire websites (not just homepages) and can export comprehensive reports directly to Google Docs. The process that used to take hours can now be completed in 15 minutes with live screenshots showing exactly which pages are being analyzed.
 
-### Lead Monitoring & Sales ProspectingAgents can monitor platforms like Reddit for high-intent questions and automatically email qualified lead summaries with pain points and source links. For sales prospecting, agents find companies matching ideal customer profiles using criteria like revenue growth, hiring signals, and company size, then draft personalized outreach emails saved as Gmail drafts for approval.
+### Research Organization Agent
 
-### Audience Research & SEO AnalysisDigs through social media platforms (Reddit, YouTube comments) to extract real customer pain points and quotes, categorizing them for marketing strategy development. For SEO, agents analyze Google SGE (Search Generative Experience) results to identify patterns and best practices, generating content briefs for teams to follow up on high-intent search queries.
+Transforms cluttered research sessions into organized workspaces by grouping relevant tabs based on content understanding. Agents can analyze all open research pages at once to identify common themes and implications, saving navigation time between tabs. Users can save prompts as shortcut commands with predefined instructions, search modes, and model selections for consistent execution.
 
-### Conversion Optimization & Talent SourcingAgents perform conversion audits by following process documents step-by-step across competitors' websites, identifying friction points throughout the buying journey. For talent sourcing, agents search job platforms using detailed criteria (experience, tools, skills) and rank qualified candidates with summary tables, expanding searches to social media profiles for cultural fit assessment.
+### Lead Monitoring & Sales Prospecting
 
-### Executive Assistant & News SynthesisConnected to Google Workspace, agents research meeting participants, compile background documents with conversation starters, and schedule events directly to calendars. For content curation, agents find top weekly news in specific domains and update Notion databases automatically, with options to schedule recurring tasks.
+Agents can monitor platforms like Reddit for high-intent questions and automatically email qualified lead summaries with pain points and source links. For sales prospecting, agents find companies matching ideal customer profiles using criteria like revenue growth, hiring signals, and company size, then draft personalized outreach emails saved as Gmail drafts for approval.
 
-### Privacy ConsiderationsWhile Comet needs browsing context to be effective, users can minimize risks by adjusting settings to prevent data sharing for product improvement and blocking sensitive site access. The recommended approach is using a separate Google account exclusively for non-sensitive tasks to ensure complete data isolation from personal or client information.
+### Audience Research & SEO Analysis
+
+Digs through social media platforms (Reddit, YouTube comments) to extract real customer pain points and quotes, categorizing them for marketing strategy development. For SEO, agents analyze Google SGE (Search Generative Experience) results to identify patterns and best practices, generating content briefs for teams to follow up on high-intent search queries.
+
+### Conversion Optimization & Talent Sourcing
+
+Agents perform conversion audits by following process documents step-by-step across competitors' websites, identifying friction points throughout the buying journey. For talent sourcing, agents search job platforms using detailed criteria (experience, tools, skills) and rank qualified candidates with summary tables, expanding searches to social media profiles for cultural fit assessment.
+
+### Executive Assistant & News Synthesis
+
+Connected to Google Workspace, agents research meeting participants, compile background documents with conversation starters, and schedule events directly to calendars. For content curation, agents find top weekly news in specific domains and update Notion databases automatically, with options to schedule recurring tasks.
+
+### Privacy Considerations
+
+While Comet needs browsing context to be effective, users can minimize risks by adjusting settings to prevent data sharing for product improvement and blocking sensitive site access. The recommended approach is using a separate Google account exclusively for non-sensitive tasks to ensure complete data isolation from personal or client information.
 
 ## Context
 

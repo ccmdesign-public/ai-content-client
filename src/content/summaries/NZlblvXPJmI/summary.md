@@ -147,7 +147,9 @@ As a research preview, Co-work has several limitations: no project support withi
 
 Best practices include being extremely specific in prompts (including file formats, constraints, brand guidelines), setting up dedicated Co-work folders rather than pointing it at main document directories, using consistent naming conventions, batching related work into single sessions, and using regular chat for simple questions to conserve Co-work usage. Users should monitor their token usage in the settings panel and avoid granting access to folders containing sensitive financial documents or regulated data.
 
-### Strategic Implications and Future OutlookClaude Co-work represents an inflection point where AI transitions from helping humans think to actually doing the work. The people and businesses who learn to effectively delegate to these AI agents will gain significant competitive advantages through compounded efficiency gains. While not perfect and still evolving, the direction is clear: autonomous AI agents handling substantive work will become increasingly capable. Early adopters who experiment with these tools now will be better positioned as the technology matures and becomes more integrated into business workflows.
+### Strategic Implications and Future Outlook
+
+Claude Co-work represents an inflection point where AI transitions from helping humans think to actually doing the work. The people and businesses who learn to effectively delegate to these AI agents will gain significant competitive advantages through compounded efficiency gains. While not perfect and still evolving, the direction is clear: autonomous AI agents handling substantive work will become increasingly capable. Early adopters who experiment with these tools now will be better positioned as the technology matures and becomes more integrated into business workflows.
 
 ## Context
 

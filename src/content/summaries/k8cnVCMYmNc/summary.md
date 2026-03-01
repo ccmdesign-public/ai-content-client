@@ -123,7 +123,9 @@ The implementation involved:
 -   **Workflow**: A `while true` loop continuously called the `call_openai_api` activity. If the LLM's response indicated a tool call, the workflow extracted the tool name and arguments, then executed the corresponding dynamic activity. The tool's output was appended to the conversation history and fed back to the LLM.
 During the demo, Davis showcased the agent successfully chaining tool calls (e.g., getting IP, then location, then weather). Crucially, she demonstrated Temporal's **durability**: after starting a workflow and then **killing the worker process mid-execution**, restarting the worker immediately resumed the workflow from the exact point of interruption. The Temporal UI provided a clear event history, showing each LLM call and tool invocation, even across process failures, without any re-invocation of already completed steps.
 
-### OpenAI Agents SDK + Temporal Integration
+### Open
+
+AI Agents SDK + Temporal Integration
 The core of the integration lies in leveraging Temporal's durability for agents built with the OpenAI Agents SDK. Davis explained that the integration makes the `runner` class in the Agents SDK abstract, allowing Temporal to provide its own durable implementation.
 Key aspects of the integration include:
 

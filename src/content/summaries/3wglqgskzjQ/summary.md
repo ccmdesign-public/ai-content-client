@@ -78,12 +78,16 @@ Anthropic's latest tool calling updates fundamentally improve agent efficiency f
 
 Anthropic has released significant updates to their tool calling capabilities that address fundamental inefficiencies in how AI agents interact with external tools. The traditional tool calling approach, where LLMs output JSON to invoke single functions, creates wasteful token consumption and inefficiencies in complex workflows.
 
-### Programmatic Tool CallingThe most impactful change is **programmatic tool calling**, inspired by concepts like executable code actions and Cloudflare's code mode. Instead of making LLMs output JSON for each tool call, they can now write executable code that batches multiple operations. This allows agents to use programming constructs like loops and conditionals to process data efficiently, keeping intermediate results within function scope rather than polluting the context window. Implementation requires adding a code execution sandbox tool and setting the `allowed_caller` parameter, with minimal changes to existing agent architectures.
+### Programmatic Tool Calling
+
+The most impactful change is **programmatic tool calling**, inspired by concepts like executable code actions and Cloudflare's code mode. Instead of making LLMs output JSON for each tool call, they can now write executable code that batches multiple operations. This allows agents to use programming constructs like loops and conditionals to process data efficiently, keeping intermediate results within function scope rather than polluting the context window. Implementation requires adding a code execution sandbox tool and setting the `allowed_caller` parameter, with minimal changes to existing agent architectures.
 
 ### Dynamic Filtering for Web Fetch
 **Dynamic filtering** specifically targets web fetch operations by adding a filtering layer that extracts only relevant content from HTML pages. This prevents large amounts of irrelevant HTML from consuming context window tokens. By pointing to the special web fetch tool version (2026209), agents automatically get this filtering capability, reducing token consumption by an average of 24%.
 
-### Tool Search for ScalabilityThe **tool search** feature addresses the problem of loading hundreds of tool schemas into context windows. Instead, agents get access to a single tool search function (around 500 tokens) that can dynamically retrieve relevant tools when needed. This is particularly valuable for agents with more than 10 different tools or MCPs, enabling up to 80% context window optimization through deferred loading configurations.
+### Tool Search for Scalability
+
+The **tool search** feature addresses the problem of loading hundreds of tool schemas into context windows. Instead, agents get access to a single tool search function (around 500 tokens) that can dynamically retrieve relevant tools when needed. This is particularly valuable for agents with more than 10 different tools or MCPs, enabling up to 80% context window optimization through deferred loading configurations.
 
 ### Tool Use Examples for Complex Tools
 **Tool use examples** solve the problem of LLMs struggling with complex tool schemas. By providing concrete examples of how tools should be called, agents can better understand proper usage patterns, especially for tools with many optional parameters or complex interdependencies between fields. This approach has shown accuracy improvements from 72% to 90% on complex parameter handling tasks.

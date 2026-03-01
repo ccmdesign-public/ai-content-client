@@ -59,16 +59,22 @@ This video demonstrates a complete workflow using NotebookLM to rapidly create a
 
 The presenter outlines a methodical workflow to build a complete digital course asset—including curriculum, manuscript, slides, and script—in minutes using NotebookLM, a process that traditionally takes 40 hours.
 
-### Source Selection StrategyThe foundation is selecting the right source material. Instead of broad YouTube searches, the method involves breaking the main topic (e.g., digital marketing) into **subcategories** like SEO, social media marketing, and email funnels. For each sub-topic, find the best 60-90 minute video from the last year. Videos under 20 minutes cause **compression loss**, where the AI strips out specific tactics and nuance, while videos over 2 hours are too unwieldy. This curated list of sources provides updated, relevant, and detailed input.
+### Source Selection Strategy
 
-### Structured Course GenerationWith sources added, the AI is guided using a series of **master prompts**. The first prompt, acting as a **course designer**, generates a structured curriculum outline with a title, learning outcomes, and student assignments. This outline is pinned as a note and then converted into a **new source**, making it the foundational 'law' for the AI.
+The foundation is selecting the right source material. Instead of broad YouTube searches, the method involves breaking the main topic (e.g., digital marketing) into **subcategories** like SEO, social media marketing, and email funnels. For each sub-topic, find the best 60-90 minute video from the last year. Videos under 20 minutes cause **compression loss**, where the AI strips out specific tactics and nuance, while videos over 2 hours are too unwieldy. This curated list of sources provides updated, relevant, and detailed input.
+
+### Structured Course Generation
+
+With sources added, the AI is guided using a series of **master prompts**. The first prompt, acting as a **course designer**, generates a structured curriculum outline with a title, learning outcomes, and student assignments. This outline is pinned as a note and then converted into a **new source**, making it the foundational 'law' for the AI.
 
 The second prompt, acting as a **textbook author**, generates a detailed manuscript for a specific module. The output includes professional formatting, pro tips, and callout boxes derived strictly from the video sources. This text is then polished in a word processor (bold headlines, underline key terms) and saved as a PDF for student materials.
 
 ### Slide and Script Creation
 To create slides, the AI-generated chapter is saved as a note and converted into its own source. With only this source selected, the **slide deck generator** in NotebookLM produces over 10 clean, professional slides. A practical tip is given to crop out the AI watermark from the slide background. For the video script, a third prompt transforms the textbook language into a **spoken-word script** complete with hooks, high energy, and visual cues for slide changes.
 
-### Final Polish and OptionsThe final assets—PDF, slides, script—form a complete course module. For delivery, creators can record themselves or use a tool like **Hey Jin** to create a talking avatar. The workflow emphasizes pragmatic solutions, like using a new Google account to bypass daily limits on slide generation.
+### Final Polish and Options
+
+The final assets—PDF, slides, script—form a complete course module. For delivery, creators can record themselves or use a tool like **Hey Jin** to create a talking avatar. The workflow emphasizes pragmatic solutions, like using a new Google account to bypass daily limits on slide generation.
 
 ## Context
 

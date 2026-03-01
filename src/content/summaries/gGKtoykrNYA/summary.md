@@ -113,11 +113,17 @@ Hulie addresses the common productivity drain of switching between multiple SaaS
 
 This open-source platform combines **project management** with a Linear-like interface, **real-time collaborative documents** with proper code blocks and syntax highlighting, **built-in chat** similar to Slack, and **two-way GitHub synchronization**. The GitHub integration is particularly powerful—issues created in GitHub automatically sync as tasks in Hulie, and tasks can be linked directly to pull requests, keeping the project board connected to the actual codebase.
 
-### Setup and PerformanceThe tool can be set up in under 90 seconds using Docker for local testing. For team use, it requires deployment to a VPS with at least 8GB of RAM. Despite being resource-heavy, the interface remains snappy with no noticeable lag, which is unusual for open-source all-in-one tools.
+### Setup and Performance
 
-### Workflow IntegrationThe demo shows how messages in the chat can be turned into tasks, how documents can mention issues directly, and how the entire system maintains connections between specs, tasks, and code. This eliminates the need to copy tickets between systems and reduces context switching.
+The tool can be set up in under 90 seconds using Docker for local testing. For team use, it requires deployment to a VPS with at least 8GB of RAM. Despite being resource-heavy, the interface remains snappy with no noticeable lag, which is unusual for open-source all-in-one tools.
 
-### LimitationsHulie has some drawbacks: it's resource-intensive, requires infrastructure management (not a one-click SaaS), needs extra configuration for email notifications, and has a basic mobile app. However, for teams prioritizing workflow integration, GitHub connectivity, and cost reduction, it provides a compelling alternative to managing four separate subscriptions.
+### Workflow Integration
+
+The demo shows how messages in the chat can be turned into tasks, how documents can mention issues directly, and how the entire system maintains connections between specs, tasks, and code. This eliminates the need to copy tickets between systems and reduces context switching.
+
+### Limitations
+
+Hulie has some drawbacks: it's resource-intensive, requires infrastructure management (not a one-click SaaS), needs extra configuration for email notifications, and has a basic mobile app. However, for teams prioritizing workflow integration, GitHub connectivity, and cost reduction, it provides a compelling alternative to managing four separate subscriptions.
 
 ## Context
 

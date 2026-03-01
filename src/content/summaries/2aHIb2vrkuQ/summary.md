@@ -180,7 +180,9 @@ Google offers a powerful suite of free AI tools that can dramatically enhance pr
 
 ## Summary
 
-### Gemini: The Versatile AI AssistantThe video begins by exploring the free Gemini web app, accessible with a Google account using the generous usage limits of the Flash model. A key feature is integration with Google Workspace, allowing Gemini to scan unread Gmail from the past 48 hours and create a prioritized summary or draft professional replies, effectively acting as a free personal assistant. Gemini's multimodal capabilities extend to video analysis, where it can summarize long YouTube videos like Google I/O keynotes and, more impressively, extract step-by-step processes from silent screen recordings and export them as Google Docs with timestamps.
+### Gemini: The Versatile AI Assistant
+
+The video begins by exploring the free Gemini web app, accessible with a Google account using the generous usage limits of the Flash model. A key feature is integration with Google Workspace, allowing Gemini to scan unread Gmail from the past 48 hours and create a prioritized summary or draft professional replies, effectively acting as a free personal assistant. Gemini's multimodal capabilities extend to video analysis, where it can summarize long YouTube videos like Google I/O keynotes and, more impressively, extract step-by-step processes from silent screen recordings and export them as Google Docs with timestamps.
 
 Gemini's **Deep Research** feature allows up to five reports per month, where you can upload project background and receive actionable insights. The **Canvas** feature lets you build other deliverables from these reports, like web pages, infographics, or shareable links with interactive charts, all for free. For image generation, the free tier includes access to the latest models like **Imagen 3** (referred to as 'nano banana') for editing and **Gemini Image Generation** for creating new images. Use cases include editing product photos (e.g., having a model hold a handbag), combining images for ad campaigns, and generating professional headshots from selfies.
 
@@ -191,7 +193,9 @@ Further Gemini capabilities include **guided learning** for structured, Socratic
 
 A standout feature is **Stream Real-Time**, where you can share your screen and talk to Gemini for live feedback. The demo shows using this for UX review of a product landing page, with Gemini narrating a potential customer's thought process in real-time. This can also be used for copy feedback, live presentation coaching, or code review.
 
-### NotebookLM: The Research Powerhouse
+### Notebook
+
+LM: The Research Powerhouse
 **NotebookLM** is highlighted as a completely free note-taking and research tool. The free plan allows importing up to 50 sources per notebook. A primary use case is **competitor intelligence**: using search operators to scrape URLs of competitor case studies, bulk-importing them, and then asking NotebookLM to extract common target audience profiles and positioning messages. The **Discover** feature can find and prioritize authoritative sources (tech talks, white papers) on any subject, which can then be synthesized into a one-page executive briefing.
 
 NotebookLM's most loved feature is generating **podcast-style audio overviews** (up to three per day on the free plan). You can customize the hosts and structure (e.g., an interview between a stakeholder and a project manager) to digest project files. It also now generates **video overviews** (up to three per day), creating simple, narrated videos from source material, perfect for internal pitches or building course lesson videos from curated content. Another practical use is analyzing meeting transcripts imported from Google Drive to extract action items, assign owners, and create ready-to-send email summaries.

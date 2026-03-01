@@ -123,7 +123,9 @@ The video argues that the shift to long-running autonomous AI agents in early 20
 
 ## Summary
 
-### The Paradigm Shift: From Chat Partners to Autonomous WorkersThe video opens by declaring that prompting as practiced in early 2025 is already obsolete. The release of models like Claude Opus 4.6, Gemini 3.1 Pro, and GPT-5.3 Codex with autonomous agent capabilities has fundamentally changed the game. These models can run for hours, days, or even weeks against a specification without checking in. This breaks the synchronous, conversational prompting model where humans provide real-time feedback and course correction.
+### The Paradigm Shift: From Chat Partners to Autonomous Workers
+
+The video opens by declaring that prompting as practiced in early 2025 is already obsolete. The release of models like Claude Opus 4.6, Gemini 3.1 Pro, and GPT-5.3 Codex with autonomous agent capabilities has fundamentally changed the game. These models can run for hours, days, or even weeks against a specification without checking in. This breaks the synchronous, conversational prompting model where humans provide real-time feedback and course correction.
 
 A concrete example illustrates the 10x gap: Two people with the same model and subscription tackle creating a PowerPoint deck. The person using 2025 skills gets an 80% correct output and spends 40 minutes cleaning it up—a good time save. The person using 2026 skills spends 11 minutes writing a detailed specification, hands it off to the agent, and returns to a completed, perfect deck, enabling them to do a week's worth of work in a morning. Shopify CEO Tobi Lütke's concept of **context engineering** is highlighted: the ability to state a problem with enough context that it becomes plausibly solvable without the agent fetching more information.
 
@@ -142,7 +144,9 @@ If context engineering tells agents *what to know*, intent engineering tells the
 **Layer 4: Specification Engineering**
 This is the highest and newest discipline: writing documents that autonomous agents can execute against over extended time horizons without human intervention. It's about viewing the entire organizational document corpus—corporate strategy, product specs, OKRs—as agent-readable specifications. An example from Anthropic's struggles with Opus 4.5 shows that the fix for building a complex web app wasn't a better model, but a specification pattern: an initial agent sets up the environment, a progress log documents work, and a coding agent makes incremental progress against a structured plan. As models get smarter, the need for specification engineering increases.
 
-### Foundational Primitives and a Path ForwardThe video outlines five foundational "primitives" to build specification engineering skills:
+### Foundational Primitives and a Path Forward
+
+The video outlines five foundational "primitives" to build specification engineering skills:
 1.  **Self-contained problem statements**: State the problem with all necessary context so the agent doesn't need to guess.
 2.  **Acceptance criteria**: Define what "done" looks like in verifiable terms.
 3.  **Constraint architecture**: Specify what the agent must do, must not do, should prefer, and should escalate.
@@ -151,7 +155,9 @@ This is the highest and newest discipline: writing documents that autonomous age
 
 The recommended learning path is to master these layers in order: first close the prompt craft gap, then build a personal context layer (e.g., a `.claude.md` file), practice specification engineering on a real project, and finally work on organizational intent infrastructure.
 
-### The Broader Human ImpactThe video concludes with a profound insight: these AI prompting disciplines enforce a communication clarity that the best human leaders have always practiced intuitively. By forcing us to provide complete context, clear acceptance criteria, and explicit constraints to machines—which cannot fill in gaps with shared understanding—we become better communicators with our human colleagues. This skill set is becoming fundamental for leadership in the agent age, cleaning up organizational politics (which the speaker reframes as "bad context engineering for humans") and enabling both humans and agents to perform at their ceiling.
+### The Broader Human Impact
+
+The video concludes with a profound insight: these AI prompting disciplines enforce a communication clarity that the best human leaders have always practiced intuitively. By forcing us to provide complete context, clear acceptance criteria, and explicit constraints to machines—which cannot fill in gaps with shared understanding—we become better communicators with our human colleagues. This skill set is becoming fundamental for leadership in the agent age, cleaning up organizational politics (which the speaker reframes as "bad context engineering for humans") and enabling both humans and agents to perform at their ceiling.
 
 ## Context
 

@@ -143,31 +143,45 @@ This episode of Marketing Against the Grain features Patrick Haiti, founder of S
 
 ## Summary
 
-### Introduction to AI-Powered AdvertisingPatrick Haiti, founder of Supercale, joins Marketing Against the Grain to discuss how autonomous AI agents are transforming advertising. Kieran and Kip highlight the increasing importance of paid advertising as organic traffic declines, emphasizing the need for businesses to become more competitive in paid channels. Patrick introduces Supercale's platform, which uses AI to democratize access to high-quality ad creation, enabling businesses to produce professional-grade video ads at a fraction of the traditional cost.
+### Introduction to AI-Powered Advertising
+
+Patrick Haiti, founder of Supercale, joins Marketing Against the Grain to discuss how autonomous AI agents are transforming advertising. Kieran and Kip highlight the increasing importance of paid advertising as organic traffic declines, emphasizing the need for businesses to become more competitive in paid channels. Patrick introduces Supercale's platform, which uses AI to democratize access to high-quality ad creation, enabling businesses to produce professional-grade video ads at a fraction of the traditional cost.
 
 The platform offers a variety of templates and AI-generated characters, allowing users to create custom ads tailored to their brand. Patrick demonstrates how the platform can generate realistic AI avatars that can speak multiple languages, providing a cost-effective alternative to traditional actors and production teams. This technology is particularly impactful for video ads, which have historically been more complex and expensive to produce. Supercale aims to remove the barriers to entry, allowing businesses of all sizes to leverage the power of video advertising.
 
-### The Power of AI Agents in Ad CreationPatrick explains that Supercale's platform allows users to create thousands of ads using AI agent workflows. He emphasizes that these ads are not just randomly generated; they are strategically built based on AI-driven research and analysis. The platform can analyze competitor ads, identify trends, and generate relevant ad copy and visuals.
+### The Power of AI Agents in Ad Creation
+
+Patrick explains that Supercale's platform allows users to create thousands of ads using AI agent workflows. He emphasizes that these ads are not just randomly generated; they are strategically built based on AI-driven research and analysis. The platform can analyze competitor ads, identify trends, and generate relevant ad copy and visuals.
 
 He demonstrates how the platform can analyze the top-performing static ads from competitors over the past week, write a report summarizing the findings, and then generate 20 static ads based on the analysis. This process, which would typically take a human marketer one to two days, can be accomplished in minutes using the AI agent. The agent identifies competitors, searches for their ads, and even marks ads with variations. The goal is to enable users to create data-driven ads quickly and efficiently.
 
-### The Role of AI Avatars and Brand PersonalityThe discussion shifts to the use of AI avatars as brand personalities. Kieran suggests that every brand will eventually have an avatar that represents its personality, similar to how sports teams have mascots. Patrick confirms that many Supercale users are already using the same AI character across multiple ads to build brand recognition and consistency. He also mentions the possibility of creating custom, trademarked AI avatars that are unique to a specific brand.
+### The Role of AI Avatars and Brand Personality
+
+The discussion shifts to the use of AI avatars as brand personalities. Kieran suggests that every brand will eventually have an avatar that represents its personality, similar to how sports teams have mascots. Patrick confirms that many Supercale users are already using the same AI character across multiple ads to build brand recognition and consistency. He also mentions the possibility of creating custom, trademarked AI avatars that are unique to a specific brand.
 
 Kip points out that Supercale is leveling the playing field by allowing small businesses to compete with larger companies in the video ad space. He notes that the cost of entry for video ads has traditionally been higher, but Supercale is removing that barrier. The focus is on enabling businesses to play in new channels without incurring exorbitant costs or requiring significant time investment.
 
-### The Evolution of AI in MarketingPatrick discusses the evolution of AI in marketing, moving from simple tools that perform specific tasks to AI agents that act as co-workers. He explains that Supercale is building a layer on top of its platform that allows users to simply tell the platform what they need, and the AI agent will handle the entire process. He provides an example of how a user can ask the agent to analyze competitor ads and create new ads based on the analysis, all through a simple prompt.
+### The Evolution of AI in Marketing
+
+Patrick discusses the evolution of AI in marketing, moving from simple tools that perform specific tasks to AI agents that act as co-workers. He explains that Supercale is building a layer on top of its platform that allows users to simply tell the platform what they need, and the AI agent will handle the entire process. He provides an example of how a user can ask the agent to analyze competitor ads and create new ads based on the analysis, all through a simple prompt.
 
 He emphasizes that the AI agent is not just a tool; it's a co-worker that can be trained and educated to perform specific tasks. The more context and information provided to the agent, the more effective it becomes. This training process is similar to onboarding a new human employee. The agent can connect to various platforms, such as Facebook and Shopify, to gather data and improve its performance.
 
-### Pricing and Future VisionPatrick reveals that the AI agent functionality will be available on Supercale's $49 per month plan. He reiterates the company's commitment to democratizing access to high-quality marketing, allowing businesses of all sizes to leverage the power of AI. The agent will be able to connect to Facebook accounts, analyze ad data, and iterate on ad campaigns recursively.
+### Pricing and Future Vision
+
+Patrick reveals that the AI agent functionality will be available on Supercale's $49 per month plan. He reiterates the company's commitment to democratizing access to high-quality marketing, allowing businesses of all sizes to leverage the power of AI. The agent will be able to connect to Facebook accounts, analyze ad data, and iterate on ad campaigns recursively.
 
 He envisions a future where marketing teams consist of autonomous agents that work alongside human marketers. These agents will handle tasks such as research, analysis, and ad creation, freeing up human marketers to focus on strategy and creativity. Patrick predicts that within a year, all ads across all channels will be 100% AI-driven, thanks to the emergence of these superhuman co-workers.
 
-### The Importance of Human Creativity and PromptingKieran asks about how users can differentiate themselves in a world where everyone has access to AI-powered ad creation tools. Patrick responds that the key is human creativity and the ability to craft effective prompts. He suggests that the best users will be those who can think creatively about what to ask the agent to do and how to provide the right context. He draws a parallel to software engineering, where developers use AI tools to enhance their productivity.
+### The Importance of Human Creativity and Prompting
+
+Kieran asks about how users can differentiate themselves in a world where everyone has access to AI-powered ad creation tools. Patrick responds that the key is human creativity and the ability to craft effective prompts. He suggests that the best users will be those who can think creatively about what to ask the agent to do and how to provide the right context. He draws a parallel to software engineering, where developers use AI tools to enhance their productivity.
 
 The companies that adopt AI agents early and run a high volume of creatives will outcompete others due to the Meta algorithm's emphasis on visual differentiation. Patrick emphasizes the importance of speed of learning and iteration. The platform allows users to tweak and edit the ads generated by the AI agent, providing a conversational interface for refining ad campaigns.
 
-### Recursive Learning and the Autonomous WorldThe discussion delves into how the AI agent recursively improves its performance. Patrick explains that the agent can analyze ad performance data and use that information to build more effective ads. The agent can also perform competitor research, identify trends, and recommend new ad ideas. He emphasizes the importance of providing the agent with context, such as target CPI and CAC, to guide its optimization efforts.
+### Recursive Learning and the Autonomous World
+
+The discussion delves into how the AI agent recursively improves its performance. Patrick explains that the agent can analyze ad performance data and use that information to build more effective ads. The agent can also perform competitor research, identify trends, and recommend new ad ideas. He emphasizes the importance of providing the agent with context, such as target CPI and CAC, to guide its optimization efforts.
 
 Patrick envisions a future where the AI agent operates autonomously, continuously improving ad campaigns without human intervention. He compares this to the software engineering world, where AI tools are increasingly handling coding tasks. He concludes by emphasizing that Supercale is committed to empowering businesses of all sizes to create world-class ads and compete effectively in the digital marketplace.
 

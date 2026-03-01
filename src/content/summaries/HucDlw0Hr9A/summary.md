@@ -70,9 +70,13 @@ The AI Daily Brief's January survey of 583 advanced users shows fundamental shif
 
 ## Summary
 
-### Survey Context and MethodologyThe AIDB Intel January AI Usage Pulse surveyed 583 highly engaged AI users from The AI Daily Brief audience, representing an advanced, forward-looking subset rather than the average user. 97.6% use AI daily, with 43% spending over 10 hours weekly. The sample included diverse roles and company sizes, with 38% from small companies (0-50 people) and 27% from large enterprises (5,000+ employees).
+### Survey Context and Methodology
 
-### Model Landscape and Claude DominanceUsers are **polyamorous with models**, averaging 3.5 different models with only 5% using a single model. While ChatGPT has broader reach (87% usage), **Claude is the preferred primary model** at 45.8%, compared to 31% for ChatGPT and 16% for Gemini.
+The AIDB Intel January AI Usage Pulse surveyed 583 highly engaged AI users from The AI Daily Brief audience, representing an advanced, forward-looking subset rather than the average user. 97.6% use AI daily, with 43% spending over 10 hours weekly. The sample included diverse roles and company sizes, with 38% from small companies (0-50 people) and 27% from large enterprises (5,000+ employees).
+
+### Model Landscape and Claude Dominance
+
+Users are **polyamorous with models**, averaging 3.5 different models with only 5% using a single model. While ChatGPT has broader reach (87% usage), **Claude is the preferred primary model** at 45.8%, compared to 31% for ChatGPT and 16% for Gemini.
 
 Claude primary users exhibit distinct characteristics:
 
@@ -81,7 +85,9 @@ Claude primary users exhibit distinct characteristics:
 *   87% use vibe coding tools (vs. 52% of ChatGPT users)
 *   88% report increased value (vs. 74% of ChatGPT users)
 
-### Shift in Benefits and Value PerceptionThe most significant finding is the **transition away from time savings as the primary benefit**. In the previous AI ROI survey, 76.7% cited time savings as a primary benefit, but in January it dropped to third place (20%).
+### Shift in Benefits and Value Perception
+
+The most significant finding is the **transition away from time savings as the primary benefit**. In the previous AI ROI survey, 76.7% cited time savings as a primary benefit, but in January it dropped to third place (20%).
 
 Current primary benefits:
 
@@ -98,7 +104,9 @@ Heavier users (10+ hours weekly) show even more pronounced shifts – only 10% c
 
 **Vibe coding has become ubiquitous** with 69% adoption and another 21% interested in trying. Most significantly, **49.5% of coding work comes from outside engineering and IT roles**, including 34% of executives, 13% of product roles, and 11% of operations roles.
 
-### Momentum and BarriersUsage and value are accelerating – 71% increased usage month-over-month, and 83% reported increased value. Even among those with flat usage, 63% still reported increasing value, suggesting skills development and learning curve benefits.
+### Momentum and Barriers
+
+Usage and value are accelerating – 71% increased usage month-over-month, and 83% reported increased value. Even among those with flat usage, 63% still reported increasing value, suggesting skills development and learning curve benefits.
 
 Key barriers remain:
 
@@ -111,7 +119,9 @@ Key barriers remain:
 
 Organizational stance significantly impacts adoption – 47% at encouraging organizations spend 10+ hours weekly vs. only 29% at restrictive organizations.
 
-### Future Implications and Organizational ImpactThe survey suggests **job roles are being fundamentally redrawn** as non-coders become builders through AI. Organizational charts, hiring criteria, and training requirements are all in flux.
+### Future Implications and Organizational Impact
+
+The survey suggests **job roles are being fundamentally redrawn** as non-coders become builders through AI. Organizational charts, hiring criteria, and training requirements are all in flux.
 
 For AI strategy, the data suggests prioritizing:
 

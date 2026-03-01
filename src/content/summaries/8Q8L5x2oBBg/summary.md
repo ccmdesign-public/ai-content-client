@@ -193,7 +193,9 @@ Seek V4** suggest that Western dominance in coding models is being challenged. D
 
 Seek’s upcoming model reportedly beats **GPT-5.2 and Claude Opus 4.5** in internal coding benchmarks, particularly in handling massive codebases and long-context prompts. Roth suggests the release might coincide with the Chinese New Year (February 17th), highlighting the global nature of the AI arms race.
 
-### OpenAI’s Hardware Play: Sweet Pea and Gumdrop
+### Open
+
+AI’s Hardware Play: Sweet Pea and Gumdrop
 Finally, the video covers significant leaks regarding OpenAI’s secret hardware projects led by **Jony Ive**. The primary device, code-named **'Sweet Pea'**, is described as a high-end, metal wearable resembling an earbud that rests behind the ear. Unlike existing accessories, its "bill of materials" is rumored to be closer to a $1,000 smartphone, suggesting a premium device packed with sensors and high-resolution capabilities. A second device, **'Gumdrop'**, is believed to be an AI-powered pen with audio and video recording features. OpenAI is reportedly aiming for a **September 2026** release with an ambitious target of 40-50 million units, signaling their intent to move beyond software into a physical AI presence that competes directly with the i
 
 Phone and Air

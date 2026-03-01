@@ -86,9 +86,13 @@ The presenter, who has built multiple seven-figure agencies, argues that traditi
 
 The proposed solution is a service called **"Calls Caught"**—a 24/7 AI call answering and automatic booking system. This AI employee sounds human, asks qualifying questions, books appointments directly into the business's calendar, and sends confirmation texts, all for a fraction of the cost of a human receptionist.
 
-### The Sales ProcessThe magic of the offer is its **self-selling demo**. During a sales call, the agent asks the prospect how many calls they think they miss. After the prospect admits they don't know, the agent pulls out their phone and calls a pre-configured demo number. The prospect hears the AI answer, engage in conversation, and book a demo appointment in real-time. This live demonstration provides undeniable proof and dramatically increases close rates.
+### The Sales Process
 
-### Implementation & PricingThe service is built using the **High Level** platform to create a **Voice AI agent**. Setup involves training the AI on the business's services (often by crawling their website), connecting it to their calendar, and setting it to answer their phone number via call forwarding.
+The magic of the offer is its **self-selling demo**. During a sales call, the agent asks the prospect how many calls they think they miss. After the prospect admits they don't know, the agent pulls out their phone and calls a pre-configured demo number. The prospect hears the AI answer, engage in conversation, and book a demo appointment in real-time. This live demonstration provides undeniable proof and dramatically increases close rates.
+
+### Implementation & Pricing
+
+The service is built using the **High Level** platform to create a **Voice AI agent**. Setup involves training the AI on the business's services (often by crawling their website), connecting it to their calendar, and setting it to answer their phone number via call forwarding.
 
 Pricing strategies include:
 
@@ -98,7 +102,9 @@ Pricing strategies include:
 
 *   Tying price to value: "If it catches one job you would have missed, it pays for itself."
 
-### Target Market & UpsellsThe ideal clients are **local service-based businesses** like plumbers, roofers, HVAC companies, dentists, and auto shops. These businesses understand the value of a receptionist and experience the missed-call problem acutely.
+### Target Market & Upsells
+
+The ideal clients are **local service-based businesses** like plumbers, roofers, HVAC companies, dentists, and auto shops. These businesses understand the value of a receptionist and experience the missed-call problem acutely.
 
 Once a client is onboarded with the AI receptionist, it becomes a **door opener for numerous upsells**:
 

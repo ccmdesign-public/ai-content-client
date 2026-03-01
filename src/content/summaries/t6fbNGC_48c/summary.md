@@ -122,11 +122,15 @@ The key architectural innovation is its **native Node.js driver** built with **N
 
 Three technical features contribute to Stewool's performance: **MVCC (Multi-Version Concurrency Control)** allows multiple readers and writers to operate concurrently without locking the entire database. **Parallel execution** via the Rayon library distributes query processing across all available CPU cores. A **cost-based optimizer** analyzes data statistics to select the most efficient query execution path.
 
-### Benchmark ResultsThe video conducted two benchmark tests comparing Stewool against SQLite using a Node.js project with 10,000 and 1 million rows of sales data. For COUNT DISTINCT operations, Stewool was 4x faster with 10,000 rows and 6x faster with 1 million rows
+### Benchmark Results
+
+The video conducted two benchmark tests comparing Stewool against SQLite using a Node.js project with 10,000 and 1 million rows of sales data. For COUNT DISTINCT operations, Stewool was 4x faster with 10,000 rows and 6x faster with 1 million rows
 
 - significant but far from the claimed 138x improvement. A second test with DISTINCT plus ORDER BY operations showed only 1-1.5x speedup.
 
-### Practical ConsiderationsCurrently, the npm package has installation issues requiring users to **build from source** by cloning the repository and linking it manually. The author notes that SQLite still outperforms Stewool for single-row operations and transactional workloads, confirming these are complementary tools for different use cases rather than direct competitors.
+### Practical Considerations
+
+Currently, the npm package has installation issues requiring users to **build from source** by cloning the repository and linking it manually. The author notes that SQLite still outperforms Stewool for single-row operations and transactional workloads, confirming these are complementary tools for different use cases rather than direct competitors.
 
 ## Context
 

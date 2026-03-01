@@ -147,16 +147,22 @@ Claude Skills transform how you build AI workflows by creating modular, reusable
 
 Claude Skills are a game-changing feature that addresses fundamental limitations in AI workflow design. Unlike Claude Projects where instructions are locked in isolated workspaces, Skills are **reusable instruction modules** that can be activated at the account level and used across the web app, Claude Code, and Claude API.
 
-### The Core Problem Skills SolveBefore Skills, repetitive tasks required repeating the same instructions in every chat or creating multiple overlapping Projects. Skills solve two key problems: **portability** (instructions work anywhere) and **stackability** (multiple Skills can combine for new tasks).
+### The Core Problem Skills Solve
 
-### How Skills Fit in the Claude EcosystemSkills work alongside other Claude components: Claude itself is the decision-making brain, **Skills provide reusable instructions** for how tasks should be done, **MCP provides the tools** (like file creation or database calls), and **Projects are dedicated workspaces** where these elements combine for ongoing work. They're complementary building blocks, not competing systems.
+Before Skills, repetitive tasks required repeating the same instructions in every chat or creating multiple overlapping Projects. Skills solve two key problems: **portability** (instructions work anywhere) and **stackability** (multiple Skills can combine for new tasks).
+
+### How Skills Fit in the Claude Ecosystem
+
+Skills work alongside other Claude components: Claude itself is the decision-making brain, **Skills provide reusable instructions** for how tasks should be done, **MCP provides the tools** (like file creation or database calls), and **Projects are dedicated workspaces** where these elements combine for ongoing work. They're complementary building blocks, not competing systems.
 
 ### Three Types of Skills
 1. **Official Skills by Anthropic**: Built-in capabilities available in Settings under Capabilities, including Theme Factory and Document Creation Skills.
 2. **Custom Skills**: Your own workflow instructions, resource templates, or coding scripts packaged according to official format.
 3. **Community/Partner Skills**: Skills created by Anthropic's partners (like Notion) and community creators, available through GitHub repositories.
 
-### Practical Implementation MethodsThe video demonstrates three approaches to creating Skills:
+### Practical Implementation Methods
+
+The video demonstrates three approaches to creating Skills:
 1. **Extend Existing Official Skills**: Upload your branded template and ask Claude to create a new Skill that extends an official one (like creating a "Branded Deck" Skill from PowerPoint Building).
 2. **Package Existing Workflows**: Convert established Claude Projects into Skills by extracting custom instructions, workflow details, and output templates.
 3. **Create Multiple Skills from Scratch**: Build complementary Skills (like Keyword Research and Blog Writer) and use them together with MCP tools within a Project.
@@ -164,7 +170,9 @@ Claude Skills are a game-changing feature that addresses fundamental limitations
 ### Best Practices and Limitations
 • Add account-level custom instructions to ensure Claude considers relevant Skills • Start with existing Skills before building from scratch • Include comprehensive context when creating Skills • Skills are static and may need maintenance, especially when calling MCP tools • Consider creating Skills only for frequently repeated workflows to avoid token burn.
 
-### Real-World ApplicationsDemonstrated use cases include: building landing pages with Theme Factory Skills, creating branded presentations from business data, generating project dashboards from Notion databases, and automating blog content creation with keyword research and writing Skills. The flexibility enables scalable workflows for documents, spreadsheets, presentations, and marketing content.
+### Real-World Applications
+
+Demonstrated use cases include: building landing pages with Theme Factory Skills, creating branded presentations from business data, generating project dashboards from Notion databases, and automating blog content creation with keyword research and writing Skills. The flexibility enables scalable workflows for documents, spreadsheets, presentations, and marketing content.
 
 ## Context
 

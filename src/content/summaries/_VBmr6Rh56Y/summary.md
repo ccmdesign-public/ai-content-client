@@ -125,11 +125,15 @@ The Claude Code Playground plugin transforms how users interact with Claude by g
 
 The Claude Code Playground plugin, available in Anthropic's official marketplace, enables a fundamentally new way to work with Claude by generating interactive, single-file HTML tools. Instead of typing instructions, users interact with visual interfaces—sliders, click regions, annotation canvases—that Claude builds on-the-fly based on the request.
 
-### How It WorksEvery playground follows a consistent three-panel architecture: interactive controls (e.g., sliders, dropdowns) on one side, a live preview that updates instantly, and a **prompt output panel** at the bottom. This output is not a raw data dump; it generates natural language instructions capturing only the changes from defaults, which can be copied back into Claude or other systems.
+### How It Works
+
+Every playground follows a consistent three-panel architecture: interactive controls (e.g., sliders, dropdowns) on one side, a live preview that updates instantly, and a **prompt output panel** at the bottom. This output is not a raw data dump; it generates natural language instructions capturing only the changes from defaults, which can be copied back into Claude or other systems.
 
 The plugin is a **skill-based plugin**, meaning Claude automatically activates it when users ask for a playground, interactive explorer, or visual tool. Installation is straightforward via the `/plugin` command in Claude Code, with no additional marketplace configuration needed.
 
-### Built-in Templates and Custom CreationSix templates are included:
+### Built-in Templates and Custom Creation
+
+Six templates are included:
 
 - **Design Playground**: UI component configuration with sliders for spacing, color, typography.
 
@@ -145,7 +149,9 @@ The plugin is a **skill-based plugin**, meaning Claude automatically activates i
 
 If these don't fit, users can request **custom playgrounds**. The video demonstrates an image annotation tool where users draw rectangles on a screenshot and add comments—Claude generates the entire interface, and the prompt output structures the feedback with screen positions.
 
-### Practical Applications and TipsThe plugin excels at **visual feedback loops**, such as annotating mockups or providing precise input for image generation tools. It also serves as a **knowledge state capture tool**, as shown in the concept map example where toggling "known," "fuzzy," or "unknown" on concepts creates a targeted learning prompt.
+### Practical Applications and Tips
+
+The plugin excels at **visual feedback loops**, such as annotating mockups or providing precise input for image generation tools. It also serves as a **knowledge state capture tool**, as shown in the concept map example where toggling "known," "fuzzy," or "unknown" on concepts creates a targeted learning prompt.
 
 Key usage tips:
 

@@ -98,14 +98,20 @@ The video explores the shift towards autonomous AI coding in 2026, highlighting 
 
 The video discusses how AI and agentic coding, termed 'vibe coding,' are advancing in 2026 with a focus on increasing autonomy. Early in the year, developers realized the potential of tools like Claude Code and Opus 4.5, leading to experiments in autonomous coding systems.
 
-### Cursor's Autonomous Coding ExperimentCursor CEO Michael Troll shared an experiment where hundreds of concurrent agents built a web browser from scratch over one week, generating over 3 million lines of code. Initially, flat agent structures failed due to coordination issues, but a pipeline with **planners** and **workers** solved most problems, allowing scalable autonomous coding on ambitious projects.
+### Cursor's Autonomous Coding Experiment
 
-### The Ralph Wiggum LoopCoined by developer Jeffrey Huntley, the **Ralph Wiggum loop** is a bash-loop-based method for autonomous AI coding. It involves breaking down a project into small atomic user stories with acceptance criteria, then looping an AI agent through each story. This allows features to be shipped continuously with minimal human input, logging learnings to avoid mistakes.
+Cursor CEO Michael Troll shared an experiment where hundreds of concurrent agents built a web browser from scratch over one week, generating over 3 million lines of code. Initially, flat agent structures failed due to coordination issues, but a pipeline with **planners** and **workers** solved most problems, allowing scalable autonomous coding on ambitious projects.
+
+### The Ralph Wiggum Loop
+
+Coined by developer Jeffrey Huntley, the **Ralph Wiggum loop** is a bash-loop-based method for autonomous AI coding. It involves breaking down a project into small atomic user stories with acceptance criteria, then looping an AI agent through each story. This allows features to be shipped continuously with minimal human input, logging learnings to avoid mistakes.
 
 ### Claudebot and Local AI Agents
 **Claudebot** is an open-source AI agent that runs locally on hardware like Mac Minis, connecting to apps like WhatsApp and Telegram. It can browse the web, execute commands, manage email, and even self-improve by writing its own skills. Users like Nat have set it up to autonomously run tests, fix errors, and handle customer support, effectively acting as a digital employee.
 
-### Evolving Interfaces and AccessibilityTools like **Conductor** are replacing CLI interfaces with GUIs, making AI coding more accessible. For example, Brian Leven spends 60% of his time in Conductor. Despite initial technical barriers, interfaces are improving, with Anthropic's Claude Co-work and other tools lowering the entry point for non-coders.
+### Evolving Interfaces and Accessibility
+
+Tools like **Conductor** are replacing CLI interfaces with GUIs, making AI coding more accessible. For example, Brian Leven spends 60% of his time in Conductor. Despite initial technical barriers, interfaces are improving, with Anthropic's Claude Co-work and other tools lowering the entry point for non-coders.
 
 ## Context
 

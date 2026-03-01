@@ -138,17 +138,25 @@ Google has launched Gemini 3.1 Pro, which dominates reasoning benchmarks at a fr
 
 ## Summary
 
-### The Gemini 3.1 Pro Announcement and Google's StrategyGoogle's Gemini 3.1 Pro is a landmark release, leading on 13 of 16 benchmarks, including a dramatic 46-point jump on the ARC AGI2 test for novel reasoning. Priced at roughly one-seventh the cost of competitors like Anthropic's Opus 4.6, it represents a significant advance in pure reasoning capability.
+### The Gemini 3.1 Pro Announcement and Google's Strategy
+
+Google's Gemini 3.1 Pro is a landmark release, leading on 13 of 16 benchmarks, including a dramatic 46-point jump on the ARC AGI2 test for novel reasoning. Priced at roughly one-seventh the cost of competitors like Anthropic's Opus 4.6, it represents a significant advance in pure reasoning capability.
 
 The central puzzle the video explores is why Google, the world's richest tech company, would build the most powerful reasoning engine and price it at the floor while being seemingly indifferent to whether you use it over Claude or ChatGPT. The answer lies in Google's fundamentally different game. CEO Demis Hassabis has repeated the same mission for 15 years: 'Step one, solve intelligence. Step two, use it to solve everything else.' Google's strategy is not about winning the chatbot or daily workflow race. It's about treating intelligence as a solvable computer science problem, funded by their ~$100 billion annual free cash flow from search, YouTube, and cloud.
 
-### The Vertical Stack AdvantageGoogle's advantage is not just financial. They have built a **vertical stack** over the last decade that no competitor can match. They design their own TPU silicon (with the 7th generation offering 10x compute power), train models on that silicon, deploy through Google Cloud (used by 9 out of 10 AI labs), and fund fundamental research through DeepMind (which won a Nobel Prize for AlphaFold). They are even using AI to design the next generation of TPUs faster. This vertical integration from transistor design to protein folding research creates an 'impregnable fortress.' Competitors like Anthropic and Meta are now signing billion-dollar deals to train on Google's TPUs.
+### The Vertical Stack Advantage
 
-### Specialized Models for Specialized ProblemsThe analysis then shifts to a crucial framework: AI models have become specialized, and most 'hard' work is not one thing. Gemini 3.1 Pro is optimized for **pure reasoning**—solving novel logic problems it has never seen, like disproving mathematical conjectures or predicting protein structures. Its 'Deep Think' mode collaborated with researchers to solve 18 previously unsolved problems across math, physics, and computer science.
+Google's advantage is not just financial. They have built a **vertical stack** over the last decade that no competitor can match. They design their own TPU silicon (with the 7th generation offering 10x compute power), train models on that silicon, deploy through Google Cloud (used by 9 out of 10 AI labs), and fund fundamental research through DeepMind (which won a Nobel Prize for AlphaFold). They are even using AI to design the next generation of TPUs faster. This vertical integration from transistor design to protein folding research creates an 'impregnable fortress.' Competitors like Anthropic and Meta are now signing billion-dollar deals to train on Google's TPUs.
+
+### Specialized Models for Specialized Problems
+
+The analysis then shifts to a crucial framework: AI models have become specialized, and most 'hard' work is not one thing. Gemini 3.1 Pro is optimized for **pure reasoning**—solving novel logic problems it has never seen, like disproving mathematical conjectures or predicting protein structures. Its 'Deep Think' mode collaborated with researchers to solve 18 previously unsolved problems across math, physics, and computer science.
 
 In contrast, **Anthropic's Opus 4.6** is optimized for **agentic work and coordination**—sustained autonomous tasks over hours or days, managing teams of agents, and routing work across engineering orgs. **OpenAI's GPT 5.3 Codex** is the **specialist coder**, built for high-throughput coding pipelines. The speaker analogizes: 'Google built a better engine. Anthropic built a better car. OpenAI built a better racing transmission.'
 
-### Decomposing 'Hard' WorkMost knowledge work is not bottlenecked by pure reasoning. The speaker identifies six other problem types:
+### Decomposing 'Hard' Work
+
+Most knowledge work is not bottlenecked by pure reasoning. The speaker identifies six other problem types:
 
 *   **Effort Problems**: Large volumes of straightforward work (e.g., auditing thousands of contracts).
 
@@ -164,7 +172,9 @@ In contrast, **Anthropic's Opus 4.6** is optimized for **agentic work and coordi
 
 For most professionals, only a small slice of their work is genuine reasoning. The rest is dominated by effort, coordination, and ambiguity. Therefore, a model like Opus 4.6, designed for sustained, tool-using work, might see more daily office use, while Gemini excels in the high-value, periodic moments of deep reasoning.
 
-### Practical Implications and Actionable AdviceThe conclusion offers three actionable steps for professionals:
+### Practical Implications and Actionable Advice
+
+The conclusion offers three actionable steps for professionals:
 1.  **Stop looking at benchmarks, start mapping traction in your domain.** Become the expert on which model handles which specific task in your workflow most reliably. **Model routing is now a critical skill.**
 2.  **Disentangle the dimensions of difficulty in your work.** Audit your tasks: What is bottlenecked by reasoning vs. effort vs. coordination? This tells you which problems are becoming automatable now and which will remain human-dominated.
 3.  **Build the taste to evaluate AI output in your domain.** As models generate more plausible output, the human skill of **judgment**—knowing what's correct, relevant, and valuable—becomes more critical and compounds in value.

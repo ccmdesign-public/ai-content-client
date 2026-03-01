@@ -91,7 +91,9 @@ A non-technical professional built a personal AI agent to automate her entire wo
 
 The video is a live demo of a 'growth hub' built by a non-technical growth lead using AI coding tools. She showcases how she uses a command-line agent, powered by **Claude 3.5 Sonnet**, to automate her daily tasks.
 
-### The Demo in ActionFrom her terminal, she types 'every' to activate her personal agent. She first asks it to analyze YouTube performance by pulling data via an OAuth connection to Google Console. The agent provides a summary without her needing to log into any analytics dashboard. She then instructs the agent to:
+### The Demo in Action
+
+From her terminal, she types 'every' to activate her personal agent. She first asks it to analyze YouTube performance by pulling data via an OAuth connection to Google Console. The agent provides a summary without her needing to log into any analytics dashboard. She then instructs the agent to:
 
 *   Create a new **Notion** page with the analysis.
 
@@ -100,7 +102,9 @@ The video is a live demo of a 'growth hub' built by a non-technical growth lead 
 *   Draft a summary email to a colleague with a meeting request.
 The agent executes all three tasks sequentially, demonstrating a seamless, multi-step workflow triggered by natural language.
 
-### The 'Vibe Coding' Development ProcessThe builder explains she is not a programmer but a 'former cook' who knows how to follow a recipe. Her process was:
+### The 'Vibe Coding' Development Process
+
+The builder explains she is not a programmer but a 'former cook' who knows how to follow a recipe. Her process was:
 
 *   **Identify the pain point:** Being overwhelmed by data scattered across Stripe, newsletter platforms, social media (YouTube, soon X), PostHog, and Figma.
 
@@ -109,7 +113,9 @@ The agent executes all three tasks sequentially, demonstrating a seamless, multi
 
 *   **Iterate:** The final demo was built in about an hour, but only after three weeks of experimenting with different approaches and tools.
 
-### Tools, Philosophy, and Next StepsThe system integrates multiple tools and data sources, aiming to **replace expensive SaaS social analytics platforms**. The guiding philosophy is to build **agent-native** tools based on specific instructions, making them intuitive and purpose-driven.
+### Tools, Philosophy, and Next Steps
+
+The system integrates multiple tools and data sources, aiming to **replace expensive SaaS social analytics platforms**. The guiding philosophy is to build **agent-native** tools based on specific instructions, making them intuitive and purpose-driven.
 
 The primary challenge ahead is **team adoption**. The goal is to create a base system where any team member, regardless of technical skill, can use the command line, get 'interviewed' by an agent about their needs (e.g., connecting Google Calendar or Todoist), and receive a customized version of the workflow.
 

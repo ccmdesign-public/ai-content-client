@@ -84,9 +84,13 @@ This video demonstrates how agency owners can monetize an AI automation service 
 
 The video, hosted by Dave from Agency Secrets, presents a new service opportunity for marketing agencies: selling an AI-powered virtual employee to small business clients.
 
-### The Service OpportunityThe core product is **High Level's AI Employee feature**, an evolution of their existing Missed Textback tool. It functions as a 24/7 automated receptionist that answers inbound calls when a business can't. The AI engages the caller in a natural conversation to qualify leads, gather contact information, and understand their needs before promising a callback from the human team.
+### The Service Opportunity
 
-### How to Sell and ImplementFor agencies, this is a **resell feature**. The presenter shows how to enable it in the High Level agency dashboard under the 'Resell' page for a client sub-account. The agency cost is shown as $297/month, and agencies can charge their clients any markup they choose, creating a new monthly recurring revenue (MRR) stream.
+The core product is **High Level's AI Employee feature**, an evolution of their existing Missed Textback tool. It functions as a 24/7 automated receptionist that answers inbound calls when a business can't. The AI engages the caller in a natural conversation to qualify leads, gather contact information, and understand their needs before promising a callback from the human team.
+
+### How to Sell and Implement
+
+For agencies, this is a **resell feature**. The presenter shows how to enable it in the High Level agency dashboard under the 'Resell' page for a client sub-account. The agency cost is shown as $297/month, and agencies can charge their clients any markup they choose, creating a new monthly recurring revenue (MRR) stream.
 
 ### Live Demo and Capabilities
 
@@ -100,7 +104,9 @@ A live demo walks through the setup:
 
 The demo includes a test call where the AI employee successfully interacts with 'David,' collects his details and query about agency pricing, and provides a transcript and recording afterward. This demonstrates the tool's ability to capture every lead for businesses that are frequently on the job and unable to answer phones.
 
-### Value Proposition for ClientsThe service is pitched as the ultimate solution for overwhelmed small business owners, particularly in trades like plumbing, roofing, or mechanics. It provides an 'extra set of hands' without the cost of hiring, ensuring they never miss a potential customer. For the agency, it's a high-value, easy-to-implement service that boosts client retention and agency revenue.
+### Value Proposition for Clients
+
+The service is pitched as the ultimate solution for overwhelmed small business owners, particularly in trades like plumbing, roofing, or mechanics. It provides an 'extra set of hands' without the cost of hiring, ensuring they never miss a potential customer. For the agency, it's a high-value, easy-to-implement service that boosts client retention and agency revenue.
 
 The video concludes with a promotional offer for the viewer's own agency, including a free trial of High Level pre-loaded with templates and scripts.
 

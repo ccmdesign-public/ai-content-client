@@ -159,13 +159,17 @@ The video provides a playbook for building a profitable one-person business usin
 
 The core philosophy is to treat AI not as a replacement but as ultimate leverage that amplifies your skills across three business pillars: strategy, growth, and operations.
 
-### Strategy: Finding Your Niche and OfferStart by identifying the "perfect Swiss boss"—the intersection of your skills, market needs, and where money flows. Use **Perplexity** for initial niche research based on your expertise. Then, use **ChatGPT** or **Gemini** for deep financial and market validation to rank niches by viability. For the chosen niche, use **Gemini Deep Research** to build a detailed Ideal Customer Profile (ICP) report, focusing on pain points and emotional drivers.
+### Strategy: Finding Your Niche and Offer
+
+Start by identifying the "perfect Swiss boss"—the intersection of your skills, market needs, and where money flows. Use **Perplexity** for initial niche research based on your expertise. Then, use **ChatGPT** or **Gemini** for deep financial and market validation to rank niches by viability. For the chosen niche, use **Gemini Deep Research** to build a detailed Ideal Customer Profile (ICP) report, focusing on pain points and emotional drivers.
 
 Next, select a business model aligned with your capacity and revenue goals. Options include freelance services, productized services, digital products, e-commerce, or content monetization. The creator recommends starting with one model. Crucially, **sell-validate before you build**. Your first product is the offer itself—a compelling promise. Use AI to create offer variations based on your ICP research.
 
 Instead of building a complex product first, create a **minimal viable pitch**: a simple one-page site, a LinkedIn profile with a clear CTA, or even just a Google Form. This is your "front door."
 
-### Growth: Acquiring CustomersPursue both inbound (attracting customers) and outbound (reaching out) strategies.
+### Growth: Acquiring Customers
+
+Pursue both inbound (attracting customers) and outbound (reaching out) strategies.
 
 For **inbound marketing**, use a strategy of **AI ideation, human creation, and distribution**. Give AI your ICP findings and ask it to generate a content calendar with highly relevant topics. Pick ideas you resonate with, inject your unique viewpoint, then use AI (like **Claude** projects) to expand and structure the content in your voice. Use AI to repurpose content (e.g., turning video scripts into newsletters) and consider automation platforms like **n8n** to create social post drafts.
 

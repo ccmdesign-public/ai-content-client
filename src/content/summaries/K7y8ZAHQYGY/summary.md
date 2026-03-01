@@ -164,13 +164,19 @@ Amian Astani, a seasoned SRE consultant, argues that AI-generated code will over
 
 ## Summary
 
-### Introduction and BackgroundAmian Astani, an SRE consultant and host of the 'Reliability Rebels' podcast, shares his journey from early Linux enthusiast to operations at a scaling Drupal company (Acquia) and later as a Production Engineer at Meta. His experience at Meta, working on massive internal systems like the Conveyor CD platform, cemented his view of SRE as a sociotechnical practice bridging technology, people, and process.
+### Introduction and Background
 
-### The Core Thesis: The AI Code TsunamiAstani's central argument is that AI-powered 'agentic development' tools (exemplified by Claude Code) will unleash an order-of-magnitude increase in code changes. This 'AI code tsunami' will stress every part of the software delivery lifecycle: CI/CD pipelines, testing, deployment, and incident response.
+Amian Astani, an SRE consultant and host of the 'Reliability Rebels' podcast, shares his journey from early Linux enthusiast to operations at a scaling Drupal company (Acquia) and later as a Production Engineer at Meta. His experience at Meta, working on massive internal systems like the Conveyor CD platform, cemented his view of SRE as a sociotechnical practice bridging technology, people, and process.
+
+### The Core Thesis: The AI Code Tsunami
+
+Astani's central argument is that AI-powered 'agentic development' tools (exemplified by Claude Code) will unleash an order-of-magnitude increase in code changes. This 'AI code tsunami' will stress every part of the software delivery lifecycle: CI/CD pipelines, testing, deployment, and incident response.
 
 He establishes a direct, linear relationship between the number of changes and the number of incidents. A 10x increase in code flow means a probable 10x increase in alerts. This shifts the primary constraint in software organizations from writing code to operating it reliably. SRE and DevOps practices will become the critical bottleneck, and thus, highly valuable.
 
-### The Immediate Consequences and Required FundamentalsThis shift is not theoretical; Astani cites client cases where adopting AI coding without improving release processes immediately led to a spike in incidents and customer escalations. The increased change velocity will reveal every weak link in an organization's operational posture.
+### The Immediate Consequences and Required Fundamentals
+
+This shift is not theoretical; Astani cites client cases where adopting AI coding without improving release processes immediately led to a spike in incidents and customer escalations. The increased change velocity will reveal every weak link in an organization's operational posture.
 
 To survive, companies must return to and rigorously implement the fundamental SRE and DevOps practices that have been discussed for over a decade:
 
@@ -187,11 +193,15 @@ Astani cautions against the 'leftover principle' of automation, where AI handles
 
 AI is well-suited for first-pass incident diagnosis (correlating recent changes, alerts, and metrics) or executing well-defined, safe actions like automatic code reverts. However, it should not make unconstrained changes to production. Human judgment, context, and understanding of customer experience remain irreplaceable for critical decisions.
 
-### Career Advice and Industry ReflectionsContrary to narratives about AI making software engineers obsolete, Astani argues that deep technical fundamentals are more important than ever. Engineers need strong skills to review AI-generated code and design sound systems. He uses the analogy of an AI designing a bridge or skyscraper: "Are you going to be comfortable driving over that bridge that it designed?" Until the answer is yes, skilled engineers are essential.
+### Career Advice and Industry Reflections
+
+Contrary to narratives about AI making software engineers obsolete, Astani argues that deep technical fundamentals are more important than ever. Engineers need strong skills to review AI-generated code and design sound systems. He uses the analogy of an AI designing a bridge or skyscraper: "Are you going to be comfortable driving over that bridge that it designed?" Until the answer is yes, skilled engineers are essential.
 
 For those entering the field, SRE and DevOps are excellent career paths, but they require moving beyond just writing YAML or managing Kubernetes. True SRE is a practice of transforming unreliable systems into reliable ones through software engineering and sociotechnical work.
 
-### Personal Insights: Burnout and Nomadic LifeAstani openly discusses his experiences with burnout, attributing it to dysfunctional incentive structures, a lack of rest, and the 'grumpy sysadmin' mentality. His layoff from Meta led him to start his consulting business and adopt a nomadic lifestyle, living and working from a converted truck ('Molly') with Starlink internet. This lifestyle change represents a conscious shift towards balancing work with life experience and personal well-being.
+### Personal Insights: Burnout and Nomadic Life
+
+Astani openly discusses his experiences with burnout, attributing it to dysfunctional incentive structures, a lack of rest, and the 'grumpy sysadmin' mentality. His layoff from Meta led him to start his consulting business and adopt a nomadic lifestyle, living and working from a converted truck ('Molly') with Starlink internet. This lifestyle change represents a conscious shift towards balancing work with life experience and personal well-being.
 
 ## Context
 

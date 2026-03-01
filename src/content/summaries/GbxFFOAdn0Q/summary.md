@@ -73,7 +73,9 @@ To answer this, researchers created an **Adaptive Capacity Index** by combining 
 
 *   **Skill Transferability:** Skills applicable across many different jobs create greater occupational mobility and lead to smaller earnings losses after displacement.
 
-### Key Findings: Two Vulnerable GroupsThe study then cross-referenced this Adaptive Capacity Index with an AI Exposure Index for different professions. This revealed two critical groups:
+### Key Findings: Two Vulnerable Groups
+
+The study then cross-referenced this Adaptive Capacity Index with an AI Exposure Index for different professions. This revealed two critical groups:
 
 **1. The "Well-Positioned" High-Exposure Workers (26.5 Million)**
 This group faces high AI exposure but also has high adaptive capacity. It includes occupations like software developers, financial managers, lawyers, web developers, and marketing managers. These workers benefit from strong pay, substantial financial buffers (liquid net worth in the hundreds of thousands), diverse skill portfolios, deep professional networks, and they tend to work in dense metro areas.
@@ -83,7 +85,9 @@ This group faces the double burden of **high AI exposure and low adaptive capaci
 
 Geographically, vulnerability is concentrated in places with many administrative positions supporting institutions, such as college towns and state capitals (e.g., Laramie, Wyoming; Springfield, Illinois). In these areas, 5-7% of the local workforce falls into this high-vulnerability category.
 
-### Critical Analysis and Policy ImplicationsThe host notes a significant limitation: the **Adaptive Capacity Index is calibrated for a world where displacement is localized** (like a plant closure) and destination jobs exist in an otherwise stable economy. AI disruption could be fundamentally different, applying simultaneous pressure across entire cognitive task categories (e.g., secretary, customer service rep, claims processor all at once), potentially reducing aggregate demand for certain types of human labor.
+### Critical Analysis and Policy Implications
+
+The host notes a significant limitation: the **Adaptive Capacity Index is calibrated for a world where displacement is localized** (like a plant closure) and destination jobs exist in an otherwise stable economy. AI disruption could be fundamentally different, applying simultaneous pressure across entire cognitive task categories (e.g., secretary, customer service rep, claims processor all at once), potentially reducing aggregate demand for certain types of human labor.
 
 Despite this caveat, the research is invaluable for **policy triage**. It clearly identifies which demographic and geographic groups will feel the pain of disruption first and have the least capacity to self-insure. This allows for targeted, direct policy responses—getting resources to the most vulnerable quickly—while the broader, long-term structural impact of AI on the labor market is still being determined.
 

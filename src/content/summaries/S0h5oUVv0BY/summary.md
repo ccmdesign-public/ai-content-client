@@ -154,11 +154,15 @@ LinkedIn co-founder Reid Hoffman explains why AI is transforming work faster tha
 
 Reid Hoffman, co-founder of LinkedIn and legendary tech investor, provides a sobering assessment of AI's impact on careers and businesses. He believes we're witnessing only the beginning (~5%) of what AI will ultimately transform, with everything done with digital bits today being completely different within 6-24 months.
 
-### The Coming TransformationHoffman predicts the end of individual contributing workers as we know them. Instead, everyone will deploy **teams of AI agents** working for them
+### The Coming Transformation
+
+Hoffman predicts the end of individual contributing workers as we know them. Instead, everyone will deploy **teams of AI agents** working for them
 
 - a reality that's "totally possible now." This isn't just about coding assistants but generalized reasoning capabilities that enable personalized services like AI travel agents who understand your specific interests.
 
-### Practical Adaptation StrategiesFor professionals worried about being left behind, Hoffman recommends:
+### Practical Adaptation Strategies
+
+For professionals worried about being left behind, Hoffman recommends:
 
 **Basic Level (Everyone should do this now):**
 - Move beyond simple text prompts to **voice interaction** - speaking is faster and more natural
@@ -180,7 +184,9 @@ Reid Hoffman, co-founder of LinkedIn and legendary tech investor, provides a sob
 
 - Use AI for **cross-domain idea generation** (what can we learn from other industries?)
 
-### Business ImplicationsHoffman addresses specific concerns:
+### Business Implications
+
+Hoffman addresses specific concerns:
 
 - **B2B Software**: Traditional SaaS economics are being disrupted as AI makes custom software development cheaper
 
@@ -190,7 +196,9 @@ Reid Hoffman, co-founder of LinkedIn and legendary tech investor, provides a sob
 
 - **Entrepreneurial Strategy**: When AI commoditizes your core offering (like test prep), refactor your business around **group experiences** or **personal brand** where AI solo experiences have limitations
 
-### Long-term PerspectiveHoffman estimates 60-70% of future inventions over the next 50-100 years will be **human-AI co-created**, with only about 5% being purely human-driven. The critical adaptation window is about **2 years**, and those who don't develop an "AI reflex" - consciously asking "how could AI help?" before every task
+### Long-term Perspective
+
+Hoffman estimates 60-70% of future inventions over the next 50-100 years will be **human-AI co-created**, with only about 5% being purely human-driven. The critical adaptation window is about **2 years**, and those who don't develop an "AI reflex" - consciously asking "how could AI help?" before every task
 
 - risk being left behind.
 

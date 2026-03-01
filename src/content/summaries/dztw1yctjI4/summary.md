@@ -61,15 +61,21 @@ The video analyzes two interconnected developments in early 2026 AI discourse: a
 
 The video dissects the current AI moment in early 2026 through two primary lenses: a pivotal performance update and a viral economic forecast.
 
-### The Meter Benchmark UpdateMeter, a model evaluation lab, updated its influential chart tracking the longest **time horizon tasks** an AI agent can handle, measured against human completion times. The latest results for **GPT-5.3 Codex** and **Claude Opus 4.6** showed dramatic jumps. GPT-5.3 reached 6.5 hours, but Opus 4.6's result was staggering: a **14.5-hour time horizon**, more than tripling Opus 4.5's 4h 49m. This implies the doubling rate for agentic task capability has accelerated to roughly **every 1.5 months**.
+### The Meter Benchmark Update
+
+Meter, a model evaluation lab, updated its influential chart tracking the longest **time horizon tasks** an AI agent can handle, measured against human completion times. The latest results for **GPT-5.3 Codex** and **Claude Opus 4.6** showed dramatic jumps. GPT-5.3 reached 6.5 hours, but Opus 4.6's result was staggering: a **14.5-hour time horizon**, more than tripling Opus 4.5's 4h 49m. This implies the doubling rate for agentic task capability has accelerated to roughly **every 1.5 months**.
 
 However, the video emphasizes crucial context and caveats. The Meter benchmark measures the **capability frontier** (50% success rate on a task), not reliable production performance. Researchers, including Meter themselves, noted the benchmark may be **saturating**, as the task set has limited very-long-duration human tasks. The confidence interval for Opus 4.6 extends to 98 hours, and the measurement is described as "extremely noisy."
 
-### The Catrini Report and Market SentimentConcurrently, a research note from **Catrini Research** titled "The 2028 Global Intelligence Crisis" went viral. It extrapolates the concept of **abundant intelligence**—AI as a 'country of geniuses in a datacenter'—predicting it will consume the entire economy, leading to mass worker displacement, a capital-based society, and eventual economic collapse.
+### The Catrini Report and Market Sentiment
+
+Concurrently, a research note from **Catrini Research** titled "The 2028 Global Intelligence Crisis" went viral. It extrapolates the concept of **abundant intelligence**—AI as a 'country of geniuses in a datacenter'—predicting it will consume the entire economy, leading to mass worker displacement, a capital-based society, and eventual economic collapse.
 
 The video argues the significance lies less in the report's novel ideas and more in its reception. Unlike previous AI-doomer content met with skepticism, this piece found immediate, widespread resonance among investors and commentators. This signals a shift where fears of AI-driven economic disruption are becoming **common knowledge**, moving from niche forums to mainstream financial discourse. Critics pointed out flaws, such as underestimating the defensive moats of existing marketplaces (e.g., DoorDash), but the narrative momentum was undeniable.
 
-### The Converging NarrativeTogether, these developments create a powerful narrative cocktail: quantitative data suggesting **explosive capability growth**, combined with qualitative analysis predicting **severe societal impact**. This has led to a broad market sentiment that 'something big is happening,' with AI's perceived impact expanding from software engineering to the entire economy. The host concludes that the moment is a fascinating anthropological study and highlights the need for a non-doomer version of the economic transformation thesis.
+### The Converging Narrative
+
+Together, these developments create a powerful narrative cocktail: quantitative data suggesting **explosive capability growth**, combined with qualitative analysis predicting **severe societal impact**. This has led to a broad market sentiment that 'something big is happening,' with AI's perceived impact expanding from software engineering to the entire economy. The host concludes that the moment is a fascinating anthropological study and highlights the need for a non-doomer version of the economic transformation thesis.
 
 ## Context
 

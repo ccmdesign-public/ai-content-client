@@ -99,13 +99,19 @@ Grid stacking offers modern alternatives to absolute positioning for creating ov
 
 The video demonstrates how **grid stacking** with CSS Grid can replace position:absolute for many common layout scenarios while offering better responsiveness and accessibility.
 
-### How Grid Stacking WorksGrid stacking utilizes CSS Grid's **grid-row** and **grid-column** properties to make elements occupy the same grid cell. When two elements share the same cell (like setting both to grid-column: 1/2 and grid-row: 1/2), they overlap just like with absolute positioning but remain within the grid system.
+### How Grid Stacking Works
 
-### Practical ExamplesFor placing text over an image, instead of using position:relative on the wrapper and position:absolute on the text, you can set the wrapper to display:grid and assign both elements to the same grid cell. This gives you access to grid alignment properties like **place-items** for centering without complex calculations.
+Grid stacking utilizes CSS Grid's **grid-row** and **grid-column** properties to make elements occupy the same grid cell. When two elements share the same cell (like setting both to grid-column: 1/2 and grid-row: 1/2), they overlap just like with absolute positioning but remain within the grid system.
+
+### Practical Examples
+
+For placing text over an image, instead of using position:relative on the wrapper and position:absolute on the text, you can set the wrapper to display:grid and assign both elements to the same grid cell. This gives you access to grid alignment properties like **place-items** for centering without complex calculations.
 
 A cleaner approach uses **grid-template-areas** where you define a single area called "stack" and assign both elements to it. This method is particularly useful for video backgrounds in headers, where dynamic content changes won't cause overflow issues common with absolute positioning.
 
-### When to Still Use Absolute PositioningGrid stacking has limitations
+### When to Still Use Absolute Positioning
+
+Grid stacking has limitations
 
 - it keeps elements within the parent's grid area. **Position absolute** remains essential for elements that need to break out of parent containers, such as tooltips, popovers, and custom dropdown menus that should position themselves anywhere on the screen.
 

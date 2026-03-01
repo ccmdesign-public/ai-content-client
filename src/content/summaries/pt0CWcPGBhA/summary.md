@@ -98,11 +98,17 @@ The video presents a comprehensive AI voice agent system specifically designed f
 
 The architecture centers on **N8N** as the automation backbone, with **Google Sheets** serving as the data layer for lead management. When a new lead is added to the spreadsheet, the system triggers an outbound call within minutes, personalizing the greeting using the lead's name and following a structured sales conversation flow. The agent confirms identity, pitches services, qualifies leads with specific questions, and attempts to book consultations.
 
-### Implementation ResultsFor dental and aesthetic clinics, the system has delivered substantial improvements: phone response rates increased from 30% to 50%, social inquiries are answered in under two minutes, and practices capture 50+ new patients in 90 days that would have been lost to competitors. The **average response time** across all channels is 42 seconds, with same-day show rates at 89%.
+### Implementation Results
 
-### System ArchitectureBeyond the calling functionality, the system includes sophisticated post-call processing. After each conversation, transcripts are analyzed by **sentiment analysis agents** (powered by GPT-4) that categorize outcomes, flag do-not-contact requests, and generate specific feedback on why meetings weren't booked. This creates a continuous improvement loop where the system learns from every interaction.
+For dental and aesthetic clinics, the system has delivered substantial improvements: phone response rates increased from 30% to 50%, social inquiries are answered in under two minutes, and practices capture 50+ new patients in 90 days that would have been lost to competitors. The **average response time** across all channels is 42 seconds, with same-day show rates at 89%.
 
-### Compliance and CustomizationThe solution is **HIPAA-compliant** with signed Business Associate Agreements (BAAs) with 11 Labs. For production use with healthcare clients, the creator has built a dedicated platform beyond the N8N demonstration system. The system can be customized with practice-specific knowledge bases containing FAQs, pricing structures, and service details.
+### System Architecture
+
+Beyond the calling functionality, the system includes sophisticated post-call processing. After each conversation, transcripts are analyzed by **sentiment analysis agents** (powered by GPT-4) that categorize outcomes, flag do-not-contact requests, and generate specific feedback on why meetings weren't booked. This creates a continuous improvement loop where the system learns from every interaction.
+
+### Compliance and Customization
+
+The solution is **HIPAA-compliant** with signed Business Associate Agreements (BAAs) with 11 Labs. For production use with healthcare clients, the creator has built a dedicated platform beyond the N8N demonstration system. The system can be customized with practice-specific knowledge bases containing FAQs, pricing structures, and service details.
 
 The creator emphasizes this goes beyond basic chatbots to create **complete communication infrastructure** that manages the entire patient journey from initial inquiry through booking and follow-up reminders, addressing the critical problem of missed calls and slow response times in healthcare practices.
 

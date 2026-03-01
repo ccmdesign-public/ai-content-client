@@ -87,11 +87,17 @@ MCP apps revolutionize chat interfaces by adding interactive UI capabilities.
 
 MCP apps represent a significant evolution in the Model Context Protocol, moving beyond text-based interactions to include fully interactive user interfaces. This extension allows developers to embed visual elements like color pickers, data visualizations, and more directly into chat interfaces, enhancing the user experience.
 
-### Building an MCP AppThe video demonstrates how to create an MCP app using **Claude Code** with a built-in skill. By cloning a repository and using the skill, developers can automate the setup process. For instance, a color picker app is bootstrapped quickly, showcasing the efficiency of this approach.
+### Building an MCP App
 
-### Demonstration in ClientsOnce built, the app is tested in **Claude** and **Visual Studio Code**. Using **Cloudflare Tunnel**, the local app is exposed remotely and integrated into chat interfaces. In Claude, a color picker is rendered interactively, and the AI can read the selected color context. Similarly, in VS Code with Copilot chat, the same functionality works seamlessly.
+The video demonstrates how to create an MCP app using **Claude Code** with a built-in skill. By cloning a repository and using the skill, developers can automate the setup process. For instance, a color picker app is bootstrapped quickly, showcasing the efficiency of this approach.
 
-### Security and PracticalityMCP apps run in a **sandboxed iframe**, ensuring security by isolating the UI from direct system access. This makes it safe for users while enabling rich interactions. The bidirectional nature allows real-time updates and tool invocations, streamlining workflows.
+### Demonstration in Clients
+
+Once built, the app is tested in **Claude** and **Visual Studio Code**. Using **Cloudflare Tunnel**, the local app is exposed remotely and integrated into chat interfaces. In Claude, a color picker is rendered interactively, and the AI can read the selected color context. Similarly, in VS Code with Copilot chat, the same functionality works seamlessly.
+
+### Security and Practicality
+
+MCP apps run in a **sandboxed iframe**, ensuring security by isolating the UI from direct system access. This makes it safe for users while enabling rich interactions. The bidirectional nature allows real-time updates and tool invocations, streamlining workflows.
 
 Developers are encouraged to explore the documentation and samples provided by the Anthropic engineering team and community to start building their own MCP apps.
 
