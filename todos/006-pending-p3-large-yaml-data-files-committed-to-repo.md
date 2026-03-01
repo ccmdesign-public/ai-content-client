@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "006"
 tags: [code-review, architecture, performance]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Added linguist-generated=true entries to .gitattributes for src/content/tags/*.yml and src/content/tags-index.json. PR diffs will now collapse these generated files by default."
 ---
 
 # Large YAML Data Files Committed to Repository

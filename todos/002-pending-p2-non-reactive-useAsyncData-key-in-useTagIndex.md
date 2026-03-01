@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "002"
 tags: [code-review, architecture, quality]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Changed useAsyncData key from key.value (static string) to key (reactive computed ref) and added { watch: [resolvedSlug] } option. Client-side navigation between tag pages now correctly re-fetches data."
 ---
 
 # Non-Reactive useAsyncData Key in useTagIndex

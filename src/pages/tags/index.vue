@@ -23,11 +23,13 @@ useHead({
       <p class="page-header__count">{{ tags.length }} topics</p>
     </header>
 
-    <div v-if="tagsByCategory.length === 0" class="empty-state">
-      <span class="material-symbols-outlined empty-state__icon">label_off</span>
-      <p class="empty-state__message">No topics available yet.</p>
-      <NuxtLink to="/" class="empty-state__link">Browse all summaries</NuxtLink>
-    </div>
+    <PageEmptyState
+      v-if="tagsByCategory.length === 0"
+      icon="label_off"
+      message="No topics available yet."
+      link-to="/"
+      link-text="Browse all summaries"
+    />
 
     <div v-else class="tags-grid">
       <section
@@ -141,40 +143,5 @@ useHead({
 
 .tag-chip:hover .tag-chip__count {
   color: var(--color-primary, #2563eb);
-}
-
-.empty-state {
-  text-align: center;
-  padding: var(--space-2xl, 3rem) var(--space-l, 1.5rem);
-}
-
-.empty-state__icon {
-  font-size: 3rem;
-  color: var(--color-base-shade-10, #6b7280);
-  margin-bottom: var(--space-m, 1rem);
-}
-
-.empty-state__message {
-  font-size: var(--step-1, 1.125rem);
-  font-weight: 500;
-  color: var(--color-text, #374151);
-  margin-bottom: var(--space-l, 1.5rem);
-}
-
-.empty-state__link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
-  background: var(--color-primary, #2563eb);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.2s ease;
-}
-
-.empty-state__link:hover {
-  background: var(--color-primary-shade-10, #1d4ed8);
 }
 </style>

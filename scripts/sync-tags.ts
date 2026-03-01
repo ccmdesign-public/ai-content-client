@@ -18,9 +18,36 @@ import { parse as parseYaml } from 'yaml'
 
 const SCRIPT_DIR = import.meta.dirname ?? resolve(import.meta.url.replace('file://', ''), '..')
 const PROJECT_ROOT = resolve(SCRIPT_DIR, '..')
-const SCRAPER_TAGS_DIR = resolve(PROJECT_ROOT, '../../ai-content-scraper/src/content/tags')
+const SCRAPER_TAGS_DIR = resolve(
+  process.env.SCRAPER_REPO_PATH || resolve(PROJECT_ROOT, '../../ai-content-scraper'),
+  'src/content/tags'
+)
 const CLIENT_TAGS_DIR = resolve(PROJECT_ROOT, 'src/content/tags')
 const CLIENT_TAGS_JSON = resolve(PROJECT_ROOT, 'src/content/tags-index.json')
+
+/**
+ * Acronym and special-case map for generating human-readable tag names.
+ * Keys are lowercase slug segments; values are their correct display form.
+ */
+const SPECIAL_CASES: Record<string, string> = {
+  'ai': 'AI', 'ml': 'ML', 'nlp': 'NLP', 'llm': 'LLM', 'llms': 'LLMs',
+  'mcp': 'MCP', 'rag': 'RAG', 'ci': 'CI', 'cd': 'CD',
+  'gcp': 'GCP', 'aws': 'AWS', 'sql': 'SQL', 'seo': 'SEO',
+  'css': 'CSS', 'html': 'HTML', 'api': 'API', 'ui': 'UI', 'ux': 'UX',
+  'ios': 'iOS', 'saas': 'SaaS', 'paas': 'PaaS', 'iaas': 'IaaS',
+  'nextjs': 'Next.js', 'nodejs': 'Node.js', 'vuejs': 'Vue.js',
+  'graphql': 'GraphQL', 'mongodb': 'MongoDB', 'postgresql': 'PostgreSQL',
+  'oauth': 'OAuth', 'jwt': 'JWT', 'sdk': 'SDK', 'cli': 'CLI',
+  'devops': 'DevOps', 'devin': 'Devin', 'openai': 'OpenAI',
+}
+
+/** Convert a kebab-case slug to a human-readable name, respecting acronyms. */
+export function slugToDisplayName(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => SPECIAL_CASES[word] ?? (word.charAt(0).toUpperCase() + word.slice(1)))
+    .join(' ')
+}
 
 interface TagIndexEntry {
   id: string
@@ -46,7 +73,8 @@ function main() {
   // 1. Validate source exists
   if (!existsSync(SCRAPER_TAGS_DIR)) {
     console.error(`❌ Scraper tags directory not found: ${SCRAPER_TAGS_DIR}`)
-    console.error('   Make sure the ai-content-scraper repo is checked out alongside this repo.')
+    console.error('   Make sure the ai-content-scraper repo is checked out alongside this repo,')
+    console.error('   or set SCRAPER_REPO_PATH to the absolute path of the scraper repo.')
     process.exit(1)
   }
 
@@ -88,10 +116,7 @@ function main() {
   // Convert to JSON array with slug (using id as slug), name (human-readable from id), category, and itemCount
   const tagsJson = masterIndex.tags.map(tag => ({
     slug: tag.id,
-    name: tag.id
-      .split('-')
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' '),
+    name: slugToDisplayName(tag.id),
     category: tag.category,
     categoryId: tag.categoryId,
     itemCount: tag.itemCount

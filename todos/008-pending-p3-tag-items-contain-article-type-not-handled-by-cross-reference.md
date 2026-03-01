@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "008"
 tags: [code-review, quality, architecture]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "useTagIndex now filters tag items to type 'summary' only before cross-referencing. Exposes summaryItemCount for accurate display. Tag detail page uses summaryItemCount instead of raw item count, eliminating the count mismatch between overview and detail pages."
 ---
 
 # Tag Items Include "article" Type Not Handled by Cross-Reference Logic

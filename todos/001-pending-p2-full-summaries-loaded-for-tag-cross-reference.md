@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "001"
 tags: [code-review, performance, architecture]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Replaced useContentStream('summaries') with targeted queryCollection('summaries').where('metadata.videoId', 'in', ids) in useTagIndex.ts. Tag pages now fetch only matching summaries instead of the entire collection."
 ---
 
 # Full Summaries Collection Loaded for Tag Cross-Reference

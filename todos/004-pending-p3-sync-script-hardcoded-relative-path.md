@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "004"
 tags: [code-review, architecture, security]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "SCRAPER_TAGS_DIR now reads process.env.SCRAPER_REPO_PATH with fallback to the existing relative path. Error message updated to mention the env variable."
 ---
 
 # Sync Script Uses Hardcoded Relative Path to Scraper Repo

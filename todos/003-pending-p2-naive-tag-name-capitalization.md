@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "003"
 tags: [code-review, quality, ui]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Added SPECIAL_CASES acronym map and slugToDisplayName() function to sync-tags.ts. Covers AI, ML, NLP, LLM, API, AWS, GCP, MCP, RAG, iOS, Next.js, Node.js, Vue.js, OpenAI, DevOps, and 20+ more. Added 18 unit tests covering all cases."
 ---
 
 # Naive Tag Name Capitalization Produces Incorrect Display Names

@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Generated data files -- collapse in PR diffs
+src/content/tags/*.yml linguist-generated=true
+src/content/tags-index.json linguist-generated=true

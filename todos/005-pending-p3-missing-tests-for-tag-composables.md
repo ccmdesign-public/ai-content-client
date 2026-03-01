@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "005"
 tags: [code-review, quality, testing]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Added src/tests/tags/slug-to-display-name.test.ts (8 tests for slugToDisplayName) and src/tests/tags/useTagsConfig.test.ts (10 tests for grouping, sorting, topTags, getTagBySlug). All 18 tests pass."
 ---
 
 # Missing Tests for Tag Composables and Sync Script

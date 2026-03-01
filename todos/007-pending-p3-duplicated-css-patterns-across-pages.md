@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "007"
 tags: [code-review, quality, architecture]
 dependencies: []
+resolved_date: "2026-03-01"
+resolution: "Extracted duplicated .empty-state and .not-found CSS+markup into reusable PageEmptyState.vue and PageNotFound.vue components. Refactored tags/[slug].vue, tags/index.vue, and channels/[slug].vue to use them, removing ~120 lines of duplicated CSS."
 ---
 
 # Duplicated CSS Patterns Across Tag, Channel, and Playlist Pages
