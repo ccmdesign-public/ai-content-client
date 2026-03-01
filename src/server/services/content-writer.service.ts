@@ -235,6 +235,21 @@ export class ContentWriterService {
     // Ensure ### headers have blank lines before and after
     normalized = normalized.replace(/([^\n])(###\s)/g, '$1\n\n$2');
 
+    // Fix ### headers where heading text runs directly into paragraph text
+    // AI sometimes generates: "### HeadingParagraph text..." without a line break
+    // Detects [a-z][A-Z] transition and splits when rest looks like paragraph text
+    normalized = normalized.replace(
+      /^(### .+?[a-z])([A-Z].+)$/gm,
+      (match, heading, rest) => {
+        // Split if rest contains sentence punctuation (strong signal of paragraph text)
+        // or if rest is long enough to clearly be paragraph content
+        if (/[.!?:]/.test(rest) || rest.length > 30) {
+          return `${heading}\n\n${rest}`;
+        }
+        return match;
+      }
+    );
+
     // Collapse multiple blank lines (3+ -> 2)
     normalized = normalized.replace(/\n{3,}/g, '\n\n');
 
