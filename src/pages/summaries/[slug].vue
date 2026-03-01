@@ -7,9 +7,16 @@
       <div class="center">
         <NuxtLink to="/" class="text-sm text-muted-foreground hover:text-foreground">Back to summaries</NuxtLink>
         <h1 class="text-2xl font-bold mt-4 mb-2">{{ summary.metadata.title }}</h1>
-        <p class="mb-6">
-          <a :href="summary.metadata.youtubeUrl" target="_blank" rel="noopener" class="text-primary hover:underline">Watch on YouTube</a>
-        </p>
+        <!-- YouTube Embed -->
+        <div class="my-6 aspect-video rounded-lg overflow-hidden border">
+          <iframe
+            :src="`https://www.youtube.com/embed/${summary.metadata.videoId}`"
+            class="w-full h-full"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
 
         <!-- Tools Section at Beginning -->
         <section v-if="categorizedTools.length" class="my-8 p-4 bg-muted rounded-lg border">
