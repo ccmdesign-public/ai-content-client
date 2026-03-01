@@ -1,7 +1,7 @@
 ---
 title: "feat: Verify and update client app to consume tag indexes"
 type: feat
-status: active
+status: completed
 date: 2026-03-01
 deepened: 2026-03-01
 ---
@@ -621,20 +621,20 @@ tags: z.array(z.string()).optional().default([])
 
 ## Acceptance Criteria
 
-- [ ] Tag index files (`index.yml` + per-tag YMLs) are available in client `src/content/tags/`
-- [ ] Master tag index converted to `tags-index.json` for static import
-- [ ] `useTagsConfig()` composable returns all tags with categories and counts
-- [ ] `useTagIndex(slug)` composable returns items for a specific tag
-- [ ] `/tags` overview page shows all tags grouped by category
-- [ ] `/tags/:slug` page renders filtered content using `DateGroupedFeed`
-- [ ] Tag detail pages correctly cross-reference tag items against existing summaries
-- [ ] `SidebarNav` shows a "Topics" section with link to overview + top tags
-- [ ] `MobileNav` includes tag navigation
-- [ ] Static generation (`npm run generate`) successfully prerenders ALL tag pages (verify count = 100)
-- [ ] No regression in existing channel/playlist navigation
-- [ ] Sidebar tag section is keyboard accessible (Tab, Enter/Space)
-- [ ] Tag pages have proper `<title>` and `<meta description>` for SEO
-- [ ] Graceful fallback: Tags section hidden if no tag data available
+- [x] Tag index files (`index.yml` + per-tag YMLs) are available in client `src/content/tags/`
+- [x] Master tag index converted to `tags-index.json` for static import
+- [x] `useTagsConfig()` composable returns all tags with categories and counts
+- [x] `useTagIndex(slug)` composable returns items for a specific tag
+- [x] `/tags` overview page shows all tags grouped by category
+- [x] `/tags/:slug` page renders filtered content using `DateGroupedFeed`
+- [x] Tag detail pages correctly cross-reference tag items against existing summaries
+- [x] `SidebarNav` shows a "Topics" section with link to overview + top tags
+- [x] `MobileNav` includes tag navigation
+- [x] Static generation (`npm run generate`) successfully prerenders ALL tag pages (verify count = 100)
+- [x] No regression in existing channel/playlist navigation
+- [x] Sidebar tag section is keyboard accessible (Tab, Enter/Space)
+- [x] Tag pages have proper `<title>` and `<meta description>` for SEO
+- [x] Graceful fallback: Tags section hidden if no tag data available
 
 ## Dependencies & Risks
 

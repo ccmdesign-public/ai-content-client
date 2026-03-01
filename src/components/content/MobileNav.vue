@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTruncate } from '~/composables/useTruncate'
 
 const route = useRoute()
@@ -8,6 +9,7 @@ const isOpen = ref(false)
 
 const { enabledPlaylists } = usePlaylistsConfig()
 const { enabledChannels } = useChannelsConfig()
+const { tags, topTags } = useTagsConfig()
 
 // Close on route change
 watch(() => route.path, () => {
@@ -102,6 +104,27 @@ onUnmounted(() => {
                     active-class="mobile-nav__link--active"
                   >
                     {{ useTruncate(channel.name, 30) }}
+                  </NuxtLink>
+                </li>
+              </ul>
+            </section>
+
+            <section v-if="topTags.length > 0" class="mobile-nav__section">
+              <h3 class="mobile-nav__heading">Topics</h3>
+              <ul class="mobile-nav__list">
+                <li v-for="tag in topTags" :key="tag.slug">
+                  <NuxtLink
+                    :to="`/tags/${tag.slug}`"
+                    class="mobile-nav__link"
+                    active-class="mobile-nav__link--active"
+                  >
+                    {{ useTruncate(tag.name, 30) }}
+                    <span class="mobile-nav__count" aria-hidden="true">{{ tag.itemCount }}</span>
+                  </NuxtLink>
+                </li>
+                <li v-if="tags.length > 5">
+                  <NuxtLink to="/tags" class="mobile-nav__link mobile-nav__link--see-all">
+                    See all {{ tags.length }} topics
                   </NuxtLink>
                 </li>
               </ul>
@@ -261,6 +284,17 @@ onUnmounted(() => {
     background: var(--color-primary-tint-10, #eff6ff);
     color: var(--color-primary, #2563eb);
     font-weight: 500;
+  }
+
+  .mobile-nav__count {
+    margin-left: auto;
+    font-size: var(--step--1, 0.875rem);
+    color: var(--color-base-shade-10, #6b7280);
+  }
+
+  .mobile-nav__link--see-all {
+    font-style: italic;
+    color: var(--color-primary, #2563eb);
   }
 
   /* Transitions */

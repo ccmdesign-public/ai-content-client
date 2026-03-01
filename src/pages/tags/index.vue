@@ -1,0 +1,180 @@
+<script setup lang="ts">
+import { useTagsConfig } from '~/composables/useTagsConfig'
+
+definePageMeta({
+  hero: false,
+  footer: false
+})
+
+const { tags, tagsByCategory } = useTagsConfig()
+
+useHead({
+  title: 'Browse by Topic | YouTube Summaries',
+  meta: [
+    { name: 'description', content: 'Browse AI-generated video summaries by topic. Explore categories like AI & Machine Learning, Web Development, Programming, and more.' }
+  ]
+})
+</script>
+
+<template>
+  <div class="tags-page">
+    <header class="page-header">
+      <h1>Browse by Topic</h1>
+      <p class="page-header__count">{{ tags.length }} topics</p>
+    </header>
+
+    <div v-if="tagsByCategory.length === 0" class="empty-state">
+      <span class="material-symbols-outlined empty-state__icon">label_off</span>
+      <p class="empty-state__message">No topics available yet.</p>
+      <NuxtLink to="/" class="empty-state__link">Browse all summaries</NuxtLink>
+    </div>
+
+    <div v-else class="tags-grid">
+      <section
+        v-for="category in tagsByCategory"
+        :key="category.categoryId"
+        class="tag-category"
+      >
+        <h2 class="tag-category__heading">
+          {{ category.name }}
+          <span class="tag-category__count">{{ category.totalItems }} videos</span>
+        </h2>
+        <ul class="tag-category__list">
+          <li v-for="tag in category.tags" :key="tag.slug">
+            <NuxtLink
+              :to="`/tags/${tag.slug}`"
+              class="tag-chip"
+            >
+              <span class="tag-chip__name">{{ tag.name }}</span>
+              <span class="tag-chip__count">{{ tag.itemCount }}</span>
+            </NuxtLink>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.tags-page {
+  padding: var(--space-l, 2rem);
+}
+
+.page-header {
+  margin-bottom: var(--space-xl, 2.5rem);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: var(--step-2, 1.5rem);
+}
+
+.page-header__count {
+  margin: var(--space-2xs, 0.25rem) 0 0;
+  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--step--1, 0.875rem);
+}
+
+.tags-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl, 2rem);
+}
+
+.tag-category__heading {
+  font-size: var(--step-1, 1.125rem);
+  font-weight: 600;
+  color: var(--color-text, #374151);
+  margin: 0 0 var(--space-s, 0.75rem) 0;
+  padding-bottom: var(--space-xs, 0.5rem);
+  border-bottom: 1px solid var(--color-base-tint-10, #e5e7eb);
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-s, 0.75rem);
+}
+
+.tag-category__count {
+  font-size: var(--step--1, 0.875rem);
+  font-weight: 400;
+  color: var(--color-base-shade-10, #6b7280);
+}
+
+.tag-category__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs, 0.25rem);
+  padding: var(--space-2xs, 0.25rem) var(--space-s, 0.75rem);
+  background: var(--color-base-tint-5, #f3f4f6);
+  border: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border-radius: 9999px;
+  text-decoration: none;
+  color: var(--color-text, #374151);
+  font-size: var(--step--1, 0.875rem);
+  transition: background 0.15s ease, border-color 0.15s ease;
+  cursor: pointer;
+}
+
+.tag-chip:hover {
+  background: var(--color-primary-tint-10, #eff6ff);
+  border-color: var(--color-primary, #2563eb);
+  color: var(--color-primary, #2563eb);
+}
+
+.tag-chip__name {
+  font-weight: 500;
+}
+
+.tag-chip__count {
+  font-weight: 400;
+  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--step--2, 0.75rem);
+}
+
+.tag-chip:hover .tag-chip__count {
+  color: var(--color-primary, #2563eb);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--space-2xl, 3rem) var(--space-l, 1.5rem);
+}
+
+.empty-state__icon {
+  font-size: 3rem;
+  color: var(--color-base-shade-10, #6b7280);
+  margin-bottom: var(--space-m, 1rem);
+}
+
+.empty-state__message {
+  font-size: var(--step-1, 1.125rem);
+  font-weight: 500;
+  color: var(--color-text, #374151);
+  margin-bottom: var(--space-l, 1.5rem);
+}
+
+.empty-state__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs, 0.25rem);
+  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
+  background: var(--color-primary, #2563eb);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.empty-state__link:hover {
+  background: var(--color-primary-shade-10, #1d4ed8);
+}
+</style>

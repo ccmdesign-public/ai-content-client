@@ -27,7 +27,8 @@
     "migrate:folders": "tsx scripts/migrate-to-folders.ts",
     "backfill": "tsx scripts/backfill-video-data.ts",
     "backfill:tools": "tsx scripts/backfill-tools.ts",
-    "backfill:tools:dry": "tsx scripts/backfill-tools.ts --dry-run"
+    "backfill:tools:dry": "tsx scripts/backfill-tools.ts --dry-run",
+    "sync:tags": "tsx scripts/sync-tags.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

@@ -1,11 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt/config'
 
 const currentDir = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(currentDir, '..')
+
+// Generate tag prerender routes from tags-index.json
+const tagsIndexPath = resolve(currentDir, '..', 'src/content/tags-index.json')
+let tagRoutes: string[] = []
+try {
+  if (existsSync(tagsIndexPath)) {
+    const tagsIndex = JSON.parse(readFileSync(tagsIndexPath, 'utf-8'))
+    tagRoutes = [
+      '/tags',
+      ...tagsIndex.map((tag: { slug: string }) => `/tags/${tag.slug}`)
+    ]
+  }
+} catch {
+  // Graceful fallback: tags not synced yet, skip prerender routes
+}
 
 const dsRootDir = resolve(currentDir, 'components/ds')
 
@@ -101,7 +116,7 @@ export default defineNuxtConfig({
     // Prerender all routes including RSS feeds
     prerender: {
       crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml']
+      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', ...tagRoutes]
     }
   },
   // Route rules for static generation
