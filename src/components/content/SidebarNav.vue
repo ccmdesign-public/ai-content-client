@@ -3,12 +3,14 @@ import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
 import { useArticleStream } from '~/composables/useArticleStream'
 import { usePublications } from '~/composables/usePublications'
+import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTruncate } from '~/composables/useTruncate'
 
 const { enabledPlaylists } = usePlaylistsConfig()
 const { enabledChannels } = useChannelsConfig()
 const { articles } = useArticleStream()
 const { publications } = usePublications(articles)
+const { tags, topTags } = useTagsConfig()
 </script>
 
 <template>
@@ -62,6 +64,29 @@ const { publications } = usePublications(articles)
               active-class="text-primary bg-primary/10 font-medium"
             >
               {{ useTruncate(publication.name, 20) }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </section>
+
+      <section v-if="topTags.length > 0" class="mb-6" aria-labelledby="sidebar-topics-heading">
+        <h3 id="sidebar-topics-heading" class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">
+          <NuxtLink to="/tags" class="text-muted-foreground hover:text-primary">Topics</NuxtLink>
+        </h3>
+        <ul class="list-none p-0 m-0">
+          <li v-for="tag in topTags" :key="tag.slug">
+            <NuxtLink
+              :to="`/tags/${tag.slug}`"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
+            >
+              {{ useTruncate(tag.name, 20) }}
+              <span class="ml-auto text-xs text-muted-foreground" aria-hidden="true">{{ tag.itemCount }}</span>
+            </NuxtLink>
+          </li>
+          <li v-if="tags.length > 5">
+            <NuxtLink to="/tags" class="block py-1 px-2 rounded text-sm text-primary italic hover:bg-muted">
+              See all {{ tags.length }} topics
             </NuxtLink>
           </li>
         </ul>

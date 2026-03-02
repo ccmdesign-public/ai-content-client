@@ -82,6 +82,27 @@ export default defineContentConfig({
         cwd: contentDir
       },
       schema: articleSchema
+    }),
+    tags: defineCollection({
+      type: 'data',
+      source: {
+        include: 'tags/*.yml',
+        exclude: ['tags/index.yml'],
+        cwd: contentDir
+      },
+      schema: z.object({
+        tag: z.string(),
+        category: z.string(),
+        categoryId: z.string(),
+        itemCount: z.number(),
+        items: z.array(z.object({
+          id: z.string(),
+          type: z.string(),
+          title: z.string(),
+          date: z.string(),
+          path: z.string()
+        }))
+      })
     })
   }
 })

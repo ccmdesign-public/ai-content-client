@@ -1,0 +1,121 @@
+<script setup lang="ts">
+import { useTagsConfig } from '~/composables/useTagsConfig'
+import { useTagIndex } from '~/composables/useTagIndex'
+import { useDateGroups } from '~/composables/useDateGroups'
+
+const route = useRoute()
+const slug = computed(() => route.params.slug as string)
+
+definePageMeta({
+  hero: false,
+  footer: false
+})
+
+// Get tag config for display name and 404 check
+const { getTagBySlug } = useTagsConfig()
+const tagConfig = computed(() => getTagBySlug(slug.value))
+
+// Load tag data and cross-referenced summaries
+const { summaries, summaryItemCount, pending } = useTagIndex(slug)
+
+// Group by date
+const { segments } = useDateGroups(computed(() => summaries.value || []))
+
+// Check if empty (tag exists but no matching summaries in client)
+const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
+
+// Display name for the page
+const displayName = computed(() => tagConfig.value?.name || slug.value)
+const categoryName = computed(() => tagConfig.value?.category || '')
+
+useHead({
+  title: computed(() => `${displayName.value} | YouTube Summaries`),
+  meta: [
+    { name: 'description', content: computed(() => `Browse ${summaryItemCount.value} AI-generated video summaries tagged with ${displayName.value} in ${categoryName.value}.`) }
+  ]
+})
+</script>
+
+<template>
+  <div class="tag-page">
+    <div v-if="pending" class="loading">Loading...</div>
+
+    <PageNotFound
+      v-else-if="!tagConfig"
+      icon="search_off"
+      title="Topic not found"
+      message="We don't have any summaries for this topic."
+      link-to="/tags"
+      link-text="Browse all topics"
+    />
+
+    <template v-else>
+      <header class="page-header">
+        <NuxtLink to="/tags" class="page-header__breadcrumb">Topics</NuxtLink>
+        <span class="page-header__separator">/</span>
+        <span class="page-header__category">{{ categoryName }}</span>
+        <h1>{{ displayName }}</h1>
+        <p class="page-header__count">{{ summaryItemCount }} videos</p>
+      </header>
+
+      <PageEmptyState
+        v-if="isEmpty"
+        icon="label_off"
+        message="No summaries for this topic yet."
+        hint="Tag data exists but matching summaries haven't been synced to the client."
+        link-to="/tags"
+        link-text="Browse all topics"
+      />
+
+      <DateGroupedFeed v-else :segments="segments" />
+    </template>
+  </div>
+</template>
+
+<style scoped>
+.tag-page {
+  padding: var(--space-l, 2rem);
+}
+
+.page-header {
+  margin-bottom: var(--space-l, 2rem);
+}
+
+.page-header__breadcrumb {
+  font-size: var(--step--1, 0.875rem);
+  color: var(--color-primary, #2563eb);
+  text-decoration: none;
+}
+
+.page-header__breadcrumb:hover {
+  text-decoration: underline;
+}
+
+.page-header__separator {
+  font-size: var(--step--1, 0.875rem);
+  color: var(--color-base-shade-10, #6b7280);
+  margin: 0 var(--space-2xs, 0.25rem);
+}
+
+.page-header__category {
+  font-size: var(--step--1, 0.875rem);
+  color: var(--color-base-shade-10, #6b7280);
+}
+
+.page-header h1 {
+  margin: var(--space-xs, 0.5rem) 0 0;
+  font-size: var(--step-2, 1.5rem);
+}
+
+.page-header__count {
+  margin: var(--space-2xs, 0.25rem) 0 0;
+  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--step--1, 0.875rem);
+}
+
+.loading {
+  text-align: center;
+  padding: var(--space-2xl, 3rem);
+  color: var(--color-base-shade-10, #6b7280);
+}
+</style>

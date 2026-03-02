@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTruncate } from '~/composables/useTruncate'
 import {
   Sheet,
@@ -16,6 +17,7 @@ const isOpen = ref(false)
 
 const { enabledPlaylists } = usePlaylistsConfig()
 const { enabledChannels } = useChannelsConfig()
+const { tags, topTags } = useTagsConfig()
 
 watch(() => route.path, () => {
   isOpen.value = false
@@ -86,6 +88,27 @@ watch(() => route.path, () => {
                   active-class="text-primary bg-primary/10 font-medium"
                 >
                   {{ useTruncate(channel.name, 30) }}
+                </NuxtLink>
+              </li>
+            </ul>
+          </section>
+
+          <section v-if="topTags.length > 0" class="mb-6">
+            <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-3">Topics</h3>
+            <ul class="list-none p-0 m-0">
+              <li v-for="tag in topTags" :key="tag.slug">
+                <NuxtLink
+                  :to="`/tags/${tag.slug}`"
+                  class="block py-2 px-3 rounded-md text-foreground hover:bg-muted"
+                  active-class="text-primary bg-primary/10 font-medium"
+                >
+                  {{ useTruncate(tag.name, 30) }}
+                  <span class="ml-auto text-xs text-muted-foreground" aria-hidden="true">{{ tag.itemCount }}</span>
+                </NuxtLink>
+              </li>
+              <li v-if="tags.length > 5">
+                <NuxtLink to="/tags" class="block py-2 px-3 rounded-md text-primary italic hover:bg-muted">
+                  See all {{ tags.length }} topics
                 </NuxtLink>
               </li>
             </ul>

@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { existsSync, readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt/config'
@@ -6,6 +7,21 @@ import tailwindcss from '@tailwindcss/vite'
 
 const currentDir = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(currentDir, '..')
+
+// Generate tag prerender routes from tags-index.json
+const tagsIndexPath = resolve(currentDir, '..', 'src/content/tags-index.json')
+let tagRoutes: string[] = []
+try {
+  if (existsSync(tagsIndexPath)) {
+    const tagsIndex = JSON.parse(readFileSync(tagsIndexPath, 'utf-8'))
+    tagRoutes = [
+      '/tags',
+      ...tagsIndex.map((tag: { slug: string }) => `/tags/${tag.slug}`)
+    ]
+  }
+} catch {
+  // Graceful fallback: tags not synced yet, skip prerender routes
+}
 
 export default defineNuxtConfig({
   rootDir: projectRoot,
@@ -88,7 +104,7 @@ export default defineNuxtConfig({
     // Only prerender essential static routes
     prerender: {
       crawlLinks: false,
-      routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json'],
+      routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/tools-with-stars.json', ...tagRoutes],
       concurrency: 1
     }
   },
