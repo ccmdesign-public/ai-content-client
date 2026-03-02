@@ -39,17 +39,8 @@ tools:
     url: null
   - name: "LinkedIn"
     url: null
-categories:
-  - "Business & Career"
-  - "AI & Machine Learning"
-tags:
-  - "startup-journey"
-  - "customer-support"
-  - "b2b-saas"
-  - "ai-integration"
-  - "yc"
-  - "founder-advice"
-  - "product-market-fit"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -60,6 +51,7 @@ ai:
   totalTokens: 51539
   processingTimeMs: 50456
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.278Z"
 ---
 
 ## Key Takeaways

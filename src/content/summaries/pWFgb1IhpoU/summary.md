@@ -74,12 +74,14 @@ ai:
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
 tags:
-  - chatgpt
-  - llm
-  - product-strategy
-  - best-practices
+  - "best-practices"
+  - "chatgpt"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.418Z"
 ---
 
 ## Key Takeaways

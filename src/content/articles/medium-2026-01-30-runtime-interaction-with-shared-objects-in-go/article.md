@@ -6,13 +6,13 @@ publicationName: "CodeX"
 url: "https://medium.com/codex/runtime-interaction-with-shared-objects-in-golang-9ceeeed364f8?source=rss----29038077e4c6---4"
 publishedAt: "2026-01-30"
 tags:
-  - "cgo"
-  - "software-development"
-  - "c-programming"
-  - "golang"
-  - "systems-programming"
-  - "software"
-  - "tutorials"
+  - "education"
+  - "engineering"
+  - "go"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.555Z"
 ---
 
 # Runtime Interaction with Shared Objects in Go

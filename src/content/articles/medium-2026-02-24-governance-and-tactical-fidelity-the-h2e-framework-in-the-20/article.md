@@ -6,13 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/governance-and-tactical-fidelity-the-h2e-framework-in-the-2026-world-cup-ai-simulation-with-gemini-7945cff37fd0?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-24"
 tags:
-  - "artificial-intelligence"
+  - "ai-general"
   - "llm"
-  - "fifa"
-  - "ai-governance"
-  - "world-cup"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.591Z"
 ---
 
 # Governance and Tactical Fidelity: The H2E Framework in the 2026 World Cup AI Simulation with Gemini…

@@ -6,13 +6,16 @@ publicationName: "The Backend Tech"
 url: "https://medium.com/thebackendtech/mastering-java-concurrency-advanced-executors-27de97cbc4bd?source=rss----33614872e155---4"
 publishedAt: "2024-11-02"
 tags:
-  - "tech"
-  - "development"
-  - "programming"
-  - "java"
-  - "technology"
-  - "backend"
   - "architecture"
+  - "engineering"
+  - "innovation"
+  - "java"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.653Z"
 ---
 
 # Mastering Java Concurrency: Advanced Executors

@@ -29,16 +29,8 @@ tools:
     url: null
   - name: "SDGHub"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Data & Analytics"
-tags:
-  - "synthetic-data"
-  - "ai-training"
-  - "document-processing"
-  - "chatbot-development"
-  - "data-pipelines"
-  - "ocr"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -49,6 +41,7 @@ ai:
   totalTokens: 3451
   processingTimeMs: 16597
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.453Z"
 ---
 
 ## Key Takeaways

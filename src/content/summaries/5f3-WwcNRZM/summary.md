@@ -188,13 +188,11 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "wordpress"
   - "automation"
-  - "ai-content"
-  - "seo"
-  - "n8n"
   - "gemini"
+  - "seo"
   - "workflow"
 ai:
   provider: "openrouter"
@@ -206,6 +204,7 @@ ai:
   totalTokens: 22232
   processingTimeMs: 30774
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.537Z"
 ---
 
 ## Key Takeaways

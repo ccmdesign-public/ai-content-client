@@ -121,10 +121,11 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - startup
-  - indie-hacker
-  - saas
-  - monetization
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.376Z"
 ---
 
 ## Key Takeaways

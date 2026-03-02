@@ -80,15 +80,9 @@ tools:
   - name: "Google Search Console"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
   - "seo"
-  - "ai-search"
-  - "brand-tracking"
-  - "certification"
-  - "digital-marketing"
-  - "ahrefs"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -99,6 +93,7 @@ ai:
   totalTokens: 5631
   processingTimeMs: 60163
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.414Z"
 ---
 
 ## Key Takeaways

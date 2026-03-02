@@ -70,14 +70,15 @@ tools:
   - name: "Claude Artifacts"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
 tags:
-  - ux
-  - ui
-  - figma
-  - design-systems
-  - ai-coding
+  - "ai-coding"
+  - "design-systems"
+  - "figma"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.546Z"
 ---
 
 ## Key Takeaways

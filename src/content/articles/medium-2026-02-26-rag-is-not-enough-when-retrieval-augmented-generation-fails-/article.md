@@ -6,13 +6,12 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/rag-is-not-enough-when-retrieval-augmented-generation-fails-in-production-9dd2a7aa92c1?source=rss----98111c9905da---4"
 publishedAt: "2026-02-26"
 tags:
-  - "agentic-ai"
-  - "retrieval-augmented-gen"
-  - "genai"
-  - "generative-ai-use-cases"
-  - "agentic-rag"
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.651Z"
 ---
 
 # RAG is Not Enough: When Retrieval Augmented Generation Fails in Production

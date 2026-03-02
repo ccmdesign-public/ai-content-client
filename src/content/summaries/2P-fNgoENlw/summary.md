@@ -43,13 +43,9 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - "llm"
   - "ai-coding"
-  - "software-architecture"
-  - "cognitive-architecture"
-  - "context-window"
-  - "entropy"
-  - "code-review"
+  - "architecture"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -60,6 +56,7 @@ ai:
   totalTokens: 2725
   processingTimeMs: 21696
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.443Z"
 ---
 
 ## Key Takeaways

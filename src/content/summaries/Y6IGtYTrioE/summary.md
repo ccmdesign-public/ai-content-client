@@ -76,12 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "organizational-culture"
   - "leadership"
-  - "entrepreneurship"
-  - "business-growth"
-  - "management"
-  - "team-building"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +88,7 @@ ai:
   totalTokens: 4427
   processingTimeMs: 23508
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.318Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,14 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-architecture-of-provable-agency-from-functional-autonomy-to-h2e-governance-df0363e71b59?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-16"
 tags:
-  - "artificial-intelligence"
-  - "ai-governance"
+  - "ai-general"
   - "open-source"
-  - "security"
-  - "agentic-ai"
-  - "ai"
-  - "beginner"
+  - "security-general"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Security"
+tagsNormalizedAt: "2026-03-01T21:19:30.574Z"
 ---
 
 # The Architecture of Provable Agency: From Functional Autonomy to H2E Governance

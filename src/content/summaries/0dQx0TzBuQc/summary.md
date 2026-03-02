@@ -52,11 +52,11 @@ tools:
   - name: "KodeKloud"
     url: null
 categories:
-  - "DevOps & Infrastructure"
   - "Programming"
 tags:
-  - architecture
-  - best-practices
+  - "architecture"
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.409Z"
 ---
 
 ## Key Takeaways

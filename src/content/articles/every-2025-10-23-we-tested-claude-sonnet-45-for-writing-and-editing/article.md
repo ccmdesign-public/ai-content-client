@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-we-tested-claude-sonnet-4-5-for-writing-and-editing"
 publishedAt: "2025-10-23"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.645Z"
 ---
 
 # We Tested Claude Sonnet 4.5 for Writing and Editing

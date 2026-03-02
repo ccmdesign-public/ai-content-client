@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/the-ai-browsers-that-made-it-into-our-daily-workflow"
 publishedAt: "2025-11-25"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.609Z"
 ---
 
 # The AI Browsers That Made It Into Our Daily Workflow

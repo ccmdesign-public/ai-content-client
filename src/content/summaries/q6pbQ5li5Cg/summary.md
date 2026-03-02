@@ -65,15 +65,9 @@ source: "youtube"
 tldr: "While AI-driven doom and boom narratives generate market volatility, the real economic opportunity lies in the 'capability-dissipation gap'—the lag between rapid AI advances and slow societal adoption—which creates asymmetric returns for individuals and organizations that can accelerate integration into their workflows."
 tools: []
 categories:
-  - "Business & Career"
-  - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-economics"
-  - "market-analysis"
-  - "career-strategy"
-  - "ai-adoption"
   - "productivity"
-  - "future-of-work"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -84,6 +78,7 @@ ai:
   totalTokens: 22433
   processingTimeMs: 48563
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.501Z"
 ---
 
 ## Key Takeaways

@@ -39,12 +39,7 @@ categories:
   - "Tools & Productivity"
 tags:
   - "productivity"
-  - "habits"
-  - "entrepreneurship"
-  - "personal-development"
-  - "mindset"
-  - "routine"
-  - "high-performance"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -55,6 +50,7 @@ ai:
   totalTokens: 18958
   processingTimeMs: 31217
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.483Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"
 publishedAt: "2025-05-27"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.648Z"
 ---
 
 # The Prompt Engineering Playbook for Programmers

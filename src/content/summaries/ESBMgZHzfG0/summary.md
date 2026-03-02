@@ -47,12 +47,14 @@ tools:
     url: "https://ibm.biz/BdbTRQ"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - rag
-  - agents
-  - embeddings
-  - architecture
+  - "agents"
+  - "architecture"
+  - "embeddings"
+  - "llm"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.402Z"
 ---
 
 ## Key Takeaways

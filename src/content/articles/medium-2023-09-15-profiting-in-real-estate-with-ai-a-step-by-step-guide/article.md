@@ -6,12 +6,15 @@ publicationName: "AI Guys"
 url: "https://medium.com/ai-guys/profiting-in-real-estate-with-ai-a-step-by-step-guide-7191e4dfa56c?source=rss----90b968f6dbf8---4"
 publishedAt: "2023-09-15"
 tags:
-  - "money"
-  - "business"
-  - "real-estate"
-  - "artificial-intelligence"
-  - "ai"
+  - "ai-general"
   - "applications"
+  - "business"
+  - "monetization"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Mobile Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.621Z"
 ---
 
 # Profiting in Real Estate with AI: A Step-by-Step Guide

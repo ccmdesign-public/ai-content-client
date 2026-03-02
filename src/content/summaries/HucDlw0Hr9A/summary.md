@@ -35,15 +35,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-adoption"
-  - "llm-usage"
-  - "vibe-coding"
-  - "agentic-ai"
-  - "ai-productivity"
-  - "claude"
+  - "ai-coding"
   - "chatgpt"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -54,6 +49,7 @@ ai:
   totalTokens: 13811
   processingTimeMs: 97325
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.327Z"
 ---
 
 ## Key Takeaways

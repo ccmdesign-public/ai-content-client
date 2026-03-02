@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/i-created-a-crossword-to-redesign"
 publishedAt: "2026-02-25"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.645Z"
 ---
 
 # I created a crossword to redesign how AI workflows work

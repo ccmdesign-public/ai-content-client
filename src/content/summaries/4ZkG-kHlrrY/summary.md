@@ -46,10 +46,8 @@ categories:
   - "Tools & Productivity"
 tags:
   - "ai-coding"
+  - "automation"
   - "productivity"
-  - "documentation"
-  - "workflow-automation"
-  - "pull-requests"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -60,6 +58,7 @@ ai:
   totalTokens: 2367
   processingTimeMs: 35612
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.312Z"
 ---
 
 ## Key Takeaways

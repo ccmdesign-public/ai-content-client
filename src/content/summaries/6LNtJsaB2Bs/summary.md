@@ -77,16 +77,8 @@ tools:
     url: null
   - name: "Instagram"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "tiktok-shop"
-  - "ecommerce"
-  - "social-media-marketing"
-  - "storytelling"
-  - "influencer-marketing"
-  - "product-launch"
-  - "content-strategy"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +89,7 @@ ai:
   totalTokens: 4526
   processingTimeMs: 17577
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.325Z"
 ---
 
 ## Key Takeaways

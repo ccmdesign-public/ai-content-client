@@ -52,16 +52,8 @@ tools:
     url: null
   - name: "Contra"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Web Development"
-tags:
-  - "shopify"
-  - "ai-builder"
-  - "no-code"
-  - "ecommerce"
-  - "web-design"
-  - "theme-development"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -72,6 +64,7 @@ ai:
   totalTokens: 7300
   processingTimeMs: 41328
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.379Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff"
 publishedAt: "2025-08-07"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.556Z"
 ---
 
 # GPT-5: It Just Does Stuff

@@ -89,15 +89,9 @@ tools:
   - name: "Google Sheets"
     url: null
 categories:
-  - "Tools & Productivity"
-  - "Business & Career"
+  - "Web Development"
 tags:
   - "seo"
-  - "marketing-analytics"
-  - "brand-tracking"
-  - "api-integration"
-  - "competitive-intelligence"
-  - "ahrefs"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -108,6 +102,7 @@ ai:
   totalTokens: 5984
   processingTimeMs: 33344
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.455Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,12 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-unified-brain-how-voxtral-accelerates-the-agentic-ai-revolution-15a8edced1f2?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-23"
 tags:
-  - "ai-agent"
-  - "artificial-intelligence"
+  - "ai-general"
   - "open-source"
-  - "agentic-ai"
-  - "speech-to-text-conversion"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.673Z"
 ---
 
 # The Unified Brain: How Voxtral Accelerates the Agentic AI Revolution

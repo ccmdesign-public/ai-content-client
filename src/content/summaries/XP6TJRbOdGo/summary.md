@@ -80,15 +80,17 @@ tools:
   - name: "Next.js"
     url: null
 categories:
-  - "Web Development"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
 tags:
-  - gemini
-  - claude
-  - ai-coding
-  - nextjs
-  - tailwind
-  - ui
+  - "ai-coding"
+  - "claude"
+  - "gemini"
+  - "nextjs"
+  - "tailwind"
+  - "ui"
+tagsNormalizedAt: "2026-03-01T21:19:30.345Z"
 ---
 
 ## Key Takeaways

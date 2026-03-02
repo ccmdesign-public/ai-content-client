@@ -84,11 +84,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - testing
-  - ai-coding
-  - automation
-  - best-practices
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.299Z"
 ---
 
 ## Key Takeaways

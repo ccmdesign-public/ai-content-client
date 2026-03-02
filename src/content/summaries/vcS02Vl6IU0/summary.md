@@ -67,15 +67,8 @@ tools:
     url: null
 categories:
   - "Security"
-  - "AI & Machine Learning"
 tags:
-  - "threat-intelligence"
-  - "ai-security"
-  - "supply-chain-attacks"
-  - "credential-theft"
-  - "vulnerability-management"
   - "authentication"
-  - "devsecops"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +79,7 @@ ai:
   totalTokens: 34085
   processingTimeMs: 33547
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.515Z"
 ---
 
 ## Key Takeaways

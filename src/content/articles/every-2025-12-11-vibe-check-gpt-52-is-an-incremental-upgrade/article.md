@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-gpt-5-2-is-an-incremental-upgrade"
 publishedAt: "2025-12-11"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.574Z"
 ---
 
 # Vibe Check: GPT-5.2 Is an Incremental Upgrade

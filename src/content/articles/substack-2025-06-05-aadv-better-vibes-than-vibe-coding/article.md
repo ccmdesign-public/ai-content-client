@@ -7,8 +7,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/aadv-better-vibes-than-vibe-coding"
 publishedAt: "2025-06-05"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.563Z"
 ---
 
 # AADV: Better vibes than vibe coding

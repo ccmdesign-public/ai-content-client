@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-436-another-2gw-datacenter"
 publishedAt: "2025-11-24"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.593Z"
 ---
 
 # Import AI 436: Another 2GW datacenter; why regulation is scary; how to fight a superintelligence

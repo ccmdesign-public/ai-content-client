@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/llms-turn-every-question-into-an-answer-e44c1bb4-b8d5-42a1-9335-38c0bfd2c856"
 publishedAt: "2025-02-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.669Z"
 ---
 
 # LLMs Turn Every Question Into an Answer

@@ -76,13 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "customer-retention"
-  - "business-strategy"
-  - "community-building"
-  - "offer-creation"
-  - "churn-reduction"
+  - "business"
   - "saas"
-  - "digital-products"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +88,7 @@ ai:
   totalTokens: 5350
   processingTimeMs: 45012
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.457Z"
 ---
 
 ## Key Takeaways

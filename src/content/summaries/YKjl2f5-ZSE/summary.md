@@ -62,10 +62,11 @@ tools:
 categories:
   - "Tools & Productivity"
 tags:
-  - terminal
-  - automation
-  - workflow
-  - scripting
+  - "automation"
+  - "scripting"
+  - "terminal"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.368Z"
 ---
 
 ## Key Takeaways

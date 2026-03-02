@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/the-recent-history-of-ai-in-32-otters"
 publishedAt: "2025-06-01"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.576Z"
 ---
 
 # The recent history of AI in 32 otters

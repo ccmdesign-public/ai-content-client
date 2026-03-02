@@ -83,12 +83,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Data & Analytics"
+  - "Programming"
 tags:
-  - llm
-  - gemini
-  - rag
-  - python
-  - data-pipeline
+  - "data-pipeline"
+  - "gemini"
+  - "llm"
+  - "python"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.532Z"
 ---
 
 ## Key Takeaways

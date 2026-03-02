@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/the-0-download-that-saves-a-5k-pivot"
 publishedAt: "2026-01-16"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.594Z"
 ---
 
 # The $0 download that saves a $5k pivot.

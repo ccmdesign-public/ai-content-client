@@ -41,8 +41,9 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - leadership
-  - career-growth
+  - "career-growth"
+  - "leadership"
+tagsNormalizedAt: "2026-03-01T21:19:30.432Z"
 ---
 
 ## Key Takeaways

@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-429-eval-the-world-economy"
 publishedAt: "2025-09-29"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.635Z"
 ---
 
 # Import AI 429: Eval the world economy; singularity economics; and Swiss sovereign AI

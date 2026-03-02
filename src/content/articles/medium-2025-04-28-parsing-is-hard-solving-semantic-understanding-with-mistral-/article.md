@@ -6,8 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/parsing-is-hard-solving-semantic-understanding-with-mistral-ocr-and-milvus-ff1866ae51e6?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2025-04-28"
 tags:
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.676Z"
 ---
 
 # Parsing is Hard: Solving Semantic Understanding with Mistral OCR and Milvus

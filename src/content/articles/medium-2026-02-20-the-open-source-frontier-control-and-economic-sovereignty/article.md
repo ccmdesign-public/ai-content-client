@@ -6,13 +6,13 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-open-source-frontier-control-and-economic-sovereignty-5384abe612fa?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-20"
 tags:
-  - "open-source"
-  - "agentic-ai"
+  - "ai-general"
   - "llm"
-  - "ai-agent"
-  - "artificial-intelligence"
-  - "ai"
-  - "beginner"
+  - "open-source"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.671Z"
 ---
 
 # The Open-Source Frontier: Control and Economic Sovereignty

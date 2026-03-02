@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-445-timing-superintelligence"
 publishedAt: "2026-02-16"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.650Z"
 ---
 
 # Import AI 445: Timing superintelligence; AIs solve frontier math proofs; a new ML research benchmark

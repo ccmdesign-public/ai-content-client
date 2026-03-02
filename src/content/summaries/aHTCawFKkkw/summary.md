@@ -75,13 +75,15 @@ tools:
   - name: "zlib"
     url: null
 categories:
-  - "Security"
   - "Data & Analytics"
+  - "Programming"
+  - "Security"
 tags:
-  - mongodb
-  - vulnerability
-  - debugging
-  - best-practices
+  - "best-practices"
+  - "debugging"
+  - "nosql"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.475Z"
 ---
 
 ## Key Takeaways

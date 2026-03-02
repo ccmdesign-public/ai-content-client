@@ -74,13 +74,15 @@ tools:
   - name: "Bventi"
     url: null
 categories:
+  - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - monetization
-  - saas
-  - indie-hacker
-  - startup
-  - llm
+  - "indie-hacker"
+  - "llm"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.437Z"
 ---
 
 ## Key Takeaways

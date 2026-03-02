@@ -179,11 +179,8 @@ categories:
   - "Web Development"
 tags:
   - "ai-coding"
-  - "claude-code"
-  - "seo-automation"
+  - "claude"
   - "nextjs"
-  - "sentry"
-  - "live-coding"
   - "prompt-engineering"
 ai:
   provider: "openrouter"
@@ -195,6 +192,7 @@ ai:
   totalTokens: 69264
   processingTimeMs: 34722
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.363Z"
 ---
 
 ## Key Takeaways

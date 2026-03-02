@@ -6,12 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/inference-engineering-series-1-quantization-83f7e60e11b6?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-02"
 tags:
+  - "engineering"
   - "llm"
-  - "quantization"
-  - "llm-inference"
-  - "cuda"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.672Z"
 ---
 
 # Inference Engineering Series #1: Quantization

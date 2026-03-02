@@ -6,13 +6,11 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/the-data-speed-hierarchy-analogy-using-first-principles-1-cpu-cycle-vs-the-world-3b83e8caa08d?source=rss----b680b860beb1---4"
 publishedAt: "2026-02-21"
 tags:
-  - "latency"
-  - "first-principles-thinking"
-  - "throughput"
-  - "cpu"
-  - "first-principles"
-  - "data-science"
   - "analytics"
+  - "data-science"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.622Z"
 ---
 
 # The Data Speed Hierarchy: Analogy using First Principles — 1 CPU Cycle vs the world

@@ -92,13 +92,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "DevOps & Infrastructure"
+  - "Web Development"
 tags:
-  - llm
-  - gemini
-  - agents
-  - api-design
-  - gcp
+  - "agents"
+  - "api-design"
+  - "gcp"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.446Z"
 ---
 
 ## Key Takeaways

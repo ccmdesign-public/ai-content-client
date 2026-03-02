@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the"
 publishedAt: "2026-02-18"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.631Z"
 ---
 
 # A Guide to Which AI to Use in the Agentic Era

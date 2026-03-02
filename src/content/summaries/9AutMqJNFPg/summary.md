@@ -54,15 +54,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
   - "claude"
-  - "anthropic"
-  - "ai-automation"
   - "llm"
-  - "business-automation"
-  - "api-cost"
-  - "agentic-ai"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -73,6 +67,7 @@ ai:
   totalTokens: 8392
   processingTimeMs: 41681
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.459Z"
 ---
 
 ## Key Takeaways

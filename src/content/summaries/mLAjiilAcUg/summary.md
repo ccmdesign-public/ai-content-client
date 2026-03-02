@@ -58,11 +58,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - ai-coding
-  - copilot
-  - claude
-  - prompt-engineering
-  - workflow
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.349Z"
 ---
 
 ## Key Takeaways

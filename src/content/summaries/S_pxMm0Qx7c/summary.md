@@ -101,14 +101,16 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - workflow
-  - automation
-  - best-practices
-  - terminal
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "terminal"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.298Z"
 ---
 
 ## Key Takeaways

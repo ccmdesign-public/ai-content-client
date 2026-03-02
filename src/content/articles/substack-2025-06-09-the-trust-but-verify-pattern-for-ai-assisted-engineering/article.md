@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/the-trust-but-verify-pattern-for"
 publishedAt: "2025-06-09"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.640Z"
 ---
 
 # The "Trust, But Verify" Pattern For AI-Assisted Engineering

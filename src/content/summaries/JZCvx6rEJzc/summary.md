@@ -64,12 +64,14 @@ ai:
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Data & Analytics"
+  - "Product & Design"
 tags:
-  - llm
-  - rag
-  - data-pipeline
-  - product-strategy
+  - "data-pipeline"
+  - "llm"
+  - "product-strategy"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.386Z"
 ---
 
 ## Key Takeaways

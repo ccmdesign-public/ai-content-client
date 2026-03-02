@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/sora-2-image-to-video-use-cases"
 publishedAt: "2025-11-27"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.575Z"
 ---
 
 # 6 Practical Use Cases for Sora 2 Image-to-Video

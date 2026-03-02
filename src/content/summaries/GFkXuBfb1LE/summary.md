@@ -15,12 +15,7 @@ tools: []
 categories:
   - "AI & Machine Learning"
 tags:
-  - "ai-agents"
-  - "autonomy"
-  - "social-network"
-  - "singularity"
-  - "future-tech"
-  - "ai-trends"
+  - "agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -31,6 +26,7 @@ ai:
   totalTokens: 2718
   processingTimeMs: 74042
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.550Z"
 ---
 
 ## Key Takeaways

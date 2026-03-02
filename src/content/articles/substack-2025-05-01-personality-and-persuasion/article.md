@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/personality-and-persuasion"
 publishedAt: "2025-05-01"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.671Z"
 ---
 
 # Personality and Persuasion

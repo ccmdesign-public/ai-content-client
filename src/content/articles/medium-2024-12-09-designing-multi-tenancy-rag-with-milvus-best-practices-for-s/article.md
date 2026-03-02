@@ -6,11 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/designing-multi-tenancy-rag-with-milvus-best-practices-for-scalable-enterprise-knowledge-bases-c02bc4464c62?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2024-12-09"
 tags:
-  - "milvus"
-  - "vector-database"
-  - "contribute-to-milvus"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.638Z"
 ---
 
 # Designing Multi-Tenancy RAG with Milvus: Best Practices for Scalable Enterprise Knowledge Bases

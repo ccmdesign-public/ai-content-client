@@ -81,12 +81,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - agents
-  - model-training
-  - ai-coding
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "llm"
+  - "model-training"
+tagsNormalizedAt: "2026-03-01T21:19:30.294Z"
 ---
 
 ## Key Takeaways

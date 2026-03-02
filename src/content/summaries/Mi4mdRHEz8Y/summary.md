@@ -23,15 +23,9 @@ source: "youtube"
 tldr: "The anti-AI movement is not monolithic but comprises distinct groups with specific, often solvable concerns—ranging from job displacement and AI safety to data center impacts and artistic integrity—and addressing them directly is crucial for building public trust and a cautiously optimistic future for the technology."
 tools: []
 categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
+  - "Security"
 tags:
-  - "ai-ethics"
-  - "public-policy"
-  - "tech-backlash"
-  - "future-of-work"
-  - "ai-safety"
-  - "data-centers"
+  - "policy"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -42,6 +36,7 @@ ai:
   totalTokens: 21576
   processingTimeMs: 26482
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.538Z"
 ---
 
 ## Key Takeaways

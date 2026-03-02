@@ -106,13 +106,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
   - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - automation
-  - workflow
-  - analytics
+  - "agents"
+  - "analytics"
+  - "automation"
+  - "claude"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.353Z"
 ---
 
 ## Key Takeaways

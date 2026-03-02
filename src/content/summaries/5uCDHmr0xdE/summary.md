@@ -159,14 +159,15 @@ tools:
   - name: "IdeaBrowser"
     url: "https://www.ideabrowser.com/"
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - chatgpt
-  - startup
-  - indie-hacker
-  - saas
-  - monetization
+  - "chatgpt"
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.525Z"
 ---
 
 ## Key Takeaways

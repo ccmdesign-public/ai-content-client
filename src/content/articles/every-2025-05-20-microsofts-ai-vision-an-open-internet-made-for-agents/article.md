@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/microsoft-s-ai-vision-an-open-internet-made-for-agents"
 publishedAt: "2025-05-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.562Z"
 ---
 
 # Microsoft’s AI Vision: An Open Internet Made for Agents

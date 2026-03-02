@@ -6,12 +6,14 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/do-google-reviews-help-with-your-seo-d8ee6d1abcb0?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-12-27"
 tags:
-  - "review"
-  - "seo"
-  - "google"
-  - "seo-services"
-  - "ai"
+  - "ai-general"
   - "innovation"
+  - "seo"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.643Z"
 ---
 
 # Do Google Reviews Help With Your SEO?

@@ -74,15 +74,17 @@ tools:
   - name: "Next.js"
     url: null
 categories:
-  - "Web Development"
   - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Web Development"
 tags:
-  - ai-coding
-  - react
-  - nextjs
-  - tailwind
-  - claude
-  - vercel
+  - "ai-coding"
+  - "claude"
+  - "nextjs"
+  - "react"
+  - "tailwind"
+  - "vercel"
+tagsNormalizedAt: "2026-03-01T21:19:30.401Z"
 ---
 
 The video outlines a fundamental shift in web development, moving from a manual, syntax-heavy process to an "AI-first" workflow. The creator emphasizes that the barrier to entry for building professional, high-performance websites has effectively vanished for those who can master AI orchestration.

@@ -6,12 +6,15 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/80-of-ai-users-quit-in-three-weeks-theres-a-skill-nobody-s-teaching-e878316fc197?source=rss----440100e76000---4"
 publishedAt: "2026-01-28"
 tags:
+  - "ai-general"
   - "business"
-  - "future"
-  - "artificial-intelligence"
+  - "innovation"
   - "leadership"
-  - "ai"
-  - "generative"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.625Z"
 ---
 
 # 80% of AI Users Quit in Three Weeks. There’s a Skill Nobody’s Teaching.

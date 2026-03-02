@@ -40,13 +40,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - copilot
-  - ai-coding
-  - git
-  - best-practices
-  - testing
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "copilot"
+  - "git"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.411Z"
 ---
 
 ## Key Takeaways

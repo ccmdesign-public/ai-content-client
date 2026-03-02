@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-gemini-3-pro-a-reliable-workhorse-with-surprising-flair"
 publishedAt: "2025-11-19"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.579Z"
 ---
 
 # Vibe Check: Gemini 3 Pro, A Reliable Workhorse With Surprising Flair

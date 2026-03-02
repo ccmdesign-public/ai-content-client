@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/how-to-build-a-proprietary-content"
 publishedAt: "2026-01-14"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.605Z"
 ---
 
 # How to build a proprietary content engine using your holiday memories

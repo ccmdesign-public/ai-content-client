@@ -75,15 +75,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
+  - "Business & Career"
 tags:
-  - "qwen"
-  - "anti-gravity"
-  - "open-code"
-  - "open-router"
-  - "saas"
   - "ai-coding"
-  - "web-dev"
+  - "saas"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +89,7 @@ ai:
   totalTokens: 11046
   processingTimeMs: 30661
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.545Z"
 ---
 
 ## Key Takeaways

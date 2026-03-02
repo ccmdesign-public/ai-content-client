@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-191-opus-46-and-codex-53-ship"
 publishedAt: "2026-02-10"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.665Z"
 ---
 
 # TAI #191: Opus 4.6 and Codex 5.3 Ship Minutes Apart as the Long-Horizon Agent Race Goes Vertical

@@ -6,12 +6,14 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/no-code-no-hack-the-real-secret-behind-hacking-skills-a53639f5d834?source=rss----78073def27b8---4"
 publishedAt: "2026-02-20"
 tags:
-  - "coding"
-  - "self-improvement"
-  - "programming"
+  - "education"
+  - "engineering"
+  - "innovation"
   - "python"
-  - "future"
-  - "tutorials"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.660Z"
 ---
 
 # No Code, No Hack: The Real Secret Behind Hacking Skills

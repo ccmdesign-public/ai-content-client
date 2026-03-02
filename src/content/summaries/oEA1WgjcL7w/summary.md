@@ -86,13 +86,16 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - nodejs
-  - python
-  - automation
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "nodejs"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.390Z"
 ---
 
 ## Key Takeaways

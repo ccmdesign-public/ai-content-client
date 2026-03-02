@@ -73,16 +73,15 @@ tools:
   - name: "Slack"
     url: null
 categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
   - "Web Development"
-  - "DevOps & Infrastructure"
 tags:
-  - "nextjs"
-  - "supabase"
-  - "scaling"
-  - "performance-optimization"
   - "ai-coding"
-  - "startup"
+  - "nextjs"
   - "postgresql"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +92,7 @@ ai:
   totalTokens: 17486
   processingTimeMs: 16214
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.528Z"
 ---
 
 ## Key Takeaways

@@ -6,12 +6,12 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/why-most-smart-factories-fail-before-they-scale-58ddae8ffb11?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-26"
 tags:
-  - "data"
   - "data-science"
-  - "data-analysis"
-  - "smart-manufacturing"
-  - "iot"
   - "education"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.599Z"
 ---
 
 # Why Most Smart Factories Fail Before They Scale

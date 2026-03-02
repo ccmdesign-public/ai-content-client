@@ -17,15 +17,8 @@ processedAt: "2026-02-27T00:09:57.003Z"
 source: "youtube"
 tldr: "A three-phase framework for brands to succeed on Reddit without getting banned: crawl (weeks 1-4, learn culture, no promotion), walk (months 2-3, answer questions, add value), and run (month 4+, create content, run ads)."
 tools: []
-categories:
-  - "Business & Career"
-tags:
-  - "reddit-marketing"
-  - "community-building"
-  - "content-strategy"
-  - "social-media"
-  - "brand-building"
-  - "digital-marketing"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -36,6 +29,7 @@ ai:
   totalTokens: 2533
   processingTimeMs: 15072
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.539Z"
 ---
 
 ## Key Takeaways

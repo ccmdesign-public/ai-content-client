@@ -6,13 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/part-2-how-to-build-your-own-ai-agent-cloud-agnostic-fully-automated-enterprise-ready-ec3c749570ac?source=rss----98111c9905da---4"
 publishedAt: "2026-02-23"
 tags:
-  - "ci-cd-pipeline"
-  - "cloud-computing"
-  - "ai-agent"
-  - "agentic-ai"
-  - "terraform"
-  - "ai"
+  - "ai-general"
   - "research"
+  - "terraform"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.667Z"
 ---
 
 # Part 2 — How to Build Your Own AI Agent: (Cloud-Agnostic, Fully Automated, Enterprise-Ready)

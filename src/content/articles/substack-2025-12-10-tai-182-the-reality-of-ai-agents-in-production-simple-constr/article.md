@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-182-the-reality-of-ai-agents"
 publishedAt: "2025-12-10"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.668Z"
 ---
 
 # TAI #182: The Reality of AI Agents in Production: Simple, Constrained, and Human-Verified

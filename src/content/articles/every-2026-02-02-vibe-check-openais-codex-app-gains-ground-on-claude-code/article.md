@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-openai-s-codex-app-gains-ground-on-claude-code"
 publishedAt: "2026-02-02"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.606Z"
 ---
 
 # Vibe Check: OpenAI's Codex App Gains Ground on Claude Code

@@ -56,13 +56,16 @@ ai:
   processingTimeMs: 13674
 tools: []
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
 tags:
-  - llm
-  - product-strategy
-  - leadership
-  - best-practices
+  - "best-practices"
+  - "leadership"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.314Z"
 ---
 
 ## Key Takeaways

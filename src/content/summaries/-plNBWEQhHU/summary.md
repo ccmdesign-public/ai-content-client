@@ -40,15 +40,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-models"
+  - "chatgpt"
   - "llm"
-  - "openai"
-  - "anthropic"
-  - "google-ai"
-  - "coding-assistant"
-  - "ai-funding"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -59,6 +53,7 @@ ai:
   totalTokens: 8946
   processingTimeMs: 88433
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.257Z"
 ---
 
 ## Key Takeaways

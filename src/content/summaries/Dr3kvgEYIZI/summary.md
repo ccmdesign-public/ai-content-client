@@ -136,13 +136,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "prompt-engineering"
-  - "ai-workflow"
+  - "agents"
   - "llm"
-  - "ai-automation"
   - "productivity"
-  - "ai-agents"
-  - "context-management"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -153,6 +150,7 @@ ai:
   totalTokens: 12914
   processingTimeMs: 58536
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.405Z"
 ---
 
 ## Key Takeaways

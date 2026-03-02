@@ -6,9 +6,12 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/the-healthmax-case-study-with-a-twist-19b62735f995?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-28"
 tags:
-  - "data"
   - "data-science"
   - "education"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.659Z"
 ---
 
 # The HealthMax Case Study (With a Twist)

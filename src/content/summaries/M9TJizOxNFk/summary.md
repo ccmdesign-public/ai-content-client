@@ -105,13 +105,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - llm
-  - chatgpt
-  - claude
-  - ai-coding
-  - startup
-  - product-strategy
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "llm"
+  - "product-strategy"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.311Z"
 ---
 
 ## Key Takeaways

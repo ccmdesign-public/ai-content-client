@@ -6,11 +6,12 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-great-unlock-ai-on-company-email-3d8ef0ce9398?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
-  - "email-productivity"
-  - "ai"
-  - "enterprise-architecture"
+  - "ai-general"
   - "data-science"
-  - "finance"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.659Z"
 ---
 
 # The Great Unlock — AI on Company Email

@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/ends-in-48-hours-ai-engineering-free"
 publishedAt: "2025-12-31"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.661Z"
 ---
 
 # Our holiday gift for builders disappears at the new year.

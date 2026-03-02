@@ -98,14 +98,12 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "seo"
-  - "ai-agents"
-  - "claude"
-  - "web-optimization"
+  - "agents"
   - "automation"
-  - "search-engine"
-  - "content-creation"
+  - "claude"
+  - "seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -116,6 +114,7 @@ ai:
   totalTokens: 11664
   processingTimeMs: 44688
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.522Z"
 ---
 
 ## Key Takeaways

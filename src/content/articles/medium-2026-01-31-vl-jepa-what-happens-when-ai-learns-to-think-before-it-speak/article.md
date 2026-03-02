@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/vl-jepa-what-happens-when-ai-learns-to-think-before-it-speaks-03c1d7de52f3?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
-  - "vl-jepa"
-  - "ai-research"
+  - "ai-general"
   - "computer-vision"
-  - "deep-learning"
   - "machine-learning"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.561Z"
 ---
 
 # VL-JEPA: What Happens When AI Learns to Think Before It Speaks

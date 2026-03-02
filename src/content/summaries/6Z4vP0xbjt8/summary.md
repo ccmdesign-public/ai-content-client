@@ -83,13 +83,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Product & Design"
   - "Web Development"
 tags:
-  - agents
-  - react
-  - vue
-  - design-systems
-  - api-design
+  - "agents"
+  - "api-design"
+  - "design-systems"
+  - "react"
+  - "vue"
+tagsNormalizedAt: "2026-03-01T21:19:30.459Z"
 ---
 
 ## Key Takeaways

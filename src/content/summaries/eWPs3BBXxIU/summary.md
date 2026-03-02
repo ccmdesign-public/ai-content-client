@@ -121,15 +121,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
 tags:
   - "ai-coding"
   - "llm"
-  - "developer-tools"
   - "productivity"
-  - "cli"
-  - "code-assistant"
-  - "bash"
+  - "scripting"
+  - "terminal"
 ai:
   provider: "openrouter"
   model: "openrouter/google/gemini-2.5-flash"
@@ -139,6 +137,7 @@ ai:
   outputTokens: 845
   totalTokens: 2692
   processingTimeMs: 7213
+tagsNormalizedAt: "2026-03-01T21:19:30.551Z"
 ---
 
 ## Key Takeaways

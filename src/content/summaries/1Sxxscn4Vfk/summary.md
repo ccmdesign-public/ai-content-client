@@ -79,15 +79,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
 tags:
-  - "gemini"
-  - "multimodal-ai"
-  - "agentic-vision"
   - "ai-coding"
-  - "google-ai"
-  - "visual-reasoning"
-  - "tutorial"
+  - "gemini"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +91,7 @@ ai:
   outputTokens: 809
   totalTokens: 11860
   processingTimeMs: 67084
+tagsNormalizedAt: "2026-03-01T21:19:30.307Z"
 ---
 
 ## Key Takeaways

@@ -150,15 +150,17 @@ tools:
   - name: "Freepik"
     url: "https://www.freepik.com"
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - figma
-  - ui
-  - ux
-  - design-systems
-  - ai-coding
-  - workflow
+  - "ai-coding"
+  - "design-systems"
+  - "figma"
+  - "ui"
+  - "ux"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.335Z"
 ---
 
 ## Key Takeaways

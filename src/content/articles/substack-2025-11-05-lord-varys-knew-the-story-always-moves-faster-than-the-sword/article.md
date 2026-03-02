@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/lord-varys-knew-the-story-always"
 publishedAt: "2025-11-05"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.625Z"
 ---
 
 # Lord Varys knew: the story always moves faster than the sword

@@ -96,15 +96,10 @@ tools:
   - name: "Gemini"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
+  - "api-design"
   - "seo"
-  - "ai-integration"
-  - "content-marketing"
-  - "competitive-analysis"
-  - "brand-tracking"
-  - "api"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -115,6 +110,7 @@ ai:
   totalTokens: 4588
   processingTimeMs: 77979
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.343Z"
 ---
 
 ## Key Takeaways

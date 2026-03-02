@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/critical-thinking-during-the-age"
 publishedAt: "2025-11-21"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.609Z"
 ---
 
 # Critical Thinking during the age of AI

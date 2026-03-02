@@ -51,15 +51,9 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Tools & Productivity"
 tags:
-  - "ai-agency"
-  - "business-systems"
-  - "marketing-automation"
-  - "high-level"
-  - "agency-business"
   - "saas"
-  - "entrepreneurship"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -70,6 +64,7 @@ ai:
   totalTokens: 11502
   processingTimeMs: 63730
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.417Z"
 ---
 
 ## Key Takeaways

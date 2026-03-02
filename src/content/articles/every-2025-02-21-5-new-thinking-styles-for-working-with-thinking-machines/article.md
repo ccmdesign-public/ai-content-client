@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/five-new-thinking-styles-for-working-with-thinking-machines-9091eb3c-b96d-4a17-af1e-fb0a3f544bfd"
 publishedAt: "2025-02-21"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.641Z"
 ---
 
 # 5 New Thinking Styles for Working With Thinking Machines

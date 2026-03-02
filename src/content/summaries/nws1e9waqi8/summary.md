@@ -82,15 +82,17 @@ tools:
   - name: "Git"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - figma
-  - design-systems
-  - ux
-  - ui
-  - workflow
+  - "ai-coding"
+  - "design-systems"
+  - "figma"
+  - "ui"
+  - "ux"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.262Z"
 ---
 
 ## Key Takeaways

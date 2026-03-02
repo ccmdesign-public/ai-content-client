@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-425-iphone-video-generation"
 publishedAt: "2025-08-18"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.678Z"
 ---
 
 # Import AI 425: iPhone video generation; subtle misalignment; making open weight models safe through surgical deletion

@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/conductors-to-orchestrators-the-future"
 publishedAt: "2025-11-01"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.610Z"
 ---
 
 # Conductors to Orchestrators: The Future of Agentic Coding

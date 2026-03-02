@@ -88,15 +88,17 @@ ai:
   processingTimeMs: 32866
 tools: []
 categories:
-  - "Product & Design"
   - "Business & Career"
+  - "Product & Design"
+  - "Programming"
 tags:
-  - ux
-  - ui
-  - design-systems
-  - leadership
-  - startup
-  - best-practices
+  - "best-practices"
+  - "design-systems"
+  - "leadership"
+  - "startup"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.264Z"
 ---
 
 ## Key Takeaways

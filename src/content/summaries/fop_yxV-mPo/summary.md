@@ -101,12 +101,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - agents
-  - ai-coding
-  - architecture
-  - automation
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "automation"
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.381Z"
 ---
 
 ## Key Takeaways

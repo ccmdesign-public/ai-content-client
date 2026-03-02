@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/build-your-content-like-a-movie-trailer"
 publishedAt: "2025-10-29"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.673Z"
 ---
 
 # Build your content like a movie trailer the brain can’t walk away from

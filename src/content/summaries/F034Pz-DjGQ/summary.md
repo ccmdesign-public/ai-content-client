@@ -93,12 +93,8 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "bootstrapping"
-  - "service-business"
-  - "marketing"
-  - "junk-removal"
-  - "small-business"
+  - "indie-hacker"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -109,6 +105,7 @@ ai:
   totalTokens: 27845
   processingTimeMs: 32288
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.307Z"
 ---
 
 ## Key Takeaways

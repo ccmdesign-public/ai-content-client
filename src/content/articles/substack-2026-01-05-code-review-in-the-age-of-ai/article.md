@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/code-review-in-the-age-of-ai"
 publishedAt: "2026-01-05"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.609Z"
 ---
 
 # Code Review in the Age of AI

@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/no-elephants-breakthroughs-in-image"
 publishedAt: "2025-03-30"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.638Z"
 ---
 
 # No elephants: Breakthroughs in image generation

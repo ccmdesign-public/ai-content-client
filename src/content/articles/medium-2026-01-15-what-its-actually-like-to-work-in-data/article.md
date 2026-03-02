@@ -6,13 +6,13 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/what-its-actually-like-to-work-in-data-1b8a4be7b168?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-15"
 tags:
-  - "sql"
-  - "jobs"
-  - "data"
-  - "work"
-  - "data-analysis"
   - "data-science"
   - "education"
+  - "sql"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.595Z"
 ---
 
 # What it’s Actually like to Work in Data

@@ -6,13 +6,10 @@ publicationName: "Life and Technology"
 url: "https://medium.com/life-and-technology/a-love-letter-to-doves-real-beauty-and-glossier-s-skin-first-makeup-second-b174138cef4f?source=rss----cd7e7819b700---4"
 publishedAt: "2025-07-03"
 tags:
-  - "dove"
-  - "marketing-strategies"
-  - "advertising-and-marketing"
-  - "glossier"
-  - "gen-z-marketing"
-  - "technology"
-  - "culture"
+  - "innovation"
+categories:
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.629Z"
 ---
 
 # A Love Letter to Dove’s Real Beauty and Glossier’s Skin First, Makeup Second

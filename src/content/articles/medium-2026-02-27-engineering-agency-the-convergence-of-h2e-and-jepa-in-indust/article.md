@@ -6,13 +6,12 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/engineering-agency-the-convergence-of-h2e-and-jepa-in-industrial-ai-48d2d16be419?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-27"
 tags:
-  - "artificial-intelligence"
-  - "yann-lecun"
+  - "ai-general"
   - "open-source"
-  - "jepa"
-  - "world-models"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.621Z"
 ---
 
 # Engineering Agency: The Convergence of H2E and JEPA in Industrial AI

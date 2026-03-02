@@ -153,12 +153,13 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - prompt-engineering
-  - automation
-  - workflow
-  - vscode
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "prompt-engineering"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.465Z"
 ---
 
 ## Key Takeaways

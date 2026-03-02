@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/become-an-ai-engineer-in-2026-for"
 publishedAt: "2025-11-26"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.671Z"
 ---
 
 # Become an AI engineer in 2026 for $209 (BFCM 40% off)

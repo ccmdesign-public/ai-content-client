@@ -110,14 +110,16 @@ tools:
   - name: "Figma"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Product & Design"
 tags:
-  - ai-coding
-  - figma
-  - design-systems
-  - ux
-  - career-growth
+  - "ai-coding"
+  - "career-growth"
+  - "design-systems"
+  - "figma"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.543Z"
 ---
 
 ## Key Takeaways

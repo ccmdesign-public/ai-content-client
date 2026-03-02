@@ -146,14 +146,9 @@ tools:
   - name: "Reddit"
     url: null
 categories:
-  - "Business & Career"
+  - "Web Development"
 tags:
   - "seo"
-  - "ai-search"
-  - "digital-marketing"
-  - "content-strategy"
-  - "google-updates"
-  - "technical-seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -164,6 +159,7 @@ ai:
   totalTokens: 15742
   processingTimeMs: 34269
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.308Z"
 ---
 
 ## Key Takeaways

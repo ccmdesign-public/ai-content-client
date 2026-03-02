@@ -7,8 +7,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/squelching-bad-vibe-coding"
 publishedAt: "2025-04-24"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.649Z"
 ---
 
 # Squelching bad vibe coding

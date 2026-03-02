@@ -6,13 +6,14 @@ publicationName: "Life and Technology"
 url: "https://medium.com/life-and-technology/the-dark-side-of-crypto-etfs-1a428d074bbd?source=rss----cd7e7819b700---4"
 publishedAt: "2024-07-11"
 tags:
-  - "cryptocurrency"
-  - "etf"
   - "business"
-  - "bitcoin"
-  - "crypto"
-  - "technology"
-  - "culture"
+  - "encryption"
+  - "innovation"
+categories:
+  - "Business & Career"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.634Z"
 ---
 
 # The Dark Side of Crypto ETFs

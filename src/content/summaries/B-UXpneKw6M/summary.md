@@ -98,14 +98,16 @@ tools:
     url: "https://youtu.be/NuKrtiJqW3Y?si=7Hi_ubVdlC8jalFC"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - testing
-  - git
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "git"
+  - "testing"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.359Z"
 ---
 
 ## Key Takeaways

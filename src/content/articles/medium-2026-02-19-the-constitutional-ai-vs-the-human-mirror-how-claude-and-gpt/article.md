@@ -7,7 +7,9 @@ url: "https://medium.datadriveninvestor.com/the-constitutional-ai-vs-the-human-m
 publishedAt: "2026-02-19"
 tags:
   - "data-science"
-  - "finance"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.554Z"
 ---
 
 # The Constitutional AI vs. The Human Mirror: How Claude and GPT-4o are Built Differently

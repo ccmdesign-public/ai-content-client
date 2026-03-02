@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/vibe-coding-is-not-the-same-as-ai"
 publishedAt: "2025-08-30"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.568Z"
 ---
 
 # Vibe coding is not the same as AI-Assisted engineering.

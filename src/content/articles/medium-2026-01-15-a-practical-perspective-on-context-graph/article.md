@@ -6,11 +6,12 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/a-practical-perspective-on-context-graph-4306f9937858?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-15"
 tags:
-  - "context-graph"
-  - "ai-agent"
-  - "fintech"
   - "data-science"
   - "education"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.587Z"
 ---
 
 # A Practical Perspective on Context Graph

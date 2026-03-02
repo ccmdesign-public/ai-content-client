@@ -26,11 +26,13 @@ tools:
     url: null
 categories:
   - "Product & Design"
+  - "Programming"
 tags:
-  - ux
-  - accessibility
-  - user-research
-  - best-practices
+  - "accessibility"
+  - "best-practices"
+  - "user-research"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.496Z"
 ---
 
 ## Key Takeaways

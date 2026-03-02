@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/openai-made-video-creation-effortless-here-s-what-happened-next"
 publishedAt: "2025-10-16"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.634Z"
 ---
 
 # OpenAI Made Video Creation Effortless—Here's What Happened Next

@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/google-opal"
 publishedAt: "2025-11-13"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.607Z"
 ---
 
 # Google Opal: A Beginner's Guide

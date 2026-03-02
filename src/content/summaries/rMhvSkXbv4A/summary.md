@@ -114,12 +114,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Web Development"
 tags:
-  - llm
-  - agents
-  - prompt-engineering
-  - api-design
-  - architecture
+  - "agents"
+  - "api-design"
+  - "architecture"
+  - "llm"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.428Z"
 ---
 
 ## Key Takeaways

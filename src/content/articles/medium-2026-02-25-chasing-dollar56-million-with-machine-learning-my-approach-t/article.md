@@ -7,11 +7,13 @@ url: "https://medium.com/learning-data/chasing-5-6-million-with-machine-learning
 publishedAt: "2026-02-25"
 tags:
   - "data-science"
-  - "sports-analytics"
-  - "machine-learning"
-  - "sabermetrics"
-  - "baseball"
   - "education"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.659Z"
 ---
 
 # Chasing $5.6 Million with Machine Learning: My Approach to MLB’s Impossible Hitting Streak

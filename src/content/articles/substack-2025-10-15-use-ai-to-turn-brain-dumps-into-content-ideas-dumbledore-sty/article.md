@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/use-ai-to-turn-brain-dumps-into-content"
 publishedAt: "2025-10-15"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.656Z"
 ---
 
 # Use AI to turn brain dumps into content ideas, Dumbledore-style

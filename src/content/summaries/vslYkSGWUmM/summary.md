@@ -67,12 +67,13 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - claude
-  - ai-coding
-  - saas
-  - indie-hacker
-  - monetization
-  - startup
+  - "ai-coding"
+  - "claude"
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.350Z"
 ---
 
 ## Key Takeaways

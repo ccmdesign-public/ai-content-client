@@ -6,13 +6,11 @@ publicationName: "Pythoneers"
 url: "https://medium.com/pythoneers/it-finally-broke-the-time-is-here-to-refactor-and-improve-some-old-python-code-4c1b4a638fd7?source=rss----7a8fb64b42eb---4"
 publishedAt: "2026-02-02"
 tags:
-  - "python-logging"
-  - "python-programming"
-  - "python-command-line"
-  - "icalendar"
-  - "code-refactoring"
   - "python"
-  - "community"
+  - "refactoring"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.651Z"
 ---
 
 # It finally broke! The time is here to refactor (and improve) some old Python code.

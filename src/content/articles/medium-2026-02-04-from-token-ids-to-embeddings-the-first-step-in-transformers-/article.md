@@ -6,13 +6,15 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/from-token-ids-to-embeddings-the-first-step-in-transformers-explained-49137beffa29?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-04"
 tags:
-  - "attention"
-  - "artificial-intelligence"
-  - "machine-learning"
-  - "naturallanguageprocessing"
-  - "transformers"
+  - "ai-general"
   - "data-science"
   - "education"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.644Z"
 ---
 
 # From Token IDs to Embeddings: The First Step in Transformers Explained

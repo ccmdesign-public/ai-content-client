@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-440-red-queen-ai-ai-regulating"
 publishedAt: "2026-01-12"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.602Z"
 ---
 
 # Import AI 440: Red queen AI; AI regulating AI; o-ring automation

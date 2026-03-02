@@ -75,11 +75,13 @@ category: "personal"
 tldr: "Grid stacking using CSS Grid (grid-row/grid-column or grid-template-areas) provides a more responsive and accessible alternative to position:absolute for overlapping elements within parent containers, while absolute positioning remains better for elements that need to break out of parent boundaries."
 tools: []
 categories:
+  - "Product & Design"
+  - "Programming"
   - "Web Development"
 tags:
-  - html-css
-  - best-practices
-  - accessibility
+  - "accessibility"
+  - "best-practices"
+  - "html-css"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -89,6 +91,7 @@ ai:
   outputTokens: 523
   totalTokens: 2309
   processingTimeMs: 20182
+tagsNormalizedAt: "2026-03-01T21:19:30.501Z"
 ---
 
 ## Key Takeaways

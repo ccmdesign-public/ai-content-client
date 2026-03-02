@@ -88,15 +88,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
   - "ai-coding"
-  - "software-engineering"
-  - "developer-productivity"
-  - "future-of-work"
-  - "agentic-ai"
-  - "organizational-design"
-  - "dark-factory"
+  - "engineering"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -107,6 +104,7 @@ ai:
   totalTokens: 28622
   processingTimeMs: 40428
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.322Z"
 ---
 
 ## Key Takeaways

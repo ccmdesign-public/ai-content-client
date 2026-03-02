@@ -6,11 +6,13 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/claude-just-changed-again-heres-what-actually-matters-422df0ee132c?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
+  - "ai-general"
   - "claude"
-  - "ai"
-  - "agentic-ai"
   - "data-science"
-  - "finance"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.553Z"
 ---
 
 # Claude Just Changed Again. Here’s What Actually Matters.

@@ -16,15 +16,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
   - "ai-coding"
+  - "best-practices"
   - "claude"
-  - "prompt-engineering"
-  - "development-workflow"
   - "debugging"
-  - "code-quality"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -35,6 +35,7 @@ ai:
   totalTokens: 2619
   processingTimeMs: 19556
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.385Z"
 ---
 
 ## Key Takeaways

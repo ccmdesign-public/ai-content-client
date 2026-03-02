@@ -6,13 +6,17 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/a-comprehensive-review-of-embedding-techniques-in-retrieval-augmented-generation-for-llms-3c66f2a5aa08?source=rss----5878f1e5f050---4"
 publishedAt: "2024-09-30"
 tags:
-  - "llm"
-  - "data-science"
-  - "nlp"
-  - "artificial-intelligence"
-  - "large-language-models"
+  - "ai-general"
   - "analytics"
   - "business"
+  - "data-science"
+  - "llm"
+  - "nlp"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.621Z"
 ---
 
 # A Comprehensive Review of Embedding Techniques in Retrieval-Augmented Generation for LLMs

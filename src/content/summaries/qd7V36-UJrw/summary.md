@@ -64,12 +64,13 @@ tools:
   - name: "Tally"
     url: null
 categories:
-  - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - automation
-  - saas
-  - workflow
+  - "automation"
+  - "saas"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.346Z"
 ---
 
 ## Key Takeaways

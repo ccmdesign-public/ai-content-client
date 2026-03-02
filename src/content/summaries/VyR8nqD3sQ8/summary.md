@@ -105,11 +105,12 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - indie-hacker
-  - saas
-  - monetization
-  - career-growth
-  - startup
+  - "career-growth"
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.360Z"
 ---
 
 ## Key Takeaways

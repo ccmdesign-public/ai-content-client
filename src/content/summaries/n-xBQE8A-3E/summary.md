@@ -112,11 +112,6 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "gen-z"
-  - "ai-education"
-  - "edtech"
-  - "mental-health-tech"
-  - "future-of-work"
   - "llm"
   - "startup"
 ai:
@@ -129,6 +124,7 @@ ai:
   totalTokens: 43425
   processingTimeMs: 83268
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.542Z"
 ---
 
 ## Key Takeaways

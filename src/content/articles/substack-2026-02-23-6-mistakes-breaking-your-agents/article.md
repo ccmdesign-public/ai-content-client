@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/we-just-fixed-the-1-reason-agents"
 publishedAt: "2026-02-23"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.616Z"
 ---
 
 # 6 Mistakes Breaking Your Agents

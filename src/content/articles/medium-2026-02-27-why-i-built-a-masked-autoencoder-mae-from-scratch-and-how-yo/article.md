@@ -6,13 +6,17 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/why-i-built-a-masked-autoencoder-mae-from-scratch-and-how-you-can-too-06971b5a8d34?source=rss----98111c9905da---4"
 publishedAt: "2026-02-27"
 tags:
+  - "ai-general"
   - "computer-vision"
-  - "open-source"
   - "machine-learning"
-  - "pytorch"
-  - "deep-learning"
-  - "ai"
+  - "model-training"
+  - "open-source"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.625Z"
 ---
 
 # Why I Built a Masked Autoencoder (MAE) from Scratch (And How You Can Too)

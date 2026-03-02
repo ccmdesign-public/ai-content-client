@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-443-into-the-mist-moltbook"
 publishedAt: "2026-02-02"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.571Z"
 ---
 
 # Import AI 443: Into the mist: Moltbook, agent ecologies, and the internet in transition

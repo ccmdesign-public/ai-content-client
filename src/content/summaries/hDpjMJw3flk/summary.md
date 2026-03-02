@@ -93,13 +93,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
 tags:
-  - claude
-  - chatgpt
-  - ai-coding
-  - agents
-  - prompt-engineering
+  - "agents"
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.344Z"
 ---
 
 ## Key Takeaways

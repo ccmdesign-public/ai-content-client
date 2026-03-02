@@ -34,11 +34,12 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - llm
-  - ai-coding
-  - testing
-  - best-practices
-  - architecture
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "llm"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.293Z"
 ---
 
 ## Key Takeaways

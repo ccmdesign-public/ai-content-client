@@ -59,14 +59,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Tools & Productivity"
   - "Web Development"
 tags:
   - "claude"
-  - "agentic-coding"
+  - "productivity"
   - "web-development"
-  - "ai-tools"
-  - "preview-mode"
-  - "developer-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -76,6 +74,7 @@ ai:
   outputTokens: 608
   totalTokens: 6168
   processingTimeMs: 43205
+tagsNormalizedAt: "2026-03-01T21:19:30.441Z"
 ---
 
 ## Key Takeaways

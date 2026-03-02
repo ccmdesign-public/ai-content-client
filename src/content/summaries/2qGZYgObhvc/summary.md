@@ -69,14 +69,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "prompt-engineering"
-  - "negotiation"
-  - "ai-coaching"
-  - "communication"
   - "productivity"
-  - "soft-skills"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -87,6 +83,7 @@ ai:
   totalTokens: 13857
   processingTimeMs: 38962
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.314Z"
 ---
 
 ## Key Takeaways

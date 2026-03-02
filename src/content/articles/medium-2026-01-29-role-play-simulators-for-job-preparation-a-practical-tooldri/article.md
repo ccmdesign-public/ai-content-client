@@ -6,8 +6,11 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/role-play-simulators-for-job-preparation-a-practical-tool-driven-guide-to-actually-getting-hired-d78efee04d3f?source=rss----b680b860beb1---4"
 publishedAt: "2026-01-29"
 tags:
-  - "data-science"
   - "analytics"
+  - "data-science"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.677Z"
 ---
 
 # Role-Play Simulators for Job Preparation: A Practical, Tool‑Driven Guide to Actually Getting Hired

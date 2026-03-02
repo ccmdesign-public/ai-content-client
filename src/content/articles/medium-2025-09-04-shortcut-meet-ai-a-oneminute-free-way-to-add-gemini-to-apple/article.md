@@ -6,12 +6,14 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/shortcut-meet-ai-a-one-minute-free-way-to-add-gemini-to-apple-shortcuts-fd71f975bda0?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-09-04"
 tags:
-  - "ai"
+  - "ai-general"
   - "gemini"
-  - "genai"
-  - "llm"
-  - "apple"
   - "innovation"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.664Z"
 ---
 
 # Shortcut, Meet AI: A one‑minute, free way to add Gemini to Apple Shortcuts

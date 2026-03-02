@@ -71,15 +71,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
+  - "Data & Analytics"
 tags:
-  - "remotion"
-  - "react-three-fiber"
   - "ai-coding"
-  - "3d-animation"
-  - "data-visualization"
   - "claude"
-  - "creative-coding"
+  - "visualization"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -90,6 +86,7 @@ ai:
   totalTokens: 8747
   processingTimeMs: 15888
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.395Z"
 ---
 
 ## Key Takeaways

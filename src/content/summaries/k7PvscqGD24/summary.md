@@ -40,10 +40,12 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Programming"
 tags:
-  - llm
-  - best-practices
-  - career-growth
+  - "best-practices"
+  - "career-growth"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.434Z"
 ---
 
 ## Key Takeaways

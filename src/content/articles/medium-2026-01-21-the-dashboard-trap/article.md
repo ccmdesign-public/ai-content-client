@@ -7,11 +7,13 @@ url: "https://medium.com/learning-data/the-dashboard-trap-e2db6b6ccd8a?source=rs
 publishedAt: "2026-01-21"
 tags:
   - "data-science"
-  - "reporting"
-  - "bi-as-code"
-  - "dashboarding"
-  - "python"
   - "education"
+  - "python"
+categories:
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.658Z"
 ---
 
 # The Dashboard Trap

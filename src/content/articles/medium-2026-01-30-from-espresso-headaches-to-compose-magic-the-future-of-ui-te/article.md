@@ -6,13 +6,12 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/from-espresso-headaches-to-compose-magic-the-future-of-ui-testing-31e75eb4d8b3?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-01-30"
 tags:
-  - "android-testing"
-  - "espressotests"
-  - "androiddev"
-  - "compose-ui"
-  - "jetpack-compose"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.665Z"
 ---
 
 # From Espresso Headaches to Compose Magic: The Future of UI Testing

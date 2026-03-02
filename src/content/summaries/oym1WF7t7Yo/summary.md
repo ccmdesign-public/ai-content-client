@@ -73,16 +73,8 @@ processedAt: "2026-02-24T14:49:23.603Z"
 source: "youtube"
 tldr: "The 'X factor' that makes someone truly exceptional is **depth across multiple domains that don't typically go together**, which demonstrates high agency and independent thinking, unlike those who adopt pre-packaged identities."
 tools: []
-categories:
-  - "Business & Career"
-tags:
-  - "personal-development"
-  - "exceptionalism"
-  - "x-factor"
-  - "high-agency"
-  - "independent-thinking"
-  - "pattern-breaking"
-  - "unique-combinations"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +85,7 @@ ai:
   totalTokens: 4144
   processingTimeMs: 15034
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.409Z"
 ---
 
 ## Key Takeaways

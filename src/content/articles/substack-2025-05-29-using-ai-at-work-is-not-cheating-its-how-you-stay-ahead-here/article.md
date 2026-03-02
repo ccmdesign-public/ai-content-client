@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/using-ai-at-work-is-not-cheating"
 publishedAt: "2025-05-29"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.553Z"
 ---
 
 # Using AI at work is not cheating. it's how you stay ahead. Here's OpenAI's 24-page guide on measuring AI adoption & impact at work.

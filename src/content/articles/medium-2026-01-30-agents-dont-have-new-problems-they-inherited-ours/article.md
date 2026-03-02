@@ -6,10 +6,12 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/agents-dont-have-new-problems-they-inherited-ours-4dbbc00670f6?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-01-30"
 tags:
-  - "ai-agent"
-  - "software-engineering"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.645Z"
 ---
 
 # Agents Don’t Have New Problems - They Inherited Ours

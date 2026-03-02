@@ -64,14 +64,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
+  - "agents"
   - "claude"
-  - "ai-automation"
-  - "business-automation"
-  - "ai-agents"
   - "productivity"
-  - "no-code-ai"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -81,6 +78,7 @@ ai:
   outputTokens: 939
   totalTokens: 12551
   processingTimeMs: 62263
+tagsNormalizedAt: "2026-03-01T21:19:30.436Z"
 ---
 
 ## Key Takeaways

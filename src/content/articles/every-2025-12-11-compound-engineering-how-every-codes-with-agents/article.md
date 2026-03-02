@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents"
 publishedAt: "2025-12-11"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.570Z"
 ---
 
 # Compound Engineering: How Every Codes With Agents

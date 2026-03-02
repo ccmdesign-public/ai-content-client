@@ -100,13 +100,8 @@ categories:
   - "AI & Machine Learning"
   - "Security"
 tags:
-  - "ai-safety"
-  - "autonomous-agents"
-  - "trust-architecture"
-  - "ai-security"
-  - "zero-trust"
-  - "agentic-ai"
-  - "deepfake"
+  - "agents"
+  - "policy"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -117,6 +112,7 @@ ai:
   totalTokens: 24314
   processingTimeMs: 201922
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.386Z"
 ---
 
 ## Key Takeaways

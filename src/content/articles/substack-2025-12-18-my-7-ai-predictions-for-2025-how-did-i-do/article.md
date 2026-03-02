@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/ai-predictions-2025"
 publishedAt: "2025-12-18"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.663Z"
 ---
 
 # My 7 AI Predictions for 2025: How Did I Do?

@@ -105,15 +105,9 @@ tools:
   - name: "LinkedIn"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
   - "seo"
-  - "marketing-analytics"
-  - "api-integration"
-  - "backlink-analysis"
-  - "content-marketing"
-  - "social-media-management"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -124,6 +118,7 @@ ai:
   totalTokens: 5324
   processingTimeMs: 21967
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.505Z"
 ---
 
 ## Key Takeaways

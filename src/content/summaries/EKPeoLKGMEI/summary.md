@@ -18,15 +18,9 @@ tools:
   - name: "SE Ranking"
     url: null
 categories:
-  - "Business & Career"
-  - "AI & Machine Learning"
+  - "Web Development"
 tags:
   - "seo"
-  - "ai-search"
-  - "google-search"
-  - "digital-marketing"
-  - "content-strategy"
-  - "citation-building"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -37,6 +31,7 @@ ai:
   totalTokens: 13735
   processingTimeMs: 27816
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.277Z"
 ---
 
 ## Key Takeaways

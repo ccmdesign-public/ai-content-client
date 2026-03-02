@@ -76,12 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "excuses"
-  - "personal-responsibility"
-  - "business-growth"
-  - "entrepreneurship"
-  - "self-improvement"
-  - "action-taking"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 5580
   processingTimeMs: 52437
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.464Z"
 ---
 
 ## Key Takeaways

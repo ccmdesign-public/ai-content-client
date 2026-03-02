@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/the-two-slice-team"
 publishedAt: "2026-02-13"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.601Z"
 ---
 
 # The Two-slice Team

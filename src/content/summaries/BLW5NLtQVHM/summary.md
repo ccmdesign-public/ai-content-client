@@ -100,15 +100,11 @@ tools:
     url: null
 categories:
   - "Product & Design"
-  - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ui-design"
-  - "ai-design"
+  - "automation"
   - "figma"
-  - "workflow-automation"
-  - "design-tools"
-  - "prototyping"
-  - "design-system"
+  - "ui"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -119,6 +115,7 @@ ai:
   totalTokens: 24743
   processingTimeMs: 113544
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.542Z"
 ---
 
 ## Key Takeaways

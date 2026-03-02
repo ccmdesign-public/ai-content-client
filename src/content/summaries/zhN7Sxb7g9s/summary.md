@@ -98,12 +98,7 @@ tools:
 categories:
   - "AI & Machine Learning"
 tags:
-  - "ai-music"
-  - "multimodal-ai"
-  - "generative-ai"
-  - "google-gemini"
-  - "music-generation"
-  - "creative-ai"
+  - "gemini"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -114,6 +109,7 @@ ai:
   totalTokens: 6962
   processingTimeMs: 43137
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.394Z"
 ---
 
 ## Key Takeaways

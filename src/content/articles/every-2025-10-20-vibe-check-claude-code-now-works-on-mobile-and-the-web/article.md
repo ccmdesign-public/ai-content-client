@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-we-spent-a-weekend-trying-to-code-from-our-phones"
 publishedAt: "2025-10-20"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.653Z"
 ---
 
 # Vibe Check: Claude Code Now Works on Mobile and the Web

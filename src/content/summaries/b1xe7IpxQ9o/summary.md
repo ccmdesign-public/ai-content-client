@@ -51,11 +51,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - ai-coding
-  - claude
-  - vscode
-  - performance
+  - "ai-coding"
+  - "claude"
+  - "performance"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.318Z"
 ---
 
 ## Key Takeaways

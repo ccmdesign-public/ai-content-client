@@ -117,9 +117,10 @@ ai:
   processingTimeMs: 18206
 tools: []
 categories:
-  - "Product & Design"
+  - "Programming"
 tags:
-  - best-practices
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.509Z"
 ---
 
 ## Key Takeaways

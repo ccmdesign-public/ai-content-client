@@ -6,13 +6,13 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-4-common-system-design-questions-consistency-availability-transactions-529852027c34?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-02"
 tags:
-  - "system-design-interview"
-  - "system-design-concepts"
-  - "distributed-systems"
-  - "consistency"
-  - "transactions"
-  - "frontend"
-  - "programming"
+  - "architecture"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.553Z"
 ---
 
 # Part 4: Common System Design Questions: Consistency, Availability & Transactions

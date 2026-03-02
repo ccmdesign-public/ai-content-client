@@ -36,11 +36,13 @@ tools:
     url: null
 categories:
   - "Mobile Development"
+  - "Security"
   - "Tools & Productivity"
 tags:
-  - ios
-  - encryption
-  - automation
+  - "automation"
+  - "encryption"
+  - "ios"
+tagsNormalizedAt: "2026-03-01T21:19:30.316Z"
 ---
 
 ## Key Takeaways

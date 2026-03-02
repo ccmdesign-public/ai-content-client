@@ -6,12 +6,14 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-economic-reckoning-why-ai-will-reshape-society-faster-than-you-think-9502a47b6996?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
-  - "future"
-  - "economics"
-  - "society"
-  - "artificial-intelligence"
+  - "ai-general"
   - "data-science"
-  - "finance"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.559Z"
 ---
 
 # The Economic Reckoning: Why AI Will Reshape Society Faster Than You Think

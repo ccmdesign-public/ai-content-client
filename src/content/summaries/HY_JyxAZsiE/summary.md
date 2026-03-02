@@ -52,11 +52,12 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - ai-coding
-  - agents
-  - testing
-  - best-practices
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.364Z"
 ---
 
 ## Key Takeaways

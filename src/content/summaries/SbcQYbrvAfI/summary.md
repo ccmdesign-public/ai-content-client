@@ -47,13 +47,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - prompt-engineering
-  - agents
-  - llm
-  - ai-coding
-  - testing
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "llm"
+  - "prompt-engineering"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.393Z"
 ---
 
 ## Key Takeaways

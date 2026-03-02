@@ -89,16 +89,18 @@ tools:
   - name: "Buildmygraphic"
     url: "https://buildmygraphic.com/"
 categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
   - "Web Development"
-  - "Tools & Productivity"
 tags:
-  - typescript
-  - react
-  - nextjs
-  - tailwind
-  - nodejs
-  - postgresql
-  - ai-coding
+  - "ai-coding"
+  - "nextjs"
+  - "nodejs"
+  - "postgresql"
+  - "react"
+  - "tailwind"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.320Z"
 ---
 
 ## Key Takeaways

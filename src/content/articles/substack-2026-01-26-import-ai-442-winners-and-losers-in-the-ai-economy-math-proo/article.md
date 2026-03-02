@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-442-winners-and-losers"
 publishedAt: "2026-01-26"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.583Z"
 ---
 
 # Import AI 442: Winners and losers in the AI economy; math proof automation; and industrialization of cyber espionage

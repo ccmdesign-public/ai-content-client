@@ -17,14 +17,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai"
-  - "job-displacement"
-  - "historical-precedent"
-  - "creativity"
-  - "technology-fear"
-  - "drum-machine"
+  - "ai-general"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -35,6 +29,7 @@ ai:
   totalTokens: 4227
   processingTimeMs: 48346
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.537Z"
 ---
 
 ## Key Takeaways

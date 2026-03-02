@@ -6,13 +6,14 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/svelte-series-15-animation-part-2-b3b74d3c1d24?source=rss----8c0f5ca1523c---4"
 publishedAt: "2025-04-14"
 tags:
-  - "animation"
-  - "front-end-development"
-  - "svelte"
+  - "engineering"
   - "javascript"
-  - "sveltekit"
-  - "frontend"
-  - "programming"
+  - "svelte"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.586Z"
 ---
 
 # Svelte Series-15: Animation Part 2

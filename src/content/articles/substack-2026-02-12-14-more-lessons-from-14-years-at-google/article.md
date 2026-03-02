@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/14-more-lessons-from-14-years-at"
 publishedAt: "2026-02-12"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.634Z"
 ---
 
 # 14 More lessons from 14 years at Google

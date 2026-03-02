@@ -75,11 +75,12 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - ai-coding
-  - claude
-  - chatgpt
-  - agents
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "chatgpt"
+  - "claude"
+tagsNormalizedAt: "2026-03-01T21:19:30.410Z"
 ---
 
 ## Key Takeaways

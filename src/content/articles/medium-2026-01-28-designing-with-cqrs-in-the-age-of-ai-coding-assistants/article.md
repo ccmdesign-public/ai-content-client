@@ -6,13 +6,14 @@ publicationName: "Dev Genius"
 url: "https://blog.devgenius.io/designing-with-cqrs-in-the-age-of-ai-coding-assistants-490b1aed84da?source=rss----4e2c1156667e---4"
 publishedAt: "2026-01-28"
 tags:
-  - "claude-code"
+  - "ai-general"
   - "claude"
-  - "ai"
-  - "openai-codex"
-  - "cqrs"
-  - "tutorials"
-  - "tech"
+  - "education"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.635Z"
 ---
 
 # Designing with CQRS in the Age of AI Coding Assistants

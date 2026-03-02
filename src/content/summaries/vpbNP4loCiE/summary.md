@@ -94,13 +94,14 @@ tools:
   - name: "Cloudflare Workers"
     url: null
 categories:
-  - "Web Development"
   - "DevOps & Infrastructure"
+  - "Web Development"
 tags:
-  - javascript
-  - vercel
-  - netlify
-  - performance
+  - "javascript"
+  - "netlify"
+  - "performance"
+  - "vercel"
+tagsNormalizedAt: "2026-03-01T21:19:30.545Z"
 ---
 
 ## Key Takeaways

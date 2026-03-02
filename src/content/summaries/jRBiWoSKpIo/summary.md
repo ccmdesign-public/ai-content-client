@@ -79,13 +79,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - claude
-  - agents
-  - ai-coding
-  - typescript
-  - terminal
-  - automation
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "terminal"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.536Z"
 ---
 
 ## Key Takeaways

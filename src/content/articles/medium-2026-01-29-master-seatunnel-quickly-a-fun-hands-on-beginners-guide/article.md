@@ -6,13 +6,15 @@ publicationName: "CodeX"
 url: "https://medium.com/codex/bmaster-seatunnel-quickly-a-fun-hands-on-beginners-guide-607c55e74854?source=rss----29038077e4c6---4"
 publishedAt: "2026-01-29"
 tags:
-  - "seatunnel"
   - "data-science"
+  - "education"
+  - "engineering"
   - "open-source"
-  - "software-development"
-  - "big-data"
-  - "software"
-  - "tutorials"
+categories:
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.614Z"
 ---
 
 # Master SeaTunnel Quickly: A Fun, Hands-On Beginner’s Guide

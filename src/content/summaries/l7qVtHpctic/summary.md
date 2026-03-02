@@ -107,12 +107,13 @@ tools:
     url: "https://github.com/kenneth-liao/ai-launchpad-marketplace"
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - performance
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "performance"
+tagsNormalizedAt: "2026-03-01T21:19:30.374Z"
 ---
 
 ## Key Takeaways

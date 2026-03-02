@@ -6,13 +6,11 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/from-clustering-to-anomaly-detection-on-olivetti-faces-984df43f37ef?source=rss----b680b860beb1---4"
 publishedAt: "2026-02-22"
 tags:
-  - "unsupervised-clustering"
-  - "anomaly-detection"
-  - "pca-analysis"
-  - "gmm-algorithm"
-  - "k-means-clustering"
-  - "data-science"
   - "analytics"
+  - "data-science"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.588Z"
 ---
 
 # From Clustering to Anomaly Detection on Olivetti Faces

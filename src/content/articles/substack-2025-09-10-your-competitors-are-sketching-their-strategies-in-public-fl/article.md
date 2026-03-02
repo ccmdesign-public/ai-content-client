@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/your-competitors-are-sketching-their"
 publishedAt: "2025-09-10"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.596Z"
 ---
 
 # Your competitors are sketching their strategies in public, flaws and all

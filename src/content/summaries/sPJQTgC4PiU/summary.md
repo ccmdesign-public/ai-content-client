@@ -63,15 +63,11 @@ tools:
   - name: "Opus 4.6"
     url: null
 categories:
-  - "Mobile Development"
   - "AI & Machine Learning"
+  - "Mobile Development"
 tags:
-  - "ios-development"
-  - "ai-tools"
-  - "app-development"
-  - "no-code"
+  - "applications"
   - "prompt-engineering"
-  - "mobile-apps"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -82,6 +78,7 @@ ai:
   totalTokens: 11768
   processingTimeMs: 68588
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.357Z"
 ---
 
 ## Key Takeaways

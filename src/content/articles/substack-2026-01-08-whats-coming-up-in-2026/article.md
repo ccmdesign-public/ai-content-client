@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/2026-plans"
 publishedAt: "2026-01-08"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.657Z"
 ---
 
 # What's Coming Up in 2026

@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-427-bytedances-scaling"
 publishedAt: "2025-09-01"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.622Z"
 ---
 
 # Import AI 427: ByteDance's scaling software; vending machine safety; testing for emotional attachment with Intima

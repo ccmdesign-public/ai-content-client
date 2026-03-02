@@ -109,10 +109,11 @@ categories:
   - "AI & Machine Learning"
   - "Product & Design"
 tags:
-  - gemini
-  - llm
-  - computer-vision
-  - ui
+  - "computer-vision"
+  - "gemini"
+  - "llm"
+  - "ui"
+tagsNormalizedAt: "2026-03-01T21:19:30.284Z"
 ---
 
 ## Key Takeaways

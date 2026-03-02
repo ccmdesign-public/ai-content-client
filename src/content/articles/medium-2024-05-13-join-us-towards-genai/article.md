@@ -6,13 +6,14 @@ publicationName: "Towards GenAI"
 url: "https://medium.com/towards-genai/join-us-towards-genai-9b748ff243ed?source=rss----180f211a3dc3---4"
 publishedAt: "2024-05-13"
 tags:
+  - "ai-general"
   - "data-science"
-  - "publishing"
-  - "artificial-intelligence"
-  - "programming"
-  - "generative-ai-tools"
-  - "ai"
-  - "generative"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.650Z"
 ---
 
 # Join Us! — Towards GenAI

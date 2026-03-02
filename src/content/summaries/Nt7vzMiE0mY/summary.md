@@ -97,13 +97,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - llm
-  - computer-vision
-  - agents
-  - automation
-  - product-strategy
+  - "agents"
+  - "automation"
+  - "computer-vision"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.437Z"
 ---
 
 ## Key Takeaways

@@ -119,14 +119,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - automation
-  - terminal
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "terminal"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.378Z"
 ---
 
 ## Key Takeaways

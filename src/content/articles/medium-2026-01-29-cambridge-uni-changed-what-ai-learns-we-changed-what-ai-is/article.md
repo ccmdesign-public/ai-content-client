@@ -6,12 +6,15 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/cambridge-uni-changed-what-ai-learns-we-changed-what-ai-is-85135f3ea04b?source=rss----b680b860beb1---4"
 publishedAt: "2026-01-29"
 tags:
-  - "cognitive-science"
-  - "artificial-intelligence"
-  - "technology"
-  - "innovation"
-  - "data-science"
+  - "ai-general"
   - "analytics"
+  - "data-science"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.597Z"
 ---
 
 # Cambridge Uni Changed What AI Learns. We Changed What AI is.

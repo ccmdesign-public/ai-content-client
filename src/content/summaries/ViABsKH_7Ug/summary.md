@@ -73,16 +73,8 @@ processedAt: "2026-02-24T14:52:12.342Z"
 source: "youtube"
 tldr: "The most effective way to scale a wedding photography business is to build an affiliate network by offering wedding planners 100% of the revenue from your first 1-2 clients as an incentive to refer you, creating sustainable distribution nodes."
 tools: []
-categories:
-  - "Business & Career"
-tags:
-  - "business-scaling"
-  - "affiliate-marketing"
-  - "photography-business"
-  - "wedding-photography"
-  - "client-acquisition"
-  - "referral-networks"
-  - "service-business"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +85,7 @@ ai:
   totalTokens: 2782
   processingTimeMs: 19006
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.338Z"
 ---
 
 ## Key Takeaways

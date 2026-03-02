@@ -6,9 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/getting-started-with-hybrid-semantic-full-text-search-with-milvus-2-5-b8645a20e3ad?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2024-12-17"
 tags:
-  - "milvus"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.620Z"
 ---
 
 # Getting Started with Hybrid Semantic / Full-Text Search with Milvus 2.5

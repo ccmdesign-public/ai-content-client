@@ -6,13 +6,13 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/from-pixels-to-phosphenes-how-ai-translates-the-world-for-the-bionic-eye-af60ae07b3e2?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-11-17"
 tags:
-  - "biomedical-engineering"
-  - "technology"
+  - "ai-general"
   - "computer-vision"
-  - "artificial-intelligence"
-  - "neuroscience"
-  - "ai"
   - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.577Z"
 ---
 
 # From Pixels to Phosphenes: How AI Translates the World for the Bionic Eye

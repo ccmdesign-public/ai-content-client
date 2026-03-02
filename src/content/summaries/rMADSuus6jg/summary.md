@@ -78,12 +78,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - rag
-  - agents
-  - embeddings
-  - llm
-  - architecture
+  - "agents"
+  - "architecture"
+  - "embeddings"
+  - "llm"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.534Z"
 ---
 
 ## Key Takeaways

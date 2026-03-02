@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/my-go-to-ai-tools"
 publishedAt: "2026-02-09"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.677Z"
 ---
 
 # Here Are My Go-To AI Tools

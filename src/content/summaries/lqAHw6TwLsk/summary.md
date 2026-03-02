@@ -127,13 +127,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "perplexity"
+  - "agents"
   - "automation"
   - "productivity"
-  - "browser-automation"
-  - "marketing-automation"
-  - "research-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -144,6 +140,7 @@ ai:
   totalTokens: 12483
   processingTimeMs: 31076
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.322Z"
 ---
 
 ## Key Takeaways

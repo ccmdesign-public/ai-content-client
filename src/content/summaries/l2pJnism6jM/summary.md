@@ -76,12 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "learning-strategies"
-  - "entrepreneurship"
-  - "personal-development"
-  - "mentorship"
-  - "business-growth"
-  - "education-investment"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 4555
   processingTimeMs: 15214
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.488Z"
 ---
 
 ## Key Takeaways

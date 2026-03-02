@@ -43,14 +43,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
   - "ai-coding"
+  - "automation"
   - "claude"
-  - "test-driven-development"
-  - "software-engineering"
-  - "workflow-automation"
+  - "engineering"
   - "git"
   - "prompt-engineering"
+  - "testing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -61,6 +62,7 @@ ai:
   totalTokens: 9084
   processingTimeMs: 18177
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.498Z"
 ---
 
 ## Key Takeaways

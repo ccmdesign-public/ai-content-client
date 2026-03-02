@@ -105,13 +105,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Product & Design"
+  - "Web Development"
 tags:
-  - claude
-  - ai-coding
-  - figma
-  - tailwind
-  - accessibility
-  - design-systems
+  - "accessibility"
+  - "ai-coding"
+  - "claude"
+  - "design-systems"
+  - "figma"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.388Z"
 ---
 
 ## Key Takeaways

@@ -69,13 +69,10 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "prompt-engineering"
-  - "ai-productivity"
-  - "business-strategy"
-  - "risk-management"
-  - "decision-making"
+  - "business"
   - "chatgpt"
   - "claude"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +83,7 @@ ai:
   totalTokens: 11688
   processingTimeMs: 53136
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.518Z"
 ---
 
 ## Key Takeaways

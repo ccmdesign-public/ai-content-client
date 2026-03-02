@@ -128,12 +128,14 @@ tools:
     url: null
 categories:
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - startup
-  - saas
-  - monetization
-  - leadership
-  - product-strategy
+  - "leadership"
+  - "monetization"
+  - "product-strategy"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.355Z"
 ---
 
 ## Key Takeaways

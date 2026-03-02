@@ -6,12 +6,15 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/what-i-learned-after-1-million-llm-calls-on-aws-33ac04bf5987?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-08-28"
 tags:
+  - "ai-general"
   - "aws"
-  - "mls"
-  - "llm"
-  - "genai"
-  - "ai"
   - "innovation"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.657Z"
 ---
 
 # What I Learned After 1 Million LLM Calls on AWS

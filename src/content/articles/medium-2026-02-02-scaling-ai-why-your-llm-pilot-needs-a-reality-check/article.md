@@ -6,13 +6,12 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/scaling-ai-why-your-llm-pilot-needs-a-reality-check-e7ec634e4e17?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-02"
 tags:
-  - "ai-engineering"
-  - "model-quantization"
-  - "deeplearing"
-  - "llm-optimization"
-  - "agentic-rag"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.670Z"
 ---
 
 # Scaling AI: Why Your LLM Pilot Needs a Reality Check

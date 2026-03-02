@@ -78,12 +78,8 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - "business-strategy"
-  - "entrepreneurship"
-  - "product-development"
-  - "ai-integration"
-  - "marketing"
-  - "customer-retention"
+  - "business"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +90,7 @@ ai:
   totalTokens: 3099
   processingTimeMs: 17146
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.538Z"
 ---
 
 ## Key Takeaways

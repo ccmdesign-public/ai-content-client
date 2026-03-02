@@ -86,14 +86,15 @@ tools:
   - name: "Dash"
     url: null
 categories:
-  - "Web Development"
   - "Programming"
+  - "Web Development"
 tags:
-  - python
-  - react
-  - typescript
-  - tailwind
-  - best-practices
+  - "best-practices"
+  - "python"
+  - "react"
+  - "tailwind"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.262Z"
 ---
 
 ## Key Takeaways

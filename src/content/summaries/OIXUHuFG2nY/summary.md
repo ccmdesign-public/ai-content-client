@@ -75,14 +75,11 @@ tldr: "Avoid asking two types of questions: those solvable with math (like compa
 tools: []
 categories:
   - "Business & Career"
+  - "Programming"
 tags:
-  - "decision-making"
-  - "business-strategy"
-  - "entrepreneurship"
-  - "data-driven"
+  - "business"
+  - "startup"
   - "testing"
-  - "scaling"
-  - "lifetime-value"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +90,7 @@ ai:
   totalTokens: 4063
   processingTimeMs: 21480
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.420Z"
 ---
 
 ## Key Takeaways

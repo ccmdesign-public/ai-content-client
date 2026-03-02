@@ -75,12 +75,13 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - copilot
-  - git
-  - automation
-  - workflow
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "copilot"
+  - "git"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.328Z"
 ---
 
 ## Key Takeaways

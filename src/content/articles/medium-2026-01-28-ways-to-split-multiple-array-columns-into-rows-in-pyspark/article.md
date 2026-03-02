@@ -6,13 +6,12 @@ publicationName: "CodeX"
 url: "https://medium.com/codex/ways-to-split-multiple-array-columns-into-rows-in-pyspark-11f16ef89295?source=rss----29038077e4c6---4"
 publishedAt: "2026-01-28"
 tags:
-  - "data-engineer"
-  - "databricks"
-  - "coding"
-  - "pyspark"
-  - "spark"
-  - "software"
-  - "tutorials"
+  - "education"
+  - "engineering"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.591Z"
 ---
 
 # Ways To Split multiple array columns into rows in Pyspark

@@ -83,14 +83,16 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "devops"
-  - "git"
-  - "docker"
-  - "jwt"
-  - "go"
+  - "agents"
+  - "authentication"
   - "automation"
+  - "docker"
+  - "git"
+  - "go"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -101,6 +103,7 @@ ai:
   totalTokens: 6912
   processingTimeMs: 13466
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.504Z"
 ---
 
 ## Key Takeaways

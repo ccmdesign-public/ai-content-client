@@ -23,13 +23,7 @@ tldr: "A 17-year-old student at Alpha High School learns all academic content th
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
-  - "ai-education"
-  - "personalized-learning"
-  - "edtech"
-  - "future-of-education"
-  - "adaptive-learning"
   - "chatgpt"
 ai:
   provider: "openrouter"
@@ -41,6 +35,7 @@ ai:
   totalTokens: 2407
   processingTimeMs: 13955
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.461Z"
 ---
 
 ## Key Takeaways

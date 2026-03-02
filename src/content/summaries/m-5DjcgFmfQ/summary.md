@@ -120,13 +120,11 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
+  - "agents"
+  - "automation"
   - "claude"
-  - "ai-agents"
-  - "prompt-engineering"
-  - "workflow-automation"
-  - "ai-productivity"
   - "mcp"
-  - "anthropic"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -137,6 +135,7 @@ ai:
   totalTokens: 12562
   processingTimeMs: 69052
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.544Z"
 ---
 
 ## Key Takeaways

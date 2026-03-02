@@ -70,10 +70,11 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - copilot
-  - vscode
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.510Z"
 ---
 
 ## Key Takeaways

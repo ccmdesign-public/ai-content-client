@@ -48,12 +48,8 @@ categories:
   - "Product & Design"
   - "Web Development"
 tags:
-  - "figma"
-  - "design-to-code"
-  - "ai-design"
-  - "responsive-design"
-  - "prototyping"
   - "design-systems"
+  - "figma"
   - "web-development"
 ai:
   provider: "openrouter"
@@ -65,6 +61,7 @@ ai:
   totalTokens: 7646
   processingTimeMs: 50905
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.536Z"
 ---
 
 ## Key Takeaways

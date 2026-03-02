@@ -81,16 +81,12 @@ tools:
   - name: "Docker"
     url: null
 categories:
+  - "Programming"
   - "Tools & Productivity"
-  - "DevOps & Infrastructure"
 tags:
-  - "productivity"
-  - "self-hosted"
   - "open-source"
-  - "project-management"
-  - "developer-tools"
+  - "productivity"
   - "workflow"
-  - "saas-alternative"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -101,6 +97,7 @@ ai:
   totalTokens: 6350
   processingTimeMs: 38104
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.310Z"
 ---
 
 ## Key Takeaways

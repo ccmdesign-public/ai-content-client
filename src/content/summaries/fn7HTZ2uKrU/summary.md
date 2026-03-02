@@ -60,15 +60,8 @@ tools:
   - name: "Zapier"
     url: null
 categories:
-  - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "saas-comparison"
-  - "business-tools"
-  - "client-acquisition"
-  - "community-platform"
-  - "agency-tech-stack"
-  - "crm"
   - "automation"
 ai:
   provider: "openrouter"
@@ -80,6 +73,7 @@ ai:
   totalTokens: 8364
   processingTimeMs: 25127
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.411Z"
 ---
 
 ## Key Takeaways

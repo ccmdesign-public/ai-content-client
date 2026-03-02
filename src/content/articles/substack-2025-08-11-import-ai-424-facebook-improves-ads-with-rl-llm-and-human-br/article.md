@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-424-facebook-improves-ads"
 publishedAt: "2025-08-11"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.583Z"
 ---
 
 # Import AI 424: Facebook improves ads with RL; LLM and human brain similarities; and mental health and chatbots

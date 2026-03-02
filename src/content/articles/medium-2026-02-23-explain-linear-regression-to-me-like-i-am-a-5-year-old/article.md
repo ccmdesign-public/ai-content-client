@@ -6,12 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/explain-linear-regression-to-me-like-i-am-a-5-year-old-511427bc068f?source=rss----98111c9905da---4"
 publishedAt: "2026-02-23"
 tags:
-  - "ai"
-  - "stochastic-gradient"
-  - "introduction-to-ai"
+  - "ai-general"
   - "machine-learning"
-  - "linear-regression"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.647Z"
 ---
 
 # Explain Linear Regression to Me Like I am a 5-Year-Old

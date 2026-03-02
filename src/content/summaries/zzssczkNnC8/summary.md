@@ -114,12 +114,13 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - ai-coding
-  - agents
-  - architecture
-  - testing
-  - best-practices
-  - refactoring
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "refactoring"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.403Z"
 ---
 
 The video explores "Vibe Coding" as it exists in 2026—a paradigm where software development has shifted from manual syntax entry to high-level orchestration using AI agents. While the "vibe" refers to the flow and intent of the developer, the video warns that this speed often leads to a "technical debt explosion" if not managed with discipline.

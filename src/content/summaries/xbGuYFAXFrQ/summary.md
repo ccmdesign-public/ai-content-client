@@ -76,12 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "marketing"
-  - "sales"
-  - "consumer-psychology"
-  - "advertising"
-  - "business-strategy"
-  - "entrepreneurship"
+  - "business"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +88,7 @@ ai:
   totalTokens: 2978
   processingTimeMs: 18330
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.373Z"
 ---
 
 ## Key Takeaways

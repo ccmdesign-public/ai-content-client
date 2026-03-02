@@ -75,13 +75,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - copilot
-  - agents
-  - career-growth
-  - workflow
-  - automation
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "career-growth"
+  - "copilot"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.285Z"
 ---
 
 ## Key Takeaways

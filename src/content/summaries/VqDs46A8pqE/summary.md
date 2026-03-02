@@ -103,14 +103,16 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - agents
-  - automation
-  - best-practices
-  - git
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "git"
+tagsNormalizedAt: "2026-03-01T21:19:30.337Z"
 ---
 
 ## Key Takeaways

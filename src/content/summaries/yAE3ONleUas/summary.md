@@ -81,13 +81,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - llm
-  - claude
-  - ai-coding
-  - agents
-  - automation
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.424Z"
 ---
 
 ## Key Takeaways

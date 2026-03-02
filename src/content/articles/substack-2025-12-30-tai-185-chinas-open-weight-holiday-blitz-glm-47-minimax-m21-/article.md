@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-185-chinas-open-weight-holiday"
 publishedAt: "2025-12-30"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.630Z"
 ---
 
 # TAI #185: China's Open-Weight Holiday Blitz; GLM 4.7, Minimax M2.1 & MAI-UI

@@ -26,16 +26,8 @@ processedAt: "2026-01-26T16:39:15.167Z"
 source: "youtube"
 tldr: "A National Bureau of Economic Research study finds that while 26.5 million workers in high-AI-exposure roles like software developers have high adaptive capacity, 6.1 million workers—86% of whom are women in administrative/clerical roles—face high AI exposure with low adaptive capacity, concentrated in college towns and state capitals."
 tools: []
-categories:
-  - "Business & Career"
-  - "AI & Machine Learning"
-tags:
-  - "ai-disruption"
-  - "future-of-work"
-  - "economic-policy"
-  - "labor-market"
-  - "workforce-adaptation"
-  - "vulnerability-analysis"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -46,6 +38,7 @@ ai:
   totalTokens: 4074
   processingTimeMs: 35921
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.367Z"
 ---
 
 ## Key Takeaways

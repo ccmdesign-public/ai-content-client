@@ -61,14 +61,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Product & Design"
 tags:
-  - llm
-  - gemini
-  - claude
-  - chatgpt
-  - agents
-  - product-strategy
+  - "agents"
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.403Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-181-deepseeks-v32-speciale-delivery"
 publishedAt: "2025-12-02"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.670Z"
 ---
 
 # TAI #181: DeepSeek's V3.2 "Speciale" Delivery Challenges the US Frontier;

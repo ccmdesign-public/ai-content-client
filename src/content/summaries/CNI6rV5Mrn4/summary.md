@@ -59,14 +59,10 @@ source: "youtube"
 tldr: "OpenAI's 2026 strategy focuses on selling scarce compute capacity as 'seats' on an airline, prioritizing allocation between cost-sensitive consumers, governance-focused enterprise clients, and capital investors to reach profitability."
 tools: []
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - "openai"
-  - "business-model"
-  - "ai-strategy"
-  - "compute"
-  - "future-of-work"
+  - "chatgpt"
   - "saas"
 ai:
   provider: "openrouter"
@@ -78,6 +74,7 @@ ai:
   totalTokens: 2148
   processingTimeMs: 17085
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.516Z"
 ---
 
 ## Key Takeaways

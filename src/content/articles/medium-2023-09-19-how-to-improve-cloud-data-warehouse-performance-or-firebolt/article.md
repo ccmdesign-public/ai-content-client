@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/how-to-improve-cloud-data-warehouse-performance-fir
 publishedAt: "2023-09-19"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.581Z"
 ---
 
 # How to Improve Cloud Data Warehouse Performance | Firebolt

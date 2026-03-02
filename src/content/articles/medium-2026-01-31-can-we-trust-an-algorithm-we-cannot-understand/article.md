@@ -6,13 +6,12 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/can-we-trust-algorithm-we-cannot-understand-7f9f3d5c91a7?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
-  - "ai-in-finance"
-  - "ai-trust"
-  - "black-box-problem"
-  - "algorithmic-bias"
-  - "ai-ethics"
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.660Z"
 ---
 
 # Can We Trust an Algorithm We Cannot Understand?

@@ -90,11 +90,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Web Development"
 tags:
-  - claude
-  - ai-coding
-  - api-design
-  - monetization
+  - "ai-coding"
+  - "api-design"
+  - "claude"
+  - "monetization"
+tagsNormalizedAt: "2026-03-01T21:19:30.373Z"
 ---
 
 ## Key Takeaways

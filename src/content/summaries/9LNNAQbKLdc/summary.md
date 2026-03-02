@@ -104,13 +104,9 @@ tools:
     url: "null"
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "advertising"
-  - "marketing"
-  - "ai-marketing"
-  - "video-ads"
+  - "agents"
   - "automation"
   - "machine-learning"
 ai:
@@ -123,6 +119,7 @@ ai:
   totalTokens: 29693
   processingTimeMs: 254952
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.343Z"
 ---
 
 ## Key Takeaways

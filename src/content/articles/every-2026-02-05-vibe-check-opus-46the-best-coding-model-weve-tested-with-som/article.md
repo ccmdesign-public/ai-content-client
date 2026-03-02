@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/opus-4-6"
 publishedAt: "2026-02-05"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.579Z"
 ---
 
 # Vibe Check: Opus 4.6—The Best Coding Model We’ve Tested (With Some Maddening Habits)

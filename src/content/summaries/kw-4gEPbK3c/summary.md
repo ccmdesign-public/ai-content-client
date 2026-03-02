@@ -72,15 +72,11 @@ tools:
   - name: "Google Search Console"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Data & Analytics"
+  - "Web Development"
 tags:
+  - "analytics"
   - "seo"
-  - "web-analytics"
-  - "keyword-tracking"
-  - "competitive-analysis"
-  - "ahrefs"
-  - "digital-marketing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -91,6 +87,7 @@ ai:
   totalTokens: 3132
   processingTimeMs: 22394
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.496Z"
 ---
 
 ## Key Takeaways

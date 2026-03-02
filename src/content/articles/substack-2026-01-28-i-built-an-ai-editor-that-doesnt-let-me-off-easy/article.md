@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/i-built-an-ai-editor-that-doesnt"
 publishedAt: "2026-01-28"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.604Z"
 ---
 
 # I built an AI editor that doesn't let me off easy

@@ -79,13 +79,8 @@ categories:
   - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "focus"
   - "productivity"
-  - "commitment"
-  - "entrepreneurship"
-  - "business-growth"
-  - "elimination"
-  - "deep-work"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -96,6 +91,7 @@ ai:
   totalTokens: 5540
   processingTimeMs: 25571
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.523Z"
 ---
 
 ## Key Takeaways

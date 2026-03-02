@@ -112,14 +112,16 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Product & Design"
   - "Programming"
 tags:
-  - ai-coding
-  - claude
-  - agents
-  - copilot
-  - figma
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "claude"
+  - "copilot"
+  - "figma"
+tagsNormalizedAt: "2026-03-01T21:19:30.389Z"
 ---
 
 ## Key Takeaways

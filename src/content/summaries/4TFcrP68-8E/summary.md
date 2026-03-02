@@ -57,11 +57,13 @@ tools:
     url: null
 categories:
   - "DevOps & Infrastructure"
+  - "Programming"
   - "Security"
 tags:
-  - aws
-  - encryption
-  - best-practices
+  - "aws"
+  - "best-practices"
+  - "encryption"
+tagsNormalizedAt: "2026-03-01T21:19:30.342Z"
 ---
 
 ## Key Takeaways

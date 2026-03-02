@@ -43,14 +43,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
 tags:
-  - "ai"
-  - "programming-languages"
+  - "ai-general"
   - "llm"
-  - "natural-language-processing"
+  - "nlp"
   - "prompt-engineering"
-  - "career-advice"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -61,6 +58,7 @@ ai:
   totalTokens: 7394
   processingTimeMs: 30303
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.397Z"
 ---
 
 ## Key Takeaways

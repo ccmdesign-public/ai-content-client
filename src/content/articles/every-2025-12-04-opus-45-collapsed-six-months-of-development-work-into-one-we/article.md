@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/opus-4-5-collapsed-six-months-of-development-work-into-one-week"
 publishedAt: "2025-12-04"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.579Z"
 ---
 
 # Opus 4.5 Collapsed Six Months of Development Work Into One Week

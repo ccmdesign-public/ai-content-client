@@ -80,13 +80,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "n8n"
-  - "claude-code"
-  - "ai-automation"
-  - "workflow-automation"
-  - "ai-agents"
-  - "visual-programming"
-  - "coding-assistant"
+  - "agents"
+  - "automation"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +93,7 @@ ai:
   totalTokens: 13970
   processingTimeMs: 24831
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.329Z"
 ---
 
 ## Key Takeaways

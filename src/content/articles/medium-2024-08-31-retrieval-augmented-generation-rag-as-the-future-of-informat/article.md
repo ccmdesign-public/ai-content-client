@@ -6,13 +6,15 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/retrieval-augmented-generation-rag-as-the-future-of-information-retrieval-in-generative-ai-86131b0060c5?source=rss----5878f1e5f050---4"
 publishedAt: "2024-08-31"
 tags:
-  - "large-language-models"
-  - "rags"
-  - "llm"
-  - "genai"
-  - "ai"
+  - "ai-general"
   - "analytics"
   - "business"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.570Z"
 ---
 
 # Retrieval-Augmented Generation (RAG) as the Future of Information Retrieval in Generative AI

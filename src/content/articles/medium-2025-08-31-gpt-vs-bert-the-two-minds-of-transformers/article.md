@@ -6,13 +6,14 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/gpt-vs-bert-the-two-minds-of-transformers-7c79610b58be?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-08-31"
 tags:
-  - "transformers"
-  - "genai"
-  - "bert"
-  - "gpt"
-  - "llm"
-  - "ai"
+  - "ai-general"
+  - "chatgpt"
   - "innovation"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.624Z"
 ---
 
 # GPT vs. BERT — The Two Minds of Transformers

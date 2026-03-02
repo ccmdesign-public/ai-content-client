@@ -68,16 +68,12 @@ tools:
   - name: "WebMCP"
     url: null
 categories:
-  - "Web Development"
   - "AI & Machine Learning"
+  - "Web Development"
 tags:
-  - "webmcp"
-  - "browser-api"
-  - "ai-agents"
-  - "frontend"
+  - "agents"
   - "javascript"
-  - "web-automation"
-  - "ai-integration"
+  - "web-development"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +84,7 @@ ai:
   totalTokens: 8851
   processingTimeMs: 67040
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.315Z"
 ---
 
 ## Key Takeaways

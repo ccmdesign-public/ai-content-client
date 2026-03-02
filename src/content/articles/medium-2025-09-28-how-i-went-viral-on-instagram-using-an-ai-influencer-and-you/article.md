@@ -6,12 +6,14 @@ publicationName: "Open AI Publication"
 url: "https://medium.com/open-ai/how-i-went-viral-on-instagram-using-an-ai-influencer-and-you-can-too-980e15b4bf03?source=rss----90981db63ad7---4"
 publishedAt: "2025-09-28"
 tags:
-  - "ai"
-  - "bussiness"
-  - "ai-tools"
-  - "social-media-marketing"
-  - "seo"
+  - "ai-general"
   - "open-source"
+  - "seo"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.663Z"
 ---
 
 # How I Went Viral on Instagram Using an AI Influencer – And You Can Too

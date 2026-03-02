@@ -114,14 +114,16 @@ tools:
   - name: "Rovo"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
 tags:
-  - design-systems
-  - figma
-  - ai-coding
-  - tailwind
-  - prompt-engineering
+  - "ai-coding"
+  - "design-systems"
+  - "figma"
+  - "prompt-engineering"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.486Z"
 ---
 
 ## Key Takeaways

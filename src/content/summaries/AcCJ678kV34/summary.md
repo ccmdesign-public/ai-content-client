@@ -91,12 +91,14 @@ tools:
     url: null
 categories:
   - "DevOps & Infrastructure"
+  - "Programming"
   - "Security"
 tags:
-  - docker
-  - kubernetes
-  - security
-  - best-practices
+  - "best-practices"
+  - "docker"
+  - "kubernetes"
+  - "security-general"
+tagsNormalizedAt: "2026-03-01T21:19:30.323Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,13 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/using-go-to-schedule-and-run-tasks-with-dependencies-9259e088bafe?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-01-30"
 tags:
-  - "directed-acyclic-graph"
-  - "task-management"
-  - "golang"
-  - "concurrency"
-  - "runnable"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "go"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.643Z"
 ---
 
 # Using Go To Schedule And Run Tasks with Dependencies

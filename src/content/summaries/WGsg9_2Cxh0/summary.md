@@ -31,15 +31,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "notebooklm"
-  - "ai-content-creation"
-  - "course-creation"
-  - "digital-product"
-  - "prompt-engineering"
   - "productivity"
-  - "youtube"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -49,6 +44,7 @@ ai:
   outputTokens: 849
   totalTokens: 6864
   processingTimeMs: 67410
+tagsNormalizedAt: "2026-03-01T21:19:30.447Z"
 ---
 
 ## Key Takeaways

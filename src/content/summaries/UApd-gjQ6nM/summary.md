@@ -63,12 +63,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
 tags:
-  - llm
-  - ai-coding
-  - computer-vision
-  - python
+  - "ai-coding"
+  - "computer-vision"
+  - "llm"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.531Z"
 ---
 
 ## Key Takeaways

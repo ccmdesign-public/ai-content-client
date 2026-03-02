@@ -51,15 +51,16 @@ tools:
   - name: "Okta"
     url: null
 categories:
-  - "Security"
   - "AI & Machine Learning"
+  - "Programming"
+  - "Security"
+  - "Web Development"
 tags:
-  - agents
-  - authentication
-  - oauth
-  - jwt
-  - api-design
-  - best-practices
+  - "agents"
+  - "api-design"
+  - "authentication"
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.433Z"
 ---
 
 ## Key Takeaways

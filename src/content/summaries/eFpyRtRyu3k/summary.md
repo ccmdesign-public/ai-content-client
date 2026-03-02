@@ -44,12 +44,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-learning"
-  - "prompt-engineering"
-  - "agentic-ai"
   - "claude"
   - "productivity"
-  - "self-directed-learning"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -60,6 +57,7 @@ ai:
   totalTokens: 14380
   processingTimeMs: 93867
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.488Z"
 ---
 
 ## Key Takeaways

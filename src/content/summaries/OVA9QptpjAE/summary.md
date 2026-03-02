@@ -24,15 +24,8 @@ tldr: "Jack Dorsey announced Block (formerly Square) is laying off 40% of its st
 tools: []
 categories:
   - "Business & Career"
-  - "AI & Machine Learning"
 tags:
-  - "ai-layoffs"
-  - "corporate-restructuring"
-  - "future-of-work"
-  - "business-strategy"
-  - "tech-news"
-  - "jack-dorsey"
-  - "block-square"
+  - "business"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -43,6 +36,7 @@ ai:
   totalTokens: 9924
   processingTimeMs: 32257
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.505Z"
 ---
 
 ## Key Takeaways

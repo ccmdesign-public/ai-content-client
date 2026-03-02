@@ -64,11 +64,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - freelancing
-  - automation
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "freelancing"
+tagsNormalizedAt: "2026-03-01T21:19:30.278Z"
 ---
 
 ## Key Takeaways

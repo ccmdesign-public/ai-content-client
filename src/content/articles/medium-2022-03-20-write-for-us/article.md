@@ -6,10 +6,10 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/write-for-us-abc62a4efda7?source=rss----aa394f020b61---4"
 publishedAt: "2022-03-20"
 tags:
-  - "write"
-  - "technical-writing"
-  - "programming"
-  - "developer"
+  - "engineering"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.567Z"
 ---
 
 # Write for Us ✍

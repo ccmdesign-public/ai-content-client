@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini"
 publishedAt: "2025-11-18"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.574Z"
 ---
 
 # Three Years from GPT-3 to Gemini 3

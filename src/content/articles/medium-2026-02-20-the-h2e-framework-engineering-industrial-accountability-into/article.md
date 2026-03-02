@@ -6,13 +6,14 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-h2e-framework-engineering-industrial-accountability-into-the-mistral-7b-text-to-sql-era-59ac41d6c729?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-20"
 tags:
-  - "ai-governance"
-  - "open-source"
-  - "artificial-intelligence"
+  - "ai-general"
   - "llm"
-  - "fine-tuning"
-  - "ai"
-  - "beginner"
+  - "model-training"
+  - "open-source"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.554Z"
 ---
 
 # The H2E Framework: Engineering Industrial Accountability into the Mistral-7B Text-to-SQL Era

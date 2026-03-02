@@ -6,12 +6,14 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/hallucinations-in-healthcare-why-llms-require-pharmacy-specific-validation-frameworks-2aca0bdbe435?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-25"
 tags:
-  - "ai"
-  - "artificial-intelligence"
-  - "healthcare"
-  - "healthcare-technology"
+  - "ai-general"
   - "data-science"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.586Z"
 ---
 
 # Hallucinations in Healthcare: Why LLMs Require Pharmacy-Specific Validation Frameworks

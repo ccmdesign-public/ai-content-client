@@ -85,13 +85,9 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "openclaw"
-  - "saas"
-  - "ai-business"
-  - "startup"
-  - "ai-agency"
   - "prompt-engineering"
-  - "devops"
+  - "saas"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -102,6 +98,7 @@ ai:
   totalTokens: 22691
   processingTimeMs: 27985
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.439Z"
 ---
 
 ## Key Takeaways

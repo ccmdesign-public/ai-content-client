@@ -29,13 +29,15 @@ tools:
   - name: "Model Context Protocol"
     url: null
 categories:
-  - "Web Development"
+  - "AI & Machine Learning"
   - "Product & Design"
+  - "Programming"
 tags:
-  - accessibility
-  - llm
-  - ux
-  - best-practices
+  - "accessibility"
+  - "best-practices"
+  - "llm"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.399Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/gift-any-towards-ai-course-and-get"
 publishedAt: "2025-12-12"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.654Z"
 ---
 
 # Gift any Towards AI course and get your own seat free!

@@ -83,12 +83,14 @@ tools:
     url: "https://chatgpt.com/share/68c2ca06-ebf4-8011-8d66-959e9d2e30cf"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - chatgpt
-  - prompt-engineering
-  - claude
-  - best-practices
+  - "best-practices"
+  - "chatgpt"
+  - "claude"
+  - "llm"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.320Z"
 ---
 
 ## Key Takeaways

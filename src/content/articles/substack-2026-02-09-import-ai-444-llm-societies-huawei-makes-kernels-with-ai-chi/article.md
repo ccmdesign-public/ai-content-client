@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-444-llm-societies-huawei"
 publishedAt: "2026-02-09"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.580Z"
 ---
 
 # Import AI 444: LLM societies; Huawei makes kernels with AI; ChipBench

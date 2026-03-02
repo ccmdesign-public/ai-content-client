@@ -6,12 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-h2e-framework-engineering-deterministic-accountability-in-the-industrial-ai-era-023797add2f5?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-27"
 tags:
-  - "agentic-ai"
-  - "simulation"
-  - "artificial-intelligence"
+  - "ai-general"
   - "llm"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.628Z"
 ---
 
 # The H2E Framework: Engineering Deterministic Accountability in the Industrial AI Era

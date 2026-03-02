@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/how-to-figure-out-what-people-want-90fad8a3-fb2e-4a54-b355-44d35b6d3e86"
 publishedAt: "2025-06-09"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.588Z"
 ---
 
 # How to Figure Out What People Want

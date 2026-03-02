@@ -68,12 +68,13 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - copilot
-  - agents
-  - prompt-engineering
-  - vscode
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "prompt-engineering"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.387Z"
 ---
 
 ## Key Takeaways

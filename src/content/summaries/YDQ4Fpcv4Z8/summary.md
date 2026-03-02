@@ -47,10 +47,11 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - claude
-  - ai-coding
-  - llm
-  - startup
+  - "ai-coding"
+  - "claude"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.396Z"
 ---
 
 ## Key Takeaways

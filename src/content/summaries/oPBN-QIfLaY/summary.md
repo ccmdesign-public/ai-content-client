@@ -95,11 +95,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - automation
-  - workflow
-  - prompt-engineering
+  - "agents"
+  - "automation"
+  - "claude"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.374Z"
 ---
 
 ## Key Takeaways

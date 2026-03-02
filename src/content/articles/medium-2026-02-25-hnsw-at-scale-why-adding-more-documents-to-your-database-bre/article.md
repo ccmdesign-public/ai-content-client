@@ -6,12 +6,15 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/hnsw-at-scale-why-adding-more-documents-to-your-database-breaks-rag-0cca7008107d?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-25"
 tags:
-  - "artificial-intelligence"
-  - "ai"
+  - "ai-general"
+  - "engineering"
   - "machine-learning"
-  - "software-engineering"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.607Z"
 ---
 
 # HNSW at Scale: Why Adding More Documents to Your Database Breaks RAG

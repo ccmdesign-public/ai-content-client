@@ -70,14 +70,8 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Tools & Productivity"
 tags:
   - "saas"
-  - "digital-marketing"
-  - "agency-tools"
-  - "crm"
-  - "business-scaling"
-  - "pricing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +82,7 @@ ai:
   totalTokens: 8468
   processingTimeMs: 24630
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.401Z"
 ---
 
 ## Key Takeaways

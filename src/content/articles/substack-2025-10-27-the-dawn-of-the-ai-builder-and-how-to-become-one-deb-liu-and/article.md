@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/the-dawn-of-the-ai-builder-and-how"
 publishedAt: "2025-10-27"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.673Z"
 ---
 
 # The Dawn of the AI Builder, and how to become one - Deb Liu & Marily

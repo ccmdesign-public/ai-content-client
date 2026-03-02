@@ -100,12 +100,8 @@ categories:
   - "Tools & Productivity"
 tags:
   - "claude"
-  - "ai-tools"
-  - "interactive-ai"
-  - "prompt-engineering"
-  - "visual-feedback"
-  - "html-tools"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -115,6 +111,7 @@ ai:
   outputTokens: 946
   totalTokens: 9954
   processingTimeMs: 51130
+tagsNormalizedAt: "2026-03-01T21:19:30.334Z"
 ---
 
 ## Key Takeaways

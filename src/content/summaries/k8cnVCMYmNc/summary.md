@@ -73,13 +73,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
 tags:
-  - agents
-  - llm
-  - python
-  - architecture
-  - best-practices
+  - "agents"
+  - "architecture"
+  - "best-practices"
+  - "llm"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.451Z"
 ---
 
 ## Key Takeaways

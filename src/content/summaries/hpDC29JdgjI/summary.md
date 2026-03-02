@@ -112,13 +112,16 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - workflow
-  - startup
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "startup"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.325Z"
 ---
 
 ## Key Takeaways

@@ -104,15 +104,11 @@ tools:
   - name: "Cloudflare Worker"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Data & Analytics"
+  - "Web Development"
 tags:
+  - "analytics"
   - "seo"
-  - "rank-tracking"
-  - "site-audit"
-  - "brand-monitoring"
-  - "ai-content"
-  - "web-analytics"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -123,6 +119,7 @@ ai:
   totalTokens: 7321
   processingTimeMs: 56739
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.267Z"
 ---
 
 ## Key Takeaways

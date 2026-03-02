@@ -6,13 +6,16 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/recursive-language-models-056eea0d4762?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-01-22"
 tags:
-  - "llm"
-  - "python"
+  - "ai-general"
   - "data-science"
-  - "artificial-intelligence"
+  - "llm"
   - "machine-learning"
-  - "ai"
-  - "beginner"
+  - "python"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.564Z"
 ---
 
 # Recursive Language Models

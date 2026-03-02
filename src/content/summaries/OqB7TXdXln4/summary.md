@@ -56,14 +56,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Data & Analytics"
 tags:
   - "chatgpt"
   - "claude"
   - "gemini"
-  - "ai-productivity"
   - "prompt-engineering"
-  - "ai-tools"
   - "visualization"
 ai:
   provider: "openrouter"
@@ -75,6 +73,7 @@ ai:
   totalTokens: 17740
   processingTimeMs: 30916
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.407Z"
 ---
 
 ## Key Takeaways

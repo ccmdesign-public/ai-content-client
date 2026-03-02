@@ -63,12 +63,14 @@ tools:
   - name: "IBM Cyber Range"
     url: "https://ibm.biz/BdbW4L"
 categories:
-  - "Security"
   - "Business & Career"
+  - "Programming"
+  - "Security"
 tags:
-  - vulnerability
-  - best-practices
-  - leadership
+  - "best-practices"
+  - "leadership"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.419Z"
 ---
 
 ## Key Takeaways

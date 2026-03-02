@@ -79,13 +79,15 @@ tools:
   - name: "Comet"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
 tags:
-  - chatgpt
-  - gemini
-  - saas
-  - analytics
+  - "analytics"
+  - "chatgpt"
+  - "gemini"
+  - "saas"
+tagsNormalizedAt: "2026-03-01T21:19:30.383Z"
 ---
 
 ## Key Takeaways

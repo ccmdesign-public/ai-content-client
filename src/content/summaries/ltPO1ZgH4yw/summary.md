@@ -55,11 +55,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Mobile Development"
+  - "Business & Career"
 tags:
-  - ai-coding
-  - llm
-  - startup
+  - "ai-coding"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.336Z"
 ---
 
 ## Key Takeaways

@@ -130,15 +130,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
 tags:
   - "ai-coding"
-  - "openai-codex"
-  - "claude-code"
-  - "cursor-ide"
-  - "gpt-5"
-  - "inference-chips"
-  - "rapid-prototyping"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -149,6 +143,7 @@ ai:
   totalTokens: 18503
   processingTimeMs: 17431
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.274Z"
 ---
 
 ## Key Takeaways

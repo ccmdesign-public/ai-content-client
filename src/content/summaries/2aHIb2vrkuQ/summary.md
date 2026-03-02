@@ -155,13 +155,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "google-ai"
-  - "gemini"
-  - "notebooklm"
-  - "ai-tools"
-  - "productivity"
-  - "marketing"
   - "automation"
+  - "gemini"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -172,6 +168,7 @@ ai:
   totalTokens: 22117
   processingTimeMs: 57963
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.356Z"
 ---
 
 ## Key Takeaways

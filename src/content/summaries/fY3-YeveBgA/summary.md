@@ -90,14 +90,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Data & Analytics"
 tags:
-  - llm
-  - embeddings
-  - rag
-  - computer-vision
-  - nlp
-  - model-training
+  - "computer-vision"
+  - "embeddings"
+  - "llm"
+  - "model-training"
+  - "nlp"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.325Z"
 ---
 
 ## Key Takeaways

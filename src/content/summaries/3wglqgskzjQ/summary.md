@@ -47,13 +47,8 @@ tools:
 categories:
   - "AI & Machine Learning"
 tags:
-  - "anthropic"
-  - "ai-agents"
-  - "tool-calling"
-  - "llm-optimization"
-  - "token-efficiency"
+  - "agents"
   - "mcp"
-  - "programmatic-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -63,6 +58,7 @@ ai:
   outputTokens: 866
   totalTokens: 11006
   processingTimeMs: 57670
+tagsNormalizedAt: "2026-03-01T21:19:30.530Z"
 ---
 
 ## Key Takeaways

@@ -57,15 +57,8 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Tools & Productivity"
 tags:
-  - "agency-building"
-  - "business-automation"
-  - "crm"
-  - "marketing-automation"
-  - "funnel-building"
-  - "solopreneur"
-  - "saas-tools"
+  - "indie-hacker"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -76,6 +69,7 @@ ai:
   totalTokens: 9389
   processingTimeMs: 57246
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.273Z"
 ---
 
 ## Key Takeaways

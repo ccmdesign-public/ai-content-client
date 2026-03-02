@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/essential-python-libraries-for-data-science-52bad8c344da?source=rss----98111c9905da---4"
 publishedAt: "2026-02-27"
 tags:
-  - "numpy"
-  - "machine-learning"
-  - "data-analysis"
+  - "ai-general"
   - "data-science"
-  - "pandas"
-  - "ai"
+  - "machine-learning"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.653Z"
 ---
 
 # Essential Python Libraries for Data Science

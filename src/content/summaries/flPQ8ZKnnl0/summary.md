@@ -24,12 +24,14 @@ ai:
 tools: []
 categories:
   - "Product & Design"
+  - "Programming"
 tags:
-  - ux
-  - accessibility
-  - user-research
-  - design-systems
-  - best-practices
+  - "accessibility"
+  - "best-practices"
+  - "design-systems"
+  - "user-research"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.378Z"
 ---
 
 ## Key Takeaways

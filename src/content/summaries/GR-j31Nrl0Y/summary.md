@@ -46,13 +46,8 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "openclaw"
-  - "anthropic"
-  - "perplexity"
-  - "notion"
+  - "agents"
   - "automation"
-  - "agentic-ai"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -63,6 +58,7 @@ ai:
   totalTokens: 13029
   processingTimeMs: 100167
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.330Z"
 ---
 
 ## Key Takeaways

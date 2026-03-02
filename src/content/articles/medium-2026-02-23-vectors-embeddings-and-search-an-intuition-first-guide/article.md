@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/vectors-embeddings-and-search-an-intuition-first-guide-e62bdc420e25?source=rss----98111c9905da---4"
 publishedAt: "2026-02-23"
 tags:
-  - "deep-learning"
-  - "vector-embeddings"
+  - "ai-general"
+  - "embeddings"
   - "machine-learning"
-  - "vector-database"
-  - "vector-search"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.623Z"
 ---
 
 # Vectors, Embeddings, and Search: An Intuition-First Guide

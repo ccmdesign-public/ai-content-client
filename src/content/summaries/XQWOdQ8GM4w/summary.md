@@ -59,13 +59,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - claude
-  - prompt-engineering
-  - rag
-  - ai-coding
-  - best-practices
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "llm"
+  - "prompt-engineering"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.358Z"
 ---
 
 ## Key Takeaways

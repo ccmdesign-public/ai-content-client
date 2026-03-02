@@ -82,13 +82,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Product & Design"
+  - "Web Development"
 tags:
-  - claude
-  - ai-coding
-  - prompt-engineering
-  - react
-  - ui
-  - design-systems
+  - "ai-coding"
+  - "claude"
+  - "design-systems"
+  - "prompt-engineering"
+  - "react"
+  - "ui"
+tagsNormalizedAt: "2026-03-01T21:19:30.317Z"
 ---
 
 ## Key Takeaways

@@ -72,15 +72,9 @@ tools:
   - name: "OWASP Juice Shop"
     url: null
 categories:
-  - "Security"
-  - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-pentesting"
-  - "security-testing"
-  - "claude-api"
   - "automation"
-  - "vulnerability-scanning"
-  - "devsecops"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -91,6 +85,7 @@ ai:
   totalTokens: 7844
   processingTimeMs: 18150
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.333Z"
 ---
 
 ## Key Takeaways

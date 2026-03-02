@@ -70,16 +70,8 @@ tools:
     url: null
   - name: "NP Digital"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "amazon-dsp"
-  - "streaming-ads"
-  - "programmatic-advertising"
-  - "digital-marketing"
-  - "advertising-strategy"
-  - "first-party-data"
-  - "cookieless-targeting"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -90,6 +82,7 @@ ai:
   totalTokens: 9358
   processingTimeMs: 26973
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.427Z"
 ---
 
 ## Key Takeaways

@@ -110,14 +110,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
   - "ai-coding"
-  - "code-editors"
+  - "engineering"
   - "llm"
-  - "developer-tools"
-  - "software-engineering"
-  - "agentic-ai"
   - "productivity"
 ai:
   provider: "openrouter"
@@ -129,6 +127,7 @@ ai:
   totalTokens: 30840
   processingTimeMs: 41074
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.347Z"
 ---
 
 ## Key Takeaways

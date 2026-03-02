@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/biggest-ai-discount-of-the-year-ends"
 publishedAt: "2025-12-05"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.587Z"
 ---
 
 # Biggest AI discount of the year ends in 48 hours

@@ -6,12 +6,18 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/what-i-learned-from-my-first-deep-dive-into-supervised-learning-3528a491df48?source=rss----78073def27b8---4"
 publishedAt: "2026-01-29"
 tags:
-  - "deep-learning"
+  - "ai-general"
   - "data-science"
-  - "artificial-intelligence"
-  - "python"
+  - "education"
   - "machine-learning"
-  - "tutorials"
+  - "model-training"
+  - "python"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.600Z"
 ---
 
 # What I Learned From My First Deep Dive Into Supervised Learning

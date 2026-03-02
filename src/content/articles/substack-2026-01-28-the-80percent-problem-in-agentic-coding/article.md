@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/the-80-problem-in-agentic-coding"
 publishedAt: "2026-01-28"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.672Z"
 ---
 
 # The 80% Problem in Agentic Coding

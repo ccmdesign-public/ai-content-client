@@ -6,11 +6,12 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/7-ways-i-got-my-content-cited-by-ai-chatgpt-and-claude-7aed4ab4082f?source=rss----440100e76000---4"
 publishedAt: "2026-02-20"
 tags:
-  - "content-marketing"
-  - "geo"
-  - "ai"
+  - "ai-general"
   - "seo"
-  - "generative"
+categories:
+  - "AI & Machine Learning"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.652Z"
 ---
 
 # 7 Ways I Got My Content Cited by AI (ChatGPT and Claude)

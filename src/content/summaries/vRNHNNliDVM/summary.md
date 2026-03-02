@@ -144,12 +144,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - computer-vision
-  - prompt-engineering
-  - llm
-  - workflow
+  - "computer-vision"
+  - "llm"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.384Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/how-good-is-ai-at-coding-react-really"
 publishedAt: "2025-12-29"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.672Z"
 ---
 
 # How Good Is AI at Coding React (Really)?

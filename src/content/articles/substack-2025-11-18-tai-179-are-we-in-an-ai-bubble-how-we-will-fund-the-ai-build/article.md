@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-179-are-we-in-an-ai-bubble-how"
 publishedAt: "2025-11-18"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.568Z"
 ---
 
 # TAI #179: Are We in an AI Bubble? How We Will Fund the AI Buildout.

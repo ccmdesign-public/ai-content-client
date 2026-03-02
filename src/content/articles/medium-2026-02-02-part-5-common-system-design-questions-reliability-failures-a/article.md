@@ -6,13 +6,13 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-5-common-system-design-questions-reliability-failures-recovery-97be1f1bcce8?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-02"
 tags:
-  - "distributed-systems"
-  - "reliability"
-  - "recovery"
-  - "system-design-interview"
-  - "system-design-concepts"
-  - "frontend"
-  - "programming"
+  - "architecture"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.643Z"
 ---
 
 # Part 5: Common System Design Questions: Reliability, Failures & Recovery

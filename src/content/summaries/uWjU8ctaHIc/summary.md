@@ -81,13 +81,7 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - "reselling"
-  - "entrepreneurship"
-  - "small-business"
-  - "sales"
-  - "side-hustle"
-  - "local-commerce"
-  - "fb-marketplace"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -98,6 +92,7 @@ ai:
   totalTokens: 49341
   processingTimeMs: 64916
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.352Z"
 ---
 
 ## Key Takeaways

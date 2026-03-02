@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/crafting-the-eyes-for-thinking-machines-the-stability-battle-c2bc3e2a3f38?source=rss----98111c9905da---4"
 publishedAt: "2026-02-26"
 tags:
-  - "transformers"
-  - "vision-transformer"
+  - "ai-general"
   - "computer-vision"
   - "machine-learning"
-  - "deep-learning"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.608Z"
 ---
 
 # Crafting the Eyes for Thinking Machines: The Stability Battle

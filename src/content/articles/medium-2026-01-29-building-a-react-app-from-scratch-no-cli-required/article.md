@@ -6,9 +6,14 @@ publicationName: "CodeX"
 url: "https://medium.com/codex/building-a-react-app-from-scratch-no-cli-required-0f5814502b1f?source=rss----29038077e4c6---4"
 publishedAt: "2026-01-29"
 tags:
-  - "reactjs"
-  - "software"
-  - "tutorials"
+  - "education"
+  - "engineering"
+  - "react"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.624Z"
 ---
 
 # Building a React App From Scratch (No CLI Required)

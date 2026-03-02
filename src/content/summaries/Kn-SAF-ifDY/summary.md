@@ -86,13 +86,15 @@ tools:
     url: "https://www.tiimoapp.com/?utm_source=departmentofproduct_newsletter"
 categories:
   - "AI & Machine Learning"
+  - "Product & Design"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - figma
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "figma"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.407Z"
 ---
 
 ## Key Takeaways

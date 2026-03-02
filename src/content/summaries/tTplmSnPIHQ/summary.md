@@ -55,10 +55,11 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - gemini
-  - llm
-  - prompt-engineering
-  - workflow
+  - "gemini"
+  - "llm"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.410Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,17 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/distillation-is-not-the-crime-fraud-is-92313c356ae5?source=rss----98111c9905da---4"
 publishedAt: "2026-02-26"
 tags:
-  - "artificial-intelligence"
-  - "deep-learning"
-  - "technology"
+  - "ai-general"
   - "data-science"
+  - "innovation"
   - "machine-learning"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.673Z"
 ---
 
 # Distillation Is Not the Crime. Fraud Is.

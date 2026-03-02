@@ -7,8 +7,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/ai-assisted-development-with-verification"
 publishedAt: "2025-03-04"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.633Z"
 ---
 
 # AI Code Correct

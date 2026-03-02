@@ -66,16 +66,13 @@ tools:
   - name: "GitHub Copilot"
     url: null
 categories:
-  - "DevOps & Infrastructure"
   - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
 tags:
-  - "github-actions"
+  - "agents"
   - "ci-cd"
-  - "ai-agents"
-  - "devops-automation"
-  - "code-review"
-  - "natural-language-programming"
-  - "github"
+  - "open-source"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +83,7 @@ ai:
   totalTokens: 5944
   processingTimeMs: 47351
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.426Z"
 ---
 
 ## Key Takeaways

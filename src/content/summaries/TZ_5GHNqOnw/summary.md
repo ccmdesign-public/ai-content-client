@@ -43,15 +43,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Tools & Productivity"
   - "Web Development"
 tags:
+  - "agents"
   - "ai-coding"
-  - "web-development"
   - "claude"
-  - "openai-codex"
-  - "cursor"
-  - "ai-agents"
-  - "developer-tools"
+  - "productivity"
+  - "web-development"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -62,6 +61,7 @@ ai:
   totalTokens: 2894
   processingTimeMs: 17024
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.523Z"
 ---
 
 ## Key Takeaways

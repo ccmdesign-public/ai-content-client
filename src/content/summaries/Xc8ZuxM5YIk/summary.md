@@ -46,13 +46,16 @@ tools:
   - name: "QRadar SIEM"
     url: "https://ibm.biz/Bdb6wi"
 categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
   - "Security"
 tags:
-  - penetration-testing
-  - vulnerability
-  - authentication
-  - monitoring
-  - best-practices
+  - "authentication"
+  - "best-practices"
+  - "monitoring"
+  - "penetration-testing"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.413Z"
 ---
 
 ## Key Takeaways

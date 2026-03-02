@@ -52,12 +52,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Product & Design"
+  - "Security"
 tags:
-  - llm
-  - agents
-  - leadership
-  - product-strategy
-  - security
+  - "agents"
+  - "leadership"
+  - "llm"
+  - "product-strategy"
+  - "security-general"
+tagsNormalizedAt: "2026-03-01T21:19:30.269Z"
 ---
 
 ## Key Takeaways

@@ -106,15 +106,16 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Security"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "gemini"
+  - "agents"
   - "ai-coding"
-  - "developer-tools"
-  - "cli"
-  - "security"
-  - "workflow-automation"
+  - "automation"
+  - "gemini"
+  - "productivity"
+  - "security-general"
+  - "terminal"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -125,6 +126,7 @@ ai:
   totalTokens: 7733
   processingTimeMs: 19338
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.513Z"
 ---
 
 ## Key Takeaways

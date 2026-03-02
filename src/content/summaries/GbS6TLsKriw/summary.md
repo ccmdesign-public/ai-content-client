@@ -69,14 +69,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
   - "Tools & Productivity"
 tags:
+  - "automation"
   - "claude"
-  - "ai-productivity"
-  - "prompt-engineering"
-  - "workflow-automation"
-  - "data-analysis"
+  - "data-science"
   - "mcp"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +86,7 @@ ai:
   outputTokens: 642
   totalTokens: 6759
   processingTimeMs: 22023
+tagsNormalizedAt: "2026-03-01T21:19:30.522Z"
 ---
 
 ## Key Takeaways

@@ -91,13 +91,8 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "email-automation"
-  - "workflow-integration"
+  - "agents"
   - "productivity"
-  - "marketing"
-  - "content-creation"
-  - "competitive-analysis"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -108,6 +103,7 @@ ai:
   totalTokens: 9923
   processingTimeMs: 17015
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.428Z"
 ---
 
 ## Key Takeaways

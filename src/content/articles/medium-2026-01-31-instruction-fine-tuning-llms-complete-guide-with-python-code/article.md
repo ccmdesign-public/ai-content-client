@@ -6,12 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/instruction-fine-tuning-llms-complete-guide-with-python-code-gpt-2-llama-alpaca-dataset-0172e1a70766?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
-  - "gpt-2"
-  - "llama-2"
-  - "fine-tuning"
+  - "ai-general"
   - "llm"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.566Z"
 ---
 
 # Instruction Fine-Tuning LLMs: Complete Guide with Python Code (GPT-2, Llama, Alpaca Dataset)

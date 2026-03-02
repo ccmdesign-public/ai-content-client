@@ -81,12 +81,8 @@ categories:
   - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "crm"
-  - "business-automation"
-  - "agency-tools"
-  - "saas"
   - "productivity"
-  - "lead-generation"
+  - "saas"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +93,7 @@ ai:
   totalTokens: 10767
   processingTimeMs: 29185
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.363Z"
 ---
 
 ## Key Takeaways

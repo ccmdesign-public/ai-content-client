@@ -55,14 +55,8 @@ playlistName: "Personal"
 category: "personal"
 tldr: "Flick Connection highlights 10 underrated movies newly added to Prime Video, spanning action, thriller, and drama genres, including CISU, Prisoner of War, The Roundup, Dragged Across Concrete, Daylight, The Eiger Sanction, Before the Devil Knows You're Dead, The 13th Warrior, Apocalypto, and A Simple Plan."
 tools: []
-categories:
-  - "Product & Design"
-tags:
-  - "movie-recommendations"
-  - "prime-video"
-  - "action-films"
-  - "underrated-movies"
-  - "streaming"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -72,6 +66,7 @@ ai:
   outputTokens: 679
   totalTokens: 12830
   processingTimeMs: 40814
+tagsNormalizedAt: "2026-03-01T21:19:30.527Z"
 ---
 
 ## Key Takeaways

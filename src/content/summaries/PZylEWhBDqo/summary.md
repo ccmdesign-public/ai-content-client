@@ -70,15 +70,8 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Product & Design"
 tags:
-  - "saas-growth"
-  - "ai-marketing"
-  - "social-media-marketing"
-  - "organic-growth"
   - "startup"
-  - "product-led-growth"
-  - "content-creation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -89,6 +82,7 @@ ai:
   totalTokens: 12534
   processingTimeMs: 59228
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.506Z"
 ---
 
 ## Key Takeaways

@@ -74,13 +74,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - copilot
-  - git
-  - best-practices
-  - architecture
-  - agents
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "copilot"
+  - "git"
+tagsNormalizedAt: "2026-03-01T21:19:30.261Z"
 ---
 
 ## Key Takeaways

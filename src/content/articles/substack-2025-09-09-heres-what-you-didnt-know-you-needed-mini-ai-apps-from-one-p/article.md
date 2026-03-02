@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/heres-what-you-didnt-know-you-needed"
 publishedAt: "2025-09-09"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.559Z"
 ---
 
 # Here's what you didn't know you needed: Mini-AI Apps from one prompt

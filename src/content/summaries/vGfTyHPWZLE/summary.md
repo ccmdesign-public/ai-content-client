@@ -103,15 +103,12 @@ category: "ai"
 tldr: "Use CSS relative colors with `hsl from` and `oklch from` syntax to generate lighter, darker, and transparent color variations from a single base variable, replacing manual color variables for better consistency and maintainability."
 tools: []
 categories:
+  - "Product & Design"
   - "Web Development"
 tags:
-  - "css"
-  - "relative-colors"
-  - "color-systems"
-  - "frontend"
   - "design-systems"
-  - "oklch"
-  - "hsl"
+  - "html-css"
+  - "web-development"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -121,6 +118,7 @@ ai:
   outputTokens: 899
   totalTokens: 4843
   processingTimeMs: 34427
+tagsNormalizedAt: "2026-03-01T21:19:30.514Z"
 ---
 
 ## Key Takeaways

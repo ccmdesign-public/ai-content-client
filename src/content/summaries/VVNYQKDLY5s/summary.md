@@ -94,12 +94,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Data & Analytics"
+  - "Programming"
 tags:
-  - embeddings
-  - rag
-  - llm
-  - sql
-  - best-practices
+  - "best-practices"
+  - "embeddings"
+  - "llm"
+  - "rag"
+  - "sql"
+tagsNormalizedAt: "2026-03-01T21:19:30.355Z"
 ---
 
 ## Key Takeaways

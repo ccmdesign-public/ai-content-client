@@ -6,13 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/evaluating-metrics-for-rag-systems-and-agentic-ai-7cb189576052?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
-  - "artificial-intelligence"
+  - "ai-general"
   - "machine-learning"
-  - "agentic-ai"
-  - "retrieval-augmented-gen"
-  - "model-evaluation"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.582Z"
 ---
 
 # Evaluating Metrics for RAG Systems and Agentic AI

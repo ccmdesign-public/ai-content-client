@@ -60,15 +60,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
 tags:
-  - "mainframe-modernization"
-  - "cobol"
-  - "ai-adoption"
-  - "ai-agents"
-  - "security-by-design"
+  - "agents"
   - "llm"
-  - "slm"
 ai:
   provider: "openrouter"
   model: "openrouter/google/gemini-2.5-flash"
@@ -79,6 +73,7 @@ ai:
   totalTokens: 32775
   processingTimeMs: 16557
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.548Z"
 ---
 
 ## Key Takeaways

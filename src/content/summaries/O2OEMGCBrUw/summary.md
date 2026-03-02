@@ -76,12 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "value-proposition"
-  - "entrepreneurship"
-  - "marketing"
-  - "sales"
-  - "product-development"
-  - "customer-psychology"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 3723
   processingTimeMs: 42289
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.545Z"
 ---
 
 ## Key Takeaways

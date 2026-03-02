@@ -36,15 +36,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Security"
 tags:
-  - "ai-ethics"
-  - "ai-policy"
-  - "anthropic"
-  - "openai"
-  - "national-security"
-  - "geopolitics"
-  - "corporate-governance"
+  - "chatgpt"
+  - "policy"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -55,6 +50,7 @@ ai:
   totalTokens: 22342
   processingTimeMs: 23730
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.507Z"
 ---
 
 ## Key Takeaways

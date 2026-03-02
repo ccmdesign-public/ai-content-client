@@ -6,13 +6,14 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-3-i-answered-the-common-system-design-questions-so-you-dont-have-to-ee7a48e7cd63?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-01"
 tags:
-  - "system-design-concepts"
-  - "system-design-interview"
+  - "architecture"
+  - "engineering"
   - "performance"
-  - "caching"
-  - "caching-strategies"
-  - "frontend"
-  - "programming"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.586Z"
 ---
 
 # Part 3: Common System Design Questions: Caching and Performance

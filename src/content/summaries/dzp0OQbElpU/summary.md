@@ -117,12 +117,13 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - llm
-  - ai-coding
-  - copilot
-  - career-growth
-  - startup
-  - agents
+  - "agents"
+  - "ai-coding"
+  - "career-growth"
+  - "copilot"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.366Z"
 ---
 
 ## Key Takeaways

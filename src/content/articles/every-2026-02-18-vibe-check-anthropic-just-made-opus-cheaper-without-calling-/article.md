@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-anthropic-just-made-opus-cheaper-without-calling-it-that"
 publishedAt: "2026-02-18"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.612Z"
 ---
 
 # Vibe Check: Anthropic Just Made Opus Cheaper Without Calling It That

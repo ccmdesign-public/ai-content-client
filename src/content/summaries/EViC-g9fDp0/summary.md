@@ -166,15 +166,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-agents"
-  - "llm-models"
-  - "openai"
-  - "anthropic"
-  - "ai-business"
-  - "creative-ai"
-  - "future-of-work"
+  - "agents"
+  - "chatgpt"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -185,6 +179,7 @@ ai:
   totalTokens: 76228
   processingTimeMs: 41302
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.390Z"
 ---
 
 ## Key Takeaways

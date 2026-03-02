@@ -96,15 +96,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
+  - "Security"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
+  - "agents"
+  - "chatgpt"
   - "open-source"
-  - "openai"
-  - "github"
-  - "developer-tools"
-  - "security"
-  - "autonomous-agents"
+  - "productivity"
+  - "security-general"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -115,6 +115,7 @@ ai:
   totalTokens: 18441
   processingTimeMs: 59090
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.391Z"
 ---
 
 ## Key Takeaways

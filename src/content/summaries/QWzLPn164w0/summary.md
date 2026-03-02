@@ -94,15 +94,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-agents"
-  - "enterprise-ai"
-  - "intent-engineering"
+  - "agents"
   - "prompt-engineering"
-  - "context-engineering"
-  - "ai-strategy"
-  - "organizational-alignment"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -113,6 +107,7 @@ ai:
   totalTokens: 18718
   processingTimeMs: 21749
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.541Z"
 ---
 
 ## Key Takeaways

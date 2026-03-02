@@ -75,13 +75,10 @@ tldr: "The video argues that 'pain is the price of progress,' stating that signi
 tools: []
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "mindset"
-  - "entrepreneurship"
-  - "business-growth"
-  - "scaling"
-  - "personal-development"
   - "productivity"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +89,7 @@ ai:
   totalTokens: 2725
   processingTimeMs: 18801
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.431Z"
 ---
 
 ## Key Takeaways

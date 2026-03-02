@@ -6,12 +6,14 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/what-real-value-agentic-system-brings-to-business-94f3cfad3bda?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-11"
 tags:
-  - "agentic-ai"
-  - "fintech"
-  - "banking"
-  - "llm"
   - "data-science"
   - "education"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.562Z"
 ---
 
 # What Real Value Agentic System Brings to Business?

@@ -6,12 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/foundations-of-probability-from-set-theory-to-sigma-algebras-ddd7e7f25ded?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-02"
 tags:
+  - "engineering"
   - "machine-learning"
-  - "probability-theory"
-  - "statistics"
-  - "probability"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.573Z"
 ---
 
 # Foundations of Probability: From Set Theory to Sigma-Algebras

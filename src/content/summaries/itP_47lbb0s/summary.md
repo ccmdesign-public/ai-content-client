@@ -71,10 +71,10 @@ ai:
   processingTimeMs: 59726
 tools: []
 categories:
-  - "Business & Career"
+  - "Product & Design"
 tags:
-  - product-strategy
-  - roadmapping
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.404Z"
 ---
 
 ## Key Takeaways

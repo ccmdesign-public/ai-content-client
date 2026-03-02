@@ -76,13 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "mindset"
-  - "sales"
-  - "fear"
-  - "shame"
-  - "risk-taking"
-  - "startup-growth"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +87,7 @@ ai:
   totalTokens: 7391
   processingTimeMs: 21406
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.381Z"
 ---
 
 ## Key Takeaways

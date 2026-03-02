@@ -88,12 +88,14 @@ tools:
     url: "https://bit.ly/4qSsFXA"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - rag
-  - architecture
-  - model-training
-  - python
+  - "architecture"
+  - "llm"
+  - "model-training"
+  - "python"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.396Z"
 ---
 
 ## Key Takeaways

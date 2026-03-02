@@ -47,15 +47,10 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "agency"
-  - "ai-calls"
-  - "lead-generation"
-  - "saas"
-  - "local-business"
-  - "sales-demo"
   - "automation"
+  - "saas"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -66,6 +61,7 @@ ai:
   totalTokens: 10152
   processingTimeMs: 80955
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.295Z"
 ---
 
 ## Key Takeaways

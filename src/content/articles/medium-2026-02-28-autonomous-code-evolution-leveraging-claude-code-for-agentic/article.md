@@ -6,13 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/autonomous-code-evolution-leveraging-claude-code-for-agentic-refactoring-and-semantic-roi-0d3244924112?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-28"
 tags:
-  - "agentic-ai"
-  - "anthropics"
-  - "claude-code"
-  - "artificial-intelligence"
-  - "anthropic-claude"
-  - "ai"
-  - "beginner"
+  - "ai-general"
+  - "claude"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.662Z"
 ---
 
 # Autonomous Code Evolution: Leveraging Claude Code for Agentic Refactoring and Semantic ROI

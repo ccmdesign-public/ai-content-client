@@ -84,12 +84,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - prompt-engineering
-  - python
-  - automation
+  - "agents"
+  - "automation"
+  - "claude"
+  - "prompt-engineering"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.532Z"
 ---
 
 ## Key Takeaways

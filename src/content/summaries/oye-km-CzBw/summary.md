@@ -104,16 +104,9 @@ tools:
   - name: "Google Password Manager"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
   - "seo"
-  - "brand-monitoring"
-  - "youtube-analytics"
-  - "ai-detection"
-  - "digital-marketing"
-  - "competitive-analysis"
-  - "api-integration"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -124,6 +117,7 @@ ai:
   totalTokens: 5741
   processingTimeMs: 38921
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.306Z"
 ---
 
 ## Key Takeaways

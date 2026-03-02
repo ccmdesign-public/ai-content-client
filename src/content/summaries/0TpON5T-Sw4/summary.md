@@ -123,14 +123,15 @@ tools:
   - name: "Obsidian"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - automation
-  - workflow
-  - chatgpt
-  - claude
-  - llm
+  - "automation"
+  - "chatgpt"
+  - "claude"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.424Z"
 ---
 
 ## Key Takeaways

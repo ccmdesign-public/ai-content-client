@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-claude-haiku-4-5-anthropic-cooked"
 publishedAt: "2025-10-15"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.578Z"
 ---
 
 # Vibe Check: Anthropic Cooked on Claude Haiku 4.5

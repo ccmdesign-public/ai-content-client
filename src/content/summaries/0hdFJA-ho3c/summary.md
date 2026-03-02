@@ -95,12 +95,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - agents
-  - workflow
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.515Z"
 ---
 
 ## Key Takeaways

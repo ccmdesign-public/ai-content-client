@@ -90,10 +90,11 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - automation
-  - terminal
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.487Z"
 ---
 
 ## Key Takeaways

@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/diagnose-it-before-you-prompt-it"
 publishedAt: "2026-02-11"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.651Z"
 ---
 
 # Diagnose it before you prompt it: a system for unpredictable AI output

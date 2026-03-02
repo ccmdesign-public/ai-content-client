@@ -107,11 +107,12 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - chatgpt
-  - agents
-  - ai-coding
-  - startup
-  - indie-hacker
+  - "agents"
+  - "ai-coding"
+  - "chatgpt"
+  - "indie-hacker"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.462Z"
 ---
 
 ## Key Takeaways

@@ -76,10 +76,13 @@ tools:
     url: null
 categories:
   - "Business & Career"
+  - "Data & Analytics"
+  - "Product & Design"
 tags:
-  - analytics
-  - monetization
-  - product-strategy
+  - "analytics"
+  - "monetization"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.425Z"
 ---
 
 ## Key Takeaways

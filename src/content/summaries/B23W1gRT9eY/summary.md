@@ -101,13 +101,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - llm
-  - gemini
-  - agents
-  - automation
-  - workflow
-  - career-growth
+  - "agents"
+  - "automation"
+  - "career-growth"
+  - "gemini"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.520Z"
 ---
 
 ## Key Takeaways

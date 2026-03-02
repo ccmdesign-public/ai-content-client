@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-193-gemini-31-pro-takes-the-benchmarks"
 publishedAt: "2026-02-24"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.558Z"
 ---
 
 # TAI #193: Gemini 3.1 Pro Takes the Benchmarks Crown, but Can it Catch Up in the Tools Race?

@@ -25,16 +25,8 @@ tools:
     url: null
   - name: "Perplexity"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "reddit-marketing"
-  - "seo-strategy"
-  - "content-creation"
-  - "product-development"
-  - "ai-search"
-  - "digital-marketing"
-  - "customer-research"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -45,6 +37,7 @@ ai:
   totalTokens: 2564
   processingTimeMs: 18110
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.302Z"
 ---
 
 ## Key Takeaways

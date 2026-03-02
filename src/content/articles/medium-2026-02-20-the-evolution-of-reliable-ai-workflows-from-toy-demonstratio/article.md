@@ -6,13 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-evolution-of-reliable-ai-workflows-from-toy-demonstrations-to-the-h2e-industrial-framework-f42cc001ad1b?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-20"
 tags:
-  - "agentic-ai"
-  - "ai-governance"
-  - "ai-agent"
+  - "ai-general"
   - "llm"
-  - "artificial-intelligence"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.679Z"
 ---
 
 # The Evolution of Reliable AI Workflows: From Toy Demonstrations to the H2E Industrial Framework

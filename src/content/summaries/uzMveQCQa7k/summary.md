@@ -39,11 +39,11 @@ tools:
   - name: "Recall"
     url: null
 categories:
-  - "DevOps & Infrastructure"
   - "Security"
 tags:
-  - vulnerability
-  - compliance
+  - "compliance"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.278Z"
 ---
 
 ## Key Takeaways

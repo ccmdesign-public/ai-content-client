@@ -76,12 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "mindset"
-  - "personal-development"
-  - "accountability"
-  - "psychology"
-  - "entrepreneurship"
-  - "self-sabotage"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 3721
   processingTimeMs: 41045
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.317Z"
 ---
 
 ## Key Takeaways

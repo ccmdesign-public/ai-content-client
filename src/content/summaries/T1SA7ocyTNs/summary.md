@@ -49,14 +49,8 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "AI & Machine Learning"
 tags:
-  - "ai-agency"
-  - "client-acquisition"
-  - "cold-outreach"
-  - "business-automation"
   - "freelancing"
-  - "marketing-automation"
   - "saas"
 ai:
   provider: "openrouter"
@@ -68,6 +62,7 @@ ai:
   totalTokens: 18848
   processingTimeMs: 30987
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.513Z"
 ---
 
 ## Key Takeaways

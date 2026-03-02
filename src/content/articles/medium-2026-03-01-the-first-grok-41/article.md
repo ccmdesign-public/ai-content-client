@@ -6,13 +6,12 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-first-grok-4-1-2f59a9345d34?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-03-01"
 tags:
-  - "xai-grok"
-  - "ai-agent"
-  - "artificial-intelligence"
-  - "agentic-ai"
+  - "ai-general"
   - "open-source"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.666Z"
 ---
 
 # The First Grok-4.1

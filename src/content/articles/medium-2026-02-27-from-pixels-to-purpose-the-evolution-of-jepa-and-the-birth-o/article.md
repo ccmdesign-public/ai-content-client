@@ -6,13 +6,12 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/from-pixels-to-purpose-the-evolution-of-jepa-and-the-birth-of-autonomous-world-models-6c8782bd527b?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-27"
 tags:
-  - "artificial-intelligence"
-  - "jepa"
-  - "world-models"
-  - "yann-lecun"
+  - "ai-general"
   - "open-source"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.588Z"
 ---
 
 # From Pixels to Purpose: The Evolution of JEPA and the Birth of Autonomous World Models

@@ -6,13 +6,13 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/software-testing-in-a-nutshell-6562aab8df2?source=rss----aa394f020b61---4"
 publishedAt: "2021-02-13"
 tags:
-  - "supertest"
-  - "jest"
-  - "testing"
-  - "slimcoder"
+  - "engineering"
   - "javascript"
-  - "developer"
-  - "programming"
+  - "testing"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.594Z"
 ---
 
 # Software Testing In A Nutshell

@@ -74,14 +74,9 @@ source: "youtube"
 tldr: "Mastering any skill requires consistent practice through **habituation**, not complexity; you can beat most people by sticking with something for a year, and achieve basic competence in just 20 focused hours if you overcome the initial delay to start."
 tools: []
 categories:
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "skill-acquisition"
-  - "habituation"
-  - "consistency"
   - "productivity"
-  - "personal-development"
-  - "overcoming-fear"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 4349
   processingTimeMs: 14734
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.421Z"
 ---
 
 ## Key Takeaways

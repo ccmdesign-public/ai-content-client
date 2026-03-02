@@ -7,8 +7,12 @@ publicationName: "AI Supremacy"
 url: "https://www.ai-supremacy.com/p/how-to-use-notebooklm-with-gemini-real-use-cases"
 publishedAt: "2026-02-17"
 tags:
-  - "ai"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.629Z"
 ---
 
 # How to Use NotebookLM with Gemini: A Practical Guide with 30 Use Cases

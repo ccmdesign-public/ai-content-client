@@ -56,11 +56,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "DevOps & Infrastructure"
 tags:
-  - llm
-  - aws
-  - startup
-  - chatgpt
+  - "aws"
+  - "chatgpt"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.380Z"
 ---
 
 ## Key Takeaways

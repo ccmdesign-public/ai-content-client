@@ -7,8 +7,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/examples-the-lingua-franca-of-aadv"
 publishedAt: "2025-06-19"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.567Z"
 ---
 
 # Examples: The lingua franca of AADV?

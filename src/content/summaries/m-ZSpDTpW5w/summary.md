@@ -26,16 +26,8 @@ tools:
     url: null
   - name: "Clarity"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
-tags:
-  - "ai-summit"
-  - "global-ai"
-  - "corporate-ai"
-  - "ai-adoption"
-  - "ai-inequality"
-  - "india-ai"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -46,6 +38,7 @@ ai:
   totalTokens: 9538
   processingTimeMs: 51554
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.326Z"
 ---
 
 ## Key Takeaways

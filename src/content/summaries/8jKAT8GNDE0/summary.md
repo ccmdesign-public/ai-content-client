@@ -100,15 +100,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "google-gemini"
-  - "ai-strategy"
-  - "llm-comparison"
-  - "reasoning"
-  - "agentic-ai"
-  - "model-routing"
-  - "future-of-work"
+  - "gemini"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -119,6 +112,7 @@ ai:
   totalTokens: 26438
   processingTimeMs: 149247
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.351Z"
 ---
 
 ## Key Takeaways

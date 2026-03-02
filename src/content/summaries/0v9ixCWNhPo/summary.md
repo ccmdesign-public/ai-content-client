@@ -88,17 +88,8 @@ tools:
     url: null
   - name: "Scale AI"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
-tags:
-  - "ai-distillation"
-  - "model-security"
-  - "agentic-ai"
-  - "ai-economics"
-  - "frontier-models"
-  - "benchmarking"
-  - "ai-strategy"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -109,6 +100,7 @@ ai:
   totalTokens: 24604
   processingTimeMs: 40353
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.311Z"
 ---
 
 ## Key Takeaways

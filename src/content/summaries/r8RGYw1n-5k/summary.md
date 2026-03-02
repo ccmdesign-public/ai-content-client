@@ -156,11 +156,12 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - gemini
-  - llm
-  - agents
-  - ai-coding
-  - startup
+  - "agents"
+  - "ai-coding"
+  - "gemini"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.336Z"
 ---
 
 ## Key Takeaways

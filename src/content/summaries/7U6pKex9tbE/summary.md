@@ -113,12 +113,14 @@ tools:
     url: "https://blotato.com/?ref=duncan"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - agents
-  - automation
-  - python
-  - workflow
+  - "agents"
+  - "automation"
+  - "python"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.304Z"
 ---
 
 ## Key Takeaways

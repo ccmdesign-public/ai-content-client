@@ -53,16 +53,8 @@ tools:
     url: null
   - name: "Zapier"
     url: null
-categories:
-  - "Business & Career"
-  - "Tools & Productivity"
-tags:
-  - "agency-growth"
-  - "business-automation"
-  - "crm"
-  - "lead-generation"
-  - "saas-tools"
-  - "client-acquisition"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -73,6 +65,7 @@ ai:
   totalTokens: 11498
   processingTimeMs: 26364
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.322Z"
 ---
 
 ## Key Takeaways

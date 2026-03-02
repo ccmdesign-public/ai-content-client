@@ -145,13 +145,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - llm
-  - claude
-  - gemini
-  - agents
-  - ai-coding
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.298Z"
 ---
 
 ## Key Takeaways

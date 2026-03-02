@@ -87,12 +87,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "claude-code"
   - "ai-coding"
-  - "developer-tools"
-  - "context-window"
   - "automation"
-  - "agentic-workflows"
+  - "claude"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -102,6 +100,7 @@ ai:
   outputTokens: 1023
   totalTokens: 9398
   processingTimeMs: 30119
+tagsNormalizedAt: "2026-03-01T21:19:30.337Z"
 ---
 
 ## Key Takeaways

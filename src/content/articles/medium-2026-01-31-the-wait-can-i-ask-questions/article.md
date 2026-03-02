@@ -6,12 +6,17 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/the-wait-can-i-ask-questions-0a00204b10c3?source=rss----78073def27b8---4"
 publishedAt: "2026-01-31"
 tags:
-  - "artificial-intelligence"
-  - "programming"
+  - "ai-general"
+  - "data-science"
+  - "education"
+  - "engineering"
   - "python"
-  - "data-analysis"
-  - "careers"
-  - "tutorials"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.646Z"
 ---
 
 # The “Wait… Can I Ask Questions?”

@@ -139,15 +139,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
 tags:
-  - "ai-agents"
-  - "web-design"
-  - "3d-animation"
-  - "no-code"
-  - "spline"
-  - "antigravity"
-  - "website-deployment"
+  - "agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -157,6 +150,7 @@ ai:
   outputTokens: 914
   totalTokens: 16813
   processingTimeMs: 66411
+tagsNormalizedAt: "2026-03-01T21:19:30.314Z"
 ---
 
 ## Key Takeaways

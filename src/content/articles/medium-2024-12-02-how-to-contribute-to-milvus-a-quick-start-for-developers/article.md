@@ -6,11 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/how-to-contribute-to-milvus-a-quick-start-for-developers-800205b37662?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2024-12-02"
 tags:
-  - "vector-database"
-  - "milvus"
-  - "contribute-to-milvus"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.617Z"
 ---
 
 # How to Contribute to Milvus: A Quick Start for Developers

@@ -39,15 +39,9 @@ tools:
   - name: "ChatGPT"
     url: null
 categories:
-  - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "llm-psychosis"
   - "leadership"
-  - "future-of-work"
-  - "business-testing"
-  - "ai-ethics"
-  - "human-ai-collaboration"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -58,6 +52,7 @@ ai:
   totalTokens: 6673
   processingTimeMs: 68037
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.394Z"
 ---
 
 ## Key Takeaways

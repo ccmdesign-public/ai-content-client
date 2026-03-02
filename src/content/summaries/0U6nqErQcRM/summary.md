@@ -76,13 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
+  - "interviewing"
   - "startup"
-  - "recruiting"
-  - "hiring"
-  - "talent-acquisition"
-  - "equity"
-  - "negotiation"
-  - "founder"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +88,7 @@ ai:
   totalTokens: 4468
   processingTimeMs: 15446
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.349Z"
 ---
 
 ## Key Takeaways

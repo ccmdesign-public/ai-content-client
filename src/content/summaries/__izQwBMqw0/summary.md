@@ -94,15 +94,18 @@ tools:
   - name: "C++"
     url: null
 categories:
-  - "Security"
+  - "DevOps & Infrastructure"
+  - "Mobile Development"
   - "Programming"
+  - "Security"
 tags:
-  - vulnerability
-  - rust
-  - go
-  - swift
-  - monitoring
-  - best-practices
+  - "best-practices"
+  - "go"
+  - "monitoring"
+  - "rust"
+  - "swift"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.328Z"
 ---
 
 ## Key Takeaways

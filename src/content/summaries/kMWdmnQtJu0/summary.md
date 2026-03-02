@@ -77,12 +77,14 @@ tools:
     url: null
 categories:
   - "Product & Design"
+  - "Programming"
 tags:
-  - ux
-  - figma
-  - design-systems
-  - product-strategy
-  - best-practices
+  - "best-practices"
+  - "design-systems"
+  - "figma"
+  - "product-strategy"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.365Z"
 ---
 
 ## Key Takeaways

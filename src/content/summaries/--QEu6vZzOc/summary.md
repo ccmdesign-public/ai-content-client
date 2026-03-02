@@ -76,13 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "business-growth"
-  - "wealth-building"
-  - "tax-efficiency"
-  - "scaling"
-  - "finance"
-  - "enterprise-value"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +87,7 @@ ai:
   totalTokens: 3444
   processingTimeMs: 16564
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.514Z"
 ---
 
 ## Key Takeaways

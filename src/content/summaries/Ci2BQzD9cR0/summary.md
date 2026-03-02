@@ -21,15 +21,9 @@ tools:
     url: null
 categories:
   - "Product & Design"
-  - "Web Development"
 tags:
-  - "ux-design"
-  - "ui-design"
-  - "web-design"
-  - "bento-grid"
-  - "information-architecture"
-  - "user-experience"
-  - "design-trends"
+  - "ui"
+  - "ux"
 ai:
   provider: "openrouter"
   model: "openrouter/google/gemini-2.5-flash"
@@ -40,6 +34,7 @@ ai:
   totalTokens: 3490
   processingTimeMs: 59838
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.450Z"
 ---
 
 ## Key Takeaways

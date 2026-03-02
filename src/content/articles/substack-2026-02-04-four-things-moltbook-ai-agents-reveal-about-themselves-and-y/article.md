@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/four-things-moltbook-ai-agents-reveal"
 publishedAt: "2026-02-04"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.551Z"
 ---
 
 # Four things Moltbook AI agents reveal about themselves and your workflows

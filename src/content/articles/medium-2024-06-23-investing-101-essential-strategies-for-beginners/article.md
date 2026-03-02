@@ -6,12 +6,14 @@ publicationName: "AI Guys"
 url: "https://medium.com/ai-guys/investing-101-essential-strategies-for-beginners-b3f98f88e2af?source=rss----90b968f6dbf8---4"
 publishedAt: "2024-06-23"
 tags:
-  - "investing"
-  - "money"
-  - "investment"
-  - "finance"
-  - "ai"
+  - "ai-general"
   - "applications"
+  - "monetization"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Mobile Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.587Z"
 ---
 
 # Investing 101: Essential Strategies for Beginners

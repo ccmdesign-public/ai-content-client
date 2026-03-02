@@ -6,13 +6,11 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/how-to-even-your-forked-repo-with-the-source-51e17b7e464e?source=rss----aa394f020b61---4"
 publishedAt: "2020-12-02"
 tags:
-  - "repositories"
-  - "even"
-  - "updates"
-  - "fork"
-  - "github"
-  - "developer"
-  - "programming"
+  - "engineering"
+  - "open-source"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.661Z"
 ---
 
 # How to even your forked repo with the source

@@ -29,13 +29,10 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - "spec-driven-development"
   - "ai-coding"
+  - "engineering"
   - "llm"
-  - "software-development"
   - "prompt-engineering"
-  - "sdlc"
-  - "coding-agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -46,6 +43,7 @@ ai:
   totalTokens: 7179
   processingTimeMs: 47482
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.397Z"
 ---
 
 ## Key Takeaways

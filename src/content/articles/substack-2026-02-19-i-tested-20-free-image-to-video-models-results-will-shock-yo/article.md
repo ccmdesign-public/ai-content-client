@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/tested-20-free-image-to-video-models"
 publishedAt: "2026-02-19"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.626Z"
 ---
 
 # I Tested 20 Free Image-To-Video Models. Results Will Shock You! (But Only if You’re Easily Startled.)

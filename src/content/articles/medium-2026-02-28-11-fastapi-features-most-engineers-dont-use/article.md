@@ -6,11 +6,17 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/11-fastapi-features-most-engineers-dont-use-56d940fb98d8?source=rss----78073def27b8---4"
 publishedAt: "2026-02-28"
 tags:
-  - "python"
+  - "ai-general"
   - "data-science"
-  - "programming"
-  - "artificial-intelligence"
-  - "tutorials"
+  - "education"
+  - "engineering"
+  - "python"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.570Z"
 ---
 
 # 11 FastAPI Features Most Engineers Don’t Use

@@ -43,16 +43,8 @@ processedAt: "2026-02-23T18:03:32.612Z"
 source: "youtube"
 tldr: "Agency owners Adam and Dave share a comprehensive framework for scaling a marketing agency by transitioning from doing all the work yourself to becoming a strategic conductor who focuses on client acquisition, delegates execution to contractors, and builds productized systems for location-independent freedom."
 tools: []
-categories:
-  - "Business & Career"
-tags:
-  - "agency-scaling"
-  - "client-acquisition"
-  - "contractors"
-  - "delegation"
-  - "niching"
-  - "productized-services"
-  - "business-automation"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -63,6 +55,7 @@ ai:
   totalTokens: 36030
   processingTimeMs: 36631
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.357Z"
 ---
 
 ## Key Takeaways

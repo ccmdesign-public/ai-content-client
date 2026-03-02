@@ -144,13 +144,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Product & Design"
+  - "Web Development"
 tags:
-  - gemini
-  - ai-coding
-  - ui
-  - ux
-  - react
-  - tailwind
+  - "ai-coding"
+  - "gemini"
+  - "react"
+  - "tailwind"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.263Z"
 ---
 
 ## Key Takeaways

@@ -99,15 +99,9 @@ tools:
   - name: "Google Analytics"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
   - "seo"
-  - "brand-monitoring"
-  - "ai-tracking"
-  - "social-media-analytics"
-  - "product-update"
-  - "marketing-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -118,6 +112,7 @@ ai:
   totalTokens: 5263
   processingTimeMs: 28059
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.452Z"
 ---
 
 ## Key Takeaways

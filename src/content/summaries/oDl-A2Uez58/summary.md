@@ -141,13 +141,10 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "one-person-business"
+  - "agents"
   - "automation"
-  - "content-creation"
-  - "business-automation"
-  - "ai-workflow"
   - "startup"
 ai:
   provider: "openrouter"
@@ -159,6 +156,7 @@ ai:
   totalTokens: 9794
   processingTimeMs: 194426
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.523Z"
 ---
 
 ## Key Takeaways

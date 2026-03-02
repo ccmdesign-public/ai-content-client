@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-184-gemini-3-flash-is-3x-faster"
 publishedAt: "2025-12-23"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.674Z"
 ---
 
 # TAI #184: Gemini 3 Flash is 3x Faster and 4x Cheaper than Pro and even wins on some benchmarks

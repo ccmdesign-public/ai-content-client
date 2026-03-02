@@ -6,13 +6,11 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/please-hold-the-impatient-data-queue-named-buffers-34dc37e2da32?source=rss----b680b860beb1---4"
 publishedAt: "2026-02-25"
 tags:
-  - "circular-buffer"
-  - "operating-systems"
-  - "queue"
-  - "buffer"
-  - "fundamentals"
-  - "data-science"
   - "analytics"
+  - "data-science"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.561Z"
 ---
 
 # Please hold — The Impatient Data Queue named Buffers

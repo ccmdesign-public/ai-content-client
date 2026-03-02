@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-187-openais-health-push-and-the"
 publishedAt: "2026-01-13"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.575Z"
 ---
 
 # TAI #187: OpenAI's Health Push and the Real State of LLMs in Medicine

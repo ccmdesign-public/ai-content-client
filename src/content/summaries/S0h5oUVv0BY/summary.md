@@ -128,13 +128,9 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "ai-transformation"
-  - "future-of-work"
+  - "agents"
+  - "business"
   - "prompt-engineering"
-  - "ai-agents"
-  - "business-strategy"
-  - "career-advice"
-  - "reid-hoffman"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -144,6 +140,7 @@ ai:
   outputTokens: 1068
   totalTokens: 20902
   processingTimeMs: 23324
+tagsNormalizedAt: "2026-03-01T21:19:30.281Z"
 ---
 
 ## Key Takeaways

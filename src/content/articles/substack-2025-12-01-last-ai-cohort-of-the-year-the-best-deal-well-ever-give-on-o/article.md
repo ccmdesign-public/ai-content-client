@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/last-ai-cohort-of-the-year-the-best"
 publishedAt: "2025-12-01"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.661Z"
 ---
 
 # Last AI cohort of the year + the best deal we’ll ever give on our AI engineering path (40% off)

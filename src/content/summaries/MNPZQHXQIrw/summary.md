@@ -84,14 +84,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
   - "Tools & Productivity"
 tags:
-  - "ai-productivity"
-  - "data-analysis"
-  - "email-analysis"
   - "automation"
-  - "personal-ai"
-  - "business-intelligence"
+  - "data-science"
   - "prompt-engineering"
 ai:
   provider: "openrouter"
@@ -103,6 +100,7 @@ ai:
   totalTokens: 16361
   processingTimeMs: 33373
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.334Z"
 ---
 
 ## Key Takeaways

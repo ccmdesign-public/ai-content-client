@@ -64,14 +64,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
-  - "ai-agent"
-  - "claude-code"
-  - "live-coding"
-  - "twitch-integration"
-  - "terminal-multiplexer"
-  - "autonomous-coding"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -82,6 +76,7 @@ ai:
   totalTokens: 12859
   processingTimeMs: 23048
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.429Z"
 ---
 
 ## Key Takeaways

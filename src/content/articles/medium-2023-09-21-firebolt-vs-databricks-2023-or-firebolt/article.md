@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/firebolt-vs-databricks-2023-firebolt-4bc7a1f22517?s
 publishedAt: "2023-09-21"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.666Z"
 ---
 
 # Firebolt vs. Databricks (2023) | Firebolt

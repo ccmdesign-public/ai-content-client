@@ -122,15 +122,9 @@ tools:
   - name: "Salesforce"
     url: null
 categories:
-  - "Business & Career"
+  - "Web Development"
 tags:
-  - "content-marketing"
-  - "conversion-optimization"
   - "seo"
-  - "ai-search"
-  - "digital-marketing"
-  - "lead-generation"
-  - "ecommerce"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -141,6 +135,7 @@ ai:
   totalTokens: 23747
   processingTimeMs: 29702
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.449Z"
 ---
 
 ## Key Takeaways

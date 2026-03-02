@@ -73,14 +73,15 @@ tools:
   - name: "Visual Studio Code"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - git
-  - vscode
-  - ai-coding
-  - copilot
-  - workflow
+  - "ai-coding"
+  - "copilot"
+  - "git"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.460Z"
 ---
 
 ## Key Takeaways

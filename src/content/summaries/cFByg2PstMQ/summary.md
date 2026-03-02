@@ -87,16 +87,10 @@ tools:
   - name: "Mailchimp"
     url: null
 categories:
-  - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "agency"
-  - "marketing"
-  - "crm"
   - "automation"
-  - "funnels"
   - "productivity"
-  - "business-startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -107,6 +101,7 @@ ai:
   totalTokens: 12703
   processingTimeMs: 76754
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.319Z"
 ---
 
 ## Key Takeaways

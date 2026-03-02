@@ -65,9 +65,10 @@ categories:
   - "AI & Machine Learning"
   - "Product & Design"
 tags:
-  - prompt-engineering
-  - ui
-  - gemini
+  - "gemini"
+  - "prompt-engineering"
+  - "ui"
+tagsNormalizedAt: "2026-03-01T21:19:30.356Z"
 ---
 
 ## Key Takeaways

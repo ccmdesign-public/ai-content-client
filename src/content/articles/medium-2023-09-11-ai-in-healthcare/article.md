@@ -6,8 +6,12 @@ publicationName: "AI Guys"
 url: "https://medium.com/ai-guys/ai-in-healthcare-fb636f32e9ab?source=rss----90b968f6dbf8---4"
 publishedAt: "2023-09-11"
 tags:
-  - "ai"
+  - "ai-general"
   - "applications"
+categories:
+  - "AI & Machine Learning"
+  - "Mobile Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.563Z"
 ---
 
 # AI In Healthcare

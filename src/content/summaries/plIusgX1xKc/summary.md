@@ -104,15 +104,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
 tags:
-  - "ai-image-generation"
-  - "digital-marketing"
-  - "google-gemini"
-  - "product-design"
-  - "content-creation"
+  - "gemini"
   - "prompt-engineering"
-  - "creative-workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -123,6 +117,7 @@ ai:
   totalTokens: 13367
   processingTimeMs: 72384
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.378Z"
 ---
 
 ## Key Takeaways

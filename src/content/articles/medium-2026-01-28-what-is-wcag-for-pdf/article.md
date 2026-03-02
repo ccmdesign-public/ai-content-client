@@ -6,12 +6,17 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/what-is-wcag-for-pdf-deec12e818b0?source=rss----b680b860beb1---4"
 publishedAt: "2026-01-28"
 tags:
+  - "accessibility"
+  - "ai-general"
+  - "analytics"
   - "data-science"
   - "web-development"
-  - "accessibility"
-  - "pdf-converter"
-  - "artificial-intelligence"
-  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Product & Design"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.587Z"
 ---
 
 # What is WCAG for PDF

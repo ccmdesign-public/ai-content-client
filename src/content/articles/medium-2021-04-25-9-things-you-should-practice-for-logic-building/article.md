@@ -6,12 +6,14 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/9-things-you-should-practice-for-logic-building-d7b026c99c14?source=rss----aa394f020b61---4"
 publishedAt: "2021-04-25"
 tags:
-  - "programmers-life"
-  - "programming"
-  - "javascript"
+  - "engineering"
   - "java"
+  - "javascript"
   - "python"
-  - "developer"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.664Z"
 ---
 
 # 9 Things You Should Practice for Logic Building

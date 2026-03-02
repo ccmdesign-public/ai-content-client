@@ -6,12 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/best-range-input-library-540dfb2f2ea1?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-20"
 tags:
-  - "tanstack"
+  - "engineering"
+  - "html-css"
   - "react"
-  - "range-input"
-  - "html"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.624Z"
 ---
 
 # What is the Range Input?

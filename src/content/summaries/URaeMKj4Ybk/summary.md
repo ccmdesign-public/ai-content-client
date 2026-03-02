@@ -29,9 +29,10 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - startup
-  - saas
-  - monetization
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.350Z"
 ---
 
 ## Key Takeaways

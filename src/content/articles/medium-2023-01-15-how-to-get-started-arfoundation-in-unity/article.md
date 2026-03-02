@@ -6,12 +6,12 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/how-to-get-started-arfoundation-in-unity-f0a050b3585f?source=rss----aa394f020b61---4"
 publishedAt: "2023-01-15"
 tags:
-  - "unity3d"
-  - "technology"
-  - "augmented-reality"
-  - "3d"
-  - "developer"
-  - "programming"
+  - "engineering"
+  - "innovation"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.629Z"
 ---
 
 # How to get started: ARFoundation in Unity

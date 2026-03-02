@@ -6,13 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/understanding-swift-strings-unicode-encoding-and-performance-5b487d41569b?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-25"
 tags:
-  - "software-development"
+  - "engineering"
   - "swift"
-  - "programming"
-  - "software-engineering"
-  - "ios-development"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "Mobile Development"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.634Z"
 ---
 
 # Understanding Swift Strings: Unicode, Encoding, and Performance

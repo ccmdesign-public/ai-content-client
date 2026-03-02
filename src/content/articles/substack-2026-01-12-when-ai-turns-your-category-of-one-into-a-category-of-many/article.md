@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/when-ai-turns-your-category-of-one"
 publishedAt: "2026-01-12"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.566Z"
 ---
 
 # When AI turns your Category-of-One into a Category-of-Many

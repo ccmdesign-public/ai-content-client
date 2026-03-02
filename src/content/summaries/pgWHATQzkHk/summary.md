@@ -101,15 +101,18 @@ tools:
   - name: "OpenAI API"
     url: null
 categories:
-  - "Tools & Productivity"
+  - "Data & Analytics"
   - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - typescript
-  - react
-  - docker
-  - kubernetes
-  - postgresql
-  - workflow
+  - "docker"
+  - "kubernetes"
+  - "postgresql"
+  - "react"
+  - "typescript"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.267Z"
 ---
 
 ## Key Takeaways

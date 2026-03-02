@@ -7,8 +7,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/streamlining-the-cax-cycle"
 publishedAt: "2025-05-12"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.603Z"
 ---
 
 # Streamlining the CAX cycle

@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/googles-agents-companion-30-off-marilys"
 publishedAt: "2025-04-28"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.650Z"
 ---
 
 # Google's Agents Companion | 30% off Marily's AI Product Management Certification (May only) | Important AI reality check

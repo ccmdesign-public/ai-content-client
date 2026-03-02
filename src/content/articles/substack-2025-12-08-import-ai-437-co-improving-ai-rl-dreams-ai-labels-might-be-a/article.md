@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-437-co-improving-ai-rl"
 publishedAt: "2025-12-08"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.605Z"
 ---
 
 # Import AI 437: Co-improving AI; RL dreams; AI labels might be annoying

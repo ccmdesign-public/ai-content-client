@@ -69,12 +69,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - agents
-  - ai-coding
-  - saas
-  - product-strategy
-  - gemini
+  - "agents"
+  - "ai-coding"
+  - "gemini"
+  - "product-strategy"
+  - "saas"
+tagsNormalizedAt: "2026-03-01T21:19:30.324Z"
 ---
 
 ## Key Takeaways

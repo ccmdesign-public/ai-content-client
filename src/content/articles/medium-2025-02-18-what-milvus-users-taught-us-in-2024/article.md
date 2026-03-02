@@ -6,8 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/what-milvus-users-taught-us-in-2024-7e082d0e1759?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2025-02-18"
 tags:
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.616Z"
 ---
 
 # What Milvus Users Taught Us in 2024

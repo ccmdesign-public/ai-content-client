@@ -118,11 +118,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - automation
-  - workflow
-  - copilot
+  - "agents"
+  - "automation"
+  - "claude"
+  - "copilot"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.336Z"
 ---
 
 ## Key Takeaways

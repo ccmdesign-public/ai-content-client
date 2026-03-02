@@ -23,16 +23,9 @@ tools:
   - name: "Cursor"
     url: null
 categories:
-  - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "ai-sales"
-  - "sales-enablement"
   - "saas"
-  - "startup-pivot"
-  - "yc"
-  - "enterprise-ai"
-  - "revenue-operations"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -43,6 +36,7 @@ ai:
   totalTokens: 8420
   processingTimeMs: 19974
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.381Z"
 ---
 
 ## Key Takeaways

@@ -6,12 +6,12 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/why-percentages-alone-are-dangerous-1216e80c7522?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-27"
 tags:
-  - "perception"
-  - "cognitive-bias"
-  - "bias"
-  - "data-analysis"
   - "data-science"
   - "education"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.637Z"
 ---
 
 # Why Percentages Alone are Dangerous

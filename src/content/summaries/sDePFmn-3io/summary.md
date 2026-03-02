@@ -76,13 +76,8 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-automation"
-  - "content-repurposing"
-  - "n8n"
-  - "workflow-automation"
-  - "ai-agents"
-  - "pdf-processing"
-  - "marketing-automation"
+  - "agents"
+  - "automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +88,7 @@ ai:
   totalTokens: 17259
   processingTimeMs: 25920
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.399Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,17 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/stop-blaming-your-data-your-bert-fine-tuning-strategy-is-the-problem-2b0d62e70d1a?source=rss----98111c9905da---4"
 publishedAt: "2026-02-27"
 tags:
-  - "deep-learning"
+  - "ai-general"
   - "data-science"
   - "machine-learning"
+  - "model-training"
   - "nlp"
-  - "towards-data-science"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.660Z"
 ---
 
 # Stop Blaming Your Data. Your BERT Fine-Tuning Strategy Is the Problem.

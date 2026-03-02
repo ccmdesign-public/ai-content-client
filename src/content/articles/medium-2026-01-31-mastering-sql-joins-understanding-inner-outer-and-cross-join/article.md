@@ -6,12 +6,17 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/mastering-sql-joins-understanding-inner-outer-and-cross-joins-012794f79617?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
-  - "machine-learning"
-  - "data-analytics"
+  - "ai-general"
+  - "analytics"
   - "data-science"
-  - "sql"
-  - "ai"
+  - "machine-learning"
   - "research"
+  - "sql"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.578Z"
 ---
 
 # Mastering SQL Joins: Understanding Inner, Outer, and Cross Joins

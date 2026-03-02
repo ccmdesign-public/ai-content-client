@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/ai-wont-kill-junior-devs-but-your"
 publishedAt: "2025-05-10"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.603Z"
 ---
 
 # AI Won't Kill Junior Devs - But Your Hiring Strategy Might

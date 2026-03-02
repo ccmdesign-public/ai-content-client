@@ -118,14 +118,13 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "claude-ai"
-  - "ai-agents"
-  - "digital-marketing"
-  - "advertising"
-  - "saas"
+  - "agents"
   - "automation"
-  - "business-strategy"
+  - "business"
+  - "claude"
+  - "saas"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -136,6 +135,7 @@ ai:
   totalTokens: 11308
   processingTimeMs: 25728
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.309Z"
 ---
 
 ## Key Takeaways

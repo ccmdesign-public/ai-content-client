@@ -57,11 +57,13 @@ tools:
     url: "https://vanta.com/nlw"
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
 tags:
-  - chatgpt
-  - llm
-  - agents
-  - analytics
+  - "agents"
+  - "analytics"
+  - "chatgpt"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.387Z"
 ---
 
 ## Key Takeaways

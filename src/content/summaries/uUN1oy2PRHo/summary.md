@@ -79,11 +79,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "openclaw"
-  - "ai-agents"
-  - "business-automation"
+  - "agents"
+  - "automation"
   - "claude"
-  - "task-automation"
   - "productivity"
 ai:
   provider: "openrouter"
@@ -95,6 +93,7 @@ ai:
   totalTokens: 16677
   processingTimeMs: 71211
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.370Z"
 ---
 
 ## Key Takeaways

@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/agent-native-architectures-how-to-build-apps-after-the-end-of-code"
 publishedAt: "2026-01-09"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.671Z"
 ---
 
 # Agent-native Architectures: How to Build Apps After the End of Code

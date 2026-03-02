@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/treat-ai-generated-code-as-a-draft"
 publishedAt: "2025-11-25"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.557Z"
 ---
 
 # Treat AI-Generated code as a draft

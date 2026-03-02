@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-cursor-2-0-and-composer-1-alpha"
 publishedAt: "2025-10-29"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.641Z"
 ---
 
 # Vibe Check: Cursor 2.0 and Composer 1 Alpha

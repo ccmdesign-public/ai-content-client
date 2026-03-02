@@ -6,8 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/milvus-2025-roadmap-tell-us-what-you-think-524b2f77ec36?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2025-04-28"
 tags:
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.631Z"
 ---
 
 # Milvus 2025 Roadmap — Tell Us What You Think

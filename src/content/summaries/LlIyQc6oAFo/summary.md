@@ -108,16 +108,13 @@ tools:
   - name: "Model Context Protocol"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - "ai-design"
+  - "automation"
   - "design-systems"
-  - "workflow-automation"
   - "mcp"
-  - "google-ai"
-  - "prototyping"
-  - "ide-integration"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -128,6 +125,7 @@ ai:
   totalTokens: 13544
   processingTimeMs: 90392
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.272Z"
 ---
 
 ## Key Takeaways

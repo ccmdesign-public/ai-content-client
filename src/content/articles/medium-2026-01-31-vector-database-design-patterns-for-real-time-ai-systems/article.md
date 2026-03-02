@@ -6,13 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/vector-database-design-patterns-for-real-time-ai-systems-b99e7a125333?source=rss----98111c9905da---4"
 publishedAt: "2026-01-31"
 tags:
+  - "ai-general"
   - "machine-learning"
-  - "genertive-ai"
-  - "agentic-ai"
-  - "vector-database"
-  - "artificial-intelligence"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.592Z"
 ---
 
 # Vector Database Design Patterns for Real-Time AI Systems

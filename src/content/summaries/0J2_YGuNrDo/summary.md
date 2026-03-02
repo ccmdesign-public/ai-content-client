@@ -138,13 +138,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "claude-code"
-  - "ai-agents"
+  - "agents"
+  - "automation"
+  - "claude"
   - "mcp"
-  - "workflow-automation"
-  - "ai-orchestration"
-  - "content-creation"
-  - "marketing-automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -155,6 +152,7 @@ ai:
   totalTokens: 12315
   processingTimeMs: 29430
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.339Z"
 ---
 
 ## Key Takeaways

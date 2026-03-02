@@ -12,16 +12,8 @@ processedAt: "2026-02-23T17:23:18.469Z"
 source: "youtube"
 tldr: "An AI medical assistant for aesthetic clinics automates lead follow-ups, booking consultations in 60 seconds with zero payroll costs, generating 20+ new patients/month and saving thousands."
 tools: []
-categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
-tags:
-  - "ai-automation"
-  - "medical-ai"
-  - "lead-generation"
-  - "business-automation"
-  - "healthcare-tech"
-  - "conversational-ai"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -32,6 +24,7 @@ ai:
   totalTokens: 3085
   processingTimeMs: 19741
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.323Z"
 ---
 
 ## Key Takeaways

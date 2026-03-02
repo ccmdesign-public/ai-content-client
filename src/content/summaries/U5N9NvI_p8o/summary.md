@@ -40,15 +40,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Security"
 tags:
-  - "llm"
-  - "ai-safety"
-  - "workplace-ai"
   - "chatgpt"
-  - "deepmind"
-  - "ai-psychology"
-  - "risk-management"
+  - "llm"
+  - "policy"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -59,6 +55,7 @@ ai:
   totalTokens: 3082
   processingTimeMs: 17109
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.372Z"
 ---
 
 ## Key Takeaways

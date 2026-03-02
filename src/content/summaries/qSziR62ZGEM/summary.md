@@ -102,15 +102,11 @@ tools:
     url: null
 categories:
   - "Product & Design"
-  - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "figma"
-  - "ai-design"
-  - "design-systems"
-  - "cursor-ai"
-  - "ui-ux"
-  - "product-design"
   - "automation"
+  - "design-systems"
+  - "figma"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -121,6 +117,7 @@ ai:
   totalTokens: 28381
   processingTimeMs: 49149
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.265Z"
 ---
 
 ## Key Takeaways

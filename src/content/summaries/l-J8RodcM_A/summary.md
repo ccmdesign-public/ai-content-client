@@ -143,15 +143,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
+  - "agents"
   - "productivity"
-  - "startup-tools"
-  - "business-automation"
-  - "cold-outreach"
-  - "competitive-intelligence"
-  - "financial-analysis"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -162,6 +157,7 @@ ai:
   totalTokens: 26169
   processingTimeMs: 48226
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.287Z"
 ---
 
 ## Key Takeaways

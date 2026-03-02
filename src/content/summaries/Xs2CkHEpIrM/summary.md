@@ -110,13 +110,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Programming"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - rag
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.368Z"
 ---
 
 ## Key Takeaways

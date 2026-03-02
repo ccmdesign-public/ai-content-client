@@ -6,13 +6,10 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/crafting-cfps-that-strike-a-chord-conferences-are-cool-speaking-at-them-is-cooler-66792c212f52?source=rss----aa394f020b61---4"
 publishedAt: "2023-01-15"
 tags:
-  - "speakers"
-  - "community"
-  - "conference"
-  - "proposal-writing"
-  - "cfp"
-  - "developer"
-  - "programming"
+  - "engineering"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.655Z"
 ---
 
 # Crafting CFPs that strike a chord: Conferences are cool, speaking at them is cooler

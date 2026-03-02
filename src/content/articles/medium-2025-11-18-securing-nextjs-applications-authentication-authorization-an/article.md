@@ -6,12 +6,15 @@ publicationName: "The Backend Tech"
 url: "https://medium.com/thebackendtech/securing-next-js-applications-authentication-authorization-and-beyond-c4355efbbe82?source=rss----33614872e155---4"
 publishedAt: "2025-11-18"
 tags:
-  - "security"
-  - "backend-development"
-  - "nextjs-tutorial"
-  - "nextjs"
-  - "backend"
   - "architecture"
+  - "nextjs"
+  - "security-general"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Security"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.581Z"
 ---
 
 # Securing Next.js Applications: Authentication, Authorization, and Beyond

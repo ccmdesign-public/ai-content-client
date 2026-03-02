@@ -6,13 +6,12 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/how-i-stopped-caring-about-losses-and-saved-my-trading-career-b746a5d252eb?source=rss----32881626c9c9---4"
 publishedAt: "2026-01-25"
 tags:
-  - "money"
-  - "cryptocurrency"
-  - "investing"
-  - "trading"
-  - "psychology"
   - "data-science"
-  - "finance"
+  - "monetization"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.614Z"
 ---
 
 # How I Stopped Caring About Losses (And Saved My Trading Career)

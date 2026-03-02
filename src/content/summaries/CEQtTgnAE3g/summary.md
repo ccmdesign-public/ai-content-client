@@ -16,12 +16,7 @@ categories:
   - "Product & Design"
 tags:
   - "accessibility"
-  - "inclusive-design"
-  - "disability"
-  - "user-experience"
-  - "empathy"
-  - "web-design"
-  - "personal-story"
+  - "ux"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -32,6 +27,7 @@ ai:
   totalTokens: 2894
   processingTimeMs: 19489
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.363Z"
 ---
 
 ## Key Takeaways

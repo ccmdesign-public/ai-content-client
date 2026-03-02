@@ -72,13 +72,14 @@ ai:
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Data & Analytics"
+  - "Programming"
 tags:
-  - llm
-  - rag
-  - embeddings
-  - architecture
-  - best-practices
+  - "architecture"
+  - "best-practices"
+  - "embeddings"
+  - "llm"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.361Z"
 ---
 
 ## Key Takeaways

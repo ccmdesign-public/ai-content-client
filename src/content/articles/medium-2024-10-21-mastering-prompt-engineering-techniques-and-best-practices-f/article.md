@@ -6,13 +6,17 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/mastering-prompt-engineering-techniques-and-best-practices-for-large-language-models-810317336d60?source=rss----5878f1e5f050---4"
 publishedAt: "2024-10-21"
 tags:
-  - "artificial-intelligence"
-  - "prompt-engineering"
-  - "large-language-models"
-  - "deep-learning"
-  - "naturallanguageprocessing"
+  - "ai-general"
   - "analytics"
   - "business"
+  - "llm"
+  - "model-training"
+  - "prompt-engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.627Z"
 ---
 
 # Mastering Prompt Engineering: Techniques and Best Practices for Large Language Models

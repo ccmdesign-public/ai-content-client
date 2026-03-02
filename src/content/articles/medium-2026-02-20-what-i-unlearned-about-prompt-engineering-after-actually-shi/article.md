@@ -6,13 +6,16 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/what-i-unlearned-about-prompt-engineering-after-actually-shipping-with-it-3fc3a29eb8f5?source=rss----b680b860beb1---4"
 publishedAt: "2026-02-20"
 tags:
-  - "ai-agent"
-  - "software-development"
-  - "prompt-engineering"
-  - "llm"
-  - "programming"
-  - "data-science"
   - "analytics"
+  - "data-science"
+  - "engineering"
+  - "llm"
+  - "prompt-engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.660Z"
 ---
 
 # What I Unlearned About Prompt Engineering After Actually Shipping With It

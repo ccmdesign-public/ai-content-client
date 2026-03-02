@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/the-ai-tutor-i-built-in-claude-that"
 publishedAt: "2026-02-18"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.585Z"
 ---
 
 # The AI tutor I built in Claude that won't let you fake understanding

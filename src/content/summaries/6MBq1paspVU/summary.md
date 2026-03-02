@@ -140,16 +140,12 @@ tools:
   - name: "Slack"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "obsidian"
-  - "claude-code"
-  - "personal-ai"
-  - "note-taking"
-  - "productivity"
+  - "claude"
   - "llm"
-  - "agentic-workflow"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -160,6 +156,7 @@ ai:
   totalTokens: 41097
   processingTimeMs: 60838
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.533Z"
 ---
 
 ## Key Takeaways

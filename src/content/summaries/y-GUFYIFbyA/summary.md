@@ -36,15 +36,9 @@ tools:
   - name: "Site Audit"
     url: null
 categories:
-  - "Tools & Productivity"
-  - "Business & Career"
+  - "Web Development"
 tags:
   - "seo"
-  - "ahrefs"
-  - "site-audit"
-  - "ai-content"
-  - "indexing"
-  - "marketing-automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -55,6 +49,7 @@ ai:
   totalTokens: 2328
   processingTimeMs: 76324
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.498Z"
 ---
 
 ## Key Takeaways

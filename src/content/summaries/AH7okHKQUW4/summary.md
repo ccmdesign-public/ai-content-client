@@ -53,14 +53,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Web Development"
 tags:
+  - "agents"
   - "gemini"
-  - "ai-reasoning"
-  - "ai-agents"
   - "web-development"
-  - "game-development"
-  - "browser-apis"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -71,6 +68,7 @@ ai:
   totalTokens: 7007
   processingTimeMs: 74661
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.339Z"
 ---
 
 ## Key Takeaways

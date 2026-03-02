@@ -6,13 +6,11 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/the-seeing-stone-377b1244eacd?source=rss----b680b860beb1---4"
 publishedAt: "2026-01-27"
 tags:
-  - "fatal-flaw"
-  - "government"
-  - "war"
-  - "defence"
-  - "public-policy"
-  - "data-science"
   - "analytics"
+  - "data-science"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.678Z"
 ---
 
 # The Seeing Stone

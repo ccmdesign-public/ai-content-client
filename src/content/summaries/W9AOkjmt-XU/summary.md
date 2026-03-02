@@ -78,13 +78,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "claude"
-  - "ai-agents"
+  - "agents"
   - "automation"
+  - "claude"
   - "productivity"
   - "prompt-engineering"
   - "workflow"
-  - "ai-assistant"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -95,6 +94,7 @@ ai:
   totalTokens: 15916
   processingTimeMs: 28210
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.394Z"
 ---
 
 ## Key Takeaways

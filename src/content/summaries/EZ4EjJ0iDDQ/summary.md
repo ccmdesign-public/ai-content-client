@@ -72,12 +72,12 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - llm
-  - chatgpt
-  - claude
-  - copilot
-  - leadership
-  - career-growth
+  - "career-growth"
+  - "chatgpt"
+  - "claude"
+  - "copilot"
+  - "leadership"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +88,7 @@ ai:
   totalTokens: 7047
   processingTimeMs: 61021
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.362Z"
 ---
 
 ## Key Takeaways

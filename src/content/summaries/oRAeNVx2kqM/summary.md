@@ -111,13 +111,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - gemini
-  - ai-coding
-  - agents
-  - automation
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "gemini"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.275Z"
 ---
 
 ## Key Takeaways

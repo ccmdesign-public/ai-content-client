@@ -116,13 +116,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "DevOps & Infrastructure"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - automation
-  - docker
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "docker"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.296Z"
 ---
 
 ## Key Takeaways

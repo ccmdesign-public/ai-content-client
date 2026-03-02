@@ -17,10 +17,6 @@ categories:
   - "Mobile Development"
 tags:
   - "ios"
-  - "widgets"
-  - "dynamic-island"
-  - "mobile-app"
-  - "real-time-data"
   - "swift"
 ai:
   provider: "openrouter"
@@ -32,6 +28,7 @@ ai:
   totalTokens: 2329
   processingTimeMs: 31816
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.326Z"
 ---
 
 ## Key Takeaways

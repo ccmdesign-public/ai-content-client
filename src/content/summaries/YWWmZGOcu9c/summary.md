@@ -90,12 +90,14 @@ ai:
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools: []
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
 tags:
-  - career-growth
-  - llm
-  - best-practices
+  - "best-practices"
+  - "career-growth"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.416Z"
 ---
 
 ## Key Takeaways

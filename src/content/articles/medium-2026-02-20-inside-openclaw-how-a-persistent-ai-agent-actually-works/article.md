@@ -6,12 +6,13 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/inside-openclaw-how-a-persistent-ai-agent-actually-works-44a2aa5cc1d9?source=rss----440100e76000---4"
 publishedAt: "2026-02-20"
 tags:
-  - "open-source"
+  - "ai-general"
   - "llm"
-  - "ai"
-  - "ai-agent"
-  - "generative-ai-tools"
-  - "generative"
+  - "open-source"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.680Z"
 ---
 
 # Inside OpenClaw: How a Persistent AI Agent Actually Works

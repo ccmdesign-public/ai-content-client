@@ -75,14 +75,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "design-patterns"
-  - "google-cloud"
-  - "agent-development"
-  - "llm"
-  - "ai-architecture"
+  - "agents"
+  - "architecture"
   - "automation"
+  - "gcp"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +93,7 @@ ai:
   outputTokens: 687
   totalTokens: 6065
   processingTimeMs: 15866
+tagsNormalizedAt: "2026-03-01T21:19:30.315Z"
 ---
 
 ## Key Takeaways

@@ -39,12 +39,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "anthropic"
+  - "agents"
+  - "automation"
   - "claude"
-  - "ai-agents"
-  - "developer-tools"
-  - "workflow-automation"
-  - "ai-strategy"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -55,6 +53,7 @@ ai:
   totalTokens: 2716
   processingTimeMs: 39060
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.388Z"
 ---
 
 ## Key Takeaways

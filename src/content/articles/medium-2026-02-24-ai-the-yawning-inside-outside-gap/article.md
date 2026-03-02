@@ -6,11 +6,15 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/ai-the-yawning-inside-outside-gap-dc1f8cec8858?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-24"
 tags:
-  - "technology"
-  - "anthropic-claude"
-  - "ai"
+  - "ai-general"
+  - "claude"
   - "data-science"
-  - "finance"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.569Z"
 ---
 
 # AI — The yawning inside-outside gap

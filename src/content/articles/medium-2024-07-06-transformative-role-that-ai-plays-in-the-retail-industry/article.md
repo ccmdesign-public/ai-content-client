@@ -6,10 +6,12 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/transformative-role-that-ai-plays-in-the-retail-industry-e3d5b9c4b4d6?source=rss----5878f1e5f050---4"
 publishedAt: "2024-07-06"
 tags:
-  - "ai-in-apparel-industry"
-  - "ai-in-retail"
   - "analytics"
   - "business"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.641Z"
 ---
 
 # Transformative Role that AI Plays in the Retail Industry

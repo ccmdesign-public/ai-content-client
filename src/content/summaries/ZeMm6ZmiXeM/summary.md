@@ -112,15 +112,9 @@ tools:
   - name: "Perplexity"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "ai-search"
   - "seo"
-  - "semrush"
-  - "content-strategy"
-  - "brand-marketing"
-  - "technical-seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -131,6 +125,7 @@ ai:
   totalTokens: 12370
   processingTimeMs: 43238
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.443Z"
 ---
 
 ## Key Takeaways

@@ -57,15 +57,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
   - "ai-coding"
-  - "developer-tools"
-  - "workflow-automation"
-  - "open-source"
-  - "cursor"
-  - "codeex"
+  - "automation"
   - "mcp"
+  - "open-source"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -75,6 +74,7 @@ ai:
   outputTokens: 872
   totalTokens: 6580
   processingTimeMs: 25060
+tagsNormalizedAt: "2026-03-01T21:19:30.286Z"
 ---
 
 ## Key Takeaways

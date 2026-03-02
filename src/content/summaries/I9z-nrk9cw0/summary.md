@@ -32,13 +32,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
+  - "agents"
+  - "architecture"
+  - "automation"
   - "llm"
-  - "ai-agents"
+  - "machine-learning"
   - "prompt-engineering"
-  - "ai-architecture"
-  - "workflow-automation"
-  - "ai-development"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -49,6 +51,7 @@ ai:
   totalTokens: 2910
   processingTimeMs: 18497
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.535Z"
 ---
 
 ## Key Takeaways

@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-428-jupyter-agents-palisades"
 publishedAt: "2025-09-08"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.557Z"
 ---
 
 # Import AI 428: Jupyter agents; Palisade's USB cable hacker; distributed training tools from Exo

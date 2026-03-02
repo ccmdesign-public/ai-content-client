@@ -175,15 +175,11 @@ tools:
   - name: "HubSpot"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "google-ai"
+  - "automation"
   - "gemini"
-  - "marketing-automation"
-  - "ai-tools"
-  - "workflow-automation"
-  - "content-creation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -194,6 +190,7 @@ ai:
   totalTokens: 13082
   processingTimeMs: 28854
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.283Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/from-embeddings-to-intelligence-vector-aggregate-functions-in-snowflake-4a6b3cf025a9?source=rss----98111c9905da---4"
 publishedAt: "2026-02-27"
 tags:
-  - "snowflake-cortex"
-  - "generative-ai-tools"
+  - "ai-general"
+  - "embeddings"
   - "llm"
-  - "snowflake"
-  - "vector-embeddings"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.636Z"
 ---
 
 # From Embeddings to Intelligence: Vector Aggregate Functions in Snowflake

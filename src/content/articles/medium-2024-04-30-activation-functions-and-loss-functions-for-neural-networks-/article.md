@@ -6,13 +6,15 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/activation-functions-and-loss-functions-for-neural-networks-how-to-pick-the-right-one-542e1dd523e0?source=rss----5878f1e5f050---4"
 publishedAt: "2024-04-30"
 tags:
-  - "machine-learning"
-  - "activation-functions"
-  - "deep-learning"
-  - "loss-function"
-  - "neural-networks"
   - "analytics"
   - "business"
+  - "machine-learning"
+  - "model-training"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.557Z"
 ---
 
 # Activation Functions and Loss Functions for neural networks — How to pick the right one?

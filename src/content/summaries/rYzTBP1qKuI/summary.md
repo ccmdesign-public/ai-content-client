@@ -89,14 +89,16 @@ tools:
   - name: "Kubernetes"
     url: null
 categories:
+  - "Programming"
   - "Tools & Productivity"
   - "Web Development"
 tags:
-  - debugging
-  - vscode
-  - api-design
-  - workflow
-  - automation
+  - "api-design"
+  - "automation"
+  - "debugging"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.403Z"
 ---
 
 ## Key Takeaways

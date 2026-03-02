@@ -50,11 +50,6 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - "agency-building"
-  - "marketing-automation"
-  - "highlevel"
-  - "client-acquisition"
-  - "business-mistakes"
   - "saas"
 ai:
   provider: "openrouter"
@@ -66,6 +61,7 @@ ai:
   totalTokens: 9391
   processingTimeMs: 26932
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.451Z"
 ---
 
 ## Key Takeaways

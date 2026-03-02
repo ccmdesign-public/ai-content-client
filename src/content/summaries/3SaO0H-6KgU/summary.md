@@ -175,11 +175,8 @@ categories:
   - "Tools & Productivity"
 tags:
   - "chatgpt"
-  - "prompt-engineering"
-  - "ai-workflows"
-  - "content-creation"
-  - "marketing-automation"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -190,6 +187,7 @@ ai:
   totalTokens: 19733
   processingTimeMs: 32060
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.454Z"
 ---
 
 ## Key Takeaways

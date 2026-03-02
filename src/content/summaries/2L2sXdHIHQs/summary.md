@@ -59,10 +59,12 @@ tools:
     url: null
 categories:
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - product-strategy
-  - saas
-  - startup
+  - "product-strategy"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.438Z"
 ---
 
 ## Key Takeaways

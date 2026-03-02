@@ -85,13 +85,11 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "claude-code"
-  - "ai-agents"
-  - "multi-agent-systems"
-  - "prompt-engineering"
+  - "agents"
   - "ai-coding"
-  - "developer-tools"
-  - "anthropic"
+  - "claude"
+  - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -101,6 +99,7 @@ ai:
   outputTokens: 963
   totalTokens: 16584
   processingTimeMs: 28841
+tagsNormalizedAt: "2026-03-01T21:19:30.344Z"
 ---
 
 ## Key Takeaways

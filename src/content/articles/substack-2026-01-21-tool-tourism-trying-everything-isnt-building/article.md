@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/tool-tourism-trying-everything-isnt"
 publishedAt: "2026-01-21"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.647Z"
 ---
 
 # Tool Tourism: Trying everything isn’t building

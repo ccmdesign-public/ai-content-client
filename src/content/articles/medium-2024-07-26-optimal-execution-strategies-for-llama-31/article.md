@@ -6,13 +6,17 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/optimal-execution-strategies-for-llama-3-1-d4b6f1cf6181?source=rss----5878f1e5f050---4"
 publishedAt: "2024-07-26"
 tags:
-  - "deep-learning"
-  - "machine-learning"
-  - "generative-ai-tools"
-  - "artificial-intelligence"
-  - "large-language-models"
+  - "ai-general"
   - "analytics"
   - "business"
+  - "llm"
+  - "machine-learning"
+  - "model-training"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.570Z"
 ---
 
 # Optimal Execution Strategies for Llama 3.1

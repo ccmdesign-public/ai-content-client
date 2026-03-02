@@ -78,12 +78,8 @@ tools:
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "work-life-balance"
-  - "business-partnership"
-  - "marriage"
-  - "communication"
   - "leadership"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +90,7 @@ ai:
   totalTokens: 5899
   processingTimeMs: 26522
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.275Z"
 ---
 
 ## Key Takeaways

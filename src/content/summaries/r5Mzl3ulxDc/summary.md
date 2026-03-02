@@ -71,15 +71,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
 tags:
-  - "claude"
   - "ai-coding"
-  - "slack"
-  - "product-development"
-  - "team-collaboration"
-  - "prototyping"
-  - "codebase-intelligence"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -89,6 +83,7 @@ ai:
   outputTokens: 739
   totalTokens: 7027
   processingTimeMs: 39652
+tagsNormalizedAt: "2026-03-01T21:19:30.293Z"
 ---
 
 ## Key Takeaways

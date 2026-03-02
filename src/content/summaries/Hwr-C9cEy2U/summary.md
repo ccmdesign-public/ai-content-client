@@ -13,15 +13,8 @@ processedAt: "2026-02-24T14:45:32.720Z"
 source: "youtube"
 tldr: "In 1998, Pixar almost lost 90% of Toy Story 2 data after an animator accidentally ran 'rm -rf' on the production server; the film was saved only because a technical director had a personal weekly backup at home due to working remotely."
 tools: []
-categories:
-  - "DevOps & Infrastructure"
-tags:
-  - "disaster-recovery"
-  - "backup-strategy"
-  - "system-administration"
-  - "devops"
-  - "data-loss"
-  - "production-incident"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -32,6 +25,7 @@ ai:
   totalTokens: 2868
   processingTimeMs: 40226
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.524Z"
 ---
 
 ## Key Takeaways

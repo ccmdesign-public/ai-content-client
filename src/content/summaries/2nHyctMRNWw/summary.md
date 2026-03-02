@@ -162,15 +162,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
+  - "Programming"
 tags:
-  - "claude-code"
-  - "ai-development"
-  - "seo-optimization"
-  - "multi-agent"
-  - "content-creation"
+  - "claude"
   - "debugging"
-  - "ui-ux"
+  - "machine-learning"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -181,6 +177,7 @@ ai:
   totalTokens: 52246
   processingTimeMs: 43389
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.544Z"
 ---
 
 ## Key Takeaways

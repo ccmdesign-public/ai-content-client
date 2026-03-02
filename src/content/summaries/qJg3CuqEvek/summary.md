@@ -51,15 +51,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "claude-code"
-  - "ai-agents"
-  - "business-automation"
-  - "openclaw"
-  - "anthropic"
+  - "agents"
+  - "claude"
   - "productivity"
-  - "ai-assistant"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -70,6 +66,7 @@ ai:
   totalTokens: 14490
   processingTimeMs: 45987
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.362Z"
 ---
 
 ## Key Takeaways

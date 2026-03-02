@@ -6,13 +6,15 @@ publicationName: "The Backend Tech"
 url: "https://medium.com/thebackendtech/understanding-load-balancers-a-technical-deep-dive-ff8d73f6d8df?source=rss----33614872e155---4"
 publishedAt: "2025-08-29"
 tags:
-  - "system-design-concepts"
-  - "programming"
-  - "algorithms"
-  - "design"
-  - "technology"
-  - "backend"
   - "architecture"
+  - "engineering"
+  - "innovation"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.560Z"
 ---
 
 # Understanding Load Balancers — A technical deep dive

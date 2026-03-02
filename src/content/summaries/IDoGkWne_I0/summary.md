@@ -106,15 +106,8 @@ tools:
   - name: "Google Calendar API"
     url: null
 categories:
-  - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "gemini-ai"
-  - "canvas"
-  - "gems"
-  - "rapid-prototyping"
-  - "no-code"
-  - "ai-apps"
   - "productivity"
 ai:
   provider: "openrouter"
@@ -126,6 +119,7 @@ ai:
   totalTokens: 12902
   processingTimeMs: 25568
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.284Z"
 ---
 
 ## Key Takeaways

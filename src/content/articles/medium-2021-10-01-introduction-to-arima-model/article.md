@@ -6,11 +6,14 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/introduction-to-arima-model-20855ba56c0d?source=rss----aa394f020b61---4"
 publishedAt: "2021-10-01"
 tags:
-  - "regression"
-  - "machine-learning"
   - "data-science"
-  - "developer"
-  - "programming"
+  - "engineering"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.675Z"
 ---
 
 # Introduction to ARIMA Model

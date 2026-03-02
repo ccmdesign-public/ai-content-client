@@ -38,11 +38,12 @@ tools:
 categories:
   - "Product & Design"
 tags:
-  - ux
-  - ui
-  - design-systems
-  - accessibility
-  - user-research
+  - "accessibility"
+  - "design-systems"
+  - "ui"
+  - "user-research"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.374Z"
 ---
 
 ## Key Takeaways

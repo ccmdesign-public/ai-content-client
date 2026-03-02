@@ -6,13 +6,12 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/building-a-ray-tracer-from-scratch-in-c-part-1-mathematical-foundations-8d778512120c?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-23"
 tags:
-  - "game-development"
-  - "3d"
-  - "3d-rendering"
-  - "mathematics"
-  - "cpp"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.562Z"
 ---
 
 # Building a Ray Tracer from Scratch in C++ Part 1: Mathematical Foundations

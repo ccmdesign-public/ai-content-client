@@ -131,15 +131,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
   - "ai-coding"
+  - "automation"
   - "llm"
   - "open-source"
-  - "devtools"
-  - "workflow-automation"
-  - "agentic-ai"
-  - "model-agnostic"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -149,6 +147,7 @@ ai:
   outputTokens: 1141
   totalTokens: 8764
   processingTimeMs: 79165
+tagsNormalizedAt: "2026-03-01T21:19:30.264Z"
 ---
 
 ## Key Takeaways

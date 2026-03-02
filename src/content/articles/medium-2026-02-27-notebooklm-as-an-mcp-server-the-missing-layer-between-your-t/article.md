@@ -6,13 +6,10 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/notebooklm-as-an-mcp-server-the-missing-layer-between-your-team-and-your-ai-workflow-4ffa7fe99a4b?source=rss----440100e76000---4"
 publishedAt: "2026-02-27"
 tags:
-  - "ai-tools"
-  - "cursor"
-  - "ai-workflow"
-  - "google-notebooklm"
-  - "mcp-server"
-  - "ai"
-  - "generative"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.584Z"
 ---
 
 # NotebookLM as an MCP Server: The Missing Layer Between Your Team and Your AI Workflow

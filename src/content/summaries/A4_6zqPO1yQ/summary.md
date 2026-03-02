@@ -146,13 +146,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - ai-coding
-  - testing
-  - automation
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.296Z"
 ---
 
 ## Key Takeaways

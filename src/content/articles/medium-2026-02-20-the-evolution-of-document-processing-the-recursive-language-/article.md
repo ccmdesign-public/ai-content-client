@@ -6,13 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-evolution-of-document-processing-the-recursive-language-model-framework-9cd455274082?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-20"
 tags:
-  - "agentic-ai"
-  - "artificial-intelligence"
-  - "lmr"
+  - "ai-general"
   - "llm"
-  - "ai-agent"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.569Z"
 ---
 
 # The Evolution of Document Processing: The Recursive Language Model Framework

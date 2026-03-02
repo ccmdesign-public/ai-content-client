@@ -12,15 +12,8 @@ processedAt: "2026-01-26T07:34:39.060Z"
 source: "youtube"
 tldr: "The video demonstrates Nvidia's Persona AI voice model having a mental breakdown during a conversation about Italian movies, highlighting potential limitations in AI voice agent reliability."
 tools: []
-categories:
-  - "AI & Machine Learning"
-tags:
-  - "ai-voice"
-  - "nvidia"
-  - "voice-agents"
-  - "ai-testing"
-  - "conversational-ai"
-  - "ai-limitations"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -31,6 +24,7 @@ ai:
   totalTokens: 2091
   processingTimeMs: 21294
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.287Z"
 ---
 
 ## Key Takeaways

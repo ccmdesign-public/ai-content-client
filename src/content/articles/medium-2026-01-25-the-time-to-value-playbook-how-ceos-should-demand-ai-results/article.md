@@ -6,13 +6,14 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-time-to-value-playbook-how-ceos-should-demand-ai-results-in-30-days-without-burning-the-team-61a313ae0c26?source=rss----32881626c9c9---4"
 publishedAt: "2026-01-25"
 tags:
-  - "business-strategy"
-  - "automation-testing"
-  - "business-tips"
-  - "ceo"
-  - "ai"
+  - "ai-general"
+  - "business"
   - "data-science"
-  - "finance"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.648Z"
 ---
 
 # The Time-to-Value Playbook: How CEOs Should Demand AI Results in 30 Days (Without Burning the Team)

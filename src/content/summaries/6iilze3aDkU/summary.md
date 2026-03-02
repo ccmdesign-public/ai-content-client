@@ -22,15 +22,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-agents"
-  - "startup-journey"
-  - "b2b-saas"
-  - "voice-ai"
-  - "yc"
-  - "pivot"
-  - "enterprise-ai"
+  - "agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -41,6 +34,7 @@ ai:
   totalTokens: 31072
   processingTimeMs: 45144
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.383Z"
 ---
 
 ## Key Takeaways

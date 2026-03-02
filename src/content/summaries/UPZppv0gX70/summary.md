@@ -45,16 +45,8 @@ tools:
     url: null
   - name: "Alibaba"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Product & Design"
-tags:
-  - "ai-image-generation"
-  - "e-commerce"
-  - "product-photography"
-  - "shopify"
-  - "ai-tools"
-  - "content-creation"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -65,6 +57,7 @@ ai:
   totalTokens: 6571
   processingTimeMs: 25148
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.463Z"
 ---
 
 ## Key Takeaways

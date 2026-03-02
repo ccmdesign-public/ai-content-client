@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas"
 publishedAt: "2026-02-23"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.669Z"
 ---
 
 # Import AI 446: Nuclear LLMs; China's big AI benchmark; measurement and AI policy

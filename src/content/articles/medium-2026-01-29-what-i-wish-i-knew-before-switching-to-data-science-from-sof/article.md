@@ -6,12 +6,17 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/what-i-wish-i-knew-before-switching-to-data-science-from-software-engineering-9418ea4603b7?source=rss----78073def27b8---4"
 publishedAt: "2026-01-29"
 tags:
-  - "deep-learning"
-  - "programming"
-  - "artificial-intelligence"
-  - "python"
+  - "ai-general"
+  - "education"
+  - "engineering"
   - "machine-learning"
-  - "tutorials"
+  - "model-training"
+  - "python"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.628Z"
 ---
 
 # What I Wish I Knew Before Switching to Data Science from Software Engineering

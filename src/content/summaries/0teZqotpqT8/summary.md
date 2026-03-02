@@ -63,12 +63,13 @@ tools:
   - name: "Lovable"
     url: "https://lovable.app"
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - career-growth
-  - llm
-  - interviewing
+  - "career-growth"
+  - "interviewing"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.385Z"
 ---
 
 ## Key Takeaways

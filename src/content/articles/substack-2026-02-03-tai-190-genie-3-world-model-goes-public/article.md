@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-190-genie-3-world-model-goes"
 publishedAt: "2026-02-03"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.584Z"
 ---
 
 # TAI #190: Genie 3 World Model Goes Public

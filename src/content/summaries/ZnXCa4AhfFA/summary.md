@@ -70,14 +70,10 @@ tools:
     url: null
 categories:
   - "Data & Analytics"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
+  - "analytics"
   - "seo"
-  - "keyword-research"
-  - "google-search-console"
-  - "data-analytics"
-  - "content-optimization"
-  - "enterprise-seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +84,7 @@ ai:
   totalTokens: 3878
   processingTimeMs: 26146
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.458Z"
 ---
 
 ## Key Takeaways

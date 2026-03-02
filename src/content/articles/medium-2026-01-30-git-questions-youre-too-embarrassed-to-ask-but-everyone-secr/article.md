@@ -6,13 +6,15 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/git-questions-youre-too-embarrassed-to-ask-but-everyone-secretly-googles-752af1a49ab4?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-01-30"
 tags:
-  - "github"
-  - "software-engineering"
+  - "engineering"
   - "git"
-  - "programming"
-  - "software-development"
-  - "coding"
-  - "frameworks"
+  - "open-source"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.620Z"
 ---
 
 # Git Questions You’re Too Embarrassed to Ask (But Everyone Secretly Googles)

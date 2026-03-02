@@ -6,13 +6,18 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/building-a-collaborative-document-editor-inside-chatgpt-with-openai-apps-sdk-eb8434c0996e?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-01-30"
 tags:
+  - "ai-general"
+  - "chatgpt"
+  - "engineering"
   - "javascript"
-  - "openai"
-  - "web-development"
-  - "generative-ai-tools"
   - "saas"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.633Z"
 ---
 
 # Building a Collaborative Document Editor Inside ChatGPT with OpenAI Apps SDK

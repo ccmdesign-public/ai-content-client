@@ -6,12 +6,14 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/moonshots-kimi-k2-5-can-spawn-100-ai-agents-to-do-your-work-5c7f0bd90a88?source=rss----440100e76000---4"
 publishedAt: "2026-01-29"
 tags:
-  - "programming"
-  - "artificial-intelligence"
+  - "ai-coding"
+  - "ai-general"
+  - "engineering"
   - "llm"
-  - "ai"
-  - "vibe-coding"
-  - "generative"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.630Z"
 ---
 
 # Moonshot’s Kimi K2.5 can spawn 100 AI agents to do your work

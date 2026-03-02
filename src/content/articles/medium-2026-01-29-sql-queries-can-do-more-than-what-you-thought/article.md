@@ -6,13 +6,14 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/sql-queries-can-do-more-than-what-you-thought-c271898d8ee9?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-29"
 tags:
-  - "advanced-sql"
-  - "sql-queries"
-  - "postgresql"
-  - "sql"
-  - "sql-window-functions"
   - "data-science"
   - "education"
+  - "postgresql"
+  - "sql"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.639Z"
 ---
 
 # SQL queries can do more than WHAT YOU THOUGHT!

@@ -84,15 +84,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "harness-engineering"
+  - "agents"
   - "llm"
   - "prompt-engineering"
-  - "ai-infrastructure"
-  - "context-management"
-  - "agent-frameworks"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -102,6 +97,7 @@ ai:
   outputTokens: 899
   totalTokens: 11053
   processingTimeMs: 109341
+tagsNormalizedAt: "2026-03-01T21:19:30.539Z"
 ---
 
 ## Key Takeaways

@@ -77,13 +77,10 @@ tools:
     url: "https://acquisition.com/roadmap"
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "mindset"
-  - "entrepreneurship"
-  - "philosophy"
-  - "personal-development"
-  - "fulfillment"
   - "productivity"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +91,7 @@ ai:
   totalTokens: 5087
   processingTimeMs: 20918
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.364Z"
 ---
 
 ## Key Takeaways

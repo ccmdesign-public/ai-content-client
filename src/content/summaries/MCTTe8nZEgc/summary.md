@@ -83,17 +83,8 @@ tools:
     url: null
   - name: "GC9A01"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Tools & Productivity"
-tags:
-  - "ai-agent"
-  - "iot"
-  - "esp32"
-  - "openclaw"
-  - "microcontroller"
-  - "hardware-ai"
-  - "telegram-bot"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -104,6 +95,7 @@ ai:
   totalTokens: 8555
   processingTimeMs: 23134
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.442Z"
 ---
 
 ## Key Takeaways

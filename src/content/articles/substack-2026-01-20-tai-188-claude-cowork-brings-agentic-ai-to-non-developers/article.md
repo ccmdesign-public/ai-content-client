@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-188-claude-cowork-brings-agentic"
 publishedAt: "2026-01-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.604Z"
 ---
 
 # TAI ##188: Claude Cowork Brings Agentic AI to Non-Developers

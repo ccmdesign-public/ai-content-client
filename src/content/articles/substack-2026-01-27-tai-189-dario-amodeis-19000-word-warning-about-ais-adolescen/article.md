@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-189-dario-amodeis-19000-word"
 publishedAt: "2026-01-27"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.585Z"
 ---
 
 # TAI ##189: Dario Amodei's 19,000-Word Warning About AI's "Adolescence"

@@ -6,13 +6,13 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/h2e-engineering-provable-agency-4c254347d1f6?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-16"
 tags:
+  - "ai-general"
   - "llm"
   - "open-source"
-  - "agentic-ai"
-  - "ai-governance"
-  - "artificial-intelligence"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.676Z"
 ---
 
 # H2E: Engineering Provable Agency

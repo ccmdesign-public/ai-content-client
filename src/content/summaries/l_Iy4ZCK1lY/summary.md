@@ -154,14 +154,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "claude-ai"
-  - "marketing-automation"
-  - "ai-workflows"
+  - "claude"
   - "mcp"
-  - "prompt-engineering"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -172,6 +170,7 @@ ai:
   totalTokens: 12372
   processingTimeMs: 32044
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.550Z"
 ---
 
 ## Key Takeaways

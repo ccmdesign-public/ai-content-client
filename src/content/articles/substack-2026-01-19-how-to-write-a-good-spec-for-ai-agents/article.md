@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/how-to-write-a-good-spec-for-ai-agents"
 publishedAt: "2026-01-19"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.611Z"
 ---
 
 # How to write a good spec for AI agents

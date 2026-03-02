@@ -24,11 +24,13 @@ ai:
 tools: []
 categories:
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - startup
-  - saas
-  - monetization
-  - product-strategy
+  - "monetization"
+  - "product-strategy"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.490Z"
 ---
 
 ## Key Takeaways

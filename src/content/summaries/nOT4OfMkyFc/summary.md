@@ -74,9 +74,10 @@ ai:
   processingTimeMs: 13718
 tools: []
 categories:
-  - "Tools & Productivity"
+  - "Programming"
 tags:
-  - best-practices
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.356Z"
 ---
 
 ## Key Takeaways

@@ -6,12 +6,10 @@ publicationName: "Pythoneers"
 url: "https://medium.com/pythoneers/creating-updatable-calendar-events-in-python-fda80300e835?source=rss----7a8fb64b42eb---4"
 publishedAt: "2026-02-02"
 tags:
-  - "ci"
   - "python"
-  - "python-programming"
-  - "icalendar"
-  - "google-calendar"
-  - "community"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.555Z"
 ---
 
 # Creating updatable calendar events in Python

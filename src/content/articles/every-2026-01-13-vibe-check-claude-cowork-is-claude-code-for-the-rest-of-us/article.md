@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-claude-cowork-is-claude-code-for-the-rest-of-us"
 publishedAt: "2026-01-13"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.582Z"
 ---
 
 # Vibe Check: Claude Cowork Is Claude Code for the Rest of Us

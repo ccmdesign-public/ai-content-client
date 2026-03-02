@@ -81,13 +81,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - copilot
-  - claude
-  - agents
-  - terminal
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.329Z"
 ---
 
 ## Key Takeaways

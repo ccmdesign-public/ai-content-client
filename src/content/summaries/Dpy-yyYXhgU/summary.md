@@ -74,16 +74,9 @@ tools:
   - name: "Raycast"
     url: null
 categories:
-  - "Product & Design"
-  - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - "design-leadership"
-  - "ai-tools"
-  - "product-design"
-  - "stripe"
-  - "prototyping"
-  - "design-culture"
-  - "hiring"
+  - "interviewing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +87,7 @@ ai:
   totalTokens: 39883
   processingTimeMs: 49166
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.492Z"
 ---
 
 ## Key Takeaways

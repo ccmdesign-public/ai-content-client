@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/the-mantra-of-this-ai-age-don-t-repeat-yourself-c53a8da2-8cf6-431d-8780-8197b2e57077"
 publishedAt: "2025-04-04"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.613Z"
 ---
 
 # The Mantra of This AI Age: Don’t Repeat Yourself

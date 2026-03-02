@@ -130,12 +130,7 @@ categories:
   - "Web Development"
 tags:
   - "ai-coding"
-  - "antigravity"
-  - "full-stack"
-  - "stripe"
-  - "firebase"
   - "web-development"
-  - "payment-integration"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -146,6 +141,7 @@ ai:
   totalTokens: 12893
   processingTimeMs: 27203
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.368Z"
 ---
 
 ## Key Takeaways

@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/firebolt-vs-snowflake-2023-firebolt-2e2ed39825e8?so
 publishedAt: "2023-09-14"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.601Z"
 ---
 
 # Firebolt vs Snowflake (2023) | Firebolt

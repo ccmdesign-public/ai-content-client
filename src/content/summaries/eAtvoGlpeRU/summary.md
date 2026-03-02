@@ -101,13 +101,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - agents
-  - ai-coding
-  - automation
-  - testing
-  - scripting
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "scripting"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.296Z"
 ---
 
 ## Key Takeaways

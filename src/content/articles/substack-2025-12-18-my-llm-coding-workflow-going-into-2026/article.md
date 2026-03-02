@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/my-llm-coding-workflow-going-into"
 publishedAt: "2025-12-18"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.668Z"
 ---
 
 # My LLM coding workflow going into 2026

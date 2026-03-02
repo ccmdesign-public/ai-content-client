@@ -76,17 +76,8 @@ tools:
     url: null
   - name: "Eureka Labs"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Tools & Productivity"
-tags:
-  - "ai-education"
-  - "parenting"
-  - "cognitive-skills"
-  - "metacognition"
-  - "specification"
-  - "ai-tutors"
-  - "future-of-work"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +88,7 @@ ai:
   totalTokens: 22777
   processingTimeMs: 52259
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.432Z"
 ---
 
 ## Key Takeaways

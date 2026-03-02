@@ -103,11 +103,12 @@ categories:
   - "AI & Machine Learning"
   - "Product & Design"
 tags:
-  - claude
-  - ux
-  - ui
-  - prompt-engineering
-  - design-systems
+  - "claude"
+  - "design-systems"
+  - "prompt-engineering"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.268Z"
 ---
 
 ## Key Takeaways

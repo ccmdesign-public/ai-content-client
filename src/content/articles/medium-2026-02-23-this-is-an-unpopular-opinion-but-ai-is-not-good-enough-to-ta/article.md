@@ -6,12 +6,15 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/this-is-an-unpopular-opinion-but-ai-is-not-good-enough-to-take-your-data-analytics-job-yet-361eac248ead?source=rss----b680b860beb1---4"
 publishedAt: "2026-02-23"
 tags:
-  - "future"
-  - "ai"
-  - "data-science"
-  - "artificial-intelligence"
-  - "technology"
+  - "ai-general"
   - "analytics"
+  - "data-science"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.609Z"
 ---
 
 # This is an Unpopular Opinion, but AI Is Not Good Enough to Take Your Data Analytics Job (Yet)

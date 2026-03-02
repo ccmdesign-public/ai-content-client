@@ -6,10 +6,14 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/how-ai-is-reshaping-modern-link-building-strategies-5bb70d481e2a?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-12-03"
 tags:
-  - "link-building"
-  - "ai"
-  - "seo"
+  - "ai-general"
   - "innovation"
+  - "seo"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.678Z"
 ---
 
 # How AI Is Reshaping Modern Link Building Strategies

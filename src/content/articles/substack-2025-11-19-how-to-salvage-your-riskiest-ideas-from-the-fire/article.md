@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/how-to-salvage-your-riskiest-ideas"
 publishedAt: "2025-11-19"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.618Z"
 ---
 
 # How to salvage your riskiest ideas from the fire

@@ -53,13 +53,8 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "ai-automation"
-  - "business-automation"
-  - "agi"
-  - "no-code"
-  - "entrepreneurship"
   - "claude"
-  - "ai-agency"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -70,6 +65,7 @@ ai:
   totalTokens: 10202
   processingTimeMs: 20634
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.308Z"
 ---
 
 ## Key Takeaways

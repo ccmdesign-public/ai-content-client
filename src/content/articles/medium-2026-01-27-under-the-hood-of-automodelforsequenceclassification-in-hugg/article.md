@@ -6,13 +6,15 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/under-the-hood-of-automodelforsequenceclassification-in-hugging-face-transformers-e497bc78d828?source=rss----eec44e936bf1---4"
 publishedAt: "2026-01-27"
 tags:
-  - "hugging-face"
-  - "nlp"
-  - "text-classification"
-  - "transformers"
-  - "artificial-intelligence"
+  - "ai-general"
   - "data-science"
   - "education"
+  - "nlp"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.654Z"
 ---
 
 # Under the Hood of AutoModelForSequenceClassification in Hugging Face Transformers

@@ -75,15 +75,10 @@ tldr: "Exceptional content requires deep insights from spending focused time on 
 tools: []
 categories:
   - "Business & Career"
-  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - "content-creation"
-  - "creativity"
   - "productivity"
-  - "entrepreneurship"
-  - "deep-work"
-  - "insights"
-  - "long-form-content"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +89,7 @@ ai:
   totalTokens: 8104
   processingTimeMs: 14719
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.399Z"
 ---
 
 ## Key Takeaways

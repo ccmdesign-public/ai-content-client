@@ -6,13 +6,13 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/avoiding-ai-hype-how-to-balance-vision-with-reality-in-ai-development-06868b211a3b?source=rss----c0b4a0b207fc---4"
 publishedAt: "2026-01-25"
 tags:
-  - "artificial-intelligence"
-  - "machine-learning"
-  - "technology-trends"
-  - "ai-development"
-  - "ai-ethics"
-  - "ai"
+  - "ai-general"
   - "innovation"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.655Z"
 ---
 
 # Avoiding AI Hype: How to Balance Vision with Reality in AI Development

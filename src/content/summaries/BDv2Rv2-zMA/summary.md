@@ -20,11 +20,6 @@ categories:
   - "Product & Design"
 tags:
   - "accessibility"
-  - "inclusive-design"
-  - "ux-design"
-  - "empathy"
-  - "disability"
-  - "product-design"
   - "user-research"
 ai:
   provider: "openrouter"
@@ -36,6 +31,7 @@ ai:
   totalTokens: 29588
   processingTimeMs: 30361
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.521Z"
 ---
 
 ## Key Takeaways

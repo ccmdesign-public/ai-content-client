@@ -6,13 +6,12 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-invisible-plague-is-ai-causing-a-global-epidemic-of-cognitive-atrophy-e1a932f7682f?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
-  - "responsible-ai"
-  - "future-of-work"
-  - "digital-wellbeing"
-  - "ai-ethics"
-  - "ai"
+  - "ai-general"
   - "data-science"
-  - "finance"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.676Z"
 ---
 
 # The Invisible Plague: Is AI Causing a Global Epidemic of Cognitive Atrophy?

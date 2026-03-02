@@ -81,11 +81,12 @@ categories:
   - "AI & Machine Learning"
   - "Web Development"
 tags:
-  - llm
-  - claude
-  - gemini
-  - ai-coding
-  - nextjs
+  - "ai-coding"
+  - "claude"
+  - "gemini"
+  - "llm"
+  - "nextjs"
+tagsNormalizedAt: "2026-03-01T21:19:30.458Z"
 ---
 
 ## Key Takeaways

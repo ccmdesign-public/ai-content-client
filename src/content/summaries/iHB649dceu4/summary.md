@@ -59,12 +59,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - vscode
-  - embeddings
-  - architecture
-  - llm
+  - "ai-coding"
+  - "architecture"
+  - "embeddings"
+  - "llm"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.316Z"
 ---
 
 ## Key Takeaways

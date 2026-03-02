@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/firebolt-vs-redshift-2023-firebolt-fbc9c5749509?sou
 publishedAt: "2023-09-12"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.649Z"
 ---
 
 # Firebolt vs Redshift (2023) | Firebolt

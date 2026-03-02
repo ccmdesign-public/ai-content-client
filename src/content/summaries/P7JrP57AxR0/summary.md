@@ -100,14 +100,17 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Web Development"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - agents
-  - testing
-  - automation
-  - vercel
-  - claude
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "testing"
+  - "vercel"
+tagsNormalizedAt: "2026-03-01T21:19:30.419Z"
 ---
 
 ## Key Takeaways

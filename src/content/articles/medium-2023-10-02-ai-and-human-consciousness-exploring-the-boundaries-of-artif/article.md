@@ -6,11 +6,15 @@ publicationName: "AI Guys"
 url: "https://medium.com/ai-guys/ai-and-human-consciousness-exploring-the-boundaries-of-artificial-intelligence-931c23e32de3?source=rss----90b968f6dbf8---4"
 publishedAt: "2023-10-02"
 tags:
-  - "ai"
-  - "artificial-intelligence"
-  - "money"
-  - "business"
+  - "ai-general"
   - "applications"
+  - "business"
+  - "monetization"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Mobile Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.648Z"
 ---
 
 # AI and Human Consciousness: Exploring the Boundaries of Artificial Intelligence

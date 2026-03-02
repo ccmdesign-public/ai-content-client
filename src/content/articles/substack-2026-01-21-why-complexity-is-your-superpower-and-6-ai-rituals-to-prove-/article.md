@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/why-complexity-is-your-superpower"
 publishedAt: "2026-01-21"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.628Z"
 ---
 
 # Why complexity is your superpower (and 6 AI rituals to prove it)

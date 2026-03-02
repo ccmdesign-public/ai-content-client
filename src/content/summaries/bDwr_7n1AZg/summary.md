@@ -90,15 +90,17 @@ tools:
   - name: "Radix UI"
     url: null
 categories:
-  - "Programming"
   - "Mobile Development"
+  - "Programming"
+  - "Web Development"
 tags:
-  - rust
-  - react-native
-  - flutter
-  - tailwind
-  - ios
-  - android
+  - "android"
+  - "flutter"
+  - "ios"
+  - "react-native"
+  - "rust"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.480Z"
 ---
 
 ## Key Takeaways

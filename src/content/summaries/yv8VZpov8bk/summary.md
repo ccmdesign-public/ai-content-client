@@ -43,13 +43,9 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
+  - "ai-coding"
   - "claude"
   - "git"
-  - "worktree"
-  - "ai-coding"
-  - "devops"
-  - "version-control"
-  - "parallelization"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -59,6 +55,7 @@ ai:
   outputTokens: 803
   totalTokens: 7983
   processingTimeMs: 28506
+tagsNormalizedAt: "2026-03-01T21:19:30.543Z"
 ---
 
 ## Key Takeaways

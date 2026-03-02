@@ -198,11 +198,13 @@ tools:
     url: "https://app.rescript.info/"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - model-training
-  - architecture
-  - nlp
+  - "architecture"
+  - "llm"
+  - "model-training"
+  - "nlp"
+tagsNormalizedAt: "2026-03-01T21:19:30.319Z"
 ---
 
 ## Key Takeaways

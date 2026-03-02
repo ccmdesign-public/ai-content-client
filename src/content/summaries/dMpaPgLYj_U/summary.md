@@ -66,12 +66,13 @@ categories:
   - "AI & Machine Learning"
   - "Web Development"
 tags:
-  - ai-coding
-  - claude
-  - nextjs
-  - javascript
-  - tailwind
-  - gemini
+  - "ai-coding"
+  - "claude"
+  - "gemini"
+  - "javascript"
+  - "nextjs"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.377Z"
 ---
 
 ## Key Takeaways

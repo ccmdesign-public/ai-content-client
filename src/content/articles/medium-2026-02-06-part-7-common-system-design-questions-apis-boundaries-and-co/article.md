@@ -6,13 +6,15 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-7-common-system-design-questions-apis-boundaries-contracts-87a09032e2b0?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-06"
 tags:
-  - "api-development"
+  - "api-design"
+  - "architecture"
   - "best-practices"
-  - "system-design-interview"
-  - "microservices"
-  - "system-design-concepts"
-  - "frontend"
-  - "programming"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.593Z"
 ---
 
 # Part 7: Common System Design Questions: APIs, Boundaries & Contracts

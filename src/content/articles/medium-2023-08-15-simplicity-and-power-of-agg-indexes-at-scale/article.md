@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/simplicity-and-power-of-agg-indexes-at-scale-315d0d
 publishedAt: "2023-08-15"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.652Z"
 ---
 
 # Simplicity and Power of Agg Indexes at Scale

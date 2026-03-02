@@ -52,11 +52,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - llm
-  - claude
-  - prompt-engineering
-  - automation
-  - workflow
+  - "automation"
+  - "claude"
+  - "llm"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.448Z"
 ---
 
 The video introduces a sophisticated automation workflow designed to move beyond generic AI writing and toward the specific, high-caliber craft required for award-winning short fiction (e.g., Hugo, Nebula, or Shirley Jackson awards). The core premise is that "award-winning" writing follows identifiable patterns of psychological resonance and structural precision that can be mapped and emulated.

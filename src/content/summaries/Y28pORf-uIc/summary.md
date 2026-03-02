@@ -159,15 +159,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
+  - "Business & Career"
+  - "Web Development"
 tags:
   - "ai-coding"
-  - "seo"
-  - "content-creation"
   - "claude"
-  - "api-integration"
-  - "ui-ux"
   - "saas"
+  - "seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -178,6 +176,7 @@ ai:
   totalTokens: 33726
   processingTimeMs: 43624
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.294Z"
 ---
 
 ## Key Takeaways

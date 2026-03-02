@@ -75,15 +75,8 @@ tldr: "A medical clinic generating $200K/month selling stem cell therapy for men
 tools:
   - name: "One of 10"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "lead-generation"
-  - "content-marketing"
-  - "youtube-marketing"
-  - "high-ticket-sales"
-  - "business-scaling"
-  - "consultation"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +87,7 @@ ai:
   totalTokens: 9659
   processingTimeMs: 73361
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.380Z"
 ---
 
 ## Key Takeaways

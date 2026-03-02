@@ -110,16 +110,12 @@ tools:
   - name: "Google Search Console"
     url: null
 categories:
-  - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Data & Analytics"
+  - "Web Development"
 tags:
+  - "analytics"
+  - "api-design"
   - "seo"
-  - "ai-search"
-  - "content-marketing"
-  - "competitive-analysis"
-  - "data-analytics"
-  - "api"
-  - "brand-tracking"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -130,6 +126,7 @@ ai:
   totalTokens: 6489
   processingTimeMs: 50928
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.370Z"
 ---
 
 ## Key Takeaways

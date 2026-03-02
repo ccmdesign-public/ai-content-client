@@ -75,14 +75,8 @@ tldr: "AI is not a threat to service professionals but a tool for massive levera
 tools: []
 categories:
   - "Business & Career"
-  - "AI & Machine Learning"
 tags:
-  - "ai-adoption"
-  - "business-strategy"
-  - "career-advice"
-  - "service-business"
-  - "technology-leverage"
-  - "future-of-work"
+  - "business"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +87,7 @@ ai:
   totalTokens: 2621
   processingTimeMs: 20180
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.535Z"
 ---
 
 ## Key Takeaways

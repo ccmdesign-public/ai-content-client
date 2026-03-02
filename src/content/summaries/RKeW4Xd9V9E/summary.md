@@ -25,15 +25,8 @@ processedAt: "2026-02-27T00:11:34.347Z"
 source: "youtube"
 tldr: "IBM's 2026 Threat Intelligence Index reveals alarming cybersecurity trends: 44% rise in vulnerability exploits, 56% of tracked flaws require no authentication, ransomware groups up 49%, supply chain attacks quadrupled, and AI lowers attack barriers, requiring proactive identity management, AI governance, and continuous testing."
 tools: []
-categories:
-  - "Security"
-tags:
-  - "threat-intelligence"
-  - "ransomware"
-  - "ai-security"
-  - "vulnerability-management"
-  - "supply-chain-security"
-  - "cybersecurity-trends"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -44,6 +37,7 @@ ai:
   totalTokens: 5266
   processingTimeMs: 33244
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.304Z"
 ---
 
 ## Key Takeaways

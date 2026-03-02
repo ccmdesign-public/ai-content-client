@@ -6,12 +6,12 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/7-000-points-for-the-s-p-500-and-the-triumph-of-monetarism-why-classic-crises-are-a-thing-of-the-71100dcb35c8?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
-  - "economy"
-  - "finance"
-  - "investing"
-  - "money"
-  - "stock-market"
   - "data-science"
+  - "monetization"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.576Z"
 ---
 
 # 7,000 Points for the S&P 500 and the Triumph of Monetarism: Why Classic Crises Are a Thing of the…

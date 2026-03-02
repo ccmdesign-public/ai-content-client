@@ -108,15 +108,16 @@ tools:
   - name: "Terminal"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - terminal
-  - automation
-  - workflow
-  - agents
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "terminal"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.483Z"
 ---
 
 ## Key Takeaways

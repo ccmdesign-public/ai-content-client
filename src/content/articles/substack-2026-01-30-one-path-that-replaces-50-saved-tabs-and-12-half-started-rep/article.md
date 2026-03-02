@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/the-wow-demo-trap-is-killing-llm"
 publishedAt: "2026-01-30"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.652Z"
 ---
 
 # One path that replaces 50 saved tabs and 12 half-started repos

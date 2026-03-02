@@ -7,8 +7,12 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/claude-code-ide-skills-mcp"
 publishedAt: "2026-01-22"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.679Z"
 ---
 
 # Claude Code Beyond Basics: The Power of Skills & MCP

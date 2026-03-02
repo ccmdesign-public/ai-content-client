@@ -19,7 +19,7 @@ metadata:
 
     Compound engineering plugin: https://github.com/EveryInc/compound-engineering-plugin                                                                         \ 
 
-    \\ 
+    \\
 
     #vibecoding #claudecode #aitools #nocode #productivity #ai"
   channel: "Every"
@@ -54,15 +54,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Business & Career"
   - "Tools & Productivity"
 tags:
+  - "agents"
   - "ai-coding"
-  - "workflow-automation"
-  - "cli-tools"
-  - "startup"
+  - "automation"
   - "productivity"
-  - "ai-agents"
-  - "no-code"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -73,6 +72,7 @@ ai:
   totalTokens: 4272
   processingTimeMs: 29873
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.533Z"
 ---
 
 ## Key Takeaways

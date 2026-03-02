@@ -109,14 +109,17 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - agents
-  - automation
-  - workflow
-  - architecture
-  - postgresql
-  - python
+  - "agents"
+  - "architecture"
+  - "automation"
+  - "postgresql"
+  - "python"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.347Z"
 ---
 
 ## Key Takeaways

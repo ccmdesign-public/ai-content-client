@@ -87,13 +87,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Data & Analytics"
   - "Product & Design"
 tags:
-  - gemini
-  - computer-vision
-  - prompt-engineering
-  - visualization
-  - ui
+  - "computer-vision"
+  - "gemini"
+  - "prompt-engineering"
+  - "ui"
+  - "visualization"
+tagsNormalizedAt: "2026-03-01T21:19:30.326Z"
 ---
 
 ## Key Takeaways

@@ -185,16 +185,14 @@ tools:
   - name: "GitHub"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "claude-code"
-  - "developer-tools"
-  - "automation"
-  - "vscode"
   - "ai-coding"
-  - "setup-script"
+  - "automation"
+  - "claude"
   - "productivity"
+  - "vscode"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -205,6 +203,7 @@ ai:
   totalTokens: 4777
   processingTimeMs: 55315
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.345Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,14 @@ publicationName: "AI Disruption"
 url: "https://medium.com/ai-disruption/using-reddit-for-seo-isnt-what-you-think-here-s-my-story-d1bd13da48bd?source=rss----c0b4a0b207fc---4"
 publishedAt: "2025-11-16"
 tags:
-  - "seo-services"
-  - "reddit-seo"
-  - "forum"
-  - "seo"
-  - "reddit"
-  - "ai"
+  - "ai-general"
   - "innovation"
+  - "seo"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.615Z"
 ---
 
 # Using Reddit for SEO Isn’t What You Think — Here’s My Story

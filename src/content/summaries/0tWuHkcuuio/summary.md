@@ -87,12 +87,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Product & Design"
+  - "Web Development"
 tags:
-  - chatgpt
-  - agents
-  - api-design
-  - product-strategy
+  - "agents"
+  - "api-design"
+  - "chatgpt"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.346Z"
 ---
 
 ## Key Takeaways

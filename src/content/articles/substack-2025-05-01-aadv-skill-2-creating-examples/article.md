@@ -6,8 +6,12 @@ publicationName: "Jeff Langr"
 url: "https://jjlangr.substack.com/p/aadv-skill-2-creating-examples"
 publishedAt: "2025-05-01"
 tags:
-  - "ai"
-  - "software"
+  - "ai-general"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.638Z"
 ---
 
 # AADV Skill #2: Creating examples

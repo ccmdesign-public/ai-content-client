@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/gen-ai-evals-for-product-leaders"
 publishedAt: "2025-12-24"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.571Z"
 ---
 
 # Gen AI Evals for Product Leaders Certification by AI Product Hub [2 weeks].

@@ -52,11 +52,13 @@ ai:
 tools: []
 categories:
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - startup
-  - product-strategy
-  - user-research
-  - saas
+  - "product-strategy"
+  - "saas"
+  - "startup"
+  - "user-research"
+tagsNormalizedAt: "2026-03-01T21:19:30.350Z"
 ---
 
 ## Key Takeaways

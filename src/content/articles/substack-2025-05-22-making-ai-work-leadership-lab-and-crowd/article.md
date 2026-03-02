@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and"
 publishedAt: "2025-05-22"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.615Z"
 ---
 
 # Making AI Work: Leadership, Lab, and Crowd

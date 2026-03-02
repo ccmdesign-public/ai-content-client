@@ -76,12 +76,7 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "community-building"
-  - "startup-advice"
-  - "product-launch"
-  - "customer-feedback"
-  - "entrepreneurship"
-  - "online-business"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +87,7 @@ ai:
   totalTokens: 3107
   processingTimeMs: 22386
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.405Z"
 ---
 
 ## Key Takeaways

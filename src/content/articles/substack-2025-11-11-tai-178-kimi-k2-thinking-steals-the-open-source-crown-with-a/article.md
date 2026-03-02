@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-178-kimi-k2-thinking-steals-the"
 publishedAt: "2025-11-11"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.613Z"
 ---
 
 # TAI #178: Kimi K2 Thinking Steals the Open-Source Crown With a New Agentic Contender

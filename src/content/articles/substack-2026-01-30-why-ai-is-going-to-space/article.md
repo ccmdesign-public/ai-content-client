@@ -7,8 +7,12 @@ publicationName: "AI Supremacy"
 url: "https://www.ai-supremacy.com/p/why-ai-is-going-to-space-spacex-ipo-xai-2026"
 publishedAt: "2026-01-30"
 tags:
-  - "ai"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.569Z"
 ---
 
 # Why AI is going to Space 🚀

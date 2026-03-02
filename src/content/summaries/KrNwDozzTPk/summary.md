@@ -85,15 +85,9 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Tools & Productivity"
 tags:
-  - "entrepreneurship"
-  - "business-strategy"
-  - "marketing"
-  - "customer-acquisition"
-  - "systemization"
-  - "testimonials"
-  - "reviews"
+  - "business"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/google/gemini-2.5-flash"
@@ -104,6 +98,7 @@ ai:
   totalTokens: 6209
   processingTimeMs: 8456
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.541Z"
 ---
 
 ## Key Takeaways

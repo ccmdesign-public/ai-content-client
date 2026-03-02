@@ -32,14 +32,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
+  - "agents"
+  - "chatgpt"
   - "open-source"
+  - "productivity"
   - "startup"
-  - "openai"
-  - "anthropic"
-  - "acquisition"
-  - "developer-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -50,6 +50,7 @@ ai:
   totalTokens: 13981
   processingTimeMs: 96606
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.512Z"
 ---
 
 ## Key Takeaways

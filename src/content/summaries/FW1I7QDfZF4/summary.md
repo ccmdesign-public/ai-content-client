@@ -50,13 +50,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
+  - "Tools & Productivity"
 tags:
   - "ai-coding"
-  - "prototyping"
-  - "product-development"
   - "claude"
-  - "pull-requests"
   - "workflow"
 ai:
   provider: "openrouter"
@@ -68,6 +65,7 @@ ai:
   totalTokens: 2710
   processingTimeMs: 73316
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.493Z"
 ---
 
 ## Key Takeaways

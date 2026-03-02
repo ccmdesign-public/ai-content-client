@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-claude-sonnet-4-now-has-a-1-million-token-context-window"
 publishedAt: "2025-08-12"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.654Z"
 ---
 
 # Vibe Check: Claude Sonnet 4 Now Has a 1-million Token Context Window

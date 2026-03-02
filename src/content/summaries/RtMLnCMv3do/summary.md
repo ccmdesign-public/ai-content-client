@@ -90,15 +90,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "future-of-work"
-  - "software-engineering"
-  - "specification"
-  - "job-market"
+  - "agents"
+  - "engineering"
   - "productivity"
-  - "knowledge-work"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -109,6 +106,7 @@ ai:
   totalTokens: 24596
   processingTimeMs: 37282
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.415Z"
 ---
 
 ## Key Takeaways

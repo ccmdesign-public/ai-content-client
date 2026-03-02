@@ -53,11 +53,12 @@ categories:
   - "AI & Machine Learning"
   - "Programming"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - architecture
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "claude"
+tagsNormalizedAt: "2026-03-01T21:19:30.452Z"
 ---
 
 ## Key Takeaways

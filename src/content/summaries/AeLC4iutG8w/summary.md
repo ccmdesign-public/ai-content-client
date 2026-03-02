@@ -120,15 +120,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "ai-content-creation"
-  - "blog-writing"
+  - "claude"
   - "seo"
-  - "claude-ai"
-  - "content-marketing"
-  - "ai-tools"
-  - "human-ai-collaboration"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -139,6 +134,7 @@ ai:
   totalTokens: 9526
   processingTimeMs: 28453
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.303Z"
 ---
 
 ## Key Takeaways

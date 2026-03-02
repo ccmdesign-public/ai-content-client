@@ -92,14 +92,11 @@ tools:
   - name: "Canny"
     url: null
 categories:
-  - "Business & Career"
   - "Data & Analytics"
+  - "Web Development"
 tags:
+  - "analytics"
   - "seo"
-  - "ai-tools"
-  - "competitive-analysis"
-  - "web-analytics"
-  - "site-audit"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -110,6 +107,7 @@ ai:
   totalTokens: 6515
   processingTimeMs: 82239
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.359Z"
 ---
 
 ## Key Takeaways

@@ -93,15 +93,13 @@ tools:
   - name: "Google Business Profile"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Web Development"
 tags:
-  - "seo"
-  - "brand-monitoring"
-  - "ai-content"
-  - "chatgpt"
   - "analytics"
-  - "marketing"
+  - "chatgpt"
+  - "seo"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -112,6 +110,7 @@ ai:
   totalTokens: 6180
   processingTimeMs: 28563
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.461Z"
 ---
 
 ## Key Takeaways

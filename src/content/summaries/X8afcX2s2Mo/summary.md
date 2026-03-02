@@ -138,15 +138,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "claude-skills"
-  - "ai-marketing"
-  - "workflow-automation"
-  - "marketing-automation"
-  - "ai-agents"
+  - "agents"
+  - "automation"
   - "prompt-engineering"
-  - "brand-consistency"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -157,6 +153,7 @@ ai:
   totalTokens: 11702
   processingTimeMs: 48481
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.339Z"
 ---
 
 ## Key Takeaways

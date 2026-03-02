@@ -76,13 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "niching"
-  - "customer-avatar"
-  - "community-building"
-  - "saas"
-  - "online-course"
   - "career-growth"
-  - "traffic-conversion"
+  - "saas"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +88,7 @@ ai:
   totalTokens: 2926
   processingTimeMs: 41271
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.387Z"
 ---
 
 ## Key Takeaways

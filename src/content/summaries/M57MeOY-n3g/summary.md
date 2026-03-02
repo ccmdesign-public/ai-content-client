@@ -44,16 +44,11 @@ tools:
   - name: "Google Sheets"
     url: null
 categories:
+  - "Business & Career"
   - "Data & Analytics"
-  - "DevOps & Infrastructure"
 tags:
-  - "data-streaming"
-  - "change-data-capture"
-  - "real-time-data"
-  - "data-engineering"
-  - "infrastructure"
+  - "data-pipeline"
   - "startup"
-  - "yc"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -64,6 +59,7 @@ ai:
   totalTokens: 19078
   processingTimeMs: 17872
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.512Z"
 ---
 
 ## Key Takeaways

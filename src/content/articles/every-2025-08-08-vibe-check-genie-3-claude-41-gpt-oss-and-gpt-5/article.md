@@ -6,9 +6,12 @@ publicationName: "Vibe Check"
 url: "https://every.to/vibe-check/vibe-check-genie-3-claude-4-1-gpt-oss-and-gpt-5"
 publishedAt: "2025-08-08"
 tags:
-  - "ai"
-  - "news"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.560Z"
 ---
 
 # Vibe Check: Genie 3, Claude 4.1, GPT-oss, and GPT-5

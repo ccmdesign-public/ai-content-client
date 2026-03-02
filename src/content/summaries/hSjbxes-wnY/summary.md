@@ -49,15 +49,11 @@ tools:
   - name: "Tailwind CSS"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-design"
-  - "product-design"
-  - "workflow"
-  - "prototyping"
   - "claude"
-  - "json"
+  - "workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -68,6 +64,7 @@ ai:
   totalTokens: 3446
   processingTimeMs: 50605
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.385Z"
 ---
 
 ## Key Takeaways

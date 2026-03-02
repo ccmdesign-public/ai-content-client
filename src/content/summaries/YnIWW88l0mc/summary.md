@@ -109,14 +109,17 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - agents
-  - data-pipeline
-  - workflow
-  - automation
-  - best-practices
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "data-pipeline"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.331Z"
 ---
 
 ## Key Takeaways

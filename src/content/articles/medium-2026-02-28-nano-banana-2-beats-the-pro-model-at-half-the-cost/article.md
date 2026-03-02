@@ -6,12 +6,12 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/nano-banana-2-beats-the-pro-model-at-half-the-cost-80ca64e651c0?source=rss----440100e76000---4"
 publishedAt: "2026-02-28"
 tags:
-  - "news"
-  - "pollo-ai"
-  - "ai"
-  - "nano-banana-2"
-  - "technology"
-  - "generative"
+  - "ai-general"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.662Z"
 ---
 
 # Nano Banana 2: Beats the Pro Model at Half the Cost

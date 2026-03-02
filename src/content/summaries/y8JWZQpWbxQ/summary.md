@@ -75,15 +75,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
 tags:
-  - "llm"
   - "ai-coding"
-  - "model-comparison"
   - "claude"
-  - "qwen"
-  - "benchmarking"
-  - "local-ai"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -94,6 +89,7 @@ ai:
   totalTokens: 7419
   processingTimeMs: 29251
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.499Z"
 ---
 
 ## Key Takeaways

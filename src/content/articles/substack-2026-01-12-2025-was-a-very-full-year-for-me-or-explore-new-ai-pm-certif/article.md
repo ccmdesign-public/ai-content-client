@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/2025-was-a-very-full-year-for-me"
 publishedAt: "2026-01-12"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.674Z"
 ---
 
 # 2025 was a very full year for me | Explore new AI PM Certifications

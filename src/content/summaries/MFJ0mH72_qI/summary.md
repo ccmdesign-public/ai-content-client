@@ -78,16 +78,19 @@ tools:
   - name: "OpenAI"
     url: null
 categories:
-  - "Web Development"
   - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+  - "Web Development"
 tags:
-  - react
-  - nextjs
-  - tailwind
-  - ai-coding
-  - testing
-  - design-systems
-  - agents
+  - "agents"
+  - "ai-coding"
+  - "design-systems"
+  - "nextjs"
+  - "react"
+  - "tailwind"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.445Z"
 ---
 
 ## Key Takeaways

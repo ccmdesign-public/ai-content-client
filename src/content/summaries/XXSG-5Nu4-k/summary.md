@@ -173,15 +173,17 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
   - "Web Development"
 tags:
   - "ai-coding"
-  - "claude-code"
-  - "seo"
+  - "automation"
+  - "claude"
   - "prompt-engineering"
   - "saas"
+  - "seo"
   - "web-development"
-  - "automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -192,6 +194,7 @@ ai:
   totalTokens: 93757
   processingTimeMs: 76943
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.342Z"
 ---
 
 ## Key Takeaways

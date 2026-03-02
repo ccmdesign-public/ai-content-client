@@ -24,15 +24,9 @@ tools:
   - name: "Ahrefs Toolbar"
     url: null
 categories:
-  - "Business & Career"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
   - "seo"
-  - "competitive-intelligence"
-  - "content-analysis"
-  - "traffic-analysis"
-  - "ahrefs"
-  - "seo-tools"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -43,6 +37,7 @@ ai:
   totalTokens: 2740
   processingTimeMs: 26521
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.493Z"
 ---
 
 ## Key Takeaways

@@ -90,13 +90,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "openai"
-  - "anthropic"
-  - "codex"
-  - "claude-opus"
+  - "agents"
+  - "automation"
+  - "chatgpt"
   - "mcp"
-  - "workflow-automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -107,6 +104,7 @@ ai:
   totalTokens: 20159
   processingTimeMs: 26922
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.388Z"
 ---
 
 ## Key Takeaways

@@ -87,13 +87,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - indie-hacker
-  - automation
-  - embeddings
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "embeddings"
+  - "indie-hacker"
+tagsNormalizedAt: "2026-03-01T21:19:30.347Z"
 ---
 
 ## Key Takeaways

@@ -60,14 +60,9 @@ tldr: "OpenAI is raising up to $100B at a $750B-$830B valuation with a potential
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "openai"
-  - "funding"
-  - "compute"
+  - "chatgpt"
   - "llm"
-  - "ai-ethics"
-  - "enterprise-ai"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -78,6 +73,7 @@ ai:
   totalTokens: 2571
   processingTimeMs: 41344
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.478Z"
 ---
 
 ## Key Takeaways

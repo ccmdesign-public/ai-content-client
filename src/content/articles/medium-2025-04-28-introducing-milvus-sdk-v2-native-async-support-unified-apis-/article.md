@@ -6,11 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/introducing-milvus-sdk-v2-native-async-support-unified-apis-and-superior-performance-388c3eb6fa2d?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2025-04-28"
 tags:
-  - "async-support"
-  - "milvus-vector-database"
-  - "milvus-sdk-v2"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.678Z"
 ---
 
 # Introducing Milvus SDK v2: Native Async Support, Unified APIs, and Superior Performance

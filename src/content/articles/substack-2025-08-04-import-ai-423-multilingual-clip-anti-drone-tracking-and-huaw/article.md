@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-423-multilingual-clip-anti"
 publishedAt: "2025-08-04"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.558Z"
 ---
 
 # Import AI 423: Multilingual CLIP; anti-drone tracking; and Huawei kernel design

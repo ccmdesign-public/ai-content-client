@@ -14,16 +14,9 @@ source: "youtube"
 tldr: "A LinkedIn lead scraper system can automatically find and extract 500-1000 leads based on criteria like job title and location, then populate a spreadsheet with names, job titles, companies, LinkedIn URLs, and follower counts for easy outreach."
 tools: []
 categories:
-  - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "linkedin"
-  - "lead-generation"
   - "automation"
-  - "sales"
-  - "marketing"
-  - "web-scraping"
-  - "outreach"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -34,6 +27,7 @@ ai:
   totalTokens: 2575
   processingTimeMs: 40907
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.372Z"
 ---
 
 ## Key Takeaways

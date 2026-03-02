@@ -130,15 +130,12 @@ tools:
   - name: "Notion"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - "solopreneur"
-  - "ai-business"
-  - "marketing-automation"
-  - "niche-research"
-  - "business-strategy"
-  - "ai-agents"
+  - "agents"
+  - "business"
+  - "indie-hacker"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -149,6 +146,7 @@ ai:
   totalTokens: 12251
   processingTimeMs: 115733
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.305Z"
 ---
 
 ## Key Takeaways

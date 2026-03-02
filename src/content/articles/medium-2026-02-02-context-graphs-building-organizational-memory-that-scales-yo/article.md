@@ -6,13 +6,16 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/context-graphs-building-organizational-memory-that-scales-your-ai-solutions-dcd26a93a1ba?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-02"
 tags:
-  - "software-engineering"
-  - "artificial-intelligence"
-  - "data-engineering"
-  - "agentic-ai"
-  - "systems-thinking"
-  - "coding"
-  - "frameworks"
+  - "ai-general"
+  - "data-pipeline"
+  - "engineering"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.582Z"
 ---
 
 # Context Graphs: Building Organizational Memory That Scales Your AI Solutions

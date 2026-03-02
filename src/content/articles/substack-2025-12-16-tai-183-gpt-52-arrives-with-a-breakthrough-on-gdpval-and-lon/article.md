@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-183-gpt-52-arrives-with-a-breakthrough"
 publishedAt: "2025-12-16"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.623Z"
 ---
 
 # TAI #183: GPT-5.2 Arrives with a Breakthrough on GDPVal and long context

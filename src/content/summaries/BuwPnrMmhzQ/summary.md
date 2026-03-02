@@ -60,14 +60,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "prompt-engineering"
-  - "ai-skills"
   - "productivity"
-  - "personalized-ai"
-  - "workflow-optimization"
-  - "future-of-work"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -78,6 +74,7 @@ ai:
   totalTokens: 16859
   processingTimeMs: 29652
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.292Z"
 ---
 
 ## Key Takeaways

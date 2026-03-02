@@ -82,12 +82,14 @@ tools:
     url: "https://www.aibuilderclub.com/"
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - gemini
-  - prompt-engineering
-  - ai-coding
-  - best-practices
+  - "ai-coding"
+  - "best-practices"
+  - "gemini"
+  - "llm"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.444Z"
 ---
 
 ## Key Takeaways

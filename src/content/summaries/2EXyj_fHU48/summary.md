@@ -75,13 +75,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - "multi-agent-ai"
-  - "ai-architecture"
-  - "scaling"
-  - "orchestration"
+  - "agents"
+  - "architecture"
+  - "engineering"
   - "prompt-engineering"
-  - "software-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +91,7 @@ ai:
   totalTokens: 6537
   processingTimeMs: 24343
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.526Z"
 ---
 
 ## Key Takeaways

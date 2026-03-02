@@ -157,11 +157,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - gemini
-  - llm
-  - ai-coding
-  - automation
-  - workflow
+  - "ai-coding"
+  - "automation"
+  - "gemini"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.289Z"
 ---
 
 ## Key Takeaways

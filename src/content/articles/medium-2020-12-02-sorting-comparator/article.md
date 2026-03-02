@@ -6,12 +6,12 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/sorting-comparator-21d98c192bbb?source=rss----aa394f020b61---4"
 publishedAt: "2020-12-02"
 tags:
+  - "architecture"
+  - "engineering"
   - "python"
-  - "hackerrank"
-  - "solutions"
-  - "algorithms"
-  - "developer"
-  - "programming"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.658Z"
 ---
 
 # Sorting: Comparator

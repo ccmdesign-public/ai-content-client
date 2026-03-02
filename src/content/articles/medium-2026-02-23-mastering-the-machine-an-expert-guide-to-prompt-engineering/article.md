@@ -6,12 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/mastering-the-machine-an-expert-guide-to-prompt-engineering-0e8181a67786?source=rss----98111c9905da---4"
 publishedAt: "2026-02-23"
 tags:
-  - "cloud-computing"
-  - "prompt-engineering"
+  - "ai-general"
   - "llm"
-  - "writing-prompts"
-  - "ai"
+  - "prompt-engineering"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.577Z"
 ---
 
 # Mastering the Machine: An Expert Guide to Prompt Engineering

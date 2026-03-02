@@ -16,15 +16,11 @@ tools:
   - name: "Google Sheets"
     url: null
 categories:
-  - "Business & Career"
+  - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "linkedin"
-  - "lead-generation"
+  - "ai-general"
   - "automation"
-  - "sales"
-  - "google-sheets"
-  - "ai"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -35,6 +31,7 @@ ai:
   totalTokens: 2268
   processingTimeMs: 18109
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.327Z"
 ---
 
 ## Key Takeaways

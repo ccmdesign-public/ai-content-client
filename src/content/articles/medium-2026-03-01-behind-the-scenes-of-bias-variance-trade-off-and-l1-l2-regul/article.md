@@ -6,13 +6,16 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/behind-the-scenes-of-bias-variance-trade-off-and-l1-l2-regularization-47de4167f40e?source=rss----98111c9905da---4"
 publishedAt: "2026-03-01"
 tags:
-  - "coding"
-  - "python"
-  - "regularization"
-  - "bias-variance-tradeoff"
+  - "ai-general"
+  - "engineering"
   - "machine-learning"
-  - "ai"
+  - "python"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.644Z"
 ---
 
 # Behind the Scenes of Bias Variance Trade-Off and L1 , L2 Regularization

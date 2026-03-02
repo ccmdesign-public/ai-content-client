@@ -16,16 +16,8 @@ tools:
     url: null
   - name: "Hen's AI"
     url: null
-categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
-tags:
-  - "ai-video"
-  - "content-creation"
-  - "marketing-automation"
-  - "video-production"
-  - "ai-tools"
-  - "business-transformation"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -36,6 +28,7 @@ ai:
   totalTokens: 2565
   processingTimeMs: 49254
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.463Z"
 ---
 
 ## Key Takeaways

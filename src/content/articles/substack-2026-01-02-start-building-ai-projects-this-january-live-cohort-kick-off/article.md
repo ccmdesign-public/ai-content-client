@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/start-building-ai-projects-this-january"
 publishedAt: "2026-01-02"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.655Z"
 ---
 
 # Start Building AI Projects This January - Live Cohort Kick-Off This Sunday

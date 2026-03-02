@@ -85,12 +85,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
 tags:
-  - agents
-  - architecture
-  - security
-  - llm
+  - "agents"
+  - "architecture"
+  - "llm"
+  - "security-general"
+tagsNormalizedAt: "2026-03-01T21:19:30.379Z"
 ---
 
 ## Key Takeaways

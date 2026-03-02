@@ -6,11 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/overview-e79fa5a6076b?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2024-12-17"
 tags:
-  - "contribute-to-milvus"
-  - "milvus"
-  - "vector-database"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.636Z"
 ---
 
 # Overview

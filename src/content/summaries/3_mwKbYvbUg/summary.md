@@ -94,16 +94,13 @@ tools:
   - name: "just"
     url: null
 categories:
-  - "DevOps & Infrastructure"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "developer-tools"
-  - "onboarding"
+  - "agents"
   - "automation"
-  - "devops"
+  - "productivity"
   - "prompt-engineering"
-  - "codebase-management"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -114,6 +111,7 @@ ai:
   totalTokens: 7118
   processingTimeMs: 33912
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.286Z"
 ---
 
 ## Key Takeaways

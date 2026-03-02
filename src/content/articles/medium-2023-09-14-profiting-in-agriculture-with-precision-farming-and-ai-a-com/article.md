@@ -6,12 +6,14 @@ publicationName: "AI Guys"
 url: "https://medium.com/ai-guys/profiting-in-agriculture-with-precision-farming-and-ai-a-comprehensive-step-by-step-guide-42f91790a19b?source=rss----90b968f6dbf8---4"
 publishedAt: "2023-09-14"
 tags:
-  - "future"
-  - "ai"
-  - "artificial-intelligence"
-  - "technology"
-  - "agriculture"
+  - "ai-general"
   - "applications"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Mobile Development"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.658Z"
 ---
 
 # Profiting in Agriculture with Precision Farming and AI: A Comprehensive Step-by-Step Guide

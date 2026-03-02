@@ -92,16 +92,14 @@ tools:
   - name: "ElevenLabs"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "solo-founder"
-  - "ai-business"
+  - "agents"
+  - "productivity"
   - "prompt-engineering"
   - "startup"
-  - "entrepreneurship"
-  - "ai-agents"
-  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -111,6 +109,7 @@ ai:
   outputTokens: 815
   totalTokens: 18151
   processingTimeMs: 25290
+tagsNormalizedAt: "2026-03-01T21:19:30.358Z"
 ---
 
 ## Key Takeaways

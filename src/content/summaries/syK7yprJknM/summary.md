@@ -103,13 +103,14 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - ai-coding
-  - claude
-  - chatgpt
-  - gemini
-  - copilot
-  - terminal
-  - vscode
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "copilot"
+  - "gemini"
+  - "terminal"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.465Z"
 ---
 
 ## Key Takeaways

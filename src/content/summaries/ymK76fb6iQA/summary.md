@@ -82,11 +82,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - computer-vision
-  - model-training
-  - architecture
+  - "architecture"
+  - "computer-vision"
+  - "llm"
+  - "model-training"
+tagsNormalizedAt: "2026-03-01T21:19:30.406Z"
 ---
 
 ## Key Takeaways

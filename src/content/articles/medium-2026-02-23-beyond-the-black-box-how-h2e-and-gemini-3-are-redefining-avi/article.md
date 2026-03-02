@@ -6,13 +6,11 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/beyond-the-black-box-how-h2e-and-gemini-3-are-redefining-aviation-safety-9925472dfa48?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-23"
 tags:
-  - "ai-governance"
-  - "vjepa2"
-  - "agentic-ai"
+  - "ai-general"
   - "llm"
-  - "artificial-intelligence"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.662Z"
 ---
 
 # Beyond the Black Box: How H2E and Gemini 3 are Redefining Aviation Safety

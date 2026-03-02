@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/ai-can-fix-social-media-s-original-sin"
 publishedAt: "2025-04-25"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.632Z"
 ---
 
 # AI Can Fix Social Media’s Original Sin

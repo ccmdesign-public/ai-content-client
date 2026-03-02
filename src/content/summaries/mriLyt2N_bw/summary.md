@@ -79,12 +79,8 @@ categories:
   - "Business & Career"
   - "Tools & Productivity"
 tags:
-  - "time-management"
-  - "entrepreneurship"
-  - "delegation"
   - "productivity"
-  - "business-growth"
-  - "scaling"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -95,6 +91,7 @@ ai:
   totalTokens: 5484
   processingTimeMs: 21686
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.524Z"
 ---
 
 ## Key Takeaways

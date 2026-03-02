@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/big-data-analytics-for-gaming-firebolt-47a5868a8a31
 publishedAt: "2023-08-23"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.668Z"
 ---
 
 # Big Data Analytics for Gaming | Firebolt

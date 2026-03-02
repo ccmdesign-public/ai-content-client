@@ -75,13 +75,10 @@ tldr: "True success requires enduring different 'flavors of hard' work—like sa
 tools: []
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "mindset"
-  - "entrepreneurship"
   - "productivity"
-  - "success"
-  - "personal-development"
-  - "business-growth"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +89,7 @@ ai:
   totalTokens: 4640
   processingTimeMs: 23878
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.393Z"
 ---
 
 ## Key Takeaways

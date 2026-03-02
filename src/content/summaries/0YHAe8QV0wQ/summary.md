@@ -13,15 +13,9 @@ source: "youtube"
 tldr: "AI researchers predict AI will seriously displace jobs by 2026 and achieve self-improving research by late 2027, leading to rapid change; start automating your team's most time-consuming task with an AI tool now to avoid being left behind."
 tools: []
 categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-automation"
-  - "future-of-work"
-  - "singularity"
-  - "ai-research"
-  - "job-displacement"
-  - "business-automation"
+  - "research"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -32,6 +26,7 @@ ai:
   totalTokens: 2864
   processingTimeMs: 19552
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.540Z"
 ---
 
 ## Key Takeaways

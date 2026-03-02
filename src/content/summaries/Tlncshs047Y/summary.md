@@ -62,12 +62,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
 tags:
-  - llm
-  - python
-  - performance
-  - architecture
+  - "architecture"
+  - "llm"
+  - "performance"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.324Z"
 ---
 
 ## Key Takeaways

@@ -62,15 +62,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-agents"
-  - "autonomous-agents"
-  - "content-creation"
-  - "social-media-automation"
-  - "revenue-generation"
-  - "experiment"
-  - "mac-mini"
+  - "agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -81,6 +74,7 @@ ai:
   totalTokens: 8849
   processingTimeMs: 15135
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.348Z"
 ---
 
 ## Key Takeaways

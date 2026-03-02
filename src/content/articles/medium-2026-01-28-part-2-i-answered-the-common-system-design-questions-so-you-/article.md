@@ -6,13 +6,15 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-2-i-answered-the-common-system-design-questions-so-you-dont-have-to-e6855fc5722e?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-01-28"
 tags:
-  - "database"
+  - "architecture"
   - "design-systems"
-  - "storage"
-  - "indexing"
-  - "system-design-concepts"
-  - "frontend"
-  - "programming"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Product & Design"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.555Z"
 ---
 
 # Part 2: I Answered the common System Design Questions So You Don’t Have To

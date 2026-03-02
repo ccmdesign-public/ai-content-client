@@ -15,14 +15,14 @@ tools: []
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "multi-agent-systems"
+  - "agents"
   - "ai-coding"
-  - "software-architecture"
+  - "architecture"
+  - "git"
   - "llm"
   - "rust"
-  - "git"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -33,6 +33,7 @@ ai:
   totalTokens: 2616
   processingTimeMs: 46530
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.341Z"
 ---
 
 ## Key Takeaways

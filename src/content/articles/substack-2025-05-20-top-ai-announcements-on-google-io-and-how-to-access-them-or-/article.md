@@ -7,8 +7,12 @@ publicationName: "AI Product Academy"
 url: "https://marily.substack.com/p/top-ai-announcements-on-google-io"
 publishedAt: "2025-05-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-01T21:19:30.594Z"
 ---
 
 # 🚨 Top AI announcements on Google I/O (& how to access them) | Agentic AI Certification & Bootcamp

@@ -118,12 +118,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
 tags:
-  - agents
-  - llm
-  - python
-  - api-design
+  - "agents"
+  - "api-design"
+  - "llm"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.548Z"
 ---
 
 ## Key Takeaways

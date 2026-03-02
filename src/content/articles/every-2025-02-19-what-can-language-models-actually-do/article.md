@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/what-can-language-models-actually-do-371b969e-d470-4639-a9fa-f873c133c19b"
 publishedAt: "2025-02-19"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.662Z"
 ---
 
 # What Can Language Models Actually Do?

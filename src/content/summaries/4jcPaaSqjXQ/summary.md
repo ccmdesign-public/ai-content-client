@@ -38,12 +38,14 @@ tools:
     url: null
 categories:
   - "Product & Design"
+  - "Programming"
   - "Web Development"
 tags:
-  - accessibility
-  - design-systems
-  - best-practices
-  - react
+  - "accessibility"
+  - "best-practices"
+  - "design-systems"
+  - "react"
+tagsNormalizedAt: "2026-03-01T21:19:30.332Z"
 ---
 
 ## Key Takeaways

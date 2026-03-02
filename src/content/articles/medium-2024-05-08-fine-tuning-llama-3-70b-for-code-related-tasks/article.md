@@ -6,13 +6,16 @@ publicationName: "Anolytics"
 url: "https://medium.com/anolytics/fine-tuning-llama-3-70b-for-code-related-tasks-852efb7c4faa?source=rss----5878f1e5f050---4"
 publishedAt: "2024-05-08"
 tags:
-  - "data-science"
-  - "genai"
-  - "artificial-intelligence"
-  - "llama-3"
-  - "large-language-models"
+  - "ai-general"
   - "analytics"
   - "business"
+  - "data-science"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.632Z"
 ---
 
 # Fine-tuning Llama 3: 70B for Code-Related Tasks

@@ -96,15 +96,17 @@ tools:
   - name: "Cursor"
     url: null
 categories:
+  - "AI & Machine Learning"
   - "Product & Design"
   - "Web Development"
 tags:
-  - ux
-  - ui
-  - design-systems
-  - react
-  - tailwind
-  - ai-coding
+  - "ai-coding"
+  - "design-systems"
+  - "react"
+  - "tailwind"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.367Z"
 ---
 
 ## Key Takeaways

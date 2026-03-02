@@ -6,13 +6,10 @@ publicationName: "Pythoneers"
 url: "https://medium.com/pythoneers/create-pdf-from-image-or-list-of-images-using-python-img2pdf-e596e5f50d66?source=rss----7a8fb64b42eb---4"
 publishedAt: "2026-01-15"
 tags:
-  - "img2pdf"
-  - "free-image-to-pdf"
-  - "pdf"
-  - "python-programming"
-  - "image-to-pdf-converter"
   - "python"
-  - "community"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.568Z"
 ---
 
 # Create PDF from image or list of images using Python: img2pdf

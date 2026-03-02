@@ -87,14 +87,16 @@ tools:
     url: "https://betterstack.com/"
 categories:
   - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
   - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - agents
-  - vercel
-  - automation
-  - workflow
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "vercel"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.348Z"
 ---
 
 ## Key Takeaways

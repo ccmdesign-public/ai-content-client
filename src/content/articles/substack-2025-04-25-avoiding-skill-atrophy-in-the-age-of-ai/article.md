@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age"
 publishedAt: "2025-04-25"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.564Z"
 ---
 
 # Avoiding Skill Atrophy in the Age of AI

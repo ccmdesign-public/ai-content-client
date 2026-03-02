@@ -6,13 +6,12 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/first-principles-question-everything-even-the-question-mark-how-to-ruin-a-brainstorming-0728bfa582ae?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-10"
 tags:
-  - "first-principles"
-  - "first-principles-thinking"
-  - "problem-solving"
-  - "dig-deeper"
-  - "start-with-why"
-  - "frontend"
-  - "programming"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.626Z"
 ---
 
 # First Principles: Question Everything (Even the Question Mark) — How to Ruin a Brainstorming…

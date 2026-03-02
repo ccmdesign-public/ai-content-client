@@ -51,13 +51,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - claude
-  - agents
-  - ai-coding
-  - automation
-  - javascript
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "javascript"
+tagsNormalizedAt: "2026-03-01T21:19:30.504Z"
 ---
 
 ## Key Takeaways

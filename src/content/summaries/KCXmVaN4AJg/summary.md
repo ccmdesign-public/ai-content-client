@@ -77,16 +77,8 @@ tools:
     url: null
   - name: "TikTok"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "e-commerce"
-  - "scaling"
-  - "licensing"
-  - "ambassador-program"
-  - "paid-traffic"
-  - "anime"
-  - "creator-economy"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -97,6 +89,7 @@ ai:
   totalTokens: 7885
   processingTimeMs: 41893
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.330Z"
 ---
 
 ## Key Takeaways

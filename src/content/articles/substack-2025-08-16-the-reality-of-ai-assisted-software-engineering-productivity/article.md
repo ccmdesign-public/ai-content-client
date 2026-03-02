@@ -7,8 +7,12 @@ publicationName: "Addy Osmani"
 url: "https://addyo.substack.com/p/the-reality-of-ai-assisted-software"
 publishedAt: "2025-08-16"
 tags:
-  - "ai"
+  - "ai-general"
   - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.593Z"
 ---
 
 # The reality of AI-Assisted software engineering productivity

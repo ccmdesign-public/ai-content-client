@@ -80,15 +80,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Programming"
 tags:
-  - "python"
-  - "web-scraping"
-  - "rag"
   - "llm"
-  - "ai-tools"
-  - "async"
-  - "crawl4ai"
+  - "python"
+  - "rag"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -99,6 +95,7 @@ ai:
   totalTokens: 8086
   processingTimeMs: 62976
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.362Z"
 ---
 
 ## Key Takeaways

@@ -101,14 +101,8 @@ tools:
     url: null
 categories:
   - "Business & Career"
-  - "Tools & Productivity"
 tags:
-  - "newsletter"
-  - "email-marketing"
   - "monetization"
-  - "audience-building"
-  - "side-hustle"
-  - "creator-economy"
   - "saas"
 ai:
   provider: "openrouter"
@@ -120,6 +114,7 @@ ai:
   totalTokens: 42224
   processingTimeMs: 78917
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.332Z"
 ---
 
 ## Key Takeaways

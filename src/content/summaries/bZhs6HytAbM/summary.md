@@ -76,13 +76,8 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "business-strategy"
-  - "focus"
-  - "startup-growth"
-  - "time-management"
-  - "compounding"
-  - "execution"
+  - "business"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +88,7 @@ ai:
   totalTokens: 9156
   processingTimeMs: 18711
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.540Z"
 ---
 
 ## Key Takeaways

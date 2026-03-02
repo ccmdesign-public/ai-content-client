@@ -63,14 +63,10 @@ tools:
   - name: "Codex"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - "ai-adoption"
-  - "data-privacy"
-  - "risk-management"
-  - "business-strategy"
-  - "competitive-advantage"
+  - "business"
   - "prompt-engineering"
 ai:
   provider: "openrouter"
@@ -82,6 +78,7 @@ ai:
   totalTokens: 14645
   processingTimeMs: 58046
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.401Z"
 ---
 
 ## Key Takeaways

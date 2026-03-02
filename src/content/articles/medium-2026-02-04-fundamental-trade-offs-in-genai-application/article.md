@@ -6,12 +6,15 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/fundamental-trade-offs-in-genai-application-3a12495cc76d?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-04"
 tags:
-  - "llm-applications"
-  - "fintech"
-  - "machine-learning"
-  - "genai"
+  - "ai-general"
   - "data-science"
   - "education"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.679Z"
 ---
 
 # Fundamental Trade-offs in GenAI Application

@@ -127,15 +127,11 @@ tools:
     url: null
 categories:
   - "DevOps & Infrastructure"
-  - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - "sre"
-  - "devops"
-  - "ai-ops"
-  - "reliability-engineering"
   - "ci-cd"
-  - "observability"
-  - "software-engineering"
+  - "engineering"
+  - "monitoring"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -146,6 +142,7 @@ ai:
   totalTokens: 43379
   processingTimeMs: 35037
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.408Z"
 ---
 
 ## Key Takeaways

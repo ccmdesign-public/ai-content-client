@@ -6,13 +6,12 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/a-chinese-ai-generated-a-tom-cruise-vs-79d24d94e90d?source=rss----440100e76000---4"
 publishedAt: "2026-02-20"
 tags:
-  - "artificial-intelligence"
-  - "hollywood"
-  - "technology"
-  - "china"
-  - "genai"
-  - "ai"
-  - "generative"
+  - "ai-general"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.651Z"
 ---
 
 # A Chinese AI generated a Tom Cruise vs.

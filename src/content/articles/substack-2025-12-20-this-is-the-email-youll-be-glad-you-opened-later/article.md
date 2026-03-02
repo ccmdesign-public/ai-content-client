@@ -7,8 +7,12 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/dont-open-this-unless-you-want-to"
 publishedAt: "2025-12-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.632Z"
 ---
 
 # This is the email you’ll be glad you opened later.

@@ -6,11 +6,12 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/meet-slotbot-an-ai-that-impersonates-solo-business-owners-heres-what-i-learned-about-agentic-systems-95316c816b71?source=rss----98111c9905da---4"
 publishedAt: "2026-02-27"
 tags:
-  - "generative-ai-tools"
-  - "ai-agent"
-  - "agentic-ai"
-  - "ai"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.581Z"
 ---
 
 # Meet SlotBot: An AI That Impersonates Solo Business Owners — Here’s What I Learned About Agentic Systems

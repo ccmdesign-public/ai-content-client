@@ -98,13 +98,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
   - "Tools & Productivity"
 tags:
-  - nlp
-  - llm
-  - automation
-  - python
-  - terminal
+  - "automation"
+  - "llm"
+  - "nlp"
+  - "python"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.502Z"
 ---
 
 ## Key Takeaways

@@ -144,12 +144,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-workflows"
+  - "automation"
   - "productivity"
   - "prompt-engineering"
   - "research"
-  - "content-creation"
-  - "automation"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -160,6 +158,7 @@ ai:
   totalTokens: 13207
   processingTimeMs: 34625
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.376Z"
 ---
 
 ## Key Takeaways

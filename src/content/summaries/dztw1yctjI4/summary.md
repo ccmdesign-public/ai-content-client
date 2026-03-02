@@ -24,15 +24,8 @@ tldr: "Meter's latest AI agent benchmarking shows dramatic acceleration: Opus 4.
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
 tags:
-  - "ai-agents"
-  - "llm-benchmarking"
-  - "economic-impact"
-  - "ai-doomerism"
-  - "market-sentiment"
-  - "claude-opus"
-  - "gpt-5"
+  - "agents"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -43,6 +36,7 @@ ai:
   totalTokens: 11135
   processingTimeMs: 32432
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.398Z"
 ---
 
 ## Key Takeaways

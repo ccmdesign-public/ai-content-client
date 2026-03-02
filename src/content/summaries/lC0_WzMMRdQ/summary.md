@@ -75,14 +75,8 @@ tldr: "To improve YouTube performance, creators must focus on quality content th
 tools:
   - name: "VidIQ"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "youtube-growth"
-  - "content-creation"
-  - "business-education"
-  - "content-strategy"
-  - "personal-branding"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -93,6 +87,7 @@ ai:
   totalTokens: 4762
   processingTimeMs: 36817
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.380Z"
 ---
 
 ## Key Takeaways

@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/a-primer-on-nalyzing-semi-structured-data-firebolt-
 publishedAt: "2023-09-06"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.680Z"
 ---
 
 # A primer on analyzing semi-structured data | Firebolt (part 1)

@@ -6,9 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/introducing-deepsearcher-a-local-open-source-deep-research-2fa6c454b303?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2025-02-21"
 tags:
-  - "deepsearcher"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.669Z"
 ---
 
 # Introducing DeepSearcher: A Local Open Source Deep Research

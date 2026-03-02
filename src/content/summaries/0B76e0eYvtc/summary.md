@@ -18,9 +18,6 @@ categories:
   - "Business & Career"
 tags:
   - "chatgpt"
-  - "openai"
-  - "ai-business"
-  - "ads"
   - "llm"
   - "monetization"
 ai:
@@ -33,6 +30,7 @@ ai:
   totalTokens: 2252
   processingTimeMs: 42533
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.435Z"
 ---
 
 ## Key Takeaways

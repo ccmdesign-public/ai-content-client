@@ -7,8 +7,12 @@ publicationName: "AI Supremacy"
 url: "https://www.ai-supremacy.com/p/how-to-use-notebooklm-with-claude-code-2026"
 publishedAt: "2026-01-27"
 tags:
-  - "ai"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.554Z"
 ---
 
 # How to Use NotebookLM with Claude Code

@@ -154,12 +154,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "openclaw"
-  - "ai-agents"
-  - "prompt-engineering"
+  - "agents"
   - "automation"
-  - "crm"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -169,6 +167,7 @@ ai:
   outputTokens: 1371
   totalTokens: 30650
   processingTimeMs: 121062
+tagsNormalizedAt: "2026-03-01T21:19:30.413Z"
 ---
 
 ## Key Takeaways

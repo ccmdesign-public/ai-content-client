@@ -19,16 +19,8 @@ playlistName: "Personal"
 category: "personal"
 tldr: "Seven medieval vegetables—Skirret, Good King Henry, Alexanders, Scorzonera, Rampion, Agretti, and Orach—were eliminated from modern agriculture because they don't fit industrial farming's demands for speed, uniformity, and transportability, despite being more nutritious, resilient, and sustainable perennial crops."
 tools: []
-categories:
-  - "Product & Design"
-tags:
-  - "agriculture"
-  - "permaculture"
-  - "history"
-  - "sustainability"
-  - "gardening"
-  - "food-systems"
-  - "biodiversity"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -38,6 +30,7 @@ ai:
   outputTokens: 891
   totalTokens: 11724
   processingTimeMs: 60292
+tagsNormalizedAt: "2026-03-01T21:19:30.286Z"
 ---
 
 ## Key Takeaways

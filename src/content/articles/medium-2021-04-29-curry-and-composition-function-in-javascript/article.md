@@ -6,8 +6,10 @@ publicationName: "Voice of Code"
 url: "https://medium.com/voice-of-code/curry-and-composition-function-in-javascript-2dfc691bb68f?source=rss----aa394f020b61---4"
 publishedAt: "2021-04-29"
 tags:
-  - "developer"
-  - "programming"
+  - "engineering"
+categories:
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.643Z"
 ---
 
 # Curry And Composition Function in JavaScript

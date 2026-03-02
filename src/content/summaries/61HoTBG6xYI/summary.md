@@ -66,15 +66,8 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
-  - "ai-capabilities"
-  - "pdf-extraction"
-  - "image-generation"
-  - "handwriting-recognition"
   - "prompt-engineering"
-  - "competitive-advantage"
-  - "ai-testing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -85,6 +78,7 @@ ai:
   totalTokens: 12051
   processingTimeMs: 25779
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.282Z"
 ---
 
 ## Key Takeaways

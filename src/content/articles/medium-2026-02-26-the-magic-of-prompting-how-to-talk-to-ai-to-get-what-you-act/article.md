@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/the-magic-of-prompting-how-to-talk-to-ai-to-get-what-you-actually-want-d812f70a03ce?source=rss----98111c9905da---4"
 publishedAt: "2026-02-26"
 tags:
-  - "programming"
-  - "technology"
-  - "artificial-intelligence"
-  - "marketing"
-  - "life"
-  - "ai"
+  - "ai-general"
+  - "engineering"
+  - "innovation"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.598Z"
 ---
 
 # The Magic of Prompting: How to Talk to AI to Get What You Actually Want

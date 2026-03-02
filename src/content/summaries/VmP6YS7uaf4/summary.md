@@ -95,13 +95,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
 tags:
-  - chatgpt
-  - gemini
-  - llm
-  - workflow
-  - best-practices
+  - "best-practices"
+  - "chatgpt"
+  - "gemini"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.456Z"
 ---
 
 ## Key Takeaways

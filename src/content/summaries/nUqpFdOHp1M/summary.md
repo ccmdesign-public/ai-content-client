@@ -51,12 +51,14 @@ ai:
 tools: []
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - model-training
-  - agents
-  - ai-coding
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "llm"
+  - "model-training"
+tagsNormalizedAt: "2026-03-01T21:19:30.331Z"
 ---
 
 ## Key Takeaways

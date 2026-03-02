@@ -78,12 +78,13 @@ tools:
     url: "https://cursor.com/"
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - ai-coding
-  - claude
-  - agents
-  - performance
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "performance"
+tagsNormalizedAt: "2026-03-01T21:19:30.395Z"
 ---
 
 ## Key Takeaways

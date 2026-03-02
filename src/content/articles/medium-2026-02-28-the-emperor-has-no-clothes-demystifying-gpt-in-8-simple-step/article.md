@@ -6,13 +6,13 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-emperor-has-no-clothes-demystifying-gpt-in-8-simple-steps-e9c0d61ff413?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-02-28"
 tags:
+  - "ai-general"
+  - "chatgpt"
   - "llm"
-  - "gpt"
-  - "deep-learning"
-  - "mathematics"
-  - "andrej-karpathy"
-  - "ai"
-  - "beginner"
+  - "model-training"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.552Z"
 ---
 
 # The Emperor Has No Clothes: Demystifying GPT in 8 Simple Steps

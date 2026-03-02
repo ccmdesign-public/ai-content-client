@@ -44,15 +44,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Business & Career"
+  - "Programming"
 tags:
   - "ai-coding"
-  - "anthropic"
-  - "openai"
+  - "chatgpt"
   - "claude"
-  - "gpt-5"
-  - "software-engineering"
-  - "market-trends"
+  - "engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -63,6 +60,7 @@ ai:
   totalTokens: 10910
   processingTimeMs: 130979
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.382Z"
 ---
 
 ## Key Takeaways

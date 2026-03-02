@@ -6,13 +6,15 @@ publicationName: "Dev Genius"
 url: "https://blog.devgenius.io/amazons-project-dawn-cuts-30-000-jobs-while-aws-loses-its-community-champion-ffe7a0943b06?source=rss----4e2c1156667e---4"
 publishedAt: "2026-01-29"
 tags:
+  - "ai-general"
   - "aws"
-  - "amazon"
-  - "layoffs"
-  - "artificial-intelligence"
-  - "ai"
-  - "tutorials"
-  - "tech"
+  - "education"
+  - "innovation"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.667Z"
 ---
 
 # Amazon’s “Project Dawn” cuts 30,000 jobs while AWS loses its community champion

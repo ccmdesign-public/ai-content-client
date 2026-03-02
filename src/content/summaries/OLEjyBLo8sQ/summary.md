@@ -46,13 +46,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Business & Career"
 tags:
-  - "agi"
-  - "recursive-self-improvement"
   - "prompt-engineering"
-  - "ai-benchmarks"
   - "startup"
-  - "deepmind"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -63,6 +60,7 @@ ai:
   totalTokens: 9755
   processingTimeMs: 58182
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.354Z"
 ---
 
 ## Key Takeaways

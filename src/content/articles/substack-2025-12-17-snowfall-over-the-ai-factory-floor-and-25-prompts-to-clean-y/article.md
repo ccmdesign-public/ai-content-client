@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/snowfall-over-the-ai-factory-floor"
 publishedAt: "2025-12-17"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.659Z"
 ---
 
 # Snowfall over the AI factory floor (and 25 prompts to clean your slate)

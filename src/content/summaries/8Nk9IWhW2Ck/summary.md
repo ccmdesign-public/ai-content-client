@@ -84,15 +84,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Security"
 tags:
-  - "ai-automation"
-  - "claude-code"
-  - "openclaw"
-  - "personal-ai"
-  - "ai-agents"
-  - "security"
-  - "no-code"
+  - "agents"
+  - "claude"
+  - "security-general"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -103,6 +99,7 @@ ai:
   totalTokens: 19281
   processingTimeMs: 46743
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.425Z"
 ---
 
 ## Key Takeaways

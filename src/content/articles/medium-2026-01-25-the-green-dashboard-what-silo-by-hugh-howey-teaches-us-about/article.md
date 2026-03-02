@@ -6,13 +6,17 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-green-dashboard-what-silo-by-hugh-howey-teaches-us-about-sanitized-data-f4ab20a42a8b?source=rss----32881626c9c9---4"
 publishedAt: "2026-01-25"
 tags:
-  - "technology"
-  - "artificial-intelligence"
-  - "leadership"
-  - "business-intelligence"
-  - "data-analytics"
+  - "ai-general"
+  - "analytics"
   - "data-science"
-  - "finance"
+  - "innovation"
+  - "leadership"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.607Z"
 ---
 
 # The Green Dashboard: What Silo by Hugh Howey Teaches Us About Sanitized Data

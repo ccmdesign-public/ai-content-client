@@ -7,8 +7,12 @@ publicationName: "Robots Ate My Homework"
 url: "https://robotsatemyhomework.substack.com/p/an-ai-thats-trained-on-best-practices"
 publishedAt: "2025-10-01"
 tags:
-  - "ai"
+  - "ai-general"
   - "education"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.585Z"
 ---
 
 # An AI that's trained on best practices will never find the dragons

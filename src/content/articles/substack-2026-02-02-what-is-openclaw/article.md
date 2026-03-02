@@ -7,8 +7,12 @@ publicationName: "AI Supremacy"
 url: "https://www.ai-supremacy.com/p/what-is-openclaw-moltbot-2026"
 publishedAt: "2026-02-02"
 tags:
-  - "ai"
-  - "analysis"
+  - "ai-general"
+  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.666Z"
 ---
 
 # What is OpenClaw? 🦀

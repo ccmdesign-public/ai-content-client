@@ -127,16 +127,8 @@ tldr: "CrowdStrike leveraged a 2024 global software crash scandal to amplify its
 tools:
   - name: "Semrush"
     url: null
-categories:
-  - "Business & Career"
-tags:
-  - "seo-strategy"
-  - "content-marketing"
-  - "crisis-management"
-  - "digital-marketing"
-  - "ai-search"
-  - "b2b-marketing"
-  - "backlink-strategy"
+categories: []
+tags: []
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -147,6 +139,7 @@ ai:
   totalTokens: 9813
   processingTimeMs: 23223
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.305Z"
 ---
 
 ## Key Takeaways

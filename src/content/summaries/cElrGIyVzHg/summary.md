@@ -47,13 +47,15 @@ tools:
 categories:
   - "DevOps & Infrastructure"
   - "Security"
+  - "Tools & Productivity"
 tags:
-  - git
-  - aws
-  - azure
-  - gcp
-  - terminal
-  - encryption
+  - "aws"
+  - "azure"
+  - "encryption"
+  - "gcp"
+  - "git"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.316Z"
 ---
 
 ## Key Takeaways

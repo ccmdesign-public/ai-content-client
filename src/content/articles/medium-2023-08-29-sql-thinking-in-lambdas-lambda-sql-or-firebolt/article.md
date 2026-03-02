@@ -7,7 +7,9 @@ url: "https://selectfrom.dev/sql-thinking-in-lambdas-lambda-sql-firebolt-72f0dfe
 publishedAt: "2023-08-29"
 tags:
   - "data-science"
-  - "curated"
+categories:
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-01T21:19:30.669Z"
 ---
 
 # SQL: Thinking in Lambdas (lambda SQL) | Firebolt

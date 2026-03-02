@@ -116,15 +116,10 @@ tools:
   - name: "DevDocs"
     url: "https://devdocs.io"
 categories:
+  - "AI & Machine Learning"
   - "Programming"
-  - "Tools & Productivity"
 tags:
-  - "terminal-tools"
   - "ai-coding"
-  - "emacs"
-  - "vim"
-  - "developer-community"
-  - "learning-strategies"
   - "open-source"
 ai:
   provider: "openrouter"
@@ -136,6 +131,7 @@ ai:
   totalTokens: 22051
   processingTimeMs: 45904
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.392Z"
 ---
 
 ## Key Takeaways

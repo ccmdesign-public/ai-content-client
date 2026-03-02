@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-433-ai-auditors-robot-dreams"
 publishedAt: "2025-10-27"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.604Z"
 ---
 
 # Import AI 433: AI auditors; robot dreams; and software for helping an AI run a lab

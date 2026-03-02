@@ -43,14 +43,10 @@ tldr: "Princeton professor Ellen Zong discusses using cryo-electron microscopy a
 tools: []
 categories:
   - "AI & Machine Learning"
-  - "Data & Analytics"
+  - "Tools & Productivity"
 tags:
-  - "structural-biology"
-  - "protein-dynamics"
-  - "cryo-em"
   - "machine-learning"
-  - "ai-research"
-  - "computational-biology"
+  - "research"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -61,6 +57,7 @@ ai:
   totalTokens: 9075
   processingTimeMs: 34155
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.495Z"
 ---
 
 ## Key Takeaways

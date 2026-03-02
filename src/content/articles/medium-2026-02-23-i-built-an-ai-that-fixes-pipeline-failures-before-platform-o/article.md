@@ -6,12 +6,12 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/i-built-an-ai-that-fixes-pipeline-failures-before-platform-or-devsecops-teams-gets-the-slack-82ff81114175?source=rss----98111c9905da---4"
 publishedAt: "2026-02-23"
 tags:
-  - "ai"
-  - "cloud-computing"
-  - "ai-agent"
-  - "ci-cd-pipeline"
-  - "devops"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.622Z"
 ---
 
 # I Built an AI That Fixes Pipeline Failures Before Platform or DevSecOps teams Gets the Slack…

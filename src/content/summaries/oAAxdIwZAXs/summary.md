@@ -69,9 +69,10 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - startup
-  - career-growth
-  - leadership
+  - "career-growth"
+  - "leadership"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.448Z"
 ---
 
 ## Key Takeaways

@@ -27,15 +27,12 @@ tools:
   - name: "GitHub Specit"
     url: null
 categories:
-  - "Tools & Productivity"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "spec-driven-development"
   - "ai-coding"
-  - "documentation"
-  - "workflow-automation"
-  - "code-generation"
-  - "developer-tools"
+  - "automation"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -45,6 +42,7 @@ ai:
   outputTokens: 723
   totalTokens: 3000
   processingTimeMs: 21950
+tagsNormalizedAt: "2026-03-01T21:19:30.547Z"
 ---
 
 ## Key Takeaways

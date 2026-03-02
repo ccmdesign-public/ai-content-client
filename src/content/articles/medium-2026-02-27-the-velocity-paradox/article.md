@@ -6,11 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/the-velocity-paradox-7b459d670302?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-02-27"
 tags:
-  - "ai"
-  - "engineering-leadership"
-  - "software-engineering"
-  - "coding"
-  - "frameworks"
+  - "ai-general"
+  - "engineering"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.656Z"
 ---
 
 # The Velocity Paradox

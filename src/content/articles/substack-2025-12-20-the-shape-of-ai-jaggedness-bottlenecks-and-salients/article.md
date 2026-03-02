@@ -7,8 +7,12 @@ publicationName: "One Useful Thing"
 url: "https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks"
 publishedAt: "2025-12-20"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.619Z"
 ---
 
 # The Shape of AI: Jaggedness, Bottlenecks and Salients

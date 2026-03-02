@@ -104,16 +104,17 @@ tools:
   - name: "Figma"
     url: null
 categories:
-  - "Product & Design"
   - "Business & Career"
+  - "Product & Design"
 tags:
-  - ux
-  - ui
-  - figma
-  - design-systems
-  - leadership
-  - career-growth
-  - interviewing
+  - "career-growth"
+  - "design-systems"
+  - "figma"
+  - "interviewing"
+  - "leadership"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.353Z"
 ---
 
 ## Key Takeaways

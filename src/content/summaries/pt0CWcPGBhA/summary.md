@@ -67,15 +67,9 @@ tools:
   - name: "GPT-4"
     url: null
 categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-voice"
-  - "healthcare-tech"
   - "automation"
-  - "n8n"
-  - "lead-generation"
-  - "ai-agent"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +80,7 @@ ai:
   totalTokens: 18391
   processingTimeMs: 18413
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.372Z"
 ---
 
 ## Key Takeaways

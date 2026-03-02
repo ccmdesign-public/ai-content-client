@@ -6,13 +6,13 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/part-6-common-system-design-questions-async-processing-events-jobs-ba942b66247f?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-02-04"
 tags:
-  - "system-design-concepts"
-  - "event-driven-architecture"
-  - "system-design-interview"
-  - "distributed-systems"
-  - "asynchronous"
-  - "frontend"
-  - "programming"
+  - "architecture"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.642Z"
 ---
 
 # Part 6: Common System Design Questions: Async Processing, Events & Jobs

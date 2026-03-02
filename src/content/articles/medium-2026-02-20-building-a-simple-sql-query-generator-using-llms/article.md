@@ -6,11 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/building-a-simple-sql-query-generator-using-llms-2a18c80151c6?source=rss----98111c9905da---4"
 publishedAt: "2026-02-20"
 tags:
-  - "sql-server"
-  - "natural-language"
-  - "ai"
+  - "ai-general"
   - "llm"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.619Z"
 ---
 
 # Building a Simple SQL Query Generator Using LLMs

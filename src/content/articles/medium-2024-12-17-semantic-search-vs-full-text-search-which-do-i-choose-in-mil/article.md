@@ -6,9 +6,10 @@ publicationName: "Vector Database AI"
 url: "https://medium.com/vector-database/semantic-search-v-s-full-text-search-which-do-i-choose-in-milvus-2-5-64f48800adaf?source=rss----e87dfc9fdbb6---4"
 publishedAt: "2024-12-17"
 tags:
-  - "milvus"
-  - "ai"
-  - "databases"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.613Z"
 ---
 
 # Semantic Search v.s. Full-Text Search: Which Do I Choose in Milvus 2.5?

@@ -71,10 +71,11 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - llm
-  - ai-coding
-  - startup
-  - monetization
+  - "ai-coding"
+  - "llm"
+  - "monetization"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.414Z"
 ---
 
 ## Key Takeaways

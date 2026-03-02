@@ -6,13 +6,10 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/karpathys-microgpt-a-complete-code-walkthrough-of-gpt-in-243-lines-of-pure-python-d0f55fdded64?source=rss----440100e76000---4"
 publishedAt: "2026-02-24"
 tags:
-  - "andrej-karpathy"
-  - "genai"
-  - "microgpt"
-  - "ai-agent"
-  - "code"
-  - "ai"
-  - "generative"
+  - "ai-general"
+categories:
+  - "AI & Machine Learning"
+tagsNormalizedAt: "2026-03-01T21:19:30.571Z"
 ---
 
 # Karpathy’s MicroGPT: A Complete Code Walkthrough of GPT in 243 Lines of Pure Python

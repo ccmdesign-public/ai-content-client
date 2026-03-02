@@ -74,14 +74,11 @@ source: "youtube"
 tldr: "Authenticity, defined as showing the real 'apparent contradictions' within you rather than adopting a pre-packaged personality, is crucial for standing out, making genuine connections, and creating compelling content, especially in an AI-saturated world."
 tools: []
 categories:
+  - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "authenticity"
-  - "personal-branding"
-  - "content-creation"
-  - "entrepreneurship"
-  - "ai"
-  - "self-development"
+  - "ai-general"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +89,7 @@ ai:
   totalTokens: 4663
   processingTimeMs: 46044
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.541Z"
 ---
 
 ## Key Takeaways

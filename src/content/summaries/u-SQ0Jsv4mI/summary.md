@@ -153,13 +153,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Programming"
 tags:
-  - agents
-  - ai-coding
-  - claude
-  - gemini
-  - architecture
-  - career-growth
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "career-growth"
+  - "claude"
+  - "gemini"
+tagsNormalizedAt: "2026-03-01T21:19:30.390Z"
 ---
 
 ## Key Takeaways

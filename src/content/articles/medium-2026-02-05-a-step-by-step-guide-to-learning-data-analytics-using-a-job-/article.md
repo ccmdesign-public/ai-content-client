@@ -6,13 +6,16 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/a-step-by-step-guide-to-learning-data-analytics-using-a-job-market-project-66bb1f5ee2d6?source=rss----eec44e936bf1---4"
 publishedAt: "2026-02-05"
 tags:
-  - "sql"
-  - "python"
-  - "data-analysis"
-  - "data-visualization"
-  - "databricks"
   - "data-science"
   - "education"
+  - "python"
+  - "sql"
+  - "visualization"
+categories:
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.624Z"
 ---
 
 # A Step-by-Step Guide to Learning Data Analytics Using a Job Market Project

@@ -37,13 +37,15 @@ tools:
   - name: "Wiz"
     url: null
 categories:
-  - "Security"
   - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
 tags:
-  - aws
-  - vulnerability
-  - ci-cd
-  - best-practices
+  - "aws"
+  - "best-practices"
+  - "ci-cd"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.499Z"
 ---
 
 ## Key Takeaways

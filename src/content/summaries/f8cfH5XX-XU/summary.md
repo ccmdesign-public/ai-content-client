@@ -119,14 +119,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Programming"
 tags:
   - "ai-coding"
-  - "agentic-engineering"
-  - "claude-code"
+  - "claude"
   - "open-source"
-  - "customization"
-  - "multi-agent"
   - "prompt-engineering"
 ai:
   provider: "openrouter"
@@ -138,6 +135,7 @@ ai:
   totalTokens: 42191
   processingTimeMs: 23492
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.535Z"
 ---
 
 ## Key Takeaways

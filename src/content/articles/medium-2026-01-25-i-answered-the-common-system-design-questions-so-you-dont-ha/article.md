@@ -6,11 +6,13 @@ publicationName: "Frontend Canteen"
 url: "https://medium.com/frontend-canteen/i-answered-the-common-system-design-questions-so-you-dont-have-to-93649fb51233?source=rss----8c0f5ca1523c---4"
 publishedAt: "2026-01-25"
 tags:
-  - "system-design-interview"
-  - "system-design-concepts"
-  - "distributed-systems"
-  - "frontend"
-  - "programming"
+  - "architecture"
+  - "engineering"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-01T21:19:30.627Z"
 ---
 
 # I Answered the common System Design Questions So You Don’t Have To

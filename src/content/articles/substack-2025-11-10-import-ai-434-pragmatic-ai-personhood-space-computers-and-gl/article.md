@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-434-pragmatic-ai-personhood"
 publishedAt: "2025-11-10"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.566Z"
 ---
 
 # Import AI 434: Pragmatic AI personhood; SPACE COMPUTERS; and global government or human extinction;

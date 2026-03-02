@@ -80,16 +80,11 @@ tools:
   - name: "DuckDB"
     url: null
 categories:
-  - "Data & Analytics"
   - "Programming"
+  - "Web Development"
 tags:
-  - "database"
-  - "rust"
   - "nodejs"
-  - "sqlite"
-  - "benchmarking"
-  - "olap"
-  - "embedded-database"
+  - "rust"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -100,6 +95,7 @@ ai:
   totalTokens: 6496
   processingTimeMs: 27308
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.282Z"
 ---
 
 ## Key Takeaways

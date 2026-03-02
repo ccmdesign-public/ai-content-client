@@ -56,13 +56,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - agents
-  - ai-coding
-  - refactoring
-  - automation
-  - best-practices
-  - architecture
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "automation"
+  - "best-practices"
+  - "refactoring"
+tagsNormalizedAt: "2026-03-01T21:19:30.299Z"
 ---
 
 ## Key Takeaways

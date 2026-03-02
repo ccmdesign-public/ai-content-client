@@ -6,13 +6,14 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-green-dashboard-problem-fe70fda6af1a?source=rss----32881626c9c9---4"
 publishedAt: "2026-02-19"
 tags:
-  - "software-development"
-  - "programming"
-  - "humanity"
-  - "ai"
-  - "ai-agent"
+  - "ai-general"
   - "data-science"
-  - "finance"
+  - "engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tagsNormalizedAt: "2026-03-01T21:19:30.642Z"
 ---
 
 # The Green Dashboard Problem

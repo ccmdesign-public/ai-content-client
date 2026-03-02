@@ -90,16 +90,12 @@ tools:
   - name: "X"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
 tags:
-  - "ai-design"
-  - "ui-design"
-  - "cursor"
   - "claude"
   - "prompt-engineering"
-  - "design-workflow"
-  - "fintech"
+  - "ui"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -110,6 +106,7 @@ ai:
   totalTokens: 15538
   processingTimeMs: 70024
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.289Z"
 ---
 
 ## Key Takeaways

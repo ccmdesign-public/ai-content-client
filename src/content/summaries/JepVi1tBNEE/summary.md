@@ -74,11 +74,12 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - copilot
-  - vscode
-  - agents
-  - workflow
-  - automation
+  - "agents"
+  - "automation"
+  - "copilot"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.510Z"
 ---
 
 ## Key Takeaways

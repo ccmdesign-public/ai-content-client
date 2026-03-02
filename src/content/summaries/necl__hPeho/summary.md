@@ -113,12 +113,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Programming"
+  - "Tools & Productivity"
 tags:
-  - claude
-  - ai-coding
-  - workflow
-  - git
-  - best-practices
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "git"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.269Z"
 ---
 
 ## Key Takeaways

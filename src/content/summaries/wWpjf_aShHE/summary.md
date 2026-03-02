@@ -61,15 +61,10 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
+  - "agents"
   - "ai-coding"
-  - "autonomous-agents"
-  - "claude-code"
-  - "cursor"
-  - "mac-mini"
-  - "vibe-coding"
-  - "ralph-wiggum"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -80,6 +75,7 @@ ai:
   totalTokens: 7907
   processingTimeMs: 58312
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.295Z"
 ---
 
 ## Key Takeaways

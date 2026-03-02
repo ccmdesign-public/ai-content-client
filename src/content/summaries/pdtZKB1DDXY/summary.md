@@ -48,12 +48,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
 tags:
-  - llm
-  - agents
-  - model-training
-  - architecture
-  - best-practices
+  - "agents"
+  - "architecture"
+  - "best-practices"
+  - "llm"
+  - "model-training"
+tagsNormalizedAt: "2026-03-01T21:19:30.354Z"
 ---
 
 ## Key Takeaways

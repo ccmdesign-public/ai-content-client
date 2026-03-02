@@ -70,15 +70,8 @@ tools:
   - name: "Figma"
     url: null
 categories:
-  - "AI & Machine Learning"
-  - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-marketing"
-  - "google-labs"
-  - "product-photography"
-  - "campaign-creation"
-  - "small-business"
-  - "content-creation"
   - "automation"
 ai:
   provider: "openrouter"
@@ -90,6 +83,7 @@ ai:
   totalTokens: 9825
   processingTimeMs: 50965
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.447Z"
 ---
 
 ## Key Takeaways

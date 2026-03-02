@@ -71,13 +71,8 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "openclaw"
-  - "ai-automation"
-  - "devops"
-  - "developer-workflow"
-  - "dependency-management"
-  - "cloud-cost"
   - "ai-coding"
+  - "workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +83,7 @@ ai:
   totalTokens: 12042
   processingTimeMs: 98632
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tagsNormalizedAt: "2026-03-01T21:19:30.412Z"
 ---
 
 ## Key Takeaways

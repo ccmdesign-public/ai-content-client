@@ -6,9 +6,12 @@ publicationName: "Chain of Thought"
 url: "https://every.to/chain-of-thought/why-generalists-own-the-future-e695c27f-b6f0-447b-bcd4-e5e144439693"
 publishedAt: "2025-03-28"
 tags:
-  - "ai"
+  - "ai-general"
   - "productivity"
-  - "thinking"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-01T21:19:30.665Z"
 ---
 
 # Why Generalists Own the Future

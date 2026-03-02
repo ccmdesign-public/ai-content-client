@@ -110,14 +110,9 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
 tags:
   - "claude"
-  - "remotion"
-  - "ai-video"
-  - "content-creation"
   - "prompt-engineering"
-  - "tutorial"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -127,6 +122,7 @@ ai:
   outputTokens: 2434
   totalTokens: 13888
   processingTimeMs: 57779
+tagsNormalizedAt: "2026-03-01T21:19:30.416Z"
 ---
 
 ## Key Takeaways
