@@ -12,20 +12,15 @@ metadata:
 
     🛠️ Custom AI Solutions: https://go.gradientlabs.co/stop-asking-chatgpt-to-be-concise-do-this-instead/custom
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://go.gradientlabs.co/stop-asking-chatgpt-to-be-concise-do-this-instead/insights
-
 
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
 
-
     Presentation (with prompts): https://d-squared70.github.io/STOP-asking-ChatGPT-to-be-concise-Do-this-instead-/
-
-
 
     —
 
@@ -118,6 +113,7 @@ Refine the AI's output after you receive it.
 **Important Caveat**: The video recommends avoiding 'Deep Research' for most use cases. Instead, using **basic web search with extended reasoning** on high-end models often yields 90% of the quality at 10% of the length.
 
 ### Recap of the Workflow
+
 1.  **Before**: Bake specific length definitions and positive instructions into system prompts.
 2.  **During**: Constrain the output format within your live prompt (tables, lists).
 3.  **After**: Sharpen responses by cutting length or filtering out fluff from large reports.

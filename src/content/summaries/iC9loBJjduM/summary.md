@@ -4,27 +4,19 @@ metadata:
   title: "There’s Finally A Reason To Switch To Cursor"
   description: "Cursor just shipped native context management for ai coding. This cursor ai tutorial shows how to use cursor ai's new system and apply the same methods to claude code today.
 
-
-
     Discover how ZenRows can simplify web data extraction—explore now:\ 
 
     https://zenrows.com/?utm_campaign=247868614-Influencer&utm_source=youtube&utm_medium=paidsocial&utm_content=ai_labs
-
-
 
     Context engineering determines whether your ai tools give you garbage or gold. This video breaks down Cursor's five new dynamic context methods and shows you how to implement them yourself.
 
     If you're looking for a cursor ai tutorial or claude code tutorial, this covers both. I walk through the exact claude.md instructions for claude code skills and show how to use claude code with custom context management before Cursor's features fully roll out.
 
-
     Whether you're on cursor ai free, testing a cursor ai pro trial, or hunting for cursor ai free unlimited workarounds, these techniques help you get more from every token. The principles work the same way in chatgpt, google ai studio, or any ai agent you're building.
-
 
     This isn't vibe coding. It's systematic context control that makes artificial intelligence actually useful for coding. Consider this your starter story for building better with ai agents.
 
-
     What's covered: MCP response logging, chat history as retrieval, the hidden experimental MCP CLI flag in Claude Code, terminal session files, and how skills cut context usage by 46.9%.
-
 
     Hashtags:
 
@@ -100,12 +92,15 @@ Modern AI coding requires shifting from 'pushing' information into a context win
 The quality of AI-generated code is increasingly dependent on **Context Engineering** rather than just the underlying model's power. Cursor has introduced a paradigm shift called **Dynamic Context Discovery**, a native approach designed to keep the context window as lean as possible. This methodology addresses the primary weakness of modern agents: context bloat, which leads to confusion, contradictory instructions, and the loss of critical details during automatic summarization steps.
 
 ### Moving Data to the File System
+
 A core principle of this new workflow is offloading high-volume data to the file system. Instead of allowing **Model Context Protocol (MCP)** responses or long terminal logs to fill the context window, these outputs should be redirected to specific folders (e.g., a `/context` or `/logs` directory). For instance, instructing an agent via a `claude.md` file to save any tool response over 50 lines to a file allows the model to read that file only when necessary, preserving the active window for reasoning.
 
 ### Solving the Summarization Problem
+
 When context windows fill up, most tools trigger a **summarization step**. Repeated summarization (or 'compaction') leads to a 'telegrams of telegrams' effect where crucial architectural decisions are forgotten. The solution implemented by Cursor—and replicable in Claude Code—is to save every chat session into a persistent history folder. If the model cannot find information in its current summary, it can use **semantic search** or **grep** to pull specific details from these history files, effectively creating a perfect-memory knowledge base.
 
 ### Agent Skills and Tool Discovery
+
 Rather than keeping every instruction and tool schema in the static context, Cursor uses **Agent Skills**. These are bundled scripts and executables where only the name and description are visible to the AI. When a task requires a specific skill, the agent uses a background embedding model and indexing pipeline to 'pull' the full script into its reasoning. 
 
 Similarly, for MCP tools, using an experimental flag like `enable_experimental_mcp_cli` in Claude Code moves tool management to a middle bash layer. This prevents the agent from seeing every tool schema upfront, instead allowing it to search for and invoke tools dynamically. Testing shows this approach reduces context usage by **46.9%**, which is critical for long-running development sessions and complex debugging tasks.

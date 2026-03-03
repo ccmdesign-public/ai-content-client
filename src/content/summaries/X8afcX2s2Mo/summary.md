@@ -4,9 +4,7 @@ metadata:
   title: "Claude Skills: Build Your First AI Marketing Team in 16 Minutes (Claude Code)"
   description: "Download the \"The Loop Marketing Landscape Report\" here 👉 https://clickhubspot.com/1a8f72
 
-
     Claude skills is what give agents the expertise they need. In this video, I'll show you how you can build your first AI marketing team using just Claude Skills and why Skills might be the biggest leverage most marketers are overlooking right now. No custom agents. No complicated workflows. Just skills doing the heavy lifting. Whether you're a marketer or managing a team, this probably will change how you design your marketing workflows.
-
 
     📌 *TIMESTAMPS*
 
@@ -36,23 +34,19 @@ metadata:
 
     15:34 Running Skills in Cowork
 
-
     ⚡️ *JOIN MY GROWTH COMMUNITY*\ 
 
     Join our AI Growth Systems for Marketing Workshop Series! 👇
 
     https://community.graceleung.com/
 
-
     📥 *JOIN MY FREE DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/\ 
-
 
     📂 *RESOURCES MENTIONED IN THE VIDEO*
 
@@ -60,21 +54,17 @@ metadata:
 
     https://github.com/anthropics/skills\ 
 
-
     🔗 Claude Code Agent Teams
 
     https://code.claude.com/docs/en/agent-teams
-
 
     🔗 Perplexity MCP
 
     https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server\ 
 
-
     🔗 Nano Banana MCP
 
     https://github.com/zhongweili/nanobanana-mcp-server\ 
-
 
     👉 *WATCH THESE NEXT*\ 
 
@@ -82,29 +72,23 @@ metadata:
 
     https://youtu.be/l_Iy4ZCK1lY
 
-
     🎥 Claude Code just Built me an AI Agent Team (Claude Code + Skills + MCP)
 
     https://youtu.be/0J2_YGuNrDo
-
 
     🎥 PLAYLIST: Claude for Marketing
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI1AOp39uYqBQROEdjN0KD3
 
-
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *Connect with me on Social*
 
@@ -113,7 +97,6 @@ metadata:
     Instagram: https://www.instagram.com/graceleungyl\ 
 
     Twitter/X: https://twitter.com/graceleungyl
-
 
     #claudecode #claudeskills"
   channel: "Grace Leung"
@@ -164,11 +147,17 @@ Claude Skills transform marketing workflows by packaging expertise into reusable
 
 The video demonstrates how to build an AI-powered marketing team using Claude Skills, which are reusable modules containing marketing expertise, SOPs, frameworks, and brand standards. By teaching Claude your marketing processes once, you can automate consistent deliverables across multiple projects.
 
-### Building the Foundation SkillsYou start by creating five core marketing skills: **marketing research and strategy** (using Perplexity MCP for search), **social media content creation** (based on proven storytelling frameworks), **creative designer** (using Google's Nano Banana model for visuals), **data analysis**, and **campaign presentation**. Each skill is created by providing Claude with your SOPs, context files, and examples, then having it generate the skill file with detailed workflows.
+### Building the Foundation Skills
 
-### Skill Orchestration and Agent TeamsThe real power comes from combining skills. For a campaign launch, Claude can orchestrate multiple skills—like content creation and creative design—to generate 10 Instagram posts with matching visuals in minutes. For complex tasks like quarterly reviews, Claude acts as a **team lead**, creating **sub-agents** to parallelize research, data analysis, and presentation building using different skills.
+You start by creating five core marketing skills: **marketing research and strategy** (using Perplexity MCP for search), **social media content creation** (based on proven storytelling frameworks), **creative designer** (using Google's Nano Banana model for visuals), **data analysis**, and **campaign presentation**. Each skill is created by providing Claude with your SOPs, context files, and examples, then having it generate the skill file with detailed workflows.
 
-### Portability and DistributionSkills can be packaged into **plugins** for distribution across projects. This means you can build a marketing skill library once and deploy it to any new brand project or even different tools like Cursor. The plugin system maintains brand consistency while adapting to new contexts.
+### Skill Orchestration and Agent Teams
+
+The real power comes from combining skills. For a campaign launch, Claude can orchestrate multiple skills—like content creation and creative design—to generate 10 Instagram posts with matching visuals in minutes. For complex tasks like quarterly reviews, Claude acts as a **team lead**, creating **sub-agents** to parallelize research, data analysis, and presentation building using different skills.
+
+### Portability and Distribution
+
+Skills can be packaged into **plugins** for distribution across projects. This means you can build a marketing skill library once and deploy it to any new brand project or even different tools like Cursor. The plugin system maintains brand consistency while adapting to new contexts.
 
 ### Practical ImplementationKey implementation details include:
 

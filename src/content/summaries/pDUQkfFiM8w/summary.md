@@ -4,22 +4,17 @@ metadata:
   title: "Never Miss a Lead Again: Automated Google LSA Replies (2026)"
   description: "Stop losing Google LSA leads to faster competitors.
 
-
     Boost your lead generation with this marketing automation setup. This video shows how to automate responses to Google Local Service Ads using Make.com + OpenAI, so your business replies in seconds, improves conversions, and keeps leads warm—without babysitting your phone.
-
 
     If you run a home service business, speed-to-lead is everything. This Google LSA automation helps you book more calls and automate your workflow with AI, even while you sleep.
 
-
     Tools used: Make.com
-
 
     📲 Get the template + prompt:
 
     DM me on Instagram “LSA TEMP” and I’ll send you the full scenario map, filters, and prompt.
 
     👉 https://instagram.com/DonToroMIA
-
 
     (Chapters)
 
@@ -109,12 +104,15 @@ Lead response speed is the primary ranking factor for Google LSA; this automatio
 ## Summary
 
 ### The Critical Importance of Speed to Lead
+
 In the Google Local Services Ads (LSA) ecosystem, response time is a metric that directly impacts your visibility and cost-per-lead. Responding within five minutes is the gold standard; failing to do so often results in lost revenue and lower ad rankings. This automation uses **Make.com** to bridge the gap between receiving a lead and initiating a conversation, even during off-hours.
 
 ### Building the Gmail Trigger
+
 The workflow begins with a **Gmail 'Watch Emails'** module. Precision is key here to avoid wasting automation credits. Users must filter for the sender domain `*@aw-express.com` (using an asterisk for dynamic matching) and specific phrases like "sent you new request." This ensures the automation only fires for brand-new inquiries rather than existing email threads.
 
 ### Integrating AI for Dynamic Replies
+
 While static replies are possible, the video emphasizes using the **OpenAI API** (GPT models) to create high-quality engagement.
 
 - **System Prompting:** Define your business name and service type within the OpenAI module.
@@ -124,9 +122,11 @@ While static replies are possible, the video emphasizes using the **OpenAI API**
 - **Output:** The AI generates a unique response that moves the conversation forward, rather than a generic "we will call you" message.
 
 ### Humanizing the Workflow
+
 A common pitfall in automation is responding too quickly, which can appear "suspect" to both Google and the lead. To counter this, the guide suggests adding a **Tools > Sleep** module with a **180-second (3-minute) delay**. This keeps the response within the critical five-minute window while maintaining the appearance of a human typing out a thoughtful reply.
 
 ### Final Execution and Testing
+
 The final step uses the **Gmail 'Send an email'** module to deliver the AI-generated content back to the dynamic LSA email address. The author recommends a specific testing protocol: clone the scenario, remove the domain filters, and send a test lead from a personal account. This allows for prompt refinement and logic verification before the system handles live, paid traffic.
 
 ## Context

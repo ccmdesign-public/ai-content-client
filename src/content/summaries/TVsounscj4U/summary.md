@@ -4,15 +4,11 @@ metadata:
   title: "The New Siri is... Google (Explained)"
   description: "Siri by Google. Makes you think.
 
-
     Apple AI video: https://youtu.be/hz6oys4Eem4?si=v362Nuiwg8y_pPPL
-
 
     MKBHD Merch: http://shop.MKBHD.com
 
-
     Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
-
 
     ~
 
@@ -82,9 +78,11 @@ Phone interface** remains competitive so users don't switch to Google or Samsung
 Marques Brownlee discusses the major announcement that Apple's upcoming Siri overhaul, slated for 2026, will be powered by **Google’s AI models**. This news follows years of criticism regarding Siri's performance and Apple's perceived "AI crisis." While Apple has historically tried to build its own solutions, the company has officially recognized that Google provides a more capable foundation for the next generation of its voice assistant.
 
 ### The Shift in Strategy
+
 For years, Apple has been "spinning its wheels" trying to modernize Siri. This partnership suggests that Apple is willing to concede the model-building race to specialists like Google in order to deliver a functional product. This mirrors the long-standing relationship where Google pays Apple to be the default search engine in Safari, though the financial terms for this AI deal are currently unknown. By leveraging Google's infrastructure, Apple can focus on the system-level integration rather than the raw data science.
 
 ### Feature Implications
+
 The transition to Google foundation models (likely based on **Gemini**) could significantly improve Siri's utility. Key possibilities include:
 
 - **Deeper Understanding**: Siri should gain the ability to handle multi-step requests and complex world knowledge natively.
@@ -96,6 +94,7 @@ Phone, allowing users to search anything on their screen instantly.
 - **Privacy Layers**: Apple is expected to maintain its **privacy-first** approach, using on-device processing and data anonymization even when using third-party models.
 
 ### The "Interface vs. Model" Theory
+
 A core insight from the video is that the ownership of the AI model may be less important than the **interface**. Much like the Mac utility **Raycast** allows users to toggle between different LLMs (GPT-4, Gemini, Claude) while maintaining a consistent user experience, Apple wants to remain the primary gateway through which users interact with AI. By integrating Google's power into Siri, Apple keeps users within the iOS ecosystem. This move addresses the risk of users migrating to Android for features like Google Assistant with Gemini. If Siri can match the functionality of its rivals, the incentive to switch platforms disappears. More details are expected at **WWDC 2026**.
 
 ## Context

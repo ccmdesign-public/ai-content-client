@@ -4,15 +4,11 @@ metadata:
   title: "AI Periodic Table Explained: Mapping LLMs, RAG & AI Agent Frameworks"
   description: "Ready to become a certified watsonx Data Scientist - Associate? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbTRQ
 
-
     Learn more about AI Frameworks here → https://ibm.biz/BdbhiJ
-
 
     What if AI had its own periodic table? 🧩 Martin Keen introduces the AI Periodic Table, breaking down LLMs, RAG, AI agents, and frameworks into a clear, simple structure. Discover how these elements connect to power smarter, scalable AI systems, and rethink how AI fits together.
 
-
     AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdbhiA
-
 
     #ai #llm #retrievalaugmentedgeneration #aiagents #aiframeworks"
   channel: "IBM Technology"
@@ -74,6 +70,7 @@ IBM's framework organizes the chaotic AI landscape into a structured map for arc
 The current AI landscape is often a confusing collection of buzzwords like agents, RAG, and embeddings. This video introduces a conceptual **AI Periodic Table** to provide structure to this chaos, organizing components into a grid that predicts how they will interact and evolve.
 
 ### The Grid Architecture
+
 The table is organized into four rows representing maturity and five columns representing functional families.
 
 * **Row 1: Primitives**: These are atomic units like **Prompts (Pr)**, **Embeddings (Em)**, and **Large Language Models (Lg)**. These are the building blocks for everything else.
@@ -87,9 +84,11 @@ Chain.
 * **Row 4: Emerging**: The frontier of AI, including **Multi-agent systems (Ma)**, **Synthetic Data (Sy)**, and **Thinking Models (Th)** that utilize test-time compute.
 
 ### Functional Families
+
 Vertical groups define the role each element plays within a system. The **Reactive Family (G1)** moves from simple control to full autonomy. The **Retrieval Family (G2)** manages memory across different time scales, from short-term embeddings to long-term model weights via fine-tuning. **Orchestration (G3)** acts as the glue, while **Validation (G4)** provides safety via **Guardrails** and **Red Teaming**. Finally, the **Models Family (G5)** represents the foundational engines of the system.
 
 ### Mapping AI Reactions
+
 The true utility of the table lies in modeling "reactions." A typical chatbot system reacts by combining **Embeddings**, **Vector Databases**, and **RAG** with an **LLM**, often wrapped in **Guardrails** for safety. An **Agentic Reaction** is modeled as a loop where an **Agent** uses **Function Calling** to interact with the world, all managed within a **Framework**. This visualization helps architects determine if they are over-engineering a solution or missing critical safety and validation components.
 
 ## Context

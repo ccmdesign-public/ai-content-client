@@ -12,21 +12,17 @@ metadata:
 
     🛠️ Custom AI Solutions: https://go.gradientlabs.co/chatgpt-wont-prepare-you-for-hard-conversations-unless-you-do-this/custom
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://go.gradientlabs.co/chatgpt-wont-prepare-you-for-hard-conversations-unless-you-do-this/insights
-
 
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
 
-
     📚RESOURCES
 
     Presentation with Prompts: https://d-squared70.github.io/ChatGPT-Won-t-Prepare-You-for-Hard-Conversations-Unless-You-Do-THIS-/
-
 
     —
 
@@ -103,15 +99,19 @@ The SPAR framework turns AI into an effective preparation tool for difficult con
 The video introduces the **SPAR framework**, a four-step method to use AI for preparing for tough conversations and negotiations. Standard AI prep often just agrees with you, but SPAR forces rigorous testing.
 
 ### Sharpen (Clarify Your Position)
+
 Start with an **AI interview** where the AI, prompted as a world-class negotiation coach, asks adaptive questions (20-25 total) to help you define your **primary objectives, secondary objectives, compromises, and non-negotiables**. Use dictation (speech-to-text) for more natural, detailed answers. At the end, the AI provides a structured summary. Use a fast model for the Q&A, then switch to extended reasoning for the final synthesis.
 
 ### Probe (Understand the Counterparty)
+
 In a new chat with high-reasoning AI, paste your sharpened summary and prompt it to **steelman the other side's argument**—building the strongest possible case against your position from an intelligent perspective. Then, ask a follow-up prompt to predict the **five most likely reactions** the person could have to your points.
 
 ### Attack (Find Weaknesses in Your Argument)
+
 In another new conversation, turn the AI into a critic. You can adjust the **intensity level** through prompting: **devil's advocate** (points out flaws), **red teaming** (actively hunts for weaknesses), or **extreme skeptic** (tears apart your argument without softening). The presenter notes that different AI models have different default intensities, with Claude being softer and Grok being more intense. For high-stakes situations, run this phase through 2-3 different models.
 
 ### Rehearse (Practice with Voice AI)
+
 This is the most novel and useful phase. Use a prompt to have an AI research and create a detailed **system prompt** that turns it into the persona of your conversation counterpart. This prompt incorporates outputs from all previous phases and defines **conversation intensity levels** (e.g., level 3=friendly, level 6=skeptical, level 9=hostile). Embed this system prompt into a project in an AI platform that supports advanced voice mode.
 
 Before starting the voice conversation, set a **trigger word like 'purple rhino'** to prevent the AI from interrupting during your thinking pauses; it only responds after you say the word. Practice the conversation multiple times. Finally, use AI to create a **one-page battle card** from your best rehearsal, containing your strongest opening, key points, bridging statements, and pre-drafted responses to predicted reactions.

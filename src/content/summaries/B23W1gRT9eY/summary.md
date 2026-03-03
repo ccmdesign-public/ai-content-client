@@ -4,9 +4,7 @@ metadata:
   title: "Top 6 AI Trends That Will Define 2026 (backed by data)"
   description: "Most #AI predictions are speculation. This video covers six trends backed by data from McKinsey, Stanford, #OpenAI, and Epoch AI, with specific steps you can take for each one.
 
-
     You'll learn why the \"best model\" debate no longer matters, how AI workflows are outperforming autonomous agents in real enterprise settings, and why your file management system now directly impacts how useful AI can be for your work. Each trend includes concrete examples and a clear action item.
-
 
     *TIMESTAMPS*
 
@@ -24,7 +22,6 @@ metadata:
 
     10:46 Trend 6: From Chatbots to Robots
 
-
     *RESOURCES MENTIONED*
 
     Sources mentioned: https://www.jeffsu.org/6-ai-trends-that-actually-matter-for-your-work-in-2026?utm_source=youtube&utm_medium=video&utm_campaign=196
@@ -35,13 +32,11 @@ metadata:
 
     Essential Power Prompts: https://www.notion.com/templates/essential-power-prompts-jeff-su
 
-
     *BUILD A POWERFUL WORKFLOW*
 
     📈 The Workspace Academy - https://academy.jeffsu.org/workspace-academy?utm_source=youtube&utm_medium=video&utm_campaign=XXX
 
     ✍️ My Notion Command Center - https://www.pressplay.cc/link/s/DE1C4C50
-
 
     *BE MY FRIEND:*
 
@@ -51,13 +46,11 @@ metadata:
 
     🤝 LinkedIn - https://www.linkedin.com/in/jsu05/
 
-
     *MY FAVORITE GEAR*
 
     🎬 My YouTube Gear - https://www.jeffsu.org/yt-gear/
 
     🎒 Everyday Carry - https://www.jeffsu.org/my-edc/
-
 
     #2026"
   channel: "Jeff Su"
@@ -129,20 +122,25 @@ Seek) is shrinking, making the "app layer" and ecosystem integration the primary
 ## Summary
 
 ### The Shift from Models to Apps
+
 In 2026, the specific AI model you use matters less than how it is integrated into your existing workflow. Data from **Artificial Analysis** and **Stanford** shows a clustering of model performance; the gap between frontier models and free open-weight alternatives is closing rapidly. Because hardware efficiency has increased and costs have plummeted, AI has become a **commodity**. Companies like Google, OpenAI, and Anthropic are no longer winning on raw intelligence alone; they are competing on **distribution, reach, and trust**.
 
 ### Workflows vs. Autonomous Agents
+
 While social media hype focuses on autonomous agents, the actual economic value is being realized through **AI workflows**. Mc
 
 Kenzie reports that while only 10% of organizations have scaled true agents, 20% are already using workflow-specific tools like **Custom GPTs**. By redesigning workflows—such as automating clinical data analysis or call center authentication—organizations can reduce human hours by 50-60% while maintaining reliability. We are currently in the "decade of agents," but 2026 is specifically the year to turn prompts into repeatable systems.
 
 ### The End of the Technical Divide
+
 AI is closing the gap between technical and non-technical staff. Research from **MIT** and OpenAI indicates that 75% of enterprise users are performing tasks they previously couldn't do, such as writing scripts or building dashboards. For professionals, this means technical skills are no longer a sufficient moat; instead, deep **domain expertise** combined with the ability to direct AI tools becomes the ultimate competitive advantage.
 
 ### From Prompting to Context
+
 As models become better at interpreting vague instructions, the "fact gap" remains the biggest hurdle. Models lack access to private data like internal goals or brand guidelines. This is driving a **platform war** between Microsoft, Google, and others to hold your data. To stay productive, users must shift from perfecting prompts to mastering **file management**. Consolidating data into a single ecosystem is now a prerequisite for effective AI assistance.
 
 ### AI in the Physical World
+
 Finally, AI is moving into the physical realm as **software endpoints**. While humanoid robots remain years away from daily use, capital assets like **Waymo** taxis and Amazon warehouse robots are becoming platforms that improve through software updates. These machines are transitioning from depreciating assets into evolving platforms that gain value over time through improved algorithms.
 
 ## Context

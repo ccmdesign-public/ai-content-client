@@ -4,16 +4,13 @@ metadata:
   title: "The Free Open Source Jira Killer Devs Love"
   description: "Is this a Free Alternative to Jira and Linear?
 
-
     In this video, we take a quick look at Plane — a free, open-source project management tool built with TypeScript, React, Django, and PostgreSQL. Plane is designed for modern engineering teams that want speed, flexibility, and full control over their workflow.
-
 
     🔗 Relevant Links
 
     Plane Repo - https://github.com/makeplane/plane
 
     Plane - https://plane.so/
-
 
     ❤️ More about us
 
@@ -22,7 +19,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -33,7 +29,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -132,14 +127,17 @@ Script, and Django**) to provide an "instant" feel with sharable filters and int
 ## Summary
 
 ### Overview of Plane
+
 Plane is an emerging open-source alternative to project management giants like Jira and Linear. It aims to bridge the gap between heavy enterprise tools and minimalist developer tools. The core value proposition lies in its **self-hostable** nature and modern user experience, catering specifically to developers who are tired of subscription fees and slow interfaces.
 
 ### Fast Deployment and Tech Stack
+
 One of the standout features is the ease of setup. Using a simple shell script and **Docker**, a local instance can be running in under two minutes. For larger enterprises, **Kubernetes** support is also available. The technical architecture relies on **React and Type
 
 Script** for a responsive frontend, while **Django** handles the backend logic, supported by **Postgres** for data storage and **Redis** for performance.
 
 ### Key Features and Workflow
+
 The platform organizes work into several key components:
 
 * **Issues and Epics**: Core task management with detailed descriptions and custom properties.
@@ -153,6 +151,7 @@ The platform organizes work into several key components:
 The interface is designed to feel "instant," avoiding the heavy loading times associated with legacy tools. It includes **sharable filters** and customizable workflows that don't require the extensive administrative configuration that Jira often demands.
 
 ### AI Integration and Limitations
+
 Plane incorporates AI to help teams manage information overload. By connecting an **OpenAI API key**, users can ask the platform to summarize work, identify blockers, or scan through cycles and documents. However, there is a catch: while this is available in the cloud version, using AI on a self-hosted instance currently requires a commercial license.
 
 Other limitations include a smaller ecosystem of **niche plugins** compared to Jira and the fact that features like **SSO (Single Sign-On)** are locked behind a paywall. Despite these drawbacks, for small to mid-sized teams, the lack of a "per-user tax" and the ability to maintain full data ownership make it a compelling choice.

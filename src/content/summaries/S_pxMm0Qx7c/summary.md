@@ -4,9 +4,7 @@ metadata:
   title: "Claude Code's Creator Has a Surprisingly Vanilla Setup"
   description: "Boris Cherny, the creator of Claude Code, just shared how he and his team at Anthropic actually use Claude Code—and it's surprisingly vanilla. In this video, I break down his 13 tips and filter them for users who don't have unlimited tokens.
 
-
     What's interesting: he barely mentions MCP servers or skills. Instead, he focuses on plan mode, slash commands, subagents, hooks, and permission management. I add my own take on what's practical for the rest of us who are \"usage engineering\" to avoid burning through limits.
-
 
     ⏱️ TIMESTAMPS
 
@@ -38,7 +36,6 @@ metadata:
 
     8:28 – My Takeaways
 
-
     🔗 RESOURCES
 
     Boris's Threads Post: https://www.threads.com/@boris_cherny/post/DTBVlMIkpcm
@@ -48,7 +45,6 @@ metadata:
     Book a call with me → https://yedatechs.com/#container06
 
     Sponsorship inquiries → hi@yedatechs.com
-
 
     #ClaudeCode #Anthropic #BorisCherny #AITools #DeveloperProductivity #CodingAgents"
   channel: "JeredBlu"
@@ -132,17 +128,21 @@ This video delves into the surprisingly 'vanilla' setup of Boris Churnney, the c
 Blu, emphasizes adapting these insights for typical usage limitations.
 
 ### Churnney's "Vanilla" but High-Volume Setup
+
 Churnney runs an impressive number of Claude Code sessions concurrently: five in parallel in his terminal using i
 
 Term2, five to ten web sessions on claude.ai, and multiple sessions via the Claude iOS app. This high parallel usage is a direct result of his unlimited token access, allowing for extensive concurrent experimentation and development. He exclusively uses **Opus45 with Thingy**, considering it the superior coding model for its reduced need for steering and enhanced tool use.
 
 ### Collaborative `cla.md` and Planning
+
 His team utilizes a shared `cla.md` file, checked into Git and updated weekly, to consistently add rules that guide Claude's behavior (e.g., 'always use bun, not npm'). While effective for his team, the speaker cautions that lengthy `cla.md` files can become less effective for token-constrained users. A core tenet of Churnney's workflow is starting most sessions in **plan mode**. He engages in extensive back-and-forth with Claude to refine a plan before switching to auto-accept edit mode, often achieving a "one-shot" solution. This emphasizes that a well-defined plan is crucial for optimal results.
 
 ### Automation and Permission Control
+
 Churnney heavily relies on **slash commands** for repeated inter-loop workflows, saving time from repetitive prompting. He also uses a few **sub-agents** to automate common, complex tasks like QA testing or research, helping to manage context windows effectively. For formatting, a **post-tool hook** is employed to handle the final 10% of code formatting, ensuring consistency. Critically, he avoids the `dangerously skip permissions` (YOLO) mode, opting instead for **`SL permissions`** to pre-allow safe bash commands, thereby maintaining control and preventing unintended actions.
 
 ### Tool Use and The Power of Feedback Loops
+
 Claude Code integrates seamlessly with various tools, performing tasks like searching Slack, running Big
 
 Query CLI queries, and grabbing error logs from Sentry. For long-running tasks, he instructs Claude to verify its work with a background agent or uses a **stop agent hook**. The most significant takeaway is the importance of a **feedback loop**. Providing Claude with a mechanism to verify its own work – whether through Playwright, Chrome Dev

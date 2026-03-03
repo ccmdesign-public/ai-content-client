@@ -4,21 +4,17 @@ metadata:
   title: "Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)"
   description: "Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)
 
-
     My AI Video Course:
 
     https://www.theaivideocourse.com/
-
 
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
-
 
     Business Inquiries:
 
@@ -99,9 +95,11 @@ In this video, Chris introduces a new series focused on building "AI-native" bus
 Tube views sync tool—tracking over 1.27 million views across four channels—a robust SaaS template, and an **AI Agent Dashboard** designed to manage a growing network of synthetic video personalities.
 
 ### The Foundational SaaS Template
+
 To facilitate the rapid launch of multiple micro-businesses, the creator built a standard template using **Claude Code**. This template includes essential components for any modern startup: **OAuth login** (via Google and Supabase), a **Neon database** connection, and pre-configured **Stripe integration**. This "plug-and-play" approach allows him to focus on the unique value proposition of each business rather than rebuilding the technical stack every time. He emphasizes that the efficiency of agentic coding has made it possible for a solo builder to manage complex deployments in days rather than weeks.
 
 ### NPC Creative: AI-Generated UGC
+
 The core business highlighted in this first week is **NPC Creative**, an agency providing **UGC (User Generated Content)** style videos for B2B brands. Traditionally, brands spend thousands of dollars and wait weeks for human influencers to deliver content. NPC Creative disrupts this by using AI video agents that look and sound authentic.
 
 * The service offers a **$49 per month** subscription model.
@@ -113,6 +111,7 @@ The core business highlighted in this first week is **NPC Creative**, an agency 
 Chris showcases two specific AI agents (male and female) delivering marketing scripts. While acknowledging the current "AI kickback" or skepticism regarding synthetic media, he argues that the quality has reached a point where the cost-to-value ratio is too high for most startups to ignore.
 
 ### The Shift to Agentic Development
+
 A significant portion of the video focuses on the tools used to build these systems. Chris notes that he no longer uses **Cursor**, preferring **Claude Code** for its ability to handle 100% of the code contributions. This shift toward agentic coding allows him to act more like a project manager than a manual coder. He also plans to keep specific parts of his video-generation workflow private or exclusive to a future Patreon, as he views the specific "recipe" for high-quality video agents as a competitive advantage in the emerging AI agency market.
 
 ## Context

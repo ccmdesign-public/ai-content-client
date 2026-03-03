@@ -73,11 +73,15 @@ Early users like Alex Finn showcased tangible value, with his 'Henry' agent work
 
 The project faced a **cease-and-desist from Anthropic** over the 'Claude' name, leading to a rebrand to 'Moltbot' and finally **'OpenClaw'**. A key moment was the creation of **Moltbook**, a social network for AI agents, which saw 2.7 million agents join within weeks, highlighting the project's community appeal.
 
-### The OpenAI AcquisitionInterest peaked when Steinberger discussed acquisition offers on the Lex Fridman podcast. Shortly after, **Sam Altman announced** Steinberger was joining OpenAI to drive personal agent development, with OpenClaw moving to an independent foundation to remain open source.
+### The Open
+
+AI AcquisitionInterest peaked when Steinberger discussed acquisition offers on the Lex Fridman podcast. Shortly after, **Sam Altman announced** Steinberger was joining OpenAI to drive personal agent development, with OpenClaw moving to an independent foundation to remain open source.
 
 The community reaction was mixed but largely positive. Many saw it as the best outcome: Steinberger could build at scale, OpenAI gained a vital shelling point and community energy, and the project remained open. Conversely, **Anthropic was criticized** for a massive strategic fumble, alienating a project that generated immense goodwill and was primarily used with their models.
 
-### Why This MattersOpenClaw's value wasn't just technical; it created an **unbeatable community shelling point**. Hundreds of thousands of developers and vast resources coalesced around it, making it the default choice. For OpenAI, acquiring Steinberger brings fresh energy and directly challenges Anthropic's lead in coding agents (Claude Code).
+### Why This Matters
+
+OpenClaw's value wasn't just technical; it created an **unbeatable community shelling point**. Hundreds of thousands of developers and vast resources coalesced around it, making it the default choice. For OpenAI, acquiring Steinberger brings fresh energy and directly challenges Anthropic's lead in coding agents (Claude Code).
 
 The future involves the **OpenClaw Foundation**, led by figures like investor Dave Morin, to steward the open-source project. The core insight is that the agentic shift in AI is now real, and community momentum can be as valuable as technological innovation.
 

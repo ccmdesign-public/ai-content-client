@@ -4,13 +4,11 @@ metadata:
   title: "Why Everyone Is Obsessed with Claude Code"
   description: "Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating AI agents. Opportunities range from rapid indie app creation and personal software to major economic shifts and job redefinition driven by automation.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -84,12 +82,15 @@ The release of **Opus 4.5** and the **Claude Code** terminal interface has trigg
 The video explores the cultural and technical obsession with **Claude Code** and **Anthropic’s Opus 4.5**, framing them as the arrival of the 'infinite vibe coding machine.' Unlike previous AI iterations that offered incremental help, this new generation of models has crossed a 'threshold of utility.' Experts from Google and OpenAI suggest that these tools can now compress years of development work into weeks by acting as **autonomous agents** capable of navigating complex codebases without human hand-holding.
 
 ### The Rise of Vibe Coding and Agent-Native Apps
+
 A central theme is the emergence of **Vibe Coding**, a paradigm where natural language intent (the 'vibe') is sufficient to generate functional software. This is supported by **agent-native architecture**, a shift from traditional code-heavy logic to outcome-defined prompts. This allows software to be more flexible and capable of handling tasks the original developer didn't specifically plan for. Many high-level developers report using Claude Code not just for programming, but as a 'Chief of Staff' to manage team agendas, system settings, and data analysis.
 
 ### The Psychological Shift in Delegation
+
 Jason Freed of 37 Signals notes that this represents a 'new psychology' of work. For the first time, individuals can experience the 'pure joy' of delegating to **total competency** without the drama associated with human management. This level of delegation creates massive leverage, allowing users to focus on high-level goals while the agent handles the execution. However, this shift is also 'disheartening' for some veteran engineers who see the skills they spent decades mastering becoming a commoditized resource.
 
 ### Predictions for a Post-UI World
+
 The video predicts a transition to a **post-UI world** where traditional user interfaces matter less because the human is no longer the primary operator—the agent is. Key predictions for 2026 include:
 
 * **Mainstreaming**: 'Normies' will soon realize they have 'godlike creation powers,' leading to an explosion of hyper-specific, personal apps in the App Store.

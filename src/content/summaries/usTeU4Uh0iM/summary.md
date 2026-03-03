@@ -6,25 +6,19 @@ metadata:
 
     https://www.skool.com/chase-ai
 
-
     🔥FREE community with tons of AI resources🔥\ 
 
     https://www.skool.com/chase-ai-community
-
 
     💻 Need custom work? Book a consult 💻
 
     https://chaseai.io
 
-
     In this video, I show you how to turn Claude Code into the ultimate AI research agent by connecting it to NotebookLM — Google's free source-grounding tool powered by Gemini.
-
 
     Using a custom YouTube search skill (powered by yt-dlp) and the notebooklm-py CLI, you can search YouTube for any topic, push the top videos directly into NotebookLM, have it extract all the captions and build a queryable knowledge base, run analysis across every video, and generate deliverables like infographics, slide decks, and podcasts — all from your terminal.
 
-
     No vector databases, no embedding costs, no RAG infrastructure to maintain. The entire setup takes 5 minutes and replaces a research stack that would cost hundreds a month to build yourself.
-
 
     ⏰TIMESTAMPS:
 
@@ -38,7 +32,6 @@ metadata:
 
     10:08 - More Resources
 
-
     RESOURCES FROM THIS VIDEO:
 
     ➡️ Master Claude Code: https://www.skool.com/chase-ai
@@ -46,7 +39,6 @@ metadata:
     ➡️ My Website: https://www.chaseai.io
 
     ➡️ Claude Code Docs: https://code.claude.com/docs/en/overview
-
 
     #claudecode #notebooklm"
   channel: "Chase AI"
@@ -100,11 +92,15 @@ This video demonstrates how to create a powerful, free AI research workflow by i
 
 The video presents a method to supercharge research capabilities by connecting Claude Code with Notebook LM, creating a workflow that automates data sourcing, analysis, and content generation.
 
-### The Core WorkflowThe system works by having Claude Code use a **custom YouTube search skill** to find relevant videos based on a query. This skill uses **yt-dlp** to scrape YouTube metadata including titles, views, creators, and durations. The collected video URLs are then sent to Notebook LM via an **unofficial Python API** (Notebook LM-PI).
+### The Core Workflow
+
+The system works by having Claude Code use a **custom YouTube search skill** to find relevant videos based on a query. This skill uses **yt-dlp** to scrape YouTube metadata including titles, views, creators, and durations. The collected video URLs are then sent to Notebook LM via an **unofficial Python API** (Notebook LM-PI).
 
 Notebook LM then processes these videos, extracting captions and performing analysis using its built-in RAG (Retrieval-Augmented Generation) capabilities. All heavy cognitive work—analysis, summarization, pattern recognition—happens within Notebook LM's free tier, meaning Claude Code doesn't consume tokens for this processing.
 
-### Deliverable GenerationThe real power comes in the final step: Claude Code can request Notebook LM to generate various deliverables based on the analyzed content. These include:
+### Deliverable Generation
+
+The real power comes in the final step: Claude Code can request Notebook LM to generate various deliverables based on the analyzed content. These include:
 • Infographics in specific styles (like handwritten blueprint)
 • Slide decks
 • Podcast scripts
@@ -114,7 +110,9 @@ Notebook LM then processes these videos, extracting captions and performing anal
 
 All deliverables are created based on the actual video content analysis, ensuring they're grounded in source material rather than being fabricated.
 
-### Technical ImplementationSetting up the integration requires two main components:
+### Technical Implementation
+
+Setting up the integration requires two main components:
 1. **YouTube Search Skill**: Either prompt Claude Code to build it using yt-dlp, or download a pre-made setup file from the creator's community.
 2. **Notebook LM Connection**: Install the Notebook LM-PI GitHub repository which provides an unofficial API. Run installation commands in a separate terminal, authenticate once via browser login, then add the Notebook LM skill to Claude Code.
 

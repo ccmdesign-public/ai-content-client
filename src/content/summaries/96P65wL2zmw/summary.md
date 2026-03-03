@@ -4,16 +4,13 @@ metadata:
   title: "This Google Tool Turns Messy Text Into Clean Data"
   description: "Most apps struggle with the same problem: messy text. A huge chunk of real-world data that's unstructured, and turning it into something usable is harder than it should be.
 
-
     In this video, I walk through LangExtract, a free, open-source tool from Google that helps developers extract structured, traceable data from unstructured text using large language models.
-
 
     🔗 Relevant Links
 
     LangExtract Repo - https://github.com/google/langextract
 
     Google LangExtract - https://developers.googleblog.com/introducing-langextract-a-gemini-powered-information-extraction-library/
-
 
     ❤️ More about us
 
@@ -22,7 +19,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -33,7 +29,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -110,12 +105,15 @@ Lang Extract simplifies the transition from raw text to structured data by lever
 Lang Extract is a Google open-source Python library designed to bridge the gap between messy real-world text—such as clinical notes, emails, and PDFs—and clean, structured data formats like **JSON**. While many tools use LLMs for extraction, Lang Extract distinguishes itself through **grounded output**, which provides a verifiable link between the extracted data and the original source text.
 
 ### How the Workflow Functions
+
 The process starts with a standard Python script. Users clone the repository, provide an API key (for Gemini or GPT), and define the desired entities, attributes, and relationships within a prompt. Because it is powered by modern LLMs, there is no need for training data or model tuning. The library processes the text and outputs a JSON file where each field is accompanied by the specific sentence or span of text used for that extraction.
 
 ### Verification and Debugging Features
+
 One of the most powerful aspects of Lang Extract is its ability to generate **interactive HTML pages**. These pages allow developers and auditors to click on an extracted data point and see the corresponding section of the source document highlighted instantly. This visual feedback loop is critical for debugging extraction logic and performing audits in regulated environments. For larger workloads, the tool includes a **batch mode** to handle thousands of documents efficiently.
 
 ### Advantages and Limitations
+
 The tool offers several distinct advantages for modern data stacks:
 
 - **Model Agnostic**: It works with various LLMs, both cloud-based and local.

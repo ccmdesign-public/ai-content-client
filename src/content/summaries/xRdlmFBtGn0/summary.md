@@ -32,17 +32,13 @@ metadata:
 
     Claude Max ⁠https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage
 
-
-
     Host Links:
 
     📲Kipp Bodnar, https://twitter.com/kippbodnar \ 
 
     📲Kieran Flanagan, https://twitter.com/searchbrat\ 
 
-
     ‘Marketing Against The Grain’ is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Produced by Darren Clarke.
-
 
     About the Show
 
@@ -108,6 +104,7 @@ Anthropic's **Claude Co-Work** leverages their agentic coding platform Claude Co
 - Runs locally without browser dependency, allowing background operation while users multitask
 
 ### Real-World Demonstration
+
 When given:
 1. 100+ podcast transcripts
 2. You

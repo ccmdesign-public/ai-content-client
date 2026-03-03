@@ -4,17 +4,13 @@ metadata:
   title: "TestSprite MCP + Your PRD = Let the AI Test the AI Code"
   description: "Stop skipping testing when you code with AI. This is the #1 mistake I see people make.
 
-
     Testing is the second most important thing you should do after planning (creating a PRD). Every new line of code is a potential breaking change, and AI doesn't know when it's wrong. It doesn't have your full project context, so bugs cascade and compound.
 
-
     Big companies use test-driven development, CI/CD pipelines, and QA testers for a reason. But TDD breaks down when you veer from your plan (which always happens with AI), and CI/CD only checks if code runs, not if it actually works.
-
 
     That's why I am using the Testsprite MCP server, which writes tests after the code is written, using my PRD to understand what I'm actually building.\ 
 
     It's like having a QA engineer on call.
-
 
     ⏱️ TIMESTAMPS
 
@@ -38,7 +34,6 @@ metadata:
 
     8:14 – Outro
 
-
     🔗 RESOURCES
 
     TestSprite (1 month free): https://www.testsprite.com/?via=jered
@@ -48,7 +43,6 @@ metadata:
     Book a call with me → https://yedatechs.com/#container06
 
     Sponsorship inquiries → hi@yedatechs.com
-
 
     #Testing #MCP #VibeCoding #ClaudeCode #Cursor #TestSprite"
   channel: "JeredBlu"
@@ -108,6 +102,7 @@ Sprite MCP** uses your PRD + codebase to auto-generate holistic tests, acting li
 ## Summary
 
 ### The Testing Imperative in AI Development
+
 Skipping testing when coding with AI leads to cascading errors as AI lacks project-wide context awareness. Every code change risks breaking existing functionality, necessitating thorough validation beyond manual checks.
 
 ### Challenges with Traditional Methods
@@ -143,6 +138,7 @@ This tool integrates your PRD (with user stories/goals) and codebase to auto-gen
 - Preserves project-wide context via PRD linkage, unlike isolated AI self-tests
 
 ### Implementation Tip
+
 Pair Test
 
 Sprite with **PRD-driven development** (as shown in prior videos) for maximum efficiency in detecting and resolving AI coding errors.

@@ -4,18 +4,13 @@ metadata:
   title: "The trick to AI prototyping with your design system"
   description: "We talk a lot about using AI at startups…
 
-
     But what are more established companies doing to scale AI prototyping?
-
 
     What are the best ways to use AI to prototype with your design system?
 
-
     That's what today's episode is all about because we're talking with Lewis Healey (https://www.linkedin.com/in/lewis-healey-b2457826/) and Kylor Hall (https://www.linkedin.com/in/kylorhall/) about how they scaled AI prototyping at Atlassian.
 
-
     Some highlights 👇
-
 
     - Their vision for a truly AI-native design system
 
@@ -31,13 +26,11 @@ metadata:
 
     - + a *lot* more
 
-
     - Atlassian Design System (https://atlassian.design/)
 
     - Figma Make (https://www.figma.com/make/?gad_campaignid=23356954992&gbraid=0AAAABCTX0ItGAe7RZBBeUOUindISLe0Un) (AI prototyping tool)
 
     - AI Builders Week (Atlassian internal program) (https://www.atlassian.com/blog/inside-atlassian/ai-product-builders-week)
-
 
     Chapters
 
@@ -63,14 +56,11 @@ metadata:
 
     45:57 Where prototyping with AI is headed next
 
-
     Dive is where the best designers never stop learning 🤿
-
 
     🌐 dive.club
 
     🐦 twitter.com/joindiveclub
-
 
     Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
   channel: "Dive Club 🤿"
@@ -143,19 +133,23 @@ Atlassian has transformed its design system from a static library into a dynamic
 ## Summary
 
 ### The Hybrid Template Strategy
+
 Atlassian found that when designers and PMs used AI tools like **Figma Make** or **Replit** starting from a blank slate, the results were often unusable due to 'hallucinations' in the global navigation and branding. To solve this, they developed **hybrid templates**. These templates provide a pre-coded, pixel-perfect 'shell' of an Atlassian experience—including the top navigation and sidebar—allowing the AI to focus exclusively on generating the unique content in the main canvas. This approach reduced the error rate of navigation-related hallucinations to nearly zero and saved users hours of tedious UI tweaking.
 
 They also introduced **Recipes**, which are modular code snippets with specific instructions for the AI to perform complex tasks, such as switching an interface to **Dark Mode** or adding an AI chat box (Rovo). This allows users who aren't technical to 'paste in' high-fidelity functionality without needing to understand the underlying theme-engine or component logic.
 
 ### Communicating with the Machine
+
 One of the most significant technical shifts discussed is the transition from human-centered documentation to machine-optimized instructions. Kyler Hall explains that LLMs are heavily trained on open-source libraries like **Shadcn UI** and **Tailwind CSS**. To leverage this, Atlassian created instruction files that explicitly tell the AI: 'If you see these Tailwind classes, translate them into this specific React component.' 
 
 This method, which they call **Vibe Coding**, acknowledges the model's pre-trained biases rather than fighting them. By mapping a generic concept (like a 'lozenge' badge) to the model's understanding of a 'span' with certain classes, they achieved much higher fidelity. They manage these instructions through a `guidelines.mmd` file, which is a truncated, high-context version of their full design system documentation designed specifically to fit within LLM context windows.
 
 ### Calibrating Computer Vision
+
 Louis Healey shares a unique experiment using **UI sticker sheets** to calibrate the computer vision of AI models. By feeding the AI screenshots of various components and asking it to create bounding boxes, he identified exactly where the models struggled—specifically with low-contrast borders and dense navigation elements. This insight led to better prompting strategies: instead of uploading a single complex screenshot, users are encouraged to upload 'zoomed-in' sections to ensure the computer vision model captures the necessary detail without hitting context limits.
 
 ### Scaling Adoption and Maintenance
+
 To scale these tools to over 11,000 employees, the team moved beyond standard wikis and Slack channels. They implemented an **AI Builder Week**, where the entire company focused on learning these tools. To maintain engagement, Louis built a **Slack bot** in Replit that sends automated group DMs to inactive users, providing a more personal touch that successfully drove feedback and tool adoption.
 
 Maintaining the AI's 'brain' is a massive engineering challenge. Kyler describes a system where they house AI-specific documentation within their core **monorepo**. Scripts crawl the repository, grab the latest component types and examples, and bundle them into the `LM.txt` and `MCP` files that feed the AI prototyping tools. This ensures that as the production design system evolves, the AI-generated prototypes don't fall behind. They aim for the '80% mark'—documenting the most common use cases perfectly rather than overwhelming the model with every possible edge case.

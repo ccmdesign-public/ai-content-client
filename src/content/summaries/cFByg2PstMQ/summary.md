@@ -6,9 +6,7 @@ metadata:
 
     ⚡ Start the 30-day trial (same bonuses): https://adamerhart.co/3MYeRMM
 
-
     When you start, you get immediate access to the full system — no drip, no waiting:
-
 
     - AI-powered agency setup (funnels, follow-up, booking — prebuilt)
 
@@ -22,18 +20,13 @@ metadata:
 
     - Adam Erhart Insiders (private access + ongoing support)
 
-
     Everything unlocks immediately.
-
 
     I may earn a commission if you use my link, at no extra cost to you. I recommend this because it's the same platform and system I used to build 3 agencies to 7-figures.
 
-
     ⚠️ Disable ad blockers, VPNs, or incognito mode before clicking so bonuses unlock correctly.
 
-
     For people who want to start and scale a simple, profitable AI agency from scratch.
-
 
     0:00 - Why some beginners succeed quickly with HighLevel
 
@@ -121,6 +114,7 @@ The **five essential features** are:
 - **Pipelines**: Visual sales tracking system with customizable stages (20 minutes to create)
 
 ### What to Ignore
+
 In the first 30 days, actively avoid: courses/memberships, communities, reputation management, social planner, advanced reporting, AI features (Conversation AI, Voice AI, Content AI), and developer tools (custom CSS, API integrations). The rule: if a feature doesn't directly help capture leads, follow up, or book conversations, it's a distraction.
 
 ### Week-One Implementation Plan
@@ -136,6 +130,7 @@ In the first 30 days, actively avoid: courses/memberships, communities, reputati
 - **Days 6-7**: Refine but don't over-perfect
 
 ### Common Mistakes to Avoid
+
 1. Trying to learn everything at once instead of mastering the five core features
 2. Building without a clear offer (suggest starting with web design or reputation management)
 3. Perfecting before launching (imperfect systems that work beat perfect systems that don't exist)

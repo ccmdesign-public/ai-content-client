@@ -4,18 +4,13 @@ metadata:
   title: "I'm using claude --worktree for everything now"
   description: "My newsletter (sign up for Claude Code Course details):
 
-
     https://www.aihero.dev/s/047Ery
-
 
     Follow Matt on Twitter
 
-
     https://twitter.com/mattpocockuk
 
-
     Join the Discord:
-
 
     https://aihero.dev/discord"
   channel: "Matt Pocock"
@@ -71,6 +66,7 @@ The creator demonstrates the manual process first using `git worktree add UI-upd
 He then tests the Claude implementation using `claude --worktree`. Claude automatically creates a worktree with a randomly generated name (e.g., "delightful-dazzling-sketch") and manages the entire Git workflow—adding, committing, and pushing files. However, a crucial discovery is that by default, the agent might try to push commits to the original source branch (like main) unless explicitly instructed to push to the uniquely named worktree branch. This requires user awareness or specific prompting.
 
 ### Benefits and Workflow
+
 **Parallelization becomes free and safe.** You can instantly spin up a new worktree for any idea or task, have an agent work on it, and get a PR back to main. This is especially powerful with **sub-agents**, which can now use worktrees to be orchestrated for specific tasks.
 **Tool absorption** is a major benefit—Claude absorbs the complexity of Git worktree management, handling creation and cleanup, which ties an agent's lifecycle to its dedicated workspace.
 

@@ -4,13 +4,9 @@ metadata:
   title: "My 3-Step Claude Skill for Perfect UX Design"
   description: "Get the prompts and skills from the video for free here: https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
 
-
     In this video, I show you my 3-step Claude Skill workflow for creating professional UX design that actually looks polished—not the generic vanilla UI that most AI builders end up with.\ 
 
-
     If you've been wondering how to use Claude Skills to level up your app development, this tutorial breaks down exactly how to create Claude Skills that generate detailed user experience documentation before you write a single line of code.
-
-
 
     ⌚ Timestamps:
 
@@ -32,23 +28,17 @@ metadata:
 
     16:26 - Before vs After comparison
 
-
     🗄️ Resources:
-
 
     Claude Skills + Prompts → https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
 
-
     💪 Who Am I?
-
 
     My name is Sean... I'm a biotech consultant turned tech bootcamp bro-coder turned tech company sales engineer turned digital marketing entrepreneur turned back into a tech bro entrepreneur.
 
     Learning all I can about AI and trying to communicate some knowledge along the way.
 
-
     The singularity is near!
-
 
     👇 My Other social accounts
 
@@ -128,9 +118,11 @@ To move from functional prototypes to professional products, builders must stop 
 The primary reason AI-generated applications often look 'vanilla' and unprofessional is that builders jump straight from a basic idea to coding. Sean Kochel introduces a **3-step Claude Skill** workflow designed to force the AI to think like a world-class product designer before a single line of code is written.
 
 ### Step 1: The Enhanced PRD
+
 The process begins with a **Product Requirements Document (PRD)**. While many use AI to generate these, the key is providing high-quality documentation of the **MVP concept**. This includes the core features, target users, and success criteria. In the demo, Kochel uses a node-based automation builder concept. By running a specific Claude skill against an `MVP.markdown` file, the AI produces a detailed roadmap that defines *what* the app does, but not yet *how* it feels.
 
 ### Step 2: The UX Specification
+
 This is the 'missing link' in most AI workflows. Kochel's Claude skill translates the PRD into a deep **UX Specification**. This phase focuses on four critical pillars:
 1. **Mental Model Alignment**: Researching how the ideal user perceives the problem and ensuring the UI matches those expectations.
 2. **Information Architecture**: Organizing every concept (canvases, sidebars, nodes) into a cohesive structure.
@@ -138,9 +130,11 @@ This is the 'missing link' in most AI workflows. Kochel's Claude skill translate
 4. **System Communication**: Planning for edge cases like loading animations, empty states, and error handling.
 
 ### Step 3: The Build Order
+
 Because most AI coding tools (such as **Google Stitch**, **Replit**, or **Polyat**) have context limitations, providing a 50-page specification at once leads to errors. The final skill generates a **Build Order**—a sequence of modular prompts. This allows the builder to iterate through the project in logical layers: starting with **design tokens** and **layout shells**, then moving to core feature components, and finally adding micro-interactions.
 
 ### Real-World Results
+
 The video demonstrates the difference between a 'vanilla' build and the structured approach. The structured build includes high-fidelity details like **context-aware dropdowns**, **smooth node animations**, and **dynamic data mapping**. By defining these details in the UX spec first, the AI has the specificity required to execute a polished, professional interface rather than a generic template.
 
 ## Context

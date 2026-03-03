@@ -6,13 +6,11 @@ metadata:
 
     🛠️ Whitelable AI Agnets 👉 https://www.bookedin.ai
 
-
     Resources from the video: https://www.skool.com/aianswers
 
     -----------------------------
 
     ✉️  For Business Inquiries: samin@bookedin.ai
-
 
     Hi 👋 I'm Samin.  This channel is for you if you’re a business owner who wants to:
 
@@ -22,12 +20,9 @@ metadata:
 
     → Scale your revenue while working less
 
-
     You may be feeling stuck, trying to figure out how to attract consistent leads, increase your sales, and grow your business without burning out.
 
-
     If that sounds like you I can help.\ 
-
 
     But why even listen to me?
 
@@ -39,50 +34,35 @@ metadata:
 
     - I have a computer science degree from NYU
 
-
     More about bookedin: https://www.youtube.com/channel/UCwUgatPkBj-CROEB_MJAh5A\ 
 
     Want to talk? https://cal.com/team/bookedin/strategy-call
 
-
     Timestamps
-
 
     00:00 Intro: AI-Generated Video Proof
 
-
     00:30 The 3 Levels of AI Video Creation
-
 
     01:00 Understanding Claude's \"Skills\"
 
-
     01:36 Level 1: Installing Claude Desktop
-
 
     02:11 Adding the Remotion Skill
 
-
     03:44 Creating Your First AI Video
-
 
     05:16 Troubleshooting & Using Claude Code
 
-
     06:43 Editing & Customizing Assets
-
 
     08:00 Level 2: Skill Stacking
 
-
     09:58 Creating the Claude.md \"Brain\"
-
 
     12:03 Integrating Wavespeed, ElevenLabs & Image Gen
 
-
     13:57 Level 3: Chaining Videos for Long-Form Content
-
 
     15:16 Stitching Videos Together"
   channel: "Samin Yasar"
@@ -137,14 +117,21 @@ Claude's integration with Remotion transforms video creation into a prompt-based
 
 ## Summary
 
-### IntroductionClaude has introduced a new skill called Remotion that allows users to create videos simply by typing prompts. This tutorial demonstrates how to leverage this capability for various video types, from product demos to full YouTube videos.
+### Introduction
+
+Claude has introduced a new skill called Remotion that allows users to create videos simply by typing prompts. This tutorial demonstrates how to leverage this capability for various video types, from product demos to full YouTube videos.
 
 ### Level 1: Basic Setup
+
 To get started, download **Claude Desktop** and install the **Remotion skill** via the command `npx skills add remotion`. This gives Claude the ability to generate videos based on textual descriptions. Users can specify assets, colors, and content from websites to create motion graphics.
 
-### Level 2: Skill StackingEnhance videos by stacking additional skills. Through **Wavespeed**, integrate **11 Labs** for AI-generated voiceovers and **Nano Banana Pro** for custom visuals. Claude can be trained using a `claude.md` file to remember these preferences, ensuring consistent styling across videos.
+### Level 2: Skill Stacking
 
-### Level 3: Video ChainingFor longer content like YouTube videos, provide a script and have Claude create individual videos for each section. Then, chain them together with your recording to produce a final video. Claude acts as an orchestrator, stitching intros, outros, and middle sections seamlessly.
+Enhance videos by stacking additional skills. Through **Wavespeed**, integrate **11 Labs** for AI-generated voiceovers and **Nano Banana Pro** for custom visuals. Claude can be trained using a `claude.md` file to remember these preferences, ensuring consistent styling across videos.
+
+### Level 3: Video Chaining
+
+For longer content like YouTube videos, provide a script and have Claude create individual videos for each section. Then, chain them together with your recording to produce a final video. Claude acts as an orchestrator, stitching intros, outros, and middle sections seamlessly.
 
 This approach democratizes video creation, making it accessible to non-technical users and paving the way for autonomous content generation.
 

@@ -4,12 +4,9 @@ metadata:
   title: "How I Actually Use Claude Code in My Design Workflow"
   description: "In this video, I walk through how I actually use Claude Code from Anthropic inside my real design workflow.
 
-
     From thinking through product ideas to refining UX decisions and writing clearer documentation, this is how I use AI day to day as a product designer to move faster and produce better work.
 
-
     If you’re a UI, UX, or Product Designer exploring how AI fits into your workflow, this will give you a practical starting point.
-
 
     🔗 KEY LINKS
 
@@ -17,12 +14,9 @@ metadata:
 
     ❎ Follow me on X: https://x.com/KirkMDesign
 
-
     Why Join UI Collective Academy? Get access to premium courses, premium downloads, and so much more on the way (I am largely building this solo...trying to make design education available for all, support goes a long way!)
 
-
     ↪️ Need a design system? (also included in the academy): https://collectivekit.co/
-
 
     🔗 VIDEOS TO WATCH
 
@@ -34,7 +28,6 @@ metadata:
 
     AI & Design Systems: https://youtu.be/XfezMs8B-O8
 
-
     🔗 MORE LINKS
 
     Let us build or fix your design system: https://designsystemlabs.co/
@@ -43,7 +36,6 @@ metadata:
 
     kirkland@uicollective.co
 
-
     VIDEO LINKS & MORE:
 
     Installation: https://code.claude.com/docs/en/overview#terminal
@@ -51,7 +43,6 @@ metadata:
     For installation: /plugin install figma@claude-plugins-official
 
     MCP documentation: https://code.claude.com/docs/en/mcp
-
 
     0:00 An Introduction
 
@@ -129,11 +120,17 @@ Claude Code enhances design workflows by automating tasks and aiding visualizati
 
 The video explores practical applications of Claude Code in a design workflow, focusing on two main areas: automating documentation and generating UX prototypes.
 
-### Automating Design DocumentationClaude Code can study a sample design system documentation page, such as for a button component, and then generate similar documentation for other components like links. This is done by providing a link to the Figma file, and Claude Code analyzes the content, structure, and formatting to create new docs, which are automatically pushed back to Figma. This saves time on repetitive writing and ensures consistency.
+### Automating Design Documentation
 
-### Generating UX PrototypesFor complex UX challenges, such as designing a data visualization table with advanced filtering, Claude Code can generate interactive prototypes. These prototypes help designers visualize the user experience and explore different states, like filtering and column management. While the designs may not be perfect, they serve as a starting point that can be imported into Figma for further refinement using the design system.
+Claude Code can study a sample design system documentation page, such as for a button component, and then generate similar documentation for other components like links. This is done by providing a link to the Figma file, and Claude Code analyzes the content, structure, and formatting to create new docs, which are automatically pushed back to Figma. This saves time on repetitive writing and ensures consistency.
 
-### Setup and IntegrationThe video also covers setting up Claude Code with Figma using the Model Context Protocol (MCP). This involves installing Claude Code via terminal, connecting it to Figma through MCP commands, and authenticating to enable the two-way sync. This integration is key to automating the workflow and eliminating manual steps like copying and pasting between tools.
+### Generating UX Prototypes
+
+For complex UX challenges, such as designing a data visualization table with advanced filtering, Claude Code can generate interactive prototypes. These prototypes help designers visualize the user experience and explore different states, like filtering and column management. While the designs may not be perfect, they serve as a starting point that can be imported into Figma for further refinement using the design system.
+
+### Setup and Integration
+
+The video also covers setting up Claude Code with Figma using the Model Context Protocol (MCP). This involves installing Claude Code via terminal, connecting it to Figma through MCP commands, and authenticating to enable the two-way sync. This integration is key to automating the workflow and eliminating manual steps like copying and pasting between tools.
 
 ## Context
 

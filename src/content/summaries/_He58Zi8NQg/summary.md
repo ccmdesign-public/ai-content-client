@@ -8,14 +8,11 @@ metadata:
 
     📈 Get daily AIOS Workshops from me in my Accelerator: https://bit.ly/405tJw1
 
-
     📚 Join the #1 community for AI entrepreneurs and connect with 290k+ members: https://bit.ly/4rSJfaL
 
     🤝 Ready to transform your business with AI? Let's talk: https://bit.ly/4s2dOuV
 
-
     Claude Code Remote Control dropped and everyone's treating it like a coding feature — I've been using it to run 4 companies from my phone. In this video, I queue 3 real tasks on camera (a marketing audit, a lead magnet, and a month of sales call analysis) and show the finished results at the end. The secret is what I call an AI Operating System — three layers (Context OS, Data OS, Intel OS) that give your AI agents real business context, live analytics from tools like Google Sheets, YouTube Analytics, Bitly, and Calendly, and strategic insights pulled from meeting transcripts via Fireflies and Fathom. Without the system, Remote Control is useless. With it, you're not coding from your phone — you're operating your entire business from it. Free Telegram + Claude Code setup guide included.
-
 
     ⏱️ Timestamps:
 
@@ -86,13 +83,17 @@ The future of business management lies in building an AI Operating System (AIOS)
 
 The video introduces the concept of an **AI Operating System (AIOS)** as a critical layer around your existing business model, enabling complete management from a phone. The recent release of Claude Code's remote control feature makes this more accessible, but the speaker emphasizes that the remote is useless without the 'TV'—the AIOS itself.
 
-### Building Your AIOS in LayersThe core methodology is **'layers, not leaps.'** The foundational layer is a **Context OS**: a central repository of your business's identity, services, team roles, and values. This allows any AI agent or automation to act with full knowledge of your company.
+### Building Your AIOS in Layers
+
+The core methodology is **'layers, not leaps.'** The foundational layer is a **Context OS**: a central repository of your business's identity, services, team roles, and values. This allows any AI agent or automation to act with full knowledge of your company.
 
 The next layer is the **Data OS**, which aggregates real-time data from all sources (e.g., Google Sheets, P&L, YouTube Analytics, Bitly, Calendly) into a single database. This gives the AIOS a live, holistic view of business performance.
 
 Further layers include an **Intel OS**, which pulls in meeting notes from tools like Fireflies or Fathom, and automated daily briefs that synthesize data and meeting insights into strategic SWAT analyses.
 
-### The Phone as a Command CenterWith this system in place, a phone interface (via Claude Code remote control or a custom Telegram bot) becomes a powerful command center. The speaker demonstrates this by queuing three complex business tasks at the start of the video and checking the completed outputs later: a full marketing audit report, a deep-dive analysis of a month's worth of client calls, and a generated lead magnet landing page.
+### The Phone as a Command Center
+
+With this system in place, a phone interface (via Claude Code remote control or a custom Telegram bot) becomes a powerful command center. The speaker demonstrates this by queuing three complex business tasks at the start of the video and checking the completed outputs later: a full marketing audit report, a deep-dive analysis of a month's worth of client calls, and a generated lead magnet landing page.
 
 He is offering his own plug-and-play Telegram system as a freebie to help viewers start building their own AIOS, arguing that this approach represents the future of business and provides a significant competitive advantage for early adopters.
 

@@ -4,12 +4,9 @@ metadata:
   title: "Build a Real-Time AI Sales Agent - Sarah Chieng & Zhenwei Gao, Cerebras"
   description: "Learn how to build a sophisticated real-time voice sales agent that can have natural conversations with potential customers. You'll create both single-agent and multi-agent systems where specialized AI assistants handle sales, technical support, and pricing inquiries.
 
-
     https://twitter.com/SarahChieng
 
-
     Timestamps
-
 
     0:21 Introduction to the Workshop & Sales Agent Concept
 
@@ -147,9 +144,11 @@ Kit Orchestration** utilizes **WebRTC** instead of HTTP to ensure audio streams 
 The workshop focuses on the transition from text-based chatbots to stateful, real-time voice agents. Sarah Chieng and Zhenwei Gao highlight that the primary barrier to natural AI conversation is latency, which they address through both hardware and software innovations.
 
 ### Hardware: The Wafer Scale Engine
+
 Cerebras introduces the **WSE-3**, a processor the size of a dinner plate with 4 trillion transistors. Unlike NVIDIA GPUs (like the H100) that store weights and KV cache in off-chip memory, Cerebras integrates memory directly onto each of its 900,000 cores. This architecture eliminates the **memory bandwidth bottleneck**, enabling inference speeds significantly faster than traditional hardware. This speed is what allows an AI to "think" fast enough to prevent awkward silences in voice calls.
 
 ### The Voice Agent Architecture
+
 A functional voice agent consists of three main phases: listening, thinking, and speaking.
 
 - **Listening:** Uses **Speech-to-Text (STT)** and **Voice Activity Detection (VAD)**. A small CPU-based model predicts if a user has finished their thought to prevent the AI from interrupting the speaker prematurely.
@@ -159,6 +158,7 @@ A functional voice agent consists of three main phases: listening, thinking, and
 - **Speaking:** **Text-to-Speech (TTS)** engines like Cartisia stream audio back to the user in real-time as tokens are generated.
 
 ### Implementation and Orchestration
+
 The presenters recommend **Live
 
 Kit** for managing the complex orchestration of these components. Live
@@ -166,6 +166,7 @@ Kit** for managing the complex orchestration of these components. Live
 Kit uses **WebRTC**, a protocol designed for real-time communication, ensuring that the round-trip latency stays below 100ms. 
 
 ### Multi-Agent Systems for Scale
+
 For enterprise applications, a single agent often lacks the context window or specialization needed for complex sales cycles. The workshop details a **multi-agent workflow**:
 
 - **Greeting Agent:** Filters the initial intent and acts as a router.

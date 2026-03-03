@@ -4,22 +4,17 @@ metadata:
   title: "Answering Your GitHub Spec Kit Questions"
   description: "Instead of me recording another demo, I thought I'd spend some time answering some of the community questions around GitHub Spec Kit and Spec-Driven Development (SDD).
 
-
     😺 GitHub repo: https://github.com/github/spec-kit
 
     ✍️ Blog post: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
 
     📚 Additional details: https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit
 
-
     Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
-
 
     GitHub Copilot CLI: https://github.com/github/copilot-cli
 
-
     For more videos:
-
 
     📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
 
@@ -36,7 +31,6 @@ metadata:
     📽️ Using GitHub Spec Kit for existing projects: https://youtu.be/SGHIQTsPzuY
 
     📽️ Using GitHub Spec Kit with GitHub Copilot CLI: https://youtu.be/7tjmA_0pl2c
-
 
     #engineering #github #speckit #opensource #technology"
   channel: "Den Delimarsky"
@@ -106,20 +100,25 @@ This video addresses several key questions from the community about using Git
 Hub Spec Kit, focusing on best practices, managing AI agent behavior, and adapting to various project types.
 
 ### Spec as the Sole Source of Truth
+
 The speaker emphasizes that the **spec document** should be the **sole source of truth** for a project. While initial plans and tasks may drift during development, the spec should always be updated to reflect the final output and any learnings or decisions made during implementation. If technical details like databases or frameworks change, the **plan** should also be updated. However, tasks are highly flexible and can be recreated as needed. The priority for durability is **spec > constitution > plan > tasks**. Keeping all documentation updated is generally recommended, but the spec holds paramount importance for future reusability and clarity.
 
 ### Managing AI Agent Drift with Git
+
 A common concern is when an AI agent, such as Cursor, starts generating code that deviates from the desired specification or creates unwanted files. The recommended approach is to **lean heavily into Git workflows**. When this occurs, first, update the **specification** to precisely define what is needed (and what is not). Then, use a **Git client** to discard any uncommitted, unwanted code changes that the agent might have generated. Ensure that the updated spec is committed and pushed to the branch. Finally, use this refined spec to re-prompt the agent, guiding it back onto the correct path. The speaker stresses the importance of committing frequently for working changes and being proficient with Git branching and staging.
 
 ### Spec Kit in Multi-Repo and Monorepo Environments
+
 For teams using different Git repositories for various parts of an application, the speaker's experiments suggest that **one Spec Kit deployment per repository** is generally most effective. This approach contains the work within its respective repo, simplifying management. While sharing common assets like an organizational **constitution** (defining general web app build standards) can be done via **Git submodules**, specific specs for features are often unique to each repo (e.g., a mobile app vs. a web app).
 For **complex monorepos** that encompass backend, frontend, and database files in a single repository, the current single `.specit` folder can be restrictive. The team is actively working on enabling **multiple `.specit` folders** within a monorepo—for instance, one for the backend and another for the frontend. This will provide necessary granularity, allowing different parts of the project to have their own specific constitutions and spec formats, while common slash commands remain consistent. A documented approach for this is forthcoming.
 
 ### Reusing Specs and Integrating with Existing Projects
+
 The value of a well-defined spec lies in its ability to **detach implementation from definition**. For features or bug fixes originally built using Spec Kit and encoded in spec files, they can be readily **recreated or refactored** with entirely different underlying technology stacks (e.g., moving from Hugo to Jekyll). The spec acts as an "executable artifact" that can be fed to an LLM to rebuild functionality within a new codebase context.
 For **existing ("brownfield") projects** not initially built with Spec Kit, new features can still be added. The key is to **provide the LLM with as much context as possible** about the project's existing structure, components, and build processes. Tools like `cloud.md` or existing agent files can supply this information. While modern LLMs are improving at dynamically inferring context, proactive provision of details significantly enhances accuracy. Engineers must still review and guide the LLM, especially in complex brownfield scenarios.
 
 ### Evolving Test-Driven Development (TDD) Defaults
+
 A critical piece of feedback acknowledged is the heavy and often unnecessary inclusion of **Test-Driven Development (TDD)** by default in Spec Kit templates, which can be credit-expensive and time-consuming for rapid prototyping or simple features. The speaker confirms that a **TDD-less option is in development**, allowing users to opt out of default test creation. TDD will remain available for more "serious enterprise-y projects" where it is appropriate, but it will not be a baked-in requirement for every scenario.
 
 ## Context

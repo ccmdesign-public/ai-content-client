@@ -4,17 +4,13 @@ metadata:
   title: "Claude Code Agent Teams - Everything to Know"
   description: "Learn for free on Brilliant for a full 30 days: https://brilliant.org/KennyLiao . You’ll also get 20% off an annual Premium subscription.
 
-
     In this video I share everything you need to know about Claude Code's new Agent Teams feature — how they work, how they compare to subagents, and the limitations and real costs I found from testing them. I walk through a full live demo using an agent team to review my newsletter, and I share two free Claude Code skills that let you view and analyze the conversations happening between your agent teammates.
 
-
     This video was sponsored by Brilliant.
-
 
     Join my free newsletter to get more done with AI!
 
     https://theailaunchpad.substack.com/
-
 
     🎥 Watch Next
 
@@ -24,18 +20,15 @@ metadata:
 
     3. Claude Code's MCP Problem Fixed: https://youtu.be/l7qVtHpctic
 
-
     Apps I use:
 
     Get Wisper Flow Pro FREE for 14 days! https://ref.wisprflow.ai/kenneth-liao
-
 
     🛠️ Resources
 
     1. Free Agent Teams Plugin (including TMUX installation): https://github.com/kenneth-liao/ai-launchpad-marketplace
 
     2. Official Agent Teams Docs: https://code.claude.com/docs/en/agent-teams
-
 
     🕒 Sections
 
@@ -55,11 +48,9 @@ metadata:
 
     18:53 - Limitations & Real Costs
 
-
     ✉️ For Business Inquiries:
 
     kennyliao@theailaunchpad.io
-
 
     #claudecode #agentteams #aiagents"
   channel: "Kenny Liao"
@@ -113,17 +104,24 @@ Claude Code's Agent Teams feature represents a significant evolution beyond sequ
 The architecture centers on a **team lead** that orchestrates the entire process: creating the team, spawning teammates, generating task lists with dependencies, and synthesizing final outputs. Each teammate gets its own context window and works independently on assigned tasks, but can communicate through a shared mailbox system. This communication capability is the key differentiator from sub-agents, allowing for real-time steering and collaboration.
 
 ### Implementation and Setup
+
 To use Agent Teams, users need Claude Code version 2.1.32 or higher and must enable the research preview feature in settings.json. There are two viewing modes: in-process (default) and T-Mux for multi-pane visualization of agent conversations. The feature supports using different models for different teammates (like Sonnet or Haiku for cost savings) while reserving Opus for the team lead.
 
 ### Practical Example and Analysis
+
 A real-world example demonstrates using three agent teammates for newsletter review: a voice reviewer, engagement reviewer, and accuracy reviewer. The analysis shows how agents share findings, challenge assumptions, and collectively identify issues like missing context about 7x cost increases in plan mode. The conversation history reveals complex interactions where agents DM each other with discoveries and the team lead manages task lifecycles.
 
 ### Critical Limitations and Considerations
+
 **Cost is a major concern** - Anthropic documents up to 7x more token usage compared to normal sessions, primarily due to communication overhead where messages become input tokens for all teammates. **Teammates cannot spawn sub-agents**, which limits workflow portability and forces redesign of existing sub-agent dependent processes. **Context isolation** means teammates start with empty context windows, placing heavy importance on team lead prompt design. **Idle costs** continue accumulating until teams are explicitly cleaned up using the team delete tool.
 
-### Optimization StrategiesThe video introduces free skills for analyzing agent team performance: one generates HTML visualizations of conversations, while another analyzes exported markdown to provide suitability verdicts and prompt optimization recommendations. Key optimization insights include breaking monolithic tasks into smaller subtasks with checkpoints, avoiding redundant work requests, and ensuring proper context sharing between agents.
+### Optimization Strategies
 
-### Best Use CasesThe sweet spot for Agent Teams includes research, code review, content review, and multi-service development where agents owning different pieces can benefit from shared context and challenging perspectives. The feature is particularly valuable when communication between specialized agents can prevent errors or improve quality through collaborative analysis.
+The video introduces free skills for analyzing agent team performance: one generates HTML visualizations of conversations, while another analyzes exported markdown to provide suitability verdicts and prompt optimization recommendations. Key optimization insights include breaking monolithic tasks into smaller subtasks with checkpoints, avoiding redundant work requests, and ensuring proper context sharing between agents.
+
+### Best Use Cases
+
+The sweet spot for Agent Teams includes research, code review, content review, and multi-service development where agents owning different pieces can benefit from shared context and challenging perspectives. The feature is particularly valuable when communication between specialized agents can prevent errors or improve quality through collaborative analysis.
 
 ## Context
 

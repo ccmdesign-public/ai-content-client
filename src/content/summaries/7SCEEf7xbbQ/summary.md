@@ -4,18 +4,13 @@ metadata:
   title: "Amazon Just Became the Google of Streaming Ads"
   description: "Amazon just pulled off the biggest power shift in advertising since Google took over search, and most marketers are sleeping on it.
 
-
     Netflix, Spotify, and Roku have opened their ad inventory to Amazon's DSP, putting purchase data from over 300 million shoppers directly behind your streaming campaigns.
-
 
     I've been in digital marketing for over two decades, and I haven't seen a consolidation moment like this since the early days of Google Ads.
 
-
     If you move early, you build the playbook while inventory is still underpriced. If you wait, this becomes the new baseline and you'll be playing catch-up.
 
-
     You will learn:
-
 
     — Why Netflix, Spotify, and Roku collapsed their walled gardens and handed Amazon control of streaming ads 
 
@@ -24,7 +19,6 @@ metadata:
     — The way programmatic advertising works inside Amazon DSP and why one remote click can close a sale 
 
     — How to know if your brand is ready for Amazon DSP and what to build toward if you're not there yet
-
 
     Chapters:\ 
 
@@ -37,7 +31,6 @@ metadata:
     \ 05:24 — Chapter 3: How Programmatic Advertising Actually Works\ 
 
     \ 08:18 — Chapter 4: Who Can Actually Use Amazon DSP
-
 
     We've helped hundreds of companies navigate programmatic advertising. Your brand could be next. Visit http://npdigital.com"
   channel: "Neil Patel"
@@ -95,13 +88,16 @@ Amazon has triggered the biggest power shift in advertising since Google dominat
 
 This consolidation mirrors Google's early 2000s strategy with search advertising, where they unified fragmented local ad networks into one platform. Amazon's advantage comes from its unique first-party purchase data from over 300 million users. While Google knows what you search for and Facebook knows what you engage with, Amazon knows what you actually bought, when you bought it, and when you're likely to run out.
 
-### How Programmatic Advertising WorksAmazon's DSP allows advertisers to set budgets, target audiences based on purchase behavior, and upload creative assets. The platform then automatically bids on ad slots across streaming services in real-time auctions. Amazon tracks everything from impressions to purchases, creating closed-loop attribution for e-commerce brands.
+### How Programmatic Advertising Works
+
+Amazon's DSP allows advertisers to set budgets, target audiences based on purchase behavior, and upload creative assets. The platform then automatically bids on ad slots across streaming services in real-time auctions. Amazon tracks everything from impressions to purchases, creating closed-loop attribution for e-commerce brands.
 
 For non-e-commerce businesses, Amazon uses **household identity** technology and **Amazon Marketing Cloud** to connect TV ad views with subsequent actions across devices on the same Wi-Fi network. This allows service-based businesses to target customers based on shopping behavior proxies
 
 - for example, an electrician training program can target people who recently purchased multimeters or electrical tools.
 
 ### Who Should Use This Platform
+
 • **E-commerce brands** already succeeding on Amazon with consistent sales and reviews
 • **Mid-market brands** with performance budgets who can allocate portion for testing
 • **Enterprise brands** making strategic decisions about streaming ad consolidation

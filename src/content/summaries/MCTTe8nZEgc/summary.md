@@ -4,11 +4,9 @@ metadata:
   title: "This $5 Chip Can Run A Full OpenClaw AI Agent (zclaw)"
   description: "In this video, we explore how to deploy zclaw, a remarkably tiny 888kb AI firmware that brings full agentic capabilities to a $5 ESP32-C3 microcontroller. We walk you through the end-to-end installation and provisioning process. We demonstrate the potential of embedded AI in action as we code custom C tools to control a circular GC9A01 display and execute local hardware tasks via a secure Telegram interface.
 
-
     🔗 Relevant Links
 
     zclaw: https://github.com/tnm/zclaw
-
 
     ❤️ More about us
 
@@ -17,7 +15,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -28,7 +25,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -108,13 +104,21 @@ ZClaw represents a fascinating implementation of the OpenClaw AI agent concept s
 
 The system operates through a **cloud-local hybrid architecture**: users interact via Telegram messaging, prompts are processed by cloud LLM providers (OpenAI, Anthropic, Open Router, or Ollama), and execution happens locally on the ESP32 chip. This allows the $5 microcontroller to leverage powerful AI models without requiring significant onboard processing power.
 
-### Installation and SetupSetting up ZClaw involves cloning the repository, running build scripts, flashing the firmware, and provisioning the device. The provisioning process requires configuring Wi-Fi credentials, selecting an AI provider with API key, and setting up Telegram bot integration through BotFather. Users must specify allowed Telegram user IDs for security.
+### Installation and Setup
 
-### Hardware Integration CapabilitiesThe video demonstrates two practical implementations. First, a simple LED circuit controlled via GPIO pin mapping where ZClaw remembers hardware assignments through local NVS storage. Second, a more complex integration with a GC9A01 240x240 TFT display requiring custom tool development.
+Setting up ZClaw involves cloning the repository, running build scripts, flashing the firmware, and provisioning the device. The provisioning process requires configuring Wi-Fi credentials, selecting an AI provider with API key, and setting up Telegram bot integration through BotFather. Users must specify allowed Telegram user IDs for security.
 
-### Custom Tool DevelopmentWhile ZClaw's default toolset is limited to GPIO operations and basic memory storage, the framework supports extension through ESP IDF. The creator demonstrates adding a display text tool by modifying the tool C file, creating display functions with Claude Code assistance, adding driver dependencies, and recompiling the project. This extensibility makes ZClaw adaptable to various IoT scenarios.
+### Hardware Integration Capabilities
 
-### Practical Considerations and LimitationsThe video notes Wi-Fi interference issues when using breadboards, requiring external pin clamps for reliable connections. While ZClaw works well for prototyping and hobby projects, the creator questions its production viability compared to custom web API interfaces. The concept shines as a **novelty implementation** demonstrating AI agent possibilities on minimal hardware.
+The video demonstrates two practical implementations. First, a simple LED circuit controlled via GPIO pin mapping where ZClaw remembers hardware assignments through local NVS storage. Second, a more complex integration with a GC9A01 240x240 TFT display requiring custom tool development.
+
+### Custom Tool Development
+
+While ZClaw's default toolset is limited to GPIO operations and basic memory storage, the framework supports extension through ESP IDF. The creator demonstrates adding a display text tool by modifying the tool C file, creating display functions with Claude Code assistance, adding driver dependencies, and recompiling the project. This extensibility makes ZClaw adaptable to various IoT scenarios.
+
+### Practical Considerations and Limitations
+
+The video notes Wi-Fi interference issues when using breadboards, requiring external pin clamps for reliable connections. While ZClaw works well for prototyping and hobby projects, the creator questions its production viability compared to custom web API interfaces. The concept shines as a **novelty implementation** demonstrating AI agent possibilities on minimal hardware.
 
 ## Context
 

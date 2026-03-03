@@ -4,34 +4,25 @@ metadata:
   title: "New in Jan ‘25: Web Analytics additions, share of voice charts and more"
   description: "Catch up on Ahrefs’ latest features and improvements in January 2025.
 
-
     ***************************************
 
     Additional Resources
 
-
     Web Analytics ► https://ahrefs.com/web-analytics
-
 
     Rank Tracker ► https://ahrefs.com/rank-tracker
 
-
     Site Explorer ► https://ahrefs.com/site-explorer
-
 
     What are Project Boost add-ons? ► https://help.ahrefs.com/en/articles/10130957-what-are-project-boost-add-ons
 
-
     Canny for feature requests ► https://ahrefs.canny.io/
-
 
     ***************************************
 
     This month we have six noteworthy updates to share with you.
 
-
     Let’s start with Web Analytics. We have three new features here:
-
 
     ► Integration with Google Search Console.
 
@@ -39,12 +30,9 @@ metadata:
 
     ► Access to HTML and text history for pages directly through Page Inspect.
 
-
     Moving on to Site Explorer. The Organic keywords report now features a position chart that shows keyword distribution by position over time.
 
-
     Next up is Rank Tracker. Here we have the following:
-
 
     ► New Share of Voice and Share of Traffic Value metrics and charts are available in Dashboard, Overview, and Competitors Overview.
 
@@ -52,9 +40,7 @@ metadata:
 
     ► Also, the GSC Overview report now includes a page history chart.
 
-
     Finally, on to a general update. You can now purchase Project Boost add-ons for all verified projects, including those on the free Ahrefs Webmaster Tools plan.
-
 
     #productupdates #productchanges #ahrefs"
   channel: "Ahrefs Product Updates"
@@ -106,15 +92,25 @@ The Ahrefs January 2025 product update focuses on enhanced data integration and 
 
 Ahrefs released six significant product updates in January 2025, with major enhancements to Web Analytics, Site Explorer, Rank Tracker, and project management features.
 
-### Web Analytics EnhancementsThree powerful additions provide deeper insights into website visitors and traffic sources. First, **Google Search Console data integration** allows filtering by "source is Google" to identify keywords actually generating clicks in the traffic sources section. Second, the **locations report** now shows visitors' browser languages, enabling content strategy adjustments for different language audiences. Third, **page HTML history** is now accessible directly within Web Analytics via Page Inspect, eliminating the need to switch tools.
+### Web Analytics Enhancements
 
-### Site Explorer ImprovementsThe organic keywords report now features a **position chart** showing keyword distribution by position over time. This visualization helps track keyword movements across popular ranking groups (like top 3, top 10). While previously available in overview, this chart now includes all filtering capabilities for more granular data slicing.
+Three powerful additions provide deeper insights into website visitors and traffic sources. First, **Google Search Console data integration** allows filtering by "source is Google" to identify keywords actually generating clicks in the traffic sources section. Second, the **locations report** now shows visitors' browser languages, enabling content strategy adjustments for different language audiences. Third, **page HTML history** is now accessible directly within Web Analytics via Page Inspect, eliminating the need to switch tools.
 
-### Rank Tracker AdditionsNew **share of voice and share of traffic value metrics** with accompanying charts appear in both the overview dashboard and competitors' overview. These tools help measure brand popularity and visibility for tracked keywords across organic search results.
+### Site Explorer Improvements
 
-### GSC Overview Report FeaturesTwo new charts enhance the Google Search Console overview report. A **keywords history chart with position groups** tracks performance across different ranking tiers—a feature not available in Google Search Console itself. Additionally, a **page history chart** shows how published pages have evolved over time, allowing cross-referencing with performance metrics.
+The organic keywords report now features a **position chart** showing keyword distribution by position over time. This visualization helps track keyword movements across popular ranking groups (like top 3, top 10). While previously available in overview, this chart now includes all filtering capabilities for more granular data slicing.
 
-### Project Management UpdatesUsers can now **purchase Project Boost add-ons** for all verified projects, including those on the free Ahrefs Webmaster Tools plan. Applying a boost grants one month of historical data and unlocks all reports in Site Explorer for that project. This enables Starter and Light plan users to access advanced reports like Page Inspect, Site Structure, Calendar, and Broken Backlinks.
+### Rank Tracker Additions
+
+New **share of voice and share of traffic value metrics** with accompanying charts appear in both the overview dashboard and competitors' overview. These tools help measure brand popularity and visibility for tracked keywords across organic search results.
+
+### GSC Overview Report Features
+
+Two new charts enhance the Google Search Console overview report. A **keywords history chart with position groups** tracks performance across different ranking tiers—a feature not available in Google Search Console itself. Additionally, a **page history chart** shows how published pages have evolved over time, allowing cross-referencing with performance metrics.
+
+### Project Management Updates
+
+Users can now **purchase Project Boost add-ons** for all verified projects, including those on the free Ahrefs Webmaster Tools plan. Applying a boost grants one month of historical data and unlocks all reports in Site Explorer for that project. This enables Starter and Light plan users to access advanced reports like Page Inspect, Site Structure, Calendar, and Broken Backlinks.
 
 ## Context
 

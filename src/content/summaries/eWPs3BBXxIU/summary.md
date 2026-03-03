@@ -4,7 +4,6 @@ metadata:
   title: "Claude Code's New Auto-Memory Feature Is HUGE"
   description: "Claude Code v2.1.59 is here with significant updates for every developer. The new Auto-Memory feature helps with software development by automatically saving useful context across sessions, making your ai tools for developers even smarter. Plus, enjoy quality of life upgrades like the new /copy command and smarter always-allow prefixes, enhancing your coding tools and overall workflow.
 
-
     🔥 What's in this update:
 
     • Auto-memory — Claude saves project patterns, debugging insights, and preferences automatically
@@ -23,12 +22,9 @@ metadata:
 
     • Multi-agent memory optimization — subagent state properly released
 
-
     Learn Agentic Coding with Dynamous AI - Daily Events and Workshops (https://dynamous.ai/?code=646a60) - 10% off with our link: https://shorturl.smartcode.diy/dynamous_ai_10_percent_discount
 
-
     ---
-
 
     Chapters
 
@@ -42,12 +38,9 @@ metadata:
 
     1:08 Update Now
 
-
     ---
 
-
     🛠 Key Details
-
 
     Auto-Memory (v2.1.59):
 
@@ -57,7 +50,6 @@ metadata:
 
     - New /memory command gives full control to review, edit, and remove saved entries
 
-
     Developer Experience:
 
     - /copy — shows interactive picker when code blocks are present, select individual blocks or full response
@@ -65,7 +57,6 @@ metadata:
     - Compound bash commands (e.g. cd /tmp && git fetch && git push) now get smarter per-subcommand \"always allow\" prefixes
 
     - Improved ordering of short task lists
-
 
     Bug Fixes & Reliability:
 
@@ -77,9 +68,7 @@ metadata:
 
     - Multi-agent sessions release completed subagent task state — improved memory usage
 
-
     ---
-
 
     🔗 Resources
 
@@ -91,15 +80,11 @@ metadata:
 
     - Upgrade command: claude update
 
-
     ---
-
 
     💬 Auto-memory is a game changer — but do you trust AI to decide what's worth remembering? Drop your take below.
 
-
     ---
-
 
     #ClaudeCode #AnthropicAI #AITools #DeveloperTools #ClaudeAI #AIAssistant #CodingWithAI #AgenticCoding #ClaudeCodeUpdate #AutoMemory #SoftwareDevelopment"
   channel: "DIY Smart Code"
@@ -158,7 +143,9 @@ Claude Code released version 2.1.59, introducing five new features and two bug f
 
 Users gain full control over this new memory system with the **`/memory` command**, allowing them to review and manage everything Claude remembers. This ensures transparency and gives developers the ability to fine-tune the persisted context.
 
-### Quality of Life UpgradesThree significant quality of life upgrades were also included in this release:
+### Quality of Life Upgrades
+
+Three significant quality of life upgrades were also included in this release:
 
 *   **`/copy` command**: This interactive picker allows users to select and copy individual code blocks or the entire response from Claude, offering more granular control over output.
 

@@ -69,6 +69,7 @@ Script SDK and harvesting admin credentials.
 ## Summary
 
 ### The Discovery of Codeback
+
 Researchers from the security firm **Wiz** identified a critical vulnerability within the **AWS Code
 
 Build** webhook system, which they named **Codeback**. The flaw resided in the mechanism used to verify Git
@@ -80,9 +81,11 @@ Build utilizes an **actor ID filter**, which acts as an allow-list of approved G
 Hub user IDs. Only events triggered by these specific IDs should be permitted to initiate a build process.
 
 ### The Regex Failure
+
 The core of the issue was a fundamental error in **regular expression (regex)** implementation. The actor ID filter used an **unanchored regex**. In technical terms, 'unanchored' means the system was searching for the pattern anywhere within the string rather than requiring an exact match for the entire string. For instance, if the authorized ID was '1234', a malicious ID like '912345' would satisfy the filter because it contained the substring '1234'. By missing just two anchor characters (typically `^` and `$`), the filter became practically useless against determined attackers.
 
 ### Achieving the Eclipse Event
+
 The researchers coined the term **Eclipse event** to describe a scenario where a malicious user ID successfully overlaps with a trusted ID due to this loose regex logic. To exploit this, the Wiz team utilized automation to create new Git
 
 Hub users in large batches. They continued this process until they generated a user ID that triggered the substring match required to bypass the Code
@@ -90,6 +93,7 @@ Hub users in large batches. They continued this process until they generated a u
 Build security filter. This was essentially a brute-force approach to finding a collision within the unanchored pattern search.
 
 ### Impact and Remediation
+
 Once the filter was bypassed, the researchers were able to submit a **pull request (PR)** to the **AWS Java
 
 Script SDK** library. This action allowed them to execute code within the build environment to retrieve the Git

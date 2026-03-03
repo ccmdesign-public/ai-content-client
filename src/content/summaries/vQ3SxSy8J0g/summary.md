@@ -12,12 +12,9 @@ metadata:
 
     HoldCo Bros are back! In this episode, @NikonomicsPodcast  and I reconnect after he spent four months deep in the AI world building agents with OpenClaw and testing Claude Opus 4.6 inside a real public company. We react to the viral “what are you building?” tweet and break down why corporate America is way further behind on AI than people think.
 
-
     Nik shares why he believes working inside a company right now might be the smartest move for ambitious entrepreneurs, how to spot AI consulting opportunities, and why cleaning company data and recording meetings could be massive unlocks. We also talk through building custom AI tools, cold outreach to executives, and where the real money is in this wave. If you want practical ways to profit from AI, this one’s packed.
 
-
     Learn more about Nik here: ⁠⁠⁠⁠⁠https://www.nikonomicspod.com/
-
 
     Enjoy!
 
@@ -25,12 +22,9 @@ metadata:
 
     Disclosure: Beehiiv is a sponsor of this video, and I am also an investor in the company. This means I may benefit financially from their success. All opinions are my own, and I only promote products I genuinely use and believe in.
 
-
     This video is for educational and entertainment purposes only. It does not constitute financial, business, or legal advice. Any business examples, tools, or strategies shown are for demonstration only and may not produce the same results for you. We do not guarantee earnings, outcomes, or success. Always conduct your own due diligence, comply with applicable laws, and use these ideas responsibly.
 
-
     We do not encourage duplication of copyrighted material or existing business assets. Always ensure your use complies with copyright and intellectual-property laws.
-
 
     Some links may be affiliate links, meaning I may earn a commission at no extra cost to you.
 
@@ -118,20 +112,27 @@ Nick shares insights from a month of deep immersion in AI agents and corporate c
 
 ## Summary
 
-### The State of Corporate AI AdoptionNick begins by debunking the common perception from social media that AI is ubiquitous. He presents a mental model where 80% of the global population has never interacted with AI, 10% have used a free chatbot, and only a tiny fraction are power users or builders. His experience re-entering the corporate world revealed that executive teams are largely unaware of AI's practical capabilities, viewing it as a novelty rather than a transformative tool. This creates a 'magician' effect for anyone who can demonstrate basic AI workflows, as they appear to be from the future compared to their peers.
+### The State of Corporate AI Adoption
+
+Nick begins by debunking the common perception from social media that AI is ubiquitous. He presents a mental model where 80% of the global population has never interacted with AI, 10% have used a free chatbot, and only a tiny fraction are power users or builders. His experience re-entering the corporate world revealed that executive teams are largely unaware of AI's practical capabilities, viewing it as a novelty rather than a transformative tool. This creates a 'magician' effect for anyone who can demonstrate basic AI workflows, as they appear to be from the future compared to their peers.
 
 He uses the analogy of electricity's early days, where people initially saw it only for lighting, to argue we are in a similar nascent phase with AI. The key is to start using AI as a 'rapid testing vehicle' to explore use cases, much like using a versatile printer to prototype products and discover market demand.
 
-### A Framework for Monetizing AI NowNick's core argument is that the immediate fortune lies not in building the next killer AI app, but in solving boring, expensive corporate problems. He advises against the 'vibe coding' mentality criticized online and instead recommends a pragmatic approach: get a job at a company, identify their inefficiencies (like preparing for quarterly earnings calls), and build simple, custom tools to automate those processes.
+### A Framework for Monetizing AI Now
+
+Nick's core argument is that the immediate fortune lies not in building the next killer AI app, but in solving boring, expensive corporate problems. He advises against the 'vibe coding' mentality criticized online and instead recommends a pragmatic approach: get a job at a company, identify their inefficiencies (like preparing for quarterly earnings calls), and build simple, custom tools to automate those processes.
 
 He demonstrates this by showing a tool he built in 12 hours that automates the creation of first drafts for earnings call scripts by scraping and analyzing past SEC filings (10Ks, 10Qs). This saves executives dozens of hours per quarter. The lesson is to find high-leverage, repetitive tasks that consume expensive human time and build a focused AI solution.
 
 ### The Power of Personal AI Agents with OpenClaw
+
 A significant portion of the discussion focuses on Nick's implementation of **OpenClaw**, a locally-hosted AI agent framework he calls 'Gary.' He details how he fed it all his personal data—emails, texts, chat histories, meeting transcripts—and structured it using a clear taxonomy. This transformed Gary from a simple chatbot into a persistent second brain with long-term memory.
 
 Gary can now remind him of commitments, prepare for meetings by recalling past conversations, and preemptively generate work products like spreadsheets. Nick emphasizes that the magic isn't in the agent itself, but in the **clean, structured data** it accesses. He stresses that **Retrieval-Augmented Generation (RAG)** and organizing data for semantic search are the critical, unsexy foundations that enable powerful AI applications.
 
-### Practical Steps and the Coming WaveNick outlines clear, actionable paths to monetization: become a 'fractional AI officer' for companies, offering weekly updates and implementation; build custom, vibecoded tools for specific business workflows; or specialize in 'data fracking'—unlocking and making sense of a company's proprietary, messy data silos with an AI-powered interface.
+### Practical Steps and the Coming Wave
+
+Nick outlines clear, actionable paths to monetization: become a 'fractional AI officer' for companies, offering weekly updates and implementation; build custom, vibecoded tools for specific business workflows; or specialize in 'data fracking'—unlocking and making sense of a company's proprietary, messy data silos with an AI-powered interface.
 
 He warns that the arbitrage opportunity is temporary. Right now, using AI for targeted cold outreach or internal efficiency gives a huge edge, but as adoption spreads, these channels will become saturated. The time to act is now, by learning the tools, identifying organizational pain points, and positioning oneself as the guide who can bridge the gap between the cutting-edge AI world and the lagging corporate reality.
 

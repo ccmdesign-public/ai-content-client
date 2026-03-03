@@ -12,7 +12,6 @@ metadata:
 
     Thanksgiving is a good time to ask (and answer) the hard questions.
 
-
     In this video, I share the inside scoop on how to navigate AI skepticism at the table:
 
     • Why moral foundations shape every AI objection
@@ -23,9 +22,7 @@ metadata:
 
     • Where LLM “beta” expectations derail real discussions
 
-
     The takeaway: operators who engage relatives with curiosity-first framing create far better conversations than those who argue facts alone.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -77,12 +74,15 @@ The core message is that AI is democratizing high-quality education by removing 
 The traditional education system is built on a foundation of **scarcity**, where high-quality, one-on-one personalized attention is a premium service accessible only to the wealthy. Nate B. Jones argues that we are currently on the threshold of a paradigm shift where AI tutors will transform education into an **abundant resource**. This transition ensures that every child, regardless of socioeconomic status, can have access to a personalized tutor that provides the level of attention previously reserved for the elite.
 
 ### The Beta Tester Framework
+
 One of the primary barriers to accepting this future is the tendency of observers to judge AI by its current flaws. Jones introduces the **Beta Tester Framework** to provide perspective on technological growth. He compares the current state of AI—marked by glitches, slow responses, and **hallucinations**—to the **1994 dial-up modem** era of the internet. Just as it would have been a mistake to dismiss the internet's potential because it was slow and prone to cutting out in the mid-90s, it is a mistake to view today's AI models as the final version of the technology.
 
 ### Overcoming Outdated Skepticism
+
 Many skeptics base their arguments on experiences with older models, such as the initial versions of ChatGPT. However, the technology is evolving at an unprecedented pace. The video emphasizes that most people making claims about AI's limitations have not interacted with the latest advancements, such as **Gemini 3** or newer, high-performance models. 
 
 ### The Path to Maturity
+
 To understand where education is going, one must realize that AI is not "stuck in beta." Instead, it is an infrastructure in constant evolution. Key points regarding this growth include:
 
 - **Continuous Refinement**: Models are being updated constantly to reduce errors.

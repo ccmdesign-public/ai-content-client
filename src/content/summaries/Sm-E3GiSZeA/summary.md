@@ -10,11 +10,9 @@ metadata:
 
     _______________________
 
-
     Nano Banana is blowing my mind.\ 
 
     The story for years has been that AI images are toys — not anymore.
-
 
     In this video, I share the inside scoop on AI-native visual thinking becoming practical at work:
 
@@ -25,7 +23,6 @@ metadata:
     • What new automation paths open when agents can generate visuals
 
     • Where prompt engineering shifts toward structured, multi-constraint inputs
-
 
     Chapters:
 
@@ -43,10 +40,7 @@ metadata:
 
     15:37 The Future of Visual Reasoning
 
-
-
     When AI can output finished, executive-ready artifacts, operators and teams gain leverage — but the bar for clarity and intent rises fast.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -115,12 +109,15 @@ Nano Banana Pro represents a shift from AI generating simple images to producing
 Nano Banana Pro is a new visual reasoning model from Google that moves beyond the limitations of traditional diffusion models. It functions as a combined layout engine, typography tool, and data visualization platform, allowing users to create finished visual products in a single pass. Unlike previous image generators, this model understands **grid systems, margins, and type hierarchy**, making it capable of producing editorial spreads, technical blueprints, and UI dashboards that were previously impossible.
 
 ### Core Functional Engines
+
 The video identifies several "engines" driving the model's performance. The **Layout Engine** manages structural elements like columns and spacing, while the **Diagram Engine** can take structured text—such as an academic paper—and visualize concepts accurately. The **Data Visualization Engine** is a significant breakthrough for business users; it can ingest raw financial data and output accurate, formatted charts and infographics. Finally, the **Style Engine** allows for consistent visual universes, ranging from Lego-themed diagrams to retro sci-fi blueprints, while maintaining the semantic integrity of the information.
 
 ### Professional Use-Cases and Impact
+
 The model allows for the automation of high-stakes visual communication. Examples demonstrated include converting a Google earnings report PDF into a fully readable infographic and creating architectural cutaways of the Space Needle. For organizations, this means **collapsing design bottlenecks**. While high-end designers remain essential for creative strategy, Nano Banana Pro handles the "interoffice work" and quick client sketches that typically drain design bandwidth.
 
 ### Advanced Prompting Techniques
+
 To get the best results, users should adopt **block-structured prompting**. This involves clearly defining the task, the style, the layout, and specific components.
 
 - **Work Surface Definition**: Explicitly state the format, such as a "left-to-right architecture diagram."
@@ -129,6 +126,7 @@ To get the best results, users should adopt **block-structured prompting**. This
 - **Negative Constraints**: Use instructions like "do not overlap labels" or "keep even spacing" to stabilize the output.
 
 ### The Future of Visual Thinking
+
 This technology democratizes **visual thinking**, allowing non-designers to communicate complex ideas through sophisticated visuals. It transitions AI from a "helpful assistant" generating drafts to an output generator capable of producing 4K, client-ready artifacts. Because it is accessible via API, it also opens the door for AI agents to autonomously generate dashboards and visual summaries as part of a machine-native workflow.
 
 ## Context

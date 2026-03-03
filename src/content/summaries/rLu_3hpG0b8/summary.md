@@ -18,7 +18,6 @@ metadata:
 
     👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
 
-
     [Must Watch]:
 
     Gemini 3.0 Flash: Google's Greatest Model Ever? Most Powerful, Cheapest, & Fastest Model! (Tested): https://www.youtube.com/watch?v=izXjYxKTI_k&pp=2AYB
@@ -26,7 +25,6 @@ metadata:
     Google NotebookLM Is INSANELY GOOD! Deep Research UPDATE!: https://www.youtube.com/watch?v=1nPspomVwNM
 
     Neo: AI Web Browser Can DO ANYTHING & Automate Your Life! Chrome Killer?: https://www.youtube.com/watch?v=ztUwEI0oksY
-
 
     📌 LINKS & RESOURCES
 
@@ -37,7 +35,6 @@ metadata:
     Gemini CLI: https://geminicli.com/
 
     Conductor Extension: https://geminicli.com/extensions/?name=gemini-cli-extensionsconductor
-
 
     Learn how to:
 
@@ -51,14 +48,11 @@ metadata:
 
     Keep your team’s workflow consistent and scalable 👥
 
-
     Don’t miss this tutorial if you want to level up your AI coding game with Google’s Conductor!
-
 
     Hashtags:
 
     #GeminiConductor #GoogleAI #ContextDrivenDevelopment #AIProductivity #AICoding #SpecDrivenDevelopment #GeminiCLI #AIWorkflow #BrownfieldProjects #CodingWithAI #TechTutorial #DeveloperTools #AIForDevelopers #AgenticDevelopment
-
 
     Tags (comma-separated):
 
@@ -137,16 +131,19 @@ Gemini Conductor introduces a structured, context-driven approach to AI developm
 ## Summary
 
 ### The Shift from Vibe Coding to Spec-Driven Development
+
 Gemini Conductor represents a significant advancement in AI-assisted programming by moving away from 'vibe coding'—a term for unstructured, trial-and-error prompting. Instead, it utilizes **context engineering** frameworks similar to BMAD or Open
 
 Spec. By breaking down development into conceptual requirements and execution steps, Conductor ensures that the AI understands the 'why' and 'how' of a project before writing a single line of code. This method leverages Gemini’s massive context window more effectively, resulting in fewer errors and more coherent software architecture.
 
 ### Core Functionality and Setup
+
 The framework is accessed via the **Gemini CLI**, a command-line interface for Google’s Gemini models. Installation is straightforward using NPM, followed by the specific Conductor extension. Once installed, the primary workflow begins with the `/conductor setup` command. This interactive process guides the user through defining the project directory, the product’s primary purpose, and specific technical constraints. 
 
 Conductor creates and maintains a **Product Markdown (MD)** file and technical guidelines. These files act as the 'single source of truth' for the project. For teams, this ensures that every AI-generated contribution adheres to the same tech stack, styling preferences, and workflow standards, making the output feel like it was written by a single, cohesive unit.
 
 ### Managing Features and Implementation
+
 One of the most powerful features of Conductor is its 'tracking' system. When a developer needs to add a new feature or fix a bug, they use the `/conductor new-track` command. This initiates a dialogue with the AI to refine the technical specifications and actionable to-do lists.
 
 * **Track Refinement**: The AI drafts a detailed plan, which the user can modify or approve.
@@ -156,6 +153,7 @@ One of the most powerful features of Conductor is its 'tracking' system. When a 
 * **Status and Reversion**: Developers can check progress with `/conductor status` or revert to previous checkpoints if the generation deviates from the desired path.
 
 ### Real-World Application and Benefits
+
 The video demonstrates Conductor refactoring a React login form. Instead of simple 'prop drilling,' the AI, guided by Conductor’s structured context, implemented modern **React Context API** for state management and added animations and authentication logic seamlessly. Because the context is persistent, the tool saves tokens and time by not requiring the user to re-explain the project architecture in every session. It is particularly useful for **brownfield projects**, where AI tools typically struggle to understand established legacy code and architectural nuances.
 
 ## Context

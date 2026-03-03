@@ -4,9 +4,7 @@ metadata:
   title: "AI Search: Make Your Brand the #1 Choice (Copy These SEO Methods)"
   description: "This video is sponsored by Semrush. Claim your Exclusive Trial for Semrush One  👉 https://semrush.sjv.io/c/3406118/3406118/13053\ 
 
-
     AI search is not the future. It is now. AI Search is already deciding who gets recommended and who gets ignored. As brands or SEO or marketers, how to make your website impossible for AI to ignore? In this video, I’ll share how to use data and AI with 6 methods to make sure AI can't overlook your brand, where you can copy today. Let’s go!
-
 
     📌 *TIMESTAMPS*
 
@@ -28,21 +26,17 @@ metadata:
 
     17:28 Final Thoughts
 
-
     ⚡️ *JOIN MY GROWTH COMMUNITY*
 
     https://community.graceleung.com/
-
 
     📥 *JOIN FREE MY DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/
-
 
     📂 *RESOURCES MENTIONED IN THE VIDEO*
 
@@ -50,13 +44,11 @@ metadata:
 
     https://semrush.sjv.io/c/3406118/3406118/13053
 
-
     🔗 Perplexity AI\ 
 
     https://www.perplexity.ai/
 
     Feel free to use my discount code to get a $10 discount when upgrade to Perplexity Pro https://perplexity.ai/pro?referral_code=AM9DC8K5)
-
 
     👉 *WATCH THESE NEXT*\ 
 
@@ -64,24 +56,19 @@ metadata:
 
     https://youtu.be/ckCJWOHMEcc
 
-
     🎥 Google's AI Mode Changes Everything for SEO (The New Strategy)
 
     https://youtu.be/nIPqWLPJhAM
-
 
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *Connect with me on Social*
 
@@ -90,7 +77,6 @@ metadata:
     Instagram: https://www.instagram.com/graceleungyl\ 
 
     Twitter/X: https://twitter.com/graceleungyl\ 
-
 
     #aisearch #aiforseo #semrush"
   channel: "Grace Leung"
@@ -136,11 +122,17 @@ AI search optimization focuses on three core relationships with AI: content rele
 
 The video presents a comprehensive framework for optimizing a brand's presence in AI search engines, structured around three key relationships:
 
-### Make AI Love Your ContentThis involves ensuring your content is relevant and fresh. Methods include using **keyword gap analysis** in Semrush to identify opportunities competitors are ranking for, then using AI tools like Perplexity or Gemini to analyze top-ranked pages and generate optimization checklists. For new sites, the **keyword strategy builder** in Semrush helps map out topic clusters to establish topical authority, which trains AI to recognize your expertise.
+### Make AI Love Your Content
 
-### Make AI Trust Your BrandAI validates brand authority across platforms. The strategy involves analyzing **brand performance** in Semrush to see share of voice and sentiment across AI engines. You identify third-party publications and social channels (Reddit, YouTube, LinkedIn) where your brand is (or should be) mentioned. The goal is to build offsite signals through outreach, providing unique data or expert quotes to these sources.
+This involves ensuring your content is relevant and fresh. Methods include using **keyword gap analysis** in Semrush to identify opportunities competitors are ranking for, then using AI tools like Perplexity or Gemini to analyze top-ranked pages and generate optimization checklists. For new sites, the **keyword strategy builder** in Semrush helps map out topic clusters to establish topical authority, which trains AI to recognize your expertise.
 
-### Make AI Not Hate Your SiteTechnical SEO is critical for AI accessibility. A **site audit** in Semrush checks for AI-specific issues: ensuring robots.txt doesn't block AI bots (like Gemini), maintaining a flat site structure (crawl depth ≤3) for easier indexing, and implementing **schema markup** (FAQ, Article, Product) to help AI engines understand and extract content entities.
+### Make AI Trust Your Brand
+
+AI validates brand authority across platforms. The strategy involves analyzing **brand performance** in Semrush to see share of voice and sentiment across AI engines. You identify third-party publications and social channels (Reddit, YouTube, LinkedIn) where your brand is (or should be) mentioned. The goal is to build offsite signals through outreach, providing unique data or expert quotes to these sources.
+
+### Make AI Not Hate Your Site
+
+Technical SEO is critical for AI accessibility. A **site audit** in Semrush checks for AI-specific issues: ensuring robots.txt doesn't block AI bots (like Gemini), maintaining a flat site structure (crawl depth ≤3) for easier indexing, and implementing **schema markup** (FAQ, Article, Product) to help AI engines understand and extract content entities.
 
 Throughout, the presenter emphasizes a **data-first, AI-second** approach, using tools to gather insights (Semrush for data, Gemini/NotebookLM for analysis) before creating or optimizing content. The core principle is to be genuinely helpful to your audience, as visibility is a byproduct of being a trustworthy source.
 

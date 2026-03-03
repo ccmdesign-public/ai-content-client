@@ -4,9 +4,7 @@ metadata:
   title: "NotebookLM is becoming the Most Essential AI Tool (7 Use Cases to Try!)"
   description: "Download the “The AI Toolkit I Use Every Week” here 👉 https://clickhubspot.com/bb2356
 
-
     Google NotebookLM has always been my favorite AI tool, and now it's become something much more powerful, more than just a simple AI research tool. We're talking presentation slides, infographics, videos, data tables… all from your research. In this video, I'll show you 7 powerful use cases of NotebookLM, from deep research to ready-to-share outputs that you shouldn’t miss!\ 
-
 
     📌 *TIMESTAMPS*
 
@@ -28,11 +26,9 @@ metadata:
 
     17:42 Go Deeper: Build Content System with NotebookLM\ 
 
-
     ⚡️ *WORKSHOP: Build Content System with NotebookLM*
 
     https://community.graceleung.com/c/videos/build-a-content-system-with-notebooklm
-
 
     JOIN THE GROWTH COMMUNITY*
 
@@ -40,16 +36,13 @@ metadata:
 
     https://community.graceleung.com/
 
-
     📥 *JOIN FREE MY DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/
-
 
     👉 *WATCH THESE NEXT*\ 
 
@@ -57,24 +50,19 @@ metadata:
 
     https://youtu.be/ZbeWyaWUq4M\ 
 
-
     🎥 30 FREE Things You won't believe Google AI Could Do (Gemini, NotebookLM, AI Studio, AI Mode, Opal)
 
     https://youtu.be/2aHIb2vrkuQ\ 
-
 
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *Connect with me on Social*
 
@@ -144,15 +132,25 @@ NotebookLM transforms scattered information into professional content and action
 
 NotebookLM is evolving from a research tool into a comprehensive content creation system. The video demonstrates seven practical use cases that leverage its core ability to ingest and synthesize up to 50 sources across formats (PDFs, websites, Google Docs, images, YouTube links) with minimal hallucination.
 
-### Research & Strategic PlanningYou can start research from scratch using its built-in tools or by importing sources. Key strategies include asking it to **propose critical questions** to challenge your thinking and performing **gap analysis** on your source materials. This helps distill priorities and identify missing perspectives before content creation.
+### Research & Strategic Planning
 
-### Professional Content GenerationThe **Studio panel** is where sources become outputs. For presentations, create a **slide deck specification** note as a reusable playbook for audience, structure, and style. The tool generates high-quality slides with strong storytelling, powered by an advanced image model. For project management, you can synthesize scattered client files into **project overviews, launch roadmap infographics, and SOP documents**, all exportable to Google Docs.
+You can start research from scratch using its built-in tools or by importing sources. Key strategies include asking it to **propose critical questions** to challenge your thinking and performing **gap analysis** on your source materials. This helps distill priorities and identify missing perspectives before content creation.
 
-### Learning & TrainingNotebookLM accelerates learning by generating **mind maps** for visual overviews and **podcast-style audio** summaries that you can listen to on its mobile app. For team training, it can build entire **workshop packages** from documentation, including video lessons, slide decks, and functional quizzes—all from the same source materials.
+### Professional Content Generation
 
-### Competitive Analysis & Data WorkflowsFor competitive research, you can bulk-import competitor website URLs. NotebookLM can transform this unstructured data into a clean **data table** (e.g., tool name, value proposition) exportable to Google Sheets. You can then re-import that sheet to generate **comparative landscape infographics** that reveal patterns and gaps at a glance.
+The **Studio panel** is where sources become outputs. For presentations, create a **slide deck specification** note as a reusable playbook for audience, structure, and style. The tool generates high-quality slides with strong storytelling, powered by an advanced image model. For project management, you can synthesize scattered client files into **project overviews, launch roadmap infographics, and SOP documents**, all exportable to Google Docs.
 
-### Advanced Integration with GeminiThe most powerful workflow combines NotebookLM with **Gemini**. You can import an entire notebook into Gemini and prompt it to build **interactive applications** like landing pages or dashboards. This leverages Gemini's strength in front-end UX design to give your researched content a beautiful, interactive body.
+### Learning & Training
+
+NotebookLM accelerates learning by generating **mind maps** for visual overviews and **podcast-style audio** summaries that you can listen to on its mobile app. For team training, it can build entire **workshop packages** from documentation, including video lessons, slide decks, and functional quizzes—all from the same source materials.
+
+### Competitive Analysis & Data Workflows
+
+For competitive research, you can bulk-import competitor website URLs. NotebookLM can transform this unstructured data into a clean **data table** (e.g., tool name, value proposition) exportable to Google Sheets. You can then re-import that sheet to generate **comparative landscape infographics** that reveal patterns and gaps at a glance.
+
+### Advanced Integration with Gemini
+
+The most powerful workflow combines NotebookLM with **Gemini**. You can import an entire notebook into Gemini and prompt it to build **interactive applications** like landing pages or dashboards. This leverages Gemini's strength in front-end UX design to give your researched content a beautiful, interactive body.
 
 ## Context
 

@@ -6,24 +6,17 @@ metadata:
 
     5 protein-packed breakfasts, powders that actually taste good, and a printable protein food list - all in one place!
 
-
     This rich, creamy chocolate cottage cheese mousse is a delicious, high-protein dessert that's low in sugar and low in calories. Made with just a handful of simple, wholesome ingredients (including cottage cheese for that silky, high-protein base), it comes together in minutes and satisfies any chocolate craving.
-
 
     Perfect for a healthy dessert, an afternoon treat, or a post-dinner sweet that fits into your clean-eating lifestyle. You’ll never believe this dreamy, high-protein mousse is actually good for you!
 
-
     As a 50-year-old health, weight-loss, and eating psychology coach who loves to eat, I’m all about helping you make healthy eating easy while building a mindset and lifestyle that aligns with your goals.\ 
-
 
     👉🏻 Sign up for my emails (& never miss a recipe or inside tip!): https://cleananddelicious.ck.page/weeklynewsletter
 
-
     🖨️ Print the Recipe HERE: https://cleananddelicious.com/double-chocolate-cottage-cheese-mousse/
 
-
     📚 Order my Clean & Delicious Cookbook: https://amzn.to/3oxfBMS
-
 
     🍲 Favorite Foods & Kitchen Tools:
 
@@ -37,7 +30,6 @@ metadata:
 
     Lily's Chocolate Chips: https://amzn.to/4a5t6IV
 
-
     💛 Let's Connect:
 
     Website: https://cleananddelicious.com/
@@ -49,7 +41,6 @@ metadata:
     Pinterest:  https://www.pinterest.com/danispies/
 
     Twitter:  https://twitter.com/DaniSpies
-
 
     Timestamp
 
@@ -69,8 +60,6 @@ metadata:
 
     7:46 Enjoy!
 
-
-
     HIGH-PROTEIN DOUBLE CHOCOLATE COTTAGE CHEESE MOUSSE
 
     1 cup + 2 tablespoons (250 g) cottage cheese (full-fat or low-fat)
@@ -81,32 +70,25 @@ metadata:
 
     2 tablespoons (30 g) chocolate chips (I use Lily’s low-sugar chips)
 
-
     Optional toppings:
 
     Toppings: Greek yogurt, whipped cream, shaved chocolate, cacao nibs, or mini chocolate chips!
-
 
     INSTRUCTIONS:
 
     Add the cottage cheese, cocoa powder, and vanilla extract to a food processor or high-speed blender. Blend everything, scraping down the sides as needed, until the mixture is silky smooth.
 
-
     Melt chocolate in the microwave in 20-second increments, stirring in between to ensure it doesn’t burn (it’s ok to remove when there’s a bit of unmelted chocolate left, stir it, and the residual heat will finish the melting without burning).
-
 
     Add the melted chocolate to the food processor (or blender) and blend again until combined.
 
     Divide between two 4-ounce mason jars, pop on the lids, and refrigerate for at least 1 hour.
 
-
     Serve with a dollop of Greek yogurt and some shaved chocolate or mini chips and enjoy!
-
 
     Makes 2 servings | Nutrition Per Serving:
 
     Calories: 211 | Carbohydrates: 20g | Protein: 18g | Fat: 12g | Fiber: 8g | Sugar: 4g
-
 
     Disclaimer: Product links may include affiliate links.
 
@@ -163,12 +145,15 @@ This recipe transforms cottage cheese into a decadent, high-protein dessert that
 ## Summary
 
 ### The Foundation of Cottage Cheese Mousse
+
 Danny Spees demonstrates how to create a rich, double-chocolate mousse using **cottage cheese** as a high-protein substitute for traditional heavy cream or egg bases. The recipe is designed to be accessible and focuses on four main ingredients: 250g (1 cup plus 2 tablespoons) of cottage cheese, 1.5 tablespoons of cocoa powder, a splash of vanilla extract, and melted chocolate chips.
 
 ### Choosing Your Ingredients
+
 The choice of cottage cheese significantly impacts the final product. Using **full-fat cottage cheese** results in a texture similar to a thick ganache or traditional mousse, making it ideal for holidays or special occasions. Conversely, **low-fat cottage cheese** yields a lighter, pudding-like consistency suitable for everyday snacks. For those monitoring sugar intake, using **sugar-free chocolate chips** (such as Lily's brand) keeps the glycemic load low. If a sweeter profile is desired, 1-2 tablespoons of **maple syrup** or a few drops of stevia can be added during the blending process.
 
 ### Step-by-Step Preparation
+
 The process is designed for speed and simplicity:
 
 - **Melt the chocolate**: Microwave the chocolate chips for 20-30 seconds. Stop while they still hold some shape to avoid scorching, then stir until smooth.
@@ -180,6 +165,7 @@ The process is designed for speed and simplicity:
 - **Portion and Chill**: Transfer the mixture into 4-ounce mason jars. While it can be eaten immediately, chilling for **one to two hours** (or overnight) allows the mousse to firm up and develop a deeper flavor profile.
 
 ### Nutritional and Psychological Benefits
+
 Beyond the macronutrients, the video emphasizes the **psychology of eating**. Traditional desserts high in processed flour and sugar often trigger further cravings. This recipe leverages the **satiating power of protein** to leave the consumer feeling content and full, making it an effective tool for weight loss or fitness goals. To finish the dish, toppings like Greek yogurt, whipped cream, or **cacao nibs** add texture and visual appeal without significantly altering the nutritional profile.
 
 ## Context

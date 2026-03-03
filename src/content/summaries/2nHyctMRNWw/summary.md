@@ -18,7 +18,6 @@ metadata:
 
     Live debugging with Claude Code
 
-
     Stack: Next.js 16, React 19, Tailwind CSS 4, Google Gemini AI, SQLite, Claude Code
 
     🎁 WANT EARLY ACCESS TO RANKENSTEIN?
@@ -33,7 +32,6 @@ metadata:
 
     I'll add you to the early access list! 🚀
 
-
     RESOURCES & LINKS
 
     ► Join our Waitlist here: https://rankenstein.pro
@@ -44,7 +42,6 @@ metadata:
 
     https://www.skool.com/ai-marketing-hub
 
-
     👨‍💻 ABOUT ME:
 
     I'm Daniel, host of AI Marketing Hub - 2,000+ members learning AI tools for marketing. I create practical automation workflows you can implement today.
@@ -54,7 +51,6 @@ metadata:
     ► Tools We're Using/Discussing Today:
 
     [ Claude, Gemini, Firecrawl, DataforSEO, VS Code ]
-
 
     🛠️ TECH STACK:
 
@@ -71,7 +67,6 @@ metadata:
     Firecrawl: https://firecrawl.dev/
 
     DataForSEO: https://dataforseo.com/
-
 
     📝 WHAT RANKENSTEIN DOES:
 
@@ -93,7 +88,6 @@ metadata:
 
     ✅ Citation & source management
 
-
     🎯 WHO IS THIS FOR:
 
     Developers interested in AI tooling
@@ -106,7 +100,6 @@ metadata:
 
     Anyone curious about AI + code
 
-
     💬 LIVE CHAT RULES:
 
     Questions welcome - I'll answer as I code
@@ -117,7 +110,6 @@ metadata:
 
     Constructive feedback appreciated!
 
-
     ⚠️ DISCLAIMER:
 
     This is a development stream. Expect bugs, errors, and live problem-solving. That's the fun part!
@@ -127,7 +119,6 @@ metadata:
     👍 LIKE if you're learning something!
 
     💬 COMMENT what feature you want to see built!
-
 
     #LiveCoding #AITools #NextJS #SEOAutomation #Rankenstein #GeminiAI #WebDevelopment #IndieHacker #SaaS #ContentAutomation #AIMarketing #ReactJS #TailwindCSS #BuildInPublic #Day4"
   channel: "Agrici Daniel"
@@ -196,20 +187,33 @@ This video documents the iterative debugging and enhancement of a sophisticated 
 
 ## Summary
 
-### Introduction and System OverviewDaniel begins day four of developing Rankenstein Pro, describing it as 'the world's finest SEO optimized article creation system' with nearly a year of development history. The platform has evolved from an N8N workflow through nine major versions into its current form. The session focuses on debugging and UI improvements from where day three ended, specifically addressing issues in the article draft phase. Daniel introduces his custom 'Pro Agent' skill for Claude Code, which provides orchestrated three-layer architecture for managing complex development tasks with principles like 'fail fast, recover gracefully' and 'prefer simplicity over cleverness'.
+### Introduction and System Overview
 
-### SEO Article Generation Workflow DemonstrationThe system's comprehensive workflow is demonstrated using a community member's biohacking website. When selecting 'biohackers in 2026' from AI-suggested topics, the platform executes parallel processes: fetching SERP data from top Google results, analyzing competitor content, scanning the target website for relevant internal links, generating target keywords, and finding authoritative sources like government and educational websites. The research phase presents 'people also ask' questions derived from SERP data, competitor analysis, keyword suggestions avoiding conflicts, relevant internal links, and verified citations from sources like BMC and BBC.com. Daniel emphasizes the human review requirement before proceeding to ensure all elements are relevant and accurate.
+Daniel begins day four of developing Rankenstein Pro, describing it as 'the world's finest SEO optimized article creation system' with nearly a year of development history. The platform has evolved from an N8N workflow through nine major versions into its current form. The session focuses on debugging and UI improvements from where day three ended, specifically addressing issues in the article draft phase. Daniel introduces his custom 'Pro Agent' skill for Claude Code, which provides orchestrated three-layer architecture for managing complex development tasks with principles like 'fail fast, recover gracefully' and 'prefer simplicity over cleverness'.
 
-### Article Drafting and Multimedia IntegrationAfter research validation, the system generates a structured outline with H1/H2 headings. The drafting phase includes multimedia insertion capabilities: text blocks, tables, images, infographics (pie charts, radar charts, bar charts), and audio summaries with multiple voice options like Sharon, Puck, and Sulafat. However, several bugs are identified: duplicate loading screens, audio generation not appearing in the UI, overlapping UI elements, infinite loading states for chart generation, and improper color schemes that don't match brand guidelines. The article generation produces complete blog posts with images, tables, internal/external links, and citations following AI citation optimization principles.
+### SEO Article Generation Workflow Demonstration
 
-### Multi-Agent Debugging MethodologyDaniel employs a sophisticated debugging approach using 2-3 Claude Code agents simultaneously, each with specific responsibilities. One agent addresses UI issues with the insert button (changing colors from orange to blue, fixing alignment and padding), another investigates infinite loading bugs in chart generation, and a third works on preventing duplicate topic suggestions. He provides agents with screenshots, copied HTML elements, console logs, and detailed prompts describing problems and desired outcomes. The Pro Agent skill ensures proper orchestration between agents, with Daniel carefully managing their execution order to avoid conflicting builds.
+The system's comprehensive workflow is demonstrated using a community member's biohacking website. When selecting 'biohackers in 2026' from AI-suggested topics, the platform executes parallel processes: fetching SERP data from top Google results, analyzing competitor content, scanning the target website for relevant internal links, generating target keywords, and finding authoritative sources like government and educational websites. The research phase presents 'people also ask' questions derived from SERP data, competitor analysis, keyword suggestions avoiding conflicts, relevant internal links, and verified citations from sources like BMC and BBC.com. Daniel emphasizes the human review requirement before proceeding to ensure all elements are relevant and accurate.
+
+### Article Drafting and Multimedia Integration
+
+After research validation, the system generates a structured outline with H1/H2 headings. The drafting phase includes multimedia insertion capabilities: text blocks, tables, images, infographics (pie charts, radar charts, bar charts), and audio summaries with multiple voice options like Sharon, Puck, and Sulafat. However, several bugs are identified: duplicate loading screens, audio generation not appearing in the UI, overlapping UI elements, infinite loading states for chart generation, and improper color schemes that don't match brand guidelines. The article generation produces complete blog posts with images, tables, internal/external links, and citations following AI citation optimization principles.
+
+### Multi-Agent Debugging Methodology
+
+Daniel employs a sophisticated debugging approach using 2-3 Claude Code agents simultaneously, each with specific responsibilities. One agent addresses UI issues with the insert button (changing colors from orange to blue, fixing alignment and padding), another investigates infinite loading bugs in chart generation, and a third works on preventing duplicate topic suggestions. He provides agents with screenshots, copied HTML elements, console logs, and detailed prompts describing problems and desired outcomes. The Pro Agent skill ensures proper orchestration between agents, with Daniel carefully managing their execution order to avoid conflicting builds.
 
 ### Context Management and Performance Optimization
+
 A significant portion discusses 'context rot' - the degradation of AI performance as conversation length increases. Daniel explains that when Claude Code's context window reaches 60-70% capacity, performance declines noticeably. He demonstrates two management strategies: clearing conversations entirely (losing context but ensuring fresh performance) or using the compact feature (summarizing conversation history while preserving some context). This careful management is crucial when agents work on complex, multi-step debugging tasks that could span hundreds of interactions.
 
-### Platform Architecture and DeploymentThe system runs on a local development server connected to Railway for hosting, with GitHub integration for version control. The current build process involves turbo pack for local development. Daniel plans to push updates to GitHub after fixing critical bugs, then deploy to the live Rankenstein Pro platform where beta testers from the marketing hub community are already using the system. The platform follows specific SEO optimization guidelines documented in 'the definitive playbook for AI citations optimization' to ensure generated content meets search engine requirements for ranking.
+### Platform Architecture and Deployment
 
-### Development Philosophy and Future DirectionDaniel emphasizes making AI-assisted development accessible to non-technical users through natural language interaction rather than terminal commands. He demonstrates how prompts like 'restart dev server' translate to appropriate bash commands. The session concludes with plans to implement a web application audit checklist for comprehensive quality assurance, continue fixing UI/UX issues, and eventually add features like chart data editing and custom color selection for generated infographics.
+The system runs on a local development server connected to Railway for hosting, with GitHub integration for version control. The current build process involves turbo pack for local development. Daniel plans to push updates to GitHub after fixing critical bugs, then deploy to the live Rankenstein Pro platform where beta testers from the marketing hub community are already using the system. The platform follows specific SEO optimization guidelines documented in 'the definitive playbook for AI citations optimization' to ensure generated content meets search engine requirements for ranking.
+
+### Development Philosophy and Future Direction
+
+Daniel emphasizes making AI-assisted development accessible to non-technical users through natural language interaction rather than terminal commands. He demonstrates how prompts like 'restart dev server' translate to appropriate bash commands. The session concludes with plans to implement a web application audit checklist for comprehensive quality assurance, continue fixing UI/UX issues, and eventually add features like chart data editing and custom color selection for generated infographics.
 
 ## Context
 

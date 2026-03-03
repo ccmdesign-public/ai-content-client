@@ -12,16 +12,13 @@ metadata:
 
     🛠️ Custom AI Solutions: https://go.gradientlabs.co/your-ai-assumptions-from-6-months-ago-are-already-wrong/custom
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://go.gradientlabs.co/your-ai-assumptions-from-6-months-ago-are-already-wrong/insights
 
-
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
-
 
     —
 
@@ -95,6 +92,7 @@ Three specific capabilities have recently crossed the **'not yet' to 'just works
 • **Handwriting Extraction**: Accuracy for extracting handwritten notes from photos has jumped from ~60% to near 100%, making it practical for medical forms, meeting notes, and documentation.
 
 ### Systematic Retesting Framework
+
 To avoid being **'too early'** (wasting time on unsolved problems) or **'too late'** (missing competitive advantages), implement this three-step system:
 
 1. **Create an AI Wish List**: Document tasks AI couldn't handle with three columns: Task, Date Tested, and Result. Store this in Google Docs, Apple Notes, or similar.

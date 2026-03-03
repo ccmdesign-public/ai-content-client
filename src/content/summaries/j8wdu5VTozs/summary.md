@@ -6,21 +6,17 @@ metadata:
 
     👉 https://www.skool.com/buildroom/
 
-
     Summary ⤵️
 
     Master Google's Vibe coding platform Antigravity with 8 tips that will transform how you build and ship AI projects. Learn how to set up trusted skills, slash setup time, and get predictable high-quality outputs every time.
-
 
     Get the AGENTS.md file FREE! 👇
 
     https://docs.google.com/document/d/1i4pyWhjXQekiHZGq8ipdR6cCPhS4B4WqtV4llGMhQi8/edit?usp=sharing
 
-
     Unlock your Money Mode:
 
     https://chatgpt.com/g/g-693c7932014c8191b272e9088a5e14d2-money-mode-ai
-
 
     In this tutorial, you'll discover:
 
@@ -38,7 +34,6 @@ metadata:
 
     ✓ Create a reusable template system for instant project setup
 
-
     My software, tools, & deals (some give me kickbacks—thank you!)
 
     🔥 Anthropic Skills Repo: https://github.com/anthropics/skills/tree/main/skills
@@ -53,7 +48,6 @@ metadata:
 
     🥔 Blotato: https://blotato.com/?ref=duncan
 
-
     💡 Connect with me:
 
     TikTok: https://www.tiktok.com/@duncanrogoff
@@ -61,7 +55,6 @@ metadata:
     Twitter: https://x.com/DuncanRogoff
 
     LinkedIn: https://www.linkedin.com/in/duncanrogoff/
-
 
     ⏱️ Video Timestamps:
 
@@ -171,9 +164,11 @@ Hub) to teach AI specific tasks without consuming tokens, ensuring predictable o
 ## Summary
 
 ### Installation and Initial Setup
+
 To begin, install anti-gravity from anti-gravity.google and use it within a local folder. The first critical step is creating an **agents.md file**, which acts as a blueprint for your projects. This file defines a **three-layer architecture**: the directive (what to do), orchestration (decision-making by anti-gravity), and execution (actual work files). It enables self-healing, where the system troubleshoots errors automatically, and sets up a standardized directory structure for temp files, scripts, and credentials.
 
 ### Skills for Predictable Processes
+
 **Skills** are powerful local files that teach anti-gravity specific tasks, like research or design, without using tokens. A great starting point is Anthropic's Git
 
 Hub repository, which includes skills for brand guidelines, docs, and front-end design. The **skill creator skill** is meta, helping you build new skills in a consistent format. For example, you can create a skill to draft Linked
@@ -181,9 +176,11 @@ Hub repository, which includes skills for brand guidelines, docs, and front-end 
 In posts in a specific style, and anti-gravity will follow the skill's instructions precisely for repeatable results.
 
 ### Templates and Advanced Features
+
 Create a **template folder** on your desktop containing the agents.md file and favorite skills. Duplicate this for new projects to skip setup time. **MCP servers** (Model Context Protocol) allow anti-gravity to connect to third-party tools; you can install them by pasting documentation into the agent. The **agent manager** lets you run multiple agents in parallel—e.g., one for research and another for design—boosting efficiency.
 
 ### Planning with Feedback
+
 When anti-gravity creates an implementation plan, you can **comment on any part** before execution. For instance, adjust brand colors or social media handles, and the system incorporates feedback. This ensures outputs align with your needs. As a bonus, anti-gravity integrates **Google's image generator, Nano Banana Pro**, for automated visual content creation.
 
 Overall, these hacks transform anti-gravity from a basic AI assistant into a systematic tool for high-quality, automated development workflows.

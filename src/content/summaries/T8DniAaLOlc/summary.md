@@ -12,16 +12,13 @@ metadata:
 
     🛠️ Custom AI Solutions: https://go.gradientlabs.co/stop-asking-is-chatgpt-safe-ask-this-instead/custom
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://go.gradientlabs.co/stop-asking-is-chatgpt-safe-ask-this-instead/insights
 
-
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
-
 
     —
 
@@ -89,7 +86,9 @@ The video presents a three-idea framework for evaluating AI privacy risks in bus
 
 The video challenges the common "is my data safe with AI?" question by arguing businesses should instead ask "what am I risking and is the trade-off worth it?" The presenter introduces a three-idea framework for evaluating AI privacy.
 
-### The Two Overlooked RisksMost businesses focus only on **leak risk**—concerns about employees sharing sensitive data with AI models. However, data is likely already being leaked as 25%+ of employees use personal AI accounts on personal devices, potentially allowing model providers to train on corporate data.
+### The Two Overlooked Risks
+
+Most businesses focus only on **leak risk**—concerns about employees sharing sensitive data with AI models. However, data is likely already being leaked as 25%+ of employees use personal AI accounts on personal devices, potentially allowing model providers to train on corporate data.
 
 The more critical risk is **gap risk**: when companies delay AI adoption due to privacy concerns, competitors who adopt early gain compounding advantages through three phases:
 1. Learning effective tool usage (prompt engineering, context management)
@@ -98,7 +97,9 @@ The more critical risk is **gap risk**: when companies delay AI adoption due to 
 
 This creates a sustained capability gap that's difficult to close.
 
-### The Four-Notch Exposure DialAI data exposure isn't binary but exists on a dial with four increasing levels:
+### The Four-Notch Exposure Dial
+
+AI data exposure isn't binary but exists on a dial with four increasing levels:
 
 **Notch 1: See Nothing**
 • Use temporary/incognito chat features (Gemini Temporary Chat, ChatGPT temporary chat, Claude ghost icon)
@@ -123,6 +124,7 @@ This creates a sustained capability gap that's difficult to close.
 • Most web interfaces only offer read access
 
 ### Traditional Risk Management Applied to AI
+
 AI risk isn't special—it follows the same four business risk management strategies:
 • **Avoid**: Banning AI entirely still exposes you to both leak and gap risks
 • **Mitigate**: Use the exposure dial, start with lower notches, build trust, use paid plans with better security, implement backups for write operations

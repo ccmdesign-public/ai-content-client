@@ -4,33 +4,23 @@ metadata:
   title: "AWS Solutions Architect Question of the Day | Question 24 of 65"
   description: "🔐 Who Holds the Keys? AWS KMS vs. CloudHSM!
 
-
     The Scenario: Your compliance team is laying down the law—they need \"Full Control\" over the encryption keys. This means the power to create, disable, and even schedule the destruction of keys, all while keeping a perfect paper trail.
-
 
     The Challenge: AWS has multiple ways to handle keys. Do you go with the fully managed ease of KMS, or do you need the heavy-duty isolation of CloudHSM? 🧐
 
-
     The Solution: Customer Managed Keys (CMKs) in AWS KMS 🎯
-
 
     - Customer Managed Keys (CMK): Unlike \"AWS Managed Keys,\" these give you the driver's seat. You control the key policies, rotation, and lifecycle (including scheduling deletion).
 
-
     - Auditability: Every single time a key is used to encrypt or decrypt, AWS CloudTrail logs it. Your compliance team gets a detailed report of who used which key and when.-\ 
-
 
     - The \"Full Control\" Secret: While CloudHSM offers dedicated hardware (FIPS 140-2 Level 3), for most \"Full Control\" exam questions that mention CloudTrail auditability and lifecycle management, KMS Customer Managed Keys are the scalable, cost-effective answer.
 
-
     The Big Takeaway: If the requirement is \"Full Control\" + \"CloudTrail Integration,\" think KMS Customer Managed Keys first! 🚀
-
 
     👆 Watch the full video to see why CloudHSM might be overkill (and more expensive) for this specific requirement!
 
-
     👉 Save this to crush your SAA-C03 security questions!
-
 
     #AWS #SolutionsArchitect #KMS #CloudSecurity #Encryption #CloudTrail #DataProtection #Compliance #AWSCertification #CyberSecurity #SAAC03 #TechTips #KodeKloud"
   channel: "KodeKloud"
@@ -79,6 +69,7 @@ Trail integration for audit, and meet AWS infrastructure storage requirements
 ## Summary
 
 ### Question Requirements Analysis
+
 The video analyzes a certification question where a company needs: (1) full control over encryption keys (create/disable/delete), (2) auditable key usage via AWS Cloud
 
 Trail, and (3) keys stored within AWS infrastructure (not on-premises).
@@ -104,6 +95,7 @@ Trail, and (3) keys stored within AWS infrastructure (not on-premises).
 Trail logs all API calls (encrypt/decrypt), and keys reside in AWS KMS infrastructure
 
 ### Key Management Service (KMS) Key Types
+
 AWS offers three KMS key types with varying control levels:
 
 - **AWS-owned keys**: Used across multiple accounts, invisible to users
@@ -113,6 +105,7 @@ AWS offers three KMS key types with varying control levels:
 - **Customer-managed keys**: Full customer control with policy configuration
 
 ### Practical Application
+
 The minimal viable solution for these requirements is **customer-managed keys** - they provide the necessary control without unnecessary complexity or cost of CloudHSM when advanced hardware security isn't mandated.
 
 ## Context

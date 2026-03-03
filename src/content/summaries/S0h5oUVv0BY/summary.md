@@ -8,12 +8,9 @@ metadata:
 
     📖 Complete user guide with prompting tips: https://higgsfield.ai/blog/cinema-studio-guide\ 
 
-
     Reid Hoffman, co-founder of LinkedIn and one of Silicon Valley's most legendary investors, sat down with Marina Mogilko a year ago — that episode hit 719K views. Now he's back, and his message is more urgent: we're only 5% into the AI revolution, and most people who think they're using AI aren't using it seriously enough. In this episode, Reid breaks down his 3-level framework for using AI (and why you're probably stuck on basic), the simplest way to double your income by becoming the AI person companies are desperate to hire, what the $300B market crash means for your career, and the one habit to build before February 2027 to not get left behind.
 
-
     📌Follow newsletter and grab FREE 300+ post ideas to stand out on Linkedin: https://siliconvalleygirl.beehiiv.com/reid-hoffman-300post-ideas?utm_source=youtube&utm_medium=video&utm_campaign=reid-hoffman-300posts&utm_content=description
-
 
     0:51 — Teaser
 
@@ -45,24 +42,19 @@ metadata:
 
     25:30 —  One thing to do before February 2027 to not fall behind
 
-
     Links:\ 
 
     🔗 My Instagram: https://www.instagram.com/siliconvalleygirl/\ 
 
-
     📌 My Companies & Products: https://Marinamogilko.co
 
-
     📹 Video brainstorming, research, and project planning - all in one place - https://partner.spotterstudio.com/ideas-with-marina\ 
-
 
     💻 Resources that helps my team and me grow the business:
 
     - Email & SMS Marketing Automation - https://your.omnisend.com/marina
 
     - AI app to work with docs and PDFs - https://www.chatpdf.com/?via=marina
-
 
     📱Develop your YouTube with AI apps:
 
@@ -72,19 +64,15 @@ metadata:
 
     - #1 AI video clipping tool - https://www.opus.pro/?via=7925d2
 
-
     💰 Investment Apps:
 
     - Top credit cards for free flights, hotels, and cash-back - https://www.cardonomics.com/i/marina
 
     - Intuitive platform for stocks, options, and ETFs - https://a.webull.com/Tfjov8wp37ijU849f8
 
-
     ⭐ Download my English language workbook - https://bit.ly/3hH7xFm
 
-
     I use affiliate links whenever possible (if you purchase items listed above using my affiliate links, I will get a bonus).
-
 
     #reidhoffman #podcast"
   channel: "Silicon Valley Girl"
@@ -151,11 +139,15 @@ LinkedIn co-founder Reid Hoffman explains why AI is transforming work faster tha
 
 Reid Hoffman, co-founder of LinkedIn and legendary tech investor, provides a sobering assessment of AI's impact on careers and businesses. He believes we're witnessing only the beginning (~5%) of what AI will ultimately transform, with everything done with digital bits today being completely different within 6-24 months.
 
-### The Coming TransformationHoffman predicts the end of individual contributing workers as we know them. Instead, everyone will deploy **teams of AI agents** working for them
+### The Coming Transformation
+
+Hoffman predicts the end of individual contributing workers as we know them. Instead, everyone will deploy **teams of AI agents** working for them
 
 - a reality that's "totally possible now." This isn't just about coding assistants but generalized reasoning capabilities that enable personalized services like AI travel agents who understand your specific interests.
 
-### Practical Adaptation StrategiesFor professionals worried about being left behind, Hoffman recommends:
+### Practical Adaptation Strategies
+
+For professionals worried about being left behind, Hoffman recommends:
 
 **Basic Level (Everyone should do this now):**
 - Move beyond simple text prompts to **voice interaction** - speaking is faster and more natural
@@ -187,7 +179,9 @@ Reid Hoffman, co-founder of LinkedIn and legendary tech investor, provides a sob
 
 - **Entrepreneurial Strategy**: When AI commoditizes your core offering (like test prep), refactor your business around **group experiences** or **personal brand** where AI solo experiences have limitations
 
-### Long-term PerspectiveHoffman estimates 60-70% of future inventions over the next 50-100 years will be **human-AI co-created**, with only about 5% being purely human-driven. The critical adaptation window is about **2 years**, and those who don't develop an "AI reflex" - consciously asking "how could AI help?" before every task
+### Long-term Perspective
+
+Hoffman estimates 60-70% of future inventions over the next 50-100 years will be **human-AI co-created**, with only about 5% being purely human-driven. The critical adaptation window is about **2 years**, and those who don't develop an "AI reflex" - consciously asking "how could AI help?" before every task
 
 - risk being left behind.
 

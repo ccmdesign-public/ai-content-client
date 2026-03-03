@@ -4,9 +4,7 @@ metadata:
   title: "MAID Runner x Claude Code: The Ultimate Workflow (Building an MCP Server)"
   description: "Master the MAID Runner methodology for AI-assisted development! This comprehensive tutorial demonstrates the complete MAID workflow using Claude Code - from exploration to parallel implementation.
 
-
     Learn how to structure AI-driven development with manifests, behavioral tests, and custom Claude Code sub-agents. I walk through each phase of the MAID methodology (Manifest → Behavioral Tests → Implementation) using a real project as demonstration.
-
 
     🎯 WHAT YOU'LL LEARN:
 
@@ -26,7 +24,6 @@ metadata:
 
     • Integration and validation patterns
 
-
     ⚙️ METHODOLOGY PHASES DEMONSTRATED:
 
     1. Spike - Explore and validate ideas
@@ -39,11 +36,9 @@ metadata:
 
     5. Integration - Combine completed tasks
 
-
     💡 DEMO PROJECT:
 
     I build a MAID Runner MCP server to demonstrate the methodology in action. The focus is on HOW to use MAID Runner, not what we're building.
-
 
     ⏱️ TIMESTAMPS:
 
@@ -77,18 +72,15 @@ metadata:
 
     15:33 Recap and Closing Remarks
 
-
     🔗 RESOURCES
 
     - MAID Runner: https://github.com/mamertofabian/maid-runner
 
     - MAID Runner MCP Server: https://github.com/mamertofabian/maid-runner-mcp
 
-
     💬 Questions? Drop them in the comments below!
 
     👍 Like and subscribe for more AI-assisted development tutorials!
-
 
     ---
 
@@ -103,7 +95,6 @@ metadata:
     💼 Codefrost: https://codefrost.com
 
     📅 Book a call: https://calendly.com/mamerto/30min
-
 
     #MAIDRunner #ClaudeCode #AIAssistedDevelopment #TDD #ManifestDriven #AIWorkflow #DeveloperTools"
   channel: "AI-Driven Coder"
@@ -172,12 +163,15 @@ This workflow demonstrates how to leverage agentic CLI tools to build and deploy
 The video focuses on the integration of **Claude Code** (Anthropic's terminal-based AI agent) and **MAID Runner** (a local LLM orchestration and task tool) to build custom **Model Context Protocol (MCP)** servers. MCP is a standard designed to give AI models a consistent way to interface with tools, data, and local resources. The tutorial highlights how the manual friction of setting up these servers is virtually eliminated by letting the AI handle the infrastructure logic.
 
 ### The Setup Process
+
 The workflow starts by invoking Claude Code within a local directory. Unlike standard IDE extensions, Claude Code has deep terminal access, allowing it to initialize projects, install **Node.js** or **Python** dependencies, and manage the file system directly. The author demonstrates how to prompt the AI to create an MCP server that follows specific schema requirements, ensuring compatibility with the broader ecosystem.
 
 ### Building and Debugging with MAID Runner
+
 A significant portion of the video is dedicated to using **MAID Runner** to manage the lifecycle of the newly created server. MAID Runner excels at maintaining environmental configurations and running persistent processes. By combining it with Claude Code, developers can achieve an "edit-test-fix" loop that is almost entirely automated. When the MCP server encounters an error, Claude Code can ingest the error logs from the terminal and apply the necessary patches immediately.
 
 ### Practical Applications
+
 The demonstration includes building a custom tool that allows an AI to query a local database. Key technical steps include:
 
 * **Defining Tool Schemas**: Specifying input parameters and return types so the LLM understands how to call the function.

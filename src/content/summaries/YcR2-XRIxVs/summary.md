@@ -4,14 +4,11 @@ metadata:
   title: "AI Wearables Round 2: Will Anyone Care This Time?"
   description: "AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollback of nudity safeguards sparked government complaints, and Yann Lecun criticized Meta's LLM-focused AI strategy while founding Advanced Machine Intelligence Labs.
 
-
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -82,17 +79,21 @@ Cun's departure** from Meta signals a major philosophical divide between practit
 ## Summary
 
 ### The Pivot in AI Wearables
+
 Following the high-profile failures of 2025 devices like the Humane AI Pin and Rabbit R1, the second generation of AI wearables is narrowing its focus. At CES, the primary trend is **AI-powered note-taking**. Plaude's new **Note Pin S** ($179) replaces finicky haptic controls with a physical button to ensure reliability in recording audio. This shift reflects a move toward removing friction from established use cases like meeting transcription and flagging key moments rather than trying to replace the smartphone.
 
 Similarly, Switchbot introduced the **Mind Clip**, an 18g device pitched as a "second brain." These devices aim to be unobtrusive tools for daily summaries and to-do list generation. While skeptics argue these functions can be handled by smartphones, the industry is betting that specialized form factors will find a niche among power users who prioritize ease of use and dedicated hardware ecosystems.
 
 ### Breakthroughs in AI Diagnostics
+
 In a significant win for medical AI, a pilot program in China is using AI to screen routine CT scans for **pancreatic cancer**. Because this cancer is notoriously difficult to diagnose early—often having a 5-year survival rate of only 10%—the ability of AI to detect tumors without the use of radioactive dyes is a major breakthrough. In a trial of 180,000 scans, the AI successfully identified two dozen cases, many in the early stages, in patients who had no related symptoms. Experts suggest this technology could fundamentally change survival outcomes by making screening safer and more widespread.
 
 ### Safety and Ethical Controversies
+
 On the social and regulatory front, X's AI, **Grock**, is under intense scrutiny. Governments in France, Malaysia, and India have condemned the platform after guardrails were reportedly rolled back, allowing the generation of **non-consensual explicit images**. The controversy peaked with reports of users generating deepfake images of minors. While Elon Musk has threatened consequences for users creating illegal content, the incident highlights a significant regression in moderation standards compared to other major AI labs.
 
 ### The Meta Research Schism
+
 Yann Le
 
 Cun, a pioneer in the field, has publicly criticized Meta’s current direction following his departure. Le

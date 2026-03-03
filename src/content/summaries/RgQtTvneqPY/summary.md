@@ -10,9 +10,7 @@ metadata:
 
     What's really happening with AI this week? The common story is that healthcare launches are about consumer demand and robotics is still coming soon — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on five stories that actually matter from the last week:
-
 
     \ • Why OpenAI and Anthropic healthcare launches are really about IPO narratives
 
@@ -22,12 +20,9 @@ metadata:
 
     \ • Why OpenAI is paying contractors to upload real work from past employers
 
-
     The training data is exhausted. The public internet has been scraped. The next frontier requires data that doesn't exist in accessible form — the actual work products people create in their jobs. Meanwhile, ChatGPT built a browser from scratch in one week with three million lines of code.
 
-
     For builders and leaders, the capability curve has tipped over — the question now is what compounds into real value.
-
 
     Chapters
 
@@ -58,7 +53,6 @@ metadata:
     19:46 Running 5-10 Claude instances in parallel
 
     21:53 ChatGPT built a browser in one week
-
 
     Subscribe for daily AI strategy and news.
 
@@ -144,6 +138,7 @@ Cun's departure from Meta over benchmark controversies highlights a fundamental 
 The AI industry is undergoing a fundamental transformation as major players move from general capability research to vertical-specific products designed for public market IPOs. OpenAI and Anthropic's recent healthcware launches—**OpenAI for Health** and **Claude for Healthcare**—are strategic moves to build enterprise credibility and revenue narratives in highly regulated, high-spend sectors. This move signals a threat to vertical AI startups, as foundation model companies are no longer content being just the 'underlying engine' but are instead building direct applications with massive distribution advantages.
 
 ### The Meta Controversy and the Scaling Limit
+
 A major rift in the AI community was exposed by **Yann Le
 
 Cun’s** departure from Meta. Le
@@ -155,11 +150,13 @@ Cun maintains that LLMs are a 'dead end' because they lack **world models** and 
 Cun is out of touch with the trajectory toward **AGI**.
 
 ### Robotics and the Arrival of Physical AI
+
 Physical AI is entering a new era characterized by a 'flywheel' of data collection and deployment. Nvidia’s **Reuben** and **Jetson T4000** platforms are providing the infrastructure, while Google Deep
 
 Mind and Boston Dynamics are partnering to put **Gemini** models into Atlas robots. This shift is driven by three factors: genuine multimodal reasoning for spatial understanding, improved simulation environments like Nvidia’s **Omniverse**, and edge chips that allow robots to process decisions locally without 'phoning home.'
 
 ### The Search for New Data
+
 With the public internet fully scraped, companies like OpenAI are turning to **Handshake AI** to pay contractors for access to their previous employers' internal work products. This include PDFs, Excel files, and code repositories. This highlights that the next frontier of AI capability—true **knowledge work**—requires data that was never meant for public consumption. Simultaneously, tools like **Claude Code** and **Claude Co-work** are demonstrating that models have crossed a tipping point, where agents can now perform complex tasks like building a browser engine from scratch in a week.
 
 ## Context

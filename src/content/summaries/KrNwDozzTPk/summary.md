@@ -4,12 +4,9 @@ metadata:
   title: "You Need to Build a Business That Runs Without You"
   description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
 
-
     If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
 
-
     How I got here…
-
 
     21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
 
@@ -39,24 +36,17 @@ metadata:
 
     34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
 
-
     Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
-
 
     To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
 
-
     You either get an epic outcome or an epic story. Both mean you win.\ 
-
 
     Keep crushing. May your desires be greater than your obstacles.\ 
 
-
     Never quit,
 
-
     Alex
-
 
     DISCLOSURE\ 
 
@@ -119,17 +109,29 @@ The core message is that for a business to scale and become truly valuable, it m
 
 The video outlines seven methods to install systems that capture media and marketing on the business's behalf, without needing direct-to-camera founder ads:
 
-### 1. Community Testimonial ScreenshotsBusinesses often have online communities or places where customers gather. A process should be established to regularly **screenshot positive comments** or testimonials from these communities. These screenshots can then be used as continuous marketing material, effectively showcasing customer satisfaction.
+### 1. Community Testimonial Screenshots
 
-### 2. Incentivized TestimonialsActively encourage customers to leave testimonials by offering **incentives**. This could include unlockable features, account credit, or even trials to higher tiers of service. Offering a trial of a premium service in exchange for a testimonial is a double benefit, as it also helps ascend loyal customers.
+Businesses often have online communities or places where customers gather. A process should be established to regularly **screenshot positive comments** or testimonials from these communities. These screenshots can then be used as continuous marketing material, effectively showcasing customer satisfaction.
 
-### 3. Lifecycle Ads from Existing DataBusinesses already conduct many customer interactions that can be repurposed. By recording **sales calls**, **onboarding calls**, and **delivery checkpoints**, and then correlating these with positive customer testimonials, businesses can create powerful "lifecycle ads." These ads can compress a customer's journey from initial hesitation to successful outcome, showing their progression through various touchpoints. This provides a dynamic, narrative advertisement rather than a static "before and after."
+### 2. Incentivized Testimonials
 
-### 4. Document Emotive Client MilestonesIdentify and document **emotive moments** in the client's journey. This could be a ribbon-cutting for a new building, the reveal of a new kitchen, a weight-loss milestone, or a significant revenue achievement for B2B clients. By incentivizing clients to document these emotional moments, businesses gain authentic and impactful marketing content.
+Actively encourage customers to leave testimonials by offering **incentives**. This could include unlockable features, account credit, or even trials to higher tiers of service. Offering a trial of a premium service in exchange for a testimonial is a double benefit, as it also helps ascend loyal customers.
 
-### 5. Customer Support TestimonialsCustomer support interactions are a rich source of positive feedback. Implement a system where **customer support representatives are incentivized** (e.g., $5 per instance) to capture mini-testimonials directly within chat conversations after successfully resolving an issue. These short, authentic endorsements can be immediately screenshotted and used.
+### 3. Lifecycle Ads from Existing Data
 
-### 6. Repurpose External Review PlatformsMany businesses already have reviews on platforms like **Google Reviews**, **Yelp**, **Trustpilot**, or **Amazon**. Despite often having hundreds of reviews, these are rarely systematically converted into marketing assets. The video emphasizes actively using these existing reviews. Furthermore, even **one-star reviews** can be strategically used, similar to Liquid Death's marketing, to humorously filter out the wrong type of customer and attract the right ones.
+Businesses already conduct many customer interactions that can be repurposed. By recording **sales calls**, **onboarding calls**, and **delivery checkpoints**, and then correlating these with positive customer testimonials, businesses can create powerful "lifecycle ads." These ads can compress a customer's journey from initial hesitation to successful outcome, showing their progression through various touchpoints. This provides a dynamic, narrative advertisement rather than a static "before and after."
+
+### 4. Document Emotive Client Milestones
+
+Identify and document **emotive moments** in the client's journey. This could be a ribbon-cutting for a new building, the reveal of a new kitchen, a weight-loss milestone, or a significant revenue achievement for B2B clients. By incentivizing clients to document these emotional moments, businesses gain authentic and impactful marketing content.
+
+### 5. Customer Support Testimonials
+
+Customer support interactions are a rich source of positive feedback. Implement a system where **customer support representatives are incentivized** (e.g., $5 per instance) to capture mini-testimonials directly within chat conversations after successfully resolving an issue. These short, authentic endorsements can be immediately screenshotted and used.
+
+### 6. Repurpose External Review Platforms
+
+Many businesses already have reviews on platforms like **Google Reviews**, **Yelp**, **Trustpilot**, or **Amazon**. Despite often having hundreds of reviews, these are rarely systematically converted into marketing assets. The video emphasizes actively using these existing reviews. Furthermore, even **one-star reviews** can be strategically used, similar to Liquid Death's marketing, to humorously filter out the wrong type of customer and attract the right ones.
 
 These methods allow a business to continuously generate marketing content and acquire customers without direct, personal involvement from the founder, fostering a more robust and scalable enterprise.
 

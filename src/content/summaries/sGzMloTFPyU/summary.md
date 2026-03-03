@@ -6,18 +6,15 @@ metadata:
 
     https://www.skool.com/automatable/about
 
-
     📝 FREE BLUEPRINT
 
     https://www.skool.com/automatable-free/classroom/6ca29126?md=45d46cfe88da4b888215b931b8fa21ca
 
     🚨 I also have the exact projects for you to clone in Antigravity. Follow the instructions on the page above
 
-
     📚 SUMMARY
 
     In this video, I run a full 2 hour AntiGravity masterclass where we break down how agentic workflows work, build a complete AI agent live, and show how you can use it to automate and scale real business systems.
-
 
     📣 SOCIAL MEDIA
 
@@ -29,7 +26,6 @@ metadata:
 
     • X → https://twitter.com/@jonocatliff
 
-
     📺 RELATED VIDEOS
 
     • Full crash course on Make.com → https://youtu.be/hinLebdX8aM
@@ -40,16 +36,13 @@ metadata:
 
     • 12 Favourite n8n automations → https://youtu.be/uQGT2K26W84
 
-
     🎯 1:1 CONSULTING
 
     Book a time → https://jonocatliff.com/consultation
 
-
     🚀 AUTOMATION AGENCY
 
     Get help with your business → https://www.automatable.co
-
 
     🔗 LINKS (some of these make me money - thanks in advance!)
 
@@ -85,14 +78,11 @@ metadata:
 
     • Airtable → https://jonocatliff.com/airtable
 
-
     👋  ABOUT ME
 
     Hey everyone, my name is Jono. I run a 7-figure service business that offers DJ, photo, video services (#1 largest in Canada), and spent years figuring out how to automate every part of it (and hired the roles that I couldn't). Conservatively, I used to work 80+ hours per week, before sunrise till long after sunset; missing gatherings, family events and everything in between. Through automation though, I was able to replace my job. My goal is to help share what worked for me, in a dream of helping others find true success with their passion.
 
-
     Please subscribe, like and comment below if you have any questions! Thank you 😊
-
 
     ⌛ TIMESTAMPS
 
@@ -184,15 +174,23 @@ Jono Catliff demonstrates how to leverage Antigravity as a 'junior developer' to
 
 ## Summary
 
-### Introduction and Core ConceptsJono Catliff introduces Antigravity as Google's latest tool for building AI agentic workflows and web applications without any coding experience. He explains the evolution from basic AI chat models to full agentic systems. Basic AI like ChatGPT requires manual input and output. AI automation (using tools like Zapier) connects triggers and actions but lacks reasoning. AI agents can think and reason like digital employees, using an LLM as a brain and connecting to external tools. Agentic workflows in Antigravity combine these concepts: one 'digital employee' builds the workflow based on your prompt, and another runs and fixes it, connecting seamlessly to your favorite tools.
+### Introduction and Core Concepts
 
-### Project 1: Telegram Bot for Lead GenerationThe first practical build is a Telegram bot that scrapes business listings from Google Maps and manages the data. The process begins with crucial planning by creating an `instructions.md` file, which acts as the operating system or standard operating procedure for the project. This file defines the response format, file structure, and rules for Antigravity to follow. A `project_specs.md` file is then populated with detailed requirements for the Telegram bot, its three core workflows (scrape, save to Air Table, search Air Table), and its deployment target.
+Jono Catliff introduces Antigravity as Google's latest tool for building AI agentic workflows and web applications without any coding experience. He explains the evolution from basic AI chat models to full agentic systems. Basic AI like ChatGPT requires manual input and output. AI automation (using tools like Zapier) connects triggers and actions but lacks reasoning. AI agents can think and reason like digital employees, using an LLM as a brain and connecting to external tools. Agentic workflows in Antigravity combine these concepts: one 'digital employee' builds the workflow based on your prompt, and another runs and fixes it, connecting seamlessly to your favorite tools.
+
+### Project 1: Telegram Bot for Lead Generation
+
+The first practical build is a Telegram bot that scrapes business listings from Google Maps and manages the data. The process begins with crucial planning by creating an `instructions.md` file, which acts as the operating system or standard operating procedure for the project. This file defines the response format, file structure, and rules for Antigravity to follow. A `project_specs.md` file is then populated with detailed requirements for the Telegram bot, its three core workflows (scrape, save to Air Table, search Air Table), and its deployment target.
 The build proceeds step-by-step with prompts. Antigravity creates the file structure, then the individual workflows: a Google Maps scraper using Playwright, an Air Table integration via MCP (Model Context Protocol), and a search function. The Telegram bot orchestrator is built, using Gemini as its 'brain' to interpret user intent and route requests. API keys for Telegram, Gemini, and Air Table are securely stored in an `.env` file. The entire system is then deployed to the cloud using Modal.com, allowing it to run 24/7 and be accessed by anyone. The video demonstrates testing the live bot by requesting leads like 'five landscapers in New York,' which are scraped and saved to Air Table automatically.
 
-### Project 2: Analytics Dashboard Web AppThe second project shifts to building a web application: a clean, modern analytics dashboard for the lead data stored in Air Table. A new project is created with a specialized `web_app_instructions.md` file tailored for building with Next.js and Tailwind CSS. The project specs define a dashboard that displays key metrics like total leads, revenue, and conversion rates, with filtering by service, date, and rating.
+### Project 2: Analytics Dashboard Web App
+
+The second project shifts to building a web application: a clean, modern analytics dashboard for the lead data stored in Air Table. A new project is created with a specialized `web_app_instructions.md` file tailored for building with Next.js and Tailwind CSS. The project specs define a dashboard that displays key metrics like total leads, revenue, and conversion rates, with filtering by service, date, and rating.
 Antigravity builds the app, connecting to Air Table via an API route and creating UI components for charts and a data table. A key demonstration shows how to improve the design: Jono takes a screenshot of a professional dashboard from Dribbble, pastes it into Antigravity, and asks it to redesign the app to match that aesthetic. Antigravity successfully updates the styling. The app is tested locally for responsiveness across devices. Finally, the project is pushed to GitHub and deployed on Vercel, with environment variables configured for secure API access, resulting in a live, data-driven analytics dashboard.
 
-### Project 3: AI-Powered Gmail Management SystemThe final project automates email management using Gmail and Google Drive APIs. The goal is to poll Gmail every 60 seconds, categorize incoming emails using AI, handle attachments, and create draft replies for personal emails. The setup requires creating a project in the Google Cloud Console, enabling the Gmail and Drive APIs, and downloading OAuth credentials (`credentials.json`).
+### Project 3: AI-Powered Gmail Management System
+
+The final project automates email management using Gmail and Google Drive APIs. The goal is to poll Gmail every 60 seconds, categorize incoming emails using AI, handle attachments, and create draft replies for personal emails. The setup requires creating a project in the Google Cloud Console, enabling the Gmail and Drive APIs, and downloading OAuth credentials (`credentials.json`).
 Safeguards are emphasized to prevent duplicate processing: polling only checks the last 60 seconds, and each processed email receives an 'AI Processed' label to filter it out in future cycles. A detailed `email_labels.md` file is created to train the Gemini classifier with examples for categories like Accounting, Personal, and Promotions. Workflows are built for classification, personal email drafting, and attachment handling (which saves files to a corresponding 'Gmail Attachments' folder in Google Drive). The system is tested live by sending emails with specific keywords and attachments, demonstrating successful categorization, drafting, and file storage.
 
 ## Context

@@ -4,48 +4,33 @@ metadata:
   title: "A Complete Guide to AI Search Optimisation for 2026 (AI SEO, AEO, GEO)"
   description: "This video is sponsored by Profound 👉 https://www.tryprofound.com/
 
-
     Learn how to optimise your content for AI results 👉 https://www.youtube.com/watch?v=HB9KeYPmvpo
-
 
     ====================
 
-
     There's an entire layer of search happening right now that you won't see in any web analytics platform, no matter which one you're using.\ 
-
 
     Your customers are researching your products, comparing your competitors, and making purchasing decisions — without ever visiting your website.
 
-
     They're doing it in ChatGPT, Google's AI Overviews, and AI Mode. And unless you're visible in those answers, you don't exist.
-
 
     In this video, I take you through the AI Search Visibility Pyramid — a five-layer framework that shows exactly how to get your business recommended in AI search results. Including the hidden layer that's blocking most businesses from making any progress at all.
 
-
     You'll discover:
-
 
     • Why 83% of searches with an AI Overview result in zero clicks — and what this means for your brand right now
 
-
     • The two types of reputation that determine whether AI tools recommend you or your competitors (and how to influence both)
-
 
     • Why only 12% of URLs cited by ChatGPT appear in Google's top ten — and what this means for your digital PR strategy
 
-
     • How we helped ZUGU become the top-recommended iPad case across ChatGPT, Google AI Overviews, and Perplexity — and how to replicate this for your business
-
 
     • The real reason most AI Search strategies stall inside larger organisations, and the exact approach that gets buy-in at every level.
 
-
     This video is sponsored by Profound — the AI search visibility platform used throughout this video to track brand sentiment, citations, and optimisation opportunities across every major AI search tool. Learn more at https://tryprofound.com
 
-
     Whether you're just getting started with AI Search Optimisation or trying to scale what's already working, this is your complete action plan for 2026.
-
 
     Timestamps
 
@@ -61,15 +46,11 @@ metadata:
 
     17:46 — The Hidden Layer
 
-
     ====================
-
 
     Exposure Ninja is an award-winning search marketing agency specialising in AI Search, SEO, and PPC. We grow B2B and B2C brands into industry leaders in search. Proudly B Corp Certified.
 
-
     Request a review of your website and marketing 👉 https://exposureninja.com/review/
-
 
     Follow Exposure Ninja
 
@@ -81,9 +62,7 @@ metadata:
 
     https://tiktok.com/@exposureninja
 
-
     ====================
-
 
     Recorded by: Tim Cameron-Kitchen
 
@@ -93,9 +72,7 @@ metadata:
 
     Produced by: Dale Davies and Tim Cameron-Kitchen
 
-
     *Disclaimer: Exposure Ninja may get a commission through the marked links above, at no cost to you
-
 
     #ExposureNinja #SEO"
   channel: "Exposure Ninja"
@@ -162,9 +139,13 @@ The video presents a comprehensive framework for AI search optimization in 2026,
 
 **Layer 5: Organizational Friction** - The hidden but most critical layer. AI SEO requires coordination across content teams, PR, development, brand, social, and customer service departments. Without executive buy-in and cross-functional alignment, initiatives stall while smaller competitors move faster.
 
-### Practical ImplementationThe video demonstrates using tools like **Profound** to analyze AI sentiment, track citations across platforms, and identify which third-party sites to target. Real examples include Vanguard's financial products and Zugu iPad cases showing how digital PR placements on sites like ZDNet and Wired directly influence AI recommendations within days of publication.
+### Practical Implementation
 
-### Strategic Shift RequiredBusinesses must move from tracking traditional referral traffic to implementing self-attribution methods (like 'Where did you hear about us?' form fields) and regular AI search visibility audits. The future belongs to companies that can navigate this complex ecosystem where AI tools serve as both gatekeepers and recommenders of products and services.
+The video demonstrates using tools like **Profound** to analyze AI sentiment, track citations across platforms, and identify which third-party sites to target. Real examples include Vanguard's financial products and Zugu iPad cases showing how digital PR placements on sites like ZDNet and Wired directly influence AI recommendations within days of publication.
+
+### Strategic Shift Required
+
+Businesses must move from tracking traditional referral traffic to implementing self-attribution methods (like 'Where did you hear about us?' form fields) and regular AI search visibility audits. The future belongs to companies that can navigate this complex ecosystem where AI tools serve as both gatekeepers and recommenders of products and services.
 
 ## Context
 

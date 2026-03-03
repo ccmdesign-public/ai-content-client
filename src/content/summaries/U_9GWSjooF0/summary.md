@@ -12,9 +12,7 @@ metadata:
 
     What's really happening with prompt engineering for AI image generation? The common story is that natural language prompts are enough — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on using JSON schemas to unlock precision with NanoBanana Pro:
-
 
     - Why JSON prompting works for high-stakes visual outputs
 
@@ -24,9 +22,7 @@ metadata:
 
     - Where JSON turns image generation into a reproducible, testable tool
 
-
     For builders and operators, learning to read pseudocode and structured inputs is becoming one of the most valuable skills for working effectively with LLMs.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -84,12 +80,15 @@ This experiment demonstrates how structured data formats like **JSON** can be le
 ## Summary
 
 ### From Tokens to Templates
+
 The core experiment involves testing the limits of **prompt engineering** by providing an extremely short command—approximately 8 tokens—to an AI model. The instruction specifically requested a **JSON template** for a "very creative UI about aliens." Despite the extreme brevity of the request, the model was capable of producing a comprehensive JSON object that detailed the layout, functionality, and thematic elements of an extraterrestrial-themed interface. This demonstrates the model's latent ability to extrapolate complex functional design specs from very broad thematic keywords when forced into a structured format.
 
 ### The Power of JSON in UX Design
+
 Nate B Jones emphasizes that while he typically employs much longer, more descriptive prompts, appending a request for a **JSON schema** unlocks a unique level of control. JSON provides a rigid, hierarchical framework that models find easier to follow and expand upon compared to open-ended prose. The generated JSON in this case included specific, creative labels such as "**initiate first contact**," which served as the conceptual anchor for the interface. By using JSON, the creator essentially forces the AI to define the "logic" of the design before the "visuals," ensuring that the final output isn't just a pretty picture but a structured data set that can be transformed into code.
 
 ### Building the High-Fidelity Wireframe
+
 The final stage of the workflow involves a cross-platform approach, taking the AI-generated JSON from one model and feeding it into **Google AI Studio**. The prompt for this phase instructed the model to "faithfully follow this JSON and produce a buildable wireframe." This separation of concerns—generating the data structure first and the visual wireframe second—results in a high-fidelity design that adheres strictly to the initial brainstormed logic. 
 
 This method proves that **LLM-driven design** can be remarkably precise when structured data acts as the bridge. Instead of the AI making arbitrary aesthetic choices, it follows the "blueprint" provided by the JSON. The result is a perfect, high-fidelity wireframe that is ready for further development. This workflow highlights a significant trend: using AI not just for text or images, but for the generation of structured intermediate files that can be parsed and rendered by other specialized tools or models.

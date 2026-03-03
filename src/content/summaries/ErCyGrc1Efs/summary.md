@@ -4,38 +4,27 @@ metadata:
   title: "New in Feb ‘25: Batch AI in Site Audit, Competitive map in Report Builder and more"
   description: "Explore the latest Ahrefs updates for February 2025.
 
-
     ***************************************
 
     Additional Resources
 
-
     Web Analytics ► https://ahrefs.com/web-analytics
-
 
     AI Content Helper ► https://app.ahrefs.com/content-helper
 
-
     Site Explorer ► https://ahrefs.com/site-explorer
-
 
     Rank Tracker ► https://ahrefs.com/rank-tracker
 
-
     Site Audit ► https://ahrefs.com/site-audit
 
-
-
     Canny for feature requests ► https://ahrefs.canny.io/
-
 
     ***************************************
 
     This month we have 7 tool updates, and several general updates for you.
 
-
     Let’s start with Web Analytics. Here we have the following features:
-
 
     ► Group traffic sources by acquisition channel.
 
@@ -45,24 +34,17 @@ metadata:
 
     ► Improved regional comparing.
 
-
     Moving on to AI Content Helper. A new chat function was added to help you refine content for both humans and search engines.
-
 
     Next, Report Builder. Here you can build a competitive map by selecting competitors and comparing backlink, organic, and paid metrics across three axes.
 
-
     Moving on to Site Explorer. Here we’ve added organic positions to the Paid keywords report.
-
 
     In Site Audit, we have launched the Batch AI feature that lets you generate titles and meta descriptions in bulk.
 
-
     Moving on to Rank Tracker. The new Locations mode in the history chart in the Overview report lets you track performance across different locations.
 
-
     Finally, the GSC Overview report now includes year-over-year performance for both organic positions and pages.
-
 
     #productupdates #productchanges #ahrefs"
   channel: "Ahrefs Product Updates"
@@ -124,19 +106,29 @@ The February 2025 Ahrefs update brings significant improvements across multiple 
 
 ## Summary
 
-## OverviewThe February 2025 update from Ahrefs introduces a range of new features and improvements across their SEO and analytics suite. These enhancements aim to provide users with better tools for traffic analysis, content optimization, competitor research, and site auditing.
+## Overview
 
-### Web Analytics UpdatesYou can now group traffic sources by acquisition channel, such as search, direct, LLM, email newsletter, and internal traffic. This helps identify which channels drive the most traffic. Improved filters offer suggestions and allow combining rules, with options to quickly include or exclude items. Additional updates include time zone adjustments for accuracy, continent-based comparisons in geography widgets, and expanded widget views for more metrics.
+The February 2025 update from Ahrefs introduces a range of new features and improvements across their SEO and analytics suite. These enhancements aim to provide users with better tools for traffic analysis, content optimization, competitor research, and site auditing.
+
+### Web Analytics Updates
+
+You can now group traffic sources by acquisition channel, such as search, direct, LLM, email newsletter, and internal traffic. This helps identify which channels drive the most traffic. Improved filters offer suggestions and allow combining rules, with options to quickly include or exclude items. Additional updates include time zone adjustments for accuracy, continent-based comparisons in geography widgets, and expanded widget views for more metrics.
 
 ### AI Content Helper
 
 A new chat function in AI Content Helper lets users ask AI to identify weak points in content, brainstorm ideas, and refine article structure. This tool is designed to improve content for both humans and search engines, with future features like inline suggestions and collaborative editing planned.
 
-### Report BuilderThe Competitive Map feature in Report Builder allows users to select competitors and customize comparisons across three axes: backlinks, organic, and paid metrics. This provides a visual way to see how competitors stack up online.
+### Report Builder
 
-### Site ExplorerOrganic positions have been added to the paid keywords report. Users can filter by these positions to check if they're cannibalizing organic rankings with paid ads, potentially saving advertising budget.
+The Competitive Map feature in Report Builder allows users to select competitors and customize comparisons across three axes: backlinks, organic, and paid metrics. This provides a visual way to see how competitors stack up online.
 
-### Site AuditBatch AI is a major addition to Site Audit, scaling the existing Ask AI feature. It enables generating titles and meta descriptions for multiple pages at once, with limits of up to 1K pages per batch and 50K pages per project per month for Max project boost users.
+### Site Explorer
+
+Organic positions have been added to the paid keywords report. Users can filter by these positions to check if they're cannibalizing organic rankings with paid ads, potentially saving advertising budget.
+
+### Site Audit
+
+Batch AI is a major addition to Site Audit, scaling the existing Ask AI feature. It enables generating titles and meta descriptions for multiple pages at once, with limits of up to 1K pages per batch and 50K pages per project per month for Max project boost users.
 
 ### Rank Tracker and GSC Reports
 

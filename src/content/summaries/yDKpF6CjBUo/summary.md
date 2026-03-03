@@ -4,11 +4,9 @@ metadata:
   title: "Google's New Universal Commerce Protocol"
   description: "In this video, we look at Google's New Universal Commerce Protocol for enabling agentic commerce. What it is, how it works, and some of the places that you might end up seeing it being used.
 
-
     Blog: https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/
 
     Blog: https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/
-
 
     For more tutorials on using LLMs and building agents, check out my Patreon
 
@@ -16,16 +14,13 @@ metadata:
 
     Twitter: https://x.com/Sam_Witteveen
 
-
     🕵️ Interested in building LLM Agents? Fill out the form below
 
     Building LLM Agents Form: https://drp.li/dIMes
 
-
     👨‍💻Github:
 
     https://github.com/samwit/llm-tutorials
-
 
     ⏱️Time Stamps:
 
@@ -118,9 +113,11 @@ Google's UCP aims to standardize how AI agents interact with retail businesses, 
 ## Summary
 
 ### The Shift to Agentic Commerce
+
 Google has introduced the **Universal Commerce Protocol (UCP)**, an open standard designed to bridge the gap between AI agents and the retail world. Unlike previous tools like **MCP** (Model Context Protocol), which focused on general tool-use, or **A2A**, which handled agent-to-agent communication, UCP is specifically tailored for the commerce layer. It was announced by Sundar Pichai at the National Retail Federation conference, signaling a massive push into monetizing AI-driven search.
 
 ### Key Features and Mechanics
+
 The protocol addresses the "discovery" problem for retailers. Currently, agents must scrape the web or use specific APIs to find products, which is often unreliable. UCP allows retailers—ranging from small brands to giants like **Shopify**, **Target**, and **Walmart**—to expose their product data in a standardized format. This enables AI agents to accurately present products, handle "add to cart" functions, and facilitate checkouts within a single interface.
 
 - **Standardized Schema**: Using the documentation at **ucp.dev**, developers can implement schemas that make their inventory legible to any compliant agent.
@@ -130,6 +127,7 @@ The protocol addresses the "discovery" problem for retailers. Currently, agents 
 - **Business Agents**: Google is launching specialized agents that act as brand-specific sales associates. These can answer product inquiries in the brand's unique voice, effectively turning a search result into a conversational sales funnel.
 
 ### Impact on Developers and Retailers
+
 For AI developers and agencies, UCP represents a shift toward **Answer Engine Optimization (AEO)**. Instead of optimizing for the "10 blue links" of traditional SEO, the goal is now to ensure an agent can correctly identify and purchase a product autonomously. 
 
 Google’s move is also a direct challenge to **OpenAI’s** earlier commerce initiatives. By leveraging its existing relationships with retailers who already use Ad

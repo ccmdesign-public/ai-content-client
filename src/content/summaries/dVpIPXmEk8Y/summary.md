@@ -8,10 +8,7 @@ metadata:
 
     🤚 Join the best community for AI entrepreneurs and connect with 16,000+ members: - https://www.skool.com/systems-to-scale-9517/about
 
-
-
     Sign up to our weekly AI newsletter - https://ai-core.beehiiv.com/
-
 
     🙋 Connect With Me!
 
@@ -20,7 +17,6 @@ metadata:
     X - https://x.com/NicholasPuru
 
     LinkedIn - https://www.linkedin.com/in/nicholas-puruczky-113818198/
-
 
     0:00 - Anthropic's 11 new plugins for Claude Co-Work
 
@@ -125,13 +121,19 @@ Anthropic has launched 11 plugins for its Claude Co-work desktop app, turning th
 
 The connectors are designed with generic placeholders (e.g., "your CRM"), not hardcoded to specific tools. This means workflows remain intact if you switch from, say, HubSpot to Salesforce—you just swap the connection.
 
-### The 11 Default PluginsThese cover Sales, Marketing, Legal, Finance, Customer Support, Product Management, Productivity, Enterprise Search, Biology Research, and a general Co-work plugin. The 11th is the **meta-plugin for plugin management**, which lets users build custom plugins.
+### The 11 Default Plugins
+
+These cover Sales, Marketing, Legal, Finance, Customer Support, Product Management, Productivity, Enterprise Search, Biology Research, and a general Co-work plugin. The 11th is the **meta-plugin for plugin management**, which lets users build custom plugins.
 
 For example, the Legal plugin can review contracts using a /review-contract command, flagging clauses with a green/yellow/red system. The Sales plugin can prepare for calls with /call-prep, pulling company info and drafting talking points.
 
-### Setup and Custom WorkflowsSetup is done within the Claude Co-work app's plugin section. Plugins can be installed, and connectors to tools like Slack, Jira, or Microsoft 365 can be added. If the default plugins don't fit, users can use the meta-plugin. By describing a need in plain English (e.g., "I need a plugin to source candidates and generate client reports"), Claude will build a custom plugin with the necessary skills, commands, and connector suggestions.
+### Setup and Custom Workflows
 
-### Sharing and Strategic ImpactCurrently, custom plugins are saved locally and shared via ZIP files, with organization-wide sharing promised for the future. The video argues this represents a major shift: Claude becomes a single interface to all business tools, democratizing automation for non-technical users. Companies that learn to build and encode their unique workflows into plugins will gain a significant competitive advantage.
+Setup is done within the Claude Co-work app's plugin section. Plugins can be installed, and connectors to tools like Slack, Jira, or Microsoft 365 can be added. If the default plugins don't fit, users can use the meta-plugin. By describing a need in plain English (e.g., "I need a plugin to source candidates and generate client reports"), Claude will build a custom plugin with the necessary skills, commands, and connector suggestions.
+
+### Sharing and Strategic Impact
+
+Currently, custom plugins are saved locally and shared via ZIP files, with organization-wide sharing promised for the future. The video argues this represents a major shift: Claude becomes a single interface to all business tools, democratizing automation for non-technical users. Companies that learn to build and encode their unique workflows into plugins will gain a significant competitive advantage.
 
 ## Context
 

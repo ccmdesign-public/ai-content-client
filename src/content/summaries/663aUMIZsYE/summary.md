@@ -4,36 +4,29 @@ metadata:
   title: "Claude Code Q&A - 5 Questions I Get Asked All The Time"
   description: "Claude Code Q&A - 5 Questions I Get Asked All The Time
 
-
     Nvidia DXG Update:
 
     https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/
-
 
     Huggingface:
 
     https://huggingface.co/collections/mistralai/ministral-3
 
-
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
-
 
     My AI Video Course:
 
     https://www.theaivideocourse.com/
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
 
-
     Business Inquiries:
 
     kbfseo@gmail.com
-
 
     00:00 Intro
 
@@ -112,6 +105,7 @@ This Q&A session highlights how to optimize Claude Code for performance, context
 ## Summary
 
 ### Parallelism and Autonomous Execution
+
 Claude Code supports parallel workflows, allowing users to open multiple terminal instances in the same directory. This is particularly useful for multi-language projects where one agent can work on a Python backend while another handles a Java
 
 Script frontend. While this effectively doubles productivity, the creator notes the current lack of a file reservation system, meaning users must ensure agents do not attempt to write to the same files simultaneously.
@@ -119,9 +113,11 @@ Script frontend. While this effectively doubles productivity, the creator notes 
 For those seeking a hands-off experience, the **--dangerously-skip-permissions** flag enables what the community calls **YOLO mode**. This bypasses all safety prompts, allowing the agent to execute commands and modify files autonomously. However, this comes with severe risks; the video highlights a documented case where an agent in this mode accidentally wiped a user's entire home directory. It is recommended only for sandboxed environments or low-risk tasks.
 
 ### Context Optimization: Skills vs. MCP
+
 Effective context management is essential for maintaining the agent's reasoning capabilities. The video distinguishes between **Skills** and **MCP**. Skills are lightweight, local configurations that only trigger when specific keywords are used. This prevents the main context window from being cluttered with unnecessary instructions. **MCP** is better suited for complex, remote integrations requiring OAuth or external server connections. 
 
 ### Utilizing Sub-agents and Non-Coding Tasks
+
 Claude Code features specialized **sub-agents**, such as the **explore agent**, which can ingest and summarize large documentation files (20,000+ tokens) in a separate context window. This allows the main agent to stay informed without reaching its token limit prematurely. 
 
 Beyond traditional software engineering, the tool is highly effective for general system tasks:

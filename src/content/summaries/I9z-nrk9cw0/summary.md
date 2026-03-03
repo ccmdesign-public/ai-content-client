@@ -4,18 +4,13 @@ metadata:
   title: "AI Agents vs. LLMs: Choosing the Right Tool for AI Tasks"
   description: "Ready to become a certified watsonx AI Assistant Engineer? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/Bdbtwq
 
-
     Learn more about AI Agents here → https://ibm.biz/Bdbtwf
-
 
     Learn more about Large Language Models here → https://ibm.biz/BdbtwP
 
-
     Do you really need an AI agent, or will an LLM do? 🤔 Brianne Zavala explains the key differences between AI Agents and LLMs, breaking down their roles in AI workflow automation. 🚀 Learn when to use each for tasks like multistep reasoning, tool integration, and simple one-step solutions!
 
-
     AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdbUVv
-
 
     #aiagents #llm #automation #aiworkflow"
   channel: "IBM Technology"
@@ -65,6 +60,7 @@ The video uses a coffee shop analogy to explain the fundamental difference betwe
 An **AI agent**, in contrast, is like a barista who methodically asks follow-up questions about dairy, size, temperature, and type. It's a mini-assistant that plans, reasons, and executes multiple steps autonomously. Agents use LLMs under the hood but add layers for planning, tool interaction (APIs, databases, web search), and decision-making to complete complex workflows.
 
 ### When to Use an LLM
+
 LLMs are ideal for tasks that are **single-step** and **low complexity**, where speed is paramount. Examples include:
 
 - Writing an email or blog post
@@ -77,7 +73,9 @@ LLMs are ideal for tasks that are **single-step** and **low complexity**, where 
 
 - Answering simple questions like "What does this error code mean?"
 
-### When to Use an AI AgentAgents shine for **multi-step reasoning** tasks that require planning, tool use, and autonomy. Examples include:
+### When to Use an AI Agent
+
+Agents shine for **multi-step reasoning** tasks that require planning, tool use, and autonomy. Examples include:
 
 - Researching competitors, compiling data, and emailing a report
 

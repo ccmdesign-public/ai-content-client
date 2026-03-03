@@ -4,11 +4,9 @@ metadata:
   title: "Is Reflex the BEST Python Framework for Full-Stack Web Apps?"
   description: "In this video, we try out Reflex and see how far you can really go building a full-stack web app using only Python. We walk through what it does well, where it feels a little weird, and whether it actually makes frontend work easier for Python developers. By the end, you will know if Reflex is just hype or something worth adding to your stack.
 
-
     🔗 Relevant Links
 
     Reflex: https://reflex.dev/
-
 
     ❤️ More about us
 
@@ -17,7 +15,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -28,7 +25,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -116,6 +112,7 @@ Script**, and **CSS**.
 Reflex is a full-stack framework designed for Python enthusiasts who want to avoid the friction of learning a traditional frontend stack like React or Vue. The core value proposition is the ability to write both the UI and the server-side logic in **pure Python**. While the framework handles the heavy lifting of routing and bundling, it introduces a specific mental model regarding **compile time** versus **runtime**.
 
 ### How Reflex Operates
+
 When a Reflex app is launched, the frontend code is compiled into **Java
 
 Script** and **React** components. This means that standard Python control flow—such as `if` statements or `for` loops—cannot be used directly inside the component's return block because those values are not known at the time the Java
@@ -123,6 +120,7 @@ Script** and **React** components. This means that standard Python control flow�
 Script is being generated. Instead, developers must use framework-specific functions like `rx.foreach()` for iterating over data and `rx.conditional()` for logic gates. 
 
 ### State and Event Handling
+
 State management in Reflex is handled via a dedicated `State` class. Variables defined here are reactive; however, changing them requires specific event handlers.
 
 - **Event Decorators**: Using `@rx.event` ensures that functions receive the correct types and arguments.
@@ -132,6 +130,7 @@ State management in Reflex is handled via a dedicated `State` class. Variables d
 - **UI Feedback**: To update the UI multiple times during a single function execution, the `yield` keyword is used to send intermediate state updates back to the renderer.
 
 ### The Developer Experience
+
 The framework provides a streamlined CLI, starting with `reflex init` to choose templates and `reflex run` to launch a local development server on port 3000. It supports **hot reloading**, allowing developers to see UI changes instantly. Despite these conveniences, the review notes a significant drawback: because Reflex is essentially an abstraction layer on top of React, it can lead to convoluted code and unique edge cases that wouldn't exist in a native **Java
 
 Script** environment. For many developers, the trade-off is between the ease of staying in Python versus the stability and "battle-tested" nature of traditional frontend frameworks.

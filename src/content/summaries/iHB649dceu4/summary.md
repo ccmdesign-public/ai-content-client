@@ -4,9 +4,7 @@ metadata:
   title: "How Cursor Works Internally (Context, Models, Speculative Decoding)"
   description: "Cursor feels magical — but there’s no magic here.
 
-
     In this video, we break down how Cursor actually works internally — from editor instrumentation and context selection to embeddings, speculative decoding, model orchestration, and safety layers.
-
 
     You’ll learn:
 
@@ -22,12 +20,9 @@ metadata:
 
     - How safety layers like shadow workspaces prevent bad edits
 
-
     This video is designed for developers, engineers, and anyone curious about how modern AI-powered IDEs are built.
 
-
     If you enjoy deep dives into systems, AI, and real-world engineering — do consider subscribing.
-
 
     #ai #aiagents #llm #ml #datascience #system #systemdesign #aiexplained #tech #techexplained #cursor #programming #artificialintelligence"
   channel: "Techie Explains Tech"
@@ -82,12 +77,15 @@ Cursor rethinks code editing as a distributed AI system rather than just an auto
 ## Summary
 
 ### Architecture and Problem Statement
+
 Cursor is a Visual Studio Code fork designed as a client-server system where local UI management separates from cloud-based AI computation. Unlike traditional autocomplete that only sees recent lines, Cursor aims to eliminate the mental burden of context reconstruction by understanding your entire working environment—current files, related files, recent edits, and cursor positions.
 
 ### Editor Signals and Intent Detection
+
 Cursor deeply instruments the editor to capture more than just text. It observes cursor position (indicating local vs. global intent), selection ranges (implying transformation intent), recent edits (weighted more heavily), and language server diagnostics. These signals are combined into structured intent representations using heuristics and temporal weighting.
 
 ### Context Selection and Token Budgeting
+
 This is Cursor's most critical technical challenge. Since LLMs have strict context windows, Cursor must compress entire repositories into limited tokens. It uses a three-layer relevance ranking system:
 1. Static relationships (imports, symbol references)
 2. Dynamic signals (recently edited files)
@@ -96,12 +94,15 @@ This is Cursor's most critical technical challenge. Since LLMs have strict conte
 Each context chunk has a token cost, and Cursor fills its budget with the highest-value chunks first, dropping lower-value content entirely to maintain signal quality.
 
 ### Codebase Indexing and Model Orchestration
+
 Code is indexed using language parsers to build ASTs, with functions and classes as logical units. Embeddings enable vector similarity search for semantic retrieval. Cursor orchestrates multiple models: small, fast models handle intent detection and quick completions, while larger models manage complex tasks like refactoring.
 
 ### Performance Optimizations
+
 **Speculative decoding** dramatically reduces latency: a small model generates draft responses while a large model verifies them, allowing near-instant streaming when drafts are correct. Changes are first applied in **shadow workspaces** to detect syntax errors before touching production code.
 
 ### Adaptation and Limitations
+
 Cursor learns from feedback by measuring the distance between AI suggestions and final human edits, gradually adapting to individual coding styles. Current limitations include struggles with weak static signals or unclear intent—fundamental constraints of context-based systems rather than simple bugs.
 
 ## Context

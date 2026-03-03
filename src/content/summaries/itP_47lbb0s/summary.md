@@ -4,9 +4,7 @@ metadata:
   title: "The State Of THE DIVISION 3 In 2026"
   description: "Another year has passed, yet the anticipation for The Division 3 has only grown. Today we're deep diving on what the current status of the project is, and what updates and new information we have heading into 2026. Let me know your thoughts!
 
-
     Check out the 2025 update video for more info! 👉 https://youtu.be/eB_qc-9NnGE?si=yyWrO7n3HgWTlvTo
-
 
     Intro | 0:00
 
@@ -18,21 +16,15 @@ metadata:
 
     Conclusion | 12:15
 
-
     ——————
-
 
     Support the channel, and get exclusive perks by becoming a Member! 👉 youtube.com/roguegold/join
 
-
     Check out my merch store here! 👉 https://roguegold.store/
-
 
     Use code “ROGUEGOLD” on the Ubisoft Store!
 
-
     Get the ROGUEGOLD ARM PATCH in The Division 2 using this code! | RGE-GLD-ARM-PCH | Redeem at 👉 https://redeem.ubisoft.com/thedivision2/en-US
-
 
     Twitch: https://www.twitch.tv/rogue_gold
 
@@ -40,12 +32,9 @@ metadata:
 
     Discord: https://discord.gg/BCAry6DpWt
 
-
     Get all the official The Division news and support links here! 👉 https://www.linktr.ee/thedivisiongame
 
-
     Music Used: ‘Running Out’ by Patrick Patrikios
-
 
     #TheDivision #TheDivision2 #TheDivision3"
   channel: "RogueGold"
@@ -92,11 +81,13 @@ Here are the most important updates regarding The Division 3's development statu
 The video provides an annual update on the development of The Division 3, emphasizing that 2025 saw minimal public information and 2026 is expected to be similar, with the development team focused on internal tool-building and research. A brief "Oui" from executive producer Julian Gity in August 2025 confirmed the team's existence, but further concrete details have been scarce.
 
 ### Massive Entertainment's Re-focus
+
 The most significant shift identified is **Massive Entertainment's refocusing as a Division-centric studio**. Previously, Massive had its resources split, working concurrently on The Division 3, Avatar: Frontiers of Pandora, and Star Wars Outlaws. However, by mid-2025, numerous job listings for other unannounced titles vanished. Reports also suggested the cancellation of a potential Star Wars Outlaws 2 (though not confirmed at Massive), and all planned content for Avatar: Frontiers of Pandora has now concluded, with no future DLC currently planned. This consolidation means Massive is now dedicating its primary AAA development resources to The Division franchise.
 
 This strategic pivot was underscored by an October 2025 press release. While initially misunderstood as corporate layoffs, the speaker clarifies that Massive enacted a **voluntary career transition program**. This initiative allowed developers who joined expecting to work on diverse AAA titles (like fantasy or sci-fi) to seek other opportunities with assistance, as the studio returns to its roots as a military shooter developer. This process aims to ensure that the hundreds of developers now committed to Division projects are genuinely invested in the IP, which is highlighted as a major positive for game quality. Massive's renewed commitment extends across the entire franchise, including The Division 2, The Division 2 Survivors, The Division Resurgence, and The Division 3.
 
 ### Release Date Predictions and Challenges
+
 Despite the increased focus, the predicted release date for The Division 3 remains **no sooner than 2028, and potentially slipping into 2029**. This timeline contrasts sharply with the relatively quick three-year development cycle of The Division 2. The speaker explains the key differences:
 
 -   **Generational Leap**: The Division 2 launched on the same console generation as its predecessor, requiring only subtle engine improvements. The Division 3, however, is poised to be a **two-generation leap**, demanding extensive technological advancements and a rebuilding of core systems to meet modern AAA expectations.
@@ -104,6 +95,7 @@ Despite the increased focus, the predicted release date for The Division 3 remai
 -   **Reduced External Support**: The Division 2 benefited from over 1,000 developers, including significant contributions from multiple Ubisoft support studios like Redstorm. Currently, Ubisoft is undergoing its own transformations, and the same level of widespread external support is unlikely to be available, meaning Massive will need to bear more of the development burden internally.
 
 ### Potential for 2026 News
+
 While a full reveal is years away, there's a **small possibility of a Division 3 teaser** on March 8th, 2026, which marks the **10th anniversary of the original Tom Clancy's The Division**. The development teams have promised "big surprises and plans" for this anniversary. The speaker speculates that while a gameplay trailer is highly improbable, the event could be an opportune moment for a **logo reveal** (similar to The Division 2's announcement at its second anniversary) or a confirmation of the game's setting accompanied by a **concept art image or two**. This would provide enough concrete information to fuel community speculation without revealing content that is still far from completion.
 
 ## Context

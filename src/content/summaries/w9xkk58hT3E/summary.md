@@ -4,13 +4,11 @@ metadata:
   title: "The Biggest Battle in AI is for Your Personal Context"
   description: "The AI race centers on the battle for personal context. Google Gemini's Personal Intelligence links Gmail, Photos, Search and YouTube to deliver tailored, privacy‑focused recommendations via opt‑in connectors. Anthropic's Claude Cowork and Claude Code surface desktop context and connectors while OpenAI, Apple and additional companies build memory, app ecosystems, hardware and health connectors as competing strategies.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -85,14 +83,17 @@ Consumer AI has shifted from a race for general intelligence to a competition ov
 ## Summary
 
 ### The Shift to Personal Intelligence
+
 Google recently announced a major upgrade to **Gemini** called **Personal Intelligence**. This feature allows the AI to securely access information from other Google applications like **Gmail, Photos, and You
 
 Tube**. The goal is to move past generic answers to queries that require specific personal knowledge, such as recommending car tires based on a photo of a user's vehicle or planning travel based on specific dates found in a private email thread.
 
 ### Competitive Moats through Context
+
 The broader landscape shows that every major player is chasing a similar strategy. **Claude Co-work** (Anthropic) focuses on desktop context, allowing the AI to interact with files on a user's machine or connect to cloud storage via the **Model Context Protocol (MCP)**. Meanwhile, **OpenAI** is leveraging its rapid shipping velocity to increase switching costs. By launching specialized apps like **ChatGPT Health**, they encourage users to centralize scattered medical notes and wearable data within their ecosystem, making the AI's **memory** an indispensable asset.
 
 ### The Battle of Ecosystems
+
 While Google holds a massive advantage with its long-tail history of user search and communication, other players have unique footholds:
 
 - **Apple Intelligence** maintains the most valuable context for i
@@ -106,6 +107,7 @@ Messages** and hardware-level integration.
 - **Anthropic** is focusing on enterprise-friendly 'connectors' to bridge the gap between local machines and the web.
 
 ### Physical World Context
+
 The next frontier is capturing how users interact with the physical world. This explains why OpenAI is exploring hardware with designers like **Johnny Ive**. Devices like **AI-integrated Air
 
 Pods** could capture audio and situational context in real-time. This provides a type of data that even Google’s digital history cannot match. Ultimately, the winner of the AI race may not be the company with the smartest model, but the one that knows the user most intimately.

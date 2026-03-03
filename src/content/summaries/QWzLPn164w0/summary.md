@@ -10,9 +10,7 @@ metadata:
 
     What's really happening when Klarna's AI agent does the work of 853 employees but costs the company something far more valuable than the $60 million it saved? The common story is that AI can't handle nuance—but the reality is more interesting when the AI worked too well at optimizing for exactly the wrong objective.
 
-
     In this video, I share the inside scoop on why the gap between AI capability and organizational value is the most important unsolved problem in enterprise AI:
-
 
     \ • Why 74% of companies report no tangible value from AI despite massive investment
 
@@ -22,9 +20,7 @@ metadata:
 
     \ • Where the race has shifted from who has the smartest model to who has the clearest organizational intent
 
-
     For leaders watching agents run for weeks and soon for months, the question is no longer can AI do this task—it's can AI do this task in a way that serves what we actually need?
-
 
     Chapters
 
@@ -53,7 +49,6 @@ metadata:
     26:04 What a Solution Looks Like
 
     29:34 The Race Is an Intent Race
-
 
     Subscribe for daily AI strategy and news.
 
@@ -135,6 +130,7 @@ This failure illustrates the **intent gap**, the most important unsolved problem
 *   **Intent Engineering (Organizational Purpose)**: The emerging critical layer. It's the practice of making organizational goals, values, trade-offs, and decision boundaries **machine-readable and machine-actionable**. It tells agents *what to want*, not just what to know.
 
 ### The Three-Layer Organizational Gap
+
 1.  **Unified Context Infrastructure**: A lack of standardized, secure, and governed systems for agents to access organizational data across departments (a 'shadow agents' problem). Protocols like the **Model Context Protocol (MCP)** are a start, but implementation is a political and architectural challenge.
 2.  **Coherent AI Worker Toolkit**: Organizations provide tools (like Microsoft Copilot) but lack shared workflows and understanding of how AI connects to core processes, leading to activity without productivity.
 3.  **Intent Engineering Proper**: This layer is mostly nonexistent. Unlike humans, agents cannot absorb company culture through osmosis. They require explicit, structured expressions of intent—**goal translation infrastructure** that converts human-readable objectives (e.g., 'customer satisfaction') into agent-actionable parameters, decision boundaries, and feedback loops.

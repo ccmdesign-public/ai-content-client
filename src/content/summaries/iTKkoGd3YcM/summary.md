@@ -8,7 +8,6 @@ metadata:
 
     Work with me: https://uppitai.com/
 
-
     My Tools💻
 
     14 day FREE n8n trial: https://n8n.partnerlinks.io/22crlu8afq5r
@@ -17,17 +16,13 @@ metadata:
 
     Voice to text: https://ref.wisprflow.ai/nateherk
 
-
     In this video, I show you how to use Antigravity with Nano Banana 2 to generate insane images with perfect text using JSON prompting. JSON prompting gives us so much more control over the image generation process, and the results are way more consistent than traditional prompting.\ 
 
-
     Because of that, I built a skill around this workflow so that whenever I want to create an image for a video or any other project, Gemini 3.1 Pro in Antigravity automatically uses the skill to craft a perfect JSON prompt, which then generates a perfect image every time. I walk you through exactly how all of this works step by step and show you how to set it up for yourself so you can start getting the same results.
-
 
     Sponsorship Inquiries:
 
     📧 sponsorships@nateherk.com
-
 
     0:00 - Nano Banana 2
 
@@ -97,11 +92,15 @@ However, the true power is unlocked through **structured JSON prompting**. Plain
 
 The presenter's solution is a complete, free system built in **Antigravity**, a VS Code-like IDE. The core component is a custom **skill**—a markdown file that teaches **Gemini 3.1 Pro** how to write optimal JSON prompts for Nano Banana 2. When a user gives a simple request (e.g., 'a young woman holding a beauty product'), the Antigravity agent uses this skill to generate a detailed JSON prompt, which is then executed to create the image.
 
-### Workflow and OrganizationThe project is meticulously organized. A `gemini.md` file acts as a master system prompt for the agent. Generated **JSON prompts** and their resulting **images** are saved in categorized folders (e.g., people, products, infographics). This allows for easy review, iteration, and style consistency across projects.
+### Workflow and Organization
+
+The project is meticulously organized. A `gemini.md` file acts as a master system prompt for the agent. Generated **JSON prompts** and their resulting **images** are saved in categorized folders (e.g., people, products, infographics). This allows for easy review, iteration, and style consistency across projects.
 
 The system is demonstrated through live demos, including generating multiple ad styles for a product and transforming a simple product photo into different marketing shots. The presenter emphasizes that the skill improves with feedback—telling the AI what you liked and disliked about outputs helps refine future generations.
 
-### Execution and Cost SavingsWhile Antigravity can generate images natively for free (with limits), for scale, the video recommends using the Nano Banana 2 API through **key.ai**, which is shown to be about 40% cheaper than Google's official pricing via Google AI Studio. The entire setup—Antigravity, the custom skill, and project structure—is available for free in the creator's community.
+### Execution and Cost Savings
+
+While Antigravity can generate images natively for free (with limits), for scale, the video recommends using the Nano Banana 2 API through **key.ai**, which is shown to be about 40% cheaper than Google's official pricing via Google AI Studio. The entire setup—Antigravity, the custom skill, and project structure—is available for free in the creator's community.
 
 ## Context
 

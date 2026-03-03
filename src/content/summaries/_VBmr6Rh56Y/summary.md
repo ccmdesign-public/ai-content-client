@@ -4,16 +4,13 @@ metadata:
   title: "How to Use the Claude Code Playground Plugin"
   description: "The Claude Code team just shipped a Playground plugin that changes how you interact with Claude. Instead of typing instructions, Claude builds you an interactive tool - sliders, annotation regions, approve/reject buttons - tailored to whatever you are working on. You give feedback visually, and the playground translates it back into precise instructions.
 
-
     In this video I walk through exactly how it works and build several playgrounds live.
-
 
     📩 Join our newsletter → https://gritai.kit.com/
 
     🌐 Website → https://www.gritai.studio/
 
     👉 Join our AI community → https://www.gritai.studio/build-with-ai-community
-
 
     What you will learn:
 
@@ -28,7 +25,6 @@ metadata:
     - How to turn any custom playground into a reusable skill
 
     - The six built-in templates and when to use each one
-
 
     ⏱️ Timestamps
 
@@ -48,11 +44,9 @@ metadata:
 
     12:44 Recap and takeaways
 
-
     🔗 Links and Resources
 
     Playground Plugin (GitHub): https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground
-
 
     Claude Code Plugins Documentation: https://code.claude.com/docs/en/plugins
 
@@ -62,20 +56,17 @@ metadata:
 
     Anthropic Official Plugin Marketplace: https://github.com/anthropics/claude-plugins-official
 
-
     📺 Related videos
 
     MCP - https://www.youtube.com/watch?v=6x5G5Lam1Wk
 
     Claude Code For Beginners - https://www.youtube.com/watch?v=6ZGbKvM1bIM
 
-
     Follow us
 
     Newsletter → https://gritai.kit.com/
 
     Website → https://www.gritai.studio/
-
 
     #ClaudeCode #PlaygroundPlugin #AI #AItools #GritAI"
   channel: "GritAI Studio"
@@ -122,7 +113,9 @@ The Claude Code Playground plugin transforms how users interact with Claude by g
 
 The Claude Code Playground plugin, available in Anthropic's official marketplace, enables a fundamentally new way to work with Claude by generating interactive, single-file HTML tools. Instead of typing instructions, users interact with visual interfaces—sliders, click regions, annotation canvases—that Claude builds on-the-fly based on the request.
 
-### How It WorksEvery playground follows a consistent three-panel architecture: interactive controls (e.g., sliders, dropdowns) on one side, a live preview that updates instantly, and a **prompt output panel** at the bottom. This output is not a raw data dump; it generates natural language instructions capturing only the changes from defaults, which can be copied back into Claude or other systems.
+### How It Works
+
+Every playground follows a consistent three-panel architecture: interactive controls (e.g., sliders, dropdowns) on one side, a live preview that updates instantly, and a **prompt output panel** at the bottom. This output is not a raw data dump; it generates natural language instructions capturing only the changes from defaults, which can be copied back into Claude or other systems.
 
 The plugin is a **skill-based plugin**, meaning Claude automatically activates it when users ask for a playground, interactive explorer, or visual tool. Installation is straightforward via the `/plugin` command in Claude Code, with no additional marketplace configuration needed.
 
@@ -142,7 +135,9 @@ The plugin is a **skill-based plugin**, meaning Claude automatically activates i
 
 If these don't fit, users can request **custom playgrounds**. The video demonstrates an image annotation tool where users draw rectangles on a screenshot and add comments—Claude generates the entire interface, and the prompt output structures the feedback with screen positions.
 
-### Practical Applications and TipsThe plugin excels at **visual feedback loops**, such as annotating mockups or providing precise input for image generation tools. It also serves as a **knowledge state capture tool**, as shown in the concept map example where toggling "known," "fuzzy," or "unknown" on concepts creates a targeted learning prompt.
+### Practical Applications and Tips
+
+The plugin excels at **visual feedback loops**, such as annotating mockups or providing precise input for image generation tools. It also serves as a **knowledge state capture tool**, as shown in the concept map example where toggling "known," "fuzzy," or "unknown" on concepts creates a targeted learning prompt.
 
 Key usage tips:
 

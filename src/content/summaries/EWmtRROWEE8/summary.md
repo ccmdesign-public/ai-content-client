@@ -4,15 +4,11 @@ metadata:
   title: "Jamey Gannon - Become an AI Creative Director with Nano Banana and Midjourney"
   description: "Today's episode with Jamey Gannon (https://x.com/jameygannon?lang=en) is a deep dive into what it takes to be an effective creative director with AI.
 
-
     Because there's clearly a moment in time right now where if you get comfortable with these tools you can really stand out in the market.
-
 
     So Jamey gives us a behind-the-scenes of her process and it totally changed the way I think about the importance of prompting.
 
-
     Some highlights:
-
 
     - Why consistency is the #1 marker of AI tool mastery
 
@@ -26,23 +22,17 @@ metadata:
 
     - + a lot more
 
-
     Get 10% off Jamey's AI Creative Director course: (http://www.dive.club/jamey)
-
 
     - Midjourney (AI image generation tool)
 
-
     Dive is where the best designers never stop learning 🤿
-
 
     🌐 dive.club
 
     🐦 twitter.com/joindiveclub
 
-
     Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
-
 
     0:00 Intro
 
@@ -141,17 +131,22 @@ ai:
 
 ## Summary
 
-### The AI Creative Director: Beyond PromptingJamey Gannon, an AI Creative Director, challenges the common misconception that mastering AI image generation is about crafting elaborate prompts. She asserts that **"AI is a direction problem, not a prompt problem."** Her core argument is that success in AI creativity stems from a well-developed creative vision, strong aesthetic judgment, and a strategic workflow that leverages AI tools effectively, rather than relying on complex textual instructions. She emphasizes that, like any creative discipline, becoming proficient with AI requires practice, a clear understanding of desired outcomes, and familiarity with the strengths and weaknesses of different tools.
+### The AI Creative Director: Beyond Prompting
+
+Jamey Gannon, an AI Creative Director, challenges the common misconception that mastering AI image generation is about crafting elaborate prompts. She asserts that **"AI is a direction problem, not a prompt problem."** Her core argument is that success in AI creativity stems from a well-developed creative vision, strong aesthetic judgment, and a strategic workflow that leverages AI tools effectively, rather than relying on complex textual instructions. She emphasizes that, like any creative discipline, becoming proficient with AI requires practice, a clear understanding of desired outcomes, and familiarity with the strengths and weaknesses of different tools.
 
 Gannon identifies three main reasons why people struggle with AI: a lack of clear direction, **over-prompting**, and incorrect tool usage. She illustrates how humans are often outperformed by Large Language Models (LLMs) in describing images with extreme specificity. While a human might describe a photo of Hailey Bieber in a sweatshirt with general terms, an LLM like ChatGPT or Gemini can generate paragraphs detailing fabric weight, ring placement, and subtle expressions. This highlights that trying to out-prompt an LLM in detail is a losing battle; instead, the focus should be on providing AI with visual context.
 
-### A Practical Workflow: Midjourney and Nano Banana ProGannon outlines her multi-step process, beginning with **mood boards** from platforms like Pinterest or Cosmos. She uploads these mood boards as style references into tools like **Midjourney**. While Midjourney can generate initial images, she notes that it often "averages out" the mood board, especially if the references are too general. This necessitates critical evaluation and honesty about whether the outputs truly align with the initial creative vision.
+### A Practical Workflow: Midjourney and Nano Banana Pro
+
+Gannon outlines her multi-step process, beginning with **mood boards** from platforms like Pinterest or Cosmos. She uploads these mood boards as style references into tools like **Midjourney**. While Midjourney can generate initial images, she notes that it often "averages out" the mood board, especially if the references are too general. This necessitates critical evaluation and honesty about whether the outputs truly align with the initial creative vision.
 
 To achieve better results, Gannon progresses to using Midjourney's **Style Reference (SRF)** feature, where specific images from the mood board are used as direct style inputs. She iteratively refines the style by removing references that produce undesirable elements (e.g., a green eye in a mood board causing a green tint in generations). Once a solid aesthetic foundation is established in Midjourney, she introduces **profile codes** (Midjourney's personalization feature) to infuse her personal aesthetic and add variety, preventing repetitive outputs. Her prompts at this stage remain "extremely simple," often just a single word like "astronaut," demonstrating that the power lies in the visual references and iterative refinement, not prompt complexity.
 
 While Midjourney excels as an "aesthetic engine," Gannon highlights its limitations, particularly with consistent details like hands, devices, or specific clothing. For these refinements, she transitions to **Nano Banana Pro**, which she describes as a "reasoning engine" capable of understanding and executing precise instructions for realism and textual accuracy. She uses it for "surgical Photoshop" tasks, such as replacing a generic laptop with a specific "2026 Midnight MacBook Pro" while maintaining the original image's composition and upscaling for higher detail. She stresses the importance of a **step-by-step approach** when making changes in Nano Banana Pro, giving the model one instruction at a time to avoid over-prompting and ensure accuracy. This modular workflow, combining the strengths of different AI models, is key to overcoming their individual weaknesses and achieving client-ready results.
 
 ### Cultivating Taste and Adapting to the Future of Design
+
 A significant portion of the discussion revolves around the importance of **"taste"** for AI creative directors. Gannon argues that while AI can generate images, the ability to discern what looks good, what aligns with a brand, and what will stand out is a uniquely human skill. She advocates for a **"daily taste practice,"** encouraging designers to constantly consume diverse visual and cultural content, beyond just design-specific inspiration. This includes observing fashion, movies, music, and even everyday objects, and actively saving these inspirations to mood boards (e.g., Pinterest, Cosmos, Notion).
 
 Gannon advises against overly specific mood board categories to avoid decision fatigue, preferring broader themes like "product photography" or "design inspiration." She also emphasizes that becoming a good creative director involves a broad range of life experiences and cultural references, not just studying design theory. By feeding AI with well-curated references, designers can develop a unique style that is distinct from generic AI outputs, even when starting with public domain or stock images.

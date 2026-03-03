@@ -4,7 +4,6 @@ metadata:
   title: "\"okay, but I want Gemini3 to perform 10x for my specific use case\" - Here is how"
   description: "Best Claude/Gemini prompt collection: https://clickhubspot.com/f99e63
 
-
     🔗 Links
 
     - Try Superdesign agent: http://superdesign.dev/
@@ -12,7 +11,6 @@ metadata:
     - Get the UI design prompt: https://www.aibuilderclub.com/
 
     - Follow me on twitter: https://twitter.com/jasonzhou1993
-
 
     ⏱️ Timestamps
 
@@ -24,12 +22,9 @@ metadata:
 
     07:25 Case study - train model excalidraw generation
 
-
-
     👋🏻 About Me
 
     My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
-
 
     #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk"
   channel: "AI Jason"
@@ -109,15 +104,18 @@ Gemini 3's reasoning architecture changes how users must interact with AI to ach
 The video explores how to optimize **Gemini 3**, a reasoning-heavy model that behaves differently than previous generations. Jason highlights that while Gemini 3 has incredible coding and design capabilities, it is highly sensitive to the 'altitude' of instructions. Because it generates **internal reasoning tokens**, long and overly complex prompts can actually hinder its performance by forcing it to over-process irrelevant variables. Instead, the focus should be on creating concise, highly steerable prompts.
 
 ### Overcoming Generic Outputs
+
 Jason introduces the concept of **Convergent Defaults**—the tendency for models to revert to safe, boring design or logic choices (like using 'Roboto' fonts or generic layouts) because they dominate the training data. To fix this, he references Anthropic's method of building 'skills.' This involves identifying exactly where the model's default behavior falls short—such as typography or animation—and providing concrete, high-quality alternatives within the system prompt.
 
 ### The Three-Step Optimization Process
+
 To systematically improve model output for specific use cases like **Excalidraw wireframing**, Jason outlines a three-step loop:
 1. **Identify Gaps**: Run the model with minimal instructions to see where it defaults to incorrect or generic patterns.
 2. **Root Cause Analysis**: Use a 'debug mode' by asking the model to explain its reasoning (e.g., 'Why did you set the width to zero?') without generating a new output. This reveals defects in the model's internal logic.
 3. **Provide Logical Alternatives**: Instead of creating a list of 50 rigid rules, provide the **underlying principle** or reasoning the model should follow. This keeps the prompt at the 'right altitude,' making it robust enough for long-tail scenarios without overfitting.
 
 ### Practical Applications
+
 By applying these techniques, Jason demonstrates how to turn a mediocre UI generator into a high-end design agent. He highlights the importance of using **XML formatting** for better context handling and shows how these methods are used in his tool, Superdesign.dev, to create creative, professional-grade wireframes and UI components. He also notes that these principles apply to business workflows, such as using **Hub
 
 Spot connectors** to ground model outputs in real CRM context for personalized results.

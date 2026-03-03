@@ -6,26 +6,21 @@ metadata:
 
     Use my referral link to get $10 in free credits (approx. 150M tokens)
 
-
     Download The Subtle Art of Not Being Replaced 👇🏼
 
     http://bit.ly/3WLNzdV
-
 
     Download Humanities Last Prompt Engineering Guide 👇🏼
 
     https://bit.ly/4kFhajz
 
-
     Join My Newsletter for Regular AI Updates 👇🏼
 
     https://forwardfuture.ai
 
-
     Discover The Best AI Tools👇🏼
 
     https://tools.forwardfuture.ai
-
 
     My Links 🔗
 
@@ -39,11 +34,9 @@ metadata:
 
     👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
 
-
     Media/Sponsorship Inquiries ✅\ 
 
     https://bit.ly/44TC45V
-
 
     Links:
 
@@ -112,11 +105,13 @@ AI is transitioning from a generative tool to a frontier researcher capable of s
 ## Summary
 
 ### The Breakthrough in Frontier Mathematics
+
 Recent developments in AI have crossed a critical threshold in higher mathematics. Quantitative researcher **Neil Smani** utilized **GPT-5.2** to solve **Erdős problem 397**, a feat subsequently verified by **Terrence Tao**, one of the world's most prominent mathematicians. Within a single two-week period, six such open problems were solved using AI-assisted workflows. These proofs often required only 15 minutes of compute time, whereas these problems have historically remained unsolved for generations.
 
 The process typically involves a human researcher providing prompts to a model like **GPT-5.2**, often integrated with tools like the **Aristotle** software framework and formal verification languages like **Lean**. This ensures that the generated proofs are not just plausible-sounding text, but mathematically sound and verifiable logic.
 
 ### Recursive Self-Improvement and the Intelligence Explosion
+
 The significance of solving frontier math problems is not merely academic; it is the fundamental requirement for the **Intelligence Explosion**. When an AI achieves the ability to perform high-level mathematical and scientific discovery, it can apply those insights to its own architecture. Key examples include:
 
 - **Algorithm Optimization**: Improving **matrix multiplication**, which is the primary computational bottleneck of neural networks.
@@ -128,6 +123,7 @@ The significance of solving frontier math problems is not merely academic; it is
 Google's **Alpha Evolve** has already demonstrated this recursive loop by finding more efficient matrix multiplication methods for the first time in five decades. Because these improvements are applied back to the systems that found them, the progress becomes exponential rather than linear.
 
 ### The Shift to Parallelized Science
+
 Unlike human researchers, AI does not experience fatigue and can be replicated across millions of GPUs. Systems like **Sakana AI's "AI Scientist"** are designed to automate the entire lifecycle of scientific research. This shift suggests that the pace of AI development is not slowing down; rather, it is accelerating as the bottleneck shifts from human ingenuity to raw compute and energy availability. This parallelization allows for a volume of discovery that was previously impossible in human history.
 
 ## Context

@@ -4,21 +4,17 @@ metadata:
   title: "Shipmas Day 18: How I Get Claude Code Max $200 For \"Free\""
   description: "Shipmas Day 18: How I Get Claude Code Max $200 For \"Free\"
 
-
     My AI Video Course:
 
     https://www.theaivideocourse.com/
-
 
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
-
 
     Business Inquiries:
 
@@ -91,11 +87,13 @@ The video demonstrates a practical strategy for offsetting the cost of premium A
 The video introduces an innovative method to effectively get a **Claude Code Max $200 subscription** for "free" by leveraging the AI to complete simple freelance tasks on platforms like Upwork and Fiverr. The creator details a personal strategy he uses monthly to recoup the subscription cost without significant time investment.
 
 ### The Strategy
+
 The core of the strategy involves identifying straightforward, fixed-price jobs on freelance platforms. The presenter primarily uses **Upwork**, preferring it over Fiverr. He searches for tasks that AI models, particularly Claude Code, are proficient at, such as **web scraping** and **data extraction**. Ideal jobs typically fall within the **$25 to $100 range** and can be completed quickly, often within 10-20 minutes for a proof-of-concept.
 
 Once a suitable job is found, the creator outlines his workflow. He creates a simple directory with a `job.md` file containing the full job description and an example URL for the AI to work with. Using Claude (or similar AI agents like Cursor), he instructs the AI to read the job description and generate a plan. A crucial step is to request Claude to first create a plan and execute only a small test portion (e.g., three videos for a scraping job) to ensure the system is working correctly before committing to the full task. This validated proof-of-concept can then be sent to the client for approval.
 
 ### Practical Examples
+
 The video demonstrates two types of jobs. First, a **You
 
 Tube transcript downloading job** priced at $25. The task required downloading transcripts from three channels with a total of 2,000 videos. The creator showed Claude successfully downloading three recent video transcripts in plain text, meeting the job's specifications for a quick $25 payout.
@@ -103,6 +101,7 @@ Tube transcript downloading job** priced at $25. The task required downloading t
 Second, a more complex **Whole Foods product scraper job** worth $50 was presented. This job involved programmatically scraping product data, including images and packaging information, and outputting it into a specific Excel format (listing details like flavor, category, base type, bag size, price, calories, sodium, and fat content). The creator had Claude work on 90 items, noting that while the AI did most of the work, some manual adjustments might be needed for certain fields, illustrating the iterative process of working with AI.
 
 ### Efficiency and ROI
+
 A key aspect of this strategy is working on **multiple jobs in parallel**, often two or three simultaneously, to maximize efficiency. The presenter notes that completing the $25 transcript job and making significant progress on the $50 Whole Foods job could yield $75 in about an hour of human oversight. His goal is to spend roughly **30 minutes, four times a month**, on such tasks to cover the $200 Claude Code subscription.
 
 The presenter emphasizes selecting jobs that can largely run in the background, requiring minimal active human intervention beyond initial setup, context provision, and occasional checks or prompts. He advises against taking overly complex or draining jobs, focusing instead on simple tasks that AI can reliably handle. Payment verification and client reviews on platforms like Upwork are also important considerations.

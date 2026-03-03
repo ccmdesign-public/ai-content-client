@@ -4,7 +4,6 @@ metadata:
   title: "The Open Models Have Caught Up (MiniMax M2.1 & GLM 4.7 Review)"
   description: "Open-weight models are no longer “almost good.” Minimax and GLM are now competing with Claude and Gemini, and for way less money.\ 
 
-
     ❤️ More about us
 
     Radically better observability stack: https://betterstack.com/
@@ -12,7 +11,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -24,9 +22,7 @@ metadata:
 
     LinkedIn: https://www.linkedin.com/company/betterstack
 
-
     📌 Chapters:
-
 
     0:00 Intro
 
@@ -110,6 +106,7 @@ Recent releases of open-weight models, specifically **Mini
 Max M2.1** and **GLM 4.7**, represent a significant shift in the AI landscape. These models are now competing directly with high-end proprietary models like **Claude 4.5 Sonnet** and **Gemini 3 Pro** in coding and design benchmarks, but at a massive cost reduction. In real-world tests involving UI design and full-stack application development, these models demonstrate that high-quality output is no longer gated behind expensive subscription services.
 
 ### UI and Design Performance
+
 In a head-to-head UI design challenge for a finance dashboard, Mini
 
 Max M2.1 produced a professional, accessible design for just $0.02. In comparison, Claude 4.5 Opus—the most expensive model tested—cost $0.50 (25 times more) for a result that was aesthetically similar. Interestingly, **Design Arena** rankings show GLM 4.7 and Mini
@@ -117,6 +114,7 @@ Max M2.1 produced a professional, accessible design for just $0.02. In compariso
 Max frequently outperforming Claude Sonnet in ELO scores, suggesting that the visual generation capabilities of open models have matured to a professional standard.
 
 ### Application Development and Backend Logic
+
 When tasked with building a full NextJS application using **Drizzle ORM** and **SQLite**, the models showed varying degrees of success. Mini
 
 Max M2.1 successfully implemented the backend and frontend for $0.33 after 30 minutes of prompting. While GLM 4.7 matched the visual mockup perfectly, it struggled with database connectivity, failing to link the backend correctly. 
@@ -124,6 +122,7 @@ Max M2.1 successfully implemented the backend and frontend for $0.33 after 30 mi
 Claude 4.5 Sonnet completed the functional requirements but surprisingly failed to match the visual design of the provided mockup, despite its much higher $5.22 execution cost. This highlights a peculiar trend where open models may currently be more attentive to visual reference images than some established closed models.
 
 ### The 'Thinking' and Efficiency Trade-off
+
 Despite the success of open models, they are not without technical quirks. Mini
 
 Max M2.1 was observed getting stuck in 'infinite thinking loops' during complex tasks, requiring the user to manually stop and prompt the model to continue. Furthermore, while the cost-per-token is lower for open models, 'premium' closed models like **Claude 4.5 Opus** and **Gemini 3 Pro** demonstrated better 'one-shot' capability. These high-end models often completed the entire task in 10 minutes with a single prompt, whereas the open-weight models required roughly 30 minutes of active developer oversight and multiple iterations. For professional environments, the higher cost of Opus or Gemini may be justified by the significant saving in human developer time.

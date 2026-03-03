@@ -4,7 +4,6 @@ metadata:
   title: "Building Multiple Implementations Of The Same Spec with GitHub Spec Kit"
   description: "Building a specification is not just a one-and-done affair - you can use the same content to test multiple implementation variants and see which one fits your preferences. This is a nice hidden superpower of spec-driven development - you're not constrained to just one technical version of a feature or project. The same spec can be used to produce multiple iterations.
 
-
     😺 GitHub repo: https://github.com/github/spec-kit
 
     ✍️ Blog post: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
@@ -13,12 +12,9 @@ metadata:
 
     ⛰️ HawaiiDiff (demo project in video): https://hawaiidiff.com
 
-
     Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
 
-
     For more videos:
-
 
     📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
 
@@ -39,7 +35,6 @@ metadata:
     📽️ Answering your Spec Kit questions: https://youtu.be/OFow2aTnqB8
 
     📽️ Checklists in GitHub Spec Kit: https://youtu.be/zTiLF3-BvGs
-
 
     #engineering #github #speckit #opensource #technology"
   channel: "Den Delimarsky"
@@ -105,14 +100,17 @@ Den Delimarsky presents a powerful workflow for developing **parallel implementa
 Hub Spec Kit and Git's `worktree` functionality. He illustrates this by adding a new filter feature to an existing static website, Hawaii diff, which aggregates webcam views from Monaca. The challenge is to implement a filter for camera snapshots, but there are multiple potential UI/UX approaches, and the goal is to evaluate them side-by-side.
 
 ### Spec Kit Workflow for New Features
+
 The process begins with `specit specify`, prompting the LLM to generate a specification for the desired filter capability. Spec Kit automatically creates a new feature branch and populates it with a detailed `spec.md`, functional requirements (e.g., text search, real-time filtering, case-insensitivity), success criteria, a plan, and tasks. This **additive workflow** is particularly useful for modernizing or adding features to existing projects, as the LLM intelligently focuses on the new capability rather than a full project setup. For instance, initial tasks only verify the Hugo build, rather than re-initializing the entire site.
 
 During the clarification phase, choices are made regarding UI elements. For the filter, the initial decision was a "drop-down menu with checkboxes inside." However, the video's core concept explores how to research and implement alternatives in parallel without complex branch switching or manual copying.
 
 ### Leveraging Git Worktrees for Parallel Development
+
 The key to enabling parallel implementations lies in **Git worktrees**. Instead of constantly switching branches or copying project folders, the command `git worktree add -b <new-branch-name> <new-folder-name> <base-branch>` creates a new, separate working copy of the repository, linked to the same Git history but residing in a different directory on a new branch. In the demo, the original branch (`002 I want to`) and its associated project folder are maintained for the initial implementation (dropdown with checkboxes). A new worktree (`filter alt`) is created from this base branch for the alternative implementation.
 
 ### Iteration and Comparison
+
 With two separate worktrees, the developer can open both in parallel (e.g., in two VS Code instances). The specification in the "filter alt" worktree is then modified, changing the filter design from "checkboxes in a dropdown" to "toggle buttons" (pills/chips). Spec Kit's LLM automatically updates the `spec.md`, plan, and tasks in this isolated worktree to reflect the new UI approach.
 
 Once both worktrees have their respective specifications and tasks updated, `specit implement` can be run in each. This allows the LLM to generate the code for both variations concurrently. The true power of this method is revealed when both implementations are run locally (e.g., using `hugo server` on different ports). The video shows the two versions side-by-side: one with a text search and a dropdown with checkboxes, and the other with a text search and clickable toggle buttons. This direct visual comparison facilitates an informed decision on which implementation best meets the user's needs or aesthetic preferences.

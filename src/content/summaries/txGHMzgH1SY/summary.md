@@ -12,9 +12,7 @@ metadata:
 
     What's really happening with prompt engineering for AI image generation? The common story is that natural language prompts are enough — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on using JSON schemas to unlock precision with NanoBanana Pro:
-
 
     - Why JSON prompting works for high-stakes visual outputs
 
@@ -24,9 +22,7 @@ metadata:
 
     - Where JSON turns image generation into a reproducible, testable tool
 
-
     For builders and operators, learning to read pseudocode and structured inputs is becoming one of the most valuable skills for working effectively with LLMs.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -83,12 +79,15 @@ Effective AI interaction requires moving beyond simple text prompts to understan
 ## Summary
 
 ### The Workflow of AI App Design
+
 Nate B Jones describes a modern development workflow where an LLM acts as an architect rather than just a text generator. In the example of a **habit tracker app**, the user provides a high-level prompt specifying visual style (e.g., "Notion meets Duolingo") and functional requirements (e.g., three screens and a calendar view). The LLM interprets this intent and populates a **JSON schema**. This schema acts as a detailed blueprint, containing fields for **Screens**, **UI Components**, **Design Tokens** (like colors and spacing), and **Layout Primitives**.
 
 ### The Importance of Reviewing Pseudocode
+
 Once the AI generates this "JSON blob," it provides a human-readable interface for the user to review. Jones refers to this as **pseudocode**—it is not "real" code that runs directly on a processor, but a "fancy list" that structured AI systems take seriously. By reviewing this pseudocode, a creator can ensure the design matches their vision before committing to the final render. If a specific detail is wrong, the user can **swap out one field at a time**, allowing for surgical precision in edits that broad natural language prompts often fail to achieve.
 
 ### Future-Proofing Through Structured Data
+
 The core argument is that learning to read these structured formats is one of the most valuable skills in an AI-dominated world. While one does not necessarily need to be a software engineer, they do need to understand how AI interprets **structured inputs**. This skill bridges the gap between creative intent and technical execution. Professionals who can navigate and audit these **pseudocode lists** will be better positioned to lead AI agents and render complex projects using advanced tools like **Nano Banana Pro**. As AI becomes more prevalent, the ability to read the code-like structures that AI values will be a major career differentiator.
 
 ## Context

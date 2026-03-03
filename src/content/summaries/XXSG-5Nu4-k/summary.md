@@ -6,7 +6,6 @@ metadata:
 
     Today we're working on:
 
-
     Bug fixes and stability improvements
 
     UI/UX polish and refinements
@@ -17,9 +16,7 @@ metadata:
 
     Live debugging with Claude Code
 
-
     Stack: Next.js 16, React 19, Tailwind CSS 4, Google Gemini AI, SQLite, Claude Code
-
 
     🎁 WANT EARLY ACCESS TO RANKENSTEIN?
 
@@ -33,7 +30,6 @@ metadata:
 
     I'll add you to the early access list! 🚀
 
-
     RESOURCES & LINKS
 
     ► Join our Waitlist here: https://rankenstein.pro
@@ -44,18 +40,15 @@ metadata:
 
     https://www.skool.com/ai-marketing-hub
 
-
     👨‍💻 ABOUT ME:
 
     I'm Daniel, host of AI Marketing Hub - 2,000+ members learning AI tools for marketing. I create practical automation workflows you can implement today.
 
     🌐 Website: https://agricidaniel.com
 
-
     ► Tools We're Using/Discussing Today:
 
     Claude Code, Gemini, Firecrawl, DataforSEO, VS Code
-
 
     🛠️ TECH STACK:
 
@@ -72,7 +65,6 @@ metadata:
     Firecrawl: https://firecrawl.dev/
 
     DataForSEO: https://dataforseo.com/
-
 
     📝 WHAT RANKENSTEIN DOES:
 
@@ -94,7 +86,6 @@ metadata:
 
     ✅ Citation & source management
 
-
     🎯 WHO IS THIS FOR:
 
     Developers interested in AI tooling
@@ -107,7 +98,6 @@ metadata:
 
     Anyone curious about AI + code
 
-
     💬 LIVE CHAT RULES:
 
     Questions welcome - I'll answer as I code
@@ -118,7 +108,6 @@ metadata:
 
     Constructive feedback appreciated!
 
-
     ⚠️ DISCLAIMER:
 
     This is a development stream. Expect bugs, errors, and live problem-solving. That's the fun part!
@@ -128,7 +117,6 @@ metadata:
     👍 LIKE if you're learning something!
 
     💬 COMMENT what feature you want to see built!
-
 
     #LiveCoding #AITools #NextJS #SEOAutomation #Rankenstein #GeminiAI #WebDevelopment #IndieHacker #SaaS #ContentAutomation #AIMarketing #ReactJS #TailwindCSS #BuildInPublic #Day3"
   channel: "Agrici Daniel"
@@ -216,16 +204,19 @@ Daniel showcases the live development and debugging of Rankenstein Pro, an AI-po
 ## Summary
 
 ### **Introduction and Project Overview**
+
 Daniel begins day three of live-coding Rankenstein Pro, which he describes as the world's finest SEO-optimized article creation system, built entirely using Claude Code (an AI coding assistant) and VS Code. He opens the live application at rankenstein.pro to showcase the interactive dashboard. The session's goal is bug fixing and UI improvements following recent major updates to the system. He frames the work within the broader context of an official White House document comparing the current AI revolution to a second industrial revolution, emphasizing the transformative economic potential for businesses that adopt AI.
 
 Daniel explains his setup: he's running the application on a local server and uses Claude Code within VS Code as his primary development tool. He highlights that Claude Code has dramatically increased his productivity and reduced API costs compared to other tools he's used. He introduces his community, AI Marketing Hub, which offers free resources and workflows for creators.
 
 ### **Live Debugging Workflow with AI Agents**
+
 The core of the session is a practical demonstration of debugging using natural language. Daniel encounters an error where creating a new project leads to intersecting project IDs. His debugging process is methodical: he opens the browser's developer console (F12), copies the error logs, and pastes them into a new Claude Code chat window. He then gives Claude a voice command describing the problem: "Hey Claude, we do have a problem... Help me investigate." He instructs Claude to audit the cause related to project ID, user ID, and session ID management and to run a team of mini-agents to fix it.
 
 He demonstrates two ways to run the local server: by asking Claude directly or by using a terminal command (`pnpm dev --turbo`). He emphasizes that every prompt is an action and that you can work alongside the AI, using browser inspection tools to copy specific HTML elements for the agent to analyze. Daniel opens multiple Claude Code agents in separate windows to work on different tasks in parallel, such as fixing UI bugs and auditing system prompts.
 
 ### **Deep Dive into Rankenstein Pro's Core Features**
+
 Daniel walks through the article creation pipeline to explain the system's value and identify areas needing fixes. He uses a sample website (collagenwise.com) to demonstrate the 'New Article' flow.
 
 *   **Business Intelligence Gathering:** The system first autogenerates a knowledge base for the target website. This includes fetching keywords the page ranks for (using DataForSEO), scraping internal links for contextual embedding, analyzing design systems (using Firecrawl for logos/colors), and establishing brand personality.
@@ -235,6 +226,7 @@ Daniel walks through the article creation pipeline to explain the system's value
 *   **The Importance of EAT and Avoiding Fluff:** Daniel stresses that 90% of AI-generated content is 'slop' that doesn't rank. Rankenstein aims to create authoritative content by ensuring citations come from highly trusted sources, which builds credibility with search engines like Google.
 
 ### **Targeted UI and Prompt Fixing with Parallel Agents**
+
 Daniel identifies and fixes several specific issues in real-time, showcasing the granular control possible with vibe coding.
 
 *   **UI Bug Fixes:** He spots a duplicated avatar in the 'AI Memory' section and poor color contrast on buttons. For each, he takes a screenshot, uses the browser's 'Inspect' tool to copy the relevant HTML element, and sends both to a Claude agent with instructions like "remove the avatar from the left side" or "change the color to this blue." The agents then locate the corresponding components in the codebase and implement the changes.
@@ -242,11 +234,13 @@ Daniel identifies and fixes several specific issues in real-time, showcasing the
 *   **Prompt Auditing and Optimization:** A key issue arises where the citation agent returns competitor blogs instead of authoritative sources. Daniel initiates a comprehensive audit of the EAT citation prompts. He feeds Claude an existing 'EAT Citation Authority Guide' (a markdown document crafted earlier with Claude) and the current project prompts, asking for a review and a universal rewrite that works across industries and regions, not just health-tech and finance. Another agent is tasked with auditing the competitor analysis prompts after it returns only one result. The agent provides a 'score out of 100' (giving a 15 for fallback quality), highlighting the need for prompt refinement.
 
 ### **Community Interaction and Broader Insights**
+
 Throughout the stream, Daniel interacts with viewers, answering questions and providing tailored advice. He helps a viewer named Neo, a doctor building a diabetes management app, by sharing relevant medical AI templates from V0 and pointing him to resources like Google's Med-Gemini (formerly Med-PaLM) for medical data. He emphasizes the importance of starting projects from templates rather than from scratch to save time.
 
 Daniel shares valuable meta-skills for AI-assisted development: using slash commands in Claude Code (like `/agents`, `/clear`, `/compact`), managing context windows to prevent performance degradation, and being careful not to have multiple agents edit the same code component simultaneously to avoid conflicts. He also shares a 'Pro Agents' system prompt designed to improve Claude's orchestration capabilities for complex tasks.
 
 ### **Conclusion and Reflection**
+
 After over three hours of live coding, Daniel summarizes the work done: fixing the people-ask functionality for different languages, repairing the transition between outline and article generation, and overhauling the prompts for EAT citations and competitor analysis. He reiterates the core mission of Rankenstein Pro: to help businesses create genuinely high-ranking content, not just AI slop. He concludes by encouraging viewers to build consistently with passion, thanks them for their time, and signs off, planning to continue his work to push an update by Monday.
 
 ## Context

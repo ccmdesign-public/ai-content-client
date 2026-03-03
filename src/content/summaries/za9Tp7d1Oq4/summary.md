@@ -6,9 +6,7 @@ metadata:
 
     ⚡ Start the 30-day trial (same bonuses): https://adamerhart.co/3MYeRMM
 
-
     When you start, you get immediate access to the full system — no drip, no waiting:
-
 
     - AI-powered agency setup (funnels, follow-up, booking — prebuilt)
 
@@ -22,15 +20,11 @@ metadata:
 
     - Adam Erhart Insiders (private access + ongoing support)
 
-
     Everything unlocks immediately.
-
 
     I may earn a commission if you use my link, at no extra cost to you. I recommend this because it's the same platform and system I used to build 3 agencies to 7-figures.
 
-
     ⚠️ Disable ad blockers, VPNs, or incognito mode before clicking so bonuses unlock correctly.
-
 
     For people who want to start and scale a simple, profitable AI agency from scratch."
   channel: "Agency Secrets"
@@ -78,9 +72,13 @@ The creator describes transitioning from what he calls a **Frankenstein stack** 
 
 - to a single integrated platform called **High Level**. This shift eliminated constant maintenance, broken automations, and manual data transfers that consumed 10+ hours weekly.
 
-### The Problem with Multiple ToolsMost agencies use separate tools for landing pages (ClickFunnels), email (ActiveCampaign), scheduling (Calendly), CRM, and automation (Zapier), creating a fragile system that breaks with updates and requires manual work for every new client. This technical burden subconsciously holds agencies back from pursuing more clients.
+### The Problem with Multiple Tools
 
-### High Level's Integrated SolutionHigh Level combines **CRM, email, SMS, funnels, scheduling, pipeline management, and reputation management** in one platform. Key features demonstrated include:
+Most agencies use separate tools for landing pages (ClickFunnels), email (ActiveCampaign), scheduling (Calendly), CRM, and automation (Zapier), creating a fragile system that breaks with updates and requires manual work for every new client. This technical burden subconsciously holds agencies back from pursuing more clients.
+
+### High Level's Integrated Solution
+
+High Level combines **CRM, email, SMS, funnels, scheduling, pipeline management, and reputation management** in one platform. Key features demonstrated include:
 
 - **Pipeline visualization** showing lead status from new to closed
 
@@ -95,9 +93,13 @@ The creator describes transitioning from what he calls a **Frankenstein stack** 
 
 - **Voice AI agents** answering calls 24/7, capturing leads, and booking appointments
 
-### Psychology of SpeedThe video emphasizes that **78% of people hire whoever responds first**, not the best or cheapest option. Harvard Business Review research shows companies responding within 5 minutes are **100 times more likely to connect** with leads than those waiting 30+ minutes. Most agencies reply in 24-48 hours when leads have already committed to competitors.
+### Psychology of Speed
 
-### Implementation StrategyFor those starting, the creator recommends beginning with just **one automation**: lead form to text reply. This alone can double close rates. The system works across niches from wedding photography to business coaching. The key is to follow proven workflows first, then customize later, avoiding perfectionism that prevents implementation.
+The video emphasizes that **78% of people hire whoever responds first**, not the best or cheapest option. Harvard Business Review research shows companies responding within 5 minutes are **100 times more likely to connect** with leads than those waiting 30+ minutes. Most agencies reply in 24-48 hours when leads have already committed to competitors.
+
+### Implementation Strategy
+
+For those starting, the creator recommends beginning with just **one automation**: lead form to text reply. This alone can double close rates. The system works across niches from wedding photography to business coaching. The key is to follow proven workflows first, then customize later, avoiding perfectionism that prevents implementation.
 
 ## Context
 

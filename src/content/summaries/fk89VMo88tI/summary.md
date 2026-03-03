@@ -4,13 +4,11 @@ metadata:
   title: "Microsoft's Plan to Make People Less Angry About AI and Electricity"
   description: "Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use, create jobs, increase tax revenue, and fund AI training and nonprofits. Chip export controls, possible bans on NVIDIA H200 shipments, major chip startup fundraising, and OpenAI's acquisition of Torch underscore geopolitical and market tensions around AI and healthcare data.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -80,6 +78,7 @@ As AI development faces increasing scrutiny over its environmental and economic 
 ## Summary
 
 ### Microsoft's Five-Part Community Plan
+
 In an effort to mitigate rising political tension regarding data center energy consumption, Microsoft has introduced its **Community First AI Infrastructure** framework. This policy is a direct response to concerns that the AI boom is driving up utility costs for average Americans. During an election year, affordability has become a central theme, and Microsoft is attempting to get ahead of the narrative that big tech is "picking the pockets" of local residents.
 
 - **Paying the Tab**: Microsoft commits to paying utility rates high enough to cover their own costs, ensuring that infrastructure upgrades are not passed on to the community.
@@ -89,9 +88,11 @@ In an effort to mitigate rising political tension regarding data center energy c
 - **Local Training**: A portion of the plan includes investing in local AI training and non-profits to ensure the community benefits directly from the technology being built in their backyard.
 
 ### Geopolitical Standoff Over Nvidia Chips
+
 The regulatory landscape for high-end AI silicon remains volatile. While the US Commerce Department has finalized approval for **Nvidia H200** exports to China (with 50% volume limitations and third-party inspections), Beijing has pushed back. Reports suggest Chinese officials are instructing domestic companies to limit orders of H200s to only what is "necessary." This is widely viewed as a power play by the CCP to extract concessions from the US in upcoming trade negotiations, testing the Trump administration's resolve on tech controls.
 
 ### The Future of AI Hardware and Health
+
 The AI industry continues to see massive capital movement. **Cerebras**, a prominent chipmaking startup, is currently in talks to raise $1 billion at a **$22 billion valuation**, preparing for a late-year IPO. Meanwhile, OpenAI is expanding its ecosystem through the acquisition of **Torch**, a health tech startup. By purchasing the four-person team for $100 million in equity, OpenAI gains a platform designed to unify fragmented medical data—such as lab results and prescriptions—into a format that ChatGPT can use to provide more accurate, personalized health insights.
 
 ## Context

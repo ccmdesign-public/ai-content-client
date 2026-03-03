@@ -4,13 +4,11 @@ metadata:
   title: "NEW Browser API That Makes AI Agents Actually Work (WebMCP)"
   description: "There's a new proposal backed by Google and Microsoft called WebMCP, and it could change how AI agents interact with websites forever. Instead of relying on Playwright, HTML parsing, or screenshot-based approaches, WebMCP lets frontend developers expose site features as MCP tools directly in the browser.
 
-
     🔗 Relevant Links
 
     https://developer.chrome.com/blog/webmcp-epp
 
     https://docs.google.com/document/d/1rtU1fRPS0bMqd9abMG_hc6K9OAI6soUy3Kh00toAgyk
-
 
     ❤️ More about us
 
@@ -19,7 +17,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -30,7 +27,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -97,11 +93,17 @@ WebMCP is a proposed browser API that bridges the gap between web applications a
 
 The core mechanism involves developers registering tools using the `window.navigator.modelContext` API. Each tool includes a name, description, input schema, and an **execute function** containing the client-side JavaScript to run when the tool is called. This approach is both token-efficient and accurate since the AI doesn't need to understand page structure—it simply calls the appropriate tool with parameters.
 
-### Two Implementation ApproachesWebMCP offers two APIs: the **imperative API** for developers who want fine-grained control over tool behavior via JavaScript, and the **declarative API** for simple HTML forms. With the declarative approach, developers can add `tool-name` and `tool-description` attributes to HTML forms, and the browser automatically converts them into MCP tools without any JavaScript.
+### Two Implementation Approaches
 
-### Practical ApplicationsDemonstrations show two primary use cases: **action execution** (like booking flights by navigating to search results) and **data extraction** (like listing flights from current page state as structured JSON). This allows AI to assist users directly on websites rather than pulling them into separate chat interfaces.
+WebMCP offers two APIs: the **imperative API** for developers who want fine-grained control over tool behavior via JavaScript, and the **declarative API** for simple HTML forms. With the declarative approach, developers can add `tool-name` and `tool-description` attributes to HTML forms, and the browser automatically converts them into MCP tools without any JavaScript.
 
-### Security ConsiderationsThe proposal acknowledges security challenges like **poison tools** (malicious tool definitions) and questions about how much browser control AI agents should have. These issues need resolution before widespread adoption.
+### Practical Applications
+
+Demonstrations show two primary use cases: **action execution** (like booking flights by navigating to search results) and **data extraction** (like listing flights from current page state as structured JSON). This allows AI to assist users directly on websites rather than pulling them into separate chat interfaces.
+
+### Security Considerations
+
+The proposal acknowledges security challenges like **poison tools** (malicious tool definitions) and questions about how much browser control AI agents should have. These issues need resolution before widespread adoption.
 
 ## Context
 

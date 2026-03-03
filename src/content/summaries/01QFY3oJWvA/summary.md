@@ -4,14 +4,11 @@ metadata:
   title: "Your First $100K | Build a Profitable One Person Business with AI"
   description: "Download the FREE The AI Marketing Automation Playbook here 👉https://clickhubspot.com/7574b4\ 
 
-
     If you've ever felt stuck trying to build a solo business, this video is for you. In the new age of AI, you don't need a huge team, a massive budget, or a perfect plan to get started.\ 
 
     In fact, this was what I was thinking before, but after finally taking the leap and really doing it myself, I know that this is entirely possible (and you can too).\ 
 
-
     In this video, I'll share the process for building a profitable one-person business with AI. You'll learn how to answer the three biggest questions every solo entrepreneur faces: What should I actually sell? How do I build it without a team? How do I scale without burning out? Let's goooo!
-
 
     📌 *TIMESTAMPS*
 
@@ -41,21 +38,17 @@ metadata:
 
     15:01 My final tips for you
 
-
     ⚡️ *JOIN MY GROWTH COMMUNITY*
 
     https://community.graceleung.com/
-
 
     📥 *JOIN FREE MY DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/
-
 
     👉 *WATCH THESE NEXT*\ 
 
@@ -63,24 +56,19 @@ metadata:
 
     https://youtu.be/SGRX7crXpV8\ 
 
-
     🎥 Build Your First AI Automation Workflow in 14 Minutes (No code)
 
     https://youtu.be/eMf4oxjvbHw\ 
-
 
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *Let's be friends*
 
@@ -157,19 +145,24 @@ The video provides a playbook for building a profitable one-person business usin
 
 The core philosophy is to treat AI not as a replacement but as ultimate leverage that amplifies your skills across three business pillars: strategy, growth, and operations.
 
-### Strategy: Finding Your Niche and OfferStart by identifying the "perfect Swiss boss"—the intersection of your skills, market needs, and where money flows. Use **Perplexity** for initial niche research based on your expertise. Then, use **ChatGPT** or **Gemini** for deep financial and market validation to rank niches by viability. For the chosen niche, use **Gemini Deep Research** to build a detailed Ideal Customer Profile (ICP) report, focusing on pain points and emotional drivers.
+### Strategy: Finding Your Niche and Offer
+
+Start by identifying the "perfect Swiss boss"—the intersection of your skills, market needs, and where money flows. Use **Perplexity** for initial niche research based on your expertise. Then, use **ChatGPT** or **Gemini** for deep financial and market validation to rank niches by viability. For the chosen niche, use **Gemini Deep Research** to build a detailed Ideal Customer Profile (ICP) report, focusing on pain points and emotional drivers.
 
 Next, select a business model aligned with your capacity and revenue goals. Options include freelance services, productized services, digital products, e-commerce, or content monetization. The creator recommends starting with one model. Crucially, **sell-validate before you build**. Your first product is the offer itself—a compelling promise. Use AI to create offer variations based on your ICP research.
 
 Instead of building a complex product first, create a **minimal viable pitch**: a simple one-page site, a LinkedIn profile with a clear CTA, or even just a Google Form. This is your "front door."
 
-### Growth: Acquiring CustomersPursue both inbound (attracting customers) and outbound (reaching out) strategies.
+### Growth: Acquiring Customers
+
+Pursue both inbound (attracting customers) and outbound (reaching out) strategies.
 
 For **inbound marketing**, use a strategy of **AI ideation, human creation, and distribution**. Give AI your ICP findings and ask it to generate a content calendar with highly relevant topics. Pick ideas you resonate with, inject your unique viewpoint, then use AI (like **Claude** projects) to expand and structure the content in your voice. Use AI to repurpose content (e.g., turning video scripts into newsletters) and consider automation platforms like **n8n** to create social post drafts.
 
 For **outbound sales**, use **ChatGPT's agent mode** to script a list of prospects. Provide your business context and ICP details, and ask it to find matching leads, fill a template, and even draft personalized outreach messages. You can then use this list in sales tools like **Apollo** or **LinkedIn Sales Navigator**. Focus on quality over quantity, starting with 5-10 high-research emails per day.
 
 ### Operations: Scaling with Systems
+
 As a soloist, you wear three hats: CEO, project manager, and admin assistant. Use AI to build workflows and automate repetitive tasks across three levels:
 
 *   **Level 1: Custom AI Assistants.** Build a "second brain" by creating custom GPTs, **Claude** projects, or **Gemini** agents trained on your business data. Use them for strategic decision-making (e.g., evaluating out-of-scope inquiries).

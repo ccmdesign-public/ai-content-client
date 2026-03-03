@@ -4,16 +4,13 @@ metadata:
   title: "Debugging JSON Is a Nightmare... This Fixes It"
   description: "Debugging JSON doesn’t have to mean endless scrolling, guessing, and frustration.
 
-
     In this video, I walk through JSON Crack, a free open-source tool that helps developers visualize JSON as interactive graphs instead of raw text. If you’ve ever worked with large API responses, deeply nested JSON, or messy data structures, this tool can save you a ton of time.
-
 
     🔗 Relevant Links
 
     Json Crack Editor - https://jsoncrack.com/
 
     Json Crack Repo - https://github.com/AykutSarac/jsoncrack.com
-
 
     ❤️ More about us
 
@@ -22,7 +19,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -33,7 +29,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -118,9 +113,11 @@ Brains**, allowing developers to visualize data patterns without leaving their d
 ## Summary
 
 ### The Problem with Text-Based JSON
+
 Traditional debugging involves scanning thousands of lines of indented text, which leads to fatigue and missed patterns. While standard editors offer syntax highlighting, they fail to represent the **relational structure** of complex data. JSON Crack addresses this by treating data objects as a **graph**, mapping out connections between keys and values in a visual interface that mimics how our brains actually process hierarchies.
 
 ### Core Visual Features
+
 Instead of "bracket hunting," users paste data into the editor to generate a clean, readable map.
 
 - **Interactive Nodes:** Users can click to expand or collapse specific branches, making it easy to isolate specific sections of a massive object.
@@ -130,11 +127,13 @@ Instead of "bracket hunting," users paste data into the editor to generate a cle
 - **Validation:** If a mistake exists in the syntax, JSON Crack flags the error clearly, removing the guesswork from finding missing commas or mismatched brackets.
 
 ### Advanced Developer Tools
+
 JSON Crack is more than a viewer; it is a comprehensive data utility. It provides a one-click solution for generating **Type
 
 Script types**, which is a significant time-saver for frontend developers. Additionally, it handles format shifts on the fly, allowing users to switch between JSON, YAML, and CSV while the graph updates in real-time. For those working with authorization, it includes a **JWT decoder**, and for data manipulation, it supports **JQ queries** directly within the interface.
 
 ### Integration and Deployment
+
 With over 40,000 stars on Git
 
 Hub, the tool has become a favorite in the dev community due to its flexibility. It is available as a web-based editor and as a plugin for **VS Code and Jet

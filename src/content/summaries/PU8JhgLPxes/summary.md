@@ -4,9 +4,7 @@ metadata:
   title: "Connect Claude to NotebookLM in less than 5 MINUTES! Full Automation UNLOCKED!"
   description: "Connect Claude Desktop directly to Google's NotebookLM using the new NotebookLM MCP.
 
-
     In this tutorial, I will walk you through the newly updated installation process for my NotebookLM MCP server. You will learn how to install the tool directly from PyPI using uv, authenticate with your Google account, and configure the Claude Desktop app on Mac to use the MCP. This guide enables seamless communication between your local AI assistant and your cloud notebooks, allowing you to query notes and generate assets without leaving your desktop.
-
 
     Key Takeaways
 
@@ -16,11 +14,9 @@ metadata:
 
     3️⃣ Triggering real-time actions (like generating Infographics) in NotebookLM via chat.
 
-
     Resources:
 
     GitHub: https://github.com/jacob-bd/notebooklm-mcp
-
 
     Chapters:
 
@@ -114,11 +110,13 @@ This update significantly lowers the barrier for users wanting to integrate Clau
 The video demonstrates a significantly streamlined process for connecting **Claude Desktop** to **NotebookLM** using a custom **MCP (Model Context Protocol)** tool. Initially released as a complex developer-focused CLI tool, the creator (Jacob) has updated the package to be more accessible to general users through **PyPI distribution**. 
 
 ### Installation and Setup
+
 Users can now install the tool using the command `uv tool install` or `pip`. This eliminates the need to manually clone Git
 
 Hub repositories. To ensure the environment is clean, the demonstration shows using the **uv tool list** command to verify existing MCP tools. After installation, the user must run an **authentication command** which launches a browser window to automatically capture the required session cookies from NotebookLM, ensuring a secure and seamless connection.
 
 ### Configuring Claude Desktop
+
 To enable the integration, users must point Claude Desktop to the tool's executable path. This is done by editing the Claude **settings JSON** file found in the developer tab of the app.
 
 - Use the `which` command in the terminal to find the exact local path of the installed tool.
@@ -128,6 +126,7 @@ To enable the integration, users must point Claude Desktop to the tool's executa
 - Paste the configuration into Claude's config file, replacing placeholders with your specific system username.
 
 ### Real-World Application
+
 Once configured, Claude can perform complex tasks within NotebookLM using natural language. The demo shows Claude listing existing notebooks and successfully adding a new source (an infographic) to a specific notebook. This integration turns Claude into an active manager for your research data. 
 
 The creator also hints at upcoming functionality for **Perplexity for Mac**, which would allow users to conduct deep research in Perplexity and have it automatically imported into NotebookLM via this same MCP infrastructure, creating a powerful multi-AI research pipeline.

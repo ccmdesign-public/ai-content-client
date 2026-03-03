@@ -4,26 +4,21 @@ metadata:
   title: "AI News: NVIDIA Rubin, LTX-2 Open Source, ChatGPT Health, GPU Prices and More!"
   description: "Try Greptile for free for 14 days! https://greptile.com/go/berman
 
-
     Download The Subtle Art of Not Being Replaced 👇🏼
 
     http://bit.ly/3WLNzdV
-
 
     Download Humanities Last Prompt Engineering Guide 👇🏼
 
     https://bit.ly/4kFhajz
 
-
     Join My Newsletter for Regular AI Updates 👇🏼
 
     https://forwardfuture.ai
 
-
     Discover The Best AI Tools👇🏼
 
     https://tools.forwardfuture.ai
-
 
     My Links 🔗
 
@@ -37,11 +32,9 @@ metadata:
 
     👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
 
-
     Media/Sponsorship Inquiries ✅\ 
 
     https://bit.ly/44TC45V
-
 
     Chapters:
 
@@ -58,7 +51,6 @@ metadata:
     10:13 Alpamayo
 
     13:43 Anthropic $350B Valuation
-
 
     Links:
 
@@ -150,12 +142,15 @@ The AI ecosystem is rapidly evolving toward open-source reasoning models and hyp
 The AI industry is witnessing a significant shift toward open-source accessibility and hardware efficiency. Lightricks has released **LTX-2**, a fully open-source text-to-video model that has immediately taken the top spot on the Artificial Analysis leaderboard. It provides a full stack of weights, trainers, and data pipelines. Users can generate 20-second 4K clips at 50fps and benefit from high-precision 'storyboarding' controls, including the ability to fix the first and last frames for seamless video loops or extended storytelling.
 
 ### NVIDIA Infrastructure and Hardware
+
 NVIDIA's Jensen Huang introduced the **Rubin** architecture, the successor to Blackwell. Rubin is designed for hyperscalers like OpenAI and AWS, delivering a 10x cost reduction in inference. The most striking feature is its cooling efficiency; it uses 45°C water to cool the system, removing the need for massive data center water chillers and fans. However, the consumer market faces challenges as rumors of **RTX 5090** prices reaching $5,000 circulate due to severe memory shortages. NVIDIA is reportedly considering engineering new AI features for older GPU nodes to help mitigate these supply issues.
 
 ### Autonomous Vehicles and Alpameo
+
 NVIDIA also debuted **Alpameo**, a reasoning model for autonomous vehicles. This represents a paradigm shift in training because it relies heavily on **synthetic data** rather than millions of real-world miles. Alpameo is a Vision-Language-Action (VLA) model that acts as an end-to-end architecture—taking video input and producing actuation commands like steering and braking. By making this model open-source, NVIDIA is allowing legacy car companies to potentially catch up with closed systems like Tesla and Waymo.
 
 ### Personal AI and Industry Finance
+
 OpenAI is launching **ChatGPT Health**, a separate experience within the platform that ingests health data from medical records and wearables. This feature aims to provide proactive health recommendations rather than just reactive answers. Finally, the financial side of AI continues to boom as **Anthropic** is in talks to raise $10 billion at a $350 billion valuation. This massive funding indicates strong investor confidence as Anthropic nears profitability and continues to compete head-to-head with OpenAI.
 
 ## Context

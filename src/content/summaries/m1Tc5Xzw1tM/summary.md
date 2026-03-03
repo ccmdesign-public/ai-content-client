@@ -6,13 +6,11 @@ metadata:
 
     ✅ AI Fact Checker: https://check.brainqub3.com/
 
-
     Following on from my first video on the RLMs paper, this is a more structured breakdown of the key mental models you need to understand why this approach matters.
 
     The core insight: context window is only half the story. Task complexity - specifically the internal self-referencing nature of documents like legal contracts and codebases - is what actually breaks AI agents.
 
     In this video I cover:
-
 
     Context rot and why it's a function of both context length AND task complexity
 
@@ -28,12 +26,9 @@ metadata:
 
     Limitations and when NOT to use this approach
 
-
     This matters if you're building agents for legal analysis, policy review, codebase reasoning, or any workflow involving complex document synthesis.
 
-
     RLMs Paper:https://arxiv.org/pdf/2512.24601
-
 
     #AIAgents #LLM #RLMs #ContextWindow #AIEngineering"
   channel: "Brainqub3"
@@ -97,9 +92,11 @@ Traditional LLMs struggle with high-complexity tasks because performance degrade
 Current AI agents face a significant hurdle known as **context rot**, where performance falls off a cliff as task complexity and document length increase. While "lost in the middle" retrieval is largely solved, **multihop reasoning**—the ability to connect disparate pieces of information across a million-token context—remains broken in standard scaffolds.
 
 ### The Shift to Dependency Graphs
+
 The video highlights a crucial mental model shift: viewing complex assets like merger agreements or codebases as **dependency graphs**. In a legal contract, one clause may reference another three sections prior; in code, a function call relies on an abstraction defined elsewhere. Treating these as linear text ignores their inherent structure. By modeling these relationships as nodes and edges, agents can navigate the "cognitive demand" of the document more effectively.
 
 ### The Ripple and Recursion Method
+
 The Recursive Language Model (RLM) framework operates through a **Ripple** (Read, Evaluate, Print, Loop) environment. Instead of injecting a massive document into the prompt, the document is assigned as a variable in a code execution environment. The agent then interacts with it using programmatic tools:
 
 *   **Read**: Accessing the data object at a specific point.
@@ -111,9 +108,11 @@ The Recursive Language Model (RLM) framework operates through a **Ripple** (Read
 *   **Loop**: Iterating until the dependency graph is fully mapped and the query is answered.
 
 ### Recursive Hand-offs
+
 The "secret sauce" is **recursion**. A high-level model can spin up a sub-agent (either the same model or a smaller, specialized one) to investigate a specific branch of the dependency graph. This creates a modular hand-off process that prevents the main model's context from being overwhelmed by noise, effectively allowing it to "reason" over contexts orders of magnitude larger than its advertised window.
 
 ### Implementation and Limits
+
 While tested successfully on models like **GPT-5**, the video warns that this is not a "one-size-fits-all" solution. For low-complexity or short-context tasks, standard one-shot prompting is still superior. Furthermore, developers must implement **depth-limits** and observability tools to manage the complexity of these systems and prevent runaway costs from recursive loops.
 
 ## Context

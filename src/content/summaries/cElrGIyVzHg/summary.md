@@ -4,12 +4,9 @@ metadata:
   title: "SSH Key Generation Made Easy | Works on Windows, Mac & Linux"
   description: "The fastest way to generate SSH keys with one simple command. This tutorial explains the ssh-keygen process, the difference between public and private keys, and how to secure your keys with encryption. No complicated setup required!
 
-
     Perfect tutorial for beginners! No prior experience needed. 💻
 
-
     Save this tutorial for when you need it! 💾
-
 
     #SSHKeys #GitHubTutorial #DevOps #CodingTutorial #Programming #WebDevelopment  #TechTips #LearnToCode #DeveloperTools #LinuxTutorial #CyberSecurity #ServerManagement #SSH  #SoftwareDevelopment #ITTips #CloudServer #DevLife #ProgrammingTips #KodeKloud"
   channel: "KodeKloud"
@@ -79,14 +76,17 @@ Hub account.
 ## Summary
 
 ### The Quick Generation Method
+
 To generate SSH keys quickly, open a terminal (Command Prompt or Power
 
 Shell on Windows, Terminal on Mac/Linux) and run the `ssh-keygen` command. When prompted, simply press **Enter three times** in succession. This accepts all default options, including the default file location, and generates the keys without a passphrase.
 
 ### Adding a Passphrase for Security
+
 For additional protection, you can encrypt your private key with a passphrase. After running `ssh-keygen`, still press Enter at the first prompt to accept the default file location. At the subsequent prompts for a passphrase, type your chosen password (nothing will appear on screen for security) and confirm it. This creates an encrypted private key file, meaning if someone steals the file, they cannot use it without knowing the passphrase.
 
 ### Understanding the Generated Keys
+
 The `ssh-keygen` command creates two files in the default `.ssh` directory.
 
 *   The **private key** (e.g., `id_rsa`) is for your use only. You must **never share this file** with anyone.
@@ -94,6 +94,7 @@ The `ssh-keygen` command creates two files in the default `.ssh` directory.
 *   The **public key** (e.g., `id_rsa.pub`) is safe to share with coworkers, companies, or servers. You can think of it as giving someone a lock that only your private key can unlock.
 
 ### Using Your Public Key
+
 To use the generated key, you need to provide the public key to the service (like a Git
 
 Hub account or a cloud server). Locate the `.pub` file, open it in any text editor, select all the text inside, and copy it. You then paste this entire block of text into the appropriate field on the service where you are setting up SSH access.

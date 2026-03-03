@@ -10,7 +10,6 @@ metadata:
 
     What's really happening inside the AI infrastructure race at CES 2026? The common story is it's about flashy gadgets — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on why CES 2026 marks AI's shift from chip race to factory race:
 
     -Why NVIDIA's Rubin platform optimizes for inference token economics
@@ -20,7 +19,6 @@ metadata:
     -What inference context memory reveals about AI scaling constraints
 
     -Where demand pressure creates multi-winner hardware landscape despite NVIDIA dominance
-
 
     Chapters:
 
@@ -48,9 +46,7 @@ metadata:
 
     18:07 - Conclusion: The Year AI Became a Factory
 
-
     The companies that locked supply chain deals in late 2025 — like OpenAI with Samsung, SK Hynix, and hyperscalers — secured competitive advantage for the next two years as AI becomes ambient intelligence everywhere.
-
 
     Subscribe for daily AI strategy and news. For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
   channel: "AI News & Strategy Daily | Nate B Jones"
@@ -119,9 +115,11 @@ The AI industry has pivoted from a chip race to a 'factory race' where inference
 CES 2026 marks the official transition of AI into an **Industrial Phase**. According to Nate B Jones, the event served as a coordination point for the next industrial cycle, moving away from consumer gadgets toward the infrastructure required for 'Always On' AI. The industry is currently facing a **demand shock**, where the need for model serving (inference) has far outpaced the supply of compute, leading to a focus on **AI Factories** rather than individual chips.
 
 ### The Shift to Inference Economics
+
 With ChatGPT reaching over 800 million weekly users, the operational cost of AI is now dominated by inference. NVIDIA's latest **Vera Rubin** platform is designed specifically to address this by optimizing **token economics**. The platform introduces **Inference Context Memory**, which pushes the **KV cache** (Key-Value cache) out of the GPU and into a dedicated storage tier. This allows for the efficient management of massive **10 million token context windows**, slashing inference costs by a factor of 10 while maintaining low latency.
 
 ### OpenAI as the Reference Customer
+
 OpenAI has effectively 'pre-booked' the hardware future by signing massive infrastructure deals to ensure they aren't bottlenecked by supply shortages. These include:
 
 * A **10GW NVIDIA** commitment for Vera Rubin systems.
@@ -133,6 +131,7 @@ OpenAI has effectively 'pre-booked' the hardware future by signing massive infra
 * Strategic memory locks with **Samsung** and **SK Hynix** for 900,000 DRAM wafers per month to combat a 300% price surge in memory components.
 
 ### Hardware Heterogeneity and Physical AI
+
 While NVIDIA remains the primary player, the sheer volume of demand ensures a 'multi-winner' reality. This mirrors the evolution of the cloud market, where multiple providers (AWS, Azure, GCP) coexist. We are seeing large labs like **Anthropic** expand their use of Google's **TPUs**, signaling that labs will switch to non-NVIDIA silicon when availability and price-performance are compelling. Finally, this industrial scale is moving toward **Physical AI**, as seen in autonomous Mercedes-Benz demos and robotics, where low-latency inference is critical for real-world operation.
 
 ## Context

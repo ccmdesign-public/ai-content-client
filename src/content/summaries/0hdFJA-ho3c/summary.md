@@ -4,25 +4,19 @@ metadata:
   title: "Claude Code is all you need in 2026"
   description: "Claude Code in 2026 is not what it was when it launched. After a year of building frameworks, custom setups, and elaborate systems to make AI coding work, we've come to a point now where... most of that is overkill.
 
-
     In this video, I'll show you what building with pure vanilla Claude Code actually looks like in 2026. No frameworks. No custom rules. Just Claude Code with Opus 4.5 handling real professional development work.
-
 
     I'll build a real feature in a real app, walking you through plan mode, the clarifying questions flow, and the native features that now do what frameworks used to do.
 
-
     If you're just getting into AI-assisted development, or if you've been layering tools onto your workflow — this video will show you the simpler path forward.
-
 
     👇 **Your Builder Briefing (free)**
 
     https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
 
-
     👇 **Build with Claude Code (course)**
 
     https://buildermethods.com/pro/claude-code-course -- Launching in Feb 2026 For members of Builder Methods Pro.  Early access workshop happening in January 2026.
-
 
     ▶️ Related videos:
 
@@ -30,12 +24,9 @@ metadata:
 
     Design OS for AI-first design process https://youtu.be/2vu-6-lIhAs
 
-
     💬 Drop a comment with your questions and requests for upcoming videos!
 
-
     Chapters:
-
 
     0:00 - The Claude Code scene in 2026
 
@@ -120,9 +111,11 @@ Brian Casel demonstrates why the complex AI scaffolding of 2025 is now unnecessa
 ## Summary
 
 ### The Shift to Native AI Tooling
+
 In 2026, the era of heavy AI frameworks like **Agent OS** has given way to a more streamlined, "vanilla" approach using **Claude Code**. Brian Casel explains that the scaffolding builders previously used to bridge gaps in AI performance—such as custom memory systems and complex prompt managers—is now redundant. The combination of the **Opus 4.5** model and the matured Claude Code CLI handles most complex, multi-file engineering tasks out of the box.
 
 ### The 2026 Workflow: Spec-Driven Development
+
 The video demonstrates a real-world feature build using a **Spec-driven development** approach. This process emphasizes the planning phase over the execution phase:
 
 * **Plan Mode:** Developers use voice dictation and high-level prompts to define the strategic scope of a feature.
@@ -134,9 +127,11 @@ The video demonstrates a real-world feature build using a **Spec-driven developm
 * **Task Tracking:** Once a plan is approved, the tool generates its own to-do list and tracks progress over long sessions.
 
 ### Specialized Capabilities and Skills
+
 While the core tool is powerful, Casel highlights **Claude Skills** as the modern way to add specialized muscle. For example, the **front-end design skill** allows Claude to apply consistent UI/UX patterns and design systems. This specialized knowledge helps maintain quality across dark mode, mobile responsiveness, and brand consistency without needing external UI frameworks.
 
 ### The New Bottleneck: Product Thinking
+
 Casel argues that the "craft" of software development has shifted. Since the AI can implement almost any pattern described, the builder's value now lies in **product thinking**. Understanding the difference between what a customer says they want and what they actually need is the primary skill. Developers must now focus on choosing the right patterns and making strategic calls about what *not* to build to avoid unnecessary code bloat.
 
 ## Context

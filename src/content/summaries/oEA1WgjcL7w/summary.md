@@ -6,33 +6,27 @@ metadata:
 
     Join the Agentic Jumpstart community: https://discord.gg/JUDWZDN3VT
 
-
     Checkout Automaker.app\ 
 
     https://automaker.app/
 
     https://github.com/AutoMaker-Org/automaker
 
-
     ---------
-
 
     Have a video suggestion? Post it here:\ 
 
     https://suggestions.webdevcody.com/
 
-
     My Game
 
     https://survivethenightgame.com/
-
 
     My Courses
 
     🤖 https://agenticjumpstart.com
 
     ⚛️ https://beginner-react-challenges.webdevcody.com
-
 
     Useful Links
 
@@ -113,9 +107,11 @@ Claude Skills transform a general-purpose LLM into a specialized agent capable o
 The video introduces **Claude Skills**, a feature within the **Claude Code** CLI environment that allows for the creation of modular, teachable units of functionality. At its core, a skill is simply a directory containing a `skill.md` file that describes what the skill does and when the LLM should invoke it. This structure allows developers to move beyond simple chat interactions toward building a library of automated, high-precision tools.
 
 ### The Power of Progressive Disclosure
+
 One of the most significant architectural features discussed is **Progressive Disclosure**. Instead of overwhelming the LLM with a massive prompt containing every possible instruction, the `skill.md` file acts as a slim 'table of contents.' When the model identifies a task that matches the skill's description, it follows links within the markdown file to discover more detailed documentation, data, or specific scripts. This method is highly efficient for managing the **context window**, ensuring that the model stays focused and operates at a lower cost.
 
 ### Building a Custom Skill
+
 The author demonstrates building an **FFmpeg video scaling skill**. While LLMs are generally aware of FFmpeg, they often struggle with specific syntax or complex command-line arguments. By creating a skill, the developer provides a deterministic Node.js script that uses `child_process` to invoke FFmpeg reliably. 
 
 The workflow involves:
@@ -129,6 +125,7 @@ The workflow involves:
 - Using the `/skills` command in Claude Code to verify and trigger the automation.
 
 ### Deployment and Extensibility
+
 Beyond local project use, skills are designed for scale. They can be installed globally on a machine or bundled into a **marketplace** repository. This allows teams to share standardized workflows—such as database migrations, deployment scripts, or media processing—across different projects. By treating these skills as code, developers can version control their AI's capabilities, leading to more stable and predictable agentic behavior.
 
 ## Context

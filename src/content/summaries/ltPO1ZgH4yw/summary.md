@@ -4,13 +4,11 @@ metadata:
   title: "You Can Now Vibecode Mobile Apps"
   description: "Replit unveils native mobile app publishing with one-click app-store submission to streamline building, payments, security, and publishing. Bloomberg reports a Replit funding round that could value the company near $9 billion, and HiggsField closes funding around a $1.3 billion valuation as generative video adoption accelerates. Co-founder departures at Thinking Machines Labs signal a talent exodus, and DeepMind leadership warns that Chinese AI models are rapidly closing the performance gap with Western counterparts.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -78,6 +76,7 @@ Mind's CEO warns that **Chinese AI models are now only months behind** the US fr
 ## Summary
 
 ### Replit Revolutionizes Mobile App Creation
+
 Replit has launched a groundbreaking feature that allows developers to **vibe code native mobile applications and publish them directly to app stores** with minimal clicks. This addresses key barriers like App Store configuration, payments, and security audits that previously kept vibe-coded projects primarily on the web. Early beta testers report the process is transformative, enabling app creation from a phone at a coffee shop and resulting in "10 out of 10 quality" applications.
 
 ### AI Funding and Adoption Milestones

@@ -4,13 +4,11 @@ metadata:
   title: "The Whole World Gets Claude-Pilled"
   description: "Anthropic's Claude breakout centers on Claude Code and Claude Cowork making coding and automation accessible to nontechnical users. Coverage highlights a potential $25 billion fundraising round with major backers like Microsoft and Nvidia and a wave of social-media enthusiasm. Other themes include a Google–Ipsos survey showing rising AI use with uneven optimism, the one‑gigawatt Colossus Two compute milestone, and Elon Musk's lawsuit against OpenAI and Microsoft.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -71,14 +69,17 @@ The video highlights the growing impact and future implications of AI, focusing 
 The AI landscape is experiencing rapid shifts, with **Anthropic's Claude AI** emerging as a significant disruptor. Major publications like the Wall Street Journal and The Atlantic are reporting on the phenomenon of "getting Claude-pilled," where users, even non-technical ones, are astonished by Claude Code's capabilities. Initially designed as a coding tool, Claude Code is being used for a wide range of applications, including health data analysis, expense report compiling, managing personal finances, and even growing plants. One author highlighted creating a new personal website in minutes without coding, demonstrating its accessibility and power.
 
 ### Financial and Infrastructure Race
+
 This surge in interest is reflected in Anthropic's financial prospects. Their reported fundraising round is expected to super-size to **$25 billion**, including substantial investments from Microsoft and Nvidia, and other VCs. This financial backing underscores the intense competition in the AI sector.
 
 Concurrently, the race for AI compute power is escalating. XAI's **Colossus 2 data center** has reached an unprecedented 1 gigawatt capacity, surpassing the power consumption of San Francisco. This makes XAI the only company with access to such a massive compute cluster, utilizing Nvidia's latest Blackwell GPUs. Anthropic and Amazon's Carile data center is also expected to hit 1 gigawatt soon, indicating a significant industry-wide investment in AI infrastructure.
 
 ### US AI Adoption Concerns
+
 Despite these advancements, a recent **Google-Ipsos survey** reveals a concerning trend for the US. While global AI usage is on the rise (66% of respondents used AI in the past year), the US lags significantly, with only 40% of participants reporting AI use. This is the lowest among 21 surveyed countries, where others like the UAE, Nigeria, and India are well over 80%. Similarly, US optimism about AI benefits is the lowest at 33%, compared to a global average of 57%. This suggests a national issue, with many in the US potentially underestimating the disruptive potential of this technology.
 
 ### Elon Musk vs. OpenAI
+
 Adding to the industry's drama, **Elon Musk's lawsuit against OpenAI and Microsoft** is heading to trial in late April, with Musk seeking up to $134 billion in damages. His lawyers argue he is entitled to a portion of OpenAI's current $500 billion valuation due to his initial $38 million seed funding in 2015. OpenAI's lawyers have rejected this claim, calling his methodology "made up" and his demands "implausible." Court filings have also revealed private notes from OpenAI co-founder Greg Brockman from 2017, discussing ways "to get out from Elon" and Elon's demands for majority equity and control, even suggesting his children control AGI. This legal battle is expected to be a significant overhang for OpenAI throughout the year.
 
 ## Context

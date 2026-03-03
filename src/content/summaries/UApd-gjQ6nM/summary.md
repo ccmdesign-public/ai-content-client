@@ -6,29 +6,23 @@ metadata:
 
     https://ryzen.pro/en/laptop/?utm_medium=social&utm_source=youtube&utm_campaign=q425_141pi&utm_content=allaboutai
 
-
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
-
 
     My AI Video Course:
 
     https://www.theaivideocourse.com/
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
-
 
     Business Inquiries:
 
     kbfseo@gmail.com
 
-
     #amd #RYZENAIPRO
-
 
     @AMD"
   channel: "All About AI"
@@ -91,12 +85,15 @@ The video demonstrates practical local AI capabilities on consumer hardware in 2
 The video showcases a practical demonstration of running multiple AI models locally on an AMD Ryzen AI Pro laptop equipped with 128GB of RAM. The host tests three primary model types through the Llama interface to demonstrate complete offline AI capabilities.
 
 ### Performance Benchmarks
+
 The **GPT OSS 20B** model achieved **40 tokens per second** when generating a story about RAM history, which the host noted was "far more than I can read." The **Quen Coder 30B** model performed even better at **51 tokens per second** when creating a Python snake game, demonstrating that larger models don't necessarily mean slower performance.
 
 ### Vision Model Capabilities
+
 The **Quen 3VL 8B** vision model successfully performed OCR tasks, reading Hacker News headlines from a screenshot and identifying the top three articles. The model worked both in terminal and through Llama's GUI interface, with the pre-loaded model completing the task in just **4 seconds** in the GUI.
 
 ### Agentic Workflows with Open Coder
+
 The host demonstrated **Open Coder** (an open-source version of Cursor) for agentic programming tasks:
 
 - Created a black-and-white HTML page with centered text
@@ -108,6 +105,7 @@ The host demonstrated **Open Coder** (an open-source version of Cursor) for agen
 - Noted that while functional, Open Coder's additional context requirements can slow performance compared to direct model use
 
 ### Privacy and Practical Applications
+
 The host emphasized the **security benefits** of local AI processing:
 
 - No data leaves the device

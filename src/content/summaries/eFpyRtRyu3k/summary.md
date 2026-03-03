@@ -4,7 +4,6 @@ metadata:
   title: "How to Learn AI with AI"
   description: "Overview of the shift from instructor-led courses to agent-first, context-driven learning with AI as a collaborative build partner. Key mindsets: start with vision, think out loud, insist on mutual pushback, and use AI as a mirror for refining ideas. Practical tactics: create handoff documents, paste exact errors or code into prompts, use AI to craft prompts for other models, preserve session context, and prefer voice over typing for faster iteration.
 
-
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
     Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
@@ -76,7 +75,9 @@ The video presents a framework for using AI as a learning and building companion
 
 The video argues that the paradigm for learning AI and using AI tools has fundamentally shifted. Instead of traditional instructor-led tutorials, the future is **'pair learning' with AI as a build partner**. This requires adopting new mental models and practical techniques to work effectively alongside advanced AI systems.
 
-### Mindset ShiftsSeveral mindset adjustments are critical for this new way of learning:
+### Mindset Shifts
+
+Several mindset adjustments are critical for this new way of learning:
 
 - **Start with vision, not tasks**: Provide AI with your overarching goals and context first, not just the immediate task.
 
@@ -94,7 +95,9 @@ The video argues that the paradigm for learning AI and using AI tools has fundam
 
 - **Manage the conversation**: You are the project manager; decide when to diverge, stop threads, or move on.
 
-### Practical TacticsThe host shares specific, actionable tactics honed through personal experience building projects without coding knowledge:
+### Practical Tactics
+
+The host shares specific, actionable tactics honed through personal experience building projects without coding knowledge:
 
 - **Create handoff documents**: At the end of long sessions, ask the AI to summarize key themes, decisions, open questions, and the project's current state to preserve context for future sessions.
 

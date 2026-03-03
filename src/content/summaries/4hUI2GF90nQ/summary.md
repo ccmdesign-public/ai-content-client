@@ -4,9 +4,7 @@ metadata:
   title: "Why opencode is totally underappreciated"
   description: "Opencode matters more than you might think. Not only does it look stellar, but it also gives us an alternative to go to if any of the big LLM providers start charging too much for their tokens.\ 
 
-
     So in this video we'll do a small deep dive on how to set it up with ollama and with marimo.\ 
-
 
     00:00 What is opencode
 
@@ -85,12 +83,15 @@ Open code addresses the need for a flexible, vendor-agnostic terminal assistant 
 Open code is introduced as a terminal-based alternative to tools like Claude Code, designed to give developers more control over which language models they use. It functions as a versatile wrapper that can connect to **Open Code Zen** (the platform's hosted models), **Open Router**, or local instances. This flexibility serves as an 'insurance policy,' ensuring developers can switch to open-source alternatives if proprietary API prices increase.
 
 ### Local Model Configuration
+
 A significant portion of the video focuses on setting up **Ollama** to work with Open Code. The author emphasizes a critical configuration step: the default context length in Ollama is often too short (4k) for agentic tasks. To avoid errors, users must manually increase the **context length** to at least 64k. Furthermore, configuration requires editing a `json` file to map specific Ollama model names to the Open Code interface, ensuring exact matches to prevent connection failures.
 
 ### Ensuring Agentic Capabilities
+
 Not all models are suitable for Open Code's advanced features. The author highlights the importance of choosing models trained for **tool calling**. Without this capability, the LLM cannot perform the 'agentic' parts of the job, such as reading or writing files and performing web searches. Even modern models like Gemma 3 must be checked for specific tool support to ensure they can interpret when they need to execute an action rather than just generating text.
 
 ### The Mimo Integration
+
 The video demonstrates a practical application using **Mimo**, an interactive Python notebook tool. By running Mimo with the `--watch` flag, the notebook frontend automatically refreshes when changes are detected. Through a protocol-based bridge, an Open Code agent can be launched within the Mimo interface. This allows the AI to act as a 'build mode' assistant that can modify the notebook's functions and UI elements in real-time, such as adding new mathematical functions to a Taylor series explainer app.
 
 ## Context

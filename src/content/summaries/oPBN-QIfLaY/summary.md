@@ -4,18 +4,13 @@ metadata:
   title: "Vibe Check: Claude Cowork Is Claude Code for the Rest of Us"
   description: "Anthropic just dropped Claude Cowork—essentially Claude Code for everyone, not just engineers—and we got to chat about it with a product engineer at Anthropic who helped build it.
 
-
     In this live Vibe Check, Dan Shipper and Kieran Klaassen explore the new interface together, testing what works (and what doesn't) in real time. Anthropic’s Felix Rieseberg joins midway through to explain the philosophy behind Cowork's design: why it separates \"Tasks\" from \"Chats,\" how the queue system lets you send messages while the agent is working, and what \"agent-native\" architecture means in practice. They also dig into Skills—Claude's prompt system that lets you customize how it works—and the Chrome connector for browser automation.
-
 
     This is a raw, unfiltered first look at what might be the future of how knowledge workers interact with AI: async workflows instead of turn-by-turn chat.
 
-
     If you found this episode interesting, please like, subscribe, comment, and share!
 
-
     Want even more?
-
 
     Check out Dan's guide to building agent-native applications: https://every.to/guides/agent-native
 
@@ -24,7 +19,6 @@ metadata:
     Subscribe to Every: https://every.to/subscribe
 
     Follow him on X: https://twitter.com/danshipper
-
 
     00:01:00 - What is Claude Cowork
 
@@ -122,6 +116,7 @@ Every's team, having received early access, performs a live 'vibe check' of Anth
 ## Summary
 
 ### Introduction and Initial Demo
+
 The Every team hosts a live-streamed 'vibe check' of Anthropic's newly released Claude Co-Work, which they describe as **'Claude Code for non-technical people.'** The app presents a third tab in the Claude interface alongside Chat and Code, focused on **long-running, async tasks**. Initial demos show it successfully completing multi-step assignments like analyzing website competitors, auditing a month of calendar data against personal goals, and fetching specific analytics from a Post
 
 Hog dashboard by controlling the user's Chrome browser.
@@ -129,11 +124,13 @@ Hog dashboard by controlling the user's Chrome browser.
 A key differentiator from standard Claude Chat is the **async, queued interaction model**. Users can add new instructions to a task while it's still running, eliminating the 'wait-and-respond' pattern of chat. The interface shows progress, artifacts, and context on the right sidebar, framing work as discrete 'tasks' rather than conversational threads.
 
 ### Core Philosophy and Design Decisions
+
 Felix, a technical staff member from Anthropic who helped build Co-Work, joins the stream. He reveals the version was built in **about a week and a half** as a 'research preview.' The separate tab is intentional: it's a **'construction site'**—a fast-iterating, less-polished environment meant for early adopters to co-create the product's future. It runs locally on the user's computer (unlike cloud-based chats), allowing for more aggressive/experimental agentic capabilities and faster development cycles.
 
 Felix shares a core philosophical belief: the current proliferation of specialized AI UIs will likely consolidate. The future may hold **fewer, more general input interfaces** (like a smart search bar) that infer user intent, rather than many task-specific boxes. Co-Work is a step in exploring that transition for non-coding work.
 
 ### The Power of Skills and Agent-Native Architecture
+
 The discussion delves into the technical underpinnings. Co-Work is a prime example of an **agent-native architecture**, where deterministic software rules are replaced by a central AI agent connected to the UI. This enables **emerging capabilities**—users can combine primitive tools in ways the developers didn't anticipate.
 
 *   **Skills** are highlighted as the primary composable layer. These are markdown files that instruct Claude on how to perform specific types of work (e.g., 'write in the style of Dan Shipper,' 'follow Swiss design principles,' 'generate 3D print files'). Any skill installed in the main Claude AI app is automatically available in Co-Work.
@@ -143,6 +140,7 @@ The discussion delves into the technical underpinnings. Co-Work is a prime examp
 *   The team discusses the architectural principle of **parity**: anything a user can do through the UI, the agent should also be able to do. Co-Work exhibits this when it automatically triggers a file-picker UI upon detecting the user wants to access a folder.
 
 ### Practical Use Cases and Limitations
+
 The stream tests practical boundaries. Dan attempts to use Co-Work with an 'Every Proofreader' skill to copy-edit a Google Doc—a notoriously complex task for AI due to Google Docs' non-standard HTML. While Co-Work navigates to the doc and enters suggestion mode, it struggles with the precise mechanics of making edits, highlighting current limitations.
 
 Successful use cases demonstrated include:
@@ -160,6 +158,7 @@ Hog) to pull specific metrics.
 The team notes Co-Work feels like a **'friendlier wrapper' on Claude Code's engine**, sometimes even showing Claude Code error messages. Its current 'jankiness' is acknowledged but expected for such an early release.
 
 ### Final Assessment and Future Vision
+
 In their final rating, the Every team gives Co-Work a **'Green' for idea/concept** and a **'Yellow' for current execution**, praising its paradigm-shifting potential while noting the rough edges. They see it as the beginning of a **'Claude Code moment' for non-technical professionals**, teaching users to think in terms of async task delegation.
 
 Felix, when asked for feature requests, is told: 1) **'YOLO access' to the entire filesystem** (instead of per-folder permissions), and 2) **A plugin/skill marketplace** for easier discovery and installation. The stream concludes by emphasizing that the most exciting uses for Co-Work will be discovered by curious users experimenting on this new 'playground,' shaping its evolution alongside Anthropic.

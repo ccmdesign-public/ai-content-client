@@ -4,7 +4,6 @@ metadata:
   title: "Well, I Didn’t See That Coming! with KARDO AYOUB — SmashingConf Freiburg 2025"
   description: "Join us for a fun, light-hearted, and eye-opening (pun intended!) journey through the world of design, as Kardo shares his personal story of becoming a visually impaired designer. He'll be talking about what it's like to navigate the design world with a vision impairment, how it's transformed the way he thinks about design and accessibility, and why inclusive design isn't just important — it's essential.
 
-
     Expect real-life insights, some humorous stories, and practical tips to help you rethink the way you approach design. Whether you're a seasoned designer or just curious about how to make your products more user-friendly, this talk will inspire you to see the world of design differently. You'll no doubt walk away with a fresh perspective on how good design can make a huge impact for everyone — whether they have 20/20 vision or not! Don't miss out-let's make the world more inclusive, one design at a time."
   channel: "Smashing Magazine"
   channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
@@ -48,19 +47,27 @@ Kardo Ayoub, a product designer with 16+ years of experience, shares how a life-
 
 ## Summary
 
-### Introduction and Personal BackstoryKardo Ayoub, a London-based product designer with nearly 17 years of experience working with startups and multinationals, begins by contrasting his former ultra-active lifestyle with the event that changed everything. A decade ago, during a haircut, he began seeing unexplained blue lights, which were eventually diagnosed as symptoms of a brain tumor.
+### Introduction and Personal Backstory
+
+Kardo Ayoub, a London-based product designer with nearly 17 years of experience working with startups and multinationals, begins by contrasting his former ultra-active lifestyle with the event that changed everything. A decade ago, during a haircut, he began seeing unexplained blue lights, which were eventually diagnosed as symptoms of a brain tumor.
 
 After insisting on an MRI, he was informed he had a lesion "the size of a lemon" deep in his visual cortex. The world-renowned surgeon's reaction upon learning Ayoub was a designer was "Oh, shit," due to the high risk of vision loss from operating in that area. Ayoub insisted on being awake during the 9-hour surgery, which he describes as a positive, joke-filled experience with the medical team.
 
-### Life with Hemianopia and EpilepsyPost-surgery, Ayoub discovered the outcome was far more severe than the predicted "little bit of peripheral vision" loss. He has **hemianopia**, a condition where the left visual field of both eyes is completely absent. He sees the world split 50/50—a straight vertical line divides what he can and cannot see. This affects everything: reading long lines on a desktop monitor is extremely difficult as he loses his place, he bumps into objects and people on his blind side, and he only eats half his plate.
+### Life with Hemianopia and Epilepsy
+
+Post-surgery, Ayoub discovered the outcome was far more severe than the predicted "little bit of peripheral vision" loss. He has **hemianopia**, a condition where the left visual field of both eyes is completely absent. He sees the world split 50/50—a straight vertical line divides what he can and cannot see. This affects everything: reading long lines on a desktop monitor is extremely difficult as he loses his place, he bumps into objects and people on his blind side, and he only eats half his plate.
 
 He also developed epilepsy, experiencing seizures and bizarre visual hallucinations where people appeared as chipmunks or objects changed size and shape. He spent months rehabilitating himself by playing fast-paced arcade games like whack-a-mole and table tennis to retrain his brain to build a cohesive picture of the world.
 
-### The Impact on Design Philosophy and PracticeThis personal catastrophe fundamentally transformed Ayoub's approach to design. He moved from being a "creatively-led" designer focused on awards and being different to one driven by **empathy and user impact**. He now prioritizes solving genuine problems over creating visually stunning work.
+### The Impact on Design Philosophy and Practice
+
+This personal catastrophe fundamentally transformed Ayoub's approach to design. He moved from being a "creatively-led" designer focused on awards and being different to one driven by **empathy and user impact**. He now prioritizes solving genuine problems over creating visually stunning work.
 
 He illustrates this with a volunteer project: a simple, five-screen application for doctors to visually annotate and record consultations. This solved the critical problem that 80% of patients forget 90% of medical information after appointments. The app, using peer-reviewed NHS illustrations, broke language barriers and significantly improved patient understanding and treatment adherence. This "simple" project became his most rewarding work because it created tangible, positive change.
 
-### The Reality of Accessibility and InclusionAyoub criticizes the superficial treatment of accessibility in the industry. He points out that **1.3 billion people globally are disabled**, and disability is not a monolithic experience—it includes permanent, temporary, and situational limitations (e.g., holding a baby, driving). He shows how corporate diversity efforts often boil down to lazy, clichéd imagery, like the same stock photo of a woman in a wheelchair color-corrected for different bank websites.
+### The Reality of Accessibility and Inclusion
+
+Ayoub criticizes the superficial treatment of accessibility in the industry. He points out that **1.3 billion people globally are disabled**, and disability is not a monolithic experience—it includes permanent, temporary, and situational limitations (e.g., holding a baby, driving). He shows how corporate diversity efforts often boil down to lazy, clichéd imagery, like the same stock photo of a woman in a wheelchair color-corrected for different bank websites.
 
 He argues that **accessibility is still treated as a disclaimer, not a core design principle**. The solution is to involve people with disabilities from the very beginning of the design process, as they are the ultimate experts on their needs. While integrating accessibility upfront may seem costly, it pays off by serving a wider audience and preventing user alienation.
 

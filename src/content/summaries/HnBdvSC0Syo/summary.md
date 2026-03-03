@@ -14,7 +14,6 @@ metadata:
 
     The common story is that prompting is just writing clever text — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on the real prompt lifecycle:
 
     • Why intent formation is the missing first stage
@@ -24,7 +23,6 @@ metadata:
     • What separates individual tinkering from production-grade evaluation
 
     • Where AI agents and deployment workflows demand rigorous prompt tooling
-
 
     Chapters:
 
@@ -44,9 +42,7 @@ metadata:
 
     15:44 The Importance of Intent Formulation
 
-
     Teams and operators who understand the lifecycle can move faster without sacrificing reliability.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -104,15 +100,19 @@ Effective prompting requires a fundamental shift from immediate drafting to a de
 ## Summary
 
 ### The Missing Layer of Prompting
+
 Nate B Jones argues that most AI users jump straight into 'Stage 2' of the prompting process: the authoring and drafting phase. By skipping the initial layer of **Intent Formation and Discovery**, users often produce prompts that are too vague or 'fuzzy' to yield optimal results. This issue is particularly prevalent among beginners, but even experts succumb to it when trying to move too quickly through their workflow.
 
 ### Moving Beyond Fuzzy Goals
+
 When users start with a prompt such as 'summarize this' or 'analyze the sentiment,' they are operating with a fuzzy goal. This lack of clarity leads to inconsistent outputs. The transition from a general idea to a **high-lever prompt** requires a deliberate process of uncovering the specific objective, identifying the necessary constraints, and outlining the exact steps the AI should take. High-lever prompts act as tools that do the heavy lifting, but they cannot be constructed without first refining the underlying intent.
 
 ### The Drafting vs. Discovery Paradox
+
 Drafting is the act of putting words to paper, but discovery is the act of mental mapping. Nate Jones suggests that when we skip discovery, we are essentially building a house without a blueprint. We might know we want a 'house' (the summary), but we haven't decided on the floor plan (the constraints and steps). For individuals, the struggle isn't just about prompt syntax; it's about decision-making. By identifying that **Stage One** is actually about intent, we can slow down and ask: What is the ultimate objective? What are the non-negotiable constraints? What logical path must the AI follow?
 
 ### The Need for Better Tools
+
 The video concludes by noting that existing AI interfaces aren't particularly well-suited for the kind of **intent formation** required to handle real-world complexity. To solve this, users must consciously prioritize the discovery phase to transform high-level intent into a structured set of instructions that are **unambiguous** and highly functional.
 
 ## Context

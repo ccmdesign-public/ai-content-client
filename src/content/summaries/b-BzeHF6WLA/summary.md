@@ -4,13 +4,11 @@ metadata:
   title: "Open Responses - The NEW Standard API for Open Models"
   description: "In this video, I look at the Open Responses Standard that's been released by OpenAI to support open models with their Responses SDK
 
-
     Site: https://www.openresponses.org/
 
     HF: https://huggingface.co/blog/open-responses
 
     Demo:  https://github.com/samwit/Open-Responses-Demo
-
 
     For more tutorials on using LLMs and building agents, check out my Patreon
 
@@ -18,16 +16,13 @@ metadata:
 
     Twitter: https://x.com/Sam_Witteveen\ 
 
-
     🕵️ Interested in building LLM Agents? Fill out the form below
 
     Building LLM Agents Form: https://drp.li/dIMes
 
-
     👨‍💻Github:
 
     https://github.com/samwit/llm-tutorials
-
 
     ⏱️Time Stamps:
 
@@ -124,9 +119,11 @@ OpenAI has introduced the **Open Responses API**, a proposed standard to create 
 The standard is designed for **agentic and system-level applications**, moving beyond simple chat completions. It natively supports **tool calling, multimodal inputs, streaming, and structured reasoning outputs**. A key innovation is handling **reasoning traces**, allowing models to return either raw reasoning tokens or summaries, addressing a point of frustration where open models previously implemented reasoning in incompatible ways.
 
 ### Competition from Anthropic
+
 However, OpenAI faces significant competition. **Anthropic's Claude API** has emerged as an unofficial standard, particularly for coding applications via **Claude Code**. Chinese model providers like Moonshot AI and ZAI are explicitly training their models for Claude API compatibility to tap into that ecosystem, a trend Ollama has also recently adopted.
 
 ### Technical Implementation and Support
+
 Technically, Open Responses builds on OpenAI's existing Responses API, introducing the concept of **"items"** to represent different states in an agentic loop (messages, tool calls, reasoning steps). It also supports **server-side hosted tools** (like code sandboxes) and **tool choice** parameters.
 
 Early community adopters include **Hugging Face, Vercel, Open

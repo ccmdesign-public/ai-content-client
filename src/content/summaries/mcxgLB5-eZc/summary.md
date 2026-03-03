@@ -4,12 +4,9 @@ metadata:
   title: "Agent OS v3: Leaner & Smarter for Building in 2026"
   description: "Agent OS v3 is here — rebuilt from the ground up for how we actually build in 2026.
 
-
     I stripped out 70% of the framework. What's left: a leaner system for discovering, documenting, and injecting your coding standards into AI-powered, spec-driven development.
 
-
     In this video, I'll show you:
-
 
     - The new 'discover-standards' command for surfacing your opinionated patterns and documenting standards.
 
@@ -19,26 +16,21 @@ metadata:
 
     - Using profiles for managing different standards across project types
 
-
     👇 **Your Builder Briefing (free)**
 
     https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
-
 
     👇 **Use Agent OS** (free open source):
 
     https://buildermethods.com/agent-os
 
-
     👇 **Use Design OS** (free open source):
 
     https://buildermethods.com/design-os
 
-
     👇 **Join Builder Methods Pro**
 
     https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
-
 
     ▶️ Related videos:
 
@@ -46,12 +38,9 @@ metadata:
 
     Design OS: The AI-first design process https://youtu.be/2vu-6-lIhAs
 
-
     💬 Drop a comment with your questions and requests for upcoming videos!
 
-
     Chapters:
-
 
     0:00 Legacy codebases & AI
 
@@ -136,9 +125,11 @@ Agent OS v3 bridges the critical gap between AI agents scanning code and underst
 In 2026, a major pain point in AI-powered development is that agents can read code but don't understand the architectural decisions, team conventions, and historical reasoning behind it. Agent OS v3 solves this by providing a lightweight system to define, manage, and inject your project's unique standards into your development workflow.
 
 ### Core Philosophy & Evolution
+
 The philosophy behind v3 is **"don't reinvent the wheel."** It strips away 70% of its previous footprint by removing features now handled excellently by native tools like Cloud Code's Plan Mode. It now focuses solely on filling the gaps professionals need: capturing undocumented knowledge and ensuring it's usable by AI agents.
 
 ### How It Works: The Three Pillars
+
 1.  **Discover & Document Standards:** Run a command to scan your codebase. Agent OS identifies unusual or opinionated patterns (e.g., a specific API response structure) and then *interviews you* with targeted questions to capture the strategic reasoning. This turns implicit knowledge into formal, concise standards files.
 2.  **Enhanced Spec Shaping:** When planning a new feature in Plan Mode, running `shape spec` triggers Agent OS to ask clarifying questions informed by your product mission and standards. It also automatically saves the final spec and planning conversation to a persistent folder in your project.
 3.  **Profiles & Context Injection:** You can maintain different standard sets (e.g., for Laravel vs. marketing sites). The key utility is the `inject standards` command, which can be used anywhere:
@@ -150,6 +141,7 @@ The philosophy behind v3 is **"don't reinvent the wheel."** It strips away 70% o
 *   **While creating Claude Skills:** To bake your conventions directly into a reusable skill's instructions.
 
 ### Practical Workflow
+
 Brian demonstrates using Agent OS in his Builder Methods (Rails) codebase. After installing, he:
 
 *   Runs `discover standards` on the views/components, letting Agent OS find patterns and interview him about the 'why.'

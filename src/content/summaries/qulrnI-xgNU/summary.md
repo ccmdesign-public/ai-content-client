@@ -4,20 +4,15 @@ metadata:
   title: "n8n v2 + MCP: How I Build and Debug Entire Workflows (Tutorial)"
   description: "Build and debug n8n workflows using Claude Opus 4.5 (or any MCP enabled client) with this unofficial MCP server that's way more powerful than n8n's official one.\ 
 
-
     Self-host n8n on Hostinger: https://hostinger.com/jeredblu\ 
 
     (10% off code: JEREDBLU)\ 
 
-
     While the official server only has 3 tools, that can only work with built out workflows.
-
 
     This one can create workflows, edit them, view executions, and help you debug—all connected directly to Claude Code (or whatever agent you choose).
 
-
     I also compare it to the built in n8n Ai that only comes with the cloud version, and how I am able to achieve all that functionality and more for a fraction of the price using n8n on Hostinger.
-
 
     What You'll Learn:
 
@@ -30,7 +25,6 @@ metadata:
     Building complete workflows with Claude Code plan mode
 
     Debugging workflows with MCP execution access
-
 
     ⏱️ TIMESTAMPS
 
@@ -60,7 +54,6 @@ metadata:
 
     13:17 – Recap and final thoughts
 
-
     🔗 RESOURCES
 
     My complete guide: https://github.com/JeredBlu/guides/blob/main/Building_n8n_with_agents_via_MCP_and_Skills.md
@@ -74,7 +67,6 @@ metadata:
     Book a call with me → https://yedatechs.com/#container06
 
     Sponsorship inquiries → hi@yedatechs.com
-
 
     #n8n #skills #ClaudeCode #MCP #Hostinger #Automation"
   channel: "JeredBlu"
@@ -139,6 +131,7 @@ The unofficial n8n MCP server revolutionizes workflow creation and debugging. Ke
 ## Summary
 
 ### Unofficial MCP Server Setup
+
 CZ Lancowski's Docker-based MCP server (11k Git
 
 Hub stars) connects to n8n instances via API key and URL. It enables:
@@ -152,6 +145,7 @@ Hub stars) connects to n8n instances via API key and URL. It enables:
 Compared to n8n's official MCP (limited to 3 tools), this solution works for both cloud and self-hosted users, offering superior control.
 
 ### Hosting and Upgrades
+
 **Hostinger** provides affordable self-hosting:
 
 - KVM2 plan handles n8n efficiently
@@ -166,6 +160,7 @@ For **n8n v2 upgrades**:
 2. Run terminal commands: `docker compose pull`, `docker compose down`, `docker compose up -d`
 
 ### Workflow Development Process
+
 1. **Start with a PRD**: Define requirements first (e.g., phishing email detector)
 2. **AI-driven building**: Cloud Code Opus45 uses MCP tools to:
 

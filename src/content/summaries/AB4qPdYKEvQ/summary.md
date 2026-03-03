@@ -12,9 +12,7 @@ metadata:
 
     What's really happening with AI scaling and the future of large language models? The common story is that bigger models mean better results — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on Ilya Sutskever's perspective on where AI research is heading:
-
 
     Why today's LLMs generalize worse than a bright teenager
 
@@ -24,9 +22,7 @@ metadata:
 
     Where multi-agent ecosystems could become the real competitive moat
 
-
     For AI strategists and builders, the tension between scaling believers and research-first thinkers signals both opportunity and uncertainty ahead.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -75,9 +71,11 @@ The video argues that human emotional intelligence provides a critical edge over
 The video, featuring insights from Ilia, posits that emotions are far from mere decoration in human cognition. Instead, they function as a sophisticated, real-time **value function**. This internal system provides a simple, robust signal about whether a situation is good or bad, projecting its potential future outcomes. For example, a 'pit of fear' advising against walking down a dark alley is this mechanism in action.
 
 ### The Limitation of Reinforcement Learning
+
 This stands in stark contrast to how **reinforcement learning (RL)** operates in AI. Ilia maps the concept back to RL, noting a critical flaw: RL systems only arrive at a success or failure outcome at the 'end of an episode.' The AI's value function estimates are updated based on these final, delayed rewards, making the process fundamentally 'backwards looking.'
 
 ### Why This Creates a Scaling Difference
+
 The human emotional 'gut feeling' is proactive and forward-projecting, allowing for rapid, efficient course correction. AI's RL, however, must laboriously work backward from sparse reward signals. Ilia asserts this gap in **temporal assessment**—evaluating the future vs. the past—is at the heart of why human learning and decision-making can scale and generalize in ways current AI cannot. He takes this distinction seriously, framing it as a key challenge for creating more human-like artificial intelligence.
 
 ## Context

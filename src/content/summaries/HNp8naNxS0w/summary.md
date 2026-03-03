@@ -4,13 +4,11 @@ metadata:
   title: "jQuery 4 FINALLY released... (What!?)"
   description: "jQuery 4 is finally here, 20 years later. Let’s break down what changed, what broke, what got removed, and why this “old” library still powers most of the web today.
 
-
     🔗 Relevant Links
 
     jQuery 4: https://blog.jquery.com/2026/01/17/jquery-4-0-0/
 
     w3tech source: https://w3techs.com/technologies/details/js-jquery
-
 
     ❤️ More about us
 
@@ -19,7 +17,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -104,6 +101,7 @@ Query still powers a vast majority of websites (largely through Word
 Press), it needs to evolve with the web platform.
 
 ### Browser Support Modernization
+
 The most visible change is the **dropped support for legacy browsers**. Internet Explorer 10 and below, Edge Legacy, and older versions of iOS, Firefox, and Android browsers are no longer supported. Internet Explorer 11 support remains for now but is slated for removal in j
 
 Query 5. This allows j
@@ -111,6 +109,7 @@ Query 5. This allows j
 Query to stop polyfilling behaviors for outdated platforms.
 
 ### Architectural & API Updates
+
 The core code has been migrated from **AMD to ES modules**, making it play nicely with modern bundlers like Vite and Webpack without workarounds. Furthermore, a host of j
 
 Query utility functions have been removed because their functionality is now native to Java
@@ -124,6 +123,7 @@ Numeric`, and `$.is
 Function`.
 
 ### Bug Fixes & Consistency
+
 With older browsers out of the picture, j
 
 Query can now align with modern standards. A key fix is for **focus event ordering**; j
@@ -133,6 +133,7 @@ Query previously had to enforce its own order because browsers disagreed, but no
 Query auto-promoting JSON to JSONP (2014) and the CSS setter automatically appending 'px' to unitless numbers (2015).
 
 ### Slim Build & Legacy Role
+
 The team offers a **slim build** (19.5KB) that strips out modules for features like animations (now easier in CSS) and deferreds/callbacks (largely replaced by Promises). This reflects j
 
 Query's current role: a stable, modernized library crucial for maintaining legacy applications and a testament to the layered, evolutionary nature of web technology, even if it's not the first choice for new projects.

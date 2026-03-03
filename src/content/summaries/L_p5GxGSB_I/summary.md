@@ -4,7 +4,6 @@ metadata:
   title: "Agent Skills, Rules, Subagents: Explained!"
   description: "There's a lot of new terms for how you manage context with coding agents. I don't think it needs to be this complicated. Here's what you need to know, and some history on how we've gotten here.
 
-
     https://cursor.com/blog/dynamic-context-discovery
 
     https://cursor.com/docs/context/skills
@@ -78,11 +77,13 @@ This video explains the evolution of coding agent systems and distills them into
 The video traces the historical development of coding agent systems, showing how various features converged into two primary concepts to reduce complexity.
 
 ### The Evolution of Agent Systems
+
 Initially, **rules files** were created to combat model hallucinations by providing **static context**—essential information included in every conversation. As rules grew, they split into multiple files but combined into one static context block. The idea of conditional inclusion emerged but was ahead of its time due to early tool-calling limitations.
 
 Next, **slash commands/custom commands** allowed packaging and sharing repeatable prompt workflows (like a Git commit-to-PR flow). To enable code execution, **MCP servers** were introduced, connecting to external systems and exposing **third-party tools** (e.g., for Slack or Linear). However, loading many tools bloated the context window.
 
 ### Consolidating into Core Concepts
+
 Features like **modes** and **subagents** added UI discoverability and scoped tool access for reliability, while **deterministic hooks** guaranteed specific pre/post-conversation actions. The key insight is that all these systems represent two types of context:
 
 *   **Static Context (Rules):** Persistent, high-quality information loaded in every conversation.
@@ -90,9 +91,11 @@ Features like **modes** and **subagents** added UI discoverability and scoped to
 *   **Dynamic Context (Skills):** Code-based capabilities that load on-demand, avoiding bloat.
 
 ### Skills as the Dynamic Solution
+
 **Skills** encapsulate this dynamic context. In their simplest form, they are reusable workflows (like a command). At their most advanced, they bundle scripts, executables, and assets as distributable code. Modern agents (like Cursor) can optimize around this pattern—for example, loading MCP server tools only when used, preserving benefits like OAuth while minimizing overhead.
 
 ### Practical Guidance
+
 For users, the mental model simplifies to managing **rules** and **skills**. Rules should be a minimal, living document updated when errors occur. Skills are the evolving standard for dynamic capabilities, with ecosystems expected to grow. Other features (hooks, subagents) serve niche reliability needs but aren't the primary focus.
 
 ## Context

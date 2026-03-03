@@ -20,7 +20,6 @@ metadata:
 
     If you want clarity over confusion, please like this video and subscribe for more mechanism-first medical breakdowns.
 
-
     0:00 The \"Invoice\" of Weight Loss
 
     2:34 The Evolutionary Trap: Why You Can’t Lose Weight
@@ -53,7 +52,6 @@ metadata:
 
     26:28 A New Paradigm for Obesity
 
-
     📚 REFERENCES & CITATIONS:
 
     • Evolutionary Medicine Review (NEJM, 2020)
@@ -77,7 +75,6 @@ metadata:
     Instagram/tiktok/youtube: @draminhedayat
 
     Website: www.draminhedayat.com
-
 
     MEDICAL DISCLAIMER
 
@@ -142,9 +139,11 @@ Pathologist Dr. Amin Hedayat explains that GLP-1 medications are powerful biolog
 Dr. Hedayat frames modern obesity as an **evolutionary mismatch**. Our biology is optimized for fat storage to survive famine, controlled by a "lizard brain" (the **hypothalamus**) that manages weight through **Leptin** (the break) and **Ghrelin** (the gas pedal). In obesity, the body becomes leptin-resistant, causing a persistent hunger signal despite ample energy stores. GLP-1 medications like **Semaglutide** and **Tirzepatide** bypass this broken circuit by mimicking gut hormones that slow digestion and signal fullness to the brain.
 
 ### Engineering and Biology
+
 Natural GLP-1 is destroyed by the enzyme **DPP4** in just two minutes. Modern engineering, inspired by the Gila Monster's venom, modified these molecules with a **C18 fatty acid tail** that binds to albumin. This allows the medication to circulate for 168 hours instead of two minutes, enabling weekly dosing. While effective, this constant hormonal override creates specific physiological costs that patients must monitor.
 
 ### The Biological Invoice
+
 The "cost" of these medications involves several clinical trade-offs:
 
 - **Gastric Slowing**: While therapeutic for weight loss, it can lead to **gastroparesis** or anesthesia risks (aspiration) due to residual food in the stomach during surgery.
@@ -154,6 +153,7 @@ The "cost" of these medications involves several clinical trade-offs:
 - **Mood Modulation**: Because GLP-1 receptors exist in dopamine-rich reward centers, some users report **anhedonia**—a reduction in motivation and a "muted" experience of joy.
 
 ### The Safe Exit Protocol
+
 To prevent the common 2/3 weight regain observed in clinical trials, Dr. Hedayat proposes a evidence-based "landing" strategy:
 
 - **The Protein Floor**: High protein intake (leucine, whey, or collagen) is mandatory to signal muscle preservation.

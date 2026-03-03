@@ -12,7 +12,6 @@ metadata:
 
     What’s really happening with software interfaces in the age of AI agents? The common story is that great products live or die by their beautiful, coherent UI — but the reality is more complicated.  ￼
 
-
     In this video, I share the inside scoop on how generative UI, agentic software, and disposable pixels are reshaping B2B SaaS and enterprise tools:
 
     • Why coherent interfaces were an economic hack, not destiny.
@@ -23,9 +22,7 @@ metadata:
 
     • Where designers, PMs, and engineers must reskill around intent.
 
-
     For B2B SaaS leaders and builders, the opportunity is to treat AI strategy as substrate-first and agent-ready, while the risk is clinging to pixel-perfect monoliths that agents and users will route around.
-
 
     Subscribe for daily AI strategy and news.
 
@@ -89,9 +86,11 @@ Google's current API strategy is facilitating a major shift in how users interac
 Banana Pro**, which users are leveraging to transform structured data prompts into high-quality visual assets like sales charts and customer growth graphs. This allows for a level of automation where the 'agent' not only finds the data but presents it in a human-readable, professional format immediately.
 
 ### The Shift to Generative Interfaces
+
 This technology signals the end of the traditional, static user interface. Historically, software developers designed fixed dashboards and menus that every user navigated in the same way. However, Nate B Jones argues that we are entering an era of the **Generative Interface**. In this paradigm, the software is generated on demand. The layout, the visuals, and the data points are synthesized in real-time based purely on the user's current context and intent. 
 
 ### Contextual and Private Computing
+
 Because these interfaces are generated for a specific 'moment' or 'ask,' the software becomes highly private and localized to that specific interaction.
 
 - **Intent-Driven**: The software doesn't exist until the user expresses a need.

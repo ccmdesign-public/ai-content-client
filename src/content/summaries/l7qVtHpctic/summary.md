@@ -4,9 +4,7 @@ metadata:
   title: "Claude Code's MCP Problem Just Got Fixed"
   description: "Anthropic just fixed the biggest issue with using MCP servers with Claude Code. Connecting MCP servers directly to Claude Code was the fastest way to consume the entire context window, degrading Claude Code's performance and leaving less space for working conversation. In this video, I'm going to break down everything you need to know about the new MCP Search Tool that allows Claude Code to efficiently discover and use MCP tools without pre-loading all of the MCP tool definitions into the context window, saving you 10s of thousands of tokens!
 
-
     **NOTE**: I made a mistake in the CC version, the MCP Search Tool was released with v2.1.9 not v2.1.7! See the full change log here: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
-
 
     🎥 Watch Next
 
@@ -18,25 +16,21 @@ metadata:
 
     4. Turn Claude Code into a Personal Assistant: https://youtu.be/aYAVSG4Ra40
 
-
     Support me making more content and sharing free tools!
 
     https://buymeacoffee.com/kennyliao
 
     Thank you so much for your support!
 
-
     AI Launchpad Community waitlist. Free to join.
 
     https://kenneth-liao.kit.com/join
-
 
     🛠️ Resources
 
     1. MCP Launchpad: https://github.com/kenneth-liao/mcp-launchpad
 
     2. Get any of my plugins, free! https://github.com/kenneth-liao/ai-launchpad-marketplace
-
 
     🕒 Sections 
 
@@ -54,11 +48,9 @@ metadata:
 
     10:25 - How new MCP Search Tool Works
 
-
     ✉️ For Business Inquiries:\ 
 
     kennyliao@theailaunchpad.io
-
 
     #claudecode #mcp #aiagents"
   channel: "Kenny Liao"
@@ -129,9 +121,11 @@ Claude Code now features a dynamic tool-fetching mechanism that prevents unused 
 ## Summary
 
 ### The Evolution of MCP in Claude Code
+
 Previously, connecting multiple **Model Context Protocol (MCP)** servers to Claude Code resulted in 'context bloat.' Every tool definition, including complex schemas for platforms like Superbase or Sentry, was preloaded into the context window. This could easily consume over 35,000 tokens before a user even sent their first message, significantly reducing the space available for actual code and reasoning.
 
 ### The New Lazy Loading Solution
+
 In version 2.17, Anthropic introduced a **lazy loading** architecture. Instead of full schemas, Claude Code now initially loads only the names of available tools. This provides the model with an 'index' of capabilities without the associated token cost. When Claude identifies a need for a specific function, it utilizes a new system tool called **mcp_search**.
 
 This tool supports two modes of operation:
@@ -141,9 +135,11 @@ This tool supports two modes of operation:
 - **Keyword Search:** If the requirement is vague, Claude can perform a natural language search to find the top five most relevant tools.
 
 ### Implementation Steps
+
 To utilize this feature, users must manually enable it by modifying their `.claude/settings.json` (either globally or within a specific project folder). Adding the environment variable `'enable_tool_search': true` tells Claude Code to bypass the default preloading behavior. Once enabled, users will see MCP servers listed in a 'grayed out' state in the context overview, indicating they are ready for on-demand loading.
 
 ### Impact on Context Management
+
 When a tool is fetched via `mcp_search`, the full schema is dynamically injected into the system message. This ensures the model has the necessary parameters and instructions to execute the tool correctly. These definitions stay in the context for the duration of the session to facilitate repeated calls. However, unlike the previous preloading method, these tools are ephemeral. Running the **/compact** command effectively 'purges' the loaded tools, returning the context to a clean state while keeping the model's ability to re-fetch them as needed.
 
 ## Context

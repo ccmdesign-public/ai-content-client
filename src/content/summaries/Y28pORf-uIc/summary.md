@@ -6,7 +6,6 @@ metadata:
 
     Today we're working on:
 
-
     UI/UX improvements and polish
 
     Bug fixes from Day 1
@@ -15,9 +14,7 @@ metadata:
 
     Live debugging with Claude Code
 
-
     Stack: Next.js 16, React 19, Tailwind CSS 4, Google Gemini AI, SQLite, Claude Code
-
 
     🎁 WANT EARLY ACCESS TO RANKENSTEIN?
 
@@ -25,14 +22,11 @@ metadata:
 
     📝 Then:
 
-
     Join the hub: https://www.skool.com/ai-marketing-hub
 
     DM me on Skool: \"Hey Daniel, YouTube live - username: [YOUR NAME]\"
 
-
     I'll add you to the early access list! 🚀
-
 
     RESOURCES & LINKS
 
@@ -54,9 +48,7 @@ metadata:
 
     [ Claude, Gemini, Firecrawl, DataforSEO ]
 
-
     🛠️ TECH STACK:
-
 
     Next.js 16: https://nextjs.org/
 
@@ -71,8 +63,6 @@ metadata:
     Firecrawl: https://firecrawl.dev/
 
     DataForSEO: https://dataforseo.com/
-
-
 
     📝 WHAT RANKENSTEIN DOES:
 
@@ -94,9 +84,7 @@ metadata:
 
     ✅ Citation & source management
 
-
     🎯 WHO IS THIS FOR:
-
 
     Developers interested in AI tooling
 
@@ -108,10 +96,7 @@ metadata:
 
     Anyone curious about AI + code
 
-
-
     💬 LIVE CHAT RULES:
-
 
     Questions welcome - I'll answer as I code
 
@@ -121,12 +106,9 @@ metadata:
 
     Constructive feedback appreciated!
 
-
-
     ⚠️ DISCLAIMER:
 
     This is a development stream. Expect bugs, errors, and live problem-solving. That's the fun part!
-
 
     🔔 SUBSCRIBE for more AI automation!
 
@@ -195,14 +177,21 @@ This video is a live coding session where Daniel refines the UI and functionalit
 
 ## Summary
 
-### Introduction and Project OverviewDaniel begins Day 2 of his live coding series by reintroducing Rankenstein Pro, an ambitious project he describes as the world's finest SEO-optimized article creation system. He explains that this isn't a simple tool but a complex application developed over three weeks, building upon over a year of evolution through previous versions and N8N workflows. The core mission is to help businesses create well-researched, authoritative content that ranks by automating the entire process from keyword research to final article generation with integrated SEO signals. He shows the project's interactive website, which he notes was also built using Claude Code, and invites viewers to join the waitlist for a planned mid-February launch.
+### Introduction and Project Overview
 
-### Live Coding Session: UI Refinement and Bug FixesThe bulk of the session is a practical demonstration of 'vibe coding' – a relaxed, iterative development style using Claude Code. Daniel works through the application component by component, focusing on UI polish and bug fixes in his local instance. He starts in the brand photos section, where users can upload images or capture website screenshots to generate a brand's color palette and design guidelines. He identifies UI inconsistencies, such as duplicate buttons and improper icon backgrounds, and uses Claude agents to fix them. He emphasizes the importance of keeping sticky notes with brand colors and critical information for reference during AI-assisted coding.
+Daniel begins Day 2 of his live coding series by reintroducing Rankenstein Pro, an ambitious project he describes as the world's finest SEO-optimized article creation system. He explains that this isn't a simple tool but a complex application developed over three weeks, building upon over a year of evolution through previous versions and N8N workflows. The core mission is to help businesses create well-researched, authoritative content that ranks by automating the entire process from keyword research to final article generation with integrated SEO signals. He shows the project's interactive website, which he notes was also built using Claude Code, and invites viewers to join the waitlist for a planned mid-February launch.
+
+### Live Coding Session: UI Refinement and Bug Fixes
+
+The bulk of the session is a practical demonstration of 'vibe coding' – a relaxed, iterative development style using Claude Code. Daniel works through the application component by component, focusing on UI polish and bug fixes in his local instance. He starts in the brand photos section, where users can upload images or capture website screenshots to generate a brand's color palette and design guidelines. He identifies UI inconsistencies, such as duplicate buttons and improper icon backgrounds, and uses Claude agents to fix them. He emphasizes the importance of keeping sticky notes with brand colors and critical information for reference during AI-assisted coding.
 
 ### API Integration and System Architecture
+
 A significant portion of the discussion revolves around the backend services powering Rankenstein Pro. Daniel details his use of the **DataForSEO API** for gathering SERP data, keyword volumes, and competitive analysis, praising its cost-effectiveness. For crawling websites and capturing screenshots (used in the brand photos feature), he employs the **Firecrawl API**. He demonstrates adding credits to his test account and discusses implementing a credit system for end-users, aiming for a free tier with monthly allowances. He also audits the EAT (Experience, Expertise, Authority, Trust) signals module, discovering that its prompts were US-centric and not properly utilizing business intelligence context. He tasks a Claude agent with rewriting the prompts to be country/language-aware and to pull higher-quality, relevant source links directly from the DataForSEO API to avoid AI hallucination.
 
-### Community-Driven Development and Future VisionThroughout the stream, Daniel interacts with viewers, answering questions about SEO tools and his development process. He frames Rankenstein Pro as a solution to a major business problem: effective marketing and content creation. He argues that creating great content is only one piece; establishing EAT signals and brand authority is crucial for Google to recommend a business. The project is heavily influenced by feedback from his AI Marketing Hub community, who are currently beta-testing the application. He concludes by noting he must end the stream to host a live support session for that community, underscoring the iterative, user-focused nature of the project's development. He plans to continue daily live streams to document the journey toward creating a universally helpful SEO content creation tool.
+### Community-Driven Development and Future Vision
+
+Throughout the stream, Daniel interacts with viewers, answering questions about SEO tools and his development process. He frames Rankenstein Pro as a solution to a major business problem: effective marketing and content creation. He argues that creating great content is only one piece; establishing EAT signals and brand authority is crucial for Google to recommend a business. The project is heavily influenced by feedback from his AI Marketing Hub community, who are currently beta-testing the application. He concludes by noting he must end the stream to host a live support session for that community, underscoring the iterative, user-focused nature of the project's development. He plans to continue daily live streams to document the journey toward creating a universally helpful SEO content creation tool.
 
 ## Context
 

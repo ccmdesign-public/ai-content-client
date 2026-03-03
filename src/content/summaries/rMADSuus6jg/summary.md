@@ -4,9 +4,7 @@ metadata:
   title: "Beyond RAG - A system that understands your documents"
   description: "In this video we will look at file search exploration as a potential replacement to RAG. This is built on top of the the fs-explorer from llamaIndex.\ 
 
-
     LINK to the Repo: https://github.com/PromtEngineer/agentic-file-search
-
 
     My voice to text App: whryte.com
 
@@ -19,7 +17,6 @@ metadata:
     Signup for Newsletter, localgpt:
 
     https://tally.so/r/3y9bb0
-
 
     Let's Connect:\ 
 
@@ -35,9 +32,7 @@ metadata:
 
     Become Member: http://tinyurl.com/y5h28s6h
 
-
     💻 Pre-configured localGPT VM: https://bit.ly/localGPT (use Code: PromptEngineering for 50% off). \ 
-
 
     Signup for Newsletter, localgpt:
 
@@ -105,6 +100,7 @@ Agentic file search solves the context loss inherent in standard RAG by treating
 The core critique of traditional **Retrieval-Augmented Generation (RAG)** is that it destroys document hierarchy. When files are split into 500-token chunks, the relationship between sections—such as a contract clause and its corresponding schedule—is severed. Traditional RAG relies on **semantic similarity**, which often fails when the answer requires following a chain of logical cross-references across multiple documents. 
 
 ### The Agentic Alternative
+
 To solve this, the video introduces an **Agentic File Search** system built with **Llama Index**. Instead of pre-computing embeddings and retrieving fixed chunks, the agent acts like a human researcher. It follows a **three-phase strategy** to ensure no context is lost:
 
 * **Phase 1: Parallel Scan**: The system scans an entire folder in parallel, pulling the first 1,500 characters of every file. This allows the agent to build a mental map of the corpus and categorize which files are likely relevant.
@@ -116,9 +112,11 @@ Points into clean markdown for the LLM to process.
 * **Phase 3: Backtrack**: As the agent reads, it looks for explicit mentions of other documents (e.g., "refer to Section 4.2 in the Appendix"). If those documents were previously skipped, the agent intelligently backtracks to retrieve them.
 
 ### Technical Architecture
+
 The system uses **Gemini 1.5 Flash** (referenced as Gemini 3 Flash in the transcript) to drive decision-making via **structured JSON outputs**. This eliminates the common issue of LLM parsing failures by forcing the model to follow a strict schema. The agent is equipped with six primary tools: **Scan Folder**, **Preview File**, **Parse File**, **Read**, **Grep** (for regex patterns), and **Glob** (for file patterns). 
 
 ### Practical Applications and Trade-offs
+
 This method is significantly more powerful for complex tasks, such as analyzing acquisition data or legal filings. In a demo, the system successfully answered a complex question about employee benefits by identifying and reading four separate, cross-referenced documents. However, this accuracy comes at the cost of **higher latency** and **increased token usage**. It is not intended for real-time chatbots but rather for high-stakes analytical tasks where precision is more important than speed.
 
 ## Context

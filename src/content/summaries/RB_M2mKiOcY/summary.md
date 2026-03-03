@@ -4,31 +4,23 @@ metadata:
   title: "Claude Code & MCPs built my $145K marketing machine"
   description: "I sit down with Cody Schneider, growth engineer and co-founder of Graph, for a live, hands-on crash course in GTM (go-to-market) engineering powered by Claude Code. Cody walks through how he runs multiple AI agents simultaneously to handle everything from bulk Facebook ad creation and LinkedIn outreach to cold email campaigns and live data analysis — tasks that used to require a team of dozens. By the end of the episode, you'll have a full understanding of how to set up your own agent workflow, the specific tools involved, and why domain expertise paired with AI is the real competitive advantage right now.
 
-
     Cody’s GTM Toolkit:
 
     *AI/Agent Tools:* Claude Code, Perplexity API, OpenAI Codex
 
-
     *Marketing & Outreach:* Instantly AI (cold email), Phantom Buster (LinkedIn scraping/automation), Apollo API (data enrichment), Million Verifier (email verification), Raphonic (podcast host scraping)
-
 
     *Advertising:* Facebook Ads API, Facebook Ads Library (competitor research), Nano Banana Pro (AI image generation), Kai AI (bulk image generation), HeyGen API (UGC/video generation)
 
     *Infrastructure & Deployment:* Railway.com (servers, on-the-fly databases/Postgres), Vercel (deployment)
 
-
     *Data & Analytics:* Graphed / Graphed MCP (data warehouse, live data feeds), Google Analytics 4
-
 
     *CRM & Communication:* Salesforce (mentioned as comparison), Intercom, SendGrid API, Slack, Cal.com API
 
-
     *Productivity & Design:* Notion, Super Whisper (voice transcription), Claude Code front-end design skill, HTML to Canvas (for converting React components to PNGs)
 
-
     Cody's GTM Engineering Course: https://startup-ideas-pod.link/GTM-engineering
-
 
     Timestamps
 
@@ -64,9 +56,7 @@ metadata:
 
     48:50 – Building API-First Products and Agent-Native Infrastructure
 
-
     Key Points
-
 
     * GTM engineering has evolved from Clay-style data enrichment workflows into full-stack agent orchestration — where one person running multiple Claude Code agents can replace the output of a large team.
 
@@ -80,13 +70,11 @@ metadata:
 
     * Domain expertise is the real multiplier — the vocabulary you bring from your field determines the quality of output you can extract from these tools.
 
-
     The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
 
     LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
 
     The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
-
 
     FIND ME ON SOCIAL
 
@@ -95,7 +83,6 @@ metadata:
     Instagram: https://instagram.com/gregisenberg/
 
     LinkedIn: https://www.linkedin.com/in/gisenberg/
-
 
     FIND CODY ON SOCIAL:
 
@@ -184,17 +171,26 @@ Cody Schneider showcases a practical workflow for using AI agents to automate co
 
 ## Summary
 
-### Introduction to GTM Engineering and the Agent WorkflowCody Schneider introduces the concept of **GTM (Go-to-Market) engineering**, originally coined by Clay.com, which is rapidly evolving from simple data enrichment workflows into the practice of building autonomous agents. His core thesis is that all the 'middle work'—the repetitive tasks like creating ads, analyzing data, and managing outreach—can be delegated to AI agents. This transforms your role into an 'agent jockey' or strategist who generates ideas, passes them to agents like **Claude Code**, and polishes the final output, enabling work at a previously impossible scale.
+### Introduction to GTM Engineering and the Agent Workflow
 
-### Foundational Setup: The Growth Agent RepositoryThe first step is creating a centralized repository (a simple folder) that houses all your agent projects and a critical `.env` file. This environment file stores all your API keys for every service in your stack (e.g., **Intercom**, **SendGrid**, **HubSpot**, **Perplexity**, **Facebook Ads API**). This setup emphasizes an **API-first mentality**; you interact with all your daily tools through their APIs, making the quality and robustness of an API a key factor in software selection. Cody also recommends tools like Super Whisper for voice transcription to speed up the building process.
+Cody Schneider introduces the concept of **GTM (Go-to-Market) engineering**, originally coined by Clay.com, which is rapidly evolving from simple data enrichment workflows into the practice of building autonomous agents. His core thesis is that all the 'middle work'—the repetitive tasks like creating ads, analyzing data, and managing outreach—can be delegated to AI agents. This transforms your role into an 'agent jockey' or strategist who generates ideas, passes them to agents like **Claude Code**, and polishes the final output, enabling work at a previously impossible scale.
 
-### Live-Building Autonomous Marketing AgentsThe video's core is a live demonstration of building multiple agents in parallel. Cody starts by activating a pre-built agent that uses the **Claude Chrome extension** to automatically respond to people requesting a giveaway asset on a **LinkedIn** post. While that runs, he initiates the creation of a **bulk Facebook ad generator**. He instructs Claude Code to build a React-based UI that can produce 1080x1080 ad creatives as downloadable PNGs using html2canvas, based on text variations he will provide.
+### Foundational Setup: The Growth Agent Repository
+
+The first step is creating a centralized repository (a simple folder) that houses all your agent projects and a critical `.env` file. This environment file stores all your API keys for every service in your stack (e.g., **Intercom**, **SendGrid**, **HubSpot**, **Perplexity**, **Facebook Ads API**). This setup emphasizes an **API-first mentality**; you interact with all your daily tools through their APIs, making the quality and robustness of an API a key factor in software selection. Cody also recommends tools like Super Whisper for voice transcription to speed up the building process.
+
+### Live-Building Autonomous Marketing Agents
+
+The video's core is a live demonstration of building multiple agents in parallel. Cody starts by activating a pre-built agent that uses the **Claude Chrome extension** to automatically respond to people requesting a giveaway asset on a **LinkedIn** post. While that runs, he initiates the creation of a **bulk Facebook ad generator**. He instructs Claude Code to build a React-based UI that can produce 1080x1080 ad creatives as downloadable PNGs using html2canvas, based on text variations he will provide.
 
 Simultaneously, in another window, he builds an agent to scrape podcast host emails from **Refonic**, verify them with **Million Verifier**, and add them to an **Instantly** cold email campaign. He then demonstrates using an agent to automatically create a **Notion** document based on a template for a new giveaway. This showcases the 'agent jockey' workflow, where multiple agents are spawned and managed concurrently, each handling a specific 'job to be done.'
 
-### The Full Marketing Funnel Automation LoopCody demonstrates a complete cycle for Facebook ad automation. First, he has an agent use the **Perplexity API** to scrape **Reddit** and social media for pain points related to his product. Those pain points become text variations. He then uses the locally running bulk ad generator to create hundreds of ad image variations. Next, he has an agent use the **Facebook Ads API** to bulk upload all those creatives as drafts into a specific ad set. To analyze performance, he uses the **Graph MCP** (Model Context Protocol) to pull live data from his data warehouse (not directly from the rate-limited Facebook API) into a dashboard showing clicks, cost, and demographics. Finally, he has an agent analyze that data to identify high-CPM, low-performing ads and uses the Facebook Ads API to automatically pause them. This illustrates a potential autonomous loop: ideate -> create -> publish -> analyze -> optimize.
+### The Full Marketing Funnel Automation Loop
+
+Cody demonstrates a complete cycle for Facebook ad automation. First, he has an agent use the **Perplexity API** to scrape **Reddit** and social media for pain points related to his product. Those pain points become text variations. He then uses the locally running bulk ad generator to create hundreds of ad image variations. Next, he has an agent use the **Facebook Ads API** to bulk upload all those creatives as drafts into a specific ad set. To analyze performance, he uses the **Graph MCP** (Model Context Protocol) to pull live data from his data warehouse (not directly from the rate-limited Facebook API) into a dashboard showing clicks, cost, and demographics. Finally, he has an agent analyze that data to identify high-CPM, low-performing ads and uses the Facebook Ads API to automatically pause them. This illustrates a potential autonomous loop: ideate -> create -> publish -> analyze -> optimize.
 
 ### Deployment, Scalability, and Future Implications
+
 To move from a local prototype to a persistent system, Cody deploys agents to **Railway**, using its API to spin up servers on-demand. This enables creating 'on-the-fly' software and databases for specific tasks, which can be spun down after use, drastically reducing the time for data analysis projects. He predicts a shift towards 'on-the-fly UIs' and 'on-the-fly software' as the standard for forward-thinking operators. The conversation concludes with broader implications: this technology enables **autonomous marketing**, creating massive leverage for individuals and small teams but also posing a significant disruption and potential job displacement for traditional marketing roles. The ultimate advantage lies with those who combine deep domain expertise with the ability to effectively wield these new agentic tools.
 
 ## Context

@@ -4,7 +4,6 @@ metadata:
   title: "Carrots and oatmeal! No sugar! No white flour! My favorite oat cake in 15 minutes!"
   description: "🥕 Healthy Oatmeal Carrot Cake with Orange & Cream Cheese Frosting 🍊 In this video, I’m baking a wholesome and flavorful oatmeal carrot cake — no flour, just pure goodness! Packed with juicy carrots, zesty orange, and warm cinnamon, this cake is naturally sweetened and topped with a creamy citrus-infused frosting. Perfect for breakfast, dessert, or a cozy afternoon treat.
 
-
     Ingredients:
 
     2 medium carrots (~200g)
@@ -31,9 +30,7 @@ metadata:
 
     A little lemon juice
 
-
     Bake in a preheated oven at 180°C (350°F) for 50 min.
-
 
     1,5 cups (350g) cream cheese ( or cottage cheese or ricotta)
 
@@ -43,7 +40,6 @@ metadata:
 
     1/4 tsp vanillin\ 
 
-
     Icing:
 
     Orange juice (~100ml)
@@ -52,9 +48,7 @@ metadata:
 
     1 tbsp almond flakes
 
-
     🎥 Watch the full video for step-by-step instructions and tips for the perfect texture. Don’t forget to like, subscribe, and share with fellow foodies!
-
 
     #Süße_Backwaren  #Recipe"
   channel: "Süße Backwaren"
@@ -107,14 +101,17 @@ This healthy baking tutorial demonstrates how to create a nutrient-dense carrot 
 ## Summary
 
 ### Preparation and Base Ingredients
+
 The process begins with preparing the aromatics and base solids. One orange is treated with boiling water to clean the peel before zesting. Approximately 200g of **medium carrots** are finely grated to provide moisture and bulk. Unlike traditional cakes, this recipe uses **200g of oat flakes** ground into a fine flour. This substitution increases the fiber content and provides a lower glycemic index compared to white flour.
 
 ### The Batter Method
+
 The recipe emphasizes a specific mixing technique to ensure the cake isn't too dense. The **egg yolks** are separated from the whites. The yolks are combined with 3 tablespoons of yogurt (or sour cream), 2 tablespoons of oil (olive or coconut), orange zest, and 80ml of fresh orange juice. For sweetness, the baker suggests using alternatives like **honey, maple syrup, or stevia** to keep the recipe refined sugar-free.
 
 After the wet ingredients are mixed, the **oat flour**, cinnamon, and raisins are incorporated. The final structural component involves whisking the **egg whites** into a stable foam with a pinch of salt. This foam is gently folded into the carrot-oat mixture. This step is crucial; it aerates the batter, compensating for the lack of gluten and chemical leaveners that usually provide lift. **Baking soda** activated by lemon juice provides the final rising power.
 
 ### Baking and Assembly
+
 The batter is poured into an 18x18 cm pan and baked at **180°C (350°F)** for approximately 50 minutes. While the cake bakes, a filling is prepared using 350g of **cream cheese**, yogurt, lemon juice, and vanillin. A separate orange glaze is made by boiling 100ml of orange juice with a small amount of cane sugar (or substitute) until it thickens.
 
 Once the cake is completely cooled, it is sliced into two layers. The **cream cheese filling** is spread between the layers, and the top is finished with the orange reduction, roasted **almond flakes**, and crushed nuts for texture. The result is a nutrient-dense, 8-portion dessert that prioritizes whole ingredients.

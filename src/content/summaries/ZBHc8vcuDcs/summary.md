@@ -12,16 +12,13 @@ metadata:
 
     🛠️ Custom AI Solutions: https://custom-solutions.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=custom_ai_solutions
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://insights.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=ai_insights
 
-
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
-
 
     RESOURCES
 
@@ -30,7 +27,6 @@ metadata:
     Anthropics Prompt Optimizer: https://console.anthropic.com/dashboard
 
     Asking ChatGPT to create a prompt: https://chatgpt.com/share/68c2ca06-ebf4-8011-8d66-959e9d2e30cf
-
 
     —
 
@@ -108,14 +104,17 @@ Dylan Davis argues that becoming a manual prompt engineer is unnecessary when yo
 ## Summary
 
 ### The Shift from Prompt Engineering to AI Optimization
+
 The primary message of the video is that the era of manual prompt engineering is ending. Instead of learning complex frameworks or buying prompt templates, users should utilize AI to improve its own instructions. Davis outlines a workflow that replaces traditional prompting with three distinct approaches based on the complexity of the task and the user's specific needs.
 
 ### AI-Driven Prompt Creation: Simple and Complex
+
 For 90% of tasks, Davis recommends the **Simple Method**. This involves a meta-prompt where you tell the AI (specifically **GPT-5** or current models) to research the most modern best practices for its own model as of the current date. The AI identifies current prompting techniques—such as specific delimiters or personas—and writes a **system prompt** based on that research. This ensures the prompt is technically aligned with the model's current architecture.
 
 For high-stakes or vague ideas, the **Reverse AI Interview** is the preferred tactic. The user instructs the AI to interview them one question at a time. This prevents the AI from overwhelming the user with a long list of questions and ensures the conversation stays focused on the user's specific context. After approximately 20-25 exchanges, the user prompts the AI to synthesize all the gathered information into a final, highly specific system prompt. This process moves implicit knowledge from the user's head into explicit instructions for the AI.
 
 ### Leveraging Professional Developer Tools
+
 Davis highlights that OpenAI and Anthropic have built-in **Prompt Optimizers** that many casual users overlook. These tools are often free or very low-cost and produce professional-grade prompts with sophisticated logic.
 
 * **OpenAI Optimizer:** Found in the Developer Dashboard, this tool takes a basic prompt and adds structure, such as **delimiters** (hashtags), **workflow checklists**, and **self-correction loops**. It also provides rationale for why certain instructions were added.
@@ -123,6 +122,7 @@ Davis highlights that OpenAI and Anthropic have built-in **Prompt Optimizers** t
 * **Anthropic Console:** This tool generates prompts optimized for Claude models. It utilizes **XML tags** to structure data, making it easier for the model to parse instructions and input text. It is particularly effective at adding negative constraints (e.g., "no commentary") to ensure the output matches the desired format exactly.
 
 ### The Iterative Philosophy
+
 A key meta-lesson shared is to always **start small**. Users often see massive, complex prompts shared online and assume they were written that way initially. In reality, effective prompts are built through iteration. By starting small and adding complexity only when the AI fails a specific edge case, you gain a deeper understanding of how each instruction influences the AI's thinking process. This approach leads to more concise and efficient instructions that avoid the "wordiness" often found in AI-generated drafts.
 
 ## Context

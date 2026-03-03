@@ -12,21 +12,17 @@ metadata:
 
     🛠️ Custom AI Solutions: https://go.gradientlabs.co/the-chatgpt-skill-that-makes-you-dangerous-in-any-room/custom
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://go.gradientlabs.co/the-chatgpt-skill-that-makes-you-dangerous-in-any-room/insights
-
 
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
 
-
     📚RESOURCES
 
     Presentation with Prompts: https://d-squared70.github.io/The-ChatGPT-Skill-That-Makes-You-Dangerous-in-Any-Room/
-
 
     —
 
@@ -102,7 +98,9 @@ The video introduces a structured three-phase system called **Map, Mine, Move** 
 
 **Move Phase** turns insights into action. You ask for the 3-5 most important questions to ask, specific information to gather, the smartest first step to take immediately, and red flags to watch for. This creates a practical cheat sheet for your actual conversation or project.
 
-### Critical Implementation DetailsThree rules ensure success: **stay in the same conversation** to compound context across phases, **use top-tier reasoning models** (GPT-5.2 with extended reasoning, Claude Opus 4.6, or Gemini 3 Pro), and **use dictation** when describing your situation to provide richer, unedited context.
+### Critical Implementation Details
+
+Three rules ensure success: **stay in the same conversation** to compound context across phases, **use top-tier reasoning models** (GPT-5.2 with extended reasoning, Claude Opus 4.6, or Gemini 3 Pro), and **use dictation** when describing your situation to provide richer, unedited context.
 
 The system demonstrates how AI enables professionals to become "jacks of all trades" who can leverage AI for depth while maintaining breadth across multiple domains.
 

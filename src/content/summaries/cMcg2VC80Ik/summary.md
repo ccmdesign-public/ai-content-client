@@ -4,7 +4,6 @@ metadata:
   title: "AI Design Finally Looks Good (It's Not About the Prompt)"
   description: "In this video, I walk through my real AI + design workflow using research-driven context, designer personas, and structured inputs to generate production-ready UI. You’ll see how I go from vague prompts to high-quality layouts by combining AI with UX research, product thinking, and more.
 
-
     🔗 KEY LINKS
 
     📣 JOIN THE COMMUNITY: https://uicollective.co/\ 
@@ -13,12 +12,9 @@ metadata:
 
     ❎ Follow me on X: https://x.com/KirkMDesign
 
-
     Why Join UI Collective Academy? Get access to premium courses, premium downloads, and so much more on the way (I am largely building this solo...trying to make design education available for all, support goes a long way!)
 
-
     ↪️ Need a design system? (also included in the academy): https://collectivekit.co/
-
 
     🔗 VIDEOS TO WATCH
 
@@ -28,13 +24,11 @@ metadata:
 
     AI & Design Systems: https://youtu.be/XfezMs8B-O8
 
-
     🔗 MORE LINKS
 
     Let us build or fix your design system: https://designsystemlabs.co/
 
     kirkland@uicollective.co
-
 
     0:00 An Introduction
 
@@ -117,9 +111,12 @@ Creating professional AI-generated UIs requires moving beyond prompting to a str
 
 The video demonstrates a sophisticated workflow for generating professional-grade UI designs using AI, emphasizing that the quality comes from process rather than prompt engineering alone. The presenter shows how to transform a generic finance dashboard prompt into a polished, production-ready design through systematic preparation.
 
-### The Problem with Basic AI DesignTraditional approaches involve feeding AI a prompt and hoping for good output, or providing reference screenshots that AI often misunderstands. This leads to inconsistent designs where future pages don't match the initial aesthetic, as AI fails to grasp granular details like drop shadows, spacing patterns, and typography hierarchies.
+### The Problem with Basic AI Design
+
+Traditional approaches involve feeding AI a prompt and hoping for good output, or providing reference screenshots that AI often misunderstands. This leads to inconsistent designs where future pages don't match the initial aesthetic, as AI fails to grasp granular details like drop shadows, spacing patterns, and typography hierarchies.
 
 ### The Three-Phase Workflow
+
 **Phase 1: Competitor Analysis**
 Gather screenshots from design repositories like Mobin, focusing on designs with similar aesthetics. In Cursor, upload these screenshots and ask AI to analyze each individually for design principles, spacing patterns, color usage, typography, and layout consistency. Store these analyses in separate markdown files for reference.
 
@@ -129,9 +126,12 @@ Have AI identify common threads across all analyzed competitors. This moves beyo
 **Phase 3: Rule Creation**
 Synthesize these common threads into an **enforceable Cursor rule** that AI will reference for all future designs. This creates a **design persona** that ensures consistency across the entire project, not just the initial screen.
 
-### Execution and ResultsThe presenter shows how applying this workflow transforms a basic Claude Opus 4.6-generated dashboard into a sophisticated design featuring thoughtful balance displays, color-coded metrics, insights sections, tabbed performance graphs, and clean transaction tables. The side-by-side comparison reveals dramatic improvement: from a generic sidebar layout to something that could be shown to clients as a first draft.
+### Execution and Results
+
+The presenter shows how applying this workflow transforms a basic Claude Opus 4.6-generated dashboard into a sophisticated design featuring thoughtful balance displays, color-coded metrics, insights sections, tabbed performance graphs, and clean transaction tables. The side-by-side comparison reveals dramatic improvement: from a generic sidebar layout to something that could be shown to clients as a first draft.
 
 ### Key Insights
+
 • **Research curation matters**: Screenshots should have cohesive aesthetics (avoid mixing dark/light modes, contrasting color schemes, different fonts).
 • **AI needs structured understanding**: Simply providing examples isn't enough; AI must analyze, compare, and synthesize design principles.
 • **Rules create consistency**: The created design persona ensures all future pages maintain the same look and feel.

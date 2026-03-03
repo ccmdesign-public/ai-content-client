@@ -4,20 +4,15 @@ metadata:
   title: "My AI Design Process (What Actually Works)"
   description: "This is my real AI + design workflow - how I use AI tools to design faster, automate reviews, and ship better products. If you’re building a SaaS or working on product teams, this breaks down what actually works.
 
-
     🔗 KEY LINKS
 
     📣 JOIN THE COMMUNITY: https://uicollective.co/\ 
 
-
     FOLLOW ME ON X (new): https://x.com/KirkMDesign
-
 
     Why Join UI Collective Academy? Get access to premium courses, premium downloads, and so much more on the way (I am largely building this solo...trying to make design education available for all, support goes a long way!)
 
-
     ↪️ Need a design system? (also included in the academy): https://collectivekit.co/
-
 
     🔗 VIDEOS TO WATCH
 
@@ -26,7 +21,6 @@ metadata:
     Complex Design System Setup: https://youtu.be/L-tpK7Eeuow
 
     AI & Design Systems (similar video): https://youtu.be/XfezMs8B-O8
-
 
     🔗 MORE LINKS
 
@@ -39,7 +33,6 @@ metadata:
     Google Antigravity: https://antigravity.google/
 
     Cursor: https://cursor.com/
-
 
     0:00 An Introduction
 
@@ -132,14 +125,18 @@ The video outlines a pragmatic, current-state approach to integrating AI into a 
 
 ## Summary
 
-### Introduction and Current AI Limitations in DesignThe video begins by setting realistic expectations for AI in UI/UX design in 2026. The presenter argues that while AI is rapidly evolving, it currently falls short in several key areas for designers. Specifically, tools like **Figma Make** and other AI-powered design generators often produce outputs that are generic, non-responsive, and lack a deep understanding of design systems. They fail to properly use variables, auto-layout, or produce designs of a quality suitable for client presentation without extensive, time-consuming prompting and iteration. The presenter emphasizes that AI is not yet at a point where it can replace a designer, but rather should be viewed as a tool for augmentation and acceleration.
+### Introduction and Current AI Limitations in Design
+
+The video begins by setting realistic expectations for AI in UI/UX design in 2026. The presenter argues that while AI is rapidly evolving, it currently falls short in several key areas for designers. Specifically, tools like **Figma Make** and other AI-powered design generators often produce outputs that are generic, non-responsive, and lack a deep understanding of design systems. They fail to properly use variables, auto-layout, or produce designs of a quality suitable for client presentation without extensive, time-consuming prompting and iteration. The presenter emphasizes that AI is not yet at a point where it can replace a designer, but rather should be viewed as a tool for augmentation and acceleration.
 
 ### Generating High-Quality Concepts with Google Anti-gravity
+
 The core of the video's first practical demonstration focuses on **Google Anti-gravity** as a superior tool for concept generation. Unlike Figma Make, which produces static and often flawed mockups, Anti-gravity operates by first building an **implementation plan** with the user, confirming details like colors and typography before generating anything. It then builds a fully interactive, responsive web view in real-time within a browser. The presenter provides a direct comparison using the same prompt for a "futuristic landing page" in both Figma Make and Anti-gravity.
 
 The Figma Make output is criticized for poor spacing, basic visual elements, and an overall "AI-generated" look that would require a complete rebuild. In contrast, the Anti-gravity output features a more sophisticated layout, subtle background patterns, interactive elements, and inherent mobile responsiveness. The presenter notes that while some cleanup is still needed, the Anti-gravity result is something that could be shown to a client or stakeholder for feedback after minimal additional prompting, representing a drastic reduction in iteration time.
 
 ### Automating Design Audits with AI and Figma MCP
+
 The second major workflow demonstrated involves using AI to audit existing Figma designs for consistency errors. This process saves hours of manual review. The presenter uses **Cursor** (an AI-powered IDE) connected to Figma via the **Model Context Protocol (MCP)**. The key is setting up a reusable system composed of two parts: a **Rule** and a **Command**.
 
 The **Rule** is a document (stored as an .mdc file in Cursor) that defines the design standards. The example rule includes specifications for outer margins (16px), required use of spacing variables (no raw values), an allowed spacing scale (4, 8, 16, 24, 32, 40, 48), and specific variable assignments for backgrounds (e.g., page background must use `surface.page`, cards use `surface.default`). It also mandates that all colors, radii, borders, and typography must reference variables, with raw values flagged as violations.
@@ -148,7 +145,9 @@ The **Command** is an AI instruction set that tells the LLM (like Gemini 3 Pro o
 
 In a live demo, the presenter runs this command on a simple Figma frame intentionally created with violations (incorrect margin values, a disallowed gap of 28px, and raw hex codes instead of variables). The AI instantly returns a detailed list of violations, demonstrating how this automated check can be scaled to complex design files to ensure system consistency before developer handoff.
 
-### Conclusion and Workflow PhilosophyThe presenter concludes by reiterating the evolving nature of AI in design and the importance of focusing on tools that provide real value in a professional workflow. The philosophy is not to use AI to generate final deliverables, but to **speed up the iterative feedback loop** with high-quality concepts and to **automate the tedious, error-prone QA tasks** that consume designer time. This allows designers to focus on strategy, creativity, and refinement. The video is positioned as the first in a series that will continue to explore new tools and techniques as the landscape develops.
+### Conclusion and Workflow Philosophy
+
+The presenter concludes by reiterating the evolving nature of AI in design and the importance of focusing on tools that provide real value in a professional workflow. The philosophy is not to use AI to generate final deliverables, but to **speed up the iterative feedback loop** with high-quality concepts and to **automate the tedious, error-prone QA tasks** that consume designer time. This allows designers to focus on strategy, creativity, and refinement. The video is positioned as the first in a series that will continue to explore new tools and techniques as the landscape develops.
 
 ## Context
 

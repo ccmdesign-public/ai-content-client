@@ -4,7 +4,6 @@ metadata:
   title: "Why I Stopped Using MCPs in Claude Code (And What I Use Instead)"
   description: "There's a really big problem with using MCP servers with Claude Code. In this video I show how connecting just 7 MCP servers consumes 50% of my context window, before I even type a single prompt. I'll show you how you can still give Claude Code access to the same number of MCPs without losing any context.
 
-
     🎥 Watch Next
 
     1. Make Claude Code 100x BETTER (Context Engineering)
@@ -19,25 +18,21 @@ metadata:
 
     https://youtu.be/aYAVSG4Ra40
 
-
     Support me making more content and free coding projects like this.
 
     https://buymeacoffee.com/kennyliao
 
     Thank you so much for your support!
 
-
     AI Launchpad Community waitlist. Free to join.
 
     https://kenneth-liao.kit.com/join
-
 
     🛠️ Resources
 
     1. MCP Launchpad: https://github.com/kenneth-liao/mcp-launchpad
 
     2. Get any of my plugins, free! https://github.com/kenneth-liao/ai-launchpad-marketplace
-
 
     🕒 Sections 
 
@@ -55,11 +50,9 @@ metadata:
 
     16:07 - MCP Launchpad Setup
 
-
     ✉️ For Business Inquiries:\ 
 
     kennyliao@theailaunchpad.io
-
 
     #claudecode #mcp #aiagents"
   channel: "Kenny Liao"
@@ -135,9 +128,11 @@ Connecting multiple MCP servers directly to Claude Code creates a massive bottle
 The current standard for using Model Context Protocol (MCP) servers with Claude Code involves connecting them directly to the agent. While easy to set up, this method is fundamentally unscalable. Each MCP server injects its entire tool schema into the system prompt. For a power user with seven or more servers, this can consume 100,000 tokens—half of Claude's context window—before a single word is typed. This results in **context rot**, where the model's performance degrades because it is overwhelmed by irrelevant information.
 
 ### The MCP Launchpad Concept
+
 To solve this, the author developed **MCP Launchpad**, a CLI tool built with **UV** that centralizes all MCP servers. Instead of pre-loading thousands of tool definitions, Claude is given a small system prompt instructing it to use the `mcpl` command. This shifts the AI's workflow from "total recall" to "just-in-time discovery." When Claude needs a specific capability, it uses the CLI to find, inspect, and then execute the appropriate tool.
 
 ### Key Features of the Tool
+
 The Launchpad provides several essential functions for AI agents:
 
 - **Semantic Search:** Utilizing the **BM25 algorithm**, Claude can search for tools using keywords or concepts (e.g., "Sentry errors" or "SQL query").
@@ -147,6 +142,7 @@ The Launchpad provides several essential functions for AI agents:
 - **Caching and Management:** The tool caches definitions from various MCP servers to ensure fast lookups and allows users to enable or disable specific servers easily.
 
 ### Setup and Configuration
+
 Users can install the utility as a global tool using **UV**. Configuration is managed via an `mcp.json` file and a `.env` file for secrets, typically stored in the user's hidden `.claude` directory. To complete the integration, a `claude.md` file is used to provide the AI with the necessary instructions on how to browse and use the Launchpad. This setup ensures that the AI's workspace remains clean, preserving the context window for actual coding and problem-solving tasks.
 
 ## Context

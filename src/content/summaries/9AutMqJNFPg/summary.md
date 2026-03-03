@@ -8,9 +8,7 @@ metadata:
 
     🤚 Join the best community for AI entrepreneurs and connect with 16,000+ members: - https://www.skool.com/systems-to-scale-9517/about
 
-
     Sign up to n8n (free) - https://n8n.partnerlinks.io/nick
-
 
     🙋 Connect With Me!
 
@@ -19,7 +17,6 @@ metadata:
     X - https://x.com/NicholasPuru
 
     LinkedIn - https://www.linkedin.com/in/nicholas-puruczky-113818198/
-
 
     0:00 - Sonnet 4.6 vs Opus 4.6: Why it matters
 
@@ -85,9 +82,13 @@ Claude Sonnet 4.6 fundamentally changes the economics of AI automation by matchi
 
 Anthropic's Claude Sonnet 4.6 represents a pivotal shift in practical AI deployment, bringing near-Opus-level capabilities to the mid-tier price point. The model achieves 79.6% on SWE-bench (vs Opus's 80.8%) and essentially ties on computer use benchmarks at 72.5% vs 72.7%. More importantly, Sonnet 4.6 **outperforms Opus 4.6** on business-critical tasks: it leads on office tasks (1633 ELO vs 1606), financial analysis (63.3% vs 60.1%), and scaled tool use (61.3% vs 60.3%).
 
-### Technical CapabilitiesSonnet 4.6 introduces the **1 million token context window** to the Sonnet line for the first time, with 64,000 token outputs in beta. It inherits Opus 4.6's **adaptive thinking** feature that automatically adjusts reasoning effort based on task complexity. The new **context compaction** feature summarizes older conversation parts as they approach context limits, enabling effectively unlimited conversation length for agentic workflows.
+### Technical Capabilities
 
-### Practical Deployment StrategyThe video presents a three-tier routing strategy for optimal cost-performance balance:
+Sonnet 4.6 introduces the **1 million token context window** to the Sonnet line for the first time, with 64,000 token outputs in beta. It inherits Opus 4.6's **adaptive thinking** feature that automatically adjusts reasoning effort based on task complexity. The new **context compaction** feature summarizes older conversation parts as they approach context limits, enabling effectively unlimited conversation length for agentic workflows.
+
+### Practical Deployment Strategy
+
+The video presents a three-tier routing strategy for optimal cost-performance balance:
 
 * **Tier 1 - Sonnet 4.6 as default**: Handles 80% of automation tasks including form fills, data extraction, standard coding, office automation, and tool use at $3/M input, $15/M output tokens
 
@@ -95,7 +96,9 @@ Anthropic's Claude Sonnet 4.6 represents a pivotal shift in practical AI deploym
 
 * **Tier 3 - Haiku 4.5 for simple tasks**: Classification, routing, and simple extraction where premium capabilities aren't needed
 
-### Business ImpactThe cost differential creates dramatic economic advantages. A workflow processing 10 million tokens daily costs $150/day on Opus 4.6 input alone, plus $500-700/day with extended thinking outputs
+### Business Impact
+
+The cost differential creates dramatic economic advantages. A workflow processing 10 million tokens daily costs $150/day on Opus 4.6 input alone, plus $500-700/day with extended thinking outputs
 
 - totaling $15-20k monthly. Switching to Sonnet 4.6 reduces this by 80% while maintaining comparable quality for most business applications.
 

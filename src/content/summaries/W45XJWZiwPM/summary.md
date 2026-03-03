@@ -6,20 +6,15 @@ metadata:
 
     Vibe Kanban (open source): https://github.com/BloopAI/vibe-kanban
 
-
     ⚡ Master AI and become a high-paid AI Engineer: https://aiengineer.community/join
-
 
     Parallel AI coding agents running in isolated git worktrees. Vibe Kanban is an open-source tool for orchestrating multiple AI Agents and fixing issues in parallel faster.
 
     Each agent works on its own feature branch. Spec-driven development with human-in-the-loop code review. Full Kanban board for AI task management.
 
-
     This video covers the complete parallel coding workflow: creating tasks, running 3+ agentic coding sessions simultaneously, inline code review and commenting, AI-powered merge conflict resolution, and safely merging branches into main.
 
-
     Works with Claude Code, Cursor, Codex, Copilot and other AI coding agents.
-
 
     Timestamps:
 
@@ -34,7 +29,6 @@ metadata:
     7:15 AI-powered merge conflict resolution
 
     8:23 Testing and merging to main
-
 
     Sponsorships & Business Inquiries: business@aiengineer.community"
   channel: "Zen van Riel"
@@ -99,12 +93,15 @@ Scaling AI-assisted coding requires moving beyond single-terminal sessions to a 
 The traditional approach of running multiple **Claude Code** instances in parallel often leads to catastrophic merge conflicts and a loss of oversight. Zen van Riel introduces **Vibe Kanban**, an open-source project designed to orchestrate these agents. By treating AI agents like members of an agile team, the tool provides a visual Kanban board where each task is assigned a dedicated agent working in a separate Git branch.
 
 ### The Vibe Kanban Workflow
+
 When a task is created (e.g., adding a 'Cherry Bomb' to a game), the user provides a detailed specification. Once moved to 'In Progress,' Vibe Kanban initializes a **Claude Code session** within a specific sub-tree. This isolation ensures that while one agent is building a 'Squash' plant, another can work on a 'Debug Panel' without direct interference. The tool tracks the entire conversation history, providing a persistent record that is easier to manage than standard terminal sessions.
 
 ### Code Review and Revision
+
 Quality control is maintained through a dedicated **Review phase**. Users can inspect a visual diff of the changes made by the AI. If the code requires adjustment—such as changing a variable's value or refactoring a function—the user can leave a comment on a specific line. The AI agent then reads the conversation history and the existing branch state to apply the fix, maintaining a seamless **stateless-to-stateful** workflow.
 
 ### Resolving Parallel Conflicts
+
 Even with isolated branches, conflicts are inevitable when agents edit shared files, such as a central registry that tracks all game entities. Vibe Kanban addresses this by:
 
 - Requiring a **rebase** when the base branch has moved forward.

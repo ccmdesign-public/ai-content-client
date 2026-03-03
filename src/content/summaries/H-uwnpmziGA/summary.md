@@ -12,23 +12,19 @@ metadata:
 
     🛠️ Custom AI Solutions: https://custom-solutions.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=custom_ai_solutions
 
-
     FREE STUFF
 
     💌 30-Day AI Insights: https://insights.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=ai_insights
 
-
     SOCIALS
 
     LinkedIn: https://www.linkedin.com/in/dylantdavis/
-
 
     📚RESOURCES
 
     Presentation: https://d-squared70.github.io/I-Analyzed-50-Meeting-Transcripts-in-30-Minutes-with-Claude-Code-No-code-/
 
     Download Claude Desktop: https://claude.com/download
-
 
     —
 
@@ -105,6 +101,7 @@ This workflow turns local storage into an external 'brain' for the AI, bypassing
 The primary challenge with modern AI models like Claude, ChatGPT, and Gemini is their **limited context window**. When processing massive amounts of data—such as 50 meeting transcripts or hundreds of emails—the AI eventually reaches a point where it 'forgets' previous instructions or ignores the middle sections of the provided data. This often leads to hallucinations or incomplete results. 
 
 ### The External Memory Solution
+
 The solution is to externalize the AI's memory into local files. By using **Claude for Desktop**, users can grant the AI access to a local folder. Instead of relying on its internal memory, the AI is prompted to maintain three specific markdown files that act as an anchor for its work:
 
 * **context.md**: Stores the primary goal and instructions so the AI always knows its 'mission.'
@@ -113,12 +110,15 @@ The solution is to externalize the AI's memory into local files. By using **Clau
 * **insights.md**: A living document where findings are added iteratively. This ensures that even if the AI's memory resets, the extracted data is safely written to disk.
 
 ### Implementation and Configuration
+
 To set this up, users download the **Claude for Desktop** app and select the **'Act'** mode. This mode empowers the AI to perform actions rather than just chat. The user chooses a local folder containing the source data (e.g., transcripts) and provides a structured prompt. The author recommends using high-tier models like **Opus 4.5** for the best results, though Sonnet can be used if usage limits are a concern. 
 
 ### The Processing Loop
+
 Once started, the AI enters a continuous cycle: it processes a file, updates the insights document, and checks off the task in the 'todos' file. If the AI's internal memory becomes cluttered or 'wiped' due to the volume of data, it is instructed to re-read the **context.md** and **todos.md** files. This grounding process allows the AI to run autonomously for hours, accurately finishing complex tasks that would normally crash a standard chat session.
 
 ### Practical Applications
+
 This method is highly effective for business use cases, including:
 
 * **Marketing Analysis**: Extracting customer pain points from dozens of sales calls.

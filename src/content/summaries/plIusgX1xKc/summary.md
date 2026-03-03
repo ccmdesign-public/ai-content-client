@@ -4,7 +4,6 @@ metadata:
   title: "NEW! 10 POWERFUL Nano Banana Uses for Marketing"
   description: "Google's Nano Banana (Gemini 2.5 Flash Image) is more than just a fun AI —it can be a powerful tool for digital marketers if you use it for the right use cases. In this video, I'll share 10 powerful use you can use it for marketing needs. Let's go!
 
-
     📌 *TIMESTAMPS*
 
     00:00 Nano Banana
@@ -33,21 +32,17 @@ metadata:
 
     16:57 My final thoughts
 
-
     ⚡️ *JOIN MY GROWTH COMMUNITY*
 
     https://community.graceleung.com/
-
 
     📥 *JOIN FREE MY DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/\ 
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/
-
 
     📂 *RESOURCES MENTIONED IN THE VIDEO*
 
@@ -57,19 +52,15 @@ metadata:
 
     https://youtu.be/2aHIb2vrkuQ  \ 
 
-
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *CONNECT WITH ME ON SOCIAL*
 
@@ -137,9 +128,12 @@ Google's Nano Banana (Gemini Flash Image) model is a powerful, free tool for mar
 The video provides a comprehensive guide for digital marketers to leverage Google's free AI image models, specifically Nano Banana (Gemini Flash Image) for editing and Image Jam for generation from scratch. The core strategy involves a systematic workflow: find design inspiration on platforms like Pinterest, use a custom-built Gemini prompt to analyze the reference image and generate detailed prompts, then feed those into the AI models.
 
 ### Core Workflow and Tips
+
 A major focus is on **product shot and creative generation**. The presenter demonstrates how to take a product image and a reference ad style to create perfectly styled shots. A key workaround for the model's lack of direct aspect ratio control is to upload a blank canvas from **Canva** with the desired dimensions as the final reference image.
 
-### Powerful Marketing Use CasesThe video walks through 10 specific applications:
+### Powerful Marketing Use Cases
+
+The video walks through 10 specific applications:
 
 *   **Lifestyle Marketing Photos**: Generate context-rich images by specifying a target persona (e.g., "urban commuter," "university student").
 
@@ -159,7 +153,9 @@ A major focus is on **product shot and creative generation**. The presenter demo
 
 *   **Mood Board Creation**: Quickly draft client mood boards by providing a theme and letting the AI propose a cohesive set of images and a color palette.
 
-### Best Practices and LimitationsThe presenter emphasizes using AI thoughtfully: be transparent with audiences, avoid using it for authentic user-generated content, and always add text in post-production using image editing tools due to the models' poor text-rendering capabilities. For best results, start new chats if quality degrades and use no more than two reference images at a time for blending tasks.
+### Best Practices and Limitations
+
+The presenter emphasizes using AI thoughtfully: be transparent with audiences, avoid using it for authentic user-generated content, and always add text in post-production using image editing tools due to the models' poor text-rendering capabilities. For best results, start new chats if quality degrades and use no more than two reference images at a time for blending tasks.
 
 ## Context
 

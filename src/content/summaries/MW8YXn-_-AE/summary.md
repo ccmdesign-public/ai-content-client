@@ -4,26 +4,21 @@ metadata:
   title: "AI News: GPT-6 2025, NVIDIA DGX-1, Claude Skills, Waymo DDOS, Datacenters in Space, and more!"
   description: "Deploy powerful, secure AI agents today with StackAI: https://bit.ly/4lkbvir
 
-
     Download Humanities Last Prompt Engineering Guide (free) 👇🏼
 
     https://bit.ly/4kFhajz
-
 
     Download The Matthew Berman Vibe Coding Playbook (free) 👇🏼
 
     https://bit.ly/3I2J0YQ
 
-
     Join My Newsletter for Regular AI Updates 👇🏼
 
     https://forwardfuture.ai
 
-
     Discover The Best AI Tools👇🏼
 
     https://tools.forwardfuture.ai
-
 
     My Links 🔗
 
@@ -37,11 +32,9 @@ metadata:
 
     👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
 
-
     Media/Sponsorship Inquiries ✅\ 
 
     https://bit.ly/44TC45V
-
 
     Timestamps:
 
@@ -72,7 +65,6 @@ metadata:
     14:18 Claude Code Visual
 
     14:43 Defining AGI
-
 
     Links:
 
@@ -172,18 +164,23 @@ This update covers a massive breadth of AI developments, from specialized softwa
 ## Summary
 
 ### Hardware and GPT-6 Speculation
+
 Rumors from Silicon Valley insiders suggest that **GPT-6** could arrive by the end of 2025. While skepticism remains regarding the timeline, hardware readiness is accelerating. Jensen Huang has begun personally delivering the **NVIDIA DGX Spark**, the smallest supercomputer on Earth. This unit provides five times the computational power of the original DGX-1. Major players like OpenAI and Elon Musk have already received their units, signaling a new wave of compute density for frontier models.
 
 ### Specialized Agent Intelligence
+
 Anthropic has introduced **Claude Skills**, a feature designed to bypass the limitations of traditional context windows. Users can package brand guidelines, code snippets, or specific instructions into a folder that Claude accesses only when relevant. This "just-in-time" knowledge loading mimics a modular brain, allowing agents to stay specialized without the performance degradation typically caused by massive, irrelevant prompts.
 
 ### Business and Infrastructure Shifts
+
 OpenAI is moving toward an ecosystem play with a **"Sign in with ChatGPT"** button. This allows third-party developers to integrate high-end AI models without bearing the massive inference costs themselves; instead, the cost is transferred to the user's existing ChatGPT Pro subscription. This model could significantly reduce the platform risk for startups while cementing OpenAI's position as a primary identity provider.
 
 ### AI in Combat and Science
+
 The fusion of AI and physical reality is becoming more apparent. **Anduril's Eagle Eye** AR helmet provides soldiers with a 3D "sand table" view, including enemy tracking and mission objectives that look remarkably like a modern video game interface. In the medical field, Google's **C2S model**—an open-weights model based on Gemma—generated a novel hypothesis about cancer cell behavior that was subsequently validated by scientists in living cells. 
 
 ### Defining AGI
+
 To address the "moving goalposts" of AI development, researcher **Dan Hendris** published a paper defining AGI based on **CHC theory** (a model of human intelligence). By measuring general knowledge, reasoning, and memory, the paper estimates that **GPT-4** has reached 27% of the way to AGI, while **GPT-5** is projected to hit 58%. This framework provides a standardized metric for tracking AI's path toward matching the cognitive versatility of a well-educated adult.
 
 ## Context

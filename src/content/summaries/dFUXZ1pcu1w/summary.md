@@ -4,12 +4,9 @@ metadata:
   title: "Success Has No Shortcuts"
   description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
 
-
     If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
 
-
     How I got here…
-
 
     21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
 
@@ -39,24 +36,17 @@ metadata:
 
     34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
 
-
     Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
-
 
     To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
 
-
     You either get an epic outcome or an epic story. Both mean you win.\ 
-
 
     Keep crushing. May your desires be greater than your obstacles.\ 
 
-
     Never quit,
 
-
     Alex
-
 
     DISCLOSURE\ 
 
@@ -103,6 +93,7 @@ The core message is a counterintuitive truth: **the hard way is actually the eas
 A major pitfall is that people often waste more time and energy seeking an easy way that doesn't exist than if they had simply committed to the difficult, necessary work from the start. The reality of building something significant is that it's **rarely one big obstacle** but rather a **'neverending onslaught'** of hundreds of small things that make days, weeks, and months challenging.
 
 ### The Many Flavors of 'Hard'
+
 The speaker proposes we need more nuanced language for hardship, similar to how some languages have multiple words for snow. He identifies several distinct types:
 
 *   **Sacrifice Hard:** Giving up things you enjoy.

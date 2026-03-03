@@ -4,26 +4,21 @@ metadata:
   title: "I Let My AI Agent Run for 504 Hours Straight — Here's What Happened"
   description: "I Let My AI Agent Run for 504 Hours Straight — Here's What Happened
 
-
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
-
 
     For Agents:
 
     www.skillsmd.store
 
-
     My AI Video Course:
 
     https://www.theaivideocourse.com/
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
-
 
     Business Inquiries:
 
@@ -88,6 +83,7 @@ The creator ran an AI agent autonomously for 504 hours (3 weeks) on a Mac Mini t
 The agent had multiple skills including react videos for YouTube, X coding, promotional videos, video research, Gmail, GitHub, LinkedIn, LLM bench, and Poly market integration. These skills allowed it to operate across platforms without constant human supervision.
 
 ### Platform Performance Results
+
 **X (Twitter) Analytics:**
 • 918,000 impressions over 3 weeks
 • 852 followers gained (approximately 40 per day)
@@ -107,7 +103,9 @@ The agent ran the Skills MD store, promoting its own setup tools including Chrom
 • Operational costs approximately $100-120/month
 • Net profit of about $20, making the experiment cost-neutral
 
-### Technical Setup and Future PlansThe agent runs on a Mac Mini with low electricity consumption. The creator mentioned having a separate private system for job applications that has landed actual interviews. Future plans include:
+### Technical Setup and Future Plans
+
+The agent runs on a Mac Mini with low electricity consumption. The creator mentioned having a separate private system for job applications that has landed actual interviews. Future plans include:
 • Adding streaming capabilities to show the agent's activities in real-time
 • Training new skills
 • Creating more content about using AI for YouTube video creation

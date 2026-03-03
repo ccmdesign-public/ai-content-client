@@ -4,9 +4,7 @@ metadata:
   title: "Claude Code just Built me an AI Agent Team (Claude Code + Skills + MCP)"
   description: "Download the FREE “In AI We Trust Report” here 👉 https://clickhubspot.com/071bf2\ 
 
-
     Claude Code’s too powerful to ignore if you want to use AI to build an AI work team or system that actually works. Most people are stuck copy-pasting between ChatGPT, Claude Projects, and random AI tools. But what if your AI agents could share context, hand off tasks, and execute complete workflows without you playing coordinator? This is what Claude Code is about. In this video, I will share how to use Claude Code to build an AI agent team that collaborates on multi-step workflows, while using Claude agent skills and MCP. Let’s go!\ 
-
 
     📌 *TIMESTAMPS*
 
@@ -30,21 +28,17 @@ metadata:
 
     14:34 AI Team Orchestration
 
-
     ⚡️ *JOIN MY GROWTH COMMUNITY*
 
     https://community.graceleung.com/
-
 
     📥 *JOIN FREE MY DIGITAL GROWTH NEWSLETTER*
 
     https://www.graceleung.com/newsletter/
 
-
     🚀 *CONNECT WITH ME*
 
     https://www.graceleung.com/connect/
-
 
     📂 *RESOURCES MENTIONED IN THE VIDEO*
 
@@ -52,16 +46,13 @@ metadata:
 
     https://github.com/anthropics/skills\ 
 
-
     🔗Claude Code Quick Start Guide
 
     https://code.claude.com/docs/en/quickstart\ 
 
-
     🔗GitHub repository for MCP Servers
 
     https://github.com/modelcontextprotocol/servers\ 
-
 
     👉 *WATCH THESE NEXT*\ 
 
@@ -69,34 +60,27 @@ metadata:
 
     https://youtu.be/m-5DjcgFmfQ\ 
 
-
     🎥 Turn Claude to Powerful AI Agents, Automate 50% of Your Work (Claude + MCP Agents)
 
     https://youtu.be/p0pR_zq-85M\ 
-
 
     🎥 Why MCP Saves 90% of Your Manual AI Work | Model Context Protocol Explained
 
     https://youtu.be/xBcSLxpIlr0\ 
 
-
     🎥  Claude Skills Explained: The REAL POWER of Claude Agent SKILLS (Why Most Are Missing It)
 
     https://youtu.be/m-5DjcgFmfQ\ 
-
 
     🎥 PLAYLIST: AI for MARKETERS
 
     https://www.youtube.com/playlist?list=PLgvqWBt14woI0bW-qwMn5ZdHtvRHhENcA\ 
 
-
     If you like this video, subscribe for more videos like this! https://youtube.com/@graceleungyl?si=J_vzXh3ooLlusD9G
-
 
     👋 *WHO AM I*
 
     I’m Grace, a Digital Growth Consultant & Educator who is fascinated by anything digital and growth related. I share everything about digital growth, AI for marketing, and personal growth!\ 
-
 
     ☕️ *Connect with me on Social*
 
@@ -105,7 +89,6 @@ metadata:
     Instagram: https://www.instagram.com/graceleungyl\ 
 
     Twitter/X: https://twitter.com/graceleungyl\ 
-
 
     #claudecode #claudeskills #claude #aimarketing"
   channel: "Grace Leung"
@@ -163,9 +146,13 @@ Claude Code transforms Claude from a chat interface into an orchestration platfo
 
 The video demonstrates how Claude Code moves beyond traditional AI chat interfaces to create coordinated AI agent teams that work together in a shared workspace. Unlike siloed Claude projects that require manual coordination, Claude Code agents can share context, files, and automatically hand off work between specialized team members.
 
-### Core ArchitectureEach Claude Code agent requires three components defined in a single markdown file: **role and responsibilities**, **knowledge and workflow details**, and **MCP tools** they can access. The system uses a project-level claude.md file as a central system prompt that contains agent routing rules, telling Claude when and which agent to delegate tasks to based on trigger phrases.
+### Core Architecture
 
-### Building a Marketing Agency TeamGrace demonstrates building five specialized agents for a marketing agency:
+Each Claude Code agent requires three components defined in a single markdown file: **role and responsibilities**, **knowledge and workflow details**, and **MCP tools** they can access. The system uses a project-level claude.md file as a central system prompt that contains agent routing rules, telling Claude when and which agent to delegate tasks to based on trigger phrases.
+
+### Building a Marketing Agency Team
+
+Grace demonstrates building five specialized agents for a marketing agency:
 1. **Content Strategist**: Basic agent without skills or tools that creates content research documents
 2. **Presentation Specialist**: Uses official document creation skills with brand color palettes
 3. **Data Analyst**: Integrates MCP tools (Notion, J4, Hrefs) to connect to external data sources
@@ -173,13 +160,16 @@ The video demonstrates how Claude Code moves beyond traditional AI chat interfac
 5. **SEO Content Specialist**: Created separately with keyword research and blog writing skills
 
 ### Key Features Demonstrated
+
 • **Slash commands** trigger built-in shortcuts for agent creation and management
 • **Agent configuration mode** via terminal creates specialized agents with /agents command
 • **MCP server integration** connects agents to external systems like Notion, J4 analytics, and Hrefs
 • **Custom skill creation** extends official skills for brand-specific workflows
 • **Multi-agent workflows** automatically coordinate between agents for complex tasks
 
-### Practical ImplementationThe demo shows a complete workflow where Claude coordinates agents to: research a content topic, create a blog post, and generate a presentation deck—all using the same research findings and maintaining brand consistency. The system creates 5,000-word blog posts, branded presentations, and social media content while automatically scheduling posts to Notion calendars.
+### Practical Implementation
+
+The demo shows a complete workflow where Claude coordinates agents to: research a content topic, create a blog post, and generate a presentation deck—all using the same research findings and maintaining brand consistency. The system creates 5,000-word blog posts, branded presentations, and social media content while automatically scheduling posts to Notion calendars.
 
 ## Context
 

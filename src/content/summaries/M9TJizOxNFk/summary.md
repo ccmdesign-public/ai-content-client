@@ -8,12 +8,9 @@ metadata:
 
     _______________________
 
-
     What's really happening with AI strategy in 2026? The common story is that one company cares about safety and one does not — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on why OpenAI and Anthropic have diverged so completely:
-
 
     \ • Why Sam Altman and Dario Amodei have fundamentally different theories of safety
 
@@ -23,12 +20,9 @@ metadata:
 
     \ • Why we're now in two AI economies, not one
 
-
     Both leaders believe safety matters. Sam believes safety emerges from deployment — the public teaches you what internal testing cannot. Dario believes safety is a precondition — you prove it works before putting it in people's hands. These different epistemologies have produced entirely different products.
 
-
     For professionals choosing their AI tools, the question is no longer which model is better — it's what kind of work you're doing.
-
 
     Chapters:
 
@@ -63,7 +57,6 @@ metadata:
     20:47 Codex vs Claude Code: different visions for engineers
 
     22:38 Stop asking which AI is better
-
 
     Subscribe for daily AI strategy and news.
 
@@ -133,9 +126,11 @@ By 2026, the divergence between OpenAI and Anthropic has created two fundamental
 The video analyzes the deep strategic and philosophical rift between **OpenAI** and **Anthropic** that became fully visible by early 2026. This divergence is traced back to the personal histories of their leaders, **Sam Altman** and **Dario Amodei**. Altman, a product of **Y Combinator**, views progress through the lens of market velocity and iterative feedback. Amodei, a physicist and neuroscientist, views it through scientific rigor and the necessity of understanding fundamental truths before application.
 
 ### The Split in Safety Philosophy
+
 At the heart of their disagreement is the methodology for achieving **AI safety**. OpenAI follows a theory of **co-evolution**, where technology and society adapt to one another through gradual, public releases. Altman argues that real-world feedback is the only way to truly understand a model's risks. In contrast, Anthropic pioneered **Constitutional AI** and **AI Safety Levels (ASL)**, modeled after biosafety protocols. Amodei believes safety must be a proven precondition; if scaling outpaces the ability to ensure safety, Anthropic's governance allows them to pause development entirely.
 
 ### Horizontal vs. Vertical Markets
+
 By 2026, these philosophies have birthed two distinct product visions:
 
 * **OpenAI as a Super-App**: OpenAI has pursued a **horizontal strategy**, turning ChatGPT into a multi-modal interface for everything. With integrations like **Sora** for video, **Search**, and specialized health tools, they aim to drive the marginal cost of intelligence toward zero and capture habitual user adoption across all daily tasks.
@@ -143,6 +138,7 @@ By 2026, these philosophies have birthed two distinct product visions:
 * **Anthropic as a Professional OS**: Anthropic has bet on **vertical specialization**. By stripping away distractions like image or video generation, they have focused on **reasoning density** and reliability. This has made Claude the primary operating system for high-stakes cognitive labor, such as production-grade coding and legal analysis, where the cost of hallucination is prohibitive.
 
 ### The Future of the AI Economy
+
 Rather than a single winner-take-all market, the speaker suggests we are entering a matured landscape where products serve different purposes. OpenAI acts as an **engine of abundance**, driving creative exploration and broad utility. Anthropic acts as a **precision tool**, amplifying the judgment of experts. In this environment, the question of which model is "better" is replaced by which model is more appropriate for a specific type of work.
 
 ## Context
