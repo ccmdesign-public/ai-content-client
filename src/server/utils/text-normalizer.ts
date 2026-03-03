@@ -69,11 +69,15 @@ export function fixBrokenSentences(text: string): string {
 
   // Fix: word ending with comma or "and/or" followed by newline + lowercase
   // "First item, \nsecond item" -> "First item, second item"
-  result = result.replace(/([,]|and|or)\s*[\n\r]+\s*([a-z])/g, '$1 $2');
+  // Uses {1,2} (not +) and [^\S\n\r]* (not \s*) so triple-newline heading protection
+  // boundaries are respected -- \s* would consume extra newlines, defeating the protection.
+  result = result.replace(/([,]|and|or)[^\S\n\r]*[\n\r]{1,2}[^\S\n\r]*([a-z])/g, '$1 $2');
 
   // Fix: article/preposition at end of line followed by newline
   // "This is a \ntest" -> "This is a test"
-  result = result.replace(/\b(a|an|the|of|in|on|at|to|for|with|by)\s*[\n\r]+\s*([a-z])/gi, '$1 $2');
+  // Uses {1,2} (not +) and [^\S\n\r]* (not \s*) so triple-newline heading protection
+  // boundaries are respected -- \s* would consume extra newlines, defeating the protection.
+  result = result.replace(/\b(a|an|the|of|in|on|at|to|for|with|by)[^\S\n\r]*[\n\r]{1,2}[^\S\n\r]*([a-z])/gi, '$1 $2');
 
   return result;
 }
@@ -90,17 +94,25 @@ export function normalizeText(text: string): string {
   // Step 1: Normalize newline characters (Windows -> Unix, literal \n -> actual)
   result = result.replace(/\r\n/g, '\n').replace(/\\n/g, '\n');
 
-  // Step 2: Ensure ### headers have blank lines before and after
-  // This runs before broken-word/sentence fixers so that the inserted blank lines
+  // Step 2: Ensure ### headers have blank lines before and after (Phase 1 - pre-fixer)
+  // This runs before broken-word/sentence fixers so that the inserted triple newlines
   // prevent those fixers from incorrectly joining heading text with content.
-  // We use triple newlines here so fixBrokenWords' {1,2} quantifier cannot match
-  // across heading boundaries; the blank-line collapser in Step 6 reduces them to \n\n.
-  // Fix missing blank line before heading: "text### Heading" -> "text\n\n\n### Heading"
-  result = result.replace(/([^\n])(###\s)/g, '$1\n\n\n$2');
-  // Protect existing/new blank lines after headings by ensuring 3+ newlines
-  // so fixBrokenWords' [\n\r]{1,2} quantifier cannot match across heading boundaries
+  // Both fixBrokenWords and fixBrokenSentences use {1,2} quantifiers, so triple
+  // newlines (\n\n\n) create an effective protection boundary that neither can match across.
+  // The blank-line collapser in Step 7 reduces triple newlines back to \n\n.
+  //
+  // Before-heading: "text\n### Heading" -> "text\n\n\n### Heading"
+  // Only matches ### at line start (^) preceded by a single newline (not already a blank line).
+  // Uses [^\n#] to avoid corrupting #### headings (# would satisfy [^\n] but not [^\n#]).
+  result = result.replace(/([^\n#])\n(###\s)/g, '$1\n\n\n$2');
+  // Before-heading (concatenated): "text### Heading" -> "text\n\n\n### Heading"
+  // Handles the case where ### is glued directly to preceding text with no newline at all.
+  // Uses [^\s#] (non-whitespace, non-#) to avoid matching inline "### " in content text
+  // like "Use ### for subheadings" where a space precedes ###.
+  result = result.replace(/([^\s#])(###\s)/g, '$1\n\n\n$2');
+  // After-heading: upgrade existing \n\n to \n\n\n for protection boundary
   result = result.replace(/^(### .+)\n\n(?!\n)/gm, '$1\n\n\n');
-  // Fix missing blank line after heading: "### Heading\nContent" -> "### Heading\n\n\nContent"
+  // After-heading: "### Heading\nContent" -> "### Heading\n\n\nContent"
   result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n\n');
 
   // Step 3: Fix broken words (most critical - before other processing)
@@ -109,20 +121,23 @@ export function normalizeText(text: string): string {
   // Step 4: Fix broken sentences
   result = fixBrokenSentences(result);
 
-  // Step 5: Ensure ### headers still have blank lines (catch any remaining cases
-  // after broken-word/sentence fixers may have altered line structure)
-  result = result.replace(/([^\n])(###\s)/g, '$1\n\n$2');
+  // Step 5: Ensure ### headers still have blank lines (Phase 2 - post-fixer cleanup)
+  // Catches any cases where fixers may have altered line structure around headings.
+  // Uses [^\n#] to avoid corrupting #### headings, [^\s#] for concatenated case.
+  result = result.replace(/([^\n#])\n(###\s)/g, '$1\n\n$2');
+  result = result.replace(/([^\s#])(###\s)/g, '$1\n\n$2');
   result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n');
 
-  // Step 6: Normalize excessive blank lines (3+ -> 2)
+  // Step 6: Trim trailing whitespace per line (before blank-line collapse so that
+  // whitespace-only lines become empty and get properly collapsed)
+  result = result.split('\n').map(line => line.trimEnd()).join('\n');
+
+  // Step 7: Normalize excessive blank lines (3+ -> 2)
   result = result.replace(/\n{3,}/g, '\n\n');
 
-  // Step 7: Remove repetitive garbage patterns (common LLM artifacts)
+  // Step 8: Remove repetitive garbage patterns (common LLM artifacts)
   result = result.replace(/(\u3002\s*\n\n){3,}/g, '\n\n'); // Chinese periods
   result = result.replace(/([.!?]\s*){5,}/g, '. '); // Excessive punctuation
-
-  // Step 8: Trim trailing whitespace per line
-  result = result.split('\n').map(line => line.trimEnd()).join('\n');
 
   return result.trim();
 }

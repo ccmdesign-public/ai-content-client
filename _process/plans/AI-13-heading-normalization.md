@@ -1,5 +1,17 @@
 # AI-13: Centralize Markdown Heading Normalization in normalizeText()
 
+> **Implementation note (2026-03-03):** The actual implementation diverged from this
+> plan's simpler 2-regex approach. Instead, a two-phase approach was used: Phase 1
+> inserts triple newlines (\n\n\n) around headings *before* the broken-word/sentence
+> fixers to create a protection boundary, then Phase 2 cleans up afterward. This was
+> done to prevent `fixBrokenWords` from joining heading text with content across the
+> boundary. A code review (see `todos/AI-13-client-review.md`) identified that
+> `fixBrokenSentences` also needed its `[\n\r]+` quantifier changed to `[\n\r]{1,2}`
+> (and `\s*` changed to `[^\S\n\r]*`) for the triple-newline protection to be effective
+> for both fixers. Additional fixes included: `[^\n#]` / `[^\s#]` in before-heading
+> regexes to prevent `####` heading corruption and inline `###` false positives, and
+> reordering trailing-whitespace trim before blank-line collapse.
+
 ## Overview
 
 LLMs frequently generate `### Heading\nContent` with only a single newline after headings instead of the required `\n\n`. Currently, heading spacing fixes only exist in `normalizeSectionContent()` inside `content-writer.service.ts`, which runs at file-write time. This means content rendered directly from the database in the UI still shows broken heading spacing.
