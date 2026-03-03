@@ -133,6 +133,51 @@ describe('normalizeText', () => {
     const input = '**Bold text** and *italic text*\n\n* Bullet one\n* Bullet two';
     expect(normalizeText(input)).toBe('**Bold text** and *italic text*\n\n* Bullet one\n* Bullet two');
   });
+
+  it('adds blank line after ### heading with single newline', () => {
+    const input = '### Key Points\nThe first point is important.';
+    expect(normalizeText(input)).toBe('### Key Points\n\nThe first point is important.');
+  });
+
+  it('adds blank line before ### heading when preceded by text', () => {
+    const input = 'Some text### Heading';
+    expect(normalizeText(input)).toBe('Some text\n\n### Heading');
+  });
+
+  it('preserves already-correct ### heading spacing', () => {
+    const input = '### Key Points\n\nThe first point is important.';
+    expect(normalizeText(input)).toBe('### Key Points\n\nThe first point is important.');
+  });
+
+  it('handles ### heading at start of text with missing blank line after', () => {
+    const input = '### Overview\nThis is the overview content.';
+    expect(normalizeText(input)).toBe('### Overview\n\nThis is the overview content.');
+  });
+
+  it('handles multiple ### headings with mixed spacing', () => {
+    const input = '### First\nContent one.\n\n### Second\n\nContent two.';
+    expect(normalizeText(input)).toBe('### First\n\nContent one.\n\n### Second\n\nContent two.');
+  });
+
+  it('does not affect bullet points after ### heading', () => {
+    const input = '### Tools\n* Tool A\n* Tool B';
+    expect(normalizeText(input)).toBe('### Tools\n\n* Tool A\n* Tool B');
+  });
+
+  it('collapses excessive blank lines after ### heading', () => {
+    const input = '### Heading\n\n\n\nContent after excessive blanks.';
+    expect(normalizeText(input)).toBe('### Heading\n\nContent after excessive blanks.');
+  });
+
+  it('handles ### heading followed by another ### heading', () => {
+    const input = '### First Heading\n### Second Heading\nContent here.';
+    expect(normalizeText(input)).toBe('### First Heading\n\n### Second Heading\n\nContent here.');
+  });
+
+  it('handles ### heading at end of text', () => {
+    const input = 'Some content.\n\n### Final Heading';
+    expect(normalizeText(input)).toBe('Some content.\n\n### Final Heading');
+  });
 });
 
 describe('normalizeSingleLine', () => {

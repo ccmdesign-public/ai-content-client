@@ -90,20 +90,38 @@ export function normalizeText(text: string): string {
   // Step 1: Normalize newline characters (Windows -> Unix, literal \n -> actual)
   result = result.replace(/\r\n/g, '\n').replace(/\\n/g, '\n');
 
-  // Step 2: Fix broken words (most critical - before other processing)
+  // Step 2: Ensure ### headers have blank lines before and after
+  // This runs before broken-word/sentence fixers so that the inserted blank lines
+  // prevent those fixers from incorrectly joining heading text with content.
+  // We use triple newlines here so fixBrokenWords' {1,2} quantifier cannot match
+  // across heading boundaries; the blank-line collapser in Step 6 reduces them to \n\n.
+  // Fix missing blank line before heading: "text### Heading" -> "text\n\n\n### Heading"
+  result = result.replace(/([^\n])(###\s)/g, '$1\n\n\n$2');
+  // Protect existing/new blank lines after headings by ensuring 3+ newlines
+  // so fixBrokenWords' [\n\r]{1,2} quantifier cannot match across heading boundaries
+  result = result.replace(/^(### .+)\n\n(?!\n)/gm, '$1\n\n\n');
+  // Fix missing blank line after heading: "### Heading\nContent" -> "### Heading\n\n\nContent"
+  result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n\n');
+
+  // Step 3: Fix broken words (most critical - before other processing)
   result = fixBrokenWords(result);
 
-  // Step 3: Fix broken sentences
+  // Step 4: Fix broken sentences
   result = fixBrokenSentences(result);
 
-  // Step 4: Normalize excessive blank lines (3+ -> 2)
+  // Step 5: Ensure ### headers still have blank lines (catch any remaining cases
+  // after broken-word/sentence fixers may have altered line structure)
+  result = result.replace(/([^\n])(###\s)/g, '$1\n\n$2');
+  result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n');
+
+  // Step 6: Normalize excessive blank lines (3+ -> 2)
   result = result.replace(/\n{3,}/g, '\n\n');
 
-  // Step 5: Remove repetitive garbage patterns (common LLM artifacts)
+  // Step 7: Remove repetitive garbage patterns (common LLM artifacts)
   result = result.replace(/(\u3002\s*\n\n){3,}/g, '\n\n'); // Chinese periods
   result = result.replace(/([.!?]\s*){5,}/g, '. '); // Excessive punctuation
 
-  // Step 6: Trim trailing whitespace per line
+  // Step 8: Trim trailing whitespace per line
   result = result.split('\n').map(line => line.trimEnd()).join('\n');
 
   return result.trim();
