@@ -28,7 +28,9 @@
     "backfill": "tsx scripts/backfill-video-data.ts",
     "backfill:tools": "tsx scripts/backfill-tools.ts",
     "backfill:tools:dry": "tsx scripts/backfill-tools.ts --dry-run",
-    "sync:tags": "tsx scripts/sync-tags.ts"
+    "sync:tags": "tsx scripts/sync-tags.ts",
+    "verify:markdown": "tsx scripts/verify-markdown.ts",
+    "verify:markdown:fix": "tsx scripts/verify-markdown.ts --fix"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
