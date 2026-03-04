@@ -6,13 +6,16 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
+  - "ai-general"
+  - "education"
+  - "engineering"
   - "open-source"
-  - "artificial-intelligence"
-  - "ai-agent"
-  - "software-engineering"
-  - "tutorial"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:20.212Z"
 ---
 
 # OpenClaw Won’t Bite, A Zero-to-Hero Guide for People Who Hate Terminal

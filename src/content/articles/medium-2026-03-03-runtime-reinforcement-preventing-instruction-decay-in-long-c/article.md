@@ -6,12 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/runtime-reinforcement-preventing-instruction-decay-in-long-context-windows-66d498097db9?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "agent-development-kit"
-  - "consulting"
-  - "ai-agent"
-  - "business-intelligence"
-  - "ai"
+  - "ai-general"
+  - "freelancing"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:55.315Z"
 ---
 
 # Runtime Reinforcement: Preventing “Instruction Decay” in Long Context Windows

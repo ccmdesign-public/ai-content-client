@@ -6,13 +6,14 @@ publicationName: "AI Simplified in Plain English"
 url: "https://medium.com/ai-simplified-in-plain-english/the-convergence-of-artificial-intelligence-and-clinical-excellence-a-case-study-in-stercoral-fe97b715c16f?source=rss----f37ab7d4e76b---4"
 publishedAt: "2026-03-02"
 tags:
+  - "agents"
+  - "ai-general"
   - "llm"
-  - "agentic-ai"
-  - "ai-agent"
-  - "qwen"
   - "open-source"
-  - "ai"
-  - "beginner"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:13:49.868Z"
 ---
 
 # The Convergence of Artificial Intelligence and Clinical Excellence: A Case Study in Stercoral…

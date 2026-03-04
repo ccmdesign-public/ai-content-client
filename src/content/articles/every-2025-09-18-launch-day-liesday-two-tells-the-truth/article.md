@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/launch-day-lies-day-two-tells-the-truth"
 publishedAt: "2025-09-18"
 tags:
-  - "software"
+  - "business"
   - "engineering"
-  - "coding"
+  - "product-management"
+  - "startup"
+categories:
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:12:00.542Z"
 ---
 
 # Launch Day Lies—Day Two Tells the Truth

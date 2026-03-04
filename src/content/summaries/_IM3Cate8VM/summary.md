@@ -73,11 +73,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-agents"
+  - "agents"
+  - "automation"
+  - "productivity"
   - "prompt-engineering"
-  - "developer-tools"
-  - "workflow-automation"
-  - "knowledge-management"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -87,6 +86,7 @@ ai:
   outputTokens: 1009
   totalTokens: 9283
   processingTimeMs: 96215
+tagsNormalizedAt: "2026-03-04T16:09:55.664Z"
 ---
 
 ## Key Takeaways

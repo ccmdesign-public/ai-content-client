@@ -6,13 +6,15 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/the-25m-deepfake-when-successful-authentication-becomes-the-new-single-point-of-failure-bf50995d3648?source=rss----32881626c9c9---4"
 publishedAt: "2026-03-01"
 tags:
-  - "artificial-intelligence"
-  - "security-architecture"
-  - "cybersecurity"
-  - "digital-identity"
+  - "ai-general"
   - "authentication"
   - "data-science"
-  - "finance"
+  - "security-general"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Security"
+tagsNormalizedAt: "2026-03-04T16:12:55.312Z"
 ---
 
 # The $25M Deepfake: When Successful Authentication Becomes the New Single Point of Failure

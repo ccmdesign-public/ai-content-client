@@ -76,13 +76,11 @@ tools: []
 categories:
   - "Business & Career"
 tags:
-  - "entrepreneurship"
-  - "mindset"
-  - "personal-growth"
-  - "business-growth"
-  - "motivation"
+  - "business"
+  - "career-growth"
+  - "indie-hacker"
+  - "leadership"
   - "startup"
-  - "perseverance"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +90,7 @@ ai:
   outputTokens: 630
   totalTokens: 4212
   processingTimeMs: 16760
+tagsNormalizedAt: "2026-03-04T16:09:43.963Z"
 ---
 
 ## Key Takeaways

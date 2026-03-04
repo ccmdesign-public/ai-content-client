@@ -6,9 +6,17 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it-f4a29a07-ea95-409f-bcb2-487a970bed4a"
 publishedAt: "2026-01-27"
 tags:
-  - "software"
+  - "ai-coding"
+  - "ai-general"
+  - "automation"
   - "engineering"
-  - "coding"
+  - "productivity"
+  - "workflow"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:19.188Z"
 ---
 
 # My AI Had Already Fixed the Code Before I Saw It

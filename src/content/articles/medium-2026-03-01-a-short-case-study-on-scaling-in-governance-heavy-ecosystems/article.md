@@ -6,13 +6,16 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/a-short-case-study-on-scaling-in-governance-heavy-ecosystems-5d6975581643?source=rss----32881626c9c9---4"
 publishedAt: "2026-03-01"
 tags:
-  - "platform-engineering"
-  - "digital-transformation"
-  - "b2b"
-  - "business-strategy"
-  - "automotive"
+  - "business"
   - "data-science"
-  - "finance"
+  - "leadership"
+  - "product-management"
+  - "startup"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-04T16:12:55.308Z"
 ---
 
 # A Short Case Study on Scaling in Governance-Heavy Ecosystems

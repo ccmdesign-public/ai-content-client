@@ -66,13 +66,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "claude-code"
-  - "notebook-lm"
-  - "ai-research"
-  - "rag"
-  - "youtube-scraping"
   - "automation"
-  - "ai-workflow"
+  - "claude"
+  - "rag"
+  - "research"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -82,6 +79,7 @@ ai:
   outputTokens: 783
   totalTokens: 10168
   processingTimeMs: 76212
+tagsNormalizedAt: "2026-03-04T16:08:50.981Z"
 ---
 
 ## Key Takeaways

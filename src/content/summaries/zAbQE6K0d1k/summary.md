@@ -59,15 +59,10 @@ tools:
     url: null
 categories:
   - "Web Development"
-  - "Product & Design"
 tags:
-  - "web-haptics"
-  - "haptic-feedback"
-  - "npm-package"
   - "react"
-  - "vue"
   - "svelte"
-  - "mobile-web"
+  - "vue"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -77,6 +72,7 @@ ai:
   outputTokens: 2139
   totalTokens: 7215
   processingTimeMs: 68557
+tagsNormalizedAt: "2026-03-04T16:09:03.028Z"
 ---
 
 ## Key Takeaways

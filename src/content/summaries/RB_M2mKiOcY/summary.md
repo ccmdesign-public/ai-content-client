@@ -132,16 +132,13 @@ tools:
   - name: "Apollo API"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "growth-marketing"
+  - "agents"
   - "automation"
-  - "claude-code"
+  - "claude"
   - "mcp"
-  - "api-integration"
-  - "autonomous-marketing"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -151,6 +148,7 @@ ai:
   outputTokens: 1658
   totalTokens: 39253
   processingTimeMs: 53656
+tagsNormalizedAt: "2026-03-04T16:11:03.447Z"
 ---
 
 ## Key Takeaways

@@ -6,13 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/burn-it-and-start-over-e1cfe208e35b?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "cognitive-bias"
+  - "engineering"
   - "startup"
-  - "programming"
-  - "project-management"
-  - "time-management"
-  - "coding"
-  - "frameworks"
+  - "web-development"
+categories:
+  - "Business & Career"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:14:07.858Z"
 ---
 
 # Burn It and Start Over

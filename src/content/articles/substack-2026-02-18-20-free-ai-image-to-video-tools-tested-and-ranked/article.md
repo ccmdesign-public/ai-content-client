@@ -7,8 +7,15 @@ publicationName: "Why Try AI"
 url: "https://www.whytryai.com/p/free-ai-image-to-video-tools-tested"
 publishedAt: "2026-02-18"
 tags:
-  - "ai"
-  - "tools"
+  - "ai-general"
+  - "content-creation"
+  - "machine-learning"
+  - "productivity"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:43.657Z"
 ---
 
 # 20 Free AI Image-To-Video Tools: Tested & Ranked

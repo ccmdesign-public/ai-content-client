@@ -6,11 +6,17 @@ publicationName: "Python in Plain English"
 url: "https://python.plainenglish.io/7-python-pipelines-that-scale-without-extra-code-fb95683a131e?source=rss----78073def27b8---4"
 publishedAt: "2026-03-02"
 tags:
-  - "python"
-  - "programming"
-  - "artificial-intelligence"
+  - "ai-general"
   - "data-science"
-  - "tutorials"
+  - "education"
+  - "engineering"
+  - "python"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:11:13.355Z"
 ---
 
 # 7 Python Pipelines That Scale Without Extra Code

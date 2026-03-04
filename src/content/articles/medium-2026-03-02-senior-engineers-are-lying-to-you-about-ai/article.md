@@ -6,12 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/senior-engineers-are-lying-to-you-about-ai-bf3d0119937b?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "programming"
-  - "coding"
-  - "software-engineering"
-  - "technology"
-  - "software-development"
-  - "frameworks"
+  - "engineering"
+  - "innovation"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:12:20.207Z"
 ---
 
 # Senior Engineers Are Lying to You About AI

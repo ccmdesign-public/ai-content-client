@@ -6,13 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/on-february-23-2026-anthropic-announced-that-claude-code-can-modernize-cobol-codebases-e0baafb37682?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "claude-code"
-  - "history-of-computing"
-  - "programming"
-  - "cobol"
-  - "software-engineering"
-  - "coding"
-  - "frameworks"
+  - "claude"
+  - "engineering"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:12:55.317Z"
 ---
 
 # Anthropic’s Claude Code can modernize COBOL codebases automatically — surely this is just the…

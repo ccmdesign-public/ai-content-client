@@ -6,9 +6,14 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/the-tool-that-lets-you-switch-models-without-losing-your-place"
 publishedAt: "2025-11-04"
 tags:
-  - "software"
   - "engineering"
-  - "coding"
+  - "innovation"
+  - "productivity"
+  - "workflow"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:31.920Z"
 ---
 
 # The Tool That Lets You Switch Models Without Losing Your Place

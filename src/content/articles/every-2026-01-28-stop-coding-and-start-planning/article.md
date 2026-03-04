@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/stop-coding-and-start-planning-be0b4fd1-5898-4b09-bfda-0b00ea0004fd"
 publishedAt: "2026-01-28"
 tags:
-  - "software"
+  - "architecture"
+  - "best-practices"
   - "engineering"
-  - "coding"
+  - "productivity"
+  - "workflow"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:43.631Z"
 ---
 
 # Stop Coding and Start Planning

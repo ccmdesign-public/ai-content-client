@@ -7,8 +7,14 @@ publicationName: "AI Supremacy"
 url: "https://www.ai-supremacy.com/p/citadels-2026-global-intelligence"
 publishedAt: "2026-03-03"
 tags:
-  - "ai"
-  - "analysis"
+  - "ai-general"
+  - "llm"
+  - "machine-learning"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:11:13.352Z"
 ---
 
 # Citadel's 2026 Global Intelligence Crisis Response to Citrini Research

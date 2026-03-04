@@ -6,13 +6,17 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/tracing-ai-pipelines-in-go-why-messages-vanish-between-brokers-e6625c9a3131?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "ai"
-  - "golang"
-  - "kafka"
-  - "observability"
-  - "distributed-systems"
-  - "coding"
-  - "frameworks"
+  - "ai-general"
+  - "engineering"
+  - "go"
+  - "monitoring"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:12:55.319Z"
 ---
 
 # Tracing AI Pipelines in Go: Why Messages Vanish Between Brokers

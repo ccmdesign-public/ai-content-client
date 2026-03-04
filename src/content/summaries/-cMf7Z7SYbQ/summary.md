@@ -13,13 +13,15 @@ source: "youtube"
 tldr: "Researchers presented at NDSS2026 that Wi-Fi client isolation, a security feature meant to prevent devices on the same network from communicating, is fundamentally broken across all major router brands due to non-standardized implementation, allowing attacks like gateway bouncing and port stealing to bypass it completely."
 tools: []
 categories:
+  - "Programming"
   - "Security"
+  - "Tools & Productivity"
 tags:
-  - "cybersecurity"
-  - "network-security"
-  - "wifi"
+  - "best-practices"
+  - "penetration-testing"
+  - "research"
+  - "security-general"
   - "vulnerability"
-  - "ndss"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -29,6 +31,7 @@ ai:
   outputTokens: 862
   totalTokens: 3195
   processingTimeMs: 21365
+tagsNormalizedAt: "2026-03-04T16:10:42.910Z"
 ---
 
 ## Key Takeaways

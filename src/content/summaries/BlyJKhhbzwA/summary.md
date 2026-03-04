@@ -70,15 +70,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Programming"
+  - "Tools & Productivity"
 tags:
   - "ai-coding"
-  - "parallel-execution"
-  - "terminal-multiplexing"
-  - "claude"
-  - "three-js"
   - "automation"
-  - "micro-gpt"
+  - "claude"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -88,6 +84,7 @@ ai:
   outputTokens: 3047
   totalTokens: 15537
   processingTimeMs: 62972
+tagsNormalizedAt: "2026-03-04T16:10:44.483Z"
 ---
 
 ## Key Takeaways

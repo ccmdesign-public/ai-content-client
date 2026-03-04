@@ -6,9 +6,16 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/inside-the-ai-workflows-of-every-s-six-engineers"
 publishedAt: "2025-10-27"
 tags:
-  - "software"
+  - "ai-general"
+  - "automation"
   - "engineering"
-  - "coding"
+  - "productivity"
+  - "workflow"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:36.980Z"
 ---
 
 # Inside the AI Workflows of Every’s Six Engineers

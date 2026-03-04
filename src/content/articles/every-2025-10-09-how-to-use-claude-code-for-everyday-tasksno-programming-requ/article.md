@@ -6,9 +6,16 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/how-to-use-claude-code-for-everyday-tasks-no-programming-required"
 publishedAt: "2025-10-09"
 tags:
-  - "software"
+  - "ai-general"
+  - "claude"
+  - "content-creation"
   - "engineering"
-  - "coding"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:13.769Z"
 ---
 
 # How to Use Claude Code for Everyday Tasks—No Programming Required

@@ -6,13 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/gitops-driven-installation-of-red-hat-openshift-ai-on-ibm-fusion-with-argo-cd-bca1c6776fd0?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "red-hat-openshift"
+  - "ai-general"
   - "kubernetes"
-  - "mlops"
-  - "gitops"
-  - "argo-cd"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:13.774Z"
 ---
 
 # GitOps-Driven Installation of Red Hat OpenShift AI on IBM Fusion with Argo CD

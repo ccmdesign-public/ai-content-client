@@ -6,9 +6,18 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/what-the-team-behind-cursor-knows-about-the-future-of-code"
 publishedAt: "2026-01-22"
 tags:
-  - "software"
+  - "ai-coding"
   - "engineering"
-  - "coding"
+  - "innovation"
+  - "llm"
+  - "productivity"
+  - "startup"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:02.208Z"
 ---
 
 # What the Team Behind Cursor Knows About the Future of Code

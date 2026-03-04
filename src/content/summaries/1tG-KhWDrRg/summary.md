@@ -17,15 +17,16 @@ tools:
   - name: "Webpack"
     url: null
 categories:
-  - "Web Development"
+  - "Programming"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "vite"
-  - "webpack"
-  - "build-tools"
-  - "frontend"
-  - "developer-experience"
+  - "best-practices"
   - "javascript"
+  - "open-source"
+  - "performance"
+  - "web-development"
+  - "workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -35,6 +36,7 @@ ai:
   outputTokens: 485
   totalTokens: 2183
   processingTimeMs: 43138
+tagsNormalizedAt: "2026-03-04T16:10:07.852Z"
 ---
 
 ## Key Takeaways

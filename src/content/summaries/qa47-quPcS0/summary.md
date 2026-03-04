@@ -94,16 +94,15 @@ tools:
   - name: "Perplexity"
     url: null
 categories:
-  - "Business & Career"
   - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "ai-seo"
-  - "digital-marketing"
-  - "search-optimization"
+  - "business"
   - "chatgpt"
-  - "content-strategy"
+  - "content-creation"
   - "seo"
-  - "business-strategy"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -113,6 +112,7 @@ ai:
   outputTokens: 905
   totalTokens: 16033
   processingTimeMs: 26194
+tagsNormalizedAt: "2026-03-04T16:08:52.374Z"
 ---
 
 ## Key Takeaways

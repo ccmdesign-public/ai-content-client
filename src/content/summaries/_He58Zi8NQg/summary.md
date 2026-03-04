@@ -56,14 +56,15 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Mobile Development"
+  - "Tools & Productivity"
 tags:
-  - "ai-operating-system"
-  - "claude-code"
-  - "business-automation"
-  - "remote-work"
-  - "ai-assistant"
-  - "telegram-bot"
-  - "data-aggregation"
+  - "ai-general"
+  - "automation"
+  - "business"
+  - "claude"
+  - "mobile-apps"
+  - "productivity"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -73,6 +74,7 @@ ai:
   outputTokens: 837
   totalTokens: 9891
   processingTimeMs: 75484
+tagsNormalizedAt: "2026-03-04T16:09:07.431Z"
 ---
 
 ## Key Takeaways

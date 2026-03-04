@@ -6,9 +6,16 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/how-i-use-claude-code-to-ship-like-a-team-of-five-6f23f136-52ab-455f-a997-101c071613aa"
 publishedAt: "2026-01-26"
 tags:
-  - "software"
+  - "ai-coding"
+  - "claude"
   - "engineering"
-  - "coding"
+  - "llm"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:49.630Z"
 ---
 
 # How I Use Claude Code to Ship Like a Team of Five

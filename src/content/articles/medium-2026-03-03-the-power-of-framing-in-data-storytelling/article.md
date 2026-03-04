@@ -6,11 +6,13 @@ publicationName: "Learning Data"
 url: "https://medium.com/learning-data/the-power-of-framing-in-data-storytelling-637f0961b449?source=rss----eec44e936bf1---4"
 publishedAt: "2026-03-03"
 tags:
-  - "data-storytelling"
-  - "data-analysis"
-  - "data-visualization"
   - "data-science"
   - "education"
+  - "visualization"
+categories:
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:07.861Z"
 ---
 
 # The Power of Framing in Data Storytelling

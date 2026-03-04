@@ -6,13 +6,16 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/the-simple-guide-to-agent-skills-3d510521f11a?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "agentic-ai"
-  - "ai-coding-agent"
-  - "software-development"
-  - "artificial-intelligence"
-  - "large-language-models"
-  - "coding"
-  - "frameworks"
+  - "agents"
+  - "ai-general"
+  - "engineering"
+  - "llm"
+  - "web-development"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:13:37.949Z"
 ---
 
 # The Simple Guide to Agent Skills

@@ -121,13 +121,12 @@ categories:
   - "AI & Machine Learning"
   - "Business & Career"
 tags:
-  - "claude-skills"
-  - "ai-agents"
-  - "revenue-generation"
-  - "business-automation"
-  - "lead-generation"
-  - "cold-email"
-  - "skill-building"
+  - "agents"
+  - "business"
+  - "claude"
+  - "monetization"
+  - "saas"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -137,6 +136,7 @@ ai:
   outputTokens: 3729
   totalTokens: 43638
   processingTimeMs: 114737
+tagsNormalizedAt: "2026-03-04T16:10:49.270Z"
 ---
 
 ## Key Takeaways

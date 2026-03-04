@@ -60,16 +60,16 @@ tools:
   - name: "React"
     url: null
 categories:
-  - "Web Development"
+  - "Programming"
   - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "tanstack"
+  - "open-source"
+  - "productivity"
   - "react"
-  - "hotkeys"
   - "typescript"
-  - "developer-experience"
-  - "keyboard-shortcuts"
-  - "ui-library"
+  - "web-development"
+  - "workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -79,6 +79,7 @@ ai:
   outputTokens: 770
   totalTokens: 9354
   processingTimeMs: 38551
+tagsNormalizedAt: "2026-03-04T16:09:35.633Z"
 ---
 
 ## Key Takeaways

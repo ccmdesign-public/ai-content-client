@@ -6,12 +6,14 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/data-and-beyond-monthly-newsletter-issue-8-f35f1fdacc3c?source=rss----b680b860beb1---4"
 publishedAt: "2026-03-01"
 tags:
-  - "newsletter"
-  - "medium"
-  - "ai"
+  - "ai-general"
+  - "analytics"
   - "data-science"
   - "machine-learning"
-  - "analytics"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-04T16:12:02.222Z"
 ---
 
 # Data And Beyond Monthly Newsletter — Issue #8

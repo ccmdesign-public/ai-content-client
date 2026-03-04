@@ -6,11 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/building-a-production-multi-tenant-whatsapp-ai-bot-one-backend-three-businesses-87de9a5fcc7b?source=rss----98111c9905da---4"
 publishedAt: "2026-03-02"
 tags:
-  - "agentic-ai"
-  - "chatbots"
-  - "artificial-intelligence"
-  - "ai"
+  - "agents"
+  - "ai-general"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:33.756Z"
 ---
 
 # Building a Production Multi-Tenant WhatsApp AI Bot: One Backend, Three Businesses

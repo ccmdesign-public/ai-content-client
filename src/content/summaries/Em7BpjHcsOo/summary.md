@@ -41,12 +41,14 @@ tldr: "The AI video model Seed Dance 2.0 has passed the 'Will Smith eating spagh
 tools: []
 categories:
   - "AI & Machine Learning"
+  - "Tools & Productivity"
 tags:
-  - "ai-video"
-  - "generative-ai"
+  - "ai-general"
+  - "computer-vision"
   - "content-creation"
-  - "digital-marketing"
-  - "deepfakes"
+  - "innovation"
+  - "llm"
+  - "machine-learning"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -56,6 +58,7 @@ ai:
   outputTokens: 492
   totalTokens: 2232
   processingTimeMs: 46952
+tagsNormalizedAt: "2026-03-04T16:08:50.311Z"
 ---
 
 ## Key Takeaways

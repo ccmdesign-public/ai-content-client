@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/compound-engineering-how-every-codes-with-agents-af3a1bae-cf9b-458e-8048-c6b4ba860e62"
 publishedAt: "2026-01-30"
 tags:
-  - "software"
+  - "agents"
+  - "ai-coding"
+  - "ai-general"
   - "engineering"
-  - "coding"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:11:26.166Z"
 ---
 
 # Compound Engineering: How Every Codes With Agents

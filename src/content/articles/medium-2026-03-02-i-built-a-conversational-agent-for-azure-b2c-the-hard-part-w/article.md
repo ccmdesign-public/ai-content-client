@@ -6,13 +6,16 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/i-built-a-conversational-agent-for-azure-b2c-the-hard-part-wasnt-azure-eea060c10781?source=rss----98111c9905da---4"
 publishedAt: "2026-03-02"
 tags:
-  - "artificial-intelligence"
-  - "microsoft-entra-id"
-  - "python"
-  - "ai-agent"
+  - "ai-general"
   - "azure"
-  - "ai"
+  - "python"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:02.212Z"
 ---
 
 # I Built a Conversational Agent for Azure B2C — The Hard Part Wasn’t Azure

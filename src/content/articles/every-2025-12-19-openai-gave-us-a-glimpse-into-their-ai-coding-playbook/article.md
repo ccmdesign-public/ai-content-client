@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/openai-gave-us-a-glimpse-into-their-ai-coding-playbook"
 publishedAt: "2025-12-19"
 tags:
-  - "software"
+  - "ai-coding"
+  - "copilot"
   - "engineering"
-  - "coding"
+  - "llm"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:14:07.853Z"
 ---
 
 # OpenAI Gave Us a Glimpse Into Their AI Coding Playbook

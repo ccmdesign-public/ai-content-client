@@ -36,12 +36,9 @@ tools:
 categories:
   - "AI & Machine Learning"
 tags:
-  - "ai-image-generation"
+  - "agents"
+  - "claude"
   - "gemini"
-  - "anthropic-claude"
-  - "enterprise-ai"
-  - "ai-agents"
-  - "ai-chips"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -51,6 +48,7 @@ ai:
   outputTokens: 883
   totalTokens: 8512
   processingTimeMs: 71527
+tagsNormalizedAt: "2026-03-04T16:08:50.980Z"
 ---
 
 ## Key Takeaways

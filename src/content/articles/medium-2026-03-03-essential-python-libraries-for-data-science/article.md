@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/essential-python-libraries-for-data-science-c1d607abca27?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
+  - "ai-general"
   - "data-science"
-  - "scikit-learn"
-  - "catboost"
-  - "xgboost"
   - "machine-learning"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:37.950Z"
 ---
 
 # Essential Python Libraries for Data Science

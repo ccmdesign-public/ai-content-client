@@ -49,13 +49,10 @@ tools:
     url: null
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "entrepreneurship"
-  - "business-growth"
+  - "interviewing"
   - "productivity"
-  - "mindset"
-  - "hiring"
-  - "strategy"
   - "startup"
 ai:
   provider: "openrouter"
@@ -66,6 +63,7 @@ ai:
   outputTokens: 1150
   totalTokens: 16330
   processingTimeMs: 112544
+tagsNormalizedAt: "2026-03-04T16:09:03.770Z"
 ---
 
 ## Key Takeaways

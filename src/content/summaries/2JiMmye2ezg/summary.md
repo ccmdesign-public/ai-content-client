@@ -91,14 +91,11 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Tools & Productivity"
+  - "Data & Analytics"
 tags:
-  - "ai-agents"
-  - "personal-knowledge-management"
-  - "vector-embeddings"
-  - "mcp-protocol"
+  - "agents"
+  - "embeddings"
   - "postgresql"
-  - "second-brain"
   - "prompt-engineering"
 ai:
   provider: "openrouter"
@@ -109,6 +106,7 @@ ai:
   outputTokens: 1977
   totalTokens: 21822
   processingTimeMs: 43889
+tagsNormalizedAt: "2026-03-04T16:08:55.360Z"
 ---
 
 ## Key Takeaways

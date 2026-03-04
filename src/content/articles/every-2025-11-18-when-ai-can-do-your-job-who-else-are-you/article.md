@@ -6,9 +6,16 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/when-ai-can-do-your-job-who-else-are-you"
 publishedAt: "2025-11-18"
 tags:
-  - "software"
+  - "ai-general"
+  - "business"
+  - "career-growth"
   - "engineering"
-  - "coding"
+  - "llm"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:11:19.638Z"
 ---
 
 # When AI Can Do Your Job, Who Else Are You?

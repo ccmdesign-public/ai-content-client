@@ -75,13 +75,13 @@ tldr: "Alex Hormozi reveals his media consumption strategy: he primarily follows
 tools: []
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "media-consumption"
-  - "personal-development"
-  - "entrepreneurship"
-  - "mindset"
-  - "stoicism"
-  - "comedy"
+  - "business"
+  - "career-growth"
+  - "content-creation"
+  - "productivity"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -91,6 +91,7 @@ ai:
   outputTokens: 634
   totalTokens: 5475
   processingTimeMs: 81791
+tagsNormalizedAt: "2026-03-04T16:08:50.969Z"
 ---
 
 ## Key Takeaways

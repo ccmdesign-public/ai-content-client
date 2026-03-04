@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/the-llm-speed-hack-nobody-is-talking-about-0e07f3876d25?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "programming"
-  - "artificial-intelligence"
-  - "life"
-  - "marketing"
+  - "ai-general"
+  - "engineering"
   - "productivity"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:19.192Z"
 ---
 
 # The LLM Speed Hack Nobody Is Talking About

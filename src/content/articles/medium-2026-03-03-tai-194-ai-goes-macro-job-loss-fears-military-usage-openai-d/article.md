@@ -6,12 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/tai-194-ai-goes-macro-job-loss-fears-military-usage-openai-110b-raise-0a08af55b139?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "artificial-intelligence"
-  - "news"
-  - "ai"
-  - "towards-ai"
+  - "ai-general"
   - "llm"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:00.551Z"
 ---
 
 # TAI #194: AI Goes Macro; Job Loss Fears, Military Usage, OpenAI $110B Raise

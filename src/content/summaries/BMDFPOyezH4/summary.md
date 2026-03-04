@@ -44,14 +44,14 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
 tags:
-  - "ai-agents"
-  - "multi-agent-systems"
-  - "protocols"
-  - "interoperability"
-  - "agent-communication"
-  - "integration"
-  - "orchestration"
+  - "agents"
+  - "ai-general"
+  - "api-design"
+  - "architecture"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -61,6 +61,7 @@ ai:
   outputTokens: 907
   totalTokens: 8122
   processingTimeMs: 28042
+tagsNormalizedAt: "2026-03-04T16:09:38.120Z"
 ---
 
 ## Key Takeaways

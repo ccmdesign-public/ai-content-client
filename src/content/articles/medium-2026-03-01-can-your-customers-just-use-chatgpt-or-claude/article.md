@@ -6,12 +6,18 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/can-your-customers-just-use-chatgpt-or-claude-5e3d540fa769?source=rss----32881626c9c9---4"
 publishedAt: "2026-03-01"
 tags:
-  - "technology"
-  - "ai"
-  - "software-development"
-  - "saas"
+  - "ai-general"
   - "data-science"
-  - "finance"
+  - "engineering"
+  - "innovation"
+  - "saas"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:31.421Z"
 ---
 
 # Can Your Customers Just Use ChatGPT (Or Claude)?

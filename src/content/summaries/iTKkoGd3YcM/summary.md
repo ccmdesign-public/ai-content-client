@@ -62,13 +62,10 @@ categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
 tags:
-  - "ai-image-generation"
-  - "prompt-engineering"
-  - "google-gemini"
-  - "ai-automation"
-  - "workflow"
-  - "json"
+  - "gemini"
   - "productivity"
+  - "prompt-engineering"
+  - "workflow"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -78,6 +75,7 @@ ai:
   outputTokens: 908
   totalTokens: 15117
   processingTimeMs: 104414
+tagsNormalizedAt: "2026-03-04T16:08:50.976Z"
 ---
 
 ## Key Takeaways

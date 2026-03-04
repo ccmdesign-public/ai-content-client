@@ -6,12 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/in-the-league-of-ais-token-dandle-board-1f21833469a2?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "algorithms"
-  - "programming"
-  - "india"
-  - "artificial-intelligence"
-  - "ai"
+  - "ai-general"
+  - "architecture"
+  - "engineering"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:11:13.362Z"
 ---
 
 # In the League of AI’s Token Dandle-Board

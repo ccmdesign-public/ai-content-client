@@ -75,13 +75,13 @@ tldr: "Alex Hormozi explains that successful relationships, like his marriage, a
 tools: []
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "relationships"
-  - "entrepreneurship"
-  - "partnership"
+  - "business"
+  - "career-growth"
+  - "leadership"
   - "productivity"
-  - "personal-development"
-  - "marriage"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -91,6 +91,7 @@ ai:
   outputTokens: 683
   totalTokens: 9386
   processingTimeMs: 22793
+tagsNormalizedAt: "2026-03-04T16:09:02.527Z"
 ---
 
 ## Key Takeaways

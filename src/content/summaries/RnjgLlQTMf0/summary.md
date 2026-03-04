@@ -69,13 +69,14 @@ tools: []
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-agents"
-  - "future-of-work"
-  - "skill-development"
-  - "workforce-transformation"
-  - "human-ai-collaboration"
+  - "agents"
+  - "ai-general"
+  - "career-growth"
+  - "innovation"
   - "productivity"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -85,6 +86,7 @@ ai:
   outputTokens: 961
   totalTokens: 19438
   processingTimeMs: 24452
+tagsNormalizedAt: "2026-03-04T16:08:49.405Z"
 ---
 
 ## Key Takeaways

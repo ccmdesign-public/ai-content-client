@@ -6,9 +6,14 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/compound-engineering-the-definitive-guide"
 publishedAt: "2026-02-09"
 tags:
-  - "software"
+  - "architecture"
+  - "best-practices"
   - "engineering"
-  - "coding"
+  - "productivity"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:34.339Z"
 ---
 
 # Compound Engineering: The Definitive Guide

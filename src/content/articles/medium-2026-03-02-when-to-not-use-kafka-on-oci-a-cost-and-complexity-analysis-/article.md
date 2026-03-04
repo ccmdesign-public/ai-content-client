@@ -6,13 +6,19 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/when-to-not-use-kafka-on-oci-a-cost-and-complexity-analysis-for-event-streaming-architecture-c289b63825f7?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "kafka"
-  - "cloud-architecture"
-  - "oracle-cloud"
-  - "event-driven-architecture"
-  - "distributed-systems"
-  - "coding"
-  - "frameworks"
+  - "architecture"
+  - "aws"
+  - "azure"
+  - "data-pipeline"
+  - "engineering"
+  - "gcp"
+  - "web-development"
+categories:
+  - "Data & Analytics"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:12:20.202Z"
 ---
 
 # When to NOT Use Kafka on OCI: A Cost and Complexity Analysis for Event Streaming Architecture

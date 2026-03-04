@@ -59,13 +59,10 @@ categories:
   - "AI & Machine Learning"
   - "Web Development"
 tags:
-  - "framer"
+  - "ai-coding"
   - "claude"
   - "mcp"
   - "react"
-  - "ai-coding"
-  - "prototyping"
-  - "design-system"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -75,6 +72,7 @@ ai:
   outputTokens: 850
   totalTokens: 7112
   processingTimeMs: 30743
+tagsNormalizedAt: "2026-03-04T16:09:20.123Z"
 ---
 
 ## Key Takeaways

@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/how-to-design-software-with-weight"
 publishedAt: "2026-02-26"
 tags:
-  - "software"
+  - "architecture"
+  - "best-practices"
   - "engineering"
-  - "coding"
+  - "product-management"
+  - "product-strategy"
+categories:
+  - "Product & Design"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:11:04.118Z"
 ---
 
 # How to Design Software With Weight

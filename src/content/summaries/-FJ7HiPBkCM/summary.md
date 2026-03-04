@@ -55,13 +55,11 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Security"
 tags:
-  - "ai-agents"
-  - "autonomous-ai"
-  - "openclaw"
+  - "agents"
   - "claude"
-  - "wall-street"
-  - "regulation"
+  - "compliance"
   - "saas"
 ai:
   provider: "openrouter"
@@ -72,6 +70,7 @@ ai:
   outputTokens: 1037
   totalTokens: 12115
   processingTimeMs: 75900
+tagsNormalizedAt: "2026-03-04T16:08:51.596Z"
 ---
 
 ## Key Takeaways

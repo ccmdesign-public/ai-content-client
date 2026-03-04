@@ -6,9 +6,17 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/build-places-not-products"
 publishedAt: "2025-09-11"
 tags:
-  - "software"
+  - "business"
   - "engineering"
-  - "coding"
+  - "innovation"
+  - "product-management"
+  - "product-strategy"
+categories:
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:31.415Z"
 ---
 
 # Build Places, Not Products

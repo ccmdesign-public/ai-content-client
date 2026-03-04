@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/openclaw-setting-up-your-first-personal-ai-agent"
 publishedAt: "2026-03-02"
 tags:
-  - "software"
+  - "agents"
+  - "ai-general"
   - "engineering"
-  - "coding"
+  - "llm"
+  - "prompt-engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:14:37.521Z"
 ---
 
 # OpenClaw: Setting Up Your First Personal AI Agent

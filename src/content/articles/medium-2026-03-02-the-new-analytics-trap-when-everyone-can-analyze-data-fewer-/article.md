@@ -7,10 +7,15 @@ url: "https://medium.com/data-and-beyond/the-new-analytics-trap-when-everyone-ca
 publishedAt: "2026-03-02"
 tags:
   - "analytics"
-  - "data-analysis"
+  - "business"
   - "data-science"
-  - "marketing-analytics"
-  - "data"
+  - "leadership"
+  - "product-management"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Product & Design"
+tagsNormalizedAt: "2026-03-04T16:11:07.645Z"
 ---
 
 # The New Analytics Trap: When Everyone Can Analyze Data, Fewer People Tell the Truth

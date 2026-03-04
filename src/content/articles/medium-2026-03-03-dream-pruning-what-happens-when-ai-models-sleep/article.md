@@ -6,13 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/dream-pruning-what-happens-when-ai-models-sleep-3db3c404e24a?source=rss----98111c9905da---4"
 publishedAt: "2026-03-03"
 tags:
-  - "neuroscience"
-  - "artificial-intelligence"
-  - "cognitive-computing"
+  - "ai-general"
   - "machine-learning"
-  - "deep-learning"
-  - "ai"
+  - "model-training"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:14:07.860Z"
 ---
 
 # Dream Pruning: What Happens When AI Models Sleep

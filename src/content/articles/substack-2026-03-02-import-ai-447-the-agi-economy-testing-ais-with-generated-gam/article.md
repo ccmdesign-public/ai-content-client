@@ -7,9 +7,14 @@ publicationName: "Import AI"
 url: "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing"
 publishedAt: "2026-03-02"
 tags:
-  - "ai"
-  - "research"
+  - "ai-general"
   - "policy"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Security"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:00.545Z"
 ---
 
 # Import AI 447: The AGI economy; testing AIs with generated games; and agent ecologies

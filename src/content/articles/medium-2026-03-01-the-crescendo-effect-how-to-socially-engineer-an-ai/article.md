@@ -6,13 +6,16 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/crescendo-4c2fd786f4f3?source=rss----32881626c9c9---4"
 publishedAt: "2026-03-01"
 tags:
-  - "llm-jailbreak"
-  - "ai-memory-vulnerabilities"
-  - "indirect-prompt-injection"
-  - "crescendo-attack"
-  - "agentic-ai-security"
+  - "ai-general"
   - "data-science"
-  - "finance"
+  - "machine-learning"
+  - "prompt-engineering"
+  - "security-general"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Security"
+tagsNormalizedAt: "2026-03-04T16:12:02.217Z"
 ---
 
 # The Crescendo Effect: How to Socially Engineer an AI

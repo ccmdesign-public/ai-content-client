@@ -96,14 +96,14 @@ tools:
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "ai-art"
-  - "creative-direction"
-  - "midjourney"
-  - "prompt-engineering"
-  - "design-workflow"
+  - "ai-general"
+  - "business"
+  - "career-growth"
+  - "content-creation"
   - "freelancing"
-  - "ai-tools"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/google/gemini-2.5-flash"
@@ -113,6 +113,7 @@ ai:
   outputTokens: 1958
   totalTokens: 44434
   processingTimeMs: 52779
+tagsNormalizedAt: "2026-03-04T16:08:54.568Z"
 ---
 
 ## Key Takeaways

@@ -68,15 +68,15 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
+  - "Tools & Productivity"
+  - "Web Development"
 tags:
-  - "framer"
-  - "ai-design"
+  - "ai-coding"
   - "claude"
-  - "cursor"
+  - "content-creation"
+  - "llm"
   - "mcp"
-  - "prototyping"
-  - "no-code"
+  - "react"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -86,6 +86,7 @@ ai:
   outputTokens: 684
   totalTokens: 9057
   processingTimeMs: 21761
+tagsNormalizedAt: "2026-03-04T16:08:53.883Z"
 ---
 
 ## Key Takeaways

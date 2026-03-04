@@ -48,14 +48,13 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "Product & Design"
+  - "Tools & Productivity"
 tags:
-  - "ai-storytelling"
-  - "generative-ai"
-  - "visual-content"
-  - "future-of-work"
-  - "creative-tools"
-  - "digital-media"
+  - "ai-general"
+  - "chatgpt"
+  - "content-creation"
+  - "innovation"
+  - "llm"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -65,6 +64,7 @@ ai:
   outputTokens: 614
   totalTokens: 2849
   processingTimeMs: 43301
+tagsNormalizedAt: "2026-03-04T16:10:13.499Z"
 ---
 
 ## Key Takeaways

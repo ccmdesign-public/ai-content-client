@@ -6,12 +6,14 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/who-needs-labels-when-you-have-pixels-368696d1b7f4?source=rss----b680b860beb1---4"
 publishedAt: "2026-03-02"
 tags:
-  - "self-supervised-learning"
-  - "computer-vison"
-  - "machine-learning"
-  - "artificial-intelligence"
-  - "data-science"
+  - "ai-general"
   - "analytics"
+  - "data-science"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-04T16:11:13.358Z"
 ---
 
 # Who Needs Labels When You Have Pixels?

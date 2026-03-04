@@ -6,9 +6,14 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better"
 publishedAt: "2026-01-23"
 tags:
-  - "software"
+  - "best-practices"
   - "engineering"
-  - "coding"
+  - "productivity"
+  - "workflow"
+categories:
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:55.548Z"
 ---
 
 # I Stopped Reading Code. My Code Reviews Got Better.

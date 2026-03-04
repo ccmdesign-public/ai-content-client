@@ -80,13 +80,9 @@ categories:
   - "AI & Machine Learning"
   - "Web Development"
 tags:
-  - "claude-code"
-  - "nano-banana"
-  - "scroll-animation"
-  - "ai-websites"
+  - "claude"
   - "nextjs"
-  - "tailwind-css"
-  - "ffmpeg"
+  - "tailwind"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -96,6 +92,7 @@ ai:
   outputTokens: 2649
   totalTokens: 14324
   processingTimeMs: 56762
+tagsNormalizedAt: "2026-03-04T16:09:55.663Z"
 ---
 
 ## Key Takeaways

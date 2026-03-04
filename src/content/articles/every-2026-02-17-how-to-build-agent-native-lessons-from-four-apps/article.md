@@ -6,9 +6,16 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/how-to-build-agent-native-lessons-from-four-apps"
 publishedAt: "2026-02-17"
 tags:
-  - "software"
+  - "agents"
+  - "ai-general"
   - "engineering"
-  - "coding"
+  - "llm"
+  - "product-management"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:13:33.751Z"
 ---
 
 # How to Build Agent-native: Lessons From Four Apps

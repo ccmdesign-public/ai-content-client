@@ -6,9 +6,17 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/how-every-is-harnessing-the-world-changing-shift-of-opus-4-5"
 publishedAt: "2025-12-09"
 tags:
-  - "software"
+  - "ai-general"
   - "engineering"
-  - "coding"
+  - "innovation"
+  - "llm"
+  - "product-strategy"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:31.371Z"
 ---
 
 # How Every Is Harnessing the World-changing Shift of Opus 4.5

@@ -6,9 +6,15 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/i-inherited-a-broken-app-and-made-it-mine"
 publishedAt: "2025-10-02"
 tags:
-  - "software"
+  - "architecture"
+  - "best-practices"
+  - "career-growth"
   - "engineering"
-  - "coding"
+  - "refactoring"
+categories:
+  - "Business & Career"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:14:14.536Z"
 ---
 
 # I Inherited a Broken App—And Made It Mine

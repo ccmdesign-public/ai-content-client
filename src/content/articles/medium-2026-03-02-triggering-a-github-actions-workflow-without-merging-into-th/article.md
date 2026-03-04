@@ -6,13 +6,13 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/triggering-a-github-actions-workflow-without-merging-into-the-default-branch-a-guide-8a2265aba998?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "github-actions"
-  - "github"
-  - "devops"
-  - "github-cli"
-  - "github-repositories"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "open-source"
+  - "web-development"
+categories:
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:14:26.020Z"
 ---
 
 # Triggering a Github Actions Workflow Without Merging Into The Default Branch: A Guide

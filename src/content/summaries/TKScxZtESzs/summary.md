@@ -86,15 +86,12 @@ tools:
   - name: "Cursor"
     url: null
 categories:
-  - "Product & Design"
   - "AI & Machine Learning"
+  - "Product & Design"
 tags:
-  - "claude-code"
-  - "figma"
-  - "design-workflow"
-  - "ai-design"
-  - "ux-prototyping"
+  - "claude"
   - "design-systems"
+  - "figma"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2-20251201"
@@ -104,6 +101,7 @@ ai:
   outputTokens: 3417
   totalTokens: 14374
   processingTimeMs: 101539
+tagsNormalizedAt: "2026-03-04T16:08:55.359Z"
 ---
 
 ## Key Takeaways

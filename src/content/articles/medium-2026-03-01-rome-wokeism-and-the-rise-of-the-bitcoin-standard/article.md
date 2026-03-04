@@ -6,13 +6,16 @@ publicationName: "Data Driven Investor"
 url: "https://medium.datadriveninvestor.com/rome-wokeism-and-the-rise-of-the-bitcoin-standard-95e3b5125d80?source=rss----32881626c9c9---4"
 publishedAt: "2026-03-01"
 tags:
-  - "philosophy"
-  - "economy"
-  - "history"
-  - "bitcoin"
-  - "politics"
+  - "business"
+  - "cryptocurrency"
   - "data-science"
-  - "finance"
+  - "innovation"
+  - "startup"
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:11:59.526Z"
 ---
 
 # Rome, Wokeism, and the Rise of the Bitcoin Standard

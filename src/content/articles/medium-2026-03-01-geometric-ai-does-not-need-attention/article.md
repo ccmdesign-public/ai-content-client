@@ -6,13 +6,15 @@ publicationName: "Generative AI"
 url: "https://generativeai.pub/geometric-ai-does-not-need-attention-2fdb8e08b7cd?source=rss----440100e76000---4"
 publishedAt: "2026-03-01"
 tags:
-  - "robotics"
-  - "physics"
-  - "geometric-deep-learning"
-  - "cool-stuff"
-  - "artificial-intelligence"
-  - "ai"
-  - "generative"
+  - "ai-general"
+  - "llm"
+  - "machine-learning"
+  - "model-training"
+  - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:12:01.453Z"
 ---
 
 # Geometric AI does not need attention

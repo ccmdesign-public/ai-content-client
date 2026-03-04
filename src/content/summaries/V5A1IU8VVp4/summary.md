@@ -77,15 +77,12 @@ tools:
     url: null
 categories:
   - "AI & Machine Learning"
-  - "DevOps & Infrastructure"
+  - "Programming"
 tags:
-  - "ai-agents"
-  - "agentic-engineering"
-  - "stripe"
+  - "agents"
   - "ai-coding"
+  - "engineering"
   - "llm"
-  - "devops"
-  - "software-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -95,6 +92,7 @@ ai:
   outputTokens: 1811
   totalTokens: 32140
   processingTimeMs: 88920
+tagsNormalizedAt: "2026-03-04T16:09:36.150Z"
 ---
 
 ## Key Takeaways

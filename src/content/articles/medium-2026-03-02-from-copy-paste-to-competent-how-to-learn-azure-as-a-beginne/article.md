@@ -6,13 +6,14 @@ publicationName: "Level Up Coding"
 url: "https://levelup.gitconnected.com/from-copy-paste-to-competent-how-to-learn-azure-as-a-beginner-2f0531200aa6?source=rss----5517fd7b58a6---4"
 publishedAt: "2026-03-02"
 tags:
-  - "software-development"
   - "azure"
-  - "cloud-computing"
-  - "computer-science"
-  - "cloud-infrastructure"
-  - "coding"
-  - "frameworks"
+  - "engineering"
+  - "web-development"
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
+tagsNormalizedAt: "2026-03-04T16:12:20.210Z"
 ---
 
 # From Copy-Paste to Competent: How to Learn Azure as a Beginner

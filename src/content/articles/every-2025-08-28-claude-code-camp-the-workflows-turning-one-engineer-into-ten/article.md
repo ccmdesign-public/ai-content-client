@@ -6,9 +6,17 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/claude-code-camp"
 publishedAt: "2025-08-28"
 tags:
-  - "software"
+  - "ai-coding"
+  - "automation"
+  - "claude"
   - "engineering"
-  - "coding"
+  - "llm"
+  - "productivity"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-04T16:13:37.947Z"
 ---
 
 # Claude Code Camp: The Workflows Turning One Engineer Into Ten

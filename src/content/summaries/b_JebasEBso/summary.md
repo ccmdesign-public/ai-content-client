@@ -15,11 +15,11 @@ tools: []
 categories:
   - "AI & Machine Learning"
 tags:
+  - "ai-general"
+  - "chatgpt"
+  - "claude"
   - "llm"
-  - "ai-evaluation"
-  - "reasoning"
-  - "common-sense"
-  - "benchmark"
+  - "prompt-engineering"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -29,6 +29,7 @@ ai:
   outputTokens: 765
   totalTokens: 3056
   processingTimeMs: 18051
+tagsNormalizedAt: "2026-03-04T16:09:20.117Z"
 ---
 
 ## Key Takeaways

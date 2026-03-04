@@ -6,9 +6,17 @@ publicationName: "Source Code"
 url: "https://every.to/source-code/teach-your-ai-to-think-like-a-senior-engineer-789ba7ca-ca7c-45a1-91fa-4178f59f226f"
 publishedAt: "2026-01-29"
 tags:
-  - "software"
+  - "ai-general"
+  - "best-practices"
+  - "career-growth"
   - "engineering"
-  - "coding"
+  - "leadership"
+  - "prompt-engineering"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+tagsNormalizedAt: "2026-03-04T16:11:58.958Z"
 ---
 
 # Teach Your AI to Think Like a Senior Engineer

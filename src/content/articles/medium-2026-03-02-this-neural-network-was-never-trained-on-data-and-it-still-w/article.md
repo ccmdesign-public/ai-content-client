@@ -6,12 +6,15 @@ publicationName: "Data and Beyond"
 url: "https://medium.com/data-and-beyond/this-neural-network-was-never-trained-on-data-and-it-still-works-d5ff2ea410fb?source=rss----b680b860beb1---4"
 publishedAt: "2026-03-02"
 tags:
-  - "artificial-intelligence"
-  - "machine-learning"
-  - "self-supervised-learning"
+  - "ai-general"
+  - "analytics"
   - "computer-vision"
   - "data-science"
-  - "analytics"
+  - "machine-learning"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+tagsNormalizedAt: "2026-03-04T16:13:55.553Z"
 ---
 
 # This Neural Network Was Never Trained on Data (And It Still Works)

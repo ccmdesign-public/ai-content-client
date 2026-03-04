@@ -75,14 +75,13 @@ tldr: "The Stoic response to hate is to neutralize insults by agreeing with them
 tools: []
 categories:
   - "Business & Career"
+  - "Tools & Productivity"
 tags:
-  - "stoicism"
-  - "personal-development"
-  - "resilience"
-  - "mindset"
-  - "entrepreneurship"
-  - "psychology"
-  - "criticism"
+  - "business"
+  - "career-growth"
+  - "leadership"
+  - "productivity"
+  - "startup"
 ai:
   provider: "openrouter"
   model: "openrouter/deepseek/deepseek-v3.2"
@@ -92,6 +91,7 @@ ai:
   outputTokens: 589
   totalTokens: 7570
   processingTimeMs: 19081
+tagsNormalizedAt: "2026-03-04T16:09:01.938Z"
 ---
 
 ## Key Takeaways
