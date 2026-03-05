@@ -110,38 +110,5 @@ useHead({
   gap: var(--space-xs, 0.5rem);
 }
 
-.tag-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-2xs, 0.25rem) var(--space-s, 0.75rem);
-  background: var(--color-base-tint-5, #f3f4f6);
-  border: 1px solid var(--color-base-tint-10, #e5e7eb);
-  border-radius: 9999px;
-  text-decoration: none;
-  color: var(--color-text, #374151);
-  font-size: var(--step--1, 0.875rem);
-  transition: background 0.15s ease, border-color 0.15s ease;
-  cursor: pointer;
-}
-
-.tag-chip:hover {
-  background: var(--color-primary-tint-10, #eff6ff);
-  border-color: var(--color-primary, #2563eb);
-  color: var(--color-primary, #2563eb);
-}
-
-.tag-chip__name {
-  font-weight: 500;
-}
-
-.tag-chip__count {
-  font-weight: 400;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--2, 0.75rem);
-}
-
-.tag-chip:hover .tag-chip__count {
-  color: var(--color-primary, #2563eb);
-}
+/* .tag-chip base styles are in src/public/css/components/tag-chip.css */
 </style>

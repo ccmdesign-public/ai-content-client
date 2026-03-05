@@ -10,9 +10,25 @@ export interface TagConfig {
 
 export interface TagCategory {
   name: string
+  shortName: string
   categoryId: string
   tags: TagConfig[]
   totalItems: number
+}
+
+// Abbreviated display names for long category labels.
+// Centralized here so UI components remain purely presentational.
+const CATEGORY_SHORT_NAMES: Record<string, string> = {
+  'AI & Machine Learning': 'AI & ML',
+  'Web Development': 'Web Dev',
+  'Mobile Development': 'Mobile Dev',
+  'Data & Analytics': 'Data',
+  'Product & Design': 'Product',
+  'Business & Career': 'Biz & Career',
+  'DevOps & Infrastructure': 'DevOps',
+  'Tools & Productivity': 'Tools',
+  'Security': 'Security',
+  'Programming': 'Programming'
 }
 
 export function useTagsConfig() {
@@ -31,6 +47,7 @@ export function useTagsConfig() {
     return Array.from(categoryMap.entries())
       .map(([name, categoryTags]) => ({
         name,
+        shortName: CATEGORY_SHORT_NAMES[name] || name,
         categoryId: categoryTags[0]?.categoryId || '',
         tags: categoryTags.sort((a, b) => b.itemCount - a.itemCount),
         totalItems: categoryTags.reduce((sum, t) => sum + t.itemCount, 0)
