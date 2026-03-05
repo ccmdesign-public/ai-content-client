@@ -56,7 +56,8 @@ const shouldShow404 = computed(() => {
 
 // Sort and group -- summaries is already a computed with null guard
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summaries)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
 
 const feedSegments = computed(() =>
   isDateSort.value

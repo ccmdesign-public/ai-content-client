@@ -10,7 +10,8 @@ definePageMeta({
 const { data: summaries, pending } = useContentStream('summaries')
 const items = computed(() => summaries.value || [])
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
 
 // When not a date sort, build a single flat segment to pass to DateGroupedFeed
 const feedSegments = computed(() =>

@@ -12,7 +12,8 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // Use a computed with null guard (same pattern as other pages).
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
 
 const feedSegments = computed(() =>
   isDateSort.value
