@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "010"
 tags: [code-review, quality, testing]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added src/tests/tags/useHomepageFilter.test.ts with 13 tests covering buildCategoryVideoIdMap (6 tests: keying, article exclusion, cross-tag aggregation, deduplication, empty inputs) and filterSummaries (7 tests: no filter, valid category, empty category, non-existent category, empty summaries, missing metadata)."
 ---
 
 # Missing tests for useHomepageFilter composable

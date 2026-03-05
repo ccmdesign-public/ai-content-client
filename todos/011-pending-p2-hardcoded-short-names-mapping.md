@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "011"
 tags: [code-review, architecture, maintainability]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Moved SHORT_NAMES mapping from CategoryFilterBar.vue into useTagsConfig.ts as CATEGORY_SHORT_NAMES. Added shortName field to TagCategory interface. Component now reads category.shortName from props instead of maintaining its own display name map. All 10 categories have abbreviations."
 ---
 
 # Hardcoded SHORT_NAMES mapping in CategoryFilterBar component

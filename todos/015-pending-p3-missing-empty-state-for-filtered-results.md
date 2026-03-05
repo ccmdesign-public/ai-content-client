@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "015"
 tags: [code-review, quality, ux]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added filtered empty state in index.vue that displays when selectedCategory is set but filteredCount is 0. Shows icon, message, hint text, and a 'Show all summaries' button that resets the filter via selectCategory(null)."
 ---
 
 # Missing empty state when category filter returns zero results

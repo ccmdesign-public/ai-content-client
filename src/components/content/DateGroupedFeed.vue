@@ -39,7 +39,8 @@ defineProps<{
 
 .date-segment__header {
   position: sticky;
-  top: 0;
+  /* Offset below the sticky CategoryFilterBar (~60px: 44px chip + 0.5rem*2 padding + 1px border) */
+  top: var(--filter-bar-height, 0px);
   background: var(--color-background, #fff);
   padding: var(--space-s, 0.75rem) 0;
   margin: 0 0 var(--space-m, 1rem) 0;

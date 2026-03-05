@@ -4,33 +4,39 @@ import type { TagCategory } from '~/composables/useTagsConfig'
 const props = defineProps<{
   categories: TagCategory[]
   selectedCategory: string | null
+  totalCount?: number
 }>()
 
 const emit = defineEmits<{
   select: [categoryId: string | null]
 }>()
 
-// Abbreviated display names for long category labels
-const SHORT_NAMES: Record<string, string> = {
-  'AI & Machine Learning': 'AI & ML',
-  'Web Development': 'Web Dev',
-  'Mobile Development': 'Mobile Dev',
-  'Data & Analytics': 'Data & Analytics',
-  'Product & Design': 'Product & Design',
-  'Business & Career': 'Biz & Career'
-}
+// --- Expose height for sticky offset coordination ---
+const barRef = ref<HTMLElement | null>(null)
 
-function displayName(name: string): string {
-  return SHORT_NAMES[name] || name
-}
+onMounted(() => {
+  if (!barRef.value) return
+  const observer = new ResizeObserver(([entry]) => {
+    const height = entry.borderBoxSize?.[0]?.blockSize ?? entry.target.getBoundingClientRect().height
+    barRef.value?.parentElement?.style.setProperty('--filter-bar-height', `${height}px`)
+  })
+  observer.observe(barRef.value)
+  onUnmounted(() => observer.disconnect())
+})
 
-// Total items across all categories (for the "All" chip count)
+// Total items: use accurate unique count from parent if provided,
+// otherwise fall back to category sum (which may double-count multi-tagged items)
 const allItemsCount = computed(() =>
-  props.categories.reduce((sum, c) => sum + c.totalItems, 0)
+  props.totalCount ?? props.categories.reduce((sum, c) => sum + c.totalItems, 0)
 )
 
 // --- Roving tabindex & keyboard navigation ---
 const chipRefs = ref<HTMLElement[]>([])
+
+// Reset chipRefs before each render cycle to prevent stale DOM references
+onBeforeUpdate(() => {
+  chipRefs.value = []
+})
 
 function setChipRef(el: any, index: number) {
   if (el) chipRefs.value[index] = el
@@ -83,7 +89,7 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
 </script>
 
 <template>
-  <div class="category-filter-bar">
+  <div ref="barRef" class="category-filter-bar">
     <div
       class="category-filter-bar__list"
       role="radiogroup"
@@ -118,7 +124,7 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
         @click="emit('select', category.categoryId)"
         @keydown="handleKeydown($event, index + 1)"
       >
-        <span class="tag-chip__name">{{ displayName(category.name) }}</span>
+        <span class="tag-chip__name">{{ category.shortName }}</span>
         <span class="tag-chip__count">{{ category.totalItems }}</span>
       </button>
     </div>
@@ -164,75 +170,8 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
   flex-shrink: 0;
 }
 
-/* Chip base styles (mirrors .tag-chip from tags/index.vue) */
+/* Filter bar specific: ensure minimum touch target for chips */
 .tag-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-2xs, 0.25rem) var(--space-s, 0.75rem);
   min-height: 44px;
-  background: var(--color-base-tint-5, #f3f4f6);
-  border: 1px solid var(--color-base-tint-10, #e5e7eb);
-  border-radius: 9999px;
-  text-decoration: none;
-  color: var(--color-text, #374151);
-  font-size: var(--step--1, 0.875rem);
-  font-family: inherit;
-  transition: background 0.15s ease, border-color 0.15s ease;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.tag-chip:hover {
-  background: var(--color-primary-tint-10, #eff6ff);
-  border-color: var(--color-primary, #2563eb);
-  color: var(--color-primary, #2563eb);
-}
-
-.tag-chip:hover .tag-chip__count {
-  color: var(--color-primary, #2563eb);
-}
-
-.tag-chip:focus-visible {
-  outline: 2px solid var(--color-primary, #2563eb);
-  outline-offset: 2px;
-}
-
-/* Active / selected state */
-.tag-chip--active {
-  background: var(--color-primary, #2563eb);
-  border-color: var(--color-primary, #2563eb);
-  color: #fff;
-}
-
-.tag-chip--active:hover {
-  background: var(--color-primary, #2563eb);
-  border-color: var(--color-primary, #2563eb);
-  color: #fff;
-}
-
-.tag-chip--active .tag-chip__count {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.tag-chip--active:hover .tag-chip__count {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.tag-chip__name {
-  font-weight: 500;
-}
-
-.tag-chip__count {
-  font-weight: 400;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--2, 0.75rem);
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .tag-chip {
-    transition: none;
-  }
 }
 </style>

@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "009"
 tags: [code-review, architecture, css]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added ResizeObserver in CategoryFilterBar to dynamically set --filter-bar-height CSS custom property on the parent element. DateGroupedFeed date-segment headers now use top: var(--filter-bar-height, 0px) to stack below the filter bar instead of overlapping."
 ---
 
 # Sticky date-segment headers overlap with the filter bar

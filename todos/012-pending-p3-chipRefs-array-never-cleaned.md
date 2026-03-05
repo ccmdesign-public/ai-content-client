@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "012"
 tags: [code-review, quality, vue]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added onBeforeUpdate lifecycle hook in CategoryFilterBar.vue to reset chipRefs array to [] before each render cycle, preventing stale DOM references when the category list changes."
 ---
 
 # chipRefs array never cleaned up on category list change

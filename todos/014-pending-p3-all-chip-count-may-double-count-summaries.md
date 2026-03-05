@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "014"
 tags: [code-review, quality, logic]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added optional totalCount prop to CategoryFilterBar. index.vue passes the accurate unique summary count from useHomepageFilter. allItemsCount computed now uses props.totalCount when provided, falling back to category sum for backward compatibility."
 ---
 
 # "All" chip count may double-count summaries tagged in multiple categories

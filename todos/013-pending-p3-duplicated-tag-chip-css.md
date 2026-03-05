@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "013"
 tags: [code-review, quality, css]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Extracted shared .tag-chip styles into src/public/css/components/tag-chip.css within @layer components. Removed duplicated scoped styles from CategoryFilterBar.vue and tags/index.vue. CategoryFilterBar retains only a scoped min-height: 44px override for touch targets."
 ---
 
 # Duplicated .tag-chip CSS between CategoryFilterBar and tags page
