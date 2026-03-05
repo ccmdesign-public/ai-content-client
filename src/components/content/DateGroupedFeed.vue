@@ -1,28 +1,46 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { DateSegment } from '~/composables/useDateGroups'
+import type { Sortable } from '~/composables/useSortOptions'
 
-defineProps<{
-  segments: DateSegment<any>[]
+const props = defineProps<{
+  segments: DateSegment<Sortable>[]
+  showHeaders?: boolean
 }>()
+
+// Default to true for backwards compatibility
+const shouldShowHeaders = computed(() => props.showHeaders !== false)
+
+// Flatten all items for non-date sort rendering
+const allItems = computed(() => props.segments.flatMap(s => s.items))
 </script>
 
 <template>
   <div class="date-grouped-feed">
-    <section
-      v-for="segment in segments"
-      :key="segment.key"
-      class="date-segment"
-    >
-      <h2 class="date-segment__header">
-        {{ segment.label }}
-        <span class="date-segment__count">({{ segment.items.length }})</span>
-      </h2>
+    <template v-if="shouldShowHeaders">
+      <section
+        v-for="segment in segments"
+        :key="segment.key"
+        class="date-segment"
+      >
+        <h2 class="date-segment__header">
+          {{ segment.label }}
+          <span class="date-segment__count">({{ segment.items.length }})</span>
+        </h2>
+        <ul class="date-segment__list">
+          <li v-for="item in segment.items" :key="item.metadata?.videoId">
+            <SummaryCard :summary="item" />
+          </li>
+        </ul>
+      </section>
+    </template>
+    <template v-else>
       <ul class="date-segment__list">
-        <li v-for="item in segment.items" :key="item.metadata?.videoId">
+        <li v-for="item in allItems" :key="item.metadata?.videoId">
           <SummaryCard :summary="item" />
         </li>
       </ul>
-    </section>
+    </template>
 
     <div v-if="segments.length === 0" class="empty-state">
       <p>No summaries found.</p>

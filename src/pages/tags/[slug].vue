@@ -2,6 +2,7 @@
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTagIndex } from '~/composables/useTagIndex'
 import { useDateGroups } from '~/composables/useDateGroups'
+import { useSortOptions } from '~/composables/useSortOptions'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug as string)
@@ -18,8 +19,19 @@ const tagConfig = computed(() => getTagBySlug(slug.value))
 // Load tag data and cross-referenced summaries
 const { summaries, summaryItemCount, pending } = useTagIndex(slug)
 
-// Group by date
-const { segments } = useDateGroups(computed(() => summaries.value || []))
+// Sort and group
+const items = computed(() => summaries.value || [])
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
+
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 
 // Check if empty (tag exists but no matching summaries in client)
 const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
@@ -54,9 +66,16 @@ useHead({
         <NuxtLink to="/tags" class="page-header__breadcrumb">Topics</NuxtLink>
         <span class="page-header__separator">/</span>
         <span class="page-header__category">{{ categoryName }}</span>
-        <h1>{{ displayName }}</h1>
-        <p class="page-header__count">{{ summaryItemCount }} videos</p>
+        <div class="page-header__top">
+          <div>
+            <h1>{{ displayName }}</h1>
+            <p class="page-header__count">{{ summaryItemCount }} videos</p>
+          </div>
+          <SortControl v-model="currentSort" />
+        </div>
       </header>
+
+      <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
       <PageEmptyState
         v-if="isEmpty"
@@ -67,7 +86,7 @@ useHead({
         link-text="Browse all topics"
       />
 
-      <DateGroupedFeed v-else :segments="segments" />
+      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
     </template>
   </div>
 </template>
@@ -100,6 +119,14 @@ useHead({
 .page-header__category {
   font-size: var(--step--1, 0.875rem);
   color: var(--color-base-shade-10, #6b7280);
+}
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
 }
 
 .page-header h1 {

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useSortOptions } from '~/composables/useSortOptions'
 import { deslugify } from '~/utils/slugify'
 
 const route = useRoute()
@@ -53,8 +54,18 @@ const shouldShow404 = computed(() => {
   return true
 })
 
-// Group by date
-const { segments } = useDateGroups(summaries)
+// Sort and group -- summaries is already a computed with null guard
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summaries)
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
+
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 
 // Check if empty (channel exists in config but no summaries)
 const isEmpty = computed(() => {
@@ -85,9 +96,16 @@ useHead({
 
     <template v-else>
       <header class="page-header">
-        <h1>{{ displayName }}</h1>
-        <p class="page-header__count">{{ summaries.length }} videos</p>
+        <div class="page-header__top">
+          <div>
+            <h1>{{ displayName }}</h1>
+            <p class="page-header__count">{{ summaries.length }} videos</p>
+          </div>
+          <SortControl v-model="currentSort" />
+        </div>
       </header>
+
+      <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
       <PageEmptyState
         v-if="isEmpty"
@@ -98,7 +116,7 @@ useHead({
         link-text="Browse all summaries"
       />
 
-      <DateGroupedFeed v-else :segments="segments" />
+      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
     </template>
   </div>
 </template>
@@ -110,6 +128,14 @@ useHead({
 
 .page-header {
   margin-bottom: var(--space-l, 2rem);
+}
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
 }
 
 .page-header h1 {

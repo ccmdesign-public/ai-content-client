@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
+import { useSortOptions } from '~/composables/useSortOptions'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useHomepageFilter } from '~/composables/useHomepageFilter'
 
@@ -19,7 +20,19 @@ const {
   selectCategory
 } = useHomepageFilter(summaries, tagsByCategory)
 
-const { segments } = useDateGroups(filteredSummaries)
+// Sort the filtered results
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(filteredSummaries)
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
+
+// When not a date sort, build a single flat segment to pass to DateGroupedFeed
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 </script>
 
 <template>
@@ -32,12 +45,19 @@ const { segments } = useDateGroups(filteredSummaries)
     />
 
     <header class="page-header">
-      <h1>All Summaries</h1>
-      <p class="page-header__count" aria-live="polite" aria-atomic="true">
-        {{ filteredCount }} videos
-        <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
-      </p>
+      <div class="page-header__top">
+        <div>
+          <h1>All Summaries</h1>
+          <p class="page-header__count" aria-live="polite" aria-atomic="true">
+            {{ filteredCount }} videos
+            <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
+          </p>
+        </div>
+        <SortControl v-model="currentSort" />
+      </div>
     </header>
+
+    <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
     <div v-if="pending" class="loading">Loading...</div>
 
@@ -50,7 +70,7 @@ const { segments } = useDateGroups(filteredSummaries)
       </button>
     </div>
 
-    <DateGroupedFeed v-else :segments="segments" />
+    <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
 
@@ -63,6 +83,14 @@ const { segments } = useDateGroups(filteredSummaries)
 .page-header {
   margin-bottom: var(--space-l, 2rem);
   padding-top: var(--space-l, 2rem);
+}
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
 }
 
 .page-header h1 {

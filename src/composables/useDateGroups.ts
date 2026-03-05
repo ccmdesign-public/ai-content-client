@@ -21,6 +21,8 @@ const GROUP_LABELS: Record<DateGroup, string> = {
 }
 
 function getDateGroup(date: Date): DateGroup {
+  if (isNaN(date.getTime())) return 'older'
+
   const now = new Date()
   const daysDiff = differenceInDays(startOfDay(now), startOfDay(date))
 
@@ -32,8 +34,10 @@ function getDateGroup(date: Date): DateGroup {
   return 'older'
 }
 
-export function useDateGroups<T extends { processedAt: string }>(
-  items: Ref<T[]>
+export function useDateGroups<T extends { processedAt: string; metadata: { publishedAt: string } }>(
+  items: Ref<T[]>,
+  dateAccessor: (item: T) => string = (item) => item.metadata.publishedAt || item.processedAt,
+  sortDirection: Ref<'asc' | 'desc'> | 'asc' | 'desc' = 'desc'
 ) {
   const segments = computed<DateSegment<T>[]>(() => {
     const groups = new Map<DateGroup, T[]>()
@@ -43,15 +47,28 @@ export function useDateGroups<T extends { processedAt: string }>(
       groups.set(key, [])
     }
 
-    // Sort items into groups
+    // Sort items into groups using the date accessor
     for (const item of items.value) {
-      const date = new Date(item.processedAt)
+      const dateStr = dateAccessor(item)
+      const date = new Date(dateStr)
       const group = getDateGroup(date)
       groups.get(group)!.push(item)
     }
 
-    // Return non-empty groups in order
-    return GROUP_ORDER
+    // Sort within each group by the accessor date
+    const dir = typeof sortDirection === 'string' ? sortDirection : sortDirection.value
+    const multiplier = dir === 'asc' ? 1 : -1
+    for (const [, groupItems] of groups) {
+      groupItems.sort((a, b) => {
+        const dateA = new Date(dateAccessor(a)).getTime()
+        const dateB = new Date(dateAccessor(b)).getTime()
+        return multiplier * (dateA - dateB)
+      })
+    }
+
+    // Return non-empty groups in order (reverse group order for ascending)
+    const groupOrder = dir === 'asc' ? [...GROUP_ORDER].reverse() : GROUP_ORDER
+    return groupOrder
       .filter(key => groups.get(key)!.length > 0)
       .map(key => ({
         key,
