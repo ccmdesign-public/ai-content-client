@@ -1,11 +1,18 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useDateGroups } from '~/composables/useDateGroups'
+import { useSortOptions } from '~/composables/useSortOptions'
 
 const route = useRoute()
 const { getPlaylistBySlug } = usePlaylistsConfig()
 
 const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
+
+// All composable calls must happen before the synchronous throw.
+// Pass a reactive ref that starts empty and fills once data loads.
+const summariesRef = ref<any[]>([])
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summariesRef)
+const { segments } = useDateGroups(sorted)
 
 // 404 if playlist not found
 if (!playlist.value) {
@@ -22,8 +29,10 @@ const { data: summaries, pending } = useContentStream('summaries', {
   where: { playlistId: playlist.value.id }
 })
 
-// Group by date
-const { segments } = useDateGroups(computed(() => summaries.value || []))
+// Keep the reactive ref in sync with loaded data
+watch(summaries, (val) => {
+  summariesRef.value = val || []
+}, { immediate: true })
 
 // Check if empty (playlist exists but no summaries)
 const isEmpty = computed(() => !pending.value && (!summaries.value || summaries.value.length === 0))
@@ -36,9 +45,16 @@ useHead({
 <template>
   <div class="playlist-page">
     <header class="page-header">
-      <h1>{{ playlist?.name }}</h1>
-      <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
+      <div class="page-header__top">
+        <div>
+          <h1>{{ playlist?.name }}</h1>
+          <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
+        </div>
+        <SortControl v-model="currentSort" />
+      </div>
     </header>
+
+    <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
     <div v-if="pending" class="loading">Loading...</div>
 
@@ -49,7 +65,7 @@ useHead({
       <NuxtLink to="/" class="empty-state__link">Browse all summaries</NuxtLink>
     </div>
 
-    <DateGroupedFeed v-else :segments="segments" />
+    <DateGroupedFeed v-else :segments="segments" :show-headers="isDateSort" />
   </div>
 </template>
 
@@ -62,6 +78,14 @@ useHead({
   margin-bottom: var(--space-l, 2rem);
 }
 
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
+}
+
 .page-header h1 {
   margin: 0;
   font-size: var(--step-2, 1.5rem);
@@ -71,6 +95,18 @@ useHead({
   margin: var(--space-2xs, 0.25rem) 0 0;
   color: var(--color-base-shade-10, #6b7280);
   font-size: var(--step--1, 0.875rem);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .loading {

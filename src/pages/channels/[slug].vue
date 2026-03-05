@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useSortOptions } from '~/composables/useSortOptions'
 import { deslugify } from '~/utils/slugify'
 
 const route = useRoute()
@@ -53,8 +54,9 @@ const shouldShow404 = computed(() => {
   return true
 })
 
-// Group by date
-const { segments } = useDateGroups(summaries)
+// Sort and group
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summaries)
+const { segments } = useDateGroups(sorted)
 
 // Check if empty (channel exists in config but no summaries)
 const isEmpty = computed(() => {
@@ -85,9 +87,16 @@ useHead({
 
     <template v-else>
       <header class="page-header">
-        <h1>{{ displayName }}</h1>
-        <p class="page-header__count">{{ summaries.length }} videos</p>
+        <div class="page-header__top">
+          <div>
+            <h1>{{ displayName }}</h1>
+            <p class="page-header__count">{{ summaries.length }} videos</p>
+          </div>
+          <SortControl v-model="currentSort" />
+        </div>
       </header>
+
+      <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
       <PageEmptyState
         v-if="isEmpty"
@@ -98,7 +107,7 @@ useHead({
         link-text="Browse all summaries"
       />
 
-      <DateGroupedFeed v-else :segments="segments" />
+      <DateGroupedFeed v-else :segments="segments" :show-headers="isDateSort" />
     </template>
   </div>
 </template>
@@ -112,9 +121,29 @@ useHead({
   margin-bottom: var(--space-l, 2rem);
 }
 
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
+}
+
 .page-header h1 {
   margin: 0;
   font-size: var(--step-2, 1.5rem);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .page-header__count {

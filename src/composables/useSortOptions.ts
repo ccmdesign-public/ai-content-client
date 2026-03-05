@@ -1,0 +1,64 @@
+import { ref, computed, type Ref } from 'vue'
+
+export type SortKey = 'publish-date-desc' | 'publish-date-asc' | 'processed-date-desc' | 'title-asc'
+
+export interface SortOption {
+  key: SortKey
+  label: string
+}
+
+export const SORT_OPTIONS = [
+  { key: 'publish-date-desc', label: 'Newest first' },
+  { key: 'publish-date-asc', label: 'Oldest first' },
+  { key: 'title-asc', label: 'Title A\u2013Z' },
+  { key: 'processed-date-desc', label: 'Recently added' }
+] as const satisfies readonly SortOption[]
+
+export interface Sortable {
+  processedAt: string
+  metadata: {
+    publishedAt: string
+    title: string
+  }
+}
+
+export function useSortOptions<T extends Sortable>(
+  items: Ref<T[]>,
+  defaultSort: SortKey = 'publish-date-desc'
+) {
+  const currentSort = ref<SortKey>(defaultSort)
+
+  const isDateSort = computed(() =>
+    currentSort.value.startsWith('publish-date') || currentSort.value === 'processed-date-desc'
+  )
+
+  const currentSortLabel = computed(() =>
+    SORT_OPTIONS.find(opt => opt.key === currentSort.value)?.label ?? ''
+  )
+
+  const sorted = computed(() => {
+    const list = [...items.value]
+    switch (currentSort.value) {
+      case 'publish-date-desc':
+        return list.sort((a, b) =>
+          new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime()
+        )
+      case 'publish-date-asc':
+        return list.sort((a, b) =>
+          new Date(a.metadata.publishedAt).getTime() - new Date(b.metadata.publishedAt).getTime()
+        )
+      case 'processed-date-desc':
+        return list.sort((a, b) =>
+          new Date(b.processedAt).getTime() - new Date(a.processedAt).getTime()
+        )
+      case 'title-asc':
+        return list.sort((a, b) =>
+          (a.metadata?.title ?? '').localeCompare(b.metadata?.title ?? '', undefined, { sensitivity: 'base' })
+        )
+      default:
+        return list
+    }
+  })
+
+  return { currentSort, sorted, isDateSort, currentSortLabel, sortOptions: SORT_OPTIONS }
+}
