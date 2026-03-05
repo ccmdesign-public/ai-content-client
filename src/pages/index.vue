@@ -8,8 +8,18 @@ definePageMeta({
 })
 
 const { data: summaries, pending } = useContentStream('summaries')
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(computed(() => summaries.value || []))
-const { segments } = useDateGroups(sorted)
+const items = computed(() => summaries.value || [])
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+
+// When not a date sort, build a single flat segment to pass to DateGroupedFeed
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 </script>
 
 <template>
@@ -28,7 +38,7 @@ const { segments } = useDateGroups(sorted)
 
     <div v-if="pending" class="loading">Loading...</div>
 
-    <DateGroupedFeed v-else :segments="segments" :show-headers="isDateSort" />
+    <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
 
@@ -47,18 +57,6 @@ const { segments } = useDateGroups(sorted)
   align-items: flex-start;
   gap: var(--space-m, 1rem);
   flex-wrap: wrap;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .page-header h1 {

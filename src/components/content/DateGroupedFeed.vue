@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { DateSegment } from '~/composables/useDateGroups'
+import type { Sortable } from '~/composables/useSortOptions'
 
 const props = defineProps<{
-  segments: DateSegment<any>[]
+  segments: DateSegment<Sortable>[]
   showHeaders?: boolean
 }>()
 

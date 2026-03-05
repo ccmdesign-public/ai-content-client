@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "009"
 tags: [code-review, quality, architecture, css]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Moved .visually-hidden to global CUBE CSS utils layer (src/public/css/utils/utils.css) with modern clip-path: inset(50%). Removed duplicated scoped declarations from all four page files."
 ---
 
 # Visually-Hidden CSS Class Duplicated Across Four Page Files

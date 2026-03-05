@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "011"
 tags: [code-review, quality, architecture]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Standardized all four pages on computed(() => data.value || []) pattern. Playlist page now uses computed<Sortable[]> instead of ref<any[]> + watch, eliminating the any type and the unnecessary watch/ref indirection."
 ---
 
 # Inconsistent Ref Wrapping Patterns Across List Pages

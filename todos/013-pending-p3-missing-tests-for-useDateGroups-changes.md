@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "013"
 tags: [code-review, testing]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Created src/tests/composables/useDateGroups.test.ts with 15 tests covering: all 6 date group buckets, correct ordering, within-group descending sort, default and custom date accessors, empty publishedAt fallback to processedAt, invalid date handling, empty input, and correct labels."
 ---
 
 # Missing Tests for useDateGroups Composable Changes

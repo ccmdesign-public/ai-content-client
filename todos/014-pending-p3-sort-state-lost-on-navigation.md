@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "014"
 tags: [code-review, ux, enhancement]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Added URL query param persistence (?sort=) in useSortOptions. Reads from route.query.sort on init (validated against SortKey union), writes back via router.replace (client-side only). Uses tryUseNuxtApp() guard for SSR safety and unit test compatibility. Default sort omits the param for clean URLs."
 ---
 
 # Sort State Lost on Page Navigation

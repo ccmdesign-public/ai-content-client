@@ -1,4 +1,4 @@
-import { ref, computed, type Ref } from 'vue'
+import { ref, computed, watch, type Ref } from 'vue'
 
 export type SortKey = 'publish-date-desc' | 'publish-date-asc' | 'processed-date-desc' | 'title-asc'
 
@@ -14,6 +14,12 @@ export const SORT_OPTIONS = [
   { key: 'processed-date-desc', label: 'Recently added' }
 ] as const satisfies readonly SortOption[]
 
+const VALID_SORT_KEYS = new Set<string>(SORT_OPTIONS.map(o => o.key))
+
+function isValidSortKey(value: unknown): value is SortKey {
+  return typeof value === 'string' && VALID_SORT_KEYS.has(value)
+}
+
 export interface Sortable {
   processedAt: string
   metadata: {
@@ -26,7 +32,30 @@ export function useSortOptions<T extends Sortable>(
   items: Ref<T[]>,
   defaultSort: SortKey = 'publish-date-desc'
 ) {
-  const currentSort = ref<SortKey>(defaultSort)
+  // Read initial sort from URL query param when running inside Nuxt.
+  // tryUseNuxtApp() returns null outside of Nuxt context (e.g. unit tests).
+  let initialSort = defaultSort
+  const nuxtApp = tryUseNuxtApp()
+
+  if (nuxtApp) {
+    const route = useRoute()
+    if (isValidSortKey(route.query.sort)) {
+      initialSort = route.query.sort
+    }
+  }
+
+  const currentSort = ref<SortKey>(initialSort)
+
+  // Sync sort state to URL query param (client-side only, replace to avoid history spam)
+  if (nuxtApp && import.meta.client) {
+    const route = useRoute()
+    watch(currentSort, (newSort) => {
+      const router = useRouter()
+      router.replace({
+        query: { ...route.query, sort: newSort === defaultSort ? undefined : newSort }
+      })
+    })
+  }
 
   const isDateSort = computed(() =>
     currentSort.value.startsWith('publish-date') || currentSort.value === 'processed-date-desc'

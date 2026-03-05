@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "010"
 tags: [code-review, performance, architecture]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Conditionally bypass useDateGroups on non-date sorts by passing an empty array when isDateSort is false. Pages build a single flat segment for non-date sorts, preserving the correct title-alphabetical order."
 ---
 
 # Unnecessary Date Grouping Computation on Non-Date Sorts

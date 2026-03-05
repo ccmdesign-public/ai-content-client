@@ -20,8 +20,17 @@ const tagConfig = computed(() => getTagBySlug(slug.value))
 const { summaries, summaryItemCount, pending } = useTagIndex(slug)
 
 // Sort and group
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(computed(() => summaries.value || []))
-const { segments } = useDateGroups(sorted)
+const items = computed(() => summaries.value || [])
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 
 // Check if empty (tag exists but no matching summaries in client)
 const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
@@ -76,7 +85,7 @@ useHead({
         link-text="Browse all topics"
       />
 
-      <DateGroupedFeed v-else :segments="segments" :show-headers="isDateSort" />
+      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
     </template>
   </div>
 </template>
@@ -122,18 +131,6 @@ useHead({
 .page-header h1 {
   margin: var(--space-xs, 0.5rem) 0 0;
   font-size: var(--step-2, 1.5rem);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .page-header__count {

@@ -54,9 +54,17 @@ const shouldShow404 = computed(() => {
   return true
 })
 
-// Sort and group
+// Sort and group -- summaries is already a computed with null guard
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summaries)
-const { segments } = useDateGroups(sorted)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []))
+
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 
 // Check if empty (channel exists in config but no summaries)
 const isEmpty = computed(() => {
@@ -107,7 +115,7 @@ useHead({
         link-text="Browse all summaries"
       />
 
-      <DateGroupedFeed v-else :segments="segments" :show-headers="isDateSort" />
+      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
     </template>
   </div>
 </template>
@@ -132,18 +140,6 @@ useHead({
 .page-header h1 {
   margin: 0;
   font-size: var(--step-2, 1.5rem);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .page-header__count {

@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "012"
 tags: [code-review, quality, typescript]
 dependencies: []
+resolved_date: "2026-03-05"
+resolution: "Replaced DateSegment<any> with DateSegment<Sortable> in DateGroupedFeed.vue defineProps, importing the Sortable interface from useSortOptions."
 ---
 
 # DateGroupedFeed Uses `any` in DateSegment Generic
