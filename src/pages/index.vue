@@ -1,73 +1,96 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
-import { useArticleStream } from '~/composables/useArticleStream'
+import { useSortOptions } from '~/composables/useSortOptions'
+import { useTagsConfig } from '~/composables/useTagsConfig'
+import { useHomepageFilter } from '~/composables/useHomepageFilter'
 
 definePageMeta({
   hero: false,
   footer: false
 })
 
-const { data: summaries, pending: summariesPending } = useContentStream('summaries')
-const { articles, pending: articlesPending } = useArticleStream()
+const { data: summaries, pending } = useContentStream('summaries')
+const { tagsByCategory } = useTagsConfig()
 
-const pending = computed(() => summariesPending.value || articlesPending.value)
+const {
+  selectedCategory,
+  filteredSummaries,
+  filteredCount,
+  totalCount,
+  selectCategory
+} = useHomepageFilter(summaries, tagsByCategory)
 
-// Combine and normalize items with a unified date field
-interface FeedItem {
-  _type: 'summary' | 'article'
-  _date: string
-  [key: string]: unknown
-}
+// Sort the filtered results
+const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(filteredSummaries)
+const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
+const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
 
-const allItems = computed<FeedItem[]>(() => {
-  const items: FeedItem[] = []
-
-  // Add summaries with normalized date
-  for (const summary of summaries.value || []) {
-    items.push({
-      ...summary,
-      _type: 'summary',
-      _date: summary.processedAt
-    })
-  }
-
-  // Add articles with normalized date
-  for (const article of articles.value || []) {
-    items.push({
-      ...article,
-      _type: 'article',
-      _date: article.publishedAt
-    })
-  }
-
-  return items
-})
-
-const { segments } = useDateGroups(allItems, (item) => item._date)
-
-const totalCount = computed(() => (summaries.value?.length || 0) + (articles.value?.length || 0))
+// When not a date sort, build a single flat segment to pass to DateGroupedFeed
+const feedSegments = computed(() =>
+  isDateSort.value
+    ? segments.value
+    : sorted.value.length > 0
+      ? [{ key: 'older' as const, label: '', items: sorted.value }]
+      : []
+)
 </script>
 
 <template>
   <div class="home-page">
+    <CategoryFilterBar
+      :categories="tagsByCategory"
+      :selected-category="selectedCategory"
+      :total-count="totalCount"
+      @select="selectCategory"
+    />
+
     <header class="page-header">
-      <h1>Latest Content</h1>
-      <p class="page-header__count">{{ totalCount }} items</p>
+      <div class="page-header__top">
+        <div>
+          <h1>All Summaries</h1>
+          <p class="page-header__count" aria-live="polite" aria-atomic="true">
+            {{ filteredCount }} videos
+            <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
+          </p>
+        </div>
+        <SortControl v-model="currentSort" />
+      </div>
     </header>
+
+    <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
     <div v-if="pending" class="loading">Loading...</div>
 
-    <DateGroupedFeed v-else :segments="segments" />
+    <div v-else-if="selectedCategory && filteredCount === 0" class="filtered-empty-state">
+      <span class="filtered-empty-state__icon material-symbols-outlined" aria-hidden="true">filter_list_off</span>
+      <p class="filtered-empty-state__message">No summaries found in this category.</p>
+      <p class="filtered-empty-state__hint">Try selecting a different category or reset the filter.</p>
+      <button class="filtered-empty-state__reset" @click="selectCategory(null)">
+        Show all summaries
+      </button>
+    </div>
+
+    <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
 
 <style scoped>
 .home-page {
   padding: var(--space-l, 2rem);
+  padding-top: 0;
 }
 
 .page-header {
   margin-bottom: var(--space-l, 2rem);
+  padding-top: var(--space-l, 2rem);
+}
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-m, 1rem);
+  flex-wrap: wrap;
 }
 
 .page-header h1 {
@@ -85,5 +108,49 @@ const totalCount = computed(() => (summaries.value?.length || 0) + (articles.val
   text-align: center;
   padding: var(--space-2xl, 3rem);
   color: var(--color-base-shade-10, #6b7280);
+}
+
+.filtered-empty-state {
+  text-align: center;
+  padding: var(--space-2xl, 3rem) var(--space-l, 2rem);
+  color: var(--color-base-shade-10, #6b7280);
+}
+
+.filtered-empty-state__icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--space-s, 0.75rem);
+  color: var(--color-base-tint-20, #9ca3af);
+}
+
+.filtered-empty-state__message {
+  font-size: var(--step-0, 1rem);
+  font-weight: 500;
+  margin: 0 0 var(--space-2xs, 0.25rem);
+  color: var(--color-text, #374151);
+}
+
+.filtered-empty-state__hint {
+  margin: 0 0 var(--space-m, 1rem);
+  font-size: var(--step--1, 0.875rem);
+}
+
+.filtered-empty-state__reset {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs, 0.25rem);
+  padding: var(--space-xs, 0.5rem) var(--space-m, 1rem);
+  background: var(--color-primary, #2563eb);
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  font-size: var(--step--1, 0.875rem);
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.filtered-empty-state__reset:hover {
+  background: var(--color-primary-shade-10, #1d4ed8);
 }
 </style>
