@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useDateGroups } from '~/composables/useDateGroups'
+import { useTagsConfig } from '~/composables/useTagsConfig'
+import { useHomepageFilter } from '~/composables/useHomepageFilter'
 
 definePageMeta({
   hero: false,
@@ -7,14 +9,33 @@ definePageMeta({
 })
 
 const { data: summaries, pending } = useContentStream('summaries')
-const { segments } = useDateGroups(computed(() => summaries.value || []))
+const { tagsByCategory } = useTagsConfig()
+
+const {
+  selectedCategory,
+  filteredSummaries,
+  filteredCount,
+  totalCount,
+  selectCategory
+} = useHomepageFilter(summaries, tagsByCategory)
+
+const { segments } = useDateGroups(filteredSummaries)
 </script>
 
 <template>
   <div class="home-page">
+    <CategoryFilterBar
+      :categories="tagsByCategory"
+      :selected-category="selectedCategory"
+      @select="selectCategory"
+    />
+
     <header class="page-header">
       <h1>All Summaries</h1>
-      <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
+      <p class="page-header__count" aria-live="polite" aria-atomic="true">
+        {{ filteredCount }} videos
+        <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
+      </p>
     </header>
 
     <div v-if="pending" class="loading">Loading...</div>
@@ -26,10 +47,12 @@ const { segments } = useDateGroups(computed(() => summaries.value || []))
 <style scoped>
 .home-page {
   padding: var(--space-l, 2rem);
+  padding-top: 0;
 }
 
 .page-header {
   margin-bottom: var(--space-l, 2rem);
+  padding-top: var(--space-l, 2rem);
 }
 
 .page-header h1 {
