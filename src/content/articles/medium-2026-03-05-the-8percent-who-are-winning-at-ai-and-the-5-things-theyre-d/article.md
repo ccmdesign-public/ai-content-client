@@ -6,13 +6,15 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/the-8-who-are-winning-at-ai-and-the-5-things-theyre-doing-differently-2ef3d8c45569?source=rss----98111c9905da---4"
 publishedAt: "2026-03-05"
 tags:
-  - "business-strategy"
-  - "digital-transformation"
-  - "ai-strategy"
+  - "ai-general"
+  - "business"
   - "leadership"
-  - "artificial-intelligence"
-  - "ai"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-06T19:30:47.902Z"
 ---
 
 # The 8% Who Are Winning at AI — And the 5 Things They’re Doing Differently

@@ -6,12 +6,13 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/lai-117-why-ai-alignment-might-be-geometrically-broken-57d5d63ea317?source=rss----98111c9905da---4"
 publishedAt: "2026-03-05"
 tags:
-  - "artificial-intelligence"
-  - "community"
-  - "towards-ai"
-  - "ai"
+  - "ai-general"
   - "llm"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-06T19:30:53.662Z"
 ---
 
 # LAI #117: Why AI Alignment Might Be Geometrically Broken

@@ -1,0 +1,112 @@
+---
+metadata:
+  videoId: "MdOSsbjP9rM"
+  title: "Solve Rich People’s Problems (They Pay Better)"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT3M58S"
+  publishedAt: "2026-03-05T21:14:00Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/MdOSsbjP9rM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=MdOSsbjP9rM"
+processedAt: "2026-03-06T19:22:36.631Z"
+source: "youtube"
+tldr: "To make more money, solve bigger problems for wealthier clients because the effort required is similar to solving small problems, but the rewards are exponentially greater and competition is lower."
+tools: []
+categories:
+  - "Business & Career"
+tags:
+  - "business"
+  - "freelancing"
+  - "indie-hacker"
+  - "monetization"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4509
+  outputTokens: 623
+  totalTokens: 5132
+  processingTimeMs: 14960
+tagsNormalizedAt: "2026-03-06T19:29:24.096Z"
+---
+
+## Key Takeaways
+
+The video argues that pursuing ambitious goals is a more effective path to wealth than settling for modest ones. **• Embrace the constant of pain:** Suffering is inevitable in business whether you're growing, plateaued, or declining, so it shouldn't deter you from big goals. **• Aim for 'thinner air':** Competition is actually rarer for massive goals because most people consider them unrealistic and don't try. **• Obsession is required:** Achieving extraordinary outcomes demands a level of focus and lifestyle that differs from 'normal' friends.
+
+## Summary
+
+The core argument is that if you want to make significantly more money, especially in your 20s and 30s, you must target and solve bigger problems. The reasoning hinges on a counterintuitive principle: the difficulty and 'pain' involved in achieving a modest goal (like running a successful local restaurant) is often comparable to the effort required for an audacious one (like building a billion-dollar company).
+
+Since suffering is a constant in any business endeavor—manifesting as self-doubt, judgment, lawsuits, or uncertainty—it becomes an irrelevant factor in decision-making. The key insight from investor Steven Schwarzman is that 'big goals and small goals are usually just about as hard.' Therefore, if you're going to endure hardship regardless, you might as well pursue the path with the vastly higher potential payoff.
+
+A major advantage of aiming high is reduced competition. The speaker describes the space for big goals as 'thinner air.' Most people self-select out of pursuing massive outcomes because they seem unrealistic, which means fewer competitors to fight against. Paradoxically, it can be harder to stand out in a crowded, low-margin market than to execute a novel, large-scale vision.
+
+Finally, achieving these outcomes requires an obsessive level of commitment that will make your lifestyle visibly different from peers. This divergence is a positive 'green flag,' signaling that you are on a path destined for different results. The video concludes by noting that most problems are solvable, and the primary barrier is often simply not starting the obsessive work required to solve them.
+
+## Context
+
+This advice is targeted at entrepreneurs, business owners, and ambitious professionals in their 20s and 30s who feel stuck or are not growing as fast as they'd like. It challenges a common mindset of starting small and scaling gradually, positing that a mindset shift towards solving high-value problems from the outset can lead to faster, more significant wealth accumulation. This is particularly relevant in competitive economic landscapes where incremental thinking may not yield breakthrough success.
