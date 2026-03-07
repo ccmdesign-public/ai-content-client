@@ -1,0 +1,117 @@
+---
+metadata:
+  videoId: "agXr1aGdsmM"
+  title: "Seasons of Learning vs. Earning"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT3M44S"
+  publishedAt: "2026-03-06T23:04:14Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/agXr1aGdsmM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=agXr1aGdsmM"
+processedAt: "2026-03-07T20:51:45.513Z"
+source: "youtube"
+tldr: "The video argues that prioritizing learning over earning in your 20s leads to vastly greater long-term potential, using the example of an 18-year-old who chose a high-paying but isolated editing job over joining a top media team to build a career as a creative director or entrepreneur."
+tools:
+  - name: "$100 Million Scaling Roadmap"
+    url: "https://acquisition.com/roadmap"
+categories:
+  - "Business & Career"
+  - "Tools & Productivity"
+tags:
+  - "business"
+  - "career-growth"
+  - "education"
+  - "indie-hacker"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4354
+  outputTokens: 699
+  totalTokens: 5053
+  processingTimeMs: 26156
+tagsNormalizedAt: "2026-03-07T21:06:08.763Z"
+---
+
+## Key Takeaways
+
+The core message is that early career decisions should focus on skill development and network building, not immediate income. Key insights include: • **Prioritize learning seasons** in your 20s to maximize long-term earning potential, as choosing to earn too soon caps your growth. • **Join elite teams** to accelerate skill acquisition; the example contrasts a $100k/year solo role with learning from a globally recognized media brand. • **Passion is built through competence**, not discovered; you learn to like what you're good at by doing things you initially suck at repeatedly.
+
+## Summary
+
+The speaker introduces the concept of **seasons of learning vs. earning**, arguing that a critical career mistake is prioritizing immediate high income over long-term skill development. He illustrates this with a personal anecdote: an 18-year-old video editor demanded a $100,000 starting salary, turning down an opportunity to join a top-tier media team. The speaker deems this choice "logical and also stupid."
+
+The **opportunity cost** was immense. By joining the elite team, the individual could have learned a superior skill set, built a powerful network, and gained prestigious experience. This path could have led to becoming a creative director at a major company or founding a multi-million dollar business. Instead, the high-paying solo role offered no mentorship, no growth, and ultimately, a less valuable resume.
+
+The speaker emphasizes that **choosing to earn over learn is a decision to stop growing**. He uses his own career as an example, having left a prestigious defense contracting job with a top-secret clearance to work for $13 an hour at a gym, betting on long-term learning and potential.
+
+A related insight addresses the common paralysis of "finding your passion." The speaker reframes this as a **language issue**: passion isn't found, it's **built through competence**. You become good at something by persistently doing things you're initially bad at, and enjoyment follows skill.
+
+The video concludes with a promotional offer for business owners: a free **$100 Million Scaling Roadmap** tool from Acquisition.com. This diagnostic tool helps identify growth stages and provides actionable steps across all business functions, based on the speaker's portfolio company experiences.
+
+## Context
+
+This advice is crucial for young professionals and early-career individuals, especially in competitive fields like media, tech, and entrepreneurship. It challenges the pervasive social media narrative of instant, high-earning success and provides a strategic framework for long-term career capital. The concept connects to broader principles of delayed gratification, skill stacking, and the importance of environment (the "big leagues") for accelerated growth, countering the short-term optimization common in today's job market.
