@@ -2,7 +2,10 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "prebuild": "tsx scripts/build-search-index.ts",
     "build": "nuxt build",
+    "build:search-index": "tsx scripts/build-search-index.ts",
+    "pregenerate": "tsx scripts/build-search-index.ts",
     "dev": "nuxt dev",
     "dev:host": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
@@ -45,6 +48,7 @@
     "fast-xml-parser": "^5.3.3",
     "googleapis": "^169.0.0",
     "marked": "^17.0.1",
+    "minisearch": "^7.2.0",
     "nuxt": "^4.2.0",
     "pinia": "^3.0.3",
     "rimraf": "^6.0.1",
