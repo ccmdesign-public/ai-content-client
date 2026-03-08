@@ -1,0 +1,134 @@
+---
+metadata:
+  videoId: "oujxqT40pCU"
+  title: "Never Quit..."
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT5M51S"
+  publishedAt: "2026-03-08T20:20:41Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/oujxqT40pCU/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=oujxqT40pCU"
+processedAt: "2026-03-08T22:05:16.268Z"
+source: "youtube"
+tldr: "Alex Hormozi argues that removing quitting from your life's menu of options and ignoring others' opinions are fundamental to achieving success, as most people fail by stopping during difficult periods and living to please others rather than themselves."
+tools: []
+categories:
+  - "Business & Career"
+tags:
+  - "business"
+  - "career-growth"
+  - "indie-hacker"
+  - "leadership"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 6058
+  outputTokens: 816
+  totalTokens: 6874
+  processingTimeMs: 29142
+tagsNormalizedAt: "2026-03-08T22:16:36.635Z"
+---
+
+## Key Takeaways
+
+This motivational talk centers on resilience and self-determination as the keys to long-term success.
+
+- **Remove quitting as an option:** Treat difficult periods as temporary "rocky cut scenes" that in real life can last years, not seconds.
+
+- **Ignore others' opinions:** People often project their own insecurities; their advice reflects their preferences, not your potential.
+
+- **Define your own game:** True success comes from playing by your own rules and pursuing goals you genuinely care about.
+
+- **Accept insults to maintain control:** Reacting to prove others wrong gives them power over your life; accepting criticism preserves your autonomy.
+
+## Summary
+
+Alex Hormozi delivers a powerful message on perseverance and self-reliance, drawing from his personal journey from high-status graduate to minimum-wage employee and back to successful entrepreneur.
+
+### The Rocky Cut Scene Analogy
+
+He frames early struggles in any venture as the "rocky cut scene"—the montage in movies where the hero trains and suffers. In films, this lasts seconds; in reality, it can last years. The critical insight is that **most people quit during this phase**, which is precisely why they don't win. Hormozi's core advice is to simply remove "quitting" from your mental menu of life options.
+
+### The Toxicity of External Opinions
+
+A major barrier is caring too much about what others think. Hormozi explains that people, especially those close to you, often don't want the "best version" of you—they want the version that best serves them. Your success can make them feel inadequate. Therefore, their opinions are less about your well-being and more about their own comfort and preferences.
+
+### Reclaiming Your Narrative and Goals
+
+Hormozi shares his own low point, where achieving what he thought would impress others left him miserable. He realized he was playing the wrong game. The solution is to **define your own game with rules you control**. This shift from seeking external validation to pursuing internal fulfillment is liberating and sustainable.
+
+### The Power of Accepting Insults
+
+He introduces a powerful frame for dealing with criticism: accepting insults. If you try to prove someone wrong, you are letting their statement dictate your actions, effectively giving them control. By accepting an insult (e.g., agreeing "Yes, you are better than me"), you neutralize its power and remain focused on your own goals. Your objectives must be more important than changing someone's mind about you.
+
+### Perspective on Success and Comparison
+
+Hormozi cautions against comparing yourself to the "perceived median" of society, which is often inflated by social media. If you feel average compared to this skewed benchmark, you are likely far above the actual average. Ultimately, comparison is futile because "you've got a lot of innings left"—success is a long game played over a lifetime.
+
+## Context
+
+This content is crucial for entrepreneurs, business owners, and anyone pursuing ambitious long-term goals. In an era of instant gratification and highlight-reel social media, the reality of the grueling, multi-year 'grind' phase is often misunderstood. Hormozi's message counters the common advice to 'fail fast' or pivot quickly, instead advocating for relentless persistence through inevitable low points. It addresses the psychological warfare of entrepreneurship, including dealing with naysayers and self-doubt, which are universal challenges in high-stakes personal and professional development.
