@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "017"
 tags: [code-review, architecture, quality]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Created toSummaryProps() adapter function in index.vue that centralises the SearchResult-to-SummaryCard mapping. Single place to update if props change."
 ---
 
 # Search Results Mapped to Summary Object with Missing Fields

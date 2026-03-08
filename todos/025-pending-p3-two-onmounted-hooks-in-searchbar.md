@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "025"
 tags: [code-review, quality]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Merged two onMounted hooks in SearchBar.vue into a single hook containing platform detection, keydown listener registration, and URL-pre-populated expansion."
 ---
 
 # Two Separate onMounted Hooks in SearchBar

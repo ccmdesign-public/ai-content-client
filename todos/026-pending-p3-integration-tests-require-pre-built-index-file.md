@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "026"
 tags: [code-review, testing]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Added vitest globalSetup (src/tests/global-setup.ts) that builds the search index if it doesn't exist before tests run. Also added build-search-index to postinstall (Todo 018)."
 ---
 
 # Integration Tests Require Pre-Built Index File

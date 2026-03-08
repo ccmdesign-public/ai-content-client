@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "022"
 tags: [code-review, quality, deprecation]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Replaced navigator.platform with navigator.userAgentData?.platform (modern) with navigator.userAgent fallback. Also merged two onMounted hooks into one (Todo 025)."
 ---
 
 # navigator.platform Is Deprecated

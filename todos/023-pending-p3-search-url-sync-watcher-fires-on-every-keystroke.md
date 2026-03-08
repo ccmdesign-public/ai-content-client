@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "023"
 tags: [code-review, performance, ux]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Wrapped the URL sync router.replace call in a 400ms debounce so typing 'claude' triggers one route update instead of six."
 ---
 
 # Search URL Sync Watcher Fires on Every Keystroke

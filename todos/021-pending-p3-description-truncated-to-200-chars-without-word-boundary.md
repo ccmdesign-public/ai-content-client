@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "021"
 tags: [code-review, quality]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Replaced .slice(0,200) with truncateAtWord() helper that cuts at the last space boundary within the limit."
 ---
 
 # Description Truncated to 200 Chars Without Word Boundary

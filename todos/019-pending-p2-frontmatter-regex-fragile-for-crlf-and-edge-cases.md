@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "019"
 tags: [code-review, quality, robustness]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Added CRLF->LF normalisation before the frontmatter regex in extractFrontmatter(). Added console.warn for files with content but no parseable frontmatter."
 ---
 
 # Frontmatter Regex Fragile for CRLF Line Endings and Edge Cases

@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "024"
 tags: [code-review, performance]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Capped visible search results at 30 via MAX_SEARCH_RESULTS const. Shows a 'refine your search' message when results exceed the cap."
 ---
 
 # Search Results Not Virtualized for Large Result Sets

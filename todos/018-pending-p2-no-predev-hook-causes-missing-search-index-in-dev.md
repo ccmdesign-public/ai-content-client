@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "018"
 tags: [code-review, dx, build]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Added build-search-index.ts to postinstall script in package.json so the index is generated after npm install. Also added vitest globalSetup to build the index before tests."
 ---
 
 # No predev Hook Causes Missing Search Index in Development

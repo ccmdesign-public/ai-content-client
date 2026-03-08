@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "016"
 tags: [code-review, performance, architecture]
 dependencies: []
+resolved_date: "2026-03-08"
+resolution: "Moved useSearch() call from layouts/default.vue to pages/index.vue. Removed provide/inject pattern entirely. Search logic now only runs on the homepage."
 ---
 
 # useSearch Composable Instantiated in Layout Runs on Every Page

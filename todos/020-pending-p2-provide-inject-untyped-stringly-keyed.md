@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "020"
 tags: [code-review, quality, typescript]
 dependencies: ["016"]
+resolved_date: "2026-03-08"
+resolution: "Eliminated provide/inject entirely by moving useSearch() to index.vue (per Todo 016 Solution B). No more string keys or manual type assertions."
 ---
 
 # Provide/Inject Uses Untyped String Key
