@@ -3,6 +3,7 @@ import { useDateGroups } from '~/composables/useDateGroups'
 import { useSortOptions } from '~/composables/useSortOptions'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useHomepageFilter } from '~/composables/useHomepageFilter'
+import type { SearchResult } from '~/types/search'
 
 definePageMeta({
   hero: false,
@@ -33,11 +34,35 @@ const feedSegments = computed(() =>
       ? [{ key: 'older' as const, label: '', items: sorted.value }]
       : []
 )
+
+// Search integration -- injected from layout
+const search = inject('search') as ReturnType<typeof import('~/composables/useSearch').useSearch> | undefined
+const searchQuery = computed({
+  get: () => search?.query.value ?? '',
+  set: (val: string) => { if (search) search.query.value = val },
+})
+const searchResults = computed(() => (search?.results.value ?? []) as SearchResult[])
+const isSearchActive = computed(() => search?.isSearchActive.value ?? false)
+const isSearchReady = computed(() => search?.isReady.value ?? false)
+const searchError = computed(() => search?.error.value ?? null)
+
+// Init search index on first interaction (lazy)
+function onSearchExpand() {
+  search?.init()
+}
+
+// Page title adapts to search state
+const pageTitle = computed(() => isSearchActive.value ? 'Search Results' : 'All Summaries')
+const displayedCount = computed(() =>
+  isSearchActive.value ? searchResults.value.length : filteredCount.value
+)
 </script>
 
 <template>
   <div class="home-page">
+    <!-- Category filter: hidden during search -->
     <CategoryFilterBar
+      v-if="!isSearchActive"
       :categories="tagsByCategory"
       :selected-category="selectedCategory"
       :total-count="totalCount"
@@ -47,21 +72,68 @@ const feedSegments = computed(() =>
     <header class="page-header">
       <div class="page-header__top">
         <div>
-          <h1>All Summaries</h1>
+          <h1>{{ pageTitle }}</h1>
           <p class="page-header__count" aria-live="polite" aria-atomic="true">
-            {{ filteredCount }} videos
-            <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
+            <template v-if="isSearchActive">
+              {{ displayedCount }} result{{ displayedCount === 1 ? '' : 's' }}
+            </template>
+            <template v-else>
+              {{ filteredCount }} videos
+              <span v-if="selectedCategory"> (filtered from {{ totalCount }})</span>
+            </template>
           </p>
         </div>
-        <SortControl v-model="currentSort" />
+        <div class="page-header__actions">
+          <SearchBar
+            v-model="searchQuery"
+            v-model:result-count="displayedCount"
+            :is-ready="isSearchReady"
+            @expand="onSearchExpand"
+          />
+          <SortControl v-if="!isSearchActive" v-model="currentSort" />
+        </div>
       </div>
     </header>
 
     <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
-    <div v-if="pending" class="loading">Loading...</div>
+    <div v-if="pending && !isSearchActive" class="loading">Loading...</div>
 
-    <div v-else-if="selectedCategory && filteredCount === 0" class="filtered-empty-state">
+    <!-- Search error fallback -->
+    <div v-else-if="isSearchActive && searchError" class="search-error">
+      <span class="material-symbols-outlined search-error__icon" aria-hidden="true">error</span>
+      <p class="search-error__message">Search unavailable. Browse content below.</p>
+    </div>
+
+    <!-- Search results -->
+    <div v-else-if="isSearchActive && searchResults.length > 0" class="search-results">
+      <SummaryCard
+        v-for="result in searchResults"
+        :key="result.id"
+        :summary="{
+          metadata: {
+            videoId: result.id,
+            title: result.title,
+            channel: result.channel,
+            publishedAt: result.date,
+            thumbnailUrl: result.thumbnailUrl,
+            youtubeUrl: `https://www.youtube.com/watch?v=${result.id}`,
+          },
+          processedAt: result.date,
+          tldr: result.tldr,
+        }"
+      />
+    </div>
+
+    <!-- Search: no results -->
+    <div v-else-if="isSearchActive && searchResults.length === 0 && isSearchReady" class="filtered-empty-state">
+      <span class="filtered-empty-state__icon material-symbols-outlined" aria-hidden="true">search_off</span>
+      <p class="filtered-empty-state__message">No results found for "{{ searchQuery }}"</p>
+      <p class="filtered-empty-state__hint">Try different keywords or clear the search.</p>
+    </div>
+
+    <!-- Browse: filtered empty state -->
+    <div v-else-if="!isSearchActive && selectedCategory && filteredCount === 0" class="filtered-empty-state">
       <span class="filtered-empty-state__icon material-symbols-outlined" aria-hidden="true">filter_list_off</span>
       <p class="filtered-empty-state__message">No summaries found in this category.</p>
       <p class="filtered-empty-state__hint">Try selecting a different category or reset the filter.</p>
@@ -70,7 +142,8 @@ const feedSegments = computed(() =>
       </button>
     </div>
 
-    <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
+    <!-- Browse: date-grouped feed -->
+    <DateGroupedFeed v-else-if="!isSearchActive" :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
 
@@ -78,6 +151,12 @@ const feedSegments = computed(() =>
 .home-page {
   padding: var(--space-l, 2rem);
   padding-top: 0;
+}
+
+.page-header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s, 0.75rem);
 }
 
 .page-header {
@@ -108,6 +187,31 @@ const feedSegments = computed(() =>
   text-align: center;
   padding: var(--space-2xl, 3rem);
   color: var(--color-base-shade-10, #6b7280);
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-error {
+  text-align: center;
+  padding: var(--space-2xl, 3rem) var(--space-l, 2rem);
+  color: var(--color-base-shade-10, #6b7280);
+}
+
+.search-error__icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--space-s, 0.75rem);
+  color: var(--color-base-tint-20, #9ca3af);
+}
+
+.search-error__message {
+  font-size: var(--step-0, 1rem);
+  font-weight: 500;
+  margin: 0;
+  color: var(--color-text, #374151);
 }
 
 .filtered-empty-state {
