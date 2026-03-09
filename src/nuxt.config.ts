@@ -44,6 +44,9 @@ try {
 export default defineNuxtConfig({
   rootDir: projectRoot,
   srcDir: currentDir,
+  dir: {
+    public: resolve(currentDir, 'public'),
+  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: [

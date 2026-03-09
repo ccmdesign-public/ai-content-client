@@ -6,7 +6,7 @@
     "build": "nuxt build",
     "build:search-index": "tsx scripts/build-search-index.ts",
     "pregenerate": "tsx scripts/build-search-index.ts",
-    "dev": "nuxt dev",
+    "dev": "node --max-old-space-size=8192 ./node_modules/.bin/nuxt dev",
     "dev:host": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

@@ -60,16 +60,6 @@ const displayedCount = computed(() =>
 
 <template>
   <div class="home-page">
-    <!-- Search bar -->
-    <div class="home-page__search-row">
-      <SearchBar
-        v-model="searchQuery"
-        v-model:result-count="displayedCount"
-        :is-ready="isSearchReady"
-        @expand="onSearchExpand"
-      />
-    </div>
-
     <!-- Category filter: hidden during search -->
     <CategoryFilterBar
       v-if="!isSearchActive"
@@ -93,7 +83,15 @@ const displayedCount = computed(() =>
             </template>
           </p>
         </div>
-        <SortControl v-if="!isSearchActive" v-model="currentSort" />
+        <div class="page-header__actions">
+          <SearchBar
+            v-model="searchQuery"
+            v-model:result-count="displayedCount"
+            :is-ready="isSearchReady"
+            @expand="onSearchExpand"
+          />
+          <SortControl v-if="!isSearchActive" v-model="currentSort" />
+        </div>
       </div>
     </header>
 
@@ -155,10 +153,10 @@ const displayedCount = computed(() =>
   padding-top: 0;
 }
 
-.home-page__search-row {
+.page-header__actions {
   display: flex;
-  justify-content: flex-end;
-  padding: var(--space-s, 0.75rem) 0;
+  align-items: center;
+  gap: var(--space-s, 0.75rem);
 }
 
 .page-header {
