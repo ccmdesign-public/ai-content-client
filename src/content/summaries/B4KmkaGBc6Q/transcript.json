@@ -1,0 +1,689 @@
+{
+  "videoId": "B4KmkaGBc6Q",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.55,
+      "duration": 0.010000000000000231,
+      "text": "Now we will learn how to develop YAML"
+    },
+    {
+      "start": 2.56,
+      "duration": 1.9899999999999998,
+      "text": "Now we will learn how to develop YAML files specifically for Kubernetes. So"
+    },
+    {
+      "start": 4.55,
+      "duration": 0.010000000000000675,
+      "text": "files specifically for Kubernetes. So"
+    },
+    {
+      "start": 4.5600000000000005,
+      "duration": 3.1099999999999994,
+      "text": "files specifically for Kubernetes. So Kubernetes uses YAML files as input for"
+    },
+    {
+      "start": 7.67,
+      "duration": 0.009999999999999787,
+      "text": "Kubernetes uses YAML files as input for"
+    },
+    {
+      "start": 7.68,
+      "duration": 1.9090000000000007,
+      "text": "Kubernetes uses YAML files as input for the creation of objects such as pods,"
+    },
+    {
+      "start": 9.589,
+      "duration": 0.009999999999999787,
+      "text": "the creation of objects such as pods,"
+    },
+    {
+      "start": 9.599,
+      "duration": 2.1500000000000004,
+      "text": "the creation of objects such as pods, replica sets, deployment services, etc."
+    },
+    {
+      "start": 11.749,
+      "duration": 0.009999999999999787,
+      "text": "replica sets, deployment services, etc."
+    },
+    {
+      "start": 11.759,
+      "duration": 1.9900000000000002,
+      "text": "replica sets, deployment services, etc. Now all of these uh follow a very"
+    },
+    {
+      "start": 13.749,
+      "duration": 0.009999999999999787,
+      "text": "Now all of these uh follow a very"
+    },
+    {
+      "start": 13.759,
+      "duration": 1.83,
+      "text": "Now all of these uh follow a very similar structure. A Kubernetes"
+    },
+    {
+      "start": 15.589,
+      "duration": 0.009999999999999787,
+      "text": "similar structure. A Kubernetes"
+    },
+    {
+      "start": 15.599,
+      "duration": 2.311,
+      "text": "similar structure. A Kubernetes definition file always contains four top"
+    },
+    {
+      "start": 17.91,
+      "duration": 0.010000000000001563,
+      "text": "definition file always contains four top"
+    },
+    {
+      "start": 17.92,
+      "duration": 2.469999999999999,
+      "text": "definition file always contains four top level fields. The API version, kind,"
+    },
+    {
+      "start": 20.39,
+      "duration": 0.00999999999999801,
+      "text": "level fields. The API version, kind,"
+    },
+    {
+      "start": 20.4,
+      "duration": 2.3900000000000006,
+      "text": "level fields. The API version, kind, metadata, and spec. These are top level"
+    },
+    {
+      "start": 22.79,
+      "duration": 0.010000000000001563,
+      "text": "metadata, and spec. These are top level"
+    },
+    {
+      "start": 22.8,
+      "duration": 1.9100000000000001,
+      "text": "metadata, and spec. These are top level or root level properties. Think of them"
+    },
+    {
+      "start": 24.71,
+      "duration": 0.00999999999999801,
+      "text": "or root level properties. Think of them"
+    },
+    {
+      "start": 24.72,
+      "duration": 1.5899999999999999,
+      "text": "or root level properties. Think of them as siblings, children of the same"
+    },
+    {
+      "start": 26.31,
+      "duration": 0.010000000000001563,
+      "text": "as siblings, children of the same"
+    },
+    {
+      "start": 26.32,
+      "duration": 2.5500000000000007,
+      "text": "as siblings, children of the same parent. These are all required fields."
+    },
+    {
+      "start": 28.87,
+      "duration": 0.00999999999999801,
+      "text": "parent. These are all required fields."
+    },
+    {
+      "start": 28.88,
+      "duration": 1.3500000000000014,
+      "text": "parent. These are all required fields. So you must have them in your"
+    },
+    {
+      "start": 30.23,
+      "duration": 0.00999999999999801,
+      "text": "So you must have them in your"
+    },
+    {
+      "start": 30.24,
+      "duration": 2.309000000000001,
+      "text": "So you must have them in your configuration file. Let us look at each"
+    },
+    {
+      "start": 32.549,
+      "duration": 0.00999999999999801,
+      "text": "configuration file. Let us look at each"
+    },
+    {
+      "start": 32.559,
+      "duration": 2.3910000000000053,
+      "text": "configuration file. Let us look at each one of them. The first one is the API"
+    },
+    {
+      "start": 34.95,
+      "duration": 0.00999999999999801,
+      "text": "one of them. The first one is the API"
+    },
+    {
+      "start": 34.96,
+      "duration": 1.5889999999999986,
+      "text": "one of them. The first one is the API version. This is the version of the"
+    },
+    {
+      "start": 36.549,
+      "duration": 0.00999999999999801,
+      "text": "version. This is the version of the"
+    },
+    {
+      "start": 36.559,
+      "duration": 2.2310000000000016,
+      "text": "version. This is the version of the Kubernetes API we're using to create the"
+    },
+    {
+      "start": 38.79,
+      "duration": 0.00999999999999801,
+      "text": "Kubernetes API we're using to create the"
+    },
+    {
+      "start": 38.8,
+      "duration": 1.990000000000002,
+      "text": "Kubernetes API we're using to create the object. Depending on what we are trying"
+    },
+    {
+      "start": 40.79,
+      "duration": 0.00999999999999801,
+      "text": "object. Depending on what we are trying"
+    },
+    {
+      "start": 40.8,
+      "duration": 2.950000000000003,
+      "text": "object. Depending on what we are trying to create, we must use the right API"
+    },
+    {
+      "start": 43.75,
+      "duration": 0.00999999999999801,
+      "text": "to create, we must use the right API"
+    },
+    {
+      "start": 43.76,
+      "duration": 1.8300000000000054,
+      "text": "to create, we must use the right API version. For now, since we are working"
+    },
+    {
+      "start": 45.59,
+      "duration": 0.00999999999999801,
+      "text": "version. For now, since we are working"
+    },
+    {
+      "start": 45.6,
+      "duration": 3.429000000000002,
+      "text": "version. For now, since we are working on pods, we will set the API version as"
+    },
+    {
+      "start": 49.029,
+      "duration": 0.00999999999999801,
+      "text": "on pods, we will set the API version as"
+    },
+    {
+      "start": 49.039,
+      "duration": 2.9510000000000005,
+      "text": "on pods, we will set the API version as V1. If you're creating a service replica"
+    },
+    {
+      "start": 51.99,
+      "duration": 0.00999999999999801,
+      "text": "V1. If you're creating a service replica"
+    },
+    {
+      "start": 52,
+      "duration": 1.5900000000000034,
+      "text": "V1. If you're creating a service replica set or deployments, you will use the"
+    },
+    {
+      "start": 53.59,
+      "duration": 0.00999999999999801,
+      "text": "set or deployments, you will use the"
+    },
+    {
+      "start": 53.6,
+      "duration": 2.229999999999997,
+      "text": "set or deployments, you will use the versions listed here. We will see what"
+    },
+    {
+      "start": 55.83,
+      "duration": 0.010000000000005116,
+      "text": "versions listed here. We will see what"
+    },
+    {
+      "start": 55.84,
+      "duration": 3.189,
+      "text": "versions listed here. We will see what these are later in this course."
+    },
+    {
+      "start": 59.029,
+      "duration": 0.00999999999999801,
+      "text": "these are later in this course."
+    },
+    {
+      "start": 59.039,
+      "duration": 3.110999999999997,
+      "text": "these are later in this course. The next is the kind. The kind refers to"
+    },
+    {
+      "start": 62.15,
+      "duration": 0.00999999999999801,
+      "text": "The next is the kind. The kind refers to"
+    },
+    {
+      "start": 62.16,
+      "duration": 2.0690000000000026,
+      "text": "The next is the kind. The kind refers to the type of object we are creating which"
+    },
+    {
+      "start": 64.229,
+      "duration": 0.010000000000005116,
+      "text": "the type of object we are creating which"
+    },
+    {
+      "start": 64.239,
+      "duration": 1.9099999999999966,
+      "text": "the type of object we are creating which in this case happens to be a pod. So we"
+    },
+    {
+      "start": 66.149,
+      "duration": 0.010000000000005116,
+      "text": "in this case happens to be a pod. So we"
+    },
+    {
+      "start": 66.159,
+      "duration": 3.0309999999999917,
+      "text": "in this case happens to be a pod. So we will set it to pod. Now remember that"
+    },
+    {
+      "start": 69.19,
+      "duration": 0.010000000000005116,
+      "text": "will set it to pod. Now remember that"
+    },
+    {
+      "start": 69.2,
+      "duration": 2.948999999999998,
+      "text": "will set it to pod. Now remember that the kind is"
+    },
+    {
+      "start": 72.149,
+      "duration": 0.010000000000005116,
+      "text": "the kind is"
+    },
+    {
+      "start": 72.159,
+      "duration": 2.5509999999999877,
+      "text": "the kind is type or case sensitive. So you want to"
+    },
+    {
+      "start": 74.71,
+      "duration": 0.010000000000005116,
+      "text": "type or case sensitive. So you want to"
+    },
+    {
+      "start": 74.72,
+      "duration": 2.950000000000003,
+      "text": "type or case sensitive. So you want to make sure you use the exact kind as it"
+    },
+    {
+      "start": 77.67,
+      "duration": 0.010000000000005116,
+      "text": "make sure you use the exact kind as it"
+    },
+    {
+      "start": 77.68,
+      "duration": 2.2299999999999898,
+      "text": "make sure you use the exact kind as it is listed here. If you use all small"
+    },
+    {
+      "start": 79.91,
+      "duration": 0.010000000000005116,
+      "text": "is listed here. If you use all small"
+    },
+    {
+      "start": 79.92,
+      "duration": 2.1499999999999915,
+      "text": "is listed here. If you use all small case or caps then it's going to error"
+    },
+    {
+      "start": 82.07,
+      "duration": 0.010000000000005116,
+      "text": "case or caps then it's going to error"
+    },
+    {
+      "start": 82.08,
+      "duration": 2.0690000000000026,
+      "text": "case or caps then it's going to error out. Some other possible values here"
+    },
+    {
+      "start": 84.149,
+      "duration": 0.010000000000005116,
+      "text": "out. Some other possible values here"
+    },
+    {
+      "start": 84.159,
+      "duration": 1.9109999999999872,
+      "text": "out. Some other possible values here could be replica set or deployment or"
+    },
+    {
+      "start": 86.07,
+      "duration": 0.010000000000005116,
+      "text": "could be replica set or deployment or"
+    },
+    {
+      "start": 86.08,
+      "duration": 1.5900000000000034,
+      "text": "could be replica set or deployment or service which is what you see in the"
+    },
+    {
+      "start": 87.67,
+      "duration": 0.010000000000005116,
+      "text": "service which is what you see in the"
+    },
+    {
+      "start": 87.68,
+      "duration": 2.309999999999988,
+      "text": "service which is what you see in the kind field in the table on the right."
+    },
+    {
+      "start": 89.99,
+      "duration": 0.010000000000005116,
+      "text": "kind field in the table on the right."
+    },
+    {
+      "start": 90,
+      "duration": 3.3499999999999943,
+      "text": "kind field in the table on the right. The next field is metadata. The metadata"
+    },
+    {
+      "start": 93.35,
+      "duration": 0.010000000000005116,
+      "text": "The next field is metadata. The metadata"
+    },
+    {
+      "start": 93.36,
+      "duration": 3.269999999999996,
+      "text": "The next field is metadata. The metadata is data about the object like its name,"
+    },
+    {
+      "start": 96.63,
+      "duration": 0.010000000000005116,
+      "text": "is data about the object like its name,"
+    },
+    {
+      "start": 96.64,
+      "duration": 2.6299999999999955,
+      "text": "is data about the object like its name, labels, etc. As you can see, unlike the"
+    },
+    {
+      "start": 99.27,
+      "duration": 0.010000000000005116,
+      "text": "labels, etc. As you can see, unlike the"
+    },
+    {
+      "start": 99.28,
+      "duration": 2.468999999999994,
+      "text": "labels, etc. As you can see, unlike the first two where you specified a string"
+    },
+    {
+      "start": 101.749,
+      "duration": 0.010000000000005116,
+      "text": "first two where you specified a string"
+    },
+    {
+      "start": 101.759,
+      "duration": 2.6310000000000002,
+      "text": "first two where you specified a string value, this is in the form of a"
+    },
+    {
+      "start": 104.39,
+      "duration": 0.010000000000005116,
+      "text": "value, this is in the form of a"
+    },
+    {
+      "start": 104.4,
+      "duration": 2.0689999999999884,
+      "text": "value, this is in the form of a dictionary. So everything under metadata"
+    },
+    {
+      "start": 106.469,
+      "duration": 0.010000000000005116,
+      "text": "dictionary. So everything under metadata"
+    },
+    {
+      "start": 106.479,
+      "duration": 2.7109999999999985,
+      "text": "dictionary. So everything under metadata is intended to the right a little bit."
+    },
+    {
+      "start": 109.19,
+      "duration": 0.010000000000005116,
+      "text": "is intended to the right a little bit."
+    },
+    {
+      "start": 109.2,
+      "duration": 3.2689999999999912,
+      "text": "is intended to the right a little bit. And so names and labels are children of"
+    },
+    {
+      "start": 112.469,
+      "duration": 0.010000000000005116,
+      "text": "And so names and labels are children of"
+    },
+    {
+      "start": 112.479,
+      "duration": 2.790999999999997,
+      "text": "And so names and labels are children of metadata. The number of spaces before"
+    },
+    {
+      "start": 115.27,
+      "duration": 0.010000000000005116,
+      "text": "metadata. The number of spaces before"
+    },
+    {
+      "start": 115.28,
+      "duration": 2.8689999999999998,
+      "text": "metadata. The number of spaces before the two properties name and labels"
+    },
+    {
+      "start": 118.149,
+      "duration": 0.010000000000005116,
+      "text": "the two properties name and labels"
+    },
+    {
+      "start": 118.159,
+      "duration": 2.070999999999998,
+      "text": "the two properties name and labels doesn't really matter, but they should"
+    },
+    {
+      "start": 120.23,
+      "duration": 0.009999999999990905,
+      "text": "doesn't really matter, but they should"
+    },
+    {
+      "start": 120.24,
+      "duration": 2.710000000000008,
+      "text": "doesn't really matter, but they should be the same as their siblings. In this"
+    },
+    {
+      "start": 122.95,
+      "duration": 0.009999999999990905,
+      "text": "be the same as their siblings. In this"
+    },
+    {
+      "start": 122.96,
+      "duration": 2.3100000000000023,
+      "text": "be the same as their siblings. In this case, labels have more spaces on the"
+    },
+    {
+      "start": 125.27,
+      "duration": 0.010000000000005116,
+      "text": "case, labels have more spaces on the"
+    },
+    {
+      "start": 125.28,
+      "duration": 2.8700000000000045,
+      "text": "case, labels have more spaces on the left than name. And so it is now a child"
+    },
+    {
+      "start": 128.15,
+      "duration": 0.009999999999990905,
+      "text": "left than name. And so it is now a child"
+    },
+    {
+      "start": 128.16,
+      "duration": 1.5889999999999986,
+      "text": "left than name. And so it is now a child of the name property instead of a"
+    },
+    {
+      "start": 129.749,
+      "duration": 0.009999999999990905,
+      "text": "of the name property instead of a"
+    },
+    {
+      "start": 129.759,
+      "duration": 2.231000000000023,
+      "text": "of the name property instead of a sibling. And that's wrong. Also, the two"
+    },
+    {
+      "start": 131.99,
+      "duration": 0.009999999999990905,
+      "text": "sibling. And that's wrong. Also, the two"
+    },
+    {
+      "start": 132,
+      "duration": 1.8300000000000125,
+      "text": "sibling. And that's wrong. Also, the two properties must have more spaces than"
+    },
+    {
+      "start": 133.83,
+      "duration": 0.009999999999990905,
+      "text": "properties must have more spaces than"
+    },
+    {
+      "start": 133.84,
+      "duration": 2.710000000000008,
+      "text": "properties must have more spaces than its parent, which is metadata, so that"
+    },
+    {
+      "start": 136.55,
+      "duration": 0.009999999999990905,
+      "text": "its parent, which is metadata, so that"
+    },
+    {
+      "start": 136.56,
+      "duration": 1.6690000000000111,
+      "text": "its parent, which is metadata, so that it's intended to the right a little bit."
+    },
+    {
+      "start": 138.229,
+      "duration": 0.009999999999990905,
+      "text": "it's intended to the right a little bit."
+    },
+    {
+      "start": 138.239,
+      "duration": 1.8309999999999889,
+      "text": "it's intended to the right a little bit. But in this case all the three have the"
+    },
+    {
+      "start": 140.07,
+      "duration": 0.010000000000019327,
+      "text": "But in this case all the three have the"
+    },
+    {
+      "start": 140.08,
+      "duration": 1.9099999999999966,
+      "text": "But in this case all the three have the same number of spaces before them. So"
+    },
+    {
+      "start": 141.99,
+      "duration": 0.009999999999990905,
+      "text": "same number of spaces before them. So"
+    },
+    {
+      "start": 142,
+      "duration": 2.3899999999999864,
+      "text": "same number of spaces before them. So they are siblings which is not correct."
+    },
+    {
+      "start": 144.39,
+      "duration": 0.010000000000019327,
+      "text": "they are siblings which is not correct."
+    },
+    {
+      "start": 144.4,
+      "duration": 2.710000000000008,
+      "text": "they are siblings which is not correct. Now under metadata the name is a string"
+    },
+    {
+      "start": 147.11,
+      "duration": 0.009999999999990905,
+      "text": "Now under metadata the name is a string"
+    },
+    {
+      "start": 147.12,
+      "duration": 2.710000000000008,
+      "text": "Now under metadata the name is a string value. So you can name your pod my app"
+    },
+    {
+      "start": 149.83,
+      "duration": 0.009999999999990905,
+      "text": "value. So you can name your pod my app"
+    },
+    {
+      "start": 149.84,
+      "duration": 2.549999999999983,
+      "text": "value. So you can name your pod my app pod and the labels is a dictionary. So"
+    },
+    {
+      "start": 152.39,
+      "duration": 0.010000000000019327,
+      "text": "pod and the labels is a dictionary. So"
+    },
+    {
+      "start": 152.4,
+      "duration": 2.069999999999993,
+      "text": "pod and the labels is a dictionary. So labels is a dictionary within the"
+    },
+    {
+      "start": 154.47,
+      "duration": 0.009999999999990905,
+      "text": "labels is a dictionary within the"
+    },
+    {
+      "start": 154.48,
+      "duration": 2.5500000000000114,
+      "text": "labels is a dictionary within the metadata dictionary. And it can have any"
+    },
+    {
+      "start": 157.03,
+      "duration": 0.009999999999990905,
+      "text": "metadata dictionary. And it can have any"
+    },
+    {
+      "start": 157.04,
+      "duration": 2.3100000000000023,
+      "text": "metadata dictionary. And it can have any key and value pairs as you wish. For"
+    },
+    {
+      "start": 159.35,
+      "duration": 0.010000000000019327,
+      "text": "key and value pairs as you wish. For"
+    },
+    {
+      "start": 159.36,
+      "duration": 2.6299999999999955,
+      "text": "key and value pairs as you wish. For now, I have added a label app with the"
+    },
+    {
+      "start": 161.99,
+      "duration": 0.009999999999990905,
+      "text": "now, I have added a label app with the"
+    },
+    {
+      "start": 162,
+      "duration": 2.8000000000000114,
+      "text": "now, I have added a label app with the value my"
+    }
+  ],
+  "fullText": "Now we will learn how to develop YAML Now we will learn how to develop YAML files specifically for Kubernetes. So files specifically for Kubernetes. So files specifically for Kubernetes. So Kubernetes uses YAML files as input for Kubernetes uses YAML files as input for Kubernetes uses YAML files as input for the creation of objects such as pods, the creation of objects such as pods, the creation of objects such as pods, replica sets, deployment services, etc. replica sets, deployment services, etc. replica sets, deployment services, etc. Now all of these uh follow a very Now all of these uh follow a very Now all of these uh follow a very similar structure. A Kubernetes similar structure. A Kubernetes similar structure. A Kubernetes definition file always contains four top definition file always contains four top definition file always contains four top level fields. The API version, kind, level fields. The API version, kind, level fields. The API version, kind, metadata, and spec. These are top level metadata, and spec. These are top level metadata, and spec. These are top level or root level properties. Think of them or root level properties. Think of them or root level properties. Think of them as siblings, children of the same as siblings, children of the same as siblings, children of the same parent. These are all required fields. parent. These are all required fields. parent. These are all required fields. So you must have them in your So you must have them in your So you must have them in your configuration file. Let us look at each configuration file. Let us look at each configuration file. Let us look at each one of them. The first one is the API one of them. The first one is the API one of them. The first one is the API version. This is the version of the version. This is the version of the version. This is the version of the Kubernetes API we're using to create the Kubernetes API we're using to create the Kubernetes API we're using to create the object. Depending on what we are trying object. Depending on what we are trying object. Depending on what we are trying to create, we must use the right API to create, we must use the right API to create, we must use the right API version. For now, since we are working version. For now, since we are working version. For now, since we are working on pods, we will set the API version as on pods, we will set the API version as on pods, we will set the API version as V1. If you're creating a service replica V1. If you're creating a service replica V1. If you're creating a service replica set or deployments, you will use the set or deployments, you will use the set or deployments, you will use the versions listed here. We will see what versions listed here. We will see what versions listed here. We will see what these are later in this course. these are later in this course. these are later in this course. The next is the kind. The kind refers to The next is the kind. The kind refers to The next is the kind. The kind refers to the type of object we are creating which the type of object we are creating which the type of object we are creating which in this case happens to be a pod. So we in this case happens to be a pod. So we in this case happens to be a pod. So we will set it to pod. Now remember that will set it to pod. Now remember that will set it to pod. Now remember that the kind is the kind is the kind is type or case sensitive. So you want to type or case sensitive. So you want to type or case sensitive. So you want to make sure you use the exact kind as it make sure you use the exact kind as it make sure you use the exact kind as it is listed here. If you use all small is listed here. If you use all small is listed here. If you use all small case or caps then it's going to error case or caps then it's going to error case or caps then it's going to error out. Some other possible values here out. Some other possible values here out. Some other possible values here could be replica set or deployment or could be replica set or deployment or could be replica set or deployment or service which is what you see in the service which is what you see in the service which is what you see in the kind field in the table on the right. kind field in the table on the right. kind field in the table on the right. The next field is metadata. The metadata The next field is metadata. The metadata The next field is metadata. The metadata is data about the object like its name, is data about the object like its name, is data about the object like its name, labels, etc. As you can see, unlike the labels, etc. As you can see, unlike the labels, etc. As you can see, unlike the first two where you specified a string first two where you specified a string first two where you specified a string value, this is in the form of a value, this is in the form of a value, this is in the form of a dictionary. So everything under metadata dictionary. So everything under metadata dictionary. So everything under metadata is intended to the right a little bit. is intended to the right a little bit. is intended to the right a little bit. And so names and labels are children of And so names and labels are children of And so names and labels are children of metadata. The number of spaces before metadata. The number of spaces before metadata. The number of spaces before the two properties name and labels the two properties name and labels the two properties name and labels doesn't really matter, but they should doesn't really matter, but they should doesn't really matter, but they should be the same as their siblings. In this be the same as their siblings. In this be the same as their siblings. In this case, labels have more spaces on the case, labels have more spaces on the case, labels have more spaces on the left than name. And so it is now a child left than name. And so it is now a child left than name. And so it is now a child of the name property instead of a of the name property instead of a of the name property instead of a sibling. And that's wrong. Also, the two sibling. And that's wrong. Also, the two sibling. And that's wrong. Also, the two properties must have more spaces than properties must have more spaces than properties must have more spaces than its parent, which is metadata, so that its parent, which is metadata, so that its parent, which is metadata, so that it's intended to the right a little bit. it's intended to the right a little bit. it's intended to the right a little bit. But in this case all the three have the But in this case all the three have the But in this case all the three have the same number of spaces before them. So same number of spaces before them. So same number of spaces before them. So they are siblings which is not correct. they are siblings which is not correct. they are siblings which is not correct. Now under metadata the name is a string Now under metadata the name is a string Now under metadata the name is a string value. So you can name your pod my app value. So you can name your pod my app value. So you can name your pod my app pod and the labels is a dictionary. So pod and the labels is a dictionary. So pod and the labels is a dictionary. So labels is a dictionary within the labels is a dictionary within the labels is a dictionary within the metadata dictionary. And it can have any metadata dictionary. And it can have any metadata dictionary. And it can have any key and value pairs as you wish. For key and value pairs as you wish. For key and value pairs as you wish. For now, I have added a label app with the now, I have added a label app with the now, I have added a label app with the value my",
+  "fetchedAt": "2026-03-10T13:54:21.798Z"
+}

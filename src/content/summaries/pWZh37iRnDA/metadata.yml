@@ -1,0 +1,89 @@
+videoId: pWZh37iRnDA
+title: Claude Code Loops in 7 Minutes
+description: >-
+  Claude Code “Loop” Scheduling: Recurring AI Tasks in Your Session
+
+
+  The script explains Claude Code’s new “Loop” feature (an evolution of the
+  Ralph Wiggins technique) for running recurring prompts that help verify work
+  and prevent premature task completion. Loop can schedule tasks for up to three
+  days using natural language or a /loop command, with a minimum one-minute
+  interval, and it shows the scheduled prompt, notes, and auto-expiry. Examples
+  include looping over PRs to fix build issues, summarizing tagged Slack posts
+  via MCP, creating daily Git history recaps saved to the desktop, and scraping
+  Hacker News with Firecrawl then emailing summaries via a connected Gmail CLI
+  skill. Loops are scoped to the active Claude Code session and stop when the
+  session closes, include up to a 10% scheduling offset to avoid synchronized
+  API spikes, and can be disabled via a flag; for durable scheduling, the script
+  suggests the desktop app feature or GitHub Actions.
+
+
+
+  FOLLOW ME
+
+  → Website: https://dub.sh/dev-digest
+
+  → X/Twitter: https://dub.sh/dd-x
+
+  → GitHub: https://git.new/devdigest
+
+
+  TOOLS I USE
+
+  → Wispr Flow (voice-to-text): https://dub.sh/dd-wispr
+
+  → Screen Studio (screen recording): https://dub.sh/dd-screenstudio
+
+  → Descript (video editing): https://dub.sh/dd-descript
+
+  → Railway (deployment): https://dub.sh/dd-railway
+
+
+  LEARNING RESOURCES
+
+  → Scrimba: https://dub.sh/dd-scrimba
+
+
+  00:00 Loop Feature Intro
+
+  00:20 Why Tasks Fail Early
+
+  00:53 Loop Use Cases
+
+  01:07 Scheduling Your First Loop
+
+  01:27 Intervals Limits Expiry
+
+  01:51 Daily Git Recap Example
+
+  02:25 Combining With Skills
+
+  02:43 Session Scope Caveats
+
+  03:38 Hacker News Email Automation
+
+  04:27 Listing Canceling Jobs
+
+  05:00 New Commands Summary
+
+  05:10 Scheduler Time Offsets
+
+  05:45 Disable Flag Limitations
+
+  06:42 Durable Alternatives Wrap Up
+channel: Developers Digest
+channelId: UCuE6iwZKgGz8s6kznBRI9LQ
+duration: PT7M2S
+publishedAt: 2026-03-07T19:30:59Z
+thumbnailUrl: https://i.ytimg.com/vi/pWZh37iRnDA/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=pWZh37iRnDA
+processedAt: 2026-03-10T15:25:20.424Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 6632
+outputTokens: 856
+totalTokens: 7488
+processingTimeMs: 30705

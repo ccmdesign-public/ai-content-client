@@ -1,0 +1,133 @@
+videoId: X4vAlWtsJD4
+title: 90% of Your AI Agent's Design Process Is Dead
+description: >-
+  Try Warp for free today → https://oz.dev/ai-labsyt
+
+
+  AI agent workflows replace the old design-to-code handoff. We break down the
+  full build pipeline: PRD, prototype, and backend — following principles that
+  apply across claude code, codex, cursor ai, and antigravity tools.
+
+
+  Link to the Frontend Design Skill:
+  https://claude.com/blog/improving-frontend-design-through-skills
+
+
+  What AI Agents Replaced in the Build Process
+
+
+  Jenny Wen (head of design at Claude, formerly design director at Figma) laid
+  this out on Lenny's Podcast: the old design pipeline existed to protect
+  against expensive mistakes. AI made those mistakes cheap. The ritual
+  collapsed.
+
+
+  We walk through exactly what changed and the step-by-step process that
+  replaced it.
+
+
+  Why the Old Process Existed
+
+  - Requirements, Figma mockup, frontend handoff, parallel backend: every step
+  protected against building the wrong thing at scale
+
+  - Simon Willison's key insight: AI significantly reduces the cost of building
+  the wrong thing, so the protection became unnecessary overhead
+
+  - Engineering speed changed first — Jenny went from 60-70% of her time
+  prototyping to 30-40%
+
+  - Vision timelines dropped from 2-5 years to 3-6 months
+
+
+  The Replacement Pipeline (Stage by Stage)
+
+  - Start with actors, not features — who uses the system determines what it
+  needs
+
+  - For each actor: how they get in, what they see on arrival, what they're
+  trying to do, what they cannot do
+
+  - PRD prompt: interview-style questions that produce a structured requirements
+  file
+
+  - Layer prompt: converts PRD into pages, modals, and user flows
+  (architecture.md)
+
+  - Frontend prototype in Next.js using a general-purpose frontend skill — mock
+  data only, no backend yet
+
+  - Show the client something real and get approval before writing a line of
+  backend code
+
+  - Task list generated from architecture.md keeps the agent on track
+
+  - API spec: agent reads frontend code, PRD, and architecture file to write it
+
+  - Database schema: generated from the same three documents
+
+  - Supabase MCP: automates project creation, schema queries, and migrations —
+  no manual SQL
+
+  - Backend layer added last: payments, notifications, rate limiting, analytics
+
+
+  How to Build an AI Agent Prototype — Who This Applies To
+
+
+  This functions as a complete ai agent tutorial and ai agent course for teams
+  moving off the old Figma-handoff model. If you're figuring out what is an ai
+  agent build pipeline, how to build an ai agent from scratch, or how to build
+  ai agent workflows into a client process, this is the current answer.
+
+
+  The actor-first logic applies directly to n8n ai agent pipelines and n8n ai
+  agent tutorial setups — define who interacts with the system before defining
+  what to build.
+
+
+  Builders using claude ai agent environments will recognize the architecture.md
+  pattern from claude code workflows. The same sequencing applies whether you're
+  running chatgpt, google ai studio, or gemini as your underlying model.
+
+
+  For ai voice agent and manus ai agent setups, the same principle holds:
+  requirements and structure before execution.
+
+
+  Tool-Agnostic Applications
+
+  - vibe coding builders: same process, less ceremony — prototype first, connect
+  services last
+
+  - claude cowork teams: the PRD file and architecture.md replace the old Figma
+  handoff entirely
+
+  - These workflows reflect where ai news around agentic builds is pointing —
+  the design-to-code handoff is collapsing industry-wide
+
+  - The prompts shown on screen are available as a step-by-step workflow in AI
+  Labs Pro
+
+
+
+  Hashtags: 
+
+  #ai #ClaudeCode #n8n #claudeCowork #claude #Gemini #vibeCoding #ChatGPT
+  #GoogleAIStudio #aiNews
+channel: AI LABS
+channelId: UCelfWQr9sXVMTvBzviPGlFw
+duration: PT9M33S
+publishedAt: 2026-03-10T14:08:35Z
+thumbnailUrl: https://i.ytimg.com/vi/X4vAlWtsJD4/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=X4vAlWtsJD4
+processedAt: 2026-03-10T15:31:00.493Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 8373
+outputTokens: 1013
+totalTokens: 9386
+processingTimeMs: 34847

@@ -1,0 +1,57 @@
+videoId: gBYxqxEHT4g
+title: "Azure DevOps Engineer Exam: Question 10"
+description: >-
+  Parallel Cross-Platform Testing! 💻 #shorts
+
+
+  Goal: Run tests on Windows, Linux, and macOS simultaneously to slash pipeline
+  duration.
+
+
+  The Solution: Parallel Jobs 🎯
+
+
+  - The Win: Use Parallel Jobs with different agent pools.
+
+
+  - How it Works: Define a strategy: matrix in YAML to target specific pools
+  (e.g., windows-latest, ubuntu-latest).
+
+
+  - The Result: Total platform validation in the time it takes for a single run.
+
+
+  Why not others?
+
+
+  - Single Agent: Slow; runs sequentially only.
+
+
+  - Classic Builds: Inflexible compared to YAML.
+
+
+  - No Jobs: Invalid; YAML requires jobs to execute.
+
+
+  Exam Tip: For AZ-400, ""multi-platform + parallel"" = Parallel Jobs with
+  Matrix. 🚀
+
+
+  #AZ400 #AzureDevOps #CICD #ParallelTesting #DevOps #Automation #TechTips
+  #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M1S
+publishedAt: 2026-03-09T12:59:51Z
+thumbnailUrl: https://i.ytimg.com/vi/gBYxqxEHT4g/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=gBYxqxEHT4g
+processedAt: 2026-03-10T13:59:00.783Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1678
+outputTokens: 493
+totalTokens: 2171
+processingTimeMs: 17461

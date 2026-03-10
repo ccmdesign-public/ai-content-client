@@ -1,0 +1,52 @@
+videoId: HArvXvpx-EM
+title: "Azure DevOps Engineer Exam: Question 7"
+description: >-
+  Azure App Service: Zero-Downtime Swaps! 🏗️
+
+
+  The Challenge: Update a web app in Azure App Service with Zero Downtime.
+
+
+  The Failures:
+
+  - FTP/Direct Push: Overwrites files live—risks ""broken states.""
+
+  - Single-Stage Pipeline: No safety net; if the build is bad, the site goes
+  down.
+
+  - Restarting: Causes a guaranteed outage.
+
+
+  The Win: Deployment Slots 🎯
+
+  - The Strategy: Deploy to a Staging Slot first.
+
+  - Warm-up: Validate the app in the staging environment while production stays
+  live.
+
+  - The Swap: Perform a Slot Swap. Azure reroutes traffic instantly—no downtime,
+  no sweat.
+
+
+  Exam Tip: For AZ-400, ""Zero Downtime"" for Azure App Service always equals
+  Deployment Slots + Swap. 🚀
+
+
+  #AZ400 #Azure #DevOps #AppService #CloudComputing #ZeroDowntime #CICD
+  #TechTips #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M7S
+publishedAt: 2026-03-07T11:18:05Z
+thumbnailUrl: https://i.ytimg.com/vi/HArvXvpx-EM/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=HArvXvpx-EM
+processedAt: 2026-03-10T14:03:22.338Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1694
+outputTokens: 656
+totalTokens: 2350
+processingTimeMs: 22824

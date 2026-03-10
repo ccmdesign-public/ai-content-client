@@ -1,0 +1,649 @@
+{
+  "videoId": "Fgpf3-gv7Tk",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.629,
+      "duration": 0.010000000000000231,
+      "text": "How do you make one component accessible"
+    },
+    {
+      "start": 2.6390000000000002,
+      "duration": 2.471,
+      "text": "How do you make one component accessible by another? Say for example, how do you"
+    },
+    {
+      "start": 5.11,
+      "duration": 0.009999999999999787,
+      "text": "by another? Say for example, how do you"
+    },
+    {
+      "start": 5.12,
+      "duration": 2.4699999999999998,
+      "text": "by another? Say for example, how do you make the Reddis database accessible by"
+    },
+    {
+      "start": 7.59,
+      "duration": 0.009999999999999787,
+      "text": "make the Reddis database accessible by"
+    },
+    {
+      "start": 7.6,
+      "duration": 3.109,
+      "text": "make the Reddis database accessible by the voting app? Should the voting app uh"
+    },
+    {
+      "start": 10.709,
+      "duration": 0.009999999999999787,
+      "text": "the voting app? Should the voting app uh"
+    },
+    {
+      "start": 10.719,
+      "duration": 2.551,
+      "text": "the voting app? Should the voting app uh use the IP address of the Reddis pod"
+    },
+    {
+      "start": 13.27,
+      "duration": 0.009999999999999787,
+      "text": "use the IP address of the Reddis pod"
+    },
+    {
+      "start": 13.28,
+      "duration": 3.110000000000001,
+      "text": "use the IP address of the Reddis pod perhaps? No, because that can change the"
+    },
+    {
+      "start": 16.39,
+      "duration": 0.00999999999999801,
+      "text": "perhaps? No, because that can change the"
+    },
+    {
+      "start": 16.4,
+      "duration": 1.990000000000002,
+      "text": "perhaps? No, because that can change the IP of the pod can change if the pod"
+    },
+    {
+      "start": 18.39,
+      "duration": 0.00999999999999801,
+      "text": "IP of the pod can change if the pod"
+    },
+    {
+      "start": 18.4,
+      "duration": 2.9490000000000016,
+      "text": "IP of the pod can change if the pod restarts and you may also run into"
+    },
+    {
+      "start": 21.349,
+      "duration": 0.010000000000001563,
+      "text": "restarts and you may also run into"
+    },
+    {
+      "start": 21.359,
+      "duration": 1.9099999999999966,
+      "text": "restarts and you may also run into issues when you try to scale your"
+    },
+    {
+      "start": 23.269,
+      "duration": 0.010000000000001563,
+      "text": "issues when you try to scale your"
+    },
+    {
+      "start": 23.279,
+      "duration": 2.7109999999999985,
+      "text": "issues when you try to scale your applications in the future. The right"
+    },
+    {
+      "start": 25.99,
+      "duration": 0.010000000000001563,
+      "text": "applications in the future. The right"
+    },
+    {
+      "start": 26,
+      "duration": 3.189,
+      "text": "applications in the future. The right way to do it is to use a service. Now we"
+    },
+    {
+      "start": 29.189,
+      "duration": 0.010000000000001563,
+      "text": "way to do it is to use a service. Now we"
+    },
+    {
+      "start": 29.199,
+      "duration": 2.3099999999999987,
+      "text": "way to do it is to use a service. Now we learned that a service can be used to"
+    },
+    {
+      "start": 31.509,
+      "duration": 0.00999999999999801,
+      "text": "learned that a service can be used to"
+    },
+    {
+      "start": 31.519,
+      "duration": 1.831000000000003,
+      "text": "learned that a service can be used to expose an application to other"
+    },
+    {
+      "start": 33.35,
+      "duration": 0.00999999999999801,
+      "text": "expose an application to other"
+    },
+    {
+      "start": 33.36,
+      "duration": 2.3900000000000006,
+      "text": "expose an application to other applications or users for external"
+    },
+    {
+      "start": 35.75,
+      "duration": 0.00999999999999801,
+      "text": "applications or users for external"
+    },
+    {
+      "start": 35.76,
+      "duration": 3.030000000000001,
+      "text": "applications or users for external access. So we will create a service for"
+    },
+    {
+      "start": 38.79,
+      "duration": 0.00999999999999801,
+      "text": "access. So we will create a service for"
+    },
+    {
+      "start": 38.8,
+      "duration": 2.6300000000000026,
+      "text": "access. So we will create a service for the radius pod so that it can be"
+    },
+    {
+      "start": 41.43,
+      "duration": 0.00999999999999801,
+      "text": "the radius pod so that it can be"
+    },
+    {
+      "start": 41.44,
+      "duration": 1.9100000000000037,
+      "text": "the radius pod so that it can be accessed by the voting app and the"
+    },
+    {
+      "start": 43.35,
+      "duration": 0.00999999999999801,
+      "text": "accessed by the voting app and the"
+    },
+    {
+      "start": 43.36,
+      "duration": 2.950000000000003,
+      "text": "accessed by the voting app and the worker app and we will call it a radius"
+    },
+    {
+      "start": 46.31,
+      "duration": 0.00999999999999801,
+      "text": "worker app and we will call it a radius"
+    },
+    {
+      "start": 46.32,
+      "duration": 2.1499999999999986,
+      "text": "worker app and we will call it a radius service and it will be accessible"
+    },
+    {
+      "start": 48.47,
+      "duration": 0.00999999999999801,
+      "text": "service and it will be accessible"
+    },
+    {
+      "start": 48.48,
+      "duration": 2.3100000000000023,
+      "text": "service and it will be accessible anywhere within the cluster by the name"
+    },
+    {
+      "start": 50.79,
+      "duration": 0.00999999999999801,
+      "text": "anywhere within the cluster by the name"
+    },
+    {
+      "start": 50.8,
+      "duration": 3.1099999999999994,
+      "text": "anywhere within the cluster by the name of the service reddis. So why is that"
+    },
+    {
+      "start": 53.91,
+      "duration": 0.010000000000005116,
+      "text": "of the service reddis. So why is that"
+    },
+    {
+      "start": 53.92,
+      "duration": 2.948999999999998,
+      "text": "of the service reddis. So why is that name important? [snorts] The source code"
+    },
+    {
+      "start": 56.869,
+      "duration": 0.00999999999999801,
+      "text": "name important? [snorts] The source code"
+    },
+    {
+      "start": 56.879,
+      "duration": 2.469999999999999,
+      "text": "name important? [snorts] The source code uh within the voting app and the worker"
+    },
+    {
+      "start": 59.349,
+      "duration": 0.010000000000005116,
+      "text": "uh within the voting app and the worker"
+    },
+    {
+      "start": 59.359,
+      "duration": 4.550999999999995,
+      "text": "uh within the voting app and the worker app are hardcoded to point to a radius"
+    },
+    {
+      "start": 63.91,
+      "duration": 0.010000000000005116,
+      "text": "app are hardcoded to point to a radius"
+    },
+    {
+      "start": 63.92,
+      "duration": 3.1099999999999994,
+      "text": "app are hardcoded to point to a radius database running on a host by the name"
+    },
+    {
+      "start": 67.03,
+      "duration": 0.010000000000005116,
+      "text": "database running on a host by the name"
+    },
+    {
+      "start": 67.04,
+      "duration": 3.589999999999989,
+      "text": "database running on a host by the name Reddis. So it's important to name your"
+    },
+    {
+      "start": 70.63,
+      "duration": 0.010000000000005116,
+      "text": "Reddis. So it's important to name your"
+    },
+    {
+      "start": 70.64,
+      "duration": 1.9099999999999966,
+      "text": "Reddis. So it's important to name your service as Reddis so that these"
+    },
+    {
+      "start": 72.55,
+      "duration": 0.010000000000005116,
+      "text": "service as Reddis so that these"
+    },
+    {
+      "start": 72.56,
+      "duration": 1.75,
+      "text": "service as Reddis so that these applications can connect to the Reddis"
+    },
+    {
+      "start": 74.31,
+      "duration": 0.009999999999990905,
+      "text": "applications can connect to the Reddis"
+    },
+    {
+      "start": 74.32,
+      "duration": 2.230000000000004,
+      "text": "applications can connect to the Reddis database. And this is not a a best"
+    },
+    {
+      "start": 76.55,
+      "duration": 0.010000000000005116,
+      "text": "database. And this is not a a best"
+    },
+    {
+      "start": 76.56,
+      "duration": 2.469999999999999,
+      "text": "database. And this is not a a best practice to hardcode stuff like this uh"
+    },
+    {
+      "start": 79.03,
+      "duration": 0.010000000000005116,
+      "text": "practice to hardcode stuff like this uh"
+    },
+    {
+      "start": 79.04,
+      "duration": 1.509999999999991,
+      "text": "practice to hardcode stuff like this uh within the source code of an"
+    },
+    {
+      "start": 80.55,
+      "duration": 0.010000000000005116,
+      "text": "within the source code of an"
+    },
+    {
+      "start": 80.56,
+      "duration": 1.9089999999999918,
+      "text": "within the source code of an application. Instead, you should be"
+    },
+    {
+      "start": 82.469,
+      "duration": 0.010000000000005116,
+      "text": "application. Instead, you should be"
+    },
+    {
+      "start": 82.479,
+      "duration": 1.831000000000003,
+      "text": "application. Instead, you should be using environment variables or"
+    },
+    {
+      "start": 84.31,
+      "duration": 0.009999999999990905,
+      "text": "using environment variables or"
+    },
+    {
+      "start": 84.32,
+      "duration": 1.5100000000000051,
+      "text": "using environment variables or something. But for the sake of"
+    },
+    {
+      "start": 85.83,
+      "duration": 0.010000000000005116,
+      "text": "something. But for the sake of"
+    },
+    {
+      "start": 85.84,
+      "duration": 3.030000000000001,
+      "text": "something. But for the sake of simplicity, we will just follow um this"
+    },
+    {
+      "start": 88.87,
+      "duration": 0.009999999999990905,
+      "text": "simplicity, we will just follow um this"
+    },
+    {
+      "start": 88.88,
+      "duration": 2.5490000000000066,
+      "text": "simplicity, we will just follow um this application uh as it is developed."
+    },
+    {
+      "start": 91.429,
+      "duration": 0.009999999999990905,
+      "text": "application uh as it is developed."
+    },
+    {
+      "start": 91.439,
+      "duration": 4.071000000000012,
+      "text": "application uh as it is developed. Right? Now these uh services are not to"
+    },
+    {
+      "start": 95.51,
+      "duration": 0.009999999999990905,
+      "text": "Right? Now these uh services are not to"
+    },
+    {
+      "start": 95.52,
+      "duration": 3.1099999999999994,
+      "text": "Right? Now these uh services are not to be accessed outside the cluster. So um"
+    },
+    {
+      "start": 98.63,
+      "duration": 0.010000000000005116,
+      "text": "be accessed outside the cluster. So um"
+    },
+    {
+      "start": 98.64,
+      "duration": 2.8700000000000045,
+      "text": "be accessed outside the cluster. So um they should just be of type cluster IP."
+    },
+    {
+      "start": 101.51,
+      "duration": 0.009999999999990905,
+      "text": "they should just be of type cluster IP."
+    },
+    {
+      "start": 101.52,
+      "duration": 2.469999999999999,
+      "text": "they should just be of type cluster IP. So we will follow the the same approach"
+    },
+    {
+      "start": 103.99,
+      "duration": 0.010000000000005116,
+      "text": "So we will follow the the same approach"
+    },
+    {
+      "start": 104,
+      "duration": 3.3499999999999943,
+      "text": "So we will follow the the same approach of creating a service for the Postgrql"
+    },
+    {
+      "start": 107.35,
+      "duration": 0.010000000000005116,
+      "text": "of creating a service for the Postgrql"
+    },
+    {
+      "start": 107.36,
+      "duration": 3.3499999999999943,
+      "text": "of creating a service for the Postgrql pod so that the Postgrsql DB can be"
+    },
+    {
+      "start": 110.71,
+      "duration": 0.010000000000005116,
+      "text": "pod so that the Postgrsql DB can be"
+    },
+    {
+      "start": 110.72,
+      "duration": 2.6299999999999955,
+      "text": "pod so that the Postgrsql DB can be accessed by the worker and the result"
+    },
+    {
+      "start": 113.35,
+      "duration": 0.010000000000005116,
+      "text": "accessed by the worker and the result"
+    },
+    {
+      "start": 113.36,
+      "duration": 2.709000000000003,
+      "text": "accessed by the worker and the result app. So what should uh we name the"
+    },
+    {
+      "start": 116.069,
+      "duration": 0.009999999999990905,
+      "text": "app. So what should uh we name the"
+    },
+    {
+      "start": 116.079,
+      "duration": 2.710000000000008,
+      "text": "app. So what should uh we name the PostgreSQL service? If you look at the"
+    },
+    {
+      "start": 118.789,
+      "duration": 0.010000000000005116,
+      "text": "PostgreSQL service? If you look at the"
+    },
+    {
+      "start": 118.799,
+      "duration": 2.2309999999999945,
+      "text": "PostgreSQL service? If you look at the source code of the result app and the"
+    },
+    {
+      "start": 121.03,
+      "duration": 0.010000000000005116,
+      "text": "source code of the result app and the"
+    },
+    {
+      "start": 121.04,
+      "duration": 2.6299999999999955,
+      "text": "source code of the result app and the worker app, you will see that they are"
+    },
+    {
+      "start": 123.67,
+      "duration": 0.010000000000005116,
+      "text": "worker app, you will see that they are"
+    },
+    {
+      "start": 123.68,
+      "duration": 2.549999999999997,
+      "text": "worker app, you will see that they are looking for a database at the address"
+    },
+    {
+      "start": 126.23,
+      "duration": 0.009999999999990905,
+      "text": "looking for a database at the address"
+    },
+    {
+      "start": 126.24,
+      "duration": 3.3490000000000038,
+      "text": "looking for a database at the address DB. So the service that we create for uh"
+    },
+    {
+      "start": 129.589,
+      "duration": 0.009999999999990905,
+      "text": "DB. So the service that we create for uh"
+    },
+    {
+      "start": 129.599,
+      "duration": 4.471000000000004,
+      "text": "DB. So the service that we create for uh Postgrql should be named DB. Also note"
+    },
+    {
+      "start": 134.07,
+      "duration": 0.010000000000019327,
+      "text": "Postgrql should be named DB. Also note"
+    },
+    {
+      "start": 134.08,
+      "duration": 2.069999999999993,
+      "text": "Postgrql should be named DB. Also note that uh while connecting to the database"
+    },
+    {
+      "start": 136.15,
+      "duration": 0.009999999999990905,
+      "text": "that uh while connecting to the database"
+    },
+    {
+      "start": 136.16,
+      "duration": 2.469999999999999,
+      "text": "that uh while connecting to the database the worker and the result apps uh pass"
+    },
+    {
+      "start": 138.63,
+      "duration": 0.009999999999990905,
+      "text": "the worker and the result apps uh pass"
+    },
+    {
+      "start": 138.64,
+      "duration": 3.030000000000001,
+      "text": "the worker and the result apps uh pass in a username and password to connect to"
+    },
+    {
+      "start": 141.67,
+      "duration": 0.010000000000019327,
+      "text": "in a username and password to connect to"
+    },
+    {
+      "start": 141.68,
+      "duration": 2.9499999999999886,
+      "text": "in a username and password to connect to the database both of which are set to"
+    },
+    {
+      "start": 144.63,
+      "duration": 0.009999999999990905,
+      "text": "the database both of which are set to"
+    },
+    {
+      "start": 144.64,
+      "duration": 2.2290000000000134,
+      "text": "the database both of which are set to posgress. So when we deploy the the"
+    },
+    {
+      "start": 146.869,
+      "duration": 0.009999999999990905,
+      "text": "posgress. So when we deploy the the"
+    },
+    {
+      "start": 146.879,
+      "duration": 3.1910000000000025,
+      "text": "posgress. So when we deploy the the posgress DB pod we must make sure that"
+    },
+    {
+      "start": 150.07,
+      "duration": 0.010000000000019327,
+      "text": "posgress DB pod we must make sure that"
+    },
+    {
+      "start": 150.08,
+      "duration": 3.4289999999999736,
+      "text": "posgress DB pod we must make sure that we set the these credentials um for it"
+    },
+    {
+      "start": 153.509,
+      "duration": 0.010000000000019327,
+      "text": "we set the these credentials um for it"
+    },
+    {
+      "start": 153.519,
+      "duration": 2.2309999999999945,
+      "text": "we set the these credentials um for it as the initial set of credentials to"
+    },
+    {
+      "start": 155.75,
+      "duration": 0.009999999999990905,
+      "text": "as the initial set of credentials to"
+    },
+    {
+      "start": 155.76,
+      "duration": 3.030000000000001,
+      "text": "as the initial set of credentials to while creating the database. Now the"
+    },
+    {
+      "start": 158.79,
+      "duration": 0.010000000000019327,
+      "text": "while creating the database. Now the"
+    },
+    {
+      "start": 158.8,
+      "duration": 3.6699999999999875,
+      "text": "while creating the database. Now the next task is to enable external access."
+    },
+    {
+      "start": 162.47,
+      "duration": 0.009999999999990905,
+      "text": "next task is to enable external access."
+    },
+    {
+      "start": 162.48,
+      "duration": 2.7900000000000205,
+      "text": "next task is to enable external access. So for this um we saw that we could use"
+    },
+    {
+      "start": 165.27,
+      "duration": 0.009999999999990905,
+      "text": "So for this um we saw that we could use"
+    },
+    {
+      "start": 165.28,
+      "duration": 2.8700000000000045,
+      "text": "So for this um we saw that we could use a service with a type set to node port."
+    },
+    {
+      "start": 168.15,
+      "duration": 0.009999999999990905,
+      "text": "a service with a type set to node port."
+    },
+    {
+      "start": 168.16,
+      "duration": 2.8700000000000045,
+      "text": "a service with a type set to node port. So we create uh services for voting app"
+    },
+    {
+      "start": 171.03,
+      "duration": 0.009999999999990905,
+      "text": "So we create uh services for voting app"
+    },
+    {
+      "start": 171.04,
+      "duration": 3.75,
+      "text": "So we create uh services for voting app and the result app and set their type to"
+    },
+    {
+      "start": 174.79,
+      "duration": 0.010000000000019327,
+      "text": "and the result app and set their type to"
+    },
+    {
+      "start": 174.8,
+      "duration": 2.6399999999999864,
+      "text": "and the result app and set their type to uh node"
+    }
+  ],
+  "fullText": "How do you make one component accessible How do you make one component accessible by another? Say for example, how do you by another? Say for example, how do you by another? Say for example, how do you make the Reddis database accessible by make the Reddis database accessible by make the Reddis database accessible by the voting app? Should the voting app uh the voting app? Should the voting app uh the voting app? Should the voting app uh use the IP address of the Reddis pod use the IP address of the Reddis pod use the IP address of the Reddis pod perhaps? No, because that can change the perhaps? No, because that can change the perhaps? No, because that can change the IP of the pod can change if the pod IP of the pod can change if the pod IP of the pod can change if the pod restarts and you may also run into restarts and you may also run into restarts and you may also run into issues when you try to scale your issues when you try to scale your issues when you try to scale your applications in the future. The right applications in the future. The right applications in the future. The right way to do it is to use a service. Now we way to do it is to use a service. Now we way to do it is to use a service. Now we learned that a service can be used to learned that a service can be used to learned that a service can be used to expose an application to other expose an application to other expose an application to other applications or users for external applications or users for external applications or users for external access. So we will create a service for access. So we will create a service for access. So we will create a service for the radius pod so that it can be the radius pod so that it can be the radius pod so that it can be accessed by the voting app and the accessed by the voting app and the accessed by the voting app and the worker app and we will call it a radius worker app and we will call it a radius worker app and we will call it a radius service and it will be accessible service and it will be accessible service and it will be accessible anywhere within the cluster by the name anywhere within the cluster by the name anywhere within the cluster by the name of the service reddis. So why is that of the service reddis. So why is that of the service reddis. So why is that name important? [snorts] The source code name important? [snorts] The source code name important? [snorts] The source code uh within the voting app and the worker uh within the voting app and the worker uh within the voting app and the worker app are hardcoded to point to a radius app are hardcoded to point to a radius app are hardcoded to point to a radius database running on a host by the name database running on a host by the name database running on a host by the name Reddis. So it's important to name your Reddis. So it's important to name your Reddis. So it's important to name your service as Reddis so that these service as Reddis so that these service as Reddis so that these applications can connect to the Reddis applications can connect to the Reddis applications can connect to the Reddis database. And this is not a a best database. And this is not a a best database. And this is not a a best practice to hardcode stuff like this uh practice to hardcode stuff like this uh practice to hardcode stuff like this uh within the source code of an within the source code of an within the source code of an application. Instead, you should be application. Instead, you should be application. Instead, you should be using environment variables or using environment variables or using environment variables or something. But for the sake of something. But for the sake of something. But for the sake of simplicity, we will just follow um this simplicity, we will just follow um this simplicity, we will just follow um this application uh as it is developed. application uh as it is developed. application uh as it is developed. Right? Now these uh services are not to Right? Now these uh services are not to Right? Now these uh services are not to be accessed outside the cluster. So um be accessed outside the cluster. So um be accessed outside the cluster. So um they should just be of type cluster IP. they should just be of type cluster IP. they should just be of type cluster IP. So we will follow the the same approach So we will follow the the same approach So we will follow the the same approach of creating a service for the Postgrql of creating a service for the Postgrql of creating a service for the Postgrql pod so that the Postgrsql DB can be pod so that the Postgrsql DB can be pod so that the Postgrsql DB can be accessed by the worker and the result accessed by the worker and the result accessed by the worker and the result app. So what should uh we name the app. So what should uh we name the app. So what should uh we name the PostgreSQL service? If you look at the PostgreSQL service? If you look at the PostgreSQL service? If you look at the source code of the result app and the source code of the result app and the source code of the result app and the worker app, you will see that they are worker app, you will see that they are worker app, you will see that they are looking for a database at the address looking for a database at the address looking for a database at the address DB. So the service that we create for uh DB. So the service that we create for uh DB. So the service that we create for uh Postgrql should be named DB. Also note Postgrql should be named DB. Also note Postgrql should be named DB. Also note that uh while connecting to the database that uh while connecting to the database that uh while connecting to the database the worker and the result apps uh pass the worker and the result apps uh pass the worker and the result apps uh pass in a username and password to connect to in a username and password to connect to in a username and password to connect to the database both of which are set to the database both of which are set to the database both of which are set to posgress. So when we deploy the the posgress. So when we deploy the the posgress. So when we deploy the the posgress DB pod we must make sure that posgress DB pod we must make sure that posgress DB pod we must make sure that we set the these credentials um for it we set the these credentials um for it we set the these credentials um for it as the initial set of credentials to as the initial set of credentials to as the initial set of credentials to while creating the database. Now the while creating the database. Now the while creating the database. Now the next task is to enable external access. next task is to enable external access. next task is to enable external access. So for this um we saw that we could use So for this um we saw that we could use So for this um we saw that we could use a service with a type set to node port. a service with a type set to node port. a service with a type set to node port. So we create uh services for voting app So we create uh services for voting app So we create uh services for voting app and the result app and set their type to and the result app and set their type to and the result app and set their type to uh node",
+  "fetchedAt": "2026-03-10T13:56:41.815Z"
+}

@@ -1,0 +1,609 @@
+{
+  "videoId": "2dfPRLCKVBE",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.629,
+      "duration": 0.010000000000000231,
+      "text": "The containers are encapsulated into a"
+    },
+    {
+      "start": 2.6390000000000002,
+      "duration": 4.1499999999999995,
+      "text": "The containers are encapsulated into a Kubernetes object known as pods. A pod"
+    },
+    {
+      "start": 6.789,
+      "duration": 0.010000000000000675,
+      "text": "Kubernetes object known as pods. A pod"
+    },
+    {
+      "start": 6.799,
+      "duration": 2.5509999999999993,
+      "text": "Kubernetes object known as pods. A pod is a single instance of an application."
+    },
+    {
+      "start": 9.35,
+      "duration": 0.009999999999999787,
+      "text": "is a single instance of an application."
+    },
+    {
+      "start": 9.36,
+      "duration": 2.630000000000001,
+      "text": "is a single instance of an application. A pod is the smallest object that you"
+    },
+    {
+      "start": 11.99,
+      "duration": 0.009999999999999787,
+      "text": "A pod is the smallest object that you"
+    },
+    {
+      "start": 12,
+      "duration": 2.3100000000000005,
+      "text": "A pod is the smallest object that you can create in Kubernetes. So what"
+    },
+    {
+      "start": 14.31,
+      "duration": 0.009999999999999787,
+      "text": "can create in Kubernetes. So what"
+    },
+    {
+      "start": 14.32,
+      "duration": 2.7890000000000015,
+      "text": "can create in Kubernetes. So what happens when you want to scale it up? Do"
+    },
+    {
+      "start": 17.109,
+      "duration": 0.00999999999999801,
+      "text": "happens when you want to scale it up? Do"
+    },
+    {
+      "start": 17.119,
+      "duration": 4.791,
+      "text": "happens when you want to scale it up? Do you add more containers to the pod? No,"
+    },
+    {
+      "start": 21.91,
+      "duration": 0.010000000000001563,
+      "text": "you add more containers to the pod? No,"
+    },
+    {
+      "start": 21.92,
+      "duration": 3.508999999999997,
+      "text": "you add more containers to the pod? No, you create more pods. Typically an"
+    },
+    {
+      "start": 25.429,
+      "duration": 0.010000000000001563,
+      "text": "you create more pods. Typically an"
+    },
+    {
+      "start": 25.439,
+      "duration": 1.9899999999999984,
+      "text": "you create more pods. Typically an application instance running as a"
+    },
+    {
+      "start": 27.429,
+      "duration": 0.010000000000001563,
+      "text": "application instance running as a"
+    },
+    {
+      "start": 27.439,
+      "duration": 2.3909999999999982,
+      "text": "application instance running as a container has a onetoone relationship"
+    },
+    {
+      "start": 29.83,
+      "duration": 0.010000000000001563,
+      "text": "container has a onetoone relationship"
+    },
+    {
+      "start": 29.84,
+      "duration": 3.349999999999998,
+      "text": "container has a onetoone relationship with a pod. To create more instances of"
+    },
+    {
+      "start": 33.19,
+      "duration": 0.010000000000005116,
+      "text": "with a pod. To create more instances of"
+    },
+    {
+      "start": 33.2,
+      "duration": 3.269999999999996,
+      "text": "with a pod. To create more instances of application, you create more pods."
+    },
+    {
+      "start": 36.47,
+      "duration": 0.00999999999999801,
+      "text": "application, you create more pods."
+    },
+    {
+      "start": 36.48,
+      "duration": 2.389000000000003,
+      "text": "application, you create more pods. However, the onetoone relationship is"
+    },
+    {
+      "start": 38.869,
+      "duration": 0.00999999999999801,
+      "text": "However, the onetoone relationship is"
+    },
+    {
+      "start": 38.879,
+      "duration": 2.871000000000002,
+      "text": "However, the onetoone relationship is not a strict rule. It is a common"
+    },
+    {
+      "start": 41.75,
+      "duration": 0.00999999999999801,
+      "text": "not a strict rule. It is a common"
+    },
+    {
+      "start": 41.76,
+      "duration": 2.469000000000001,
+      "text": "not a strict rule. It is a common practice to have a helper container or a"
+    },
+    {
+      "start": 44.229,
+      "duration": 0.00999999999999801,
+      "text": "practice to have a helper container or a"
+    },
+    {
+      "start": 44.239,
+      "duration": 2.3910000000000053,
+      "text": "practice to have a helper container or a sidecar container as it's also known"
+    },
+    {
+      "start": 46.63,
+      "duration": 0.00999999999999801,
+      "text": "sidecar container as it's also known"
+    },
+    {
+      "start": 46.64,
+      "duration": 2.0690000000000026,
+      "text": "sidecar container as it's also known along with the main application. This"
+    },
+    {
+      "start": 48.709,
+      "duration": 0.00999999999999801,
+      "text": "along with the main application. This"
+    },
+    {
+      "start": 48.719,
+      "duration": 2.1499999999999986,
+      "text": "along with the main application. This could be an agent that collects logs or"
+    },
+    {
+      "start": 50.869,
+      "duration": 0.00999999999999801,
+      "text": "could be an agent that collects logs or"
+    },
+    {
+      "start": 50.879,
+      "duration": 2.1500000000000057,
+      "text": "could be an agent that collects logs or monitors the application and reports to"
+    },
+    {
+      "start": 53.029,
+      "duration": 0.00999999999999801,
+      "text": "monitors the application and reports to"
+    },
+    {
+      "start": 53.039,
+      "duration": 2.070999999999998,
+      "text": "monitors the application and reports to a third party and that's absolutely"
+    },
+    {
+      "start": 55.11,
+      "duration": 0.00999999999999801,
+      "text": "a third party and that's absolutely"
+    },
+    {
+      "start": 55.12,
+      "duration": 2.1500000000000057,
+      "text": "a third party and that's absolutely fine. Let us now look at how to create"
+    },
+    {
+      "start": 57.27,
+      "duration": 0.00999999999999801,
+      "text": "fine. Let us now look at how to create"
+    },
+    {
+      "start": 57.28,
+      "duration": 2.549999999999997,
+      "text": "fine. Let us now look at how to create pods. For this we run the cube control"
+    },
+    {
+      "start": 59.83,
+      "duration": 0.010000000000005116,
+      "text": "pods. For this we run the cube control"
+    },
+    {
+      "start": 59.84,
+      "duration": 2.6299999999999955,
+      "text": "pods. For this we run the cube control run command. We specify a name for the"
+    },
+    {
+      "start": 62.47,
+      "duration": 0.00999999999999801,
+      "text": "run command. We specify a name for the"
+    },
+    {
+      "start": 62.48,
+      "duration": 1.9889999999999972,
+      "text": "run command. We specify a name for the pod and the image to be used to create"
+    },
+    {
+      "start": 64.469,
+      "duration": 0.010000000000005116,
+      "text": "pod and the image to be used to create"
+    },
+    {
+      "start": 64.479,
+      "duration": 2.4710000000000036,
+      "text": "pod and the image to be used to create the pod. What this command really does"
+    },
+    {
+      "start": 66.95,
+      "duration": 0.009999999999990905,
+      "text": "the pod. What this command really does"
+    },
+    {
+      "start": 66.96,
+      "duration": 2.3900000000000006,
+      "text": "the pod. What this command really does is it deploys a container by creating a"
+    },
+    {
+      "start": 69.35,
+      "duration": 0.010000000000005116,
+      "text": "is it deploys a container by creating a"
+    },
+    {
+      "start": 69.36,
+      "duration": 1.9099999999999966,
+      "text": "is it deploys a container by creating a pod. So it first creates a pod"
+    },
+    {
+      "start": 71.27,
+      "duration": 0.010000000000005116,
+      "text": "pod. So it first creates a pod"
+    },
+    {
+      "start": 71.28,
+      "duration": 1.75,
+      "text": "pod. So it first creates a pod automatically and deploys an instance of"
+    },
+    {
+      "start": 73.03,
+      "duration": 0.010000000000005116,
+      "text": "automatically and deploys an instance of"
+    },
+    {
+      "start": 73.04,
+      "duration": 2.2299999999999898,
+      "text": "automatically and deploys an instance of the enginex docker image. But where does"
+    },
+    {
+      "start": 75.27,
+      "duration": 0.010000000000005116,
+      "text": "the enginex docker image. But where does"
+    },
+    {
+      "start": 75.28,
+      "duration": 2.468999999999994,
+      "text": "the enginex docker image. But where does it get the application image from? For"
+    },
+    {
+      "start": 77.749,
+      "duration": 0.010000000000005116,
+      "text": "it get the application image from? For"
+    },
+    {
+      "start": 77.759,
+      "duration": 2.4710000000000036,
+      "text": "it get the application image from? For that you need to specify the image name"
+    },
+    {
+      "start": 80.23,
+      "duration": 0.009999999999990905,
+      "text": "that you need to specify the image name"
+    },
+    {
+      "start": 80.24,
+      "duration": 2.7900000000000063,
+      "text": "that you need to specify the image name using the image parameter like this. The"
+    },
+    {
+      "start": 83.03,
+      "duration": 0.010000000000005116,
+      "text": "using the image parameter like this. The"
+    },
+    {
+      "start": 83.04,
+      "duration": 2.2299999999999898,
+      "text": "using the image parameter like this. The application image in this case the"
+    },
+    {
+      "start": 85.27,
+      "duration": 0.010000000000005116,
+      "text": "application image in this case the"
+    },
+    {
+      "start": 85.28,
+      "duration": 2.069999999999993,
+      "text": "application image in this case the enginex image is downloaded from"
+    },
+    {
+      "start": 87.35,
+      "duration": 0.010000000000005116,
+      "text": "enginex image is downloaded from"
+    },
+    {
+      "start": 87.36,
+      "duration": 2.7099999999999937,
+      "text": "enginex image is downloaded from dockerhub repository. Dockerhub is a"
+    },
+    {
+      "start": 90.07,
+      "duration": 0.010000000000005116,
+      "text": "dockerhub repository. Dockerhub is a"
+    },
+    {
+      "start": 90.08,
+      "duration": 2.0690000000000026,
+      "text": "dockerhub repository. Dockerhub is a public repository where latest docker"
+    },
+    {
+      "start": 92.149,
+      "duration": 0.010000000000005116,
+      "text": "public repository where latest docker"
+    },
+    {
+      "start": 92.159,
+      "duration": 1.7509999999999906,
+      "text": "public repository where latest docker images of various applications are"
+    },
+    {
+      "start": 93.91,
+      "duration": 0.010000000000005116,
+      "text": "images of various applications are"
+    },
+    {
+      "start": 93.92,
+      "duration": 2.3900000000000006,
+      "text": "images of various applications are stored. You could configure kubernetes"
+    },
+    {
+      "start": 96.31,
+      "duration": 0.009999999999990905,
+      "text": "stored. You could configure kubernetes"
+    },
+    {
+      "start": 96.32,
+      "duration": 2.8700000000000045,
+      "text": "stored. You could configure kubernetes to pull the image from public dockerhub"
+    },
+    {
+      "start": 99.19,
+      "duration": 0.010000000000005116,
+      "text": "to pull the image from public dockerhub"
+    },
+    {
+      "start": 99.2,
+      "duration": 1.6700000000000017,
+      "text": "to pull the image from public dockerhub or a private repository within your"
+    },
+    {
+      "start": 100.87,
+      "duration": 0.009999999999990905,
+      "text": "or a private repository within your"
+    },
+    {
+      "start": 100.88,
+      "duration": 2.8689999999999998,
+      "text": "or a private repository within your organization. So now that we have a pod"
+    },
+    {
+      "start": 103.749,
+      "duration": 0.010000000000005116,
+      "text": "organization. So now that we have a pod"
+    },
+    {
+      "start": 103.759,
+      "duration": 2.7099999999999937,
+      "text": "organization. So now that we have a pod created, how do we see the list of pods"
+    },
+    {
+      "start": 106.469,
+      "duration": 0.010000000000005116,
+      "text": "created, how do we see the list of pods"
+    },
+    {
+      "start": 106.479,
+      "duration": 3.031000000000006,
+      "text": "created, how do we see the list of pods available? The cube control get pods"
+    },
+    {
+      "start": 109.51,
+      "duration": 0.009999999999990905,
+      "text": "available? The cube control get pods"
+    },
+    {
+      "start": 109.52,
+      "duration": 2.3900000000000006,
+      "text": "available? The cube control get pods command helps us see the list of pods in"
+    },
+    {
+      "start": 111.91,
+      "duration": 0.010000000000005116,
+      "text": "command helps us see the list of pods in"
+    },
+    {
+      "start": 111.92,
+      "duration": 1.5900000000000034,
+      "text": "command helps us see the list of pods in our cluster. In this case, we see the"
+    },
+    {
+      "start": 113.51,
+      "duration": 0.009999999999990905,
+      "text": "our cluster. In this case, we see the"
+    },
+    {
+      "start": 113.52,
+      "duration": 3.2690000000000055,
+      "text": "our cluster. In this case, we see the pod is in a container creating state and"
+    },
+    {
+      "start": 116.789,
+      "duration": 0.010000000000005116,
+      "text": "pod is in a container creating state and"
+    },
+    {
+      "start": 116.799,
+      "duration": 3.7509999999999906,
+      "text": "pod is in a container creating state and it soon changes to a running state when"
+    },
+    {
+      "start": 120.55,
+      "duration": 0.010000000000005116,
+      "text": "it soon changes to a running state when"
+    },
+    {
+      "start": 120.56,
+      "duration": 2.149000000000001,
+      "text": "it soon changes to a running state when the application is actually running."
+    },
+    {
+      "start": 122.709,
+      "duration": 0.009999999999990905,
+      "text": "the application is actually running."
+    },
+    {
+      "start": 122.719,
+      "duration": 1.9110000000000014,
+      "text": "the application is actually running. Also remember that we haven't really"
+    },
+    {
+      "start": 124.63,
+      "duration": 0.010000000000005116,
+      "text": "Also remember that we haven't really"
+    },
+    {
+      "start": 124.64,
+      "duration": 2.0690000000000026,
+      "text": "Also remember that we haven't really talked about the concepts on how a user"
+    },
+    {
+      "start": 126.709,
+      "duration": 0.009999999999990905,
+      "text": "talked about the concepts on how a user"
+    },
+    {
+      "start": 126.719,
+      "duration": 2.3100000000000023,
+      "text": "talked about the concepts on how a user can access the engineet web server. And"
+    },
+    {
+      "start": 129.029,
+      "duration": 0.009999999999990905,
+      "text": "can access the engineet web server. And"
+    },
+    {
+      "start": 129.039,
+      "duration": 1.8300000000000125,
+      "text": "can access the engineet web server. And so in the current state we haven't made"
+    },
+    {
+      "start": 130.869,
+      "duration": 0.009999999999990905,
+      "text": "so in the current state we haven't made"
+    },
+    {
+      "start": 130.879,
+      "duration": 1.6710000000000207,
+      "text": "so in the current state we haven't made the web server accessible to external"
+    },
+    {
+      "start": 132.55,
+      "duration": 0.009999999999990905,
+      "text": "the web server accessible to external"
+    },
+    {
+      "start": 132.56,
+      "duration": 2.1500000000000057,
+      "text": "the web server accessible to external users. You can access it internally from"
+    },
+    {
+      "start": 134.71,
+      "duration": 0.009999999999990905,
+      "text": "users. You can access it internally from"
+    },
+    {
+      "start": 134.72,
+      "duration": 2.149000000000001,
+      "text": "users. You can access it internally from the node. For now we will just see how"
+    },
+    {
+      "start": 136.869,
+      "duration": 0.009999999999990905,
+      "text": "the node. For now we will just see how"
+    },
+    {
+      "start": 136.879,
+      "duration": 2.1510000000000105,
+      "text": "the node. For now we will just see how to deploy a pod. And in the later"
+    },
+    {
+      "start": 139.03,
+      "duration": 0.009999999999990905,
+      "text": "to deploy a pod. And in the later"
+    },
+    {
+      "start": 139.04,
+      "duration": 1.8290000000000077,
+      "text": "to deploy a pod. And in the later lecture once we learn about networking"
+    },
+    {
+      "start": 140.869,
+      "duration": 0.009999999999990905,
+      "text": "lecture once we learn about networking"
+    },
+    {
+      "start": 140.879,
+      "duration": 1.8310000000000173,
+      "text": "lecture once we learn about networking and services we will get to know how to"
+    },
+    {
+      "start": 142.71,
+      "duration": 0.009999999999990905,
+      "text": "and services we will get to know how to"
+    },
+    {
+      "start": 142.72,
+      "duration": 2.069999999999993,
+      "text": "and services we will get to know how to make this service accessible to end"
+    },
+    {
+      "start": 144.79,
+      "duration": 0.010000000000019327,
+      "text": "make this service accessible to end"
+    },
+    {
+      "start": 144.8,
+      "duration": 2.549999999999983,
+      "text": "make this service accessible to end users. So that was the imperative way of"
+    },
+    {
+      "start": 147.35,
+      "duration": 0.010000000000019327,
+      "text": "users. So that was the imperative way of"
+    },
+    {
+      "start": 147.36,
+      "duration": 3.2799999999999727,
+      "text": "users. So that was the imperative way of creating an object in Kubernetes."
+    }
+  ],
+  "fullText": "The containers are encapsulated into a The containers are encapsulated into a Kubernetes object known as pods. A pod Kubernetes object known as pods. A pod Kubernetes object known as pods. A pod is a single instance of an application. is a single instance of an application. is a single instance of an application. A pod is the smallest object that you A pod is the smallest object that you A pod is the smallest object that you can create in Kubernetes. So what can create in Kubernetes. So what can create in Kubernetes. So what happens when you want to scale it up? Do happens when you want to scale it up? Do happens when you want to scale it up? Do you add more containers to the pod? No, you add more containers to the pod? No, you add more containers to the pod? No, you create more pods. Typically an you create more pods. Typically an you create more pods. Typically an application instance running as a application instance running as a application instance running as a container has a onetoone relationship container has a onetoone relationship container has a onetoone relationship with a pod. To create more instances of with a pod. To create more instances of with a pod. To create more instances of application, you create more pods. application, you create more pods. application, you create more pods. However, the onetoone relationship is However, the onetoone relationship is However, the onetoone relationship is not a strict rule. It is a common not a strict rule. It is a common not a strict rule. It is a common practice to have a helper container or a practice to have a helper container or a practice to have a helper container or a sidecar container as it's also known sidecar container as it's also known sidecar container as it's also known along with the main application. This along with the main application. This along with the main application. This could be an agent that collects logs or could be an agent that collects logs or could be an agent that collects logs or monitors the application and reports to monitors the application and reports to monitors the application and reports to a third party and that's absolutely a third party and that's absolutely a third party and that's absolutely fine. Let us now look at how to create fine. Let us now look at how to create fine. Let us now look at how to create pods. For this we run the cube control pods. For this we run the cube control pods. For this we run the cube control run command. We specify a name for the run command. We specify a name for the run command. We specify a name for the pod and the image to be used to create pod and the image to be used to create pod and the image to be used to create the pod. What this command really does the pod. What this command really does the pod. What this command really does is it deploys a container by creating a is it deploys a container by creating a is it deploys a container by creating a pod. So it first creates a pod pod. So it first creates a pod pod. So it first creates a pod automatically and deploys an instance of automatically and deploys an instance of automatically and deploys an instance of the enginex docker image. But where does the enginex docker image. But where does the enginex docker image. But where does it get the application image from? For it get the application image from? For it get the application image from? For that you need to specify the image name that you need to specify the image name that you need to specify the image name using the image parameter like this. The using the image parameter like this. The using the image parameter like this. The application image in this case the application image in this case the application image in this case the enginex image is downloaded from enginex image is downloaded from enginex image is downloaded from dockerhub repository. Dockerhub is a dockerhub repository. Dockerhub is a dockerhub repository. Dockerhub is a public repository where latest docker public repository where latest docker public repository where latest docker images of various applications are images of various applications are images of various applications are stored. You could configure kubernetes stored. You could configure kubernetes stored. You could configure kubernetes to pull the image from public dockerhub to pull the image from public dockerhub to pull the image from public dockerhub or a private repository within your or a private repository within your or a private repository within your organization. So now that we have a pod organization. So now that we have a pod organization. So now that we have a pod created, how do we see the list of pods created, how do we see the list of pods created, how do we see the list of pods available? The cube control get pods available? The cube control get pods available? The cube control get pods command helps us see the list of pods in command helps us see the list of pods in command helps us see the list of pods in our cluster. In this case, we see the our cluster. In this case, we see the our cluster. In this case, we see the pod is in a container creating state and pod is in a container creating state and pod is in a container creating state and it soon changes to a running state when it soon changes to a running state when it soon changes to a running state when the application is actually running. the application is actually running. the application is actually running. Also remember that we haven't really Also remember that we haven't really Also remember that we haven't really talked about the concepts on how a user talked about the concepts on how a user talked about the concepts on how a user can access the engineet web server. And can access the engineet web server. And can access the engineet web server. And so in the current state we haven't made so in the current state we haven't made so in the current state we haven't made the web server accessible to external the web server accessible to external the web server accessible to external users. You can access it internally from users. You can access it internally from users. You can access it internally from the node. For now we will just see how the node. For now we will just see how the node. For now we will just see how to deploy a pod. And in the later to deploy a pod. And in the later to deploy a pod. And in the later lecture once we learn about networking lecture once we learn about networking lecture once we learn about networking and services we will get to know how to and services we will get to know how to and services we will get to know how to make this service accessible to end make this service accessible to end make this service accessible to end users. So that was the imperative way of users. So that was the imperative way of users. So that was the imperative way of creating an object in Kubernetes.",
+  "fetchedAt": "2026-03-10T14:00:25.651Z"
+}
