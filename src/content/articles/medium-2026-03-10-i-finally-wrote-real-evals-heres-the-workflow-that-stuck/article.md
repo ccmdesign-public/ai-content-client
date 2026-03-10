@@ -13,7 +13,7 @@ tags:
 categories:
   - "AI & Machine Learning"
   - "Programming"
-tagsNormalizedAt: "2026-03-10T16:48:18.670Z"
+tagsNormalizedAt: "2026-03-10T16:49:12.197Z"
 ---
 
 # I Finally Wrote Real Evals. Here’s the Workflow That Stuck.

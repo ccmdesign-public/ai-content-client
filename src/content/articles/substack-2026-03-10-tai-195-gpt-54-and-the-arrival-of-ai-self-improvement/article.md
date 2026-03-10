@@ -7,16 +7,16 @@ publicationName: "Towards AI"
 url: "https://newsletter.towardsai.net/p/tai-195-gpt-54-and-the-arrival-of"
 publishedAt: "2026-03-10"
 tags:
+  - "agents"
   - "ai-general"
   - "copilot"
   - "gemini"
   - "llm"
-  - "machine-learning"
   - "research"
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
-tagsNormalizedAt: "2026-03-10T16:48:35.694Z"
+tagsNormalizedAt: "2026-03-10T16:49:29.885Z"
 ---
 
 # TAI #195: GPT-5.4 and the Arrival of AI Self-Improvement?

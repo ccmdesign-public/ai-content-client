@@ -60,7 +60,7 @@ tags:
   - "chatgpt"
   - "llm"
   - "nodejs"
-  - "prompt-engineering"
+  - "react"
   - "startup"
   - "web-development"
 ai:
@@ -72,7 +72,7 @@ ai:
   outputTokens: 1206
   totalTokens: 12493
   processingTimeMs: 58249
-tagsNormalizedAt: "2026-03-10T16:48:05.454Z"
+tagsNormalizedAt: "2026-03-10T16:49:00.755Z"
 ---
 
 ## Key Takeaways

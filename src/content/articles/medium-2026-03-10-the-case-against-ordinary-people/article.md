@@ -11,13 +11,12 @@ tags:
   - "career-growth"
   - "innovation"
   - "leadership"
-  - "product-management"
+  - "startup"
 categories:
   - "AI & Machine Learning"
   - "Business & Career"
-  - "Product & Design"
   - "Tools & Productivity"
-tagsNormalizedAt: "2026-03-10T16:48:41.323Z"
+tagsNormalizedAt: "2026-03-10T16:49:35.866Z"
 ---
 
 # The Case Against Ordinary People

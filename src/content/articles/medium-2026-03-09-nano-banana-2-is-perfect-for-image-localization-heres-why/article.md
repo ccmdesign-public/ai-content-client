@@ -15,7 +15,7 @@ tags:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
-tagsNormalizedAt: "2026-03-10T16:48:23.253Z"
+tagsNormalizedAt: "2026-03-10T16:49:17.863Z"
 ---
 
 # Nano Banana 2 Is Perfect for Image Localization. Here’s Why

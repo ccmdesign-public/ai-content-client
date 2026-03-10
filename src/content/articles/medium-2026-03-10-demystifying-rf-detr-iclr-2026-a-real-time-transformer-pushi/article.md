@@ -14,7 +14,7 @@ tags:
 categories:
   - "AI & Machine Learning"
   - "Tools & Productivity"
-tagsNormalizedAt: "2026-03-10T16:48:30.022Z"
+tagsNormalizedAt: "2026-03-10T16:49:23.863Z"
 ---
 
 # Demystifying RF-DETR [ICLR 2026]: A Real-Time Transformer Pushing the Limits of Object Detection
