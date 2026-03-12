@@ -1,0 +1,122 @@
+---
+metadata:
+  videoId: "vec7SBXeLEg"
+  title: "How I Deal With Anxiety"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT7M48S"
+  publishedAt: "2026-03-12T00:54:35Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/vec7SBXeLEg/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=vec7SBXeLEg"
+processedAt: "2026-03-12T15:43:38.586Z"
+source: "youtube"
+tldr: "Entrepreneur Alex Hormozi explains that taking deliberate action and committing to continuous learning alleviates anxiety, using his gym business journey to illustrate how seeking feedback, analyzing data, and investing in personal skill development create success."
+tools: []
+categories:
+  - "Business & Career"
+  - "Tools & Productivity"
+tags:
+  - "business"
+  - "career-growth"
+  - "education"
+  - "leadership"
+  - "monetization"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 7942
+  outputTokens: 696
+  totalTokens: 8638
+  processingTimeMs: 19799
+tagsNormalizedAt: "2026-03-12T16:15:53.852Z"
+---
+
+## Key Takeaways
+
+Alex Hormozi shares his framework for overcoming anxiety through action and learning.
+
+*   **Action alleviates anxiety:** Taking deliberate, focused action on what you can control (like improving your skills) directly counters feelings of uncertainty and worry about the future.
+
+*   **Learning is the ultimate investment:** View yourself as your primary asset and invest all available resources (time, money, social capital) into acquiring skills that compound and stack for disproportionate returns.
+
+*   **Accelerate learning with feedback loops:** Move faster by actively seeking mentorship, analyzing performance data to identify patterns, and rapidly iterating based on what works and what doesn't.
+
+## Summary
+
+Alex Hormozi's core philosophy for dealing with anxiety is that **action alleviates anxiety**. When facing uncertainty about the future, the only thing he could control was his own work and improvement. He emphasizes that this work must be **deliberate**, with the intention to learn and get better, not just activity for its own sake.
+
+He illustrates this with his own journey from a white-collar job to building a successful gym business. Before even starting his gym, he paid to join a mastermind for gym owners to learn from their mistakes, treating their experience as a shortcut. Once his gym was operational, he spent every weekend seeking out other gym owners, asking detailed questions to understand their processes and decisions.
+
+Hormozi's learning system is built on **high-volume execution followed by data analysis**. He creates feedback loops by doing a large volume of an activity (like creating ads or sales calls), then analyzing the top performers to identify common characteristics and the bottom performers to see what to avoid. This cycle of **do, measure, analyze, and iterate** allows for rapid improvement.
+
+A critical tactic, especially for younger people, is to **humble yourself to gain access to mentors**. By acknowledging someone is better and asking for their guidance, you can gain years of valuable experience for free. He frames this as spending "ego points" to acquire learning, which is the only thing that ultimately matters before the "scoreboard" of business results.
+
+He concludes by stressing that **you are your most important asset**. Skills compound and stack; for example, combining sales and finance knowledge or coding and marketing expertise creates a disproportionately powerful skillset. Therefore, the most strategic investment you can make is in your own continuous learning and skill acquisition.
+
+## Context
+
+This video addresses a common challenge for entrepreneurs and ambitious individuals: the anxiety that comes with uncertainty, comparison, and the fear of failure. It provides a practical, action-oriented mindset and methodology for channeling that anxiety into productive growth. The advice is particularly relevant for business owners, founders, and anyone in their 20s or 30s looking to accelerate their career and personal development by focusing on what they can control—their own learning and execution.

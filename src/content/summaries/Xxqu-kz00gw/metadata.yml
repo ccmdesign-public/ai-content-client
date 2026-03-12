@@ -1,0 +1,77 @@
+videoId: Xxqu-kz00gw
+title: Claude Code Agent Loop Can't Replace OpenClaw (Here's Why)
+description: >-
+  The Anthropic team released a loop skill for Claude Code that runs prompts at
+  set intervals, and while many are using it to replace OpenClaude for
+  Discord/Telegram bot communication, they're missing the point, the loop
+  feature was designed for session-based recurring tasks like checking log files
+  or monitoring job queues, not permanent automation. In this video, I break
+  down why loop isn't an OpenClaw killer due to its 3-day task expiration and
+  session-only storage, demonstrate its actual capabilities including skill
+  integration and cron-style scheduling, and show you how to schedule truly
+  persistent tasks using Claude Desktop's built-in scheduler or Kenneth's plugin
+  if you prefer the terminal workflow.
+
+
+  🔗 Relevant Links
+
+  Claude Loop Docs - https://code.claude.com/docs/en/scheduled-tasks
+
+  Kennetn Scheduler -
+
+  GPT 5.4 -
+
+
+  ❤️ More about us
+
+  Radically better observability stack: https://betterstack.com/
+
+  Written tutorials: https://betterstack.com/community/
+
+  Example projects: https://github.com/BetterStackHQ
+
+
+  📱 Socials
+
+  Twitter: https://twitter.com/betterstackhq
+
+  Instagram: https://www.instagram.com/betterstackhq/
+
+  TikTok: https://www.tiktok.com/@betterstack
+
+  LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+  📌 Chapters:
+
+  0:00 Introduction 
+
+  0:29 Hype vs usefulness of the loop feature
+
+  0:56 Demo: Using the loop skill in Claude Code
+
+  1:45 Loop capabilities: skills, files, and MCP tools
+
+  2:24 Issues with using loop as OpenClaude replacement
+
+  3:39 The intended use case for loop feature
+
+  4:06 Scheduling tasks forever in Claude Desktop
+
+  5:22 Plugins and GPT 5.4 announcement
+channel: Better Stack
+channelId: UCkVfrGwV-iG9bSsgCbrNPxQ
+duration: PT5M46S
+publishedAt: 2026-03-10T18:00:39Z
+thumbnailUrl: https://i.ytimg.com/vi/Xxqu-kz00gw/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=Xxqu-kz00gw
+processedAt: 2026-03-11T15:47:51.318Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 5095
+outputTokens: 995
+totalTokens: 6090
+processingTimeMs: 29870
