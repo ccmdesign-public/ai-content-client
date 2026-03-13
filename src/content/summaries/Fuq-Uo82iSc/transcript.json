@@ -1,0 +1,489 @@
+{
+  "videoId": "Fuq-Uo82iSc",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 1.829,
+      "duration": 0.010000000000000009,
+      "text": "That's where a service comes in. Let's"
+    },
+    {
+      "start": 1.839,
+      "duration": 3.111,
+      "text": "That's where a service comes in. Let's now talk about services in Kubernetes."
+    },
+    {
+      "start": 4.95,
+      "duration": 0.009999999999999787,
+      "text": "now talk about services in Kubernetes."
+    },
+    {
+      "start": 4.96,
+      "duration": 2.3890000000000002,
+      "text": "now talk about services in Kubernetes. So we have two sets of applications"
+    },
+    {
+      "start": 7.349,
+      "duration": 0.009999999999999787,
+      "text": "So we have two sets of applications"
+    },
+    {
+      "start": 7.359,
+      "duration": 2.551,
+      "text": "So we have two sets of applications deployed on our cluster. A web server"
+    },
+    {
+      "start": 9.91,
+      "duration": 0.009999999999999787,
+      "text": "deployed on our cluster. A web server"
+    },
+    {
+      "start": 9.92,
+      "duration": 4.390000000000001,
+      "text": "deployed on our cluster. A web server and a radius server. So Kubernetes"
+    },
+    {
+      "start": 14.31,
+      "duration": 0.009999999999999787,
+      "text": "and a radius server. So Kubernetes"
+    },
+    {
+      "start": 14.32,
+      "duration": 2.7890000000000015,
+      "text": "and a radius server. So Kubernetes assigns a unique IP address to each pod"
+    },
+    {
+      "start": 17.109,
+      "duration": 0.00999999999999801,
+      "text": "assigns a unique IP address to each pod"
+    },
+    {
+      "start": 17.119,
+      "duration": 1.990000000000002,
+      "text": "assigns a unique IP address to each pod in the cluster. The web server in this"
+    },
+    {
+      "start": 19.109,
+      "duration": 0.00999999999999801,
+      "text": "in the cluster. The web server in this"
+    },
+    {
+      "start": 19.119,
+      "duration": 3.190999999999999,
+      "text": "in the cluster. The web server in this case has the IP 10.244.0.2"
+    },
+    {
+      "start": 22.31,
+      "duration": 0.010000000000001563,
+      "text": "case has the IP 10.244.0.2"
+    },
+    {
+      "start": 22.32,
+      "duration": 3.029,
+      "text": "case has the IP 10.244.0.2 and the pod has the 10.244.0.11."
+    },
+    {
+      "start": 25.349,
+      "duration": 0.010000000000001563,
+      "text": "and the pod has the 10.244.0.11."
+    },
+    {
+      "start": 25.359,
+      "duration": 2.6309999999999967,
+      "text": "and the pod has the 10.244.0.11. These are the IP addresses assigned to"
+    },
+    {
+      "start": 27.99,
+      "duration": 0.010000000000001563,
+      "text": "These are the IP addresses assigned to"
+    },
+    {
+      "start": 28,
+      "duration": 2.3099999999999987,
+      "text": "These are the IP addresses assigned to pods in a Kubernetes cluster. So there's"
+    },
+    {
+      "start": 30.31,
+      "duration": 0.010000000000001563,
+      "text": "pods in a Kubernetes cluster. So there's"
+    },
+    {
+      "start": 30.32,
+      "duration": 1.908999999999999,
+      "text": "pods in a Kubernetes cluster. So there's an internal network formed and all the"
+    },
+    {
+      "start": 32.229,
+      "duration": 0.00999999999999801,
+      "text": "an internal network formed and all the"
+    },
+    {
+      "start": 32.239,
+      "duration": 2.871000000000002,
+      "text": "an internal network formed and all the pods have internal IP addresses with"
+    },
+    {
+      "start": 35.11,
+      "duration": 0.00999999999999801,
+      "text": "pods have internal IP addresses with"
+    },
+    {
+      "start": 35.12,
+      "duration": 1.6700000000000017,
+      "text": "pods have internal IP addresses with which they can kind of communicate with"
+    },
+    {
+      "start": 36.79,
+      "duration": 0.00999999999999801,
+      "text": "which they can kind of communicate with"
+    },
+    {
+      "start": 36.8,
+      "duration": 1.909000000000006,
+      "text": "which they can kind of communicate with each other. So in our example, the web"
+    },
+    {
+      "start": 38.709,
+      "duration": 0.00999999999999801,
+      "text": "each other. So in our example, the web"
+    },
+    {
+      "start": 38.719,
+      "duration": 1.7509999999999977,
+      "text": "each other. So in our example, the web server needs to access the reddish"
+    },
+    {
+      "start": 40.47,
+      "duration": 0.00999999999999801,
+      "text": "server needs to access the reddish"
+    },
+    {
+      "start": 40.48,
+      "duration": 3.270000000000003,
+      "text": "server needs to access the reddish service. So here's the code of our web"
+    },
+    {
+      "start": 43.75,
+      "duration": 0.00999999999999801,
+      "text": "service. So here's the code of our web"
+    },
+    {
+      "start": 43.76,
+      "duration": 3.3500000000000014,
+      "text": "service. So here's the code of our web server and what do you think would be"
+    },
+    {
+      "start": 47.11,
+      "duration": 0.00999999999999801,
+      "text": "server and what do you think would be"
+    },
+    {
+      "start": 47.12,
+      "duration": 2.949000000000005,
+      "text": "server and what do you think would be the address that the web server should"
+    },
+    {
+      "start": 50.069,
+      "duration": 0.00999999999999801,
+      "text": "the address that the web server should"
+    },
+    {
+      "start": 50.079,
+      "duration": 3.1099999999999994,
+      "text": "the address that the web server should put here to connect to the radius"
+    },
+    {
+      "start": 53.189,
+      "duration": 0.00999999999999801,
+      "text": "put here to connect to the radius"
+    },
+    {
+      "start": 53.199,
+      "duration": 2.7109999999999985,
+      "text": "put here to connect to the radius service? The Reddis pod has an IP"
+    },
+    {
+      "start": 55.91,
+      "duration": 0.010000000000005116,
+      "text": "service? The Reddis pod has an IP"
+    },
+    {
+      "start": 55.92,
+      "duration": 2.549999999999997,
+      "text": "service? The Reddis pod has an IP address. Now, can the web server address"
+    },
+    {
+      "start": 58.47,
+      "duration": 0.00999999999999801,
+      "text": "address. Now, can the web server address"
+    },
+    {
+      "start": 58.48,
+      "duration": 3.030000000000001,
+      "text": "address. Now, can the web server address the Reddis service using its IP address?"
+    },
+    {
+      "start": 61.51,
+      "duration": 0.010000000000005116,
+      "text": "the Reddis service using its IP address?"
+    },
+    {
+      "start": 61.52,
+      "duration": 1.8289999999999935,
+      "text": "the Reddis service using its IP address? Now, it can technically, but it"
+    },
+    {
+      "start": 63.349,
+      "duration": 0.010000000000005116,
+      "text": "Now, it can technically, but it"
+    },
+    {
+      "start": 63.359,
+      "duration": 2.4709999999999965,
+      "text": "Now, it can technically, but it shouldn't because this IP is for each"
+    },
+    {
+      "start": 65.83,
+      "duration": 0.010000000000005116,
+      "text": "shouldn't because this IP is for each"
+    },
+    {
+      "start": 65.84,
+      "duration": 2.3900000000000006,
+      "text": "shouldn't because this IP is for each pod and it is bound to change if the pod"
+    },
+    {
+      "start": 68.23,
+      "duration": 0.009999999999990905,
+      "text": "pod and it is bound to change if the pod"
+    },
+    {
+      "start": 68.24,
+      "duration": 1.5900000000000034,
+      "text": "pod and it is bound to change if the pod were to crash or restart for some"
+    },
+    {
+      "start": 69.83,
+      "duration": 0.010000000000005116,
+      "text": "were to crash or restart for some"
+    },
+    {
+      "start": 69.84,
+      "duration": 1.75,
+      "text": "were to crash or restart for some reason. So, you don't really want to"
+    },
+    {
+      "start": 71.59,
+      "duration": 0.009999999999990905,
+      "text": "reason. So, you don't really want to"
+    },
+    {
+      "start": 71.6,
+      "duration": 2.710000000000008,
+      "text": "reason. So, you don't really want to kind of tie down the IP address into"
+    },
+    {
+      "start": 74.31,
+      "duration": 0.009999999999990905,
+      "text": "kind of tie down the IP address into"
+    },
+    {
+      "start": 74.32,
+      "duration": 1.9100000000000108,
+      "text": "kind of tie down the IP address into code, of course. So, that's where a"
+    },
+    {
+      "start": 76.23,
+      "duration": 0.009999999999990905,
+      "text": "code, of course. So, that's where a"
+    },
+    {
+      "start": 76.24,
+      "duration": 2.3100000000000023,
+      "text": "code, of course. So, that's where a service comes in. So, a service enables"
+    },
+    {
+      "start": 78.55,
+      "duration": 0.010000000000005116,
+      "text": "service comes in. So, a service enables"
+    },
+    {
+      "start": 78.56,
+      "duration": 1.9899999999999949,
+      "text": "service comes in. So, a service enables communication between applications"
+    },
+    {
+      "start": 80.55,
+      "duration": 0.010000000000005116,
+      "text": "communication between applications"
+    },
+    {
+      "start": 80.56,
+      "duration": 2.789999999999992,
+      "text": "communication between applications within a Kubernetes cluster. So think of"
+    },
+    {
+      "start": 83.35,
+      "duration": 0.010000000000005116,
+      "text": "within a Kubernetes cluster. So think of"
+    },
+    {
+      "start": 83.36,
+      "duration": 2.950000000000003,
+      "text": "within a Kubernetes cluster. So think of a service as a proxy or a load balancer"
+    },
+    {
+      "start": 86.31,
+      "duration": 0.009999999999990905,
+      "text": "a service as a proxy or a load balancer"
+    },
+    {
+      "start": 86.32,
+      "duration": 2.149000000000001,
+      "text": "a service as a proxy or a load balancer although it technically is not in a"
+    },
+    {
+      "start": 88.469,
+      "duration": 0.010000000000005116,
+      "text": "although it technically is not in a"
+    },
+    {
+      "start": 88.479,
+      "duration": 2.070999999999998,
+      "text": "although it technically is not in a traditional sense and it provides an"
+    },
+    {
+      "start": 90.55,
+      "duration": 0.010000000000005116,
+      "text": "traditional sense and it provides an"
+    },
+    {
+      "start": 90.56,
+      "duration": 1.8299999999999983,
+      "text": "traditional sense and it provides an endpoint for other services to connect"
+    },
+    {
+      "start": 92.39,
+      "duration": 0.010000000000005116,
+      "text": "endpoint for other services to connect"
+    },
+    {
+      "start": 92.4,
+      "duration": 1.8299999999999983,
+      "text": "endpoint for other services to connect to. This case we create a service named"
+    },
+    {
+      "start": 94.23,
+      "duration": 0.009999999999990905,
+      "text": "to. This case we create a service named"
+    },
+    {
+      "start": 94.24,
+      "duration": 2.0700000000000074,
+      "text": "to. This case we create a service named radius DB and now the web application"
+    },
+    {
+      "start": 96.31,
+      "duration": 0.009999999999990905,
+      "text": "radius DB and now the web application"
+    },
+    {
+      "start": 96.32,
+      "duration": 2.3100000000000023,
+      "text": "radius DB and now the web application can refer to the service with the name"
+    },
+    {
+      "start": 98.63,
+      "duration": 0.010000000000005116,
+      "text": "can refer to the service with the name"
+    },
+    {
+      "start": 98.64,
+      "duration": 2.468999999999994,
+      "text": "can refer to the service with the name radis DB. Now similarly to expose the"
+    },
+    {
+      "start": 101.109,
+      "duration": 0.010000000000005116,
+      "text": "radis DB. Now similarly to expose the"
+    },
+    {
+      "start": 101.119,
+      "duration": 1.9110000000000014,
+      "text": "radis DB. Now similarly to expose the web service outside to the external"
+    },
+    {
+      "start": 103.03,
+      "duration": 0.010000000000005116,
+      "text": "web service outside to the external"
+    },
+    {
+      "start": 103.04,
+      "duration": 1.8299999999999983,
+      "text": "web service outside to the external users you would create another service"
+    },
+    {
+      "start": 104.87,
+      "duration": 0.009999999999990905,
+      "text": "users you would create another service"
+    },
+    {
+      "start": 104.88,
+      "duration": 2.1500000000000057,
+      "text": "users you would create another service for the web server. We will call it the"
+    },
+    {
+      "start": 107.03,
+      "duration": 0.010000000000005116,
+      "text": "for the web server. We will call it the"
+    },
+    {
+      "start": 107.04,
+      "duration": 1.9099999999999966,
+      "text": "for the web server. We will call it the web service. So a service enables"
+    },
+    {
+      "start": 108.95,
+      "duration": 0.009999999999990905,
+      "text": "web service. So a service enables"
+    },
+    {
+      "start": 108.96,
+      "duration": 1.9100000000000108,
+      "text": "web service. So a service enables connectivity between applications within"
+    },
+    {
+      "start": 110.87,
+      "duration": 0.009999999999990905,
+      "text": "connectivity between applications within"
+    },
+    {
+      "start": 110.88,
+      "duration": 1.8299999999999983,
+      "text": "connectivity between applications within the cluster as well as to expose"
+    },
+    {
+      "start": 112.71,
+      "duration": 0.010000000000005116,
+      "text": "the cluster as well as to expose"
+    },
+    {
+      "start": 112.72,
+      "duration": 2.388999999999996,
+      "text": "the cluster as well as to expose applications outside the cluster to end"
+    },
+    {
+      "start": 115.109,
+      "duration": 0.010000000000005116,
+      "text": "applications outside the cluster to end"
+    },
+    {
+      "start": 115.119,
+      "duration": 2.1610000000000014,
+      "text": "applications outside the cluster to end users."
+    }
+  ],
+  "fullText": "That's where a service comes in. Let's That's where a service comes in. Let's now talk about services in Kubernetes. now talk about services in Kubernetes. now talk about services in Kubernetes. So we have two sets of applications So we have two sets of applications So we have two sets of applications deployed on our cluster. A web server deployed on our cluster. A web server deployed on our cluster. A web server and a radius server. So Kubernetes and a radius server. So Kubernetes and a radius server. So Kubernetes assigns a unique IP address to each pod assigns a unique IP address to each pod assigns a unique IP address to each pod in the cluster. The web server in this in the cluster. The web server in this in the cluster. The web server in this case has the IP 10.244.0.2 case has the IP 10.244.0.2 case has the IP 10.244.0.2 and the pod has the 10.244.0.11. and the pod has the 10.244.0.11. and the pod has the 10.244.0.11. These are the IP addresses assigned to These are the IP addresses assigned to These are the IP addresses assigned to pods in a Kubernetes cluster. So there's pods in a Kubernetes cluster. So there's pods in a Kubernetes cluster. So there's an internal network formed and all the an internal network formed and all the an internal network formed and all the pods have internal IP addresses with pods have internal IP addresses with pods have internal IP addresses with which they can kind of communicate with which they can kind of communicate with which they can kind of communicate with each other. So in our example, the web each other. So in our example, the web each other. So in our example, the web server needs to access the reddish server needs to access the reddish server needs to access the reddish service. So here's the code of our web service. So here's the code of our web service. So here's the code of our web server and what do you think would be server and what do you think would be server and what do you think would be the address that the web server should the address that the web server should the address that the web server should put here to connect to the radius put here to connect to the radius put here to connect to the radius service? The Reddis pod has an IP service? The Reddis pod has an IP service? The Reddis pod has an IP address. Now, can the web server address address. Now, can the web server address address. Now, can the web server address the Reddis service using its IP address? the Reddis service using its IP address? the Reddis service using its IP address? Now, it can technically, but it Now, it can technically, but it Now, it can technically, but it shouldn't because this IP is for each shouldn't because this IP is for each shouldn't because this IP is for each pod and it is bound to change if the pod pod and it is bound to change if the pod pod and it is bound to change if the pod were to crash or restart for some were to crash or restart for some were to crash or restart for some reason. So, you don't really want to reason. So, you don't really want to reason. So, you don't really want to kind of tie down the IP address into kind of tie down the IP address into kind of tie down the IP address into code, of course. So, that's where a code, of course. So, that's where a code, of course. So, that's where a service comes in. So, a service enables service comes in. So, a service enables service comes in. So, a service enables communication between applications communication between applications communication between applications within a Kubernetes cluster. So think of within a Kubernetes cluster. So think of within a Kubernetes cluster. So think of a service as a proxy or a load balancer a service as a proxy or a load balancer a service as a proxy or a load balancer although it technically is not in a although it technically is not in a although it technically is not in a traditional sense and it provides an traditional sense and it provides an traditional sense and it provides an endpoint for other services to connect endpoint for other services to connect endpoint for other services to connect to. This case we create a service named to. This case we create a service named to. This case we create a service named radius DB and now the web application radius DB and now the web application radius DB and now the web application can refer to the service with the name can refer to the service with the name can refer to the service with the name radis DB. Now similarly to expose the radis DB. Now similarly to expose the radis DB. Now similarly to expose the web service outside to the external web service outside to the external web service outside to the external users you would create another service users you would create another service users you would create another service for the web server. We will call it the for the web server. We will call it the for the web server. We will call it the web service. So a service enables web service. So a service enables web service. So a service enables connectivity between applications within connectivity between applications within connectivity between applications within the cluster as well as to expose the cluster as well as to expose the cluster as well as to expose applications outside the cluster to end applications outside the cluster to end applications outside the cluster to end users.",
+  "fetchedAt": "2026-03-13T17:39:59.781Z"
+}

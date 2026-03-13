@@ -1,0 +1,309 @@
+{
+  "videoId": "2jvntJGoU3M",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 1.75,
+      "duration": 0.010000000000000009,
+      "text": "So let's finally look at what happens"
+    },
+    {
+      "start": 1.76,
+      "duration": 1.99,
+      "text": "So let's finally look at what happens when the pods are distributed across"
+    },
+    {
+      "start": 3.75,
+      "duration": 0.009999999999999787,
+      "text": "when the pods are distributed across"
+    },
+    {
+      "start": 3.76,
+      "duration": 1.67,
+      "text": "when the pods are distributed across multiple nodes. So in this case we have"
+    },
+    {
+      "start": 5.43,
+      "duration": 0.010000000000000675,
+      "text": "multiple nodes. So in this case we have"
+    },
+    {
+      "start": 5.44,
+      "duration": 2.55,
+      "text": "multiple nodes. So in this case we have the web application on pods on separate"
+    },
+    {
+      "start": 7.99,
+      "duration": 0.009999999999999787,
+      "text": "the web application on pods on separate"
+    },
+    {
+      "start": 8,
+      "duration": 2.0700000000000003,
+      "text": "the web application on pods on separate nodes in the cluster. When we create a"
+    },
+    {
+      "start": 10.07,
+      "duration": 0.009999999999999787,
+      "text": "nodes in the cluster. When we create a"
+    },
+    {
+      "start": 10.08,
+      "duration": 1.83,
+      "text": "nodes in the cluster. When we create a service without us having to do any kind"
+    },
+    {
+      "start": 11.91,
+      "duration": 0.009999999999999787,
+      "text": "service without us having to do any kind"
+    },
+    {
+      "start": 11.92,
+      "duration": 1.8290000000000006,
+      "text": "service without us having to do any kind of additional configuration, Kubernetes"
+    },
+    {
+      "start": 13.749,
+      "duration": 0.009999999999999787,
+      "text": "of additional configuration, Kubernetes"
+    },
+    {
+      "start": 13.759,
+      "duration": 2.151,
+      "text": "of additional configuration, Kubernetes creates a service that spans across all"
+    },
+    {
+      "start": 15.91,
+      "duration": 0.009999999999999787,
+      "text": "creates a service that spans across all"
+    },
+    {
+      "start": 15.92,
+      "duration": 2.2299999999999986,
+      "text": "creates a service that spans across all the nodes in the cluster and maps the"
+    },
+    {
+      "start": 18.15,
+      "duration": 0.010000000000001563,
+      "text": "the nodes in the cluster and maps the"
+    },
+    {
+      "start": 18.16,
+      "duration": 2.5500000000000007,
+      "text": "the nodes in the cluster and maps the target port to the same node port on all"
+    },
+    {
+      "start": 20.71,
+      "duration": 0.00999999999999801,
+      "text": "target port to the same node port on all"
+    },
+    {
+      "start": 20.72,
+      "duration": 1.9100000000000001,
+      "text": "target port to the same node port on all the nodes in the cluster. This way you"
+    },
+    {
+      "start": 22.63,
+      "duration": 0.010000000000001563,
+      "text": "the nodes in the cluster. This way you"
+    },
+    {
+      "start": 22.64,
+      "duration": 1.9899999999999984,
+      "text": "the nodes in the cluster. This way you can access your application using the IP"
+    },
+    {
+      "start": 24.63,
+      "duration": 0.010000000000001563,
+      "text": "can access your application using the IP"
+    },
+    {
+      "start": 24.64,
+      "duration": 2.1499999999999986,
+      "text": "can access your application using the IP of any node in the cluster and use the"
+    },
+    {
+      "start": 26.79,
+      "duration": 0.010000000000001563,
+      "text": "of any node in the cluster and use the"
+    },
+    {
+      "start": 26.8,
+      "duration": 2.228999999999999,
+      "text": "of any node in the cluster and use the same port number which in this case is"
+    },
+    {
+      "start": 29.029,
+      "duration": 0.010000000000001563,
+      "text": "same port number which in this case is"
+    },
+    {
+      "start": 29.039,
+      "duration": 3.830999999999996,
+      "text": "same port number which in this case is 30,08. It's also available on any node"
+    },
+    {
+      "start": 32.87,
+      "duration": 0.010000000000005116,
+      "text": "30,08. It's also available on any node"
+    },
+    {
+      "start": 32.88,
+      "duration": 2.469999999999999,
+      "text": "30,08. It's also available on any node where even if the ports are not"
+    },
+    {
+      "start": 35.35,
+      "duration": 0.00999999999999801,
+      "text": "where even if the ports are not"
+    },
+    {
+      "start": 35.36,
+      "duration": 2.1499999999999986,
+      "text": "where even if the ports are not scheduled on that node even those nodes"
+    },
+    {
+      "start": 37.51,
+      "duration": 0.010000000000005116,
+      "text": "scheduled on that node even those nodes"
+    },
+    {
+      "start": 37.52,
+      "duration": 2.5489999999999995,
+      "text": "scheduled on that node even those nodes will expose this application or this"
+    },
+    {
+      "start": 40.069,
+      "duration": 0.00999999999999801,
+      "text": "will expose this application or this"
+    },
+    {
+      "start": 40.079,
+      "duration": 1.830999999999996,
+      "text": "will expose this application or this service through the node port which is"
+    },
+    {
+      "start": 41.91,
+      "duration": 0.010000000000005116,
+      "text": "service through the node port which is"
+    },
+    {
+      "start": 41.92,
+      "duration": 2.469000000000001,
+      "text": "service through the node port which is 30,08. So to summarize, in any case,"
+    },
+    {
+      "start": 44.389,
+      "duration": 0.00999999999999801,
+      "text": "30,08. So to summarize, in any case,"
+    },
+    {
+      "start": 44.399,
+      "duration": 1.9110000000000014,
+      "text": "30,08. So to summarize, in any case, whether it be a single pod in a single"
+    },
+    {
+      "start": 46.31,
+      "duration": 0.00999999999999801,
+      "text": "whether it be a single pod in a single"
+    },
+    {
+      "start": 46.32,
+      "duration": 2.0690000000000026,
+      "text": "whether it be a single pod in a single node, multiple pods on a single node,"
+    },
+    {
+      "start": 48.389,
+      "duration": 0.00999999999999801,
+      "text": "node, multiple pods on a single node,"
+    },
+    {
+      "start": 48.399,
+      "duration": 2.1499999999999986,
+      "text": "node, multiple pods on a single node, multiple pods on multiple nodes, the"
+    },
+    {
+      "start": 50.549,
+      "duration": 0.00999999999999801,
+      "text": "multiple pods on multiple nodes, the"
+    },
+    {
+      "start": 50.559,
+      "duration": 2.1500000000000057,
+      "text": "multiple pods on multiple nodes, the service is created exactly the same"
+    },
+    {
+      "start": 52.709,
+      "duration": 0.00999999999999801,
+      "text": "service is created exactly the same"
+    },
+    {
+      "start": 52.719,
+      "duration": 1.8299999999999983,
+      "text": "service is created exactly the same without you having to do any additional"
+    },
+    {
+      "start": 54.549,
+      "duration": 0.00999999999999801,
+      "text": "without you having to do any additional"
+    },
+    {
+      "start": 54.559,
+      "duration": 1.990000000000002,
+      "text": "without you having to do any additional steps during the service creation. When"
+    },
+    {
+      "start": 56.549,
+      "duration": 0.00999999999999801,
+      "text": "steps during the service creation. When"
+    },
+    {
+      "start": 56.559,
+      "duration": 2.3100000000000023,
+      "text": "steps during the service creation. When parts are removed or added, the service"
+    },
+    {
+      "start": 58.869,
+      "duration": 0.00999999999999801,
+      "text": "parts are removed or added, the service"
+    },
+    {
+      "start": 58.879,
+      "duration": 1.990000000000002,
+      "text": "parts are removed or added, the service is automatically updated, making it"
+    },
+    {
+      "start": 60.869,
+      "duration": 0.00999999999999801,
+      "text": "is automatically updated, making it"
+    },
+    {
+      "start": 60.879,
+      "duration": 2.3100000000000023,
+      "text": "is automatically updated, making it highly adaptive. Now, once created, you"
+    },
+    {
+      "start": 63.189,
+      "duration": 0.00999999999999801,
+      "text": "highly adaptive. Now, once created, you"
+    },
+    {
+      "start": 63.199,
+      "duration": 1.3500000000000085,
+      "text": "highly adaptive. Now, once created, you won't typically have to make any"
+    },
+    {
+      "start": 64.549,
+      "duration": 0.009999999999990905,
+      "text": "won't typically have to make any"
+    },
+    {
+      "start": 64.559,
+      "duration": 4.201000000000008,
+      "text": "won't typically have to make any additional configuration changes."
+    }
+  ],
+  "fullText": "So let's finally look at what happens So let's finally look at what happens when the pods are distributed across when the pods are distributed across when the pods are distributed across multiple nodes. So in this case we have multiple nodes. So in this case we have multiple nodes. So in this case we have the web application on pods on separate the web application on pods on separate the web application on pods on separate nodes in the cluster. When we create a nodes in the cluster. When we create a nodes in the cluster. When we create a service without us having to do any kind service without us having to do any kind service without us having to do any kind of additional configuration, Kubernetes of additional configuration, Kubernetes of additional configuration, Kubernetes creates a service that spans across all creates a service that spans across all creates a service that spans across all the nodes in the cluster and maps the the nodes in the cluster and maps the the nodes in the cluster and maps the target port to the same node port on all target port to the same node port on all target port to the same node port on all the nodes in the cluster. This way you the nodes in the cluster. This way you the nodes in the cluster. This way you can access your application using the IP can access your application using the IP can access your application using the IP of any node in the cluster and use the of any node in the cluster and use the of any node in the cluster and use the same port number which in this case is same port number which in this case is same port number which in this case is 30,08. It's also available on any node 30,08. It's also available on any node 30,08. It's also available on any node where even if the ports are not where even if the ports are not where even if the ports are not scheduled on that node even those nodes scheduled on that node even those nodes scheduled on that node even those nodes will expose this application or this will expose this application or this will expose this application or this service through the node port which is service through the node port which is service through the node port which is 30,08. So to summarize, in any case, 30,08. So to summarize, in any case, 30,08. So to summarize, in any case, whether it be a single pod in a single whether it be a single pod in a single whether it be a single pod in a single node, multiple pods on a single node, node, multiple pods on a single node, node, multiple pods on a single node, multiple pods on multiple nodes, the multiple pods on multiple nodes, the multiple pods on multiple nodes, the service is created exactly the same service is created exactly the same service is created exactly the same without you having to do any additional without you having to do any additional without you having to do any additional steps during the service creation. When steps during the service creation. When steps during the service creation. When parts are removed or added, the service parts are removed or added, the service parts are removed or added, the service is automatically updated, making it is automatically updated, making it is automatically updated, making it highly adaptive. Now, once created, you highly adaptive. Now, once created, you highly adaptive. Now, once created, you won't typically have to make any won't typically have to make any won't typically have to make any additional configuration changes.",
+  "fetchedAt": "2026-03-13T17:36:57.561Z"
+}

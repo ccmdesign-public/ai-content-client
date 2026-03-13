@@ -1,0 +1,2149 @@
+{
+  "videoId": "uqUZ_H_m2Yg",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 1.99,
+      "duration": 0.010000000000000009,
+      "text": "Running inference today is different"
+    },
+    {
+      "start": 2,
+      "duration": 2.71,
+      "text": "Running inference today is different than even back in 2021. For example,"
+    },
+    {
+      "start": 4.71,
+      "duration": 0.009999999999999787,
+      "text": "than even back in 2021. For example,"
+    },
+    {
+      "start": 4.72,
+      "duration": 2.2300000000000004,
+      "text": "than even back in 2021. For example, context window grew from around 2,000"
+    },
+    {
+      "start": 6.95,
+      "duration": 0.009999999999999787,
+      "text": "context window grew from around 2,000"
+    },
+    {
+      "start": 6.96,
+      "duration": 2.1499999999999995,
+      "text": "context window grew from around 2,000 tokens to now at around 1 million"
+    },
+    {
+      "start": 9.11,
+      "duration": 0.009999999999999787,
+      "text": "tokens to now at around 1 million"
+    },
+    {
+      "start": 9.12,
+      "duration": 2.0700000000000003,
+      "text": "tokens to now at around 1 million tokens. And you might think going from"
+    },
+    {
+      "start": 11.19,
+      "duration": 0.009999999999999787,
+      "text": "tokens. And you might think going from"
+    },
+    {
+      "start": 11.2,
+      "duration": 2.790000000000001,
+      "text": "tokens. And you might think going from 2,000 to 1 million in context window is"
+    },
+    {
+      "start": 13.99,
+      "duration": 0.009999999999999787,
+      "text": "2,000 to 1 million in context window is"
+    },
+    {
+      "start": 14,
+      "duration": 1.9100000000000001,
+      "text": "2,000 to 1 million in context window is rather trivial, but scaling the context"
+    },
+    {
+      "start": 15.91,
+      "duration": 0.009999999999999787,
+      "text": "rather trivial, but scaling the context"
+    },
+    {
+      "start": 15.92,
+      "duration": 2.3100000000000005,
+      "text": "rather trivial, but scaling the context window has always been very inefficient"
+    },
+    {
+      "start": 18.23,
+      "duration": 0.00999999999999801,
+      "text": "window has always been very inefficient"
+    },
+    {
+      "start": 18.24,
+      "duration": 2.3900000000000006,
+      "text": "window has always been very inefficient in terms of memory requirements for"
+    },
+    {
+      "start": 20.63,
+      "duration": 0.010000000000001563,
+      "text": "in terms of memory requirements for"
+    },
+    {
+      "start": 20.64,
+      "duration": 2.1499999999999986,
+      "text": "in terms of memory requirements for standard transformer-based models. And"
+    },
+    {
+      "start": 22.79,
+      "duration": 0.010000000000001563,
+      "text": "standard transformer-based models. And"
+    },
+    {
+      "start": 22.8,
+      "duration": 2.628999999999998,
+      "text": "standard transformer-based models. And this makes inference very costly. Not"
+    },
+    {
+      "start": 25.429,
+      "duration": 0.010000000000001563,
+      "text": "this makes inference very costly. Not"
+    },
+    {
+      "start": 25.439,
+      "duration": 2.0700000000000003,
+      "text": "this makes inference very costly. Not only that, the size of the model grew"
+    },
+    {
+      "start": 27.509,
+      "duration": 0.00999999999999801,
+      "text": "only that, the size of the model grew"
+    },
+    {
+      "start": 27.519,
+      "duration": 2.150000000000002,
+      "text": "only that, the size of the model grew from hundreds of million parameters to"
+    },
+    {
+      "start": 29.669,
+      "duration": 0.00999999999999801,
+      "text": "from hundreds of million parameters to"
+    },
+    {
+      "start": 29.679,
+      "duration": 1.990000000000002,
+      "text": "from hundreds of million parameters to now few trillion parameters from"
+    },
+    {
+      "start": 31.669,
+      "duration": 0.00999999999999801,
+      "text": "now few trillion parameters from"
+    },
+    {
+      "start": 31.679,
+      "duration": 2.5500000000000007,
+      "text": "now few trillion parameters from frontier models like Gemini, Grock, GBT"
+    },
+    {
+      "start": 34.229,
+      "duration": 0.00999999999999801,
+      "text": "frontier models like Gemini, Grock, GBT"
+    },
+    {
+      "start": 34.239,
+      "duration": 2.551000000000002,
+      "text": "frontier models like Gemini, Grock, GBT and Opus. And while mixture of experts"
+    },
+    {
+      "start": 36.79,
+      "duration": 0.00999999999999801,
+      "text": "and Opus. And while mixture of experts"
+    },
+    {
+      "start": 36.8,
+      "duration": 2.230000000000004,
+      "text": "and Opus. And while mixture of experts certainly made inference more efficient,"
+    },
+    {
+      "start": 39.03,
+      "duration": 0.00999999999999801,
+      "text": "certainly made inference more efficient,"
+    },
+    {
+      "start": 39.04,
+      "duration": 2.710000000000001,
+      "text": "certainly made inference more efficient, running inference on larger models today"
+    },
+    {
+      "start": 41.75,
+      "duration": 0.00999999999999801,
+      "text": "running inference on larger models today"
+    },
+    {
+      "start": 41.76,
+      "duration": 2.3900000000000006,
+      "text": "running inference on larger models today is extremely different compared to what"
+    },
+    {
+      "start": 44.15,
+      "duration": 0.00999999999999801,
+      "text": "is extremely different compared to what"
+    },
+    {
+      "start": 44.16,
+      "duration": 2.5490000000000066,
+      "text": "is extremely different compared to what we had even 5 years ago. And while the"
+    },
+    {
+      "start": 46.709,
+      "duration": 0.00999999999999801,
+      "text": "we had even 5 years ago. And while the"
+    },
+    {
+      "start": 46.719,
+      "duration": 2.9510000000000005,
+      "text": "we had even 5 years ago. And while the underlying technology like PCIe, HBM and"
+    },
+    {
+      "start": 49.67,
+      "duration": 0.00999999999999801,
+      "text": "underlying technology like PCIe, HBM and"
+    },
+    {
+      "start": 49.68,
+      "duration": 2.229999999999997,
+      "text": "underlying technology like PCIe, HBM and NVMe that are responsible for"
+    },
+    {
+      "start": 51.91,
+      "duration": 0.010000000000005116,
+      "text": "NVMe that are responsible for"
+    },
+    {
+      "start": 51.92,
+      "duration": 1.75,
+      "text": "NVMe that are responsible for communication between the memory"
+    },
+    {
+      "start": 53.67,
+      "duration": 0.00999999999999801,
+      "text": "communication between the memory"
+    },
+    {
+      "start": 53.68,
+      "duration": 3.8299999999999983,
+      "text": "communication between the memory hierarchy from SSD to CPU and RAM to GPU"
+    },
+    {
+      "start": 57.51,
+      "duration": 0.010000000000005116,
+      "text": "hierarchy from SSD to CPU and RAM to GPU"
+    },
+    {
+      "start": 57.52,
+      "duration": 2.3899999999999935,
+      "text": "hierarchy from SSD to CPU and RAM to GPU certainly improved over time. The pace"
+    },
+    {
+      "start": 59.91,
+      "duration": 0.010000000000005116,
+      "text": "certainly improved over time. The pace"
+    },
+    {
+      "start": 59.92,
+      "duration": 2.3900000000000006,
+      "text": "certainly improved over time. The pace of scaling that we saw from the model"
+    },
+    {
+      "start": 62.31,
+      "duration": 0.00999999999999801,
+      "text": "of scaling that we saw from the model"
+    },
+    {
+      "start": 62.32,
+      "duration": 2.8689999999999927,
+      "text": "of scaling that we saw from the model side certainly outpaced the underlying"
+    },
+    {
+      "start": 65.189,
+      "duration": 0.010000000000005116,
+      "text": "side certainly outpaced the underlying"
+    },
+    {
+      "start": 65.199,
+      "duration": 2.6310000000000002,
+      "text": "side certainly outpaced the underlying technology that actually supported. So"
+    },
+    {
+      "start": 67.83,
+      "duration": 0.010000000000005116,
+      "text": "technology that actually supported. So"
+    },
+    {
+      "start": 67.84,
+      "duration": 1.6700000000000017,
+      "text": "technology that actually supported. So we are still left with this challenge"
+    },
+    {
+      "start": 69.51,
+      "duration": 0.009999999999990905,
+      "text": "we are still left with this challenge"
+    },
+    {
+      "start": 69.52,
+      "duration": 2.1500000000000057,
+      "text": "we are still left with this challenge when it comes to inference. And today"
+    },
+    {
+      "start": 71.67,
+      "duration": 0.010000000000005116,
+      "text": "when it comes to inference. And today"
+    },
+    {
+      "start": 71.68,
+      "duration": 2.069999999999993,
+      "text": "when it comes to inference. And today we're going to find out why. Welcome to"
+    },
+    {
+      "start": 73.75,
+      "duration": 0.010000000000005116,
+      "text": "we're going to find out why. Welcome to"
+    },
+    {
+      "start": 73.76,
+      "duration": 1.75,
+      "text": "we're going to find out why. Welcome to Kilobbright's Code, where every second"
+    },
+    {
+      "start": 75.51,
+      "duration": 0.009999999999990905,
+      "text": "Kilobbright's Code, where every second"
+    },
+    {
+      "start": 75.52,
+      "duration": 1.990000000000009,
+      "text": "Kilobbright's Code, where every second counts. Quick shout out to Nvidia. More"
+    },
+    {
+      "start": 77.51,
+      "duration": 0.009999999999990905,
+      "text": "counts. Quick shout out to Nvidia. More"
+    },
+    {
+      "start": 77.52,
+      "duration": 3.1899999999999977,
+      "text": "counts. Quick shout out to Nvidia. More on them later. Until 2021, most models"
+    },
+    {
+      "start": 80.71,
+      "duration": 0.010000000000005116,
+      "text": "on them later. Until 2021, most models"
+    },
+    {
+      "start": 80.72,
+      "duration": 2.469999999999999,
+      "text": "on them later. Until 2021, most models were smaller than 1 billion parameters"
+    },
+    {
+      "start": 83.19,
+      "duration": 0.010000000000005116,
+      "text": "were smaller than 1 billion parameters"
+    },
+    {
+      "start": 83.2,
+      "duration": 3.4299999999999926,
+      "text": "were smaller than 1 billion parameters in size. For example, GPT1 from OpenAI"
+    },
+    {
+      "start": 86.63,
+      "duration": 0.010000000000005116,
+      "text": "in size. For example, GPT1 from OpenAI"
+    },
+    {
+      "start": 86.64,
+      "duration": 3.4299999999999926,
+      "text": "in size. For example, GPT1 from OpenAI was at 117 million parameters. And even"
+    },
+    {
+      "start": 90.07,
+      "duration": 0.010000000000005116,
+      "text": "was at 117 million parameters. And even"
+    },
+    {
+      "start": 90.08,
+      "duration": 3.5900000000000034,
+      "text": "was at 117 million parameters. And even the later GPT2 model from OpenAI was 1.5"
+    },
+    {
+      "start": 93.67,
+      "duration": 0.010000000000005116,
+      "text": "the later GPT2 model from OpenAI was 1.5"
+    },
+    {
+      "start": 93.68,
+      "duration": 2.2299999999999898,
+      "text": "the later GPT2 model from OpenAI was 1.5 billion parameters, which means most"
+    },
+    {
+      "start": 95.91,
+      "duration": 0.010000000000005116,
+      "text": "billion parameters, which means most"
+    },
+    {
+      "start": 95.92,
+      "duration": 2.228999999999999,
+      "text": "billion parameters, which means most graphics cards back then could easily"
+    },
+    {
+      "start": 98.149,
+      "duration": 0.010000000000005116,
+      "text": "graphics cards back then could easily"
+    },
+    {
+      "start": 98.159,
+      "duration": 2.390999999999991,
+      "text": "graphics cards back then could easily run inference without having to split"
+    },
+    {
+      "start": 100.55,
+      "duration": 0.010000000000005116,
+      "text": "run inference without having to split"
+    },
+    {
+      "start": 100.56,
+      "duration": 2.5489999999999924,
+      "text": "run inference without having to split the model up across multiple graphics"
+    },
+    {
+      "start": 103.109,
+      "duration": 0.010000000000005116,
+      "text": "the model up across multiple graphics"
+    },
+    {
+      "start": 103.119,
+      "duration": 2.3100000000000023,
+      "text": "the model up across multiple graphics cards. So in this scenario, you might"
+    },
+    {
+      "start": 105.429,
+      "duration": 0.009999999999990905,
+      "text": "cards. So in this scenario, you might"
+    },
+    {
+      "start": 105.439,
+      "duration": 2.2310000000000088,
+      "text": "cards. So in this scenario, you might think it's better to have two graphics"
+    },
+    {
+      "start": 107.67,
+      "duration": 0.010000000000005116,
+      "text": "think it's better to have two graphics"
+    },
+    {
+      "start": 107.68,
+      "duration": 2.468999999999994,
+      "text": "think it's better to have two graphics cards and each card running inference"
+    },
+    {
+      "start": 110.149,
+      "duration": 0.010000000000005116,
+      "text": "cards and each card running inference"
+    },
+    {
+      "start": 110.159,
+      "duration": 3.11099999999999,
+      "text": "cards and each card running inference for GBT1 and the other for GBT2"
+    },
+    {
+      "start": 113.27,
+      "duration": 0.010000000000005116,
+      "text": "for GBT1 and the other for GBT2"
+    },
+    {
+      "start": 113.28,
+      "duration": 1.9099999999999966,
+      "text": "for GBT1 and the other for GBT2 separately. But according to a case"
+    },
+    {
+      "start": 115.19,
+      "duration": 0.010000000000005116,
+      "text": "separately. But according to a case"
+    },
+    {
+      "start": 115.2,
+      "duration": 2.069999999999993,
+      "text": "separately. But according to a case study from opposerve paper, they found"
+    },
+    {
+      "start": 117.27,
+      "duration": 0.010000000000005116,
+      "text": "study from opposerve paper, they found"
+    },
+    {
+      "start": 117.28,
+      "duration": 2.549999999999997,
+      "text": "study from opposerve paper, they found that there's actually a 1.3 times"
+    },
+    {
+      "start": 119.83,
+      "duration": 0.010000000000005116,
+      "text": "that there's actually a 1.3 times"
+    },
+    {
+      "start": 119.84,
+      "duration": 1.8299999999999983,
+      "text": "that there's actually a 1.3 times performance improvement when we"
+    },
+    {
+      "start": 121.67,
+      "duration": 0.010000000000005116,
+      "text": "performance improvement when we"
+    },
+    {
+      "start": 121.68,
+      "duration": 2.549999999999997,
+      "text": "performance improvement when we intentionally split the model across two"
+    },
+    {
+      "start": 124.23,
+      "duration": 0.009999999999990905,
+      "text": "intentionally split the model across two"
+    },
+    {
+      "start": 124.24,
+      "duration": 2.8689999999999998,
+      "text": "intentionally split the model across two cards. So both graphics cards play a"
+    },
+    {
+      "start": 127.109,
+      "duration": 0.010000000000005116,
+      "text": "cards. So both graphics cards play a"
+    },
+    {
+      "start": 127.119,
+      "duration": 2.7110000000000127,
+      "text": "cards. So both graphics cards play a partial role in serving the model. Now"
+    },
+    {
+      "start": 129.83,
+      "duration": 0.009999999999990905,
+      "text": "partial role in serving the model. Now"
+    },
+    {
+      "start": 129.84,
+      "duration": 2.069999999999993,
+      "text": "partial role in serving the model. Now this might sound counterintuitive at"
+    },
+    {
+      "start": 131.91,
+      "duration": 0.009999999999990905,
+      "text": "this might sound counterintuitive at"
+    },
+    {
+      "start": 131.92,
+      "duration": 2.230000000000018,
+      "text": "this might sound counterintuitive at first. I mean, wouldn't the overhead in"
+    },
+    {
+      "start": 134.15,
+      "duration": 0.009999999999990905,
+      "text": "first. I mean, wouldn't the overhead in"
+    },
+    {
+      "start": 134.16,
+      "duration": 2.2299999999999898,
+      "text": "first. I mean, wouldn't the overhead in coordinating between two cards be"
+    },
+    {
+      "start": 136.39,
+      "duration": 0.010000000000019327,
+      "text": "coordinating between two cards be"
+    },
+    {
+      "start": 136.4,
+      "duration": 2.3899999999999864,
+      "text": "coordinating between two cards be greater than running them independently?"
+    },
+    {
+      "start": 138.79,
+      "duration": 0.010000000000019327,
+      "text": "greater than running them independently?"
+    },
+    {
+      "start": 138.8,
+      "duration": 2.0689999999999884,
+      "text": "greater than running them independently? Turns out splitting up the model this"
+    },
+    {
+      "start": 140.869,
+      "duration": 0.009999999999990905,
+      "text": "Turns out splitting up the model this"
+    },
+    {
+      "start": 140.879,
+      "duration": 2.6310000000000002,
+      "text": "Turns out splitting up the model this way actually handled random bursts of"
+    },
+    {
+      "start": 143.51,
+      "duration": 0.010000000000019327,
+      "text": "way actually handled random bursts of"
+    },
+    {
+      "start": 143.52,
+      "duration": 2.3899999999999864,
+      "text": "way actually handled random bursts of demand for inference much better. And"
+    },
+    {
+      "start": 145.91,
+      "duration": 0.009999999999990905,
+      "text": "demand for inference much better. And"
+    },
+    {
+      "start": 145.92,
+      "duration": 2.0700000000000216,
+      "text": "demand for inference much better. And here's why. First, when we look at"
+    },
+    {
+      "start": 147.99,
+      "duration": 0.009999999999990905,
+      "text": "here's why. First, when we look at"
+    },
+    {
+      "start": 148,
+      "duration": 2.5500000000000114,
+      "text": "here's why. First, when we look at utilization of the cluster of GPUs"
+    },
+    {
+      "start": 150.55,
+      "duration": 0.009999999999990905,
+      "text": "utilization of the cluster of GPUs"
+    },
+    {
+      "start": 150.56,
+      "duration": 2.3089999999999975,
+      "text": "utilization of the cluster of GPUs because the model is split between two"
+    },
+    {
+      "start": 152.869,
+      "duration": 0.009999999999990905,
+      "text": "because the model is split between two"
+    },
+    {
+      "start": 152.879,
+      "duration": 3.1110000000000184,
+      "text": "because the model is split between two cards, each request is nearly guaranteed"
+    },
+    {
+      "start": 155.99,
+      "duration": 0.009999999999990905,
+      "text": "cards, each request is nearly guaranteed"
+    },
+    {
+      "start": 156,
+      "duration": 3.030000000000001,
+      "text": "cards, each request is nearly guaranteed 100% utilization since both cards need"
+    },
+    {
+      "start": 159.03,
+      "duration": 0.009999999999990905,
+      "text": "100% utilization since both cards need"
+    },
+    {
+      "start": 159.04,
+      "duration": 2.710000000000008,
+      "text": "100% utilization since both cards need to work to process each request. But"
+    },
+    {
+      "start": 161.75,
+      "duration": 0.009999999999990905,
+      "text": "to work to process each request. But"
+    },
+    {
+      "start": 161.76,
+      "duration": 1.5900000000000034,
+      "text": "to work to process each request. But more importantly, there's a metric"
+    },
+    {
+      "start": 163.35,
+      "duration": 0.010000000000019327,
+      "text": "more importantly, there's a metric"
+    },
+    {
+      "start": 163.36,
+      "duration": 2.789999999999992,
+      "text": "more importantly, there's a metric called SLO or service level objective."
+    },
+    {
+      "start": 166.15,
+      "duration": 0.009999999999990905,
+      "text": "called SLO or service level objective."
+    },
+    {
+      "start": 166.16,
+      "duration": 2.149000000000001,
+      "text": "called SLO or service level objective. Let's say a single forward pass of the"
+    },
+    {
+      "start": 168.309,
+      "duration": 0.009999999999990905,
+      "text": "Let's say a single forward pass of the"
+    },
+    {
+      "start": 168.319,
+      "duration": 2.7910000000000252,
+      "text": "Let's say a single forward pass of the model takes around 0.4 seconds. Which"
+    },
+    {
+      "start": 171.11,
+      "duration": 0.009999999999990905,
+      "text": "model takes around 0.4 seconds. Which"
+    },
+    {
+      "start": 171.12,
+      "duration": 2.9499999999999886,
+      "text": "model takes around 0.4 seconds. Which means given an optimal setup, users can"
+    },
+    {
+      "start": 174.07,
+      "duration": 0.010000000000019327,
+      "text": "means given an optimal setup, users can"
+    },
+    {
+      "start": 174.08,
+      "duration": 2.3899999999999864,
+      "text": "means given an optimal setup, users can expect the first token to be produced at"
+    },
+    {
+      "start": 176.47,
+      "duration": 0.009999999999990905,
+      "text": "expect the first token to be produced at"
+    },
+    {
+      "start": 176.48,
+      "duration": 3.0289999999999964,
+      "text": "expect the first token to be produced at a minimum of 0.4 seconds. But we know"
+    },
+    {
+      "start": 179.509,
+      "duration": 0.010000000000019327,
+      "text": "a minimum of 0.4 seconds. But we know"
+    },
+    {
+      "start": 179.519,
+      "duration": 1.9110000000000014,
+      "text": "a minimum of 0.4 seconds. But we know that in reality, we're never really"
+    },
+    {
+      "start": 181.43,
+      "duration": 0.009999999999990905,
+      "text": "that in reality, we're never really"
+    },
+    {
+      "start": 181.44,
+      "duration": 2.0689999999999884,
+      "text": "that in reality, we're never really going to get this theoretical minimum"
+    },
+    {
+      "start": 183.509,
+      "duration": 0.010000000000019327,
+      "text": "going to get this theoretical minimum"
+    },
+    {
+      "start": 183.519,
+      "duration": 2.069999999999993,
+      "text": "going to get this theoretical minimum because that assumes inference will run"
+    },
+    {
+      "start": 185.589,
+      "duration": 0.009999999999990905,
+      "text": "because that assumes inference will run"
+    },
+    {
+      "start": 185.599,
+      "duration": 2.630000000000024,
+      "text": "because that assumes inference will run optimally every single time. So more"
+    },
+    {
+      "start": 188.229,
+      "duration": 0.009999999999990905,
+      "text": "optimally every single time. So more"
+    },
+    {
+      "start": 188.239,
+      "duration": 2.069999999999993,
+      "text": "optimally every single time. So more realistically, in order to create a"
+    },
+    {
+      "start": 190.309,
+      "duration": 0.009999999999990905,
+      "text": "realistically, in order to create a"
+    },
+    {
+      "start": 190.319,
+      "duration": 2.630000000000024,
+      "text": "realistically, in order to create a reasonable buffer of what's considered"
+    },
+    {
+      "start": 192.949,
+      "duration": 0.009999999999990905,
+      "text": "reasonable buffer of what's considered"
+    },
+    {
+      "start": 192.959,
+      "duration": 2.7109999999999843,
+      "text": "reasonable buffer of what's considered an acceptable range of time, we scale"
+    },
+    {
+      "start": 195.67,
+      "duration": 0.010000000000019327,
+      "text": "an acceptable range of time, we scale"
+    },
+    {
+      "start": 195.68,
+      "duration": 3.030000000000001,
+      "text": "an acceptable range of time, we scale the 0.4 seconds to a much bigger number."
+    },
+    {
+      "start": 198.71,
+      "duration": 0.009999999999990905,
+      "text": "the 0.4 seconds to a much bigger number."
+    },
+    {
+      "start": 198.72,
+      "duration": 2.710000000000008,
+      "text": "the 0.4 seconds to a much bigger number. For example, scaling SLO to be five"
+    },
+    {
+      "start": 201.43,
+      "duration": 0.009999999999990905,
+      "text": "For example, scaling SLO to be five"
+    },
+    {
+      "start": 201.44,
+      "duration": 3.8300000000000125,
+      "text": "For example, scaling SLO to be five would mean 0.4 * 5, which is 2 seconds."
+    },
+    {
+      "start": 205.27,
+      "duration": 0.009999999999990905,
+      "text": "would mean 0.4 * 5, which is 2 seconds."
+    },
+    {
+      "start": 205.28,
+      "duration": 2.5500000000000114,
+      "text": "would mean 0.4 * 5, which is 2 seconds. So any request that took longer than 2"
+    },
+    {
+      "start": 207.83,
+      "duration": 0.009999999999990905,
+      "text": "So any request that took longer than 2"
+    },
+    {
+      "start": 207.84,
+      "duration": 2.8700000000000045,
+      "text": "So any request that took longer than 2 seconds is considered unsuccessful. Now"
+    },
+    {
+      "start": 210.71,
+      "duration": 0.009999999999990905,
+      "text": "seconds is considered unsuccessful. Now"
+    },
+    {
+      "start": 210.72,
+      "duration": 2.5500000000000114,
+      "text": "seconds is considered unsuccessful. Now based on this very metric, if we compare"
+    },
+    {
+      "start": 213.27,
+      "duration": 0.009999999999990905,
+      "text": "based on this very metric, if we compare"
+    },
+    {
+      "start": 213.28,
+      "duration": 2.228999999999985,
+      "text": "based on this very metric, if we compare inference between serving one model"
+    },
+    {
+      "start": 215.509,
+      "duration": 0.010000000000019327,
+      "text": "inference between serving one model"
+    },
+    {
+      "start": 215.519,
+      "duration": 2.710000000000008,
+      "text": "inference between serving one model individually in each card and compare"
+    },
+    {
+      "start": 218.229,
+      "duration": 0.009999999999990905,
+      "text": "individually in each card and compare"
+    },
+    {
+      "start": 218.239,
+      "duration": 2.9509999999999934,
+      "text": "individually in each card and compare them to both models split across both"
+    },
+    {
+      "start": 221.19,
+      "duration": 0.009999999999990905,
+      "text": "them to both models split across both"
+    },
+    {
+      "start": 221.2,
+      "duration": 2.38900000000001,
+      "text": "them to both models split across both cards, you see a huge improvement in"
+    },
+    {
+      "start": 223.589,
+      "duration": 0.009999999999990905,
+      "text": "cards, you see a huge improvement in"
+    },
+    {
+      "start": 223.599,
+      "duration": 1.9099999999999966,
+      "text": "cards, you see a huge improvement in inference when it comes to just how"
+    },
+    {
+      "start": 225.509,
+      "duration": 0.010000000000019327,
+      "text": "inference when it comes to just how"
+    },
+    {
+      "start": 225.519,
+      "duration": 2.5509999999999877,
+      "text": "inference when it comes to just how bursty the inference actually is. Now"
+    },
+    {
+      "start": 228.07,
+      "duration": 0.010000000000019327,
+      "text": "bursty the inference actually is. Now"
+    },
+    {
+      "start": 228.08,
+      "duration": 1.6699999999999875,
+      "text": "bursty the inference actually is. Now you might look at this and be rather"
+    },
+    {
+      "start": 229.75,
+      "duration": 0.009999999999990905,
+      "text": "you might look at this and be rather"
+    },
+    {
+      "start": 229.76,
+      "duration": 2.0700000000000216,
+      "text": "you might look at this and be rather unimpressed by the performance gate that"
+    },
+    {
+      "start": 231.83,
+      "duration": 0.009999999999990905,
+      "text": "unimpressed by the performance gate that"
+    },
+    {
+      "start": 231.84,
+      "duration": 2.069999999999993,
+      "text": "unimpressed by the performance gate that we see here. But when the request"
+    },
+    {
+      "start": 233.91,
+      "duration": 0.009999999999990905,
+      "text": "we see here. But when the request"
+    },
+    {
+      "start": 233.92,
+      "duration": 1.990000000000009,
+      "text": "we see here. But when the request actually look closer to the paro"
+    },
+    {
+      "start": 235.91,
+      "duration": 0.009999999999990905,
+      "text": "actually look closer to the paro"
+    },
+    {
+      "start": 235.92,
+      "duration": 2.309000000000026,
+      "text": "actually look closer to the paro principle where 80% of the request goes"
+    },
+    {
+      "start": 238.229,
+      "duration": 0.009999999999990905,
+      "text": "principle where 80% of the request goes"
+    },
+    {
+      "start": 238.239,
+      "duration": 3.5109999999999957,
+      "text": "principle where 80% of the request goes to the newer GPT2 model and 20% still"
+    },
+    {
+      "start": 241.75,
+      "duration": 0.009999999999990905,
+      "text": "to the newer GPT2 model and 20% still"
+    },
+    {
+      "start": 241.76,
+      "duration": 2.8700000000000045,
+      "text": "to the newer GPT2 model and 20% still goes to the older GPT1 model there's a"
+    },
+    {
+      "start": 244.63,
+      "duration": 0.009999999999990905,
+      "text": "goes to the older GPT1 model there's a"
+    },
+    {
+      "start": 244.64,
+      "duration": 3.430000000000007,
+      "text": "goes to the older GPT1 model there's a 6.6 times lower latency in comparison"
+    },
+    {
+      "start": 248.07,
+      "duration": 0.010000000000019327,
+      "text": "6.6 times lower latency in comparison"
+    },
+    {
+      "start": 248.08,
+      "duration": 2.149000000000001,
+      "text": "6.6 times lower latency in comparison which is an incredible optimization in"
+    },
+    {
+      "start": 250.229,
+      "duration": 0.009999999999990905,
+      "text": "which is an incredible optimization in"
+    },
+    {
+      "start": 250.239,
+      "duration": 2.150999999999982,
+      "text": "which is an incredible optimization in inference. Now obviously there's a limit"
+    },
+    {
+      "start": 252.39,
+      "duration": 0.010000000000019327,
+      "text": "inference. Now obviously there's a limit"
+    },
+    {
+      "start": 252.4,
+      "duration": 2.5490000000000066,
+      "text": "inference. Now obviously there's a limit to the optimization where past a certain"
+    },
+    {
+      "start": 254.949,
+      "duration": 0.009999999999990905,
+      "text": "to the optimization where past a certain"
+    },
+    {
+      "start": 254.959,
+      "duration": 2.3899999999999864,
+      "text": "to the optimization where past a certain point it actually punishes in latency"
+    },
+    {
+      "start": 257.349,
+      "duration": 0.009999999999990905,
+      "text": "point it actually punishes in latency"
+    },
+    {
+      "start": 257.359,
+      "duration": 2.0710000000000264,
+      "text": "point it actually punishes in latency more than it actually benefits them and"
+    },
+    {
+      "start": 259.43,
+      "duration": 0.009999999999990905,
+      "text": "more than it actually benefits them and"
+    },
+    {
+      "start": 259.44,
+      "duration": 2.230000000000018,
+      "text": "more than it actually benefits them and that happens as the available memory"
+    },
+    {
+      "start": 261.67,
+      "duration": 0.009999999999990905,
+      "text": "that happens as the available memory"
+    },
+    {
+      "start": 261.68,
+      "duration": 2.4699999999999704,
+      "text": "that happens as the available memory from graphics cards get bigger. In other"
+    },
+    {
+      "start": 264.15,
+      "duration": 0.010000000000047748,
+      "text": "from graphics cards get bigger. In other"
+    },
+    {
+      "start": 264.16,
+      "duration": 1.9099999999999682,
+      "text": "from graphics cards get bigger. In other words, there's a certain point where the"
+    },
+    {
+      "start": 266.07,
+      "duration": 0.009999999999990905,
+      "text": "words, there's a certain point where the"
+    },
+    {
+      "start": 266.08,
+      "duration": 2.6299999999999955,
+      "text": "words, there's a certain point where the memory availability gets big enough that"
+    },
+    {
+      "start": 268.71,
+      "duration": 0.010000000000047748,
+      "text": "memory availability gets big enough that"
+    },
+    {
+      "start": 268.72,
+      "duration": 2.5499999999999545,
+      "text": "memory availability gets big enough that it makes more sense to just run multiple"
+    },
+    {
+      "start": 271.27,
+      "duration": 0.009999999999990905,
+      "text": "it makes more sense to just run multiple"
+    },
+    {
+      "start": 271.28,
+      "duration": 2.3100000000000023,
+      "text": "it makes more sense to just run multiple models in one card rather than splitting"
+    },
+    {
+      "start": 273.59,
+      "duration": 0.010000000000047748,
+      "text": "models in one card rather than splitting"
+    },
+    {
+      "start": 273.6,
+      "duration": 1.829999999999984,
+      "text": "models in one card rather than splitting them up. Now this kind of setup is"
+    },
+    {
+      "start": 275.43,
+      "duration": 0.009999999999990905,
+      "text": "them up. Now this kind of setup is"
+    },
+    {
+      "start": 275.44,
+      "duration": 2.230000000000018,
+      "text": "them up. Now this kind of setup is largely irrelevant today because not"
+    },
+    {
+      "start": 277.67,
+      "duration": 0.009999999999990905,
+      "text": "largely irrelevant today because not"
+    },
+    {
+      "start": 277.68,
+      "duration": 2.3899999999999864,
+      "text": "largely irrelevant today because not only did our underlying model change so"
+    },
+    {
+      "start": 280.07,
+      "duration": 0.009999999999990905,
+      "text": "only did our underlying model change so"
+    },
+    {
+      "start": 280.08,
+      "duration": 3.1090000000000373,
+      "text": "only did our underlying model change so much. Nvidia's cards also improved quite"
+    },
+    {
+      "start": 283.189,
+      "duration": 0.009999999999990905,
+      "text": "much. Nvidia's cards also improved quite"
+    },
+    {
+      "start": 283.199,
+      "duration": 2.1510000000000105,
+      "text": "much. Nvidia's cards also improved quite dramatically which means what we need"
+    },
+    {
+      "start": 285.35,
+      "duration": 0.009999999999990905,
+      "text": "dramatically which means what we need"
+    },
+    {
+      "start": 285.36,
+      "duration": 2.2299999999999613,
+      "text": "dramatically which means what we need from the inference engines today is"
+    },
+    {
+      "start": 287.59,
+      "duration": 0.010000000000047748,
+      "text": "from the inference engines today is"
+    },
+    {
+      "start": 287.6,
+      "duration": 1.9099999999999682,
+      "text": "from the inference engines today is vastly different than what we needed"
+    },
+    {
+      "start": 289.51,
+      "duration": 0.009999999999990905,
+      "text": "vastly different than what we needed"
+    },
+    {
+      "start": 289.52,
+      "duration": 2.229000000000042,
+      "text": "vastly different than what we needed from back then. We now need to reserve"
+    },
+    {
+      "start": 291.749,
+      "duration": 0.009999999999990905,
+      "text": "from back then. We now need to reserve"
+    },
+    {
+      "start": 291.759,
+      "duration": 2.950999999999965,
+      "text": "from back then. We now need to reserve an entire cluster of GPUs just to fit"
+    },
+    {
+      "start": 294.71,
+      "duration": 0.010000000000047748,
+      "text": "an entire cluster of GPUs just to fit"
+    },
+    {
+      "start": 294.72,
+      "duration": 2.3899999999999864,
+      "text": "an entire cluster of GPUs just to fit the model for inference. For example,"
+    },
+    {
+      "start": 297.11,
+      "duration": 0.009999999999990905,
+      "text": "the model for inference. For example,"
+    },
+    {
+      "start": 297.12,
+      "duration": 2.5500000000000114,
+      "text": "the model for inference. For example, assuming Grock 4 is a two trillion"
+    },
+    {
+      "start": 299.67,
+      "duration": 0.009999999999990905,
+      "text": "assuming Grock 4 is a two trillion"
+    },
+    {
+      "start": 299.68,
+      "duration": 2.3100000000000023,
+      "text": "assuming Grock 4 is a two trillion parameter model in size, the memory"
+    },
+    {
+      "start": 301.99,
+      "duration": 0.009999999999990905,
+      "text": "parameter model in size, the memory"
+    },
+    {
+      "start": 302,
+      "duration": 2.7099999999999795,
+      "text": "parameter model in size, the memory required even at an in4 precision would"
+    },
+    {
+      "start": 304.71,
+      "duration": 0.010000000000047748,
+      "text": "required even at an in4 precision would"
+    },
+    {
+      "start": 304.72,
+      "duration": 2.1499999999999773,
+      "text": "required even at an in4 precision would be 1 terabytes where even the newest"
+    },
+    {
+      "start": 306.87,
+      "duration": 0.009999999999990905,
+      "text": "be 1 terabytes where even the newest"
+    },
+    {
+      "start": 306.88,
+      "duration": 2.069999999999993,
+      "text": "be 1 terabytes where even the newest Ruben chip needs at least four of them."
+    },
+    {
+      "start": 308.95,
+      "duration": 0.009999999999990905,
+      "text": "Ruben chip needs at least four of them."
+    },
+    {
+      "start": 308.96,
+      "duration": 1.990000000000009,
+      "text": "Ruben chip needs at least four of them. With not only that, we now have proven"
+    },
+    {
+      "start": 310.95,
+      "duration": 0.009999999999990905,
+      "text": "With not only that, we now have proven"
+    },
+    {
+      "start": 310.96,
+      "duration": 1.75,
+      "text": "With not only that, we now have proven demand from users that we can"
+    },
+    {
+      "start": 312.71,
+      "duration": 0.010000000000047748,
+      "text": "demand from users that we can"
+    },
+    {
+      "start": 312.72,
+      "duration": 2.6299999999999955,
+      "text": "demand from users that we can essentially dedicate an entire fleet of"
+    },
+    {
+      "start": 315.35,
+      "duration": 0.009999999999990905,
+      "text": "essentially dedicate an entire fleet of"
+    },
+    {
+      "start": 315.36,
+      "duration": 3.1089999999999804,
+      "text": "essentially dedicate an entire fleet of GPUs for a single model inference. All"
+    },
+    {
+      "start": 318.469,
+      "duration": 0.009999999999990905,
+      "text": "GPUs for a single model inference. All"
+    },
+    {
+      "start": 318.479,
+      "duration": 1.9110000000000014,
+      "text": "GPUs for a single model inference. All this means that optimization on the"
+    },
+    {
+      "start": 320.39,
+      "duration": 0.009999999999990905,
+      "text": "this means that optimization on the"
+    },
+    {
+      "start": 320.4,
+      "duration": 2.390000000000043,
+      "text": "this means that optimization on the inference engine is shifting away from"
+    },
+    {
+      "start": 322.79,
+      "duration": 0.009999999999990905,
+      "text": "inference engine is shifting away from"
+    },
+    {
+      "start": 322.8,
+      "duration": 1.8290000000000077,
+      "text": "inference engine is shifting away from scheduling different models to run"
+    },
+    {
+      "start": 324.629,
+      "duration": 0.009999999999990905,
+      "text": "scheduling different models to run"
+    },
+    {
+      "start": 324.639,
+      "duration": 2.950999999999965,
+      "text": "scheduling different models to run concurrently to optimization in actually"
+    },
+    {
+      "start": 327.59,
+      "duration": 0.010000000000047748,
+      "text": "concurrently to optimization in actually"
+    },
+    {
+      "start": 327.6,
+      "duration": 2.308999999999969,
+      "text": "concurrently to optimization in actually serving the single model optimally. For"
+    },
+    {
+      "start": 329.909,
+      "duration": 0.009999999999990905,
+      "text": "serving the single model optimally. For"
+    },
+    {
+      "start": 329.919,
+      "duration": 2.0710000000000264,
+      "text": "serving the single model optimally. For example, one of the first optimizations"
+    },
+    {
+      "start": 331.99,
+      "duration": 0.009999999999990905,
+      "text": "example, one of the first optimizations"
+    },
+    {
+      "start": 332,
+      "duration": 2.069999999999993,
+      "text": "example, one of the first optimizations that's common today is when it comes to"
+    },
+    {
+      "start": 334.07,
+      "duration": 0.009999999999990905,
+      "text": "that's common today is when it comes to"
+    },
+    {
+      "start": 334.08,
+      "duration": 2.069999999999993,
+      "text": "that's common today is when it comes to batching. In our previous example, we"
+    },
+    {
+      "start": 336.15,
+      "duration": 0.010000000000047748,
+      "text": "batching. In our previous example, we"
+    },
+    {
+      "start": 336.16,
+      "duration": 2.1499999999999773,
+      "text": "batching. In our previous example, we saw that single forward pass that takes"
+    },
+    {
+      "start": 338.31,
+      "duration": 0.009999999999990905,
+      "text": "saw that single forward pass that takes"
+    },
+    {
+      "start": 338.32,
+      "duration": 3.75,
+      "text": "saw that single forward pass that takes 0.4 seconds with an SLO scale of five"
+    },
+    {
+      "start": 342.07,
+      "duration": 0.009999999999990905,
+      "text": "0.4 seconds with an SLO scale of five"
+    },
+    {
+      "start": 342.08,
+      "duration": 2.150000000000034,
+      "text": "0.4 seconds with an SLO scale of five means we have up to 2 seconds to play"
+    },
+    {
+      "start": 344.23,
+      "duration": 0.009999999999990905,
+      "text": "means we have up to 2 seconds to play"
+    },
+    {
+      "start": 344.24,
+      "duration": 1.6689999999999827,
+      "text": "means we have up to 2 seconds to play around with. And because we're dealing"
+    },
+    {
+      "start": 345.909,
+      "duration": 0.009999999999990905,
+      "text": "around with. And because we're dealing"
+    },
+    {
+      "start": 345.919,
+      "duration": 2.4710000000000036,
+      "text": "around with. And because we're dealing with inference of a single model, we can"
+    },
+    {
+      "start": 348.39,
+      "duration": 0.009999999999990905,
+      "text": "with inference of a single model, we can"
+    },
+    {
+      "start": 348.4,
+      "duration": 2.390000000000043,
+      "text": "with inference of a single model, we can expect all incoming requests from users"
+    },
+    {
+      "start": 350.79,
+      "duration": 0.009999999999990905,
+      "text": "expect all incoming requests from users"
+    },
+    {
+      "start": 350.8,
+      "duration": 1.9099999999999682,
+      "text": "expect all incoming requests from users to be targeting the same model for"
+    },
+    {
+      "start": 352.71,
+      "duration": 0.010000000000047748,
+      "text": "to be targeting the same model for"
+    },
+    {
+      "start": 352.72,
+      "duration": 2.7099999999999795,
+      "text": "to be targeting the same model for inference. So theoretically, we have 2"
+    },
+    {
+      "start": 355.43,
+      "duration": 0.009999999999990905,
+      "text": "inference. So theoretically, we have 2"
+    },
+    {
+      "start": 355.44,
+      "duration": 2.8700000000000045,
+      "text": "inference. So theoretically, we have 2 seconds of grace period to maximize our"
+    },
+    {
+      "start": 358.31,
+      "duration": 0.009999999999990905,
+      "text": "seconds of grace period to maximize our"
+    },
+    {
+      "start": 358.32,
+      "duration": 2.230000000000018,
+      "text": "seconds of grace period to maximize our efficiency. Let's say during this 2cond"
+    },
+    {
+      "start": 360.55,
+      "duration": 0.009999999999990905,
+      "text": "efficiency. Let's say during this 2cond"
+    },
+    {
+      "start": 360.56,
+      "duration": 1.589999999999975,
+      "text": "efficiency. Let's say during this 2cond time gap, there are eight different"
+    },
+    {
+      "start": 362.15,
+      "duration": 0.010000000000047748,
+      "text": "time gap, there are eight different"
+    },
+    {
+      "start": 362.16,
+      "duration": 2.149000000000001,
+      "text": "time gap, there are eight different requests that come in for inference. But"
+    },
+    {
+      "start": 364.309,
+      "duration": 0.009999999999990905,
+      "text": "requests that come in for inference. But"
+    },
+    {
+      "start": 364.319,
+      "duration": 2.2309999999999945,
+      "text": "requests that come in for inference. But processing eight requests individually"
+    },
+    {
+      "start": 366.55,
+      "duration": 0.009999999999990905,
+      "text": "processing eight requests individually"
+    },
+    {
+      "start": 366.56,
+      "duration": 2.629000000000019,
+      "text": "processing eight requests individually means for each request, the kernel reads"
+    },
+    {
+      "start": 369.189,
+      "duration": 0.009999999999990905,
+      "text": "means for each request, the kernel reads"
+    },
+    {
+      "start": 369.199,
+      "duration": 2.3109999999999786,
+      "text": "means for each request, the kernel reads the model's weights from memory and move"
+    },
+    {
+      "start": 371.51,
+      "duration": 0.009999999999990905,
+      "text": "the model's weights from memory and move"
+    },
+    {
+      "start": 371.52,
+      "duration": 1.990000000000009,
+      "text": "the model's weights from memory and move them to the GPU registers to do"
+    },
+    {
+      "start": 373.51,
+      "duration": 0.009999999999990905,
+      "text": "them to the GPU registers to do"
+    },
+    {
+      "start": 373.52,
+      "duration": 1.990000000000009,
+      "text": "them to the GPU registers to do computation depending on the type of"
+    },
+    {
+      "start": 375.51,
+      "duration": 0.009999999999990905,
+      "text": "computation depending on the type of"
+    },
+    {
+      "start": 375.52,
+      "duration": 1.990000000000009,
+      "text": "computation depending on the type of work that's needed like general matrix"
+    },
+    {
+      "start": 377.51,
+      "duration": 0.009999999999990905,
+      "text": "work that's needed like general matrix"
+    },
+    {
+      "start": 377.52,
+      "duration": 2.8700000000000045,
+      "text": "work that's needed like general matrix multiplication, layer norm, softmax or"
+    },
+    {
+      "start": 380.39,
+      "duration": 0.009999999999990905,
+      "text": "multiplication, layer norm, softmax or"
+    },
+    {
+      "start": 380.4,
+      "duration": 2.069000000000017,
+      "text": "multiplication, layer norm, softmax or attention. And batching would save the"
+    },
+    {
+      "start": 382.469,
+      "duration": 0.009999999999990905,
+      "text": "attention. And batching would save the"
+    },
+    {
+      "start": 382.479,
+      "duration": 2.3910000000000196,
+      "text": "attention. And batching would save the GPU from having to repeat the same"
+    },
+    {
+      "start": 384.87,
+      "duration": 0.009999999999990905,
+      "text": "GPU from having to repeat the same"
+    },
+    {
+      "start": 384.88,
+      "duration": 2.6299999999999955,
+      "text": "GPU from having to repeat the same kernel for each request all over again,"
+    },
+    {
+      "start": 387.51,
+      "duration": 0.009999999999990905,
+      "text": "kernel for each request all over again,"
+    },
+    {
+      "start": 387.52,
+      "duration": 2.5500000000000114,
+      "text": "kernel for each request all over again, but rather it can scale the input space"
+    },
+    {
+      "start": 390.07,
+      "duration": 0.009999999999990905,
+      "text": "but rather it can scale the input space"
+    },
+    {
+      "start": 390.08,
+      "duration": 2.7900000000000205,
+      "text": "but rather it can scale the input space to essentially do bigger math in large"
+    },
+    {
+      "start": 392.87,
+      "duration": 0.009999999999990905,
+      "text": "to essentially do bigger math in large"
+    },
+    {
+      "start": 392.88,
+      "duration": 1.910000000000025,
+      "text": "to essentially do bigger math in large batch. It's also common to have"
+    },
+    {
+      "start": 394.79,
+      "duration": 0.009999999999990905,
+      "text": "batch. It's also common to have"
+    },
+    {
+      "start": 394.8,
+      "duration": 2.5500000000000114,
+      "text": "batch. It's also common to have inference engines now fuse commonly"
+    },
+    {
+      "start": 397.35,
+      "duration": 0.009999999999990905,
+      "text": "inference engines now fuse commonly"
+    },
+    {
+      "start": 397.36,
+      "duration": 2.2299999999999613,
+      "text": "inference engines now fuse commonly occurring kernel operations to squeeze"
+    },
+    {
+      "start": 399.59,
+      "duration": 0.010000000000047748,
+      "text": "occurring kernel operations to squeeze"
+    },
+    {
+      "start": 399.6,
+      "duration": 2.4699999999999704,
+      "text": "occurring kernel operations to squeeze out more optimization so that inference"
+    },
+    {
+      "start": 402.07,
+      "duration": 0.009999999999990905,
+      "text": "out more optimization so that inference"
+    },
+    {
+      "start": 402.08,
+      "duration": 2.6299999999999955,
+      "text": "out more optimization so that inference is faster. Now batching isn't the only"
+    },
+    {
+      "start": 404.71,
+      "duration": 0.010000000000047748,
+      "text": "is faster. Now batching isn't the only"
+    },
+    {
+      "start": 404.72,
+      "duration": 2.069999999999993,
+      "text": "is faster. Now batching isn't the only optimization we see nowadays. When we"
+    },
+    {
+      "start": 406.79,
+      "duration": 0.009999999999990905,
+      "text": "optimization we see nowadays. When we"
+    },
+    {
+      "start": 406.8,
+      "duration": 1.990000000000009,
+      "text": "optimization we see nowadays. When we look at growing context window where we"
+    },
+    {
+      "start": 408.79,
+      "duration": 0.009999999999990905,
+      "text": "look at growing context window where we"
+    },
+    {
+      "start": 408.8,
+      "duration": 2.5500000000000114,
+      "text": "look at growing context window where we went from 2,000 tokens to 1 million"
+    },
+    {
+      "start": 411.35,
+      "duration": 0.009999999999990905,
+      "text": "went from 2,000 tokens to 1 million"
+    },
+    {
+      "start": 411.36,
+      "duration": 2.6299999999999955,
+      "text": "went from 2,000 tokens to 1 million tokens, managing this memory that's"
+    },
+    {
+      "start": 413.99,
+      "duration": 0.009999999999990905,
+      "text": "tokens, managing this memory that's"
+    },
+    {
+      "start": 414,
+      "duration": 2.629000000000019,
+      "text": "tokens, managing this memory that's required to keep the growing KV cache in"
+    },
+    {
+      "start": 416.629,
+      "duration": 0.009999999999990905,
+      "text": "required to keep the growing KV cache in"
+    },
+    {
+      "start": 416.639,
+      "duration": 2.3899999999999864,
+      "text": "required to keep the growing KV cache in check is extremely important. And that"
+    },
+    {
+      "start": 419.029,
+      "duration": 0.009999999999990905,
+      "text": "check is extremely important. And that"
+    },
+    {
+      "start": 419.039,
+      "duration": 2.2309999999999945,
+      "text": "check is extremely important. And that has largely to do with the inefficient"
+    },
+    {
+      "start": 421.27,
+      "duration": 0.009999999999990905,
+      "text": "has largely to do with the inefficient"
+    },
+    {
+      "start": 421.28,
+      "duration": 3.029000000000053,
+      "text": "has largely to do with the inefficient scaling of attention and KV cache as the"
+    },
+    {
+      "start": 424.309,
+      "duration": 0.009999999999990905,
+      "text": "scaling of attention and KV cache as the"
+    },
+    {
+      "start": 424.319,
+      "duration": 2.2309999999999945,
+      "text": "scaling of attention and KV cache as the contact window grows. And it's really"
+    },
+    {
+      "start": 426.55,
+      "duration": 0.009999999999990905,
+      "text": "contact window grows. And it's really"
+    },
+    {
+      "start": 426.56,
+      "duration": 2.7099999999999795,
+      "text": "contact window grows. And it's really impossible to know upfront just how long"
+    },
+    {
+      "start": 429.27,
+      "duration": 0.009999999999990905,
+      "text": "impossible to know upfront just how long"
+    },
+    {
+      "start": 429.28,
+      "duration": 2.7900000000000205,
+      "text": "impossible to know upfront just how long the LLM's response is going to be. So"
+    },
+    {
+      "start": 432.07,
+      "duration": 0.009999999999990905,
+      "text": "the LLM's response is going to be. So"
+    },
+    {
+      "start": 432.08,
+      "duration": 2.4700000000000273,
+      "text": "the LLM's response is going to be. So knowing how much space to reserve up"
+    },
+    {
+      "start": 434.55,
+      "duration": 0.009999999999990905,
+      "text": "knowing how much space to reserve up"
+    },
+    {
+      "start": 434.56,
+      "duration": 3.269999999999982,
+      "text": "knowing how much space to reserve up front is not a trivial task to solve. We"
+    },
+    {
+      "start": 437.83,
+      "duration": 0.009999999999990905,
+      "text": "front is not a trivial task to solve. We"
+    },
+    {
+      "start": 437.84,
+      "duration": 1.5900000000000318,
+      "text": "front is not a trivial task to solve. We have seen an incredible breakthrough"
+    },
+    {
+      "start": 439.43,
+      "duration": 0.009999999999990905,
+      "text": "have seen an incredible breakthrough"
+    },
+    {
+      "start": 439.44,
+      "duration": 2.7900000000000205,
+      "text": "have seen an incredible breakthrough from VLM when we look at just how much"
+    },
+    {
+      "start": 442.23,
+      "duration": 0.009999999999990905,
+      "text": "from VLM when we look at just how much"
+    },
+    {
+      "start": 442.24,
+      "duration": 2.3100000000000023,
+      "text": "from VLM when we look at just how much they blew other inference engine out of"
+    },
+    {
+      "start": 444.55,
+      "duration": 0.009999999999990905,
+      "text": "they blew other inference engine out of"
+    },
+    {
+      "start": 444.56,
+      "duration": 2.7099999999999795,
+      "text": "they blew other inference engine out of the water in KV cache management by"
+    },
+    {
+      "start": 447.27,
+      "duration": 0.009999999999990905,
+      "text": "the water in KV cache management by"
+    },
+    {
+      "start": 447.28,
+      "duration": 1.5900000000000318,
+      "text": "the water in KV cache management by essentially borrowing the paged"
+    },
+    {
+      "start": 448.87,
+      "duration": 0.009999999999990905,
+      "text": "essentially borrowing the paged"
+    },
+    {
+      "start": 448.88,
+      "duration": 2.3899999999999864,
+      "text": "essentially borrowing the paged attention mechanism in operating system"
+    },
+    {
+      "start": 451.27,
+      "duration": 0.009999999999990905,
+      "text": "attention mechanism in operating system"
+    },
+    {
+      "start": 451.28,
+      "duration": 2.230000000000018,
+      "text": "attention mechanism in operating system but apply to inference in KV cache"
+    },
+    {
+      "start": 453.51,
+      "duration": 0.009999999999990905,
+      "text": "but apply to inference in KV cache"
+    },
+    {
+      "start": 453.52,
+      "duration": 1.6690000000000396,
+      "text": "but apply to inference in KV cache management. Now, common inference"
+    },
+    {
+      "start": 455.189,
+      "duration": 0.009999999999990905,
+      "text": "management. Now, common inference"
+    },
+    {
+      "start": 455.199,
+      "duration": 2.3109999999999786,
+      "text": "management. Now, common inference engines that we use today are SGLANG,"
+    },
+    {
+      "start": 457.51,
+      "duration": 0.009999999999990905,
+      "text": "engines that we use today are SGLANG,"
+    },
+    {
+      "start": 457.52,
+      "duration": 3.6690000000000396,
+      "text": "engines that we use today are SGLANG, VLM, Tensor RTLLM, or even NVIDIA Dynamo"
+    },
+    {
+      "start": 461.189,
+      "duration": 0.009999999999990905,
+      "text": "VLM, Tensor RTLLM, or even NVIDIA Dynamo"
+    },
+    {
+      "start": 461.199,
+      "duration": 1.990000000000009,
+      "text": "VLM, Tensor RTLLM, or even NVIDIA Dynamo Framework, which all have their own"
+    },
+    {
+      "start": 463.189,
+      "duration": 0.009999999999990905,
+      "text": "Framework, which all have their own"
+    },
+    {
+      "start": 463.199,
+      "duration": 2.3109999999999786,
+      "text": "Framework, which all have their own flavor, which I'll be covering as a part"
+    },
+    {
+      "start": 465.51,
+      "duration": 0.009999999999990905,
+      "text": "flavor, which I'll be covering as a part"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.38900000000001,
+      "text": "flavor, which I'll be covering as a part two that's to be followed after I return"
+    },
+    {
+      "start": 467.909,
+      "duration": 0.009999999999990905,
+      "text": "two that's to be followed after I return"
+    },
+    {
+      "start": 467.919,
+      "duration": 3.191000000000031,
+      "text": "two that's to be followed after I return from this year's Nvidia GTC 2026. So,"
+    },
+    {
+      "start": 471.11,
+      "duration": 0.009999999999990905,
+      "text": "from this year's Nvidia GTC 2026. So,"
+    },
+    {
+      "start": 471.12,
+      "duration": 2.1499999999999773,
+      "text": "from this year's Nvidia GTC 2026. So, keep an eye out for part two later this"
+    },
+    {
+      "start": 473.27,
+      "duration": 0.009999999999990905,
+      "text": "keep an eye out for part two later this"
+    },
+    {
+      "start": 473.28,
+      "duration": 1.9090000000000487,
+      "text": "keep an eye out for part two later this month or early April. And speaking of"
+    },
+    {
+      "start": 475.189,
+      "duration": 0.009999999999990905,
+      "text": "month or early April. And speaking of"
+    },
+    {
+      "start": 475.199,
+      "duration": 2.3109999999999786,
+      "text": "month or early April. And speaking of Nvidia GTC, you can join me in this"
+    },
+    {
+      "start": 477.51,
+      "duration": 0.009999999999990905,
+      "text": "Nvidia GTC, you can join me in this"
+    },
+    {
+      "start": 477.52,
+      "duration": 2.5500000000000114,
+      "text": "Nvidia GTC, you can join me in this year's NVIDIA GTC conference from March"
+    },
+    {
+      "start": 480.07,
+      "duration": 0.009999999999990905,
+      "text": "year's NVIDIA GTC conference from March"
+    },
+    {
+      "start": 480.08,
+      "duration": 1.8290000000000077,
+      "text": "year's NVIDIA GTC conference from March 16th through March 19th. There are"
+    },
+    {
+      "start": 481.909,
+      "duration": 0.009999999999990905,
+      "text": "16th through March 19th. There are"
+    },
+    {
+      "start": 481.919,
+      "duration": 2.1510000000000105,
+      "text": "16th through March 19th. There are sessions like deploying AI agents at"
+    },
+    {
+      "start": 484.07,
+      "duration": 0.009999999999990905,
+      "text": "sessions like deploying AI agents at"
+    },
+    {
+      "start": 484.08,
+      "duration": 1.6690000000000396,
+      "text": "sessions like deploying AI agents at enterprise scale which you can join"
+    },
+    {
+      "start": 485.749,
+      "duration": 0.009999999999990905,
+      "text": "enterprise scale which you can join"
+    },
+    {
+      "start": 485.759,
+      "duration": 2.4710000000000036,
+      "text": "enterprise scale which you can join online for free. I'll be attending GTC"
+    },
+    {
+      "start": 488.23,
+      "duration": 0.009999999999990905,
+      "text": "online for free. I'll be attending GTC"
+    },
+    {
+      "start": 488.24,
+      "duration": 2.1499999999999773,
+      "text": "online for free. I'll be attending GTC this year thanks to Nvidia's invitation"
+    },
+    {
+      "start": 490.39,
+      "duration": 0.009999999999990905,
+      "text": "this year thanks to Nvidia's invitation"
+    },
+    {
+      "start": 490.4,
+      "duration": 2.150000000000034,
+      "text": "this year thanks to Nvidia's invitation to host me with a complimentary badge"
+    },
+    {
+      "start": 492.55,
+      "duration": 0.009999999999990905,
+      "text": "to host me with a complimentary badge"
+    },
+    {
+      "start": 492.56,
+      "duration": 1.589999999999975,
+      "text": "to host me with a complimentary badge and stay. You can also learn about"
+    },
+    {
+      "start": 494.15,
+      "duration": 0.010000000000047748,
+      "text": "and stay. You can also learn about"
+    },
+    {
+      "start": 494.16,
+      "duration": 2.149000000000001,
+      "text": "and stay. You can also learn about Nvidia's Neotron model like the post"
+    },
+    {
+      "start": 496.309,
+      "duration": 0.009999999999990905,
+      "text": "Nvidia's Neotron model like the post"
+    },
+    {
+      "start": 496.319,
+      "duration": 2.2309999999999945,
+      "text": "Nvidia's Neotron model like the post training Neotron with RL sessions that"
+    },
+    {
+      "start": 498.55,
+      "duration": 0.009999999999990905,
+      "text": "training Neotron with RL sessions that"
+    },
+    {
+      "start": 498.56,
+      "duration": 1.670000000000016,
+      "text": "training Neotron with RL sessions that you can see here. And if you sign up for"
+    },
+    {
+      "start": 500.23,
+      "duration": 0.009999999999990905,
+      "text": "you can see here. And if you sign up for"
+    },
+    {
+      "start": 500.24,
+      "duration": 1.829999999999984,
+      "text": "you can see here. And if you sign up for any session using the link to"
+    },
+    {
+      "start": 502.07,
+      "duration": 0.009999999999990905,
+      "text": "any session using the link to"
+    },
+    {
+      "start": 502.08,
+      "duration": 2.4700000000000273,
+      "text": "any session using the link to participate online, I'm doing a giveaway"
+    },
+    {
+      "start": 504.55,
+      "duration": 0.009999999999990905,
+      "text": "participate online, I'm doing a giveaway"
+    },
+    {
+      "start": 504.56,
+      "duration": 3.1100000000000136,
+      "text": "participate online, I'm doing a giveaway courtesy of Nvidia for an RTX 4080 Super"
+    },
+    {
+      "start": 507.67,
+      "duration": 0.009999999999990905,
+      "text": "courtesy of Nvidia for an RTX 4080 Super"
+    },
+    {
+      "start": 507.68,
+      "duration": 2.3100000000000023,
+      "text": "courtesy of Nvidia for an RTX 4080 Super GPU. And joining sessions online is"
+    },
+    {
+      "start": 509.99,
+      "duration": 0.009999999999990905,
+      "text": "GPU. And joining sessions online is"
+    },
+    {
+      "start": 510,
+      "duration": 1.7490000000000236,
+      "text": "GPU. And joining sessions online is completely free. So, make sure to sign"
+    },
+    {
+      "start": 511.749,
+      "duration": 0.009999999999990905,
+      "text": "completely free. So, make sure to sign"
+    },
+    {
+      "start": 511.759,
+      "duration": 2.0699999999999363,
+      "text": "completely free. So, make sure to sign up for the giveaway and take a selfie to"
+    },
+    {
+      "start": 513.829,
+      "duration": 0.010000000000104592,
+      "text": "up for the giveaway and take a selfie to"
+    },
+    {
+      "start": 513.839,
+      "duration": 2.5599999999999454,
+      "text": "up for the giveaway and take a selfie to qualify."
+    }
+  ],
+  "fullText": "Running inference today is different Running inference today is different than even back in 2021. For example, than even back in 2021. For example, than even back in 2021. For example, context window grew from around 2,000 context window grew from around 2,000 context window grew from around 2,000 tokens to now at around 1 million tokens to now at around 1 million tokens to now at around 1 million tokens. And you might think going from tokens. And you might think going from tokens. And you might think going from 2,000 to 1 million in context window is 2,000 to 1 million in context window is 2,000 to 1 million in context window is rather trivial, but scaling the context rather trivial, but scaling the context rather trivial, but scaling the context window has always been very inefficient window has always been very inefficient window has always been very inefficient in terms of memory requirements for in terms of memory requirements for in terms of memory requirements for standard transformer-based models. And standard transformer-based models. And standard transformer-based models. And this makes inference very costly. Not this makes inference very costly. Not this makes inference very costly. Not only that, the size of the model grew only that, the size of the model grew only that, the size of the model grew from hundreds of million parameters to from hundreds of million parameters to from hundreds of million parameters to now few trillion parameters from now few trillion parameters from now few trillion parameters from frontier models like Gemini, Grock, GBT frontier models like Gemini, Grock, GBT frontier models like Gemini, Grock, GBT and Opus. And while mixture of experts and Opus. And while mixture of experts and Opus. And while mixture of experts certainly made inference more efficient, certainly made inference more efficient, certainly made inference more efficient, running inference on larger models today running inference on larger models today running inference on larger models today is extremely different compared to what is extremely different compared to what is extremely different compared to what we had even 5 years ago. And while the we had even 5 years ago. And while the we had even 5 years ago. And while the underlying technology like PCIe, HBM and underlying technology like PCIe, HBM and underlying technology like PCIe, HBM and NVMe that are responsible for NVMe that are responsible for NVMe that are responsible for communication between the memory communication between the memory communication between the memory hierarchy from SSD to CPU and RAM to GPU hierarchy from SSD to CPU and RAM to GPU hierarchy from SSD to CPU and RAM to GPU certainly improved over time. The pace certainly improved over time. The pace certainly improved over time. The pace of scaling that we saw from the model of scaling that we saw from the model of scaling that we saw from the model side certainly outpaced the underlying side certainly outpaced the underlying side certainly outpaced the underlying technology that actually supported. So technology that actually supported. So technology that actually supported. So we are still left with this challenge we are still left with this challenge we are still left with this challenge when it comes to inference. And today when it comes to inference. And today when it comes to inference. And today we're going to find out why. Welcome to we're going to find out why. Welcome to we're going to find out why. Welcome to Kilobbright's Code, where every second Kilobbright's Code, where every second Kilobbright's Code, where every second counts. Quick shout out to Nvidia. More counts. Quick shout out to Nvidia. More counts. Quick shout out to Nvidia. More on them later. Until 2021, most models on them later. Until 2021, most models on them later. Until 2021, most models were smaller than 1 billion parameters were smaller than 1 billion parameters were smaller than 1 billion parameters in size. For example, GPT1 from OpenAI in size. For example, GPT1 from OpenAI in size. For example, GPT1 from OpenAI was at 117 million parameters. And even was at 117 million parameters. And even was at 117 million parameters. And even the later GPT2 model from OpenAI was 1.5 the later GPT2 model from OpenAI was 1.5 the later GPT2 model from OpenAI was 1.5 billion parameters, which means most billion parameters, which means most billion parameters, which means most graphics cards back then could easily graphics cards back then could easily graphics cards back then could easily run inference without having to split run inference without having to split run inference without having to split the model up across multiple graphics the model up across multiple graphics the model up across multiple graphics cards. So in this scenario, you might cards. So in this scenario, you might cards. So in this scenario, you might think it's better to have two graphics think it's better to have two graphics think it's better to have two graphics cards and each card running inference cards and each card running inference cards and each card running inference for GBT1 and the other for GBT2 for GBT1 and the other for GBT2 for GBT1 and the other for GBT2 separately. But according to a case separately. But according to a case separately. But according to a case study from opposerve paper, they found study from opposerve paper, they found study from opposerve paper, they found that there's actually a 1.3 times that there's actually a 1.3 times that there's actually a 1.3 times performance improvement when we performance improvement when we performance improvement when we intentionally split the model across two intentionally split the model across two intentionally split the model across two cards. So both graphics cards play a cards. So both graphics cards play a cards. So both graphics cards play a partial role in serving the model. Now partial role in serving the model. Now partial role in serving the model. Now this might sound counterintuitive at this might sound counterintuitive at this might sound counterintuitive at first. I mean, wouldn't the overhead in first. I mean, wouldn't the overhead in first. I mean, wouldn't the overhead in coordinating between two cards be coordinating between two cards be coordinating between two cards be greater than running them independently? greater than running them independently? greater than running them independently? Turns out splitting up the model this Turns out splitting up the model this Turns out splitting up the model this way actually handled random bursts of way actually handled random bursts of way actually handled random bursts of demand for inference much better. And demand for inference much better. And demand for inference much better. And here's why. First, when we look at here's why. First, when we look at here's why. First, when we look at utilization of the cluster of GPUs utilization of the cluster of GPUs utilization of the cluster of GPUs because the model is split between two because the model is split between two because the model is split between two cards, each request is nearly guaranteed cards, each request is nearly guaranteed cards, each request is nearly guaranteed 100% utilization since both cards need 100% utilization since both cards need 100% utilization since both cards need to work to process each request. But to work to process each request. But to work to process each request. But more importantly, there's a metric more importantly, there's a metric more importantly, there's a metric called SLO or service level objective. called SLO or service level objective. called SLO or service level objective. Let's say a single forward pass of the Let's say a single forward pass of the Let's say a single forward pass of the model takes around 0.4 seconds. Which model takes around 0.4 seconds. Which model takes around 0.4 seconds. Which means given an optimal setup, users can means given an optimal setup, users can means given an optimal setup, users can expect the first token to be produced at expect the first token to be produced at expect the first token to be produced at a minimum of 0.4 seconds. But we know a minimum of 0.4 seconds. But we know a minimum of 0.4 seconds. But we know that in reality, we're never really that in reality, we're never really that in reality, we're never really going to get this theoretical minimum going to get this theoretical minimum going to get this theoretical minimum because that assumes inference will run because that assumes inference will run because that assumes inference will run optimally every single time. So more optimally every single time. So more optimally every single time. So more realistically, in order to create a realistically, in order to create a realistically, in order to create a reasonable buffer of what's considered reasonable buffer of what's considered reasonable buffer of what's considered an acceptable range of time, we scale an acceptable range of time, we scale an acceptable range of time, we scale the 0.4 seconds to a much bigger number. the 0.4 seconds to a much bigger number. the 0.4 seconds to a much bigger number. For example, scaling SLO to be five For example, scaling SLO to be five For example, scaling SLO to be five would mean 0.4 * 5, which is 2 seconds. would mean 0.4 * 5, which is 2 seconds. would mean 0.4 * 5, which is 2 seconds. So any request that took longer than 2 So any request that took longer than 2 So any request that took longer than 2 seconds is considered unsuccessful. Now seconds is considered unsuccessful. Now seconds is considered unsuccessful. Now based on this very metric, if we compare based on this very metric, if we compare based on this very metric, if we compare inference between serving one model inference between serving one model inference between serving one model individually in each card and compare individually in each card and compare individually in each card and compare them to both models split across both them to both models split across both them to both models split across both cards, you see a huge improvement in cards, you see a huge improvement in cards, you see a huge improvement in inference when it comes to just how inference when it comes to just how inference when it comes to just how bursty the inference actually is. Now bursty the inference actually is. Now bursty the inference actually is. Now you might look at this and be rather you might look at this and be rather you might look at this and be rather unimpressed by the performance gate that unimpressed by the performance gate that unimpressed by the performance gate that we see here. But when the request we see here. But when the request we see here. But when the request actually look closer to the paro actually look closer to the paro actually look closer to the paro principle where 80% of the request goes principle where 80% of the request goes principle where 80% of the request goes to the newer GPT2 model and 20% still to the newer GPT2 model and 20% still to the newer GPT2 model and 20% still goes to the older GPT1 model there's a goes to the older GPT1 model there's a goes to the older GPT1 model there's a 6.6 times lower latency in comparison 6.6 times lower latency in comparison 6.6 times lower latency in comparison which is an incredible optimization in which is an incredible optimization in which is an incredible optimization in inference. Now obviously there's a limit inference. Now obviously there's a limit inference. Now obviously there's a limit to the optimization where past a certain to the optimization where past a certain to the optimization where past a certain point it actually punishes in latency point it actually punishes in latency point it actually punishes in latency more than it actually benefits them and more than it actually benefits them and more than it actually benefits them and that happens as the available memory that happens as the available memory that happens as the available memory from graphics cards get bigger. In other from graphics cards get bigger. In other from graphics cards get bigger. In other words, there's a certain point where the words, there's a certain point where the words, there's a certain point where the memory availability gets big enough that memory availability gets big enough that memory availability gets big enough that it makes more sense to just run multiple it makes more sense to just run multiple it makes more sense to just run multiple models in one card rather than splitting models in one card rather than splitting models in one card rather than splitting them up. Now this kind of setup is them up. Now this kind of setup is them up. Now this kind of setup is largely irrelevant today because not largely irrelevant today because not largely irrelevant today because not only did our underlying model change so only did our underlying model change so only did our underlying model change so much. Nvidia's cards also improved quite much. Nvidia's cards also improved quite much. Nvidia's cards also improved quite dramatically which means what we need dramatically which means what we need dramatically which means what we need from the inference engines today is from the inference engines today is from the inference engines today is vastly different than what we needed vastly different than what we needed vastly different than what we needed from back then. We now need to reserve from back then. We now need to reserve from back then. We now need to reserve an entire cluster of GPUs just to fit an entire cluster of GPUs just to fit an entire cluster of GPUs just to fit the model for inference. For example, the model for inference. For example, the model for inference. For example, assuming Grock 4 is a two trillion assuming Grock 4 is a two trillion assuming Grock 4 is a two trillion parameter model in size, the memory parameter model in size, the memory parameter model in size, the memory required even at an in4 precision would required even at an in4 precision would required even at an in4 precision would be 1 terabytes where even the newest be 1 terabytes where even the newest be 1 terabytes where even the newest Ruben chip needs at least four of them. Ruben chip needs at least four of them. Ruben chip needs at least four of them. With not only that, we now have proven With not only that, we now have proven With not only that, we now have proven demand from users that we can demand from users that we can demand from users that we can essentially dedicate an entire fleet of essentially dedicate an entire fleet of essentially dedicate an entire fleet of GPUs for a single model inference. All GPUs for a single model inference. All GPUs for a single model inference. All this means that optimization on the this means that optimization on the this means that optimization on the inference engine is shifting away from inference engine is shifting away from inference engine is shifting away from scheduling different models to run scheduling different models to run scheduling different models to run concurrently to optimization in actually concurrently to optimization in actually concurrently to optimization in actually serving the single model optimally. For serving the single model optimally. For serving the single model optimally. For example, one of the first optimizations example, one of the first optimizations example, one of the first optimizations that's common today is when it comes to that's common today is when it comes to that's common today is when it comes to batching. In our previous example, we batching. In our previous example, we batching. In our previous example, we saw that single forward pass that takes saw that single forward pass that takes saw that single forward pass that takes 0.4 seconds with an SLO scale of five 0.4 seconds with an SLO scale of five 0.4 seconds with an SLO scale of five means we have up to 2 seconds to play means we have up to 2 seconds to play means we have up to 2 seconds to play around with. And because we're dealing around with. And because we're dealing around with. And because we're dealing with inference of a single model, we can with inference of a single model, we can with inference of a single model, we can expect all incoming requests from users expect all incoming requests from users expect all incoming requests from users to be targeting the same model for to be targeting the same model for to be targeting the same model for inference. So theoretically, we have 2 inference. So theoretically, we have 2 inference. So theoretically, we have 2 seconds of grace period to maximize our seconds of grace period to maximize our seconds of grace period to maximize our efficiency. Let's say during this 2cond efficiency. Let's say during this 2cond efficiency. Let's say during this 2cond time gap, there are eight different time gap, there are eight different time gap, there are eight different requests that come in for inference. But requests that come in for inference. But requests that come in for inference. But processing eight requests individually processing eight requests individually processing eight requests individually means for each request, the kernel reads means for each request, the kernel reads means for each request, the kernel reads the model's weights from memory and move the model's weights from memory and move the model's weights from memory and move them to the GPU registers to do them to the GPU registers to do them to the GPU registers to do computation depending on the type of computation depending on the type of computation depending on the type of work that's needed like general matrix work that's needed like general matrix work that's needed like general matrix multiplication, layer norm, softmax or multiplication, layer norm, softmax or multiplication, layer norm, softmax or attention. And batching would save the attention. And batching would save the attention. And batching would save the GPU from having to repeat the same GPU from having to repeat the same GPU from having to repeat the same kernel for each request all over again, kernel for each request all over again, kernel for each request all over again, but rather it can scale the input space but rather it can scale the input space but rather it can scale the input space to essentially do bigger math in large to essentially do bigger math in large to essentially do bigger math in large batch. It's also common to have batch. It's also common to have batch. It's also common to have inference engines now fuse commonly inference engines now fuse commonly inference engines now fuse commonly occurring kernel operations to squeeze occurring kernel operations to squeeze occurring kernel operations to squeeze out more optimization so that inference out more optimization so that inference out more optimization so that inference is faster. Now batching isn't the only is faster. Now batching isn't the only is faster. Now batching isn't the only optimization we see nowadays. When we optimization we see nowadays. When we optimization we see nowadays. When we look at growing context window where we look at growing context window where we look at growing context window where we went from 2,000 tokens to 1 million went from 2,000 tokens to 1 million went from 2,000 tokens to 1 million tokens, managing this memory that's tokens, managing this memory that's tokens, managing this memory that's required to keep the growing KV cache in required to keep the growing KV cache in required to keep the growing KV cache in check is extremely important. And that check is extremely important. And that check is extremely important. And that has largely to do with the inefficient has largely to do with the inefficient has largely to do with the inefficient scaling of attention and KV cache as the scaling of attention and KV cache as the scaling of attention and KV cache as the contact window grows. And it's really contact window grows. And it's really contact window grows. And it's really impossible to know upfront just how long impossible to know upfront just how long impossible to know upfront just how long the LLM's response is going to be. So the LLM's response is going to be. So the LLM's response is going to be. So knowing how much space to reserve up knowing how much space to reserve up knowing how much space to reserve up front is not a trivial task to solve. We front is not a trivial task to solve. We front is not a trivial task to solve. We have seen an incredible breakthrough have seen an incredible breakthrough have seen an incredible breakthrough from VLM when we look at just how much from VLM when we look at just how much from VLM when we look at just how much they blew other inference engine out of they blew other inference engine out of they blew other inference engine out of the water in KV cache management by the water in KV cache management by the water in KV cache management by essentially borrowing the paged essentially borrowing the paged essentially borrowing the paged attention mechanism in operating system attention mechanism in operating system attention mechanism in operating system but apply to inference in KV cache but apply to inference in KV cache but apply to inference in KV cache management. Now, common inference management. Now, common inference management. Now, common inference engines that we use today are SGLANG, engines that we use today are SGLANG, engines that we use today are SGLANG, VLM, Tensor RTLLM, or even NVIDIA Dynamo VLM, Tensor RTLLM, or even NVIDIA Dynamo VLM, Tensor RTLLM, or even NVIDIA Dynamo Framework, which all have their own Framework, which all have their own Framework, which all have their own flavor, which I'll be covering as a part flavor, which I'll be covering as a part flavor, which I'll be covering as a part two that's to be followed after I return two that's to be followed after I return two that's to be followed after I return from this year's Nvidia GTC 2026. So, from this year's Nvidia GTC 2026. So, from this year's Nvidia GTC 2026. So, keep an eye out for part two later this keep an eye out for part two later this keep an eye out for part two later this month or early April. And speaking of month or early April. And speaking of month or early April. And speaking of Nvidia GTC, you can join me in this Nvidia GTC, you can join me in this Nvidia GTC, you can join me in this year's NVIDIA GTC conference from March year's NVIDIA GTC conference from March year's NVIDIA GTC conference from March 16th through March 19th. There are 16th through March 19th. There are 16th through March 19th. There are sessions like deploying AI agents at sessions like deploying AI agents at sessions like deploying AI agents at enterprise scale which you can join enterprise scale which you can join enterprise scale which you can join online for free. I'll be attending GTC online for free. I'll be attending GTC online for free. I'll be attending GTC this year thanks to Nvidia's invitation this year thanks to Nvidia's invitation this year thanks to Nvidia's invitation to host me with a complimentary badge to host me with a complimentary badge to host me with a complimentary badge and stay. You can also learn about and stay. You can also learn about and stay. You can also learn about Nvidia's Neotron model like the post Nvidia's Neotron model like the post Nvidia's Neotron model like the post training Neotron with RL sessions that training Neotron with RL sessions that training Neotron with RL sessions that you can see here. And if you sign up for you can see here. And if you sign up for you can see here. And if you sign up for any session using the link to any session using the link to any session using the link to participate online, I'm doing a giveaway participate online, I'm doing a giveaway participate online, I'm doing a giveaway courtesy of Nvidia for an RTX 4080 Super courtesy of Nvidia for an RTX 4080 Super courtesy of Nvidia for an RTX 4080 Super GPU. And joining sessions online is GPU. And joining sessions online is GPU. And joining sessions online is completely free. So, make sure to sign completely free. So, make sure to sign completely free. So, make sure to sign up for the giveaway and take a selfie to up for the giveaway and take a selfie to up for the giveaway and take a selfie to qualify.",
+  "fetchedAt": "2026-03-13T17:42:35.656Z"
+}
