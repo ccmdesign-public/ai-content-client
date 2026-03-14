@@ -1,0 +1,739 @@
+{
+  "videoId": "zo-vT_fuzvg",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 1.5899999999999999,
+      "duration": 0.010000000000000231,
+      "text": "One of the most popular tools to"
+    },
+    {
+      "start": 1.6,
+      "duration": 2.069,
+      "text": "One of the most popular tools to containerize applications and run"
+    },
+    {
+      "start": 3.669,
+      "duration": 0.010000000000000231,
+      "text": "containerize applications and run"
+    },
+    {
+      "start": 3.6790000000000003,
+      "duration": 2.7909999999999995,
+      "text": "containerize applications and run containers is docker. So here we have"
+    },
+    {
+      "start": 6.47,
+      "duration": 0.010000000000000675,
+      "text": "containers is docker. So here we have"
+    },
+    {
+      "start": 6.48,
+      "duration": 2.2300000000000004,
+      "text": "containers is docker. So here we have our application code. Then we have the"
+    },
+    {
+      "start": 8.71,
+      "duration": 0.009999999999999787,
+      "text": "our application code. Then we have the"
+    },
+    {
+      "start": 8.72,
+      "duration": 2.549999999999999,
+      "text": "our application code. Then we have the requirements.txt file which has all the"
+    },
+    {
+      "start": 11.27,
+      "duration": 0.009999999999999787,
+      "text": "requirements.txt file which has all the"
+    },
+    {
+      "start": 11.28,
+      "duration": 1.9900000000000002,
+      "text": "requirements.txt file which has all the dependencies that are required for the"
+    },
+    {
+      "start": 13.27,
+      "duration": 0.009999999999999787,
+      "text": "dependencies that are required for the"
+    },
+    {
+      "start": 13.28,
+      "duration": 1.9900000000000002,
+      "text": "dependencies that are required for the application. In our case, it's just the"
+    },
+    {
+      "start": 15.27,
+      "duration": 0.009999999999999787,
+      "text": "application. In our case, it's just the"
+    },
+    {
+      "start": 15.28,
+      "duration": 3.3499999999999996,
+      "text": "application. In our case, it's just the flask dependency. And we now build a"
+    },
+    {
+      "start": 18.63,
+      "duration": 0.010000000000001563,
+      "text": "flask dependency. And we now build a"
+    },
+    {
+      "start": 18.64,
+      "duration": 1.8299999999999983,
+      "text": "flask dependency. And we now build a docker file to package the application"
+    },
+    {
+      "start": 20.47,
+      "duration": 0.010000000000001563,
+      "text": "docker file to package the application"
+    },
+    {
+      "start": 20.48,
+      "duration": 1.8299999999999983,
+      "text": "docker file to package the application with its dependencies into a docker"
+    },
+    {
+      "start": 22.31,
+      "duration": 0.010000000000001563,
+      "text": "with its dependencies into a docker"
+    },
+    {
+      "start": 22.32,
+      "duration": 1.9100000000000001,
+      "text": "with its dependencies into a docker container. So the first line here"
+    },
+    {
+      "start": 24.23,
+      "duration": 0.00999999999999801,
+      "text": "container. So the first line here"
+    },
+    {
+      "start": 24.24,
+      "duration": 1.8300000000000018,
+      "text": "container. So the first line here creates an image from the python base"
+    },
+    {
+      "start": 26.07,
+      "duration": 0.00999999999999801,
+      "text": "creates an image from the python base"
+    },
+    {
+      "start": 26.08,
+      "duration": 2.7900000000000027,
+      "text": "creates an image from the python base image and then sets the right working"
+    },
+    {
+      "start": 28.87,
+      "duration": 0.00999999999999801,
+      "text": "image and then sets the right working"
+    },
+    {
+      "start": 28.88,
+      "duration": 1.5100000000000016,
+      "text": "image and then sets the right working directory. then copies the"
+    },
+    {
+      "start": 30.39,
+      "duration": 0.00999999999999801,
+      "text": "directory. then copies the"
+    },
+    {
+      "start": 30.4,
+      "duration": 1.8290000000000006,
+      "text": "directory. then copies the requirements.txt file to the working"
+    },
+    {
+      "start": 32.229,
+      "duration": 0.00999999999999801,
+      "text": "requirements.txt file to the working"
+    },
+    {
+      "start": 32.239,
+      "duration": 1.7510000000000048,
+      "text": "requirements.txt file to the working directory and then installs the"
+    },
+    {
+      "start": 33.99,
+      "duration": 0.00999999999999801,
+      "text": "directory and then installs the"
+    },
+    {
+      "start": 34,
+      "duration": 2.3100000000000023,
+      "text": "directory and then installs the dependencies and this is where you could"
+    },
+    {
+      "start": 36.31,
+      "duration": 0.00999999999999801,
+      "text": "dependencies and this is where you could"
+    },
+    {
+      "start": 36.32,
+      "duration": 2.389000000000003,
+      "text": "dependencies and this is where you could add any other dependency to it and then"
+    },
+    {
+      "start": 38.709,
+      "duration": 0.00999999999999801,
+      "text": "add any other dependency to it and then"
+    },
+    {
+      "start": 38.719,
+      "duration": 1.9110000000000014,
+      "text": "add any other dependency to it and then copies the application code into the"
+    },
+    {
+      "start": 40.63,
+      "duration": 0.00999999999999801,
+      "text": "copies the application code into the"
+    },
+    {
+      "start": 40.64,
+      "duration": 2.228999999999999,
+      "text": "copies the application code into the image and finally defines the command to"
+    },
+    {
+      "start": 42.869,
+      "duration": 0.00999999999999801,
+      "text": "image and finally defines the command to"
+    },
+    {
+      "start": 42.879,
+      "duration": 1.8300000000000054,
+      "text": "image and finally defines the command to run the application using the cmd"
+    },
+    {
+      "start": 44.709,
+      "duration": 0.00999999999999801,
+      "text": "run the application using the cmd"
+    },
+    {
+      "start": 44.719,
+      "duration": 2.1499999999999986,
+      "text": "run the application using the cmd instruction. Now by running the docker"
+    },
+    {
+      "start": 46.869,
+      "duration": 0.00999999999999801,
+      "text": "instruction. Now by running the docker"
+    },
+    {
+      "start": 46.879,
+      "duration": 3.3500000000000014,
+      "text": "instruction. Now by running the docker build command we build an image and by"
+    },
+    {
+      "start": 50.229,
+      "duration": 0.00999999999999801,
+      "text": "build command we build an image and by"
+    },
+    {
+      "start": 50.239,
+      "duration": 2.470000000000006,
+      "text": "build command we build an image and by running the docker run command we run"
+    },
+    {
+      "start": 52.709,
+      "duration": 0.00999999999999801,
+      "text": "running the docker run command we run"
+    },
+    {
+      "start": 52.719,
+      "duration": 2.871000000000002,
+      "text": "running the docker run command we run one instance of our application. So that"
+    },
+    {
+      "start": 55.59,
+      "duration": 0.00999999999999801,
+      "text": "one instance of our application. So that"
+    },
+    {
+      "start": 55.6,
+      "duration": 1.990000000000002,
+      "text": "one instance of our application. So that was a quick introduction to containers"
+    },
+    {
+      "start": 57.59,
+      "duration": 0.00999999999999801,
+      "text": "was a quick introduction to containers"
+    },
+    {
+      "start": 57.6,
+      "duration": 2.948999999999998,
+      "text": "was a quick introduction to containers and docker. If you are new to Docker, I"
+    },
+    {
+      "start": 60.549,
+      "duration": 0.00999999999999801,
+      "text": "and docker. If you are new to Docker, I"
+    },
+    {
+      "start": 60.559,
+      "duration": 1.990000000000002,
+      "text": "and docker. If you are new to Docker, I would recommend checking out our free"
+    },
+    {
+      "start": 62.549,
+      "duration": 0.00999999999999801,
+      "text": "would recommend checking out our free"
+    },
+    {
+      "start": 62.559,
+      "duration": 1.9099999999999966,
+      "text": "would recommend checking out our free Docker for beginners course on CodeCloud"
+    },
+    {
+      "start": 64.469,
+      "duration": 0.010000000000005116,
+      "text": "Docker for beginners course on CodeCloud"
+    },
+    {
+      "start": 64.479,
+      "duration": 1.831000000000003,
+      "text": "Docker for beginners course on CodeCloud using the link given here. You'll learn"
+    },
+    {
+      "start": 66.31,
+      "duration": 0.009999999999990905,
+      "text": "using the link given here. You'll learn"
+    },
+    {
+      "start": 66.32,
+      "duration": 2.0700000000000074,
+      "text": "using the link given here. You'll learn with hands-on labs using our interactive"
+    },
+    {
+      "start": 68.39,
+      "duration": 0.010000000000005116,
+      "text": "with hands-on labs using our interactive"
+    },
+    {
+      "start": 68.4,
+      "duration": 1.9099999999999966,
+      "text": "with hands-on labs using our interactive learning environment by working on real"
+    },
+    {
+      "start": 70.31,
+      "duration": 0.009999999999990905,
+      "text": "learning environment by working on real"
+    },
+    {
+      "start": 70.32,
+      "duration": 3.3500000000000085,
+      "text": "learning environment by working on real systems that's exclusive to you. So what"
+    },
+    {
+      "start": 73.67,
+      "duration": 0.010000000000005116,
+      "text": "systems that's exclusive to you. So what"
+    },
+    {
+      "start": 73.68,
+      "duration": 2.6299999999999955,
+      "text": "systems that's exclusive to you. So what is Kubernetes? With Docker, you are able"
+    },
+    {
+      "start": 76.31,
+      "duration": 0.009999999999990905,
+      "text": "is Kubernetes? With Docker, you are able"
+    },
+    {
+      "start": 76.32,
+      "duration": 1.8290000000000077,
+      "text": "is Kubernetes? With Docker, you are able to run a single instance of an"
+    },
+    {
+      "start": 78.149,
+      "duration": 0.010000000000005116,
+      "text": "to run a single instance of an"
+    },
+    {
+      "start": 78.159,
+      "duration": 1.5109999999999957,
+      "text": "to run a single instance of an application using the Docker run"
+    },
+    {
+      "start": 79.67,
+      "duration": 0.010000000000005116,
+      "text": "application using the Docker run"
+    },
+    {
+      "start": 79.68,
+      "duration": 1.9099999999999966,
+      "text": "application using the Docker run command, which is great. Running an"
+    },
+    {
+      "start": 81.59,
+      "duration": 0.009999999999990905,
+      "text": "command, which is great. Running an"
+    },
+    {
+      "start": 81.6,
+      "duration": 2.0700000000000074,
+      "text": "command, which is great. Running an application has never been so easy"
+    },
+    {
+      "start": 83.67,
+      "duration": 0.010000000000005116,
+      "text": "application has never been so easy"
+    },
+    {
+      "start": 83.68,
+      "duration": 2.468999999999994,
+      "text": "application has never been so easy before. With Kubernetes, using the"
+    },
+    {
+      "start": 86.149,
+      "duration": 0.010000000000005116,
+      "text": "before. With Kubernetes, using the"
+    },
+    {
+      "start": 86.159,
+      "duration": 3.6709999999999923,
+      "text": "before. With Kubernetes, using the Kubernetes CLI known as cubectl, you can"
+    },
+    {
+      "start": 89.83,
+      "duration": 0.010000000000005116,
+      "text": "Kubernetes CLI known as cubectl, you can"
+    },
+    {
+      "start": 89.84,
+      "duration": 1.9899999999999949,
+      "text": "Kubernetes CLI known as cubectl, you can run a thousand instance of the same"
+    },
+    {
+      "start": 91.83,
+      "duration": 0.010000000000005116,
+      "text": "run a thousand instance of the same"
+    },
+    {
+      "start": 91.84,
+      "duration": 2.228999999999999,
+      "text": "run a thousand instance of the same application with a single command."
+    },
+    {
+      "start": 94.069,
+      "duration": 0.009999999999990905,
+      "text": "application with a single command."
+    },
+    {
+      "start": 94.079,
+      "duration": 3.1910000000000025,
+      "text": "application with a single command. Kubernetes can scale it up to 2,000 with"
+    },
+    {
+      "start": 97.27,
+      "duration": 0.010000000000005116,
+      "text": "Kubernetes can scale it up to 2,000 with"
+    },
+    {
+      "start": 97.28,
+      "duration": 2.468999999999994,
+      "text": "Kubernetes can scale it up to 2,000 with another command. Kubernetes can even be"
+    },
+    {
+      "start": 99.749,
+      "duration": 0.010000000000005116,
+      "text": "another command. Kubernetes can even be"
+    },
+    {
+      "start": 99.759,
+      "duration": 2.3100000000000023,
+      "text": "another command. Kubernetes can even be configured to do these automatically so"
+    },
+    {
+      "start": 102.069,
+      "duration": 0.009999999999990905,
+      "text": "configured to do these automatically so"
+    },
+    {
+      "start": 102.079,
+      "duration": 1.7510000000000048,
+      "text": "configured to do these automatically so that instances and the infrastructure"
+    },
+    {
+      "start": 103.83,
+      "duration": 0.010000000000005116,
+      "text": "that instances and the infrastructure"
+    },
+    {
+      "start": 103.84,
+      "duration": 2.5489999999999924,
+      "text": "that instances and the infrastructure itself can scale up and down based on"
+    },
+    {
+      "start": 106.389,
+      "duration": 0.010000000000005116,
+      "text": "itself can scale up and down based on"
+    },
+    {
+      "start": 106.399,
+      "duration": 2.9509999999999934,
+      "text": "itself can scale up and down based on user load. Kubernetes can upgrade these"
+    },
+    {
+      "start": 109.35,
+      "duration": 0.010000000000005116,
+      "text": "user load. Kubernetes can upgrade these"
+    },
+    {
+      "start": 109.36,
+      "duration": 1.9899999999999949,
+      "text": "user load. Kubernetes can upgrade these 2,000 instances of application in a"
+    },
+    {
+      "start": 111.35,
+      "duration": 0.010000000000005116,
+      "text": "2,000 instances of application in a"
+    },
+    {
+      "start": 111.36,
+      "duration": 1.8299999999999983,
+      "text": "2,000 instances of application in a rolling fashion, one at a time, with a"
+    },
+    {
+      "start": 113.19,
+      "duration": 0.010000000000005116,
+      "text": "rolling fashion, one at a time, with a"
+    },
+    {
+      "start": 113.2,
+      "duration": 1.5889999999999986,
+      "text": "rolling fashion, one at a time, with a single command. And if something goes"
+    },
+    {
+      "start": 114.789,
+      "duration": 0.010000000000005116,
+      "text": "single command. And if something goes"
+    },
+    {
+      "start": 114.799,
+      "duration": 2.070999999999998,
+      "text": "single command. And if something goes wrong, it can help you roll back these"
+    },
+    {
+      "start": 116.87,
+      "duration": 0.009999999999990905,
+      "text": "wrong, it can help you roll back these"
+    },
+    {
+      "start": 116.88,
+      "duration": 2.3900000000000006,
+      "text": "wrong, it can help you roll back these images with a single command. Kubernetes"
+    },
+    {
+      "start": 119.27,
+      "duration": 0.010000000000005116,
+      "text": "images with a single command. Kubernetes"
+    },
+    {
+      "start": 119.28,
+      "duration": 2.230000000000004,
+      "text": "images with a single command. Kubernetes can help you test new features of your"
+    },
+    {
+      "start": 121.51,
+      "duration": 0.009999999999990905,
+      "text": "can help you test new features of your"
+    },
+    {
+      "start": 121.52,
+      "duration": 2.0700000000000074,
+      "text": "can help you test new features of your application by only upgrading a"
+    },
+    {
+      "start": 123.59,
+      "duration": 0.009999999999990905,
+      "text": "application by only upgrading a"
+    },
+    {
+      "start": 123.6,
+      "duration": 2.3100000000000023,
+      "text": "application by only upgrading a percentage of these instances through AB"
+    },
+    {
+      "start": 125.91,
+      "duration": 0.010000000000005116,
+      "text": "percentage of these instances through AB"
+    },
+    {
+      "start": 125.92,
+      "duration": 2.069999999999993,
+      "text": "percentage of these instances through AB testing methods. Now, don't worry about"
+    },
+    {
+      "start": 127.99,
+      "duration": 0.010000000000005116,
+      "text": "testing methods. Now, don't worry about"
+    },
+    {
+      "start": 128,
+      "duration": 1.8300000000000125,
+      "text": "testing methods. Now, don't worry about the command line tool for now. We will"
+    },
+    {
+      "start": 129.83,
+      "duration": 0.009999999999990905,
+      "text": "the command line tool for now. We will"
+    },
+    {
+      "start": 129.84,
+      "duration": 2.549999999999983,
+      "text": "the command line tool for now. We will take a closer look at it very soon. With"
+    },
+    {
+      "start": 132.39,
+      "duration": 0.010000000000019327,
+      "text": "take a closer look at it very soon. With"
+    },
+    {
+      "start": 132.4,
+      "duration": 2.1500000000000057,
+      "text": "take a closer look at it very soon. With Kubernetes, you're also able to define"
+    },
+    {
+      "start": 134.55,
+      "duration": 0.009999999999990905,
+      "text": "Kubernetes, you're also able to define"
+    },
+    {
+      "start": 134.56,
+      "duration": 2.5500000000000114,
+      "text": "Kubernetes, you're also able to define the expected state of your application."
+    },
+    {
+      "start": 137.11,
+      "duration": 0.009999999999990905,
+      "text": "the expected state of your application."
+    },
+    {
+      "start": 137.12,
+      "duration": 2.468999999999994,
+      "text": "the expected state of your application. For example, you're able to define that"
+    },
+    {
+      "start": 139.589,
+      "duration": 0.009999999999990905,
+      "text": "For example, you're able to define that"
+    },
+    {
+      "start": 139.599,
+      "duration": 1.5910000000000082,
+      "text": "For example, you're able to define that your application consists of four"
+    },
+    {
+      "start": 141.19,
+      "duration": 0.009999999999990905,
+      "text": "your application consists of four"
+    },
+    {
+      "start": 141.2,
+      "duration": 1.6690000000000111,
+      "text": "your application consists of four different services. The web server must"
+    },
+    {
+      "start": 142.869,
+      "duration": 0.009999999999990905,
+      "text": "different services. The web server must"
+    },
+    {
+      "start": 142.879,
+      "duration": 1.5910000000000082,
+      "text": "different services. The web server must have three instances running. The"
+    },
+    {
+      "start": 144.47,
+      "duration": 0.009999999999990905,
+      "text": "have three instances running. The"
+    },
+    {
+      "start": 144.48,
+      "duration": 1.990000000000009,
+      "text": "have three instances running. The payment service to have two. There"
+    },
+    {
+      "start": 146.47,
+      "duration": 0.009999999999990905,
+      "text": "payment service to have two. There"
+    },
+    {
+      "start": 146.48,
+      "duration": 1.5100000000000193,
+      "text": "payment service to have two. There should be a ready service with three"
+    },
+    {
+      "start": 147.99,
+      "duration": 0.009999999999990905,
+      "text": "should be a ready service with three"
+    },
+    {
+      "start": 148,
+      "duration": 1.75,
+      "text": "should be a ready service with three instances running and a database service"
+    },
+    {
+      "start": 149.75,
+      "duration": 0.009999999999990905,
+      "text": "instances running and a database service"
+    },
+    {
+      "start": 149.76,
+      "duration": 2.5490000000000066,
+      "text": "instances running and a database service to which these services connect to. And"
+    },
+    {
+      "start": 152.309,
+      "duration": 0.009999999999990905,
+      "text": "to which these services connect to. And"
+    },
+    {
+      "start": 152.319,
+      "duration": 2.8710000000000093,
+      "text": "to which these services connect to. And you're able to define these in code."
+    },
+    {
+      "start": 155.19,
+      "duration": 0.009999999999990905,
+      "text": "you're able to define these in code."
+    },
+    {
+      "start": 155.2,
+      "duration": 2.5500000000000114,
+      "text": "you're able to define these in code. Kubernetes will ensure that the state"
+    },
+    {
+      "start": 157.75,
+      "duration": 0.009999999999990905,
+      "text": "Kubernetes will ensure that the state"
+    },
+    {
+      "start": 157.76,
+      "duration": 2.710000000000008,
+      "text": "Kubernetes will ensure that the state that you have defined in these files for"
+    },
+    {
+      "start": 160.47,
+      "duration": 0.009999999999990905,
+      "text": "that you have defined in these files for"
+    },
+    {
+      "start": 160.48,
+      "duration": 2.7900000000000205,
+      "text": "that you have defined in these files for your application is maintained at all"
+    },
+    {
+      "start": 163.27,
+      "duration": 0.009999999999990905,
+      "text": "your application is maintained at all"
+    },
+    {
+      "start": 163.28,
+      "duration": 2.1599999999999966,
+      "text": "your application is maintained at all times."
+    }
+  ],
+  "fullText": "One of the most popular tools to One of the most popular tools to containerize applications and run containerize applications and run containerize applications and run containers is docker. So here we have containers is docker. So here we have containers is docker. So here we have our application code. Then we have the our application code. Then we have the our application code. Then we have the requirements.txt file which has all the requirements.txt file which has all the requirements.txt file which has all the dependencies that are required for the dependencies that are required for the dependencies that are required for the application. In our case, it's just the application. In our case, it's just the application. In our case, it's just the flask dependency. And we now build a flask dependency. And we now build a flask dependency. And we now build a docker file to package the application docker file to package the application docker file to package the application with its dependencies into a docker with its dependencies into a docker with its dependencies into a docker container. So the first line here container. So the first line here container. So the first line here creates an image from the python base creates an image from the python base creates an image from the python base image and then sets the right working image and then sets the right working image and then sets the right working directory. then copies the directory. then copies the directory. then copies the requirements.txt file to the working requirements.txt file to the working requirements.txt file to the working directory and then installs the directory and then installs the directory and then installs the dependencies and this is where you could dependencies and this is where you could dependencies and this is where you could add any other dependency to it and then add any other dependency to it and then add any other dependency to it and then copies the application code into the copies the application code into the copies the application code into the image and finally defines the command to image and finally defines the command to image and finally defines the command to run the application using the cmd run the application using the cmd run the application using the cmd instruction. Now by running the docker instruction. Now by running the docker instruction. Now by running the docker build command we build an image and by build command we build an image and by build command we build an image and by running the docker run command we run running the docker run command we run running the docker run command we run one instance of our application. So that one instance of our application. So that one instance of our application. So that was a quick introduction to containers was a quick introduction to containers was a quick introduction to containers and docker. If you are new to Docker, I and docker. If you are new to Docker, I and docker. If you are new to Docker, I would recommend checking out our free would recommend checking out our free would recommend checking out our free Docker for beginners course on CodeCloud Docker for beginners course on CodeCloud Docker for beginners course on CodeCloud using the link given here. You'll learn using the link given here. You'll learn using the link given here. You'll learn with hands-on labs using our interactive with hands-on labs using our interactive with hands-on labs using our interactive learning environment by working on real learning environment by working on real learning environment by working on real systems that's exclusive to you. So what systems that's exclusive to you. So what systems that's exclusive to you. So what is Kubernetes? With Docker, you are able is Kubernetes? With Docker, you are able is Kubernetes? With Docker, you are able to run a single instance of an to run a single instance of an to run a single instance of an application using the Docker run application using the Docker run application using the Docker run command, which is great. Running an command, which is great. Running an command, which is great. Running an application has never been so easy application has never been so easy application has never been so easy before. With Kubernetes, using the before. With Kubernetes, using the before. With Kubernetes, using the Kubernetes CLI known as cubectl, you can Kubernetes CLI known as cubectl, you can Kubernetes CLI known as cubectl, you can run a thousand instance of the same run a thousand instance of the same run a thousand instance of the same application with a single command. application with a single command. application with a single command. Kubernetes can scale it up to 2,000 with Kubernetes can scale it up to 2,000 with Kubernetes can scale it up to 2,000 with another command. Kubernetes can even be another command. Kubernetes can even be another command. Kubernetes can even be configured to do these automatically so configured to do these automatically so configured to do these automatically so that instances and the infrastructure that instances and the infrastructure that instances and the infrastructure itself can scale up and down based on itself can scale up and down based on itself can scale up and down based on user load. Kubernetes can upgrade these user load. Kubernetes can upgrade these user load. Kubernetes can upgrade these 2,000 instances of application in a 2,000 instances of application in a 2,000 instances of application in a rolling fashion, one at a time, with a rolling fashion, one at a time, with a rolling fashion, one at a time, with a single command. And if something goes single command. And if something goes single command. And if something goes wrong, it can help you roll back these wrong, it can help you roll back these wrong, it can help you roll back these images with a single command. Kubernetes images with a single command. Kubernetes images with a single command. Kubernetes can help you test new features of your can help you test new features of your can help you test new features of your application by only upgrading a application by only upgrading a application by only upgrading a percentage of these instances through AB percentage of these instances through AB percentage of these instances through AB testing methods. Now, don't worry about testing methods. Now, don't worry about testing methods. Now, don't worry about the command line tool for now. We will the command line tool for now. We will the command line tool for now. We will take a closer look at it very soon. With take a closer look at it very soon. With take a closer look at it very soon. With Kubernetes, you're also able to define Kubernetes, you're also able to define Kubernetes, you're also able to define the expected state of your application. the expected state of your application. the expected state of your application. For example, you're able to define that For example, you're able to define that For example, you're able to define that your application consists of four your application consists of four your application consists of four different services. The web server must different services. The web server must different services. The web server must have three instances running. The have three instances running. The have three instances running. The payment service to have two. There payment service to have two. There payment service to have two. There should be a ready service with three should be a ready service with three should be a ready service with three instances running and a database service instances running and a database service instances running and a database service to which these services connect to. And to which these services connect to. And to which these services connect to. And you're able to define these in code. you're able to define these in code. you're able to define these in code. Kubernetes will ensure that the state Kubernetes will ensure that the state Kubernetes will ensure that the state that you have defined in these files for that you have defined in these files for that you have defined in these files for your application is maintained at all your application is maintained at all your application is maintained at all times.",
+  "fetchedAt": "2026-03-14T14:15:18.274Z"
+}
