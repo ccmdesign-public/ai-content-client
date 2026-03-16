@@ -1,0 +1,53 @@
+videoId: ActAeDq8L90
+title: Gemini Embeddings 2 - Why Every AI Engineer Needs to See This New
+  Embedding Model
+description: |-
+  Is RAG dead? Not quite — but the retrieval layer just got a massive upgrade.
+  In this video, I break down Google's new Gemini Embedding 2 model — the first fully multimodal embedding model built on the Gemini architecture. It maps text, images, audio, video, and documents into a single unified vector space.
+
+  I built a full working demo app called EmbedSearch with 20 Surya-branded products to show you exactly how multimodal embeddings work — the actual vectors, the cosine similarity math, and three different search modes (text, image, and voice) all searching the same vector space.
+
+  All opinions are my own and do not belong to my employer.
+
+  Chapters:
+  0:00 Introduction: Is RAG Dead?
+  0:03 What is Gemini Embedding 2?
+  1:17 Live Demo: Understanding Embeddings
+  3:43 Legacy vs Modern Embedding Architecture
+  4:26 New Capabilities: Specialized Task Types & Matryoshka Dimensions
+  6:23 Practical RAG Use Case: Multimodal Product Search
+  9:17 Impact on RAG & Conclusion
+
+  🔗 Links:
+  Google Blog Announcement: https://blog.google/technology/developers/gemini-embedding-2/
+  Gemini Embedding 2 Docs (Vertex AI): https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/embedding-2
+
+
+  📌 What's covered:
+
+  What embeddings are and how they power search and RAG
+  Why the old approach (separate models per modality) was broken
+  5 features that make Gemini Embedding 2 different: interleaved input, task types, adjustable dimensions, native audio, PDF + OCR
+  Live demo: embedding 20 products with text, image, and combined vectors
+  Text search with full vector comparison visualization
+  Image search: cross-modal retrieval (search with a picture, find products)
+  Audio search: embed raw voice recordings directly
+
+
+  #GeminiEmbedding2 #RAG #GoogleAI #Embeddings #VertexAI #SemanticSearch #MultimodalAI #VectorSearch #GeminiAPI #EnterpriseAI #AIwithSurya
+channel: AI with Surya
+channelId: UCz80JEs56coMRDd5OzYe_lw
+duration: PT11M3S
+publishedAt: 2026-03-15T00:51:01Z
+thumbnailUrl: https://i.ytimg.com/vi/ActAeDq8L90/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=ActAeDq8L90
+processedAt: 2026-03-16T16:05:04.135Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 8004
+outputTokens: 792
+totalTokens: 8796
+processingTimeMs: 80300

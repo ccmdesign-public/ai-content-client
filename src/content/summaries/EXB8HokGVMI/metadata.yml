@@ -1,0 +1,150 @@
+videoId: EXB8HokGVMI
+title: "Small Language Models (SLMs) Are the Future: Fine-Tuning AI That Runs on
+  Your iPhone"
+description: >-
+  In this talk, I go over the rise of small language models (SLMs) and how they
+  can benefit your business or day to day life.
+
+
+  Talk date: March 12, 2026 at the Queensland AI Meetup.
+
+
+  We'll look at case studies such as Sunny, an iOS application which uses a
+  fine-tuned version of MedGemma to privately track skin health on-device.
+
+
+  We'll break down why on-device inference matters (privacy, offline access,
+  zero ongoing cost) and compare the economics of local models versus cloud API
+  pricing at scale.
+
+
+  Then we'll discuss the hardware and software optimizations required to run a
+  model on a compute constrained device.
+
+
+  Finally, we'll get hands-on and fine-tune a small language model live. 
+
+
+  We'll walk through how to build a custom dataset, set up supervised
+  fine-tuning using Hugging Face's SFT Trainer, and fine-tune a small model,
+  Gemma 3 270M, in about two minutes on an RTX 6000 Blackwell GPU on Google
+  Colab. 
+
+
+  We'll see how the base model's outputs to the fine-tuned version side by side,
+  showing how even a small model can be customized to know specific people,
+  handle edge cases, and refuse to answer questions it shouldn't.
+
+
+  Links:
+
+  Colab Notebook we used -
+  https://dbourke.link/qldai-colab-notebook-llm-fine-tune-march-2026
+
+
+  Courses I teach:  
+
+  Learn AI/ML (beginner-friendly course) - https://dbourke.link/ZTMMLcourse  
+
+  Learn Hugging Face - https://dbourke.link/ZTMHuggingFace  
+
+  Learn TensorFlow - https://dbourke.link/ZTMTFcourse  
+
+  Learn PyTorch - https://dbourke.link/ZTMPyTorch  
+
+
+  Connect elsewhere:
+
+  Download Nutrify (my startup) - https://apple.co/4ahM7Wc 
+
+  My website - https://www.mrdbourke.com 
+
+  X/Twitter - https://www.twitter.com/mrdbourke    
+
+  LinkedIn -  https://www.linkedin.com/in/mrdbourke/   
+
+  Get email updates on my work - https://dbourke.link/newsletter
+
+  Read my novel Charlie Walks - https://www.charliewalks.com 
+
+
+  Timestamps:
+
+  0:00 - Intro
+
+  2:19 - About me
+
+  4:09 - Case study: Sunny
+
+  7:55 - Benefits of small language models running on-device
+
+  8:44 - Cost savings of on-device models
+
+  9:29 - Case study: Sunny (hardware overview)
+
+  10:55 - Current best practice for running VLMs on iPhone
+
+  12:35 - Case study: Sunny (memory usage in Xcode)
+
+  13:56 - Case study: Sunny (workflow overview)
+
+  15:25 - Jeff Dean on precision
+
+  16:46 - Precision breakdown
+
+  17:28 - Effects of quantization on model size footprint
+
+  17:48 - Saving memory by reducing token usage
+
+  19:28 - Before and after different on-device experiments
+
+  20:29 - Case studies for other small but useful language models
+
+  24:00 - Case study for private VLM-based surveillance
+
+  25:04 - Small language models features and benefits
+
+  25:47 - How to pick a model for your use case
+
+  26:06 - Question: What hardware is required for getting started?
+
+  27:21 - Prompting vs fine-tuning vs RAG
+
+  28:08 - Live LLM fine-tuning problem overview
+
+  28:50 - How I made a dataset for fine-tuning Gemma 3
+
+  33:08 - Live fine-tuning code begins in Google Colab
+
+  36:56 - Data = a guide for what you want your model to do
+
+  40:37 - Question: How do you know if your fine-tuned model is performing well?
+
+  44:24 - Comparing the base model to the fine-tuned model
+
+  53:23 - Demo'ing our fine-tuned model on Hugging Face Spaces
+
+  56:00 - Haiku
+
+  57:33 - Contact me
+
+  59:05 - Q&A
+channel: Daniel Bourke
+channelId: UCr8O8l5cCX85Oem1d18EezQ
+duration: PT1H4M42S
+publishedAt: 2026-03-13T08:09:38Z
+thumbnailUrl: https://i.ytimg.com/vi/EXB8HokGVMI/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=EXB8HokGVMI
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-03-16T15:21:48.043Z
+lengthCategory: longform
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 43386
+outputTokens: 2159
+totalTokens: 45545
+processingTimeMs: 111164
