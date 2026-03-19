@@ -75,12 +75,12 @@ const { tags, topTags } = useTagsConfig()
 <style scoped>
 .sidebar-nav {
   width: 250px;
-  padding: var(--space-m, 1rem);
+  padding: 1.3125rem;
   border-right: 1px solid var(--border);
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  background: var(--color-surface, #fff);
+  background: var(--background);
   position: sticky;
   top: 0;
   align-self: flex-start;
@@ -88,10 +88,10 @@ const { tags, topTags } = useTagsConfig()
 
 .sidebar-home {
   display: block;
-  margin-bottom: var(--space-xs, 0.25rem);
+  margin-bottom: 0.6875rem;
   color: var(--foreground);
   text-decoration: none;
-  font-size: var(--size-0, 1rem);
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -100,19 +100,19 @@ const { tags, topTags } = useTagsConfig()
 }
 
 .sidebar-home--active {
-  /* background: var(--color-primary-tint-10, #eff6ff); */
-  color: var(--color-primary, #2563eb);
+  /* background: var(--accent); */
+  color: var(--primary);
 }
 
 .sidebar-section {
-  margin-bottom: var(--space-l, 1.5rem);
+  margin-bottom: 1.75rem;
 }
 
 .sidebar-heading {
   font-weight: 600;
   letter-spacing: 0.05em;
   color: var(--muted-foreground);
-  margin-bottom: var(--space-xs, 0.5rem);
+  margin-bottom: 0.6875rem;
 }
 
 .sidebar-list {
@@ -125,7 +125,7 @@ const { tags, topTags } = useTagsConfig()
   display: block;
   color: var(--foreground);
   text-decoration: none;
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
 }
 
 .sidebar-link:hover {
@@ -133,8 +133,8 @@ const { tags, topTags } = useTagsConfig()
 }
 
 .sidebar-link--active {
-  background: var(--color-primary-tint-10, #eff6ff);
-  color: var(--color-primary, #2563eb);
+  background: var(--accent);
+  color: var(--primary);
   font-weight: 500;
 }
 
@@ -144,17 +144,17 @@ const { tags, topTags } = useTagsConfig()
 }
 
 .sidebar-heading-link:hover {
-  color: var(--color-primary, #2563eb);
+  color: var(--primary);
 }
 
 .sidebar-count {
   margin-left: auto;
-  font-size: var(--size--2, 0.75rem);
+  font-size: 0.75rem;
   color: var(--muted-foreground);
 }
 
 .sidebar-link--see-all {
   font-style: italic;
-  color: var(--color-primary, #2563eb);
+  color: var(--primary);
 }
 </style>

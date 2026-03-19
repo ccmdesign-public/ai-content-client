@@ -45,7 +45,7 @@
       <div
 class="stack" style="
 
---stack-gap: var(--space-xs)">
+--_stack-space: 0.6875rem">
         <h3 class="project-card__title">{{ content.title }}</h3>
 
         <!-- Truncated description -->
@@ -57,9 +57,7 @@ class="stack" style="
         <div
           v-if="content.tech_stack?.length"
           class="cluster project-card__stack"
-          style="
-
---cluster-gap: var(--space-2xs)"
+          style="--_cluster-space: 0.375rem"
         >
           <span
             v-for="tech in content.tech_stack.slice(0, 3)"
@@ -80,14 +78,14 @@ class="stack" style="
       <div
 class="cluster" style="
 
---cluster-gap: var(--space-s)">
+--_cluster-space: 0.875rem">
         <span class="project-card__action-text">View Project</span>
 
         <!-- External link indicators -->
         <div
 class="cluster" style="
 
---cluster-gap: var(--space-2xs)">
+--_cluster-space: 0.375rem">
           <span v-if="content.github_url" class="project-card__link-icon" title="GitHub">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
@@ -187,15 +185,12 @@ const computedVariant = computed(() => {
  * This is why we use a wrapper: custom internal variable manipulation
  */
 const projectVars = computed(() => ({
-  // Override ccmCard internal variables for project-specific styling
-  '--_ccm-card-border-color': props.content.featured
-    ? 'var(--color-accent)'
-    : 'var(--color-primary-tint-40)',
-  '--_ccm-card-border-width': props.content.featured ? '3px' : '2px',
-
-  // Additional project-specific variables
-  '--_project-card-accent': props.content.featured
-    ? 'var(--color-accent)'
+  'border-color': props.content.featured
+    ? 'var(--accent-foreground)'
+    : 'var(--border)',
+  'border-width': props.content.featured ? '3px' : '2px',
+  '--_project-accent': props.content.featured
+    ? 'var(--accent-foreground)'
     : 'transparent'
 }))
 </script>
@@ -210,7 +205,7 @@ const projectVars = computed(() => ({
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  background-color: var(--color-primary-tint-10);
+  background-color: var(--muted);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,65 +219,65 @@ const projectVars = computed(() => ({
 }
 
 .project-card__thumbnail-placeholder {
-  font-size: var(--size-4);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary-tint-60);
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--muted-foreground);
 }
 
 .project-card__badge {
   position: absolute;
-  top: var(--space-s);
-  right: var(--space-s);
-  background-color: var(--color-accent);
-  color: var(--color-white);
-  padding: var(--space-3xs) var(--space-xs);
-  border-radius: var(--border-radius-s);
-  font-size: var(--size--1);
-  font-weight: var(--font-weight-bold);
+  top: 0.875rem;
+  right: 0.875rem;
+  background-color: var(--accent);
+  color: var(--primary-foreground);
+  padding: 0.25rem 0.6875rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .project-card__title {
-  font-size: var(--size-1);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--primary);
   margin: 0;
 }
 
 .project-card__description {
-  font-size: var(--size-0);
+  font-size: 1rem;
   color: var(--muted-foreground);
   margin: 0;
   line-height: 1.5;
 }
 
 .project-card__stack {
-  margin-top: var(--space-xs);
+  margin-top: 0.6875rem;
 }
 
 .project-card__tech-badge {
   display: inline-block;
-  padding: var(--space-3xs) var(--space-2xs);
-  background-color: var(--color-primary-tint-10);
-  color: var(--color-primary);
-  border-radius: var(--border-radius-s);
-  font-size: var(--size--1);
-  font-weight: var(--font-weight-medium);
+  padding: 0.25rem 0.375rem;
+  background-color: var(--muted);
+  color: var(--primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .project-card__action-text {
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  font-weight: 700;
+  color: var(--primary);
 }
 
 .project-card__link-icon {
   display: inline-flex;
-  color: var(--color-primary-tint-60);
+  color: var(--muted-foreground);
   transition: color 0.2s ease;
 }
 
 .project-card__link-icon:hover {
-  color: var(--color-primary);
+  color: var(--primary);
 }
 </style>

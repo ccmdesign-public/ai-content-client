@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--_grid-min-width, 240px), 1fr));
-  gap: var(--_grid-gap, var(--space-s));
+  gap: var(--_grid-gap, 0.875rem);
 }
 
 /* ========================================
@@ -9,15 +9,15 @@
    ======================================== */
 
 /* Grid gap */
-.grid[data-gap="3xs"] { --_grid-gap: var(--space-3xs); }
-.grid[data-gap="2xs"] { --_grid-gap: var(--space-2xs); }
-.grid[data-gap="xs"] { --_grid-gap: var(--space-xs); }
-.grid[data-gap="s"] { --_grid-gap: var(--space-s); }
-.grid[data-gap="m"] { --_grid-gap: var(--space-m); }
-.grid[data-gap="l"] { --_grid-gap: var(--space-l); }
-.grid[data-gap="xl"] { --_grid-gap: var(--space-xl); }
-.grid[data-gap="2xl"] { --_grid-gap: var(--space-2xl); }
-.grid[data-gap="3xl"] { --_grid-gap: var(--space-3xl); }
+.grid[data-gap="3xs"] { --_grid-gap: 0.25rem; }
+.grid[data-gap="2xs"] { --_grid-gap: 0.375rem; }
+.grid[data-gap="xs"] { --_grid-gap: 0.6875rem; }
+.grid[data-gap="s"] { --_grid-gap: 0.875rem; }
+.grid[data-gap="m"] { --_grid-gap: 1.3125rem; }
+.grid[data-gap="l"] { --_grid-gap: 1.75rem; }
+.grid[data-gap="xl"] { --_grid-gap: 2.625rem; }
+.grid[data-gap="2xl"] { --_grid-gap: 3.5rem; }
+.grid[data-gap="3xl"] { --_grid-gap: 5.25rem; }
 
 /* Grid min-width */
 .grid[data-min-width="xs"] { --_grid-min-width: 160px; }

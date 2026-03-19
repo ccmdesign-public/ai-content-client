@@ -22,34 +22,34 @@ defineProps<{
 <style scoped>
 .not-found {
   text-align: center;
-  padding: var(--space-2xl, 3rem) var(--space-l, 1.5rem);
+  padding: 3.5rem 1.75rem;
 }
 
 .not-found__icon {
   font-size: 4rem;
   color: var(--muted-foreground);
-  margin-bottom: var(--space-m, 1rem);
+  margin-bottom: 1.3125rem;
 }
 
 .not-found__title {
-  font-size: var(--size-2, 1.5rem);
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--foreground);
-  margin-bottom: var(--space-xs, 0.5rem);
+  margin-bottom: 0.6875rem;
 }
 
 .not-found__message {
-  font-size: var(--size-0, 1rem);
+  font-size: 1rem;
   color: var(--muted-foreground);
-  margin-bottom: var(--space-l, 1.5rem);
+  margin-bottom: 1.75rem;
 }
 
 .not-found__link {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
-  background: var(--color-primary, #2563eb);
+  gap: 0.375rem;
+  padding: 0.875rem 1.3125rem;
+  background: var(--primary);
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -58,6 +58,6 @@ defineProps<{
 }
 
 .not-found__link:hover {
-  background: var(--color-primary-shade-10, #1d4ed8);
+  background: var(--primary);
 }
 </style>

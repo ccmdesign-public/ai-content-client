@@ -75,68 +75,68 @@ useHead({
 
 <style scoped>
 .playlist-page {
-  padding: var(--space-l, 2rem);
+  padding: 1.75rem;
 }
 
 .page-header {
-  margin-bottom: var(--space-l, 2rem);
+  margin-bottom: 1.75rem;
 }
 
 .page-header__top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: var(--space-m, 1rem);
+  gap: 1.3125rem;
   flex-wrap: wrap;
 }
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--size-2, 1.5rem);
+  font-size: 1.25rem;
 }
 
 .page-header__count {
-  margin: var(--space-2xs, 0.25rem) 0 0;
+  margin: 0.375rem 0 0;
   color: var(--muted-foreground);
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
 }
 
 .loading {
   text-align: center;
-  padding: var(--space-2xl, 3rem);
+  padding: 3.5rem;
   color: var(--muted-foreground);
 }
 
 .empty-state {
   text-align: center;
-  padding: var(--space-2xl, 3rem) var(--space-l, 1.5rem);
+  padding: 3.5rem 1.75rem;
 }
 
 .empty-state__icon {
   font-size: 3rem;
   color: var(--muted-foreground);
-  margin-bottom: var(--space-m, 1rem);
+  margin-bottom: 1.3125rem;
 }
 
 .empty-state__message {
-  font-size: var(--size-1, 1.125rem);
+  font-size: 1.125rem;
   font-weight: 500;
   color: var(--foreground);
-  margin-bottom: var(--space-xs, 0.5rem);
+  margin-bottom: 0.6875rem;
 }
 
 .empty-state__hint {
-  font-size: var(--size-0, 1rem);
+  font-size: 1rem;
   color: var(--muted-foreground);
-  margin-bottom: var(--space-l, 1.5rem);
+  margin-bottom: 1.75rem;
 }
 
 .empty-state__link {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
-  background: var(--color-primary, #2563eb);
+  gap: 0.375rem;
+  padding: 0.875rem 1.3125rem;
+  background: var(--primary);
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -145,6 +145,6 @@ useHead({
 }
 
 .empty-state__link:hover {
-  background: var(--color-primary-shade-10, #1d4ed8);
+  background: var(--primary);
 }
 </style>

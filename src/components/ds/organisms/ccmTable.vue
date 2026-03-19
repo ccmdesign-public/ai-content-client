@@ -86,14 +86,14 @@ const props = defineProps({
   // Visual
   /** Token base name (e.g., "brand"). Derives header/body backgrounds automatically. */
   backgroundColor: { type: String, default: null },
-  /** Text color token (e.g., "color-base"). */
-  color: { type: String, default: 'color-base' },
-  /** Border color token base (e.g., "color-base"). */
-  borderColor: { type: String, default: 'color-base' },
+  /** Text color token (e.g., "foreground"). */
+  color: { type: String, default: 'foreground' },
+  /** Border color token base (e.g., "foreground"). */
+  borderColor: { type: String, default: 'foreground' },
   /** Border radius for outer table box. */
   borderRadius: { type: String, default: '0' },
   /** Cell padding for th/td (applies block and inline). */
-  padding: { type: String, default: 'var(--space-s)' },
+  padding: { type: String, default: '0.875rem' },
   variant: {
     type: String as PropType<'primary' | 'secondary'>,
     default: 'primary'
@@ -115,20 +115,20 @@ const cssVars = computed(() => {
   const hasBg = !!props.backgroundColor
   const theadBg = hasBg ? `var(--color-${props.backgroundColor}-100)` : 'transparent'
   const tbodyBg = hasBg ? `var(--color-${props.backgroundColor}-05-tint)` : 'transparent'
-  const headerTextColor = hasBg ? 'var(--color-white)' : 'currentColor'
+  const headerTextColor = hasBg ? 'var(--primary-foreground)' : 'currentColor'
 
   const borderColorBase = tokenOr(props.borderColor, 'currentColor')
   const borderColor20 = `color-mix(in oklab, ${borderColorBase} 20%, transparent)`
 
   return {
-    '--_ccm-table-color': `var(--${props.color})`,
-    '--_ccm-table-thead-bg': theadBg,
-    '--_ccm-table-thead-color': headerTextColor,
-    '--_ccm-table-tbody-bg': tbodyBg,
-    '--_ccm-table-border-color': borderColorBase,
-    '--_ccm-table-border-color-20': borderColor20,
-    '--_ccm-table-border-radius': props.borderRadius,
-    '--_ccm-table-cell-padding': props.padding
+    '--_table-color': `var(--${props.color})`,
+    '--_table-thead-bg': theadBg,
+    '--_table-thead-color': headerTextColor,
+    '--_table-tbody-bg': tbodyBg,
+    '--_table-border-color': borderColorBase,
+    '--_table-border-color-20': borderColor20,
+    '--_table-border-radius': props.borderRadius,
+    '--_table-cell-padding': props.padding
   }
 })
 
@@ -137,53 +137,53 @@ const cssVars = computed(() => {
 <style scoped>
 .ccm-table {
   /* Defaults */
-  --_ccm-table-color: currentColor;
-  --_ccm-table-thead-bg: transparent;
-  --_ccm-table-thead-color: currentColor;
-  --_ccm-table-tbody-bg: transparent;
-  --_ccm-table-border-color: currentColor;
-  --_ccm-table-border-color-20: color-mix(in oklab, currentColor 20%, transparent);
-  --_ccm-table-border-radius: 0;
-  --_ccm-table-cell-padding: var(--space-s);
+  --_table-color: currentColor;
+  --_table-thead-bg: transparent;
+  --_table-thead-color: currentColor;
+  --_table-tbody-bg: transparent;
+  --_table-border-color: currentColor;
+  --_table-border-color-20: color-mix(in oklab, currentColor 20%, transparent);
+  --_table-border-radius: 0;
+  --_table-cell-padding: 0.875rem;
 
-  color: var(--_ccm-table-color);
+  color: var(--_table-color);
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   background-color: transparent;
-  border-radius: var(--_ccm-table-border-radius);
+  border-radius: var(--_table-border-radius);
   overflow: hidden;
 }
 
 .ccm-table caption {
   text-align: start;
-  padding: var(--_ccm-table-cell-padding);
+  padding: var(--_table-cell-padding);
   color: inherit;
 }
 
 .ccm-table thead {
-  background-color: var(--_ccm-table-thead-bg);
-  color: var(--_ccm-table-thead-color);
+  background-color: var(--_table-thead-bg);
+  color: var(--_table-thead-color);
 }
 
 .ccm-table tbody {
-  background-color: var(--_ccm-table-tbody-bg);
+  background-color: var(--_table-tbody-bg);
 }
 
 .ccm-table th,
 .ccm-table td {
-  padding: var(--_ccm-table-cell-padding);
+  padding: var(--_table-cell-padding);
   text-align: start;
 }
 
 /* Row separators */
 .ccm-table tbody tr + tr > * {
-  border-top: 1px solid var(--_ccm-table-border-color-20);
+  border-top: 1px solid var(--_table-border-color-20);
 }
 
 /* Primary variant: add outer border at 20% */
 .ccm-table[variant='primary'] {
-  outline: 1px solid var(--_ccm-table-border-color-20);
+  outline: 1px solid var(--_table-border-color-20);
   outline-offset: 0;
 }
 
@@ -191,18 +191,18 @@ const cssVars = computed(() => {
 
 /* Rounded corners with separate header/body backgrounds */
 .ccm-table thead tr:first-child th:first-child {
-  border-top-left-radius: var(--_ccm-table-border-radius);
+  border-top-left-radius: var(--_table-border-radius);
 }
 .ccm-table thead tr:first-child th:last-child {
-  border-top-right-radius: var(--_ccm-table-border-radius);
+  border-top-right-radius: var(--_table-border-radius);
 }
 .ccm-table tbody tr:last-child td:first-child,
 .ccm-table tbody tr:last-child th:first-child {
-  border-bottom-left-radius: var(--_ccm-table-border-radius);
+  border-bottom-left-radius: var(--_table-border-radius);
 }
 .ccm-table tbody tr:last-child td:last-child,
 .ccm-table tbody tr:last-child th:last-child {
-  border-bottom-right-radius: var(--_ccm-table-border-radius);
+  border-bottom-right-radius: var(--_table-border-radius);
 }
 </style>
 

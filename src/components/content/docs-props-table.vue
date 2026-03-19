@@ -153,31 +153,31 @@ table {
 
 th, td {
   border-bottom: 1px solid var(--border);
-  padding: var(--space-xs) var(--space-s);
+  padding: 0.6875rem 0.875rem;
 }
 
 .grouped-props {
   display: grid;
-  gap: var(--space-l);
+  gap: 1.75rem;
 }
 
 .group-section {
   display: grid;
-  gap: var(--space-m);
+  gap: 1.3125rem;
 }
 
 .group-title {
-  font-size: var(--size-1);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--primary);
 }
 
 .props-table-table th {
   background-color: var(--accent);
   text-align: left;
-  font-weight: var(--font-weight-bold);
-  font-size: var(--size--1);
-  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--primary);
 }
 
 .prop-row {
@@ -189,22 +189,22 @@ th, td {
 }
 
 .prop-row td {
-  padding: var(--space-s) var(--space-m);
+  padding: 0.875rem 1.3125rem;
   vertical-align: top;
 }
 
 .prop-name {
-  font-family: var(--font-family-mono);
+  font-family: var(--font-mono);
   width: 15%;
 }
 
 .prop-name code {
-  background-color: var(--color-background);
-  padding: var(--space-3xs) var(--space-2xs);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--1);
-  color: var(--color-primary);
-  font-weight: var(--font-weight-medium);
+  background-color: var(--background);
+  padding: 0.25rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .prop-type {
@@ -212,36 +212,36 @@ th, td {
 }
 
 .type-badge {
-  background-color: var(--color-secondary);
-  color: var(--color-white);
-  padding: var(--space-3xs) var(--space-2xs);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--2);
-  font-weight: var(--font-weight-medium);
+  background-color: var(--secondary);
+  color: var(--primary-foreground);
+  padding: 0.25rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 .prop-default {
   width: 15%;
-  font-family: var(--font-family-mono);
+  font-family: var(--font-mono);
 }
 
 .default-value {
-  background-color: var(--color-background);
-  padding: var(--space-3xs) var(--space-2xs);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--1);
-  color: var(--color-secondary);
+  background-color: var(--background);
+  padding: 0.25rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  color: var(--secondary);
 }
 
 .no-default {
-  color: var(--color-base);
+  color: var(--foreground);
   font-style: italic;
 }
 
 .prop-description {
   width: 35%;
   line-height: 1.5;
-  color: var(--color-secondary);
+  color: var(--secondary);
 }
 
 .prop-required {
@@ -250,32 +250,32 @@ th, td {
 }
 
 .required-badge {
-  background-color: var(--color-fail);
-  color: var(--color-white);
-  padding: var(--space-3xs) var(--space-2xs);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--2);
-  font-weight: var(--font-weight-medium);
+  background-color: var(--destructive);
+  color: var(--primary-foreground);
+  padding: 0.25rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 .optional-badge {
-  background-color: var(--color-success);
-  color: var(--color-white);
-  padding: var(--space-3xs) var(--space-2xs);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--2);
-  font-weight: var(--font-weight-medium);
+  background-color: var(--success);
+  color: var(--primary-foreground);
+  padding: 0.25rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
   .props-table-table {
-    font-size: var(--size--1);
+    font-size: 0.875rem;
   }
 
   .props-table-table th,
   .prop-row td {
-    padding: var(--space-2xs) var(--space-s);
+    padding: 0.375rem 0.875rem;
   }
 
   .prop-name,
@@ -290,8 +290,8 @@ th, td {
   .prop-row {
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--space-2xs);
-    padding: var(--space-s);
+    gap: 0.375rem;
+    padding: 0.875rem;
   }
 
   .prop-row td {
@@ -301,8 +301,8 @@ th, td {
 
   .prop-row td::before {
     content: attr(data-label) ": ";
-    font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
+    font-weight: 700;
+    color: var(--primary);
   }
 }
 </style>

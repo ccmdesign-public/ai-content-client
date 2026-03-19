@@ -93,16 +93,16 @@ useHead({
 
 <style scoped>
 .tag-page {
-  padding: var(--space-l, 2rem);
+  padding: 1.75rem;
 }
 
 .page-header {
-  margin-bottom: var(--space-l, 2rem);
+  margin-bottom: 1.75rem;
 }
 
 .page-header__breadcrumb {
-  font-size: var(--size--1, 0.875rem);
-  color: var(--color-primary, #2563eb);
+  font-size: 0.875rem;
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -111,13 +111,13 @@ useHead({
 }
 
 .page-header__separator {
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
   color: var(--muted-foreground);
-  margin: 0 var(--space-2xs, 0.25rem);
+  margin: 0 0.375rem;
 }
 
 .page-header__category {
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
   color: var(--muted-foreground);
 }
 
@@ -125,24 +125,24 @@ useHead({
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: var(--space-m, 1rem);
+  gap: 1.3125rem;
   flex-wrap: wrap;
 }
 
 .page-header h1 {
-  margin: var(--space-xs, 0.5rem) 0 0;
-  font-size: var(--size-2, 1.5rem);
+  margin: 0.6875rem 0 0;
+  font-size: 1.25rem;
 }
 
 .page-header__count {
-  margin: var(--space-2xs, 0.25rem) 0 0;
+  margin: 0.375rem 0 0;
   color: var(--muted-foreground);
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
 }
 
 .loading {
   text-align: center;
-  padding: var(--space-2xl, 3rem);
+  padding: 3.5rem;
   color: var(--muted-foreground);
 }
 </style>

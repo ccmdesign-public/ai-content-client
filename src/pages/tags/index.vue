@@ -59,44 +59,44 @@ useHead({
 
 <style scoped>
 .tags-page {
-  padding: var(--space-l, 2rem);
+  padding: 1.75rem;
 }
 
 .page-header {
-  margin-bottom: var(--space-xl, 2.5rem);
+  margin-bottom: 2.625rem;
 }
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--size-2, 1.5rem);
+  font-size: 1.25rem;
 }
 
 .page-header__count {
-  margin: var(--space-2xs, 0.25rem) 0 0;
+  margin: 0.375rem 0 0;
   color: var(--muted-foreground);
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
 }
 
 .tags-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl, 2rem);
+  gap: 2.625rem;
 }
 
 .tag-category__heading {
-  font-size: var(--size-1, 1.125rem);
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--foreground);
-  margin: 0 0 var(--space-s, 0.75rem) 0;
-  padding-bottom: var(--space-xs, 0.5rem);
+  margin: 0 0 0.875rem 0;
+  padding-bottom: 0.6875rem;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: baseline;
-  gap: var(--space-s, 0.75rem);
+  gap: 0.875rem;
 }
 
 .tag-category__count {
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
   font-weight: 400;
   color: var(--muted-foreground);
 }
@@ -107,7 +107,7 @@ useHead({
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs, 0.5rem);
+  gap: 0.6875rem;
 }
 
 /* Tag chip styles now use Tailwind utilities inline */

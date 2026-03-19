@@ -189,38 +189,38 @@ const componentTag = computed(() => {
   return props.is
 })
 
-// Size mapping with proper token references
+// Size mapping with fixed rem values
 const sizeMap = {
-  xs: { paddingBlock: '3xs', paddingInline: 'xs', fontSize: '--size--2', icon: '10' },
-  s: { paddingBlock: '3xs', paddingInline: 'xs', fontSize: '--size--1', icon: '12' },
-  m: { paddingBlock: '2xs', paddingInline: 's', fontSize: '--size-0', icon: '16' }
+  xs: { paddingBlock: '0.25rem', paddingInline: '0.6875rem', fontSize: '0.75rem', icon: '10' },
+  s: { paddingBlock: '0.25rem', paddingInline: '0.6875rem', fontSize: '0.875rem', icon: '12' },
+  m: { paddingBlock: '0.375rem', paddingInline: '0.875rem', fontSize: '1rem', icon: '16' }
 }
 
-// Color mapping based on variant (text=full color, bg=10% tint)
+// Color mapping based on variant using shadcn tokens
 const colorMap = {
   filled: {
-    neutral: { bg: 'color-neutral-tint-10', color: 'color-neutral' },
-    primary: { bg: 'color-primary-tint-10', color: 'color-primary' },
-    success: { bg: 'color-success-tint-10', color: 'color-success' },
-    warning: { bg: 'color-warning-tint-10', color: 'color-warning' },
-    error: { bg: 'color-error-tint-10', color: 'color-error' },
-    info: { bg: 'color-info-tint-10', color: 'color-info' }
+    neutral: { bg: 'muted', color: 'muted-foreground' },
+    primary: { bg: 'primary', color: 'primary-foreground' },
+    success: { bg: 'success', color: 'success-foreground' },
+    warning: { bg: 'warning', color: 'warning-foreground' },
+    error: { bg: 'destructive', color: 'destructive-foreground' },
+    info: { bg: 'info', color: 'info-foreground' }
   },
   outlined: {
-    neutral: { bg: 'transparent', color: 'color-neutral', border: 'color-neutral' },
-    primary: { bg: 'transparent', color: 'color-primary', border: 'color-primary' },
-    success: { bg: 'transparent', color: 'color-success', border: 'color-success' },
-    warning: { bg: 'transparent', color: 'color-warning', border: 'color-warning' },
-    error: { bg: 'transparent', color: 'color-error', border: 'color-error' },
-    info: { bg: 'transparent', color: 'color-info', border: 'color-info' }
+    neutral: { bg: 'transparent', color: 'muted-foreground', border: 'border' },
+    primary: { bg: 'transparent', color: 'primary', border: 'primary' },
+    success: { bg: 'transparent', color: 'success', border: 'success' },
+    warning: { bg: 'transparent', color: 'warning', border: 'warning' },
+    error: { bg: 'transparent', color: 'destructive', border: 'destructive' },
+    info: { bg: 'transparent', color: 'info', border: 'info' }
   },
   minimal: {
-    neutral: { bg: 'transparent', color: 'color-neutral' },
-    primary: { bg: 'transparent', color: 'color-primary' },
-    success: { bg: 'transparent', color: 'color-success' },
-    warning: { bg: 'transparent', color: 'color-warning' },
-    error: { bg: 'transparent', color: 'color-error' },
-    info: { bg: 'transparent', color: 'color-info' }
+    neutral: { bg: 'transparent', color: 'muted-foreground' },
+    primary: { bg: 'transparent', color: 'primary' },
+    success: { bg: 'transparent', color: 'success' },
+    warning: { bg: 'transparent', color: 'warning' },
+    error: { bg: 'transparent', color: 'destructive' },
+    info: { bg: 'transparent', color: 'info' }
   }
 }
 
@@ -228,17 +228,17 @@ const colorMap = {
 const cssVars = computed(() => {
   const currentSize = sizeMap[props.size as keyof typeof sizeMap] || sizeMap.m
   const currentColors = props.customColor
-    ? { bg: props.customColor, color: 'color-neutral-tint-100' }
+    ? { bg: props.customColor, color: 'foreground' }
     : (colorMap as any)[props.variant]?.[props.color] || colorMap.filled.neutral
 
   return {
-    '--_ccm-chip-padding-block': `var(--space-${currentSize.paddingBlock})`,
-    '--_ccm-chip-padding-inline': `var(--space-${currentSize.paddingInline})`,
-    '--_ccm-chip-font-size': `var(${currentSize.fontSize})`,
-    '--_ccm-chip-icon-size': `${currentSize.icon}px`,
-    '--_ccm-chip-background-color': `var(--${currentColors.bg})`,
-    '--_ccm-chip-color': `var(--${currentColors.color})`,
-    '--_ccm-chip-border-color': currentColors.border ? `var(--${currentColors.border})` : 'transparent'
+    '--_chip-padding-block': currentSize.paddingBlock,
+    '--_chip-padding-inline': currentSize.paddingInline,
+    '--_chip-font-size': currentSize.fontSize,
+    '--_chip-icon-size': `${currentSize.icon}px`,
+    '--_chip-bg': currentColors.bg === 'transparent' ? 'transparent' : `var(--${currentColors.bg})`,
+    '--_chip-color': `var(--${currentColors.color})`,
+    '--_chip-border-color': currentColors.border ? `var(--${currentColors.border})` : 'transparent'
   }
 })
 
@@ -265,40 +265,24 @@ const handleDismiss = (event: MouseEvent) => {
 
 <style scoped>
 .ccm-chip {
-  /* Default CSS variable values */
-  --_ccm-chip-padding-block: var(--space-2xs);
-  --_ccm-chip-padding-inline: var(--space-s);
-  --_ccm-chip-gap: var(--space-2xs);
-  --_ccm-chip-border-radius: 999px;
-  --_ccm-chip-font-family: var(--font-family-body);
-  --_ccm-chip-font-size: var(--size-0);
-  --_ccm-chip-font-weight: var(--font-weight-medium);
-  --_ccm-chip-line-height: 1.2;
-  --_ccm-chip-background-color: var(--color-neutral-tint-10);
-  --_ccm-chip-color: var(--color-neutral);
-  --_ccm-chip-border-color: transparent;
-  --_ccm-chip-border-width: 1px;
-  --_ccm-chip-icon-size: 16px;
-  --_ccm-chip-disabled-opacity: 0.5;
-
   /* Layout */
   display: inline-flex;
   align-items: center;
-  gap: var(--_ccm-chip-gap);
-  padding-block: var(--_ccm-chip-padding-block);
-  padding-inline: var(--_ccm-chip-padding-inline);
-  border-radius: var(--_ccm-chip-border-radius);
-  border: var(--_ccm-chip-border-width) solid var(--_ccm-chip-border-color);
+  gap: 0.375rem;
+  padding-block: var(--_chip-padding-block, 0.375rem);
+  padding-inline: var(--_chip-padding-inline, 0.875rem);
+  border-radius: 999px;
+  border: 1px solid var(--_chip-border-color, transparent);
 
   /* Typography */
-  font-family: var(--_ccm-chip-font-family);
-  font-size: var(--_ccm-chip-font-size);
-  font-weight: var(--_ccm-chip-font-weight);
-  line-height: var(--_ccm-chip-line-height);
+  font-family: var(--font-sans);
+  font-size: var(--_chip-font-size, 1rem);
+  font-weight: 500;
+  line-height: 1.2;
 
   /* Colors */
-  background-color: var(--_ccm-chip-background-color);
-  color: var(--_ccm-chip-color);
+  background-color: var(--_chip-bg, var(--muted));
+  color: var(--_chip-color, var(--muted-foreground));
 
   /* Behavior */
   white-space: nowrap;
@@ -326,7 +310,7 @@ const handleDismiss = (event: MouseEvent) => {
 
 /* Disabled state */
 .ccm-chip[disabled] {
-  opacity: var(--_ccm-chip-disabled-opacity);
+  opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -335,9 +319,9 @@ const handleDismiss = (event: MouseEvent) => {
 .ccm-chip__icon {
   display: inline-flex;
   align-items: center;
-  width: var(--_ccm-chip-icon-size);
-  height: var(--_ccm-chip-icon-size);
-  font-size: var(--_ccm-chip-icon-size);
+  width: var(--_chip-icon-size, 16px);
+  height: var(--_chip-icon-size, 16px);
+  font-size: var(--_chip-icon-size, 16px);
   color: currentcolor;
 }
 
@@ -346,13 +330,13 @@ const handleDismiss = (event: MouseEvent) => {
   display: inline-block;
 }
 
-/* Icon padding overrides - reduce padding on sides with icons */
+/* Icon padding overrides */
 .ccm-chip:has(.ccm-chip__icon:first-child) {
-  padding-inline-start: var(--space-2xs);
+  padding-inline-start: 0.375rem;
 }
 
 .ccm-chip:has(.ccm-chip__icon:last-child) {
-  padding-inline-end: var(--space-2xs);
+  padding-inline-end: 0.375rem;
 }
 
 /* Dismiss button */
@@ -360,19 +344,19 @@ const handleDismiss = (event: MouseEvent) => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: var(--_ccm-chip-icon-size);
-  height: var(--_ccm-chip-icon-size);
+  width: var(--_chip-icon-size, 16px);
+  height: var(--_chip-icon-size, 16px);
   padding: 0;
-  margin-inline-start: calc(var(--_ccm-chip-gap) * -0.5);
+  margin-inline-start: -0.1875rem;
   background: transparent;
   border: none;
   color: currentcolor;
   cursor: pointer;
   border-radius: 999px;
   transition: background-color 0.2s ease;
-  font-family: var(--font-family-body);
-  font-size: calc(var(--_ccm-chip-icon-size) * 0.9);
-  font-weight: var(--font-weight-normal);
+  font-family: var(--font-sans);
+  font-size: calc(var(--_chip-icon-size, 16px) * 0.9);
+  font-weight: 400;
   line-height: 1;
 }
 
@@ -393,6 +377,6 @@ const handleDismiss = (event: MouseEvent) => {
 .ccm-chip[variant='minimal'] {
   background-color: transparent;
   border-color: transparent;
-  padding-inline: var(--space-2xs);
+  padding-inline: 0.375rem;
 }
 </style>

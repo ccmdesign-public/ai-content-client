@@ -129,22 +129,18 @@ const props = defineProps({
   }
 })
 
+const sizeToRem = { s: '0.875rem', m: '1.3125rem', l: '1.75rem', xl: '2.625rem', '2xl': '3.5rem' }
+
 const cssVars = computed(() => ({
-  '--_ccm-section-background-color': `var(--${props.backgroundColor})`,
-  '--_ccm-section-padding-block': `var(--space-${props.size})`
+  '--_section-bg': props.backgroundColor === 'transparent' ? 'transparent' : `var(--${props.backgroundColor})`,
+  '--_section-padding': sizeToRem[props.size] || '1.75rem'
 }))
 </script>
 
 <style scoped>
 .ccm-section {
-  --_ccm-section-padding-block: var(--space-l);
-  --_ccm-section-background-color: transparent;
-
-}
-
-.ccm-section { 
-  padding-block: var(--_ccm-section-padding-block);
-  background-color: var(--_ccm-section-background-color);
+  padding-block: var(--_section-padding, 1.75rem);
+  background-color: var(--_section-bg, transparent);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -157,7 +153,7 @@ const cssVars = computed(() => ({
   max-width: 50%;
   object-fit: cover;
   object-position: center;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   &:hover { transform: scale(1.05); }
  }
 </style>

@@ -86,7 +86,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, useId } from 'vue'
 import type { PropType } from 'vue'
 
 /**
@@ -173,11 +173,11 @@ const props = defineProps({
   showValidationIcon: { type: Boolean, default: true }
 })
 
-// Generate stable IDs
+// Generate stable, SSR-safe IDs using Vue's useId()
+const autoId = useId()
 const computedId = computed(() => {
   if (props.id) return props.id
-  // Generate random ID as fallback
-  return `form-field-${Math.random().toString(36).substr(2, 9)}`
+  return `form-field-${autoId}`
 })
 
 const helpTextId = computed(() => `${computedId.value}-help`)
@@ -228,88 +228,43 @@ const slotBindings = computed(() => ({
 // CSS variable bindings (Standard 2)
 const cssVars = computed(() => {
   const sizeMap = {
-    s: { block: '2xs', inline: 'xs', fontSize: '-1' },
-    m: { block: 'xs', inline: 's', fontSize: '0' },
-    l: { block: 's', inline: 'm', fontSize: '1' },
-    xl: { block: 'm', inline: 'l', fontSize: '2' }
+    s: { block: '0.375rem', inline: '0.6875rem', fontSize: '0.875rem' },
+    m: { block: '0.6875rem', inline: '0.875rem', fontSize: '1rem' },
+    l: { block: '0.875rem', inline: '1.3125rem', fontSize: '1.125rem' },
+    xl: { block: '1.3125rem', inline: '1.75rem', fontSize: '1.25rem' }
   }
 
   const size = sizeMap[props.size] || sizeMap.m
 
   return {
-    '--_ccm-form-field-padding-block': `var(--space-${size.block})`,
-    '--_ccm-form-field-padding-inline': `var(--space-${size.inline})`,
-    '--_ccm-form-field-font-size': `var(--size-${size.fontSize})`
+    '--_ff-padding-block': size.block,
+    '--_ff-padding-inline': size.inline,
+    '--_ff-font-size': size.fontSize
   }
 })
 </script>
 
 <style scoped>
 .ccm-form-field {
-  /* Default CSS variable values */
-  --_ccm-form-field-padding-block: var(--space-xs);
-  --_ccm-form-field-padding-inline: var(--space-s);
-  --_ccm-form-field-gap: var(--space-2xs);
-
-  /* Typography */
-  --_ccm-form-field-font-family: var(--font-family-body);
-  --_ccm-form-field-font-size: var(--size-0);
-  --_ccm-form-field-font-weight: var(--font-weight-normal);
-  --_ccm-form-field-line-height: 1.5;
-
-  /* Label */
-  --_ccm-form-field-label-font-size: var(--size--1);
-  --_ccm-form-field-label-font-weight: var(--font-weight-semibold);
-  --_ccm-form-field-label-color: var(--color-base);
-  --_ccm-form-field-label-gap: var(--space-3xs);
-
-  /* Input */
-  --_ccm-form-field-background-color: var(--color-white);
-  --_ccm-form-field-color: var(--color-base);
-  --_ccm-form-field-border-width: 2px;
-  --_ccm-form-field-border-style: solid;
-  --_ccm-form-field-border-color: var(--border);
-  --_ccm-form-field-border-radius: var(--border-radius-m);
-
-  /* Focus state */
-  --_ccm-form-field-focus-border-color: var(--color-primary);
-  --_ccm-form-field-focus-ring-width: 2px;
-  --_ccm-form-field-focus-ring-offset: 2px;
-  --_ccm-form-field-focus-ring-color: var(--color-primary);
-
-  /* Validation states */
-  --_ccm-form-field-success-color: var(--color-success);
-  --_ccm-form-field-error-color: var(--color-fail);
-  --_ccm-form-field-warning-color: var(--color-warning);
-
-  /* Helper text */
-  --_ccm-form-field-help-font-size: var(--size--2);
-  --_ccm-form-field-help-color: var(--muted-foreground);
-
-  /* Disabled state */
-  --_ccm-form-field-disabled-opacity: 0.5;
-  --_ccm-form-field-disabled-cursor: not-allowed;
-
-  /* Layout */
   display: flex;
   flex-direction: column;
-  gap: var(--_ccm-form-field-gap);
+  gap: 0.375rem;
   width: 100%;
 }
 
 /* Label */
 .ccm-form-field__label {
-  font-size: var(--_ccm-form-field-label-font-size);
-  font-weight: var(--_ccm-form-field-label-font-weight);
-  color: var(--_ccm-form-field-label-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--foreground);
   display: flex;
   align-items: center;
-  gap: var(--_ccm-form-field-label-gap);
+  gap: 0.25rem;
 }
 
 .ccm-form-field__required {
-  color: var(--_ccm-form-field-error-color);
-  font-weight: var(--font-weight-bold);
+  color: var(--destructive);
+  font-weight: 700;
 }
 
 /* Label positions */
@@ -345,7 +300,7 @@ const cssVars = computed(() => {
   textarea,
   select
 ) .ccm-form-field__label {
-  padding-inline: var(--_ccm-form-field-padding-inline);
+  padding-inline: var(--_ff-padding-inline, 0.875rem);
 }
 
 /* Input wrapper */
@@ -359,19 +314,18 @@ const cssVars = computed(() => {
 /* Style any input, textarea, or select inside */
 .ccm-form-field__input-wrapper > :deep(input),
 .ccm-form-field__input-wrapper > :deep(textarea),
-.ccm-form-field__input-wrapper > :deep(select),
 .ccm-form-field__input-wrapper > :deep(select) {
   width: 100%;
-  padding-block: var(--_ccm-form-field-padding-block);
-  padding-inline: var(--_ccm-form-field-padding-inline);
-  font-family: var(--_ccm-form-field-font-family);
-  font-size: var(--_ccm-form-field-font-size);
-  font-weight: var(--_ccm-form-field-font-weight);
-  line-height: var(--_ccm-form-field-line-height);
-  color: var(--_ccm-form-field-color);
-  background-color: var(--_ccm-form-field-background-color);
-  border: var(--_ccm-form-field-border-width) var(--_ccm-form-field-border-style) var(--_ccm-form-field-border-color);
-  border-radius: var(--_ccm-form-field-border-radius);
+  padding-block: var(--_ff-padding-block, 0.6875rem);
+  padding-inline: var(--_ff-padding-inline, 0.875rem);
+  font-family: var(--font-sans);
+  font-size: var(--_ff-font-size, 1rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--foreground);
+  background-color: var(--background);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -383,98 +337,75 @@ const cssVars = computed(() => {
 /* Focus state */
 .ccm-form-field__input-wrapper > :deep(input):focus,
 .ccm-form-field__input-wrapper > :deep(textarea):focus,
-.ccm-form-field__input-wrapper > :deep(select):focus,
 .ccm-form-field__input-wrapper > :deep(select):focus {
   outline: none;
-  border-color: var(--_ccm-form-field-focus-border-color);
-  box-shadow: 0 0 0 var(--_ccm-form-field-focus-ring-width)
-    color-mix(in srgb, var(--_ccm-form-field-focus-ring-color) 20%, transparent);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 20%, transparent);
 }
 
 /* Disabled state */
 .ccm-form-field__input-wrapper > :deep(input):disabled,
 .ccm-form-field__input-wrapper > :deep(textarea):disabled,
-.ccm-form-field__input-wrapper > :deep(select):disabled,
 .ccm-form-field__input-wrapper > :deep(select):disabled {
-  opacity: var(--_ccm-form-field-disabled-opacity);
-  cursor: var(--_ccm-form-field-disabled-cursor);
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 /* Readonly state */
 .ccm-form-field__input-wrapper > :deep(input):read-only,
 .ccm-form-field__input-wrapper > :deep(textarea):read-only,
-.ccm-form-field__input-wrapper > :deep(select):read-only,
 .ccm-form-field__input-wrapper > :deep(select):read-only {
-  background-color: color-mix(in srgb, var(--color-base) 5%, transparent);
+  background-color: color-mix(in srgb, var(--foreground) 5%, transparent);
   cursor: default;
 }
 
 /* Validation icon */
 .ccm-form-field__icon {
   position: absolute;
-  right: var(--_ccm-form-field-padding-inline);
+  right: var(--_ff-padding-inline, 0.875rem);
   pointer-events: none;
-  font-size: var(--_ccm-form-field-font-size);
+  font-size: var(--_ff-font-size, 1rem);
   line-height: 1;
 }
 
-.ccm-form-field__icon[data-state='success'] {
-  color: var(--_ccm-form-field-success-color);
-}
-
-.ccm-form-field__icon[data-state='error'] {
-  color: var(--_ccm-form-field-error-color);
-}
-
-.ccm-form-field__icon[data-state='warning'] {
-  color: var(--_ccm-form-field-warning-color);
-}
+.ccm-form-field__icon[data-state='success'] { color: var(--success); }
+.ccm-form-field__icon[data-state='error'] { color: var(--destructive); }
+.ccm-form-field__icon[data-state='warning'] { color: var(--warning); }
 
 /* Help text */
 .ccm-form-field__help {
-  font-size: var(--_ccm-form-field-help-font-size);
-  color: var(--_ccm-form-field-help-color);
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
   line-height: 1.4;
 }
 
 /* Messages */
 .ccm-form-field__message {
-  font-size: var(--_ccm-form-field-help-font-size);
+  font-size: 0.75rem;
   line-height: 1.4;
-  font-weight: var(--font-weight-medium);
+  font-weight: 500;
 }
 
-.ccm-form-field__message--success {
-  color: var(--_ccm-form-field-success-color);
-}
-
-.ccm-form-field__message--error {
-  color: var(--_ccm-form-field-error-color);
-}
-
-.ccm-form-field__message--warning {
-  color: var(--_ccm-form-field-warning-color);
-}
+.ccm-form-field__message--success { color: var(--success); }
+.ccm-form-field__message--error { color: var(--destructive); }
+.ccm-form-field__message--warning { color: var(--warning); }
 
 /* Validation state borders */
 .ccm-form-field[validation-state='success'] .ccm-form-field__input-wrapper > :deep(input),
 .ccm-form-field[validation-state='success'] .ccm-form-field__input-wrapper > :deep(textarea),
-.ccm-form-field[validation-state='success'] .ccm-form-field__input-wrapper > :deep(select),
 .ccm-form-field[validation-state='success'] .ccm-form-field__input-wrapper > :deep(select) {
-  border-color: var(--_ccm-form-field-success-color);
+  border-color: var(--success);
 }
 
 .ccm-form-field[validation-state='error'] .ccm-form-field__input-wrapper > :deep(input),
 .ccm-form-field[validation-state='error'] .ccm-form-field__input-wrapper > :deep(textarea),
-.ccm-form-field[validation-state='error'] .ccm-form-field__input-wrapper > :deep(select),
 .ccm-form-field[validation-state='error'] .ccm-form-field__input-wrapper > :deep(select) {
-  border-color: var(--_ccm-form-field-error-color);
+  border-color: var(--destructive);
 }
 
 .ccm-form-field[validation-state='warning'] .ccm-form-field__input-wrapper > :deep(input),
 .ccm-form-field[validation-state='warning'] .ccm-form-field__input-wrapper > :deep(textarea),
-.ccm-form-field[validation-state='warning'] .ccm-form-field__input-wrapper > :deep(select),
 .ccm-form-field[validation-state='warning'] .ccm-form-field__input-wrapper > :deep(select) {
-  border-color: var(--_ccm-form-field-warning-color);
+  border-color: var(--warning);
 }
 </style>

@@ -21,27 +21,27 @@ const selectId = useId()
 .sort-control {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-xs, 0.5rem);
+  gap: 0.6875rem;
 }
 
 .sort-control__label {
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
   color: var(--muted-foreground);
 }
 
 .sort-control__select {
-  font-size: var(--size--1, 0.875rem);
-  padding: var(--space-2xs, 0.375rem) var(--space-xs, 0.5rem);
+  font-size: 0.875rem;
+  padding: 0.375rem 0.6875rem;
   min-height: 44px;
   border: 1px solid var(--border);
   border-radius: 6px;
-  background: var(--color-surface, #fff);
+  background: var(--background);
   color: var(--foreground);
   cursor: pointer;
 }
 
 .sort-control__select:focus-visible {
-  outline: 2px solid var(--color-primary, #2563eb);
+  outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
 </style>

@@ -4,7 +4,7 @@
   overflow: auto hidden;
   scrollbar-color: #fff #000;
 
-  --_reel-space: var(--space-s);
+  --_reel-space: 0.875rem;
 }
 
 .reel::-webkit-scrollbar {
@@ -43,12 +43,12 @@
    ======================================== */
 
 /* Reel spacing (for the gap between items) */
-.reel[data-space="3xs"] { --_reel-space: var(--space-3xs); }
-.reel[data-space="2xs"] { --_reel-space: var(--space-2xs); }
-.reel[data-space="xs"] { --_reel-space: var(--space-xs); }
-.reel[data-space="s"] { --_reel-space: var(--space-s); }
-.reel[data-space="m"] { --_reel-space: var(--space-m); }
-.reel[data-space="l"] { --_reel-space: var(--space-l); }
-.reel[data-space="xl"] { --_reel-space: var(--space-xl); }
-.reel[data-space="2xl"] { --_reel-space: var(--space-2xl); }
-.reel[data-space="3xl"] { --_reel-space: var(--space-3xl); }
+.reel[data-space="3xs"] { --_reel-space: 0.25rem; }
+.reel[data-space="2xs"] { --_reel-space: 0.375rem; }
+.reel[data-space="xs"] { --_reel-space: 0.6875rem; }
+.reel[data-space="s"] { --_reel-space: 0.875rem; }
+.reel[data-space="m"] { --_reel-space: 1.3125rem; }
+.reel[data-space="l"] { --_reel-space: 1.75rem; }
+.reel[data-space="xl"] { --_reel-space: 2.625rem; }
+.reel[data-space="2xl"] { --_reel-space: 3.5rem; }
+.reel[data-space="3xl"] { --_reel-space: 5.25rem; }

@@ -138,7 +138,7 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--color-background, #fff);
+  background: var(--background);
   border-bottom: 1px solid var(--border);
 }
 
@@ -149,18 +149,18 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
   top: 0;
   bottom: 0;
   width: 2rem;
-  background: linear-gradient(to right, transparent, var(--color-background, #fff));
+  background: linear-gradient(to right, transparent, var(--background));
   pointer-events: none;
 }
 
 .category-filter-bar__list {
   display: flex;
-  gap: var(--space-xs, 0.5rem);
+  gap: 0.6875rem;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x proximity;
   scrollbar-width: none;
-  padding: var(--space-xs, 0.5rem) var(--space-l, 2rem);
+  padding: 0.6875rem 1.75rem;
 }
 
 .category-filter-bar__list::-webkit-scrollbar {

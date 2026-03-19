@@ -32,12 +32,12 @@
 
 /* Imposter margin (space from edges) */
 .imposter[data-margin="0"] { --_imposter-margin: 0px; }
-.imposter[data-margin="3xs"] { --_imposter-margin: var(--space-3xs); }
-.imposter[data-margin="2xs"] { --_imposter-margin: var(--space-2xs); }
-.imposter[data-margin="xs"] { --_imposter-margin: var(--space-xs); }
-.imposter[data-margin="s"] { --_imposter-margin: var(--space-s); }
-.imposter[data-margin="m"] { --_imposter-margin: var(--space-m); }
-.imposter[data-margin="l"] { --_imposter-margin: var(--space-l); }
-.imposter[data-margin="xl"] { --_imposter-margin: var(--space-xl); }
-.imposter[data-margin="2xl"] { --_imposter-margin: var(--space-2xl); }
-.imposter[data-margin="3xl"] { --_imposter-margin: var(--space-3xl); }
+.imposter[data-margin="3xs"] { --_imposter-margin: 0.25rem; }
+.imposter[data-margin="2xs"] { --_imposter-margin: 0.375rem; }
+.imposter[data-margin="xs"] { --_imposter-margin: 0.6875rem; }
+.imposter[data-margin="s"] { --_imposter-margin: 0.875rem; }
+.imposter[data-margin="m"] { --_imposter-margin: 1.3125rem; }
+.imposter[data-margin="l"] { --_imposter-margin: 1.75rem; }
+.imposter[data-margin="xl"] { --_imposter-margin: 2.625rem; }
+.imposter[data-margin="2xl"] { --_imposter-margin: 3.5rem; }
+.imposter[data-margin="3xl"] { --_imposter-margin: 5.25rem; }

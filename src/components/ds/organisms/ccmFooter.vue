@@ -65,7 +65,7 @@ const cssVars = computed(() => {
   const vars = {}
 
   if (props.backgroundColor && props.backgroundColor !== 'transparent') {
-    vars['--_ccm-footer-background-color'] = `var(--${props.backgroundColor})`
+    vars['--_footer-background-color'] = `var(--${props.backgroundColor})`
   }
 
   return vars
@@ -74,21 +74,15 @@ const cssVars = computed(() => {
 
 <style scoped>
 .ccm-footer {
-  --_ccm-footer-padding-block: var(--space-l);
-  --_ccm-footer-background-color: var(--color-primary-tint-20);
+  padding-block: var(--_footer-padding, 1.75rem);
+  background-color: var(--_footer-background-color, var(--muted));
 }
 
-.ccm-footer {
-  padding-block: var(--_ccm-footer-padding-block);
-  background-color: var(--_ccm-footer-background-color);
-}
-
-.ccm-footer[size="xs"]  { --_ccm-footer-padding-block: var(--space-xs);  }
-.ccm-footer[size="s"]   { --_ccm-footer-padding-block: var(--space-s);   }
-.ccm-footer[size="m"]   { --_ccm-footer-padding-block: var(--space-m);   }
-.ccm-footer[size="l"]   { --_ccm-footer-padding-block: var(--space-l);   }
-.ccm-footer[size="xl"]  { --_ccm-footer-padding-block: var(--space-xl);  }
-.ccm-footer[size="2xl"] { --_ccm-footer-padding-block: var(--space-2xl); }
-.ccm-footer[size="3xl"] { --_ccm-footer-padding-block: var(--space-3xl); }
-
+.ccm-footer[size="xs"]  { --_footer-padding: 0.6875rem; }
+.ccm-footer[size="s"]   { --_footer-padding: 0.875rem; }
+.ccm-footer[size="m"]   { --_footer-padding: 1.3125rem; }
+.ccm-footer[size="l"]   { --_footer-padding: 1.75rem; }
+.ccm-footer[size="xl"]  { --_footer-padding: 2.625rem; }
+.ccm-footer[size="2xl"] { --_footer-padding: 3.5rem; }
+.ccm-footer[size="3xl"] { --_footer-padding: 5.25rem; }
 </style>

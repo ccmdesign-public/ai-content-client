@@ -148,49 +148,25 @@ const props = defineProps({
   }
 })
 
+const sizeToRem = { s: '0.875rem', m: '1.3125rem', l: '1.75rem', xl: '2.625rem' }
+
 const cssVars = computed(() => {
   const vars = {}
 
-  // Background color
   if (props.backgroundColor) {
-    vars['--_ccm-hero-background-color'] = `var(--${props.backgroundColor})`
+    vars['--_hero-bg'] = `var(--${props.backgroundColor})`
   }
 
-  // Size-based padding
-  vars['--_ccm-hero-padding-block'] = `var(--space-${props.size})`
+  vars['--_hero-padding'] = sizeToRem[props.size] || '1.75rem'
 
   return vars
 })
 </script>
 
 <style scoped>
-/* ============================================
-   CSS VARIABLES - DEFAULT VALUES
-   ============================================ */
 .ccm-hero {
-  /* Layout */
-  --_ccm-hero-aspect-ratio: 16 / 7;
-  --_ccm-hero-padding-block: var(--space-l);
-  --_ccm-hero-gap: var(--space-xs);
-
-  /* Colors */
-  --_ccm-hero-background-color: var(--color-primary-tint-20);
-  --_ccm-hero-link-color: var(--link-color);
-  --_ccm-hero-link-color-visited: var(--link-color-visited);
-
-  /* Typography */
-  --_ccm-hero-heading-font-family: inherit;
-  --_ccm-hero-heading-font-weight: inherit;
-  --_ccm-hero-heading-margin-block: initial;
-  --_ccm-hero-link-font-size: var(--size-0);
-}
-
-/* ============================================
-   BASE LAYOUT
-   ============================================ */
-.ccm-hero {
-  background-color: var(--_ccm-hero-background-color);
-  aspect-ratio: var(--_ccm-hero-aspect-ratio);
+  background-color: var(--_hero-bg, var(--muted));
+  aspect-ratio: 16 / 7;
   display: flex;
   flex-direction: column;
 }
@@ -199,36 +175,36 @@ const cssVars = computed(() => {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: var(--_ccm-hero-gap);
+  gap: 0.6875rem;
 }
 
 .ccm-hero__main {
   width: 100%;
   display: flex;
-  padding-block: var(--_ccm-hero-padding-block);
+  padding-block: var(--_hero-padding, 1.75rem);
   align-items: center;
   flex: 1;
   text-wrap: balance;
 }
 
 .ccm-hero__bottom {
-  padding-bottom: var(--_ccm-hero-padding-block);
+  padding-bottom: var(--_hero-padding, 1.75rem);
 }
 
-/* Heading typography control */
+/* Heading typography */
 .ccm-hero h1,
 .ccm-hero h3,
 .ccm-hero h4 {
-  font-family: var(--_ccm-hero-heading-font-family);
-  font-weight: var(--_ccm-hero-heading-font-weight);
-  margin-block: var(--_ccm-hero-heading-margin-block);
+  font-family: inherit;
+  font-weight: inherit;
+  margin-block: initial;
 }
 
-/* Generic link styling for slotted content */
+/* Link styling */
 .ccm-hero a {
-  color: var(--_ccm-hero-link-color);
+  color: var(--primary);
   text-decoration: none;
-  font-size: var(--_ccm-hero-link-font-size);
+  font-size: 1rem;
 }
 
 .ccm-hero a:hover {
@@ -236,28 +212,21 @@ const cssVars = computed(() => {
 }
 
 .ccm-hero a:visited {
-  color: var(--_ccm-hero-link-color-visited);
+  color: var(--primary);
 }
 
-/* ============================================
-   VARIANT: MINIMAL
-   ============================================ */
+/* Variant: minimal */
 .ccm-hero[variant="minimal"] {
-  --_ccm-hero-aspect-ratio: auto;
+  aspect-ratio: auto;
 }
 
-/* ============================================
-   VARIANT: FULL-SCREEN
-   ============================================ */
+/* Variant: full-screen */
 .ccm-hero[variant="full-screen"] {
-  --_ccm-hero-aspect-ratio: auto;
-
+  aspect-ratio: auto;
   min-height: 100svh;
 }
 
-/* ============================================
-   CONDITIONAL DISPLAY
-   ============================================ */
+/* Conditional display */
 .ccm-hero[hide-top="true"] .ccm-hero__top {
   display: none;
 }
