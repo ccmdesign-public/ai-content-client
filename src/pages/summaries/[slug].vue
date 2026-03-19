@@ -90,8 +90,7 @@ const { data: transcriptText } = useAsyncData(
   `transcript-${slug}`,
   async () => {
     try {
-      const json = await $fetch(`/content/summaries/${slug}/transcript.json`)
-      const data = json as { segments?: { text: string; duration: number }[] }
+      const data = await $fetch<{ segments?: { text: string; duration: number }[] }>(`/transcripts/${slug}.json`)
       if (!data?.segments?.length) return ''
       // Filter out short overlap fragments (duration <= 0.5s) and join
       return data.segments
