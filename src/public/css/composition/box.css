@@ -1,5 +1,5 @@
 .box {
-  --_box-padding: var(--theme-box-padding, var(--space-s));
+  --_box-padding: var(--theme-box-padding, 0.875rem);
   --_box-border-width: var(--theme-box-border-width, 1px);
 
   padding: var(--_box-padding);
@@ -19,15 +19,15 @@
    ======================================== */
 
 /* Box padding */
-.box[data-padding="3xs"] { --_box-padding: var(--space-3xs); }
-.box[data-padding="2xs"] { --_box-padding: var(--space-2xs); }
-.box[data-padding="xs"] { --_box-padding: var(--space-xs); }
-.box[data-padding="s"] { --_box-padding: var(--space-s); }
-.box[data-padding="m"] { --_box-padding: var(--space-m); }
-.box[data-padding="l"] { --_box-padding: var(--space-l); }
-.box[data-padding="xl"] { --_box-padding: var(--space-xl); }
-.box[data-padding="2xl"] { --_box-padding: var(--space-2xl); }
-.box[data-padding="3xl"] { --_box-padding: var(--space-3xl); }
+.box[data-padding="3xs"] { --_box-padding: 0.25rem; }
+.box[data-padding="2xs"] { --_box-padding: 0.375rem; }
+.box[data-padding="xs"] { --_box-padding: 0.6875rem; }
+.box[data-padding="s"] { --_box-padding: 0.875rem; }
+.box[data-padding="m"] { --_box-padding: 1.3125rem; }
+.box[data-padding="l"] { --_box-padding: 1.75rem; }
+.box[data-padding="xl"] { --_box-padding: 2.625rem; }
+.box[data-padding="2xl"] { --_box-padding: 3.5rem; }
+.box[data-padding="3xl"] { --_box-padding: 5.25rem; }
 
 /* Box border width */
 .box[data-border="none"] { --_box-border-width: 0; }

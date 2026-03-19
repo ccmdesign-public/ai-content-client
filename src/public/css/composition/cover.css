@@ -1,5 +1,5 @@
 .cover {
-  --_cover-space: var(--theme-cover-space, var(--space-s));
+  --_cover-space: var(--theme-cover-space, 0.875rem);
   --_cover-min-height: var(--theme-cover-min-height, 100vh);
 
   display: flex;
@@ -28,15 +28,15 @@
    ======================================== */
 
 /* Cover spacing (padding) */
-.cover[data-space="3xs"] { --_cover-space: var(--space-3xs); }
-.cover[data-space="2xs"] { --_cover-space: var(--space-2xs); }
-.cover[data-space="xs"] { --_cover-space: var(--space-xs); }
-.cover[data-space="s"] { --_cover-space: var(--space-s); }
-.cover[data-space="m"] { --_cover-space: var(--space-m); }
-.cover[data-space="l"] { --_cover-space: var(--space-l); }
-.cover[data-space="xl"] { --_cover-space: var(--space-xl); }
-.cover[data-space="2xl"] { --_cover-space: var(--space-2xl); }
-.cover[data-space="3xl"] { --_cover-space: var(--space-3xl); }
+.cover[data-space="3xs"] { --_cover-space: 0.25rem; }
+.cover[data-space="2xs"] { --_cover-space: 0.375rem; }
+.cover[data-space="xs"] { --_cover-space: 0.6875rem; }
+.cover[data-space="s"] { --_cover-space: 0.875rem; }
+.cover[data-space="m"] { --_cover-space: 1.3125rem; }
+.cover[data-space="l"] { --_cover-space: 1.75rem; }
+.cover[data-space="xl"] { --_cover-space: 2.625rem; }
+.cover[data-space="2xl"] { --_cover-space: 3.5rem; }
+.cover[data-space="3xl"] { --_cover-space: 5.25rem; }
 
 /* Cover min-height */
 .cover[data-min-height="50vh"] { --_cover-min-height: 50vh; }

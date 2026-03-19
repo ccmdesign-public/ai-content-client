@@ -180,9 +180,9 @@ const props = defineProps({
 const componentTag = computed(() => props.is || 'nav')
 
 const cssVars = computed(() => ({
-  '--_ccm-breadcrumb-gap': `var(--space-${props.size === 's' ? '2xs' : 'xs'})`,
-  '--_ccm-breadcrumb-separator-color': 'var(--muted-foreground)',
-  '--_ccm-breadcrumb-item-padding-inline': `var(--space-${props.itemPaddingInline})`
+  '--_bc-gap': props.size === 's' ? '0.375rem' : '0.6875rem',
+  '--_bc-separator-color': 'var(--muted-foreground)',
+  '--_bc-item-padding': props.itemPaddingInline === '2xs' ? '0.375rem' : '0.6875rem'
 }))
 
 const absoluteUrl = (it: BreadcrumbItem): string | undefined => {
@@ -229,12 +229,12 @@ useHead(() => ({
 <style scoped>
 .ccm-breadcrumb {
   display: block;
-  color: var(--color-primary);
-  padding-top: var(--space-2xs);
+  color: var(--primary);
+  padding-top: 0.375rem;
 }
 
-.cluster { 
-  --_cluster-space: 0; 
+.cluster {
+  --_cluster-space: 0;
   align-items: baseline !important;
 }
 
@@ -244,14 +244,13 @@ useHead(() => ({
   transform: translateY(-2px);
 }
 
-
 li > a {
   text-decoration: none;
   &:hover { text-decoration: underline; }
-  &:visited { color: var(--color-primary); }
+  &:visited { color: var(--primary); }
 }
 
 .ccm-breadcrumb__current {
-  font-weight: var(--font-weight-bold);
+  font-weight: 700;
 }
 </style>

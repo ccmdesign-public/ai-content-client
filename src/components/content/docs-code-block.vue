@@ -62,71 +62,71 @@ async function copyToClipboard() {
 
 <style scoped>
 .code-block {
-  border-radius: var(--border-radius-md);
+  border-radius: var(--radius-md);
   overflow: hidden;
-  background-color: var(--color-code-background);
-  border: 1px solid var(--color-base);
+  background-color: var(--muted);
+  border: 1px solid var(--foreground);
 }
 
 .code-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-s) var(--space-m);
-  background-color: var(--color-background);
-  border-bottom: 1px solid var(--color-base);
+  padding: 0.875rem 1.3125rem;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--foreground);
 }
 
 .code-title {
   display: flex;
   align-items: center;
-  gap: var(--space-s);
+  gap: 0.875rem;
 }
 
 .code-title h4 {
   margin: 0;
-  font-size: var(--size-0);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary);
 }
 
 .language-badge {
-  padding: var(--space-3xs) var(--space-2xs);
-  background-color: var(--color-secondary);
-  color: var(--color-white);
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--2);
-  font-weight: var(--font-weight-medium);
+  padding: 0.25rem 0.375rem;
+  background-color: var(--secondary);
+  color: var(--primary-foreground);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .copy-button {
-  padding: var(--space-3xs) var(--space-2xs);
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  padding: 0.25rem 0.375rem;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
   border: none;
-  border-radius: var(--border-radius-sm);
-  font-size: var(--size--2);
-  font-weight: var(--font-weight-medium);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .copy-button:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--secondary);
 }
 
 .copy-button.copied {
-  background-color: var(--color-success);
+  background-color: var(--success);
 }
 
 .code-content {
   margin: 0;
-  padding: var(--space-m);
-  background-color: var(--color-code-background);
-  color: var(--color-code-text);
-  font-family: var(--font-family-mono);
-  font-size: var(--size--1);
+  padding: 1.3125rem;
+  background-color: var(--muted);
+  color: var(--foreground);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
   line-height: 1.5;
   overflow-x: auto;
   white-space: pre;
@@ -135,45 +135,45 @@ async function copyToClipboard() {
 
 /* Basic syntax highlighting for common languages */
 .code-content :deep(.token.tag) {
-  color: var(--color-code-keyword);
+  color: var(--primary);
 }
 
 .code-content :deep(.token.attr-name) {
-  color: var(--color-code-property);
+  color: var(--accent-foreground);
 }
 
 .code-content :deep(.token.attr-value) {
-  color: var(--color-code-string);
+  color: var(--success);
 }
 
 .code-content :deep(.token.comment) {
-  color: var(--color-code-comment);
+  color: var(--muted-foreground);
   font-style: italic;
 }
 
 .code-content :deep(.token.keyword) {
-  color: var(--color-code-keyword);
-  font-weight: var(--font-weight-medium);
+  color: var(--primary);
+  font-weight: 500;
 }
 
 .code-content :deep(.token.string) {
-  color: var(--color-code-string);
+  color: var(--success);
 }
 
 .code-content :deep(.token.number) {
-  color: var(--color-code-number);
+  color: var(--warning);
 }
 
 .code-content :deep(.token.function) {
-  color: var(--color-code-function);
+  color: var(--info);
 }
 
 .code-content :deep(.token.operator) {
-  color: var(--color-code-operator);
+  color: var(--foreground);
 }
 
 .code-content :deep(.token.punctuation) {
-  color: var(--color-code-punctuation);
+  color: var(--muted-foreground);
 }
 
 /* Scrollbar styling */
@@ -182,16 +182,16 @@ async function copyToClipboard() {
 }
 
 .code-content::-webkit-scrollbar-track {
-  background: var(--color-background);
+  background: var(--background);
 }
 
 .code-content::-webkit-scrollbar-thumb {
-  background: var(--color-base);
-  border-radius: var(--border-radius-sm);
+  background: var(--foreground);
+  border-radius: var(--radius-sm);
 }
 
 .code-content::-webkit-scrollbar-thumb:hover {
-  background: var(--color-secondary);
+  background: var(--secondary);
 }
 </style>
 

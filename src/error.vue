@@ -43,9 +43,9 @@ const handleClear = () => clearError({ redirect: '/' })
   display: grid;
   place-items: center;
   min-height: 100vh;
-  padding: var(--space-l, 1.5rem);
+  padding: 1.75rem;
   text-align: center;
-  background: var(--color-surface, #fff);
+  background: var(--background);
 }
 
 .error-page__content {
@@ -53,7 +53,7 @@ const handleClear = () => clearError({ redirect: '/' })
 }
 
 .error-page__icon {
-  margin-bottom: var(--space-m, 1rem);
+  margin-bottom: 1.3125rem;
 }
 
 .error-page__icon .material-symbols-outlined {
@@ -62,26 +62,26 @@ const handleClear = () => clearError({ redirect: '/' })
 }
 
 .error-page__title {
-  font-size: var(--size-3, 1.75rem);
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: var(--space-s, 0.75rem);
+  margin-bottom: 0.875rem;
   color: var(--foreground);
 }
 
 .error-page__message {
-  font-size: var(--size-0, 1rem);
-  margin-bottom: var(--space-m, 1rem);
+  font-size: 1rem;
+  margin-bottom: 1.3125rem;
   color: var(--muted-foreground);
   line-height: 1.6;
 }
 
 .error-page__details {
-  font-size: var(--size--1, 0.875rem);
-  margin-bottom: var(--space-l, 1.5rem);
+  font-size: 0.875rem;
+  margin-bottom: 1.75rem;
   color: var(--muted-foreground);
   font-family: monospace;
   background: var(--accent);
-  padding: var(--space-s, 0.75rem);
+  padding: 0.875rem;
   border-radius: 6px;
   word-break: break-word;
 }
@@ -89,20 +89,20 @@ const handleClear = () => clearError({ redirect: '/' })
 .error-page__button {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-2xs, 0.25rem);
-  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
-  background: var(--color-primary, #2563eb);
+  gap: 0.375rem;
+  padding: 0.875rem 1.3125rem;
+  background: var(--primary);
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: var(--size-0, 1rem);
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .error-page__button:hover {
-  background: var(--color-primary-shade-10, #1d4ed8);
+  background: var(--primary);
 }
 
 .error-page__button:active {

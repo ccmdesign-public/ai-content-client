@@ -86,11 +86,11 @@ const categorizedTools = computed(() => {
 }
 
 .video-description {
-  margin-block: var(--space-m, 1rem);
-  padding: var(--space-s, 0.75rem);
-  background: var(--color-surface-alt, #f5f5f5);
-  border-radius: var(--radius-s, 4px);
-  border: 1px solid var(--color-border, #e0e0e0);
+  margin-block: 1.3125rem;
+  padding: 0.875rem;
+  background: var(--muted);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
 }
 
 .video-description__toggle {
@@ -105,33 +105,33 @@ const categorizedTools = computed(() => {
 }
 
 .video-description__content {
-  margin-top: var(--space-s, 0.75rem);
+  margin-top: 0.875rem;
   white-space: pre-wrap;
-  font-size: var(--size--1, 0.875rem);
+  font-size: 0.875rem;
   line-height: 1.6;
   color: var(--muted-foreground);
 }
 
 .video-description[open] .video-description__toggle {
-  margin-bottom: var(--space-xs, 0.5rem);
+  margin-bottom: 0.6875rem;
 }
 
 .tools-section {
-  margin-block: var(--space-l, 2rem);
-  padding: var(--space-m, 1rem);
-  background: var(--color-surface-alt, #f5f5f5);
-  border-radius: var(--radius-s, 4px);
-  border: 1px solid var(--color-border, #e0e0e0);
+  margin-block: 1.75rem;
+  padding: 1.3125rem;
+  background: var(--muted);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
 }
 
 .tools-section h2 {
   margin-block-start: 0;
-  margin-block-end: var(--space-m, 1rem);
-  font-size: var(--size-1, 1.125rem);
+  margin-block-end: 1.3125rem;
+  font-size: 1.125rem;
 }
 
 .tools-category {
-  margin-block-end: var(--space-s, 0.75rem);
+  margin-block-end: 0.875rem;
 }
 
 .tools-category:last-child {
@@ -139,8 +139,8 @@ const categorizedTools = computed(() => {
 }
 
 .tools-category__heading {
-  margin-block: 0 var(--space-2xs, 0.25rem);
-  font-size: var(--size--1, 0.875rem);
+  margin-block: 0 0.375rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--muted-foreground);
   text-transform: uppercase;
@@ -150,6 +150,6 @@ const categorizedTools = computed(() => {
 .tools-category__chips {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs, 0.5rem);
+  gap: 0.6875rem;
 }
 </style>

@@ -71,10 +71,10 @@ defineProps<{
 <style scoped>
 .summary-card {
   display: flex;
-  background: var(--color-surface, #fff);
+  background: var(--background);
   border-top: 1px solid var(--border);
   align-items: flex-start;
-  gap: var(--space-m, 1rem);
+  gap: 1.3125rem;
 }
 
 @media (max-width: 600px) {
@@ -84,7 +84,7 @@ defineProps<{
 }
 
 .summary-card__thumb {
-  margin-top: var(--space-m, 1rem);
+  margin-top: 1.3125rem;
   max-width: 240px;
   flex-shrink: 0;
   aspect-ratio: 16/9;
@@ -95,10 +95,10 @@ defineProps<{
 .summary-card__content {
   flex: 1;
   min-width: 0;
-  padding-block: var(--space-m, 1rem);
+  padding-block: 1.3125rem;
 
   p, li {
-    font-size: var(--size--1) !important;
+    font-size: 0.875rem !important;
   }
   
 }

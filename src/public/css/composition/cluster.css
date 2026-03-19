@@ -1,7 +1,7 @@
 .cluster {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--_cluster-space, var(--space-s));
+  gap: var(--_cluster-space, 0.875rem);
   justify-content: flex-start;
   align-items: center;
 
@@ -15,12 +15,12 @@
    ======================================== */
 
 /* Cluster spacing */
-.cluster[data-space="3xs"] { --_cluster-space: var(--space-3xs); }
-.cluster[data-space="2xs"] { --_cluster-space: var(--space-2xs); }
-.cluster[data-space="xs"] { --_cluster-space: var(--space-xs); }
-.cluster[data-space="s"] { --_cluster-space: var(--space-s); }
-.cluster[data-space="m"] { --_cluster-space: var(--space-m); }
-.cluster[data-space="l"] { --_cluster-space: var(--space-l); }
-.cluster[data-space="xl"] { --_cluster-space: var(--space-xl); }
-.cluster[data-space="2xl"] { --_cluster-space: var(--space-2xl); }
-.cluster[data-space="3xl"] { --_cluster-space: var(--space-3xl); }
+.cluster[data-space="3xs"] { --_cluster-space: 0.25rem; }
+.cluster[data-space="2xs"] { --_cluster-space: 0.375rem; }
+.cluster[data-space="xs"] { --_cluster-space: 0.6875rem; }
+.cluster[data-space="s"] { --_cluster-space: 0.875rem; }
+.cluster[data-space="m"] { --_cluster-space: 1.3125rem; }
+.cluster[data-space="l"] { --_cluster-space: 1.75rem; }
+.cluster[data-space="xl"] { --_cluster-space: 2.625rem; }
+.cluster[data-space="2xl"] { --_cluster-space: 3.5rem; }
+.cluster[data-space="3xl"] { --_cluster-space: 5.25rem; }

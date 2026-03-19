@@ -140,7 +140,7 @@ const cssVars = computed(() => {
 
   // Only override background-color if explicitly provided and not 'transparent'
   if (props.backgroundColor && props.backgroundColor !== 'transparent') {
-    vars['--_ccm-button-background-color'] = `var(--${props.backgroundColor})`
+    vars['--_btn-bg'] = `var(--${props.backgroundColor})`
   }
 
   return vars
@@ -208,12 +208,25 @@ const computedAriaExpanded = computed(() => {
   box-sizing: border-box;
   text-decoration: none;
   place-self: self-start flex-start;
-  border: var(--_ccm-button-border-width) var(--_ccm-button-border-style) var(--_ccm-button-border-color);
   cursor: pointer;
+
+  /* Defaults */
+  --_btn-color: var(--foreground);
+  --_btn-bg: var(--foreground);
+
+  color: var(--_btn-color);
+  background-color: var(--_btn-bg);
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5625rem 0.875rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .ccm-button:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--ring);
   outline-offset: 2px;
 }
 
@@ -224,169 +237,68 @@ const computedAriaExpanded = computed(() => {
   pointer-events: none;
 }
 
-.ccm-button {
-  --_ccm-button-border-width: 2px;
-  --_ccm-button-border-style: solid;
-  --_ccm-button-border-color: transparent;
-  --_ccm-button-border-radius: 8px;
-  --_ccm-button-font-family: var(--font-family-body);
-  --_ccm-button-font-weight: var(--font-weight-bold);
-  --_ccm-button-font-size: 100%;
-  --_ccm-button-color: var(--_ccm-button-color);
-  --_ccm-button-background-color: var(--_ccm-button-background-color);
-
-  color: var(--_ccm-button-color);
-  background-color: var(--_ccm-button-background-color);
-  padding-block: var(--_ccm-button-padding-block-start) var(--_ccm-button-padding-block-end);
-  padding-inline: var(--_ccm-button-padding-inline);
-  border-radius: var(--_ccm-button-border-radius, 8px);
-  font-family: var(--_ccm-button-font-family);
-  font-weight: var(--_ccm-button-font-weight);
-  font-size: var(--_ccm-button-font-size, 100%);
-  border-width: var(--_ccm-button-border-width);
-  border-style: var(--_ccm-button-border-style);
-  border-color: var(--_ccm-button-border-color);
-  transition: all 0.2s ease-in-out;
-}
-
 .ccm-button:hover {
-  background-color: color-mix(in srgb, var(--_ccm-button-color) 90%, black 10%);
-  color: var(--_ccm-button-color);
-  border-color: transparent;
+  filter: brightness(0.9);
   transform: scale(1.05);
 }
 
-/* Button size */
+/* Button sizes */
 .ccm-button[size='s'] {
-  --_ccm-button-font-size: var(--size--1);
-  --_ccm-button-padding-block-start: calc(var(--space-3xs) - 1px);
-  --_ccm-button-padding-block-end: calc(var(--space-3xs) + 1px);
-  --_ccm-button-padding-inline: var(--space-2xs);
+  font-size: 0.875rem;
+  padding: 0.1875rem 0.375rem;
 }
 
-.ccm-button[size='m'],
-.ccm-button {
-  --_ccm-button-font-size: var(--size-0);
-  --_ccm-button-padding-block-start: calc(var(--space-xs) - 1px);
-  --_ccm-button-padding-block-end: calc(var(--space-xs) + 1px);
-  --_ccm-button-padding-inline: var(--space-s);
+.ccm-button[size='m'] {
+  font-size: 1rem;
+  padding: 0.5625rem 0.875rem;
 }
 
 .ccm-button[size='l'] {
-  --_ccm-button-font-size: var(--size-1);
-  --_ccm-button-padding-block-start: calc(var(--space-s) - 2px);
-  --_ccm-button-padding-block-end: calc(var(--space-s) + 2px);
-  --_ccm-button-padding-inline: var(--space-m);
+  font-size: 1.125rem;
+  padding: 0.6875rem 1.3125rem;
 }
 
 .ccm-button[size='xl'] {
-  --_ccm-button-font-size: var(--size-2);
-  --_ccm-button-padding-block-start: calc(var(--space-m) - 3px);
-  --_ccm-button-padding-block-end: calc(var(--space-m) + 3px);
-  --_ccm-button-padding-inline: var(--space-l);
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
 }
 
 /* Variants */
 .ccm-button[variant='primary'] {
-  --_ccm-button-background-color: var(--_ccm-button-color);
-
-  color: var(--color-white);
-  border-color: var(--_ccm-button-border-color);
+  background-color: var(--_btn-color);
+  color: var(--primary-foreground);
 }
 
-.ccm-button[data-variant='secondary'],
 .ccm-button[variant='secondary'] {
   background-color: transparent;
-  color: var(--_ccm-button-color);
+  color: var(--_btn-color);
   border-color: currentcolor;
 }
 
 .ccm-button[variant='ghost'],
 .ccm-button[variant='link'] {
   background-color: transparent;
-  color: var(--_ccm-button-color);
+  color: var(--_btn-color);
   border-color: transparent;
 }
 
 .ccm-button[variant='ghost']:hover,
 .ccm-button[variant='link']:hover {
   text-decoration: underline;
+  transform: none;
+  filter: none;
 }
-
-/* .ccm-button[variant='ghost']:hover,
-.ccm-button[variant='link']:hover {
-  background-color: color-mix(in srgb, var(--_ccm-button-color) 10%, transparent);
-  color: var(--_ccm-button-color);
-  border-color: transparent;
-} */
 
 .ccm-button[variant='unstyled'] { all: unset; }
 
-.ccm-button[color='primary'] {
-  --_ccm-button-color: var(--color-primary);
-}
-
-.ccm-button[color='secondary'] {
-  --_ccm-button-color: var(--color-secondary);
-}
-
-.ccm-button[color='base'] {
-  --_ccm-button-color: var(--color-base);
-}
-
-.ccm-button[color='accent'] {
-  --_ccm-button-color: var(--color-accent);
-}
-
-.ccm-button[color='white'] {
-  --_ccm-button-color: var(--color-white);
-}
-
-.ccm-button[color='success'] {
-  --_ccm-button-color: var(--color-success);
-}
-
-.ccm-button[color='fail'] {
-  --_ccm-button-color: var(--color-fail);
-}
-
-.ccm-button[color='warning'] {
-  --_ccm-button-color: var(--color-warning);
-}
-
-.ccm-button[color='info'] {
-  --_ccm-button-color: var(--color-info);
-}
-
-
-/* 
-Colors (tokens)
-- primary
-- secondary
-- tertiary
-- accent
-- white
-- success
-- fail
-- warning
-- info
-
-Variants
-- primary
-- secondary
-- link/ghost
-- unstyled
-
-Sizes (tokens)
-- s
-- m
-- l
-- xl
-
-Icon 
-- composability via main slot.
-- treatment via :has()
-
-
-*/
+/* Colors */
+.ccm-button[color='primary'] { --_btn-color: var(--primary); }
+.ccm-button[color='secondary'] { --_btn-color: var(--secondary-foreground); }
+.ccm-button[color='base'] { --_btn-color: var(--foreground); }
+.ccm-button[color='accent'] { --_btn-color: var(--accent-foreground); }
+.ccm-button[color='white'] { --_btn-color: var(--background); }
+.ccm-button[color='success'] { --_btn-color: var(--success); }
+.ccm-button[color='fail'] { --_btn-color: var(--destructive); }
+.ccm-button[color='warning'] { --_btn-color: var(--warning); }
+.ccm-button[color='info'] { --_btn-color: var(--info); }
 </style>

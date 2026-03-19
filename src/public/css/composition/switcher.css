@@ -1,6 +1,6 @@
 .switcher {
   --_switcher-threshold: var(--theme-switcher-threshold, 768px);
-  --_switcher-space: var(--theme-switcher-space, var(--space-s));
+  --_switcher-space: var(--theme-switcher-space, 0.875rem);
 
   display: flex;
   flex-wrap: wrap;
@@ -25,15 +25,15 @@
 .switcher[data-threshold="2xl"] { --_switcher-threshold: 1536px; }
 
 /* Switcher spacing */
-.switcher[data-space="3xs"] { --_switcher-space: var(--space-3xs); }
-.switcher[data-space="2xs"] { --_switcher-space: var(--space-2xs); }
-.switcher[data-space="xs"] { --_switcher-space: var(--space-xs); }
-.switcher[data-space="s"] { --_switcher-space: var(--space-s); }
-.switcher[data-space="m"] { --_switcher-space: var(--space-m); }
-.switcher[data-space="l"] { --_switcher-space: var(--space-l); }
-.switcher[data-space="xl"] { --_switcher-space: var(--space-xl); }
-.switcher[data-space="2xl"] { --_switcher-space: var(--space-2xl); }
-.switcher[data-space="3xl"] { --_switcher-space: var(--space-3xl); }
+.switcher[data-space="3xs"] { --_switcher-space: 0.25rem; }
+.switcher[data-space="2xs"] { --_switcher-space: 0.375rem; }
+.switcher[data-space="xs"] { --_switcher-space: 0.6875rem; }
+.switcher[data-space="s"] { --_switcher-space: 0.875rem; }
+.switcher[data-space="m"] { --_switcher-space: 1.3125rem; }
+.switcher[data-space="l"] { --_switcher-space: 1.75rem; }
+.switcher[data-space="xl"] { --_switcher-space: 2.625rem; }
+.switcher[data-space="2xl"] { --_switcher-space: 3.5rem; }
+.switcher[data-space="3xl"] { --_switcher-space: 5.25rem; }
 
 /* Switcher limit - force stacking when limit is exceeded
    Note: CSS var() cannot be used in :nth-child() selectors,

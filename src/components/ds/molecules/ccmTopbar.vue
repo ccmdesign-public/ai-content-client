@@ -58,31 +58,31 @@ defineOptions({
 </script>
 
 <style scoped>
-
 .topbar {
   width: 100%;
 }
 
 .topbar__title {
-  padding-block: var(--space-xs);
-  
-  * { 
-    text-decoration: none; 
-    color: var(--link-color);
+  padding-block: 0.6875rem;
+
+  * {
+    text-decoration: none;
+    color: var(--primary);
   }
 
   &:visited {
-    color: var(--link-color-visited);
+    color: var(--primary);
   }
 }
 
 .menu__item {
-  color: var(--color-base);
+  color: var(--foreground);
   text-decoration: none;
 
   &:hover { text-decoration: underline; }
 }
 
-li:not(:first-child) .menu__item { padding-inline-start: var(--space-xs); 
+li:not(:first-child) .menu__item {
+  padding-inline-start: 0.6875rem;
 }
 </style>

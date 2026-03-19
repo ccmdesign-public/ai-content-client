@@ -52,17 +52,17 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 .date-grouped-feed {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl, 2rem);
+  gap: 2.625rem;
 }
 
 .date-segment__header {
   position: sticky;
   /* Offset below the sticky CategoryFilterBar (~60px: 44px chip + 0.5rem*2 padding + 1px border) */
   top: var(--filter-bar-height, 0px);
-  background: var(--color-background, #fff);
-  padding: var(--space-s, 0.75rem) 0;
-  margin: 0 0 var(--space-m, 1rem) 0;
-  font-size: var(--size--1, 0.875rem);
+  background: var(--background);
+  padding: 0.875rem 0;
+  margin: 0 0 1.3125rem 0;
+  font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -82,12 +82,12 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--space-m, 1rem);
+  gap: 1.3125rem;
 }
 
 .empty-state {
   text-align: center;
-  padding: var(--space-2xl, 3rem);
+  padding: 3.5rem;
   color: var(--muted-foreground);
 }
 </style>

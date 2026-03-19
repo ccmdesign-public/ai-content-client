@@ -118,9 +118,11 @@ const props = defineProps({
 
 const { slugify } = useSlugify()
 
+const sizeToRem = { s: '0.875rem', m: '1.3125rem', l: '1.75rem', xl: '2.625rem' }
+
 const cssVars = computed(() => ({
-  '--_ccm-card-padding': `var(--space-${props.size})`,
-  '--_ccm-card-background-color': `var(--${props.backgroundColor})`
+  '--_card-padding': sizeToRem[props.size] || '1.75rem',
+  '--_card-bg': props.backgroundColor === 'color-primary-tint-20' ? 'var(--muted)' : `var(--${props.backgroundColor})`
 }))
 
 const baseForId = computed(() => props.title || props.to || 'card')
@@ -128,27 +130,15 @@ const ctaId = computed(() => `desc-${slugify(baseForId.value)}`)
 </script>
 
 <style scoped>
-
-.ccm-card {
-  --_ccm-card-padding: var(--space-l);
-  --_ccm-card-border-radius: var(--border-radius-l);
-  --_ccm-card-gap: var(--space-m);
-  --_ccm-card-background-color: var(--color-primary-tint-20);
-  --_ccm-card-color: var(--color-primary-tint-80);
-  --_ccm-card-border-width: 2px;
-  --_ccm-card-border-style: solid;
-}
-
-
 .ccm-card {
   display: flex;
   flex-direction: column;
-  border: var(--_ccm-card-border-width) var(--_ccm-card-border-style) var(--_ccm-card-color);
+  border: 2px solid var(--border);
   overflow: hidden;
-  gap: var(--_ccm-card-gap);
+  gap: 1.3125rem;
   text-decoration: none;
-  color: var(--_ccm-card-color);
-  border-radius: var(--_ccm-card-border-radius);
+  color: var(--card-foreground);
+  border-radius: var(--radius-lg);
 }
 
 .ccm-card * {
@@ -157,22 +147,22 @@ const ctaId = computed(() => `desc-${slugify(baseForId.value)}`)
 
 .ccm-card__text {
   flex: 1;
-  padding: 0 var(--_ccm-card-padding) var(--_ccm-card-padding);
+  padding: 0 var(--_card-padding, 1.75rem) var(--_card-padding, 1.75rem);
 }
 
 .ccm-card__image {
-  padding: var(--_ccm-card-padding);
-  background-color: var(--_ccm-card-background-color);
+  padding: var(--_card-padding, 1.75rem);
+  background-color: var(--_card-bg, var(--muted));
   width: 100%;
   aspect-ratio: 16/9;
 }
 
 .ccm-card__action {
-  padding: var(--_ccm-card-padding);
+  padding: var(--_card-padding, 1.75rem);
 }
 
 .ccm-card:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--ring);
   outline-offset: 2px;
 }
 </style>

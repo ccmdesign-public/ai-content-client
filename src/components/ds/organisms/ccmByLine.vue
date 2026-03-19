@@ -45,7 +45,7 @@ defineOptions({
 
 <style scoped>
 a {
-  color: var(--link-color);
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -54,6 +54,6 @@ a:hover {
 }
 
 a:visited {
-  color: var(--link-color-visited);
+  color: var(--primary);
 }
 </style>

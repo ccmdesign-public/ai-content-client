@@ -86,14 +86,14 @@ const props = defineProps({
   // Visual
   /** Token base name (e.g., "brand"). Derives header/body backgrounds automatically. */
   backgroundColor: { type: String, default: null },
-  /** Text color token (e.g., "color-base"). */
-  color: { type: String, default: 'color-base' },
-  /** Border color token base (e.g., "color-base"). */
-  borderColor: { type: String, default: 'color-base' },
+  /** Text color token (e.g., "foreground"). */
+  color: { type: String, default: 'foreground' },
+  /** Border color token base (e.g., "foreground"). */
+  borderColor: { type: String, default: 'foreground' },
   /** Border radius for outer table box. */
   borderRadius: { type: String, default: '0' },
   /** Cell padding for th/td (applies block and inline). */
-  padding: { type: String, default: 'var(--space-s)' },
+  padding: { type: String, default: '0.875rem' },
   variant: {
     type: String as PropType<'primary' | 'secondary'>,
     default: 'primary'
@@ -115,7 +115,7 @@ const cssVars = computed(() => {
   const hasBg = !!props.backgroundColor
   const theadBg = hasBg ? `var(--color-${props.backgroundColor}-100)` : 'transparent'
   const tbodyBg = hasBg ? `var(--color-${props.backgroundColor}-05-tint)` : 'transparent'
-  const headerTextColor = hasBg ? 'var(--color-white)' : 'currentColor'
+  const headerTextColor = hasBg ? 'var(--primary-foreground)' : 'currentColor'
 
   const borderColorBase = tokenOr(props.borderColor, 'currentColor')
   const borderColor20 = `color-mix(in oklab, ${borderColorBase} 20%, transparent)`
@@ -144,7 +144,7 @@ const cssVars = computed(() => {
   --_ccm-table-border-color: currentColor;
   --_ccm-table-border-color-20: color-mix(in oklab, currentColor 20%, transparent);
   --_ccm-table-border-radius: 0;
-  --_ccm-table-cell-padding: var(--space-s);
+  --_ccm-table-cell-padding: 0.875rem;
 
   color: var(--_ccm-table-color);
   width: 100%;
