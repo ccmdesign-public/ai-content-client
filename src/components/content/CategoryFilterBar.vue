@@ -100,14 +100,15 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
         :ref="(el) => setChipRef(el, 0)"
         role="radio"
         :aria-checked="selectedCategory === null"
+        :aria-pressed="selectedCategory === null"
         :tabindex="selectedCategory === null ? 0 : -1"
-        class="tag-chip"
-        :class="{ 'tag-chip--active': selectedCategory === null }"
+        class="filter-chip"
+        :class="selectedCategory === null ? 'bg-primary text-primary-foreground border-primary' : 'bg-muted text-foreground border-border hover:bg-accent hover:text-accent-foreground'"
         @click="emit('select', null)"
         @keydown="handleKeydown($event, 0)"
       >
-        <span class="tag-chip__name">All</span>
-        <span class="tag-chip__count">{{ allItemsCount }}</span>
+        <span class="font-medium">All</span>
+        <span class="text-xs" :class="selectedCategory === null ? 'text-primary-foreground/80' : 'text-muted-foreground'">{{ allItemsCount }}</span>
       </button>
 
       <!-- Category chips -->
@@ -117,15 +118,16 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
         :ref="(el) => setChipRef(el, index + 1)"
         role="radio"
         :aria-checked="selectedCategory === category.categoryId"
+        :aria-pressed="selectedCategory === category.categoryId"
         :tabindex="selectedCategory === category.categoryId ? 0 : -1"
         :title="category.name"
-        class="tag-chip"
-        :class="{ 'tag-chip--active': selectedCategory === category.categoryId }"
+        class="filter-chip"
+        :class="selectedCategory === category.categoryId ? 'bg-primary text-primary-foreground border-primary' : 'bg-muted text-foreground border-border hover:bg-accent hover:text-accent-foreground'"
         @click="emit('select', category.categoryId)"
         @keydown="handleKeydown($event, index + 1)"
       >
-        <span class="tag-chip__name">{{ category.shortName }}</span>
-        <span class="tag-chip__count">{{ category.totalItems }}</span>
+        <span class="font-medium">{{ category.shortName }}</span>
+        <span class="text-xs" :class="selectedCategory === category.categoryId ? 'text-primary-foreground/80' : 'text-muted-foreground'">{{ category.totalItems }}</span>
       </button>
     </div>
   </div>
@@ -170,8 +172,30 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
   flex-shrink: 0;
 }
 
-/* Filter bar specific: ensure minimum touch target for chips */
-.tag-chip {
+/* Filter chip base styles */
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-family: inherit;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  cursor: pointer;
+  white-space: nowrap;
   min-height: 44px;
+}
+
+.filter-chip:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filter-chip {
+    transition: none;
+  }
 }
 </style>

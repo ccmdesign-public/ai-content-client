@@ -45,10 +45,10 @@ useHead({
           <li v-for="tag in category.tags" :key="tag.slug">
             <NuxtLink
               :to="`/tags/${tag.slug}`"
-              class="tag-chip"
+              class="inline-flex items-center gap-1 px-3 py-1 bg-muted border border-border rounded-full text-sm text-foreground no-underline transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-2 whitespace-nowrap cursor-pointer"
             >
-              <span class="tag-chip__name">{{ tag.name }}</span>
-              <span class="tag-chip__count">{{ tag.itemCount }}</span>
+              <span class="font-medium">{{ tag.name }}</span>
+              <span class="text-xs text-muted-foreground">{{ tag.itemCount }}</span>
             </NuxtLink>
           </li>
         </ul>
@@ -110,5 +110,5 @@ useHead({
   gap: var(--space-xs, 0.5rem);
 }
 
-/* .tag-chip base styles are in src/public/css/components/tag-chip.css */
+/* Tag chip styles now use Tailwind utilities inline */
 </style>
