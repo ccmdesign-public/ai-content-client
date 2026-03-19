@@ -58,29 +58,29 @@ const handleClear = () => clearError({ redirect: '/' })
 
 .error-page__icon .material-symbols-outlined {
   font-size: 4rem;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .error-page__title {
-  font-size: var(--step-3, 1.75rem);
+  font-size: var(--size-3, 1.75rem);
   font-weight: 700;
   margin-bottom: var(--space-s, 0.75rem);
-  color: var(--color-text, #111827);
+  color: var(--foreground);
 }
 
 .error-page__message {
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   margin-bottom: var(--space-m, 1rem);
-  color: var(--color-text-muted, #6b7280);
+  color: var(--muted-foreground);
   line-height: 1.6;
 }
 
 .error-page__details {
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   margin-bottom: var(--space-l, 1.5rem);
-  color: var(--color-base-shade-20, #9ca3af);
+  color: var(--muted-foreground);
   font-family: monospace;
-  background: var(--color-base-tint-5, #f9fafb);
+  background: var(--accent);
   padding: var(--space-s, 0.75rem);
   border-radius: 6px;
   word-break: break-word;
@@ -95,7 +95,7 @@ const handleClear = () => clearError({ redirect: '/' })
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;

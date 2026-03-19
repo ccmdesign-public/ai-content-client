@@ -182,7 +182,7 @@ const cssVars = computed(() => {
   --_ccm-hero-heading-font-family: inherit;
   --_ccm-hero-heading-font-weight: inherit;
   --_ccm-hero-heading-margin-block: initial;
-  --_ccm-hero-link-font-size: var(--step-0);
+  --_ccm-hero-link-font-size: var(--size-0);
 }
 
 /* ============================================

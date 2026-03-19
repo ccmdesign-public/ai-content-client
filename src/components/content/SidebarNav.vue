@@ -76,7 +76,7 @@ const { tags, topTags } = useTagsConfig()
 .sidebar-nav {
   width: 250px;
   padding: var(--space-m, 1rem);
-  border-right: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border-right: 1px solid var(--border);
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -89,14 +89,14 @@ const { tags, topTags } = useTagsConfig()
 .sidebar-home {
   display: block;
   margin-bottom: var(--space-xs, 0.25rem);
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   text-decoration: none;
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   font-weight: 500;
 }
 
 .sidebar-home:hover {
-  background: var(--color-base-tint-5, #f3f4f6);
+  background: var(--accent);
 }
 
 .sidebar-home--active {
@@ -111,7 +111,7 @@ const { tags, topTags } = useTagsConfig()
 .sidebar-heading {
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-xs, 0.5rem);
 }
 
@@ -123,13 +123,13 @@ const { tags, topTags } = useTagsConfig()
 
 .sidebar-link {
   display: block;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   text-decoration: none;
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .sidebar-link:hover {
-  background: var(--color-base-tint-5, #f3f4f6);
+  background: var(--accent);
 }
 
 .sidebar-link--active {
@@ -149,8 +149,8 @@ const { tags, topTags } = useTagsConfig()
 
 .sidebar-count {
   margin-left: auto;
-  font-size: var(--step--2, 0.75rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size--2, 0.75rem);
+  color: var(--muted-foreground);
 }
 
 .sidebar-link--see-all {

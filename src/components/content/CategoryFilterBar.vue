@@ -139,7 +139,7 @@ function handleKeydown(event: KeyboardEvent, currentIndex: number) {
   top: 0;
   z-index: 20;
   background: var(--color-background, #fff);
-  border-bottom: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border-bottom: 1px solid var(--border);
 }
 
 .category-filter-bar::after {

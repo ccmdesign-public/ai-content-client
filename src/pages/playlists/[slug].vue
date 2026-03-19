@@ -92,19 +92,19 @@ useHead({
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
 }
 
 .page-header__count {
   margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
+  color: var(--muted-foreground);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .loading {
   text-align: center;
   padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .empty-state {
@@ -114,20 +114,20 @@ useHead({
 
 .empty-state__icon {
   font-size: 3rem;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-m, 1rem);
 }
 
 .empty-state__message {
-  font-size: var(--step-1, 1.125rem);
+  font-size: var(--size-1, 1.125rem);
   font-weight: 500;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   margin-bottom: var(--space-xs, 0.5rem);
 }
 
 .empty-state__hint {
-  font-size: var(--step-0, 1rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size-0, 1rem);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-l, 1.5rem);
 }
 

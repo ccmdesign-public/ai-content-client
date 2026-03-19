@@ -268,7 +268,7 @@ const cssVars = computed(() => {
   --_ccm-form-field-color: var(--color-base);
   --_ccm-form-field-border-width: 2px;
   --_ccm-form-field-border-style: solid;
-  --_ccm-form-field-border-color: var(--color-base-tint-20);
+  --_ccm-form-field-border-color: var(--border);
   --_ccm-form-field-border-radius: var(--border-radius-m);
 
   /* Focus state */
@@ -284,7 +284,7 @@ const cssVars = computed(() => {
 
   /* Helper text */
   --_ccm-form-field-help-font-size: var(--size--2);
-  --_ccm-form-field-help-color: var(--color-base-tint-30);
+  --_ccm-form-field-help-color: var(--muted-foreground);
 
   /* Disabled state */
   --_ccm-form-field-disabled-opacity: 0.5;

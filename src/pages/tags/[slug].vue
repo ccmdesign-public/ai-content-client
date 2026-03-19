@@ -101,7 +101,7 @@ useHead({
 }
 
 .page-header__breadcrumb {
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   color: var(--color-primary, #2563eb);
   text-decoration: none;
 }
@@ -111,14 +111,14 @@ useHead({
 }
 
 .page-header__separator {
-  font-size: var(--step--1, 0.875rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size--1, 0.875rem);
+  color: var(--muted-foreground);
   margin: 0 var(--space-2xs, 0.25rem);
 }
 
 .page-header__category {
-  font-size: var(--step--1, 0.875rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size--1, 0.875rem);
+  color: var(--muted-foreground);
 }
 
 .page-header__top {
@@ -131,18 +131,18 @@ useHead({
 
 .page-header h1 {
   margin: var(--space-xs, 0.5rem) 0 0;
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
 }
 
 .page-header__count {
   margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
+  color: var(--muted-foreground);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .loading {
   text-align: center;
   padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 </style>

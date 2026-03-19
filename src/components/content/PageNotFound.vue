@@ -27,20 +27,20 @@ defineProps<{
 
 .not-found__icon {
   font-size: 4rem;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-m, 1rem);
 }
 
 .not-found__title {
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
   font-weight: 600;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   margin-bottom: var(--space-xs, 0.5rem);
 }
 
 .not-found__message {
-  font-size: var(--step-0, 1rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size-0, 1rem);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-l, 1.5rem);
 }
 

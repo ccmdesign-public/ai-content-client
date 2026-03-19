@@ -68,13 +68,13 @@ useHead({
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
 }
 
 .page-header__count {
   margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
+  color: var(--muted-foreground);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .tags-grid {
@@ -84,21 +84,21 @@ useHead({
 }
 
 .tag-category__heading {
-  font-size: var(--step-1, 1.125rem);
+  font-size: var(--size-1, 1.125rem);
   font-weight: 600;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   margin: 0 0 var(--space-s, 0.75rem) 0;
   padding-bottom: var(--space-xs, 0.5rem);
-  border-bottom: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border-bottom: 1px solid var(--border);
   display: flex;
   align-items: baseline;
   gap: var(--space-s, 0.75rem);
 }
 
 .tag-category__count {
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   font-weight: 400;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .tag-category__list {

@@ -25,18 +25,18 @@ const selectId = useId()
 }
 
 .sort-control__label {
-  font-size: var(--step--1, 0.875rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size--1, 0.875rem);
+  color: var(--muted-foreground);
 }
 
 .sort-control__select {
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   padding: var(--space-2xs, 0.375rem) var(--space-xs, 0.5rem);
   min-height: 44px;
-  border: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--color-surface, #fff);
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   cursor: pointer;
 }
 
