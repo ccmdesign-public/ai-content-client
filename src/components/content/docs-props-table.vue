@@ -143,16 +143,16 @@ function formatGroupName(name: string): string {
 <style scoped>
 
 table {
-  border-width: var(--border-width-thin);
+  border-width: 1px;
   border-style: solid;
-  border-color: var(--color-base-tint-10);
+  border-color: var(--border);
   border-radius: var(--radius-m);
   border-collapse: collapse;
   overflow: hidden;
 }
 
 th, td {
-  border-bottom: 1px solid var(--color-base-tint-10);
+  border-bottom: 1px solid var(--border);
   padding: var(--space-xs) var(--space-s);
 }
 
@@ -173,7 +173,7 @@ th, td {
 }
 
 .props-table-table th {
-  background-color: var(--color-base-tint-05);
+  background-color: var(--accent);
   text-align: left;
   font-weight: var(--font-weight-bold);
   font-size: var(--size--1);

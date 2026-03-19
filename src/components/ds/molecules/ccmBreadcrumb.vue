@@ -181,7 +181,7 @@ const componentTag = computed(() => props.is || 'nav')
 
 const cssVars = computed(() => ({
   '--_ccm-breadcrumb-gap': `var(--space-${props.size === 's' ? '2xs' : 'xs'})`,
-  '--_ccm-breadcrumb-separator-color': 'var(--color-base-tint-40)',
+  '--_ccm-breadcrumb-separator-color': 'var(--muted-foreground)',
   '--_ccm-breadcrumb-item-padding-inline': `var(--space-${props.itemPaddingInline})`
 }))
 

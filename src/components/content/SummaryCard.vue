@@ -72,7 +72,7 @@ defineProps<{
 .summary-card {
   display: flex;
   background: var(--color-surface, #fff);
-  border-top: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border-top: 1px solid var(--border);
   align-items: flex-start;
   gap: var(--space-m, 1rem);
 }
@@ -111,7 +111,7 @@ defineProps<{
 }
 
 .summary-card__separator {
-  color: var(--color-base-tint-10);
+  color: var(--border);
 }
 
 .summary-card__youtube {

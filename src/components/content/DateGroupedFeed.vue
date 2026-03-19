@@ -62,18 +62,18 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
   background: var(--color-background, #fff);
   padding: var(--space-s, 0.75rem) 0;
   margin: 0 0 var(--space-m, 1rem) 0;
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--color-base-shade-10, #6b7280);
-  border-bottom: 1px solid var(--color-base-tint-10, #e5e7eb);
+  color: var(--muted-foreground);
+  border-bottom: 1px solid var(--border);
   z-index: 10;
 }
 
 .date-segment__count {
   font-weight: 400;
-  color: var(--color-base-tint-20, #9ca3af);
+  color: var(--muted-foreground);
 }
 
 .date-segment__list {
@@ -88,6 +88,6 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 .empty-state {
   text-align: center;
   padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 </style>

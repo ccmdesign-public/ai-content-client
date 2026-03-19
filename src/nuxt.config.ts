@@ -3,6 +3,7 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt/config'
+import tailwindcss from '@tailwindcss/vite'
 
 const currentDir = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(currentDir, '..')
@@ -52,8 +53,17 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
-    'nuxt-gtag'
+    'nuxt-gtag',
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode'
   ],
+  shadcn: {
+    prefix: '',
+    componentDir: resolve(currentDir, 'components/ui')
+  },
+  colorMode: {
+    classSuffix: ''
+  },
   gtag: {
     id: 'G-2CHWGY0HJ8'
   },
@@ -88,23 +98,15 @@ export default defineNuxtConfig({
     }
   },
   css: [
-    '~/public/css/styles.css'
+    '~/assets/css/tailwind.css'
   ],
-  postcss: {
-    plugins: {
-      'postcss-import': {},
-      'postcss-preset-env': {
-        stage: 1,
-        features: {
-          'nesting-rules': true
-        }
-      }
-    }
-  },
   build: {
     transpile: ['vue-carousel'],
   },
   vite: {
+    plugins: [
+      tailwindcss(),
+    ],
   },
   plugins: [
 
@@ -133,6 +135,10 @@ export default defineNuxtConfig({
       pathPrefix: false,
       prefix: 'ccm'
     })),
+    {
+      path: resolve(currentDir, 'components/ui'),
+      pathPrefix: false
+    },
     {
       path: resolve(currentDir, 'components/content'),
       pathPrefix: false

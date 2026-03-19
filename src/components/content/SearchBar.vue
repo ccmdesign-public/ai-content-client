@@ -160,12 +160,12 @@ onMounted(() => {
   gap: var(--space-xs, 0.5rem);
   padding: var(--space-xs, 0.5rem) var(--space-s, 0.75rem);
   background: var(--color-surface, #fff);
-  border: 1px solid var(--color-base-tint-10, #e5e7eb);
+  border: 1px solid var(--border);
   border-radius: 9999px;
   cursor: pointer;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   font-family: inherit;
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
   min-height: 44px;
   min-width: 44px;
@@ -184,12 +184,12 @@ onMounted(() => {
 .search-bar__shortcut {
   display: none;
   padding: 2px 6px;
-  background: var(--color-base-tint-5, #f3f4f6);
-  border: 1px solid var(--color-base-tint-10, #e5e7eb);
+  background: var(--accent);
+  border: 1px solid var(--border);
   border-radius: 4px;
   font-size: 0.75rem;
   font-family: inherit;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   line-height: 1;
 }
 
@@ -220,7 +220,7 @@ onMounted(() => {
 }
 
 .search-bar__icon {
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   font-size: 20px;
   flex-shrink: 0;
 }
@@ -230,14 +230,14 @@ onMounted(() => {
   border: none;
   outline: none;
   background: transparent;
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   font-family: inherit;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   min-width: 0;
 }
 
 .search-bar__input::placeholder {
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 /* Hide native search clear button (we have our own) */
@@ -254,7 +254,7 @@ onMounted(() => {
   border: none;
   cursor: pointer;
   padding: var(--space-2xs, 0.25rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   border-radius: 50%;
   min-width: 32px;
   min-height: 32px;
@@ -263,8 +263,8 @@ onMounted(() => {
 
 .search-bar__clear:hover,
 .search-bar__collapse:hover {
-  background: var(--color-base-tint-5, #f3f4f6);
-  color: var(--color-text, #374151);
+  background: var(--accent);
+  color: var(--foreground);
 }
 
 .search-bar__clear:focus-visible,

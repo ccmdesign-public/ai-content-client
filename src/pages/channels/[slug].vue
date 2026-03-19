@@ -140,18 +140,18 @@ useHead({
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
 }
 
 .page-header__count {
   margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
+  color: var(--muted-foreground);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .loading {
   text-align: center;
   padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 </style>

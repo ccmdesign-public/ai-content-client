@@ -199,12 +199,12 @@ onUnmounted(() => {
     align-items: center;
     justify-content: space-between;
     padding: var(--space-m, 1rem);
-    border-bottom: 1px solid var(--color-base-tint-10, #e5e7eb);
+    border-bottom: 1px solid var(--border);
   }
 
   .mobile-nav__title {
     font-weight: 600;
-    font-size: var(--step-1, 1.125rem);
+    font-size: var(--size-1, 1.125rem);
   }
 
   .mobile-nav__close {
@@ -212,14 +212,14 @@ onUnmounted(() => {
     border: none;
     cursor: pointer;
     padding: var(--space-2xs, 0.25rem);
-    color: var(--color-text-muted, #6b7280);
+    color: var(--muted-foreground);
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .mobile-nav__close:hover {
-    color: var(--color-text, #374151);
+    color: var(--foreground);
   }
 
   .mobile-nav__content {
@@ -231,7 +231,7 @@ onUnmounted(() => {
   .mobile-nav__home {
     display: block;
     padding: var(--space-s, 0.75rem) var(--space-xs, 0.5rem);
-    color: var(--color-text, #374151);
+    color: var(--foreground);
     text-decoration: none;
     font-weight: 500;
     border-radius: 6px;
@@ -239,7 +239,7 @@ onUnmounted(() => {
   }
 
   .mobile-nav__home:hover {
-    background: var(--color-base-tint-5, #f3f4f6);
+    background: var(--accent);
   }
 
   .mobile-nav__home--active {
@@ -252,11 +252,11 @@ onUnmounted(() => {
   }
 
   .mobile-nav__heading {
-    font-size: var(--step--1, 0.875rem);
+    font-size: var(--size--1, 0.875rem);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--color-base-shade-10, #6b7280);
+    color: var(--muted-foreground);
     margin-bottom: var(--space-xs, 0.5rem);
     padding: 0 var(--space-xs, 0.5rem);
   }
@@ -270,14 +270,14 @@ onUnmounted(() => {
   .mobile-nav__link {
     display: block;
     padding: var(--space-xs, 0.5rem);
-    color: var(--color-text, #374151);
+    color: var(--foreground);
     text-decoration: none;
-    font-size: var(--step-0, 1rem);
+    font-size: var(--size-0, 1rem);
     border-radius: 6px;
   }
 
   .mobile-nav__link:hover {
-    background: var(--color-base-tint-5, #f3f4f6);
+    background: var(--accent);
   }
 
   .mobile-nav__link--active {
@@ -288,8 +288,8 @@ onUnmounted(() => {
 
   .mobile-nav__count {
     margin-left: auto;
-    font-size: var(--step--1, 0.875rem);
-    color: var(--color-base-shade-10, #6b7280);
+    font-size: var(--size--1, 0.875rem);
+    color: var(--muted-foreground);
   }
 
   .mobile-nav__link--see-all {

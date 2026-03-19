@@ -252,7 +252,7 @@ const projectVars = computed(() => ({
 
 .project-card__description {
   font-size: var(--size-0);
-  color: var(--color-base-tint-60);
+  color: var(--muted-foreground);
   margin: 0;
   line-height: 1.5;
 }

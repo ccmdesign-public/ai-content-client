@@ -96,20 +96,20 @@ const categorizedTools = computed(() => {
 .video-description__toggle {
   cursor: pointer;
   font-weight: 600;
-  color: var(--color-text-secondary, #666);
+  color: var(--muted-foreground);
   user-select: none;
 }
 
 .video-description__toggle:hover {
-  color: var(--color-text-primary, #333);
+  color: var(--foreground);
 }
 
 .video-description__content {
   margin-top: var(--space-s, 0.75rem);
   white-space: pre-wrap;
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   line-height: 1.6;
-  color: var(--color-text-secondary, #666);
+  color: var(--muted-foreground);
 }
 
 .video-description[open] .video-description__toggle {
@@ -127,7 +127,7 @@ const categorizedTools = computed(() => {
 .tools-section h2 {
   margin-block-start: 0;
   margin-block-end: var(--space-m, 1rem);
-  font-size: var(--step-1, 1.125rem);
+  font-size: var(--size-1, 1.125rem);
 }
 
 .tools-category {
@@ -140,9 +140,9 @@ const categorizedTools = computed(() => {
 
 .tools-category__heading {
   margin-block: 0 var(--space-2xs, 0.25rem);
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   font-weight: 600;
-  color: var(--color-text-secondary, #666);
+  color: var(--muted-foreground);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }

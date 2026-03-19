@@ -1,66 +1,64 @@
-@layer composition {
-  .switcher {
-    --_switcher-threshold: var(--theme-switcher-threshold, 768px);
-    --_switcher-space: var(--theme-switcher-space, var(--space-s));
+.switcher {
+  --_switcher-threshold: var(--theme-switcher-threshold, 768px);
+  --_switcher-space: var(--theme-switcher-space, var(--space-s));
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--_switcher-space);
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--_switcher-space);
+}
 
-  .switcher > * {
-    flex-grow: 1;
-    flex-basis: calc((var(--_switcher-threshold) - 100%) * 999);
-  }
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--_switcher-threshold) - 100%) * 999);
+}
 
-  /* ========================================
-     Data Attribute Controls
-     ======================================== */
+/* ========================================
+   Data Attribute Controls
+   ======================================== */
 
-  /* Switcher threshold (breakpoint) */
-  .switcher[data-threshold="xs"] { --_switcher-threshold: 480px; }
-  .switcher[data-threshold="s"] { --_switcher-threshold: 640px; }
-  .switcher[data-threshold="m"] { --_switcher-threshold: 768px; }
-  .switcher[data-threshold="l"] { --_switcher-threshold: 1024px; }
-  .switcher[data-threshold="xl"] { --_switcher-threshold: 1280px; }
-  .switcher[data-threshold="2xl"] { --_switcher-threshold: 1536px; }
+/* Switcher threshold (breakpoint) */
+.switcher[data-threshold="xs"] { --_switcher-threshold: 480px; }
+.switcher[data-threshold="s"] { --_switcher-threshold: 640px; }
+.switcher[data-threshold="m"] { --_switcher-threshold: 768px; }
+.switcher[data-threshold="l"] { --_switcher-threshold: 1024px; }
+.switcher[data-threshold="xl"] { --_switcher-threshold: 1280px; }
+.switcher[data-threshold="2xl"] { --_switcher-threshold: 1536px; }
 
-  /* Switcher spacing */
-  .switcher[data-space="3xs"] { --_switcher-space: var(--space-3xs); }
-  .switcher[data-space="2xs"] { --_switcher-space: var(--space-2xs); }
-  .switcher[data-space="xs"] { --_switcher-space: var(--space-xs); }
-  .switcher[data-space="s"] { --_switcher-space: var(--space-s); }
-  .switcher[data-space="m"] { --_switcher-space: var(--space-m); }
-  .switcher[data-space="l"] { --_switcher-space: var(--space-l); }
-  .switcher[data-space="xl"] { --_switcher-space: var(--space-xl); }
-  .switcher[data-space="2xl"] { --_switcher-space: var(--space-2xl); }
-  .switcher[data-space="3xl"] { --_switcher-space: var(--space-3xl); }
+/* Switcher spacing */
+.switcher[data-space="3xs"] { --_switcher-space: var(--space-3xs); }
+.switcher[data-space="2xs"] { --_switcher-space: var(--space-2xs); }
+.switcher[data-space="xs"] { --_switcher-space: var(--space-xs); }
+.switcher[data-space="s"] { --_switcher-space: var(--space-s); }
+.switcher[data-space="m"] { --_switcher-space: var(--space-m); }
+.switcher[data-space="l"] { --_switcher-space: var(--space-l); }
+.switcher[data-space="xl"] { --_switcher-space: var(--space-xl); }
+.switcher[data-space="2xl"] { --_switcher-space: var(--space-2xl); }
+.switcher[data-space="3xl"] { --_switcher-space: var(--space-3xl); }
 
-  /* Switcher limit - force stacking when limit is exceeded
-     Note: CSS var() cannot be used in :nth-child() selectors,
-     so we need explicit rules for each limit value */
-  .switcher[data-limit="2"] > :nth-last-child(n+3),
-  .switcher[data-limit="2"] > :nth-last-child(n+3) ~ * {
-    flex-basis: 100%;
-  }
+/* Switcher limit - force stacking when limit is exceeded
+   Note: CSS var() cannot be used in :nth-child() selectors,
+   so we need explicit rules for each limit value */
+.switcher[data-limit="2"] > :nth-last-child(n+3),
+.switcher[data-limit="2"] > :nth-last-child(n+3) ~ * {
+  flex-basis: 100%;
+}
 
-  .switcher[data-limit="3"] > :nth-last-child(n+4),
-  .switcher[data-limit="3"] > :nth-last-child(n+4) ~ * {
-    flex-basis: 100%;
-  }
+.switcher[data-limit="3"] > :nth-last-child(n+4),
+.switcher[data-limit="3"] > :nth-last-child(n+4) ~ * {
+  flex-basis: 100%;
+}
 
-  .switcher[data-limit="4"] > :nth-last-child(n+5),
-  .switcher[data-limit="4"] > :nth-last-child(n+5) ~ * {
-    flex-basis: 100%;
-  }
+.switcher[data-limit="4"] > :nth-last-child(n+5),
+.switcher[data-limit="4"] > :nth-last-child(n+5) ~ * {
+  flex-basis: 100%;
+}
 
-  .switcher[data-limit="5"] > :nth-last-child(n+6),
-  .switcher[data-limit="5"] > :nth-last-child(n+6) ~ * {
-    flex-basis: 100%;
-  }
+.switcher[data-limit="5"] > :nth-last-child(n+6),
+.switcher[data-limit="5"] > :nth-last-child(n+6) ~ * {
+  flex-basis: 100%;
+}
 
-  .switcher[data-limit="6"] > :nth-last-child(n+7),
-  .switcher[data-limit="6"] > :nth-last-child(n+7) ~ * {
-    flex-basis: 100%;
-  }
+.switcher[data-limit="6"] > :nth-last-child(n+7),
+.switcher[data-limit="6"] > :nth-last-child(n+7) ~ * {
+  flex-basis: 100%;
 }

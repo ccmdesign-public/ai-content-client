@@ -174,19 +174,19 @@ const displayedCount = computed(() =>
 
 .page-header h1 {
   margin: 0;
-  font-size: var(--step-2, 1.5rem);
+  font-size: var(--size-2, 1.5rem);
 }
 
 .page-header__count {
   margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
+  color: var(--muted-foreground);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .loading {
   text-align: center;
   padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .search-results {
@@ -197,46 +197,46 @@ const displayedCount = computed(() =>
 .search-error {
   text-align: center;
   padding: var(--space-2xl, 3rem) var(--space-l, 2rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .search-error__icon {
   font-size: 3rem;
   display: block;
   margin-bottom: var(--space-s, 0.75rem);
-  color: var(--color-base-tint-20, #9ca3af);
+  color: var(--muted-foreground);
 }
 
 .search-error__message {
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   font-weight: 500;
   margin: 0;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
 }
 
 .filtered-empty-state {
   text-align: center;
   padding: var(--space-2xl, 3rem) var(--space-l, 2rem);
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
 }
 
 .filtered-empty-state__icon {
   font-size: 3rem;
   display: block;
   margin-bottom: var(--space-s, 0.75rem);
-  color: var(--color-base-tint-20, #9ca3af);
+  color: var(--muted-foreground);
 }
 
 .filtered-empty-state__message {
-  font-size: var(--step-0, 1rem);
+  font-size: var(--size-0, 1rem);
   font-weight: 500;
   margin: 0 0 var(--space-2xs, 0.25rem);
-  color: var(--color-text, #374151);
+  color: var(--foreground);
 }
 
 .filtered-empty-state__hint {
   margin: 0 0 var(--space-m, 1rem);
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
 }
 
 .filtered-empty-state__reset {
@@ -248,7 +248,7 @@ const displayedCount = computed(() =>
   color: #fff;
   border: none;
   border-radius: 9999px;
-  font-size: var(--step--1, 0.875rem);
+  font-size: var(--size--1, 0.875rem);
   font-family: inherit;
   cursor: pointer;
   transition: background 0.15s ease;

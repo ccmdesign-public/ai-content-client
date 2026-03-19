@@ -27,20 +27,20 @@ defineProps<{
 
 .empty-state__icon {
   font-size: 3rem;
-  color: var(--color-base-shade-10, #6b7280);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-m, 1rem);
 }
 
 .empty-state__message {
-  font-size: var(--step-1, 1.125rem);
+  font-size: var(--size-1, 1.125rem);
   font-weight: 500;
-  color: var(--color-text, #374151);
+  color: var(--foreground);
   margin-bottom: var(--space-xs, 0.5rem);
 }
 
 .empty-state__hint {
-  font-size: var(--step-0, 1rem);
-  color: var(--color-base-shade-10, #6b7280);
+  font-size: var(--size-0, 1rem);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-l, 1.5rem);
 }
 
