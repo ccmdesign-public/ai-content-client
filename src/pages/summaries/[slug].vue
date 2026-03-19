@@ -43,6 +43,12 @@
         </details>
 
         <ContentRenderer :value="summary" class="prose prose-zinc dark:prose-invert max-w-none" />
+
+        <!-- Full Transcript -->
+        <details v-if="transcriptText" class="my-6 p-4 bg-muted rounded-lg border">
+          <summary class="cursor-pointer font-semibold text-muted-foreground hover:text-foreground select-none">Full Transcript</summary>
+          <div class="mt-3 text-sm leading-relaxed text-muted-foreground whitespace-pre-wrap">{{ transcriptText }}</div>
+        </details>
       </div>
     </div>
   </section>
@@ -76,6 +82,25 @@ const { data: summary, pending, error } = useAsyncData(
       result = all.find((item: any) => item.metadata?.videoId === slug) || null
     }
     return result
+  }
+)
+
+// Load transcript JSON
+const { data: transcriptText } = useAsyncData(
+  `transcript-${slug}`,
+  async () => {
+    try {
+      const json = await $fetch(`/content/summaries/${slug}/transcript.json`)
+      const data = json as { segments?: { text: string; duration: number }[] }
+      if (!data?.segments?.length) return ''
+      // Filter out short overlap fragments (duration <= 0.5s) and join
+      return data.segments
+        .filter(s => s.duration > 0.5)
+        .map(s => s.text)
+        .join(' ')
+    } catch {
+      return ''
+    }
   }
 )
 

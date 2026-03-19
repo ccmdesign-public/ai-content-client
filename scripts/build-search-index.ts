@@ -38,7 +38,26 @@ function extractFrontmatter(content: string): Record<string, any> | null {
 /**
  * Build a flat SearchDocument from parsed frontmatter.
  */
-function toSearchDocument(frontmatter: Record<string, any>): SearchDocument | null {
+/**
+ * Read and flatten transcript.json for a given video directory.
+ * Filters out short overlap fragments (duration <= 0.5s) from yt-dlp output.
+ */
+function readTranscript(dirPath: string): string {
+  const transcriptPath = resolve(dirPath, 'transcript.json')
+  if (!existsSync(transcriptPath)) return ''
+  try {
+    const raw = JSON.parse(readFileSync(transcriptPath, 'utf-8'))
+    if (!raw?.segments?.length) return ''
+    return raw.segments
+      .filter((s: any) => s.duration > 0.5)
+      .map((s: any) => s.text)
+      .join(' ')
+  } catch {
+    return ''
+  }
+}
+
+function toSearchDocument(frontmatter: Record<string, any>, dirPath: string): SearchDocument | null {
   const metadata = frontmatter.metadata
   if (!metadata?.videoId || !metadata?.title) return null
 
@@ -49,6 +68,7 @@ function toSearchDocument(frontmatter: Record<string, any>): SearchDocument | nu
     channel: metadata.channel || '',
     tldr: frontmatter.tldr || '',
     toolNames: (frontmatter.tools || []).map((t: any) => t?.name).filter(Boolean).join(' '),
+    transcript: readTranscript(dirPath),
     date: metadata.publishedAt || frontmatter.processedAt || '',
     type: 'summary',
     path: `/summaries/${metadata.videoId}`,
@@ -76,7 +96,7 @@ function buildIndex(): void {
       const frontmatter = extractFrontmatter(content)
       if (!frontmatter) continue
 
-      const doc = toSearchDocument(frontmatter)
+      const doc = toSearchDocument(frontmatter, resolve(SUMMARIES_DIR, dir.name))
       if (doc) documents.push(doc)
     } catch (err) {
       console.warn(`[build-search-index] Skipping ${dir.name}: ${err}`)

@@ -6,7 +6,7 @@
  */
 
 /** Fields indexed by MiniSearch for full-text search */
-export const SEARCH_INDEX_FIELDS = ['title', 'description', 'channel', 'tldr', 'toolNames'] as const
+export const SEARCH_INDEX_FIELDS = ['title', 'description', 'channel', 'tldr', 'toolNames', 'transcript'] as const
 
 /** Fields stored in the serialized index for display in search results */
 export const SEARCH_STORE_FIELDS = ['id', 'title', 'channel', 'date', 'type', 'path', 'thumbnailUrl', 'tldr'] as const
@@ -19,6 +19,7 @@ export interface SearchDocument {
   channel: string
   tldr: string
   toolNames: string
+  transcript: string
   date: string
   type: 'summary' | 'article' | 'tool'
   path: string
