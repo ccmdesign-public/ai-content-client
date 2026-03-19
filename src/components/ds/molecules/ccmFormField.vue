@@ -86,7 +86,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, useId } from 'vue'
 import type { PropType } from 'vue'
 
 /**
@@ -173,11 +173,11 @@ const props = defineProps({
   showValidationIcon: { type: Boolean, default: true }
 })
 
-// Generate stable IDs
+// Generate stable, SSR-safe IDs using Vue's useId()
+const autoId = useId()
 const computedId = computed(() => {
   if (props.id) return props.id
-  // Generate random ID as fallback
-  return `form-field-${Math.random().toString(36).substr(2, 9)}`
+  return `form-field-${autoId}`
 })
 
 const helpTextId = computed(() => `${computedId.value}-help`)

@@ -109,7 +109,7 @@ async function copyToClipboard() {
   font-size: 0.75rem;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .copy-button:hover {

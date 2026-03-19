@@ -183,9 +183,8 @@
     font-size: 1.8rem;
   }
 
-  .icon,
   [icon]::before,
-  [data-icon] {
+  [data-icon]::before {
     content: attr(data-icon);
   }
 }

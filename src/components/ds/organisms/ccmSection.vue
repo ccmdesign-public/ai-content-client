@@ -153,7 +153,7 @@ const cssVars = computed(() => ({
   max-width: 50%;
   object-fit: cover;
   object-position: center;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   &:hover { transform: scale(1.05); }
  }
 </style>

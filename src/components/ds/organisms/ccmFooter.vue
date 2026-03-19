@@ -65,7 +65,7 @@ const cssVars = computed(() => {
   const vars = {}
 
   if (props.backgroundColor && props.backgroundColor !== 'transparent') {
-    vars['--_ccm-footer-background-color'] = `var(--${props.backgroundColor})`
+    vars['--_footer-background-color'] = `var(--${props.backgroundColor})`
   }
 
   return vars
@@ -75,7 +75,7 @@ const cssVars = computed(() => {
 <style scoped>
 .ccm-footer {
   padding-block: var(--_footer-padding, 1.75rem);
-  background-color: var(--_ccm-footer-background-color, var(--muted));
+  background-color: var(--_footer-background-color, var(--muted));
 }
 
 .ccm-footer[size="xs"]  { --_footer-padding: 0.6875rem; }

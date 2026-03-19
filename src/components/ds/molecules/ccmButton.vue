@@ -198,7 +198,6 @@ const computedAriaExpanded = computed(() => {
 .ccm-button {
   /* Structure */
   display: inline-block;
-  zoom: 1;
   line-height: 1;
   white-space: nowrap;
   vertical-align: middle;
@@ -222,7 +221,7 @@ const computedAriaExpanded = computed(() => {
   font-weight: 700;
   font-size: 1rem;
   padding: 0.5625rem 0.875rem;
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, filter 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .ccm-button:focus-visible {
