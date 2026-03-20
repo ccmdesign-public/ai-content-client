@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "029"
 tags: [code-review, seo, quality]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Swapped priorities: / set to 0.5 (redirect), /summaries/ set to 1.0 (primary content page). Added comments explaining the rationale."
 ---
 
 # Sitemap Lists Redirect URL at Priority 1.0

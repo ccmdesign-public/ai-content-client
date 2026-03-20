@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "028"
 tags: [code-review, quality, architecture]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Full rename: CSS class home-page -> summaries-page, composable useHomepageFilter -> useSummariesFilter (file, function, useAsyncData key, and test file all renamed)."
 ---
 
 # Stale "Homepage" Naming in Summaries Index Page

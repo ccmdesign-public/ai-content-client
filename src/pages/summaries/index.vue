@@ -2,7 +2,7 @@
 import { useDateGroups } from '~/composables/useDateGroups'
 import { useSortOptions } from '~/composables/useSortOptions'
 import { useTagsConfig } from '~/composables/useTagsConfig'
-import { useHomepageFilter } from '~/composables/useHomepageFilter'
+import { useSummariesFilter } from '~/composables/useSummariesFilter'
 import type { SearchResult } from '~/types/search'
 
 definePageMeta({
@@ -19,7 +19,7 @@ const {
   filteredCount,
   totalCount,
   selectCategory
-} = useHomepageFilter(summaries, tagsByCategory)
+} = useSummariesFilter(summaries, tagsByCategory)
 
 // Sort the filtered results
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(filteredSummaries)
@@ -59,7 +59,7 @@ const displayedCount = computed(() =>
 </script>
 
 <template>
-  <div class="home-page">
+  <div class="summaries-page">
     <!-- Category filter: hidden during search -->
     <CategoryFilterBar
       v-if="!isSearchActive"
@@ -148,7 +148,7 @@ const displayedCount = computed(() =>
 </template>
 
 <style scoped>
-.home-page {
+.summaries-page {
   padding: 1.75rem;
   padding-top: 0;
 }
@@ -255,6 +255,6 @@ const displayedCount = computed(() =>
 }
 
 .filtered-empty-state__reset:hover {
-  background: var(--primary);
+  opacity: 0.85;
 }
 </style>

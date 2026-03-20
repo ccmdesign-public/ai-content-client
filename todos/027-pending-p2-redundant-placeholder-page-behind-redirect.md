@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "027"
 tags: [code-review, architecture, quality]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Stripped index.vue to a minimal empty template with a comment explaining the 302 redirect. Dead placeholder content removed."
 ---
 
 # Redundant Placeholder Page Behind 302 Redirect

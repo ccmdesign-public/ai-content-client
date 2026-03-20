@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "030"
 tags: [code-review, quality, css]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Changed hover rule from duplicate background: var(--primary) to opacity: 0.85 for visible hover feedback."
 ---
 
 # No-Op Hover Style on Filter Reset Button

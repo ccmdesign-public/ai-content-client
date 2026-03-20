@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "031"
 tags: [code-review, quality, architecture]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Updated Home link in ccmTopbar from / to /summaries/ so it points to the actual content page instead of the redirect."
 ---
 
 # ccmTopbar Still Has "Home" Link Pointing to /
