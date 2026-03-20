@@ -6,6 +6,9 @@
  * Better to miss some breaks than to incorrectly join intentional line breaks.
  */
 
+import { normalizeMarkdown, normalizeMarkdownPostFix } from './markdown-normalizer';
+
+
 // Pattern 1: CamelCase with capital start, 3+ lowercase before break, 2+ lowercase after
 // Matches: "Whats\nApp", "Door\nDash", "Face\nBook"
 // Requires capital letter start to avoid matching regular words
@@ -94,39 +97,20 @@ export function normalizeText(text: string): string {
   // Step 1: Normalize newline characters (Windows -> Unix, literal \n -> actual)
   result = result.replace(/\r\n/g, '\n').replace(/\\n/g, '\n');
 
-  // Step 2: Ensure ### headers have blank lines before and after (Phase 1 - pre-fixer)
-  // This runs before broken-word/sentence fixers so that the inserted triple newlines
-  // prevent those fixers from incorrectly joining heading text with content.
-  // Both fixBrokenWords and fixBrokenSentences use {1,2} quantifiers, so triple
-  // newlines (\n\n\n) create an effective protection boundary that neither can match across.
-  // The blank-line collapser in Step 7 reduces triple newlines back to \n\n.
-  //
-  // Before-heading: "text\n### Heading" -> "text\n\n\n### Heading"
-  // Only matches ### at line start (^) preceded by a single newline (not already a blank line).
-  // Uses [^\n#] to avoid corrupting #### headings (# would satisfy [^\n] but not [^\n#]).
-  result = result.replace(/([^\n#])\n(###\s)/g, '$1\n\n\n$2');
-  // Before-heading (concatenated): "text### Heading" -> "text\n\n\n### Heading"
-  // Handles the case where ### is glued directly to preceding text with no newline at all.
-  // Uses [^\s#] (non-whitespace, non-#) to avoid matching inline "### " in content text
-  // like "Use ### for subheadings" where a space precedes ###.
-  result = result.replace(/([^\s#])(###\s)/g, '$1\n\n\n$2');
-  // After-heading: upgrade existing \n\n to \n\n\n for protection boundary
-  result = result.replace(/^(### .+)\n\n(?!\n)/gm, '$1\n\n\n');
-  // After-heading: "### Heading\nContent" -> "### Heading\n\n\nContent"
-  result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n\n');
+  // Step 2: Pre-fixer heading protection (shared normalizer)
+  // Inserts triple newlines around headings so fixBrokenWords/fixBrokenSentences {1,2}
+  // quantifiers can't span heading boundaries. Supports all heading levels (# through ######).
+  result = normalizeMarkdown(result);
 
-  // Step 3: Fix broken words (most critical - before other processing)
+  // Step 3: Fix broken words (before other processing)
   result = fixBrokenWords(result);
 
   // Step 4: Fix broken sentences
   result = fixBrokenSentences(result);
 
-  // Step 5: Ensure ### headers still have blank lines (Phase 2 - post-fixer cleanup)
-  // Catches any cases where fixers may have altered line structure around headings.
-  // Uses [^\n#] to avoid corrupting #### headings, [^\s#] for concatenated case.
-  result = result.replace(/([^\n#])\n(###\s)/g, '$1\n\n$2');
-  result = result.replace(/([^\s#])(###\s)/g, '$1\n\n$2');
-  result = result.replace(/^(### .+)\n(?!\n)/gm, '$1\n\n');
+  // Step 5: Post-fixer heading cleanup (shared normalizer)
+  // Catches any heading boundaries altered by the broken-word/sentence fixers.
+  result = normalizeMarkdownPostFix(result);
 
   // Step 6: Trim trailing whitespace per line (before blank-line collapse so that
   // whitespace-only lines become empty and get properly collapsed)
