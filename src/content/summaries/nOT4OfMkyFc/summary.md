@@ -4,7 +4,6 @@ metadata:
   title: "Oats, Apple & Banana! Healthy Cake Without Flour or Sugar — Made in a Frying Pan!"
   description: "🍫 Oatmeal Brownie Cake — Flourless, Moist & Chocolatey! This healthy twist on a classic brownie is made with rolled oats, banana, apple, dried fruits, and walnuts, then topped with a rich homemade chocolate glaze. Soft, tender, and full of natural sweetness — the perfect guilt-free dessert!
 
-
     Ingredients:
 
     1 cup (100g) rolled oats.
@@ -25,13 +24,11 @@ metadata:
 
     1 tsp baking soda.
 
-
     1 tbsp coconut oil.
 
     Apple.
 
     Walnuts.
-
 
     1/3 cup (80ml) milk.
 
@@ -39,10 +36,7 @@ metadata:
 
     1/2 tbsp coconut oil.
 
-
-
     💬 Like, comment, and subscribe for more healthy baking ideas!
-
 
     #Süße_Backwaren  #Recipe #brownie #oatmealcake #flourless #healthydessert #chocolaterecipe #easybaking"
   channel: "Süße Backwaren"
@@ -73,6 +67,11 @@ ai:
   totalTokens: 3040
   processingTimeMs: 13718
 tools: []
+categories:
+  - "Programming"
+tags:
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.356Z"
 ---
 
 ## Key Takeaways
@@ -90,15 +89,19 @@ This recipe focuses on creating a dense, nutritious dessert using whole food sub
 ## Summary
 
 ### Preparation of the Base
+
 The process begins by transforming **100g (1 cup) of rolled oats** into a fine flour using a grinder or blender. This oat flour is mixed with **3 tablespoons of cocoa powder** and **180ml of hot milk**. This mixture is covered and left to sit for **15 minutes**. This hydration step is crucial as it softens the oats, ensuring the final cake has a smooth, cake-like texture rather than a grainy or chewy consistency.
 
 ### Incorporating Wet Ingredients
+
 While the oats soak, the liquid base is prepared by whisking **two eggs** and blending them with a **ripe banana** and a sweetener of choice, such as honey, maple syrup, or stevia. Once the oat mixture has thickened, the egg and banana blend is folded in. To enhance the flavor profile and nutritional value, the recipe adds **soaked raisins**, **finely chopped prunes**, and **1 teaspoon of baking soda** to provide the necessary lift during the cooking process.
 
 ### Pan Arrangement and Cooking
+
 The cooking process happens entirely on the stovetop. A frying pan is greased with **1 tablespoon of coconut oil** (or lined with baking paper if the pan is not non-stick). A decorative and flavorful base is created by arranging **thinly sliced apples** and **chopped walnuts** across the bottom. The chocolate batter is poured evenly over the fruit. The pan is covered and placed on **low heat for 20 minutes**. This slow, enclosed cooking method steams the top of the cake while gently caramelizing the apples at the bottom.
 
 ### Finishing Touches and Glaze
+
 To finish the dessert, a simple **healthy chocolate glaze** is prepared by combining **1/3 cup milk**, **2 tablespoons of cocoa**, and **1/2 tablespoon of coconut oil**. This is drizzled over the warm cake. The final result is a moist, nutrient-dense chocolate treat that is high in fiber and healthy fats, often served alongside herbal tea with lemon and honey. The recipe demonstrates that sophisticated, healthy desserts can be achieved with minimal equipment and whole-food ingredients.
 
 ## Context

@@ -8,7 +8,6 @@ metadata:
 
     https://www.parkerrex.com/writing/prompts-2026#spec-interviews
 
-
     00:00 Introduction and Background\ 
 
     00:21 Exploring Agent Scripts\ 
@@ -54,6 +53,16 @@ tools:
     url: null
   - name: "GitHub Copilot"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.349Z"
 ---
 
 ## Key Takeaways
@@ -73,6 +82,7 @@ The transition from software engineer to **agent operator** requires a new archi
 Parker Rex explores the 'agent scripts' folder trend, popularized by prolific developers like Peter Levels, which enables extreme shipping speeds (e.g., 42,000 commits in a year). The core concept is moving away from project-specific configurations and instead creating a **centralized repository of agent instructions**. This folder acts as a source of truth that every other repo points to, ensuring that AI agents have access to the same 'skills,' version-controlled tools, and operational documentation regardless of the project context.
 
 ### The Agent Scripts Architecture
+
 By maintaining a global `agent-scripts` directory, developers can utilize **symbolic pointers** or direct references in their project prompts. This setup includes:
 
 - **Skills**: Specialized folders containing 'skill' files with specific front-matter and instructions that the AI (specifically in **Codex**) can call using specific syntax.
@@ -82,6 +92,7 @@ By maintaining a global `agent-scripts` directory, developers can utilize **symb
 - **Docs and Workflow**: Centralized documentation for specific operations, such as releasing a Mac product or debugging complex browser APIs.
 
 ### Advanced Prompting Techniques
+
 Rex highlights three high-impact prompt patterns found within these advanced setups:
 
 - **Feature Analysis & Improvement**: Instead of asking an agent to build a feature from scratch, you provide a reference to a high-quality open-source implementation. The agent analyzes the **UI/UX, hooks, and logic** of the reference and applies those patterns to your specific stack.
@@ -91,6 +102,7 @@ Rex highlights three high-impact prompt patterns found within these advanced set
 - **Spec Interviewer**: This pattern turns the AI into a **Product Manager** or Architect. It is designed to ask dozens of clarifying questions about a feature request to prevent 'hallucinations' or poor implementations caused by underspecified requirements.
 
 ### Operationalizing the Workflow
+
 The goal is to treat engineering as an **orchestration task**. Rex suggests using **Codex** for slower, high-quality asynchronous reasoning and planning, while utilizing **Claude (Opus)** for rapid execution. He recommends following 'AI Power Users' on platforms like X (formerly Twitter) to source the latest skills and prompts, specifically mentioning tools like the **Ask User Questions** skill file which forces the agent to interact with the developer as a collaborator rather than just a code generator.
 
 ## Context

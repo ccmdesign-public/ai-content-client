@@ -4,13 +4,9 @@ metadata:
   title: "Google Antigravity is Looking Pretty Good Now"
   description: "Antigravity from Google is changing how developers code with AI. This Google Antigravity tutorial covers the new agent harness with Gemini 3 Pro, showing you workflows that rival the best tools. Google Antigravity vs Cursor? We break it down.
 
-
-
-
     Visit https://lumalabs.ai/ailabs to try Ray 3 Modify yourself!\ 
 
     Article: https://cursor.com/blog/agent-best-practices
-
 
     Google Antigravity has quickly become a favorite among developers since its release, and for good reason. In this Antigravity Google deep dive, we take the agent harness principles that Cursor recently published and apply them to Google's newest AI coding tool.
 
@@ -69,6 +65,18 @@ tools:
     url: null
   - name: "VAG"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "gemini"
+  - "git"
+  - "testing"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.438Z"
 ---
 
 ## Key Takeaways
@@ -88,11 +96,13 @@ This video explores how to optimize the Google Antigravity code editor using adv
 The video highlights the rapid evolution of **Google Antigravity**, powered by **Gemini 3**, as a formidable competitor to Claude Code and Cursor. While Antigravity is free and powerful, its true potential is unlocked through an **agent harness**—a framework consisting of specialized instructions, integrated tools (terminal, search, file editing), and optimized user interaction patterns.
 
 ### The Planning and Context Strategy
+
 Success with AI agents begins with **Planning Mode**. Unlike standard chat interfaces, Antigravity allows users to review a detailed execution plan before the agent writes a single line of code. The key is to refine this plan through line-level comments; it is significantly more efficient to fix a plan than to correct implemented code via follow-up prompts. 
 
 Effective **Context Management** is equally critical. Users often make the mistake of manually tagging every file, which bloats the context window with unnecessary noise. Instead, the video recommends letting the agent use **semantic search and grep** to find exactly what it needs. This ensures that only relevant code segments (e.g., a 50-line function rather than a 200-line file) are processed.
 
 ### Extending Capabilities via Rules and Skills
+
 Antigravity's functionality can be customized through the `aagent` folder. This system uses two primary methods:
 
 - **Rules**: Global or local markdown files that enforce project standards, such as ensuring all UI components are **VAG compliant**.
@@ -100,6 +110,7 @@ Antigravity's functionality can be customized through the `aagent` folder. This 
 - **Skills**: Based on an open standard, these are dynamic modules containing instructions, scripts, and domain-specific knowledge. Examples include a **Test Specialist** skill that utilizes specific libraries to draft comprehensive testing suites.
 
 ### Advanced Engineering Workflows
+
 The video advocates for bringing traditional software best practices into the AI space. **Test-Driven Development (TDD)** is particularly effective with agents because it provides a clear "success state" to iterate toward. By asking the agent to write tests first, then write the code to pass those tests, you create a robust feedback loop. 
 
 Additionally, the use of **Mermaid diagrams** for architecture visualization and **Debug Mode skills** allows for evidence-based troubleshooting. By using Git as a knowledge base, developers can maintain a log of stable versions, making it easier to revert changes if an agent veers off course. The video concludes by emphasizing that while AI code is not perfect, utilizing **bug bots** and manual oversight during the generation process ensures high-quality output.

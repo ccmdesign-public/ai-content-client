@@ -4,8 +4,6 @@ metadata:
   title: "ChatGPT 5.5 Rumors Start to Bubble"
   description: "Leaked signals point to major updates, including a rumored GPT‑5.3 \"Garlic\", a full GPT‑5 rollout after the 5.2 checkpoint, and DeepSeek V4 aimed at superior coding and long‑context handling. Gemini 3, ChatGPT Images, GPT‑5.2 and Claude Opus 4.5 shifted momentum toward Anthropic and Google and prompted OpenAI to refocus on core models. OpenAI hardware leak SweetPea, Google's video \"ingredients\" feature, and Anthropic lab expansion underscore intensifying competition across multimodal, coding, and consumer AI hardware.
 
-
-
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
     Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
@@ -63,6 +61,14 @@ tools:
     url: null
   - name: "Vio"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.434Z"
 ---
 
 ## Key Takeaways
@@ -88,12 +94,15 @@ The AI industry is currently a hotbed of rumors and competitive developments, pa
 The narrative shifted significantly with Google's successful launch of **Gemini 3** in November, particularly the excitement around Gemini 3 Pro and Nano Banana Pro's infographic capabilities. This put immense pressure on OpenAI, leading to a "code red" declaration by Sam Altman, focusing resources on core ChatGPT features and underlying models. This effort resulted in the release of **GPT-5.2** and a new **ChatGPT Images model** (a 1.5 version, not a full 2.0 jump) in December, which, despite not fully stemming the bleeding against Google's momentum, offered high-performing options.
 
 ### Current Competitive Landscape
+
 The introduction of **Claude Opus 4.5** by Anthropic further intensified competition, with its performance rapidly gaining acclaim and being called potentially the most important model release of 2025. Anthropic followed this with **Co-work**, while Google and Apple solidified a deal for future Apple intelligence to be powered by **Gemini models**, shifting momentum towards Anthropic and Google.
 
 ### ChatGPT 5.5 Rumors Emerge
+
 Amidst this competitive climate, rumors about a new ChatGPT model are circulating widely. Dan Mack tweeted about **"GPT-5.3 codenamed Garlic"**, citing a reliable source, predicting stronger pre-training and gold-winning reasoning techniques. Another leaker suggested GPT-5.2 was a "rushed early checkpoint" and the full model would drop in January. Speculation also suggests the new model will be **multimodal**, capable of generating images and audio, though naming (GPT-5.5 vs. GPT-5.3) remains unclear. Users like Andrew Curran are reporting their ChatGPT acting differently, hinting at possible test groups, and an OpenAI developer posted an "eyes emoji," further fueling the speculation.
 
 ### OpenAI's Hardware Ambitions
+
 Beyond models, a significant leak from a Chinese consumer electronics blogger reveals OpenAI's hardware project, internally codenamed **"Sweet Pea."** This special audio product is designed to replace Air
 
 Pods, with Foxconn preparing for manufacturing. The **Johnny IV team** is prioritizing this device, aiming for a September release with projected volumes of 40-50 million in the first year. The design is described as unique, resembling an "eggstone" with two removable "pills" worn behind the ear, powered by a custom chip intended to replace i
@@ -101,6 +110,7 @@ Pods, with Foxconn preparing for manufacturing. The **Johnny IV team** is priori
 Phone actions via Siri.
 
 ### Other Key AI Developments
+
 Separately, **Deep
 
 Seek V4** is rumored for a mid-February release, with a strong focus on **coding performance** and handling extremely long context windows, potentially outperforming current models like Claude and GPT in internal benchmarks. Google also updated its **Vio** video generation feature, adding "ingredients to video" for improved consistency in characters, props, and backgrounds, and enabling vertical video generation. Lastly, Anthropic has expanded its **Labs team** into a full internal incubator, aiming to double its headcount within six months to accelerate product development and innovate rapidly.

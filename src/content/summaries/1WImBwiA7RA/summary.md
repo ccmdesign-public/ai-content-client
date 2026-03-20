@@ -4,11 +4,9 @@ metadata:
   title: "Claude Skills - the SOP for your agent that is bigger than MCP"
   description: "Join upcoming weekly workshop on claude skills: http://aibuilderclub.com
 
-
     🔗 Links
 
     - Follow me on twitter: https://twitter.com/jasonzhou1993
-
 
     ⏱️ Timestamps
 
@@ -20,11 +18,9 @@ metadata:
 
     3:40 Build skills for your own codebase
 
-
     👋🏻 About Me
 
     My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
-
 
     #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk"
   channel: "AI Jason"
@@ -67,6 +63,16 @@ tools:
     url: null
   - name: "Vercel AI SDK"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.497Z"
 ---
 
 ## Key Takeaways
@@ -86,9 +92,11 @@ Claude Skills represent a shift from generic tool-calling to structured, instruc
 AI Jason introduces **Claude Skills**, a concept for defining Standard Operating Procedures (SOPs) for AI agents that is often more practical and efficient than the Model Context Protocol (MCP). While MCPs are excellent for connecting agents to external data, they often suffer from 'token bloat' because they load entire tool bundles regardless of utility. In contrast, a Claude Skill is a targeted combination of prompts, assets, and tools that the agent only accesses when needed, potentially reducing token consumption from thousands to double digits.
 
 ### The Anatomy of a Skill
+
 At the heart of this system is the **skill.md** file. This file acts as the entry point, containing a short description that explains to the agent exactly when and how to use the skill. This metadata is always in the agent's context, but the heavy lifting—the detailed instructions, templates, and functions—is only loaded once the agent decides to 'call' the skill. This architecture mirrors a command-line interface but for agentic reasoning, allowing for much more complex tasks without overwhelming the model's primary context window.
 
 ### Practical Applications
+
 The video demonstrates several use cases, ranging from creative arts to enterprise integrations:
 
 * **Slack Gift Creator**: A skill that imports specific Python packages and predefined functions to generate and post GIFs directly to Slack based on a simple user prompt.
@@ -98,6 +106,7 @@ The video demonstrates several use cases, ranging from creative arts to enterpri
 * **Brand Guidelines**: A simple, single-prompt skill that forces the agent to adhere to specific visual or tone-of-voice requirements without needing a complex backend.
 
 ### Scaling with Self-Improving Codebases
+
 One of the most powerful features discussed is using skills to manage large, complex codebases. By employing a **Skill Creator** skill, a developer can ask the agent to investigate a local repository (like a monorepo) to identify current coding conventions. The agent then generates a new, permanent skill file (e.g., `front-end.md`) that documents these best practices. When the developer later asks for a new UI component, the agent automatically references that custom skill first, ensuring the new code perfectly matches the existing architecture and style guide.
 
 ## Context

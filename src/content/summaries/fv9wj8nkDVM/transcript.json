@@ -1,0 +1,1729 @@
+{
+  "videoId": "fv9wj8nkDVM",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.55,
+      "duration": 0.010000000000000231,
+      "text": "GitHub just released a very powerful"
+    },
+    {
+      "start": 2.56,
+      "duration": 2.31,
+      "text": "GitHub just released a very powerful add-on for Storybook that completely"
+    },
+    {
+      "start": 4.87,
+      "duration": 0.009999999999999787,
+      "text": "add-on for Storybook that completely"
+    },
+    {
+      "start": 4.88,
+      "duration": 1.9089999999999998,
+      "text": "add-on for Storybook that completely changes the way we test component"
+    },
+    {
+      "start": 6.789,
+      "duration": 0.010000000000000675,
+      "text": "changes the way we test component"
+    },
+    {
+      "start": 6.799,
+      "duration": 2.470999999999999,
+      "text": "changes the way we test component performance. It includes a very detailed"
+    },
+    {
+      "start": 9.27,
+      "duration": 0.009999999999999787,
+      "text": "performance. It includes a very detailed"
+    },
+    {
+      "start": 9.28,
+      "duration": 2.0700000000000003,
+      "text": "performance. It includes a very detailed performance panel filled with valuable"
+    },
+    {
+      "start": 11.35,
+      "duration": 0.009999999999999787,
+      "text": "performance panel filled with valuable"
+    },
+    {
+      "start": 11.36,
+      "duration": 2.229000000000001,
+      "text": "performance panel filled with valuable insights like measuring frame timing,"
+    },
+    {
+      "start": 13.589,
+      "duration": 0.009999999999999787,
+      "text": "insights like measuring frame timing,"
+    },
+    {
+      "start": 13.599,
+      "duration": 2.5509999999999984,
+      "text": "insights like measuring frame timing, input responsiveness, layout stability,"
+    },
+    {
+      "start": 16.15,
+      "duration": 0.010000000000001563,
+      "text": "input responsiveness, layout stability,"
+    },
+    {
+      "start": 16.16,
+      "duration": 2.789999999999999,
+      "text": "input responsiveness, layout stability, react profiling, memory pressure, and"
+    },
+    {
+      "start": 18.95,
+      "duration": 0.010000000000001563,
+      "text": "react profiling, memory pressure, and"
+    },
+    {
+      "start": 18.96,
+      "duration": 2.228999999999999,
+      "text": "react profiling, memory pressure, and much more. In this video, we'll take a"
+    },
+    {
+      "start": 21.189,
+      "duration": 0.010000000000001563,
+      "text": "much more. In this video, we'll take a"
+    },
+    {
+      "start": 21.199,
+      "duration": 2.3099999999999987,
+      "text": "much more. In this video, we'll take a closer look at what this add-on has to"
+    },
+    {
+      "start": 23.509,
+      "duration": 0.00999999999999801,
+      "text": "closer look at what this add-on has to"
+    },
+    {
+      "start": 23.519,
+      "duration": 2.0710000000000015,
+      "text": "closer look at what this add-on has to offer. It's going to be a lot of fun, so"
+    },
+    {
+      "start": 25.59,
+      "duration": 0.010000000000001563,
+      "text": "offer. It's going to be a lot of fun, so"
+    },
+    {
+      "start": 25.6,
+      "duration": 5.189999999999998,
+      "text": "offer. It's going to be a lot of fun, so let's dive into it."
+    },
+    {
+      "start": 32.79,
+      "duration": 0.00999999999999801,
+      "text": "Quick question before we begin. Do you"
+    },
+    {
+      "start": 32.8,
+      "duration": 2.1500000000000057,
+      "text": "Quick question before we begin. Do you know what is shift left performance"
+    },
+    {
+      "start": 34.95,
+      "duration": 0.00999999999999801,
+      "text": "know what is shift left performance"
+    },
+    {
+      "start": 34.96,
+      "duration": 2.3100000000000023,
+      "text": "know what is shift left performance testing? It's a development paradigm"
+    },
+    {
+      "start": 37.27,
+      "duration": 0.00999999999999801,
+      "text": "testing? It's a development paradigm"
+    },
+    {
+      "start": 37.28,
+      "duration": 1.6700000000000017,
+      "text": "testing? It's a development paradigm which dictates that the performance of"
+    },
+    {
+      "start": 38.95,
+      "duration": 0.00999999999999801,
+      "text": "which dictates that the performance of"
+    },
+    {
+      "start": 38.96,
+      "duration": 2.229999999999997,
+      "text": "which dictates that the performance of your app components should be tested"
+    },
+    {
+      "start": 41.19,
+      "duration": 0.010000000000005116,
+      "text": "your app components should be tested"
+    },
+    {
+      "start": 41.2,
+      "duration": 2.0700000000000003,
+      "text": "your app components should be tested earlier in the development process"
+    },
+    {
+      "start": 43.27,
+      "duration": 0.00999999999999801,
+      "text": "earlier in the development process"
+    },
+    {
+      "start": 43.28,
+      "duration": 2.469999999999999,
+      "text": "earlier in the development process rather than as an afterthought. And this"
+    },
+    {
+      "start": 45.75,
+      "duration": 0.00999999999999801,
+      "text": "rather than as an afterthought. And this"
+    },
+    {
+      "start": 45.76,
+      "duration": 1.9100000000000037,
+      "text": "rather than as an afterthought. And this tool is specifically built to help"
+    },
+    {
+      "start": 47.67,
+      "duration": 0.00999999999999801,
+      "text": "tool is specifically built to help"
+    },
+    {
+      "start": 47.68,
+      "duration": 2.1499999999999986,
+      "text": "tool is specifically built to help developers make those early judgment"
+    },
+    {
+      "start": 49.83,
+      "duration": 0.010000000000005116,
+      "text": "developers make those early judgment"
+    },
+    {
+      "start": 49.84,
+      "duration": 2.469999999999999,
+      "text": "developers make those early judgment calls, giving you a realtime look at how"
+    },
+    {
+      "start": 52.31,
+      "duration": 0.00999999999999801,
+      "text": "calls, giving you a realtime look at how"
+    },
+    {
+      "start": 52.32,
+      "duration": 2.1499999999999986,
+      "text": "calls, giving you a realtime look at how your components behave before they ever"
+    },
+    {
+      "start": 54.47,
+      "duration": 0.00999999999999801,
+      "text": "your components behave before they ever"
+    },
+    {
+      "start": 54.48,
+      "duration": 1.990000000000002,
+      "text": "your components behave before they ever hit production. So, the storybook"
+    },
+    {
+      "start": 56.47,
+      "duration": 0.00999999999999801,
+      "text": "hit production. So, the storybook"
+    },
+    {
+      "start": 56.48,
+      "duration": 1.4299999999999997,
+      "text": "hit production. So, the storybook performance panel provides a"
+    },
+    {
+      "start": 57.91,
+      "duration": 0.010000000000005116,
+      "text": "performance panel provides a"
+    },
+    {
+      "start": 57.92,
+      "duration": 2.3089999999999975,
+      "text": "performance panel provides a highfidelity look at how your components"
+    },
+    {
+      "start": 60.229,
+      "duration": 0.00999999999999801,
+      "text": "highfidelity look at how your components"
+    },
+    {
+      "start": 60.239,
+      "duration": 1.9110000000000014,
+      "text": "highfidelity look at how your components interact with the browser's rendering"
+    },
+    {
+      "start": 62.15,
+      "duration": 0.00999999999999801,
+      "text": "interact with the browser's rendering"
+    },
+    {
+      "start": 62.16,
+      "duration": 1.9890000000000043,
+      "text": "interact with the browser's rendering engine. It tracks, for example, frame"
+    },
+    {
+      "start": 64.149,
+      "duration": 0.010000000000005116,
+      "text": "engine. It tracks, for example, frame"
+    },
+    {
+      "start": 64.159,
+      "duration": 1.9899999999999949,
+      "text": "engine. It tracks, for example, frame timing to identify jitter. You know,"
+    },
+    {
+      "start": 66.149,
+      "duration": 0.010000000000005116,
+      "text": "timing to identify jitter. You know,"
+    },
+    {
+      "start": 66.159,
+      "duration": 2.2309999999999945,
+      "text": "timing to identify jitter. You know, those tiny irregular gaps between frames"
+    },
+    {
+      "start": 68.39,
+      "duration": 0.010000000000005116,
+      "text": "those tiny irregular gaps between frames"
+    },
+    {
+      "start": 68.4,
+      "duration": 2.549999999999997,
+      "text": "those tiny irregular gaps between frames that make animations feel stuttered. It"
+    },
+    {
+      "start": 70.95,
+      "duration": 0.009999999999990905,
+      "text": "that make animations feel stuttered. It"
+    },
+    {
+      "start": 70.96,
+      "duration": 2.6300000000000097,
+      "text": "that make animations feel stuttered. It also monitors the main thread for DOM"
+    },
+    {
+      "start": 73.59,
+      "duration": 0.009999999999990905,
+      "text": "also monitors the main thread for DOM"
+    },
+    {
+      "start": 73.6,
+      "duration": 2.6300000000000097,
+      "text": "also monitors the main thread for DOM churn and thrashing. DOM churn happens"
+    },
+    {
+      "start": 76.23,
+      "duration": 0.009999999999990905,
+      "text": "churn and thrashing. DOM churn happens"
+    },
+    {
+      "start": 76.24,
+      "duration": 2.1500000000000057,
+      "text": "churn and thrashing. DOM churn happens when your code unnecessarily creates,"
+    },
+    {
+      "start": 78.39,
+      "duration": 0.010000000000005116,
+      "text": "when your code unnecessarily creates,"
+    },
+    {
+      "start": 78.4,
+      "duration": 2.309999999999988,
+      "text": "when your code unnecessarily creates, deletes, or updates elements in a tight"
+    },
+    {
+      "start": 80.71,
+      "duration": 0.010000000000005116,
+      "text": "deletes, or updates elements in a tight"
+    },
+    {
+      "start": 80.72,
+      "duration": 1.9899999999999949,
+      "text": "deletes, or updates elements in a tight loop, while thrashing occurs when the"
+    },
+    {
+      "start": 82.71,
+      "duration": 0.010000000000005116,
+      "text": "loop, while thrashing occurs when the"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.0690000000000026,
+      "text": "loop, while thrashing occurs when the browser is forced to recalculate the"
+    },
+    {
+      "start": 84.789,
+      "duration": 0.010000000000005116,
+      "text": "browser is forced to recalculate the"
+    },
+    {
+      "start": 84.799,
+      "duration": 2.4709999999999894,
+      "text": "browser is forced to recalculate the layout multiple times in a single frame"
+    },
+    {
+      "start": 87.27,
+      "duration": 0.010000000000005116,
+      "text": "layout multiple times in a single frame"
+    },
+    {
+      "start": 87.28,
+      "duration": 1.5090000000000003,
+      "text": "layout multiple times in a single frame because you're reading and writing"
+    },
+    {
+      "start": 88.789,
+      "duration": 0.010000000000005116,
+      "text": "because you're reading and writing"
+    },
+    {
+      "start": 88.799,
+      "duration": 2.2309999999999945,
+      "text": "because you're reading and writing styles back to back. And this add-on"
+    },
+    {
+      "start": 91.03,
+      "duration": 0.010000000000005116,
+      "text": "styles back to back. And this add-on"
+    },
+    {
+      "start": 91.04,
+      "duration": 1.9899999999999949,
+      "text": "styles back to back. And this add-on adapts to whatever framework you're"
+    },
+    {
+      "start": 93.03,
+      "duration": 0.010000000000005116,
+      "text": "adapts to whatever framework you're"
+    },
+    {
+      "start": 93.04,
+      "duration": 2.0689999999999884,
+      "text": "adapts to whatever framework you're using. If you're using React, it can"
+    },
+    {
+      "start": 95.109,
+      "duration": 0.010000000000005116,
+      "text": "using. If you're using React, it can"
+    },
+    {
+      "start": 95.119,
+      "duration": 2.3100000000000023,
+      "text": "using. If you're using React, it can highlight metrics like render cascades,"
+    },
+    {
+      "start": 97.429,
+      "duration": 0.009999999999990905,
+      "text": "highlight metrics like render cascades,"
+    },
+    {
+      "start": 97.439,
+      "duration": 2.3100000000000023,
+      "text": "highlight metrics like render cascades, which are those small state changes that"
+    },
+    {
+      "start": 99.749,
+      "duration": 0.010000000000005116,
+      "text": "which are those small state changes that"
+    },
+    {
+      "start": 99.759,
+      "duration": 2.2309999999999945,
+      "text": "which are those small state changes that accidentally trigger a massive slow wave"
+    },
+    {
+      "start": 101.99,
+      "duration": 0.010000000000005116,
+      "text": "accidentally trigger a massive slow wave"
+    },
+    {
+      "start": 102,
+      "duration": 2.549999999999997,
+      "text": "accidentally trigger a massive slow wave of rerenders across your entire app. And"
+    },
+    {
+      "start": 104.55,
+      "duration": 0.010000000000005116,
+      "text": "of rerenders across your entire app. And"
+    },
+    {
+      "start": 104.56,
+      "duration": 3.188999999999993,
+      "text": "of rerenders across your entire app. And it also tracks P95 duration which shows"
+    },
+    {
+      "start": 107.749,
+      "duration": 0.010000000000005116,
+      "text": "it also tracks P95 duration which shows"
+    },
+    {
+      "start": 107.759,
+      "duration": 2.070999999999998,
+      "text": "it also tracks P95 duration which shows your worst case scenario for your"
+    },
+    {
+      "start": 109.83,
+      "duration": 0.010000000000005116,
+      "text": "your worst case scenario for your"
+    },
+    {
+      "start": 109.84,
+      "duration": 2.789999999999992,
+      "text": "your worst case scenario for your slowest users rather just an average."
+    },
+    {
+      "start": 112.63,
+      "duration": 0.010000000000005116,
+      "text": "slowest users rather just an average."
+    },
+    {
+      "start": 112.64,
+      "duration": 1.9899999999999949,
+      "text": "slowest users rather just an average. And if you aren't using React the"
+    },
+    {
+      "start": 114.63,
+      "duration": 0.010000000000005116,
+      "text": "And if you aren't using React the"
+    },
+    {
+      "start": 114.64,
+      "duration": 2.6299999999999955,
+      "text": "And if you aren't using React the universal mode works perfectly for Vue"
+    },
+    {
+      "start": 117.27,
+      "duration": 0.010000000000005116,
+      "text": "universal mode works perfectly for Vue"
+    },
+    {
+      "start": 117.28,
+      "duration": 2.468999999999994,
+      "text": "universal mode works perfectly for Vue svelt or web components. And for the"
+    },
+    {
+      "start": 119.749,
+      "duration": 0.010000000000005116,
+      "text": "svelt or web components. And for the"
+    },
+    {
+      "start": 119.759,
+      "duration": 1.9899999999999949,
+      "text": "svelt or web components. And for the best results it is recommended to run"
+    },
+    {
+      "start": 121.749,
+      "duration": 0.010000000000005116,
+      "text": "best results it is recommended to run"
+    },
+    {
+      "start": 121.759,
+      "duration": 2.870999999999995,
+      "text": "best results it is recommended to run this add-on or Chrome or Edge. And they"
+    },
+    {
+      "start": 124.63,
+      "duration": 0.010000000000005116,
+      "text": "this add-on or Chrome or Edge. And they"
+    },
+    {
+      "start": 124.64,
+      "duration": 1.9899999999999949,
+      "text": "this add-on or Chrome or Edge. And they also have a live playbook where we can"
+    },
+    {
+      "start": 126.63,
+      "duration": 0.010000000000005116,
+      "text": "also have a live playbook where we can"
+    },
+    {
+      "start": 126.64,
+      "duration": 1.9100000000000108,
+      "text": "also have a live playbook where we can see these metrics in action. For"
+    },
+    {
+      "start": 128.55,
+      "duration": 0.009999999999990905,
+      "text": "see these metrics in action. For"
+    },
+    {
+      "start": 128.56,
+      "duration": 2.5500000000000114,
+      "text": "see these metrics in action. For instance, in the animated box example,"
+    },
+    {
+      "start": 131.11,
+      "duration": 0.009999999999990905,
+      "text": "instance, in the animated box example,"
+    },
+    {
+      "start": 131.12,
+      "duration": 2.1500000000000057,
+      "text": "instance, in the animated box example, we can track exactly how many inline"
+    },
+    {
+      "start": 133.27,
+      "duration": 0.009999999999990905,
+      "text": "we can track exactly how many inline"
+    },
+    {
+      "start": 133.28,
+      "duration": 2.1500000000000057,
+      "text": "we can track exactly how many inline style mutations are happening during an"
+    },
+    {
+      "start": 135.43,
+      "duration": 0.009999999999990905,
+      "text": "style mutations are happening during an"
+    },
+    {
+      "start": 135.44,
+      "duration": 1.75,
+      "text": "style mutations are happening during an animation. In this case, everything"
+    },
+    {
+      "start": 137.19,
+      "duration": 0.009999999999990905,
+      "text": "animation. In this case, everything"
+    },
+    {
+      "start": 137.2,
+      "duration": 2.1500000000000057,
+      "text": "animation. In this case, everything looks healthy. The frame rate and the"
+    },
+    {
+      "start": 139.35,
+      "duration": 0.010000000000019327,
+      "text": "looks healthy. The frame rate and the"
+    },
+    {
+      "start": 139.36,
+      "duration": 2.1499999999999773,
+      "text": "looks healthy. The frame rate and the frame time stays perfectly stable,"
+    },
+    {
+      "start": 141.51,
+      "duration": 0.010000000000019327,
+      "text": "frame time stays perfectly stable,"
+    },
+    {
+      "start": 141.52,
+      "duration": 1.829999999999984,
+      "text": "frame time stays perfectly stable, meaning the browser is handling those"
+    },
+    {
+      "start": 143.35,
+      "duration": 0.010000000000019327,
+      "text": "meaning the browser is handling those"
+    },
+    {
+      "start": 143.36,
+      "duration": 2.228999999999985,
+      "text": "meaning the browser is handling those style updates without breaking a sweat."
+    },
+    {
+      "start": 145.589,
+      "duration": 0.009999999999990905,
+      "text": "style updates without breaking a sweat."
+    },
+    {
+      "start": 145.599,
+      "duration": 2.551000000000016,
+      "text": "style updates without breaking a sweat. However, the heavy list example tells a"
+    },
+    {
+      "start": 148.15,
+      "duration": 0.009999999999990905,
+      "text": "However, the heavy list example tells a"
+    },
+    {
+      "start": 148.16,
+      "duration": 1.990000000000009,
+      "text": "However, the heavy list example tells a different story. When we filter this"
+    },
+    {
+      "start": 150.15,
+      "duration": 0.009999999999990905,
+      "text": "different story. When we filter this"
+    },
+    {
+      "start": 150.16,
+      "duration": 2.469999999999999,
+      "text": "different story. When we filter this large list, we see a few red flags."
+    },
+    {
+      "start": 152.63,
+      "duration": 0.009999999999990905,
+      "text": "large list, we see a few red flags."
+    },
+    {
+      "start": 152.64,
+      "duration": 2.9490000000000123,
+      "text": "large list, we see a few red flags. First, the cumulative layout shift jumps"
+    },
+    {
+      "start": 155.589,
+      "duration": 0.009999999999990905,
+      "text": "First, the cumulative layout shift jumps"
+    },
+    {
+      "start": 155.599,
+      "duration": 1.9099999999999966,
+      "text": "First, the cumulative layout shift jumps to a very high value, which indicates"
+    },
+    {
+      "start": 157.509,
+      "duration": 0.010000000000019327,
+      "text": "to a very high value, which indicates"
+    },
+    {
+      "start": 157.519,
+      "duration": 1.8309999999999889,
+      "text": "to a very high value, which indicates that elements are jumping around"
+    },
+    {
+      "start": 159.35,
+      "duration": 0.010000000000019327,
+      "text": "that elements are jumping around"
+    },
+    {
+      "start": 159.36,
+      "duration": 2.6299999999999955,
+      "text": "that elements are jumping around significantly as they load, creating a"
+    },
+    {
+      "start": 161.99,
+      "duration": 0.009999999999990905,
+      "text": "significantly as they load, creating a"
+    },
+    {
+      "start": 162,
+      "duration": 2.3089999999999975,
+      "text": "significantly as they load, creating a jarring experience for the user. We also"
+    },
+    {
+      "start": 164.309,
+      "duration": 0.009999999999990905,
+      "text": "jarring experience for the user. We also"
+    },
+    {
+      "start": 164.319,
+      "duration": 2.3910000000000196,
+      "text": "jarring experience for the user. We also see a spike in DOM churn, which means"
+    },
+    {
+      "start": 166.71,
+      "duration": 0.009999999999990905,
+      "text": "see a spike in DOM churn, which means"
+    },
+    {
+      "start": 166.72,
+      "duration": 2.149000000000001,
+      "text": "see a spike in DOM churn, which means that the browser is working overtime to"
+    },
+    {
+      "start": 168.869,
+      "duration": 0.009999999999990905,
+      "text": "that the browser is working overtime to"
+    },
+    {
+      "start": 168.879,
+      "duration": 2.231000000000023,
+      "text": "that the browser is working overtime to tear down and rebuild a massive number"
+    },
+    {
+      "start": 171.11,
+      "duration": 0.009999999999990905,
+      "text": "tear down and rebuild a massive number"
+    },
+    {
+      "start": 171.12,
+      "duration": 2.6299999999999955,
+      "text": "tear down and rebuild a massive number of nodes at once. This also results in"
+    },
+    {
+      "start": 173.75,
+      "duration": 0.009999999999990905,
+      "text": "of nodes at once. This also results in"
+    },
+    {
+      "start": 173.76,
+      "duration": 1.670000000000016,
+      "text": "of nodes at once. This also results in dropped frames, which kills the"
+    },
+    {
+      "start": 175.43,
+      "duration": 0.009999999999990905,
+      "text": "dropped frames, which kills the"
+    },
+    {
+      "start": 175.44,
+      "duration": 2.3100000000000023,
+      "text": "dropped frames, which kills the perceived speed and smoothness of the"
+    },
+    {
+      "start": 177.75,
+      "duration": 0.009999999999990905,
+      "text": "perceived speed and smoothness of the"
+    },
+    {
+      "start": 177.76,
+      "duration": 2.1500000000000057,
+      "text": "perceived speed and smoothness of the interface. In the element timing"
+    },
+    {
+      "start": 179.91,
+      "duration": 0.009999999999990905,
+      "text": "interface. In the element timing"
+    },
+    {
+      "start": 179.92,
+      "duration": 2.710000000000008,
+      "text": "interface. In the element timing example, any DOM element with the"
+    },
+    {
+      "start": 182.63,
+      "duration": 0.009999999999990905,
+      "text": "example, any DOM element with the"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.390000000000015,
+      "text": "example, any DOM element with the element timing attribute is measured for"
+    },
+    {
+      "start": 185.03,
+      "duration": 0.009999999999990905,
+      "text": "element timing attribute is measured for"
+    },
+    {
+      "start": 185.04,
+      "duration": 1.8290000000000077,
+      "text": "element timing attribute is measured for its exact render time. This is"
+    },
+    {
+      "start": 186.869,
+      "duration": 0.009999999999990905,
+      "text": "its exact render time. This is"
+    },
+    {
+      "start": 186.879,
+      "duration": 1.990000000000009,
+      "text": "its exact render time. This is incredibly useful because it helps you"
+    },
+    {
+      "start": 188.869,
+      "duration": 0.009999999999990905,
+      "text": "incredibly useful because it helps you"
+    },
+    {
+      "start": 188.879,
+      "duration": 2.790999999999997,
+      "text": "incredibly useful because it helps you identify the precise moment when your"
+    },
+    {
+      "start": 191.67,
+      "duration": 0.010000000000019327,
+      "text": "identify the precise moment when your"
+    },
+    {
+      "start": 191.68,
+      "duration": 2.3899999999999864,
+      "text": "identify the precise moment when your hero content or your call to action"
+    },
+    {
+      "start": 194.07,
+      "duration": 0.010000000000019327,
+      "text": "hero content or your call to action"
+    },
+    {
+      "start": 194.08,
+      "duration": 1.829999999999984,
+      "text": "hero content or your call to action becomes visible, giving you a more"
+    },
+    {
+      "start": 195.91,
+      "duration": 0.009999999999990905,
+      "text": "becomes visible, giving you a more"
+    },
+    {
+      "start": 195.92,
+      "duration": 1.6690000000000111,
+      "text": "becomes visible, giving you a more accurate picture of perceived"
+    },
+    {
+      "start": 197.589,
+      "duration": 0.009999999999990905,
+      "text": "accurate picture of perceived"
+    },
+    {
+      "start": 197.599,
+      "duration": 2.3910000000000196,
+      "text": "accurate picture of perceived performance rather than just generic"
+    },
+    {
+      "start": 199.99,
+      "duration": 0.009999999999990905,
+      "text": "performance rather than just generic"
+    },
+    {
+      "start": 200,
+      "duration": 2.069999999999993,
+      "text": "performance rather than just generic page load metrics. And when we look at"
+    },
+    {
+      "start": 202.07,
+      "duration": 0.010000000000019327,
+      "text": "page load metrics. And when we look at"
+    },
+    {
+      "start": 202.08,
+      "duration": 2.149000000000001,
+      "text": "page load metrics. And when we look at the expensive render example, if we"
+    },
+    {
+      "start": 204.229,
+      "duration": 0.009999999999990905,
+      "text": "the expensive render example, if we"
+    },
+    {
+      "start": 204.239,
+      "duration": 2.5509999999999877,
+      "text": "the expensive render example, if we click the rerender button, it causes the"
+    },
+    {
+      "start": 206.79,
+      "duration": 0.010000000000019327,
+      "text": "click the rerender button, it causes the"
+    },
+    {
+      "start": 206.8,
+      "duration": 2.869999999999976,
+      "text": "click the rerender button, it causes the P95 duration to spike. This happens"
+    },
+    {
+      "start": 209.67,
+      "duration": 0.010000000000019327,
+      "text": "P95 duration to spike. This happens"
+    },
+    {
+      "start": 209.68,
+      "duration": 1.8289999999999793,
+      "text": "P95 duration to spike. This happens because the main thread is being held"
+    },
+    {
+      "start": 211.509,
+      "duration": 0.010000000000019327,
+      "text": "because the main thread is being held"
+    },
+    {
+      "start": 211.519,
+      "duration": 1.7510000000000048,
+      "text": "because the main thread is being held hostage by the heavy JavaScript"
+    },
+    {
+      "start": 213.27,
+      "duration": 0.009999999999990905,
+      "text": "hostage by the heavy JavaScript"
+    },
+    {
+      "start": 213.28,
+      "duration": 2.3899999999999864,
+      "text": "hostage by the heavy JavaScript execution, making the UI feel very"
+    },
+    {
+      "start": 215.67,
+      "duration": 0.010000000000019327,
+      "text": "execution, making the UI feel very"
+    },
+    {
+      "start": 215.68,
+      "duration": 2.3100000000000023,
+      "text": "execution, making the UI feel very sluggish. We also see frame jitter"
+    },
+    {
+      "start": 217.99,
+      "duration": 0.009999999999990905,
+      "text": "sluggish. We also see frame jitter"
+    },
+    {
+      "start": 218,
+      "duration": 1.4300000000000068,
+      "text": "sluggish. We also see frame jitter warnings here which indicate"
+    },
+    {
+      "start": 219.43,
+      "duration": 0.009999999999990905,
+      "text": "warnings here which indicate"
+    },
+    {
+      "start": 219.44,
+      "duration": 2.2299999999999898,
+      "text": "warnings here which indicate inconsistent rendering where the time"
+    },
+    {
+      "start": 221.67,
+      "duration": 0.010000000000019327,
+      "text": "inconsistent rendering where the time"
+    },
+    {
+      "start": 221.68,
+      "duration": 2.5490000000000066,
+      "text": "inconsistent rendering where the time between frames is swinging wildly. And"
+    },
+    {
+      "start": 224.229,
+      "duration": 0.009999999999990905,
+      "text": "between frames is swinging wildly. And"
+    },
+    {
+      "start": 224.239,
+      "duration": 2.2309999999999945,
+      "text": "between frames is swinging wildly. And there's also a high total blocking time"
+    },
+    {
+      "start": 226.47,
+      "duration": 0.009999999999990905,
+      "text": "there's also a high total blocking time"
+    },
+    {
+      "start": 226.48,
+      "duration": 3.430000000000007,
+      "text": "there's also a high total blocking time or TBT. And TBT is a major warning sign"
+    },
+    {
+      "start": 229.91,
+      "duration": 0.009999999999990905,
+      "text": "or TBT. And TBT is a major warning sign"
+    },
+    {
+      "start": 229.92,
+      "duration": 1.5889999999999986,
+      "text": "or TBT. And TBT is a major warning sign because it indicates that the main"
+    },
+    {
+      "start": 231.509,
+      "duration": 0.010000000000019327,
+      "text": "because it indicates that the main"
+    },
+    {
+      "start": 231.519,
+      "duration": 1.7510000000000048,
+      "text": "because it indicates that the main thread was blocked long enough to"
+    },
+    {
+      "start": 233.27,
+      "duration": 0.009999999999990905,
+      "text": "thread was blocked long enough to"
+    },
+    {
+      "start": 233.28,
+      "duration": 2.1500000000000057,
+      "text": "thread was blocked long enough to prevent the user from being able to"
+    },
+    {
+      "start": 235.43,
+      "duration": 0.009999999999990905,
+      "text": "prevent the user from being able to"
+    },
+    {
+      "start": 235.44,
+      "duration": 1.9890000000000043,
+      "text": "prevent the user from being able to interact with the page like clicking a"
+    },
+    {
+      "start": 237.429,
+      "duration": 0.009999999999990905,
+      "text": "interact with the page like clicking a"
+    },
+    {
+      "start": 237.439,
+      "duration": 1.9110000000000014,
+      "text": "interact with the page like clicking a button or scrolling. And we see a"
+    },
+    {
+      "start": 239.35,
+      "duration": 0.010000000000019327,
+      "text": "button or scrolling. And we see a"
+    },
+    {
+      "start": 239.36,
+      "duration": 2.228999999999985,
+      "text": "button or scrolling. And we see a similar breakdown in the memoization"
+    },
+    {
+      "start": 241.589,
+      "duration": 0.009999999999990905,
+      "text": "similar breakdown in the memoization"
+    },
+    {
+      "start": 241.599,
+      "duration": 2.790999999999997,
+      "text": "similar breakdown in the memoization waste example. Here the demo shows that"
+    },
+    {
+      "start": 244.39,
+      "duration": 0.010000000000019327,
+      "text": "waste example. Here the demo shows that"
+    },
+    {
+      "start": 244.4,
+      "duration": 1.8290000000000077,
+      "text": "waste example. Here the demo shows that rerendering every single element"
+    },
+    {
+      "start": 246.229,
+      "duration": 0.009999999999990905,
+      "text": "rerendering every single element"
+    },
+    {
+      "start": 246.239,
+      "duration": 2.790999999999997,
+      "text": "rerendering every single element unnecessarily leads to a massive lag."
+    },
+    {
+      "start": 249.03,
+      "duration": 0.009999999999990905,
+      "text": "unnecessarily leads to a massive lag."
+    },
+    {
+      "start": 249.04,
+      "duration": 2.468999999999994,
+      "text": "unnecessarily leads to a massive lag. But by contrast, the properly memoized"
+    },
+    {
+      "start": 251.509,
+      "duration": 0.010000000000019327,
+      "text": "But by contrast, the properly memoized"
+    },
+    {
+      "start": 251.519,
+      "duration": 1.9899999999999807,
+      "text": "But by contrast, the properly memoized example shows just how much work is"
+    },
+    {
+      "start": 253.509,
+      "duration": 0.010000000000019327,
+      "text": "example shows just how much work is"
+    },
+    {
+      "start": 253.519,
+      "duration": 3.269999999999982,
+      "text": "example shows just how much work is saved if we memoize our components. By"
+    },
+    {
+      "start": 256.789,
+      "duration": 0.009999999999990905,
+      "text": "saved if we memoize our components. By"
+    },
+    {
+      "start": 256.799,
+      "duration": 1.9110000000000014,
+      "text": "saved if we memoize our components. By skipping those redundant renders, we"
+    },
+    {
+      "start": 258.71,
+      "duration": 0.010000000000047748,
+      "text": "skipping those redundant renders, we"
+    },
+    {
+      "start": 258.72,
+      "duration": 2.228999999999985,
+      "text": "skipping those redundant renders, we keep the main thread clear and the frame"
+    },
+    {
+      "start": 260.949,
+      "duration": 0.009999999999990905,
+      "text": "keep the main thread clear and the frame"
+    },
+    {
+      "start": 260.959,
+      "duration": 1.9909999999999854,
+      "text": "keep the main thread clear and the frame rate locked. So we get this buttery"
+    },
+    {
+      "start": 262.95,
+      "duration": 0.009999999999990905,
+      "text": "rate locked. So we get this buttery"
+    },
+    {
+      "start": 262.96,
+      "duration": 2.4700000000000273,
+      "text": "rate locked. So we get this buttery smooth 60 frames per second. In the"
+    },
+    {
+      "start": 265.43,
+      "duration": 0.009999999999990905,
+      "text": "smooth 60 frames per second. In the"
+    },
+    {
+      "start": 265.44,
+      "duration": 2.3899999999999864,
+      "text": "smooth 60 frames per second. In the render cascade example, we see exactly"
+    },
+    {
+      "start": 267.83,
+      "duration": 0.009999999999990905,
+      "text": "render cascade example, we see exactly"
+    },
+    {
+      "start": 267.84,
+      "duration": 2.069000000000017,
+      "text": "render cascade example, we see exactly what happens when you use set state"
+    },
+    {
+      "start": 269.909,
+      "duration": 0.009999999999990905,
+      "text": "what happens when you use set state"
+    },
+    {
+      "start": 269.919,
+      "duration": 2.6310000000000286,
+      "text": "what happens when you use set state inside use layout effect. Every single"
+    },
+    {
+      "start": 272.55,
+      "duration": 0.009999999999990905,
+      "text": "inside use layout effect. Every single"
+    },
+    {
+      "start": 272.56,
+      "duration": 2.7900000000000205,
+      "text": "inside use layout effect. Every single increment triggers a cascade because use"
+    },
+    {
+      "start": 275.35,
+      "duration": 0.009999999999990905,
+      "text": "increment triggers a cascade because use"
+    },
+    {
+      "start": 275.36,
+      "duration": 2.3100000000000023,
+      "text": "increment triggers a cascade because use layout effect runs synchronously after"
+    },
+    {
+      "start": 277.67,
+      "duration": 0.009999999999990905,
+      "text": "layout effect runs synchronously after"
+    },
+    {
+      "start": 277.68,
+      "duration": 2.9490000000000123,
+      "text": "layout effect runs synchronously after all DOM mutations but before the browser"
+    },
+    {
+      "start": 280.629,
+      "duration": 0.009999999999990905,
+      "text": "all DOM mutations but before the browser"
+    },
+    {
+      "start": 280.639,
+      "duration": 2.2309999999999945,
+      "text": "all DOM mutations but before the browser has a chance to paint. So, by triggering"
+    },
+    {
+      "start": 282.87,
+      "duration": 0.009999999999990905,
+      "text": "has a chance to paint. So, by triggering"
+    },
+    {
+      "start": 282.88,
+      "duration": 1.990000000000009,
+      "text": "has a chance to paint. So, by triggering the state update here, you're forcing"
+    },
+    {
+      "start": 284.87,
+      "duration": 0.009999999999990905,
+      "text": "the state update here, you're forcing"
+    },
+    {
+      "start": 284.88,
+      "duration": 2.5500000000000114,
+      "text": "the state update here, you're forcing React to reprocess the component tree"
+    },
+    {
+      "start": 287.43,
+      "duration": 0.009999999999990905,
+      "text": "React to reprocess the component tree"
+    },
+    {
+      "start": 287.44,
+      "duration": 2.230000000000018,
+      "text": "React to reprocess the component tree and the browser to recalculate the"
+    },
+    {
+      "start": 289.67,
+      "duration": 0.009999999999990905,
+      "text": "and the browser to recalculate the"
+    },
+    {
+      "start": 289.68,
+      "duration": 2.228999999999985,
+      "text": "and the browser to recalculate the layout a second time before the user"
+    },
+    {
+      "start": 291.909,
+      "duration": 0.009999999999990905,
+      "text": "layout a second time before the user"
+    },
+    {
+      "start": 291.919,
+      "duration": 1.990000000000009,
+      "text": "layout a second time before the user even sees the first result. And this is"
+    },
+    {
+      "start": 293.909,
+      "duration": 0.009999999999990905,
+      "text": "even sees the first result. And this is"
+    },
+    {
+      "start": 293.919,
+      "duration": 1.830000000000041,
+      "text": "even sees the first result. And this is bad because effectively it doubles the"
+    },
+    {
+      "start": 295.749,
+      "duration": 0.009999999999990905,
+      "text": "bad because effectively it doubles the"
+    },
+    {
+      "start": 295.759,
+      "duration": 2.3909999999999627,
+      "text": "bad because effectively it doubles the work for every single frame, leading to"
+    },
+    {
+      "start": 298.15,
+      "duration": 0.010000000000047748,
+      "text": "work for every single frame, leading to"
+    },
+    {
+      "start": 298.16,
+      "duration": 2.6299999999999955,
+      "text": "work for every single frame, leading to a render lag that can make even simple"
+    },
+    {
+      "start": 300.79,
+      "duration": 0.009999999999990905,
+      "text": "a render lag that can make even simple"
+    },
+    {
+      "start": 300.8,
+      "duration": 1.8290000000000077,
+      "text": "a render lag that can make even simple interactions feel heavy. And then"
+    },
+    {
+      "start": 302.629,
+      "duration": 0.009999999999990905,
+      "text": "interactions feel heavy. And then"
+    },
+    {
+      "start": 302.639,
+      "duration": 1.990000000000009,
+      "text": "interactions feel heavy. And then there's the style churn example that"
+    },
+    {
+      "start": 304.629,
+      "duration": 0.009999999999990905,
+      "text": "there's the style churn example that"
+    },
+    {
+      "start": 304.639,
+      "duration": 1.5910000000000082,
+      "text": "there's the style churn example that also demonstrates a critical"
+    },
+    {
+      "start": 306.23,
+      "duration": 0.009999999999990905,
+      "text": "also demonstrates a critical"
+    },
+    {
+      "start": 306.24,
+      "duration": 2.6299999999999955,
+      "text": "also demonstrates a critical observation. What happens when we mutate"
+    },
+    {
+      "start": 308.87,
+      "duration": 0.009999999999990905,
+      "text": "observation. What happens when we mutate"
+    },
+    {
+      "start": 308.88,
+      "duration": 3.670000000000016,
+      "text": "observation. What happens when we mutate the inline styles of 600 different nodes"
+    },
+    {
+      "start": 312.55,
+      "duration": 0.009999999999990905,
+      "text": "the inline styles of 600 different nodes"
+    },
+    {
+      "start": 312.56,
+      "duration": 2.7099999999999795,
+      "text": "the inline styles of 600 different nodes at once? We immediately see these stall"
+    },
+    {
+      "start": 315.27,
+      "duration": 0.009999999999990905,
+      "text": "at once? We immediately see these stall"
+    },
+    {
+      "start": 315.28,
+      "duration": 2.629000000000019,
+      "text": "at once? We immediately see these stall warnings in the thrashing section, which"
+    },
+    {
+      "start": 317.909,
+      "duration": 0.009999999999990905,
+      "text": "warnings in the thrashing section, which"
+    },
+    {
+      "start": 317.919,
+      "duration": 1.350999999999999,
+      "text": "warnings in the thrashing section, which indicates that the browser is being"
+    },
+    {
+      "start": 319.27,
+      "duration": 0.009999999999990905,
+      "text": "indicates that the browser is being"
+    },
+    {
+      "start": 319.28,
+      "duration": 2.469000000000051,
+      "text": "indicates that the browser is being forced into a refflow loop. It's trying"
+    },
+    {
+      "start": 321.749,
+      "duration": 0.009999999999990905,
+      "text": "forced into a refflow loop. It's trying"
+    },
+    {
+      "start": 321.759,
+      "duration": 2.4710000000000036,
+      "text": "forced into a refflow loop. It's trying to calculate positions of 600 elements"
+    },
+    {
+      "start": 324.23,
+      "duration": 0.009999999999990905,
+      "text": "to calculate positions of 600 elements"
+    },
+    {
+      "start": 324.24,
+      "duration": 2.228999999999985,
+      "text": "to calculate positions of 600 elements simultaneously while the JavaScript is"
+    },
+    {
+      "start": 326.469,
+      "duration": 0.009999999999990905,
+      "text": "simultaneously while the JavaScript is"
+    },
+    {
+      "start": 326.479,
+      "duration": 2.2309999999999945,
+      "text": "simultaneously while the JavaScript is still making changes. This leads to very"
+    },
+    {
+      "start": 328.71,
+      "duration": 0.010000000000047748,
+      "text": "still making changes. This leads to very"
+    },
+    {
+      "start": 328.72,
+      "duration": 2.5499999999999545,
+      "text": "still making changes. This leads to very unhealthy vitals for our frame metrics"
+    },
+    {
+      "start": 331.27,
+      "duration": 0.009999999999990905,
+      "text": "unhealthy vitals for our frame metrics"
+    },
+    {
+      "start": 331.28,
+      "duration": 1.830000000000041,
+      "text": "unhealthy vitals for our frame metrics because the main thread is completely"
+    },
+    {
+      "start": 333.11,
+      "duration": 0.009999999999990905,
+      "text": "because the main thread is completely"
+    },
+    {
+      "start": 333.12,
+      "duration": 2.230000000000018,
+      "text": "because the main thread is completely saturated. So, I hope all these examples"
+    },
+    {
+      "start": 335.35,
+      "duration": 0.009999999999990905,
+      "text": "saturated. So, I hope all these examples"
+    },
+    {
+      "start": 335.36,
+      "duration": 2.1499999999999773,
+      "text": "saturated. So, I hope all these examples show you how you can use this storybook"
+    },
+    {
+      "start": 337.51,
+      "duration": 0.009999999999990905,
+      "text": "show you how you can use this storybook"
+    },
+    {
+      "start": 337.52,
+      "duration": 2.7100000000000364,
+      "text": "show you how you can use this storybook add-on to identify bottlenecks in a much"
+    },
+    {
+      "start": 340.23,
+      "duration": 0.009999999999990905,
+      "text": "add-on to identify bottlenecks in a much"
+    },
+    {
+      "start": 340.24,
+      "duration": 2.1499999999999773,
+      "text": "add-on to identify bottlenecks in a much more precise environment. Sure, you can"
+    },
+    {
+      "start": 342.39,
+      "duration": 0.009999999999990905,
+      "text": "more precise environment. Sure, you can"
+    },
+    {
+      "start": 342.4,
+      "duration": 1.910000000000025,
+      "text": "more precise environment. Sure, you can use a tool like Lighthouse, but"
+    },
+    {
+      "start": 344.31,
+      "duration": 0.009999999999990905,
+      "text": "use a tool like Lighthouse, but"
+    },
+    {
+      "start": 344.32,
+      "duration": 2.5500000000000114,
+      "text": "use a tool like Lighthouse, but Lighthouse is a broad brush. It doesn't"
+    },
+    {
+      "start": 346.87,
+      "duration": 0.009999999999990905,
+      "text": "Lighthouse is a broad brush. It doesn't"
+    },
+    {
+      "start": 346.88,
+      "duration": 2.309000000000026,
+      "text": "Lighthouse is a broad brush. It doesn't give you that surgical precision to see"
+    },
+    {
+      "start": 349.189,
+      "duration": 0.009999999999990905,
+      "text": "give you that surgical precision to see"
+    },
+    {
+      "start": 349.199,
+      "duration": 2.3909999999999627,
+      "text": "give you that surgical precision to see exactly how an individual component"
+    },
+    {
+      "start": 351.59,
+      "duration": 0.010000000000047748,
+      "text": "exactly how an individual component"
+    },
+    {
+      "start": 351.6,
+      "duration": 2.4699999999999704,
+      "text": "exactly how an individual component impacts your app's performance. I really"
+    },
+    {
+      "start": 354.07,
+      "duration": 0.009999999999990905,
+      "text": "impacts your app's performance. I really"
+    },
+    {
+      "start": 354.08,
+      "duration": 1.910000000000025,
+      "text": "impacts your app's performance. I really encourage you to download this add-on,"
+    },
+    {
+      "start": 355.99,
+      "duration": 0.009999999999990905,
+      "text": "encourage you to download this add-on,"
+    },
+    {
+      "start": 356,
+      "duration": 2.230000000000018,
+      "text": "encourage you to download this add-on, add it to your Storybook suite, and just"
+    },
+    {
+      "start": 358.23,
+      "duration": 0.009999999999990905,
+      "text": "add it to your Storybook suite, and just"
+    },
+    {
+      "start": 358.24,
+      "duration": 1.5090000000000146,
+      "text": "add it to your Storybook suite, and just play around with it. There's so much"
+    },
+    {
+      "start": 359.749,
+      "duration": 0.009999999999990905,
+      "text": "play around with it. There's so much"
+    },
+    {
+      "start": 359.759,
+      "duration": 2.1499999999999773,
+      "text": "play around with it. There's so much valuable insights to gain once you see"
+    },
+    {
+      "start": 361.909,
+      "duration": 0.009999999999990905,
+      "text": "valuable insights to gain once you see"
+    },
+    {
+      "start": 361.919,
+      "duration": 2.1510000000000105,
+      "text": "valuable insights to gain once you see the full picture of how your components"
+    },
+    {
+      "start": 364.07,
+      "duration": 0.009999999999990905,
+      "text": "the full picture of how your components"
+    },
+    {
+      "start": 364.08,
+      "duration": 2.150000000000034,
+      "text": "the full picture of how your components actually operate under the hood. So,"
+    },
+    {
+      "start": 366.23,
+      "duration": 0.009999999999990905,
+      "text": "actually operate under the hood. So,"
+    },
+    {
+      "start": 366.24,
+      "duration": 1.5090000000000146,
+      "text": "actually operate under the hood. So, there you have it, folks. That is the"
+    },
+    {
+      "start": 367.749,
+      "duration": 0.009999999999990905,
+      "text": "there you have it, folks. That is the"
+    },
+    {
+      "start": 367.759,
+      "duration": 2.4710000000000036,
+      "text": "there you have it, folks. That is the new GitHub Storybook performance panel"
+    },
+    {
+      "start": 370.23,
+      "duration": 0.009999999999990905,
+      "text": "new GitHub Storybook performance panel"
+    },
+    {
+      "start": 370.24,
+      "duration": 2.228999999999985,
+      "text": "new GitHub Storybook performance panel add-on in a nutshell. What do you think"
+    },
+    {
+      "start": 372.469,
+      "duration": 0.009999999999990905,
+      "text": "add-on in a nutshell. What do you think"
+    },
+    {
+      "start": 372.479,
+      "duration": 1.6709999999999923,
+      "text": "add-on in a nutshell. What do you think about it? And how do you measure"
+    },
+    {
+      "start": 374.15,
+      "duration": 0.010000000000047748,
+      "text": "about it? And how do you measure"
+    },
+    {
+      "start": 374.16,
+      "duration": 2.5499999999999545,
+      "text": "about it? And how do you measure performance on your application? Let us"
+    },
+    {
+      "start": 376.71,
+      "duration": 0.010000000000047748,
+      "text": "performance on your application? Let us"
+    },
+    {
+      "start": 376.72,
+      "duration": 1.7489999999999668,
+      "text": "performance on your application? Let us know in the comments down below. And"
+    },
+    {
+      "start": 378.469,
+      "duration": 0.009999999999990905,
+      "text": "know in the comments down below. And"
+    },
+    {
+      "start": 378.479,
+      "duration": 1.4300000000000068,
+      "text": "know in the comments down below. And folks, if you like these types of"
+    },
+    {
+      "start": 379.909,
+      "duration": 0.009999999999990905,
+      "text": "folks, if you like these types of"
+    },
+    {
+      "start": 379.919,
+      "duration": 2.2309999999999945,
+      "text": "folks, if you like these types of technical breakdowns, please let me know"
+    },
+    {
+      "start": 382.15,
+      "duration": 0.010000000000047748,
+      "text": "technical breakdowns, please let me know"
+    },
+    {
+      "start": 382.16,
+      "duration": 1.9899999999999523,
+      "text": "technical breakdowns, please let me know by clicking that like button underneath"
+    },
+    {
+      "start": 384.15,
+      "duration": 0.010000000000047748,
+      "text": "by clicking that like button underneath"
+    },
+    {
+      "start": 384.16,
+      "duration": 2.308999999999969,
+      "text": "by clicking that like button underneath the video. And also, don't forget to"
+    },
+    {
+      "start": 386.469,
+      "duration": 0.009999999999990905,
+      "text": "the video. And also, don't forget to"
+    },
+    {
+      "start": 386.479,
+      "duration": 1.990000000000009,
+      "text": "the video. And also, don't forget to subscribe to our channel. This has been"
+    },
+    {
+      "start": 388.469,
+      "duration": 0.009999999999990905,
+      "text": "subscribe to our channel. This has been"
+    },
+    {
+      "start": 388.479,
+      "duration": 2.150000000000034,
+      "text": "subscribe to our channel. This has been Andress from Better Stack and I will see"
+    },
+    {
+      "start": 390.629,
+      "duration": 0.009999999999990905,
+      "text": "Andress from Better Stack and I will see"
+    },
+    {
+      "start": 390.639,
+      "duration": 11.524999999999977,
+      "text": "Andress from Better Stack and I will see you in the next videos. [music]"
+    }
+  ],
+  "fullText": "GitHub just released a very powerful GitHub just released a very powerful add-on for Storybook that completely add-on for Storybook that completely add-on for Storybook that completely changes the way we test component changes the way we test component changes the way we test component performance. It includes a very detailed performance. It includes a very detailed performance. It includes a very detailed performance panel filled with valuable performance panel filled with valuable performance panel filled with valuable insights like measuring frame timing, insights like measuring frame timing, insights like measuring frame timing, input responsiveness, layout stability, input responsiveness, layout stability, input responsiveness, layout stability, react profiling, memory pressure, and react profiling, memory pressure, and react profiling, memory pressure, and much more. In this video, we'll take a much more. In this video, we'll take a much more. In this video, we'll take a closer look at what this add-on has to closer look at what this add-on has to closer look at what this add-on has to offer. It's going to be a lot of fun, so offer. It's going to be a lot of fun, so offer. It's going to be a lot of fun, so let's dive into it. Quick question before we begin. Do you Quick question before we begin. Do you know what is shift left performance know what is shift left performance know what is shift left performance testing? It's a development paradigm testing? It's a development paradigm testing? It's a development paradigm which dictates that the performance of which dictates that the performance of which dictates that the performance of your app components should be tested your app components should be tested your app components should be tested earlier in the development process earlier in the development process earlier in the development process rather than as an afterthought. And this rather than as an afterthought. And this rather than as an afterthought. And this tool is specifically built to help tool is specifically built to help tool is specifically built to help developers make those early judgment developers make those early judgment developers make those early judgment calls, giving you a realtime look at how calls, giving you a realtime look at how calls, giving you a realtime look at how your components behave before they ever your components behave before they ever your components behave before they ever hit production. So, the storybook hit production. So, the storybook hit production. So, the storybook performance panel provides a performance panel provides a performance panel provides a highfidelity look at how your components highfidelity look at how your components highfidelity look at how your components interact with the browser's rendering interact with the browser's rendering interact with the browser's rendering engine. It tracks, for example, frame engine. It tracks, for example, frame engine. It tracks, for example, frame timing to identify jitter. You know, timing to identify jitter. You know, timing to identify jitter. You know, those tiny irregular gaps between frames those tiny irregular gaps between frames those tiny irregular gaps between frames that make animations feel stuttered. It that make animations feel stuttered. It that make animations feel stuttered. It also monitors the main thread for DOM also monitors the main thread for DOM also monitors the main thread for DOM churn and thrashing. DOM churn happens churn and thrashing. DOM churn happens churn and thrashing. DOM churn happens when your code unnecessarily creates, when your code unnecessarily creates, when your code unnecessarily creates, deletes, or updates elements in a tight deletes, or updates elements in a tight deletes, or updates elements in a tight loop, while thrashing occurs when the loop, while thrashing occurs when the loop, while thrashing occurs when the browser is forced to recalculate the browser is forced to recalculate the browser is forced to recalculate the layout multiple times in a single frame layout multiple times in a single frame layout multiple times in a single frame because you're reading and writing because you're reading and writing because you're reading and writing styles back to back. And this add-on styles back to back. And this add-on styles back to back. And this add-on adapts to whatever framework you're adapts to whatever framework you're adapts to whatever framework you're using. If you're using React, it can using. If you're using React, it can using. If you're using React, it can highlight metrics like render cascades, highlight metrics like render cascades, highlight metrics like render cascades, which are those small state changes that which are those small state changes that which are those small state changes that accidentally trigger a massive slow wave accidentally trigger a massive slow wave accidentally trigger a massive slow wave of rerenders across your entire app. And of rerenders across your entire app. And of rerenders across your entire app. And it also tracks P95 duration which shows it also tracks P95 duration which shows it also tracks P95 duration which shows your worst case scenario for your your worst case scenario for your your worst case scenario for your slowest users rather just an average. slowest users rather just an average. slowest users rather just an average. And if you aren't using React the And if you aren't using React the And if you aren't using React the universal mode works perfectly for Vue universal mode works perfectly for Vue universal mode works perfectly for Vue svelt or web components. And for the svelt or web components. And for the svelt or web components. And for the best results it is recommended to run best results it is recommended to run best results it is recommended to run this add-on or Chrome or Edge. And they this add-on or Chrome or Edge. And they this add-on or Chrome or Edge. And they also have a live playbook where we can also have a live playbook where we can also have a live playbook where we can see these metrics in action. For see these metrics in action. For see these metrics in action. For instance, in the animated box example, instance, in the animated box example, instance, in the animated box example, we can track exactly how many inline we can track exactly how many inline we can track exactly how many inline style mutations are happening during an style mutations are happening during an style mutations are happening during an animation. In this case, everything animation. In this case, everything animation. In this case, everything looks healthy. The frame rate and the looks healthy. The frame rate and the looks healthy. The frame rate and the frame time stays perfectly stable, frame time stays perfectly stable, frame time stays perfectly stable, meaning the browser is handling those meaning the browser is handling those meaning the browser is handling those style updates without breaking a sweat. style updates without breaking a sweat. style updates without breaking a sweat. However, the heavy list example tells a However, the heavy list example tells a However, the heavy list example tells a different story. When we filter this different story. When we filter this different story. When we filter this large list, we see a few red flags. large list, we see a few red flags. large list, we see a few red flags. First, the cumulative layout shift jumps First, the cumulative layout shift jumps First, the cumulative layout shift jumps to a very high value, which indicates to a very high value, which indicates to a very high value, which indicates that elements are jumping around that elements are jumping around that elements are jumping around significantly as they load, creating a significantly as they load, creating a significantly as they load, creating a jarring experience for the user. We also jarring experience for the user. We also jarring experience for the user. We also see a spike in DOM churn, which means see a spike in DOM churn, which means see a spike in DOM churn, which means that the browser is working overtime to that the browser is working overtime to that the browser is working overtime to tear down and rebuild a massive number tear down and rebuild a massive number tear down and rebuild a massive number of nodes at once. This also results in of nodes at once. This also results in of nodes at once. This also results in dropped frames, which kills the dropped frames, which kills the dropped frames, which kills the perceived speed and smoothness of the perceived speed and smoothness of the perceived speed and smoothness of the interface. In the element timing interface. In the element timing interface. In the element timing example, any DOM element with the example, any DOM element with the example, any DOM element with the element timing attribute is measured for element timing attribute is measured for element timing attribute is measured for its exact render time. This is its exact render time. This is its exact render time. This is incredibly useful because it helps you incredibly useful because it helps you incredibly useful because it helps you identify the precise moment when your identify the precise moment when your identify the precise moment when your hero content or your call to action hero content or your call to action hero content or your call to action becomes visible, giving you a more becomes visible, giving you a more becomes visible, giving you a more accurate picture of perceived accurate picture of perceived accurate picture of perceived performance rather than just generic performance rather than just generic performance rather than just generic page load metrics. And when we look at page load metrics. And when we look at page load metrics. And when we look at the expensive render example, if we the expensive render example, if we the expensive render example, if we click the rerender button, it causes the click the rerender button, it causes the click the rerender button, it causes the P95 duration to spike. This happens P95 duration to spike. This happens P95 duration to spike. This happens because the main thread is being held because the main thread is being held because the main thread is being held hostage by the heavy JavaScript hostage by the heavy JavaScript hostage by the heavy JavaScript execution, making the UI feel very execution, making the UI feel very execution, making the UI feel very sluggish. We also see frame jitter sluggish. We also see frame jitter sluggish. We also see frame jitter warnings here which indicate warnings here which indicate warnings here which indicate inconsistent rendering where the time inconsistent rendering where the time inconsistent rendering where the time between frames is swinging wildly. And between frames is swinging wildly. And between frames is swinging wildly. And there's also a high total blocking time there's also a high total blocking time there's also a high total blocking time or TBT. And TBT is a major warning sign or TBT. And TBT is a major warning sign or TBT. And TBT is a major warning sign because it indicates that the main because it indicates that the main because it indicates that the main thread was blocked long enough to thread was blocked long enough to thread was blocked long enough to prevent the user from being able to prevent the user from being able to prevent the user from being able to interact with the page like clicking a interact with the page like clicking a interact with the page like clicking a button or scrolling. And we see a button or scrolling. And we see a button or scrolling. And we see a similar breakdown in the memoization similar breakdown in the memoization similar breakdown in the memoization waste example. Here the demo shows that waste example. Here the demo shows that waste example. Here the demo shows that rerendering every single element rerendering every single element rerendering every single element unnecessarily leads to a massive lag. unnecessarily leads to a massive lag. unnecessarily leads to a massive lag. But by contrast, the properly memoized But by contrast, the properly memoized But by contrast, the properly memoized example shows just how much work is example shows just how much work is example shows just how much work is saved if we memoize our components. By saved if we memoize our components. By saved if we memoize our components. By skipping those redundant renders, we skipping those redundant renders, we skipping those redundant renders, we keep the main thread clear and the frame keep the main thread clear and the frame keep the main thread clear and the frame rate locked. So we get this buttery rate locked. So we get this buttery rate locked. So we get this buttery smooth 60 frames per second. In the smooth 60 frames per second. In the smooth 60 frames per second. In the render cascade example, we see exactly render cascade example, we see exactly render cascade example, we see exactly what happens when you use set state what happens when you use set state what happens when you use set state inside use layout effect. Every single inside use layout effect. Every single inside use layout effect. Every single increment triggers a cascade because use increment triggers a cascade because use increment triggers a cascade because use layout effect runs synchronously after layout effect runs synchronously after layout effect runs synchronously after all DOM mutations but before the browser all DOM mutations but before the browser all DOM mutations but before the browser has a chance to paint. So, by triggering has a chance to paint. So, by triggering has a chance to paint. So, by triggering the state update here, you're forcing the state update here, you're forcing the state update here, you're forcing React to reprocess the component tree React to reprocess the component tree React to reprocess the component tree and the browser to recalculate the and the browser to recalculate the and the browser to recalculate the layout a second time before the user layout a second time before the user layout a second time before the user even sees the first result. And this is even sees the first result. And this is even sees the first result. And this is bad because effectively it doubles the bad because effectively it doubles the bad because effectively it doubles the work for every single frame, leading to work for every single frame, leading to work for every single frame, leading to a render lag that can make even simple a render lag that can make even simple a render lag that can make even simple interactions feel heavy. And then interactions feel heavy. And then interactions feel heavy. And then there's the style churn example that there's the style churn example that there's the style churn example that also demonstrates a critical also demonstrates a critical also demonstrates a critical observation. What happens when we mutate observation. What happens when we mutate observation. What happens when we mutate the inline styles of 600 different nodes the inline styles of 600 different nodes the inline styles of 600 different nodes at once? We immediately see these stall at once? We immediately see these stall at once? We immediately see these stall warnings in the thrashing section, which warnings in the thrashing section, which warnings in the thrashing section, which indicates that the browser is being indicates that the browser is being indicates that the browser is being forced into a refflow loop. It's trying forced into a refflow loop. It's trying forced into a refflow loop. It's trying to calculate positions of 600 elements to calculate positions of 600 elements to calculate positions of 600 elements simultaneously while the JavaScript is simultaneously while the JavaScript is simultaneously while the JavaScript is still making changes. This leads to very still making changes. This leads to very still making changes. This leads to very unhealthy vitals for our frame metrics unhealthy vitals for our frame metrics unhealthy vitals for our frame metrics because the main thread is completely because the main thread is completely because the main thread is completely saturated. So, I hope all these examples saturated. So, I hope all these examples saturated. So, I hope all these examples show you how you can use this storybook show you how you can use this storybook show you how you can use this storybook add-on to identify bottlenecks in a much add-on to identify bottlenecks in a much add-on to identify bottlenecks in a much more precise environment. Sure, you can more precise environment. Sure, you can more precise environment. Sure, you can use a tool like Lighthouse, but use a tool like Lighthouse, but use a tool like Lighthouse, but Lighthouse is a broad brush. It doesn't Lighthouse is a broad brush. It doesn't Lighthouse is a broad brush. It doesn't give you that surgical precision to see give you that surgical precision to see give you that surgical precision to see exactly how an individual component exactly how an individual component exactly how an individual component impacts your app's performance. I really impacts your app's performance. I really impacts your app's performance. I really encourage you to download this add-on, encourage you to download this add-on, encourage you to download this add-on, add it to your Storybook suite, and just add it to your Storybook suite, and just add it to your Storybook suite, and just play around with it. There's so much play around with it. There's so much play around with it. There's so much valuable insights to gain once you see valuable insights to gain once you see valuable insights to gain once you see the full picture of how your components the full picture of how your components the full picture of how your components actually operate under the hood. So, actually operate under the hood. So, actually operate under the hood. So, there you have it, folks. That is the there you have it, folks. That is the there you have it, folks. That is the new GitHub Storybook performance panel new GitHub Storybook performance panel new GitHub Storybook performance panel add-on in a nutshell. What do you think add-on in a nutshell. What do you think add-on in a nutshell. What do you think about it? And how do you measure about it? And how do you measure about it? And how do you measure performance on your application? Let us performance on your application? Let us performance on your application? Let us know in the comments down below. And know in the comments down below. And know in the comments down below. And folks, if you like these types of folks, if you like these types of folks, if you like these types of technical breakdowns, please let me know technical breakdowns, please let me know technical breakdowns, please let me know by clicking that like button underneath by clicking that like button underneath by clicking that like button underneath the video. And also, don't forget to the video. And also, don't forget to the video. And also, don't forget to subscribe to our channel. This has been subscribe to our channel. This has been subscribe to our channel. This has been Andress from Better Stack and I will see Andress from Better Stack and I will see Andress from Better Stack and I will see you in the next videos. [music]",
+  "fetchedAt": "2026-03-08T21:45:57.113Z"
+}

@@ -55,6 +55,17 @@ ai:
   totalTokens: 2469
   processingTimeMs: 13674
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "best-practices"
+  - "leadership"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.314Z"
 ---
 
 ## Key Takeaways

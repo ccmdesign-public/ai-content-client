@@ -48,6 +48,16 @@ tools:
     url: null
   - name: "Windsurf"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "best-practices"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.364Z"
 ---
 
 ## Key Takeaways

@@ -4,20 +4,15 @@ metadata:
   title: "AWS Solutions Architect Question of the Day | Question 31 of 65"
   description: "Struggling with Lambda hitting concurrency limits? Let's break it down step by step!
 
-
     The scenario: A retail company's SQS queue grows to 100K messages during flash sales while Lambda can't keep up.
-
 
     The challenge: How do you increase throughput when concurrency is the bottleneck without losing messages?
 
-
     The solution: Reserved concurrency + larger batch sizes 🎯
-
 
     👆 Check out the full video to know why!
 
     👉 Save this series for your certification journey!
-
 
     #AWS #CloudComputing #Lambda #AWSSolutions #CloudCertification #SolutionsArchitect #Serverless #CloudCareer #ITJobs #TechLearning #CertificationPrep #CloudEngineer #CareerDevelopment #KodeKloud"
   channel: "KodeKloud"
@@ -46,6 +41,15 @@ tools:
     url: null
   - name: "Amazon SNS"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "architecture"
+  - "aws"
+  - "performance"
+tagsNormalizedAt: "2026-03-01T21:19:30.334Z"
 ---
 
 ## Key Takeaways
@@ -65,9 +69,11 @@ This AWS architecture question reveals the solution to scaling serverless event 
 The video presents a common AWS serverless scaling challenge where a retail company's order processing system hits limitations during flash sales.
 
 ### The Problem: Concurrency Bottleneck
+
 An SQS standard queue accumulates over 100,000 messages while Lambda struggles due to hitting its default concurrency limit. Each message takes 3 seconds to process, creating a throughput bottleneck where messages can't be consumed fast enough despite the queue depth growing.
 
 ### Analyzing the Solutions
+
 Four options were evaluated against the key requirements:
 1. **Creating additional SQS queues with SNS fanout** - Doesn't help because Lambda remains the bottleneck with the same concurrency limit across all queues.
 2. **Increasing Lambda memory allocation** - Makes individual invocations faster but doesn't increase parallel execution capacity.
@@ -75,6 +81,7 @@ Four options were evaluated against the key requirements:
 4. **Converting to FIFO queue** - Actually worsens the problem since FIFO queues have lower throughput limits than standard queues.
 
 ### The Correct Architecture
+
 **Reserved concurrency** removes the scaling limitation by guaranteeing Lambda can access the necessary compute capacity. Combined with **larger batch sizes** on the SQS trigger, this allows Lambda to process up to 10 messages (or more) in a single invocation instead of one message per invocation.
 
 This approach multiplies throughput while maintaining reliability since SQS retains messages until they're successfully processed. The solution demonstrates how to architect for unpredictable traffic spikes without message loss.

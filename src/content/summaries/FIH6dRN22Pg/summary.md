@@ -63,6 +63,11 @@ ai:
   totalTokens: 2768
   processingTimeMs: 14058
 tools: []
+categories:
+  - "Tools & Productivity"
+tags:
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.398Z"
 ---
 
 ## Key Takeaways
@@ -80,9 +85,11 @@ This recipe demonstrates how to transform pantry staples into a nutrient-dense d
 ## Summary
 
 ### The Foundation of the Recipe
+
 The core of these high-protein chocolate truffles is built on **canned chickpeas**. While the idea of using legumes in dessert might be off-putting to some, the key is the preparation. By draining and rinsing the chickpeas thoroughly, the creator ensures a neutral flavor profile. When combined with rich **cocoa powder** and **peanut butter**, the earthy taste of the beans is completely neutralized, leaving only a dense, fudge-like texture that mimics traditional truffle ganache.
 
 ### Ingredient Synergy and Preparation
+
 The recipe relies on five primary ingredients to achieve its 40g protein count and specific texture:
 
 - **One can of chickpeas**: Provides the protein and fiber foundation.
@@ -98,6 +105,7 @@ The recipe relies on five primary ingredients to achieve its 40g protein count a
 The process begins in a **food processor**, where the chickpeas, cocoa, dates, and peanut butter are blended until completely smooth. This step is crucial; any remaining chunks of chickpea would ruin the truffle experience. Once a cohesive dough is formed, it is rolled into bite-sized balls.
 
 ### The Finishing Touches
+
 To achieve the "crunchy outside" mentioned in the video, the balls are submerged in **melted dark chocolate**. Because the recipe is oil-free and sugar-free, it is recommended to use high-quality, dairy-free chocolate to maintain the health profile. After a brief period of cooling in the fridge, the truffles set into a portable, high-protein snack. This method is particularly effective for those seeking a **low-fat** yet decadent treat that avoids the inflammatory ingredients found in processed protein bars.
 
 ## Context

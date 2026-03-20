@@ -4,16 +4,13 @@ metadata:
   title: "Replacing my n8n workflow with a Claude Code Skill"
   description: "I spent a week building a complex n8n workflow for AI image generation — then scrapped it and rebuilt the whole thing as a Claude Code skill in 30 minutes. Here's why automation without intelligence doesn't work, and how Claude Code Skills became my secret weapon for repeatable brand visuals.
 
-
     👇 **Your Builder Briefing (free)**
 
     https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
 
-
     👇 **Build With Claude Code (course + community)**
 
     https://buildermethods.com/pro/claude-code-course - My upcoming course, included with Builder Methods Pro membership.
-
 
     ▶️ Related videos:
 
@@ -21,12 +18,9 @@ metadata:
 
     From AI Skeptic to Unfair advantage: https://youtu.be/7JBuA1GHAjQ
 
-
     💬 Drop a comment with your questions and requests for upcoming videos!
 
-
     Chapters:
-
 
     0:00 One-off vs repeatable needs
 
@@ -87,6 +81,16 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "claude"
+  - "gemini"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.484Z"
 ---
 
 ## Key Takeaways
@@ -108,9 +112,11 @@ Brian Casel illustrates a shift in AI strategy, moving away from complex **i
 PaaS (Integration Platform as a Service)** workflows toward agentic, skill-based systems. Initially, Casel spent a week building an elaborate **n8n** automation. This system used webhooks and Slack to trigger image generation through various APIs. While technically functional, the output lacked the nuanced brand consistency Casel required because the rigid node-based structure prevented the AI from properly applying creative guidelines.
 
 ### The Failure of Rigid Automation
+
 The **n8n** workflow involved loading brand prompts into code variables and using conditional logic to handle requests. However, by breaking the process into small, automated steps, the model lost the ability to "think" about the brand's intent. The resulting images were generic and ignored the specific visual constraints established in the planning phase.
 
 ### Building the Brand Foundation
+
 Before returning to the technical build, Casel emphasizes the importance of a conversational discovery phase with **Claude**. He developed three critical documents:
 
 - **The Visual World**: Defines the recurring subjects (e.g., coffee mugs, plants, notebooks) that exist within the brand's universe.
@@ -120,6 +126,7 @@ Before returning to the technical build, Casel emphasizes the importance of a co
 - **Mapping Guide**: A logic system that translates abstract concepts (like "systems thinking") into specific objects from the visual world.
 
 ### The Claude Code Skill Solution
+
 Casel pivoted to a **Claude Code Skill**, which is a self-contained folder containing logic, assets, and templates. Unlike the n8n build, this skill took only 30 minutes to set up. It uses a **Python script** to interface with the **Gemini API** for the actual generation, while **Claude Opus 4.5** acts as the orchestrator. This allows the system to read the brand markdown files, reason through the user's request, and suggest three distinct concepts before any image is generated. This iterative loop ensures that the final output aligns perfectly with the brand's established visual identity.
 
 ## Context

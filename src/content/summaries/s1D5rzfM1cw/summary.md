@@ -31,6 +31,17 @@ tools:
     url: null
   - name: "Claude"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+tags:
+  - "ai-coding"
+  - "best-practices"
+  - "career-growth"
+  - "copilot"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.508Z"
 ---
 
 ## Key Takeaways

@@ -4,19 +4,9 @@ metadata:
   title: "Why your coding agent keeps getting DUMBER."
   description: "FREE Skool Community (Get free guidance from over 100 software engineers): https://www.skool.com/the-agentic-lab-6743/about?ref=6be3bb2df7b744df8202baebef624812
 
-
     One of the members in my community, Mika did a 40 page writeup on using ACE for the purposes mentioned in this video. Come say hi in the community and read his post!
 
-
     Reference Paper: https://arxiv.org/pdf/2510.04618
-
-
-
-
-
-
-
-
 
     Your CLAUDE.md file might be the reason your AI coding agent is getting worse over time. In this video, I break down agentic context engineering — a concept from a recent Stanford paper — and explain why it's a smarter alternative to bloating your config files with instructions.
 
@@ -57,6 +47,17 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "llm"
+  - "prompt-engineering"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.358Z"
 ---
 
 ## Key Takeaways
@@ -76,9 +77,11 @@ Overloading AI instructions causes a hidden decline in performance known as **co
 The video identifies a common failure point for AI developers: the bloated `claude.md` or system prompt file. While users initially add instructions to improve the model's behavior, this lead to **context rot**, where the model becomes confused by too many patterns. Roman explains that the naive solution—having an LLM summarize these instructions—is dangerous. This often triggers **context collapse**, a black-swan event where a model's accuracy drops significantly (e.g., by 10% or more) because the condensed summary lacks the necessary nuance or poisons the context with conflicting information.
 
 ### The ACE Framework
+
 To solve this, the video introduces **Agentic Context Engineering (ACE)**, a Stanford-researched method for managing playbooks through a Retrieval-Augmented Generation (RAG) approach. ACE treats instructions as a database of "bullets"—simple if-then statements—that are only injected when relevant to the current task. This prevents context pollution while ensuring specific domain knowledge is available when needed.
 
 ### The ACE Loop
+
 The system operates through three primary agents:
 
 - **The Generator:** Executes the task. It performs a semantic search on the bullet database to find the most relevant instructions for the current coding challenge.
@@ -87,6 +90,7 @@ The system operates through three primary agents:
 - **The Curator:** Manages the database. It deduplicates new bullets and updates **helpful/harmful counts**. If a specific instruction consistently leads to failures, the voting system automatically prunes it from the database.
 
 ### Practical Implementation and Risks
+
 Roman advises keeping the permanent `claude.md` file extremely lean—ideally 3 to 5 lines for instructions that are globally true, such as forcing the use of sub-agents. For more complex learning, ACE is superior because it is deterministic and less likely to be ignored than "Claude Skills."
 
 However, users must be wary of **context poisoning**. This occurs when a reflector model misdiagnoses a failure (e.g., blaming a specific frame rate for a crash caused by a different bug). Without human or high-level LLM oversight, these false lessons can propagate through the database and conflict with core instructions, leading to decreased performance.

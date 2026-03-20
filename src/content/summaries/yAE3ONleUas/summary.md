@@ -78,6 +78,18 @@ tools:
     url: "https://n8n.partnerlinks.io/bfumg8i8y8nc"
   - name: "Cloud Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.424Z"
 ---
 
 ## Key Takeaways

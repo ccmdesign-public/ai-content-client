@@ -4,9 +4,7 @@ metadata:
   title: "GitHub Spec Kit 🤝 Agent Handoffs in Visual Studio Code"
   description: "We're bringing something new to you today - an unreleased feature that we're ACTUALLY very excited about because it means less typing of everything from scratch and keeping track of all the commands that you might need to use with GitHub Spec Kit.
 
-
     Handoffs are available today in Visual Studio Code Insiders (https://code.visualstudio.com/insiders/)
-
 
     😺 GitHub repo: https://github.com/github/spec-kit
 
@@ -14,12 +12,9 @@ metadata:
 
     📚 Additional details: https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit
 
-
     Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
 
-
     For more videos:
-
 
     📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
 
@@ -40,7 +35,6 @@ metadata:
     📽️ Answering your Spec Kit questions: https://youtu.be/OFow2aTnqB8
 
     📽️ Checklists in GitHub Spec Kit: https://youtu.be/zTiLF3-BvGs
-
 
     #engineering #github #speckit #opensource #technology"
   channel: "Den Delimarsky"
@@ -73,6 +67,16 @@ tools:
     url: null
   - name: "GitHub"
     url: "https://github.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "copilot"
+  - "git"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.260Z"
 ---
 
 ## Key Takeaways
@@ -93,11 +97,13 @@ Hub PR for VS Code Insiders, significantly enhance developer workflow with AI ag
 Den Delimarsky introduces upcoming features for **Spec Kit**, currently gated behind a pull request (PR 986) and available in **VS Code Insiders**, focusing on enhancing agent handoffs and overall developer experience within Visual Studio Code with Copilot. He expresses gratitude for Spec Kit's growing user base of over 40,000 users.
 
 ### Streamlined Workflow with Chat Modes and Handoffs
+
 A significant update involves the shift from traditional "prompts" to "chat modes." Previously, Spec Kit used `.prompt.md` files. Now, it introduces `.chat_mode.md` files, which function more like **system prompts**. The content that was once in a prompt is now encapsulated within a chat mode. While traditional prompts still exist as shortcuts, they primarily serve to hint to VS Code Copilot which chat mode to activate. For instance, typing a command like "Constitution" for a new project now triggers the `specit-constitution` chat mode, which then follows its defined steps. This reorganization allows for a more structured and programmable approach to guiding the AI agent.
 
 The core new functionality is **Agent Handoffs**. This feature integrates into the VS Code Copilot UX, allowing developers to define subsequent actions within their `chat_mode.md` files using a YAML front matter section called `handoffs`. When an agent completes a task (e.g., generating a project constitution), intuitive buttons appear in the chat interface, guiding the user to the next logical step in the development workflow. For example, after the constitution is complete, a "Build Specification" button might appear.
 
 ### Benefits and Implementation Details
+
 These handoffs offer several key benefits:
 
 *   **Reduced Cognitive Load**: Developers no longer need to remember the next command or navigate through files to determine the next step in a multi-stage process. The UX provides clear, actionable suggestions.

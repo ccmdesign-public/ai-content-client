@@ -68,6 +68,17 @@ tools:
     url: null
   - name: "Node.js"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Web Development"
+tags:
+  - "ai-coding"
+  - "claude"
+  - "nodejs"
+  - "sql"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.477Z"
 ---
 
 ## Key Takeaways

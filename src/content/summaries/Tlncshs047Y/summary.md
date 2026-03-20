@@ -4,7 +4,6 @@ metadata:
   title: "(Re)introducing MAX with Chris Lattner"
   description: "At our latest Modular community meetup, CEO and Co-Founder Chris Lattner shares Modular’s vision for the future of AI infrastructure and dives into the MAX Framework. As AI workloads grow more complex and hardware more diverse, MAX is designed to break down barriers, bringing together modeling, performance, and portability in a single, open framework built for the modern era. This session explores why Modular is rethinking the AI stack from first principles and how MAX aims to democratize access to high-performance compute for developers everywhere.
 
-
     Join our community 🤝:
 
     Forum - https://forum.modular.com/
@@ -60,6 +59,16 @@ tools:
     url: null
   - name: "conda"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "architecture"
+  - "llm"
+  - "performance"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.324Z"
 ---
 
 ## Key Takeaways
@@ -85,6 +94,7 @@ Torch are excellent for traditional model training, they were not designed for t
 Existing solutions for GenAI inference, such as vLLM or SGLang, often rely on massive collections of custom kernels optimized for leading hardware. This approach creates a significant barrier to entry for new chips or diverse hardware, requiring extensive re-implementation and hindering broader innovation.
 
 ### Introducing the MAX Framework
+
 Modular is excited to (re)introduce **MAX**, a GenAI-native AI modeling and serving framework built from first principles for the modern world. MAX aims to unify performance, ease of use, and portability, drawing inspiration from the best ideas across the industry while deliberately designing for the future.
 
 Key aspects of MAX include:
@@ -100,6 +110,7 @@ Torch's eager execution, without sacrificing performance.
 - **Arbitrary Generality**: While focused on GenAI, the underlying technology is designed to be applicable to other compute-intensive fields like quantum computing or biochemistry.
 
 ### Open Source Ecosystem and Accessibility
+
 MAX is pervasively open source. Its repository hosts a growing collection of models and, notably, features what is touted as the world's largest open-source portable kernel library, supporting NVIDIA, AMD, and now Apple hardware. Modular also provides serving components, making it easier to build and distribute AI servers.
 
 Accessibility is a core tenet, with MAX being easily installable via familiar package managers like `pip` and `conda`. The company also plans to open-source Mojo next year, further cementing its commitment to an open ecosystem. While Modular's immediate focus for MAX is inference, community projects like **Nabla** are already utilizing MAX for both JAX-style and Py

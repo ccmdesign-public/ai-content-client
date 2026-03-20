@@ -6,19 +6,15 @@ metadata:
 
     \"In this video, we cover top trending AI Agent projects this week, focusing on autonomy, privacy, and real workflow automation. You’ll see how tools like Sled, Colloqio, and Vellum handle voice control, on-device AI, and enterprise agent workflows, along with many other practical projects. These AI tools are built for developers, teams, and creators who want to work faster and smarter. Check the links in the description to explore each project and stay tuned for the next weekly update.\"
 
-
     👍 Like, share, and subscribe for more updates on AI advancements. Drop your thoughts and questions in the comments below!
 
-
     📌 Get FREE AI Project Updates : https://manuagi.beehiiv.com/subscribe
-
 
     📌 Important AI Tools (affiliate)
 
     🔗 AI Voice  - https://try.elevenlabs.io/0wgaz29csuo5
 
     🔗Try Dzine AI FREE : https://www.dzine.ai/src/BnkUwm2a
-
 
     📌 Timestamps :\ 
 
@@ -64,14 +60,11 @@ metadata:
 
     15:42 - Hal9 : https://hal9.com/?ref=manuagi
 
-
     📈 Subscribe for more AI tutorials, tips, and industry insights. Don't forget to like, comment, and share with your tech-savvy friends!
-
 
     Tags:\ 
 
     Top AI-Agent Projects,Sled,Colloqio,Binary,Notto,Snaply AI,Vellum,Knowns CLI,Hal9,ai agent projects,ai agents,ai tools,ai projects,ai agent tools,ai updates,ai news,manuagi,agi,ai,github projects,producthunt,new projects
-
 
     Hashtags:
 
@@ -128,6 +121,15 @@ tools:
     url: "https://adenhq.com/?ref=manuagi"
   - name: "Hal9"
     url: "https://hal9.com/?ref=manuagi"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.396Z"
 ---
 
 ## Key Takeaways
@@ -145,9 +147,11 @@ This weekly project update highlights 20 practical AI tools spanning automation,
 ManuAGI's weekly project showcase presents 20 emerging AI tools, emphasizing practical applications that enhance productivity while addressing privacy and developer experience.
 
 ### Local-First & Privacy-Centric AI
+
 A strong theme is **local execution** to protect data. **SLED** acts as a voice remote control for coding agents on your local machine. **Colloqio** is a private AI companion that runs entirely offline on your device. **Snaply AI** provides on-device voice dictation for Mac, with real-time grammar fixes and translation, keeping all voice data private.
 
 ### AI for Specialized Workflows
+
 Many projects target specific professional needs:
 
 - **Binary** streamlines hiring with AI-assisted applicant tracking.
@@ -159,6 +163,7 @@ Many projects target specific professional needs:
 - **Langfinity AI** offers real-time voice translation for global team meetings.
 
 ### Developer & Agent Infrastructure
+
 Tools are emerging to simplify building and managing AI agents:
 
 - **Vellum** is a visual platform for building, testing, and deploying AI agents and workflows.
@@ -170,9 +175,11 @@ Tools are emerging to simplify building and managing AI agents:
 - **Knowns CLI** gives AI agents persistent memory of a project's context, eliminating repetitive setup.
 
 ### Unified Workspaces & Knowledge Management
+
 The trend toward consolidation is evident in tools like **Alpine** (a unified workspace with docs, tasks, and AI) and **Ramo 2.0** (a personal AI knowledge management hub that builds a searchable base from your data).
 
 ### Accessible Automation
+
 Projects like **Stracti Noa** enable no-code, vision-based bot automation for games and desktop apps, making automation accessible without programming skills.
 
 ## Context

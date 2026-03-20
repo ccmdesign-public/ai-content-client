@@ -89,6 +89,17 @@ tools:
     url: null
   - name: "Shadcn UI"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - "accessibility"
+  - "ai-coding"
+  - "design-systems"
+  - "react"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.495Z"
 ---
 
 ## Key Takeaways

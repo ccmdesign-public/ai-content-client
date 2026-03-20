@@ -4,9 +4,7 @@ metadata:
   title: "AI, Knowledge Management, and Vibe Coding | A Proof of Concept for Educational Leaders"
   description: "I'm a 30-year veteran of public education. We're all in a tizzy, of course, about how AI is changing our profession right before our eyes. But an excited tizzy, for many of us. AI has a lot of potential to reinvent schooling, to be sure, but the real magic--and perhaps the real purpose--is in what we've always done in schools. That is, we've always worked to prepare students to be collaborative, thoughtful, contributing adults. If we focus, as schools, on using AI for that--empowering adult collaboration rather than just making quizzes or generating text sets--then we'll model the best uses of this crazy technology.
 
-
     In this video, I talk about how I'm using AI to help me manage information. In short, I've vibe coded an Obsidian plugin to help me visualize my knowledge base. Yes ... I've used AI to write computer code to use AI to help me with my voluminous notes.
-
 
     I'll share more on how I made this all happen in a later video."
   channel: "Jeff Moore"
@@ -35,6 +33,16 @@ tools:
     url: null
   - name: "Notion"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "automation"
+  - "llm"
+  - "nlp"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.277Z"
 ---
 
 ## Key Takeaways
@@ -50,9 +58,11 @@ This video showcases how AI transforms knowledge management in education through
 ## Summary
 
 ### Vibe Coding Explained  
+
 **Vibe coding** analyzes linguistic patterns—tone, urgency, and sentiment—using transformer-based NLP models. Unlike traditional keyword tagging, it interprets contextual nuances, allowing systems to categorize documents based on inferred 'vibes' like *collaborative*, *crisis*, or *innovative*. This enables dynamic reorganization of knowledge bases as content evolves.
 
 ### Proof-of-Concepts for Education  
+
 Two prototypes were demonstrated:
 
 - A **sentiment-scanner** that flags policy documents needing bias review by detecting adversarial language (e.g., identifying combative phrasing in meeting notes)  
@@ -60,6 +70,7 @@ Two prototypes were demonstrated:
 Both tools reduced manual curation time by ~70% in pilot tests.
 
 ### Implementation Framework  
+
 Moore outlines a 3-phase adoption strategy:  
 1. **Ingest** existing knowledge repositories (handbooks, PD materials) into vector databases  
 2. **Train** custom vibe models using institutional communication samples  

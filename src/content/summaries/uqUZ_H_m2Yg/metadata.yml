@@ -1,0 +1,42 @@
+videoId: uqUZ_H_m2Yg
+title: Inference Engines (Part 1)
+description: |-
+  GTC Sessions:
+  https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s82448/?ncid=ref-inpa-249-prsp-en-us-1-l33 (Deploying AI Agents at Enterprise Scale)
+  https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81558/?ncid=ref-inpa-249-prsp-en-us-1-l33 (Post-Training Nemotron With RL)
+
+  NVIDIA 4080  Super Giveaway:
+  https://docs.google.com/forms/d/1K_70PPbO69ygP32h6PwjDmw8pSeUS97Tk82RVUvHBRY/edit?usp=sharing
+
+  Inference is an important topic but rather underappreciated especially given the potential gain in how fast and efficient we can run the underlying models. As models grow and architectures are getting more complex, it's important to understand some of the key components when it comes to actually running these models for inference.
+  How did they change over the years? and how has advancements in NVMe, PCIe, and HBM affect it? What will SGLang, vLLM, NVIDIA Dynamo, and Tensor-RT be shaped going forward?
+
+  #ai #deeplearning #inference #datacenters 
+
+  Chapters
+  00:00 Intro
+  01:18 Model Parallelism
+  02:26 MP Benefits
+  02:41 SLO
+  04:19 MP Limitations
+  04:44 Inference Engine
+  05:30 Batching
+  06:46 KV Cache
+  07:34 Part 2?
+  07:54 GTC 2026
+channel: Caleb Writes Code
+channelId: UCuU9jE4MHHEIyYMbDfUPSew
+duration: PT8M36S
+publishedAt: 2026-03-12T16:00:02Z
+thumbnailUrl: https://i.ytimg.com/vi/uqUZ_H_m2Yg/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=uqUZ_H_m2Yg
+processedAt: 2026-03-13T17:43:14.843Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 6124
+outputTokens: 1125
+totalTokens: 7249
+processingTimeMs: 39184

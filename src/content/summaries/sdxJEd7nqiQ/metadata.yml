@@ -1,0 +1,63 @@
+videoId: sdxJEd7nqiQ
+title: AI Design Just Got Way Better With This
+description: >-
+  We tested pencil.dev, the new ai design tool, with claude code to bridge
+  design system and ai coding workflows. Here's how pencil actually works — and
+  the custom script we built to fix what was missing.
+
+
+  Community with All Resources 📦: http://ailabspro.io/
+
+  Video code: V46
+
+
+  Every ai design tool we've tried either handles design or handles code, never
+  both. Pencil dev claims to be the bidirectional bridge between ui design and
+  ai coding agents, so we put it to the real test by building a full landing
+  page and multi-page website for a Creator Direction Studio.
+
+
+  In this video, we connect pencil to Claude Code, use Opus 4.6 as our model,
+  and discover that the design-to-code sync isn't automatic, you have to prompt
+  it manually every time. So we built a custom file-watching script that
+  monitors the .pen design file and automatically triggers Claude CLI to sync
+  changes to our Next.js project whenever we save, removing the repetitive
+  overhead from the ai web design workflow.
+
+
+  We then push it further with Claude Code's multi-agent system, spawning five
+  agents to design five pages in parallel, all while keeping the design system
+  consistent across fonts, colors, and styling. From there, we layer in GSAP
+  scroll animations using detailed XML-structured prompts, add Lenis smooth
+  scrolling on top for a more immersive feel, and run a custom UX Audit skill we
+  built with Skill Creator to catch accessibility and usability issues
+  programmatically.
+
+
+  Whether you're into ai ui design, design ai workflows, or vibe coding your way
+  through projects, this video walks through every step, from setup to a
+  WCAG-compliant final product. We cover what pencil dev gets right, where it
+  falls short, and the tools we built to make it actually work with ai agents
+  like Claude AI and platforms like Cursor and Figma MCP.
+
+
+  Hashtags:
+
+  #ai #claudecode #vibecoding #figma #claudeai #cursor #aiagents #pencildev
+channel: AI LABS
+channelId: UCelfWQr9sXVMTvBzviPGlFw
+duration: PT9M59S
+publishedAt: 2026-02-28T14:00:00Z
+thumbnailUrl: https://i.ytimg.com/vi/sdxJEd7nqiQ/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=sdxJEd7nqiQ
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-02-28T15:56:51.468Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 8101
+outputTokens: 1008
+totalTokens: 9109
+processingTimeMs: 25351

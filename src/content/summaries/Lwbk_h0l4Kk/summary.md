@@ -44,6 +44,19 @@ tools:
     url: null
   - name: "npm"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "copilot"
+  - "llm"
+  - "prompt-engineering"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.406Z"
 ---
 
 ## Key Takeaways

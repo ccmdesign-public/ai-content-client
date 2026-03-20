@@ -4,7 +4,6 @@ metadata:
   title: "NEW in Claude Code: MCPs Won't \"Eat\" So Much Context"
   description: "A new improvement in Claude Code v2.1.7: Tool Search for MCPs.
 
-
     Original tweet: https://x.com/trq212/status/2011523109871108570
 
     More AI Coding news and experiments: https://aicodingdaily.com"
@@ -48,6 +47,16 @@ tools:
     url: null
   - name: "VS Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+  - "Web Development"
+tags:
+  - "ai-coding"
+  - "claude"
+  - "performance"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.318Z"
 ---
 
 ## Key Takeaways
@@ -65,17 +74,21 @@ Anthropic is refining context management to allow for more complex tool integrat
 ## Summary
 
 ### Solving the MCP Token Tax
+
 The most significant change in **Claude Code 2.1.7** is the management of the **Model Context Protocol (MCP)** overhead. Previously, every connected MCP server would load its entire suite of tool descriptions into the initial prompt context. For developers using robust servers like **Playwright**, **Git
 
 Hub**, or **Linear**, this could consume between 10,000 to 100,000 tokens before a single line of code was even written. This resulted in 'context pollution,' where the model would hallucinate or compact important guidelines to fit the tool definitions.
 
 ### The 10% Threshold and Tool Search
+
 To combat this, Anthropic has implemented an automatic **tool search** mechanism. If Claude Code detects that tool descriptions account for more than **10% of the total context window** (roughly 20,000 tokens in a 200k window), it stops loading them all at once. Instead, it uses a semantic search to fetch only the relevant tool definitions when the user's prompt triggers a specific need. This ensures that the primary context remains available for the actual task instructions and code logic.
 
 ### Community Feedback and Roadmap
+
 Industry experts like Simon Willison have highlighted that context pollution was a major barrier to adopting MCPs. The update has been widely praised by the developer community for solving the 'scaling pain' of running 10+ servers simultaneously. Based on user requests, version **2.1.9** will introduce an environment variable to allow users to force this tool-search behavior manually, regardless of whether the 10% limit has been reached.
 
 ### The Shift Toward Claude Code
+
 The update reflects a broader trend where Claude Code is becoming a comprehensive, self-contained development tool. With the release of **Opus 4.5** and internal improvements like **Plan Mode** and the 'ask user' tool, the platform is increasingly able to handle complex technical implementation without external workarounds. This rapid iteration cycle suggests that Claude Code is becoming the primary environment for AI-assisted development, potentially overshadowing tools like Cursor or VS Code extensions.
 
 ## Context

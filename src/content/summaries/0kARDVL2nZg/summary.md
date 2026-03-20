@@ -4,14 +4,11 @@ metadata:
   title: "How To Get Your First Users"
   description: "When you're starting out, it isn’t enough to just build a minimum viable product. You also need a minimum evolvable product - one that can adapt to the needs of those critical early customers.\ 
 
-
     In this episode of Main Function, YC General Partner Ankit Gupta offers an update to the classic MVP playbook. He’ll outline strategies for getting your first customers, the power of adaptability and how feedback from early users will ultimately shape the future of your product and your company.
-
 
     Apply to Y Combinator: https://www.ycombinator.com/apply
 
     Work at a startup: https://www.ycombinator.com/jobs
-
 
     Chapters:
 
@@ -50,6 +47,15 @@ ai:
   totalTokens: 2702
   processingTimeMs: 23293
 tools: []
+categories:
+  - "Business & Career"
+  - "Product & Design"
+tags:
+  - "product-strategy"
+  - "saas"
+  - "startup"
+  - "user-research"
+tagsNormalizedAt: "2026-03-01T21:19:30.350Z"
 ---
 
 ## Key Takeaways
@@ -67,18 +73,23 @@ To get your first users, focus on finding the right people, not convincing every
 Getting a new product off the ground hinges on finding the rare individuals willing to be your first users. Most people are not early adopters, so success depends on a targeted search for two key profiles: those who intrinsically enjoy trying new startups (like the example of 'Gustaf' from Airbnb) and those with such a pressing problem they'll try anything that might solve it.
 
 ### The Search Strategy
+
 This is a **search problem, not a persuasion problem**. Effective tactics include **targeted personal outreach** (like cold emails) over broad advertising. Crucially, **charge real money early**. Paying customers provide more valuable, critical feedback than free users, and early adopters are rarely price-sensitive. The initial goal is learning, not revenue.
 
 ### Building for Evolution
+
 Your starting point should be a **minimum evolvable product**—a simple core that can survive contact with early users and adapt rapidly based on their feedback. You must **launch early** to create a wide surface area for discovery and **experiment fast** on pricing, features, and onboarding without fearing churn from a small user base.
 
 ### Learning from Your First Users
+
 Study early users like an anthropologist. Understand their decision-making and why they trusted you. This feedback doesn't just improve the product; it **steers its fundamental evolution**. The product's mature form will be path-dependent on what these first users valued.
 
 ### The Path-Dependency of Product Evolution
+
 The Tesla Roadster case study illustrates this. Early adopters paid a premium for tech and acceleration in an impractical car. This early demand shaped the evolution of later mass-market models like the Model Y, which inherited those priorities (incredible acceleration) over others (plush comfort). Your starting users set the evolutionary trajectory.
 
 ### Implications for AI & Business Models
+
 This approach influences who to target first. In the AI era, consumer apps face challenges due to high compute costs and limited personal software budgets. This is why many founders initially target **prosumers, businesses, or professionals** (like doctors) who have higher willingness-to-pay, making them ideal early adopters to fund and guide the product's evolution.
 
 ## Context

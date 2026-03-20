@@ -4,13 +4,11 @@ metadata:
   title: "Libraries & tech stack I'm excited about (for 2026)"
   description: "It's a new year - time for a new tech stack! Well, not really. But there ARE a couple of libraries and technologies I'm currently using about which I'm really quite excited!
 
-
     Buildmygraphic: https://buildmygraphic.com/
 
     Modern Node.js Article: https://maximilian-schwarzmueller.com/articles/modern-nodejs-can-do-that
 
     Website: https://maximilian-schwarzmueller.com/
-
 
     Socials:
 
@@ -21,7 +19,6 @@ metadata:
     👉 Udemy: https://www.udemy.com/user/maximilian-schwarzmuller/
 
     👉 LinkedIn: https://www.linkedin.com/in/maximilian-schwarzmueller/
-
 
     Want to become a web developer or expand your web development knowledge?
 
@@ -88,6 +85,19 @@ tools:
     url: null
   - name: "Buildmygraphic"
     url: "https://buildmygraphic.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Web Development"
+tags:
+  - "ai-coding"
+  - "nextjs"
+  - "nodejs"
+  - "postgresql"
+  - "react"
+  - "tailwind"
+  - "typescript"
+tagsNormalizedAt: "2026-03-01T21:19:30.320Z"
 ---
 
 ## Key Takeaways
@@ -115,6 +125,7 @@ Script ecosystem with minimal boilerplate.
 In 2026, the technology landscape is heavily influenced by AI compatibility, yet developer experience and performance remain paramount. Maximilian Schwarzmüller outlines a stack that blends industry standards with emerging high-performance tools.
 
 ### The Foundational Stack
+
 While frameworks like Angular and Vue remain viable, the combination of **Type
 
 Script, React, and Tailwind CSS** has become the "AI favorite." Because AI models are trained extensively on these libraries, tools like **Cursor** produce much higher quality code within this ecosystem. Type
@@ -122,6 +133,7 @@ Script, React, and Tailwind CSS** has become the "AI favorite." Because AI model
 Script is particularly vital because its type system provides a feedback loop for AI, allowing it to verify if the code it generates is valid.
 
 ### Meta-Frameworks and Runtimes
+
 While **Next.js** remains a solid choice, **Tan
 
 Stack Start** is highlighted as a compelling alternative. It simplifies the development process by removing specific directives like 'use client' or 'use server,' resulting in faster development cycles. Complementing this is **Bun**, which serves as the default runtime and package manager due to its sheer speed and built-in features, such as the native S3 client and SQLite support. However, **Node.js** is also noted for its significant progress, including native Type
@@ -129,11 +141,13 @@ Stack Start** is highlighted as a compelling alternative. It simplifies the deve
 Script support, making it a strong contender for those who prefer more traditional environments.
 
 ### Modern Browser APIs and CSS
+
 Developers are encouraged to leverage native browser capabilities rather than reaching for external packages. Modern features like the **Popover API** have achieved broad browser support, reducing the need for heavy Java
 
 Script libraries. Max suggests "teaching" AI about these modern APIs by providing documentation in prompts, as many models default to older, more redundant code patterns.
 
 ### Databases, Auth, and Tooling
+
 For data persistence, **PostgreSQL** is the top choice for its extensibility (especially **pgvector** for RAG systems), while **SQLite** is championed as a production-ready, highly scalable solution for simpler deployments. **Better
 
 Auth** is recommended as the default authentication library for its ease of use. Finally, the move toward **agentic engineering** is represented by tools like **Open

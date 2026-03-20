@@ -35,6 +35,15 @@ tools:
     url: null
   - name: "Shopify"
     url: null
+categories:
+  - "Product & Design"
+tags:
+  - "accessibility"
+  - "design-systems"
+  - "ui"
+  - "user-research"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.374Z"
 ---
 
 ## Key Takeaways

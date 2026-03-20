@@ -1,0 +1,32 @@
+videoId: Hj02BHWq1B0
+title: "Azure DevOps Engineer Exam: Question 13"
+description: >-
+  For the AZ-400 exam, the secure way to handle sensitive data in GitHub Actions
+  is by using GitHub Secrets within the secrets context. Storing credentials in
+  Env files or public secrets is a major security risk because they can be
+  committed to the codebase or exposed in plain text. By storing values in the
+  repository settings and referencing them via ${{ secrets.SECRET_NAME }},
+  GitHub automatically applies masking to prevent these values from appearing in
+  logs or pull request outputs.  This ensures that even if a script tries to
+  print a password, it is redacted, maintaining a robust and auditable security
+  posture for your automated workflows.
+
+
+  #GitHubActions #DevOps #Security #AZ400 #CICD #SecretsManagement
+  #CloudSecurity #TechTips #KodeKloud"
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M3S
+publishedAt: 2026-03-13T13:33:45Z
+thumbnailUrl: https://i.ytimg.com/vi/Hj02BHWq1B0/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=Hj02BHWq1B0
+processedAt: 2026-03-13T17:38:29.983Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1636
+outputTokens: 525
+totalTokens: 2161
+processingTimeMs: 41393

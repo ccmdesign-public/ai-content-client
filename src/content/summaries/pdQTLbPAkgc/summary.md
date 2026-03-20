@@ -4,26 +4,21 @@ metadata:
   title: "Solo Building an AI Native Business: Viral Success and More Building (Week 2)"
   description: "Solo Building an AI Native Business: Viral Success and More Building (Week 2)
 
-
     My AI Video Course:
 
     https://www.theaivideocourse.com/
-
 
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
 
-
     Business Inquiries:
 
     kbfseo@gmail.com
-
 
     00:00 Intro
 
@@ -84,6 +79,18 @@ tools:
     url: null
   - name: "Qwen2-VL"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "embeddings"
+  - "indie-hacker"
+tagsNormalizedAt: "2026-03-01T21:19:30.347Z"
 ---
 
 ## Key Takeaways
@@ -105,6 +112,7 @@ In this update on building an AI-native business, the creator shares a transpare
 Tube Shorts channels. The standout success of the week was a new experimental Shorts channel that went viral instantly, gaining nearly 500,000 views and 1,500 subscribers in just 15 hours through an automated video pipeline.
 
 ### Building the Gmail Agent
+
 A significant portion of the session is dedicated to building a functional **Gmail Agent** using **Claude Code** and the **Model Context Protocol (MCP)**. This setup allows an AI agent to read, list, and send emails directly from the local environment. The process involves:
 
 - Enabling the **Gmail API** within the Google Cloud Platform (GCP) console.
@@ -118,9 +126,11 @@ A significant portion of the session is dedicated to building a functional **Gma
 Once configured, Claude Code successfully interacted with the Gmail server to fetch the latest emails and send a test message, proving that local MCP servers can handle complex personal tasks securely.
 
 ### Claude Co-work and Data Analysis
+
 The video also previews **Claude Co-work**, Anthropic’s new desktop application. Testing the tool with a large **Whoop fitness dataset** from Kaggle, the creator used the app to analyze 100,000 records of athlete data. By leveraging **Artifacts**, the tool generated a professional five-slide presentation highlighting key insights, such as the strain differences between HIIT and yoga. While the tool performed well, the creator noted that similar results could be achieved via the standard Claude Code terminal interface.
 
 ### Future Roadmap: Multimodal Embeddings
+
 Looking forward, the focus shifts to **Qwen2-VL**, a new multimodal embedding model. The goal is to build a searchable database of video clips where an AI agent can retrieve specific media based on a script or voiceover. By embedding images, screenshots, and video files into a vector database, the creator aims to create an automated video editing agent. This fits into a broader strategy of using AI to dominate the **Attention Economy**, creating a self-sustaining loop of content generation and product marketing.
 
 ## Context

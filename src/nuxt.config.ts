@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { existsSync, readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt/config'
@@ -21,25 +21,6 @@ try {
   }
 } catch {
   // Graceful fallback: tags not synced yet, skip prerender routes
-}
-
-const dsRootDir = resolve(currentDir, 'components/ds')
-
-let dsComponentDirs: string[] = []
-
-try {
-  const dsEntries = readdirSync(dsRootDir, { withFileTypes: true })
-  const hasRootComponents = dsEntries.some(entry => entry.isFile() && entry.name.endsWith('.vue'))
-  const subdirPaths = dsEntries
-    .filter(entry => entry.isDirectory())
-    .map(entry => resolve(dsRootDir, entry.name))
-
-  dsComponentDirs = [
-    ...(hasRootComponents ? [dsRootDir] : []),
-    ...subdirPaths
-  ]
-} catch {
-  dsComponentDirs = [dsRootDir]
 }
 
 export default defineNuxtConfig({
@@ -129,7 +110,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       failOnError: true,
-      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
+      routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
     }
   },
   // Route rules for hybrid rendering (prerender content, serverless API)
@@ -137,14 +118,15 @@ export default defineNuxtConfig({
     // Prerender all content pages at build time
     '/**': { prerender: true },
     // Server routes remain as serverless functions (not prerendered)
-    '/api/**': { prerender: false }
+    '/api/**': { prerender: false },
+    // Static assets - long cache
+    '/_nuxt/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } }
   },
   components: [
-    ...dsComponentDirs.map(path => ({
-      path,
-      pathPrefix: false,
-      prefix: 'ccm'
-    })),
+    {
+      path: resolve(currentDir, 'components/ui'),
+      pathPrefix: false
+    },
     {
       path: resolve(currentDir, 'components/ui'),
       pathPrefix: false

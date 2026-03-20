@@ -49,6 +49,16 @@ ai:
   totalTokens: 4651
   processingTimeMs: 22944
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "llm"
+  - "model-training"
+tagsNormalizedAt: "2026-03-01T21:19:30.331Z"
 ---
 
 ## Key Takeaways

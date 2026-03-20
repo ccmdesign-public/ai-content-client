@@ -130,6 +130,16 @@ tools:
     url: null
   - name: "Amazon CloudWatch"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
+tags:
+  - "architecture"
+  - "aws"
+  - "encryption"
+  - "monitoring"
+tagsNormalizedAt: "2026-03-01T21:19:30.335Z"
 ---
 
 ## Key Takeaways

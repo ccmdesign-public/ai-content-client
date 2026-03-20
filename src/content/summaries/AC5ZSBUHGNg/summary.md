@@ -49,6 +49,15 @@ tools:
     url: null
   - name: "AutoGen"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "llm"
+  - "model-training"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.330Z"
 ---
 
 ## Key Takeaways
@@ -76,6 +85,7 @@ Agent Zero solves this via **symbiotic competition**: Two agents initialized fro
 - **Automated Ground Truth**: Majority voting across multiple runs creates 'pseudo-labels' for reinforcement learning
 
 ### Implementation Blueprint
+
 1. Set up RL library (e.g., VRL) with two model instances
 2. Run problems with real-time code execution in Docker
 3. Score via consensus (e.g., 7/10 identical valid outputs)

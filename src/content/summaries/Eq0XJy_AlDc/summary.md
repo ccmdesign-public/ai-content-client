@@ -4,31 +4,23 @@ metadata:
   title: "Arvid Kahl’s SaaS is 98% Coded by Claude"
   description: "Trying something new on the channel!  This is episode #1 of a new series called 'Builder Stories' where I'm inviting fellow builders to show us how they build and tell the story of their transition to adopting AI.
 
-
     This first episode features Arvid Kahl, a SaaS founder of https://podscan.fm.  Arvid shows us his entire setup and how he actually uses Claude Code to build and deploy 98%+ of the code for every new feature he ships.
 
-
     Please bear with me on the video quality issues (still working out the kinks in my interview format!).  Upcoming episodes are better :)\ 
-
 
     👇 **Your Builder Briefing (free)**
 
     https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
 
-
     👇 **Join Builder Methods Pro**
 
     https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
 
-
     ▶️ Related videos:
-
 
     💬 Drop a comment with your questions and requests for upcoming videos!
 
-
     Chapters:
-
 
     0:00 Arvid Kahl's SaaS
 
@@ -77,6 +69,20 @@ tools:
     url: null
   - name: "GitHub Copilot"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "best-practices"
+  - "claude"
+  - "copilot"
+  - "indie-hacker"
+  - "saas"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.467Z"
 ---
 
 ## Key Takeaways
@@ -94,17 +100,21 @@ Arvid Kahl shares his workflow for maintaining a complex SaaS product where near
 ## Summary
 
 ### The AI-First Development Stack
+
 Arvid Kahl reveals how his podcast monitoring platform, **Podscan**, is almost entirely coded by **Claude**. While his primary IDE is **PHP Storm**, he utilizes **Claude Code** as an agentic partner. A central piece of his infrastructure is the **claw.md** file, which uses the **Oxto/Augster** system prompt library. This provides a "normalized" framework for AI behavior, forcing the agent into a rigorous workflow of phased implementation and autonomous verification.
 
 ### Video Walkthroughs as Context
+
 To solve the problem of AI not "seeing" the application, Arvid uses a **video-to-docs** workflow. He records himself walking through the app, narrating every button click and UI state as if onboarding a human employee. He then feeds the transcript to Claude to create comprehensive **Platform Documentation**. This documentation allows the AI to understand the global context of the product, ensuring that new features fit cohesively into the existing UI and logic.
 
 ### Combatting Comprehension Debt
+
 Arvid introduces the concept of **Comprehension Debt**, a form of technical debt where the developer’s mental model of the code drifts away from the actual implementation. Because an AI agent builds a temporary "theory" of the code to solve a task and then discards it, the human must re-synchronize by reviewing every diff. Arvid uses **Git
 
 Hub Copilot** to step through changes, ensuring he maintains a "unified theory" of the product. This review process is what allows him to maintain a codebase he didn't technically write.
 
 ### The Philosophy of Non-Interference
+
 Arvid argues that developers should avoid manual "hand-touching" of code during an agentic session. He treats the AI like a delegated developer, noting that manual edits can destroy the **internal integrity** of the agent's current task representation. Instead of manually fixing a small CSS error, he asks the AI to fix it. This ensures that the AI, which has a temporary but comprehensive view of all file dependencies, updates every instance of a variable or style across the entire application simultaneously.
 
 ## Context

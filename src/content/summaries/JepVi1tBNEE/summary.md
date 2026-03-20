@@ -4,7 +4,6 @@ metadata:
   title: "Introducing Agent Skills in VS Code"
   description: "Unlock the power of Agent Skills in VS Code! In this video, we break down what Agent Skills are, why they’re game‑changing for developers, and how to create your first skill in minutes.
 
-
     🔎 Chapters:
 
     00:00 Agent Skills in VS Code
@@ -15,16 +14,13 @@ metadata:
 
     05:07 Wrap
 
-
     🔗 Links:
 
     Agent Skills Docs: https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
     Agent Skills: https://agentskills.io
 
-
     🎙️ Featuring: James Montgemagno (@JamesMontemagno)
-
 
     📲 Follow VS Code:
 
@@ -37,7 +33,6 @@ metadata:
     * LinkedIn: https://www.linkedin.com/showcase/104107263
 
     * GitHub: https://github.com/microsoft/vscode
-
 
     #vscode #agentskills"
   channel: "Visual Studio Code"
@@ -70,6 +65,16 @@ tools:
     url: null
   - name: "Playwright"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "copilot"
+  - "vscode"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.510Z"
 ---
 
 ## Key Takeaways
@@ -91,9 +96,11 @@ Script)**, **images**, and **automation tools** that allow the agent to interact
 ## Summary
 
 ### Introduction to Agent Skills
+
 VS Code has introduced **Agent Skills**, a feature designed to make AI agents more specialized and efficient. While agents are naturally smart, skills provide them with a structured folder of instructions, scripts, and resources that load only when a specific task is identified. This reduces repetition and allows for the composition of complex, domain-specific workflows without cluttering the agent's global context.
 
 ### How Skills Work and Setup
+
 To begin using this feature, users must enable **Use Agent Skills** within their VS Code settings. Skills are organized within a dedicated skills folder. Each subfolder represents a unique skill (e.g., `PRD-writing` or `image-manipulation`). The core of any skill is a **skill.md** file, which uses **front matter** to define the skill's name and the specific triggers that prompt the agent to use it.
 
 Beyond simple text, skills can include:
@@ -109,9 +116,11 @@ Magick or Playwright.
 - **Documentation templates** to ensure consistent output formats.
 
 ### Progressive Loading vs. Custom Instructions
+
 A critical distinction is made between **Custom Instructions** and **Agent Skills**. Instructions are typically static coding standards applied across all sessions. In contrast, skills leverage **progressive loading**. The agent scans the available skills and only pulls the necessary data when the user’s prompt matches the skill's metadata. This keeps the agent's memory efficient while providing it with "action-oriented" capabilities.
 
 ### Practical Use Cases
+
 The video demonstrates several real-world applications for developers:
 1. **PRD Writing**: A workflow-based skill that guides the agent through context gathering, drafting, and validation stages.
 2. **Image Manipulation**: A skill that integrates with **Image

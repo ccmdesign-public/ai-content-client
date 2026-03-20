@@ -4,9 +4,7 @@ metadata:
   title: "The BEST OSI Model Explanation You'll Ever Watch (Networking Fundamentals)"
   description: "The OSI model explained like never before! 🚀
 
-
     Think of network packets like Russian nesting dolls 🪆 - each of the 7 layers wraps around the previous one as your HTTP request travels from browser to server.
-
 
     Here's the journey:
 
@@ -24,9 +22,7 @@ metadata:
 
     🔹 Layer 1: Physical signals
 
-
     Save this for later & follow for more networking content! 💡
-
 
     #osimodel #networking #systemdesign #computerscience #softwareengineering #networkengineer #webdevelopment #coding #programming #tcpip #http #cybersecurity #devops  #learntocode #softwaredeveloper #techtips #computernetworking #networksecurity #webservers  #developerlife #programminglife #kodekloud"
   channel: "KodeKloud"
@@ -51,6 +47,12 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "KodeKloud"
     url: null
+categories:
+  - "Programming"
+tags:
+  - "architecture"
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.409Z"
 ---
 
 ## Key Takeaways
@@ -68,11 +70,13 @@ The OSI model provides a structured framework for understanding network communic
 The video uses the analogy of wrapping a letter in envelopes to explain how the OSI model structures network communication into seven layers, tracing an HTTP request's journey from a browser to a web server.
 
 ### The Downward Journey: Encapsulation
+
 When you browse `example.com`, your browser creates an HTTP `GET` request at **Layer 7 (Application)**. This is the core data, like the letter's content. **Layer 6 (Presentation)** then handles formatting, compression, or encryption (like putting the letter in a lockbox). **Layer 5 (Session)** manages maintaining the ongoing conversation with the server.
 
 The networking layers then prepare the data for transport. **Layer 4 (Transport)**, using **TCP**, adds source and destination port numbers (e.g., 54321 to 443) and sequence numbers for reliable delivery. **Layer 3 (Network)** adds **IP routing** information, including your IP address and the server's IP address. **Layer 2 (Data Link)** adds **MAC addressing** for local network delivery. Finally, **Layer 1 (Physical)** converts everything into electrical signals or radio waves for transmission over cables or Wi-Fi.
 
 ### The Upward Journey: De-encapsulation
+
 Upon arrival at the web server, the process reverses. Each layer strips off its corresponding header, like unwrapping the nesting dolls:
 
 *   Layer 1 converts signals back to data.
@@ -90,6 +94,7 @@ Upon arrival at the web server, the process reverses. Each layer strips off its 
 *   Layer 7 processes the original HTTP request and sends the response back through the same seven-layer path.
 
 ### Practical Importance of the Layered Design
+
 This architecture allows different network devices and software to specialize. A Wi-Fi router primarily handles Layers 1-2, an ISP router handles Layer 3, and your browser handles Layers 4-7. This enables:
 
 *   **Interoperability:** Standards at each layer ensure components from different vendors work together.

@@ -4,23 +4,17 @@ metadata:
   title: "OpenCode just killed all vibe coding apps (it’s insane)"
   description: "Learn about the best AI Business models here - https://www.youtube.com/watch?v=Ta5g-OxjPO4
 
-
     Wanna learn how to code with AI? Go here: https://www.skool.com/new-society
-
 
     Follow me on Instagram - https://www.instagram.com/davidondrej1/
 
     Follow me on Twitter - https://x.com/DavidOndrej1
 
-
     Host your n8n agents on Hostinger: https://www.hostinger.com/david
-
 
     Subscribe if you're serious about AI.
 
-
     Build anything with Open Code, just watch
-
 
     timestamps:
 
@@ -99,6 +93,18 @@ tools:
     url: "https://www.hostinger.com/david"
   - name: "n8n"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "copilot"
+  - "gemini"
+  - "terminal"
+  - "vscode"
+tagsNormalizedAt: "2026-03-01T21:19:30.465Z"
 ---
 
 ## Key Takeaways
@@ -143,6 +149,7 @@ Hub**, allowing users to leverage their existing **ChatGPT Plus/Pro** or **Git
 Hub Copilot** subscriptions. This effectively democratizes access to high-tier coding agents without the high monthly costs typically associated with Claude Code's enterprise-tier plans.
 
 ### The Setup and User Interface Experience
+
 The installation process is streamlined via a single **curl command**, followed by a flexible login system. Ondrej demonstrates connecting to **Open
 
 Router**, which serves as a gateway to every major LLM on the market. The UI is praised for its "quality of life" features, such as the ability to see the **exact token count**, **context window percentage**, and **real-time costs** in the top-right corner of the terminal. 
@@ -150,6 +157,7 @@ Router**, which serves as a gateway to every major LLM on the market. The UI is 
 One of the standout features of the CLI is the **Plan vs. Build mode** toggle. By pressing Tab, users can switch between a read-only brainstorming phase and an autonomous execution phase. This helps prevent the agent from making unwanted changes to a codebase while still allowing for high-velocity "vibe coding." Additionally, the tool includes automatic clipboard copying for highlighted text and a selection of over 30 customizable themes, developed by engineers with deep roots in the **Neovim** community.
 
 ### One-Shot Builds: Games and Business Apps
+
 Ondrej conducts a series of "one-shot" experiments to test the capabilities of different models within the Open
 
 Code environment:
@@ -165,6 +173,7 @@ Script and Three.js** from a single prompt. The agent creates the directory stru
 Code's ability to handle complex state management and canvas rendering efficiently.
 
 ### Strategic Comparisons and Advanced Context
+
 The video provides a deep dive into how Open
 
 Code compares to established tools like **Claude Code**, **Cursor**, and **Windsurf**. While Cursor is a full IDE, Open
@@ -180,6 +189,7 @@ Ondrej also introduces **Open
 Code Zen**, a gateway service that offers usage-based pricing with no markup. This is an alternative for users who do not have existing subscriptions but want access to premium models like **Big Pickle** (a fine-tuned GLM model) or specialized fast models from **XAI (Grok)**. 
 
 ### The Limitations and the Future of AI Agents
+
 Despite the successes, the video does not shy away from the current limitations of AI agents. In the fifth build—a recursive image enhancer using **Grok 4.1 Fast**—the agent struggles with logic and API formatting, leading to a failure. Ondrej uses this to illustrate that while "vibe coding" is powerful, developer expertise is still required to troubleshoot complex integrations and API documentation. 
 
 He concludes by advising developers to "upskill exponentially" alongside the AI. The goal should not be to let the AI do everything, but to use Open

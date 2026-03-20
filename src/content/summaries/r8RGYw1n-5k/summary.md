@@ -4,18 +4,13 @@ metadata:
   title: "What Everyone Missed About Gemini 3 w/ Salim, Dave & Alexander Wissner-Gross | EP#209"
   description: "If you want us to build a MOONSHOT Summit, email my team: moonshots@diamandis.com\ 
 
-
     Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends \ 
-
 
     Salim Ismail is the founder of OpenExO
 
-
     Dave Blundin is the founder & GP of Link Ventures
 
-
     Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified
-
 
     Chapters:
 
@@ -51,23 +46,17 @@ metadata:
 
     01:14:36 - The Path to Universal Happiness with AI
 
-
     –
 
     My companies:
 
-
     Apply to Dave's and my new fund: https://qr.diamandis.com/linkventureslanding \ 
-
 
     Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy\ 
 
-
     Join Salim's Workshop to build your ExO https://openexo.com/10x-shift?video=PeterD062625
 
-
     Grab dinner with MOONSHOT listeners: https://moonshots.dnnr.io/
-
 
     _
 
@@ -75,20 +64,17 @@ metadata:
 
     X: https://qr.diamandis.com/twitter\ 
 
-
     Connect with Dave:
 
     X: https://x.com/davidblundin\ 
 
     LinkedIn: https://www.linkedin.com/in/david-blundin/\ 
 
-
     Connect with Salim:
 
     X: https://x.com/salimismail\ 
 
     Join Salim's Workshop to build your ExO https://openexo.com/10x-shift?video=PeterD062625
-
 
     Connect with Alex
 
@@ -100,14 +86,11 @@ metadata:
 
     Email: alexwg@alexwg.org
 
-
     Listen to MOONSHOTS:
-
 
     Apple: https://qr.diamandis.com/applepodcast\ 
 
     Spotify: https://qr.diamandis.com/spotifypodcast\ 
-
 
     –
 
@@ -152,6 +135,16 @@ tools:
     url: null
   - name: "Blitzy"
     url: "https://qr.diamandis.com/blitzy"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "gemini"
+  - "llm"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.336Z"
 ---
 
 ## Key Takeaways
@@ -173,18 +166,23 @@ The panel analyzes the massive shift triggered by Google's Gemini 3, arguing it 
 ## Summary
 
 ### The Step-Function Leap of Gemini 3
+
 The release of Gemini 3 is framed as a pivotal moment in human history, moving beyond incremental updates to a **step-function change** in reasoning and multimodality. Josh Woodward of Google Labs highlights that Gemini 3 is not just about faster responses; it introduces **Agentic Mode**, which allows the AI to plan, execute multi-step tasks, and generate custom User Interfaces (UI) on the fly. Alexander Wissner-Gross (AWG) describes this as a 'big model smell,' where the AI possesses emergent capabilities—such as generating a playable 3D voxel environment from a single photo—that smaller models simply cannot replicate. This shift suggests that AI is moving from being an assistant to becoming a super-intelligent peer at the beck and call of every user.
 
 ### AI as a First-Class Economic Actor
+
 A central highlight of the discussion is the **Vending Bench** benchmark. In this simulation, AI agents are given $500 and tasked with managing a vending machine business, including inventory, email communication with vendors, and financial management. Gemini 3 performed exceptionally, generating **3,000% more profit** than GPT-5 or Claude. This result signals the arrival of AI agents capable of acting as autonomous entrepreneurs. The panel discusses the implications of an 'AI-mediated economy,' where billions of autonomous agents could run businesses with zero human employees, potentially creating a trillion-dollar non-human economy.
 
 ### The Democratization of Coding and Creation
+
 Software engineering is identified as the first high-productivity labor category to be fully automated. With the introduction of Google's **Anti-gravity** and the continued rise of **Cursor**, the barrier to entry for complex software development has vanished. AWG demonstrated this by 'one-shotting' a visually stunning **Cyberpunk FPS game** with a single 140-character prompt. This democratization means that future career paths, such as 'influencer' or 'entrepreneur,' will rely on a person's ability to prompt and direct AI agents rather than their technical ability to write code or manage production crews.
 
 ### Physical AI and Industrial Transformation
+
 The conversation shifts to **Physical AI**, specifically Jeff Bezos’s $6.2 billion investment in **Project Prometheus**. Unlike traditional LLMs, these models are trained on physical world data, laws of physics, and engineering constraints. This move transitions AI from the 'office floor' to the 'factory floor,' enabling autonomous manufacturing and complex robotics. This is seen as a crucial step for heavy industry, space exploration, and large-scale infrastructure projects. The panel suggests that building foundation models for specific physical tasks (like robotics or biotech) will be the next major frontier after AGI is solved.
 
 ### Safety, Biosecurity, and the Wealth Gap
+
 As AI capabilities scale, so do the risks of bioweapon creation and cyberattacks. The panel introduces the concept of **Defensive Co-scaling**, funded by ventures like **Red Queen Bio**. The goal is to ensure that AI-driven security and biosensors scale at the same rate as the generative capabilities of the models. Finally, the discussion addresses the 'abundance' thesis. Peter Diamandis argues that while wealth concentration is a concern, the focus should be on **lifting the bottom of humanity**. By hyper-deflating the costs of housing, transportation, and healthcare through AI and robotics, society can reach a point where the 'surfs' of today live better than the kings of yesterday. AWG notes that the core metric to watch is the **dollar cost per unit of intelligence**, which continues to plummet, potentially making essentials too cheap to meter within the next decade.
 
 ## Context

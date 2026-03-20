@@ -64,6 +64,19 @@ tools:
     url: null
   - name: "Final Cut"
     url: null
+categories:
+  - "Business & Career"
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - "figma"
+  - "indie-hacker"
+  - "product-strategy"
+  - "tailwind"
+  - "ui"
+  - "user-research"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.418Z"
 ---
 
 ## Key Takeaways

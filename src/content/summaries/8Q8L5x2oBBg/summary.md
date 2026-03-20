@@ -12,46 +12,35 @@ metadata:
 
     Deepseek v4 is claimed to be better at coding than all Western models.
 
-
     Cowork: Claude Code for the rest of your work
 
     https://claude.com/blog/cowork-research-preview
-
 
     Joint Statement: Apple and Google have entered into a multi-year collaboration
 
     https://x.com/NewsFromGoogle/status/2010760810751017017
 
-
     Deepseek V4
 
     https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?rc=pplyci
-
 
     DeepSeek Founder Fund Surge
 
     https://www.bloomberg.com/news/articles/2026-01-12/deepseek-founder-liang-s-funds-surge-57-as-china-quants-boom
 
-
     Hearing fresh detail on Openai \"To-go\" hardware project from last report. Now confirmed it is a special audio product to replace Airpod, internal code name is \"Sweetpea\"
 
     https://x.com/zhihuipikachu/status/2010745618734759946
-
 
     When I created Claude Code as a side project back in September 2024...
 
     https://x.com/bcherny/status/2004887829252317325
 
-
-
     I've never felt this much behind as a programmer.
 
     https://x.com/karpathy/status/2004607146781278521
 
-
-
     The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
-
 
     00:00 AI news
 
@@ -65,8 +54,6 @@ metadata:
 
     28:48 OpenAI's Product Leak
 
-
-
     ______________________________________________
 
     My Links 🔗
@@ -75,20 +62,15 @@ metadata:
 
     ➡️ AI Newsletter: https://natural20.beehiiv.com/subscribe
 
-
     Want to work with me?
 
     Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
-
 
     Check out my AI Podcast where me and Dylan interview AI experts:
 
     https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
 
     ______________________________________________
-
-
-
 
     #ai #openai #llm"
   channel: "Wes Roth"
@@ -143,6 +125,15 @@ tools:
     url: null
   - name: "Gumdrop"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.298Z"
 ---
 
 ## Key Takeaways
@@ -164,6 +155,7 @@ Seek V4 Leaks:** A new Chinese model is rumored to be outperforming Western riva
 ## Summary
 
 ### The Evolution of Claude: From Code to Co-work
+
 The video begins with the major announcement of **Co-work**, which Wes Roth describes as "Claude Code for the rest of us." Previously, **Claude Code** was a CLI-based tool primarily used by software engineers for "vibe coding"—a process where the AI writes the code and the human simply directs the intent. Figures like Andrej Karpathy and Boris Chou (the creator of Claude Code) have noted that this technology is moving so fast that even top engineers feel they are falling behind. **Co-work** attempts to bridge this gap by offering a user interface for non-technical tasks. 
 
 Currently available as a research preview for **Max subscribers on macOS**, Co-work allows Claude to read, edit, and create files within a designated folder. It can take a pile of screenshots and turn them into a spreadsheet or draft documents from scattered notes. Critically, it integrates with the **Model Context Protocol (MCP)** and Chrome, enabling it to surf the web and use third-party connectors (like Slack, Hub
@@ -171,11 +163,13 @@ Currently available as a research preview for **Max subscribers on macOS**, Co-w
 Spot, and Zapier) to execute complex workflows. Roth warns that while this is a leap forward, it opens new risks for **prompt injection** attacks, where malicious websites could potentially trick an agent into performing unauthorized actions on a user's computer.
 
 ### Google and the Agentic Era of Shopping
+
 Google is preparing for a future where AI agents, rather than humans, do the shopping. Roth details the launch of the **Universal Commerce Protocol (UCP)**, co-developed with **Shopify, Etsy, Wayfair, Target, and Walmart**. This protocol allows agents to interact with storefronts to find the best prices and product specifications (like weight or size) directly. This builds upon previous layers like **AP2 (Agent Payments Protocol)**, which facilitates frictionless micro-payments using blockchain technology.
 
 Roth envisions an **agent-to-agent economy** where your personal AI assistant communicates with a merchant's AI assistant to handle logistics, payments, and even weather-based planning for events. For example, if you are planning a party, your agent might pay a fraction of a cent to a weather-predicting agent to determine the best date. This hyper-personalized, frictionless experience could potentially dismantle the traditional **online advertising industry**, as agents will likely bypass ads and pop-ups to find raw data and the best deals.
 
 ### Apple, Google, and the Competitive Landscape
+
 In a surprising industry shift, Apple and Google have entered a multi-year collaboration to use **Gemini models** as the foundation for future **Apple Intelligence** features, including a more personalized Siri. Roth notes that this effectively turns Google into a primary supplier for the Apple ecosystem, a move Elon Musk has criticized as an "unreasonable concentration of power." This partnership suggests that even hardware giants like Apple recognize the difficulty of keeping pace with the specialized AI research coming out of Google and Anthropic.
 
 Meanwhile, leaks regarding **Deep
@@ -185,6 +179,7 @@ Seek V4** suggest that Western dominance in coding models is being challenged. D
 Seek’s upcoming model reportedly beats **GPT-5.2 and Claude Opus 4.5** in internal coding benchmarks, particularly in handling massive codebases and long-context prompts. Roth suggests the release might coincide with the Chinese New Year (February 17th), highlighting the global nature of the AI arms race.
 
 ### OpenAI’s Hardware Play: Sweet Pea and Gumdrop
+
 Finally, the video covers significant leaks regarding OpenAI’s secret hardware projects led by **Jony Ive**. The primary device, code-named **'Sweet Pea'**, is described as a high-end, metal wearable resembling an earbud that rests behind the ear. Unlike existing accessories, its "bill of materials" is rumored to be closer to a $1,000 smartphone, suggesting a premium device packed with sensors and high-resolution capabilities. A second device, **'Gumdrop'**, is believed to be an AI-powered pen with audio and video recording features. OpenAI is reportedly aiming for a **September 2026** release with an ambitious target of 40-50 million units, signaling their intent to move beyond software into a physical AI presence that competes directly with the i
 
 Phone and Air

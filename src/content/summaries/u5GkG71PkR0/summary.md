@@ -4,9 +4,7 @@ metadata:
   title: "The Claude Code Feature Senior Engineers KEEP MISSING"
   description: "If your agents can't VALIDATE their own work, you're wasting your most valuable engineering resource: TIME.
 
-
     Specialized self-validating agents are HERE, and most engineers have completely missed this game-changing release from Claude Code.
-
 
     🎥 VIDEO REFERENCES
 
@@ -22,18 +20,13 @@ metadata:
 
     • Custom Slash Command Hooks: https://code.claude.com/docs/en/slash-commands#define-hooks-for-commands
 
-
     🚀 In this video, we break down the new most powerful feature hiding in Claude Code's latest release: hooks in skills, subagents, and custom slash commands. This isn't just another update - this is the key to building specialized self-validating agents that you can actually TRUST. Learn how to embed deterministic validation directly into your agentic workflows and watch your engineering confidence skyrocket.
-
 
     🛠️ We walk through building a CSV edit agent from scratch, showing you exactly how to implement post-tool use hooks that validate work in real-time. Watch as our agent automatically detects and FIXES a broken CSV file without any manual intervention. This is what specialized self-validation looks like in action - your agents catching their own mistakes before you ever have to.
 
-
     💡 The core four - context, model, prompt, tools - is all you need to understand. Every abstraction, every framework, every agent pattern boils down to these fundamentals. When you master hooks in Claude Code, you're adding a deterministic layer of trust that transforms how you work with AI coding assistants. Focused agents that do one thing extraordinarily well will ALWAYS outperform unfocused agents trying to do everything.
 
-
     🔥 Key takeaways from this deep dive:
-
 
     Hooks in Skills: Embed self-validation directly into your specialized skills for guaranteed quality
 
@@ -45,15 +38,11 @@ metadata:
 
     Self-Validation: The difference between agents you hope work and agents you KNOW work
 
-
     ⚡ Stop vibe coding and start building agents that validate their own work. The engineers who master specialized hooks will build systems that scale to tens, hundreds, thousands, and millions of runs with consistent, reliable results. This is agentic coding at its finest.
-
 
     🌟 Whether you're building AI coding assistants, financial processors, or any agentic workflow, understanding Claude Code hooks is essential. Don't delegate learning to your agents - read the documentation, understand the patterns, and teach your agents to engineer like you would.
 
-
     Stay focused and keep building.
-
 
     📖 Chapters
 
@@ -64,7 +53,6 @@ metadata:
     13:23 Subagent & Skill Hooks
 
     22:34 Finance Review Agent Pipeline
-
 
     #claudecode #agenticcoding #aicoding"
   channel: "IndyDevDan"
@@ -99,6 +87,18 @@ tools:
     url: null
   - name: "Astral UV"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "python"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.509Z"
 ---
 
 ## Key Takeaways
@@ -118,6 +118,7 @@ Claude Code has introduced localized hooks that enable engineers to build trust 
 The video highlights a transformative update to **Claude Code**: the ability to embed specialized hooks directly into prompts, sub-agents, and skills. Traditionally, hooks were global settings, but this release allows for **localized self-validation**, where an agent can run deterministic scripts to verify its own work in real-time. 
 
 ### Building the Self-Validating Agent
+
 Indy
 
 Dev
@@ -125,12 +126,15 @@ Dev
 Dan demonstrates how to create a `CSVedit` command using an **Agentic Prompt Template (AGP)**. By including hook metadata in the file's front matter, he configures a `post-tool-use` script. This script runs a **Python validator** every time the agent attempts to write or edit a CSV file. If the validator finds an error—such as a malformed quote—it feeds the specific error message back to the agent, creating a **closed-loop system** that forces the agent to self-correct before the task is considered complete.
 
 ### Scaling with Sub-Agents and Parallelism
+
 The same logic applies to sub-agents. By wrapping specialized logic into sub-agents, engineers can achieve high levels of **parallelization**. For example, the video shows four separate agents editing different financial CSV files simultaneously. Because each agent has its own local validation hook, the user can trust that every file was processed correctly without manual oversight. This transition from manual code reviews to **agentic system architecture** is what the author defines as the next step for senior engineers.
 
 ### The Danger of "Vibe Coding"
+
 A significant portion of the video is a warning against **vibe coding**—the practice of copying and pasting prompts without reading the documentation or understanding the underlying mechanics. The author stresses that true engineering requires knowing exactly what your agents are doing. To avoid the "self-deprecation process" of losing skills, engineers should use these new features to build systems they understand deeply rather than outsourcing the entire learning process to the AI model. 
 
 ### The "Core 4" Framework
+
 Ultimately, the video argues that all agentic platforms eventually converge on the **Core 4**: Context, Model, Prompt, and Tools. The recent merging of slash commands and skills in Claude Code validates this theory. By mastering these four elements and adding **deterministic validation** via hooks, engineers can move away from application-level work and toward building the autonomous systems that run the applications.
 
 ## Context

@@ -85,6 +85,18 @@ tools:
     url: null
   - name: "Better Stack"
     url: "https://betterstack.com/"
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "vercel"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.348Z"
 ---
 
 ## Key Takeaways

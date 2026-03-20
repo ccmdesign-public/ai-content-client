@@ -1,0 +1,2339 @@
+{
+  "videoId": "UabBYexBD4k",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 4.23,
+      "duration": 0.009999999999999787,
+      "text": "There's a fundamental truth about LLMs,"
+    },
+    {
+      "start": 4.24,
+      "duration": 3.99,
+      "text": "There's a fundamental truth about LLMs, large language models. They are frozen"
+    },
+    {
+      "start": 8.23,
+      "duration": 0.009999999999999787,
+      "text": "large language models. They are frozen"
+    },
+    {
+      "start": 8.24,
+      "duration": 3.59,
+      "text": "large language models. They are frozen in time. They know everything about our"
+    },
+    {
+      "start": 11.83,
+      "duration": 0.009999999999999787,
+      "text": "in time. They know everything about our"
+    },
+    {
+      "start": 11.84,
+      "duration": 2.7089999999999996,
+      "text": "in time. They know everything about our world up until their training cutoff"
+    },
+    {
+      "start": 14.549,
+      "duration": 0.009999999999999787,
+      "text": "world up until their training cutoff"
+    },
+    {
+      "start": 14.559,
+      "duration": 2.231,
+      "text": "world up until their training cutoff date and absolutely nothing about what"
+    },
+    {
+      "start": 16.79,
+      "duration": 0.010000000000001563,
+      "text": "date and absolutely nothing about what"
+    },
+    {
+      "start": 16.8,
+      "duration": 2.4689999999999976,
+      "text": "date and absolutely nothing about what happened 5 minutes ago. Nor do they know"
+    },
+    {
+      "start": 19.269,
+      "duration": 0.010000000000001563,
+      "text": "happened 5 minutes ago. Nor do they know"
+    },
+    {
+      "start": 19.279,
+      "duration": 2.6310000000000002,
+      "text": "happened 5 minutes ago. Nor do they know anything about your private data, your"
+    },
+    {
+      "start": 21.91,
+      "duration": 0.010000000000001563,
+      "text": "anything about your private data, your"
+    },
+    {
+      "start": 21.92,
+      "duration": 1.5889999999999986,
+      "text": "anything about your private data, your internal wiks, your proprietary"
+    },
+    {
+      "start": 23.509,
+      "duration": 0.00999999999999801,
+      "text": "internal wiks, your proprietary"
+    },
+    {
+      "start": 23.519,
+      "duration": 3.0310000000000024,
+      "text": "internal wiks, your proprietary codebase. And if we do want an LLM to"
+    },
+    {
+      "start": 26.55,
+      "duration": 0.00999999999999801,
+      "text": "codebase. And if we do want an LLM to"
+    },
+    {
+      "start": 26.56,
+      "duration": 2.469000000000001,
+      "text": "codebase. And if we do want an LLM to know any of that stuff, well, we have to"
+    },
+    {
+      "start": 29.029,
+      "duration": 0.010000000000001563,
+      "text": "know any of that stuff, well, we have to"
+    },
+    {
+      "start": 29.039,
+      "duration": 3.9110000000000014,
+      "text": "know any of that stuff, well, we have to solve the problem of context injection."
+    },
+    {
+      "start": 32.95,
+      "duration": 0.00999999999999801,
+      "text": "solve the problem of context injection."
+    },
+    {
+      "start": 32.96,
+      "duration": 3.030000000000001,
+      "text": "solve the problem of context injection. How do we get the right data into the"
+    },
+    {
+      "start": 35.99,
+      "duration": 0.00999999999999801,
+      "text": "How do we get the right data into the"
+    },
+    {
+      "start": 36,
+      "duration": 3.030000000000001,
+      "text": "How do we get the right data into the model at the right time? And there have"
+    },
+    {
+      "start": 39.03,
+      "duration": 0.00999999999999801,
+      "text": "model at the right time? And there have"
+    },
+    {
+      "start": 39.04,
+      "duration": 2.6300000000000026,
+      "text": "model at the right time? And there have been two very different ways to handle"
+    },
+    {
+      "start": 41.67,
+      "duration": 0.00999999999999801,
+      "text": "been two very different ways to handle"
+    },
+    {
+      "start": 41.68,
+      "duration": 2.5489999999999995,
+      "text": "been two very different ways to handle this. Now, the first is really what we"
+    },
+    {
+      "start": 44.229,
+      "duration": 0.00999999999999801,
+      "text": "this. Now, the first is really what we"
+    },
+    {
+      "start": 44.239,
+      "duration": 2.6300000000000026,
+      "text": "this. Now, the first is really what we can think of as the engineering"
+    },
+    {
+      "start": 46.869,
+      "duration": 0.00999999999999801,
+      "text": "can think of as the engineering"
+    },
+    {
+      "start": 46.879,
+      "duration": 3.8300000000000054,
+      "text": "can think of as the engineering approach. It's rag retrieval augmented"
+    },
+    {
+      "start": 50.709,
+      "duration": 0.00999999999999801,
+      "text": "approach. It's rag retrieval augmented"
+    },
+    {
+      "start": 50.719,
+      "duration": 4.551000000000002,
+      "text": "approach. It's rag retrieval augmented generation. So here we've got an LLM and"
+    },
+    {
+      "start": 55.27,
+      "duration": 0.00999999999999801,
+      "text": "generation. So here we've got an LLM and"
+    },
+    {
+      "start": 55.28,
+      "duration": 3.908999999999999,
+      "text": "generation. So here we've got an LLM and we've also got an input prompt from the"
+    },
+    {
+      "start": 59.189,
+      "duration": 0.00999999999999801,
+      "text": "we've also got an input prompt from the"
+    },
+    {
+      "start": 59.199,
+      "duration": 3.591000000000001,
+      "text": "we've also got an input prompt from the user. Now ahead of time we take some of"
+    },
+    {
+      "start": 62.79,
+      "duration": 0.00999999999999801,
+      "text": "user. Now ahead of time we take some of"
+    },
+    {
+      "start": 62.8,
+      "duration": 1.9890000000000043,
+      "text": "user. Now ahead of time we take some of the documents that we want to give to"
+    },
+    {
+      "start": 64.789,
+      "duration": 0.010000000000005116,
+      "text": "the documents that we want to give to"
+    },
+    {
+      "start": 64.799,
+      "duration": 3.590999999999994,
+      "text": "the documents that we want to give to this LLM. So these are documents that"
+    },
+    {
+      "start": 68.39,
+      "duration": 0.010000000000005116,
+      "text": "this LLM. So these are documents that"
+    },
+    {
+      "start": 68.4,
+      "duration": 3.8299999999999983,
+      "text": "this LLM. So these are documents that could be PDFs or code files or entire"
+    },
+    {
+      "start": 72.23,
+      "duration": 0.009999999999990905,
+      "text": "could be PDFs or code files or entire"
+    },
+    {
+      "start": 72.24,
+      "duration": 3.030000000000001,
+      "text": "could be PDFs or code files or entire books and we chunk them. We break them"
+    },
+    {
+      "start": 75.27,
+      "duration": 0.010000000000005116,
+      "text": "books and we chunk them. We break them"
+    },
+    {
+      "start": 75.28,
+      "duration": 4.6299999999999955,
+      "text": "books and we chunk them. We break them up into smaller chunks and we pass them"
+    },
+    {
+      "start": 79.91,
+      "duration": 0.010000000000005116,
+      "text": "up into smaller chunks and we pass them"
+    },
+    {
+      "start": 79.92,
+      "duration": 4.228999999999999,
+      "text": "up into smaller chunks and we pass them through to an embedding model and the"
+    },
+    {
+      "start": 84.149,
+      "duration": 0.010000000000005116,
+      "text": "through to an embedding model and the"
+    },
+    {
+      "start": 84.159,
+      "duration": 2.870999999999995,
+      "text": "through to an embedding model and the embedding model takes those chunks and"
+    },
+    {
+      "start": 87.03,
+      "duration": 0.010000000000005116,
+      "text": "embedding model takes those chunks and"
+    },
+    {
+      "start": 87.04,
+      "duration": 4.309999999999988,
+      "text": "embedding model takes those chunks and it turns them into vectors and those"
+    },
+    {
+      "start": 91.35,
+      "duration": 0.010000000000005116,
+      "text": "it turns them into vectors and those"
+    },
+    {
+      "start": 91.36,
+      "duration": 4.230000000000004,
+      "text": "it turns them into vectors and those vectors are then stored in a dedicated"
+    },
+    {
+      "start": 95.59,
+      "duration": 0.009999999999990905,
+      "text": "vectors are then stored in a dedicated"
+    },
+    {
+      "start": 95.6,
+      "duration": 4.710000000000008,
+      "text": "vectors are then stored in a dedicated vector database. Now when a user asks a"
+    },
+    {
+      "start": 100.31,
+      "duration": 0.009999999999990905,
+      "text": "vector database. Now when a user asks a"
+    },
+    {
+      "start": 100.32,
+      "duration": 2.8700000000000045,
+      "text": "vector database. Now when a user asks a question, it performs"
+    },
+    {
+      "start": 103.19,
+      "duration": 0.010000000000005116,
+      "text": "question, it performs"
+    },
+    {
+      "start": 103.2,
+      "duration": 3.188999999999993,
+      "text": "question, it performs a semantic search to retrieve the most"
+    },
+    {
+      "start": 106.389,
+      "duration": 0.010000000000005116,
+      "text": "a semantic search to retrieve the most"
+    },
+    {
+      "start": 106.399,
+      "duration": 2.9509999999999934,
+      "text": "a semantic search to retrieve the most relevant chunks and then inject them"
+    },
+    {
+      "start": 109.35,
+      "duration": 0.010000000000005116,
+      "text": "relevant chunks and then inject them"
+    },
+    {
+      "start": 109.36,
+      "duration": 2.3100000000000023,
+      "text": "relevant chunks and then inject them into the context window. So now the"
+    },
+    {
+      "start": 111.67,
+      "duration": 0.010000000000005116,
+      "text": "into the context window. So now the"
+    },
+    {
+      "start": 111.68,
+      "duration": 3.1899999999999977,
+      "text": "into the context window. So now the context window has the user prompt, but"
+    },
+    {
+      "start": 114.87,
+      "duration": 0.009999999999990905,
+      "text": "context window has the user prompt, but"
+    },
+    {
+      "start": 114.88,
+      "duration": 3.3500000000000085,
+      "text": "context window has the user prompt, but it also has all of these chunks that we"
+    },
+    {
+      "start": 118.23,
+      "duration": 0.009999999999990905,
+      "text": "it also has all of these chunks that we"
+    },
+    {
+      "start": 118.24,
+      "duration": 2.950000000000003,
+      "text": "it also has all of these chunks that we have taken from the vector database and"
+    },
+    {
+      "start": 121.19,
+      "duration": 0.010000000000005116,
+      "text": "have taken from the vector database and"
+    },
+    {
+      "start": 121.2,
+      "duration": 1.9089999999999918,
+      "text": "have taken from the vector database and together"
+    },
+    {
+      "start": 123.109,
+      "duration": 0.010000000000005116,
+      "text": "together"
+    },
+    {
+      "start": 123.119,
+      "duration": 3.030000000000001,
+      "text": "together this forms the context window. Now this"
+    },
+    {
+      "start": 126.149,
+      "duration": 0.010000000000005116,
+      "text": "this forms the context window. Now this"
+    },
+    {
+      "start": 126.159,
+      "duration": 3.4299999999999926,
+      "text": "this forms the context window. Now this works but it does rely on something. It"
+    },
+    {
+      "start": 129.589,
+      "duration": 0.009999999999990905,
+      "text": "works but it does rely on something. It"
+    },
+    {
+      "start": 129.599,
+      "duration": 1.6710000000000207,
+      "text": "works but it does rely on something. It relies on the hope that your retrieval"
+    },
+    {
+      "start": 131.27,
+      "duration": 0.009999999999990905,
+      "text": "relies on the hope that your retrieval"
+    },
+    {
+      "start": 131.28,
+      "duration": 2.3089999999999975,
+      "text": "relies on the hope that your retrieval logic actually found the right"
+    },
+    {
+      "start": 133.589,
+      "duration": 0.009999999999990905,
+      "text": "logic actually found the right"
+    },
+    {
+      "start": 133.599,
+      "duration": 2.1510000000000105,
+      "text": "logic actually found the right information in the vector database. Now"
+    },
+    {
+      "start": 135.75,
+      "duration": 0.009999999999990905,
+      "text": "information in the vector database. Now"
+    },
+    {
+      "start": 135.76,
+      "duration": 2.230000000000018,
+      "text": "information in the vector database. Now the the second approach is really a bit"
+    },
+    {
+      "start": 137.99,
+      "duration": 0.009999999999990905,
+      "text": "the the second approach is really a bit"
+    },
+    {
+      "start": 138,
+      "duration": 3.8300000000000125,
+      "text": "the the second approach is really a bit more of a brute force approach and that"
+    },
+    {
+      "start": 141.83,
+      "duration": 0.009999999999990905,
+      "text": "more of a brute force approach and that"
+    },
+    {
+      "start": 141.84,
+      "duration": 3.430000000000007,
+      "text": "more of a brute force approach and that one is called long"
+    },
+    {
+      "start": 145.27,
+      "duration": 0.009999999999990905,
+      "text": "one is called long"
+    },
+    {
+      "start": 145.28,
+      "duration": 2.8700000000000045,
+      "text": "one is called long context. Now this is really the model"
+    },
+    {
+      "start": 148.15,
+      "duration": 0.009999999999990905,
+      "text": "context. Now this is really the model"
+    },
+    {
+      "start": 148.16,
+      "duration": 2.390000000000015,
+      "text": "context. Now this is really the model native solution because you skip the"
+    },
+    {
+      "start": 150.55,
+      "duration": 0.009999999999990905,
+      "text": "native solution because you skip the"
+    },
+    {
+      "start": 150.56,
+      "duration": 1.990000000000009,
+      "text": "native solution because you skip the database here and you skip the embedding"
+    },
+    {
+      "start": 152.55,
+      "duration": 0.009999999999990905,
+      "text": "database here and you skip the embedding"
+    },
+    {
+      "start": 152.56,
+      "duration": 1.990000000000009,
+      "text": "database here and you skip the embedding model. All you do is you take your"
+    },
+    {
+      "start": 154.55,
+      "duration": 0.009999999999990905,
+      "text": "model. All you do is you take your"
+    },
+    {
+      "start": 154.56,
+      "duration": 3.5900000000000034,
+      "text": "model. All you do is you take your documents and you just well you put them"
+    },
+    {
+      "start": 158.15,
+      "duration": 0.009999999999990905,
+      "text": "documents and you just well you put them"
+    },
+    {
+      "start": 158.16,
+      "duration": 2.7890000000000157,
+      "text": "documents and you just well you put them straight into the context window and"
+    },
+    {
+      "start": 160.949,
+      "duration": 0.009999999999990905,
+      "text": "straight into the context window and"
+    },
+    {
+      "start": 160.959,
+      "duration": 1.8309999999999889,
+      "text": "straight into the context window and then you let the model's attention"
+    },
+    {
+      "start": 162.79,
+      "duration": 0.010000000000019327,
+      "text": "then you let the model's attention"
+    },
+    {
+      "start": 162.8,
+      "duration": 2.149000000000001,
+      "text": "then you let the model's attention mechanism actually do the heavy lifting"
+    },
+    {
+      "start": 164.949,
+      "duration": 0.009999999999990905,
+      "text": "mechanism actually do the heavy lifting"
+    },
+    {
+      "start": 164.959,
+      "duration": 3.1910000000000025,
+      "text": "mechanism actually do the heavy lifting of finding the answer. Now for a long"
+    },
+    {
+      "start": 168.15,
+      "duration": 0.009999999999990905,
+      "text": "of finding the answer. Now for a long"
+    },
+    {
+      "start": 168.16,
+      "duration": 2.149000000000001,
+      "text": "of finding the answer. Now for a long time this kind of brute force method"
+    },
+    {
+      "start": 170.309,
+      "duration": 0.009999999999990905,
+      "text": "time this kind of brute force method"
+    },
+    {
+      "start": 170.319,
+      "duration": 3.1110000000000184,
+      "text": "time this kind of brute force method wasn't really much of an option because"
+    },
+    {
+      "start": 173.43,
+      "duration": 0.009999999999990905,
+      "text": "wasn't really much of an option because"
+    },
+    {
+      "start": 173.44,
+      "duration": 3.3499999999999943,
+      "text": "wasn't really much of an option because initially context windows were tiny."
+    },
+    {
+      "start": 176.79,
+      "duration": 0.010000000000019327,
+      "text": "initially context windows were tiny."
+    },
+    {
+      "start": 176.8,
+      "duration": 2.149000000000001,
+      "text": "initially context windows were tiny. Early LLMs had context windows that"
+    },
+    {
+      "start": 178.949,
+      "duration": 0.009999999999990905,
+      "text": "Early LLMs had context windows that"
+    },
+    {
+      "start": 178.959,
+      "duration": 3.6709999999999923,
+      "text": "Early LLMs had context windows that could maybe store what like 4K of"
+    },
+    {
+      "start": 182.63,
+      "duration": 0.009999999999990905,
+      "text": "could maybe store what like 4K of"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.1500000000000057,
+      "text": "could maybe store what like 4K of tokens. You couldn't fit a novel in"
+    },
+    {
+      "start": 184.79,
+      "duration": 0.010000000000019327,
+      "text": "tokens. You couldn't fit a novel in"
+    },
+    {
+      "start": 184.8,
+      "duration": 2.2299999999999898,
+      "text": "tokens. You couldn't fit a novel in there, let alone a corporate knowledge"
+    },
+    {
+      "start": 187.03,
+      "duration": 0.009999999999990905,
+      "text": "there, let alone a corporate knowledge"
+    },
+    {
+      "start": 187.04,
+      "duration": 3.109000000000009,
+      "text": "there, let alone a corporate knowledge base. You basically had to use rag. But"
+    },
+    {
+      "start": 190.149,
+      "duration": 0.009999999999990905,
+      "text": "base. You basically had to use rag. But"
+    },
+    {
+      "start": 190.159,
+      "duration": 4.070000000000022,
+      "text": "base. You basically had to use rag. But today's models have much larger context"
+    },
+    {
+      "start": 194.229,
+      "duration": 0.009999999999990905,
+      "text": "today's models have much larger context"
+    },
+    {
+      "start": 194.239,
+      "duration": 2.4710000000000036,
+      "text": "today's models have much larger context windows. Some of them have, you know, a"
+    },
+    {
+      "start": 196.71,
+      "duration": 0.009999999999990905,
+      "text": "windows. Some of them have, you know, a"
+    },
+    {
+      "start": 196.72,
+      "duration": 3.5090000000000146,
+      "text": "windows. Some of them have, you know, a million tokens plus. And to put that"
+    },
+    {
+      "start": 200.229,
+      "duration": 0.009999999999990905,
+      "text": "million tokens plus. And to put that"
+    },
+    {
+      "start": 200.239,
+      "duration": 2.9509999999999934,
+      "text": "million tokens plus. And to put that into perspective, a million tokens is"
+    },
+    {
+      "start": 203.19,
+      "duration": 0.009999999999990905,
+      "text": "into perspective, a million tokens is"
+    },
+    {
+      "start": 203.2,
+      "duration": 2.9490000000000123,
+      "text": "into perspective, a million tokens is roughly 700,000 words. and you could fit"
+    },
+    {
+      "start": 206.149,
+      "duration": 0.009999999999990905,
+      "text": "roughly 700,000 words. and you could fit"
+    },
+    {
+      "start": 206.159,
+      "duration": 2.951000000000022,
+      "text": "roughly 700,000 words. and you could fit the entire Lord of the Rings series into"
+    },
+    {
+      "start": 209.11,
+      "duration": 0.009999999999990905,
+      "text": "the entire Lord of the Rings series into"
+    },
+    {
+      "start": 209.12,
+      "duration": 1.990000000000009,
+      "text": "the entire Lord of the Rings series into the prompt and still have room for The"
+    },
+    {
+      "start": 211.11,
+      "duration": 0.009999999999990905,
+      "text": "the prompt and still have room for The"
+    },
+    {
+      "start": 211.12,
+      "duration": 2.549999999999983,
+      "text": "the prompt and still have room for The Hobbit. So, this massive jump in"
+    },
+    {
+      "start": 213.67,
+      "duration": 0.010000000000019327,
+      "text": "Hobbit. So, this massive jump in"
+    },
+    {
+      "start": 213.68,
+      "duration": 3.3499999999999943,
+      "text": "Hobbit. So, this massive jump in capacity forces us to ask a difficult"
+    },
+    {
+      "start": 217.03,
+      "duration": 0.009999999999990905,
+      "text": "capacity forces us to ask a difficult"
+    },
+    {
+      "start": 217.04,
+      "duration": 1.670000000000016,
+      "text": "capacity forces us to ask a difficult question about our architecture. Because"
+    },
+    {
+      "start": 218.71,
+      "duration": 0.009999999999990905,
+      "text": "question about our architecture. Because"
+    },
+    {
+      "start": 218.72,
+      "duration": 3.429000000000002,
+      "text": "question about our architecture. Because if we can simply command A, command C,"
+    },
+    {
+      "start": 222.149,
+      "duration": 0.009999999999990905,
+      "text": "if we can simply command A, command C,"
+    },
+    {
+      "start": 222.159,
+      "duration": 3.5109999999999957,
+      "text": "if we can simply command A, command C, command V, all of our documentation into"
+    },
+    {
+      "start": 225.67,
+      "duration": 0.010000000000019327,
+      "text": "command V, all of our documentation into"
+    },
+    {
+      "start": 225.68,
+      "duration": 2.468999999999994,
+      "text": "command V, all of our documentation into the models context window, do we really"
+    },
+    {
+      "start": 228.149,
+      "duration": 0.009999999999990905,
+      "text": "the models context window, do we really"
+    },
+    {
+      "start": 228.159,
+      "duration": 1.7510000000000048,
+      "text": "the models context window, do we really need the overhead of embedding models"
+    },
+    {
+      "start": 229.91,
+      "duration": 0.009999999999990905,
+      "text": "need the overhead of embedding models"
+    },
+    {
+      "start": 229.92,
+      "duration": 3.190000000000026,
+      "text": "need the overhead of embedding models and vector data stores? Is rag becoming"
+    },
+    {
+      "start": 233.11,
+      "duration": 0.009999999999990905,
+      "text": "and vector data stores? Is rag becoming"
+    },
+    {
+      "start": 233.12,
+      "duration": 3.509999999999991,
+      "text": "and vector data stores? Is rag becoming an unnecessary complexity layer? Well,"
+    },
+    {
+      "start": 236.63,
+      "duration": 0.009999999999990905,
+      "text": "an unnecessary complexity layer? Well,"
+    },
+    {
+      "start": 236.64,
+      "duration": 1.8300000000000125,
+      "text": "an unnecessary complexity layer? Well, if we accept that we can fit whatever"
+    },
+    {
+      "start": 238.47,
+      "duration": 0.009999999999990905,
+      "text": "if we accept that we can fit whatever"
+    },
+    {
+      "start": 238.48,
+      "duration": 4.070000000000022,
+      "text": "if we accept that we can fit whatever data we need into the context window,"
+    },
+    {
+      "start": 242.55,
+      "duration": 0.009999999999990905,
+      "text": "data we need into the context window,"
+    },
+    {
+      "start": 242.56,
+      "duration": 2.5500000000000114,
+      "text": "data we need into the context window, then the argument for doing so basically"
+    },
+    {
+      "start": 245.11,
+      "duration": 0.009999999999990905,
+      "text": "then the argument for doing so basically"
+    },
+    {
+      "start": 245.12,
+      "duration": 2.710000000000008,
+      "text": "then the argument for doing so basically boils down to one word,"
+    },
+    {
+      "start": 247.83,
+      "duration": 0.009999999999990905,
+      "text": "boils down to one word,"
+    },
+    {
+      "start": 247.84,
+      "duration": 2.6299999999999955,
+      "text": "boils down to one word, simplicity. And let me give you three"
+    },
+    {
+      "start": 250.47,
+      "duration": 0.009999999999990905,
+      "text": "simplicity. And let me give you three"
+    },
+    {
+      "start": 250.48,
+      "duration": 2.5500000000000114,
+      "text": "simplicity. And let me give you three reasons why stuffing the context window"
+    },
+    {
+      "start": 253.03,
+      "duration": 0.009999999999990905,
+      "text": "reasons why stuffing the context window"
+    },
+    {
+      "start": 253.04,
+      "duration": 2.950000000000017,
+      "text": "reasons why stuffing the context window directly may indeed be the way to go."
+    },
+    {
+      "start": 255.99,
+      "duration": 0.009999999999990905,
+      "text": "directly may indeed be the way to go."
+    },
+    {
+      "start": 256,
+      "duration": 4.310000000000002,
+      "text": "directly may indeed be the way to go. And reason number one is collapsing the"
+    },
+    {
+      "start": 260.31,
+      "duration": 0.009999999999990905,
+      "text": "And reason number one is collapsing the"
+    },
+    {
+      "start": 260.32,
+      "duration": 3.1100000000000136,
+      "text": "And reason number one is collapsing the infrastructure. A production rag system."
+    },
+    {
+      "start": 263.43,
+      "duration": 0.009999999999990905,
+      "text": "infrastructure. A production rag system."
+    },
+    {
+      "start": 263.44,
+      "duration": 2.9499999999999886,
+      "text": "infrastructure. A production rag system. Well, it is quite heavy. You need a a"
+    },
+    {
+      "start": 266.39,
+      "duration": 0.009999999999990905,
+      "text": "Well, it is quite heavy. You need a a"
+    },
+    {
+      "start": 266.4,
+      "duration": 2.5500000000000114,
+      "text": "Well, it is quite heavy. You need a a chunking strategy which is like fixed"
+    },
+    {
+      "start": 268.95,
+      "duration": 0.009999999999990905,
+      "text": "chunking strategy which is like fixed"
+    },
+    {
+      "start": 268.96,
+      "duration": 1.910000000000025,
+      "text": "chunking strategy which is like fixed size maybe or sliding window or"
+    },
+    {
+      "start": 270.87,
+      "duration": 0.009999999999990905,
+      "text": "size maybe or sliding window or"
+    },
+    {
+      "start": 270.88,
+      "duration": 2.1499999999999773,
+      "text": "size maybe or sliding window or recursive. You decide. You're going to"
+    },
+    {
+      "start": 273.03,
+      "duration": 0.010000000000047748,
+      "text": "recursive. You decide. You're going to"
+    },
+    {
+      "start": 273.04,
+      "duration": 3.109999999999957,
+      "text": "recursive. You decide. You're going to need a embedding model to encode the"
+    },
+    {
+      "start": 276.15,
+      "duration": 0.010000000000047748,
+      "text": "need a embedding model to encode the"
+    },
+    {
+      "start": 276.16,
+      "duration": 2.7099999999999795,
+      "text": "need a embedding model to encode the data. You need a a vector database to"
+    },
+    {
+      "start": 278.87,
+      "duration": 0.009999999999990905,
+      "text": "data. You need a a vector database to"
+    },
+    {
+      "start": 278.88,
+      "duration": 2.230000000000018,
+      "text": "data. You need a a vector database to store it. You're going to need a"
+    },
+    {
+      "start": 281.11,
+      "duration": 0.009999999999990905,
+      "text": "store it. You're going to need a"
+    },
+    {
+      "start": 281.12,
+      "duration": 2.069000000000017,
+      "text": "store it. You're going to need a reranker to sort the results. you need"
+    },
+    {
+      "start": 283.189,
+      "duration": 0.009999999999990905,
+      "text": "reranker to sort the results. you need"
+    },
+    {
+      "start": 283.199,
+      "duration": 1.6709999999999923,
+      "text": "reranker to sort the results. you need to keep all the vectors in sync with"
+    },
+    {
+      "start": 284.87,
+      "duration": 0.009999999999990905,
+      "text": "to keep all the vectors in sync with"
+    },
+    {
+      "start": 284.88,
+      "duration": 2.309000000000026,
+      "text": "to keep all the vectors in sync with your source data. It's basically a lot"
+    },
+    {
+      "start": 287.189,
+      "duration": 0.009999999999990905,
+      "text": "your source data. It's basically a lot"
+    },
+    {
+      "start": 287.199,
+      "duration": 2.2309999999999945,
+      "text": "your source data. It's basically a lot of moving parts, a lot of places for"
+    },
+    {
+      "start": 289.43,
+      "duration": 0.009999999999990905,
+      "text": "of moving parts, a lot of places for"
+    },
+    {
+      "start": 289.44,
+      "duration": 4.069999999999993,
+      "text": "of moving parts, a lot of places for things to break. And long context offers"
+    },
+    {
+      "start": 293.51,
+      "duration": 0.009999999999990905,
+      "text": "things to break. And long context offers"
+    },
+    {
+      "start": 293.52,
+      "duration": 3.590000000000032,
+      "text": "things to break. And long context offers what we might call well just simply the"
+    },
+    {
+      "start": 297.11,
+      "duration": 0.009999999999990905,
+      "text": "what we might call well just simply the"
+    },
+    {
+      "start": 297.12,
+      "duration": 3.670000000000016,
+      "text": "what we might call well just simply the uh the no stack stack. You remove the"
+    },
+    {
+      "start": 300.79,
+      "duration": 0.009999999999990905,
+      "text": "uh the no stack stack. You remove the"
+    },
+    {
+      "start": 300.8,
+      "duration": 1.6689999999999827,
+      "text": "uh the no stack stack. You remove the database, you remove the embeddings, you"
+    },
+    {
+      "start": 302.469,
+      "duration": 0.009999999999990905,
+      "text": "database, you remove the embeddings, you"
+    },
+    {
+      "start": 302.479,
+      "duration": 1.511000000000024,
+      "text": "database, you remove the embeddings, you remove the retrieval logic. The"
+    },
+    {
+      "start": 303.99,
+      "duration": 0.009999999999990905,
+      "text": "remove the retrieval logic. The"
+    },
+    {
+      "start": 304,
+      "duration": 2.8700000000000045,
+      "text": "remove the retrieval logic. The architecture simplifies down to getting"
+    },
+    {
+      "start": 306.87,
+      "duration": 0.009999999999990905,
+      "text": "architecture simplifies down to getting"
+    },
+    {
+      "start": 306.88,
+      "duration": 3.0289999999999964,
+      "text": "architecture simplifies down to getting the data and just well sending it to the"
+    },
+    {
+      "start": 309.909,
+      "duration": 0.009999999999990905,
+      "text": "the data and just well sending it to the"
+    },
+    {
+      "start": 309.919,
+      "duration": 2.8710000000000377,
+      "text": "the data and just well sending it to the model. So that's reason number one."
+    },
+    {
+      "start": 312.79,
+      "duration": 0.009999999999990905,
+      "text": "model. So that's reason number one."
+    },
+    {
+      "start": 312.8,
+      "duration": 4.069999999999993,
+      "text": "model. So that's reason number one. Reason number two is the retrieval"
+    },
+    {
+      "start": 316.87,
+      "duration": 0.009999999999990905,
+      "text": "Reason number two is the retrieval"
+    },
+    {
+      "start": 316.88,
+      "duration": 3.5889999999999986,
+      "text": "Reason number two is the retrieval lottery. Now, rag introduces a critical"
+    },
+    {
+      "start": 320.469,
+      "duration": 0.009999999999990905,
+      "text": "lottery. Now, rag introduces a critical"
+    },
+    {
+      "start": 320.479,
+      "duration": 2.3910000000000196,
+      "text": "lottery. Now, rag introduces a critical point of failure here, the retrieval"
+    },
+    {
+      "start": 322.87,
+      "duration": 0.009999999999990905,
+      "text": "point of failure here, the retrieval"
+    },
+    {
+      "start": 322.88,
+      "duration": 2.7099999999999795,
+      "text": "point of failure here, the retrieval step itself, because when a user asks a"
+    },
+    {
+      "start": 325.59,
+      "duration": 0.010000000000047748,
+      "text": "step itself, because when a user asks a"
+    },
+    {
+      "start": 325.6,
+      "duration": 2.5499999999999545,
+      "text": "step itself, because when a user asks a question, rag looks at mathematical"
+    },
+    {
+      "start": 328.15,
+      "duration": 0.010000000000047748,
+      "text": "question, rag looks at mathematical"
+    },
+    {
+      "start": 328.16,
+      "duration": 2.5499999999999545,
+      "text": "question, rag looks at mathematical representations of the data which are"
+    },
+    {
+      "start": 330.71,
+      "duration": 0.010000000000047748,
+      "text": "representations of the data which are"
+    },
+    {
+      "start": 330.72,
+      "duration": 1.42999999999995,
+      "text": "representations of the data which are stored in vectors. And vectors are"
+    },
+    {
+      "start": 332.15,
+      "duration": 0.010000000000047748,
+      "text": "stored in vectors. And vectors are"
+    },
+    {
+      "start": 332.16,
+      "duration": 3.829999999999984,
+      "text": "stored in vectors. And vectors are basically just like a really long series"
+    },
+    {
+      "start": 335.99,
+      "duration": 0.009999999999990905,
+      "text": "basically just like a really long series"
+    },
+    {
+      "start": 336,
+      "duration": 2.9499999999999886,
+      "text": "basically just like a really long series of numbers in an array. And it tries to"
+    },
+    {
+      "start": 338.95,
+      "duration": 0.009999999999990905,
+      "text": "of numbers in an array. And it tries to"
+    },
+    {
+      "start": 338.96,
+      "duration": 2.4700000000000273,
+      "text": "of numbers in an array. And it tries to find the closest match. That's semantic"
+    },
+    {
+      "start": 341.43,
+      "duration": 0.009999999999990905,
+      "text": "find the closest match. That's semantic"
+    },
+    {
+      "start": 341.44,
+      "duration": 2.6299999999999955,
+      "text": "find the closest match. That's semantic search. But semantic search is"
+    },
+    {
+      "start": 344.07,
+      "duration": 0.009999999999990905,
+      "text": "search. But semantic search is"
+    },
+    {
+      "start": 344.08,
+      "duration": 2.38900000000001,
+      "text": "search. But semantic search is probabilistic and for all manner of"
+    },
+    {
+      "start": 346.469,
+      "duration": 0.009999999999990905,
+      "text": "probabilistic and for all manner of"
+    },
+    {
+      "start": 346.479,
+      "duration": 2.3910000000000196,
+      "text": "probabilistic and for all manner of reasons, the retrieval might fail to"
+    },
+    {
+      "start": 348.87,
+      "duration": 0.009999999999990905,
+      "text": "reasons, the retrieval might fail to"
+    },
+    {
+      "start": 348.88,
+      "duration": 2.309000000000026,
+      "text": "reasons, the retrieval might fail to find the relevant document. And we"
+    },
+    {
+      "start": 351.189,
+      "duration": 0.009999999999990905,
+      "text": "find the relevant document. And we"
+    },
+    {
+      "start": 351.199,
+      "duration": 1.350999999999999,
+      "text": "find the relevant document. And we actually have a name for this. It's"
+    },
+    {
+      "start": 352.55,
+      "duration": 0.009999999999990905,
+      "text": "actually have a name for this. It's"
+    },
+    {
+      "start": 352.56,
+      "duration": 3.430000000000007,
+      "text": "actually have a name for this. It's called silent failure. The answer, well,"
+    },
+    {
+      "start": 355.99,
+      "duration": 0.009999999999990905,
+      "text": "called silent failure. The answer, well,"
+    },
+    {
+      "start": 356,
+      "duration": 2.468999999999994,
+      "text": "called silent failure. The answer, well, it existed in the data, but the LLM"
+    },
+    {
+      "start": 358.469,
+      "duration": 0.009999999999990905,
+      "text": "it existed in the data, but the LLM"
+    },
+    {
+      "start": 358.479,
+      "duration": 1.9110000000000014,
+      "text": "it existed in the data, but the LLM never saw it because the retrieval step"
+    },
+    {
+      "start": 360.39,
+      "duration": 0.009999999999990905,
+      "text": "never saw it because the retrieval step"
+    },
+    {
+      "start": 360.4,
+      "duration": 2.229000000000042,
+      "text": "never saw it because the retrieval step didn't return the right results. With"
+    },
+    {
+      "start": 362.629,
+      "duration": 0.009999999999990905,
+      "text": "didn't return the right results. With"
+    },
+    {
+      "start": 362.639,
+      "duration": 1.990000000000009,
+      "text": "didn't return the right results. With long context, there is no retrieval"
+    },
+    {
+      "start": 364.629,
+      "duration": 0.009999999999990905,
+      "text": "long context, there is no retrieval"
+    },
+    {
+      "start": 364.639,
+      "duration": 3.430999999999983,
+      "text": "long context, there is no retrieval step. The model gets to see everything."
+    },
+    {
+      "start": 368.07,
+      "duration": 0.009999999999990905,
+      "text": "step. The model gets to see everything."
+    },
+    {
+      "start": 368.08,
+      "duration": 2.9490000000000123,
+      "text": "step. The model gets to see everything. Now, reason number three"
+    },
+    {
+      "start": 371.029,
+      "duration": 0.009999999999990905,
+      "text": "Now, reason number three"
+    },
+    {
+      "start": 371.039,
+      "duration": 2.0710000000000264,
+      "text": "Now, reason number three that is well, I think we're going to"
+    },
+    {
+      "start": 373.11,
+      "duration": 0.009999999999990905,
+      "text": "that is well, I think we're going to"
+    },
+    {
+      "start": 373.12,
+      "duration": 2.4699999999999704,
+      "text": "that is well, I think we're going to call this the whole book problem. A rag"
+    },
+    {
+      "start": 375.59,
+      "duration": 0.010000000000047748,
+      "text": "call this the whole book problem. A rag"
+    },
+    {
+      "start": 375.6,
+      "duration": 2.069999999999993,
+      "text": "call this the whole book problem. A rag is fundamentally designed to retrieve"
+    },
+    {
+      "start": 377.67,
+      "duration": 0.009999999999990905,
+      "text": "is fundamentally designed to retrieve"
+    },
+    {
+      "start": 377.68,
+      "duration": 3.1100000000000136,
+      "text": "is fundamentally designed to retrieve what exists. It relies on finding a"
+    },
+    {
+      "start": 380.79,
+      "duration": 0.009999999999990905,
+      "text": "what exists. It relies on finding a"
+    },
+    {
+      "start": 380.8,
+      "duration": 1.9099999999999682,
+      "text": "what exists. It relies on finding a semantic match between your query and a"
+    },
+    {
+      "start": 382.71,
+      "duration": 0.010000000000047748,
+      "text": "semantic match between your query and a"
+    },
+    {
+      "start": 382.72,
+      "duration": 2.069999999999993,
+      "text": "semantic match between your query and a specific snippet of text in your"
+    },
+    {
+      "start": 384.79,
+      "duration": 0.009999999999990905,
+      "text": "specific snippet of text in your"
+    },
+    {
+      "start": 384.8,
+      "duration": 3.1089999999999804,
+      "text": "specific snippet of text in your database. But what if the answer lies in"
+    },
+    {
+      "start": 387.909,
+      "duration": 0.009999999999990905,
+      "text": "database. But what if the answer lies in"
+    },
+    {
+      "start": 387.919,
+      "duration": 3.1100000000000136,
+      "text": "database. But what if the answer lies in what's not in the database? So, so let's"
+    },
+    {
+      "start": 391.029,
+      "duration": 0.009999999999990905,
+      "text": "what's not in the database? So, so let's"
+    },
+    {
+      "start": 391.039,
+      "duration": 2.5509999999999877,
+      "text": "what's not in the database? So, so let's say you have a set of product"
+    },
+    {
+      "start": 393.59,
+      "duration": 0.010000000000047748,
+      "text": "say you have a set of product"
+    },
+    {
+      "start": 393.6,
+      "duration": 3.4289999999999736,
+      "text": "say you have a set of product requirements stored as a document and"
+    },
+    {
+      "start": 397.029,
+      "duration": 0.009999999999990905,
+      "text": "requirements stored as a document and"
+    },
+    {
+      "start": 397.039,
+      "duration": 3.2700000000000387,
+      "text": "requirements stored as a document and you've also got a set of release notes"
+    },
+    {
+      "start": 400.309,
+      "duration": 0.009999999999990905,
+      "text": "you've also got a set of release notes"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.3100000000000023,
+      "text": "you've also got a set of release notes stored as a document and then we ask"
+    },
+    {
+      "start": 402.629,
+      "duration": 0.009999999999990905,
+      "text": "stored as a document and then we ask"
+    },
+    {
+      "start": 402.639,
+      "duration": 2.790999999999997,
+      "text": "stored as a document and then we ask which security requirements were omitted"
+    },
+    {
+      "start": 405.43,
+      "duration": 0.009999999999990905,
+      "text": "which security requirements were omitted"
+    },
+    {
+      "start": 405.44,
+      "duration": 3.509999999999991,
+      "text": "which security requirements were omitted from the final release. Now using rag"
+    },
+    {
+      "start": 408.95,
+      "duration": 0.009999999999990905,
+      "text": "from the final release. Now using rag"
+    },
+    {
+      "start": 408.96,
+      "duration": 2.229000000000042,
+      "text": "from the final release. Now using rag when you query for omitted security"
+    },
+    {
+      "start": 411.189,
+      "duration": 0.009999999999990905,
+      "text": "when you query for omitted security"
+    },
+    {
+      "start": 411.199,
+      "duration": 2.3109999999999786,
+      "text": "when you query for omitted security requirements the vector search looks for"
+    },
+    {
+      "start": 413.51,
+      "duration": 0.009999999999990905,
+      "text": "requirements the vector search looks for"
+    },
+    {
+      "start": 413.52,
+      "duration": 2.6299999999999955,
+      "text": "requirements the vector search looks for chunks discussing well security and"
+    },
+    {
+      "start": 416.15,
+      "duration": 0.010000000000047748,
+      "text": "chunks discussing well security and"
+    },
+    {
+      "start": 416.16,
+      "duration": 2.7099999999999795,
+      "text": "chunks discussing well security and requirements. It retrieves snippets from"
+    },
+    {
+      "start": 418.87,
+      "duration": 0.009999999999990905,
+      "text": "requirements. It retrieves snippets from"
+    },
+    {
+      "start": 418.88,
+      "duration": 1.670000000000016,
+      "text": "requirements. It retrieves snippets from the requirements doc. It retrieves"
+    },
+    {
+      "start": 420.55,
+      "duration": 0.009999999999990905,
+      "text": "the requirements doc. It retrieves"
+    },
+    {
+      "start": 420.56,
+      "duration": 2.9499999999999886,
+      "text": "the requirements doc. It retrieves snippets from the release notes, but it"
+    },
+    {
+      "start": 423.51,
+      "duration": 0.009999999999990905,
+      "text": "snippets from the release notes, but it"
+    },
+    {
+      "start": 423.52,
+      "duration": 1.990000000000009,
+      "text": "snippets from the release notes, but it cannot retrieve the gap between them."
+    },
+    {
+      "start": 425.51,
+      "duration": 0.009999999999990905,
+      "text": "cannot retrieve the gap between them."
+    },
+    {
+      "start": 425.52,
+      "duration": 2.5500000000000114,
+      "text": "cannot retrieve the gap between them. And because rag only shows the model a"
+    },
+    {
+      "start": 428.07,
+      "duration": 0.009999999999990905,
+      "text": "And because rag only shows the model a"
+    },
+    {
+      "start": 428.08,
+      "duration": 2.8700000000000045,
+      "text": "And because rag only shows the model a few isolated snapshots, the model never"
+    },
+    {
+      "start": 430.95,
+      "duration": 0.009999999999990905,
+      "text": "few isolated snapshots, the model never"
+    },
+    {
+      "start": 430.96,
+      "duration": 2.7100000000000364,
+      "text": "few isolated snapshots, the model never sees the full picture required to spot"
+    },
+    {
+      "start": 433.67,
+      "duration": 0.009999999999990905,
+      "text": "sees the full picture required to spot"
+    },
+    {
+      "start": 433.68,
+      "duration": 1.9089999999999918,
+      "text": "sees the full picture required to spot the missing pieces. The model really"
+    },
+    {
+      "start": 435.589,
+      "duration": 0.009999999999990905,
+      "text": "the missing pieces. The model really"
+    },
+    {
+      "start": 435.599,
+      "duration": 3.990000000000009,
+      "text": "the missing pieces. The model really needs both of these documents in full to"
+    },
+    {
+      "start": 439.589,
+      "duration": 0.009999999999990905,
+      "text": "needs both of these documents in full to"
+    },
+    {
+      "start": 439.599,
+      "duration": 2.4710000000000036,
+      "text": "needs both of these documents in full to perform the comparison, which is exactly"
+    },
+    {
+      "start": 442.07,
+      "duration": 0.009999999999990905,
+      "text": "perform the comparison, which is exactly"
+    },
+    {
+      "start": 442.08,
+      "duration": 2.3100000000000023,
+      "text": "perform the comparison, which is exactly what long context does by dumping the"
+    },
+    {
+      "start": 444.39,
+      "duration": 0.009999999999990905,
+      "text": "what long context does by dumping the"
+    },
+    {
+      "start": 444.4,
+      "duration": 2.4700000000000273,
+      "text": "what long context does by dumping the whole book. the full requirements dock"
+    },
+    {
+      "start": 446.87,
+      "duration": 0.009999999999990905,
+      "text": "whole book. the full requirements dock"
+    },
+    {
+      "start": 446.88,
+      "duration": 2.309000000000026,
+      "text": "whole book. the full requirements dock and the full release notes into the"
+    },
+    {
+      "start": 449.189,
+      "duration": 0.009999999999990905,
+      "text": "and the full release notes into the"
+    },
+    {
+      "start": 449.199,
+      "duration": 3.350999999999999,
+      "text": "and the full release notes into the context window. So, is rag dead? Is the"
+    },
+    {
+      "start": 452.55,
+      "duration": 0.009999999999990905,
+      "text": "context window. So, is rag dead? Is the"
+    },
+    {
+      "start": 452.56,
+      "duration": 2.468999999999994,
+      "text": "context window. So, is rag dead? Is the vector database destined for the museum"
+    },
+    {
+      "start": 455.029,
+      "duration": 0.009999999999990905,
+      "text": "vector database destined for the museum"
+    },
+    {
+      "start": 455.039,
+      "duration": 2.790999999999997,
+      "text": "vector database destined for the museum of things we needed in 2024?"
+    },
+    {
+      "start": 457.83,
+      "duration": 0.009999999999990905,
+      "text": "of things we needed in 2024?"
+    },
+    {
+      "start": 457.84,
+      "duration": 2.629000000000019,
+      "text": "of things we needed in 2024? Well, not quite because while long"
+    },
+    {
+      "start": 460.469,
+      "duration": 0.009999999999990905,
+      "text": "Well, not quite because while long"
+    },
+    {
+      "start": 460.479,
+      "duration": 2.6310000000000286,
+      "text": "Well, not quite because while long context wins on simplicity, rag still"
+    },
+    {
+      "start": 463.11,
+      "duration": 0.009999999999990905,
+      "text": "context wins on simplicity, rag still"
+    },
+    {
+      "start": 463.12,
+      "duration": 2.3100000000000023,
+      "text": "context wins on simplicity, rag still has a place. And I got another three"
+    },
+    {
+      "start": 465.43,
+      "duration": 0.009999999999990905,
+      "text": "has a place. And I got another three"
+    },
+    {
+      "start": 465.44,
+      "duration": 3.829999999999984,
+      "text": "has a place. And I got another three reasons to support that. So, reason"
+    },
+    {
+      "start": 469.27,
+      "duration": 0.009999999999990905,
+      "text": "reasons to support that. So, reason"
+    },
+    {
+      "start": 469.28,
+      "duration": 4.469000000000051,
+      "text": "reasons to support that. So, reason number one is the rereading text. Now,"
+    },
+    {
+      "start": 473.749,
+      "duration": 0.009999999999990905,
+      "text": "number one is the rereading text. Now,"
+    },
+    {
+      "start": 473.759,
+      "duration": 2.5500000000000114,
+      "text": "number one is the rereading text. Now, long context creates a massive compute"
+    },
+    {
+      "start": 476.309,
+      "duration": 0.009999999999990905,
+      "text": "long context creates a massive compute"
+    },
+    {
+      "start": 476.319,
+      "duration": 2.950999999999965,
+      "text": "long context creates a massive compute inefficiency. So, if we take a manual,"
+    },
+    {
+      "start": 479.27,
+      "duration": 0.009999999999990905,
+      "text": "inefficiency. So, if we take a manual,"
+    },
+    {
+      "start": 479.28,
+      "duration": 4.309000000000026,
+      "text": "inefficiency. So, if we take a manual, let's say this is like a a 500 page"
+    },
+    {
+      "start": 483.589,
+      "duration": 0.009999999999990905,
+      "text": "let's say this is like a a 500 page"
+    },
+    {
+      "start": 483.599,
+      "duration": 2.0710000000000264,
+      "text": "let's say this is like a a 500 page manual, and we've got to turn this into"
+    },
+    {
+      "start": 485.67,
+      "duration": 0.009999999999990905,
+      "text": "manual, and we've got to turn this into"
+    },
+    {
+      "start": 485.68,
+      "duration": 4.7099999999999795,
+      "text": "manual, and we've got to turn this into tokens. Well, that's something like 250k"
+    },
+    {
+      "start": 490.39,
+      "duration": 0.009999999999990905,
+      "text": "tokens. Well, that's something like 250k"
+    },
+    {
+      "start": 490.4,
+      "duration": 3.5090000000000146,
+      "text": "tokens. Well, that's something like 250k of tokens. And we need to do that every"
+    },
+    {
+      "start": 493.909,
+      "duration": 0.009999999999990905,
+      "text": "of tokens. And we need to do that every"
+    },
+    {
+      "start": 493.919,
+      "duration": 2.390000000000043,
+      "text": "of tokens. And we need to do that every time we make a user query and we put"
+    },
+    {
+      "start": 496.309,
+      "duration": 0.009999999999990905,
+      "text": "time we make a user query and we put"
+    },
+    {
+      "start": 496.319,
+      "duration": 1.9110000000000014,
+      "text": "time we make a user query and we put this document in the prompt. You're"
+    },
+    {
+      "start": 498.23,
+      "duration": 0.009999999999990905,
+      "text": "this document in the prompt. You're"
+    },
+    {
+      "start": 498.24,
+      "duration": 1.9099999999999682,
+      "text": "this document in the prompt. You're basically requiring the model to process"
+    },
+    {
+      "start": 500.15,
+      "duration": 0.010000000000047748,
+      "text": "basically requiring the model to process"
+    },
+    {
+      "start": 500.16,
+      "duration": 3.1899999999999977,
+      "text": "basically requiring the model to process that manual every time. Now, rag also"
+    },
+    {
+      "start": 503.35,
+      "duration": 0.009999999999990905,
+      "text": "that manual every time. Now, rag also"
+    },
+    {
+      "start": 503.36,
+      "duration": 2.1499999999999773,
+      "text": "that manual every time. Now, rag also has to process that manual, but it only"
+    },
+    {
+      "start": 505.51,
+      "duration": 0.009999999999990905,
+      "text": "has to process that manual, but it only"
+    },
+    {
+      "start": 505.52,
+      "duration": 2.3100000000000023,
+      "text": "has to process that manual, but it only pays that processing cost once at"
+    },
+    {
+      "start": 507.83,
+      "duration": 0.009999999999990905,
+      "text": "pays that processing cost once at"
+    },
+    {
+      "start": 507.84,
+      "duration": 3.1890000000000214,
+      "text": "pays that processing cost once at indexing time. Now, prompt caching that"
+    },
+    {
+      "start": 511.029,
+      "duration": 0.009999999999990905,
+      "text": "indexing time. Now, prompt caching that"
+    },
+    {
+      "start": 511.039,
+      "duration": 2.0710000000000264,
+      "text": "indexing time. Now, prompt caching that can partially offset some of this for"
+    },
+    {
+      "start": 513.11,
+      "duration": 0.009999999999990905,
+      "text": "can partially offset some of this for"
+    },
+    {
+      "start": 513.12,
+      "duration": 2.469000000000051,
+      "text": "can partially offset some of this for static data, but for dynamic data"
+    },
+    {
+      "start": 515.589,
+      "duration": 0.009999999999990905,
+      "text": "static data, but for dynamic data"
+    },
+    {
+      "start": 515.599,
+      "duration": 1.42999999999995,
+      "text": "static data, but for dynamic data streams where content changes"
+    },
+    {
+      "start": 517.029,
+      "duration": 0.009999999999990905,
+      "text": "streams where content changes"
+    },
+    {
+      "start": 517.039,
+      "duration": 2.550000000000068,
+      "text": "streams where content changes frequently, you are stuck paying the"
+    },
+    {
+      "start": 519.589,
+      "duration": 0.009999999999990905,
+      "text": "frequently, you are stuck paying the"
+    },
+    {
+      "start": 519.599,
+      "duration": 3.7509999999999764,
+      "text": "frequently, you are stuck paying the full tax on every request."
+    },
+    {
+      "start": 523.35,
+      "duration": 0.009999999999990905,
+      "text": "full tax on every request."
+    },
+    {
+      "start": 523.36,
+      "duration": 4.149000000000001,
+      "text": "full tax on every request. Reason number two is the needle in the"
+    },
+    {
+      "start": 527.509,
+      "duration": 0.009999999999990905,
+      "text": "Reason number two is the needle in the"
+    },
+    {
+      "start": 527.519,
+      "duration": 2.630999999999972,
+      "text": "Reason number two is the needle in the haystack problem. Now, there's a an"
+    },
+    {
+      "start": 530.15,
+      "duration": 0.009999999999990905,
+      "text": "haystack problem. Now, there's a an"
+    },
+    {
+      "start": 530.16,
+      "duration": 2.7889999999999873,
+      "text": "haystack problem. Now, there's a an intuitive assumption that if data is in"
+    },
+    {
+      "start": 532.949,
+      "duration": 0.009999999999990905,
+      "text": "intuitive assumption that if data is in"
+    },
+    {
+      "start": 532.959,
+      "duration": 2.6310000000000855,
+      "text": "intuitive assumption that if data is in the context window, the model's probably"
+    },
+    {
+      "start": 535.59,
+      "duration": 0.009999999999990905,
+      "text": "the context window, the model's probably"
+    },
+    {
+      "start": 535.6,
+      "duration": 3.6689999999999827,
+      "text": "the context window, the model's probably going to use it, but research suggests"
+    },
+    {
+      "start": 539.269,
+      "duration": 0.009999999999990905,
+      "text": "going to use it, but research suggests"
+    },
+    {
+      "start": 539.279,
+      "duration": 2.4710000000000036,
+      "text": "going to use it, but research suggests otherwise. Because as we start with a"
+    },
+    {
+      "start": 541.75,
+      "duration": 0.009999999999990905,
+      "text": "otherwise. Because as we start with a"
+    },
+    {
+      "start": 541.76,
+      "duration": 3.4300000000000637,
+      "text": "otherwise. Because as we start with a context window and then it grows and it"
+    },
+    {
+      "start": 545.19,
+      "duration": 0.009999999999990905,
+      "text": "context window and then it grows and it"
+    },
+    {
+      "start": 545.2,
+      "duration": 2.06899999999996,
+      "text": "context window and then it grows and it continues to grow and now we're at like"
+    },
+    {
+      "start": 547.269,
+      "duration": 0.009999999999990905,
+      "text": "continues to grow and now we're at like"
+    },
+    {
+      "start": 547.279,
+      "duration": 3.270999999999958,
+      "text": "continues to grow and now we're at like 500,000 tokens, well, the model's"
+    },
+    {
+      "start": 550.55,
+      "duration": 0.009999999999990905,
+      "text": "500,000 tokens, well, the model's"
+    },
+    {
+      "start": 550.56,
+      "duration": 2.230000000000018,
+      "text": "500,000 tokens, well, the model's attention mechanism can get a bit"
+    },
+    {
+      "start": 552.79,
+      "duration": 0.009999999999990905,
+      "text": "attention mechanism can get a bit"
+    },
+    {
+      "start": 552.8,
+      "duration": 2.149000000000001,
+      "text": "attention mechanism can get a bit diluted. If you ask a specific question"
+    },
+    {
+      "start": 554.949,
+      "duration": 0.009999999999990905,
+      "text": "diluted. If you ask a specific question"
+    },
+    {
+      "start": 554.959,
+      "duration": 2.310000000000059,
+      "text": "diluted. If you ask a specific question about a single paragraph that's buried"
+    },
+    {
+      "start": 557.269,
+      "duration": 0.009999999999990905,
+      "text": "about a single paragraph that's buried"
+    },
+    {
+      "start": 557.279,
+      "duration": 1.990000000000009,
+      "text": "about a single paragraph that's buried in, let's say, the middle of a 2,000page"
+    },
+    {
+      "start": 559.269,
+      "duration": 0.009999999999990905,
+      "text": "in, let's say, the middle of a 2,000page"
+    },
+    {
+      "start": 559.279,
+      "duration": 3.1100000000000136,
+      "text": "in, let's say, the middle of a 2,000page document, well, the model often fails to"
+    },
+    {
+      "start": 562.389,
+      "duration": 0.009999999999990905,
+      "text": "document, well, the model often fails to"
+    },
+    {
+      "start": 562.399,
+      "duration": 2.3909999999999627,
+      "text": "document, well, the model often fails to retrieve it or it hallucinates details"
+    },
+    {
+      "start": 564.79,
+      "duration": 0.009999999999990905,
+      "text": "retrieve it or it hallucinates details"
+    },
+    {
+      "start": 564.8,
+      "duration": 3.3500000000000227,
+      "text": "retrieve it or it hallucinates details from the surrounding text. But with rag,"
+    },
+    {
+      "start": 568.15,
+      "duration": 0.009999999999990905,
+      "text": "from the surrounding text. But with rag,"
+    },
+    {
+      "start": 568.16,
+      "duration": 3.590000000000032,
+      "text": "from the surrounding text. But with rag, we're giving the model less noise. So by"
+    },
+    {
+      "start": 571.75,
+      "duration": 0.009999999999990905,
+      "text": "we're giving the model less noise. So by"
+    },
+    {
+      "start": 571.76,
+      "duration": 3.4300000000000637,
+      "text": "we're giving the model less noise. So by retrieving, say only the top five"
+    },
+    {
+      "start": 575.19,
+      "duration": 0.009999999999990905,
+      "text": "retrieving, say only the top five"
+    },
+    {
+      "start": 575.2,
+      "duration": 3.1099999999999,
+      "text": "retrieving, say only the top five relevant chunks, rag has removed the"
+    },
+    {
+      "start": 578.31,
+      "duration": 0.010000000000104592,
+      "text": "relevant chunks, rag has removed the"
+    },
+    {
+      "start": 578.32,
+      "duration": 2.9489999999999554,
+      "text": "relevant chunks, rag has removed the haystack and presents the model with"
+    },
+    {
+      "start": 581.269,
+      "duration": 0.009999999999990905,
+      "text": "haystack and presents the model with"
+    },
+    {
+      "start": 581.279,
+      "duration": 2.4710000000000036,
+      "text": "haystack and presents the model with just the needles. It forces the model to"
+    },
+    {
+      "start": 583.75,
+      "duration": 0.009999999999990905,
+      "text": "just the needles. It forces the model to"
+    },
+    {
+      "start": 583.76,
+      "duration": 2.8700000000000045,
+      "text": "just the needles. It forces the model to focus on the signal and not the noise."
+    },
+    {
+      "start": 586.63,
+      "duration": 0.009999999999990905,
+      "text": "focus on the signal and not the noise."
+    },
+    {
+      "start": 586.64,
+      "duration": 3.3500000000000227,
+      "text": "focus on the signal and not the noise. And then reason number three, well that"
+    },
+    {
+      "start": 589.99,
+      "duration": 0.009999999999990905,
+      "text": "And then reason number three, well that"
+    },
+    {
+      "start": 590,
+      "duration": 3.75,
+      "text": "And then reason number three, well that is the infinite data set. Now a context"
+    },
+    {
+      "start": 593.75,
+      "duration": 0.009999999999990905,
+      "text": "is the infinite data set. Now a context"
+    },
+    {
+      "start": 593.76,
+      "duration": 2.629000000000019,
+      "text": "is the infinite data set. Now a context window of millions of tokens sounds"
+    },
+    {
+      "start": 596.389,
+      "duration": 0.009999999999990905,
+      "text": "window of millions of tokens sounds"
+    },
+    {
+      "start": 596.399,
+      "duration": 2.3110000000000355,
+      "text": "window of millions of tokens sounds great but in the scheme of enterprise"
+    },
+    {
+      "start": 598.71,
+      "duration": 0.009999999999990905,
+      "text": "great but in the scheme of enterprise"
+    },
+    {
+      "start": 598.72,
+      "duration": 2.8700000000000045,
+      "text": "great but in the scheme of enterprise data that's really just a drop in the"
+    },
+    {
+      "start": 601.59,
+      "duration": 0.009999999999990905,
+      "text": "data that's really just a drop in the"
+    },
+    {
+      "start": 601.6,
+      "duration": 4.228999999999928,
+      "text": "data that's really just a drop in the bucket. I mean an enterprise data lake"
+    },
+    {
+      "start": 605.829,
+      "duration": 0.010000000000104592,
+      "text": "bucket. I mean an enterprise data lake"
+    },
+    {
+      "start": 605.839,
+      "duration": 3.270999999999958,
+      "text": "bucket. I mean an enterprise data lake that's probably measured in terabytes or"
+    },
+    {
+      "start": 609.11,
+      "duration": 0.009999999999990905,
+      "text": "that's probably measured in terabytes or"
+    },
+    {
+      "start": 609.12,
+      "duration": 3.909999999999968,
+      "text": "that's probably measured in terabytes or or maybe even pabytes. So if you want an"
+    },
+    {
+      "start": 613.03,
+      "duration": 0.009999999999990905,
+      "text": "or maybe even pabytes. So if you want an"
+    },
+    {
+      "start": 613.04,
+      "duration": 1.6700000000000728,
+      "text": "or maybe even pabytes. So if you want an infinite data set that stores"
+    },
+    {
+      "start": 614.71,
+      "duration": 0.009999999999990905,
+      "text": "infinite data set that stores"
+    },
+    {
+      "start": 614.72,
+      "duration": 2.8700000000000045,
+      "text": "infinite data set that stores everything, you really do need to have a"
+    },
+    {
+      "start": 617.59,
+      "duration": 0.009999999999990905,
+      "text": "everything, you really do need to have a"
+    },
+    {
+      "start": 617.6,
+      "duration": 1.990000000000009,
+      "text": "everything, you really do need to have a retrieval layer to filter information"
+    },
+    {
+      "start": 619.59,
+      "duration": 0.009999999999990905,
+      "text": "retrieval layer to filter information"
+    },
+    {
+      "start": 619.6,
+      "duration": 2.4689999999999372,
+      "text": "retrieval layer to filter information down to something that fits into the LLM"
+    },
+    {
+      "start": 622.069,
+      "duration": 0.009999999999990905,
+      "text": "down to something that fits into the LLM"
+    },
+    {
+      "start": 622.079,
+      "duration": 2.6310000000000855,
+      "text": "down to something that fits into the LLM context window. So where does this leave"
+    },
+    {
+      "start": 624.71,
+      "duration": 0.009999999999990905,
+      "text": "context window. So where does this leave"
+    },
+    {
+      "start": 624.72,
+      "duration": 2.7099999999999227,
+      "text": "context window. So where does this leave us? Well, if your problem involves a"
+    },
+    {
+      "start": 627.43,
+      "duration": 0.010000000000104592,
+      "text": "us? Well, if your problem involves a"
+    },
+    {
+      "start": 627.44,
+      "duration": 1.9099999999999682,
+      "text": "us? Well, if your problem involves a bounded data set and requires complex"
+    },
+    {
+      "start": 629.35,
+      "duration": 0.009999999999990905,
+      "text": "bounded data set and requires complex"
+    },
+    {
+      "start": 629.36,
+      "duration": 1.830000000000041,
+      "text": "bounded data set and requires complex global reasoning like analyzing a"
+    },
+    {
+      "start": 631.19,
+      "duration": 0.009999999999990905,
+      "text": "global reasoning like analyzing a"
+    },
+    {
+      "start": 631.2,
+      "duration": 2.1499999999999773,
+      "text": "global reasoning like analyzing a specific legal contract or summarizing a"
+    },
+    {
+      "start": 633.35,
+      "duration": 0.009999999999990905,
+      "text": "specific legal contract or summarizing a"
+    },
+    {
+      "start": 633.36,
+      "duration": 3.588999999999942,
+      "text": "specific legal contract or summarizing a book, I think long context is the way to"
+    },
+    {
+      "start": 636.949,
+      "duration": 0.009999999999990905,
+      "text": "book, I think long context is the way to"
+    },
+    {
+      "start": 636.959,
+      "duration": 2.2310000000001082,
+      "text": "book, I think long context is the way to go. It simplifies the stack and it"
+    },
+    {
+      "start": 639.19,
+      "duration": 0.009999999999990905,
+      "text": "go. It simplifies the stack and it"
+    },
+    {
+      "start": 639.2,
+      "duration": 2.6289999999999054,
+      "text": "go. It simplifies the stack and it improves the reasoning. But if you're"
+    },
+    {
+      "start": 641.829,
+      "duration": 0.010000000000104592,
+      "text": "improves the reasoning. But if you're"
+    },
+    {
+      "start": 641.839,
+      "duration": 2.1509999999999536,
+      "text": "improves the reasoning. But if you're navigating the infinite data set of"
+    },
+    {
+      "start": 643.99,
+      "duration": 0.009999999999990905,
+      "text": "navigating the infinite data set of"
+    },
+    {
+      "start": 644,
+      "duration": 1.9099999999999682,
+      "text": "navigating the infinite data set of enterprise knowledge, the vector"
+    },
+    {
+      "start": 645.91,
+      "duration": 0.009999999999990905,
+      "text": "enterprise knowledge, the vector"
+    },
+    {
+      "start": 645.92,
+      "duration": 2.469000000000051,
+      "text": "enterprise knowledge, the vector database remains the only viable"
+    },
+    {
+      "start": 648.389,
+      "duration": 0.009999999999990905,
+      "text": "database remains the only viable"
+    },
+    {
+      "start": 648.399,
+      "duration": 3.030999999999949,
+      "text": "database remains the only viable warehouse for your data. But how about"
+    },
+    {
+      "start": 651.43,
+      "duration": 0.010000000000104592,
+      "text": "warehouse for your data. But how about"
+    },
+    {
+      "start": 651.44,
+      "duration": 2.869999999999891,
+      "text": "warehouse for your data. But how about you? Are you team long context, team"
+    },
+    {
+      "start": 654.31,
+      "duration": 0.010000000000104592,
+      "text": "you? Are you team long context, team"
+    },
+    {
+      "start": 654.32,
+      "duration": 3.1889999999999645,
+      "text": "you? Are you team long context, team rag, maybe a bit of both? Let me know in"
+    },
+    {
+      "start": 657.509,
+      "duration": 0.009999999999990905,
+      "text": "rag, maybe a bit of both? Let me know in"
+    },
+    {
+      "start": 657.519,
+      "duration": 3.0810000000000173,
+      "text": "rag, maybe a bit of both? Let me know in the comments."
+    }
+  ],
+  "fullText": "There's a fundamental truth about LLMs, There's a fundamental truth about LLMs, large language models. They are frozen large language models. They are frozen large language models. They are frozen in time. They know everything about our in time. They know everything about our in time. They know everything about our world up until their training cutoff world up until their training cutoff world up until their training cutoff date and absolutely nothing about what date and absolutely nothing about what date and absolutely nothing about what happened 5 minutes ago. Nor do they know happened 5 minutes ago. Nor do they know happened 5 minutes ago. Nor do they know anything about your private data, your anything about your private data, your anything about your private data, your internal wiks, your proprietary internal wiks, your proprietary internal wiks, your proprietary codebase. And if we do want an LLM to codebase. And if we do want an LLM to codebase. And if we do want an LLM to know any of that stuff, well, we have to know any of that stuff, well, we have to know any of that stuff, well, we have to solve the problem of context injection. solve the problem of context injection. solve the problem of context injection. How do we get the right data into the How do we get the right data into the How do we get the right data into the model at the right time? And there have model at the right time? And there have model at the right time? And there have been two very different ways to handle been two very different ways to handle been two very different ways to handle this. Now, the first is really what we this. Now, the first is really what we this. Now, the first is really what we can think of as the engineering can think of as the engineering can think of as the engineering approach. It's rag retrieval augmented approach. It's rag retrieval augmented approach. It's rag retrieval augmented generation. So here we've got an LLM and generation. So here we've got an LLM and generation. So here we've got an LLM and we've also got an input prompt from the we've also got an input prompt from the we've also got an input prompt from the user. Now ahead of time we take some of user. Now ahead of time we take some of user. Now ahead of time we take some of the documents that we want to give to the documents that we want to give to the documents that we want to give to this LLM. So these are documents that this LLM. So these are documents that this LLM. So these are documents that could be PDFs or code files or entire could be PDFs or code files or entire could be PDFs or code files or entire books and we chunk them. We break them books and we chunk them. We break them books and we chunk them. We break them up into smaller chunks and we pass them up into smaller chunks and we pass them up into smaller chunks and we pass them through to an embedding model and the through to an embedding model and the through to an embedding model and the embedding model takes those chunks and embedding model takes those chunks and embedding model takes those chunks and it turns them into vectors and those it turns them into vectors and those it turns them into vectors and those vectors are then stored in a dedicated vectors are then stored in a dedicated vectors are then stored in a dedicated vector database. Now when a user asks a vector database. Now when a user asks a vector database. Now when a user asks a question, it performs question, it performs question, it performs a semantic search to retrieve the most a semantic search to retrieve the most a semantic search to retrieve the most relevant chunks and then inject them relevant chunks and then inject them relevant chunks and then inject them into the context window. So now the into the context window. So now the into the context window. So now the context window has the user prompt, but context window has the user prompt, but context window has the user prompt, but it also has all of these chunks that we it also has all of these chunks that we it also has all of these chunks that we have taken from the vector database and have taken from the vector database and have taken from the vector database and together together together this forms the context window. Now this this forms the context window. Now this this forms the context window. Now this works but it does rely on something. It works but it does rely on something. It works but it does rely on something. It relies on the hope that your retrieval relies on the hope that your retrieval relies on the hope that your retrieval logic actually found the right logic actually found the right logic actually found the right information in the vector database. Now information in the vector database. Now information in the vector database. Now the the second approach is really a bit the the second approach is really a bit the the second approach is really a bit more of a brute force approach and that more of a brute force approach and that more of a brute force approach and that one is called long one is called long one is called long context. Now this is really the model context. Now this is really the model context. Now this is really the model native solution because you skip the native solution because you skip the native solution because you skip the database here and you skip the embedding database here and you skip the embedding database here and you skip the embedding model. All you do is you take your model. All you do is you take your model. All you do is you take your documents and you just well you put them documents and you just well you put them documents and you just well you put them straight into the context window and straight into the context window and straight into the context window and then you let the model's attention then you let the model's attention then you let the model's attention mechanism actually do the heavy lifting mechanism actually do the heavy lifting mechanism actually do the heavy lifting of finding the answer. Now for a long of finding the answer. Now for a long of finding the answer. Now for a long time this kind of brute force method time this kind of brute force method time this kind of brute force method wasn't really much of an option because wasn't really much of an option because wasn't really much of an option because initially context windows were tiny. initially context windows were tiny. initially context windows were tiny. Early LLMs had context windows that Early LLMs had context windows that Early LLMs had context windows that could maybe store what like 4K of could maybe store what like 4K of could maybe store what like 4K of tokens. You couldn't fit a novel in tokens. You couldn't fit a novel in tokens. You couldn't fit a novel in there, let alone a corporate knowledge there, let alone a corporate knowledge there, let alone a corporate knowledge base. You basically had to use rag. But base. You basically had to use rag. But base. You basically had to use rag. But today's models have much larger context today's models have much larger context today's models have much larger context windows. Some of them have, you know, a windows. Some of them have, you know, a windows. Some of them have, you know, a million tokens plus. And to put that million tokens plus. And to put that million tokens plus. And to put that into perspective, a million tokens is into perspective, a million tokens is into perspective, a million tokens is roughly 700,000 words. and you could fit roughly 700,000 words. and you could fit roughly 700,000 words. and you could fit the entire Lord of the Rings series into the entire Lord of the Rings series into the entire Lord of the Rings series into the prompt and still have room for The the prompt and still have room for The the prompt and still have room for The Hobbit. So, this massive jump in Hobbit. So, this massive jump in Hobbit. So, this massive jump in capacity forces us to ask a difficult capacity forces us to ask a difficult capacity forces us to ask a difficult question about our architecture. Because question about our architecture. Because question about our architecture. Because if we can simply command A, command C, if we can simply command A, command C, if we can simply command A, command C, command V, all of our documentation into command V, all of our documentation into command V, all of our documentation into the models context window, do we really the models context window, do we really the models context window, do we really need the overhead of embedding models need the overhead of embedding models need the overhead of embedding models and vector data stores? Is rag becoming and vector data stores? Is rag becoming and vector data stores? Is rag becoming an unnecessary complexity layer? Well, an unnecessary complexity layer? Well, an unnecessary complexity layer? Well, if we accept that we can fit whatever if we accept that we can fit whatever if we accept that we can fit whatever data we need into the context window, data we need into the context window, data we need into the context window, then the argument for doing so basically then the argument for doing so basically then the argument for doing so basically boils down to one word, boils down to one word, boils down to one word, simplicity. And let me give you three simplicity. And let me give you three simplicity. And let me give you three reasons why stuffing the context window reasons why stuffing the context window reasons why stuffing the context window directly may indeed be the way to go. directly may indeed be the way to go. directly may indeed be the way to go. And reason number one is collapsing the And reason number one is collapsing the And reason number one is collapsing the infrastructure. A production rag system. infrastructure. A production rag system. infrastructure. A production rag system. Well, it is quite heavy. You need a a Well, it is quite heavy. You need a a Well, it is quite heavy. You need a a chunking strategy which is like fixed chunking strategy which is like fixed chunking strategy which is like fixed size maybe or sliding window or size maybe or sliding window or size maybe or sliding window or recursive. You decide. You're going to recursive. You decide. You're going to recursive. You decide. You're going to need a embedding model to encode the need a embedding model to encode the need a embedding model to encode the data. You need a a vector database to data. You need a a vector database to data. You need a a vector database to store it. You're going to need a store it. You're going to need a store it. You're going to need a reranker to sort the results. you need reranker to sort the results. you need reranker to sort the results. you need to keep all the vectors in sync with to keep all the vectors in sync with to keep all the vectors in sync with your source data. It's basically a lot your source data. It's basically a lot your source data. It's basically a lot of moving parts, a lot of places for of moving parts, a lot of places for of moving parts, a lot of places for things to break. And long context offers things to break. And long context offers things to break. And long context offers what we might call well just simply the what we might call well just simply the what we might call well just simply the uh the no stack stack. You remove the uh the no stack stack. You remove the uh the no stack stack. You remove the database, you remove the embeddings, you database, you remove the embeddings, you database, you remove the embeddings, you remove the retrieval logic. The remove the retrieval logic. The remove the retrieval logic. The architecture simplifies down to getting architecture simplifies down to getting architecture simplifies down to getting the data and just well sending it to the the data and just well sending it to the the data and just well sending it to the model. So that's reason number one. model. So that's reason number one. model. So that's reason number one. Reason number two is the retrieval Reason number two is the retrieval Reason number two is the retrieval lottery. Now, rag introduces a critical lottery. Now, rag introduces a critical lottery. Now, rag introduces a critical point of failure here, the retrieval point of failure here, the retrieval point of failure here, the retrieval step itself, because when a user asks a step itself, because when a user asks a step itself, because when a user asks a question, rag looks at mathematical question, rag looks at mathematical question, rag looks at mathematical representations of the data which are representations of the data which are representations of the data which are stored in vectors. And vectors are stored in vectors. And vectors are stored in vectors. And vectors are basically just like a really long series basically just like a really long series basically just like a really long series of numbers in an array. And it tries to of numbers in an array. And it tries to of numbers in an array. And it tries to find the closest match. That's semantic find the closest match. That's semantic find the closest match. That's semantic search. But semantic search is search. But semantic search is search. But semantic search is probabilistic and for all manner of probabilistic and for all manner of probabilistic and for all manner of reasons, the retrieval might fail to reasons, the retrieval might fail to reasons, the retrieval might fail to find the relevant document. And we find the relevant document. And we find the relevant document. And we actually have a name for this. It's actually have a name for this. It's actually have a name for this. It's called silent failure. The answer, well, called silent failure. The answer, well, called silent failure. The answer, well, it existed in the data, but the LLM it existed in the data, but the LLM it existed in the data, but the LLM never saw it because the retrieval step never saw it because the retrieval step never saw it because the retrieval step didn't return the right results. With didn't return the right results. With didn't return the right results. With long context, there is no retrieval long context, there is no retrieval long context, there is no retrieval step. The model gets to see everything. step. The model gets to see everything. step. The model gets to see everything. Now, reason number three Now, reason number three Now, reason number three that is well, I think we're going to that is well, I think we're going to that is well, I think we're going to call this the whole book problem. A rag call this the whole book problem. A rag call this the whole book problem. A rag is fundamentally designed to retrieve is fundamentally designed to retrieve is fundamentally designed to retrieve what exists. It relies on finding a what exists. It relies on finding a what exists. It relies on finding a semantic match between your query and a semantic match between your query and a semantic match between your query and a specific snippet of text in your specific snippet of text in your specific snippet of text in your database. But what if the answer lies in database. But what if the answer lies in database. But what if the answer lies in what's not in the database? So, so let's what's not in the database? So, so let's what's not in the database? So, so let's say you have a set of product say you have a set of product say you have a set of product requirements stored as a document and requirements stored as a document and requirements stored as a document and you've also got a set of release notes you've also got a set of release notes you've also got a set of release notes stored as a document and then we ask stored as a document and then we ask stored as a document and then we ask which security requirements were omitted which security requirements were omitted which security requirements were omitted from the final release. Now using rag from the final release. Now using rag from the final release. Now using rag when you query for omitted security when you query for omitted security when you query for omitted security requirements the vector search looks for requirements the vector search looks for requirements the vector search looks for chunks discussing well security and chunks discussing well security and chunks discussing well security and requirements. It retrieves snippets from requirements. It retrieves snippets from requirements. It retrieves snippets from the requirements doc. It retrieves the requirements doc. It retrieves the requirements doc. It retrieves snippets from the release notes, but it snippets from the release notes, but it snippets from the release notes, but it cannot retrieve the gap between them. cannot retrieve the gap between them. cannot retrieve the gap between them. And because rag only shows the model a And because rag only shows the model a And because rag only shows the model a few isolated snapshots, the model never few isolated snapshots, the model never few isolated snapshots, the model never sees the full picture required to spot sees the full picture required to spot sees the full picture required to spot the missing pieces. The model really the missing pieces. The model really the missing pieces. The model really needs both of these documents in full to needs both of these documents in full to needs both of these documents in full to perform the comparison, which is exactly perform the comparison, which is exactly perform the comparison, which is exactly what long context does by dumping the what long context does by dumping the what long context does by dumping the whole book. the full requirements dock whole book. the full requirements dock whole book. the full requirements dock and the full release notes into the and the full release notes into the and the full release notes into the context window. So, is rag dead? Is the context window. So, is rag dead? Is the context window. So, is rag dead? Is the vector database destined for the museum vector database destined for the museum vector database destined for the museum of things we needed in 2024? of things we needed in 2024? of things we needed in 2024? Well, not quite because while long Well, not quite because while long Well, not quite because while long context wins on simplicity, rag still context wins on simplicity, rag still context wins on simplicity, rag still has a place. And I got another three has a place. And I got another three has a place. And I got another three reasons to support that. So, reason reasons to support that. So, reason reasons to support that. So, reason number one is the rereading text. Now, number one is the rereading text. Now, number one is the rereading text. Now, long context creates a massive compute long context creates a massive compute long context creates a massive compute inefficiency. So, if we take a manual, inefficiency. So, if we take a manual, inefficiency. So, if we take a manual, let's say this is like a a 500 page let's say this is like a a 500 page let's say this is like a a 500 page manual, and we've got to turn this into manual, and we've got to turn this into manual, and we've got to turn this into tokens. Well, that's something like 250k tokens. Well, that's something like 250k tokens. Well, that's something like 250k of tokens. And we need to do that every of tokens. And we need to do that every of tokens. And we need to do that every time we make a user query and we put time we make a user query and we put time we make a user query and we put this document in the prompt. You're this document in the prompt. You're this document in the prompt. You're basically requiring the model to process basically requiring the model to process basically requiring the model to process that manual every time. Now, rag also that manual every time. Now, rag also that manual every time. Now, rag also has to process that manual, but it only has to process that manual, but it only has to process that manual, but it only pays that processing cost once at pays that processing cost once at pays that processing cost once at indexing time. Now, prompt caching that indexing time. Now, prompt caching that indexing time. Now, prompt caching that can partially offset some of this for can partially offset some of this for can partially offset some of this for static data, but for dynamic data static data, but for dynamic data static data, but for dynamic data streams where content changes streams where content changes streams where content changes frequently, you are stuck paying the frequently, you are stuck paying the frequently, you are stuck paying the full tax on every request. full tax on every request. full tax on every request. Reason number two is the needle in the Reason number two is the needle in the Reason number two is the needle in the haystack problem. Now, there's a an haystack problem. Now, there's a an haystack problem. Now, there's a an intuitive assumption that if data is in intuitive assumption that if data is in intuitive assumption that if data is in the context window, the model's probably the context window, the model's probably the context window, the model's probably going to use it, but research suggests going to use it, but research suggests going to use it, but research suggests otherwise. Because as we start with a otherwise. Because as we start with a otherwise. Because as we start with a context window and then it grows and it context window and then it grows and it context window and then it grows and it continues to grow and now we're at like continues to grow and now we're at like continues to grow and now we're at like 500,000 tokens, well, the model's 500,000 tokens, well, the model's 500,000 tokens, well, the model's attention mechanism can get a bit attention mechanism can get a bit attention mechanism can get a bit diluted. If you ask a specific question diluted. If you ask a specific question diluted. If you ask a specific question about a single paragraph that's buried about a single paragraph that's buried about a single paragraph that's buried in, let's say, the middle of a 2,000page in, let's say, the middle of a 2,000page in, let's say, the middle of a 2,000page document, well, the model often fails to document, well, the model often fails to document, well, the model often fails to retrieve it or it hallucinates details retrieve it or it hallucinates details retrieve it or it hallucinates details from the surrounding text. But with rag, from the surrounding text. But with rag, from the surrounding text. But with rag, we're giving the model less noise. So by we're giving the model less noise. So by we're giving the model less noise. So by retrieving, say only the top five retrieving, say only the top five retrieving, say only the top five relevant chunks, rag has removed the relevant chunks, rag has removed the relevant chunks, rag has removed the haystack and presents the model with haystack and presents the model with haystack and presents the model with just the needles. It forces the model to just the needles. It forces the model to just the needles. It forces the model to focus on the signal and not the noise. focus on the signal and not the noise. focus on the signal and not the noise. And then reason number three, well that And then reason number three, well that And then reason number three, well that is the infinite data set. Now a context is the infinite data set. Now a context is the infinite data set. Now a context window of millions of tokens sounds window of millions of tokens sounds window of millions of tokens sounds great but in the scheme of enterprise great but in the scheme of enterprise great but in the scheme of enterprise data that's really just a drop in the data that's really just a drop in the data that's really just a drop in the bucket. I mean an enterprise data lake bucket. I mean an enterprise data lake bucket. I mean an enterprise data lake that's probably measured in terabytes or that's probably measured in terabytes or that's probably measured in terabytes or or maybe even pabytes. So if you want an or maybe even pabytes. So if you want an or maybe even pabytes. So if you want an infinite data set that stores infinite data set that stores infinite data set that stores everything, you really do need to have a everything, you really do need to have a everything, you really do need to have a retrieval layer to filter information retrieval layer to filter information retrieval layer to filter information down to something that fits into the LLM down to something that fits into the LLM down to something that fits into the LLM context window. So where does this leave context window. So where does this leave context window. So where does this leave us? Well, if your problem involves a us? Well, if your problem involves a us? Well, if your problem involves a bounded data set and requires complex bounded data set and requires complex bounded data set and requires complex global reasoning like analyzing a global reasoning like analyzing a global reasoning like analyzing a specific legal contract or summarizing a specific legal contract or summarizing a specific legal contract or summarizing a book, I think long context is the way to book, I think long context is the way to book, I think long context is the way to go. It simplifies the stack and it go. It simplifies the stack and it go. It simplifies the stack and it improves the reasoning. But if you're improves the reasoning. But if you're improves the reasoning. But if you're navigating the infinite data set of navigating the infinite data set of navigating the infinite data set of enterprise knowledge, the vector enterprise knowledge, the vector enterprise knowledge, the vector database remains the only viable database remains the only viable database remains the only viable warehouse for your data. But how about warehouse for your data. But how about warehouse for your data. But how about you? Are you team long context, team you? Are you team long context, team you? Are you team long context, team rag, maybe a bit of both? Let me know in rag, maybe a bit of both? Let me know in rag, maybe a bit of both? Let me know in the comments.",
+  "fetchedAt": "2026-03-09T15:41:19.491Z"
+}

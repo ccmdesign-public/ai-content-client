@@ -4,26 +4,21 @@ metadata:
   title: "The AI Awards 2025 - Best LLM? Biggest Moment in AI? Best Agentic Coder?"
   description: "The AI Awards 2025 - Best LLM? Biggest Moment in AI? Best Agentic Coder?
 
-
     My AI Video Course:
 
     https://www.theaivideocourse.com/
-
 
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
 
-
     Business Inquiries:
 
     kbfseo@gmail.com
-
 
     00:00 Intro
 
@@ -100,6 +95,17 @@ tools:
     url: null
   - name: "GPT 5.1"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "computer-vision"
+  - "copilot"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.453Z"
 ---
 
 ## Key Takeaways
@@ -123,11 +129,13 @@ Mind/Google) was celebrated as AI Person of the Year for his leadership in Googl
 The "All About AI" channel hosted its annual AI Awards for 2025, presenting a personal perspective on the year's most impactful developments and technologies across 13 categories. The awards covered a broad spectrum of AI, from coding platforms to large language models, aiming to highlight outstanding achievements and surprising turns.
 
 ### Coding and Development
+
 In the coding and development sphere, **Lovable** was recognized as the Best Vibe Coding Platform for its user-friendliness and significant user adoption, serving as an excellent entry point for non-technical users. The **Cursor** IDE took the award for Best AI IDE, praised for its seamless integration, agentic capabilities, and the introduction of its own "Composer" frontier model. For **Best Agentic Coder**, the clear winner was **Cloud Code**, lauded for its comprehensive tools, new skills, and integration with Opus 4.5, with Open Code being a highly recommended runner-up, especially when paired with Open
 
 Router.
 
 ### Open-Source and Media Models
+
 The open-source community saw **Quen** (now owned by Alibaba) named the Best Open-Source Company for its diverse contributions, including image generation (Quen 3VL), research tools, and the popular Quen 3 Coder and Van 2.2 video models. The **Kim K2 Thinking** model from Moonshot AI was awarded Best Open-Source Large Language Model, highlighted for its superb performance and popularity on platforms like Open
 
 Router.
@@ -135,6 +143,7 @@ Router.
 Image and video AI models also received accolades. **Nano Banana Pro** was a clear winner for Best Image Model, celebrated for its fun, consistent, and mind-blowing capabilities, particularly in generating infographics and complex compositions. For video, **VO3** took the Best AI Video Model award, acknowledged for its immense impact in 2025, including native audio integration, despite other strong contenders like Sora 2 and various Kiling models.
 
 ### Industry Dynamics and Key Figures
+
 The awards also addressed broader industry dynamics. **OpenAI** was identified as the Biggest Disappointment, primarily due to a perceived lack of focus on its core language models, branching into too many areas like the GPT store and potentially losing its competitive edge to rivals. Conversely, **Google's strong comeback** was the Biggest Surprise, attributed to its strategic releases like Gemini 2.5 Pro with a million-context window, VO3, and Nano Banana, which propelled Google to a leading position in various AI domains, particularly images and video.
 
 Among startups, **Open Code** was honored as the Best AI Startup for its superb product and open-source nature, often used in conjunction with Open
@@ -144,6 +153,7 @@ Router. Other notable startups included Artificial Analysis for its valuable ben
 Mind and Google, recognized for his instrumental role in Google's AI resurgence and his intelligent insights.
 
 ### Defining Moments and Best LLM
+
 The **Biggest Moment in AI for 2025** was undoubtedly the release of **Deep
 
 Seek R1**. This event had a massive impact on the stock market, including a significant drop for Nvidia, and critically, put China back on the map as a major player in AI research and development.

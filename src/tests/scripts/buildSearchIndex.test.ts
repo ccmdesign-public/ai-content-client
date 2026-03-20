@@ -77,9 +77,9 @@ describe('buildSearchIndex output', () => {
     expect(fieldNames).not.toContain('outputTokens')
   })
 
-  it('index size is within budget (< 1MB raw)', () => {
+  it('index size is within budget (< 10MB raw)', () => {
     const raw = readFileSync(INDEX_PATH, 'utf-8')
-    const sizeKB = Buffer.byteLength(raw) / 1024
-    expect(sizeKB).toBeLessThan(1024) // Under 1MB
+    const sizeMB = Buffer.byteLength(raw) / (1024 * 1024)
+    expect(sizeMB).toBeLessThan(10) // Under 10MB (includes transcript text in inverted index)
   })
 })

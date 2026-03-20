@@ -54,13 +54,11 @@ metadata:
 
     LinkedIn https://www.linkedin.com
 
-
     Host Links:
 
     📲Kipp Bodnar, https://twitter.com/kippbodnar \ 
 
     📲Kieran Flanagan, https://twitter.com/searchbrat\ 
-
 
     ‘Marketing Against The Grain’ is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Produced by Darren Clarke.
 
@@ -93,6 +91,18 @@ tools:
     url: "https://www.reddit.com"
   - name: "LinkedIn"
     url: "https://www.linkedin.com"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "best-practices"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.367Z"
 ---
 
 ## Key Takeaways
@@ -114,12 +124,15 @@ The hosts of *Marketing Against the Grain* react with alarm to the launch of **A
 In and Reddit. They argue this represents everything wrong with current AI applications in marketing: it's spammy, inauthentic, and paints the entire profession in a terrible light.
 
 ### The Problem with Automated Outreach
+
 They dissect the tool's demo, which shows AI agents researching topics, drafting 'human-sounding' comments aimed at conversion, and creating an automated workflow. The hosts vehemently disagree with this approach. **Kieran** states, "This is not marketing. This is commenting." They emphasize that community participation is about genuine engagement, not conversion-driven spam, and that platforms like Reddit will blackball such behavior.
 
 ### A Dystopian Future: The Dead Internet Theory
+
 They warn that tools like this lead toward the **'dead internet theory,'** where AI creates content, AI distributes it, and AI comments on it, creating a closed loop devoid of human value. They cite **Stack Overflow** as a cautionary tale—once a vibrant community, it was rendered less valuable once AI models ingested all its data and the incentive for human participation dwindled. If marketing follows this automated path, the internet becomes "unusable" and "garbage."
 
 ### The Path Forward: A Marketing Renaissance
+
 The hosts present a clear alternative: the **Renaissance path**. Here, AI is used as an **assistant to human craftspeople**, not a replacement. They give the example of a video creator using AI tools to produce high-quality commercials faster and cheaper, allowing him to **"craft more things of value."** The key is using AI to handle mundane tasks, freeing marketers to do the irreplaceable human work:
 
 - Building a tribe and community

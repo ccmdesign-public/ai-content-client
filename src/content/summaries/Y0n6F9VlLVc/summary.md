@@ -120,6 +120,19 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - "ai-coding"
+  - "claude"
+  - "design-systems"
+  - "figma"
+  - "tailwind"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.520Z"
 ---
 
 ## Key Takeaways

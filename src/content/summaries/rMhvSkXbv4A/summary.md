@@ -4,9 +4,7 @@ metadata:
   title: "Tool definitions are the new Prompt Engineering"
   description: "Alex Salazar is the CEO and Co-Founder of Arcade.dev, working on secure AI agents and real-world automation integrations.
 
-
     Chiara Caratelli is a Data Scientist at Prosus Group, working on AI agents, web automation, and evaluation of robust multimodal models.
-
 
     Join the Community: https://go.mlops.community/YTJoinIn
 
@@ -14,11 +12,9 @@ metadata:
 
     MLOps GPU Guide: https://go.mlops.community/gpuguide
 
-
     // Abstract
 
     Agents sound smart until millions of users show up. A real talk on tools, UX, and why autonomy is overrated.
-
 
     // Bio
 
@@ -26,21 +22,17 @@ metadata:
 
     Chiara is a Data Scientist at Prosus, where she develops AI-driven solutions with a focus on AI agents, multimodal models, and new user experiences. With a PhD in Computational Science and a background in machine learning engineering and data science, she has worked on deploying AI-powered applications at scale, collaborating with Prosus portfolio companies to drive real-world impact.
 
-
     Beyond her work at Prosus, she enjoys experimenting with generative AI and art. She is also an avid climber and book reader, always eager to explore new ideas and share knowledge with the AI and ML community.
-
 
     Alex Salazar
 
     Alex is the CEO and co-founder of Arcade.dev, the unified agent action platform that makes AI agents production-ready. Previously, Salazar co-founded Stormpath, the first authentication API for developers, which was acquired by Okta. At Okta, he led developer products, accounting for 25% of total bookings, and launched a new auth-centric proxy server product that reached $9M in revenue within a year. He also managed Okta's network of over 7,000 auth integrations. Alex holds a computer science degree from Georgia Tech and an MBA from Stanford University.
-
 
     // Related Links
 
     Website: https://www.prosus.com/
 
     Website: https://www.arcade.dev/
-
 
     ~~~~~~~~ ✌️Connect With Us ✌️ ~~~~~~~
 
@@ -56,13 +48,11 @@ metadata:
 
     MLOps GPU Guide: https://go.mlops.community/gpuguide
 
-
     Connect with Demetrios on LinkedIn: /dpbrinkm
 
     Connect with Alex on LinkedIn: /alexsalazar/
 
     Connect with Chiara on LinkedIn: /chiara-caratelli/
-
 
     Timestamps:
 
@@ -111,6 +101,17 @@ ai:
 tools:
   - name: "Arcade.dev"
     url: "https://www.arcade.dev/"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "agents"
+  - "api-design"
+  - "architecture"
+  - "llm"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.428Z"
 ---
 
 ## Key Takeaways
@@ -143,9 +144,11 @@ Food developed an agentic interface that moves beyond simple search to proactive
 App**, where they use voice notes and are more patient with latency. Conversely, the in-app experience requires a 'snappier' interface with buttons and swiping components integrated directly into the agent's tool outputs.
 
 ### Tool Definitions as the New Prompt Engineering
+
 Alex, CEO of Arcade, argues that the industry's focus is moving from prompt engineering to the design of **tool definitions**. He asserts that tools should be the 'inverse' of APIs. While an API reflects the requirements of a downstream service, a tool should reflect the **intention of the agent**. For example, instead of giving an agent access to a raw file-storage API—which requires the model to navigate folders and understand timestamps—developers should provide a high-level 'Get Sales Material' tool. This encapsulation reduces the number of 'turns' the LLM takes, lowering latency and the risk of hallucination. By pushing logic into deterministic code within the tool, developers save context window space and improve system stability.
 
 ### Evaluation and Machine Learning Integration
+
 Evaluation is no longer about generic 'faithfulness' but about **business value and error analysis**. Kiara highlights that i
 
 Food uses its 7,000 employees as a testing ground to build a **Taxonomy of Errors**. This taxonomy is then used to create an 'LLM-as-judge' that is highly specific to the food delivery domain. Additionally, i
@@ -153,6 +156,7 @@ Food uses its 7,000 employees as a testing ground to build a **Taxonomy of Error
 Food utilizes a hybrid approach involving a **Large Commerce Model (LCM)**. While foundational models handle the conversation, fine-tuned models create 'LLM-friendly' representations of users. This allows the system to infer nuanced preferences—like identifying a 'meat lover' by analyzing pizza topping history—and pass that as context to the agent, a task traditional ML or raw prompts struggle to do at scale.
 
 ### Governance and Scaling to 30,000 Agents
+
 As organizations aim for massive agent counts, the conversation shifts to **governance and reusability**. Alex notes that in large enterprises, multiple teams often build the same tools (e.g., CRM connectors). He advocates for 'layering' tools: creating shared, governed system tools that individual teams can then wrap with agent-specific logic. This requires a **Central Tool Registry** to manage versioning and security policies (e.g., preventing external-facing agents from accessing internal-only data). However, the speakers caution against 'top-down over-engineering.' Teams should first solve specific business problems 'vertically' before abstracting those solutions into horizontal, shared resources.
 
 ## Context

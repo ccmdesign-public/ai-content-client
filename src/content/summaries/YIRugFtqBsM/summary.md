@@ -60,6 +60,16 @@ tools:
     url: "https://betterstack.com/"
   - name: "GitHub"
     url: "https://github.com"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Web Development"
+tags:
+  - "ai-coding"
+  - "monetization"
+  - "saas"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.274Z"
 ---
 
 ## Key Takeaways

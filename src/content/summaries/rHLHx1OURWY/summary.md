@@ -18,7 +18,6 @@ metadata:
 
     Patagonia 2011 New York Times ad ⁠https://www.patagonia.com/stories/planet/activism/dont-buy-this-jacket-black-friday-and-the-new-york-times/story-18615.html
 
-
     Timestamps
 
     00:00 AI Content Backlash
@@ -31,16 +30,13 @@ metadata:
 
     15:19 Intentional Learning Beats AI
 
-
     Host Links:
 
     📲Kipp Bodnar, https://twitter.com/kippbodnar \ 
 
     📲Kieran Flanagan, https://twitter.com/searchbrat\ 
 
-
     ‘Marketing Against The Grain’ is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Produced by Darren Clarke.
-
 
     About the Show
 
@@ -67,6 +63,15 @@ ai:
 tools:
   - name: "Grok"
     url: "https://grok.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "best-practices"
+  - "llm"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.462Z"
 ---
 
 ## Key Takeaways
@@ -84,6 +89,7 @@ The core message predicts an AI backlash and rising value of human-driven conten
 Equinox's January 2026 ad campaign deliberately used disorienting, rapid-fire AI-generated imagery (termed "AI slop") as social commentary. With clips lasting just 2 seconds before revealing their tagline at 0:25, the ad mirrors consumer fatigue with overwhelming, low-quality AI content. Hosts Kieran and Karen argue this signals a cultural tipping point:
 
 ### Backlash Against AI Slop
+
 Consumers increasingly reject content created through minimal-effort AI prompts—characterized as generic, personality-deficient, and disposable. Like the organic food movement, audiences will soon prefer **human-driven "organic content"** verified for authenticity.
 
 ### Human Craft as Competitive Advantage

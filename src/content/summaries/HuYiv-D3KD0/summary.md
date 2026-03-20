@@ -4,7 +4,6 @@ metadata:
   title: "AWS Solutions Architect Question of the Day | Question 20 of 65"
   description: "AWS Solutions Architect Question of the Day | Question 20 of 65
 
-
     🔥 Concept Focus: DDoS vs Application Attacks
 
     - In AWS security design, treat these as two separate problems:
@@ -13,14 +12,11 @@ metadata:
 
     - SQL injection & malicious requests → handled at the application layer with inspection and rules
 
-
     High-traffic architectures usually combine an edge-based DDoS service with a web application firewall in front of the load balancer or CDN.
-
 
     👉 Follow this pattern whenever you see “DDoS + SQL injection” in exam questions.
 
     👉 Ready to ace your AWS Solutions Architect certification? Enroll in our comprehensive course with hands-on labs, practice exams, and expert guidance: https://kode.wiki/3YIuZUE
-
 
     #AWS #WebSecurity #AppSec #CloudArchitecture #CertificationPrep"
   channel: "KodeKloud"
@@ -57,6 +53,15 @@ tools:
     url: null
   - name: "Amazon CloudFront"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
+tags:
+  - "architecture"
+  - "aws"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.426Z"
 ---
 
 ## Key Takeaways
@@ -78,6 +83,7 @@ The video presents a certification question where an e-commerce company preparin
 Front.
 
 ### Analyzing the Incorrect Options
+
 Several AWS services are ruled out because they don't address the specific requirements:
 
 *   **Security Groups and Network ACLs (NACLs)** operate at lower network layers (IP/port level) and cannot inspect application payloads to detect SQL injection patterns.

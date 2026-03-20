@@ -4,11 +4,9 @@ metadata:
   title: "This Keyboard Tool is BETTER Than Karabiner (Here's Why)"
   description: "Kanata is the game-changing open-source keyboard tool that works entirely at the software level, giving you the power of QMK without needing custom hardware. Unlike Karabiner, Kanata offers unmatched flexibility with advanced remapping capabilities, layers, and macros that transform how you use your keyboard. In this video, I'll walk you through what sets Kanata apart from Karabiner and show you practical ways to maximize your keyboard's potential, turning it into a productivity powerhouse that adapts to your workflow.
 
-
     🔗 Relevant Links
 
     dotfiles - https://github.com/RichardBray/dotfiles
-
 
     ❤️ More about us
 
@@ -17,7 +15,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -28,7 +25,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:"
   channel: "Better Stack"
@@ -59,6 +55,14 @@ tools:
     url: null
   - name: "SketchyBar"
     url: null
+categories:
+  - "Tools & Productivity"
+tags:
+  - "automation"
+  - "scripting"
+  - "terminal"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.368Z"
 ---
 
 ## Key Takeaways
@@ -78,9 +82,11 @@ Canata offers powerful keyboard customization with unique advantages over altern
 **Canata** is presented as a powerful, open-source alternative to Karabiner-Elements for advanced keyboard remapping on macOS. It is built in Rust for performance and draws inspiration from QMK keyboard firmware, bringing hardware-like customization to the software level for any keyboard.
 
 ### Configuration: Power Through Complexity
+
 The primary hurdle is its configuration syntax. Instead of JSON or YAML, Canata uses **S-expressions** (inspired by Lisp), where function names and arguments are nested inside parentheses. For example, mapping the 'A' key to 'X' requires writing `(defsrc A)` and `(deflayer base X)`. While initially alien, this syntax enables advanced behaviors like defining variables and complex nested functions for efficient configuration.
 
 ### Key Features and Advantages
+
 The tool excels at **tap-hold behaviors** and **layers**. You can configure a key to output one character when tapped (e.g., 'X') and act as a modifier (e.g., Left Shift) when held. This is ideal for implementing **home row mods**, where your fingers rarely leave the home keys. The creator found Canata's implementation far more reliable than Karabiner-Elements', which frequently registered holds as taps.
 
 Layers allow completely different keymaps for different contexts (e.g., a dedicated 'editor' layer for video editing). A **TCP server** feature lets other applications listen for layer changes; the creator uses this with Sketchy
@@ -88,9 +94,11 @@ Layers allow completely different keymaps for different contexts (e.g., a dedica
 Bar to display the active layer on the desktop.
 
 ### Comparison with Karabiner-Elements
+
 While Karabiner-Elements has advantages—a graphical interface, application-specific rules, an intuitive event viewer for testing, and broader key remapping capabilities (like remapping media keys)—it falls short for the specific use case of reliable home row mods. Canata handles this core feature flawlessly with minimal configuration.
 
 ### Drawbacks and Limitations
+
 Canata is not without compromises:
 
 *   Requires separate configuration files for different keyboards, and you must manually run a command to switch between them.

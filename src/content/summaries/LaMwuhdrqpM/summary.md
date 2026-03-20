@@ -4,9 +4,7 @@ metadata:
   title: "High protein dish from just lentils! You won't believe how amazing this lentil recipe is!"
   description: "Unbelievable! Mix 1 cup lentils with water to surprise everyone! Incredibly simple and delicious lentil recipe! This lentil tofu tastes better than meat and is high protein. Incredibly tasty way to cook lentils! My whole family and friends like it so much! Watch the video and learn the new way how to cook lentils at home, it’s easy, highly nutritious! Everyone will be delighted with its taste! Happy cooking and wishing you a wonderful day! 😊 💖
 
-
     ❤️ SUBSCRIBE to see new recipes: https://www.youtube.com/@WeCookVegan
-
 
     🥣 Ingredients:
 
@@ -16,7 +14,6 @@ metadata:
 
     1/2tsp salt (optional)
 
-
     🧑‍🍳 Cooking tips:\ 
 
     ℹ️ Feel free to add your favourite dried herbs and spices to get the flavour you enjoy the most.
@@ -25,20 +22,15 @@ metadata:
 
     ℹ️ You can add sauce to lentils tofu or season with spices, whatever you prefer. You can also stir fry it or bake in the oven and enjoy in a salad or a rice dish.\ 
 
-
     ✅ℹ️ On my cooking channel you will find many more easy vegan recipes!  You will learn how to cook delicious plant based dishes with little time and on a budget with ingredients anyone can afford.
-
 
     My friends, if you like this video you can help to grow the channel:
 
     👍 Rate the video ❤️
 
-
     ✍️ WRITE A COMMENT, ask me a question and share your cooking ideas! I will be more than happy to answer all comments.\ 
 
-
     Thank you so much for watching and see you again soon! 💚 😊 💖
-
 
     #recipe #vegan #lentils #cooking"
   channel: "We Cook Vegan"
@@ -69,6 +61,11 @@ ai:
   totalTokens: 2354
   processingTimeMs: 11064
 tools: []
+categories:
+  - "Tools & Productivity"
+tags:
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.435Z"
 ---
 
 ## Key Takeaways
@@ -88,12 +85,15 @@ This tutorial provides a simple method for creating a versatile plant-based prot
 This recipe introduces an efficient way to create "lentil tofu," a soy-free, high-protein alternative to traditional bean curd. The process begins with **rinsing 1 cup (200g) of red lentils** and combining them with **3 cups (700ml) of boiling water** in a blender. This mixture must soak for at least 30 minutes to soften the legumes before blending until perfectly smooth.
 
 ### The Cooking Process
+
 Once blended, the liquid is transferred to a medium saucepan. It is vital to cook the mixture over **medium heat while whisking constantly**. As the mixture begins to bubble and thicken, the heat should be reduced to medium-low. The goal is to stir continuously for 7 to 10 minutes until the consistency is very thick and heavy. Because the mixture sets rapidly once removed from the heat, you must work quickly to transfer it into a container and smooth the top with a spatula.
 
 ### Setting and Cooling
+
 The mixture requires a two-stage cooling process to achieve the right firmness. First, it should sit at **room temperature for one hour**, followed by **overnight refrigeration**. This extended chilling period allows the lentil starches to fully bond, resulting in a block that can be easily inverted onto a cutting board and sliced into cubes, strips, or triangles.
 
 ### Final Preparation and Serving
+
 The finished lentil tofu has a texture remarkably similar to soy-based tofu. To prepare it for eating, the video recommends **air frying the slices at 400°F (200°C) for 15 minutes**, flipping halfway through. Before or after air frying, the cubes can be seasoned with salt, spices, or sauces like **soy sauce or coconut aminos**. This method produces a dish that is crispy on the outside and tender on the inside, making it an excellent addition to salads, bowls, or stir-fries.
 
 ## Context

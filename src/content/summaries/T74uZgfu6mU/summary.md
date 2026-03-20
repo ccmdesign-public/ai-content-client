@@ -73,6 +73,15 @@ ai:
   fallbackAttempts: 0
   processingTimeMs: 0
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "architecture"
+  - "best-practices"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.365Z"
 ---
 
 Nate B Jones identifies a critical, emerging failure mode in the transition from "Chatbot AI" to "Agentic AI": the total erosion of institutional knowledge. While most organizations focus on prompt injection or hallucination, the greater threat is that as AI agents take over complex workflows, the humans previously responsible for those tasks lose the first-principles understanding required to troubleshoot or pivot when the AI fails.

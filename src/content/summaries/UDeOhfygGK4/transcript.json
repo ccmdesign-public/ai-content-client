@@ -1,0 +1,869 @@
+{
+  "videoId": "UDeOhfygGK4",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.95,
+      "duration": 0.009999999999999787,
+      "text": "Five new features, 31 bug fixes, and"
+    },
+    {
+      "start": 2.96,
+      "duration": 2.55,
+      "text": "Five new features, 31 bug fixes, and four improvements across two releases."
+    },
+    {
+      "start": 5.51,
+      "duration": 0.009999999999999787,
+      "text": "four improvements across two releases."
+    },
+    {
+      "start": 5.52,
+      "duration": 1.8290000000000006,
+      "text": "four improvements across two releases. Starting with models, a new model"
+    },
+    {
+      "start": 7.349,
+      "duration": 0.009999999999999787,
+      "text": "Starting with models, a new model"
+    },
+    {
+      "start": 7.359,
+      "duration": 2.9510000000000005,
+      "text": "Starting with models, a new model override setting lets you map model"
+    },
+    {
+      "start": 10.31,
+      "duration": 0.009999999999999787,
+      "text": "override setting lets you map model"
+    },
+    {
+      "start": 10.32,
+      "duration": 2.709999999999999,
+      "text": "override setting lets you map model picker entries to custom provider ids"
+    },
+    {
+      "start": 13.03,
+      "duration": 0.009999999999999787,
+      "text": "picker entries to custom provider ids"
+    },
+    {
+      "start": 13.04,
+      "duration": 4.390000000000001,
+      "text": "picker entries to custom provider ids like bedrock inference profile. A rns"
+    },
+    {
+      "start": 17.43,
+      "duration": 0.010000000000001563,
+      "text": "like bedrock inference profile. A rns"
+    },
+    {
+      "start": 17.44,
+      "duration": 2.389999999999997,
+      "text": "like bedrock inference profile. A rns default opus is now 4.6 on Bedrock,"
+    },
+    {
+      "start": 19.83,
+      "duration": 0.010000000000001563,
+      "text": "default opus is now 4.6 on Bedrock,"
+    },
+    {
+      "start": 19.84,
+      "duration": 2.3900000000000006,
+      "text": "default opus is now 4.6 on Bedrock, Vert.Ex, and Foundry. Sub agents no"
+    },
+    {
+      "start": 22.23,
+      "duration": 0.00999999999999801,
+      "text": "Vert.Ex, and Foundry. Sub agents no"
+    },
+    {
+      "start": 22.24,
+      "duration": 1.990000000000002,
+      "text": "Vert.Ex, and Foundry. Sub agents no longer silently downgrade to older model"
+    },
+    {
+      "start": 24.23,
+      "duration": 0.00999999999999801,
+      "text": "longer silently downgrade to older model"
+    },
+    {
+      "start": 24.24,
+      "duration": 2.6300000000000026,
+      "text": "longer silently downgrade to older model versions, and full model ids now work in"
+    },
+    {
+      "start": 26.87,
+      "duration": 0.00999999999999801,
+      "text": "versions, and full model ids now work in"
+    },
+    {
+      "start": 26.88,
+      "duration": 2.3889999999999993,
+      "text": "versions, and full model ids now work in agent front matter. Permission prompts"
+    },
+    {
+      "start": 29.269,
+      "duration": 0.010000000000001563,
+      "text": "agent front matter. Permission prompts"
+    },
+    {
+      "start": 29.279,
+      "duration": 1.9899999999999984,
+      "text": "agent front matter. Permission prompts for complex bash commands no longer"
+    },
+    {
+      "start": 31.269,
+      "duration": 0.010000000000001563,
+      "text": "for complex bash commands no longer"
+    },
+    {
+      "start": 31.279,
+      "duration": 4.230999999999998,
+      "text": "for complex bash commands no longer freeze the entire session at 100% CPU. A"
+    },
+    {
+      "start": 35.51,
+      "duration": 0.010000000000005116,
+      "text": "freeze the entire session at 100% CPU. A"
+    },
+    {
+      "start": 35.52,
+      "duration": 2.0700000000000003,
+      "text": "freeze the entire session at 100% CPU. A deadlock that hit when many skill files"
+    },
+    {
+      "start": 37.59,
+      "duration": 0.00999999999999801,
+      "text": "deadlock that hit when many skill files"
+    },
+    {
+      "start": 37.6,
+      "duration": 2.948999999999998,
+      "text": "deadlock that hit when many skill files changed at once, like during a git pull,"
+    },
+    {
+      "start": 40.549,
+      "duration": 0.00999999999999801,
+      "text": "changed at once, like during a git pull,"
+    },
+    {
+      "start": 40.559,
+      "duration": 2.3910000000000053,
+      "text": "changed at once, like during a git pull, is fixed. Bash tool output no longer"
+    },
+    {
+      "start": 42.95,
+      "duration": 0.00999999999999801,
+      "text": "is fixed. Bash tool output no longer"
+    },
+    {
+      "start": 42.96,
+      "duration": 1.908999999999999,
+      "text": "is fixed. Bash tool output no longer vanishes when running multiple sessions"
+    },
+    {
+      "start": 44.869,
+      "duration": 0.00999999999999801,
+      "text": "vanishes when running multiple sessions"
+    },
+    {
+      "start": 44.879,
+      "duration": 2.871000000000002,
+      "text": "vanishes when running multiple sessions in the same project. A streaming API"
+    },
+    {
+      "start": 47.75,
+      "duration": 0.00999999999999801,
+      "text": "in the same project. A streaming API"
+    },
+    {
+      "start": 47.76,
+      "duration": 2.7890000000000015,
+      "text": "in the same project. A streaming API memory leak causing unbounded RSS growth"
+    },
+    {
+      "start": 50.549,
+      "duration": 0.00999999999999801,
+      "text": "memory leak causing unbounded RSS growth"
+    },
+    {
+      "start": 50.559,
+      "duration": 2.791000000000004,
+      "text": "memory leak causing unbounded RSS growth on node is patched. And IDE detection"
+    },
+    {
+      "start": 53.35,
+      "duration": 0.00999999999999801,
+      "text": "on node is patched. And IDE detection"
+    },
+    {
+      "start": 53.36,
+      "duration": 2.0700000000000003,
+      "text": "on node is patched. And IDE detection plus Mac OS clipboard pasting are both"
+    },
+    {
+      "start": 55.43,
+      "duration": 0.00999999999999801,
+      "text": "plus Mac OS clipboard pasting are both"
+    },
+    {
+      "start": 55.44,
+      "duration": 5.670000000000002,
+      "text": "plus Mac OS clipboard pasting are both faster."
+    },
+    {
+      "start": 62.63,
+      "duration": 0.00999999999999801,
+      "text": "MCPO"
+    },
+    {
+      "start": 62.64,
+      "duration": 3.1099999999999994,
+      "text": "MCPO off authentication no longer hangs when"
+    },
+    {
+      "start": 65.75,
+      "duration": 0.010000000000005116,
+      "text": "off authentication no longer hangs when"
+    },
+    {
+      "start": 65.76,
+      "duration": 2.789999999999992,
+      "text": "off authentication no longer hangs when the callback port is already in use."
+    },
+    {
+      "start": 68.55,
+      "duration": 0.010000000000005116,
+      "text": "the callback port is already in use."
+    },
+    {
+      "start": 68.56,
+      "duration": 2.469999999999999,
+      "text": "the callback port is already in use. Refresh tokens that expire behind OOTH"
+    },
+    {
+      "start": 71.03,
+      "duration": 0.010000000000005116,
+      "text": "Refresh tokens that expire behind OOTH"
+    },
+    {
+      "start": 71.04,
+      "duration": 3.428999999999988,
+      "text": "Refresh tokens that expire behind OOTH servers returning HTTP 2000 errors like"
+    },
+    {
+      "start": 74.469,
+      "duration": 0.010000000000005116,
+      "text": "servers returning HTTP 2000 errors like"
+    },
+    {
+      "start": 74.479,
+      "duration": 3.269999999999996,
+      "text": "servers returning HTTP 2000 errors like Slack now properly prompt for reauthor."
+    },
+    {
+      "start": 77.749,
+      "duration": 0.010000000000005116,
+      "text": "Slack now properly prompt for reauthor."
+    },
+    {
+      "start": 77.759,
+      "duration": 2.3900000000000006,
+      "text": "Slack now properly prompt for reauthor. New SSL certificate error guidance walks"
+    },
+    {
+      "start": 80.149,
+      "duration": 0.010000000000005116,
+      "text": "New SSL certificate error guidance walks"
+    },
+    {
+      "start": 80.159,
+      "duration": 1.7509999999999906,
+      "text": "New SSL certificate error guidance walks you through corporate proxy issues and"
+    },
+    {
+      "start": 81.91,
+      "duration": 0.010000000000005116,
+      "text": "you through corporate proxy issues and"
+    },
+    {
+      "start": 81.92,
+      "duration": 3.1099999999999994,
+      "text": "you through corporate proxy issues and node extra cazerts and LSP servers on"
+    },
+    {
+      "start": 85.03,
+      "duration": 0.010000000000005116,
+      "text": "node extra cazerts and LSP servers on"
+    },
+    {
+      "start": 85.04,
+      "duration": 1.9099999999999966,
+      "text": "node extra cazerts and LSP servers on Windows no longer fail from malformed"
+    },
+    {
+      "start": 86.95,
+      "duration": 0.009999999999990905,
+      "text": "Windows no longer fail from malformed"
+    },
+    {
+      "start": 86.96,
+      "duration": 3.3500000000000085,
+      "text": "Windows no longer fail from malformed file ur session start hooks no longer"
+    },
+    {
+      "start": 90.31,
+      "duration": 0.009999999999990905,
+      "text": "file ur session start hooks no longer"
+    },
+    {
+      "start": 90.32,
+      "duration": 2.8700000000000045,
+      "text": "file ur session start hooks no longer fire twice when resuming via dash"
+    },
+    {
+      "start": 93.19,
+      "duration": 0.010000000000005116,
+      "text": "fire twice when resuming via dash"
+    },
+    {
+      "start": 93.2,
+      "duration": 3.1099999999999994,
+      "text": "fire twice when resuming via dash resumeum or d- continue"
+    },
+    {
+      "start": 96.31,
+      "duration": 0.009999999999990905,
+      "text": "resumeum or d- continue"
+    },
+    {
+      "start": 96.32,
+      "duration": 2.5500000000000114,
+      "text": "resumeum or d- continue JSON output hooks stop injecting no ops"
+    },
+    {
+      "start": 98.87,
+      "duration": 0.009999999999990905,
+      "text": "JSON output hooks stop injecting no ops"
+    },
+    {
+      "start": 98.88,
+      "duration": 1.909000000000006,
+      "text": "JSON output hooks stop injecting no ops system reminder messages into the model"
+    },
+    {
+      "start": 100.789,
+      "duration": 0.010000000000005116,
+      "text": "system reminder messages into the model"
+    },
+    {
+      "start": 100.799,
+      "duration": 2.7109999999999985,
+      "text": "system reminder messages into the model context on every turn"
+    },
+    {
+      "start": 103.51,
+      "duration": 0.009999999999990905,
+      "text": "context on every turn"
+    },
+    {
+      "start": 103.52,
+      "duration": 1.5889999999999986,
+      "text": "context on every turn session and hook timeout is now"
+    },
+    {
+      "start": 105.109,
+      "duration": 0.010000000000005116,
+      "text": "session and hook timeout is now"
+    },
+    {
+      "start": 105.119,
+      "duration": 1.7510000000000048,
+      "text": "session and hook timeout is now configurable through an environment"
+    },
+    {
+      "start": 106.87,
+      "duration": 0.009999999999990905,
+      "text": "configurable through an environment"
+    },
+    {
+      "start": 106.88,
+      "duration": 0.9500000000000028,
+      "text": "configurable through an environment variable"
+    },
+    {
+      "start": 107.83,
+      "duration": 0.010000000000005116,
+      "text": "variable"
+    },
+    {
+      "start": 107.84,
+      "duration": 2.7099999999999937,
+      "text": "variable No more 1.5 second hard kill. And the up"
+    },
+    {
+      "start": 110.55,
+      "duration": 0.010000000000005116,
+      "text": "No more 1.5 second hard kill. And the up"
+    },
+    {
+      "start": 110.56,
+      "duration": 1.6700000000000017,
+      "text": "No more 1.5 second hard kill. And the up arrow now restores your interrupted"
+    },
+    {
+      "start": 112.23,
+      "duration": 0.009999999999990905,
+      "text": "arrow now restores your interrupted"
+    },
+    {
+      "start": 112.24,
+      "duration": 1.8290000000000077,
+      "text": "arrow now restores your interrupted prompt and rewinds the conversation in"
+    },
+    {
+      "start": 114.069,
+      "duration": 0.009999999999990905,
+      "text": "prompt and rewinds the conversation in"
+    },
+    {
+      "start": 114.079,
+      "duration": 2.710000000000008,
+      "text": "prompt and rewinds the conversation in one step. Voice mode session corruption"
+    },
+    {
+      "start": 116.789,
+      "duration": 0.010000000000005116,
+      "text": "one step. Voice mode session corruption"
+    },
+    {
+      "start": 116.799,
+      "duration": 2.2309999999999945,
+      "text": "one step. Voice mode session corruption from slow connections overlapping a new"
+    },
+    {
+      "start": 119.03,
+      "duration": 0.010000000000005116,
+      "text": "from slow connections overlapping a new"
+    },
+    {
+      "start": 119.04,
+      "duration": 3.269999999999996,
+      "text": "from slow connections overlapping a new recording. Fixed. The Mac OS native"
+    },
+    {
+      "start": 122.31,
+      "duration": 0.009999999999990905,
+      "text": "recording. Fixed. The Mac OS native"
+    },
+    {
+      "start": 122.32,
+      "duration": 2.3100000000000023,
+      "text": "recording. Fixed. The Mac OS native binary now properly requests microphone"
+    },
+    {
+      "start": 124.63,
+      "duration": 0.010000000000005116,
+      "text": "binary now properly requests microphone"
+    },
+    {
+      "start": 124.64,
+      "duration": 3.1899999999999977,
+      "text": "binary now properly requests microphone permission instead of silently failing."
+    },
+    {
+      "start": 127.83,
+      "duration": 0.010000000000005116,
+      "text": "permission instead of silently failing."
+    },
+    {
+      "start": 127.84,
+      "duration": 1.5900000000000034,
+      "text": "permission instead of silently failing. Transient connection failures during"
+    },
+    {
+      "start": 129.43,
+      "duration": 0.009999999999990905,
+      "text": "Transient connection failures during"
+    },
+    {
+      "start": 129.44,
+      "duration": 2.8689999999999998,
+      "text": "Transient connection failures during pushto talk auto retry."
+    },
+    {
+      "start": 132.309,
+      "duration": 0.009999999999990905,
+      "text": "pushto talk auto retry."
+    },
+    {
+      "start": 132.319,
+      "duration": 2.7910000000000252,
+      "text": "pushto talk auto retry. and RTL text, Hebrew, Arabic, and other"
+    },
+    {
+      "start": 135.11,
+      "duration": 0.009999999999990905,
+      "text": "and RTL text, Hebrew, Arabic, and other"
+    },
+    {
+      "start": 135.12,
+      "duration": 1.990000000000009,
+      "text": "and RTL text, Hebrew, Arabic, and other right-to-left scripts now renders"
+    },
+    {
+      "start": 137.11,
+      "duration": 0.009999999999990905,
+      "text": "right-to-left scripts now renders"
+    },
+    {
+      "start": 137.12,
+      "duration": 1.9099999999999966,
+      "text": "right-to-left scripts now renders correctly in Windows terminal and VS"
+    },
+    {
+      "start": 139.03,
+      "duration": 0.009999999999990905,
+      "text": "correctly in Windows terminal and VS"
+    },
+    {
+      "start": 139.04,
+      "duration": 1.670000000000016,
+      "text": "correctly in Windows terminal and VS Code/plugin"
+    },
+    {
+      "start": 140.71,
+      "duration": 0.009999999999990905,
+      "text": "Code/plugin"
+    },
+    {
+      "start": 140.72,
+      "duration": 3.030000000000001,
+      "text": "Code/plugin install no longer fails in the RPL for"
+    },
+    {
+      "start": 143.75,
+      "duration": 0.009999999999990905,
+      "text": "install no longer fails in the RPL for"
+    },
+    {
+      "start": 143.76,
+      "duration": 2.6299999999999955,
+      "text": "install no longer fails in the RPL for marketplace plugins. Marketplace updates"
+    },
+    {
+      "start": 146.39,
+      "duration": 0.010000000000019327,
+      "text": "marketplace plugins. Marketplace updates"
+    },
+    {
+      "start": 146.4,
+      "duration": 2.6299999999999955,
+      "text": "marketplace plugins. Marketplace updates now sync git subm modules properly."
+    },
+    {
+      "start": 149.03,
+      "duration": 0.009999999999990905,
+      "text": "now sync git subm modules properly."
+    },
+    {
+      "start": 149.04,
+      "duration": 2.6299999999999955,
+      "text": "now sync git subm modules properly. Local dev copies via-plugin"
+    },
+    {
+      "start": 151.67,
+      "duration": 0.010000000000019327,
+      "text": "Local dev copies via-plugin"
+    },
+    {
+      "start": 151.68,
+      "duration": 1.9899999999999807,
+      "text": "Local dev copies via-plugin their override installed marketplace"
+    },
+    {
+      "start": 153.67,
+      "duration": 0.010000000000019327,
+      "text": "their override installed marketplace"
+    },
+    {
+      "start": 153.68,
+      "duration": 1.9089999999999918,
+      "text": "their override installed marketplace plugins with the same name."
+    },
+    {
+      "start": 155.589,
+      "duration": 0.009999999999990905,
+      "text": "plugins with the same name."
+    },
+    {
+      "start": 155.599,
+      "duration": 2.790999999999997,
+      "text": "plugins with the same name. Unknown/comands no longer silently drop"
+    },
+    {
+      "start": 158.39,
+      "duration": 0.010000000000019327,
+      "text": "Unknown/comands no longer silently drop"
+    },
+    {
+      "start": 158.4,
+      "duration": 2.9499999999999886,
+      "text": "Unknown/comands no longer silently drop arguments. You get a warning now. The"
+    },
+    {
+      "start": 161.35,
+      "duration": 0.010000000000019327,
+      "text": "arguments. You get a warning now. The"
+    },
+    {
+      "start": 161.36,
+      "duration": 2.309999999999974,
+      "text": "arguments. You get a warning now. The new /context command gives actionable"
+    },
+    {
+      "start": 163.67,
+      "duration": 0.010000000000019327,
+      "text": "new /context command gives actionable"
+    },
+    {
+      "start": 163.68,
+      "duration": 2.1500000000000057,
+      "text": "new /context command gives actionable suggestions for context heavy tools and"
+    },
+    {
+      "start": 165.83,
+      "duration": 0.009999999999990905,
+      "text": "suggestions for context heavy tools and"
+    },
+    {
+      "start": 165.84,
+      "duration": 3.3499999999999943,
+      "text": "suggestions for context heavy tools and memory bloat. And automemory directory"
+    },
+    {
+      "start": 169.19,
+      "duration": 0.009999999999990905,
+      "text": "memory bloat. And automemory directory"
+    },
+    {
+      "start": 169.2,
+      "duration": 2.7900000000000205,
+      "text": "memory bloat. And automemory directory lets you set a custom storage location."
+    },
+    {
+      "start": 171.99,
+      "duration": 0.009999999999990905,
+      "text": "lets you set a custom storage location."
+    },
+    {
+      "start": 172,
+      "duration": 1.8300000000000125,
+      "text": "lets you set a custom storage location. /resume stops showing the current"
+    },
+    {
+      "start": 173.83,
+      "duration": 0.009999999999990905,
+      "text": "/resume stops showing the current"
+    },
+    {
+      "start": 173.84,
+      "duration": 2.9499999999999886,
+      "text": "/resume stops showing the current session in the picker. / IDE no longer"
+    },
+    {
+      "start": 176.79,
+      "duration": 0.010000000000019327,
+      "text": "session in the picker. / IDE no longer"
+    },
+    {
+      "start": 176.8,
+      "duration": 2.3899999999999864,
+      "text": "session in the picker. / IDE no longer crashes with uninstall not defined"
+    },
+    {
+      "start": 179.19,
+      "duration": 0.009999999999990905,
+      "text": "crashes with uninstall not defined"
+    },
+    {
+      "start": 179.2,
+      "duration": 2.3089999999999975,
+      "text": "crashes with uninstall not defined during auto install. / loop is now"
+    },
+    {
+      "start": 181.509,
+      "duration": 0.010000000000019327,
+      "text": "during auto install. / loop is now"
+    },
+    {
+      "start": 181.519,
+      "duration": 2.5509999999999877,
+      "text": "during auto install. / loop is now available on bedrock vert.ex and foundry"
+    },
+    {
+      "start": 184.07,
+      "duration": 0.010000000000019327,
+      "text": "available on bedrock vert.ex and foundry"
+    },
+    {
+      "start": 184.08,
+      "duration": 2.7099999999999795,
+      "text": "available on bedrock vert.ex and foundry /heap dump no longer fails on Windows."
+    },
+    {
+      "start": 186.79,
+      "duration": 0.010000000000019327,
+      "text": "/heap dump no longer fails on Windows."
+    },
+    {
+      "start": 186.8,
+      "duration": 1.829999999999984,
+      "text": "/heap dump no longer fails on Windows. /effort works while claud is mid"
+    },
+    {
+      "start": 188.63,
+      "duration": 0.009999999999990905,
+      "text": "/effort works while claud is mid"
+    },
+    {
+      "start": 188.64,
+      "duration": 2.0700000000000216,
+      "text": "/effort works while claud is mid response and /output style is"
+    },
+    {
+      "start": 190.71,
+      "duration": 0.009999999999990905,
+      "text": "response and /output style is"
+    },
+    {
+      "start": 190.72,
+      "duration": 2.9499999999999886,
+      "text": "response and /output style is deprecated. Use slashconfig instead."
+    },
+    {
+      "start": 193.67,
+      "duration": 0.010000000000019327,
+      "text": "deprecated. Use slashconfig instead."
+    },
+    {
+      "start": 193.68,
+      "duration": 2.8700000000000045,
+      "text": "deprecated. Use slashconfig instead. HTTP 400 errors behind proxies and on"
+    },
+    {
+      "start": 196.55,
+      "duration": 0.009999999999990905,
+      "text": "HTTP 400 errors behind proxies and on"
+    },
+    {
+      "start": 196.56,
+      "duration": 4.789999999999992,
+      "text": "HTTP 400 errors behind proxies and on bedrock with claude 4.5 models resolved."
+    },
+    {
+      "start": 201.35,
+      "duration": 0.010000000000019327,
+      "text": "bedrock with claude 4.5 models resolved."
+    },
+    {
+      "start": 201.36,
+      "duration": 1.75,
+      "text": "bedrock with claude 4.5 models resolved. Scroll wheel responsiveness gets"
+    },
+    {
+      "start": 203.11,
+      "duration": 0.009999999999990905,
+      "text": "Scroll wheel responsiveness gets"
+    },
+    {
+      "start": 203.12,
+      "duration": 2.3889999999999816,
+      "text": "Scroll wheel responsiveness gets terminal aware acceleration."
+    },
+    {
+      "start": 205.509,
+      "duration": 0.010000000000019327,
+      "text": "terminal aware acceleration."
+    },
+    {
+      "start": 205.519,
+      "duration": 2.069999999999993,
+      "text": "terminal aware acceleration. The delete button for untitled sessions"
+    },
+    {
+      "start": 207.589,
+      "duration": 0.009999999999990905,
+      "text": "The delete button for untitled sessions"
+    },
+    {
+      "start": 207.599,
+      "duration": 2.4710000000000036,
+      "text": "The delete button for untitled sessions actually works now. And remote control"
+    },
+    {
+      "start": 210.07,
+      "duration": 0.010000000000019327,
+      "text": "actually works now. And remote control"
+    },
+    {
+      "start": 210.08,
+      "duration": 1.5089999999999861,
+      "text": "actually works now. And remote control spawn mode has a better selection"
+    },
+    {
+      "start": 211.589,
+      "duration": 0.009999999999990905,
+      "text": "spawn mode has a better selection"
+    },
+    {
+      "start": 211.599,
+      "duration": 4.231000000000023,
+      "text": "spawn mode has a better selection prompt. Run clot update to grab 2.1.73"
+    },
+    {
+      "start": 215.83,
+      "duration": 0.009999999999990905,
+      "text": "prompt. Run clot update to grab 2.1.73"
+    },
+    {
+      "start": 215.84,
+      "duration": 3.7489999999999952,
+      "text": "prompt. Run clot update to grab 2.1.73 and 74. Right now, over 75,000"
+    },
+    {
+      "start": 219.589,
+      "duration": 0.009999999999990905,
+      "text": "and 74. Right now, over 75,000"
+    },
+    {
+      "start": 219.599,
+      "duration": 1.990000000000009,
+      "text": "and 74. Right now, over 75,000 developers are building with Claude code"
+    },
+    {
+      "start": 221.589,
+      "duration": 0.009999999999990905,
+      "text": "developers are building with Claude code"
+    },
+    {
+      "start": 221.599,
+      "duration": 2.8710000000000093,
+      "text": "developers are building with Claude code on GitHub. Hit subscribe so you never"
+    },
+    {
+      "start": 224.47,
+      "duration": 0.009999999999990905,
+      "text": "on GitHub. Hit subscribe so you never"
+    },
+    {
+      "start": 224.48,
+      "duration": 3.4790000000000134,
+      "text": "on GitHub. Hit subscribe so you never miss a release."
+    }
+  ],
+  "fullText": "Five new features, 31 bug fixes, and Five new features, 31 bug fixes, and four improvements across two releases. four improvements across two releases. four improvements across two releases. Starting with models, a new model Starting with models, a new model Starting with models, a new model override setting lets you map model override setting lets you map model override setting lets you map model picker entries to custom provider ids picker entries to custom provider ids picker entries to custom provider ids like bedrock inference profile. A rns like bedrock inference profile. A rns like bedrock inference profile. A rns default opus is now 4.6 on Bedrock, default opus is now 4.6 on Bedrock, default opus is now 4.6 on Bedrock, Vert.Ex, and Foundry. Sub agents no Vert.Ex, and Foundry. Sub agents no Vert.Ex, and Foundry. Sub agents no longer silently downgrade to older model longer silently downgrade to older model longer silently downgrade to older model versions, and full model ids now work in versions, and full model ids now work in versions, and full model ids now work in agent front matter. Permission prompts agent front matter. Permission prompts agent front matter. Permission prompts for complex bash commands no longer for complex bash commands no longer for complex bash commands no longer freeze the entire session at 100% CPU. A freeze the entire session at 100% CPU. A freeze the entire session at 100% CPU. A deadlock that hit when many skill files deadlock that hit when many skill files deadlock that hit when many skill files changed at once, like during a git pull, changed at once, like during a git pull, changed at once, like during a git pull, is fixed. Bash tool output no longer is fixed. Bash tool output no longer is fixed. Bash tool output no longer vanishes when running multiple sessions vanishes when running multiple sessions vanishes when running multiple sessions in the same project. A streaming API in the same project. A streaming API in the same project. A streaming API memory leak causing unbounded RSS growth memory leak causing unbounded RSS growth memory leak causing unbounded RSS growth on node is patched. And IDE detection on node is patched. And IDE detection on node is patched. And IDE detection plus Mac OS clipboard pasting are both plus Mac OS clipboard pasting are both plus Mac OS clipboard pasting are both faster. MCPO MCPO off authentication no longer hangs when off authentication no longer hangs when off authentication no longer hangs when the callback port is already in use. the callback port is already in use. the callback port is already in use. Refresh tokens that expire behind OOTH Refresh tokens that expire behind OOTH Refresh tokens that expire behind OOTH servers returning HTTP 2000 errors like servers returning HTTP 2000 errors like servers returning HTTP 2000 errors like Slack now properly prompt for reauthor. Slack now properly prompt for reauthor. Slack now properly prompt for reauthor. New SSL certificate error guidance walks New SSL certificate error guidance walks New SSL certificate error guidance walks you through corporate proxy issues and you through corporate proxy issues and you through corporate proxy issues and node extra cazerts and LSP servers on node extra cazerts and LSP servers on node extra cazerts and LSP servers on Windows no longer fail from malformed Windows no longer fail from malformed Windows no longer fail from malformed file ur session start hooks no longer file ur session start hooks no longer file ur session start hooks no longer fire twice when resuming via dash fire twice when resuming via dash fire twice when resuming via dash resumeum or d- continue resumeum or d- continue resumeum or d- continue JSON output hooks stop injecting no ops JSON output hooks stop injecting no ops JSON output hooks stop injecting no ops system reminder messages into the model system reminder messages into the model system reminder messages into the model context on every turn context on every turn context on every turn session and hook timeout is now session and hook timeout is now session and hook timeout is now configurable through an environment configurable through an environment configurable through an environment variable variable variable No more 1.5 second hard kill. And the up No more 1.5 second hard kill. And the up No more 1.5 second hard kill. And the up arrow now restores your interrupted arrow now restores your interrupted arrow now restores your interrupted prompt and rewinds the conversation in prompt and rewinds the conversation in prompt and rewinds the conversation in one step. Voice mode session corruption one step. Voice mode session corruption one step. Voice mode session corruption from slow connections overlapping a new from slow connections overlapping a new from slow connections overlapping a new recording. Fixed. The Mac OS native recording. Fixed. The Mac OS native recording. Fixed. The Mac OS native binary now properly requests microphone binary now properly requests microphone binary now properly requests microphone permission instead of silently failing. permission instead of silently failing. permission instead of silently failing. Transient connection failures during Transient connection failures during Transient connection failures during pushto talk auto retry. pushto talk auto retry. pushto talk auto retry. and RTL text, Hebrew, Arabic, and other and RTL text, Hebrew, Arabic, and other and RTL text, Hebrew, Arabic, and other right-to-left scripts now renders right-to-left scripts now renders right-to-left scripts now renders correctly in Windows terminal and VS correctly in Windows terminal and VS correctly in Windows terminal and VS Code/plugin Code/plugin Code/plugin install no longer fails in the RPL for install no longer fails in the RPL for install no longer fails in the RPL for marketplace plugins. Marketplace updates marketplace plugins. Marketplace updates marketplace plugins. Marketplace updates now sync git subm modules properly. now sync git subm modules properly. now sync git subm modules properly. Local dev copies via-plugin Local dev copies via-plugin Local dev copies via-plugin their override installed marketplace their override installed marketplace their override installed marketplace plugins with the same name. plugins with the same name. plugins with the same name. Unknown/comands no longer silently drop Unknown/comands no longer silently drop Unknown/comands no longer silently drop arguments. You get a warning now. The arguments. You get a warning now. The arguments. You get a warning now. The new /context command gives actionable new /context command gives actionable new /context command gives actionable suggestions for context heavy tools and suggestions for context heavy tools and suggestions for context heavy tools and memory bloat. And automemory directory memory bloat. And automemory directory memory bloat. And automemory directory lets you set a custom storage location. lets you set a custom storage location. lets you set a custom storage location. /resume stops showing the current /resume stops showing the current /resume stops showing the current session in the picker. / IDE no longer session in the picker. / IDE no longer session in the picker. / IDE no longer crashes with uninstall not defined crashes with uninstall not defined crashes with uninstall not defined during auto install. / loop is now during auto install. / loop is now during auto install. / loop is now available on bedrock vert.ex and foundry available on bedrock vert.ex and foundry available on bedrock vert.ex and foundry /heap dump no longer fails on Windows. /heap dump no longer fails on Windows. /heap dump no longer fails on Windows. /effort works while claud is mid /effort works while claud is mid /effort works while claud is mid response and /output style is response and /output style is response and /output style is deprecated. Use slashconfig instead. deprecated. Use slashconfig instead. deprecated. Use slashconfig instead. HTTP 400 errors behind proxies and on HTTP 400 errors behind proxies and on HTTP 400 errors behind proxies and on bedrock with claude 4.5 models resolved. bedrock with claude 4.5 models resolved. bedrock with claude 4.5 models resolved. Scroll wheel responsiveness gets Scroll wheel responsiveness gets Scroll wheel responsiveness gets terminal aware acceleration. terminal aware acceleration. terminal aware acceleration. The delete button for untitled sessions The delete button for untitled sessions The delete button for untitled sessions actually works now. And remote control actually works now. And remote control actually works now. And remote control spawn mode has a better selection spawn mode has a better selection spawn mode has a better selection prompt. Run clot update to grab 2.1.73 prompt. Run clot update to grab 2.1.73 prompt. Run clot update to grab 2.1.73 and 74. Right now, over 75,000 and 74. Right now, over 75,000 and 74. Right now, over 75,000 developers are building with Claude code developers are building with Claude code developers are building with Claude code on GitHub. Hit subscribe so you never on GitHub. Hit subscribe so you never on GitHub. Hit subscribe so you never miss a release.",
+  "fetchedAt": "2026-03-12T15:53:13.832Z"
+}

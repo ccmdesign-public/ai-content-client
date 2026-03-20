@@ -10,9 +10,7 @@ metadata:
 
     What's really happening with disposable software and AI-native development? The common story is that vibe coding will replace enterprise SaaS — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on why the disposable software discourse gets it wrong:
-
 
     \ • Why software cost collapsed but attention cost did not
 
@@ -22,12 +20,9 @@ metadata:
 
     \ • Why 95% of the market needs a completely different strategy
 
-
     Cursor can ship multiple times a day because their customers are developers who tolerate variance. Salesforce cannot because their customers buy reliability — something they don't have to think about. That's not a temporary gap. It's a fundamental difference in what customers pay for.
 
-
     For enterprise builders, the opportunity isn't shipping like Cursor — it's earning the right to deploy proactive AI that creates value customers didn't know they were missing.
-
 
     Chapters
 
@@ -59,7 +54,6 @@ metadata:
 
     25:00 Know which game you're playing
 
-
     Subscribe for daily AI strategy and news.
 
     For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
@@ -87,6 +81,9 @@ tools:
     url: null
   - name: "Salesforce"
     url: null
+tags: []
+categories: []
+tagsNormalizedAt: "2026-03-01T21:19:30.429Z"
 ---
 
 ## Key Takeaways
@@ -106,14 +103,17 @@ The video argues that the 'disposable software' trend is being misapplied becaus
 The core argument is that the collapsing cost of code generation via AI has created a 'disposable software' era, but its implications are wildly different depending on the market you serve. The video dismantles the one-size-fits-all hype by highlighting a critical, often-ignored distinction.
 
 ### The Two Faces of Disposable Software
+
 First is **throwaway personal software** (e.g., a vacation app), a democratizing force. Second is **disposable features within products**, championed by companies like Cursor. Their 'code is reality' philosophy treats planning, specs, and meetings as waste, prioritizing constant shipping and iteration based on user feedback.
 
 ### Why the Hype is Wrong for Most Markets
+
 This philosophy works for Cursor because its customers are **developers**, who tolerate instability for innovation. However, it fails for the vast enterprise market where customers are **CIOs** buying 'peace of mind' and reliability through multi-year contracts and SLAs. They want software that works the same way next quarter as it does today.
 
 The fatal flaw in the 'vibe-code everything' argument is that **attention, not software cost, is the ultimate constraint**. Diverting a high-paid team's focus from a core business opportunity to build and maintain an internal tool has a massive opportunity cost. Furthermore, AI-generated code often introduces **security vulnerabilities** and a hidden **maintenance burden**.
 
 ### The Correct AI Strategy: Context-Dependent
+
 Therefore, strategy must bifurcate:
 
 *   **For AI-native/developer tools (Cursor's game):** The imperative is **maximum speed**. Ship constantly, accept that interfaces are temporary, and use a **simple interface** (like a terminal) that can absorb change without disrupting users.

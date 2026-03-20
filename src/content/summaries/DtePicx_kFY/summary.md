@@ -4,9 +4,7 @@ metadata:
   title: "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]"
   description: "The Transformer architecture (which powers ChatGPT and nearly all modern AI) might be trapping the industry in a localized rut, preventing us from finding true intelligent reasoning, according to the person who co-invented it. Llion Jones and Luke Darlow, key figures at the research lab Sakana AI, join the show to make this provocative argument, and also introduce new research (CTM) which might lead the way forwards.
 
-
     We speak about \"Inventor's Remorse\" & The Trap of Success Despite being one of the original authors of the famous \"Attention Is All You Need\" paper that gave birth to the Transformer, Llion explains why he has largely stopped working on them. He argues that the industry is suffering from \"success capture\"—because Transformers work so well, everyone is focused on making small tweaks to the same architecture rather than discovering the next big leap.\ 
-
 
     **SPONSOR MESSAGES START**
 
@@ -30,12 +28,9 @@ metadata:
 
     **END**
 
-
     The \"Spiral\" Problem – Llion uses a striking visual analogy to explain what current AI is missing. If you ask a standard neural network to understand a spiral shape, it solves it by drawing tiny straight lines that just happen to look like a spiral. It \"fakes\" the shape without understanding the concept of spiraling. They argue that today's AI models are similar—they are incredible at mimicking intelligent answers without having an internal process of \"thinking\".
 
-
     Introducing the Continuous Thought Machine (CTM) Luke Darlow deep dives into their solution: a biology-inspired model that fundamentally changes how AI processes information.
-
 
     The Maze Analogy: Luke explains that standard AI tries to solve a maze by staring at the whole image and guessing the entire path instantly. Their new machine \"walks\" through the maze step-by-step.
 
@@ -43,18 +38,15 @@ metadata:
 
     The pair discuss the culture of Sakana AI, which is modeled after the early days of Google Brain/DeepMind. Llion nostalgically recalls that the Transformer wasn't born from a corporate mandate, but from random people talking over lunch about interesting problems.\ 
 
-
     https://sakana.ai/
 
     https://x.com/YesThisIsLion
 
     https://x.com/LearningLukeD
 
-
     TRANSCRIPT:
 
     https://app.rescript.info/public/share/crjzQ-Jo2FQsJc97xsBdfzfOIeMONpg0TFBuCgV2Fu8
-
 
     TOC:
 
@@ -78,8 +70,6 @@ metadata:
 
     01:00:43 - Sudoku Bench: Measuring True Reasoning
 
-
-
     REFS:
 
     Why Greatness Cannot be planned [Kenneth Stanley]
@@ -88,13 +78,11 @@ metadata:
 
     https://www.youtube.com/watch?v=lhYGXYeMq_E\ 
 
-
     The Hardware Lottery [Sara Hooker]
 
     https://arxiv.org/abs/2009.06489
 
     https://www.youtube.com/watch?v=sQFxbQ7ade0\ 
-
 
     Continuous Thought Machines [Luke Darlow et al / Sakana]
 
@@ -104,21 +92,17 @@ metadata:
 
     https://youtu.be/5X9cjGLggv0 great walkthrough of algo by Yacine Mahdid
 
-
     LSTM: The Comeback Story? [Prof. Sepp Hochreiter]
 
     https://www.youtube.com/watch?v=8u2pW2zZLCs\ 
-
 
     Questioning Representational Optimism in Deep Learning: The Fractured Entangled Representation Hypothesis [Kumar/Stanley]
 
     https://arxiv.org/pdf/2505.11581\ 
 
-
     Intelligent Matrix Exponentiation [Thomas Fischbacher] (Spiral reference)
 
     https://arxiv.org/abs/2008.03936
-
 
     A Spline Theory of Deep Networks [Randall Balestriero]
 
@@ -128,26 +112,21 @@ metadata:
 
     https://www.youtube.com/watch?v=l3O2J3LMxqI\ 
 
-
     On the Biology of a Large Language Model [Anthropic, Jack Lindsey et al]
 
     https://transformer-circuits.pub/2025/attribution-graphs/biology.html\ 
-
 
     The ARC Prize 2024 Winning Algorithm [Daniel Franzen and Jan Disselhoff] “The ARChitects”
 
     https://www.youtube.com/watch?v=mTX_sAq--zY
 
-
     Neural Turing Machine [Graves]
 
     https://arxiv.org/pdf/1410.5401\ 
 
-
     Adaptive Computation Time for Recurrent Neural Networks [Graves]
 
     https://arxiv.org/abs/1603.08983\ 
-
 
     Sudoko Bench [Sakana]\ 
 
@@ -196,6 +175,15 @@ tools:
     url: "https://cyber.fund/"
   - name: "Rescript"
     url: "https://app.rescript.info/"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "architecture"
+  - "llm"
+  - "model-training"
+  - "nlp"
+tagsNormalizedAt: "2026-03-01T21:19:30.319Z"
 ---
 
 ## Key Takeaways
@@ -215,21 +203,27 @@ Llion Jones and Luke Darlow argue that the AI industry is currently trapped in a
 ## Summary
 
 ### The Post-Transformer Era and the Research Local Minimum
+
 Llion Jones reflects on the creation of the **Transformer**, noting that it emerged from a "bottom-up" environment of research freedom that is increasingly rare in today's commercialized AI landscape. He expresses concern that the industry has entered a phase of "technology capture," where the overwhelming success of **Large Language Models (LLMs)** has stalled architectural exploration. Jones compares the current era to the pre-Transformer period of RNNs, where researchers made marginal improvements to LSTMs until a fundamental shift rendered those efforts redundant. He suggests that while Transformers are powerful **universal approximators**, they exhibit "jagged intelligence"—solving PhD-level problems while failing at basic logic—indicating a fundamental flaw in their representation of the world.
 
 ### Introduction to Continuous Thought Machines (CTM)
+
 To address these flaws, Jones and Luke Darlow at Sakana AI developed the **Continuous Thought Machine (CTM)**. The architecture moves away from the static, layer-by-layer processing of Transformers toward a recurrent, biologically inspired system. The CTM is built on three pillars: an **internal thought dimension**, **Neuron Level Models (NLM)**, and **synchronization**. By allowing a model to process information across an internal temporal dimension, it can break down problems into sequential steps. This is demonstrated through a "Hello World" maze-solving task, where the model must trace a path step-by-step rather than predicting the entire solution in a single shot.
 
 ### Rethinking the Neuron and Representation
+
 In a CTM, the traditional neuron (often a simple ReLU activation) is replaced with a **Neuron Level Model**, effectively a small MLP that processes its own history. This allows the system to maintain a continuous time series of activations. Crucially, the model's representation of a "thought" is not just the state of the neurons at a specific moment, but how those neurons **synchronize** with one another over time. By measuring the dot product of activation histories, the system creates a high-dimensional representation space that is far richer than standard state vectors. This approach mimics biological brain waves, where different frequencies and synchronization patterns correspond to different states of cognition.
 
 ### Adaptive Compute and Model Calibration
+
 One of the most significant findings of the CTM research is its native ability for **adaptive computation**. In traditional AI, forcing a model to use less compute for easy tasks often requires complex loss functions or hyperparameters. In CTMs, the researchers use a loss function that monitors both performance and certainty. This naturally encourages the model to exit its "thought process" early for simple images (like a cat) while taking more time to disambiguate difficult classes. This results in nearly perfect **model calibration**, meaning the model's confidence scores accurately reflect its probability of being correct—a trait notably absent in modern deep learning models.
 
 ### Emergent Behaviors: Leapfrogging and Backtracking
+
 During training on complex mazes, the CTM exhibited fascinating emergent behaviors that hint at human-like reasoning. When time-constrained, the model developed a **"leapfrogging" algorithm**, jumping ahead to a point in the maze and then tracing backward to fill in the path. It also showed signs of **backtracking**, where the internal activations would descend one path, realize it was a dead end, and then return to a previous junction to try another route. These behaviors are not explicitly programmed but fall out of the architecture’s recurrent, sequential nature.
 
 ### The Sudoku Bench and the Quest for AGI
+
 Jones introduces **Sudoku Bench**, a dataset of variant Sudokus designed to test **meta-reasoning**. Unlike standard puzzles, these include unique natural language constraints (e.g., "one number in this rule is a lie") or overlaid mazes. Jones argues that current AI lacks the ability to find "break-ins"—the specific logical leap required to solve a handcrafted puzzle. By open-sourcing thousands of hours of expert reasoning from the "Cracking the Cryptic" You
 
 Tube channel, Sakana AI aims to provide the "thought traces" necessary for models to move beyond simple pattern matching toward genuine deductive reasoning. This highlights the gap between current **LLMs** and a system capable of open-ended scientific discovery.

@@ -82,6 +82,15 @@ tools:
     url: null
   - name: "Tailwind CSS"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "agents"
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.415Z"
 ---
 
 ## Key Takeaways

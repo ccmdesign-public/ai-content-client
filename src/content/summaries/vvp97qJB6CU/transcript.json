@@ -1,0 +1,304 @@
+{
+  "videoId": "vvp97qJB6CU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.239,
+      "text": "How do we decide how to chunk the"
+    },
+    {
+      "start": 2,
+      "duration": 4.56,
+      "text": "document? One way to do this is by going"
+    },
+    {
+      "start": 4.319,
+      "duration": 4.161,
+      "text": "by fixed size chunking. You know that as"
+    },
+    {
+      "start": 6.56,
+      "duration": 4.64,
+      "text": "a document is being stored in the"
+    },
+    {
+      "start": 8.48,
+      "duration": 5.52,
+      "text": "database, each row essentially holds up"
+    },
+    {
+      "start": 11.2,
+      "duration": 4.96,
+      "text": "to say 5,000 characters per chunk. You"
+    },
+    {
+      "start": 14,
+      "duration": 4.64,
+      "text": "can also go by total number of words so"
+    },
+    {
+      "start": 16.16,
+      "duration": 4.64,
+      "text": "that each row contains up to certain"
+    },
+    {
+      "start": 18.64,
+      "duration": 4.479,
+      "text": "predefined number of words. Another way"
+    },
+    {
+      "start": 20.8,
+      "duration": 4.8,
+      "text": "is to go by tokens where instead of"
+    },
+    {
+      "start": 23.119,
+      "duration": 4.561,
+      "text": "chunking by a fixed size in original"
+    },
+    {
+      "start": 25.6,
+      "duration": 4.24,
+      "text": "language, you can actually chunk them by"
+    },
+    {
+      "start": 27.68,
+      "duration": 3.919,
+      "text": "the size of the tokens which is an"
+    },
+    {
+      "start": 29.84,
+      "duration": 3.92,
+      "text": "embedding representation of the"
+    },
+    {
+      "start": 31.599,
+      "duration": 4.721,
+      "text": "document. As you can see, fixed size"
+    },
+    {
+      "start": 33.76,
+      "duration": 4.319,
+      "text": "chunking is the simplest strategy when"
+    },
+    {
+      "start": 36.32,
+      "duration": 3.919,
+      "text": "it comes to chunking since you can just"
+    },
+    {
+      "start": 38.079,
+      "duration": 4.48,
+      "text": "take an upward bound that can be"
+    },
+    {
+      "start": 40.239,
+      "duration": 4.16,
+      "text": "predefined up front. This can also apply"
+    },
+    {
+      "start": 42.559,
+      "duration": 4.401,
+      "text": "for sentence chunking or paragraph"
+    },
+    {
+      "start": 44.399,
+      "duration": 4.64,
+      "text": "chunking all based on essentially where"
+    },
+    {
+      "start": 46.96,
+      "duration": 3.919,
+      "text": "you want to cut the document by certain"
+    },
+    {
+      "start": 49.039,
+      "duration": 4,
+      "text": "number in threshold. But fixed size"
+    },
+    {
+      "start": 50.879,
+      "duration": 4.721,
+      "text": "chunking doesn't necessarily lead to the"
+    },
+    {
+      "start": 53.039,
+      "duration": 4.801,
+      "text": "best result in rag since it ignores the"
+    },
+    {
+      "start": 55.6,
+      "duration": 4.56,
+      "text": "semantic grouping of the document. In"
+    },
+    {
+      "start": 57.84,
+      "duration": 5.12,
+      "text": "other words, documents are often grouped"
+    },
+    {
+      "start": 60.16,
+      "duration": 5.359,
+      "text": "in sections or topics and fixed size"
+    },
+    {
+      "start": 62.96,
+      "duration": 4.88,
+      "text": "chunking ignores this and can abruptly"
+    },
+    {
+      "start": 65.519,
+      "duration": 4.321,
+      "text": "chunk the document regardless of what"
+    },
+    {
+      "start": 67.84,
+      "duration": 4.24,
+      "text": "the document might have contained. For"
+    },
+    {
+      "start": 69.84,
+      "duration": 4.16,
+      "text": "this reason, semantic chunking is"
+    },
+    {
+      "start": 72.08,
+      "duration": 3.84,
+      "text": "another popular method. Instead of"
+    },
+    {
+      "start": 74,
+      "duration": 4.799,
+      "text": "splitting the document into a fixed"
+    },
+    {
+      "start": 75.92,
+      "duration": 4.879,
+      "text": "number of characters, words, tokens, or"
+    },
+    {
+      "start": 78.799,
+      "duration": 3.761,
+      "text": "sentences, you can break the text in"
+    },
+    {
+      "start": 80.799,
+      "duration": 4,
+      "text": "where the meaning actually starts to"
+    },
+    {
+      "start": 82.56,
+      "duration": 5.199,
+      "text": "shift. This way, each row in the"
+    },
+    {
+      "start": 84.799,
+      "duration": 5.841,
+      "text": "database naturally respects the semantic"
+    },
+    {
+      "start": 87.759,
+      "duration": 5.281,
+      "text": "topics, which makes retrieving rowby row"
+    },
+    {
+      "start": 90.64,
+      "duration": 4.72,
+      "text": "very rich with context. One way to do"
+    },
+    {
+      "start": 93.04,
+      "duration": 5.039,
+      "text": "this is by breaking the document into"
+    },
+    {
+      "start": 95.36,
+      "duration": 4.88,
+      "text": "sentences and measuring the similarity"
+    },
+    {
+      "start": 98.079,
+      "duration": 4.161,
+      "text": "between them. So that when the coherence"
+    },
+    {
+      "start": 100.24,
+      "duration": 4.4,
+      "text": "start to drop between those sentences"
+    },
+    {
+      "start": 102.24,
+      "duration": 4.96,
+      "text": "which is an indication that now the flow"
+    },
+    {
+      "start": 104.64,
+      "duration": 4.64,
+      "text": "in context or topics has changed then"
+    },
+    {
+      "start": 107.2,
+      "duration": 4.32,
+      "text": "you can just chunk the document in this"
+    },
+    {
+      "start": 109.28,
+      "duration": 4.4,
+      "text": "manner. Chunking the document this way"
+    },
+    {
+      "start": 111.52,
+      "duration": 4.32,
+      "text": "ensures that the natural break point"
+    },
+    {
+      "start": 113.68,
+      "duration": 4.24,
+      "text": "that might exist in the document are"
+    },
+    {
+      "start": 115.84,
+      "duration": 3.84,
+      "text": "preserved so that you're not abruptly"
+    },
+    {
+      "start": 117.92,
+      "duration": 3.839,
+      "text": "chunking the document because of its"
+    },
+    {
+      "start": 119.68,
+      "duration": 4.16,
+      "text": "size. The obvious drawback is that"
+    },
+    {
+      "start": 121.759,
+      "duration": 4.801,
+      "text": "compared to naive approaches like fixed"
+    },
+    {
+      "start": 123.84,
+      "duration": 5.039,
+      "text": "size chunking, it adds an engineering"
+    },
+    {
+      "start": 126.56,
+      "duration": 4.319,
+      "text": "overhead to chunk and store the document"
+    },
+    {
+      "start": 128.879,
+      "duration": 4.241,
+      "text": "based on its semantic flow of the"
+    },
+    {
+      "start": 130.879,
+      "duration": 2.241,
+      "text": "documents."
+    }
+  ],
+  "fullText": "How do we decide how to chunk the document? One way to do this is by going by fixed size chunking. You know that as a document is being stored in the database, each row essentially holds up to say 5,000 characters per chunk. You can also go by total number of words so that each row contains up to certain predefined number of words. Another way is to go by tokens where instead of chunking by a fixed size in original language, you can actually chunk them by the size of the tokens which is an embedding representation of the document. As you can see, fixed size chunking is the simplest strategy when it comes to chunking since you can just take an upward bound that can be predefined up front. This can also apply for sentence chunking or paragraph chunking all based on essentially where you want to cut the document by certain number in threshold. But fixed size chunking doesn't necessarily lead to the best result in rag since it ignores the semantic grouping of the document. In other words, documents are often grouped in sections or topics and fixed size chunking ignores this and can abruptly chunk the document regardless of what the document might have contained. For this reason, semantic chunking is another popular method. Instead of splitting the document into a fixed number of characters, words, tokens, or sentences, you can break the text in where the meaning actually starts to shift. This way, each row in the database naturally respects the semantic topics, which makes retrieving rowby row very rich with context. One way to do this is by breaking the document into sentences and measuring the similarity between them. So that when the coherence start to drop between those sentences which is an indication that now the flow in context or topics has changed then you can just chunk the document in this manner. Chunking the document this way ensures that the natural break point that might exist in the document are preserved so that you're not abruptly chunking the document because of its size. The obvious drawback is that compared to naive approaches like fixed size chunking, it adds an engineering overhead to chunk and store the document based on its semantic flow of the documents.",
+  "fetchedAt": "2026-03-11T16:36:32.964Z"
+}

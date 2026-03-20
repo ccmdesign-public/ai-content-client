@@ -4,13 +4,11 @@ metadata:
   title: "Qwen3 Multimodal Embeddings: Finally, RAG That Sees"
   description: "In this video, I look at the recent release of Qwen3 VL embeddings and re-rankers and look at how multimodal embeddings work, including a code example.\ 
 
-
     Blog: https://qwen.ai/blog?id=qwen3-vl-embedding
 
     HF: https://huggingface.co/collections/Qwen/qwen3-vl-embedding
 
     Colab: https://dripl.ink/ReqOF
-
 
     For more tutorials on using LLMs and building agents, check out my Patreon
 
@@ -18,16 +16,13 @@ metadata:
 
     Twitter: https://x.com/Sam_Witteveen
 
-
     🕵️ Interested in building LLM Agents? Fill out the form below
 
     Building LLM Agents Form: https://drp.li/dIMes
 
-
     👨‍💻Github:
 
     https://github.com/samwit/llm-tutorials
-
 
     ⏱️Time Stamps:
 
@@ -88,6 +83,16 @@ tools:
     url: null
   - name: "MMEB Leaderboard"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "computer-vision"
+  - "embeddings"
+  - "llm"
+  - "model-training"
+  - "nlp"
+  - "rag"
+tagsNormalizedAt: "2026-03-01T21:19:30.325Z"
 ---
 
 ## Key Takeaways
@@ -107,6 +112,7 @@ The release of Qwen3 VL embedding and reranker models provides a powerful, open-
 The Qwen3 VL (Vision-Language) models represent a major leap in multimodal Retrieval-Augmented Generation (RAG). Traditionally, RAG systems struggled with non-textual data, often relying on clunky OCR or image captioning that lost context. Qwen3 VL solves this by creating a **multimodal embedding space** where different types of media—text, photos, diagrams, and videos—share the same numerical representation. This means a query about a "cat" can find a text description of a cat, a photo of a cat, or a video clip of a cat within the same search index.
 
 ### Core Models and Architecture
+
 Alibaba has released two primary sizes for these models: a **2B parameter** version and an **8B parameter** version. Both are released under the **Apache 2 license**, making them accessible for commercial use.
 
 * **Embedding Model (Bi-encoder):** Best for high-speed recall. It processes massive datasets to find the top candidates (e.g., top 100 matches) for a query.
@@ -116,9 +122,11 @@ Alibaba has released two primary sizes for these models: a **2B parameter** vers
 By combining these two, developers can achieve significantly better results than using embeddings alone. Qwen points out that while embeddings provide roughly 85% precision, adding the reranker can push that number much higher without the massive latency of running a full LLM over the entire database.
 
 ### Technical Innovations
+
 A standout feature of Qwen3 is **Matrioska Representation Learning**. This allows the model to pack the most important semantic information into the "front" of the vector. For example, the 8B model produces 4,096-dimensional vectors. However, users can choose to use only the first 512 or 1,024 dimensions for their search index. This results in faster retrieval and lower storage costs while maintaining high accuracy, as the model is trained specifically to remain effective even when dimensions are truncated.
 
 ### Practical Use Cases
+
 These models unlock several high-impact applications:
 
 - **Visual Document Search:** Searching through complex PDFs, charts, and diagrams that traditional text-based RAG might miss.

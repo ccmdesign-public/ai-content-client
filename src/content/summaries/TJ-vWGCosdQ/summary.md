@@ -4,11 +4,9 @@ metadata:
   title: "Gemini 3 isn't the answer. How to Solve 1 Million Steps with 0 Errors"
   description: "Paper: https://arxiv.org/abs/2511.09030
 
-
     A revolutionary paper just dropped (November 2025) that changes everything we know about building AI Agents. We’ve been obsessed with bigger context windows and smarter models, but the \"MAKER Framework\" proves we were wrong.
 
     This breakdown explains how researchers achieved 1,000,000 logical steps with ZERO errors using \"dumb\" models and a brilliant new architecture.
-
 
     In this video:
 
@@ -57,6 +55,15 @@ tools:
     url: null
   - name: "Gemini 3"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "architecture"
+  - "best-practices"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.293Z"
 ---
 
 ## Key Takeaways
@@ -74,9 +81,11 @@ The Cognizant AI lab research proves that LLM reliability is an engineering arch
 ## Summary
 
 ### The Crisis of Long-Horizon Tasks
+
 Most AI agents fail when tasks exceed a few dozen steps due to **context drift**. As the chat history grows, the model becomes distracted by its own previous outputs. The mathematical reality is brutal: a model with 99% accuracy has nearly a 0% chance of completing a 1,000-step task correctly ($0.99^{1000} \approx 0$). The paper from Cognizant AI lab solves this using the **MAKER** (Massively Decomposed Agentic Processes) framework, achieving zero errors over one million steps using the Tower of Hanoi benchmark (1,048,575 moves).
 
 ### The MAKER Framework Pillars
+
 The first pillar is **Maximal Decomposition**. Unlike traditional agents that append history to a prompt, MAKER agents are **stateless functions**. Each step receives only the rules, the current state, and the immediate goal. By 'killing' the agent after every step and spinning up a new one, the system eliminates the burden of past context, preventing the model from getting confused by historical data. The external state object becomes the only 'memory' that matters.
 
 The second pillar, **Red Flagging**, serves as an early warning system. Researchers found that logic errors are almost always preceded by syntax errors or verbosity. If a model is asked for JSON but provides a preamble, or if its 'thinking' tokens spike unexpectedly, the system flags a hallucination. Instead of trying to fix the output, the system discards it and triggers a retry, treating the syntax error as a proxy for a logic error.
@@ -84,6 +93,7 @@ The second pillar, **Red Flagging**, serves as an early warning system. Research
 The third pillar is **First-to-ahead-by-K Voting**. This uses a voting algorithm where multiple models run in parallel. A result is only accepted when one option leads the others by a specific margin (K). This statistical redundancy allows a system powered by mediocre models (like Llama 3 8B) to achieve **99.9999% accuracy**, outperforming a single 'genius' model at a fraction of the cost.
 
 ### Economic and Practical Implications
+
 This approach reveals a new **scaling law**: small models plus voting are cheaper and more reliable than large models used once. For developers, this means shifting focus from prompt engineering to **state management**. To implement this today, developers should:
 
 - Stop using chat history for state; use external objects like file systems or databases.

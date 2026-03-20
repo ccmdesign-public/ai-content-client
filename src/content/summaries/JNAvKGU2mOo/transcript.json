@@ -1,0 +1,1889 @@
+{
+  "videoId": "JNAvKGU2mOo",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.3890000000000002,
+      "duration": 0.009999999999999787,
+      "text": "Nvidia has just released Neotron 3"
+    },
+    {
+      "start": 2.399,
+      "duration": 1.9909999999999997,
+      "text": "Nvidia has just released Neotron 3 Super. This is a mixture of experts"
+    },
+    {
+      "start": 4.39,
+      "duration": 0.010000000000000675,
+      "text": "Super. This is a mixture of experts"
+    },
+    {
+      "start": 4.4,
+      "duration": 1.83,
+      "text": "Super. This is a mixture of experts model that has a completely new"
+    },
+    {
+      "start": 6.23,
+      "duration": 0.009999999999999787,
+      "text": "model that has a completely new"
+    },
+    {
+      "start": 6.24,
+      "duration": 1.6689999999999996,
+      "text": "model that has a completely new architecture. They use something called"
+    },
+    {
+      "start": 7.909,
+      "duration": 0.010000000000000675,
+      "text": "architecture. They use something called"
+    },
+    {
+      "start": 7.9190000000000005,
+      "duration": 2.151,
+      "text": "architecture. They use something called latent mixture of experts as well as"
+    },
+    {
+      "start": 10.07,
+      "duration": 0.009999999999999787,
+      "text": "latent mixture of experts as well as"
+    },
+    {
+      "start": 10.08,
+      "duration": 1.9100000000000001,
+      "text": "latent mixture of experts as well as hybrid Mamba architecture. With the"
+    },
+    {
+      "start": 11.99,
+      "duration": 0.009999999999999787,
+      "text": "hybrid Mamba architecture. With the"
+    },
+    {
+      "start": 12,
+      "duration": 1.3499999999999996,
+      "text": "hybrid Mamba architecture. With the model, you get the strengths of the"
+    },
+    {
+      "start": 13.35,
+      "duration": 0.009999999999999787,
+      "text": "model, you get the strengths of the"
+    },
+    {
+      "start": 13.36,
+      "duration": 2.149000000000001,
+      "text": "model, you get the strengths of the transformer architecture combined with"
+    },
+    {
+      "start": 15.509,
+      "duration": 0.009999999999999787,
+      "text": "transformer architecture combined with"
+    },
+    {
+      "start": 15.519,
+      "duration": 2.310999999999998,
+      "text": "transformer architecture combined with the speed of Mamba architecture. First"
+    },
+    {
+      "start": 17.83,
+      "duration": 0.010000000000001563,
+      "text": "the speed of Mamba architecture. First"
+    },
+    {
+      "start": 17.84,
+      "duration": 1.6700000000000017,
+      "text": "the speed of Mamba architecture. First up, I just want to do a brief overview"
+    },
+    {
+      "start": 19.51,
+      "duration": 0.00999999999999801,
+      "text": "up, I just want to do a brief overview"
+    },
+    {
+      "start": 19.52,
+      "duration": 1.908999999999999,
+      "text": "up, I just want to do a brief overview on what are mixture of experts for those"
+    },
+    {
+      "start": 21.429,
+      "duration": 0.010000000000001563,
+      "text": "on what are mixture of experts for those"
+    },
+    {
+      "start": 21.439,
+      "duration": 1.5899999999999999,
+      "text": "on what are mixture of experts for those that aren't familiar. Basically with"
+    },
+    {
+      "start": 23.029,
+      "duration": 0.010000000000001563,
+      "text": "that aren't familiar. Basically with"
+    },
+    {
+      "start": 23.039,
+      "duration": 1.6709999999999994,
+      "text": "that aren't familiar. Basically with mixer of experts what it allows you to"
+    },
+    {
+      "start": 24.71,
+      "duration": 0.00999999999999801,
+      "text": "mixer of experts what it allows you to"
+    },
+    {
+      "start": 24.72,
+      "duration": 1.990000000000002,
+      "text": "mixer of experts what it allows you to do is instead of using every single"
+    },
+    {
+      "start": 26.71,
+      "duration": 0.00999999999999801,
+      "text": "do is instead of using every single"
+    },
+    {
+      "start": 26.72,
+      "duration": 2.150000000000002,
+      "text": "do is instead of using every single parameter for all of the tokens what"
+    },
+    {
+      "start": 28.87,
+      "duration": 0.00999999999999801,
+      "text": "parameter for all of the tokens what"
+    },
+    {
+      "start": 28.88,
+      "duration": 1.8300000000000018,
+      "text": "parameter for all of the tokens what will happen is a router will pick a"
+    },
+    {
+      "start": 30.71,
+      "duration": 0.00999999999999801,
+      "text": "will happen is a router will pick a"
+    },
+    {
+      "start": 30.72,
+      "duration": 2.5500000000000043,
+      "text": "will happen is a router will pick a small subset of specialists to work on"
+    },
+    {
+      "start": 33.27,
+      "duration": 0.00999999999999801,
+      "text": "small subset of specialists to work on"
+    },
+    {
+      "start": 33.28,
+      "duration": 2.1499999999999986,
+      "text": "small subset of specialists to work on that task. They do use something a"
+    },
+    {
+      "start": 35.43,
+      "duration": 0.00999999999999801,
+      "text": "that task. They do use something a"
+    },
+    {
+      "start": 35.44,
+      "duration": 1.1900000000000048,
+      "text": "that task. They do use something a little bit different than mixture of"
+    },
+    {
+      "start": 36.63,
+      "duration": 0.00999999999999801,
+      "text": "little bit different than mixture of"
+    },
+    {
+      "start": 36.64,
+      "duration": 1.7490000000000023,
+      "text": "little bit different than mixture of experts which they call latent mixture"
+    },
+    {
+      "start": 38.389,
+      "duration": 0.00999999999999801,
+      "text": "experts which they call latent mixture"
+    },
+    {
+      "start": 38.399,
+      "duration": 1.4309999999999974,
+      "text": "experts which they call latent mixture of experts. But the way that you can"
+    },
+    {
+      "start": 39.83,
+      "duration": 0.010000000000005116,
+      "text": "of experts. But the way that you can"
+    },
+    {
+      "start": 39.84,
+      "duration": 2.9499999999999957,
+      "text": "of experts. But the way that you can think about this is there's 120 billion"
+    },
+    {
+      "start": 42.79,
+      "duration": 0.00999999999999801,
+      "text": "think about this is there's 120 billion"
+    },
+    {
+      "start": 42.8,
+      "duration": 2.3100000000000023,
+      "text": "think about this is there's 120 billion total parameters but at any given time"
+    },
+    {
+      "start": 45.11,
+      "duration": 0.00999999999999801,
+      "text": "total parameters but at any given time"
+    },
+    {
+      "start": 45.12,
+      "duration": 1.5100000000000051,
+      "text": "total parameters but at any given time there's only going to be 12 billion"
+    },
+    {
+      "start": 46.63,
+      "duration": 0.00999999999999801,
+      "text": "there's only going to be 12 billion"
+    },
+    {
+      "start": 46.64,
+      "duration": 1.990000000000002,
+      "text": "there's only going to be 12 billion active parameters per token. And the"
+    },
+    {
+      "start": 48.63,
+      "duration": 0.00999999999999801,
+      "text": "active parameters per token. And the"
+    },
+    {
+      "start": 48.64,
+      "duration": 1.429000000000002,
+      "text": "active parameters per token. And the benefit of this approach at time of"
+    },
+    {
+      "start": 50.069,
+      "duration": 0.00999999999999801,
+      "text": "benefit of this approach at time of"
+    },
+    {
+      "start": 50.079,
+      "duration": 1.2710000000000008,
+      "text": "benefit of this approach at time of inference you're going to get speeds"
+    },
+    {
+      "start": 51.35,
+      "duration": 0.00999999999999801,
+      "text": "inference you're going to get speeds"
+    },
+    {
+      "start": 51.36,
+      "duration": 1.4299999999999997,
+      "text": "inference you're going to get speeds that are much much faster. But in"
+    },
+    {
+      "start": 52.79,
+      "duration": 0.00999999999999801,
+      "text": "that are much much faster. But in"
+    },
+    {
+      "start": 52.8,
+      "duration": 1.3500000000000014,
+      "text": "that are much much faster. But in addition to mixture of experts, the"
+    },
+    {
+      "start": 54.15,
+      "duration": 0.00999999999999801,
+      "text": "addition to mixture of experts, the"
+    },
+    {
+      "start": 54.16,
+      "duration": 1.4300000000000068,
+      "text": "addition to mixture of experts, the difference with this model is they're"
+    },
+    {
+      "start": 55.59,
+      "duration": 0.00999999999999801,
+      "text": "difference with this model is they're"
+    },
+    {
+      "start": 55.6,
+      "duration": 2.1499999999999986,
+      "text": "difference with this model is they're using something called latent mixture of"
+    },
+    {
+      "start": 57.75,
+      "duration": 0.00999999999999801,
+      "text": "using something called latent mixture of"
+    },
+    {
+      "start": 57.76,
+      "duration": 1.6700000000000017,
+      "text": "using something called latent mixture of experts. So with the standard mixture of"
+    },
+    {
+      "start": 59.43,
+      "duration": 0.00999999999999801,
+      "text": "experts. So with the standard mixture of"
+    },
+    {
+      "start": 59.44,
+      "duration": 1.5890000000000057,
+      "text": "experts. So with the standard mixture of experts approach, it's going to route"
+    },
+    {
+      "start": 61.029,
+      "duration": 0.00999999999999801,
+      "text": "experts approach, it's going to route"
+    },
+    {
+      "start": 61.039,
+      "duration": 2.4709999999999965,
+      "text": "experts approach, it's going to route all of those raw tokens to experts and"
+    },
+    {
+      "start": 63.51,
+      "duration": 0.010000000000005116,
+      "text": "all of those raw tokens to experts and"
+    },
+    {
+      "start": 63.52,
+      "duration": 2.229999999999997,
+      "text": "all of those raw tokens to experts and each expert is going to process the"
+    },
+    {
+      "start": 65.75,
+      "duration": 0.010000000000005116,
+      "text": "each expert is going to process the"
+    },
+    {
+      "start": 65.76,
+      "duration": 1.5899999999999892,
+      "text": "each expert is going to process the full-size input. There's going to be"
+    },
+    {
+      "start": 67.35,
+      "duration": 0.010000000000005116,
+      "text": "full-size input. There's going to be"
+    },
+    {
+      "start": 67.36,
+      "duration": 1.5900000000000034,
+      "text": "full-size input. There's going to be fewer experts to actually fit in memory."
+    },
+    {
+      "start": 68.95,
+      "duration": 0.009999999999990905,
+      "text": "fewer experts to actually fit in memory."
+    },
+    {
+      "start": 68.96,
+      "duration": 1.0300000000000011,
+      "text": "fewer experts to actually fit in memory. Okay. Now the difference with what"
+    },
+    {
+      "start": 69.99,
+      "duration": 0.010000000000005116,
+      "text": "Okay. Now the difference with what"
+    },
+    {
+      "start": 70,
+      "duration": 1.9899999999999949,
+      "text": "Okay. Now the difference with what they've done with Neotron 3 Super is"
+    },
+    {
+      "start": 71.99,
+      "duration": 0.010000000000005116,
+      "text": "they've done with Neotron 3 Super is"
+    },
+    {
+      "start": 72,
+      "duration": 1.8299999999999983,
+      "text": "they've done with Neotron 3 Super is there is a little bit of a twist where"
+    },
+    {
+      "start": 73.83,
+      "duration": 0.010000000000005116,
+      "text": "there is a little bit of a twist where"
+    },
+    {
+      "start": 73.84,
+      "duration": 1.4299999999999926,
+      "text": "there is a little bit of a twist where they're leveraging latent mixture of"
+    },
+    {
+      "start": 75.27,
+      "duration": 0.010000000000005116,
+      "text": "they're leveraging latent mixture of"
+    },
+    {
+      "start": 75.28,
+      "duration": 1.5900000000000034,
+      "text": "they're leveraging latent mixture of experts. Now, what this does and where"
+    },
+    {
+      "start": 76.87,
+      "duration": 0.009999999999990905,
+      "text": "experts. Now, what this does and where"
+    },
+    {
+      "start": 76.88,
+      "duration": 1.5100000000000051,
+      "text": "experts. Now, what this does and where it's different than the standard mixture"
+    },
+    {
+      "start": 78.39,
+      "duration": 0.010000000000005116,
+      "text": "it's different than the standard mixture"
+    },
+    {
+      "start": 78.4,
+      "duration": 1.4299999999999926,
+      "text": "it's different than the standard mixture of experts model that we're used to"
+    },
+    {
+      "start": 79.83,
+      "duration": 0.010000000000005116,
+      "text": "of experts model that we're used to"
+    },
+    {
+      "start": 79.84,
+      "duration": 2.1499999999999915,
+      "text": "of experts model that we're used to seeing is instead of routing those raw"
+    },
+    {
+      "start": 81.99,
+      "duration": 0.010000000000005116,
+      "text": "seeing is instead of routing those raw"
+    },
+    {
+      "start": 82,
+      "duration": 1.9099999999999966,
+      "text": "seeing is instead of routing those raw tokens to the experts, what it's going"
+    },
+    {
+      "start": 83.91,
+      "duration": 0.010000000000005116,
+      "text": "tokens to the experts, what it's going"
+    },
+    {
+      "start": 83.92,
+      "duration": 1.8289999999999935,
+      "text": "tokens to the experts, what it's going to do is first it's going to compress"
+    },
+    {
+      "start": 85.749,
+      "duration": 0.010000000000005116,
+      "text": "to do is first it's going to compress"
+    },
+    {
+      "start": 85.759,
+      "duration": 1.6700000000000017,
+      "text": "to do is first it's going to compress those tokens, then it's going to send"
+    },
+    {
+      "start": 87.429,
+      "duration": 0.009999999999990905,
+      "text": "those tokens, then it's going to send"
+    },
+    {
+      "start": 87.439,
+      "duration": 1.4310000000000116,
+      "text": "those tokens, then it's going to send them to the router, and then the router"
+    },
+    {
+      "start": 88.87,
+      "duration": 0.009999999999990905,
+      "text": "them to the router, and then the router"
+    },
+    {
+      "start": 88.88,
+      "duration": 1.75,
+      "text": "them to the router, and then the router is ultimately going to determine what"
+    },
+    {
+      "start": 90.63,
+      "duration": 0.010000000000005116,
+      "text": "is ultimately going to determine what"
+    },
+    {
+      "start": 90.64,
+      "duration": 1.429000000000002,
+      "text": "is ultimately going to determine what expert actually gets handed those"
+    },
+    {
+      "start": 92.069,
+      "duration": 0.009999999999990905,
+      "text": "expert actually gets handed those"
+    },
+    {
+      "start": 92.079,
+      "duration": 2.311000000000007,
+      "text": "expert actually gets handed those tokens. Effectively, the experts work on"
+    },
+    {
+      "start": 94.39,
+      "duration": 0.010000000000005116,
+      "text": "tokens. Effectively, the experts work on"
+    },
+    {
+      "start": 94.4,
+      "duration": 1.9899999999999949,
+      "text": "tokens. Effectively, the experts work on smaller inputs, up to four times more"
+    },
+    {
+      "start": 96.39,
+      "duration": 0.010000000000005116,
+      "text": "smaller inputs, up to four times more"
+    },
+    {
+      "start": 96.4,
+      "duration": 2.2299999999999898,
+      "text": "smaller inputs, up to four times more experts at the same cost. And one way"
+    },
+    {
+      "start": 98.63,
+      "duration": 0.010000000000005116,
+      "text": "experts at the same cost. And one way"
+    },
+    {
+      "start": 98.64,
+      "duration": 1.1899999999999977,
+      "text": "experts at the same cost. And one way that you can think about this is let's"
+    },
+    {
+      "start": 99.83,
+      "duration": 0.010000000000005116,
+      "text": "that you can think about this is let's"
+    },
+    {
+      "start": 99.84,
+      "duration": 1.1899999999999977,
+      "text": "that you can think about this is let's say you have a task that you're working"
+    },
+    {
+      "start": 101.03,
+      "duration": 0.010000000000005116,
+      "text": "say you have a task that you're working"
+    },
+    {
+      "start": 101.04,
+      "duration": 1.9899999999999949,
+      "text": "say you have a task that you're working on at a company that you work for. One"
+    },
+    {
+      "start": 103.03,
+      "duration": 0.010000000000005116,
+      "text": "on at a company that you work for. One"
+    },
+    {
+      "start": 103.04,
+      "duration": 1.269999999999996,
+      "text": "on at a company that you work for. One approach could be you could send an"
+    },
+    {
+      "start": 104.31,
+      "duration": 0.009999999999990905,
+      "text": "approach could be you could send an"
+    },
+    {
+      "start": 104.32,
+      "duration": 2.4690000000000083,
+      "text": "approach could be you could send an email to the entire company of every"
+    },
+    {
+      "start": 106.789,
+      "duration": 0.010000000000005116,
+      "text": "email to the entire company of every"
+    },
+    {
+      "start": 106.799,
+      "duration": 1.9109999999999872,
+      "text": "email to the entire company of every detailed step of what you need to"
+    },
+    {
+      "start": 108.71,
+      "duration": 0.010000000000005116,
+      "text": "detailed step of what you need to"
+    },
+    {
+      "start": 108.72,
+      "duration": 1.5900000000000034,
+      "text": "detailed step of what you need to accomplish. But what's going to be most"
+    },
+    {
+      "start": 110.31,
+      "duration": 0.009999999999990905,
+      "text": "accomplish. But what's going to be most"
+    },
+    {
+      "start": 110.32,
+      "duration": 1.9100000000000108,
+      "text": "accomplish. But what's going to be most efficient is if you send a summary to"
+    },
+    {
+      "start": 112.23,
+      "duration": 0.009999999999990905,
+      "text": "efficient is if you send a summary to"
+    },
+    {
+      "start": 112.24,
+      "duration": 1.990000000000009,
+      "text": "efficient is if you send a summary to the particular department of what you"
+    },
+    {
+      "start": 114.23,
+      "duration": 0.009999999999990905,
+      "text": "the particular department of what you"
+    },
+    {
+      "start": 114.24,
+      "duration": 1.8290000000000077,
+      "text": "the particular department of what you need to do. So next up is when we plot"
+    },
+    {
+      "start": 116.069,
+      "duration": 0.009999999999990905,
+      "text": "need to do. So next up is when we plot"
+    },
+    {
+      "start": 116.079,
+      "duration": 2.0700000000000074,
+      "text": "need to do. So next up is when we plot the openness index to the intelligence"
+    },
+    {
+      "start": 118.149,
+      "duration": 0.010000000000005116,
+      "text": "the openness index to the intelligence"
+    },
+    {
+      "start": 118.159,
+      "duration": 2.309999999999988,
+      "text": "the openness index to the intelligence index. Artificial analysis they have an"
+    },
+    {
+      "start": 120.469,
+      "duration": 0.010000000000005116,
+      "text": "index. Artificial analysis they have an"
+    },
+    {
+      "start": 120.479,
+      "duration": 2.3910000000000053,
+      "text": "index. Artificial analysis they have an aggregate score of the intelligence of a"
+    },
+    {
+      "start": 122.87,
+      "duration": 0.009999999999990905,
+      "text": "aggregate score of the intelligence of a"
+    },
+    {
+      "start": 122.88,
+      "duration": 1.5889999999999986,
+      "text": "aggregate score of the intelligence of a model. They call this the artificial"
+    },
+    {
+      "start": 124.469,
+      "duration": 0.010000000000005116,
+      "text": "model. They call this the artificial"
+    },
+    {
+      "start": 124.479,
+      "duration": 2.070999999999998,
+      "text": "model. They call this the artificial analysis intelligence index. And"
+    },
+    {
+      "start": 126.55,
+      "duration": 0.010000000000005116,
+      "text": "analysis intelligence index. And"
+    },
+    {
+      "start": 126.56,
+      "duration": 1.8290000000000077,
+      "text": "analysis intelligence index. And basically what this is is it gives you"
+    },
+    {
+      "start": 128.389,
+      "duration": 0.009999999999990905,
+      "text": "basically what this is is it gives you"
+    },
+    {
+      "start": 128.399,
+      "duration": 2.1510000000000105,
+      "text": "basically what this is is it gives you an average score across a bunch of"
+    },
+    {
+      "start": 130.55,
+      "duration": 0.009999999999990905,
+      "text": "an average score across a bunch of"
+    },
+    {
+      "start": 130.56,
+      "duration": 1.990000000000009,
+      "text": "an average score across a bunch of different metrics such as coding, math,"
+    },
+    {
+      "start": 132.55,
+      "duration": 0.009999999999990905,
+      "text": "different metrics such as coding, math,"
+    },
+    {
+      "start": 132.56,
+      "duration": 1.829999999999984,
+      "text": "different metrics such as coding, math, and reasoning. Basically all of them"
+    },
+    {
+      "start": 134.39,
+      "duration": 0.010000000000019327,
+      "text": "and reasoning. Basically all of them"
+    },
+    {
+      "start": 134.4,
+      "duration": 2.710000000000008,
+      "text": "and reasoning. Basically all of them combined into one number. And this is a"
+    },
+    {
+      "start": 137.11,
+      "duration": 0.009999999999990905,
+      "text": "combined into one number. And this is a"
+    },
+    {
+      "start": 137.12,
+      "duration": 1.8290000000000077,
+      "text": "combined into one number. And this is a third party metric. They do this across"
+    },
+    {
+      "start": 138.949,
+      "duration": 0.009999999999990905,
+      "text": "third party metric. They do this across"
+    },
+    {
+      "start": 138.959,
+      "duration": 1.8309999999999889,
+      "text": "third party metric. They do this across a ton of different providers. And one"
+    },
+    {
+      "start": 140.79,
+      "duration": 0.010000000000019327,
+      "text": "a ton of different providers. And one"
+    },
+    {
+      "start": 140.8,
+      "duration": 1.589999999999975,
+      "text": "a ton of different providers. And one thing with this benchmark that it shows"
+    },
+    {
+      "start": 142.39,
+      "duration": 0.010000000000019327,
+      "text": "thing with this benchmark that it shows"
+    },
+    {
+      "start": 142.4,
+      "duration": 1.9089999999999918,
+      "text": "thing with this benchmark that it shows is just how freely you can actually"
+    },
+    {
+      "start": 144.309,
+      "duration": 0.009999999999990905,
+      "text": "is just how freely you can actually"
+    },
+    {
+      "start": 144.319,
+      "duration": 1.8310000000000173,
+      "text": "is just how freely you can actually access the model. For instance, when you"
+    },
+    {
+      "start": 146.15,
+      "duration": 0.009999999999990905,
+      "text": "access the model. For instance, when you"
+    },
+    {
+      "start": 146.16,
+      "duration": 1.8300000000000125,
+      "text": "access the model. For instance, when you say an open source model or an open"
+    },
+    {
+      "start": 147.99,
+      "duration": 0.009999999999990905,
+      "text": "say an open source model or an open"
+    },
+    {
+      "start": 148,
+      "duration": 1.75,
+      "text": "say an open source model or an open weight model, there's a spectrum of what"
+    },
+    {
+      "start": 149.75,
+      "duration": 0.009999999999990905,
+      "text": "weight model, there's a spectrum of what"
+    },
+    {
+      "start": 149.76,
+      "duration": 1.5900000000000034,
+      "text": "weight model, there's a spectrum of what you can actually do with the model. For"
+    },
+    {
+      "start": 151.35,
+      "duration": 0.010000000000019327,
+      "text": "you can actually do with the model. For"
+    },
+    {
+      "start": 151.36,
+      "duration": 1.3499999999999943,
+      "text": "you can actually do with the model. For instance, can you download the weights?"
+    },
+    {
+      "start": 152.71,
+      "duration": 0.009999999999990905,
+      "text": "instance, can you download the weights?"
+    },
+    {
+      "start": 152.72,
+      "duration": 1.75,
+      "text": "instance, can you download the weights? Can you self-host it? Are you able to"
+    },
+    {
+      "start": 154.47,
+      "duration": 0.009999999999990905,
+      "text": "Can you self-host it? Are you able to"
+    },
+    {
+      "start": 154.48,
+      "duration": 2.0700000000000216,
+      "text": "Can you self-host it? Are you able to fine-tune it? are you able to make a"
+    },
+    {
+      "start": 156.55,
+      "duration": 0.009999999999990905,
+      "text": "fine-tune it? are you able to make a"
+    },
+    {
+      "start": 156.56,
+      "duration": 1.509999999999991,
+      "text": "fine-tune it? are you able to make a commercial product out of it? And that's"
+    },
+    {
+      "start": 158.07,
+      "duration": 0.010000000000019327,
+      "text": "commercial product out of it? And that's"
+    },
+    {
+      "start": 158.08,
+      "duration": 1.0300000000000011,
+      "text": "commercial product out of it? And that's the one thing with all of these"
+    },
+    {
+      "start": 159.11,
+      "duration": 0.009999999999990905,
+      "text": "the one thing with all of these"
+    },
+    {
+      "start": 159.12,
+      "duration": 1.6699999999999875,
+      "text": "the one thing with all of these different open source models is they're"
+    },
+    {
+      "start": 160.79,
+      "duration": 0.010000000000019327,
+      "text": "different open source models is they're"
+    },
+    {
+      "start": 160.8,
+      "duration": 1.9099999999999966,
+      "text": "different open source models is they're not all equal. There's a spectrum in"
+    },
+    {
+      "start": 162.71,
+      "duration": 0.009999999999990905,
+      "text": "not all equal. There's a spectrum in"
+    },
+    {
+      "start": 162.72,
+      "duration": 1.990000000000009,
+      "text": "not all equal. There's a spectrum in terms of how open source it is. It's not"
+    },
+    {
+      "start": 164.71,
+      "duration": 0.009999999999990905,
+      "text": "terms of how open source it is. It's not"
+    },
+    {
+      "start": 164.72,
+      "duration": 1.8300000000000125,
+      "text": "terms of how open source it is. It's not just is it open source, yes or no. There"
+    },
+    {
+      "start": 166.55,
+      "duration": 0.009999999999990905,
+      "text": "just is it open source, yes or no. There"
+    },
+    {
+      "start": 166.56,
+      "duration": 1.6690000000000111,
+      "text": "just is it open source, yes or no. There is a spectrum. And the one thing with"
+    },
+    {
+      "start": 168.229,
+      "duration": 0.009999999999990905,
+      "text": "is a spectrum. And the one thing with"
+    },
+    {
+      "start": 168.239,
+      "duration": 1.4309999999999832,
+      "text": "is a spectrum. And the one thing with Nvidia's approach is you're going to be"
+    },
+    {
+      "start": 169.67,
+      "duration": 0.010000000000019327,
+      "text": "Nvidia's approach is you're going to be"
+    },
+    {
+      "start": 169.68,
+      "duration": 1.1099999999999852,
+      "text": "Nvidia's approach is you're going to be able to download the weights. You're"
+    },
+    {
+      "start": 170.79,
+      "duration": 0.010000000000019327,
+      "text": "able to download the weights. You're"
+    },
+    {
+      "start": 170.8,
+      "duration": 1.1099999999999852,
+      "text": "able to download the weights. You're going to be able to self-host it. You"
+    },
+    {
+      "start": 171.91,
+      "duration": 0.009999999999990905,
+      "text": "going to be able to self-host it. You"
+    },
+    {
+      "start": 171.92,
+      "duration": 1.4300000000000068,
+      "text": "going to be able to self-host it. You can fine-tune it. You can commercialize"
+    },
+    {
+      "start": 173.35,
+      "duration": 0.010000000000019327,
+      "text": "can fine-tune it. You can commercialize"
+    },
+    {
+      "start": 173.36,
+      "duration": 1.75,
+      "text": "can fine-tune it. You can commercialize it. They provide very detailed"
+    },
+    {
+      "start": 175.11,
+      "duration": 0.009999999999990905,
+      "text": "it. They provide very detailed"
+    },
+    {
+      "start": 175.12,
+      "duration": 1.509999999999991,
+      "text": "it. They provide very detailed documentation in terms of how the model"
+    },
+    {
+      "start": 176.63,
+      "duration": 0.009999999999990905,
+      "text": "documentation in terms of how the model"
+    },
+    {
+      "start": 176.64,
+      "duration": 1.3500000000000227,
+      "text": "documentation in terms of how the model was actually trained. And in terms of"
+    },
+    {
+      "start": 177.99,
+      "duration": 0.009999999999990905,
+      "text": "was actually trained. And in terms of"
+    },
+    {
+      "start": 178,
+      "duration": 1.2700000000000102,
+      "text": "was actually trained. And in terms of those that are actually trying to learn"
+    },
+    {
+      "start": 179.27,
+      "duration": 0.009999999999990905,
+      "text": "those that are actually trying to learn"
+    },
+    {
+      "start": 179.28,
+      "duration": 2.3089999999999975,
+      "text": "those that are actually trying to learn and iterate on models, there's a ton of"
+    },
+    {
+      "start": 181.589,
+      "duration": 0.009999999999990905,
+      "text": "and iterate on models, there's a ton of"
+    },
+    {
+      "start": 181.599,
+      "duration": 1.9099999999999966,
+      "text": "and iterate on models, there's a ton of really good resources how to leverage"
+    },
+    {
+      "start": 183.509,
+      "duration": 0.010000000000019327,
+      "text": "really good resources how to leverage"
+    },
+    {
+      "start": 183.519,
+      "duration": 1.6709999999999923,
+      "text": "really good resources how to leverage it. Next up on the intelligence to"
+    },
+    {
+      "start": 185.19,
+      "duration": 0.009999999999990905,
+      "text": "it. Next up on the intelligence to"
+    },
+    {
+      "start": 185.2,
+      "duration": 1.6690000000000111,
+      "text": "it. Next up on the intelligence to efficiency ratio. Now one thing with"
+    },
+    {
+      "start": 186.869,
+      "duration": 0.009999999999990905,
+      "text": "efficiency ratio. Now one thing with"
+    },
+    {
+      "start": 186.879,
+      "duration": 1.3500000000000227,
+      "text": "efficiency ratio. Now one thing with this model, so you are going to be able"
+    },
+    {
+      "start": 188.229,
+      "duration": 0.009999999999990905,
+      "text": "this model, so you are going to be able"
+    },
+    {
+      "start": 188.239,
+      "duration": 2.069999999999993,
+      "text": "this model, so you are going to be able to pass in up to a million tokens of"
+    },
+    {
+      "start": 190.309,
+      "duration": 0.009999999999990905,
+      "text": "to pass in up to a million tokens of"
+    },
+    {
+      "start": 190.319,
+      "duration": 1.6710000000000207,
+      "text": "to pass in up to a million tokens of context. So it is quite flexible in"
+    },
+    {
+      "start": 191.99,
+      "duration": 0.009999999999990905,
+      "text": "context. So it is quite flexible in"
+    },
+    {
+      "start": 192,
+      "duration": 1.75,
+      "text": "context. So it is quite flexible in terms of how you can use it. But what"
+    },
+    {
+      "start": 193.75,
+      "duration": 0.009999999999990905,
+      "text": "terms of how you can use it. But what"
+    },
+    {
+      "start": 193.76,
+      "duration": 1.9099999999999966,
+      "text": "terms of how you can use it. But what this benchmark basically measures is"
+    },
+    {
+      "start": 195.67,
+      "duration": 0.010000000000019327,
+      "text": "this benchmark basically measures is"
+    },
+    {
+      "start": 195.68,
+      "duration": 2.069999999999993,
+      "text": "this benchmark basically measures is across a number of popular open source"
+    },
+    {
+      "start": 197.75,
+      "duration": 0.009999999999990905,
+      "text": "across a number of popular open source"
+    },
+    {
+      "start": 197.76,
+      "duration": 2.3100000000000023,
+      "text": "across a number of popular open source models. This model does perform quite"
+    },
+    {
+      "start": 200.07,
+      "duration": 0.010000000000019327,
+      "text": "models. This model does perform quite"
+    },
+    {
+      "start": 200.08,
+      "duration": 2.3899999999999864,
+      "text": "models. This model does perform quite well when given the scenario of having"
+    },
+    {
+      "start": 202.47,
+      "duration": 0.009999999999990905,
+      "text": "well when given the scenario of having"
+    },
+    {
+      "start": 202.48,
+      "duration": 1.9099999999999966,
+      "text": "well when given the scenario of having eight users hit it at once on long"
+    },
+    {
+      "start": 204.39,
+      "duration": 0.010000000000019327,
+      "text": "eight users hit it at once on long"
+    },
+    {
+      "start": 204.4,
+      "duration": 1.4300000000000068,
+      "text": "eight users hit it at once on long context. And the one thing with this"
+    },
+    {
+      "start": 205.83,
+      "duration": 0.009999999999990905,
+      "text": "context. And the one thing with this"
+    },
+    {
+      "start": 205.84,
+      "duration": 2.3089999999999975,
+      "text": "context. And the one thing with this benchmark is it is benchmarked on 50,000"
+    },
+    {
+      "start": 208.149,
+      "duration": 0.009999999999990905,
+      "text": "benchmark is it is benchmarked on 50,000"
+    },
+    {
+      "start": 208.159,
+      "duration": 1.9110000000000014,
+      "text": "benchmark is it is benchmarked on 50,000 input tokens. It's not just giving a"
+    },
+    {
+      "start": 210.07,
+      "duration": 0.010000000000019327,
+      "text": "input tokens. It's not just giving a"
+    },
+    {
+      "start": 210.08,
+      "duration": 1.829999999999984,
+      "text": "input tokens. It's not just giving a hello world type of message. it's"
+    },
+    {
+      "start": 211.91,
+      "duration": 0.009999999999990905,
+      "text": "hello world type of message. it's"
+    },
+    {
+      "start": 211.92,
+      "duration": 1.5100000000000193,
+      "text": "hello world type of message. it's actually sending what this would look"
+    },
+    {
+      "start": 213.43,
+      "duration": 0.009999999999990905,
+      "text": "actually sending what this would look"
+    },
+    {
+      "start": 213.44,
+      "duration": 1.8300000000000125,
+      "text": "actually sending what this would look like when you're hosting it. Next up, in"
+    },
+    {
+      "start": 215.27,
+      "duration": 0.009999999999990905,
+      "text": "like when you're hosting it. Next up, in"
+    },
+    {
+      "start": 215.28,
+      "duration": 1.6690000000000111,
+      "text": "like when you're hosting it. Next up, in terms of how people are leveraging this"
+    },
+    {
+      "start": 216.949,
+      "duration": 0.009999999999990905,
+      "text": "terms of how people are leveraging this"
+    },
+    {
+      "start": 216.959,
+      "duration": 1.7510000000000048,
+      "text": "terms of how people are leveraging this as well as how you can start to leverage"
+    },
+    {
+      "start": 218.71,
+      "duration": 0.009999999999990905,
+      "text": "as well as how you can start to leverage"
+    },
+    {
+      "start": 218.72,
+      "duration": 2.390000000000015,
+      "text": "as well as how you can start to leverage this today. First up, perplexity is one"
+    },
+    {
+      "start": 221.11,
+      "duration": 0.009999999999990905,
+      "text": "this today. First up, perplexity is one"
+    },
+    {
+      "start": 221.12,
+      "duration": 1.6689999999999827,
+      "text": "this today. First up, perplexity is one of the easiest options in terms of where"
+    },
+    {
+      "start": 222.789,
+      "duration": 0.010000000000019327,
+      "text": "of the easiest options in terms of where"
+    },
+    {
+      "start": 222.799,
+      "duration": 1.4300000000000068,
+      "text": "of the easiest options in terms of where you can get started in trying out the"
+    },
+    {
+      "start": 224.229,
+      "duration": 0.009999999999990905,
+      "text": "you can get started in trying out the"
+    },
+    {
+      "start": 224.239,
+      "duration": 1.9099999999999966,
+      "text": "you can get started in trying out the model. There are also a number of"
+    },
+    {
+      "start": 226.149,
+      "duration": 0.009999999999990905,
+      "text": "model. There are also a number of"
+    },
+    {
+      "start": 226.159,
+      "duration": 1.6710000000000207,
+      "text": "model. There are also a number of different coding tools like code review"
+    },
+    {
+      "start": 227.83,
+      "duration": 0.009999999999990905,
+      "text": "different coding tools like code review"
+    },
+    {
+      "start": 227.84,
+      "duration": 1.5900000000000034,
+      "text": "different coding tools like code review tools such as coder rabbit as well as"
+    },
+    {
+      "start": 229.43,
+      "duration": 0.009999999999990905,
+      "text": "tools such as coder rabbit as well as"
+    },
+    {
+      "start": 229.44,
+      "duration": 1.9099999999999966,
+      "text": "tools such as coder rabbit as well as gravile where they are integrating this"
+    },
+    {
+      "start": 231.35,
+      "duration": 0.010000000000019327,
+      "text": "gravile where they are integrating this"
+    },
+    {
+      "start": 231.36,
+      "duration": 1.9899999999999807,
+      "text": "gravile where they are integrating this within their service. Factory which is a"
+    },
+    {
+      "start": 233.35,
+      "duration": 0.010000000000019327,
+      "text": "within their service. Factory which is a"
+    },
+    {
+      "start": 233.36,
+      "duration": 2.549999999999983,
+      "text": "within their service. Factory which is a coding harness CLI similar to cloud code"
+    },
+    {
+      "start": 235.91,
+      "duration": 0.009999999999990905,
+      "text": "coding harness CLI similar to cloud code"
+    },
+    {
+      "start": 235.92,
+      "duration": 2.5500000000000114,
+      "text": "coding harness CLI similar to cloud code or codeex also is incorporating this and"
+    },
+    {
+      "start": 238.47,
+      "duration": 0.009999999999990905,
+      "text": "or codeex also is incorporating this and"
+    },
+    {
+      "start": 238.48,
+      "duration": 2.1500000000000057,
+      "text": "or codeex also is incorporating this and we do see adoption from some enterprise"
+    },
+    {
+      "start": 240.63,
+      "duration": 0.009999999999990905,
+      "text": "we do see adoption from some enterprise"
+    },
+    {
+      "start": 240.64,
+      "duration": 1.8300000000000125,
+      "text": "we do see adoption from some enterprise software platforms as well. Now one of"
+    },
+    {
+      "start": 242.47,
+      "duration": 0.009999999999990905,
+      "text": "software platforms as well. Now one of"
+    },
+    {
+      "start": 242.48,
+      "duration": 1.5900000000000034,
+      "text": "software platforms as well. Now one of the big aspects of this model is since"
+    },
+    {
+      "start": 244.07,
+      "duration": 0.010000000000019327,
+      "text": "the big aspects of this model is since"
+    },
+    {
+      "start": 244.08,
+      "duration": 1.9099999999999966,
+      "text": "the big aspects of this model is since it does have up to a million tokens of"
+    },
+    {
+      "start": 245.99,
+      "duration": 0.009999999999990905,
+      "text": "it does have up to a million tokens of"
+    },
+    {
+      "start": 246,
+      "duration": 2.3089999999999975,
+      "text": "it does have up to a million tokens of context as well as five times higher"
+    },
+    {
+      "start": 248.309,
+      "duration": 0.009999999999990905,
+      "text": "context as well as five times higher"
+    },
+    {
+      "start": 248.319,
+      "duration": 2.231000000000023,
+      "text": "context as well as five times higher throughput than the previous Neotron"
+    },
+    {
+      "start": 250.55,
+      "duration": 0.009999999999990905,
+      "text": "throughput than the previous Neotron"
+    },
+    {
+      "start": 250.56,
+      "duration": 1.7489999999999952,
+      "text": "throughput than the previous Neotron super model. It's going to be available"
+    },
+    {
+      "start": 252.309,
+      "duration": 0.009999999999990905,
+      "text": "super model. It's going to be available"
+    },
+    {
+      "start": 252.319,
+      "duration": 1.910000000000025,
+      "text": "super model. It's going to be available on hugging face and it does have a very"
+    },
+    {
+      "start": 254.229,
+      "duration": 0.009999999999990905,
+      "text": "on hugging face and it does have a very"
+    },
+    {
+      "start": 254.239,
+      "duration": 2.070999999999998,
+      "text": "on hugging face and it does have a very permissive license. So you can run this"
+    },
+    {
+      "start": 256.31,
+      "duration": 0.009999999999990905,
+      "text": "permissive license. So you can run this"
+    },
+    {
+      "start": 256.32,
+      "duration": 2.230000000000018,
+      "text": "permissive license. So you can run this from anything from a DGX Spark, which is"
+    },
+    {
+      "start": 258.55,
+      "duration": 0.009999999999990905,
+      "text": "from anything from a DGX Spark, which is"
+    },
+    {
+      "start": 258.56,
+      "duration": 2.1499999999999773,
+      "text": "from anything from a DGX Spark, which is what I am currently doing right now, or"
+    },
+    {
+      "start": 260.71,
+      "duration": 0.010000000000047748,
+      "text": "what I am currently doing right now, or"
+    },
+    {
+      "start": 260.72,
+      "duration": 1.9089999999999918,
+      "text": "what I am currently doing right now, or additionally, it can deploy to a single"
+    },
+    {
+      "start": 262.629,
+      "duration": 0.009999999999990905,
+      "text": "additionally, it can deploy to a single"
+    },
+    {
+      "start": 262.639,
+      "duration": 2.4710000000000036,
+      "text": "additionally, it can deploy to a single GPU on cloud architecture. Now, if"
+    },
+    {
+      "start": 265.11,
+      "duration": 0.009999999999990905,
+      "text": "GPU on cloud architecture. Now, if"
+    },
+    {
+      "start": 265.12,
+      "duration": 1.1899999999999977,
+      "text": "GPU on cloud architecture. Now, if you're interested and if you want to"
+    },
+    {
+      "start": 266.31,
+      "duration": 0.009999999999990905,
+      "text": "you're interested and if you want to"
+    },
+    {
+      "start": 266.32,
+      "duration": 1.5889999999999986,
+      "text": "you're interested and if you want to access the weights, the data, or the"
+    },
+    {
+      "start": 267.909,
+      "duration": 0.009999999999990905,
+      "text": "access the weights, the data, or the"
+    },
+    {
+      "start": 267.919,
+      "duration": 2.2309999999999945,
+      "text": "access the weights, the data, or the recipes for things like RLing the model,"
+    },
+    {
+      "start": 270.15,
+      "duration": 0.010000000000047748,
+      "text": "recipes for things like RLing the model,"
+    },
+    {
+      "start": 270.16,
+      "duration": 1.829999999999984,
+      "text": "recipes for things like RLing the model, all of this is going to be available as"
+    },
+    {
+      "start": 271.99,
+      "duration": 0.009999999999990905,
+      "text": "all of this is going to be available as"
+    },
+    {
+      "start": 272,
+      "duration": 1.509999999999991,
+      "text": "all of this is going to be available as well. And I'll link all of this within"
+    },
+    {
+      "start": 273.51,
+      "duration": 0.009999999999990905,
+      "text": "well. And I'll link all of this within"
+    },
+    {
+      "start": 273.52,
+      "duration": 1.4300000000000068,
+      "text": "well. And I'll link all of this within the description of the video. They"
+    },
+    {
+      "start": 274.95,
+      "duration": 0.009999999999990905,
+      "text": "the description of the video. They"
+    },
+    {
+      "start": 274.96,
+      "duration": 1.910000000000025,
+      "text": "the description of the video. They mentioned that Neotron 3 Super is a"
+    },
+    {
+      "start": 276.87,
+      "duration": 0.009999999999990905,
+      "text": "mentioned that Neotron 3 Super is a"
+    },
+    {
+      "start": 276.88,
+      "duration": 1.509999999999991,
+      "text": "mentioned that Neotron 3 Super is a cost-effective model that excels in"
+    },
+    {
+      "start": 278.39,
+      "duration": 0.009999999999990905,
+      "text": "cost-effective model that excels in"
+    },
+    {
+      "start": 278.4,
+      "duration": 1.5090000000000146,
+      "text": "cost-effective model that excels in coding when paired with a Frontier"
+    },
+    {
+      "start": 279.909,
+      "duration": 0.009999999999990905,
+      "text": "coding when paired with a Frontier"
+    },
+    {
+      "start": 279.919,
+      "duration": 1.350999999999999,
+      "text": "coding when paired with a Frontier Planner. It follows detailed"
+    },
+    {
+      "start": 281.27,
+      "duration": 0.009999999999990905,
+      "text": "Planner. It follows detailed"
+    },
+    {
+      "start": 281.28,
+      "duration": 1.990000000000009,
+      "text": "Planner. It follows detailed specifications reliably and executes"
+    },
+    {
+      "start": 283.27,
+      "duration": 0.009999999999990905,
+      "text": "specifications reliably and executes"
+    },
+    {
+      "start": 283.28,
+      "duration": 2.07000000000005,
+      "text": "specifications reliably and executes multi-step coding tasks accurately. And"
+    },
+    {
+      "start": 285.35,
+      "duration": 0.009999999999990905,
+      "text": "multi-step coding tasks accurately. And"
+    },
+    {
+      "start": 285.36,
+      "duration": 1.1899999999999977,
+      "text": "multi-step coding tasks accurately. And then in terms of where to access the"
+    },
+    {
+      "start": 286.55,
+      "duration": 0.009999999999990905,
+      "text": "then in terms of where to access the"
+    },
+    {
+      "start": 286.56,
+      "duration": 1.4300000000000068,
+      "text": "then in terms of where to access the model, so you can access it anywhere"
+    },
+    {
+      "start": 287.99,
+      "duration": 0.009999999999990905,
+      "text": "model, so you can access it anywhere"
+    },
+    {
+      "start": 288,
+      "duration": 3.1100000000000136,
+      "text": "model, so you can access it anywhere from Vert.Ex AI, AWS, Azure, as well as"
+    },
+    {
+      "start": 291.11,
+      "duration": 0.009999999999990905,
+      "text": "from Vert.Ex AI, AWS, Azure, as well as"
+    },
+    {
+      "start": 291.12,
+      "duration": 1.9099999999999682,
+      "text": "from Vert.Ex AI, AWS, Azure, as well as a whole host of other service providers"
+    },
+    {
+      "start": 293.03,
+      "duration": 0.010000000000047748,
+      "text": "a whole host of other service providers"
+    },
+    {
+      "start": 293.04,
+      "duration": 1.5889999999999986,
+      "text": "a whole host of other service providers such as Deep Infra, Fireworks,"
+    },
+    {
+      "start": 294.629,
+      "duration": 0.009999999999990905,
+      "text": "such as Deep Infra, Fireworks,"
+    },
+    {
+      "start": 294.639,
+      "duration": 1.829999999999984,
+      "text": "such as Deep Infra, Fireworks, Inference.net, Modal, as well as a"
+    },
+    {
+      "start": 296.469,
+      "duration": 0.009999999999990905,
+      "text": "Inference.net, Modal, as well as a"
+    },
+    {
+      "start": 296.479,
+      "duration": 1.5910000000000082,
+      "text": "Inference.net, Modal, as well as a handful of others. And just to touch on"
+    },
+    {
+      "start": 298.07,
+      "duration": 0.009999999999990905,
+      "text": "handful of others. And just to touch on"
+    },
+    {
+      "start": 298.08,
+      "duration": 1.75,
+      "text": "handful of others. And just to touch on a number of different benchmarks for"
+    },
+    {
+      "start": 299.83,
+      "duration": 0.009999999999990905,
+      "text": "a number of different benchmarks for"
+    },
+    {
+      "start": 299.84,
+      "duration": 2.150000000000034,
+      "text": "a number of different benchmarks for models under 250 billion parameters, we"
+    },
+    {
+      "start": 301.99,
+      "duration": 0.009999999999990905,
+      "text": "models under 250 billion parameters, we"
+    },
+    {
+      "start": 302,
+      "duration": 2.069999999999993,
+      "text": "models under 250 billion parameters, we can see just how much of a leap this was"
+    },
+    {
+      "start": 304.07,
+      "duration": 0.009999999999990905,
+      "text": "can see just how much of a leap this was"
+    },
+    {
+      "start": 304.08,
+      "duration": 2.150000000000034,
+      "text": "can see just how much of a leap this was over the previous Neotron model. And"
+    },
+    {
+      "start": 306.23,
+      "duration": 0.009999999999990905,
+      "text": "over the previous Neotron model. And"
+    },
+    {
+      "start": 306.24,
+      "duration": 1.5090000000000146,
+      "text": "over the previous Neotron model. And when we compare it to other models like"
+    },
+    {
+      "start": 307.749,
+      "duration": 0.009999999999990905,
+      "text": "when we compare it to other models like"
+    },
+    {
+      "start": 307.759,
+      "duration": 3.269999999999982,
+      "text": "when we compare it to other models like GPT OSS, GLM 4.7 flash as well as models"
+    },
+    {
+      "start": 311.029,
+      "duration": 0.009999999999990905,
+      "text": "GPT OSS, GLM 4.7 flash as well as models"
+    },
+    {
+      "start": 311.039,
+      "duration": 3.271000000000015,
+      "text": "GPT OSS, GLM 4.7 flash as well as models like Quen 3 235 billion parameter, this"
+    },
+    {
+      "start": 314.31,
+      "duration": 0.009999999999990905,
+      "text": "like Quen 3 235 billion parameter, this"
+    },
+    {
+      "start": 314.32,
+      "duration": 1.829999999999984,
+      "text": "like Quen 3 235 billion parameter, this model outperforms all of them. And the"
+    },
+    {
+      "start": 316.15,
+      "duration": 0.010000000000047748,
+      "text": "model outperforms all of them. And the"
+    },
+    {
+      "start": 316.16,
+      "duration": 1.9099999999999682,
+      "text": "model outperforms all of them. And the one thing to consider with this is you"
+    },
+    {
+      "start": 318.07,
+      "duration": 0.009999999999990905,
+      "text": "one thing to consider with this is you"
+    },
+    {
+      "start": 318.08,
+      "duration": 1.6690000000000396,
+      "text": "one thing to consider with this is you really have to consider the speed as"
+    },
+    {
+      "start": 319.749,
+      "duration": 0.009999999999990905,
+      "text": "really have to consider the speed as"
+    },
+    {
+      "start": 319.759,
+      "duration": 1.4300000000000068,
+      "text": "really have to consider the speed as well as intelligence of the model"
+    },
+    {
+      "start": 321.189,
+      "duration": 0.009999999999990905,
+      "text": "well as intelligence of the model"
+    },
+    {
+      "start": 321.199,
+      "duration": 1.6709999999999923,
+      "text": "well as intelligence of the model because that in combination really tells"
+    },
+    {
+      "start": 322.87,
+      "duration": 0.009999999999990905,
+      "text": "because that in combination really tells"
+    },
+    {
+      "start": 322.88,
+      "duration": 1.509999999999991,
+      "text": "because that in combination really tells the whole story. And then finally, just"
+    },
+    {
+      "start": 324.39,
+      "duration": 0.009999999999990905,
+      "text": "the whole story. And then finally, just"
+    },
+    {
+      "start": 324.4,
+      "duration": 1.75,
+      "text": "the whole story. And then finally, just one more visualization. The higher"
+    },
+    {
+      "start": 326.15,
+      "duration": 0.010000000000047748,
+      "text": "one more visualization. The higher"
+    },
+    {
+      "start": 326.16,
+      "duration": 1.42999999999995,
+      "text": "one more visualization. The higher throughput and the more efficient the"
+    },
+    {
+      "start": 327.59,
+      "duration": 0.010000000000047748,
+      "text": "throughput and the more efficient the"
+    },
+    {
+      "start": 327.6,
+      "duration": 1.4289999999999736,
+      "text": "throughput and the more efficient the model, the more that you can get out of"
+    },
+    {
+      "start": 329.029,
+      "duration": 0.009999999999990905,
+      "text": "model, the more that you can get out of"
+    },
+    {
+      "start": 329.039,
+      "duration": 2.2309999999999945,
+      "text": "model, the more that you can get out of the GPU. This is the one thing with the"
+    },
+    {
+      "start": 331.27,
+      "duration": 0.009999999999990905,
+      "text": "the GPU. This is the one thing with the"
+    },
+    {
+      "start": 331.28,
+      "duration": 1.9090000000000487,
+      "text": "the GPU. This is the one thing with the architecture decisions of this model is"
+    },
+    {
+      "start": 333.189,
+      "duration": 0.009999999999990905,
+      "text": "architecture decisions of this model is"
+    },
+    {
+      "start": 333.199,
+      "duration": 1.4300000000000068,
+      "text": "architecture decisions of this model is you are going to be able to squeeze much"
+    },
+    {
+      "start": 334.629,
+      "duration": 0.009999999999990905,
+      "text": "you are going to be able to squeeze much"
+    },
+    {
+      "start": 334.639,
+      "duration": 1.990000000000009,
+      "text": "you are going to be able to squeeze much more performance than models like GPT"
+    },
+    {
+      "start": 336.629,
+      "duration": 0.009999999999990905,
+      "text": "more performance than models like GPT"
+    },
+    {
+      "start": 336.639,
+      "duration": 2.0709999999999695,
+      "text": "more performance than models like GPT OSS 12B. Overall, that's pretty much it"
+    },
+    {
+      "start": 338.71,
+      "duration": 0.010000000000047748,
+      "text": "OSS 12B. Overall, that's pretty much it"
+    },
+    {
+      "start": 338.72,
+      "duration": 1.42999999999995,
+      "text": "OSS 12B. Overall, that's pretty much it for this video. Kudos to the team at"
+    },
+    {
+      "start": 340.15,
+      "duration": 0.010000000000047748,
+      "text": "for this video. Kudos to the team at"
+    },
+    {
+      "start": 340.16,
+      "duration": 1.9899999999999523,
+      "text": "for this video. Kudos to the team at Nvidia for another great release. And if"
+    },
+    {
+      "start": 342.15,
+      "duration": 0.010000000000047748,
+      "text": "Nvidia for another great release. And if"
+    },
+    {
+      "start": 342.16,
+      "duration": 1.2699999999999818,
+      "text": "Nvidia for another great release. And if you found this video useful, please"
+    },
+    {
+      "start": 343.43,
+      "duration": 0.009999999999990905,
+      "text": "you found this video useful, please"
+    },
+    {
+      "start": 343.44,
+      "duration": 1.1100000000000136,
+      "text": "you found this video useful, please like, comment, share, and subscribe."
+    },
+    {
+      "start": 344.55,
+      "duration": 0.009999999999990905,
+      "text": "like, comment, share, and subscribe."
+    },
+    {
+      "start": 344.56,
+      "duration": 2.9599999999999795,
+      "text": "like, comment, share, and subscribe. Otherwise, until the next one."
+    }
+  ],
+  "fullText": "Nvidia has just released Neotron 3 Nvidia has just released Neotron 3 Super. This is a mixture of experts Super. This is a mixture of experts Super. This is a mixture of experts model that has a completely new model that has a completely new model that has a completely new architecture. They use something called architecture. They use something called architecture. They use something called latent mixture of experts as well as latent mixture of experts as well as latent mixture of experts as well as hybrid Mamba architecture. With the hybrid Mamba architecture. With the hybrid Mamba architecture. With the model, you get the strengths of the model, you get the strengths of the model, you get the strengths of the transformer architecture combined with transformer architecture combined with transformer architecture combined with the speed of Mamba architecture. First the speed of Mamba architecture. First the speed of Mamba architecture. First up, I just want to do a brief overview up, I just want to do a brief overview up, I just want to do a brief overview on what are mixture of experts for those on what are mixture of experts for those on what are mixture of experts for those that aren't familiar. Basically with that aren't familiar. Basically with that aren't familiar. Basically with mixer of experts what it allows you to mixer of experts what it allows you to mixer of experts what it allows you to do is instead of using every single do is instead of using every single do is instead of using every single parameter for all of the tokens what parameter for all of the tokens what parameter for all of the tokens what will happen is a router will pick a will happen is a router will pick a will happen is a router will pick a small subset of specialists to work on small subset of specialists to work on small subset of specialists to work on that task. They do use something a that task. They do use something a that task. They do use something a little bit different than mixture of little bit different than mixture of little bit different than mixture of experts which they call latent mixture experts which they call latent mixture experts which they call latent mixture of experts. But the way that you can of experts. But the way that you can of experts. But the way that you can think about this is there's 120 billion think about this is there's 120 billion think about this is there's 120 billion total parameters but at any given time total parameters but at any given time total parameters but at any given time there's only going to be 12 billion there's only going to be 12 billion there's only going to be 12 billion active parameters per token. And the active parameters per token. And the active parameters per token. And the benefit of this approach at time of benefit of this approach at time of benefit of this approach at time of inference you're going to get speeds inference you're going to get speeds inference you're going to get speeds that are much much faster. But in that are much much faster. But in that are much much faster. But in addition to mixture of experts, the addition to mixture of experts, the addition to mixture of experts, the difference with this model is they're difference with this model is they're difference with this model is they're using something called latent mixture of using something called latent mixture of using something called latent mixture of experts. So with the standard mixture of experts. So with the standard mixture of experts. So with the standard mixture of experts approach, it's going to route experts approach, it's going to route experts approach, it's going to route all of those raw tokens to experts and all of those raw tokens to experts and all of those raw tokens to experts and each expert is going to process the each expert is going to process the each expert is going to process the full-size input. There's going to be full-size input. There's going to be full-size input. There's going to be fewer experts to actually fit in memory. fewer experts to actually fit in memory. fewer experts to actually fit in memory. Okay. Now the difference with what Okay. Now the difference with what Okay. Now the difference with what they've done with Neotron 3 Super is they've done with Neotron 3 Super is they've done with Neotron 3 Super is there is a little bit of a twist where there is a little bit of a twist where there is a little bit of a twist where they're leveraging latent mixture of they're leveraging latent mixture of they're leveraging latent mixture of experts. Now, what this does and where experts. Now, what this does and where experts. Now, what this does and where it's different than the standard mixture it's different than the standard mixture it's different than the standard mixture of experts model that we're used to of experts model that we're used to of experts model that we're used to seeing is instead of routing those raw seeing is instead of routing those raw seeing is instead of routing those raw tokens to the experts, what it's going tokens to the experts, what it's going tokens to the experts, what it's going to do is first it's going to compress to do is first it's going to compress to do is first it's going to compress those tokens, then it's going to send those tokens, then it's going to send those tokens, then it's going to send them to the router, and then the router them to the router, and then the router them to the router, and then the router is ultimately going to determine what is ultimately going to determine what is ultimately going to determine what expert actually gets handed those expert actually gets handed those expert actually gets handed those tokens. Effectively, the experts work on tokens. Effectively, the experts work on tokens. Effectively, the experts work on smaller inputs, up to four times more smaller inputs, up to four times more smaller inputs, up to four times more experts at the same cost. And one way experts at the same cost. And one way experts at the same cost. And one way that you can think about this is let's that you can think about this is let's that you can think about this is let's say you have a task that you're working say you have a task that you're working say you have a task that you're working on at a company that you work for. One on at a company that you work for. One on at a company that you work for. One approach could be you could send an approach could be you could send an approach could be you could send an email to the entire company of every email to the entire company of every email to the entire company of every detailed step of what you need to detailed step of what you need to detailed step of what you need to accomplish. But what's going to be most accomplish. But what's going to be most accomplish. But what's going to be most efficient is if you send a summary to efficient is if you send a summary to efficient is if you send a summary to the particular department of what you the particular department of what you the particular department of what you need to do. So next up is when we plot need to do. So next up is when we plot need to do. So next up is when we plot the openness index to the intelligence the openness index to the intelligence the openness index to the intelligence index. Artificial analysis they have an index. Artificial analysis they have an index. Artificial analysis they have an aggregate score of the intelligence of a aggregate score of the intelligence of a aggregate score of the intelligence of a model. They call this the artificial model. They call this the artificial model. They call this the artificial analysis intelligence index. And analysis intelligence index. And analysis intelligence index. And basically what this is is it gives you basically what this is is it gives you basically what this is is it gives you an average score across a bunch of an average score across a bunch of an average score across a bunch of different metrics such as coding, math, different metrics such as coding, math, different metrics such as coding, math, and reasoning. Basically all of them and reasoning. Basically all of them and reasoning. Basically all of them combined into one number. And this is a combined into one number. And this is a combined into one number. And this is a third party metric. They do this across third party metric. They do this across third party metric. They do this across a ton of different providers. And one a ton of different providers. And one a ton of different providers. And one thing with this benchmark that it shows thing with this benchmark that it shows thing with this benchmark that it shows is just how freely you can actually is just how freely you can actually is just how freely you can actually access the model. For instance, when you access the model. For instance, when you access the model. For instance, when you say an open source model or an open say an open source model or an open say an open source model or an open weight model, there's a spectrum of what weight model, there's a spectrum of what weight model, there's a spectrum of what you can actually do with the model. For you can actually do with the model. For you can actually do with the model. For instance, can you download the weights? instance, can you download the weights? instance, can you download the weights? Can you self-host it? Are you able to Can you self-host it? Are you able to Can you self-host it? Are you able to fine-tune it? are you able to make a fine-tune it? are you able to make a fine-tune it? are you able to make a commercial product out of it? And that's commercial product out of it? And that's commercial product out of it? And that's the one thing with all of these the one thing with all of these the one thing with all of these different open source models is they're different open source models is they're different open source models is they're not all equal. There's a spectrum in not all equal. There's a spectrum in not all equal. There's a spectrum in terms of how open source it is. It's not terms of how open source it is. It's not terms of how open source it is. It's not just is it open source, yes or no. There just is it open source, yes or no. There just is it open source, yes or no. There is a spectrum. And the one thing with is a spectrum. And the one thing with is a spectrum. And the one thing with Nvidia's approach is you're going to be Nvidia's approach is you're going to be Nvidia's approach is you're going to be able to download the weights. You're able to download the weights. You're able to download the weights. You're going to be able to self-host it. You going to be able to self-host it. You going to be able to self-host it. You can fine-tune it. You can commercialize can fine-tune it. You can commercialize can fine-tune it. You can commercialize it. They provide very detailed it. They provide very detailed it. They provide very detailed documentation in terms of how the model documentation in terms of how the model documentation in terms of how the model was actually trained. And in terms of was actually trained. And in terms of was actually trained. And in terms of those that are actually trying to learn those that are actually trying to learn those that are actually trying to learn and iterate on models, there's a ton of and iterate on models, there's a ton of and iterate on models, there's a ton of really good resources how to leverage really good resources how to leverage really good resources how to leverage it. Next up on the intelligence to it. Next up on the intelligence to it. Next up on the intelligence to efficiency ratio. Now one thing with efficiency ratio. Now one thing with efficiency ratio. Now one thing with this model, so you are going to be able this model, so you are going to be able this model, so you are going to be able to pass in up to a million tokens of to pass in up to a million tokens of to pass in up to a million tokens of context. So it is quite flexible in context. So it is quite flexible in context. So it is quite flexible in terms of how you can use it. But what terms of how you can use it. But what terms of how you can use it. But what this benchmark basically measures is this benchmark basically measures is this benchmark basically measures is across a number of popular open source across a number of popular open source across a number of popular open source models. This model does perform quite models. This model does perform quite models. This model does perform quite well when given the scenario of having well when given the scenario of having well when given the scenario of having eight users hit it at once on long eight users hit it at once on long eight users hit it at once on long context. And the one thing with this context. And the one thing with this context. And the one thing with this benchmark is it is benchmarked on 50,000 benchmark is it is benchmarked on 50,000 benchmark is it is benchmarked on 50,000 input tokens. It's not just giving a input tokens. It's not just giving a input tokens. It's not just giving a hello world type of message. it's hello world type of message. it's hello world type of message. it's actually sending what this would look actually sending what this would look actually sending what this would look like when you're hosting it. Next up, in like when you're hosting it. Next up, in like when you're hosting it. Next up, in terms of how people are leveraging this terms of how people are leveraging this terms of how people are leveraging this as well as how you can start to leverage as well as how you can start to leverage as well as how you can start to leverage this today. First up, perplexity is one this today. First up, perplexity is one this today. First up, perplexity is one of the easiest options in terms of where of the easiest options in terms of where of the easiest options in terms of where you can get started in trying out the you can get started in trying out the you can get started in trying out the model. There are also a number of model. There are also a number of model. There are also a number of different coding tools like code review different coding tools like code review different coding tools like code review tools such as coder rabbit as well as tools such as coder rabbit as well as tools such as coder rabbit as well as gravile where they are integrating this gravile where they are integrating this gravile where they are integrating this within their service. Factory which is a within their service. Factory which is a within their service. Factory which is a coding harness CLI similar to cloud code coding harness CLI similar to cloud code coding harness CLI similar to cloud code or codeex also is incorporating this and or codeex also is incorporating this and or codeex also is incorporating this and we do see adoption from some enterprise we do see adoption from some enterprise we do see adoption from some enterprise software platforms as well. Now one of software platforms as well. Now one of software platforms as well. Now one of the big aspects of this model is since the big aspects of this model is since the big aspects of this model is since it does have up to a million tokens of it does have up to a million tokens of it does have up to a million tokens of context as well as five times higher context as well as five times higher context as well as five times higher throughput than the previous Neotron throughput than the previous Neotron throughput than the previous Neotron super model. It's going to be available super model. It's going to be available super model. It's going to be available on hugging face and it does have a very on hugging face and it does have a very on hugging face and it does have a very permissive license. So you can run this permissive license. So you can run this permissive license. So you can run this from anything from a DGX Spark, which is from anything from a DGX Spark, which is from anything from a DGX Spark, which is what I am currently doing right now, or what I am currently doing right now, or what I am currently doing right now, or additionally, it can deploy to a single additionally, it can deploy to a single additionally, it can deploy to a single GPU on cloud architecture. Now, if GPU on cloud architecture. Now, if GPU on cloud architecture. Now, if you're interested and if you want to you're interested and if you want to you're interested and if you want to access the weights, the data, or the access the weights, the data, or the access the weights, the data, or the recipes for things like RLing the model, recipes for things like RLing the model, recipes for things like RLing the model, all of this is going to be available as all of this is going to be available as all of this is going to be available as well. And I'll link all of this within well. And I'll link all of this within well. And I'll link all of this within the description of the video. They the description of the video. They the description of the video. They mentioned that Neotron 3 Super is a mentioned that Neotron 3 Super is a mentioned that Neotron 3 Super is a cost-effective model that excels in cost-effective model that excels in cost-effective model that excels in coding when paired with a Frontier coding when paired with a Frontier coding when paired with a Frontier Planner. It follows detailed Planner. It follows detailed Planner. It follows detailed specifications reliably and executes specifications reliably and executes specifications reliably and executes multi-step coding tasks accurately. And multi-step coding tasks accurately. And multi-step coding tasks accurately. And then in terms of where to access the then in terms of where to access the then in terms of where to access the model, so you can access it anywhere model, so you can access it anywhere model, so you can access it anywhere from Vert.Ex AI, AWS, Azure, as well as from Vert.Ex AI, AWS, Azure, as well as from Vert.Ex AI, AWS, Azure, as well as a whole host of other service providers a whole host of other service providers a whole host of other service providers such as Deep Infra, Fireworks, such as Deep Infra, Fireworks, such as Deep Infra, Fireworks, Inference.net, Modal, as well as a Inference.net, Modal, as well as a Inference.net, Modal, as well as a handful of others. And just to touch on handful of others. And just to touch on handful of others. And just to touch on a number of different benchmarks for a number of different benchmarks for a number of different benchmarks for models under 250 billion parameters, we models under 250 billion parameters, we models under 250 billion parameters, we can see just how much of a leap this was can see just how much of a leap this was can see just how much of a leap this was over the previous Neotron model. And over the previous Neotron model. And over the previous Neotron model. And when we compare it to other models like when we compare it to other models like when we compare it to other models like GPT OSS, GLM 4.7 flash as well as models GPT OSS, GLM 4.7 flash as well as models GPT OSS, GLM 4.7 flash as well as models like Quen 3 235 billion parameter, this like Quen 3 235 billion parameter, this like Quen 3 235 billion parameter, this model outperforms all of them. And the model outperforms all of them. And the model outperforms all of them. And the one thing to consider with this is you one thing to consider with this is you one thing to consider with this is you really have to consider the speed as really have to consider the speed as really have to consider the speed as well as intelligence of the model well as intelligence of the model well as intelligence of the model because that in combination really tells because that in combination really tells because that in combination really tells the whole story. And then finally, just the whole story. And then finally, just the whole story. And then finally, just one more visualization. The higher one more visualization. The higher one more visualization. The higher throughput and the more efficient the throughput and the more efficient the throughput and the more efficient the model, the more that you can get out of model, the more that you can get out of model, the more that you can get out of the GPU. This is the one thing with the the GPU. This is the one thing with the the GPU. This is the one thing with the architecture decisions of this model is architecture decisions of this model is architecture decisions of this model is you are going to be able to squeeze much you are going to be able to squeeze much you are going to be able to squeeze much more performance than models like GPT more performance than models like GPT more performance than models like GPT OSS 12B. Overall, that's pretty much it OSS 12B. Overall, that's pretty much it OSS 12B. Overall, that's pretty much it for this video. Kudos to the team at for this video. Kudos to the team at for this video. Kudos to the team at Nvidia for another great release. And if Nvidia for another great release. And if Nvidia for another great release. And if you found this video useful, please you found this video useful, please you found this video useful, please like, comment, share, and subscribe. like, comment, share, and subscribe. like, comment, share, and subscribe. Otherwise, until the next one.",
+  "fetchedAt": "2026-03-12T16:01:09.245Z"
+}

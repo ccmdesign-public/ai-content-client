@@ -4,9 +4,7 @@ metadata:
   title: "I Ran Whisper 100% Offline… Here’s What Actually Happened"
   description: "Transcribing audio offline without sending your data to the cloud is harder than it should be. Most tools are slow, expensive, or require uploading private audio to third-party services.
 
-
     In this video, I test Buzz, a free, open-source desktop app powered by OpenAI’s Whisper model, that lets you transcribe and translate audio 100% locally on your own machine. No cloud, no API keys, no subscriptions.
-
 
     🔗 Relevant Links
 
@@ -18,7 +16,6 @@ metadata:
 
     Buzz UI Download - https://sourceforge.net/projects/buzz-captions/
 
-
     ❤️ More about us
 
     Radically better observability stack: https://betterstack.com/
@@ -26,7 +23,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -37,7 +33,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -96,6 +91,17 @@ tools:
     url: null
   - name: "Rev"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "automation"
+  - "llm"
+  - "nlp"
+  - "python"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.502Z"
 ---
 
 ## Key Takeaways
@@ -115,19 +121,23 @@ Buzz provides a powerful, local alternative to paid cloud transcription services
 Buzz is an open-source desktop application and CLI tool that brings the power of OpenAI’s **Whisper** model to local machines. It is designed for users who want to avoid the privacy concerns and high costs associated with cloud-based transcription services like Otter.ai or Rev. By running locally, Buzz ensures that sensitive audio data never leaves the user's computer.
 
 ### Key Features and Capabilities
+
 The tool supports a wide range of inputs, including local audio and video files, You
 
 Tube links, and live microphone recordings. It provides several output formats such as plain text, **SRT**, and **VTT**, which are essential for video editors and content creators. One of its standout features is the ability to generate **word-level timestamps**, providing granular data that is often locked behind premium tiers in other software. It also includes an interactive viewer for searching and editing transcripts directly within the app.
 
 ### The CLI and Automation
+
 For power users and developers, Buzz includes a **Command Line Interface (CLI)**. This allows for the automation of complex tasks using shell scripts. In the demonstration, a one-hour podcast was processed in just a few minutes, outputting multiple file types simultaneously. Because it is written in Python and is **MIT licensed**, it can be integrated into larger software pipelines, allowing developers to build custom transcription workflows without relying on external APIs.
 
 ### Performance and Hardware Requirements
+
 Because Buzz runs locally, its performance is strictly tied to the user's hardware. While it supports **multilingual transcription and translation** (e.g., translating French audio directly to English text), the models themselves are massive, often requiring several gigabytes of storage space. 
 
 Users with a dedicated **GPU** will experience significantly faster results thanks to optimized backends like **faster-whisper**. However, those running on a CPU may find the process slow and resource-intensive. The initial setup can also be somewhat technical, involving driver installations and machine learning environment configurations typical of local AI projects.
 
 ### Privacy and Accessibility
+
 The primary value proposition of Buzz is the combination of **privacy** and cost-efficiency. By keeping data on-device, it serves users handling sensitive information, such as legal or medical professionals. Being free to use after the initial model download, it eliminates the financial barrier of "pay-per-minute" models while offering a level of customization not found in standard consumer tools.
 
 ## Context

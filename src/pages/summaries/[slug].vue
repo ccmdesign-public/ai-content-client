@@ -1,45 +1,57 @@
 <template>
-  <ccm-section>
-    <div v-if="pending">Loading...</div>
-    <div v-else-if="error">Error: {{ error }}</div>
-    <div v-else-if="!summary">Not found</div>
+  <section class="py-8">
+    <div v-if="pending" class="text-center text-muted-foreground">Loading...</div>
+    <div v-else-if="error" class="text-center text-destructive">Error: {{ error }}</div>
+    <div v-else-if="!summary" class="text-center text-muted-foreground">Not found</div>
     <div v-else>
       <div class="center">
-        <nuxt-link to="/summaries/">Back to summaries</nuxt-link>
-        <h1>{{ summary.metadata.title }}</h1>
-        <p class="video-link">
-          <a :href="summary.metadata.youtubeUrl" target="_blank" rel="noopener">Watch on YouTube</a>
-        </p>
+        <NuxtLink to="/summaries/" class="text-sm text-muted-foreground hover:text-foreground">Back to summaries</NuxtLink>
+        <h1 class="text-2xl font-bold mt-4 mb-2">{{ summary.metadata.title }}</h1>
+        <!-- YouTube Embed -->
+        <div class="my-6 aspect-video rounded-lg overflow-hidden border">
+          <iframe
+            :src="`https://www.youtube.com/embed/${summary.metadata.videoId}`"
+            class="w-full h-full"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
 
         <!-- Tools Section at Beginning -->
-        <section v-if="categorizedTools.length" class="tools-section tools-section--top">
-          <h2>Tools Mentioned</h2>
-          <div v-for="group in categorizedTools" :key="group.category" class="tools-category">
-            <h3 class="tools-category__heading">{{ group.category }}</h3>
-            <div class="tools-category__chips">
-              <ccm-chip
+        <section v-if="categorizedTools.length" class="my-8 p-4 bg-muted rounded-lg border">
+          <h2 class="text-lg font-semibold mb-4">Tools Mentioned</h2>
+          <div v-for="group in categorizedTools" :key="group.category" class="mb-3 last:mb-0">
+            <h3 class="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-1">{{ group.category }}</h3>
+            <div class="flex flex-wrap gap-2">
+              <Chip
                 v-for="tool in group.tools"
                 :key="tool.name"
-                :label="tool.name"
                 :to="tool.url || undefined"
-                variant="outlined"
-                color="neutral"
-                size="s"
-              />
+                variant="outline"
+              >
+                {{ tool.name }}
+              </Chip>
             </div>
           </div>
         </section>
 
         <!-- Video Description Section -->
-        <details v-if="summary.metadata.description" class="video-description">
-          <summary class="video-description__toggle">Video Description</summary>
-          <div class="video-description__content">{{ summary.metadata.description }}</div>
+        <details v-if="summary.metadata.description" class="my-6 p-4 bg-muted rounded-lg border">
+          <summary class="cursor-pointer font-semibold text-muted-foreground hover:text-foreground select-none">Video Description</summary>
+          <div class="mt-3 whitespace-pre-wrap text-sm leading-relaxed text-muted-foreground">{{ summary.metadata.description }}</div>
         </details>
 
-        <ContentRenderer :value="summary" class="prose-layout | prose" />
+        <ContentRenderer :value="summary" class="prose prose-zinc dark:prose-invert max-w-none" />
+
+        <!-- Full Transcript -->
+        <details v-if="transcriptText" class="my-6 p-4 bg-muted rounded-lg border">
+          <summary class="cursor-pointer font-semibold text-muted-foreground hover:text-foreground select-none">Full Transcript</summary>
+          <div class="mt-3 text-sm leading-relaxed text-muted-foreground whitespace-pre-wrap">{{ transcriptText }}</div>
+        </details>
       </div>
     </div>
-  </ccm-section>
+  </section>
 </template>
 
 <script setup lang="ts">
@@ -73,6 +85,24 @@ const { data: summary, pending, error } = useAsyncData(
   }
 )
 
+// Load transcript JSON
+const { data: transcriptText } = useAsyncData(
+  `transcript-${slug}`,
+  async () => {
+    try {
+      const data = await $fetch<{ segments?: { text: string; duration: number }[] }>(`/transcripts/${slug}.json`)
+      if (!data?.segments?.length) return ''
+      // Filter out short overlap fragments (duration <= 0.5s) and join
+      return data.segments
+        .filter(s => s.duration > 0.5)
+        .map(s => s.text)
+        .join(' ')
+    } catch {
+      return ''
+    }
+  }
+)
+
 // Computed categorized tools
 const categorizedTools = computed(() => {
   if (!summary.value?.tools?.length) return []
@@ -82,74 +112,8 @@ const categorizedTools = computed(() => {
 
 <style scoped>
 .center {
-  --theme-center-measure: 80ch;
-}
-
-.video-description {
-  margin-block: 1.3125rem;
-  padding: 0.875rem;
-  background: var(--muted);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
-}
-
-.video-description__toggle {
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--muted-foreground);
-  user-select: none;
-}
-
-.video-description__toggle:hover {
-  color: var(--foreground);
-}
-
-.video-description__content {
-  margin-top: 0.875rem;
-  white-space: pre-wrap;
-  font-size: 0.875rem;
-  line-height: 1.6;
-  color: var(--muted-foreground);
-}
-
-.video-description[open] .video-description__toggle {
-  margin-bottom: 0.6875rem;
-}
-
-.tools-section {
-  margin-block: 1.75rem;
-  padding: 1.3125rem;
-  background: var(--muted);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border);
-}
-
-.tools-section h2 {
-  margin-block-start: 0;
-  margin-block-end: 1.3125rem;
-  font-size: 1.125rem;
-}
-
-.tools-category {
-  margin-block-end: 0.875rem;
-}
-
-.tools-category:last-child {
-  margin-block-end: 0;
-}
-
-.tools-category__heading {
-  margin-block: 0 0.375rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--muted-foreground);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.tools-category__chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6875rem;
+  max-width: 80ch;
+  margin-inline: auto;
+  padding-inline: 1rem;
 }
 </style>

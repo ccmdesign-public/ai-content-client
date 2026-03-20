@@ -133,6 +133,97 @@ describe('normalizeText', () => {
     const input = '**Bold text** and *italic text*\n\n* Bullet one\n* Bullet two';
     expect(normalizeText(input)).toBe('**Bold text** and *italic text*\n\n* Bullet one\n* Bullet two');
   });
+
+  it('adds blank line after ### heading with single newline', () => {
+    const input = '### Key Points\nThe first point is important.';
+    expect(normalizeText(input)).toBe('### Key Points\n\nThe first point is important.');
+  });
+
+  it('adds blank line before ### heading when preceded by text', () => {
+    const input = 'Some text### Heading';
+    expect(normalizeText(input)).toBe('Some text\n\n### Heading');
+  });
+
+  it('preserves already-correct ### heading spacing', () => {
+    const input = '### Key Points\n\nThe first point is important.';
+    expect(normalizeText(input)).toBe('### Key Points\n\nThe first point is important.');
+  });
+
+  it('handles ### heading at start of text with missing blank line after', () => {
+    const input = '### Overview\nThis is the overview content.';
+    expect(normalizeText(input)).toBe('### Overview\n\nThis is the overview content.');
+  });
+
+  it('handles multiple ### headings with mixed spacing', () => {
+    const input = '### First\nContent one.\n\n### Second\n\nContent two.';
+    expect(normalizeText(input)).toBe('### First\n\nContent one.\n\n### Second\n\nContent two.');
+  });
+
+  it('does not affect bullet points after ### heading', () => {
+    const input = '### Tools\n* Tool A\n* Tool B';
+    expect(normalizeText(input)).toBe('### Tools\n\n* Tool A\n* Tool B');
+  });
+
+  it('collapses excessive blank lines after ### heading', () => {
+    const input = '### Heading\n\n\n\nContent after excessive blanks.';
+    expect(normalizeText(input)).toBe('### Heading\n\nContent after excessive blanks.');
+  });
+
+  it('handles ### heading followed by another ### heading', () => {
+    const input = '### First Heading\n### Second Heading\nContent here.';
+    expect(normalizeText(input)).toBe('### First Heading\n\n### Second Heading\n\nContent here.');
+  });
+
+  it('handles ### heading at end of text', () => {
+    const input = 'Some content.\n\n### Final Heading';
+    expect(normalizeText(input)).toBe('Some content.\n\n### Final Heading');
+  });
+
+  it('preserves heading boundary when heading ends with article "The"', () => {
+    const input = '### The\ncontent here';
+    expect(normalizeText(input)).toBe('### The\n\ncontent here');
+  });
+
+  it('preserves heading boundary when heading ends with preposition "to"', () => {
+    const input = '### Guide to\nmastering skills';
+    expect(normalizeText(input)).toBe('### Guide to\n\nmastering skills');
+  });
+
+  it('preserves heading boundary when heading ends with "and"', () => {
+    const input = '### Pros and\ncons of AI';
+    expect(normalizeText(input)).toBe('### Pros and\n\ncons of AI');
+  });
+
+  it('preserves heading boundary when heading ends with "for"', () => {
+    const input = '### Items for\nreview of the code';
+    expect(normalizeText(input)).toBe('### Items for\n\nreview of the code');
+  });
+
+  it('does not corrupt #### headings into # + ### split', () => {
+    // Regression test for Finding 2: #### must not be split into "#\n\n### "
+    // Note: fixBrokenWords may join CamelCase patterns (Subheading+Content),
+    // but the heading level (####) must remain intact -- no stray # on previous line.
+    const result = normalizeText('#### Subheading\nContent here');
+    expect(result).toContain('####');
+    expect(result).not.toMatch(/^#\n/); // No stray # followed by newline
+    expect(result).not.toContain('#\n\n###'); // No split into # + ###
+  });
+
+  it('does not corrupt #### headings preceded by text', () => {
+    const result = normalizeText('Some text\n#### Subheading\nContent here');
+    expect(result).toContain('####');
+    expect(result).not.toContain('#\n\n###'); // No split into # + ###
+  });
+
+  it('does not treat inline ### in content as a heading', () => {
+    const input = 'Use ### for subheadings in your document';
+    expect(normalizeText(input)).toBe('Use ### for subheadings in your document');
+  });
+
+  it('collapses whitespace-only lines after heading without leaving triple newlines', () => {
+    const input = '### Heading\n   \nContent';
+    expect(normalizeText(input)).toBe('### Heading\n\nContent');
+  });
 });
 
 describe('normalizeSingleLine', () => {

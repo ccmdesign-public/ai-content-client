@@ -4,15 +4,11 @@ metadata:
   title: "Ethical Hacking War Stories: Zero Trust, IAM & Advanced C2 Tactics"
   description: "Ready to become a certified SOC Analyst - QRadar SIEM V7.5 Plus CompTIA Cybersecurity Analyst? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/Bdb6wi
 
-
     Learn more about Ethical Hacking here → https://ibm.biz/Bdb6wj
-
 
     Think your systems are safe? Think again. 💡 Jeff Crume & Patrick Fussell share real-world ethical hacking war stories, breaking down Zero Trust, IAM vulnerabilities, and advanced C2 attacks. 🚀 Learn assume breach strategies, lateral movement, and techniques to level up your cybersecurity skills!
 
-
     Read the Cost of a Data Breach report  → https://ibm.biz/Bdb6wZ
-
 
     #ethicalhacking #iam #zerotrust #c2"
   channel: "IBM Technology"
@@ -45,6 +41,17 @@ tools:
     url: null
   - name: "QRadar SIEM"
     url: "https://ibm.biz/Bdb6wi"
+categories:
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Security"
+tags:
+  - "authentication"
+  - "best-practices"
+  - "monitoring"
+  - "penetration-testing"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.413Z"
 ---
 
 ## Key Takeaways
@@ -70,6 +77,7 @@ Point. The first major breakthrough is finding **hardcoded credentials** in a le
 4.  **Objective Completion:** The SCCM access is leveraged to easily identify and capture **domain administrator credentials**, achieving the simulation's final business objective and demonstrating a complete network takeover.
 
 ### Key Security Recommendations
+
 Fussell's recommendations focus on foundational security hygiene over chasing the latest technology:
 
 - **Master Identity & Access Management (IAM):** Implement the **principle of least privilege**, eliminate overprivileged accounts, and use credential vaults instead of hardcoding secrets. These two practices would "make hackers' lives drastically harder."

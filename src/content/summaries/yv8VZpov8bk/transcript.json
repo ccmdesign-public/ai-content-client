@@ -1,0 +1,2369 @@
+{
+  "videoId": "yv8VZpov8bk",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.23,
+      "duration": 0.010000000000000231,
+      "text": "introducing built-in Git work tree"
+    },
+    {
+      "start": 2.24,
+      "duration": 2.069,
+      "text": "introducing built-in Git work tree support for claude code. Now agents can"
+    },
+    {
+      "start": 4.309,
+      "duration": 0.009999999999999787,
+      "text": "support for claude code. Now agents can"
+    },
+    {
+      "start": 4.319,
+      "duration": 1.7510000000000003,
+      "text": "support for claude code. Now agents can run in parallel without interfering with"
+    },
+    {
+      "start": 6.07,
+      "duration": 0.009999999999999787,
+      "text": "run in parallel without interfering with"
+    },
+    {
+      "start": 6.08,
+      "duration": 1.8289999999999997,
+      "text": "run in parallel without interfering with one another. Each agent gets its own"
+    },
+    {
+      "start": 7.909,
+      "duration": 0.010000000000000675,
+      "text": "one another. Each agent gets its own"
+    },
+    {
+      "start": 7.9190000000000005,
+      "duration": 1.9909999999999997,
+      "text": "one another. Each agent gets its own work tree and can work independently."
+    },
+    {
+      "start": 9.91,
+      "duration": 0.009999999999999787,
+      "text": "work tree and can work independently."
+    },
+    {
+      "start": 9.92,
+      "duration": 2.7889999999999997,
+      "text": "work tree and can work independently. Now this is really really sweet and I'm"
+    },
+    {
+      "start": 12.709,
+      "duration": 0.009999999999999787,
+      "text": "Now this is really really sweet and I'm"
+    },
+    {
+      "start": 12.719,
+      "duration": 1.83,
+      "text": "Now this is really really sweet and I'm kind of excited to show you my first"
+    },
+    {
+      "start": 14.549,
+      "duration": 0.009999999999999787,
+      "text": "kind of excited to show you my first"
+    },
+    {
+      "start": 14.559,
+      "duration": 1.7509999999999994,
+      "text": "kind of excited to show you my first impressions, my first time trying this"
+    },
+    {
+      "start": 16.31,
+      "duration": 0.010000000000001563,
+      "text": "impressions, my first time trying this"
+    },
+    {
+      "start": 16.32,
+      "duration": 2.2300000000000004,
+      "text": "impressions, my first time trying this and the thoughts I immediately have as"
+    },
+    {
+      "start": 18.55,
+      "duration": 0.00999999999999801,
+      "text": "and the thoughts I immediately have as"
+    },
+    {
+      "start": 18.56,
+      "duration": 1.3500000000000014,
+      "text": "and the thoughts I immediately have as soon as I see this post. I've known"
+    },
+    {
+      "start": 19.91,
+      "duration": 0.010000000000001563,
+      "text": "soon as I see this post. I've known"
+    },
+    {
+      "start": 19.92,
+      "duration": 2.1499999999999986,
+      "text": "soon as I see this post. I've known about work trees for many many years but"
+    },
+    {
+      "start": 22.07,
+      "duration": 0.00999999999999801,
+      "text": "about work trees for many many years but"
+    },
+    {
+      "start": 22.08,
+      "duration": 2.2300000000000004,
+      "text": "about work trees for many many years but rarely actually ever use them. Probably"
+    },
+    {
+      "start": 24.31,
+      "duration": 0.010000000000001563,
+      "text": "rarely actually ever use them. Probably"
+    },
+    {
+      "start": 24.32,
+      "duration": 1.509999999999998,
+      "text": "rarely actually ever use them. Probably quite similar to you but I've never"
+    },
+    {
+      "start": 25.83,
+      "duration": 0.010000000000001563,
+      "text": "quite similar to you but I've never"
+    },
+    {
+      "start": 25.84,
+      "duration": 1.5889999999999986,
+      "text": "quite similar to you but I've never actually taken the leap to integrate it"
+    },
+    {
+      "start": 27.429,
+      "duration": 0.010000000000001563,
+      "text": "actually taken the leap to integrate it"
+    },
+    {
+      "start": 27.439,
+      "duration": 1.9100000000000001,
+      "text": "actually taken the leap to integrate it with clawed code. So having it built in"
+    },
+    {
+      "start": 29.349,
+      "duration": 0.010000000000001563,
+      "text": "with clawed code. So having it built in"
+    },
+    {
+      "start": 29.359,
+      "duration": 1.9099999999999966,
+      "text": "with clawed code. So having it built in in theory just makes it super duper"
+    },
+    {
+      "start": 31.269,
+      "duration": 0.010000000000001563,
+      "text": "in theory just makes it super duper"
+    },
+    {
+      "start": 31.279,
+      "duration": 1.5909999999999975,
+      "text": "in theory just makes it super duper easy. So let's test it out and see"
+    },
+    {
+      "start": 32.87,
+      "duration": 0.010000000000005116,
+      "text": "easy. So let's test it out and see"
+    },
+    {
+      "start": 32.88,
+      "duration": 1.5090000000000003,
+      "text": "easy. So let's test it out and see what's going on with it. So I am now"
+    },
+    {
+      "start": 34.389,
+      "duration": 0.00999999999999801,
+      "text": "what's going on with it. So I am now"
+    },
+    {
+      "start": 34.399,
+      "duration": 1.990000000000002,
+      "text": "what's going on with it. So I am now inside my main work repo which is my"
+    },
+    {
+      "start": 36.389,
+      "duration": 0.00999999999999801,
+      "text": "inside my main work repo which is my"
+    },
+    {
+      "start": 36.399,
+      "duration": 1.591000000000001,
+      "text": "inside my main work repo which is my course video manager. And inside here"
+    },
+    {
+      "start": 37.99,
+      "duration": 0.00999999999999801,
+      "text": "course video manager. And inside here"
+    },
+    {
+      "start": 38,
+      "duration": 1.990000000000002,
+      "text": "course video manager. And inside here I'm going to run git status. And you can"
+    },
+    {
+      "start": 39.99,
+      "duration": 0.00999999999999801,
+      "text": "I'm going to run git status. And you can"
+    },
+    {
+      "start": 40,
+      "duration": 2.1499999999999986,
+      "text": "I'm going to run git status. And you can see here I'm on my main branch. Now I'm"
+    },
+    {
+      "start": 42.15,
+      "duration": 0.00999999999999801,
+      "text": "see here I'm on my main branch. Now I'm"
+    },
+    {
+      "start": 42.16,
+      "duration": 1.4300000000000068,
+      "text": "see here I'm on my main branch. Now I'm going to run a second command which is"
+    },
+    {
+      "start": 43.59,
+      "duration": 0.00999999999999801,
+      "text": "going to run a second command which is"
+    },
+    {
+      "start": 43.6,
+      "duration": 3.6700000000000017,
+      "text": "going to run a second command which is get workree add UI updates. And when I"
+    },
+    {
+      "start": 47.27,
+      "duration": 0.00999999999999801,
+      "text": "get workree add UI updates. And when I"
+    },
+    {
+      "start": 47.28,
+      "duration": 2.6299999999999955,
+      "text": "get workree add UI updates. And when I run this and we can see actually inside"
+    },
+    {
+      "start": 49.91,
+      "duration": 0.010000000000005116,
+      "text": "run this and we can see actually inside"
+    },
+    {
+      "start": 49.92,
+      "duration": 3.1090000000000018,
+      "text": "run this and we can see actually inside the explorer here that a new folder has"
+    },
+    {
+      "start": 53.029,
+      "duration": 0.00999999999999801,
+      "text": "the explorer here that a new folder has"
+    },
+    {
+      "start": 53.039,
+      "duration": 2.6310000000000002,
+      "text": "the explorer here that a new folder has been created called UI updates. And now"
+    },
+    {
+      "start": 55.67,
+      "duration": 0.00999999999999801,
+      "text": "been created called UI updates. And now"
+    },
+    {
+      "start": 55.68,
+      "duration": 3.1099999999999994,
+      "text": "been created called UI updates. And now if we cd into there, if we see cd UI"
+    },
+    {
+      "start": 58.79,
+      "duration": 0.00999999999999801,
+      "text": "if we cd into there, if we see cd UI"
+    },
+    {
+      "start": 58.8,
+      "duration": 2.710000000000001,
+      "text": "if we cd into there, if we see cd UI updates inside here and run git status,"
+    },
+    {
+      "start": 61.51,
+      "duration": 0.010000000000005116,
+      "text": "updates inside here and run git status,"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.8699999999999974,
+      "text": "updates inside here and run git status, we can see it's on a branch called UI"
+    },
+    {
+      "start": 64.39,
+      "duration": 0.010000000000005116,
+      "text": "we can see it's on a branch called UI"
+    },
+    {
+      "start": 64.4,
+      "duration": 2.2299999999999898,
+      "text": "we can see it's on a branch called UI updates. So this new folder has a"
+    },
+    {
+      "start": 66.63,
+      "duration": 0.010000000000005116,
+      "text": "updates. So this new folder has a"
+    },
+    {
+      "start": 66.64,
+      "duration": 2.8700000000000045,
+      "text": "updates. So this new folder has a separate git state essentially like it"
+    },
+    {
+      "start": 69.51,
+      "duration": 0.009999999999990905,
+      "text": "separate git state essentially like it"
+    },
+    {
+      "start": 69.52,
+      "duration": 1.6700000000000017,
+      "text": "separate git state essentially like it can be on a separate branch from the"
+    },
+    {
+      "start": 71.19,
+      "duration": 0.010000000000005116,
+      "text": "can be on a separate branch from the"
+    },
+    {
+      "start": 71.2,
+      "duration": 1.9089999999999918,
+      "text": "can be on a separate branch from the main branch. Now inside this UI updates"
+    },
+    {
+      "start": 73.109,
+      "duration": 0.010000000000005116,
+      "text": "main branch. Now inside this UI updates"
+    },
+    {
+      "start": 73.119,
+      "duration": 3.3499999999999943,
+      "text": "main branch. Now inside this UI updates folder, I'm going to call touch fooar.md"
+    },
+    {
+      "start": 76.469,
+      "duration": 0.010000000000005116,
+      "text": "folder, I'm going to call touch fooar.md"
+    },
+    {
+      "start": 76.479,
+      "duration": 1.6700000000000017,
+      "text": "folder, I'm going to call touch fooar.md here and create a new file called"
+    },
+    {
+      "start": 78.149,
+      "duration": 0.010000000000005116,
+      "text": "here and create a new file called"
+    },
+    {
+      "start": 78.159,
+      "duration": 2.1509999999999962,
+      "text": "here and create a new file called fooar.md. And one thing you'll notice is"
+    },
+    {
+      "start": 80.31,
+      "duration": 0.009999999999990905,
+      "text": "fooar.md. And one thing you'll notice is"
+    },
+    {
+      "start": 80.32,
+      "duration": 1.8290000000000077,
+      "text": "fooar.md. And one thing you'll notice is if you're inside VS Code or probably"
+    },
+    {
+      "start": 82.149,
+      "duration": 0.010000000000005116,
+      "text": "if you're inside VS Code or probably"
+    },
+    {
+      "start": 82.159,
+      "duration": 2.2309999999999945,
+      "text": "if you're inside VS Code or probably cursor too, is that inside your source"
+    },
+    {
+      "start": 84.39,
+      "duration": 0.010000000000005116,
+      "text": "cursor too, is that inside your source"
+    },
+    {
+      "start": 84.4,
+      "duration": 2.0689999999999884,
+      "text": "cursor too, is that inside your source control panel, you now have the main"
+    },
+    {
+      "start": 86.469,
+      "duration": 0.010000000000005116,
+      "text": "control panel, you now have the main"
+    },
+    {
+      "start": 86.479,
+      "duration": 1.831000000000003,
+      "text": "control panel, you now have the main repo for the course video manager,"
+    },
+    {
+      "start": 88.31,
+      "duration": 0.009999999999990905,
+      "text": "repo for the course video manager,"
+    },
+    {
+      "start": 88.32,
+      "duration": 2.0700000000000074,
+      "text": "repo for the course video manager, that's the main branch. And then this"
+    },
+    {
+      "start": 90.39,
+      "duration": 0.010000000000005116,
+      "text": "that's the main branch. And then this"
+    },
+    {
+      "start": 90.4,
+      "duration": 1.9099999999999966,
+      "text": "that's the main branch. And then this one, you actually see your work tree"
+    },
+    {
+      "start": 92.31,
+      "duration": 0.009999999999990905,
+      "text": "one, you actually see your work tree"
+    },
+    {
+      "start": 92.32,
+      "duration": 1.7490000000000094,
+      "text": "one, you actually see your work tree too. And we can see that there are some"
+    },
+    {
+      "start": 94.069,
+      "duration": 0.009999999999990905,
+      "text": "too. And we can see that there are some"
+    },
+    {
+      "start": 94.079,
+      "duration": 2.1510000000000105,
+      "text": "too. And we can see that there are some changes inside the UI updates. I can"
+    },
+    {
+      "start": 96.23,
+      "duration": 0.009999999999990905,
+      "text": "changes inside the UI updates. I can"
+    },
+    {
+      "start": 96.24,
+      "duration": 2.1500000000000057,
+      "text": "changes inside the UI updates. I can then stage this and actually commit it"
+    },
+    {
+      "start": 98.39,
+      "duration": 0.010000000000005116,
+      "text": "then stage this and actually commit it"
+    },
+    {
+      "start": 98.4,
+      "duration": 3.7489999999999952,
+      "text": "then stage this and actually commit it to the UI updates branch. New fooar.md"
+    },
+    {
+      "start": 102.149,
+      "duration": 0.010000000000005116,
+      "text": "to the UI updates branch. New fooar.md"
+    },
+    {
+      "start": 102.159,
+      "duration": 1.9899999999999949,
+      "text": "to the UI updates branch. New fooar.md inside here with VS Code. Of course, I"
+    },
+    {
+      "start": 104.149,
+      "duration": 0.010000000000005116,
+      "text": "inside here with VS Code. Of course, I"
+    },
+    {
+      "start": 104.159,
+      "duration": 1.9899999999999949,
+      "text": "inside here with VS Code. Of course, I can publish the branch up here and even"
+    },
+    {
+      "start": 106.149,
+      "duration": 0.010000000000005116,
+      "text": "can publish the branch up here and even"
+    },
+    {
+      "start": 106.159,
+      "duration": 3.269999999999996,
+      "text": "can publish the branch up here and even make a PR to the original branch all"
+    },
+    {
+      "start": 109.429,
+      "duration": 0.009999999999990905,
+      "text": "make a PR to the original branch all"
+    },
+    {
+      "start": 109.439,
+      "duration": 2.2310000000000088,
+      "text": "make a PR to the original branch all within this same nice UI and without"
+    },
+    {
+      "start": 111.67,
+      "duration": 0.010000000000005116,
+      "text": "within this same nice UI and without"
+    },
+    {
+      "start": 111.68,
+      "duration": 2.6299999999999955,
+      "text": "within this same nice UI and without ever leaving my IDE. Once I'm done with"
+    },
+    {
+      "start": 114.31,
+      "duration": 0.009999999999990905,
+      "text": "ever leaving my IDE. Once I'm done with"
+    },
+    {
+      "start": 114.32,
+      "duration": 2.3900000000000006,
+      "text": "ever leaving my IDE. Once I'm done with this, I can then just Okay, maybe we"
+    },
+    {
+      "start": 116.71,
+      "duration": 0.010000000000005116,
+      "text": "this, I can then just Okay, maybe we"
+    },
+    {
+      "start": 116.72,
+      "duration": 1.8299999999999983,
+      "text": "this, I can then just Okay, maybe we merge this pull request. That looks"
+    },
+    {
+      "start": 118.55,
+      "duration": 0.010000000000005116,
+      "text": "merge this pull request. That looks"
+    },
+    {
+      "start": 118.56,
+      "duration": 2.149000000000001,
+      "text": "merge this pull request. That looks really nice. Now, I can open up source"
+    },
+    {
+      "start": 120.709,
+      "duration": 0.009999999999990905,
+      "text": "really nice. Now, I can open up source"
+    },
+    {
+      "start": 120.719,
+      "duration": 2.710000000000008,
+      "text": "really nice. Now, I can open up source control again and I can refresh inside"
+    },
+    {
+      "start": 123.429,
+      "duration": 0.009999999999990905,
+      "text": "control again and I can refresh inside"
+    },
+    {
+      "start": 123.439,
+      "duration": 2.3100000000000023,
+      "text": "control again and I can refresh inside here and attempt to pull down any"
+    },
+    {
+      "start": 125.749,
+      "duration": 0.010000000000005116,
+      "text": "here and attempt to pull down any"
+    },
+    {
+      "start": 125.759,
+      "duration": 3.190000000000012,
+      "text": "here and attempt to pull down any changes. So, if I go I'll just cd back"
+    },
+    {
+      "start": 128.949,
+      "duration": 0.009999999999990905,
+      "text": "changes. So, if I go I'll just cd back"
+    },
+    {
+      "start": 128.959,
+      "duration": 2.6299999999999955,
+      "text": "changes. So, if I go I'll just cd back into the main directory. I'll go get"
+    },
+    {
+      "start": 131.589,
+      "duration": 0.009999999999990905,
+      "text": "into the main directory. I'll go get"
+    },
+    {
+      "start": 131.599,
+      "duration": 2.630000000000024,
+      "text": "into the main directory. I'll go get pull and I should now have a fooar"
+    },
+    {
+      "start": 134.229,
+      "duration": 0.009999999999990905,
+      "text": "pull and I should now have a fooar"
+    },
+    {
+      "start": 134.239,
+      "duration": 3.591000000000008,
+      "text": "pull and I should now have a fooar inside my actual main directory which is"
+    },
+    {
+      "start": 137.83,
+      "duration": 0.009999999999990905,
+      "text": "inside my actual main directory which is"
+    },
+    {
+      "start": 137.84,
+      "duration": 1.509999999999991,
+      "text": "inside my actual main directory which is just"
+    },
+    {
+      "start": 139.35,
+      "duration": 0.010000000000019327,
+      "text": "just"
+    },
+    {
+      "start": 139.36,
+      "duration": 1.0299999999999727,
+      "text": "just where's it gone? Where's it gone?"
+    },
+    {
+      "start": 140.39,
+      "duration": 0.010000000000019327,
+      "text": "where's it gone? Where's it gone?"
+    },
+    {
+      "start": 140.4,
+      "duration": 2.468999999999994,
+      "text": "where's it gone? Where's it gone? Where's it gone? There it is. fooar.md"
+    },
+    {
+      "start": 142.869,
+      "duration": 0.009999999999990905,
+      "text": "Where's it gone? There it is. fooar.md"
+    },
+    {
+      "start": 142.879,
+      "duration": 1.990000000000009,
+      "text": "Where's it gone? There it is. fooar.md inside the main branch of my repo. Now"
+    },
+    {
+      "start": 144.869,
+      "duration": 0.009999999999990905,
+      "text": "inside the main branch of my repo. Now"
+    },
+    {
+      "start": 144.879,
+      "duration": 1.8310000000000173,
+      "text": "inside the main branch of my repo. Now that I'm done with that work tree, I can"
+    },
+    {
+      "start": 146.71,
+      "duration": 0.009999999999990905,
+      "text": "that I'm done with that work tree, I can"
+    },
+    {
+      "start": 146.72,
+      "duration": 2.3100000000000023,
+      "text": "that I'm done with that work tree, I can either simply remove it just by running"
+    },
+    {
+      "start": 149.03,
+      "duration": 0.009999999999990905,
+      "text": "either simply remove it just by running"
+    },
+    {
+      "start": 149.04,
+      "duration": 3.430000000000007,
+      "text": "either simply remove it just by running uh rimf UI updates or I can run git"
+    },
+    {
+      "start": 152.47,
+      "duration": 0.009999999999990905,
+      "text": "uh rimf UI updates or I can run git"
+    },
+    {
+      "start": 152.48,
+      "duration": 3.7490000000000236,
+      "text": "uh rimf UI updates or I can run git workree remove UI updates as well. I'm"
+    },
+    {
+      "start": 156.229,
+      "duration": 0.009999999999990905,
+      "text": "workree remove UI updates as well. I'm"
+    },
+    {
+      "start": 156.239,
+      "duration": 1.3499999999999943,
+      "text": "workree remove UI updates as well. I'm fairly sure that does kind of the same"
+    },
+    {
+      "start": 157.589,
+      "duration": 0.009999999999990905,
+      "text": "fairly sure that does kind of the same"
+    },
+    {
+      "start": 157.599,
+      "duration": 1.7510000000000048,
+      "text": "fairly sure that does kind of the same thing. Now, if we go back in and we look"
+    },
+    {
+      "start": 159.35,
+      "duration": 0.010000000000019327,
+      "text": "thing. Now, if we go back in and we look"
+    },
+    {
+      "start": 159.36,
+      "duration": 1.75,
+      "text": "thing. Now, if we go back in and we look inside the source control again, we now"
+    },
+    {
+      "start": 161.11,
+      "duration": 0.009999999999990905,
+      "text": "inside the source control again, we now"
+    },
+    {
+      "start": 161.12,
+      "duration": 2.549999999999983,
+      "text": "inside the source control again, we now just have a single um work tree"
+    },
+    {
+      "start": 163.67,
+      "duration": 0.010000000000019327,
+      "text": "just have a single um work tree"
+    },
+    {
+      "start": 163.68,
+      "duration": 1.4300000000000068,
+      "text": "just have a single um work tree available, which is our main work tree."
+    },
+    {
+      "start": 165.11,
+      "duration": 0.009999999999990905,
+      "text": "available, which is our main work tree."
+    },
+    {
+      "start": 165.12,
+      "duration": 1.8290000000000077,
+      "text": "available, which is our main work tree. So, work trees are a super convenient"
+    },
+    {
+      "start": 166.949,
+      "duration": 0.009999999999990905,
+      "text": "So, work trees are a super convenient"
+    },
+    {
+      "start": 166.959,
+      "duration": 2.1510000000000105,
+      "text": "So, work trees are a super convenient way that you can have multiple branches"
+    },
+    {
+      "start": 169.11,
+      "duration": 0.009999999999990905,
+      "text": "way that you can have multiple branches"
+    },
+    {
+      "start": 169.12,
+      "duration": 1.7489999999999952,
+      "text": "way that you can have multiple branches of something checked out on your machine"
+    },
+    {
+      "start": 170.869,
+      "duration": 0.009999999999990905,
+      "text": "of something checked out on your machine"
+    },
+    {
+      "start": 170.879,
+      "duration": 2.4710000000000036,
+      "text": "of something checked out on your machine at once. And the tooling in your IDE, if"
+    },
+    {
+      "start": 173.35,
+      "duration": 0.010000000000019327,
+      "text": "at once. And the tooling in your IDE, if"
+    },
+    {
+      "start": 173.36,
+      "duration": 1.9099999999999966,
+      "text": "at once. And the tooling in your IDE, if it's good, like VS Code is, will pick it"
+    },
+    {
+      "start": 175.27,
+      "duration": 0.009999999999990905,
+      "text": "it's good, like VS Code is, will pick it"
+    },
+    {
+      "start": 175.28,
+      "duration": 1.509999999999991,
+      "text": "it's good, like VS Code is, will pick it up and allow you to modify them"
+    },
+    {
+      "start": 176.79,
+      "duration": 0.010000000000019327,
+      "text": "up and allow you to modify them"
+    },
+    {
+      "start": 176.8,
+      "duration": 1.5089999999999861,
+      "text": "up and allow you to modify them independently or of course you can do it"
+    },
+    {
+      "start": 178.309,
+      "duration": 0.009999999999990905,
+      "text": "independently or of course you can do it"
+    },
+    {
+      "start": 178.319,
+      "duration": 1.1899999999999977,
+      "text": "independently or of course you can do it from the terminal as we were doing"
+    },
+    {
+      "start": 179.509,
+      "duration": 0.010000000000019327,
+      "text": "from the terminal as we were doing"
+    },
+    {
+      "start": 179.519,
+      "duration": 1.8309999999999889,
+      "text": "from the terminal as we were doing there. So, let's now test out the clawed"
+    },
+    {
+      "start": 181.35,
+      "duration": 0.010000000000019327,
+      "text": "there. So, let's now test out the clawed"
+    },
+    {
+      "start": 181.36,
+      "duration": 1.2699999999999818,
+      "text": "there. So, let's now test out the clawed version of this where we're going to run"
+    },
+    {
+      "start": 182.63,
+      "duration": 0.009999999999990905,
+      "text": "version of this where we're going to run"
+    },
+    {
+      "start": 182.64,
+      "duration": 1.8300000000000125,
+      "text": "version of this where we're going to run clawed"
+    },
+    {
+      "start": 184.47,
+      "duration": 0.009999999999990905,
+      "text": "clawed"
+    },
+    {
+      "start": 184.48,
+      "duration": 2.230000000000018,
+      "text": "clawed workree like this. Now what this does is"
+    },
+    {
+      "start": 186.71,
+      "duration": 0.009999999999990905,
+      "text": "workree like this. Now what this does is"
+    },
+    {
+      "start": 186.72,
+      "duration": 1.2700000000000102,
+      "text": "workree like this. Now what this does is it creates the work tree"
+    },
+    {
+      "start": 187.99,
+      "duration": 0.009999999999990905,
+      "text": "it creates the work tree"
+    },
+    {
+      "start": 188,
+      "duration": 2.469999999999999,
+      "text": "it creates the work tree atclaude/worktrees"
+    },
+    {
+      "start": 190.47,
+      "duration": 0.009999999999990905,
+      "text": "atclaude/worktrees"
+    },
+    {
+      "start": 190.48,
+      "duration": 2.1500000000000057,
+      "text": "atclaude/worktrees cheerful coalescing worth. So it has"
+    },
+    {
+      "start": 192.63,
+      "duration": 0.009999999999990905,
+      "text": "cheerful coalescing worth. So it has"
+    },
+    {
+      "start": 192.64,
+      "duration": 2.0700000000000216,
+      "text": "cheerful coalescing worth. So it has created the the work tree with a kind of"
+    },
+    {
+      "start": 194.71,
+      "duration": 0.009999999999990905,
+      "text": "created the the work tree with a kind of"
+    },
+    {
+      "start": 194.72,
+      "duration": 2.3100000000000023,
+      "text": "created the the work tree with a kind of random funny name. Here we can see the"
+    },
+    {
+      "start": 197.03,
+      "duration": 0.009999999999990905,
+      "text": "random funny name. Here we can see the"
+    },
+    {
+      "start": 197.04,
+      "duration": 1.4300000000000068,
+      "text": "random funny name. Here we can see the work tree in the same way that we did"
+    },
+    {
+      "start": 198.47,
+      "duration": 0.009999999999990905,
+      "text": "work tree in the same way that we did"
+    },
+    {
+      "start": 198.48,
+      "duration": 1.8290000000000077,
+      "text": "work tree in the same way that we did before. So it's just using git work tree"
+    },
+    {
+      "start": 200.309,
+      "duration": 0.009999999999990905,
+      "text": "before. So it's just using git work tree"
+    },
+    {
+      "start": 200.319,
+      "duration": 1.8300000000000125,
+      "text": "before. So it's just using git work tree under the hood. And now inside here we"
+    },
+    {
+      "start": 202.149,
+      "duration": 0.009999999999990905,
+      "text": "under the hood. And now inside here we"
+    },
+    {
+      "start": 202.159,
+      "duration": 2.6310000000000002,
+      "text": "under the hood. And now inside here we can actually tell it uh delete the"
+    },
+    {
+      "start": 204.79,
+      "duration": 0.010000000000019327,
+      "text": "can actually tell it uh delete the"
+    },
+    {
+      "start": 204.8,
+      "duration": 2.9499999999999886,
+      "text": "can actually tell it uh delete the fooar.md file. It's now searching for"
+    },
+    {
+      "start": 207.75,
+      "duration": 0.009999999999990905,
+      "text": "fooar.md file. It's now searching for"
+    },
+    {
+      "start": 207.76,
+      "duration": 2.710000000000008,
+      "text": "fooar.md file. It's now searching for the file and it's going to run remove on"
+    },
+    {
+      "start": 210.47,
+      "duration": 0.009999999999990905,
+      "text": "the file and it's going to run remove on"
+    },
+    {
+      "start": 210.48,
+      "duration": 2.630000000000024,
+      "text": "the file and it's going to run remove on it to get rid of it. fubar.mmd has been"
+    },
+    {
+      "start": 213.11,
+      "duration": 0.009999999999990905,
+      "text": "it to get rid of it. fubar.mmd has been"
+    },
+    {
+      "start": 213.12,
+      "duration": 1.990000000000009,
+      "text": "it to get rid of it. fubar.mmd has been deleted which we can see on the work"
+    },
+    {
+      "start": 215.11,
+      "duration": 0.009999999999990905,
+      "text": "deleted which we can see on the work"
+    },
+    {
+      "start": 215.12,
+      "duration": 2.710000000000008,
+      "text": "deleted which we can see on the work tree. That's very nice. Commit this."
+    },
+    {
+      "start": 217.83,
+      "duration": 0.009999999999990905,
+      "text": "tree. That's very nice. Commit this."
+    },
+    {
+      "start": 217.84,
+      "duration": 1.7489999999999952,
+      "text": "tree. That's very nice. Commit this. That looks good. Again, it's doing some"
+    },
+    {
+      "start": 219.589,
+      "duration": 0.009999999999990905,
+      "text": "That looks good. Again, it's doing some"
+    },
+    {
+      "start": 219.599,
+      "duration": 2.070999999999998,
+      "text": "That looks good. Again, it's doing some git status, doing some git log. It's"
+    },
+    {
+      "start": 221.67,
+      "duration": 0.010000000000019327,
+      "text": "git status, doing some git log. It's"
+    },
+    {
+      "start": 221.68,
+      "duration": 1.4300000000000068,
+      "text": "git status, doing some git log. It's adding the file, then committing the"
+    },
+    {
+      "start": 223.11,
+      "duration": 0.009999999999990905,
+      "text": "adding the file, then committing the"
+    },
+    {
+      "start": 223.12,
+      "duration": 1.509999999999991,
+      "text": "adding the file, then committing the file, and then I'm going to push it up"
+    },
+    {
+      "start": 224.63,
+      "duration": 0.009999999999990905,
+      "text": "file, and then I'm going to push it up"
+    },
+    {
+      "start": 224.64,
+      "duration": 1.3500000000000227,
+      "text": "file, and then I'm going to push it up and make another PR to remove it."
+    },
+    {
+      "start": 225.99,
+      "duration": 0.009999999999990905,
+      "text": "and make another PR to remove it."
+    },
+    {
+      "start": 226,
+      "duration": 1.1100000000000136,
+      "text": "and make another PR to remove it. Though, to be honest, you can kind of"
+    },
+    {
+      "start": 227.11,
+      "duration": 0.009999999999990905,
+      "text": "Though, to be honest, you can kind of"
+    },
+    {
+      "start": 227.12,
+      "duration": 1.8290000000000077,
+      "text": "Though, to be honest, you can kind of see by now that Claude is really just"
+    },
+    {
+      "start": 228.949,
+      "duration": 0.009999999999990905,
+      "text": "see by now that Claude is really just"
+    },
+    {
+      "start": 228.959,
+      "duration": 2.4710000000000036,
+      "text": "see by now that Claude is really just doing the same setup as we had before."
+    },
+    {
+      "start": 231.43,
+      "duration": 0.009999999999990905,
+      "text": "doing the same setup as we had before."
+    },
+    {
+      "start": 231.44,
+      "duration": 2.0689999999999884,
+      "text": "doing the same setup as we had before. It's just automatically naming you a"
+    },
+    {
+      "start": 233.509,
+      "duration": 0.010000000000019327,
+      "text": "It's just automatically naming you a"
+    },
+    {
+      "start": 233.519,
+      "duration": 1.7510000000000048,
+      "text": "It's just automatically naming you a branch and things like that. When I quit"
+    },
+    {
+      "start": 235.27,
+      "duration": 0.009999999999990905,
+      "text": "branch and things like that. When I quit"
+    },
+    {
+      "start": 235.28,
+      "duration": 1.8300000000000125,
+      "text": "branch and things like that. When I quit out of here, so let's say I do Ctrl + C"
+    },
+    {
+      "start": 237.11,
+      "duration": 0.009999999999990905,
+      "text": "out of here, so let's say I do Ctrl + C"
+    },
+    {
+      "start": 237.12,
+      "duration": 1.7489999999999952,
+      "text": "out of here, so let's say I do Ctrl + C a couple of times, I then get the option"
+    },
+    {
+      "start": 238.869,
+      "duration": 0.009999999999990905,
+      "text": "a couple of times, I then get the option"
+    },
+    {
+      "start": 238.879,
+      "duration": 2.1510000000000105,
+      "text": "a couple of times, I then get the option to keep or remove the work tree. If I"
+    },
+    {
+      "start": 241.03,
+      "duration": 0.009999999999990905,
+      "text": "to keep or remove the work tree. If I"
+    },
+    {
+      "start": 241.04,
+      "duration": 1.1890000000000214,
+      "text": "to keep or remove the work tree. If I remove the work tree and I haven't"
+    },
+    {
+      "start": 242.229,
+      "duration": 0.009999999999990905,
+      "text": "remove the work tree and I haven't"
+    },
+    {
+      "start": 242.239,
+      "duration": 1.6709999999999923,
+      "text": "remove the work tree and I haven't pushed my work, then all of my changes"
+    },
+    {
+      "start": 243.91,
+      "duration": 0.009999999999990905,
+      "text": "pushed my work, then all of my changes"
+    },
+    {
+      "start": 243.92,
+      "duration": 1.8300000000000125,
+      "text": "pushed my work, then all of my changes or my commit history will be lost. But"
+    },
+    {
+      "start": 245.75,
+      "duration": 0.009999999999990905,
+      "text": "or my commit history will be lost. But"
+    },
+    {
+      "start": 245.76,
+      "duration": 1.7489999999999952,
+      "text": "or my commit history will be lost. But instead, I'm actually going to push this"
+    },
+    {
+      "start": 247.509,
+      "duration": 0.010000000000019327,
+      "text": "instead, I'm actually going to push this"
+    },
+    {
+      "start": 247.519,
+      "duration": 1.8309999999999889,
+      "text": "instead, I'm actually going to push this up. So, it's going to actually push up"
+    },
+    {
+      "start": 249.35,
+      "duration": 0.010000000000019327,
+      "text": "up. So, it's going to actually push up"
+    },
+    {
+      "start": 249.36,
+      "duration": 2.0689999999999884,
+      "text": "up. So, it's going to actually push up the work. And then I should get the"
+    },
+    {
+      "start": 251.429,
+      "duration": 0.009999999999990905,
+      "text": "the work. And then I should get the"
+    },
+    {
+      "start": 251.439,
+      "duration": 2.710000000000008,
+      "text": "the work. And then I should get the option to let's say let's say I'll"
+    },
+    {
+      "start": 254.149,
+      "duration": 0.009999999999990905,
+      "text": "option to let's say let's say I'll"
+    },
+    {
+      "start": 254.159,
+      "duration": 1.3499999999999943,
+      "text": "option to let's say let's say I'll remove the work tree for now. That makes"
+    },
+    {
+      "start": 255.509,
+      "duration": 0.010000000000019327,
+      "text": "remove the work tree for now. That makes"
+    },
+    {
+      "start": 255.519,
+      "duration": 1.2699999999999818,
+      "text": "remove the work tree for now. That makes sense. Okay, I've just had my first"
+    },
+    {
+      "start": 256.789,
+      "duration": 0.009999999999990905,
+      "text": "sense. Okay, I've just had my first"
+    },
+    {
+      "start": 256.799,
+      "duration": 1.350999999999999,
+      "text": "sense. Okay, I've just had my first paper cut with this actually, which is"
+    },
+    {
+      "start": 258.15,
+      "duration": 0.010000000000047748,
+      "text": "paper cut with this actually, which is"
+    },
+    {
+      "start": 258.16,
+      "duration": 1.9899999999999523,
+      "text": "paper cut with this actually, which is it's not behaving how I expected on the"
+    },
+    {
+      "start": 260.15,
+      "duration": 0.010000000000047748,
+      "text": "it's not behaving how I expected on the"
+    },
+    {
+      "start": 260.16,
+      "duration": 2.5499999999999545,
+      "text": "it's not behaving how I expected on the branch. It seems that when it created"
+    },
+    {
+      "start": 262.71,
+      "duration": 0.010000000000047748,
+      "text": "branch. It seems that when it created"
+    },
+    {
+      "start": 262.72,
+      "duration": 1.9089999999999918,
+      "text": "branch. It seems that when it created the work tree, it actually made the"
+    },
+    {
+      "start": 264.629,
+      "duration": 0.009999999999990905,
+      "text": "the work tree, it actually made the"
+    },
+    {
+      "start": 264.639,
+      "duration": 2.3909999999999627,
+      "text": "the work tree, it actually made the commit against main. Look, if I run get"
+    },
+    {
+      "start": 267.03,
+      "duration": 0.010000000000047748,
+      "text": "commit against main. Look, if I run get"
+    },
+    {
+      "start": 267.04,
+      "duration": 2.2299999999999613,
+      "text": "commit against main. Look, if I run get status here, you can see we're on main."
+    },
+    {
+      "start": 269.27,
+      "duration": 0.009999999999990905,
+      "text": "status here, you can see we're on main."
+    },
+    {
+      "start": 269.28,
+      "duration": 1.5900000000000318,
+      "text": "status here, you can see we're on main. And then when I run git log, you can see"
+    },
+    {
+      "start": 270.87,
+      "duration": 0.009999999999990905,
+      "text": "And then when I run git log, you can see"
+    },
+    {
+      "start": 270.88,
+      "duration": 1.3500000000000227,
+      "text": "And then when I run git log, you can see the commit in the history where it"
+    },
+    {
+      "start": 272.23,
+      "duration": 0.009999999999990905,
+      "text": "the commit in the history where it"
+    },
+    {
+      "start": 272.24,
+      "duration": 2.228999999999985,
+      "text": "the commit in the history where it deleted fooar on main. So it seems like"
+    },
+    {
+      "start": 274.469,
+      "duration": 0.009999999999990905,
+      "text": "deleted fooar on main. So it seems like"
+    },
+    {
+      "start": 274.479,
+      "duration": 1.8310000000000173,
+      "text": "deleted fooar on main. So it seems like git work tree doesn't behave in quite"
+    },
+    {
+      "start": 276.31,
+      "duration": 0.009999999999990905,
+      "text": "git work tree doesn't behave in quite"
+    },
+    {
+      "start": 276.32,
+      "duration": 2.309000000000026,
+      "text": "git work tree doesn't behave in quite the same way as the clawed work tree"
+    },
+    {
+      "start": 278.629,
+      "duration": 0.009999999999990905,
+      "text": "the same way as the clawed work tree"
+    },
+    {
+      "start": 278.639,
+      "duration": 3.190999999999974,
+      "text": "the same way as the clawed work tree does because on clawed hyphen work tree,"
+    },
+    {
+      "start": 281.83,
+      "duration": 0.009999999999990905,
+      "text": "does because on clawed hyphen work tree,"
+    },
+    {
+      "start": 281.84,
+      "duration": 1.9090000000000487,
+      "text": "does because on clawed hyphen work tree, it seems like I might have to specify"
+    },
+    {
+      "start": 283.749,
+      "duration": 0.009999999999990905,
+      "text": "it seems like I might have to specify"
+    },
+    {
+      "start": 283.759,
+      "duration": 1.5910000000000082,
+      "text": "it seems like I might have to specify something else in order to get it to"
+    },
+    {
+      "start": 285.35,
+      "duration": 0.009999999999990905,
+      "text": "something else in order to get it to"
+    },
+    {
+      "start": 285.36,
+      "duration": 1.990000000000009,
+      "text": "something else in order to get it to work on a separate branch. Okay, I've"
+    },
+    {
+      "start": 287.35,
+      "duration": 0.009999999999990905,
+      "text": "work on a separate branch. Okay, I've"
+    },
+    {
+      "start": 287.36,
+      "duration": 1.1899999999999977,
+      "text": "work on a separate branch. Okay, I've just been doing some more experiments"
+    },
+    {
+      "start": 288.55,
+      "duration": 0.009999999999990905,
+      "text": "just been doing some more experiments"
+    },
+    {
+      "start": 288.56,
+      "duration": 1.670000000000016,
+      "text": "just been doing some more experiments here and hopefully I've landed on a"
+    },
+    {
+      "start": 290.23,
+      "duration": 0.009999999999990905,
+      "text": "here and hopefully I've landed on a"
+    },
+    {
+      "start": 290.24,
+      "duration": 1.990000000000009,
+      "text": "here and hopefully I've landed on a solution or at least I understand more"
+    },
+    {
+      "start": 292.23,
+      "duration": 0.009999999999990905,
+      "text": "solution or at least I understand more"
+    },
+    {
+      "start": 292.24,
+      "duration": 1.5090000000000146,
+      "text": "solution or at least I understand more what's going on. Now I started a new"
+    },
+    {
+      "start": 293.749,
+      "duration": 0.009999999999990905,
+      "text": "what's going on. Now I started a new"
+    },
+    {
+      "start": 293.759,
+      "duration": 1.5910000000000082,
+      "text": "what's going on. Now I started a new session and I said add a new file called"
+    },
+    {
+      "start": 295.35,
+      "duration": 0.009999999999990905,
+      "text": "session and I said add a new file called"
+    },
+    {
+      "start": 295.36,
+      "duration": 1.8290000000000077,
+      "text": "session and I said add a new file called fubar.mmd. Commit it and push it to the"
+    },
+    {
+      "start": 297.189,
+      "duration": 0.009999999999990905,
+      "text": "fubar.mmd. Commit it and push it to the"
+    },
+    {
+      "start": 297.199,
+      "duration": 1.8309999999999604,
+      "text": "fubar.mmd. Commit it and push it to the branch. It wrote the file. It then did"
+    },
+    {
+      "start": 299.03,
+      "duration": 0.010000000000047748,
+      "text": "branch. It wrote the file. It then did"
+    },
+    {
+      "start": 299.04,
+      "duration": 2.7899999999999636,
+      "text": "branch. It wrote the file. It then did some git status. We can see it's on a"
+    },
+    {
+      "start": 301.83,
+      "duration": 0.009999999999990905,
+      "text": "some git status. We can see it's on a"
+    },
+    {
+      "start": 301.84,
+      "duration": 1.9090000000000487,
+      "text": "some git status. We can see it's on a branch work tree delightful dazzling"
+    },
+    {
+      "start": 303.749,
+      "duration": 0.009999999999990905,
+      "text": "branch work tree delightful dazzling"
+    },
+    {
+      "start": 303.759,
+      "duration": 2.2309999999999945,
+      "text": "branch work tree delightful dazzling sketch and the branch is up to date with"
+    },
+    {
+      "start": 305.99,
+      "duration": 0.009999999999990905,
+      "text": "sketch and the branch is up to date with"
+    },
+    {
+      "start": 306,
+      "duration": 1.990000000000009,
+      "text": "sketch and the branch is up to date with origin main. So it looks like the source"
+    },
+    {
+      "start": 307.99,
+      "duration": 0.009999999999990905,
+      "text": "origin main. So it looks like the source"
+    },
+    {
+      "start": 308,
+      "duration": 1.9089999999999918,
+      "text": "origin main. So it looks like the source of the branch or at least sort of what"
+    },
+    {
+      "start": 309.909,
+      "duration": 0.009999999999990905,
+      "text": "of the branch or at least sort of what"
+    },
+    {
+      "start": 309.919,
+      "duration": 2.3910000000000196,
+      "text": "of the branch or at least sort of what it thinks it is is main even though"
+    },
+    {
+      "start": 312.31,
+      "duration": 0.009999999999990905,
+      "text": "it thinks it is is main even though"
+    },
+    {
+      "start": 312.32,
+      "duration": 2.5500000000000114,
+      "text": "it thinks it is is main even though we're on a different work tree. People"
+    },
+    {
+      "start": 314.87,
+      "duration": 0.009999999999990905,
+      "text": "we're on a different work tree. People"
+    },
+    {
+      "start": 314.88,
+      "duration": 1.7490000000000236,
+      "text": "we're on a different work tree. People who understand work trees better than I"
+    },
+    {
+      "start": 316.629,
+      "duration": 0.009999999999990905,
+      "text": "who understand work trees better than I"
+    },
+    {
+      "start": 316.639,
+      "duration": 1.9110000000000014,
+      "text": "who understand work trees better than I do probably can understand this uh more"
+    },
+    {
+      "start": 318.55,
+      "duration": 0.009999999999990905,
+      "text": "do probably can understand this uh more"
+    },
+    {
+      "start": 318.56,
+      "duration": 1.670000000000016,
+      "text": "do probably can understand this uh more than I can. But that's what I'm seeing"
+    },
+    {
+      "start": 320.23,
+      "duration": 0.009999999999990905,
+      "text": "than I can. But that's what I'm seeing"
+    },
+    {
+      "start": 320.24,
+      "duration": 1.990000000000009,
+      "text": "than I can. But that's what I'm seeing at least. It then get added and get"
+    },
+    {
+      "start": 322.23,
+      "duration": 0.009999999999990905,
+      "text": "at least. It then get added and get"
+    },
+    {
+      "start": 322.24,
+      "duration": 2.38900000000001,
+      "text": "at least. It then get added and get committed and it attempted to get push."
+    },
+    {
+      "start": 324.629,
+      "duration": 0.009999999999990905,
+      "text": "committed and it attempted to get push."
+    },
+    {
+      "start": 324.639,
+      "duration": 1.829999999999984,
+      "text": "committed and it attempted to get push. I have a safety hook that blocked the"
+    },
+    {
+      "start": 326.469,
+      "duration": 0.009999999999990905,
+      "text": "I have a safety hook that blocked the"
+    },
+    {
+      "start": 326.479,
+      "duration": 1.9110000000000014,
+      "text": "I have a safety hook that blocked the push here, but it gave me a command to"
+    },
+    {
+      "start": 328.39,
+      "duration": 0.009999999999990905,
+      "text": "push here, but it gave me a command to"
+    },
+    {
+      "start": 328.4,
+      "duration": 1.75,
+      "text": "push here, but it gave me a command to run. It said, should I proceed with git"
+    },
+    {
+      "start": 330.15,
+      "duration": 0.010000000000047748,
+      "text": "run. It said, should I proceed with git"
+    },
+    {
+      "start": 330.16,
+      "duration": 2.308999999999969,
+      "text": "run. It said, should I proceed with git push origin workree delightful dazzling"
+    },
+    {
+      "start": 332.469,
+      "duration": 0.009999999999990905,
+      "text": "push origin workree delightful dazzling"
+    },
+    {
+      "start": 332.479,
+      "duration": 2.4710000000000036,
+      "text": "push origin workree delightful dazzling sketch. I then ran this. So, I ran git"
+    },
+    {
+      "start": 334.95,
+      "duration": 0.009999999999990905,
+      "text": "sketch. I then ran this. So, I ran git"
+    },
+    {
+      "start": 334.96,
+      "duration": 1.5090000000000146,
+      "text": "sketch. I then ran this. So, I ran git push origin work tree delightful"
+    },
+    {
+      "start": 336.469,
+      "duration": 0.009999999999990905,
+      "text": "push origin work tree delightful"
+    },
+    {
+      "start": 336.479,
+      "duration": 2.5500000000000114,
+      "text": "push origin work tree delightful dazzling sketch. And it created a new"
+    },
+    {
+      "start": 339.029,
+      "duration": 0.009999999999990905,
+      "text": "dazzling sketch. And it created a new"
+    },
+    {
+      "start": 339.039,
+      "duration": 1.8310000000000173,
+      "text": "dazzling sketch. And it created a new branch here with that name. So, this is"
+    },
+    {
+      "start": 340.87,
+      "duration": 0.009999999999990905,
+      "text": "branch here with that name. So, this is"
+    },
+    {
+      "start": 340.88,
+      "duration": 1.1899999999999977,
+      "text": "branch here with that name. So, this is a really important thing. If you're"
+    },
+    {
+      "start": 342.07,
+      "duration": 0.009999999999990905,
+      "text": "a really important thing. If you're"
+    },
+    {
+      "start": 342.08,
+      "duration": 2.549000000000035,
+      "text": "a really important thing. If you're using claude work trees, your agent"
+    },
+    {
+      "start": 344.629,
+      "duration": 0.009999999999990905,
+      "text": "using claude work trees, your agent"
+    },
+    {
+      "start": 344.639,
+      "duration": 2.790999999999997,
+      "text": "using claude work trees, your agent needs to push with a specific uh name"
+    },
+    {
+      "start": 347.43,
+      "duration": 0.009999999999990905,
+      "text": "needs to push with a specific uh name"
+    },
+    {
+      "start": 347.44,
+      "duration": 2.069999999999993,
+      "text": "needs to push with a specific uh name branch. Otherwise, by default, it's"
+    },
+    {
+      "start": 349.51,
+      "duration": 0.009999999999990905,
+      "text": "branch. Otherwise, by default, it's"
+    },
+    {
+      "start": 349.52,
+      "duration": 2.7100000000000364,
+      "text": "branch. Otherwise, by default, it's going to be the one that it created the"
+    },
+    {
+      "start": 352.23,
+      "duration": 0.009999999999990905,
+      "text": "going to be the one that it created the"
+    },
+    {
+      "start": 352.24,
+      "duration": 1.75,
+      "text": "going to be the one that it created the work tree from. in this case main. To"
+    },
+    {
+      "start": 353.99,
+      "duration": 0.009999999999990905,
+      "text": "work tree from. in this case main. To"
+    },
+    {
+      "start": 354,
+      "duration": 1.2699999999999818,
+      "text": "work tree from. in this case main. To put that another way, if your main"
+    },
+    {
+      "start": 355.27,
+      "duration": 0.009999999999990905,
+      "text": "put that another way, if your main"
+    },
+    {
+      "start": 355.28,
+      "duration": 1.5100000000000477,
+      "text": "put that another way, if your main branch is not protected and you create a"
+    },
+    {
+      "start": 356.79,
+      "duration": 0.009999999999990905,
+      "text": "branch is not protected and you create a"
+    },
+    {
+      "start": 356.8,
+      "duration": 1.75,
+      "text": "branch is not protected and you create a work tree from it, you might end up"
+    },
+    {
+      "start": 358.55,
+      "duration": 0.009999999999990905,
+      "text": "work tree from it, you might end up"
+    },
+    {
+      "start": 358.56,
+      "duration": 1.589999999999975,
+      "text": "work tree from it, you might end up accidentally pushing commits to main"
+    },
+    {
+      "start": 360.15,
+      "duration": 0.010000000000047748,
+      "text": "accidentally pushing commits to main"
+    },
+    {
+      "start": 360.16,
+      "duration": 1.349999999999966,
+      "text": "accidentally pushing commits to main when you wanted to push them to a"
+    },
+    {
+      "start": 361.51,
+      "duration": 0.009999999999990905,
+      "text": "when you wanted to push them to a"
+    },
+    {
+      "start": 361.52,
+      "duration": 1.3500000000000227,
+      "text": "when you wanted to push them to a separate branch. Either way, this is"
+    },
+    {
+      "start": 362.87,
+      "duration": 0.009999999999990905,
+      "text": "separate branch. Either way, this is"
+    },
+    {
+      "start": 362.88,
+      "duration": 1.3500000000000227,
+      "text": "separate branch. Either way, this is fine and something you can probably"
+    },
+    {
+      "start": 364.23,
+      "duration": 0.009999999999990905,
+      "text": "fine and something you can probably"
+    },
+    {
+      "start": 364.24,
+      "duration": 1.6689999999999827,
+      "text": "fine and something you can probably prompt for as well. So, I don't hate it."
+    },
+    {
+      "start": 365.909,
+      "duration": 0.009999999999990905,
+      "text": "prompt for as well. So, I don't hate it."
+    },
+    {
+      "start": 365.919,
+      "duration": 1.511000000000024,
+      "text": "prompt for as well. So, I don't hate it. Overall, I really like the way that git"
+    },
+    {
+      "start": 367.43,
+      "duration": 0.009999999999990905,
+      "text": "Overall, I really like the way that git"
+    },
+    {
+      "start": 367.44,
+      "duration": 2.468999999999994,
+      "text": "Overall, I really like the way that git work trees are like totally managed by"
+    },
+    {
+      "start": 369.909,
+      "duration": 0.009999999999990905,
+      "text": "work trees are like totally managed by"
+    },
+    {
+      "start": 369.919,
+      "duration": 1.511000000000024,
+      "text": "work trees are like totally managed by Claude here. It means that the life"
+    },
+    {
+      "start": 371.43,
+      "duration": 0.009999999999990905,
+      "text": "Claude here. It means that the life"
+    },
+    {
+      "start": 371.44,
+      "duration": 1.670000000000016,
+      "text": "Claude here. It means that the life cycle of each work tree can be tied down"
+    },
+    {
+      "start": 373.11,
+      "duration": 0.009999999999990905,
+      "text": "cycle of each work tree can be tied down"
+    },
+    {
+      "start": 373.12,
+      "duration": 2.1499999999999773,
+      "text": "cycle of each work tree can be tied down to a single agent and its work, which is"
+    },
+    {
+      "start": 375.27,
+      "duration": 0.009999999999990905,
+      "text": "to a single agent and its work, which is"
+    },
+    {
+      "start": 375.28,
+      "duration": 1.5100000000000477,
+      "text": "to a single agent and its work, which is very, very appealing. I'm not sure why"
+    },
+    {
+      "start": 376.79,
+      "duration": 0.009999999999990905,
+      "text": "very, very appealing. I'm not sure why"
+    },
+    {
+      "start": 376.8,
+      "duration": 2.228999999999985,
+      "text": "very, very appealing. I'm not sure why you wouldn't want to use git work trees"
+    },
+    {
+      "start": 379.029,
+      "duration": 0.009999999999990905,
+      "text": "you wouldn't want to use git work trees"
+    },
+    {
+      "start": 379.039,
+      "duration": 2.150000000000034,
+      "text": "you wouldn't want to use git work trees like every single time you use claude"
+    },
+    {
+      "start": 381.189,
+      "duration": 0.009999999999990905,
+      "text": "like every single time you use claude"
+    },
+    {
+      "start": 381.199,
+      "duration": 1.190999999999974,
+      "text": "like every single time you use claude because it just means that you can"
+    },
+    {
+      "start": 382.39,
+      "duration": 0.009999999999990905,
+      "text": "because it just means that you can"
+    },
+    {
+      "start": 382.4,
+      "duration": 1.9090000000000487,
+      "text": "because it just means that you can guarantee that every single time you"
+    },
+    {
+      "start": 384.309,
+      "duration": 0.009999999999990905,
+      "text": "guarantee that every single time you"
+    },
+    {
+      "start": 384.319,
+      "duration": 2.3909999999999627,
+      "text": "guarantee that every single time you have an idea or you want to do something"
+    },
+    {
+      "start": 386.71,
+      "duration": 0.010000000000047748,
+      "text": "have an idea or you want to do something"
+    },
+    {
+      "start": 386.72,
+      "duration": 2.468999999999994,
+      "text": "have an idea or you want to do something you can just like instantly ping up a"
+    },
+    {
+      "start": 389.189,
+      "duration": 0.009999999999990905,
+      "text": "you can just like instantly ping up a"
+    },
+    {
+      "start": 389.199,
+      "duration": 2.3109999999999786,
+      "text": "you can just like instantly ping up a new work tree get things working and"
+    },
+    {
+      "start": 391.51,
+      "duration": 0.009999999999990905,
+      "text": "new work tree get things working and"
+    },
+    {
+      "start": 391.52,
+      "duration": 1.990000000000009,
+      "text": "new work tree get things working and just like ping that back to main as a"
+    },
+    {
+      "start": 393.51,
+      "duration": 0.009999999999990905,
+      "text": "just like ping that back to main as a"
+    },
+    {
+      "start": 393.52,
+      "duration": 2.3100000000000023,
+      "text": "just like ping that back to main as a PR. It basically makes parallelization a"
+    },
+    {
+      "start": 395.83,
+      "duration": 0.009999999999990905,
+      "text": "PR. It basically makes parallelization a"
+    },
+    {
+      "start": 395.84,
+      "duration": 2.5500000000000114,
+      "text": "PR. It basically makes parallelization a lot more free than it was before which I"
+    },
+    {
+      "start": 398.39,
+      "duration": 0.009999999999990905,
+      "text": "lot more free than it was before which I"
+    },
+    {
+      "start": 398.4,
+      "duration": 1.5900000000000318,
+      "text": "lot more free than it was before which I really like. Another thing I'm intrigued"
+    },
+    {
+      "start": 399.99,
+      "duration": 0.009999999999990905,
+      "text": "really like. Another thing I'm intrigued"
+    },
+    {
+      "start": 400,
+      "duration": 1.2699999999999818,
+      "text": "really like. Another thing I'm intrigued by from the announcement is the fact"
+    },
+    {
+      "start": 401.27,
+      "duration": 0.009999999999990905,
+      "text": "by from the announcement is the fact"
+    },
+    {
+      "start": 401.28,
+      "duration": 1.830000000000041,
+      "text": "by from the announcement is the fact that sub agents now support work trees"
+    },
+    {
+      "start": 403.11,
+      "duration": 0.009999999999990905,
+      "text": "that sub agents now support work trees"
+    },
+    {
+      "start": 403.12,
+      "duration": 1.990000000000009,
+      "text": "that sub agents now support work trees as well. So you can just very simply"
+    },
+    {
+      "start": 405.11,
+      "duration": 0.009999999999990905,
+      "text": "as well. So you can just very simply"
+    },
+    {
+      "start": 405.12,
+      "duration": 2.1499999999999773,
+      "text": "as well. So you can just very simply spin up a sub agent, get it to make a PR"
+    },
+    {
+      "start": 407.27,
+      "duration": 0.009999999999990905,
+      "text": "spin up a sub agent, get it to make a PR"
+    },
+    {
+      "start": 407.28,
+      "duration": 2.150000000000034,
+      "text": "spin up a sub agent, get it to make a PR back to main and just have that kind of"
+    },
+    {
+      "start": 409.43,
+      "duration": 0.009999999999990905,
+      "text": "back to main and just have that kind of"
+    },
+    {
+      "start": 409.44,
+      "duration": 1.509999999999991,
+      "text": "back to main and just have that kind of orchestrated from above, which just"
+    },
+    {
+      "start": 410.95,
+      "duration": 0.009999999999990905,
+      "text": "orchestrated from above, which just"
+    },
+    {
+      "start": 410.96,
+      "duration": 1.5090000000000146,
+      "text": "orchestrated from above, which just seems really really nice. Though it does"
+    },
+    {
+      "start": 412.469,
+      "duration": 0.009999999999990905,
+      "text": "seems really really nice. Though it does"
+    },
+    {
+      "start": 412.479,
+      "duration": 1.7510000000000332,
+      "text": "seems really really nice. Though it does seem like something you have to opt into"
+    },
+    {
+      "start": 414.23,
+      "duration": 0.009999999999990905,
+      "text": "seem like something you have to opt into"
+    },
+    {
+      "start": 414.24,
+      "duration": 2.1499999999999773,
+      "text": "seem like something you have to opt into to say ask claw to use work trees for"
+    },
+    {
+      "start": 416.39,
+      "duration": 0.009999999999990905,
+      "text": "to say ask claw to use work trees for"
+    },
+    {
+      "start": 416.4,
+      "duration": 1.0300000000000296,
+      "text": "to say ask claw to use work trees for its agents. It won't do this"
+    },
+    {
+      "start": 417.43,
+      "duration": 0.009999999999990905,
+      "text": "its agents. It won't do this"
+    },
+    {
+      "start": 417.44,
+      "duration": 1.7490000000000236,
+      "text": "its agents. It won't do this automatically. It seems like I'm really"
+    },
+    {
+      "start": 419.189,
+      "duration": 0.009999999999990905,
+      "text": "automatically. It seems like I'm really"
+    },
+    {
+      "start": 419.199,
+      "duration": 1.6709999999999923,
+      "text": "automatically. It seems like I'm really really excited to try this and work with"
+    },
+    {
+      "start": 420.87,
+      "duration": 0.009999999999990905,
+      "text": "really excited to try this and work with"
+    },
+    {
+      "start": 420.88,
+      "duration": 2.230000000000018,
+      "text": "really excited to try this and work with this more. And I think it's just going"
+    },
+    {
+      "start": 423.11,
+      "duration": 0.009999999999990905,
+      "text": "this more. And I think it's just going"
+    },
+    {
+      "start": 423.12,
+      "duration": 2.3100000000000023,
+      "text": "this more. And I think it's just going to offer so many free parallelization"
+    },
+    {
+      "start": 425.43,
+      "duration": 0.009999999999990905,
+      "text": "to offer so many free parallelization"
+    },
+    {
+      "start": 425.44,
+      "duration": 2.3899999999999864,
+      "text": "to offer so many free parallelization opportunities. And I just love it when a"
+    },
+    {
+      "start": 427.83,
+      "duration": 0.009999999999990905,
+      "text": "opportunities. And I just love it when a"
+    },
+    {
+      "start": 427.84,
+      "duration": 1.990000000000009,
+      "text": "opportunities. And I just love it when a tool kind of absorbs the complexity of"
+    },
+    {
+      "start": 429.83,
+      "duration": 0.009999999999990905,
+      "text": "tool kind of absorbs the complexity of"
+    },
+    {
+      "start": 429.84,
+      "duration": 1.830000000000041,
+      "text": "tool kind of absorbs the complexity of another tool into itself and helps you"
+    },
+    {
+      "start": 431.67,
+      "duration": 0.009999999999990905,
+      "text": "another tool into itself and helps you"
+    },
+    {
+      "start": 431.68,
+      "duration": 2.069000000000017,
+      "text": "another tool into itself and helps you manage its life cycle. That's great."
+    },
+    {
+      "start": 433.749,
+      "duration": 0.009999999999990905,
+      "text": "manage its life cycle. That's great."
+    },
+    {
+      "start": 433.759,
+      "duration": 1.4300000000000068,
+      "text": "manage its life cycle. That's great. Love all that. Right now, I'm working on"
+    },
+    {
+      "start": 435.189,
+      "duration": 0.009999999999990905,
+      "text": "Love all that. Right now, I'm working on"
+    },
+    {
+      "start": 435.199,
+      "duration": 2.2309999999999945,
+      "text": "Love all that. Right now, I'm working on a Claude Code course, which the landing"
+    },
+    {
+      "start": 437.43,
+      "duration": 0.009999999999990905,
+      "text": "a Claude Code course, which the landing"
+    },
+    {
+      "start": 437.44,
+      "duration": 1.910000000000025,
+      "text": "a Claude Code course, which the landing page and the price and stuff and all of"
+    },
+    {
+      "start": 439.35,
+      "duration": 0.009999999999990905,
+      "text": "page and the price and stuff and all of"
+    },
+    {
+      "start": 439.36,
+      "duration": 1.8290000000000077,
+      "text": "page and the price and stuff and all of the syllabus is going to come up pretty"
+    },
+    {
+      "start": 441.189,
+      "duration": 0.009999999999990905,
+      "text": "the syllabus is going to come up pretty"
+    },
+    {
+      "start": 441.199,
+      "duration": 1.829999999999984,
+      "text": "the syllabus is going to come up pretty soon. And this is definitely going to be"
+    },
+    {
+      "start": 443.029,
+      "duration": 0.009999999999990905,
+      "text": "soon. And this is definitely going to be"
+    },
+    {
+      "start": 443.039,
+      "duration": 2.2309999999999945,
+      "text": "soon. And this is definitely going to be on it. I really believe that AI coding"
+    },
+    {
+      "start": 445.27,
+      "duration": 0.009999999999990905,
+      "text": "on it. I really believe that AI coding"
+    },
+    {
+      "start": 445.28,
+      "duration": 2.390000000000043,
+      "text": "on it. I really believe that AI coding is not that different from human coding."
+    },
+    {
+      "start": 447.67,
+      "duration": 0.009999999999990905,
+      "text": "is not that different from human coding."
+    },
+    {
+      "start": 447.68,
+      "duration": 1.5090000000000146,
+      "text": "is not that different from human coding. It's just that you need to be a lot more"
+    },
+    {
+      "start": 449.189,
+      "duration": 0.009999999999990905,
+      "text": "It's just that you need to be a lot more"
+    },
+    {
+      "start": 449.199,
+      "duration": 1.990000000000009,
+      "text": "It's just that you need to be a lot more aware of the constraints and you need to"
+    },
+    {
+      "start": 451.189,
+      "duration": 0.009999999999990905,
+      "text": "aware of the constraints and you need to"
+    },
+    {
+      "start": 451.199,
+      "duration": 1.9110000000000014,
+      "text": "aware of the constraints and you need to be able to teach the AI about all the"
+    },
+    {
+      "start": 453.11,
+      "duration": 0.009999999999990905,
+      "text": "be able to teach the AI about all the"
+    },
+    {
+      "start": 453.12,
+      "duration": 1.589999999999975,
+      "text": "be able to teach the AI about all the fundamentals that we've known for 30"
+    },
+    {
+      "start": 454.71,
+      "duration": 0.010000000000047748,
+      "text": "fundamentals that we've known for 30"
+    },
+    {
+      "start": 454.72,
+      "duration": 1.509999999999991,
+      "text": "fundamentals that we've known for 30 years. And so the course is going to be"
+    },
+    {
+      "start": 456.23,
+      "duration": 0.009999999999990905,
+      "text": "years. And so the course is going to be"
+    },
+    {
+      "start": 456.24,
+      "duration": 1.9099999999999682,
+      "text": "years. And so the course is going to be about reintroducing those fundamentals"
+    },
+    {
+      "start": 458.15,
+      "duration": 0.010000000000047748,
+      "text": "about reintroducing those fundamentals"
+    },
+    {
+      "start": 458.16,
+      "duration": 2.149000000000001,
+      "text": "about reintroducing those fundamentals like TDD, like uh effective"
+    },
+    {
+      "start": 460.309,
+      "duration": 0.009999999999990905,
+      "text": "like TDD, like uh effective"
+    },
+    {
+      "start": 460.319,
+      "duration": 2.1499999999999773,
+      "text": "like TDD, like uh effective parallelization, like planning in a"
+    },
+    {
+      "start": 462.469,
+      "duration": 0.009999999999990905,
+      "text": "parallelization, like planning in a"
+    },
+    {
+      "start": 462.479,
+      "duration": 1.4300000000000068,
+      "text": "parallelization, like planning in a decent way where you get feedback"
+    },
+    {
+      "start": 463.909,
+      "duration": 0.009999999999990905,
+      "text": "decent way where you get feedback"
+    },
+    {
+      "start": 463.919,
+      "duration": 1.990000000000009,
+      "text": "decent way where you get feedback quickly, all of that stuff and just"
+    },
+    {
+      "start": 465.909,
+      "duration": 0.009999999999990905,
+      "text": "quickly, all of that stuff and just"
+    },
+    {
+      "start": 465.919,
+      "duration": 1.7510000000000332,
+      "text": "quickly, all of that stuff and just taking that into the AI era. So thanks"
+    },
+    {
+      "start": 467.67,
+      "duration": 0.009999999999990905,
+      "text": "taking that into the AI era. So thanks"
+    },
+    {
+      "start": 467.68,
+      "duration": 1.3489999999999895,
+      "text": "taking that into the AI era. So thanks for following along and I will see you"
+    },
+    {
+      "start": 469.029,
+      "duration": 0.009999999999990905,
+      "text": "for following along and I will see you"
+    },
+    {
+      "start": 469.039,
+      "duration": 1.511000000000024,
+      "text": "for following along and I will see you very soon. Anyway, if you like the sound"
+    },
+    {
+      "start": 470.55,
+      "duration": 0.009999999999990905,
+      "text": "very soon. Anyway, if you like the sound"
+    },
+    {
+      "start": 470.56,
+      "duration": 1.509999999999991,
+      "text": "very soon. Anyway, if you like the sound of all that, I talk about all that on my"
+    },
+    {
+      "start": 472.07,
+      "duration": 0.009999999999990905,
+      "text": "of all that, I talk about all that on my"
+    },
+    {
+      "start": 472.08,
+      "duration": 1.75,
+      "text": "of all that, I talk about all that on my newsletter as well, which is free, which"
+    },
+    {
+      "start": 473.83,
+      "duration": 0.009999999999990905,
+      "text": "newsletter as well, which is free, which"
+    },
+    {
+      "start": 473.84,
+      "duration": 1.830000000000041,
+      "text": "newsletter as well, which is free, which is great obviously, and you can find"
+    },
+    {
+      "start": 475.67,
+      "duration": 0.009999999999990905,
+      "text": "is great obviously, and you can find"
+    },
+    {
+      "start": 475.68,
+      "duration": 2.7199999999999704,
+      "text": "is great obviously, and you can find that at the link below."
+    }
+  ],
+  "fullText": "introducing built-in Git work tree introducing built-in Git work tree support for claude code. Now agents can support for claude code. Now agents can support for claude code. Now agents can run in parallel without interfering with run in parallel without interfering with run in parallel without interfering with one another. Each agent gets its own one another. Each agent gets its own one another. Each agent gets its own work tree and can work independently. work tree and can work independently. work tree and can work independently. Now this is really really sweet and I'm Now this is really really sweet and I'm Now this is really really sweet and I'm kind of excited to show you my first kind of excited to show you my first kind of excited to show you my first impressions, my first time trying this impressions, my first time trying this impressions, my first time trying this and the thoughts I immediately have as and the thoughts I immediately have as and the thoughts I immediately have as soon as I see this post. I've known soon as I see this post. I've known soon as I see this post. I've known about work trees for many many years but about work trees for many many years but about work trees for many many years but rarely actually ever use them. Probably rarely actually ever use them. Probably rarely actually ever use them. Probably quite similar to you but I've never quite similar to you but I've never quite similar to you but I've never actually taken the leap to integrate it actually taken the leap to integrate it actually taken the leap to integrate it with clawed code. So having it built in with clawed code. So having it built in with clawed code. So having it built in in theory just makes it super duper in theory just makes it super duper in theory just makes it super duper easy. So let's test it out and see easy. So let's test it out and see easy. So let's test it out and see what's going on with it. So I am now what's going on with it. So I am now what's going on with it. So I am now inside my main work repo which is my inside my main work repo which is my inside my main work repo which is my course video manager. And inside here course video manager. And inside here course video manager. And inside here I'm going to run git status. And you can I'm going to run git status. And you can I'm going to run git status. And you can see here I'm on my main branch. Now I'm see here I'm on my main branch. Now I'm see here I'm on my main branch. Now I'm going to run a second command which is going to run a second command which is going to run a second command which is get workree add UI updates. And when I get workree add UI updates. And when I get workree add UI updates. And when I run this and we can see actually inside run this and we can see actually inside run this and we can see actually inside the explorer here that a new folder has the explorer here that a new folder has the explorer here that a new folder has been created called UI updates. And now been created called UI updates. And now been created called UI updates. And now if we cd into there, if we see cd UI if we cd into there, if we see cd UI if we cd into there, if we see cd UI updates inside here and run git status, updates inside here and run git status, updates inside here and run git status, we can see it's on a branch called UI we can see it's on a branch called UI we can see it's on a branch called UI updates. So this new folder has a updates. So this new folder has a updates. So this new folder has a separate git state essentially like it separate git state essentially like it separate git state essentially like it can be on a separate branch from the can be on a separate branch from the can be on a separate branch from the main branch. Now inside this UI updates main branch. Now inside this UI updates main branch. Now inside this UI updates folder, I'm going to call touch fooar.md folder, I'm going to call touch fooar.md folder, I'm going to call touch fooar.md here and create a new file called here and create a new file called here and create a new file called fooar.md. And one thing you'll notice is fooar.md. And one thing you'll notice is fooar.md. And one thing you'll notice is if you're inside VS Code or probably if you're inside VS Code or probably if you're inside VS Code or probably cursor too, is that inside your source cursor too, is that inside your source cursor too, is that inside your source control panel, you now have the main control panel, you now have the main control panel, you now have the main repo for the course video manager, repo for the course video manager, repo for the course video manager, that's the main branch. And then this that's the main branch. And then this that's the main branch. And then this one, you actually see your work tree one, you actually see your work tree one, you actually see your work tree too. And we can see that there are some too. And we can see that there are some too. And we can see that there are some changes inside the UI updates. I can changes inside the UI updates. I can changes inside the UI updates. I can then stage this and actually commit it then stage this and actually commit it then stage this and actually commit it to the UI updates branch. New fooar.md to the UI updates branch. New fooar.md to the UI updates branch. New fooar.md inside here with VS Code. Of course, I inside here with VS Code. Of course, I inside here with VS Code. Of course, I can publish the branch up here and even can publish the branch up here and even can publish the branch up here and even make a PR to the original branch all make a PR to the original branch all make a PR to the original branch all within this same nice UI and without within this same nice UI and without within this same nice UI and without ever leaving my IDE. Once I'm done with ever leaving my IDE. Once I'm done with ever leaving my IDE. Once I'm done with this, I can then just Okay, maybe we this, I can then just Okay, maybe we this, I can then just Okay, maybe we merge this pull request. That looks merge this pull request. That looks merge this pull request. That looks really nice. Now, I can open up source really nice. Now, I can open up source really nice. Now, I can open up source control again and I can refresh inside control again and I can refresh inside control again and I can refresh inside here and attempt to pull down any here and attempt to pull down any here and attempt to pull down any changes. So, if I go I'll just cd back changes. So, if I go I'll just cd back changes. So, if I go I'll just cd back into the main directory. I'll go get into the main directory. I'll go get into the main directory. I'll go get pull and I should now have a fooar pull and I should now have a fooar pull and I should now have a fooar inside my actual main directory which is inside my actual main directory which is inside my actual main directory which is just just just where's it gone? Where's it gone? where's it gone? Where's it gone? where's it gone? Where's it gone? Where's it gone? There it is. fooar.md Where's it gone? There it is. fooar.md Where's it gone? There it is. fooar.md inside the main branch of my repo. Now inside the main branch of my repo. Now inside the main branch of my repo. Now that I'm done with that work tree, I can that I'm done with that work tree, I can that I'm done with that work tree, I can either simply remove it just by running either simply remove it just by running either simply remove it just by running uh rimf UI updates or I can run git uh rimf UI updates or I can run git uh rimf UI updates or I can run git workree remove UI updates as well. I'm workree remove UI updates as well. I'm workree remove UI updates as well. I'm fairly sure that does kind of the same fairly sure that does kind of the same fairly sure that does kind of the same thing. Now, if we go back in and we look thing. Now, if we go back in and we look thing. Now, if we go back in and we look inside the source control again, we now inside the source control again, we now inside the source control again, we now just have a single um work tree just have a single um work tree just have a single um work tree available, which is our main work tree. available, which is our main work tree. available, which is our main work tree. So, work trees are a super convenient So, work trees are a super convenient So, work trees are a super convenient way that you can have multiple branches way that you can have multiple branches way that you can have multiple branches of something checked out on your machine of something checked out on your machine of something checked out on your machine at once. And the tooling in your IDE, if at once. And the tooling in your IDE, if at once. And the tooling in your IDE, if it's good, like VS Code is, will pick it it's good, like VS Code is, will pick it it's good, like VS Code is, will pick it up and allow you to modify them up and allow you to modify them up and allow you to modify them independently or of course you can do it independently or of course you can do it independently or of course you can do it from the terminal as we were doing from the terminal as we were doing from the terminal as we were doing there. So, let's now test out the clawed there. So, let's now test out the clawed there. So, let's now test out the clawed version of this where we're going to run version of this where we're going to run version of this where we're going to run clawed clawed clawed workree like this. Now what this does is workree like this. Now what this does is workree like this. Now what this does is it creates the work tree it creates the work tree it creates the work tree atclaude/worktrees atclaude/worktrees atclaude/worktrees cheerful coalescing worth. So it has cheerful coalescing worth. So it has cheerful coalescing worth. So it has created the the work tree with a kind of created the the work tree with a kind of created the the work tree with a kind of random funny name. Here we can see the random funny name. Here we can see the random funny name. Here we can see the work tree in the same way that we did work tree in the same way that we did work tree in the same way that we did before. So it's just using git work tree before. So it's just using git work tree before. So it's just using git work tree under the hood. And now inside here we under the hood. And now inside here we under the hood. And now inside here we can actually tell it uh delete the can actually tell it uh delete the can actually tell it uh delete the fooar.md file. It's now searching for fooar.md file. It's now searching for fooar.md file. It's now searching for the file and it's going to run remove on the file and it's going to run remove on the file and it's going to run remove on it to get rid of it. fubar.mmd has been it to get rid of it. fubar.mmd has been it to get rid of it. fubar.mmd has been deleted which we can see on the work deleted which we can see on the work deleted which we can see on the work tree. That's very nice. Commit this. tree. That's very nice. Commit this. tree. That's very nice. Commit this. That looks good. Again, it's doing some That looks good. Again, it's doing some That looks good. Again, it's doing some git status, doing some git log. It's git status, doing some git log. It's git status, doing some git log. It's adding the file, then committing the adding the file, then committing the adding the file, then committing the file, and then I'm going to push it up file, and then I'm going to push it up file, and then I'm going to push it up and make another PR to remove it. and make another PR to remove it. and make another PR to remove it. Though, to be honest, you can kind of Though, to be honest, you can kind of Though, to be honest, you can kind of see by now that Claude is really just see by now that Claude is really just see by now that Claude is really just doing the same setup as we had before. doing the same setup as we had before. doing the same setup as we had before. It's just automatically naming you a It's just automatically naming you a It's just automatically naming you a branch and things like that. When I quit branch and things like that. When I quit branch and things like that. When I quit out of here, so let's say I do Ctrl + C out of here, so let's say I do Ctrl + C out of here, so let's say I do Ctrl + C a couple of times, I then get the option a couple of times, I then get the option a couple of times, I then get the option to keep or remove the work tree. If I to keep or remove the work tree. If I to keep or remove the work tree. If I remove the work tree and I haven't remove the work tree and I haven't remove the work tree and I haven't pushed my work, then all of my changes pushed my work, then all of my changes pushed my work, then all of my changes or my commit history will be lost. But or my commit history will be lost. But or my commit history will be lost. But instead, I'm actually going to push this instead, I'm actually going to push this instead, I'm actually going to push this up. So, it's going to actually push up up. So, it's going to actually push up up. So, it's going to actually push up the work. And then I should get the the work. And then I should get the the work. And then I should get the option to let's say let's say I'll option to let's say let's say I'll option to let's say let's say I'll remove the work tree for now. That makes remove the work tree for now. That makes remove the work tree for now. That makes sense. Okay, I've just had my first sense. Okay, I've just had my first sense. Okay, I've just had my first paper cut with this actually, which is paper cut with this actually, which is paper cut with this actually, which is it's not behaving how I expected on the it's not behaving how I expected on the it's not behaving how I expected on the branch. It seems that when it created branch. It seems that when it created branch. It seems that when it created the work tree, it actually made the the work tree, it actually made the the work tree, it actually made the commit against main. Look, if I run get commit against main. Look, if I run get commit against main. Look, if I run get status here, you can see we're on main. status here, you can see we're on main. status here, you can see we're on main. And then when I run git log, you can see And then when I run git log, you can see And then when I run git log, you can see the commit in the history where it the commit in the history where it the commit in the history where it deleted fooar on main. So it seems like deleted fooar on main. So it seems like deleted fooar on main. So it seems like git work tree doesn't behave in quite git work tree doesn't behave in quite git work tree doesn't behave in quite the same way as the clawed work tree the same way as the clawed work tree the same way as the clawed work tree does because on clawed hyphen work tree, does because on clawed hyphen work tree, does because on clawed hyphen work tree, it seems like I might have to specify it seems like I might have to specify it seems like I might have to specify something else in order to get it to something else in order to get it to something else in order to get it to work on a separate branch. Okay, I've work on a separate branch. Okay, I've work on a separate branch. Okay, I've just been doing some more experiments just been doing some more experiments just been doing some more experiments here and hopefully I've landed on a here and hopefully I've landed on a here and hopefully I've landed on a solution or at least I understand more solution or at least I understand more solution or at least I understand more what's going on. Now I started a new what's going on. Now I started a new what's going on. Now I started a new session and I said add a new file called session and I said add a new file called session and I said add a new file called fubar.mmd. Commit it and push it to the fubar.mmd. Commit it and push it to the fubar.mmd. Commit it and push it to the branch. It wrote the file. It then did branch. It wrote the file. It then did branch. It wrote the file. It then did some git status. We can see it's on a some git status. We can see it's on a some git status. We can see it's on a branch work tree delightful dazzling branch work tree delightful dazzling branch work tree delightful dazzling sketch and the branch is up to date with sketch and the branch is up to date with sketch and the branch is up to date with origin main. So it looks like the source origin main. So it looks like the source origin main. So it looks like the source of the branch or at least sort of what of the branch or at least sort of what of the branch or at least sort of what it thinks it is is main even though it thinks it is is main even though it thinks it is is main even though we're on a different work tree. People we're on a different work tree. People we're on a different work tree. People who understand work trees better than I who understand work trees better than I who understand work trees better than I do probably can understand this uh more do probably can understand this uh more do probably can understand this uh more than I can. But that's what I'm seeing than I can. But that's what I'm seeing than I can. But that's what I'm seeing at least. It then get added and get at least. It then get added and get at least. It then get added and get committed and it attempted to get push. committed and it attempted to get push. committed and it attempted to get push. I have a safety hook that blocked the I have a safety hook that blocked the I have a safety hook that blocked the push here, but it gave me a command to push here, but it gave me a command to push here, but it gave me a command to run. It said, should I proceed with git run. It said, should I proceed with git run. It said, should I proceed with git push origin workree delightful dazzling push origin workree delightful dazzling push origin workree delightful dazzling sketch. I then ran this. So, I ran git sketch. I then ran this. So, I ran git sketch. I then ran this. So, I ran git push origin work tree delightful push origin work tree delightful push origin work tree delightful dazzling sketch. And it created a new dazzling sketch. And it created a new dazzling sketch. And it created a new branch here with that name. So, this is branch here with that name. So, this is branch here with that name. So, this is a really important thing. If you're a really important thing. If you're a really important thing. If you're using claude work trees, your agent using claude work trees, your agent using claude work trees, your agent needs to push with a specific uh name needs to push with a specific uh name needs to push with a specific uh name branch. Otherwise, by default, it's branch. Otherwise, by default, it's branch. Otherwise, by default, it's going to be the one that it created the going to be the one that it created the going to be the one that it created the work tree from. in this case main. To work tree from. in this case main. To work tree from. in this case main. To put that another way, if your main put that another way, if your main put that another way, if your main branch is not protected and you create a branch is not protected and you create a branch is not protected and you create a work tree from it, you might end up work tree from it, you might end up work tree from it, you might end up accidentally pushing commits to main accidentally pushing commits to main accidentally pushing commits to main when you wanted to push them to a when you wanted to push them to a when you wanted to push them to a separate branch. Either way, this is separate branch. Either way, this is separate branch. Either way, this is fine and something you can probably fine and something you can probably fine and something you can probably prompt for as well. So, I don't hate it. prompt for as well. So, I don't hate it. prompt for as well. So, I don't hate it. Overall, I really like the way that git Overall, I really like the way that git Overall, I really like the way that git work trees are like totally managed by work trees are like totally managed by work trees are like totally managed by Claude here. It means that the life Claude here. It means that the life Claude here. It means that the life cycle of each work tree can be tied down cycle of each work tree can be tied down cycle of each work tree can be tied down to a single agent and its work, which is to a single agent and its work, which is to a single agent and its work, which is very, very appealing. I'm not sure why very, very appealing. I'm not sure why very, very appealing. I'm not sure why you wouldn't want to use git work trees you wouldn't want to use git work trees you wouldn't want to use git work trees like every single time you use claude like every single time you use claude like every single time you use claude because it just means that you can because it just means that you can because it just means that you can guarantee that every single time you guarantee that every single time you guarantee that every single time you have an idea or you want to do something have an idea or you want to do something have an idea or you want to do something you can just like instantly ping up a you can just like instantly ping up a you can just like instantly ping up a new work tree get things working and new work tree get things working and new work tree get things working and just like ping that back to main as a just like ping that back to main as a just like ping that back to main as a PR. It basically makes parallelization a PR. It basically makes parallelization a PR. It basically makes parallelization a lot more free than it was before which I lot more free than it was before which I lot more free than it was before which I really like. Another thing I'm intrigued really like. Another thing I'm intrigued really like. Another thing I'm intrigued by from the announcement is the fact by from the announcement is the fact by from the announcement is the fact that sub agents now support work trees that sub agents now support work trees that sub agents now support work trees as well. So you can just very simply as well. So you can just very simply as well. So you can just very simply spin up a sub agent, get it to make a PR spin up a sub agent, get it to make a PR spin up a sub agent, get it to make a PR back to main and just have that kind of back to main and just have that kind of back to main and just have that kind of orchestrated from above, which just orchestrated from above, which just orchestrated from above, which just seems really really nice. Though it does seems really really nice. Though it does seems really really nice. Though it does seem like something you have to opt into seem like something you have to opt into seem like something you have to opt into to say ask claw to use work trees for to say ask claw to use work trees for to say ask claw to use work trees for its agents. It won't do this its agents. It won't do this its agents. It won't do this automatically. It seems like I'm really automatically. It seems like I'm really automatically. It seems like I'm really really excited to try this and work with really excited to try this and work with really excited to try this and work with this more. And I think it's just going this more. And I think it's just going this more. And I think it's just going to offer so many free parallelization to offer so many free parallelization to offer so many free parallelization opportunities. And I just love it when a opportunities. And I just love it when a opportunities. And I just love it when a tool kind of absorbs the complexity of tool kind of absorbs the complexity of tool kind of absorbs the complexity of another tool into itself and helps you another tool into itself and helps you another tool into itself and helps you manage its life cycle. That's great. manage its life cycle. That's great. manage its life cycle. That's great. Love all that. Right now, I'm working on Love all that. Right now, I'm working on Love all that. Right now, I'm working on a Claude Code course, which the landing a Claude Code course, which the landing a Claude Code course, which the landing page and the price and stuff and all of page and the price and stuff and all of page and the price and stuff and all of the syllabus is going to come up pretty the syllabus is going to come up pretty the syllabus is going to come up pretty soon. And this is definitely going to be soon. And this is definitely going to be soon. And this is definitely going to be on it. I really believe that AI coding on it. I really believe that AI coding on it. I really believe that AI coding is not that different from human coding. is not that different from human coding. is not that different from human coding. It's just that you need to be a lot more It's just that you need to be a lot more It's just that you need to be a lot more aware of the constraints and you need to aware of the constraints and you need to aware of the constraints and you need to be able to teach the AI about all the be able to teach the AI about all the be able to teach the AI about all the fundamentals that we've known for 30 fundamentals that we've known for 30 fundamentals that we've known for 30 years. And so the course is going to be years. And so the course is going to be years. And so the course is going to be about reintroducing those fundamentals about reintroducing those fundamentals about reintroducing those fundamentals like TDD, like uh effective like TDD, like uh effective like TDD, like uh effective parallelization, like planning in a parallelization, like planning in a parallelization, like planning in a decent way where you get feedback decent way where you get feedback decent way where you get feedback quickly, all of that stuff and just quickly, all of that stuff and just quickly, all of that stuff and just taking that into the AI era. So thanks taking that into the AI era. So thanks taking that into the AI era. So thanks for following along and I will see you for following along and I will see you for following along and I will see you very soon. Anyway, if you like the sound very soon. Anyway, if you like the sound very soon. Anyway, if you like the sound of all that, I talk about all that on my of all that, I talk about all that on my of all that, I talk about all that on my newsletter as well, which is free, which newsletter as well, which is free, which newsletter as well, which is free, which is great obviously, and you can find is great obviously, and you can find is great obviously, and you can find that at the link below.",
+  "fetchedAt": "2026-02-23T13:46:35.818Z"
+}

@@ -104,6 +104,17 @@ tools:
     url: "https://latecheckout.agency/"
   - name: "The Vibe Marketer"
     url: "https://www.thevibemarketer.com/"
+categories:
+  - "AI & Machine Learning"
+  - "Business & Career"
+  - "Product & Design"
+tags:
+  - "agents"
+  - "monetization"
+  - "product-strategy"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.288Z"
 ---
 
 ## Key Takeaways

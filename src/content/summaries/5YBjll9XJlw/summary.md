@@ -4,9 +4,7 @@ metadata:
   title: "Vibe Code Camp: Live Marathon With the World's Best AI Builders"
   description: "Watch the world's best vibe coders build live with Claude Code, Opus 4.5, Figma, Notion, and more.
 
-
     This 8-hour marathon features expert builders demonstrating real-time demos and what's possible with AI-native architecture. See how people operating at the frontier are actually using the latest tools to ship software.
-
 
     ⏱️ CHAPTERS:
 
@@ -46,18 +44,15 @@ metadata:
 
     7:42:09 Closing remarks
 
-
     🚀 START YOUR 30-DAY FREE TRIAL
 
     Every is the only subscription you need to stay at the edge of AI—ideas, apps, and training all in one bundle. New paid subscribers get their first 30 days free. Start shipping with Every here: https://every.to/subscribe
-
 
     CHAT WITH THE TRANSCRIPT
 
     Access the full livestream transcript here with agent-ready instructions. Ask it questions to catch up on what you missed, or use it to build a tool yourself.
 
     https://github.com/EveryInc/vibe-code-camp
-
 
     #claudecode #vibecoding #aibuilder #aitools #ai"
   channel: "Every"
@@ -110,6 +105,18 @@ tools:
     url: null
   - name: "Sparkle"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "claude"
+  - "copilot"
+  - "figma"
+tagsNormalizedAt: "2026-03-01T21:19:30.389Z"
 ---
 
 ## Key Takeaways
@@ -131,9 +138,11 @@ The video is a live demonstration marathon featuring Dan Shipper (CEO of Every) 
 ## Summary
 
 ### Introduction and Every's Mission
+
 The marathon, hosted by Dan Shipper (CEO of Every), opens by framing the event as a showcase of the world's best 'vibe coders' – builders using AI agents to create software through natural language. Every is presented as a subscription service offering ideas (newsletter), apps (like Kora, Monologue, Spiral, Sparkle), and training (camps like this one) to stay at the edge of AI.
 
 ### Dan Shipper's Demo: Building Agent-Native Apps
+
 Dan demos 'Proof,' an agent-native markdown editor he built in two weeks. Its key features are:
 
 *   **Attribution:** Clearly shows what text was written by a human vs. an AI.
@@ -144,6 +153,7 @@ Dan demos 'Proof,' an agent-native markdown editor he built in two weeks. Its ke
 Dan also briefly shows 'Anecdote,' an agent-native health app that chats with users about their Apple Health data. His goal for the stream is to improve Proof enough to launch it internally at Every.
 
 ### Showcasing Diverse Builder Workflows
+
 The core of the stream features rapid-fire demos from a wide array of builders:
 
 *   **Ben Tossel (Maker
@@ -189,6 +199,7 @@ Hub, Linear, Sentry).
 Hub, transforming hours of manual work into automated, on-demand reports.
 
 ### Closing Themes
+
 The event concludes by reinforcing Every's value proposition: providing the ideas, apps, and training needed to thrive in the AI era. The overarching takeaway is that 'vibe coding' is now a serious, production-ready discipline. The builder's role is evolving from coder to **director, planner, and curator**, leveraging AI agents to exponentially increase output and creativity while maintaining human oversight and strategic direction.
 
 ## Context

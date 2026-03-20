@@ -1,25 +1,37 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
+import { useArticleStream } from '~/composables/useArticleStream'
+import { usePublications } from '~/composables/usePublications'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTruncate } from '~/composables/useTruncate'
 
 const { enabledPlaylists } = usePlaylistsConfig()
 const { enabledChannels } = useChannelsConfig()
+const { articles } = useArticleStream()
+const { publications } = usePublications(articles)
 const { tags, topTags } = useTagsConfig()
 </script>
 
 <template>
-  <aside class="sidebar-nav">
+  <aside class="w-64 p-4 border-r border-border h-screen overflow-y-auto overflow-x-hidden bg-background sticky top-0 self-start">
     <nav>
-      <section class="sidebar-section">
-        <h3 class="sidebar-heading">Playlists</h3>
-        <ul class="sidebar-list">
+      <NuxtLink
+        to="/"
+        class="block mb-2 py-1 px-2 rounded text-foreground font-medium hover:bg-muted"
+        active-class="text-primary bg-primary/10"
+      >
+        All Summaries
+      </NuxtLink>
+
+      <section class="mb-6">
+        <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">Playlists</h3>
+        <ul class="list-none p-0 m-0">
           <li v-for="playlist in enabledPlaylists" :key="playlist.id">
             <NuxtLink
               :to="`/playlists/${playlist.slug}`"
-              class="sidebar-link"
-              active-class="sidebar-link--active"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
             >
               {{ useTruncate(playlist.name, 24) }}
             </NuxtLink>
@@ -27,14 +39,14 @@ const { tags, topTags } = useTagsConfig()
         </ul>
       </section>
 
-      <section class="sidebar-section">
-        <h3 class="sidebar-heading">Channels</h3>
-        <ul class="sidebar-list">
+      <section class="mb-6">
+        <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">Channels</h3>
+        <ul class="list-none p-0 m-0">
           <li v-for="channel in enabledChannels" :key="channel.slug">
             <NuxtLink
               :to="`/channels/${channel.slug}`"
-              class="sidebar-link"
-              active-class="sidebar-link--active"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
             >
               {{ useTruncate(channel.name, 20) }}
             </NuxtLink>
@@ -42,23 +54,38 @@ const { tags, topTags } = useTagsConfig()
         </ul>
       </section>
 
-      <section v-if="topTags.length > 0" class="sidebar-section" aria-labelledby="sidebar-topics-heading">
-        <h3 id="sidebar-topics-heading" class="sidebar-heading">
-          <NuxtLink to="/tags" class="sidebar-heading-link">Topics</NuxtLink>
+      <section v-if="publications.length" class="mb-6">
+        <h3 class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">Articles</h3>
+        <ul class="list-none p-0 m-0">
+          <li v-for="publication in publications" :key="publication.slug">
+            <NuxtLink
+              :to="`/articles/publications/${publication.slug}`"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
+            >
+              {{ useTruncate(publication.name, 20) }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </section>
+
+      <section v-if="topTags.length > 0" class="mb-6" aria-labelledby="sidebar-topics-heading">
+        <h3 id="sidebar-topics-heading" class="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2 px-2">
+          <NuxtLink to="/tags" class="text-muted-foreground hover:text-primary">Topics</NuxtLink>
         </h3>
-        <ul class="sidebar-list">
+        <ul class="list-none p-0 m-0">
           <li v-for="tag in topTags" :key="tag.slug">
             <NuxtLink
               :to="`/tags/${tag.slug}`"
-              class="sidebar-link"
-              active-class="sidebar-link--active"
+              class="block py-1 px-2 rounded text-sm text-foreground hover:bg-muted"
+              active-class="text-primary bg-primary/10 font-medium"
             >
               {{ useTruncate(tag.name, 20) }}
-              <span class="sidebar-count" aria-hidden="true">{{ tag.itemCount }}</span>
+              <span class="ml-auto text-xs text-muted-foreground" aria-hidden="true">{{ tag.itemCount }}</span>
             </NuxtLink>
           </li>
           <li v-if="tags.length > 5">
-            <NuxtLink to="/tags" class="sidebar-link sidebar-link--see-all">
+            <NuxtLink to="/tags" class="block py-1 px-2 rounded text-sm text-primary italic hover:bg-muted">
               See all {{ tags.length }} topics
             </NuxtLink>
           </li>
@@ -67,72 +94,3 @@ const { tags, topTags } = useTagsConfig()
     </nav>
   </aside>
 </template>
-
-<style scoped>
-.sidebar-nav {
-  width: 250px;
-  padding: 1.3125rem;
-  border-right: 1px solid var(--border);
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background: var(--background);
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
-}
-
-.sidebar-section {
-  margin-bottom: 1.75rem;
-}
-
-.sidebar-heading {
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  color: var(--muted-foreground);
-  margin-bottom: 0.6875rem;
-}
-
-.sidebar-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar-link {
-  display: block;
-  color: var(--foreground);
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.sidebar-link:hover {
-  background: var(--accent);
-}
-
-.sidebar-link--active {
-  background: var(--accent);
-  color: var(--primary);
-  font-weight: 500;
-}
-
-.sidebar-heading-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-.sidebar-heading-link:hover {
-  color: var(--primary);
-}
-
-.sidebar-count {
-  margin-left: auto;
-  font-size: 0.75rem;
-  color: var(--muted-foreground);
-}
-
-.sidebar-link--see-all {
-  font-style: italic;
-  color: var(--primary);
-}
-</style>

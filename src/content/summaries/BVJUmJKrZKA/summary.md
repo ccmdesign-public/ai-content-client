@@ -4,9 +4,7 @@ metadata:
   title: "Mig Reyes - Harsh truths that designers need to hear"
   description: "Mig Reyes is the VP of Product Experience at Duolingo (and a design director at Instagram before that).
 
-
     In this episode he shared a behind-the-scenes of how design operates at Duolingo (as well as some harsh truths designers need to hear).
-
 
     - Common portfolio review mistakes
 
@@ -24,7 +22,6 @@ metadata:
 
     - + a *lot* more
 
-
     - Jacob Nielsen (commented on LinkedIn post)(https://www.linkedin.com/in/jakobnielsenphd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
     - Brett Westervelt (VP of Design at Instagram) (https://x.com/westervelt?lang=en)
@@ -34,7 +31,6 @@ metadata:
     - Luis (CEO of Duolingo) (https://x.com/LuisvonAhn)
 
     - Companies mentioned: Instagram, Airbnb, Coinbase, Meta, OpenAI, Figma
-
 
     Chapters
 
@@ -64,15 +60,11 @@ metadata:
 
     52:15 Where designers go wrong in portfolio reviews
 
-
-
     Dive is where the best designers never stop learning 🤿
-
 
     🌐 dive.club
 
     🐦 twitter.com/joindiveclub
-
 
     Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
   channel: "Dive Club 🤿"
@@ -103,6 +95,18 @@ ai:
 tools:
   - name: "Figma"
     url: null
+categories:
+  - "Business & Career"
+  - "Product & Design"
+tags:
+  - "career-growth"
+  - "design-systems"
+  - "figma"
+  - "interviewing"
+  - "leadership"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.353Z"
 ---
 
 ## Key Takeaways
@@ -124,18 +128,23 @@ Mig Reyes challenges the design industry to move beyond the "advocating for the 
 ## Summary
 
 ### The Shift from UX to Product Experience
+
 Mig Reyes begins by explaining why Duolingo rebranded its design organization from **UX Design** to **Product Experience**. He argues that the term "UX" has become archaic, often associated with a "boxes-and-flows" mentality where designers simply hand off wireframes to others. At high-maturity companies like Duolingo, being user-centric is an assumption, not a debate. The new title reflects a shared mission between design, research, and writing to build an excellent **product**. Reyes notes that prominent consumer companies have largely abandoned the "UX Designer" title in favor of **Product Designer**, which implies a deeper connection to business metrics, engineering constraints, and overall product strategy.
 
 ### Rebuilding Design Management
+
 Upon joining Duolingo, Reyes focused on raising the bar for design leadership. He believes design management has devolved into "paper pushing" in much of the industry. To counter this, he rebuilt his team with leaders who were once **excellent individual contributors (ICs)**. These managers are expected to act as **studio heads**, capable of identifying exactly why a design feels off by a few milliseconds or a few pixels. They must balance three pillars: **Management** (taking care of people), **Product** (understanding metrics and roadmap), and **Design** (holding an insanely high bar for craft). By scaling himself through a leadership team that is deeply embedded in the work, Reyes ensures that the entire org remains trusted by the executive team.
 
 ### The Duolingo Product Review Culture
+
 One of the most unique aspects of Duolingo's culture is the **Product Review** process. Unlike companies that have hour-long meetings once a week, Duolingo holds rapid-fire reviews **five times a week**. Each review is capped at **10 minutes**, forcing designers and PMs to cut the fluff. There is a strict ban on long decks and "explainer UI"; instead, designers must present **high-fidelity prototypes** directly to the CEO and other executives. This high-pressure environment provides designers with constant "reps," accelerating their growth and ensuring that the work is always aligned with executive expectations. After each review, the executive team debriefs to provide "meta-feedback" on how the team can present better next time, creating a tight coaching loop.
 
 ### The "Hard Truths" of Hiring
+
 Reyes offers a blunt perspective on the current job market, stating that **visual design** is the ultimate filter. In the consumer tech world, if a portfolio does not demonstrate exceptional visual craft, it is often dismissed within seconds. He advises designers to stop over-indexing on process photos (like sticky notes on walls) and personas, and instead focus on the **final output**. Duolingo has even changed its interview process to require a "30-minute chat" with only five slides of high-fidelity work, mimicking their internal review style. He also warns that using the title **"UI/UX Designer"** can make senior hiring managers nervous, as it often suggests a designer who is far from the product's business and engineering realities.
 
 ### Investing in the Long Game
+
 Despite the trend of hiring only senior talent, Duolingo intentionally reserves about **half of its hiring forecast** for early-career designers (new grads). Reyes argues that while senior talent is valuable, it can sometimes be "jaded" or resistant to change. By hiring junior talent, Duolingo can mold designers into their specific culture of learning. These junior designers are given the same high expectations as seniors—including presenting to the CEO—but with scaled project scopes. This "long view" investment has led to incredible retention, with many of the company’s current directors having started as junior ICs many years ago.
 
 ## Context

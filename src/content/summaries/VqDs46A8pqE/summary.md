@@ -101,6 +101,18 @@ tools:
     url: null
   - name: "/install"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "automation"
+  - "best-practices"
+  - "claude"
+  - "git"
+tagsNormalizedAt: "2026-03-01T21:19:30.337Z"
 ---
 
 ## Key Takeaways

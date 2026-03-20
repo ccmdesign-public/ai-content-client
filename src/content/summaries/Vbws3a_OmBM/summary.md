@@ -4,21 +4,17 @@ metadata:
   title: "Claude Code Let's Build: The AI Video Oracle (Qwen3 TTS)"
   description: "Claude Code Let's Build: The AI Video Oracle (Qwen3 TTS)
 
-
     👊 Become a YouTube Member to Support Me:
 
     https://www.youtube.com/c/AllAboutAI/join
-
 
     My AI Video Course:
 
     https://www.theaivideocourse.com/
 
-
     🔥Open GH:
 
     https://github.com/AllAboutAI-YT/
-
 
     Business Inquiries:
 
@@ -51,6 +47,15 @@ tools:
     url: null
   - name: "Omnihuman"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "gemini"
+  - "llm"
+  - "nlp"
+tagsNormalizedAt: "2026-03-01T21:19:30.386Z"
 ---
 
 ## Key Takeaways
@@ -74,6 +79,7 @@ Tube could generate personalized, on-demand video answers instead of serving pre
 The video is a hands-on coding session where the creator builds a multi-step AI pipeline using Claude Code. The goal is to create an "AI Video Oracle" that can answer any question by researching online, generating a voice response, and creating a final animated video.
 
 ### The Pipeline Architecture
+
 The system works in six distinct steps:
 1.  A user inputs a question (e.g., "Will there be a season 3 of Severance in 2026?").
 2.  **Gemini 3 Flash** conducts web research and condenses the answer into a 50-word, 2-3 sentence summary.
@@ -85,6 +91,7 @@ The system works in six distinct steps:
 The creator emphasizes that Claude Code was instrumental in rapidly assembling this pipeline by helping to gather and implement the necessary documentation from the various model repositories (Gemini, Qwen, Omnihuman).
 
 ### Testing and Results
+
 In a live demo, the pipeline successfully generated a video answering the *Severance* question in about 5-7 minutes. The answer, while not perfectly accurate, demonstrated a functional workflow. A second test with a time-sensitive question ("What did Daario Amadei say at Davos 2026?") yielded an up-to-date and correct answer about chip exports and AI automation, proving the system's capacity for current research.
 
 The creator was particularly impressed with the **Qwen3 TTS model's performance on a Mac
@@ -92,6 +99,7 @@ The creator was particularly impressed with the **Qwen3 TTS model's performance 
 Book (using MPS)**, noting its speed and decent quality for a local, free model. He suggests it's ideal for projects where premium voice quality isn't critical but cost or privacy is a concern.
 
 ### Future Vision and Inspiration
+
 The project was inspired by a vision of future content consumption, where platforms could generate personalized video answers on-demand. The video concludes by showing that with current tools like Claude Code and accessible open-source models, building complex, local AI media pipelines is now feasible for developers.
 
 ## Context

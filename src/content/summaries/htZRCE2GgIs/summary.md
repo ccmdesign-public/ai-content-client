@@ -97,6 +97,16 @@ tools:
     url: null
   - name: "NotebookLM"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "chatgpt"
+  - "claude"
+  - "gemini"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.529Z"
 ---
 
 ## Key Takeaways

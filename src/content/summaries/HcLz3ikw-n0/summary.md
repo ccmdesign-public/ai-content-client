@@ -4,22 +4,17 @@ metadata:
   title: "Designer's toolkit for Claude Code"
   description: "Kyle Zantos is leading the new UX Tools Labs where he's responsible for figuring out what matters for new design tools and workflows.
 
-
     As a result, he's pretty quickly become my go-to source as I transition into more of a builder with AI.
-
 
     So this conversation is a deep dive into very specific tactics you can use on your own design engineering journey.
 
-
     We'll go through recommended tools, workflows, and Kyle's process for building a design engineering \"Skill\" using Claude Code.
-
 
     - Kyle’s portfolio site: https://zantos.co (https://zantos.co/)
 
     - Leva control panel: https://threejsresources.com/tool/leva
 
     - Compound Engineering plugin: https://github.com/EveryInc/compound-engineering-plugin
-
 
     - Jhey Tompkins: https://x.com/jh3yy
 
@@ -31,9 +26,7 @@ metadata:
 
     - Jakub Krehel:  https://jakub.kr/
 
-
     Dive is where the best designers never stop learning 🤿
-
 
     Chapters
 
@@ -55,11 +48,9 @@ metadata:
 
     45:01 Kyle's personal system for learning
 
-
     🌐 dive.club
 
     🐦 twitter.com/joindiveclub
-
 
     Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
   channel: "Dive Club 🤿"
@@ -102,6 +93,18 @@ tools:
     url: null
   - name: "Cursor"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - "accessibility"
+  - "ai-coding"
+  - "claude"
+  - "design-systems"
+  - "figma"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.388Z"
 ---
 
 ## Key Takeaways
@@ -119,12 +122,15 @@ Claude Code represents a transition from chat-based AI to agentic CLI tools that
 The video introduces **Claude Code**, a command-line interface (CLI) agent from Anthropic designed to handle complex engineering tasks through natural language. For designers, this marks a shift from creating static mockups to directing an agent that can implement those designs in real-time. The workflow begins with the `claude` command, which initiates an agentic session where the AI has full context of the local repository. This environment allows designers to describe UI changes—such as 'make this header sticky and update the mobile padding'—and watch the agent execute the multi-file edits required to achieve the goal.
 
 ### The Designer's Toolkit and MCP
+
 A key highlight is the **Model Context Protocol (MCP)**, which acts as a bridge between Claude and external data sources. Designers can use MCP servers to connect Claude to **Figma**, allowing the agent to 'read' layer data and transition styles directly into **Tailwind CSS**. This eliminates the tedious manual translation of hex codes and spacing values. Additionally, the agent can index local design systems or brand guidelines, ensuring that any generated code adheres to existing project standards rather than hallucinating new patterns.
 
 ### The Agentic Feedback Loop
+
 The power of Claude Code lies in its ability to self-correct. When tasked with a UI update, the agent doesn't just write code; it can run the local development server, identify build errors, and fix them without user intervention. For designers, this means they can focus on high-level aesthetic and functional decisions while the agent handles the underlying syntax. The video demonstrates how to use the tool for **refactoring components**, where the agent can take a messy JSX file and reorganize it into clean, reusable sub-components while maintaining the original design intent.
 
 ### Refining UI and Accessibility
+
 Beyond initial creation, the tool is a powerful utility for 'design debt.' Designers can prompt Claude to audit the codebase for **accessibility** violations or inconsistent spacing. The agent can systematically traverse the UI, adding missing ARIA labels or standardizing the color palette across dozens of files. This automated 'polish' phase ensures that the final product maintains the high standards set during the initial design phase, bridging the gap between a Figma prototype and a production-ready application.
 
 ## Context

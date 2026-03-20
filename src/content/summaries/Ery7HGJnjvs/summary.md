@@ -1,0 +1,114 @@
+---
+metadata:
+  videoId: "Ery7HGJnjvs"
+  title: "The Full Story of How I Built Gym Launch"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT23M29S"
+  publishedAt: "2026-03-06T22:59:45Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Ery7HGJnjvs/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Ery7HGJnjvs"
+processedAt: "2026-03-07T20:55:38.264Z"
+source: "youtube"
+tldr: "Alex Hormozi recounts how he built Gym Launch after a series of devastating setbacks, from losing all his money and gyms to partners stealing funds, ultimately pivoting from a hands-on gym launch service to a scalable information product business by selling his proven system for $6,000-$10,000 per license."
+tools: []
+categories:
+  - "Business & Career"
+tags:
+  - "business"
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 22229
+  outputTokens: 680
+  totalTokens: 22909
+  processingTimeMs: 35427
+tagsNormalizedAt: "2026-03-07T21:05:17.760Z"
+---
+
+## Key Takeaways
+
+The story details the brutal journey of building Gym Launch from catastrophic failures to a scalable information business model.
+
+## Summary
+
+Alex Hormozi's journey to build Gym Launch was a gauntlet of personal and professional failures. He started with a service model, flying around to launch and fill other people's gyms. He convinced his now-wife Leila to quit her job after showing her they could process $120,000 in contracts in an hour. Despite early success, a series of poor partnership decisions and a need for validation led to repeated financial disasters.
+
+He entered a partnership where a gym owner convinced him to sign and front all the money for a new business, only for the partner to take all the funds, claiming it was 'his half the profits' before any were made. This left Hormozi broke, saddled with a gym with 400 members and no money for payroll, forcing a graceful but costly exit funded by Leila's successful Hawaii gym launch.
+
+Just as they began recovering, payment processor issues and massive refunds from unethical gym owners who told clients to refund and re-purchase directly crippled them again. At their lowest point, with only $1,000 and daily $3,300 debits for new sales staff, Leila committed fully, saying she'd 'sleep under a bridge' with him.
+
+Their breakthrough came from desperation. When a gym owner begged for help after Hormozi canceled his service, Hormozi offered his entire launch system for $6,000, expecting a rejection. The owner immediately said yes. Realizing the value of his intellectual property, Hormozi sold the same system to seven other gym owners for $8,000-$10,000 each, making $60,000 in a single day.
+
+This pivot transformed the business. They moved from a high-overhead, travel-intensive service model with fulfillment and refund risk to a scalable, high-margin licensing model. They sold their proven 'Gym Launch' system (front-end sales and marketing) and later 'Gym Legacy' (back-end operations), which were already documented from training their own sales team. The system included specific sales scripts, ad campaigns, landing pages, and operational videos, all proven to generate significant cash for gym owners.
+
+## Context
+
+This story is crucial for entrepreneurs and business builders as it reveals the non-linear, often brutal reality of building a successful company. It highlights the importance of business model innovation, the dangers of poor partnerships, and how catastrophic failures can force the pivot to a truly scalable and profitable venture. It's a masterclass in resilience, product-market fit, and monetizing expertise.

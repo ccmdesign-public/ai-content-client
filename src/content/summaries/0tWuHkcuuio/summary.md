@@ -85,6 +85,16 @@ tools:
     url: null
   - name: "Eleven Labs"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Web Development"
+tags:
+  - "agents"
+  - "api-design"
+  - "chatgpt"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.346Z"
 ---
 
 ## Key Takeaways

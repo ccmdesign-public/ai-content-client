@@ -34,6 +34,15 @@ tools:
     url: null
   - name: "PNPM"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.270Z"
 ---
 
 ## Key Takeaways

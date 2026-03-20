@@ -1,0 +1,110 @@
+videoId: ULMepxpvaTk
+title: Claude Code 2.1.72 - Just Released! (Update Overview)
+description: >-
+  Claude Code has rolled out version 2.1.71, bringing significant enhancements
+  and fixes, making it a powerful tool for ai coding. This update introduces 8
+  new features and 35 bug fixes, notably improving the developer experience
+  within visual studio code. These advancements in programming tools underscore
+  a commitment to refining artificial intelligence capabilities for coders,
+  making the tech more accessible and efficient for everyone.
+
+
+  ----
+
+  Learn Agentic Coding with Dynamous AI - Daily Events and Workshops
+  (https://dynamous.ai/?code=646a60) - 10% off with our link:
+  https://shorturl.smartcode.diy/dynamous_ai_10_percent_discount
+
+  ----
+
+
+  Chapters
+
+  0:00 Overview — 14 Features, 30 Fixes, 7 Improvements
+
+  0:11 /plan Arguments, /config Redesign, and Effort Levels (DX)
+
+  0:38 Bash Auto-Approval: 6 New Commands + Tree-Sitter Parsing
+
+  1:08 12x Prompt Cache Savings and 510KB Bundle Reduction
+
+  1:28 Plugin Fixes: Windows OneDrive, Marketplace Scope, Git URLs
+
+  1:49 Agent Tool Model Override, ExitWorktree, and Team Inheritance
+
+  2:16 Session Stability: --continue, Unicode Crash, /clear, Ctrl+C
+
+  2:43 Hooks: Double Fire Fix, Transcript Path, CLAUDE.MD HTML Comments
+
+  3:02 VS Code: Scroll Speed, Shift+Enter, Effort Indicator, URI Handler
+
+  3:24 Update to v2.1.72
+
+
+  Key Changes in This Release:
+
+  - Prompt cache invalidation fix: SDK query() calls now cache correctly,
+  reducing input token costs by up to 12x per conversation
+
+  - Bash auto-approval: lsof, pgrep, tput, ss, fd, and fdfind join the
+  auto-approved list — fewer permission prompts for read-only operations
+
+  - Tree-sitter parsing: find -exec, variable assignments, and command
+  substitutions no longer trigger false-positive permission prompts
+
+  - Native bash parsing module: replaces the old parser with faster
+  initialization and zero memory leaks
+
+  - Plugin stability on Windows: EEXIST errors in OneDrive folders, marketplace
+  scope blocking, literal tilde cache directories, and marketplace-only fields
+  in plugin.json all resolved
+
+  - /plan description argument: type "/plan fix the auth bug" to jump straight
+  into plan mode
+
+  - ExitWorktree tool: cleanly leave EnterWorktree sessions without manual git
+  cleanup
+
+  - VS Code URI handler: open Claude Code tabs programmatically via
+  vscode://anthropic.claude-code/open
+
+
+  Release Notes (v2.1.72):
+  https://github.com/anthropics/claude-code/releases/tag/v2.1.72
+
+  Claude Code on GitHub (75K+ stars): https://github.com/anthropics/claude-code
+
+  Claude Code Docs: https://docs.anthropic.com/en/docs/claude-code
+
+
+  ---
+
+  Update now: run `claude update` in your terminal
+
+  Created with Remotion + ElevenLabs AI narration
+
+
+  Which fix or feature in v2.1.72 were you waiting for the most? Drop it in the
+  comments.
+
+
+  #ClaudeCode #ClaudeCodeUpdate #Anthropic #AI #CodingTools #DevTools #AIUpdate
+  #VSCode #CLI #PluginEcosystem #PromptCache #BashParsing #TreeSitter
+  #ExitWorktree #AgentTool #DevExperience #AIAssistant #CodingAssistant
+  #TypeScript #OpenSource #DeveloperProductivity
+channel: DIY Smart Code
+channelId: UC_a85mUHqsy5j0CYCgLnkEQ
+duration: PT3M40S
+publishedAt: 2026-03-10T08:16:23Z
+thumbnailUrl: https://i.ytimg.com/vi/ULMepxpvaTk/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=ULMepxpvaTk
+processedAt: 2026-03-10T14:31:44.588Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2844
+outputTokens: 1129
+totalTokens: 3973
+processingTimeMs: 38724

@@ -1,0 +1,142 @@
+---
+metadata:
+  videoId: "_VOApav3nh0"
+  title: "How Do I Manage a Business When I Can’t Be In Person?"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT2M42S"
+  publishedAt: "2026-03-08T20:43:30Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/_VOApav3nh0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=_VOApav3nh0"
+processedAt: "2026-03-08T21:53:55.473Z"
+source: "youtube"
+tldr: "To manage a remote business location, first hire or appoint a local general manager to establish standards and observe operations, then build systems that trigger actions without relying on memory."
+tools: []
+categories:
+  - "Business & Career"
+  - "Tools & Productivity"
+tags:
+  - "automation"
+  - "business"
+  - "leadership"
+  - "productivity"
+  - "startup"
+  - "workflow"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3276
+  outputTokens: 721
+  totalTokens: 3997
+  processingTimeMs: 21173
+tagsNormalizedAt: "2026-03-08T22:16:24.158Z"
+---
+
+## Key Takeaways
+
+This video explains how to manage a business remotely by focusing on system design and leadership presence. The key insights are:
+
+*   **A system is a prompt that triggers an action without relying on memory**, unlike informal checklists in someone's head.
+
+*   **You need 'eyes on the ground'** in the form of a general manager to observe operations, demonstrate standards, and build initial systems when you can't be there.
+
+*   **Systems (automation, reminders, checklists) sustain performance** only after the standard of 'what good looks like' is established by a leader on-site.
+
+## Summary
+
+The core challenge addressed is managing a business, specifically a liquidation resale operation, that is physically distant (e.g., 100 miles away) where the owner can only visit occasionally. The solution centers on implementing effective systems and ensuring leadership presence.
+
+### Defining a True System
+
+A common mistake is confusing informal processes with real systems. **A system is formally defined as a prompt that triggers a specific behavior or action and does not rely on anyone's memory.** This contrasts with unreliable methods like staff simply remembering to do tasks or having unwritten 'checklists in their head.' The goal is to create reliable, repeatable processes.
+
+### The Critical First Step: Leadership On-Site
+
+When you cannot be physically present to demonstrate standards and monitor operations, your first priority must be to place a leader on the ground. The presenter emphasizes that **'the presence of a leader matters'** because they must demonstrate 'what good looks like.' For a remote location, this means hiring or appointing a **general manager**. This person's role is to:
+
+*   Observe daily operations and identify what needs to occur.
+
+*   Set the performance bar and establish standards.
+
+*   Begin designing the initial processes and protocols.
+
+Trying to design effective systems from afar without this on-site observation and leadership is described as 'really difficult.'
+
+### Building Systems from Standards
+
+Once the on-site leader has established clear standards, you can then design systems to maintain those standards consistently. These systems act as continuous prompts and can include:
+
+*   Automation tools
+
+*   Scheduled reminders
+
+*   Formalized checklists
+
+The sequence is critical: first, establish the standard through a person, then codify it into systems that do not rely on that person's constant memory or presence. The video concludes by promoting a free, detailed '10-stage roadmap' for scaling a business through various headcount milestones, applicable across software, physical products, and service businesses.
+
+## Context
+
+This advice is crucial for entrepreneurs, small business owners, and operators who are scaling to multiple locations or managing remote teams. It addresses the fundamental shift from hands-on management to systematic, scalable leadership. In an era of distributed work and digital businesses, understanding how to instill quality and consistency without direct oversight is a key competitive skill. The principles apply beyond brick-and-mortar to any service or operation where the owner cannot micromanage.

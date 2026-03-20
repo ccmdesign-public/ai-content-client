@@ -4,39 +4,27 @@ metadata:
   title: "How I'd build a one-person business (if I started over in 2026)"
   description: "The one-person business is changing.
 
-
     Eden – The AI canvas & drive: https://eden.so/dan-yt
-
 
     Read my letters on similar topics here: https://letters.thedankoe.com
 
-
     2 Hour Content Ecosystem: https://letters.thedankoe.com/p/how-to-build-a-world-the-2-hour-content
-
 
     The One-Person Business Launchpad: https://letters.thedankoe.com/p/full-course-the-one-person-business
 
-
     Example prompt: https://letters.thedankoe.com/p/a-prompt-to-reset-your-life-in-30
-
 
     If you'd rather watch these on Spotify: https://open.spotify.com/show/3lZRG3LCFZxKkQVSsCwoyN
 
-
     How I use AI better than 99% of people: https://youtu.be/xgpLjLHB5sA
-
 
     ––– My Books –––
 
-
     The Art of Focus: https://theartoffocusbook.com
-
 
     Purpose & Profit: https://thedankoe.com/purpose
 
-
     ––– Socials –––
-
 
     Twitter: https://twitter.com/thedankoe
 
@@ -46,9 +34,7 @@ metadata:
 
     LinkedIn: https://linkedin.com/in/thedankoe
 
-
     ––– Chapters –––
-
 
     0:00 Everything is changing
 
@@ -63,7 +49,6 @@ metadata:
     21:29 V – How to build a micro SaaS (non-exhaustive)
 
     25:36 VI – How to actually build the software
-
 
     #onepersonbusiness #selfimprovement #skillacquisition"
   channel: "Dan Koe"
@@ -102,6 +87,15 @@ tools:
     url: "https://instagram.com/thedankoe"
   - name: "LinkedIn"
     url: "https://linkedin.com/in/thedankoe"
+categories:
+  - "Business & Career"
+tags:
+  - "career-growth"
+  - "indie-hacker"
+  - "monetization"
+  - "saas"
+  - "startup"
+tagsNormalizedAt: "2026-03-01T21:19:30.360Z"
 ---
 
 ## Key Takeaways
@@ -117,9 +111,11 @@ Dan Koe outlines a strategy for the 2026 digital landscape, emphasizing human-ce
 ## Summary
 
 ### The Philosophy of the Value Creator
+
 In 2026, the digital landscape is dominated by AI-generated content, making generic advice and technical specialization less valuable. To succeed, you must become a **Value Creator**. This involves shifting from being a specialist in a narrow field to a generalist who solves complex, multi-dimensional life problems. Instead of picking a niche, you focus on a **Meta-Niche**: yourself. By solving your own problems in health, wealth, and relationships, and documenting the solutions, you create a unique value proposition that cannot be automated.
 
 ### Building the High-Value Skill Stack
+
 A one-person business relies on high-leverage skills that multiply your efforts. Koe emphasizes three core pillars:
 
 * **Writing:** The foundation of all digital leverage. It clarifies your thinking and provides the script for every video and post.
@@ -131,6 +127,7 @@ A one-person business relies on high-leverage skills that multiply your efforts.
 By stacking these skills with a personal obsession—such as philosophy, coding, or fitness—you create a **category of one** where you have no direct competition.
 
 ### The Content Ecosystem Strategy
+
 The most efficient way to grow in 2026 is a "top-down" content approach. You start with **Long-form Content** (a weekly newsletter or deep-dive video) which serves as the "sun" of your digital solar system. 
 
 From this single piece of pillar content, you can derive multiple high-impact short-form posts for platforms like X, Instagram, or Linked
@@ -138,6 +135,7 @@ From this single piece of pillar content, you can derive multiple high-impact sh
 In. This ensures your brand messaging is consistent and deep, rather than chasing shallow trends. The goal is to move followers from "rented" platforms (social media) to "owned" platforms (email lists).
 
 ### Monetization and Scaling
+
 Koe recommends starting with a **High-Ticket Service** to gain real-world data on customer pain points. Once you have a proven process for getting results, you productize that knowledge into a **Digital Course** or **Membership**. This allows for infinite scalability. The ultimate objective is to build a business that supports your ideal lifestyle, prioritizing **autonomy** and **creative freedom** over sheer corporate growth.
 
 ## Context

@@ -42,8 +42,8 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
       </ul>
     </template>
 
-    <div v-if="segments.length === 0" class="empty-state">
-      <p>No summaries found.</p>
+    <div v-if="segments.length === 0" class="text-center py-12 text-muted-foreground">
+      <p>No content found.</p>
     </div>
   </div>
 </template>

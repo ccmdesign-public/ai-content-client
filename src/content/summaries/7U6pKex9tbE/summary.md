@@ -6,19 +6,15 @@ metadata:
 
     👉 https://www.skool.com/buildroom/
 
-
     Summary ⤵️
 
     🚀 Stop building AI automations. Start building agentic workflows.
 
-
     Google just released Antigravity - their vibe coding platform that lets you build complex AI systems with plain language. No coding required. No visual workflows. Just describe what you want and watch it build itself.
-
 
     Get the AGENTS.md file FREE! 👇
 
     https://docs.google.com/document/d/1i4pyWhjXQekiHZGq8ipdR6cCPhS4B4WqtV4llGMhQi8/edit?usp=sharing
-
 
     My software, tools, & deals (some give me kickbacks—thank you!)
 
@@ -32,7 +28,6 @@ metadata:
 
     🥔 Blotato: https://blotato.com/?ref=duncan
 
-
     💡 Connect with me:
 
     TikTok: https://www.tiktok.com/@duncanrogoff
@@ -40,7 +35,6 @@ metadata:
     Twitter: https://x.com/DuncanRogoff
 
     LinkedIn: https://www.linkedin.com/in/duncanrogoff/
-
 
     ⏱️ Video Timestamps:
 
@@ -111,6 +105,16 @@ tools:
     url: "https://www.make.com/en/register?pc=duncan"
   - name: "Blotato"
     url: "https://blotato.com/?ref=duncan"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "python"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.304Z"
 ---
 
 ## Key Takeaways
@@ -126,9 +130,11 @@ Agentic workflows replace traditional linear automation with autonomous systems 
 ## Summary
 
 ### The Evolution of Agentic Workflows
+
 The transition from traditional AI automation to **agentic workflows** represents a fundamental shift in how systems are built. While no-code platforms like N8N removed the need for syntax, they still required users to master complex logic and troubleshoot node connections manually. Google's **Anti-gravity** platform introduces "vibe coding," enabling users to build sophisticated tools by simply describing their intent in plain language. This allows the AI to manage the underlying technical architecture, including file structures and script execution.
 
 ### The DOE Framework and Structure
+
 To manage these agents effectively, the video introduces the **DOE Framework**, which provides a structured methodology for agent behavior:
 
 - **Directive Layer:** Written in markdown, these are the standard operating procedures that define goals and rules for the agent.
@@ -138,9 +144,11 @@ To manage these agents effectively, the video introduces the **DOE Framework**, 
 - **Execution Layer:** This is where the actual Python code is generated to perform specific tasks, such as data scraping or API calls.
 
 ### Practical Application: Reddit Scraper
+
 The tutorial demonstrates building a **Reddit news scraper** that identifies trending topics and creates content summaries. By providing an action plan and an **agents.md** configuration file, Anti-gravity automatically builds folders for temporary files, environment variables, and execution scripts. When adding advanced features like **infographic generation**, the user can simply provide a link to API documentation. The agent reads the docs, understands the requirements, and writes the integration code autonomously.
 
 ### Optimization and Self-Healing
+
 A critical advantage of this system is **self-annealing**. Most automation projects fail during the troubleshooting phase, but agentic workflows can identify errors, analyze why they happened, and rewrite the code to fix them. Users can further optimize performance by requesting **parallel processing** in plain English, allowing the agent to handle multiple data streams or image generations simultaneously, drastically reducing the time required for data-heavy operations.
 
 ## Context

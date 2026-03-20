@@ -75,6 +75,16 @@ tools:
     url: null
   - name: "Conda"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tags:
+  - "agents"
+  - "analytics"
+  - "llm"
+  - "python"
+tagsNormalizedAt: "2026-03-01T21:19:30.344Z"
 ---
 
 The video explores a technical experiment using large language models (LLMs) to conduct a "Bull vs. Bear" debate regarding a specific stock. The primary goal is to demonstrate how a multi-agent AI framework can be used to remove human confirmation bias and provide a more balanced view of financial markets.

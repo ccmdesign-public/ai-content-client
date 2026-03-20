@@ -1,0 +1,1999 @@
+{
+  "videoId": "_mrMidIwCzk",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.43,
+      "duration": 0.009999999999999787,
+      "text": "Imagine if Claude code wasn't just one"
+    },
+    {
+      "start": 2.44,
+      "duration": 2.5900000000000003,
+      "text": "Imagine if Claude code wasn't just one assistant, but an entire team, 20, 30,"
+    },
+    {
+      "start": 5.03,
+      "duration": 0.009999999999999787,
+      "text": "assistant, but an entire team, 20, 30,"
+    },
+    {
+      "start": 5.04,
+      "duration": 2.4699999999999998,
+      "text": "assistant, but an entire team, 20, 30, or even 50 agents working in parallel,"
+    },
+    {
+      "start": 7.51,
+      "duration": 0.009999999999999787,
+      "text": "or even 50 agents working in parallel,"
+    },
+    {
+      "start": 7.52,
+      "duration": 2.5500000000000007,
+      "text": "or even 50 agents working in parallel, shipping features while you watch. This"
+    },
+    {
+      "start": 10.07,
+      "duration": 0.009999999999999787,
+      "text": "shipping features while you watch. This"
+    },
+    {
+      "start": 10.08,
+      "duration": 3.0299999999999994,
+      "text": "shipping features while you watch. This is Gastown. It's not chat with an AI,"
+    },
+    {
+      "start": 13.11,
+      "duration": 0.009999999999999787,
+      "text": "is Gastown. It's not chat with an AI,"
+    },
+    {
+      "start": 13.12,
+      "duration": 2.950000000000001,
+      "text": "is Gastown. It's not chat with an AI, it's a factory. It decomposes features,"
+    },
+    {
+      "start": 16.07,
+      "duration": 0.00999999999999801,
+      "text": "it's a factory. It decomposes features,"
+    },
+    {
+      "start": 16.08,
+      "duration": 2.110000000000003,
+      "text": "it's a factory. It decomposes features, assigns parallel workers, merges code"
+    },
+    {
+      "start": 18.19,
+      "duration": 0.00999999999999801,
+      "text": "assigns parallel workers, merges code"
+    },
+    {
+      "start": 18.2,
+      "duration": 2.0700000000000003,
+      "text": "assigns parallel workers, merges code automatically, persists everything in"
+    },
+    {
+      "start": 20.27,
+      "duration": 0.010000000000001563,
+      "text": "automatically, persists everything in"
+    },
+    {
+      "start": 20.28,
+      "duration": 1.9499999999999993,
+      "text": "automatically, persists everything in get, and keeps running even if it"
+    },
+    {
+      "start": 22.23,
+      "duration": 0.00999999999999801,
+      "text": "get, and keeps running even if it"
+    },
+    {
+      "start": 22.24,
+      "duration": 2.6300000000000026,
+      "text": "get, and keeps running even if it crashes. This could 10x your output or"
+    },
+    {
+      "start": 24.87,
+      "duration": 0.00999999999999801,
+      "text": "crashes. This could 10x your output or"
+    },
+    {
+      "start": 24.88,
+      "duration": 2.4299999999999997,
+      "text": "crashes. This could 10x your output or just cause things to go south. Let's get"
+    },
+    {
+      "start": 27.31,
+      "duration": 0.010000000000001563,
+      "text": "just cause things to go south. Let's get"
+    },
+    {
+      "start": 27.32,
+      "duration": 1.8299999999999983,
+      "text": "just cause things to go south. Let's get into the setup and how this all actually"
+    },
+    {
+      "start": 29.15,
+      "duration": 0.010000000000001563,
+      "text": "into the setup and how this all actually"
+    },
+    {
+      "start": 29.16,
+      "duration": 1.6149999999999984,
+      "text": "into the setup and how this all actually works."
+    },
+    {
+      "start": 30.775,
+      "duration": 0.010000000000001563,
+      "text": "works."
+    },
+    {
+      "start": 30.785,
+      "duration": 4.004999999999999,
+      "text": "works. >> [music]"
+    },
+    {
+      "start": 36.51,
+      "duration": 0.010000000000005116,
+      "text": ">> Now, Gastown is an open-source"
+    },
+    {
+      "start": 36.52,
+      "duration": 2.4299999999999997,
+      "text": ">> Now, Gastown is an open-source orchestrator that turns AI coding agents"
+    },
+    {
+      "start": 38.95,
+      "duration": 0.00999999999999801,
+      "text": "orchestrator that turns AI coding agents"
+    },
+    {
+      "start": 38.96,
+      "duration": 2.5899999999999963,
+      "text": "orchestrator that turns AI coding agents into something closer to Kubernetes for"
+    },
+    {
+      "start": 41.55,
+      "duration": 0.010000000000005116,
+      "text": "into something closer to Kubernetes for"
+    },
+    {
+      "start": 41.56,
+      "duration": 2.989999999999995,
+      "text": "into something closer to Kubernetes for dev workflows. First thing, Gastown is"
+    },
+    {
+      "start": 44.55,
+      "duration": 0.010000000000005116,
+      "text": "dev workflows. First thing, Gastown is"
+    },
+    {
+      "start": 44.56,
+      "duration": 2.549999999999997,
+      "text": "dev workflows. First thing, Gastown is not an AI model, okay? It's it's just an"
+    },
+    {
+      "start": 47.11,
+      "duration": 0.00999999999999801,
+      "text": "not an AI model, okay? It's it's just an"
+    },
+    {
+      "start": 47.12,
+      "duration": 2.5900000000000034,
+      "text": "not an AI model, okay? It's it's just an orchestrator. It sits on top of tools"
+    },
+    {
+      "start": 49.71,
+      "duration": 0.00999999999999801,
+      "text": "orchestrator. It sits on top of tools"
+    },
+    {
+      "start": 49.72,
+      "duration": 1.5900000000000034,
+      "text": "orchestrator. It sits on top of tools like Claude code and turns them into"
+    },
+    {
+      "start": 51.31,
+      "duration": 0.00999999999999801,
+      "text": "like Claude code and turns them into"
+    },
+    {
+      "start": 51.32,
+      "duration": 2.509999999999998,
+      "text": "like Claude code and turns them into coordinated multi-agent systems. You"
+    },
+    {
+      "start": 53.83,
+      "duration": 0.010000000000005116,
+      "text": "coordinated multi-agent systems. You"
+    },
+    {
+      "start": 53.84,
+      "duration": 2.1899999999999977,
+      "text": "coordinated multi-agent systems. You give a high-level goal to what they call"
+    },
+    {
+      "start": 56.03,
+      "duration": 0.00999999999999801,
+      "text": "give a high-level goal to what they call"
+    },
+    {
+      "start": 56.04,
+      "duration": 2.4299999999999997,
+      "text": "give a high-level goal to what they call the mayor, and the mayor breaks that"
+    },
+    {
+      "start": 58.47,
+      "duration": 0.00999999999999801,
+      "text": "the mayor, and the mayor breaks that"
+    },
+    {
+      "start": 58.48,
+      "duration": 2.3900000000000006,
+      "text": "the mayor, and the mayor breaks that goal into structured task units called"
+    },
+    {
+      "start": 60.87,
+      "duration": 0.010000000000005116,
+      "text": "goal into structured task units called"
+    },
+    {
+      "start": 60.88,
+      "duration": 2.6699999999999946,
+      "text": "goal into structured task units called beads. Beads then get grouped into what"
+    },
+    {
+      "start": 63.55,
+      "duration": 0.010000000000005116,
+      "text": "beads. Beads then get grouped into what"
+    },
+    {
+      "start": 63.56,
+      "duration": 2.030000000000001,
+      "text": "beads. Beads then get grouped into what they're referring to as convoys. And"
+    },
+    {
+      "start": 65.59,
+      "duration": 0.009999999999990905,
+      "text": "they're referring to as convoys. And"
+    },
+    {
+      "start": 65.6,
+      "duration": 2.230000000000004,
+      "text": "they're referring to as convoys. And then the worker agents called polecats"
+    },
+    {
+      "start": 67.83,
+      "duration": 0.010000000000005116,
+      "text": "then the worker agents called polecats"
+    },
+    {
+      "start": 67.84,
+      "duration": 2.3499999999999943,
+      "text": "then the worker agents called polecats execute them in parallel. Now, this is"
+    },
+    {
+      "start": 70.19,
+      "duration": 0.010000000000005116,
+      "text": "execute them in parallel. Now, this is"
+    },
+    {
+      "start": 70.2,
+      "duration": 2.069999999999993,
+      "text": "execute them in parallel. Now, this is huge for a few reasons. Everything runs"
+    },
+    {
+      "start": 72.27,
+      "duration": 0.010000000000005116,
+      "text": "huge for a few reasons. Everything runs"
+    },
+    {
+      "start": 72.28,
+      "duration": 2.069999999999993,
+      "text": "huge for a few reasons. Everything runs through get, every agent works on"
+    },
+    {
+      "start": 74.35,
+      "duration": 0.010000000000005116,
+      "text": "through get, every agent works on"
+    },
+    {
+      "start": 74.36,
+      "duration": 3.3100000000000023,
+      "text": "through get, every agent works on branches, merges queues, state is"
+    },
+    {
+      "start": 77.67,
+      "duration": 0.010000000000005116,
+      "text": "branches, merges queues, state is"
+    },
+    {
+      "start": 77.68,
+      "duration": 2.549999999999997,
+      "text": "branches, merges queues, state is persisted. So, if it crashes, you don't"
+    },
+    {
+      "start": 80.23,
+      "duration": 0.009999999999990905,
+      "text": "persisted. So, if it crashes, you don't"
+    },
+    {
+      "start": 80.24,
+      "duration": 1.990000000000009,
+      "text": "persisted. So, if it crashes, you don't need to start all over it. Now, compare"
+    },
+    {
+      "start": 82.23,
+      "duration": 0.009999999999990905,
+      "text": "need to start all over it. Now, compare"
+    },
+    {
+      "start": 82.24,
+      "duration": 1.9100000000000108,
+      "text": "need to start all over it. Now, compare that to a normal vibe coding, right?"
+    },
+    {
+      "start": 84.15,
+      "duration": 0.009999999999990905,
+      "text": "that to a normal vibe coding, right?"
+    },
+    {
+      "start": 84.16,
+      "duration": 2.430000000000007,
+      "text": "that to a normal vibe coding, right? Just AI coding in general. We have one"
+    },
+    {
+      "start": 86.59,
+      "duration": 0.009999999999990905,
+      "text": "Just AI coding in general. We have one"
+    },
+    {
+      "start": 86.6,
+      "duration": 2.430000000000007,
+      "text": "Just AI coding in general. We have one session, linear execution, context"
+    },
+    {
+      "start": 89.03,
+      "duration": 0.010000000000005116,
+      "text": "session, linear execution, context"
+    },
+    {
+      "start": 89.04,
+      "duration": 2.309999999999988,
+      "text": "session, linear execution, context drift, manual orchestration. It's kind"
+    },
+    {
+      "start": 91.35,
+      "duration": 0.010000000000005116,
+      "text": "drift, manual orchestration. It's kind"
+    },
+    {
+      "start": 91.36,
+      "duration": 1.9899999999999949,
+      "text": "drift, manual orchestration. It's kind of a mess. Gastown is basically"
+    },
+    {
+      "start": 93.35,
+      "duration": 0.010000000000005116,
+      "text": "of a mess. Gastown is basically"
+    },
+    {
+      "start": 93.36,
+      "duration": 2.8700000000000045,
+      "text": "of a mess. Gastown is basically horizontal scaling for cognition. And"
+    },
+    {
+      "start": 96.23,
+      "duration": 0.009999999999990905,
+      "text": "horizontal scaling for cognition. And"
+    },
+    {
+      "start": 96.24,
+      "duration": 1.8299999999999983,
+      "text": "horizontal scaling for cognition. And that's a big deal. But the real question"
+    },
+    {
+      "start": 98.07,
+      "duration": 0.010000000000005116,
+      "text": "that's a big deal. But the real question"
+    },
+    {
+      "start": 98.08,
+      "duration": 2.269999999999996,
+      "text": "that's a big deal. But the real question is, does this actually work? If you"
+    },
+    {
+      "start": 100.35,
+      "duration": 0.010000000000005116,
+      "text": "is, does this actually work? If you"
+    },
+    {
+      "start": 100.36,
+      "duration": 1.6700000000000017,
+      "text": "is, does this actually work? If you enjoy this type of content, be sure to"
+    },
+    {
+      "start": 102.03,
+      "duration": 0.010000000000005116,
+      "text": "enjoy this type of content, be sure to"
+    },
+    {
+      "start": 102.04,
+      "duration": 1.789999999999992,
+      "text": "enjoy this type of content, be sure to subscribe. We have videos coming out all"
+    },
+    {
+      "start": 103.83,
+      "duration": 0.010000000000005116,
+      "text": "subscribe. We have videos coming out all"
+    },
+    {
+      "start": 103.84,
+      "duration": 2.4299999999999926,
+      "text": "subscribe. We have videos coming out all the time. Now, let's get in, fired up,"
+    },
+    {
+      "start": 106.27,
+      "duration": 0.010000000000005116,
+      "text": "the time. Now, let's get in, fired up,"
+    },
+    {
+      "start": 106.28,
+      "duration": 2.030000000000001,
+      "text": "the time. Now, let's get in, fired up, and do some tests. All right, so I've"
+    },
+    {
+      "start": 108.31,
+      "duration": 0.009999999999990905,
+      "text": "and do some tests. All right, so I've"
+    },
+    {
+      "start": 108.32,
+      "duration": 2.1100000000000136,
+      "text": "and do some tests. All right, so I've got a simple to-do app running. I found"
+    },
+    {
+      "start": 110.43,
+      "duration": 0.009999999999990905,
+      "text": "got a simple to-do app running. I found"
+    },
+    {
+      "start": 110.44,
+      "duration": 2.8700000000000045,
+      "text": "got a simple to-do app running. I found a super simple go-based one on GitHub. I"
+    },
+    {
+      "start": 113.31,
+      "duration": 0.009999999999990905,
+      "text": "a super simple go-based one on GitHub. I"
+    },
+    {
+      "start": 113.32,
+      "duration": 2.2700000000000102,
+      "text": "a super simple go-based one on GitHub. I chose go cuz Gastown is actually mainly"
+    },
+    {
+      "start": 115.59,
+      "duration": 0.009999999999990905,
+      "text": "chose go cuz Gastown is actually mainly"
+    },
+    {
+      "start": 115.6,
+      "duration": 1.7900000000000063,
+      "text": "chose go cuz Gastown is actually mainly written in go, but"
+    },
+    {
+      "start": 117.39,
+      "duration": 0.010000000000005116,
+      "text": "written in go, but"
+    },
+    {
+      "start": 117.4,
+      "duration": 1.509999999999991,
+      "text": "written in go, but really there's no difference in the"
+    },
+    {
+      "start": 118.91,
+      "duration": 0.010000000000005116,
+      "text": "really there's no difference in the"
+    },
+    {
+      "start": 118.92,
+      "duration": 2.1899999999999977,
+      "text": "really there's no difference in the project you choose. It'll still execute"
+    },
+    {
+      "start": 121.11,
+      "duration": 0.010000000000005116,
+      "text": "project you choose. It'll still execute"
+    },
+    {
+      "start": 121.12,
+      "duration": 2.1899999999999977,
+      "text": "project you choose. It'll still execute like normal. Now, this project, this"
+    },
+    {
+      "start": 123.31,
+      "duration": 0.009999999999990905,
+      "text": "like normal. Now, this project, this"
+    },
+    {
+      "start": 123.32,
+      "duration": 1.7900000000000063,
+      "text": "like normal. Now, this project, this to-do app, there's no auth, it's just a"
+    },
+    {
+      "start": 125.11,
+      "duration": 0.010000000000005116,
+      "text": "to-do app, there's no auth, it's just a"
+    },
+    {
+      "start": 125.12,
+      "duration": 2.1099999999999994,
+      "text": "to-do app, there's no auth, it's just a basic CRUD application. And if you've"
+    },
+    {
+      "start": 127.23,
+      "duration": 0.009999999999990905,
+      "text": "basic CRUD application. And if you've"
+    },
+    {
+      "start": 127.24,
+      "duration": 2.0700000000000074,
+      "text": "basic CRUD application. And if you've ever added auth into an existing app,"
+    },
+    {
+      "start": 129.31,
+      "duration": 0.009999999999990905,
+      "text": "ever added auth into an existing app,"
+    },
+    {
+      "start": 129.32,
+      "duration": 1.8300000000000125,
+      "text": "ever added auth into an existing app, you already know the pain of breaking"
+    },
+    {
+      "start": 131.15,
+      "duration": 0.009999999999990905,
+      "text": "you already know the pain of breaking"
+    },
+    {
+      "start": 131.16,
+      "duration": 2.5500000000000114,
+      "text": "you already know the pain of breaking things. It's never just add login, it's"
+    },
+    {
+      "start": 133.71,
+      "duration": 0.009999999999990905,
+      "text": "things. It's never just add login, it's"
+    },
+    {
+      "start": 133.72,
+      "duration": 1.9099999999999966,
+      "text": "things. It's never just add login, it's database changes, routes, middleware,"
+    },
+    {
+      "start": 135.63,
+      "duration": 0.009999999999990905,
+      "text": "database changes, routes, middleware,"
+    },
+    {
+      "start": 135.64,
+      "duration": 2.910000000000025,
+      "text": "database changes, routes, middleware, forms, tests, Docker, everything. And"
+    },
+    {
+      "start": 138.55,
+      "duration": 0.009999999999990905,
+      "text": "forms, tests, Docker, everything. And"
+    },
+    {
+      "start": 138.56,
+      "duration": 1.3100000000000023,
+      "text": "forms, tests, Docker, everything. And when you're building these apps,"
+    },
+    {
+      "start": 139.87,
+      "duration": 0.009999999999990905,
+      "text": "when you're building these apps,"
+    },
+    {
+      "start": 139.88,
+      "duration": 2.230000000000018,
+      "text": "when you're building these apps, everything is touching everything. The"
+    },
+    {
+      "start": 142.11,
+      "duration": 0.009999999999990905,
+      "text": "everything is touching everything. The"
+    },
+    {
+      "start": 142.12,
+      "duration": 2.3899999999999864,
+      "text": "everything is touching everything. The challenge we are testing is can Gastown"
+    },
+    {
+      "start": 144.51,
+      "duration": 0.010000000000019327,
+      "text": "challenge we are testing is can Gastown"
+    },
+    {
+      "start": 144.52,
+      "duration": 2.269999999999982,
+      "text": "challenge we are testing is can Gastown do that without me micromanaging it."
+    },
+    {
+      "start": 146.79,
+      "duration": 0.010000000000019327,
+      "text": "do that without me micromanaging it."
+    },
+    {
+      "start": 146.8,
+      "duration": 2.3499999999999943,
+      "text": "do that without me micromanaging it. Now, honestly, the setup here was kind"
+    },
+    {
+      "start": 149.15,
+      "duration": 0.009999999999990905,
+      "text": "Now, honestly, the setup here was kind"
+    },
+    {
+      "start": 149.16,
+      "duration": 2.2299999999999898,
+      "text": "Now, honestly, the setup here was kind of a pain. I needed to brew install a"
+    },
+    {
+      "start": 151.39,
+      "duration": 0.010000000000019327,
+      "text": "of a pain. I needed to brew install a"
+    },
+    {
+      "start": 151.4,
+      "duration": 2.109999999999985,
+      "text": "of a pain. I needed to brew install a lot of larger packages. I had to get"
+    },
+    {
+      "start": 153.51,
+      "duration": 0.010000000000019327,
+      "text": "lot of larger packages. I had to get"
+    },
+    {
+      "start": 153.52,
+      "duration": 1.829999999999984,
+      "text": "lot of larger packages. I had to get everything in order, and getting it"
+    },
+    {
+      "start": 155.35,
+      "duration": 0.010000000000019327,
+      "text": "everything in order, and getting it"
+    },
+    {
+      "start": 155.36,
+      "duration": 2.4299999999999784,
+      "text": "everything in order, and getting it running once it was even installed took"
+    },
+    {
+      "start": 157.79,
+      "duration": 0.010000000000019327,
+      "text": "running once it was even installed took"
+    },
+    {
+      "start": 157.8,
+      "duration": 1.8699999999999761,
+      "text": "running once it was even installed took some troubleshooting. It took some time."
+    },
+    {
+      "start": 159.67,
+      "duration": 0.010000000000019327,
+      "text": "some troubleshooting. It took some time."
+    },
+    {
+      "start": 159.68,
+      "duration": 1.829999999999984,
+      "text": "some troubleshooting. It took some time. But once I managed to sync everything,"
+    },
+    {
+      "start": 161.51,
+      "duration": 0.010000000000019327,
+      "text": "But once I managed to sync everything,"
+    },
+    {
+      "start": 161.52,
+      "duration": 2.3899999999999864,
+      "text": "But once I managed to sync everything, it does run really well. Now that it's"
+    },
+    {
+      "start": 163.91,
+      "duration": 0.009999999999990905,
+      "text": "it does run really well. Now that it's"
+    },
+    {
+      "start": 163.92,
+      "duration": 1.910000000000025,
+      "text": "it does run really well. Now that it's running, I attach the mayor and I give"
+    },
+    {
+      "start": 165.83,
+      "duration": 0.009999999999990905,
+      "text": "running, I attach the mayor and I give"
+    },
+    {
+      "start": 165.84,
+      "duration": 1.4300000000000068,
+      "text": "running, I attach the mayor and I give it one prompt. I'm going to say"
+    },
+    {
+      "start": 167.27,
+      "duration": 0.009999999999990905,
+      "text": "it one prompt. I'm going to say"
+    },
+    {
+      "start": 167.28,
+      "duration": 2.6299999999999955,
+      "text": "it one prompt. I'm going to say something like, \"Add JWT auth, use"
+    },
+    {
+      "start": 169.91,
+      "duration": 0.009999999999990905,
+      "text": "something like, \"Add JWT auth, use"
+    },
+    {
+      "start": 169.92,
+      "duration": 2.3100000000000023,
+      "text": "something like, \"Add JWT auth, use SQLite, it's basic, create login and"
+    },
+    {
+      "start": 172.23,
+      "duration": 0.010000000000019327,
+      "text": "SQLite, it's basic, create login and"
+    },
+    {
+      "start": 172.24,
+      "duration": 2.6299999999999955,
+      "text": "SQLite, it's basic, create login and register endpoints, protect routes, add"
+    },
+    {
+      "start": 174.87,
+      "duration": 0.009999999999990905,
+      "text": "register endpoints, protect routes, add"
+    },
+    {
+      "start": 174.88,
+      "duration": 2.1500000000000057,
+      "text": "register endpoints, protect routes, add HTML forms, write tests, add a"
+    },
+    {
+      "start": 177.03,
+      "duration": 0.009999999999990905,
+      "text": "HTML forms, write tests, add a"
+    },
+    {
+      "start": 177.04,
+      "duration": 1.950000000000017,
+      "text": "HTML forms, write tests, add a Dockerfile.\" That's it. That's a lot of"
+    },
+    {
+      "start": 178.99,
+      "duration": 0.009999999999990905,
+      "text": "Dockerfile.\" That's it. That's a lot of"
+    },
+    {
+      "start": 179,
+      "duration": 1.6299999999999955,
+      "text": "Dockerfile.\" That's it. That's a lot of stuff though, right? All these things"
+    },
+    {
+      "start": 180.63,
+      "duration": 0.009999999999990905,
+      "text": "stuff though, right? All these things"
+    },
+    {
+      "start": 180.64,
+      "duration": 2.5900000000000034,
+      "text": "stuff though, right? All these things going on. No step-by-step prompting, and"
+    },
+    {
+      "start": 183.23,
+      "duration": 0.010000000000019327,
+      "text": "going on. No step-by-step prompting, and"
+    },
+    {
+      "start": 183.24,
+      "duration": 2.469999999999999,
+      "text": "going on. No step-by-step prompting, and let's watch what actually happens here."
+    },
+    {
+      "start": 185.71,
+      "duration": 0.009999999999990905,
+      "text": "let's watch what actually happens here."
+    },
+    {
+      "start": 185.72,
+      "duration": 3.469999999999999,
+      "text": "let's watch what actually happens here. The mayor now decomposes these features"
+    },
+    {
+      "start": 189.19,
+      "duration": 0.009999999999990905,
+      "text": "The mayor now decomposes these features"
+    },
+    {
+      "start": 189.2,
+      "duration": 2.390000000000015,
+      "text": "The mayor now decomposes these features automatically. Database schema,"
+    },
+    {
+      "start": 191.59,
+      "duration": 0.009999999999990905,
+      "text": "automatically. Database schema,"
+    },
+    {
+      "start": 191.6,
+      "duration": 2.1100000000000136,
+      "text": "automatically. Database schema, middleware, auth endpoints, front-end"
+    },
+    {
+      "start": 193.71,
+      "duration": 0.009999999999990905,
+      "text": "middleware, auth endpoints, front-end"
+    },
+    {
+      "start": 193.72,
+      "duration": 3.469999999999999,
+      "text": "middleware, auth endpoints, front-end forms, tests. Those become separate"
+    },
+    {
+      "start": 197.19,
+      "duration": 0.009999999999990905,
+      "text": "forms, tests. Those become separate"
+    },
+    {
+      "start": 197.2,
+      "duration": 2.2700000000000102,
+      "text": "forms, tests. Those become separate beads, and remember, a bead is kind of"
+    },
+    {
+      "start": 199.47,
+      "duration": 0.009999999999990905,
+      "text": "beads, and remember, a bead is kind of"
+    },
+    {
+      "start": 199.48,
+      "duration": 2.3100000000000023,
+      "text": "beads, and remember, a bead is kind of like one of these workers. And now look,"
+    },
+    {
+      "start": 201.79,
+      "duration": 0.010000000000019327,
+      "text": "like one of these workers. And now look,"
+    },
+    {
+      "start": 201.8,
+      "duration": 3.469999999999999,
+      "text": "like one of these workers. And now look, all these polecats are now swarming. One"
+    },
+    {
+      "start": 205.27,
+      "duration": 0.009999999999990905,
+      "text": "all these polecats are now swarming. One"
+    },
+    {
+      "start": 205.28,
+      "duration": 2.990000000000009,
+      "text": "all these polecats are now swarming. One agent creates the SQLite schema, one's"
+    },
+    {
+      "start": 208.27,
+      "duration": 0.009999999999990905,
+      "text": "agent creates the SQLite schema, one's"
+    },
+    {
+      "start": 208.28,
+      "duration": 2.509999999999991,
+      "text": "agent creates the SQLite schema, one's going to write the JWT middleware, one"
+    },
+    {
+      "start": 210.79,
+      "duration": 0.010000000000019327,
+      "text": "going to write the JWT middleware, one"
+    },
+    {
+      "start": 210.8,
+      "duration": 2.509999999999991,
+      "text": "going to write the JWT middleware, one builds login and register routes,"
+    },
+    {
+      "start": 213.31,
+      "duration": 0.009999999999990905,
+      "text": "builds login and register routes,"
+    },
+    {
+      "start": 213.32,
+      "duration": 2.1899999999999977,
+      "text": "builds login and register routes, another updates the UI forms, and then"
+    },
+    {
+      "start": 215.51,
+      "duration": 0.010000000000019327,
+      "text": "another updates the UI forms, and then"
+    },
+    {
+      "start": 215.52,
+      "duration": 1.9099999999999966,
+      "text": "another updates the UI forms, and then one writes integration tests, our"
+    },
+    {
+      "start": 217.43,
+      "duration": 0.009999999999990905,
+      "text": "one writes integration tests, our"
+    },
+    {
+      "start": 217.44,
+      "duration": 2.2299999999999898,
+      "text": "one writes integration tests, our Docker. All this is happening at the"
+    },
+    {
+      "start": 219.67,
+      "duration": 0.010000000000019327,
+      "text": "Docker. All this is happening at the"
+    },
+    {
+      "start": 219.68,
+      "duration": 2.269999999999982,
+      "text": "Docker. All this is happening at the same time. And here's really the big"
+    },
+    {
+      "start": 221.95,
+      "duration": 0.010000000000019327,
+      "text": "same time. And here's really the big"
+    },
+    {
+      "start": 221.96,
+      "duration": 2.269999999999982,
+      "text": "same time. And here's really the big contrast. If you were using Claude code"
+    },
+    {
+      "start": 224.23,
+      "duration": 0.010000000000019327,
+      "text": "contrast. If you were using Claude code"
+    },
+    {
+      "start": 224.24,
+      "duration": 2.549999999999983,
+      "text": "contrast. If you were using Claude code alone, you would do this sequentially."
+    },
+    {
+      "start": 226.79,
+      "duration": 0.010000000000019327,
+      "text": "alone, you would do this sequentially."
+    },
+    {
+      "start": 226.8,
+      "duration": 2.2299999999999898,
+      "text": "alone, you would do this sequentially. You'd prompt, wait, fix, re-prompt,"
+    },
+    {
+      "start": 229.03,
+      "duration": 0.009999999999990905,
+      "text": "You'd prompt, wait, fix, re-prompt,"
+    },
+    {
+      "start": 229.04,
+      "duration": 2.5100000000000193,
+      "text": "You'd prompt, wait, fix, re-prompt, re-explain context over and over again,"
+    },
+    {
+      "start": 231.55,
+      "duration": 0.009999999999990905,
+      "text": "re-explain context over and over again,"
+    },
+    {
+      "start": 231.56,
+      "duration": 2.509999999999991,
+      "text": "re-explain context over and over again, right? That's kind of how these code"
+    },
+    {
+      "start": 234.07,
+      "duration": 0.010000000000019327,
+      "text": "right? That's kind of how these code"
+    },
+    {
+      "start": 234.08,
+      "duration": 2.469999999999999,
+      "text": "right? That's kind of how these code agents work. But here, get branches"
+    },
+    {
+      "start": 236.55,
+      "duration": 0.009999999999990905,
+      "text": "agents work. But here, get branches"
+    },
+    {
+      "start": 236.56,
+      "duration": 2.430000000000007,
+      "text": "agents work. But here, get branches isolate the work, merges are queued,"
+    },
+    {
+      "start": 238.99,
+      "duration": 0.009999999999990905,
+      "text": "isolate the work, merges are queued,"
+    },
+    {
+      "start": 239,
+      "duration": 2.509999999999991,
+      "text": "isolate the work, merges are queued, state is tracked. So, instead of you"
+    },
+    {
+      "start": 241.51,
+      "duration": 0.010000000000019327,
+      "text": "state is tracked. So, instead of you"
+    },
+    {
+      "start": 241.52,
+      "duration": 1.9099999999999966,
+      "text": "state is tracked. So, instead of you holding the whole plan in your head, the"
+    },
+    {
+      "start": 243.43,
+      "duration": 0.009999999999990905,
+      "text": "holding the whole plan in your head, the"
+    },
+    {
+      "start": 243.44,
+      "duration": 2.509999999999991,
+      "text": "holding the whole plan in your head, the system actually holds it. And if this"
+    },
+    {
+      "start": 245.95,
+      "duration": 0.010000000000019327,
+      "text": "system actually holds it. And if this"
+    },
+    {
+      "start": 245.96,
+      "duration": 2.269999999999982,
+      "text": "system actually holds it. And if this crashes halfway through, that's okay,"
+    },
+    {
+      "start": 248.23,
+      "duration": 0.010000000000019327,
+      "text": "crashes halfway through, that's okay,"
+    },
+    {
+      "start": 248.24,
+      "duration": 2.3100000000000023,
+      "text": "crashes halfway through, that's okay, actually. You resume from persistent"
+    },
+    {
+      "start": 250.55,
+      "duration": 0.009999999999990905,
+      "text": "actually. You resume from persistent"
+    },
+    {
+      "start": 250.56,
+      "duration": 2.3100000000000023,
+      "text": "actually. You resume from persistent state at a later point automatically."
+    },
+    {
+      "start": 252.87,
+      "duration": 0.009999999999990905,
+      "text": "state at a later point automatically."
+    },
+    {
+      "start": 252.88,
+      "duration": 2.469999999999999,
+      "text": "state at a later point automatically. Now, the moment of truth here. I forked"
+    },
+    {
+      "start": 255.35,
+      "duration": 0.010000000000019327,
+      "text": "Now, the moment of truth here. I forked"
+    },
+    {
+      "start": 255.36,
+      "duration": 2.1100000000000136,
+      "text": "Now, the moment of truth here. I forked this into a repo, so now I want to go"
+    },
+    {
+      "start": 257.47,
+      "duration": 0.009999999999990905,
+      "text": "this into a repo, so now I want to go"
+    },
+    {
+      "start": 257.48,
+      "duration": 1.5889999999999986,
+      "text": "this into a repo, so now I want to go through and look at all the changes that"
+    },
+    {
+      "start": 259.069,
+      "duration": 0.009999999999990905,
+      "text": "through and look at all the changes that"
+    },
+    {
+      "start": 259.079,
+      "duration": 2.269999999999982,
+      "text": "through and look at all the changes that made and added right here just on my"
+    },
+    {
+      "start": 261.349,
+      "duration": 0.009999999999990905,
+      "text": "made and added right here just on my"
+    },
+    {
+      "start": 261.359,
+      "duration": 2.271000000000015,
+      "text": "made and added right here just on my GitHub. We can see all the old code, but"
+    },
+    {
+      "start": 263.63,
+      "duration": 0.009999999999990905,
+      "text": "GitHub. We can see all the old code, but"
+    },
+    {
+      "start": 263.64,
+      "duration": 1.5900000000000318,
+      "text": "GitHub. We can see all the old code, but then everything else here was edited."
+    },
+    {
+      "start": 265.23,
+      "duration": 0.009999999999990905,
+      "text": "then everything else here was edited."
+    },
+    {
+      "start": 265.24,
+      "duration": 3.3899999999999864,
+      "text": "then everything else here was edited. So, register, login, token issued,"
+    },
+    {
+      "start": 268.63,
+      "duration": 0.009999999999990905,
+      "text": "So, register, login, token issued,"
+    },
+    {
+      "start": 268.64,
+      "duration": 3.3100000000000023,
+      "text": "So, register, login, token issued, protected root works, tests pass, all"
+    },
+    {
+      "start": 271.95,
+      "duration": 0.009999999999990905,
+      "text": "protected root works, tests pass, all"
+    },
+    {
+      "start": 271.96,
+      "duration": 2.069999999999993,
+      "text": "protected root works, tests pass, all this stuff. This is what was added in"
+    },
+    {
+      "start": 274.03,
+      "duration": 0.010000000000047748,
+      "text": "this stuff. This is what was added in"
+    },
+    {
+      "start": 274.04,
+      "duration": 2.5499999999999545,
+      "text": "this stuff. This is what was added in through Gastown. That entire feature"
+    },
+    {
+      "start": 276.59,
+      "duration": 0.010000000000047748,
+      "text": "through Gastown. That entire feature"
+    },
+    {
+      "start": 276.6,
+      "duration": 2.1899999999999977,
+      "text": "through Gastown. That entire feature decomposed and implemented in just a few"
+    },
+    {
+      "start": 278.79,
+      "duration": 0.009999999999990905,
+      "text": "decomposed and implemented in just a few"
+    },
+    {
+      "start": 278.8,
+      "duration": 1.5500000000000114,
+      "text": "decomposed and implemented in just a few minutes. And that's the point. The"
+    },
+    {
+      "start": 280.35,
+      "duration": 0.009999999999990905,
+      "text": "minutes. And that's the point. The"
+    },
+    {
+      "start": 280.36,
+      "duration": 2.4699999999999704,
+      "text": "minutes. And that's the point. The difference isn't just speed, it's"
+    },
+    {
+      "start": 282.83,
+      "duration": 0.009999999999990905,
+      "text": "difference isn't just speed, it's"
+    },
+    {
+      "start": 282.84,
+      "duration": 2.5100000000000477,
+      "text": "difference isn't just speed, it's cognitive offloading. We are no longer"
+    },
+    {
+      "start": 285.35,
+      "duration": 0.009999999999990905,
+      "text": "cognitive offloading. We are no longer"
+    },
+    {
+      "start": 285.36,
+      "duration": 2.1899999999999977,
+      "text": "cognitive offloading. We are no longer managing every little AI step, but that"
+    },
+    {
+      "start": 287.55,
+      "duration": 0.009999999999990905,
+      "text": "managing every little AI step, but that"
+    },
+    {
+      "start": 287.56,
+      "duration": 2.1100000000000136,
+      "text": "managing every little AI step, but that doesn't mean it's automatically a win."
+    },
+    {
+      "start": 289.67,
+      "duration": 0.009999999999990905,
+      "text": "doesn't mean it's automatically a win."
+    },
+    {
+      "start": 289.68,
+      "duration": 1.9099999999999682,
+      "text": "doesn't mean it's automatically a win. Because running this could be another"
+    },
+    {
+      "start": 291.59,
+      "duration": 0.010000000000047748,
+      "text": "Because running this could be another"
+    },
+    {
+      "start": 291.6,
+      "duration": 1.8700000000000045,
+      "text": "Because running this could be another story. Now, let me run this real quick."
+    },
+    {
+      "start": 293.47,
+      "duration": 0.009999999999990905,
+      "text": "story. Now, let me run this real quick."
+    },
+    {
+      "start": 293.48,
+      "duration": 1.589999999999975,
+      "text": "story. Now, let me run this real quick. Let's kind of see what we get and what"
+    },
+    {
+      "start": 295.07,
+      "duration": 0.009999999999990905,
+      "text": "Let's kind of see what we get and what"
+    },
+    {
+      "start": 295.08,
+      "duration": 1.7100000000000364,
+      "text": "Let's kind of see what we get and what we're working with here. So, I mean, all"
+    },
+    {
+      "start": 296.79,
+      "duration": 0.009999999999990905,
+      "text": "we're working with here. So, I mean, all"
+    },
+    {
+      "start": 296.8,
+      "duration": 1.349999999999966,
+      "text": "we're working with here. So, I mean, all in all, this is what it looks like. It's"
+    },
+    {
+      "start": 298.15,
+      "duration": 0.010000000000047748,
+      "text": "in all, this is what it looks like. It's"
+    },
+    {
+      "start": 298.16,
+      "duration": 2.1499999999999773,
+      "text": "in all, this is what it looks like. It's not too bad, super basic app, and you"
+    },
+    {
+      "start": 300.31,
+      "duration": 0.009999999999990905,
+      "text": "not too bad, super basic app, and you"
+    },
+    {
+      "start": 300.32,
+      "duration": 1.829999999999984,
+      "text": "not too bad, super basic app, and you can see that I can log in here, create"
+    },
+    {
+      "start": 302.15,
+      "duration": 0.010000000000047748,
+      "text": "can see that I can log in here, create"
+    },
+    {
+      "start": 302.16,
+      "duration": 1.669999999999959,
+      "text": "can see that I can log in here, create an account. The to-do list still"
+    },
+    {
+      "start": 303.83,
+      "duration": 0.009999999999990905,
+      "text": "an account. The to-do list still"
+    },
+    {
+      "start": 303.84,
+      "duration": 1.4300000000000068,
+      "text": "an account. The to-do list still functions, it didn't really change"
+    },
+    {
+      "start": 305.27,
+      "duration": 0.009999999999990905,
+      "text": "functions, it didn't really change"
+    },
+    {
+      "start": 305.28,
+      "duration": 1.9500000000000455,
+      "text": "functions, it didn't really change anything with that. It added our routes,"
+    },
+    {
+      "start": 307.23,
+      "duration": 0.009999999999990905,
+      "text": "anything with that. It added our routes,"
+    },
+    {
+      "start": 307.24,
+      "duration": 1.990000000000009,
+      "text": "anything with that. It added our routes, the Dockerfiles, all that extra stuff"
+    },
+    {
+      "start": 309.23,
+      "duration": 0.009999999999990905,
+      "text": "the Dockerfiles, all that extra stuff"
+    },
+    {
+      "start": 309.24,
+      "duration": 2.670000000000016,
+      "text": "the Dockerfiles, all that extra stuff with JWT authentication. So, it did"
+    },
+    {
+      "start": 311.91,
+      "duration": 0.009999999999990905,
+      "text": "with JWT authentication. So, it did"
+    },
+    {
+      "start": 311.92,
+      "duration": 1.9499999999999886,
+      "text": "with JWT authentication. So, it did really good here. On a larger scale app,"
+    },
+    {
+      "start": 313.87,
+      "duration": 0.009999999999990905,
+      "text": "really good here. On a larger scale app,"
+    },
+    {
+      "start": 313.88,
+      "duration": 1.670000000000016,
+      "text": "really good here. On a larger scale app, I would love to see how this run, but"
+    },
+    {
+      "start": 315.55,
+      "duration": 0.009999999999990905,
+      "text": "I would love to see how this run, but"
+    },
+    {
+      "start": 315.56,
+      "duration": 1.4300000000000068,
+      "text": "I would love to see how this run, but this really ate through a lot of my"
+    },
+    {
+      "start": 316.99,
+      "duration": 0.009999999999990905,
+      "text": "this really ate through a lot of my"
+    },
+    {
+      "start": 317,
+      "duration": 2.6299999999999955,
+      "text": "this really ate through a lot of my tokens. Speaking of that, all right."
+    },
+    {
+      "start": 319.63,
+      "duration": 0.009999999999990905,
+      "text": "tokens. Speaking of that, all right."
+    },
+    {
+      "start": 319.64,
+      "duration": 2.3100000000000023,
+      "text": "tokens. Speaking of that, all right. Now, let's talk the tradeoffs. So, pros"
+    },
+    {
+      "start": 321.95,
+      "duration": 0.009999999999990905,
+      "text": "Now, let's talk the tradeoffs. So, pros"
+    },
+    {
+      "start": 321.96,
+      "duration": 2.2700000000000387,
+      "text": "Now, let's talk the tradeoffs. So, pros and cons, right? First, the pros."
+    },
+    {
+      "start": 324.23,
+      "duration": 0.009999999999990905,
+      "text": "and cons, right? First, the pros."
+    },
+    {
+      "start": 324.24,
+      "duration": 2.1100000000000136,
+      "text": "and cons, right? First, the pros. Scalability, right? This was really"
+    },
+    {
+      "start": 326.35,
+      "duration": 0.009999999999990905,
+      "text": "Scalability, right? This was really"
+    },
+    {
+      "start": 326.36,
+      "duration": 2.1100000000000136,
+      "text": "Scalability, right? This was really cool. You can have 20 to 30 agents"
+    },
+    {
+      "start": 328.47,
+      "duration": 0.009999999999990905,
+      "text": "cool. You can have 20 to 30 agents"
+    },
+    {
+      "start": 328.48,
+      "duration": 2.5499999999999545,
+      "text": "cool. You can have 20 to 30 agents working at the same time. That means"
+    },
+    {
+      "start": 331.03,
+      "duration": 0.010000000000047748,
+      "text": "working at the same time. That means"
+    },
+    {
+      "start": 331.04,
+      "duration": 2.109999999999957,
+      "text": "working at the same time. That means massive output on big features, the kind"
+    },
+    {
+      "start": 333.15,
+      "duration": 0.010000000000047748,
+      "text": "massive output on big features, the kind"
+    },
+    {
+      "start": 333.16,
+      "duration": 2.4699999999999704,
+      "text": "massive output on big features, the kind where one person gets buried in tasks"
+    },
+    {
+      "start": 335.63,
+      "duration": 0.009999999999990905,
+      "text": "where one person gets buried in tasks"
+    },
+    {
+      "start": 335.64,
+      "duration": 2.3899999999999864,
+      "text": "where one person gets buried in tasks and interdependencies. Second, another"
+    },
+    {
+      "start": 338.03,
+      "duration": 0.010000000000047748,
+      "text": "and interdependencies. Second, another"
+    },
+    {
+      "start": 338.04,
+      "duration": 1.4699999999999704,
+      "text": "and interdependencies. Second, another really cool feature here is the get"
+    },
+    {
+      "start": 339.51,
+      "duration": 0.009999999999990905,
+      "text": "really cool feature here is the get"
+    },
+    {
+      "start": 339.52,
+      "duration": 2.9500000000000455,
+      "text": "really cool feature here is the get persistence. No more fragile AI sessions"
+    },
+    {
+      "start": 342.47,
+      "duration": 0.009999999999990905,
+      "text": "persistence. No more fragile AI sessions"
+    },
+    {
+      "start": 342.48,
+      "duration": 1.7099999999999795,
+      "text": "persistence. No more fragile AI sessions where everything vanishes if something"
+    },
+    {
+      "start": 344.19,
+      "duration": 0.009999999999990905,
+      "text": "where everything vanishes if something"
+    },
+    {
+      "start": 344.2,
+      "duration": 1.8700000000000045,
+      "text": "where everything vanishes if something crashes and we have to pick back up,"
+    },
+    {
+      "start": 346.07,
+      "duration": 0.009999999999990905,
+      "text": "crashes and we have to pick back up,"
+    },
+    {
+      "start": 346.08,
+      "duration": 1.4300000000000068,
+      "text": "crashes and we have to pick back up, right? Those are really, really cool"
+    },
+    {
+      "start": 347.51,
+      "duration": 0.009999999999990905,
+      "text": "right? Those are really, really cool"
+    },
+    {
+      "start": 347.52,
+      "duration": 1.7900000000000205,
+      "text": "right? Those are really, really cool things. But now, the cons here, cuz this"
+    },
+    {
+      "start": 349.31,
+      "duration": 0.009999999999990905,
+      "text": "things. But now, the cons here, cuz this"
+    },
+    {
+      "start": 349.32,
+      "duration": 1.5900000000000318,
+      "text": "things. But now, the cons here, cuz this is where people get surprised. I was"
+    },
+    {
+      "start": 350.91,
+      "duration": 0.009999999999990905,
+      "text": "is where people get surprised. I was"
+    },
+    {
+      "start": 350.92,
+      "duration": 1.589999999999975,
+      "text": "is where people get surprised. I was also surprised at some of these things,"
+    },
+    {
+      "start": 352.51,
+      "duration": 0.009999999999990905,
+      "text": "also surprised at some of these things,"
+    },
+    {
+      "start": 352.52,
+      "duration": 1.4700000000000273,
+      "text": "also surprised at some of these things, but they make sense."
+    },
+    {
+      "start": 353.99,
+      "duration": 0.009999999999990905,
+      "text": "but they make sense."
+    },
+    {
+      "start": 354,
+      "duration": 1.829999999999984,
+      "text": "but they make sense. Oversight fatigue, because yeah, the"
+    },
+    {
+      "start": 355.83,
+      "duration": 0.009999999999990905,
+      "text": "Oversight fatigue, because yeah, the"
+    },
+    {
+      "start": 355.84,
+      "duration": 2.6300000000000523,
+      "text": "Oversight fatigue, because yeah, the system is producing a ton, but you're"
+    },
+    {
+      "start": 358.47,
+      "duration": 0.009999999999990905,
+      "text": "system is producing a ton, but you're"
+    },
+    {
+      "start": 358.48,
+      "duration": 2.9499999999999886,
+      "text": "system is producing a ton, but you're also now reviewing a ton. It can be"
+    },
+    {
+      "start": 361.43,
+      "duration": 0.009999999999990905,
+      "text": "also now reviewing a ton. It can be"
+    },
+    {
+      "start": 361.44,
+      "duration": 1.7099999999999795,
+      "text": "also now reviewing a ton. It can be super productive, but it's also going to"
+    },
+    {
+      "start": 363.15,
+      "duration": 0.010000000000047748,
+      "text": "super productive, but it's also going to"
+    },
+    {
+      "start": 363.16,
+      "duration": 1.7099999999999795,
+      "text": "super productive, but it's also going to be super draining. Then we have the"
+    },
+    {
+      "start": 364.87,
+      "duration": 0.009999999999990905,
+      "text": "be super draining. Then we have the"
+    },
+    {
+      "start": 364.88,
+      "duration": 2.4700000000000273,
+      "text": "be super draining. Then we have the cost. Heavy usage can get expensive"
+    },
+    {
+      "start": 367.35,
+      "duration": 0.009999999999990905,
+      "text": "cost. Heavy usage can get expensive"
+    },
+    {
+      "start": 367.36,
+      "duration": 1.829999999999984,
+      "text": "cost. Heavy usage can get expensive fast. We're not just running one agent,"
+    },
+    {
+      "start": 369.19,
+      "duration": 0.009999999999990905,
+      "text": "fast. We're not just running one agent,"
+    },
+    {
+      "start": 369.2,
+      "duration": 1.3899999999999864,
+      "text": "fast. We're not just running one agent, we're running all these agents in"
+    },
+    {
+      "start": 370.59,
+      "duration": 0.010000000000047748,
+      "text": "we're running all these agents in"
+    },
+    {
+      "start": 370.6,
+      "duration": 1.7099999999999795,
+      "text": "we're running all these agents in parallel. I'll let you do the math on"
+    },
+    {
+      "start": 372.31,
+      "duration": 0.009999999999990905,
+      "text": "parallel. I'll let you do the math on"
+    },
+    {
+      "start": 372.32,
+      "duration": 1.910000000000025,
+      "text": "parallel. I'll let you do the math on that. Agents can still conflict, they"
+    },
+    {
+      "start": 374.23,
+      "duration": 0.009999999999990905,
+      "text": "that. Agents can still conflict, they"
+    },
+    {
+      "start": 374.24,
+      "duration": 1.9099999999999682,
+      "text": "that. Agents can still conflict, they can over-engineer, they can absolutely"
+    },
+    {
+      "start": 376.15,
+      "duration": 0.010000000000047748,
+      "text": "can over-engineer, they can absolutely"
+    },
+    {
+      "start": 376.16,
+      "duration": 1.7099999999999795,
+      "text": "can over-engineer, they can absolutely wreck your repo, cuz it's giving them"
+    },
+    {
+      "start": 377.87,
+      "duration": 0.009999999999990905,
+      "text": "wreck your repo, cuz it's giving them"
+    },
+    {
+      "start": 377.88,
+      "duration": 2.1499999999999773,
+      "text": "wreck your repo, cuz it's giving them full reins on everything. This isn't"
+    },
+    {
+      "start": 380.03,
+      "duration": 0.010000000000047748,
+      "text": "full reins on everything. This isn't"
+    },
+    {
+      "start": 380.04,
+      "duration": 1.9099999999999682,
+      "text": "full reins on everything. This isn't just plug and play, which leads to the"
+    },
+    {
+      "start": 381.95,
+      "duration": 0.009999999999990905,
+      "text": "just plug and play, which leads to the"
+    },
+    {
+      "start": 381.96,
+      "duration": 1.910000000000025,
+      "text": "just plug and play, which leads to the real question. Would you actually want"
+    },
+    {
+      "start": 383.87,
+      "duration": 0.009999999999990905,
+      "text": "real question. Would you actually want"
+    },
+    {
+      "start": 383.88,
+      "duration": 2.1899999999999977,
+      "text": "real question. Would you actually want to live like this, using something like"
+    },
+    {
+      "start": 386.07,
+      "duration": 0.009999999999990905,
+      "text": "to live like this, using something like"
+    },
+    {
+      "start": 386.08,
+      "duration": 1.990000000000009,
+      "text": "to live like this, using something like this in your workflow, or is it almost"
+    },
+    {
+      "start": 388.07,
+      "duration": 0.009999999999990905,
+      "text": "this in your workflow, or is it almost"
+    },
+    {
+      "start": 388.08,
+      "duration": 2.430000000000007,
+      "text": "this in your workflow, or is it almost too much? Yes, you can choose other"
+    },
+    {
+      "start": 390.51,
+      "duration": 0.009999999999990905,
+      "text": "too much? Yes, you can choose other"
+    },
+    {
+      "start": 390.52,
+      "duration": 1.7900000000000205,
+      "text": "too much? Yes, you can choose other providers, too, but the choice is yours."
+    },
+    {
+      "start": 392.31,
+      "duration": 0.009999999999990905,
+      "text": "providers, too, but the choice is yours."
+    },
+    {
+      "start": 392.32,
+      "duration": 2.670000000000016,
+      "text": "providers, too, but the choice is yours. Claude, OpenAI, okay. So, yeah, this is"
+    },
+    {
+      "start": 394.99,
+      "duration": 0.009999999999990905,
+      "text": "Claude, OpenAI, okay. So, yeah, this is"
+    },
+    {
+      "start": 395,
+      "duration": 1.990000000000009,
+      "text": "Claude, OpenAI, okay. So, yeah, this is an early-stage tool, but it's pointing"
+    },
+    {
+      "start": 396.99,
+      "duration": 0.009999999999990905,
+      "text": "an early-stage tool, but it's pointing"
+    },
+    {
+      "start": 397,
+      "duration": 1.3100000000000023,
+      "text": "an early-stage tool, but it's pointing towards something so much bigger,"
+    },
+    {
+      "start": 398.31,
+      "duration": 0.009999999999990905,
+      "text": "towards something so much bigger,"
+    },
+    {
+      "start": 398.32,
+      "duration": 3.0300000000000296,
+      "text": "towards something so much bigger, because the direction is clear that this"
+    },
+    {
+      "start": 401.35,
+      "duration": 0.009999999999990905,
+      "text": "because the direction is clear that this"
+    },
+    {
+      "start": 401.36,
+      "duration": 2.669999999999959,
+      "text": "because the direction is clear that this isn't AI helps you code, this is AI"
+    },
+    {
+      "start": 404.03,
+      "duration": 0.010000000000047748,
+      "text": "isn't AI helps you code, this is AI"
+    },
+    {
+      "start": 404.04,
+      "duration": 2.3899999999999864,
+      "text": "isn't AI helps you code, this is AI changes the workflow with all these"
+    },
+    {
+      "start": 406.43,
+      "duration": 0.009999999999990905,
+      "text": "changes the workflow with all these"
+    },
+    {
+      "start": 406.44,
+      "duration": 2.3500000000000227,
+      "text": "changes the workflow with all these agents running in parallel. So, Gastown"
+    },
+    {
+      "start": 408.79,
+      "duration": 0.009999999999990905,
+      "text": "agents running in parallel. So, Gastown"
+    },
+    {
+      "start": 408.8,
+      "duration": 3.1100000000000136,
+      "text": "agents running in parallel. So, Gastown represents this shift from AI assistant"
+    },
+    {
+      "start": 411.91,
+      "duration": 0.009999999999990905,
+      "text": "represents this shift from AI assistant"
+    },
+    {
+      "start": 411.92,
+      "duration": 1.9499999999999886,
+      "text": "represents this shift from AI assistant to lots of agents now working together."
+    },
+    {
+      "start": 413.87,
+      "duration": 0.009999999999990905,
+      "text": "to lots of agents now working together."
+    },
+    {
+      "start": 413.88,
+      "duration": 2.590000000000032,
+      "text": "to lots of agents now working together. This changes our leverage, because now"
+    },
+    {
+      "start": 416.47,
+      "duration": 0.009999999999990905,
+      "text": "This changes our leverage, because now"
+    },
+    {
+      "start": 416.48,
+      "duration": 2.4699999999999704,
+      "text": "This changes our leverage, because now you can orchestrate back-end, front-end,"
+    },
+    {
+      "start": 418.95,
+      "duration": 0.009999999999990905,
+      "text": "you can orchestrate back-end, front-end,"
+    },
+    {
+      "start": 418.96,
+      "duration": 2.8700000000000045,
+      "text": "you can orchestrate back-end, front-end, tests, Docker, and infrastructure all at"
+    },
+    {
+      "start": 421.83,
+      "duration": 0.009999999999990905,
+      "text": "tests, Docker, and infrastructure all at"
+    },
+    {
+      "start": 421.84,
+      "duration": 2.0300000000000296,
+      "text": "tests, Docker, and infrastructure all at the same time. This could make you"
+    },
+    {
+      "start": 423.87,
+      "duration": 0.009999999999990905,
+      "text": "the same time. This could make you"
+    },
+    {
+      "start": 423.88,
+      "duration": 2.6299999999999955,
+      "text": "the same time. This could make you dramatically more productive, or it"
+    },
+    {
+      "start": 426.51,
+      "duration": 0.009999999999990905,
+      "text": "dramatically more productive, or it"
+    },
+    {
+      "start": 426.52,
+      "duration": 1.5900000000000318,
+      "text": "dramatically more productive, or it could redefine what development even"
+    },
+    {
+      "start": 428.11,
+      "duration": 0.009999999999990905,
+      "text": "could redefine what development even"
+    },
+    {
+      "start": 428.12,
+      "duration": 1.9499999999999886,
+      "text": "could redefine what development even means. The question isn't whether"
+    },
+    {
+      "start": 430.07,
+      "duration": 0.009999999999990905,
+      "text": "means. The question isn't whether"
+    },
+    {
+      "start": 430.08,
+      "duration": 2.0300000000000296,
+      "text": "means. The question isn't whether multi-agent systems are coming, they're"
+    },
+    {
+      "start": 432.11,
+      "duration": 0.009999999999990905,
+      "text": "multi-agent systems are coming, they're"
+    },
+    {
+      "start": 432.12,
+      "duration": 2.430000000000007,
+      "text": "multi-agent systems are coming, they're here, right? This is an example of that."
+    },
+    {
+      "start": 434.55,
+      "duration": 0.009999999999990905,
+      "text": "here, right? This is an example of that."
+    },
+    {
+      "start": 434.56,
+      "duration": 2.269999999999982,
+      "text": "here, right? This is an example of that. The question now becomes, are you going"
+    },
+    {
+      "start": 436.83,
+      "duration": 0.009999999999990905,
+      "text": "The question now becomes, are you going"
+    },
+    {
+      "start": 436.84,
+      "duration": 2.430000000000007,
+      "text": "The question now becomes, are you going to experiment with it now or later,"
+    },
+    {
+      "start": 439.27,
+      "duration": 0.009999999999990905,
+      "text": "to experiment with it now or later,"
+    },
+    {
+      "start": 439.28,
+      "duration": 2.150000000000034,
+      "text": "to experiment with it now or later, because who knows? They're coming."
+    },
+    {
+      "start": 441.43,
+      "duration": 0.009999999999990905,
+      "text": "because who knows? They're coming."
+    },
+    {
+      "start": 441.44,
+      "duration": 1.670000000000016,
+      "text": "because who knows? They're coming. Subscribe for more tools and tips and"
+    },
+    {
+      "start": 443.11,
+      "duration": 0.009999999999990905,
+      "text": "Subscribe for more tools and tips and"
+    },
+    {
+      "start": 443.12,
+      "duration": 2.269999999999982,
+      "text": "Subscribe for more tools and tips and the tools reshaping dev workflows. We'll"
+    },
+    {
+      "start": 445.39,
+      "duration": 0.009999999999990905,
+      "text": "the tools reshaping dev workflows. We'll"
+    },
+    {
+      "start": 445.4,
+      "duration": 3.640000000000043,
+      "text": "the tools reshaping dev workflows. We'll see you in another video."
+    }
+  ],
+  "fullText": "Imagine if Claude code wasn't just one Imagine if Claude code wasn't just one assistant, but an entire team, 20, 30, assistant, but an entire team, 20, 30, assistant, but an entire team, 20, 30, or even 50 agents working in parallel, or even 50 agents working in parallel, or even 50 agents working in parallel, shipping features while you watch. This shipping features while you watch. This shipping features while you watch. This is Gastown. It's not chat with an AI, is Gastown. It's not chat with an AI, is Gastown. It's not chat with an AI, it's a factory. It decomposes features, it's a factory. It decomposes features, it's a factory. It decomposes features, assigns parallel workers, merges code assigns parallel workers, merges code assigns parallel workers, merges code automatically, persists everything in automatically, persists everything in automatically, persists everything in get, and keeps running even if it get, and keeps running even if it get, and keeps running even if it crashes. This could 10x your output or crashes. This could 10x your output or crashes. This could 10x your output or just cause things to go south. Let's get just cause things to go south. Let's get just cause things to go south. Let's get into the setup and how this all actually into the setup and how this all actually into the setup and how this all actually works. works. works. >> [music] >> Now, Gastown is an open-source >> Now, Gastown is an open-source orchestrator that turns AI coding agents orchestrator that turns AI coding agents orchestrator that turns AI coding agents into something closer to Kubernetes for into something closer to Kubernetes for into something closer to Kubernetes for dev workflows. First thing, Gastown is dev workflows. First thing, Gastown is dev workflows. First thing, Gastown is not an AI model, okay? It's it's just an not an AI model, okay? It's it's just an not an AI model, okay? It's it's just an orchestrator. It sits on top of tools orchestrator. It sits on top of tools orchestrator. It sits on top of tools like Claude code and turns them into like Claude code and turns them into like Claude code and turns them into coordinated multi-agent systems. You coordinated multi-agent systems. You coordinated multi-agent systems. You give a high-level goal to what they call give a high-level goal to what they call give a high-level goal to what they call the mayor, and the mayor breaks that the mayor, and the mayor breaks that the mayor, and the mayor breaks that goal into structured task units called goal into structured task units called goal into structured task units called beads. Beads then get grouped into what beads. Beads then get grouped into what beads. Beads then get grouped into what they're referring to as convoys. And they're referring to as convoys. And they're referring to as convoys. And then the worker agents called polecats then the worker agents called polecats then the worker agents called polecats execute them in parallel. Now, this is execute them in parallel. Now, this is execute them in parallel. Now, this is huge for a few reasons. Everything runs huge for a few reasons. Everything runs huge for a few reasons. Everything runs through get, every agent works on through get, every agent works on through get, every agent works on branches, merges queues, state is branches, merges queues, state is branches, merges queues, state is persisted. So, if it crashes, you don't persisted. So, if it crashes, you don't persisted. So, if it crashes, you don't need to start all over it. Now, compare need to start all over it. Now, compare need to start all over it. Now, compare that to a normal vibe coding, right? that to a normal vibe coding, right? that to a normal vibe coding, right? Just AI coding in general. We have one Just AI coding in general. We have one Just AI coding in general. We have one session, linear execution, context session, linear execution, context session, linear execution, context drift, manual orchestration. It's kind drift, manual orchestration. It's kind drift, manual orchestration. It's kind of a mess. Gastown is basically of a mess. Gastown is basically of a mess. Gastown is basically horizontal scaling for cognition. And horizontal scaling for cognition. And horizontal scaling for cognition. And that's a big deal. But the real question that's a big deal. But the real question that's a big deal. But the real question is, does this actually work? If you is, does this actually work? If you is, does this actually work? If you enjoy this type of content, be sure to enjoy this type of content, be sure to enjoy this type of content, be sure to subscribe. We have videos coming out all subscribe. We have videos coming out all subscribe. We have videos coming out all the time. Now, let's get in, fired up, the time. Now, let's get in, fired up, the time. Now, let's get in, fired up, and do some tests. All right, so I've and do some tests. All right, so I've and do some tests. All right, so I've got a simple to-do app running. I found got a simple to-do app running. I found got a simple to-do app running. I found a super simple go-based one on GitHub. I a super simple go-based one on GitHub. I a super simple go-based one on GitHub. I chose go cuz Gastown is actually mainly chose go cuz Gastown is actually mainly chose go cuz Gastown is actually mainly written in go, but written in go, but written in go, but really there's no difference in the really there's no difference in the really there's no difference in the project you choose. It'll still execute project you choose. It'll still execute project you choose. It'll still execute like normal. Now, this project, this like normal. Now, this project, this like normal. Now, this project, this to-do app, there's no auth, it's just a to-do app, there's no auth, it's just a to-do app, there's no auth, it's just a basic CRUD application. And if you've basic CRUD application. And if you've basic CRUD application. And if you've ever added auth into an existing app, ever added auth into an existing app, ever added auth into an existing app, you already know the pain of breaking you already know the pain of breaking you already know the pain of breaking things. It's never just add login, it's things. It's never just add login, it's things. It's never just add login, it's database changes, routes, middleware, database changes, routes, middleware, database changes, routes, middleware, forms, tests, Docker, everything. And forms, tests, Docker, everything. And forms, tests, Docker, everything. And when you're building these apps, when you're building these apps, when you're building these apps, everything is touching everything. The everything is touching everything. The everything is touching everything. The challenge we are testing is can Gastown challenge we are testing is can Gastown challenge we are testing is can Gastown do that without me micromanaging it. do that without me micromanaging it. do that without me micromanaging it. Now, honestly, the setup here was kind Now, honestly, the setup here was kind Now, honestly, the setup here was kind of a pain. I needed to brew install a of a pain. I needed to brew install a of a pain. I needed to brew install a lot of larger packages. I had to get lot of larger packages. I had to get lot of larger packages. I had to get everything in order, and getting it everything in order, and getting it everything in order, and getting it running once it was even installed took running once it was even installed took running once it was even installed took some troubleshooting. It took some time. some troubleshooting. It took some time. some troubleshooting. It took some time. But once I managed to sync everything, But once I managed to sync everything, But once I managed to sync everything, it does run really well. Now that it's it does run really well. Now that it's it does run really well. Now that it's running, I attach the mayor and I give running, I attach the mayor and I give running, I attach the mayor and I give it one prompt. I'm going to say it one prompt. I'm going to say it one prompt. I'm going to say something like, \"Add JWT auth, use something like, \"Add JWT auth, use something like, \"Add JWT auth, use SQLite, it's basic, create login and SQLite, it's basic, create login and SQLite, it's basic, create login and register endpoints, protect routes, add register endpoints, protect routes, add register endpoints, protect routes, add HTML forms, write tests, add a HTML forms, write tests, add a HTML forms, write tests, add a Dockerfile.\" That's it. That's a lot of Dockerfile.\" That's it. That's a lot of Dockerfile.\" That's it. That's a lot of stuff though, right? All these things stuff though, right? All these things stuff though, right? All these things going on. No step-by-step prompting, and going on. No step-by-step prompting, and going on. No step-by-step prompting, and let's watch what actually happens here. let's watch what actually happens here. let's watch what actually happens here. The mayor now decomposes these features The mayor now decomposes these features The mayor now decomposes these features automatically. Database schema, automatically. Database schema, automatically. Database schema, middleware, auth endpoints, front-end middleware, auth endpoints, front-end middleware, auth endpoints, front-end forms, tests. Those become separate forms, tests. Those become separate forms, tests. Those become separate beads, and remember, a bead is kind of beads, and remember, a bead is kind of beads, and remember, a bead is kind of like one of these workers. And now look, like one of these workers. And now look, like one of these workers. And now look, all these polecats are now swarming. One all these polecats are now swarming. One all these polecats are now swarming. One agent creates the SQLite schema, one's agent creates the SQLite schema, one's agent creates the SQLite schema, one's going to write the JWT middleware, one going to write the JWT middleware, one going to write the JWT middleware, one builds login and register routes, builds login and register routes, builds login and register routes, another updates the UI forms, and then another updates the UI forms, and then another updates the UI forms, and then one writes integration tests, our one writes integration tests, our one writes integration tests, our Docker. All this is happening at the Docker. All this is happening at the Docker. All this is happening at the same time. And here's really the big same time. And here's really the big same time. And here's really the big contrast. If you were using Claude code contrast. If you were using Claude code contrast. If you were using Claude code alone, you would do this sequentially. alone, you would do this sequentially. alone, you would do this sequentially. You'd prompt, wait, fix, re-prompt, You'd prompt, wait, fix, re-prompt, You'd prompt, wait, fix, re-prompt, re-explain context over and over again, re-explain context over and over again, re-explain context over and over again, right? That's kind of how these code right? That's kind of how these code right? That's kind of how these code agents work. But here, get branches agents work. But here, get branches agents work. But here, get branches isolate the work, merges are queued, isolate the work, merges are queued, isolate the work, merges are queued, state is tracked. So, instead of you state is tracked. So, instead of you state is tracked. So, instead of you holding the whole plan in your head, the holding the whole plan in your head, the holding the whole plan in your head, the system actually holds it. And if this system actually holds it. And if this system actually holds it. And if this crashes halfway through, that's okay, crashes halfway through, that's okay, crashes halfway through, that's okay, actually. You resume from persistent actually. You resume from persistent actually. You resume from persistent state at a later point automatically. state at a later point automatically. state at a later point automatically. Now, the moment of truth here. I forked Now, the moment of truth here. I forked Now, the moment of truth here. I forked this into a repo, so now I want to go this into a repo, so now I want to go this into a repo, so now I want to go through and look at all the changes that through and look at all the changes that through and look at all the changes that made and added right here just on my made and added right here just on my made and added right here just on my GitHub. We can see all the old code, but GitHub. We can see all the old code, but GitHub. We can see all the old code, but then everything else here was edited. then everything else here was edited. then everything else here was edited. So, register, login, token issued, So, register, login, token issued, So, register, login, token issued, protected root works, tests pass, all protected root works, tests pass, all protected root works, tests pass, all this stuff. This is what was added in this stuff. This is what was added in this stuff. This is what was added in through Gastown. That entire feature through Gastown. That entire feature through Gastown. That entire feature decomposed and implemented in just a few decomposed and implemented in just a few decomposed and implemented in just a few minutes. And that's the point. The minutes. And that's the point. The minutes. And that's the point. The difference isn't just speed, it's difference isn't just speed, it's difference isn't just speed, it's cognitive offloading. We are no longer cognitive offloading. We are no longer cognitive offloading. We are no longer managing every little AI step, but that managing every little AI step, but that managing every little AI step, but that doesn't mean it's automatically a win. doesn't mean it's automatically a win. doesn't mean it's automatically a win. Because running this could be another Because running this could be another Because running this could be another story. Now, let me run this real quick. story. Now, let me run this real quick. story. Now, let me run this real quick. Let's kind of see what we get and what Let's kind of see what we get and what Let's kind of see what we get and what we're working with here. So, I mean, all we're working with here. So, I mean, all we're working with here. So, I mean, all in all, this is what it looks like. It's in all, this is what it looks like. It's in all, this is what it looks like. It's not too bad, super basic app, and you not too bad, super basic app, and you not too bad, super basic app, and you can see that I can log in here, create can see that I can log in here, create can see that I can log in here, create an account. The to-do list still an account. The to-do list still an account. The to-do list still functions, it didn't really change functions, it didn't really change functions, it didn't really change anything with that. It added our routes, anything with that. It added our routes, anything with that. It added our routes, the Dockerfiles, all that extra stuff the Dockerfiles, all that extra stuff the Dockerfiles, all that extra stuff with JWT authentication. So, it did with JWT authentication. So, it did with JWT authentication. So, it did really good here. On a larger scale app, really good here. On a larger scale app, really good here. On a larger scale app, I would love to see how this run, but I would love to see how this run, but I would love to see how this run, but this really ate through a lot of my this really ate through a lot of my this really ate through a lot of my tokens. Speaking of that, all right. tokens. Speaking of that, all right. tokens. Speaking of that, all right. Now, let's talk the tradeoffs. So, pros Now, let's talk the tradeoffs. So, pros Now, let's talk the tradeoffs. So, pros and cons, right? First, the pros. and cons, right? First, the pros. and cons, right? First, the pros. Scalability, right? This was really Scalability, right? This was really Scalability, right? This was really cool. You can have 20 to 30 agents cool. You can have 20 to 30 agents cool. You can have 20 to 30 agents working at the same time. That means working at the same time. That means working at the same time. That means massive output on big features, the kind massive output on big features, the kind massive output on big features, the kind where one person gets buried in tasks where one person gets buried in tasks where one person gets buried in tasks and interdependencies. Second, another and interdependencies. Second, another and interdependencies. Second, another really cool feature here is the get really cool feature here is the get really cool feature here is the get persistence. No more fragile AI sessions persistence. No more fragile AI sessions persistence. No more fragile AI sessions where everything vanishes if something where everything vanishes if something where everything vanishes if something crashes and we have to pick back up, crashes and we have to pick back up, crashes and we have to pick back up, right? Those are really, really cool right? Those are really, really cool right? Those are really, really cool things. But now, the cons here, cuz this things. But now, the cons here, cuz this things. But now, the cons here, cuz this is where people get surprised. I was is where people get surprised. I was is where people get surprised. I was also surprised at some of these things, also surprised at some of these things, also surprised at some of these things, but they make sense. but they make sense. but they make sense. Oversight fatigue, because yeah, the Oversight fatigue, because yeah, the Oversight fatigue, because yeah, the system is producing a ton, but you're system is producing a ton, but you're system is producing a ton, but you're also now reviewing a ton. It can be also now reviewing a ton. It can be also now reviewing a ton. It can be super productive, but it's also going to super productive, but it's also going to super productive, but it's also going to be super draining. Then we have the be super draining. Then we have the be super draining. Then we have the cost. Heavy usage can get expensive cost. Heavy usage can get expensive cost. Heavy usage can get expensive fast. We're not just running one agent, fast. We're not just running one agent, fast. We're not just running one agent, we're running all these agents in we're running all these agents in we're running all these agents in parallel. I'll let you do the math on parallel. I'll let you do the math on parallel. I'll let you do the math on that. Agents can still conflict, they that. Agents can still conflict, they that. Agents can still conflict, they can over-engineer, they can absolutely can over-engineer, they can absolutely can over-engineer, they can absolutely wreck your repo, cuz it's giving them wreck your repo, cuz it's giving them wreck your repo, cuz it's giving them full reins on everything. This isn't full reins on everything. This isn't full reins on everything. This isn't just plug and play, which leads to the just plug and play, which leads to the just plug and play, which leads to the real question. Would you actually want real question. Would you actually want real question. Would you actually want to live like this, using something like to live like this, using something like to live like this, using something like this in your workflow, or is it almost this in your workflow, or is it almost this in your workflow, or is it almost too much? Yes, you can choose other too much? Yes, you can choose other too much? Yes, you can choose other providers, too, but the choice is yours. providers, too, but the choice is yours. providers, too, but the choice is yours. Claude, OpenAI, okay. So, yeah, this is Claude, OpenAI, okay. So, yeah, this is Claude, OpenAI, okay. So, yeah, this is an early-stage tool, but it's pointing an early-stage tool, but it's pointing an early-stage tool, but it's pointing towards something so much bigger, towards something so much bigger, towards something so much bigger, because the direction is clear that this because the direction is clear that this because the direction is clear that this isn't AI helps you code, this is AI isn't AI helps you code, this is AI isn't AI helps you code, this is AI changes the workflow with all these changes the workflow with all these changes the workflow with all these agents running in parallel. So, Gastown agents running in parallel. So, Gastown agents running in parallel. So, Gastown represents this shift from AI assistant represents this shift from AI assistant represents this shift from AI assistant to lots of agents now working together. to lots of agents now working together. to lots of agents now working together. This changes our leverage, because now This changes our leverage, because now This changes our leverage, because now you can orchestrate back-end, front-end, you can orchestrate back-end, front-end, you can orchestrate back-end, front-end, tests, Docker, and infrastructure all at tests, Docker, and infrastructure all at tests, Docker, and infrastructure all at the same time. This could make you the same time. This could make you the same time. This could make you dramatically more productive, or it dramatically more productive, or it dramatically more productive, or it could redefine what development even could redefine what development even could redefine what development even means. The question isn't whether means. The question isn't whether means. The question isn't whether multi-agent systems are coming, they're multi-agent systems are coming, they're multi-agent systems are coming, they're here, right? This is an example of that. here, right? This is an example of that. here, right? This is an example of that. The question now becomes, are you going The question now becomes, are you going The question now becomes, are you going to experiment with it now or later, to experiment with it now or later, to experiment with it now or later, because who knows? They're coming. because who knows? They're coming. because who knows? They're coming. Subscribe for more tools and tips and Subscribe for more tools and tips and Subscribe for more tools and tips and the tools reshaping dev workflows. We'll the tools reshaping dev workflows. We'll the tools reshaping dev workflows. We'll see you in another video.",
+  "fetchedAt": "2026-02-26T23:54:20.268Z"
+}

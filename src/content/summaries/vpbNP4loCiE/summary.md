@@ -4,7 +4,6 @@ metadata:
   title: "Astro is Joining Cloudflare (Here's Why)"
   description: "Astro is officially joining Cloudflare. What does this actually mean for Astro users, open source, vendor lock-in fears, and the future of fast content sites? Let’s break it down.
 
-
     🔗 Relevant Links
 
     Astro: https://astro.build/
@@ -13,7 +12,6 @@ metadata:
 
     https://astro.build/blog/joining-cloudflare/
 
-
     ❤️ More about us
 
     Radically better observability stack: https://betterstack.com/
@@ -21,7 +19,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -32,7 +29,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -93,6 +89,15 @@ tools:
     url: null
   - name: "Cloudflare Workers"
     url: null
+categories:
+  - "DevOps & Infrastructure"
+  - "Web Development"
+tags:
+  - "javascript"
+  - "netlify"
+  - "performance"
+  - "vercel"
+tagsNormalizedAt: "2026-03-01T21:19:30.545Z"
 ---
 
 ## Key Takeaways
@@ -114,9 +119,11 @@ Flow Cloud) acted as a primary catalyst for the merger.
 Astro, the popular open-source framework known for its **Islands Architecture** and performance-focused rendering, has officially joined Cloudflare. This move mirrors industry trends where major tech companies adopt specific frameworks, such as Vercel with Next.js and Microsoft with Blazor. By moving to Cloudflare, Astro transitions from a venture-backed startup to a core part of a global infrastructure giant.
 
 ### Why the Move Happened
+
 Despite reaching nearly one million downloads per week, the **Astro Technology Company** faced difficulties as a VC-backed entity. The original business model relied on selling **paid hosted primitives**—integrated databases, storage, and analytics—built directly into the framework. However, users largely ignored these paid features, preferring the open-source framework itself. This created a gap between the framework's popularity and the company's ability to justify its VC funding through direct revenue.
 
 ### Promises to the Community
+
 To address concerns about **vendor lock-in**, the announcement includes several key guarantees:
 
 - Astro will remain **MIT-licensed** and open-source.
@@ -126,6 +133,7 @@ To address concerns about **vendor lock-in**, the announcement includes several 
 - The current core team will continue their work under the same **open governance** model and public roadmap.
 
 ### The Cloudflare Synergy
+
 Cloudflare was a logical home for Astro because they were already a longtime sponsor and power user. Cloudflare utilizes Astro for its documentation, workers landing pages, and various marketing sites. By combining Cloudflare's **edge infrastructure** with Astro's **server-side rendering** capabilities, the goal is to provide a seamless "fast web" experience from the server to the client.
 
 Furthermore, the rise of **AI-driven development** has seen a surge in the "Astro + Cloudflare" stack. Specialized tools and startups demonstrate a clear demand for this synergy. With financial pressure removed, the Astro team is now focusing on the **Astro 6 beta**, ensuring the framework remains the premier choice for content-driven websites.

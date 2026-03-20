@@ -1,0 +1,50 @@
+videoId: 2s0ZqudKgsg
+title: "Microsoft Certified DevOps Engineer Question 6: Code Reuse"
+description: >-
+  Azure Pipelines: Reuse Your Code! 🏗️ 
+
+
+  The Scenario: Migrating from Classic to YAML Pipelines. You need to reuse
+  common steps (Build/Test) across multiple projects without duplicating code.
+
+
+  The Solution: YAML Templates 🎯
+
+  - The Win (Option B): Use YAML Templates.
+
+  - How it Works: Extract common steps into a standalone YAML file. Reference
+  this file in any pipeline across your organization.
+
+  - The Result: ""Don't Repeat Yourself"" (DRY) pipelines that are easier to
+  maintain and update.
+
+
+  Why not others?
+
+  - Release Definitions: Part of the legacy Classic model.
+
+  - Classic Build Templates: Deprecated and incompatible with YAML.
+
+
+  Exam Tip: For AZ-400, ""reusable steps in YAML"" always means YAML Templates.
+  🚀
+
+
+  #AZ400 #AzureDevOps #YAML #CI CD #DevOps #CloudComputing #Automation #TechTips
+  #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M1S
+publishedAt: 2026-03-06T04:00:05Z
+thumbnailUrl: https://i.ytimg.com/vi/2s0ZqudKgsg/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=2s0ZqudKgsg
+processedAt: 2026-03-10T14:06:45.519Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1711
+outputTokens: 608
+totalTokens: 2319
+processingTimeMs: 52577

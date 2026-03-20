@@ -1,0 +1,193 @@
+---
+metadata:
+  videoId: "ShTxTquBDxY"
+  title: "Claude Code 2.0 MASSIVE Upgrade! (Game Changer)"
+  description: "Claude Code 2.0 is here with a massive upgrade! 🚀 From advanced memory-writing rules and the new /loop and /btw commands, to multi-agent code review, interactive charts, and seamless Excel + PowerPoint integration — this update completely redefines the way you code with AI.
+
+
+    🔗 My Links:
+
+    Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com
+
+    🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi
+
+    🧠 Follow me on Twitter: https://twitter.com/intheworldofai\ 
+
+    🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ\ 
+
+    👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)
+
+    🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/
+
+    👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
+
+
+    Something coming soon :) https://www.skool.com/worldofai-automation
+
+
+    [Must Watch]:
+
+    Google's Nano Banana 2.0: Best Text-To-Image Generation Model EVER! The Photoshop killer! (Tested): https://youtu.be/u22-XoQvI4I
+
+    Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator) - Opal: https://youtu.be/PU_hwTG0QVU
+
+    Claude Code Just KILLED OpenClaw! HUGE NEW Update Introduces Remote Control + Scheduled Tasks!: https://youtu.be/6FNu2xqP758
+
+
+    📌 LINKS & RESOURCES
+
+    Agent Skills 2.0: https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills
+
+    /loop: https://code.claude.com/docs/en/scheduled-tasks
+
+    Scheduled Tasks: https://code.claude.com/docs/en/desktop#schedule-recurring-tasks
+
+    https://x.com/dani_avila7/status/2031894976523595812
+
+    https://x.com/RLanceMartin/status/2028901056818930171
+
+    https://x.com/AiBreakfast/status/2032199871986638929\ 
+
+
+    In this video, we cover:
+
+    The new /btw command for quick, context-free questions
+
+    The /loop command for scheduled prompts
+
+    Claude Code Desktop Scheduled Tasks for recurring workflows
+
+    Integrating Telegram notifications for task outputs
+
+    2.1.74 system prompt updates for smarter memory handling
+
+    Voice mode in the CLI
+
+    Excel & PowerPoint add-ins with shared context and skills
+
+    The revamped Agent Skill Creator with evals, benchmarks, and multi-agent testing
+
+    Making Claude Code better at using the Claude API
+
+    Effort level control for more predictable, cost-aware sessions
+
+    Multi-agent Code Review system
+
+    Interactive charts and diagrams directly in chat
+
+
+    This update is packed with tools to make AI-assisted coding faster, smarter, and more reliable. Whether you’re a developer, analyst, or educator, Claude Code 2.0 brings next-level capabilities right into your workflow.
+
+
+    💡 Don’t forget to like, comment, and subscribe for more AI coding updates!
+
+
+    [Time Stamp]:
+
+    0:00 - Introduction
+
+    0:32 - /btw Cmd
+
+    0:56 - /loop Cmd
+
+    1:48 - Scheduled Tasks
+
+    2:48 - Telegram Scheduled Task
+
+    3:20 - New System Prompt
+
+    4:38 - Voice Mode
+
+    4:58 - Excel/Powerpoint
+
+    5:38 - Agent Skills 2.0
+
+    6:47 - Claude API Skill
+
+    7:21 - Reasoning Effort Level
+
+    7:50 - Code Review
+
+    8:23 - UI Components
+
+
+    Tags / Keywords:
+
+    Claude Code 2.0, Claude Code update, Claude AI coding, AI coding assistant, Claude Code features, AI code automation, AI terminal coding, Claude Excel add-in, Claude PowerPoint add-in, Claude API, AI agent skills, AI code review, interactive AI charts, AI development tools, Anthropic Claude, AI productivity, AI workflow automation, AI task scheduling, Claude CLI, Claude voice mode
+
+
+    Hashtags & Emojis:
+
+    #ClaudeCode #AIcoding #ClaudeAI #AIautomation #CodeReview #InteractiveCharts #AIproductivity #AgentSkills #ExcelAI #PowerPointAI #AItools #AnthropicClaude"
+  channel: "WorldofAI"
+  channelId: "UC2WmuBuFq6gL08QYG-JjXKw"
+  duration: "PT9M43S"
+  publishedAt: "2026-03-13T06:42:41Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/ShTxTquBDxY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=ShTxTquBDxY"
+processedAt: "2026-03-13T17:41:38.085Z"
+source: "youtube"
+tldr: "Anthropic's Claude Code 2.0 is a massive upgrade to the terminal-based AI coding agent, featuring new commands like /by-the-way for quick questions and /loop for scheduled prompts, a desktop scheduler for automated workflows, improved system prompts for better memory handling, voice mode, deep code review, and integration with Excel/PowerPoint."
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Telegram"
+    url: null
+  - name: "Excel"
+    url: null
+  - name: "PowerPoint"
+    url: null
+  - name: "Google Workspace"
+    url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "ai-coding"
+  - "automation"
+  - "claude"
+  - "productivity"
+  - "terminal"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 7012
+  outputTokens: 784
+  totalTokens: 7796
+  processingTimeMs: 28012
+tagsNormalizedAt: "2026-03-13T17:51:22.983Z"
+---
+
+## Key Takeaways
+
+Claude Code 2.0 introduces significant upgrades that transform it into a comprehensive AI coding assistant. Key features include:
+
+- **New terminal commands**: `/by-the-way` for quick questions without disrupting context and `/loop` for cron-style scheduled prompts.
+
+- **Desktop scheduler**: Create persistent automated tasks for daily code reviews, dependency updates, or morning briefings.
+
+- **Enhanced system prompts**: Improved memory writing rules with structured formats for better context retention across sessions.
+
+- **Expanded capabilities**: Voice mode, deep multi-agent code review, and seamless integration with Excel and PowerPoint.
+
+## Summary
+
+Anthropic has released Claude Code 2.0, a major upgrade to their terminal-based AI coding agent that introduces numerous new features and improvements.
+
+The update includes new terminal commands like `/by-the-way`, which lets users ask quick questions without adding them to the conversation history, keeping the main task running uninterrupted. The `/loop` command enables cron-style scheduling for repeated prompts, useful for status updates or reminders.
+
+A new desktop schedule task feature allows creation of persistent automated workflows that run locally when the computer is awake. This is ideal for recurring tasks like daily code reviews, dependency updates, or morning briefings that pull information from calendars and inboxes. The video demonstrates integrating this with Telegram for automatic notifications.
+
+Significant system prompt improvements focus on memory handling and agent behavior. Claude now writes directly to the automemory directory without unnecessary checks, and memory writing follows a structured format (rule/fact → reason → application) for better context recall in future sessions.
+
+Other notable additions include voice mode accessibility for all users, seamless integration between Claude for Excel and PowerPoint with shared context, and a revamped agent skills creator that lets authors test and refine skills without coding using a new feature called **Evol** for benchmarking and regression testing.
+
+The update also makes Claude Code smarter about using the Claude API, turning it into a live API mentor that provides actionable advice instead of requiring documentation searches. Effort levels (low, medium, high, max) are now shown at session start to control reasoning depth and token usage.
+
+Deep code review capabilities catch bugs human reviewers often miss, though currently available only for team/enterprise users at approximately $15-$25 per run. Interactive chart and diagram building is now available in beta across all plans, allowing visualization of data and ideas directly in chat.
+
+## Context
+
+This update positions Claude Code as a leading AI coding agent that lives directly in the terminal, competing with tools like GitHub Copilot and Cursor. Developers and technical teams should care because it transforms how AI assists with coding workflows—from automated reviews to scheduled tasks and better context management. It reflects the broader trend of AI agents becoming more integrated, persistent, and capable of handling complex, multi-step development tasks without constant human intervention.

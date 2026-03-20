@@ -4,9 +4,6 @@ metadata:
   title: "Context Graphs: AI's Next Big Idea"
   description: "Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessible decision lineage for reliable automation. Implications include context engineering, organizational change management, and design approaches enabling agents to discover organizational schema from real usage rather than predefined schemas.
 
-
-
-
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
     Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
@@ -38,6 +35,16 @@ tools:
     url: null
   - name: "Netsuite"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Programming"
+tags:
+  - "agents"
+  - "architecture"
+  - "data-pipeline"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.534Z"
 ---
 
 ## Key Takeaways
@@ -59,12 +66,15 @@ The discussion begins with investor Jamine Ball’s critique of the current ente
 Building on this, Foundation Capital’s Jay Agupta and Ashug introduce the concept of the **Context Graph**. They argue that the most valuable enterprise information—decision traces, overrides, and cross-system logic—is currently missing from structured databases. It exists as “tribal knowledge” in human heads or unstructured Slack conversations. A context graph captures these moments of judgment, such as why a specific customer was granted a 10% discount despite a policy cap. This turns individual exceptions into searchable, reusable **precedent**.
 
 ### The Shift from Rules to Decision Traces
+
 Traditional automation relies on static rules, which often break when faced with the messy reality of business. Context graphs shift the focus to the **decision trace**: a record of what inputs were gathered, what policy was evaluated, who approved the deviation, and what the final state was. When these traces are persisted, they create a living world model of how a company actually operates, rather than how it *claims* to operate in its manual. 
 
 ### Dynamic Discovery vs. Manual Schema
+
 One of the most innovative insights shared is that context graphs should not be pre-defined by humans. Traditional knowledge graphs often fail because they require a manual schema that becomes outdated. Instead, modern agents act as “informed walkers.” As they solve problems, they discover the **organizational ontology** on the fly. Thousands of these agent “walks” reveal the true patterns of usage and decision-making, allowing the system to learn the “policy in practice” automatically.
 
 ### The Human Role in the Era of Context
+
 Box CEO Aaron Levy suggests that as agents become more powerful, humans will adapt to them rather than the other way around. This involves **Context Engineering**, where the human's primary role is to shepherd work between agents and provide the oversight necessary for complex escalations. Ultimately, the most uniquely human part of work—high-level judgment and the ability to break patterns when reality shifts—will be the final layer of the context graph.
 
 ## Context

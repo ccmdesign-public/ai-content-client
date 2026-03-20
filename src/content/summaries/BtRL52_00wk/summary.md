@@ -28,6 +28,16 @@ tools:
     url: null
   - name: "Model Context Protocol"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "accessibility"
+  - "best-practices"
+  - "llm"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.399Z"
 ---
 
 ## Key Takeaways

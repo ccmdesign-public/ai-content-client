@@ -6,14 +6,18 @@
     "config": "",
     "css": "src/assets/css/tailwind.css",
     "baseColor": "zinc",
-    "cssVariables": true
+    "cssVariables": true,
+    "prefix": ""
   },
+  "iconLibrary": "lucide",
   "framework": "nuxt",
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
+    "lib": "@/lib",
     "composables": "@/composables",
     "hooks": "@/composables"
-  }
+  },
+  "registries": {}
 }

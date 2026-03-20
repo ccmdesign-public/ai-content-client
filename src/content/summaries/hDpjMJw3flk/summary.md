@@ -10,9 +10,7 @@ metadata:
 
     What's really happening with AI coding tools and how we work alongside them? The common story is that Claude Code and Codex are just competing products — but the reality is more complicated.
 
-
     In this video, I share the inside scoop on why the colleague vs tool distinction will define AI adoption:
-
 
     \ • Why Codex works like a CNC machine and Claude Code works like a machinist
 
@@ -22,12 +20,9 @@ metadata:
 
     \ • Why this same dynamic will shape all non-technical knowledge work
 
-
     Cursor ran ChatGPT 5.2 for a week straight and produced three million lines of Rust code. No human touched the keyboard. But before you hear doom — the browser experiment revealed limits. The developers who succeed with autonomous AI know what they know and are honest about when they don't have clarity to delegate.
 
-
     For individuals and organizations, the question isn't which AI is better — it's whether you're honest about which situation you're actually in.
-
 
     Chapters:
 
@@ -50,7 +45,6 @@ metadata:
     16:00 What high-quality specs look like for non-technical work
 
     18:21 Be honest about which situation you're actually in
-
 
     Subscribe for daily AI strategy and news.
 
@@ -91,6 +85,15 @@ tools:
     url: null
   - name: "ChatGPT 5.2"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "chatgpt"
+  - "claude"
+  - "prompt-engineering"
+tagsNormalizedAt: "2026-03-01T21:19:30.344Z"
 ---
 
 ## Key Takeaways
@@ -108,17 +111,21 @@ The evolution of AI agents has created two distinct philosophies of human-machin
 ## Summary
 
 ### The Great Divergence in AI Interaction
+
 In early 2026, the AI landscape split into two functional models: the iterative collaborator and the autonomous executor. This was highlighted by a **Cursor experiment** where **GPT 5.2** ran for a week straight, generating a functional browser rendering engine with **3 million lines of Rust code** without human intervention. This feat demonstrates the power of **Tool-shaped AI**, which functions like a CNC machine—it offers perfect execution of instructions but provides zero course correction if the initial "program" is flawed.
 
 ### Claude Code vs. OpenAI Codeex
+
 Anthropic’s **Claude Code** represents the **Colleague-shaped** philosophy. It is designed for "human-in-the-loop" workflows where intent is allowed to evolve. It surfaces reasoning, asks clarifying questions, and yields control frequently. This is ideal for junior-to-mid-level developers who are "discovering" what they want to build during the process and need the AI to catch mistakes early.
 
 OpenAI’s **Codeex** (and the underlying GPT 5.2 reasoning models) represents the **Tool-shaped** philosophy. These agents are designed for delegation and completion. They operate in cloud sandboxes for hours or days, navigating repositories and running tests autonomously. For senior engineers who can write a perfect technical specification, this model acts as a force multiplier, allowing them to focus on other tasks while the agent implements entire features.
 
 ### The Importance of Intent Specification
+
 The video argues that **Clear Specs** are the new barrier to entry. A frequent failure point for users is providing vague instructions to an autonomous agent and receiving "piles of scrap." Research suggests that raw reasoning capability (as seen in GPT 5.2) matters more than specialized coding training for long-horizon tasks because the model must maintain a coherent plan over thousands of iterations. 
 
 ### Beyond Software Development
+
 While these patterns emerged in coding, they are migrating to all **knowledge work**. The challenge for 2026 is defining what a high-quality spec looks like for non-technical domains like strategy documents or market analysis. Professionals must decide if they need a **thinking partner** to help them find clarity or a **tool** to execute a well-defined vision. Organizations that develop "high-grade intent" specification skills across their teams will access a different order of AI leverage.
 
 ## Context

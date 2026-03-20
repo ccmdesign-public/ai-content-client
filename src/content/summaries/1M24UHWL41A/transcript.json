@@ -1,0 +1,214 @@
+{
+  "videoId": "1M24UHWL41A",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.84,
+      "text": "In the retrieval side, you want to get"
+    },
+    {
+      "start": 2,
+      "duration": 4.319,
+      "text": "high relevance and high"
+    },
+    {
+      "start": 3.84,
+      "duration": 4.64,
+      "text": "comprehensiveness and high correctness."
+    },
+    {
+      "start": 6.319,
+      "duration": 4.561,
+      "text": "In other words, because the searches are"
+    },
+    {
+      "start": 8.48,
+      "duration": 4.48,
+      "text": "done in semantics, we want to make sure"
+    },
+    {
+      "start": 10.88,
+      "duration": 4.24,
+      "text": "that each time that we retrieve"
+    },
+    {
+      "start": 12.96,
+      "duration": 4.56,
+      "text": "information from the data source, we're"
+    },
+    {
+      "start": 15.12,
+      "duration": 4.48,
+      "text": "able to measure whether the results are"
+    },
+    {
+      "start": 17.52,
+      "duration": 4.24,
+      "text": "relevant to the question or the query"
+    },
+    {
+      "start": 19.6,
+      "duration": 4.96,
+      "text": "that we're being asked. And same thing"
+    },
+    {
+      "start": 21.76,
+      "duration": 5.2,
+      "text": "applies to comprehensiveness. Does the"
+    },
+    {
+      "start": 24.56,
+      "duration": 4.639,
+      "text": "set of retrieved documents cover all"
+    },
+    {
+      "start": 26.96,
+      "duration": 4.559,
+      "text": "information that is needed to actually"
+    },
+    {
+      "start": 29.199,
+      "duration": 4.721,
+      "text": "answer the prompt? And finally, are the"
+    },
+    {
+      "start": 31.519,
+      "duration": 5.521,
+      "text": "retrieved documents actually correct and"
+    },
+    {
+      "start": 33.92,
+      "duration": 5.68,
+      "text": "ranked properly? First is recall at K"
+    },
+    {
+      "start": 37.04,
+      "duration": 4.48,
+      "text": "and it's done by basically given all the"
+    },
+    {
+      "start": 39.6,
+      "duration": 4.4,
+      "text": "relevant information and documents in"
+    },
+    {
+      "start": 41.52,
+      "duration": 4.559,
+      "text": "your system. How many did the retriever"
+    },
+    {
+      "start": 44,
+      "duration": 4.559,
+      "text": "actually find within the top results?"
+    },
+    {
+      "start": 46.079,
+      "duration": 5.201,
+      "text": "Another one is precision at K which"
+    },
+    {
+      "start": 48.559,
+      "duration": 4.881,
+      "text": "measures out of the top results how many"
+    },
+    {
+      "start": 51.28,
+      "duration": 4.16,
+      "text": "were actually relevant which is slightly"
+    },
+    {
+      "start": 53.44,
+      "duration": 4,
+      "text": "different than recall at K since it"
+    },
+    {
+      "start": 55.44,
+      "duration": 5.439,
+      "text": "measures the quality of the actual"
+    },
+    {
+      "start": 57.44,
+      "duration": 5.84,
+      "text": "result itself. MRR or mean reciprocal"
+    },
+    {
+      "start": 60.879,
+      "duration": 5.201,
+      "text": "rank is a measurement of the first"
+    },
+    {
+      "start": 63.28,
+      "duration": 6.48,
+      "text": "relevant document in your result and how"
+    },
+    {
+      "start": 66.08,
+      "duration": 6.079,
+      "text": "high the ranking is. And finally, NDCG"
+    },
+    {
+      "start": 69.76,
+      "duration": 4.56,
+      "text": "or normalized discounted commulative"
+    },
+    {
+      "start": 72.159,
+      "duration": 4.64,
+      "text": "gain is a measurement on whether the"
+    },
+    {
+      "start": 74.32,
+      "duration": 4.88,
+      "text": "retriever is ranking relevant documents"
+    },
+    {
+      "start": 76.799,
+      "duration": 4.32,
+      "text": "higher than irrelevant ones. As you can"
+    },
+    {
+      "start": 79.2,
+      "duration": 4.08,
+      "text": "see, there are so many different ways to"
+    },
+    {
+      "start": 81.119,
+      "duration": 3.921,
+      "text": "pick at the metric side of the things"
+    },
+    {
+      "start": 83.28,
+      "duration": 4.08,
+      "text": "when it comes to rag. that will help you"
+    },
+    {
+      "start": 85.04,
+      "duration": 4,
+      "text": "find the best way to ensure that the"
+    },
+    {
+      "start": 87.36,
+      "duration": 3.92,
+      "text": "system that you're actually trying to"
+    },
+    {
+      "start": 89.04,
+      "duration": 4.88,
+      "text": "set up is actually working properly as"
+    },
+    {
+      "start": 91.28,
+      "duration": 5.6,
+      "text": "it should. Especially as you rely more"
+    },
+    {
+      "start": 93.92,
+      "duration": 2.96,
+      "text": "and more on the"
+    }
+  ],
+  "fullText": "In the retrieval side, you want to get high relevance and high comprehensiveness and high correctness. In other words, because the searches are done in semantics, we want to make sure that each time that we retrieve information from the data source, we're able to measure whether the results are relevant to the question or the query that we're being asked. And same thing applies to comprehensiveness. Does the set of retrieved documents cover all information that is needed to actually answer the prompt? And finally, are the retrieved documents actually correct and ranked properly? First is recall at K and it's done by basically given all the relevant information and documents in your system. How many did the retriever actually find within the top results? Another one is precision at K which measures out of the top results how many were actually relevant which is slightly different than recall at K since it measures the quality of the actual result itself. MRR or mean reciprocal rank is a measurement of the first relevant document in your result and how high the ranking is. And finally, NDCG or normalized discounted commulative gain is a measurement on whether the retriever is ranking relevant documents higher than irrelevant ones. As you can see, there are so many different ways to pick at the metric side of the things when it comes to rag. that will help you find the best way to ensure that the system that you're actually trying to set up is actually working properly as it should. Especially as you rely more and more on the",
+  "fetchedAt": "2026-03-11T16:39:23.512Z"
+}

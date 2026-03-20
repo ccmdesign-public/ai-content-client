@@ -93,6 +93,16 @@ tools:
     url: null
   - name: "Claude Code"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "claude"
+  - "scripting"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.290Z"
 ---
 
 ## Key Takeaways

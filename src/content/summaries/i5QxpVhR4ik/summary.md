@@ -64,6 +64,11 @@ ai:
   totalTokens: 3713
   processingTimeMs: 17928
 tools: []
+categories:
+  - "Programming"
+tags:
+  - "best-practices"
+tagsNormalizedAt: "2026-03-01T21:19:30.398Z"
 ---
 
 ## Key Takeaways

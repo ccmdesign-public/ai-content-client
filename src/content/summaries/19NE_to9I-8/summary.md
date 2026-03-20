@@ -4,13 +4,11 @@ metadata:
   title: "AI at CES is Not Just Cheesy Gadgets Anymore"
   description: "CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung and Amazon announced chips, device integrations and ambient-assistant initiatives demonstrating a race for infrastructure, consumer devices and everyday AI experiences.
 
-
     Brought to you by:
 
     KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
 
     Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
-
 
     The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
 
@@ -61,6 +59,13 @@ tools:
     url: null
   - name: "Mi455 GPU"
     url: null
+categories:
+  - "AI & Machine Learning"
+tags:
+  - "agents"
+  - "gemini"
+  - "llm"
+tagsNormalizedAt: "2026-03-01T21:19:30.304Z"
 ---
 
 ## Key Takeaways
@@ -80,16 +85,19 @@ CES 2026 reflects a transition where AI has moved from a novelty feature to the 
 CES 2026 has undergone a significant tonal shift, moving away from the "AI everywhere" gimmickry of previous years toward a focus on category-defining products from industry giants like Nvidia, AMD, Google, and Amazon. The conference now serves as a high-stakes roadshow for the hardware and software stacks that will define the next decade of computing.
 
 ### Nvidia's Infrastructure Dominance
+
 Nvidia dominated the event by unveiling the **Vera Rubin** architecture, the successor to the Blackwell line. Jensen Huang revealed that the Rubin chips are already in full production and offer a massive leap in efficiency. Key metrics include being 3.5 times faster for training and 5 times faster for inference compared to Blackwell. 
 
 Crucially, the new chips produce 8 times as much inference compute per watt, leading to an estimated 90% decrease in **token costs**. Nvidia also positioned itself as a leader in **embodied AI** by launching the Cosmos world models and the Isaac Groot 1.6 vision-language-action model, aiming to provide a full-stack ecosystem for robotics manufacturers.
 
 ### The Chip Wars and Mobile Integration
+
 AMD countered with the **Mi455 GPU**, claiming a 10x performance boost over its predecessor. OpenAI President Greg Brockman appeared on stage to endorse AMD, highlighting a multi-billion dollar partnership aimed at scaling the billions of GPUs needed for global AI agent deployment. 
 
 In the mobile sector, Samsung announced plans to double its AI-enabled handset count to 800 million by 2026, powered by Google's **Gemini**. This provides Google with a massive data advantage over competitors like Meta and OpenAI, who lack a native mobile OS and are currently attempting to bypass phones with new hardware categories.
 
 ### Amazon's Strategic Pivot
+
 Amazon utilized CES to breathe new life into its ecosystem. They launched **Alexa Plus** via a new web interface (Alexa.com), making the assistant device-agnostic and accessible as a standard text-based chatbot. By making Alexa Plus free for 200 million Prime members, Amazon is leveraging a network of 600 million existing devices to compete with ChatGPT.
 
 Furthermore, the **Be** wearable was reintroduced with "Life Coach" features. Unlike professional-focused tools, Be uses months of conversation and health data to provide insights into personal relationships and behavioral shifts, signaling Amazon's intent to dominate **ambient AI** in the home and personal life.

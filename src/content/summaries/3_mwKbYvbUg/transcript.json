@@ -1,0 +1,3234 @@
+{
+  "videoId": "3_mwKbYvbUg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 5.44,
+      "text": "Do you know the simplest way to install"
+    },
+    {
+      "start": 2.879,
+      "duration": 5.04,
+      "text": "and maintain your code bases as they"
+    },
+    {
+      "start": 5.6,
+      "duration": 4.48,
+      "text": "grow? Here's something I've learned over"
+    },
+    {
+      "start": 7.919,
+      "duration": 4.561,
+      "text": "15 years of engineering with more than"
+    },
+    {
+      "start": 10.08,
+      "duration": 4.8,
+      "text": "50 plus code bases. You can tell how"
+    },
+    {
+      "start": 12.48,
+      "duration": 5.36,
+      "text": "great an engineering team is by the time"
+    },
+    {
+      "start": 14.88,
+      "duration": 5.44,
+      "text": "it takes for a new engineer to run the"
+    },
+    {
+      "start": 17.84,
+      "duration": 5.359,
+      "text": "project locally. This says a lot about"
+    },
+    {
+      "start": 20.32,
+      "duration": 4.799,
+      "text": "the team's growth and proficiency. And"
+    },
+    {
+      "start": 23.199,
+      "duration": 4.4,
+      "text": "when you're joining a new team, that"
+    },
+    {
+      "start": 25.119,
+      "duration": 4.801,
+      "text": "first interaction with the codebase and"
+    },
+    {
+      "start": 27.599,
+      "duration": 4.161,
+      "text": "with the team members is so important."
+    },
+    {
+      "start": 29.92,
+      "duration": 4.24,
+      "text": "It really sets the stage for the new"
+    },
+    {
+      "start": 31.76,
+      "duration": 5.12,
+      "text": "hire. For great teams, it's one link to"
+    },
+    {
+      "start": 34.16,
+      "duration": 5.04,
+      "text": "one doc, a list of config file updates,"
+    },
+    {
+      "start": 36.88,
+      "duration": 4.72,
+      "text": "and then a few commands. For most teams"
+    },
+    {
+      "start": 39.2,
+      "duration": 4.64,
+      "text": "though, it's one to two days of pair"
+    },
+    {
+      "start": 41.6,
+      "duration": 4.56,
+      "text": "programming, Slack messages, rumaging"
+    },
+    {
+      "start": 43.84,
+      "duration": 4.559,
+      "text": "through outdated docs, and tons of back"
+    },
+    {
+      "start": 46.16,
+      "duration": 4.64,
+      "text": "and forth testing. In the age of agents,"
+    },
+    {
+      "start": 48.399,
+      "duration": 5.761,
+      "text": "we can do much better than this. The"
+    },
+    {
+      "start": 50.8,
+      "duration": 6.399,
+      "text": "trick is in combining scripts, docs, and"
+    },
+    {
+      "start": 54.16,
+      "duration": 6.079,
+      "text": "agents because agents when combined with"
+    },
+    {
+      "start": 57.199,
+      "duration": 5.84,
+      "text": "code beats either alone. Cloud code"
+    },
+    {
+      "start": 60.239,
+      "duration": 5.041,
+      "text": "released a brand new setup hook for this"
+    },
+    {
+      "start": 63.039,
+      "duration": 4.481,
+      "text": "very purpose. It's an interesting hook"
+    },
+    {
+      "start": 65.28,
+      "duration": 4.879,
+      "text": "though because it doesn't show up in the"
+    },
+    {
+      "start": 67.52,
+      "duration": 4.32,
+      "text": "life cycle diagram for cloud code hooks."
+    },
+    {
+      "start": 70.159,
+      "duration": 3.521,
+      "text": "We're going to take this hook and push"
+    },
+    {
+      "start": 71.84,
+      "duration": 4.48,
+      "text": "it further because when you combine"
+    },
+    {
+      "start": 73.68,
+      "duration": 5.2,
+      "text": "deterministic hooks with standardized"
+    },
+    {
+      "start": 76.32,
+      "duration": 5.52,
+      "text": "agentic prompts, you get the best of"
+    },
+    {
+      "start": 78.88,
+      "duration": 5.919,
+      "text": "both worlds. Predictable execution,"
+    },
+    {
+      "start": 81.84,
+      "duration": 5.04,
+      "text": "intelligent oversight, and interactivity"
+    },
+    {
+      "start": 84.799,
+      "duration": 4.241,
+      "text": "when you need it. Let's discuss the best"
+    },
+    {
+      "start": 86.88,
+      "duration": 7.879,
+      "text": "way to install and maintain your code"
+    },
+    {
+      "start": 89.04,
+      "duration": 5.719,
+      "text": "bases as they grow in size and value."
+    },
+    {
+      "start": 96,
+      "duration": 3.84,
+      "text": "The first thing I want to do here is"
+    },
+    {
+      "start": 97.439,
+      "duration": 5.281,
+      "text": "showcase a new powerful tool I've been"
+    },
+    {
+      "start": 99.84,
+      "duration": 5.44,
+      "text": "using to guide my commands, agents, and"
+    },
+    {
+      "start": 102.72,
+      "duration": 5.359,
+      "text": "developer tools. Let me introduce you to"
+    },
+    {
+      "start": 105.28,
+      "duration": 4.96,
+      "text": "just file. This is a simple command"
+    },
+    {
+      "start": 108.079,
+      "duration": 4,
+      "text": "runner that serves as a launchpad for"
+    },
+    {
+      "start": 110.24,
+      "duration": 3.68,
+      "text": "your engineering work. You can see I"
+    },
+    {
+      "start": 112.079,
+      "duration": 4,
+      "text": "have several commands set up, front end"
+    },
+    {
+      "start": 113.92,
+      "duration": 3.12,
+      "text": "setup, backend, reset artifacts, and"
+    },
+    {
+      "start": 116.079,
+      "duration": 2.881,
+      "text": "then we have something really"
+    },
+    {
+      "start": 117.04,
+      "duration": 3.6,
+      "text": "interesting. I'm kicking off many"
+    },
+    {
+      "start": 118.96,
+      "duration": 4.799,
+      "text": "different cloud agents with different"
+    },
+    {
+      "start": 120.64,
+      "duration": 5.36,
+      "text": "CLI flags. With just file, you, your"
+    },
+    {
+      "start": 123.759,
+      "duration": 4.321,
+      "text": "team, and your agents don't need to"
+    },
+    {
+      "start": 126,
+      "duration": 5.12,
+      "text": "remember or look up flags more than"
+    },
+    {
+      "start": 128.08,
+      "duration": 4.96,
+      "text": "once. They just run this. If we open the"
+    },
+    {
+      "start": 131.12,
+      "duration": 4.4,
+      "text": "terminal and type just, you can see all"
+    },
+    {
+      "start": 133.04,
+      "duration": 5.52,
+      "text": "the commands ready to go. This is a very"
+    },
+    {
+      "start": 135.52,
+      "duration": 5.359,
+      "text": "powerful tool for scaling and reusing"
+    },
+    {
+      "start": 138.56,
+      "duration": 4.48,
+      "text": "your customizable agents. Let's go ahead"
+    },
+    {
+      "start": 140.879,
+      "duration": 5.36,
+      "text": "and run our first command that activates"
+    },
+    {
+      "start": 143.04,
+      "duration": 6.16,
+      "text": "this new setup hook. If we type just"
+    },
+    {
+      "start": 146.239,
+      "duration": 6.281,
+      "text": "cli, we're going to kick off this claw"
+    },
+    {
+      "start": 149.2,
+      "duration": 3.32,
+      "text": "code command."
+    },
+    {
+      "start": 154,
+      "duration": 4.56,
+      "text": "It doesn't look like anything happened"
+    },
+    {
+      "start": 155.84,
+      "duration": 5.6,
+      "text": "there, but this init flag changed the"
+    },
+    {
+      "start": 158.56,
+      "duration": 5.679,
+      "text": "workflow. This init flag in fact ran the"
+    },
+    {
+      "start": 161.44,
+      "duration": 4.799,
+      "text": "setup hook before it booted up this full"
+    },
+    {
+      "start": 164.239,
+      "duration": 3.841,
+      "text": "cloud code instance. If we look under"
+    },
+    {
+      "start": 166.239,
+      "duration": 4.241,
+      "text": "the hood here, open up the settings"
+    },
+    {
+      "start": 168.08,
+      "duration": 4.48,
+      "text": "file, we can see we have a brand new"
+    },
+    {
+      "start": 170.48,
+      "duration": 3.68,
+      "text": "setup hook. If we collapse just to our"
+    },
+    {
+      "start": 172.56,
+      "duration": 3.44,
+      "text": "setup hook, you can see we have two new"
+    },
+    {
+      "start": 174.16,
+      "duration": 4,
+      "text": "options for this hook. We're matching a"
+    },
+    {
+      "start": 176,
+      "duration": 3.92,
+      "text": "knit and maintenance. You can see just"
+    },
+    {
+      "start": 178.16,
+      "duration": 3.52,
+      "text": "like all of our other hooks, we're"
+    },
+    {
+      "start": 179.92,
+      "duration": 3.52,
+      "text": "running a setup init command. Let's"
+    },
+    {
+      "start": 181.68,
+      "duration": 4.559,
+      "text": "crack that open and let's see what"
+    },
+    {
+      "start": 183.44,
+      "duration": 6.4,
+      "text": "happened. We have a script that runs"
+    },
+    {
+      "start": 186.239,
+      "duration": 5.36,
+      "text": "several commands when we pass in d-init"
+    },
+    {
+      "start": 189.84,
+      "duration": 3.679,
+      "text": "into cloud code. It's just going to run"
+    },
+    {
+      "start": 191.599,
+      "duration": 3.28,
+      "text": "a few setup commands for us. All right,"
+    },
+    {
+      "start": 193.519,
+      "duration": 2.72,
+      "text": "so you can see here we have a run"
+    },
+    {
+      "start": 194.879,
+      "duration": 3.201,
+      "text": "function that is actually just going to"
+    },
+    {
+      "start": 196.239,
+      "duration": 4,
+      "text": "pass this right into a terminal instance"
+    },
+    {
+      "start": 198.08,
+      "duration": 4.32,
+      "text": "and execute the command. If we search"
+    },
+    {
+      "start": 200.239,
+      "duration": 5.121,
+      "text": "for run here, you can see we're running"
+    },
+    {
+      "start": 202.4,
+      "duration": 5.28,
+      "text": "uvync mpm install and we're executing"
+    },
+    {
+      "start": 205.36,
+      "duration": 5.04,
+      "text": "this database script. Our installation"
+    },
+    {
+      "start": 207.68,
+      "duration": 6.16,
+      "text": "command is doing installation work and"
+    },
+    {
+      "start": 210.4,
+      "duration": 5.839,
+      "text": "it runs anytime we pass in this dash and"
+    },
+    {
+      "start": 213.84,
+      "duration": 4.319,
+      "text": "flag into clawed code. This is just a"
+    },
+    {
+      "start": 216.239,
+      "duration": 4.08,
+      "text": "script. This is cool, but it's not that"
+    },
+    {
+      "start": 218.159,
+      "duration": 4.08,
+      "text": "novel. Most production code bases"
+    },
+    {
+      "start": 220.319,
+      "duration": 3.92,
+      "text": "already have scripts like this set up."
+    },
+    {
+      "start": 222.239,
+      "duration": 3.841,
+      "text": "This is just raw deterministic code."
+    },
+    {
+      "start": 224.239,
+      "duration": 3.92,
+      "text": "It's not that valuable. It's not that"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.84,
+      "text": "new or novel. We'll talk about how we"
+    },
+    {
+      "start": 228.159,
+      "duration": 3.841,
+      "text": "can push this to the next level in a"
+    },
+    {
+      "start": 229.92,
+      "duration": 4.08,
+      "text": "moment. First, let's run our next just"
+    },
+    {
+      "start": 232,
+      "duration": 5,
+      "text": "command to kick off our maintenance"
+    },
+    {
+      "start": 234,
+      "duration": 3,
+      "text": "workflow."
+    },
+    {
+      "start": 238.159,
+      "duration": 4.321,
+      "text": "Same pattern, different codebase life"
+    },
+    {
+      "start": 240.56,
+      "duration": 3.679,
+      "text": "cycle stage. We're going to clear. We'll"
+    },
+    {
+      "start": 242.48,
+      "duration": 3.28,
+      "text": "type just so we can see all of our"
+    },
+    {
+      "start": 244.239,
+      "duration": 4.161,
+      "text": "commands that we can quickly fire off."
+    },
+    {
+      "start": 245.76,
+      "duration": 4.72,
+      "text": "And we'll type just clmm. This is our"
+    },
+    {
+      "start": 248.4,
+      "duration": 4.399,
+      "text": "deterministic codebase maintenance. It's"
+    },
+    {
+      "start": 250.48,
+      "duration": 4.959,
+      "text": "going to fire up cloud code and run in"
+    },
+    {
+      "start": 252.799,
+      "duration": 4.56,
+      "text": "maintenance mode. Just like our d-init"
+    },
+    {
+      "start": 255.439,
+      "duration": 3.841,
+      "text": "command, maintenance does something very"
+    },
+    {
+      "start": 257.359,
+      "duration": 3.921,
+      "text": "similar. You can see we're running setup"
+    },
+    {
+      "start": 259.28,
+      "duration": 4.16,
+      "text": "maintenance and it's another script"
+    },
+    {
+      "start": 261.28,
+      "duration": 3.84,
+      "text": "that's running another workflow with"
+    },
+    {
+      "start": 263.44,
+      "duration": 3.68,
+      "text": "deterministic code. You can see we have"
+    },
+    {
+      "start": 265.12,
+      "duration": 4.16,
+      "text": "another log file that's going to execute"
+    },
+    {
+      "start": 267.12,
+      "duration": 3.6,
+      "text": "and append. And if we just do that exact"
+    },
+    {
+      "start": 269.28,
+      "duration": 2.8,
+      "text": "same thing, you know, we have our run"
+    },
+    {
+      "start": 270.72,
+      "duration": 3.12,
+      "text": "command. We can collapse everything to"
+    },
+    {
+      "start": 272.08,
+      "duration": 3.6,
+      "text": "see what the script looks like. Let's go"
+    },
+    {
+      "start": 273.84,
+      "duration": 3.52,
+      "text": "ahead and look for where we're using"
+    },
+    {
+      "start": 275.68,
+      "duration": 3.12,
+      "text": "that run command. And you can see we're"
+    },
+    {
+      "start": 277.36,
+      "duration": 3.36,
+      "text": "updating our backend dependencies for"
+    },
+    {
+      "start": 278.8,
+      "duration": 3.679,
+      "text": "this codebase. We're running mpm update."
+    },
+    {
+      "start": 280.72,
+      "duration": 4.24,
+      "text": "And then we're doing some additional"
+    },
+    {
+      "start": 282.479,
+      "duration": 4.641,
+      "text": "scripting on our database. For this"
+    },
+    {
+      "start": 284.96,
+      "duration": 3.6,
+      "text": "codebase example, we're using SQLite 3."
+    },
+    {
+      "start": 287.12,
+      "duration": 2.639,
+      "text": "Just showcasing that you could be"
+    },
+    {
+      "start": 288.56,
+      "duration": 3.919,
+      "text": "running some type of maintenance"
+    },
+    {
+      "start": 289.759,
+      "duration": 4.321,
+      "text": "operation, migrations, artifact cleanup,"
+    },
+    {
+      "start": 292.479,
+      "duration": 4.401,
+      "text": "so on and so forth. Right? This is where"
+    },
+    {
+      "start": 294.08,
+      "duration": 5.119,
+      "text": "you run that. And again, this isn't that"
+    },
+    {
+      "start": 296.88,
+      "duration": 4.56,
+      "text": "interesting. Okay, it's a script that"
+    },
+    {
+      "start": 299.199,
+      "duration": 4.161,
+      "text": "runs when you pass in a specific flag"
+    },
+    {
+      "start": 301.44,
+      "duration": 3.52,
+      "text": "into starting up cloud code. It's nearly"
+    },
+    {
+      "start": 303.36,
+      "duration": 3.52,
+      "text": "the equivalent of just running this"
+    },
+    {
+      "start": 304.96,
+      "duration": 3.6,
+      "text": "yourself. So, why is this interesting?"
+    },
+    {
+      "start": 306.88,
+      "duration": 3.44,
+      "text": "Why did the cloud code engineers build"
+    },
+    {
+      "start": 308.56,
+      "duration": 4.079,
+      "text": "this out? Right? This is an optional"
+    },
+    {
+      "start": 310.32,
+      "duration": 4,
+      "text": "additional hook that runs before"
+    },
+    {
+      "start": 312.639,
+      "duration": 3.521,
+      "text": "sessions start. Right? And to be super"
+    },
+    {
+      "start": 314.32,
+      "duration": 4.08,
+      "text": "clear, if we search for setup, you can"
+    },
+    {
+      "start": 316.16,
+      "duration": 3.68,
+      "text": "see that this is a brand new script. And"
+    },
+    {
+      "start": 318.4,
+      "duration": 3.68,
+      "text": "you know, the cloud code team says it"
+    },
+    {
+      "start": 319.84,
+      "duration": 4.24,
+      "text": "themselves. Run this to set up and"
+    },
+    {
+      "start": 322.08,
+      "duration": 3.6,
+      "text": "maintain the code base. All right, use"
+    },
+    {
+      "start": 324.08,
+      "duration": 3.28,
+      "text": "this for operations you do not want to"
+    },
+    {
+      "start": 325.68,
+      "duration": 3.28,
+      "text": "run on every session like installing"
+    },
+    {
+      "start": 327.36,
+      "duration": 4.16,
+      "text": "dependencies, running migrations, or"
+    },
+    {
+      "start": 328.96,
+      "duration": 4.959,
+      "text": "periodic maintenance tasks. So again,"
+    },
+    {
+      "start": 331.52,
+      "duration": 4.8,
+      "text": "not super novel, but what we can do with"
+    },
+    {
+      "start": 333.919,
+      "duration": 4.161,
+      "text": "this is novel. When we combine this with"
+    },
+    {
+      "start": 336.32,
+      "duration": 4.319,
+      "text": "a great prompt, some logging, some"
+    },
+    {
+      "start": 338.08,
+      "duration": 5.679,
+      "text": "documentation, we can initialize and"
+    },
+    {
+      "start": 340.639,
+      "duration": 5.601,
+      "text": "then install and have an agent run to"
+    },
+    {
+      "start": 343.759,
+      "duration": 4.401,
+      "text": "validate this workflow. We can run a"
+    },
+    {
+      "start": 346.24,
+      "duration": 4.16,
+      "text": "command that does our installation for"
+    },
+    {
+      "start": 348.16,
+      "duration": 4.08,
+      "text": "us when we have that new engineer on our"
+    },
+    {
+      "start": 350.4,
+      "duration": 3.76,
+      "text": "team, that new hire. We can get them"
+    },
+    {
+      "start": 352.24,
+      "duration": 4.48,
+      "text": "quickly set up or we can set up our"
+    },
+    {
+      "start": 354.16,
+      "duration": 4.479,
+      "text": "codebase on other machines. Hint hint,"
+    },
+    {
+      "start": 356.72,
+      "duration": 4.16,
+      "text": "agent sandboxes, and they can just"
+    },
+    {
+      "start": 358.639,
+      "duration": 3.681,
+      "text": "quickly set things up right from this"
+    },
+    {
+      "start": 360.88,
+      "duration": 3.439,
+      "text": "just file. So, let's go ahead and see"
+    },
+    {
+      "start": 362.32,
+      "duration": 5.4,
+      "text": "what it looks like to combine scripts"
+    },
+    {
+      "start": 364.319,
+      "duration": 3.401,
+      "text": "with agents"
+    },
+    {
+      "start": 369.68,
+      "duration": 4.56,
+      "text": "just to see all of our options. Once"
+    },
+    {
+      "start": 371.44,
+      "duration": 4.4,
+      "text": "again, just cli. And you can see exactly"
+    },
+    {
+      "start": 374.24,
+      "duration": 3.12,
+      "text": "what this is going to run. The same"
+    },
+    {
+      "start": 375.84,
+      "duration": 2.96,
+      "text": "command with a prompt that's going to"
+    },
+    {
+      "start": 377.36,
+      "duration": 3.36,
+      "text": "immediately kick off. So, let's fire"
+    },
+    {
+      "start": 378.8,
+      "duration": 3.76,
+      "text": "this. And you can see here our install"
+    },
+    {
+      "start": 380.72,
+      "duration": 3.599,
+      "text": "command is running right away. The first"
+    },
+    {
+      "start": 382.56,
+      "duration": 3.68,
+      "text": "thing it does is it's running that"
+    },
+    {
+      "start": 384.319,
+      "duration": 4.081,
+      "text": "/prime command. You can think of this"
+    },
+    {
+      "start": 386.24,
+      "duration": 3.519,
+      "text": "like our claw.md file except it's"
+    },
+    {
+      "start": 388.4,
+      "duration": 2.799,
+      "text": "dynamic. You can point it to whatever"
+    },
+    {
+      "start": 389.759,
+      "duration": 3.041,
+      "text": "you want and you can run it whenever you"
+    },
+    {
+      "start": 391.199,
+      "duration": 3.201,
+      "text": "want. It's pulling in documentation."
+    },
+    {
+      "start": 392.8,
+      "duration": 4.08,
+      "text": "It's understanding the codebase and then"
+    },
+    {
+      "start": 394.4,
+      "duration": 4.239,
+      "text": "it will run installation validation."
+    },
+    {
+      "start": 396.88,
+      "duration": 3.599,
+      "text": "It's running the usual report for our"
+    },
+    {
+      "start": 398.639,
+      "duration": 3.601,
+      "text": "prime command, telling us how the"
+    },
+    {
+      "start": 400.479,
+      "duration": 3.28,
+      "text": "codebase works. When we're priming,"
+    },
+    {
+      "start": 402.24,
+      "duration": 3.679,
+      "text": "we're getting our agent up and running"
+    },
+    {
+      "start": 403.759,
+      "duration": 4.961,
+      "text": "on the basics of the codebase. But now,"
+    },
+    {
+      "start": 405.919,
+      "duration": 4.801,
+      "text": "this agent is continuing to install. So,"
+    },
+    {
+      "start": 408.72,
+      "duration": 3.68,
+      "text": "you can see the initialize hook ran and"
+    },
+    {
+      "start": 410.72,
+      "duration": 4.08,
+      "text": "now it's going to get the most recent"
+    },
+    {
+      "start": 412.4,
+      "duration": 4.48,
+      "text": "results and report them to us. So, we're"
+    },
+    {
+      "start": 414.8,
+      "duration": 4.08,
+      "text": "building an agent on top of our"
+    },
+    {
+      "start": 416.88,
+      "duration": 3.92,
+      "text": "deterministic installation process. You"
+    },
+    {
+      "start": 418.88,
+      "duration": 5.039,
+      "text": "know, keep note, we still ran a nit"
+    },
+    {
+      "start": 420.8,
+      "duration": 5.36,
+      "text": "there. So before our /prime command ran"
+    },
+    {
+      "start": 423.919,
+      "duration": 4.641,
+      "text": "and kicked off the user prompt sububmit"
+    },
+    {
+      "start": 426.16,
+      "duration": 3.84,
+      "text": "hook, we ran that setup command. We can"
+    },
+    {
+      "start": 428.56,
+      "duration": 4,
+      "text": "then thanks to our logging and"
+    },
+    {
+      "start": 430,
+      "duration": 4.16,
+      "text": "setup.nit, our agent can read that out"
+    },
+    {
+      "start": 432.56,
+      "duration": 3.6,
+      "text": "and report on it. All right, so it"
+    },
+    {
+      "start": 434.16,
+      "duration": 3.759,
+      "text": "actually created documentation for us on"
+    },
+    {
+      "start": 436.16,
+      "duration": 3.92,
+      "text": "installation. So we have install results"
+    },
+    {
+      "start": 437.919,
+      "duration": 4,
+      "text": "here and you can see it's reported it to"
+    },
+    {
+      "start": 440.08,
+      "duration": 3.28,
+      "text": "us. We don't even need to go that deep"
+    },
+    {
+      "start": 441.919,
+      "duration": 3.201,
+      "text": "though because it just gave us that"
+    },
+    {
+      "start": 443.36,
+      "duration": 3.76,
+      "text": "response right here. So if we open this"
+    },
+    {
+      "start": 445.12,
+      "duration": 5.12,
+      "text": "up, you can see it wrote that doc and it"
+    },
+    {
+      "start": 447.12,
+      "duration": 5.359,
+      "text": "gave us the install success. Now this is"
+    },
+    {
+      "start": 450.24,
+      "duration": 4,
+      "text": "a simple again demo example. A lot of"
+    },
+    {
+      "start": 452.479,
+      "duration": 3.361,
+      "text": "what I do here on the channel every"
+    },
+    {
+      "start": 454.24,
+      "duration": 3.84,
+      "text": "single week is I try to give you the"
+    },
+    {
+      "start": 455.84,
+      "duration": 3.6,
+      "text": "idea you can embed into your work into"
+    },
+    {
+      "start": 458.08,
+      "duration": 2.64,
+      "text": "your codebase. But you can see here we"
+    },
+    {
+      "start": 459.44,
+      "duration": 2.879,
+      "text": "have a great report. Now what if"
+    },
+    {
+      "start": 460.72,
+      "duration": 4,
+      "text": "something went wrong? This is where we"
+    },
+    {
+      "start": 462.319,
+      "duration": 5.201,
+      "text": "would add common workflow resolution"
+    },
+    {
+      "start": 464.72,
+      "duration": 4.96,
+      "text": "steps so that your installation prompt"
+    },
+    {
+      "start": 467.52,
+      "duration": 3.44,
+      "text": "does the job you would have to do when"
+    },
+    {
+      "start": 469.68,
+      "duration": 3.04,
+      "text": "you're setting up new engineers on your"
+    },
+    {
+      "start": 470.96,
+      "duration": 4.239,
+      "text": "team. when you're cloning your repo and"
+    },
+    {
+      "start": 472.72,
+      "duration": 3.919,
+      "text": "setting up new agent sandboxes. This"
+    },
+    {
+      "start": 475.199,
+      "duration": 3.44,
+      "text": "command is going to be very very"
+    },
+    {
+      "start": 476.639,
+      "duration": 4.641,
+      "text": "important for spinning up and setting up"
+    },
+    {
+      "start": 478.639,
+      "duration": 4.881,
+      "text": "your new code bases. And so this is our"
+    },
+    {
+      "start": 481.28,
+      "duration": 5.039,
+      "text": "/install command. So we've combined"
+    },
+    {
+      "start": 483.52,
+      "duration": 5.119,
+      "text": "terminism, some logging, and our agentic"
+    },
+    {
+      "start": 486.319,
+      "duration": 4,
+      "text": "prompt to set up our codebase in an"
+    },
+    {
+      "start": 488.639,
+      "duration": 3.361,
+      "text": "interactive way. This is a new pattern"
+    },
+    {
+      "start": 490.319,
+      "duration": 3.44,
+      "text": "that I'm going to be deploying in every"
+    },
+    {
+      "start": 492,
+      "duration": 3.919,
+      "text": "single one of my codebases moving"
+    },
+    {
+      "start": 493.759,
+      "duration": 3.84,
+      "text": "forward. Why not standardize your"
+    },
+    {
+      "start": 495.919,
+      "duration": 3.68,
+      "text": "installation process? And we can, of"
+    },
+    {
+      "start": 497.599,
+      "duration": 3.681,
+      "text": "course, open up this install prompt. you"
+    },
+    {
+      "start": 499.599,
+      "duration": 3.361,
+      "text": "know exactly where this is.cloud"
+    },
+    {
+      "start": 501.28,
+      "duration": 3.359,
+      "text": "commands/install"
+    },
+    {
+      "start": 502.96,
+      "duration": 3.919,
+      "text": "and we can see the following workflow."
+    },
+    {
+      "start": 504.639,
+      "duration": 4,
+      "text": "As always, we have our standard agentic"
+    },
+    {
+      "start": 506.879,
+      "duration": 3.521,
+      "text": "prompt format with only the sections"
+    },
+    {
+      "start": 508.639,
+      "duration": 4.001,
+      "text": "that we need to ship this. We'll get to"
+    },
+    {
+      "start": 510.4,
+      "duration": 4.16,
+      "text": "our human in the loop mode variable here"
+    },
+    {
+      "start": 512.64,
+      "duration": 4.399,
+      "text": "in a second. But you can see this is a"
+    },
+    {
+      "start": 514.56,
+      "duration": 4.24,
+      "text": "very simple workflow. We're running our"
+    },
+    {
+      "start": 517.039,
+      "duration": 3.281,
+      "text": "/prime. We're checking if we're in"
+    },
+    {
+      "start": 518.8,
+      "duration": 3.359,
+      "text": "interactive mode, which we'll get to in"
+    },
+    {
+      "start": 520.32,
+      "duration": 3.599,
+      "text": "just a second. We read the log file. We"
+    },
+    {
+      "start": 522.159,
+      "duration": 3.201,
+      "text": "write the results and then report what's"
+    },
+    {
+      "start": 523.919,
+      "duration": 3.201,
+      "text": "going on to the user. All right. And"
+    },
+    {
+      "start": 525.36,
+      "duration": 4.56,
+      "text": "then from here you could add a lot more"
+    },
+    {
+      "start": 527.12,
+      "duration": 4.8,
+      "text": "detail on how to resolve any issues that"
+    },
+    {
+      "start": 529.92,
+      "duration": 4.24,
+      "text": "come up if you have common issues that"
+    },
+    {
+      "start": 531.92,
+      "duration": 3.52,
+      "text": "reoccur during the installation process."
+    },
+    {
+      "start": 534.16,
+      "duration": 3.44,
+      "text": "Otherwise you can just have a"
+    },
+    {
+      "start": 535.44,
+      "duration": 4.48,
+      "text": "conversation with your agent and discuss"
+    },
+    {
+      "start": 537.6,
+      "duration": 4.4,
+      "text": "how to resolve the specific failures. So"
+    },
+    {
+      "start": 539.92,
+      "duration": 3.76,
+      "text": "that's the install command. Now this is"
+    },
+    {
+      "start": 542,
+      "duration": 3.6,
+      "text": "where things get interesting. We've now"
+    },
+    {
+      "start": 543.68,
+      "duration": 3.839,
+      "text": "combined agents with the existing"
+    },
+    {
+      "start": 545.6,
+      "duration": 6.2,
+      "text": "scripts with the logging. We can now do"
+    },
+    {
+      "start": 547.519,
+      "duration": 4.281,
+      "text": "something powerful like this."
+    },
+    {
+      "start": 553.36,
+      "duration": 3.84,
+      "text": "So as normal, we'll run the just command"
+    },
+    {
+      "start": 555.279,
+      "duration": 3.921,
+      "text": "so we can see the available options to"
+    },
+    {
+      "start": 557.2,
+      "duration": 4.56,
+      "text": "us in this codebase. I find myself using"
+    },
+    {
+      "start": 559.2,
+      "duration": 4.72,
+      "text": "this just file over and over now to"
+    },
+    {
+      "start": 561.76,
+      "duration": 4.48,
+      "text": "standardize certain workflows, certain"
+    },
+    {
+      "start": 563.92,
+      "duration": 4.479,
+      "text": "agents, and certain ways to launching"
+    },
+    {
+      "start": 566.24,
+      "duration": 3.68,
+      "text": "into engineering inside of a specific"
+    },
+    {
+      "start": 568.399,
+      "duration": 3.841,
+      "text": "codebase. I really do think about the"
+    },
+    {
+      "start": 569.92,
+      "duration": 4.16,
+      "text": "just file as a launchpad for all the"
+    },
+    {
+      "start": 572.24,
+      "duration": 3.84,
+      "text": "commands that you and your team will run"
+    },
+    {
+      "start": 574.08,
+      "duration": 4.08,
+      "text": "and your agents will run throughout your"
+    },
+    {
+      "start": 576.08,
+      "duration": 3.84,
+      "text": "developer work. We're going to run a"
+    },
+    {
+      "start": 578.16,
+      "duration": 3.52,
+      "text": "very very powerful command that I think"
+    },
+    {
+      "start": 579.92,
+      "duration": 3.28,
+      "text": "will represent the future of how every"
+    },
+    {
+      "start": 581.68,
+      "duration": 5.04,
+      "text": "codebase will get set up. We're going to"
+    },
+    {
+      "start": 583.2,
+      "duration": 5.28,
+      "text": "run So we'll type just and"
+    },
+    {
+      "start": 586.72,
+      "duration": 3.2,
+      "text": "we'll kick this command off and it's"
+    },
+    {
+      "start": 588.48,
+      "duration": 3.359,
+      "text": "going to do something pretty incredible"
+    },
+    {
+      "start": 589.92,
+      "duration": 4.08,
+      "text": "here. Not only will we kick off the"
+    },
+    {
+      "start": 591.839,
+      "duration": 4.241,
+      "text": "codebase as normal, it's going to prime"
+    },
+    {
+      "start": 594,
+      "duration": 4.399,
+      "text": "itself, get itself set up, understand"
+    },
+    {
+      "start": 596.08,
+      "duration": 4.08,
+      "text": "where everything is much faster than you"
+    },
+    {
+      "start": 598.399,
+      "duration": 4.081,
+      "text": "or I could ever set up a new codebase"
+    },
+    {
+      "start": 600.16,
+      "duration": 4.56,
+      "text": "and truly understand it end to end. And"
+    },
+    {
+      "start": 602.48,
+      "duration": 4.56,
+      "text": "then we're going to run our human in the"
+    },
+    {
+      "start": 604.72,
+      "duration": 4.559,
+      "text": "loop version of this prompt. In fact,"
+    },
+    {
+      "start": 607.04,
+      "duration": 4.16,
+      "text": "it's just a branching point off from our"
+    },
+    {
+      "start": 609.279,
+      "duration": 4.321,
+      "text": "existing prompt. You can see our agent"
+    },
+    {
+      "start": 611.2,
+      "duration": 4.24,
+      "text": "recognizes since the mode argument is"
+    },
+    {
+      "start": 613.6,
+      "duration": 3.359,
+      "text": "true, I need to run interactive"
+    },
+    {
+      "start": 615.44,
+      "duration": 3.12,
+      "text": "installation. And now we're going to"
+    },
+    {
+      "start": 616.959,
+      "duration": 3.601,
+      "text": "work back and forth with our agent,"
+    },
+    {
+      "start": 618.56,
+      "duration": 4.24,
+      "text": "answer a few questions on how we want"
+    },
+    {
+      "start": 620.56,
+      "duration": 4.56,
+      "text": "things to get set up. This is very, very"
+    },
+    {
+      "start": 622.8,
+      "duration": 4,
+      "text": "powerful for onboarding new engineers."
+    },
+    {
+      "start": 625.12,
+      "duration": 3.68,
+      "text": "So the first question here is how should"
+    },
+    {
+      "start": 626.8,
+      "duration": 4.4,
+      "text": "I handle the database? We'll say fresh"
+    },
+    {
+      "start": 628.8,
+      "duration": 4.479,
+      "text": "database. What installation mode? Full,"
+    },
+    {
+      "start": 631.2,
+      "duration": 3.52,
+      "text": "minimal, skip, we'll do full. Should I"
+    },
+    {
+      "start": 633.279,
+      "duration": 2.881,
+      "text": "check your environment variables? Let's"
+    },
+    {
+      "start": 634.72,
+      "duration": 3.52,
+      "text": "do it. How would you like to set these"
+    },
+    {
+      "start": 636.16,
+      "duration": 3.84,
+      "text": "up? Let's get the guided experience. And"
+    },
+    {
+      "start": 638.24,
+      "duration": 3.52,
+      "text": "then we can submit these questions. I"
+    },
+    {
+      "start": 640,
+      "duration": 3.519,
+      "text": "think Cloud Code only supports four"
+    },
+    {
+      "start": 641.76,
+      "duration": 3.12,
+      "text": "questions at a time. So that's why it's"
+    },
+    {
+      "start": 643.519,
+      "duration": 3.201,
+      "text": "doing this. There we go. So we're now"
+    },
+    {
+      "start": 644.88,
+      "duration": 4.399,
+      "text": "running the workflow. And you can see"
+    },
+    {
+      "start": 646.72,
+      "duration": 4.4,
+      "text": "our agent is doing some preliminary"
+    },
+    {
+      "start": 649.279,
+      "duration": 3.761,
+      "text": "tests. We want to see if we have Python,"
+    },
+    {
+      "start": 651.12,
+      "duration": 3.68,
+      "text": "Node, UV, blah blah blah. And then it's"
+    },
+    {
+      "start": 653.04,
+      "duration": 3.76,
+      "text": "just going to run the installation as it"
+    },
+    {
+      "start": 654.8,
+      "duration": 3.92,
+      "text": "did before, right? But now we have this"
+    },
+    {
+      "start": 656.8,
+      "duration": 3.92,
+      "text": "back and forth human in the loop process"
+    },
+    {
+      "start": 658.72,
+      "duration": 3.6,
+      "text": "where we can set things up together. All"
+    },
+    {
+      "start": 660.72,
+      "duration": 3.359,
+      "text": "right. So there it is initializing the"
+    },
+    {
+      "start": 662.32,
+      "duration": 3.36,
+      "text": "database. Now it's going to configure"
+    },
+    {
+      "start": 664.079,
+      "duration": 3.2,
+      "text": "our environment variables. So these are"
+    },
+    {
+      "start": 665.68,
+      "duration": 3.68,
+      "text": "just things that you need to do all the"
+    },
+    {
+      "start": 667.279,
+      "duration": 3.921,
+      "text": "time with your agents. You can see here"
+    },
+    {
+      "start": 669.36,
+      "duration": 3.919,
+      "text": "uh I have the environment variable"
+    },
+    {
+      "start": 671.2,
+      "duration": 3.68,
+      "text": "blocked. So this agent is not going to"
+    },
+    {
+      "start": 673.279,
+      "duration": 4.081,
+      "text": "be able to touch this. So now it's just"
+    },
+    {
+      "start": 674.88,
+      "duration": 4.959,
+      "text": "going to directly ask me have I set up"
+    },
+    {
+      "start": 677.36,
+      "duration": 4.56,
+      "text": "the environment file? And this all might"
+    },
+    {
+      "start": 679.839,
+      "duration": 3.841,
+      "text": "seem like a small thing that you could"
+    },
+    {
+      "start": 681.92,
+      "duration": 3.359,
+      "text": "just set up in the readme. But why do"
+    },
+    {
+      "start": 683.68,
+      "duration": 3.36,
+      "text": "this by hand anymore? you know, we're"
+    },
+    {
+      "start": 685.279,
+      "duration": 3.521,
+      "text": "adding to the pile of things that our"
+    },
+    {
+      "start": 687.04,
+      "duration": 3.6,
+      "text": "agents can do that we don't have to do"
+    },
+    {
+      "start": 688.8,
+      "duration": 3.76,
+      "text": "anymore. Write that configuration"
+    },
+    {
+      "start": 690.64,
+      "duration": 3.12,
+      "text": "prompt, write that maintenance prompt,"
+    },
+    {
+      "start": 692.56,
+      "duration": 3.04,
+      "text": "and then walk through it with your"
+    },
+    {
+      "start": 693.76,
+      "duration": 4.4,
+      "text": "agents, right? Make that onboarding"
+    },
+    {
+      "start": 695.6,
+      "duration": 3.919,
+      "text": "process for your codebase ultra smooth."
+    },
+    {
+      "start": 698.16,
+      "duration": 2.64,
+      "text": "I'll just say that I've copied and"
+    },
+    {
+      "start": 699.519,
+      "duration": 2.961,
+      "text": "configured this. There's actually"
+    },
+    {
+      "start": 700.8,
+      "duration": 3.2,
+      "text": "nothing we need to configure for this"
+    },
+    {
+      "start": 702.48,
+      "duration": 3.359,
+      "text": "codebase in particular. You can see we"
+    },
+    {
+      "start": 704,
+      "duration": 3.36,
+      "text": "have some example uh files there. I'll"
+    },
+    {
+      "start": 705.839,
+      "duration": 3.041,
+      "text": "just say that I have done this. And then"
+    },
+    {
+      "start": 707.36,
+      "duration": 3.28,
+      "text": "our agent will just continue the"
+    },
+    {
+      "start": 708.88,
+      "duration": 3.68,
+      "text": "workflow. And so we're going down the"
+    },
+    {
+      "start": 710.64,
+      "duration": 3.52,
+      "text": "step, right? This process that you would"
+    },
+    {
+      "start": 712.56,
+      "duration": 3.36,
+      "text": "normally run with another engineer,"
+    },
+    {
+      "start": 714.16,
+      "duration": 3.6,
+      "text": "right? you would need to pair program or"
+    },
+    {
+      "start": 715.92,
+      "duration": 3.44,
+      "text": "you would be the one pair programming."
+    },
+    {
+      "start": 717.76,
+      "duration": 3.92,
+      "text": "We now are running into another step. We"
+    },
+    {
+      "start": 719.36,
+      "duration": 4.24,
+      "text": "need to pull in some documentation for"
+    },
+    {
+      "start": 721.68,
+      "duration": 3.839,
+      "text": "our agents. And as things get more"
+    },
+    {
+      "start": 723.6,
+      "duration": 4.4,
+      "text": "agentic, this is going to be important."
+    },
+    {
+      "start": 725.519,
+      "duration": 4.56,
+      "text": "What context you need to pull in from"
+    },
+    {
+      "start": 728,
+      "duration": 4,
+      "text": "your services, from your third party"
+    },
+    {
+      "start": 730.079,
+      "duration": 4.241,
+      "text": "applications, from your ticket"
+    },
+    {
+      "start": 732,
+      "duration": 3.92,
+      "text": "management systems, for your database."
+    },
+    {
+      "start": 734.32,
+      "duration": 4,
+      "text": "This could be anything. We could be"
+    },
+    {
+      "start": 735.92,
+      "duration": 5.2,
+      "text": "walking through configuration steps for"
+    },
+    {
+      "start": 738.32,
+      "duration": 4.8,
+      "text": "AWS or the Google Cloud CLI. We really"
+    },
+    {
+      "start": 741.12,
+      "duration": 4,
+      "text": "are just working through common"
+    },
+    {
+      "start": 743.12,
+      "duration": 3.92,
+      "text": "developer workflows with our agents to"
+    },
+    {
+      "start": 745.12,
+      "duration": 4.159,
+      "text": "get things set up more quickly and very"
+    },
+    {
+      "start": 747.04,
+      "duration": 4.32,
+      "text": "importantly to standardize this process."
+    },
+    {
+      "start": 749.279,
+      "duration": 3.68,
+      "text": "Right? If we look at the install.md, you"
+    },
+    {
+      "start": 751.36,
+      "duration": 3.36,
+      "text": "can see here we're running prime, but"
+    },
+    {
+      "start": 752.959,
+      "duration": 4.32,
+      "text": "then we're running this second command."
+    },
+    {
+      "start": 754.72,
+      "duration": 4.4,
+      "text": "Check for interactive mode. If yes, kick"
+    },
+    {
+      "start": 757.279,
+      "duration": 3.921,
+      "text": "it off and ignore the rest of this"
+    },
+    {
+      "start": 759.12,
+      "duration": 4.48,
+      "text": "prompt. So what happens there, right,"
+    },
+    {
+      "start": 761.2,
+      "duration": 4.48,
+      "text": "install-hill. You can see here we have a"
+    },
+    {
+      "start": 763.6,
+      "duration": 4.4,
+      "text": "great classic agentic prompt, but inside"
+    },
+    {
+      "start": 765.68,
+      "duration": 4.24,
+      "text": "of the workflow, we have several"
+    },
+    {
+      "start": 768,
+      "duration": 3.12,
+      "text": "questions to ask the user. And that's"
+    },
+    {
+      "start": 769.92,
+      "duration": 2.96,
+      "text": "exactly what we're working through right"
+    },
+    {
+      "start": 771.12,
+      "duration": 4,
+      "text": "now, right? So go ahead. I'll say fetch"
+    },
+    {
+      "start": 772.88,
+      "duration": 4.72,
+      "text": "all docs. It's going to pull in outside"
+    },
+    {
+      "start": 775.12,
+      "duration": 4.24,
+      "text": "resources that it should have access to"
+    },
+    {
+      "start": 777.6,
+      "duration": 3.28,
+      "text": "cuz it has the environment variable set"
+    },
+    {
+      "start": 779.36,
+      "duration": 3.919,
+      "text": "up now. And we're going to do some"
+    },
+    {
+      "start": 780.88,
+      "duration": 4,
+      "text": "documentation scraping based on some"
+    },
+    {
+      "start": 783.279,
+      "duration": 2.961,
+      "text": "information in the prompt. So not only"
+    },
+    {
+      "start": 784.88,
+      "duration": 3.04,
+      "text": "is this great for the new engineer, but"
+    },
+    {
+      "start": 786.24,
+      "duration": 3.52,
+      "text": "it's great for the onboarding engineer,"
+    },
+    {
+      "start": 787.92,
+      "duration": 4,
+      "text": "right? The lead engineer, the you know,"
+    },
+    {
+      "start": 789.76,
+      "duration": 4.879,
+      "text": "your your co-worker. Setting this stuff"
+    },
+    {
+      "start": 791.92,
+      "duration": 4.24,
+      "text": "up is quite annoying and it's easy to"
+    },
+    {
+      "start": 794.639,
+      "duration": 3.361,
+      "text": "forget"
+    },
+    {
+      "start": 796.16,
+      "duration": 5.119,
+      "text": "all the different things it takes to set"
+    },
+    {
+      "start": 798,
+      "duration": 5.839,
+      "text": "up a new codebase. This is why it's so"
+    },
+    {
+      "start": 801.279,
+      "duration": 5.201,
+      "text": "powerful to in natural language just"
+    },
+    {
+      "start": 803.839,
+      "duration": 4.721,
+      "text": "prompt engineer a endto-end setup"
+    },
+    {
+      "start": 806.48,
+      "duration": 3.68,
+      "text": "process for your codebase. And now when"
+    },
+    {
+      "start": 808.56,
+      "duration": 3.279,
+      "text": "you have to update something, you don't"
+    },
+    {
+      "start": 810.16,
+      "duration": 3.84,
+      "text": "look at the docs. You look at the"
+    },
+    {
+      "start": 811.839,
+      "duration": 4,
+      "text": "script, the initial setup script, and"
+    },
+    {
+      "start": 814,
+      "duration": 3.839,
+      "text": "you look at this prompt right here,"
+    },
+    {
+      "start": 815.839,
+      "duration": 3.761,
+      "text": "right? Install human in the loop. You"
+    },
+    {
+      "start": 817.839,
+      "duration": 3.921,
+      "text": "can set up a great interactive workflow"
+    },
+    {
+      "start": 819.6,
+      "duration": 4.08,
+      "text": "like this or just an end-to-end oneshot"
+    },
+    {
+      "start": 821.76,
+      "duration": 3.68,
+      "text": "workflow where your agent then reports"
+    },
+    {
+      "start": 823.68,
+      "duration": 3.12,
+      "text": "everything that went right or wrong. And"
+    },
+    {
+      "start": 825.44,
+      "duration": 3.76,
+      "text": "so you can see here we have a"
+    },
+    {
+      "start": 826.8,
+      "duration": 4,
+      "text": "documentation scraping step. Our agent"
+    },
+    {
+      "start": 829.2,
+      "duration": 3.68,
+      "text": "pulled that in, wrote some new"
+    },
+    {
+      "start": 830.8,
+      "duration": 3.76,
+      "text": "documentation, did a little update in"
+    },
+    {
+      "start": 832.88,
+      "duration": 3.199,
+      "text": "interactive mode here. Looks like I just"
+    },
+    {
+      "start": 834.56,
+      "duration": 3.68,
+      "text": "ran that before. And then it's once"
+    },
+    {
+      "start": 836.079,
+      "duration": 4.641,
+      "text": "again giving us a great installation"
+    },
+    {
+      "start": 838.24,
+      "duration": 5.44,
+      "text": "summary. So again, you can just really"
+    },
+    {
+      "start": 840.72,
+      "duration": 5.28,
+      "text": "really nail in the process of setting up"
+    },
+    {
+      "start": 843.68,
+      "duration": 3.68,
+      "text": "your codebase in an interactive way with"
+    },
+    {
+      "start": 846,
+      "duration": 3.12,
+      "text": "the human in the loop, answering"
+    },
+    {
+      "start": 847.36,
+      "duration": 3.279,
+      "text": "questions, going back and forth, making"
+    },
+    {
+      "start": 849.12,
+      "duration": 3.92,
+      "text": "sure that things are set up properly. A"
+    },
+    {
+      "start": 850.639,
+      "duration": 5.281,
+      "text": "cool thing you can do as well is add"
+    },
+    {
+      "start": 853.04,
+      "duration": 4.799,
+      "text": "some verification steps so that once a"
+    },
+    {
+      "start": 855.92,
+      "duration": 4.479,
+      "text": "step completes, the agent actually goes"
+    },
+    {
+      "start": 857.839,
+      "duration": 5.841,
+      "text": "off and verifies that you know that"
+    },
+    {
+      "start": 860.399,
+      "duration": 5.281,
+      "text": "file, that variable, that asset is in"
+    },
+    {
+      "start": 863.68,
+      "duration": 4.88,
+      "text": "the right place for the codebase to run."
+    },
+    {
+      "start": 865.68,
+      "duration": 4.8,
+      "text": "And you can run oneshot fully agentic"
+    },
+    {
+      "start": 868.56,
+      "duration": 3.92,
+      "text": "installation commands that just sets"
+    },
+    {
+      "start": 870.48,
+      "duration": 3.599,
+      "text": "everything up in a very opinionated way."
+    },
+    {
+      "start": 872.48,
+      "duration": 3.359,
+      "text": "In our case here, it's very simple."
+    },
+    {
+      "start": 874.079,
+      "duration": 3.841,
+      "text": "We're just running that standard init"
+    },
+    {
+      "start": 875.839,
+      "duration": 4.161,
+      "text": "script that the cloud code setup hook"
+    },
+    {
+      "start": 877.92,
+      "duration": 3.919,
+      "text": "kicked off for us. All right, so this is"
+    },
+    {
+      "start": 880,
+      "duration": 3.68,
+      "text": "all fantastic. I think this is really"
+    },
+    {
+      "start": 881.839,
+      "duration": 3.601,
+      "text": "going to be the future of how code bases"
+    },
+    {
+      "start": 883.68,
+      "duration": 4.48,
+      "text": "are set up and managed because it is the"
+    },
+    {
+      "start": 885.44,
+      "duration": 5.44,
+      "text": "agentic way that properly balances"
+    },
+    {
+      "start": 888.16,
+      "duration": 4.96,
+      "text": "determinism thanks to cloud code hooks"
+    },
+    {
+      "start": 890.88,
+      "duration": 3.6,
+      "text": "and thanks to great prompt engineering."
+    },
+    {
+      "start": 893.12,
+      "duration": 3.04,
+      "text": "But we can push this even further,"
+    },
+    {
+      "start": 894.48,
+      "duration": 4.08,
+      "text": "right? It's not just about installing"
+    },
+    {
+      "start": 896.16,
+      "duration": 4.32,
+      "text": "new code bases because oftent times"
+    },
+    {
+      "start": 898.56,
+      "duration": 3.92,
+      "text": "there's going to be configuration and"
+    },
+    {
+      "start": 900.48,
+      "duration": 4.32,
+      "text": "maintenance work that needs to happen on"
+    },
+    {
+      "start": 902.48,
+      "duration": 4.32,
+      "text": "a day-to-day week-toeek basis. And"
+    },
+    {
+      "start": 904.8,
+      "duration": 5,
+      "text": "that's what brings us to the maintenance"
+    },
+    {
+      "start": 906.8,
+      "duration": 3,
+      "text": "problem."
+    },
+    {
+      "start": 910.72,
+      "duration": 4.72,
+      "text": "We now have a command runner, right? A"
+    },
+    {
+      "start": 913.36,
+      "duration": 4.159,
+      "text": "minimalist command runner for"
+    },
+    {
+      "start": 915.44,
+      "duration": 4.079,
+      "text": "standardizing all the different ways we"
+    },
+    {
+      "start": 917.519,
+      "duration": 4.721,
+      "text": "run agents and developer tools in this"
+    },
+    {
+      "start": 919.519,
+      "duration": 4.32,
+      "text": "codebase. And we can of course run just"
+    },
+    {
+      "start": 922.24,
+      "duration": 3.68,
+      "text": "clmm."
+    },
+    {
+      "start": 923.839,
+      "duration": 4.321,
+      "text": "So this is a gentic codebase"
+    },
+    {
+      "start": 925.92,
+      "duration": 3.919,
+      "text": "maintenance. Now this is a simple mock"
+    },
+    {
+      "start": 928.16,
+      "duration": 3.119,
+      "text": "testing application that I have here. We"
+    },
+    {
+      "start": 929.839,
+      "duration": 3.12,
+      "text": "have a back end and a front end. I think"
+    },
+    {
+      "start": 931.279,
+      "duration": 4.641,
+      "text": "this is just going to pretend to run a"
+    },
+    {
+      "start": 932.959,
+      "duration": 5.601,
+      "text": "migration on our in-memory SQL light"
+    },
+    {
+      "start": 935.92,
+      "duration": 4.64,
+      "text": "database. But the idea is just that if"
+    },
+    {
+      "start": 938.56,
+      "duration": 3.36,
+      "text": "there are any assets, if there's any"
+    },
+    {
+      "start": 940.56,
+      "duration": 3.12,
+      "text": "maintenance, if there's any codebase"
+    },
+    {
+      "start": 941.92,
+      "duration": 3.52,
+      "text": "cleanup, if you want to do security"
+    },
+    {
+      "start": 943.68,
+      "duration": 3.36,
+      "text": "checks in your codebase to make sure"
+    },
+    {
+      "start": 945.44,
+      "duration": 2.959,
+      "text": "that nothing has gotten leaked or to"
+    },
+    {
+      "start": 947.04,
+      "duration": 3.359,
+      "text": "make sure that there's no dead code or"
+    },
+    {
+      "start": 948.399,
+      "duration": 4.56,
+      "text": "dead code branches, the maintenance hook"
+    },
+    {
+      "start": 950.399,
+      "duration": 4.641,
+      "text": "is a great one to run. And the hook"
+    },
+    {
+      "start": 952.959,
+      "duration": 4,
+      "text": "itself is fine. Engineers running"
+    },
+    {
+      "start": 955.04,
+      "duration": 3.44,
+      "text": "production code bases, you already have"
+    },
+    {
+      "start": 956.959,
+      "duration": 3.12,
+      "text": "maintenance scripts. They're probably"
+    },
+    {
+      "start": 958.48,
+      "duration": 3.279,
+      "text": "just a lot more scattered than an"
+    },
+    {
+      "start": 960.079,
+      "duration": 4,
+      "text": "approach like this. The great part about"
+    },
+    {
+      "start": 961.759,
+      "duration": 5.2,
+      "text": "this is that once that deterministic"
+    },
+    {
+      "start": 964.079,
+      "duration": 5.2,
+      "text": "hook runs, we now have a prompt that"
+    },
+    {
+      "start": 966.959,
+      "duration": 4.641,
+      "text": "follows it up, validates it, and if it"
+    },
+    {
+      "start": 969.279,
+      "duration": 4.56,
+      "text": "wants to, it can run its own maintenance"
+    },
+    {
+      "start": 971.6,
+      "duration": 4.72,
+      "text": "additions to it as well. So I think"
+    },
+    {
+      "start": 973.839,
+      "duration": 4.721,
+      "text": "relying on the the maintenance scripts"
+    },
+    {
+      "start": 976.32,
+      "duration": 3.28,
+      "text": "alone and the setup scripts alone I"
+    },
+    {
+      "start": 978.56,
+      "duration": 3.519,
+      "text": "don't think it's actually that"
+    },
+    {
+      "start": 979.6,
+      "duration": 4.479,
+      "text": "interesting novel useful at all because"
+    },
+    {
+      "start": 982.079,
+      "duration": 4,
+      "text": "we can already do this right. What is"
+    },
+    {
+      "start": 984.079,
+      "duration": 4.801,
+      "text": "powerful is when you combine it with an"
+    },
+    {
+      "start": 986.079,
+      "duration": 5.2,
+      "text": "agentic prompt that you can interact"
+    },
+    {
+      "start": 988.88,
+      "duration": 4.319,
+      "text": "with or with an agentic prompt that is"
+    },
+    {
+      "start": 991.279,
+      "duration": 4,
+      "text": "intelligent enough to work through the"
+    },
+    {
+      "start": 993.199,
+      "duration": 4.161,
+      "text": "kind of second and third order issues"
+    },
+    {
+      "start": 995.279,
+      "duration": 4.24,
+      "text": "that might arise when you're setting up"
+    },
+    {
+      "start": 997.36,
+      "duration": 4.8,
+      "text": "a new codebase. And when they do arise,"
+    },
+    {
+      "start": 999.519,
+      "duration": 5.041,
+      "text": "you can recode it back into the prompt,"
+    },
+    {
+      "start": 1002.16,
+      "duration": 4.56,
+      "text": "right? You can add the common problems"
+    },
+    {
+      "start": 1004.56,
+      "duration": 3.36,
+      "text": "inside of the workflow. For instance,"
+    },
+    {
+      "start": 1006.72,
+      "duration": 3.679,
+      "text": "you could do something like this. You"
+    },
+    {
+      "start": 1007.92,
+      "duration": 5.76,
+      "text": "could say common issues. The database is"
+    },
+    {
+      "start": 1010.399,
+      "duration": 4.641,
+      "text": "corrupt. Clear the database and rerun."
+    },
+    {
+      "start": 1013.68,
+      "duration": 2.56,
+      "text": "And just to be super clear here, right?"
+    },
+    {
+      "start": 1015.04,
+      "duration": 3.2,
+      "text": "You would set up this section by saying"
+    },
+    {
+      "start": 1016.24,
+      "duration": 3.599,
+      "text": "something like this. If you encounter"
+    },
+    {
+      "start": 1018.24,
+      "duration": 3.279,
+      "text": "exactly any of the following issues,"
+    },
+    {
+      "start": 1019.839,
+      "duration": 3.36,
+      "text": "follow the steps to resolve them. And so"
+    },
+    {
+      "start": 1021.519,
+      "duration": 3.841,
+      "text": "the pattern here is simpler. Database"
+    },
+    {
+      "start": 1023.199,
+      "duration": 4.72,
+      "text": "corruption and then solution. So you"
+    },
+    {
+      "start": 1025.36,
+      "duration": 4.319,
+      "text": "might organize this language here like"
+    },
+    {
+      "start": 1027.919,
+      "duration": 3.201,
+      "text": "this. You might say problem and then you"
+    },
+    {
+      "start": 1029.679,
+      "duration": 3.041,
+      "text": "could say solution. And then you can"
+    },
+    {
+      "start": 1031.12,
+      "duration": 3.36,
+      "text": "just kind of repeat this pattern. If you"
+    },
+    {
+      "start": 1032.72,
+      "duration": 4.16,
+      "text": "want, you could encode this into, you"
+    },
+    {
+      "start": 1034.48,
+      "duration": 3.76,
+      "text": "know, YAML block here. It doesn't really"
+    },
+    {
+      "start": 1036.88,
+      "duration": 3.12,
+      "text": "matter. Agents are going to be able to"
+    },
+    {
+      "start": 1038.24,
+      "duration": 3.52,
+      "text": "read whatever you put here. But that's a"
+    },
+    {
+      "start": 1040,
+      "duration": 3.36,
+      "text": "way that you can set up maintenance and"
+    },
+    {
+      "start": 1041.76,
+      "duration": 3.439,
+      "text": "installation prompts that are"
+    },
+    {
+      "start": 1043.36,
+      "duration": 4.88,
+      "text": "intelligent and that have embedded the"
+    },
+    {
+      "start": 1045.199,
+      "duration": 5.921,
+      "text": "common workflows of your code bases"
+    },
+    {
+      "start": 1048.24,
+      "duration": 4.08,
+      "text": "installation and maintenance. None of"
+    },
+    {
+      "start": 1051.12,
+      "duration": 2.4,
+      "text": "this is really rocket science,"
+    },
+    {
+      "start": 1052.32,
+      "duration": 2.88,
+      "text": "especially if you've been with the"
+    },
+    {
+      "start": 1053.52,
+      "duration": 4.24,
+      "text": "channel for a while. You know that we're"
+    },
+    {
+      "start": 1055.2,
+      "duration": 3.839,
+      "text": "using prompts for everything now. And"
+    },
+    {
+      "start": 1057.76,
+      "duration": 3.279,
+      "text": "we're setting up these reusable"
+    },
+    {
+      "start": 1059.039,
+      "duration": 5.121,
+      "text": "workflows that we can deploy one or more"
+    },
+    {
+      "start": 1061.039,
+      "duration": 4.961,
+      "text": "agents to solve problems agentically for"
+    },
+    {
+      "start": 1064.16,
+      "duration": 4.879,
+      "text": "us. But I really wanted to capture this"
+    },
+    {
+      "start": 1066,
+      "duration": 5.28,
+      "text": "idea in a single self-contained video"
+    },
+    {
+      "start": 1069.039,
+      "duration": 3.921,
+      "text": "because it combined a couple of key"
+    },
+    {
+      "start": 1071.28,
+      "duration": 3.36,
+      "text": "things that are going to be reoccurring"
+    },
+    {
+      "start": 1072.96,
+      "duration": 3.76,
+      "text": "themes on the channel throughout the"
+    },
+    {
+      "start": 1074.64,
+      "duration": 4.72,
+      "text": "entire year. Our theme for this year in"
+    },
+    {
+      "start": 1076.72,
+      "duration": 4.48,
+      "text": "2026 is to increase the trust we have in"
+    },
+    {
+      "start": 1079.36,
+      "duration": 4.72,
+      "text": "our agents. That means being able to"
+    },
+    {
+      "start": 1081.2,
+      "duration": 4.64,
+      "text": "quickly operate customized solutions"
+    },
+    {
+      "start": 1084.08,
+      "duration": 3.839,
+      "text": "that combine the old world of"
+    },
+    {
+      "start": 1085.84,
+      "duration": 3.52,
+      "text": "engineering with the new world of"
+    },
+    {
+      "start": 1087.919,
+      "duration": 4.88,
+      "text": "agents. We're talking about"
+    },
+    {
+      "start": 1089.36,
+      "duration": 6.559,
+      "text": "deterministic code and agentics, right?"
+    },
+    {
+      "start": 1092.799,
+      "duration": 5.521,
+      "text": "Prompts, skills, sub aents, multi- aent"
+    },
+    {
+      "start": 1095.919,
+      "duration": 4.561,
+      "text": "orchestration, all of it. With just"
+    },
+    {
+      "start": 1098.32,
+      "duration": 5.28,
+      "text": "files, we now have a simple file that we"
+    },
+    {
+      "start": 1100.48,
+      "duration": 6.079,
+      "text": "can use to embed repeat prompts, repeat"
+    },
+    {
+      "start": 1103.6,
+      "duration": 5.52,
+      "text": "agents, and repeat workflows. The just"
+    },
+    {
+      "start": 1106.559,
+      "duration": 5.921,
+      "text": "files really do help put together the"
+    },
+    {
+      "start": 1109.12,
+      "duration": 5.439,
+      "text": "install and maintain workflows, but also"
+    },
+    {
+      "start": 1112.48,
+      "duration": 4.72,
+      "text": "this is a powerful tool for running"
+    },
+    {
+      "start": 1114.559,
+      "duration": 4.561,
+      "text": "agents in many many configurations and"
+    },
+    {
+      "start": 1117.2,
+      "duration": 4.479,
+      "text": "workflows. Right? All you need to do now"
+    },
+    {
+      "start": 1119.12,
+      "duration": 5.36,
+      "text": "is come into your codebase, run just and"
+    },
+    {
+      "start": 1121.679,
+      "duration": 4,
+      "text": "just see what's available. I highly"
+    },
+    {
+      "start": 1124.48,
+      "duration": 3.199,
+      "text": "recommend you check out this tool. It's"
+    },
+    {
+      "start": 1125.679,
+      "duration": 4.081,
+      "text": "very powerful. But what this offers us"
+    },
+    {
+      "start": 1127.679,
+      "duration": 5.201,
+      "text": "when you combine it with prompts and"
+    },
+    {
+      "start": 1129.76,
+      "duration": 5.52,
+      "text": "scripts coming right from the cloud code"
+    },
+    {
+      "start": 1132.88,
+      "duration": 4.88,
+      "text": "brand new setup hook is a standardized"
+    },
+    {
+      "start": 1135.28,
+      "duration": 5.04,
+      "text": "way to install and maintain your code"
+    },
+    {
+      "start": 1137.76,
+      "duration": 4.56,
+      "text": "bases over time as they grow. Then you"
+    },
+    {
+      "start": 1140.32,
+      "duration": 4.719,
+      "text": "can push that even further. Just running"
+    },
+    {
+      "start": 1142.32,
+      "duration": 4.8,
+      "text": "scripts is probably not going to cut it"
+    },
+    {
+      "start": 1145.039,
+      "duration": 3.76,
+      "text": "once your codebase gets more complex."
+    },
+    {
+      "start": 1147.12,
+      "duration": 3.52,
+      "text": "You're going to want to add intelligence"
+    },
+    {
+      "start": 1148.799,
+      "duration": 4.321,
+      "text": "to that. We can quickly just copy and"
+    },
+    {
+      "start": 1150.64,
+      "duration": 4.88,
+      "text": "paste this command and build a dedicated"
+    },
+    {
+      "start": 1153.12,
+      "duration": 4.24,
+      "text": "prompt to do just that. We have an"
+    },
+    {
+      "start": 1155.52,
+      "duration": 4,
+      "text": "install command. This is a pattern"
+    },
+    {
+      "start": 1157.36,
+      "duration": 3.76,
+      "text": "that's gaining popularity. I'm not the"
+    },
+    {
+      "start": 1159.52,
+      "duration": 3.44,
+      "text": "only one that's seen this and that's"
+    },
+    {
+      "start": 1161.12,
+      "duration": 3.679,
+      "text": "using this pattern. I think the just"
+    },
+    {
+      "start": 1162.96,
+      "duration": 4.56,
+      "text": "file is a new addition here, but if we"
+    },
+    {
+      "start": 1164.799,
+      "duration": 4.561,
+      "text": "open up this blog here by Mintfi, you"
+    },
+    {
+      "start": 1167.52,
+      "duration": 4.24,
+      "text": "can see they have pitched this exact"
+    },
+    {
+      "start": 1169.36,
+      "duration": 4.4,
+      "text": "same idea very recently, January 15th, a"
+    },
+    {
+      "start": 1171.76,
+      "duration": 3.6,
+      "text": "standard for LM executables. They're"
+    },
+    {
+      "start": 1173.76,
+      "duration": 2.88,
+      "text": "trying to build a standard for this. I"
+    },
+    {
+      "start": 1175.36,
+      "duration": 3.6,
+      "text": "don't think we really need a standard."
+    },
+    {
+      "start": 1176.64,
+      "duration": 4.48,
+      "text": "It's just the idea that matters, right?"
+    },
+    {
+      "start": 1178.96,
+      "duration": 3.44,
+      "text": "Slashinstall slashs setup, whatever you"
+    },
+    {
+      "start": 1181.12,
+      "duration": 3.76,
+      "text": "want to call it, however you want to"
+    },
+    {
+      "start": 1182.4,
+      "duration": 4.96,
+      "text": "organize this. It's just a great way to"
+    },
+    {
+      "start": 1184.88,
+      "duration": 5.2,
+      "text": "agentically set up and install and"
+    },
+    {
+      "start": 1187.36,
+      "duration": 5.6,
+      "text": "operate the installation process. This"
+    },
+    {
+      "start": 1190.08,
+      "duration": 5.76,
+      "text": "is one of those use cases, one of those"
+    },
+    {
+      "start": 1192.96,
+      "duration": 4.4,
+      "text": "categories of very very clear return on"
+    },
+    {
+      "start": 1195.84,
+      "duration": 3.6,
+      "text": "investment. Think about the time it"
+    },
+    {
+      "start": 1197.36,
+      "duration": 3.84,
+      "text": "takes you to onboard a new engineer. Now"
+    },
+    {
+      "start": 1199.44,
+      "duration": 4.32,
+      "text": "think about how fast you want your team"
+    },
+    {
+      "start": 1201.2,
+      "duration": 4.88,
+      "text": "to grow. Then ask yourself, can we just"
+    },
+    {
+      "start": 1203.76,
+      "duration": 4.48,
+      "text": "build a prompt? Can we basically build a"
+    },
+    {
+      "start": 1206.08,
+      "duration": 3.76,
+      "text": "specialized agent that can run the setup"
+    },
+    {
+      "start": 1208.24,
+      "duration": 3.92,
+      "text": "and installation process and the"
+    },
+    {
+      "start": 1209.84,
+      "duration": 4.4,
+      "text": "maintenance process? And if you want to,"
+    },
+    {
+      "start": 1212.16,
+      "duration": 4.32,
+      "text": "you can even make it interactive to make"
+    },
+    {
+      "start": 1214.24,
+      "duration": 3.6,
+      "text": "every single step super clear. And the"
+    },
+    {
+      "start": 1216.48,
+      "duration": 3.6,
+      "text": "answer to that question is you"
+    },
+    {
+      "start": 1217.84,
+      "duration": 3.839,
+      "text": "absolutely can. Agents are good enough."
+    },
+    {
+      "start": 1220.08,
+      "duration": 2.959,
+      "text": "You are good enough. If you've been"
+    },
+    {
+      "start": 1221.679,
+      "duration": 3.281,
+      "text": "watching this channel, you know, for any"
+    },
+    {
+      "start": 1223.039,
+      "duration": 2.961,
+      "text": "amount of time really, you've seen these"
+    },
+    {
+      "start": 1224.96,
+      "duration": 3.44,
+      "text": "powerful patterns that we're building"
+    },
+    {
+      "start": 1226,
+      "duration": 5.12,
+      "text": "now, these powerful agentic workflows in"
+    },
+    {
+      "start": 1228.4,
+      "duration": 4.56,
+      "text": "our agentics, right? In our prompts,"
+    },
+    {
+      "start": 1231.12,
+      "duration": 4.08,
+      "text": "custom slash commands, sub aents, our"
+    },
+    {
+      "start": 1232.96,
+      "duration": 4.32,
+      "text": "skills. It's all available here. There"
+    },
+    {
+      "start": 1235.2,
+      "duration": 4.08,
+      "text": "has never been more opportunity and"
+    },
+    {
+      "start": 1237.28,
+      "duration": 4.8,
+      "text": "there's never been more ways to truly"
+    },
+    {
+      "start": 1239.28,
+      "duration": 5.279,
+      "text": "augment and automate your developer life"
+    },
+    {
+      "start": 1242.08,
+      "duration": 3.76,
+      "text": "cycles in your codebase. But you have to"
+    },
+    {
+      "start": 1244.559,
+      "duration": 2.961,
+      "text": "standardize it. You have to make it"
+    },
+    {
+      "start": 1245.84,
+      "duration": 4.48,
+      "text": "consistent. And so that's why I think"
+    },
+    {
+      "start": 1247.52,
+      "duration": 4.8,
+      "text": "the prompt, the hooks, the just files,"
+    },
+    {
+      "start": 1250.32,
+      "duration": 4.32,
+      "text": "it was worth bringing together here for"
+    },
+    {
+      "start": 1252.32,
+      "duration": 5.359,
+      "text": "you so that you can understand how to"
+    },
+    {
+      "start": 1254.64,
+      "duration": 4.88,
+      "text": "repeatedly solve these problems with a"
+    },
+    {
+      "start": 1257.679,
+      "duration": 3.841,
+      "text": "consistent pattern. Check out this"
+    },
+    {
+      "start": 1259.52,
+      "duration": 3.76,
+      "text": "install maintain codebase. I built this"
+    },
+    {
+      "start": 1261.52,
+      "duration": 4.08,
+      "text": "to give you a quick start on this"
+    },
+    {
+      "start": 1263.28,
+      "duration": 4.32,
+      "text": "pattern. I'll also link of course the"
+    },
+    {
+      "start": 1265.6,
+      "duration": 4.64,
+      "text": "cloud code documentation and I'll link"
+    },
+    {
+      "start": 1267.6,
+      "duration": 5.04,
+      "text": "this just command runner. This thing is"
+    },
+    {
+      "start": 1270.24,
+      "duration": 3.76,
+      "text": "super awesome because it's so simple. Uh"
+    },
+    {
+      "start": 1272.64,
+      "duration": 2.88,
+      "text": "there are a lot more features in here we"
+    },
+    {
+      "start": 1274,
+      "duration": 3.36,
+      "text": "didn't discuss. I'll be talking about"
+    },
+    {
+      "start": 1275.52,
+      "duration": 3.92,
+      "text": "this tool on the channel more in the"
+    },
+    {
+      "start": 1277.36,
+      "duration": 5.52,
+      "text": "future because it really allows us to"
+    },
+    {
+      "start": 1279.44,
+      "duration": 4.96,
+      "text": "set up powerful inloop customized agents"
+    },
+    {
+      "start": 1282.88,
+      "duration": 3.12,
+      "text": "that do one thing and do it"
+    },
+    {
+      "start": 1284.4,
+      "duration": 3.519,
+      "text": "extraordinarily well. I think if you're"
+    },
+    {
+      "start": 1286,
+      "duration": 3.84,
+      "text": "an engineering lead or you're involved"
+    },
+    {
+      "start": 1287.919,
+      "duration": 4.721,
+      "text": "with hiring engineers on your team,"
+    },
+    {
+      "start": 1289.84,
+      "duration": 4.959,
+      "text": "often these tools combined solves real"
+    },
+    {
+      "start": 1292.64,
+      "duration": 4.399,
+      "text": "problems for you very, very well. It's"
+    },
+    {
+      "start": 1294.799,
+      "duration": 4,
+      "text": "great for onboarding. New engineers run"
+    },
+    {
+      "start": 1297.039,
+      "duration": 3.281,
+      "text": "one command and they get intelligent"
+    },
+    {
+      "start": 1298.799,
+      "duration": 3.681,
+      "text": "help when they get stuck. It's great for"
+    },
+    {
+      "start": 1300.32,
+      "duration": 3.839,
+      "text": "consistency. Everyone sets up the same"
+    },
+    {
+      "start": 1302.48,
+      "duration": 3.6,
+      "text": "way every single time. And it's great"
+    },
+    {
+      "start": 1304.159,
+      "duration": 3.921,
+      "text": "for maintenance. You can even boil these"
+    },
+    {
+      "start": 1306.08,
+      "duration": 4.24,
+      "text": "prompts and these workflows into the"
+    },
+    {
+      "start": 1308.08,
+      "duration": 3.92,
+      "text": "default of how your engineers run agents"
+    },
+    {
+      "start": 1310.32,
+      "duration": 3.359,
+      "text": "in their codebase. When you set this up,"
+    },
+    {
+      "start": 1312,
+      "duration": 3.52,
+      "text": "you get scheduled health checks. Your"
+    },
+    {
+      "start": 1313.679,
+      "duration": 4.641,
+      "text": "codebase is always up to date. It's"
+    },
+    {
+      "start": 1315.52,
+      "duration": 4.72,
+      "text": "always updating vulnerable mpm packages"
+    },
+    {
+      "start": 1318.32,
+      "duration": 3.92,
+      "text": "which happens every other day now. And"
+    },
+    {
+      "start": 1320.24,
+      "duration": 3.439,
+      "text": "really what you get here with these"
+    },
+    {
+      "start": 1322.24,
+      "duration": 3.52,
+      "text": "prompts that help you install and"
+    },
+    {
+      "start": 1323.679,
+      "duration": 4.561,
+      "text": "maintain is a living document that"
+    },
+    {
+      "start": 1325.76,
+      "duration": 4.88,
+      "text": "executes. This is the dream for a lot of"
+    },
+    {
+      "start": 1328.24,
+      "duration": 4.48,
+      "text": "engineers. We can now communicate action"
+    },
+    {
+      "start": 1330.64,
+      "duration": 4.8,
+      "text": "in natural language and encode that for"
+    },
+    {
+      "start": 1332.72,
+      "duration": 5.12,
+      "text": "the installation and maintenance of your"
+    },
+    {
+      "start": 1335.44,
+      "duration": 5.04,
+      "text": "code bases as they grow. These three"
+    },
+    {
+      "start": 1337.84,
+      "duration": 4.48,
+      "text": "ideas are very simple but very powerful."
+    },
+    {
+      "start": 1340.48,
+      "duration": 3.04,
+      "text": "Don't underestimate them. Link to this"
+    },
+    {
+      "start": 1342.32,
+      "duration": 3.04,
+      "text": "codebase are going to be in the"
+    },
+    {
+      "start": 1343.52,
+      "duration": 4.24,
+      "text": "description for you. I'll also link the"
+    },
+    {
+      "start": 1345.36,
+      "duration": 4.08,
+      "text": "just docs and the claw hooks as well as"
+    },
+    {
+      "start": 1347.76,
+      "duration": 3.52,
+      "text": "this blog post here for you. You know"
+    },
+    {
+      "start": 1349.44,
+      "duration": 6.599,
+      "text": "where to find me every single Monday."
+    },
+    {
+      "start": 1351.28,
+      "duration": 4.759,
+      "text": "Stay focused and keep building."
+    }
+  ],
+  "fullText": "Do you know the simplest way to install and maintain your code bases as they grow? Here's something I've learned over 15 years of engineering with more than 50 plus code bases. You can tell how great an engineering team is by the time it takes for a new engineer to run the project locally. This says a lot about the team's growth and proficiency. And when you're joining a new team, that first interaction with the codebase and with the team members is so important. It really sets the stage for the new hire. For great teams, it's one link to one doc, a list of config file updates, and then a few commands. For most teams though, it's one to two days of pair programming, Slack messages, rumaging through outdated docs, and tons of back and forth testing. In the age of agents, we can do much better than this. The trick is in combining scripts, docs, and agents because agents when combined with code beats either alone. Cloud code released a brand new setup hook for this very purpose. It's an interesting hook though because it doesn't show up in the life cycle diagram for cloud code hooks. We're going to take this hook and push it further because when you combine deterministic hooks with standardized agentic prompts, you get the best of both worlds. Predictable execution, intelligent oversight, and interactivity when you need it. Let's discuss the best way to install and maintain your code bases as they grow in size and value. The first thing I want to do here is showcase a new powerful tool I've been using to guide my commands, agents, and developer tools. Let me introduce you to just file. This is a simple command runner that serves as a launchpad for your engineering work. You can see I have several commands set up, front end setup, backend, reset artifacts, and then we have something really interesting. I'm kicking off many different cloud agents with different CLI flags. With just file, you, your team, and your agents don't need to remember or look up flags more than once. They just run this. If we open the terminal and type just, you can see all the commands ready to go. This is a very powerful tool for scaling and reusing your customizable agents. Let's go ahead and run our first command that activates this new setup hook. If we type just cli, we're going to kick off this claw code command. It doesn't look like anything happened there, but this init flag changed the workflow. This init flag in fact ran the setup hook before it booted up this full cloud code instance. If we look under the hood here, open up the settings file, we can see we have a brand new setup hook. If we collapse just to our setup hook, you can see we have two new options for this hook. We're matching a knit and maintenance. You can see just like all of our other hooks, we're running a setup init command. Let's crack that open and let's see what happened. We have a script that runs several commands when we pass in d-init into cloud code. It's just going to run a few setup commands for us. All right, so you can see here we have a run function that is actually just going to pass this right into a terminal instance and execute the command. If we search for run here, you can see we're running uvync mpm install and we're executing this database script. Our installation command is doing installation work and it runs anytime we pass in this dash and flag into clawed code. This is just a script. This is cool, but it's not that novel. Most production code bases already have scripts like this set up. This is just raw deterministic code. It's not that valuable. It's not that new or novel. We'll talk about how we can push this to the next level in a moment. First, let's run our next just command to kick off our maintenance workflow. Same pattern, different codebase life cycle stage. We're going to clear. We'll type just so we can see all of our commands that we can quickly fire off. And we'll type just clmm. This is our deterministic codebase maintenance. It's going to fire up cloud code and run in maintenance mode. Just like our d-init command, maintenance does something very similar. You can see we're running setup maintenance and it's another script that's running another workflow with deterministic code. You can see we have another log file that's going to execute and append. And if we just do that exact same thing, you know, we have our run command. We can collapse everything to see what the script looks like. Let's go ahead and look for where we're using that run command. And you can see we're updating our backend dependencies for this codebase. We're running mpm update. And then we're doing some additional scripting on our database. For this codebase example, we're using SQLite 3. Just showcasing that you could be running some type of maintenance operation, migrations, artifact cleanup, so on and so forth. Right? This is where you run that. And again, this isn't that interesting. Okay, it's a script that runs when you pass in a specific flag into starting up cloud code. It's nearly the equivalent of just running this yourself. So, why is this interesting? Why did the cloud code engineers build this out? Right? This is an optional additional hook that runs before sessions start. Right? And to be super clear, if we search for setup, you can see that this is a brand new script. And you know, the cloud code team says it themselves. Run this to set up and maintain the code base. All right, use this for operations you do not want to run on every session like installing dependencies, running migrations, or periodic maintenance tasks. So again, not super novel, but what we can do with this is novel. When we combine this with a great prompt, some logging, some documentation, we can initialize and then install and have an agent run to validate this workflow. We can run a command that does our installation for us when we have that new engineer on our team, that new hire. We can get them quickly set up or we can set up our codebase on other machines. Hint hint, agent sandboxes, and they can just quickly set things up right from this just file. So, let's go ahead and see what it looks like to combine scripts with agents just to see all of our options. Once again, just cli. And you can see exactly what this is going to run. The same command with a prompt that's going to immediately kick off. So, let's fire this. And you can see here our install command is running right away. The first thing it does is it's running that /prime command. You can think of this like our claw.md file except it's dynamic. You can point it to whatever you want and you can run it whenever you want. It's pulling in documentation. It's understanding the codebase and then it will run installation validation. It's running the usual report for our prime command, telling us how the codebase works. When we're priming, we're getting our agent up and running on the basics of the codebase. But now, this agent is continuing to install. So, you can see the initialize hook ran and now it's going to get the most recent results and report them to us. So, we're building an agent on top of our deterministic installation process. You know, keep note, we still ran a nit there. So before our /prime command ran and kicked off the user prompt sububmit hook, we ran that setup command. We can then thanks to our logging and setup.nit, our agent can read that out and report on it. All right, so it actually created documentation for us on installation. So we have install results here and you can see it's reported it to us. We don't even need to go that deep though because it just gave us that response right here. So if we open this up, you can see it wrote that doc and it gave us the install success. Now this is a simple again demo example. A lot of what I do here on the channel every single week is I try to give you the idea you can embed into your work into your codebase. But you can see here we have a great report. Now what if something went wrong? This is where we would add common workflow resolution steps so that your installation prompt does the job you would have to do when you're setting up new engineers on your team. when you're cloning your repo and setting up new agent sandboxes. This command is going to be very very important for spinning up and setting up your new code bases. And so this is our /install command. So we've combined terminism, some logging, and our agentic prompt to set up our codebase in an interactive way. This is a new pattern that I'm going to be deploying in every single one of my codebases moving forward. Why not standardize your installation process? And we can, of course, open up this install prompt. you know exactly where this is.cloud commands/install and we can see the following workflow. As always, we have our standard agentic prompt format with only the sections that we need to ship this. We'll get to our human in the loop mode variable here in a second. But you can see this is a very simple workflow. We're running our /prime. We're checking if we're in interactive mode, which we'll get to in just a second. We read the log file. We write the results and then report what's going on to the user. All right. And then from here you could add a lot more detail on how to resolve any issues that come up if you have common issues that reoccur during the installation process. Otherwise you can just have a conversation with your agent and discuss how to resolve the specific failures. So that's the install command. Now this is where things get interesting. We've now combined agents with the existing scripts with the logging. We can now do something powerful like this. So as normal, we'll run the just command so we can see the available options to us in this codebase. I find myself using this just file over and over now to standardize certain workflows, certain agents, and certain ways to launching into engineering inside of a specific codebase. I really do think about the just file as a launchpad for all the commands that you and your team will run and your agents will run throughout your developer work. We're going to run a very very powerful command that I think will represent the future of how every codebase will get set up. We're going to run So we'll type just and we'll kick this command off and it's going to do something pretty incredible here. Not only will we kick off the codebase as normal, it's going to prime itself, get itself set up, understand where everything is much faster than you or I could ever set up a new codebase and truly understand it end to end. And then we're going to run our human in the loop version of this prompt. In fact, it's just a branching point off from our existing prompt. You can see our agent recognizes since the mode argument is true, I need to run interactive installation. And now we're going to work back and forth with our agent, answer a few questions on how we want things to get set up. This is very, very powerful for onboarding new engineers. So the first question here is how should I handle the database? We'll say fresh database. What installation mode? Full, minimal, skip, we'll do full. Should I check your environment variables? Let's do it. How would you like to set these up? Let's get the guided experience. And then we can submit these questions. I think Cloud Code only supports four questions at a time. So that's why it's doing this. There we go. So we're now running the workflow. And you can see our agent is doing some preliminary tests. We want to see if we have Python, Node, UV, blah blah blah. And then it's just going to run the installation as it did before, right? But now we have this back and forth human in the loop process where we can set things up together. All right. So there it is initializing the database. Now it's going to configure our environment variables. So these are just things that you need to do all the time with your agents. You can see here uh I have the environment variable blocked. So this agent is not going to be able to touch this. So now it's just going to directly ask me have I set up the environment file? And this all might seem like a small thing that you could just set up in the readme. But why do this by hand anymore? you know, we're adding to the pile of things that our agents can do that we don't have to do anymore. Write that configuration prompt, write that maintenance prompt, and then walk through it with your agents, right? Make that onboarding process for your codebase ultra smooth. I'll just say that I've copied and configured this. There's actually nothing we need to configure for this codebase in particular. You can see we have some example uh files there. I'll just say that I have done this. And then our agent will just continue the workflow. And so we're going down the step, right? This process that you would normally run with another engineer, right? you would need to pair program or you would be the one pair programming. We now are running into another step. We need to pull in some documentation for our agents. And as things get more agentic, this is going to be important. What context you need to pull in from your services, from your third party applications, from your ticket management systems, for your database. This could be anything. We could be walking through configuration steps for AWS or the Google Cloud CLI. We really are just working through common developer workflows with our agents to get things set up more quickly and very importantly to standardize this process. Right? If we look at the install.md, you can see here we're running prime, but then we're running this second command. Check for interactive mode. If yes, kick it off and ignore the rest of this prompt. So what happens there, right, install-hill. You can see here we have a great classic agentic prompt, but inside of the workflow, we have several questions to ask the user. And that's exactly what we're working through right now, right? So go ahead. I'll say fetch all docs. It's going to pull in outside resources that it should have access to cuz it has the environment variable set up now. And we're going to do some documentation scraping based on some information in the prompt. So not only is this great for the new engineer, but it's great for the onboarding engineer, right? The lead engineer, the you know, your your co-worker. Setting this stuff up is quite annoying and it's easy to forget all the different things it takes to set up a new codebase. This is why it's so powerful to in natural language just prompt engineer a endto-end setup process for your codebase. And now when you have to update something, you don't look at the docs. You look at the script, the initial setup script, and you look at this prompt right here, right? Install human in the loop. You can set up a great interactive workflow like this or just an end-to-end oneshot workflow where your agent then reports everything that went right or wrong. And so you can see here we have a documentation scraping step. Our agent pulled that in, wrote some new documentation, did a little update in interactive mode here. Looks like I just ran that before. And then it's once again giving us a great installation summary. So again, you can just really really nail in the process of setting up your codebase in an interactive way with the human in the loop, answering questions, going back and forth, making sure that things are set up properly. A cool thing you can do as well is add some verification steps so that once a step completes, the agent actually goes off and verifies that you know that file, that variable, that asset is in the right place for the codebase to run. And you can run oneshot fully agentic installation commands that just sets everything up in a very opinionated way. In our case here, it's very simple. We're just running that standard init script that the cloud code setup hook kicked off for us. All right, so this is all fantastic. I think this is really going to be the future of how code bases are set up and managed because it is the agentic way that properly balances determinism thanks to cloud code hooks and thanks to great prompt engineering. But we can push this even further, right? It's not just about installing new code bases because oftent times there's going to be configuration and maintenance work that needs to happen on a day-to-day week-toeek basis. And that's what brings us to the maintenance problem. We now have a command runner, right? A minimalist command runner for standardizing all the different ways we run agents and developer tools in this codebase. And we can of course run just clmm. So this is a gentic codebase maintenance. Now this is a simple mock testing application that I have here. We have a back end and a front end. I think this is just going to pretend to run a migration on our in-memory SQL light database. But the idea is just that if there are any assets, if there's any maintenance, if there's any codebase cleanup, if you want to do security checks in your codebase to make sure that nothing has gotten leaked or to make sure that there's no dead code or dead code branches, the maintenance hook is a great one to run. And the hook itself is fine. Engineers running production code bases, you already have maintenance scripts. They're probably just a lot more scattered than an approach like this. The great part about this is that once that deterministic hook runs, we now have a prompt that follows it up, validates it, and if it wants to, it can run its own maintenance additions to it as well. So I think relying on the the maintenance scripts alone and the setup scripts alone I don't think it's actually that interesting novel useful at all because we can already do this right. What is powerful is when you combine it with an agentic prompt that you can interact with or with an agentic prompt that is intelligent enough to work through the kind of second and third order issues that might arise when you're setting up a new codebase. And when they do arise, you can recode it back into the prompt, right? You can add the common problems inside of the workflow. For instance, you could do something like this. You could say common issues. The database is corrupt. Clear the database and rerun. And just to be super clear here, right? You would set up this section by saying something like this. If you encounter exactly any of the following issues, follow the steps to resolve them. And so the pattern here is simpler. Database corruption and then solution. So you might organize this language here like this. You might say problem and then you could say solution. And then you can just kind of repeat this pattern. If you want, you could encode this into, you know, YAML block here. It doesn't really matter. Agents are going to be able to read whatever you put here. But that's a way that you can set up maintenance and installation prompts that are intelligent and that have embedded the common workflows of your code bases installation and maintenance. None of this is really rocket science, especially if you've been with the channel for a while. You know that we're using prompts for everything now. And we're setting up these reusable workflows that we can deploy one or more agents to solve problems agentically for us. But I really wanted to capture this idea in a single self-contained video because it combined a couple of key things that are going to be reoccurring themes on the channel throughout the entire year. Our theme for this year in 2026 is to increase the trust we have in our agents. That means being able to quickly operate customized solutions that combine the old world of engineering with the new world of agents. We're talking about deterministic code and agentics, right? Prompts, skills, sub aents, multi- aent orchestration, all of it. With just files, we now have a simple file that we can use to embed repeat prompts, repeat agents, and repeat workflows. The just files really do help put together the install and maintain workflows, but also this is a powerful tool for running agents in many many configurations and workflows. Right? All you need to do now is come into your codebase, run just and just see what's available. I highly recommend you check out this tool. It's very powerful. But what this offers us when you combine it with prompts and scripts coming right from the cloud code brand new setup hook is a standardized way to install and maintain your code bases over time as they grow. Then you can push that even further. Just running scripts is probably not going to cut it once your codebase gets more complex. You're going to want to add intelligence to that. We can quickly just copy and paste this command and build a dedicated prompt to do just that. We have an install command. This is a pattern that's gaining popularity. I'm not the only one that's seen this and that's using this pattern. I think the just file is a new addition here, but if we open up this blog here by Mintfi, you can see they have pitched this exact same idea very recently, January 15th, a standard for LM executables. They're trying to build a standard for this. I don't think we really need a standard. It's just the idea that matters, right? Slashinstall slashs setup, whatever you want to call it, however you want to organize this. It's just a great way to agentically set up and install and operate the installation process. This is one of those use cases, one of those categories of very very clear return on investment. Think about the time it takes you to onboard a new engineer. Now think about how fast you want your team to grow. Then ask yourself, can we just build a prompt? Can we basically build a specialized agent that can run the setup and installation process and the maintenance process? And if you want to, you can even make it interactive to make every single step super clear. And the answer to that question is you absolutely can. Agents are good enough. You are good enough. If you've been watching this channel, you know, for any amount of time really, you've seen these powerful patterns that we're building now, these powerful agentic workflows in our agentics, right? In our prompts, custom slash commands, sub aents, our skills. It's all available here. There has never been more opportunity and there's never been more ways to truly augment and automate your developer life cycles in your codebase. But you have to standardize it. You have to make it consistent. And so that's why I think the prompt, the hooks, the just files, it was worth bringing together here for you so that you can understand how to repeatedly solve these problems with a consistent pattern. Check out this install maintain codebase. I built this to give you a quick start on this pattern. I'll also link of course the cloud code documentation and I'll link this just command runner. This thing is super awesome because it's so simple. Uh there are a lot more features in here we didn't discuss. I'll be talking about this tool on the channel more in the future because it really allows us to set up powerful inloop customized agents that do one thing and do it extraordinarily well. I think if you're an engineering lead or you're involved with hiring engineers on your team, often these tools combined solves real problems for you very, very well. It's great for onboarding. New engineers run one command and they get intelligent help when they get stuck. It's great for consistency. Everyone sets up the same way every single time. And it's great for maintenance. You can even boil these prompts and these workflows into the default of how your engineers run agents in their codebase. When you set this up, you get scheduled health checks. Your codebase is always up to date. It's always updating vulnerable mpm packages which happens every other day now. And really what you get here with these prompts that help you install and maintain is a living document that executes. This is the dream for a lot of engineers. We can now communicate action in natural language and encode that for the installation and maintenance of your code bases as they grow. These three ideas are very simple but very powerful. Don't underestimate them. Link to this codebase are going to be in the description for you. I'll also link the just docs and the claw hooks as well as this blog post here for you. You know where to find me every single Monday. Stay focused and keep building.",
+  "fetchedAt": "2026-01-26T16:39:19.216Z"
+}

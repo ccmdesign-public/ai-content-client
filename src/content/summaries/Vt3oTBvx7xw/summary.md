@@ -4,15 +4,11 @@ metadata:
   title: "Henry Modisett - Inside Perplexity's design culture"
   description: "Someone asked me recently... if you had to join a design team, who would you want to work for?
 
-
     And my answer was easy... Perplexity
-
 
     So today's episode with Henry Modisett (https://x.com/henrymodis) (Perplexity's VP of Design) is a deep dive into what makes their design culture so special.
 
-
     Some highlights:
-
 
     - How to create a culture of decisiveness
 
@@ -27,7 +23,6 @@ metadata:
     - Henry’s strategies for building world class design teams
 
     - + a *lot* more
-
 
     Chapters
 
@@ -57,14 +52,11 @@ metadata:
 
     43:15 Navigating the challenges of scale
 
-
     Dive is where the best designers never stop learning 🤿
-
 
     🌐 dive.club
 
     🐦 twitter.com/joindiveclub
-
 
     Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
   channel: "Dive Club 🤿"
@@ -87,6 +79,18 @@ ai:
   totalTokens: 16291
   processingTimeMs: 32866
 tools: []
+categories:
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "best-practices"
+  - "design-systems"
+  - "leadership"
+  - "startup"
+  - "ui"
+  - "ux"
+tagsNormalizedAt: "2026-03-01T21:19:30.264Z"
 ---
 
 ## Key Takeaways
@@ -108,11 +112,13 @@ Henry Modisett, VP of Design at Perplexity, provides profound insights into buil
 Henry Modisett, VP of Design at Perplexity, shares an in-depth look into the design culture at the rapidly growing AI company, discussing his philosophy on leadership, team building, and strategic design. He starts by highlighting why Perplexity is his top choice for designers, emphasizing the company's strategic understanding of design as a competitive advantage.
 
 ### The Challenge of Rapid Growth and Team Evolution
+
 Modisett explains that rapid growth presents a significant challenge: knowing when and how to adapt internal values and processes. Initially, startups prioritize **velocity** and shipping quickly, often making trade-offs on quality. However, as a company matures and users rely on its product, the focus shifts to retaining users and ensuring consistency. Perplexity has transformed from a startup to an essential daily app, necessitating a re-evaluation of how they operate, communicate, and define themselves. This involves moving beyond informal, in-head processes to structured, yet modern, documentation and collaboration methods.
 
 Reflecting on the change from a small team of 3-4 to 31 people, Modisett notes two major shifts: **increased daily output** and the need to reconcile this expanded activity. Growth has allowed for greater specialization, with dedicated roles for motion design and video production within their creative studio, all done in-house. On the product side, Perplexity benefits from the inherent property of a search product where features have minimal collision, allowing for significant **parallelization** of work without internal battles over UI space or metrics, common in feed-based products. This allows them to "ship their org chart" effectively, but also necessitates more thought into collaboration, feedback, and consistency, especially regarding their design system and codebase.
 
 ### Perplexity's Design Org Structure and Hiring Strategy
+
 Perplexity's design team is structured into three sub-organizations. The **Creative Studio** handles everything outside the core product—brand design, marketing, graphic design, web design, motion design, and video production, often collaborating with celebrities. The smallest sub-org is **Operations (Ops)**, which manages logistics, ensures creative work is delivered on time, and even runs the company's merch store. The third and largest is **Product Design**, which is divided across Perplexity's consumer product, enterprise solution, and the 'Comment' browser, all existing across multiple platforms. Modisett points out that while 31 designers might seem substantial, the vast surface area of these products means the team is still lean, with much to build from "zero to one" and maintain.
 
 Modisett's team-building strategy has two key parts: identifying **necessary skills** and finding the right **personality archetypes**. For the creative studio, skill needs are straightforward (e.g., hiring a video producer for better videos). Product design is more challenging, requiring individuals who can work broadly and quickly, possess a foundational understanding of AI or non-deterministic experiences, and sometimes even write code. Hiring is always driven by a specific need—"what are we really missing right now?"—making each new hire an incremental addition that fills a capability gap.
@@ -122,21 +128,25 @@ He emphasizes looking for an archetype that aligns with Perplexity's startup cul
 He also shares his approach to hiring interns: focusing on evidence of **invention or self-learning** rather than just academic achievement. He seeks individuals who pursue projects outside of assignments, demonstrating intrinsic hunger and a humble attitude, which are crucial for growth within a team of experienced professionals.
 
 ### Cultivating a Design Culture and Leadership Philosophy
+
 Modisett draws inspiration from his past mentors. His first boss taught him quiet confidence and "killing them with kindness." In his design career, **Rebecca Cox** at Quora profoundly influenced his "punk rock mentality"—questioning norms, having a strong bias towards **prototypes** over static mocks, and obsessing over *how software works* rather than just its appearance. This shifted his perspective from design as aesthetics to design as "urban planning"—building interactive systems that drive behavior. He learned that there is no universal design process; instead, it must adapt to the problem being solved. David Cole, another Quora leader, introduced him to **game design frameworks** (mechanics, dynamics, aesthetics) as a more useful lens for building social networks.
 
 As a leader, Modisett prioritizes empowering his team. He believes designers grow by making and owning difficult decisions, so he aims to "throw everyone in the deep end" while providing backup. His goal is a **self-functioning team** that doesn't require his constant intervention, allowing individual designers to be their best selves and preventing growth stagnation. His role is to set the team up for success, provide confidence, and ensure they have what they need.
 
 ### Decisiveness, Agility, and Challenging Norms
+
 Modisett acknowledges that in a rapidly scaling company, relying solely on data for decisions is difficult because metrics are often trending up regardless. Designers must develop a muscle for **decisiveness** and making trade-offs, prioritizing constant movement over endless exploration. Being wrong is acceptable; stalling is not. This cultural value of decisiveness and clarity is paramount at Perplexity.
 
 He actively challenges conventional design processes, like structured weekly design crits, which he believes can stifle agility and create performative feedback loops. Perplexity aims for a more **organic, on-demand feedback** system, where designers seek input when it's most useful. Their operational edge lies in embracing **agility and velocity** as the most important values, even if it makes some uncomfortable about "quality." Modisett argues that prioritizing speed and then ensuring quality is a better approach than being slowed down by design processes. This also includes embracing **technical designers** who can directly implement changes. He describes the process as experimental and organic, letting practices emerge and then formalizing what works.
 
 ### Advice for Startups and Founding Designers
+
 For founders facing a "cold start problem" in design, Modisett offers critical advice. First, a startup must **stand out**, and the best way is to invest in **brand and product**. He stresses that when hiring, founders are asking people to take a significant risk, so they must make candidates *feel good* about that decision. The most crucial message to convey is *why design will help the company win*—how it's a "weapon" in the market. This strategic understanding is non-negotiable.
 
 Beyond strategy, **superficial signaling** matters. Companies like Dropbox and Apple demonstrated commitment to design through exceptional brand investment, which signals quality and attracts talent. He advises founders without a designer to hire a good freelancer to create a beautiful website or initial product to demonstrate commitment and "prove it." You "can't fake it"—a beautiful design system won't compensate for a poorly designed product. Founders must understand that design is not mere ornamentation; it is **product, brand, and company strategy** and the expression of good decision-making. People don't join a company; they join a **brand** that tells a clear story and resonates with their self-perception, creating a cohesive culture.
 
 ### Future Outlook and Personal Growth
+
 Modisett's primary goal for the future is for Perplexity's product to remain great and evolve quickly, a growing challenge with scale. He constantly reflects on whether he needs to adapt his own values, questioning if he can lead a 50-person team given his background as a "startup designer." He embraces this challenge, drawing on the idea that "pressure is a privilege and champions adjust." He seeks wisdom from various organizational models and listens closely to his team's needs, striving to convey confidence while maintaining humility by consulting others. He believes in figuring things out, much like the company figures out its trajectory, always aiming to make the most of the immense opportunity.
 
 ## Context

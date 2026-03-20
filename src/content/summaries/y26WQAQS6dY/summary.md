@@ -4,24 +4,19 @@ metadata:
   title: "This one AI skill multiplies all the others"
   description: "Knowing when to use Claude vs ChatGPT, terminal vs IDE, subagents vs main context—that's workflow orchestration. Build this intuition and you're not just reacting to AI tools, you're directing them.
 
-
     👇 **Your Builder Briefing (free)**
 
     https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
-
 
     👇 **Use Agent OS** (free open source):
 
     https://buildermethods.com/agent-os
 
-
     👇 **Join Builder Methods Pro**
 
     https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
 
-
     ▶️ Related videos:
-
 
     💬 Drop a comment with your questions and requests for upcoming videos!"
   channel: "Brian Casel"
@@ -54,6 +49,18 @@ tools:
     url: null
   - name: "Agent OS"
     url: "https://buildermethods.com/agent-os"
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "best-practices"
+  - "chatgpt"
+  - "claude"
+  - "llm"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.375Z"
 ---
 
 ## Key Takeaways
@@ -73,9 +80,11 @@ The video emphasizes **workflow orchestration** as the paramount skill for effec
 Brian Casel introduces **workflow orchestration** as a pivotal skill and a fundamental mindset shift for anyone working with AI. This skill involves developing a strong intuition and 'feel' for selecting the most appropriate tool or method for every task. It requires a deep understanding of what drives your personal workflow and comprehensive knowledge of the tools at your disposal.
 
 ### Understanding Your Tools and Workflow
+
 To effectively orchestrate your workflow, you must become familiar with the **nuances of various frontier models**, understanding their unique strengths and weaknesses. This also extends to knowing when to operate within a terminal versus an integrated development environment (IDE), or when it's beneficial to delegate tasks to sub-agents while maintaining overall context.
 
 ### The Importance of Evaluation
+
 The AI landscape is in constant flux, with new tools emerging regularly. Therefore, a critical component of workflow orchestration is building the 'muscle' to **quickly evaluate new tools**. This means being able to discern if a new technology genuinely enhances your workflow or if it's merely a distraction. Casel suggests that by understanding the recent history of the AI era, individuals are better equipped to evaluate new tools, recognizing what is truly novel and useful.
 
 Ultimately, mastering workflow orchestration empowers you to be a proactive director of change within your work processes, rather than just a passive reactor to technological advancements. This strategic approach ensures that you leverage AI effectively to multiply the impact of your other skills.

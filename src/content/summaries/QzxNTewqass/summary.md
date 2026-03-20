@@ -4,12 +4,9 @@ metadata:
   title: "Why we miscommunicate"
   description: "Charles Duhigg (“Supercommunicators”) , on the different ways we communicate during conversations and how understanding that, can help with marketing.
 
-
     Turn visitors into leads today with HubSpot’s free marketing tools.
 
     https://clickhubspot.com/u99
-
-
 
     We’re on Social Media! Follow us for everyday marketing wisdom straight to your feed
 
@@ -19,22 +16,15 @@ metadata:
 
     📲TikTok: https://www.tiktok.com/@matgpod\ 
 
-
     📲 Join our community https://landing.connect.com/matg
-
 
     Thank you for tuning into Marketing Against The Grain!
 
-
-
     📲Don’t forget to hit subscribe and follow us on Apple Podcasts (so you never miss an episode)! https://podcasts.apple.com/us/podcast/marketing-against-the-grain/id1616700934 \ 
-
 
     📲If you love this show, please leave us a 5-Star Review https://link.chtbl.com/h9_sjBKH and share your favorite episodes with friends.
 
-
     We really appreciate your support.
-
 
     Host Links:
 
@@ -42,9 +32,7 @@ metadata:
 
     📲Kieran Flanagan, https://twitter.com/searchbrat\ 
 
-
     ‘Marketing Against The Grain’ is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Produced by Darren Clarke.
-
 
     About the Show
 
@@ -77,6 +65,15 @@ ai:
 tools:
   - name: "HubSpot"
     url: "https://clickhubspot.com/u99"
+categories:
+  - "Business & Career"
+  - "Product & Design"
+  - "Programming"
+tags:
+  - "best-practices"
+  - "leadership"
+  - "product-strategy"
+tagsNormalizedAt: "2026-03-01T21:19:30.437Z"
 ---
 
 ## Key Takeaways
@@ -94,6 +91,7 @@ To avoid conflict and ensure a message is heard, communicators must align their 
 The root of most miscommunication lies in a fundamental misalignment of conversational goals. Even professional communicators, such as journalists, often fall into the trap of 'mismatching' with their partners or colleagues. A common example involves one person coming home to vent about their day—an **Emotional Conversation**—while the other person responds with tactical advice—a **Practical Conversation**. This results in the speaker feeling unsupported and the listener feeling unappreciated, as they are effectively speaking different 'languages' at that moment.
 
 ### The Three Layers of Dialogue
+
 According to researchers, every discussion is composed of three distinct types of conversation:
 
 *   **Practical Conversations**: These are focused on logic, coordination, and problem-solving. This is the 'fix-it' mode where participants collaborate to find actionable solutions to specific challenges.
@@ -103,6 +101,7 @@ According to researchers, every discussion is composed of three distinct types o
 *   **Social Conversations**: This layer involves how we relate to each other and our place within the broader social fabric. It touches on identity, relationship dynamics, and societal norms.
 
 ### The Importance of Alignment
+
 The key insight for 'super communication' is that people have significant trouble hearing each other if they are not having the same kind of conversation at the same time. If one person is in an emotional state and the other is in a practical state, the data and advice being shared will not be processed effectively. 
 
 For **marketers, artists, and storytellers**, this framework is a powerful tool. **Storytelling** acts as a bundle of all three conversation types. A great story provides the necessary cues that tell the audience what kind of conversation they are participating in, allowing the message to bypass cognitive friction and resonate more deeply. By identifying and matching the mode of the audience, communicators can ensure their message is not just heard, but understood.

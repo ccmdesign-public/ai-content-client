@@ -72,6 +72,17 @@ tools:
     url: null
   - name: "ClaudeCode"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "ci-cd"
+  - "copilot"
+tagsNormalizedAt: "2026-03-01T21:19:30.485Z"
 ---
 
 The landscape of AI-assisted software development is undergoing a fundamental transition. Ray Fernando argues that we are moving past the "Copilot era"—characterized by inline completions and chat sidebars—into an era of "Agentic Development." This shift is driven by three primary technological advancements: massive context windows, agentic reasoning, and deep IDE integration.

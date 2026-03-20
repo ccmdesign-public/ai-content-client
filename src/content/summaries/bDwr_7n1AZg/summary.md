@@ -4,11 +4,9 @@ metadata:
   title: "This Framework Might Be the FUTURE of Cross-Platform Apps (Dioxus)"
   description: "Build web, desktop, iOS, and Android apps from a single Rust codebase using Dioxus. In this video, we walk through what Dioxus is, how it works, and build a real cross-platform app in just a few minutes. If you’re curious about Rust, UI frameworks, or building once and shipping everywhere, this one is for you.
 
-
     🔗 Relevant Links
 
     Dioxus: https://dioxuslabs.com/
-
 
     ❤️ More about us
 
@@ -17,7 +15,6 @@ metadata:
     Written tutorials: https://betterstack.com/community/
 
     Example projects: https://github.com/BetterStackHQ
-
 
     📱 Socials
 
@@ -28,7 +25,6 @@ metadata:
     TikTok: https://www.tiktok.com/@betterstack
 
     LinkedIn: https://www.linkedin.com/company/betterstack
-
 
     📌 Chapters:
 
@@ -89,6 +85,18 @@ tools:
     url: null
   - name: "Radix UI"
     url: null
+categories:
+  - "Mobile Development"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "android"
+  - "flutter"
+  - "ios"
+  - "react-native"
+  - "rust"
+  - "tailwind"
+tagsNormalizedAt: "2026-03-01T21:19:30.480Z"
 ---
 
 ## Key Takeaways
@@ -108,14 +116,17 @@ Dioxus leverages the performance of Rust to provide a modern, high-speed alterna
 Dioxus is a rapidly maturing Rust-based UI framework designed to simplify the creation of multi-platform applications. By adopting a component-based architecture similar to React, it allows developers to build high-performance software for desktop (macOS, Windows, Linux), mobile (iOS, Android), and the web using a unified codebase. The framework utilizes **RSX**, a declarative macro that mimics HTML or JSX syntax, making it accessible to web developers while maintaining the type safety and speed of Rust.
 
 ### Architecture and New Features in 0.7
+
 The release of version 0.7 marks a significant milestone for the ecosystem. A standout feature is **Dioxus Native**, a dedicated renderer that paints directly to the GPU. This approach ensures smooth animations and high-performance interfaces that feel more responsive than traditional webview wrappers. Additionally, the update adds support for **Radix UI** components and automatic **Tailwind CSS** integration, allowing developers to build professional, accessible designs quickly without writing complex custom CSS.
 
 ### The Development Workflow
+
 Getting started with Dioxus is streamlined through the **Dioxus CLI**. After installing the Rust toolchain, developers can scaffold projects using the `dx new` command. The CLI manages the complexities of cross-compilation; for instance, running `dx serve --platform ios` automatically launches an i
 
 Phone simulator and deploys the app. The framework includes **Hot Reloading** by default, allowing UI changes to be visible instantly across all targets without requiring a full manual recompile, though signature changes (like adding function parameters) trigger a fast full reload.
 
 ### Practical Data Handling
+
 The framework is built to handle complex, asynchronous logic. In the demonstration, the creator builds a Chuck Norris joke generator to showcase how Dioxus handles external data. By integrating the **Reqwest** crate for HTTP calls and **Serde** for JSON deserialization, developers can fetch API data within reactive hooks like `use_effect`. This ensures that the UI updates immediately upon data arrival, providing a seamless user experience that matches the reactive patterns of modern web development while benefiting from the low-level efficiency of the Rust language.
 
 ## Context

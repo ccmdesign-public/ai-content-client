@@ -74,6 +74,16 @@ ai:
   totalTokens: 16080
   processingTimeMs: 42138
 tools: []
+categories:
+  - "Business & Career"
+  - "Data & Analytics"
+  - "Product & Design"
+tags:
+  - "career-growth"
+  - "freelancing"
+  - "product-strategy"
+  - "visualization"
+tagsNormalizedAt: "2026-03-01T21:19:30.383Z"
 ---
 
 ## Key Takeaways

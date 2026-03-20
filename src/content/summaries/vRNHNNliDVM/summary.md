@@ -4,32 +4,23 @@ metadata:
   title: "The SECRET to Stunning AI Video Prompts!"
   description: "Is it possible to get consistent, Hollywood-level cinematography from AI video generators? Yes, but you need the right workflow.
 
-
     In this video, I’m sharing my Ultimate AI Prompt Workflow for cinematic filmmaking. We aren't just typing text into a box and hoping for the best; we are building a \"Murder Board\" system that takes you from a static Midjourney image to a fully realized, cinematic shot using Nano Banana Pro, Kling 2.6, and LLMs.
-
 
     I’ll show you how to structure the ultimate prompt template, the crucial 21:9 aspect ratio hack, and my favorite discovery: using ShotDeck to extract real movie metadata—including lens types, camera specs, and color hex codes—to force the AI to respect your cinematic vision.
 
-
     If you are tired of random results and want to master the ultimate workflow for AI video, this is the tutorial you’ve been waiting for.
-
 
     🔗 Links & Resources:
 
     Theoretically Media Newsletter (Get the Ultimate Prompt Templates): https://theoreticallymedia.beehiiv.com/
 
-
     Flora: https://dub.florafauna.ai/theoretically-media
-
 
     ShotDeck (Cinematic Database): https://shotdeck.com
 
-
     Kling AI: klingaiaffiliate.pxf.io/qz3955
 
-
     Flesh Syntax (Review of Higgsfield): https://youtu.be/QMv1zJh8Exg?si=nNKDbHyB7GP3Gx5E
-
 
     00:00 The Ultimate Cinematic Workflow
 
@@ -142,6 +133,15 @@ tools:
     url: null
   - name: "Claude"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "computer-vision"
+  - "llm"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.384Z"
 ---
 
 ## Key Takeaways
@@ -158,15 +158,19 @@ This workflow focuses on moving away from random prompting toward a repeatable, 
 ## Summary
 
 ### The Foundation: The PJ A. Workflow
+
 The core of this method builds on the **Legend of Zelda trailer workflow**, which shifts AI video from a single-prompt gamble to a multi-stage pipeline. The process starts in **Nano Banana Pro** utilizing an image-to-video workflow. By generating images in a **2x2 grid**, creators can quickly iterate and select the most successful composition without wasting excessive credits on single-shot failures.
 
 ### LLM-Driven Prompt Engineering
+
 Rather than manual writing, the workflow uses a sophisticated **LLM prompt template**. This template acts as a bridge, taking a simple scenario description and expanding it into a detailed, 2,800-character technical prompt. These prompts are designed to be 'context-dense,' providing the AI model with exhaustive details on lighting, textures, and character traits to ensure the output matches a specific cinematic vision.
 
 ### The Refining and Enhancement Phase
+
 Once a 2x2 grid is generated, the creator crops the preferred shot. Because cropping reduces resolution, the image must undergo an **enhancement pass**. This involves running the cropped image back through Nano Banana with a specific enhancement prompt to restore detail and remove 'mushiness' before it is converted into video. For video generation, tools like **Cling 2.6** are recommended for their ability to respect wider aspect ratios and maintain fluid motion.
 
 ### Cinematic Steerage and Shot Deck
+
 To move beyond generic AI aesthetics, creators should use 'homebrew' camera selections. By adding keywords like **IMAX**, **Hawk 5 anamorphic lenses**, or even vintage **Sony VFX1000** DV cams, the model is pushed toward specific visual styles. 
 
 A major breakthrough involves using **Shot Deck**, a massive database of technical metadata from professional films. By extracting the specific **color hex codes**, lens focal lengths, and lighting setups from real movies (like *Andor* or *Asteroid City*) and feeding them into the LLM template, the resulting AI video adopts the professional 'look and feel' of those productions. This experimental approach allows for high-level stylization that traditional prompting cannot achieve.

@@ -79,6 +79,16 @@ tools:
     url: null
   - name: "OpenCode"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "claude"
+  - "copilot"
+  - "terminal"
+tagsNormalizedAt: "2026-03-01T21:19:30.329Z"
 ---
 
 ## Key Takeaways

@@ -4,15 +4,11 @@ metadata:
   title: "Automating Large Scale Refactors with Parallel Agents - Robert Brennan, AllHands"
   description: "Today's agents are best at small, atomic coding tasks. Much larger tasks--like major refactors and breaking dependency updates--are highly automatable but hard to one-shot.
 
-
     In this session, we'll discuss patterns for orchestrating large-scale code changes with swarms of agents and a human in the loop.
-
 
     We'll also work through a concrete example: migrating an entire codebase from one React state management library to another.
 
-
     https://twitter.com/RobertBrennan
-
 
     Slides: https://dub.sh/openhands-workshop"
   channel: "AI Engineer"
@@ -53,6 +49,18 @@ tools:
     url: null
   - name: "AllHands"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "architecture"
+  - "automation"
+  - "best-practices"
+  - "refactoring"
+tagsNormalizedAt: "2026-03-01T21:19:30.299Z"
 ---
 
 ## Key Takeaways
@@ -74,20 +82,25 @@ Devin) provides an MIT-licensed environment to automate the 'inner loop' of deve
 ## Summary
 
 ### The Evolution of AI in Software Engineering
+
 Robert Brennan outlines the trajectory of AI coding tools, moving from simple, context-unaware snippets to the current 'bleeding edge' of **Parallel Agent Orchestration**. Early tools like ChatGPT provided disconnected code, while the second generation (Git
 
 Hub Copilot) integrated context-aware autocomplete within the IDE. The leap in early 2024 with **Devin** and **Open Hands** introduced autonomous agents capable of running code, debugging errors, and searching documentation—essentially automating the developer's inner loop. Brennan argues that even if models stop improving today, engineering will transform drastically as we operationalize these agents into fleets that function like managed teams.
 
 ### The Need for Orchestration
+
 Single agents struggle with massive refactors due to several technical and psychological hurdles. Context windows are limited, and long-running tasks often suffer from 'compounding errors' where a small mistake early on ruins the entire trajectory. Additionally, agents can become 'lazy,' stopping mid-task or requesting human intervention for repetitive work. Orchestration solves this by decomposing a massive 'mountain of tech debt' into small, parallelizable units. This approach is particularly effective for **toil**—tasks that are high-volume, repeatable, and low-creativity—such as updating Java versions, migrating Spark jobs, or remediating thousands of **CVEs** (Common Vulnerabilities and Exposures) across an enterprise.
 
 ### The Open Hands Refactor SDK
+
 The video features a detailed demonstration of the **Refactor SDK**, which visualizes a codebase as a complex dependency graph. To manage a refactor, the tool batches related files into 'human-sized chunks' corresponding to potential pull requests. The process follows a specific pipeline: first, a **Verifier** (which can be programmatic or LLM-based) identifies issues; next, a **Fixer** agent is spun up to address those specific issues in a sandbox environment. This ensures that changes remain tightly focused and easier for humans to review. Brennan highlights a case study where a client used this method to remediate vulnerabilities across thousands of repositories, achieving a 30x improvement in resolution time.
 
 ### Strategies for Decomposition and Context
+
 Successful orchestration relies on two pillars: **Task Decomposition** and **Context Sharing**. For decomposition, Brennan suggests moving through the dependency tree from the 'leaf nodes' (utilities) up to the entry points. Another strategy involves 'scaffolding,' where an agent sets up a temporary structure that allows the application to function in both old and new states simultaneously during a migration. For context sharing, the video explores several methods, from simple manual updates to 'Agent.md' files where agents document their learnings for others. The most advanced method involves point-to-point messaging between agents, though Brennan warns that this can increase non-determinism and lead to 'infinite loops' if not properly constrained.
 
 ### Live Workshop: CVE Remediation
+
 The final segment focuses on a practical exercise using the Open Hands SDK to build a parallel CVE solver. The workflow involves an initial agent scanning a repository (using tools like **Trivy** or **npm audit**) to identify vulnerabilities. For every vulnerability found, the system spawns a separate parallel agent tasked with researching the fix, updating dependencies, and opening a pull request. This parallelization ensures that if one agent gets stuck on a complex dependency conflict, the other 90% of the patches still proceed, allowing the human to focus only on the truly difficult cases.
 
 ## Context

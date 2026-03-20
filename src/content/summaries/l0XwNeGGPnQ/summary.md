@@ -4,18 +4,13 @@ metadata:
   title: "Most cybersecurity training doesn’t work. Can we change that?"
   description: "Explore the podcast → https://ibm.biz/BdbW4u
 
-
     Learn more about the cyber range → https://ibm.biz/BdbW4L
-
 
     AI has changed the speed of cyberattacks. But it hasn’t changed the most important variable: people.\ 
 
-
     In this episode of Security Intelligence, panelists Jake Paulson, Stephanie Carruthers and Matt Cerny dig into how AI-driven threats—phishing, deepfakes and disinformation—are reshaping the cyberthreat landscape. Organizations, too, are adopting AI tools to help detect these attacks.\ 
 
-
     But even in the era of AI, people are ultimately our first and last lines of defense. And all too often, we don’t give them what they need to succeed. How do we help human beings adapt to the increased speed, scale and impact of AI threats?\ 
-
 
     The answer, our panel argues, isn’t more checkbox training or prettier slides. It’s realistic, immersive training that builds muscle memory, confidence under stress and decision-making skills for moments when things don’t go according to plan.\ 
 
@@ -29,15 +24,11 @@ metadata:
 
     22:00 - How immersive simulations prepare teams for real incident response pressure\ 
 
-
     Because when AI accelerates attacks, training determines the outcome.\ 
-
 
     All that and more on Security Intelligence.\ 
 
-
     The opinions expressed in this podcast are solely those of the participants and do not necessarily reflect the views of IBM or any other organization or entity.\ 
-
 
     #cybersecuritytraining #cyberthreats #phising"
   channel: "IBM Technology"
@@ -62,6 +53,15 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 tools:
   - name: "IBM Cyber Range"
     url: "https://ibm.biz/BdbW4L"
+categories:
+  - "Business & Career"
+  - "Programming"
+  - "Security"
+tags:
+  - "best-practices"
+  - "leadership"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.419Z"
 ---
 
 ## Key Takeaways
@@ -83,9 +83,11 @@ This IBM Technology panel discusses why traditional cybersecurity training fails
 ## Summary
 
 ### The AI Threat Landscape: Speed, Scale, and Polish
+
 The panel opens by diagnosing how AI has fundamentally altered the cyber threat landscape. Matt Cerny highlights the dramatic increase in **speed to attack**, where AI can generate sophisticated, polished phishing emails—complete with correct logos and no misspellings—in moments, a task that previously took human attackers days. Stephanie Kurthers expands this to a triad of **speed, scale, and polish**, noting AI allows attackers to operate with unprecedented efficiency and volume. Jake Paulson adds a critical dimension: **AI-driven disinformation and misinformation**, which pose severe risks to public companies and individuals. The consensus is that AI's primary impact is in supercharging social engineering, making attacks more convincing and harder to distinguish from legitimate communication.
 
 ### The Enduring Role of Humans in an AI World
+
 The discussion then pivots to the human element. The panelists unanimously agree that while AI tools are vital for defense (acting like a 'fire alarm' for detection), **humans are irreplaceable**. They are both the 'weakest link' due to inherent inconsistency and the ultimate decision-makers. Key human roles include:
 
 *   Providing the **'human-in-the-loop'** to verify AI alerts and discern real threats.
@@ -97,6 +99,7 @@ The discussion then pivots to the human element. The panelists unanimously agree
 *   Making critical, judgment-based decisions during a crisis, especially when there is no clear 'right' answer, only 'the best of bad choices.'
 
 ### Why Traditional Cybersecurity Training Fails
+
 The panel critiques the standard approach to security awareness training, which has earned a negative reputation. Stephanie Kurthers identifies the core flaw: it **optimizes for completion, not for capability**, becoming a mere checkbox exercise. This training often fails because:
 
 *   It presents abstract warnings (e.g., 'don't click bad links') without showing **real, concrete examples** of how the organization is actually being targeted.
@@ -106,11 +109,13 @@ The panel critiques the standard approach to security awareness training, which 
 *   It lacks emotional engagement and fails to simulate the **stress and cognitive load** of a real incident, which is crucial for building effective response 'muscle memory.'
 
 ### The Cyber Range: A Model for Effective, Immersive Training
+
 The conversation introduces the **cyber range** as the antidote to ineffective training. Stephanie defines it as 'controlled chaos'—an immersive, multi-hour simulation of a cyber crisis using real adversary behaviors and tailored to an organization's specific fears. Unlike scripted tabletop exercises, cyber ranges are dynamic and hands-on.
 
 Matt and Jake elaborate on its transformative power through powerful metaphors: learning a cybersecurity incident response is like being **immersed in a foreign language environment** where you must communicate effectively under pressure, avoiding 'landmine' words with legal ramifications. The range forces participants to practice both the **'science'** (structured response playbooks) and the **'art'** (adaptive decision-making when plans break down).
 
 ### The Tangible Benefits of Realistic Simulation
+
 Panelists share specific benefits observed in cyber range exercises:
 
 *   **Building Confidence Under Stress:** Participants experience the visceral pressure of a locked screen, a ringing phone from a 'threat actor,' and the need to communicate clearly while stressed, which theoretical training cannot replicate.
@@ -120,11 +125,13 @@ Panelists share specific benefits observed in cyber range exercises:
 *   **Fostering Emotional Engagement and Team Building:** As Jake emphasizes, effective training must **evoke an emotional response** that leads to internalization. Going through a tough scenario together creates trauma bonding and strengthens inter-departmental relationships, making people more likely to collaborate and report issues later.
 
 ### Making Training a Strategic Imperative
+
 The final segment focuses on shifting organizational mindset. The panel argues training must be reframed from a compliance task to a **strategic lever for business continuity and survival**. Analogies to fire drills are used: you practice not because you know there will be a fire, but to prevent confusion and save lives when one occurs.
 
 Jake stresses aligning training with the core purpose of the business—ensuring it can continue to thrive. The lessons learned in crisis simulation (documentation, backups, communication) have value across all business functions. Matt notes that the emotional experience of the range makes subsequent awareness materials more impactful, as people now have a personal reference for the potential consequences.
 
 ### Final Takeaways
+
 The panel concludes with concise calls to action: Stephanie asserts that while **AI has changed the speed of attacks, training changes the outcome**. Jake's mantra is **'practice, practice, practice'** and embed teamwork into everything. Matt advises to **capitalize on AI as an augmentation tool**, maintain the human-in-the-loop, focus on foundations, and engage in continuous, repetitive training.
 
 ## Context

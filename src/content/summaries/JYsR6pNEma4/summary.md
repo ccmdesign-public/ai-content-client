@@ -4,15 +4,11 @@ metadata:
   title: "Introduction to AI Agent Skills with Google Antigravity"
   description: "Want to make your AI agent smarter without reprogramming it? In this video, I break down Skills in Google Antigravity—a powerful way to give your agent extra knowledge and specialized capabilities.
 
-
     While \"Tools\" let an agent execute code, \"Skills\" give them the instructions and best practices they need to handle specific workflows exactly how you want them to.
-
 
     I'll walk through a real-world demo: creating a custom Skill that encourages the agent to generate consistent, emoji-filled Git commit messages for your team.
 
-
     🚀 Try Antigravity today: https://antigravity.google/
-
 
     In this video, we cover:
 
@@ -28,7 +24,6 @@ metadata:
 
     2:25 - Demo: Generating a \"Sparkly\" Commit Message
 
-
     Learn more about:
 
     * Extending agent capabilities with Markdown
@@ -36,7 +31,6 @@ metadata:
     * Setting up SKILL.md with YAML frontmatter
 
     * Customizing developer workflows
-
 
     #GoogleAntigravity #AIAgents #CodingTools #DevWorkflow #AI"
   channel: "Cloud with Karl"
@@ -71,6 +65,15 @@ tools:
     url: "https://antigravity.google/"
   - name: "Git"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "automation"
+  - "git"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.422Z"
 ---
 
 ## Key Takeaways
@@ -90,14 +93,17 @@ This video introduces the concept of **AI agent skills** and demonstrates their 
 The video, "Introduction to AI Agent Skills with Google Antigravity," by Cloud with Karl, explains a new concept in AI agent development: **skills**. It differentiates skills from tools and demonstrates their application using Google Antigravity.
 
 ### Understanding Agents, Skills, and Tools
+
 An **AI agent** is defined as an entity capable of planning and solving problems independently. Complementing agents are **tools**, which are pieces of code agents can use to perform tasks. The new concept introduced is **skills**, which provide agents with extra knowledge and capabilities, metaphorically like sending an agent to school for specialized training. A key benefit of skills is that they allow an agent to gain new expertise and adapt to evolving circumstances without needing a full reprogramming. For instance, an agent assisting an auto mechanic could be given new skills on electric vehicles (EVs) or new car models, allowing it to better utilize its existing diagnostic tools without being rebuilt from scratch.
 
 ### Practical Demonstration with Google Antigravity
+
 The video demonstrates the practical application of skills through a scenario focused on achieving **consistent Git commit messages** for a team using Google Antigravity. The goal is for the agent to analyze staged changes and suggest commit messages that adhere to a common standard, which can be particularly useful for ensuring uniformity and clarity in development workflows.
 
 To implement a skill, a `skill.md` file is created. This file contains **YAML front matter** at the top, which includes metadata like the skill's name (e.g., "emoji commits skill") and a brief description. Below the front matter, detailed instructions are provided, outlining how the agent should behave or what standards it should enforce. In the demo, this skill guides the agent to produce conventional, "sparkly" commit messages.
 
 ### Applying and Utilizing Skills
+
 Once defined, skills can be activated for an agent. By renaming the `skill.md` file to `agent.md` and placing it within a specific workspace, the skill becomes relevant only to that workspace. Alternatively, placing the `agent.md` file in the general Google Antigravity folder makes the skill apply globally across all agent interactions. The demonstration shows that when the agent is prompted to create a Git commit message for staged changes, it analyzes the `skill.md` (now `agent.md`) file. This analysis enables the agent to connect the task with the defined skill, shaping its response to produce a commit message that adheres to the specified standard, such as an "orchestrator agent pattern" or a "sparkly" format. This process ensures that agents consistently provide outputs aligned with desired team or individual preferences.
 
 The core takeaway is that skills empower AI agents with additional, modular knowledge, allowing them to adapt their responses and perform tasks according to specific guidelines without requiring extensive reprogramming, thereby enhancing their utility and consistency.

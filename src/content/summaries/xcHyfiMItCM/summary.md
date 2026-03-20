@@ -8,11 +8,9 @@ metadata:
 
     New Claude Community: https://www.skool.com/claude/
 
-
     -----------------------------
 
     ✉️  For Business Inquiries: samin@bookedin.ai
-
 
     Hi 👋 I'm Samin.  This channel is for you if you’re a business owner who wants to:
 
@@ -22,12 +20,9 @@ metadata:
 
     → Scale your revenue while working less
 
-
     You may be feeling stuck, trying to figure out how to attract consistent leads, increase your sales, and grow your business without burning out.
 
-
     If that sounds like you I can help.\ 
-
 
     But why even listen to me?
 
@@ -39,9 +34,7 @@ metadata:
 
     - I have a computer science degree from NYU
 
-
     More about bookedin: https://www.youtube.com/channel/UCwUgatPkBj-CROEB_MJAh5A
-
 
     ⏰ TIMESTAMPS
 
@@ -104,6 +97,17 @@ tools:
     url: null
   - name: "Zapier"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Data & Analytics"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "analytics"
+  - "automation"
+  - "claude"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.353Z"
 ---
 
 ## Key Takeaways
@@ -125,17 +129,21 @@ Hog** or **CRM tools**, extract data, and process it into local spreadsheets or 
 The release of **Claude Co-work** on the Claude Desktop app introduces a significant leap in productivity by giving the AI model the ability to act as an agent on a user's computer. The interface allows for **multi-tasking**, where users can launch several concurrent tasks that run in the background while they continue other work. 
 
 ### Local Productivity and Organization
+
 One of the most immediate use cases is **desktop management**. Claude can scan a cluttered desktop and categorize hundreds of files into folders based on context and file type. Beyond simple organization, the tool can leverage local assets—such as brand kits or documents—to create professional **branded presentations**. By using tools like **Slidev** and **Google Slides**, Claude can fetch specific company data from local folders, look up live website details, and generate formatted slides with custom colors and imagery.
 
 ### The "Teach Claude" Recording Feature
+
 A standout feature of the Co-work update is the ability to record workflows. By selecting **Teach Claude**, the AI watches the user perform a manual task—such as copying data from a Google Sheet into an image generator. Claude then converts these actions into a **reusable skill**. These skills can be saved as shortcuts or even scheduled to run at specific times, effectively turning Claude into a custom automation engine for repetitive office tasks that traditionally required manual "click-work."
 
 ### Data Fetching and Browser Navigation
+
 Claude Co-work excels at navigating complex web interfaces that lack simple APIs. The video demonstrates Claude accessing **Post
 
 Hog**, a complex analytics platform, to gather daily active user data. Claude can browse the site like a human, download **CSV files** directly to the user's computer, and then open local applications like **Apple Numbers** or **Google Sheets** to create visual reports and trend analyses. This bridge between web-based data and local software is a core strength of the agentic approach.
 
 ### Custom Skills and Extensibility
+
 Finally, the system is highly extensible. Users can add capabilities that Claude does not possess natively, such as image generation, by providing an **API key** (e.g., Wave
 
 Speed) and instructing Claude to create a skill for it. Furthermore, the community has developed a library of **Awesome Claude Skills** on Git

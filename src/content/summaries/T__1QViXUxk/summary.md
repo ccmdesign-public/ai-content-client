@@ -6,12 +6,9 @@ metadata:
 
     👉 Land a Job Faster: https://stan.store/farahsharghi/p/resume-linkedin-rewrite
 
-
     As an Ex-Google recruiter, I've watched qualified candidates lose offers by being \"too honest\" in interviews.\ 
 
-
     After reviewing 136,000+ resumes at Google, TikTok, Uber, Lyft, and The New York Times, I'm sharing the 9 answers hiring managers actually expect to hear, even if they feel like lies. These interview tips will change how you approach every question.
-
 
     CONNECT WITH ME:
 
@@ -19,9 +16,7 @@ metadata:
 
     Website: https://www.farahsharghi.com
 
-
     Want to skip the trial and error? Let me create a standout resume, LinkedIn, and job search roadmap tailored just for you (yes I do all the work myself): https://stan.store/farahsharghi/p/resume-linkedin-rewrite
-
 
     Want to turn your professional expertise into a business? Try Stan Store free for 14 days: https://join.stan.store/farahsharghi"
   channel: "Farah Sharghi"
@@ -48,6 +43,12 @@ ai:
 tools:
   - name: "Stan Store"
     url: "https://stan.store"
+categories:
+  - "Business & Career"
+tags:
+  - "career-growth"
+  - "interviewing"
+tagsNormalizedAt: "2026-03-01T21:19:30.427Z"
 ---
 
 ## Key Takeaways
@@ -65,6 +66,7 @@ This video exposes the unwritten rules of job interviews where strategic framing
 Farah Sharghi, a former recruiter for Google and other major tech companies, argues that successful interviewing requires **strategic communication** rather than unfiltered honesty. She guides viewers through nine common questions where a candid answer could hurt your chances, providing the polished, expected response instead.
 
 ### The Interview Mindset Shift
+
 Interviews should not be viewed as auditions where you hope to be chosen. Instead, approach them as **meetings between two parties with mutual value to offer**. This energy shift is palpable to hiring managers. Your goal is to demonstrate you are a **low-risk, high-contributor candidate**.
 
 ### Critical Question Breakdown

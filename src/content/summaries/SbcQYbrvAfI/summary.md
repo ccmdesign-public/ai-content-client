@@ -4,9 +4,7 @@ metadata:
   title: "Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize"
   description: "Following from Aparna's talk: https://www.youtube.com/watch?v=pP_dSNz_EdQ
 
-
     Learn how to create a feedback loop to continuously improve your AI prompts and responses.
-
 
     https://www.linkedin.com/in/sallyann-delucia-59a381172/"
   channel: "AI Engineer"
@@ -45,6 +43,17 @@ tools:
     url: null
   - name: "DS-Bench Light"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "best-practices"
+  - "llm"
+  - "prompt-engineering"
+  - "testing"
+tagsNormalizedAt: "2026-03-01T21:19:30.393Z"
 ---
 
 ## Key Takeaways
@@ -70,6 +79,7 @@ Hands, the researchers achieved a **15% performance boost**, proving that instru
 ## Summary
 
 ### The Crisis of Unreliable Agents
+
 Sally
 
 Ann De
@@ -77,6 +87,7 @@ Ann De
 Lucia opens the presentation by addressing the common frustration among AI engineers: while many are building agents, very few feel those agents are truly reliable. She identifies the primary causes of failure not as model weakness, but as **weak environments and instructions**. Many agents suffer from static planning, missing tools, or poor context engineering. To solve this, Arize proposes a shift from manual prompt engineering to a systematic, data-driven **Prompt Learning Loop**. This approach bridges the gap between technical AI engineers and domain experts by turning qualitative human feedback into quantitative instruction improvements.
 
 ### Defining the Prompt Learning Framework
+
 To explain Prompt Learning, De
 
 Lucia distinguishes it from **Reinforcement Learning (RL)** and **Meta-prompting**. RL is often impractical for prompts because you cannot easily update model weights directly through prompting. Meta-prompting, while closer, usually focuses on optimizing a specific metric or score. 
@@ -84,6 +95,7 @@ Lucia distinguishes it from **Reinforcement Learning (RL)** and **Meta-prompting
 **Prompt Learning** operates in the text modality. It uses an LLM-as-a-Judge to provide **English feedback**, which includes not just a 'correct' or 'incorrect' label, but a detailed explanation of where the agent deviated from the desired behavior. Because LLMs are designed to process language, this textual 'reasoning' is a much more powerful signal for optimization than a simple numerical reward. This feedback is then used to generate a new system prompt that explicitly addresses previous failures.
 
 ### Case Study: Scaling Performance in Coding Agents
+
 The speakers provide a concrete example of this methodology applied to coding agents like **Cline** and **Open
 
 Hands**. By analyzing trajectories where the agents failed, they identified a lack of explicit 'operating procedures.' They introduced a structured **Rules section** in the system prompt covering error handling, system design alignment, and testing requirements. 
@@ -91,16 +103,19 @@ Hands**. By analyzing trajectories where the agents failed, they identified a la
 This simple addition resulted in a **15% performance improvement** on the DS-Bench Light benchmark. Remarkably, this optimization allowed a GPT-4o-based agent to rival the performance of GPT-4.5 while operating at two-thirds of the cost. This underscores the core thesis: massive gains are available through 'lowest-lift' prompt optimization rather than the high-overhead of fine-tuning or architectural changes.
 
 ### Overfitting, Generalization, and Expertise
+
 A significant portion of the talk addresses the fear of **overfitting**. De
 
 Lucia reframes this concern, suggesting that for most business applications, what looks like overfitting is actually **domain expertise**. An agent designed to work on a specific repo or within a specific legal framework *should* be highly specialized. To ensure the rules remain generalized enough to handle new inputs, they utilize a **Train/Test split** during the optimization loop, ensuring the refined prompt performs well on data it hasn't specifically 'learned' from yet.
 
 ### Benchmarking against GA and DSPy
+
 The team benchmarked Prompt Learning against other popular optimizers like **GA (Genetic Algorithms)** and **MIPRO (from DSPy)**. Their findings indicated that Prompt Learning, by focusing on reflection and text-based mutations, achieved higher accuracy peaks and reached those peaks in significantly fewer loops. A critical factor in this success is **Eval Engineering**. De
 
 Lucia emphasizes that users must 'evaluate the evaluators.' If the feedback being fed into the loop is low-confidence or incorrect, the resulting prompt will be flawed. They recommend a co-evolving loop where the evaluation prompts are optimized alongside the agent prompts.
 
 ### Workshop: Building the Loop
+
 Fuad Ali leads a technical walkthrough of building an optimization loop using the **Arize Phoenix SDK**. The workshop demonstrates a task for generating JSON webpages. The workflow involves:
 1.  **Data Preparation**: Loading a dataset of queries and human/LLM feedback.
 2.  **Evaluator Initialization**: Setting up a 'Comprehensive Evaluator' (correctness) and a 'Rule Checker' (granular compliance).

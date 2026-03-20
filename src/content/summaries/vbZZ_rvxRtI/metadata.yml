@@ -1,0 +1,45 @@
+videoId: vbZZ_rvxRtI
+title: "Azure DevOps Engineer Exam: Question 8"
+description: >-
+  Reproducible Pipelines: No Agent Secrets! 🚀 
+
+
+  The Goal: Build a pipeline that is auditable and reproducible without relying
+  on an agent's "local state."
+
+
+  The Solution: Artifacts + Git 🎯
+
+  - The Win: Store build artifacts in Azure Artifacts and version everything in
+  Git.
+
+  - Why it works: It removes ""hidden states."" If an agent is deleted, your
+  process isn't lost. Anyone can inspect Git and Azure Artifacts to see exactly
+  what was deployed.
+
+  - Avoid the Traps: Never rely on local disks or undocumented tools—they kill
+  transparency and auditability.
+
+
+  Exam Tip: For AZ-400, "Reproducible/Auditable" = Version Control + Remote
+  Artifact Storage. 🚀
+
+
+  #AZ400 #AzureDevOps #DevOps #CICD #AzureArtifacts #Automation #CloudComputing
+  #TechTips #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M7S
+publishedAt: 2026-03-08T15:55:00Z
+thumbnailUrl: https://i.ytimg.com/vi/vbZZ_rvxRtI/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=vbZZ_rvxRtI
+processedAt: 2026-03-10T14:01:47.755Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1699
+outputTokens: 560
+totalTokens: 2259
+processingTimeMs: 20194

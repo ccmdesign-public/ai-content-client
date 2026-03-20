@@ -1,0 +1,69 @@
+videoId: twjAuwHjSj4
+title: Vibe coding a secure agent in ADK with Antigravity
+description: >-
+  [Lab] Building with Google Antigravity → https://goo.gle/4kXTWpN 
+
+  [Lab] Securing a Multi-Agent System → https://goo.gle/4aDl2zb 
+
+  [Lab]  Build a Secure Agent with Model Armor and Identity
+  →  https://goo.gle/4cffP1z 
+
+
+  Build a production agent using vibe coding with Antigravity. Learn how to
+  implement critical security checkpoints using Model Armor callbacks. Working
+  in small, test-driven phases. Aron shares how to intercept a user’s prompt
+  before it hits the model to block injection attacks, and how to scrub the
+  model’s response before it ever reaches the user to prevent data leakage.
+
+
+  Chapters:
+
+  0:00 - Security checkpoints in production agents 
+
+  0:38 - The Plan: Integrating Model Armor with ADK callbacks 
+
+  0:51 - Step 1: Input guardrails and prompt injection defense 
+
+  0:58- Red Phase: Simulating malicious user input
+
+  1:15 - Green Phase: Implementing before_model_callback 
+
+  1:42 - Step 2: Output validation and data leakage prevention 
+
+  1:55 - Red Phase: Mocking sensitive model responses 
+
+  2:12 - Green Phase: Sanitizing output with after_model_callback 
+
+  2:26 - Refactoring and consolidating security policies 
+
+
+  More resources:
+
+  Immersive Stream for XR documentation → https://goo.gle/4aDWshE
+
+
+  🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech
+
+
+  #GoogleCloud
+
+
+  Speaker: Aron Eidelman
+
+  Products Mentioned: Google Cloud Security, Gemini CLI, Antigravity
+channel: Google Cloud Tech
+channelId: UCJS9pqu9BzkAMNTmzNMNhvg
+duration: PT3M30S
+publishedAt: 2026-03-16T16:01:31Z
+thumbnailUrl: https://i.ytimg.com/vi/twjAuwHjSj4/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=twjAuwHjSj4
+processedAt: 2026-03-16T16:26:51.648Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 3029
+outputTokens: 860
+totalTokens: 3889
+processingTimeMs: 87780

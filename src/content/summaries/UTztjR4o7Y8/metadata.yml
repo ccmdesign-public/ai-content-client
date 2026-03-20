@@ -1,0 +1,68 @@
+videoId: UTztjR4o7Y8
+title: My OpenClaw Kept Breaking - Here's How I Fixed It
+description: >-
+  A few weeks ago, my OpenClaw agent kept failing.  It was forgetting everything
+  after long conversations. Skills broke, cron jobs stopped running correctly,
+  and I kept getting error messages in Telegram about running out of context. I
+  thought it was the model, but it turns out it was how OpenClaw handles memory
+  and context behind the scenes. Here's exactly what was broken and how I fixed
+  it.
+
+
+  🛠️ RELEVANT DOCS & PROMPTS:
+
+  All relevant docs, instructions, and prompts from this video can be found
+  here: https://x.com/_sean_matthew/status/2031800232569102610
+
+
+  📋 TIMESTAMPS:
+
+  00:00 Intro
+
+  00:33 Why Memory Breaks
+
+  01:39 Fix 1: Memory Flush
+
+  04:21 Fix 2: Search & Retrieval
+
+  06:25 Fix 3: The Heartbeat Cost Trap
+
+  08:48 Fix 4: System Prompt Audit
+
+  10:45 Recap
+
+  11:09 Outro
+
+
+  💾 MENTIONED IN THIS VIDEO:
+
+  → Article on OpenClaw memory debugging (credit: code_rams on X):
+  https://x.com/i/article/2025615759771123712
+
+  → QMD by Tobi Lutke: https://github.com/tobi/qmd
+
+
+  For more OpenClaw content:
+
+  → 3 Tools That Make OpenClaw Actually Useful: https://youtu.be/QvfqAMUJTT4
+
+  → I Gave OpenClaw Its Own Computer: https://youtu.be/QCf8BCT-Kzo
+channel: Sean Matthew
+channelId: UChIUO17UyR0Mb_qcCxCgLkw
+duration: PT11M23S
+publishedAt: 2026-03-11T17:00:46Z
+thumbnailUrl: https://i.ytimg.com/vi/UTztjR4o7Y8/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=UTztjR4o7Y8
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-03-12T15:19:32.006Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 9535
+outputTokens: 910
+totalTokens: 10445
+processingTimeMs: 36278

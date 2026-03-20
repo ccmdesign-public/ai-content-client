@@ -41,6 +41,15 @@ tools:
     url: null
   - name: "Server-Sent Events"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "agents"
+  - "api-design"
+  - "architecture"
+tagsNormalizedAt: "2026-03-01T21:19:30.317Z"
 ---
 
 ## Key Takeaways

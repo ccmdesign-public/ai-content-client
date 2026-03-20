@@ -6,12 +6,9 @@ metadata:
 
     Agent Development Kit (ADK) →https://goo.gle/4aTg7KQ
 
-
     Your React frontend shouldn't be managing your AI's plumbing. In this video, Amit Maraj shows you how to build the \"General Contractor\" of your AI system: the Orchestrator.\ 
 
-
     You'll learn how to use the Agent Development Kit (ADK) to manage remote specialists using RemoteA2aAgent, implement a feedback loop with LoopAgent, and build an EscalationChecker that acts like a building inspector. We'll also cover how to stream real-time status updates to your user, ensuring they aren't staring at a blank screen while your distributed squad gets to work.
-
 
     More resources:\ 
 
@@ -21,12 +18,9 @@ metadata:
 
     Gemini 3 models →https://goo.gle/4aY7zSV
 
-
     Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech
 
-
     #CloudRun #GoogleCloud
-
 
     Speaker: Amit Maraj
 
@@ -69,6 +63,18 @@ tools:
     url: "https://goo.gle/4aY7zSV"
   - name: "React"
     url: null
+categories:
+  - "AI & Machine Learning"
+  - "DevOps & Infrastructure"
+  - "Programming"
+  - "Web Development"
+tags:
+  - "agents"
+  - "api-design"
+  - "architecture"
+  - "gcp"
+  - "gemini"
+tagsNormalizedAt: "2026-03-01T21:19:30.519Z"
 ---
 
 ## Key Takeaways
@@ -88,9 +94,11 @@ Building complex AI workflows requires moving from single-agent calls to a sophi
 This video outlines a robust framework for managing a **multi-agent AI architecture** using an orchestrator-centric model. The central premise is that the front-end application should not be burdened with the granular management of complex AI workflows. Instead, it should interact with a single **Orchestrator agent**, which acts as a 'general contractor' for various AI 'subcontractors' or specialists.
 
 ### The Orchestrator and Remote Agents
+
 The architecture relies on the **Agent Development Kit (ADK)** to facilitate communication between distributed services. By using the `remote_agent` function, the orchestrator can connect to specialized agents via a simple URL. This allows the system to scale as a collection of **microservices**, where each agent (e.g., a researcher, a carpenter, or an electrician in the contractor analogy) performs a specific function without the front-end needing to know the details of their implementation.
 
 ### Logic Loops and Shared State
+
 One of the most powerful features discussed is the **researcher-to-judge loop**. Using the `loop_agent` pattern, the system can iteratively refine its output. This process is governed by a **shared session state**:
 
 - The **Researcher** performs a task and submits it.
@@ -102,9 +110,11 @@ One of the most powerful features discussed is the **researcher-to-judge loop**.
 - Once the criteria are met, the checker yields an `escalate = true` event, which effectively acts as an emergency brake to stop the loop.
 
 ### User Experience and Streaming
+
 Because multi-agent workflows can be time-consuming, the video emphasizes the importance of **event-based streaming**. By tapping into the ADK event stream, the server can identify which agent is currently active. For instance, if the researcher is busy, the orchestrator can send a 'Researcher is working' status to the front-end. This ensures the user sees a live, interactive dashboard rather than a static loading screen while the background 'squad' completes the work.
 
 ### Development and Deployment
+
 The workflow is demonstrated through a local script that spins up four distinct microservices on a single machine. This allows for a **full distributed system** to be tested locally before being moved into a production environment. The front-end connects to a single port, but because of the orchestrator's management, it receives updates from the entire squad seamlessly.
 
 ## Context

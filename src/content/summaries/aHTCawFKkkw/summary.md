@@ -74,6 +74,16 @@ tools:
     url: null
   - name: "zlib"
     url: null
+categories:
+  - "Data & Analytics"
+  - "Programming"
+  - "Security"
+tags:
+  - "best-practices"
+  - "debugging"
+  - "nosql"
+  - "vulnerability"
+tagsNormalizedAt: "2026-03-01T21:19:30.475Z"
 ---
 
 ## Key Takeaways

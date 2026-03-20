@@ -40,6 +40,15 @@ ai:
   fallbackAttempts: 0
   processingTimeMs: 0
 tools: []
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "llm"
+  - "prompt-engineering"
+  - "workflow"
+tagsNormalizedAt: "2026-03-01T21:19:30.521Z"
 ---
 
 As of early 2026, the artificial intelligence industry has transitioned from the "Experimental Phase" to the "Agentic Era." The video reflects on the rapid evolution of 2025, highlighting that the novelty of LLMs (Large Language Models) has been replaced by the functional utility of autonomous agents that execute multi-step tasks with minimal human intervention.
