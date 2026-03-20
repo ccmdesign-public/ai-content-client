@@ -8,6 +8,14 @@
  * - Heading spacing (all levels: # through ######)
  * - Triple-newline protection boundaries for broken-word/sentence fixers
  *
+ * Known limitation: Fenced code blocks are not detected. Lines inside
+ * ``` blocks that start with "# " (e.g., Python comments) will be
+ * treated as headings and have blank lines inserted around them.
+ * This is acceptable because AI-generated summaries rarely contain
+ * fenced code blocks. If content types expand to include code, add
+ * placeholder preprocessing (extract code blocks before normalizing,
+ * restore after).
+ *
  * Architecture:
  * normalizeText() calls normalizeMarkdown() BEFORE fixBrokenWords/fixBrokenSentences,
  * then calls normalizeMarkdownPostFix() AFTER them. The pre-fixer phase inserts triple

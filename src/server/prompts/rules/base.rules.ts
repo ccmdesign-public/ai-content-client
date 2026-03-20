@@ -22,7 +22,7 @@ export const baseRules: PromptRules = {
   formatting: [
     'Use markdown within each field: **bold**, bullet points (* or -), ### headers',
     'Paragraphs should be separated by blank lines',
-    'ALWAYS put a blank line before and after headings (## and ###) before starting any content (paragraphs, bullet lists, etc.)',
+    'ALWAYS put a blank line before and after all markdown headings (#, ##, ###, etc.) before starting any content (paragraphs, bullet lists, etc.)',
     'Keep paragraphs short and scannable',
     'NEVER break words across lines - keep compound names intact (WhatsApp, McKinsey, LinkedIn)',
     'Each sentence must be complete on its line - no mid-sentence breaks',
