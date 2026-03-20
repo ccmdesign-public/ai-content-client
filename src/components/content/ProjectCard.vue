@@ -57,7 +57,7 @@ const isFeatured = computed(() => {
   >
     <Card
       :class="[
-        'overflow-hidden transition-shadow hover:shadow-md',
+        'overflow-hidden transition-shadow hover:shadow-md motion-reduce:transition-none',
         isFeatured && 'border-2 border-primary'
       ]"
     >

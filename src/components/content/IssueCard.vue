@@ -22,7 +22,7 @@ const issueSlug = computed(() => props.issue.stem.replace(/^newsletters\//, ''))
   <article class="border-t border-border last:border-b">
     <NuxtLink
       :to="`/issues/${issueSlug}`"
-      class="group flex items-center gap-4 py-5 px-2 no-underline text-inherit transition-colors hover:bg-muted"
+      class="group flex items-center gap-4 py-5 px-2 no-underline text-inherit transition-colors hover:bg-muted motion-reduce:transition-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
     >
       <div class="flex-1 min-w-0">
         <h3 class="m-0 mb-1.5 text-[1.0625rem] font-semibold leading-relaxed text-foreground">
@@ -43,7 +43,7 @@ const issueSlug = computed(() => props.issue.stem.replace(/^newsletters\//, ''))
         </div>
       </div>
       <ArrowRight
-        class="size-5 text-muted-foreground shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:text-primary"
+        class="size-5 text-muted-foreground shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:text-primary motion-reduce:transition-none"
         aria-hidden="true"
       />
     </NuxtLink>
