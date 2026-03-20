@@ -36,20 +36,23 @@ export default defineEventHandler(async (event) => {
   // Query all summaries from the collection
   const summaries = await queryCollection(event, 'summaries').all()
 
+  // Query all newsletter issues
+  const newsletters = await queryCollection(event, 'newsletters').all()
+
   const urls: SitemapUrl[] = []
 
-  // Home page (currently a 302 redirect to /summaries/, lower priority)
+  // Home page (newsletter landing page -- primary content page)
   urls.push({
     loc: '/',
     changefreq: 'daily',
-    priority: 0.5
+    priority: 1.0
   })
 
-  // Summaries index (primary content page)
+  // Summaries index (secondary content page)
   urls.push({
     loc: '/summaries/',
     changefreq: 'daily',
-    priority: 1.0
+    priority: 0.8
   })
 
   // Summary pages
@@ -59,6 +62,18 @@ export default defineEventHandler(async (event) => {
       lastmod: summary.processedAt || undefined,
       changefreq: 'weekly',
       priority: 0.8
+    })
+  }
+
+  // Newsletter issue pages
+  for (const issue of newsletters) {
+    // stem is "newsletters/2026-03-19", extract just the date slug
+    const slug = issue.stem.replace(/^newsletters\//, '')
+    urls.push({
+      loc: `/issues/${slug}`,
+      lastmod: issue.publishedAt || undefined,
+      changefreq: 'monthly',
+      priority: 0.7
     })
   }
 

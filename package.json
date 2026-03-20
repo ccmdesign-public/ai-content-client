@@ -32,7 +32,8 @@
     "backfill": "tsx scripts/backfill-video-data.ts",
     "backfill:tools": "tsx scripts/backfill-tools.ts",
     "backfill:tools:dry": "tsx scripts/backfill-tools.ts --dry-run",
-    "sync:tags": "tsx scripts/sync-tags.ts"
+    "sync:tags": "tsx scripts/sync-tags.ts",
+    "sync:newsletters": "tsx scripts/sync-newsletters.ts"
   },
   "dependencies": {
     "@fontsource/geist-mono": "^5.2.7",

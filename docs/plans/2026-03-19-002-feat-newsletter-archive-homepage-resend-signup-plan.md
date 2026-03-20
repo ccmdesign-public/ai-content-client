@@ -1,7 +1,7 @@
 ---
 title: "feat: Newsletter archive as homepage + Resend signup"
 type: feat
-status: active
+status: completed
 date: 2026-03-19
 deepened: 2026-03-19
 ---
