@@ -92,10 +92,10 @@ When working with design system components:
 - `.cursor/` - Cursor IDE configuration
 
 ## Project Management
-- Active specs and planning docs: `_process/` (if directory exists)
+- Plans and specs: `docs/plans/`
+- Brainstorms: `docs/brainstorms/`
+- Past solutions: `docs/solutions/`
 - Archived documentation: `_archive/` (ignored by version control)
-- When expanding scope, document in relevant spec files
-- **Plans directory**: Write plans to `_process/plans/` instead of the default `plans/`
 
 ## Important Notes
 
