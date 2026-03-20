@@ -1,3 +1,5 @@
+import { exec } from 'node:child_process';
+import { promisify } from 'node:util';
 import type { ChannelConfig, ChannelCheckResult, MonitorResult, ChannelsConfig, MonitorOptions, ChannelProgressCallback } from '~/types/channels';
 import { loadConfig } from '~/server/utils/config';
 import { loadChannelsConfig } from '~/server/utils/channels-config';
@@ -10,6 +12,8 @@ import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
 import { processVideo } from './sync.service';
 import { isShortVideo } from '~/server/utils/duration';
+
+const execAsync = promisify(exec);
 
 // Delay between processing channels to avoid rate limiting
 const CHANNEL_DELAY_MS = 1000;
@@ -34,6 +38,14 @@ export class ChannelMonitorService {
     this.channelsConfig = loadChannelsConfig();
 
     const groqWhisper = this.appConfig.groqApiKey ? createGroqWhisperService(this.appConfig.groqApiKey) : undefined;
+
+    // Check for ffmpeg availability when Groq Whisper is enabled
+    if (groqWhisper) {
+      execAsync('which ffmpeg', { timeout: 5000 }).catch(() => {
+        logger.warn('ffmpeg not found -- Groq Whisper fallback will fail for audio extraction. Install ffmpeg: brew install ffmpeg');
+      });
+    }
+
     this.youtubeService = createYouTubeService(this.appConfig.youtubeApiKey, groqWhisper);
     this.aiService = createAIService({
       geminiApiKey: this.appConfig.geminiApiKey,

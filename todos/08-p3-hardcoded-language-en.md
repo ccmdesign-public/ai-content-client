@@ -1,5 +1,7 @@
 # Hardcoded language 'en' in Groq Whisper request
 
+**Status:** RESOLVED
+
 **Priority:** P3 (nice to have)
 
 **File:** `src/server/services/groq-whisper.service.ts`, line 51
@@ -25,3 +27,7 @@ async transcribeFromFile(filePath: string, videoId: string, language?: string): 
 ```
 
 Low priority since the current codebase only processes English content.
+
+## Resolution
+
+Made `language` an optional parameter in `transcribeFromFile()`. When omitted, Whisper auto-detects the language. Existing callers pass no language, enabling auto-detection.

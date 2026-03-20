@@ -1,5 +1,7 @@
 # Reset script has no JSON validation or backup
 
+**Status:** RESOLVED
+
 **Priority:** P3 (nice to have)
 
 **File:** `scripts/reset-transcript-unavailable.ts`
@@ -26,3 +28,7 @@ for (const entry of Object.values(log.entries)) {
   }
 }
 ```
+
+## Resolution
+
+Rewrote the script to use `ProcessingLogService.resetForRetry()` instead of raw JSON manipulation. This ensures atomic writes, validation, and consistent behavior with production code.

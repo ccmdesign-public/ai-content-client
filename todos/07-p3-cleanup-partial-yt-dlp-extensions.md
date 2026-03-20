@@ -1,5 +1,7 @@
 # Incomplete cleanup of yt-dlp partial files on audio download failure
 
+**Status:** RESOLVED
+
 **Priority:** P3 (nice to have)
 
 **File:** `src/server/services/youtube.service.ts`, lines 324-327
@@ -26,3 +28,7 @@ for (const file of files) {
 ```
 
 Or simply add `.m4a` and `.opus` to the explicit cleanup list.
+
+## Resolution
+
+Replaced hardcoded extension list with `readdir` + prefix-matching cleanup. Now cleans up all files matching the unique ID prefix regardless of extension.

@@ -1,5 +1,7 @@
 # No timeout on Groq API fetch call
 
+**Status:** RESOLVED
+
 **Priority:** P2 (should fix)
 
 **File:** `src/server/services/groq-whisper.service.ts`, lines 53-57
@@ -24,3 +26,7 @@ const response = await fetch(GROQ_TRANSCRIPTION_URL, {
 ```
 
 `AbortSignal.timeout()` is available in Node 18+.
+
+## Resolution
+
+Added `signal: AbortSignal.timeout(120_000)` to the Groq API fetch call for a 2-minute timeout.

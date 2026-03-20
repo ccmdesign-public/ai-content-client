@@ -1,5 +1,7 @@
 # Temp file collision risk with concurrent video processing
 
+**Status:** RESOLVED
+
 **Priority:** P2 (should fix)
 
 **File:** `src/server/services/youtube.service.ts`, lines 311-335
@@ -21,3 +23,7 @@ const expectedPath = join(tempDir, `${uniqueId}.mp3`);
 ```
 
 This ensures each invocation uses a unique file path. The cleanup logic already deletes the specific file by path, so this change is safe.
+
+## Resolution
+
+Added `Date.now()` + random suffix to temp file names in `downloadAudio()`. Each invocation now uses a unique file path (`${videoId}-${timestamp}-${random}`) preventing collision between concurrent processes.

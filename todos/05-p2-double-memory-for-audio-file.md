@@ -1,5 +1,7 @@
 # Audio file loaded entirely into memory twice
 
+**Status:** RESOLVED
+
 **Priority:** P2 (should fix)
 
 **File:** `src/server/services/groq-whisper.service.ts`, lines 43-48
@@ -21,3 +23,7 @@ formData.append('file', blob, `${videoId}.mp3`);
 ```
 
 If targeting Node 18 only, the current approach is acceptable but consider using a stream-based fetch body if `ofetch` supports it.
+
+## Resolution
+
+Replaced `readFile` + `new Blob([buffer])` with `openAsBlob()` from `node:fs`, eliminating the double memory copy. Also moved `groqWhisperLimiter.acquire()` before blob creation (fixes todo 09 as well).

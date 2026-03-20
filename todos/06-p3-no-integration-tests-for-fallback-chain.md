@@ -1,5 +1,7 @@
 # No integration tests for the full fallback chain
 
+**Status:** DEFERRED -- no test infrastructure in this worktree (src/tests/ is empty). Will be addressed when tests are set up.
+
 **Priority:** P3 (nice to have)
 
 **File:** `src/tests/services/groq-whisper.test.ts`

@@ -2,37 +2,25 @@
  * One-off script to reset TRANSCRIPT_UNAVAILABLE entries in the processing log
  * so they can be retried with the Groq Whisper fallback.
  *
+ * Uses ProcessingLogService.resetForRetry() for atomic writes and validation.
+ *
  * Run with: pnpm tsx scripts/reset-transcript-unavailable.ts
  */
-import fs from 'node:fs/promises';
-import path from 'node:path';
-
-const LOG_PATH = path.join(process.cwd(), 'src', 'data', 'processing-log.json');
+import { createProcessingLogService } from '../src/server/services/processing-log.service';
 
 async function main() {
-  const content = await fs.readFile(LOG_PATH, 'utf-8');
-  const log = JSON.parse(content);
+  const service = createProcessingLogService();
+  const log = await service.read();
 
   let resetCount = 0;
 
-  for (const [videoId, entry] of Object.entries(log.entries) as [string, Record<string, unknown>][]) {
-    if (entry.errorCode === 'TRANSCRIPT_UNAVAILABLE' && entry.skipPermanently === true) {
-      entry.status = 'pending';
-      entry.attemptCount = 0;
-      entry.skipPermanently = false;
-      delete entry.skipReason;
-      delete entry.errorType;
-      delete entry.errorCode;
-      delete entry.errorMessage;
-      entry.updatedAt = new Date().toISOString();
-
-      console.log(`Reset ${videoId}: ${entry.title}`);
+  for (const entry of Object.values(log.entries)) {
+    if (entry.errorCode === 'TRANSCRIPT_UNAVAILABLE' && entry.skipPermanently) {
+      await service.resetForRetry(entry.videoId);
+      console.log(`Reset ${entry.videoId}: ${entry.title}`);
       resetCount++;
     }
   }
-
-  log.lastUpdated = new Date().toISOString();
-  await fs.writeFile(LOG_PATH, JSON.stringify(log, null, 2), 'utf-8');
 
   console.log(`\nDone. Reset ${resetCount} entries.`);
 }

@@ -1,5 +1,7 @@
 # API error body may contain sensitive information in logs
 
+**Status:** RESOLVED
+
 **Priority:** P2 (should fix)
 
 **File:** `src/server/services/groq-whisper.service.ts`, line 67
@@ -24,3 +26,7 @@ throw new Error(`GROQ_TRANSCRIPTION_FAILED: ${response.status} ${truncatedBody}`
 ```
 
 Alternatively, parse the error body as JSON and extract only the `error.message` field if present.
+
+## Resolution
+
+Truncated error body to 200 characters before including in thrown error message to prevent sensitive data leakage in logs.

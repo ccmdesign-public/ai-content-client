@@ -1,4 +1,5 @@
-import { readFile, stat } from 'node:fs/promises';
+import { openAsBlob } from 'node:fs';
+import { stat } from 'node:fs/promises';
 import type { TranscriptData, TranscriptSegment } from '~/types/transcript';
 import { logger } from '~/server/utils/logger';
 import { groqWhisperLimiter } from '~/server/utils/rate-limiter';
@@ -32,7 +33,7 @@ export class GroqWhisperService {
    * @throws Error with message 'GROQ_RATE_LIMITED' on 429
    * @throws Error with message 'GROQ_TRANSCRIPTION_FAILED' on other API errors
    */
-  async transcribeFromFile(filePath: string, videoId: string): Promise<TranscriptData> {
+  async transcribeFromFile(filePath: string, videoId: string, language?: string): Promise<TranscriptData> {
     // Pre-check file size
     const fileStat = await stat(filePath);
     if (fileStat.size > MAX_FILE_SIZE_BYTES) {
@@ -40,20 +41,22 @@ export class GroqWhisperService {
       throw new Error('AUDIO_TOO_LARGE');
     }
 
-    const audioBuffer = await readFile(filePath);
-
     await groqWhisperLimiter.acquire();
 
+    const blob = await openAsBlob(filePath, { type: 'audio/mpeg' });
     const formData = new FormData();
-    formData.append('file', new Blob([audioBuffer]), `${videoId}.mp3`);
+    formData.append('file', blob, `${videoId}.mp3`);
     formData.append('model', GROQ_MODEL);
     formData.append('response_format', 'verbose_json');
-    formData.append('language', 'en');
+    if (language) {
+      formData.append('language', language);
+    }
 
     const response = await fetch(GROQ_TRANSCRIPTION_URL, {
       method: 'POST',
       headers: { Authorization: `Bearer ${this.apiKey}` },
-      body: formData
+      body: formData,
+      signal: AbortSignal.timeout(120_000)
     });
 
     if (!response.ok) {
@@ -64,7 +67,8 @@ export class GroqWhisperService {
       if (response.status === 429) {
         throw new Error('GROQ_RATE_LIMITED');
       }
-      throw new Error(`GROQ_TRANSCRIPTION_FAILED: ${response.status} ${errorBody}`);
+      const truncatedBody = errorBody.slice(0, 200);
+      throw new Error(`GROQ_TRANSCRIPTION_FAILED: ${response.status} ${truncatedBody}`);
     }
 
     const result = (await response.json()) as GroqWhisperResponse;

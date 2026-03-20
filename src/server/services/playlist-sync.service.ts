@@ -1,3 +1,5 @@
+import { exec } from 'node:child_process';
+import { promisify } from 'node:util';
 import type { SyncResult } from '~/types/config';
 import type {
   PlaylistConfig,
@@ -15,6 +17,8 @@ import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
 import { processVideo } from './sync.service';
+
+const execAsync = promisify(exec);
 
 /**
  * Main orchestration function for syncing multiple YouTube playlists
@@ -63,6 +67,16 @@ export async function syncAllPlaylists(
 
   // Initialize services
   const groqWhisper = appConfig.groqApiKey ? createGroqWhisperService(appConfig.groqApiKey) : undefined;
+
+  // Check for ffmpeg availability when Groq Whisper is enabled
+  if (groqWhisper) {
+    try {
+      await execAsync('which ffmpeg', { timeout: 5000 });
+    } catch {
+      logger.warn('ffmpeg not found -- Groq Whisper fallback will fail for audio extraction. Install ffmpeg: brew install ffmpeg');
+    }
+  }
+
   const youtubeService = createYouTubeService(appConfig.youtubeApiKey, groqWhisper);
   const aiService = createAIService({
     geminiApiKey: appConfig.geminiApiKey,

@@ -1,5 +1,7 @@
 # Missing ffmpeg availability check at startup
 
+**Status:** RESOLVED
+
 **Priority:** P2 (should fix)
 
 **File:** `src/server/services/sync.service.ts`, lines 57-62
@@ -29,3 +31,7 @@ if (groqWhisper) {
 ```
 
 Apply the same pattern in `channel-monitor.service.ts` and `playlist-sync.service.ts`.
+
+## Resolution
+
+Added `which ffmpeg` check with 5s timeout after Groq Whisper initialization in all three services: `sync.service.ts`, `channel-monitor.service.ts`, and `playlist-sync.service.ts`. Logs a warning if ffmpeg is not found.
