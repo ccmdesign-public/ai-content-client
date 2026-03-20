@@ -121,15 +121,15 @@ const showNoResults = computed(() =>
           role="listitem"
         />
 
-        <!-- Load more trigger for infinite scroll -->
+        <!-- Load more trigger for infinite scroll.
+             Uses text instead of Skeleton because this is a brief inline indicator
+             for progressive loading, not a full-page loading state. -->
         <div
           v-if="hasMore"
           ref="loadMoreTrigger"
           class="py-8 text-center"
         >
-          <div class="text-sm text-muted-foreground">
-            Loading more tools...
-          </div>
+          <Skeleton class="h-16 w-full rounded-lg" />
         </div>
 
         <!-- End of list indicator -->
