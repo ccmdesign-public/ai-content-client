@@ -37,7 +37,10 @@ function getGitHubUrl(repo: string): string {
 
 <template>
   <details class="group border rounded-lg bg-card [&_summary]:list-none [&_summary::-webkit-details-marker]:hidden">
-    <summary class="p-4 cursor-pointer select-none">
+    <summary
+      :aria-label="`${tool.name} - ${tool.stats.videoCount} videos`"
+      class="p-4 cursor-pointer select-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded-lg"
+    >
       <div class="flex items-center gap-3 flex-wrap">
         <!-- Tool name -->
         <span class="font-medium text-card-foreground">{{ tool.name }}</span>
@@ -69,7 +72,7 @@ function getGitHubUrl(repo: string): string {
           :href="tool.website"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-primary hover:underline inline-flex items-center gap-1"
+          class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           <LinkIcon class="size-4" aria-hidden="true" />
           Website
@@ -79,7 +82,7 @@ function getGitHubUrl(repo: string): string {
           :href="getGitHubUrl(tool.github.repo)"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-primary hover:underline inline-flex items-center gap-1"
+          class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           <Github class="size-4" aria-hidden="true" />
           GitHub
@@ -98,7 +101,7 @@ function getGitHubUrl(repo: string): string {
           <li v-for="video in displayedVideos" :key="video.id">
             <NuxtLink
               :to="`/summaries/${video.id}`"
-              class="text-sm hover:underline text-foreground"
+              class="text-sm hover:underline text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
             >
               {{ video.title }}
             </NuxtLink>
@@ -107,9 +110,10 @@ function getGitHubUrl(repo: string): string {
 
         <!-- Show more/less button -->
         <button
-          v-if="tool.videos.length > 5"
+          v-if="tool.videos?.length > 5"
           type="button"
-          class="text-sm text-primary hover:underline mt-2"
+          :aria-expanded="showAllVideos"
+          class="text-sm text-primary hover:underline mt-2 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
           @click="showAllVideos = !showAllVideos"
         >
           {{ showAllVideos ? 'Show less' : `Show all ${tool.videos.length} videos` }}

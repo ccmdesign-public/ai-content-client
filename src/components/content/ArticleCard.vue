@@ -1,18 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { ArticleItem } from '~/types/content'
 import { formatDate } from '~/utils/formatDate'
 
 const props = defineProps<{
-  article: {
-    path: string
-    title: string
-    subtitle?: string
-    author: string
-    platform: string
-    publicationName: string
-    url: string
-    publishedAt: string
-  }
+  article: ArticleItem
 }>()
 
 // Generate a unique gradient based on the publication name
@@ -47,6 +39,7 @@ const gradientStyle = computed(() => {
         viewBox="0 0 24 24"
         stroke="currentColor"
         stroke-width="1.5"
+        aria-hidden="true"
       >
         <path
           stroke-linecap="round"
@@ -63,14 +56,18 @@ const gradientStyle = computed(() => {
         <a
           :href="article.url"
           target="_blank"
-          rel="noopener"
-          class="ml-auto hover:text-foreground hover:underline"
+          rel="noopener noreferrer"
+          :aria-label="`Read original: ${article.title} (opens in new tab)`"
+          class="ml-auto hover:text-foreground hover:underline motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           Read original
         </a>
       </div>
       <h3 class="text-lg font-semibold mb-2">
-        <NuxtLink :to="article.path" class="hover:text-primary hover:underline">
+        <NuxtLink
+          :to="article.path"
+          class="hover:text-primary hover:underline motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+        >
           {{ article.title }}
         </NuxtLink>
       </h3>
