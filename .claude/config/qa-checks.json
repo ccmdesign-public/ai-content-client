@@ -1,13 +1,6 @@
 {
   "checks": [
     {
-      "name": "Design Tokens",
-      "command": "npm run validate:tokens",
-      "blocking": false,
-      "description": "Validate design token usage and consistency",
-      "severity": "warning"
-    },
-    {
       "name": "CSS Linting",
       "command": "npm run lint:css",
       "blocking": true,
@@ -65,13 +58,12 @@
   },
   "auto_fix_commands": {
     "eslint": "npx eslint src --ext .ts,.vue --fix",
-    "css_lint": "npm run lint:css:fix",
-    "tokens": "npm run validate:tokens:fix"
+    "css_lint": "npm run lint:css:fix"
   },
   "parallel_execution": {
     "enabled": true,
     "max_concurrent": 3,
-    "independent_checks": ["Design Tokens", "ESLint", "CSS Linting"]
+    "independent_checks": ["ESLint", "CSS Linting"]
   },
   "exit_codes": {
     "all_passed": 0,

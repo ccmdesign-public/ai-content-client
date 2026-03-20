@@ -64,26 +64,13 @@ This agent activates automatically when the developer says:
 
 ## QA Checks
 
-### 1. Design Tokens ⚠️ (Non-blocking)
-
-**Command**: `npm run validate:tokens`
-
-**Validates**:
-- Token consistency across files
-- Semantic vs primitive token usage
-- Unused token definitions
-- Missing token references
-
-**Auto-fix**: Yes (via `npm run validate:tokens:fix`)
-
-### 2. CSS Linting ❌ (Blocking)
+### 1. CSS Linting ❌ (Blocking)
 
 **Command**: `npm run lint:css`
 
 **Validates**:
 - CSS syntax and formatting
 - Stylelint rules compliance
-- CUBE CSS layer usage
 - Property ordering
 
 **Auto-fix**: Yes (via `npm run lint:css:fix`)
@@ -338,8 +325,6 @@ Ensure these scripts exist in `package.json`:
 ```json
 {
   "scripts": {
-    "validate:tokens": "tsx scripts/validate-tokens.ts",
-    "validate:tokens:fix": "tsx scripts/validate-tokens.ts --fix",
     "lint:css": "stylelint 'src/**/*.{css,vue}'",
     "lint:css:fix": "stylelint 'src/**/*.{css,vue}' --fix",
     "typecheck": "vue-tsc --noEmit"
@@ -362,7 +347,6 @@ Ensure these scripts exist in `package.json`:
 
 ## Dependencies
 
-- `npm run validate:tokens` - Token validation
 - `npm run lint:css` - CSS linting
 - `npx eslint` - JavaScript/TypeScript linting
 - `npx vitest` - Test runner

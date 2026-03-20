@@ -16,7 +16,7 @@
   },
   "workflow": [
     "Load QA configuration from .claude/config/qa-checks.json",
-    "Execute checks in parallel where possible (Design Tokens, ESLint, CSS Linting)",
+    "Execute checks in parallel where possible (ESLint, CSS Linting)",
     "Run sequential checks that depend on previous results (Tests, TypeScript)",
     "Attempt auto-fix for safe, non-blocking issues if enabled",
     "Consolidate all errors and warnings into single report",
@@ -25,13 +25,6 @@
     "Return exit code based on results (0=pass, 1=warnings, 2=blocking errors)"
   ],
   "checks": [
-    {
-      "id": "tokens",
-      "name": "Design Tokens",
-      "command": "npm run validate:tokens",
-      "blocking": false,
-      "parallel": true
-    },
     {
       "id": "css",
       "name": "CSS Linting",
@@ -104,7 +97,6 @@
     {
       "trigger": "Developer: 'ready to commit'",
       "checks_run": [
-        "Design Tokens ✅",
         "CSS Linting ⚠️ 2 warnings",
         "ESLint ❌ 1 error, 3 warnings",
         "Tests ✅ 87% coverage",
@@ -114,7 +106,6 @@
     }
   ],
   "dependencies": [
-    "npm run validate:tokens",
     "npm run lint:css",
     "npx eslint",
     "npx vitest",

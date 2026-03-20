@@ -55,57 +55,9 @@ Tier 2 consists of high-value quality and testing tools that improve code qualit
 
 ---
 
-### 2. Design Token Validator Skill ⭐⭐
+### 2. Design Token Validator Skill (REMOVED)
 
-**Location**: `.claude/skills/design-token-validator/`
-
-**Purpose**: Validate and auto-fix design token usage to ensure consistency with CUBE CSS methodology.
-
-**Files Created**:
-- `.claude/skills/design-token-validator/skill.json` - Skill configuration
-- `.claude/skills/design-token-validator/README.md` - Comprehensive documentation
-- `.claude/config/token-rules.json` - Validation rules and auto-fix mappings
-
-**Auto-Trigger Conditions**:
-- After editing files in `src/public/css/tokens/`
-- After editing component `<style>` blocks with CSS custom properties
-- After adding/modifying `var(--*)` references
-
-**Key Features**:
-- Validates token consistency across codebase
-- Enforces semantic > primitive token hierarchy
-- Detects hardcoded values that should be tokens
-- Identifies unused and missing tokens
-- Auto-fixes safe token replacements
-
-**Validation Rules**:
-1. **No Hardcoded Values** ❌ - Use tokens instead of hardcoded colors/spacing
-2. **Prefer Semantic Tokens** ⚠️ - Use semantic over primitive tokens (auto-fixable)
-3. **Token Must Exist** ❌ - Referenced tokens must be defined
-4. **Unused Tokens** ⚠️ - Warn about defined but unused tokens
-
-**Configuration**: `.claude/config/token-rules.json`
-```json
-{
-  "auto_fix": true,
-  "prefer_semantic": true,
-  "validation_script": "npm run validate:tokens",
-  "fix_script": "npm run validate:tokens:fix"
-}
-```
-
-**Example Auto-Fix**:
-```css
-/* Before */
-.button {
-  background: var(--color-base-blue-500);
-}
-
-/* After auto-fix */
-.button {
-  background: var(--color-primary);
-}
-```
+The Design Token Validator skill has been removed. It validated the legacy CUBE CSS token system (`src/public/css/tokens/`) which no longer exists. The project now uses Tailwind CSS v4 with shadcn/ui theme tokens defined in `src/assets/css/tailwind.css`.
 
 ---
 
@@ -253,8 +205,6 @@ Add these scripts to `package.json`:
 ```json
 {
   "scripts": {
-    "validate:tokens": "tsx scripts/validate-tokens.ts",
-    "validate:tokens:fix": "tsx scripts/validate-tokens.ts --fix",
     "lint:css": "stylelint 'src/**/*.{css,vue}'",
     "lint:css:fix": "stylelint 'src/**/*.{css,vue}' --fix",
     "typecheck": "vue-tsc --noEmit"
