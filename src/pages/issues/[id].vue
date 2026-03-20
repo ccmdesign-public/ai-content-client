@@ -63,7 +63,14 @@ useHead(() => {
 
 <template>
   <div class="issue-page">
-    <PageNotFound v-if="error || !issue" />
+    <PageNotFound
+      v-if="error || !issue"
+      icon="article"
+      title="Issue not found"
+      message="This newsletter issue doesn't exist or may have been removed."
+      link-to="/"
+      link-text="Back to newsletter"
+    />
 
     <template v-else>
       <header class="issue-header">
