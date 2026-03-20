@@ -1,7 +1,7 @@
 ---
 title: "feat: Newsletter 3x/week cadence + LinkedIn teaser generation"
 type: feat
-status: active
+status: completed
 date: 2026-03-19
 origin: docs/brainstorms/2026-03-19-ai-curated-newsletter-requirements.md
 deepened: 2026-03-19
@@ -337,13 +337,14 @@ gather (cadence-aware) -> dedup -> triage (edition-scoped) -> write -> linkedin-
 
 **Tasks:**
 
-- [ ] Evaluate whether `digest.xml` should change from 3-day periods to match the Mon/Wed/Fri schedule
+- [x] Evaluate whether `digest.xml` should change from 3-day periods to match the Mon/Wed/Fri schedule
   - Current: fixed 3-day periods from epoch (e.g., Jan 1-3, Jan 4-6)
   - Option A: Keep as-is (the RSS feed serves a different purpose than the newsletter)
   - Option B: Switch to day-of-week alignment (Mon-Tue, Wed-Thu, Fri-Sun)
   - **Recommendation:** Keep as-is. The RSS digest is a Mailchimp integration layer; the newsletter via Resend is the primary distribution. No client code changes needed.
-- [ ] If changes are needed, update `digestPeriodDays` and period calculation logic in `src/server/utils/digest.ts`
-- [ ] Update `src/types/digest.ts` if the period model changes
+  - **Decision (AIC-26):** Option A selected. Digest feed period kept as-is. Added documentation comments to `digest.ts` and `nuxt.config.ts` clarifying the decoupling.
+- [x] If changes are needed, update `digestPeriodDays` and period calculation logic in `src/server/utils/digest.ts` -- N/A (no changes needed per decision above)
+- [x] Update `src/types/digest.ts` if the period model changes -- N/A (no changes needed per decision above)
 
 **Estimated effort:** 0-2 hours (likely 0 if recommendation is followed)
 
