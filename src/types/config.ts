@@ -4,6 +4,7 @@ export interface AppConfig {
   geminiApiKey: string;
   geminiModel: string;
   openRouterApiKey?: string;
+  groqApiKey?: string;
   processingMode: 'transcript' | 'native-video';
   maxVideosPerRun: number;
   enableProFallback: boolean;

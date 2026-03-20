@@ -7,7 +7,7 @@ export interface TranscriptSegment {
 export interface TranscriptData {
   videoId: string;
   language: string;
-  source: 'caption-extractor' | 'yt-dlp';
+  source: 'caption-extractor' | 'yt-dlp' | 'groq-whisper';
   segments: TranscriptSegment[];
   fullText: string;   // Concatenated text for AI processing
   fetchedAt: string;  // ISO timestamp

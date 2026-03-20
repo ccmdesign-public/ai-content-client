@@ -2,7 +2,7 @@ import { google } from 'googleapis';
 import { getSubtitles } from 'youtube-caption-extractor';
 import { exec } from 'node:child_process';
 import { promisify } from 'node:util';
-import { readFile, unlink } from 'node:fs/promises';
+import { readdir, readFile, unlink } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import type { PlaylistItem, VideoMetadata } from '~/types/youtube';
@@ -10,13 +10,17 @@ import type { TranscriptData, TranscriptSegment } from '~/types/transcript';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { youtubeApiLimiter } from '~/server/utils/rate-limiter';
+import type { GroqWhisperService } from './groq-whisper.service';
 
 const execAsync = promisify(exec);
 
 export class YouTubeService {
   private youtube;
 
-  constructor(apiKey: string) {
+  constructor(
+    apiKey: string,
+    private groqWhisper?: GroqWhisperService
+  ) {
     this.youtube = google.youtube({
       version: 'v3',
       auth: apiKey
@@ -300,6 +304,52 @@ export class YouTubeService {
   }
 
   /**
+   * Download audio from a YouTube video using yt-dlp + ffmpeg
+   * @returns Path to the downloaded .mp3 file
+   * @throws Error if download fails or audio is unavailable
+   */
+  private async downloadAudio(videoId: string): Promise<string> {
+    const tempDir = tmpdir();
+    const uniqueId = `${videoId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const outputTemplate = join(tempDir, `${uniqueId}.%(ext)s`);
+    const expectedPath = join(tempDir, `${uniqueId}.mp3`);
+    const url = `https://www.youtube.com/watch?v=${videoId}`;
+
+    try {
+      await execAsync(
+        `yt-dlp -x --audio-format mp3 --audio-quality 5 -o "${outputTemplate}" "${url}"`,
+        { timeout: 120_000 }
+      );
+      return expectedPath;
+    } catch (error) {
+      // Cleanup all partial files matching the unique prefix
+      try {
+        const files = await readdir(tempDir);
+        for (const file of files) {
+          if (file.startsWith(uniqueId)) {
+            await this.cleanupAudioFile(join(tempDir, file));
+          }
+        }
+      } catch {
+        // Ignore readdir errors during cleanup
+      }
+
+      const message = error instanceof Error ? error.message : String(error);
+      if (message.includes('is not available') || message.includes('Private video') || message.includes('Video unavailable')) {
+        throw new Error('AUDIO_UNAVAILABLE');
+      }
+      throw error;
+    }
+  }
+
+  /**
+   * Clean up a temporary audio file, swallowing errors
+   */
+  private async cleanupAudioFile(filePath: string): Promise<void> {
+    await unlink(filePath).catch(() => {});
+  }
+
+  /**
    * Get transcript with full timestamp data
    * @throws Error with code 'TRANSCRIPT_UNAVAILABLE' if transcript cannot be fetched
    */
@@ -327,6 +377,38 @@ export class YouTubeService {
       });
       return transcriptData;
     } catch (ytdlpError) {
+      logger.debug(`yt-dlp subtitles failed for ${videoId}, trying Groq Whisper fallback`, {
+        error: ytdlpError instanceof Error ? ytdlpError.message : String(ytdlpError)
+      });
+
+      // Fallback to Groq Whisper audio transcription
+      if (this.groqWhisper) {
+        try {
+          const audioPath = await this.downloadAudio(videoId);
+          try {
+            const transcriptData = await this.groqWhisper.transcribeFromFile(audioPath, videoId);
+            logger.info(`Fetched transcript with timestamps for ${videoId} via groq-whisper`, {
+              segments: transcriptData.segments.length,
+              length: transcriptData.fullText.length
+            });
+            return transcriptData;
+          } finally {
+            await this.cleanupAudioFile(audioPath);
+          }
+        } catch (whisperError) {
+          const whisperMessage = whisperError instanceof Error ? whisperError.message : String(whisperError);
+          logger.warn(`Groq Whisper fallback failed for ${videoId}`, { error: whisperMessage });
+
+          // Distinguish audio-level failures from transcription failures
+          if (whisperMessage === 'AUDIO_UNAVAILABLE' || whisperMessage === 'AUDIO_TOO_LARGE') {
+            const audioError = new Error(whisperMessage);
+            audioError.cause = whisperError;
+            throw audioError;
+          }
+          // Fall through to TRANSCRIPT_UNAVAILABLE for other failures
+        }
+      }
+
       logger.warn(`Transcript unavailable for ${videoId}`, {
         error: ytdlpError instanceof Error ? ytdlpError.message : String(ytdlpError)
       });
@@ -363,6 +445,35 @@ export class YouTubeService {
       });
       return transcript;
     } catch (ytdlpError) {
+      logger.debug(`yt-dlp subtitles failed for ${videoId}, trying Groq Whisper fallback`, {
+        error: ytdlpError instanceof Error ? ytdlpError.message : String(ytdlpError)
+      });
+
+      // Fallback to Groq Whisper audio transcription
+      if (this.groqWhisper) {
+        try {
+          const audioPath = await this.downloadAudio(videoId);
+          try {
+            const transcriptData = await this.groqWhisper.transcribeFromFile(audioPath, videoId);
+            logger.info(`Fetched transcript for ${videoId} via groq-whisper`, {
+              length: transcriptData.fullText.length
+            });
+            return transcriptData.fullText;
+          } finally {
+            await this.cleanupAudioFile(audioPath);
+          }
+        } catch (whisperError) {
+          const whisperMessage = whisperError instanceof Error ? whisperError.message : String(whisperError);
+          logger.warn(`Groq Whisper fallback failed for ${videoId}`, { error: whisperMessage });
+
+          if (whisperMessage === 'AUDIO_UNAVAILABLE' || whisperMessage === 'AUDIO_TOO_LARGE') {
+            const audioError = new Error(whisperMessage);
+            audioError.cause = whisperError;
+            throw audioError;
+          }
+        }
+      }
+
       logger.warn(`Transcript unavailable for ${videoId}`, {
         error: ytdlpError instanceof Error ? ytdlpError.message : String(ytdlpError)
       });
@@ -377,6 +488,6 @@ export class YouTubeService {
 /**
  * Create YouTube service instance from config
  */
-export function createYouTubeService(apiKey: string): YouTubeService {
-  return new YouTubeService(apiKey);
+export function createYouTubeService(apiKey: string, groqWhisper?: GroqWhisperService): YouTubeService {
+  return new YouTubeService(apiKey, groqWhisper);
 }

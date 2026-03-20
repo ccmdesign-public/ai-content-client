@@ -53,3 +53,6 @@ export const geminiProLimiter = new RateLimiter(1, 0.017); // 1 token max, ~1/mi
 
 // YouTube API rate limiter (conservative: 10 requests per second)
 export const youtubeApiLimiter = new RateLimiter(100, 10);
+
+// Groq Whisper rate limiter: 10 RPM to stay well under 20 RPM free-tier limit
+export const groqWhisperLimiter = new RateLimiter(2, 0.167);

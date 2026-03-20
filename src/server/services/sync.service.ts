@@ -1,3 +1,5 @@
+import { exec } from 'node:child_process';
+import { promisify } from 'node:util';
 import type { SyncResult } from '~/types/config';
 import type { PlaylistMetadata } from '~/types/summary';
 import type { TranscriptData } from '~/types/transcript';
@@ -5,9 +7,12 @@ import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { classifyVideo } from '~/server/prompts';
 import { createYouTubeService } from './youtube.service';
+import { createGroqWhisperService } from './groq-whisper.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
+
+const execAsync = promisify(exec);
 
 export interface SyncProgressEvent {
   type: 'start' | 'processing' | 'complete' | 'error';
@@ -42,7 +47,8 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 
   try {
     // Initialize services
-    const youtubeService = createYouTubeService(config.youtubeApiKey);
+    const groqWhisper = config.groqApiKey ? createGroqWhisperService(config.groqApiKey) : undefined;
+    const youtubeService = createYouTubeService(config.youtubeApiKey, groqWhisper);
     const aiService = createAIService({
       geminiApiKey: config.geminiApiKey,
       primaryModel: config.geminiModel,
@@ -51,6 +57,18 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
     });
     const contentWriter = createContentWriterService(config.outputDir);
     const processingLog = createProcessingLogService();
+
+    // Log Groq Whisper status and check for ffmpeg
+    if (groqWhisper) {
+      logger.info('Groq Whisper fallback enabled for transcript recovery');
+      try {
+        await execAsync('which ffmpeg', { timeout: 5000 });
+      } catch {
+        logger.warn('ffmpeg not found -- Groq Whisper fallback will fail for audio extraction. Install ffmpeg: brew install ffmpeg');
+      }
+    } else {
+      logger.debug('Groq Whisper fallback disabled (GROQ_API_KEY not set)');
+    }
 
     // Log available models for debugging
     const availableModels = aiService.getAvailableModels();
@@ -90,7 +108,7 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 
     // Log skip reasons for debugging
     const skippedItems = playlistItems.filter((_, index) => skipChecks[index].skip);
-    for (const [index, item] of skippedItems.entries()) {
+    for (const item of skippedItems) {
       const originalIndex = playlistItems.findIndex(p => p.videoId === item.videoId);
       const reason = skipChecks[originalIndex].reason;
       if (reason && reason !== 'File exists' && reason !== 'Already processed') {
