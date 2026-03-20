@@ -23,7 +23,8 @@ const {
   sortBy,
   loadMore,
   setSearch,
-  setSort
+  setSort,
+  refresh
 } = useToolsDirectory()
 
 // Infinite scroll with Intersection Observer
@@ -55,14 +56,12 @@ const showNoResults = computed(() =>
 <template>
   <div class="tools-directory">
     <!-- Loading state -->
-    <div v-if="pending" class="text-center py-12">
-      <div class="text-muted-foreground">Loading tools...</div>
+    <div v-if="pending" class="py-6 space-y-2" aria-busy="true" aria-label="Loading tools">
+      <Skeleton v-for="n in 6" :key="n" class="h-16 w-full rounded-lg" />
     </div>
 
     <!-- Error state -->
-    <div v-else-if="error" class="text-center py-12">
-      <div class="text-destructive">Failed to load tools. Please try again later.</div>
-    </div>
+    <PageErrorState v-else-if="error" message="Failed to load tools." @retry="refresh()" />
 
     <!-- Main content -->
     <div v-else>
@@ -97,25 +96,21 @@ const showNoResults = computed(() =>
       </div>
 
       <!-- Empty state for search -->
-      <div v-if="showEmptyState" class="text-center py-12 bg-muted/50 rounded-lg">
-        <div class="text-muted-foreground mb-2">
-          No tools found for "{{ searchQuery }}"
-        </div>
-        <button
-          type="button"
-          class="text-primary hover:underline text-sm"
-          @click="setSearch('')"
-        >
-          Clear search
-        </button>
-      </div>
+      <PageEmptyState
+        v-if="showEmptyState"
+        icon="search_off"
+        :message="`No tools found for &quot;${searchQuery}&quot;`"
+        hint="Try different keywords or clear the search."
+        action-text="Clear search"
+        @action="setSearch('')"
+      />
 
       <!-- No results at all -->
-      <div v-else-if="showNoResults" class="text-center py-12 bg-muted/50 rounded-lg">
-        <div class="text-muted-foreground">
-          No tools available yet.
-        </div>
-      </div>
+      <PageEmptyState
+        v-else-if="showNoResults"
+        icon="inbox"
+        message="No tools available yet."
+      />
 
       <!-- Tools list -->
       <div v-else class="space-y-2" role="list" aria-label="Tools list">
@@ -126,15 +121,15 @@ const showNoResults = computed(() =>
           role="listitem"
         />
 
-        <!-- Load more trigger for infinite scroll -->
+        <!-- Load more trigger for infinite scroll.
+             Uses text instead of Skeleton because this is a brief inline indicator
+             for progressive loading, not a full-page loading state. -->
         <div
           v-if="hasMore"
           ref="loadMoreTrigger"
           class="py-8 text-center"
         >
-          <div class="text-sm text-muted-foreground">
-            Loading more tools...
-          </div>
+          <Skeleton class="h-16 w-full rounded-lg" />
         </div>
 
         <!-- End of list indicator -->

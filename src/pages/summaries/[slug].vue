@@ -1,8 +1,25 @@
 <template>
   <section class="py-8">
-    <div v-if="pending" class="text-center text-muted-foreground">Loading...</div>
-    <div v-else-if="error" class="text-center text-destructive">Error: {{ error }}</div>
-    <div v-else-if="!summary" class="text-center text-muted-foreground">Not found</div>
+    <!-- Loading skeleton -->
+    <div v-if="pending" aria-busy="true" aria-label="Loading summary">
+      <div class="max-w-[80ch] mx-auto px-4 space-y-4">
+        <Skeleton class="h-4 w-32" />
+        <Skeleton class="h-8 w-3/4" />
+        <Skeleton class="w-full aspect-video rounded-lg" />
+        <Skeleton class="h-4 w-full" />
+        <Skeleton class="h-4 w-5/6" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </div>
+    <PageErrorState v-else-if="error" message="Failed to load this summary." @retry="refresh()" />
+    <PageNotFound
+      v-else-if="!summary"
+      icon="help_outline"
+      title="Summary not found"
+      message="We couldn't find the summary you're looking for."
+      link-to="/summaries/"
+      link-text="Browse all summaries"
+    />
     <div v-else>
       <div class="max-w-[80ch] mx-auto px-4">
         <NuxtLink to="/summaries/" class="text-sm text-muted-foreground hover:text-foreground">Back to summaries</NuxtLink>
@@ -64,7 +81,7 @@ definePageMeta({
 const route = useRoute()
 const slug = route.params.slug as string
 
-const { data: summary, pending, error } = useAsyncData(
+const { data: summary, pending, error, refresh } = useAsyncData(
   `summary-${slug}`,
   async () => {
     // Try new folder path format first: /summaries/{videoId}/summary
@@ -96,7 +113,8 @@ const { data: transcriptText } = useAsyncData(
         .filter(s => s.duration > 0.5)
         .map(s => s.text)
         .join(' ')
-    } catch {
+    } catch (e) {
+      if (import.meta.dev) console.warn('Transcript load failed:', e)
       return ''
     }
   }

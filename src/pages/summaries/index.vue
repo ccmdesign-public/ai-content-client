@@ -2,15 +2,14 @@
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
-import { AlertCircle, SearchX, FilterX } from 'lucide-vue-next'
-import { Button } from '@/components/ui/button'
+import { AlertCircle } from 'lucide-vue-next'
 import type { SearchResult } from '~/types/search'
 
 definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending } = useContentStream('summaries')
+const { data: summaries, pending, error, refresh } = useContentStream('summaries')
 const { tagsByCategory } = useTagsConfig()
 
 const {
@@ -102,7 +101,16 @@ const displayedCount = computed(() =>
 
     <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
-    <div v-if="pending && !isSearchActive" class="text-center py-14 text-muted-foreground">Loading...</div>
+    <div v-if="pending && !isSearchActive" aria-busy="true" aria-label="Loading summaries">
+      <SummaryCardSkeleton v-for="n in 5" :key="n" />
+    </div>
+
+    <!-- Content stream error -->
+    <PageErrorState
+      v-else-if="error && !isSearchActive"
+      message="Failed to load summaries."
+      @retry="refresh()"
+    />
 
     <!-- Search error fallback -->
     <div v-else-if="isSearchActive && searchError" class="text-center py-14 px-7 text-muted-foreground">
@@ -120,21 +128,22 @@ const displayedCount = computed(() =>
     </div>
 
     <!-- Search: no results -->
-    <div v-else-if="isSearchActive && searchResults.length === 0 && isSearchReady" class="text-center py-14 px-7 text-muted-foreground">
-      <SearchX class="size-12 block mb-3.5 mx-auto text-muted-foreground" aria-hidden="true" />
-      <p class="text-base font-medium m-0 mb-1.5 text-foreground">No results found for "{{ searchQuery }}"</p>
-      <p class="text-sm m-0 mb-5">Try different keywords or clear the search.</p>
-    </div>
+    <PageEmptyState
+      v-else-if="isSearchActive && searchResults.length === 0 && isSearchReady"
+      icon="search_off"
+      :message="`No results found for &quot;${searchQuery}&quot;`"
+      hint="Try different keywords or clear the search."
+    />
 
     <!-- Browse: filtered empty state -->
-    <div v-else-if="!isSearchActive && selectedCategory && filteredCount === 0" class="text-center py-14 px-7 text-muted-foreground">
-      <FilterX class="size-12 block mb-3.5 mx-auto text-muted-foreground" aria-hidden="true" />
-      <p class="text-base font-medium m-0 mb-1.5 text-foreground">No summaries found in this category.</p>
-      <p class="text-sm m-0 mb-5">Try selecting a different category or reset the filter.</p>
-      <Button @click="selectCategory(null)">
-        Show all summaries
-      </Button>
-    </div>
+    <PageEmptyState
+      v-else-if="!isSearchActive && selectedCategory && filteredCount === 0"
+      icon="filter_list_off"
+      message="No summaries found in this category."
+      hint="Try selecting a different category or reset the filter."
+      action-text="Show all summaries"
+      @action="selectCategory(null)"
+    />
 
     <!-- Browse: date-grouped feed -->
     <DateGroupedFeed v-else-if="!isSearchActive" :segments="feedSegments" :show-headers="isDateSort" />

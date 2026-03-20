@@ -12,7 +12,7 @@ export function useToolsDirectory() {
   const router = useRouter()
 
   // Load tools data (prerendered at build time)
-  const { data: allTools, pending, error } = useFetch<ToolWithStars[]>('/tools-with-stars.json', {
+  const { data: allTools, pending, error, refresh } = useFetch<ToolWithStars[]>('/tools-with-stars.json', {
     key: 'tools-directory'
   })
 
@@ -133,6 +133,7 @@ export function useToolsDirectory() {
     loadMore,
     setSearch,
     setSort,
-    resetDisplayCount
+    resetDisplayCount,
+    refresh
   }
 }

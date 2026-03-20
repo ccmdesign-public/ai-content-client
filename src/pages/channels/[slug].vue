@@ -14,7 +14,7 @@ definePageMeta({
 const { getChannelBySlug } = useChannelsConfig()
 
 // Get all summaries first
-const { data: allSummaries } = useContentStream('summaries')
+const { data: allSummaries, error, refresh } = useContentStream('summaries')
 
 // Check if channel exists in config
 const channelConfig = computed(() => getChannelBySlug(slug.value))
@@ -71,7 +71,11 @@ useHead({
 
 <template>
   <div class="p-7">
-    <div v-if="!allSummaries" class="text-center py-14 text-muted-foreground">Loading...</div>
+    <div v-if="!allSummaries && !error" aria-busy="true" aria-label="Loading channel summaries">
+      <SummaryCardSkeleton v-for="n in 5" :key="n" />
+    </div>
+
+    <PageErrorState v-else-if="error" message="Failed to load channel data." @retry="refresh()" />
 
     <PageNotFound
       v-else-if="shouldShow404"

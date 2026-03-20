@@ -2,8 +2,6 @@
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import type { Sortable } from '~/composables/useSortOptions'
-import { ListX } from 'lucide-vue-next'
-import { Button } from '@/components/ui/button'
 
 const route = useRoute()
 const { getPlaylistBySlug } = usePlaylistsConfig()
@@ -15,7 +13,7 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // -- these must be called during synchronous component setup, before any throw.
 
 // Fetch summaries for this playlist (declared before items to avoid forward reference)
-const { data: summaries, pending } = useContentStream('summaries', {
+const { data: summaries, pending, error, refresh } = useContentStream('summaries', {
   where: { playlistId: playlist.value?.id }
 })
 
@@ -53,16 +51,20 @@ useHead({
 
     <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
-    <div v-if="pending" class="text-center py-14 text-muted-foreground">Loading...</div>
-
-    <div v-else-if="isEmpty" class="text-center py-14 px-7">
-      <ListX class="size-12 text-muted-foreground mb-5 mx-auto" aria-hidden="true" />
-      <p class="text-lg font-medium text-foreground mb-2.5">No summaries in this playlist yet.</p>
-      <p class="text-base text-muted-foreground mb-7">Check back soon - new videos are processed daily.</p>
-      <Button as-child>
-        <NuxtLink to="/summaries/">Browse all summaries</NuxtLink>
-      </Button>
+    <div v-if="pending" aria-busy="true" aria-label="Loading playlist summaries">
+      <SummaryCardSkeleton v-for="n in 5" :key="n" />
     </div>
+
+    <PageErrorState v-else-if="error" message="Failed to load playlist." @retry="refresh()" />
+
+    <PageEmptyState
+      v-else-if="isEmpty"
+      icon="playlist_remove"
+      message="No summaries in this playlist yet."
+      hint="Check back soon - new videos are processed daily."
+      link-to="/summaries/"
+      link-text="Browse all summaries"
+    />
 
     <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
   </div>
