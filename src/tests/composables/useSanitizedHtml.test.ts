@@ -64,6 +64,12 @@ describe('useSanitizedHtml', () => {
       expect(result).not.toContain('data:text/html')
     })
 
+    it('strips javascript: URI in href attributes', () => {
+      const result = sanitize('<a href="javascript:alert(1)">Click</a>')
+      expect(result).not.toContain('javascript:')
+      expect(result).toContain('Click')
+    })
+
     it('strips SVG-based XSS vectors', () => {
       const result = sanitize('<svg onload="alert(1)"><circle r="10"/></svg>')
       expect(result).not.toContain('onload')
