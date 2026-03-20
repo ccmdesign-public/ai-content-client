@@ -75,6 +75,10 @@ export default defineNuxtConfig({
       feedTitle: 'YouTube Summaries',
       feedDescription: 'AI-generated summaries of YouTube videos',
       // Digest feed configuration
+      // NOTE (AIC-26): The digest feed period is intentionally decoupled from the
+      // newsletter's 3x/week cadence (Mon/Wed/Fri). The digest feed uses fixed-length
+      // periods from epoch for RSS/Mailchimp integration, while the newsletter cadence
+      // is managed in ai-content-scraper via NEWSLETTER_CADENCE and NEWSLETTER_SEND_DAYS.
       digestTitle: process.env.DIGEST_TITLE || 'YouTube Digest',
       digestDescription: process.env.DIGEST_DESCRIPTION || 'Periodic roundup of AI-generated video summaries',
       digestIntroText: process.env.DIGEST_INTRO_TEXT || 'Welcome to this period\'s video digest! Here are the latest AI-generated summaries from our curated YouTube content.',

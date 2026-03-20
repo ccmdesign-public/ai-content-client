@@ -1,6 +1,23 @@
 import type { DigestPeriod, DigestItem, DigestVideo, DigestFeedConfig } from '~/types/digest'
 
 /**
+ * Digest feed utilities for RSS-based newsletter distribution.
+ *
+ * DESIGN NOTE (AIC-26): The digest feed uses fixed-length periods (default 3 days)
+ * calculated from a configurable epoch date. This is intentionally decoupled from the
+ * newsletter's 3x/week Mon/Wed/Fri cadence (managed in ai-content-scraper).
+ *
+ * The RSS digest serves as a Mailchimp integration layer, while the newsletter is
+ * distributed via Resend. These are independent distribution channels with different
+ * period models:
+ *   - Digest: fixed N-day periods from epoch (e.g., Jan 1-3, Jan 4-6, ...)
+ *   - Newsletter: day-of-week cadence (Mon/Wed/Fri) via ai-content-scraper pipeline
+ *
+ * If the RSS digest is deprecated in favor of Resend, this module can be removed.
+ * See: AIC-26 (Linear ticket)
+ */
+
+/**
  * Parse a date string to UTC Date at midnight
  */
 function parseUTCDate(dateString: string): Date {
