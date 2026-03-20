@@ -6,7 +6,7 @@
     </h1>
     <nav role="navigation" class="margin-left:auto">
       <ul class="menu | cluster">
-        <li><nuxt-link class="menu__item" to="/">Home</nuxt-link></li>
+        <li><nuxt-link class="menu__item" to="/summaries/">Home</nuxt-link></li>
         <li><nuxt-link class="menu__item" to="/blog">Insights</nuxt-link></li>
         <li><nuxt-link class="menu__item" to="/docs">Docs</nuxt-link></li>
         <li><nuxt-link class="menu__item" to="/test">Test</nuxt-link></li>

@@ -125,11 +125,13 @@ export default defineNuxtConfig({
     // Prerender all routes including RSS feeds
     prerender: {
       crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', ...tagRoutes]
+      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
     }
   },
   // Route rules for static generation
   routeRules: {
+    // Temporary redirect: homepage -> summaries index (until AIC-28 newsletter claims /)
+    '/': { redirect: { to: '/summaries/', statusCode: 302 } },
     // Prerender all pages at build time
     '/**': { prerender: true }
   },

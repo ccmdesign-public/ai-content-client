@@ -38,9 +38,16 @@ export default defineEventHandler(async (event) => {
 
   const urls: SitemapUrl[] = []
 
-  // Home page
+  // Home page (currently a 302 redirect to /summaries/, lower priority)
   urls.push({
     loc: '/',
+    changefreq: 'daily',
+    priority: 0.5
+  })
+
+  // Summaries index (primary content page)
+  urls.push({
+    loc: '/summaries/',
     changefreq: 'daily',
     priority: 1.0
   })

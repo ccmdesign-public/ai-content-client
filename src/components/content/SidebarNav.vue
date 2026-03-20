@@ -12,10 +12,6 @@ const { tags, topTags } = useTagsConfig()
 <template>
   <aside class="sidebar-nav">
     <nav>
-      <NuxtLink to="/" class="sidebar-home" active-class="sidebar-home--active">
-        All Summaries
-      </NuxtLink>
-
       <section class="sidebar-section">
         <h3 class="sidebar-heading">Playlists</h3>
         <ul class="sidebar-list">
@@ -84,24 +80,6 @@ const { tags, topTags } = useTagsConfig()
   position: sticky;
   top: 0;
   align-self: flex-start;
-}
-
-.sidebar-home {
-  display: block;
-  margin-bottom: 0.6875rem;
-  color: var(--foreground);
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.sidebar-home:hover {
-  background: var(--accent);
-}
-
-.sidebar-home--active {
-  /* background: var(--accent); */
-  color: var(--primary);
 }
 
 .sidebar-section {

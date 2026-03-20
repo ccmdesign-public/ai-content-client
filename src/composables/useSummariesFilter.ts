@@ -5,7 +5,7 @@ import type { TagCategory } from '~/composables/useTagsConfig'
 declare const queryCollection: (name: string) => any
 
 /**
- * Composable managing homepage category filter state.
+ * Composable managing summaries page category filter state.
  *
  * Builds a pre-computed Map<categoryId, Set<videoId>> from tag data
  * so that switching categories is an O(1) lookup + O(n) array filter.
@@ -13,7 +13,7 @@ declare const queryCollection: (name: string) => any
  * Accepts `string[]` internally to simplify future multi-select upgrade
  * (UI currently exposes single-select).
  */
-export function useHomepageFilter(
+export function useSummariesFilter(
   summaries: Ref<any[] | null>,
   tagsByCategory: Ref<TagCategory[]>
 ) {
@@ -38,7 +38,7 @@ export function useHomepageFilter(
 
   // --- Load all tag data eagerly for cross-reference ---
   const { data: allTags } = useAsyncData(
-    'homepage-all-tags',
+    'summaries-all-tags',
     () => queryCollection('tags').all(),
     { server: false } // Client-only to avoid SSR hydration mismatch
   )

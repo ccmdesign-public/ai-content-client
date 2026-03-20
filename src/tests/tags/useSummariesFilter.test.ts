@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 
 /**
- * Tests for the pure filtering logic extracted from useHomepageFilter.
+ * Tests for the pure filtering logic extracted from useSummariesFilter.
  * Since the composable depends on Nuxt auto-imports (useRoute, useRouter, useAsyncData),
  * we test the core Map-building and filtering algorithms directly.
  */

@@ -5,7 +5,7 @@
     <div v-else-if="!summary">Not found</div>
     <div v-else>
       <div class="center">
-        <nuxt-link to="/">Back to summaries</nuxt-link>
+        <nuxt-link to="/summaries/">Back to summaries</nuxt-link>
         <h1>{{ summary.metadata.title }}</h1>
         <p class="video-link">
           <a :href="summary.metadata.youtubeUrl" target="_blank" rel="noopener">Watch on YouTube</a>

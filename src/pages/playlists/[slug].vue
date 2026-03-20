@@ -66,7 +66,7 @@ useHead({
       <span class="material-symbols-outlined empty-state__icon">playlist_remove</span>
       <p class="empty-state__message">No summaries in this playlist yet.</p>
       <p class="empty-state__hint">Check back soon - new videos are processed daily.</p>
-      <NuxtLink to="/" class="empty-state__link">Browse all summaries</NuxtLink>
+      <NuxtLink to="/summaries/" class="empty-state__link">Browse all summaries</NuxtLink>
     </div>
 
     <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />

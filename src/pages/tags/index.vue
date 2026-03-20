@@ -27,7 +27,7 @@ useHead({
       v-if="tagsByCategory.length === 0"
       icon="label_off"
       message="No topics available yet."
-      link-to="/"
+      link-to="/summaries/"
       link-text="Browse all summaries"
     />
 
