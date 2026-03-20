@@ -36,42 +36,15 @@ const { segments } = useDateGroups(feedItems, (item) => item._date)
 </script>
 
 <template>
-  <div class="publication-page">
-    <header class="page-header">
+  <div class="p-8">
+    <header class="mb-8">
       <NuxtLink to="/" class="text-sm text-muted-foreground hover:text-foreground">Back to feed</NuxtLink>
-      <h1>{{ publication?.name || slug }}</h1>
-      <p class="page-header__count">{{ articles.length }} articles</p>
+      <h1 class="mt-2 text-2xl">{{ publication?.name || slug }}</h1>
+      <p class="mt-1 text-muted-foreground text-sm">{{ articles.length }} articles</p>
     </header>
 
-    <div v-if="pending" class="loading">Loading...</div>
+    <div v-if="pending" class="text-center py-12 text-muted-foreground">Loading...</div>
 
     <DateGroupedFeed v-else :segments="segments" />
   </div>
 </template>
-
-<style scoped>
-.publication-page {
-  padding: var(--space-l, 2rem);
-}
-
-.page-header {
-  margin-bottom: var(--space-l, 2rem);
-}
-
-.page-header h1 {
-  margin: var(--space-s, 0.5rem) 0 0;
-  font-size: var(--step-2, 1.5rem);
-}
-
-.page-header__count {
-  margin: var(--space-2xs, 0.25rem) 0 0;
-  color: var(--color-base-shade-10, #6b7280);
-  font-size: var(--step--1, 0.875rem);
-}
-
-.loading {
-  text-align: center;
-  padding: var(--space-2xl, 3rem);
-  color: var(--color-base-shade-10, #6b7280);
-}
-</style>

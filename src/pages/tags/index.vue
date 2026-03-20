@@ -16,10 +16,10 @@ useHead({
 </script>
 
 <template>
-  <div class="tags-page">
-    <header class="page-header">
-      <h1>Browse by Topic</h1>
-      <p class="page-header__count">{{ tags.length }} topics</p>
+  <div class="p-7">
+    <header class="mb-10">
+      <h1 class="m-0 text-xl">Browse by Topic</h1>
+      <p class="mt-1.5 text-muted-foreground text-sm">{{ tags.length }} topics</p>
     </header>
 
     <PageEmptyState
@@ -30,17 +30,16 @@ useHead({
       link-text="Browse all summaries"
     />
 
-    <div v-else class="tags-grid">
+    <div v-else class="flex flex-col gap-10">
       <section
         v-for="category in tagsByCategory"
         :key="category.categoryId"
-        class="tag-category"
       >
-        <h2 class="tag-category__heading">
+        <h2 class="text-lg font-semibold m-0 mb-3.5 pb-3 border-b border-border flex items-baseline gap-3.5">
           {{ category.name }}
-          <span class="tag-category__count">{{ category.totalItems }} videos</span>
+          <span class="text-sm font-normal text-muted-foreground">{{ category.totalItems }} videos</span>
         </h2>
-        <ul class="tag-category__list">
+        <ul class="list-none p-0 m-0 flex flex-wrap gap-3">
           <li v-for="tag in category.tags" :key="tag.slug">
             <NuxtLink
               :to="`/tags/${tag.slug}`"
@@ -55,59 +54,3 @@ useHead({
     </div>
   </div>
 </template>
-
-<style scoped>
-.tags-page {
-  padding: 1.75rem;
-}
-
-.page-header {
-  margin-bottom: 2.625rem;
-}
-
-.page-header h1 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-
-.page-header__count {
-  margin: 0.375rem 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.875rem;
-}
-
-.tags-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 2.625rem;
-}
-
-.tag-category__heading {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--foreground);
-  margin: 0 0 0.875rem 0;
-  padding-bottom: 0.6875rem;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: baseline;
-  gap: 0.875rem;
-}
-
-.tag-category__count {
-  font-size: 0.875rem;
-  font-weight: 400;
-  color: var(--muted-foreground);
-}
-
-.tag-category__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6875rem;
-}
-
-/* Tag chip styles now use Tailwind utilities inline */
-</style>

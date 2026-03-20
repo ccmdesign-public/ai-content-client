@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
-import { useDateGroups } from '~/composables/useDateGroups'
-import { useSortOptions, type Sortable } from '~/composables/useSortOptions'
+import { useSortedFeed } from '~/composables/useSortedFeed'
+import type { Sortable } from '~/composables/useSortOptions'
 import { ListX } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 
@@ -11,18 +11,16 @@ const { getPlaylistBySlug } = usePlaylistsConfig()
 const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 
 // All composable calls must happen before the synchronous throw.
-const items = computed<Sortable[]>(() => summaries.value || [])
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
-const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
+// useSortedFeed internally calls useSortOptions which uses tryUseNuxtApp() and useRoute()
+// -- these must be called during synchronous component setup, before any throw.
 
-const feedSegments = computed(() =>
-  isDateSort.value
-    ? segments.value
-    : sorted.value.length > 0
-      ? [{ key: 'older' as const, label: '', items: sorted.value }]
-      : []
-)
+// Fetch summaries for this playlist (declared before items to avoid forward reference)
+const { data: summaries, pending } = useContentStream('summaries', {
+  where: { playlistId: playlist.value?.id }
+})
+
+const items = computed<Sortable[]>(() => summaries.value || [])
+const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
 
 // 404 if playlist not found
 if (!playlist.value) {
@@ -31,11 +29,6 @@ if (!playlist.value) {
 
 definePageMeta({
   footer: false
-})
-
-// Fetch summaries for this playlist
-const { data: summaries, pending } = useContentStream('summaries', {
-  where: { playlistId: playlist.value.id }
 })
 
 // Check if empty (playlist exists but no summaries)
@@ -49,7 +42,7 @@ useHead({
 <template>
   <div class="p-7">
     <header class="mb-7">
-      <div class="flex justify-between items-start gap-5 flex-wrap">
+      <div class="flex justify-between items-start gap-[1.3125rem] flex-wrap">
         <div>
           <h1 class="m-0 text-xl">{{ playlist?.name }}</h1>
           <p class="mt-1.5 text-muted-foreground text-sm">{{ summaries?.length || 0 }} videos</p>

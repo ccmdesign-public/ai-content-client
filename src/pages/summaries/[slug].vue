@@ -4,7 +4,7 @@
     <div v-else-if="error" class="text-center text-destructive">Error: {{ error }}</div>
     <div v-else-if="!summary" class="text-center text-muted-foreground">Not found</div>
     <div v-else>
-      <div class="center">
+      <div class="max-w-[80ch] mx-auto px-4">
         <NuxtLink to="/summaries/" class="text-sm text-muted-foreground hover:text-foreground">Back to summaries</NuxtLink>
         <h1 class="text-2xl font-bold mt-4 mb-2">{{ summary.metadata.title }}</h1>
         <!-- YouTube Embed -->
@@ -108,11 +108,3 @@ const categorizedTools = computed(() => {
   return categorizeTools(summary.value.tools)
 })
 </script>
-
-<style scoped>
-.center {
-  max-width: 80ch;
-  margin-inline: auto;
-  padding-inline: 1rem;
-}
-</style>

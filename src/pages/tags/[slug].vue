@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useTagIndex } from '~/composables/useTagIndex'
-import { useDateGroups } from '~/composables/useDateGroups'
-import { useSortOptions } from '~/composables/useSortOptions'
+import { useSortedFeed } from '~/composables/useSortedFeed'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug as string)
@@ -20,17 +19,7 @@ const { summaries, summaryItemCount, pending } = useTagIndex(slug)
 
 // Sort and group
 const items = computed(() => summaries.value || [])
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
-const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
-
-const feedSegments = computed(() =>
-  isDateSort.value
-    ? segments.value
-    : sorted.value.length > 0
-      ? [{ key: 'older' as const, label: '', items: sorted.value }]
-      : []
-)
+const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
 
 // Check if empty (tag exists but no matching summaries in client)
 const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
@@ -48,8 +37,8 @@ useHead({
 </script>
 
 <template>
-  <div class="tag-page">
-    <div v-if="pending" class="loading">Loading...</div>
+  <div class="p-7">
+    <div v-if="pending" class="text-center py-14 text-muted-foreground">Loading...</div>
 
     <PageNotFound
       v-else-if="!tagConfig"
@@ -61,14 +50,14 @@ useHead({
     />
 
     <template v-else>
-      <header class="page-header">
-        <NuxtLink to="/tags" class="page-header__breadcrumb">Topics</NuxtLink>
-        <span class="page-header__separator">/</span>
-        <span class="page-header__category">{{ categoryName }}</span>
-        <div class="page-header__top">
+      <header class="mb-7">
+        <NuxtLink to="/tags" class="text-sm text-primary no-underline hover:underline">Topics</NuxtLink>
+        <span class="text-sm text-muted-foreground mx-1.5">/</span>
+        <span class="text-sm text-muted-foreground">{{ categoryName }}</span>
+        <div class="flex justify-between items-start gap-[1.3125rem] flex-wrap">
           <div>
-            <h1>{{ displayName }}</h1>
-            <p class="page-header__count">{{ summaryItemCount }} videos</p>
+            <h1 class="mt-3 text-xl">{{ displayName }}</h1>
+            <p class="mt-1.5 text-muted-foreground text-sm">{{ summaryItemCount }} videos</p>
           </div>
           <SortControl v-model="currentSort" />
         </div>
@@ -89,59 +78,3 @@ useHead({
     </template>
   </div>
 </template>
-
-<style scoped>
-.tag-page {
-  padding: 1.75rem;
-}
-
-.page-header {
-  margin-bottom: 1.75rem;
-}
-
-.page-header__breadcrumb {
-  font-size: 0.875rem;
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.page-header__breadcrumb:hover {
-  text-decoration: underline;
-}
-
-.page-header__separator {
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-  margin: 0 0.375rem;
-}
-
-.page-header__category {
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-}
-
-.page-header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.3125rem;
-  flex-wrap: wrap;
-}
-
-.page-header h1 {
-  margin: 0.6875rem 0 0;
-  font-size: 1.25rem;
-}
-
-.page-header__count {
-  margin: 0.375rem 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.875rem;
-}
-
-.loading {
-  text-align: center;
-  padding: 3.5rem;
-  color: var(--muted-foreground);
-}
-</style>
