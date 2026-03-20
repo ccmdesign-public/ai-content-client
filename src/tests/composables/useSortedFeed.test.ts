@@ -83,6 +83,22 @@ describe('useSortedFeed', () => {
     expect(feedSegments.value).toEqual([])
   })
 
+  it('processed-date-desc produces date-grouped segments with all items', () => {
+    const items = ref([itemA, itemB, itemC])
+    const { feedSegments, currentSort, isDateSort } = useSortedFeed(items)
+    currentSort.value = 'processed-date-desc'
+
+    expect(isDateSort.value).toBe(true)
+    const allItems = feedSegments.value.flatMap(s => s.items)
+    expect(allItems).toHaveLength(3)
+    // Items are date-grouped by publishedAt (pre-existing behavior, see P2-009).
+    // Within the "older" bucket they are sorted by publishedAt desc:
+    // Beta (Jan 15) > Charlie (Jan 5) > Alpha (Jan 1)
+    expect(allItems[0].metadata.title).toBe('Beta')
+    expect(allItems[1].metadata.title).toBe('Charlie')
+    expect(allItems[2].metadata.title).toBe('Alpha')
+  })
+
   it('isDateSort is true for date sorts, false for title sort', () => {
     const items = ref([itemA])
     const { isDateSort, currentSort } = useSortedFeed(items)
