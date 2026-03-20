@@ -6,6 +6,8 @@
  * Better to miss some breaks than to incorrectly join intentional line breaks.
  */
 
+import { normalizeMarkdown, normalizeMarkdownPostFix } from './markdown-normalizer';
+
 // Pattern 1: CamelCase with capital start, 3+ lowercase before break, 2+ lowercase after
 // Matches: "Whats\nApp", "Door\nDash", "Face\nBook"
 // Requires capital letter start to avoid matching regular words
@@ -69,11 +71,15 @@ export function fixBrokenSentences(text: string): string {
 
   // Fix: word ending with comma or "and/or" followed by newline + lowercase
   // "First item, \nsecond item" -> "First item, second item"
-  result = result.replace(/([,]|and|or)\s*[\n\r]+\s*([a-z])/g, '$1 $2');
+  // Uses {1,2} (not +) and [^\S\n\r]* (not \s*) so triple-newline heading protection
+  // boundaries are respected -- \s* would consume extra newlines, defeating the protection.
+  result = result.replace(/([,]|and|or)[^\S\n\r]*[\n\r]{1,2}[^\S\n\r]*([a-z])/g, '$1 $2');
 
   // Fix: article/preposition at end of line followed by newline
   // "This is a \ntest" -> "This is a test"
-  result = result.replace(/\b(a|an|the|of|in|on|at|to|for|with|by)\s*[\n\r]+\s*([a-z])/gi, '$1 $2');
+  // Uses {1,2} (not +) and [^\S\n\r]* (not \s*) so triple-newline heading protection
+  // boundaries are respected -- \s* would consume extra newlines, defeating the protection.
+  result = result.replace(/\b(a|an|the|of|in|on|at|to|for|with|by)[^\S\n\r]*[\n\r]{1,2}[^\S\n\r]*([a-z])/gi, '$1 $2');
 
   return result;
 }
@@ -90,21 +96,31 @@ export function normalizeText(text: string): string {
   // Step 1: Normalize newline characters (Windows -> Unix, literal \n -> actual)
   result = result.replace(/\r\n/g, '\n').replace(/\\n/g, '\n');
 
-  // Step 2: Fix broken words (most critical - before other processing)
+  // Step 2: Pre-fixer heading protection (shared normalizer)
+  // Inserts triple newlines around headings so fixBrokenWords/fixBrokenSentences {1,2}
+  // quantifiers can't span heading boundaries. Supports all heading levels (# through ######).
+  result = normalizeMarkdown(result);
+
+  // Step 3: Fix broken words (before other processing)
   result = fixBrokenWords(result);
 
-  // Step 3: Fix broken sentences
+  // Step 4: Fix broken sentences
   result = fixBrokenSentences(result);
 
-  // Step 4: Normalize excessive blank lines (3+ -> 2)
+  // Step 5: Post-fixer heading cleanup (shared normalizer)
+  // Catches any heading boundaries altered by the broken-word/sentence fixers.
+  result = normalizeMarkdownPostFix(result);
+
+  // Step 6: Trim trailing whitespace per line (before blank-line collapse so that
+  // whitespace-only lines become empty and get properly collapsed)
+  result = result.split('\n').map(line => line.trimEnd()).join('\n');
+
+  // Step 7: Normalize excessive blank lines (3+ -> 2)
   result = result.replace(/\n{3,}/g, '\n\n');
 
-  // Step 5: Remove repetitive garbage patterns (common LLM artifacts)
+  // Step 8: Remove repetitive garbage patterns (common LLM artifacts)
   result = result.replace(/(\u3002\s*\n\n){3,}/g, '\n\n'); // Chinese periods
   result = result.replace(/([.!?]\s*){5,}/g, '. '); // Excessive punctuation
-
-  // Step 6: Trim trailing whitespace per line
-  result = result.split('\n').map(line => line.trimEnd()).join('\n');
 
   return result.trim();
 }
