@@ -30,6 +30,11 @@ export function useSortedFeed<T extends Sortable>(
     currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const
   )
 
+  // NOTE: useDateGroups always groups by publishedAt (default dateAccessor),
+  // even when sorting by processedAt. This is pre-existing behavior from before
+  // the composable extraction. A video published in January but processed today
+  // will sort at the top yet appear in the "Older" bucket. Fixing this is out
+  // of scope for the refactoring PR -- see review todo P2-009.
   const { segments } = useDateGroups(
     computed(() => isDateSort.value ? sorted.value : []),
     undefined,
