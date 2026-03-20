@@ -32,7 +32,7 @@ async function handleSubmit(event: Event) {
   }
 
   const emailValue = email.value.trim()
-  if (!emailValue || !/.+@.+\..+/.test(emailValue)) {
+  if (!emailValue || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
     status.value = 'error'
     errorMessage.value = 'Please enter a valid email address.'
     return

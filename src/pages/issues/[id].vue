@@ -16,9 +16,8 @@ const { data: issue, error } = await useAsyncData(
     // Try path-based lookup first (path is /newsletters/YYYY-MM-DD)
     let result = await queryCollection('newsletters').path(`/newsletters/${issueId}`).first()
     if (!result) {
-      // Fallback: find by publishedAt date
-      const all = await queryCollection('newsletters').all()
-      result = all.find((i: any) => i.publishedAt === issueId) || null
+      // Fallback: query by publishedAt date (avoids fetching all newsletters)
+      result = await queryCollection('newsletters').where('publishedAt', '=', issueId).first()
     }
     return result
   }
@@ -304,18 +303,6 @@ useHead(() => {
   font-size: 1rem;
   font-weight: 500;
   color: var(--foreground);
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 @media (max-width: 640px) {

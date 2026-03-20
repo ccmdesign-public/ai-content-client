@@ -74,14 +74,14 @@ export default defineContentConfig({
         editorialIntro: z.string(),
         featuredPicks: z.array(z.object({
           title: z.string(),
-          url: z.string(),
+          url: z.string().url(),
           source: z.string(),
           summary: z.string(),
           commentary: z.string(),
         })),
         quickLinks: z.array(z.object({
           title: z.string(),
-          url: z.string(),
+          url: z.string().url(),
           source: z.string(),
           oneLiner: z.string(),
         })),

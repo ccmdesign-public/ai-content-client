@@ -71,6 +71,7 @@ export default defineNuxtConfig({
     // Private keys (server-only)
     cronSecret: process.env.CRON_SECRET || '',
     resendApiKey: process.env.RESEND_API_KEY || '',
+    resendAudienceId: process.env.RESEND_AUDIENCE_ID || '',
     public: {
       siteUrl: process.env.SITE_URL || 'http://localhost:3000',
       feedTitle: 'YouTube Summaries',
@@ -127,7 +128,7 @@ export default defineNuxtConfig({
     // Prerender all content routes at build time
     prerender: {
       crawlLinks: true,
-      failOnError: false,
+      failOnError: true,
       routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
     }
   },

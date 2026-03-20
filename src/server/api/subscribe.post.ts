@@ -1,4 +1,26 @@
+// Simple in-memory rate limiter (per-instance; provides burst protection)
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
+const RATE_LIMIT_WINDOW_MS = 60_000 // 1 minute
+const RATE_LIMIT_MAX = 3 // max requests per window per IP
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS })
+    return false
+  }
+  entry.count++
+  return entry.count > RATE_LIMIT_MAX
+}
+
 export default defineEventHandler(async (event) => {
+  // Rate limit by IP address
+  const ip = getRequestIP(event, { xForwardedFor: true }) || 'unknown'
+  if (isRateLimited(ip)) {
+    throw createError({ statusCode: 429, statusMessage: 'Too many requests. Please try again in a moment.' })
+  }
+
   const body = await readBody<{ email?: string; company?: string }>(event)
 
   // Honeypot check -- bots fill hidden fields, humans don't
@@ -10,8 +32,8 @@ export default defineEventHandler(async (event) => {
 
   const email = (body?.email || '').trim()
 
-  // Validate email format
-  if (!email || !/.+@.+\..+/.test(email)) {
+  // Validate email format (reject spaces, require non-empty local/domain parts)
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     throw createError({ statusCode: 422, statusMessage: 'Invalid email address' })
   }
 
@@ -20,9 +42,13 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 500, statusMessage: 'Email service not configured' })
   }
 
-  // Add contact to Resend (global contacts endpoint -- no audience_id needed)
+  if (!config.resendAudienceId) {
+    throw createError({ statusCode: 500, statusMessage: 'Email service not configured' })
+  }
+
+  // Add contact to Resend audience so they can receive broadcasts
   try {
-    await $fetch('https://api.resend.com/contacts', {
+    await $fetch(`https://api.resend.com/audiences/${config.resendAudienceId}/contacts`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${config.resendApiKey}`,
