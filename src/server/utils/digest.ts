@@ -14,7 +14,7 @@ import type { DigestPeriod, DigestItem, DigestVideo, DigestFeedConfig } from '~/
  *   - Newsletter: day-of-week cadence (Mon/Wed/Fri) via ai-content-scraper pipeline
  *
  * If the RSS digest is deprecated in favor of Resend, this module can be removed.
- * See: docs/plans/2026-03-19-001-feat-newsletter-3x-cadence-linkedin-teaser-plan.md
+ * See: AIC-26 (Linear ticket)
  */
 
 /**

@@ -1,11 +1,14 @@
 ---
 title: "feat: Newsletter 3x/week cadence + LinkedIn teaser generation"
 type: feat
-status: completed
+status: in-progress
+completed_phases: [4]
 date: 2026-03-19
 origin: docs/brainstorms/2026-03-19-ai-curated-newsletter-requirements.md
 deepened: 2026-03-19
 ---
+
+> **Scope note:** This plan covers work across two repositories: `ai-content-scraper` (Phases 1-3) and `ai-content-client` (Phase 4). Only Phase 4 is tracked and implemented in this repo. Phases 1-3 are tracked in `ai-content-scraper`.
 
 ## Enhancement Summary
 

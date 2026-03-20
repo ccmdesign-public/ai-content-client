@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "029"
 tags: [code-review, documentation, architecture]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Added scope note blockquote at top of plan document clarifying that Phases 1-3 are tracked in ai-content-scraper and only Phase 4 is implemented in this repo."
 ---
 
 # Plan Document Scope Covers Two Repos but Lives in Only One

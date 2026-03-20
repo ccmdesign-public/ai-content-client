@@ -1,9 +1,11 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "028"
 tags: [code-review, documentation, maintainability]
 dependencies: []
+resolved_date: "2026-03-19"
+resolution: "Replaced hardcoded plan file path reference in digest.ts doc comment with stable Linear ticket reference 'AIC-26'."
 ---
 
 # Doc Comment in digest.ts References Plan File Path That May Become Stale
