@@ -56,12 +56,12 @@ defineProps<{
           {{ summary.metadata.title }}
         </NuxtLink>
       </h3>
+      <!-- eslint-disable-next-line vue/no-v-html -->
       <div
         v-if="summary.tldr"
         role="document"
         aria-label="Summary"
         class="text-sm text-muted-foreground prose prose-sm prose-zinc dark:prose-invert max-w-none [&_ul]:list-disc [&_ul]:ml-4"
-        <!-- eslint-disable-next-line vue/no-v-html -->
         v-html="sanitizeMarkdown(summary.tldr)"
       />
     </div>
