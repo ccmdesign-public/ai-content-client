@@ -68,8 +68,10 @@ export default defineNuxtConfig({
     id: 'G-2CHWGY0HJ8'
   },
   runtimeConfig: {
-    // Private keys (server-only) - set via NUXT_CRON_SECRET env var
+    // Private keys (server-only)
     cronSecret: process.env.CRON_SECRET || '',
+    resendApiKey: process.env.RESEND_API_KEY || '',
+    resendAudienceId: process.env.RESEND_AUDIENCE_ID || '',
     public: {
       siteUrl: process.env.SITE_URL || 'http://localhost:3000',
       feedTitle: 'YouTube Summaries',
@@ -97,6 +99,7 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" },
         // RSS autodiscovery
         { rel: "alternate", type: "application/rss+xml", title: "YouTube Summaries RSS Feed", href: "/feed.xml" },
+        { rel: "alternate", type: "application/rss+xml", title: "AI Content Digest Newsletter", href: "/digest.xml" },
       ],
       script: [],
     }
@@ -121,19 +124,20 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'static',
-    // Prerender all routes including RSS feeds
+    preset: 'netlify',
+    // Prerender all content routes at build time
     prerender: {
       crawlLinks: true,
-      routes: ['/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
+      failOnError: true,
+      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
     }
   },
-  // Route rules for static generation
+  // Route rules for hybrid rendering (prerender content, serverless API)
   routeRules: {
-    // Temporary redirect: homepage -> summaries index (until AIC-28 newsletter claims /)
-    '/': { redirect: { to: '/summaries/', statusCode: 302 } },
-    // Prerender all pages at build time
-    '/**': { prerender: true }
+    // Prerender all content pages at build time
+    '/**': { prerender: true },
+    // Server routes remain as serverless functions (not prerendered)
+    '/api/**': { prerender: false }
   },
   components: [
     ...dsComponentDirs.map(path => ({

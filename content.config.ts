@@ -63,6 +63,32 @@ export default defineContentConfig({
         ai: aiMetricsSchema.optional()
       })
     }),
+    newsletters: defineCollection({
+      type: 'page',
+      source: {
+        include: 'newsletters/*.md',
+        cwd: contentDir
+      },
+      schema: z.object({
+        subjectLine: z.string(),
+        editorialIntro: z.string(),
+        featuredPicks: z.array(z.object({
+          title: z.string(),
+          url: z.string().url(),
+          source: z.string(),
+          summary: z.string(),
+          commentary: z.string(),
+        })),
+        quickLinks: z.array(z.object({
+          title: z.string(),
+          url: z.string().url(),
+          source: z.string(),
+          oneLiner: z.string(),
+        })),
+        closing: z.string(),
+        publishedAt: z.string(),
+      })
+    }),
     tags: defineCollection({
       type: 'data',
       source: {
