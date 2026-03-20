@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import type { DateSegment } from '~/composables/useDateGroups'
 import type { Sortable } from '~/composables/useSortOptions'
-import { Separator } from '@/components/ui/separator'
+
 
 const props = defineProps<{
   segments: DateSegment<Sortable>[]

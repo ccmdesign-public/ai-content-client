@@ -1,6 +1,5 @@
 <script setup lang="ts">
 definePageMeta({
-  hero: false,
   footer: true,
   sidebar: false
 })

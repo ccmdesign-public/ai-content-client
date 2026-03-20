@@ -126,10 +126,6 @@ export default defineNuxtConfig({
       pathPrefix: false
     },
     {
-      path: resolve(currentDir, 'components/ui'),
-      pathPrefix: false
-    },
-    {
       path: resolve(currentDir, 'components/content'),
       pathPrefix: false
     }

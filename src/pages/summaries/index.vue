@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button'
 import type { SearchResult } from '~/types/search'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 

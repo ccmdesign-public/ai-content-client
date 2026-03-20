@@ -33,6 +33,8 @@ const allItemsCount = computed(() =>
 // Map selectedCategory to ToggleGroup model value
 const toggleValue = computed(() => props.selectedCategory ?? 'all')
 
+const chipClass = 'inline-flex items-center gap-1 px-3 py-1 border rounded-full text-sm whitespace-nowrap min-h-[44px] shrink-0 cursor-pointer data-[state=on]:bg-primary data-[state=on]:text-primary-foreground data-[state=on]:border-primary data-[state=off]:bg-muted data-[state=off]:text-foreground data-[state=off]:border-border hover:bg-accent hover:text-accent-foreground'
+
 function handleValueChange(val: string) {
   // Prevent empty selection -- fallback to "all"
   const resolved = val || 'all'
@@ -53,7 +55,7 @@ function handleValueChange(val: string) {
         <!-- "All" chip -->
         <ToggleGroupItem
           value="all"
-          class="inline-flex items-center gap-1 px-3 py-1 border rounded-full text-sm whitespace-nowrap min-h-[44px] shrink-0 cursor-pointer data-[state=on]:bg-primary data-[state=on]:text-primary-foreground data-[state=on]:border-primary data-[state=off]:bg-muted data-[state=off]:text-foreground data-[state=off]:border-border hover:bg-accent hover:text-accent-foreground"
+          :class="chipClass"
         >
           <span class="font-medium">All</span>
           <span class="text-xs" :class="selectedCategory === null ? 'text-primary-foreground/80' : 'text-muted-foreground'">{{ allItemsCount }}</span>
@@ -65,7 +67,7 @@ function handleValueChange(val: string) {
           :key="category.categoryId"
           :value="category.categoryId"
           :title="category.name"
-          class="inline-flex items-center gap-1 px-3 py-1 border rounded-full text-sm whitespace-nowrap min-h-[44px] shrink-0 cursor-pointer data-[state=on]:bg-primary data-[state=on]:text-primary-foreground data-[state=on]:border-primary data-[state=off]:bg-muted data-[state=off]:text-foreground data-[state=off]:border-border hover:bg-accent hover:text-accent-foreground"
+          :class="chipClass"
         >
           <span class="font-medium">{{ category.shortName }}</span>
           <span class="text-xs" :class="selectedCategory === category.categoryId ? 'text-primary-foreground/80' : 'text-muted-foreground'">{{ category.totalItems }}</span>

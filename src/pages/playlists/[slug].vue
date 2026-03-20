@@ -30,7 +30,6 @@ if (!playlist.value) {
 }
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 

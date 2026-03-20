@@ -5,7 +5,6 @@ import { useDateGroups } from '~/composables/useDateGroups'
 import { useSlugify } from '~/composables/useSlugify'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 

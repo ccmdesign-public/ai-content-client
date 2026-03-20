@@ -3,7 +3,6 @@ import { formatDate } from '~/utils/formatDate'
 import { ArrowLeft } from 'lucide-vue-next'
 
 definePageMeta({
-  hero: false,
   footer: true,
   sidebar: false
 })

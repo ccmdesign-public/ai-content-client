@@ -22,7 +22,7 @@ const issueSlug = computed(() => props.issue.stem.replace(/^newsletters\//, ''))
   <article class="border-t border-border last:border-b">
     <NuxtLink
       :to="`/issues/${issueSlug}`"
-      class="flex items-center gap-4 py-5 px-2 no-underline text-inherit transition-colors hover:bg-muted"
+      class="group flex items-center gap-4 py-5 px-2 no-underline text-inherit transition-colors hover:bg-muted"
     >
       <div class="flex-1 min-w-0">
         <h3 class="m-0 mb-1.5 text-[1.0625rem] font-semibold leading-relaxed text-foreground">

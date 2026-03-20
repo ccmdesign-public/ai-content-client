@@ -2,7 +2,6 @@
 import { useTagsConfig } from '~/composables/useTagsConfig'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 
