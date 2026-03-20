@@ -54,7 +54,7 @@ useHead({
         <NuxtLink to="/tags" class="text-sm text-primary no-underline hover:underline">Topics</NuxtLink>
         <span class="text-sm text-muted-foreground mx-1.5">/</span>
         <span class="text-sm text-muted-foreground">{{ categoryName }}</span>
-        <div class="flex justify-between items-start gap-5 flex-wrap">
+        <div class="flex justify-between items-start gap-[1.3125rem] flex-wrap">
           <div>
             <h1 class="mt-3 text-xl">{{ displayName }}</h1>
             <p class="mt-1.5 text-muted-foreground text-sm">{{ summaryItemCount }} videos</p>

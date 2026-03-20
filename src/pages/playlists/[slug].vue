@@ -41,7 +41,7 @@ useHead({
 <template>
   <div class="p-7">
     <header class="mb-7">
-      <div class="flex justify-between items-start gap-5 flex-wrap">
+      <div class="flex justify-between items-start gap-[1.3125rem] flex-wrap">
         <div>
           <h1 class="m-0 text-xl">{{ playlist?.name }}</h1>
           <p class="mt-1.5 text-muted-foreground text-sm">{{ summaries?.length || 0 }} videos</p>
