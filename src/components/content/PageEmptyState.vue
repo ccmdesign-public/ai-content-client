@@ -1,63 +1,49 @@
 <script setup lang="ts">
-defineProps<{
+import { Button } from '@/components/ui/button'
+import {
+  SearchX,
+  FilterX,
+  ListX,
+  AlertCircle,
+  FileQuestion,
+  Inbox,
+} from 'lucide-vue-next'
+
+const props = defineProps<{
   icon?: string
   message: string
   hint?: string
   linkTo?: string
   linkText?: string
 }>()
+
+// Map icon name strings to Lucide components
+const iconMap: Record<string, any> = {
+  search_off: SearchX,
+  filter_list_off: FilterX,
+  playlist_remove: ListX,
+  error: AlertCircle,
+  help_outline: FileQuestion,
+  inbox: Inbox,
+}
+
+const IconComponent = computed(() => props.icon ? iconMap[props.icon] || Inbox : null)
 </script>
 
 <template>
-  <div class="empty-state">
-    <span v-if="icon" class="material-symbols-outlined empty-state__icon">{{ icon }}</span>
-    <p class="empty-state__message">{{ message }}</p>
-    <p v-if="hint" class="empty-state__hint">{{ hint }}</p>
-    <NuxtLink v-if="linkTo" :to="linkTo" class="empty-state__link">
-      {{ linkText || 'Go back' }}
-    </NuxtLink>
+  <div class="text-center py-14 px-7">
+    <component
+      :is="IconComponent"
+      v-if="IconComponent"
+      class="size-12 text-muted-foreground mb-5 mx-auto"
+      aria-hidden="true"
+    />
+    <p class="text-lg font-medium text-foreground mb-2.5">{{ message }}</p>
+    <p v-if="hint" class="text-base text-muted-foreground mb-7">{{ hint }}</p>
+    <Button v-if="linkTo" as-child>
+      <NuxtLink :to="linkTo">
+        {{ linkText || 'Go back' }}
+      </NuxtLink>
+    </Button>
   </div>
 </template>
-
-<style scoped>
-.empty-state {
-  text-align: center;
-  padding: 3.5rem 1.75rem;
-}
-
-.empty-state__icon {
-  font-size: 3rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.3125rem;
-}
-
-.empty-state__message {
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: var(--foreground);
-  margin-bottom: 0.6875rem;
-}
-
-.empty-state__hint {
-  font-size: 1rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.75rem;
-}
-
-.empty-state__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  padding: 0.875rem 1.3125rem;
-  background: var(--primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.2s ease;
-}
-
-.empty-state__link:hover {
-  background: var(--primary);
-}
-</style>

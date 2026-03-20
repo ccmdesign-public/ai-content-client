@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { Search, X, ChevronUp } from 'lucide-vue-next'
+import { Input } from '@/components/ui/input'
+
 /**
  * Expandable search bar with Cmd+K / Ctrl+K keyboard shortcut.
  *
@@ -53,12 +56,10 @@ function handleEscape() {
 // Global keyboard shortcut: Cmd+K / Ctrl+K
 function onGlobalKeydown(e: KeyboardEvent) {
   if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-    // Don't intercept when typing in another input/textarea
     if (
       e.target instanceof HTMLInputElement ||
       e.target instanceof HTMLTextAreaElement
     ) {
-      // Unless the target is our own search input
       if (e.target !== inputRef.value) return
     }
     e.preventDefault()
@@ -98,27 +99,27 @@ onMounted(() => {
 </script>
 
 <template>
-  <search class="search-bar" :class="{ 'search-bar--expanded': isExpanded }">
+  <search class="flex items-center">
     <!-- Collapsed: icon trigger -->
     <button
       v-if="!isExpanded"
       ref="triggerRef"
-      class="search-bar__trigger"
+      class="inline-flex items-center gap-2.5 px-3.5 py-2.5 bg-background border border-border rounded-full text-muted-foreground text-sm cursor-pointer min-h-[44px] min-w-[44px] transition-colors hover:border-primary hover:shadow-[0_0_0_1px_var(--primary)] focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
       :aria-label="`Open search (${isMac ? 'Cmd' : 'Ctrl'}+K)`"
       @click="expand"
     >
-      <span class="material-symbols-outlined" aria-hidden="true">search</span>
-      <kbd class="search-bar__shortcut" aria-hidden="true">{{ isMac ? '⌘' : 'Ctrl+' }}K</kbd>
+      <Search class="size-5" aria-hidden="true" />
+      <kbd class="hidden md:inline-block px-1.5 py-0.5 bg-accent border border-border rounded text-xs text-muted-foreground leading-none" aria-hidden="true">{{ isMac ? '⌘' : 'Ctrl+' }}K</kbd>
     </button>
 
     <!-- Expanded: input -->
-    <div v-else class="search-bar__input-wrapper">
-      <span class="material-symbols-outlined search-bar__icon" aria-hidden="true">search</span>
-      <input
+    <div v-else class="flex items-center gap-1.5 bg-background border border-primary rounded-full px-3.5 py-1.5 shadow-[0_0_0_1px_var(--primary)] min-h-[44px] w-full max-w-[400px] max-md:max-w-full">
+      <Search class="size-5 text-muted-foreground shrink-0" aria-hidden="true" />
+      <Input
         ref="inputRef"
         v-model="searchQuery"
         type="search"
-        class="search-bar__input"
+        class="flex-1 border-none shadow-none p-0 h-auto focus-visible:ring-0 bg-transparent [&::-webkit-search-cancel-button]:hidden"
         placeholder="Search summaries..."
         aria-label="Search all content"
         :aria-keyshortcuts="isMac ? 'Meta+K' : 'Control+K'"
@@ -126,159 +127,24 @@ onMounted(() => {
       />
       <button
         v-if="searchQuery"
-        class="search-bar__clear"
+        class="flex items-center justify-center bg-transparent border-none cursor-pointer p-1.5 text-muted-foreground rounded-full min-w-[32px] min-h-[32px] shrink-0 hover:bg-accent hover:text-foreground focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
         aria-label="Clear search"
         @click="clearAndFocus"
       >
-        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+        <X class="size-4" aria-hidden="true" />
       </button>
       <button
-        class="search-bar__collapse"
+        class="flex items-center justify-center bg-transparent border-none cursor-pointer p-1.5 text-muted-foreground rounded-full min-w-[32px] min-h-[32px] shrink-0 hover:bg-accent hover:text-foreground focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
         aria-label="Close search"
         @click="collapse"
       >
-        <span class="material-symbols-outlined" aria-hidden="true">keyboard_arrow_up</span>
+        <ChevronUp class="size-4" aria-hidden="true" />
       </button>
     </div>
 
     <!-- Screen reader announcement -->
-    <div class="visually-hidden" aria-live="polite" aria-atomic="true">
+    <div class="sr-only" aria-live="polite" aria-atomic="true">
       {{ resultAnnouncement }}
     </div>
   </search>
 </template>
-
-<style scoped>
-.search-bar {
-  display: flex;
-  align-items: center;
-}
-
-.search-bar__trigger {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6875rem;
-  padding: 0.6875rem 0.875rem;
-  background: var(--background);
-  border: 1px solid var(--border);
-  border-radius: 9999px;
-  cursor: pointer;
-  color: var(--muted-foreground);
-  font-family: inherit;
-  font-size: 0.875rem;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
-  min-height: 44px;
-  min-width: 44px;
-}
-
-.search-bar__trigger:hover {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 1px var(--primary);
-}
-
-.search-bar__trigger:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
-}
-
-.search-bar__shortcut {
-  display: none;
-  padding: 2px 6px;
-  background: var(--accent);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-family: inherit;
-  color: var(--muted-foreground);
-  line-height: 1;
-}
-
-@media (min-width: 769px) {
-  .search-bar__shortcut {
-    display: inline-block;
-  }
-}
-
-.search-bar__input-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 0.375rem;
-  background: var(--background);
-  border: 1px solid var(--primary);
-  border-radius: 9999px;
-  padding: 0.375rem 0.875rem;
-  box-shadow: 0 0 0 1px var(--primary);
-  min-height: 44px;
-  width: 100%;
-  max-width: 400px;
-}
-
-@media (max-width: 768px) {
-  .search-bar__input-wrapper {
-    max-width: 100%;
-  }
-}
-
-.search-bar__icon {
-  color: var(--muted-foreground);
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-.search-bar__input {
-  flex: 1;
-  border: none;
-  outline: none;
-  background: transparent;
-  font-size: 1rem;
-  font-family: inherit;
-  color: var(--foreground);
-  min-width: 0;
-}
-
-.search-bar__input::placeholder {
-  color: var(--muted-foreground);
-}
-
-/* Hide native search clear button (we have our own) */
-.search-bar__input::-webkit-search-cancel-button {
-  display: none;
-}
-
-.search-bar__clear,
-.search-bar__collapse {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.375rem;
-  color: var(--muted-foreground);
-  border-radius: 50%;
-  min-width: 32px;
-  min-height: 32px;
-  flex-shrink: 0;
-}
-
-.search-bar__clear:hover,
-.search-bar__collapse:hover {
-  background: var(--accent);
-  color: var(--foreground);
-}
-
-.search-bar__clear:focus-visible,
-.search-bar__collapse:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
-}
-
-/* Reduce motion */
-@media (prefers-reduced-motion: reduce) {
-  .search-bar__trigger,
-  .search-bar__clear,
-  .search-bar__collapse {
-    transition: none;
-  }
-}
-</style>

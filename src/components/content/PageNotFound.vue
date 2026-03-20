@@ -1,63 +1,45 @@
 <script setup lang="ts">
-defineProps<{
+import { Button } from '@/components/ui/button'
+import {
+  SearchX,
+  FileQuestion,
+  AlertCircle,
+  FileText,
+} from 'lucide-vue-next'
+
+const props = defineProps<{
   icon?: string
   title: string
   message: string
   linkTo?: string
   linkText?: string
 }>()
+
+// Map icon name strings to Lucide components
+const iconMap: Record<string, any> = {
+  search_off: SearchX,
+  help_outline: FileQuestion,
+  error: AlertCircle,
+  article: FileText,
+}
+
+const IconComponent = computed(() => props.icon ? iconMap[props.icon] || FileQuestion : null)
 </script>
 
 <template>
-  <div class="not-found">
-    <span v-if="icon" class="material-symbols-outlined not-found__icon">{{ icon }}</span>
-    <h1 class="not-found__title">{{ title }}</h1>
-    <p class="not-found__message">{{ message }}</p>
-    <NuxtLink v-if="linkTo" :to="linkTo" class="not-found__link">
-      {{ linkText || 'Go back' }}
-    </NuxtLink>
+  <div class="text-center py-14 px-7">
+    <component
+      :is="IconComponent"
+      v-if="IconComponent"
+      class="size-16 text-muted-foreground mb-5 mx-auto"
+      aria-hidden="true"
+    />
+    <h1 class="text-xl font-semibold text-foreground mb-2.5">{{ title }}</h1>
+    <p class="text-base text-muted-foreground mb-7">{{ message }}</p>
+    <Button v-if="linkTo" as-child>
+      <NuxtLink :to="linkTo">
+        {{ linkText || 'Go back' }}
+      </NuxtLink>
+    </Button>
   </div>
 </template>
-
-<style scoped>
-.not-found {
-  text-align: center;
-  padding: 3.5rem 1.75rem;
-}
-
-.not-found__icon {
-  font-size: 4rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.3125rem;
-}
-
-.not-found__title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--foreground);
-  margin-bottom: 0.6875rem;
-}
-
-.not-found__message {
-  font-size: 1rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.75rem;
-}
-
-.not-found__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  padding: 0.875rem 1.3125rem;
-  background: var(--primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.2s ease;
-}
-
-.not-found__link:hover {
-  background: var(--primary);
-}
-</style>

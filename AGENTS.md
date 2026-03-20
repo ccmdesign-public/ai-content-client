@@ -29,7 +29,8 @@ npm run lint:css    # Lint styles (if exists)
 
 ### Project Structure
 - All application code in `src/`
-- Design system components in `src/components/ds/` (ccm-prefixed)
+- shadcn-vue UI primitives in `src/components/ui/`
+- Content components in `src/components/content/` (built on shadcn-vue)
 - Content in `src/content/` (examples, adapt as needed)
 - Tests in `src/tests/`
 

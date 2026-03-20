@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import { useId } from 'vue'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
+import { Label } from '@/components/ui/label'
 import { SORT_OPTIONS, type SortKey } from '~/composables/useSortOptions'
 
 const model = defineModel<SortKey>({ required: true })
@@ -7,41 +14,17 @@ const selectId = useId()
 </script>
 
 <template>
-  <div class="sort-control">
-    <label :for="selectId" class="sort-control__label">Sort by</label>
-    <select :id="selectId" v-model="model" class="sort-control__select">
-      <option v-for="opt in SORT_OPTIONS" :key="opt.key" :value="opt.key">
-        {{ opt.label }}
-      </option>
-    </select>
+  <div class="inline-flex items-center gap-2.5">
+    <Label :for="selectId" class="text-sm text-muted-foreground whitespace-nowrap">Sort by</Label>
+    <Select v-model="model">
+      <SelectTrigger :id="selectId" class="w-[160px]">
+        <SelectValue placeholder="Sort by..." />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem v-for="opt in SORT_OPTIONS" :key="opt.key" :value="opt.key">
+          {{ opt.label }}
+        </SelectItem>
+      </SelectContent>
+    </Select>
   </div>
 </template>
-
-<style scoped>
-.sort-control {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6875rem;
-}
-
-.sort-control__label {
-  font-size: 0.875rem;
-  color: var(--muted-foreground);
-}
-
-.sort-control__select {
-  font-size: 0.875rem;
-  padding: 0.375rem 0.6875rem;
-  min-height: 44px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--background);
-  color: var(--foreground);
-  cursor: pointer;
-}
-
-.sort-control__select:focus-visible {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
-}
-</style>

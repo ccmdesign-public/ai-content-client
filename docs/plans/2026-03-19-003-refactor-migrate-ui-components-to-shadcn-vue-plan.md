@@ -1,7 +1,7 @@
 ---
 title: "refactor: Migrate all UI components to shadcn-vue"
 type: refactor
-status: active
+status: completed
 date: 2026-03-19
 deepened: 2026-03-19
 ---

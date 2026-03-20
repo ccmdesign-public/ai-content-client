@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import type { DateSegment } from '~/composables/useDateGroups'
 import type { Sortable } from '~/composables/useSortOptions'
+import { Separator } from '@/components/ui/separator'
 
 const props = defineProps<{
   segments: DateSegment<Sortable>[]
@@ -16,18 +17,17 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 </script>
 
 <template>
-  <div class="date-grouped-feed">
+  <div class="flex flex-col gap-10">
     <template v-if="shouldShowHeaders">
       <section
         v-for="segment in segments"
         :key="segment.key"
-        class="date-segment"
       >
-        <h2 class="date-segment__header">
+        <h2 class="sticky top-[var(--filter-bar-height,0px)] bg-background py-3.5 mb-5 text-sm font-semibold uppercase tracking-wide text-muted-foreground border-b border-border z-10">
           {{ segment.label }}
-          <span class="date-segment__count">({{ segment.items.length }})</span>
+          <span class="font-normal text-muted-foreground">({{ segment.items.length }})</span>
         </h2>
-        <ul class="date-segment__list">
+        <ul class="list-none p-0 m-0 flex flex-col gap-5">
           <li v-for="item in segment.items" :key="item.metadata?.videoId">
             <SummaryCard :summary="item" />
           </li>
@@ -35,7 +35,7 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
       </section>
     </template>
     <template v-else>
-      <ul class="date-segment__list">
+      <ul class="list-none p-0 m-0 flex flex-col gap-5">
         <li v-for="item in allItems" :key="item.metadata?.videoId">
           <SummaryCard :summary="item" />
         </li>
@@ -47,47 +47,3 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
     </div>
   </div>
 </template>
-
-<style scoped>
-.date-grouped-feed {
-  display: flex;
-  flex-direction: column;
-  gap: 2.625rem;
-}
-
-.date-segment__header {
-  position: sticky;
-  /* Offset below the sticky CategoryFilterBar (~60px: 44px chip + 0.5rem*2 padding + 1px border) */
-  top: var(--filter-bar-height, 0px);
-  background: var(--background);
-  padding: 0.875rem 0;
-  margin: 0 0 1.3125rem 0;
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted-foreground);
-  border-bottom: 1px solid var(--border);
-  z-index: 10;
-}
-
-.date-segment__count {
-  font-weight: 400;
-  color: var(--muted-foreground);
-}
-
-.date-segment__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1.3125rem;
-}
-
-.empty-state {
-  text-align: center;
-  padding: 3.5rem;
-  color: var(--muted-foreground);
-}
-</style>
