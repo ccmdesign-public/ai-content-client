@@ -13,6 +13,12 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // All composable calls must happen before the synchronous throw.
 // useSortedFeed internally calls useSortOptions which uses tryUseNuxtApp() and useRoute()
 // -- these must be called during synchronous component setup, before any throw.
+
+// Fetch summaries for this playlist (declared before items to avoid forward reference)
+const { data: summaries, pending } = useContentStream('summaries', {
+  where: { playlistId: playlist.value?.id }
+})
+
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
 
@@ -23,11 +29,6 @@ if (!playlist.value) {
 
 definePageMeta({
   footer: false
-})
-
-// Fetch summaries for this playlist
-const { data: summaries, pending } = useContentStream('summaries', {
-  where: { playlistId: playlist.value.id }
 })
 
 // Check if empty (playlist exists but no summaries)
