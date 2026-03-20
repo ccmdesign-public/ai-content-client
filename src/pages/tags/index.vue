@@ -34,7 +34,6 @@ useHead({
       <section
         v-for="category in tagsByCategory"
         :key="category.categoryId"
-        class="tag-category"
       >
         <h2 class="text-lg font-semibold m-0 mb-3.5 pb-3 border-b border-border flex items-baseline gap-3.5">
           {{ category.name }}
