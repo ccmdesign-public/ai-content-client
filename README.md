@@ -141,12 +141,6 @@ npm run typecheck
 npm run lint:css
 npm run lint:css:fix
 
-# Validate design tokens
-npm run validate:tokens
-npm run validate:tokens:fix
-
-# Analyze components
-npm run analyze:components
 ```
 
 ## Architecture
@@ -386,7 +380,7 @@ This will:
 - **Content**: @nuxt/content
 - **AI**: Google Gemini, OpenRouter
 - **Transcripts**: youtube-caption-extractor, yt-dlp
-- **Styling**: CUBE CSS
+- **Styling**: Tailwind CSS
 - **Build**: Nitro (static preset)
 
 ## AI Assistant Support

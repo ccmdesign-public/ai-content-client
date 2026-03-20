@@ -72,6 +72,7 @@ function getGitHubUrl(repo: string): string {
           :href="tool.website"
           target="_blank"
           rel="noopener noreferrer"
+          :aria-label="`${tool.name} website (opens in new tab)`"
           class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           <LinkIcon class="size-4" aria-hidden="true" />
@@ -82,6 +83,7 @@ function getGitHubUrl(repo: string): string {
           :href="getGitHubUrl(tool.github.repo)"
           target="_blank"
           rel="noopener noreferrer"
+          :aria-label="`${tool.name} on GitHub (opens in new tab)`"
           class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           <Github class="size-4" aria-hidden="true" />

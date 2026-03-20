@@ -15,7 +15,7 @@ CLAUDE.md contains:
 - Complete command reference
 - Directory structure and organization
 - Configuration notes
-- Styling architecture (CUBE CSS)
+- Styling architecture (Tailwind CSS)
 - Component development standards
 - Testing discipline
 - Checklist for changes
@@ -40,14 +40,12 @@ npm run build                    # Build for production
 npx vitest run                   # Run tests
 npx eslint src --ext .ts,.vue    # Lint code
 npm run lint:css                 # Lint styles (if script exists)
-npm run validate:tokens          # Validate tokens (if script exists)
 ```
 
 ### Key Principles from CLAUDE.md
 
 - All application code lives in `src/`
-- Design system components use `ccm` prefix
-- Follow CUBE CSS methodology with design tokens
+- Tailwind CSS utility classes for styling
 - Use composition API: `<script setup lang="ts">`
 - Tests mirror source structure in `src/tests/`
 - Content in `src/content/` is optional/example

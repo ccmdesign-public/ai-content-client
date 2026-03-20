@@ -32,9 +32,9 @@ export interface SummaryItem {
 export type FeedItemType = ArticleItem | SummaryItem
 
 export function isArticle(item: FeedItemType): item is ArticleItem {
-  return 'publicationName' in item && 'path' in item
+  return 'publicationName' in item && !('metadata' in item)
 }
 
 export function isSummary(item: FeedItemType): item is SummaryItem {
-  return 'metadata' in item && 'processedAt' in item
+  return 'metadata' in item && !('publicationName' in item)
 }

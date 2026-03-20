@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "025"
 tags: [code-review, typescript, types]
@@ -38,6 +38,7 @@ Additionally, `SummaryMetadata` is exported from `content.ts` but should be veri
 | Date | Action | Outcome |
 |---|---|---|
 | 2026-03-20 | Code review of PR #18 | Noted types are well-defined but upstream adoption should be verified |
+| 2026-03-20 | Verified upstream usage | No parent pages currently use FeedItem in this worktree; resolved as future work -- parent pages should adopt FeedItemType when they start consuming FeedItem |
 
 ## Resources
 

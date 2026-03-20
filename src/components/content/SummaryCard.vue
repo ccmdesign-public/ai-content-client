@@ -4,7 +4,9 @@ import { formatDate } from '~/utils/formatDate'
 import { useSanitizedHtml } from '~/composables/useSanitizedHtml'
 import { marked, type Tokens } from 'marked'
 
-// Override paragraph renderer to strip wrapping <p> tags from tldr
+// Override paragraph renderer to strip wrapping <p> tags from tldr.
+// NOTE: this.parser is bound by marked internally when invoking renderer methods.
+// This is the documented Renderer API pattern -- verify on marked upgrades.
 const renderer = new marked.Renderer()
 renderer.paragraph = function ({ tokens }: Tokens.Paragraph): string {
   return this.parser.parseInline(tokens)
@@ -30,12 +32,12 @@ defineProps<{
     />
     <div class="flex-1 min-w-0">
       <div class="flex flex-wrap items-center gap-2 text-sm text-muted-foreground mb-2">
-        <a
-          :href="`/channels/${summary.metadata.channel}`"
+        <NuxtLink
+          :to="`/channels/${summary.metadata.channel}`"
           class="font-medium hover:text-foreground motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           {{ summary.metadata.channel }}
-        </a>
+        </NuxtLink>
         <span class="text-border">|</span>
         <span>{{ formatDate(summary.metadata.publishedAt) }}</span>
         <a
