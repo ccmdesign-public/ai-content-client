@@ -9,7 +9,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending } = useContentStream('summaries')
+const { data: summaries, pending, error, refresh } = useContentStream('summaries')
 const { tagsByCategory } = useTagsConfig()
 
 const {
@@ -104,6 +104,13 @@ const displayedCount = computed(() =>
     <div v-if="pending && !isSearchActive" aria-busy="true" aria-label="Loading summaries">
       <SummaryCardSkeleton v-for="n in 5" :key="n" />
     </div>
+
+    <!-- Content stream error -->
+    <PageErrorState
+      v-else-if="error && !isSearchActive"
+      message="Failed to load summaries."
+      @retry="refresh()"
+    />
 
     <!-- Search error fallback -->
     <div v-else-if="isSearchActive && searchError" class="text-center py-14 px-7 text-muted-foreground">
