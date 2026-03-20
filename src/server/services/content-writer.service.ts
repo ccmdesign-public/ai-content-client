@@ -232,8 +232,8 @@ export class ContentWriterService {
       .replace(/([.!?:])(\s+)([-*])\s/g, '$1\n\n$3 ')  // After punctuation
       .replace(/([a-z])(\s+)([-*])\s/g, '$1\n\n$3 ');   // After lowercase (list continuation)
 
-    // Ensure ### headers have blank lines before and after
-    normalized = normalized.replace(/([^\n])(###\s)/g, '$1\n\n$2');
+    // Ensure headings have blank lines before and after (all levels # through ######)
+    normalized = normalized.replace(/([^\n#])(#{1,6}\s)/g, '$1\n\n$2');
 
     // Collapse multiple blank lines (3+ -> 2)
     normalized = normalized.replace(/\n{3,}/g, '\n\n');
