@@ -90,7 +90,7 @@ useHead({
       icon="search_off"
       title="Channel not found"
       message="We don't have any summaries for this channel."
-      link-to="/"
+      link-to="/summaries/"
       link-text="Browse all summaries"
     />
 
@@ -112,7 +112,7 @@ useHead({
         icon="videocam_off"
         message="No summaries for this channel yet."
         hint="Check back soon - new videos are processed daily."
-        link-to="/"
+        link-to="/summaries/"
         link-text="Browse all summaries"
       />
 

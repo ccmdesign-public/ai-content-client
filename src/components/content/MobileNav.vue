@@ -71,14 +71,6 @@ onUnmounted(() => {
           </div>
 
           <div class="mobile-nav__content">
-            <NuxtLink
-              to="/"
-              class="mobile-nav__home"
-              active-class="mobile-nav__home--active"
-            >
-              All Summaries
-            </NuxtLink>
-
             <section class="mobile-nav__section">
               <h3 class="mobile-nav__heading">Playlists</h3>
               <ul class="mobile-nav__list">
@@ -226,25 +218,6 @@ onUnmounted(() => {
     flex: 1;
     overflow-y: auto;
     padding: 1.3125rem;
-  }
-
-  .mobile-nav__home {
-    display: block;
-    padding: 0.875rem 0.6875rem;
-    color: var(--foreground);
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 6px;
-    margin-bottom: 0.875rem;
-  }
-
-  .mobile-nav__home:hover {
-    background: var(--accent);
-  }
-
-  .mobile-nav__home--active {
-    background: var(--accent);
-    color: var(--primary);
   }
 
   .mobile-nav__section {

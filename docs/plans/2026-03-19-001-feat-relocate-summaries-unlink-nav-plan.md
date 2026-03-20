@@ -1,7 +1,7 @@
 ---
 title: "feat: Relocate summaries index to /summaries/ and unlink from navigation"
 type: feat
-status: active
+status: completed
 date: 2026-03-19
 ---
 
