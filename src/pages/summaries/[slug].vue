@@ -12,7 +12,14 @@
       </div>
     </div>
     <PageErrorState v-else-if="error" message="Failed to load this summary." @retry="refresh()" />
-    <div v-else-if="!summary" class="text-center text-muted-foreground">Not found</div>
+    <PageNotFound
+      v-else-if="!summary"
+      icon="help_outline"
+      title="Summary not found"
+      message="We couldn't find the summary you're looking for."
+      link-to="/summaries/"
+      link-text="Browse all summaries"
+    />
     <div v-else>
       <div class="max-w-[80ch] mx-auto px-4">
         <NuxtLink to="/summaries/" class="text-sm text-muted-foreground hover:text-foreground">Back to summaries</NuxtLink>

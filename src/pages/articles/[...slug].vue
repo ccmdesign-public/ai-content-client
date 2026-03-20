@@ -13,7 +13,14 @@
       </div>
     </div>
     <PageErrorState v-else-if="error" message="Failed to load this article." @retry="refresh()" />
-    <div v-else-if="!article" class="text-center text-muted-foreground">Not found</div>
+    <PageNotFound
+      v-else-if="!article"
+      icon="article"
+      title="Article not found"
+      message="We couldn't find the article you're looking for."
+      link-to="/"
+      link-text="Back to feed"
+    />
     <div v-else>
       <div class="center">
         <NuxtLink to="/" class="text-sm text-muted-foreground hover:text-foreground">Back to feed</NuxtLink>
