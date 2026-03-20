@@ -6,7 +6,7 @@ Guidance for Claude Code when collaborating on this YouTube Summarizer MVP repos
 - **Framework**: Nuxt 3/4 (Vue 3.5, SSR enabled)
 - **Source Root**: All application code lives in `src/`
 - **Content System**: `@nuxt/content` for Markdown collections (optional)
-- **Styling**: CUBE CSS methodology with layered CSS served from `src/public/css/styles.css`
+- **Styling**: shadcn-vue components with Tailwind CSS v4. Composition layout utilities for structural patterns.
 - **Testing**: Vitest via `@nuxt/test-utils`
 
 ## Essential Commands
@@ -29,8 +29,8 @@ npm run validate:tokens:fix      # auto-fix token issues where possible
 ## Directory Overview
 - `src/pages/`: File-based routes; keep orchestration only, delegate UI to components
 - `src/layouts/`: Shell layouts that wrap page content
-- `src/components/ds/`: Design system components prefixed `ccm` (ccmButton, ccmCard, etc.)
-- `src/components/content/`: Content primitives
+- `src/components/ui/`: shadcn-vue primitives (auto-registered via shadcn-nuxt module)
+- `src/components/content/`: Content components built on shadcn-vue primitives
 - `src/composables/`: Composition utilities
 - `src/content/`: Markdown sources (if using @nuxt/content)
 - `src/public/`: Static assets + layered CSS directory structure
@@ -47,29 +47,22 @@ npm run validate:tokens:fix      # auto-fix token issues where possible
 - ESLint config lives at repo root (`eslint.config.mjs`)
 - `tsconfig.json` may set `baseUrl = "./src"`
 
-## Styling Architecture (CUBE CSS)
-- `styles.css` declares layer ordering: `@layer reset, defaults, tokens, themes, components, utils, overrides;`
-- Each imported file wraps contents in appropriate `@layer` block to maintain cascade ordering
-- Token system (if present):
-  - Primitive tokens: Base values (colors, spacing, fonts)
-  - Semantic tokens: Context-specific aliases referencing primitives
-  - Organized in `src/public/css/tokens/` directory
-- Use `npm run validate:tokens` to check token consistency (if script exists)
+## Styling Architecture
+- shadcn-vue components with Tailwind CSS v4 utility classes
+- Composition layout utilities (stack, cluster, center, container, grid, switcher, box, cover, frame, reel, imposter) in `src/assets/css/tailwind.css`
+- Rose Pine theme via CSS custom properties
+- Icons: Lucide (tree-shakeable, imported individually from `lucide-vue-next`)
+- No scoped `<style>` blocks in content components -- all styling via Tailwind utilities
 
 ## Component Development
 
-When working with design system components:
+When working with UI components:
 
-1. Check `src/content/docs/guidelines/component-standards.md` for standards (if exists)
-2. Use `--_ccm-{component}-{property}` pattern for CSS variables
-3. Style binding via computed `cssVars` for props
-4. Reference design tokens (semantic > primitive)
-5. Provide `size`, `variant`, and `customColor` props where appropriate
-
-**Component Documentation:**
-- Auto-generated component docs may be in `src/public/component-docs/`
-- Component demos may be at `src/pages/docs/` or `src/components/docs/demos/`
-- Run `npm run docs:generate` to regenerate documentation
+1. Use shadcn-vue primitives from `src/components/ui/` as building blocks
+2. Install new shadcn-vue components with `pnpm dlx shadcn-vue@latest add <component>`
+3. Style with Tailwind utility classes -- avoid scoped CSS
+4. Use Lucide icons (individual imports for tree-shaking)
+5. Configuration in `components.json` (style: new-york, icon: lucide)
 
 ## Testing Discipline
 - Tests live in `src/tests/` organized by feature area

@@ -58,7 +58,6 @@
 import { categorizeTools } from '~/utils/categorizeTools'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 

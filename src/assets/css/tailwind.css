@@ -167,27 +167,6 @@
   }
 }
 
-/* Material Icons utility (migrated from CUBE utils.css) */
-@layer base {
-  [icon]::before,
-  [data-icon]::before,
-  .icon {
-    font-family: "Material Symbols Outlined", sans-serif;
-    font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 24;
-  }
-
-  .icon,
-  [icon]::before,
-  [data-icon]::before {
-    margin-block: 3px;
-    font-size: 1.8rem;
-  }
-
-  [icon]::before,
-  [data-icon]::before {
-    content: attr(data-icon);
-  }
-}
 
 /* Prose layout utility (migrated from CUBE prose.css) */
 .prose-layout {

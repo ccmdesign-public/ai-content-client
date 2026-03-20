@@ -3,10 +3,11 @@ import { useDateGroups } from '~/composables/useDateGroups'
 import { useSortOptions } from '~/composables/useSortOptions'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
+import { AlertCircle, SearchX, FilterX } from 'lucide-vue-next'
+import { Button } from '@/components/ui/button'
 import type { SearchResult } from '~/types/search'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 
@@ -59,7 +60,7 @@ const displayedCount = computed(() =>
 </script>
 
 <template>
-  <div class="summaries-page">
+  <div class="px-7 pt-0 pb-7">
     <!-- Category filter: hidden during search -->
     <CategoryFilterBar
       v-if="!isSearchActive"
@@ -69,11 +70,11 @@ const displayedCount = computed(() =>
       @select="selectCategory"
     />
 
-    <header class="page-header">
-      <div class="page-header__top">
+    <header class="mb-7 pt-7">
+      <div class="flex justify-between items-start gap-5 flex-wrap">
         <div>
-          <h1>{{ pageTitle }}</h1>
-          <p class="page-header__count" aria-live="polite" aria-atomic="true">
+          <h1 class="m-0 text-xl">{{ pageTitle }}</h1>
+          <p class="mt-1.5 text-muted-foreground text-sm" aria-live="polite" aria-atomic="true">
             <template v-if="isSearchActive">
               {{ displayedCount }} result{{ displayedCount === 1 ? '' : 's' }}
             </template>
@@ -83,7 +84,7 @@ const displayedCount = computed(() =>
             </template>
           </p>
         </div>
-        <div class="page-header__actions">
+        <div class="flex items-center gap-3.5">
           <SearchBar
             v-model="searchQuery"
             v-model:result-count="displayedCount"
@@ -95,18 +96,18 @@ const displayedCount = computed(() =>
       </div>
     </header>
 
-    <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
+    <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
-    <div v-if="pending && !isSearchActive" class="loading">Loading...</div>
+    <div v-if="pending && !isSearchActive" class="text-center py-14 text-muted-foreground">Loading...</div>
 
     <!-- Search error fallback -->
-    <div v-else-if="isSearchActive && searchError" class="search-error">
-      <span class="material-symbols-outlined search-error__icon" aria-hidden="true">error</span>
-      <p class="search-error__message">Search unavailable. Browse content below.</p>
+    <div v-else-if="isSearchActive && searchError" class="text-center py-14 px-7 text-muted-foreground">
+      <AlertCircle class="size-12 block mb-3.5 mx-auto text-muted-foreground" aria-hidden="true" />
+      <p class="text-base font-medium m-0 text-foreground">Search unavailable. Browse content below.</p>
     </div>
 
     <!-- Search results -->
-    <div v-else-if="isSearchActive && searchResults.length > 0" class="search-results">
+    <div v-else-if="isSearchActive && searchResults.length > 0" class="flex flex-col">
       <SummaryCard
         v-for="result in searchResults"
         :key="result.id"
@@ -126,135 +127,23 @@ const displayedCount = computed(() =>
     </div>
 
     <!-- Search: no results -->
-    <div v-else-if="isSearchActive && searchResults.length === 0 && isSearchReady" class="filtered-empty-state">
-      <span class="filtered-empty-state__icon material-symbols-outlined" aria-hidden="true">search_off</span>
-      <p class="filtered-empty-state__message">No results found for "{{ searchQuery }}"</p>
-      <p class="filtered-empty-state__hint">Try different keywords or clear the search.</p>
+    <div v-else-if="isSearchActive && searchResults.length === 0 && isSearchReady" class="text-center py-14 px-7 text-muted-foreground">
+      <SearchX class="size-12 block mb-3.5 mx-auto text-muted-foreground" aria-hidden="true" />
+      <p class="text-base font-medium m-0 mb-1.5 text-foreground">No results found for "{{ searchQuery }}"</p>
+      <p class="text-sm m-0 mb-5">Try different keywords or clear the search.</p>
     </div>
 
     <!-- Browse: filtered empty state -->
-    <div v-else-if="!isSearchActive && selectedCategory && filteredCount === 0" class="filtered-empty-state">
-      <span class="filtered-empty-state__icon material-symbols-outlined" aria-hidden="true">filter_list_off</span>
-      <p class="filtered-empty-state__message">No summaries found in this category.</p>
-      <p class="filtered-empty-state__hint">Try selecting a different category or reset the filter.</p>
-      <button class="filtered-empty-state__reset" @click="selectCategory(null)">
+    <div v-else-if="!isSearchActive && selectedCategory && filteredCount === 0" class="text-center py-14 px-7 text-muted-foreground">
+      <FilterX class="size-12 block mb-3.5 mx-auto text-muted-foreground" aria-hidden="true" />
+      <p class="text-base font-medium m-0 mb-1.5 text-foreground">No summaries found in this category.</p>
+      <p class="text-sm m-0 mb-5">Try selecting a different category or reset the filter.</p>
+      <Button @click="selectCategory(null)">
         Show all summaries
-      </button>
+      </Button>
     </div>
 
     <!-- Browse: date-grouped feed -->
     <DateGroupedFeed v-else-if="!isSearchActive" :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
-
-<style scoped>
-.summaries-page {
-  padding: 1.75rem;
-  padding-top: 0;
-}
-
-.page-header__actions {
-  display: flex;
-  align-items: center;
-  gap: 0.875rem;
-}
-
-.page-header {
-  margin-bottom: 1.75rem;
-  padding-top: 1.75rem;
-}
-
-.page-header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.3125rem;
-  flex-wrap: wrap;
-}
-
-.page-header h1 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-
-.page-header__count {
-  margin: 0.375rem 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.875rem;
-}
-
-.loading {
-  text-align: center;
-  padding: 3.5rem;
-  color: var(--muted-foreground);
-}
-
-.search-results {
-  display: flex;
-  flex-direction: column;
-}
-
-.search-error {
-  text-align: center;
-  padding: 3.5rem 1.75rem;
-  color: var(--muted-foreground);
-}
-
-.search-error__icon {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 0.875rem;
-  color: var(--muted-foreground);
-}
-
-.search-error__message {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0;
-  color: var(--foreground);
-}
-
-.filtered-empty-state {
-  text-align: center;
-  padding: 3.5rem 1.75rem;
-  color: var(--muted-foreground);
-}
-
-.filtered-empty-state__icon {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 0.875rem;
-  color: var(--muted-foreground);
-}
-
-.filtered-empty-state__message {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0 0 0.375rem;
-  color: var(--foreground);
-}
-
-.filtered-empty-state__hint {
-  margin: 0 0 1.3125rem;
-  font-size: 0.875rem;
-}
-
-.filtered-empty-state__reset {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  padding: 0.6875rem 1.3125rem;
-  background: var(--primary);
-  color: #fff;
-  border: none;
-  border-radius: 9999px;
-  font-size: 0.875rem;
-  font-family: inherit;
-  cursor: pointer;
-  transition: background 0.15s ease;
-}
-
-.filtered-empty-state__reset:hover {
-  opacity: 0.85;
-}
-</style>

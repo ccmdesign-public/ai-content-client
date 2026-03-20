@@ -2,6 +2,8 @@
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useDateGroups } from '~/composables/useDateGroups'
 import { useSortOptions, type Sortable } from '~/composables/useSortOptions'
+import { ListX } from 'lucide-vue-next'
+import { Button } from '@/components/ui/button'
 
 const route = useRoute()
 const { getPlaylistBySlug } = usePlaylistsConfig()
@@ -9,7 +11,6 @@ const { getPlaylistBySlug } = usePlaylistsConfig()
 const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 
 // All composable calls must happen before the synchronous throw.
-// Use a computed with null guard (same pattern as other pages).
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
 const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
@@ -29,7 +30,6 @@ if (!playlist.value) {
 }
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 
@@ -47,104 +47,30 @@ useHead({
 </script>
 
 <template>
-  <div class="playlist-page">
-    <header class="page-header">
-      <div class="page-header__top">
+  <div class="p-7">
+    <header class="mb-7">
+      <div class="flex justify-between items-start gap-5 flex-wrap">
         <div>
-          <h1>{{ playlist?.name }}</h1>
-          <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
+          <h1 class="m-0 text-xl">{{ playlist?.name }}</h1>
+          <p class="mt-1.5 text-muted-foreground text-sm">{{ summaries?.length || 0 }} videos</p>
         </div>
         <SortControl v-model="currentSort" />
       </div>
     </header>
 
-    <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
+    <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
-    <div v-if="pending" class="loading">Loading...</div>
+    <div v-if="pending" class="text-center py-14 text-muted-foreground">Loading...</div>
 
-    <div v-else-if="isEmpty" class="empty-state">
-      <span class="material-symbols-outlined empty-state__icon">playlist_remove</span>
-      <p class="empty-state__message">No summaries in this playlist yet.</p>
-      <p class="empty-state__hint">Check back soon - new videos are processed daily.</p>
-      <NuxtLink to="/summaries/" class="empty-state__link">Browse all summaries</NuxtLink>
+    <div v-else-if="isEmpty" class="text-center py-14 px-7">
+      <ListX class="size-12 text-muted-foreground mb-5 mx-auto" aria-hidden="true" />
+      <p class="text-lg font-medium text-foreground mb-2.5">No summaries in this playlist yet.</p>
+      <p class="text-base text-muted-foreground mb-7">Check back soon - new videos are processed daily.</p>
+      <Button as-child>
+        <NuxtLink to="/summaries/">Browse all summaries</NuxtLink>
+      </Button>
     </div>
 
     <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
   </div>
 </template>
-
-<style scoped>
-.playlist-page {
-  padding: 1.75rem;
-}
-
-.page-header {
-  margin-bottom: 1.75rem;
-}
-
-.page-header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.3125rem;
-  flex-wrap: wrap;
-}
-
-.page-header h1 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-
-.page-header__count {
-  margin: 0.375rem 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.875rem;
-}
-
-.loading {
-  text-align: center;
-  padding: 3.5rem;
-  color: var(--muted-foreground);
-}
-
-.empty-state {
-  text-align: center;
-  padding: 3.5rem 1.75rem;
-}
-
-.empty-state__icon {
-  font-size: 3rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.3125rem;
-}
-
-.empty-state__message {
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: var(--foreground);
-  margin-bottom: 0.6875rem;
-}
-
-.empty-state__hint {
-  font-size: 1rem;
-  color: var(--muted-foreground);
-  margin-bottom: 1.75rem;
-}
-
-.empty-state__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  padding: 0.875rem 1.3125rem;
-  background: var(--primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.2s ease;
-}
-
-.empty-state__link:hover {
-  background: var(--primary);
-}
-</style>

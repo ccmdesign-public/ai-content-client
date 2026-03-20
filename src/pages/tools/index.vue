@@ -2,14 +2,7 @@
 import { useIntersectionObserver } from '@vueuse/core'
 import { useToolsDirectory } from '~/composables/useToolsDirectory'
 
-definePageMeta({
-  hero: {
-    brow: 'Directory',
-    title: 'Tools',
-    tagline: 'Browse all tools mentioned across video summaries',
-    size: 'm'
-  }
-})
+definePageMeta({})
 
 useSeoMeta({
   title: 'Tools Directory | YouTube Summaries',

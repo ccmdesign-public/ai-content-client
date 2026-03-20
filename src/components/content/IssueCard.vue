@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/formatDate'
+import { ArrowRight } from 'lucide-vue-next'
+import { Badge } from '@/components/ui/badge'
 
 const props = defineProps<{
   issue: {
@@ -17,99 +19,33 @@ const issueSlug = computed(() => props.issue.stem.replace(/^newsletters\//, ''))
 </script>
 
 <template>
-  <article class="issue-card">
-    <NuxtLink :to="`/issues/${issueSlug}`" class="issue-card__link">
-      <div class="issue-card__content">
-        <h3 class="issue-card__title">{{ issue.subjectLine }}</h3>
-        <div class="issue-card__meta">
-          <time class="issue-card__date" :datetime="issue.publishedAt">
+  <article class="border-t border-border last:border-b">
+    <NuxtLink
+      :to="`/issues/${issueSlug}`"
+      class="group flex items-center gap-4 py-5 px-2 no-underline text-inherit transition-colors hover:bg-muted"
+    >
+      <div class="flex-1 min-w-0">
+        <h3 class="m-0 mb-1.5 text-[1.0625rem] font-semibold leading-relaxed text-foreground">
+          {{ issue.subjectLine }}
+        </h3>
+        <div class="flex items-center gap-3 flex-wrap">
+          <time class="text-[0.8125rem] text-muted-foreground" :datetime="issue.publishedAt">
             {{ formatDate(issue.publishedAt, 'MMMM d, yyyy') }}
           </time>
-          <span class="issue-card__counts">
-            <span v-if="issue.featuredPicks?.length" class="issue-card__count">
+          <div class="flex gap-2">
+            <Badge v-if="issue.featuredPicks?.length" variant="secondary">
               {{ issue.featuredPicks.length }} featured
-            </span>
-            <span v-if="issue.quickLinks?.length" class="issue-card__count">
+            </Badge>
+            <Badge v-if="issue.quickLinks?.length" variant="secondary">
               {{ issue.quickLinks.length }} quick links
-            </span>
-          </span>
+            </Badge>
+          </div>
         </div>
       </div>
-      <span class="material-symbols-outlined issue-card__arrow" aria-hidden="true">arrow_forward</span>
+      <ArrowRight
+        class="size-5 text-muted-foreground shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:text-primary"
+        aria-hidden="true"
+      />
     </NuxtLink>
   </article>
 </template>
-
-<style scoped>
-.issue-card {
-  border-top: 1px solid var(--border);
-}
-
-.issue-card:last-child {
-  border-bottom: 1px solid var(--border);
-}
-
-.issue-card__link {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.25rem 0.5rem;
-  text-decoration: none;
-  color: inherit;
-  transition: background 0.15s ease;
-}
-
-.issue-card__link:hover {
-  background: var(--muted);
-}
-
-.issue-card__content {
-  flex: 1;
-  min-width: 0;
-}
-
-.issue-card__title {
-  margin: 0 0 0.375rem;
-  font-size: 1.0625rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--foreground);
-}
-
-.issue-card__meta {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.issue-card__date {
-  font-size: 0.8125rem;
-  color: var(--muted-foreground);
-}
-
-.issue-card__counts {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.issue-card__count {
-  font-size: 0.75rem;
-  color: var(--muted-foreground);
-  background: var(--muted);
-  padding: 0.125rem 0.5rem;
-  border-radius: 9999px;
-}
-
-.issue-card__arrow {
-  color: var(--muted-foreground);
-  font-size: 1.25rem;
-  flex-shrink: 0;
-  transition: transform 0.15s ease;
-}
-
-.issue-card__link:hover .issue-card__arrow {
-  transform: translateX(2px);
-  color: var(--primary);
-}
-</style>

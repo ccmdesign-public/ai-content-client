@@ -1,83 +1,88 @@
 <template>
-  <div class="min-h-svh flex flex-col">
-    <!-- Hero Header -->
-    <header
-      v-if="hero"
-      role="banner"
-      class="bg-secondary flex flex-col shrink-0"
-      :class="heroSizeClasses"
-    >
-      <!-- Top Navigation -->
-      <div class="w-full max-w-6xl mx-auto px-4">
-        <div class="flex items-center justify-between py-3">
-          <h1 class="text-lg font-bold">
-            <NuxtLink to="/" class="text-foreground hover:text-primary no-underline">
-              YouTube Summaries
-            </NuxtLink>
-          </h1>
-          <nav role="navigation" class="hidden md:block">
-            <ul class="flex items-center gap-4">
-              <li><NuxtLink to="/" class="text-muted-foreground hover:text-foreground hover:underline">Home</NuxtLink></li>
-              <li><NuxtLink to="/tools" class="text-muted-foreground hover:text-foreground hover:underline">Tools</NuxtLink></li>
-            </ul>
-          </nav>
+  <SidebarProvider :open="sidebarOpen" @update:open="sidebarOpen = $event">
+    <AppSidebar />
+    <SidebarInset>
+      <!-- Header -->
+      <header class="flex h-14 shrink-0 items-center gap-2 border-b px-4">
+        <SidebarTrigger class="-ml-1" />
+        <Separator orientation="vertical" class="mr-2 h-4" />
+        <BreadcrumbWithSchema :items="breadcrumbItems" />
+        <div class="ml-auto flex items-center gap-2">
+          <SearchBar
+            v-model="searchQuery"
+            :is-ready="isSearchReady"
+            @expand="onSearchExpand"
+          />
         </div>
-      </div>
+      </header>
 
-      <!-- Main Hero Content -->
-      <div class="w-full max-w-6xl mx-auto px-4 py-8 flex-1 flex items-center">
-        <hgroup class="text-balance">
-          <p v-if="hero.brow" class="text-sm uppercase tracking-wide text-muted-foreground mb-2">{{ hero.brow }}</p>
-          <h1 v-if="hero.title" class="text-3xl md:text-4xl font-bold text-foreground">{{ hero.title }}</h1>
-          <p v-if="hero.tagline" class="text-lg text-muted-foreground mt-2">{{ hero.tagline }}</p>
-        </hgroup>
-      </div>
-    </header>
-
-    <!-- Main Body -->
-    <div class="flex flex-1 min-h-0">
-      <SidebarNav v-if="showSidebar" class="shrink-0 hidden md:block" />
+      <!-- Main Content -->
       <main class="flex-1 overflow-y-auto min-w-0">
         <div class="max-w-5xl mx-auto w-full px-4 py-6">
           <slot />
         </div>
       </main>
-    </div>
 
-    <!-- Footer -->
-    <footer v-if="footer" role="contentinfo" class="bg-secondary py-6 shrink-0">
-      <div class="max-w-6xl mx-auto px-4 flex items-center justify-between text-sm text-muted-foreground">
-        <span>&copy; {{ new Date().getFullYear() }} YouTube Summaries</span>
-        <a href="#" class="hover:text-foreground hover:underline">Built with Nuxt</a>
-      </div>
-    </footer>
-
-    <!-- Mobile Navigation -->
-    <MobileNav v-if="showSidebar" />
-  </div>
+      <!-- Footer -->
+      <footer v-if="showFooter" role="contentinfo" class="border-t py-4 px-4 shrink-0">
+        <div class="max-w-5xl mx-auto flex items-center justify-between text-sm text-muted-foreground">
+          <span>&copy; {{ new Date().getFullYear() }} YouTube Summaries</span>
+          <span>Built with Nuxt</span>
+        </div>
+      </footer>
+    </SidebarInset>
+  </SidebarProvider>
 </template>
 
 <script setup>
 import { useSearch } from '~/composables/useSearch'
+import {
+  SidebarProvider,
+  SidebarInset,
+  SidebarTrigger,
+} from '@/components/ui/sidebar'
+import { Separator } from '@/components/ui/separator'
 
 const route = useRoute()
-const heroState = useState('hero', () => null)
-const hero = computed(() => route.meta.hero || heroState.value)
-const footer = computed(() => route.meta.footer ?? true)
-const showSidebar = computed(() => route.meta.sidebar ?? true)
+
+const showFooter = computed(() => route.meta.footer ?? true)
+
+// Build breadcrumb items from the current route path
+const breadcrumbItems = computed(() => {
+  const segments = route.path.split('/').filter(Boolean)
+  if (segments.length === 0) return [{ label: 'Home', to: '/' }]
+
+  const items = [{ label: 'Home', to: '/' }]
+  let path = ''
+  for (const segment of segments) {
+    path += `/${segment}`
+    const label = segment
+      .replace(/[-_]/g, ' ')
+      .replace(/\b\w/g, c => c.toUpperCase())
+    items.push({ label, to: path })
+  }
+  return items
+})
+
+// Controlled sidebar: react to route meta changes
+const sidebarOpen = ref(true)
+watch(() => route.meta.sidebar, (val) => {
+  if (val === false) sidebarOpen.value = false
+  else sidebarOpen.value = true
+}, { immediate: true })
 
 // Provide search composable to all pages via provide/inject
 const search = useSearch()
 provide('search', search)
 
-const heroSizeClasses = computed(() => {
-  const size = hero.value?.size || 'l'
-  const sizeMap = {
-    s: 'min-h-32',
-    m: 'min-h-48',
-    l: 'min-h-64',
-    xl: 'min-h-80'
-  }
-  return sizeMap[size] || sizeMap.l
+// Search integration for header
+const searchQuery = computed({
+  get: () => search?.query.value ?? '',
+  set: (val) => { if (search) search.query.value = val },
 })
+const isSearchReady = computed(() => search?.isReady.value ?? false)
+
+function onSearchExpand() {
+  search?.init()
+}
 </script>

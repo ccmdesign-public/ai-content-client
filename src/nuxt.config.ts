@@ -76,8 +76,6 @@ export default defineNuxtConfig({
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },],
       link: [
-        // google icons
-        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" },
         // RSS autodiscovery
         { rel: "alternate", type: "application/rss+xml", title: "YouTube Summaries RSS Feed", href: "/feed.xml" },
         { rel: "alternate", type: "application/rss+xml", title: "AI Content Digest Newsletter", href: "/digest.xml" },
@@ -89,7 +87,7 @@ export default defineNuxtConfig({
     '~/assets/css/tailwind.css'
   ],
   build: {
-    transpile: ['vue-carousel'],
+    transpile: [],
   },
   vite: {
     plugins: [
@@ -128,15 +126,7 @@ export default defineNuxtConfig({
       pathPrefix: false
     },
     {
-      path: resolve(currentDir, 'components/ui'),
-      pathPrefix: false
-    },
-    {
       path: resolve(currentDir, 'components/content'),
-      pathPrefix: false
-    },
-    {
-      path: resolve(currentDir, 'components/custom'),
       pathPrefix: false
     }
   ],

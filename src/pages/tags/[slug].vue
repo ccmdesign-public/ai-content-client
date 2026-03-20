@@ -8,7 +8,6 @@ const route = useRoute()
 const slug = computed(() => route.params.slug as string)
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 

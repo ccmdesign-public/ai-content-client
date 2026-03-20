@@ -44,7 +44,6 @@
 import { formatDate } from '~/utils/formatDate'
 
 definePageMeta({
-  hero: false,
   footer: false
 })
 
