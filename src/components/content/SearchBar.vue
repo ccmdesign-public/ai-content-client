@@ -104,7 +104,7 @@ onMounted(() => {
     <button
       v-if="!isExpanded"
       ref="triggerRef"
-      class="inline-flex items-center gap-2.5 px-3.5 py-2.5 bg-background border border-border rounded-full text-muted-foreground text-sm cursor-pointer min-h-[44px] min-w-[44px] transition-colors hover:border-primary hover:shadow-[0_0_0_1px_var(--primary)] focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
+      class="inline-flex items-center gap-2.5 px-3.5 py-2.5 bg-background border border-border rounded-full text-muted-foreground text-sm cursor-pointer min-h-[44px] min-w-[44px] transition-colors hover:border-primary hover:shadow-[0_0_0_1px_var(--primary)] focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 motion-reduce:transition-none"
       :aria-label="`Open search (${isMac ? 'Cmd' : 'Ctrl'}+K)`"
       @click="expand"
     >

@@ -17,20 +17,21 @@ npm run build                    # Production build
 npx vitest run                   # Run tests
 npx eslint src --ext .ts,.vue    # Lint code
 npm run lint:css                 # Lint CSS (if exists)
-npm run validate:tokens          # Validate tokens (if exists)
+pnpm vitest run                  # Run tests
 ```
 
 ## Standards (See CLAUDE.md for details)
 - Vue: `<script setup lang="ts">` composition API
-- Components: PascalCase, `ccm` prefix for DS
+- Components: PascalCase
 - TypeScript: 2-space indent, no semicolons, single quotes
-- CSS: CUBE methodology, design tokens, `--_ccm-{component}-{property}`
+- CSS: Tailwind CSS v4 utility classes only, no scoped styles in content components
+- Transitions: Use specific properties (`transition-colors`, `transition-shadow`), never `transition-all`. Use `motion-safe:` prefix for new transitions
 
 ## Project Structure
 ```
 src/
 ├── pages/          # File-based routes
-├── components/ds/  # Design system (ccm*)
+├── components/     # UI and content components
 ├── composables/    # Composition utilities
 ├── content/        # Markdown (examples)
 ├── public/         # Static + CSS

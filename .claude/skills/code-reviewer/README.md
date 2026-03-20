@@ -10,41 +10,24 @@ Proactively review code changes for quality, consistency, and standards complian
 ## Auto-trigger Conditions
 
 This skill automatically activates after:
-- Editing or creating `.vue` files in `src/components/ds/`
-- Modifying files in `src/public/css/`
+- Editing or creating `.vue` files in `src/components/`
+- Modifying files in `src/assets/css/`
 - Creating new composables in `src/composables/`
 
 ## Review Checklist
 
-### 1. CUBE CSS Compliance
+### 1. Tailwind CSS Compliance
 
 **Checks**:
-- ✅ Styles wrapped in appropriate `@layer` directive
-- ✅ Token usage follows semantic > primitive hierarchy
-- ✅ Layers used: reset, defaults, tokens, themes, components, utils, overrides
-
-**Example Issue**:
-```css
-/* ❌ BAD: No layer wrapping */
-.my-component {
-  color: var(--color-base-blue-500);
-}
-
-/* ✅ GOOD: Layer + semantic token */
-@layer components {
-  .my-component {
-    color: var(--color-primary);
-  }
-}
-```
+- ✅ Tailwind utility classes used for styling in content components
+- ✅ No scoped `<style>` blocks in `src/pages/` or `src/components/content/`
+- ✅ Specific transition properties used (`transition-colors`, not `transition-all`)
 
 ### 2. Component Standards
 
 **Checks**:
 - ✅ Props organized by category (structural, content, visual, accessibility, behavior)
-- ✅ `defineOptions` follows production/dev pattern
-- ✅ `cssVars` computed property for dynamic styling
-- ✅ Component follows `--_ccm-{component}-{property}` pattern
+- ✅ TypeScript types used for all props
 
 **Example Issue**:
 ```vue
@@ -160,7 +143,8 @@ Configuration is loaded from `.claude/config/review-rules.json`.
 ### Auto-fix Capabilities
 
 Some issues can be auto-fixed:
-- ✅ Token references (primitive → semantic)
+- ✅ ESLint formatting issues
+- ✅ CSS property ordering
 - ❌ Focus styles (requires manual review)
 - ❌ ARIA labels (requires context)
 

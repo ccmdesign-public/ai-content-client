@@ -207,25 +207,22 @@ All skills understand these three tiers:
 - Orchestrate multiple components
 - Content structure patterns
 - Light composition logic
-- Use CUBE CSS utilities
-- Examples: ctaSignup, proseSection
+- Use Tailwind utility classes
+- Examples: ArticleCard, SummaryCard
 
 ---
 
 ## Standards Enforced
 
-### All 10 Component Standards (DS Components)
+### Component Standards
 
-1. **CSS Variable Naming** - `--_ccm-{component}-{property}` pattern
-2. **Style Binding** - `:style` with computed `cssVars`
-3. **inheritAttrs** - `import.meta.env.PROD ? false : true`
-4. **Scoped Styles** - `<style scoped>` with `.ccm-{name}`
-5. **Accessibility** - ARIA with fallbacks
-6. **Prop Organization** - Grouped by category
-7. **Prop Validation** - All defined props used
-8. **Default Values** - Production-ready defaults
-9. **Graceful Degradation** - Functional slot fallbacks
-10. **Slot Naming** - Positional (#top, #bottom) not semantic
+1. **Tailwind Utility Classes** - Use Tailwind v4 classes for all styling
+2. **Accessibility** - ARIA labels, focus-visible rings, semantic HTML
+3. **Prop Organization** - Grouped by category with TypeScript types
+4. **Prop Validation** - All defined props used
+5. **Default Values** - Production-ready defaults
+6. **Graceful Degradation** - Functional slot fallbacks
+7. **Transitions** - Use specific properties with `motion-safe:` prefix
 
 ### Wrapper Standards (6 Checks)
 - Location: `src/components/` root
@@ -239,7 +236,7 @@ All skills understand these three tiers:
 - Location: `src/components/content/`
 - Composes multiple components
 - Light orchestration only
-- Uses CUBE CSS utilities
+- Uses Tailwind utility classes
 
 ---
 
@@ -254,20 +251,14 @@ ccmButton, ccmCard, ccmChip, ccmFormField, ccmToggleButton, ccmMenu, ccmMenuItem
 - `useContentStream()` - Multiple items
 - `useContentItem()` - Single item
 
-### CUBE CSS Utilities
-- `.stack` - Vertical spacing
-- `.cluster` - Horizontal wrapping
-- `.padding-block:*`, `.margin-block:*` - Spacing
-- `.color:*`, `.background-color:*` - Colors
-- `.font-size:*`, `.font-weight:*` - Typography
+### Layout Utilities
+- Composition primitives in `src/public/css/composition/` (box, center, cluster, container, cover, frame, grid, imposter, reel, stack, switcher)
+- Tailwind utility classes for spacing, colors, typography
 
 ### Design Tokens
-- **Colors**: `--color-primary`, `--color-success`, etc.
-- **Spacing**: `--space-3xs` to `--space-3xl`
-- **Typography**: `--size--2` to `--size-5`
-- **Radius**: `--border-radius-s` to `--border-radius-full`
-
-**Policy**: Use existing tokens. New tokens require justification.
+- **Colors**: shadcn/ui theme tokens via CSS variables (`--primary`, `--secondary`, `--muted`, etc.)
+- **Spacing/Typography/Radius**: Tailwind v4 built-in utilities
+- **Transitions**: `duration-150`, `duration-200`, `duration-300` (Tailwind built-in)
 
 ---
 
