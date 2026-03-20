@@ -15,7 +15,8 @@ const MAX_ATTEMPTS = 3;
  * Permanent error patterns that should not be retried
  */
 const PERMANENT_ERROR_PATTERNS = [
-  'TRANSCRIPT_UNAVAILABLE',
+  'AUDIO_UNAVAILABLE',
+  'AUDIO_TOO_LARGE',
   'VIDEO_NOT_FOUND',
   'Video unavailable',
   'Private video',
@@ -35,7 +36,7 @@ export function classifyError(error: Error | string): ErrorClassification {
     if (message.includes(pattern)) {
       return {
         type: 'permanent',
-        code: pattern.includes('TRANSCRIPT') ? 'TRANSCRIPT_UNAVAILABLE' :
+        code: pattern.includes('AUDIO') ? 'AUDIO_UNAVAILABLE' :
               pattern.includes('NOT_FOUND') ? 'VIDEO_NOT_FOUND' :
               'VIDEO_UNAVAILABLE',
         isPermanent: true

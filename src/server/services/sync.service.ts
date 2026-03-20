@@ -5,6 +5,7 @@ import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { classifyVideo } from '~/server/prompts';
 import { createYouTubeService } from './youtube.service';
+import { createGroqWhisperService } from './groq-whisper.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
@@ -42,7 +43,8 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 
   try {
     // Initialize services
-    const youtubeService = createYouTubeService(config.youtubeApiKey);
+    const groqWhisper = config.groqApiKey ? createGroqWhisperService(config.groqApiKey) : undefined;
+    const youtubeService = createYouTubeService(config.youtubeApiKey, groqWhisper);
     const aiService = createAIService({
       geminiApiKey: config.geminiApiKey,
       primaryModel: config.geminiModel,
@@ -51,6 +53,13 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
     });
     const contentWriter = createContentWriterService(config.outputDir);
     const processingLog = createProcessingLogService();
+
+    // Log Groq Whisper status
+    if (groqWhisper) {
+      logger.info('Groq Whisper fallback enabled for transcript recovery');
+    } else {
+      logger.debug('Groq Whisper fallback disabled (GROQ_API_KEY not set)');
+    }
 
     // Log available models for debugging
     const availableModels = aiService.getAvailableModels();

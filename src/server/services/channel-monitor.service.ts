@@ -4,6 +4,7 @@ import { loadChannelsConfig } from '~/server/utils/channels-config';
 import { logger } from '~/server/utils/logger';
 import { createRssService } from './rss.service';
 import { createYouTubeService } from './youtube.service';
+import { createGroqWhisperService } from './groq-whisper.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
@@ -32,7 +33,8 @@ export class ChannelMonitorService {
     this.appConfig = loadConfig();
     this.channelsConfig = loadChannelsConfig();
 
-    this.youtubeService = createYouTubeService(this.appConfig.youtubeApiKey);
+    const groqWhisper = this.appConfig.groqApiKey ? createGroqWhisperService(this.appConfig.groqApiKey) : undefined;
+    this.youtubeService = createYouTubeService(this.appConfig.youtubeApiKey, groqWhisper);
     this.aiService = createAIService({
       geminiApiKey: this.appConfig.geminiApiKey,
       primaryModel: this.appConfig.geminiModel,

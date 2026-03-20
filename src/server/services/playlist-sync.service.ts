@@ -10,6 +10,7 @@ import { loadPlaylistsConfig, getPlaylistSettings } from '~/server/utils/playlis
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { createYouTubeService } from './youtube.service';
+import { createGroqWhisperService } from './groq-whisper.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
 import { createProcessingLogService } from './processing-log.service';
@@ -61,7 +62,8 @@ export async function syncAllPlaylists(
   }
 
   // Initialize services
-  const youtubeService = createYouTubeService(appConfig.youtubeApiKey);
+  const groqWhisper = appConfig.groqApiKey ? createGroqWhisperService(appConfig.groqApiKey) : undefined;
+  const youtubeService = createYouTubeService(appConfig.youtubeApiKey, groqWhisper);
   const aiService = createAIService({
     geminiApiKey: appConfig.geminiApiKey,
     primaryModel: appConfig.geminiModel,
