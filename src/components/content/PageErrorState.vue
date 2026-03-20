@@ -19,13 +19,19 @@ const emit = defineEmits<{
 }>()
 
 const retryButton = useTemplateRef('retryButton')
+const errorContainer = useTemplateRef('errorContainer')
 onMounted(() => {
-  retryButton.value?.$el?.focus()
+  if (retryButton.value?.$el) {
+    retryButton.value.$el.focus()
+  } else {
+    // When not retryable, focus the error container so screen readers announce it
+    ;(errorContainer.value as HTMLElement | undefined)?.focus()
+  }
 })
 </script>
 
 <template>
-  <div class="text-center py-14 px-7" role="alert">
+  <div ref="errorContainer" class="text-center py-14 px-7" role="alert" tabindex="-1">
     <AlertCircle class="size-12 text-destructive mb-5 mx-auto" aria-hidden="true" />
     <p class="text-lg font-medium text-foreground mb-2.5">{{ message }}</p>
     <p v-if="hint" class="text-base text-muted-foreground mb-7">{{ hint }}</p>
