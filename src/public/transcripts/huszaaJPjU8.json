@@ -1,0 +1,2274 @@
+{
+  "videoId": "huszaaJPjU8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 5.68,
+      "text": "MIT basically solved unlimited context"
+    },
+    {
+      "start": 3.439,
+      "duration": 5.2,
+      "text": "windows and you can apply this to any"
+    },
+    {
+      "start": 5.92,
+      "duration": 4.639,
+      "text": "model. This is called recursive language"
+    },
+    {
+      "start": 8.639,
+      "duration": 3.601,
+      "text": "models and it's just another example of"
+    },
+    {
+      "start": 10.559,
+      "duration": 3.681,
+      "text": "how scaffolding building out"
+    },
+    {
+      "start": 12.24,
+      "duration": 5.039,
+      "text": "infrastructure around the core"
+    },
+    {
+      "start": 14.24,
+      "duration": 5.039,
+      "text": "intelligence of the model still has so"
+    },
+    {
+      "start": 17.279,
+      "duration": 3.84,
+      "text": "much room to grow. Let me tell you about"
+    },
+    {
+      "start": 19.279,
+      "duration": 3.92,
+      "text": "this paper because it is kind of"
+    },
+    {
+      "start": 21.119,
+      "duration": 4.32,
+      "text": "incredible. We study allowing large"
+    },
+    {
+      "start": 23.199,
+      "duration": 4.32,
+      "text": "language models to process arbitrarily"
+    },
+    {
+      "start": 25.439,
+      "duration": 4,
+      "text": "long prompts through the lens of"
+    },
+    {
+      "start": 27.519,
+      "duration": 3.52,
+      "text": "inference time scaling. And let me just"
+    },
+    {
+      "start": 29.439,
+      "duration": 3.441,
+      "text": "show you the highle results and then I'm"
+    },
+    {
+      "start": 31.039,
+      "duration": 3.841,
+      "text": "going to give you all of the details. So"
+    },
+    {
+      "start": 32.88,
+      "duration": 4.32,
+      "text": "over here what you're seeing is GPT5 and"
+    },
+    {
+      "start": 34.88,
+      "duration": 4.24,
+      "text": "it's not using the technique. And what"
+    },
+    {
+      "start": 37.2,
+      "duration": 4.08,
+      "text": "you see is that for needle in the"
+    },
+    {
+      "start": 39.12,
+      "duration": 5.759,
+      "text": "haststack it works really well. But then"
+    },
+    {
+      "start": 41.28,
+      "duration": 6.88,
+      "text": "for ulong and oolong pairs it rapidly"
+    },
+    {
+      "start": 44.879,
+      "duration": 6.561,
+      "text": "declines in quality as the context"
+    },
+    {
+      "start": 48.16,
+      "duration": 6.399,
+      "text": "length increases and basically goes to"
+    },
+    {
+      "start": 51.44,
+      "duration": 6.08,
+      "text": "zero right around 262k."
+    },
+    {
+      "start": 54.559,
+      "duration": 6.16,
+      "text": "However, with our new recursive language"
+    },
+    {
+      "start": 57.52,
+      "duration": 5.92,
+      "text": "model strategy, we can see the quality"
+    },
+    {
+      "start": 60.719,
+      "duration": 5.44,
+      "text": "stays pretty consistent over time, even"
+    },
+    {
+      "start": 63.44,
+      "duration": 4.719,
+      "text": "up to 1 million tokens. And when I tell"
+    },
+    {
+      "start": 66.159,
+      "duration": 3.681,
+      "text": "you the technique that they discovered,"
+    },
+    {
+      "start": 68.159,
+      "duration": 3.28,
+      "text": "it's going to be so obvious and you're"
+    },
+    {
+      "start": 69.84,
+      "duration": 3.44,
+      "text": "going to ask yourself, okay, how did we"
+    },
+    {
+      "start": 71.439,
+      "duration": 3.441,
+      "text": "not think of this before? All right,"
+    },
+    {
+      "start": 73.28,
+      "duration": 3.44,
+      "text": "let's take a step back for a moment."
+    },
+    {
+      "start": 74.88,
+      "duration": 4.16,
+      "text": "Modern language models have this thing"
+    },
+    {
+      "start": 76.72,
+      "duration": 4.32,
+      "text": "called a context window. When you submit"
+    },
+    {
+      "start": 79.04,
+      "duration": 5.04,
+      "text": "a prompt, you can't just put anything"
+    },
+    {
+      "start": 81.04,
+      "duration": 5.52,
+      "text": "and everything into it. There is a limit"
+    },
+    {
+      "start": 84.08,
+      "duration": 4.64,
+      "text": "on the input size. That is called the"
+    },
+    {
+      "start": 86.56,
+      "duration": 3.84,
+      "text": "context window. And what typically"
+    },
+    {
+      "start": 88.72,
+      "duration": 4.079,
+      "text": "happens is the more information you put"
+    },
+    {
+      "start": 90.4,
+      "duration": 5.52,
+      "text": "into that context window, the harder"
+    },
+    {
+      "start": 92.799,
+      "duration": 5.521,
+      "text": "time the model has finding things and"
+    },
+    {
+      "start": 95.92,
+      "duration": 4.4,
+      "text": "kind of making connections within that"
+    },
+    {
+      "start": 98.32,
+      "duration": 3.6,
+      "text": "context window within that prompt that"
+    },
+    {
+      "start": 100.32,
+      "duration": 5.2,
+      "text": "you just gave it. And this is called"
+    },
+    {
+      "start": 101.92,
+      "duration": 5.36,
+      "text": "context rot. And it's a big problem. And"
+    },
+    {
+      "start": 105.52,
+      "duration": 3.599,
+      "text": "going back up here, that's basically"
+    },
+    {
+      "start": 107.28,
+      "duration": 3.519,
+      "text": "what we're seeing. And I'm going to"
+    },
+    {
+      "start": 109.119,
+      "duration": 3.921,
+      "text": "explain what needle in the haststack is."
+    },
+    {
+      "start": 110.799,
+      "duration": 4.64,
+      "text": "I'm going to explain what ulong is. Just"
+    },
+    {
+      "start": 113.04,
+      "duration": 5.28,
+      "text": "stick with me. And so these MIT"
+    },
+    {
+      "start": 115.439,
+      "duration": 5.761,
+      "text": "researchers asked themselves, can we"
+    },
+    {
+      "start": 118.32,
+      "duration": 5.68,
+      "text": "drastically increase the size of the"
+    },
+    {
+      "start": 121.2,
+      "duration": 5.04,
+      "text": "context window without actually changing"
+    },
+    {
+      "start": 124,
+      "duration": 4.8,
+      "text": "the core model? Can we make the context"
+    },
+    {
+      "start": 126.24,
+      "duration": 4.88,
+      "text": "window a million tokens? What about 10"
+    },
+    {
+      "start": 128.8,
+      "duration": 5.6,
+      "text": "million? This is going to be especially"
+    },
+    {
+      "start": 131.12,
+      "duration": 6.24,
+      "text": "important for long horizon tasks, for"
+    },
+    {
+      "start": 134.4,
+      "duration": 6.24,
+      "text": "searching over millions of documents,"
+    },
+    {
+      "start": 137.36,
+      "duration": 6.4,
+      "text": "for giant code bases. Having a large"
+    },
+    {
+      "start": 140.64,
+      "duration": 5.599,
+      "text": "context window is incredibly important."
+    },
+    {
+      "start": 143.76,
+      "duration": 4.4,
+      "text": "Now, one general and increasingly"
+    },
+    {
+      "start": 146.239,
+      "duration": 4.241,
+      "text": "popular inference time approach in this"
+    },
+    {
+      "start": 148.16,
+      "duration": 4.799,
+      "text": "space is context condensation or"
+    },
+    {
+      "start": 150.48,
+      "duration": 4.88,
+      "text": "compaction. Basically, what a lot of"
+    },
+    {
+      "start": 152.959,
+      "duration": 5.041,
+      "text": "model providers and a lot of service"
+    },
+    {
+      "start": 155.36,
+      "duration": 4.879,
+      "text": "providers do is they look at the context"
+    },
+    {
+      "start": 158,
+      "duration": 5.12,
+      "text": "window and once it starts to reach the"
+    },
+    {
+      "start": 160.239,
+      "duration": 5.041,
+      "text": "limit of what the context window can be,"
+    },
+    {
+      "start": 163.12,
+      "duration": 4.72,
+      "text": "they start to compact it. They basically"
+    },
+    {
+      "start": 165.28,
+      "duration": 5.84,
+      "text": "use an LLM to summarize what's in the"
+    },
+    {
+      "start": 167.84,
+      "duration": 6.399,
+      "text": "context window, shrink it down, but that"
+    },
+    {
+      "start": 171.12,
+      "duration": 5.199,
+      "text": "is lossy. Every time you're doing that,"
+    },
+    {
+      "start": 174.239,
+      "duration": 5.201,
+      "text": "you're essentially compressing the"
+    },
+    {
+      "start": 176.319,
+      "duration": 5.121,
+      "text": "information and losing bits of quality."
+    },
+    {
+      "start": 179.44,
+      "duration": 3.519,
+      "text": "Sometimes that doesn't matter. It's"
+    },
+    {
+      "start": 181.44,
+      "duration": 4.079,
+      "text": "totally fine to lose a little bit of"
+    },
+    {
+      "start": 182.959,
+      "duration": 5.28,
+      "text": "quality here and there, but oftent times"
+    },
+    {
+      "start": 185.519,
+      "duration": 4.8,
+      "text": "it very much does matter. And so the"
+    },
+    {
+      "start": 188.239,
+      "duration": 4.72,
+      "text": "technique of using compaction or"
+    },
+    {
+      "start": 190.319,
+      "duration": 4.081,
+      "text": "compression isn't perfect. It's far from"
+    },
+    {
+      "start": 192.959,
+      "duration": 3.36,
+      "text": "perfect, but that is what a lot of"
+    },
+    {
+      "start": 194.4,
+      "duration": 4,
+      "text": "companies are doing today. So, imagine"
+    },
+    {
+      "start": 196.319,
+      "duration": 4.56,
+      "text": "you have this really long story and then"
+    },
+    {
+      "start": 198.4,
+      "duration": 5.28,
+      "text": "you summarize it and then you summarize"
+    },
+    {
+      "start": 200.879,
+      "duration": 5.36,
+      "text": "the summary and then you do that again"
+    },
+    {
+      "start": 203.68,
+      "duration": 4.4,
+      "text": "and again. Eventually, you're just going"
+    },
+    {
+      "start": 206.239,
+      "duration": 3.761,
+      "text": "to lose details and you're not going to"
+    },
+    {
+      "start": 208.08,
+      "duration": 3.84,
+      "text": "have the full story anymore."
+    },
+    {
+      "start": 210,
+      "duration": 3.599,
+      "text": "Essentially, that's what happens with"
+    },
+    {
+      "start": 211.92,
+      "duration": 3.28,
+      "text": "compaction. And now, let me tell you"
+    },
+    {
+      "start": 213.599,
+      "duration": 4,
+      "text": "what they're proposing because it is so"
+    },
+    {
+      "start": 215.2,
+      "duration": 4.08,
+      "text": "obvious in retrospect. So effectively"
+    },
+    {
+      "start": 217.599,
+      "duration": 4.161,
+      "text": "what they're doing is they're creating"
+    },
+    {
+      "start": 219.28,
+      "duration": 4.72,
+      "text": "an environment code and they're putting"
+    },
+    {
+      "start": 221.76,
+      "duration": 4.559,
+      "text": "a giant prompt bigger than what is"
+    },
+    {
+      "start": 224,
+      "duration": 6.159,
+      "text": "allowed in the physical context limit of"
+    },
+    {
+      "start": 226.319,
+      "duration": 5.681,
+      "text": "the model into a file like a text file"
+    },
+    {
+      "start": 230.159,
+      "duration": 4.401,
+      "text": "and then they give the model tools to go"
+    },
+    {
+      "start": 232,
+      "duration": 6,
+      "text": "search through that prompt. And if this"
+    },
+    {
+      "start": 234.56,
+      "duration": 5.679,
+      "text": "sounds like rag, it kind of is, but it's"
+    },
+    {
+      "start": 238,
+      "duration": 4,
+      "text": "within an environment. So let me just"
+    },
+    {
+      "start": 240.239,
+      "duration": 3.521,
+      "text": "walk you through it. We have this"
+    },
+    {
+      "start": 242,
+      "duration": 3.84,
+      "text": "language model sitting on the outside."
+    },
+    {
+      "start": 243.76,
+      "duration": 4.96,
+      "text": "We have a recursive language model"
+    },
+    {
+      "start": 245.84,
+      "duration": 5.679,
+      "text": "framework. Then we have a Python"
+    },
+    {
+      "start": 248.72,
+      "duration": 5.76,
+      "text": "environment. In the Python environment,"
+    },
+    {
+      "start": 251.519,
+      "duration": 6,
+      "text": "we save the prompt as a variable. And"
+    },
+    {
+      "start": 254.48,
+      "duration": 5.36,
+      "text": "then we give the model tools to search"
+    },
+    {
+      "start": 257.519,
+      "duration": 4.081,
+      "text": "through that massive prompt. And that's"
+    },
+    {
+      "start": 259.84,
+      "duration": 3.84,
+      "text": "what you're seeing here. So part one,"
+    },
+    {
+      "start": 261.6,
+      "duration": 4.08,
+      "text": "part two, split it up. We can have"
+    },
+    {
+      "start": 263.68,
+      "duration": 4.72,
+      "text": "different queries and then we have the"
+    },
+    {
+      "start": 265.68,
+      "duration": 4.64,
+      "text": "final answer. But over here is where the"
+    },
+    {
+      "start": 268.4,
+      "duration": 4.4,
+      "text": "true magic happens. This is where the"
+    },
+    {
+      "start": 270.32,
+      "duration": 4.64,
+      "text": "recursive piece happens. When the model"
+    },
+    {
+      "start": 272.8,
+      "duration": 4.88,
+      "text": "finds a piece of the context that it"
+    },
+    {
+      "start": 274.96,
+      "duration": 5.76,
+      "text": "thinks is relevant, it can actually do a"
+    },
+    {
+      "start": 277.68,
+      "duration": 6.32,
+      "text": "query again on it and go deeper and"
+    },
+    {
+      "start": 280.72,
+      "duration": 5.36,
+      "text": "deeper. And so it takes the let's say 10"
+    },
+    {
+      "start": 284,
+      "duration": 4.88,
+      "text": "million token context, the 10 million"
+    },
+    {
+      "start": 286.08,
+      "duration": 5.28,
+      "text": "token prompt, and continues to just look"
+    },
+    {
+      "start": 288.88,
+      "duration": 4.56,
+      "text": "through it and go deep into certain"
+    },
+    {
+      "start": 291.36,
+      "duration": 3.92,
+      "text": "sections and then come back out and use"
+    },
+    {
+      "start": 293.44,
+      "duration": 3.6,
+      "text": "what it found in that section and"
+    },
+    {
+      "start": 295.28,
+      "duration": 4.8,
+      "text": "combine that with things it found in"
+    },
+    {
+      "start": 297.04,
+      "duration": 5.599,
+      "text": "other sections. And thus it's able to"
+    },
+    {
+      "start": 300.08,
+      "duration": 4.72,
+      "text": "basically have an infinite context"
+    },
+    {
+      "start": 302.639,
+      "duration": 4.4,
+      "text": "window. So here we have an incredibly"
+    },
+    {
+      "start": 304.8,
+      "duration": 4,
+      "text": "long story and the prompt is you're"
+    },
+    {
+      "start": 307.039,
+      "duration": 4.081,
+      "text": "reading an extremely long book. Can you"
+    },
+    {
+      "start": 308.8,
+      "duration": 4.88,
+      "text": "list out all which items that were made"
+    },
+    {
+      "start": 311.12,
+      "duration": 5.28,
+      "text": "before the great catastrophe? Then the"
+    },
+    {
+      "start": 313.68,
+      "duration": 4.799,
+      "text": "entire story is placed in the prompt and"
+    },
+    {
+      "start": 316.4,
+      "duration": 4.079,
+      "text": "it starts to query against it. And then"
+    },
+    {
+      "start": 318.479,
+      "duration": 4.72,
+      "text": "over here when it goes into its"
+    },
+    {
+      "start": 320.479,
+      "duration": 5.601,
+      "text": "recursive search in chapter 1, find all"
+    },
+    {
+      "start": 323.199,
+      "duration": 5.041,
+      "text": "items. Then once it found all items, it"
+    },
+    {
+      "start": 326.08,
+      "duration": 4.32,
+      "text": "goes even deeper. look for the items in"
+    },
+    {
+      "start": 328.24,
+      "duration": 4.56,
+      "text": "these sections that explicitly say they"
+    },
+    {
+      "start": 330.4,
+      "duration": 4.799,
+      "text": "were found and so on. And so it can find"
+    },
+    {
+      "start": 332.8,
+      "duration": 4.48,
+      "text": "every single detail and there's no"
+    },
+    {
+      "start": 335.199,
+      "duration": 4.961,
+      "text": "summarization necessary. There's no"
+    },
+    {
+      "start": 337.28,
+      "duration": 5.68,
+      "text": "compression of the context necessary."
+    },
+    {
+      "start": 340.16,
+      "duration": 4.96,
+      "text": "And so the key insight is that long"
+    },
+    {
+      "start": 342.96,
+      "duration": 4.959,
+      "text": "prompts should not be fed into the"
+    },
+    {
+      "start": 345.12,
+      "duration": 5.2,
+      "text": "neural network. And I'm seeing more and"
+    },
+    {
+      "start": 347.919,
+      "duration": 4.321,
+      "text": "more of this where the neural network,"
+    },
+    {
+      "start": 350.32,
+      "duration": 4.24,
+      "text": "the actual weights of the model, the"
+    },
+    {
+      "start": 352.24,
+      "duration": 4.88,
+      "text": "core intelligence of the model is being"
+    },
+    {
+      "start": 354.56,
+      "duration": 4.639,
+      "text": "treated almost independently and more"
+    },
+    {
+      "start": 357.12,
+      "duration": 5.2,
+      "text": "and more scaffolding is being built"
+    },
+    {
+      "start": 359.199,
+      "duration": 5.521,
+      "text": "around that core intelligence, allowing"
+    },
+    {
+      "start": 362.32,
+      "duration": 5.28,
+      "text": "it to have better memory, more effective"
+    },
+    {
+      "start": 364.72,
+      "duration": 5.36,
+      "text": "memory, allowing it to use tools. All of"
+    },
+    {
+      "start": 367.6,
+      "duration": 4.879,
+      "text": "these things are being built around the"
+    },
+    {
+      "start": 370.08,
+      "duration": 5.2,
+      "text": "model. And I've been saying for a while,"
+    },
+    {
+      "start": 372.479,
+      "duration": 5.681,
+      "text": "these models are so good. They are"
+    },
+    {
+      "start": 375.28,
+      "duration": 5.12,
+      "text": "intelligent enough for 99.9%"
+    },
+    {
+      "start": 378.16,
+      "duration": 5.52,
+      "text": "of use cases. And what we need to be"
+    },
+    {
+      "start": 380.4,
+      "duration": 5.76,
+      "text": "doing as developers is building out more"
+    },
+    {
+      "start": 383.68,
+      "duration": 4.56,
+      "text": "tools, more scaffolding, allowing these"
+    },
+    {
+      "start": 386.16,
+      "duration": 4,
+      "text": "models to do more with the intelligence"
+    },
+    {
+      "start": 388.24,
+      "duration": 3.519,
+      "text": "that they already have. And by the way,"
+    },
+    {
+      "start": 390.16,
+      "duration": 3.36,
+      "text": "if you want to try out some of these"
+    },
+    {
+      "start": 391.759,
+      "duration": 3.521,
+      "text": "techniques and then automate the rest of"
+    },
+    {
+      "start": 393.52,
+      "duration": 3.679,
+      "text": "your workflow, you can do so on the"
+    },
+    {
+      "start": 395.28,
+      "duration": 3.52,
+      "text": "sponsor of today's video. Super excited"
+    },
+    {
+      "start": 397.199,
+      "duration": 3.44,
+      "text": "to tell you about Zapier. Again, they've"
+    },
+    {
+      "start": 398.8,
+      "duration": 4.72,
+      "text": "been a fantastic partner. I've literally"
+    },
+    {
+      "start": 400.639,
+      "duration": 4.56,
+      "text": "been using Zapier for over 10 years at"
+    },
+    {
+      "start": 403.52,
+      "duration": 3.6,
+      "text": "this business and my previous"
+    },
+    {
+      "start": 405.199,
+      "duration": 4.081,
+      "text": "businesses. And today, let me tell you"
+    },
+    {
+      "start": 407.12,
+      "duration": 4.72,
+      "text": "all about Zapier agents. Imagine a"
+    },
+    {
+      "start": 409.28,
+      "duration": 4.479,
+      "text": "superpowered agent that is connected to"
+    },
+    {
+      "start": 411.84,
+      "duration": 4.24,
+      "text": "every single tool you could possibly"
+    },
+    {
+      "start": 413.759,
+      "duration": 4.88,
+      "text": "imagine. Zapier has been building out"
+    },
+    {
+      "start": 416.08,
+      "duration": 4.72,
+      "text": "automation of workflows forever. And now"
+    },
+    {
+      "start": 418.639,
+      "duration": 5.84,
+      "text": "they took their extremely large library"
+    },
+    {
+      "start": 420.8,
+      "duration": 5.28,
+      "text": "of over 7,000 different tools and allow"
+    },
+    {
+      "start": 424.479,
+      "duration": 3.601,
+      "text": "agents to plug right into them,"
+    },
+    {
+      "start": 426.08,
+      "duration": 3.6,
+      "text": "specifically Zapier agents. and they"
+    },
+    {
+      "start": 428.08,
+      "duration": 4.16,
+      "text": "have a very tight integration with"
+    },
+    {
+      "start": 429.68,
+      "duration": 4.48,
+      "text": "Claude via MCP that has only gotten"
+    },
+    {
+      "start": 432.24,
+      "duration": 4.56,
+      "text": "better since they launched it recently."
+    },
+    {
+      "start": 434.16,
+      "duration": 5.12,
+      "text": "Honestly, half my business is currently"
+    },
+    {
+      "start": 436.8,
+      "duration": 4.959,
+      "text": "running on Zapier. So, if you want the"
+    },
+    {
+      "start": 439.28,
+      "duration": 5.28,
+      "text": "easiest AI orchestration, check out"
+    },
+    {
+      "start": 441.759,
+      "duration": 5.44,
+      "text": "Zapier and use Zapier agents. I'm going"
+    },
+    {
+      "start": 444.56,
+      "duration": 4.639,
+      "text": "to drop links down below to everything."
+    },
+    {
+      "start": 447.199,
+      "duration": 4,
+      "text": "They've been a fantastic partner and I"
+    },
+    {
+      "start": 449.199,
+      "duration": 3.84,
+      "text": "am just such a big fan of their"
+    },
+    {
+      "start": 451.199,
+      "duration": 4.56,
+      "text": "platform. Thanks again to Zapier. Now,"
+    },
+    {
+      "start": 453.039,
+      "duration": 4.481,
+      "text": "back to the video. and so instead should"
+    },
+    {
+      "start": 455.759,
+      "duration": 4.641,
+      "text": "be treated as part of the environment"
+    },
+    {
+      "start": 457.52,
+      "duration": 4.799,
+      "text": "that the LLM can symbolically interact"
+    },
+    {
+      "start": 460.4,
+      "duration": 3.6,
+      "text": "with. All right, so how did they"
+    },
+    {
+      "start": 462.319,
+      "duration": 3.28,
+      "text": "actually test this? We talked about"
+    },
+    {
+      "start": 464,
+      "duration": 4.16,
+      "text": "needle in the haststack. Shout out to"
+    },
+    {
+      "start": 465.599,
+      "duration": 4.88,
+      "text": "Greg Cameron who invented it, but there"
+    },
+    {
+      "start": 468.16,
+      "duration": 5.52,
+      "text": "are other tests. Needle in the haststack"
+    },
+    {
+      "start": 470.479,
+      "duration": 5.521,
+      "text": "is pretty much solved by all modern"
+    },
+    {
+      "start": 473.68,
+      "duration": 5.199,
+      "text": "models. If we scroll back up here, you"
+    },
+    {
+      "start": 476,
+      "duration": 5.039,
+      "text": "can see GPT5. So this is needle in the"
+    },
+    {
+      "start": 478.879,
+      "duration": 5.04,
+      "text": "haststack. And as you see the quality,"
+    },
+    {
+      "start": 481.039,
+      "duration": 5.041,
+      "text": "the percentage stays consistent through"
+    },
+    {
+      "start": 483.919,
+      "duration": 4.4,
+      "text": "the end of the context window, the"
+    },
+    {
+      "start": 486.08,
+      "duration": 4.399,
+      "text": "physical context window. So needle in"
+    },
+    {
+      "start": 488.319,
+      "duration": 4.56,
+      "text": "haststack more or less solved. But some"
+    },
+    {
+      "start": 490.479,
+      "duration": 4.321,
+      "text": "of these harder tests have not been. So"
+    },
+    {
+      "start": 492.879,
+      "duration": 4.241,
+      "text": "they tested it against four main use"
+    },
+    {
+      "start": 494.8,
+      "duration": 4.399,
+      "text": "cases. Deep research, information"
+    },
+    {
+      "start": 497.12,
+      "duration": 4.32,
+      "text": "aggregation, code repository"
+    },
+    {
+      "start": 499.199,
+      "duration": 5.28,
+      "text": "understanding, and synthetic pair-wise"
+    },
+    {
+      "start": 501.44,
+      "duration": 6.8,
+      "text": "reasoning tasks. And for that last one,"
+    },
+    {
+      "start": 504.479,
+      "duration": 6.56,
+      "text": "even frontier models fail very badly on"
+    },
+    {
+      "start": 508.24,
+      "duration": 5.279,
+      "text": "those tasks. We find that RLMs"
+    },
+    {
+      "start": 511.039,
+      "duration": 5.92,
+      "text": "demonstrate extremely strong performance"
+    },
+    {
+      "start": 513.519,
+      "duration": 6,
+      "text": "even at the 10 million plus token scale,"
+    },
+    {
+      "start": 516.959,
+      "duration": 5.44,
+      "text": "dramatically outperforming all other"
+    },
+    {
+      "start": 519.519,
+      "duration": 4.64,
+      "text": "approaches at long context processing in"
+    },
+    {
+      "start": 522.399,
+      "duration": 3.841,
+      "text": "most cases by double-digit percentage"
+    },
+    {
+      "start": 524.159,
+      "duration": 4.721,
+      "text": "gains while maintaining a comparable or"
+    },
+    {
+      "start": 526.24,
+      "duration": 4.8,
+      "text": "lower cost. So, it's not only that you"
+    },
+    {
+      "start": 528.88,
+      "duration": 4.399,
+      "text": "get this massive window. It's not only"
+    },
+    {
+      "start": 531.04,
+      "duration": 4.64,
+      "text": "that you get incredible quality, but"
+    },
+    {
+      "start": 533.279,
+      "duration": 5.281,
+      "text": "it's actually less expensive because"
+    },
+    {
+      "start": 535.68,
+      "duration": 4,
+      "text": "you're not using more tokens most of the"
+    },
+    {
+      "start": 538.56,
+      "duration": 3.279,
+      "text": "time. I'm going to give you the"
+    },
+    {
+      "start": 539.68,
+      "duration": 3.68,
+      "text": "exception there in a moment because all"
+    },
+    {
+      "start": 541.839,
+      "duration": 3.041,
+      "text": "of this stuff is being done with. So,"
+    },
+    {
+      "start": 543.36,
+      "duration": 4.4,
+      "text": "the model just has to write a little bit"
+    },
+    {
+      "start": 544.88,
+      "duration": 5.04,
+      "text": "of code to go into the context window,"
+    },
+    {
+      "start": 547.76,
+      "duration": 3.92,
+      "text": "which is stored in plain text, and"
+    },
+    {
+      "start": 549.92,
+      "duration": 4.64,
+      "text": "search through it. So, it's not like"
+    },
+    {
+      "start": 551.68,
+      "duration": 5.52,
+      "text": "it's having to load the entire context"
+    },
+    {
+      "start": 554.56,
+      "duration": 5.12,
+      "text": "into itself every single time. And"
+    },
+    {
+      "start": 557.2,
+      "duration": 4.16,
+      "text": "that's where the expense comes from"
+    },
+    {
+      "start": 559.68,
+      "duration": 3.68,
+      "text": "usually. All right. So, let me talk"
+    },
+    {
+      "start": 561.36,
+      "duration": 3.68,
+      "text": "about the actual tests. We we talked"
+    },
+    {
+      "start": 563.36,
+      "duration": 3.12,
+      "text": "about needle and hastack multiple times."
+    },
+    {
+      "start": 565.04,
+      "duration": 2.72,
+      "text": "I'm going to explain what that is, but"
+    },
+    {
+      "start": 566.48,
+      "duration": 3.76,
+      "text": "let me actually just give you a little"
+    },
+    {
+      "start": 567.76,
+      "duration": 4.639,
+      "text": "brief on these tests. The effective"
+    },
+    {
+      "start": 570.24,
+      "duration": 3.92,
+      "text": "context window of LLMs can often be much"
+    },
+    {
+      "start": 572.399,
+      "duration": 4.321,
+      "text": "shorter than a model's physical maximum"
+    },
+    {
+      "start": 574.16,
+      "duration": 5.92,
+      "text": "number of tokens. So, when you hear this"
+    },
+    {
+      "start": 576.72,
+      "duration": 6.4,
+      "text": "model can support 256k tokens, that is"
+    },
+    {
+      "start": 580.08,
+      "duration": 5.759,
+      "text": "the physical limit. But if you're doing"
+    },
+    {
+      "start": 583.12,
+      "duration": 4.8,
+      "text": "complex reasoning across the entire"
+    },
+    {
+      "start": 585.839,
+      "duration": 4.081,
+      "text": "context or you have a use case where you"
+    },
+    {
+      "start": 587.92,
+      "duration": 4.24,
+      "text": "need to compare some document at the end"
+    },
+    {
+      "start": 589.92,
+      "duration": 4.479,
+      "text": "to some other document in the middle,"
+    },
+    {
+      "start": 592.16,
+      "duration": 5.04,
+      "text": "they start to degrade really quickly."
+    },
+    {
+      "start": 594.399,
+      "duration": 5.521,
+      "text": "And so although it says 256K,"
+    },
+    {
+      "start": 597.2,
+      "duration": 5.6,
+      "text": "it's not really for a lot of use cases."
+    },
+    {
+      "start": 599.92,
+      "duration": 5.28,
+      "text": "And that's where RLMs really shine. All"
+    },
+    {
+      "start": 602.8,
+      "duration": 4.88,
+      "text": "right, so first single needle in a"
+    },
+    {
+      "start": 605.2,
+      "duration": 5.28,
+      "text": "haystack. Basically, you fill up the"
+    },
+    {
+      "start": 607.68,
+      "duration": 4.8,
+      "text": "context window with anything, a story, a"
+    },
+    {
+      "start": 610.48,
+      "duration": 4.08,
+      "text": "Harry Potter book, whatever it is, and"
+    },
+    {
+      "start": 612.48,
+      "duration": 4.799,
+      "text": "you put something in the middle of it,"
+    },
+    {
+      "start": 614.56,
+      "duration": 5.36,
+      "text": "some random string, and you say password"
+    },
+    {
+      "start": 617.279,
+      "duration": 4.56,
+      "text": "equals 1 2 3 4. Then you pass the entire"
+    },
+    {
+      "start": 619.92,
+      "duration": 4,
+      "text": "prompt into the context window, and you"
+    },
+    {
+      "start": 621.839,
+      "duration": 3.841,
+      "text": "say, \"Hey, what's the password?\" And it"
+    },
+    {
+      "start": 623.92,
+      "duration": 4.32,
+      "text": "has to go find it somewhere in there."
+    },
+    {
+      "start": 625.68,
+      "duration": 4.32,
+      "text": "Models have basically aced this. There's"
+    },
+    {
+      "start": 628.24,
+      "duration": 4.48,
+      "text": "not really a Frontier model that can't"
+    },
+    {
+      "start": 630,
+      "duration": 4.72,
+      "text": "get this perfect all the time. But then"
+    },
+    {
+      "start": 632.72,
+      "duration": 4.4,
+      "text": "we have more difficult ones like browse"
+    },
+    {
+      "start": 634.72,
+      "duration": 4.4,
+      "text": "comp plus and this is a multihop"
+    },
+    {
+      "start": 637.12,
+      "duration": 4,
+      "text": "question answering benchmark very"
+    },
+    {
+      "start": 639.12,
+      "duration": 3.76,
+      "text": "similar to deep research. You have to"
+    },
+    {
+      "start": 641.12,
+      "duration": 4.24,
+      "text": "load up a bunch of documents and you"
+    },
+    {
+      "start": 642.88,
+      "duration": 5.28,
+      "text": "have to answer questions that require"
+    },
+    {
+      "start": 645.36,
+      "duration": 6.56,
+      "text": "the model to look in different documents"
+    },
+    {
+      "start": 648.16,
+      "duration": 5.28,
+      "text": "throughout the entire context window. So"
+    },
+    {
+      "start": 651.92,
+      "duration": 4.08,
+      "text": "a little bit from the beginning, a"
+    },
+    {
+      "start": 653.44,
+      "duration": 4.959,
+      "text": "little bit from the end and so on. And"
+    },
+    {
+      "start": 656,
+      "duration": 5.279,
+      "text": "only if you have the right combination"
+    },
+    {
+      "start": 658.399,
+      "duration": 4.88,
+      "text": "of details from the different parts of"
+    },
+    {
+      "start": 661.279,
+      "duration": 4.56,
+      "text": "the context window will you get the"
+    },
+    {
+      "start": 663.279,
+      "duration": 4.641,
+      "text": "answer right. Then you have oolong."
+    },
+    {
+      "start": 665.839,
+      "duration": 3.841,
+      "text": "Ulong is a long reasoning benchmark that"
+    },
+    {
+      "start": 667.92,
+      "duration": 4.4,
+      "text": "requires examining and transforming"
+    },
+    {
+      "start": 669.68,
+      "duration": 4.64,
+      "text": "chunks of the input semantically then"
+    },
+    {
+      "start": 672.32,
+      "duration": 3.68,
+      "text": "aggregating these chunks to form a final"
+    },
+    {
+      "start": 674.32,
+      "duration": 4,
+      "text": "answer. And so you can kind of think of"
+    },
+    {
+      "start": 676,
+      "duration": 4.56,
+      "text": "this as a more sophisticated version of"
+    },
+    {
+      "start": 678.32,
+      "duration": 5.199,
+      "text": "browse comp. And then we have ulong"
+    },
+    {
+      "start": 680.56,
+      "duration": 5.44,
+      "text": "pairs which is an extension of oolong"
+    },
+    {
+      "start": 683.519,
+      "duration": 4.721,
+      "text": "specifically requiring aggregating pairs"
+    },
+    {
+      "start": 686,
+      "duration": 4.32,
+      "text": "of chunks to construct the final answer."
+    },
+    {
+      "start": 688.24,
+      "duration": 3.839,
+      "text": "Again just a more complex version of"
+    },
+    {
+      "start": 690.32,
+      "duration": 4.4,
+      "text": "oolong. And then finally we have"
+    },
+    {
+      "start": 692.079,
+      "duration": 5.121,
+      "text": "longbench v2 and this is for code"
+    },
+    {
+      "start": 694.72,
+      "duration": 5.76,
+      "text": "repository understanding. So you put in"
+    },
+    {
+      "start": 697.2,
+      "duration": 5.12,
+      "text": "a massive codebase and you ask questions"
+    },
+    {
+      "start": 700.48,
+      "duration": 4,
+      "text": "against it trying to understand what"
+    },
+    {
+      "start": 702.32,
+      "duration": 3.84,
+      "text": "different functions do and that requires"
+    },
+    {
+      "start": 704.48,
+      "duration": 3.359,
+      "text": "looking at a bunch of different places."
+    },
+    {
+      "start": 706.16,
+      "duration": 3.2,
+      "text": "If you're a developer you probably know"
+    },
+    {
+      "start": 707.839,
+      "duration": 3.12,
+      "text": "what I'm talking about. You look at a"
+    },
+    {
+      "start": 709.36,
+      "duration": 3.52,
+      "text": "method in one place and then you have to"
+    },
+    {
+      "start": 710.959,
+      "duration": 3.921,
+      "text": "trace calls that it's making in other"
+    },
+    {
+      "start": 712.88,
+      "duration": 3.84,
+      "text": "places in the code and it's very"
+    },
+    {
+      "start": 714.88,
+      "duration": 5.28,
+      "text": "difficult and it really requires an"
+    },
+    {
+      "start": 716.72,
+      "duration": 5.679,
+      "text": "understanding of the entire codebase all"
+    },
+    {
+      "start": 720.16,
+      "duration": 4.4,
+      "text": "at the same time. So they tested all of"
+    },
+    {
+      "start": 722.399,
+      "duration": 5.841,
+      "text": "this against two main models. We have"
+    },
+    {
+      "start": 724.56,
+      "duration": 6.8,
+      "text": "GPT5 with medium reasoning and they used"
+    },
+    {
+      "start": 728.24,
+      "duration": 6.48,
+      "text": "an open-source model with Quen 3 coder"
+    },
+    {
+      "start": 731.36,
+      "duration": 5.68,
+      "text": "480B with 35 billion active parameters"
+    },
+    {
+      "start": 734.72,
+      "duration": 4.48,
+      "text": "and they used four different approaches."
+    },
+    {
+      "start": 737.04,
+      "duration": 4.479,
+      "text": "They used recursive language model with"
+    },
+    {
+      "start": 739.2,
+      "duration": 5.04,
+      "text": "ripple. Ripple is that environment that"
+    },
+    {
+      "start": 741.519,
+      "duration": 5.44,
+      "text": "I mentioned. We have RLM with ripple"
+    },
+    {
+      "start": 744.24,
+      "duration": 4.96,
+      "text": "with no sub calls meaning it just did"
+    },
+    {
+      "start": 746.959,
+      "duration": 4,
+      "text": "one call and it didn't recursively go"
+    },
+    {
+      "start": 749.2,
+      "duration": 3.84,
+      "text": "through and try to find additional"
+    },
+    {
+      "start": 750.959,
+      "duration": 4.081,
+      "text": "information if it wanted to. Then we"
+    },
+    {
+      "start": 753.04,
+      "duration": 3.919,
+      "text": "have a summary agent which is kind of"
+    },
+    {
+      "start": 755.04,
+      "duration": 4.4,
+      "text": "the traditional method. And then"
+    },
+    {
+      "start": 756.959,
+      "duration": 4.721,
+      "text": "finally, code act, which is kind of"
+    },
+    {
+      "start": 759.44,
+      "duration": 4.72,
+      "text": "similar to RLM, except it doesn't"
+    },
+    {
+      "start": 761.68,
+      "duration": 4.88,
+      "text": "offload the prompt outside of the"
+    },
+    {
+      "start": 764.16,
+      "duration": 4.799,
+      "text": "context window, and it just provides it"
+    },
+    {
+      "start": 766.56,
+      "duration": 4.16,
+      "text": "directly to the language model. All"
+    },
+    {
+      "start": 768.959,
+      "duration": 3.44,
+      "text": "right, so let's talk about the results."
+    },
+    {
+      "start": 770.72,
+      "duration": 3.919,
+      "text": "They left off needle in a haststack"
+    },
+    {
+      "start": 772.399,
+      "duration": 4.481,
+      "text": "because it's basically solved. It's not"
+    },
+    {
+      "start": 774.639,
+      "duration": 4.721,
+      "text": "really a good comparison. But when we"
+    },
+    {
+      "start": 776.88,
+      "duration": 5.84,
+      "text": "look at code QA, browse comp, ulong,"
+    },
+    {
+      "start": 779.36,
+      "duration": 6.64,
+      "text": "ulong, pairs, we can see oftent times"
+    },
+    {
+      "start": 782.72,
+      "duration": 6.72,
+      "text": "RLM, even RLM with no sub calls did way"
+    },
+    {
+      "start": 786,
+      "duration": 7.44,
+      "text": "better than the other methods. And this"
+    },
+    {
+      "start": 789.44,
+      "duration": 6.48,
+      "text": "is Quen 3 coder and GPT5. Now RLM on"
+    },
+    {
+      "start": 793.44,
+      "duration": 4.56,
+      "text": "GPT5 across the board did much much"
+    },
+    {
+      "start": 795.92,
+      "duration": 4.56,
+      "text": "better. So they have a number of"
+    },
+    {
+      "start": 798,
+      "duration": 3.92,
+      "text": "observations from these tests. Let me"
+    },
+    {
+      "start": 800.48,
+      "duration": 4,
+      "text": "walk you through them. All right."
+    },
+    {
+      "start": 801.92,
+      "duration": 5.52,
+      "text": "Observation one. RLMs can scale to the"
+    },
+    {
+      "start": 804.48,
+      "duration": 5.039,
+      "text": "10 million plus token regime and can"
+    },
+    {
+      "start": 807.44,
+      "duration": 4.56,
+      "text": "outperform base language models and"
+    },
+    {
+      "start": 809.519,
+      "duration": 5.041,
+      "text": "existing task agnostic agent scaffolds"
+    },
+    {
+      "start": 812,
+      "duration": 4.16,
+      "text": "on long context tasks. But that's not"
+    },
+    {
+      "start": 814.56,
+      "duration": 4.88,
+      "text": "the most impressive part. Check this"
+    },
+    {
+      "start": 816.16,
+      "duration": 5.84,
+      "text": "out. The cost of GPT5 Mini ingesting 6"
+    },
+    {
+      "start": 819.44,
+      "duration": 6.24,
+      "text": "to 11 million input tokens is $150 to"
+    },
+    {
+      "start": 822,
+      "duration": 6.72,
+      "text": "275. While RLM GBT5 has an average cost"
+    },
+    {
+      "start": 825.68,
+      "duration": 5.04,
+      "text": "of 99 and outperforms both the"
+    },
+    {
+      "start": 828.72,
+      "duration": 6.16,
+      "text": "summarization and retrieval baselines by"
+    },
+    {
+      "start": 830.72,
+      "duration": 6.16,
+      "text": "over 29%. Cheaper and better. That's"
+    },
+    {
+      "start": 834.88,
+      "duration": 4,
+      "text": "really all you can ask for. Next"
+    },
+    {
+      "start": 836.88,
+      "duration": 4.48,
+      "text": "observation two, the ripple environment"
+    },
+    {
+      "start": 838.88,
+      "duration": 5.36,
+      "text": "is necessary for handling long inputs"
+    },
+    {
+      "start": 841.36,
+      "duration": 4.8,
+      "text": "while the recursive suballing of RLMs"
+    },
+    {
+      "start": 844.24,
+      "duration": 4.24,
+      "text": "provides strong benefits on information"
+    },
+    {
+      "start": 846.16,
+      "duration": 4.56,
+      "text": "dense inputs. And so just offloading the"
+    },
+    {
+      "start": 848.48,
+      "duration": 5.599,
+      "text": "long prompt outside of the context"
+    },
+    {
+      "start": 850.72,
+      "duration": 5.52,
+      "text": "window is good. But if you have really"
+    },
+    {
+      "start": 854.079,
+      "duration": 3.76,
+      "text": "complicated or sophisticated prompts"
+    },
+    {
+      "start": 856.24,
+      "duration": 3.599,
+      "text": "where you're going to need to touch on a"
+    },
+    {
+      "start": 857.839,
+      "duration": 5.201,
+      "text": "lot of different parts of it, having"
+    },
+    {
+      "start": 859.839,
+      "duration": 5.601,
+      "text": "that recursive element is just as"
+    },
+    {
+      "start": 863.04,
+      "duration": 4.159,
+      "text": "important. Observation three, language"
+    },
+    {
+      "start": 865.44,
+      "duration": 4.56,
+      "text": "model performance degrades as a function"
+    },
+    {
+      "start": 867.199,
+      "duration": 5.521,
+      "text": "of input length and problem complexity"
+    },
+    {
+      "start": 870,
+      "duration": 4.639,
+      "text": "while RLM performance scales better. And"
+    },
+    {
+      "start": 872.72,
+      "duration": 4,
+      "text": "this is really important. It's not just"
+    },
+    {
+      "start": 874.639,
+      "duration": 5.121,
+      "text": "the context length, but it's what you're"
+    },
+    {
+      "start": 876.72,
+      "duration": 6.08,
+      "text": "doing with that context. And without"
+    },
+    {
+      "start": 879.76,
+      "duration": 6,
+      "text": "RLM, models struggle as complexity"
+    },
+    {
+      "start": 882.8,
+      "duration": 5.279,
+      "text": "increases and as context windows"
+    },
+    {
+      "start": 885.76,
+      "duration": 4.56,
+      "text": "increase. But with RLM, it actually"
+    },
+    {
+      "start": 888.079,
+      "duration": 4.32,
+      "text": "scales really well. Observation four,"
+    },
+    {
+      "start": 890.32,
+      "duration": 4.4,
+      "text": "the inference cost of RLMs remain"
+    },
+    {
+      "start": 892.399,
+      "duration": 4.081,
+      "text": "comparable to a base model call. But,"
+    },
+    {
+      "start": 894.72,
+      "duration": 3.52,
+      "text": "and this is a big butt, our high"
+    },
+    {
+      "start": 896.48,
+      "duration": 3.599,
+      "text": "variance due to differences in"
+    },
+    {
+      "start": 898.24,
+      "duration": 3.68,
+      "text": "trajectory lengths. Meaning, if you're"
+    },
+    {
+      "start": 900.079,
+      "duration": 4.32,
+      "text": "giving the system the ability to do"
+    },
+    {
+      "start": 901.92,
+      "duration": 5.12,
+      "text": "recursive anything, you don't know how"
+    },
+    {
+      "start": 904.399,
+      "duration": 4.56,
+      "text": "far down into it it's going to go. And"
+    },
+    {
+      "start": 907.04,
+      "duration": 3.76,
+      "text": "so if it goes really deep, it's going to"
+    },
+    {
+      "start": 908.959,
+      "duration": 5.281,
+      "text": "be more expensive and it has these"
+    },
+    {
+      "start": 910.8,
+      "duration": 5.44,
+      "text": "spikes in cost. RLMs iteratively"
+    },
+    {
+      "start": 914.24,
+      "duration": 3.92,
+      "text": "interact with their context until they"
+    },
+    {
+      "start": 916.24,
+      "duration": 3.68,
+      "text": "find a suitable answer leading to large"
+    },
+    {
+      "start": 918.16,
+      "duration": 4.56,
+      "text": "differences in iteration length"
+    },
+    {
+      "start": 919.92,
+      "duration": 4.88,
+      "text": "depending on task complexity. However,"
+    },
+    {
+      "start": 922.72,
+      "duration": 5.119,
+      "text": "compared to the summarization baseline,"
+    },
+    {
+      "start": 924.8,
+      "duration": 5.279,
+      "text": "which ingests the entire input context,"
+    },
+    {
+      "start": 927.839,
+      "duration": 4.321,
+      "text": "RLMs are up to three times cheaper while"
+    },
+    {
+      "start": 930.079,
+      "duration": 4.32,
+      "text": "maintaining stronger performance across"
+    },
+    {
+      "start": 932.16,
+      "duration": 5.28,
+      "text": "all tasks because the model is able to"
+    },
+    {
+      "start": 934.399,
+      "duration": 5.12,
+      "text": "selectively view context. Observation"
+    },
+    {
+      "start": 937.44,
+      "duration": 4.399,
+      "text": "five, RLMs are a model agnostic"
+    },
+    {
+      "start": 939.519,
+      "duration": 4.401,
+      "text": "inference strategy, meaning you can plug"
+    },
+    {
+      "start": 941.839,
+      "duration": 4.881,
+      "text": "this into basically any model, which is"
+    },
+    {
+      "start": 943.92,
+      "duration": 4.64,
+      "text": "fantastic, but different models exhibit"
+    },
+    {
+      "start": 946.72,
+      "duration": 4.08,
+      "text": "different overall decisions on context"
+    },
+    {
+      "start": 948.56,
+      "duration": 3.519,
+      "text": "management and sub calling. Obviously,"
+    },
+    {
+      "start": 950.8,
+      "duration": 2.64,
+      "text": "every model's different. They have"
+    },
+    {
+      "start": 952.079,
+      "duration": 3.44,
+      "text": "different personalities. They have"
+    },
+    {
+      "start": 953.44,
+      "duration": 4,
+      "text": "different approaches to problems. They"
+    },
+    {
+      "start": 955.519,
+      "duration": 5.76,
+      "text": "have differences in how good they are at"
+    },
+    {
+      "start": 957.44,
+      "duration": 6.56,
+      "text": "coding. And those differences affect how"
+    },
+    {
+      "start": 961.279,
+      "duration": 5.761,
+      "text": "this system plays out. So on browse comp"
+    },
+    {
+      "start": 964,
+      "duration": 6,
+      "text": "plus in particular, RLM with GBT5 nearly"
+    },
+    {
+      "start": 967.04,
+      "duration": 4.96,
+      "text": "solves all tasks while RLM Quen 3 coder"
+    },
+    {
+      "start": 970,
+      "duration": 4.079,
+      "text": "struggles to solve half. So on the left"
+    },
+    {
+      "start": 972,
+      "duration": 4.079,
+      "text": "chart here you can see this GPT5 and you"
+    },
+    {
+      "start": 974.079,
+      "duration": 4.481,
+      "text": "can see the cost is quite low across the"
+    },
+    {
+      "start": 976.079,
+      "duration": 4.801,
+      "text": "board in the 25th percentile 50th"
+    },
+    {
+      "start": 978.56,
+      "duration": 4.16,
+      "text": "percentile 75th percentile and then all"
+    },
+    {
+      "start": 980.88,
+      "duration": 4.72,
+      "text": "of a sudden in the 95th percentile we"
+    },
+    {
+      "start": 982.72,
+      "duration": 5.76,
+      "text": "have a massive spike in cost for the"
+    },
+    {
+      "start": 985.6,
+      "duration": 5.679,
+      "text": "summary agent and the code act agent and"
+    },
+    {
+      "start": 988.48,
+      "duration": 4.88,
+      "text": "we do have a spike for the RLM agent"
+    },
+    {
+      "start": 991.279,
+      "duration": 4.24,
+      "text": "whereas the base model is very low but"
+    },
+    {
+      "start": 993.36,
+      "duration": 4.88,
+      "text": "keep in mind this is just costs it's not"
+    },
+    {
+      "start": 995.519,
+      "duration": 5.921,
+      "text": "factoring in quality so the base model"
+    },
+    {
+      "start": 998.24,
+      "duration": 4.719,
+      "text": "stays very low whereas the RL RLM"
+    },
+    {
+      "start": 1001.44,
+      "duration": 3.44,
+      "text": "approach even though it maintains"
+    },
+    {
+      "start": 1002.959,
+      "duration": 4.641,
+      "text": "quality at larger contexts and"
+    },
+    {
+      "start": 1004.88,
+      "duration": 5.04,
+      "text": "complexities starts to really spike in"
+    },
+    {
+      "start": 1007.6,
+      "duration": 4.799,
+      "text": "costs. Then over here we're seeing the"
+    },
+    {
+      "start": 1009.92,
+      "duration": 3.68,
+      "text": "same thing but with quen 3 coder. And so"
+    },
+    {
+      "start": 1012.399,
+      "duration": 3.041,
+      "text": "what does it actually look like? What"
+    },
+    {
+      "start": 1013.6,
+      "duration": 3.76,
+      "text": "does some of that code look like when"
+    },
+    {
+      "start": 1015.44,
+      "duration": 4.319,
+      "text": "it's actually trying to find information"
+    },
+    {
+      "start": 1017.36,
+      "duration": 4.479,
+      "text": "in that large prompt and it's trying to"
+    },
+    {
+      "start": 1019.759,
+      "duration": 3.52,
+      "text": "go recursive and look through it? Well,"
+    },
+    {
+      "start": 1021.839,
+      "duration": 4,
+      "text": "this is what it looks like. It's a lot"
+    },
+    {
+      "start": 1023.279,
+      "duration": 4.881,
+      "text": "of reax. Who would have thought? It's"
+    },
+    {
+      "start": 1025.839,
+      "duration": 4.401,
+      "text": "looking for specific patterns. Then it"
+    },
+    {
+      "start": 1028.16,
+      "duration": 4.32,
+      "text": "goes deep into it and it's just kind of"
+    },
+    {
+      "start": 1030.24,
+      "duration": 4.319,
+      "text": "standard reax that you probably have"
+    },
+    {
+      "start": 1032.48,
+      "duration": 4.88,
+      "text": "used in your development career. So I"
+    },
+    {
+      "start": 1034.559,
+      "duration": 5.681,
+      "text": "found this paper fascinating. I am so"
+    },
+    {
+      "start": 1037.36,
+      "duration": 4.64,
+      "text": "bullish on scaffolding. I really think"
+    },
+    {
+      "start": 1040.24,
+      "duration": 4.4,
+      "text": "that we're going to continue to find all"
+    },
+    {
+      "start": 1042,
+      "duration": 4,
+      "text": "of these incredible unlocks around the"
+    },
+    {
+      "start": 1044.64,
+      "duration": 3.199,
+      "text": "core intelligence of the model. The"
+    },
+    {
+      "start": 1046,
+      "duration": 4,
+      "text": "models are getting better in parallel,"
+    },
+    {
+      "start": 1047.839,
+      "duration": 4.641,
+      "text": "but I think there's even more headroom"
+    },
+    {
+      "start": 1050,
+      "duration": 4.48,
+      "text": "to figure out quality improvements from"
+    },
+    {
+      "start": 1052.48,
+      "duration": 4.96,
+      "text": "just building more tooling, more"
+    },
+    {
+      "start": 1054.48,
+      "duration": 4.8,
+      "text": "scaffolding, more harnesses around the"
+    },
+    {
+      "start": 1057.44,
+      "duration": 3.359,
+      "text": "model. Let me know what you think. If"
+    },
+    {
+      "start": 1059.28,
+      "duration": 4.72,
+      "text": "you enjoyed this video, please consider"
+    },
+    {
+      "start": 1060.799,
+      "duration": 3.201,
+      "text": "giving a like and subscribe."
+    }
+  ],
+  "fullText": "MIT basically solved unlimited context windows and you can apply this to any model. This is called recursive language models and it's just another example of how scaffolding building out infrastructure around the core intelligence of the model still has so much room to grow. Let me tell you about this paper because it is kind of incredible. We study allowing large language models to process arbitrarily long prompts through the lens of inference time scaling. And let me just show you the highle results and then I'm going to give you all of the details. So over here what you're seeing is GPT5 and it's not using the technique. And what you see is that for needle in the haststack it works really well. But then for ulong and oolong pairs it rapidly declines in quality as the context length increases and basically goes to zero right around 262k. However, with our new recursive language model strategy, we can see the quality stays pretty consistent over time, even up to 1 million tokens. And when I tell you the technique that they discovered, it's going to be so obvious and you're going to ask yourself, okay, how did we not think of this before? All right, let's take a step back for a moment. Modern language models have this thing called a context window. When you submit a prompt, you can't just put anything and everything into it. There is a limit on the input size. That is called the context window. And what typically happens is the more information you put into that context window, the harder time the model has finding things and kind of making connections within that context window within that prompt that you just gave it. And this is called context rot. And it's a big problem. And going back up here, that's basically what we're seeing. And I'm going to explain what needle in the haststack is. I'm going to explain what ulong is. Just stick with me. And so these MIT researchers asked themselves, can we drastically increase the size of the context window without actually changing the core model? Can we make the context window a million tokens? What about 10 million? This is going to be especially important for long horizon tasks, for searching over millions of documents, for giant code bases. Having a large context window is incredibly important. Now, one general and increasingly popular inference time approach in this space is context condensation or compaction. Basically, what a lot of model providers and a lot of service providers do is they look at the context window and once it starts to reach the limit of what the context window can be, they start to compact it. They basically use an LLM to summarize what's in the context window, shrink it down, but that is lossy. Every time you're doing that, you're essentially compressing the information and losing bits of quality. Sometimes that doesn't matter. It's totally fine to lose a little bit of quality here and there, but oftent times it very much does matter. And so the technique of using compaction or compression isn't perfect. It's far from perfect, but that is what a lot of companies are doing today. So, imagine you have this really long story and then you summarize it and then you summarize the summary and then you do that again and again. Eventually, you're just going to lose details and you're not going to have the full story anymore. Essentially, that's what happens with compaction. And now, let me tell you what they're proposing because it is so obvious in retrospect. So effectively what they're doing is they're creating an environment code and they're putting a giant prompt bigger than what is allowed in the physical context limit of the model into a file like a text file and then they give the model tools to go search through that prompt. And if this sounds like rag, it kind of is, but it's within an environment. So let me just walk you through it. We have this language model sitting on the outside. We have a recursive language model framework. Then we have a Python environment. In the Python environment, we save the prompt as a variable. And then we give the model tools to search through that massive prompt. And that's what you're seeing here. So part one, part two, split it up. We can have different queries and then we have the final answer. But over here is where the true magic happens. This is where the recursive piece happens. When the model finds a piece of the context that it thinks is relevant, it can actually do a query again on it and go deeper and deeper. And so it takes the let's say 10 million token context, the 10 million token prompt, and continues to just look through it and go deep into certain sections and then come back out and use what it found in that section and combine that with things it found in other sections. And thus it's able to basically have an infinite context window. So here we have an incredibly long story and the prompt is you're reading an extremely long book. Can you list out all which items that were made before the great catastrophe? Then the entire story is placed in the prompt and it starts to query against it. And then over here when it goes into its recursive search in chapter 1, find all items. Then once it found all items, it goes even deeper. look for the items in these sections that explicitly say they were found and so on. And so it can find every single detail and there's no summarization necessary. There's no compression of the context necessary. And so the key insight is that long prompts should not be fed into the neural network. And I'm seeing more and more of this where the neural network, the actual weights of the model, the core intelligence of the model is being treated almost independently and more and more scaffolding is being built around that core intelligence, allowing it to have better memory, more effective memory, allowing it to use tools. All of these things are being built around the model. And I've been saying for a while, these models are so good. They are intelligent enough for 99.9% of use cases. And what we need to be doing as developers is building out more tools, more scaffolding, allowing these models to do more with the intelligence that they already have. And by the way, if you want to try out some of these techniques and then automate the rest of your workflow, you can do so on the sponsor of today's video. Super excited to tell you about Zapier. Again, they've been a fantastic partner. I've literally been using Zapier for over 10 years at this business and my previous businesses. And today, let me tell you all about Zapier agents. Imagine a superpowered agent that is connected to every single tool you could possibly imagine. Zapier has been building out automation of workflows forever. And now they took their extremely large library of over 7,000 different tools and allow agents to plug right into them, specifically Zapier agents. and they have a very tight integration with Claude via MCP that has only gotten better since they launched it recently. Honestly, half my business is currently running on Zapier. So, if you want the easiest AI orchestration, check out Zapier and use Zapier agents. I'm going to drop links down below to everything. They've been a fantastic partner and I am just such a big fan of their platform. Thanks again to Zapier. Now, back to the video. and so instead should be treated as part of the environment that the LLM can symbolically interact with. All right, so how did they actually test this? We talked about needle in the haststack. Shout out to Greg Cameron who invented it, but there are other tests. Needle in the haststack is pretty much solved by all modern models. If we scroll back up here, you can see GPT5. So this is needle in the haststack. And as you see the quality, the percentage stays consistent through the end of the context window, the physical context window. So needle in haststack more or less solved. But some of these harder tests have not been. So they tested it against four main use cases. Deep research, information aggregation, code repository understanding, and synthetic pair-wise reasoning tasks. And for that last one, even frontier models fail very badly on those tasks. We find that RLMs demonstrate extremely strong performance even at the 10 million plus token scale, dramatically outperforming all other approaches at long context processing in most cases by double-digit percentage gains while maintaining a comparable or lower cost. So, it's not only that you get this massive window. It's not only that you get incredible quality, but it's actually less expensive because you're not using more tokens most of the time. I'm going to give you the exception there in a moment because all of this stuff is being done with. So, the model just has to write a little bit of code to go into the context window, which is stored in plain text, and search through it. So, it's not like it's having to load the entire context into itself every single time. And that's where the expense comes from usually. All right. So, let me talk about the actual tests. We we talked about needle and hastack multiple times. I'm going to explain what that is, but let me actually just give you a little brief on these tests. The effective context window of LLMs can often be much shorter than a model's physical maximum number of tokens. So, when you hear this model can support 256k tokens, that is the physical limit. But if you're doing complex reasoning across the entire context or you have a use case where you need to compare some document at the end to some other document in the middle, they start to degrade really quickly. And so although it says 256K, it's not really for a lot of use cases. And that's where RLMs really shine. All right, so first single needle in a haystack. Basically, you fill up the context window with anything, a story, a Harry Potter book, whatever it is, and you put something in the middle of it, some random string, and you say password equals 1 2 3 4. Then you pass the entire prompt into the context window, and you say, \"Hey, what's the password?\" And it has to go find it somewhere in there. Models have basically aced this. There's not really a Frontier model that can't get this perfect all the time. But then we have more difficult ones like browse comp plus and this is a multihop question answering benchmark very similar to deep research. You have to load up a bunch of documents and you have to answer questions that require the model to look in different documents throughout the entire context window. So a little bit from the beginning, a little bit from the end and so on. And only if you have the right combination of details from the different parts of the context window will you get the answer right. Then you have oolong. Ulong is a long reasoning benchmark that requires examining and transforming chunks of the input semantically then aggregating these chunks to form a final answer. And so you can kind of think of this as a more sophisticated version of browse comp. And then we have ulong pairs which is an extension of oolong specifically requiring aggregating pairs of chunks to construct the final answer. Again just a more complex version of oolong. And then finally we have longbench v2 and this is for code repository understanding. So you put in a massive codebase and you ask questions against it trying to understand what different functions do and that requires looking at a bunch of different places. If you're a developer you probably know what I'm talking about. You look at a method in one place and then you have to trace calls that it's making in other places in the code and it's very difficult and it really requires an understanding of the entire codebase all at the same time. So they tested all of this against two main models. We have GPT5 with medium reasoning and they used an open-source model with Quen 3 coder 480B with 35 billion active parameters and they used four different approaches. They used recursive language model with ripple. Ripple is that environment that I mentioned. We have RLM with ripple with no sub calls meaning it just did one call and it didn't recursively go through and try to find additional information if it wanted to. Then we have a summary agent which is kind of the traditional method. And then finally, code act, which is kind of similar to RLM, except it doesn't offload the prompt outside of the context window, and it just provides it directly to the language model. All right, so let's talk about the results. They left off needle in a haststack because it's basically solved. It's not really a good comparison. But when we look at code QA, browse comp, ulong, ulong, pairs, we can see oftent times RLM, even RLM with no sub calls did way better than the other methods. And this is Quen 3 coder and GPT5. Now RLM on GPT5 across the board did much much better. So they have a number of observations from these tests. Let me walk you through them. All right. Observation one. RLMs can scale to the 10 million plus token regime and can outperform base language models and existing task agnostic agent scaffolds on long context tasks. But that's not the most impressive part. Check this out. The cost of GPT5 Mini ingesting 6 to 11 million input tokens is $150 to 275. While RLM GBT5 has an average cost of 99 and outperforms both the summarization and retrieval baselines by over 29%. Cheaper and better. That's really all you can ask for. Next observation two, the ripple environment is necessary for handling long inputs while the recursive suballing of RLMs provides strong benefits on information dense inputs. And so just offloading the long prompt outside of the context window is good. But if you have really complicated or sophisticated prompts where you're going to need to touch on a lot of different parts of it, having that recursive element is just as important. Observation three, language model performance degrades as a function of input length and problem complexity while RLM performance scales better. And this is really important. It's not just the context length, but it's what you're doing with that context. And without RLM, models struggle as complexity increases and as context windows increase. But with RLM, it actually scales really well. Observation four, the inference cost of RLMs remain comparable to a base model call. But, and this is a big butt, our high variance due to differences in trajectory lengths. Meaning, if you're giving the system the ability to do recursive anything, you don't know how far down into it it's going to go. And so if it goes really deep, it's going to be more expensive and it has these spikes in cost. RLMs iteratively interact with their context until they find a suitable answer leading to large differences in iteration length depending on task complexity. However, compared to the summarization baseline, which ingests the entire input context, RLMs are up to three times cheaper while maintaining stronger performance across all tasks because the model is able to selectively view context. Observation five, RLMs are a model agnostic inference strategy, meaning you can plug this into basically any model, which is fantastic, but different models exhibit different overall decisions on context management and sub calling. Obviously, every model's different. They have different personalities. They have different approaches to problems. They have differences in how good they are at coding. And those differences affect how this system plays out. So on browse comp plus in particular, RLM with GBT5 nearly solves all tasks while RLM Quen 3 coder struggles to solve half. So on the left chart here you can see this GPT5 and you can see the cost is quite low across the board in the 25th percentile 50th percentile 75th percentile and then all of a sudden in the 95th percentile we have a massive spike in cost for the summary agent and the code act agent and we do have a spike for the RLM agent whereas the base model is very low but keep in mind this is just costs it's not factoring in quality so the base model stays very low whereas the RL RLM approach even though it maintains quality at larger contexts and complexities starts to really spike in costs. Then over here we're seeing the same thing but with quen 3 coder. And so what does it actually look like? What does some of that code look like when it's actually trying to find information in that large prompt and it's trying to go recursive and look through it? Well, this is what it looks like. It's a lot of reax. Who would have thought? It's looking for specific patterns. Then it goes deep into it and it's just kind of standard reax that you probably have used in your development career. So I found this paper fascinating. I am so bullish on scaffolding. I really think that we're going to continue to find all of these incredible unlocks around the core intelligence of the model. The models are getting better in parallel, but I think there's even more headroom to figure out quality improvements from just building more tooling, more scaffolding, more harnesses around the model. Let me know what you think. If you enjoyed this video, please consider giving a like and subscribe.",
+  "fetchedAt": "2026-01-18T18:33:50.847Z"
+}

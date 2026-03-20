@@ -1,0 +1,2779 @@
+{
+  "videoId": "Xs2CkHEpIrM",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 5.76,
+      "text": "I've been saying this for a while. There"
+    },
+    {
+      "start": 2.8,
+      "duration": 5.44,
+      "text": "is a massive problem with using MCP"
+    },
+    {
+      "start": 6,
+      "duration": 5.36,
+      "text": "servers right now, especially with"
+    },
+    {
+      "start": 8.24,
+      "duration": 6.319,
+      "text": "Claude Code or other coding agents, and"
+    },
+    {
+      "start": 11.36,
+      "duration": 5.28,
+      "text": "that is how much context they take up."
+    },
+    {
+      "start": 14.559,
+      "duration": 4.241,
+      "text": "This is what my Claude Codes context"
+    },
+    {
+      "start": 16.64,
+      "duration": 4.799,
+      "text": "window looks like when I'm connected to"
+    },
+    {
+      "start": 18.8,
+      "duration": 5.68,
+      "text": "these seven MCP servers, which I use on"
+    },
+    {
+      "start": 21.439,
+      "duration": 7.041,
+      "text": "a daily basis. Claude's context window,"
+    },
+    {
+      "start": 24.48,
+      "duration": 6,
+      "text": "as we know, has a 200,000 token limit."
+    },
+    {
+      "start": 28.48,
+      "duration": 4.88,
+      "text": "And if you look at this line here for"
+    },
+    {
+      "start": 30.48,
+      "duration": 5.759,
+      "text": "the MCP tools, you can see we have with"
+    },
+    {
+      "start": 33.36,
+      "duration": 8.16,
+      "text": "these seven servers taken up around"
+    },
+    {
+      "start": 36.239,
+      "duration": 8.881,
+      "text": "100,000 tokens or 50% of that context"
+    },
+    {
+      "start": 41.52,
+      "duration": 6.24,
+      "text": "window, which is insane. You can see"
+    },
+    {
+      "start": 45.12,
+      "duration": 6.48,
+      "text": "that visually over here by all of these"
+    },
+    {
+      "start": 47.76,
+      "duration": 6.56,
+      "text": "blue token stack icons taking up about"
+    },
+    {
+      "start": 51.6,
+      "duration": 4.639,
+      "text": "half of the graph. So, this is a real"
+    },
+    {
+      "start": 54.32,
+      "duration": 4.96,
+      "text": "problem because we obviously need to"
+    },
+    {
+      "start": 56.239,
+      "duration": 5.521,
+      "text": "give our agents access to all of these"
+    },
+    {
+      "start": 59.28,
+      "duration": 4.8,
+      "text": "really powerful tools, but doing it this"
+    },
+    {
+      "start": 61.76,
+      "duration": 5.12,
+      "text": "way just doesn't work well and it"
+    },
+    {
+      "start": 64.08,
+      "duration": 5.6,
+      "text": "definitely doesn't scale. If I added"
+    },
+    {
+      "start": 66.88,
+      "duration": 4.8,
+      "text": "just a couple of more MCP servers, I"
+    },
+    {
+      "start": 69.68,
+      "duration": 4.08,
+      "text": "would potentially just take up the"
+    },
+    {
+      "start": 71.68,
+      "duration": 4.72,
+      "text": "entire context window and not be able to"
+    },
+    {
+      "start": 73.76,
+      "duration": 6.32,
+      "text": "chat with Claude at all. I'm only left"
+    },
+    {
+      "start": 76.4,
+      "duration": 7.12,
+      "text": "with about 36,000 tokens of free space"
+    },
+    {
+      "start": 80.08,
+      "duration": 5.359,
+      "text": "in order to now start my conversation."
+    },
+    {
+      "start": 83.52,
+      "duration": 5.76,
+      "text": "So today I'm going to show you a better"
+    },
+    {
+      "start": 85.439,
+      "duration": 7.121,
+      "text": "way where you can still give Cloud Code"
+    },
+    {
+      "start": 89.28,
+      "duration": 6.72,
+      "text": "access to these MCP servers. Actually"
+    },
+    {
+      "start": 92.56,
+      "duration": 5.919,
+      "text": "access to dozens and dozens of MCP"
+    },
+    {
+      "start": 96,
+      "duration": 6.159,
+      "text": "servers with potentially thousands of"
+    },
+    {
+      "start": 98.479,
+      "duration": 8.481,
+      "text": "tools across them. all while retaining"
+    },
+    {
+      "start": 102.159,
+      "duration": 7.681,
+      "text": "100% of this context. So instead of"
+    },
+    {
+      "start": 106.96,
+      "duration": 7.439,
+      "text": "looking like this, your context window"
+    },
+    {
+      "start": 109.84,
+      "duration": 6.559,
+      "text": "will look more like this."
+    },
+    {
+      "start": 114.399,
+      "duration": 4.961,
+      "text": "If you're like me, you've been really"
+    },
+    {
+      "start": 116.399,
+      "duration": 5.281,
+      "text": "amazed by how far Frontier models have"
+    },
+    {
+      "start": 119.36,
+      "duration": 5.119,
+      "text": "come. They're so good at thinking"
+    },
+    {
+      "start": 121.68,
+      "duration": 5.439,
+      "text": "through problems now, and their improved"
+    },
+    {
+      "start": 124.479,
+      "duration": 5.28,
+      "text": "reasoning allows them to more"
+    },
+    {
+      "start": 127.119,
+      "duration": 5.521,
+      "text": "effectively solve long horizon tasks."
+    },
+    {
+      "start": 129.759,
+      "duration": 5.361,
+      "text": "both more autonomously and reliably,"
+    },
+    {
+      "start": 132.64,
+      "duration": 4.64,
+      "text": "making them feel more intelligent. Now,"
+    },
+    {
+      "start": 135.12,
+      "duration": 4.16,
+      "text": "in order to take advantage of all of"
+    },
+    {
+      "start": 137.28,
+      "duration": 4.319,
+      "text": "this and get them to do more work for"
+    },
+    {
+      "start": 139.28,
+      "duration": 6.959,
+      "text": "you, we need to give them access to"
+    },
+    {
+      "start": 141.599,
+      "duration": 6.881,
+      "text": "tools, lots and lots of tools. And MCPs"
+    },
+    {
+      "start": 146.239,
+      "duration": 4.241,
+      "text": "are the typical way to do this. They're"
+    },
+    {
+      "start": 148.48,
+      "duration": 4.479,
+      "text": "easy to set up and instantly give your"
+    },
+    {
+      "start": 150.48,
+      "duration": 4.72,
+      "text": "agent access to hundreds of new"
+    },
+    {
+      "start": 152.959,
+      "duration": 5.201,
+      "text": "capabilities. But connecting them"
+    },
+    {
+      "start": 155.2,
+      "duration": 5.92,
+      "text": "directly to Claude like this, which is"
+    },
+    {
+      "start": 158.16,
+      "duration": 4.96,
+      "text": "the typical way, you get this problem"
+    },
+    {
+      "start": 161.12,
+      "duration": 3.68,
+      "text": "like we just saw. And from looking at"
+    },
+    {
+      "start": 163.12,
+      "duration": 3.759,
+      "text": "this, you might think that your biggest"
+    },
+    {
+      "start": 164.8,
+      "duration": 4.64,
+      "text": "problem is the fact that you don't have"
+    },
+    {
+      "start": 166.879,
+      "duration": 4.881,
+      "text": "a ton of free space here for your"
+    },
+    {
+      "start": 169.44,
+      "duration": 5.28,
+      "text": "conversation with Claude. And that is"
+    },
+    {
+      "start": 171.76,
+      "duration": 5.28,
+      "text": "true, but there's another really big"
+    },
+    {
+      "start": 174.72,
+      "duration": 4.56,
+      "text": "problem with this. In my last video on"
+    },
+    {
+      "start": 177.04,
+      "duration": 5.119,
+      "text": "context engineering, I discussed a paper"
+    },
+    {
+      "start": 179.28,
+      "duration": 5.28,
+      "text": "published by Chroma on this idea of"
+    },
+    {
+      "start": 182.159,
+      "duration": 4.72,
+      "text": "context rot. And we saw that in that"
+    },
+    {
+      "start": 184.56,
+      "duration": 5.599,
+      "text": "paper they did a bunch of tests and"
+    },
+    {
+      "start": 186.879,
+      "duration": 5.761,
+      "text": "showed in many different ways that the"
+    },
+    {
+      "start": 190.159,
+      "duration": 4.08,
+      "text": "performance of agents degrades as you"
+    },
+    {
+      "start": 192.64,
+      "duration": 4.48,
+      "text": "fill up more and more of the context"
+    },
+    {
+      "start": 194.239,
+      "duration": 5.681,
+      "text": "window. And even worse than that, if the"
+    },
+    {
+      "start": 197.12,
+      "duration": 5.839,
+      "text": "context is filled with a bunch of"
+    },
+    {
+      "start": 199.92,
+      "duration": 5.36,
+      "text": "irrelevant information, then it tends to"
+    },
+    {
+      "start": 202.959,
+      "duration": 4.721,
+      "text": "distract the agent and degrades the"
+    },
+    {
+      "start": 205.28,
+      "duration": 4.239,
+      "text": "performance even more. I highly"
+    },
+    {
+      "start": 207.68,
+      "duration": 4,
+      "text": "recommend checking out that video if you"
+    },
+    {
+      "start": 209.519,
+      "duration": 5.121,
+      "text": "haven't to understand the importance of"
+    },
+    {
+      "start": 211.68,
+      "duration": 5.44,
+      "text": "context engineering and how we can use"
+    },
+    {
+      "start": 214.64,
+      "duration": 4.64,
+      "text": "it to optimize cloud code's performance."
+    },
+    {
+      "start": 217.12,
+      "duration": 5.199,
+      "text": "In my last video, I also mentioned this"
+    },
+    {
+      "start": 219.28,
+      "duration": 5.28,
+      "text": "idea of instead of using a bunch of MCP"
+    },
+    {
+      "start": 222.319,
+      "duration": 5.681,
+      "text": "servers, what if we just created a bunch"
+    },
+    {
+      "start": 224.56,
+      "duration": 6.72,
+      "text": "of CLI tools or scripts and then tell"
+    },
+    {
+      "start": 228,
+      "duration": 6.159,
+      "text": "Claude that it has access to a bunch of"
+    },
+    {
+      "start": 231.28,
+      "duration": 5.76,
+      "text": "different tools and capabilities through"
+    },
+    {
+      "start": 234.159,
+      "duration": 6.08,
+      "text": "the terminal, effectively giving Claude"
+    },
+    {
+      "start": 237.04,
+      "duration": 6,
+      "text": "access to thousands of tools, but"
+    },
+    {
+      "start": 240.239,
+      "duration": 5.761,
+      "text": "initially only taking a very small"
+    },
+    {
+      "start": 243.04,
+      "duration": 5.04,
+      "text": "amount of tokens in the system prompt."
+    },
+    {
+      "start": 246,
+      "duration": 5.04,
+      "text": "And this idea of letting cloud do its"
+    },
+    {
+      "start": 248.08,
+      "duration": 5.28,
+      "text": "own tool discovery just follows the"
+    },
+    {
+      "start": 251.04,
+      "duration": 5.28,
+      "text": "principles of progressive disclosure"
+    },
+    {
+      "start": 253.36,
+      "duration": 5.92,
+      "text": "where cloud only needs a certain context"
+    },
+    {
+      "start": 256.32,
+      "duration": 5.439,
+      "text": "for a tool if it has already decided it"
+    },
+    {
+      "start": 259.28,
+      "duration": 4.639,
+      "text": "needs a certain tool to perform an"
+    },
+    {
+      "start": 261.759,
+      "duration": 6,
+      "text": "action. So going back to this example,"
+    },
+    {
+      "start": 263.919,
+      "duration": 6.081,
+      "text": "if I'm asking Claude to look into an"
+    },
+    {
+      "start": 267.759,
+      "duration": 5.361,
+      "text": "error I got in the application I'm"
+    },
+    {
+      "start": 270,
+      "duration": 5.44,
+      "text": "building and ask it to go into Sentry,"
+    },
+    {
+      "start": 273.12,
+      "duration": 5.519,
+      "text": "it potentially would only need one or"
+    },
+    {
+      "start": 275.44,
+      "duration": 5.52,
+      "text": "two tools from this Sentry MCP server."
+    },
+    {
+      "start": 278.639,
+      "duration": 4.321,
+      "text": "But again, by having all of these MCP"
+    },
+    {
+      "start": 280.96,
+      "duration": 4.88,
+      "text": "servers connected directly to Claude,"
+    },
+    {
+      "start": 282.96,
+      "duration": 5.04,
+      "text": "we're diluting the important information"
+    },
+    {
+      "start": 285.84,
+      "duration": 5.919,
+      "text": "by stuffing in all of the tool"
+    },
+    {
+      "start": 288,
+      "duration": 6.72,
+      "text": "definitions for these irrelevant MCP"
+    },
+    {
+      "start": 291.759,
+      "duration": 6.321,
+      "text": "tools. So, here's an actual working"
+    },
+    {
+      "start": 294.72,
+      "duration": 6.88,
+      "text": "example where I've had Cloud Code build"
+    },
+    {
+      "start": 298.08,
+      "duration": 5.6,
+      "text": "different CLI tools for me using UV. And"
+    },
+    {
+      "start": 301.6,
+      "duration": 4.72,
+      "text": "so, they're all installed as UV tools."
+    },
+    {
+      "start": 303.68,
+      "duration": 6.32,
+      "text": "So in the terminal, if Claude was just"
+    },
+    {
+      "start": 306.32,
+      "duration": 7.28,
+      "text": "to run UV tool list, it would see all of"
+    },
+    {
+      "start": 310,
+      "duration": 6.16,
+      "text": "these different CLI tools. And at this"
+    },
+    {
+      "start": 313.6,
+      "duration": 5.52,
+      "text": "point, Claude could just run any one of"
+    },
+    {
+      "start": 316.16,
+      "duration": 6.8,
+      "text": "these CLI commands. Let's use thumb as"
+    },
+    {
+      "start": 319.12,
+      "duration": 6.079,
+      "text": "an example in order to see what that CLI"
+    },
+    {
+      "start": 322.96,
+      "duration": 5.04,
+      "text": "tool does. So here it would see that"
+    },
+    {
+      "start": 325.199,
+      "duration": 5.681,
+      "text": "this is a YouTube thumbnail generator"
+    },
+    {
+      "start": 328,
+      "duration": 5.12,
+      "text": "using Gemini and decide whether it needs"
+    },
+    {
+      "start": 330.88,
+      "duration": 5.039,
+      "text": "to use one of these tools or not. So,"
+    },
+    {
+      "start": 333.12,
+      "duration": 5.68,
+      "text": "how does this help us with MCPs? Because"
+    },
+    {
+      "start": 335.919,
+      "duration": 5.041,
+      "text": "MCPs, as we mentioned, are already"
+    },
+    {
+      "start": 338.8,
+      "duration": 4.48,
+      "text": "available. They're super easy to use and"
+    },
+    {
+      "start": 340.96,
+      "duration": 4.48,
+      "text": "set up and really convenient. So, you"
+    },
+    {
+      "start": 343.28,
+      "duration": 5.199,
+      "text": "don't have to build your own CLI tools"
+    },
+    {
+      "start": 345.44,
+      "duration": 6.24,
+      "text": "or connect them to APIs and stuff. The"
+    },
+    {
+      "start": 348.479,
+      "duration": 6.481,
+      "text": "best way that I've found is to have one"
+    },
+    {
+      "start": 351.68,
+      "duration": 5.519,
+      "text": "unified tool that all of your MCP"
+    },
+    {
+      "start": 354.96,
+      "duration": 4.88,
+      "text": "servers are connected to and where Cloud"
+    },
+    {
+      "start": 357.199,
+      "duration": 5.84,
+      "text": "Code only needs to interact with that"
+    },
+    {
+      "start": 359.84,
+      "duration": 6,
+      "text": "one tool. So this is what Claude Code"
+    },
+    {
+      "start": 363.039,
+      "duration": 5.761,
+      "text": "and I built together. It's the MCP"
+    },
+    {
+      "start": 365.84,
+      "duration": 5.919,
+      "text": "Launchpad and it's essentially one CLI"
+    },
+    {
+      "start": 368.8,
+      "duration": 5.92,
+      "text": "tool to rule them all. And I have been"
+    },
+    {
+      "start": 371.759,
+      "duration": 6.16,
+      "text": "using this now for several weeks and it"
+    },
+    {
+      "start": 374.72,
+      "duration": 5.599,
+      "text": "works amazingly. I've been improving it"
+    },
+    {
+      "start": 377.919,
+      "duration": 4.56,
+      "text": "over time and am really excited to share"
+    },
+    {
+      "start": 380.319,
+      "duration": 3.921,
+      "text": "it with you. So let's first see it in"
+    },
+    {
+      "start": 382.479,
+      "duration": 4.321,
+      "text": "action and then I will show you how to"
+    },
+    {
+      "start": 384.24,
+      "duration": 5.04,
+      "text": "set it up for yourself. Once MCP"
+    },
+    {
+      "start": 386.8,
+      "duration": 5.76,
+      "text": "Launchpad is installed on your system,"
+    },
+    {
+      "start": 389.28,
+      "duration": 5.52,
+      "text": "it will be available globally. So you"
+    },
+    {
+      "start": 392.56,
+      "duration": 4.8,
+      "text": "can access it from any project and any"
+    },
+    {
+      "start": 394.8,
+      "duration": 4.72,
+      "text": "terminal. And most importantly, Cloud"
+    },
+    {
+      "start": 397.36,
+      "duration": 4.08,
+      "text": "Code can access it from anywhere on your"
+    },
+    {
+      "start": 399.52,
+      "duration": 4.32,
+      "text": "system. So whatever project you're"
+    },
+    {
+      "start": 401.44,
+      "duration": 4.64,
+      "text": "working on, it will be able to use all"
+    },
+    {
+      "start": 403.84,
+      "duration": 4.56,
+      "text": "of these different MCP servers that you"
+    },
+    {
+      "start": 406.08,
+      "duration": 4.72,
+      "text": "connect. So I'm just in this test folder"
+    },
+    {
+      "start": 408.4,
+      "duration": 5.04,
+      "text": "to show you this example. But if I run"
+    },
+    {
+      "start": 410.8,
+      "duration": 4.88,
+      "text": "MCPL, which stands for the MCP"
+    },
+    {
+      "start": 413.44,
+      "duration": 5.92,
+      "text": "Launchpad, you'll see we get this"
+    },
+    {
+      "start": 415.68,
+      "duration": 5.6,
+      "text": "initial help menu on usage. And you can"
+    },
+    {
+      "start": 419.36,
+      "duration": 3.92,
+      "text": "play around with this to learn how it"
+    },
+    {
+      "start": 421.28,
+      "duration": 4,
+      "text": "works. There's also good documentation"
+    },
+    {
+      "start": 423.28,
+      "duration": 4.479,
+      "text": "in the repo, but I'll just walk you"
+    },
+    {
+      "start": 425.28,
+      "duration": 6.4,
+      "text": "through some useful commands. So, if we"
+    },
+    {
+      "start": 427.759,
+      "duration": 7.521,
+      "text": "do mcpl config, you can actually see"
+    },
+    {
+      "start": 431.68,
+      "duration": 6.079,
+      "text": "what's in the mcp json file and all of"
+    },
+    {
+      "start": 435.28,
+      "duration": 4.4,
+      "text": "the servers that are configured. You'll"
+    },
+    {
+      "start": 437.759,
+      "duration": 4.641,
+      "text": "also see next to each server whether"
+    },
+    {
+      "start": 439.68,
+      "duration": 4.799,
+      "text": "it's enabled or disabled. So since we're"
+    },
+    {
+      "start": 442.4,
+      "duration": 4.4,
+      "text": "using this as a gateway, sometimes we"
+    },
+    {
+      "start": 444.479,
+      "duration": 5.361,
+      "text": "want to turn some servers on and off"
+    },
+    {
+      "start": 446.8,
+      "duration": 5.2,
+      "text": "depending on our needs. And so if we go"
+    },
+    {
+      "start": 449.84,
+      "duration": 4.639,
+      "text": "back up to the help menu again, you can"
+    },
+    {
+      "start": 452,
+      "duration": 4.8,
+      "text": "see that you can enable or disable"
+    },
+    {
+      "start": 454.479,
+      "duration": 4.241,
+      "text": "servers really easily with just these"
+    },
+    {
+      "start": 456.8,
+      "duration": 3.92,
+      "text": "two commands. So looking at the"
+    },
+    {
+      "start": 458.72,
+      "duration": 4.319,
+      "text": "configuration is going to be useful for"
+    },
+    {
+      "start": 460.72,
+      "duration": 4.479,
+      "text": "debugging or figuring out what"
+    },
+    {
+      "start": 463.039,
+      "duration": 4.961,
+      "text": "environment variables are required by"
+    },
+    {
+      "start": 465.199,
+      "duration": 5.761,
+      "text": "each server. We can also use this"
+    },
+    {
+      "start": 468,
+      "duration": 5.44,
+      "text": "command to list all of the servers"
+    },
+    {
+      "start": 470.96,
+      "duration": 6.4,
+      "text": "themselves as well as look at all the"
+    },
+    {
+      "start": 473.44,
+      "duration": 6.24,
+      "text": "tools within a server. So by typing mcpl"
+    },
+    {
+      "start": 477.36,
+      "duration": 4.08,
+      "text": "list, you'll get a list of the servers"
+    },
+    {
+      "start": 479.68,
+      "duration": 3.199,
+      "text": "and you might see something like this if"
+    },
+    {
+      "start": 481.44,
+      "duration": 3.36,
+      "text": "it's your first time running it where"
+    },
+    {
+      "start": 482.879,
+      "duration": 4.16,
+      "text": "it'll say that the servers are not"
+    },
+    {
+      "start": 484.8,
+      "duration": 4.64,
+      "text": "cached. This just means that the servers"
+    },
+    {
+      "start": 487.039,
+      "duration": 4.641,
+      "text": "haven't been connected to. But once you"
+    },
+    {
+      "start": 489.44,
+      "duration": 4.96,
+      "text": "connect to the MCP servers, it'll cache"
+    },
+    {
+      "start": 491.68,
+      "duration": 4.88,
+      "text": "all of the tools. So you don't have to"
+    },
+    {
+      "start": 494.4,
+      "duration": 4.4,
+      "text": "actually connect to the MCP servers"
+    },
+    {
+      "start": 496.56,
+      "duration": 4.56,
+      "text": "themselves every single time you want to"
+    },
+    {
+      "start": 498.8,
+      "duration": 5.04,
+      "text": "browse the tools. So in order to"
+    },
+    {
+      "start": 501.12,
+      "duration": 5.28,
+      "text": "actually connect to the MCP servers and"
+    },
+    {
+      "start": 503.84,
+      "duration": 6.72,
+      "text": "then cache all of the tools that are"
+    },
+    {
+      "start": 506.4,
+      "duration": 7.759,
+      "text": "available, you can run MCPL list and"
+    },
+    {
+      "start": 510.56,
+      "duration": 5.52,
+      "text": "pass the option for refresh. So once you"
+    },
+    {
+      "start": 514.159,
+      "duration": 3.921,
+      "text": "do that, you'll see it just connect to"
+    },
+    {
+      "start": 516.08,
+      "duration": 3.92,
+      "text": "every server, get all of the tool"
+    },
+    {
+      "start": 518.08,
+      "duration": 4.639,
+      "text": "definitions, and then cache them"
+    },
+    {
+      "start": 520,
+      "duration": 5.44,
+      "text": "locally. Once that's done, we can"
+    },
+    {
+      "start": 522.719,
+      "duration": 6.401,
+      "text": "explore what tools are available in each"
+    },
+    {
+      "start": 525.44,
+      "duration": 6.399,
+      "text": "server. So again, you can run mcpl list"
+    },
+    {
+      "start": 529.12,
+      "duration": 5.68,
+      "text": "and this time pass in the name of a"
+    },
+    {
+      "start": 531.839,
+      "duration": 4.641,
+      "text": "server. So we can do the first one,"
+    },
+    {
+      "start": 534.8,
+      "duration": 4.88,
+      "text": "render,"
+    },
+    {
+      "start": 536.48,
+      "duration": 5.68,
+      "text": "and you'll see all of the tools in this"
+    },
+    {
+      "start": 539.68,
+      "duration": 4.88,
+      "text": "server. You can also get more details"
+    },
+    {
+      "start": 542.16,
+      "duration": 5.52,
+      "text": "for any given tool, including the full"
+    },
+    {
+      "start": 544.56,
+      "duration": 7.44,
+      "text": "tool schema by using the inspect"
+    },
+    {
+      "start": 547.68,
+      "duration": 6.159,
+      "text": "command. So, mcpl inspect and then"
+    },
+    {
+      "start": 552,
+      "duration": 4.88,
+      "text": "because we have multiple servers"
+    },
+    {
+      "start": 553.839,
+      "duration": 6,
+      "text": "connected, you first want to pass in the"
+    },
+    {
+      "start": 556.88,
+      "duration": 6.16,
+      "text": "server name and then the tool. So, let's"
+    },
+    {
+      "start": 559.839,
+      "duration": 6,
+      "text": "just get one of these. Uh, let's say get"
+    },
+    {
+      "start": 563.04,
+      "duration": 5.359,
+      "text": "service. So, here we're going to inspect"
+    },
+    {
+      "start": 565.839,
+      "duration": 5.041,
+      "text": "the get service tool in the render MCP"
+    },
+    {
+      "start": 568.399,
+      "duration": 6.401,
+      "text": "server. And if we do that, you get the"
+    },
+    {
+      "start": 570.88,
+      "duration": 6.56,
+      "text": "actual JSON schema for that tool. And"
+    },
+    {
+      "start": 574.8,
+      "duration": 6.32,
+      "text": "this is how Claude Code will be using"
+    },
+    {
+      "start": 577.44,
+      "duration": 6.56,
+      "text": "the MCP Launchpad to discover tools and"
+    },
+    {
+      "start": 581.12,
+      "duration": 5.2,
+      "text": "learn how to use them on the fly as it"
+    },
+    {
+      "start": 584,
+      "duration": 4.88,
+      "text": "needs to. But I want to show you the"
+    },
+    {
+      "start": 586.32,
+      "duration": 4.639,
+      "text": "coolest part about this. I'm going to"
+    },
+    {
+      "start": 588.88,
+      "duration": 4.8,
+      "text": "bring up the help menu once again by"
+    },
+    {
+      "start": 590.959,
+      "duration": 6.241,
+      "text": "just running MCPL. And you'll notice"
+    },
+    {
+      "start": 593.68,
+      "duration": 6.56,
+      "text": "that there's this search function."
+    },
+    {
+      "start": 597.2,
+      "duration": 5.36,
+      "text": "Remember that we connected to each MCP"
+    },
+    {
+      "start": 600.24,
+      "duration": 5.52,
+      "text": "server and cached all of the tools in"
+    },
+    {
+      "start": 602.56,
+      "duration": 5.6,
+      "text": "that server. So, we now have all of the"
+    },
+    {
+      "start": 605.76,
+      "duration": 5.199,
+      "text": "tool schemas for every single tool that"
+    },
+    {
+      "start": 608.16,
+      "duration": 5.04,
+      "text": "we have access to across all of our MCPS"
+    },
+    {
+      "start": 610.959,
+      "duration": 3.841,
+      "text": "and have built a semantic search using"
+    },
+    {
+      "start": 613.2,
+      "duration": 2.8,
+      "text": "BM25."
+    },
+    {
+      "start": 614.8,
+      "duration": 3.84,
+      "text": "Don't worry if you don't know what that"
+    },
+    {
+      "start": 616,
+      "duration": 5.04,
+      "text": "means. It's just a fancier search than"
+    },
+    {
+      "start": 618.64,
+      "duration": 4.639,
+      "text": "normal keyword search where it's going"
+    },
+    {
+      "start": 621.04,
+      "duration": 4.4,
+      "text": "to look for something that's related"
+    },
+    {
+      "start": 623.279,
+      "duration": 7.12,
+      "text": "more semantically to what you're looking"
+    },
+    {
+      "start": 625.44,
+      "duration": 8,
+      "text": "for. So, as an example, we can do MCpl"
+    },
+    {
+      "start": 630.399,
+      "duration": 8,
+      "text": "and then pass in a search term. So,"
+    },
+    {
+      "start": 633.44,
+      "duration": 8.24,
+      "text": "let's say something like um issues"
+    },
+    {
+      "start": 638.399,
+      "duration": 5.68,
+      "text": "and we'll get the top five tools that"
+    },
+    {
+      "start": 641.68,
+      "duration": 5.52,
+      "text": "are most similar to our search term"
+    },
+    {
+      "start": 644.079,
+      "duration": 6.081,
+      "text": "issues. So, we get a ton of tools from"
+    },
+    {
+      "start": 647.2,
+      "duration": 5.44,
+      "text": "Sentry, but we also get issues for"
+    },
+    {
+      "start": 650.16,
+      "duration": 5.76,
+      "text": "linear. What if I wanted to look for"
+    },
+    {
+      "start": 652.64,
+      "duration": 6.319,
+      "text": "tools for connecting to a database? I"
+    },
+    {
+      "start": 655.92,
+      "duration": 6.159,
+      "text": "could type in MCplarch"
+    },
+    {
+      "start": 658.959,
+      "duration": 6.961,
+      "text": "SQL and then you can see we get our"
+    },
+    {
+      "start": 662.079,
+      "duration": 6.32,
+      "text": "execute SQL tool from Superbase. Now,"
+    },
+    {
+      "start": 665.92,
+      "duration": 4.479,
+      "text": "this makes the MCP Launchpad so much"
+    },
+    {
+      "start": 668.399,
+      "duration": 4.801,
+      "text": "more powerful because Claude doesn't"
+    },
+    {
+      "start": 670.399,
+      "duration": 5.041,
+      "text": "even have to navigate all of the menus"
+    },
+    {
+      "start": 673.2,
+      "duration": 5.04,
+      "text": "that I just showed you in order to find"
+    },
+    {
+      "start": 675.44,
+      "duration": 5.92,
+      "text": "these tools manually. It can just search"
+    },
+    {
+      "start": 678.24,
+      "duration": 5.279,
+      "text": "for tools based on the task that it's"
+    },
+    {
+      "start": 681.36,
+      "duration": 5.28,
+      "text": "trying to accomplish. And you can see"
+    },
+    {
+      "start": 683.519,
+      "duration": 5.361,
+      "text": "how this makes it so much more scalable."
+    },
+    {
+      "start": 686.64,
+      "duration": 5.36,
+      "text": "In this example, I've only connected"
+    },
+    {
+      "start": 688.88,
+      "duration": 5.6,
+      "text": "seven MCP servers, but almost every week"
+    },
+    {
+      "start": 692,
+      "duration": 4.959,
+      "text": "I'm thinking of another MCP server that"
+    },
+    {
+      "start": 694.48,
+      "duration": 5.52,
+      "text": "I want to be using. But you can imagine"
+    },
+    {
+      "start": 696.959,
+      "duration": 6.481,
+      "text": "if you have again dozens and dozens of"
+    },
+    {
+      "start": 700,
+      "duration": 5.92,
+      "text": "MCP servers adding up to thousands and"
+    },
+    {
+      "start": 703.44,
+      "duration": 5.6,
+      "text": "thousands of tools, it's going to be"
+    },
+    {
+      "start": 705.92,
+      "duration": 7.44,
+      "text": "pretty tedious to hierarchically move"
+    },
+    {
+      "start": 709.04,
+      "duration": 6.4,
+      "text": "through these menus to find specific"
+    },
+    {
+      "start": 713.36,
+      "duration": 5.039,
+      "text": "tools and that's also going to take up"
+    },
+    {
+      "start": 715.44,
+      "duration": 5.2,
+      "text": "context. So having something like this"
+    },
+    {
+      "start": 718.399,
+      "duration": 4,
+      "text": "search function where you only get the"
+    },
+    {
+      "start": 720.64,
+      "duration": 5.439,
+      "text": "specific information you're looking for"
+    },
+    {
+      "start": 722.399,
+      "duration": 6.321,
+      "text": "and the exact tool for the given task"
+    },
+    {
+      "start": 726.079,
+      "duration": 5.601,
+      "text": "makes things way more efficient. By the"
+    },
+    {
+      "start": 728.72,
+      "duration": 5.6,
+      "text": "way, I am super curious what MCP servers"
+    },
+    {
+      "start": 731.68,
+      "duration": 4.399,
+      "text": "you guys find the most useful for your"
+    },
+    {
+      "start": 734.32,
+      "duration": 3.759,
+      "text": "workflows. Let me know in the comments"
+    },
+    {
+      "start": 736.079,
+      "duration": 5.121,
+      "text": "below what they are cuz I'm always"
+    },
+    {
+      "start": 738.079,
+      "duration": 5.841,
+      "text": "looking to try new MCP servers. I want"
+    },
+    {
+      "start": 741.2,
+      "duration": 7.36,
+      "text": "to show you just a really tiny preview"
+    },
+    {
+      "start": 743.92,
+      "duration": 6.8,
+      "text": "of Claude using the MCP Launchpad to"
+    },
+    {
+      "start": 748.56,
+      "duration": 6,
+      "text": "discover tools. So, I'm going to spin it"
+    },
+    {
+      "start": 750.72,
+      "duration": 7.2,
+      "text": "up and I'm going to just start by asking"
+    },
+    {
+      "start": 754.56,
+      "duration": 4.88,
+      "text": "what MCPS it has access to."
+    },
+    {
+      "start": 757.92,
+      "duration": 4.64,
+      "text": "So, you can see because I mentioned"
+    },
+    {
+      "start": 759.44,
+      "duration": 7.04,
+      "text": "MCPS, it knows that it has access to the"
+    },
+    {
+      "start": 762.56,
+      "duration": 7.92,
+      "text": "MCP Launchpad because I've mentioned it"
+    },
+    {
+      "start": 766.48,
+      "duration": 7.039,
+      "text": "in the cloud MD file. So, so there's a"
+    },
+    {
+      "start": 770.48,
+      "duration": 6.159,
+      "text": "very small amount of context, just kind"
+    },
+    {
+      "start": 773.519,
+      "duration": 5.921,
+      "text": "of an overview talking about the MCP"
+    },
+    {
+      "start": 776.639,
+      "duration": 5.681,
+      "text": "Launchpad and how it can discover and"
+    },
+    {
+      "start": 779.44,
+      "duration": 4.72,
+      "text": "connect to different MCP servers that I"
+    },
+    {
+      "start": 782.32,
+      "duration": 4.88,
+      "text": "put into the CloudMD file. So, that's"
+    },
+    {
+      "start": 784.16,
+      "duration": 5.679,
+      "text": "all the context it has. In order to see"
+    },
+    {
+      "start": 787.2,
+      "duration": 6.8,
+      "text": "what's actually in them, it calls the"
+    },
+    {
+      "start": 789.839,
+      "duration": 7.841,
+      "text": "MCPL list tool. It can also see what"
+    },
+    {
+      "start": 794,
+      "duration": 7.04,
+      "text": "servers are active and disabled. So now"
+    },
+    {
+      "start": 797.68,
+      "duration": 6.719,
+      "text": "we can ask it for a specific tool. Do"
+    },
+    {
+      "start": 801.04,
+      "duration": 5.28,
+      "text": "you have any tools for querying"
+    },
+    {
+      "start": 804.399,
+      "duration": 5.12,
+      "text": "databases?"
+    },
+    {
+      "start": 806.32,
+      "duration": 6.56,
+      "text": "So here you can see it runs two"
+    },
+    {
+      "start": 809.519,
+      "duration": 6.081,
+      "text": "searches. So it first runs a search for"
+    },
+    {
+      "start": 812.88,
+      "duration": 6.24,
+      "text": "query database and then it runs another"
+    },
+    {
+      "start": 815.6,
+      "duration": 5.28,
+      "text": "search specifically for SQL. And then"
+    },
+    {
+      "start": 819.12,
+      "duration": 5.12,
+      "text": "it's able to come up with this"
+    },
+    {
+      "start": 820.88,
+      "duration": 5.92,
+      "text": "exhaustive list of tools available for"
+    },
+    {
+      "start": 824.24,
+      "duration": 6.159,
+      "text": "querying our databases either on"
+    },
+    {
+      "start": 826.8,
+      "duration": 6.4,
+      "text": "Superbase or on render. Now this is a"
+    },
+    {
+      "start": 830.399,
+      "duration": 5.361,
+      "text": "contrived example because I'm asking it"
+    },
+    {
+      "start": 833.2,
+      "duration": 4.96,
+      "text": "specifically questions about these"
+    },
+    {
+      "start": 835.76,
+      "duration": 5.12,
+      "text": "tools. But you can imagine as it's"
+    },
+    {
+      "start": 838.16,
+      "duration": 5.039,
+      "text": "working and realizes it needs some"
+    },
+    {
+      "start": 840.88,
+      "duration": 5.04,
+      "text": "functionality, it will also be able to"
+    },
+    {
+      "start": 843.199,
+      "duration": 5.921,
+      "text": "use this search tool to do exactly what"
+    },
+    {
+      "start": 845.92,
+      "duration": 6.08,
+      "text": "it just did and essentially look for a"
+    },
+    {
+      "start": 849.12,
+      "duration": 5.839,
+      "text": "SQL execution tool, for example, when it"
+    },
+    {
+      "start": 852,
+      "duration": 5.6,
+      "text": "needs to query the database. And as a"
+    },
+    {
+      "start": 854.959,
+      "duration": 6.961,
+      "text": "real use case for where Cloud Code is"
+    },
+    {
+      "start": 857.6,
+      "duration": 8,
+      "text": "actually using the MCP Launchpad CLI"
+    },
+    {
+      "start": 861.92,
+      "duration": 7.76,
+      "text": "every single day is in this project that"
+    },
+    {
+      "start": 865.6,
+      "duration": 7.12,
+      "text": "I have for a production app. This is my"
+    },
+    {
+      "start": 869.68,
+      "duration": 6.399,
+      "text": "linear for this project and I have a ton"
+    },
+    {
+      "start": 872.72,
+      "duration": 6.08,
+      "text": "of tasks here that Claude has been"
+    },
+    {
+      "start": 876.079,
+      "duration": 5.76,
+      "text": "working on and helping me fix. So you"
+    },
+    {
+      "start": 878.8,
+      "duration": 5.68,
+      "text": "can see I have a huge backlog and"
+    },
+    {
+      "start": 881.839,
+      "duration": 5.36,
+      "text": "because Claude is connected to linear"
+    },
+    {
+      "start": 884.48,
+      "duration": 6.479,
+      "text": "it's obviously able to see all of these"
+    },
+    {
+      "start": 887.199,
+      "duration": 5.921,
+      "text": "issues. So for example I can ask"
+    },
+    {
+      "start": 890.959,
+      "duration": 6.081,
+      "text": "what's the most urgent issue that we"
+    },
+    {
+      "start": 893.12,
+      "duration": 7.68,
+      "text": "have for the app and it should be able"
+    },
+    {
+      "start": 897.04,
+      "duration": 6.159,
+      "text": "to search linear to understand uh what"
+    },
+    {
+      "start": 900.8,
+      "duration": 6.64,
+      "text": "the top issues are. So there you saw it"
+    },
+    {
+      "start": 903.199,
+      "duration": 7.121,
+      "text": "it calls the uh list issues tool from"
+    },
+    {
+      "start": 907.44,
+      "duration": 6.079,
+      "text": "linear and it'll be able to summarize"
+    },
+    {
+      "start": 910.32,
+      "duration": 6.56,
+      "text": "all of the important issues we have. And"
+    },
+    {
+      "start": 913.519,
+      "duration": 7.76,
+      "text": "from this I could just tell it to work"
+    },
+    {
+      "start": 916.88,
+      "duration": 7.04,
+      "text": "on whatever highest priority we have in"
+    },
+    {
+      "start": 921.279,
+      "duration": 5.521,
+      "text": "the backlog. And you can imagine if it's"
+    },
+    {
+      "start": 923.92,
+      "duration": 4.56,
+      "text": "a bug or an issue in the database, it's"
+    },
+    {
+      "start": 926.8,
+      "duration": 4.64,
+      "text": "going to leverage again the MCP"
+    },
+    {
+      "start": 928.48,
+      "duration": 6.96,
+      "text": "Launchpad CLI to interact with the"
+    },
+    {
+      "start": 931.44,
+      "duration": 7.28,
+      "text": "database on Superbase or Sentry to find"
+    },
+    {
+      "start": 935.44,
+      "duration": 6.56,
+      "text": "uh errors and traces. Linear for"
+    },
+    {
+      "start": 938.72,
+      "duration": 6.479,
+      "text": "managing all of the tickets, etc. Now,"
+    },
+    {
+      "start": 942,
+      "duration": 6.079,
+      "text": "obviously, this is an example for coding"
+    },
+    {
+      "start": 945.199,
+      "duration": 5.521,
+      "text": "because it's what I've been using it a"
+    },
+    {
+      "start": 948.079,
+      "duration": 5.2,
+      "text": "lot for lately, but you can imagine"
+    },
+    {
+      "start": 950.72,
+      "duration": 4.16,
+      "text": "connecting any kind of MCP. And whatever"
+    },
+    {
+      "start": 953.279,
+      "duration": 4.321,
+      "text": "your workflow is, whatever you're"
+    },
+    {
+      "start": 954.88,
+      "duration": 5.12,
+      "text": "working on, tying together many"
+    },
+    {
+      "start": 957.6,
+      "duration": 5.44,
+      "text": "different functionalities through MCP"
+    },
+    {
+      "start": 960,
+      "duration": 5.279,
+      "text": "servers, all through the MCP Launchpad"
+    },
+    {
+      "start": 963.04,
+      "duration": 5.68,
+      "text": "and having Claude be able to accomplish"
+    },
+    {
+      "start": 965.279,
+      "duration": 5.521,
+      "text": "all kinds of tasks. So now I'll show you"
+    },
+    {
+      "start": 968.72,
+      "duration": 4.96,
+      "text": "how you can set this up and start using"
+    },
+    {
+      "start": 970.8,
+      "duration": 6.56,
+      "text": "it to connect your cloud to thousands of"
+    },
+    {
+      "start": 973.68,
+      "duration": 6.399,
+      "text": "tools. Using MCP Launchpad is super"
+    },
+    {
+      "start": 977.36,
+      "duration": 4.88,
+      "text": "easy. Head to the repo which is linked"
+    },
+    {
+      "start": 980.079,
+      "duration": 3.601,
+      "text": "in the description and you can follow"
+    },
+    {
+      "start": 982.24,
+      "duration": 3.2,
+      "text": "the instructions on here, but I'll just"
+    },
+    {
+      "start": 983.68,
+      "duration": 5.2,
+      "text": "walk you through it right now. You're"
+    },
+    {
+      "start": 985.44,
+      "duration": 5.44,
+      "text": "going to need to have Python and UV"
+    },
+    {
+      "start": 988.88,
+      "duration": 4.399,
+      "text": "installed. If you don't, just head over"
+    },
+    {
+      "start": 990.88,
+      "duration": 5.199,
+      "text": "to this link. It'll take you less than a"
+    },
+    {
+      "start": 993.279,
+      "duration": 5.041,
+      "text": "minute to install UV. Once you have"
+    },
+    {
+      "start": 996.079,
+      "duration": 4.481,
+      "text": "that, we're going to be installing MCP"
+    },
+    {
+      "start": 998.32,
+      "duration": 4.319,
+      "text": "Launchpad as a UV tool using this"
+    },
+    {
+      "start": 1000.56,
+      "duration": 5.76,
+      "text": "command. So, you can literally just copy"
+    },
+    {
+      "start": 1002.639,
+      "duration": 6.481,
+      "text": "this and then open any terminal and"
+    },
+    {
+      "start": 1006.32,
+      "duration": 5.68,
+      "text": "paste this command in. You'll see that"
+    },
+    {
+      "start": 1009.12,
+      "duration": 5.12,
+      "text": "it installs two executables and then you"
+    },
+    {
+      "start": 1012,
+      "duration": 5.36,
+      "text": "should be able to run the command mcpl"
+    },
+    {
+      "start": 1014.24,
+      "duration": 5.36,
+      "text": "from the terminal and see the help menu"
+    },
+    {
+      "start": 1017.36,
+      "duration": 5.12,
+      "text": "that pops up. This confirms that you"
+    },
+    {
+      "start": 1019.6,
+      "duration": 4.88,
+      "text": "installed it properly. Next, you want to"
+    },
+    {
+      "start": 1022.48,
+      "duration": 4.64,
+      "text": "configure your MCP servers. So, you"
+    },
+    {
+      "start": 1024.48,
+      "duration": 5.439,
+      "text": "might already have an MCP.JSON"
+    },
+    {
+      "start": 1027.12,
+      "duration": 5.199,
+      "text": "file laying around, but if not, you're"
+    },
+    {
+      "start": 1029.919,
+      "duration": 4.561,
+      "text": "just going to want to create this file"
+    },
+    {
+      "start": 1032.319,
+      "duration": 4.801,
+      "text": "either in the project directory that"
+    },
+    {
+      "start": 1034.48,
+      "duration": 5.04,
+      "text": "you're working in or in your user"
+    },
+    {
+      "start": 1037.12,
+      "duration": 5.04,
+      "text": "level.cloud folder, which I'll show you"
+    },
+    {
+      "start": 1039.52,
+      "duration": 6.399,
+      "text": "in a bit. So, as an example, if this was"
+    },
+    {
+      "start": 1042.16,
+      "duration": 7.28,
+      "text": "my config, I would just copy this and go"
+    },
+    {
+      "start": 1045.919,
+      "duration": 6.241,
+      "text": "to a project folder like this is for"
+    },
+    {
+      "start": 1049.44,
+      "duration": 6.32,
+      "text": "this MCP Launchpad project. And you can"
+    },
+    {
+      "start": 1052.16,
+      "duration": 6,
+      "text": "see I have no MCP configuration yet. So"
+    },
+    {
+      "start": 1055.76,
+      "duration": 5.2,
+      "text": "I'm just going to create a new file and"
+    },
+    {
+      "start": 1058.16,
+      "duration": 5.68,
+      "text": "call it MCP.json"
+    },
+    {
+      "start": 1060.96,
+      "duration": 7.36,
+      "text": "and then paste this in. Now this is"
+    },
+    {
+      "start": 1063.84,
+      "duration": 7.04,
+      "text": "important. It has to be named MCP.json."
+    },
+    {
+      "start": 1068.32,
+      "duration": 4.64,
+      "text": "You don't want to put a dot before MCP"
+    },
+    {
+      "start": 1070.88,
+      "duration": 5.36,
+      "text": "because that is the naming convention"
+    },
+    {
+      "start": 1072.96,
+      "duration": 7.36,
+      "text": "that Cloud Code uses and Cloud Code will"
+    },
+    {
+      "start": 1076.24,
+      "duration": 6.559,
+      "text": "be looking for a MCP.json JSON in this"
+    },
+    {
+      "start": 1080.32,
+      "duration": 5.68,
+      "text": "project folder. So to avoid colliding"
+    },
+    {
+      "start": 1082.799,
+      "duration": 5.441,
+      "text": "with cloud code MCP servers, we just"
+    },
+    {
+      "start": 1086,
+      "duration": 5.919,
+      "text": "omit the period in the beginning of this"
+    },
+    {
+      "start": 1088.24,
+      "duration": 6.16,
+      "text": "name. So if you create the MCP JSON"
+    },
+    {
+      "start": 1091.919,
+      "duration": 5.521,
+      "text": "configuration in a project like this,"
+    },
+    {
+      "start": 1094.4,
+      "duration": 5.519,
+      "text": "then MCP Launchpad will only be able to"
+    },
+    {
+      "start": 1097.44,
+      "duration": 4.64,
+      "text": "connect to the MCP servers when you're"
+    },
+    {
+      "start": 1099.919,
+      "duration": 4.64,
+      "text": "using it in this specific project"
+    },
+    {
+      "start": 1102.08,
+      "duration": 4.56,
+      "text": "directory. So if you want your MCP"
+    },
+    {
+      "start": 1104.559,
+      "duration": 4.401,
+      "text": "servers to be available across your"
+    },
+    {
+      "start": 1106.64,
+      "duration": 4.72,
+      "text": "entire system, basically wherever cloud"
+    },
+    {
+      "start": 1108.96,
+      "duration": 5.68,
+      "text": "code is working, then I highly recommend"
+    },
+    {
+      "start": 1111.36,
+      "duration": 5.92,
+      "text": "doing this in the user level.Cloud"
+    },
+    {
+      "start": 1114.64,
+      "duration": 6.159,
+      "text": "folder, which I'll show you after this."
+    },
+    {
+      "start": 1117.28,
+      "duration": 6.24,
+      "text": "But before that, if your MCP configs"
+    },
+    {
+      "start": 1120.799,
+      "duration": 5.441,
+      "text": "require any environment variables, you"
+    },
+    {
+      "start": 1123.52,
+      "duration": 5.279,
+      "text": "can use this notation with the dollar"
+    },
+    {
+      "start": 1126.24,
+      "duration": 4.96,
+      "text": "sign, curly brackets, and then the name"
+    },
+    {
+      "start": 1128.799,
+      "duration": 5.041,
+      "text": "of the secret. And then you want to"
+    },
+    {
+      "start": 1131.2,
+      "duration": 4.4,
+      "text": "create av"
+    },
+    {
+      "start": 1133.84,
+      "duration": 6.079,
+      "text": "file"
+    },
+    {
+      "start": 1135.6,
+      "duration": 9.76,
+      "text": "and define your key in here. So let's"
+    },
+    {
+      "start": 1139.919,
+      "duration": 8,
+      "text": "say this is my API key. So when MCP"
+    },
+    {
+      "start": 1145.36,
+      "duration": 4.559,
+      "text": "Launchpad uses this configuration to"
+    },
+    {
+      "start": 1147.919,
+      "duration": 3.681,
+      "text": "connect to your MCP servers, it's"
+    },
+    {
+      "start": 1149.919,
+      "duration": 6.081,
+      "text": "automatically going to load any"
+    },
+    {
+      "start": 1151.6,
+      "duration": 6.8,
+      "text": "environment variables from this file and"
+    },
+    {
+      "start": 1156,
+      "duration": 5.44,
+      "text": "parse it into this config to connect"
+    },
+    {
+      "start": 1158.4,
+      "duration": 5.92,
+      "text": "properly. Now, just like with the"
+    },
+    {
+      "start": 1161.44,
+      "duration": 7.44,
+      "text": "mcp.json,"
+    },
+    {
+      "start": 1164.32,
+      "duration": 6.88,
+      "text": "thisv file can be created both here or"
+    },
+    {
+      "start": 1168.88,
+      "duration": 4.48,
+      "text": "in your userle.cloud"
+    },
+    {
+      "start": 1171.2,
+      "duration": 4.64,
+      "text": "folder if you want it to be available"
+    },
+    {
+      "start": 1173.36,
+      "duration": 5.439,
+      "text": "systemwide. So, the EMV file you create"
+    },
+    {
+      "start": 1175.84,
+      "duration": 6.24,
+      "text": "here again will only be available for"
+    },
+    {
+      "start": 1178.799,
+      "duration": 6,
+      "text": "configurations in this project. And just"
+    },
+    {
+      "start": 1182.08,
+      "duration": 6.24,
+      "text": "like in cloud code, this works using a"
+    },
+    {
+      "start": 1184.799,
+      "duration": 5.281,
+      "text": "priority system where any MCP servers"
+    },
+    {
+      "start": 1188.32,
+      "duration": 4.479,
+      "text": "that you configure in your project here"
+    },
+    {
+      "start": 1190.08,
+      "duration": 4.88,
+      "text": "will take precedence over servers"
+    },
+    {
+      "start": 1192.799,
+      "duration": 3.841,
+      "text": "defined globally. So just keep that in"
+    },
+    {
+      "start": 1194.96,
+      "duration": 4.719,
+      "text": "mind. That's a nice way to control"
+    },
+    {
+      "start": 1196.64,
+      "duration": 4.48,
+      "text": "project specific configurations."
+    },
+    {
+      "start": 1199.679,
+      "duration": 4.721,
+      "text": "Now, if you want to make your MCP"
+    },
+    {
+      "start": 1201.12,
+      "duration": 5.36,
+      "text": "servers available globally all the time,"
+    },
+    {
+      "start": 1204.4,
+      "duration": 4.08,
+      "text": "which is the way I recommend to set this"
+    },
+    {
+      "start": 1206.48,
+      "duration": 5.6,
+      "text": "up because again, we're not worried"
+    },
+    {
+      "start": 1208.48,
+      "duration": 5.6,
+      "text": "about taking up additional context, then"
+    },
+    {
+      "start": 1212.08,
+      "duration": 4.959,
+      "text": "what you want to do is go to your user"
+    },
+    {
+      "start": 1214.08,
+      "duration": 5.04,
+      "text": "level folder. So, on a Mac, it's just"
+    },
+    {
+      "start": 1217.039,
+      "duration": 4,
+      "text": "going to be in your users directory and"
+    },
+    {
+      "start": 1219.12,
+      "duration": 4.64,
+      "text": "then your username. It should be similar"
+    },
+    {
+      "start": 1221.039,
+      "duration": 5.041,
+      "text": "on Windows. And you're going to need to"
+    },
+    {
+      "start": 1223.76,
+      "duration": 5.52,
+      "text": "expose hidden folders because the"
+    },
+    {
+      "start": 1226.08,
+      "duration": 6.16,
+      "text": "docloud folder is hidden. So on Mac,"
+    },
+    {
+      "start": 1229.28,
+      "duration": 6.32,
+      "text": "that's shift command period. And then"
+    },
+    {
+      "start": 1232.24,
+      "duration": 6.4,
+      "text": "you're going to open this.cloud folder."
+    },
+    {
+      "start": 1235.6,
+      "duration": 5.92,
+      "text": "And in here is where you would create"
+    },
+    {
+      "start": 1238.64,
+      "duration": 5.519,
+      "text": "your MCP JSON file, which you can see I"
+    },
+    {
+      "start": 1241.52,
+      "duration": 4.8,
+      "text": "already have one set up here. And just"
+    },
+    {
+      "start": 1244.159,
+      "duration": 5.041,
+      "text": "to make it easier to see, I've opened"
+    },
+    {
+      "start": 1246.32,
+      "duration": 5.28,
+      "text": "this.cloud folder in VS Code. And you"
+    },
+    {
+      "start": 1249.2,
+      "duration": 5.92,
+      "text": "can see I have my MCP.json"
+    },
+    {
+      "start": 1251.6,
+      "duration": 6.4,
+      "text": "file here. So again, anywhere you run"
+    },
+    {
+      "start": 1255.12,
+      "duration": 5.039,
+      "text": "Claude in any terminal, any project,"
+    },
+    {
+      "start": 1258,
+      "duration": 4.48,
+      "text": "these MCP servers are going to be"
+    },
+    {
+      "start": 1260.159,
+      "duration": 5.361,
+      "text": "loaded. And then you can see I have my"
+    },
+    {
+      "start": 1262.48,
+      "duration": 6,
+      "text": "MV file here, which is going to have all"
+    },
+    {
+      "start": 1265.52,
+      "duration": 6.32,
+      "text": "of the secrets required for these MCP"
+    },
+    {
+      "start": 1268.48,
+      "duration": 5.439,
+      "text": "servers. Now, once you have your config"
+    },
+    {
+      "start": 1271.84,
+      "duration": 4.64,
+      "text": "set up and your environment variables,"
+    },
+    {
+      "start": 1273.919,
+      "duration": 4.561,
+      "text": "you can go back to the terminal and now"
+    },
+    {
+      "start": 1276.48,
+      "duration": 5.52,
+      "text": "run MCpl"
+    },
+    {
+      "start": 1278.48,
+      "duration": 6.319,
+      "text": "space config. And you should see that"
+    },
+    {
+      "start": 1282,
+      "duration": 4.4,
+      "text": "the config has been properly loaded. And"
+    },
+    {
+      "start": 1284.799,
+      "duration": 6.321,
+      "text": "then the next step that you want to do"
+    },
+    {
+      "start": 1286.4,
+      "duration": 7.279,
+      "text": "is type mcpl space list."
+    },
+    {
+      "start": 1291.12,
+      "duration": 6.08,
+      "text": "And then you should see the list of MCP"
+    },
+    {
+      "start": 1293.679,
+      "duration": 4.801,
+      "text": "servers along with the tools in them. If"
+    },
+    {
+      "start": 1297.2,
+      "duration": 2.64,
+      "text": "it's your first time running it, you"
+    },
+    {
+      "start": 1298.48,
+      "duration": 5.92,
+      "text": "might not see that the tools have been"
+    },
+    {
+      "start": 1299.84,
+      "duration": 7.28,
+      "text": "cached yet. So you can run an MCPL list"
+    },
+    {
+      "start": 1304.4,
+      "duration": 4.8,
+      "text": "space d-refresh."
+    },
+    {
+      "start": 1307.12,
+      "duration": 5.12,
+      "text": "And this is going to go ahead and"
+    },
+    {
+      "start": 1309.2,
+      "duration": 5.52,
+      "text": "reconnect to all of the servers that are"
+    },
+    {
+      "start": 1312.24,
+      "duration": 5.12,
+      "text": "enabled at least and then go and then"
+    },
+    {
+      "start": 1314.72,
+      "duration": 4.64,
+      "text": "cache those tools."
+    },
+    {
+      "start": 1317.36,
+      "duration": 5.04,
+      "text": "And you should see a helpful message at"
+    },
+    {
+      "start": 1319.36,
+      "duration": 5.6,
+      "text": "the bottom too that points to the exact"
+    },
+    {
+      "start": 1322.4,
+      "duration": 5.12,
+      "text": "location of where it's loading this uh"
+    },
+    {
+      "start": 1324.96,
+      "duration": 5.599,
+      "text": "MCP config from. So you can see this is"
+    },
+    {
+      "start": 1327.52,
+      "duration": 6.639,
+      "text": "my global config, not in any specific"
+    },
+    {
+      "start": 1330.559,
+      "duration": 6.081,
+      "text": "project. And it's also loading the EMV"
+    },
+    {
+      "start": 1334.159,
+      "duration": 5.201,
+      "text": "file from that user level.cloud cloud"
+    },
+    {
+      "start": 1336.64,
+      "duration": 4.96,
+      "text": "folder. And that's it. You can now start"
+    },
+    {
+      "start": 1339.36,
+      "duration": 4.72,
+      "text": "exploring all of the tools that are in"
+    },
+    {
+      "start": 1341.6,
+      "duration": 5.36,
+      "text": "each MCP server. Try calling some just"
+    },
+    {
+      "start": 1344.08,
+      "duration": 5.839,
+      "text": "to make sure that the connections work."
+    },
+    {
+      "start": 1346.96,
+      "duration": 5.839,
+      "text": "And you can go crazy adding as many MCPS"
+    },
+    {
+      "start": 1349.919,
+      "duration": 5.76,
+      "text": "as you want. Now, the final piece to get"
+    },
+    {
+      "start": 1352.799,
+      "duration": 6.321,
+      "text": "it to work with Cloud Code is to tell"
+    },
+    {
+      "start": 1355.679,
+      "duration": 6.561,
+      "text": "Cloud Code that it has access to the MCP"
+    },
+    {
+      "start": 1359.12,
+      "duration": 6.88,
+      "text": "Launchpad CLI tool. And so I've also"
+    },
+    {
+      "start": 1362.24,
+      "duration": 6.4,
+      "text": "included in the repo the instructions to"
+    },
+    {
+      "start": 1366,
+      "duration": 5.84,
+      "text": "do that down here which is basically"
+    },
+    {
+      "start": 1368.64,
+      "duration": 5.919,
+      "text": "just to copy this claude.md file which I"
+    },
+    {
+      "start": 1371.84,
+      "duration": 4.56,
+      "text": "already created for you. I'll scroll up."
+    },
+    {
+      "start": 1374.559,
+      "duration": 4.401,
+      "text": "You can see it's right here. So if I"
+    },
+    {
+      "start": 1376.4,
+      "duration": 5.519,
+      "text": "click into that cloud MD file. This is"
+    },
+    {
+      "start": 1378.96,
+      "duration": 6.959,
+      "text": "just a very highle prompt that describes"
+    },
+    {
+      "start": 1381.919,
+      "duration": 6.961,
+      "text": "what the MCP Launchpad is and gives it a"
+    },
+    {
+      "start": 1385.919,
+      "duration": 6.481,
+      "text": "few example commands in order to start"
+    },
+    {
+      "start": 1388.88,
+      "duration": 6.24,
+      "text": "using the MCP Launchpad and discovering"
+    },
+    {
+      "start": 1392.4,
+      "duration": 5.2,
+      "text": "tools. So all you want to do is copy"
+    },
+    {
+      "start": 1395.12,
+      "duration": 4.48,
+      "text": "this Claude MD file. If you don't"
+    },
+    {
+      "start": 1397.6,
+      "duration": 4.8,
+      "text": "already have one, you can copy it into"
+    },
+    {
+      "start": 1399.6,
+      "duration": 5.28,
+      "text": "your project level. Or if again you're"
+    },
+    {
+      "start": 1402.4,
+      "duration": 4.639,
+      "text": "configuring this to be global, which I"
+    },
+    {
+      "start": 1404.88,
+      "duration": 6.08,
+      "text": "highly recommend, then you want to copy"
+    },
+    {
+      "start": 1407.039,
+      "duration": 6.081,
+      "text": "this into your cloud. MD file inside of"
+    },
+    {
+      "start": 1410.96,
+      "duration": 5.04,
+      "text": "your user level directory. So I'll"
+    },
+    {
+      "start": 1413.12,
+      "duration": 7.28,
+      "text": "switch back over to mycloud"
+    },
+    {
+      "start": 1416,
+      "duration": 7.2,
+      "text": "user level folder and open this up. I"
+    },
+    {
+      "start": 1420.4,
+      "duration": 4.8,
+      "text": "have some of my own other working"
+    },
+    {
+      "start": 1423.2,
+      "duration": 3.839,
+      "text": "instructions, but I'll just scroll down"
+    },
+    {
+      "start": 1425.2,
+      "duration": 4.16,
+      "text": "so you can see it here. So, here's the"
+    },
+    {
+      "start": 1427.039,
+      "duration": 5.201,
+      "text": "exact text from that cloud MD file"
+    },
+    {
+      "start": 1429.36,
+      "duration": 5.04,
+      "text": "that's been pasted in. I also just added"
+    },
+    {
+      "start": 1432.24,
+      "duration": 4.08,
+      "text": "this extra piece myself because I"
+    },
+    {
+      "start": 1434.4,
+      "duration": 4.08,
+      "text": "already know what MCP servers I've"
+    },
+    {
+      "start": 1436.32,
+      "duration": 6,
+      "text": "connected. So, so it's definitely"
+    },
+    {
+      "start": 1438.48,
+      "duration": 6.4,
+      "text": "helpful if you list the MCP servers that"
+    },
+    {
+      "start": 1442.32,
+      "duration": 5.359,
+      "text": "are available. So, it doesn't have to"
+    },
+    {
+      "start": 1444.88,
+      "duration": 5.6,
+      "text": "list them and guess what's there. And it"
+    },
+    {
+      "start": 1447.679,
+      "duration": 5.841,
+      "text": "would probably help even more to add a"
+    },
+    {
+      "start": 1450.48,
+      "duration": 5.12,
+      "text": "little snippet or description of what it"
+    },
+    {
+      "start": 1453.52,
+      "duration": 4.48,
+      "text": "should use those servers for. But that's"
+    },
+    {
+      "start": 1455.6,
+      "duration": 5.199,
+      "text": "it. Cloud Code will now be able to use"
+    },
+    {
+      "start": 1458,
+      "duration": 6.08,
+      "text": "the MCP Launchpad really effectively"
+    },
+    {
+      "start": 1460.799,
+      "duration": 6,
+      "text": "just with this small amount of"
+    },
+    {
+      "start": 1464.08,
+      "duration": 5.04,
+      "text": "instructions. Now, my feeling is that"
+    },
+    {
+      "start": 1466.799,
+      "duration": 5.041,
+      "text": "this should already exist and I wouldn't"
+    },
+    {
+      "start": 1469.12,
+      "duration": 5.28,
+      "text": "be surprised if Cloud Code implements"
+    },
+    {
+      "start": 1471.84,
+      "duration": 5.04,
+      "text": "something similar in the near future"
+    },
+    {
+      "start": 1474.4,
+      "duration": 5.279,
+      "text": "because it's kind of just a no-brainer"
+    },
+    {
+      "start": 1476.88,
+      "duration": 6.24,
+      "text": "to use some kind of tool discovery"
+    },
+    {
+      "start": 1479.679,
+      "duration": 5.521,
+      "text": "method that really preserves the context"
+    },
+    {
+      "start": 1483.12,
+      "duration": 3.919,
+      "text": "window. So, I'm sure we'll be seeing an"
+    },
+    {
+      "start": 1485.2,
+      "duration": 4.56,
+      "text": "update soon that will build something"
+    },
+    {
+      "start": 1487.039,
+      "duration": 4.64,
+      "text": "similar into Claude Code. But until"
+    },
+    {
+      "start": 1489.76,
+      "duration": 4.08,
+      "text": "then, feel free to use the MCP"
+    },
+    {
+      "start": 1491.679,
+      "duration": 3.921,
+      "text": "Launchpad. That is going to do it for"
+    },
+    {
+      "start": 1493.84,
+      "duration": 3.68,
+      "text": "today's video. I hope you learned"
+    },
+    {
+      "start": 1495.6,
+      "duration": 3.439,
+      "text": "something. I hope you found this useful."
+    },
+    {
+      "start": 1497.52,
+      "duration": 4.399,
+      "text": "In the next video, I'm going to do a"
+    },
+    {
+      "start": 1499.039,
+      "duration": 5.12,
+      "text": "follow-up on my personal assistant since"
+    },
+    {
+      "start": 1501.919,
+      "duration": 4,
+      "text": "I've made a lot of upgrades to it and"
+    },
+    {
+      "start": 1504.159,
+      "duration": 3.76,
+      "text": "it's working a lot better. It's"
+    },
+    {
+      "start": 1505.919,
+      "duration": 4.561,
+      "text": "evolving, so I want to share that with"
+    },
+    {
+      "start": 1507.919,
+      "duration": 4.801,
+      "text": "you guys. So, make sure to subscribe and"
+    },
+    {
+      "start": 1510.48,
+      "duration": 4.16,
+      "text": "turn on the notifications. Thank you"
+    },
+    {
+      "start": 1512.72,
+      "duration": 5.48,
+      "text": "guys again so much for watching and I'll"
+    },
+    {
+      "start": 1514.64,
+      "duration": 3.56,
+      "text": "see you in the next one."
+    },
+    {
+      "start": 1518.307,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 1530.752,
+      "duration": 2.02,
+      "text": ">> [music]"
+    }
+  ],
+  "fullText": "I've been saying this for a while. There is a massive problem with using MCP servers right now, especially with Claude Code or other coding agents, and that is how much context they take up. This is what my Claude Codes context window looks like when I'm connected to these seven MCP servers, which I use on a daily basis. Claude's context window, as we know, has a 200,000 token limit. And if you look at this line here for the MCP tools, you can see we have with these seven servers taken up around 100,000 tokens or 50% of that context window, which is insane. You can see that visually over here by all of these blue token stack icons taking up about half of the graph. So, this is a real problem because we obviously need to give our agents access to all of these really powerful tools, but doing it this way just doesn't work well and it definitely doesn't scale. If I added just a couple of more MCP servers, I would potentially just take up the entire context window and not be able to chat with Claude at all. I'm only left with about 36,000 tokens of free space in order to now start my conversation. So today I'm going to show you a better way where you can still give Cloud Code access to these MCP servers. Actually access to dozens and dozens of MCP servers with potentially thousands of tools across them. all while retaining 100% of this context. So instead of looking like this, your context window will look more like this. If you're like me, you've been really amazed by how far Frontier models have come. They're so good at thinking through problems now, and their improved reasoning allows them to more effectively solve long horizon tasks. both more autonomously and reliably, making them feel more intelligent. Now, in order to take advantage of all of this and get them to do more work for you, we need to give them access to tools, lots and lots of tools. And MCPs are the typical way to do this. They're easy to set up and instantly give your agent access to hundreds of new capabilities. But connecting them directly to Claude like this, which is the typical way, you get this problem like we just saw. And from looking at this, you might think that your biggest problem is the fact that you don't have a ton of free space here for your conversation with Claude. And that is true, but there's another really big problem with this. In my last video on context engineering, I discussed a paper published by Chroma on this idea of context rot. And we saw that in that paper they did a bunch of tests and showed in many different ways that the performance of agents degrades as you fill up more and more of the context window. And even worse than that, if the context is filled with a bunch of irrelevant information, then it tends to distract the agent and degrades the performance even more. I highly recommend checking out that video if you haven't to understand the importance of context engineering and how we can use it to optimize cloud code's performance. In my last video, I also mentioned this idea of instead of using a bunch of MCP servers, what if we just created a bunch of CLI tools or scripts and then tell Claude that it has access to a bunch of different tools and capabilities through the terminal, effectively giving Claude access to thousands of tools, but initially only taking a very small amount of tokens in the system prompt. And this idea of letting cloud do its own tool discovery just follows the principles of progressive disclosure where cloud only needs a certain context for a tool if it has already decided it needs a certain tool to perform an action. So going back to this example, if I'm asking Claude to look into an error I got in the application I'm building and ask it to go into Sentry, it potentially would only need one or two tools from this Sentry MCP server. But again, by having all of these MCP servers connected directly to Claude, we're diluting the important information by stuffing in all of the tool definitions for these irrelevant MCP tools. So, here's an actual working example where I've had Cloud Code build different CLI tools for me using UV. And so, they're all installed as UV tools. So in the terminal, if Claude was just to run UV tool list, it would see all of these different CLI tools. And at this point, Claude could just run any one of these CLI commands. Let's use thumb as an example in order to see what that CLI tool does. So here it would see that this is a YouTube thumbnail generator using Gemini and decide whether it needs to use one of these tools or not. So, how does this help us with MCPs? Because MCPs, as we mentioned, are already available. They're super easy to use and set up and really convenient. So, you don't have to build your own CLI tools or connect them to APIs and stuff. The best way that I've found is to have one unified tool that all of your MCP servers are connected to and where Cloud Code only needs to interact with that one tool. So this is what Claude Code and I built together. It's the MCP Launchpad and it's essentially one CLI tool to rule them all. And I have been using this now for several weeks and it works amazingly. I've been improving it over time and am really excited to share it with you. So let's first see it in action and then I will show you how to set it up for yourself. Once MCP Launchpad is installed on your system, it will be available globally. So you can access it from any project and any terminal. And most importantly, Cloud Code can access it from anywhere on your system. So whatever project you're working on, it will be able to use all of these different MCP servers that you connect. So I'm just in this test folder to show you this example. But if I run MCPL, which stands for the MCP Launchpad, you'll see we get this initial help menu on usage. And you can play around with this to learn how it works. There's also good documentation in the repo, but I'll just walk you through some useful commands. So, if we do mcpl config, you can actually see what's in the mcp json file and all of the servers that are configured. You'll also see next to each server whether it's enabled or disabled. So since we're using this as a gateway, sometimes we want to turn some servers on and off depending on our needs. And so if we go back up to the help menu again, you can see that you can enable or disable servers really easily with just these two commands. So looking at the configuration is going to be useful for debugging or figuring out what environment variables are required by each server. We can also use this command to list all of the servers themselves as well as look at all the tools within a server. So by typing mcpl list, you'll get a list of the servers and you might see something like this if it's your first time running it where it'll say that the servers are not cached. This just means that the servers haven't been connected to. But once you connect to the MCP servers, it'll cache all of the tools. So you don't have to actually connect to the MCP servers themselves every single time you want to browse the tools. So in order to actually connect to the MCP servers and then cache all of the tools that are available, you can run MCPL list and pass the option for refresh. So once you do that, you'll see it just connect to every server, get all of the tool definitions, and then cache them locally. Once that's done, we can explore what tools are available in each server. So again, you can run mcpl list and this time pass in the name of a server. So we can do the first one, render, and you'll see all of the tools in this server. You can also get more details for any given tool, including the full tool schema by using the inspect command. So, mcpl inspect and then because we have multiple servers connected, you first want to pass in the server name and then the tool. So, let's just get one of these. Uh, let's say get service. So, here we're going to inspect the get service tool in the render MCP server. And if we do that, you get the actual JSON schema for that tool. And this is how Claude Code will be using the MCP Launchpad to discover tools and learn how to use them on the fly as it needs to. But I want to show you the coolest part about this. I'm going to bring up the help menu once again by just running MCPL. And you'll notice that there's this search function. Remember that we connected to each MCP server and cached all of the tools in that server. So, we now have all of the tool schemas for every single tool that we have access to across all of our MCPS and have built a semantic search using BM25. Don't worry if you don't know what that means. It's just a fancier search than normal keyword search where it's going to look for something that's related more semantically to what you're looking for. So, as an example, we can do MCpl and then pass in a search term. So, let's say something like um issues and we'll get the top five tools that are most similar to our search term issues. So, we get a ton of tools from Sentry, but we also get issues for linear. What if I wanted to look for tools for connecting to a database? I could type in MCplarch SQL and then you can see we get our execute SQL tool from Superbase. Now, this makes the MCP Launchpad so much more powerful because Claude doesn't even have to navigate all of the menus that I just showed you in order to find these tools manually. It can just search for tools based on the task that it's trying to accomplish. And you can see how this makes it so much more scalable. In this example, I've only connected seven MCP servers, but almost every week I'm thinking of another MCP server that I want to be using. But you can imagine if you have again dozens and dozens of MCP servers adding up to thousands and thousands of tools, it's going to be pretty tedious to hierarchically move through these menus to find specific tools and that's also going to take up context. So having something like this search function where you only get the specific information you're looking for and the exact tool for the given task makes things way more efficient. By the way, I am super curious what MCP servers you guys find the most useful for your workflows. Let me know in the comments below what they are cuz I'm always looking to try new MCP servers. I want to show you just a really tiny preview of Claude using the MCP Launchpad to discover tools. So, I'm going to spin it up and I'm going to just start by asking what MCPS it has access to. So, you can see because I mentioned MCPS, it knows that it has access to the MCP Launchpad because I've mentioned it in the cloud MD file. So, so there's a very small amount of context, just kind of an overview talking about the MCP Launchpad and how it can discover and connect to different MCP servers that I put into the CloudMD file. So, that's all the context it has. In order to see what's actually in them, it calls the MCPL list tool. It can also see what servers are active and disabled. So now we can ask it for a specific tool. Do you have any tools for querying databases? So here you can see it runs two searches. So it first runs a search for query database and then it runs another search specifically for SQL. And then it's able to come up with this exhaustive list of tools available for querying our databases either on Superbase or on render. Now this is a contrived example because I'm asking it specifically questions about these tools. But you can imagine as it's working and realizes it needs some functionality, it will also be able to use this search tool to do exactly what it just did and essentially look for a SQL execution tool, for example, when it needs to query the database. And as a real use case for where Cloud Code is actually using the MCP Launchpad CLI every single day is in this project that I have for a production app. This is my linear for this project and I have a ton of tasks here that Claude has been working on and helping me fix. So you can see I have a huge backlog and because Claude is connected to linear it's obviously able to see all of these issues. So for example I can ask what's the most urgent issue that we have for the app and it should be able to search linear to understand uh what the top issues are. So there you saw it it calls the uh list issues tool from linear and it'll be able to summarize all of the important issues we have. And from this I could just tell it to work on whatever highest priority we have in the backlog. And you can imagine if it's a bug or an issue in the database, it's going to leverage again the MCP Launchpad CLI to interact with the database on Superbase or Sentry to find uh errors and traces. Linear for managing all of the tickets, etc. Now, obviously, this is an example for coding because it's what I've been using it a lot for lately, but you can imagine connecting any kind of MCP. And whatever your workflow is, whatever you're working on, tying together many different functionalities through MCP servers, all through the MCP Launchpad and having Claude be able to accomplish all kinds of tasks. So now I'll show you how you can set this up and start using it to connect your cloud to thousands of tools. Using MCP Launchpad is super easy. Head to the repo which is linked in the description and you can follow the instructions on here, but I'll just walk you through it right now. You're going to need to have Python and UV installed. If you don't, just head over to this link. It'll take you less than a minute to install UV. Once you have that, we're going to be installing MCP Launchpad as a UV tool using this command. So, you can literally just copy this and then open any terminal and paste this command in. You'll see that it installs two executables and then you should be able to run the command mcpl from the terminal and see the help menu that pops up. This confirms that you installed it properly. Next, you want to configure your MCP servers. So, you might already have an MCP.JSON file laying around, but if not, you're just going to want to create this file either in the project directory that you're working in or in your user level.cloud folder, which I'll show you in a bit. So, as an example, if this was my config, I would just copy this and go to a project folder like this is for this MCP Launchpad project. And you can see I have no MCP configuration yet. So I'm just going to create a new file and call it MCP.json and then paste this in. Now this is important. It has to be named MCP.json. You don't want to put a dot before MCP because that is the naming convention that Cloud Code uses and Cloud Code will be looking for a MCP.json JSON in this project folder. So to avoid colliding with cloud code MCP servers, we just omit the period in the beginning of this name. So if you create the MCP JSON configuration in a project like this, then MCP Launchpad will only be able to connect to the MCP servers when you're using it in this specific project directory. So if you want your MCP servers to be available across your entire system, basically wherever cloud code is working, then I highly recommend doing this in the user level.Cloud folder, which I'll show you after this. But before that, if your MCP configs require any environment variables, you can use this notation with the dollar sign, curly brackets, and then the name of the secret. And then you want to create av file and define your key in here. So let's say this is my API key. So when MCP Launchpad uses this configuration to connect to your MCP servers, it's automatically going to load any environment variables from this file and parse it into this config to connect properly. Now, just like with the mcp.json, thisv file can be created both here or in your userle.cloud folder if you want it to be available systemwide. So, the EMV file you create here again will only be available for configurations in this project. And just like in cloud code, this works using a priority system where any MCP servers that you configure in your project here will take precedence over servers defined globally. So just keep that in mind. That's a nice way to control project specific configurations. Now, if you want to make your MCP servers available globally all the time, which is the way I recommend to set this up because again, we're not worried about taking up additional context, then what you want to do is go to your user level folder. So, on a Mac, it's just going to be in your users directory and then your username. It should be similar on Windows. And you're going to need to expose hidden folders because the docloud folder is hidden. So on Mac, that's shift command period. And then you're going to open this.cloud folder. And in here is where you would create your MCP JSON file, which you can see I already have one set up here. And just to make it easier to see, I've opened this.cloud folder in VS Code. And you can see I have my MCP.json file here. So again, anywhere you run Claude in any terminal, any project, these MCP servers are going to be loaded. And then you can see I have my MV file here, which is going to have all of the secrets required for these MCP servers. Now, once you have your config set up and your environment variables, you can go back to the terminal and now run MCpl space config. And you should see that the config has been properly loaded. And then the next step that you want to do is type mcpl space list. And then you should see the list of MCP servers along with the tools in them. If it's your first time running it, you might not see that the tools have been cached yet. So you can run an MCPL list space d-refresh. And this is going to go ahead and reconnect to all of the servers that are enabled at least and then go and then cache those tools. And you should see a helpful message at the bottom too that points to the exact location of where it's loading this uh MCP config from. So you can see this is my global config, not in any specific project. And it's also loading the EMV file from that user level.cloud cloud folder. And that's it. You can now start exploring all of the tools that are in each MCP server. Try calling some just to make sure that the connections work. And you can go crazy adding as many MCPS as you want. Now, the final piece to get it to work with Cloud Code is to tell Cloud Code that it has access to the MCP Launchpad CLI tool. And so I've also included in the repo the instructions to do that down here which is basically just to copy this claude.md file which I already created for you. I'll scroll up. You can see it's right here. So if I click into that cloud MD file. This is just a very highle prompt that describes what the MCP Launchpad is and gives it a few example commands in order to start using the MCP Launchpad and discovering tools. So all you want to do is copy this Claude MD file. If you don't already have one, you can copy it into your project level. Or if again you're configuring this to be global, which I highly recommend, then you want to copy this into your cloud. MD file inside of your user level directory. So I'll switch back over to mycloud user level folder and open this up. I have some of my own other working instructions, but I'll just scroll down so you can see it here. So, here's the exact text from that cloud MD file that's been pasted in. I also just added this extra piece myself because I already know what MCP servers I've connected. So, so it's definitely helpful if you list the MCP servers that are available. So, it doesn't have to list them and guess what's there. And it would probably help even more to add a little snippet or description of what it should use those servers for. But that's it. Cloud Code will now be able to use the MCP Launchpad really effectively just with this small amount of instructions. Now, my feeling is that this should already exist and I wouldn't be surprised if Cloud Code implements something similar in the near future because it's kind of just a no-brainer to use some kind of tool discovery method that really preserves the context window. So, I'm sure we'll be seeing an update soon that will build something similar into Claude Code. But until then, feel free to use the MCP Launchpad. That is going to do it for today's video. I hope you learned something. I hope you found this useful. In the next video, I'm going to do a follow-up on my personal assistant since I've made a lot of upgrades to it and it's working a lot better. It's evolving, so I want to share that with you guys. So, make sure to subscribe and turn on the notifications. Thank you guys again so much for watching and I'll see you in the next one. [music] >> [music]",
+  "fetchedAt": "2026-01-18T18:33:19.529Z"
+}

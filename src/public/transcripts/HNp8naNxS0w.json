@@ -1,0 +1,674 @@
+{
+  "videoId": "HNp8naNxS0w",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.76,
+      "text": "jQuery 4 is finally here. And no, don't"
+    },
+    {
+      "start": 2.56,
+      "duration": 2.799,
+      "text": "worry, you haven't traveled back in"
+    },
+    {
+      "start": 3.84,
+      "duration": 4.079,
+      "text": "time. This is just our first major"
+    },
+    {
+      "start": 5.359,
+      "duration": 4.961,
+      "text": "version update since 2016. It's been in"
+    },
+    {
+      "start": 7.919,
+      "duration": 5.041,
+      "text": "beta for 2 years, and it comes 20 years"
+    },
+    {
+      "start": 10.32,
+      "duration": 3.84,
+      "text": "after jQuery was first introduced. And"
+    },
+    {
+      "start": 12.96,
+      "duration": 3.92,
+      "text": "it might surprise you to learn that"
+    },
+    {
+      "start": 14.16,
+      "duration": 4.879,
+      "text": "jQuery is still pretty important. 88% of"
+    },
+    {
+      "start": 16.88,
+      "duration": 3.84,
+      "text": "all websites still use it, thanks mostly"
+    },
+    {
+      "start": 19.039,
+      "duration": 3.121,
+      "text": "probably to WordPress. But you can also"
+    },
+    {
+      "start": 20.72,
+      "duration": 3.36,
+      "text": "see there's still some pretty big names"
+    },
+    {
+      "start": 22.16,
+      "duration": 4.08,
+      "text": "that are running it, too. I mean, if it"
+    },
+    {
+      "start": 24.08,
+      "duration": 3.68,
+      "text": "ain't broke, don't fix it. Except this"
+    },
+    {
+      "start": 26.24,
+      "duration": 3.119,
+      "text": "update might actually break some things"
+    },
+    {
+      "start": 27.76,
+      "duration": 3.2,
+      "text": "as they've used this one to make all of"
+    },
+    {
+      "start": 29.359,
+      "duration": 3.121,
+      "text": "the breaking changes they've wanted to"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.84,
+      "text": "make for years, including trimming"
+    },
+    {
+      "start": 32.48,
+      "duration": 4.239,
+      "text": "legacy code, removing deprecated APIs"
+    },
+    {
+      "start": 34.8,
+      "duration": 4.56,
+      "text": "and never documented functions, and just"
+    },
+    {
+      "start": 36.719,
+      "duration": 4.16,
+      "text": "a whole host of bug fixes. So, let's"
+    },
+    {
+      "start": 39.36,
+      "duration": 3.68,
+      "text": "just dive right in, take a look at the"
+    },
+    {
+      "start": 40.879,
+      "duration": 6.2,
+      "text": "key changes, and just how far J Career"
+    },
+    {
+      "start": 43.04,
+      "duration": 4.039,
+      "text": "has come in 20 years."
+    },
+    {
+      "start": 49.52,
+      "duration": 4,
+      "text": "For the first big change, Paul went out"
+    },
+    {
+      "start": 51.28,
+      "duration": 4.32,
+      "text": "for Internet Explorer 10 and below."
+    },
+    {
+      "start": 53.52,
+      "duration": 3.519,
+      "text": "Support for this has now been dropped,"
+    },
+    {
+      "start": 55.6,
+      "duration": 3.439,
+      "text": "but don't panic if you're watching this"
+    },
+    {
+      "start": 57.039,
+      "duration": 4,
+      "text": "on Internet Explorer 11. Support for"
+    },
+    {
+      "start": 59.039,
+      "duration": 3.52,
+      "text": "that won't be dropped until jQuery 5."
+    },
+    {
+      "start": 61.039,
+      "duration": 3.44,
+      "text": "So, you still have some time to hit that"
+    },
+    {
+      "start": 62.559,
+      "duration": 4.321,
+      "text": "subscribe button. Alongside this, they"
+    },
+    {
+      "start": 64.479,
+      "duration": 4.161,
+      "text": "also drop support for Edge Legacy, iOS"
+    },
+    {
+      "start": 66.88,
+      "duration": 3.52,
+      "text": "versions earlier than the last three,"
+    },
+    {
+      "start": 68.64,
+      "duration": 4.159,
+      "text": "Firefox versions earlier than the last"
+    },
+    {
+      "start": 70.4,
+      "duration": 4.48,
+      "text": "two and also Android browser. So, you"
+    },
+    {
+      "start": 72.799,
+      "duration": 4,
+      "text": "can see we are really modernizing now."
+    },
+    {
+      "start": 74.88,
+      "duration": 3.599,
+      "text": "In fact, the next three changes are all"
+    },
+    {
+      "start": 76.799,
+      "duration": 3.441,
+      "text": "about that. So, moving on to change"
+    },
+    {
+      "start": 78.479,
+      "duration": 4.401,
+      "text": "number two now. Migrating the jQuery"
+    },
+    {
+      "start": 80.24,
+      "duration": 4.08,
+      "text": "source code from AMD to ES modules. So,"
+    },
+    {
+      "start": 82.88,
+      "duration": 3.599,
+      "text": "it should now play nicely with V,"
+    },
+    {
+      "start": 84.32,
+      "duration": 4.24,
+      "text": "Webpack, and modern build systems with"
+    },
+    {
+      "start": 86.479,
+      "duration": 3.921,
+      "text": "no tricks required. So, why not give it"
+    },
+    {
+      "start": 88.56,
+      "duration": 3.519,
+      "text": "a go and install it in your next project"
+    },
+    {
+      "start": 90.4,
+      "duration": 3.359,
+      "text": "just for a little bit of fun or maybe"
+    },
+    {
+      "start": 92.079,
+      "duration": 3.121,
+      "text": "for some nostalgia. And talking of"
+    },
+    {
+      "start": 93.759,
+      "duration": 3.281,
+      "text": "nostalgia, this update will actually"
+    },
+    {
+      "start": 95.2,
+      "duration": 3.36,
+      "text": "show you just how far JavaScript has"
+    },
+    {
+      "start": 97.04,
+      "duration": 3.28,
+      "text": "come because for change number three,"
+    },
+    {
+      "start": 98.56,
+      "duration": 3.919,
+      "text": "they've removed a bunch of jQuery"
+    },
+    {
+      "start": 100.32,
+      "duration": 4,
+      "text": "functions because JavaScript has just"
+    },
+    {
+      "start": 102.479,
+      "duration": 4.801,
+      "text": "caught up. They include things like is"
+    },
+    {
+      "start": 104.32,
+      "duration": 5.6,
+      "text": "array, pass, JSON, trim, now is numeric"
+    },
+    {
+      "start": 107.28,
+      "duration": 4.479,
+      "text": "is function, and loads loads more. You"
+    },
+    {
+      "start": 109.92,
+      "duration": 3.76,
+      "text": "can now do pretty much all of these in"
+    },
+    {
+      "start": 111.759,
+      "duration": 3.761,
+      "text": "JavaScript. itself without the need for"
+    },
+    {
+      "start": 113.68,
+      "duration": 3.2,
+      "text": "an additional library. I mean, it's kind"
+    },
+    {
+      "start": 115.52,
+      "duration": 3.279,
+      "text": "of crazy that we need an additional"
+    },
+    {
+      "start": 116.88,
+      "duration": 4,
+      "text": "library to do some of these in the first"
+    },
+    {
+      "start": 118.799,
+      "duration": 4.32,
+      "text": "place, but that's the way that languages"
+    },
+    {
+      "start": 120.88,
+      "duration": 4.4,
+      "text": "have to evolve. And talking of evolving,"
+    },
+    {
+      "start": 123.119,
+      "duration": 4.081,
+      "text": "browsers also evolve as well. So, for"
+    },
+    {
+      "start": 125.28,
+      "duration": 3.92,
+      "text": "change number four, the last big one of"
+    },
+    {
+      "start": 127.2,
+      "duration": 4.08,
+      "text": "the modernization updates, they finally"
+    },
+    {
+      "start": 129.2,
+      "duration": 3.44,
+      "text": "fixed focus order. If you didn't know,"
+    },
+    {
+      "start": 131.28,
+      "duration": 3.52,
+      "text": "for years, browsers didn't actually"
+    },
+    {
+      "start": 132.64,
+      "duration": 3.84,
+      "text": "agree on an order of focus and blur"
+    },
+    {
+      "start": 134.8,
+      "duration": 3.28,
+      "text": "events. So, jQuery had its own"
+    },
+    {
+      "start": 136.48,
+      "duration": 3.52,
+      "text": "definition so it would be consistent"
+    },
+    {
+      "start": 138.08,
+      "duration": 3.76,
+      "text": "across all of them. But now since"
+    },
+    {
+      "start": 140,
+      "duration": 4,
+      "text": "they're deprecating the old browsers,"
+    },
+    {
+      "start": 141.84,
+      "duration": 4.72,
+      "text": "all supported browsers except Internet"
+    },
+    {
+      "start": 144,
+      "duration": 4.56,
+      "text": "Explorer have the exact same order. So"
+    },
+    {
+      "start": 146.56,
+      "duration": 3.84,
+      "text": "jQuery is no longer going to override"
+    },
+    {
+      "start": 148.56,
+      "duration": 3.92,
+      "text": "the native behavior. You can really see"
+    },
+    {
+      "start": 150.4,
+      "duration": 4.24,
+      "text": "the team focused on making jQuery modern"
+    },
+    {
+      "start": 152.48,
+      "duration": 3.759,
+      "text": "here as much of what made jQuery useful"
+    },
+    {
+      "start": 154.64,
+      "duration": 3.92,
+      "text": "in the past has just been added to"
+    },
+    {
+      "start": 156.239,
+      "duration": 4.321,
+      "text": "JavaScript eventually. Anyways, there is"
+    },
+    {
+      "start": 158.56,
+      "duration": 3.44,
+      "text": "still a few things in jQuery that can be"
+    },
+    {
+      "start": 160.56,
+      "duration": 2.959,
+      "text": "modernized, like that deferreds and"
+    },
+    {
+      "start": 162,
+      "duration": 3.2,
+      "text": "callbacks which can be replaced with"
+    },
+    {
+      "start": 163.519,
+      "duration": 3.521,
+      "text": "promises unless you're on Internet"
+    },
+    {
+      "start": 165.2,
+      "duration": 3.679,
+      "text": "Explorer 11. or there's some animations"
+    },
+    {
+      "start": 167.04,
+      "duration": 4.64,
+      "text": "that people do with jQuery that are now"
+    },
+    {
+      "start": 168.879,
+      "duration": 4.481,
+      "text": "pretty easy to do in CSS. So, if you do"
+    },
+    {
+      "start": 171.68,
+      "duration": 3.12,
+      "text": "want to take it one step further,"
+    },
+    {
+      "start": 173.36,
+      "duration": 3.28,
+      "text": "they've actually made that slim build"
+    },
+    {
+      "start": 174.8,
+      "duration": 4.48,
+      "text": "strip out a load of these extra modules,"
+    },
+    {
+      "start": 176.64,
+      "duration": 3.92,
+      "text": "making it just 19.5 kilobytes. And I"
+    },
+    {
+      "start": 179.28,
+      "duration": 2.959,
+      "text": "actually think this is quite a good"
+    },
+    {
+      "start": 180.56,
+      "duration": 3.2,
+      "text": "approach to still offer those functions"
+    },
+    {
+      "start": 182.239,
+      "duration": 3.201,
+      "text": "in the full package for those that might"
+    },
+    {
+      "start": 183.76,
+      "duration": 3.52,
+      "text": "need them, but then offer a slim build"
+    },
+    {
+      "start": 185.44,
+      "duration": 3.6,
+      "text": "that doesn't have any of the extras that"
+    },
+    {
+      "start": 187.28,
+      "duration": 3.28,
+      "text": "are unneeded these days. So, that's it"
+    },
+    {
+      "start": 189.04,
+      "duration": 3.119,
+      "text": "for the key headline changes, but"
+    },
+    {
+      "start": 190.56,
+      "duration": 3.52,
+      "text": "obviously there's been a ton of bug"
+    },
+    {
+      "start": 192.159,
+      "duration": 4.08,
+      "text": "fixes and minor tweaks, some of them"
+    },
+    {
+      "start": 194.08,
+      "duration": 4.4,
+      "text": "dating back years. The oldest I could"
+    },
+    {
+      "start": 196.239,
+      "duration": 5.121,
+      "text": "find was from 2014 and it related to"
+    },
+    {
+      "start": 198.48,
+      "duration": 4.399,
+      "text": "jQuery autopromoting JSON to JSON P"
+    },
+    {
+      "start": 201.36,
+      "duration": 3.92,
+      "text": "which has now been fixed. And there's"
+    },
+    {
+      "start": 202.879,
+      "duration": 4.72,
+      "text": "even an issue from 2015 which I actually"
+    },
+    {
+      "start": 205.28,
+      "duration": 4.48,
+      "text": "remember running into where jQuery CSS"
+    },
+    {
+      "start": 207.599,
+      "duration": 4.401,
+      "text": "setter would automatically append pixels"
+    },
+    {
+      "start": 209.76,
+      "duration": 4.8,
+      "text": "to any number that didn't specify a"
+    },
+    {
+      "start": 212,
+      "duration": 4,
+      "text": "unit. This too has now been fixed."
+    },
+    {
+      "start": 214.56,
+      "duration": 2.88,
+      "text": "There's loads more that you can go and"
+    },
+    {
+      "start": 216,
+      "duration": 3.76,
+      "text": "explore yourself in there. There's even"
+    },
+    {
+      "start": 217.44,
+      "duration": 4,
+      "text": "some casual fixes like fixing typos, but"
+    },
+    {
+      "start": 219.76,
+      "duration": 3.839,
+      "text": "obviously these would take a while to"
+    },
+    {
+      "start": 221.44,
+      "duration": 4,
+      "text": "cover in this video. And personally, I"
+    },
+    {
+      "start": 223.599,
+      "duration": 3.761,
+      "text": "just wanted to take a look at jQuery,"
+    },
+    {
+      "start": 225.44,
+      "duration": 3.439,
+      "text": "see how far it's come, as it's such an"
+    },
+    {
+      "start": 227.36,
+      "duration": 3.519,
+      "text": "awesome piece of web development"
+    },
+    {
+      "start": 228.879,
+      "duration": 4,
+      "text": "history. And perhaps it's even rude to"
+    },
+    {
+      "start": 230.879,
+      "duration": 4.481,
+      "text": "say history when it's still so actively"
+    },
+    {
+      "start": 232.879,
+      "duration": 4.401,
+      "text": "used and maintained. Now, obviously, I"
+    },
+    {
+      "start": 235.36,
+      "duration": 3.92,
+      "text": "wouldn't go and use jQuery today instead"
+    },
+    {
+      "start": 237.28,
+      "duration": 3.76,
+      "text": "of React or whatever modern framework,"
+    },
+    {
+      "start": 239.28,
+      "duration": 3.36,
+      "text": "but it just serves as a reminder that"
+    },
+    {
+      "start": 241.04,
+      "duration": 4,
+      "text": "the web is built on layers of"
+    },
+    {
+      "start": 242.64,
+      "duration": 4.159,
+      "text": "technology, and sometimes the boring,"
+    },
+    {
+      "start": 245.04,
+      "duration": 3.52,
+      "text": "simple, and old tools are actually the"
+    },
+    {
+      "start": 246.799,
+      "duration": 3.36,
+      "text": "ones holding the web together,"
+    },
+    {
+      "start": 248.56,
+      "duration": 3.52,
+      "text": "especially those important legacy apps"
+    },
+    {
+      "start": 250.159,
+      "duration": 3.681,
+      "text": "that no one dares to update. So, I'm"
+    },
+    {
+      "start": 252.08,
+      "duration": 4.159,
+      "text": "curious to those of you still here, did"
+    },
+    {
+      "start": 253.84,
+      "duration": 4,
+      "text": "you use jQuery or do you still use it?"
+    },
+    {
+      "start": 256.239,
+      "duration": 3.201,
+      "text": "Let me know in the comments below. While"
+    },
+    {
+      "start": 257.84,
+      "duration": 5.32,
+      "text": "you're there, subscribe. And as always,"
+    },
+    {
+      "start": 259.44,
+      "duration": 3.72,
+      "text": "see you in the next one."
+    }
+  ],
+  "fullText": "jQuery 4 is finally here. And no, don't worry, you haven't traveled back in time. This is just our first major version update since 2016. It's been in beta for 2 years, and it comes 20 years after jQuery was first introduced. And it might surprise you to learn that jQuery is still pretty important. 88% of all websites still use it, thanks mostly probably to WordPress. But you can also see there's still some pretty big names that are running it, too. I mean, if it ain't broke, don't fix it. Except this update might actually break some things as they've used this one to make all of the breaking changes they've wanted to make for years, including trimming legacy code, removing deprecated APIs and never documented functions, and just a whole host of bug fixes. So, let's just dive right in, take a look at the key changes, and just how far J Career has come in 20 years. For the first big change, Paul went out for Internet Explorer 10 and below. Support for this has now been dropped, but don't panic if you're watching this on Internet Explorer 11. Support for that won't be dropped until jQuery 5. So, you still have some time to hit that subscribe button. Alongside this, they also drop support for Edge Legacy, iOS versions earlier than the last three, Firefox versions earlier than the last two and also Android browser. So, you can see we are really modernizing now. In fact, the next three changes are all about that. So, moving on to change number two now. Migrating the jQuery source code from AMD to ES modules. So, it should now play nicely with V, Webpack, and modern build systems with no tricks required. So, why not give it a go and install it in your next project just for a little bit of fun or maybe for some nostalgia. And talking of nostalgia, this update will actually show you just how far JavaScript has come because for change number three, they've removed a bunch of jQuery functions because JavaScript has just caught up. They include things like is array, pass, JSON, trim, now is numeric is function, and loads loads more. You can now do pretty much all of these in JavaScript. itself without the need for an additional library. I mean, it's kind of crazy that we need an additional library to do some of these in the first place, but that's the way that languages have to evolve. And talking of evolving, browsers also evolve as well. So, for change number four, the last big one of the modernization updates, they finally fixed focus order. If you didn't know, for years, browsers didn't actually agree on an order of focus and blur events. So, jQuery had its own definition so it would be consistent across all of them. But now since they're deprecating the old browsers, all supported browsers except Internet Explorer have the exact same order. So jQuery is no longer going to override the native behavior. You can really see the team focused on making jQuery modern here as much of what made jQuery useful in the past has just been added to JavaScript eventually. Anyways, there is still a few things in jQuery that can be modernized, like that deferreds and callbacks which can be replaced with promises unless you're on Internet Explorer 11. or there's some animations that people do with jQuery that are now pretty easy to do in CSS. So, if you do want to take it one step further, they've actually made that slim build strip out a load of these extra modules, making it just 19.5 kilobytes. And I actually think this is quite a good approach to still offer those functions in the full package for those that might need them, but then offer a slim build that doesn't have any of the extras that are unneeded these days. So, that's it for the key headline changes, but obviously there's been a ton of bug fixes and minor tweaks, some of them dating back years. The oldest I could find was from 2014 and it related to jQuery autopromoting JSON to JSON P which has now been fixed. And there's even an issue from 2015 which I actually remember running into where jQuery CSS setter would automatically append pixels to any number that didn't specify a unit. This too has now been fixed. There's loads more that you can go and explore yourself in there. There's even some casual fixes like fixing typos, but obviously these would take a while to cover in this video. And personally, I just wanted to take a look at jQuery, see how far it's come, as it's such an awesome piece of web development history. And perhaps it's even rude to say history when it's still so actively used and maintained. Now, obviously, I wouldn't go and use jQuery today instead of React or whatever modern framework, but it just serves as a reminder that the web is built on layers of technology, and sometimes the boring, simple, and old tools are actually the ones holding the web together, especially those important legacy apps that no one dares to update. So, I'm curious to those of you still here, did you use jQuery or do you still use it? Let me know in the comments below. While you're there, subscribe. And as always, see you in the next one.",
+  "fetchedAt": "2026-01-24T16:11:08.637Z"
+}

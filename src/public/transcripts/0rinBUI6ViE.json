@@ -1,0 +1,1704 @@
+{
+  "videoId": "0rinBUI6ViE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 2.639,
+      "duration": 3.911,
+      "text": "Every major AI model today is built on"
+    },
+    {
+      "start": 5.04,
+      "duration": 4.16,
+      "text": "an idea that's more than 10 years"
+    },
+    {
+      "start": 6.55,
+      "duration": 4.65,
+      "text": "[music] old. It works. It scales. And"
+    },
+    {
+      "start": 9.2,
+      "duration": 4.399,
+      "text": "everyone just assume that's as far as it"
+    },
+    {
+      "start": 11.2,
+      "duration": 3.92,
+      "text": "goes. Deep See just dropped a paper that"
+    },
+    {
+      "start": 13.599,
+      "duration": 3.52,
+      "text": "basically says, \"No, [music] there's"
+    },
+    {
+      "start": 15.12,
+      "duration": 3.999,
+      "text": "another way forward. And if it holds up,"
+    },
+    {
+      "start": 17.119,
+      "duration": 4.32,
+      "text": "it changes how powerful models get built"
+    },
+    {
+      "start": 19.119,
+      "duration": 4.721,
+      "text": "from here on out.\" Now, that old design"
+    },
+    {
+      "start": 21.439,
+      "duration": 4.881,
+      "text": "wasn't wrong. It was necessary. Without"
+    },
+    {
+      "start": 23.84,
+      "duration": 4.64,
+      "text": "it, modern AI wouldn't exist at all. But"
+    },
+    {
+      "start": 26.32,
+      "duration": 4.32,
+      "text": "it came with a trade-off. It kept models"
+    },
+    {
+      "start": 28.48,
+      "duration": 3.44,
+      "text": "stable at the cost of limiting how much"
+    },
+    {
+      "start": 30.64,
+      "duration": 3.42,
+      "text": "information they could move around"
+    },
+    {
+      "start": 31.92,
+      "duration": 3.76,
+      "text": "internally. To understand what Deepseek"
+    },
+    {
+      "start": 34.06,
+      "duration": 3.86,
+      "text": "[music] actually did, you need to"
+    },
+    {
+      "start": 35.68,
+      "duration": 4.48,
+      "text": "understand a basic problem that shows up"
+    },
+    {
+      "start": 37.92,
+      "duration": 4.56,
+      "text": "when AI models get bigger. Large"
+    },
+    {
+      "start": 40.16,
+      "duration": 4.239,
+      "text": "language models are made up of layers. A"
+    },
+    {
+      "start": 42.48,
+      "duration": 3.599,
+      "text": "prompt goes into the first layer. That"
+    },
+    {
+      "start": 44.399,
+      "duration": 3.84,
+      "text": "layer does a bit of work, passes the"
+    },
+    {
+      "start": 46.079,
+      "duration": 3.841,
+      "text": "result to the next layer, and so on"
+    },
+    {
+      "start": 48.239,
+      "duration": 3.921,
+      "text": "until the final layer produces an"
+    },
+    {
+      "start": 49.92,
+      "duration": 4.959,
+      "text": "answer. During training, if the answer"
+    },
+    {
+      "start": 52.16,
+      "duration": 5.039,
+      "text": "is wrong, a signal called a gradient"
+    },
+    {
+      "start": 54.879,
+      "duration": 4.401,
+      "text": "flows backward through all those layers,"
+    },
+    {
+      "start": 57.199,
+      "duration": 4.081,
+      "text": "telling each one how it should adjust."
+    },
+    {
+      "start": 59.28,
+      "duration": 4,
+      "text": "Years ago, researchers realized that"
+    },
+    {
+      "start": 61.28,
+      "duration": 4.239,
+      "text": "forcing gradients to pass through every"
+    },
+    {
+      "start": 63.28,
+      "duration": 4.56,
+      "text": "single layer can cause problems. Signals"
+    },
+    {
+      "start": 65.519,
+      "duration": 4.321,
+      "text": "can fade away or blow up. To fix that,"
+    },
+    {
+      "start": 67.84,
+      "duration": 4,
+      "text": "they invented something called residual"
+    },
+    {
+      "start": 69.84,
+      "duration": 3.68,
+      "text": "connections. When residual connections"
+    },
+    {
+      "start": 71.84,
+      "duration": 3.84,
+      "text": "were introduced, they didn't only"
+    },
+    {
+      "start": 73.52,
+      "duration": 4.4,
+      "text": "improve models, they rescued deep"
+    },
+    {
+      "start": 75.68,
+      "duration": 4.24,
+      "text": "learning from a very real wall. Before"
+    },
+    {
+      "start": 77.92,
+      "duration": 3.955,
+      "text": "that point, training deep networks was"
+    },
+    {
+      "start": 79.92,
+      "duration": 3.6,
+      "text": "fragile. You could stack layers. But"
+    },
+    {
+      "start": 81.875,
+      "duration": 3.725,
+      "text": "[music] after a certain depth, learning"
+    },
+    {
+      "start": 83.52,
+      "duration": 4.239,
+      "text": "slowed down, gradients vanished, and"
+    },
+    {
+      "start": 85.6,
+      "duration": 4,
+      "text": "performance actually got worse. Residual"
+    },
+    {
+      "start": 87.759,
+      "duration": 3.761,
+      "text": "connections changed that overnight. They"
+    },
+    {
+      "start": 89.6,
+      "duration": 3.6,
+      "text": "gave models a stable shortcut."
+    },
+    {
+      "start": 91.52,
+      "duration": 2.801,
+      "text": "Information could flow forward and"
+    },
+    {
+      "start": 93.2,
+      "duration": 3.279,
+      "text": "backward without getting distorted."
+    },
+    {
+      "start": 94.321,
+      "duration": 4.399,
+      "text": "[music] And suddenly training very deep"
+    },
+    {
+      "start": 96.479,
+      "duration": 4.401,
+      "text": "networks became reliable. That success"
+    },
+    {
+      "start": 98.72,
+      "duration": 3.84,
+      "text": "locked the idea in place. Once something"
+    },
+    {
+      "start": 100.88,
+      "duration": 4.08,
+      "text": "works that well, people stopped"
+    },
+    {
+      "start": 102.56,
+      "duration": 4.16,
+      "text": "questioning it. Over time, residual"
+    },
+    {
+      "start": 104.96,
+      "duration": 3.76,
+      "text": "connections stopped being treated as a"
+    },
+    {
+      "start": 106.72,
+      "duration": 3.679,
+      "text": "design choice and started being treated"
+    },
+    {
+      "start": 108.72,
+      "duration": 3.84,
+      "text": "as infrastructure. They were just"
+    },
+    {
+      "start": 110.399,
+      "duration": 3.841,
+      "text": "assumed to be correct. Model builders"
+    },
+    {
+      "start": 112.56,
+      "duration": 4.239,
+      "text": "focused elsewhere. Better attention"
+    },
+    {
+      "start": 114.24,
+      "duration": 5.12,
+      "text": "mechanisms, more data, bigger parameter"
+    },
+    {
+      "start": 116.799,
+      "duration": 4.561,
+      "text": "counts, expert routing, scaling laws."
+    },
+    {
+      "start": 119.36,
+      "duration": 4.079,
+      "text": "The internal flow of information between"
+    },
+    {
+      "start": 121.36,
+      "duration": 4.24,
+      "text": "layers stayed mostly untouched. And that"
+    },
+    {
+      "start": 123.439,
+      "duration": 4.721,
+      "text": "made sense. Residual connections were"
+    },
+    {
+      "start": 125.6,
+      "duration": 4.32,
+      "text": "stable, predictable, and easy to reason"
+    },
+    {
+      "start": 128.16,
+      "duration": 3.36,
+      "text": "about. They did exactly what they were"
+    },
+    {
+      "start": 129.92,
+      "duration": 3.92,
+      "text": "supposed to do. The trade-off was"
+    },
+    {
+      "start": 131.52,
+      "duration": 4.4,
+      "text": "subtle. Stability came at the cost of"
+    },
+    {
+      "start": 133.84,
+      "duration": 3.759,
+      "text": "flexibility. Information could pass"
+    },
+    {
+      "start": 135.92,
+      "duration": 3.52,
+      "text": "through cleanly, but it was forced"
+    },
+    {
+      "start": 137.599,
+      "duration": 3.841,
+      "text": "through a very narrow path. Everything"
+    },
+    {
+      "start": 139.44,
+      "duration": 4.159,
+      "text": "had to fit through that single residual"
+    },
+    {
+      "start": 141.44,
+      "duration": 4.159,
+      "text": "stream. For years, that limitation"
+    },
+    {
+      "start": 143.599,
+      "duration": 3.841,
+      "text": "wasn't obvious. Bigger models and more"
+    },
+    {
+      "start": 145.599,
+      "duration": 3.36,
+      "text": "data kept delivering gains. But as"
+    },
+    {
+      "start": 147.44,
+      "duration": 3.6,
+      "text": "models pushed into harder reasoning"
+    },
+    {
+      "start": 148.959,
+      "duration": 4,
+      "text": "tasks, that narrow internal pathway"
+    },
+    {
+      "start": 151.04,
+      "duration": 3.76,
+      "text": "quietly became a bottleneck. Not because"
+    },
+    {
+      "start": 152.959,
+      "duration": 4.161,
+      "text": "it was broken, but because it was doing"
+    },
+    {
+      "start": 154.8,
+      "duration": 3.92,
+      "text": "exactly what it was designed to do. Now,"
+    },
+    {
+      "start": 157.12,
+      "duration": 3.119,
+      "text": "here's where things get interesting."
+    },
+    {
+      "start": 158.72,
+      "duration": 3.28,
+      "text": "Over the last couple of years,"
+    },
+    {
+      "start": 160.239,
+      "duration": 3.601,
+      "text": "researchers started asking a new"
+    },
+    {
+      "start": 162,
+      "duration": 3.28,
+      "text": "question. What if instead of just"
+    },
+    {
+      "start": 163.84,
+      "duration": 3.119,
+      "text": "passing one stream of information"
+    },
+    {
+      "start": 165.28,
+      "duration": 3.84,
+      "text": "through these shortcuts, you pass"
+    },
+    {
+      "start": 166.959,
+      "duration": 4.241,
+      "text": "several streams at once? More internal"
+    },
+    {
+      "start": 169.12,
+      "duration": 4.24,
+      "text": "communication, more capacity, more"
+    },
+    {
+      "start": 171.2,
+      "duration": 3.759,
+      "text": "flexibility. That idea led to something"
+    },
+    {
+      "start": 173.36,
+      "duration": 3.92,
+      "text": "called hyperconnections."
+    },
+    {
+      "start": 174.959,
+      "duration": 4.961,
+      "text": "Hyperconnections widen the internal data"
+    },
+    {
+      "start": 177.28,
+      "duration": 4.72,
+      "text": "flow. Instead of one residual stream,"
+    },
+    {
+      "start": 179.92,
+      "duration": 3.84,
+      "text": "you have multiple parallel streams"
+    },
+    {
+      "start": 182,
+      "duration": 4.159,
+      "text": "interacting [music] with each other. On"
+    },
+    {
+      "start": 183.76,
+      "duration": 4.72,
+      "text": "paper, this looks like a clean upgrade."
+    },
+    {
+      "start": 186.159,
+      "duration": 4.321,
+      "text": "The model gets more internal workspace,"
+    },
+    {
+      "start": 188.48,
+      "duration": 3.6,
+      "text": "more ways to combine information, and"
+    },
+    {
+      "start": 190.48,
+      "duration": 3.6,
+      "text": "more room to handle multi-step"
+    },
+    {
+      "start": 192.08,
+      "duration": 3.767,
+      "text": "reasoning. Early on, training behaves"
+    },
+    {
+      "start": 194.08,
+      "duration": 3.76,
+      "text": "normally. Loss goes down, metrics"
+    },
+    {
+      "start": 195.847,
+      "duration": 4.233,
+      "text": "[music] improve. Nothing looks obviously"
+    },
+    {
+      "start": 197.84,
+      "duration": 4.64,
+      "text": "wrong. The problem shows up later. As"
+    },
+    {
+      "start": 200.08,
+      "duration": 4.159,
+      "text": "training continues and depth increases,"
+    },
+    {
+      "start": 202.48,
+      "duration": 4.08,
+      "text": "those unconstrained streams start"
+    },
+    {
+      "start": 204.239,
+      "duration": 4.161,
+      "text": "interacting in unstable ways. Signals"
+    },
+    {
+      "start": 206.56,
+      "duration": 3.84,
+      "text": "get amplified layer after layer."
+    },
+    {
+      "start": 208.4,
+      "duration": 3.759,
+      "text": "Gradients grow larger than expected."
+    },
+    {
+      "start": 210.4,
+      "duration": 4,
+      "text": "Everything still looks fine until"
+    },
+    {
+      "start": 212.159,
+      "duration": 4.241,
+      "text": "suddenly it isn't. Loss curves spike."
+    },
+    {
+      "start": 214.4,
+      "duration": 3.919,
+      "text": "Gradient norms explode. Training"
+    },
+    {
+      "start": 216.4,
+      "duration": 4.399,
+      "text": "collapses abruptly. Sometimes this"
+    },
+    {
+      "start": 218.319,
+      "duration": 4.801,
+      "text": "happens after 10,000 steps, sometimes"
+    },
+    {
+      "start": 220.799,
+      "duration": 4.641,
+      "text": "later. The key issue is that it's not"
+    },
+    {
+      "start": 223.12,
+      "duration": 4.72,
+      "text": "gradual. One checkpoint is fine. The"
+    },
+    {
+      "start": 225.44,
+      "duration": 4.879,
+      "text": "next is unusable. That kind of failure"
+    },
+    {
+      "start": 227.84,
+      "duration": 4.959,
+      "text": "is unacceptable at scale. Large training"
+    },
+    {
+      "start": 230.319,
+      "duration": 4.64,
+      "text": "runs are expensive, slow, and hard to"
+    },
+    {
+      "start": 232.799,
+      "duration": 4.241,
+      "text": "debug. Architectures that collapse late"
+    },
+    {
+      "start": 234.959,
+      "duration": 4.081,
+      "text": "in training are risky, even if they look"
+    },
+    {
+      "start": 237.04,
+      "duration": 4.399,
+      "text": "promising in small experiments or short"
+    },
+    {
+      "start": 239.04,
+      "duration": 4.16,
+      "text": "runs. This is why hyperconnections never"
+    },
+    {
+      "start": 241.439,
+      "duration": 4.321,
+      "text": "became standard in large production"
+    },
+    {
+      "start": 243.2,
+      "duration": 4.88,
+      "text": "models. The idea itself wasn't wrong."
+    },
+    {
+      "start": 245.76,
+      "duration": 4.16,
+      "text": "The issue was the lack of control. Once"
+    },
+    {
+      "start": 248.08,
+      "duration": 3.84,
+      "text": "streams are allowed to mix freely,"
+    },
+    {
+      "start": 249.92,
+      "duration": 4.239,
+      "text": "instability becomes inevitable. That's"
+    },
+    {
+      "start": 251.92,
+      "duration": 4.64,
+      "text": "the exact gap DeepSeek focused on."
+    },
+    {
+      "start": 254.159,
+      "duration": 5.441,
+      "text": "Deepseek's new method is called manifold"
+    },
+    {
+      "start": 256.56,
+      "duration": 4.88,
+      "text": "constrained hyperconnections or MHC. The"
+    },
+    {
+      "start": 259.6,
+      "duration": 3.039,
+      "text": "name sounds heavy, but the idea behind"
+    },
+    {
+      "start": 261.44,
+      "duration": 2.72,
+      "text": "it is actually [music] pretty"
+    },
+    {
+      "start": 262.639,
+      "duration": 3.521,
+      "text": "straightforward. Instead of letting"
+    },
+    {
+      "start": 264.16,
+      "duration": 4.319,
+      "text": "those internal streams mix however they"
+    },
+    {
+      "start": 266.16,
+      "duration": 4.8,
+      "text": "want, Deepseek constrained the mixing"
+    },
+    {
+      "start": 268.479,
+      "duration": 4.16,
+      "text": "itself. The key idea is simple. Streams"
+    },
+    {
+      "start": 270.96,
+      "duration": 3.679,
+      "text": "should be able to exchange information,"
+    },
+    {
+      "start": 272.639,
+      "duration": 4.241,
+      "text": "but the total signal strength must stay"
+    },
+    {
+      "start": 274.639,
+      "duration": 4.641,
+      "text": "constant. They enforce this by forcing"
+    },
+    {
+      "start": 276.88,
+      "duration": 5.2,
+      "text": "the matrices that mix residual streams"
+    },
+    {
+      "start": 279.28,
+      "duration": 5.359,
+      "text": "to follow strict rules. Every row sums"
+    },
+    {
+      "start": 282.08,
+      "duration": 4.88,
+      "text": "to one. Every column sums to one. In"
+    },
+    {
+      "start": 284.639,
+      "duration": 4.56,
+      "text": "practical terms, that means information"
+    },
+    {
+      "start": 286.96,
+      "duration": 4.56,
+      "text": "can be redistributed and blended, but"
+    },
+    {
+      "start": 289.199,
+      "duration": 4.081,
+      "text": "never amplified or dampened. Overall,"
+    },
+    {
+      "start": 291.52,
+      "duration": 4,
+      "text": "this preserves the same identity"
+    },
+    {
+      "start": 293.28,
+      "duration": 4.4,
+      "text": "behavior that made residual connections"
+    },
+    {
+      "start": 295.52,
+      "duration": 3.36,
+      "text": "stable in the first place. Information"
+    },
+    {
+      "start": 297.68,
+      "duration": 3.84,
+      "text": "flows through the network [music]"
+    },
+    {
+      "start": 298.88,
+      "duration": 4.72,
+      "text": "cleanly. The difference is that now it"
+    },
+    {
+      "start": 301.52,
+      "duration": 4.56,
+      "text": "can also move sideways between streams"
+    },
+    {
+      "start": 303.6,
+      "duration": 4.48,
+      "text": "in a controlled way. Deepseek enforces"
+    },
+    {
+      "start": 306.08,
+      "duration": 3.839,
+      "text": "this constraint using the Synhorn Knop"
+    },
+    {
+      "start": 308.08,
+      "duration": 4.559,
+      "text": "algorithm which projects the mixing"
+    },
+    {
+      "start": 309.919,
+      "duration": 4.961,
+      "text": "matrices onto a specific geometric space"
+    },
+    {
+      "start": 312.639,
+      "duration": 3.84,
+      "text": "called the Burkoff polytope. That space"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.599,
+      "text": "has a crucial property. When these"
+    },
+    {
+      "start": 316.479,
+      "duration": 3.601,
+      "text": "matrices are multiplied across layers,"
+    },
+    {
+      "start": 318.479,
+      "duration": 2.72,
+      "text": "which is exactly what happens during"
+    },
+    {
+      "start": 320.08,
+      "duration": 3.6,
+      "text": "deep training, the [music] result"
+    },
+    {
+      "start": 321.199,
+      "duration": 4.72,
+      "text": "remains stable. Signal magnitude stays"
+    },
+    {
+      "start": 323.68,
+      "duration": 4.56,
+      "text": "bounded instead of drifting over time."
+    },
+    {
+      "start": 325.919,
+      "duration": 4.401,
+      "text": "This is why MHC works where earlier"
+    },
+    {
+      "start": 328.24,
+      "duration": 3.859,
+      "text": "approaches failed. The constraint isn't"
+    },
+    {
+      "start": 330.32,
+      "duration": 2.48,
+      "text": "tuned or approximate. It's structural."
+    },
+    {
+      "start": 332.099,
+      "duration": 2.54,
+      "text": "[music]"
+    },
+    {
+      "start": 332.8,
+      "duration": 4.16,
+      "text": "Stability is guaranteed by the math"
+    },
+    {
+      "start": 334.639,
+      "duration": 4.56,
+      "text": "itself, not by careful hyperparameter"
+    },
+    {
+      "start": 336.96,
+      "duration": 4.72,
+      "text": "choices. Once that stability is locked"
+    },
+    {
+      "start": 339.199,
+      "duration": 4.641,
+      "text": "in, widening the residual stream becomes"
+    },
+    {
+      "start": 341.68,
+      "duration": 4.239,
+      "text": "practical instead of dangerous. This is"
+    },
+    {
+      "start": 343.84,
+      "duration": 3.919,
+      "text": "the key insight. Deepseek figured out"
+    },
+    {
+      "start": 345.919,
+      "duration": 3.84,
+      "text": "how to keep the stability of old school"
+    },
+    {
+      "start": 347.759,
+      "duration": 4.401,
+      "text": "residual connections while still getting"
+    },
+    {
+      "start": 349.759,
+      "duration": 4.321,
+      "text": "the extra capacity of multiple streams."
+    },
+    {
+      "start": 352.16,
+      "duration": 3.759,
+      "text": "That's why analysts are calling this a"
+    },
+    {
+      "start": 354.08,
+      "duration": 3.839,
+      "text": "striking breakthrough. And this isn't"
+    },
+    {
+      "start": 355.919,
+      "duration": 4,
+      "text": "just theory. They actually tested this"
+    },
+    {
+      "start": 357.919,
+      "duration": 4.161,
+      "text": "architecture on real models. They"
+    },
+    {
+      "start": 359.919,
+      "duration": 5.041,
+      "text": "trained language models with 3 billion,"
+    },
+    {
+      "start": 362.08,
+      "duration": 5.36,
+      "text": "9 billion, and 27 billion parameters"
+    },
+    {
+      "start": 364.96,
+      "duration": 5.2,
+      "text": "using MHC. Then they trained equivalent"
+    },
+    {
+      "start": 367.44,
+      "duration": 4.8,
+      "text": "models using standard hyperconnections."
+    },
+    {
+      "start": 370.16,
+      "duration": 4.319,
+      "text": "Across eight different benchmarks, the"
+    },
+    {
+      "start": 372.24,
+      "duration": 3.92,
+      "text": "MHC models consistently performed"
+    },
+    {
+      "start": 374.479,
+      "duration": 4.241,
+      "text": "better. The gains were especially"
+    },
+    {
+      "start": 376.16,
+      "duration": 5.84,
+      "text": "noticeable on reasoningheavy tasks. On"
+    },
+    {
+      "start": 378.72,
+      "duration": 5.919,
+      "text": "GSM 8K, a math reasoning benchmark, the"
+    },
+    {
+      "start": 382,
+      "duration": 7.12,
+      "text": "27 billion parameter model jumped from"
+    },
+    {
+      "start": 384.639,
+      "duration": 7.201,
+      "text": "46.7 to 53.8. On BBH, a logical"
+    },
+    {
+      "start": 389.12,
+      "duration": 5.919,
+      "text": "reasoning benchmark, it went from 43.8"
+    },
+    {
+      "start": 391.84,
+      "duration": 4.96,
+      "text": "to 51. On MMLU, which measures general"
+    },
+    {
+      "start": 395.039,
+      "duration": 5.28,
+      "text": "knowledge and understanding, the score"
+    },
+    {
+      "start": 396.8,
+      "duration": 6.239,
+      "text": "improved from 59 to 63.4. These are not"
+    },
+    {
+      "start": 400.319,
+      "duration": 4.641,
+      "text": "tiny changes. At this scale, jumps like"
+    },
+    {
+      "start": 403.039,
+      "duration": 3.761,
+      "text": "that matter. One reason this works so"
+    },
+    {
+      "start": 404.96,
+      "duration": 3.28,
+      "text": "well is that widening the residual"
+    },
+    {
+      "start": 406.8,
+      "duration": 3.839,
+      "text": "stream effectively gives [music] the"
+    },
+    {
+      "start": 408.24,
+      "duration": 4.239,
+      "text": "model more internal workspace. It's not"
+    },
+    {
+      "start": 410.639,
+      "duration": 3.601,
+      "text": "just stacking more layers or throwing"
+    },
+    {
+      "start": 412.479,
+      "duration": 3.761,
+      "text": "more parameters at the problem. It's"
+    },
+    {
+      "start": 414.24,
+      "duration": 4,
+      "text": "changing how information flows inside"
+    },
+    {
+      "start": 416.24,
+      "duration": 3.92,
+      "text": "the model. That's a different axis of"
+    },
+    {
+      "start": 418.24,
+      "duration": 4.079,
+      "text": "scaling and it complements the usual"
+    },
+    {
+      "start": 420.16,
+      "duration": 4.24,
+      "text": "methods like adding more compute or more"
+    },
+    {
+      "start": 422.319,
+      "duration": 4.16,
+      "text": "data. Of course, widening streams"
+    },
+    {
+      "start": 424.4,
+      "duration": 3.919,
+      "text": "usually comes with a cost. More streams"
+    },
+    {
+      "start": 426.479,
+      "duration": 4.241,
+      "text": "mean more data moving through memory,"
+    },
+    {
+      "start": 428.319,
+      "duration": 4.081,
+      "text": "more pressure on GPUs, and slower"
+    },
+    {
+      "start": 430.72,
+      "duration": 3.599,
+      "text": "training. This is where Deepseek's"
+    },
+    {
+      "start": 432.4,
+      "duration": 3.68,
+      "text": "engineering work matters just as much as"
+    },
+    {
+      "start": 434.319,
+      "duration": 4,
+      "text": "the math. They didn't just propose a"
+    },
+    {
+      "start": 436.08,
+      "duration": 4.08,
+      "text": "clean theoretical idea and stop there."
+    },
+    {
+      "start": 438.319,
+      "duration": 3.681,
+      "text": "They rebuilt large parts of the training"
+    },
+    {
+      "start": 440.16,
+      "duration": 4.4,
+      "text": "stack to make this practical. They wrote"
+    },
+    {
+      "start": 442,
+      "duration": 4.56,
+      "text": "custom GPU kernels using tileang to fuse"
+    },
+    {
+      "start": 444.56,
+      "duration": 4.079,
+      "text": "operations together. Instead of moving"
+    },
+    {
+      "start": 446.56,
+      "duration": 4.4,
+      "text": "data in and out of memory repeatedly,"
+    },
+    {
+      "start": 448.639,
+      "duration": 4.321,
+      "text": "the GPU does more work on each chunk"
+    },
+    {
+      "start": 450.96,
+      "duration": 4.16,
+      "text": "before sending it back. That alone saves"
+    },
+    {
+      "start": 452.96,
+      "duration": 4.4,
+      "text": "a lot of time. They also use selective"
+    },
+    {
+      "start": 455.12,
+      "duration": 3.919,
+      "text": "recomputation. Rather than storing every"
+    },
+    {
+      "start": 457.36,
+      "duration": 3.679,
+      "text": "intermediate activation for back"
+    },
+    {
+      "start": 459.039,
+      "duration": 3.921,
+      "text": "propagation, they recomputee certain"
+    },
+    {
+      "start": 461.039,
+      "duration": 4.081,
+      "text": "values on the fly during the backward"
+    },
+    {
+      "start": 462.96,
+      "duration": 4.16,
+      "text": "pass. That reduces VRAMm usage"
+    },
+    {
+      "start": 465.12,
+      "duration": 3.84,
+      "text": "significantly. On top of that, they"
+    },
+    {
+      "start": 467.12,
+      "duration": 3.519,
+      "text": "carefully overlapped communication and"
+    },
+    {
+      "start": 468.96,
+      "duration": 3.679,
+      "text": "computation using a scheduling method"
+    },
+    {
+      "start": 470.639,
+      "duration": 3.84,
+      "text": "called dualpipe, hiding data transfer"
+    },
+    {
+      "start": 472.639,
+      "duration": 4.161,
+      "text": "behind normal compute work. The result"
+    },
+    {
+      "start": 474.479,
+      "duration": 4.4,
+      "text": "of all this optimization is pretty wild."
+    },
+    {
+      "start": 476.8,
+      "duration": 4.079,
+      "text": "Deepseek expanded the effective width of"
+    },
+    {
+      "start": 478.879,
+      "duration": 4,
+      "text": "the model's internal data flow by four"
+    },
+    {
+      "start": 480.879,
+      "duration": 5.04,
+      "text": "times. Yet, the total training time"
+    },
+    {
+      "start": 482.879,
+      "duration": 6.241,
+      "text": "increased by only about 6.7%. Hardware"
+    },
+    {
+      "start": 485.919,
+      "duration": 5.84,
+      "text": "overhead was measured at roughly 6.27%."
+    },
+    {
+      "start": 489.12,
+      "duration": 4.479,
+      "text": "That's a small price to pay for a 400%"
+    },
+    {
+      "start": 491.759,
+      "duration": 4.241,
+      "text": "increase in internal capacity. This"
+    },
+    {
+      "start": 493.599,
+      "duration": 3.681,
+      "text": "matters because memory access, not raw"
+    },
+    {
+      "start": 496,
+      "duration": 3.28,
+      "text": "compute, is one of the biggest"
+    },
+    {
+      "start": 497.28,
+      "duration": 3.759,
+      "text": "bottlenecks in modern AI training."
+    },
+    {
+      "start": 499.28,
+      "duration": 4,
+      "text": "People call this the memory wall."
+    },
+    {
+      "start": 501.039,
+      "duration": 4.081,
+      "text": "Deepseek managed to push past it without"
+    },
+    {
+      "start": 503.28,
+      "duration": 4,
+      "text": "throwing absurd amounts of hardware at"
+    },
+    {
+      "start": 505.12,
+      "duration": 4.4,
+      "text": "the problem. Now, zoom out a bit because"
+    },
+    {
+      "start": 507.28,
+      "duration": 3.759,
+      "text": "DeepSeek already has a reputation for"
+    },
+    {
+      "start": 509.52,
+      "duration": 4.72,
+      "text": "doing things differently. Back in"
+    },
+    {
+      "start": 511.039,
+      "duration": 5.12,
+      "text": "January 2025, they unveiled their R1"
+    },
+    {
+      "start": 514.24,
+      "duration": 3.84,
+      "text": "reasoning model. That launch rattled the"
+    },
+    {
+      "start": 516.159,
+      "duration": 4.081,
+      "text": "tech industry and even spooked parts of"
+    },
+    {
+      "start": 518.08,
+      "duration": 4.319,
+      "text": "the US stock market. R1 showed that"
+    },
+    {
+      "start": 520.24,
+      "duration": 4.88,
+      "text": "DeepS could match top tier models like"
+    },
+    {
+      "start": 522.399,
+      "duration": 4.88,
+      "text": "Chat GPT's 01 reasoning system at a"
+    },
+    {
+      "start": 525.12,
+      "duration": 4.48,
+      "text": "fraction of the cost. Analysts described"
+    },
+    {
+      "start": 527.279,
+      "duration": 4.401,
+      "text": "it as a Sputnik moment. This new paper"
+    },
+    {
+      "start": 529.6,
+      "duration": 4,
+      "text": "reads like a continuation of that story."
+    },
+    {
+      "start": 531.68,
+      "duration": 3.92,
+      "text": "Wei Sun, a principal analyst at"
+    },
+    {
+      "start": 533.6,
+      "duration": 3.6,
+      "text": "Counterpoint Research, described it as a"
+    },
+    {
+      "start": 535.6,
+      "duration": 3.6,
+      "text": "statement of Deepseek's internal"
+    },
+    {
+      "start": 537.2,
+      "duration": 4.4,
+      "text": "capabilities. By redesigning the"
+    },
+    {
+      "start": 539.2,
+      "duration": 4.319,
+      "text": "training stack end to end and combining"
+    },
+    {
+      "start": 541.6,
+      "duration": 4.08,
+      "text": "unconventional ideas with rapid"
+    },
+    {
+      "start": 543.519,
+      "duration": 3.841,
+      "text": "experimentation, Deepseek is signaling"
+    },
+    {
+      "start": 545.68,
+      "duration": 3.36,
+      "text": "that compute constraints are not"
+    },
+    {
+      "start": 547.36,
+      "duration": 3.599,
+      "text": "stopping them. They're finding ways"
+    },
+    {
+      "start": 549.04,
+      "duration": 4.479,
+      "text": "around them. There's also a strategic"
+    },
+    {
+      "start": 550.959,
+      "duration": 4.241,
+      "text": "angle here. Deepseek published this work"
+    },
+    {
+      "start": 553.519,
+      "duration": 4.081,
+      "text": "openly. They didn't keep it locked"
+    },
+    {
+      "start": 555.2,
+      "duration": 4.639,
+      "text": "behind closed doors. According to Leanj"
+    },
+    {
+      "start": 557.6,
+      "duration": 4.08,
+      "text": "Sou, chief analyst at OMIA, this"
+    },
+    {
+      "start": 559.839,
+      "duration": 4.241,
+      "text": "openness reflects a growing confidence"
+    },
+    {
+      "start": 561.68,
+      "duration": 4.08,
+      "text": "in the Chinese AI ecosystem. Sharing"
+    },
+    {
+      "start": 564.08,
+      "duration": 3.439,
+      "text": "foundational ideas while still"
+    },
+    {
+      "start": 565.76,
+      "duration": 3.36,
+      "text": "delivering unique value through models"
+    },
+    {
+      "start": 567.519,
+      "duration": 4.081,
+      "text": "is being treated as a competitive"
+    },
+    {
+      "start": 569.12,
+      "duration": 4,
+      "text": "advantage, not a weakness. That openness"
+    },
+    {
+      "start": 571.6,
+      "duration": 4.08,
+      "text": "also means competitors are paying"
+    },
+    {
+      "start": 573.12,
+      "duration": 4.08,
+      "text": "attention. Analysts expect other labs to"
+    },
+    {
+      "start": 575.68,
+      "duration": 3.599,
+      "text": "start experimenting with similar"
+    },
+    {
+      "start": 577.2,
+      "duration": 3.92,
+      "text": "constrained architectures. Once an idea"
+    },
+    {
+      "start": 579.279,
+      "duration": 3.841,
+      "text": "like this is out, it rarely stays"
+    },
+    {
+      "start": 581.12,
+      "duration": 4.719,
+      "text": "isolated for long. The timing of the"
+    },
+    {
+      "start": 583.12,
+      "duration": 4.64,
+      "text": "paper has also raised eyebrows. Deepseek"
+    },
+    {
+      "start": 585.839,
+      "duration": 4.641,
+      "text": "is widely believed to be working on its"
+    },
+    {
+      "start": 587.76,
+      "duration": 5.199,
+      "text": "next flagship model R2. That model was"
+    },
+    {
+      "start": 590.48,
+      "duration": 4.56,
+      "text": "expected in mid 2025, but it [music] got"
+    },
+    {
+      "start": 592.959,
+      "duration": 4.56,
+      "text": "delayed. Reports suggest the founder"
+    },
+    {
+      "start": 595.04,
+      "duration": 4.239,
+      "text": "Leang Wenfung wasn't satisfied with its"
+    },
+    {
+      "start": 597.519,
+      "duration": 3.281,
+      "text": "performance. Advanced chip shortages"
+    },
+    {
+      "start": 599.279,
+      "duration": 3.441,
+      "text": "also played a role which has"
+    },
+    {
+      "start": 600.8,
+      "duration": 3.84,
+      "text": "increasingly shaped how Chinese labs"
+    },
+    {
+      "start": 602.72,
+      "duration": 4.4,
+      "text": "approach training. Interestingly, the"
+    },
+    {
+      "start": 604.64,
+      "duration": 4.56,
+      "text": "paper itself never mentions R2. But"
+    },
+    {
+      "start": 607.12,
+      "duration": 4.64,
+      "text": "Deepseek has a pattern. Before launching"
+    },
+    {
+      "start": 609.2,
+      "duration": 4.4,
+      "text": "R1, they published foundational research"
+    },
+    {
+      "start": 611.76,
+      "duration": 4,
+      "text": "that later showed up in the model. Some"
+    },
+    {
+      "start": 613.6,
+      "duration": 4.16,
+      "text": "analysts think MHC will definitely be"
+    },
+    {
+      "start": 615.76,
+      "duration": 4.24,
+      "text": "part of whatever comes next. Others are"
+    },
+    {
+      "start": 617.76,
+      "duration": 4.72,
+      "text": "more cautious. We suggested there might"
+    },
+    {
+      "start": 620,
+      "duration": 4.64,
+      "text": "not be a standalone R2 at all and that"
+    },
+    {
+      "start": 622.48,
+      "duration": 4.479,
+      "text": "these ideas could form the backbone of a"
+    },
+    {
+      "start": 624.64,
+      "duration": 4.4,
+      "text": "future V4 model instead, especially"
+    },
+    {
+      "start": 626.959,
+      "duration": 4.32,
+      "text": "since earlier R1 improvements were"
+    },
+    {
+      "start": 629.04,
+      "duration": 4.08,
+      "text": "already folded into Deep Seek's V3"
+    },
+    {
+      "start": 631.279,
+      "duration": 4.641,
+      "text": "system. There's also the question of"
+    },
+    {
+      "start": 633.12,
+      "duration": 4.159,
+      "text": "impact outside China. Business insiders"
+    },
+    {
+      "start": 635.92,
+      "duration": 3.2,
+      "text": "Alistister Bar pointed out that"
+    },
+    {
+      "start": 637.279,
+      "duration": 4,
+      "text": "Deepseek's recent updates didn't"
+    },
+    {
+      "start": 639.12,
+      "duration": 4.48,
+      "text": "generate much buzz in Western markets."
+    },
+    {
+      "start": 641.279,
+      "duration": 4.401,
+      "text": "Distribution still matters [music] and"
+    },
+    {
+      "start": 643.6,
+      "duration": 4.08,
+      "text": "labs like OpenAI and Google have a"
+    },
+    {
+      "start": 645.68,
+      "duration": 4,
+      "text": "massive advantage there. Even the best"
+    },
+    {
+      "start": 647.68,
+      "duration": 4.24,
+      "text": "technical breakthrough struggles, if it"
+    },
+    {
+      "start": 649.68,
+      "duration": 4.8,
+      "text": "doesn't reach users, still from a"
+    },
+    {
+      "start": 651.92,
+      "duration": 4.4,
+      "text": "technical perspective, MHC is hard to"
+    },
+    {
+      "start": 654.48,
+      "duration": 4.24,
+      "text": "ignore. It addresses two problems at"
+    },
+    {
+      "start": 656.32,
+      "duration": 4.639,
+      "text": "once. It restores stability in wide"
+    },
+    {
+      "start": 658.72,
+      "duration": 4.08,
+      "text": "residual architectures and it does so in"
+    },
+    {
+      "start": 660.959,
+      "duration": 3.681,
+      "text": "a way that's efficient enough to use at"
+    },
+    {
+      "start": 662.8,
+      "duration": 3.76,
+      "text": "scale. The paper shows detailed"
+    },
+    {
+      "start": 664.64,
+      "duration": 3.84,
+      "text": "stability analysis including"
+    },
+    {
+      "start": 666.56,
+      "duration": 4.16,
+      "text": "measurements of gradient norms and"
+    },
+    {
+      "start": 668.48,
+      "duration": 4.56,
+      "text": "signal amplification across dozens of"
+    },
+    {
+      "start": 670.72,
+      "duration": 4.08,
+      "text": "layers. In standard hyperconnections,"
+    },
+    {
+      "start": 673.04,
+      "duration": 4.4,
+      "text": "those values can spike into the"
+    },
+    {
+      "start": 674.8,
+      "duration": 4.96,
+      "text": "thousands. With MHC, they stay close to"
+    },
+    {
+      "start": 677.44,
+      "duration": 3.68,
+      "text": "one, even across deep networks. That's"
+    },
+    {
+      "start": 679.76,
+      "duration": 3.519,
+      "text": "the difference between a model that"
+    },
+    {
+      "start": 681.12,
+      "duration": 4.48,
+      "text": "trains reliably and one that suddenly"
+    },
+    {
+      "start": 683.279,
+      "duration": 4.481,
+      "text": "collapses after 12,000 steps. [music]"
+    },
+    {
+      "start": 685.6,
+      "duration": 4.32,
+      "text": "Deepseek showed both behaviors side by"
+    },
+    {
+      "start": 687.76,
+      "duration": 4.4,
+      "text": "side. And the contrast is dramatic. And"
+    },
+    {
+      "start": 689.92,
+      "duration": 4.32,
+      "text": "if widening how information flows inside"
+    },
+    {
+      "start": 692.16,
+      "duration": 4.16,
+      "text": "a model delivers bigger gains than just"
+    },
+    {
+      "start": 694.24,
+      "duration": 3.998,
+      "text": "stacking more layers, what else do we"
+    },
+    {
+      "start": 696.32,
+      "duration": 4.16,
+      "text": "think is solved in AI that actually"
+    },
+    {
+      "start": 698.238,
+      "duration": 4.322,
+      "text": "[music] isn't? Drop your thoughts in the"
+    },
+    {
+      "start": 700.48,
+      "duration": 3.919,
+      "text": "comments. I'm curious how far you think"
+    },
+    {
+      "start": 702.56,
+      "duration": 4.24,
+      "text": "this kind of architectural shift can"
+    },
+    {
+      "start": 704.399,
+      "duration": 4.721,
+      "text": "really go. If this breakdown was useful,"
+    },
+    {
+      "start": 706.8,
+      "duration": 4.08,
+      "text": "hit like, subscribe for more deep dives"
+    },
+    {
+      "start": 709.12,
+      "duration": 5.56,
+      "text": "like this, and thanks for watching."
+    },
+    {
+      "start": 710.88,
+      "duration": 3.8,
+      "text": "Catch you in the next one."
+    }
+  ],
+  "fullText": "Every major AI model today is built on an idea that's more than 10 years [music] old. It works. It scales. And everyone just assume that's as far as it goes. Deep See just dropped a paper that basically says, \"No, [music] there's another way forward. And if it holds up, it changes how powerful models get built from here on out.\" Now, that old design wasn't wrong. It was necessary. Without it, modern AI wouldn't exist at all. But it came with a trade-off. It kept models stable at the cost of limiting how much information they could move around internally. To understand what Deepseek [music] actually did, you need to understand a basic problem that shows up when AI models get bigger. Large language models are made up of layers. A prompt goes into the first layer. That layer does a bit of work, passes the result to the next layer, and so on until the final layer produces an answer. During training, if the answer is wrong, a signal called a gradient flows backward through all those layers, telling each one how it should adjust. Years ago, researchers realized that forcing gradients to pass through every single layer can cause problems. Signals can fade away or blow up. To fix that, they invented something called residual connections. When residual connections were introduced, they didn't only improve models, they rescued deep learning from a very real wall. Before that point, training deep networks was fragile. You could stack layers. But [music] after a certain depth, learning slowed down, gradients vanished, and performance actually got worse. Residual connections changed that overnight. They gave models a stable shortcut. Information could flow forward and backward without getting distorted. [music] And suddenly training very deep networks became reliable. That success locked the idea in place. Once something works that well, people stopped questioning it. Over time, residual connections stopped being treated as a design choice and started being treated as infrastructure. They were just assumed to be correct. Model builders focused elsewhere. Better attention mechanisms, more data, bigger parameter counts, expert routing, scaling laws. The internal flow of information between layers stayed mostly untouched. And that made sense. Residual connections were stable, predictable, and easy to reason about. They did exactly what they were supposed to do. The trade-off was subtle. Stability came at the cost of flexibility. Information could pass through cleanly, but it was forced through a very narrow path. Everything had to fit through that single residual stream. For years, that limitation wasn't obvious. Bigger models and more data kept delivering gains. But as models pushed into harder reasoning tasks, that narrow internal pathway quietly became a bottleneck. Not because it was broken, but because it was doing exactly what it was designed to do. Now, here's where things get interesting. Over the last couple of years, researchers started asking a new question. What if instead of just passing one stream of information through these shortcuts, you pass several streams at once? More internal communication, more capacity, more flexibility. That idea led to something called hyperconnections. Hyperconnections widen the internal data flow. Instead of one residual stream, you have multiple parallel streams interacting [music] with each other. On paper, this looks like a clean upgrade. The model gets more internal workspace, more ways to combine information, and more room to handle multi-step reasoning. Early on, training behaves normally. Loss goes down, metrics [music] improve. Nothing looks obviously wrong. The problem shows up later. As training continues and depth increases, those unconstrained streams start interacting in unstable ways. Signals get amplified layer after layer. Gradients grow larger than expected. Everything still looks fine until suddenly it isn't. Loss curves spike. Gradient norms explode. Training collapses abruptly. Sometimes this happens after 10,000 steps, sometimes later. The key issue is that it's not gradual. One checkpoint is fine. The next is unusable. That kind of failure is unacceptable at scale. Large training runs are expensive, slow, and hard to debug. Architectures that collapse late in training are risky, even if they look promising in small experiments or short runs. This is why hyperconnections never became standard in large production models. The idea itself wasn't wrong. The issue was the lack of control. Once streams are allowed to mix freely, instability becomes inevitable. That's the exact gap DeepSeek focused on. Deepseek's new method is called manifold constrained hyperconnections or MHC. The name sounds heavy, but the idea behind it is actually [music] pretty straightforward. Instead of letting those internal streams mix however they want, Deepseek constrained the mixing itself. The key idea is simple. Streams should be able to exchange information, but the total signal strength must stay constant. They enforce this by forcing the matrices that mix residual streams to follow strict rules. Every row sums to one. Every column sums to one. In practical terms, that means information can be redistributed and blended, but never amplified or dampened. Overall, this preserves the same identity behavior that made residual connections stable in the first place. Information flows through the network [music] cleanly. The difference is that now it can also move sideways between streams in a controlled way. Deepseek enforces this constraint using the Synhorn Knop algorithm which projects the mixing matrices onto a specific geometric space called the Burkoff polytope. That space has a crucial property. When these matrices are multiplied across layers, which is exactly what happens during deep training, the [music] result remains stable. Signal magnitude stays bounded instead of drifting over time. This is why MHC works where earlier approaches failed. The constraint isn't tuned or approximate. It's structural. [music] Stability is guaranteed by the math itself, not by careful hyperparameter choices. Once that stability is locked in, widening the residual stream becomes practical instead of dangerous. This is the key insight. Deepseek figured out how to keep the stability of old school residual connections while still getting the extra capacity of multiple streams. That's why analysts are calling this a striking breakthrough. And this isn't just theory. They actually tested this architecture on real models. They trained language models with 3 billion, 9 billion, and 27 billion parameters using MHC. Then they trained equivalent models using standard hyperconnections. Across eight different benchmarks, the MHC models consistently performed better. The gains were especially noticeable on reasoningheavy tasks. On GSM 8K, a math reasoning benchmark, the 27 billion parameter model jumped from 46.7 to 53.8. On BBH, a logical reasoning benchmark, it went from 43.8 to 51. On MMLU, which measures general knowledge and understanding, the score improved from 59 to 63.4. These are not tiny changes. At this scale, jumps like that matter. One reason this works so well is that widening the residual stream effectively gives [music] the model more internal workspace. It's not just stacking more layers or throwing more parameters at the problem. It's changing how information flows inside the model. That's a different axis of scaling and it complements the usual methods like adding more compute or more data. Of course, widening streams usually comes with a cost. More streams mean more data moving through memory, more pressure on GPUs, and slower training. This is where Deepseek's engineering work matters just as much as the math. They didn't just propose a clean theoretical idea and stop there. They rebuilt large parts of the training stack to make this practical. They wrote custom GPU kernels using tileang to fuse operations together. Instead of moving data in and out of memory repeatedly, the GPU does more work on each chunk before sending it back. That alone saves a lot of time. They also use selective recomputation. Rather than storing every intermediate activation for back propagation, they recomputee certain values on the fly during the backward pass. That reduces VRAMm usage significantly. On top of that, they carefully overlapped communication and computation using a scheduling method called dualpipe, hiding data transfer behind normal compute work. The result of all this optimization is pretty wild. Deepseek expanded the effective width of the model's internal data flow by four times. Yet, the total training time increased by only about 6.7%. Hardware overhead was measured at roughly 6.27%. That's a small price to pay for a 400% increase in internal capacity. This matters because memory access, not raw compute, is one of the biggest bottlenecks in modern AI training. People call this the memory wall. Deepseek managed to push past it without throwing absurd amounts of hardware at the problem. Now, zoom out a bit because DeepSeek already has a reputation for doing things differently. Back in January 2025, they unveiled their R1 reasoning model. That launch rattled the tech industry and even spooked parts of the US stock market. R1 showed that DeepS could match top tier models like Chat GPT's 01 reasoning system at a fraction of the cost. Analysts described it as a Sputnik moment. This new paper reads like a continuation of that story. Wei Sun, a principal analyst at Counterpoint Research, described it as a statement of Deepseek's internal capabilities. By redesigning the training stack end to end and combining unconventional ideas with rapid experimentation, Deepseek is signaling that compute constraints are not stopping them. They're finding ways around them. There's also a strategic angle here. Deepseek published this work openly. They didn't keep it locked behind closed doors. According to Leanj Sou, chief analyst at OMIA, this openness reflects a growing confidence in the Chinese AI ecosystem. Sharing foundational ideas while still delivering unique value through models is being treated as a competitive advantage, not a weakness. That openness also means competitors are paying attention. Analysts expect other labs to start experimenting with similar constrained architectures. Once an idea like this is out, it rarely stays isolated for long. The timing of the paper has also raised eyebrows. Deepseek is widely believed to be working on its next flagship model R2. That model was expected in mid 2025, but it [music] got delayed. Reports suggest the founder Leang Wenfung wasn't satisfied with its performance. Advanced chip shortages also played a role which has increasingly shaped how Chinese labs approach training. Interestingly, the paper itself never mentions R2. But Deepseek has a pattern. Before launching R1, they published foundational research that later showed up in the model. Some analysts think MHC will definitely be part of whatever comes next. Others are more cautious. We suggested there might not be a standalone R2 at all and that these ideas could form the backbone of a future V4 model instead, especially since earlier R1 improvements were already folded into Deep Seek's V3 system. There's also the question of impact outside China. Business insiders Alistister Bar pointed out that Deepseek's recent updates didn't generate much buzz in Western markets. Distribution still matters [music] and labs like OpenAI and Google have a massive advantage there. Even the best technical breakthrough struggles, if it doesn't reach users, still from a technical perspective, MHC is hard to ignore. It addresses two problems at once. It restores stability in wide residual architectures and it does so in a way that's efficient enough to use at scale. The paper shows detailed stability analysis including measurements of gradient norms and signal amplification across dozens of layers. In standard hyperconnections, those values can spike into the thousands. With MHC, they stay close to one, even across deep networks. That's the difference between a model that trains reliably and one that suddenly collapses after 12,000 steps. [music] Deepseek showed both behaviors side by side. And the contrast is dramatic. And if widening how information flows inside a model delivers bigger gains than just stacking more layers, what else do we think is solved in AI that actually [music] isn't? Drop your thoughts in the comments. I'm curious how far you think this kind of architectural shift can really go. If this breakdown was useful, hit like, subscribe for more deep dives like this, and thanks for watching. Catch you in the next one.",
+  "fetchedAt": "2026-01-18T18:31:46.782Z"
+}

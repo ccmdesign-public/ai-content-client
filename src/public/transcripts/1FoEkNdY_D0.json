@@ -1,0 +1,404 @@
+{
+  "videoId": "1FoEkNdY_D0",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 5.12,
+      "text": "AWS solutions architect associates"
+    },
+    {
+      "start": 2.159,
+      "duration": 4.72,
+      "text": "certification prep question 24 of 65. So"
+    },
+    {
+      "start": 5.2,
+      "duration": 3.92,
+      "text": "a company's compliance team requires"
+    },
+    {
+      "start": 6.879,
+      "duration": 4.401,
+      "text": "full control over all encryption keys"
+    },
+    {
+      "start": 9.12,
+      "duration": 3.84,
+      "text": "used to protect data in AWS. So they"
+    },
+    {
+      "start": 11.28,
+      "duration": 4.08,
+      "text": "must be able to create, disable and"
+    },
+    {
+      "start": 12.96,
+      "duration": 5.6,
+      "text": "schedule deletion of keys. Now all key"
+    },
+    {
+      "start": 15.36,
+      "duration": 5.36,
+      "text": "usage must be auditable through AWS"
+    },
+    {
+      "start": 18.56,
+      "duration": 3.84,
+      "text": "cloud trail. Company policy mandates"
+    },
+    {
+      "start": 20.72,
+      "duration": 3.68,
+      "text": "that encryption keys remain stored"
+    },
+    {
+      "start": 22.4,
+      "duration": 3.76,
+      "text": "within AWS infrastructure not on"
+    },
+    {
+      "start": 24.4,
+      "duration": 3.76,
+      "text": "premise. So which key management"
+    },
+    {
+      "start": 26.16,
+      "duration": 4.16,
+      "text": "solution meets these requirements? First"
+    },
+    {
+      "start": 28.16,
+      "duration": 3.76,
+      "text": "let's identify the key hints. One, full"
+    },
+    {
+      "start": 30.32,
+      "duration": 3.759,
+      "text": "control. Create, manage, and configure"
+    },
+    {
+      "start": 31.92,
+      "duration": 4.479,
+      "text": "policies. Two, disable and delete. So,"
+    },
+    {
+      "start": 34.079,
+      "duration": 4,
+      "text": "life cycle policy management is needed."
+    },
+    {
+      "start": 36.399,
+      "duration": 3.601,
+      "text": "Number three, audit key usage. So, we"
+    },
+    {
+      "start": 38.079,
+      "duration": 3.441,
+      "text": "need some kind of awareness with cloud"
+    },
+    {
+      "start": 40,
+      "duration": 3.92,
+      "text": "trail or even active cloud trail"
+    },
+    {
+      "start": 41.52,
+      "duration": 4.32,
+      "text": "integration. Number four, stored in AWS."
+    },
+    {
+      "start": 43.92,
+      "duration": 3.52,
+      "text": "So, not on premise and not external. So,"
+    },
+    {
+      "start": 45.84,
+      "duration": 4.16,
+      "text": "let's look at the options. Option one,"
+    },
+    {
+      "start": 47.44,
+      "duration": 4.72,
+      "text": "use AWS managed keys that AWS creates"
+    },
+    {
+      "start": 50,
+      "duration": 5.199,
+      "text": "and manages for each service. Option"
+    },
+    {
+      "start": 52.16,
+      "duration": 5.52,
+      "text": "two, use AWS owned keys that AWS uses"
+    },
+    {
+      "start": 55.199,
+      "duration": 4.961,
+      "text": "across multiple user accounts. Option"
+    },
+    {
+      "start": 57.68,
+      "duration": 4.96,
+      "text": "three, create customer managed keys in"
+    },
+    {
+      "start": 60.16,
+      "duration": 4.719,
+      "text": "AWS key management service with key"
+    },
+    {
+      "start": 62.64,
+      "duration": 5.36,
+      "text": "policies and cloud logging enabled."
+    },
+    {
+      "start": 64.879,
+      "duration": 5.121,
+      "text": "Option four, deploy AWS cloud HSM and"
+    },
+    {
+      "start": 68,
+      "duration": 5.04,
+      "text": "manage keys and dedicated hardware"
+    },
+    {
+      "start": 70,
+      "duration": 5.2,
+      "text": "security modules. Option five, use S3"
+    },
+    {
+      "start": 73.04,
+      "duration": 4.399,
+      "text": "managed keys, the SSSE, basically"
+    },
+    {
+      "start": 75.2,
+      "duration": 3.84,
+      "text": "serverside encryption S3 for serverside"
+    },
+    {
+      "start": 77.439,
+      "duration": 3.761,
+      "text": "encryption. Drop your answer in the"
+    },
+    {
+      "start": 79.04,
+      "duration": 4.56,
+      "text": "comments below. So the hint says full"
+    },
+    {
+      "start": 81.2,
+      "duration": 4.32,
+      "text": "control plus stored in AWS. So AWS"
+    },
+    {
+      "start": 83.6,
+      "duration": 4.879,
+      "text": "control keys and on-remise options are"
+    },
+    {
+      "start": 85.52,
+      "duration": 4.639,
+      "text": "out. Option one, AWS manage keys are"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.521,
+      "text": "convenient, but you can't disable or"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.6,
+      "text": "delete them. Pretty much AWS controls"
+    },
+    {
+      "start": 92,
+      "duration": 3.92,
+      "text": "that life cycle. So that violates one of"
+    },
+    {
+      "start": 93.759,
+      "duration": 3.761,
+      "text": "the requirements. Option two, AWS own"
+    },
+    {
+      "start": 95.92,
+      "duration": 3.04,
+      "text": "keys are completely invisible to you. So"
+    },
+    {
+      "start": 97.52,
+      "duration": 3.599,
+      "text": "there's no audit trail, no control. You"
+    },
+    {
+      "start": 98.96,
+      "duration": 5.119,
+      "text": "don't even see them. Option four, cloud"
+    },
+    {
+      "start": 101.119,
+      "duration": 5.601,
+      "text": "HSM gives full control, but keys are in"
+    },
+    {
+      "start": 104.079,
+      "duration": 4.641,
+      "text": "dedicated hardware that you manage. So"
+    },
+    {
+      "start": 106.72,
+      "duration": 3.92,
+      "text": "that might be overkill and a higher"
+    },
+    {
+      "start": 108.72,
+      "duration": 2.96,
+      "text": "overhead than you actually need for the"
+    },
+    {
+      "start": 110.64,
+      "duration": 2.159,
+      "text": "requirements. Remember, we're just"
+    },
+    {
+      "start": 111.68,
+      "duration": 3.28,
+      "text": "trying to meet the requirements"
+    },
+    {
+      "start": 112.799,
+      "duration": 4.721,
+      "text": "minimally. No one said that we need FIPS"
+    },
+    {
+      "start": 114.96,
+      "duration": 5.04,
+      "text": "140 encryption, right? Or standards."
+    },
+    {
+      "start": 117.52,
+      "duration": 4.639,
+      "text": "Option five, SSE S3 keys are managed"
+    },
+    {
+      "start": 120,
+      "duration": 3.759,
+      "text": "entirely by S3. So there's no real"
+    },
+    {
+      "start": 122.159,
+      "duration": 4.96,
+      "text": "customer control if you decide to use"
+    },
+    {
+      "start": 123.759,
+      "duration": 4.64,
+      "text": "SSE S3 keys versus using a KMS S3 key."
+    },
+    {
+      "start": 127.119,
+      "duration": 2.961,
+      "text": "There's no control over the key life"
+    },
+    {
+      "start": 128.399,
+      "duration": 3.84,
+      "text": "cycle. So the correct answer is actually"
+    },
+    {
+      "start": 130.08,
+      "duration": 3.6,
+      "text": "option three, customer manage keys. So"
+    },
+    {
+      "start": 132.239,
+      "duration": 3.841,
+      "text": "you can create and control them"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.919,
+      "text": "completely, disable, schedule deletion,"
+    },
+    {
+      "start": 136.08,
+      "duration": 4,
+      "text": "full life cycle management. Cloud trail"
+    },
+    {
+      "start": 137.599,
+      "duration": 4.72,
+      "text": "is going to log every use. So API calls"
+    },
+    {
+      "start": 140.08,
+      "duration": 4.239,
+      "text": "like encrypt, decrypt are all recorded"
+    },
+    {
+      "start": 142.319,
+      "duration": 4.881,
+      "text": "and they're stored. This is also stored"
+    },
+    {
+      "start": 144.319,
+      "duration": 4.881,
+      "text": "in KMS. So this is AWS infrastructure."
+    },
+    {
+      "start": 147.2,
+      "duration": 4,
+      "text": "So this actually works for from a"
+    },
+    {
+      "start": 149.2,
+      "duration": 4,
+      "text": "validation perspective. Takeaway there's"
+    },
+    {
+      "start": 151.2,
+      "duration": 4.399,
+      "text": "three KMSs key types. There's AWS owned"
+    },
+    {
+      "start": 153.2,
+      "duration": 4.56,
+      "text": "which is invisible. There's AWS managed"
+    },
+    {
+      "start": 155.599,
+      "duration": 3.681,
+      "text": "which is visible but AWS controlled and"
+    },
+    {
+      "start": 157.76,
+      "duration": 3.04,
+      "text": "then there's customer manage where you"
+    },
+    {
+      "start": 159.28,
+      "duration": 3.36,
+      "text": "have full control. So when you need to"
+    },
+    {
+      "start": 160.8,
+      "duration": 4.24,
+      "text": "disable, delete or audit or just have"
+    },
+    {
+      "start": 162.64,
+      "duration": 5.76,
+      "text": "full control, CMK's customer managed"
+    },
+    {
+      "start": 165.04,
+      "duration": 3.36,
+      "text": "keys are really the only choice."
+    }
+  ],
+  "fullText": "AWS solutions architect associates certification prep question 24 of 65. So a company's compliance team requires full control over all encryption keys used to protect data in AWS. So they must be able to create, disable and schedule deletion of keys. Now all key usage must be auditable through AWS cloud trail. Company policy mandates that encryption keys remain stored within AWS infrastructure not on premise. So which key management solution meets these requirements? First let's identify the key hints. One, full control. Create, manage, and configure policies. Two, disable and delete. So, life cycle policy management is needed. Number three, audit key usage. So, we need some kind of awareness with cloud trail or even active cloud trail integration. Number four, stored in AWS. So, not on premise and not external. So, let's look at the options. Option one, use AWS managed keys that AWS creates and manages for each service. Option two, use AWS owned keys that AWS uses across multiple user accounts. Option three, create customer managed keys in AWS key management service with key policies and cloud logging enabled. Option four, deploy AWS cloud HSM and manage keys and dedicated hardware security modules. Option five, use S3 managed keys, the SSSE, basically serverside encryption S3 for serverside encryption. Drop your answer in the comments below. So the hint says full control plus stored in AWS. So AWS control keys and on-remise options are out. Option one, AWS manage keys are convenient, but you can't disable or delete them. Pretty much AWS controls that life cycle. So that violates one of the requirements. Option two, AWS own keys are completely invisible to you. So there's no audit trail, no control. You don't even see them. Option four, cloud HSM gives full control, but keys are in dedicated hardware that you manage. So that might be overkill and a higher overhead than you actually need for the requirements. Remember, we're just trying to meet the requirements minimally. No one said that we need FIPS 140 encryption, right? Or standards. Option five, SSE S3 keys are managed entirely by S3. So there's no real customer control if you decide to use SSE S3 keys versus using a KMS S3 key. There's no control over the key life cycle. So the correct answer is actually option three, customer manage keys. So you can create and control them completely, disable, schedule deletion, full life cycle management. Cloud trail is going to log every use. So API calls like encrypt, decrypt are all recorded and they're stored. This is also stored in KMS. So this is AWS infrastructure. So this actually works for from a validation perspective. Takeaway there's three KMSs key types. There's AWS owned which is invisible. There's AWS managed which is visible but AWS controlled and then there's customer manage where you have full control. So when you need to disable, delete or audit or just have full control, CMK's customer managed keys are really the only choice.",
+  "fetchedAt": "2026-01-24T16:15:24.043Z"
+}

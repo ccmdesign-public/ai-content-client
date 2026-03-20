@@ -1,0 +1,3239 @@
+{
+  "videoId": "YT4moDsMZ2g",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.239,
+      "text": "Hello friends, we're going to be talking"
+    },
+    {
+      "start": 1.52,
+      "duration": 5.279,
+      "text": "about speci today again. You guessed it."
+    },
+    {
+      "start": 4.319,
+      "duration": 5.441,
+      "text": "And I wanted to specifically talk about"
+    },
+    {
+      "start": 6.799,
+      "duration": 5.041,
+      "text": "some enhancement but also a workflow"
+    },
+    {
+      "start": 9.76,
+      "duration": 4.72,
+      "text": "type that we have not discussed yet. And"
+    },
+    {
+      "start": 11.84,
+      "duration": 5.199,
+      "text": "that is parallel implementations of the"
+    },
+    {
+      "start": 14.48,
+      "duration": 4.4,
+      "text": "same specification. Uh I mentioned it"
+    },
+    {
+      "start": 17.039,
+      "duration": 4.24,
+      "text": "before, right? Like the the beauty of"
+    },
+    {
+      "start": 18.88,
+      "duration": 5.36,
+      "text": "the fact that we have a specification"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.881,
+      "text": "that is detached from technical details"
+    },
+    {
+      "start": 24.24,
+      "duration": 4.16,
+      "text": "is that we can actually create multiple"
+    },
+    {
+      "start": 26.16,
+      "duration": 4.48,
+      "text": "variations of it to see what it looks"
+    },
+    {
+      "start": 28.4,
+      "duration": 4.64,
+      "text": "like and then we pick the best and we"
+    },
+    {
+      "start": 30.64,
+      "duration": 4.24,
+      "text": "merge it into Maine, our core product."
+    },
+    {
+      "start": 33.04,
+      "duration": 3.84,
+      "text": "And I wanted to show you this today on"
+    },
+    {
+      "start": 34.88,
+      "duration": 4.64,
+      "text": "an example product that I have built"
+    },
+    {
+      "start": 36.88,
+      "duration": 5.44,
+      "text": "over the weekend that is called Hawaii"
+    },
+    {
+      "start": 39.52,
+      "duration": 5.199,
+      "text": "diff. Hawaii diff is a website that I"
+    },
+    {
+      "start": 42.32,
+      "duration": 5.28,
+      "text": "built that essentially aggregates the"
+    },
+    {
+      "start": 44.719,
+      "duration": 5.601,
+      "text": "camera views from Monaca on the big"
+    },
+    {
+      "start": 47.6,
+      "duration": 5.439,
+      "text": "island of Hawaii. So what happens is"
+    },
+    {
+      "start": 50.32,
+      "duration": 4.879,
+      "text": "that there is a Monaca weather center."
+    },
+    {
+      "start": 53.039,
+      "duration": 4.721,
+      "text": "It's uh managed by the University of"
+    },
+    {
+      "start": 55.199,
+      "duration": 6.321,
+      "text": "Hawaii at Hilo and what it does is"
+    },
+    {
+      "start": 57.76,
+      "duration": 5.76,
+      "text": "provides a view on a bunch of webcams at"
+    },
+    {
+      "start": 61.52,
+      "duration": 3.039,
+      "text": "the observatory right at the"
+    },
+    {
+      "start": 63.52,
+      "duration": 3.12,
+      "text": "observatories at the top of the"
+    },
+    {
+      "start": 64.559,
+      "duration": 3.681,
+      "text": "mountain. And this is always nice to"
+    },
+    {
+      "start": 66.64,
+      "duration": 4.479,
+      "text": "just kind of browse through and be able"
+    },
+    {
+      "start": 68.24,
+      "duration": 4.32,
+      "text": "to see um the cameras because it's kind"
+    },
+    {
+      "start": 71.119,
+      "duration": 3.441,
+      "text": "of neat. Like I have not been to Hawaii"
+    },
+    {
+      "start": 72.56,
+      "duration": 3.68,
+      "text": "in some time. So being able to just kind"
+    },
+    {
+      "start": 74.56,
+      "duration": 4.72,
+      "text": "of browse the cameras and click around"
+    },
+    {
+      "start": 76.24,
+      "duration": 4.4,
+      "text": "and see what it looks like is nice. But"
+    },
+    {
+      "start": 79.28,
+      "duration": 4.24,
+      "text": "the view here is very inconsistent,"
+    },
+    {
+      "start": 80.64,
+      "duration": 6.08,
+      "text": "right? Like here I landed on this um"
+    },
+    {
+      "start": 83.52,
+      "duration": 4.959,
+      "text": "page. Uh here if I go to another camera"
+    },
+    {
+      "start": 86.72,
+      "duration": 4.96,
+      "text": "view, it's going to go to like another"
+    },
+    {
+      "start": 88.479,
+      "duration": 4.561,
+      "text": "page for uh Noah. So we're going to go"
+    },
+    {
+      "start": 91.68,
+      "duration": 2.88,
+      "text": "back. Right? So there's all these"
+    },
+    {
+      "start": 93.04,
+      "duration": 3.759,
+      "text": "inconsistencies. It's hard to navigate"
+    },
+    {
+      "start": 94.56,
+      "duration": 4.72,
+      "text": "and hard to browse this the way I want"
+    },
+    {
+      "start": 96.799,
+      "duration": 4.161,
+      "text": "to browse this. So to mitigate this, I"
+    },
+    {
+      "start": 99.28,
+      "duration": 3.04,
+      "text": "have built this experience that"
+    },
+    {
+      "start": 100.96,
+      "duration": 4.64,
+      "text": "basically grabs all the images,"
+    },
+    {
+      "start": 102.32,
+      "duration": 5.2,
+      "text": "aggregates them in GitHub. I'll show you"
+    },
+    {
+      "start": 105.6,
+      "duration": 4.08,
+      "text": "in a second. And then provides this"
+    },
+    {
+      "start": 107.52,
+      "duration": 6.16,
+      "text": "modern front end that allows me to just"
+    },
+    {
+      "start": 109.68,
+      "duration": 6,
+      "text": "quickly browse through this and um see"
+    },
+    {
+      "start": 113.68,
+      "duration": 3.119,
+      "text": "exactly what are the things that are"
+    },
+    {
+      "start": 115.68,
+      "duration": 4.24,
+      "text": "happening, right? like the things that"
+    },
+    {
+      "start": 116.799,
+      "duration": 5.041,
+      "text": "are happening on um on the mountain uh"
+    },
+    {
+      "start": 119.92,
+      "duration": 4.879,
+      "text": "very much remotely and very much like I"
+    },
+    {
+      "start": 121.84,
+      "duration": 6.32,
+      "text": "I appreciate uh being able to see this."
+    },
+    {
+      "start": 124.799,
+      "duration": 5.041,
+      "text": "Now with all these things considered,"
+    },
+    {
+      "start": 128.16,
+      "duration": 3.36,
+      "text": "this website is built with Hugo. So"
+    },
+    {
+      "start": 129.84,
+      "duration": 3.68,
+      "text": "everything you see here like the camera"
+    },
+    {
+      "start": 131.52,
+      "duration": 3.68,
+      "text": "views, all these behaviors of like"
+    },
+    {
+      "start": 133.52,
+      "duration": 4.4,
+      "text": "header collapsing, the previous"
+    },
+    {
+      "start": 135.2,
+      "duration": 4.48,
+      "text": "snapshots, all of this is statically"
+    },
+    {
+      "start": 137.92,
+      "duration": 3.679,
+      "text": "generated. This is a static site."
+    },
+    {
+      "start": 139.68,
+      "duration": 3.44,
+      "text": "There's not a lot of fancy stuff. If I"
+    },
+    {
+      "start": 141.599,
+      "duration": 3.761,
+      "text": "click on one of them, you'll notice that"
+    },
+    {
+      "start": 143.12,
+      "duration": 5.04,
+      "text": "it's going to open the GitHub repo. And"
+    },
+    {
+      "start": 145.36,
+      "duration": 4.8,
+      "text": "it's going to take me to the list of all"
+    },
+    {
+      "start": 148.16,
+      "duration": 3.439,
+      "text": "of the different components here that"
+    },
+    {
+      "start": 150.16,
+      "duration": 3.92,
+      "text": "exist. And I have folders for every"
+    },
+    {
+      "start": 151.599,
+      "duration": 4.72,
+      "text": "telescope, every observatory component."
+    },
+    {
+      "start": 154.08,
+      "duration": 4.32,
+      "text": "And then I see WEBP images because I"
+    },
+    {
+      "start": 156.319,
+      "duration": 4,
+      "text": "care about performance and the fact that"
+    },
+    {
+      "start": 158.4,
+      "duration": 3.6,
+      "text": "I do not want to pollute the repository"
+    },
+    {
+      "start": 160.319,
+      "duration": 3.121,
+      "text": "with large images. So there's some"
+    },
+    {
+      "start": 162,
+      "duration": 3.519,
+      "text": "compression happening there. But I have"
+    },
+    {
+      "start": 163.44,
+      "duration": 4.879,
+      "text": "all these images that are stored inside"
+    },
+    {
+      "start": 165.519,
+      "duration": 5.521,
+      "text": "GitHub, my GitHub repository. And uh"
+    },
+    {
+      "start": 168.319,
+      "duration": 4.961,
+      "text": "what I want to do if I go to my website"
+    },
+    {
+      "start": 171.04,
+      "duration": 4.559,
+      "text": "here, this is hawaiediff.com. And I go"
+    },
+    {
+      "start": 173.28,
+      "duration": 5.679,
+      "text": "to the landing page. Notice that I need"
+    },
+    {
+      "start": 175.599,
+      "duration": 4.881,
+      "text": "to scroll to get to where I want to get,"
+    },
+    {
+      "start": 178.959,
+      "duration": 3.28,
+      "text": "right? Like there is there is different"
+    },
+    {
+      "start": 180.48,
+      "duration": 4.8,
+      "text": "cameras, but I have to just go through"
+    },
+    {
+      "start": 182.239,
+      "duration": 6.241,
+      "text": "them one by one. Not exactly efficient."
+    },
+    {
+      "start": 185.28,
+      "duration": 5.28,
+      "text": "I want to implement a filter. I want a"
+    },
+    {
+      "start": 188.48,
+      "duration": 4.64,
+      "text": "filter here at the top of the page that"
+    },
+    {
+      "start": 190.56,
+      "duration": 5.679,
+      "text": "allows me to basically filter by name,"
+    },
+    {
+      "start": 193.12,
+      "duration": 5.119,
+      "text": "right? And filter by direction. like I"
+    },
+    {
+      "start": 196.239,
+      "duration": 3.28,
+      "text": "have the east, northwest, east,"
+    },
+    {
+      "start": 198.239,
+      "duration": 2.961,
+      "text": "ssoutheast. And these are directions, by"
+    },
+    {
+      "start": 199.519,
+      "duration": 3.201,
+      "text": "the way, that are from the Monaca"
+    },
+    {
+      "start": 201.2,
+      "duration": 3.039,
+      "text": "weather center itself. So, some of them"
+    },
+    {
+      "start": 202.72,
+      "duration": 5.36,
+      "text": "are inconsistent. You'll see things like"
+    },
+    {
+      "start": 204.239,
+      "duration": 5.521,
+      "text": "up or uh hilo, which you know, again,"
+    },
+    {
+      "start": 208.08,
+      "duration": 3.12,
+      "text": "it's not necessarily the compass"
+    },
+    {
+      "start": 209.76,
+      "duration": 3.52,
+      "text": "direction that you would expect or like"
+    },
+    {
+      "start": 211.2,
+      "duration": 3.599,
+      "text": "variable here, but that's okay. I still"
+    },
+    {
+      "start": 213.28,
+      "duration": 4.8,
+      "text": "want to be able to filter by the"
+    },
+    {
+      "start": 214.799,
+      "duration": 7.761,
+      "text": "existing uh variations. So what we want"
+    },
+    {
+      "start": 218.08,
+      "duration": 8.239,
+      "text": "to do is create a specification and then"
+    },
+    {
+      "start": 222.56,
+      "duration": 5.28,
+      "text": "based on a specification be able to um"
+    },
+    {
+      "start": 226.319,
+      "duration": 3.84,
+      "text": "quickly"
+    },
+    {
+      "start": 227.84,
+      "duration": 4.08,
+      "text": "navigate between those different uh"
+    },
+    {
+      "start": 230.159,
+      "duration": 3.601,
+      "text": "variations of the implementation and see"
+    },
+    {
+      "start": 231.92,
+      "duration": 3.76,
+      "text": "which one we like the most and then we"
+    },
+    {
+      "start": 233.76,
+      "duration": 4.64,
+      "text": "take the one that is best and merge into"
+    },
+    {
+      "start": 235.68,
+      "duration": 4.4,
+      "text": "main. That's the workflow. So uh I'm"
+    },
+    {
+      "start": 238.4,
+      "duration": 3.52,
+      "text": "going to switch back here to VS Code and"
+    },
+    {
+      "start": 240.08,
+      "duration": 4.079,
+      "text": "as I mentioned this this project is just"
+    },
+    {
+      "start": 241.92,
+      "duration": 4,
+      "text": "this static site. It has a bunch of"
+    },
+    {
+      "start": 244.159,
+      "duration": 3.681,
+      "text": "different web app components. You'll"
+    },
+    {
+      "start": 245.92,
+      "duration": 4.239,
+      "text": "notice I already have a specs folder"
+    },
+    {
+      "start": 247.84,
+      "duration": 4.16,
+      "text": "because I, as I said, I built this with"
+    },
+    {
+      "start": 250.159,
+      "duration": 4.561,
+      "text": "spec kit before. Like this is what I"
+    },
+    {
+      "start": 252,
+      "duration": 5.28,
+      "text": "spent my weekend on and it has the 001"
+    },
+    {
+      "start": 254.72,
+      "duration": 4.639,
+      "text": "Mona camera. It has a checklist and all"
+    },
+    {
+      "start": 257.28,
+      "duration": 3.919,
+      "text": "the artifacts that we've seen before."
+    },
+    {
+      "start": 259.359,
+      "duration": 3.84,
+      "text": "Like nothing here is new if you've"
+    },
+    {
+      "start": 261.199,
+      "duration": 5.121,
+      "text": "watched any of my spec videos before."
+    },
+    {
+      "start": 263.199,
+      "duration": 5.601,
+      "text": "But what we want to do is add a new"
+    },
+    {
+      "start": 266.32,
+      "duration": 5.48,
+      "text": "feature. So I want to do"
+    },
+    {
+      "start": 268.8,
+      "duration": 3,
+      "text": "specket.specify."
+    },
+    {
+      "start": 272.08,
+      "duration": 3.839,
+      "text": "And here I'm going to specify the filter"
+    },
+    {
+      "start": 274,
+      "duration": 4.24,
+      "text": "capability that I want. I'm operating on"
+    },
+    {
+      "start": 275.919,
+      "duration": 4.321,
+      "text": "the main branch right now, but don't"
+    },
+    {
+      "start": 278.24,
+      "duration": 4.239,
+      "text": "worry because this this this capability"
+    },
+    {
+      "start": 280.24,
+      "duration": 4.959,
+      "text": "is going to automatically branch off for"
+    },
+    {
+      "start": 282.479,
+      "duration": 5.601,
+      "text": "me. So, we're going to do specit specify"
+    },
+    {
+      "start": 285.199,
+      "duration": 8.161,
+      "text": "and then I'm going to say I want to"
+    },
+    {
+      "start": 288.08,
+      "duration": 8.64,
+      "text": "build a filter on the main"
+    },
+    {
+      "start": 293.36,
+      "duration": 6.48,
+      "text": "landing page"
+    },
+    {
+      "start": 296.72,
+      "duration": 6.4,
+      "text": "that will allow me"
+    },
+    {
+      "start": 299.84,
+      "duration": 7.6,
+      "text": "to search existing"
+    },
+    {
+      "start": 303.12,
+      "duration": 7.04,
+      "text": "telescope camera snapshots."
+    },
+    {
+      "start": 307.44,
+      "duration": 8.92,
+      "text": "uh actually telescopes"
+    },
+    {
+      "start": 310.16,
+      "duration": 6.2,
+      "text": "and allow me to filter by direction."
+    },
+    {
+      "start": 319.44,
+      "duration": 5.759,
+      "text": "Right? So, okay, great. So, this gives"
+    },
+    {
+      "start": 322.88,
+      "duration": 3.599,
+      "text": "us an idea of what the specification"
+    },
+    {
+      "start": 325.199,
+      "duration": 3.921,
+      "text": "should be about. So, we're going to"
+    },
+    {
+      "start": 326.479,
+      "duration": 4.401,
+      "text": "press enter here and this is going to"
+    },
+    {
+      "start": 329.12,
+      "duration": 3.919,
+      "text": "also execute the helper script that's"
+    },
+    {
+      "start": 330.88,
+      "duration": 3.68,
+      "text": "going to create new feature."
+    },
+    {
+      "start": 333.039,
+      "duration": 4.561,
+      "text": "We're going to see this running. All"
+    },
+    {
+      "start": 334.56,
+      "duration": 6.04,
+      "text": "right. Now, we're in a new branch."
+    },
+    {
+      "start": 337.6,
+      "duration": 3,
+      "text": "Okay."
+    },
+    {
+      "start": 344.8,
+      "duration": 4.16,
+      "text": "And with this capability here, we're"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.44,
+      "text": "just going to now like again, by the"
+    },
+    {
+      "start": 348.96,
+      "duration": 4.799,
+      "text": "way, this is now in a PR. This change"
+    },
+    {
+      "start": 350.96,
+      "duration": 4.32,
+      "text": "here that you see like 002 I want to"
+    },
+    {
+      "start": 353.759,
+      "duration": 3.44,
+      "text": "there's a pull request that fixes that."
+    },
+    {
+      "start": 355.28,
+      "duration": 3.28,
+      "text": "So, we're not going to have these branch"
+    },
+    {
+      "start": 357.199,
+      "duration": 3.84,
+      "text": "names that are very nondescripted. We're"
+    },
+    {
+      "start": 358.56,
+      "duration": 4.56,
+      "text": "actually going to have a proper branch"
+    },
+    {
+      "start": 361.039,
+      "duration": 4.081,
+      "text": "name."
+    },
+    {
+      "start": 363.12,
+      "duration": 5.04,
+      "text": "I'll show you this at at the at the very"
+    },
+    {
+      "start": 365.12,
+      "duration": 4.96,
+      "text": "end. So, we have the the capability"
+    },
+    {
+      "start": 368.16,
+      "duration": 3.68,
+      "text": "being spun up, right? So, we have the"
+    },
+    {
+      "start": 370.08,
+      "duration": 3.52,
+      "text": "specification. Uh, so we're going to go"
+    },
+    {
+      "start": 371.84,
+      "duration": 3.12,
+      "text": "to spec.mmd."
+    },
+    {
+      "start": 373.6,
+      "duration": 3.28,
+      "text": "Let's close the terminal because we"
+    },
+    {
+      "start": 374.96,
+      "duration": 4.88,
+      "text": "don't need it. And we're going to wait"
+    },
+    {
+      "start": 376.88,
+      "duration": 5.439,
+      "text": "for it to populate, right? Because like"
+    },
+    {
+      "start": 379.84,
+      "duration": 4.079,
+      "text": "again, this is going to be a spec for a"
+    },
+    {
+      "start": 382.319,
+      "duration": 5.921,
+      "text": "new feature. It's going to be a new"
+    },
+    {
+      "start": 383.919,
+      "duration": 6.4,
+      "text": "capability that we want to embed into an"
+    },
+    {
+      "start": 388.24,
+      "duration": 3.679,
+      "text": "existing project because I'm not going"
+    },
+    {
+      "start": 390.319,
+      "duration": 3.521,
+      "text": "to spin up the constitution. I'm not"
+    },
+    {
+      "start": 391.919,
+      "duration": 3.84,
+      "text": "going to be reworking any of the"
+    },
+    {
+      "start": 393.84,
+      "duration": 4,
+      "text": "existing UI. I'm just adding things to"
+    },
+    {
+      "start": 395.759,
+      "duration": 4.481,
+      "text": "it. And this additive workflow is very"
+    },
+    {
+      "start": 397.84,
+      "duration": 4.56,
+      "text": "very powerful for specit because we know"
+    },
+    {
+      "start": 400.24,
+      "duration": 3.44,
+      "text": "that not every project you're going to"
+    },
+    {
+      "start": 402.4,
+      "duration": 3.44,
+      "text": "be using spectrum in development is"
+    },
+    {
+      "start": 403.68,
+      "duration": 3.68,
+      "text": "going to be actually a new project. It"
+    },
+    {
+      "start": 405.84,
+      "duration": 2.799,
+      "text": "might be an existing project. Maybe it's"
+    },
+    {
+      "start": 407.36,
+      "duration": 3.279,
+      "text": "something that you've built over the"
+    },
+    {
+      "start": 408.639,
+      "duration": 3.441,
+      "text": "weekend that you want to modernize and"
+    },
+    {
+      "start": 410.639,
+      "duration": 3.84,
+      "text": "upgrade to a modern framework. Maybe you"
+    },
+    {
+      "start": 412.08,
+      "duration": 4.399,
+      "text": "want to add a capability to a mobile app"
+    },
+    {
+      "start": 414.479,
+      "duration": 4,
+      "text": "that you're building. So this is going"
+    },
+    {
+      "start": 416.479,
+      "duration": 3.361,
+      "text": "to be that that avenue. And if you"
+    },
+    {
+      "start": 418.479,
+      "duration": 2.481,
+      "text": "haven't seen it, there's a video on my"
+    },
+    {
+      "start": 419.84,
+      "duration": 2.88,
+      "text": "channel that talks about existing"
+    },
+    {
+      "start": 420.96,
+      "duration": 4.16,
+      "text": "project upgrades with the help of"
+    },
+    {
+      "start": 422.72,
+      "duration": 3.68,
+      "text": "specit. Go check this out. So now we're"
+    },
+    {
+      "start": 425.12,
+      "duration": 4.88,
+      "text": "going to give it a minute to go and"
+    },
+    {
+      "start": 426.4,
+      "duration": 5.28,
+      "text": "write the specification for us. Okay, we"
+    },
+    {
+      "start": 430,
+      "duration": 2.88,
+      "text": "now have the specification. Let's take a"
+    },
+    {
+      "start": 431.68,
+      "duration": 3.359,
+      "text": "look here. So we have our user"
+    },
+    {
+      "start": 432.88,
+      "duration": 4.08,
+      "text": "description, right, that we did. All"
+    },
+    {
+      "start": 435.039,
+      "duration": 4,
+      "text": "right, quickly find specific telescope"
+    },
+    {
+      "start": 436.96,
+      "duration": 4.639,
+      "text": "camera. Makes sense. We're going to take"
+    },
+    {
+      "start": 439.039,
+      "duration": 4.16,
+      "text": "a look here. We should probably have not"
+    },
+    {
+      "start": 441.599,
+      "duration": 3.04,
+      "text": "that many functional requirements yet."
+    },
+    {
+      "start": 443.199,
+      "duration": 5.921,
+      "text": "There's like must provide text search"
+    },
+    {
+      "start": 444.639,
+      "duration": 6.721,
+      "text": "input, filter by cameras in real time,"
+    },
+    {
+      "start": 449.12,
+      "duration": 3.519,
+      "text": "case and sensitive. Yep, that's all of"
+    },
+    {
+      "start": 451.36,
+      "duration": 3.279,
+      "text": "these are good requirements, right? So,"
+    },
+    {
+      "start": 452.639,
+      "duration": 5.761,
+      "text": "we have these functional requirements."
+    },
+    {
+      "start": 454.639,
+      "duration": 5.201,
+      "text": "There's some success criteria, but um I"
+    },
+    {
+      "start": 458.4,
+      "duration": 3.919,
+      "text": "I'm not going to pay that much attention"
+    },
+    {
+      "start": 459.84,
+      "duration": 5.12,
+      "text": "to it right now because that there's"
+    },
+    {
+      "start": 462.319,
+      "duration": 4.401,
+      "text": "some things that it's not not not as"
+    },
+    {
+      "start": 464.96,
+      "duration": 4.4,
+      "text": "important to what my core capability"
+    },
+    {
+      "start": 466.72,
+      "duration": 4.879,
+      "text": "actually is. Now, you know what's"
+    },
+    {
+      "start": 469.36,
+      "duration": 3.839,
+      "text": "coming. You've seen this before. We have"
+    },
+    {
+      "start": 471.599,
+      "duration": 3.841,
+      "text": "to jump through all the process steps"
+    },
+    {
+      "start": 473.199,
+      "duration": 4.081,
+      "text": "that is getting clarification, putting"
+    },
+    {
+      "start": 475.44,
+      "duration": 3.92,
+      "text": "the plan together, putting the task"
+    },
+    {
+      "start": 477.28,
+      "duration": 3.68,
+      "text": "together, analyzing them, and then"
+    },
+    {
+      "start": 479.36,
+      "duration": 3.36,
+      "text": "finally getting to implementation. But"
+    },
+    {
+      "start": 480.96,
+      "duration": 4.48,
+      "text": "before we get to the implementation,"
+    },
+    {
+      "start": 482.72,
+      "duration": 6.56,
+      "text": "we'll pause and I'll show you my"
+    },
+    {
+      "start": 485.44,
+      "duration": 6.24,
+      "text": "approach to doing this multi-arm bandit"
+    },
+    {
+      "start": 489.28,
+      "duration": 3.919,
+      "text": "uh variation creation based on the exact"
+    },
+    {
+      "start": 491.68,
+      "duration": 3.919,
+      "text": "same specification. So stay tuned for"
+    },
+    {
+      "start": 493.199,
+      "duration": 6,
+      "text": "that. Let's make sure that we give the"
+    },
+    {
+      "start": 495.599,
+      "duration": 6.081,
+      "text": "LM some time to go and uh work through"
+    },
+    {
+      "start": 499.199,
+      "duration": 4.72,
+      "text": "all the clarification items and then all"
+    },
+    {
+      "start": 501.68,
+      "duration": 4.48,
+      "text": "the other steps that need to happen. So"
+    },
+    {
+      "start": 503.919,
+      "duration": 5.441,
+      "text": "I'll see you in just a second. All"
+    },
+    {
+      "start": 506.16,
+      "duration": 6.4,
+      "text": "right, so the work is done. We now have"
+    },
+    {
+      "start": 509.36,
+      "duration": 4.799,
+      "text": "the artifacts that we expect from spec"
+    },
+    {
+      "start": 512.56,
+      "duration": 3.2,
+      "text": "kit, right? These are the artifacts that"
+    },
+    {
+      "start": 514.159,
+      "duration": 3.921,
+      "text": "we saw before. We have the plan. We have"
+    },
+    {
+      "start": 515.76,
+      "duration": 4.959,
+      "text": "quickstar research spec. And we even"
+    },
+    {
+      "start": 518.08,
+      "duration": 5.28,
+      "text": "have our tasks file here, right? The new"
+    },
+    {
+      "start": 520.719,
+      "duration": 5.441,
+      "text": "tasks file that got created with a"
+    },
+    {
+      "start": 523.36,
+      "duration": 4.96,
+      "text": "breakdown of all the tasks that the LLM"
+    },
+    {
+      "start": 526.16,
+      "duration": 4.239,
+      "text": "needs to pursue to implement our"
+    },
+    {
+      "start": 528.32,
+      "duration": 4.72,
+      "text": "capability. So you'll take a look here."
+    },
+    {
+      "start": 530.399,
+      "duration": 4.241,
+      "text": "There is a phased approach, right? Phase"
+    },
+    {
+      "start": 533.04,
+      "duration": 3.84,
+      "text": "setup. So we have the setup, shared"
+    },
+    {
+      "start": 534.64,
+      "duration": 4.24,
+      "text": "infrastructure, foundational pieces,"
+    },
+    {
+      "start": 536.88,
+      "duration": 4.399,
+      "text": "right? We have our user story for the"
+    },
+    {
+      "start": 538.88,
+      "duration": 4.72,
+      "text": "MVP things like search capability and so"
+    },
+    {
+      "start": 541.279,
+      "duration": 4.481,
+      "text": "on so forth. And notice that the setup"
+    },
+    {
+      "start": 543.6,
+      "duration": 4.16,
+      "text": "doesn't actually go too deep into the"
+    },
+    {
+      "start": 545.76,
+      "duration": 3.759,
+      "text": "details that you see with brand new"
+    },
+    {
+      "start": 547.76,
+      "duration": 2.8,
+      "text": "green field projects, right? And this is"
+    },
+    {
+      "start": 549.519,
+      "duration": 5.121,
+      "text": "something that like when I first"
+    },
+    {
+      "start": 550.56,
+      "duration": 6.48,
+      "text": "bootstrapped this um the site notice the"
+    },
+    {
+      "start": 554.64,
+      "duration": 4.16,
+      "text": "tasks for setup, it's much more"
+    },
+    {
+      "start": 557.04,
+      "duration": 4,
+      "text": "extensive here, right? Like there is the"
+    },
+    {
+      "start": 558.8,
+      "duration": 3.84,
+      "text": "initialize the Hugo site, configure base"
+    },
+    {
+      "start": 561.04,
+      "duration": 4.08,
+      "text": "URL theme and theme settings and all"
+    },
+    {
+      "start": 562.64,
+      "duration": 4.96,
+      "text": "these things. I don't do that anymore"
+    },
+    {
+      "start": 565.12,
+      "duration": 5.76,
+      "text": "because I'm creating a new feature and"
+    },
+    {
+      "start": 567.6,
+      "duration": 5.44,
+      "text": "smartly it knows the LLM basically"
+    },
+    {
+      "start": 570.88,
+      "duration": 5.28,
+      "text": "parsed the tree and knows that it just"
+    },
+    {
+      "start": 573.04,
+      "duration": 4.56,
+      "text": "needs to verify that Hugo builds and my"
+    },
+    {
+      "start": 576.16,
+      "duration": 3.28,
+      "text": "site actually works and then starts"
+    },
+    {
+      "start": 577.6,
+      "duration": 3.919,
+      "text": "scaffolding things specifically for the"
+    },
+    {
+      "start": 579.44,
+      "duration": 3.44,
+      "text": "filter which is nice. It's again we're"
+    },
+    {
+      "start": 581.519,
+      "duration": 4.88,
+      "text": "adding capabilities to an existing"
+    },
+    {
+      "start": 582.88,
+      "duration": 5.28,
+      "text": "project. With this I also made some"
+    },
+    {
+      "start": 586.399,
+      "duration": 4.161,
+      "text": "choices. So in the specification if you"
+    },
+    {
+      "start": 588.16,
+      "duration": 4.48,
+      "text": "go remember clarify is/clarify is your"
+    },
+    {
+      "start": 590.56,
+      "duration": 4.399,
+      "text": "friend. If I look at one of the"
+    },
+    {
+      "start": 592.64,
+      "duration": 3.92,
+      "text": "clarification items, it's what should be"
+    },
+    {
+      "start": 594.959,
+      "duration": 2.88,
+      "text": "displayed in the camera grid area when"
+    },
+    {
+      "start": 596.56,
+      "duration": 3.04,
+      "text": "there are no matching results. So,"
+    },
+    {
+      "start": 597.839,
+      "duration": 3.44,
+      "text": "center message and grid area with clear"
+    },
+    {
+      "start": 599.6,
+      "duration": 4.4,
+      "text": "all filters because I want to clear out"
+    },
+    {
+      "start": 601.279,
+      "duration": 4.56,
+      "text": "filters quickly. And there's another one"
+    },
+    {
+      "start": 604,
+      "duration": 3.12,
+      "text": "that is how should users interact with"
+    },
+    {
+      "start": 605.839,
+      "duration": 2.641,
+      "text": "the direction filters because remember"
+    },
+    {
+      "start": 607.12,
+      "duration": 3.92,
+      "text": "it's not just that I'm filtering the"
+    },
+    {
+      "start": 608.48,
+      "duration": 4.96,
+      "text": "cameras. I want to filter by direction."
+    },
+    {
+      "start": 611.04,
+      "duration": 4.799,
+      "text": "And for that, I chose drop- down menu"
+    },
+    {
+      "start": 613.44,
+      "duration": 5.12,
+      "text": "with checkboxes inside, which is a"
+    },
+    {
+      "start": 615.839,
+      "duration": 4.161,
+      "text": "approach to do this certainly, but maybe"
+    },
+    {
+      "start": 618.56,
+      "duration": 3.76,
+      "text": "there's alternatives. since we got to"
+    },
+    {
+      "start": 620,
+      "duration": 6.88,
+      "text": "research these alternatives ourselves"
+    },
+    {
+      "start": 622.32,
+      "duration": 6.639,
+      "text": "once we get uh into a new branch now"
+    },
+    {
+      "start": 626.88,
+      "duration": 4.399,
+      "text": "because I want to iterate on these in"
+    },
+    {
+      "start": 628.959,
+      "duration": 6.401,
+      "text": "parallel I want to iterate on these two"
+    },
+    {
+      "start": 631.279,
+      "duration": 5.761,
+      "text": "implementations I can't quite do this in"
+    },
+    {
+      "start": 635.36,
+      "duration": 4,
+      "text": "the exact same experience right like I'm"
+    },
+    {
+      "start": 637.04,
+      "duration": 4.08,
+      "text": "here I'm in my branch which is 002 I"
+    },
+    {
+      "start": 639.36,
+      "duration": 4.719,
+      "text": "want to and again I'll show you at the"
+    },
+    {
+      "start": 641.12,
+      "duration": 5.279,
+      "text": "very end the PR that changes this but if"
+    },
+    {
+      "start": 644.079,
+      "duration": 4.481,
+      "text": "I really wanted to implement a new"
+    },
+    {
+      "start": 646.399,
+      "duration": 4.321,
+      "text": "capability right or a new variation of"
+    },
+    {
+      "start": 648.56,
+      "duration": 5.12,
+      "text": "it. I need to switch branches and I"
+    },
+    {
+      "start": 650.72,
+      "duration": 6,
+      "text": "don't want to go and just add like a new"
+    },
+    {
+      "start": 653.68,
+      "duration": 6,
+      "text": "branch, kick it off, wait for the"
+    },
+    {
+      "start": 656.72,
+      "duration": 4.72,
+      "text": "implementation, and then switch branch"
+    },
+    {
+      "start": 659.68,
+      "duration": 3.04,
+      "text": "again, go to the implementation. Like,"
+    },
+    {
+      "start": 661.44,
+      "duration": 2.72,
+      "text": "that's not just what we want to do. It's"
+    },
+    {
+      "start": 662.72,
+      "duration": 3.359,
+      "text": "not efficient. So, we're going to go"
+    },
+    {
+      "start": 664.16,
+      "duration": 3.6,
+      "text": "back to my terminal here. I have my Hugo"
+    },
+    {
+      "start": 666.079,
+      "duration": 3.281,
+      "text": "site running. We're going to cancel"
+    },
+    {
+      "start": 667.76,
+      "duration": 3.519,
+      "text": "this. We don't need we need don't need"
+    },
+    {
+      "start": 669.36,
+      "duration": 4.32,
+      "text": "it running. And I'm going to clear it."
+    },
+    {
+      "start": 671.279,
+      "duration": 4.401,
+      "text": "And what I'm going to do is use get"
+    },
+    {
+      "start": 673.68,
+      "duration": 4.719,
+      "text": "workree"
+    },
+    {
+      "start": 675.68,
+      "duration": 4.399,
+      "text": "workree add. This is the magic command"
+    },
+    {
+      "start": 678.399,
+      "duration": 3.921,
+      "text": "here. You need to use get work trees."
+    },
+    {
+      "start": 680.079,
+      "duration": 3.76,
+      "text": "And I'll figure out how to actually uh"
+    },
+    {
+      "start": 682.32,
+      "duration": 2.72,
+      "text": "spin it up and do slash commands to make"
+    },
+    {
+      "start": 683.839,
+      "duration": 2.641,
+      "text": "it a little bit more efficient. But for"
+    },
+    {
+      "start": 685.04,
+      "duration": 3.359,
+      "text": "now, you can do this manually. So, get"
+    },
+    {
+      "start": 686.48,
+      "duration": 4.08,
+      "text": "workree add. And then we're going to use"
+    },
+    {
+      "start": 688.399,
+      "duration": 6.241,
+      "text": "dashb and specify the new branch. So,"
+    },
+    {
+      "start": 690.56,
+      "duration": 7.68,
+      "text": "we're going to call it um filter out."
+    },
+    {
+      "start": 694.64,
+      "duration": 5.199,
+      "text": "And then we're going to do the the"
+    },
+    {
+      "start": 698.24,
+      "duration": 9.2,
+      "text": "folder. And this is going to be Hawaii"
+    },
+    {
+      "start": 699.839,
+      "duration": 9.761,
+      "text": "diff filter out, right? and 002 I12"
+    },
+    {
+      "start": 707.44,
+      "duration": 4.079,
+      "text": "is the branch from which we're"
+    },
+    {
+      "start": 709.6,
+      "duration": 4.64,
+      "text": "bootstrapping this new branch. Remember"
+    },
+    {
+      "start": 711.519,
+      "duration": 4.961,
+      "text": "I already checked in the spec. I checked"
+    },
+    {
+      "start": 714.24,
+      "duration": 5.599,
+      "text": "in the plan and the tasks. I want to"
+    },
+    {
+      "start": 716.48,
+      "duration": 6.64,
+      "text": "have a variation of the exact same"
+    },
+    {
+      "start": 719.839,
+      "duration": 6.24,
+      "text": "branch in a different folder. Now this"
+    },
+    {
+      "start": 723.12,
+      "duration": 4.159,
+      "text": "also is nice because if I do this right,"
+    },
+    {
+      "start": 726.079,
+      "duration": 3.361,
+      "text": "we're going to bootstrap this new"
+    },
+    {
+      "start": 727.279,
+      "duration": 3.761,
+      "text": "branch. It's called filter alt. It's"
+    },
+    {
+      "start": 729.44,
+      "duration": 3.519,
+      "text": "going to go through the process and"
+    },
+    {
+      "start": 731.04,
+      "duration": 4.72,
+      "text": "create a new branch for us."
+    },
+    {
+      "start": 732.959,
+      "duration": 5.841,
+      "text": "And the branch is now linked to my"
+    },
+    {
+      "start": 735.76,
+      "duration": 5.6,
+      "text": "repository. So if I go back to here and"
+    },
+    {
+      "start": 738.8,
+      "duration": 3.92,
+      "text": "we do ls, I have a Hawaii diff alt, but"
+    },
+    {
+      "start": 741.36,
+      "duration": 3.76,
+      "text": "we can ignore this because I tested it"
+    },
+    {
+      "start": 742.72,
+      "duration": 4.08,
+      "text": "before. But we have a Hawaii diff filter"
+    },
+    {
+      "start": 745.12,
+      "duration": 3.92,
+      "text": "alt that was just created. So we have"
+    },
+    {
+      "start": 746.8,
+      "duration": 4.32,
+      "text": "two folders, Hawaii diff and Hawaii diff"
+    },
+    {
+      "start": 749.04,
+      "duration": 4.88,
+      "text": "filter alt"
+    },
+    {
+      "start": 751.12,
+      "duration": 5.04,
+      "text": "in my git client GitHub desktop. If I"
+    },
+    {
+      "start": 753.92,
+      "duration": 4.96,
+      "text": "expand the view here, notice that I have"
+    },
+    {
+      "start": 756.16,
+      "duration": 4,
+      "text": "filter alt. I have a different folder"
+    },
+    {
+      "start": 758.88,
+      "duration": 3.519,
+      "text": "and different branch, but they're"
+    },
+    {
+      "start": 760.16,
+      "duration": 5.119,
+      "text": "associated with the same work tree. Now,"
+    },
+    {
+      "start": 762.399,
+      "duration": 4.321,
+      "text": "this is so much better than you copying"
+    },
+    {
+      "start": 765.279,
+      "duration": 2.721,
+      "text": "things around, right? Like navigating"
+    },
+    {
+      "start": 766.72,
+      "duration": 2.88,
+      "text": "back and forth and like, let me copy"
+    },
+    {
+      "start": 768,
+      "duration": 2.959,
+      "text": "this folder and put it in this folder,"
+    },
+    {
+      "start": 769.6,
+      "duration": 3.28,
+      "text": "then open this in VS Code and all of a"
+    },
+    {
+      "start": 770.959,
+      "duration": 3.521,
+      "text": "sudden your Git client has no idea you"
+    },
+    {
+      "start": 772.88,
+      "duration": 4,
+      "text": "need to open an instance of the exact"
+    },
+    {
+      "start": 774.48,
+      "duration": 4.64,
+      "text": "same repository and name it differently"
+    },
+    {
+      "start": 776.88,
+      "duration": 4.48,
+      "text": "and get all confused like that. Use git"
+    },
+    {
+      "start": 779.12,
+      "duration": 5.839,
+      "text": "work trees. So, here what we're going to"
+    },
+    {
+      "start": 781.36,
+      "duration": 6.479,
+      "text": "do now is we're going to go to CD and"
+    },
+    {
+      "start": 784.959,
+      "duration": 5.761,
+      "text": "we're going to do Hawaii diff filter"
+    },
+    {
+      "start": 787.839,
+      "duration": 5.841,
+      "text": "alt, right? And we're going to open this"
+    },
+    {
+      "start": 790.72,
+      "duration": 6,
+      "text": "folder now in VS Code as well. So we can"
+    },
+    {
+      "start": 793.68,
+      "duration": 5.92,
+      "text": "keep them side by side. So we have the"
+    },
+    {
+      "start": 796.72,
+      "duration": 5.919,
+      "text": "alt here and we're going to have our"
+    },
+    {
+      "start": 799.6,
+      "duration": 6.239,
+      "text": "Hawaii diff, the original one on a left."
+    },
+    {
+      "start": 802.639,
+      "duration": 7.121,
+      "text": "So we're going to maximize the chat view"
+    },
+    {
+      "start": 805.839,
+      "duration": 5.521,
+      "text": "just a little bit. So do this."
+    },
+    {
+      "start": 809.76,
+      "duration": 4,
+      "text": "Okay, perfect. We don't actually need"
+    },
+    {
+      "start": 811.36,
+      "duration": 6.32,
+      "text": "the file browser here. So it's fine."
+    },
+    {
+      "start": 813.76,
+      "duration": 5.199,
+      "text": "It's fine. Okay. So, um, and then the"
+    },
+    {
+      "start": 817.68,
+      "duration": 4.719,
+      "text": "alternative one, I want to make sure"
+    },
+    {
+      "start": 818.959,
+      "duration": 6.721,
+      "text": "that I modify the filter. So, I want to,"
+    },
+    {
+      "start": 822.399,
+      "duration": 8.401,
+      "text": "so let's go back here to our,"
+    },
+    {
+      "start": 825.68,
+      "duration": 8.959,
+      "text": "uh, let's go to our specs,"
+    },
+    {
+      "start": 830.8,
+      "duration": 6.96,
+      "text": "right? The 002 I want to and then tasks."
+    },
+    {
+      "start": 834.639,
+      "duration": 5.76,
+      "text": "So for the filter, so we're going to say"
+    },
+    {
+      "start": 837.76,
+      "duration": 7.36,
+      "text": "because in this context, right, like if"
+    },
+    {
+      "start": 840.399,
+      "duration": 7.361,
+      "text": "I want to set the specific active"
+    },
+    {
+      "start": 845.12,
+      "duration": 5.04,
+      "text": "feature branch I'm on inside this view,"
+    },
+    {
+      "start": 847.76,
+      "duration": 4.56,
+      "text": "inside the execution environment, I can"
+    },
+    {
+      "start": 850.16,
+      "duration": 5.84,
+      "text": "specify an environment variable like"
+    },
+    {
+      "start": 852.32,
+      "duration": 5.36,
+      "text": "specit does support this. However, what"
+    },
+    {
+      "start": 856,
+      "duration": 3.76,
+      "text": "I also want to do is make sure that"
+    },
+    {
+      "start": 857.68,
+      "duration": 3.44,
+      "text": "because it can spin up new terminals is"
+    },
+    {
+      "start": 859.76,
+      "duration": 4.8,
+      "text": "to be a little bit more explicit with"
+    },
+    {
+      "start": 861.12,
+      "duration": 5.2,
+      "text": "it. So we're going to say I want to"
+    },
+    {
+      "start": 864.56,
+      "duration": 4.88,
+      "text": "uh update"
+    },
+    {
+      "start": 866.32,
+      "duration": 5.6,
+      "text": "the filter spec"
+    },
+    {
+      "start": 869.44,
+      "duration": 5.759,
+      "text": "in 002."
+    },
+    {
+      "start": 871.92,
+      "duration": 5.039,
+      "text": "I want to ah this a horrible branch"
+    },
+    {
+      "start": 875.199,
+      "duration": 7.041,
+      "text": "name, a horrible folder name, but that's"
+    },
+    {
+      "start": 876.959,
+      "duration": 6.961,
+      "text": "okay. Um to make sure that the filters"
+    },
+    {
+      "start": 882.24,
+      "duration": 5.68,
+      "text": "are"
+    },
+    {
+      "start": 883.92,
+      "duration": 6.24,
+      "text": "toggles, not check boxes"
+    },
+    {
+      "start": 887.92,
+      "duration": 4.4,
+      "text": "and drop down,"
+    },
+    {
+      "start": 890.16,
+      "duration": 3.679,
+      "text": "right? because I'm exploring a new"
+    },
+    {
+      "start": 892.32,
+      "duration": 2.879,
+      "text": "variation of that implementation. I'm"
+    },
+    {
+      "start": 893.839,
+      "duration": 3.12,
+      "text": "not sure which one I want. So, let's"
+    },
+    {
+      "start": 895.199,
+      "duration": 3.921,
+      "text": "take a look here. We're going to use"
+    },
+    {
+      "start": 896.959,
+      "duration": 3.841,
+      "text": "this. I'm going to prompt it to go do"
+    },
+    {
+      "start": 899.12,
+      "duration": 4.079,
+      "text": "that. So, I'll help you upgrade the"
+    },
+    {
+      "start": 900.8,
+      "duration": 3.68,
+      "text": "filter change from checkboxes in the"
+    },
+    {
+      "start": 903.199,
+      "duration": 3.841,
+      "text": "drop down. All right. So, it's going to"
+    },
+    {
+      "start": 904.48,
+      "duration": 3.84,
+      "text": "read the spec.md and it looks at the"
+    },
+    {
+      "start": 907.04,
+      "duration": 4.479,
+      "text": "right reference and it looks at the"
+    },
+    {
+      "start": 908.32,
+      "duration": 4.4,
+      "text": "right folder. Okay."
+    },
+    {
+      "start": 911.519,
+      "duration": 2.481,
+      "text": "And it's going to make the necessary"
+    },
+    {
+      "start": 912.72,
+      "duration": 3.44,
+      "text": "changes. It does keep the right"
+    },
+    {
+      "start": 914,
+      "duration": 3.6,
+      "text": "references which I like, right? Like I I"
+    },
+    {
+      "start": 916.16,
+      "duration": 2.799,
+      "text": "did not necessarily like set any"
+    },
+    {
+      "start": 917.6,
+      "duration": 3.12,
+      "text": "environment variables for it. I just"
+    },
+    {
+      "start": 918.959,
+      "duration": 3.361,
+      "text": "asked it to do things. So, let's take a"
+    },
+    {
+      "start": 920.72,
+      "duration": 3.6,
+      "text": "look here what it's actually doing. So,"
+    },
+    {
+      "start": 922.32,
+      "duration": 6.48,
+      "text": "I'm going to again maximize a chat box"
+    },
+    {
+      "start": 924.32,
+      "duration": 6.879,
+      "text": "and we can hide the uh or maybe like can"
+    },
+    {
+      "start": 928.8,
+      "duration": 5.68,
+      "text": "I just can I just do this? Oh, yeah. I"
+    },
+    {
+      "start": 931.199,
+      "duration": 4.88,
+      "text": "can do this. I can do controlB. So,"
+    },
+    {
+      "start": 934.48,
+      "duration": 3.2,
+      "text": "okay. So, now it updated the"
+    },
+    {
+      "start": 936.079,
+      "duration": 4.56,
+      "text": "specification"
+    },
+    {
+      "start": 937.68,
+      "duration": 6.32,
+      "text": "with toggle buttons which is again it it"
+    },
+    {
+      "start": 940.639,
+      "duration": 6.721,
+      "text": "did update the the the"
+    },
+    {
+      "start": 944,
+      "duration": 6.32,
+      "text": "clarification items too,"
+    },
+    {
+      "start": 947.36,
+      "duration": 4.8,
+      "text": "right? It should have. Yeah, it did."
+    },
+    {
+      "start": 950.32,
+      "duration": 3.6,
+      "text": "Pills, chips that can be clicked to"
+    },
+    {
+      "start": 952.16,
+      "duration": 5.359,
+      "text": "activate, deactivate. Perfect. That's"
+    },
+    {
+      "start": 953.92,
+      "duration": 5.039,
+      "text": "exactly what I wanted. And because we're"
+    },
+    {
+      "start": 957.519,
+      "duration": 3.12,
+      "text": "in a different branch, we can do this"
+    },
+    {
+      "start": 958.959,
+      "duration": 3.841,
+      "text": "safely. Like I'm not necessarily worried"
+    },
+    {
+      "start": 960.639,
+      "duration": 4.32,
+      "text": "about this specification affecting the"
+    },
+    {
+      "start": 962.8,
+      "duration": 4.08,
+      "text": "main one that I have. And actually the"
+    },
+    {
+      "start": 964.959,
+      "duration": 3.361,
+      "text": "main one, we can kick off the"
+    },
+    {
+      "start": 966.88,
+      "duration": 4.72,
+      "text": "implementation. So we can we don't need"
+    },
+    {
+      "start": 968.32,
+      "duration": 5.28,
+      "text": "to wait. So we can just do"
+    },
+    {
+      "start": 971.6,
+      "duration": 6.08,
+      "text": "implement"
+    },
+    {
+      "start": 973.6,
+      "duration": 6.08,
+      "text": "ah if I can type beet implement, right?"
+    },
+    {
+      "start": 977.68,
+      "duration": 3.36,
+      "text": "Because for for one of our branches, we"
+    },
+    {
+      "start": 979.68,
+      "duration": 3.04,
+      "text": "can just kick this process off. It's"
+    },
+    {
+      "start": 981.04,
+      "duration": 3.68,
+      "text": "fine. Let let it go implement while"
+    },
+    {
+      "start": 982.72,
+      "duration": 4.08,
+      "text": "we're waiting for the updates to our"
+    },
+    {
+      "start": 984.72,
+      "duration": 3.919,
+      "text": "specification and the data models and"
+    },
+    {
+      "start": 986.8,
+      "duration": 3.36,
+      "text": "the tasks and plan. Okay. And it"
+    },
+    {
+      "start": 988.639,
+      "duration": 2.721,
+      "text": "actually did. Look, it did it by itself."
+    },
+    {
+      "start": 990.16,
+      "duration": 2.72,
+      "text": "It's like, oh, let me go and update the"
+    },
+    {
+      "start": 991.36,
+      "duration": 5.68,
+      "text": "plan because plan is clearly tied to"
+    },
+    {
+      "start": 992.88,
+      "duration": 6.639,
+      "text": "this. Great, great, great. I I love how"
+    },
+    {
+      "start": 997.04,
+      "duration": 3.919,
+      "text": "easy and intuitive that is. So, let's"
+    },
+    {
+      "start": 999.519,
+      "duration": 4.161,
+      "text": "see. On the left side, our checklists"
+    },
+    {
+      "start": 1000.959,
+      "duration": 3.841,
+      "text": "are passing, which is great. And here"
+    },
+    {
+      "start": 1003.68,
+      "duration": 3.2,
+      "text": "we're still waiting because it's"
+    },
+    {
+      "start": 1004.8,
+      "duration": 3.92,
+      "text": "updating the data model files. So you"
+    },
+    {
+      "start": 1006.88,
+      "duration": 3.68,
+      "text": "can also parallelize this like here I"
+    },
+    {
+      "start": 1008.72,
+      "duration": 3.52,
+      "text": "have only two branches right so I have"
+    },
+    {
+      "start": 1010.56,
+      "duration": 3.839,
+      "text": "two implementations"
+    },
+    {
+      "start": 1012.24,
+      "duration": 4.399,
+      "text": "you can totally imagine that in your"
+    },
+    {
+      "start": 1014.399,
+      "duration": 3.921,
+      "text": "scenario you can have four you can have"
+    },
+    {
+      "start": 1016.639,
+      "duration": 5.12,
+      "text": "five and if you have a big screen you"
+    },
+    {
+      "start": 1018.32,
+      "duration": 5.519,
+      "text": "can do 10 uh by all means right this can"
+    },
+    {
+      "start": 1021.759,
+      "duration": 4.641,
+      "text": "of course be automated so I want to make"
+    },
+    {
+      "start": 1023.839,
+      "duration": 4.641,
+      "text": "sure that we are uh considering the fact"
+    },
+    {
+      "start": 1026.4,
+      "duration": 3.12,
+      "text": "that the the experience that I'm showing"
+    },
+    {
+      "start": 1028.48,
+      "duration": 3.359,
+      "text": "you today is a little bit more"
+    },
+    {
+      "start": 1029.52,
+      "duration": 4.72,
+      "text": "compressed right this is a demo"
+    },
+    {
+      "start": 1031.839,
+      "duration": 5.281,
+      "text": "environment this is a fairly simple"
+    },
+    {
+      "start": 1034.24,
+      "duration": 4.559,
+      "text": "project and A lot of the things that you"
+    },
+    {
+      "start": 1037.12,
+      "duration": 3.52,
+      "text": "you see are, you know, they're"
+    },
+    {
+      "start": 1038.799,
+      "duration": 4.801,
+      "text": "iterative. Like it it's fine. Manual"
+    },
+    {
+      "start": 1040.64,
+      "duration": 4.399,
+      "text": "manual process is fine. But the goal"
+    },
+    {
+      "start": 1043.6,
+      "duration": 3.359,
+      "text": "here is to actually get to a world where"
+    },
+    {
+      "start": 1045.039,
+      "duration": 4.801,
+      "text": "we can automate this process and make"
+    },
+    {
+      "start": 1046.959,
+      "duration": 6.08,
+      "text": "sure that the the flow is as much as"
+    },
+    {
+      "start": 1049.84,
+      "duration": 5.199,
+      "text": "possible controlled not by you going to"
+    },
+    {
+      "start": 1053.039,
+      "duration": 4.241,
+      "text": "the terminal and manually typing work"
+    },
+    {
+      "start": 1055.039,
+      "duration": 4.321,
+      "text": "tree commands and instead use for"
+    },
+    {
+      "start": 1057.28,
+      "duration": 4.639,
+      "text": "example slash commands or use any of the"
+    },
+    {
+      "start": 1059.36,
+      "duration": 5.439,
+      "text": "more uh I want to say like smooth"
+    },
+    {
+      "start": 1061.919,
+      "duration": 5.041,
+      "text": "workflows that allow you to move faster"
+    },
+    {
+      "start": 1064.799,
+      "duration": 4.721,
+      "text": "while still having this experimentation"
+    },
+    {
+      "start": 1066.96,
+      "duration": 4.32,
+      "text": "in place. But git work trees again this"
+    },
+    {
+      "start": 1069.52,
+      "duration": 4.56,
+      "text": "this is the the capability that will"
+    },
+    {
+      "start": 1071.28,
+      "duration": 3.759,
+      "text": "come to your rescue many times over if"
+    },
+    {
+      "start": 1074.08,
+      "duration": 3.839,
+      "text": "you need to build parallel"
+    },
+    {
+      "start": 1075.039,
+      "duration": 5.441,
+      "text": "implementations. Um, so let's see. Like"
+    },
+    {
+      "start": 1077.919,
+      "duration": 4.401,
+      "text": "looks like Hugo is building on our side,"
+    },
+    {
+      "start": 1080.48,
+      "duration": 3.28,
+      "text": "right? Yeah, it's still Hugo is still"
+    },
+    {
+      "start": 1082.32,
+      "duration": 3.599,
+      "text": "building. So it has the warnings I know"
+    },
+    {
+      "start": 1083.76,
+      "duration": 4,
+      "text": "because there's a lot of photos on that"
+    },
+    {
+      "start": 1085.919,
+      "duration": 3.361,
+      "text": "site. So every time Hugo builds, it has"
+    },
+    {
+      "start": 1087.76,
+      "duration": 3.84,
+      "text": "to basically like package up all those"
+    },
+    {
+      "start": 1089.28,
+      "duration": 3.759,
+      "text": "photos at once. I that's actually an"
+    },
+    {
+      "start": 1091.6,
+      "duration": 3.76,
+      "text": "idea for improvement that we need to get"
+    },
+    {
+      "start": 1093.039,
+      "duration": 4.561,
+      "text": "on the site and make sure that uh if I"
+    },
+    {
+      "start": 1095.36,
+      "duration": 4.96,
+      "text": "am running the Hugo build, just take the"
+    },
+    {
+      "start": 1097.6,
+      "duration": 4.64,
+      "text": "last like say like 11 photos that we saw"
+    },
+    {
+      "start": 1100.32,
+      "duration": 4.16,
+      "text": "on the site. So it doesn't necessarily"
+    },
+    {
+      "start": 1102.24,
+      "duration": 4.88,
+      "text": "take hundreds of them and then bundle"
+    },
+    {
+      "start": 1104.48,
+      "duration": 3.84,
+      "text": "them and host them uh on Cloudflare"
+    },
+    {
+      "start": 1107.12,
+      "duration": 2.559,
+      "text": "because somebody's going to be paying"
+    },
+    {
+      "start": 1108.32,
+      "duration": 4.96,
+      "text": "for the traffic and somebody is going to"
+    },
+    {
+      "start": 1109.679,
+      "duration": 6.321,
+      "text": "be me. So um let's see on our side here"
+    },
+    {
+      "start": 1113.28,
+      "duration": 4.88,
+      "text": "it's still updating which is great. It's"
+    },
+    {
+      "start": 1116,
+      "duration": 4.4,
+      "text": "it's going through the files and if I"
+    },
+    {
+      "start": 1118.16,
+      "duration": 5.68,
+      "text": "hover over edited quick start quick"
+    },
+    {
+      "start": 1120.4,
+      "duration": 5.36,
+      "text": "start MD and used one reference."
+    },
+    {
+      "start": 1123.84,
+      "duration": 3.44,
+      "text": "Okay, so it seems to be going in the"
+    },
+    {
+      "start": 1125.76,
+      "duration": 3.84,
+      "text": "right direction and I can actually hover"
+    },
+    {
+      "start": 1127.28,
+      "duration": 4.48,
+      "text": "over these files and I love the fact"
+    },
+    {
+      "start": 1129.6,
+      "duration": 5.04,
+      "text": "again that it goes to the right place. I"
+    },
+    {
+      "start": 1131.76,
+      "duration": 4.159,
+      "text": "I just told it 002 in the initial"
+    },
+    {
+      "start": 1134.64,
+      "duration": 4.08,
+      "text": "prompt. I was like great, I'm going to"
+    },
+    {
+      "start": 1135.919,
+      "duration": 5.201,
+      "text": "go and update everything that make to"
+    },
+    {
+      "start": 1138.72,
+      "duration": 5.44,
+      "text": "make sure that this capability is uh"
+    },
+    {
+      "start": 1141.12,
+      "duration": 5.12,
+      "text": "properly captured in the right files. So"
+    },
+    {
+      "start": 1144.16,
+      "duration": 3.92,
+      "text": "we're going to give uh this just a"
+    },
+    {
+      "start": 1146.24,
+      "duration": 3.92,
+      "text": "minute to go and wait for Hugo while we"
+    },
+    {
+      "start": 1148.08,
+      "duration": 5.36,
+      "text": "have our spec files updated. So let's"
+    },
+    {
+      "start": 1150.16,
+      "duration": 5.6,
+      "text": "say spec what updated spec quick start"
+    },
+    {
+      "start": 1153.44,
+      "duration": 5.64,
+      "text": "plan"
+    },
+    {
+      "start": 1155.76,
+      "duration": 3.32,
+      "text": "data model."
+    },
+    {
+      "start": 1159.36,
+      "duration": 5.199,
+      "text": "Okay. Did it update tasks? It probably"
+    },
+    {
+      "start": 1161.919,
+      "duration": 4.321,
+      "text": "didn't. I don't see tasks. Okay. But we"
+    },
+    {
+      "start": 1164.559,
+      "duration": 4.561,
+      "text": "can keep these changes. Right. So here"
+    },
+    {
+      "start": 1166.24,
+      "duration": 4.799,
+      "text": "and then let's say let's update the"
+    },
+    {
+      "start": 1169.12,
+      "duration": 5.28,
+      "text": "tasks"
+    },
+    {
+      "start": 1171.039,
+      "duration": 7.161,
+      "text": "to to make sure that they reflect the"
+    },
+    {
+      "start": 1174.4,
+      "duration": 3.8,
+      "text": "changes to the spec."
+    },
+    {
+      "start": 1178.4,
+      "duration": 2.56,
+      "text": "Great."
+    },
+    {
+      "start": 1183.919,
+      "duration": 3,
+      "text": "Okay."
+    },
+    {
+      "start": 1187.2,
+      "duration": 5.12,
+      "text": "And it's going to read task.md and"
+    },
+    {
+      "start": 1189.12,
+      "duration": 6.2,
+      "text": "00212. Yeah. Perfect, perfect, perfect,"
+    },
+    {
+      "start": 1192.32,
+      "duration": 3,
+      "text": "perfect."
+    },
+    {
+      "start": 1196.08,
+      "duration": 2.88,
+      "text": "Here it's summarizing conversation"
+    },
+    {
+      "start": 1197.44,
+      "duration": 2.96,
+      "text": "history because it's fairly long"
+    },
+    {
+      "start": 1198.96,
+      "duration": 5.32,
+      "text": "context. So, it's just going to go ahead"
+    },
+    {
+      "start": 1200.4,
+      "duration": 3.88,
+      "text": "and start implementing things."
+    },
+    {
+      "start": 1209.52,
+      "duration": 4.64,
+      "text": "And it's still working."
+    },
+    {
+      "start": 1212.48,
+      "duration": 5.04,
+      "text": "So now we're just going to give it a"
+    },
+    {
+      "start": 1214.16,
+      "duration": 4.72,
+      "text": "minute and let it continuously iterate"
+    },
+    {
+      "start": 1217.52,
+      "duration": 4.36,
+      "text": "and make sure that it updates the"
+    },
+    {
+      "start": 1218.88,
+      "duration": 3,
+      "text": "documentation."
+    },
+    {
+      "start": 1247.44,
+      "duration": 3.28,
+      "text": "We should be good. We now have two"
+    },
+    {
+      "start": 1248.88,
+      "duration": 3.52,
+      "text": "implementations."
+    },
+    {
+      "start": 1250.72,
+      "duration": 4.079,
+      "text": "We have one on the left. This is the"
+    },
+    {
+      "start": 1252.4,
+      "duration": 3.92,
+      "text": "original spec, right? This we had with"
+    },
+    {
+      "start": 1254.799,
+      "duration": 4.24,
+      "text": "the check boxes. We have one on the"
+    },
+    {
+      "start": 1256.32,
+      "duration": 4.4,
+      "text": "right. those implementing toggles like"
+    },
+    {
+      "start": 1259.039,
+      "duration": 3.361,
+      "text": "the pill toggles that we talked about."
+    },
+    {
+      "start": 1260.72,
+      "duration": 3.6,
+      "text": "So, let's take a look. Let's take a look"
+    },
+    {
+      "start": 1262.4,
+      "duration": 4,
+      "text": "as to what do they actually render like."
+    },
+    {
+      "start": 1264.32,
+      "duration": 4.4,
+      "text": "And for that, I'm going to go here. I'm"
+    },
+    {
+      "start": 1266.4,
+      "duration": 3.759,
+      "text": "going to close Firefox."
+    },
+    {
+      "start": 1268.72,
+      "duration": 3.76,
+      "text": "Make sure that we're not actually"
+    },
+    {
+      "start": 1270.159,
+      "duration": 5.601,
+      "text": "cheating on this, right? Like we're this"
+    },
+    {
+      "start": 1272.48,
+      "duration": 5.12,
+      "text": "is going to be live. So, here I'm in my"
+    },
+    {
+      "start": 1275.76,
+      "duration": 4.399,
+      "text": "alt. This is the pill implementation."
+    },
+    {
+      "start": 1277.6,
+      "duration": 5.36,
+      "text": "I'm going to do Hugo server"
+    },
+    {
+      "start": 1280.159,
+      "duration": 5.441,
+      "text": "and this should render"
+    },
+    {
+      "start": 1282.96,
+      "duration": 4.48,
+      "text": "a page um once it actually hosts a"
+    },
+    {
+      "start": 1285.6,
+      "duration": 3.12,
+      "text": "server. Great. I'm not going to click on"
+    },
+    {
+      "start": 1287.44,
+      "duration": 3.84,
+      "text": "it just yet. So, we're going to"
+    },
+    {
+      "start": 1288.72,
+      "duration": 4.72,
+      "text": "duplicate this tab. I'm just going to go"
+    },
+    {
+      "start": 1291.28,
+      "duration": 4.16,
+      "text": "one level. Well, actually, yeah, let's"
+    },
+    {
+      "start": 1293.44,
+      "duration": 4.16,
+      "text": "go to documents"
+    },
+    {
+      "start": 1295.44,
+      "duration": 4.64,
+      "text": "GitHub Hawaii diff, which is the"
+    },
+    {
+      "start": 1297.6,
+      "duration": 5.12,
+      "text": "original one, right? So, we're going to"
+    },
+    {
+      "start": 1300.08,
+      "duration": 6.8,
+      "text": "do ls. So, we're in the folder. And now"
+    },
+    {
+      "start": 1302.72,
+      "duration": 6.16,
+      "text": "I do Hugo server here."
+    },
+    {
+      "start": 1306.88,
+      "duration": 4.96,
+      "text": "Going to attempt to use an available"
+    },
+    {
+      "start": 1308.88,
+      "duration": 4.48,
+      "text": "port because the previous one is bound."
+    },
+    {
+      "start": 1311.84,
+      "duration": 5.12,
+      "text": "All right. So, we have two versions now."
+    },
+    {
+      "start": 1313.36,
+      "duration": 6.799,
+      "text": "So I have the local host 57305"
+    },
+    {
+      "start": 1316.96,
+      "duration": 4.719,
+      "text": "going to go here and"
+    },
+    {
+      "start": 1320.159,
+      "duration": 4.321,
+      "text": "57305."
+    },
+    {
+      "start": 1321.679,
+      "duration": 4.641,
+      "text": "All right. This is our original"
+    },
+    {
+      "start": 1324.48,
+      "duration": 5.36,
+      "text": "implementation right from original spec."
+    },
+    {
+      "start": 1326.32,
+      "duration": 7.2,
+      "text": "So I can do you cur. Yep. It it sure is"
+    },
+    {
+      "start": 1329.84,
+      "duration": 6.64,
+      "text": "filtering them direction. If I do east"
+    },
+    {
+      "start": 1333.52,
+      "duration": 6.56,
+      "text": "Uh-huh. Uh-huh. I can clear all filters."
+    },
+    {
+      "start": 1336.48,
+      "duration": 6.559,
+      "text": "Great. Great. Love it."
+    },
+    {
+      "start": 1340.08,
+      "duration": 4.719,
+      "text": "Oh. Ah."
+    },
+    {
+      "start": 1343.039,
+      "duration": 3.76,
+      "text": "Look at that. It's nice, right? And I"
+    },
+    {
+      "start": 1344.799,
+      "duration": 3.601,
+      "text": "can also do direction and I say hilo."
+    },
+    {
+      "start": 1346.799,
+      "duration": 2.801,
+      "text": "Anything that faces hilo and I can just"
+    },
+    {
+      "start": 1348.4,
+      "duration": 4.24,
+      "text": "look here. And of course there's a"
+    },
+    {
+      "start": 1349.6,
+      "duration": 5.6,
+      "text": "Gemini telescope. Great. Love it. Uh,"
+    },
+    {
+      "start": 1352.64,
+      "duration": 5.2,
+      "text": "this works great. But remember, we have"
+    },
+    {
+      "start": 1355.2,
+      "duration": 5.2,
+      "text": "one on 1313. So we're going to duplicate"
+    },
+    {
+      "start": 1357.84,
+      "duration": 4,
+      "text": "this tab as well. And here instead of"
+    },
+    {
+      "start": 1360.4,
+      "duration": 3.6,
+      "text": "this port, we're going to use 1313"
+    },
+    {
+      "start": 1361.84,
+      "duration": 3.839,
+      "text": "because we run it locally. So we now"
+    },
+    {
+      "start": 1364,
+      "duration": 4.32,
+      "text": "have an alternative implementation. So"
+    },
+    {
+      "start": 1365.679,
+      "duration": 3.841,
+      "text": "if I go back here, notice this text box"
+    },
+    {
+      "start": 1368.32,
+      "duration": 2.56,
+      "text": "and direction. And of course, we're"
+    },
+    {
+      "start": 1369.52,
+      "duration": 2.88,
+      "text": "going to tweak the styling here to make"
+    },
+    {
+      "start": 1370.88,
+      "duration": 4.799,
+      "text": "it a little bit better, but it's it's"
+    },
+    {
+      "start": 1372.4,
+      "duration": 4.88,
+      "text": "here. And now here I have my"
+    },
+    {
+      "start": 1375.679,
+      "duration": 4.081,
+      "text": "implementation"
+    },
+    {
+      "start": 1377.28,
+      "duration": 5.2,
+      "text": "that's alternative that I can also do"
+    },
+    {
+      "start": 1379.76,
+      "duration": 4.72,
+      "text": "like you Kurt. Yeah. Yep. I can totally"
+    },
+    {
+      "start": 1382.48,
+      "duration": 5.52,
+      "text": "do that. And I can just click on these"
+    },
+    {
+      "start": 1384.48,
+      "duration": 6.8,
+      "text": "buttons to filter things, right? And"
+    },
+    {
+      "start": 1388,
+      "duration": 5.6,
+      "text": "what if I select these or ah look at"
+    },
+    {
+      "start": 1391.28,
+      "duration": 5.12,
+      "text": "that or also like the see the variation"
+    },
+    {
+      "start": 1393.6,
+      "duration": 4.079,
+      "text": "in LLMs like how how it does things when"
+    },
+    {
+      "start": 1396.4,
+      "duration": 3.44,
+      "text": "you have nothing that matches the"
+    },
+    {
+      "start": 1397.679,
+      "duration": 3.681,
+      "text": "filter. Here I have no cameras match"
+    },
+    {
+      "start": 1399.84,
+      "duration": 4.319,
+      "text": "your filter and I have this kind of like"
+    },
+    {
+      "start": 1401.36,
+      "duration": 5.28,
+      "text": "box that tells me this. Right here if I"
+    },
+    {
+      "start": 1404.159,
+      "duration": 3.921,
+      "text": "type in whatever I have a very clean"
+    },
+    {
+      "start": 1406.64,
+      "duration": 4.159,
+      "text": "version says no cameras match your"
+    },
+    {
+      "start": 1408.08,
+      "duration": 4.64,
+      "text": "filters clear all filters. So I can I"
+    },
+    {
+      "start": 1410.799,
+      "duration": 4.24,
+      "text": "can pick the implementation that I"
+    },
+    {
+      "start": 1412.72,
+      "duration": 5.52,
+      "text": "really like out of the bunch uh out of"
+    },
+    {
+      "start": 1415.039,
+      "duration": 5.361,
+      "text": "the ones that is here. I split it across"
+    },
+    {
+      "start": 1418.24,
+      "duration": 5.12,
+      "text": "two different branches in the same work"
+    },
+    {
+      "start": 1420.4,
+      "duration": 6,
+      "text": "tree and it's uh allows me to then"
+    },
+    {
+      "start": 1423.36,
+      "duration": 5.679,
+      "text": "iterate and then say yes I want this"
+    },
+    {
+      "start": 1426.4,
+      "duration": 4.24,
+      "text": "version here and I'm going to continue"
+    },
+    {
+      "start": 1429.039,
+      "duration": 3.52,
+      "text": "iterating on it and you'll see it live"
+    },
+    {
+      "start": 1430.64,
+      "duration": 5.2,
+      "text": "on the site by the time this video goes"
+    },
+    {
+      "start": 1432.559,
+      "duration": 5.841,
+      "text": "out and um I did mention in one other"
+    },
+    {
+      "start": 1435.84,
+      "duration": 3.76,
+      "text": "thing and that is branch naming because"
+    },
+    {
+      "start": 1438.4,
+      "duration": 3.92,
+      "text": "I wanted to make it a little bit more"
+    },
+    {
+      "start": 1439.6,
+      "duration": 5.52,
+      "text": "sane. So, if you go to uh let's open a"
+    },
+    {
+      "start": 1442.32,
+      "duration": 5.2,
+      "text": "new tab. Let's go to spec kit to our"
+    },
+    {
+      "start": 1445.12,
+      "duration": 4.24,
+      "text": "repo. You'll notice that I have a pull"
+    },
+    {
+      "start": 1447.52,
+      "duration": 4.96,
+      "text": "request, a pull request that's been"
+    },
+    {
+      "start": 1449.36,
+      "duration": 4.96,
+      "text": "active since today because it actually"
+    },
+    {
+      "start": 1452.48,
+      "duration": 5.439,
+      "text": "updates some of the templates and the"
+    },
+    {
+      "start": 1454.32,
+      "duration": 6.479,
+      "text": "scripts and among other things and most"
+    },
+    {
+      "start": 1457.919,
+      "duration": 4.88,
+      "text": "importantly, I'd say it actually updates"
+    },
+    {
+      "start": 1460.799,
+      "duration": 4.161,
+      "text": "the script that is responsible for"
+    },
+    {
+      "start": 1462.799,
+      "duration": 3.921,
+      "text": "feature creation."
+    },
+    {
+      "start": 1464.96,
+      "duration": 3.92,
+      "text": "The most important thing like hands"
+    },
+    {
+      "start": 1466.72,
+      "duration": 4.4,
+      "text": "down. And if we look at that script,"
+    },
+    {
+      "start": 1468.88,
+      "duration": 3.76,
+      "text": "it's create new feature. It's a shell"
+    },
+    {
+      "start": 1471.12,
+      "duration": 3.76,
+      "text": "script. We're going to ignore copilot"
+    },
+    {
+      "start": 1472.64,
+      "duration": 4.08,
+      "text": "suggestions here. But what it does, it"
+    },
+    {
+      "start": 1474.88,
+      "duration": 5.919,
+      "text": "actually it now has a parameters called"
+    },
+    {
+      "start": 1476.72,
+      "duration": 5.839,
+      "text": "short name. And short name is assumed by"
+    },
+    {
+      "start": 1480.799,
+      "duration": 3.76,
+      "text": "the LLM. The LLM is going to generate"
+    },
+    {
+      "start": 1482.559,
+      "duration": 3.841,
+      "text": "the short name and pass it in here"
+    },
+    {
+      "start": 1484.559,
+      "duration": 6,
+      "text": "because it's not being directed by the"
+    },
+    {
+      "start": 1486.4,
+      "duration": 6.399,
+      "text": "template. And it's going to use a proper"
+    },
+    {
+      "start": 1490.559,
+      "duration": 3.441,
+      "text": "sane name. It's not going to be I want"
+    },
+    {
+      "start": 1492.799,
+      "duration": 4.48,
+      "text": "to. It's actually going to be something"
+    },
+    {
+      "start": 1494,
+      "duration": 5.12,
+      "text": "like homepage filter. Right? So this is"
+    },
+    {
+      "start": 1497.279,
+      "duration": 4.64,
+      "text": "going to be supported for both shell"
+    },
+    {
+      "start": 1499.12,
+      "duration": 4.4,
+      "text": "scripts and PowerShell. It is coming."
+    },
+    {
+      "start": 1501.919,
+      "duration": 4.401,
+      "text": "It's probably going to be also live"
+    },
+    {
+      "start": 1503.52,
+      "duration": 5.68,
+      "text": "later today. So stay tuned for another"
+    },
+    {
+      "start": 1506.32,
+      "duration": 6.56,
+      "text": "Speckit update. Uh we have more stuff"
+    },
+    {
+      "start": 1509.2,
+      "duration": 5.68,
+      "text": "coming, more demos, more showcases. I am"
+    },
+    {
+      "start": 1512.88,
+      "duration": 3.679,
+      "text": "using Specket for my own purposes. So"
+    },
+    {
+      "start": 1514.88,
+      "duration": 4.24,
+      "text": "you'll see a lot of the demos become"
+    },
+    {
+      "start": 1516.559,
+      "duration": 4.321,
+      "text": "basically an outline of my side projects"
+    },
+    {
+      "start": 1519.12,
+      "duration": 3.28,
+      "text": "and how they actually work. So if you"
+    },
+    {
+      "start": 1520.88,
+      "duration": 2.48,
+      "text": "have any feedback, let me know. All this"
+    },
+    {
+      "start": 1522.4,
+      "duration": 2.96,
+      "text": "stuff is going to be hosted. It's going"
+    },
+    {
+      "start": 1523.36,
+      "duration": 3.679,
+      "text": "to be on GitHub. It's open source. It's"
+    },
+    {
+      "start": 1525.36,
+      "duration": 2.96,
+      "text": "free for you to use. And if you have any"
+    },
+    {
+      "start": 1527.039,
+      "duration": 2.64,
+      "text": "questions, comment on this video,"
+    },
+    {
+      "start": 1528.32,
+      "duration": 4.479,
+      "text": "comment on the repository, and"
+    },
+    {
+      "start": 1529.679,
+      "duration": 3.12,
+      "text": "participate in the discussions."
+    }
+  ],
+  "fullText": "Hello friends, we're going to be talking about speci today again. You guessed it. And I wanted to specifically talk about some enhancement but also a workflow type that we have not discussed yet. And that is parallel implementations of the same specification. Uh I mentioned it before, right? Like the the beauty of the fact that we have a specification that is detached from technical details is that we can actually create multiple variations of it to see what it looks like and then we pick the best and we merge it into Maine, our core product. And I wanted to show you this today on an example product that I have built over the weekend that is called Hawaii diff. Hawaii diff is a website that I built that essentially aggregates the camera views from Monaca on the big island of Hawaii. So what happens is that there is a Monaca weather center. It's uh managed by the University of Hawaii at Hilo and what it does is provides a view on a bunch of webcams at the observatory right at the observatories at the top of the mountain. And this is always nice to just kind of browse through and be able to see um the cameras because it's kind of neat. Like I have not been to Hawaii in some time. So being able to just kind of browse the cameras and click around and see what it looks like is nice. But the view here is very inconsistent, right? Like here I landed on this um page. Uh here if I go to another camera view, it's going to go to like another page for uh Noah. So we're going to go back. Right? So there's all these inconsistencies. It's hard to navigate and hard to browse this the way I want to browse this. So to mitigate this, I have built this experience that basically grabs all the images, aggregates them in GitHub. I'll show you in a second. And then provides this modern front end that allows me to just quickly browse through this and um see exactly what are the things that are happening, right? like the things that are happening on um on the mountain uh very much remotely and very much like I I appreciate uh being able to see this. Now with all these things considered, this website is built with Hugo. So everything you see here like the camera views, all these behaviors of like header collapsing, the previous snapshots, all of this is statically generated. This is a static site. There's not a lot of fancy stuff. If I click on one of them, you'll notice that it's going to open the GitHub repo. And it's going to take me to the list of all of the different components here that exist. And I have folders for every telescope, every observatory component. And then I see WEBP images because I care about performance and the fact that I do not want to pollute the repository with large images. So there's some compression happening there. But I have all these images that are stored inside GitHub, my GitHub repository. And uh what I want to do if I go to my website here, this is hawaiediff.com. And I go to the landing page. Notice that I need to scroll to get to where I want to get, right? Like there is there is different cameras, but I have to just go through them one by one. Not exactly efficient. I want to implement a filter. I want a filter here at the top of the page that allows me to basically filter by name, right? And filter by direction. like I have the east, northwest, east, ssoutheast. And these are directions, by the way, that are from the Monaca weather center itself. So, some of them are inconsistent. You'll see things like up or uh hilo, which you know, again, it's not necessarily the compass direction that you would expect or like variable here, but that's okay. I still want to be able to filter by the existing uh variations. So what we want to do is create a specification and then based on a specification be able to um quickly navigate between those different uh variations of the implementation and see which one we like the most and then we take the one that is best and merge into main. That's the workflow. So uh I'm going to switch back here to VS Code and as I mentioned this this project is just this static site. It has a bunch of different web app components. You'll notice I already have a specs folder because I, as I said, I built this with spec kit before. Like this is what I spent my weekend on and it has the 001 Mona camera. It has a checklist and all the artifacts that we've seen before. Like nothing here is new if you've watched any of my spec videos before. But what we want to do is add a new feature. So I want to do specket.specify. And here I'm going to specify the filter capability that I want. I'm operating on the main branch right now, but don't worry because this this this capability is going to automatically branch off for me. So, we're going to do specit specify and then I'm going to say I want to build a filter on the main landing page that will allow me to search existing telescope camera snapshots. uh actually telescopes and allow me to filter by direction. Right? So, okay, great. So, this gives us an idea of what the specification should be about. So, we're going to press enter here and this is going to also execute the helper script that's going to create new feature. We're going to see this running. All right. Now, we're in a new branch. Okay. And with this capability here, we're just going to now like again, by the way, this is now in a PR. This change here that you see like 002 I want to there's a pull request that fixes that. So, we're not going to have these branch names that are very nondescripted. We're actually going to have a proper branch name. I'll show you this at at the at the very end. So, we have the the capability being spun up, right? So, we have the specification. Uh, so we're going to go to spec.mmd. Let's close the terminal because we don't need it. And we're going to wait for it to populate, right? Because like again, this is going to be a spec for a new feature. It's going to be a new capability that we want to embed into an existing project because I'm not going to spin up the constitution. I'm not going to be reworking any of the existing UI. I'm just adding things to it. And this additive workflow is very very powerful for specit because we know that not every project you're going to be using spectrum in development is going to be actually a new project. It might be an existing project. Maybe it's something that you've built over the weekend that you want to modernize and upgrade to a modern framework. Maybe you want to add a capability to a mobile app that you're building. So this is going to be that that avenue. And if you haven't seen it, there's a video on my channel that talks about existing project upgrades with the help of specit. Go check this out. So now we're going to give it a minute to go and write the specification for us. Okay, we now have the specification. Let's take a look here. So we have our user description, right, that we did. All right, quickly find specific telescope camera. Makes sense. We're going to take a look here. We should probably have not that many functional requirements yet. There's like must provide text search input, filter by cameras in real time, case and sensitive. Yep, that's all of these are good requirements, right? So, we have these functional requirements. There's some success criteria, but um I I'm not going to pay that much attention to it right now because that there's some things that it's not not not as important to what my core capability actually is. Now, you know what's coming. You've seen this before. We have to jump through all the process steps that is getting clarification, putting the plan together, putting the task together, analyzing them, and then finally getting to implementation. But before we get to the implementation, we'll pause and I'll show you my approach to doing this multi-arm bandit uh variation creation based on the exact same specification. So stay tuned for that. Let's make sure that we give the LM some time to go and uh work through all the clarification items and then all the other steps that need to happen. So I'll see you in just a second. All right, so the work is done. We now have the artifacts that we expect from spec kit, right? These are the artifacts that we saw before. We have the plan. We have quickstar research spec. And we even have our tasks file here, right? The new tasks file that got created with a breakdown of all the tasks that the LLM needs to pursue to implement our capability. So you'll take a look here. There is a phased approach, right? Phase setup. So we have the setup, shared infrastructure, foundational pieces, right? We have our user story for the MVP things like search capability and so on so forth. And notice that the setup doesn't actually go too deep into the details that you see with brand new green field projects, right? And this is something that like when I first bootstrapped this um the site notice the tasks for setup, it's much more extensive here, right? Like there is the initialize the Hugo site, configure base URL theme and theme settings and all these things. I don't do that anymore because I'm creating a new feature and smartly it knows the LLM basically parsed the tree and knows that it just needs to verify that Hugo builds and my site actually works and then starts scaffolding things specifically for the filter which is nice. It's again we're adding capabilities to an existing project. With this I also made some choices. So in the specification if you go remember clarify is/clarify is your friend. If I look at one of the clarification items, it's what should be displayed in the camera grid area when there are no matching results. So, center message and grid area with clear all filters because I want to clear out filters quickly. And there's another one that is how should users interact with the direction filters because remember it's not just that I'm filtering the cameras. I want to filter by direction. And for that, I chose drop- down menu with checkboxes inside, which is a approach to do this certainly, but maybe there's alternatives. since we got to research these alternatives ourselves once we get uh into a new branch now because I want to iterate on these in parallel I want to iterate on these two implementations I can't quite do this in the exact same experience right like I'm here I'm in my branch which is 002 I want to and again I'll show you at the very end the PR that changes this but if I really wanted to implement a new capability right or a new variation of it. I need to switch branches and I don't want to go and just add like a new branch, kick it off, wait for the implementation, and then switch branch again, go to the implementation. Like, that's not just what we want to do. It's not efficient. So, we're going to go back to my terminal here. I have my Hugo site running. We're going to cancel this. We don't need we need don't need it running. And I'm going to clear it. And what I'm going to do is use get workree workree add. This is the magic command here. You need to use get work trees. And I'll figure out how to actually uh spin it up and do slash commands to make it a little bit more efficient. But for now, you can do this manually. So, get workree add. And then we're going to use dashb and specify the new branch. So, we're going to call it um filter out. And then we're going to do the the folder. And this is going to be Hawaii diff filter out, right? and 002 I12 is the branch from which we're bootstrapping this new branch. Remember I already checked in the spec. I checked in the plan and the tasks. I want to have a variation of the exact same branch in a different folder. Now this also is nice because if I do this right, we're going to bootstrap this new branch. It's called filter alt. It's going to go through the process and create a new branch for us. And the branch is now linked to my repository. So if I go back to here and we do ls, I have a Hawaii diff alt, but we can ignore this because I tested it before. But we have a Hawaii diff filter alt that was just created. So we have two folders, Hawaii diff and Hawaii diff filter alt in my git client GitHub desktop. If I expand the view here, notice that I have filter alt. I have a different folder and different branch, but they're associated with the same work tree. Now, this is so much better than you copying things around, right? Like navigating back and forth and like, let me copy this folder and put it in this folder, then open this in VS Code and all of a sudden your Git client has no idea you need to open an instance of the exact same repository and name it differently and get all confused like that. Use git work trees. So, here what we're going to do now is we're going to go to CD and we're going to do Hawaii diff filter alt, right? And we're going to open this folder now in VS Code as well. So we can keep them side by side. So we have the alt here and we're going to have our Hawaii diff, the original one on a left. So we're going to maximize the chat view just a little bit. So do this. Okay, perfect. We don't actually need the file browser here. So it's fine. It's fine. Okay. So, um, and then the alternative one, I want to make sure that I modify the filter. So, I want to, so let's go back here to our, uh, let's go to our specs, right? The 002 I want to and then tasks. So for the filter, so we're going to say because in this context, right, like if I want to set the specific active feature branch I'm on inside this view, inside the execution environment, I can specify an environment variable like specit does support this. However, what I also want to do is make sure that because it can spin up new terminals is to be a little bit more explicit with it. So we're going to say I want to uh update the filter spec in 002. I want to ah this a horrible branch name, a horrible folder name, but that's okay. Um to make sure that the filters are toggles, not check boxes and drop down, right? because I'm exploring a new variation of that implementation. I'm not sure which one I want. So, let's take a look here. We're going to use this. I'm going to prompt it to go do that. So, I'll help you upgrade the filter change from checkboxes in the drop down. All right. So, it's going to read the spec.md and it looks at the right reference and it looks at the right folder. Okay. And it's going to make the necessary changes. It does keep the right references which I like, right? Like I I did not necessarily like set any environment variables for it. I just asked it to do things. So, let's take a look here what it's actually doing. So, I'm going to again maximize a chat box and we can hide the uh or maybe like can I just can I just do this? Oh, yeah. I can do this. I can do controlB. So, okay. So, now it updated the specification with toggle buttons which is again it it did update the the the clarification items too, right? It should have. Yeah, it did. Pills, chips that can be clicked to activate, deactivate. Perfect. That's exactly what I wanted. And because we're in a different branch, we can do this safely. Like I'm not necessarily worried about this specification affecting the main one that I have. And actually the main one, we can kick off the implementation. So we can we don't need to wait. So we can just do implement ah if I can type beet implement, right? Because for for one of our branches, we can just kick this process off. It's fine. Let let it go implement while we're waiting for the updates to our specification and the data models and the tasks and plan. Okay. And it actually did. Look, it did it by itself. It's like, oh, let me go and update the plan because plan is clearly tied to this. Great, great, great. I I love how easy and intuitive that is. So, let's see. On the left side, our checklists are passing, which is great. And here we're still waiting because it's updating the data model files. So you can also parallelize this like here I have only two branches right so I have two implementations you can totally imagine that in your scenario you can have four you can have five and if you have a big screen you can do 10 uh by all means right this can of course be automated so I want to make sure that we are uh considering the fact that the the experience that I'm showing you today is a little bit more compressed right this is a demo environment this is a fairly simple project and A lot of the things that you you see are, you know, they're iterative. Like it it's fine. Manual manual process is fine. But the goal here is to actually get to a world where we can automate this process and make sure that the the flow is as much as possible controlled not by you going to the terminal and manually typing work tree commands and instead use for example slash commands or use any of the more uh I want to say like smooth workflows that allow you to move faster while still having this experimentation in place. But git work trees again this this is the the capability that will come to your rescue many times over if you need to build parallel implementations. Um, so let's see. Like looks like Hugo is building on our side, right? Yeah, it's still Hugo is still building. So it has the warnings I know because there's a lot of photos on that site. So every time Hugo builds, it has to basically like package up all those photos at once. I that's actually an idea for improvement that we need to get on the site and make sure that uh if I am running the Hugo build, just take the last like say like 11 photos that we saw on the site. So it doesn't necessarily take hundreds of them and then bundle them and host them uh on Cloudflare because somebody's going to be paying for the traffic and somebody is going to be me. So um let's see on our side here it's still updating which is great. It's it's going through the files and if I hover over edited quick start quick start MD and used one reference. Okay, so it seems to be going in the right direction and I can actually hover over these files and I love the fact again that it goes to the right place. I I just told it 002 in the initial prompt. I was like great, I'm going to go and update everything that make to make sure that this capability is uh properly captured in the right files. So we're going to give uh this just a minute to go and wait for Hugo while we have our spec files updated. So let's say spec what updated spec quick start plan data model. Okay. Did it update tasks? It probably didn't. I don't see tasks. Okay. But we can keep these changes. Right. So here and then let's say let's update the tasks to to make sure that they reflect the changes to the spec. Great. Okay. And it's going to read task.md and 00212. Yeah. Perfect, perfect, perfect, perfect. Here it's summarizing conversation history because it's fairly long context. So, it's just going to go ahead and start implementing things. And it's still working. So now we're just going to give it a minute and let it continuously iterate and make sure that it updates the documentation. We should be good. We now have two implementations. We have one on the left. This is the original spec, right? This we had with the check boxes. We have one on the right. those implementing toggles like the pill toggles that we talked about. So, let's take a look. Let's take a look as to what do they actually render like. And for that, I'm going to go here. I'm going to close Firefox. Make sure that we're not actually cheating on this, right? Like we're this is going to be live. So, here I'm in my alt. This is the pill implementation. I'm going to do Hugo server and this should render a page um once it actually hosts a server. Great. I'm not going to click on it just yet. So, we're going to duplicate this tab. I'm just going to go one level. Well, actually, yeah, let's go to documents GitHub Hawaii diff, which is the original one, right? So, we're going to do ls. So, we're in the folder. And now I do Hugo server here. Going to attempt to use an available port because the previous one is bound. All right. So, we have two versions now. So I have the local host 57305 going to go here and 57305. All right. This is our original implementation right from original spec. So I can do you cur. Yep. It it sure is filtering them direction. If I do east Uh-huh. Uh-huh. I can clear all filters. Great. Great. Love it. Oh. Ah. Look at that. It's nice, right? And I can also do direction and I say hilo. Anything that faces hilo and I can just look here. And of course there's a Gemini telescope. Great. Love it. Uh, this works great. But remember, we have one on 1313. So we're going to duplicate this tab as well. And here instead of this port, we're going to use 1313 because we run it locally. So we now have an alternative implementation. So if I go back here, notice this text box and direction. And of course, we're going to tweak the styling here to make it a little bit better, but it's it's here. And now here I have my implementation that's alternative that I can also do like you Kurt. Yeah. Yep. I can totally do that. And I can just click on these buttons to filter things, right? And what if I select these or ah look at that or also like the see the variation in LLMs like how how it does things when you have nothing that matches the filter. Here I have no cameras match your filter and I have this kind of like box that tells me this. Right here if I type in whatever I have a very clean version says no cameras match your filters clear all filters. So I can I can pick the implementation that I really like out of the bunch uh out of the ones that is here. I split it across two different branches in the same work tree and it's uh allows me to then iterate and then say yes I want this version here and I'm going to continue iterating on it and you'll see it live on the site by the time this video goes out and um I did mention in one other thing and that is branch naming because I wanted to make it a little bit more sane. So, if you go to uh let's open a new tab. Let's go to spec kit to our repo. You'll notice that I have a pull request, a pull request that's been active since today because it actually updates some of the templates and the scripts and among other things and most importantly, I'd say it actually updates the script that is responsible for feature creation. The most important thing like hands down. And if we look at that script, it's create new feature. It's a shell script. We're going to ignore copilot suggestions here. But what it does, it actually it now has a parameters called short name. And short name is assumed by the LLM. The LLM is going to generate the short name and pass it in here because it's not being directed by the template. And it's going to use a proper sane name. It's not going to be I want to. It's actually going to be something like homepage filter. Right? So this is going to be supported for both shell scripts and PowerShell. It is coming. It's probably going to be also live later today. So stay tuned for another Speckit update. Uh we have more stuff coming, more demos, more showcases. I am using Specket for my own purposes. So you'll see a lot of the demos become basically an outline of my side projects and how they actually work. So if you have any feedback, let me know. All this stuff is going to be hosted. It's going to be on GitHub. It's open source. It's free for you to use. And if you have any questions, comment on this video, comment on the repository, and participate in the discussions.",
+  "fetchedAt": "2026-01-18T18:33:22.055Z"
+}

@@ -1,0 +1,1184 @@
+{
+  "videoId": "iHB649dceu4",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.48,
+      "duration": 4.4,
+      "text": "Hello everyone, welcome back. Today"
+    },
+    {
+      "start": 2.72,
+      "duration": 4.72,
+      "text": "we'll discuss how cursor AI actually"
+    },
+    {
+      "start": 4.88,
+      "duration": 4.639,
+      "text": "works. So when you type code in cursor,"
+    },
+    {
+      "start": 7.44,
+      "duration": 4,
+      "text": "you are not talking to an autocomplete"
+    },
+    {
+      "start": 9.519,
+      "duration": 4.08,
+      "text": "model. You're actually interacting with"
+    },
+    {
+      "start": 11.44,
+      "duration": 4.079,
+      "text": "a distributed system that observes your"
+    },
+    {
+      "start": 13.599,
+      "duration": 4.161,
+      "text": "intent, selects context and restrict"
+    },
+    {
+      "start": 15.519,
+      "duration": 4.561,
+      "text": "token limits and orchestrates multiple"
+    },
+    {
+      "start": 17.76,
+      "duration": 4,
+      "text": "AI models in real time. In the next few"
+    },
+    {
+      "start": 20.08,
+      "duration": 4,
+      "text": "minutes, we'll break down exactly how"
+    },
+    {
+      "start": 21.76,
+      "duration": 4.08,
+      "text": "cursor works internally from editor"
+    },
+    {
+      "start": 24.08,
+      "duration": 4.16,
+      "text": "signals and embeddings to speculative"
+    },
+    {
+      "start": 25.84,
+      "duration": 4.56,
+      "text": "decoding and safety layers. To make this"
+    },
+    {
+      "start": 28.24,
+      "duration": 4.08,
+      "text": "easy to follow, we'll do this in a"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.679,
+      "text": "question answer format. Each question"
+    },
+    {
+      "start": 32.32,
+      "duration": 3.84,
+      "text": "unpacking one layer of the system step"
+    },
+    {
+      "start": 34.079,
+      "duration": 5.761,
+      "text": "by step. So let's start with the most"
+    },
+    {
+      "start": 36.16,
+      "duration": 6.16,
+      "text": "basic question. What is cursor?"
+    },
+    {
+      "start": 39.84,
+      "duration": 5.68,
+      "text": "So technically speaking, cursor is a"
+    },
+    {
+      "start": 42.32,
+      "duration": 4.64,
+      "text": "fork of visual studio code where a"
+    },
+    {
+      "start": 45.52,
+      "duration": 3.28,
+      "text": "straight is a first class system"
+    },
+    {
+      "start": 46.96,
+      "duration": 4.4,
+      "text": "component but not a plug-in."
+    },
+    {
+      "start": 48.8,
+      "duration": 4.96,
+      "text": "Architecturally, cursor follows a client"
+    },
+    {
+      "start": 51.36,
+      "duration": 4.96,
+      "text": "server model. The data runs locally"
+    },
+    {
+      "start": 53.76,
+      "duration": 4.479,
+      "text": "collect signals and managing the UI"
+    },
+    {
+      "start": 56.32,
+      "duration": 3.919,
+      "text": "while heavy eye computation such as"
+    },
+    {
+      "start": 58.239,
+      "duration": 4.32,
+      "text": "retrieval prompt construction and model"
+    },
+    {
+      "start": 60.239,
+      "duration": 4.56,
+      "text": "execution happens in the cloud. This"
+    },
+    {
+      "start": 62.559,
+      "duration": 4.481,
+      "text": "separation allows cursor to stay fast"
+    },
+    {
+      "start": 64.799,
+      "duration": 5.041,
+      "text": "locally while still using large and most"
+    },
+    {
+      "start": 67.04,
+      "duration": 5.84,
+      "text": "powerful model remotely. So is cursor"
+    },
+    {
+      "start": 69.84,
+      "duration": 6.319,
+      "text": "just VS code plus JPD? A lot of people"
+    },
+    {
+      "start": 72.88,
+      "duration": 6.16,
+      "text": "assume cursor is just VS code with GPD"
+    },
+    {
+      "start": 76.159,
+      "duration": 4.401,
+      "text": "bolted on it. But that's not true. VS"
+    },
+    {
+      "start": 79.04,
+      "duration": 3.28,
+      "text": "code was designed for human stepping"
+    },
+    {
+      "start": 80.56,
+      "duration": 3.68,
+      "text": "code manually. Cursor is designed for"
+    },
+    {
+      "start": 82.32,
+      "duration": 3.92,
+      "text": "humans collaborating with an AI in real"
+    },
+    {
+      "start": 84.24,
+      "duration": 4,
+      "text": "time. This affects how context is"
+    },
+    {
+      "start": 86.24,
+      "duration": 4.72,
+      "text": "collected, how changes are made, and how"
+    },
+    {
+      "start": 88.24,
+      "duration": 4.48,
+      "text": "feedback is learned. So, cursor isn't a"
+    },
+    {
+      "start": 90.96,
+      "duration": 3.839,
+      "text": "smarter autocomplete. It's just a"
+    },
+    {
+      "start": 92.72,
+      "duration": 4.079,
+      "text": "different editing paradigm. So, now"
+    },
+    {
+      "start": 94.799,
+      "duration": 4.801,
+      "text": "let's just go to section two. The"
+    },
+    {
+      "start": 96.799,
+      "duration": 4.64,
+      "text": "problem that cursor is solving."
+    },
+    {
+      "start": 99.6,
+      "duration": 3.76,
+      "text": "So, when you quote a huge part of your"
+    },
+    {
+      "start": 101.439,
+      "duration": 3.761,
+      "text": "effort goes into reconstructing context"
+    },
+    {
+      "start": 103.36,
+      "duration": 3.439,
+      "text": "in your head. You are constantly asking"
+    },
+    {
+      "start": 105.2,
+      "duration": 3.599,
+      "text": "questions like where is this function"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.921,
+      "text": "used? What depends on this file? What"
+    },
+    {
+      "start": 108.799,
+      "duration": 3.68,
+      "text": "style does this project follow? So"
+    },
+    {
+      "start": 110.72,
+      "duration": 4.56,
+      "text": "cursor tries to remove that mental"
+    },
+    {
+      "start": 112.479,
+      "duration": 4.96,
+      "text": "burden. Its goal is to understand the"
+    },
+    {
+      "start": 115.28,
+      "duration": 5.199,
+      "text": "context for you so that you can focus on"
+    },
+    {
+      "start": 117.439,
+      "duration": 5.201,
+      "text": "decisions instead of navigations."
+    },
+    {
+      "start": 120.479,
+      "duration": 4.32,
+      "text": "So why does cursor feel smarter than"
+    },
+    {
+      "start": 122.64,
+      "duration": 4,
+      "text": "autocomplete? Traditional autocomplete"
+    },
+    {
+      "start": 124.799,
+      "duration": 3.921,
+      "text": "only looks at the last few lines you"
+    },
+    {
+      "start": 126.64,
+      "duration": 3.92,
+      "text": "typed. Cursor looks at your entire"
+    },
+    {
+      "start": 128.72,
+      "duration": 3.84,
+      "text": "working environment. It sees your"
+    },
+    {
+      "start": 130.56,
+      "duration": 4.08,
+      "text": "current file, related file, recent"
+    },
+    {
+      "start": 132.56,
+      "duration": 4.64,
+      "text": "edits, cursor positions, and sometimes"
+    },
+    {
+      "start": 134.64,
+      "duration": 4.56,
+      "text": "even your whole repository. That broader"
+    },
+    {
+      "start": 137.2,
+      "duration": 4.64,
+      "text": "view is what makes cursor very"
+    },
+    {
+      "start": 139.2,
+      "duration": 4.72,
+      "text": "intelligent. So now let's just go to the"
+    },
+    {
+      "start": 141.84,
+      "duration": 3.84,
+      "text": "section three which is editor signals"
+    },
+    {
+      "start": 143.92,
+      "duration": 4.56,
+      "text": "and intent."
+    },
+    {
+      "start": 145.68,
+      "duration": 5.6,
+      "text": "So what signals does cursor observe from"
+    },
+    {
+      "start": 148.48,
+      "duration": 5.44,
+      "text": "the editor. So cursor instruments the"
+    },
+    {
+      "start": 151.28,
+      "duration": 5.599,
+      "text": "editor very deeply. It doesn't just know"
+    },
+    {
+      "start": 153.92,
+      "duration": 5.52,
+      "text": "what text exist. It knows how this text"
+    },
+    {
+      "start": 156.879,
+      "duration": 4.961,
+      "text": "is being interacted with. It captures"
+    },
+    {
+      "start": 159.44,
+      "duration": 4.879,
+      "text": "cursor position, selection ranges,"
+    },
+    {
+      "start": 161.84,
+      "duration": 4.64,
+      "text": "recent edits and antiagnostics from the"
+    },
+    {
+      "start": 164.319,
+      "duration": 3.521,
+      "text": "language server. These signals are"
+    },
+    {
+      "start": 166.48,
+      "duration": 3.52,
+      "text": "combined into a structured"
+    },
+    {
+      "start": 167.84,
+      "duration": 4.8,
+      "text": "representation of developer intent but"
+    },
+    {
+      "start": 170,
+      "duration": 4.959,
+      "text": "not just a raw text. Think of this as"
+    },
+    {
+      "start": 172.64,
+      "duration": 5.44,
+      "text": "turning human interaction into a machine"
+    },
+    {
+      "start": 174.959,
+      "duration": 6.161,
+      "text": "readable signals. So why is cursor"
+    },
+    {
+      "start": 178.08,
+      "duration": 5.12,
+      "text": "pointer position is so important. The"
+    },
+    {
+      "start": 181.12,
+      "duration": 4.479,
+      "text": "cursor pointer isn't just a blinking"
+    },
+    {
+      "start": 183.2,
+      "duration": 4.8,
+      "text": "line. It's a very strong signal. If your"
+    },
+    {
+      "start": 185.599,
+      "duration": 4.401,
+      "text": "cursor is inside a function, cursor AI"
+    },
+    {
+      "start": 188,
+      "duration": 4.4,
+      "text": "assumes your intent is local to that"
+    },
+    {
+      "start": 190,
+      "duration": 4.72,
+      "text": "function. If you select multiple lines,"
+    },
+    {
+      "start": 192.4,
+      "duration": 4.8,
+      "text": "cursor AI assumes you want to modify or"
+    },
+    {
+      "start": 194.72,
+      "duration": 4.56,
+      "text": "refract at that. Similarly, cursor"
+    },
+    {
+      "start": 197.2,
+      "duration": 4.88,
+      "text": "position has a system narrow down where"
+    },
+    {
+      "start": 199.28,
+      "duration": 5.36,
+      "text": "your attention is actually focused on."
+    },
+    {
+      "start": 202.08,
+      "duration": 5.519,
+      "text": "So now how does cursor convert raw"
+    },
+    {
+      "start": 204.64,
+      "duration": 5.28,
+      "text": "editor signals into intent. So cursor"
+    },
+    {
+      "start": 207.599,
+      "duration": 4.961,
+      "text": "applies uristics and temporal waiting to"
+    },
+    {
+      "start": 209.92,
+      "duration": 5.36,
+      "text": "editor signals. Recent edits matter more"
+    },
+    {
+      "start": 212.56,
+      "duration": 4.8,
+      "text": "than the old ones. Selected code matters"
+    },
+    {
+      "start": 215.28,
+      "duration": 6.08,
+      "text": "more than the surrounding code. So for"
+    },
+    {
+      "start": 217.36,
+      "duration": 5.76,
+      "text": "example, cursor pointer inside a"
+    },
+    {
+      "start": 221.36,
+      "duration": 3.92,
+      "text": "function implies local intent."
+    },
+    {
+      "start": 223.12,
+      "duration": 4.8,
+      "text": "Similarly, multi-line selection implies"
+    },
+    {
+      "start": 225.28,
+      "duration": 5.44,
+      "text": "transformation intent while rapid edits"
+    },
+    {
+      "start": 227.92,
+      "duration": 5.52,
+      "text": "imply exploratory behavior. This intent"
+    },
+    {
+      "start": 230.72,
+      "duration": 5.36,
+      "text": "classification drives everything that"
+    },
+    {
+      "start": 233.44,
+      "duration": 4.64,
+      "text": "follows. So now let's just jump into the"
+    },
+    {
+      "start": 236.08,
+      "duration": 3.28,
+      "text": "section four which is context selection"
+    },
+    {
+      "start": 238.08,
+      "duration": 3.92,
+      "text": "which is actually one of the most"
+    },
+    {
+      "start": 239.36,
+      "duration": 5.92,
+      "text": "important section. So why is context"
+    },
+    {
+      "start": 242,
+      "duration": 6.08,
+      "text": "selection is the hardest part of the"
+    },
+    {
+      "start": 245.28,
+      "duration": 6.64,
+      "text": "cursor. So large language model operate"
+    },
+    {
+      "start": 248.08,
+      "duration": 5.92,
+      "text": "within strict context windows. So cursor"
+    },
+    {
+      "start": 251.92,
+      "duration": 3.76,
+      "text": "must compress an entire repository"
+    },
+    {
+      "start": 254,
+      "duration": 4.4,
+      "text": "sometimes tens of thousands of lines"
+    },
+    {
+      "start": 255.68,
+      "duration": 4.799,
+      "text": "into a few thousand tokens. This becomes"
+    },
+    {
+      "start": 258.4,
+      "duration": 4.32,
+      "text": "an optimization problem where too much"
+    },
+    {
+      "start": 260.479,
+      "duration": 4.241,
+      "text": "content may lead to slow noisy and"
+    },
+    {
+      "start": 262.72,
+      "duration": 4.24,
+      "text": "expensive responses while too little"
+    },
+    {
+      "start": 264.72,
+      "duration": 4.88,
+      "text": "context may lead to hallucinations. The"
+    },
+    {
+      "start": 266.96,
+      "duration": 4.32,
+      "text": "intelligence of cursor largely lies in"
+    },
+    {
+      "start": 269.6,
+      "duration": 4.4,
+      "text": "solving this constraint very"
+    },
+    {
+      "start": 271.28,
+      "duration": 5.68,
+      "text": "efficiently. So how does cursor choose"
+    },
+    {
+      "start": 274,
+      "duration": 5.12,
+      "text": "what code to send to the model? Right?"
+    },
+    {
+      "start": 276.96,
+      "duration": 3.92,
+      "text": "So cursor uses multiple signals to rank"
+    },
+    {
+      "start": 279.12,
+      "duration": 3.68,
+      "text": "relevance. First it follows static"
+    },
+    {
+      "start": 280.88,
+      "duration": 4,
+      "text": "relationships like imports and symbol"
+    },
+    {
+      "start": 282.8,
+      "duration": 4.16,
+      "text": "references. Then it layers in dynamic"
+    },
+    {
+      "start": 284.88,
+      "duration": 4.56,
+      "text": "signals like recently edited files."
+    },
+    {
+      "start": 286.96,
+      "duration": 5.04,
+      "text": "Finally it uses embedding similar to"
+    },
+    {
+      "start": 289.44,
+      "duration": 4.56,
+      "text": "retrieve semantically related code. Only"
+    },
+    {
+      "start": 292,
+      "duration": 5.6,
+      "text": "the highest scoring chunks survive into"
+    },
+    {
+      "start": 294,
+      "duration": 5.36,
+      "text": "the final pro. So in this regard what is"
+    },
+    {
+      "start": 297.6,
+      "duration": 4.72,
+      "text": "token budgeting and why it is so"
+    },
+    {
+      "start": 299.36,
+      "duration": 6,
+      "text": "critical? Cursor explicitly budgets"
+    },
+    {
+      "start": 302.32,
+      "duration": 4.879,
+      "text": "token. Each context chunk has a cost and"
+    },
+    {
+      "start": 305.36,
+      "duration": 3.839,
+      "text": "cursor fills the budget with the most"
+    },
+    {
+      "start": 307.199,
+      "duration": 3.761,
+      "text": "valuable chunks first. Lower valuable"
+    },
+    {
+      "start": 309.199,
+      "duration": 3.761,
+      "text": "chunks are dropped entirely. This"
+    },
+    {
+      "start": 310.96,
+      "duration": 5.12,
+      "text": "ensures the model always receives high"
+    },
+    {
+      "start": 312.96,
+      "duration": 5.36,
+      "text": "signal context under even the tide"
+    },
+    {
+      "start": 316.08,
+      "duration": 4.16,
+      "text": "constraints. Now let's just go to the"
+    },
+    {
+      "start": 318.32,
+      "duration": 4.8,
+      "text": "section five which is codebased indexing"
+    },
+    {
+      "start": 320.24,
+      "duration": 4.399,
+      "text": "and such. So how is code base index"
+    },
+    {
+      "start": 323.12,
+      "duration": 3.44,
+      "text": "internally?"
+    },
+    {
+      "start": 324.639,
+      "duration": 4.481,
+      "text": "So cursor does not chunk code"
+    },
+    {
+      "start": 326.56,
+      "duration": 6,
+      "text": "arbitrarily. It uses language passes to"
+    },
+    {
+      "start": 329.12,
+      "duration": 5.2,
+      "text": "build abstract syntax ts which are ass"
+    },
+    {
+      "start": 332.56,
+      "duration": 3.919,
+      "text": "function classes and logical blocks"
+    },
+    {
+      "start": 334.32,
+      "duration": 3.84,
+      "text": "become indexing units. Indexing runs"
+    },
+    {
+      "start": 336.479,
+      "duration": 3.761,
+      "text": "incrementally in the background so only"
+    },
+    {
+      "start": 338.16,
+      "duration": 4.4,
+      "text": "change files are reprocessed. This keeps"
+    },
+    {
+      "start": 340.24,
+      "duration": 3.84,
+      "text": "the system responsive even for large"
+    },
+    {
+      "start": 342.56,
+      "duration": 3.12,
+      "text": "repositories."
+    },
+    {
+      "start": 344.08,
+      "duration": 4.08,
+      "text": "So how are embeddings generated and"
+    },
+    {
+      "start": 345.68,
+      "duration": 4.32,
+      "text": "used? So each code chunk is converted"
+    },
+    {
+      "start": 348.16,
+      "duration": 4.479,
+      "text": "into factor embedding and numerical"
+    },
+    {
+      "start": 350,
+      "duration": 4.8,
+      "text": "representation. When a query comes,"
+    },
+    {
+      "start": 352.639,
+      "duration": 4.161,
+      "text": "cursor embeds the query, performs a"
+    },
+    {
+      "start": 354.8,
+      "duration": 4,
+      "text": "vector simulated search to retrieve the"
+    },
+    {
+      "start": 356.8,
+      "duration": 4.399,
+      "text": "most semantically relevant code. This is"
+    },
+    {
+      "start": 358.8,
+      "duration": 4.959,
+      "text": "a classical RG pipeline which is"
+    },
+    {
+      "start": 361.199,
+      "duration": 4.641,
+      "text": "technically adapted for the code. So now"
+    },
+    {
+      "start": 363.759,
+      "duration": 3.681,
+      "text": "let's just see and check what's there in"
+    },
+    {
+      "start": 365.84,
+      "duration": 4.24,
+      "text": "the section six which is model"
+    },
+    {
+      "start": 367.44,
+      "duration": 5.68,
+      "text": "orchestration. So does cursor use"
+    },
+    {
+      "start": 370.08,
+      "duration": 5.04,
+      "text": "multiple models internally to this? Yes,"
+    },
+    {
+      "start": 373.12,
+      "duration": 4.32,
+      "text": "cursor routes request to different"
+    },
+    {
+      "start": 375.12,
+      "duration": 3.68,
+      "text": "models. Small fast models to handle"
+    },
+    {
+      "start": 377.44,
+      "duration": 3.199,
+      "text": "intent detection and quickly"
+    },
+    {
+      "start": 378.8,
+      "duration": 3.519,
+      "text": "completions. Larger models handle"
+    },
+    {
+      "start": 380.639,
+      "duration": 3.761,
+      "text": "reasoning habitas like refractor tests"
+    },
+    {
+      "start": 382.319,
+      "duration": 5.681,
+      "text": "and multiple edits. This architecture"
+    },
+    {
+      "start": 384.4,
+      "duration": 5.76,
+      "text": "balances cost, latency and quality. So"
+    },
+    {
+      "start": 388,
+      "duration": 4.96,
+      "text": "what is speculative decoding and how"
+    },
+    {
+      "start": 390.16,
+      "duration": 5.84,
+      "text": "does cursor use it? Speculative decoding"
+    },
+    {
+      "start": 392.96,
+      "duration": 4.959,
+      "text": "is a very uh good latency optimization"
+    },
+    {
+      "start": 396,
+      "duration": 6.319,
+      "text": "technique that is very prevalent and"
+    },
+    {
+      "start": 397.919,
+      "duration": 6.321,
+      "text": "very popular within agents. So a small"
+    },
+    {
+      "start": 402.319,
+      "duration": 3.921,
+      "text": "and fast model generates a draft"
+    },
+    {
+      "start": 404.24,
+      "duration": 4.16,
+      "text": "response here while we keep a large"
+    },
+    {
+      "start": 406.24,
+      "duration": 5.12,
+      "text": "model that verifies whether the"
+    },
+    {
+      "start": 408.4,
+      "duration": 6.239,
+      "text": "generated things from the small model is"
+    },
+    {
+      "start": 411.36,
+      "duration": 5.279,
+      "text": "correct or not. So the draft is correct."
+    },
+    {
+      "start": 414.639,
+      "duration": 4.721,
+      "text": "Cursor can stream results almost"
+    },
+    {
+      "start": 416.639,
+      "duration": 4.481,
+      "text": "instantly. If not then the larger model"
+    },
+    {
+      "start": 419.36,
+      "duration": 5.279,
+      "text": "takes over. This is one of the reasons"
+    },
+    {
+      "start": 421.12,
+      "duration": 5.6,
+      "text": "why cursor fees very fast despite using"
+    },
+    {
+      "start": 424.639,
+      "duration": 4.56,
+      "text": "large models. So how does streaming"
+    },
+    {
+      "start": 426.72,
+      "duration": 4.4,
+      "text": "affect user experience? So cursor"
+    },
+    {
+      "start": 429.199,
+      "duration": 4.081,
+      "text": "streams token as soon as they generated."
+    },
+    {
+      "start": 431.12,
+      "duration": 4.479,
+      "text": "This reduces perceived latency this user"
+    },
+    {
+      "start": 433.28,
+      "duration": 5.28,
+      "text": "sees and allows users to interrupt or"
+    },
+    {
+      "start": 435.599,
+      "duration": 4.72,
+      "text": "guide the process mid generation. So now"
+    },
+    {
+      "start": 438.56,
+      "duration": 4.16,
+      "text": "let's just go to the section seven which"
+    },
+    {
+      "start": 440.319,
+      "duration": 4.081,
+      "text": "is safety shadow workspace and"
+    },
+    {
+      "start": 442.72,
+      "duration": 4.64,
+      "text": "validation."
+    },
+    {
+      "start": 444.4,
+      "duration": 5.12,
+      "text": "Right? So cursor often applies a"
+    },
+    {
+      "start": 447.36,
+      "duration": 4.32,
+      "text": "generated changes in isolated shadow"
+    },
+    {
+      "start": 449.52,
+      "duration": 4.399,
+      "text": "workspace. This allows it to detect"
+    },
+    {
+      "start": 451.68,
+      "duration": 4,
+      "text": "syntax errors of field checks before"
+    },
+    {
+      "start": 453.919,
+      "duration": 3.521,
+      "text": "touching your real code base. It's a"
+    },
+    {
+      "start": 455.68,
+      "duration": 3.76,
+      "text": "safety layer between AI output and the"
+    },
+    {
+      "start": 457.44,
+      "duration": 4.08,
+      "text": "production code. So in this way they"
+    },
+    {
+      "start": 459.44,
+      "duration": 5.28,
+      "text": "manage if things are working fine or not"
+    },
+    {
+      "start": 461.52,
+      "duration": 4.799,
+      "text": "and act as a validation layer. Now just"
+    },
+    {
+      "start": 464.72,
+      "duration": 4.64,
+      "text": "jump to the section eight which is"
+    },
+    {
+      "start": 466.319,
+      "duration": 4.961,
+      "text": "feedback loops and adaptation. So you"
+    },
+    {
+      "start": 469.36,
+      "duration": 4.959,
+      "text": "must have seen cursor starts following"
+    },
+    {
+      "start": 471.28,
+      "duration": 5.039,
+      "text": "your way of writing code right. So how"
+    },
+    {
+      "start": 474.319,
+      "duration": 4.961,
+      "text": "does cursor actually use such feedback"
+    },
+    {
+      "start": 476.319,
+      "duration": 5.921,
+      "text": "signals technically. So cursor measures"
+    },
+    {
+      "start": 479.28,
+      "duration": 5.759,
+      "text": "how far AI output deviates from the"
+    },
+    {
+      "start": 482.24,
+      "duration": 5.76,
+      "text": "human final edits. This added distance"
+    },
+    {
+      "start": 485.039,
+      "duration": 5.201,
+      "text": "sometimes becomes a feedback signal. So"
+    },
+    {
+      "start": 488,
+      "duration": 4,
+      "text": "over time cursor adapt suggestion to"
+    },
+    {
+      "start": 490.24,
+      "duration": 3.92,
+      "text": "better match your coding style and"
+    },
+    {
+      "start": 492,
+      "duration": 3.68,
+      "text": "preferences."
+    },
+    {
+      "start": 494.16,
+      "duration": 3.599,
+      "text": "Let's come to section nine which is"
+    },
+    {
+      "start": 495.68,
+      "duration": 5.28,
+      "text": "failure modes. Where do cursors"
+    },
+    {
+      "start": 497.759,
+      "duration": 6.401,
+      "text": "technical limits appear? So yeah cursor"
+    },
+    {
+      "start": 500.96,
+      "duration": 5.44,
+      "text": "still has some issues and failure modes."
+    },
+    {
+      "start": 504.16,
+      "duration": 4.56,
+      "text": "So cursor struggles when static signals"
+    },
+    {
+      "start": 506.4,
+      "duration": 4,
+      "text": "are weak or intent is unclear. There are"
+    },
+    {
+      "start": 508.72,
+      "duration": 5.28,
+      "text": "fundamental limits of contextbased"
+    },
+    {
+      "start": 510.4,
+      "duration": 5.759,
+      "text": "system but those are not simple bugs."
+    },
+    {
+      "start": 514,
+      "duration": 4.24,
+      "text": "So the final section why cursor is"
+    },
+    {
+      "start": 516.159,
+      "duration": 5.12,
+      "text": "different. So what is the real technical"
+    },
+    {
+      "start": 518.24,
+      "duration": 5.039,
+      "text": "innovation behind cursor? Cursor real"
+    },
+    {
+      "start": 521.279,
+      "duration": 4.641,
+      "text": "innovation is not set model it's the"
+    },
+    {
+      "start": 523.279,
+      "duration": 4.081,
+      "text": "engineering how context is selected how"
+    },
+    {
+      "start": 525.92,
+      "duration": 4.08,
+      "text": "latency is reduced and how feedback"
+    },
+    {
+      "start": 527.36,
+      "duration": 5.039,
+      "text": "loops at behavior. So cursor is not"
+    },
+    {
+      "start": 530,
+      "duration": 4.08,
+      "text": "about replacing developers. It's about"
+    },
+    {
+      "start": 532.399,
+      "duration": 4.081,
+      "text": "compressing the distance between human"
+    },
+    {
+      "start": 534.08,
+      "duration": 5.439,
+      "text": "intent and executable code. So that's"
+    },
+    {
+      "start": 536.48,
+      "duration": 6.08,
+      "text": "all I have today for cursor like how it"
+    },
+    {
+      "start": 539.519,
+      "duration": 5.041,
+      "text": "works, how it did type like internally."
+    },
+    {
+      "start": 542.56,
+      "duration": 5.6,
+      "text": "So, thanks for watching. Hope you see"
+    },
+    {
+      "start": 544.56,
+      "duration": 3.6,
+      "text": "you around. Thank you."
+    }
+  ],
+  "fullText": "Hello everyone, welcome back. Today we'll discuss how cursor AI actually works. So when you type code in cursor, you are not talking to an autocomplete model. You're actually interacting with a distributed system that observes your intent, selects context and restrict token limits and orchestrates multiple AI models in real time. In the next few minutes, we'll break down exactly how cursor works internally from editor signals and embeddings to speculative decoding and safety layers. To make this easy to follow, we'll do this in a question answer format. Each question unpacking one layer of the system step by step. So let's start with the most basic question. What is cursor? So technically speaking, cursor is a fork of visual studio code where a straight is a first class system component but not a plug-in. Architecturally, cursor follows a client server model. The data runs locally collect signals and managing the UI while heavy eye computation such as retrieval prompt construction and model execution happens in the cloud. This separation allows cursor to stay fast locally while still using large and most powerful model remotely. So is cursor just VS code plus JPD? A lot of people assume cursor is just VS code with GPD bolted on it. But that's not true. VS code was designed for human stepping code manually. Cursor is designed for humans collaborating with an AI in real time. This affects how context is collected, how changes are made, and how feedback is learned. So, cursor isn't a smarter autocomplete. It's just a different editing paradigm. So, now let's just go to section two. The problem that cursor is solving. So, when you quote a huge part of your effort goes into reconstructing context in your head. You are constantly asking questions like where is this function used? What depends on this file? What style does this project follow? So cursor tries to remove that mental burden. Its goal is to understand the context for you so that you can focus on decisions instead of navigations. So why does cursor feel smarter than autocomplete? Traditional autocomplete only looks at the last few lines you typed. Cursor looks at your entire working environment. It sees your current file, related file, recent edits, cursor positions, and sometimes even your whole repository. That broader view is what makes cursor very intelligent. So now let's just go to the section three which is editor signals and intent. So what signals does cursor observe from the editor. So cursor instruments the editor very deeply. It doesn't just know what text exist. It knows how this text is being interacted with. It captures cursor position, selection ranges, recent edits and antiagnostics from the language server. These signals are combined into a structured representation of developer intent but not just a raw text. Think of this as turning human interaction into a machine readable signals. So why is cursor pointer position is so important. The cursor pointer isn't just a blinking line. It's a very strong signal. If your cursor is inside a function, cursor AI assumes your intent is local to that function. If you select multiple lines, cursor AI assumes you want to modify or refract at that. Similarly, cursor position has a system narrow down where your attention is actually focused on. So now how does cursor convert raw editor signals into intent. So cursor applies uristics and temporal waiting to editor signals. Recent edits matter more than the old ones. Selected code matters more than the surrounding code. So for example, cursor pointer inside a function implies local intent. Similarly, multi-line selection implies transformation intent while rapid edits imply exploratory behavior. This intent classification drives everything that follows. So now let's just jump into the section four which is context selection which is actually one of the most important section. So why is context selection is the hardest part of the cursor. So large language model operate within strict context windows. So cursor must compress an entire repository sometimes tens of thousands of lines into a few thousand tokens. This becomes an optimization problem where too much content may lead to slow noisy and expensive responses while too little context may lead to hallucinations. The intelligence of cursor largely lies in solving this constraint very efficiently. So how does cursor choose what code to send to the model? Right? So cursor uses multiple signals to rank relevance. First it follows static relationships like imports and symbol references. Then it layers in dynamic signals like recently edited files. Finally it uses embedding similar to retrieve semantically related code. Only the highest scoring chunks survive into the final pro. So in this regard what is token budgeting and why it is so critical? Cursor explicitly budgets token. Each context chunk has a cost and cursor fills the budget with the most valuable chunks first. Lower valuable chunks are dropped entirely. This ensures the model always receives high signal context under even the tide constraints. Now let's just go to the section five which is codebased indexing and such. So how is code base index internally? So cursor does not chunk code arbitrarily. It uses language passes to build abstract syntax ts which are ass function classes and logical blocks become indexing units. Indexing runs incrementally in the background so only change files are reprocessed. This keeps the system responsive even for large repositories. So how are embeddings generated and used? So each code chunk is converted into factor embedding and numerical representation. When a query comes, cursor embeds the query, performs a vector simulated search to retrieve the most semantically relevant code. This is a classical RG pipeline which is technically adapted for the code. So now let's just see and check what's there in the section six which is model orchestration. So does cursor use multiple models internally to this? Yes, cursor routes request to different models. Small fast models to handle intent detection and quickly completions. Larger models handle reasoning habitas like refractor tests and multiple edits. This architecture balances cost, latency and quality. So what is speculative decoding and how does cursor use it? Speculative decoding is a very uh good latency optimization technique that is very prevalent and very popular within agents. So a small and fast model generates a draft response here while we keep a large model that verifies whether the generated things from the small model is correct or not. So the draft is correct. Cursor can stream results almost instantly. If not then the larger model takes over. This is one of the reasons why cursor fees very fast despite using large models. So how does streaming affect user experience? So cursor streams token as soon as they generated. This reduces perceived latency this user sees and allows users to interrupt or guide the process mid generation. So now let's just go to the section seven which is safety shadow workspace and validation. Right? So cursor often applies a generated changes in isolated shadow workspace. This allows it to detect syntax errors of field checks before touching your real code base. It's a safety layer between AI output and the production code. So in this way they manage if things are working fine or not and act as a validation layer. Now just jump to the section eight which is feedback loops and adaptation. So you must have seen cursor starts following your way of writing code right. So how does cursor actually use such feedback signals technically. So cursor measures how far AI output deviates from the human final edits. This added distance sometimes becomes a feedback signal. So over time cursor adapt suggestion to better match your coding style and preferences. Let's come to section nine which is failure modes. Where do cursors technical limits appear? So yeah cursor still has some issues and failure modes. So cursor struggles when static signals are weak or intent is unclear. There are fundamental limits of contextbased system but those are not simple bugs. So the final section why cursor is different. So what is the real technical innovation behind cursor? Cursor real innovation is not set model it's the engineering how context is selected how latency is reduced and how feedback loops at behavior. So cursor is not about replacing developers. It's about compressing the distance between human intent and executable code. So that's all I have today for cursor like how it works, how it did type like internally. So, thanks for watching. Hope you see you around. Thank you.",
+  "fetchedAt": "2026-01-20T16:50:38.297Z"
+}

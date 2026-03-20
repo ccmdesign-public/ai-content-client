@@ -1,0 +1,984 @@
+{
+  "videoId": "vgHBEju4kGE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 2.559,
+      "text": "It's the first day of the year, and I"
+    },
+    {
+      "start": 1.28,
+      "duration": 3.36,
+      "text": "thought, what better way to kick off the"
+    },
+    {
+      "start": 2.639,
+      "duration": 3.761,
+      "text": "year than to show you a fresh way of how"
+    },
+    {
+      "start": 4.64,
+      "duration": 2.88,
+      "text": "you can plan your projects within Claude"
+    },
+    {
+      "start": 6.4,
+      "duration": 2.4,
+      "text": "Code. In this video, I'm going to be"
+    },
+    {
+      "start": 7.52,
+      "duration": 2.8,
+      "text": "showing you how to get better outcomes"
+    },
+    {
+      "start": 8.8,
+      "duration": 3.12,
+      "text": "by slowing down, spending more time"
+    },
+    {
+      "start": 10.32,
+      "duration": 3.199,
+      "text": "being interviewed by Claude before"
+    },
+    {
+      "start": 11.92,
+      "duration": 3.28,
+      "text": "actually kicking off the process, and"
+    },
+    {
+      "start": 13.519,
+      "duration": 3.281,
+      "text": "beginning to code. Now, the origin of"
+    },
+    {
+      "start": 15.2,
+      "duration": 3.76,
+      "text": "this came from Tariq, who works at"
+    },
+    {
+      "start": 16.8,
+      "duration": 4.319,
+      "text": "Claude Code. He recently tweeted, \"My"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.479,
+      "text": "favorite way to use Claude Code to build"
+    },
+    {
+      "start": 21.119,
+      "duration": 4.561,
+      "text": "large features is specbase. Start with a"
+    },
+    {
+      "start": 23.439,
+      "duration": 4.641,
+      "text": "minimal spec or prompt and ask Claude to"
+    },
+    {
+      "start": 25.68,
+      "duration": 4.88,
+      "text": "interview you using the Ask User tool."
+    },
+    {
+      "start": 28.08,
+      "duration": 4.72,
+      "text": "then make a new session to execute these"
+    },
+    {
+      "start": 30.56,
+      "duration": 4.08,
+      "text": "specs. This got a ton of attention and"
+    },
+    {
+      "start": 32.8,
+      "duration": 3.36,
+      "text": "it really resonated with people because"
+    },
+    {
+      "start": 34.64,
+      "duration": 3.04,
+      "text": "I think a lot of us have had the"
+    },
+    {
+      "start": 36.16,
+      "duration": 3.2,
+      "text": "experience whether you're using cursor"
+    },
+    {
+      "start": 37.68,
+      "duration": 3.52,
+      "text": "cloud code or any of these agentic"
+    },
+    {
+      "start": 39.36,
+      "duration": 3.68,
+      "text": "systems where you'll put in a prompt and"
+    },
+    {
+      "start": 41.2,
+      "duration": 3.44,
+      "text": "it will go through and build out a bunch"
+    },
+    {
+      "start": 43.04,
+      "duration": 3.28,
+      "text": "of stuff that you might have otherwise"
+    },
+    {
+      "start": 44.64,
+      "duration": 3.599,
+      "text": "not wanted it to do. There's a lot of"
+    },
+    {
+      "start": 46.32,
+      "duration": 3.68,
+      "text": "nuances that go especially for larger"
+    },
+    {
+      "start": 48.239,
+      "duration": 3.121,
+      "text": "prompts that arguably most of the time"
+    },
+    {
+      "start": 50,
+      "duration": 3.52,
+      "text": "you probably want to have a little bit"
+    },
+    {
+      "start": 51.36,
+      "duration": 3.92,
+      "text": "more of input on but you might not have"
+    },
+    {
+      "start": 53.52,
+      "duration": 3.6,
+      "text": "originally thought that within your"
+    },
+    {
+      "start": 55.28,
+      "duration": 4.4,
+      "text": "initial prompt. The idea with this is"
+    },
+    {
+      "start": 57.12,
+      "duration": 3.919,
+      "text": "interview first, spec second, code last."
+    },
+    {
+      "start": 59.68,
+      "duration": 3.039,
+      "text": "Now, in terms of the approach for this,"
+    },
+    {
+      "start": 61.039,
+      "duration": 3.52,
+      "text": "there's the method within cla code, the"
+    },
+    {
+      "start": 62.719,
+      "duration": 3.201,
+      "text": "ask user question tool. You might have"
+    },
+    {
+      "start": 64.559,
+      "duration": 3.121,
+      "text": "seen this if you've used cloud code"
+    },
+    {
+      "start": 65.92,
+      "duration": 4.16,
+      "text": "before where it asks you two or three"
+    },
+    {
+      "start": 67.68,
+      "duration": 4.16,
+      "text": "questions about implementation details."
+    },
+    {
+      "start": 70.08,
+      "duration": 3.76,
+      "text": "Further, he mentioned for big features"
+    },
+    {
+      "start": 71.84,
+      "duration": 4.48,
+      "text": "or for new projects, Claude might ask me"
+    },
+    {
+      "start": 73.84,
+      "duration": 4.959,
+      "text": "40 questions and I end up with a much"
+    },
+    {
+      "start": 76.32,
+      "duration": 4.24,
+      "text": "more detailed spec that I feel I had a"
+    },
+    {
+      "start": 78.799,
+      "duration": 3.281,
+      "text": "lot of control over. The prompt that"
+    },
+    {
+      "start": 80.56,
+      "duration": 4.08,
+      "text": "I've been using for this is read the"
+    },
+    {
+      "start": 82.08,
+      "duration": 4.719,
+      "text": "spec.MD MD and interview me using the"
+    },
+    {
+      "start": 84.64,
+      "duration": 4.56,
+      "text": "ask user question tool about literally"
+    },
+    {
+      "start": 86.799,
+      "duration": 5.28,
+      "text": "anything. Technical implementation, UI"
+    },
+    {
+      "start": 89.2,
+      "duration": 4.8,
+      "text": "and UX concerns, trade-offs, etc. But"
+    },
+    {
+      "start": 92.079,
+      "duration": 3.36,
+      "text": "make sure the questions are not obvious."
+    },
+    {
+      "start": 94,
+      "duration": 3.36,
+      "text": "Be very in-depth and continue"
+    },
+    {
+      "start": 95.439,
+      "duration": 3.281,
+      "text": "interviewing me continually until it's"
+    },
+    {
+      "start": 97.36,
+      "duration": 3.119,
+      "text": "complete. Then write the spec to the"
+    },
+    {
+      "start": 98.72,
+      "duration": 3.68,
+      "text": "file. So the idea with this is really to"
+    },
+    {
+      "start": 100.479,
+      "duration": 3.6,
+      "text": "slow down to speed up. Now, a lot of"
+    },
+    {
+      "start": 102.4,
+      "duration": 3.44,
+      "text": "people's first experience when they're"
+    },
+    {
+      "start": 104.079,
+      "duration": 4.481,
+      "text": "leveraging tools like whether it's cloud"
+    },
+    {
+      "start": 105.84,
+      "duration": 4.639,
+      "text": "code, cursor, lovable, bolt, generally"
+    },
+    {
+      "start": 108.56,
+      "duration": 3.68,
+      "text": "what they do is they'll put in a prompt"
+    },
+    {
+      "start": 110.479,
+      "duration": 3.361,
+      "text": "and there might be a couple questions"
+    },
+    {
+      "start": 112.24,
+      "duration": 3.28,
+      "text": "and then it will spin off and start to"
+    },
+    {
+      "start": 113.84,
+      "duration": 3.36,
+      "text": "build out your application. But the idea"
+    },
+    {
+      "start": 115.52,
+      "duration": 3.68,
+      "text": "with this is really just to slow down to"
+    },
+    {
+      "start": 117.2,
+      "duration": 4,
+      "text": "speed up. So most people they'll jump"
+    },
+    {
+      "start": 119.2,
+      "duration": 3.84,
+      "text": "right into coding. And the thing with"
+    },
+    {
+      "start": 121.2,
+      "duration": 3.279,
+      "text": "this is it will allow you to have a"
+    },
+    {
+      "start": 123.04,
+      "duration": 3.039,
+      "text": "better understanding of what it's"
+    },
+    {
+      "start": 124.479,
+      "duration": 3.361,
+      "text": "actually doing. The more time that you"
+    },
+    {
+      "start": 126.079,
+      "duration": 3.6,
+      "text": "spend planning, the less time that"
+    },
+    {
+      "start": 127.84,
+      "duration": 3.36,
+      "text": "you're going to spend reworking what"
+    },
+    {
+      "start": 129.679,
+      "duration": 3.2,
+      "text": "Claude might have already done. The"
+    },
+    {
+      "start": 131.2,
+      "duration": 3.92,
+      "text": "first time that I saw this sort of specd"
+    },
+    {
+      "start": 132.879,
+      "duration": 4.641,
+      "text": "driven development workflow was from"
+    },
+    {
+      "start": 135.12,
+      "duration": 4.72,
+      "text": "Kira, which is an IDE that was built by"
+    },
+    {
+      "start": 137.52,
+      "duration": 4.24,
+      "text": "Amazon. And this is a similar sort of"
+    },
+    {
+      "start": 139.84,
+      "duration": 3.44,
+      "text": "idea. Now, the idea with this is when"
+    },
+    {
+      "start": 141.76,
+      "duration": 2.479,
+      "text": "you give Claude a prompt, Claude is"
+    },
+    {
+      "start": 143.28,
+      "duration": 2.72,
+      "text": "going to make a ton of different"
+    },
+    {
+      "start": 144.239,
+      "duration": 3.521,
+      "text": "assumptions. If we take the example of"
+    },
+    {
+      "start": 146,
+      "duration": 3.52,
+      "text": "adding authentication to an application,"
+    },
+    {
+      "start": 147.76,
+      "duration": 3.839,
+      "text": "if you just ask Claude to add"
+    },
+    {
+      "start": 149.52,
+      "duration": 4.32,
+      "text": "authentication to your application, it"
+    },
+    {
+      "start": 151.599,
+      "duration": 4.241,
+      "text": "could go off. It could implement a JWT."
+    },
+    {
+      "start": 153.84,
+      "duration": 3.679,
+      "text": "It could maybe not do ooth. It could do"
+    },
+    {
+      "start": 155.84,
+      "duration": 2.96,
+      "text": "sessionbased. And the idea with this is"
+    },
+    {
+      "start": 157.519,
+      "duration": 2.881,
+      "text": "at the end of it and you might realize"
+    },
+    {
+      "start": 158.8,
+      "duration": 3.12,
+      "text": "at the end like oh I actually wanted to"
+    },
+    {
+      "start": 160.4,
+      "duration": 3.52,
+      "text": "leverage a managed service something"
+    },
+    {
+      "start": 161.92,
+      "duration": 3.679,
+      "text": "like work OS or clerk or whatever it"
+    },
+    {
+      "start": 163.92,
+      "duration": 3.28,
+      "text": "might be. This is going to get to those"
+    },
+    {
+      "start": 165.599,
+      "duration": 2.961,
+      "text": "details much sooner where you don't"
+    },
+    {
+      "start": 167.2,
+      "duration": 3.119,
+      "text": "actually have to rework everything."
+    },
+    {
+      "start": 168.56,
+      "duration": 3.44,
+      "text": "Instead of prompting Claude, Claude is"
+    },
+    {
+      "start": 170.319,
+      "duration": 3.92,
+      "text": "going to prompt us and instead of"
+    },
+    {
+      "start": 172,
+      "duration": 4.08,
+      "text": "guessing Claude is going to ask clarify"
+    },
+    {
+      "start": 174.239,
+      "duration": 3.441,
+      "text": "instead of you having to rework all of"
+    },
+    {
+      "start": 176.08,
+      "duration": 3.28,
+      "text": "those different assumptions. Now if"
+    },
+    {
+      "start": 177.68,
+      "duration": 3.76,
+      "text": "you're not familiar with the ask user"
+    },
+    {
+      "start": 179.36,
+      "duration": 3.92,
+      "text": "question tool within Claude codes, this"
+    },
+    {
+      "start": 181.44,
+      "duration": 4.24,
+      "text": "is what it looks like. It's going to ask"
+    },
+    {
+      "start": 183.28,
+      "duration": 4.4,
+      "text": "you a number of questions mid session"
+    },
+    {
+      "start": 185.68,
+      "duration": 3.76,
+      "text": "multiple choice options and then it will"
+    },
+    {
+      "start": 187.68,
+      "duration": 3.04,
+      "text": "continue with your option. Now just to"
+    },
+    {
+      "start": 189.44,
+      "duration": 2.799,
+      "text": "demonstrate this I'll do this with a"
+    },
+    {
+      "start": 190.72,
+      "duration": 5.28,
+      "text": "relatively broad prompt. I'll say build"
+    },
+    {
+      "start": 192.239,
+      "duration": 6,
+      "text": "me a Nex.js app. Interview me about what"
+    },
+    {
+      "start": 196,
+      "duration": 4.56,
+      "text": "I want. What I've actually done is I've"
+    },
+    {
+      "start": 198.239,
+      "duration": 3.92,
+      "text": "gone ahead and implemented what Tariq"
+    },
+    {
+      "start": 200.56,
+      "duration": 3.679,
+      "text": "had within the prompt and I've added"
+    },
+    {
+      "start": 202.159,
+      "duration": 3.841,
+      "text": "that within a skill. What we'll see here"
+    },
+    {
+      "start": 204.239,
+      "duration": 2.961,
+      "text": "is it will trigger the interview skill"
+    },
+    {
+      "start": 206,
+      "duration": 2.72,
+      "text": "which I'll show you in just a moment."
+    },
+    {
+      "start": 207.2,
+      "duration": 2.959,
+      "text": "And then from here we can see let me"
+    },
+    {
+      "start": 208.72,
+      "duration": 2.799,
+      "text": "interview you and understand what you"
+    },
+    {
+      "start": 210.159,
+      "duration": 2.961,
+      "text": "want to build within here. It's like,"
+    },
+    {
+      "start": 211.519,
+      "duration": 3.121,
+      "text": "what am I actually building? A web app,"
+    },
+    {
+      "start": 213.12,
+      "duration": 3.36,
+      "text": "a marketing site. I'll say I'm building"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.44,
+      "text": "a marketing site and it's for"
+    },
+    {
+      "start": 216.48,
+      "duration": 3.039,
+      "text": "developers. And then as soon as I send"
+    },
+    {
+      "start": 218.08,
+      "duration": 2.799,
+      "text": "in those answers, it's just going to go"
+    },
+    {
+      "start": 219.519,
+      "duration": 2.961,
+      "text": "through the process and it's going to"
+    },
+    {
+      "start": 220.879,
+      "duration": 3.521,
+      "text": "continue to ask me more clarifying"
+    },
+    {
+      "start": 222.48,
+      "duration": 4.24,
+      "text": "questions. So, this is a developer tool"
+    },
+    {
+      "start": 224.4,
+      "duration": 3.759,
+      "text": "or SDK. You can also add in your own"
+    },
+    {
+      "start": 226.72,
+      "duration": 3.519,
+      "text": "information as well where you can type"
+    },
+    {
+      "start": 228.159,
+      "duration": 3.681,
+      "text": "things to answer the questions as well."
+    },
+    {
+      "start": 230.239,
+      "duration": 2.961,
+      "text": "I can say we're going to have a book a"
+    },
+    {
+      "start": 231.84,
+      "duration": 3.039,
+      "text": "demo page and we're just going to submit"
+    },
+    {
+      "start": 233.2,
+      "duration": 3.039,
+      "text": "that. That's basically the core idea."
+    },
+    {
+      "start": 234.879,
+      "duration": 3.201,
+      "text": "Now, one quick aside that I do want to"
+    },
+    {
+      "start": 236.239,
+      "duration": 3.121,
+      "text": "mention. Cloud code has had plan mode"
+    },
+    {
+      "start": 238.08,
+      "duration": 3.2,
+      "text": "for quite a long time, which is"
+    },
+    {
+      "start": 239.36,
+      "duration": 3.599,
+      "text": "excellent. It explores your codebase. It"
+    },
+    {
+      "start": 241.28,
+      "duration": 3.039,
+      "text": "can design implementation files and it"
+    },
+    {
+      "start": 242.959,
+      "duration": 2.961,
+      "text": "will actually write a plan. And the"
+    },
+    {
+      "start": 244.319,
+      "duration": 3.441,
+      "text": "interview mode is not to substitute the"
+    },
+    {
+      "start": 245.92,
+      "duration": 3.599,
+      "text": "plan mode. It can almost be used as a"
+    },
+    {
+      "start": 247.76,
+      "duration": 2.88,
+      "text": "precursor for planning. You can"
+    },
+    {
+      "start": 249.519,
+      "duration": 2.961,
+      "text": "interview and then you can go through"
+    },
+    {
+      "start": 250.64,
+      "duration": 3.44,
+      "text": "the planning phase. And this ultimately"
+    },
+    {
+      "start": 252.48,
+      "duration": 3.28,
+      "text": "will ideally lead to much better"
+    },
+    {
+      "start": 254.08,
+      "duration": 3.279,
+      "text": "outcomes. Now in terms of actually"
+    },
+    {
+      "start": 255.76,
+      "duration": 2.879,
+      "text": "adding an interview skill, it can be"
+    },
+    {
+      "start": 257.359,
+      "duration": 3.361,
+      "text": "very straightforward. So you can use"
+    },
+    {
+      "start": 258.639,
+      "duration": 4.56,
+      "text": "exactly what Tariq said. You can have"
+    },
+    {
+      "start": 260.72,
+      "duration": 4.479,
+      "text": "read the plan, use this tool, ask me"
+    },
+    {
+      "start": 263.199,
+      "duration": 4.161,
+      "text": "about the technical implementations, or"
+    },
+    {
+      "start": 265.199,
+      "duration": 3.761,
+      "text": "you can build your own variation of this"
+    },
+    {
+      "start": 267.36,
+      "duration": 3.04,
+      "text": "depending on what you want to do. You"
+    },
+    {
+      "start": 268.96,
+      "duration": 4.239,
+      "text": "can specify potentially the number of"
+    },
+    {
+      "start": 270.4,
+      "duration": 4.079,
+      "text": "questions or whatever it is within the"
+    },
+    {
+      "start": 273.199,
+      "duration": 2.56,
+      "text": "skill file and it will trigger"
+    },
+    {
+      "start": 274.479,
+      "duration": 2.72,
+      "text": "automatically. And the nice thing with"
+    },
+    {
+      "start": 275.759,
+      "duration": 2.88,
+      "text": "skills is it's going to follow the"
+    },
+    {
+      "start": 277.199,
+      "duration": 3.041,
+      "text": "process and it will be able to latch on"
+    },
+    {
+      "start": 278.639,
+      "duration": 3.201,
+      "text": "and trigger those native tools within"
+    },
+    {
+      "start": 280.24,
+      "duration": 2.959,
+      "text": "cloud code. It's pretty clear why this"
+    },
+    {
+      "start": 281.84,
+      "duration": 2.72,
+      "text": "works. You're going to be making all of"
+    },
+    {
+      "start": 283.199,
+      "duration": 2.961,
+      "text": "those different decisions up front."
+    },
+    {
+      "start": 284.56,
+      "duration": 3.199,
+      "text": "You're narrowing the space of all of the"
+    },
+    {
+      "start": 286.16,
+      "duration": 3.2,
+      "text": "possible solutions that Claude could"
+    },
+    {
+      "start": 287.759,
+      "duration": 3.361,
+      "text": "generate for you. Instead of discovering"
+    },
+    {
+      "start": 289.36,
+      "duration": 3.36,
+      "text": "buried assumptions during code review,"
+    },
+    {
+      "start": 291.12,
+      "duration": 3.6,
+      "text": "you can actually confront all of those"
+    },
+    {
+      "start": 292.72,
+      "duration": 3.919,
+      "text": "decisions when they're cheap to change"
+    },
+    {
+      "start": 294.72,
+      "duration": 3.44,
+      "text": "before it actually writes and uses all"
+    },
+    {
+      "start": 296.639,
+      "duration": 3.12,
+      "text": "of those tokens to generate the feature"
+    },
+    {
+      "start": 298.16,
+      "duration": 3.2,
+      "text": "that you're asking of it. Now, one of"
+    },
+    {
+      "start": 299.759,
+      "duration": 3.521,
+      "text": "the more traditional prompt engineering"
+    },
+    {
+      "start": 301.36,
+      "duration": 4.32,
+      "text": "methods was around crafting really"
+    },
+    {
+      "start": 303.28,
+      "duration": 3.84,
+      "text": "perfect instructions or as close to it"
+    },
+    {
+      "start": 305.68,
+      "duration": 3.04,
+      "text": "as you could get. Whereas with spec"
+    },
+    {
+      "start": 307.12,
+      "duration": 3.28,
+      "text": "driven development, AI will help you"
+    },
+    {
+      "start": 308.72,
+      "duration": 3.52,
+      "text": "discover what you actually want because"
+    },
+    {
+      "start": 310.4,
+      "duration": 4,
+      "text": "it might not necessarily be as clear as"
+    },
+    {
+      "start": 312.24,
+      "duration": 3.519,
+      "text": "you think right away. So instead of just"
+    },
+    {
+      "start": 314.4,
+      "duration": 2.639,
+      "text": "getting everything right within one"
+    },
+    {
+      "start": 315.759,
+      "duration": 3.521,
+      "text": "prompt, you're going to be going through"
+    },
+    {
+      "start": 317.039,
+      "duration": 3.841,
+      "text": "a discovery process. And all of those"
+    },
+    {
+      "start": 319.28,
+      "duration": 3.6,
+      "text": "different questions will ideally help"
+    },
+    {
+      "start": 320.88,
+      "duration": 3.44,
+      "text": "reveal the requirements that you might"
+    },
+    {
+      "start": 322.88,
+      "duration": 3.2,
+      "text": "have not have otherwise even thought"
+    },
+    {
+      "start": 324.32,
+      "duration": 3.2,
+      "text": "that you had. Next time you have a large"
+    },
+    {
+      "start": 326.08,
+      "duration": 3.36,
+      "text": "feature to build, I encourage you to try"
+    },
+    {
+      "start": 327.52,
+      "duration": 3.92,
+      "text": "this out. Don't just try and get it all"
+    },
+    {
+      "start": 329.44,
+      "duration": 3.759,
+      "text": "within one prompt. Actually try out the"
+    },
+    {
+      "start": 331.44,
+      "duration": 4.08,
+      "text": "interview process. Ask it to interview"
+    },
+    {
+      "start": 333.199,
+      "duration": 4.161,
+      "text": "you about this plan leveraging that ask"
+    },
+    {
+      "start": 335.52,
+      "duration": 3.519,
+      "text": "user question tool and you'll be"
+    },
+    {
+      "start": 337.36,
+      "duration": 2.96,
+      "text": "surprised, I think, at the results that"
+    },
+    {
+      "start": 339.039,
+      "duration": 2.641,
+      "text": "you'll get. Otherwise, I'll put the"
+    },
+    {
+      "start": 340.32,
+      "duration": 2.8,
+      "text": "links to some of this within the"
+    },
+    {
+      "start": 341.68,
+      "duration": 2.799,
+      "text": "description of the video. But if you"
+    },
+    {
+      "start": 343.12,
+      "duration": 4.32,
+      "text": "found this video useful, please like,"
+    },
+    {
+      "start": 344.479,
+      "duration": 2.961,
+      "text": "comment, share, and subscribe."
+    }
+  ],
+  "fullText": "It's the first day of the year, and I thought, what better way to kick off the year than to show you a fresh way of how you can plan your projects within Claude Code. In this video, I'm going to be showing you how to get better outcomes by slowing down, spending more time being interviewed by Claude before actually kicking off the process, and beginning to code. Now, the origin of this came from Tariq, who works at Claude Code. He recently tweeted, \"My favorite way to use Claude Code to build large features is specbase. Start with a minimal spec or prompt and ask Claude to interview you using the Ask User tool. then make a new session to execute these specs. This got a ton of attention and it really resonated with people because I think a lot of us have had the experience whether you're using cursor cloud code or any of these agentic systems where you'll put in a prompt and it will go through and build out a bunch of stuff that you might have otherwise not wanted it to do. There's a lot of nuances that go especially for larger prompts that arguably most of the time you probably want to have a little bit more of input on but you might not have originally thought that within your initial prompt. The idea with this is interview first, spec second, code last. Now, in terms of the approach for this, there's the method within cla code, the ask user question tool. You might have seen this if you've used cloud code before where it asks you two or three questions about implementation details. Further, he mentioned for big features or for new projects, Claude might ask me 40 questions and I end up with a much more detailed spec that I feel I had a lot of control over. The prompt that I've been using for this is read the spec.MD MD and interview me using the ask user question tool about literally anything. Technical implementation, UI and UX concerns, trade-offs, etc. But make sure the questions are not obvious. Be very in-depth and continue interviewing me continually until it's complete. Then write the spec to the file. So the idea with this is really to slow down to speed up. Now, a lot of people's first experience when they're leveraging tools like whether it's cloud code, cursor, lovable, bolt, generally what they do is they'll put in a prompt and there might be a couple questions and then it will spin off and start to build out your application. But the idea with this is really just to slow down to speed up. So most people they'll jump right into coding. And the thing with this is it will allow you to have a better understanding of what it's actually doing. The more time that you spend planning, the less time that you're going to spend reworking what Claude might have already done. The first time that I saw this sort of specd driven development workflow was from Kira, which is an IDE that was built by Amazon. And this is a similar sort of idea. Now, the idea with this is when you give Claude a prompt, Claude is going to make a ton of different assumptions. If we take the example of adding authentication to an application, if you just ask Claude to add authentication to your application, it could go off. It could implement a JWT. It could maybe not do ooth. It could do sessionbased. And the idea with this is at the end of it and you might realize at the end like oh I actually wanted to leverage a managed service something like work OS or clerk or whatever it might be. This is going to get to those details much sooner where you don't actually have to rework everything. Instead of prompting Claude, Claude is going to prompt us and instead of guessing Claude is going to ask clarify instead of you having to rework all of those different assumptions. Now if you're not familiar with the ask user question tool within Claude codes, this is what it looks like. It's going to ask you a number of questions mid session multiple choice options and then it will continue with your option. Now just to demonstrate this I'll do this with a relatively broad prompt. I'll say build me a Nex.js app. Interview me about what I want. What I've actually done is I've gone ahead and implemented what Tariq had within the prompt and I've added that within a skill. What we'll see here is it will trigger the interview skill which I'll show you in just a moment. And then from here we can see let me interview you and understand what you want to build within here. It's like, what am I actually building? A web app, a marketing site. I'll say I'm building a marketing site and it's for developers. And then as soon as I send in those answers, it's just going to go through the process and it's going to continue to ask me more clarifying questions. So, this is a developer tool or SDK. You can also add in your own information as well where you can type things to answer the questions as well. I can say we're going to have a book a demo page and we're just going to submit that. That's basically the core idea. Now, one quick aside that I do want to mention. Cloud code has had plan mode for quite a long time, which is excellent. It explores your codebase. It can design implementation files and it will actually write a plan. And the interview mode is not to substitute the plan mode. It can almost be used as a precursor for planning. You can interview and then you can go through the planning phase. And this ultimately will ideally lead to much better outcomes. Now in terms of actually adding an interview skill, it can be very straightforward. So you can use exactly what Tariq said. You can have read the plan, use this tool, ask me about the technical implementations, or you can build your own variation of this depending on what you want to do. You can specify potentially the number of questions or whatever it is within the skill file and it will trigger automatically. And the nice thing with skills is it's going to follow the process and it will be able to latch on and trigger those native tools within cloud code. It's pretty clear why this works. You're going to be making all of those different decisions up front. You're narrowing the space of all of the possible solutions that Claude could generate for you. Instead of discovering buried assumptions during code review, you can actually confront all of those decisions when they're cheap to change before it actually writes and uses all of those tokens to generate the feature that you're asking of it. Now, one of the more traditional prompt engineering methods was around crafting really perfect instructions or as close to it as you could get. Whereas with spec driven development, AI will help you discover what you actually want because it might not necessarily be as clear as you think right away. So instead of just getting everything right within one prompt, you're going to be going through a discovery process. And all of those different questions will ideally help reveal the requirements that you might have not have otherwise even thought that you had. Next time you have a large feature to build, I encourage you to try this out. Don't just try and get it all within one prompt. Actually try out the interview process. Ask it to interview you about this plan leveraging that ask user question tool and you'll be surprised, I think, at the results that you'll get. Otherwise, I'll put the links to some of this within the description of the video. But if you found this video useful, please like, comment, share, and subscribe.",
+  "fetchedAt": "2026-01-18T18:34:36.105Z"
+}

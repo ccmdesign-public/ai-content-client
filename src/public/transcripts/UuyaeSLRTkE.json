@@ -1,0 +1,1854 @@
+{
+  "videoId": "UuyaeSLRTkE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 3.04,
+      "duration": 4.719,
+      "text": "So Google's Gemini 3 really explode"
+    },
+    {
+      "start": 5.44,
+      "duration": 4.48,
+      "text": "everyone's expectation. It's coding a"
+    },
+    {
+      "start": 7.759,
+      "duration": 4.081,
+      "text": "front end capability is so much better"
+    },
+    {
+      "start": 9.92,
+      "duration": 4.08,
+      "text": "than anything we have ever seen. But one"
+    },
+    {
+      "start": 11.84,
+      "duration": 4.56,
+      "text": "thing people didn't quite realize is how"
+    },
+    {
+      "start": 14,
+      "duration": 4.56,
+      "text": "different and important the prompting is"
+    },
+    {
+      "start": 16.4,
+      "duration": 4.16,
+      "text": "for reasoning model like Gemini 3. In"
+    },
+    {
+      "start": 18.56,
+      "duration": 3.92,
+      "text": "Google's own official doc they also"
+    },
+    {
+      "start": 20.56,
+      "duration": 3.68,
+      "text": "mentioned that Gemini 3 is a reasoning"
+    },
+    {
+      "start": 22.48,
+      "duration": 3.92,
+      "text": "model which totally change how you"
+    },
+    {
+      "start": 24.24,
+      "duration": 4.32,
+      "text": "should prompt it. One critical component"
+    },
+    {
+      "start": 26.4,
+      "duration": 4.4,
+      "text": "of those reasoning model like Gymni is"
+    },
+    {
+      "start": 28.56,
+      "duration": 4.159,
+      "text": "those generated reasoning tokens. It is"
+    },
+    {
+      "start": 30.8,
+      "duration": 4.32,
+      "text": "very different from other models where"
+    },
+    {
+      "start": 32.719,
+      "duration": 4.481,
+      "text": "we need to have a fully packed prompt to"
+    },
+    {
+      "start": 35.12,
+      "duration": 3.92,
+      "text": "give all the possible context and logics"
+    },
+    {
+      "start": 37.2,
+      "duration": 3.359,
+      "text": "to make it work well. In fact, quite"
+    },
+    {
+      "start": 39.04,
+      "duration": 4.24,
+      "text": "often you will found the more prompts"
+    },
+    {
+      "start": 40.559,
+      "duration": 4.401,
+      "text": "you give Gemini, the worse performances."
+    },
+    {
+      "start": 43.28,
+      "duration": 3.2,
+      "text": "And that's because it is designed to"
+    },
+    {
+      "start": 44.96,
+      "duration": 3.279,
+      "text": "respond to direct and clear"
+    },
+    {
+      "start": 46.48,
+      "duration": 3.52,
+      "text": "instructions. If you give it overly"
+    },
+    {
+      "start": 48.239,
+      "duration": 4.32,
+      "text": "complex prompt, it may overanalyze"
+    },
+    {
+      "start": 50,
+      "duration": 4.079,
+      "text": "variables and sometimes be limited by"
+    },
+    {
+      "start": 52.559,
+      "duration": 3.601,
+      "text": "the process you include in those"
+    },
+    {
+      "start": 54.079,
+      "duration": 4.48,
+      "text": "prompts. So it really needs a concise"
+    },
+    {
+      "start": 56.16,
+      "duration": 4.64,
+      "text": "prog. But on the other side, it is also"
+    },
+    {
+      "start": 58.559,
+      "duration": 4.241,
+      "text": "extremely sensitive and steerable as a"
+    },
+    {
+      "start": 60.8,
+      "duration": 3.759,
+      "text": "model. Gymnast 3 can perform so"
+    },
+    {
+      "start": 62.8,
+      "duration": 3.679,
+      "text": "differently based on simple instruction"
+    },
+    {
+      "start": 64.559,
+      "duration": 3.681,
+      "text": "you give to it. For example, if I just"
+    },
+    {
+      "start": 66.479,
+      "duration": 3.521,
+      "text": "prompted help me build a hello world"
+    },
+    {
+      "start": 68.24,
+      "duration": 3.199,
+      "text": "page, even though it front end"
+    },
+    {
+      "start": 70,
+      "duration": 2.88,
+      "text": "capability is great, it will still"
+    },
+    {
+      "start": 71.439,
+      "duration": 4.321,
+      "text": "generate something like this. But with"
+    },
+    {
+      "start": 72.88,
+      "duration": 5.2,
+      "text": "just one simple keyword like this with a"
+    },
+    {
+      "start": 75.76,
+      "duration": 4.64,
+      "text": "linear style, it immediately creates"
+    },
+    {
+      "start": 78.08,
+      "duration": 4.56,
+      "text": "something very different. You attach"
+    },
+    {
+      "start": 80.4,
+      "duration": 4.719,
+      "text": "image reference the quality to a lot of"
+    },
+    {
+      "start": 82.64,
+      "duration": 4.799,
+      "text": "UI details just be chromatically better."
+    },
+    {
+      "start": 85.119,
+      "duration": 4.161,
+      "text": "So as a model is extremely steerable and"
+    },
+    {
+      "start": 87.439,
+      "duration": 3.441,
+      "text": "your prop can make a huge difference."
+    },
+    {
+      "start": 89.28,
+      "duration": 3.519,
+      "text": "The question is how do we actually come"
+    },
+    {
+      "start": 90.88,
+      "duration": 4.08,
+      "text": "up with the right amount of prop that"
+    },
+    {
+      "start": 92.799,
+      "duration": 3.841,
+      "text": "can make the most out of Gemini 3? Well,"
+    },
+    {
+      "start": 94.96,
+      "duration": 3.92,
+      "text": "Entropic actually released this blog"
+    },
+    {
+      "start": 96.64,
+      "duration": 4.4,
+      "text": "post recently called improve Sonic for"
+    },
+    {
+      "start": 98.88,
+      "duration": 3.84,
+      "text": "front end design through skills. It"
+    },
+    {
+      "start": 101.04,
+      "duration": 3.759,
+      "text": "basically introduces front-end design"
+    },
+    {
+      "start": 102.72,
+      "duration": 4.399,
+      "text": "skew that you can install in cloud code"
+    },
+    {
+      "start": 104.799,
+      "duration": 4.801,
+      "text": "and it is making model like son 4"
+    },
+    {
+      "start": 107.119,
+      "duration": 4.481,
+      "text": "generating almost close to gemini 3"
+    },
+    {
+      "start": 109.6,
+      "duration": 4,
+      "text": "level of design and the most interesting"
+    },
+    {
+      "start": 111.6,
+      "duration": 3.76,
+      "text": "part for me is that this significant"
+    },
+    {
+      "start": 113.6,
+      "duration": 3.6,
+      "text": "improvement is purely driven by a"
+    },
+    {
+      "start": 115.36,
+      "duration": 3.759,
+      "text": "well-crafted prompt they put together"
+    },
+    {
+      "start": 117.2,
+      "duration": 4,
+      "text": "that has good balance between concise"
+    },
+    {
+      "start": 119.119,
+      "duration": 4.241,
+      "text": "and provide useful details and they"
+    },
+    {
+      "start": 121.2,
+      "duration": 4.16,
+      "text": "uncover their exam method and process"
+    },
+    {
+      "start": 123.36,
+      "duration": 4.16,
+      "text": "how do they systematically get most out"
+    },
+    {
+      "start": 125.36,
+      "duration": 4.399,
+      "text": "of a cloud model through pro and context"
+    },
+    {
+      "start": 127.52,
+      "duration": 4.32,
+      "text": "engineering and I think this method just"
+    },
+    {
+      "start": 129.759,
+      "duration": 3.84,
+      "text": "apply across also different models"
+    },
+    {
+      "start": 131.84,
+      "duration": 3.68,
+      "text": "including Gemini 3 and today I will"
+    },
+    {
+      "start": 133.599,
+      "duration": 3.921,
+      "text": "articulate and break that down for you"
+    },
+    {
+      "start": 135.52,
+      "duration": 4,
+      "text": "into a three-step process and take you"
+    },
+    {
+      "start": 137.52,
+      "duration": 4.079,
+      "text": "through a real example of how do I craft"
+    },
+    {
+      "start": 139.52,
+      "duration": 4.16,
+      "text": "a prompt that can get even small model"
+    },
+    {
+      "start": 141.599,
+      "duration": 4.401,
+      "text": "output high quality X cali draw"
+    },
+    {
+      "start": 143.68,
+      "duration": 4.48,
+      "text": "wireframes but before we dive into this"
+    },
+    {
+      "start": 146,
+      "duration": 4.64,
+      "text": "from entropy example we already know"
+    },
+    {
+      "start": 148.16,
+      "duration": 4.719,
+      "text": "that one single wellcraft prompt can"
+    },
+    {
+      "start": 150.64,
+      "duration": 4.08,
+      "text": "completely transform motor behavior and"
+    },
+    {
+      "start": 152.879,
+      "duration": 4.08,
+      "text": "this goes way beyond just front end"
+    },
+    {
+      "start": 154.72,
+      "duration": 4.4,
+      "text": "design and HubSpot actually took this"
+    },
+    {
+      "start": 156.959,
+      "duration": 4.161,
+      "text": "idea way further they build a library of"
+    },
+    {
+      "start": 159.12,
+      "duration": 4.32,
+      "text": "fully tested cloud house skill prompts"
+    },
+    {
+      "start": 161.12,
+      "duration": 4.64,
+      "text": "across sales, marketing and business"
+    },
+    {
+      "start": 163.44,
+      "duration": 4.4,
+      "text": "operations based on their best practice"
+    },
+    {
+      "start": 165.76,
+      "duration": 3.839,
+      "text": "learnings from hundreds of thousands"
+    },
+    {
+      "start": 167.84,
+      "duration": 3.6,
+      "text": "business and those aren't generic"
+    },
+    {
+      "start": 169.599,
+      "duration": 4,
+      "text": "prompts. They mirror exactly what I've"
+    },
+    {
+      "start": 171.44,
+      "duration": 4.879,
+      "text": "been describing and you can connect"
+    },
+    {
+      "start": 173.599,
+      "duration": 4.64,
+      "text": "directly via special HubSpot connectors."
+    },
+    {
+      "start": 176.319,
+      "duration": 4,
+      "text": "Then these prompts instantly become"
+    },
+    {
+      "start": 178.239,
+      "duration": 4.161,
+      "text": "personalized using your real CRM"
+    },
+    {
+      "start": 180.319,
+      "duration": 4.481,
+      "text": "context. So instead of writing generic"
+    },
+    {
+      "start": 182.4,
+      "duration": 4.16,
+      "text": "outreach email, you get insights on real"
+    },
+    {
+      "start": 184.8,
+      "duration": 3.84,
+      "text": "customer segments. So if you want a"
+    },
+    {
+      "start": 186.56,
+      "duration": 3.759,
+      "text": "smarter cloud outputs, I highly"
+    },
+    {
+      "start": 188.64,
+      "duration": 3.28,
+      "text": "recommend you go check it out. I have"
+    },
+    {
+      "start": 190.319,
+      "duration": 3.2,
+      "text": "put a link in the description below for"
+    },
+    {
+      "start": 191.92,
+      "duration": 3.28,
+      "text": "you to access. It's free, it's"
+    },
+    {
+      "start": 193.519,
+      "duration": 3.44,
+      "text": "practical, and honestly one of the best"
+    },
+    {
+      "start": 195.2,
+      "duration": 3.52,
+      "text": "collection I've seen for real business"
+    },
+    {
+      "start": 196.959,
+      "duration": 3.601,
+      "text": "workflows. And thanks HubSpot for"
+    },
+    {
+      "start": 198.72,
+      "duration": 4.08,
+      "text": "sponsoring this video. Now let's get"
+    },
+    {
+      "start": 200.56,
+      "duration": 3.92,
+      "text": "back to how the entropic significantly"
+    },
+    {
+      "start": 202.8,
+      "duration": 4.079,
+      "text": "improves the front end design output"
+    },
+    {
+      "start": 204.48,
+      "duration": 4.399,
+      "text": "from models. The most interesting"
+    },
+    {
+      "start": 206.879,
+      "duration": 3.601,
+      "text": "concept here is this distributional"
+    },
+    {
+      "start": 208.879,
+      "duration": 3.601,
+      "text": "convergence which means during the"
+    },
+    {
+      "start": 210.48,
+      "duration": 4.24,
+      "text": "sampling process the models predict"
+    },
+    {
+      "start": 212.48,
+      "duration": 4.8,
+      "text": "token based on statistical patterns in"
+    },
+    {
+      "start": 214.72,
+      "duration": 5.04,
+      "text": "training data and safe design choices"
+    },
+    {
+      "start": 217.28,
+      "duration": 5.12,
+      "text": "that those work universally and offend"
+    },
+    {
+      "start": 219.76,
+      "duration": 4.96,
+      "text": "no one dominates web training data. So"
+    },
+    {
+      "start": 222.4,
+      "duration": 4.559,
+      "text": "at default those models almost always"
+    },
+    {
+      "start": 224.72,
+      "duration": 4.32,
+      "text": "refer back to the safe design choices"
+    },
+    {
+      "start": 226.959,
+      "duration": 4,
+      "text": "and this just apply to much more than"
+    },
+    {
+      "start": 229.04,
+      "duration": 4.32,
+      "text": "front end design. It can be used for"
+    },
+    {
+      "start": 230.959,
+      "duration": 4.961,
+      "text": "request debugging Python, analyzing data"
+    },
+    {
+      "start": 233.36,
+      "duration": 4.879,
+      "text": "or even writing emails and the method to"
+    },
+    {
+      "start": 235.92,
+      "duration": 4.48,
+      "text": "come up with this set of prompt is"
+    },
+    {
+      "start": 238.239,
+      "duration": 3.841,
+      "text": "pretty consistent. You want to identify"
+    },
+    {
+      "start": 240.4,
+      "duration": 3.199,
+      "text": "what are convergent defaults which means"
+    },
+    {
+      "start": 242.08,
+      "duration": 3.28,
+      "text": "you want to get a good understanding for"
+    },
+    {
+      "start": 243.599,
+      "duration": 4.241,
+      "text": "the specific task that you want model to"
+    },
+    {
+      "start": 245.36,
+      "duration": 4.56,
+      "text": "do. What are outbox default behaviors"
+    },
+    {
+      "start": 247.84,
+      "duration": 4.08,
+      "text": "and identify those convergent defaults"
+    },
+    {
+      "start": 249.92,
+      "duration": 4.319,
+      "text": "that you don't like. Then provide very"
+    },
+    {
+      "start": 251.92,
+      "duration": 4.64,
+      "text": "concrete alternatives and structure the"
+    },
+    {
+      "start": 254.239,
+      "duration": 3.761,
+      "text": "guidance at the right altitude. In this"
+    },
+    {
+      "start": 256.56,
+      "duration": 3.44,
+      "text": "very specific example, they start"
+    },
+    {
+      "start": 258,
+      "duration": 4.24,
+      "text": "identify some key areas. The impact"
+    },
+    {
+      "start": 260,
+      "duration": 3.759,
+      "text": "final design output where models default"
+    },
+    {
+      "start": 262.24,
+      "duration": 4,
+      "text": "output is not that great which"
+    },
+    {
+      "start": 263.759,
+      "duration": 4.561,
+      "text": "specifically are typography, animations,"
+    },
+    {
+      "start": 266.24,
+      "duration": 4.32,
+      "text": "background effects and themes. Then"
+    },
+    {
+      "start": 268.32,
+      "duration": 4.24,
+      "text": "translate all those things clearly into"
+    },
+    {
+      "start": 270.56,
+      "duration": 4.48,
+      "text": "code that cloud can write. The key here"
+    },
+    {
+      "start": 272.56,
+      "duration": 4.24,
+      "text": "is the right altitude of the prompt you"
+    },
+    {
+      "start": 275.04,
+      "duration": 3.84,
+      "text": "put in. Often we will be writing two"
+    },
+    {
+      "start": 276.8,
+      "duration": 5.119,
+      "text": "specific prompts where you just list out"
+    },
+    {
+      "start": 278.88,
+      "duration": 5.039,
+      "text": "very specific step one 2 3 4 5 and get"
+    },
+    {
+      "start": 281.919,
+      "duration": 4.081,
+      "text": "agent follow. But this often make your"
+    },
+    {
+      "start": 283.919,
+      "duration": 4.081,
+      "text": "system to overfitting a few very"
+    },
+    {
+      "start": 286,
+      "duration": 4.32,
+      "text": "specific scenario and make it vulnerable"
+    },
+    {
+      "start": 288,
+      "duration": 4.32,
+      "text": "for the real world longtail use cases."
+    },
+    {
+      "start": 290.32,
+      "duration": 3.92,
+      "text": "And the key thing to get to just right"
+    },
+    {
+      "start": 292.32,
+      "duration": 3.84,
+      "text": "level of altitude for the problem is"
+    },
+    {
+      "start": 294.24,
+      "duration": 3.84,
+      "text": "going through this three-step process of"
+    },
+    {
+      "start": 296.16,
+      "duration": 3.599,
+      "text": "testing and identify those convergent"
+    },
+    {
+      "start": 298.08,
+      "duration": 3.44,
+      "text": "default that you don't really like and"
+    },
+    {
+      "start": 299.759,
+      "duration": 3.841,
+      "text": "then find a root cause about why model"
+    },
+    {
+      "start": 301.52,
+      "duration": 4.16,
+      "text": "has that behavior. Then structure a"
+    },
+    {
+      "start": 303.6,
+      "duration": 3.92,
+      "text": "guidance with concrete alternative"
+    },
+    {
+      "start": 305.68,
+      "duration": 3.84,
+      "text": "behavior that you want model to follow"
+    },
+    {
+      "start": 307.52,
+      "duration": 3.84,
+      "text": "and just repeat this process again"
+    },
+    {
+      "start": 309.52,
+      "duration": 3.76,
+      "text": "again. So in the end you can come up"
+    },
+    {
+      "start": 311.36,
+      "duration": 3.92,
+      "text": "with a wellcraft prompt that covers"
+    },
+    {
+      "start": 313.28,
+      "duration": 4.24,
+      "text": "specifically those areas and generating"
+    },
+    {
+      "start": 315.28,
+      "duration": 4.08,
+      "text": "stunning outputs consistently and one"
+    },
+    {
+      "start": 317.52,
+      "duration": 3.679,
+      "text": "example here is typography. So I would"
+    },
+    {
+      "start": 319.36,
+      "duration": 3.679,
+      "text": "just start by prompting model directly"
+    },
+    {
+      "start": 321.199,
+      "duration": 3.761,
+      "text": "without any system prompt to see what"
+    },
+    {
+      "start": 323.039,
+      "duration": 3.681,
+      "text": "kind of default results we will get. And"
+    },
+    {
+      "start": 324.96,
+      "duration": 3.84,
+      "text": "when I asked to create a music player"
+    },
+    {
+      "start": 326.72,
+      "duration": 4.88,
+      "text": "this default result it gave me it has"
+    },
+    {
+      "start": 328.8,
+      "duration": 4.56,
+      "text": "this classic purple bluish color and"
+    },
+    {
+      "start": 331.6,
+      "duration": 3.68,
+      "text": "this font that looks a bit boring. So"
+    },
+    {
+      "start": 333.36,
+      "duration": 4.24,
+      "text": "what entropic did is that they add this"
+    },
+    {
+      "start": 335.28,
+      "duration": 4.08,
+      "text": "section called use interesting fonts"
+    },
+    {
+      "start": 337.6,
+      "duration": 3.92,
+      "text": "where it will give overall instruction"
+    },
+    {
+      "start": 339.36,
+      "duration": 4.64,
+      "text": "they avoid using boring generic fonts"
+    },
+    {
+      "start": 341.52,
+      "duration": 4.399,
+      "text": "which including inter robotto open sense"
+    },
+    {
+      "start": 344,
+      "duration": 3.919,
+      "text": "lateral and default system fonts and"
+    },
+    {
+      "start": 345.919,
+      "duration": 3.761,
+      "text": "here are some example that it give for"
+    },
+    {
+      "start": 347.919,
+      "duration": 3.601,
+      "text": "different scenarios as well as some"
+    },
+    {
+      "start": 349.68,
+      "duration": 3.92,
+      "text": "pairing principles like which type of"
+    },
+    {
+      "start": 351.52,
+      "duration": 4.56,
+      "text": "font that work well together. So if I"
+    },
+    {
+      "start": 353.6,
+      "duration": 4.96,
+      "text": "copy this and just put into the system"
+    },
+    {
+      "start": 356.08,
+      "duration": 4.48,
+      "text": "prompt here as a section to cost those"
+    },
+    {
+      "start": 358.56,
+      "duration": 3.44,
+      "text": "default behavior and generate again. Now"
+    },
+    {
+      "start": 360.56,
+      "duration": 3.84,
+      "text": "you can see that it start using fonts"
+    },
+    {
+      "start": 362,
+      "duration": 4.24,
+      "text": "that is not part of the outbox vanilla"
+    },
+    {
+      "start": 364.4,
+      "duration": 4.639,
+      "text": "design. And really cool observation here"
+    },
+    {
+      "start": 366.24,
+      "duration": 4.56,
+      "text": "is that once model improve one aspect of"
+    },
+    {
+      "start": 369.039,
+      "duration": 3.841,
+      "text": "the design. It generally start improve"
+    },
+    {
+      "start": 370.8,
+      "duration": 4.48,
+      "text": "across all the other behaviors like"
+    },
+    {
+      "start": 372.88,
+      "duration": 4.56,
+      "text": "colors interactions and the UI model."
+    },
+    {
+      "start": 375.28,
+      "duration": 4.08,
+      "text": "That's why this improvement process is a"
+    },
+    {
+      "start": 377.44,
+      "duration": 3.759,
+      "text": "iterative loop. You try to understand"
+    },
+    {
+      "start": 379.36,
+      "duration": 4.16,
+      "text": "what are the exact things that actually"
+    },
+    {
+      "start": 381.199,
+      "duration": 4.241,
+      "text": "change the model behavior and only add"
+    },
+    {
+      "start": 383.52,
+      "duration": 4.08,
+      "text": "those ones because every new prompt"
+    },
+    {
+      "start": 385.44,
+      "duration": 4.08,
+      "text": "section you add in might already impact"
+    },
+    {
+      "start": 387.6,
+      "duration": 4.08,
+      "text": "some other behaviors. So you don't need"
+    },
+    {
+      "start": 389.52,
+      "duration": 4.799,
+      "text": "to overly inject tokens. And similarly,"
+    },
+    {
+      "start": 391.68,
+      "duration": 4.959,
+      "text": "we can add more sections for things like"
+    },
+    {
+      "start": 394.319,
+      "duration": 4.561,
+      "text": "interactions, animations, and use high"
+    },
+    {
+      "start": 396.639,
+      "duration": 3.921,
+      "text": "quality stock images to steer model to"
+    },
+    {
+      "start": 398.88,
+      "duration": 4.159,
+      "text": "certain behaviors. Based on that, the"
+    },
+    {
+      "start": 400.56,
+      "duration": 4,
+      "text": "result generated will be a bit fancier"
+    },
+    {
+      "start": 403.039,
+      "duration": 3.761,
+      "text": "and crazier. If you want to learn"
+    },
+    {
+      "start": 404.56,
+      "duration": 4.56,
+      "text": "exactly what Entropy wrote officially,"
+    },
+    {
+      "start": 406.8,
+      "duration": 5.28,
+      "text": "you can just do /plugin marketplace at"
+    },
+    {
+      "start": 409.12,
+      "duration": 5.12,
+      "text": "entropic/cloud code and then do /pluging"
+    },
+    {
+      "start": 412.08,
+      "duration": 4.239,
+      "text": "install frontend design at cloud code"
+    },
+    {
+      "start": 414.24,
+      "duration": 4,
+      "text": "plugins. This will add front-end design"
+    },
+    {
+      "start": 416.319,
+      "duration": 4.16,
+      "text": "skew in your computer directly. If"
+    },
+    {
+      "start": 418.24,
+      "duration": 4.48,
+      "text": "you're on Mac, you can open this cloud"
+    },
+    {
+      "start": 420.479,
+      "duration": 4.481,
+      "text": "folder and inside plug-in marketplace"
+    },
+    {
+      "start": 422.72,
+      "duration": 4.24,
+      "text": "entropic cloud code plugins. You should"
+    },
+    {
+      "start": 424.96,
+      "duration": 3.84,
+      "text": "see this front end design skills and you"
+    },
+    {
+      "start": 426.96,
+      "duration": 3.679,
+      "text": "can open the skill.md file to learn"
+    },
+    {
+      "start": 428.8,
+      "duration": 3.92,
+      "text": "exactly the prompt that they wrote. And"
+    },
+    {
+      "start": 430.639,
+      "duration": 4.241,
+      "text": "I use the same method to come up with a"
+    },
+    {
+      "start": 432.72,
+      "duration": 4.4,
+      "text": "UI prompt that I found to get your mini"
+    },
+    {
+      "start": 434.88,
+      "duration": 3.68,
+      "text": "3.0 be extremely creative on the UI"
+    },
+    {
+      "start": 437.12,
+      "duration": 2.799,
+      "text": "generated. Meanwhile, I also want to"
+    },
+    {
+      "start": 438.56,
+      "duration": 3.44,
+      "text": "show you how can you use similar"
+    },
+    {
+      "start": 439.919,
+      "duration": 3.84,
+      "text": "methodology to tune the model for other"
+    },
+    {
+      "start": 442,
+      "duration": 3.68,
+      "text": "different type of tasks. For example,"
+    },
+    {
+      "start": 443.759,
+      "duration": 4.16,
+      "text": "I'm trying to teach super design agent"
+    },
+    {
+      "start": 445.68,
+      "duration": 4.16,
+      "text": "to be able to design high quality xcali"
+    },
+    {
+      "start": 447.919,
+      "duration": 3.521,
+      "text": "draw wireframes so it can be used to"
+    },
+    {
+      "start": 449.84,
+      "duration": 3.28,
+      "text": "align with user about the specific"
+    },
+    {
+      "start": 451.44,
+      "duration": 3.36,
+      "text": "design layouts and explore multiple"
+    },
+    {
+      "start": 453.12,
+      "duration": 3.6,
+      "text": "different versions of design. At default"
+    },
+    {
+      "start": 454.8,
+      "duration": 4.16,
+      "text": "model is not that great at producing"
+    },
+    {
+      "start": 456.72,
+      "duration": 4.4,
+      "text": "high quality results consistently. But"
+    },
+    {
+      "start": 458.96,
+      "duration": 4,
+      "text": "with bright prompt engineer I was able"
+    },
+    {
+      "start": 461.12,
+      "duration": 3.519,
+      "text": "to get it produced much more high"
+    },
+    {
+      "start": 462.96,
+      "duration": 2.799,
+      "text": "quality result and this is how I came up"
+    },
+    {
+      "start": 464.639,
+      "duration": 3.041,
+      "text": "with that prompt. First thing you want"
+    },
+    {
+      "start": 465.759,
+      "duration": 3.84,
+      "text": "to do is identify the convergent"
+    },
+    {
+      "start": 467.68,
+      "duration": 3.919,
+      "text": "defaults. Basically you want to identify"
+    },
+    {
+      "start": 469.599,
+      "duration": 3.841,
+      "text": "what are the models default behavior"
+    },
+    {
+      "start": 471.599,
+      "duration": 4.081,
+      "text": "where does it fall short. The way we do"
+    },
+    {
+      "start": 473.44,
+      "duration": 4.479,
+      "text": "that is firstly let's try with most"
+    },
+    {
+      "start": 475.68,
+      "duration": 4.079,
+      "text": "basic and minimum prompt that helps you"
+    },
+    {
+      "start": 477.919,
+      "duration": 3.921,
+      "text": "understand model's default behavior. In"
+    },
+    {
+      "start": 479.759,
+      "duration": 4.16,
+      "text": "our specific case I'll just give bare"
+    },
+    {
+      "start": 481.84,
+      "duration": 4.24,
+      "text": "minimum prompt. You're a professional UX"
+    },
+    {
+      "start": 483.919,
+      "duration": 4.641,
+      "text": "engineer who creates clean xcal draw"
+    },
+    {
+      "start": 486.08,
+      "duration": 5.04,
+      "text": "wframe designs. So here you can see that"
+    },
+    {
+      "start": 488.56,
+      "duration": 4.479,
+      "text": "it didn't output the JSON we want. So I"
+    },
+    {
+      "start": 491.12,
+      "duration": 4.799,
+      "text": "can turn on this JSON mode and start"
+    },
+    {
+      "start": 493.039,
+      "duration": 4.961,
+      "text": "adding the first prompt only output JSON"
+    },
+    {
+      "start": 495.919,
+      "duration": 4,
+      "text": "format as this specific structure. And"
+    },
+    {
+      "start": 498,
+      "duration": 4.56,
+      "text": "here you can see I'm using the XML"
+    },
+    {
+      "start": 499.919,
+      "duration": 4.801,
+      "text": "format. So XML format has been proven"
+    },
+    {
+      "start": 502.56,
+      "duration": 4.4,
+      "text": "format to use especially when you have a"
+    },
+    {
+      "start": 504.72,
+      "duration": 4.159,
+      "text": "large number of documents or files to"
+    },
+    {
+      "start": 506.96,
+      "duration": 4.079,
+      "text": "input context in general has better"
+    },
+    {
+      "start": 508.879,
+      "duration": 3.921,
+      "text": "performance than JSON structure. So with"
+    },
+    {
+      "start": 511.039,
+      "duration": 3.201,
+      "text": "this one we can try again. However,"
+    },
+    {
+      "start": 512.8,
+      "duration": 2.88,
+      "text": "nothing happened when I try to paste."
+    },
+    {
+      "start": 514.24,
+      "duration": 4.4,
+      "text": "I'm going to assume there are something"
+    },
+    {
+      "start": 515.68,
+      "duration": 5.12,
+      "text": "wrong with JSON generated. So I paste in"
+    },
+    {
+      "start": 518.64,
+      "duration": 4.399,
+      "text": "GBT and ask it help me identify any"
+    },
+    {
+      "start": 520.8,
+      "duration": 4.08,
+      "text": "issue in JSON above. Now I can say star"
+    },
+    {
+      "start": 523.039,
+      "duration": 3.841,
+      "text": "identify some issues like this model is"
+    },
+    {
+      "start": 524.88,
+      "duration": 4.8,
+      "text": "making up some type that didn't really"
+    },
+    {
+      "start": 526.88,
+      "duration": 4.959,
+      "text": "exist for x cali draw and also for lines"
+    },
+    {
+      "start": 529.68,
+      "duration": 4.64,
+      "text": "it should not use the x y width and"
+    },
+    {
+      "start": 531.839,
+      "duration": 5.12,
+      "text": "heights instead I should be using points"
+    },
+    {
+      "start": 534.32,
+      "duration": 5.36,
+      "text": "coordinations so if we remove this two"
+    },
+    {
+      "start": 536.959,
+      "duration": 4.88,
+      "text": "line items that has a wrong data format"
+    },
+    {
+      "start": 539.68,
+      "duration": 4.08,
+      "text": "as well as circle then it does output"
+    },
+    {
+      "start": 541.839,
+      "duration": 3.761,
+      "text": "result which didn't look very correct"
+    },
+    {
+      "start": 543.76,
+      "duration": 4.24,
+      "text": "and we're going to like add more rules"
+    },
+    {
+      "start": 545.6,
+      "duration": 4.88,
+      "text": "to it when those text element is not"
+    },
+    {
+      "start": 548,
+      "duration": 4,
+      "text": "fourways as well as those layout is not"
+    },
+    {
+      "start": 550.48,
+      "duration": 3.6,
+      "text": "exactly correct"
+    },
+    {
+      "start": 552,
+      "duration": 4.56,
+      "text": "So with just a few quick tests, we"
+    },
+    {
+      "start": 554.08,
+      "duration": 4.72,
+      "text": "already start identifying some gaps with"
+    },
+    {
+      "start": 556.56,
+      "duration": 4.48,
+      "text": "models default behavior like using the"
+    },
+    {
+      "start": 558.8,
+      "duration": 4.64,
+      "text": "wrong element schema, the wrong ways for"
+    },
+    {
+      "start": 561.04,
+      "duration": 3.919,
+      "text": "text and layout alignment. And at this"
+    },
+    {
+      "start": 563.44,
+      "duration": 3.28,
+      "text": "point, there's one common mistake that"
+    },
+    {
+      "start": 564.959,
+      "duration": 3.681,
+      "text": "people often make is that you start"
+    },
+    {
+      "start": 566.72,
+      "duration": 4.4,
+      "text": "adding rules to the prompt that is too"
+    },
+    {
+      "start": 568.64,
+      "duration": 4.48,
+      "text": "specific or not instructing enough to"
+    },
+    {
+      "start": 571.12,
+      "duration": 3.92,
+      "text": "actually change the model's fundamental"
+    },
+    {
+      "start": 573.12,
+      "duration": 4.56,
+      "text": "behavior. And one thing I found really"
+    },
+    {
+      "start": 575.04,
+      "duration": 4.72,
+      "text": "useful is actually try to understand why"
+    },
+    {
+      "start": 577.68,
+      "duration": 4.08,
+      "text": "model's default behavior is like that."
+    },
+    {
+      "start": 579.76,
+      "duration": 3.68,
+      "text": "One thing I often do is that when model"
+    },
+    {
+      "start": 581.76,
+      "duration": 4.079,
+      "text": "output result that I'm not really happy"
+    },
+    {
+      "start": 583.44,
+      "duration": 4.72,
+      "text": "with, I can insert a next user message"
+    },
+    {
+      "start": 585.839,
+      "duration": 4.161,
+      "text": "to be debug mode. Don't generate again."
+    },
+    {
+      "start": 588.16,
+      "duration": 3.84,
+      "text": "Just help me understand why do you set a"
+    },
+    {
+      "start": 590,
+      "duration": 4.16,
+      "text": "width to be zero for type text and turn"
+    },
+    {
+      "start": 592,
+      "duration": 3.76,
+      "text": "off JSON mode so I can regenerate it."
+    },
+    {
+      "start": 594.16,
+      "duration": 3.84,
+      "text": "And this is a really good way for you to"
+    },
+    {
+      "start": 595.76,
+      "duration": 3.92,
+      "text": "identify the root cause and defects in"
+    },
+    {
+      "start": 598,
+      "duration": 3.68,
+      "text": "Moto's knowledge. And here you can see"
+    },
+    {
+      "start": 599.68,
+      "duration": 4.24,
+      "text": "that it says it set the weights to be"
+    },
+    {
+      "start": 601.68,
+      "duration": 4.8,
+      "text": "zero because it saw the text will be"
+    },
+    {
+      "start": 603.92,
+      "duration": 4.96,
+      "text": "rendered with intrinsic width which"
+    },
+    {
+      "start": 606.48,
+      "duration": 4.799,
+      "text": "means it expect the weight to be dynamic"
+    },
+    {
+      "start": 608.88,
+      "duration": 4.16,
+      "text": "auto resize based on the text content"
+    },
+    {
+      "start": 611.279,
+      "duration": 3.761,
+      "text": "which is not actually the case in X"
+    },
+    {
+      "start": 613.04,
+      "duration": 3.52,
+      "text": "categraw. This is a critical insights."
+    },
+    {
+      "start": 615.04,
+      "duration": 3.44,
+      "text": "So instead of just saying weights and"
+    },
+    {
+      "start": 616.56,
+      "duration": 3.36,
+      "text": "height should not be zero I would tell"
+    },
+    {
+      "start": 618.48,
+      "duration": 3.12,
+      "text": "you what's the right way to define it."
+    },
+    {
+      "start": 619.92,
+      "duration": 3.52,
+      "text": "The best way I found to make the text"
+    },
+    {
+      "start": 621.6,
+      "duration": 3.84,
+      "text": "aligned is making sure the actual"
+    },
+    {
+      "start": 623.44,
+      "duration": 4.56,
+      "text": "weights of the text element to be the"
+    },
+    {
+      "start": 625.44,
+      "duration": 4.72,
+      "text": "same as the main container and just use"
+    },
+    {
+      "start": 628,
+      "duration": 3.839,
+      "text": "text align property to control the"
+    },
+    {
+      "start": 630.16,
+      "duration": 3.2,
+      "text": "specific position of text. And this is"
+    },
+    {
+      "start": 631.839,
+      "duration": 2.961,
+      "text": "exactly what I put in there. And this is"
+    },
+    {
+      "start": 633.36,
+      "duration": 3.12,
+      "text": "where your domain knowledge comes in"
+    },
+    {
+      "start": 634.8,
+      "duration": 3.599,
+      "text": "because to provide those alternative"
+    },
+    {
+      "start": 636.48,
+      "duration": 4.479,
+      "text": "solutions, I have to start developing"
+    },
+    {
+      "start": 638.399,
+      "duration": 4.961,
+      "text": "understanding of the actual Xcraw JSON"
+    },
+    {
+      "start": 640.959,
+      "duration": 4.081,
+      "text": "schema. What kind of property it has and"
+    },
+    {
+      "start": 643.36,
+      "duration": 3.599,
+      "text": "what are the effective way to control"
+    },
+    {
+      "start": 645.04,
+      "duration": 3.919,
+      "text": "those elements. Once I have this new"
+    },
+    {
+      "start": 646.959,
+      "duration": 3.921,
+      "text": "prompt, I can delete the previous"
+    },
+    {
+      "start": 648.959,
+      "duration": 3.681,
+      "text": "conversation history and try again."
+    },
+    {
+      "start": 650.88,
+      "duration": 3.519,
+      "text": "Great. So you can see this new version"
+    },
+    {
+      "start": 652.64,
+      "duration": 3.28,
+      "text": "is a lot better than the previous one."
+    },
+    {
+      "start": 654.399,
+      "duration": 3.281,
+      "text": "But meanwhile, another very important"
+    },
+    {
+      "start": 655.92,
+      "duration": 3.359,
+      "text": "thing when you write this prompt is that"
+    },
+    {
+      "start": 657.68,
+      "duration": 4,
+      "text": "you want to making sure the guidance you"
+    },
+    {
+      "start": 659.279,
+      "duration": 5.12,
+      "text": "give is at the right altitude. So one"
+    },
+    {
+      "start": 661.68,
+      "duration": 4.64,
+      "text": "problem I had with JSON it generated at"
+    },
+    {
+      "start": 664.399,
+      "duration": 3.521,
+      "text": "moment is that it includes things that"
+    },
+    {
+      "start": 666.32,
+      "duration": 3.68,
+      "text": "we don't really need or didn't really"
+    },
+    {
+      "start": 667.92,
+      "duration": 3.84,
+      "text": "impact the style like versions is"
+    },
+    {
+      "start": 670,
+      "duration": 3.68,
+      "text": "deleted stuff like that. And in those"
+    },
+    {
+      "start": 671.76,
+      "duration": 3.759,
+      "text": "type of scenario, it's very common or"
+    },
+    {
+      "start": 673.68,
+      "duration": 4.64,
+      "text": "easy for us to give very specific"
+    },
+    {
+      "start": 675.519,
+      "duration": 4.56,
+      "text": "concrete prompts like I can define for"
+    },
+    {
+      "start": 678.32,
+      "duration": 3.28,
+      "text": "each type what are the specific"
+    },
+    {
+      "start": 680.079,
+      "duration": 3.44,
+      "text": "properties they should include. But the"
+    },
+    {
+      "start": 681.6,
+      "duration": 3.679,
+      "text": "ones that probably will work better is"
+    },
+    {
+      "start": 683.519,
+      "duration": 3.521,
+      "text": "that you start articulating what is the"
+    },
+    {
+      "start": 685.279,
+      "duration": 2.881,
+      "text": "reasoning behind those behavior. So"
+    },
+    {
+      "start": 687.04,
+      "duration": 2.799,
+      "text": "instead of giving very specific"
+    },
+    {
+      "start": 688.16,
+      "duration": 3.28,
+      "text": "instruction like this, I can just say"
+    },
+    {
+      "start": 689.839,
+      "duration": 3.841,
+      "text": "only output properties that impact"
+    },
+    {
+      "start": 691.44,
+      "duration": 4.16,
+      "text": "styling. Never output things like seed"
+    },
+    {
+      "start": 693.68,
+      "duration": 3.68,
+      "text": "version things like that that didn't"
+    },
+    {
+      "start": 695.6,
+      "duration": 3.28,
+      "text": "really contribute to styling. So we"
+    },
+    {
+      "start": 697.36,
+      "duration": 3.2,
+      "text": "basically repeat this loop a few times"
+    },
+    {
+      "start": 698.88,
+      "duration": 3.12,
+      "text": "until you get prompt that cover all"
+    },
+    {
+      "start": 700.56,
+      "duration": 3.12,
+      "text": "those default converts. Then you have"
+    },
+    {
+      "start": 702,
+      "duration": 3.6,
+      "text": "wellcraft prompt for your specific"
+    },
+    {
+      "start": 703.68,
+      "duration": 4.159,
+      "text": "scenario and use case and I use the same"
+    },
+    {
+      "start": 705.6,
+      "duration": 4.4,
+      "text": "method to come up with a UI prompt that"
+    },
+    {
+      "start": 707.839,
+      "duration": 3.921,
+      "text": "I found to get your mani 3.0 be"
+    },
+    {
+      "start": 710,
+      "duration": 3.68,
+      "text": "extremely creative on the UI generated"
+    },
+    {
+      "start": 711.76,
+      "duration": 3.759,
+      "text": "like this is a one short example for a"
+    },
+    {
+      "start": 713.68,
+      "duration": 4.08,
+      "text": "to-do app a fashion shoe brand landing"
+    },
+    {
+      "start": 715.519,
+      "duration": 3.921,
+      "text": "page and a music recording UI and we"
+    },
+    {
+      "start": 717.76,
+      "duration": 4.16,
+      "text": "just packed everything into a design"
+    },
+    {
+      "start": 719.44,
+      "duration": 4.8,
+      "text": "agent with Gemini 3 on superdesign.deaf"
+    },
+    {
+      "start": 721.92,
+      "duration": 4.719,
+      "text": "def that is capable to generate super"
+    },
+    {
+      "start": 724.24,
+      "duration": 4.48,
+      "text": "high court UI generation and we also"
+    },
+    {
+      "start": 726.639,
+      "duration": 3.681,
+      "text": "integrate with the wireframe capability"
+    },
+    {
+      "start": 728.72,
+      "duration": 3.6,
+      "text": "too. So you can show you multiple"
+    },
+    {
+      "start": 730.32,
+      "duration": 4,
+      "text": "different versions of wireframe to align"
+    },
+    {
+      "start": 732.32,
+      "duration": 4.56,
+      "text": "ideas with you very quickly and you can"
+    },
+    {
+      "start": 734.32,
+      "duration": 4.56,
+      "text": "mix match different wireframes UI"
+    },
+    {
+      "start": 736.88,
+      "duration": 3.68,
+      "text": "together and ask AI to remix something"
+    },
+    {
+      "start": 738.88,
+      "duration": 3.04,
+      "text": "new exactly in the way you want. So"
+    },
+    {
+      "start": 740.56,
+      "duration": 3.68,
+      "text": "we're really excited about what we can"
+    },
+    {
+      "start": 741.92,
+      "duration": 4.32,
+      "text": "do with all those new model capabilities"
+    },
+    {
+      "start": 744.24,
+      "duration": 3.76,
+      "text": "came out for a fourstep product design"
+    },
+    {
+      "start": 746.24,
+      "duration": 3.839,
+      "text": "agent. So if you're interested you can"
+    },
+    {
+      "start": 748,
+      "duration": 3.6,
+      "text": "check out superdesign.dev. I hope you"
+    },
+    {
+      "start": 750.079,
+      "duration": 3.76,
+      "text": "enjoy this video. Thank you and I see"
+    },
+    {
+      "start": 751.6,
+      "duration": 2.239,
+      "text": "you next"
+    }
+  ],
+  "fullText": "So Google's Gemini 3 really explode everyone's expectation. It's coding a front end capability is so much better than anything we have ever seen. But one thing people didn't quite realize is how different and important the prompting is for reasoning model like Gemini 3. In Google's own official doc they also mentioned that Gemini 3 is a reasoning model which totally change how you should prompt it. One critical component of those reasoning model like Gymni is those generated reasoning tokens. It is very different from other models where we need to have a fully packed prompt to give all the possible context and logics to make it work well. In fact, quite often you will found the more prompts you give Gemini, the worse performances. And that's because it is designed to respond to direct and clear instructions. If you give it overly complex prompt, it may overanalyze variables and sometimes be limited by the process you include in those prompts. So it really needs a concise prog. But on the other side, it is also extremely sensitive and steerable as a model. Gymnast 3 can perform so differently based on simple instruction you give to it. For example, if I just prompted help me build a hello world page, even though it front end capability is great, it will still generate something like this. But with just one simple keyword like this with a linear style, it immediately creates something very different. You attach image reference the quality to a lot of UI details just be chromatically better. So as a model is extremely steerable and your prop can make a huge difference. The question is how do we actually come up with the right amount of prop that can make the most out of Gemini 3? Well, Entropic actually released this blog post recently called improve Sonic for front end design through skills. It basically introduces front-end design skew that you can install in cloud code and it is making model like son 4 generating almost close to gemini 3 level of design and the most interesting part for me is that this significant improvement is purely driven by a well-crafted prompt they put together that has good balance between concise and provide useful details and they uncover their exam method and process how do they systematically get most out of a cloud model through pro and context engineering and I think this method just apply across also different models including Gemini 3 and today I will articulate and break that down for you into a three-step process and take you through a real example of how do I craft a prompt that can get even small model output high quality X cali draw wireframes but before we dive into this from entropy example we already know that one single wellcraft prompt can completely transform motor behavior and this goes way beyond just front end design and HubSpot actually took this idea way further they build a library of fully tested cloud house skill prompts across sales, marketing and business operations based on their best practice learnings from hundreds of thousands business and those aren't generic prompts. They mirror exactly what I've been describing and you can connect directly via special HubSpot connectors. Then these prompts instantly become personalized using your real CRM context. So instead of writing generic outreach email, you get insights on real customer segments. So if you want a smarter cloud outputs, I highly recommend you go check it out. I have put a link in the description below for you to access. It's free, it's practical, and honestly one of the best collection I've seen for real business workflows. And thanks HubSpot for sponsoring this video. Now let's get back to how the entropic significantly improves the front end design output from models. The most interesting concept here is this distributional convergence which means during the sampling process the models predict token based on statistical patterns in training data and safe design choices that those work universally and offend no one dominates web training data. So at default those models almost always refer back to the safe design choices and this just apply to much more than front end design. It can be used for request debugging Python, analyzing data or even writing emails and the method to come up with this set of prompt is pretty consistent. You want to identify what are convergent defaults which means you want to get a good understanding for the specific task that you want model to do. What are outbox default behaviors and identify those convergent defaults that you don't like. Then provide very concrete alternatives and structure the guidance at the right altitude. In this very specific example, they start identify some key areas. The impact final design output where models default output is not that great which specifically are typography, animations, background effects and themes. Then translate all those things clearly into code that cloud can write. The key here is the right altitude of the prompt you put in. Often we will be writing two specific prompts where you just list out very specific step one 2 3 4 5 and get agent follow. But this often make your system to overfitting a few very specific scenario and make it vulnerable for the real world longtail use cases. And the key thing to get to just right level of altitude for the problem is going through this three-step process of testing and identify those convergent default that you don't really like and then find a root cause about why model has that behavior. Then structure a guidance with concrete alternative behavior that you want model to follow and just repeat this process again again. So in the end you can come up with a wellcraft prompt that covers specifically those areas and generating stunning outputs consistently and one example here is typography. So I would just start by prompting model directly without any system prompt to see what kind of default results we will get. And when I asked to create a music player this default result it gave me it has this classic purple bluish color and this font that looks a bit boring. So what entropic did is that they add this section called use interesting fonts where it will give overall instruction they avoid using boring generic fonts which including inter robotto open sense lateral and default system fonts and here are some example that it give for different scenarios as well as some pairing principles like which type of font that work well together. So if I copy this and just put into the system prompt here as a section to cost those default behavior and generate again. Now you can see that it start using fonts that is not part of the outbox vanilla design. And really cool observation here is that once model improve one aspect of the design. It generally start improve across all the other behaviors like colors interactions and the UI model. That's why this improvement process is a iterative loop. You try to understand what are the exact things that actually change the model behavior and only add those ones because every new prompt section you add in might already impact some other behaviors. So you don't need to overly inject tokens. And similarly, we can add more sections for things like interactions, animations, and use high quality stock images to steer model to certain behaviors. Based on that, the result generated will be a bit fancier and crazier. If you want to learn exactly what Entropy wrote officially, you can just do /plugin marketplace at entropic/cloud code and then do /pluging install frontend design at cloud code plugins. This will add front-end design skew in your computer directly. If you're on Mac, you can open this cloud folder and inside plug-in marketplace entropic cloud code plugins. You should see this front end design skills and you can open the skill.md file to learn exactly the prompt that they wrote. And I use the same method to come up with a UI prompt that I found to get your mini 3.0 be extremely creative on the UI generated. Meanwhile, I also want to show you how can you use similar methodology to tune the model for other different type of tasks. For example, I'm trying to teach super design agent to be able to design high quality xcali draw wireframes so it can be used to align with user about the specific design layouts and explore multiple different versions of design. At default model is not that great at producing high quality results consistently. But with bright prompt engineer I was able to get it produced much more high quality result and this is how I came up with that prompt. First thing you want to do is identify the convergent defaults. Basically you want to identify what are the models default behavior where does it fall short. The way we do that is firstly let's try with most basic and minimum prompt that helps you understand model's default behavior. In our specific case I'll just give bare minimum prompt. You're a professional UX engineer who creates clean xcal draw wframe designs. So here you can see that it didn't output the JSON we want. So I can turn on this JSON mode and start adding the first prompt only output JSON format as this specific structure. And here you can see I'm using the XML format. So XML format has been proven format to use especially when you have a large number of documents or files to input context in general has better performance than JSON structure. So with this one we can try again. However, nothing happened when I try to paste. I'm going to assume there are something wrong with JSON generated. So I paste in GBT and ask it help me identify any issue in JSON above. Now I can say star identify some issues like this model is making up some type that didn't really exist for x cali draw and also for lines it should not use the x y width and heights instead I should be using points coordinations so if we remove this two line items that has a wrong data format as well as circle then it does output result which didn't look very correct and we're going to like add more rules to it when those text element is not fourways as well as those layout is not exactly correct So with just a few quick tests, we already start identifying some gaps with models default behavior like using the wrong element schema, the wrong ways for text and layout alignment. And at this point, there's one common mistake that people often make is that you start adding rules to the prompt that is too specific or not instructing enough to actually change the model's fundamental behavior. And one thing I found really useful is actually try to understand why model's default behavior is like that. One thing I often do is that when model output result that I'm not really happy with, I can insert a next user message to be debug mode. Don't generate again. Just help me understand why do you set a width to be zero for type text and turn off JSON mode so I can regenerate it. And this is a really good way for you to identify the root cause and defects in Moto's knowledge. And here you can see that it says it set the weights to be zero because it saw the text will be rendered with intrinsic width which means it expect the weight to be dynamic auto resize based on the text content which is not actually the case in X categraw. This is a critical insights. So instead of just saying weights and height should not be zero I would tell you what's the right way to define it. The best way I found to make the text aligned is making sure the actual weights of the text element to be the same as the main container and just use text align property to control the specific position of text. And this is exactly what I put in there. And this is where your domain knowledge comes in because to provide those alternative solutions, I have to start developing understanding of the actual Xcraw JSON schema. What kind of property it has and what are the effective way to control those elements. Once I have this new prompt, I can delete the previous conversation history and try again. Great. So you can see this new version is a lot better than the previous one. But meanwhile, another very important thing when you write this prompt is that you want to making sure the guidance you give is at the right altitude. So one problem I had with JSON it generated at moment is that it includes things that we don't really need or didn't really impact the style like versions is deleted stuff like that. And in those type of scenario, it's very common or easy for us to give very specific concrete prompts like I can define for each type what are the specific properties they should include. But the ones that probably will work better is that you start articulating what is the reasoning behind those behavior. So instead of giving very specific instruction like this, I can just say only output properties that impact styling. Never output things like seed version things like that that didn't really contribute to styling. So we basically repeat this loop a few times until you get prompt that cover all those default converts. Then you have wellcraft prompt for your specific scenario and use case and I use the same method to come up with a UI prompt that I found to get your mani 3.0 be extremely creative on the UI generated like this is a one short example for a to-do app a fashion shoe brand landing page and a music recording UI and we just packed everything into a design agent with Gemini 3 on superdesign.deaf def that is capable to generate super high court UI generation and we also integrate with the wireframe capability too. So you can show you multiple different versions of wireframe to align ideas with you very quickly and you can mix match different wireframes UI together and ask AI to remix something new exactly in the way you want. So we're really excited about what we can do with all those new model capabilities came out for a fourstep product design agent. So if you're interested you can check out superdesign.dev. I hope you enjoy this video. Thank you and I see you next",
+  "fetchedAt": "2026-01-18T18:33:10.404Z"
+}

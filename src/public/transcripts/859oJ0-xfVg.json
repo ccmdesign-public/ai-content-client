@@ -1,0 +1,879 @@
+{
+  "videoId": "859oJ0-xfVg",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 6.95,
+      "duration": 0.009999999999999787,
+      "text": "Welcome back. In this video, we're"
+    },
+    {
+      "start": 6.96,
+      "duration": 1.6689999999999996,
+      "text": "Welcome back. In this video, we're tackling a critical step for deploying"
+    },
+    {
+      "start": 8.629,
+      "duration": 0.009999999999999787,
+      "text": "tackling a critical step for deploying"
+    },
+    {
+      "start": 8.639,
+      "duration": 2.311,
+      "text": "tackling a critical step for deploying an ADK agent that uses the Google Maps"
+    },
+    {
+      "start": 10.95,
+      "duration": 0.010000000000001563,
+      "text": "an ADK agent that uses the Google Maps"
+    },
+    {
+      "start": 10.96,
+      "duration": 2.5489999999999995,
+      "text": "an ADK agent that uses the Google Maps tool to help users. Our current local"
+    },
+    {
+      "start": 13.509,
+      "duration": 0.009999999999999787,
+      "text": "tool to help users. Our current local"
+    },
+    {
+      "start": 13.519,
+      "duration": 2.551,
+      "text": "tool to help users. Our current local code based on the ADK samples uses an"
+    },
+    {
+      "start": 16.07,
+      "duration": 0.00999999999999801,
+      "text": "code based on the ADK samples uses an"
+    },
+    {
+      "start": 16.08,
+      "duration": 1.8300000000000018,
+      "text": "code based on the ADK samples uses an insecure pattern by defining the Maps"
+    },
+    {
+      "start": 17.91,
+      "duration": 0.010000000000001563,
+      "text": "insecure pattern by defining the Maps"
+    },
+    {
+      "start": 17.92,
+      "duration": 2.629999999999999,
+      "text": "insecure pattern by defining the Maps API key right in the code. Our job is to"
+    },
+    {
+      "start": 20.55,
+      "duration": 0.00999999999999801,
+      "text": "API key right in the code. Our job is to"
+    },
+    {
+      "start": 20.56,
+      "duration": 1.5100000000000016,
+      "text": "API key right in the code. Our job is to replace this with a secure"
+    },
+    {
+      "start": 22.07,
+      "duration": 0.00999999999999801,
+      "text": "replace this with a secure"
+    },
+    {
+      "start": 22.08,
+      "duration": 1.9100000000000001,
+      "text": "replace this with a secure productionready pattern using Secret"
+    },
+    {
+      "start": 23.99,
+      "duration": 0.010000000000001563,
+      "text": "productionready pattern using Secret"
+    },
+    {
+      "start": 24,
+      "duration": 2.1499999999999986,
+      "text": "productionready pattern using Secret Manager. I did a video explaining why we"
+    },
+    {
+      "start": 26.15,
+      "duration": 0.010000000000001563,
+      "text": "Manager. I did a video explaining why we"
+    },
+    {
+      "start": 26.16,
+      "duration": 1.75,
+      "text": "Manager. I did a video explaining why we need to do this and how Secret Manager"
+    },
+    {
+      "start": 27.91,
+      "duration": 0.010000000000001563,
+      "text": "need to do this and how Secret Manager"
+    },
+    {
+      "start": 27.92,
+      "duration": 1.8299999999999983,
+      "text": "need to do this and how Secret Manager works linked below. Since we're"
+    },
+    {
+      "start": 29.75,
+      "duration": 0.010000000000001563,
+      "text": "works linked below. Since we're"
+    },
+    {
+      "start": 29.76,
+      "duration": 2.870000000000001,
+      "text": "works linked below. Since we're deploying to Vertex AI agent engine, we"
+    },
+    {
+      "start": 32.63,
+      "duration": 0.00999999999999801,
+      "text": "deploying to Vertex AI agent engine, we"
+    },
+    {
+      "start": 32.64,
+      "duration": 2.710000000000001,
+      "text": "deploying to Vertex AI agent engine, we will authenticate using agent identity,"
+    },
+    {
+      "start": 35.35,
+      "duration": 0.00999999999999801,
+      "text": "will authenticate using agent identity,"
+    },
+    {
+      "start": 35.36,
+      "duration": 2.230000000000004,
+      "text": "will authenticate using agent identity, not a traditional service account, there"
+    },
+    {
+      "start": 37.59,
+      "duration": 0.00999999999999801,
+      "text": "not a traditional service account, there"
+    },
+    {
+      "start": 37.6,
+      "duration": 1.1090000000000018,
+      "text": "not a traditional service account, there are some important and useful"
+    },
+    {
+      "start": 38.709,
+      "duration": 0.00999999999999801,
+      "text": "are some important and useful"
+    },
+    {
+      "start": 38.719,
+      "duration": 2.070999999999998,
+      "text": "are some important and useful differences. In the past, I recommended"
+    },
+    {
+      "start": 40.79,
+      "duration": 0.00999999999999801,
+      "text": "differences. In the past, I recommended"
+    },
+    {
+      "start": 40.8,
+      "duration": 1.3500000000000014,
+      "text": "differences. In the past, I recommended using a shared service account for"
+    },
+    {
+      "start": 42.15,
+      "duration": 0.00999999999999801,
+      "text": "using a shared service account for"
+    },
+    {
+      "start": 42.16,
+      "duration": 2.6300000000000026,
+      "text": "using a shared service account for agents in a project. However, agents are"
+    },
+    {
+      "start": 44.79,
+      "duration": 0.00999999999999801,
+      "text": "agents in a project. However, agents are"
+    },
+    {
+      "start": 44.8,
+      "duration": 2.1500000000000057,
+      "text": "agents in a project. However, agents are non-deterministic and stful, which"
+    },
+    {
+      "start": 46.95,
+      "duration": 0.00999999999999801,
+      "text": "non-deterministic and stful, which"
+    },
+    {
+      "start": 46.96,
+      "duration": 2.1499999999999986,
+      "text": "non-deterministic and stful, which presents amplified risks compared to a"
+    },
+    {
+      "start": 49.11,
+      "duration": 0.00999999999999801,
+      "text": "presents amplified risks compared to a"
+    },
+    {
+      "start": 49.12,
+      "duration": 2.230000000000004,
+      "text": "presents amplified risks compared to a usual machine identity. Agent identity"
+    },
+    {
+      "start": 51.35,
+      "duration": 0.00999999999999801,
+      "text": "usual machine identity. Agent identity"
+    },
+    {
+      "start": 51.36,
+      "duration": 1.75,
+      "text": "usual machine identity. Agent identity is a specialized principle type for"
+    },
+    {
+      "start": 53.11,
+      "duration": 0.00999999999999801,
+      "text": "is a specialized principle type for"
+    },
+    {
+      "start": 53.12,
+      "duration": 2.470000000000006,
+      "text": "is a specialized principle type for agents. It provides more convenience and"
+    },
+    {
+      "start": 55.59,
+      "duration": 0.00999999999999801,
+      "text": "agents. It provides more convenience and"
+    },
+    {
+      "start": 55.6,
+      "duration": 1.509999999999998,
+      "text": "agents. It provides more convenience and better support for lease privilege for"
+    },
+    {
+      "start": 57.11,
+      "duration": 0.00999999999999801,
+      "text": "better support for lease privilege for"
+    },
+    {
+      "start": 57.12,
+      "duration": 1.6700000000000017,
+      "text": "better support for lease privilege for agents than traditional service"
+    },
+    {
+      "start": 58.79,
+      "duration": 0.00999999999999801,
+      "text": "agents than traditional service"
+    },
+    {
+      "start": 58.8,
+      "duration": 1.5100000000000051,
+      "text": "agents than traditional service accounts. This identity is"
+    },
+    {
+      "start": 60.31,
+      "duration": 0.00999999999999801,
+      "text": "accounts. This identity is"
+    },
+    {
+      "start": 60.32,
+      "duration": 1.8299999999999983,
+      "text": "accounts. This identity is cryptographically attested to the"
+    },
+    {
+      "start": 62.15,
+      "duration": 0.00999999999999801,
+      "text": "cryptographically attested to the"
+    },
+    {
+      "start": 62.16,
+      "duration": 2.1500000000000057,
+      "text": "cryptographically attested to the runtime and cannot be impersonated like"
+    },
+    {
+      "start": 64.31,
+      "duration": 0.009999999999990905,
+      "text": "runtime and cannot be impersonated like"
+    },
+    {
+      "start": 64.32,
+      "duration": 1.9100000000000108,
+      "text": "runtime and cannot be impersonated like a service account. It's autoprovisioned"
+    },
+    {
+      "start": 66.23,
+      "duration": 0.009999999999990905,
+      "text": "a service account. It's autoprovisioned"
+    },
+    {
+      "start": 66.24,
+      "duration": 1.6700000000000017,
+      "text": "a service account. It's autoprovisioned when you deploy to the agent engine"
+    },
+    {
+      "start": 67.91,
+      "duration": 0.010000000000005116,
+      "text": "when you deploy to the agent engine"
+    },
+    {
+      "start": 67.92,
+      "duration": 1.9899999999999949,
+      "text": "when you deploy to the agent engine runtime. So you don't have to worry"
+    },
+    {
+      "start": 69.91,
+      "duration": 0.010000000000005116,
+      "text": "runtime. So you don't have to worry"
+    },
+    {
+      "start": 69.92,
+      "duration": 1.5900000000000034,
+      "text": "runtime. So you don't have to worry about creating it as a separate"
+    },
+    {
+      "start": 71.51,
+      "duration": 0.009999999999990905,
+      "text": "about creating it as a separate"
+    },
+    {
+      "start": 71.52,
+      "duration": 1.990000000000009,
+      "text": "about creating it as a separate configuration step. The goal is to"
+    },
+    {
+      "start": 73.51,
+      "duration": 0.009999999999990905,
+      "text": "configuration step. The goal is to"
+    },
+    {
+      "start": 73.52,
+      "duration": 2.0700000000000074,
+      "text": "configuration step. The goal is to replace the insecure API key with a call"
+    },
+    {
+      "start": 75.59,
+      "duration": 0.009999999999990905,
+      "text": "replace the insecure API key with a call"
+    },
+    {
+      "start": 75.6,
+      "duration": 2.3100000000000023,
+      "text": "replace the insecure API key with a call to secret manager using the agents new"
+    },
+    {
+      "start": 77.91,
+      "duration": 0.010000000000005116,
+      "text": "to secret manager using the agents new"
+    },
+    {
+      "start": 77.92,
+      "duration": 1.9899999999999949,
+      "text": "to secret manager using the agents new identity. We use the recommended pattern"
+    },
+    {
+      "start": 79.91,
+      "duration": 0.010000000000005116,
+      "text": "identity. We use the recommended pattern"
+    },
+    {
+      "start": 79.92,
+      "duration": 1.5900000000000034,
+      "text": "identity. We use the recommended pattern and I'll use the same code I did before"
+    },
+    {
+      "start": 81.51,
+      "duration": 0.009999999999990905,
+      "text": "and I'll use the same code I did before"
+    },
+    {
+      "start": 81.52,
+      "duration": 1.990000000000009,
+      "text": "and I'll use the same code I did before to give us a head start. Now how this"
+    },
+    {
+      "start": 83.51,
+      "duration": 0.009999999999990905,
+      "text": "to give us a head start. Now how this"
+    },
+    {
+      "start": 83.52,
+      "duration": 1.8299999999999983,
+      "text": "to give us a head start. Now how this works with agent identity. Since the"
+    },
+    {
+      "start": 85.35,
+      "duration": 0.010000000000005116,
+      "text": "works with agent identity. Since the"
+    },
+    {
+      "start": 85.36,
+      "duration": 2.230000000000004,
+      "text": "works with agent identity. Since the agent is hosted on agent engine, its"
+    },
+    {
+      "start": 87.59,
+      "duration": 0.009999999999990905,
+      "text": "agent is hosted on agent engine, its"
+    },
+    {
+      "start": 87.6,
+      "duration": 1.75,
+      "text": "agent is hosted on agent engine, its unique identity is automatically"
+    },
+    {
+      "start": 89.35,
+      "duration": 0.010000000000005116,
+      "text": "unique identity is automatically"
+    },
+    {
+      "start": 89.36,
+      "duration": 2.3100000000000023,
+      "text": "unique identity is automatically available to the Google cloud SDK. The"
+    },
+    {
+      "start": 91.67,
+      "duration": 0.010000000000005116,
+      "text": "available to the Google cloud SDK. The"
+    },
+    {
+      "start": 91.68,
+      "duration": 2.0689999999999884,
+      "text": "available to the Google cloud SDK. The application default credentials or ADC"
+    },
+    {
+      "start": 93.749,
+      "duration": 0.010000000000005116,
+      "text": "application default credentials or ADC"
+    },
+    {
+      "start": 93.759,
+      "duration": 2.3900000000000006,
+      "text": "application default credentials or ADC mechanism automatically uses this agent"
+    },
+    {
+      "start": 96.149,
+      "duration": 0.010000000000005116,
+      "text": "mechanism automatically uses this agent"
+    },
+    {
+      "start": 96.159,
+      "duration": 1.9099999999999966,
+      "text": "mechanism automatically uses this agent identity to authenticate the request to"
+    },
+    {
+      "start": 98.069,
+      "duration": 0.009999999999990905,
+      "text": "identity to authenticate the request to"
+    },
+    {
+      "start": 98.079,
+      "duration": 2.551000000000002,
+      "text": "identity to authenticate the request to secret manager. We first grant the agent"
+    },
+    {
+      "start": 100.63,
+      "duration": 0.010000000000005116,
+      "text": "secret manager. We first grant the agent"
+    },
+    {
+      "start": 100.64,
+      "duration": 2.950000000000003,
+      "text": "secret manager. We first grant the agent identity IM permissions. IM allow"
+    },
+    {
+      "start": 103.59,
+      "duration": 0.009999999999990905,
+      "text": "identity IM permissions. IM allow"
+    },
+    {
+      "start": 103.6,
+      "duration": 1.5900000000000034,
+      "text": "identity IM permissions. IM allow policies are extended to support the"
+    },
+    {
+      "start": 105.19,
+      "duration": 0.010000000000005116,
+      "text": "policies are extended to support the"
+    },
+    {
+      "start": 105.2,
+      "duration": 2.228999999999999,
+      "text": "policies are extended to support the agent ID. We grant the agent principal"
+    },
+    {
+      "start": 107.429,
+      "duration": 0.009999999999990905,
+      "text": "agent ID. We grant the agent principal"
+    },
+    {
+      "start": 107.439,
+      "duration": 2.2310000000000088,
+      "text": "agent ID. We grant the agent principal the roles secret manager secret accessor"
+    },
+    {
+      "start": 109.67,
+      "duration": 0.010000000000005116,
+      "text": "the roles secret manager secret accessor"
+    },
+    {
+      "start": 109.68,
+      "duration": 2.708999999999989,
+      "text": "the roles secret manager secret accessor role restricted to our specific map key"
+    },
+    {
+      "start": 112.389,
+      "duration": 0.010000000000005116,
+      "text": "role restricted to our specific map key"
+    },
+    {
+      "start": 112.399,
+      "duration": 2.790999999999997,
+      "text": "role restricted to our specific map key secret. The benefit of agent ID is not"
+    },
+    {
+      "start": 115.19,
+      "duration": 0.010000000000005116,
+      "text": "secret. The benefit of agent ID is not"
+    },
+    {
+      "start": 115.2,
+      "duration": 1.9899999999999949,
+      "text": "secret. The benefit of agent ID is not just retrieving the secret securely but"
+    },
+    {
+      "start": 117.19,
+      "duration": 0.010000000000005116,
+      "text": "just retrieving the secret securely but"
+    },
+    {
+      "start": 117.2,
+      "duration": 1.5889999999999986,
+      "text": "just retrieving the secret securely but being able to enforce lease privilege"
+    },
+    {
+      "start": 118.789,
+      "duration": 0.010000000000005116,
+      "text": "being able to enforce lease privilege"
+    },
+    {
+      "start": 118.799,
+      "duration": 2.390999999999991,
+      "text": "being able to enforce lease privilege across all agent activities. What else"
+    },
+    {
+      "start": 121.19,
+      "duration": 0.010000000000005116,
+      "text": "across all agent activities. What else"
+    },
+    {
+      "start": 121.2,
+      "duration": 1.8299999999999983,
+      "text": "across all agent activities. What else does the agent have access to? The"
+    },
+    {
+      "start": 123.03,
+      "duration": 0.010000000000005116,
+      "text": "does the agent have access to? The"
+    },
+    {
+      "start": 123.04,
+      "duration": 2.2299999999999898,
+      "text": "does the agent have access to? The unique agent identity is the verifiable"
+    },
+    {
+      "start": 125.27,
+      "duration": 0.010000000000005116,
+      "text": "unique agent identity is the verifiable"
+    },
+    {
+      "start": 125.28,
+      "duration": 2.149000000000001,
+      "text": "unique agent identity is the verifiable principle that IM and other policies are"
+    },
+    {
+      "start": 127.429,
+      "duration": 0.009999999999990905,
+      "text": "principle that IM and other policies are"
+    },
+    {
+      "start": 127.439,
+      "duration": 2.070999999999998,
+      "text": "principle that IM and other policies are bound to. If our Google maps agent is"
+    },
+    {
+      "start": 129.51,
+      "duration": 0.010000000000019327,
+      "text": "bound to. If our Google maps agent is"
+    },
+    {
+      "start": 129.52,
+      "duration": 2.1499999999999773,
+      "text": "bound to. If our Google maps agent is only meant to access its API key and the"
+    },
+    {
+      "start": 131.67,
+      "duration": 0.010000000000019327,
+      "text": "only meant to access its API key and the"
+    },
+    {
+      "start": 131.68,
+      "duration": 2.069999999999993,
+      "text": "only meant to access its API key and the maps tool, we can verify that it is"
+    },
+    {
+      "start": 133.75,
+      "duration": 0.009999999999990905,
+      "text": "maps tool, we can verify that it is"
+    },
+    {
+      "start": 133.76,
+      "duration": 2.390000000000015,
+      "text": "maps tool, we can verify that it is denied access to other powerful tools or"
+    },
+    {
+      "start": 136.15,
+      "duration": 0.009999999999990905,
+      "text": "denied access to other powerful tools or"
+    },
+    {
+      "start": 136.16,
+      "duration": 2.069000000000017,
+      "text": "denied access to other powerful tools or data sources. For example, we can ensure"
+    },
+    {
+      "start": 138.229,
+      "duration": 0.009999999999990905,
+      "text": "data sources. For example, we can ensure"
+    },
+    {
+      "start": 138.239,
+      "duration": 2.5509999999999877,
+      "text": "data sources. For example, we can ensure the maps agent cannot access sensitive"
+    },
+    {
+      "start": 140.79,
+      "duration": 0.010000000000019327,
+      "text": "the maps agent cannot access sensitive"
+    },
+    {
+      "start": 140.8,
+      "duration": 2.149000000000001,
+      "text": "the maps agent cannot access sensitive functions like delete user or reset"
+    },
+    {
+      "start": 142.949,
+      "duration": 0.009999999999990905,
+      "text": "functions like delete user or reset"
+    },
+    {
+      "start": 142.959,
+      "duration": 2.6299999999999955,
+      "text": "functions like delete user or reset password exposed by other MCP servers"
+    },
+    {
+      "start": 145.589,
+      "duration": 0.009999999999990905,
+      "text": "password exposed by other MCP servers"
+    },
+    {
+      "start": 145.599,
+      "duration": 1.6710000000000207,
+      "text": "password exposed by other MCP servers even if another agent in the project"
+    },
+    {
+      "start": 147.27,
+      "duration": 0.009999999999990905,
+      "text": "even if another agent in the project"
+    },
+    {
+      "start": 147.28,
+      "duration": 1.990000000000009,
+      "text": "even if another agent in the project might have permission. To see what your"
+    },
+    {
+      "start": 149.27,
+      "duration": 0.009999999999990905,
+      "text": "might have permission. To see what your"
+    },
+    {
+      "start": 149.28,
+      "duration": 2.3089999999999975,
+      "text": "might have permission. To see what your agent has access to, administrators can"
+    },
+    {
+      "start": 151.589,
+      "duration": 0.009999999999990905,
+      "text": "agent has access to, administrators can"
+    },
+    {
+      "start": 151.599,
+      "duration": 1.8310000000000173,
+      "text": "agent has access to, administrators can list agents and their identities in the"
+    },
+    {
+      "start": 153.43,
+      "duration": 0.009999999999990905,
+      "text": "list agents and their identities in the"
+    },
+    {
+      "start": 153.44,
+      "duration": 2.390000000000015,
+      "text": "list agents and their identities in the Vert.exai agent engine console or via"
+    },
+    {
+      "start": 155.83,
+      "duration": 0.009999999999990905,
+      "text": "Vert.exai agent engine console or via"
+    },
+    {
+      "start": 155.84,
+      "duration": 2.549999999999983,
+      "text": "Vert.exai agent engine console or via the REST API. Agent identity is also"
+    },
+    {
+      "start": 158.39,
+      "duration": 0.010000000000019327,
+      "text": "the REST API. Agent identity is also"
+    },
+    {
+      "start": 158.4,
+      "duration": 1.9899999999999807,
+      "text": "the REST API. Agent identity is also used to log activities across Google"
+    },
+    {
+      "start": 160.39,
+      "duration": 0.010000000000019327,
+      "text": "used to log activities across Google"
+    },
+    {
+      "start": 160.4,
+      "duration": 2.5490000000000066,
+      "text": "used to log activities across Google Cloud services when the agent acts on"
+    },
+    {
+      "start": 162.949,
+      "duration": 0.009999999999990905,
+      "text": "Cloud services when the agent acts on"
+    },
+    {
+      "start": 162.959,
+      "duration": 1.8309999999999889,
+      "text": "Cloud services when the agent acts on its own authority like fetching the API"
+    },
+    {
+      "start": 164.79,
+      "duration": 0.010000000000019327,
+      "text": "its own authority like fetching the API"
+    },
+    {
+      "start": 164.8,
+      "duration": 2.3899999999999864,
+      "text": "its own authority like fetching the API key. The logs only show the agents"
+    },
+    {
+      "start": 167.19,
+      "duration": 0.009999999999990905,
+      "text": "key. The logs only show the agents"
+    },
+    {
+      "start": 167.2,
+      "duration": 2.38900000000001,
+      "text": "key. The logs only show the agents identity by combining agent identity for"
+    },
+    {
+      "start": 169.589,
+      "duration": 0.009999999999990905,
+      "text": "identity by combining agent identity for"
+    },
+    {
+      "start": 169.599,
+      "duration": 1.4310000000000116,
+      "text": "identity by combining agent identity for strong authentication with secret"
+    },
+    {
+      "start": 171.03,
+      "duration": 0.009999999999990905,
+      "text": "strong authentication with secret"
+    },
+    {
+      "start": 171.04,
+      "duration": 2.0700000000000216,
+      "text": "strong authentication with secret manager for credential handling. We move"
+    },
+    {
+      "start": 173.11,
+      "duration": 0.009999999999990905,
+      "text": "manager for credential handling. We move"
+    },
+    {
+      "start": 173.12,
+      "duration": 2.1500000000000057,
+      "text": "manager for credential handling. We move from insecure shared keys to a"
+    },
+    {
+      "start": 175.27,
+      "duration": 0.009999999999990905,
+      "text": "from insecure shared keys to a"
+    },
+    {
+      "start": 175.28,
+      "duration": 1.4300000000000068,
+      "text": "from insecure shared keys to a production grade lease privilege"
+    },
+    {
+      "start": 176.71,
+      "duration": 0.009999999999990905,
+      "text": "production grade lease privilege"
+    },
+    {
+      "start": 176.72,
+      "duration": 1.75,
+      "text": "production grade lease privilege security model. I'd really like to know"
+    },
+    {
+      "start": 178.47,
+      "duration": 0.009999999999990905,
+      "text": "security model. I'd really like to know"
+    },
+    {
+      "start": 178.48,
+      "duration": 1.5900000000000034,
+      "text": "security model. I'd really like to know what you're building and what issues you"
+    },
+    {
+      "start": 180.07,
+      "duration": 0.010000000000019327,
+      "text": "what you're building and what issues you"
+    },
+    {
+      "start": 180.08,
+      "duration": 1.3499999999999943,
+      "text": "what you're building and what issues you run into and what you want to see more"
+    },
+    {
+      "start": 181.43,
+      "duration": 0.009999999999990905,
+      "text": "run into and what you want to see more"
+    },
+    {
+      "start": 181.44,
+      "duration": 2.0689999999999884,
+      "text": "run into and what you want to see more of next. I read every comment, so please"
+    },
+    {
+      "start": 183.509,
+      "duration": 0.010000000000019327,
+      "text": "of next. I read every comment, so please"
+    },
+    {
+      "start": 183.519,
+      "duration": 1.8309999999999889,
+      "text": "of next. I read every comment, so please let me know below. Thank you for"
+    },
+    {
+      "start": 185.35,
+      "duration": 0.010000000000019327,
+      "text": "let me know below. Thank you for"
+    },
+    {
+      "start": 185.36,
+      "duration": 3.9919999999999902,
+      "text": "let me know below. Thank you for watching. Hey, hey, hey. [music]"
+    }
+  ],
+  "fullText": "Welcome back. In this video, we're Welcome back. In this video, we're tackling a critical step for deploying tackling a critical step for deploying tackling a critical step for deploying an ADK agent that uses the Google Maps an ADK agent that uses the Google Maps an ADK agent that uses the Google Maps tool to help users. Our current local tool to help users. Our current local tool to help users. Our current local code based on the ADK samples uses an code based on the ADK samples uses an code based on the ADK samples uses an insecure pattern by defining the Maps insecure pattern by defining the Maps insecure pattern by defining the Maps API key right in the code. Our job is to API key right in the code. Our job is to API key right in the code. Our job is to replace this with a secure replace this with a secure replace this with a secure productionready pattern using Secret productionready pattern using Secret productionready pattern using Secret Manager. I did a video explaining why we Manager. I did a video explaining why we Manager. I did a video explaining why we need to do this and how Secret Manager need to do this and how Secret Manager need to do this and how Secret Manager works linked below. Since we're works linked below. Since we're works linked below. Since we're deploying to Vertex AI agent engine, we deploying to Vertex AI agent engine, we deploying to Vertex AI agent engine, we will authenticate using agent identity, will authenticate using agent identity, will authenticate using agent identity, not a traditional service account, there not a traditional service account, there not a traditional service account, there are some important and useful are some important and useful are some important and useful differences. In the past, I recommended differences. In the past, I recommended differences. In the past, I recommended using a shared service account for using a shared service account for using a shared service account for agents in a project. However, agents are agents in a project. However, agents are agents in a project. However, agents are non-deterministic and stful, which non-deterministic and stful, which non-deterministic and stful, which presents amplified risks compared to a presents amplified risks compared to a presents amplified risks compared to a usual machine identity. Agent identity usual machine identity. Agent identity usual machine identity. Agent identity is a specialized principle type for is a specialized principle type for is a specialized principle type for agents. It provides more convenience and agents. It provides more convenience and agents. It provides more convenience and better support for lease privilege for better support for lease privilege for better support for lease privilege for agents than traditional service agents than traditional service agents than traditional service accounts. This identity is accounts. This identity is accounts. This identity is cryptographically attested to the cryptographically attested to the cryptographically attested to the runtime and cannot be impersonated like runtime and cannot be impersonated like runtime and cannot be impersonated like a service account. It's autoprovisioned a service account. It's autoprovisioned a service account. It's autoprovisioned when you deploy to the agent engine when you deploy to the agent engine when you deploy to the agent engine runtime. So you don't have to worry runtime. So you don't have to worry runtime. So you don't have to worry about creating it as a separate about creating it as a separate about creating it as a separate configuration step. The goal is to configuration step. The goal is to configuration step. The goal is to replace the insecure API key with a call replace the insecure API key with a call replace the insecure API key with a call to secret manager using the agents new to secret manager using the agents new to secret manager using the agents new identity. We use the recommended pattern identity. We use the recommended pattern identity. We use the recommended pattern and I'll use the same code I did before and I'll use the same code I did before and I'll use the same code I did before to give us a head start. Now how this to give us a head start. Now how this to give us a head start. Now how this works with agent identity. Since the works with agent identity. Since the works with agent identity. Since the agent is hosted on agent engine, its agent is hosted on agent engine, its agent is hosted on agent engine, its unique identity is automatically unique identity is automatically unique identity is automatically available to the Google cloud SDK. The available to the Google cloud SDK. The available to the Google cloud SDK. The application default credentials or ADC application default credentials or ADC application default credentials or ADC mechanism automatically uses this agent mechanism automatically uses this agent mechanism automatically uses this agent identity to authenticate the request to identity to authenticate the request to identity to authenticate the request to secret manager. We first grant the agent secret manager. We first grant the agent secret manager. We first grant the agent identity IM permissions. IM allow identity IM permissions. IM allow identity IM permissions. IM allow policies are extended to support the policies are extended to support the policies are extended to support the agent ID. We grant the agent principal agent ID. We grant the agent principal agent ID. We grant the agent principal the roles secret manager secret accessor the roles secret manager secret accessor the roles secret manager secret accessor role restricted to our specific map key role restricted to our specific map key role restricted to our specific map key secret. The benefit of agent ID is not secret. The benefit of agent ID is not secret. The benefit of agent ID is not just retrieving the secret securely but just retrieving the secret securely but just retrieving the secret securely but being able to enforce lease privilege being able to enforce lease privilege being able to enforce lease privilege across all agent activities. What else across all agent activities. What else across all agent activities. What else does the agent have access to? The does the agent have access to? The does the agent have access to? The unique agent identity is the verifiable unique agent identity is the verifiable unique agent identity is the verifiable principle that IM and other policies are principle that IM and other policies are principle that IM and other policies are bound to. If our Google maps agent is bound to. If our Google maps agent is bound to. If our Google maps agent is only meant to access its API key and the only meant to access its API key and the only meant to access its API key and the maps tool, we can verify that it is maps tool, we can verify that it is maps tool, we can verify that it is denied access to other powerful tools or denied access to other powerful tools or denied access to other powerful tools or data sources. For example, we can ensure data sources. For example, we can ensure data sources. For example, we can ensure the maps agent cannot access sensitive the maps agent cannot access sensitive the maps agent cannot access sensitive functions like delete user or reset functions like delete user or reset functions like delete user or reset password exposed by other MCP servers password exposed by other MCP servers password exposed by other MCP servers even if another agent in the project even if another agent in the project even if another agent in the project might have permission. To see what your might have permission. To see what your might have permission. To see what your agent has access to, administrators can agent has access to, administrators can agent has access to, administrators can list agents and their identities in the list agents and their identities in the list agents and their identities in the Vert.exai agent engine console or via Vert.exai agent engine console or via Vert.exai agent engine console or via the REST API. Agent identity is also the REST API. Agent identity is also the REST API. Agent identity is also used to log activities across Google used to log activities across Google used to log activities across Google Cloud services when the agent acts on Cloud services when the agent acts on Cloud services when the agent acts on its own authority like fetching the API its own authority like fetching the API its own authority like fetching the API key. The logs only show the agents key. The logs only show the agents key. The logs only show the agents identity by combining agent identity for identity by combining agent identity for identity by combining agent identity for strong authentication with secret strong authentication with secret strong authentication with secret manager for credential handling. We move manager for credential handling. We move manager for credential handling. We move from insecure shared keys to a from insecure shared keys to a from insecure shared keys to a production grade lease privilege production grade lease privilege production grade lease privilege security model. I'd really like to know security model. I'd really like to know security model. I'd really like to know what you're building and what issues you what you're building and what issues you what you're building and what issues you run into and what you want to see more run into and what you want to see more run into and what you want to see more of next. I read every comment, so please of next. I read every comment, so please of next. I read every comment, so please let me know below. Thank you for let me know below. Thank you for let me know below. Thank you for watching. Hey, hey, hey. [music]",
+  "fetchedAt": "2026-03-10T16:06:55.411Z"
+}

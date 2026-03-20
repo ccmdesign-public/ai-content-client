@@ -1,0 +1,1764 @@
+{
+  "videoId": "d-PZDQlO4m4",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 7.599,
+      "text": "Hello world. My name is Jacob and I'm"
+    },
+    {
+      "start": 3.919,
+      "duration": 6.64,
+      "text": "here to show you my latest project. And"
+    },
+    {
+      "start": 7.839,
+      "duration": 7.121,
+      "text": "this was a big one actually. It's called"
+    },
+    {
+      "start": 10.559,
+      "duration": 7.361,
+      "text": "Notebook MCP server. It's uh as it says"
+    },
+    {
+      "start": 14.96,
+      "duration": 6.319,
+      "text": "in the name, it's an MCP model context"
+    },
+    {
+      "start": 17.92,
+      "duration": 4.88,
+      "text": "protocol for Notebook LM. And you"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.08,
+      "text": "probably wondering, yeah, that's not"
+    },
+    {
+      "start": 22.8,
+      "duration": 4.88,
+      "text": "new. We've seen many of them out there."
+    },
+    {
+      "start": 25.359,
+      "duration": 5.441,
+      "text": "Yes, that's true. But this is a little"
+    },
+    {
+      "start": 27.68,
+      "duration": 6.8,
+      "text": "bit different. um my version which"
+    },
+    {
+      "start": 30.8,
+      "duration": 5.599,
+      "text": "include 31 tools you can see all of them"
+    },
+    {
+      "start": 34.48,
+      "duration": 4.8,
+      "text": "includes the latest features including"
+    },
+    {
+      "start": 36.399,
+      "duration": 4.961,
+      "text": "data packs it's not using automation"
+    },
+    {
+      "start": 39.28,
+      "duration": 4.16,
+      "text": "browser that's what most of the other"
+    },
+    {
+      "start": 41.36,
+      "duration": 4.879,
+      "text": "tools out there are using I'm using"
+    },
+    {
+      "start": 43.44,
+      "duration": 6.08,
+      "text": "something else I reverse engineer the"
+    },
+    {
+      "start": 46.239,
+      "duration": 5.601,
+      "text": "Google internal RPC calls which think of"
+    },
+    {
+      "start": 49.52,
+      "duration": 5.84,
+      "text": "them as internal APIs they use to"
+    },
+    {
+      "start": 51.84,
+      "duration": 7.039,
+      "text": "communicate with features and I build"
+    },
+    {
+      "start": 55.36,
+      "duration": 5.92,
+      "text": "the MCP around it pretty cool once you"
+    },
+    {
+      "start": 58.879,
+      "duration": 5.041,
+      "text": "see it in action. It's pretty fast. Um,"
+    },
+    {
+      "start": 61.28,
+      "duration": 4.48,
+      "text": "you can add it to any of your favorite"
+    },
+    {
+      "start": 63.92,
+      "duration": 4.4,
+      "text": "AI tools. I'll show you some examples"
+    },
+    {
+      "start": 65.76,
+      "duration": 5.28,
+      "text": "with claw code. And let's start quickly"
+    },
+    {
+      "start": 68.32,
+      "duration": 5.28,
+      "text": "with the installation. So, it's very"
+    },
+    {
+      "start": 71.04,
+      "duration": 5.84,
+      "text": "straightforward. You clone and copy."
+    },
+    {
+      "start": 73.6,
+      "duration": 7.28,
+      "text": "Ctrl +V and enter. So, now it's going to"
+    },
+    {
+      "start": 76.88,
+      "duration": 8.08,
+      "text": "clone and install. That's more or less"
+    },
+    {
+      "start": 80.88,
+      "duration": 6.16,
+      "text": "it. So, let's add this to claw code. So,"
+    },
+    {
+      "start": 84.96,
+      "duration": 6.92,
+      "text": "I'm going to use the user scope. So it's"
+    },
+    {
+      "start": 87.04,
+      "duration": 4.84,
+      "text": "going to be this one and pasted"
+    },
+    {
+      "start": 91.92,
+      "duration": 7.04,
+      "text": "and done. So let's do a cloud MCP list"
+    },
+    {
+      "start": 96,
+      "duration": 4.32,
+      "text": "to see what we have installed. So and"
+    },
+    {
+      "start": 98.96,
+      "duration": 4.32,
+      "text": "obviously going to check if it's"
+    },
+    {
+      "start": 100.32,
+      "duration": 5.52,
+      "text": "working. So we have the workspace MCP"
+    },
+    {
+      "start": 103.28,
+      "duration": 5.92,
+      "text": "something I also built here is the"
+    },
+    {
+      "start": 105.84,
+      "duration": 5.52,
+      "text": "notebook LM MCP. So I think we're good."
+    },
+    {
+      "start": 109.2,
+      "duration": 5.84,
+      "text": "if you're using Gemini or if you're"
+    },
+    {
+      "start": 111.36,
+      "duration": 6.24,
+      "text": "using some sort of uh you know IDE that"
+    },
+    {
+      "start": 115.04,
+      "duration": 4.64,
+      "text": "requires JSON configuration. So here's"
+    },
+    {
+      "start": 117.6,
+      "duration": 3.92,
+      "text": "an example of how you do it. It's very"
+    },
+    {
+      "start": 119.68,
+      "duration": 5.6,
+      "text": "straightforward. No args on this one."
+    },
+    {
+      "start": 121.52,
+      "duration": 10.16,
+      "text": "You just give it a path of usually your"
+    },
+    {
+      "start": 125.28,
+      "duration": 8.959,
+      "text": "user directory and that path. So let's"
+    },
+    {
+      "start": 131.68,
+      "duration": 4.559,
+      "text": "make sure it works. Let's launch cloud."
+    },
+    {
+      "start": 134.239,
+      "duration": 4.161,
+      "text": "So the first thing you need to do is to"
+    },
+    {
+      "start": 136.239,
+      "duration": 3.761,
+      "text": "log in and create an authentication. The"
+    },
+    {
+      "start": 138.4,
+      "duration": 6,
+      "text": "authentication is also a little bit"
+    },
+    {
+      "start": 140,
+      "duration": 6.959,
+      "text": "tricky. Um in for that process we need"
+    },
+    {
+      "start": 144.4,
+      "duration": 4.64,
+      "text": "special cookies that are available"
+    },
+    {
+      "start": 146.959,
+      "duration": 4,
+      "text": "during the session. They're are quite"
+    },
+    {
+      "start": 149.04,
+      "duration": 4.4,
+      "text": "complex to extract. There is"
+    },
+    {
+      "start": 150.959,
+      "duration": 5.521,
+      "text": "instructions how to do it. But I created"
+    },
+    {
+      "start": 153.44,
+      "duration": 6.32,
+      "text": "a a convenient authentication"
+    },
+    {
+      "start": 156.48,
+      "duration": 5.2,
+      "text": "app that will do everything for you. Uh"
+    },
+    {
+      "start": 159.76,
+      "duration": 6.4,
+      "text": "the authentication what you will do it"
+    },
+    {
+      "start": 161.68,
+      "duration": 7.04,
+      "text": "will open um Chrome in debug mode. it's"
+    },
+    {
+      "start": 166.16,
+      "duration": 4.64,
+      "text": "going to create a new temporary uh"
+    },
+    {
+      "start": 168.72,
+      "duration": 3.84,
+      "text": "profile. So you'll need to go through"
+    },
+    {
+      "start": 170.8,
+      "duration": 3.92,
+      "text": "your regular Google authentication, but"
+    },
+    {
+      "start": 172.56,
+      "duration": 4.8,
+      "text": "that will be saved in the same directory"
+    },
+    {
+      "start": 174.72,
+      "duration": 4.159,
+      "text": "where that MCP. So going forward, you"
+    },
+    {
+      "start": 177.36,
+      "duration": 3.599,
+      "text": "don't need to enter your Google again"
+    },
+    {
+      "start": 178.879,
+      "duration": 3.44,
+      "text": "and again. So I'm going to go really"
+    },
+    {
+      "start": 180.959,
+      "duration": 4.401,
+      "text": "quickly with that and show you how the"
+    },
+    {
+      "start": 182.319,
+      "duration": 5.28,
+      "text": "command works. So it's going to be I'll"
+    },
+    {
+      "start": 185.36,
+      "duration": 4.08,
+      "text": "just do it with bash. So I'll do the"
+    },
+    {
+      "start": 187.599,
+      "duration": 4.161,
+      "text": "bash command from here and that's going"
+    },
+    {
+      "start": 189.44,
+      "duration": 4.879,
+      "text": "to run the command for me. And you'll"
+    },
+    {
+      "start": 191.76,
+      "duration": 4.479,
+      "text": "see in the background here it is. try to"
+    },
+    {
+      "start": 194.319,
+      "duration": 3.361,
+      "text": "log in."
+    },
+    {
+      "start": 196.239,
+      "duration": 4.961,
+      "text": "So there you have it. So you can see in"
+    },
+    {
+      "start": 197.68,
+      "duration": 7.04,
+      "text": "the background it's authenticated and"
+    },
+    {
+      "start": 201.2,
+      "duration": 5.92,
+      "text": "I'm all set. So now I am in my notebook"
+    },
+    {
+      "start": 204.72,
+      "duration": 4,
+      "text": "lm.com. So you can see side by side"
+    },
+    {
+      "start": 207.12,
+      "duration": 4.479,
+      "text": "what's happening and I can show you"
+    },
+    {
+      "start": 208.72,
+      "duration": 7.439,
+      "text": "actually things happening as I work with"
+    },
+    {
+      "start": 211.599,
+      "duration": 7.92,
+      "text": "the MCP. Uh let's ask claw code uh to"
+    },
+    {
+      "start": 216.159,
+      "duration": 7.36,
+      "text": "list all my notebooks. So can you please"
+    },
+    {
+      "start": 219.519,
+      "duration": 6.241,
+      "text": "list all my notebook LMS?"
+    },
+    {
+      "start": 223.519,
+      "duration": 4,
+      "text": "So now it's going to execute the tool."
+    },
+    {
+      "start": 225.76,
+      "duration": 4.24,
+      "text": "There we go. You can see the first tool"
+    },
+    {
+      "start": 227.519,
+      "duration": 5.041,
+      "text": "to list the notebooks and I'm going to"
+    },
+    {
+      "start": 230,
+      "duration": 4.4,
+      "text": "say okay, accept it going forward and"
+    },
+    {
+      "start": 232.56,
+      "duration": 4.16,
+      "text": "you can see it's already kind of getting"
+    },
+    {
+      "start": 234.4,
+      "duration": 5.119,
+      "text": "the response from the back end and it"
+    },
+    {
+      "start": 236.72,
+      "duration": 6.079,
+      "text": "says I have 25. It's going to formulate"
+    },
+    {
+      "start": 239.519,
+      "duration": 5.601,
+      "text": "and here are all nine notebooks. So and"
+    },
+    {
+      "start": 242.799,
+      "duration": 6.16,
+      "text": "it can even tell you how many you own,"
+    },
+    {
+      "start": 245.12,
+      "duration": 6,
+      "text": "how many you shared. um with me and how"
+    },
+    {
+      "start": 248.959,
+      "duration": 7.761,
+      "text": "many shared by me. So that's pretty"
+    },
+    {
+      "start": 251.12,
+      "duration": 9.04,
+      "text": "cool. So um let's ask it about this"
+    },
+    {
+      "start": 256.72,
+      "duration": 8.32,
+      "text": "thingy. Um mastering the notebook lm MCP"
+    },
+    {
+      "start": 260.16,
+      "duration": 8,
+      "text": "thingy. Can you describe the notebook?"
+    },
+    {
+      "start": 265.04,
+      "duration": 4.159,
+      "text": "And I'm just going to paste the name"
+    },
+    {
+      "start": 268.16,
+      "duration": 3.759,
+      "text": "and let's see what it's going to give"
+    },
+    {
+      "start": 269.199,
+      "duration": 4.321,
+      "text": "me. So right, it's going to try to run"
+    },
+    {
+      "start": 271.919,
+      "duration": 5.28,
+      "text": "this uh command. It's called describe"
+    },
+    {
+      "start": 273.52,
+      "duration": 5.76,
+      "text": "notebook. And that command will go into"
+    },
+    {
+      "start": 277.199,
+      "duration": 4.321,
+      "text": "the notebook, ask it what it's about."
+    },
+    {
+      "start": 279.28,
+      "duration": 5.68,
+      "text": "And essentially that's what you see when"
+    },
+    {
+      "start": 281.52,
+      "duration": 7.36,
+      "text": "you go into a notebook and you'll get"
+    },
+    {
+      "start": 284.96,
+      "duration": 7.12,
+      "text": "this preview of the notebook. So it"
+    },
+    {
+      "start": 288.88,
+      "duration": 5.039,
+      "text": "takes it and you can see side by side."
+    },
+    {
+      "start": 292.08,
+      "duration": 4.96,
+      "text": "It's almost identical. Sometimes they do"
+    },
+    {
+      "start": 293.919,
+      "duration": 5.361,
+      "text": "some paraphrasing, but it shows you what"
+    },
+    {
+      "start": 297.04,
+      "duration": 5.04,
+      "text": "it's in there. So that's cool. Uh I"
+    },
+    {
+      "start": 299.28,
+      "duration": 7.199,
+      "text": "don't see the side. So wondering um how"
+    },
+    {
+      "start": 302.08,
+      "duration": 6.88,
+      "text": "many sources in this notebook."
+    },
+    {
+      "start": 306.479,
+      "duration": 4.241,
+      "text": "So now again it's going to execute a"
+    },
+    {
+      "start": 308.96,
+      "duration": 3.6,
+      "text": "command and it's already know that they"
+    },
+    {
+      "start": 310.72,
+      "duration": 4.56,
+      "text": "got 14."
+    },
+    {
+      "start": 312.56,
+      "duration": 5.04,
+      "text": "Can you show me all the sources attached"
+    },
+    {
+      "start": 315.28,
+      "duration": 6.16,
+      "text": "to this notebook their type and if any"
+    },
+    {
+      "start": 317.6,
+      "duration": 6.64,
+      "text": "of them requires reync into Google"
+    },
+    {
+      "start": 321.44,
+      "duration": 5.039,
+      "text": "drive. So if you have notebooks before"
+    },
+    {
+      "start": 324.24,
+      "duration": 5.519,
+      "text": "and you use notebook LM, you know that"
+    },
+    {
+      "start": 326.479,
+      "duration": 6.481,
+      "text": "when you attach a Google Drive resource,"
+    },
+    {
+      "start": 329.759,
+      "duration": 5.361,
+      "text": "the source is kind of a a point of time."
+    },
+    {
+      "start": 332.96,
+      "duration": 4.48,
+      "text": "So unless you manually sync it with"
+    },
+    {
+      "start": 335.12,
+      "duration": 4.799,
+      "text": "Google Drive after you made changes in"
+    },
+    {
+      "start": 337.44,
+      "duration": 4.64,
+      "text": "the source, it will never pick it up. So"
+    },
+    {
+      "start": 339.919,
+      "duration": 5.601,
+      "text": "this one I'll let it run in the"
+    },
+    {
+      "start": 342.08,
+      "duration": 6.32,
+      "text": "background. So now it will list the"
+    },
+    {
+      "start": 345.52,
+      "duration": 4.959,
+      "text": "sources and we'll also check which one"
+    },
+    {
+      "start": 348.4,
+      "duration": 6.32,
+      "text": "are out of sick, which one are not"
+    },
+    {
+      "start": 350.479,
+      "duration": 6.16,
+      "text": "fresh. So there we go. So you can see it"
+    },
+    {
+      "start": 354.72,
+      "duration": 5.84,
+      "text": "already told me. Oh, this one needs"
+    },
+    {
+      "start": 356.639,
+      "duration": 6.961,
+      "text": "sync. So that's the notebook lm um demo"
+    },
+    {
+      "start": 360.56,
+      "duration": 4.8,
+      "text": "script. Uh I I had a demo script for"
+    },
+    {
+      "start": 363.6,
+      "duration": 3.439,
+      "text": "this video, but I'm I'm terrible at"
+    },
+    {
+      "start": 365.36,
+      "duration": 4.399,
+      "text": "following scripts, so I'm improvising as"
+    },
+    {
+      "start": 367.039,
+      "duration": 5.361,
+      "text": "you can see. Let's ask it to sync it."
+    },
+    {
+      "start": 369.759,
+      "duration": 4.641,
+      "text": "Can you please synchronize the uh"
+    },
+    {
+      "start": 372.4,
+      "duration": 4.88,
+      "text": "sources"
+    },
+    {
+      "start": 374.4,
+      "duration": 4.079,
+      "text": "that require sync? But I I think you're"
+    },
+    {
+      "start": 377.28,
+      "duration": 4.4,
+      "text": "going to figure it out. If it's with"
+    },
+    {
+      "start": 378.479,
+      "duration": 5.44,
+      "text": "haiku, uh it should be okay with u uh"
+    },
+    {
+      "start": 381.68,
+      "duration": 4.72,
+      "text": "syncing. So, and there's some actions"
+    },
+    {
+      "start": 383.919,
+      "duration": 4.641,
+      "text": "that require explicit confirmation"
+    },
+    {
+      "start": 386.4,
+      "duration": 4.48,
+      "text": "obviously some uh actions like that, but"
+    },
+    {
+      "start": 388.56,
+      "duration": 5.759,
+      "text": "specifically the delete actions which we"
+    },
+    {
+      "start": 390.88,
+      "duration": 5.599,
+      "text": "will see. And yeah, I'll say sync now"
+    },
+    {
+      "start": 394.319,
+      "duration": 4.16,
+      "text": "and"
+    },
+    {
+      "start": 396.479,
+      "duration": 4.481,
+      "text": "yes"
+    },
+    {
+      "start": 398.479,
+      "duration": 6.401,
+      "text": "and it's executing the sync. Looks like"
+    },
+    {
+      "start": 400.96,
+      "duration": 6.88,
+      "text": "successful and one source synced."
+    },
+    {
+      "start": 404.88,
+      "duration": 6.72,
+      "text": "So now let's ask it can you describe the"
+    },
+    {
+      "start": 407.84,
+      "duration": 5.84,
+      "text": "notebook MCP demo script"
+    },
+    {
+      "start": 411.6,
+      "duration": 5.76,
+      "text": "and now what it's going to do is if you"
+    },
+    {
+      "start": 413.68,
+      "duration": 7.28,
+      "text": "go into a notebook LM right and on the"
+    },
+    {
+      "start": 417.36,
+      "duration": 5.679,
+      "text": "sources you can click on a source and"
+    },
+    {
+      "start": 420.96,
+      "duration": 4,
+      "text": "you can ask it and you'll see"
+    },
+    {
+      "start": 423.039,
+      "duration": 4.481,
+      "text": "description autogenerated AI's"
+    },
+    {
+      "start": 424.96,
+      "duration": 3.92,
+      "text": "description of this source so it doing"
+    },
+    {
+      "start": 427.52,
+      "duration": 4.959,
+      "text": "the same thing so it'll give you an"
+    },
+    {
+      "start": 428.88,
+      "duration": 8.8,
+      "text": "explanation what it's about that's cool"
+    },
+    {
+      "start": 432.479,
+      "duration": 9.201,
+      "text": "can you run a fast web research on"
+    },
+    {
+      "start": 437.68,
+      "duration": 6.239,
+      "text": "notebook LM MCP and check when the"
+    },
+    {
+      "start": 441.68,
+      "duration": 5.12,
+      "text": "results are ready."
+    },
+    {
+      "start": 443.919,
+      "duration": 5.84,
+      "text": "Yes, I want to proceed. So now it's"
+    },
+    {
+      "start": 446.8,
+      "duration": 6.88,
+      "text": "checking uh the status of the research"
+    },
+    {
+      "start": 449.759,
+      "duration": 5.681,
+      "text": "and yeah it discovered that there is uh"
+    },
+    {
+      "start": 453.68,
+      "duration": 5.6,
+      "text": "it's done. It was so quick I didn't"
+    },
+    {
+      "start": 455.44,
+      "duration": 7.56,
+      "text": "refresh didn't work. So I will say"
+    },
+    {
+      "start": 459.28,
+      "duration": 3.72,
+      "text": "import all sources"
+    },
+    {
+      "start": 463.039,
+      "duration": 6.241,
+      "text": "and now it will include all the sources."
+    },
+    {
+      "start": 467.039,
+      "duration": 5.521,
+      "text": "So obviously this is one thing. What"
+    },
+    {
+      "start": 469.28,
+      "duration": 5.52,
+      "text": "about creating uh resources you know we"
+    },
+    {
+      "start": 472.56,
+      "duration": 4.479,
+      "text": "have a lot of cool resources in"
+    },
+    {
+      "start": 474.8,
+      "duration": 5.2,
+      "text": "notebook. You can create audio overview,"
+    },
+    {
+      "start": 477.039,
+      "duration": 6.081,
+      "text": "video overview, mind maps, reports,"
+    },
+    {
+      "start": 480,
+      "duration": 6,
+      "text": "flashcards, quiz, an infographic, even"
+    },
+    {
+      "start": 483.12,
+      "duration": 5.28,
+      "text": "slide decks, and recently added data"
+    },
+    {
+      "start": 486,
+      "duration": 6.479,
+      "text": "tables. So, let's ask it to create some"
+    },
+    {
+      "start": 488.4,
+      "duration": 7.359,
+      "text": "of the uh resources for us. Can you"
+    },
+    {
+      "start": 492.479,
+      "duration": 6.081,
+      "text": "create an audio overview, aim for a"
+    },
+    {
+      "start": 495.759,
+      "duration": 6.801,
+      "text": "5minut podcast focusing on the benefits"
+    },
+    {
+      "start": 498.56,
+      "duration": 5.68,
+      "text": "of MCP for Notebook LM? And let's see if"
+    },
+    {
+      "start": 502.56,
+      "duration": 6.4,
+      "text": "it's going to do that. It's now taking"
+    },
+    {
+      "start": 504.24,
+      "duration": 7.04,
+      "text": "my request. It knows what the type uh of"
+    },
+    {
+      "start": 508.96,
+      "duration": 5.199,
+      "text": "o overview available. For example, if I"
+    },
+    {
+      "start": 511.28,
+      "duration": 5.04,
+      "text": "go back here, when you click on the"
+    },
+    {
+      "start": 514.159,
+      "duration": 4.481,
+      "text": "audio overview, you'll see have some"
+    },
+    {
+      "start": 516.32,
+      "duration": 3.76,
+      "text": "options, brief and critique and debate."
+    },
+    {
+      "start": 518.64,
+      "duration": 3.92,
+      "text": "I could ask it for everything. I could"
+    },
+    {
+      "start": 520.08,
+      "duration": 5.52,
+      "text": "ask for short and long. And I could even"
+    },
+    {
+      "start": 522.56,
+      "duration": 5.04,
+      "text": "ask for language. So, that's one thing"
+    },
+    {
+      "start": 525.6,
+      "duration": 6.16,
+      "text": "that I could do. And I'll you know what?"
+    },
+    {
+      "start": 527.6,
+      "duration": 6.799,
+      "text": "I'll try to do that right now."
+    },
+    {
+      "start": 531.76,
+      "duration": 4.639,
+      "text": "No. You know what? No. cancel."
+    },
+    {
+      "start": 534.399,
+      "duration": 5.361,
+      "text": "Can you actually create the audio"
+    },
+    {
+      "start": 536.399,
+      "duration": 7.681,
+      "text": "overview in Hebrew but again aim for"
+    },
+    {
+      "start": 539.76,
+      "duration": 6.079,
+      "text": "five minutes length? So now it also"
+    },
+    {
+      "start": 544.08,
+      "duration": 3.84,
+      "text": "supports"
+    },
+    {
+      "start": 545.839,
+      "duration": 5.601,
+      "text": "uh any language that available in that."
+    },
+    {
+      "start": 547.92,
+      "duration": 6.8,
+      "text": "So it should give me yes created. I'm"
+    },
+    {
+      "start": 551.44,
+      "duration": 5.44,
+      "text": "jumping around too fast. And you can see"
+    },
+    {
+      "start": 554.72,
+      "duration": 6.16,
+      "text": "it sends uh the brief, the length is"
+    },
+    {
+      "start": 556.88,
+      "duration": 5.76,
+      "text": "short and the language is eh Hebrew. And"
+    },
+    {
+      "start": 560.88,
+      "duration": 4.639,
+      "text": "that's the prompt it's sending to the"
+    },
+    {
+      "start": 562.64,
+      "duration": 5.04,
+      "text": "back end uh creation of the audio"
+    },
+    {
+      "start": 565.519,
+      "duration": 3.521,
+      "text": "overview. So now it's also going to"
+    },
+    {
+      "start": 567.68,
+      "duration": 3.599,
+      "text": "check when is the resource. So if I'll"
+    },
+    {
+      "start": 569.04,
+      "duration": 5.52,
+      "text": "jump back. So here as you can see that"
+    },
+    {
+      "start": 571.279,
+      "duration": 6.801,
+      "text": "um it created a new notebook LMCP"
+    },
+    {
+      "start": 574.56,
+      "duration": 6.8,
+      "text": "research and here's the audio overview."
+    },
+    {
+      "start": 578.08,
+      "duration": 7.199,
+      "text": "So let me go back here. Okay. Awesome."
+    },
+    {
+      "start": 581.36,
+      "duration": 5.599,
+      "text": "So, can you create a quiz, an"
+    },
+    {
+      "start": 585.279,
+      "duration": 5.761,
+      "text": "infographic,"
+    },
+    {
+      "start": 586.959,
+      "duration": 6.401,
+      "text": "and data pack?"
+    },
+    {
+      "start": 591.04,
+      "duration": 4.72,
+      "text": "So, now it's going to try to create a"
+    },
+    {
+      "start": 593.36,
+      "duration": 4.479,
+      "text": "quiz, infographic, and data pack. It"
+    },
+    {
+      "start": 595.76,
+      "duration": 3.6,
+      "text": "will show me three. Yeah, create a data"
+    },
+    {
+      "start": 597.839,
+      "duration": 4.961,
+      "text": "pack."
+    },
+    {
+      "start": 599.36,
+      "duration": 6.24,
+      "text": "Um, and"
+    },
+    {
+      "start": 602.8,
+      "duration": 6.039,
+      "text": "uh create all three. Yeah, why not?"
+    },
+    {
+      "start": 605.6,
+      "duration": 3.239,
+      "text": "Let's go."
+    },
+    {
+      "start": 608.88,
+      "duration": 4.48,
+      "text": "And you're going to create the quiz now"
+    },
+    {
+      "start": 611.76,
+      "duration": 3.6,
+      "text": "and probably going to ask for the last"
+    },
+    {
+      "start": 613.36,
+      "duration": 3.84,
+      "text": "one for the infographic. So if we'll"
+    },
+    {
+      "start": 615.36,
+      "duration": 4.32,
+      "text": "jump back quickly, you can see they're"
+    },
+    {
+      "start": 617.2,
+      "duration": 6.639,
+      "text": "being created in the background."
+    },
+    {
+      "start": 619.68,
+      "duration": 6.32,
+      "text": "Lastly, it's table our data um uh data"
+    },
+    {
+      "start": 623.839,
+      "duration": 3.921,
+      "text": "tables to be created. So that's the last"
+    },
+    {
+      "start": 626,
+      "duration": 3.2,
+      "text": "one. So now they're all being generated."
+    },
+    {
+      "start": 627.76,
+      "duration": 4.319,
+      "text": "It's checking for the quiz. Will take"
+    },
+    {
+      "start": 629.2,
+      "duration": 4.96,
+      "text": "few very quickly to generate them at"
+    },
+    {
+      "start": 632.079,
+      "duration": 3.601,
+      "text": "some point."
+    },
+    {
+      "start": 634.16,
+      "duration": 2.72,
+      "text": "And oh, by the way, all the resources"
+    },
+    {
+      "start": 635.68,
+      "duration": 4,
+      "text": "are done. Let's see if he created"
+    },
+    {
+      "start": 636.88,
+      "duration": 6.44,
+      "text": "actually this one in Hebrew. Uh, yeah,"
+    },
+    {
+      "start": 639.68,
+      "duration": 3.64,
+      "text": "it looks like it's"
+    },
+    {
+      "start": 643.44,
+      "duration": 2.32,
+      "text": "MCP."
+    },
+    {
+      "start": 644.399,
+      "duration": 2.721,
+      "text": ">> Yeah, it's in Hebrew. I don't know if"
+    },
+    {
+      "start": 645.76,
+      "duration": 3.84,
+      "text": "you can hear it, but that's created"
+    },
+    {
+      "start": 647.12,
+      "duration": 4.959,
+      "text": "something in Hebrew. In that same"
+    },
+    {
+      "start": 649.6,
+      "duration": 4.88,
+      "text": "notebook that you're in, can you run a"
+    },
+    {
+      "start": 652.079,
+      "duration": 7.601,
+      "text": "local drive search in the notebook using"
+    },
+    {
+      "start": 654.48,
+      "duration": 6.64,
+      "text": "the tool for notebook LM MCP resources?"
+    },
+    {
+      "start": 659.68,
+      "duration": 2.8,
+      "text": "Okay, so now I will be a little bit more"
+    },
+    {
+      "start": 661.12,
+      "duration": 5.2,
+      "text": "explicit. Hopefully, it will pick it up."
+    },
+    {
+      "start": 662.48,
+      "duration": 5.68,
+      "text": "It's Hiku after all. And there we go."
+    },
+    {
+      "start": 666.32,
+      "duration": 3.36,
+      "text": "Oh, actually it's running query again."
+    },
+    {
+      "start": 668.16,
+      "duration": 4.48,
+      "text": "That's that's where you're going to"
+    },
+    {
+      "start": 669.68,
+      "duration": 4.719,
+      "text": "probably hit some issues with lower-end"
+    },
+    {
+      "start": 672.64,
+      "duration": 4.48,
+      "text": "models. They're not as smart. For"
+    },
+    {
+      "start": 674.399,
+      "duration": 5.281,
+      "text": "example, if I was using Sonnet or Opus,"
+    },
+    {
+      "start": 677.12,
+      "duration": 4.48,
+      "text": "obviously the it will be smarter in"
+    },
+    {
+      "start": 679.68,
+      "duration": 4.24,
+      "text": "getting my request and and taking the"
+    },
+    {
+      "start": 681.6,
+      "duration": 5.76,
+      "text": "right tool. But essentially what you're"
+    },
+    {
+      "start": 683.92,
+      "duration": 6.88,
+      "text": "seeing here, it asks that notebook and"
+    },
+    {
+      "start": 687.36,
+      "duration": 5.68,
+      "text": "this is one of the major elements of of"
+    },
+    {
+      "start": 690.8,
+      "duration": 4.8,
+      "text": "a notebook where you can ask it"
+    },
+    {
+      "start": 693.04,
+      "duration": 5.28,
+      "text": "questions. And that's what uh it's just"
+    },
+    {
+      "start": 695.6,
+      "duration": 6,
+      "text": "did. So it went to the notebook, it"
+    },
+    {
+      "start": 698.32,
+      "duration": 6.88,
+      "text": "asked it the question and it presented"
+    },
+    {
+      "start": 701.6,
+      "duration": 6.56,
+      "text": "the qu the response back to me"
+    },
+    {
+      "start": 705.2,
+      "duration": 5.759,
+      "text": "and where it got it and all this"
+    },
+    {
+      "start": 708.16,
+      "duration": 5.119,
+      "text": "information. So imagine a scenario where"
+    },
+    {
+      "start": 710.959,
+      "duration": 3.761,
+      "text": "you can you're working in cloud code on"
+    },
+    {
+      "start": 713.279,
+      "duration": 3.361,
+      "text": "something for example on some new"
+    },
+    {
+      "start": 714.72,
+      "duration": 4.72,
+      "text": "technology or project or a language and"
+    },
+    {
+      "start": 716.64,
+      "duration": 5.68,
+      "text": "you can ask it to quickly create uh a"
+    },
+    {
+      "start": 719.44,
+      "duration": 5.36,
+      "text": "notebook lm research on that particular"
+    },
+    {
+      "start": 722.32,
+      "duration": 4.88,
+      "text": "language or topic that you really want"
+    },
+    {
+      "start": 724.8,
+      "duration": 6.24,
+      "text": "uh to get some information and ask it to"
+    },
+    {
+      "start": 727.2,
+      "duration": 5.439,
+      "text": "create um deep research on that notebook"
+    },
+    {
+      "start": 731.04,
+      "duration": 3.52,
+      "text": "and once it's done it will let you know"
+    },
+    {
+      "start": 732.639,
+      "duration": 4.721,
+      "text": "and then you can ask that notebook or"
+    },
+    {
+      "start": 734.56,
+      "duration": 4.64,
+      "text": "your AI tool any question you may add to"
+    },
+    {
+      "start": 737.36,
+      "duration": 3.84,
+      "text": "make your AI smarter. order and and"
+    },
+    {
+      "start": 739.2,
+      "duration": 5.52,
+      "text": "really handle some sort of a scenario"
+    },
+    {
+      "start": 741.2,
+      "duration": 5.439,
+      "text": "that is happening and it will do that"
+    },
+    {
+      "start": 744.72,
+      "duration": 4.239,
+      "text": "for you automatically and then you can"
+    },
+    {
+      "start": 746.639,
+      "duration": 6.64,
+      "text": "delete it. So, and let me show you how"
+    },
+    {
+      "start": 748.959,
+      "duration": 7.44,
+      "text": "to do that. So, let's take that name"
+    },
+    {
+      "start": 753.279,
+      "duration": 5.041,
+      "text": "and I'll show you the deletion of this"
+    },
+    {
+      "start": 756.399,
+      "duration": 5.641,
+      "text": "project. So, let's ask it to delete that"
+    },
+    {
+      "start": 758.32,
+      "duration": 3.72,
+      "text": "pro that notebook."
+    },
+    {
+      "start": 762.079,
+      "duration": 7.2,
+      "text": "Please delete I'm so lazy. Oh my god."
+    },
+    {
+      "start": 765.44,
+      "duration": 6.32,
+      "text": "and I give it the the the notebook LM"
+    },
+    {
+      "start": 769.279,
+      "duration": 5.36,
+      "text": "MCP research. Now, as I mentioned, it's"
+    },
+    {
+      "start": 771.76,
+      "duration": 6.56,
+      "text": "going to ask you for confirmation. So,"
+    },
+    {
+      "start": 774.639,
+      "duration": 8.521,
+      "text": "I'll say yes, delete it. And that"
+    },
+    {
+      "start": 778.32,
+      "duration": 4.84,
+      "text": "notebook LM should be gone."
+    },
+    {
+      "start": 783.279,
+      "duration": 4.56,
+      "text": "And it says success. So, if I'll refresh"
+    },
+    {
+      "start": 785.44,
+      "duration": 5.519,
+      "text": "that page,"
+    },
+    {
+      "start": 787.839,
+      "duration": 5.921,
+      "text": "the notebookmcp that was here uh is"
+    },
+    {
+      "start": 790.959,
+      "duration": 5.601,
+      "text": "gone. So, um, hopefully I gave you a"
+    },
+    {
+      "start": 793.76,
+      "duration": 4.879,
+      "text": "sense of what this MCP is all about."
+    },
+    {
+      "start": 796.56,
+      "duration": 5.92,
+      "text": "It's the biggest MCP I ever created."
+    },
+    {
+      "start": 798.639,
+      "duration": 6.401,
+      "text": "Like I mentioned, it's 31 tools, but"
+    },
+    {
+      "start": 802.48,
+      "duration": 6.08,
+      "text": "with a lot of tools come a lot of uh,"
+    },
+    {
+      "start": 805.04,
+      "duration": 7.039,
+      "text": "responsibility and tokens. So, if I'll"
+    },
+    {
+      "start": 808.56,
+      "duration": 5.92,
+      "text": "go into my context window here, you're"
+    },
+    {
+      "start": 812.079,
+      "duration": 5.44,
+      "text": "probably going to see all the tools that"
+    },
+    {
+      "start": 814.48,
+      "duration": 5.84,
+      "text": "are being loaded. And you can see that"
+    },
+    {
+      "start": 817.519,
+      "duration": 5.44,
+      "text": "the MCP tools consume quite a lot. I did"
+    },
+    {
+      "start": 820.32,
+      "duration": 4.88,
+      "text": "a lot of the optimization uh to reduce"
+    },
+    {
+      "start": 822.959,
+      "duration": 4.241,
+      "text": "the token consumption of all the tools."
+    },
+    {
+      "start": 825.2,
+      "duration": 4.4,
+      "text": "There's a lot of techniques to do that"
+    },
+    {
+      "start": 827.2,
+      "duration": 4.72,
+      "text": "but it's still it's going to occupy"
+    },
+    {
+      "start": 829.6,
+      "duration": 4.96,
+      "text": "whites space. So what I'm suggesting is"
+    },
+    {
+      "start": 831.92,
+      "duration": 5.84,
+      "text": "if you're not using it just uh disable"
+    },
+    {
+      "start": 834.56,
+      "duration": 5.279,
+      "text": "it. For example, you can go to MCP and"
+    },
+    {
+      "start": 837.76,
+      "duration": 4.079,
+      "text": "disable and that will disable all your"
+    },
+    {
+      "start": 839.839,
+      "duration": 5.12,
+      "text": "MCP. Right? So now nothing is working."
+    },
+    {
+      "start": 841.839,
+      "duration": 5.68,
+      "text": "And one thing of authentication,"
+    },
+    {
+      "start": 844.959,
+      "duration": 5.44,
+      "text": "they're shortlived. It's going to ask"
+    },
+    {
+      "start": 847.519,
+      "duration": 5.68,
+      "text": "you probably refresh every once in a"
+    },
+    {
+      "start": 850.399,
+      "duration": 4.721,
+      "text": "while. So all you need to do is when"
+    },
+    {
+      "start": 853.199,
+      "duration": 4.64,
+      "text": "it's uh refreshed, you just do like I"
+    },
+    {
+      "start": 855.12,
+      "duration": 4.959,
+      "text": "did. You do the the the bash command."
+    },
+    {
+      "start": 857.839,
+      "duration": 5.841,
+      "text": "And let me do this properly. So you're"
+    },
+    {
+      "start": 860.079,
+      "duration": 5.12,
+      "text": "going to do uh notebook"
+    },
+    {
+      "start": 863.68,
+      "duration": 5.76,
+      "text": "lm"
+    },
+    {
+      "start": 865.199,
+      "duration": 7.121,
+      "text": "mcp o and as I mentioned that will bring"
+    },
+    {
+      "start": 869.44,
+      "duration": 4.72,
+      "text": "up the window and as you can see I'm"
+    },
+    {
+      "start": 872.32,
+      "duration": 4,
+      "text": "already logged in so it should be quicky"
+    },
+    {
+      "start": 874.16,
+      "duration": 4.239,
+      "text": "I don't need to do anything again I"
+    },
+    {
+      "start": 876.32,
+      "duration": 3.92,
+      "text": "don't need to log into Google and in the"
+    },
+    {
+      "start": 878.399,
+      "duration": 7.081,
+      "text": "back end it did it so one of the thing"
+    },
+    {
+      "start": 880.24,
+      "duration": 5.24,
+      "text": "is say list all my notebooks"
+    },
+    {
+      "start": 887.12,
+      "duration": 6.159,
+      "text": "and if everything okay you'll see an API"
+    },
+    {
+      "start": 890.48,
+      "duration": 5.12,
+      "text": "call with the response success as you"
+    },
+    {
+      "start": 893.279,
+      "duration": 3.601,
+      "text": "can see here and I have 25 and you know"
+    },
+    {
+      "start": 895.6,
+      "duration": 3.919,
+      "text": "how it goes. It's going to tell me how"
+    },
+    {
+      "start": 896.88,
+      "duration": 4.88,
+      "text": "many I have and which one and so forth."
+    },
+    {
+      "start": 899.519,
+      "duration": 4.721,
+      "text": "Hopefully you were able to see uh I I"
+    },
+    {
+      "start": 901.76,
+      "duration": 6.24,
+      "text": "was able to show you what this notebook"
+    },
+    {
+      "start": 904.24,
+      "duration": 6.56,
+      "text": "is all about and the MCP that comes with"
+    },
+    {
+      "start": 908,
+      "duration": 4.959,
+      "text": "it. It's a really powerful tool. I am a"
+    },
+    {
+      "start": 910.8,
+      "duration": 6.8,
+      "text": "heavy user of Notebook LM for both"
+    },
+    {
+      "start": 912.959,
+      "duration": 7.361,
+      "text": "personal and professional. So hopefully"
+    },
+    {
+      "start": 917.6,
+      "duration": 4.799,
+      "text": "you'll find it interesting and if you"
+    },
+    {
+      "start": 920.32,
+      "duration": 5.44,
+      "text": "want to try it out and you want to play"
+    },
+    {
+      "start": 922.399,
+      "duration": 5.68,
+      "text": "around, it's available on my GitHub. So"
+    },
+    {
+      "start": 925.76,
+      "duration": 6.079,
+      "text": "as I showed you, it's going to be"
+    },
+    {
+      "start": 928.079,
+      "duration": 6.161,
+      "text": "available right now. Go have at it and"
+    },
+    {
+      "start": 931.839,
+      "duration": 4.56,
+      "text": "if you like it, contribute fork. And"
+    },
+    {
+      "start": 934.24,
+      "duration": 4.159,
+      "text": "this is again another tool that I"
+    },
+    {
+      "start": 936.399,
+      "duration": 4.321,
+      "text": "created by VIP coding. I'm not a"
+    },
+    {
+      "start": 938.399,
+      "duration": 3.761,
+      "text": "developer. So if you're a developer and"
+    },
+    {
+      "start": 940.72,
+      "duration": 2.799,
+      "text": "you're coming in and you see this tool"
+    },
+    {
+      "start": 942.16,
+      "duration": 4.16,
+      "text": "and you're saying, \"Oh my god, this is"
+    },
+    {
+      "start": 943.519,
+      "duration": 6.401,
+      "text": "terrible.\" probably. Yes, it's maybe not"
+    },
+    {
+      "start": 946.32,
+      "duration": 5.68,
+      "text": "the most optimized, but it's working and"
+    },
+    {
+      "start": 949.92,
+      "duration": 5.359,
+      "text": "it's pretty awesome, so I don't care."
+    },
+    {
+      "start": 952,
+      "duration": 7.44,
+      "text": "So, have at it, enjoy, and let me know"
+    },
+    {
+      "start": 955.279,
+      "duration": 4.161,
+      "text": "what you think. Cheers."
+    }
+  ],
+  "fullText": "Hello world. My name is Jacob and I'm here to show you my latest project. And this was a big one actually. It's called Notebook MCP server. It's uh as it says in the name, it's an MCP model context protocol for Notebook LM. And you probably wondering, yeah, that's not new. We've seen many of them out there. Yes, that's true. But this is a little bit different. um my version which include 31 tools you can see all of them includes the latest features including data packs it's not using automation browser that's what most of the other tools out there are using I'm using something else I reverse engineer the Google internal RPC calls which think of them as internal APIs they use to communicate with features and I build the MCP around it pretty cool once you see it in action. It's pretty fast. Um, you can add it to any of your favorite AI tools. I'll show you some examples with claw code. And let's start quickly with the installation. So, it's very straightforward. You clone and copy. Ctrl +V and enter. So, now it's going to clone and install. That's more or less it. So, let's add this to claw code. So, I'm going to use the user scope. So it's going to be this one and pasted and done. So let's do a cloud MCP list to see what we have installed. So and obviously going to check if it's working. So we have the workspace MCP something I also built here is the notebook LM MCP. So I think we're good. if you're using Gemini or if you're using some sort of uh you know IDE that requires JSON configuration. So here's an example of how you do it. It's very straightforward. No args on this one. You just give it a path of usually your user directory and that path. So let's make sure it works. Let's launch cloud. So the first thing you need to do is to log in and create an authentication. The authentication is also a little bit tricky. Um in for that process we need special cookies that are available during the session. They're are quite complex to extract. There is instructions how to do it. But I created a a convenient authentication app that will do everything for you. Uh the authentication what you will do it will open um Chrome in debug mode. it's going to create a new temporary uh profile. So you'll need to go through your regular Google authentication, but that will be saved in the same directory where that MCP. So going forward, you don't need to enter your Google again and again. So I'm going to go really quickly with that and show you how the command works. So it's going to be I'll just do it with bash. So I'll do the bash command from here and that's going to run the command for me. And you'll see in the background here it is. try to log in. So there you have it. So you can see in the background it's authenticated and I'm all set. So now I am in my notebook lm.com. So you can see side by side what's happening and I can show you actually things happening as I work with the MCP. Uh let's ask claw code uh to list all my notebooks. So can you please list all my notebook LMS? So now it's going to execute the tool. There we go. You can see the first tool to list the notebooks and I'm going to say okay, accept it going forward and you can see it's already kind of getting the response from the back end and it says I have 25. It's going to formulate and here are all nine notebooks. So and it can even tell you how many you own, how many you shared. um with me and how many shared by me. So that's pretty cool. So um let's ask it about this thingy. Um mastering the notebook lm MCP thingy. Can you describe the notebook? And I'm just going to paste the name and let's see what it's going to give me. So right, it's going to try to run this uh command. It's called describe notebook. And that command will go into the notebook, ask it what it's about. And essentially that's what you see when you go into a notebook and you'll get this preview of the notebook. So it takes it and you can see side by side. It's almost identical. Sometimes they do some paraphrasing, but it shows you what it's in there. So that's cool. Uh I don't see the side. So wondering um how many sources in this notebook. So now again it's going to execute a command and it's already know that they got 14. Can you show me all the sources attached to this notebook their type and if any of them requires reync into Google drive. So if you have notebooks before and you use notebook LM, you know that when you attach a Google Drive resource, the source is kind of a a point of time. So unless you manually sync it with Google Drive after you made changes in the source, it will never pick it up. So this one I'll let it run in the background. So now it will list the sources and we'll also check which one are out of sick, which one are not fresh. So there we go. So you can see it already told me. Oh, this one needs sync. So that's the notebook lm um demo script. Uh I I had a demo script for this video, but I'm I'm terrible at following scripts, so I'm improvising as you can see. Let's ask it to sync it. Can you please synchronize the uh sources that require sync? But I I think you're going to figure it out. If it's with haiku, uh it should be okay with u uh syncing. So, and there's some actions that require explicit confirmation obviously some uh actions like that, but specifically the delete actions which we will see. And yeah, I'll say sync now and yes and it's executing the sync. Looks like successful and one source synced. So now let's ask it can you describe the notebook MCP demo script and now what it's going to do is if you go into a notebook LM right and on the sources you can click on a source and you can ask it and you'll see description autogenerated AI's description of this source so it doing the same thing so it'll give you an explanation what it's about that's cool can you run a fast web research on notebook LM MCP and check when the results are ready. Yes, I want to proceed. So now it's checking uh the status of the research and yeah it discovered that there is uh it's done. It was so quick I didn't refresh didn't work. So I will say import all sources and now it will include all the sources. So obviously this is one thing. What about creating uh resources you know we have a lot of cool resources in notebook. You can create audio overview, video overview, mind maps, reports, flashcards, quiz, an infographic, even slide decks, and recently added data tables. So, let's ask it to create some of the uh resources for us. Can you create an audio overview, aim for a 5minut podcast focusing on the benefits of MCP for Notebook LM? And let's see if it's going to do that. It's now taking my request. It knows what the type uh of o overview available. For example, if I go back here, when you click on the audio overview, you'll see have some options, brief and critique and debate. I could ask it for everything. I could ask for short and long. And I could even ask for language. So, that's one thing that I could do. And I'll you know what? I'll try to do that right now. No. You know what? No. cancel. Can you actually create the audio overview in Hebrew but again aim for five minutes length? So now it also supports uh any language that available in that. So it should give me yes created. I'm jumping around too fast. And you can see it sends uh the brief, the length is short and the language is eh Hebrew. And that's the prompt it's sending to the back end uh creation of the audio overview. So now it's also going to check when is the resource. So if I'll jump back. So here as you can see that um it created a new notebook LMCP research and here's the audio overview. So let me go back here. Okay. Awesome. So, can you create a quiz, an infographic, and data pack? So, now it's going to try to create a quiz, infographic, and data pack. It will show me three. Yeah, create a data pack. Um, and uh create all three. Yeah, why not? Let's go. And you're going to create the quiz now and probably going to ask for the last one for the infographic. So if we'll jump back quickly, you can see they're being created in the background. Lastly, it's table our data um uh data tables to be created. So that's the last one. So now they're all being generated. It's checking for the quiz. Will take few very quickly to generate them at some point. And oh, by the way, all the resources are done. Let's see if he created actually this one in Hebrew. Uh, yeah, it looks like it's MCP. >> Yeah, it's in Hebrew. I don't know if you can hear it, but that's created something in Hebrew. In that same notebook that you're in, can you run a local drive search in the notebook using the tool for notebook LM MCP resources? Okay, so now I will be a little bit more explicit. Hopefully, it will pick it up. It's Hiku after all. And there we go. Oh, actually it's running query again. That's that's where you're going to probably hit some issues with lower-end models. They're not as smart. For example, if I was using Sonnet or Opus, obviously the it will be smarter in getting my request and and taking the right tool. But essentially what you're seeing here, it asks that notebook and this is one of the major elements of of a notebook where you can ask it questions. And that's what uh it's just did. So it went to the notebook, it asked it the question and it presented the qu the response back to me and where it got it and all this information. So imagine a scenario where you can you're working in cloud code on something for example on some new technology or project or a language and you can ask it to quickly create uh a notebook lm research on that particular language or topic that you really want uh to get some information and ask it to create um deep research on that notebook and once it's done it will let you know and then you can ask that notebook or your AI tool any question you may add to make your AI smarter. order and and really handle some sort of a scenario that is happening and it will do that for you automatically and then you can delete it. So, and let me show you how to do that. So, let's take that name and I'll show you the deletion of this project. So, let's ask it to delete that pro that notebook. Please delete I'm so lazy. Oh my god. and I give it the the the notebook LM MCP research. Now, as I mentioned, it's going to ask you for confirmation. So, I'll say yes, delete it. And that notebook LM should be gone. And it says success. So, if I'll refresh that page, the notebookmcp that was here uh is gone. So, um, hopefully I gave you a sense of what this MCP is all about. It's the biggest MCP I ever created. Like I mentioned, it's 31 tools, but with a lot of tools come a lot of uh, responsibility and tokens. So, if I'll go into my context window here, you're probably going to see all the tools that are being loaded. And you can see that the MCP tools consume quite a lot. I did a lot of the optimization uh to reduce the token consumption of all the tools. There's a lot of techniques to do that but it's still it's going to occupy whites space. So what I'm suggesting is if you're not using it just uh disable it. For example, you can go to MCP and disable and that will disable all your MCP. Right? So now nothing is working. And one thing of authentication, they're shortlived. It's going to ask you probably refresh every once in a while. So all you need to do is when it's uh refreshed, you just do like I did. You do the the the bash command. And let me do this properly. So you're going to do uh notebook lm mcp o and as I mentioned that will bring up the window and as you can see I'm already logged in so it should be quicky I don't need to do anything again I don't need to log into Google and in the back end it did it so one of the thing is say list all my notebooks and if everything okay you'll see an API call with the response success as you can see here and I have 25 and you know how it goes. It's going to tell me how many I have and which one and so forth. Hopefully you were able to see uh I I was able to show you what this notebook is all about and the MCP that comes with it. It's a really powerful tool. I am a heavy user of Notebook LM for both personal and professional. So hopefully you'll find it interesting and if you want to try it out and you want to play around, it's available on my GitHub. So as I showed you, it's going to be available right now. Go have at it and if you like it, contribute fork. And this is again another tool that I created by VIP coding. I'm not a developer. So if you're a developer and you're coming in and you see this tool and you're saying, \"Oh my god, this is terrible.\" probably. Yes, it's maybe not the most optimized, but it's working and it's pretty awesome, so I don't care. So, have at it, enjoy, and let me know what you think. Cheers.",
+  "fetchedAt": "2026-01-18T18:33:35.992Z"
+}

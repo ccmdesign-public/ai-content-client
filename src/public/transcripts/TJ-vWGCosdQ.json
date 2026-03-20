@@ -1,0 +1,1029 @@
+{
+  "videoId": "TJ-vWGCosdQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 6,
+      "text": "A revolutionary new paper has just been"
+    },
+    {
+      "start": 2.48,
+      "duration": 6.48,
+      "text": "published this month, November 2025,"
+    },
+    {
+      "start": 6.16,
+      "duration": 5.04,
+      "text": "titled solving a millionstep LLM task"
+    },
+    {
+      "start": 8.96,
+      "duration": 5.04,
+      "text": "with zero errors coming out of the"
+    },
+    {
+      "start": 11.2,
+      "duration": 5.2,
+      "text": "Cognizant AI lab. It directly confronts"
+    },
+    {
+      "start": 14,
+      "duration": 5.52,
+      "text": "the single biggest failure mode we are"
+    },
+    {
+      "start": 16.4,
+      "duration": 5.84,
+      "text": "all facing right now in the AI industry."
+    },
+    {
+      "start": 19.52,
+      "duration": 5.2,
+      "text": "We have all seen the demos, AI agents"
+    },
+    {
+      "start": 22.24,
+      "duration": 4.32,
+      "text": "that can write code, plan trips, or"
+    },
+    {
+      "start": 24.72,
+      "duration": 4.639,
+      "text": "manage spreadsheets. They look"
+    },
+    {
+      "start": 26.56,
+      "duration": 4.4,
+      "text": "incredible for the first 5 minutes. But"
+    },
+    {
+      "start": 29.359,
+      "duration": 4.001,
+      "text": "have you noticed what happens when you"
+    },
+    {
+      "start": 30.96,
+      "duration": 4.72,
+      "text": "ask them to do something long? When you"
+    },
+    {
+      "start": 33.36,
+      "duration": 4.56,
+      "text": "ask them to migrate a database or write"
+    },
+    {
+      "start": 35.68,
+      "duration": 4.48,
+      "text": "a novel or conduct a scientific"
+    },
+    {
+      "start": 37.92,
+      "duration": 5.28,
+      "text": "experiment that requires hundreds of"
+    },
+    {
+      "start": 40.16,
+      "duration": 5.36,
+      "text": "sequential steps, they fail. They drift."
+    },
+    {
+      "start": 43.2,
+      "duration": 5.839,
+      "text": "They hallucinate. We usually blame the"
+    },
+    {
+      "start": 45.52,
+      "duration": 6.96,
+      "text": "model thinking, \"Oh, if only GPT5 were"
+    },
+    {
+      "start": 49.039,
+      "duration": 5.601,
+      "text": "here.\" Or we blame the context window"
+    },
+    {
+      "start": 52.48,
+      "duration": 4.559,
+      "text": "thinking, \"If only I could fit a million"
+    },
+    {
+      "start": 54.64,
+      "duration": 3.84,
+      "text": "tokens in memory.\" This paper proves"
+    },
+    {
+      "start": 57.039,
+      "duration": 4,
+      "text": "that we are looking at the problem"
+    },
+    {
+      "start": 58.48,
+      "duration": 5.04,
+      "text": "entirely wrong. The authors managed to"
+    },
+    {
+      "start": 61.039,
+      "duration": 4.721,
+      "text": "get an LLM to execute a task requiring"
+    },
+    {
+      "start": 63.52,
+      "duration": 4.8,
+      "text": "over 1 million logical steps without"
+    },
+    {
+      "start": 65.76,
+      "duration": 4.8,
+      "text": "making a single mistake. And the kicker,"
+    },
+    {
+      "start": 68.32,
+      "duration": 4.24,
+      "text": "they didn't use a super intelligence we"
+    },
+    {
+      "start": 70.56,
+      "duration": 4.16,
+      "text": "don't have yet. They didn't use a"
+    },
+    {
+      "start": 72.56,
+      "duration": 4.32,
+      "text": "context window the size of a library."
+    },
+    {
+      "start": 74.72,
+      "duration": 4.399,
+      "text": "They effectively used no context window"
+    },
+    {
+      "start": 76.88,
+      "duration": 4.559,
+      "text": "at all. They achieved this through an"
+    },
+    {
+      "start": 79.119,
+      "duration": 4.241,
+      "text": "architectural framework they call maker"
+    },
+    {
+      "start": 81.439,
+      "duration": 4.161,
+      "text": "or massively decomposed agentic"
+    },
+    {
+      "start": 83.36,
+      "duration": 4,
+      "text": "processes. The implications of this are"
+    },
+    {
+      "start": 85.6,
+      "duration": 4.159,
+      "text": "massive because it suggests that"
+    },
+    {
+      "start": 87.36,
+      "duration": 4.24,
+      "text": "reliability is not a model capability"
+    },
+    {
+      "start": 89.759,
+      "duration": 4,
+      "text": "problem. It is an engineering"
+    },
+    {
+      "start": 91.6,
+      "duration": 4.159,
+      "text": "architecture problem. To understand why"
+    },
+    {
+      "start": 93.759,
+      "duration": 4.561,
+      "text": "this is such a big deal, we have to look"
+    },
+    {
+      "start": 95.759,
+      "duration": 5.04,
+      "text": "at the brutal math of probability. This"
+    },
+    {
+      "start": 98.32,
+      "duration": 5.2,
+      "text": "is the why behind every failed agent you"
+    },
+    {
+      "start": 100.799,
+      "duration": 5.36,
+      "text": "have ever built. Imagine you have a"
+    },
+    {
+      "start": 103.52,
+      "duration": 5.36,
+      "text": "state-of-the-art model that is 99%"
+    },
+    {
+      "start": 106.159,
+      "duration": 4.801,
+      "text": "accurate at following instructions. That"
+    },
+    {
+      "start": 108.88,
+      "duration": 5.279,
+      "text": "sounds production ready, right? If your"
+    },
+    {
+      "start": 110.96,
+      "duration": 6.4,
+      "text": "task has one step, you have a 99%"
+    },
+    {
+      "start": 114.159,
+      "duration": 6.32,
+      "text": "success rate. If your task has 10 steps,"
+    },
+    {
+      "start": 117.36,
+      "duration": 6.079,
+      "text": "you are down to about 90%. But if your"
+    },
+    {
+      "start": 120.479,
+      "duration": 6,
+      "text": "task requires 1,000 steps, your"
+    },
+    {
+      "start": 123.439,
+      "duration": 5.44,
+      "text": "probability of success is 99% to the"
+    },
+    {
+      "start": 126.479,
+      "duration": 5.361,
+      "text": "power of 1,000. That number is"
+    },
+    {
+      "start": 128.879,
+      "duration": 6,
+      "text": "effectively zero. And real world tasks,"
+    },
+    {
+      "start": 131.84,
+      "duration": 5.84,
+      "text": "engineering, science, logistics are not"
+    },
+    {
+      "start": 134.879,
+      "duration": 4.801,
+      "text": "10 steps long. They are thousands. The"
+    },
+    {
+      "start": 137.68,
+      "duration": 4.8,
+      "text": "researchers demonstrated this using a"
+    },
+    {
+      "start": 139.68,
+      "duration": 4.559,
+      "text": "benchmark called the Tower of Hanoi. It"
+    },
+    {
+      "start": 142.48,
+      "duration": 4.16,
+      "text": "is a recursive puzzle where you move"
+    },
+    {
+      "start": 144.239,
+      "duration": 4.801,
+      "text": "discs between pegs without placing a"
+    },
+    {
+      "start": 146.64,
+      "duration": 7.72,
+      "text": "larger disc on a smaller one. Solving it"
+    },
+    {
+      "start": 149.04,
+      "duration": 5.32,
+      "text": "for 20 discs requires exactly 1,48,575"
+    },
+    {
+      "start": 155.2,
+      "duration": 5.28,
+      "text": "moves. When they tried to solve this"
+    },
+    {
+      "start": 157.12,
+      "duration": 6.16,
+      "text": "with a standard monolithic GPT4 agent,"
+    },
+    {
+      "start": 160.48,
+      "duration": 4.96,
+      "text": "it failed almost immediately. Why?"
+    },
+    {
+      "start": 163.28,
+      "duration": 4.48,
+      "text": "Because of context drift. As the"
+    },
+    {
+      "start": 165.44,
+      "duration": 5.2,
+      "text": "conversation history grows, the model"
+    },
+    {
+      "start": 167.76,
+      "duration": 4.64,
+      "text": "gets distracted by its own past outputs."
+    },
+    {
+      "start": 170.64,
+      "duration": 4.879,
+      "text": "It carries the weight of the entire"
+    },
+    {
+      "start": 172.4,
+      "duration": 5.119,
+      "text": "history and eventually it gets confused."
+    },
+    {
+      "start": 175.519,
+      "duration": 4.08,
+      "text": "This is where maker comes in. The"
+    },
+    {
+      "start": 177.519,
+      "duration": 4.401,
+      "text": "framework stands for maximal agentic"
+    },
+    {
+      "start": 179.599,
+      "duration": 4.241,
+      "text": "decomposition and it is built on three"
+    },
+    {
+      "start": 181.92,
+      "duration": 4.08,
+      "text": "pillars that completely invert how we"
+    },
+    {
+      "start": 183.84,
+      "duration": 4.56,
+      "text": "usually build agents. The first pillar"
+    },
+    {
+      "start": 186,
+      "duration": 5.2,
+      "text": "is maximal decomposition. The core"
+    },
+    {
+      "start": 188.4,
+      "duration": 5.119,
+      "text": "philosophy here is radical. Do not let"
+    },
+    {
+      "start": 191.2,
+      "duration": 4.399,
+      "text": "the agent remember the past. In a"
+    },
+    {
+      "start": 193.519,
+      "duration": 4.561,
+      "text": "standard agent loop, you usually append"
+    },
+    {
+      "start": 195.599,
+      "duration": 5.441,
+      "text": "the new action to the chat history list."
+    },
+    {
+      "start": 198.08,
+      "duration": 5.84,
+      "text": "In Maker, you don't. Each step is"
+    },
+    {
+      "start": 201.04,
+      "duration": 5.279,
+      "text": "treated as a brand new isolated problem."
+    },
+    {
+      "start": 203.92,
+      "duration": 4.399,
+      "text": "The agent receives the rules, the"
+    },
+    {
+      "start": 206.319,
+      "duration": 4.401,
+      "text": "current state of the world, and the"
+    },
+    {
+      "start": 208.319,
+      "duration": 4.64,
+      "text": "immediate goal just for that one step."
+    },
+    {
+      "start": 210.72,
+      "duration": 5.12,
+      "text": "It calculates the move, updates the"
+    },
+    {
+      "start": 212.959,
+      "duration": 5.521,
+      "text": "state, and then dies. The next agent"
+    },
+    {
+      "start": 215.84,
+      "duration": 4.959,
+      "text": "spins up, receives the new state, and"
+    },
+    {
+      "start": 218.48,
+      "duration": 5.2,
+      "text": "repeats. Because the agent has no"
+    },
+    {
+      "start": 220.799,
+      "duration": 5.041,
+      "text": "history of the previous 10,000 steps, it"
+    },
+    {
+      "start": 223.68,
+      "duration": 5.36,
+      "text": "cannot get confused by them. The state"
+    },
+    {
+      "start": 225.84,
+      "duration": 4.72,
+      "text": "object is the only memory that matters."
+    },
+    {
+      "start": 229.04,
+      "duration": 3.52,
+      "text": "This turns the agent from a"
+    },
+    {
+      "start": 230.56,
+      "duration": 4.72,
+      "text": "conversationalist into a stateless"
+    },
+    {
+      "start": 232.56,
+      "duration": 5.52,
+      "text": "function. It solves the context drift"
+    },
+    {
+      "start": 235.28,
+      "duration": 4.64,
+      "text": "problem by simply removing the context."
+    },
+    {
+      "start": 238.08,
+      "duration": 4,
+      "text": "The second pillar is what they call red"
+    },
+    {
+      "start": 239.92,
+      "duration": 4.64,
+      "text": "flagging. This is a fascinating insight"
+    },
+    {
+      "start": 242.08,
+      "duration": 4.32,
+      "text": "into LLM psychology. The researchers"
+    },
+    {
+      "start": 244.56,
+      "duration": 4.48,
+      "text": "found that when a model is about to make"
+    },
+    {
+      "start": 246.4,
+      "duration": 5.6,
+      "text": "a logic error, it often makes a syntax"
+    },
+    {
+      "start": 249.04,
+      "duration": 5.04,
+      "text": "error first or it starts rambling. If"
+    },
+    {
+      "start": 252,
+      "duration": 3.76,
+      "text": "you ask for a JSON object and the model"
+    },
+    {
+      "start": 254.08,
+      "duration": 4.8,
+      "text": "gives you a paragraph of text talking"
+    },
+    {
+      "start": 255.76,
+      "duration": 5.52,
+      "text": "about JSON, it is probably confused. If"
+    },
+    {
+      "start": 258.88,
+      "duration": 5.039,
+      "text": "the model usually takes 100 tokens to"
+    },
+    {
+      "start": 261.28,
+      "duration": 5.6,
+      "text": "answer but suddenly generates 500 tokens"
+    },
+    {
+      "start": 263.919,
+      "duration": 5.28,
+      "text": "of thinking, it is hallucinating. Maker"
+    },
+    {
+      "start": 266.88,
+      "duration": 4.64,
+      "text": "uses a strict parser. If the output"
+    },
+    {
+      "start": 269.199,
+      "duration": 4.881,
+      "text": "isn't perfectly formatted or if it's too"
+    },
+    {
+      "start": 271.52,
+      "duration": 4.8,
+      "text": "long, it throws it away immediately. It"
+    },
+    {
+      "start": 274.08,
+      "duration": 4.48,
+      "text": "doesn't try to repair the bad JSON. It"
+    },
+    {
+      "start": 276.32,
+      "duration": 4.48,
+      "text": "treats the syntax error as a proxy for a"
+    },
+    {
+      "start": 278.56,
+      "duration": 4.079,
+      "text": "logic error and forces a retry. The"
+    },
+    {
+      "start": 280.8,
+      "duration": 4.32,
+      "text": "third pillar, and this is the secret"
+    },
+    {
+      "start": 282.639,
+      "duration": 5.361,
+      "text": "sauce that gets you to zero errors, is"
+    },
+    {
+      "start": 285.12,
+      "duration": 4.96,
+      "text": "first to a head by K voting. For every"
+    },
+    {
+      "start": 288,
+      "duration": 4.96,
+      "text": "single step of the million steps, they"
+    },
+    {
+      "start": 290.08,
+      "duration": 5.44,
+      "text": "don't just ask the LLM once. They ask it"
+    },
+    {
+      "start": 292.96,
+      "duration": 4.72,
+      "text": "multiple times in parallel. They use a"
+    },
+    {
+      "start": 295.52,
+      "duration": 5.119,
+      "text": "voting algorithm derived from the"
+    },
+    {
+      "start": 297.68,
+      "duration": 6.079,
+      "text": "gumblers ruin problem in statistics."
+    },
+    {
+      "start": 300.639,
+      "duration": 5.84,
+      "text": "Let's say K equals 3. They sample"
+    },
+    {
+      "start": 303.759,
+      "duration": 5.601,
+      "text": "answers from the model. If move disk A"
+    },
+    {
+      "start": 306.479,
+      "duration": 5.521,
+      "text": "gets five votes and move disk B gets two"
+    },
+    {
+      "start": 309.36,
+      "duration": 4.88,
+      "text": "votes, the difference is three. Move"
+    },
+    {
+      "start": 312,
+      "duration": 4.24,
+      "text": "disk A wins. The math in the paper"
+    },
+    {
+      "start": 314.24,
+      "duration": 4.399,
+      "text": "proves that even if your base model is"
+    },
+    {
+      "start": 316.24,
+      "duration": 4.799,
+      "text": "only 80% accurate, which is pretty bad"
+    },
+    {
+      "start": 318.639,
+      "duration": 4.241,
+      "text": "if you use this voting mechanism, you"
+    },
+    {
+      "start": 321.039,
+      "duration": 5.121,
+      "text": "can push the composite accuracy of the"
+    },
+    {
+      "start": 322.88,
+      "duration": 5.2,
+      "text": "system to 99.9999%."
+    },
+    {
+      "start": 326.16,
+      "duration": 3.599,
+      "text": "This is how they took a fable model and"
+    },
+    {
+      "start": 328.08,
+      "duration": 4.08,
+      "text": "ran it for a million steps without a"
+    },
+    {
+      "start": 329.759,
+      "duration": 4.561,
+      "text": "single mistake. Now, I know what you are"
+    },
+    {
+      "start": 332.16,
+      "duration": 4.479,
+      "text": "thinking. You are thinking that sounds"
+    },
+    {
+      "start": 334.32,
+      "duration": 4.24,
+      "text": "incredibly slow and expensive. You want"
+    },
+    {
+      "start": 336.639,
+      "duration": 4.161,
+      "text": "me to run a swarm of agents for every"
+    },
+    {
+      "start": 338.56,
+      "duration": 4.72,
+      "text": "single step? But this leads to the most"
+    },
+    {
+      "start": 340.8,
+      "duration": 4.32,
+      "text": "important economic finding of the paper."
+    },
+    {
+      "start": 343.28,
+      "duration": 4.4,
+      "text": "They discovered a scaling law that"
+    },
+    {
+      "start": 345.12,
+      "duration": 4.48,
+      "text": "changes the economics of AI. They found"
+    },
+    {
+      "start": 347.68,
+      "duration": 4,
+      "text": "that small models plus voting are"
+    },
+    {
+      "start": 349.6,
+      "duration": 4.56,
+      "text": "actually cheaper than big models. We"
+    },
+    {
+      "start": 351.68,
+      "duration": 6,
+      "text": "often assume we need the smartest model"
+    },
+    {
+      "start": 354.16,
+      "duration": 6.08,
+      "text": "like a high-end GPT4 or claude opus to"
+    },
+    {
+      "start": 357.68,
+      "duration": 4.88,
+      "text": "solve hard problems. But those models"
+    },
+    {
+      "start": 360.24,
+      "duration": 4.959,
+      "text": "are expensive. The paper proves that it"
+    },
+    {
+      "start": 362.56,
+      "duration": 6.56,
+      "text": "is cheaper to ask a dump small model"
+    },
+    {
+      "start": 365.199,
+      "duration": 6.321,
+      "text": "like GPT 40 mini or llama 38B 10 times"
+    },
+    {
+      "start": 369.12,
+      "duration": 4.56,
+      "text": "and vote on the answer than to ask a"
+    },
+    {
+      "start": 371.52,
+      "duration": 4.48,
+      "text": "smart model once. Because of the"
+    },
+    {
+      "start": 373.68,
+      "duration": 4.639,
+      "text": "decomposition, the task becomes simple"
+    },
+    {
+      "start": 376,
+      "duration": 4.639,
+      "text": "just one logical step. You don't need a"
+    },
+    {
+      "start": 378.319,
+      "duration": 4.561,
+      "text": "genius model to solve one step. You just"
+    },
+    {
+      "start": 380.639,
+      "duration": 4.881,
+      "text": "need a model that can follow a rule. The"
+    },
+    {
+      "start": 382.88,
+      "duration": 4.879,
+      "text": "researchers calculated that to get sero"
+    },
+    {
+      "start": 385.52,
+      "duration": 4.959,
+      "text": "error reliability, the cost scales"
+    },
+    {
+      "start": 387.759,
+      "duration": 5.201,
+      "text": "logarithmically. That means solving a"
+    },
+    {
+      "start": 390.479,
+      "duration": 5.28,
+      "text": "task that is 10 times harder doesn't"
+    },
+    {
+      "start": 392.96,
+      "duration": 4.48,
+      "text": "cost 10 times more. It costs only a"
+    },
+    {
+      "start": 395.759,
+      "duration": 4.481,
+      "text": "little bit more in terms of voting"
+    },
+    {
+      "start": 397.44,
+      "duration": 6.24,
+      "text": "overhead. So why is this paper from"
+    },
+    {
+      "start": 400.24,
+      "duration": 5.28,
+      "text": "November 2025 so important? Because it"
+    },
+    {
+      "start": 403.68,
+      "duration": 3.84,
+      "text": "gives us a blueprint for building"
+    },
+    {
+      "start": 405.52,
+      "duration": 4.08,
+      "text": "software right now. If you are a"
+    },
+    {
+      "start": 407.52,
+      "duration": 4.959,
+      "text": "developer, here is how you apply Maker"
+    },
+    {
+      "start": 409.6,
+      "duration": 5.28,
+      "text": "today. First, stop relying on chat"
+    },
+    {
+      "start": 412.479,
+      "duration": 5.28,
+      "text": "history as your state management. You"
+    },
+    {
+      "start": 414.88,
+      "duration": 5.12,
+      "text": "need to define your atomic state. If you"
+    },
+    {
+      "start": 417.759,
+      "duration": 4.88,
+      "text": "are writing code, the state is the file"
+    },
+    {
+      "start": 420,
+      "duration": 5.199,
+      "text": "system and the compiler error log. If"
+    },
+    {
+      "start": 422.639,
+      "duration": 5.601,
+      "text": "you are analyzing data, the state is the"
+    },
+    {
+      "start": 425.199,
+      "duration": 5.921,
+      "text": "data frame. Second, decompose your tasks"
+    },
+    {
+      "start": 428.24,
+      "duration": 5.84,
+      "text": "to the micro level. Don't ask an agent"
+    },
+    {
+      "start": 431.12,
+      "duration": 5.359,
+      "text": "to write a function to calculate taxes."
+    },
+    {
+      "start": 434.08,
+      "duration": 4.48,
+      "text": "Break it down. Have one agent define the"
+    },
+    {
+      "start": 436.479,
+      "duration": 4.481,
+      "text": "inputs. Have another agent write the"
+    },
+    {
+      "start": 438.56,
+      "duration": 5.039,
+      "text": "signature. Have a third agent write the"
+    },
+    {
+      "start": 440.96,
+      "duration": 4.959,
+      "text": "logic for one specific tax bracket."
+    },
+    {
+      "start": 443.599,
+      "duration": 4.401,
+      "text": "Third, implement voting for critical"
+    },
+    {
+      "start": 445.919,
+      "duration": 4.081,
+      "text": "steps. You don't need to vote on"
+    },
+    {
+      "start": 448,
+      "duration": 3.759,
+      "text": "everything, but for critical decision"
+    },
+    {
+      "start": 450,
+      "duration": 4.639,
+      "text": "points where a mistake would ruin the"
+    },
+    {
+      "start": 451.759,
+      "duration": 5.28,
+      "text": "chain, spin up five parallel calls. If"
+    },
+    {
+      "start": 454.639,
+      "duration": 5.201,
+      "text": "they disagree, that is a signal that the"
+    },
+    {
+      "start": 457.039,
+      "duration": 4.961,
+      "text": "model is unsure. This paper teaches us"
+    },
+    {
+      "start": 459.84,
+      "duration": 4.4,
+      "text": "that reliability is an engineering"
+    },
+    {
+      "start": 462,
+      "duration": 4.16,
+      "text": "problem. We don't have to wait for the"
+    },
+    {
+      "start": 464.24,
+      "duration": 4.239,
+      "text": "model companies to solve hallucinations"
+    },
+    {
+      "start": 466.16,
+      "duration": 4.159,
+      "text": "for us. We can solve them today by"
+    },
+    {
+      "start": 468.479,
+      "duration": 4.56,
+      "text": "changing the architecture around the"
+    },
+    {
+      "start": 470.319,
+      "duration": 4.88,
+      "text": "model by treating LLMs as stochastic"
+    },
+    {
+      "start": 473.039,
+      "duration": 4.641,
+      "text": "components, unreliable parts that need"
+    },
+    {
+      "start": 475.199,
+      "duration": 4.72,
+      "text": "redundancy. verification and strict"
+    },
+    {
+      "start": 477.68,
+      "duration": 4.079,
+      "text": "inputs, we can build systems that are"
+    },
+    {
+      "start": 479.919,
+      "duration": 3.761,
+      "text": "exponentially more reliable than the"
+    },
+    {
+      "start": 481.759,
+      "duration": 3.521,
+      "text": "models that power them. This is the"
+    },
+    {
+      "start": 483.68,
+      "duration": 4,
+      "text": "difference between a chatbot and an"
+    },
+    {
+      "start": 485.28,
+      "duration": 4.639,
+      "text": "agent that can actually do work. Thanks"
+    },
+    {
+      "start": 487.68,
+      "duration": 4.4,
+      "text": "so much for watching. If you found this"
+    },
+    {
+      "start": 489.919,
+      "duration": 4,
+      "text": "breakdown useful, please hit the like"
+    },
+    {
+      "start": 492.08,
+      "duration": 3.92,
+      "text": "button and subscribe to the channel for"
+    },
+    {
+      "start": 493.919,
+      "duration": 5.921,
+      "text": "more deep dives into the latest AI"
+    },
+    {
+      "start": 496,
+      "duration": 3.84,
+      "text": "research. See you in the next"
+    }
+  ],
+  "fullText": "A revolutionary new paper has just been published this month, November 2025, titled solving a millionstep LLM task with zero errors coming out of the Cognizant AI lab. It directly confronts the single biggest failure mode we are all facing right now in the AI industry. We have all seen the demos, AI agents that can write code, plan trips, or manage spreadsheets. They look incredible for the first 5 minutes. But have you noticed what happens when you ask them to do something long? When you ask them to migrate a database or write a novel or conduct a scientific experiment that requires hundreds of sequential steps, they fail. They drift. They hallucinate. We usually blame the model thinking, \"Oh, if only GPT5 were here.\" Or we blame the context window thinking, \"If only I could fit a million tokens in memory.\" This paper proves that we are looking at the problem entirely wrong. The authors managed to get an LLM to execute a task requiring over 1 million logical steps without making a single mistake. And the kicker, they didn't use a super intelligence we don't have yet. They didn't use a context window the size of a library. They effectively used no context window at all. They achieved this through an architectural framework they call maker or massively decomposed agentic processes. The implications of this are massive because it suggests that reliability is not a model capability problem. It is an engineering architecture problem. To understand why this is such a big deal, we have to look at the brutal math of probability. This is the why behind every failed agent you have ever built. Imagine you have a state-of-the-art model that is 99% accurate at following instructions. That sounds production ready, right? If your task has one step, you have a 99% success rate. If your task has 10 steps, you are down to about 90%. But if your task requires 1,000 steps, your probability of success is 99% to the power of 1,000. That number is effectively zero. And real world tasks, engineering, science, logistics are not 10 steps long. They are thousands. The researchers demonstrated this using a benchmark called the Tower of Hanoi. It is a recursive puzzle where you move discs between pegs without placing a larger disc on a smaller one. Solving it for 20 discs requires exactly 1,48,575 moves. When they tried to solve this with a standard monolithic GPT4 agent, it failed almost immediately. Why? Because of context drift. As the conversation history grows, the model gets distracted by its own past outputs. It carries the weight of the entire history and eventually it gets confused. This is where maker comes in. The framework stands for maximal agentic decomposition and it is built on three pillars that completely invert how we usually build agents. The first pillar is maximal decomposition. The core philosophy here is radical. Do not let the agent remember the past. In a standard agent loop, you usually append the new action to the chat history list. In Maker, you don't. Each step is treated as a brand new isolated problem. The agent receives the rules, the current state of the world, and the immediate goal just for that one step. It calculates the move, updates the state, and then dies. The next agent spins up, receives the new state, and repeats. Because the agent has no history of the previous 10,000 steps, it cannot get confused by them. The state object is the only memory that matters. This turns the agent from a conversationalist into a stateless function. It solves the context drift problem by simply removing the context. The second pillar is what they call red flagging. This is a fascinating insight into LLM psychology. The researchers found that when a model is about to make a logic error, it often makes a syntax error first or it starts rambling. If you ask for a JSON object and the model gives you a paragraph of text talking about JSON, it is probably confused. If the model usually takes 100 tokens to answer but suddenly generates 500 tokens of thinking, it is hallucinating. Maker uses a strict parser. If the output isn't perfectly formatted or if it's too long, it throws it away immediately. It doesn't try to repair the bad JSON. It treats the syntax error as a proxy for a logic error and forces a retry. The third pillar, and this is the secret sauce that gets you to zero errors, is first to a head by K voting. For every single step of the million steps, they don't just ask the LLM once. They ask it multiple times in parallel. They use a voting algorithm derived from the gumblers ruin problem in statistics. Let's say K equals 3. They sample answers from the model. If move disk A gets five votes and move disk B gets two votes, the difference is three. Move disk A wins. The math in the paper proves that even if your base model is only 80% accurate, which is pretty bad if you use this voting mechanism, you can push the composite accuracy of the system to 99.9999%. This is how they took a fable model and ran it for a million steps without a single mistake. Now, I know what you are thinking. You are thinking that sounds incredibly slow and expensive. You want me to run a swarm of agents for every single step? But this leads to the most important economic finding of the paper. They discovered a scaling law that changes the economics of AI. They found that small models plus voting are actually cheaper than big models. We often assume we need the smartest model like a high-end GPT4 or claude opus to solve hard problems. But those models are expensive. The paper proves that it is cheaper to ask a dump small model like GPT 40 mini or llama 38B 10 times and vote on the answer than to ask a smart model once. Because of the decomposition, the task becomes simple just one logical step. You don't need a genius model to solve one step. You just need a model that can follow a rule. The researchers calculated that to get sero error reliability, the cost scales logarithmically. That means solving a task that is 10 times harder doesn't cost 10 times more. It costs only a little bit more in terms of voting overhead. So why is this paper from November 2025 so important? Because it gives us a blueprint for building software right now. If you are a developer, here is how you apply Maker today. First, stop relying on chat history as your state management. You need to define your atomic state. If you are writing code, the state is the file system and the compiler error log. If you are analyzing data, the state is the data frame. Second, decompose your tasks to the micro level. Don't ask an agent to write a function to calculate taxes. Break it down. Have one agent define the inputs. Have another agent write the signature. Have a third agent write the logic for one specific tax bracket. Third, implement voting for critical steps. You don't need to vote on everything, but for critical decision points where a mistake would ruin the chain, spin up five parallel calls. If they disagree, that is a signal that the model is unsure. This paper teaches us that reliability is an engineering problem. We don't have to wait for the model companies to solve hallucinations for us. We can solve them today by changing the architecture around the model by treating LLMs as stochastic components, unreliable parts that need redundancy. verification and strict inputs, we can build systems that are exponentially more reliable than the models that power them. This is the difference between a chatbot and an agent that can actually do work. Thanks so much for watching. If you found this breakdown useful, please hit the like button and subscribe to the channel for more deep dives into the latest AI research. See you in the next",
+  "fetchedAt": "2026-01-18T18:33:02.582Z"
+}

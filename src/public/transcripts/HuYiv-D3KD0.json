@@ -1,0 +1,374 @@
+{
+  "videoId": "HuYiv-D3KD0",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.719,
+      "text": "AWS solutions architect associates"
+    },
+    {
+      "start": 1.839,
+      "duration": 4.881,
+      "text": "certification prep question 20 of 65. So"
+    },
+    {
+      "start": 4.799,
+      "duration": 3.84,
+      "text": "an e-commerce company is preparing for a"
+    },
+    {
+      "start": 6.72,
+      "duration": 3.839,
+      "text": "major flash sale event and based on"
+    },
+    {
+      "start": 8.639,
+      "duration": 3.841,
+      "text": "previous years the security team expects"
+    },
+    {
+      "start": 10.559,
+      "duration": 3.761,
+      "text": "distributed denial of service attacks"
+    },
+    {
+      "start": 12.48,
+      "duration": 3.199,
+      "text": "targeting their infrastructure and SQL"
+    },
+    {
+      "start": 14.32,
+      "duration": 2.799,
+      "text": "ejection attempts against their web"
+    },
+    {
+      "start": 15.679,
+      "duration": 2.881,
+      "text": "application. So the company needs"
+    },
+    {
+      "start": 17.119,
+      "duration": 3.361,
+      "text": "protection at both the network layer"
+    },
+    {
+      "start": 18.56,
+      "duration": 3.44,
+      "text": "against volumetric attacks and the"
+    },
+    {
+      "start": 20.48,
+      "duration": 3.2,
+      "text": "application layer against malicious"
+    },
+    {
+      "start": 22,
+      "duration": 4.08,
+      "text": "requests. Now the application runs"
+    },
+    {
+      "start": 23.68,
+      "duration": 4.32,
+      "text": "behind an application load balancer with"
+    },
+    {
+      "start": 26.08,
+      "duration": 3.519,
+      "text": "Amazon cloud in front of it. So which"
+    },
+    {
+      "start": 28,
+      "duration": 3.359,
+      "text": "two solutions should the solutions"
+    },
+    {
+      "start": 29.599,
+      "duration": 3.681,
+      "text": "architect implement? So let's identify"
+    },
+    {
+      "start": 31.359,
+      "duration": 4.321,
+      "text": "the key hints. Number one, distributed"
+    },
+    {
+      "start": 33.28,
+      "duration": 3.52,
+      "text": "denial of service DOS attacks. Volutric"
+    },
+    {
+      "start": 35.68,
+      "duration": 3.84,
+      "text": "network layer protection is what we're"
+    },
+    {
+      "start": 36.8,
+      "duration": 4.24,
+      "text": "going to need. Two, SQL injection. So we"
+    },
+    {
+      "start": 39.52,
+      "duration": 3.92,
+      "text": "need some kind of application layer"
+    },
+    {
+      "start": 41.04,
+      "duration": 4.32,
+      "text": "filter basically to prevent that attack."
+    },
+    {
+      "start": 43.44,
+      "duration": 3.92,
+      "text": "Number three, network and application"
+    },
+    {
+      "start": 45.36,
+      "duration": 4.4,
+      "text": "layer. So we need both covered. And then"
+    },
+    {
+      "start": 47.36,
+      "duration": 3.84,
+      "text": "four is that we need an application load"
+    },
+    {
+      "start": 49.76,
+      "duration": 2.639,
+      "text": "balancer with CloudCrunch because that's"
+    },
+    {
+      "start": 51.2,
+      "duration": 3.12,
+      "text": "really where the protection is going to"
+    },
+    {
+      "start": 52.399,
+      "duration": 3.68,
+      "text": "begin. So let's talk about the options."
+    },
+    {
+      "start": 54.32,
+      "duration": 4,
+      "text": "Option one, let's configure security"
+    },
+    {
+      "start": 56.079,
+      "duration": 5.12,
+      "text": "groups on the EC2 instances to block"
+    },
+    {
+      "start": 58.32,
+      "duration": 5.28,
+      "text": "DDoS traffic patterns. Option two, let's"
+    },
+    {
+      "start": 61.199,
+      "duration": 4.561,
+      "text": "enable AWS Shield advance to protect"
+    },
+    {
+      "start": 63.6,
+      "duration": 4.24,
+      "text": "against DOS attacks with 24/7 support"
+    },
+    {
+      "start": 65.76,
+      "duration": 5.44,
+      "text": "and cost protection. Option three, let's"
+    },
+    {
+      "start": 67.84,
+      "duration": 5.76,
+      "text": "deploy AWS W with SQNL injection match"
+    },
+    {
+      "start": 71.2,
+      "duration": 3.919,
+      "text": "rules attached to CloudFront and the"
+    },
+    {
+      "start": 73.6,
+      "duration": 3.68,
+      "text": "application load balancer. And then"
+    },
+    {
+      "start": 75.119,
+      "duration": 4.241,
+      "text": "option four, let's configure network ACL"
+    },
+    {
+      "start": 77.28,
+      "duration": 4.08,
+      "text": "to inspect and block SQL injection"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.36,
+      "text": "payloads. And then option five, let's"
+    },
+    {
+      "start": 81.36,
+      "duration": 2.88,
+      "text": "enable Amazon Guard Duty to"
+    },
+    {
+      "start": 82.72,
+      "duration": 3.2,
+      "text": "automatically block malicious requests"
+    },
+    {
+      "start": 84.24,
+      "duration": 4.8,
+      "text": "in real time. Drop your answer in the"
+    },
+    {
+      "start": 85.92,
+      "duration": 4.96,
+      "text": "comments. So the hint says DDoS plus SQL"
+    },
+    {
+      "start": 89.04,
+      "duration": 3.52,
+      "text": "ejection. So we need specific tools"
+    },
+    {
+      "start": 90.88,
+      "duration": 3.68,
+      "text": "reaching the different attack types. So"
+    },
+    {
+      "start": 92.56,
+      "duration": 3.76,
+      "text": "option one, security groups filter by IP"
+    },
+    {
+      "start": 94.56,
+      "duration": 3.599,
+      "text": "and port. They can't really detect DOS"
+    },
+    {
+      "start": 96.32,
+      "duration": 4,
+      "text": "patterns or inspect network traffic."
+    },
+    {
+      "start": 98.159,
+      "duration": 3.361,
+      "text": "Option four, knackles work on layers"
+    },
+    {
+      "start": 100.32,
+      "duration": 3.119,
+      "text": "three and four, but they can't read"
+    },
+    {
+      "start": 101.52,
+      "duration": 4.4,
+      "text": "application payloads to detect SQL"
+    },
+    {
+      "start": 103.439,
+      "duration": 4.241,
+      "text": "injection. Option five, guard duty can"
+    },
+    {
+      "start": 105.92,
+      "duration": 3.519,
+      "text": "detect threats and alert you, but it"
+    },
+    {
+      "start": 107.68,
+      "duration": 3.6,
+      "text": "doesn't really block requests. It's"
+    },
+    {
+      "start": 109.439,
+      "duration": 3.521,
+      "text": "detective. It's not preventative. So the"
+    },
+    {
+      "start": 111.28,
+      "duration": 4.159,
+      "text": "correct answers are option two and"
+    },
+    {
+      "start": 112.96,
+      "duration": 3.92,
+      "text": "three. So AWS Shield Advance, which by"
+    },
+    {
+      "start": 115.439,
+      "duration": 2.801,
+      "text": "the way is purpose-built for DOS"
+    },
+    {
+      "start": 116.88,
+      "duration": 4.16,
+      "text": "protection at the network layer,"
+    },
+    {
+      "start": 118.24,
+      "duration": 4.32,
+      "text": "includes a 24/7 AWS DOS response team."
+    },
+    {
+      "start": 121.04,
+      "duration": 4,
+      "text": "It also includes cost protection during"
+    },
+    {
+      "start": 122.56,
+      "duration": 5.199,
+      "text": "attacks. And the other option is the AWS"
+    },
+    {
+      "start": 125.04,
+      "duration": 4.32,
+      "text": "WFT with SQL injection rules. So a web"
+    },
+    {
+      "start": 127.759,
+      "duration": 4.241,
+      "text": "application firewall or WFT is going to"
+    },
+    {
+      "start": 129.36,
+      "duration": 4.32,
+      "text": "inspect the HTTP request at the layer 7"
+    },
+    {
+      "start": 132,
+      "duration": 3.84,
+      "text": "at application layer. It's going to have"
+    },
+    {
+      "start": 133.68,
+      "duration": 4.08,
+      "text": "managed rules that detect and block SQL"
+    },
+    {
+      "start": 135.84,
+      "duration": 3.68,
+      "text": "injection patterns automatically. So"
+    },
+    {
+      "start": 137.76,
+      "duration": 4.16,
+      "text": "here's the key takeaway. Shield stops"
+    },
+    {
+      "start": 139.52,
+      "duration": 6,
+      "text": "DDoS. W stops application attacks. They"
+    },
+    {
+      "start": 141.92,
+      "duration": 3.6,
+      "text": "work at different layers. You need both."
+    }
+  ],
+  "fullText": "AWS solutions architect associates certification prep question 20 of 65. So an e-commerce company is preparing for a major flash sale event and based on previous years the security team expects distributed denial of service attacks targeting their infrastructure and SQL ejection attempts against their web application. So the company needs protection at both the network layer against volumetric attacks and the application layer against malicious requests. Now the application runs behind an application load balancer with Amazon cloud in front of it. So which two solutions should the solutions architect implement? So let's identify the key hints. Number one, distributed denial of service DOS attacks. Volutric network layer protection is what we're going to need. Two, SQL injection. So we need some kind of application layer filter basically to prevent that attack. Number three, network and application layer. So we need both covered. And then four is that we need an application load balancer with CloudCrunch because that's really where the protection is going to begin. So let's talk about the options. Option one, let's configure security groups on the EC2 instances to block DDoS traffic patterns. Option two, let's enable AWS Shield advance to protect against DOS attacks with 24/7 support and cost protection. Option three, let's deploy AWS W with SQNL injection match rules attached to CloudFront and the application load balancer. And then option four, let's configure network ACL to inspect and block SQL injection payloads. And then option five, let's enable Amazon Guard Duty to automatically block malicious requests in real time. Drop your answer in the comments. So the hint says DDoS plus SQL ejection. So we need specific tools reaching the different attack types. So option one, security groups filter by IP and port. They can't really detect DOS patterns or inspect network traffic. Option four, knackles work on layers three and four, but they can't read application payloads to detect SQL injection. Option five, guard duty can detect threats and alert you, but it doesn't really block requests. It's detective. It's not preventative. So the correct answers are option two and three. So AWS Shield Advance, which by the way is purpose-built for DOS protection at the network layer, includes a 24/7 AWS DOS response team. It also includes cost protection during attacks. And the other option is the AWS WFT with SQL injection rules. So a web application firewall or WFT is going to inspect the HTTP request at the layer 7 at application layer. It's going to have managed rules that detect and block SQL injection patterns automatically. So here's the key takeaway. Shield stops DDoS. W stops application attacks. They work at different layers. You need both.",
+  "fetchedAt": "2026-01-20T17:06:46.735Z"
+}

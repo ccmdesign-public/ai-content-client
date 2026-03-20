@@ -1,0 +1,1974 @@
+{
+  "videoId": "GnQCyxa4TjA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 2.639,
+      "duration": 3.361,
+      "text": "Meta and Harvard just dropped an open-"
+    },
+    {
+      "start": 4.64,
+      "duration": 3.52,
+      "text": "source coding agent called the"
+    },
+    {
+      "start": 6,
+      "duration": 4.24,
+      "text": "Confucious code agent and it basically"
+    },
+    {
+      "start": 8.16,
+      "duration": 4.08,
+      "text": "proves that the agent scaffold can"
+    },
+    {
+      "start": 10.24,
+      "duration": 4.399,
+      "text": "matter more than the model itself. Then"
+    },
+    {
+      "start": 12.24,
+      "duration": 5.84,
+      "text": "Abu Dhabi's TI comes out of nowhere with"
+    },
+    {
+      "start": 14.639,
+      "duration": 6.241,
+      "text": "Falcon H1R7B, a tiny 7B reasoning model"
+    },
+    {
+      "start": 18.08,
+      "duration": 4.72,
+      "text": "with 256,000 context window that's"
+    },
+    {
+      "start": 20.88,
+      "duration": 4.479,
+      "text": "outperforming models way bigger than it."
+    },
+    {
+      "start": 22.8,
+      "duration": 4.88,
+      "text": "And then DeepSeek updates the R1 paper"
+    },
+    {
+      "start": 25.359,
+      "duration": 4.401,
+      "text": "with 60 extra pages like it's some kind"
+    },
+    {
+      "start": 27.68,
+      "duration": 3.839,
+      "text": "of secret technical dump which has"
+    },
+    {
+      "start": 29.76,
+      "duration": 3.36,
+      "text": "everyone thinking the next model release"
+    },
+    {
+      "start": 31.519,
+      "duration": 3.441,
+      "text": "is right around the corner. So let's"
+    },
+    {
+      "start": 33.12,
+      "duration": 3.599,
+      "text": "talk about it. All right, let's start"
+    },
+    {
+      "start": 34.96,
+      "duration": 2.96,
+      "text": "with the meta and Harvard thing. They"
+    },
+    {
+      "start": 36.719,
+      "duration": 4.401,
+      "text": "introduced something called the"
+    },
+    {
+      "start": 37.92,
+      "duration": 4.799,
+      "text": "Confucious Code Agent or CCA and it's"
+    },
+    {
+      "start": 41.12,
+      "duration": 4.24,
+      "text": "built on top of a platform called the"
+    },
+    {
+      "start": 42.719,
+      "duration": 4.32,
+      "text": "Confucious SDK. At first glance, that"
+    },
+    {
+      "start": 45.36,
+      "duration": 4.56,
+      "text": "just sounds like another AI coding"
+    },
+    {
+      "start": 47.039,
+      "duration": 4.881,
+      "text": "agent, right? Like a competitor to SWE"
+    },
+    {
+      "start": 49.92,
+      "duration": 3.84,
+      "text": "agent OpenHands. all the other projects"
+    },
+    {
+      "start": 51.92,
+      "duration": 3.68,
+      "text": "that try to solve GitHub issues by"
+    },
+    {
+      "start": 53.76,
+      "duration": 3.68,
+      "text": "running tests, editing files, and"
+    },
+    {
+      "start": 55.6,
+      "duration": 3.599,
+      "text": "iterating. But Confucious is doing"
+    },
+    {
+      "start": 57.44,
+      "duration": 3.599,
+      "text": "something much deeper. The key idea"
+    },
+    {
+      "start": 59.199,
+      "duration": 3.84,
+      "text": "behind it is literally a shift in"
+    },
+    {
+      "start": 61.039,
+      "duration": 4.321,
+      "text": "philosophy. They treat scaffolding as"
+    },
+    {
+      "start": 63.039,
+      "duration": 3.921,
+      "text": "the main problem. And I know scaffolding"
+    },
+    {
+      "start": 65.36,
+      "duration": 3.68,
+      "text": "sounds like a boring word, but it"
+    },
+    {
+      "start": 66.96,
+      "duration": 4.8,
+      "text": "matters a lot. Most people still think"
+    },
+    {
+      "start": 69.04,
+      "duration": 4.88,
+      "text": "an AI agent is basically a big model"
+    },
+    {
+      "start": 71.76,
+      "duration": 4.48,
+      "text": "with a couple tools attached. Maybe it"
+    },
+    {
+      "start": 73.92,
+      "duration": 4.64,
+      "text": "can execute commands. Maybe it can edit"
+    },
+    {
+      "start": 76.24,
+      "duration": 3.919,
+      "text": "files. Maybe it can do search. and then"
+    },
+    {
+      "start": 78.56,
+      "duration": 3.76,
+      "text": "you slap a wrapper around it and call it"
+    },
+    {
+      "start": 80.159,
+      "duration": 4,
+      "text": "an agent. Confucious takes the exact"
+    },
+    {
+      "start": 82.32,
+      "duration": 4.4,
+      "text": "opposite approach. They're basically"
+    },
+    {
+      "start": 84.159,
+      "duration": 4.881,
+      "text": "saying if you want an AI to survive in a"
+    },
+    {
+      "start": 86.72,
+      "duration": 4.48,
+      "text": "real industrial codebase across long"
+    },
+    {
+      "start": 89.04,
+      "duration": 4.48,
+      "text": "debugging sessions across dozens of"
+    },
+    {
+      "start": 91.2,
+      "duration": 4.16,
+      "text": "files across hundreds of actions, then"
+    },
+    {
+      "start": 93.52,
+      "duration": 3.68,
+      "text": "the actual system around the model"
+    },
+    {
+      "start": 95.36,
+      "duration": 4.399,
+      "text": "matters just as much as the model"
+    },
+    {
+      "start": 97.2,
+      "duration": 4.8,
+      "text": "itself. And honestly, I agree with that"
+    },
+    {
+      "start": 99.759,
+      "duration": 4.881,
+      "text": "because coding in real repos isn't one"
+    },
+    {
+      "start": 102,
+      "duration": 4.64,
+      "text": "clean prompt. It's chaos. its tests"
+    },
+    {
+      "start": 104.64,
+      "duration": 4.24,
+      "text": "failing in weird ways, dependencies"
+    },
+    {
+      "start": 106.64,
+      "duration": 4.32,
+      "text": "breaking, environment issues, hidden"
+    },
+    {
+      "start": 108.88,
+      "duration": 4.16,
+      "text": "conventions in the codebase, and small"
+    },
+    {
+      "start": 110.96,
+      "duration": 4.64,
+      "text": "changes causing completely unexpected"
+    },
+    {
+      "start": 113.04,
+      "duration": 4.56,
+      "text": "side effects. So, Confucious SDK is"
+    },
+    {
+      "start": 115.6,
+      "duration": 3.76,
+      "text": "organized around three axes: agent"
+    },
+    {
+      "start": 117.6,
+      "duration": 3.6,
+      "text": "experience, user experience, and"
+    },
+    {
+      "start": 119.36,
+      "duration": 3.28,
+      "text": "developer experience. That sounds"
+    },
+    {
+      "start": 121.2,
+      "duration": 3.599,
+      "text": "corporate, but it's actually pretty"
+    },
+    {
+      "start": 122.64,
+      "duration": 4.72,
+      "text": "practical. Agent experience controls"
+    },
+    {
+      "start": 124.799,
+      "duration": 4.561,
+      "text": "what the model sees and how context is"
+    },
+    {
+      "start": 127.36,
+      "duration": 3.76,
+      "text": "structured. User experience is about"
+    },
+    {
+      "start": 129.36,
+      "duration": 4.48,
+      "text": "making the agent understandable for"
+    },
+    {
+      "start": 131.12,
+      "duration": 4.72,
+      "text": "humans with readable traces and diffs."
+    },
+    {
+      "start": 133.84,
+      "duration": 4.16,
+      "text": "Developer experience focuses on"
+    },
+    {
+      "start": 135.84,
+      "duration": 4.64,
+      "text": "observability and debugging the agent"
+    },
+    {
+      "start": 138,
+      "duration": 4.239,
+      "text": "itself so you can tune it like a system."
+    },
+    {
+      "start": 140.48,
+      "duration": 3.52,
+      "text": "Now what makes this thing truly"
+    },
+    {
+      "start": 142.239,
+      "duration": 3.841,
+      "text": "interesting is that Confucious SDK"
+    },
+    {
+      "start": 144,
+      "duration": 4,
+      "text": "introduces three major mechanisms that"
+    },
+    {
+      "start": 146.08,
+      "duration": 4.159,
+      "text": "make the agent perform better across"
+    },
+    {
+      "start": 148,
+      "duration": 3.84,
+      "text": "long tasks. The first mechanism is a"
+    },
+    {
+      "start": 150.239,
+      "duration": 3.841,
+      "text": "unified orchestrator with something"
+    },
+    {
+      "start": 151.84,
+      "duration": 3.92,
+      "text": "called hierarchical working memory. And"
+    },
+    {
+      "start": 154.08,
+      "duration": 3.519,
+      "text": "this part is important because it solves"
+    },
+    {
+      "start": 155.76,
+      "duration": 4.08,
+      "text": "one of the biggest weaknesses in agents"
+    },
+    {
+      "start": 157.599,
+      "duration": 4.481,
+      "text": "today. They forget too easily. When an"
+    },
+    {
+      "start": 159.84,
+      "duration": 4.32,
+      "text": "agent works on a real task, it's not"
+    },
+    {
+      "start": 162.08,
+      "duration": 6.239,
+      "text": "just one message and one reply. It can"
+    },
+    {
+      "start": 164.16,
+      "duration": 7.04,
+      "text": "be 60, 70, sometimes over 100 steps. The"
+    },
+    {
+      "start": 168.319,
+      "duration": 5.601,
+      "text": "agent edits code, runs tests, reads"
+    },
+    {
+      "start": 171.2,
+      "duration": 4.88,
+      "text": "logs, changes strategy, tries again,"
+    },
+    {
+      "start": 173.92,
+      "duration": 4.399,
+      "text": "fails again, then finally lands on a"
+    },
+    {
+      "start": 176.08,
+      "duration": 4.32,
+      "text": "fix. In that long trajectory, old"
+    },
+    {
+      "start": 178.319,
+      "duration": 4.64,
+      "text": "decisions matter, old patches matter."
+    },
+    {
+      "start": 180.4,
+      "duration": 5.04,
+      "text": "Test logs from 40 turns ago matter. But"
+    },
+    {
+      "start": 182.959,
+      "duration": 4.64,
+      "text": "if you rely on a simple sliding context"
+    },
+    {
+      "start": 185.44,
+      "duration": 4.32,
+      "text": "window, eventually that information gets"
+    },
+    {
+      "start": 187.599,
+      "duration": 4.401,
+      "text": "cut off. And once it gets cut off, the"
+    },
+    {
+      "start": 189.76,
+      "duration": 5.04,
+      "text": "agent starts acting like it has amnesia."
+    },
+    {
+      "start": 192,
+      "duration": 4.879,
+      "text": "It repeats mistakes. It loops. It breaks"
+    },
+    {
+      "start": 194.8,
+      "duration": 4.24,
+      "text": "things it already fixed. It loses the"
+    },
+    {
+      "start": 196.879,
+      "duration": 4.241,
+      "text": "thread of what it even tried earlier. So"
+    },
+    {
+      "start": 199.04,
+      "duration": 4,
+      "text": "Confucious SDK tries to solve that"
+    },
+    {
+      "start": 201.12,
+      "duration": 3.68,
+      "text": "problem using hierarchical working"
+    },
+    {
+      "start": 203.04,
+      "duration": 4.16,
+      "text": "memory. Instead of treating the agent"
+    },
+    {
+      "start": 204.8,
+      "duration": 4.64,
+      "text": "run like one giant chat transcript, it"
+    },
+    {
+      "start": 207.2,
+      "duration": 4.399,
+      "text": "partitions the trajectory into scopes,"
+    },
+    {
+      "start": 209.44,
+      "duration": 4,
+      "text": "summarizes past steps, compresses"
+    },
+    {
+      "start": 211.599,
+      "duration": 4.56,
+      "text": "context, and preserves the important"
+    },
+    {
+      "start": 213.44,
+      "duration": 4.64,
+      "text": "artifacts. It keeps patches, error logs,"
+    },
+    {
+      "start": 216.159,
+      "duration": 3.681,
+      "text": "and key design decisions accessible"
+    },
+    {
+      "start": 218.08,
+      "duration": 3.92,
+      "text": "later while still keeping the prompt"
+    },
+    {
+      "start": 219.84,
+      "duration": 4.24,
+      "text": "within context limits. So basically,"
+    },
+    {
+      "start": 222,
+      "duration": 4.48,
+      "text": "it's not just bigger context window"
+    },
+    {
+      "start": 224.08,
+      "duration": 4.4,
+      "text": "equals better memory. It's actual memory"
+    },
+    {
+      "start": 226.48,
+      "duration": 3.679,
+      "text": "architecture. This is a huge deal"
+    },
+    {
+      "start": 228.48,
+      "duration": 4,
+      "text": "because when you look at long horizon"
+    },
+    {
+      "start": 230.159,
+      "duration": 4.401,
+      "text": "coding tasks, memory is the difference"
+    },
+    {
+      "start": 232.48,
+      "duration": 4.319,
+      "text": "between an agent that slowly improves"
+    },
+    {
+      "start": 234.56,
+      "duration": 4.16,
+      "text": "and an agent that spirals into a loop."
+    },
+    {
+      "start": 236.799,
+      "duration": 4,
+      "text": "Most people underestimate how much"
+    },
+    {
+      "start": 238.72,
+      "duration": 3.76,
+      "text": "performance gets destroyed by bad memory"
+    },
+    {
+      "start": 240.799,
+      "duration": 3.681,
+      "text": "management, especially when you deal"
+    },
+    {
+      "start": 242.48,
+      "duration": 4.72,
+      "text": "with large repos. Now, the second"
+    },
+    {
+      "start": 244.48,
+      "duration": 4.479,
+      "text": "mechanism in Confucious SDK is honestly"
+    },
+    {
+      "start": 247.2,
+      "duration": 4.16,
+      "text": "one of the coolest things in the whole"
+    },
+    {
+      "start": 248.959,
+      "duration": 4.321,
+      "text": "release. Persistent note-taking. They"
+    },
+    {
+      "start": 251.36,
+      "duration": 3.76,
+      "text": "add a note-taking system where a"
+    },
+    {
+      "start": 253.28,
+      "duration": 4.239,
+      "text": "dedicated agent writes structured"
+    },
+    {
+      "start": 255.12,
+      "duration": 4.639,
+      "text": "markdown notes from execution traces."
+    },
+    {
+      "start": 257.519,
+      "duration": 3.921,
+      "text": "And these notes aren't logs. They're"
+    },
+    {
+      "start": 259.759,
+      "duration": 3.121,
+      "text": "more like the kind of notes a senior"
+    },
+    {
+      "start": 261.44,
+      "duration": 3.52,
+      "text": "engineer would leave for themselves"
+    },
+    {
+      "start": 262.88,
+      "duration": 4.16,
+      "text": "after solving a tricky bug. So it"
+    },
+    {
+      "start": 264.96,
+      "duration": 4,
+      "text": "captures repo conventions, strategies"
+    },
+    {
+      "start": 267.04,
+      "duration": 4,
+      "text": "that worked, patterns that caused"
+    },
+    {
+      "start": 268.96,
+      "duration": 4.16,
+      "text": "failures, and little gotchas that matter"
+    },
+    {
+      "start": 271.04,
+      "duration": 3.92,
+      "text": "for that specific codebase. Then it"
+    },
+    {
+      "start": 273.12,
+      "duration": 4.4,
+      "text": "stores them as long-term memory that can"
+    },
+    {
+      "start": 274.96,
+      "duration": 4.799,
+      "text": "be reused across sessions. This concept"
+    },
+    {
+      "start": 277.52,
+      "duration": 4,
+      "text": "is deeper than it sounds because in real"
+    },
+    {
+      "start": 279.759,
+      "duration": 3.681,
+      "text": "engineering, you don't just solve a"
+    },
+    {
+      "start": 281.52,
+      "duration": 4.08,
+      "text": "task. You build familiarity with the"
+    },
+    {
+      "start": 283.44,
+      "duration": 4.08,
+      "text": "codebase. You learn the style. You"
+    },
+    {
+      "start": 285.6,
+      "duration": 3.76,
+      "text": "understand the test suite. You realize"
+    },
+    {
+      "start": 287.52,
+      "duration": 3.52,
+      "text": "which parts of the repo are fragile."
+    },
+    {
+      "start": 289.36,
+      "duration": 3.36,
+      "text": "That knowledge is exactly what makes"
+    },
+    {
+      "start": 291.04,
+      "duration": 3.92,
+      "text": "someone faster the second time they"
+    },
+    {
+      "start": 292.72,
+      "duration": 4.08,
+      "text": "touch the project. Confucious basically"
+    },
+    {
+      "start": 294.96,
+      "duration": 3.84,
+      "text": "tries to simulate that and they tested"
+    },
+    {
+      "start": 296.8,
+      "duration": 4.8,
+      "text": "it in a pretty clean setup. They ran the"
+    },
+    {
+      "start": 298.8,
+      "duration": 6.32,
+      "text": "Confucious code agent twice on 151"
+    },
+    {
+      "start": 301.6,
+      "duration": 5.52,
+      "text": "swench pro tasks using clawed 4.5"
+    },
+    {
+      "start": 305.12,
+      "duration": 4.32,
+      "text": "sonnet. In the first run, it solves"
+    },
+    {
+      "start": 307.12,
+      "duration": 4.4,
+      "text": "tasks from scratch and generates notes."
+    },
+    {
+      "start": 309.44,
+      "duration": 3.759,
+      "text": "In the second run, it reads the notes"
+    },
+    {
+      "start": 311.52,
+      "duration": 3.92,
+      "text": "before solving. The results show"
+    },
+    {
+      "start": 313.199,
+      "duration": 5.84,
+      "text": "something subtle but meaningful. Average"
+    },
+    {
+      "start": 315.44,
+      "duration": 7.52,
+      "text": "turns drop from 64 to 61. Token usage"
+    },
+    {
+      "start": 319.039,
+      "duration": 7.041,
+      "text": "drops from around 104,000 to 93,000 and"
+    },
+    {
+      "start": 322.96,
+      "duration": 4.64,
+      "text": "resolve at one improves from 53.0 to"
+    },
+    {
+      "start": 326.08,
+      "duration": 3.679,
+      "text": "54.4."
+    },
+    {
+      "start": 327.6,
+      "duration": 4,
+      "text": "Now, that accuracy improvement is not"
+    },
+    {
+      "start": 329.759,
+      "duration": 3.761,
+      "text": "huge and I don't want to oversell it,"
+    },
+    {
+      "start": 331.6,
+      "duration": 4,
+      "text": "but the point is that the note system"
+    },
+    {
+      "start": 333.52,
+      "duration": 4.08,
+      "text": "clearly improves efficiency. It makes"
+    },
+    {
+      "start": 335.6,
+      "duration": 4.319,
+      "text": "the agent waste fewer steps and fewer"
+    },
+    {
+      "start": 337.6,
+      "duration": 4.319,
+      "text": "tokens which is literally money in real"
+    },
+    {
+      "start": 339.919,
+      "duration": 3.601,
+      "text": "production environments. It also proves"
+    },
+    {
+      "start": 341.919,
+      "duration": 3.521,
+      "text": "the principle that long-term written"
+    },
+    {
+      "start": 343.52,
+      "duration": 4.08,
+      "text": "memory can work even in a benchmark"
+    },
+    {
+      "start": 345.44,
+      "duration": 4,
+      "text": "setting. So that's mechanism number two."
+    },
+    {
+      "start": 347.6,
+      "duration": 4.48,
+      "text": "The third mechanism is modular"
+    },
+    {
+      "start": 349.44,
+      "duration": 4.64,
+      "text": "extensions for tools. Confucious SDK"
+    },
+    {
+      "start": 352.08,
+      "duration": 4.24,
+      "text": "exposes tools as extensions like file"
+    },
+    {
+      "start": 354.08,
+      "duration": 4.32,
+      "text": "editing, command execution, testr"
+    },
+    {
+      "start": 356.32,
+      "duration": 3.92,
+      "text": "runners, code search and the key part"
+    },
+    {
+      "start": 358.4,
+      "duration": 4.4,
+      "text": "here is that each extension can maintain"
+    },
+    {
+      "start": 360.24,
+      "duration": 4.64,
+      "text": "its own state and prompt wiring. Now why"
+    },
+    {
+      "start": 362.8,
+      "duration": 4.239,
+      "text": "does that matter? Because most agents"
+    },
+    {
+      "start": 364.88,
+      "duration": 4.48,
+      "text": "treat tools like random calls. They do a"
+    },
+    {
+      "start": 367.039,
+      "duration": 4.401,
+      "text": "bash command, dump output, and hope the"
+    },
+    {
+      "start": 369.36,
+      "duration": 4.08,
+      "text": "model reads it correctly. But real tool"
+    },
+    {
+      "start": 371.44,
+      "duration": 4.16,
+      "text": "usage needs discipline. It needs"
+    },
+    {
+      "start": 373.44,
+      "duration": 3.759,
+      "text": "structure. It needs recovery logic."
+    },
+    {
+      "start": 375.6,
+      "duration": 3.52,
+      "text": "Confucious shows this clearly through"
+    },
+    {
+      "start": 377.199,
+      "duration": 4.801,
+      "text": "ablations where they test tool"
+    },
+    {
+      "start": 379.12,
+      "duration": 5.12,
+      "text": "sophistication. On a subset of SWEBench"
+    },
+    {
+      "start": 382,
+      "duration": 4.479,
+      "text": "Pro, they show that better tool handling"
+    },
+    {
+      "start": 384.24,
+      "duration": 4.959,
+      "text": "dramatically boosts resolve at one. For"
+    },
+    {
+      "start": 386.479,
+      "duration": 4.56,
+      "text": "example, with Claude 4.5 Sonnet, a"
+    },
+    {
+      "start": 389.199,
+      "duration": 4.72,
+      "text": "simple tool configuration reaches around"
+    },
+    {
+      "start": 391.039,
+      "duration": 5.761,
+      "text": "44.0 zero resolve at one while richer"
+    },
+    {
+      "start": 393.919,
+      "duration": 5.041,
+      "text": "tool handling reaches 51.6. That's a"
+    },
+    {
+      "start": 396.8,
+      "duration": 3.839,
+      "text": "massive jump. It shows that tool routing"
+    },
+    {
+      "start": 398.96,
+      "duration": 3.679,
+      "text": "and sequencing becomes a major"
+    },
+    {
+      "start": 400.639,
+      "duration": 4.081,
+      "text": "performance lever. So when people say"
+    },
+    {
+      "start": 402.639,
+      "duration": 4.721,
+      "text": "agents are just models with tools,"
+    },
+    {
+      "start": 404.72,
+      "duration": 4.8,
+      "text": "Confucious basically replies, \"No, the"
+    },
+    {
+      "start": 407.36,
+      "duration": 4.24,
+      "text": "tool strategy and system design can move"
+    },
+    {
+      "start": 409.52,
+      "duration": 4.32,
+      "text": "you as much as changing the model.\" And"
+    },
+    {
+      "start": 411.6,
+      "duration": 4,
+      "text": "then on top of all of this, Confucious"
+    },
+    {
+      "start": 413.84,
+      "duration": 3.52,
+      "text": "adds something that feels like a preview"
+    },
+    {
+      "start": 415.6,
+      "duration": 4.159,
+      "text": "of what agent development will look like"
+    },
+    {
+      "start": 417.36,
+      "duration": 5.119,
+      "text": "in the future. A meta agent that designs"
+    },
+    {
+      "start": 419.759,
+      "duration": 4.801,
+      "text": "agents. This meta agent takes a natural"
+    },
+    {
+      "start": 422.479,
+      "duration": 4.56,
+      "text": "language specification of what kind of"
+    },
+    {
+      "start": 424.56,
+      "duration": 4.8,
+      "text": "agent you want, proposes configurations,"
+    },
+    {
+      "start": 427.039,
+      "duration": 4.481,
+      "text": "prompts and extension sets, runs the"
+    },
+    {
+      "start": 429.36,
+      "duration": 4.08,
+      "text": "candidate agent on tasks, inspects"
+    },
+    {
+      "start": 431.52,
+      "duration": 4.239,
+      "text": "metrics and traces, and edits the"
+    },
+    {
+      "start": 433.44,
+      "duration": 4.319,
+      "text": "configuration iteratively in a build,"
+    },
+    {
+      "start": 435.759,
+      "duration": 4.481,
+      "text": "test, improve loop. So instead of a"
+    },
+    {
+      "start": 437.759,
+      "duration": 5.121,
+      "text": "human doing 500 manual iterations trying"
+    },
+    {
+      "start": 440.24,
+      "duration": 4.64,
+      "text": "to tune prompts, tool wiring, memory"
+    },
+    {
+      "start": 442.88,
+      "duration": 4.159,
+      "text": "format, and control flow, you get"
+    },
+    {
+      "start": 444.88,
+      "duration": 3.84,
+      "text": "LLMdriven optimization of the agent"
+    },
+    {
+      "start": 447.039,
+      "duration": 4.16,
+      "text": "design itself. That's the kind of thing"
+    },
+    {
+      "start": 448.72,
+      "duration": 4.319,
+      "text": "that makes a system scale faster because"
+    },
+    {
+      "start": 451.199,
+      "duration": 4.081,
+      "text": "now the tuning process becomes"
+    },
+    {
+      "start": 453.039,
+      "duration": 5.041,
+      "text": "systematic rather than artisan work. Now"
+    },
+    {
+      "start": 455.28,
+      "duration": 5.199,
+      "text": "let's talk results on sEbench pro."
+    },
+    {
+      "start": 458.08,
+      "duration": 5.92,
+      "text": "Confucious code agent with claude 4.5"
+    },
+    {
+      "start": 460.479,
+      "duration": 6.241,
+      "text": "sonnet hits resolve at 152.7. Meanwhile,"
+    },
+    {
+      "start": 464,
+      "duration": 5.039,
+      "text": "claude 4.5 opus with a weaker scaffold"
+    },
+    {
+      "start": 466.72,
+      "duration": 4.24,
+      "text": "sits at 52.0."
+    },
+    {
+      "start": 469.039,
+      "duration": 4.081,
+      "text": "That's the headline that really matters."
+    },
+    {
+      "start": 470.96,
+      "duration": 4,
+      "text": "A mid-tier model with a strong scaffold"
+    },
+    {
+      "start": 473.12,
+      "duration": 3.759,
+      "text": "can outperform a stronger model with a"
+    },
+    {
+      "start": 474.96,
+      "duration": 4.239,
+      "text": "weaker scaffold. That's the first major"
+    },
+    {
+      "start": 476.879,
+      "duration": 4.481,
+      "text": "theme of today. Scaffolding can outweigh"
+    },
+    {
+      "start": 479.199,
+      "duration": 4.161,
+      "text": "model size. Now, let's connect this to"
+    },
+    {
+      "start": 481.36,
+      "duration": 4.399,
+      "text": "the second article because it reinforces"
+    },
+    {
+      "start": 483.36,
+      "duration": 4.16,
+      "text": "the exact same point just from the model"
+    },
+    {
+      "start": 485.759,
+      "duration": 4,
+      "text": "architecture and training side instead"
+    },
+    {
+      "start": 487.52,
+      "duration": 5.119,
+      "text": "of the agent side. Technology Innovation"
+    },
+    {
+      "start": 489.759,
+      "duration": 4.88,
+      "text": "Institute TI in Abu Dhabi released"
+    },
+    {
+      "start": 492.639,
+      "duration": 4.321,
+      "text": "Falcon H1R7B."
+    },
+    {
+      "start": 494.639,
+      "duration": 6,
+      "text": "This is a 7B parameter reasoning model"
+    },
+    {
+      "start": 496.96,
+      "duration": 6.16,
+      "text": "that matches or exceeds many 14B to 47B"
+    },
+    {
+      "start": 500.639,
+      "duration": 4.481,
+      "text": "reasoning models across math, code, and"
+    },
+    {
+      "start": 503.12,
+      "duration": 3.919,
+      "text": "general benchmarks. And the reason this"
+    },
+    {
+      "start": 505.12,
+      "duration": 3.84,
+      "text": "matters is because 7B models were"
+    },
+    {
+      "start": 507.039,
+      "duration": 3.921,
+      "text": "traditionally treated as small, like"
+    },
+    {
+      "start": 508.96,
+      "duration": 4.959,
+      "text": "cheap models, models you use for"
+    },
+    {
+      "start": 510.96,
+      "duration": 4.879,
+      "text": "lightweight tasks. Falcon H1R flips that"
+    },
+    {
+      "start": 513.919,
+      "duration": 3.841,
+      "text": "assumption. They combine three design"
+    },
+    {
+      "start": 515.839,
+      "duration": 4.481,
+      "text": "choices into one system. A hybrid"
+    },
+    {
+      "start": 517.76,
+      "duration": 4.48,
+      "text": "transformer plus Mamba 2 backbone, a"
+    },
+    {
+      "start": 520.32,
+      "duration": 3.92,
+      "text": "huge 256,000"
+    },
+    {
+      "start": 522.24,
+      "duration": 3.84,
+      "text": "context window, and a training recipe"
+    },
+    {
+      "start": 524.24,
+      "duration": 3.52,
+      "text": "that mixes long- form supervised"
+    },
+    {
+      "start": 526.08,
+      "duration": 4.4,
+      "text": "reasoning with reinforcement learning"
+    },
+    {
+      "start": 527.76,
+      "duration": 5.199,
+      "text": "using GRPO. So architecture- wise, it's"
+    },
+    {
+      "start": 530.48,
+      "duration": 3.919,
+      "text": "a decoderon causal model with hybrid"
+    },
+    {
+      "start": 532.959,
+      "duration": 3.041,
+      "text": "layers. Transformers handle"
+    },
+    {
+      "start": 534.399,
+      "duration": 3.521,
+      "text": "attention-based reasoning, while the"
+    },
+    {
+      "start": 536,
+      "duration": 3.839,
+      "text": "Mamba 2 blocks handle linear time"
+    },
+    {
+      "start": 537.92,
+      "duration": 4.32,
+      "text": "sequence modeling. This matters when you"
+    },
+    {
+      "start": 539.839,
+      "duration": 4.081,
+      "text": "push context length into extreme ranges"
+    },
+    {
+      "start": 542.24,
+      "duration": 3.76,
+      "text": "because pure transformer attention"
+    },
+    {
+      "start": 543.92,
+      "duration": 4.8,
+      "text": "scales badly as the sequence grows."
+    },
+    {
+      "start": 546,
+      "duration": 5.68,
+      "text": "Falcon H1R supports a default max model"
+    },
+    {
+      "start": 548.72,
+      "duration": 5.84,
+      "text": "length of 262,144"
+    },
+    {
+      "start": 551.68,
+      "duration": 6.08,
+      "text": "tokens in VLLLM, which corresponds to a"
+    },
+    {
+      "start": 554.56,
+      "duration": 5.44,
+      "text": "practical 256,000 context window. That"
+    },
+    {
+      "start": 557.76,
+      "duration": 4.72,
+      "text": "is massive. It allows extremely long"
+    },
+    {
+      "start": 560,
+      "duration": 4.88,
+      "text": "reasoning chains, huge tool logs, and"
+    },
+    {
+      "start": 562.48,
+      "duration": 4.88,
+      "text": "multi-document prompts in one pass. And"
+    },
+    {
+      "start": 564.88,
+      "duration": 4.56,
+      "text": "because Mamba 2 scales linearly, it"
+    },
+    {
+      "start": 567.36,
+      "duration": 3.84,
+      "text": "helps control memory and throughput at"
+    },
+    {
+      "start": 569.44,
+      "duration": 3.44,
+      "text": "those lengths. Now, training is where it"
+    },
+    {
+      "start": 571.2,
+      "duration": 4.48,
+      "text": "gets even more interesting. They use a"
+    },
+    {
+      "start": 572.88,
+      "duration": 5.2,
+      "text": "two-stage pipeline. First, cold start"
+    },
+    {
+      "start": 575.68,
+      "duration": 4.96,
+      "text": "supervised fine-tuning on long- form"
+    },
+    {
+      "start": 578.08,
+      "duration": 4.879,
+      "text": "reasoning traces across math, coding,"
+    },
+    {
+      "start": 580.64,
+      "duration": 4.72,
+      "text": "science, plus additional non-reasoning"
+    },
+    {
+      "start": 582.959,
+      "duration": 4.401,
+      "text": "domains like chat, tool calling, and"
+    },
+    {
+      "start": 585.36,
+      "duration": 4.08,
+      "text": "safety. Difficulty aware filtering"
+    },
+    {
+      "start": 587.36,
+      "duration": 4.8,
+      "text": "upweights harder problems. Targets can"
+    },
+    {
+      "start": 589.44,
+      "duration": 5.04,
+      "text": "reach up to 48,000 tokens, meaning the"
+    },
+    {
+      "start": 592.16,
+      "duration": 3.84,
+      "text": "model learns to sustain long coherent"
+    },
+    {
+      "start": 594.48,
+      "duration": 3.84,
+      "text": "reasoning. Then they refine it with"
+    },
+    {
+      "start": 596,
+      "duration": 3.92,
+      "text": "reinforcement learning using GRPO where"
+    },
+    {
+      "start": 598.32,
+      "duration": 3.76,
+      "text": "rewards are given when the reasoning"
+    },
+    {
+      "start": 599.92,
+      "duration": 3.84,
+      "text": "output is verifiably correct. Math"
+    },
+    {
+      "start": 602.08,
+      "duration": 3.92,
+      "text": "answers can be checked symbolically."
+    },
+    {
+      "start": 603.76,
+      "duration": 4.639,
+      "text": "Code can be executed against unit tests."
+    },
+    {
+      "start": 606,
+      "duration": 4.32,
+      "text": "That's the cleanest kind of RL because"
+    },
+    {
+      "start": 608.399,
+      "duration": 3.601,
+      "text": "correctness is measurable. So you're not"
+    },
+    {
+      "start": 610.32,
+      "duration": 4.16,
+      "text": "training vibes, you're training"
+    },
+    {
+      "start": 612,
+      "duration": 5.12,
+      "text": "correctness. Benchmarks show this model"
+    },
+    {
+      "start": 614.48,
+      "duration": 7.039,
+      "text": "performs shockingly well for 7B. In"
+    },
+    {
+      "start": 617.12,
+      "duration": 8.719,
+      "text": "math, it scores 88.1% on aime 24 and"
+    },
+    {
+      "start": 621.519,
+      "duration": 6.721,
+      "text": "83.1% on aime 25 with an aggregate math"
+    },
+    {
+      "start": 625.839,
+      "duration": 4.881,
+      "text": "score of 73.96%."
+    },
+    {
+      "start": 628.24,
+      "duration": 6,
+      "text": "In coding and agentic tasks, it scores"
+    },
+    {
+      "start": 630.72,
+      "duration": 5.04,
+      "text": "68.6% on live codebench v6 and it stays"
+    },
+    {
+      "start": 634.24,
+      "duration": 4.8,
+      "text": "competitive on general reasoning"
+    },
+    {
+      "start": 635.76,
+      "duration": 4.72,
+      "text": "benchmarks like MMLU Pro and GPQA. Now,"
+    },
+    {
+      "start": 639.04,
+      "duration": 3.359,
+      "text": "I want you to think about what this"
+    },
+    {
+      "start": 640.48,
+      "duration": 3.84,
+      "text": "means for a second. It means a small"
+    },
+    {
+      "start": 642.399,
+      "duration": 3.521,
+      "text": "model can perform in the same band as"
+    },
+    {
+      "start": 644.32,
+      "duration": 3.199,
+      "text": "much larger systems when the"
+    },
+    {
+      "start": 645.92,
+      "duration": 3.68,
+      "text": "architecture and training pipeline are"
+    },
+    {
+      "start": 647.519,
+      "duration": 4.32,
+      "text": "tuned for reasoning. So the second theme"
+    },
+    {
+      "start": 649.6,
+      "duration": 3.76,
+      "text": "becomes clear. Parameter count advantage"
+    },
+    {
+      "start": 651.839,
+      "duration": 3.44,
+      "text": "is shrinking when training and"
+    },
+    {
+      "start": 653.36,
+      "duration": 3.84,
+      "text": "architecture get smarter. And then"
+    },
+    {
+      "start": 655.279,
+      "duration": 4.881,
+      "text": "there's the efficiency side. Falcon"
+    },
+    {
+      "start": 657.2,
+      "duration": 5.759,
+      "text": "H1R7B shows strong throughput in their"
+    },
+    {
+      "start": 660.16,
+      "duration": 6.08,
+      "text": "reported setups, reaching around 1,00 to"
+    },
+    {
+      "start": 662.959,
+      "duration": 5.041,
+      "text": "1,800 tokens per second per GPU"
+    },
+    {
+      "start": 666.24,
+      "duration": 3.76,
+      "text": "depending on the batch settings. They"
+    },
+    {
+      "start": 668,
+      "duration": 3.92,
+      "text": "also include test time scaling through a"
+    },
+    {
+      "start": 670,
+      "duration": 4.72,
+      "text": "method called deep think with confidence"
+    },
+    {
+      "start": 671.92,
+      "duration": 4.72,
+      "text": "or deep conf. The idea is you run many"
+    },
+    {
+      "start": 674.72,
+      "duration": 3.679,
+      "text": "chains of thought in parallel then"
+    },
+    {
+      "start": 676.64,
+      "duration": 3.759,
+      "text": "filter candidates using confidence"
+    },
+    {
+      "start": 678.399,
+      "duration": 4.081,
+      "text": "signals that helps accuracy without"
+    },
+    {
+      "start": 680.399,
+      "duration": 4.481,
+      "text": "burning unlimited compute. So between"
+    },
+    {
+      "start": 682.48,
+      "duration": 4.479,
+      "text": "Confucious and Falcon H1R you're"
+    },
+    {
+      "start": 684.88,
+      "duration": 3.84,
+      "text": "basically seeing the same thing. System"
+    },
+    {
+      "start": 686.959,
+      "duration": 3.841,
+      "text": "engineering is becoming the main"
+    },
+    {
+      "start": 688.72,
+      "duration": 4.72,
+      "text": "differentiator. Okay let's move to the"
+    },
+    {
+      "start": 690.8,
+      "duration": 4.719,
+      "text": "third update because this one feels like"
+    },
+    {
+      "start": 693.44,
+      "duration": 5.12,
+      "text": "the quiet move before a bigger strike."
+    },
+    {
+      "start": 695.519,
+      "duration": 5.521,
+      "text": "Deepseek updated their R1 paper on RXE."
+    },
+    {
+      "start": 698.56,
+      "duration": 4.719,
+      "text": "No announcement, no tweet, nothing. Just"
+    },
+    {
+      "start": 701.04,
+      "duration": 4.96,
+      "text": "version one becomes version two. But the"
+    },
+    {
+      "start": 703.279,
+      "duration": 5.601,
+      "text": "update is huge. The paper jumps from 22"
+    },
+    {
+      "start": 706,
+      "duration": 4.72,
+      "text": "pages to 86 pages. And suddenly it"
+    },
+    {
+      "start": 708.88,
+      "duration": 4.16,
+      "text": "contains the full training pipeline"
+    },
+    {
+      "start": 710.72,
+      "duration": 4.48,
+      "text": "breakdown, expanded evaluation across"
+    },
+    {
+      "start": 713.04,
+      "duration": 4.16,
+      "text": "more than 20 benchmarks and massive"
+    },
+    {
+      "start": 715.2,
+      "duration": 4.56,
+      "text": "appendices. It's like they decided to"
+    },
+    {
+      "start": 717.2,
+      "duration": 5.6,
+      "text": "open the entire black box. The update"
+    },
+    {
+      "start": 719.76,
+      "duration": 4.4,
+      "text": "includes dev 1, dev 2, dev 3"
+    },
+    {
+      "start": 722.8,
+      "duration": 3.839,
+      "text": "intermediate checkpoints for the"
+    },
+    {
+      "start": 724.16,
+      "duration": 4.56,
+      "text": "training pipeline. Dev 1 comes from cold"
+    },
+    {
+      "start": 726.639,
+      "duration": 3.841,
+      "text": "start instruction tuning which improves"
+    },
+    {
+      "start": 728.72,
+      "duration": 4,
+      "text": "instruction following but hurts"
+    },
+    {
+      "start": 730.48,
+      "duration": 5.12,
+      "text": "reasoning. Dev 2 is designed to rescue"
+    },
+    {
+      "start": 732.72,
+      "duration": 5.359,
+      "text": "reasoning using reasoning focused RL."
+    },
+    {
+      "start": 735.6,
+      "duration": 4.799,
+      "text": "Dev 3 is the final refinement using"
+    },
+    {
+      "start": 738.079,
+      "duration": 4.641,
+      "text": "rejection sampling for highquality data"
+    },
+    {
+      "start": 740.399,
+      "duration": 4.081,
+      "text": "followed by another SFT stage for stable"
+    },
+    {
+      "start": 742.72,
+      "duration": 3.679,
+      "text": "output. This detail matters because"
+    },
+    {
+      "start": 744.48,
+      "duration": 4.08,
+      "text": "people wondered why R1 could do"
+    },
+    {
+      "start": 746.399,
+      "duration": 4.56,
+      "text": "longchain reasoning without devolving"
+    },
+    {
+      "start": 748.56,
+      "duration": 4.079,
+      "text": "into chaotic outputs like R10. The"
+    },
+    {
+      "start": 750.959,
+      "duration": 3.841,
+      "text": "staged pipeline explains how they"
+    },
+    {
+      "start": 752.639,
+      "duration": 4.64,
+      "text": "stabilized it. The evaluation expands"
+    },
+    {
+      "start": 754.8,
+      "duration": 5.2,
+      "text": "massively covering benchmarks like SWE"
+    },
+    {
+      "start": 757.279,
+      "duration": 5.921,
+      "text": "bench verified, live codebench, mmlu"
+    },
+    {
+      "start": 760,
+      "duration": 5.519,
+      "text": "pro, GPQA diamond, drop, if evil and"
+    },
+    {
+      "start": 763.2,
+      "duration": 4.48,
+      "text": "more. They also add human baselines in"
+    },
+    {
+      "start": 765.519,
+      "duration": 3.76,
+      "text": "some comparisons which is rare and makes"
+    },
+    {
+      "start": 767.68,
+      "duration": 3.839,
+      "text": "the evaluation more meaningful than"
+    },
+    {
+      "start": 769.279,
+      "duration": 4.56,
+      "text": "simple leaderboards. The appendices are"
+    },
+    {
+      "start": 771.519,
+      "duration": 4.56,
+      "text": "where the real value is. Appendix A"
+    },
+    {
+      "start": 773.839,
+      "duration": 4.161,
+      "text": "details GRPO implementation and"
+    },
+    {
+      "start": 776.079,
+      "duration": 4.56,
+      "text": "hyperparameters including learning"
+    },
+    {
+      "start": 778,
+      "duration": 4.8,
+      "text": "rates, KL coefficients, and sampling"
+    },
+    {
+      "start": 780.639,
+      "duration": 4.32,
+      "text": "temperatures. Appendices B through F"
+    },
+    {
+      "start": 782.8,
+      "duration": 4.719,
+      "text": "cover reward function design, data"
+    },
+    {
+      "start": 784.959,
+      "duration": 5.201,
+      "text": "strategies, and evaluation procedures."
+    },
+    {
+      "start": 787.519,
+      "duration": 4.56,
+      "text": "For researchers trying to reproduce R1,"
+    },
+    {
+      "start": 790.16,
+      "duration": 3.76,
+      "text": "it's basically an operation manual."
+    },
+    {
+      "start": 792.079,
+      "duration": 4.241,
+      "text": "Deepseek even includes failed attempts"
+    },
+    {
+      "start": 793.92,
+      "duration": 4.32,
+      "text": "in the paper, admitting they tried MCTS"
+    },
+    {
+      "start": 796.32,
+      "duration": 4,
+      "text": "and PRM and found that they don't"
+    },
+    {
+      "start": 798.24,
+      "duration": 4.64,
+      "text": "generalize well to open-ended reasoning"
+    },
+    {
+      "start": 800.32,
+      "duration": 4.8,
+      "text": "tasks. That kind of transparency is rare"
+    },
+    {
+      "start": 802.88,
+      "duration": 4.56,
+      "text": "in industry AI, which usually only"
+    },
+    {
+      "start": 805.12,
+      "duration": 4.56,
+      "text": "publishes success stories. Now, the"
+    },
+    {
+      "start": 807.44,
+      "duration": 4.88,
+      "text": "timing makes this update feel even more"
+    },
+    {
+      "start": 809.68,
+      "duration": 4.719,
+      "text": "suspicious. January 20th marks the first"
+    },
+    {
+      "start": 812.32,
+      "duration": 4.24,
+      "text": "anniversary of R1's release, and"
+    },
+    {
+      "start": 814.399,
+      "duration": 3.841,
+      "text": "February 17th is Lunar New Year."
+    },
+    {
+      "start": 816.56,
+      "duration": 3.76,
+      "text": "Deepseek has a tradition of big"
+    },
+    {
+      "start": 818.24,
+      "duration": 5.279,
+      "text": "announcements around spring festival and"
+    },
+    {
+      "start": 820.32,
+      "duration": 5.28,
+      "text": "last year V3 and R1 were released during"
+    },
+    {
+      "start": 823.519,
+      "duration": 4.721,
+      "text": "that window. So when the community sees"
+    },
+    {
+      "start": 825.6,
+      "duration": 4.96,
+      "text": "Deepseek quietly dumping 60 plus pages"
+    },
+    {
+      "start": 828.24,
+      "duration": 4.64,
+      "text": "of technical details into the R1 paper,"
+    },
+    {
+      "start": 830.56,
+      "duration": 4.8,
+      "text": "people instantly start asking is this a"
+    },
+    {
+      "start": 832.88,
+      "duration": 4.48,
+      "text": "prelude to V4? And honestly, that"
+    },
+    {
+      "start": 835.36,
+      "duration": 3.919,
+      "text": "question makes sense because companies"
+    },
+    {
+      "start": 837.36,
+      "duration": 3.76,
+      "text": "usually don't reveal everything unless"
+    },
+    {
+      "start": 839.279,
+      "duration": 3.441,
+      "text": "the revealed tech is already behind"
+    },
+    {
+      "start": 841.12,
+      "duration": 3.279,
+      "text": "them. This could be a defensive"
+    },
+    {
+      "start": 842.72,
+      "duration": 3.359,
+      "text": "open-source strategy to prevent"
+    },
+    {
+      "start": 844.399,
+      "duration": 3.601,
+      "text": "competitors from patenting similar"
+    },
+    {
+      "start": 846.079,
+      "duration": 4,
+      "text": "methods, or it could be a signal that"
+    },
+    {
+      "start": 848,
+      "duration": 4,
+      "text": "they've moved on to newer directions and"
+    },
+    {
+      "start": 850.079,
+      "duration": 4.081,
+      "text": "want the old chapter to become public"
+    },
+    {
+      "start": 852,
+      "duration": 3.839,
+      "text": "baseline knowledge. All right, drop your"
+    },
+    {
+      "start": 854.16,
+      "duration": 3.2,
+      "text": "take in the comments. I want to see what"
+    },
+    {
+      "start": 855.839,
+      "duration": 3.601,
+      "text": "you think. And if you enjoyed this"
+    },
+    {
+      "start": 857.36,
+      "duration": 4.24,
+      "text": "breakdown, make sure to like the video,"
+    },
+    {
+      "start": 859.44,
+      "duration": 5.07,
+      "text": "subscribe for more AI updates like this,"
+    },
+    {
+      "start": 861.6,
+      "duration": 6,
+      "text": "and I'll catch you in the next one."
+    },
+    {
+      "start": 864.51,
+      "duration": 3.09,
+      "text": "[Music]"
+    }
+  ],
+  "fullText": "Meta and Harvard just dropped an open- source coding agent called the Confucious code agent and it basically proves that the agent scaffold can matter more than the model itself. Then Abu Dhabi's TI comes out of nowhere with Falcon H1R7B, a tiny 7B reasoning model with 256,000 context window that's outperforming models way bigger than it. And then DeepSeek updates the R1 paper with 60 extra pages like it's some kind of secret technical dump which has everyone thinking the next model release is right around the corner. So let's talk about it. All right, let's start with the meta and Harvard thing. They introduced something called the Confucious Code Agent or CCA and it's built on top of a platform called the Confucious SDK. At first glance, that just sounds like another AI coding agent, right? Like a competitor to SWE agent OpenHands. all the other projects that try to solve GitHub issues by running tests, editing files, and iterating. But Confucious is doing something much deeper. The key idea behind it is literally a shift in philosophy. They treat scaffolding as the main problem. And I know scaffolding sounds like a boring word, but it matters a lot. Most people still think an AI agent is basically a big model with a couple tools attached. Maybe it can execute commands. Maybe it can edit files. Maybe it can do search. and then you slap a wrapper around it and call it an agent. Confucious takes the exact opposite approach. They're basically saying if you want an AI to survive in a real industrial codebase across long debugging sessions across dozens of files across hundreds of actions, then the actual system around the model matters just as much as the model itself. And honestly, I agree with that because coding in real repos isn't one clean prompt. It's chaos. its tests failing in weird ways, dependencies breaking, environment issues, hidden conventions in the codebase, and small changes causing completely unexpected side effects. So, Confucious SDK is organized around three axes: agent experience, user experience, and developer experience. That sounds corporate, but it's actually pretty practical. Agent experience controls what the model sees and how context is structured. User experience is about making the agent understandable for humans with readable traces and diffs. Developer experience focuses on observability and debugging the agent itself so you can tune it like a system. Now what makes this thing truly interesting is that Confucious SDK introduces three major mechanisms that make the agent perform better across long tasks. The first mechanism is a unified orchestrator with something called hierarchical working memory. And this part is important because it solves one of the biggest weaknesses in agents today. They forget too easily. When an agent works on a real task, it's not just one message and one reply. It can be 60, 70, sometimes over 100 steps. The agent edits code, runs tests, reads logs, changes strategy, tries again, fails again, then finally lands on a fix. In that long trajectory, old decisions matter, old patches matter. Test logs from 40 turns ago matter. But if you rely on a simple sliding context window, eventually that information gets cut off. And once it gets cut off, the agent starts acting like it has amnesia. It repeats mistakes. It loops. It breaks things it already fixed. It loses the thread of what it even tried earlier. So Confucious SDK tries to solve that problem using hierarchical working memory. Instead of treating the agent run like one giant chat transcript, it partitions the trajectory into scopes, summarizes past steps, compresses context, and preserves the important artifacts. It keeps patches, error logs, and key design decisions accessible later while still keeping the prompt within context limits. So basically, it's not just bigger context window equals better memory. It's actual memory architecture. This is a huge deal because when you look at long horizon coding tasks, memory is the difference between an agent that slowly improves and an agent that spirals into a loop. Most people underestimate how much performance gets destroyed by bad memory management, especially when you deal with large repos. Now, the second mechanism in Confucious SDK is honestly one of the coolest things in the whole release. Persistent note-taking. They add a note-taking system where a dedicated agent writes structured markdown notes from execution traces. And these notes aren't logs. They're more like the kind of notes a senior engineer would leave for themselves after solving a tricky bug. So it captures repo conventions, strategies that worked, patterns that caused failures, and little gotchas that matter for that specific codebase. Then it stores them as long-term memory that can be reused across sessions. This concept is deeper than it sounds because in real engineering, you don't just solve a task. You build familiarity with the codebase. You learn the style. You understand the test suite. You realize which parts of the repo are fragile. That knowledge is exactly what makes someone faster the second time they touch the project. Confucious basically tries to simulate that and they tested it in a pretty clean setup. They ran the Confucious code agent twice on 151 swench pro tasks using clawed 4.5 sonnet. In the first run, it solves tasks from scratch and generates notes. In the second run, it reads the notes before solving. The results show something subtle but meaningful. Average turns drop from 64 to 61. Token usage drops from around 104,000 to 93,000 and resolve at one improves from 53.0 to 54.4. Now, that accuracy improvement is not huge and I don't want to oversell it, but the point is that the note system clearly improves efficiency. It makes the agent waste fewer steps and fewer tokens which is literally money in real production environments. It also proves the principle that long-term written memory can work even in a benchmark setting. So that's mechanism number two. The third mechanism is modular extensions for tools. Confucious SDK exposes tools as extensions like file editing, command execution, testr runners, code search and the key part here is that each extension can maintain its own state and prompt wiring. Now why does that matter? Because most agents treat tools like random calls. They do a bash command, dump output, and hope the model reads it correctly. But real tool usage needs discipline. It needs structure. It needs recovery logic. Confucious shows this clearly through ablations where they test tool sophistication. On a subset of SWEBench Pro, they show that better tool handling dramatically boosts resolve at one. For example, with Claude 4.5 Sonnet, a simple tool configuration reaches around 44.0 zero resolve at one while richer tool handling reaches 51.6. That's a massive jump. It shows that tool routing and sequencing becomes a major performance lever. So when people say agents are just models with tools, Confucious basically replies, \"No, the tool strategy and system design can move you as much as changing the model.\" And then on top of all of this, Confucious adds something that feels like a preview of what agent development will look like in the future. A meta agent that designs agents. This meta agent takes a natural language specification of what kind of agent you want, proposes configurations, prompts and extension sets, runs the candidate agent on tasks, inspects metrics and traces, and edits the configuration iteratively in a build, test, improve loop. So instead of a human doing 500 manual iterations trying to tune prompts, tool wiring, memory format, and control flow, you get LLMdriven optimization of the agent design itself. That's the kind of thing that makes a system scale faster because now the tuning process becomes systematic rather than artisan work. Now let's talk results on sEbench pro. Confucious code agent with claude 4.5 sonnet hits resolve at 152.7. Meanwhile, claude 4.5 opus with a weaker scaffold sits at 52.0. That's the headline that really matters. A mid-tier model with a strong scaffold can outperform a stronger model with a weaker scaffold. That's the first major theme of today. Scaffolding can outweigh model size. Now, let's connect this to the second article because it reinforces the exact same point just from the model architecture and training side instead of the agent side. Technology Innovation Institute TI in Abu Dhabi released Falcon H1R7B. This is a 7B parameter reasoning model that matches or exceeds many 14B to 47B reasoning models across math, code, and general benchmarks. And the reason this matters is because 7B models were traditionally treated as small, like cheap models, models you use for lightweight tasks. Falcon H1R flips that assumption. They combine three design choices into one system. A hybrid transformer plus Mamba 2 backbone, a huge 256,000 context window, and a training recipe that mixes long- form supervised reasoning with reinforcement learning using GRPO. So architecture- wise, it's a decoderon causal model with hybrid layers. Transformers handle attention-based reasoning, while the Mamba 2 blocks handle linear time sequence modeling. This matters when you push context length into extreme ranges because pure transformer attention scales badly as the sequence grows. Falcon H1R supports a default max model length of 262,144 tokens in VLLLM, which corresponds to a practical 256,000 context window. That is massive. It allows extremely long reasoning chains, huge tool logs, and multi-document prompts in one pass. And because Mamba 2 scales linearly, it helps control memory and throughput at those lengths. Now, training is where it gets even more interesting. They use a two-stage pipeline. First, cold start supervised fine-tuning on long- form reasoning traces across math, coding, science, plus additional non-reasoning domains like chat, tool calling, and safety. Difficulty aware filtering upweights harder problems. Targets can reach up to 48,000 tokens, meaning the model learns to sustain long coherent reasoning. Then they refine it with reinforcement learning using GRPO where rewards are given when the reasoning output is verifiably correct. Math answers can be checked symbolically. Code can be executed against unit tests. That's the cleanest kind of RL because correctness is measurable. So you're not training vibes, you're training correctness. Benchmarks show this model performs shockingly well for 7B. In math, it scores 88.1% on aime 24 and 83.1% on aime 25 with an aggregate math score of 73.96%. In coding and agentic tasks, it scores 68.6% on live codebench v6 and it stays competitive on general reasoning benchmarks like MMLU Pro and GPQA. Now, I want you to think about what this means for a second. It means a small model can perform in the same band as much larger systems when the architecture and training pipeline are tuned for reasoning. So the second theme becomes clear. Parameter count advantage is shrinking when training and architecture get smarter. And then there's the efficiency side. Falcon H1R7B shows strong throughput in their reported setups, reaching around 1,00 to 1,800 tokens per second per GPU depending on the batch settings. They also include test time scaling through a method called deep think with confidence or deep conf. The idea is you run many chains of thought in parallel then filter candidates using confidence signals that helps accuracy without burning unlimited compute. So between Confucious and Falcon H1R you're basically seeing the same thing. System engineering is becoming the main differentiator. Okay let's move to the third update because this one feels like the quiet move before a bigger strike. Deepseek updated their R1 paper on RXE. No announcement, no tweet, nothing. Just version one becomes version two. But the update is huge. The paper jumps from 22 pages to 86 pages. And suddenly it contains the full training pipeline breakdown, expanded evaluation across more than 20 benchmarks and massive appendices. It's like they decided to open the entire black box. The update includes dev 1, dev 2, dev 3 intermediate checkpoints for the training pipeline. Dev 1 comes from cold start instruction tuning which improves instruction following but hurts reasoning. Dev 2 is designed to rescue reasoning using reasoning focused RL. Dev 3 is the final refinement using rejection sampling for highquality data followed by another SFT stage for stable output. This detail matters because people wondered why R1 could do longchain reasoning without devolving into chaotic outputs like R10. The staged pipeline explains how they stabilized it. The evaluation expands massively covering benchmarks like SWE bench verified, live codebench, mmlu pro, GPQA diamond, drop, if evil and more. They also add human baselines in some comparisons which is rare and makes the evaluation more meaningful than simple leaderboards. The appendices are where the real value is. Appendix A details GRPO implementation and hyperparameters including learning rates, KL coefficients, and sampling temperatures. Appendices B through F cover reward function design, data strategies, and evaluation procedures. For researchers trying to reproduce R1, it's basically an operation manual. Deepseek even includes failed attempts in the paper, admitting they tried MCTS and PRM and found that they don't generalize well to open-ended reasoning tasks. That kind of transparency is rare in industry AI, which usually only publishes success stories. Now, the timing makes this update feel even more suspicious. January 20th marks the first anniversary of R1's release, and February 17th is Lunar New Year. Deepseek has a tradition of big announcements around spring festival and last year V3 and R1 were released during that window. So when the community sees Deepseek quietly dumping 60 plus pages of technical details into the R1 paper, people instantly start asking is this a prelude to V4? And honestly, that question makes sense because companies usually don't reveal everything unless the revealed tech is already behind them. This could be a defensive open-source strategy to prevent competitors from patenting similar methods, or it could be a signal that they've moved on to newer directions and want the old chapter to become public baseline knowledge. All right, drop your take in the comments. I want to see what you think. And if you enjoyed this breakdown, make sure to like the video, subscribe for more AI updates like this, and I'll catch you in the next one. [Music]",
+  "fetchedAt": "2026-01-18T18:32:25.806Z"
+}

@@ -1,0 +1,2204 @@
+{
+  "videoId": "rMADSuus6jg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.6,
+      "text": "Here's the standard rack pipeline"
+    },
+    {
+      "start": 1.76,
+      "duration": 3.599,
+      "text": "everybody teaches. You take your"
+    },
+    {
+      "start": 3.6,
+      "duration": 4.319,
+      "text": "document, create embeddings, store them"
+    },
+    {
+      "start": 5.359,
+      "duration": 4.401,
+      "text": "in a vector database, and when somebody"
+    },
+    {
+      "start": 7.919,
+      "duration": 5.6,
+      "text": "asks a question, you retrieve the"
+    },
+    {
+      "start": 9.76,
+      "duration": 5.999,
+      "text": "relevant chunk and feed them to an LLM."
+    },
+    {
+      "start": 13.519,
+      "duration": 4.721,
+      "text": "The pitch is always the same. Just embed"
+    },
+    {
+      "start": 15.759,
+      "duration": 5.36,
+      "text": "your documents and ask questions. It"
+    },
+    {
+      "start": 18.24,
+      "duration": 6.24,
+      "text": "sounds magical. And for simple use"
+    },
+    {
+      "start": 21.119,
+      "duration": 5.761,
+      "text": "cases, it works. But here is where"
+    },
+    {
+      "start": 24.48,
+      "duration": 4.4,
+      "text": "things get interesting. Now let me show"
+    },
+    {
+      "start": 26.88,
+      "duration": 4.88,
+      "text": "you what actually happens when you throw"
+    },
+    {
+      "start": 28.88,
+      "duration": 4.8,
+      "text": "real documents at a rag system. Chunk"
+    },
+    {
+      "start": 31.76,
+      "duration": 5.04,
+      "text": "lose context. When you split documents"
+    },
+    {
+      "start": 33.68,
+      "duration": 5.76,
+      "text": "into 500 token pieces, you destroy the"
+    },
+    {
+      "start": 36.8,
+      "duration": 5.599,
+      "text": "relationship between sections. The chunk"
+    },
+    {
+      "start": 39.44,
+      "duration": 5.68,
+      "text": "about the purchase price does not know"
+    },
+    {
+      "start": 42.399,
+      "duration": 4.561,
+      "text": "it's connected to exhibit B. Three pages"
+    },
+    {
+      "start": 45.12,
+      "duration": 4.4,
+      "text": "later. Cross references become"
+    },
+    {
+      "start": 46.96,
+      "duration": 6.8,
+      "text": "invisible. Embedding can't follow these"
+    },
+    {
+      "start": 49.52,
+      "duration": 6.4,
+      "text": "links. Similarity is not the same as"
+    },
+    {
+      "start": 53.76,
+      "duration": 4.4,
+      "text": "relevance. Just because two pieces of"
+    },
+    {
+      "start": 55.92,
+      "duration": 4.639,
+      "text": "text are semantically similar does not"
+    },
+    {
+      "start": 58.16,
+      "duration": 5.76,
+      "text": "mean they are both useful for answering"
+    },
+    {
+      "start": 60.559,
+      "duration": 5.841,
+      "text": "your question and there is no reasoning"
+    },
+    {
+      "start": 63.92,
+      "duration": 4.879,
+      "text": "happening. Rag is pattern matching on"
+    },
+    {
+      "start": 66.4,
+      "duration": 4.88,
+      "text": "surface level. It does not understand"
+    },
+    {
+      "start": 68.799,
+      "duration": 4.561,
+      "text": "your document. It's just finding things"
+    },
+    {
+      "start": 71.28,
+      "duration": 5.28,
+      "text": "that look similar. Let's talk about the"
+    },
+    {
+      "start": 73.36,
+      "duration": 5.04,
+      "text": "main culprit. So here's what a rack"
+    },
+    {
+      "start": 76.56,
+      "duration": 3.68,
+      "text": "system actually sees when you ask a"
+    },
+    {
+      "start": 78.4,
+      "duration": 5.2,
+      "text": "question about a purchase price. So"
+    },
+    {
+      "start": 80.24,
+      "duration": 6.559,
+      "text": "chunk 47 talks about purchase price and"
+    },
+    {
+      "start": 83.6,
+      "duration": 5.6,
+      "text": "then it cuts off. Chunk 48 mentions"
+    },
+    {
+      "start": 86.799,
+      "duration": 5.441,
+      "text": "section 2.3b which outlines the"
+    },
+    {
+      "start": 89.2,
+      "duration": 5.12,
+      "text": "methodology. These chunks are neighbors"
+    },
+    {
+      "start": 92.24,
+      "duration": 4.48,
+      "text": "in the document but the rack system does"
+    },
+    {
+      "start": 94.32,
+      "duration": 4.479,
+      "text": "not know that. What you actually need is"
+    },
+    {
+      "start": 96.72,
+      "duration": 4.16,
+      "text": "a full context. So it's actually a"
+    },
+    {
+      "start": 98.799,
+      "duration": 4.96,
+      "text": "chain. Documents are structured. They"
+    },
+    {
+      "start": 100.88,
+      "duration": 5.919,
+      "text": "have hierarchy. Chunking destroy all of"
+    },
+    {
+      "start": 103.759,
+      "duration": 5.201,
+      "text": "that structure. Now here's a typical"
+    },
+    {
+      "start": 106.799,
+      "duration": 4.081,
+      "text": "document and tell document 10 documents"
+    },
+    {
+      "start": 108.96,
+      "duration": 3.92,
+      "text": "in a folder. When you ask a question,"
+    },
+    {
+      "start": 110.88,
+      "duration": 5.12,
+      "text": "you might need information from three or"
+    },
+    {
+      "start": 112.88,
+      "duration": 7.279,
+      "text": "four of them, but they reference each"
+    },
+    {
+      "start": 116,
+      "duration": 7.2,
+      "text": "other. So look at this line. The term in"
+    },
+    {
+      "start": 120.159,
+      "duration": 5.28,
+      "text": "exhibit B are subject to schedule 4.2."
+    },
+    {
+      "start": 123.2,
+      "duration": 3.76,
+      "text": "This is one sentence that spans two"
+    },
+    {
+      "start": 125.439,
+      "duration": 4.641,
+      "text": "documents."
+    },
+    {
+      "start": 126.96,
+      "duration": 5.279,
+      "text": "So ARG system retrieves one chunk. It"
+    },
+    {
+      "start": 130.08,
+      "duration": 4.159,
+      "text": "might find the sentence, but it won't"
+    },
+    {
+      "start": 132.239,
+      "duration": 4.481,
+      "text": "follow the chain. Now the problem is"
+    },
+    {
+      "start": 134.239,
+      "duration": 4.241,
+      "text": "this is not a niche problem. Legal"
+    },
+    {
+      "start": 136.72,
+      "duration": 4.72,
+      "text": "documents, technical specification,"
+    },
+    {
+      "start": 138.48,
+      "duration": 6.8,
+      "text": "financial filing, they all work in the"
+    },
+    {
+      "start": 141.44,
+      "duration": 6.08,
+      "text": "same way. Cross references are the norm,"
+    },
+    {
+      "start": 145.28,
+      "duration": 4.319,
+      "text": "not the exception. What if instead of"
+    },
+    {
+      "start": 147.52,
+      "duration": 5.76,
+      "text": "computing chunks and hoping for the"
+    },
+    {
+      "start": 149.599,
+      "duration": 5.36,
+      "text": "best, we actually let the AI navigate"
+    },
+    {
+      "start": 153.28,
+      "duration": 4.16,
+      "text": "documents like a human would. Think"
+    },
+    {
+      "start": 154.959,
+      "duration": 4.961,
+      "text": "about how you read documents. So let me"
+    },
+    {
+      "start": 157.44,
+      "duration": 5.2,
+      "text": "give you a concrete example. You are"
+    },
+    {
+      "start": 159.92,
+      "duration": 5.36,
+      "text": "looking for the return policy. So what"
+    },
+    {
+      "start": 162.64,
+      "duration": 4.8,
+      "text": "do you do first? You don't read page"
+    },
+    {
+      "start": 165.28,
+      "duration": 4.72,
+      "text": "one. You look at the table of contents."
+    },
+    {
+      "start": 167.44,
+      "duration": 6.72,
+      "text": "Chapter 3 is written policies. That"
+    },
+    {
+      "start": 170,
+      "duration": 6.4,
+      "text": "looks relevant. So you go to page 28,"
+    },
+    {
+      "start": 174.16,
+      "duration": 5.76,
+      "text": "scan for electronics. Now this is how"
+    },
+    {
+      "start": 176.4,
+      "duration": 6.32,
+      "text": "intelligent document search should work."
+    },
+    {
+      "start": 179.92,
+      "duration": 5.28,
+      "text": "Not find similar text but understand and"
+    },
+    {
+      "start": 182.72,
+      "duration": 3.92,
+      "text": "navigate. So here is what a rack system"
+    },
+    {
+      "start": 185.2,
+      "duration": 3.84,
+      "text": "would have returned for the same"
+    },
+    {
+      "start": 186.64,
+      "duration": 5.36,
+      "text": "question. Some chunks that mention"
+    },
+    {
+      "start": 189.04,
+      "duration": 6.72,
+      "text": "return policy exist and tells you to see"
+    },
+    {
+      "start": 192,
+      "duration": 6.319,
+      "text": "section 3.2. It found a related text but"
+    },
+    {
+      "start": 195.76,
+      "duration": 4.32,
+      "text": "not the answer. But the agentic approach"
+    },
+    {
+      "start": 198.319,
+      "duration": 4.481,
+      "text": "finds the actual answer, follows the"
+    },
+    {
+      "start": 200.08,
+      "duration": 4.96,
+      "text": "references to extend warranty info and"
+    },
+    {
+      "start": 202.8,
+      "duration": 5.04,
+      "text": "gives you complete context. That's the"
+    },
+    {
+      "start": 205.04,
+      "duration": 4.88,
+      "text": "difference. Okay. Now how this agentic"
+    },
+    {
+      "start": 207.84,
+      "duration": 4.479,
+      "text": "file search looks like. This is"
+    },
+    {
+      "start": 209.92,
+      "duration": 4.399,
+      "text": "different than the normal agentic rag"
+    },
+    {
+      "start": 212.319,
+      "duration": 4.241,
+      "text": "approaches that you probably have seen."
+    },
+    {
+      "start": 214.319,
+      "duration": 4.401,
+      "text": "So it starts with a user query same as a"
+    },
+    {
+      "start": 216.56,
+      "duration": 5.12,
+      "text": "rack but instead of retrieving"
+    },
+    {
+      "start": 218.72,
+      "duration": 5.12,
+      "text": "precomputed chunks the agent scans all"
+    },
+    {
+      "start": 221.68,
+      "duration": 5.119,
+      "text": "the documents in parallel. It gets a"
+    },
+    {
+      "start": 223.84,
+      "duration": 5.2,
+      "text": "quick preview of everything all at once."
+    },
+    {
+      "start": 226.799,
+      "duration": 5.121,
+      "text": "Then it decides which documents are"
+    },
+    {
+      "start": 229.04,
+      "duration": 5.6,
+      "text": "actually relevant and does a deep dive"
+    },
+    {
+      "start": 231.92,
+      "duration": 5.92,
+      "text": "reading the full context of all those"
+    },
+    {
+      "start": 234.64,
+      "duration": 5.44,
+      "text": "files. And critically if it finds a"
+    },
+    {
+      "start": 237.84,
+      "duration": 5.759,
+      "text": "reference to another document it goes"
+    },
+    {
+      "start": 240.08,
+      "duration": 6.48,
+      "text": "back and reads that too. I call this a"
+    },
+    {
+      "start": 243.599,
+      "duration": 4.241,
+      "text": "threephase strategy. Phase one, get"
+    },
+    {
+      "start": 246.56,
+      "duration": 3.12,
+      "text": "preview of all the documents in"
+    },
+    {
+      "start": 247.84,
+      "duration": 3.52,
+      "text": "parallel. This is fast. You're not"
+    },
+    {
+      "start": 249.68,
+      "duration": 4.24,
+      "text": "reading everything, just enough to"
+    },
+    {
+      "start": 251.36,
+      "duration": 4.64,
+      "text": "categorize. Now phase two, now you read"
+    },
+    {
+      "start": 253.92,
+      "duration": 5.039,
+      "text": "the full content of the document that"
+    },
+    {
+      "start": 256,
+      "duration": 6.32,
+      "text": "look relevant. And phase three,"
+    },
+    {
+      "start": 258.959,
+      "duration": 6.8,
+      "text": "backtrack. If document A says, see"
+    },
+    {
+      "start": 262.32,
+      "duration": 5.92,
+      "text": "document B and you skipped document B"
+    },
+    {
+      "start": 265.759,
+      "duration": 4.961,
+      "text": "earlier, go back and read it. So the"
+    },
+    {
+      "start": 268.24,
+      "duration": 4.56,
+      "text": "agent decides what to read based on the"
+    },
+    {
+      "start": 270.72,
+      "duration": 4.56,
+      "text": "question. That's the key difference from"
+    },
+    {
+      "start": 272.8,
+      "duration": 5.36,
+      "text": "rack. Okay, so let's summarize the"
+    },
+    {
+      "start": 275.28,
+      "duration": 5.04,
+      "text": "fundamental differences. Rack uses"
+    },
+    {
+      "start": 278.16,
+      "duration": 4.96,
+      "text": "precomputed embeddings. They are fixed"
+    },
+    {
+      "start": 280.32,
+      "duration": 7.04,
+      "text": "at index time. You get the same chunks"
+    },
+    {
+      "start": 283.12,
+      "duration": 7.12,
+      "text": "no matter how you phrase your question."
+    },
+    {
+      "start": 287.36,
+      "duration": 6,
+      "text": "Agentic file search is dynamic. It"
+    },
+    {
+      "start": 290.24,
+      "duration": 6.239,
+      "text": "adopts to each query. Different question"
+    },
+    {
+      "start": 293.36,
+      "duration": 5.839,
+      "text": "leads to different exploration paths and"
+    },
+    {
+      "start": 296.479,
+      "duration": 4.72,
+      "text": "it follows logical connections not just"
+    },
+    {
+      "start": 299.199,
+      "duration": 4.641,
+      "text": "semantic similarity. Now the"
+    },
+    {
+      "start": 301.199,
+      "duration": 5.44,
+      "text": "practicalities matter. You're going to"
+    },
+    {
+      "start": 303.84,
+      "duration": 5.76,
+      "text": "be using a lot more tokens. Now I'm not"
+    },
+    {
+      "start": 306.639,
+      "duration": 5.361,
+      "text": "saying rag is useless. It has its place."
+    },
+    {
+      "start": 309.6,
+      "duration": 5.68,
+      "text": "So use rag when you have simple question"
+    },
+    {
+      "start": 312,
+      "duration": 5.6,
+      "text": "answer or large corpus. When documents"
+    },
+    {
+      "start": 315.28,
+      "duration": 4.88,
+      "text": "are independent and don't reference each"
+    },
+    {
+      "start": 317.6,
+      "duration": 5.84,
+      "text": "other and when speed is critical rack is"
+    },
+    {
+      "start": 320.16,
+      "duration": 5.599,
+      "text": "faster. Use agentic file search when you"
+    },
+    {
+      "start": 323.44,
+      "duration": 6.72,
+      "text": "need complex multi-document reasoning."
+    },
+    {
+      "start": 325.759,
+      "duration": 6.401,
+      "text": "when document reference each other when"
+    },
+    {
+      "start": 330.16,
+      "duration": 4.08,
+      "text": "structure matters like legal or"
+    },
+    {
+      "start": 332.16,
+      "duration": 4.16,
+      "text": "technical documents and when accuracy is"
+    },
+    {
+      "start": 334.24,
+      "duration": 5.04,
+      "text": "more important than speed they are"
+    },
+    {
+      "start": 336.32,
+      "duration": 6.56,
+      "text": "different tools for different jobs so in"
+    },
+    {
+      "start": 339.28,
+      "duration": 5.52,
+      "text": "summary rag is retriever it finds"
+    },
+    {
+      "start": 342.88,
+      "duration": 4.08,
+      "text": "similar textic"
+    },
+    {
+      "start": 344.8,
+      "duration": 5.839,
+      "text": "file search is reasoning it understand"
+    },
+    {
+      "start": 346.96,
+      "duration": 7.679,
+      "text": "documents embedding finds similar text"
+    },
+    {
+      "start": 350.639,
+      "duration": 6.4,
+      "text": "agents understand documents and I think"
+    },
+    {
+      "start": 354.639,
+      "duration": 4.481,
+      "text": "future is not just retrieval, it's"
+    },
+    {
+      "start": 357.039,
+      "duration": 5.041,
+      "text": "exploration. Okay, so now let me show"
+    },
+    {
+      "start": 359.12,
+      "duration": 5.44,
+      "text": "you a practical example before technical"
+    },
+    {
+      "start": 362.08,
+      "duration": 6.16,
+      "text": "explanation of how this works. So here's"
+    },
+    {
+      "start": 364.56,
+      "duration": 6.639,
+      "text": "a quick demo of how this agentic file"
+    },
+    {
+      "start": 368.24,
+      "duration": 6.56,
+      "text": "search explorer looks like in practice."
+    },
+    {
+      "start": 371.199,
+      "duration": 6,
+      "text": "I can select a folder. There are 26"
+    },
+    {
+      "start": 374.8,
+      "duration": 5.28,
+      "text": "different files in it. This is demi data"
+    },
+    {
+      "start": 377.199,
+      "duration": 6,
+      "text": "from a large acquisition that I created."
+    },
+    {
+      "start": 380.08,
+      "duration": 5.679,
+      "text": "The file varies from a few pages to tens"
+    },
+    {
+      "start": 383.199,
+      "duration": 4.161,
+      "text": "of pages. Now since this is regarding"
+    },
+    {
+      "start": 385.759,
+      "duration": 3.041,
+      "text": "acquisition, we're going to ask a"
+    },
+    {
+      "start": 387.36,
+      "duration": 3.92,
+      "text": "question like what happens to employees"
+    },
+    {
+      "start": 388.8,
+      "duration": 5.839,
+      "text": "after the acquisition cover retention"
+    },
+    {
+      "start": 391.28,
+      "duration": 6.08,
+      "text": "benefits and non-competes. A traditional"
+    },
+    {
+      "start": 394.639,
+      "duration": 5.201,
+      "text": "rack system may not be able to answer"
+    },
+    {
+      "start": 397.36,
+      "duration": 4.72,
+      "text": "complex questions like these. This is"
+    },
+    {
+      "start": 399.84,
+      "duration": 5.199,
+      "text": "going to be relatively slower compared"
+    },
+    {
+      "start": 402.08,
+      "duration": 4.64,
+      "text": "to a traditional retrieval step. So you"
+    },
+    {
+      "start": 405.039,
+      "duration": 4.961,
+      "text": "can't really use this for realtime"
+    },
+    {
+      "start": 406.72,
+      "duration": 6.24,
+      "text": "chatting. This is extremely helpful if"
+    },
+    {
+      "start": 410,
+      "duration": 5.68,
+      "text": "you want more accurate answers, but"
+    },
+    {
+      "start": 412.96,
+      "duration": 4.56,
+      "text": "you're not constrained by latency."
+    },
+    {
+      "start": 415.68,
+      "duration": 4,
+      "text": "Second, it uses an approach similar to"
+    },
+    {
+      "start": 417.52,
+      "duration": 4.88,
+      "text": "what coding agents like clot code does."
+    },
+    {
+      "start": 419.68,
+      "duration": 6.4,
+      "text": "So when you ask it for a code change,"
+    },
+    {
+      "start": 422.4,
+      "duration": 6.32,
+      "text": "clot code is going to use the grip"
+    },
+    {
+      "start": 426.08,
+      "duration": 5.44,
+      "text": "command along with regular expression"
+    },
+    {
+      "start": 428.72,
+      "duration": 5.84,
+      "text": "based search mechanism to look for code"
+    },
+    {
+      "start": 431.52,
+      "duration": 5.84,
+      "text": "snippets that are most relevant to the"
+    },
+    {
+      "start": 434.56,
+      "duration": 5.44,
+      "text": "user question. It does a very similar"
+    },
+    {
+      "start": 437.36,
+      "duration": 4.88,
+      "text": "thing. It intelligently identifies which"
+    },
+    {
+      "start": 440,
+      "duration": 5.12,
+      "text": "document to process. It doesn't read all"
+    },
+    {
+      "start": 442.24,
+      "duration": 4.799,
+      "text": "of the documents all at once. So here's"
+    },
+    {
+      "start": 445.12,
+      "duration": 6.079,
+      "text": "the answer that we got. You're going to"
+    },
+    {
+      "start": 447.039,
+      "duration": 6.641,
+      "text": "see that it sites the files in line"
+    },
+    {
+      "start": 451.199,
+      "duration": 4.481,
+      "text": "where the information is coming from. It"
+    },
+    {
+      "start": 453.68,
+      "duration": 4,
+      "text": "talks about the employee retentions. How"
+    },
+    {
+      "start": 455.68,
+      "duration": 4.639,
+      "text": "many total employees were there? And"
+    },
+    {
+      "start": 457.68,
+      "duration": 5.519,
+      "text": "then it talks about benefits and equity"
+    },
+    {
+      "start": 460.319,
+      "duration": 4.961,
+      "text": "for each one of them. It also talks"
+    },
+    {
+      "start": 463.199,
+      "duration": 4.481,
+      "text": "about non-compete"
+    },
+    {
+      "start": 465.28,
+      "duration": 4.56,
+      "text": "and then at the end it lists all the"
+    },
+    {
+      "start": 467.68,
+      "duration": 4.72,
+      "text": "sources that were consulted. Now let's"
+    },
+    {
+      "start": 469.84,
+      "duration": 5.12,
+      "text": "walk through the step-by-step process of"
+    },
+    {
+      "start": 472.4,
+      "duration": 5.44,
+      "text": "how the agent was thinking about it. So"
+    },
+    {
+      "start": 474.96,
+      "duration": 4.72,
+      "text": "first it used the scan folder tool."
+    },
+    {
+      "start": 477.84,
+      "duration": 4.72,
+      "text": "We're going to go into the technical"
+    },
+    {
+      "start": 479.68,
+      "duration": 4.639,
+      "text": "details in the later part of the video."
+    },
+    {
+      "start": 482.56,
+      "duration": 3.68,
+      "text": "So this uses a parallel scan to"
+    },
+    {
+      "start": 484.319,
+      "duration": 4.16,
+      "text": "categorize all documents in the folder"
+    },
+    {
+      "start": 486.24,
+      "duration": 4.399,
+      "text": "based on their relevance to the employee"
+    },
+    {
+      "start": 488.479,
+      "duration": 5.761,
+      "text": "matters. Then based on that initial"
+    },
+    {
+      "start": 490.639,
+      "duration": 6.56,
+      "text": "assessment, it decided to parse this one"
+    },
+    {
+      "start": 494.24,
+      "duration": 5.519,
+      "text": "document which it thinks is most"
+    },
+    {
+      "start": 497.199,
+      "duration": 5.921,
+      "text": "relevant. It also explicitly cross"
+    },
+    {
+      "start": 499.759,
+      "duration": 5.361,
+      "text": "references several other documents. Key"
+    },
+    {
+      "start": 503.12,
+      "duration": 3.919,
+      "text": "employee retention agreement. These are"
+    },
+    {
+      "start": 505.12,
+      "duration": 3.759,
+      "text": "different documents in the folder. And"
+    },
+    {
+      "start": 507.039,
+      "duration": 4,
+      "text": "you can see the agent is reading through"
+    },
+    {
+      "start": 508.879,
+      "duration": 4.96,
+      "text": "the document and trying to identify if"
+    },
+    {
+      "start": 511.039,
+      "duration": 6.24,
+      "text": "it's cross referencing any other"
+    },
+    {
+      "start": 513.839,
+      "duration": 6.161,
+      "text": "document in this folder. Now this is the"
+    },
+    {
+      "start": 517.279,
+      "duration": 4.401,
+      "text": "key innovation because in a lot of"
+    },
+    {
+      "start": 520,
+      "duration": 4.159,
+      "text": "technical documentation whether it's"
+    },
+    {
+      "start": 521.68,
+      "duration": 4.32,
+      "text": "legal or financial document you're going"
+    },
+    {
+      "start": 524.159,
+      "duration": 3.841,
+      "text": "to see there are cross references to"
+    },
+    {
+      "start": 526,
+      "duration": 4.48,
+      "text": "different documents. So the agent is"
+    },
+    {
+      "start": 528,
+      "duration": 6.16,
+      "text": "smart enough to identify those cross"
+    },
+    {
+      "start": 530.48,
+      "duration": 6.08,
+      "text": "references and then go and look for"
+    },
+    {
+      "start": 534.16,
+      "duration": 4.64,
+      "text": "those specific documents. So after"
+    },
+    {
+      "start": 536.56,
+      "duration": 5.76,
+      "text": "reading through the first file it goes"
+    },
+    {
+      "start": 538.8,
+      "duration": 6.32,
+      "text": "and reads through another file which is"
+    },
+    {
+      "start": 542.32,
+      "duration": 4.24,
+      "text": "cross referenced. It does the same for a"
+    },
+    {
+      "start": 545.12,
+      "duration": 4.159,
+      "text": "few other files as well. In here, it"
+    },
+    {
+      "start": 546.56,
+      "duration": 4.959,
+      "text": "says I have identified the key employees"
+    },
+    {
+      "start": 549.279,
+      "duration": 4.56,
+      "text": "and their retention bonuses, but I need"
+    },
+    {
+      "start": 551.519,
+      "duration": 5.281,
+      "text": "to find the specific terms for the"
+    },
+    {
+      "start": 553.839,
+      "duration": 5.761,
+      "text": "treatment of equity awards. So, it's"
+    },
+    {
+      "start": 556.8,
+      "duration": 4.88,
+      "text": "backtracking here and then it identifies"
+    },
+    {
+      "start": 559.6,
+      "duration": 4.239,
+      "text": "that there is another file that I should"
+    },
+    {
+      "start": 561.68,
+      "duration": 4.4,
+      "text": "be looking at. So it looks at a couple"
+    },
+    {
+      "start": 563.839,
+      "duration": 3.921,
+      "text": "of other files, reads the content of"
+    },
+    {
+      "start": 566.08,
+      "duration": 4.24,
+      "text": "those files and based on the information"
+    },
+    {
+      "start": 567.76,
+      "duration": 5.84,
+      "text": "that just collected, it comes up with"
+    },
+    {
+      "start": 570.32,
+      "duration": 5.76,
+      "text": "the final comprehensive solution. Now if"
+    },
+    {
+      "start": 573.6,
+      "duration": 4.64,
+      "text": "you were to use this same prompt in a"
+    },
+    {
+      "start": 576.08,
+      "duration": 4.72,
+      "text": "traditional embedding based semantic"
+    },
+    {
+      "start": 578.24,
+      "duration": 5.92,
+      "text": "similarity retrieval system or even just"
+    },
+    {
+      "start": 580.8,
+      "duration": 5.68,
+      "text": "keyword based retrieval system, it will"
+    },
+    {
+      "start": 584.16,
+      "duration": 4.16,
+      "text": "not be able to go through this"
+    },
+    {
+      "start": 586.48,
+      "duration": 3.919,
+      "text": "multi-step process even if you're"
+    },
+    {
+      "start": 588.32,
+      "duration": 4.639,
+      "text": "building an agentic rack system based on"
+    },
+    {
+      "start": 590.399,
+      "duration": 4.88,
+      "text": "semantic similarity. But here you get a"
+    },
+    {
+      "start": 592.959,
+      "duration": 4.241,
+      "text": "lot more comprehensive responses. Now a"
+    },
+    {
+      "start": 595.279,
+      "duration": 4.801,
+      "text": "couple of very important points before I"
+    },
+    {
+      "start": 597.2,
+      "duration": 5.6,
+      "text": "show you the technical details. The"
+    },
+    {
+      "start": 600.08,
+      "duration": 4.64,
+      "text": "agentic file search is going to be a lot"
+    },
+    {
+      "start": 602.8,
+      "duration": 4.08,
+      "text": "slower compared to traditional rack"
+    },
+    {
+      "start": 604.72,
+      "duration": 4.239,
+      "text": "system. It's going to use a lot more"
+    },
+    {
+      "start": 606.88,
+      "duration": 5.76,
+      "text": "tokens as well. So it's going to be"
+    },
+    {
+      "start": 608.959,
+      "duration": 5.841,
+      "text": "relatively more expensive compared to a"
+    },
+    {
+      "start": 612.64,
+      "duration": 4.48,
+      "text": "traditional rack system where you reduce"
+    },
+    {
+      "start": 614.8,
+      "duration": 4.479,
+      "text": "the context that is going to be fed into"
+    },
+    {
+      "start": 617.12,
+      "duration": 4.8,
+      "text": "the large language model. Now the good"
+    },
+    {
+      "start": 619.279,
+      "duration": 6,
+      "text": "news is that if you are running a"
+    },
+    {
+      "start": 621.92,
+      "duration": 6.72,
+      "text": "completely local model, you can also use"
+    },
+    {
+      "start": 625.279,
+      "duration": 5.441,
+      "text": "a long context openweight model for this"
+    },
+    {
+      "start": 628.64,
+      "duration": 4.879,
+      "text": "purpose. But the bottom line is that you"
+    },
+    {
+      "start": 630.72,
+      "duration": 7.84,
+      "text": "want to use this system if latency is"
+    },
+    {
+      "start": 633.519,
+      "duration": 7.76,
+      "text": "not an issue and you can wait for more"
+    },
+    {
+      "start": 638.56,
+      "duration": 5.92,
+      "text": "accurate responses that is going to take"
+    },
+    {
+      "start": 641.279,
+      "duration": 5.441,
+      "text": "more time. Okay. So now let me walk you"
+    },
+    {
+      "start": 644.48,
+      "duration": 3.76,
+      "text": "through how this system was built. I'm"
+    },
+    {
+      "start": 646.72,
+      "duration": 4.239,
+      "text": "not going to walk you through the"
+    },
+    {
+      "start": 648.24,
+      "duration": 4.56,
+      "text": "installation process. Link to the GitHub"
+    },
+    {
+      "start": 650.959,
+      "duration": 4.401,
+      "text": "repo is going to be in the video"
+    },
+    {
+      "start": 652.8,
+      "duration": 5.2,
+      "text": "description. It's pretty straightforward"
+    },
+    {
+      "start": 655.36,
+      "duration": 5.68,
+      "text": "to install this system and run it"
+    },
+    {
+      "start": 658,
+      "duration": 4.959,
+      "text": "locally. So this is file search explorer"
+    },
+    {
+      "start": 661.04,
+      "duration": 4.4,
+      "text": "an open source agentic document search"
+    },
+    {
+      "start": 662.959,
+      "duration": 5.041,
+      "text": "system built on top of the llama index"
+    },
+    {
+      "start": 665.44,
+      "duration": 4.959,
+      "text": "example. Let me show you how exactly"
+    },
+    {
+      "start": 668,
+      "duration": 4.88,
+      "text": "this is built. So here's the highlevel"
+    },
+    {
+      "start": 670.399,
+      "duration": 4.721,
+      "text": "architecture. A user query comes in and"
+    },
+    {
+      "start": 672.88,
+      "duration": 4.399,
+      "text": "goes to the workflow engine. The"
+    },
+    {
+      "start": 675.12,
+      "duration": 4.64,
+      "text": "workflow coordinates an agent which"
+    },
+    {
+      "start": 677.279,
+      "duration": 4.641,
+      "text": "talks to Gemini 3 flash for decision"
+    },
+    {
+      "start": 679.76,
+      "duration": 4.24,
+      "text": "making. Now in this case the agent does"
+    },
+    {
+      "start": 681.92,
+      "duration": 4.479,
+      "text": "not just return text. It returns"
+    },
+    {
+      "start": 684,
+      "duration": 4.88,
+      "text": "structured action. There are six tools"
+    },
+    {
+      "start": 686.399,
+      "duration": 5.521,
+      "text": "that the agent can use. Think of these"
+    },
+    {
+      "start": 688.88,
+      "duration": 6.72,
+      "text": "as the agent's hands. It can scan"
+    },
+    {
+      "start": 691.92,
+      "duration": 6.24,
+      "text": "folders, preview files, parse documents,"
+    },
+    {
+      "start": 695.6,
+      "duration": 4.72,
+      "text": "read text, search for grip, and find"
+    },
+    {
+      "start": 698.16,
+      "duration": 6.239,
+      "text": "files with glob. The agent decides which"
+    },
+    {
+      "start": 700.32,
+      "duration": 7.759,
+      "text": "tool to use based on what it has learned"
+    },
+    {
+      "start": 704.399,
+      "duration": 6.88,
+      "text": "so far and it's not a fixed pipeline."
+    },
+    {
+      "start": 708.079,
+      "duration": 6.081,
+      "text": "Also, you don't really see any indexing"
+    },
+    {
+      "start": 711.279,
+      "duration": 5.521,
+      "text": "step here. Now, let's talk about the"
+    },
+    {
+      "start": 714.16,
+      "duration": 4.56,
+      "text": "core components. First, the workflow"
+    },
+    {
+      "start": 716.8,
+      "duration": 4.56,
+      "text": "engine. I'm using Llama index workflow"
+    },
+    {
+      "start": 718.72,
+      "duration": 5.52,
+      "text": "for this. It's event driven. The agent"
+    },
+    {
+      "start": 721.36,
+      "duration": 5.36,
+      "text": "emits events. The workflow reacts. This"
+    },
+    {
+      "start": 724.24,
+      "duration": 4.399,
+      "text": "gives you async execution, timeout"
+    },
+    {
+      "start": 726.72,
+      "duration": 5.2,
+      "text": "handling and clean separation of"
+    },
+    {
+      "start": 728.639,
+      "duration": 5.841,
+      "text": "concerns. The second is the agent. This"
+    },
+    {
+      "start": 731.92,
+      "duration": 5.12,
+      "text": "is a thin wrapper around Gemini 3 flash."
+    },
+    {
+      "start": 734.48,
+      "duration": 4,
+      "text": "You can replace it with another model if"
+    },
+    {
+      "start": 737.04,
+      "duration": 3.359,
+      "text": "you want. The important part is"
+    },
+    {
+      "start": 738.48,
+      "duration": 5.2,
+      "text": "structured JSON output. The model"
+    },
+    {
+      "start": 740.399,
+      "duration": 5.521,
+      "text": "returns a schema not free text. The"
+    },
+    {
+      "start": 743.68,
+      "duration": 3.92,
+      "text": "third is the document parser. In this"
+    },
+    {
+      "start": 745.92,
+      "duration": 4.159,
+      "text": "case, I'm using dockling. It's open"
+    },
+    {
+      "start": 747.6,
+      "duration": 5.28,
+      "text": "source and it's run locally. Now API"
+    },
+    {
+      "start": 750.079,
+      "duration": 4.161,
+      "text": "calls for parsing. It handles PDF, Word"
+    },
+    {
+      "start": 752.88,
+      "duration": 4.24,
+      "text": "documents, PowerPoint and everything"
+    },
+    {
+      "start": 754.24,
+      "duration": 5.92,
+      "text": "that you can imagine. Everything gets"
+    },
+    {
+      "start": 757.12,
+      "duration": 4.88,
+      "text": "converted to clean markdown text. I"
+    },
+    {
+      "start": 760.16,
+      "duration": 5.04,
+      "text": "personally like a standard format that"
+    },
+    {
+      "start": 762,
+      "duration": 5.279,
+      "text": "the agent can work with. So here are the"
+    },
+    {
+      "start": 765.2,
+      "duration": 4.079,
+      "text": "six tools and let me walk you through"
+    },
+    {
+      "start": 767.279,
+      "duration": 5.761,
+      "text": "each one of them because this is the"
+    },
+    {
+      "start": 769.279,
+      "duration": 5.761,
+      "text": "core of the whole pipeline. So the first"
+    },
+    {
+      "start": 773.04,
+      "duration": 4.32,
+      "text": "one is scan documents. This is the most"
+    },
+    {
+      "start": 775.04,
+      "duration": 5.2,
+      "text": "important tool. It scans all documents"
+    },
+    {
+      "start": 777.36,
+      "duration": 5.2,
+      "text": "in folder in parallel and returns quick"
+    },
+    {
+      "start": 780.24,
+      "duration": 4.88,
+      "text": "preview of each one. The second one is"
+    },
+    {
+      "start": 782.56,
+      "duration": 5.519,
+      "text": "preview file. So it's a quick preview of"
+    },
+    {
+      "start": 785.12,
+      "duration": 5.2,
+      "text": "a single document. We take about 3,000"
+    },
+    {
+      "start": 788.079,
+      "duration": 6.32,
+      "text": "characters roughly the first page."
+    },
+    {
+      "start": 790.32,
+      "duration": 6.8,
+      "text": "Useful for spot checks. The third one is"
+    },
+    {
+      "start": 794.399,
+      "duration": 5.201,
+      "text": "parse file. It's full document"
+    },
+    {
+      "start": 797.12,
+      "duration": 5.44,
+      "text": "extraction. This is the deep dive. You"
+    },
+    {
+      "start": 799.6,
+      "duration": 6.16,
+      "text": "get everything. Then there is a tool for"
+    },
+    {
+      "start": 802.56,
+      "duration": 6.24,
+      "text": "read for plain text files faster than"
+    },
+    {
+      "start": 805.76,
+      "duration": 5.68,
+      "text": "parse files when you don't need document"
+    },
+    {
+      "start": 808.8,
+      "duration": 4.96,
+      "text": "processing. Then there is grip which is"
+    },
+    {
+      "start": 811.44,
+      "duration": 4.16,
+      "text": "regular expression search within a file"
+    },
+    {
+      "start": 813.76,
+      "duration": 4.24,
+      "text": "useful for when you're looking for"
+    },
+    {
+      "start": 815.6,
+      "duration": 5.76,
+      "text": "specific patterns. Then last one is"
+    },
+    {
+      "start": 818,
+      "duration": 6.24,
+      "text": "glob. It finds file by patterns like"
+    },
+    {
+      "start": 821.36,
+      "duration": 4.8,
+      "text": "find all PDFs in a folder. The agent"
+    },
+    {
+      "start": 824.24,
+      "duration": 4.24,
+      "text": "chooses which tool to use based on the"
+    },
+    {
+      "start": 826.16,
+      "duration": 4.88,
+      "text": "current context. The decision making is"
+    },
+    {
+      "start": 828.48,
+      "duration": 5.28,
+      "text": "where the intelligence lives. Let me"
+    },
+    {
+      "start": 831.04,
+      "duration": 6.239,
+      "text": "zoom in on the scan folder because this"
+    },
+    {
+      "start": 833.76,
+      "duration": 5.6,
+      "text": "is the key component. Now here is the"
+    },
+    {
+      "start": 837.279,
+      "duration": 4.081,
+      "text": "implementation. It finds all documents"
+    },
+    {
+      "start": 839.36,
+      "duration": 4.8,
+      "text": "in a folder then uses thread pool"
+    },
+    {
+      "start": 841.36,
+      "duration": 5.279,
+      "text": "executor to process them all in"
+    },
+    {
+      "start": 844.16,
+      "duration": 4.96,
+      "text": "parallel. Four workers by default. Each"
+    },
+    {
+      "start": 846.639,
+      "duration": 6.721,
+      "text": "document gets a quick preview about the"
+    },
+    {
+      "start": 849.12,
+      "duration": 6.8,
+      "text": "first 1500 characters. Now why does this"
+    },
+    {
+      "start": 853.36,
+      "duration": 5.279,
+      "text": "matter? There are three main reasons."
+    },
+    {
+      "start": 855.92,
+      "duration": 6,
+      "text": "First a single API call. Instead of the"
+    },
+    {
+      "start": 858.639,
+      "duration": 5.521,
+      "text": "agent calling preview file 10 times, it"
+    },
+    {
+      "start": 861.92,
+      "duration": 5.279,
+      "text": "calls scan folder once and sees"
+    },
+    {
+      "start": 864.16,
+      "duration": 5.76,
+      "text": "everything. Two, parallel IO document"
+    },
+    {
+      "start": 867.199,
+      "duration": 6,
+      "text": "parsing is IO bound. So parallelism"
+    },
+    {
+      "start": 869.92,
+      "duration": 6.159,
+      "text": "gives you a real speed up about four uh"
+    },
+    {
+      "start": 873.199,
+      "duration": 5.041,
+      "text": "times faster than sequential. And the"
+    },
+    {
+      "start": 876.079,
+      "duration": 3.76,
+      "text": "third reason is informed decisions. The"
+    },
+    {
+      "start": 878.24,
+      "duration": 4.959,
+      "text": "agent can categorize all the documents"
+    },
+    {
+      "start": 879.839,
+      "duration": 6.401,
+      "text": "all at once. These three are relevant."
+    },
+    {
+      "start": 883.199,
+      "duration": 5.521,
+      "text": "These seven I can skip. So this is the"
+    },
+    {
+      "start": 886.24,
+      "duration": 4.8,
+      "text": "intelligent filtering step. Okay, let me"
+    },
+    {
+      "start": 888.72,
+      "duration": 4.559,
+      "text": "show you how these tools get used in"
+    },
+    {
+      "start": 891.04,
+      "duration": 6.08,
+      "text": "practice. The system follows three-phase"
+    },
+    {
+      "start": 893.279,
+      "duration": 6.161,
+      "text": "strategy. So phase one is parallel scan."
+    },
+    {
+      "start": 897.12,
+      "duration": 4.24,
+      "text": "When the agent encounters a folder, it's"
+    },
+    {
+      "start": 899.44,
+      "duration": 4.8,
+      "text": "uses the scan folder to preview"
+    },
+    {
+      "start": 901.36,
+      "duration": 5.36,
+      "text": "everything at once. It's a quick broad"
+    },
+    {
+      "start": 904.24,
+      "duration": 4.56,
+      "text": "coverage. Then there is phase two, which"
+    },
+    {
+      "start": 906.72,
+      "duration": 4.239,
+      "text": "is deep dive. Based on those previews,"
+    },
+    {
+      "start": 908.8,
+      "duration": 5.52,
+      "text": "the agent identifies which documents are"
+    },
+    {
+      "start": 910.959,
+      "duration": 6.161,
+      "text": "relevant and calls the parse file on"
+    },
+    {
+      "start": 914.32,
+      "duration": 5.12,
+      "text": "each. Now it's reading the full content"
+    },
+    {
+      "start": 917.12,
+      "duration": 5.2,
+      "text": "in this phase. Then there is the last"
+    },
+    {
+      "start": 919.44,
+      "duration": 6.8,
+      "text": "phase which we call backtrack. If a"
+    },
+    {
+      "start": 922.32,
+      "duration": 7.04,
+      "text": "document says see exhibit B and the"
+    },
+    {
+      "start": 926.24,
+      "duration": 4.959,
+      "text": "agent skipped exhibit B in phase one, it"
+    },
+    {
+      "start": 929.36,
+      "duration": 4.08,
+      "text": "goes back and reads it. The system"
+    },
+    {
+      "start": 931.199,
+      "duration": 5.121,
+      "text": "prompt explicitly tells the agent to"
+    },
+    {
+      "start": 933.44,
+      "duration": 6.16,
+      "text": "watch for references and backtrack when"
+    },
+    {
+      "start": 936.32,
+      "duration": 5.68,
+      "text": "needed. Okay, so let's talk about the"
+    },
+    {
+      "start": 939.6,
+      "duration": 4.72,
+      "text": "agent's decision loop. What happens on"
+    },
+    {
+      "start": 942,
+      "duration": 4.16,
+      "text": "each iteration? So the agent receives"
+    },
+    {
+      "start": 944.32,
+      "duration": 4.56,
+      "text": "full conversation history. The original"
+    },
+    {
+      "start": 946.16,
+      "duration": 6.239,
+      "text": "question, all the tool calls so far, all"
+    },
+    {
+      "start": 948.88,
+      "duration": 6.319,
+      "text": "results. It send those to Gemini 3 flash"
+    },
+    {
+      "start": 952.399,
+      "duration": 5.841,
+      "text": "which returns structured JSON not free"
+    },
+    {
+      "start": 955.199,
+      "duration": 5.601,
+      "text": "text just a schema. And then the JSON"
+    },
+    {
+      "start": 958.24,
+      "duration": 4.48,
+      "text": "contains an action type three"
+    },
+    {
+      "start": 960.8,
+      "duration": 4.24,
+      "text": "possibility. One is tool call which"
+    },
+    {
+      "start": 962.72,
+      "duration": 4.559,
+      "text": "means use this tool with the parameters"
+    },
+    {
+      "start": 965.04,
+      "duration": 4.56,
+      "text": "go deeper which means navigate to this"
+    },
+    {
+      "start": 967.279,
+      "duration": 4.24,
+      "text": "directory and stop which means I have"
+    },
+    {
+      "start": 969.6,
+      "duration": 4.64,
+      "text": "the answer. So after executing the"
+    },
+    {
+      "start": 971.519,
+      "duration": 4.641,
+      "text": "action the result gets added to history"
+    },
+    {
+      "start": 974.24,
+      "duration": 5.279,
+      "text": "and we loop. This continues until the"
+    },
+    {
+      "start": 976.16,
+      "duration": 5.359,
+      "text": "agent says a stop or when it hits a"
+    },
+    {
+      "start": 979.519,
+      "duration": 4.24,
+      "text": "timeout. Okay. One optimization that"
+    },
+    {
+      "start": 981.519,
+      "duration": 4.56,
+      "text": "matters is document caching. So when"
+    },
+    {
+      "start": 983.759,
+      "duration": 3.921,
+      "text": "parse files get called we first check as"
+    },
+    {
+      "start": 986.079,
+      "duration": 4,
+      "text": "cache. If the document was already"
+    },
+    {
+      "start": 987.68,
+      "duration": 4.56,
+      "text": "parsed maybe from a preview or previous"
+    },
+    {
+      "start": 990.079,
+      "duration": 4.721,
+      "text": "question, we return the cacheed version"
+    },
+    {
+      "start": 992.24,
+      "duration": 4.8,
+      "text": "instantly. Now implementation here is"
+    },
+    {
+      "start": 994.8,
+      "duration": 5.039,
+      "text": "simple. A dictionary mapping file paths"
+    },
+    {
+      "start": 997.04,
+      "duration": 4.56,
+      "text": "to pass content parse once reuse"
+    },
+    {
+      "start": 999.839,
+      "duration": 3.521,
+      "text": "everywhere. This matters for"
+    },
+    {
+      "start": 1001.6,
+      "duration": 4,
+      "text": "backtracking. If the agent previewed a"
+    },
+    {
+      "start": 1003.36,
+      "duration": 6.159,
+      "text": "document then later needs the full"
+    },
+    {
+      "start": 1005.6,
+      "duration": 6.08,
+      "text": "content, the preview work isn't wasted."
+    },
+    {
+      "start": 1009.519,
+      "duration": 4.32,
+      "text": "Next, we're going to look at how does"
+    },
+    {
+      "start": 1011.68,
+      "duration": 5.04,
+      "text": "the agent know when to backtrack and"
+    },
+    {
+      "start": 1013.839,
+      "duration": 4.961,
+      "text": "cross reference detection. So we tell"
+    },
+    {
+      "start": 1016.72,
+      "duration": 4.559,
+      "text": "the agent to watch for patterns like see"
+    },
+    {
+      "start": 1018.8,
+      "duration": 5.6,
+      "text": "exhibit A as stated in the document"
+    },
+    {
+      "start": 1021.279,
+      "duration": 5.601,
+      "text": "referred to section 4.2 and so on. These"
+    },
+    {
+      "start": 1024.4,
+      "duration": 5.039,
+      "text": "are in the system prompt. So when the"
+    },
+    {
+      "start": 1026.88,
+      "duration": 4.88,
+      "text": "agent encounters a reference, it checks"
+    },
+    {
+      "start": 1029.439,
+      "duration": 5.041,
+      "text": "was the document in my skip list. If"
+    },
+    {
+      "start": 1031.76,
+      "duration": 4.88,
+      "text": "yes, it backtracks and reads it. If the"
+    },
+    {
+      "start": 1034.48,
+      "duration": 6,
+      "text": "reference document wasn't even in the"
+    },
+    {
+      "start": 1036.64,
+      "duration": 6.24,
+      "text": "folder scan, it might use globs to find"
+    },
+    {
+      "start": 1040.48,
+      "duration": 5.199,
+      "text": "it. This is where the agentic part"
+    },
+    {
+      "start": 1042.88,
+      "duration": 5.439,
+      "text": "shines. The agent is reasoning about"
+    },
+    {
+      "start": 1045.679,
+      "duration": 5.12,
+      "text": "what it needs, not just pattern matching"
+    },
+    {
+      "start": 1048.319,
+      "duration": 4.561,
+      "text": "like simple rack system. The system is"
+    },
+    {
+      "start": 1050.799,
+      "duration": 4,
+      "text": "designed to be extendable. You want to"
+    },
+    {
+      "start": 1052.88,
+      "duration": 5.6,
+      "text": "add a new tool. There are simple four"
+    },
+    {
+      "start": 1054.799,
+      "duration": 5.361,
+      "text": "steps. Define the function in the fs.py."
+    },
+    {
+      "start": 1058.48,
+      "duration": 5.68,
+      "text": "Add it to the tool directory in the"
+    },
+    {
+      "start": 1060.16,
+      "duration": 5.84,
+      "text": "agent.py. Update the tool in models.py."
+    },
+    {
+      "start": 1064.16,
+      "duration": 3.519,
+      "text": "Document it in the system prompt. And"
+    },
+    {
+      "start": 1066,
+      "duration": 4.96,
+      "text": "you're done. Now you want to swap the"
+    },
+    {
+      "start": 1067.679,
+      "duration": 5.761,
+      "text": "lm. Replace the Google generative AI"
+    },
+    {
+      "start": 1070.96,
+      "duration": 4.64,
+      "text": "import with entropic or open AI. Just"
+    },
+    {
+      "start": 1073.44,
+      "duration": 4.72,
+      "text": "update the generate call function. The"
+    },
+    {
+      "start": 1075.6,
+      "duration": 5.12,
+      "text": "rest of the system does not change at"
+    },
+    {
+      "start": 1078.16,
+      "duration": 4.56,
+      "text": "all. The architecture is model tools,"
+    },
+    {
+      "start": 1080.72,
+      "duration": 5.68,
+      "text": "LLMs and workflows are separate"
+    },
+    {
+      "start": 1082.72,
+      "duration": 6.24,
+      "text": "concerns. Okay. Some key insights from"
+    },
+    {
+      "start": 1086.4,
+      "duration": 4.399,
+      "text": "building this parallel scanning is"
+    },
+    {
+      "start": 1088.96,
+      "duration": 4,
+      "text": "crucial. Scan folder call gives the"
+    },
+    {
+      "start": 1090.799,
+      "duration": 4.321,
+      "text": "agent full context to make smart"
+    },
+    {
+      "start": 1092.96,
+      "duration": 4.64,
+      "text": "decisions. Without this, you are making"
+    },
+    {
+      "start": 1095.12,
+      "duration": 4.799,
+      "text": "dozens of round trips. Two, structured"
+    },
+    {
+      "start": 1097.6,
+      "duration": 4.16,
+      "text": "outputs prevents errors. When the LLM"
+    },
+    {
+      "start": 1099.919,
+      "duration": 4.64,
+      "text": "returns a schema instead of a free text,"
+    },
+    {
+      "start": 1101.76,
+      "duration": 5.12,
+      "text": "you eliminate an entire class of bugs."
+    },
+    {
+      "start": 1104.559,
+      "duration": 4.881,
+      "text": "You don't have to worry about regular"
+    },
+    {
+      "start": 1106.88,
+      "duration": 5.679,
+      "text": "expression, no parsing failures. And"
+    },
+    {
+      "start": 1109.44,
+      "duration": 5.2,
+      "text": "three, backtracking enables thoroughess."
+    },
+    {
+      "start": 1112.559,
+      "duration": 5.041,
+      "text": "The ability to revisit skip documents"
+    },
+    {
+      "start": 1114.64,
+      "duration": 6,
+      "text": "based on across references is what make"
+    },
+    {
+      "start": 1117.6,
+      "duration": 5.76,
+      "text": "this work on real documents."
+    },
+    {
+      "start": 1120.64,
+      "duration": 5.2,
+      "text": "So the code is open source. Link is in"
+    },
+    {
+      "start": 1123.36,
+      "duration": 4.48,
+      "text": "the description. If you want to see more"
+    },
+    {
+      "start": 1125.84,
+      "duration": 4.88,
+      "text": "deep dives into agentic systems, let me"
+    },
+    {
+      "start": 1127.84,
+      "duration": 2.88,
+      "text": "know in the comments."
+    }
+  ],
+  "fullText": "Here's the standard rack pipeline everybody teaches. You take your document, create embeddings, store them in a vector database, and when somebody asks a question, you retrieve the relevant chunk and feed them to an LLM. The pitch is always the same. Just embed your documents and ask questions. It sounds magical. And for simple use cases, it works. But here is where things get interesting. Now let me show you what actually happens when you throw real documents at a rag system. Chunk lose context. When you split documents into 500 token pieces, you destroy the relationship between sections. The chunk about the purchase price does not know it's connected to exhibit B. Three pages later. Cross references become invisible. Embedding can't follow these links. Similarity is not the same as relevance. Just because two pieces of text are semantically similar does not mean they are both useful for answering your question and there is no reasoning happening. Rag is pattern matching on surface level. It does not understand your document. It's just finding things that look similar. Let's talk about the main culprit. So here's what a rack system actually sees when you ask a question about a purchase price. So chunk 47 talks about purchase price and then it cuts off. Chunk 48 mentions section 2.3b which outlines the methodology. These chunks are neighbors in the document but the rack system does not know that. What you actually need is a full context. So it's actually a chain. Documents are structured. They have hierarchy. Chunking destroy all of that structure. Now here's a typical document and tell document 10 documents in a folder. When you ask a question, you might need information from three or four of them, but they reference each other. So look at this line. The term in exhibit B are subject to schedule 4.2. This is one sentence that spans two documents. So ARG system retrieves one chunk. It might find the sentence, but it won't follow the chain. Now the problem is this is not a niche problem. Legal documents, technical specification, financial filing, they all work in the same way. Cross references are the norm, not the exception. What if instead of computing chunks and hoping for the best, we actually let the AI navigate documents like a human would. Think about how you read documents. So let me give you a concrete example. You are looking for the return policy. So what do you do first? You don't read page one. You look at the table of contents. Chapter 3 is written policies. That looks relevant. So you go to page 28, scan for electronics. Now this is how intelligent document search should work. Not find similar text but understand and navigate. So here is what a rack system would have returned for the same question. Some chunks that mention return policy exist and tells you to see section 3.2. It found a related text but not the answer. But the agentic approach finds the actual answer, follows the references to extend warranty info and gives you complete context. That's the difference. Okay. Now how this agentic file search looks like. This is different than the normal agentic rag approaches that you probably have seen. So it starts with a user query same as a rack but instead of retrieving precomputed chunks the agent scans all the documents in parallel. It gets a quick preview of everything all at once. Then it decides which documents are actually relevant and does a deep dive reading the full context of all those files. And critically if it finds a reference to another document it goes back and reads that too. I call this a threephase strategy. Phase one, get preview of all the documents in parallel. This is fast. You're not reading everything, just enough to categorize. Now phase two, now you read the full content of the document that look relevant. And phase three, backtrack. If document A says, see document B and you skipped document B earlier, go back and read it. So the agent decides what to read based on the question. That's the key difference from rack. Okay, so let's summarize the fundamental differences. Rack uses precomputed embeddings. They are fixed at index time. You get the same chunks no matter how you phrase your question. Agentic file search is dynamic. It adopts to each query. Different question leads to different exploration paths and it follows logical connections not just semantic similarity. Now the practicalities matter. You're going to be using a lot more tokens. Now I'm not saying rag is useless. It has its place. So use rag when you have simple question answer or large corpus. When documents are independent and don't reference each other and when speed is critical rack is faster. Use agentic file search when you need complex multi-document reasoning. when document reference each other when structure matters like legal or technical documents and when accuracy is more important than speed they are different tools for different jobs so in summary rag is retriever it finds similar textic file search is reasoning it understand documents embedding finds similar text agents understand documents and I think future is not just retrieval, it's exploration. Okay, so now let me show you a practical example before technical explanation of how this works. So here's a quick demo of how this agentic file search explorer looks like in practice. I can select a folder. There are 26 different files in it. This is demi data from a large acquisition that I created. The file varies from a few pages to tens of pages. Now since this is regarding acquisition, we're going to ask a question like what happens to employees after the acquisition cover retention benefits and non-competes. A traditional rack system may not be able to answer complex questions like these. This is going to be relatively slower compared to a traditional retrieval step. So you can't really use this for realtime chatting. This is extremely helpful if you want more accurate answers, but you're not constrained by latency. Second, it uses an approach similar to what coding agents like clot code does. So when you ask it for a code change, clot code is going to use the grip command along with regular expression based search mechanism to look for code snippets that are most relevant to the user question. It does a very similar thing. It intelligently identifies which document to process. It doesn't read all of the documents all at once. So here's the answer that we got. You're going to see that it sites the files in line where the information is coming from. It talks about the employee retentions. How many total employees were there? And then it talks about benefits and equity for each one of them. It also talks about non-compete and then at the end it lists all the sources that were consulted. Now let's walk through the step-by-step process of how the agent was thinking about it. So first it used the scan folder tool. We're going to go into the technical details in the later part of the video. So this uses a parallel scan to categorize all documents in the folder based on their relevance to the employee matters. Then based on that initial assessment, it decided to parse this one document which it thinks is most relevant. It also explicitly cross references several other documents. Key employee retention agreement. These are different documents in the folder. And you can see the agent is reading through the document and trying to identify if it's cross referencing any other document in this folder. Now this is the key innovation because in a lot of technical documentation whether it's legal or financial document you're going to see there are cross references to different documents. So the agent is smart enough to identify those cross references and then go and look for those specific documents. So after reading through the first file it goes and reads through another file which is cross referenced. It does the same for a few other files as well. In here, it says I have identified the key employees and their retention bonuses, but I need to find the specific terms for the treatment of equity awards. So, it's backtracking here and then it identifies that there is another file that I should be looking at. So it looks at a couple of other files, reads the content of those files and based on the information that just collected, it comes up with the final comprehensive solution. Now if you were to use this same prompt in a traditional embedding based semantic similarity retrieval system or even just keyword based retrieval system, it will not be able to go through this multi-step process even if you're building an agentic rack system based on semantic similarity. But here you get a lot more comprehensive responses. Now a couple of very important points before I show you the technical details. The agentic file search is going to be a lot slower compared to traditional rack system. It's going to use a lot more tokens as well. So it's going to be relatively more expensive compared to a traditional rack system where you reduce the context that is going to be fed into the large language model. Now the good news is that if you are running a completely local model, you can also use a long context openweight model for this purpose. But the bottom line is that you want to use this system if latency is not an issue and you can wait for more accurate responses that is going to take more time. Okay. So now let me walk you through how this system was built. I'm not going to walk you through the installation process. Link to the GitHub repo is going to be in the video description. It's pretty straightforward to install this system and run it locally. So this is file search explorer an open source agentic document search system built on top of the llama index example. Let me show you how exactly this is built. So here's the highlevel architecture. A user query comes in and goes to the workflow engine. The workflow coordinates an agent which talks to Gemini 3 flash for decision making. Now in this case the agent does not just return text. It returns structured action. There are six tools that the agent can use. Think of these as the agent's hands. It can scan folders, preview files, parse documents, read text, search for grip, and find files with glob. The agent decides which tool to use based on what it has learned so far and it's not a fixed pipeline. Also, you don't really see any indexing step here. Now, let's talk about the core components. First, the workflow engine. I'm using Llama index workflow for this. It's event driven. The agent emits events. The workflow reacts. This gives you async execution, timeout handling and clean separation of concerns. The second is the agent. This is a thin wrapper around Gemini 3 flash. You can replace it with another model if you want. The important part is structured JSON output. The model returns a schema not free text. The third is the document parser. In this case, I'm using dockling. It's open source and it's run locally. Now API calls for parsing. It handles PDF, Word documents, PowerPoint and everything that you can imagine. Everything gets converted to clean markdown text. I personally like a standard format that the agent can work with. So here are the six tools and let me walk you through each one of them because this is the core of the whole pipeline. So the first one is scan documents. This is the most important tool. It scans all documents in folder in parallel and returns quick preview of each one. The second one is preview file. So it's a quick preview of a single document. We take about 3,000 characters roughly the first page. Useful for spot checks. The third one is parse file. It's full document extraction. This is the deep dive. You get everything. Then there is a tool for read for plain text files faster than parse files when you don't need document processing. Then there is grip which is regular expression search within a file useful for when you're looking for specific patterns. Then last one is glob. It finds file by patterns like find all PDFs in a folder. The agent chooses which tool to use based on the current context. The decision making is where the intelligence lives. Let me zoom in on the scan folder because this is the key component. Now here is the implementation. It finds all documents in a folder then uses thread pool executor to process them all in parallel. Four workers by default. Each document gets a quick preview about the first 1500 characters. Now why does this matter? There are three main reasons. First a single API call. Instead of the agent calling preview file 10 times, it calls scan folder once and sees everything. Two, parallel IO document parsing is IO bound. So parallelism gives you a real speed up about four uh times faster than sequential. And the third reason is informed decisions. The agent can categorize all the documents all at once. These three are relevant. These seven I can skip. So this is the intelligent filtering step. Okay, let me show you how these tools get used in practice. The system follows three-phase strategy. So phase one is parallel scan. When the agent encounters a folder, it's uses the scan folder to preview everything at once. It's a quick broad coverage. Then there is phase two, which is deep dive. Based on those previews, the agent identifies which documents are relevant and calls the parse file on each. Now it's reading the full content in this phase. Then there is the last phase which we call backtrack. If a document says see exhibit B and the agent skipped exhibit B in phase one, it goes back and reads it. The system prompt explicitly tells the agent to watch for references and backtrack when needed. Okay, so let's talk about the agent's decision loop. What happens on each iteration? So the agent receives full conversation history. The original question, all the tool calls so far, all results. It send those to Gemini 3 flash which returns structured JSON not free text just a schema. And then the JSON contains an action type three possibility. One is tool call which means use this tool with the parameters go deeper which means navigate to this directory and stop which means I have the answer. So after executing the action the result gets added to history and we loop. This continues until the agent says a stop or when it hits a timeout. Okay. One optimization that matters is document caching. So when parse files get called we first check as cache. If the document was already parsed maybe from a preview or previous question, we return the cacheed version instantly. Now implementation here is simple. A dictionary mapping file paths to pass content parse once reuse everywhere. This matters for backtracking. If the agent previewed a document then later needs the full content, the preview work isn't wasted. Next, we're going to look at how does the agent know when to backtrack and cross reference detection. So we tell the agent to watch for patterns like see exhibit A as stated in the document referred to section 4.2 and so on. These are in the system prompt. So when the agent encounters a reference, it checks was the document in my skip list. If yes, it backtracks and reads it. If the reference document wasn't even in the folder scan, it might use globs to find it. This is where the agentic part shines. The agent is reasoning about what it needs, not just pattern matching like simple rack system. The system is designed to be extendable. You want to add a new tool. There are simple four steps. Define the function in the fs.py. Add it to the tool directory in the agent.py. Update the tool in models.py. Document it in the system prompt. And you're done. Now you want to swap the lm. Replace the Google generative AI import with entropic or open AI. Just update the generate call function. The rest of the system does not change at all. The architecture is model tools, LLMs and workflows are separate concerns. Okay. Some key insights from building this parallel scanning is crucial. Scan folder call gives the agent full context to make smart decisions. Without this, you are making dozens of round trips. Two, structured outputs prevents errors. When the LLM returns a schema instead of a free text, you eliminate an entire class of bugs. You don't have to worry about regular expression, no parsing failures. And three, backtracking enables thoroughess. The ability to revisit skip documents based on across references is what make this work on real documents. So the code is open source. Link is in the description. If you want to see more deep dives into agentic systems, let me know in the comments.",
+  "fetchedAt": "2026-01-18T18:34:23.915Z"
+}

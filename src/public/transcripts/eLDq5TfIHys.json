@@ -1,0 +1,1714 @@
+{
+  "videoId": "eLDq5TfIHys",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.92,
+      "text": "Have you ever noticed that when you ask"
+    },
+    {
+      "start": 2,
+      "duration": 4,
+      "text": "your AI agent to make something, for"
+    },
+    {
+      "start": 4.08,
+      "duration": 3.92,
+      "text": "example, a landing page for a TV"
+    },
+    {
+      "start": 6,
+      "duration": 3.92,
+      "text": "website, it starts up and presents you"
+    },
+    {
+      "start": 8,
+      "duration": 3.519,
+      "text": "with the most basic design you've ever"
+    },
+    {
+      "start": 9.92,
+      "duration": 3.839,
+      "text": "seen? Well, we weren't the only ones."
+    },
+    {
+      "start": 11.519,
+      "duration": 4.481,
+      "text": "And Claude also noticed how their models"
+    },
+    {
+      "start": 13.759,
+      "duration": 4.001,
+      "text": "always generate that AI look. And they"
+    },
+    {
+      "start": 16,
+      "duration": 4,
+      "text": "actually told us the main issue behind"
+    },
+    {
+      "start": 17.76,
+      "duration": 4.16,
+      "text": "it, which is distributional convergence."
+    },
+    {
+      "start": 20,
+      "duration": 4.08,
+      "text": "It just means that models predict their"
+    },
+    {
+      "start": 21.92,
+      "duration": 4.08,
+      "text": "next words based on probability in their"
+    },
+    {
+      "start": 24.08,
+      "duration": 4.24,
+      "text": "training data. So the website you just"
+    },
+    {
+      "start": 26,
+      "duration": 4.4,
+      "text": "saw had the highest probability of being"
+    },
+    {
+      "start": 28.32,
+      "duration": 4.32,
+      "text": "built and was the safest option. This"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.839,
+      "text": "basically means that these AI models are"
+    },
+    {
+      "start": 32.64,
+      "duration": 3.2,
+      "text": "not creative at all. But that's why"
+    },
+    {
+      "start": 34.239,
+      "duration": 3.281,
+      "text": "Claude released this article on"
+    },
+    {
+      "start": 35.84,
+      "duration": 3.92,
+      "text": "improving front-end design through"
+    },
+    {
+      "start": 37.52,
+      "duration": 4.4,
+      "text": "skills outlining the main problem and"
+    },
+    {
+      "start": 39.76,
+      "duration": 4,
+      "text": "actually giving the solution for this."
+    },
+    {
+      "start": 41.92,
+      "duration": 3.76,
+      "text": "This is where Claude gives us the good"
+    },
+    {
+      "start": 43.76,
+      "duration": 4,
+      "text": "news saying that creativity can be"
+    },
+    {
+      "start": 45.68,
+      "duration": 3.84,
+      "text": "injected because the models are highly"
+    },
+    {
+      "start": 47.76,
+      "duration": 4.08,
+      "text": "steerable with the right specific"
+    },
+    {
+      "start": 49.52,
+      "duration": 4.16,
+      "text": "instructions. But this introduces a big"
+    },
+    {
+      "start": 51.84,
+      "duration": 3.6,
+      "text": "challenge. The more specialized the task"
+    },
+    {
+      "start": 53.68,
+      "duration": 3.68,
+      "text": "becomes, the more bloated the context"
+    },
+    {
+      "start": 55.44,
+      "duration": 3.52,
+      "text": "window gets as you need to offer more"
+    },
+    {
+      "start": 57.36,
+      "duration": 3.44,
+      "text": "context. For front-end design"
+    },
+    {
+      "start": 58.96,
+      "duration": 4.32,
+      "text": "especially, there are many dimensions"
+    },
+    {
+      "start": 60.8,
+      "duration": 4.399,
+      "text": "such as typography, colors, animations,"
+    },
+    {
+      "start": 63.28,
+      "duration": 3.839,
+      "text": "and more. And you need to specify all"
+    },
+    {
+      "start": 65.199,
+      "duration": 3.92,
+      "text": "these things so that it doesn't default"
+    },
+    {
+      "start": 67.119,
+      "duration": 3.921,
+      "text": "back to its basic nature and give you"
+    },
+    {
+      "start": 69.119,
+      "duration": 3.68,
+      "text": "the most basic designs. Now, this is"
+    },
+    {
+      "start": 71.04,
+      "duration": 3.439,
+      "text": "where Claude tries to bring in their"
+    },
+    {
+      "start": 72.799,
+      "duration": 3.68,
+      "text": "skills feature, saying that you could"
+    },
+    {
+      "start": 74.479,
+      "duration": 3.761,
+      "text": "put this all in a system prompt, but"
+    },
+    {
+      "start": 76.479,
+      "duration": 4.161,
+      "text": "then the rest of your work that you need"
+    },
+    {
+      "start": 78.24,
+      "duration": 4.64,
+      "text": "to do would be hindered by this extra"
+    },
+    {
+      "start": 80.64,
+      "duration": 3.68,
+      "text": "information about UI that you don't need"
+    },
+    {
+      "start": 82.88,
+      "duration": 3.68,
+      "text": "because you're not only going to be"
+    },
+    {
+      "start": 84.32,
+      "duration": 4.479,
+      "text": "working with UI in a project. So, Claude"
+    },
+    {
+      "start": 86.56,
+      "duration": 4,
+      "text": "skills help by loading the effective UI"
+    },
+    {
+      "start": 88.799,
+      "duration": 4,
+      "text": "context when the model actually needs"
+    },
+    {
+      "start": 90.56,
+      "duration": 4.4,
+      "text": "it. In this section, they explain what"
+    },
+    {
+      "start": 92.799,
+      "duration": 4.241,
+      "text": "their skills are used for and why they"
+    },
+    {
+      "start": 94.96,
+      "duration": 3.839,
+      "text": "are applying them to this UI problem."
+    },
+    {
+      "start": 97.04,
+      "duration": 3.84,
+      "text": "I'm not going to go over the basics of"
+    },
+    {
+      "start": 98.799,
+      "duration": 3.68,
+      "text": "skills again as I already made a video"
+    },
+    {
+      "start": 100.88,
+      "duration": 3.04,
+      "text": "on this. But there is one other thing"
+    },
+    {
+      "start": 102.479,
+      "duration": 3.201,
+      "text": "for those of you who've been really"
+    },
+    {
+      "start": 103.92,
+      "duration": 3.68,
+      "text": "confused in the comments section as to"
+    },
+    {
+      "start": 105.68,
+      "duration": 3.36,
+      "text": "why we need skills. I'll leave this in"
+    },
+    {
+      "start": 107.6,
+      "duration": 3.12,
+      "text": "the description below, but it's"
+    },
+    {
+      "start": 109.04,
+      "duration": 3.359,
+      "text": "basically Claude telling you which is"
+    },
+    {
+      "start": 110.72,
+      "duration": 3.2,
+      "text": "the right tool to choose. I don't want"
+    },
+    {
+      "start": 112.399,
+      "duration": 3.601,
+      "text": "to look through all of this, but the"
+    },
+    {
+      "start": 113.92,
+      "duration": 4,
+      "text": "best four section pretty much sums it up"
+    },
+    {
+      "start": 116,
+      "duration": 4,
+      "text": "with skills being for specialized"
+    },
+    {
+      "start": 117.92,
+      "duration": 3.839,
+      "text": "expertise, which we're loading for UI"
+    },
+    {
+      "start": 120,
+      "duration": 3.52,
+      "text": "right now. And sub agents are for"
+    },
+    {
+      "start": 121.759,
+      "duration": 3.761,
+      "text": "specialized tasks, so they're a whole"
+    },
+    {
+      "start": 123.52,
+      "duration": 4.719,
+      "text": "instance of Claude with other tools. and"
+    },
+    {
+      "start": 125.52,
+      "duration": 4.4,
+      "text": "MCP is for external data access since we"
+    },
+    {
+      "start": 128.239,
+      "duration": 3.521,
+      "text": "all know skills can't do network"
+    },
+    {
+      "start": 129.92,
+      "duration": 3.6,
+      "text": "requests. But coming back to the topic,"
+    },
+    {
+      "start": 131.76,
+      "duration": 3.36,
+      "text": "they say that with these front-end"
+    },
+    {
+      "start": 133.52,
+      "duration": 3.68,
+      "text": "skills when you're building a landing"
+    },
+    {
+      "start": 135.12,
+      "duration": 4.16,
+      "text": "page, Claude will automatically load the"
+    },
+    {
+      "start": 137.2,
+      "duration": 3.84,
+      "text": "skill in and use those instructions. And"
+    },
+    {
+      "start": 139.28,
+      "duration": 3.679,
+      "text": "this allows you to basically keep your"
+    },
+    {
+      "start": 141.04,
+      "duration": 3.839,
+      "text": "context window clean because too many"
+    },
+    {
+      "start": 142.959,
+      "duration": 3.681,
+      "text": "tokens, as you know, can result in the"
+    },
+    {
+      "start": 144.879,
+      "duration": 3.521,
+      "text": "degradation of its performance. So,"
+    },
+    {
+      "start": 146.64,
+      "duration": 3.44,
+      "text": "keeping the context window clean is"
+    },
+    {
+      "start": 148.4,
+      "duration": 3.6,
+      "text": "really important. But before we dive"
+    },
+    {
+      "start": 150.08,
+      "duration": 4.239,
+      "text": "deeper into the findings, here's a word"
+    },
+    {
+      "start": 152,
+      "duration": 4.239,
+      "text": "from our sponsor, Scribba. Ever felt"
+    },
+    {
+      "start": 154.319,
+      "duration": 3.92,
+      "text": "stuck watching coding tutorials but"
+    },
+    {
+      "start": 156.239,
+      "duration": 4.161,
+      "text": "never actually learning? Scribba fixes"
+    },
+    {
+      "start": 158.239,
+      "duration": 4.72,
+      "text": "that. Every lesson lets you pause, jump"
+    },
+    {
+      "start": 160.4,
+      "duration": 4.559,
+      "text": "in, edit the code, experiment, and see"
+    },
+    {
+      "start": 162.959,
+      "duration": 3.92,
+      "text": "instant results. It turns passive"
+    },
+    {
+      "start": 164.959,
+      "duration": 3.761,
+      "text": "watching into hands-on practice, making"
+    },
+    {
+      "start": 166.879,
+      "duration": 3.921,
+      "text": "learning stick. One of the most powerful"
+    },
+    {
+      "start": 168.72,
+      "duration": 4.239,
+      "text": "paths is the back-end developer path."
+    },
+    {
+      "start": 170.8,
+      "duration": 5.28,
+      "text": "You start with command line basics, then"
+    },
+    {
+      "start": 172.959,
+      "duration": 5.201,
+      "text": "move through NodeJS, express databases,"
+    },
+    {
+      "start": 176.08,
+      "duration": 4.32,
+      "text": "architecture fundamentals, and building"
+    },
+    {
+      "start": 178.16,
+      "duration": 4.079,
+      "text": "full back-end projects. Each step is"
+    },
+    {
+      "start": 180.4,
+      "duration": 4.24,
+      "text": "carefully structured so you're not just"
+    },
+    {
+      "start": 182.239,
+      "duration": 4.561,
+      "text": "memorizing, you're creating real working"
+    },
+    {
+      "start": 184.64,
+      "duration": 4.8,
+      "text": "applications. By the end, you'll know"
+    },
+    {
+      "start": 186.8,
+      "duration": 5.12,
+      "text": "how to set up servers, handle APIs,"
+    },
+    {
+      "start": 189.44,
+      "duration": 4.159,
+      "text": "manage databases, and deploy production"
+    },
+    {
+      "start": 191.92,
+      "duration": 3.679,
+      "text": "ready projects. Whether you're starting"
+    },
+    {
+      "start": 193.599,
+      "duration": 4.72,
+      "text": "from scratch or leveling up for web"
+    },
+    {
+      "start": 195.599,
+      "duration": 4.961,
+      "text": "apps, AI projects, or microservices,"
+    },
+    {
+      "start": 198.319,
+      "duration": 4.64,
+      "text": "this path equips you with the skills to"
+    },
+    {
+      "start": 200.56,
+      "duration": 4,
+      "text": "confidently build real backends. Take"
+    },
+    {
+      "start": 202.959,
+      "duration": 3.681,
+      "text": "control of your learning and master"
+    },
+    {
+      "start": 204.56,
+      "duration": 4.16,
+      "text": "backend development with Scribba. Click"
+    },
+    {
+      "start": 206.64,
+      "duration": 3.92,
+      "text": "the link in the pinned comment below."
+    },
+    {
+      "start": 208.72,
+      "duration": 3.599,
+      "text": "Claude actually dives a little deeper"
+    },
+    {
+      "start": 210.56,
+      "duration": 3.599,
+      "text": "into the prompt that we need to provide"
+    },
+    {
+      "start": 212.319,
+      "duration": 3.92,
+      "text": "in our skills, saying that the main"
+    },
+    {
+      "start": 214.159,
+      "duration": 4,
+      "text": "thing is to think about front-end design"
+    },
+    {
+      "start": 216.239,
+      "duration": 3.36,
+      "text": "in the way a front-end engineer would."
+    },
+    {
+      "start": 218.159,
+      "duration": 3.44,
+      "text": "This basically means that you need to"
+    },
+    {
+      "start": 219.599,
+      "duration": 4,
+      "text": "map what you think looks good to actual"
+    },
+    {
+      "start": 221.599,
+      "duration": 3.841,
+      "text": "implementations. For example, you know"
+    },
+    {
+      "start": 223.599,
+      "duration": 3.681,
+      "text": "that this gradient doesn't look good and"
+    },
+    {
+      "start": 225.44,
+      "duration": 3.76,
+      "text": "the aesthetic implementation would be"
+    },
+    {
+      "start": 227.28,
+      "duration": 4,
+      "text": "specifying what to replace it with like"
+    },
+    {
+      "start": 229.2,
+      "duration": 3.759,
+      "text": "solid colors or geometric patterns."
+    },
+    {
+      "start": 231.28,
+      "duration": 3.519,
+      "text": "Using this insight, Claude has"
+    },
+    {
+      "start": 232.959,
+      "duration": 3.681,
+      "text": "identified several areas where this"
+    },
+    {
+      "start": 234.799,
+      "duration": 3.761,
+      "text": "principle really works well and they've"
+    },
+    {
+      "start": 236.64,
+      "duration": 3.599,
+      "text": "given the specific prompts for that. The"
+    },
+    {
+      "start": 238.56,
+      "duration": 3.44,
+      "text": "main thing is that since the text model"
+    },
+    {
+      "start": 240.239,
+      "duration": 3.681,
+      "text": "understands code really well, it's going"
+    },
+    {
+      "start": 242,
+      "duration": 3.68,
+      "text": "to be more creative in that space when"
+    },
+    {
+      "start": 243.92,
+      "duration": 3.44,
+      "text": "the instructions are related to code"
+    },
+    {
+      "start": 245.68,
+      "duration": 2.96,
+      "text": "modification. They also say that you"
+    },
+    {
+      "start": 247.36,
+      "duration": 3.2,
+      "text": "shouldn't really write detailed"
+    },
+    {
+      "start": 248.64,
+      "duration": 3.84,
+      "text": "technical instructions, but instead just"
+    },
+    {
+      "start": 250.56,
+      "duration": 3.44,
+      "text": "use targeted language that helps the"
+    },
+    {
+      "start": 252.48,
+      "duration": 3.599,
+      "text": "model. For example, you shouldn't"
+    },
+    {
+      "start": 254,
+      "duration": 3.84,
+      "text": "actually go ahead and specify the exact"
+    },
+    {
+      "start": 256.079,
+      "duration": 3.44,
+      "text": "hex code of the color that you want"
+    },
+    {
+      "start": 257.84,
+      "duration": 3.6,
+      "text": "implemented or the different colors."
+    },
+    {
+      "start": 259.519,
+      "duration": 4.24,
+      "text": "Giving a general direction to induce"
+    },
+    {
+      "start": 261.44,
+      "duration": 4.16,
+      "text": "creativity is much more helpful. I've"
+    },
+    {
+      "start": 263.759,
+      "duration": 3.921,
+      "text": "also noticed in the comments that a lot"
+    },
+    {
+      "start": 265.6,
+      "duration": 4.24,
+      "text": "of you ask me which browser I use. Right"
+    },
+    {
+      "start": 267.68,
+      "duration": 4.239,
+      "text": "now I'm actually using Zen browser."
+    },
+    {
+      "start": 269.84,
+      "duration": 4.16,
+      "text": "Previously I was on Arc browser but ever"
+    },
+    {
+      "start": 271.919,
+      "duration": 4,
+      "text": "since they discontinued support for it,"
+    },
+    {
+      "start": 274,
+      "duration": 3.68,
+      "text": "I've switched to Zen because Arc was"
+    },
+    {
+      "start": 275.919,
+      "duration": 3.601,
+      "text": "becoming too unstable. But coming back"
+    },
+    {
+      "start": 277.68,
+      "duration": 3.76,
+      "text": "to the video, they start with the first"
+    },
+    {
+      "start": 279.52,
+      "duration": 3.6,
+      "text": "dimension which is typography and"
+    },
+    {
+      "start": 281.44,
+      "duration": 3.52,
+      "text": "they've given a system prompt that"
+    },
+    {
+      "start": 283.12,
+      "duration": 3.6,
+      "text": "applies the principles they discussed"
+    },
+    {
+      "start": 284.96,
+      "duration": 3.679,
+      "text": "above. In this example, we've got a"
+    },
+    {
+      "start": 286.72,
+      "duration": 3.6,
+      "text": "pretty basic looking admin dashboard."
+    },
+    {
+      "start": 288.639,
+      "duration": 3.361,
+      "text": "And when the typography prompt is"
+    },
+    {
+      "start": 290.32,
+      "duration": 3.439,
+      "text": "applied, we get this dashboard with"
+    },
+    {
+      "start": 292,
+      "duration": 3.919,
+      "text": "fonts that look a little bit better. So"
+    },
+    {
+      "start": 293.759,
+      "duration": 4.241,
+      "text": "to actually test this out, I copied the"
+    },
+    {
+      "start": 295.919,
+      "duration": 4.081,
+      "text": "prompt, opened up Claude, told it to"
+    },
+    {
+      "start": 298,
+      "duration": 4,
+      "text": "make a Claude skill for this prompt,"
+    },
+    {
+      "start": 300,
+      "duration": 4.4,
+      "text": "downloaded the skill, put it inside the"
+    },
+    {
+      "start": 302,
+      "duration": 4.16,
+      "text": "skill folder in my project, started up"
+    },
+    {
+      "start": 304.4,
+      "duration": 3.68,
+      "text": "Claude code, and gave it the landing"
+    },
+    {
+      "start": 306.16,
+      "duration": 3.44,
+      "text": "page prompt again. And this time, it"
+    },
+    {
+      "start": 308.08,
+      "duration": 3.52,
+      "text": "came up with something like this, which"
+    },
+    {
+      "start": 309.6,
+      "duration": 3.84,
+      "text": "is certainly improved over the previous"
+    },
+    {
+      "start": 311.6,
+      "duration": 3.52,
+      "text": "version that we saw it build. Now, I"
+    },
+    {
+      "start": 313.44,
+      "duration": 3.68,
+      "text": "don't like the fonts that it used here,"
+    },
+    {
+      "start": 315.12,
+      "duration": 3.919,
+      "text": "but it was nudged towards these by the"
+    },
+    {
+      "start": 317.12,
+      "duration": 3.919,
+      "text": "prompt itself. However, you can also go"
+    },
+    {
+      "start": 319.039,
+      "duration": 3.841,
+      "text": "to Google Fonts yourself and get a bunch"
+    },
+    {
+      "start": 321.039,
+      "duration": 3.6,
+      "text": "of fonts that you think would look cool"
+    },
+    {
+      "start": 322.88,
+      "duration": 3.52,
+      "text": "and let Claude be creative with them."
+    },
+    {
+      "start": 324.639,
+      "duration": 3.84,
+      "text": "This font actually looks pretty good."
+    },
+    {
+      "start": 326.4,
+      "duration": 3.84,
+      "text": "Another big flaw with Claude skills is"
+    },
+    {
+      "start": 328.479,
+      "duration": 3.761,
+      "text": "that when I first prompted it with the"
+    },
+    {
+      "start": 330.24,
+      "duration": 3.84,
+      "text": "skills already inside the project, it"
+    },
+    {
+      "start": 332.24,
+      "duration": 3.519,
+      "text": "didn't recognize them and built it just"
+    },
+    {
+      "start": 334.08,
+      "duration": 3.44,
+      "text": "like before. But when I asked it to"
+    },
+    {
+      "start": 335.759,
+      "duration": 3.521,
+      "text": "manually use them, only then did it"
+    },
+    {
+      "start": 337.52,
+      "duration": 3.84,
+      "text": "start running those skills and apply the"
+    },
+    {
+      "start": 339.28,
+      "duration": 3.919,
+      "text": "typography prompt. This is a really huge"
+    },
+    {
+      "start": 341.36,
+      "duration": 3.2,
+      "text": "flaw in the runtime that Claude is"
+    },
+    {
+      "start": 343.199,
+      "duration": 2.801,
+      "text": "providing. I don't know if I'm doing"
+    },
+    {
+      "start": 344.56,
+      "duration": 2.96,
+      "text": "something wrong, but if you do know"
+    },
+    {
+      "start": 346,
+      "duration": 3.759,
+      "text": "something about this, then do let me"
+    },
+    {
+      "start": 347.52,
+      "duration": 4.239,
+      "text": "know. They say that asking the model to"
+    },
+    {
+      "start": 349.759,
+      "duration": 3.921,
+      "text": "use more interesting fonts makes it"
+    },
+    {
+      "start": 351.759,
+      "duration": 3.28,
+      "text": "improve other aspects of the design as"
+    },
+    {
+      "start": 353.68,
+      "duration": 3.2,
+      "text": "well. They showed this with their"
+    },
+    {
+      "start": 355.039,
+      "duration": 3.6,
+      "text": "example, but in our case, this is what"
+    },
+    {
+      "start": 356.88,
+      "duration": 3.52,
+      "text": "it was before and this is what it was"
+    },
+    {
+      "start": 358.639,
+      "duration": 3.601,
+      "text": "after. So, I don't think it was applied"
+    },
+    {
+      "start": 360.4,
+      "duration": 3.359,
+      "text": "in our case. But anyway, the next aspect"
+    },
+    {
+      "start": 362.24,
+      "duration": 3.2,
+      "text": "they talk about is themes and"
+    },
+    {
+      "start": 363.759,
+      "duration": 4,
+      "text": "aesthetics. Because Claude has been"
+    },
+    {
+      "start": 365.44,
+      "duration": 3.92,
+      "text": "trained on massive amounts of data, you"
+    },
+    {
+      "start": 367.759,
+      "duration": 3.041,
+      "text": "can actually make it focus on some"
+    },
+    {
+      "start": 369.36,
+      "duration": 2.959,
+      "text": "popular themes that you want to"
+    },
+    {
+      "start": 370.8,
+      "duration": 3.2,
+      "text": "implement. Again, they've given the"
+    },
+    {
+      "start": 372.319,
+      "duration": 4,
+      "text": "prompt for that. And with it, they made"
+    },
+    {
+      "start": 374,
+      "duration": 4.319,
+      "text": "it implement this RPG themed UI, which"
+    },
+    {
+      "start": 376.319,
+      "duration": 4.16,
+      "text": "does look more creative. Next, they lead"
+    },
+    {
+      "start": 378.319,
+      "duration": 3.921,
+      "text": "us into this generalpurpose prompt by"
+    },
+    {
+      "start": 380.479,
+      "duration": 3.681,
+      "text": "saying, \"What if we could combine all"
+    },
+    {
+      "start": 382.24,
+      "duration": 3.92,
+      "text": "these smaller improvements into one"
+    },
+    {
+      "start": 384.16,
+      "duration": 4.4,
+      "text": "giant and reusable prompt?\" And they"
+    },
+    {
+      "start": 386.16,
+      "duration": 3.84,
+      "text": "developed a 400K token prompt. We'll"
+    },
+    {
+      "start": 388.56,
+      "duration": 2.96,
+      "text": "test it out and see how this does"
+    },
+    {
+      "start": 390,
+      "duration": 3.199,
+      "text": "because they're promising that this"
+    },
+    {
+      "start": 391.52,
+      "duration": 3.36,
+      "text": "dramatically improves the front-end"
+    },
+    {
+      "start": 393.199,
+      "duration": 3.601,
+      "text": "output across all these different"
+    },
+    {
+      "start": 394.88,
+      "duration": 3.84,
+      "text": "dimensions. Here they specify that"
+    },
+    {
+      "start": 396.8,
+      "duration": 3.839,
+      "text": "they're giving it a general overview of"
+    },
+    {
+      "start": 398.72,
+      "duration": 3.919,
+      "text": "the problem it causes where they tell it"
+    },
+    {
+      "start": 400.639,
+      "duration": 4.081,
+      "text": "that it tends to converge towards these"
+    },
+    {
+      "start": 402.639,
+      "duration": 4.241,
+      "text": "generic outputs. They scold the model"
+    },
+    {
+      "start": 404.72,
+      "duration": 4.4,
+      "text": "for its basic nature which is producing"
+    },
+    {
+      "start": 406.88,
+      "duration": 4.4,
+      "text": "AI slop and then give it a general guide"
+    },
+    {
+      "start": 409.12,
+      "duration": 4.4,
+      "text": "to surprise the users. At the end, they"
+    },
+    {
+      "start": 411.28,
+      "duration": 4.32,
+      "text": "also ask it to think outside the box by"
+    },
+    {
+      "start": 413.52,
+      "duration": 4.08,
+      "text": "telling it to interpret creativity and"
+    },
+    {
+      "start": 415.6,
+      "duration": 3.84,
+      "text": "make unexpected choices. and they say"
+    },
+    {
+      "start": 417.6,
+      "duration": 3.84,
+      "text": "that it is critical that the model"
+    },
+    {
+      "start": 419.44,
+      "duration": 4.08,
+      "text": "thinks outside the box. Well, we'll see"
+    },
+    {
+      "start": 421.44,
+      "duration": 3.84,
+      "text": "how creative it actually gets. Then they"
+    },
+    {
+      "start": 423.52,
+      "duration": 3.519,
+      "text": "start showing us these examples. At"
+    },
+    {
+      "start": 425.28,
+      "duration": 3.359,
+      "text": "first, we have our simple landing page"
+    },
+    {
+      "start": 427.039,
+      "duration": 3.361,
+      "text": "and with the skill, it makes this"
+    },
+    {
+      "start": 428.639,
+      "duration": 3.521,
+      "text": "landing page which actually does look"
+    },
+    {
+      "start": 430.4,
+      "duration": 3.199,
+      "text": "good. Again, the fonts in the middle are"
+    },
+    {
+      "start": 432.16,
+      "duration": 3.2,
+      "text": "not that good. So, I think you would"
+    },
+    {
+      "start": 433.599,
+      "duration": 3.761,
+      "text": "need to guide it on that. But other than"
+    },
+    {
+      "start": 435.36,
+      "duration": 3.92,
+      "text": "that, the use of gradients is actually"
+    },
+    {
+      "start": 437.36,
+      "duration": 3.839,
+      "text": "really good this time. After that, they"
+    },
+    {
+      "start": 439.28,
+      "duration": 3.759,
+      "text": "show us how it's improved a blog layout"
+    },
+    {
+      "start": 441.199,
+      "duration": 3.601,
+      "text": "and made it kind of like Claude's own"
+    },
+    {
+      "start": 443.039,
+      "duration": 3.761,
+      "text": "website. So, this does look good. And"
+    },
+    {
+      "start": 444.8,
+      "duration": 4.08,
+      "text": "then we have the admin dashboard example"
+    },
+    {
+      "start": 446.8,
+      "duration": 3.92,
+      "text": "again where this time it just completely"
+    },
+    {
+      "start": 448.88,
+      "duration": 3.599,
+      "text": "went overboard with the colors and made"
+    },
+    {
+      "start": 450.72,
+      "duration": 3.599,
+      "text": "it too colorful. I think there are"
+    },
+    {
+      "start": 452.479,
+      "duration": 3.84,
+      "text": "probably some places where the basic"
+    },
+    {
+      "start": 454.319,
+      "duration": 4.481,
+      "text": "output is better because this just looks"
+    },
+    {
+      "start": 456.319,
+      "duration": 4.401,
+      "text": "unusable to me. So again, I copied the"
+    },
+    {
+      "start": 458.8,
+      "duration": 4,
+      "text": "front-end prompt, had Claude make the"
+    },
+    {
+      "start": 460.72,
+      "duration": 3.84,
+      "text": "skill, put it inside my skills folder,"
+    },
+    {
+      "start": 462.8,
+      "duration": 3.519,
+      "text": "and then prompted Claude code with the"
+    },
+    {
+      "start": 464.56,
+      "duration": 3.28,
+      "text": "same prompt to make the landing page."
+    },
+    {
+      "start": 466.319,
+      "duration": 3.121,
+      "text": "Now, before I actually show you the"
+    },
+    {
+      "start": 467.84,
+      "duration": 3.919,
+      "text": "result, I want to show you something."
+    },
+    {
+      "start": 469.44,
+      "duration": 4.159,
+      "text": "The previous skill was named typography"
+    },
+    {
+      "start": 471.759,
+      "duration": 3.761,
+      "text": "skill and I thought that maybe that was"
+    },
+    {
+      "start": 473.599,
+      "duration": 3.921,
+      "text": "why Claude didn't use it. But this time"
+    },
+    {
+      "start": 475.52,
+      "duration": 4.079,
+      "text": "it was named the front-end aesthetic"
+    },
+    {
+      "start": 477.52,
+      "duration": 4.16,
+      "text": "skill and it still didn't use it. I then"
+    },
+    {
+      "start": 479.599,
+      "duration": 3.681,
+      "text": "made a new prompt explicitly saying that"
+    },
+    {
+      "start": 481.68,
+      "duration": 3.519,
+      "text": "I wanted to make the front end of a"
+    },
+    {
+      "start": 483.28,
+      "duration": 3.52,
+      "text": "landing page but it still didn't use it."
+    },
+    {
+      "start": 485.199,
+      "duration": 3.521,
+      "text": "And only when I mentioned that it should"
+    },
+    {
+      "start": 486.8,
+      "duration": 3.92,
+      "text": "use the front-end skill did it go ahead"
+    },
+    {
+      "start": 488.72,
+      "duration": 3.84,
+      "text": "and run the skill. Now this issue is"
+    },
+    {
+      "start": 490.72,
+      "duration": 3.599,
+      "text": "only in cloud code. I don't encounter"
+    },
+    {
+      "start": 492.56,
+      "duration": 3.759,
+      "text": "this problem when working in the cloud"
+    },
+    {
+      "start": 494.319,
+      "duration": 3.6,
+      "text": "desktop app. But since the majority of"
+    },
+    {
+      "start": 496.319,
+      "duration": 3.201,
+      "text": "front-end designing is going to be"
+    },
+    {
+      "start": 497.919,
+      "duration": 3.28,
+      "text": "happening in Claude code, I don't know"
+    },
+    {
+      "start": 499.52,
+      "duration": 3.359,
+      "text": "why Claude hasn't implemented this"
+    },
+    {
+      "start": 501.199,
+      "duration": 3.84,
+      "text": "properly. Anyway, this is what it"
+    },
+    {
+      "start": 502.879,
+      "duration": 4.16,
+      "text": "actually came up with. And I must say it"
+    },
+    {
+      "start": 505.039,
+      "duration": 3.6,
+      "text": "does look really beautiful. The fonts do"
+    },
+    {
+      "start": 507.039,
+      "duration": 3.6,
+      "text": "actually make a lot of difference, but"
+    },
+    {
+      "start": 508.639,
+      "duration": 3.921,
+      "text": "this glow looks really, really bad. The"
+    },
+    {
+      "start": 510.639,
+      "duration": 4.241,
+      "text": "whole UI was looking pretty good until"
+    },
+    {
+      "start": 512.56,
+      "duration": 4.56,
+      "text": "this glow and now it just looks like AI"
+    },
+    {
+      "start": 514.88,
+      "duration": 4,
+      "text": "slop. But the different fonts do make a"
+    },
+    {
+      "start": 517.12,
+      "duration": 3.599,
+      "text": "lot of difference. And if you zoom in,"
+    },
+    {
+      "start": 518.88,
+      "duration": 3.519,
+      "text": "you can see that it also added this"
+    },
+    {
+      "start": 520.719,
+      "duration": 3.841,
+      "text": "pattern in the background which does"
+    },
+    {
+      "start": 522.399,
+      "duration": 4.081,
+      "text": "look amazing. You can see that it's also"
+    },
+    {
+      "start": 524.56,
+      "duration": 4,
+      "text": "using these gradients in the background"
+    },
+    {
+      "start": 526.48,
+      "duration": 3.919,
+      "text": "and those also look really good. I did"
+    },
+    {
+      "start": 528.56,
+      "duration": 3.68,
+      "text": "notice another thing here. It was also"
+    },
+    {
+      "start": 530.399,
+      "duration": 3.761,
+      "text": "asked to make a landing page and both of"
+    },
+    {
+      "start": 532.24,
+      "duration": 3.76,
+      "text": "these examples do look kind of similar"
+    },
+    {
+      "start": 534.16,
+      "duration": 3.52,
+      "text": "and even the fonts look the same. So I"
+    },
+    {
+      "start": 536,
+      "duration": 3.519,
+      "text": "looked in the prompt and found out that"
+    },
+    {
+      "start": 537.68,
+      "duration": 3.839,
+      "text": "this time they didn't actually specify"
+    },
+    {
+      "start": 539.519,
+      "duration": 3.921,
+      "text": "which fonts to use. They just told it"
+    },
+    {
+      "start": 541.519,
+      "duration": 3.841,
+      "text": "which ones it should stay away from. But"
+    },
+    {
+      "start": 543.44,
+      "duration": 4,
+      "text": "still the model kind of went in the same"
+    },
+    {
+      "start": 545.36,
+      "duration": 4,
+      "text": "design direction with landing pages and"
+    },
+    {
+      "start": 547.44,
+      "duration": 4.16,
+      "text": "use the same fonts as well. So, I think"
+    },
+    {
+      "start": 549.36,
+      "duration": 4.08,
+      "text": "you do have to be specific in some areas"
+    },
+    {
+      "start": 551.6,
+      "duration": 3.44,
+      "text": "and especially with fonts, I think you"
+    },
+    {
+      "start": 553.44,
+      "duration": 3.76,
+      "text": "might need to pick out the ones that you"
+    },
+    {
+      "start": 555.04,
+      "duration": 3.68,
+      "text": "like from Google Fonts. Next up, they do"
+    },
+    {
+      "start": 557.2,
+      "duration": 3.36,
+      "text": "have a section in which they say that"
+    },
+    {
+      "start": 558.72,
+      "duration": 3.44,
+      "text": "they want to improve artifact quality"
+    },
+    {
+      "start": 560.56,
+      "duration": 3.839,
+      "text": "with skills. If you don't know what"
+    },
+    {
+      "start": 562.16,
+      "duration": 4.48,
+      "text": "artifacts are, it's that sidebar in"
+    },
+    {
+      "start": 564.399,
+      "duration": 3.841,
+      "text": "which UI components and other files are"
+    },
+    {
+      "start": 566.64,
+      "duration": 3.04,
+      "text": "rendered. They say that currently it"
+    },
+    {
+      "start": 568.24,
+      "duration": 3.279,
+      "text": "only makes a single file with"
+    },
+    {
+      "start": 569.68,
+      "duration": 3.92,
+      "text": "vanilla.js, JS, but I don't think that's"
+    },
+    {
+      "start": 571.519,
+      "duration": 3.841,
+      "text": "true because it does use React to make"
+    },
+    {
+      "start": 573.6,
+      "duration": 4,
+      "text": "those components. But they still made"
+    },
+    {
+      "start": 575.36,
+      "duration": 4,
+      "text": "this web artifacts builder skill which"
+    },
+    {
+      "start": 577.6,
+      "duration": 4,
+      "text": "basically shows it how to break things"
+    },
+    {
+      "start": 579.36,
+      "duration": 4.32,
+      "text": "into components and allows it to use the"
+    },
+    {
+      "start": 581.6,
+      "duration": 3.84,
+      "text": "file system. I asked it to make an Apple"
+    },
+    {
+      "start": 583.68,
+      "duration": 3.279,
+      "text": "Notes clone and this is what it made"
+    },
+    {
+      "start": 585.44,
+      "duration": 3.6,
+      "text": "without the skill. You can see it's"
+    },
+    {
+      "start": 586.959,
+      "duration": 3.681,
+      "text": "fully functional and it's the Shad CN"
+    },
+    {
+      "start": 589.04,
+      "duration": 3.68,
+      "text": "looking UI that Claude normally"
+    },
+    {
+      "start": 590.64,
+      "duration": 3.68,
+      "text": "produces. But when I did use the skill,"
+    },
+    {
+      "start": 592.72,
+      "duration": 3.28,
+      "text": "it produced something really similar"
+    },
+    {
+      "start": 594.32,
+      "duration": 3.76,
+      "text": "with just small improvements like"
+    },
+    {
+      "start": 596,
+      "duration": 4.16,
+      "text": "slightly better icons and hover states"
+    },
+    {
+      "start": 598.08,
+      "duration": 3.759,
+      "text": "on the icons. This allows it to divide"
+    },
+    {
+      "start": 600.16,
+      "duration": 3.52,
+      "text": "everything into different components and"
+    },
+    {
+      "start": 601.839,
+      "duration": 3.201,
+      "text": "it pays more attention to components."
+    },
+    {
+      "start": 603.68,
+      "duration": 3.52,
+      "text": "But other than that, I don't think"
+    },
+    {
+      "start": 605.04,
+      "duration": 4.239,
+      "text": "there's any significant improvement. So"
+    },
+    {
+      "start": 607.2,
+      "duration": 4.24,
+      "text": "to conclude, they just dive a little bit"
+    },
+    {
+      "start": 609.279,
+      "duration": 4,
+      "text": "into skills saying that it's a tool that"
+    },
+    {
+      "start": 611.44,
+      "duration": 3.92,
+      "text": "brings constant guidance and domain"
+    },
+    {
+      "start": 613.279,
+      "duration": 3.761,
+      "text": "expertise to every task by providing"
+    },
+    {
+      "start": 615.36,
+      "duration": 3.599,
+      "text": "these special instructions and you"
+    },
+    {
+      "start": 617.04,
+      "duration": 4,
+      "text": "shouldn't only look at design but also"
+    },
+    {
+      "start": 618.959,
+      "duration": 4,
+      "text": "at things that are really repeatable to"
+    },
+    {
+      "start": 621.04,
+      "duration": 3.6,
+      "text": "actually turn them into skills. Other"
+    },
+    {
+      "start": 622.959,
+      "duration": 3.601,
+      "text": "than that, they also have a front-end"
+    },
+    {
+      "start": 624.64,
+      "duration": 3.68,
+      "text": "design cookbook and a new plug-in for"
+    },
+    {
+      "start": 626.56,
+      "duration": 3.68,
+      "text": "Claude Code that helps with front-end"
+    },
+    {
+      "start": 628.32,
+      "duration": 3.68,
+      "text": "design. I will be testing it out and"
+    },
+    {
+      "start": 630.24,
+      "duration": 3.92,
+      "text": "I'll feature this in a future video as"
+    },
+    {
+      "start": 632,
+      "duration": 3.839,
+      "text": "well to see how this new design plug-in"
+    },
+    {
+      "start": 634.16,
+      "duration": 3.359,
+      "text": "actually works. I don't know if it's the"
+    },
+    {
+      "start": 635.839,
+      "duration": 3.44,
+      "text": "same one, but if it's the same prompt,"
+    },
+    {
+      "start": 637.519,
+      "duration": 3.281,
+      "text": "I'll let you know. That brings us to the"
+    },
+    {
+      "start": 639.279,
+      "duration": 3.281,
+      "text": "end of this video. If you'd like to"
+    },
+    {
+      "start": 640.8,
+      "duration": 3.76,
+      "text": "support the channel and help us keep"
+    },
+    {
+      "start": 642.56,
+      "duration": 4.08,
+      "text": "making videos like this, you can do so"
+    },
+    {
+      "start": 644.56,
+      "duration": 3.839,
+      "text": "by using the super thanks button below."
+    },
+    {
+      "start": 646.64,
+      "duration": 4.72,
+      "text": "As always, thank you for watching and"
+    },
+    {
+      "start": 648.399,
+      "duration": 2.961,
+      "text": "I'll see you in the next"
+    }
+  ],
+  "fullText": "Have you ever noticed that when you ask your AI agent to make something, for example, a landing page for a TV website, it starts up and presents you with the most basic design you've ever seen? Well, we weren't the only ones. And Claude also noticed how their models always generate that AI look. And they actually told us the main issue behind it, which is distributional convergence. It just means that models predict their next words based on probability in their training data. So the website you just saw had the highest probability of being built and was the safest option. This basically means that these AI models are not creative at all. But that's why Claude released this article on improving front-end design through skills outlining the main problem and actually giving the solution for this. This is where Claude gives us the good news saying that creativity can be injected because the models are highly steerable with the right specific instructions. But this introduces a big challenge. The more specialized the task becomes, the more bloated the context window gets as you need to offer more context. For front-end design especially, there are many dimensions such as typography, colors, animations, and more. And you need to specify all these things so that it doesn't default back to its basic nature and give you the most basic designs. Now, this is where Claude tries to bring in their skills feature, saying that you could put this all in a system prompt, but then the rest of your work that you need to do would be hindered by this extra information about UI that you don't need because you're not only going to be working with UI in a project. So, Claude skills help by loading the effective UI context when the model actually needs it. In this section, they explain what their skills are used for and why they are applying them to this UI problem. I'm not going to go over the basics of skills again as I already made a video on this. But there is one other thing for those of you who've been really confused in the comments section as to why we need skills. I'll leave this in the description below, but it's basically Claude telling you which is the right tool to choose. I don't want to look through all of this, but the best four section pretty much sums it up with skills being for specialized expertise, which we're loading for UI right now. And sub agents are for specialized tasks, so they're a whole instance of Claude with other tools. and MCP is for external data access since we all know skills can't do network requests. But coming back to the topic, they say that with these front-end skills when you're building a landing page, Claude will automatically load the skill in and use those instructions. And this allows you to basically keep your context window clean because too many tokens, as you know, can result in the degradation of its performance. So, keeping the context window clean is really important. But before we dive deeper into the findings, here's a word from our sponsor, Scribba. Ever felt stuck watching coding tutorials but never actually learning? Scribba fixes that. Every lesson lets you pause, jump in, edit the code, experiment, and see instant results. It turns passive watching into hands-on practice, making learning stick. One of the most powerful paths is the back-end developer path. You start with command line basics, then move through NodeJS, express databases, architecture fundamentals, and building full back-end projects. Each step is carefully structured so you're not just memorizing, you're creating real working applications. By the end, you'll know how to set up servers, handle APIs, manage databases, and deploy production ready projects. Whether you're starting from scratch or leveling up for web apps, AI projects, or microservices, this path equips you with the skills to confidently build real backends. Take control of your learning and master backend development with Scribba. Click the link in the pinned comment below. Claude actually dives a little deeper into the prompt that we need to provide in our skills, saying that the main thing is to think about front-end design in the way a front-end engineer would. This basically means that you need to map what you think looks good to actual implementations. For example, you know that this gradient doesn't look good and the aesthetic implementation would be specifying what to replace it with like solid colors or geometric patterns. Using this insight, Claude has identified several areas where this principle really works well and they've given the specific prompts for that. The main thing is that since the text model understands code really well, it's going to be more creative in that space when the instructions are related to code modification. They also say that you shouldn't really write detailed technical instructions, but instead just use targeted language that helps the model. For example, you shouldn't actually go ahead and specify the exact hex code of the color that you want implemented or the different colors. Giving a general direction to induce creativity is much more helpful. I've also noticed in the comments that a lot of you ask me which browser I use. Right now I'm actually using Zen browser. Previously I was on Arc browser but ever since they discontinued support for it, I've switched to Zen because Arc was becoming too unstable. But coming back to the video, they start with the first dimension which is typography and they've given a system prompt that applies the principles they discussed above. In this example, we've got a pretty basic looking admin dashboard. And when the typography prompt is applied, we get this dashboard with fonts that look a little bit better. So to actually test this out, I copied the prompt, opened up Claude, told it to make a Claude skill for this prompt, downloaded the skill, put it inside the skill folder in my project, started up Claude code, and gave it the landing page prompt again. And this time, it came up with something like this, which is certainly improved over the previous version that we saw it build. Now, I don't like the fonts that it used here, but it was nudged towards these by the prompt itself. However, you can also go to Google Fonts yourself and get a bunch of fonts that you think would look cool and let Claude be creative with them. This font actually looks pretty good. Another big flaw with Claude skills is that when I first prompted it with the skills already inside the project, it didn't recognize them and built it just like before. But when I asked it to manually use them, only then did it start running those skills and apply the typography prompt. This is a really huge flaw in the runtime that Claude is providing. I don't know if I'm doing something wrong, but if you do know something about this, then do let me know. They say that asking the model to use more interesting fonts makes it improve other aspects of the design as well. They showed this with their example, but in our case, this is what it was before and this is what it was after. So, I don't think it was applied in our case. But anyway, the next aspect they talk about is themes and aesthetics. Because Claude has been trained on massive amounts of data, you can actually make it focus on some popular themes that you want to implement. Again, they've given the prompt for that. And with it, they made it implement this RPG themed UI, which does look more creative. Next, they lead us into this generalpurpose prompt by saying, \"What if we could combine all these smaller improvements into one giant and reusable prompt?\" And they developed a 400K token prompt. We'll test it out and see how this does because they're promising that this dramatically improves the front-end output across all these different dimensions. Here they specify that they're giving it a general overview of the problem it causes where they tell it that it tends to converge towards these generic outputs. They scold the model for its basic nature which is producing AI slop and then give it a general guide to surprise the users. At the end, they also ask it to think outside the box by telling it to interpret creativity and make unexpected choices. and they say that it is critical that the model thinks outside the box. Well, we'll see how creative it actually gets. Then they start showing us these examples. At first, we have our simple landing page and with the skill, it makes this landing page which actually does look good. Again, the fonts in the middle are not that good. So, I think you would need to guide it on that. But other than that, the use of gradients is actually really good this time. After that, they show us how it's improved a blog layout and made it kind of like Claude's own website. So, this does look good. And then we have the admin dashboard example again where this time it just completely went overboard with the colors and made it too colorful. I think there are probably some places where the basic output is better because this just looks unusable to me. So again, I copied the front-end prompt, had Claude make the skill, put it inside my skills folder, and then prompted Claude code with the same prompt to make the landing page. Now, before I actually show you the result, I want to show you something. The previous skill was named typography skill and I thought that maybe that was why Claude didn't use it. But this time it was named the front-end aesthetic skill and it still didn't use it. I then made a new prompt explicitly saying that I wanted to make the front end of a landing page but it still didn't use it. And only when I mentioned that it should use the front-end skill did it go ahead and run the skill. Now this issue is only in cloud code. I don't encounter this problem when working in the cloud desktop app. But since the majority of front-end designing is going to be happening in Claude code, I don't know why Claude hasn't implemented this properly. Anyway, this is what it actually came up with. And I must say it does look really beautiful. The fonts do actually make a lot of difference, but this glow looks really, really bad. The whole UI was looking pretty good until this glow and now it just looks like AI slop. But the different fonts do make a lot of difference. And if you zoom in, you can see that it also added this pattern in the background which does look amazing. You can see that it's also using these gradients in the background and those also look really good. I did notice another thing here. It was also asked to make a landing page and both of these examples do look kind of similar and even the fonts look the same. So I looked in the prompt and found out that this time they didn't actually specify which fonts to use. They just told it which ones it should stay away from. But still the model kind of went in the same design direction with landing pages and use the same fonts as well. So, I think you do have to be specific in some areas and especially with fonts, I think you might need to pick out the ones that you like from Google Fonts. Next up, they do have a section in which they say that they want to improve artifact quality with skills. If you don't know what artifacts are, it's that sidebar in which UI components and other files are rendered. They say that currently it only makes a single file with vanilla.js, JS, but I don't think that's true because it does use React to make those components. But they still made this web artifacts builder skill which basically shows it how to break things into components and allows it to use the file system. I asked it to make an Apple Notes clone and this is what it made without the skill. You can see it's fully functional and it's the Shad CN looking UI that Claude normally produces. But when I did use the skill, it produced something really similar with just small improvements like slightly better icons and hover states on the icons. This allows it to divide everything into different components and it pays more attention to components. But other than that, I don't think there's any significant improvement. So to conclude, they just dive a little bit into skills saying that it's a tool that brings constant guidance and domain expertise to every task by providing these special instructions and you shouldn't only look at design but also at things that are really repeatable to actually turn them into skills. Other than that, they also have a front-end design cookbook and a new plug-in for Claude Code that helps with front-end design. I will be testing it out and I'll feature this in a future video as well to see how this new design plug-in actually works. I don't know if it's the same one, but if it's the same prompt, I'll let you know. That brings us to the end of this video. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below. As always, thank you for watching and I'll see you in the next",
+  "fetchedAt": "2026-01-18T18:33:41.512Z"
+}

@@ -1,0 +1,3479 @@
+{
+  "videoId": "Jo168H2m5lw",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.2,
+      "text": "I've always wanted my brand to have a"
+    },
+    {
+      "start": 1.439,
+      "duration": 4.161,
+      "text": "strong visual presence when anyone comes"
+    },
+    {
+      "start": 3.2,
+      "duration": 3.84,
+      "text": "across my content or my website or my"
+    },
+    {
+      "start": 5.6,
+      "duration": 2.56,
+      "text": "products. You know, like the vibe that"
+    },
+    {
+      "start": 7.04,
+      "duration": 2.639,
+      "text": "you get when you walk through the"
+    },
+    {
+      "start": 8.16,
+      "duration": 3.439,
+      "text": "storefront of a shop in your"
+    },
+    {
+      "start": 9.679,
+      "duration": 4.161,
+      "text": "neighborhood. But my writing and my"
+    },
+    {
+      "start": 11.599,
+      "duration": 4.481,
+      "text": "videos can only do so much to set that"
+    },
+    {
+      "start": 13.84,
+      "duration": 3.84,
+      "text": "tone. And so I've always tried to create"
+    },
+    {
+      "start": 16.08,
+      "duration": 4,
+      "text": "strong visuals to complete the"
+    },
+    {
+      "start": 17.68,
+      "duration": 4.4,
+      "text": "experience. The problem is I'm not an"
+    },
+    {
+      "start": 20.08,
+      "duration": 4.16,
+      "text": "illustrator and I don't need just one"
+    },
+    {
+      "start": 22.08,
+      "duration": 4.32,
+      "text": "great image. I need dozens and I want"
+    },
+    {
+      "start": 24.24,
+      "duration": 4.72,
+      "text": "them all to follow the same visual"
+    },
+    {
+      "start": 26.4,
+      "duration": 5.119,
+      "text": "aesthetic for every page, every piece of"
+    },
+    {
+      "start": 28.96,
+      "duration": 4.24,
+      "text": "content that I publish. Well, it's 2026"
+    },
+    {
+      "start": 31.519,
+      "duration": 3.761,
+      "text": "now, so you would think that AI image"
+    },
+    {
+      "start": 33.2,
+      "duration": 3.68,
+      "text": "generation would make this easy. And the"
+    },
+    {
+      "start": 35.28,
+      "duration": 4.08,
+      "text": "models have gotten really good at"
+    },
+    {
+      "start": 36.88,
+      "duration": 4.72,
+      "text": "creating one-off images. But what I need"
+    },
+    {
+      "start": 39.36,
+      "duration": 5.6,
+      "text": "is a repeatable system, something that"
+    },
+    {
+      "start": 41.6,
+      "duration": 5.84,
+      "text": "can maintain my brand aesthetic without"
+    },
+    {
+      "start": 44.96,
+      "duration": 4.72,
+      "text": "recrafting these complex prompts every"
+    },
+    {
+      "start": 47.44,
+      "duration": 4.32,
+      "text": "single time I need to generate a visual."
+    },
+    {
+      "start": 49.68,
+      "duration": 4.399,
+      "text": "So, I spent the past week and some late"
+    },
+    {
+      "start": 51.76,
+      "duration": 4.799,
+      "text": "nights trying to solve this. I created"
+    },
+    {
+      "start": 54.079,
+      "duration": 4.881,
+      "text": "this complex automation workflow using"
+    },
+    {
+      "start": 56.559,
+      "duration": 4.881,
+      "text": "NA10. You know, nodes connected to"
+    },
+    {
+      "start": 58.96,
+      "duration": 4.16,
+      "text": "nodes, API calls, conditional logic"
+    },
+    {
+      "start": 61.44,
+      "duration": 5.039,
+      "text": "everywhere. And when I finally got it"
+    },
+    {
+      "start": 63.12,
+      "duration": 5.039,
+      "text": "all hooked up, the output was garbage. I"
+    },
+    {
+      "start": 66.479,
+      "duration": 4.801,
+      "text": "scrapped the whole thing. That whole"
+    },
+    {
+      "start": 68.159,
+      "duration": 5.841,
+      "text": "week of work gone. But then I rebuilt it"
+    },
+    {
+      "start": 71.28,
+      "duration": 4.4,
+      "text": "as a claude code skill. And it only took"
+    },
+    {
+      "start": 74,
+      "duration": 3.68,
+      "text": "30 minutes. And I didn't just rebuild"
+    },
+    {
+      "start": 75.68,
+      "duration": 4.16,
+      "text": "it. I made it better, higher quality"
+    },
+    {
+      "start": 77.68,
+      "duration": 4.32,
+      "text": "output. and it's way easier to maintain."
+    },
+    {
+      "start": 79.84,
+      "duration": 4.319,
+      "text": "So today I'll tell you or I'll show you"
+    },
+    {
+      "start": 82,
+      "duration": 4.479,
+      "text": "the story of how I overengineered what"
+    },
+    {
+      "start": 84.159,
+      "duration": 4.561,
+      "text": "seems like a simple problem and it's a"
+    },
+    {
+      "start": 86.479,
+      "duration": 4.561,
+      "text": "reminder that cloud code skills might be"
+    },
+    {
+      "start": 88.72,
+      "duration": 5.359,
+      "text": "the most underrated feature in turning"
+    },
+    {
+      "start": 91.04,
+      "duration": 4.48,
+      "text": "AI into repeatable business workflows."
+    },
+    {
+      "start": 94.079,
+      "duration": 3.281,
+      "text": "And hey, if you're new to the channel,"
+    },
+    {
+      "start": 95.52,
+      "duration": 3.68,
+      "text": "I'm Brian Castle and I help professional"
+    },
+    {
+      "start": 97.36,
+      "duration": 4.32,
+      "text": "builders stay ahead of the curve with"
+    },
+    {
+      "start": 99.2,
+      "duration": 4.559,
+      "text": "AI. And every Friday I send my builder"
+    },
+    {
+      "start": 101.68,
+      "duration": 3.52,
+      "text": "briefing. That's a free 5minute read"
+    },
+    {
+      "start": 103.759,
+      "duration": 3.521,
+      "text": "where I give you my take on what's"
+    },
+    {
+      "start": 105.2,
+      "duration": 4.48,
+      "text": "actually working right now. You can get"
+    },
+    {
+      "start": 107.28,
+      "duration": 3.6,
+      "text": "yours by going to buildermethods.com."
+    },
+    {
+      "start": 109.68,
+      "duration": 4.24,
+      "text": "By the way, if you're serious about"
+    },
+    {
+      "start": 110.88,
+      "duration": 4.8,
+      "text": "adopting Cloud Code here in 2026, my new"
+    },
+    {
+      "start": 113.92,
+      "duration": 3.519,
+      "text": "course, Build with Claude Code, is"
+    },
+    {
+      "start": 115.68,
+      "duration": 3.36,
+      "text": "available now for Builder Methods Pro"
+    },
+    {
+      "start": 117.439,
+      "duration": 3.28,
+      "text": "members. All right, now let me show you"
+    },
+    {
+      "start": 119.04,
+      "duration": 3.92,
+      "text": "what happened. Okay, so I'll start by"
+    },
+    {
+      "start": 120.719,
+      "duration": 4.241,
+      "text": "showing you the final output that I'm"
+    },
+    {
+      "start": 122.96,
+      "duration": 3.92,
+      "text": "actually using now here on my Builder"
+    },
+    {
+      "start": 124.96,
+      "duration": 3.76,
+      "text": "Methods site. So this is, you know, the"
+    },
+    {
+      "start": 126.88,
+      "duration": 3.359,
+      "text": "homepage and I've got this visual of the"
+    },
+    {
+      "start": 128.72,
+      "duration": 3.68,
+      "text": "computer and the coffee here on the"
+    },
+    {
+      "start": 130.239,
+      "duration": 4.321,
+      "text": "desk. And let's see if I look at Builder"
+    },
+    {
+      "start": 132.4,
+      "duration": 4.64,
+      "text": "Methods Pro, you know, now like the hero"
+    },
+    {
+      "start": 134.56,
+      "duration": 5.28,
+      "text": "section has a similar vibe, like a"
+    },
+    {
+      "start": 137.04,
+      "duration": 4.64,
+      "text": "professional builder studio, the desk,"
+    },
+    {
+      "start": 139.84,
+      "duration": 3.44,
+      "text": "we've got the chair, the the plant in"
+    },
+    {
+      "start": 141.68,
+      "duration": 4.24,
+      "text": "the background. If I take a look at the"
+    },
+    {
+      "start": 143.28,
+      "duration": 5.039,
+      "text": "new build with Claude Code course page,"
+    },
+    {
+      "start": 145.92,
+      "duration": 4.56,
+      "text": "this too has, you know, some visuals, a"
+    },
+    {
+      "start": 148.319,
+      "duration": 3.92,
+      "text": "different plant there. And then as I"
+    },
+    {
+      "start": 150.48,
+      "duration": 4.399,
+      "text": "scroll down, you know, we've got"
+    },
+    {
+      "start": 152.239,
+      "duration": 6,
+      "text": "additional illustrations and objects"
+    },
+    {
+      "start": 154.879,
+      "duration": 6.481,
+      "text": "that help to support or offer like"
+    },
+    {
+      "start": 158.239,
+      "duration": 5.761,
+      "text": "metaphors or visuals that go along with"
+    },
+    {
+      "start": 161.36,
+      "duration": 5.519,
+      "text": "the content that I'm showing on the"
+    },
+    {
+      "start": 164,
+      "duration": 6.48,
+      "text": "page. Each of these illustrations"
+    },
+    {
+      "start": 166.879,
+      "duration": 6.321,
+      "text": "follows a very very similar illustration"
+    },
+    {
+      "start": 170.48,
+      "duration": 5.36,
+      "text": "style. They all have a very consistent"
+    },
+    {
+      "start": 173.2,
+      "duration": 4.56,
+      "text": "level of detail. the use of color, it's"
+    },
+    {
+      "start": 175.84,
+      "duration": 4.88,
+      "text": "all the same, you know, and and it has"
+    },
+    {
+      "start": 177.76,
+      "duration": 4.96,
+      "text": "the same look and feel. It's also feels"
+    },
+    {
+      "start": 180.72,
+      "duration": 4.08,
+      "text": "like they're all pulled from the same"
+    },
+    {
+      "start": 182.72,
+      "duration": 5.12,
+      "text": "visual world. And, you know, it took me"
+    },
+    {
+      "start": 184.8,
+      "duration": 5.359,
+      "text": "a really long time to develop and land"
+    },
+    {
+      "start": 187.84,
+      "duration": 4.24,
+      "text": "on the exact style that I want and then"
+    },
+    {
+      "start": 190.159,
+      "duration": 5.36,
+      "text": "how we can actually like describe the"
+    },
+    {
+      "start": 192.08,
+      "duration": 6.159,
+      "text": "style and sort of codify it into a a"
+    },
+    {
+      "start": 195.519,
+      "duration": 4.161,
+      "text": "brand visual guideline. So what I'm"
+    },
+    {
+      "start": 198.239,
+      "duration": 3.761,
+      "text": "going to show you here today is the"
+    },
+    {
+      "start": 199.68,
+      "duration": 4.639,
+      "text": "entire process that I went through to"
+    },
+    {
+      "start": 202,
+      "duration": 4.8,
+      "text": "get to the final output that got me"
+    },
+    {
+      "start": 204.319,
+      "duration": 4.401,
+      "text": "here. Right? So I'll show you the, you"
+    },
+    {
+      "start": 206.8,
+      "duration": 4.56,
+      "text": "know, multiple days of conversations"
+    },
+    {
+      "start": 208.72,
+      "duration": 5.36,
+      "text": "that I had with Claude just to develop"
+    },
+    {
+      "start": 211.36,
+      "duration": 4.56,
+      "text": "the visual brand, the visual world, the"
+    },
+    {
+      "start": 214.08,
+      "duration": 3.84,
+      "text": "guidelines. I'll show you some of the"
+    },
+    {
+      "start": 215.92,
+      "duration": 3.92,
+      "text": "early prototypes that I that I went"
+    },
+    {
+      "start": 217.92,
+      "duration": 4.319,
+      "text": "through with this stuff. I'll show you"
+    },
+    {
+      "start": 219.84,
+      "duration": 4.88,
+      "text": "how I went about finding inspiration on"
+    },
+    {
+      "start": 222.239,
+      "duration": 7.201,
+      "text": "Dribble. Uh, and then we will dig into"
+    },
+    {
+      "start": 224.72,
+      "duration": 6.64,
+      "text": "the the highly complex N8N workflow that"
+    },
+    {
+      "start": 229.44,
+      "duration": 4.159,
+      "text": "I put together and I'll show you my"
+    },
+    {
+      "start": 231.36,
+      "duration": 4.959,
+      "text": "thinking behind the systems on all of"
+    },
+    {
+      "start": 233.599,
+      "duration": 4.401,
+      "text": "this and how I intended for it to work."
+    },
+    {
+      "start": 236.319,
+      "duration": 3.2,
+      "text": "Uh, most of it actually did work and"
+    },
+    {
+      "start": 238,
+      "duration": 4,
+      "text": "I'll show you how I went about"
+    },
+    {
+      "start": 239.519,
+      "duration": 5.841,
+      "text": "assembling something this complex in in"
+    },
+    {
+      "start": 242,
+      "duration": 5.599,
+      "text": "N8N. And I'm not even an a typical NAND"
+    },
+    {
+      "start": 245.36,
+      "duration": 4.32,
+      "text": "user. You know, it interacts with the"
+    },
+    {
+      "start": 247.599,
+      "duration": 4,
+      "text": "Slack account. Uh but then ultimately,"
+    },
+    {
+      "start": 249.68,
+      "duration": 4,
+      "text": "you know, I landed on building it out as"
+    },
+    {
+      "start": 251.599,
+      "duration": 4.401,
+      "text": "a claude code skill, and I'll show you"
+    },
+    {
+      "start": 253.68,
+      "duration": 4.48,
+      "text": "that as well. I'll walk through all of"
+    },
+    {
+      "start": 256,
+      "duration": 3.68,
+      "text": "those pieces and sort of the creative"
+    },
+    {
+      "start": 258.16,
+      "duration": 3.759,
+      "text": "decision-making process that I went"
+    },
+    {
+      "start": 259.68,
+      "duration": 3.84,
+      "text": "through along the way to arrive at this."
+    },
+    {
+      "start": 261.919,
+      "duration": 3.361,
+      "text": "Now, it wouldn't make sense for you to"
+    },
+    {
+      "start": 263.52,
+      "duration": 3.92,
+      "text": "just lift the entire system that I"
+    },
+    {
+      "start": 265.28,
+      "duration": 4.96,
+      "text": "created here because it is very specific"
+    },
+    {
+      "start": 267.44,
+      "duration": 4.08,
+      "text": "to my brand and and my guidelines, but I"
+    },
+    {
+      "start": 270.24,
+      "duration": 3.36,
+      "text": "hope that you'll be able to take away"
+    },
+    {
+      "start": 271.52,
+      "duration": 4.239,
+      "text": "some of the ideas that went into the"
+    },
+    {
+      "start": 273.6,
+      "duration": 3.76,
+      "text": "systems design. And if you're doing any"
+    },
+    {
+      "start": 275.759,
+      "duration": 3.761,
+      "text": "sort of like brand visual exercise,"
+    },
+    {
+      "start": 277.36,
+      "duration": 4.08,
+      "text": "maybe some of my process that went into"
+    },
+    {
+      "start": 279.52,
+      "duration": 3.6,
+      "text": "that could help as well. Now, before I"
+    },
+    {
+      "start": 281.44,
+      "duration": 4.64,
+      "text": "get into, you know, like the technical"
+    },
+    {
+      "start": 283.12,
+      "duration": 4.96,
+      "text": "workflow or the cloud code skill, I do"
+    },
+    {
+      "start": 286.08,
+      "duration": 4.559,
+      "text": "want to emphasize how much time I"
+    },
+    {
+      "start": 288.08,
+      "duration": 5.36,
+      "text": "actually spent just creating the"
+    },
+    {
+      "start": 290.639,
+      "duration": 5.761,
+      "text": "guidelines for for for what, you know,"
+    },
+    {
+      "start": 293.44,
+      "duration": 5.6,
+      "text": "landed me on these final visuals. I did"
+    },
+    {
+      "start": 296.4,
+      "duration": 4.72,
+      "text": "that using a basic conversations in my"
+    },
+    {
+      "start": 299.04,
+      "duration": 4.08,
+      "text": "Claude account. This one here is"
+    },
+    {
+      "start": 301.12,
+      "duration": 4,
+      "text": "extremely long. You could see how how"
+    },
+    {
+      "start": 303.12,
+      "duration": 4.4,
+      "text": "long it is. I actually put it inside of"
+    },
+    {
+      "start": 305.12,
+      "duration": 5.28,
+      "text": "a project called Builder Method. So all"
+    },
+    {
+      "start": 307.52,
+      "duration": 5.119,
+      "text": "of my projects, all my creative writing"
+    },
+    {
+      "start": 310.4,
+      "duration": 4.48,
+      "text": "or planning or stuff that I do for the"
+    },
+    {
+      "start": 312.639,
+      "duration": 3.84,
+      "text": "Builder Methods business and brand, I do"
+    },
+    {
+      "start": 314.88,
+      "duration": 4.159,
+      "text": "that inside of the Builder Methods"
+    },
+    {
+      "start": 316.479,
+      "duration": 4.081,
+      "text": "project in my Cloud account so that it"
+    },
+    {
+      "start": 319.039,
+      "duration": 3.121,
+      "text": "has all the memory of of what the"
+    },
+    {
+      "start": 320.56,
+      "duration": 3.52,
+      "text": "business is all about and it has the"
+    },
+    {
+      "start": 322.16,
+      "duration": 4.72,
+      "text": "history of all of my decision-m that"
+    },
+    {
+      "start": 324.08,
+      "duration": 5.44,
+      "text": "went into it. Um, so my very first"
+    },
+    {
+      "start": 326.88,
+      "duration": 5.12,
+      "text": "prompt was this, right? You know, I want"
+    },
+    {
+      "start": 329.52,
+      "duration": 4.56,
+      "text": "to develop a visual brand identity for"
+    },
+    {
+      "start": 332,
+      "duration": 3.68,
+      "text": "builder methods. I want to publish a lot"
+    },
+    {
+      "start": 334.08,
+      "duration": 3.839,
+      "text": "of content including articles,"
+    },
+    {
+      "start": 335.68,
+      "duration": 4.239,
+      "text": "workshops, courses, um, and I want"
+    },
+    {
+      "start": 337.919,
+      "duration": 4,
+      "text": "visuals. That was like the rough concept"
+    },
+    {
+      "start": 339.919,
+      "duration": 4.401,
+      "text": "that I had in my mind, right, of of I"
+    },
+    {
+      "start": 341.919,
+      "duration": 4.56,
+      "text": "just want it all really well connected."
+    },
+    {
+      "start": 344.32,
+      "duration": 4.64,
+      "text": "So then I just went through a really"
+    },
+    {
+      "start": 346.479,
+      "duration": 4.801,
+      "text": "long back and forth. Uh, this is Claude"
+    },
+    {
+      "start": 348.96,
+      "duration": 3.92,
+      "text": "being a thought partner for me. First,"
+    },
+    {
+      "start": 351.28,
+      "duration": 3.6,
+      "text": "I'm just saying like, how should we even"
+    },
+    {
+      "start": 352.88,
+      "duration": 3.68,
+      "text": "go about starting this whole process?"
+    },
+    {
+      "start": 354.88,
+      "duration": 3.2,
+      "text": "That was my very first question to"
+    },
+    {
+      "start": 356.56,
+      "duration": 3.04,
+      "text": "Claude, right? And then we just sort of"
+    },
+    {
+      "start": 358.08,
+      "duration": 3.679,
+      "text": "like engaged in this back and forth"
+    },
+    {
+      "start": 359.6,
+      "duration": 4.4,
+      "text": "where I'm asking Claude to suggest some"
+    },
+    {
+      "start": 361.759,
+      "duration": 4.081,
+      "text": "ideas and then I'm giving my reaction to"
+    },
+    {
+      "start": 364,
+      "duration": 4.96,
+      "text": "those like I like this, I don't like"
+    },
+    {
+      "start": 365.84,
+      "duration": 6.079,
+      "text": "that. It asked me questions for you know"
+    },
+    {
+      "start": 368.96,
+      "duration": 4.32,
+      "text": "what what I like or and and how how"
+    },
+    {
+      "start": 371.919,
+      "duration": 3.441,
+      "text": "things fit together. And you know,"
+    },
+    {
+      "start": 373.28,
+      "duration": 4.24,
+      "text": "before we even get into the visual"
+    },
+    {
+      "start": 375.36,
+      "duration": 4.559,
+      "text": "aesthetic part, this first one is really"
+    },
+    {
+      "start": 377.52,
+      "duration": 4.239,
+      "text": "just about defining the brand, who I"
+    },
+    {
+      "start": 379.919,
+      "duration": 4.801,
+      "text": "speak to, like on my YouTube channel,"
+    },
+    {
+      "start": 381.759,
+      "duration": 5.041,
+      "text": "and and who I create things for, who I"
+    },
+    {
+      "start": 384.72,
+      "duration": 4,
+      "text": "want to resonate with, who what I'm all"
+    },
+    {
+      "start": 386.8,
+      "duration": 6,
+      "text": "about. Ultimately, we're what we're"
+    },
+    {
+      "start": 388.72,
+      "duration": 6.319,
+      "text": "creating is a visual identity system."
+    },
+    {
+      "start": 392.8,
+      "duration": 4.48,
+      "text": "And we're sort of like building a a"
+    },
+    {
+      "start": 395.039,
+      "duration": 3.681,
+      "text": "world. We're we're telling a story if"
+    },
+    {
+      "start": 397.28,
+      "duration": 3.68,
+      "text": "you will, you know, and and we sort of"
+    },
+    {
+      "start": 398.72,
+      "duration": 4.72,
+      "text": "landed on this concept of a day in the"
+    },
+    {
+      "start": 400.96,
+      "duration": 4.799,
+      "text": "life of a builder, right? And sort of"
+    },
+    {
+      "start": 403.44,
+      "duration": 4.319,
+      "text": "defining some constant things that you"
+    },
+    {
+      "start": 405.759,
+      "duration": 4.56,
+      "text": "would see in this world, like the home"
+    },
+    {
+      "start": 407.759,
+      "duration": 4.801,
+      "text": "studio, the notebook, the mug. Um, and"
+    },
+    {
+      "start": 410.319,
+      "duration": 4.561,
+      "text": "ultimately, these should show up as"
+    },
+    {
+      "start": 412.56,
+      "duration": 5.28,
+      "text": "little pictures that that appear on the"
+    },
+    {
+      "start": 414.88,
+      "duration": 5.92,
+      "text": "pages or on a thumbnail or or on a"
+    },
+    {
+      "start": 417.84,
+      "duration": 5.68,
+      "text": "workshop. Let's see these three the main"
+    },
+    {
+      "start": 420.8,
+      "duration": 4.799,
+      "text": "artifacts that came out of of this part"
+    },
+    {
+      "start": 423.52,
+      "duration": 3.519,
+      "text": "of the process, right? The first one"
+    },
+    {
+      "start": 425.599,
+      "duration": 4.401,
+      "text": "that I want to highlight is kind of the"
+    },
+    {
+      "start": 427.039,
+      "duration": 4.961,
+      "text": "builder methods visual world. So I I"
+    },
+    {
+      "start": 430,
+      "duration": 4.96,
+      "text": "like this as a very first artifact to"
+    },
+    {
+      "start": 432,
+      "duration": 5.28,
+      "text": "try to get to. We're not describing how"
+    },
+    {
+      "start": 434.96,
+      "duration": 4.239,
+      "text": "things look. What we're defining here is"
+    },
+    {
+      "start": 437.28,
+      "duration": 4,
+      "text": "like the subject matter, what the types"
+    },
+    {
+      "start": 439.199,
+      "duration": 4.4,
+      "text": "of objects or scenes that you might see"
+    },
+    {
+      "start": 441.28,
+      "duration": 4.4,
+      "text": "in this in this world. So that's the"
+    },
+    {
+      "start": 443.599,
+      "duration": 3.521,
+      "text": "world definition. And you know, just to"
+    },
+    {
+      "start": 445.68,
+      "duration": 3.84,
+      "text": "show you sort of like the level of"
+    },
+    {
+      "start": 447.12,
+      "duration": 4.24,
+      "text": "detail that that this goes into. Okay."
+    },
+    {
+      "start": 449.52,
+      "duration": 5.44,
+      "text": "So that's the the visual world. You"
+    },
+    {
+      "start": 451.36,
+      "duration": 8,
+      "text": "know, another key part of this system is"
+    },
+    {
+      "start": 454.96,
+      "duration": 6.48,
+      "text": "the process by which we decide what to"
+    },
+    {
+      "start": 459.36,
+      "duration": 4.48,
+      "text": "actually illustrate, right? So, for each"
+    },
+    {
+      "start": 461.44,
+      "duration": 4.479,
+      "text": "little piece of content, I not only want"
+    },
+    {
+      "start": 463.84,
+      "duration": 4.4,
+      "text": "to have the AI generate the actual"
+    },
+    {
+      "start": 465.919,
+      "duration": 5.441,
+      "text": "image, but I also don't want to be the"
+    },
+    {
+      "start": 468.24,
+      "duration": 5.6,
+      "text": "one responsible for dictating, okay, we"
+    },
+    {
+      "start": 471.36,
+      "duration": 4.8,
+      "text": "definitely need a mug sitting on a desk"
+    },
+    {
+      "start": 473.84,
+      "duration": 5.28,
+      "text": "next to a pair of headphones. Like"
+    },
+    {
+      "start": 476.16,
+      "duration": 4.319,
+      "text": "that's a lot of mental cycles that a I"
+    },
+    {
+      "start": 479.12,
+      "duration": 3.44,
+      "text": "don't want to spend the time doing that"
+    },
+    {
+      "start": 480.479,
+      "duration": 4.801,
+      "text": "and b I don't necessarily come up with"
+    },
+    {
+      "start": 482.56,
+      "duration": 5.359,
+      "text": "the most creative ideas. So then we we"
+    },
+    {
+      "start": 485.28,
+      "duration": 5.359,
+      "text": "arrived at this artifact which is called"
+    },
+    {
+      "start": 487.919,
+      "duration": 5.12,
+      "text": "idea to illustration mapping guide."
+    },
+    {
+      "start": 490.639,
+      "duration": 4.721,
+      "text": "Right? So we've already established the"
+    },
+    {
+      "start": 493.039,
+      "duration": 4.641,
+      "text": "visual world and the concept the day in"
+    },
+    {
+      "start": 495.36,
+      "duration": 4.399,
+      "text": "the life of the builder. But this is the"
+    },
+    {
+      "start": 497.68,
+      "duration": 3.76,
+      "text": "guide to take the piece of content that"
+    },
+    {
+      "start": 499.759,
+      "duration": 4.081,
+      "text": "I'm giving it or the landing page or"
+    },
+    {
+      "start": 501.44,
+      "duration": 4.4,
+      "text": "wherever I need an illustration, analyze"
+    },
+    {
+      "start": 503.84,
+      "duration": 4.16,
+      "text": "what that content is all about and the"
+    },
+    {
+      "start": 505.84,
+      "duration": 5.6,
+      "text": "topic and who it's for and what I'm"
+    },
+    {
+      "start": 508,
+      "duration": 6.32,
+      "text": "trying to say and then use this guide to"
+    },
+    {
+      "start": 511.44,
+      "duration": 6.159,
+      "text": "decide or suggest or pitch concepts to"
+    },
+    {
+      "start": 514.32,
+      "duration": 4.959,
+      "text": "me back to me on what we should convey"
+    },
+    {
+      "start": 517.599,
+      "duration": 3.68,
+      "text": "in the illustration. What what should"
+    },
+    {
+      "start": 519.279,
+      "duration": 3.68,
+      "text": "the actual object or the scene be?"
+    },
+    {
+      "start": 521.279,
+      "duration": 3.841,
+      "text": "Right? So, we've got like literal like"
+    },
+    {
+      "start": 522.959,
+      "duration": 4.641,
+      "text": "decision process for like what is the"
+    },
+    {
+      "start": 525.12,
+      "duration": 5.04,
+      "text": "core idea? How do we choose subject"
+    },
+    {
+      "start": 527.6,
+      "duration": 5.04,
+      "text": "matter from our visual world? How do we"
+    },
+    {
+      "start": 530.16,
+      "duration": 4.64,
+      "text": "choose specific objects? And then some"
+    },
+    {
+      "start": 532.64,
+      "duration": 4.24,
+      "text": "like example mapping. So like if I'm"
+    },
+    {
+      "start": 534.8,
+      "duration": 3.52,
+      "text": "doing a thing about prompt engineering,"
+    },
+    {
+      "start": 536.88,
+      "duration": 3.68,
+      "text": "then maybe there's going to be an image"
+    },
+    {
+      "start": 538.32,
+      "duration": 4.24,
+      "text": "about chat interface. You know, I talk a"
+    },
+    {
+      "start": 540.56,
+      "duration": 4.24,
+      "text": "lot about spec driven development. If"
+    },
+    {
+      "start": 542.56,
+      "duration": 4.64,
+      "text": "the core concept is specri development,"
+    },
+    {
+      "start": 544.8,
+      "duration": 5.68,
+      "text": "then maybe the specific opt objects that"
+    },
+    {
+      "start": 547.2,
+      "duration": 5.44,
+      "text": "we show are like an open notebook or or"
+    },
+    {
+      "start": 550.48,
+      "duration": 4.64,
+      "text": "wireframe with wireframes or notes or"
+    },
+    {
+      "start": 552.64,
+      "duration": 4.879,
+      "text": "planning before building is the concept."
+    },
+    {
+      "start": 555.12,
+      "duration": 4.24,
+      "text": "Uh so we need objects like a blueprint"
+    },
+    {
+      "start": 557.519,
+      "duration": 3.681,
+      "text": "or an architectural drawing you know"
+    },
+    {
+      "start": 559.36,
+      "duration": 4.72,
+      "text": "things like that. Okay. But then we come"
+    },
+    {
+      "start": 561.2,
+      "duration": 5.52,
+      "text": "to the actual visual style. So this"
+    },
+    {
+      "start": 564.08,
+      "duration": 4.56,
+      "text": "artifact is called illustration"
+    },
+    {
+      "start": 566.72,
+      "duration": 4.08,
+      "text": "aesthetic guidelines. And this sort of"
+    },
+    {
+      "start": 568.64,
+      "duration": 3.68,
+      "text": "like locks in exactly how each"
+    },
+    {
+      "start": 570.8,
+      "duration": 3.36,
+      "text": "illustration should actually end up"
+    },
+    {
+      "start": 572.32,
+      "duration": 4.4,
+      "text": "looking. Now how do we come to this? And"
+    },
+    {
+      "start": 574.16,
+      "duration": 4.72,
+      "text": "this this took the most time really. You"
+    },
+    {
+      "start": 576.72,
+      "duration": 4,
+      "text": "know, I started this process by, you"
+    },
+    {
+      "start": 578.88,
+      "duration": 4.72,
+      "text": "know, scrolling through Dribble and"
+    },
+    {
+      "start": 580.72,
+      "duration": 5.44,
+      "text": "getting some some ideas. Also, through"
+    },
+    {
+      "start": 583.6,
+      "duration": 4.72,
+      "text": "this through this long conversation, I"
+    },
+    {
+      "start": 586.16,
+      "duration": 4.96,
+      "text": "started pasting in some images that I"
+    },
+    {
+      "start": 588.32,
+      "duration": 6.079,
+      "text": "found on Dribble, like things that I"
+    },
+    {
+      "start": 591.12,
+      "duration": 5.839,
+      "text": "liked, and then having Claude sort of"
+    },
+    {
+      "start": 594.399,
+      "duration": 5.361,
+      "text": "send back to me, like its description of"
+    },
+    {
+      "start": 596.959,
+      "duration": 4.801,
+      "text": "of what these different styles are. So"
+    },
+    {
+      "start": 599.76,
+      "duration": 4.96,
+      "text": "then I can use these descriptions that"
+    },
+    {
+      "start": 601.76,
+      "duration": 5.6,
+      "text": "Claude helps me to to craft and I can"
+    },
+    {
+      "start": 604.72,
+      "duration": 5.119,
+      "text": "use those to then sort of prototype what"
+    },
+    {
+      "start": 607.36,
+      "duration": 3.919,
+      "text": "the actual AI generated illustrations"
+    },
+    {
+      "start": 609.839,
+      "duration": 3.521,
+      "text": "could end up looking like for builder"
+    },
+    {
+      "start": 611.279,
+      "duration": 3.761,
+      "text": "methods. So that's when I hopped into a"
+    },
+    {
+      "start": 613.36,
+      "duration": 4.4,
+      "text": "Google Gemini, you know, just the"
+    },
+    {
+      "start": 615.04,
+      "duration": 5.039,
+      "text": "straight like Gemini chat product here."
+    },
+    {
+      "start": 617.76,
+      "duration": 4.8,
+      "text": "And so it gave me like some some options"
+    },
+    {
+      "start": 620.079,
+      "duration": 4.32,
+      "text": "for me to to sort of consider. And then"
+    },
+    {
+      "start": 622.56,
+      "duration": 3.2,
+      "text": "I asked it to all right, let's run with"
+    },
+    {
+      "start": 624.399,
+      "duration": 2.961,
+      "text": "this option and see what that looks"
+    },
+    {
+      "start": 625.76,
+      "duration": 2.88,
+      "text": "like, you know? And then we started"
+    },
+    {
+      "start": 627.36,
+      "duration": 3.44,
+      "text": "playing with different colors and"
+    },
+    {
+      "start": 628.64,
+      "duration": 4.08,
+      "text": "different levels of detail. Uh this one"
+    },
+    {
+      "start": 630.8,
+      "duration": 4.159,
+      "text": "was kind of cool and different. But then"
+    },
+    {
+      "start": 632.72,
+      "duration": 4.96,
+      "text": "as we sort of move move along into the"
+    },
+    {
+      "start": 634.959,
+      "duration": 5.681,
+      "text": "into the process, we're just exploring"
+    },
+    {
+      "start": 637.68,
+      "duration": 4.8,
+      "text": "and trying different styles on to see"
+    },
+    {
+      "start": 640.64,
+      "duration": 5.28,
+      "text": "how I feel about them. And the way that"
+    },
+    {
+      "start": 642.48,
+      "duration": 5.28,
+      "text": "I'm I'm evaluating these is a like"
+    },
+    {
+      "start": 645.92,
+      "duration": 4.56,
+      "text": "obviously do do I like it? Do I think"
+    },
+    {
+      "start": 647.76,
+      "duration": 6.24,
+      "text": "that it fits the general feel? but also"
+    },
+    {
+      "start": 650.48,
+      "duration": 5.76,
+      "text": "like is it a style that can expand out"
+    },
+    {
+      "start": 654,
+      "duration": 4.56,
+      "text": "to many different images and you and be"
+    },
+    {
+      "start": 656.24,
+      "duration": 4.159,
+      "text": "used in many different situations? Is it"
+    },
+    {
+      "start": 658.56,
+      "duration": 4.959,
+      "text": "flexible? Another thing that I'm looking"
+    },
+    {
+      "start": 660.399,
+      "duration": 5.761,
+      "text": "for is like is it distinctive? You know,"
+    },
+    {
+      "start": 663.519,
+      "duration": 4.641,
+      "text": "does it look super AI generated? Does it"
+    },
+    {
+      "start": 666.16,
+      "duration": 4.48,
+      "text": "look very typical to things that we see"
+    },
+    {
+      "start": 668.16,
+      "duration": 4.4,
+      "text": "all over the internet? Um, you know,"
+    },
+    {
+      "start": 670.64,
+      "duration": 3.6,
+      "text": "some of these were were interesting."
+    },
+    {
+      "start": 672.56,
+      "duration": 3.2,
+      "text": "Let's see if I move along. So, this was"
+    },
+    {
+      "start": 674.24,
+      "duration": 3.039,
+      "text": "another direction that I started to kind"
+    },
+    {
+      "start": 675.76,
+      "duration": 3.36,
+      "text": "of like a little bit more like"
+    },
+    {
+      "start": 677.279,
+      "duration": 2.8,
+      "text": "pixelated. the thickness of the lines"
+    },
+    {
+      "start": 679.12,
+      "duration": 2.399,
+      "text": "when we went through like different"
+    },
+    {
+      "start": 680.079,
+      "duration": 3.361,
+      "text": "iterations like how thick and how"
+    },
+    {
+      "start": 681.519,
+      "duration": 3.601,
+      "text": "consistent should the lines be just"
+    },
+    {
+      "start": 683.44,
+      "duration": 3.68,
+      "text": "going deeper and deeper down the rabbit"
+    },
+    {
+      "start": 685.12,
+      "duration": 4,
+      "text": "hole, you know, but ultimately we we"
+    },
+    {
+      "start": 687.12,
+      "duration": 3.839,
+      "text": "start to land on something that looks"
+    },
+    {
+      "start": 689.12,
+      "duration": 4.56,
+      "text": "good. Now, by the way, I tried to see if"
+    },
+    {
+      "start": 690.959,
+      "duration": 6,
+      "text": "I can get Google Gemini to generate a"
+    },
+    {
+      "start": 693.68,
+      "duration": 5.44,
+      "text": "truly transparent image and I couldn't"
+    },
+    {
+      "start": 696.959,
+      "duration": 3.921,
+      "text": "actually. So, it thinks that it's"
+    },
+    {
+      "start": 699.12,
+      "duration": 3.52,
+      "text": "creating a transparent image here, but"
+    },
+    {
+      "start": 700.88,
+      "duration": 3.12,
+      "text": "it's not like the the checkerboard is"
+    },
+    {
+      "start": 702.64,
+      "duration": 4,
+      "text": "actually in the image, which is not"
+    },
+    {
+      "start": 704,
+      "duration": 4.72,
+      "text": "helpful. Um, so AI generation will"
+    },
+    {
+      "start": 706.64,
+      "duration": 4.56,
+      "text": "generally just create, you know, flat"
+    },
+    {
+      "start": 708.72,
+      "duration": 4.239,
+      "text": "PNG images. So that's the guidelines"
+    },
+    {
+      "start": 711.2,
+      "duration": 3.92,
+      "text": "piece. So once I was happy with that,"
+    },
+    {
+      "start": 712.959,
+      "duration": 5.44,
+      "text": "then I moved into the next phase, which"
+    },
+    {
+      "start": 715.12,
+      "duration": 5.68,
+      "text": "was to start to build this out as an N8"
+    },
+    {
+      "start": 718.399,
+      "duration": 4.081,
+      "text": "automation. My goal with this was to"
+    },
+    {
+      "start": 720.8,
+      "duration": 2.96,
+      "text": "have a Slack channel called"
+    },
+    {
+      "start": 722.48,
+      "duration": 4,
+      "text": "illustrations. And you can see these"
+    },
+    {
+      "start": 723.76,
+      "duration": 5.04,
+      "text": "were like all of my tests where I could"
+    },
+    {
+      "start": 726.48,
+      "duration": 4.159,
+      "text": "just put in a simple message like, \"Hey,"
+    },
+    {
+      "start": 728.8,
+      "duration": 4.32,
+      "text": "I need an illustration for a LinkedIn"
+    },
+    {
+      "start": 730.639,
+      "duration": 5.121,
+      "text": "post about morning coffee rituals.\" I"
+    },
+    {
+      "start": 733.12,
+      "duration": 5.6,
+      "text": "was just doing these like test examples"
+    },
+    {
+      "start": 735.76,
+      "duration": 5.84,
+      "text": "and then have the bot, you know, respond"
+    },
+    {
+      "start": 738.72,
+      "duration": 5.52,
+      "text": "back to me and then pitch to me three"
+    },
+    {
+      "start": 741.6,
+      "duration": 5.52,
+      "text": "illustration concepts. Um, and then I"
+    },
+    {
+      "start": 744.24,
+      "duration": 4.719,
+      "text": "can reply back with A, B, or C and then"
+    },
+    {
+      "start": 747.12,
+      "duration": 4.24,
+      "text": "it'll go ahead and and generate that."
+    },
+    {
+      "start": 748.959,
+      "duration": 6.801,
+      "text": "Behind the scenes, this whole chat is"
+    },
+    {
+      "start": 751.36,
+      "duration": 7.599,
+      "text": "powered by this N8N automation. So, my"
+    },
+    {
+      "start": 755.76,
+      "duration": 5.199,
+      "text": "goal with this, number one, I want to"
+    },
+    {
+      "start": 758.959,
+      "duration": 4.161,
+      "text": "only be able to use Slack. I don't want"
+    },
+    {
+      "start": 760.959,
+      "duration": 3.521,
+      "text": "to have to like open up Naden every time"
+    },
+    {
+      "start": 763.12,
+      "duration": 2.719,
+      "text": "I want an illustration or anything like"
+    },
+    {
+      "start": 764.48,
+      "duration": 4.08,
+      "text": "that. I just want to be able to chat"
+    },
+    {
+      "start": 765.839,
+      "duration": 4.961,
+      "text": "into into Slack and and then get some"
+    },
+    {
+      "start": 768.56,
+      "duration": 4.64,
+      "text": "options back. I will sort of walk"
+    },
+    {
+      "start": 770.8,
+      "duration": 4.56,
+      "text": "through how this all came together, but"
+    },
+    {
+      "start": 773.2,
+      "duration": 4.56,
+      "text": "I just want to tell you that like I am"
+    },
+    {
+      "start": 775.36,
+      "duration": 4.8,
+      "text": "not an N8 expert by any means. In fact,"
+    },
+    {
+      "start": 777.76,
+      "duration": 4,
+      "text": "this was the first big project that I"
+    },
+    {
+      "start": 780.16,
+      "duration": 3.04,
+      "text": "ever really worked on. How did I"
+    },
+    {
+      "start": 781.76,
+      "duration": 4.4,
+      "text": "actually go about building this, you"
+    },
+    {
+      "start": 783.2,
+      "duration": 6.879,
+      "text": "know, not being an NAN expert? Well, I"
+    },
+    {
+      "start": 786.16,
+      "duration": 7.359,
+      "text": "used Claude obviously. So this one, no"
+    },
+    {
+      "start": 790.079,
+      "duration": 5.121,
+      "text": "this one is my conversation that I had"
+    },
+    {
+      "start": 793.519,
+      "duration": 4.241,
+      "text": "with Claude. And the way that I set it"
+    },
+    {
+      "start": 795.2,
+      "duration": 6.16,
+      "text": "up was I just put this, you know, on the"
+    },
+    {
+      "start": 797.76,
+      "duration": 5.759,
+      "text": "side and I put Naden over here. You"
+    },
+    {
+      "start": 801.36,
+      "duration": 4.64,
+      "text": "know, it looked like something like"
+    },
+    {
+      "start": 803.519,
+      "duration": 5.44,
+      "text": "that. And and I would, you know, just be"
+    },
+    {
+      "start": 806,
+      "duration": 6.16,
+      "text": "prompting and talking to Claude on the"
+    },
+    {
+      "start": 808.959,
+      "duration": 5.12,
+      "text": "left side while I build out the thing"
+    },
+    {
+      "start": 812.16,
+      "duration": 3.76,
+      "text": "the the workflow on the right. So then"
+    },
+    {
+      "start": 814.079,
+      "duration": 5.041,
+      "text": "we start to actually build out like node"
+    },
+    {
+      "start": 815.92,
+      "duration": 4.96,
+      "text": "by node, you know, one node at a time,"
+    },
+    {
+      "start": 819.12,
+      "duration": 3.68,
+      "text": "you know, for example, like if I just"
+    },
+    {
+      "start": 820.88,
+      "duration": 4.399,
+      "text": "open up, let's say, this node, which is"
+    },
+    {
+      "start": 822.8,
+      "duration": 5.039,
+      "text": "a switch node, you know, I'm just I'm"
+    },
+    {
+      "start": 825.279,
+      "duration": 6.401,
+      "text": "just pasting screenshots of what I see"
+    },
+    {
+      "start": 827.839,
+      "duration": 5.361,
+      "text": "in in NAN into Claude and then it's it's"
+    },
+    {
+      "start": 831.68,
+      "duration": 3.68,
+      "text": "telling me like, all right, fill fill"
+    },
+    {
+      "start": 833.2,
+      "duration": 5.6,
+      "text": "out this configuration or we did that"
+    },
+    {
+      "start": 835.36,
+      "duration": 5.52,
+      "text": "for every single node in this workflow."
+    },
+    {
+      "start": 838.8,
+      "duration": 4.64,
+      "text": "I'll walk through some of the logic for"
+    },
+    {
+      "start": 840.88,
+      "duration": 4.88,
+      "text": "how we put this together. So we start"
+    },
+    {
+      "start": 843.44,
+      "duration": 5.6,
+      "text": "with a web hook which comes from Slack."
+    },
+    {
+      "start": 845.76,
+      "duration": 5.68,
+      "text": "So when I when I initiate this with a"
+    },
+    {
+      "start": 849.04,
+      "duration": 4.96,
+      "text": "message in the Slack channel, it sends"
+    },
+    {
+      "start": 851.44,
+      "duration": 4.639,
+      "text": "this web hook. Then we load in all of"
+    },
+    {
+      "start": 854,
+      "duration": 4.24,
+      "text": "those prompts and guidelines. We put"
+    },
+    {
+      "start": 856.079,
+      "duration": 4.161,
+      "text": "them into some code variables. And then"
+    },
+    {
+      "start": 858.24,
+      "duration": 3.76,
+      "text": "this switch is sort of handling if it's"
+    },
+    {
+      "start": 860.24,
+      "duration": 3.839,
+      "text": "like a brand new request, then we're"
+    },
+    {
+      "start": 862,
+      "duration": 3.839,
+      "text": "sort of processing that down here. If"
+    },
+    {
+      "start": 864.079,
+      "duration": 2.961,
+      "text": "the request is already in process and"
+    },
+    {
+      "start": 865.839,
+      "duration": 2.881,
+      "text": "now we're sort of like gathering"
+    },
+    {
+      "start": 867.04,
+      "duration": 3.919,
+      "text": "information about what this illustration"
+    },
+    {
+      "start": 868.72,
+      "duration": 5.04,
+      "text": "should be about that interaction is"
+    },
+    {
+      "start": 870.959,
+      "duration": 4.961,
+      "text": "happening up here and this this check"
+    },
+    {
+      "start": 873.76,
+      "duration": 3.68,
+      "text": "says like do we now have all the"
+    },
+    {
+      "start": 875.92,
+      "duration": 4.719,
+      "text": "information that we have that we need."
+    },
+    {
+      "start": 877.44,
+      "duration": 6.399,
+      "text": "Is that complete? Then those feed into"
+    },
+    {
+      "start": 880.639,
+      "duration": 6.32,
+      "text": "okay now we are generating concepts"
+    },
+    {
+      "start": 883.839,
+      "duration": 5.201,
+      "text": "meaning like in text giving me three"
+    },
+    {
+      "start": 886.959,
+      "duration": 4.161,
+      "text": "concepts like it says here are three"
+    },
+    {
+      "start": 889.04,
+      "duration": 3.919,
+      "text": "illustration concepts that is happening"
+    },
+    {
+      "start": 891.12,
+      "duration": 4.159,
+      "text": "here. So we have a prompt that says like"
+    },
+    {
+      "start": 892.959,
+      "duration": 4.56,
+      "text": "how to generate a concept and then how"
+    },
+    {
+      "start": 895.279,
+      "duration": 4.641,
+      "text": "to formulate your message, how to send"
+    },
+    {
+      "start": 897.519,
+      "duration": 4.961,
+      "text": "it into slack and then based on the"
+    },
+    {
+      "start": 899.92,
+      "duration": 4.479,
+      "text": "selection A, B or C or if I ask it to"
+    },
+    {
+      "start": 902.48,
+      "duration": 3.52,
+      "text": "like regenerate then it can sort of loop"
+    },
+    {
+      "start": 904.399,
+      "duration": 4.481,
+      "text": "back and give me another round of"
+    },
+    {
+      "start": 906,
+      "duration": 5.68,
+      "text": "concepts. But once I select the concept"
+    },
+    {
+      "start": 908.88,
+      "duration": 5.36,
+      "text": "then we move into the actually create"
+    },
+    {
+      "start": 911.68,
+      "duration": 6.56,
+      "text": "the image. Basically I wanted to test"
+    },
+    {
+      "start": 914.24,
+      "duration": 6.08,
+      "text": "out Google Gemini versus OpenAI's image"
+    },
+    {
+      "start": 918.24,
+      "duration": 4.08,
+      "text": "generation. So, those are like the two"
+    },
+    {
+      "start": 920.32,
+      "duration": 4.72,
+      "text": "models that offer image generation. I"
+    },
+    {
+      "start": 922.32,
+      "duration": 4.48,
+      "text": "wanted to have a split where I can I can"
+    },
+    {
+      "start": 925.04,
+      "duration": 4.4,
+      "text": "just tweak this to say like I want"
+    },
+    {
+      "start": 926.8,
+      "duration": 4.719,
+      "text": "Gemini for this one or I want Open AI."
+    },
+    {
+      "start": 929.44,
+      "duration": 4.88,
+      "text": "Um, I was also playing around with the"
+    },
+    {
+      "start": 931.519,
+      "duration": 5.44,
+      "text": "idea of having it do multiple takes at"
+    },
+    {
+      "start": 934.32,
+      "duration": 4.72,
+      "text": "the same time. So, like generate"
+    },
+    {
+      "start": 936.959,
+      "duration": 4.081,
+      "text": "basically giving it the same prompt and"
+    },
+    {
+      "start": 939.04,
+      "duration": 3.76,
+      "text": "for the same illustration so that I can"
+    },
+    {
+      "start": 941.04,
+      "duration": 4.08,
+      "text": "just choose like all right this version"
+    },
+    {
+      "start": 942.8,
+      "duration": 5.36,
+      "text": "is a little bit better. This is the call"
+    },
+    {
+      "start": 945.12,
+      "duration": 5.2,
+      "text": "to the to the actual model where we are"
+    },
+    {
+      "start": 948.16,
+      "duration": 3.599,
+      "text": "like generating the image. Then it like"
+    },
+    {
+      "start": 950.32,
+      "duration": 3.6,
+      "text": "sort of saves the image into a Google"
+    },
+    {
+      "start": 951.759,
+      "duration": 4.961,
+      "text": "Drive folder. Then it sends me a message"
+    },
+    {
+      "start": 953.92,
+      "duration": 6.24,
+      "text": "in Slack which looks like this. Now here"
+    },
+    {
+      "start": 956.72,
+      "duration": 5.359,
+      "text": "is the link to view the image right now."
+    },
+    {
+      "start": 960.16,
+      "duration": 5.679,
+      "text": "Let's see if I can view that one. Yeah."
+    },
+    {
+      "start": 962.079,
+      "duration": 5.521,
+      "text": "So here you go. So ultimately when, you"
+    },
+    {
+      "start": 965.839,
+      "duration": 4.481,
+      "text": "know, when it was all said and done,"
+    },
+    {
+      "start": 967.6,
+      "duration": 5.919,
+      "text": "despite all of the all the effort that I"
+    },
+    {
+      "start": 970.32,
+      "duration": 4.72,
+      "text": "that I put into this, I ended up with"
+    },
+    {
+      "start": 973.519,
+      "duration": 4.801,
+      "text": "this. And I tried it a few different"
+    },
+    {
+      "start": 975.04,
+      "duration": 6.56,
+      "text": "times. And, you know, this looks kind of"
+    },
+    {
+      "start": 978.32,
+      "duration": 6.56,
+      "text": "cool, but it is it's it's pretty far off"
+    },
+    {
+      "start": 981.6,
+      "duration": 5.44,
+      "text": "from from what I actually want for my"
+    },
+    {
+      "start": 984.88,
+      "duration": 4.8,
+      "text": "page here, right? You know, it has way"
+    },
+    {
+      "start": 987.04,
+      "duration": 5.12,
+      "text": "too much detail. It doesn't even follow"
+    },
+    {
+      "start": 989.68,
+      "duration": 3.68,
+      "text": "the illustration guidelines at all in"
+    },
+    {
+      "start": 992.16,
+      "duration": 2.799,
+      "text": "terms of like what it should be"
+    },
+    {
+      "start": 993.36,
+      "duration": 4.159,
+      "text": "illustrating. Like we were supposed to"
+    },
+    {
+      "start": 994.959,
+      "duration": 4.8,
+      "text": "just make a picture of a mug on a table"
+    },
+    {
+      "start": 997.519,
+      "duration": 5.041,
+      "text": "and I got a picture of an office with a"
+    },
+    {
+      "start": 999.759,
+      "duration": 6.161,
+      "text": "with a weirdly shaded window, right? So,"
+    },
+    {
+      "start": 1002.56,
+      "duration": 7.199,
+      "text": "you know, I thought incorrectly that I"
+    },
+    {
+      "start": 1005.92,
+      "duration": 5.52,
+      "text": "could build in the intelligence into"
+    },
+    {
+      "start": 1009.759,
+      "duration": 4.561,
+      "text": "this system. I thought I was doing that"
+    },
+    {
+      "start": 1011.44,
+      "duration": 5.839,
+      "text": "when I was loading when I was loading in"
+    },
+    {
+      "start": 1014.32,
+      "duration": 4.48,
+      "text": "all of these, you know, guidelines at"
+    },
+    {
+      "start": 1017.279,
+      "duration": 3.441,
+      "text": "the at the start of the system. And we"
+    },
+    {
+      "start": 1018.8,
+      "duration": 4.719,
+      "text": "do reference all this stuff in the"
+    },
+    {
+      "start": 1020.72,
+      "duration": 5.119,
+      "text": "prompts that we generate here. So, you"
+    },
+    {
+      "start": 1023.519,
+      "duration": 4.4,
+      "text": "know, I'm sure I'm sure one of the NADN"
+    },
+    {
+      "start": 1025.839,
+      "duration": 5.041,
+      "text": "wizards on on YouTube can probably"
+    },
+    {
+      "start": 1027.919,
+      "duration": 4.721,
+      "text": "figure out this problem, but I just, you"
+    },
+    {
+      "start": 1030.88,
+      "duration": 4.4,
+      "text": "know, yes, I got it all technically to"
+    },
+    {
+      "start": 1032.64,
+      "duration": 4.799,
+      "text": "work like it it technically did deliver"
+    },
+    {
+      "start": 1035.28,
+      "duration": 5.039,
+      "text": "images into a Google Drive folder for"
+    },
+    {
+      "start": 1037.439,
+      "duration": 5.12,
+      "text": "me. Um, but they were just way off from"
+    },
+    {
+      "start": 1040.319,
+      "duration": 4.72,
+      "text": "what I wanted, which doesn't solve the"
+    },
+    {
+      "start": 1042.559,
+      "duration": 4.961,
+      "text": "problem. So that's when I gave up on"
+    },
+    {
+      "start": 1045.039,
+      "duration": 4.401,
+      "text": "this and yeah, I I thought I was done"
+    },
+    {
+      "start": 1047.52,
+      "duration": 3.92,
+      "text": "with this whole project until I came up"
+    },
+    {
+      "start": 1049.44,
+      "duration": 4.08,
+      "text": "with the idea of using a claude code"
+    },
+    {
+      "start": 1051.44,
+      "duration": 3.359,
+      "text": "skill, which duh, I should have done"
+    },
+    {
+      "start": 1053.52,
+      "duration": 2.96,
+      "text": "that from the very beginning. Now,"
+    },
+    {
+      "start": 1054.799,
+      "duration": 4,
+      "text": "you're about to see me build this out as"
+    },
+    {
+      "start": 1056.48,
+      "duration": 4.4,
+      "text": "a claude code skill. But first, let me"
+    },
+    {
+      "start": 1058.799,
+      "duration": 4.321,
+      "text": "quickly explain what a skill actually"
+    },
+    {
+      "start": 1060.88,
+      "duration": 4.96,
+      "text": "is. Think of it as a self-contained"
+    },
+    {
+      "start": 1063.12,
+      "duration": 4.88,
+      "text": "capability in a folder. So not just a"
+    },
+    {
+      "start": 1065.84,
+      "duration": 4.56,
+      "text": "prompt but an entire mini system with"
+    },
+    {
+      "start": 1068,
+      "duration": 4.16,
+      "text": "its own files and templates and logic"
+    },
+    {
+      "start": 1070.4,
+      "duration": 3.6,
+      "text": "and skills are super useful in"
+    },
+    {
+      "start": 1072.16,
+      "duration": 4.24,
+      "text": "application development. But in this"
+    },
+    {
+      "start": 1074,
+      "duration": 5.039,
+      "text": "case the cloud code skill and claude"
+    },
+    {
+      "start": 1076.4,
+      "duration": 4.56,
+      "text": "code itself is the actual tool for the"
+    },
+    {
+      "start": 1079.039,
+      "duration": 3.921,
+      "text": "job. I'm not actually building an app"
+    },
+    {
+      "start": 1080.96,
+      "duration": 4.56,
+      "text": "for this. Now you might be wondering how"
+    },
+    {
+      "start": 1082.96,
+      "duration": 4.64,
+      "text": "can I get claude code to generate images"
+    },
+    {
+      "start": 1085.52,
+      "duration": 4.159,
+      "text": "when cla doesn't offer an image"
+    },
+    {
+      "start": 1087.6,
+      "duration": 4.079,
+      "text": "generation model. Well that's the beauty"
+    },
+    {
+      "start": 1089.679,
+      "duration": 4.321,
+      "text": "of a skill. I can build a simple script"
+    },
+    {
+      "start": 1091.679,
+      "duration": 6.641,
+      "text": "or Claude can build a simple script that"
+    },
+    {
+      "start": 1094,
+      "duration": 6.72,
+      "text": "uses Google's Gemini API or image gen or"
+    },
+    {
+      "start": 1098.32,
+      "duration": 4.56,
+      "text": "nano banana whatever they're calling it"
+    },
+    {
+      "start": 1100.72,
+      "duration": 3.839,
+      "text": "this month. That's for the image"
+    },
+    {
+      "start": 1102.88,
+      "duration": 3.84,
+      "text": "generation piece. And then we can use"
+    },
+    {
+      "start": 1104.559,
+      "duration": 3.281,
+      "text": "Claude Opus for the interaction and the"
+    },
+    {
+      "start": 1106.72,
+      "duration": 2.8,
+      "text": "prompting. All right, let me show you"
+    },
+    {
+      "start": 1107.84,
+      "duration": 4.079,
+      "text": "how I set this up. So, as I said, this"
+    },
+    {
+      "start": 1109.52,
+      "duration": 4.48,
+      "text": "NAND workflow turned out to be way"
+    },
+    {
+      "start": 1111.919,
+      "duration": 4.241,
+      "text": "overengineered and it just fundamentally"
+    },
+    {
+      "start": 1114,
+      "duration": 3.6,
+      "text": "didn't solve the problem that I was"
+    },
+    {
+      "start": 1116.16,
+      "duration": 3.2,
+      "text": "trying to solve. And I was pretty"
+    },
+    {
+      "start": 1117.6,
+      "duration": 3.76,
+      "text": "discouraged by that. I I really thought"
+    },
+    {
+      "start": 1119.36,
+      "duration": 4.16,
+      "text": "I wasted a lot a lot of time on this,"
+    },
+    {
+      "start": 1121.36,
+      "duration": 4.319,
+      "text": "but then I remembered about claude code"
+    },
+    {
+      "start": 1123.52,
+      "duration": 4.56,
+      "text": "skills. And so here is the Claude"
+    },
+    {
+      "start": 1125.679,
+      "duration": 5.201,
+      "text": "conversation where I kicked off that"
+    },
+    {
+      "start": 1128.08,
+      "duration": 5.52,
+      "text": "process to try this out as a claude code"
+    },
+    {
+      "start": 1130.88,
+      "duration": 5.52,
+      "text": "skill. So again, I started by giving it"
+    },
+    {
+      "start": 1133.6,
+      "duration": 4.48,
+      "text": "my guidelines that I had established in"
+    },
+    {
+      "start": 1136.4,
+      "duration": 4,
+      "text": "the first part of this project and then"
+    },
+    {
+      "start": 1138.08,
+      "duration": 4.32,
+      "text": "I gave it I would like to build a skill"
+    },
+    {
+      "start": 1140.4,
+      "duration": 5.519,
+      "text": "and then Claude read everything and"
+    },
+    {
+      "start": 1142.4,
+      "duration": 5.519,
+      "text": "Claude used its its own skill creator"
+    },
+    {
+      "start": 1145.919,
+      "duration": 3.841,
+      "text": "skill that's built into Claude to"
+    },
+    {
+      "start": 1147.919,
+      "duration": 4.081,
+      "text": "essentially build out the skill. Right?"
+    },
+    {
+      "start": 1149.76,
+      "duration": 5.039,
+      "text": "So you know I course corrected it a few"
+    },
+    {
+      "start": 1152,
+      "duration": 5.28,
+      "text": "times. Then, you know, Claude suggested"
+    },
+    {
+      "start": 1154.799,
+      "duration": 5.361,
+      "text": "this structure for for what will go into"
+    },
+    {
+      "start": 1157.28,
+      "duration": 4.96,
+      "text": "the actual skill itself, and it laid out"
+    },
+    {
+      "start": 1160.16,
+      "duration": 3.759,
+      "text": "some of the key decisions that it made."
+    },
+    {
+      "start": 1162.24,
+      "duration": 4.08,
+      "text": "And then it gave me uh the files to"
+    },
+    {
+      "start": 1163.919,
+      "duration": 4.321,
+      "text": "actually just download the ski like what"
+    },
+    {
+      "start": 1166.32,
+      "duration": 3.12,
+      "text": "what makes up the skill. I wanted to see"
+    },
+    {
+      "start": 1168.24,
+      "duration": 3.28,
+      "text": "if I could actually just run this in"
+    },
+    {
+      "start": 1169.44,
+      "duration": 3.76,
+      "text": "regular cloud, but it turns out since we"
+    },
+    {
+      "start": 1171.52,
+      "duration": 4.72,
+      "text": "need since we do need to hit, you know,"
+    },
+    {
+      "start": 1173.2,
+      "duration": 5.12,
+      "text": "the uh API and I have to have like my my"
+    },
+    {
+      "start": 1176.24,
+      "duration": 4.319,
+      "text": "keys in there and everything, um we end"
+    },
+    {
+      "start": 1178.32,
+      "duration": 4.08,
+      "text": "up using it only in cloud code. Okay, so"
+    },
+    {
+      "start": 1180.559,
+      "duration": 4.401,
+      "text": "here we are in the project and as you"
+    },
+    {
+      "start": 1182.4,
+      "duration": 4.88,
+      "text": "can see here the project or the codebase"
+    },
+    {
+      "start": 1184.96,
+      "duration": 4.88,
+      "text": "if you will is not even a codebase. It's"
+    },
+    {
+      "start": 1187.28,
+      "duration": 5.36,
+      "text": "it's not an actual application. All it"
+    },
+    {
+      "start": 1189.84,
+      "duration": 5.199,
+      "text": "consists of is a claude folder and"
+    },
+    {
+      "start": 1192.64,
+      "duration": 4.56,
+      "text": "inside that a skills folder and then and"
+    },
+    {
+      "start": 1195.039,
+      "duration": 5.041,
+      "text": "then I have one skill the the brand"
+    },
+    {
+      "start": 1197.2,
+      "duration": 4.96,
+      "text": "illustrator skill that I had created uh"
+    },
+    {
+      "start": 1200.08,
+      "duration": 4.4,
+      "text": "with the help of Claude. I dropped that"
+    },
+    {
+      "start": 1202.16,
+      "duration": 5.04,
+      "text": "in and inside the brand illustrator"
+    },
+    {
+      "start": 1204.48,
+      "duration": 4.96,
+      "text": "skill we have the skill MD and I'll I'll"
+    },
+    {
+      "start": 1207.2,
+      "duration": 4.479,
+      "text": "walk through this a little bit. Then it"
+    },
+    {
+      "start": 1209.44,
+      "duration": 5.359,
+      "text": "has these references to you know my"
+    },
+    {
+      "start": 1211.679,
+      "duration": 5.12,
+      "text": "visual world document the visual style"
+    },
+    {
+      "start": 1214.799,
+      "duration": 5.281,
+      "text": "some of the the prompts that will go"
+    },
+    {
+      "start": 1216.799,
+      "duration": 5.441,
+      "text": "into the system that idea to"
+    },
+    {
+      "start": 1220.08,
+      "duration": 4.64,
+      "text": "illustration mapping system for like how"
+    },
+    {
+      "start": 1222.24,
+      "duration": 4.559,
+      "text": "to choose what objects or what scenes to"
+    },
+    {
+      "start": 1224.72,
+      "duration": 4.16,
+      "text": "illustrate and then sort of defining the"
+    },
+    {
+      "start": 1226.799,
+      "duration": 4.481,
+      "text": "brand colors here those are all the"
+    },
+    {
+      "start": 1228.88,
+      "duration": 4.32,
+      "text": "references in assets and I still"
+    },
+    {
+      "start": 1231.28,
+      "duration": 5.6,
+      "text": "actually need to build this out more"
+    },
+    {
+      "start": 1233.2,
+      "duration": 6.16,
+      "text": "these are sample illustrations right so"
+    },
+    {
+      "start": 1236.88,
+      "duration": 5.36,
+      "text": "this helps to train the model on how I"
+    },
+    {
+      "start": 1239.36,
+      "duration": 4.96,
+      "text": "want my illustrations to look. And I I"
+    },
+    {
+      "start": 1242.24,
+      "duration": 5.6,
+      "text": "still intend to add more. I've been able"
+    },
+    {
+      "start": 1244.32,
+      "duration": 5.28,
+      "text": "to use the skill as is to achieve, you"
+    },
+    {
+      "start": 1247.84,
+      "duration": 3.36,
+      "text": "know, the uh the illustrations the way"
+    },
+    {
+      "start": 1249.6,
+      "duration": 2.959,
+      "text": "that I want them. And then finally,"
+    },
+    {
+      "start": 1251.2,
+      "duration": 3.44,
+      "text": "obviously like the most important part"
+    },
+    {
+      "start": 1252.559,
+      "duration": 3.921,
+      "text": "is the script and that is a Python"
+    },
+    {
+      "start": 1254.64,
+      "duration": 3.6,
+      "text": "script. I'm not even a developer in"
+    },
+    {
+      "start": 1256.48,
+      "duration": 4.559,
+      "text": "Python. I didn't write any of this. It"
+    },
+    {
+      "start": 1258.24,
+      "duration": 5.6,
+      "text": "was all written by Claude. This is what"
+    },
+    {
+      "start": 1261.039,
+      "duration": 6.801,
+      "text": "integrates with my uh API key which is"
+    },
+    {
+      "start": 1263.84,
+      "duration": 6.88,
+      "text": "in the the M file. you know, this"
+    },
+    {
+      "start": 1267.84,
+      "duration": 5.04,
+      "text": "generation script is pulling in all the"
+    },
+    {
+      "start": 1270.72,
+      "duration": 4.959,
+      "text": "references and it's assembling the"
+    },
+    {
+      "start": 1272.88,
+      "duration": 5.12,
+      "text": "prompt that goes out to the Gemini API."
+    },
+    {
+      "start": 1275.679,
+      "duration": 4.24,
+      "text": "Okay. And then of course this the actual"
+    },
+    {
+      "start": 1278,
+      "duration": 4.72,
+      "text": "skill.md"
+    },
+    {
+      "start": 1279.919,
+      "duration": 5.041,
+      "text": "this is like the core skill file that"
+    },
+    {
+      "start": 1282.72,
+      "duration": 4.8,
+      "text": "that makes it a skill. This is the thing"
+    },
+    {
+      "start": 1284.96,
+      "duration": 4.88,
+      "text": "that is essentially read by Claude Opus."
+    },
+    {
+      "start": 1287.52,
+      "duration": 4.159,
+      "text": "I'm using Claude Opus 4.5 which is"
+    },
+    {
+      "start": 1289.84,
+      "duration": 3.92,
+      "text": "fantastic. And this is sort of just"
+    },
+    {
+      "start": 1291.679,
+      "duration": 4.401,
+      "text": "going through like when we start it"
+    },
+    {
+      "start": 1293.76,
+      "duration": 3.68,
+      "text": "needs to create a project folder. Oh,"
+    },
+    {
+      "start": 1296.08,
+      "duration": 4.079,
+      "text": "and then like this is the projects"
+    },
+    {
+      "start": 1297.44,
+      "duration": 4.56,
+      "text": "folder. So for every illustration, this"
+    },
+    {
+      "start": 1300.159,
+      "duration": 4,
+      "text": "skill is instructed to create a new"
+    },
+    {
+      "start": 1302,
+      "duration": 4,
+      "text": "folder for each illustration and then"
+    },
+    {
+      "start": 1304.159,
+      "duration": 4.561,
+      "text": "you know save the uh the illustration"
+    },
+    {
+      "start": 1306,
+      "duration": 5.039,
+      "text": "takes inside that folder. Right? It"
+    },
+    {
+      "start": 1308.72,
+      "duration": 4.16,
+      "text": "needs to generate three concept options."
+    },
+    {
+      "start": 1311.039,
+      "duration": 4.241,
+      "text": "wait for my choice, where to find the"
+    },
+    {
+      "start": 1312.88,
+      "duration": 4.4,
+      "text": "color system, how to reference all of"
+    },
+    {
+      "start": 1315.28,
+      "duration": 4.8,
+      "text": "the like the visual world, the aesthetic"
+    },
+    {
+      "start": 1317.28,
+      "duration": 5.2,
+      "text": "style, the prompts, the idea mapping,"
+    },
+    {
+      "start": 1320.08,
+      "duration": 4.56,
+      "text": "all of that is linked or referenced from"
+    },
+    {
+      "start": 1322.48,
+      "duration": 4.559,
+      "text": "the skill here, like how to name the"
+    },
+    {
+      "start": 1324.64,
+      "duration": 4.399,
+      "text": "folder, you know, name it by date. Um,"
+    },
+    {
+      "start": 1327.039,
+      "duration": 4.081,
+      "text": "sort of like the workflow for"
+    },
+    {
+      "start": 1329.039,
+      "duration": 3.841,
+      "text": "communicating with me. And yeah, so then"
+    },
+    {
+      "start": 1331.12,
+      "duration": 3.12,
+      "text": "ultimately it will it will go to work."
+    },
+    {
+      "start": 1332.88,
+      "duration": 2.96,
+      "text": "So, let's why don't we actually just"
+    },
+    {
+      "start": 1334.24,
+      "duration": 4.4,
+      "text": "test it out and I'll show you finally"
+    },
+    {
+      "start": 1335.84,
+      "duration": 5.76,
+      "text": "how how this works, right? So, I'm going"
+    },
+    {
+      "start": 1338.64,
+      "duration": 5.84,
+      "text": "to fire up Cloud. And by the way, this"
+    },
+    {
+      "start": 1341.6,
+      "duration": 5.68,
+      "text": "is brand new uh today or yesterday. This"
+    },
+    {
+      "start": 1344.48,
+      "duration": 4.64,
+      "text": "is version 2.1.2."
+    },
+    {
+      "start": 1347.28,
+      "duration": 4,
+      "text": "And this is an update that I've been"
+    },
+    {
+      "start": 1349.12,
+      "duration": 3.919,
+      "text": "waiting for. My previous video about"
+    },
+    {
+      "start": 1351.28,
+      "duration": 5.36,
+      "text": "Claude Skills when it first came out"
+    },
+    {
+      "start": 1353.039,
+      "duration": 6.241,
+      "text": "back in 2025, my main gripe was that we"
+    },
+    {
+      "start": 1356.64,
+      "duration": 5.44,
+      "text": "can't directly invoke. But now here in"
+    },
+    {
+      "start": 1359.28,
+      "duration": 4.879,
+      "text": "2026, we can just do this brand"
+    },
+    {
+      "start": 1362.08,
+      "duration": 3.839,
+      "text": "illustrator and just just go for that."
+    },
+    {
+      "start": 1364.159,
+      "duration": 6,
+      "text": "And then I'll say something like, I'm"
+    },
+    {
+      "start": 1365.919,
+      "duration": 7.921,
+      "text": "creating a video all about how to"
+    },
+    {
+      "start": 1370.159,
+      "duration": 6.561,
+      "text": "develop a systems mindset. I need a hero"
+    },
+    {
+      "start": 1373.84,
+      "duration": 5.44,
+      "text": "image to go with the accompanying blog"
+    },
+    {
+      "start": 1376.72,
+      "duration": 5.36,
+      "text": "post. So, brand illustrator skill is"
+    },
+    {
+      "start": 1379.28,
+      "duration": 5.2,
+      "text": "running. And now it's going to gather"
+    },
+    {
+      "start": 1382.08,
+      "duration": 4.719,
+      "text": "the the information that it needs from"
+    },
+    {
+      "start": 1384.48,
+      "duration": 4,
+      "text": "me. Go. Let's go with the red. Then it's"
+    },
+    {
+      "start": 1386.799,
+      "duration": 3.76,
+      "text": "asking me about the dimensions and it"
+    },
+    {
+      "start": 1388.48,
+      "duration": 3.679,
+      "text": "recommends this one. And that works."
+    },
+    {
+      "start": 1390.559,
+      "duration": 4.321,
+      "text": "Okay. So, it has everything that it"
+    },
+    {
+      "start": 1392.159,
+      "duration": 6.241,
+      "text": "needs. So it went ahead and it created a"
+    },
+    {
+      "start": 1394.88,
+      "duration": 5.76,
+      "text": "new folder in my project and that's this"
+    },
+    {
+      "start": 1398.4,
+      "duration": 4.32,
+      "text": "one. Okay. So now it's presenting to me"
+    },
+    {
+      "start": 1400.64,
+      "duration": 4.399,
+      "text": "three concepts. So again I didn't need"
+    },
+    {
+      "start": 1402.72,
+      "duration": 4.56,
+      "text": "to think through like what are some good"
+    },
+    {
+      "start": 1405.039,
+      "duration": 4.561,
+      "text": "concepts for this particular blog post."
+    },
+    {
+      "start": 1407.28,
+      "duration": 4.16,
+      "text": "It's giving me these ideas and I can"
+    },
+    {
+      "start": 1409.6,
+      "duration": 4.48,
+      "text": "choose between them. Let's see a"
+    },
+    {
+      "start": 1411.44,
+      "duration": 4.8,
+      "text": "workflow notebook. The blueprint stack"
+    },
+    {
+      "start": 1414.08,
+      "duration": 3.839,
+      "text": "building blocks in sequence. I think the"
+    },
+    {
+      "start": 1416.24,
+      "duration": 3.84,
+      "text": "blueprint stack sounds kind of cool."
+    },
+    {
+      "start": 1417.919,
+      "duration": 4.401,
+      "text": "Let's do that. So it says, \"Let me read"
+    },
+    {
+      "start": 1420.08,
+      "duration": 5.04,
+      "text": "the prompt reference to craft the best"
+    },
+    {
+      "start": 1422.32,
+      "duration": 4.32,
+      "text": "prompt.\" All right. So now it it took"
+    },
+    {
+      "start": 1425.12,
+      "duration": 3.28,
+      "text": "everything that we just discussed and it"
+    },
+    {
+      "start": 1426.64,
+      "duration": 3.68,
+      "text": "put that into a little markdown file. So"
+    },
+    {
+      "start": 1428.4,
+      "duration": 5.04,
+      "text": "now it's running that Python script"
+    },
+    {
+      "start": 1430.32,
+      "duration": 5.2,
+      "text": "which hits Google Gemini's API to to"
+    },
+    {
+      "start": 1433.44,
+      "duration": 6,
+      "text": "generate the image. I think we're using"
+    },
+    {
+      "start": 1435.52,
+      "duration": 5.84,
+      "text": "the the image gen API which I mean they"
+    },
+    {
+      "start": 1439.44,
+      "duration": 3.76,
+      "text": "just keep renaming these things. It's"
+    },
+    {
+      "start": 1441.36,
+      "duration": 4.559,
+      "text": "it's kind it's kind of crazy. All right."
+    },
+    {
+      "start": 1443.2,
+      "duration": 5.599,
+      "text": "So we have V1. Let's take a look. And"
+    },
+    {
+      "start": 1445.919,
+      "duration": 4.801,
+      "text": "okay, so you know, as you can see, it it"
+    },
+    {
+      "start": 1448.799,
+      "duration": 4.24,
+      "text": "follows my guideline. You know, this"
+    },
+    {
+      "start": 1450.72,
+      "duration": 4.48,
+      "text": "looks like it's pretty similar or"
+    },
+    {
+      "start": 1453.039,
+      "duration": 4.721,
+      "text": "consistent, at least with the aesthetic"
+    },
+    {
+      "start": 1455.2,
+      "duration": 4.719,
+      "text": "of the type of image that could appear"
+    },
+    {
+      "start": 1457.76,
+      "duration": 5.279,
+      "text": "on my site like this, right? It again,"
+    },
+    {
+      "start": 1459.919,
+      "duration": 5.281,
+      "text": "like I didn't have to recreate all the"
+    },
+    {
+      "start": 1463.039,
+      "duration": 5.281,
+      "text": "nuanced detail for exactly how I want"
+    },
+    {
+      "start": 1465.2,
+      "duration": 4.8,
+      "text": "these lines to look. Now, in practice, I"
+    },
+    {
+      "start": 1468.32,
+      "duration": 3.44,
+      "text": "end up going back and and having it"
+    },
+    {
+      "start": 1470,
+      "duration": 3.919,
+      "text": "regenerate, you know, a couple different"
+    },
+    {
+      "start": 1471.76,
+      "duration": 4.64,
+      "text": "takes because I get a little bit more"
+    },
+    {
+      "start": 1473.919,
+      "duration": 4.481,
+      "text": "creative or I get very picky about how I"
+    },
+    {
+      "start": 1476.4,
+      "duration": 3.92,
+      "text": "want different objects and and things to"
+    },
+    {
+      "start": 1478.4,
+      "duration": 3.44,
+      "text": "look. So, I can just show you like some"
+    },
+    {
+      "start": 1480.32,
+      "duration": 4.08,
+      "text": "of the previous ones. Like this one I"
+    },
+    {
+      "start": 1481.84,
+      "duration": 6.16,
+      "text": "went through, you know, five different"
+    },
+    {
+      "start": 1484.4,
+      "duration": 6.24,
+      "text": "attempts to just get it just right, you"
+    },
+    {
+      "start": 1488,
+      "duration": 5.12,
+      "text": "know? Let's see. This one, this one"
+    },
+    {
+      "start": 1490.64,
+      "duration": 4.88,
+      "text": "actually has like two different images,"
+    },
+    {
+      "start": 1493.12,
+      "duration": 4,
+      "text": "one for the left side and then one for"
+    },
+    {
+      "start": 1495.52,
+      "duration": 3.279,
+      "text": "the right side. So you could see like"
+    },
+    {
+      "start": 1497.12,
+      "duration": 3.52,
+      "text": "like this one was like almost perfect,"
+    },
+    {
+      "start": 1498.799,
+      "duration": 4.561,
+      "text": "but I didn't like how the how the shade"
+    },
+    {
+      "start": 1500.64,
+      "duration": 4.48,
+      "text": "was covering up the chair. So let's see."
+    },
+    {
+      "start": 1503.36,
+      "duration": 4,
+      "text": "I think like the next one, yeah, we sort"
+    },
+    {
+      "start": 1505.12,
+      "duration": 4,
+      "text": "of fixed the chair issue, but the the"
+    },
+    {
+      "start": 1507.36,
+      "duration": 3.439,
+      "text": "rug is a little out of whack. So, you"
+    },
+    {
+      "start": 1509.12,
+      "duration": 3.6,
+      "text": "know, just like little details that like"
+    },
+    {
+      "start": 1510.799,
+      "duration": 4.561,
+      "text": "that I would just go through and and"
+    },
+    {
+      "start": 1512.72,
+      "duration": 3.92,
+      "text": "reprompt. But that's essentially how I'm"
+    },
+    {
+      "start": 1515.36,
+      "duration": 3.36,
+      "text": "doing this. You know, then I'll bring it"
+    },
+    {
+      "start": 1516.64,
+      "duration": 4.32,
+      "text": "into Photoshop and make it transparent"
+    },
+    {
+      "start": 1518.72,
+      "duration": 4.559,
+      "text": "and and you know, I'm even inverting it"
+    },
+    {
+      "start": 1520.96,
+      "duration": 4.88,
+      "text": "so that I can get a like a light and a"
+    },
+    {
+      "start": 1523.279,
+      "duration": 4.161,
+      "text": "dark mode working on the site. So that's"
+    },
+    {
+      "start": 1525.84,
+      "duration": 4.4,
+      "text": "kind of cool, too. So what did I learn"
+    },
+    {
+      "start": 1527.44,
+      "duration": 5.2,
+      "text": "here? Well, the NAN workflow technically"
+    },
+    {
+      "start": 1530.24,
+      "duration": 5.2,
+      "text": "worked, but by breaking everything into"
+    },
+    {
+      "start": 1532.64,
+      "duration": 4.56,
+      "text": "discrete nodes and rigid logic, I"
+    },
+    {
+      "start": 1535.44,
+      "duration": 4.32,
+      "text": "stripped away the intelligence that"
+    },
+    {
+      "start": 1537.2,
+      "duration": 4.8,
+      "text": "makes AI actually useful. The model"
+    },
+    {
+      "start": 1539.76,
+      "duration": 4.32,
+      "text": "couldn't think. It could only execute my"
+    },
+    {
+      "start": 1542,
+      "duration": 4.32,
+      "text": "predefined steps. But when I moved to"
+    },
+    {
+      "start": 1544.08,
+      "duration": 4.079,
+      "text": "the cloud code skill, the model could"
+    },
+    {
+      "start": 1546.32,
+      "duration": 4,
+      "text": "actually reason about my brand"
+    },
+    {
+      "start": 1548.159,
+      "duration": 4.801,
+      "text": "guidelines. It could understand my"
+    },
+    {
+      "start": 1550.32,
+      "duration": 5.28,
+      "text": "intent and deliver what I need while"
+    },
+    {
+      "start": 1552.96,
+      "duration": 4.56,
+      "text": "still following my process. And now the"
+    },
+    {
+      "start": 1555.6,
+      "duration": 3.52,
+      "text": "consistency that I'm going for. Now"
+    },
+    {
+      "start": 1557.52,
+      "duration": 3.84,
+      "text": "what's interesting is we usually think"
+    },
+    {
+      "start": 1559.12,
+      "duration": 4.72,
+      "text": "of cloud code as a tool for building"
+    },
+    {
+      "start": 1561.36,
+      "duration": 4.72,
+      "text": "software. But what I built here is"
+    },
+    {
+      "start": 1563.84,
+      "duration": 4.48,
+      "text": "really a workflow. It's an interface for"
+    },
+    {
+      "start": 1566.08,
+      "duration": 4.56,
+      "text": "a business process that I'll use over"
+    },
+    {
+      "start": 1568.32,
+      "duration": 4.16,
+      "text": "and over. So cloud code itself became"
+    },
+    {
+      "start": 1570.64,
+      "duration": 4,
+      "text": "the application. And I took the same"
+    },
+    {
+      "start": 1572.48,
+      "duration": 4.4,
+      "text": "approach when I created Design OS."
+    },
+    {
+      "start": 1574.64,
+      "duration": 4.8,
+      "text": "That's a free open-source system that"
+    },
+    {
+      "start": 1576.88,
+      "duration": 4.96,
+      "text": "turns Claude Code into a complete"
+    },
+    {
+      "start": 1579.44,
+      "duration": 4.08,
+      "text": "product design workflow. So after you"
+    },
+    {
+      "start": 1581.84,
+      "duration": 3.28,
+      "text": "hit subscribe here on the channel, head"
+    },
+    {
+      "start": 1583.52,
+      "duration": 3.92,
+      "text": "over there and I'll show you my complete"
+    },
+    {
+      "start": 1585.12,
+      "duration": 6.799,
+      "text": "workflow for how I use Cloud Code to"
+    },
+    {
+      "start": 1587.44,
+      "duration": 4.479,
+      "text": "power Design OS. Let's keep building."
+    }
+  ],
+  "fullText": "I've always wanted my brand to have a strong visual presence when anyone comes across my content or my website or my products. You know, like the vibe that you get when you walk through the storefront of a shop in your neighborhood. But my writing and my videos can only do so much to set that tone. And so I've always tried to create strong visuals to complete the experience. The problem is I'm not an illustrator and I don't need just one great image. I need dozens and I want them all to follow the same visual aesthetic for every page, every piece of content that I publish. Well, it's 2026 now, so you would think that AI image generation would make this easy. And the models have gotten really good at creating one-off images. But what I need is a repeatable system, something that can maintain my brand aesthetic without recrafting these complex prompts every single time I need to generate a visual. So, I spent the past week and some late nights trying to solve this. I created this complex automation workflow using NA10. You know, nodes connected to nodes, API calls, conditional logic everywhere. And when I finally got it all hooked up, the output was garbage. I scrapped the whole thing. That whole week of work gone. But then I rebuilt it as a claude code skill. And it only took 30 minutes. And I didn't just rebuild it. I made it better, higher quality output. and it's way easier to maintain. So today I'll tell you or I'll show you the story of how I overengineered what seems like a simple problem and it's a reminder that cloud code skills might be the most underrated feature in turning AI into repeatable business workflows. And hey, if you're new to the channel, I'm Brian Castle and I help professional builders stay ahead of the curve with AI. And every Friday I send my builder briefing. That's a free 5minute read where I give you my take on what's actually working right now. You can get yours by going to buildermethods.com. By the way, if you're serious about adopting Cloud Code here in 2026, my new course, Build with Claude Code, is available now for Builder Methods Pro members. All right, now let me show you what happened. Okay, so I'll start by showing you the final output that I'm actually using now here on my Builder Methods site. So this is, you know, the homepage and I've got this visual of the computer and the coffee here on the desk. And let's see if I look at Builder Methods Pro, you know, now like the hero section has a similar vibe, like a professional builder studio, the desk, we've got the chair, the the plant in the background. If I take a look at the new build with Claude Code course page, this too has, you know, some visuals, a different plant there. And then as I scroll down, you know, we've got additional illustrations and objects that help to support or offer like metaphors or visuals that go along with the content that I'm showing on the page. Each of these illustrations follows a very very similar illustration style. They all have a very consistent level of detail. the use of color, it's all the same, you know, and and it has the same look and feel. It's also feels like they're all pulled from the same visual world. And, you know, it took me a really long time to develop and land on the exact style that I want and then how we can actually like describe the style and sort of codify it into a a brand visual guideline. So what I'm going to show you here today is the entire process that I went through to get to the final output that got me here. Right? So I'll show you the, you know, multiple days of conversations that I had with Claude just to develop the visual brand, the visual world, the guidelines. I'll show you some of the early prototypes that I that I went through with this stuff. I'll show you how I went about finding inspiration on Dribble. Uh, and then we will dig into the the highly complex N8N workflow that I put together and I'll show you my thinking behind the systems on all of this and how I intended for it to work. Uh, most of it actually did work and I'll show you how I went about assembling something this complex in in N8N. And I'm not even an a typical NAND user. You know, it interacts with the Slack account. Uh but then ultimately, you know, I landed on building it out as a claude code skill, and I'll show you that as well. I'll walk through all of those pieces and sort of the creative decision-making process that I went through along the way to arrive at this. Now, it wouldn't make sense for you to just lift the entire system that I created here because it is very specific to my brand and and my guidelines, but I hope that you'll be able to take away some of the ideas that went into the systems design. And if you're doing any sort of like brand visual exercise, maybe some of my process that went into that could help as well. Now, before I get into, you know, like the technical workflow or the cloud code skill, I do want to emphasize how much time I actually spent just creating the guidelines for for for what, you know, landed me on these final visuals. I did that using a basic conversations in my Claude account. This one here is extremely long. You could see how how long it is. I actually put it inside of a project called Builder Method. So all of my projects, all my creative writing or planning or stuff that I do for the Builder Methods business and brand, I do that inside of the Builder Methods project in my Cloud account so that it has all the memory of of what the business is all about and it has the history of all of my decision-m that went into it. Um, so my very first prompt was this, right? You know, I want to develop a visual brand identity for builder methods. I want to publish a lot of content including articles, workshops, courses, um, and I want visuals. That was like the rough concept that I had in my mind, right, of of I just want it all really well connected. So then I just went through a really long back and forth. Uh, this is Claude being a thought partner for me. First, I'm just saying like, how should we even go about starting this whole process? That was my very first question to Claude, right? And then we just sort of like engaged in this back and forth where I'm asking Claude to suggest some ideas and then I'm giving my reaction to those like I like this, I don't like that. It asked me questions for you know what what I like or and and how how things fit together. And you know, before we even get into the visual aesthetic part, this first one is really just about defining the brand, who I speak to, like on my YouTube channel, and and who I create things for, who I want to resonate with, who what I'm all about. Ultimately, we're what we're creating is a visual identity system. And we're sort of like building a a world. We're we're telling a story if you will, you know, and and we sort of landed on this concept of a day in the life of a builder, right? And sort of defining some constant things that you would see in this world, like the home studio, the notebook, the mug. Um, and ultimately, these should show up as little pictures that that appear on the pages or on a thumbnail or or on a workshop. Let's see these three the main artifacts that came out of of this part of the process, right? The first one that I want to highlight is kind of the builder methods visual world. So I I like this as a very first artifact to try to get to. We're not describing how things look. What we're defining here is like the subject matter, what the types of objects or scenes that you might see in this in this world. So that's the world definition. And you know, just to show you sort of like the level of detail that that this goes into. Okay. So that's the the visual world. You know, another key part of this system is the process by which we decide what to actually illustrate, right? So, for each little piece of content, I not only want to have the AI generate the actual image, but I also don't want to be the one responsible for dictating, okay, we definitely need a mug sitting on a desk next to a pair of headphones. Like that's a lot of mental cycles that a I don't want to spend the time doing that and b I don't necessarily come up with the most creative ideas. So then we we arrived at this artifact which is called idea to illustration mapping guide. Right? So we've already established the visual world and the concept the day in the life of the builder. But this is the guide to take the piece of content that I'm giving it or the landing page or wherever I need an illustration, analyze what that content is all about and the topic and who it's for and what I'm trying to say and then use this guide to decide or suggest or pitch concepts to me back to me on what we should convey in the illustration. What what should the actual object or the scene be? Right? So, we've got like literal like decision process for like what is the core idea? How do we choose subject matter from our visual world? How do we choose specific objects? And then some like example mapping. So like if I'm doing a thing about prompt engineering, then maybe there's going to be an image about chat interface. You know, I talk a lot about spec driven development. If the core concept is specri development, then maybe the specific opt objects that we show are like an open notebook or or wireframe with wireframes or notes or planning before building is the concept. Uh so we need objects like a blueprint or an architectural drawing you know things like that. Okay. But then we come to the actual visual style. So this artifact is called illustration aesthetic guidelines. And this sort of like locks in exactly how each illustration should actually end up looking. Now how do we come to this? And this this took the most time really. You know, I started this process by, you know, scrolling through Dribble and getting some some ideas. Also, through this through this long conversation, I started pasting in some images that I found on Dribble, like things that I liked, and then having Claude sort of send back to me, like its description of of what these different styles are. So then I can use these descriptions that Claude helps me to to craft and I can use those to then sort of prototype what the actual AI generated illustrations could end up looking like for builder methods. So that's when I hopped into a Google Gemini, you know, just the straight like Gemini chat product here. And so it gave me like some some options for me to to sort of consider. And then I asked it to all right, let's run with this option and see what that looks like, you know? And then we started playing with different colors and different levels of detail. Uh this one was kind of cool and different. But then as we sort of move move along into the into the process, we're just exploring and trying different styles on to see how I feel about them. And the way that I'm I'm evaluating these is a like obviously do do I like it? Do I think that it fits the general feel? but also like is it a style that can expand out to many different images and you and be used in many different situations? Is it flexible? Another thing that I'm looking for is like is it distinctive? You know, does it look super AI generated? Does it look very typical to things that we see all over the internet? Um, you know, some of these were were interesting. Let's see if I move along. So, this was another direction that I started to kind of like a little bit more like pixelated. the thickness of the lines when we went through like different iterations like how thick and how consistent should the lines be just going deeper and deeper down the rabbit hole, you know, but ultimately we we start to land on something that looks good. Now, by the way, I tried to see if I can get Google Gemini to generate a truly transparent image and I couldn't actually. So, it thinks that it's creating a transparent image here, but it's not like the the checkerboard is actually in the image, which is not helpful. Um, so AI generation will generally just create, you know, flat PNG images. So that's the guidelines piece. So once I was happy with that, then I moved into the next phase, which was to start to build this out as an N8 automation. My goal with this was to have a Slack channel called illustrations. And you can see these were like all of my tests where I could just put in a simple message like, \"Hey, I need an illustration for a LinkedIn post about morning coffee rituals.\" I was just doing these like test examples and then have the bot, you know, respond back to me and then pitch to me three illustration concepts. Um, and then I can reply back with A, B, or C and then it'll go ahead and and generate that. Behind the scenes, this whole chat is powered by this N8N automation. So, my goal with this, number one, I want to only be able to use Slack. I don't want to have to like open up Naden every time I want an illustration or anything like that. I just want to be able to chat into into Slack and and then get some options back. I will sort of walk through how this all came together, but I just want to tell you that like I am not an N8 expert by any means. In fact, this was the first big project that I ever really worked on. How did I actually go about building this, you know, not being an NAN expert? Well, I used Claude obviously. So this one, no this one is my conversation that I had with Claude. And the way that I set it up was I just put this, you know, on the side and I put Naden over here. You know, it looked like something like that. And and I would, you know, just be prompting and talking to Claude on the left side while I build out the thing the the workflow on the right. So then we start to actually build out like node by node, you know, one node at a time, you know, for example, like if I just open up, let's say, this node, which is a switch node, you know, I'm just I'm just pasting screenshots of what I see in in NAN into Claude and then it's it's telling me like, all right, fill fill out this configuration or we did that for every single node in this workflow. I'll walk through some of the logic for how we put this together. So we start with a web hook which comes from Slack. So when I when I initiate this with a message in the Slack channel, it sends this web hook. Then we load in all of those prompts and guidelines. We put them into some code variables. And then this switch is sort of handling if it's like a brand new request, then we're sort of processing that down here. If the request is already in process and now we're sort of like gathering information about what this illustration should be about that interaction is happening up here and this this check says like do we now have all the information that we have that we need. Is that complete? Then those feed into okay now we are generating concepts meaning like in text giving me three concepts like it says here are three illustration concepts that is happening here. So we have a prompt that says like how to generate a concept and then how to formulate your message, how to send it into slack and then based on the selection A, B or C or if I ask it to like regenerate then it can sort of loop back and give me another round of concepts. But once I select the concept then we move into the actually create the image. Basically I wanted to test out Google Gemini versus OpenAI's image generation. So, those are like the two models that offer image generation. I wanted to have a split where I can I can just tweak this to say like I want Gemini for this one or I want Open AI. Um, I was also playing around with the idea of having it do multiple takes at the same time. So, like generate basically giving it the same prompt and for the same illustration so that I can just choose like all right this version is a little bit better. This is the call to the to the actual model where we are like generating the image. Then it like sort of saves the image into a Google Drive folder. Then it sends me a message in Slack which looks like this. Now here is the link to view the image right now. Let's see if I can view that one. Yeah. So here you go. So ultimately when, you know, when it was all said and done, despite all of the all the effort that I that I put into this, I ended up with this. And I tried it a few different times. And, you know, this looks kind of cool, but it is it's it's pretty far off from from what I actually want for my page here, right? You know, it has way too much detail. It doesn't even follow the illustration guidelines at all in terms of like what it should be illustrating. Like we were supposed to just make a picture of a mug on a table and I got a picture of an office with a with a weirdly shaded window, right? So, you know, I thought incorrectly that I could build in the intelligence into this system. I thought I was doing that when I was loading when I was loading in all of these, you know, guidelines at the at the start of the system. And we do reference all this stuff in the prompts that we generate here. So, you know, I'm sure I'm sure one of the NADN wizards on on YouTube can probably figure out this problem, but I just, you know, yes, I got it all technically to work like it it technically did deliver images into a Google Drive folder for me. Um, but they were just way off from what I wanted, which doesn't solve the problem. So that's when I gave up on this and yeah, I I thought I was done with this whole project until I came up with the idea of using a claude code skill, which duh, I should have done that from the very beginning. Now, you're about to see me build this out as a claude code skill. But first, let me quickly explain what a skill actually is. Think of it as a self-contained capability in a folder. So not just a prompt but an entire mini system with its own files and templates and logic and skills are super useful in application development. But in this case the cloud code skill and claude code itself is the actual tool for the job. I'm not actually building an app for this. Now you might be wondering how can I get claude code to generate images when cla doesn't offer an image generation model. Well that's the beauty of a skill. I can build a simple script or Claude can build a simple script that uses Google's Gemini API or image gen or nano banana whatever they're calling it this month. That's for the image generation piece. And then we can use Claude Opus for the interaction and the prompting. All right, let me show you how I set this up. So, as I said, this NAND workflow turned out to be way overengineered and it just fundamentally didn't solve the problem that I was trying to solve. And I was pretty discouraged by that. I I really thought I wasted a lot a lot of time on this, but then I remembered about claude code skills. And so here is the Claude conversation where I kicked off that process to try this out as a claude code skill. So again, I started by giving it my guidelines that I had established in the first part of this project and then I gave it I would like to build a skill and then Claude read everything and Claude used its its own skill creator skill that's built into Claude to essentially build out the skill. Right? So you know I course corrected it a few times. Then, you know, Claude suggested this structure for for what will go into the actual skill itself, and it laid out some of the key decisions that it made. And then it gave me uh the files to actually just download the ski like what what makes up the skill. I wanted to see if I could actually just run this in regular cloud, but it turns out since we need since we do need to hit, you know, the uh API and I have to have like my my keys in there and everything, um we end up using it only in cloud code. Okay, so here we are in the project and as you can see here the project or the codebase if you will is not even a codebase. It's it's not an actual application. All it consists of is a claude folder and inside that a skills folder and then and then I have one skill the the brand illustrator skill that I had created uh with the help of Claude. I dropped that in and inside the brand illustrator skill we have the skill MD and I'll I'll walk through this a little bit. Then it has these references to you know my visual world document the visual style some of the the prompts that will go into the system that idea to illustration mapping system for like how to choose what objects or what scenes to illustrate and then sort of defining the brand colors here those are all the references in assets and I still actually need to build this out more these are sample illustrations right so this helps to train the model on how I want my illustrations to look. And I I still intend to add more. I've been able to use the skill as is to achieve, you know, the uh the illustrations the way that I want them. And then finally, obviously like the most important part is the script and that is a Python script. I'm not even a developer in Python. I didn't write any of this. It was all written by Claude. This is what integrates with my uh API key which is in the the M file. you know, this generation script is pulling in all the references and it's assembling the prompt that goes out to the Gemini API. Okay. And then of course this the actual skill.md this is like the core skill file that that makes it a skill. This is the thing that is essentially read by Claude Opus. I'm using Claude Opus 4.5 which is fantastic. And this is sort of just going through like when we start it needs to create a project folder. Oh, and then like this is the projects folder. So for every illustration, this skill is instructed to create a new folder for each illustration and then you know save the uh the illustration takes inside that folder. Right? It needs to generate three concept options. wait for my choice, where to find the color system, how to reference all of the like the visual world, the aesthetic style, the prompts, the idea mapping, all of that is linked or referenced from the skill here, like how to name the folder, you know, name it by date. Um, sort of like the workflow for communicating with me. And yeah, so then ultimately it will it will go to work. So, let's why don't we actually just test it out and I'll show you finally how how this works, right? So, I'm going to fire up Cloud. And by the way, this is brand new uh today or yesterday. This is version 2.1.2. And this is an update that I've been waiting for. My previous video about Claude Skills when it first came out back in 2025, my main gripe was that we can't directly invoke. But now here in 2026, we can just do this brand illustrator and just just go for that. And then I'll say something like, I'm creating a video all about how to develop a systems mindset. I need a hero image to go with the accompanying blog post. So, brand illustrator skill is running. And now it's going to gather the the information that it needs from me. Go. Let's go with the red. Then it's asking me about the dimensions and it recommends this one. And that works. Okay. So, it has everything that it needs. So it went ahead and it created a new folder in my project and that's this one. Okay. So now it's presenting to me three concepts. So again I didn't need to think through like what are some good concepts for this particular blog post. It's giving me these ideas and I can choose between them. Let's see a workflow notebook. The blueprint stack building blocks in sequence. I think the blueprint stack sounds kind of cool. Let's do that. So it says, \"Let me read the prompt reference to craft the best prompt.\" All right. So now it it took everything that we just discussed and it put that into a little markdown file. So now it's running that Python script which hits Google Gemini's API to to generate the image. I think we're using the the image gen API which I mean they just keep renaming these things. It's it's kind it's kind of crazy. All right. So we have V1. Let's take a look. And okay, so you know, as you can see, it it follows my guideline. You know, this looks like it's pretty similar or consistent, at least with the aesthetic of the type of image that could appear on my site like this, right? It again, like I didn't have to recreate all the nuanced detail for exactly how I want these lines to look. Now, in practice, I end up going back and and having it regenerate, you know, a couple different takes because I get a little bit more creative or I get very picky about how I want different objects and and things to look. So, I can just show you like some of the previous ones. Like this one I went through, you know, five different attempts to just get it just right, you know? Let's see. This one, this one actually has like two different images, one for the left side and then one for the right side. So you could see like like this one was like almost perfect, but I didn't like how the how the shade was covering up the chair. So let's see. I think like the next one, yeah, we sort of fixed the chair issue, but the the rug is a little out of whack. So, you know, just like little details that like that I would just go through and and reprompt. But that's essentially how I'm doing this. You know, then I'll bring it into Photoshop and make it transparent and and you know, I'm even inverting it so that I can get a like a light and a dark mode working on the site. So that's kind of cool, too. So what did I learn here? Well, the NAN workflow technically worked, but by breaking everything into discrete nodes and rigid logic, I stripped away the intelligence that makes AI actually useful. The model couldn't think. It could only execute my predefined steps. But when I moved to the cloud code skill, the model could actually reason about my brand guidelines. It could understand my intent and deliver what I need while still following my process. And now the consistency that I'm going for. Now what's interesting is we usually think of cloud code as a tool for building software. But what I built here is really a workflow. It's an interface for a business process that I'll use over and over. So cloud code itself became the application. And I took the same approach when I created Design OS. That's a free open-source system that turns Claude Code into a complete product design workflow. So after you hit subscribe here on the channel, head over there and I'll show you my complete workflow for how I use Cloud Code to power Design OS. Let's keep building.",
+  "fetchedAt": "2026-01-18T18:32:33.939Z"
+}

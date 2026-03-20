@@ -1,0 +1,559 @@
+{
+  "videoId": "1RpGVqgqLaE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 4.56,
+      "text": "The Cloud Code team have just fixed the"
+    },
+    {
+      "start": 2.159,
+      "duration": 4.881,
+      "text": "biggest issue with MCP by adding tool"
+    },
+    {
+      "start": 4.56,
+      "duration": 5.36,
+      "text": "search, a way to reduce context by up to"
+    },
+    {
+      "start": 7.04,
+      "duration": 5.04,
+      "text": "95% simply by searching for a tool name"
+    },
+    {
+      "start": 9.92,
+      "duration": 4.48,
+      "text": "before using it instead of preloading"
+    },
+    {
+      "start": 12.08,
+      "duration": 4.24,
+      "text": "all available tools into context, which"
+    },
+    {
+      "start": 14.4,
+      "duration": 3.92,
+      "text": "could be tens of thousands of tokens"
+    },
+    {
+      "start": 16.32,
+      "duration": 4.08,
+      "text": "used up even before writing your first"
+    },
+    {
+      "start": 18.32,
+      "duration": 4.48,
+      "text": "prompt. But why wasn't this the way it"
+    },
+    {
+      "start": 20.4,
+      "duration": 4.32,
+      "text": "worked before? And did they steal this"
+    },
+    {
+      "start": 22.8,
+      "duration": 4.319,
+      "text": "technique from Cloudflare? Hit subscribe"
+    },
+    {
+      "start": 24.72,
+      "duration": 5.04,
+      "text": "and let's get into it."
+    },
+    {
+      "start": 27.119,
+      "duration": 5.12,
+      "text": "MCP servers are absolutely everywhere."
+    },
+    {
+      "start": 29.76,
+      "duration": 4.24,
+      "text": "There's one for GitHub, Docker, Notion."
+    },
+    {
+      "start": 32.239,
+      "duration": 3.601,
+      "text": "There's even a better stack one which"
+    },
+    {
+      "start": 34,
+      "duration": 4.64,
+      "text": "I've heard is really good. And with"
+    },
+    {
+      "start": 35.84,
+      "duration": 4.8,
+      "text": "people using clawed code and LLMs for"
+    },
+    {
+      "start": 38.64,
+      "duration": 4.4,
+      "text": "everything other than code, it seems"
+    },
+    {
+      "start": 40.64,
+      "duration": 5.2,
+      "text": "like MCP isn't going anywhere anytime"
+    },
+    {
+      "start": 43.04,
+      "duration": 4.88,
+      "text": "soon. But it has its problems. Naming"
+    },
+    {
+      "start": 45.84,
+      "duration": 4.08,
+      "text": "collisions, command injections, and the"
+    },
+    {
+      "start": 47.92,
+      "duration": 3.76,
+      "text": "biggest of all, token inefficiency."
+    },
+    {
+      "start": 49.92,
+      "duration": 4,
+      "text": "Because all the tools from a connected"
+    },
+    {
+      "start": 51.68,
+      "duration": 4.399,
+      "text": "server typically gets preloaded into the"
+    },
+    {
+      "start": 53.92,
+      "duration": 4.479,
+      "text": "model's context window to give a model"
+    },
+    {
+      "start": 56.079,
+      "duration": 4.241,
+      "text": "complete visibility. So tool names, tool"
+    },
+    {
+      "start": 58.399,
+      "duration": 4.241,
+      "text": "descriptions, the full JSON schema"
+    },
+    {
+      "start": 60.32,
+      "duration": 4.72,
+      "text": "documentation that contains optional and"
+    },
+    {
+      "start": 62.64,
+      "duration": 4.96,
+      "text": "required parameters, their types, any"
+    },
+    {
+      "start": 65.04,
+      "duration": 5.84,
+      "text": "constraints, basically a lot of data."
+    },
+    {
+      "start": 67.6,
+      "duration": 5.28,
+      "text": "The Reddit team used 167 tools from four"
+    },
+    {
+      "start": 70.88,
+      "duration": 4.239,
+      "text": "different servers, which took up over"
+    },
+    {
+      "start": 72.88,
+      "duration": 5.04,
+      "text": "60,000 tokens even before writing a"
+    },
+    {
+      "start": 75.119,
+      "duration": 4.801,
+      "text": "prompt. Almost half of Opus' 200K"
+    },
+    {
+      "start": 77.92,
+      "duration": 4.239,
+      "text": "context window. And this is even outside"
+    },
+    {
+      "start": 79.92,
+      "duration": 4.16,
+      "text": "of skills and plugins. So if you have a"
+    },
+    {
+      "start": 82.159,
+      "duration": 4.481,
+      "text": "lot of servers that could take up a"
+    },
+    {
+      "start": 84.08,
+      "duration": 4.24,
+      "text": "substantial amount of tokens. Yes, I"
+    },
+    {
+      "start": 86.64,
+      "duration": 4.159,
+      "text": "know there are models out there like"
+    },
+    {
+      "start": 88.32,
+      "duration": 4.72,
+      "text": "Gemini that have a 1 million token"
+    },
+    {
+      "start": 90.799,
+      "duration": 3.841,
+      "text": "window. But models tend to perform worse"
+    },
+    {
+      "start": 93.04,
+      "duration": 3.759,
+      "text": "the more things you add to their"
+    },
+    {
+      "start": 94.64,
+      "duration": 4.32,
+      "text": "context. So what's the best way to fix"
+    },
+    {
+      "start": 96.799,
+      "duration": 4.561,
+      "text": "this? Well, I've seen two popular paths"
+    },
+    {
+      "start": 98.96,
+      "duration": 4.56,
+      "text": "online. The programmatic approach, which"
+    },
+    {
+      "start": 101.36,
+      "duration": 3.68,
+      "text": "is what Cloudflare have done, and the"
+    },
+    {
+      "start": 103.52,
+      "duration": 3.599,
+      "text": "search approach, which is what the"
+    },
+    {
+      "start": 105.04,
+      "duration": 3.84,
+      "text": "Claude Code team have done. I'll talk"
+    },
+    {
+      "start": 107.119,
+      "duration": 4,
+      "text": "about the programmatic approach a bit"
+    },
+    {
+      "start": 108.88,
+      "duration": 4.64,
+      "text": "later, but first let's talk about the"
+    },
+    {
+      "start": 111.119,
+      "duration": 5.201,
+      "text": "search process which works like this."
+    },
+    {
+      "start": 113.52,
+      "duration": 6.08,
+      "text": "First, Claude checks if preloaded MCP"
+    },
+    {
+      "start": 116.32,
+      "duration": 5.68,
+      "text": "tools are more than 10% of the context."
+    },
+    {
+      "start": 119.6,
+      "duration": 6.479,
+      "text": "So that's 20K tokens if the context"
+    },
+    {
+      "start": 122,
+      "duration": 6.879,
+      "text": "window is 200k tokens. If not, then no"
+    },
+    {
+      "start": 126.079,
+      "duration": 6.16,
+      "text": "change happens and the model uses the"
+    },
+    {
+      "start": 128.879,
+      "duration": 5.681,
+      "text": "MCP tools as normal. But if yes, then"
+    },
+    {
+      "start": 132.239,
+      "duration": 5.041,
+      "text": "Claude dynamically discovers the correct"
+    },
+    {
+      "start": 134.56,
+      "duration": 5.2,
+      "text": "tools to use using natural language and"
+    },
+    {
+      "start": 137.28,
+      "duration": 5.12,
+      "text": "loads in three to five of the most"
+    },
+    {
+      "start": 139.76,
+      "duration": 5.199,
+      "text": "relevant tools based on the prompt. It"
+    },
+    {
+      "start": 142.4,
+      "duration": 5.199,
+      "text": "will fully load just these tools into"
+    },
+    {
+      "start": 144.959,
+      "duration": 4.401,
+      "text": "context for the model to use as normal."
+    },
+    {
+      "start": 147.599,
+      "duration": 3.761,
+      "text": "This was actually their most requested"
+    },
+    {
+      "start": 149.36,
+      "duration": 4.48,
+      "text": "feature on GitHub. And it works similar"
+    },
+    {
+      "start": 151.36,
+      "duration": 4.959,
+      "text": "to agent skills, which only loads skill"
+    },
+    {
+      "start": 153.84,
+      "duration": 4.16,
+      "text": "names and descriptions into context. And"
+    },
+    {
+      "start": 156.319,
+      "duration": 3.28,
+      "text": "when it finds a skill it thinks is"
+    },
+    {
+      "start": 158,
+      "duration": 4,
+      "text": "relevant or a skill that was mentioned"
+    },
+    {
+      "start": 159.599,
+      "duration": 4.881,
+      "text": "in the prompt, then it goes ahead and"
+    },
+    {
+      "start": 162,
+      "duration": 4.239,
+      "text": "loads all of that specific skill into"
+    },
+    {
+      "start": 164.48,
+      "duration": 4.16,
+      "text": "the context window. Progressive"
+    },
+    {
+      "start": 166.239,
+      "duration": 4.64,
+      "text": "disclosure in a nutshell. Both anthropic"
+    },
+    {
+      "start": 168.64,
+      "duration": 4.4,
+      "text": "and cursor have seen great benefits when"
+    },
+    {
+      "start": 170.879,
+      "duration": 4.321,
+      "text": "it comes to using this approach for MCP"
+    },
+    {
+      "start": 173.04,
+      "duration": 3.919,
+      "text": "tools. But what about the programmatic"
+    },
+    {
+      "start": 175.2,
+      "duration": 4.399,
+      "text": "approach? This works by models"
+    },
+    {
+      "start": 176.959,
+      "duration": 5.041,
+      "text": "orchestrating tools through code instead"
+    },
+    {
+      "start": 179.599,
+      "duration": 4.56,
+      "text": "of making API calls. So for these three"
+    },
+    {
+      "start": 182,
+      "duration": 4.239,
+      "text": "tools that need to work one after the"
+    },
+    {
+      "start": 184.159,
+      "duration": 4.481,
+      "text": "other based on the previous response"
+    },
+    {
+      "start": 186.239,
+      "duration": 4.481,
+      "text": "instead of making individual API tool"
+    },
+    {
+      "start": 188.64,
+      "duration": 3.84,
+      "text": "calls, Claude in particular can write a"
+    },
+    {
+      "start": 190.72,
+      "duration": 4.159,
+      "text": "Python script to do all of this"
+    },
+    {
+      "start": 192.48,
+      "duration": 4.16,
+      "text": "orchestration, then execute the code and"
+    },
+    {
+      "start": 194.879,
+      "duration": 3.601,
+      "text": "present the result back to the model."
+    },
+    {
+      "start": 196.64,
+      "duration": 3.92,
+      "text": "Cloudflare have taken this one step"
+    },
+    {
+      "start": 198.48,
+      "duration": 4.16,
+      "text": "further by getting the model to write"
+    },
+    {
+      "start": 200.56,
+      "duration": 4.16,
+      "text": "TypeScript definitions for all the"
+    },
+    {
+      "start": 202.64,
+      "duration": 4.319,
+      "text": "available tools and then running the"
+    },
+    {
+      "start": 204.72,
+      "duration": 4.159,
+      "text": "code in a sandbox which is usually a"
+    },
+    {
+      "start": 206.959,
+      "duration": 4.241,
+      "text": "worker. The Claude code team actually"
+    },
+    {
+      "start": 208.879,
+      "duration": 4.72,
+      "text": "tried the programmatic approach but"
+    },
+    {
+      "start": 211.2,
+      "duration": 4,
+      "text": "found search to work better which I find"
+    },
+    {
+      "start": 213.599,
+      "duration": 4.56,
+      "text": "really hard to believe considering"
+    },
+    {
+      "start": 215.2,
+      "duration": 6.08,
+      "text": "Claude is very good at writing code and"
+    },
+    {
+      "start": 218.159,
+      "duration": 5.44,
+      "text": "also the agent browser CLI headless"
+    },
+    {
+      "start": 221.28,
+      "duration": 4.72,
+      "text": "chromium thing that Vel have released"
+    },
+    {
+      "start": 223.599,
+      "duration": 5.121,
+      "text": "works very well in claude code and I'm"
+    },
+    {
+      "start": 226,
+      "duration": 4.879,
+      "text": "sure if you could convert all MCP tools"
+    },
+    {
+      "start": 228.72,
+      "duration": 4.4,
+      "text": "into CLI commands using something like"
+    },
+    {
+      "start": 230.879,
+      "duration": 4.64,
+      "text": "MC Porter it would be much easier and"
+    },
+    {
+      "start": 233.12,
+      "duration": 5.039,
+      "text": "context efficient for models to run a"
+    },
+    {
+      "start": 235.519,
+      "duration": 5.121,
+      "text": "specific CLI command for a tool instead"
+    },
+    {
+      "start": 238.159,
+      "duration": 4.401,
+      "text": "of loading things into context. But hey,"
+    },
+    {
+      "start": 240.64,
+      "duration": 4.239,
+      "text": "that's just my opinion. Overall, I'm"
+    },
+    {
+      "start": 242.56,
+      "duration": 4.399,
+      "text": "glad the issues with MCP servers are"
+    },
+    {
+      "start": 244.879,
+      "duration": 4.08,
+      "text": "being looked into, and maybe it might"
+    },
+    {
+      "start": 246.959,
+      "duration": 4.64,
+      "text": "just convince me to have more than one"
+    },
+    {
+      "start": 248.959,
+      "duration": 2.64,
+      "text": "server installed."
+    }
+  ],
+  "fullText": "The Cloud Code team have just fixed the biggest issue with MCP by adding tool search, a way to reduce context by up to 95% simply by searching for a tool name before using it instead of preloading all available tools into context, which could be tens of thousands of tokens used up even before writing your first prompt. But why wasn't this the way it worked before? And did they steal this technique from Cloudflare? Hit subscribe and let's get into it. MCP servers are absolutely everywhere. There's one for GitHub, Docker, Notion. There's even a better stack one which I've heard is really good. And with people using clawed code and LLMs for everything other than code, it seems like MCP isn't going anywhere anytime soon. But it has its problems. Naming collisions, command injections, and the biggest of all, token inefficiency. Because all the tools from a connected server typically gets preloaded into the model's context window to give a model complete visibility. So tool names, tool descriptions, the full JSON schema documentation that contains optional and required parameters, their types, any constraints, basically a lot of data. The Reddit team used 167 tools from four different servers, which took up over 60,000 tokens even before writing a prompt. Almost half of Opus' 200K context window. And this is even outside of skills and plugins. So if you have a lot of servers that could take up a substantial amount of tokens. Yes, I know there are models out there like Gemini that have a 1 million token window. But models tend to perform worse the more things you add to their context. So what's the best way to fix this? Well, I've seen two popular paths online. The programmatic approach, which is what Cloudflare have done, and the search approach, which is what the Claude Code team have done. I'll talk about the programmatic approach a bit later, but first let's talk about the search process which works like this. First, Claude checks if preloaded MCP tools are more than 10% of the context. So that's 20K tokens if the context window is 200k tokens. If not, then no change happens and the model uses the MCP tools as normal. But if yes, then Claude dynamically discovers the correct tools to use using natural language and loads in three to five of the most relevant tools based on the prompt. It will fully load just these tools into context for the model to use as normal. This was actually their most requested feature on GitHub. And it works similar to agent skills, which only loads skill names and descriptions into context. And when it finds a skill it thinks is relevant or a skill that was mentioned in the prompt, then it goes ahead and loads all of that specific skill into the context window. Progressive disclosure in a nutshell. Both anthropic and cursor have seen great benefits when it comes to using this approach for MCP tools. But what about the programmatic approach? This works by models orchestrating tools through code instead of making API calls. So for these three tools that need to work one after the other based on the previous response instead of making individual API tool calls, Claude in particular can write a Python script to do all of this orchestration, then execute the code and present the result back to the model. Cloudflare have taken this one step further by getting the model to write TypeScript definitions for all the available tools and then running the code in a sandbox which is usually a worker. The Claude code team actually tried the programmatic approach but found search to work better which I find really hard to believe considering Claude is very good at writing code and also the agent browser CLI headless chromium thing that Vel have released works very well in claude code and I'm sure if you could convert all MCP tools into CLI commands using something like MC Porter it would be much easier and context efficient for models to run a specific CLI command for a tool instead of loading things into context. But hey, that's just my opinion. Overall, I'm glad the issues with MCP servers are being looked into, and maybe it might just convince me to have more than one server installed.",
+  "fetchedAt": "2026-01-18T18:31:49.157Z"
+}

@@ -1,0 +1,2644 @@
+{
+  "videoId": "H-uwnpmziGA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.719,
+      "text": "I just analyzed 50 meeting transcripts"
+    },
+    {
+      "start": 2.159,
+      "duration": 4.241,
+      "text": "in 30 minutes using cloud code. And"
+    },
+    {
+      "start": 4.799,
+      "duration": 4.081,
+      "text": "despite the name, you don't need to"
+    },
+    {
+      "start": 6.4,
+      "duration": 4.8,
+      "text": "write any code. Here's the problem."
+    },
+    {
+      "start": 8.88,
+      "duration": 4.56,
+      "text": "Every AI has a memory limit. So when you"
+    },
+    {
+      "start": 11.2,
+      "duration": 4.96,
+      "text": "try to process large amounts of data, it"
+    },
+    {
+      "start": 13.44,
+      "duration": 4.88,
+      "text": "loses track before it ever finishes. The"
+    },
+    {
+      "start": 16.16,
+      "duration": 5.119,
+      "text": "trick is giving Claude a way to take"
+    },
+    {
+      "start": 18.32,
+      "duration": 5.44,
+      "text": "notes as it works. Notes it can read"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.481,
+      "text": "back after its memory resets. I'll show"
+    },
+    {
+      "start": 23.76,
+      "duration": 4.32,
+      "text": "you exactly my setup and how to do this"
+    },
+    {
+      "start": 25.76,
+      "duration": 3.919,
+      "text": "yourself. So let's get into it. Okay, so"
+    },
+    {
+      "start": 28.08,
+      "duration": 3.999,
+      "text": "this is the problem that most of you"
+    },
+    {
+      "start": 29.679,
+      "duration": 4.56,
+      "text": "have probably faced either in chatbt and"
+    },
+    {
+      "start": 32.079,
+      "duration": 3.841,
+      "text": "claude and Gemini fill in the blank"
+    },
+    {
+      "start": 34.239,
+      "duration": 3.84,
+      "text": "where the constraint that you're limited"
+    },
+    {
+      "start": 35.92,
+      "duration": 4.24,
+      "text": "to is the size of the AI's memory. So"
+    },
+    {
+      "start": 38.079,
+      "duration": 4.401,
+      "text": "you can imagine in this animation we"
+    },
+    {
+      "start": 40.16,
+      "duration": 4.88,
+      "text": "have new data being dropped in and then"
+    },
+    {
+      "start": 42.48,
+      "duration": 4.239,
+      "text": "old data being pushed out. You can kind"
+    },
+    {
+      "start": 45.04,
+      "duration": 3.6,
+      "text": "of understand this as the AI's memory"
+    },
+    {
+      "start": 46.719,
+      "duration": 3.601,
+      "text": "and it's limited in space. So it may be"
+    },
+    {
+      "start": 48.64,
+      "duration": 3.12,
+      "text": "unintentional that the AI forgets what"
+    },
+    {
+      "start": 50.32,
+      "duration": 2.96,
+      "text": "you've asked or goes off the rails or"
+    },
+    {
+      "start": 51.76,
+      "duration": 2.72,
+      "text": "hallucinates, but that's just the"
+    },
+    {
+      "start": 53.28,
+      "duration": 2.959,
+      "text": "limitations that we're working with"
+    },
+    {
+      "start": 54.48,
+      "duration": 4.48,
+      "text": "right now. And you can really feel this"
+    },
+    {
+      "start": 56.239,
+      "duration": 4.401,
+      "text": "when you use Gemini, chatbt or claude."
+    },
+    {
+      "start": 58.96,
+      "duration": 3.36,
+      "text": "When you say try to drop in a lot of"
+    },
+    {
+      "start": 60.64,
+      "duration": 3.519,
+      "text": "files. So say you try to drop in 50"
+    },
+    {
+      "start": 62.32,
+      "duration": 3.6,
+      "text": "transcripts. When you do this, you'll"
+    },
+    {
+      "start": 64.159,
+      "duration": 3.761,
+      "text": "immediately realize that there's caps on"
+    },
+    {
+      "start": 65.92,
+      "duration": 4.239,
+      "text": "how many files any model can take in a"
+    },
+    {
+      "start": 67.92,
+      "duration": 3.84,
+      "text": "chat. Some are 10, some are 15. So you"
+    },
+    {
+      "start": 70.159,
+      "duration": 4.081,
+      "text": "have to reduce the amount of files you"
+    },
+    {
+      "start": 71.76,
+      "duration": 4.399,
+      "text": "share. But say you try to be smart with"
+    },
+    {
+      "start": 74.24,
+      "duration": 3.68,
+      "text": "this and you take all these files and"
+    },
+    {
+      "start": 76.159,
+      "duration": 2.96,
+      "text": "you concatenate them into one massive"
+    },
+    {
+      "start": 77.92,
+      "duration": 3.519,
+      "text": "file and you're like, \"Okay, I'll just"
+    },
+    {
+      "start": 79.119,
+      "duration": 4.32,
+      "text": "give you one big file.\" Sometimes the AI"
+    },
+    {
+      "start": 81.439,
+      "duration": 4.081,
+      "text": "will take it, such as chatbt. But when"
+    },
+    {
+      "start": 83.439,
+      "duration": 3.68,
+      "text": "it takes it, it's deceiving because it"
+    },
+    {
+      "start": 85.52,
+      "duration": 3.36,
+      "text": "says that, \"Oh, I processed it and I did"
+    },
+    {
+      "start": 87.119,
+      "duration": 3.36,
+      "text": "what you've said.\" But often times, it's"
+    },
+    {
+      "start": 88.88,
+      "duration": 3.36,
+      "text": "only looking at 25% of what you've"
+    },
+    {
+      "start": 90.479,
+      "duration": 2.881,
+      "text": "shared because its memory, again, is"
+    },
+    {
+      "start": 92.24,
+      "duration": 2.239,
+      "text": "limited. So, it can't look at"
+    },
+    {
+      "start": 93.36,
+      "duration": 2.719,
+      "text": "everything. So, this is a big"
+    },
+    {
+      "start": 94.479,
+      "duration": 2.96,
+      "text": "frustration for a lot of use cases that"
+    },
+    {
+      "start": 96.079,
+      "duration": 3.281,
+      "text": "people have. And the fix here is"
+    },
+    {
+      "start": 97.439,
+      "duration": 4.161,
+      "text": "surprisingly simple. All we have to do"
+    },
+    {
+      "start": 99.36,
+      "duration": 4.079,
+      "text": "is externalize the AI's memory through a"
+    },
+    {
+      "start": 101.6,
+      "duration": 3.519,
+      "text": "series of files that act like notes. The"
+    },
+    {
+      "start": 103.439,
+      "duration": 3.521,
+      "text": "only way that we can do this is by using"
+    },
+    {
+      "start": 105.119,
+      "duration": 3.521,
+      "text": "a tool that allows the AI to write and"
+    },
+    {
+      "start": 106.96,
+      "duration": 3.36,
+      "text": "read files on our computer. And there's"
+    },
+    {
+      "start": 108.64,
+      "duration": 3.519,
+      "text": "tons of them out there. Today I'm going"
+    },
+    {
+      "start": 110.32,
+      "duration": 4.079,
+      "text": "to talk about cloud code, but you can"
+    },
+    {
+      "start": 112.159,
+      "duration": 4.32,
+      "text": "use cloud code. You can use codeex from"
+    },
+    {
+      "start": 114.399,
+      "duration": 4.161,
+      "text": "openAI. You can use Gemini CLI or"
+    },
+    {
+      "start": 116.479,
+      "duration": 3.841,
+      "text": "anti-gravity from Google and a variety"
+    },
+    {
+      "start": 118.56,
+      "duration": 3.04,
+      "text": "of others. We just need something that"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.119,
+      "text": "can write and read files on our"
+    },
+    {
+      "start": 121.6,
+      "duration": 4,
+      "text": "computer. So what we're going to do here"
+    },
+    {
+      "start": 123.439,
+      "duration": 4,
+      "text": "with externalizing the memory is we're"
+    },
+    {
+      "start": 125.6,
+      "duration": 4.32,
+      "text": "going to have the AI write the notes"
+    },
+    {
+      "start": 127.439,
+      "duration": 4.001,
+      "text": "out. When its memory gets cleared, it'll"
+    },
+    {
+      "start": 129.92,
+      "duration": 2.959,
+      "text": "then go back and read those notes that"
+    },
+    {
+      "start": 131.44,
+      "duration": 3.68,
+      "text": "it previously wrote so it can extend"
+    },
+    {
+      "start": 132.879,
+      "duration": 4.321,
+      "text": "that working session and continue going"
+    },
+    {
+      "start": 135.12,
+      "duration": 4,
+      "text": "without the quality decreasing. Okay."
+    },
+    {
+      "start": 137.2,
+      "duration": 3.759,
+      "text": "So, my guess is if you're enjoying this,"
+    },
+    {
+      "start": 139.12,
+      "duration": 3.839,
+      "text": "you might appreciate two more things."
+    },
+    {
+      "start": 140.959,
+      "duration": 3.681,
+      "text": "First off, Blow is a free 30-day AI"
+    },
+    {
+      "start": 142.959,
+      "duration": 3.441,
+      "text": "insight series. Completely free. You'll"
+    },
+    {
+      "start": 144.64,
+      "duration": 3.599,
+      "text": "get 30 insights in your inbox so I can"
+    },
+    {
+      "start": 146.4,
+      "duration": 3.12,
+      "text": "apply AI to your business and your work."
+    },
+    {
+      "start": 148.239,
+      "duration": 3.121,
+      "text": "The second thing is if you'd like to"
+    },
+    {
+      "start": 149.52,
+      "duration": 3.04,
+      "text": "work with me, blow a series of offerings"
+    },
+    {
+      "start": 151.36,
+      "duration": 2.48,
+      "text": "to see if there's a good fit between the"
+    },
+    {
+      "start": 152.56,
+      "duration": 2.72,
+      "text": "two of us. Now, with that being said,"
+    },
+    {
+      "start": 153.84,
+      "duration": 2.72,
+      "text": "let's get back in the video. And the way"
+    },
+    {
+      "start": 155.28,
+      "duration": 3.76,
+      "text": "that we're going to do this is through"
+    },
+    {
+      "start": 156.56,
+      "duration": 4.64,
+      "text": "four primary components. So, with this"
+    },
+    {
+      "start": 159.04,
+      "duration": 3.199,
+      "text": "process, we have a piece of data that we"
+    },
+    {
+      "start": 161.2,
+      "duration": 2.96,
+      "text": "want to process. So, it's going to"
+    },
+    {
+      "start": 162.239,
+      "duration": 4.561,
+      "text": "either be maybe our entire inbox of all"
+    },
+    {
+      "start": 164.16,
+      "duration": 4.719,
+      "text": "of our emails or hundreds of transcripts"
+    },
+    {
+      "start": 166.8,
+      "duration": 3.2,
+      "text": "or a bunch of tickets or documents or"
+    },
+    {
+      "start": 168.879,
+      "duration": 3.281,
+      "text": "something else. You have files you want"
+    },
+    {
+      "start": 170,
+      "duration": 4.64,
+      "text": "the AI to process. Then, we want the AI"
+    },
+    {
+      "start": 172.16,
+      "duration": 4.64,
+      "text": "to create three files to extend its"
+    },
+    {
+      "start": 174.64,
+      "duration": 3.679,
+      "text": "memory. The first file is going to act"
+    },
+    {
+      "start": 176.8,
+      "duration": 2.96,
+      "text": "as a reminder of the goals that we"
+    },
+    {
+      "start": 178.319,
+      "duration": 2.801,
+      "text": "initially started out with in the"
+    },
+    {
+      "start": 179.76,
+      "duration": 3.28,
+      "text": "conversation. That's going to be the"
+    },
+    {
+      "start": 181.12,
+      "duration": 3.68,
+      "text": "context file. The next file is going to"
+    },
+    {
+      "start": 183.04,
+      "duration": 4.32,
+      "text": "act as our checklist. So, this is going"
+    },
+    {
+      "start": 184.8,
+      "duration": 4.079,
+      "text": "to be basically one through 50 steps."
+    },
+    {
+      "start": 187.36,
+      "duration": 3.519,
+      "text": "And it's going to check those steps off"
+    },
+    {
+      "start": 188.879,
+      "duration": 3.44,
+      "text": "as it does it. So when its memory gets"
+    },
+    {
+      "start": 190.879,
+      "duration": 2.72,
+      "text": "wiped and it has to start fresh again,"
+    },
+    {
+      "start": 192.319,
+      "duration": 3.84,
+      "text": "it can look at the checklist and say,"
+    },
+    {
+      "start": 193.599,
+      "duration": 4.801,
+      "text": "\"Okay, I can see I stopped at, you know,"
+    },
+    {
+      "start": 196.159,
+      "duration": 4.08,
+      "text": "11. I need to now move on to 12.\" And"
+    },
+    {
+      "start": 198.4,
+      "duration": 3.199,
+      "text": "then finally we have our insights file."
+    },
+    {
+      "start": 200.239,
+      "duration": 3.041,
+      "text": "So this is where all the insights are"
+    },
+    {
+      "start": 201.599,
+      "duration": 2.881,
+      "text": "going to be stored as the AI works"
+    },
+    {
+      "start": 203.28,
+      "duration": 2.4,
+      "text": "through all these files that it's"
+    },
+    {
+      "start": 204.48,
+      "duration": 3.119,
+      "text": "processing. And those are the four"
+    },
+    {
+      "start": 205.68,
+      "duration": 3.68,
+      "text": "components that we need. The next thing"
+    },
+    {
+      "start": 207.599,
+      "duration": 3.521,
+      "text": "here is the cycle. So this is a cycle"
+    },
+    {
+      "start": 209.36,
+      "duration": 3.519,
+      "text": "that runs in a loop. What's going to"
+    },
+    {
+      "start": 211.12,
+      "duration": 3.28,
+      "text": "happen is we start out with the AI"
+    },
+    {
+      "start": 212.879,
+      "duration": 3.28,
+      "text": "processing the files. So we ask it to"
+    },
+    {
+      "start": 214.4,
+      "duration": 2.88,
+      "text": "process the files. It's going to update"
+    },
+    {
+      "start": 216.159,
+      "duration": 2.481,
+      "text": "the notes that I've mentioned"
+    },
+    {
+      "start": 217.28,
+      "duration": 2.879,
+      "text": "previously, those three files that it's"
+    },
+    {
+      "start": 218.64,
+      "duration": 3.679,
+      "text": "going to update. Once its memory gets"
+    },
+    {
+      "start": 220.159,
+      "duration": 3.761,
+      "text": "wiped because again it's limited still,"
+    },
+    {
+      "start": 222.319,
+      "duration": 3.761,
+      "text": "it's going to reference those notes that"
+    },
+    {
+      "start": 223.92,
+      "duration": 4.319,
+      "text": "it wrote previously to resume working"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.68,
+      "text": "and do that indefinitely. Now before I"
+    },
+    {
+      "start": 228.239,
+      "duration": 2.881,
+      "text": "show you some examples of actually how"
+    },
+    {
+      "start": 229.76,
+      "duration": 2.72,
+      "text": "this works and the benefits of the use"
+    },
+    {
+      "start": 231.12,
+      "duration": 3.039,
+      "text": "cases, I'm going to show you how to set"
+    },
+    {
+      "start": 232.48,
+      "duration": 2.56,
+      "text": "this up. And the beautiful part is you"
+    },
+    {
+      "start": 234.159,
+      "duration": 2.72,
+      "text": "don't have to know anything about"
+    },
+    {
+      "start": 235.04,
+      "duration": 3.839,
+      "text": "terminals or code or anything else. So"
+    },
+    {
+      "start": 236.879,
+      "duration": 3.36,
+      "text": "what you want to first do is since we're"
+    },
+    {
+      "start": 238.879,
+      "duration": 2.801,
+      "text": "using cloud code, you're going to use"
+    },
+    {
+      "start": 240.239,
+      "duration": 3.041,
+      "text": "Claude. So you're going to download"
+    },
+    {
+      "start": 241.68,
+      "duration": 3.279,
+      "text": "Claude for desktop. So if you have"
+    },
+    {
+      "start": 243.28,
+      "duration": 3.679,
+      "text": "Claude on the web, when you log in, it"
+    },
+    {
+      "start": 244.959,
+      "duration": 3.441,
+      "text": "looks just like Catchb. You just want to"
+    },
+    {
+      "start": 246.959,
+      "duration": 2.64,
+      "text": "download this for your desktop. Once"
+    },
+    {
+      "start": 248.4,
+      "duration": 3.36,
+      "text": "you've downloaded the cloud for your"
+    },
+    {
+      "start": 249.599,
+      "duration": 5.84,
+      "text": "desktop, you're going to get something"
+    },
+    {
+      "start": 251.76,
+      "duration": 5.12,
+      "text": "that looks sort of like this. So here I"
+    },
+    {
+      "start": 255.439,
+      "duration": 3.04,
+      "text": "have the chat on the lefth hand side and"
+    },
+    {
+      "start": 256.88,
+      "duration": 3.52,
+      "text": "I have code on the right hand side. So"
+    },
+    {
+      "start": 258.479,
+      "duration": 3.761,
+      "text": "the chat is basically everything that"
+    },
+    {
+      "start": 260.4,
+      "duration": 4.079,
+      "text": "you've seen before. So this is basically"
+    },
+    {
+      "start": 262.24,
+      "duration": 4.48,
+      "text": "like a chat with chatbt. We're going to"
+    },
+    {
+      "start": 264.479,
+      "duration": 3.921,
+      "text": "select code because we want to use cloud"
+    },
+    {
+      "start": 266.72,
+      "duration": 3.28,
+      "text": "code on our machine so it can write and"
+    },
+    {
+      "start": 268.4,
+      "duration": 3.6,
+      "text": "read files so it can extend the memory."
+    },
+    {
+      "start": 270,
+      "duration": 3.199,
+      "text": "Once you've clicked into here, the first"
+    },
+    {
+      "start": 272,
+      "duration": 2.56,
+      "text": "thing you want to do is you want to"
+    },
+    {
+      "start": 273.199,
+      "duration": 2.321,
+      "text": "select the folder you want to work in."
+    },
+    {
+      "start": 274.56,
+      "duration": 2.16,
+      "text": "So, you're probably going to create a"
+    },
+    {
+      "start": 275.52,
+      "duration": 2.64,
+      "text": "folder in your desktop and you're going"
+    },
+    {
+      "start": 276.72,
+      "duration": 2.96,
+      "text": "to drop all your transcripts in there or"
+    },
+    {
+      "start": 278.16,
+      "duration": 3.28,
+      "text": "all your emails or whatever else in"
+    },
+    {
+      "start": 279.68,
+      "duration": 2.799,
+      "text": "there and you're going to name it. Once"
+    },
+    {
+      "start": 281.44,
+      "duration": 2.64,
+      "text": "you've named it, you're going to select"
+    },
+    {
+      "start": 282.479,
+      "duration": 3.041,
+      "text": "that folder from your browser, actually"
+    },
+    {
+      "start": 284.08,
+      "duration": 2.8,
+      "text": "from your uh desktop. So, I'm going to"
+    },
+    {
+      "start": 285.52,
+      "duration": 3.679,
+      "text": "do that here. And I'm going to select uh"
+    },
+    {
+      "start": 286.88,
+      "duration": 3.68,
+      "text": "let's do synthetic transcripts. And you"
+    },
+    {
+      "start": 289.199,
+      "duration": 3.041,
+      "text": "can either do it from the drop down,"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.72,
+      "text": "which is recent, or you can go to choose"
+    },
+    {
+      "start": 292.24,
+      "duration": 2.8,
+      "text": "from your folder, and it's going to go"
+    },
+    {
+      "start": 293.28,
+      "duration": 2.96,
+      "text": "to your finder or file explorer,"
+    },
+    {
+      "start": 295.04,
+      "duration": 2.32,
+      "text": "depending on the operating system you"
+    },
+    {
+      "start": 296.24,
+      "duration": 2.48,
+      "text": "have. And it's important we have this"
+    },
+    {
+      "start": 297.36,
+      "duration": 2.88,
+      "text": "set to local because again, we want to"
+    },
+    {
+      "start": 298.72,
+      "duration": 2.88,
+      "text": "do it on our computer. After you've set"
+    },
+    {
+      "start": 300.24,
+      "duration": 2.56,
+      "text": "that up, you then want to go down here"
+    },
+    {
+      "start": 301.6,
+      "duration": 2.64,
+      "text": "where it says ask. You're going to"
+    },
+    {
+      "start": 302.8,
+      "duration": 3.679,
+      "text": "select this. you're going to go to act"
+    },
+    {
+      "start": 304.24,
+      "duration": 4.16,
+      "text": "instead because we want the AI to act on"
+    },
+    {
+      "start": 306.479,
+      "duration": 3.44,
+      "text": "our behalf continuously. And then"
+    },
+    {
+      "start": 308.4,
+      "duration": 3.12,
+      "text": "finally, one other thing we want to make"
+    },
+    {
+      "start": 309.919,
+      "duration": 3.28,
+      "text": "sure is set up correctly is these three"
+    },
+    {
+      "start": 311.52,
+      "duration": 3.36,
+      "text": "dots here. When you select this, you"
+    },
+    {
+      "start": 313.199,
+      "duration": 3.121,
+      "text": "want to make sure you have Opus 4.5 set"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.2,
+      "text": "up because this is the highest quality"
+    },
+    {
+      "start": 316.32,
+      "duration": 3.92,
+      "text": "model currently available. And depending"
+    },
+    {
+      "start": 318.08,
+      "duration": 4.08,
+      "text": "on the plan that you have, so I have the"
+    },
+    {
+      "start": 320.24,
+      "duration": 3.84,
+      "text": "max plan, so I have a lot of extra"
+    },
+    {
+      "start": 322.16,
+      "duration": 3.36,
+      "text": "bandwidth I can use these models for. So"
+    },
+    {
+      "start": 324.08,
+      "duration": 2.8,
+      "text": "if you're limited on the amount of usage"
+    },
+    {
+      "start": 325.52,
+      "duration": 3.119,
+      "text": "you can get from the model, you can"
+    },
+    {
+      "start": 326.88,
+      "duration": 2.96,
+      "text": "knock it down to Sonnet. And if that's"
+    },
+    {
+      "start": 328.639,
+      "duration": 2.481,
+      "text": "if you use that too much, then you can"
+    },
+    {
+      "start": 329.84,
+      "duration": 2.799,
+      "text": "knock it down to Haiku. But I'd"
+    },
+    {
+      "start": 331.12,
+      "duration": 3.12,
+      "text": "recommend starting with opus and then"
+    },
+    {
+      "start": 332.639,
+      "duration": 2.721,
+      "text": "working your way down if needed. And"
+    },
+    {
+      "start": 334.24,
+      "duration": 2.72,
+      "text": "that's all you need to do. All we have"
+    },
+    {
+      "start": 335.36,
+      "duration": 3.2,
+      "text": "to do is give it the prompt and it'll do"
+    },
+    {
+      "start": 336.96,
+      "duration": 3.519,
+      "text": "the work for us. So let me actually show"
+    },
+    {
+      "start": 338.56,
+      "duration": 3.52,
+      "text": "you what the prompt looks like through a"
+    },
+    {
+      "start": 340.479,
+      "duration": 3.28,
+      "text": "few examples. So these are examples that"
+    },
+    {
+      "start": 342.08,
+      "duration": 3.44,
+      "text": "I've seen my clients and myself get a"
+    },
+    {
+      "start": 343.759,
+      "duration": 4.081,
+      "text": "lot of benefit from. And the beautiful"
+    },
+    {
+      "start": 345.52,
+      "duration": 3.92,
+      "text": "part about this process is the number of"
+    },
+    {
+      "start": 347.84,
+      "duration": 4,
+      "text": "examples and use cases is almost"
+    },
+    {
+      "start": 349.44,
+      "duration": 4,
+      "text": "infinite. It really just comes down to"
+    },
+    {
+      "start": 351.84,
+      "duration": 2.72,
+      "text": "the different problems and things you're"
+    },
+    {
+      "start": 353.44,
+      "duration": 2.72,
+      "text": "trying to solve and leverage you're"
+    },
+    {
+      "start": 354.56,
+      "duration": 3.12,
+      "text": "trying to create within your business or"
+    },
+    {
+      "start": 356.16,
+      "duration": 3.68,
+      "text": "within your job. So, the first example"
+    },
+    {
+      "start": 357.68,
+      "duration": 4.64,
+      "text": "I'm going to share with you here is"
+    },
+    {
+      "start": 359.84,
+      "duration": 4.639,
+      "text": "using customer language to create"
+    },
+    {
+      "start": 362.32,
+      "duration": 3.76,
+      "text": "marketing, ad copy, and content to"
+    },
+    {
+      "start": 364.479,
+      "duration": 3.041,
+      "text": "actually answer the questions, the pain"
+    },
+    {
+      "start": 366.08,
+      "duration": 3.04,
+      "text": "points, and the problems that they have"
+    },
+    {
+      "start": 367.52,
+      "duration": 3.6,
+      "text": "through their word usage. So, we're"
+    },
+    {
+      "start": 369.12,
+      "duration": 4.799,
+      "text": "going to drop in a bunch of transcripts"
+    },
+    {
+      "start": 371.12,
+      "duration": 4.72,
+      "text": "for our AI. So, imagine this is 50 or 60"
+    },
+    {
+      "start": 373.919,
+      "duration": 3.361,
+      "text": "transcripts from a bunch of prospect and"
+    },
+    {
+      "start": 375.84,
+      "duration": 3.68,
+      "text": "client calls. We're then going to ask"
+    },
+    {
+      "start": 377.28,
+      "duration": 4.08,
+      "text": "the AI to extract out different types of"
+    },
+    {
+      "start": 379.52,
+      "duration": 3.92,
+      "text": "phrases and descriptions associated to"
+    },
+    {
+      "start": 381.36,
+      "duration": 3.76,
+      "text": "frustration, stress, fear, confusion,"
+    },
+    {
+      "start": 383.44,
+      "duration": 3.039,
+      "text": "etc. And once we've extracted out all"
+    },
+    {
+      "start": 385.12,
+      "duration": 3.04,
+      "text": "those items, we're then going to have"
+    },
+    {
+      "start": 386.479,
+      "duration": 3.041,
+      "text": "the AI process it. And let me show you"
+    },
+    {
+      "start": 388.16,
+      "duration": 2.879,
+      "text": "what that prompt looks like. So this is"
+    },
+    {
+      "start": 389.52,
+      "duration": 2.72,
+      "text": "the exact prompt that I've used time and"
+    },
+    {
+      "start": 391.039,
+      "duration": 2.481,
+      "text": "time again. And it's very"
+    },
+    {
+      "start": 392.24,
+      "duration": 2.56,
+      "text": "straightforward and very simple to use."
+    },
+    {
+      "start": 393.52,
+      "duration": 2.64,
+      "text": "And you can actually copy and paste this"
+    },
+    {
+      "start": 394.8,
+      "duration": 2.64,
+      "text": "and use it yourself because I'll make"
+    },
+    {
+      "start": 396.16,
+      "duration": 2.72,
+      "text": "sure that below is linked the"
+    },
+    {
+      "start": 397.44,
+      "duration": 3.84,
+      "text": "presentation. You can copy this prompt"
+    },
+    {
+      "start": 398.88,
+      "duration": 4.72,
+      "text": "out. Now, usually I structure the prompt"
+    },
+    {
+      "start": 401.28,
+      "duration": 4.56,
+      "text": "the same way every time irrelevant of"
+    },
+    {
+      "start": 403.6,
+      "duration": 3.76,
+      "text": "the use case. So at the very top we have"
+    },
+    {
+      "start": 405.84,
+      "duration": 3.12,
+      "text": "we're setting the goal. So this is the"
+    },
+    {
+      "start": 407.36,
+      "duration": 3.92,
+      "text": "goal for the AI. And here we're asking"
+    },
+    {
+      "start": 408.96,
+      "duration": 4.239,
+      "text": "the AI that I want you to analyze all"
+    },
+    {
+      "start": 411.28,
+      "duration": 4.08,
+      "text": "the meeting transcripts in this folder."
+    },
+    {
+      "start": 413.199,
+      "duration": 4.161,
+      "text": "So this is important where I say this"
+    },
+    {
+      "start": 415.36,
+      "duration": 3.679,
+      "text": "because remember in cloud code I opened"
+    },
+    {
+      "start": 417.36,
+      "duration": 3.04,
+      "text": "up the folder that I care about which is"
+    },
+    {
+      "start": 419.039,
+      "duration": 3.121,
+      "text": "that synthetic script. You want to open"
+    },
+    {
+      "start": 420.4,
+      "duration": 3.04,
+      "text": "up the folder that you've named and say"
+    },
+    {
+      "start": 422.16,
+      "duration": 2.96,
+      "text": "that you're actually in the folder that"
+    },
+    {
+      "start": 423.44,
+      "duration": 3.12,
+      "text": "matters. And after that I say I want you"
+    },
+    {
+      "start": 425.12,
+      "duration": 2.88,
+      "text": "to basically pull out the problems,"
+    },
+    {
+      "start": 426.56,
+      "duration": 3.52,
+      "text": "questions, etc. associated to those"
+    },
+    {
+      "start": 428,
+      "duration": 3.759,
+      "text": "transcripts. And then I even give a a"
+    },
+    {
+      "start": 430.08,
+      "duration": 3.28,
+      "text": "harder constraint on what actually"
+    },
+    {
+      "start": 431.759,
+      "duration": 2.801,
+      "text": "matters for what I wanted to pull out"
+    },
+    {
+      "start": 433.36,
+      "duration": 3.92,
+      "text": "saying that if it doesn't cause"
+    },
+    {
+      "start": 434.56,
+      "duration": 4.079,
+      "text": "frustration, stress, fear, confusion,"
+    },
+    {
+      "start": 437.28,
+      "duration": 2.8,
+      "text": "then it actually doesn't count. So"
+    },
+    {
+      "start": 438.639,
+      "duration": 3.28,
+      "text": "ignore it. So that's us setting the"
+    },
+    {
+      "start": 440.08,
+      "duration": 3.119,
+      "text": "goal. After we set the goal, there's"
+    },
+    {
+      "start": 441.919,
+      "duration": 3.041,
+      "text": "three key things that matter that we"
+    },
+    {
+      "start": 443.199,
+      "duration": 3.12,
+      "text": "want to structure into our prompt. We"
+    },
+    {
+      "start": 444.96,
+      "duration": 3.92,
+      "text": "want to give it context of what to do"
+    },
+    {
+      "start": 446.319,
+      "duration": 3.6,
+      "text": "before you start, as you're working, and"
+    },
+    {
+      "start": 448.88,
+      "duration": 2.24,
+      "text": "then finally, some additional"
+    },
+    {
+      "start": 449.919,
+      "duration": 2.481,
+      "text": "constraints on what I want you to pull"
+    },
+    {
+      "start": 451.12,
+      "duration": 3.519,
+      "text": "from the transcripts or the data"
+    },
+    {
+      "start": 452.4,
+      "duration": 4,
+      "text": "irrelevant of transcripts, emails, etc."
+    },
+    {
+      "start": 454.639,
+      "duration": 3.361,
+      "text": "So, we'll start here with before you"
+    },
+    {
+      "start": 456.4,
+      "duration": 3.28,
+      "text": "start. So, before you start, there's"
+    },
+    {
+      "start": 458,
+      "duration": 2.8,
+      "text": "three files that I need you to create"
+    },
+    {
+      "start": 459.68,
+      "duration": 2.32,
+      "text": "cuz I'm not creating anything. I'm going"
+    },
+    {
+      "start": 460.8,
+      "duration": 3.119,
+      "text": "to have the AI do everything on my"
+    },
+    {
+      "start": 462,
+      "duration": 3.759,
+      "text": "behalf. So, I explicitly tell the AI to"
+    },
+    {
+      "start": 463.919,
+      "duration": 3.68,
+      "text": "create a context file. I then say I"
+    },
+    {
+      "start": 465.759,
+      "duration": 3.84,
+      "text": "wanted to create it in markdown. I do"
+    },
+    {
+      "start": 467.599,
+      "duration": 3.521,
+      "text": "that because it allows the AI to check"
+    },
+    {
+      "start": 469.599,
+      "duration": 4.72,
+      "text": "boxes when necessary and make additional"
+    },
+    {
+      "start": 471.12,
+      "duration": 5.04,
+      "text": "edits, but also it's it's uh less heavy"
+    },
+    {
+      "start": 474.319,
+      "duration": 3.28,
+      "text": "on the AI's memory just based off the"
+    },
+    {
+      "start": 476.16,
+      "duration": 2.8,
+      "text": "file format. Then I tell it what's"
+    },
+    {
+      "start": 477.599,
+      "duration": 2.961,
+      "text": "inside of the context file or what to"
+    },
+    {
+      "start": 478.96,
+      "duration": 3.6,
+      "text": "put in it, which is primary the goal for"
+    },
+    {
+      "start": 480.56,
+      "duration": 3.199,
+      "text": "what I want you to do. After that, then"
+    },
+    {
+      "start": 482.56,
+      "duration": 2.96,
+      "text": "I say, okay, I want you to create the"
+    },
+    {
+      "start": 483.759,
+      "duration": 3.12,
+      "text": "to-dos file, same it's a markdown, and"
+    },
+    {
+      "start": 485.52,
+      "duration": 3.28,
+      "text": "the to-dos file, you're going to treat"
+    },
+    {
+      "start": 486.879,
+      "duration": 4,
+      "text": "this as kind of like a checklist so you"
+    },
+    {
+      "start": 488.8,
+      "duration": 3.28,
+      "text": "can track your progress. And then below"
+    },
+    {
+      "start": 490.879,
+      "duration": 2.961,
+      "text": "that I say I want you to create an"
+    },
+    {
+      "start": 492.08,
+      "duration": 3.839,
+      "text": "insights file that you'll iteratively"
+    },
+    {
+      "start": 493.84,
+      "duration": 3.6,
+      "text": "update over time as you progress through"
+    },
+    {
+      "start": 495.919,
+      "duration": 3.521,
+      "text": "each one of the transcripts. So this is"
+    },
+    {
+      "start": 497.44,
+      "duration": 3.199,
+      "text": "important where I state iteratively. So"
+    },
+    {
+      "start": 499.44,
+      "duration": 2.319,
+      "text": "it's saying that I need you to do that"
+    },
+    {
+      "start": 500.639,
+      "duration": 2.641,
+      "text": "every single time that you finish a"
+    },
+    {
+      "start": 501.759,
+      "duration": 2.88,
+      "text": "transcript. The same thing applies for"
+    },
+    {
+      "start": 503.28,
+      "duration": 3.52,
+      "text": "other data sets as well. So that's"
+    },
+    {
+      "start": 504.639,
+      "duration": 4.161,
+      "text": "saying before you do anything. After"
+    },
+    {
+      "start": 506.8,
+      "duration": 4.239,
+      "text": "I've stated this, I then move on to what"
+    },
+    {
+      "start": 508.8,
+      "duration": 4.08,
+      "text": "I wanted to do as it works. So again,"
+    },
+    {
+      "start": 511.039,
+      "duration": 4.401,
+      "text": "I'm reaffirming them the importance of"
+    },
+    {
+      "start": 512.88,
+      "duration": 3.92,
+      "text": "it iteratively updating the ins insights"
+    },
+    {
+      "start": 515.44,
+      "duration": 3.2,
+      "text": "file. The same thing I've just said"
+    },
+    {
+      "start": 516.8,
+      "duration": 4.479,
+      "text": "here. After that, I say I want you to"
+    },
+    {
+      "start": 518.64,
+      "duration": 4.8,
+      "text": "check off each transcript and the to-dos"
+    },
+    {
+      "start": 521.279,
+      "duration": 4.401,
+      "text": "as you progress through each transcript."
+    },
+    {
+      "start": 523.44,
+      "duration": 3.92,
+      "text": "So again, I'm reaffirming the thing that"
+    },
+    {
+      "start": 525.68,
+      "duration": 3.599,
+      "text": "I stated here in point two. And in"
+    },
+    {
+      "start": 527.36,
+      "duration": 3.28,
+      "text": "addition to this, I also emphasize the"
+    },
+    {
+      "start": 529.279,
+      "duration": 3.841,
+      "text": "importance of making sure that the"
+    },
+    {
+      "start": 530.64,
+      "duration": 4.08,
+      "text": "to-dos are up to date before your memory"
+    },
+    {
+      "start": 533.12,
+      "duration": 3.279,
+      "text": "gets wiped because the memory will get"
+    },
+    {
+      "start": 534.72,
+      "duration": 3.2,
+      "text": "wiped as it works because remember it's"
+    },
+    {
+      "start": 536.399,
+      "duration": 3.521,
+      "text": "limited in space. So it's going to get"
+    },
+    {
+      "start": 537.92,
+      "duration": 4.479,
+      "text": "compacted which is basically wiping away"
+    },
+    {
+      "start": 539.92,
+      "duration": 3.84,
+      "text": "most of its past. And then after here on"
+    },
+    {
+      "start": 542.399,
+      "duration": 3.361,
+      "text": "the third point, after the memory gets"
+    },
+    {
+      "start": 543.76,
+      "duration": 3.68,
+      "text": "wiped, I want you to then go back and"
+    },
+    {
+      "start": 545.76,
+      "duration": 3.6,
+      "text": "read the context file as well as the"
+    },
+    {
+      "start": 547.44,
+      "duration": 3.839,
+      "text": "to-do file before you do anything else."
+    },
+    {
+      "start": 549.36,
+      "duration": 3.599,
+      "text": "And that's going to ground it and what"
+    },
+    {
+      "start": 551.279,
+      "duration": 3.68,
+      "text": "its goal is and where it's currently at"
+    },
+    {
+      "start": 552.959,
+      "duration": 3.44,
+      "text": "in the checklist. Then after this, we go"
+    },
+    {
+      "start": 554.959,
+      "duration": 2.641,
+      "text": "down through a few points around here"
+    },
+    {
+      "start": 556.399,
+      "duration": 2.321,
+      "text": "saying, you know, here's some specifics"
+    },
+    {
+      "start": 557.6,
+      "duration": 3.04,
+      "text": "around what I care about when it comes"
+    },
+    {
+      "start": 558.72,
+      "duration": 3.679,
+      "text": "to extracting information. And then"
+    },
+    {
+      "start": 560.64,
+      "duration": 3.44,
+      "text": "finally, a really important piece down"
+    },
+    {
+      "start": 562.399,
+      "duration": 3.041,
+      "text": "here is I say, I want you to work"
+    },
+    {
+      "start": 564.08,
+      "duration": 2.8,
+      "text": "through all the files until you're"
+    },
+    {
+      "start": 565.44,
+      "duration": 2.959,
+      "text": "complete. So basically, keep going."
+    },
+    {
+      "start": 566.88,
+      "duration": 3.92,
+      "text": "Don't stop until you're done. which"
+    },
+    {
+      "start": 568.399,
+      "duration": 4.321,
+      "text": "means that this AI can run for 30"
+    },
+    {
+      "start": 570.8,
+      "duration": 3.2,
+      "text": "minutes, 40 minutes. I've seen them run"
+    },
+    {
+      "start": 572.72,
+      "duration": 3.04,
+      "text": "up to an hour and a half to two hours"
+    },
+    {
+      "start": 574,
+      "duration": 3.279,
+      "text": "for myself. And that's our prompt. It's"
+    },
+    {
+      "start": 575.76,
+      "duration": 3.36,
+      "text": "very basic. And I can actually show you"
+    },
+    {
+      "start": 577.279,
+      "duration": 3.281,
+      "text": "what this looks like in action. So this"
+    },
+    {
+      "start": 579.12,
+      "duration": 3.12,
+      "text": "previous conversation here is one that I"
+    },
+    {
+      "start": 580.56,
+      "duration": 3.6,
+      "text": "ran and it ran for about 25 minutes. And"
+    },
+    {
+      "start": 582.24,
+      "duration": 4.159,
+      "text": "I ran it over, I think it was 15"
+    },
+    {
+      "start": 584.16,
+      "duration": 4.64,
+      "text": "transcripts or 10. And if I go to the"
+    },
+    {
+      "start": 586.399,
+      "duration": 4.241,
+      "text": "very top here, if I scroll to the top,"
+    },
+    {
+      "start": 588.8,
+      "duration": 3.44,
+      "text": "you can see this prompt here is the"
+    },
+    {
+      "start": 590.64,
+      "duration": 3.6,
+      "text": "exact prompt I just showed you. I just"
+    },
+    {
+      "start": 592.24,
+      "duration": 3.84,
+      "text": "copy and pasted this into here and"
+    },
+    {
+      "start": 594.24,
+      "duration": 3.279,
+      "text": "pushed enter. And what the AI did is it"
+    },
+    {
+      "start": 596.08,
+      "duration": 2.72,
+      "text": "worked through the entire process. So,"
+    },
+    {
+      "start": 597.519,
+      "duration": 2.721,
+      "text": "it looked through all the files. It"
+    },
+    {
+      "start": 598.8,
+      "duration": 3.2,
+      "text": "created the context file. It then"
+    },
+    {
+      "start": 600.24,
+      "duration": 3.12,
+      "text": "created the to-dos file. And it worked"
+    },
+    {
+      "start": 602,
+      "duration": 2.88,
+      "text": "through all the transcripts. And after"
+    },
+    {
+      "start": 603.36,
+      "duration": 2.64,
+      "text": "it created the insights file, and you"
+    },
+    {
+      "start": 604.88,
+      "duration": 2.72,
+      "text": "can see it's working through it. It"
+    },
+    {
+      "start": 606,
+      "duration": 3.76,
+      "text": "created its to-dos. And it's checking"
+    },
+    {
+      "start": 607.6,
+      "duration": 3.84,
+      "text": "them off one at a time. And as it keeps"
+    },
+    {
+      "start": 609.76,
+      "duration": 3.68,
+      "text": "going, if I scroll down here to the very"
+    },
+    {
+      "start": 611.44,
+      "duration": 3.44,
+      "text": "bottom, you'll see that it finished all"
+    },
+    {
+      "start": 613.44,
+      "duration": 3.28,
+      "text": "the to-dos right here. So, these are all"
+    },
+    {
+      "start": 614.88,
+      "duration": 3.28,
+      "text": "the transcripts it processed. And it"
+    },
+    {
+      "start": 616.72,
+      "duration": 2.72,
+      "text": "finished the insight insights file with"
+    },
+    {
+      "start": 618.16,
+      "duration": 2.799,
+      "text": "all the insights from those uh"
+    },
+    {
+      "start": 619.44,
+      "duration": 3.12,
+      "text": "conversations. And that's the overall"
+    },
+    {
+      "start": 620.959,
+      "duration": 3.12,
+      "text": "process. It's very straightforward."
+    },
+    {
+      "start": 622.56,
+      "duration": 3.04,
+      "text": "Another use case we could apply this to."
+    },
+    {
+      "start": 624.079,
+      "duration": 3.2,
+      "text": "So, that was just for customer language"
+    },
+    {
+      "start": 625.6,
+      "duration": 3.679,
+      "text": "and content. Now, we're going to focus"
+    },
+    {
+      "start": 627.279,
+      "duration": 4.721,
+      "text": "on FAQs. So, often times when you read"
+    },
+    {
+      "start": 629.279,
+      "duration": 4.321,
+      "text": "FAQs, they're usually based off of a"
+    },
+    {
+      "start": 632,
+      "duration": 3.839,
+      "text": "small subset of questions that customers"
+    },
+    {
+      "start": 633.6,
+      "duration": 4.56,
+      "text": "ask or based off of theory, but we can"
+    },
+    {
+      "start": 635.839,
+      "duration": 4.321,
+      "text": "create FAQs that are grounded in reality"
+    },
+    {
+      "start": 638.16,
+      "duration": 5.119,
+      "text": "based off of real client conversations."
+    },
+    {
+      "start": 640.16,
+      "duration": 5.28,
+      "text": "Or another way is creating a series of"
+    },
+    {
+      "start": 643.279,
+      "duration": 4.081,
+      "text": "objection handling FAQs for future"
+    },
+    {
+      "start": 645.44,
+      "duration": 4.16,
+      "text": "prospects. Because I'm sure as you know"
+    },
+    {
+      "start": 647.36,
+      "duration": 4,
+      "text": "and as I know often times when somebody"
+    },
+    {
+      "start": 649.6,
+      "duration": 3.04,
+      "text": "asks a question when they're explicit"
+    },
+    {
+      "start": 651.36,
+      "duration": 4,
+      "text": "about asking that question there's"
+    },
+    {
+      "start": 652.64,
+      "duration": 5.199,
+      "text": "probably 10 to 20 people that didn't"
+    },
+    {
+      "start": 655.36,
+      "duration": 4.159,
+      "text": "have the either time and or attention to"
+    },
+    {
+      "start": 657.839,
+      "duration": 3.12,
+      "text": "ask the question. So if we answer this"
+    },
+    {
+      "start": 659.519,
+      "duration": 3.601,
+      "text": "question effectively that came from a"
+    },
+    {
+      "start": 660.959,
+      "duration": 4.801,
+      "text": "real client or prospect and do that"
+    },
+    {
+      "start": 663.12,
+      "duration": 4.24,
+      "text": "either in an F FAQ page or landing page,"
+    },
+    {
+      "start": 665.76,
+      "duration": 2.8,
+      "text": "we're saving ourselves time from having"
+    },
+    {
+      "start": 667.36,
+      "duration": 3.28,
+      "text": "to answer the question for future"
+    },
+    {
+      "start": 668.56,
+      "duration": 3.839,
+      "text": "clients and or prospects. So the process"
+    },
+    {
+      "start": 670.64,
+      "duration": 3.52,
+      "text": "is very similar. Like I said, it's"
+    },
+    {
+      "start": 672.399,
+      "duration": 3.521,
+      "text": "identical just it maps across different"
+    },
+    {
+      "start": 674.16,
+      "duration": 3.359,
+      "text": "use cases. So again we have the"
+    },
+    {
+      "start": 675.92,
+      "duration": 4.159,
+      "text": "transcripts all the transcripts from the"
+    },
+    {
+      "start": 677.519,
+      "duration": 3.76,
+      "text": "meetings andor uh calls with prospects"
+    },
+    {
+      "start": 680.079,
+      "duration": 2.961,
+      "text": "and then in here we're going to be"
+    },
+    {
+      "start": 681.279,
+      "duration": 3.441,
+      "text": "explicit about what we want to extract."
+    },
+    {
+      "start": 683.04,
+      "duration": 3.6,
+      "text": "So here we want to extract the confusion"
+    },
+    {
+      "start": 684.72,
+      "duration": 3.84,
+      "text": "points the uncertainty points gaps in"
+    },
+    {
+      "start": 686.64,
+      "duration": 3.68,
+      "text": "understanding etc. We're going to take"
+    },
+    {
+      "start": 688.56,
+      "duration": 3.2,
+      "text": "out all the questions. We're then going"
+    },
+    {
+      "start": 690.32,
+      "duration": 3.519,
+      "text": "to categorize those questions based off"
+    },
+    {
+      "start": 691.76,
+      "duration": 4,
+      "text": "of topic context. We'll look at how the"
+    },
+    {
+      "start": 693.839,
+      "duration": 3.601,
+      "text": "questions were answered by our team on"
+    },
+    {
+      "start": 695.76,
+      "duration": 3.68,
+      "text": "the call and then we'll even draft up"
+    },
+    {
+      "start": 697.44,
+      "duration": 3.68,
+      "text": "any follow-up questions that either"
+    },
+    {
+      "start": 699.44,
+      "duration": 3.12,
+      "text": "happened in the meeting or likely would"
+    },
+    {
+      "start": 701.12,
+      "duration": 3.2,
+      "text": "occur based off of the quality of the"
+    },
+    {
+      "start": 702.56,
+      "duration": 3.6,
+      "text": "answer our employees made. And the"
+    },
+    {
+      "start": 704.32,
+      "duration": 2.72,
+      "text": "prompt again is the same. So I'm not"
+    },
+    {
+      "start": 706.16,
+      "duration": 2,
+      "text": "going to go through the entire thing"
+    },
+    {
+      "start": 707.04,
+      "duration": 2.799,
+      "text": "since I already walked you through in"
+    },
+    {
+      "start": 708.16,
+      "duration": 3.6,
+      "text": "detail the first one. But again, we have"
+    },
+    {
+      "start": 709.839,
+      "duration": 3.601,
+      "text": "the same structure at the very top. We"
+    },
+    {
+      "start": 711.76,
+      "duration": 3.12,
+      "text": "have the goal that we're setting. We're"
+    },
+    {
+      "start": 713.44,
+      "duration": 2.399,
+      "text": "stating that it's inside of this folder"
+    },
+    {
+      "start": 714.88,
+      "duration": 2.639,
+      "text": "because again, you want to open it"
+    },
+    {
+      "start": 715.839,
+      "duration": 3.281,
+      "text": "inside of that folder. We have the three"
+    },
+    {
+      "start": 717.519,
+      "duration": 4,
+      "text": "core components where it says before you"
+    },
+    {
+      "start": 719.12,
+      "duration": 4.56,
+      "text": "start, create these files. As you work,"
+    },
+    {
+      "start": 721.519,
+      "duration": 3.521,
+      "text": "update these files. And at the end, I"
+    },
+    {
+      "start": 723.68,
+      "duration": 2.88,
+      "text": "want you to really focus on these"
+    },
+    {
+      "start": 725.04,
+      "duration": 3.359,
+      "text": "certain parts of the transcript and"
+    },
+    {
+      "start": 726.56,
+      "duration": 3.279,
+      "text": "extract these out for our use cases. And"
+    },
+    {
+      "start": 728.399,
+      "duration": 3.201,
+      "text": "of course, at the very bottom, we have"
+    },
+    {
+      "start": 729.839,
+      "duration": 3.041,
+      "text": "the reminder here of saying, I want you"
+    },
+    {
+      "start": 731.6,
+      "duration": 2.799,
+      "text": "to run indefinitely until you're"
+    },
+    {
+      "start": 732.88,
+      "duration": 2.959,
+      "text": "finished. And as you can see here with"
+    },
+    {
+      "start": 734.399,
+      "duration": 3.201,
+      "text": "this prompt and the previous prompt,"
+    },
+    {
+      "start": 735.839,
+      "duration": 3.12,
+      "text": "there's a common structure across all of"
+    },
+    {
+      "start": 737.6,
+      "duration": 3.039,
+      "text": "them. And that's what I want to show"
+    },
+    {
+      "start": 738.959,
+      "duration": 3.041,
+      "text": "here where when you're setting this up,"
+    },
+    {
+      "start": 740.639,
+      "duration": 2.401,
+      "text": "the AI is going to set up and it's"
+    },
+    {
+      "start": 742,
+      "duration": 2.639,
+      "text": "always going to set up with those three"
+    },
+    {
+      "start": 743.04,
+      "duration": 2.799,
+      "text": "files. It's going to have the context."
+    },
+    {
+      "start": 744.639,
+      "duration": 2.721,
+      "text": "It's going to have the to-dos and it's"
+    },
+    {
+      "start": 745.839,
+      "duration": 3.521,
+      "text": "going to have the insights. Again, the"
+    },
+    {
+      "start": 747.36,
+      "duration": 3.76,
+      "text": "context provides the goal. The to-dos is"
+    },
+    {
+      "start": 749.36,
+      "duration": 3.84,
+      "text": "our checklist. And the insights is what"
+    },
+    {
+      "start": 751.12,
+      "duration": 3.279,
+      "text": "the AI is adding to. After this, the AI"
+    },
+    {
+      "start": 753.2,
+      "duration": 2.72,
+      "text": "is going to work basically in an"
+    },
+    {
+      "start": 754.399,
+      "duration": 3.041,
+      "text": "infinite loop until it's finished. It's"
+    },
+    {
+      "start": 755.92,
+      "duration": 2.96,
+      "text": "going to update the insights with its"
+    },
+    {
+      "start": 757.44,
+      "duration": 3.36,
+      "text": "progress iteratively. It's going to"
+    },
+    {
+      "start": 758.88,
+      "duration": 4.16,
+      "text": "check the to-dos again iteratively as it"
+    },
+    {
+      "start": 760.8,
+      "duration": 3.92,
+      "text": "works. Right before the memory gets"
+    },
+    {
+      "start": 763.04,
+      "duration": 3.76,
+      "text": "wiped, I want you to make sure the"
+    },
+    {
+      "start": 764.72,
+      "duration": 3.52,
+      "text": "to-dos are checked. And then after your"
+    },
+    {
+      "start": 766.8,
+      "duration": 3.36,
+      "text": "memory is wiped, the first thing you"
+    },
+    {
+      "start": 768.24,
+      "duration": 3.68,
+      "text": "need to do is check the context file and"
+    },
+    {
+      "start": 770.16,
+      "duration": 3.28,
+      "text": "the to-dos to understand your primary"
+    },
+    {
+      "start": 771.92,
+      "duration": 2.88,
+      "text": "goal as well as what progress you've"
+    },
+    {
+      "start": 773.44,
+      "duration": 3.6,
+      "text": "made so far. And then the only thing"
+    },
+    {
+      "start": 774.8,
+      "duration": 3.44,
+      "text": "that changes, and that's custom, is"
+    },
+    {
+      "start": 777.04,
+      "duration": 3.52,
+      "text": "going to be the goal that you've set for"
+    },
+    {
+      "start": 778.24,
+      "duration": 3.92,
+      "text": "the AI, what you wanted to extract and"
+    },
+    {
+      "start": 780.56,
+      "duration": 2.719,
+      "text": "where it's coming from, and then what"
+    },
+    {
+      "start": 782.16,
+      "duration": 2.64,
+      "text": "matters most when it's doing that"
+    },
+    {
+      "start": 783.279,
+      "duration": 3.521,
+      "text": "extraction. And that's the common"
+    },
+    {
+      "start": 784.8,
+      "duration": 3.68,
+      "text": "structure of how we can extend the AI's"
+    },
+    {
+      "start": 786.8,
+      "duration": 3.2,
+      "text": "memory indefinitely. And as I mentioned"
+    },
+    {
+      "start": 788.48,
+      "duration": 2.799,
+      "text": "previously, the number of use cases is"
+    },
+    {
+      "start": 790,
+      "duration": 2.56,
+      "text": "almost infinite. Here are just some"
+    },
+    {
+      "start": 791.279,
+      "duration": 2.56,
+      "text": "others that I've seen clients get a lot"
+    },
+    {
+      "start": 792.56,
+      "duration": 3.6,
+      "text": "of benefit from when it comes to using"
+    },
+    {
+      "start": 793.839,
+      "duration": 3.521,
+      "text": "this process is mitigating churn. So"
+    },
+    {
+      "start": 796.16,
+      "duration": 2.64,
+      "text": "maybe you have a lot of client calls"
+    },
+    {
+      "start": 797.36,
+      "duration": 2.88,
+      "text": "you're having and you can assess from"
+    },
+    {
+      "start": 798.8,
+      "duration": 2.88,
+      "text": "those client calls. What are the common"
+    },
+    {
+      "start": 800.24,
+      "duration": 3.039,
+      "text": "complaints you complaints you get from"
+    },
+    {
+      "start": 801.68,
+      "duration": 3.279,
+      "text": "clients before they actually start to"
+    },
+    {
+      "start": 803.279,
+      "duration": 3.281,
+      "text": "churn. Another one is actually getting"
+    },
+    {
+      "start": 804.959,
+      "duration": 3.44,
+      "text": "feature ideas for either your service"
+    },
+    {
+      "start": 806.56,
+      "duration": 3.92,
+      "text": "and or your product. You may have a lot"
+    },
+    {
+      "start": 808.399,
+      "duration": 3.68,
+      "text": "of clients and or prospects asking for a"
+    },
+    {
+      "start": 810.48,
+      "duration": 3.039,
+      "text": "specific product feature and or a"
+    },
+    {
+      "start": 812.079,
+      "duration": 2.88,
+      "text": "service that you could provide, but you"
+    },
+    {
+      "start": 813.519,
+      "duration": 2.801,
+      "text": "never get around to it. and you can"
+    },
+    {
+      "start": 814.959,
+      "duration": 2.961,
+      "text": "aggregate those and figure out what are"
+    },
+    {
+      "start": 816.32,
+      "duration": 3.36,
+      "text": "the top things people clients clients"
+    },
+    {
+      "start": 817.92,
+      "duration": 3.52,
+      "text": "are asking for and then you can add that"
+    },
+    {
+      "start": 819.68,
+      "duration": 3.36,
+      "text": "to your offerings. And another one that"
+    },
+    {
+      "start": 821.44,
+      "duration": 3.199,
+      "text": "I've got a lot of benefit from is I have"
+    },
+    {
+      "start": 823.04,
+      "duration": 2.88,
+      "text": "a bunch of emails in my inbox that"
+    },
+    {
+      "start": 824.639,
+      "duration": 3.44,
+      "text": "either I haven't read or I haven't got"
+    },
+    {
+      "start": 825.92,
+      "duration": 3.359,
+      "text": "back to responding to and those are a"
+    },
+    {
+      "start": 828.079,
+      "duration": 3.681,
+      "text": "lot of lost leads. There's a lot of"
+    },
+    {
+      "start": 829.279,
+      "duration": 3.761,
+      "text": "leads in there that if I just responded"
+    },
+    {
+      "start": 831.76,
+      "duration": 3.36,
+      "text": "that could turn them from a prospect"
+    },
+    {
+      "start": 833.04,
+      "duration": 4.4,
+      "text": "into a client. So, I can easily export"
+    },
+    {
+      "start": 835.12,
+      "duration": 4,
+      "text": "out all my emails, have the AI assess"
+    },
+    {
+      "start": 837.44,
+      "duration": 3.6,
+      "text": "all of the areas that could be potential"
+    },
+    {
+      "start": 839.12,
+      "duration": 3.839,
+      "text": "leads, and rank prioritize them based"
+    },
+    {
+      "start": 841.04,
+      "duration": 3.76,
+      "text": "off of what it thinks is most likely to"
+    },
+    {
+      "start": 842.959,
+      "duration": 3.601,
+      "text": "be easily converted from a prospect to a"
+    },
+    {
+      "start": 844.8,
+      "duration": 3.279,
+      "text": "client. So, you can use this not just"
+    },
+    {
+      "start": 846.56,
+      "duration": 3.519,
+      "text": "for transcripts, but you can use it for"
+    },
+    {
+      "start": 848.079,
+      "duration": 3.921,
+      "text": "emails, for tickets and Jira, for"
+    },
+    {
+      "start": 850.079,
+      "duration": 3.681,
+      "text": "documents, all types of things. So, as a"
+    },
+    {
+      "start": 852,
+      "duration": 3.12,
+      "text": "quick recap, as we've talked through,"
+    },
+    {
+      "start": 853.76,
+      "duration": 3.519,
+      "text": "there's three primary documents we want"
+    },
+    {
+      "start": 855.12,
+      "duration": 4,
+      "text": "the AI create to extend its memory to an"
+    },
+    {
+      "start": 857.279,
+      "duration": 3.841,
+      "text": "unlimited format. We need the context"
+    },
+    {
+      "start": 859.12,
+      "duration": 4,
+      "text": "document, the to-dos, and the insights."
+    },
+    {
+      "start": 861.12,
+      "duration": 3.92,
+      "text": "The context is the goal, the to-dos is"
+    },
+    {
+      "start": 863.12,
+      "duration": 3.68,
+      "text": "the checklist, and the insights is what"
+    },
+    {
+      "start": 865.04,
+      "duration": 3.359,
+      "text": "the AI is adding to. And as it works"
+    },
+    {
+      "start": 866.8,
+      "duration": 3.839,
+      "text": "through this whole process, it's going"
+    },
+    {
+      "start": 868.399,
+      "duration": 4.24,
+      "text": "to write the notes before its memory"
+    },
+    {
+      "start": 870.639,
+      "duration": 3.281,
+      "text": "gets wiped. After its memory has been"
+    },
+    {
+      "start": 872.639,
+      "duration": 2.88,
+      "text": "wiped, it's going to read read those"
+    },
+    {
+      "start": 873.92,
+      "duration": 4.24,
+      "text": "notes that it previously wrote to remind"
+    },
+    {
+      "start": 875.519,
+      "duration": 4.401,
+      "text": "itself where it is. And this is going to"
+    },
+    {
+      "start": 878.16,
+      "duration": 3.919,
+      "text": "consistently keep the quality at a high"
+    },
+    {
+      "start": 879.92,
+      "duration": 4,
+      "text": "rate and not degrade or hallucinate or"
+    },
+    {
+      "start": 882.079,
+      "duration": 3.681,
+      "text": "run off the rails. And that's it. So, if"
+    },
+    {
+      "start": 883.92,
+      "duration": 4,
+      "text": "you enjoyed this, as a reminder, two"
+    },
+    {
+      "start": 885.76,
+      "duration": 3.92,
+      "text": "things. First off, below is a 30-day AI"
+    },
+    {
+      "start": 887.92,
+      "duration": 3.359,
+      "text": "insight series, completely free. You'll"
+    },
+    {
+      "start": 889.68,
+      "duration": 3.12,
+      "text": "get 30 insights in your inbox how you"
+    },
+    {
+      "start": 891.279,
+      "duration": 3.201,
+      "text": "can apply AI to your business and your"
+    },
+    {
+      "start": 892.8,
+      "duration": 3.68,
+      "text": "work. The second thing is if you'd like"
+    },
+    {
+      "start": 894.48,
+      "duration": 3.039,
+      "text": "to work with me a series of offerings to"
+    },
+    {
+      "start": 896.48,
+      "duration": 3.44,
+      "text": "see if there's a good fit between the"
+    },
+    {
+      "start": 897.519,
+      "duration": 4.161,
+      "text": "two of us. Now, what we just did is"
+    },
+    {
+      "start": 899.92,
+      "duration": 4.24,
+      "text": "actually the first step towards building"
+    },
+    {
+      "start": 901.68,
+      "duration": 4.959,
+      "text": "with AI. Once you see how cloud can work"
+    },
+    {
+      "start": 904.16,
+      "duration": 4.4,
+      "text": "on its own, update files and pick up"
+    },
+    {
+      "start": 906.639,
+      "duration": 4.32,
+      "text": "where it left off. You start to wonder"
+    },
+    {
+      "start": 908.56,
+      "duration": 4.8,
+      "text": "what else can I build? I made a video"
+    },
+    {
+      "start": 910.959,
+      "duration": 4.961,
+      "text": "that shows you the exact system I use to"
+    },
+    {
+      "start": 913.36,
+      "duration": 4.96,
+      "text": "build apps and automations with AI. No"
+    },
+    {
+      "start": 915.92,
+      "duration": 4.88,
+      "text": "code needed, just three documents that"
+    },
+    {
+      "start": 918.32,
+      "duration": 3.84,
+      "text": "tell AI exactly what to build and how to"
+    },
+    {
+      "start": 920.8,
+      "duration": 3.839,
+      "text": "build it. You can check it out right"
+    },
+    {
+      "start": 922.16,
+      "duration": 5.6,
+      "text": "here. So go ahead, click that video and"
+    },
+    {
+      "start": 924.639,
+      "duration": 3.121,
+      "text": "I will see you next time,"
+    }
+  ],
+  "fullText": "I just analyzed 50 meeting transcripts in 30 minutes using cloud code. And despite the name, you don't need to write any code. Here's the problem. Every AI has a memory limit. So when you try to process large amounts of data, it loses track before it ever finishes. The trick is giving Claude a way to take notes as it works. Notes it can read back after its memory resets. I'll show you exactly my setup and how to do this yourself. So let's get into it. Okay, so this is the problem that most of you have probably faced either in chatbt and claude and Gemini fill in the blank where the constraint that you're limited to is the size of the AI's memory. So you can imagine in this animation we have new data being dropped in and then old data being pushed out. You can kind of understand this as the AI's memory and it's limited in space. So it may be unintentional that the AI forgets what you've asked or goes off the rails or hallucinates, but that's just the limitations that we're working with right now. And you can really feel this when you use Gemini, chatbt or claude. When you say try to drop in a lot of files. So say you try to drop in 50 transcripts. When you do this, you'll immediately realize that there's caps on how many files any model can take in a chat. Some are 10, some are 15. So you have to reduce the amount of files you share. But say you try to be smart with this and you take all these files and you concatenate them into one massive file and you're like, \"Okay, I'll just give you one big file.\" Sometimes the AI will take it, such as chatbt. But when it takes it, it's deceiving because it says that, \"Oh, I processed it and I did what you've said.\" But often times, it's only looking at 25% of what you've shared because its memory, again, is limited. So, it can't look at everything. So, this is a big frustration for a lot of use cases that people have. And the fix here is surprisingly simple. All we have to do is externalize the AI's memory through a series of files that act like notes. The only way that we can do this is by using a tool that allows the AI to write and read files on our computer. And there's tons of them out there. Today I'm going to talk about cloud code, but you can use cloud code. You can use codeex from openAI. You can use Gemini CLI or anti-gravity from Google and a variety of others. We just need something that can write and read files on our computer. So what we're going to do here with externalizing the memory is we're going to have the AI write the notes out. When its memory gets cleared, it'll then go back and read those notes that it previously wrote so it can extend that working session and continue going without the quality decreasing. Okay. So, my guess is if you're enjoying this, you might appreciate two more things. First off, Blow is a free 30-day AI insight series. Completely free. You'll get 30 insights in your inbox so I can apply AI to your business and your work. The second thing is if you'd like to work with me, blow a series of offerings to see if there's a good fit between the two of us. Now, with that being said, let's get back in the video. And the way that we're going to do this is through four primary components. So, with this process, we have a piece of data that we want to process. So, it's going to either be maybe our entire inbox of all of our emails or hundreds of transcripts or a bunch of tickets or documents or something else. You have files you want the AI to process. Then, we want the AI to create three files to extend its memory. The first file is going to act as a reminder of the goals that we initially started out with in the conversation. That's going to be the context file. The next file is going to act as our checklist. So, this is going to be basically one through 50 steps. And it's going to check those steps off as it does it. So when its memory gets wiped and it has to start fresh again, it can look at the checklist and say, \"Okay, I can see I stopped at, you know, 11. I need to now move on to 12.\" And then finally we have our insights file. So this is where all the insights are going to be stored as the AI works through all these files that it's processing. And those are the four components that we need. The next thing here is the cycle. So this is a cycle that runs in a loop. What's going to happen is we start out with the AI processing the files. So we ask it to process the files. It's going to update the notes that I've mentioned previously, those three files that it's going to update. Once its memory gets wiped because again it's limited still, it's going to reference those notes that it wrote previously to resume working and do that indefinitely. Now before I show you some examples of actually how this works and the benefits of the use cases, I'm going to show you how to set this up. And the beautiful part is you don't have to know anything about terminals or code or anything else. So what you want to first do is since we're using cloud code, you're going to use Claude. So you're going to download Claude for desktop. So if you have Claude on the web, when you log in, it looks just like Catchb. You just want to download this for your desktop. Once you've downloaded the cloud for your desktop, you're going to get something that looks sort of like this. So here I have the chat on the lefth hand side and I have code on the right hand side. So the chat is basically everything that you've seen before. So this is basically like a chat with chatbt. We're going to select code because we want to use cloud code on our machine so it can write and read files so it can extend the memory. Once you've clicked into here, the first thing you want to do is you want to select the folder you want to work in. So, you're probably going to create a folder in your desktop and you're going to drop all your transcripts in there or all your emails or whatever else in there and you're going to name it. Once you've named it, you're going to select that folder from your browser, actually from your uh desktop. So, I'm going to do that here. And I'm going to select uh let's do synthetic transcripts. And you can either do it from the drop down, which is recent, or you can go to choose from your folder, and it's going to go to your finder or file explorer, depending on the operating system you have. And it's important we have this set to local because again, we want to do it on our computer. After you've set that up, you then want to go down here where it says ask. You're going to select this. you're going to go to act instead because we want the AI to act on our behalf continuously. And then finally, one other thing we want to make sure is set up correctly is these three dots here. When you select this, you want to make sure you have Opus 4.5 set up because this is the highest quality model currently available. And depending on the plan that you have, so I have the max plan, so I have a lot of extra bandwidth I can use these models for. So if you're limited on the amount of usage you can get from the model, you can knock it down to Sonnet. And if that's if you use that too much, then you can knock it down to Haiku. But I'd recommend starting with opus and then working your way down if needed. And that's all you need to do. All we have to do is give it the prompt and it'll do the work for us. So let me actually show you what the prompt looks like through a few examples. So these are examples that I've seen my clients and myself get a lot of benefit from. And the beautiful part about this process is the number of examples and use cases is almost infinite. It really just comes down to the different problems and things you're trying to solve and leverage you're trying to create within your business or within your job. So, the first example I'm going to share with you here is using customer language to create marketing, ad copy, and content to actually answer the questions, the pain points, and the problems that they have through their word usage. So, we're going to drop in a bunch of transcripts for our AI. So, imagine this is 50 or 60 transcripts from a bunch of prospect and client calls. We're then going to ask the AI to extract out different types of phrases and descriptions associated to frustration, stress, fear, confusion, etc. And once we've extracted out all those items, we're then going to have the AI process it. And let me show you what that prompt looks like. So this is the exact prompt that I've used time and time again. And it's very straightforward and very simple to use. And you can actually copy and paste this and use it yourself because I'll make sure that below is linked the presentation. You can copy this prompt out. Now, usually I structure the prompt the same way every time irrelevant of the use case. So at the very top we have we're setting the goal. So this is the goal for the AI. And here we're asking the AI that I want you to analyze all the meeting transcripts in this folder. So this is important where I say this because remember in cloud code I opened up the folder that I care about which is that synthetic script. You want to open up the folder that you've named and say that you're actually in the folder that matters. And after that I say I want you to basically pull out the problems, questions, etc. associated to those transcripts. And then I even give a a harder constraint on what actually matters for what I wanted to pull out saying that if it doesn't cause frustration, stress, fear, confusion, then it actually doesn't count. So ignore it. So that's us setting the goal. After we set the goal, there's three key things that matter that we want to structure into our prompt. We want to give it context of what to do before you start, as you're working, and then finally, some additional constraints on what I want you to pull from the transcripts or the data irrelevant of transcripts, emails, etc. So, we'll start here with before you start. So, before you start, there's three files that I need you to create cuz I'm not creating anything. I'm going to have the AI do everything on my behalf. So, I explicitly tell the AI to create a context file. I then say I wanted to create it in markdown. I do that because it allows the AI to check boxes when necessary and make additional edits, but also it's it's uh less heavy on the AI's memory just based off the file format. Then I tell it what's inside of the context file or what to put in it, which is primary the goal for what I want you to do. After that, then I say, okay, I want you to create the to-dos file, same it's a markdown, and the to-dos file, you're going to treat this as kind of like a checklist so you can track your progress. And then below that I say I want you to create an insights file that you'll iteratively update over time as you progress through each one of the transcripts. So this is important where I state iteratively. So it's saying that I need you to do that every single time that you finish a transcript. The same thing applies for other data sets as well. So that's saying before you do anything. After I've stated this, I then move on to what I wanted to do as it works. So again, I'm reaffirming them the importance of it iteratively updating the ins insights file. The same thing I've just said here. After that, I say I want you to check off each transcript and the to-dos as you progress through each transcript. So again, I'm reaffirming the thing that I stated here in point two. And in addition to this, I also emphasize the importance of making sure that the to-dos are up to date before your memory gets wiped because the memory will get wiped as it works because remember it's limited in space. So it's going to get compacted which is basically wiping away most of its past. And then after here on the third point, after the memory gets wiped, I want you to then go back and read the context file as well as the to-do file before you do anything else. And that's going to ground it and what its goal is and where it's currently at in the checklist. Then after this, we go down through a few points around here saying, you know, here's some specifics around what I care about when it comes to extracting information. And then finally, a really important piece down here is I say, I want you to work through all the files until you're complete. So basically, keep going. Don't stop until you're done. which means that this AI can run for 30 minutes, 40 minutes. I've seen them run up to an hour and a half to two hours for myself. And that's our prompt. It's very basic. And I can actually show you what this looks like in action. So this previous conversation here is one that I ran and it ran for about 25 minutes. And I ran it over, I think it was 15 transcripts or 10. And if I go to the very top here, if I scroll to the top, you can see this prompt here is the exact prompt I just showed you. I just copy and pasted this into here and pushed enter. And what the AI did is it worked through the entire process. So, it looked through all the files. It created the context file. It then created the to-dos file. And it worked through all the transcripts. And after it created the insights file, and you can see it's working through it. It created its to-dos. And it's checking them off one at a time. And as it keeps going, if I scroll down here to the very bottom, you'll see that it finished all the to-dos right here. So, these are all the transcripts it processed. And it finished the insight insights file with all the insights from those uh conversations. And that's the overall process. It's very straightforward. Another use case we could apply this to. So, that was just for customer language and content. Now, we're going to focus on FAQs. So, often times when you read FAQs, they're usually based off of a small subset of questions that customers ask or based off of theory, but we can create FAQs that are grounded in reality based off of real client conversations. Or another way is creating a series of objection handling FAQs for future prospects. Because I'm sure as you know and as I know often times when somebody asks a question when they're explicit about asking that question there's probably 10 to 20 people that didn't have the either time and or attention to ask the question. So if we answer this question effectively that came from a real client or prospect and do that either in an F FAQ page or landing page, we're saving ourselves time from having to answer the question for future clients and or prospects. So the process is very similar. Like I said, it's identical just it maps across different use cases. So again we have the transcripts all the transcripts from the meetings andor uh calls with prospects and then in here we're going to be explicit about what we want to extract. So here we want to extract the confusion points the uncertainty points gaps in understanding etc. We're going to take out all the questions. We're then going to categorize those questions based off of topic context. We'll look at how the questions were answered by our team on the call and then we'll even draft up any follow-up questions that either happened in the meeting or likely would occur based off of the quality of the answer our employees made. And the prompt again is the same. So I'm not going to go through the entire thing since I already walked you through in detail the first one. But again, we have the same structure at the very top. We have the goal that we're setting. We're stating that it's inside of this folder because again, you want to open it inside of that folder. We have the three core components where it says before you start, create these files. As you work, update these files. And at the end, I want you to really focus on these certain parts of the transcript and extract these out for our use cases. And of course, at the very bottom, we have the reminder here of saying, I want you to run indefinitely until you're finished. And as you can see here with this prompt and the previous prompt, there's a common structure across all of them. And that's what I want to show here where when you're setting this up, the AI is going to set up and it's always going to set up with those three files. It's going to have the context. It's going to have the to-dos and it's going to have the insights. Again, the context provides the goal. The to-dos is our checklist. And the insights is what the AI is adding to. After this, the AI is going to work basically in an infinite loop until it's finished. It's going to update the insights with its progress iteratively. It's going to check the to-dos again iteratively as it works. Right before the memory gets wiped, I want you to make sure the to-dos are checked. And then after your memory is wiped, the first thing you need to do is check the context file and the to-dos to understand your primary goal as well as what progress you've made so far. And then the only thing that changes, and that's custom, is going to be the goal that you've set for the AI, what you wanted to extract and where it's coming from, and then what matters most when it's doing that extraction. And that's the common structure of how we can extend the AI's memory indefinitely. And as I mentioned previously, the number of use cases is almost infinite. Here are just some others that I've seen clients get a lot of benefit from when it comes to using this process is mitigating churn. So maybe you have a lot of client calls you're having and you can assess from those client calls. What are the common complaints you complaints you get from clients before they actually start to churn. Another one is actually getting feature ideas for either your service and or your product. You may have a lot of clients and or prospects asking for a specific product feature and or a service that you could provide, but you never get around to it. and you can aggregate those and figure out what are the top things people clients clients are asking for and then you can add that to your offerings. And another one that I've got a lot of benefit from is I have a bunch of emails in my inbox that either I haven't read or I haven't got back to responding to and those are a lot of lost leads. There's a lot of leads in there that if I just responded that could turn them from a prospect into a client. So, I can easily export out all my emails, have the AI assess all of the areas that could be potential leads, and rank prioritize them based off of what it thinks is most likely to be easily converted from a prospect to a client. So, you can use this not just for transcripts, but you can use it for emails, for tickets and Jira, for documents, all types of things. So, as a quick recap, as we've talked through, there's three primary documents we want the AI create to extend its memory to an unlimited format. We need the context document, the to-dos, and the insights. The context is the goal, the to-dos is the checklist, and the insights is what the AI is adding to. And as it works through this whole process, it's going to write the notes before its memory gets wiped. After its memory has been wiped, it's going to read read those notes that it previously wrote to remind itself where it is. And this is going to consistently keep the quality at a high rate and not degrade or hallucinate or run off the rails. And that's it. So, if you enjoyed this, as a reminder, two things. First off, below is a 30-day AI insight series, completely free. You'll get 30 insights in your inbox how you can apply AI to your business and your work. The second thing is if you'd like to work with me a series of offerings to see if there's a good fit between the two of us. Now, what we just did is actually the first step towards building with AI. Once you see how cloud can work on its own, update files and pick up where it left off. You start to wonder what else can I build? I made a video that shows you the exact system I use to build apps and automations with AI. No code needed, just three documents that tell AI exactly what to build and how to build it. You can check it out right here. So go ahead, click that video and I will see you next time,",
+  "fetchedAt": "2026-01-18T18:32:27.219Z"
+}

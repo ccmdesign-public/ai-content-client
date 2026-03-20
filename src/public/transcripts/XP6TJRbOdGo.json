@@ -1,0 +1,1509 @@
+{
+  "videoId": "XP6TJRbOdGo",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.52,
+      "text": "With how powerful generative AI has"
+    },
+    {
+      "start": 2,
+      "duration": 3.359,
+      "text": "become, new tools are constantly"
+    },
+    {
+      "start": 3.6,
+      "duration": 3.6,
+      "text": "emerging. And amongst all, Google has"
+    },
+    {
+      "start": 5.359,
+      "duration": 3.601,
+      "text": "really stepped up its game since Gemini"
+    },
+    {
+      "start": 7.2,
+      "duration": 3.76,
+      "text": "3 came out. Because of this, you've"
+    },
+    {
+      "start": 8.96,
+      "duration": 3.759,
+      "text": "probably seen people on X oneshotting"
+    },
+    {
+      "start": 10.96,
+      "duration": 3.599,
+      "text": "these amazing landing pages and saying"
+    },
+    {
+      "start": 12.719,
+      "duration": 3.441,
+      "text": "that the model is a gamecher. But"
+    },
+    {
+      "start": 14.559,
+      "duration": 3.601,
+      "text": "they're lying. The truth is they need to"
+    },
+    {
+      "start": 16.16,
+      "duration": 3.52,
+      "text": "use multiple tools to build these sites."
+    },
+    {
+      "start": 18.16,
+      "duration": 3.119,
+      "text": "And Google has been going crazy with"
+    },
+    {
+      "start": 19.68,
+      "duration": 4,
+      "text": "their experimental tools, which are"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.401,
+      "text": "powered by Gemini 3 and Nano Banana. But"
+    },
+    {
+      "start": 23.68,
+      "duration": 3.439,
+      "text": "Google doesn't offer a way to use all of"
+    },
+    {
+      "start": 25.68,
+      "duration": 3.28,
+      "text": "them together. So, you're going to need"
+    },
+    {
+      "start": 27.119,
+      "duration": 3.441,
+      "text": "a complete workflow that combines all"
+    },
+    {
+      "start": 28.96,
+      "duration": 3.52,
+      "text": "these tools. We've got a lot to talk"
+    },
+    {
+      "start": 30.56,
+      "duration": 3.76,
+      "text": "about today as I wasn't really expecting"
+    },
+    {
+      "start": 32.48,
+      "duration": 3.599,
+      "text": "them to work so well together. The"
+    },
+    {
+      "start": 34.32,
+      "duration": 3.52,
+      "text": "animations that you see on those sites"
+    },
+    {
+      "start": 36.079,
+      "duration": 3.921,
+      "text": "are just a series of frames. But if you"
+    },
+    {
+      "start": 37.84,
+      "duration": 4.08,
+      "text": "use AI tools to generate these frames,"
+    },
+    {
+      "start": 40,
+      "duration": 3.84,
+      "text": "you don't get consistent results. Google"
+    },
+    {
+      "start": 41.92,
+      "duration": 3.84,
+      "text": "solves this by releasing an experimental"
+    },
+    {
+      "start": 43.84,
+      "duration": 3.76,
+      "text": "tool called Whisk, which is particularly"
+    },
+    {
+      "start": 45.76,
+      "duration": 3.52,
+      "text": "designed for assets generation. It is"
+    },
+    {
+      "start": 47.6,
+      "duration": 3.68,
+      "text": "powered by Nano Banana for image"
+    },
+    {
+      "start": 49.28,
+      "duration": 4.16,
+      "text": "generation. I often use Whisk to"
+    },
+    {
+      "start": 51.28,
+      "duration": 4.08,
+      "text": "generate sequences of images for hero"
+    },
+    {
+      "start": 53.44,
+      "duration": 3.92,
+      "text": "sections. I provide prompts in simple"
+    },
+    {
+      "start": 55.36,
+      "duration": 3.76,
+      "text": "words, update the details step by step"
+    },
+    {
+      "start": 57.36,
+      "duration": 3.839,
+      "text": "for each sequence, and then use the"
+    },
+    {
+      "start": 59.12,
+      "duration": 4,
+      "text": "resulting images in the hero sections."
+    },
+    {
+      "start": 61.199,
+      "duration": 3.841,
+      "text": "Using this whole process, I created this"
+    },
+    {
+      "start": 63.12,
+      "duration": 3.76,
+      "text": "landing page and was able to implement"
+    },
+    {
+      "start": 65.04,
+      "duration": 3.119,
+      "text": "this cool animated effect with the"
+    },
+    {
+      "start": 66.88,
+      "duration": 3.2,
+      "text": "camera. To start, we're going to"
+    },
+    {
+      "start": 68.159,
+      "duration": 3.521,
+      "text": "generate just the first and last frames"
+    },
+    {
+      "start": 70.08,
+      "duration": 3.6,
+      "text": "of a sequence and then create an"
+    },
+    {
+      "start": 71.68,
+      "duration": 3.759,
+      "text": "animation using those two key frames for"
+    },
+    {
+      "start": 73.68,
+      "duration": 3.68,
+      "text": "the hero section. But if you just start"
+    },
+    {
+      "start": 75.439,
+      "duration": 3.921,
+      "text": "prompting it without any structure, then"
+    },
+    {
+      "start": 77.36,
+      "duration": 3.759,
+      "text": "the key frames you want won't have the"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.6,
+      "text": "same structure continuity. For this"
+    },
+    {
+      "start": 81.119,
+      "duration": 3.601,
+      "text": "purpose, you have to clearly define the"
+    },
+    {
+      "start": 82.96,
+      "duration": 3.519,
+      "text": "subject, the visual intent, and the"
+    },
+    {
+      "start": 84.72,
+      "duration": 3.92,
+      "text": "level of detail you want in the image."
+    },
+    {
+      "start": 86.479,
+      "duration": 4.241,
+      "text": "Whisk uses a subject, scene, and style"
+    },
+    {
+      "start": 88.64,
+      "duration": 3.839,
+      "text": "framework to guide image generation,"
+    },
+    {
+      "start": 90.72,
+      "duration": 3.759,
+      "text": "allowing you to combine them into a"
+    },
+    {
+      "start": 92.479,
+      "duration": 4.161,
+      "text": "single new visual. That's why I included"
+    },
+    {
+      "start": 94.479,
+      "duration": 4.081,
+      "text": "all the details on what kind of camera I"
+    },
+    {
+      "start": 96.64,
+      "duration": 3.839,
+      "text": "wanted, how I wanted the reflections on"
+    },
+    {
+      "start": 98.56,
+      "duration": 3.599,
+      "text": "the lens to look, the resolution, and"
+    },
+    {
+      "start": 100.479,
+      "duration": 3.6,
+      "text": "the depth of the image, and it created"
+    },
+    {
+      "start": 102.159,
+      "duration": 3.92,
+      "text": "the visual exactly as the prompt"
+    },
+    {
+      "start": 104.079,
+      "duration": 3.921,
+      "text": "outlined. The generated image will not"
+    },
+    {
+      "start": 106.079,
+      "duration": 3.761,
+      "text": "always meet your expectations, in which"
+    },
+    {
+      "start": 108,
+      "duration": 4,
+      "text": "case you just have to mention the change"
+    },
+    {
+      "start": 109.84,
+      "duration": 4,
+      "text": "in simple words and it incorporates the"
+    },
+    {
+      "start": 112,
+      "duration": 3.6,
+      "text": "changes into a new visual. What I like"
+    },
+    {
+      "start": 113.84,
+      "duration": 3.76,
+      "text": "most about Whisk is that you don't have"
+    },
+    {
+      "start": 115.6,
+      "duration": 3.92,
+      "text": "to write long detailed prompts to get"
+    },
+    {
+      "start": 117.6,
+      "duration": 4.32,
+      "text": "great results. This is because it uses"
+    },
+    {
+      "start": 119.52,
+      "duration": 4.16,
+      "text": "Gemini 3 as a middle layer which writes"
+    },
+    {
+      "start": 121.92,
+      "duration": 3.92,
+      "text": "the detailed prompt on top of your"
+    },
+    {
+      "start": 123.68,
+      "duration": 4,
+      "text": "simple words leading to solid visuals."
+    },
+    {
+      "start": 125.84,
+      "duration": 4,
+      "text": "Now, it raises the question of why I"
+    },
+    {
+      "start": 127.68,
+      "duration": 4.24,
+      "text": "chose Whisk. While Nano Banana requires"
+    },
+    {
+      "start": 129.84,
+      "duration": 3.759,
+      "text": "extensive text prompts, and Google's Mix"
+    },
+    {
+      "start": 131.92,
+      "duration": 3.36,
+      "text": "Board is designed for mood boards,"
+    },
+    {
+      "start": 133.599,
+      "duration": 3.681,
+      "text": "neither is optimized for fast,"
+    },
+    {
+      "start": 135.28,
+      "duration": 3.76,
+      "text": "controlled image remixing. Whisk's core"
+    },
+    {
+      "start": 137.28,
+      "duration": 3.679,
+      "text": "strength lies in combining reference"
+    },
+    {
+      "start": 139.04,
+      "duration": 3.919,
+      "text": "images, allowing you to generate images"
+    },
+    {
+      "start": 140.959,
+      "duration": 4,
+      "text": "with better control. Once I had my first"
+    },
+    {
+      "start": 142.959,
+      "duration": 3.92,
+      "text": "frame, I wanted my last frame to be a"
+    },
+    {
+      "start": 144.959,
+      "duration": 3.841,
+      "text": "side angle of the camera with the lens"
+    },
+    {
+      "start": 146.879,
+      "duration": 3.761,
+      "text": "taken apart to show the components. So,"
+    },
+    {
+      "start": 148.8,
+      "duration": 3.92,
+      "text": "I prompted it to generate a technical"
+    },
+    {
+      "start": 150.64,
+      "duration": 3.679,
+      "text": "cutaway, specifying how it should layer"
+    },
+    {
+      "start": 152.72,
+      "duration": 3.12,
+      "text": "the internal lenses and how the"
+    },
+    {
+      "start": 154.319,
+      "duration": 3.361,
+      "text": "background should appear. It didn't get"
+    },
+    {
+      "start": 155.84,
+      "duration": 3.6,
+      "text": "it right on the first try. It broke down"
+    },
+    {
+      "start": 157.68,
+      "duration": 3.12,
+      "text": "the internal circuitry too which I"
+    },
+    {
+      "start": 159.44,
+      "duration": 2.879,
+      "text": "didn't want it to show. As I said"
+    },
+    {
+      "start": 160.8,
+      "duration": 3.36,
+      "text": "earlier, you just mentioned the change"
+    },
+    {
+      "start": 162.319,
+      "duration": 3.841,
+      "text": "you need to make. So I instructed it to"
+    },
+    {
+      "start": 164.16,
+      "duration": 3.84,
+      "text": "only show the lens layering after which"
+    },
+    {
+      "start": 166.16,
+      "duration": 3.92,
+      "text": "it successfully generated the image"
+    },
+    {
+      "start": 168,
+      "duration": 4.239,
+      "text": "without showing the internal circuitry."
+    },
+    {
+      "start": 170.08,
+      "duration": 4.159,
+      "text": "Now whisk also supports animations using"
+    },
+    {
+      "start": 172.239,
+      "duration": 4.161,
+      "text": "the VO model. But Whisk's animations"
+    },
+    {
+      "start": 174.239,
+      "duration": 3.761,
+      "text": "focus on animating one image rather than"
+    },
+    {
+      "start": 176.4,
+      "duration": 3.119,
+      "text": "being able to connect multiple key"
+    },
+    {
+      "start": 178,
+      "duration": 3.36,
+      "text": "frames together. That's why I used"
+    },
+    {
+      "start": 179.519,
+      "duration": 3.841,
+      "text": "another tool called Google Flow. Flow"
+    },
+    {
+      "start": 181.36,
+      "duration": 4,
+      "text": "uses Gemini for planning the story,"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.68,
+      "text": "Google's image models to design steady"
+    },
+    {
+      "start": 185.36,
+      "duration": 3.36,
+      "text": "characters, and VO to create video"
+    },
+    {
+      "start": 187.04,
+      "duration": 3.199,
+      "text": "content. I had already created my"
+    },
+    {
+      "start": 188.72,
+      "duration": 3.28,
+      "text": "starting and ending frames for the"
+    },
+    {
+      "start": 190.239,
+      "duration": 3.441,
+      "text": "camera animation, and now I wanted to"
+    },
+    {
+      "start": 192,
+      "duration": 3.599,
+      "text": "create a transition in them. So, I used"
+    },
+    {
+      "start": 193.68,
+      "duration": 4.08,
+      "text": "the frame to video option and provided"
+    },
+    {
+      "start": 195.599,
+      "duration": 3.841,
+      "text": "my frames. In order to ensure a smooth"
+    },
+    {
+      "start": 197.76,
+      "duration": 3.52,
+      "text": "transition, you need to mention in the"
+    },
+    {
+      "start": 199.44,
+      "duration": 3.68,
+      "text": "prompt how the starting frame leads to"
+    },
+    {
+      "start": 201.28,
+      "duration": 3.599,
+      "text": "the ending because it provides the model"
+    },
+    {
+      "start": 203.12,
+      "duration": 3.36,
+      "text": "with a logical path. Your prompt should"
+    },
+    {
+      "start": 204.879,
+      "duration": 3.201,
+      "text": "include how you want the animation to"
+    },
+    {
+      "start": 206.48,
+      "duration": 3.36,
+      "text": "flow, how the starting frame should"
+    },
+    {
+      "start": 208.08,
+      "duration": 3.84,
+      "text": "transit into the ending frame, and the"
+    },
+    {
+      "start": 209.84,
+      "duration": 3.759,
+      "text": "animation style, as these details ensure"
+    },
+    {
+      "start": 211.92,
+      "duration": 3.76,
+      "text": "the motion is intentional. Sometimes"
+    },
+    {
+      "start": 213.599,
+      "duration": 3.92,
+      "text": "these models tend to make mistakes with"
+    },
+    {
+      "start": 215.68,
+      "duration": 3.52,
+      "text": "complex tasks, so it didn't get my"
+    },
+    {
+      "start": 217.519,
+      "duration": 3.521,
+      "text": "animation right the first time. The"
+    },
+    {
+      "start": 219.2,
+      "duration": 3.36,
+      "text": "generated video got both the spin"
+    },
+    {
+      "start": 221.04,
+      "duration": 3.279,
+      "text": "direction and the ending frame"
+    },
+    {
+      "start": 222.56,
+      "duration": 3.84,
+      "text": "completely wrong, making the transition"
+    },
+    {
+      "start": 224.319,
+      "duration": 3.84,
+      "text": "awkward. The fix was simply reprompting"
+    },
+    {
+      "start": 226.4,
+      "duration": 3.52,
+      "text": "with some the necessary changes to"
+    },
+    {
+      "start": 228.159,
+      "duration": 3.44,
+      "text": "ensure the animation was correct. Just"
+    },
+    {
+      "start": 229.92,
+      "duration": 3.36,
+      "text": "like how I prompted it to change the"
+    },
+    {
+      "start": 231.599,
+      "duration": 3.601,
+      "text": "direction of the spinning of the camera"
+    },
+    {
+      "start": 233.28,
+      "duration": 3.599,
+      "text": "for smoother transition after which it"
+    },
+    {
+      "start": 235.2,
+      "duration": 3.599,
+      "text": "produced a version I wanted which I"
+    },
+    {
+      "start": 236.879,
+      "duration": 4,
+      "text": "downloaded for use in my project. Now"
+    },
+    {
+      "start": 238.799,
+      "duration": 4.241,
+      "text": "the video generation is not available on"
+    },
+    {
+      "start": 240.879,
+      "duration": 4.241,
+      "text": "the free tier unlimitedly because video"
+    },
+    {
+      "start": 243.04,
+      "duration": 4.8,
+      "text": "generation models are costly. It only"
+    },
+    {
+      "start": 245.12,
+      "duration": 4.24,
+      "text": "provides 180 monthly credits depending"
+    },
+    {
+      "start": 247.84,
+      "duration": 4.88,
+      "text": "on the region. Since each video"
+    },
+    {
+      "start": 249.36,
+      "duration": 5.2,
+      "text": "generation with VO3.1 uses 20 credits,"
+    },
+    {
+      "start": 252.72,
+      "duration": 3.759,
+      "text": "you get up to nine videos per month."
+    },
+    {
+      "start": 254.56,
+      "duration": 4.56,
+      "text": "Since the videos generated by Flow are"
+    },
+    {
+      "start": 256.479,
+      "duration": 4.561,
+      "text": "in MP4 format and can't be used directly"
+    },
+    {
+      "start": 259.12,
+      "duration": 4.16,
+      "text": "in hero sections because they are harder"
+    },
+    {
+      "start": 261.04,
+      "duration": 4.08,
+      "text": "to map through scroll animations in. For"
+    },
+    {
+      "start": 263.28,
+      "duration": 3.68,
+      "text": "this reason, I converted them to WEBP"
+    },
+    {
+      "start": 265.12,
+      "duration": 3.76,
+      "text": "using a free online converter. I"
+    },
+    {
+      "start": 266.96,
+      "duration": 3.679,
+      "text": "uploaded the MP4 video, set the"
+    },
+    {
+      "start": 268.88,
+      "duration": 3.92,
+      "text": "conversion settings to produce the best"
+    },
+    {
+      "start": 270.639,
+      "duration": 4.321,
+      "text": "quality animated WEBP and it converted"
+    },
+    {
+      "start": 272.8,
+      "duration": 4.08,
+      "text": "to a WEBP format which I downloaded for"
+    },
+    {
+      "start": 274.96,
+      "duration": 3.84,
+      "text": "use in my project. Choosing WEBP is"
+    },
+    {
+      "start": 276.88,
+      "duration": 4.16,
+      "text": "important because with this it is easier"
+    },
+    {
+      "start": 278.8,
+      "duration": 4.56,
+      "text": "to map scroll interactions since on the"
+    },
+    {
+      "start": 281.04,
+      "duration": 4.08,
+      "text": "web this format is treated as an image"
+    },
+    {
+      "start": 283.36,
+      "duration": 3.68,
+      "text": "which doesn't require a media player"
+    },
+    {
+      "start": 285.12,
+      "duration": 3.84,
+      "text": "wrapper like other formats do. These"
+    },
+    {
+      "start": 287.04,
+      "duration": 3.84,
+      "text": "files are more compact and deliver"
+    },
+    {
+      "start": 288.96,
+      "duration": 4,
+      "text": "improved performance making them ideal"
+    },
+    {
+      "start": 290.88,
+      "duration": 4.08,
+      "text": "for short form animated content. I added"
+    },
+    {
+      "start": 292.96,
+      "duration": 4.48,
+      "text": "the converted WEBP file to the public"
+    },
+    {
+      "start": 294.96,
+      "duration": 4.08,
+      "text": "directory of my newly initialized Nex.js"
+    },
+    {
+      "start": 297.44,
+      "duration": 3.68,
+      "text": "project because this is where all the"
+    },
+    {
+      "start": 299.04,
+      "duration": 4,
+      "text": "assets reside in the project. Now once"
+    },
+    {
+      "start": 301.12,
+      "duration": 3.68,
+      "text": "we had our animation ready, I wanted it"
+    },
+    {
+      "start": 303.04,
+      "duration": 3.68,
+      "text": "to add it to the hero section in my"
+    },
+    {
+      "start": 304.8,
+      "duration": 4.08,
+      "text": "landing page. I generally prompt Claude"
+    },
+    {
+      "start": 306.72,
+      "duration": 4.4,
+      "text": "in XML format because their models are"
+    },
+    {
+      "start": 308.88,
+      "duration": 4.08,
+      "text": "optimized for understanding XML, letting"
+    },
+    {
+      "start": 311.12,
+      "duration": 3.84,
+      "text": "them parse structured intent more"
+    },
+    {
+      "start": 312.96,
+      "duration": 3.92,
+      "text": "reliably and reason over each section"
+    },
+    {
+      "start": 314.96,
+      "duration": 3.6,
+      "text": "independently. The prompt I gave Claude"
+    },
+    {
+      "start": 316.88,
+      "duration": 3.599,
+      "text": "for adding the animation included"
+    },
+    {
+      "start": 318.56,
+      "duration": 3.44,
+      "text": "context on what I wanted to build, where"
+    },
+    {
+      "start": 320.479,
+      "duration": 2.961,
+      "text": "the assets for the animation are"
+    },
+    {
+      "start": 322,
+      "duration": 3.28,
+      "text": "located, and how the scroll through"
+    },
+    {
+      "start": 323.44,
+      "duration": 3.84,
+      "text": "animation should work and our goal in"
+    },
+    {
+      "start": 325.28,
+      "duration": 3.919,
+      "text": "the context tag. I included all the"
+    },
+    {
+      "start": 327.28,
+      "duration": 3.52,
+      "text": "requirements in the requirement tags,"
+    },
+    {
+      "start": 329.199,
+      "duration": 3.84,
+      "text": "described how the animation should"
+    },
+    {
+      "start": 330.8,
+      "duration": 4.239,
+      "text": "behave in animation behavior tags, and"
+    },
+    {
+      "start": 333.039,
+      "duration": 3.761,
+      "text": "specified the implementation details,"
+    },
+    {
+      "start": 335.039,
+      "duration": 3.361,
+      "text": "constraints, and required output"
+    },
+    {
+      "start": 336.8,
+      "duration": 3.52,
+      "text": "directly in the prompt within their"
+    },
+    {
+      "start": 338.4,
+      "duration": 3.84,
+      "text": "respective tags. When I gave Claude this"
+    },
+    {
+      "start": 340.32,
+      "duration": 4.08,
+      "text": "prompt, it automatically implemented the"
+    },
+    {
+      "start": 342.24,
+      "duration": 4.08,
+      "text": "animation exactly as I wanted. Even"
+    },
+    {
+      "start": 344.4,
+      "duration": 3.519,
+      "text": "though our hero section looked good, the"
+    },
+    {
+      "start": 346.32,
+      "duration": 3.84,
+      "text": "rest of the components looked like the"
+    },
+    {
+      "start": 347.919,
+      "duration": 3.761,
+      "text": "usual generic websites AI tends to"
+    },
+    {
+      "start": 350.16,
+      "duration": 3.28,
+      "text": "generate. This is because we were"
+    },
+    {
+      "start": 351.68,
+      "duration": 4,
+      "text": "expecting highquality results from"
+    },
+    {
+      "start": 353.44,
+      "duration": 4.479,
+      "text": "vanilla CSS instead of relying on"
+    },
+    {
+      "start": 355.68,
+      "duration": 4.239,
+      "text": "existing beautiful component libraries."
+    },
+    {
+      "start": 357.919,
+      "duration": 3.84,
+      "text": "There are multiple UI libraries, each"
+    },
+    {
+      "start": 359.919,
+      "duration": 3.361,
+      "text": "with its own specialized style and"
+    },
+    {
+      "start": 361.759,
+      "duration": 3.28,
+      "text": "design themes, but you have to choose"
+    },
+    {
+      "start": 363.28,
+      "duration": 3.84,
+      "text": "the library that suits your project"
+    },
+    {
+      "start": 365.039,
+      "duration": 4.16,
+      "text": "style best. For my camera landing page,"
+    },
+    {
+      "start": 367.12,
+      "duration": 4.56,
+      "text": "I was going for an Apple style UI. And"
+    },
+    {
+      "start": 369.199,
+      "duration": 4.881,
+      "text": "the closest library to that idea is Hero"
+    },
+    {
+      "start": 371.68,
+      "duration": 4.56,
+      "text": "UI. It's built on top of Tailwind CSS"
+    },
+    {
+      "start": 374.08,
+      "duration": 4,
+      "text": "and relies on framer motion to bring its"
+    },
+    {
+      "start": 376.24,
+      "duration": 3.84,
+      "text": "components to life across the website."
+    },
+    {
+      "start": 378.08,
+      "duration": 4.559,
+      "text": "The library supports most commonly used"
+    },
+    {
+      "start": 380.08,
+      "duration": 4.64,
+      "text": "frameworks like Nex.js, Vit and Laravel."
+    },
+    {
+      "start": 382.639,
+      "duration": 4,
+      "text": "So using it with my existing Nex.js"
+    },
+    {
+      "start": 384.72,
+      "duration": 3.759,
+      "text": "setup was easy. There are two methods of"
+    },
+    {
+      "start": 386.639,
+      "duration": 3.521,
+      "text": "installation. Either you install it"
+    },
+    {
+      "start": 388.479,
+      "duration": 3.84,
+      "text": "projectwide with all components"
+    },
+    {
+      "start": 390.16,
+      "duration": 4.08,
+      "text": "available via the install command or you"
+    },
+    {
+      "start": 392.319,
+      "duration": 3.44,
+      "text": "install individual components as needed,"
+    },
+    {
+      "start": 394.24,
+      "duration": 3.36,
+      "text": "which is what I did with Claude. I"
+    },
+    {
+      "start": 395.759,
+      "duration": 3.921,
+      "text": "prompted Claude to replace the existing"
+    },
+    {
+      "start": 397.6,
+      "duration": 4.08,
+      "text": "components with Hero UI components and"
+    },
+    {
+      "start": 399.68,
+      "duration": 3.76,
+      "text": "the website was significantly improved,"
+    },
+    {
+      "start": 401.68,
+      "duration": 3.92,
+      "text": "giving the site a much more professional"
+    },
+    {
+      "start": 403.44,
+      "duration": 3.92,
+      "text": "look and feel. Users decide whether to"
+    },
+    {
+      "start": 405.6,
+      "duration": 3.599,
+      "text": "stay on a landing page within a few"
+    },
+    {
+      "start": 407.36,
+      "duration": 4.24,
+      "text": "seconds by looking at how engaging the"
+    },
+    {
+      "start": 409.199,
+      "duration": 4,
+      "text": "UI is. Motion helps guide the visitors"
+    },
+    {
+      "start": 411.6,
+      "duration": 3.52,
+      "text": "attention to the features we want them"
+    },
+    {
+      "start": 413.199,
+      "duration": 3.84,
+      "text": "to notice, ensuring higher user"
+    },
+    {
+      "start": 415.12,
+      "duration": 4,
+      "text": "retention. Implementing animations from"
+    },
+    {
+      "start": 417.039,
+      "duration": 3.841,
+      "text": "scratch using vanilla JavaScript can be"
+    },
+    {
+      "start": 419.12,
+      "duration": 3.76,
+      "text": "challenging, so I rely on existing"
+    },
+    {
+      "start": 420.88,
+      "duration": 4.319,
+      "text": "libraries to simplify the process. For"
+    },
+    {
+      "start": 422.88,
+      "duration": 4.319,
+      "text": "this project, I used motion.dev, a free"
+    },
+    {
+      "start": 425.199,
+      "duration": 4.161,
+      "text": "and open-source library that offers a"
+    },
+    {
+      "start": 427.199,
+      "duration": 3.761,
+      "text": "wide range of readytouse animations."
+    },
+    {
+      "start": 429.36,
+      "duration": 3.36,
+      "text": "Normally, animations would require"
+    },
+    {
+      "start": 430.96,
+      "duration": 4.079,
+      "text": "manually syncing DOM updates with"
+    },
+    {
+      "start": 432.72,
+      "duration": 4.24,
+      "text": "animation timings. However, motion.dev"
+    },
+    {
+      "start": 435.039,
+      "duration": 3.681,
+      "text": "abstracts this logic by handling DOM"
+    },
+    {
+      "start": 436.96,
+      "duration": 4.079,
+      "text": "updates internally. It automatically"
+    },
+    {
+      "start": 438.72,
+      "duration": 4.4,
+      "text": "updates components as the user scrolls,"
+    },
+    {
+      "start": 441.039,
+      "duration": 4.241,
+      "text": "so animations play smoothly without the"
+    },
+    {
+      "start": 443.12,
+      "duration": 4.24,
+      "text": "need to manually track scroll positions."
+    },
+    {
+      "start": 445.28,
+      "duration": 3.759,
+      "text": "This library uses motion components"
+    },
+    {
+      "start": 447.36,
+      "duration": 3.76,
+      "text": "instead of standard ones. These"
+    },
+    {
+      "start": 449.039,
+      "duration": 4,
+      "text": "components have start and end states"
+    },
+    {
+      "start": 451.12,
+      "duration": 3.84,
+      "text": "defined in the props and the library"
+    },
+    {
+      "start": 453.039,
+      "duration": 3.521,
+      "text": "handles the transitional logic between"
+    },
+    {
+      "start": 454.96,
+      "duration": 3.519,
+      "text": "them automatically. For our landing"
+    },
+    {
+      "start": 456.56,
+      "duration": 4.079,
+      "text": "page, I prompted Claude to implement"
+    },
+    {
+      "start": 458.479,
+      "duration": 3.84,
+      "text": "parallax and scroll animations using the"
+    },
+    {
+      "start": 460.639,
+      "duration": 3.68,
+      "text": "library. As a result, the user"
+    },
+    {
+      "start": 462.319,
+      "duration": 4.241,
+      "text": "experience improved by guiding attention"
+    },
+    {
+      "start": 464.319,
+      "duration": 4.081,
+      "text": "toward the key sections of the page."
+    },
+    {
+      "start": 466.56,
+      "duration": 4,
+      "text": "Describing how the sections of a page"
+    },
+    {
+      "start": 468.4,
+      "duration": 4,
+      "text": "should look is a tedious process. It is"
+    },
+    {
+      "start": 470.56,
+      "duration": 3.52,
+      "text": "better to get inspiration from existing"
+    },
+    {
+      "start": 472.4,
+      "duration": 4.32,
+      "text": "galleries where people post their"
+    },
+    {
+      "start": 474.08,
+      "duration": 4.799,
+      "text": "creations. I use 21st.dev, a platform"
+    },
+    {
+      "start": 476.72,
+      "duration": 4,
+      "text": "that offers inspiration for a variety of"
+    },
+    {
+      "start": 478.879,
+      "duration": 3.681,
+      "text": "UI components built by multiple"
+    },
+    {
+      "start": 480.72,
+      "duration": 3.759,
+      "text": "designers. The components are built on"
+    },
+    {
+      "start": 482.56,
+      "duration": 4.88,
+      "text": "top of popular UI libraries like"
+    },
+    {
+      "start": 484.479,
+      "duration": 5.041,
+      "text": "Aceternity UI, Prism UI, Coconut UI,"
+    },
+    {
+      "start": 487.44,
+      "duration": 4.08,
+      "text": "Magic UI, and many others. While looking"
+    },
+    {
+      "start": 489.52,
+      "duration": 3.92,
+      "text": "for ideas, I came across this call"
+    },
+    {
+      "start": 491.52,
+      "duration": 4.079,
+      "text": "toaction section that would look great"
+    },
+    {
+      "start": 493.44,
+      "duration": 5.12,
+      "text": "on my landing page. The part I like best"
+    },
+    {
+      "start": 495.599,
+      "duration": 5.361,
+      "text": "about 21st.dev is that for any component"
+    },
+    {
+      "start": 498.56,
+      "duration": 4.319,
+      "text": "I want to use, I can just copy a prompt"
+    },
+    {
+      "start": 500.96,
+      "duration": 3.44,
+      "text": "specifically tailored for AI coding"
+    },
+    {
+      "start": 502.879,
+      "duration": 3.201,
+      "text": "agents. I don't need to guide Claude"
+    },
+    {
+      "start": 504.4,
+      "duration": 3.12,
+      "text": "myself. The prompt is extensively"
+    },
+    {
+      "start": 506.08,
+      "duration": 3.36,
+      "text": "structured, including project"
+    },
+    {
+      "start": 507.52,
+      "duration": 3.76,
+      "text": "requirements such as shad CN and"
+    },
+    {
+      "start": 509.44,
+      "duration": 3.68,
+      "text": "TypeScript support. It provides code"
+    },
+    {
+      "start": 511.28,
+      "duration": 3.759,
+      "text": "with instructions for the coding agent"
+    },
+    {
+      "start": 513.12,
+      "duration": 3.839,
+      "text": "to paste directly into the components"
+    },
+    {
+      "start": 515.039,
+      "duration": 3.92,
+      "text": "directory. It includes all necessary"
+    },
+    {
+      "start": 516.959,
+      "duration": 3.44,
+      "text": "dependency code and the paths where it"
+    },
+    {
+      "start": 518.959,
+      "duration": 3.76,
+      "text": "should be added and it lists the"
+    },
+    {
+      "start": 520.399,
+      "duration": 4.081,
+      "text": "required npm packages to install. It"
+    },
+    {
+      "start": 522.719,
+      "duration": 3.761,
+      "text": "also includes an implementation guide"
+    },
+    {
+      "start": 524.48,
+      "duration": 3.919,
+      "text": "for your AI agent detailing all the"
+    },
+    {
+      "start": 526.48,
+      "duration": 3.76,
+      "text": "steps needed to integrate the component"
+    },
+    {
+      "start": 528.399,
+      "duration": 3.44,
+      "text": "directly into your application and how"
+    },
+    {
+      "start": 530.24,
+      "duration": 3.44,
+      "text": "the agent should tailor it to the"
+    },
+    {
+      "start": 531.839,
+      "duration": 3.761,
+      "text": "specific project's needs. I gave this"
+    },
+    {
+      "start": 533.68,
+      "duration": 4.32,
+      "text": "prompt to Claude and it integrated the"
+    },
+    {
+      "start": 535.6,
+      "duration": 4.239,
+      "text": "exact same call to action section for"
+    },
+    {
+      "start": 538,
+      "duration": 3.92,
+      "text": "which I had copied the prompt. It also"
+    },
+    {
+      "start": 539.839,
+      "duration": 3.761,
+      "text": "added motion from the motion library we"
+    },
+    {
+      "start": 541.92,
+      "duration": 3.44,
+      "text": "had installed. Even though I did not"
+    },
+    {
+      "start": 543.6,
+      "duration": 3.679,
+      "text": "explicitly mention adding motion"
+    },
+    {
+      "start": 545.36,
+      "duration": 4.32,
+      "text": "anywhere, I also got the footer from"
+    },
+    {
+      "start": 547.279,
+      "duration": 4.721,
+      "text": "21st. Even though the demo footer"
+    },
+    {
+      "start": 549.68,
+      "duration": 4.24,
+      "text": "included icons for GitHub and Twitter,"
+    },
+    {
+      "start": 552,
+      "duration": 4,
+      "text": "when I gave Claude the copied prompt, it"
+    },
+    {
+      "start": 553.92,
+      "duration": 3.84,
+      "text": "omitted the GitHub icon since it wasn't"
+    },
+    {
+      "start": 556,
+      "duration": 3.839,
+      "text": "relevant to our project. It customized"
+    },
+    {
+      "start": 557.76,
+      "duration": 3.84,
+      "text": "the footer to include only the icons"
+    },
+    {
+      "start": 559.839,
+      "duration": 3.761,
+      "text": "related to the camera product site,"
+    },
+    {
+      "start": 561.6,
+      "duration": 3.679,
+      "text": "creating a footer that perfectly fit our"
+    },
+    {
+      "start": 563.6,
+      "duration": 3.44,
+      "text": "landing page. That brings us to the end"
+    },
+    {
+      "start": 565.279,
+      "duration": 3.601,
+      "text": "of this video. If you'd like to support"
+    },
+    {
+      "start": 567.04,
+      "duration": 3.84,
+      "text": "the channel and help us keep making"
+    },
+    {
+      "start": 568.88,
+      "duration": 3.92,
+      "text": "videos like this, you can do so by using"
+    },
+    {
+      "start": 570.88,
+      "duration": 3.68,
+      "text": "the super thanks button below. As"
+    },
+    {
+      "start": 572.8,
+      "duration": 5.12,
+      "text": "always, thank you for watching and I'll"
+    },
+    {
+      "start": 574.56,
+      "duration": 3.36,
+      "text": "see you in the next one."
+    }
+  ],
+  "fullText": "With how powerful generative AI has become, new tools are constantly emerging. And amongst all, Google has really stepped up its game since Gemini 3 came out. Because of this, you've probably seen people on X oneshotting these amazing landing pages and saying that the model is a gamecher. But they're lying. The truth is they need to use multiple tools to build these sites. And Google has been going crazy with their experimental tools, which are powered by Gemini 3 and Nano Banana. But Google doesn't offer a way to use all of them together. So, you're going to need a complete workflow that combines all these tools. We've got a lot to talk about today as I wasn't really expecting them to work so well together. The animations that you see on those sites are just a series of frames. But if you use AI tools to generate these frames, you don't get consistent results. Google solves this by releasing an experimental tool called Whisk, which is particularly designed for assets generation. It is powered by Nano Banana for image generation. I often use Whisk to generate sequences of images for hero sections. I provide prompts in simple words, update the details step by step for each sequence, and then use the resulting images in the hero sections. Using this whole process, I created this landing page and was able to implement this cool animated effect with the camera. To start, we're going to generate just the first and last frames of a sequence and then create an animation using those two key frames for the hero section. But if you just start prompting it without any structure, then the key frames you want won't have the same structure continuity. For this purpose, you have to clearly define the subject, the visual intent, and the level of detail you want in the image. Whisk uses a subject, scene, and style framework to guide image generation, allowing you to combine them into a single new visual. That's why I included all the details on what kind of camera I wanted, how I wanted the reflections on the lens to look, the resolution, and the depth of the image, and it created the visual exactly as the prompt outlined. The generated image will not always meet your expectations, in which case you just have to mention the change in simple words and it incorporates the changes into a new visual. What I like most about Whisk is that you don't have to write long detailed prompts to get great results. This is because it uses Gemini 3 as a middle layer which writes the detailed prompt on top of your simple words leading to solid visuals. Now, it raises the question of why I chose Whisk. While Nano Banana requires extensive text prompts, and Google's Mix Board is designed for mood boards, neither is optimized for fast, controlled image remixing. Whisk's core strength lies in combining reference images, allowing you to generate images with better control. Once I had my first frame, I wanted my last frame to be a side angle of the camera with the lens taken apart to show the components. So, I prompted it to generate a technical cutaway, specifying how it should layer the internal lenses and how the background should appear. It didn't get it right on the first try. It broke down the internal circuitry too which I didn't want it to show. As I said earlier, you just mentioned the change you need to make. So I instructed it to only show the lens layering after which it successfully generated the image without showing the internal circuitry. Now whisk also supports animations using the VO model. But Whisk's animations focus on animating one image rather than being able to connect multiple key frames together. That's why I used another tool called Google Flow. Flow uses Gemini for planning the story, Google's image models to design steady characters, and VO to create video content. I had already created my starting and ending frames for the camera animation, and now I wanted to create a transition in them. So, I used the frame to video option and provided my frames. In order to ensure a smooth transition, you need to mention in the prompt how the starting frame leads to the ending because it provides the model with a logical path. Your prompt should include how you want the animation to flow, how the starting frame should transit into the ending frame, and the animation style, as these details ensure the motion is intentional. Sometimes these models tend to make mistakes with complex tasks, so it didn't get my animation right the first time. The generated video got both the spin direction and the ending frame completely wrong, making the transition awkward. The fix was simply reprompting with some the necessary changes to ensure the animation was correct. Just like how I prompted it to change the direction of the spinning of the camera for smoother transition after which it produced a version I wanted which I downloaded for use in my project. Now the video generation is not available on the free tier unlimitedly because video generation models are costly. It only provides 180 monthly credits depending on the region. Since each video generation with VO3.1 uses 20 credits, you get up to nine videos per month. Since the videos generated by Flow are in MP4 format and can't be used directly in hero sections because they are harder to map through scroll animations in. For this reason, I converted them to WEBP using a free online converter. I uploaded the MP4 video, set the conversion settings to produce the best quality animated WEBP and it converted to a WEBP format which I downloaded for use in my project. Choosing WEBP is important because with this it is easier to map scroll interactions since on the web this format is treated as an image which doesn't require a media player wrapper like other formats do. These files are more compact and deliver improved performance making them ideal for short form animated content. I added the converted WEBP file to the public directory of my newly initialized Nex.js project because this is where all the assets reside in the project. Now once we had our animation ready, I wanted it to add it to the hero section in my landing page. I generally prompt Claude in XML format because their models are optimized for understanding XML, letting them parse structured intent more reliably and reason over each section independently. The prompt I gave Claude for adding the animation included context on what I wanted to build, where the assets for the animation are located, and how the scroll through animation should work and our goal in the context tag. I included all the requirements in the requirement tags, described how the animation should behave in animation behavior tags, and specified the implementation details, constraints, and required output directly in the prompt within their respective tags. When I gave Claude this prompt, it automatically implemented the animation exactly as I wanted. Even though our hero section looked good, the rest of the components looked like the usual generic websites AI tends to generate. This is because we were expecting highquality results from vanilla CSS instead of relying on existing beautiful component libraries. There are multiple UI libraries, each with its own specialized style and design themes, but you have to choose the library that suits your project style best. For my camera landing page, I was going for an Apple style UI. And the closest library to that idea is Hero UI. It's built on top of Tailwind CSS and relies on framer motion to bring its components to life across the website. The library supports most commonly used frameworks like Nex.js, Vit and Laravel. So using it with my existing Nex.js setup was easy. There are two methods of installation. Either you install it projectwide with all components available via the install command or you install individual components as needed, which is what I did with Claude. I prompted Claude to replace the existing components with Hero UI components and the website was significantly improved, giving the site a much more professional look and feel. Users decide whether to stay on a landing page within a few seconds by looking at how engaging the UI is. Motion helps guide the visitors attention to the features we want them to notice, ensuring higher user retention. Implementing animations from scratch using vanilla JavaScript can be challenging, so I rely on existing libraries to simplify the process. For this project, I used motion.dev, a free and open-source library that offers a wide range of readytouse animations. Normally, animations would require manually syncing DOM updates with animation timings. However, motion.dev abstracts this logic by handling DOM updates internally. It automatically updates components as the user scrolls, so animations play smoothly without the need to manually track scroll positions. This library uses motion components instead of standard ones. These components have start and end states defined in the props and the library handles the transitional logic between them automatically. For our landing page, I prompted Claude to implement parallax and scroll animations using the library. As a result, the user experience improved by guiding attention toward the key sections of the page. Describing how the sections of a page should look is a tedious process. It is better to get inspiration from existing galleries where people post their creations. I use 21st.dev, a platform that offers inspiration for a variety of UI components built by multiple designers. The components are built on top of popular UI libraries like Aceternity UI, Prism UI, Coconut UI, Magic UI, and many others. While looking for ideas, I came across this call toaction section that would look great on my landing page. The part I like best about 21st.dev is that for any component I want to use, I can just copy a prompt specifically tailored for AI coding agents. I don't need to guide Claude myself. The prompt is extensively structured, including project requirements such as shad CN and TypeScript support. It provides code with instructions for the coding agent to paste directly into the components directory. It includes all necessary dependency code and the paths where it should be added and it lists the required npm packages to install. It also includes an implementation guide for your AI agent detailing all the steps needed to integrate the component directly into your application and how the agent should tailor it to the specific project's needs. I gave this prompt to Claude and it integrated the exact same call to action section for which I had copied the prompt. It also added motion from the motion library we had installed. Even though I did not explicitly mention adding motion anywhere, I also got the footer from 21st. Even though the demo footer included icons for GitHub and Twitter, when I gave Claude the copied prompt, it omitted the GitHub icon since it wasn't relevant to our project. It customized the footer to include only the icons related to the camera product site, creating a footer that perfectly fit our landing page. That brings us to the end of this video. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below. As always, thank you for watching and I'll see you in the next one.",
+  "fetchedAt": "2026-01-18T18:33:17.286Z"
+}

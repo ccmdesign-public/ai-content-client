@@ -1,0 +1,1314 @@
+{
+  "videoId": "SmYNK0kqaDI",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.72,
+      "text": "AI is so cheap now where you can get"
+    },
+    {
+      "start": 2.24,
+      "duration": 4.72,
+      "text": "state-of-the-art models for less than $5"
+    },
+    {
+      "start": 4.88,
+      "duration": 3.92,
+      "text": "per million input tokens. Even if you"
+    },
+    {
+      "start": 6.96,
+      "duration": 4.719,
+      "text": "look at subscription cost, you're paying"
+    },
+    {
+      "start": 8.8,
+      "duration": 4.959,
+      "text": "anywhere between $10 a month to $200 a"
+    },
+    {
+      "start": 11.679,
+      "duration": 4.721,
+      "text": "month. That's pretty decent. But what if"
+    },
+    {
+      "start": 13.759,
+      "duration": 4.961,
+      "text": "I ran this on my own? Whether I buy my"
+    },
+    {
+      "start": 16.4,
+      "duration": 4.4,
+      "text": "own hardware or just go directly to the"
+    },
+    {
+      "start": 18.72,
+      "duration": 4.639,
+      "text": "Neoclouds that's selling their compute"
+    },
+    {
+      "start": 20.8,
+      "duration": 4.88,
+      "text": "per hour per GPU. Today we're going to"
+    },
+    {
+      "start": 23.359,
+      "duration": 4.721,
+      "text": "look at the total cost of ownership and"
+    },
+    {
+      "start": 25.68,
+      "duration": 4.48,
+      "text": "see if the math works in our favor"
+    },
+    {
+      "start": 28.08,
+      "duration": 4.159,
+      "text": "because the cost of intelligence is"
+    },
+    {
+      "start": 30.16,
+      "duration": 4.16,
+      "text": "continually going down. And we saw from"
+    },
+    {
+      "start": 32.239,
+      "duration": 4.401,
+      "text": "Nvidia's recent announcement of Vera"
+    },
+    {
+      "start": 34.32,
+      "duration": 4.32,
+      "text": "Rubin chip that hardware is also"
+    },
+    {
+      "start": 36.64,
+      "duration": 4.56,
+      "text": "significantly getting better and more"
+    },
+    {
+      "start": 38.64,
+      "duration": 5.12,
+      "text": "efficient. So the critical question here"
+    },
+    {
+      "start": 41.2,
+      "duration": 4.64,
+      "text": "is when does it actually make sense to"
+    },
+    {
+      "start": 43.76,
+      "duration": 4,
+      "text": "just run state-of-the-art models on our"
+    },
+    {
+      "start": 45.84,
+      "duration": 3.6,
+      "text": "own? Welcome to Kale Bryce's code where"
+    },
+    {
+      "start": 47.76,
+      "duration": 3.44,
+      "text": "every second counts. Quick shout out to"
+    },
+    {
+      "start": 49.44,
+      "duration": 3.52,
+      "text": "Zo Computer. More on them later. Let's"
+    },
+    {
+      "start": 51.2,
+      "duration": 4.16,
+      "text": "start with the subscription cost. If you"
+    },
+    {
+      "start": 52.96,
+      "duration": 5.52,
+      "text": "tally up your subscription cost of say"
+    },
+    {
+      "start": 55.36,
+      "duration": 5.999,
+      "text": "$200 a month for 6 years, that puts your"
+    },
+    {
+      "start": 58.48,
+      "duration": 4.559,
+      "text": "total cost at $14,400."
+    },
+    {
+      "start": 61.359,
+      "duration": 4.561,
+      "text": "And if you look at a data center grade"
+    },
+    {
+      "start": 63.039,
+      "duration": 6.001,
+      "text": "graphics cards like Nvidia H100, this"
+    },
+    {
+      "start": 65.92,
+      "duration": 5.199,
+      "text": "will cost you around $30,000. So yeah,"
+    },
+    {
+      "start": 69.04,
+      "duration": 4.079,
+      "text": "right up front, the math doesn't really"
+    },
+    {
+      "start": 71.119,
+      "duration": 4.241,
+      "text": "work in our favor because you're much"
+    },
+    {
+      "start": 73.119,
+      "duration": 5.04,
+      "text": "better off using $200 a month"
+    },
+    {
+      "start": 75.36,
+      "duration": 4.799,
+      "text": "subscription for 6 years instead. But we"
+    },
+    {
+      "start": 78.159,
+      "duration": 3.841,
+      "text": "do have an alternative option. Maybe"
+    },
+    {
+      "start": 80.159,
+      "duration": 4,
+      "text": "instead of owning our own hardware,"
+    },
+    {
+      "start": 82,
+      "duration": 4.479,
+      "text": "maybe we can just rent an H100 from"
+    },
+    {
+      "start": 84.159,
+      "duration": 4.64,
+      "text": "Neoclouds. I mean, the cost seems"
+    },
+    {
+      "start": 86.479,
+      "duration": 5.921,
+      "text": "reasonable where most NeoClouds seem to"
+    },
+    {
+      "start": 88.799,
+      "duration": 5.441,
+      "text": "hover at around $2.20 per hour per H100."
+    },
+    {
+      "start": 92.4,
+      "duration": 4.16,
+      "text": "But once you start adding up the cost"
+    },
+    {
+      "start": 94.24,
+      "duration": 4.4,
+      "text": "for the six years to compare, you find"
+    },
+    {
+      "start": 96.56,
+      "duration": 4.239,
+      "text": "that even if you use eight hours per day"
+    },
+    {
+      "start": 98.64,
+      "duration": 4.799,
+      "text": "for 6 years, it puts your cost at"
+    },
+    {
+      "start": 100.799,
+      "duration": 6.801,
+      "text": "$38,000544"
+    },
+    {
+      "start": 103.439,
+      "duration": 7.121,
+      "text": "including weekends or $27,456"
+    },
+    {
+      "start": 107.6,
+      "duration": 4.799,
+      "text": "if you only include weekdays. So if none"
+    },
+    {
+      "start": 110.56,
+      "duration": 4.239,
+      "text": "of these really make sense, how do"
+    },
+    {
+      "start": 112.399,
+      "duration": 4.08,
+      "text": "Frontier Labs actually make money when"
+    },
+    {
+      "start": 114.799,
+      "duration": 3.761,
+      "text": "it comes to their subscription model?"
+    },
+    {
+      "start": 116.479,
+      "duration": 4.24,
+      "text": "Before we look into the unit cost, let's"
+    },
+    {
+      "start": 118.56,
+      "duration": 4.559,
+      "text": "look at the scenario a bit closer to"
+    },
+    {
+      "start": 120.719,
+      "duration": 4.321,
+      "text": "maybe pulling the money together with"
+    },
+    {
+      "start": 123.119,
+      "duration": 4.161,
+      "text": "four friends and see what it might look"
+    },
+    {
+      "start": 125.04,
+      "duration": 5.999,
+      "text": "like. Since one person's subscription"
+    },
+    {
+      "start": 127.28,
+      "duration": 7.039,
+      "text": "fee was $14,400 for 6 years, if you have"
+    },
+    {
+      "start": 131.039,
+      "duration": 6.241,
+      "text": "four people, that's $57,600"
+    },
+    {
+      "start": 134.319,
+      "duration": 4.64,
+      "text": "for 6 years of usage. Now, your option"
+    },
+    {
+      "start": 137.28,
+      "duration": 3.28,
+      "text": "really starts to open up in terms of"
+    },
+    {
+      "start": 138.959,
+      "duration": 4,
+      "text": "what you can do with this amount of"
+    },
+    {
+      "start": 140.56,
+      "duration": 5.36,
+      "text": "money. Nvidia's H100 card that retails"
+    },
+    {
+      "start": 142.959,
+      "duration": 4.801,
+      "text": "for around $30,000 is now well within"
+    },
+    {
+      "start": 145.92,
+      "duration": 4.72,
+      "text": "the reach. But here's the question."
+    },
+    {
+      "start": 147.76,
+      "duration": 4.96,
+      "text": "Doesn't sharing a single H100 card just"
+    },
+    {
+      "start": 150.64,
+      "duration": 4.16,
+      "text": "make their experience a lot slower?"
+    },
+    {
+      "start": 152.72,
+      "duration": 5.12,
+      "text": "Also, what about the cost of running"
+    },
+    {
+      "start": 154.8,
+      "duration": 5.04,
+      "text": "H100? Doesn't it cost electricity and"
+    },
+    {
+      "start": 157.84,
+      "duration": 3.92,
+      "text": "cooling costs? Let's first look at the"
+    },
+    {
+      "start": 159.84,
+      "duration": 3.84,
+      "text": "total cost of ownership. the bill of"
+    },
+    {
+      "start": 161.76,
+      "duration": 5.199,
+      "text": "material. Assuming you already have the"
+    },
+    {
+      "start": 163.68,
+      "duration": 5.68,
+      "text": "desktop to run the H100 on a PCIe with"
+    },
+    {
+      "start": 166.959,
+      "duration": 5.201,
+      "text": "sufficient power supply, the cost so far"
+    },
+    {
+      "start": 169.36,
+      "duration": 5.28,
+      "text": "is only $30,000 to purchase the card"
+    },
+    {
+      "start": 172.16,
+      "duration": 5.76,
+      "text": "itself. Now, according to Nvidia spec,"
+    },
+    {
+      "start": 174.64,
+      "duration": 7.679,
+      "text": "the PCI skew for H100 draws up to around"
+    },
+    {
+      "start": 177.92,
+      "duration": 6.64,
+      "text": "350 W or 0.35 kW to make the calculation"
+    },
+    {
+      "start": 182.319,
+      "duration": 4.401,
+      "text": "easier. Now, in the state of Michigan,"
+    },
+    {
+      "start": 184.56,
+      "duration": 4.399,
+      "text": "the average electricity cost is around"
+    },
+    {
+      "start": 186.72,
+      "duration": 4.799,
+      "text": "20 cents per kilowatt hour. And since we"
+    },
+    {
+      "start": 188.959,
+      "duration": 5.041,
+      "text": "have four people sharing the same GPU,"
+    },
+    {
+      "start": 191.519,
+      "duration": 5.44,
+      "text": "let's assume that this H100 will be"
+    },
+    {
+      "start": 194,
+      "duration": 4.8,
+      "text": "running 24/7 for the 6 years in service,"
+    },
+    {
+      "start": 196.959,
+      "duration": 5.041,
+      "text": "the electricity cost then will be close"
+    },
+    {
+      "start": 198.8,
+      "duration": 5.6,
+      "text": "to around $3,700. So so far the total"
+    },
+    {
+      "start": 202,
+      "duration": 5.519,
+      "text": "cost of ownership is around $30,000 for"
+    },
+    {
+      "start": 204.4,
+      "duration": 6.16,
+      "text": "the card, $3,700 for electricity cost,"
+    },
+    {
+      "start": 207.519,
+      "duration": 4.72,
+      "text": "which puts us at $33,700."
+    },
+    {
+      "start": 210.56,
+      "duration": 3.92,
+      "text": "But let's not forget about cooling."
+    },
+    {
+      "start": 212.239,
+      "duration": 5.601,
+      "text": "Since we're using a single PCIe"
+    },
+    {
+      "start": 214.48,
+      "duration": 5.6,
+      "text": "configuration, we could put a POE at 1.5"
+    },
+    {
+      "start": 217.84,
+      "duration": 4.959,
+      "text": "or even two to be conservative, which"
+    },
+    {
+      "start": 220.08,
+      "duration": 5.12,
+      "text": "still puts us at $3,700 for cooling. And"
+    },
+    {
+      "start": 222.799,
+      "duration": 4.16,
+      "text": "this all still puts us way under the"
+    },
+    {
+      "start": 225.2,
+      "duration": 4.399,
+      "text": "total cost of subscription that would"
+    },
+    {
+      "start": 226.959,
+      "duration": 5.36,
+      "text": "have costed us $57,600"
+    },
+    {
+      "start": 229.599,
+      "duration": 4.401,
+      "text": "for four people for 6 years. But we"
+    },
+    {
+      "start": 232.319,
+      "duration": 4,
+      "text": "haven't answered the first question,"
+    },
+    {
+      "start": 234,
+      "duration": 5.68,
+      "text": "which is the user experience. In other"
+    },
+    {
+      "start": 236.319,
+      "duration": 5.681,
+      "text": "words, does four people sharing one H100"
+    },
+    {
+      "start": 239.68,
+      "duration": 4.16,
+      "text": "graphics card slow everyone down in"
+    },
+    {
+      "start": 242,
+      "duration": 4.319,
+      "text": "terms of their user experience? Let's"
+    },
+    {
+      "start": 243.84,
+      "duration": 5.119,
+      "text": "first look at what model we can fit in a"
+    },
+    {
+      "start": 246.319,
+      "duration": 3.92,
+      "text": "single H100 graphics card. Since we"
+    },
+    {
+      "start": 248.959,
+      "duration": 3.041,
+      "text": "don't have license to run"
+    },
+    {
+      "start": 250.239,
+      "duration": 4.481,
+      "text": "state-of-the-art models from Frontier"
+    },
+    {
+      "start": 252,
+      "duration": 4.079,
+      "text": "Labs like OpenAI, Enthropic, and Google,"
+    },
+    {
+      "start": 254.72,
+      "duration": 3.359,
+      "text": "we have to look at state-of-the-art"
+    },
+    {
+      "start": 256.079,
+      "duration": 3.921,
+      "text": "models that are open. And one of the"
+    },
+    {
+      "start": 258.079,
+      "duration": 4.801,
+      "text": "best state-of-the-art models that we can"
+    },
+    {
+      "start": 260,
+      "duration": 4.96,
+      "text": "use is the Kim K2 thinking model. This"
+    },
+    {
+      "start": 262.88,
+      "duration": 4.4,
+      "text": "is a one trillion parameter model that"
+    },
+    {
+      "start": 264.96,
+      "duration": 4.799,
+      "text": "is a mixture of experts that activates"
+    },
+    {
+      "start": 267.28,
+      "duration": 5.359,
+      "text": "32 billion active parameters per token"
+    },
+    {
+      "start": 269.759,
+      "duration": 5.041,
+      "text": "and has 384 experts. This kind of"
+    },
+    {
+      "start": 272.639,
+      "duration": 4.081,
+      "text": "sparity is actually pretty common these"
+    },
+    {
+      "start": 274.8,
+      "duration": 3.92,
+      "text": "days and likely will going to be the"
+    },
+    {
+      "start": 276.72,
+      "duration": 4.24,
+      "text": "norm going forward since it makes"
+    },
+    {
+      "start": 278.72,
+      "duration": 4.88,
+      "text": "inference so much more efficient. But"
+    },
+    {
+      "start": 280.96,
+      "duration": 4.799,
+      "text": "even with such efficiency improvement in"
+    },
+    {
+      "start": 283.6,
+      "duration": 4.879,
+      "text": "terms of architecture, in order to fit"
+    },
+    {
+      "start": 285.759,
+      "duration": 5.041,
+      "text": "the full precision Kim K2 model, you're"
+    },
+    {
+      "start": 288.479,
+      "duration": 4.401,
+      "text": "going to need at least 14 of these H100"
+    },
+    {
+      "start": 290.8,
+      "duration": 3.679,
+      "text": "graphics cards to even fit the model in"
+    },
+    {
+      "start": 292.88,
+      "duration": 4,
+      "text": "the first place. So even though the"
+    },
+    {
+      "start": 294.479,
+      "duration": 5.361,
+      "text": "budget works in our favor by sharing a"
+    },
+    {
+      "start": 296.88,
+      "duration": 4.56,
+      "text": "single H100 with four people, we can't"
+    },
+    {
+      "start": 299.84,
+      "duration": 3.76,
+      "text": "really fit this model into a single"
+    },
+    {
+      "start": 301.44,
+      "duration": 5.12,
+      "text": "hardware. Even if we quantize the model"
+    },
+    {
+      "start": 303.6,
+      "duration": 5.28,
+      "text": "down to 4bit or even 1.8 8bit version,"
+    },
+    {
+      "start": 306.56,
+      "duration": 4.96,
+      "text": "we at least need three to even eight of"
+    },
+    {
+      "start": 308.88,
+      "duration": 4.4,
+      "text": "these H100 cards to run this. And now"
+    },
+    {
+      "start": 311.52,
+      "duration": 3.84,
+      "text": "you have to regroup with your friends to"
+    },
+    {
+      "start": 313.28,
+      "duration": 4.16,
+      "text": "plan a different strategy. Thankfully,"
+    },
+    {
+      "start": 315.36,
+      "duration": 4.96,
+      "text": "Nvidia sells a group of eight of these"
+    },
+    {
+      "start": 317.44,
+      "duration": 6.56,
+      "text": "H100 cards into a single topology called"
+    },
+    {
+      "start": 320.32,
+      "duration": 6.159,
+      "text": "DGX H100. And sadly, buying these will"
+    },
+    {
+      "start": 324,
+      "duration": 5.6,
+      "text": "cost around $285,000"
+    },
+    {
+      "start": 326.479,
+      "duration": 5.361,
+      "text": "to $300,000. and the electricity cost"
+    },
+    {
+      "start": 329.6,
+      "duration": 4.319,
+      "text": "and the cooling cost of using them using"
+    },
+    {
+      "start": 331.84,
+      "duration": 4.32,
+      "text": "the same math that we just used above"
+    },
+    {
+      "start": 333.919,
+      "duration": 5.441,
+      "text": "would put the entire cost of ownership"
+    },
+    {
+      "start": 336.16,
+      "duration": 5.039,
+      "text": "of around $400,000 which is close to the"
+    },
+    {
+      "start": 339.36,
+      "duration": 4.559,
+      "text": "median housing price in the United"
+    },
+    {
+      "start": 341.199,
+      "duration": 6.72,
+      "text": "States. So at that point we need to have"
+    },
+    {
+      "start": 343.919,
+      "duration": 6.801,
+      "text": "28 people sharing the same DGX H100 to"
+    },
+    {
+      "start": 347.919,
+      "duration": 5.761,
+      "text": "break even. But if 28 people did happen"
+    },
+    {
+      "start": 350.72,
+      "duration": 5.6,
+      "text": "to sign up and buy and run this DJX H100"
+    },
+    {
+      "start": 353.68,
+      "duration": 4.4,
+      "text": "unit to run the Kimik to thinking model,"
+    },
+    {
+      "start": 356.32,
+      "duration": 3.84,
+      "text": "what would the user experience look"
+    },
+    {
+      "start": 358.08,
+      "duration": 3.92,
+      "text": "like? But first, let's talk about Zo"
+    },
+    {
+      "start": 360.16,
+      "duration": 4.56,
+      "text": "computer. Here's the problem. You have"
+    },
+    {
+      "start": 362,
+      "duration": 5.28,
+      "text": "files stored across Gmail, Google Drive,"
+    },
+    {
+      "start": 364.72,
+      "duration": 4.56,
+      "text": "notion, notebook, LM, and whatever other"
+    },
+    {
+      "start": 367.28,
+      "duration": 4.24,
+      "text": "applications you use, but there's no"
+    },
+    {
+      "start": 369.28,
+      "duration": 4.479,
+      "text": "good way to really unite them into one"
+    },
+    {
+      "start": 371.52,
+      "duration": 3.92,
+      "text": "place. Zo is a private cloud computer"
+    },
+    {
+      "start": 373.759,
+      "duration": 4.241,
+      "text": "that you can own which means you can"
+    },
+    {
+      "start": 375.44,
+      "duration": 4.72,
+      "text": "store all your data in the cloud and own"
+    },
+    {
+      "start": 378,
+      "duration": 4.639,
+      "text": "that instance yourself and you can also"
+    },
+    {
+      "start": 380.16,
+      "duration": 4.8,
+      "text": "leverage AI agent on top of that so that"
+    },
+    {
+      "start": 382.639,
+      "duration": 4.801,
+      "text": "you can use AI to manage your files"
+    },
+    {
+      "start": 384.96,
+      "duration": 4.239,
+      "text": "build automations build apps and store"
+    },
+    {
+      "start": 387.44,
+      "duration": 4.319,
+      "text": "your code there. Unlike traditional"
+    },
+    {
+      "start": 389.199,
+      "duration": 5.28,
+      "text": "applications that lock your data away,"
+    },
+    {
+      "start": 391.759,
+      "duration": 4.72,
+      "text": "Zo gives you a persistent workspace"
+    },
+    {
+      "start": 394.479,
+      "duration": 4,
+      "text": "where everything is stored which means"
+    },
+    {
+      "start": 396.479,
+      "duration": 3.681,
+      "text": "you have control over your own apps and"
+    },
+    {
+      "start": 398.479,
+      "duration": 3.84,
+      "text": "files. And because it's a cloud"
+    },
+    {
+      "start": 400.16,
+      "duration": 4.08,
+      "text": "computer, you can access it anywhere,"
+    },
+    {
+      "start": 402.319,
+      "duration": 3.681,
+      "text": "including sending and receiving text"
+    },
+    {
+      "start": 404.24,
+      "duration": 3.36,
+      "text": "messages, which is one of my favorite"
+    },
+    {
+      "start": 406,
+      "duration": 3.759,
+      "text": "features. And there are other features"
+    },
+    {
+      "start": 407.6,
+      "duration": 4.48,
+      "text": "like email and of course the ability to"
+    },
+    {
+      "start": 409.759,
+      "duration": 4.56,
+      "text": "vibe code directly on the machine and"
+    },
+    {
+      "start": 412.08,
+      "duration": 4.08,
+      "text": "have customuilt personas so that you can"
+    },
+    {
+      "start": 414.319,
+      "duration": 3.921,
+      "text": "make your computer more personalized."
+    },
+    {
+      "start": 416.16,
+      "duration": 4.24,
+      "text": "Try out Zo today and they're always on"
+    },
+    {
+      "start": 418.24,
+      "duration": 3.92,
+      "text": "computer that you can use to simplify"
+    },
+    {
+      "start": 420.4,
+      "duration": 3.359,
+      "text": "your computer needs. Link in the"
+    },
+    {
+      "start": 422.16,
+      "duration": 4,
+      "text": "description below. Even though mixture"
+    },
+    {
+      "start": 423.759,
+      "duration": 6.241,
+      "text": "of experts helped reduce the token cost"
+    },
+    {
+      "start": 426.16,
+      "duration": 5.68,
+      "text": "to nearly 3% to 4% of the entire size,"
+    },
+    {
+      "start": 430,
+      "duration": 3.919,
+      "text": "we still need to fit the entire model"
+    },
+    {
+      "start": 431.84,
+      "duration": 4.799,
+      "text": "into the graphics cards. So even at an"
+    },
+    {
+      "start": 433.919,
+      "duration": 5.84,
+      "text": "inforc, you're going to use at least a"
+    },
+    {
+      "start": 436.639,
+      "duration": 5.921,
+      "text": "minimum of 500 GB of VRAM just for the"
+    },
+    {
+      "start": 439.759,
+      "duration": 5.681,
+      "text": "model weights alone. Which means the 640"
+    },
+    {
+      "start": 442.56,
+      "duration": 6.479,
+      "text": "GB of VRAM from a single DGX H100"
+    },
+    {
+      "start": 445.44,
+      "duration": 6.08,
+      "text": "machine only leaves us 140 GB left over"
+    },
+    {
+      "start": 449.039,
+      "duration": 5.521,
+      "text": "for inference that the entire 28 people"
+    },
+    {
+      "start": 451.52,
+      "duration": 5.28,
+      "text": "must share. And while 140 gigabytes"
+    },
+    {
+      "start": 454.56,
+      "duration": 3.919,
+      "text": "might not seem that bad, let's see how"
+    },
+    {
+      "start": 456.8,
+      "duration": 3.44,
+      "text": "the math actually looks like. If you go"
+    },
+    {
+      "start": 458.479,
+      "duration": 4,
+      "text": "to hugging face, it gives you a little"
+    },
+    {
+      "start": 460.24,
+      "duration": 4.48,
+      "text": "bit more detail on Kim K2's thinking"
+    },
+    {
+      "start": 462.479,
+      "duration": 4.321,
+      "text": "model's actual architecture. And we can"
+    },
+    {
+      "start": 464.72,
+      "duration": 4.479,
+      "text": "use these to calculate what we can work"
+    },
+    {
+      "start": 466.8,
+      "duration": 4.399,
+      "text": "with. You have two times the number of"
+    },
+    {
+      "start": 469.199,
+      "duration": 4,
+      "text": "layers times the number of hidden size"
+    },
+    {
+      "start": 471.199,
+      "duration": 4.801,
+      "text": "and of course the precision which is"
+    },
+    {
+      "start": 473.199,
+      "duration": 4.881,
+      "text": "usually in FP16 for inference. And after"
+    },
+    {
+      "start": 476,
+      "duration": 5.039,
+      "text": "plugging in all the numbers, we get an"
+    },
+    {
+      "start": 478.08,
+      "duration": 5.6,
+      "text": "estimate around 1.7 megabytes per token,"
+    },
+    {
+      "start": 481.039,
+      "duration": 4.641,
+      "text": "which means in a 140 GB of shared"
+    },
+    {
+      "start": 483.68,
+      "duration": 4.88,
+      "text": "memory, it could theoretically fit"
+    },
+    {
+      "start": 485.68,
+      "duration": 5.6,
+      "text": "around 80,000 tokens. Yeah, not that"
+    },
+    {
+      "start": 488.56,
+      "duration": 5.68,
+      "text": "much. Which means if we have 28 people"
+    },
+    {
+      "start": 491.28,
+      "duration": 6.4,
+      "text": "sharing this one device, the maximum is"
+    },
+    {
+      "start": 494.24,
+      "duration": 5.359,
+      "text": "2,850 tokens per person. And we're just"
+    },
+    {
+      "start": 497.68,
+      "duration": 3.519,
+      "text": "talking about KV cashier because we"
+    },
+    {
+      "start": 499.599,
+      "duration": 3.521,
+      "text": "really haven't talked about activation"
+    },
+    {
+      "start": 501.199,
+      "duration": 4.161,
+      "text": "weights and other overheads that go into"
+    },
+    {
+      "start": 503.12,
+      "duration": 4.079,
+      "text": "it. So this is probably where we throw"
+    },
+    {
+      "start": 505.36,
+      "duration": 4.16,
+      "text": "in the towel because well it just"
+    },
+    {
+      "start": 507.199,
+      "duration": 4.241,
+      "text": "doesn't make sense financially to scale"
+    },
+    {
+      "start": 509.52,
+      "duration": 4.24,
+      "text": "this up this way and you start to look"
+    },
+    {
+      "start": 511.44,
+      "duration": 4.56,
+      "text": "at inference providers and say how are"
+    },
+    {
+      "start": 513.76,
+      "duration": 4.48,
+      "text": "they not losing money on this. Broadly"
+    },
+    {
+      "start": 516,
+      "duration": 5.12,
+      "text": "speaking my hot take is that companies"
+    },
+    {
+      "start": 518.24,
+      "duration": 5.44,
+      "text": "that charge by the API pricing probably"
+    },
+    {
+      "start": 521.12,
+      "duration": 4.32,
+      "text": "bakes their unit cost into their pricing"
+    },
+    {
+      "start": 523.68,
+      "duration": 3.599,
+      "text": "so they don't lose money. While"
+    },
+    {
+      "start": 525.44,
+      "duration": 3.68,
+      "text": "companies that charge subscription model"
+    },
+    {
+      "start": 527.279,
+      "duration": 4.641,
+      "text": "where you're allotted a certain limit"
+    },
+    {
+      "start": 529.12,
+      "duration": 5.04,
+      "text": "per day or in blocks of time probably"
+    },
+    {
+      "start": 531.92,
+      "duration": 3.919,
+      "text": "want you to be hooked to their platform"
+    },
+    {
+      "start": 534.16,
+      "duration": 4.4,
+      "text": "because they know that people aren't"
+    },
+    {
+      "start": 535.839,
+      "duration": 4.56,
+      "text": "very loyal when it comes to API pricing"
+    },
+    {
+      "start": 538.56,
+      "duration": 4.399,
+      "text": "but they're more likely to stay for"
+    },
+    {
+      "start": 540.399,
+      "duration": 5.041,
+      "text": "subscription because API has no other"
+    },
+    {
+      "start": 542.959,
+      "duration": 4.56,
+      "text": "benefits other than the raw intelligence"
+    },
+    {
+      "start": 545.44,
+      "duration": 4.399,
+      "text": "but subscription implies they're using"
+    },
+    {
+      "start": 547.519,
+      "duration": 4.641,
+      "text": "the product and they want more users on"
+    },
+    {
+      "start": 549.839,
+      "duration": 4.161,
+      "text": "their platform and on their ecosystem."
+    },
+    {
+      "start": 552.16,
+      "duration": 4.16,
+      "text": "But this does give you a bigger"
+    },
+    {
+      "start": 554,
+      "duration": 5.2,
+      "text": "appreciation for inference providers and"
+    },
+    {
+      "start": 556.32,
+      "duration": 5.36,
+      "text": "Frontier Labs that are offering 400,000"
+    },
+    {
+      "start": 559.2,
+      "duration": 4.56,
+      "text": "or even 1 million context window at a"
+    },
+    {
+      "start": 561.68,
+      "duration": 4.24,
+      "text": "decent tokens per second throughput"
+    },
+    {
+      "start": 563.76,
+      "duration": 4.639,
+      "text": "consistently while serving them for less"
+    },
+    {
+      "start": 565.92,
+      "duration": 4,
+      "text": "than $5 per million input tokens. And"
+    },
+    {
+      "start": 568.399,
+      "duration": 3.681,
+      "text": "they're doing that for hundreds of"
+    },
+    {
+      "start": 569.92,
+      "duration": 4.24,
+      "text": "millions of active users while thinking"
+    },
+    {
+      "start": 572.08,
+      "duration": 4.72,
+      "text": "about energy infrastructure, cooling,"
+    },
+    {
+      "start": 574.16,
+      "duration": 4.64,
+      "text": "and hardware. No wonder they need AI"
+    },
+    {
+      "start": 576.8,
+      "duration": 4.159,
+      "text": "data centers that large. And running a"
+    },
+    {
+      "start": 578.8,
+      "duration": 4.4,
+      "text": "shop at that scale does allow for more"
+    },
+    {
+      "start": 580.959,
+      "duration": 3.921,
+      "text": "parallelism that make things a lot more"
+    },
+    {
+      "start": 583.2,
+      "duration": 3.6,
+      "text": "efficient which is covered in my"
+    },
+    {
+      "start": 584.88,
+      "duration": 4.24,
+      "text": "previous video called energy demand in"
+    },
+    {
+      "start": 586.8,
+      "duration": 4.479,
+      "text": "AI where I break down the cost of energy"
+    },
+    {
+      "start": 589.12,
+      "duration": 4.88,
+      "text": "and different types of parallelism that"
+    },
+    {
+      "start": 591.279,
+      "duration": 4.721,
+      "text": "exists there. So, while buying server"
+    },
+    {
+      "start": 594,
+      "duration": 4.32,
+      "text": "grade graphics cards might not make too"
+    },
+    {
+      "start": 596,
+      "duration": 4.8,
+      "text": "much sense just yet, if either the"
+    },
+    {
+      "start": 598.32,
+      "duration": 4.72,
+      "text": "graphics cards costs go down more or"
+    },
+    {
+      "start": 600.8,
+      "duration": 4.08,
+      "text": "models become so efficient, it might"
+    },
+    {
+      "start": 603.04,
+      "duration": 4,
+      "text": "actually start to make sense, assuming"
+    },
+    {
+      "start": 604.88,
+      "duration": 4.32,
+      "text": "NeoClouds and inference providers don't"
+    },
+    {
+      "start": 607.04,
+      "duration": 5.12,
+      "text": "drop their pricing accordingly, which"
+    },
+    {
+      "start": 609.2,
+      "duration": 2.96,
+      "text": "they most likely Well,"
+    }
+  ],
+  "fullText": "AI is so cheap now where you can get state-of-the-art models for less than $5 per million input tokens. Even if you look at subscription cost, you're paying anywhere between $10 a month to $200 a month. That's pretty decent. But what if I ran this on my own? Whether I buy my own hardware or just go directly to the Neoclouds that's selling their compute per hour per GPU. Today we're going to look at the total cost of ownership and see if the math works in our favor because the cost of intelligence is continually going down. And we saw from Nvidia's recent announcement of Vera Rubin chip that hardware is also significantly getting better and more efficient. So the critical question here is when does it actually make sense to just run state-of-the-art models on our own? Welcome to Kale Bryce's code where every second counts. Quick shout out to Zo Computer. More on them later. Let's start with the subscription cost. If you tally up your subscription cost of say $200 a month for 6 years, that puts your total cost at $14,400. And if you look at a data center grade graphics cards like Nvidia H100, this will cost you around $30,000. So yeah, right up front, the math doesn't really work in our favor because you're much better off using $200 a month subscription for 6 years instead. But we do have an alternative option. Maybe instead of owning our own hardware, maybe we can just rent an H100 from Neoclouds. I mean, the cost seems reasonable where most NeoClouds seem to hover at around $2.20 per hour per H100. But once you start adding up the cost for the six years to compare, you find that even if you use eight hours per day for 6 years, it puts your cost at $38,000544 including weekends or $27,456 if you only include weekdays. So if none of these really make sense, how do Frontier Labs actually make money when it comes to their subscription model? Before we look into the unit cost, let's look at the scenario a bit closer to maybe pulling the money together with four friends and see what it might look like. Since one person's subscription fee was $14,400 for 6 years, if you have four people, that's $57,600 for 6 years of usage. Now, your option really starts to open up in terms of what you can do with this amount of money. Nvidia's H100 card that retails for around $30,000 is now well within the reach. But here's the question. Doesn't sharing a single H100 card just make their experience a lot slower? Also, what about the cost of running H100? Doesn't it cost electricity and cooling costs? Let's first look at the total cost of ownership. the bill of material. Assuming you already have the desktop to run the H100 on a PCIe with sufficient power supply, the cost so far is only $30,000 to purchase the card itself. Now, according to Nvidia spec, the PCI skew for H100 draws up to around 350 W or 0.35 kW to make the calculation easier. Now, in the state of Michigan, the average electricity cost is around 20 cents per kilowatt hour. And since we have four people sharing the same GPU, let's assume that this H100 will be running 24/7 for the 6 years in service, the electricity cost then will be close to around $3,700. So so far the total cost of ownership is around $30,000 for the card, $3,700 for electricity cost, which puts us at $33,700. But let's not forget about cooling. Since we're using a single PCIe configuration, we could put a POE at 1.5 or even two to be conservative, which still puts us at $3,700 for cooling. And this all still puts us way under the total cost of subscription that would have costed us $57,600 for four people for 6 years. But we haven't answered the first question, which is the user experience. In other words, does four people sharing one H100 graphics card slow everyone down in terms of their user experience? Let's first look at what model we can fit in a single H100 graphics card. Since we don't have license to run state-of-the-art models from Frontier Labs like OpenAI, Enthropic, and Google, we have to look at state-of-the-art models that are open. And one of the best state-of-the-art models that we can use is the Kim K2 thinking model. This is a one trillion parameter model that is a mixture of experts that activates 32 billion active parameters per token and has 384 experts. This kind of sparity is actually pretty common these days and likely will going to be the norm going forward since it makes inference so much more efficient. But even with such efficiency improvement in terms of architecture, in order to fit the full precision Kim K2 model, you're going to need at least 14 of these H100 graphics cards to even fit the model in the first place. So even though the budget works in our favor by sharing a single H100 with four people, we can't really fit this model into a single hardware. Even if we quantize the model down to 4bit or even 1.8 8bit version, we at least need three to even eight of these H100 cards to run this. And now you have to regroup with your friends to plan a different strategy. Thankfully, Nvidia sells a group of eight of these H100 cards into a single topology called DGX H100. And sadly, buying these will cost around $285,000 to $300,000. and the electricity cost and the cooling cost of using them using the same math that we just used above would put the entire cost of ownership of around $400,000 which is close to the median housing price in the United States. So at that point we need to have 28 people sharing the same DGX H100 to break even. But if 28 people did happen to sign up and buy and run this DJX H100 unit to run the Kimik to thinking model, what would the user experience look like? But first, let's talk about Zo computer. Here's the problem. You have files stored across Gmail, Google Drive, notion, notebook, LM, and whatever other applications you use, but there's no good way to really unite them into one place. Zo is a private cloud computer that you can own which means you can store all your data in the cloud and own that instance yourself and you can also leverage AI agent on top of that so that you can use AI to manage your files build automations build apps and store your code there. Unlike traditional applications that lock your data away, Zo gives you a persistent workspace where everything is stored which means you have control over your own apps and files. And because it's a cloud computer, you can access it anywhere, including sending and receiving text messages, which is one of my favorite features. And there are other features like email and of course the ability to vibe code directly on the machine and have customuilt personas so that you can make your computer more personalized. Try out Zo today and they're always on computer that you can use to simplify your computer needs. Link in the description below. Even though mixture of experts helped reduce the token cost to nearly 3% to 4% of the entire size, we still need to fit the entire model into the graphics cards. So even at an inforc, you're going to use at least a minimum of 500 GB of VRAM just for the model weights alone. Which means the 640 GB of VRAM from a single DGX H100 machine only leaves us 140 GB left over for inference that the entire 28 people must share. And while 140 gigabytes might not seem that bad, let's see how the math actually looks like. If you go to hugging face, it gives you a little bit more detail on Kim K2's thinking model's actual architecture. And we can use these to calculate what we can work with. You have two times the number of layers times the number of hidden size and of course the precision which is usually in FP16 for inference. And after plugging in all the numbers, we get an estimate around 1.7 megabytes per token, which means in a 140 GB of shared memory, it could theoretically fit around 80,000 tokens. Yeah, not that much. Which means if we have 28 people sharing this one device, the maximum is 2,850 tokens per person. And we're just talking about KV cashier because we really haven't talked about activation weights and other overheads that go into it. So this is probably where we throw in the towel because well it just doesn't make sense financially to scale this up this way and you start to look at inference providers and say how are they not losing money on this. Broadly speaking my hot take is that companies that charge by the API pricing probably bakes their unit cost into their pricing so they don't lose money. While companies that charge subscription model where you're allotted a certain limit per day or in blocks of time probably want you to be hooked to their platform because they know that people aren't very loyal when it comes to API pricing but they're more likely to stay for subscription because API has no other benefits other than the raw intelligence but subscription implies they're using the product and they want more users on their platform and on their ecosystem. But this does give you a bigger appreciation for inference providers and Frontier Labs that are offering 400,000 or even 1 million context window at a decent tokens per second throughput consistently while serving them for less than $5 per million input tokens. And they're doing that for hundreds of millions of active users while thinking about energy infrastructure, cooling, and hardware. No wonder they need AI data centers that large. And running a shop at that scale does allow for more parallelism that make things a lot more efficient which is covered in my previous video called energy demand in AI where I break down the cost of energy and different types of parallelism that exists there. So, while buying server grade graphics cards might not make too much sense just yet, if either the graphics cards costs go down more or models become so efficient, it might actually start to make sense, assuming NeoClouds and inference providers don't drop their pricing accordingly, which they most likely Well,",
+  "fetchedAt": "2026-01-21T19:22:35.495Z"
+}

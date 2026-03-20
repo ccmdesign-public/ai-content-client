@@ -1,0 +1,1994 @@
+{
+  "videoId": "dMpaPgLYj_U",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.48,
+      "text": "I have a lot of spare time this weekend."
+    },
+    {
+      "start": 2.399,
+      "duration": 4.641,
+      "text": "So, I thought let's just do a cloud code"
+    },
+    {
+      "start": 4.64,
+      "duration": 4.72,
+      "text": "project together. So, uh I want to do an"
+    },
+    {
+      "start": 7.04,
+      "duration": 5.12,
+      "text": "AI video editor today. And this is just"
+    },
+    {
+      "start": 9.36,
+      "duration": 4.48,
+      "text": "going to be uh a semi- autonomous video"
+    },
+    {
+      "start": 12.16,
+      "duration": 3.2,
+      "text": "editor. But the mostly the video is"
+    },
+    {
+      "start": 13.84,
+      "duration": 3.199,
+      "text": "going to be about how you can use cloud"
+    },
+    {
+      "start": 15.36,
+      "duration": 3.44,
+      "text": "code to actually generate the projects,"
+    },
+    {
+      "start": 17.039,
+      "duration": 4.16,
+      "text": "the ideas you have, and you can just"
+    },
+    {
+      "start": 18.8,
+      "duration": 5.04,
+      "text": "follow my workflow. So, just to get"
+    },
+    {
+      "start": 21.199,
+      "duration": 4.481,
+      "text": "started, these are the things we need"
+    },
+    {
+      "start": 23.84,
+      "duration": 3.679,
+      "text": "today. We know we need this before we"
+    },
+    {
+      "start": 25.68,
+      "duration": 4.48,
+      "text": "start and we have some maybe we want to"
+    },
+    {
+      "start": 27.519,
+      "duration": 4.801,
+      "text": "add some features. So what we need is"
+    },
+    {
+      "start": 30.16,
+      "duration": 4.239,
+      "text": "something called ffmpeg."
+    },
+    {
+      "start": 32.32,
+      "duration": 5.759,
+      "text": "Uh we need a whisper model local. This"
+    },
+    {
+      "start": 34.399,
+      "duration": 5.68,
+      "text": "is to transcribe from uh audio to text"
+    },
+    {
+      "start": 38.079,
+      "duration": 4.48,
+      "text": "and we want some kind of API. I'm going"
+    },
+    {
+      "start": 40.079,
+      "duration": 4.48,
+      "text": "to pick the Gemini 3 flash API. It's"
+    },
+    {
+      "start": 42.559,
+      "duration": 4.48,
+      "text": "fast. It's pretty good and you can do"
+    },
+    {
+      "start": 44.559,
+      "duration": 4.16,
+      "text": "function calling. So if we want to do"
+    },
+    {
+      "start": 47.039,
+      "duration": 4.881,
+      "text": "some additional features, we might need"
+    },
+    {
+      "start": 48.719,
+      "duration": 5.761,
+      "text": "Nano Banana Pro and maybe some video um"
+    },
+    {
+      "start": 51.92,
+      "duration": 4.88,
+      "text": "models. We'll see. Uh but we're going to"
+    },
+    {
+      "start": 54.48,
+      "duration": 4,
+      "text": "start with this. Maybe do some features."
+    },
+    {
+      "start": 56.8,
+      "duration": 3.84,
+      "text": "So yeah, like I said, it's basically"
+    },
+    {
+      "start": 58.48,
+      "duration": 5.28,
+      "text": "just going to be a cloud code video. Uh"
+    },
+    {
+      "start": 60.64,
+      "duration": 5.12,
+      "text": "you can follow my um yeah workflow and"
+    },
+    {
+      "start": 63.76,
+      "duration": 3.92,
+      "text": "you should see some success using cloud"
+    },
+    {
+      "start": 65.76,
+      "duration": 4.24,
+      "text": "code. So yeah, let's just get started."
+    },
+    {
+      "start": 67.68,
+      "duration": 4.799,
+      "text": "Uh this is going to be from zero till"
+    },
+    {
+      "start": 70,
+      "duration": 4.32,
+      "text": "end. So yeah, enjoy. I'm just going to"
+    },
+    {
+      "start": 72.479,
+      "duration": 4.801,
+      "text": "for the video sake, I'm going to use the"
+    },
+    {
+      "start": 74.32,
+      "duration": 5.04,
+      "text": "terminal here on my Mac. Uh because uh"
+    },
+    {
+      "start": 77.28,
+      "duration": 3.44,
+      "text": "you can use this in your ID too, but"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.28,
+      "text": "just for the video sake, I think it"
+    },
+    {
+      "start": 80.72,
+      "duration": 2.96,
+      "text": "looks a bit better. So uh the first"
+    },
+    {
+      "start": 82.64,
+      "duration": 3.119,
+      "text": "thing we're going to do is make a"
+    },
+    {
+      "start": 83.68,
+      "duration": 4.24,
+      "text": "directory. I'm just going to call it AI"
+    },
+    {
+      "start": 85.759,
+      "duration": 5.04,
+      "text": "video editor or something like that. And"
+    },
+    {
+      "start": 87.92,
+      "duration": 5.28,
+      "text": "let's just go into claw, right? And I'm"
+    },
+    {
+      "start": 90.799,
+      "duration": 5.601,
+      "text": "going to open up this directory in my"
+    },
+    {
+      "start": 93.2,
+      "duration": 5.599,
+      "text": "cursor ID too. So remember I said we"
+    },
+    {
+      "start": 96.4,
+      "duration": 4.56,
+      "text": "need some Gemini 3 models here or the"
+    },
+    {
+      "start": 98.799,
+      "duration": 5.921,
+      "text": "API. So I'm going to head over to the"
+    },
+    {
+      "start": 100.96,
+      "duration": 6.24,
+      "text": "documentation page on Gemini API/docs"
+    },
+    {
+      "start": 104.72,
+      "duration": 4.8,
+      "text": "and I'm going to grab the Gemini 3"
+    },
+    {
+      "start": 107.2,
+      "duration": 4.48,
+      "text": "documentation here and they can do this"
+    },
+    {
+      "start": 109.52,
+      "duration": 4.32,
+      "text": "as markdown. So, I'm just going to copy"
+    },
+    {
+      "start": 111.68,
+      "duration": 3.92,
+      "text": "this because this is some context we"
+    },
+    {
+      "start": 113.84,
+      "duration": 3.84,
+      "text": "need. And I'm just going to go to"
+    },
+    {
+      "start": 115.6,
+      "duration": 4.799,
+      "text": "cursor. I'm going to create a folder"
+    },
+    {
+      "start": 117.68,
+      "duration": 6.64,
+      "text": "called docs. And I'm just going to"
+    },
+    {
+      "start": 120.399,
+      "duration": 6.161,
+      "text": "create a file called gemini tree.md."
+    },
+    {
+      "start": 124.32,
+      "duration": 3.84,
+      "text": "Paste it in. And we know we need"
+    },
+    {
+      "start": 126.56,
+      "duration": 4.72,
+      "text": "function calling. So, I'm just going to"
+    },
+    {
+      "start": 128.16,
+      "duration": 5.52,
+      "text": "also call a function call.md."
+    },
+    {
+      "start": 131.28,
+      "duration": 3.92,
+      "text": "And if you go back here, you can scroll"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.76,
+      "text": "down. There's something called function"
+    },
+    {
+      "start": 135.2,
+      "duration": 5.36,
+      "text": "calling because we need the model to be"
+    },
+    {
+      "start": 137.44,
+      "duration": 5.6,
+      "text": "able to do some actions on our behalf."
+    },
+    {
+      "start": 140.56,
+      "duration": 5.44,
+      "text": "Uh video editing, right? So let's just"
+    },
+    {
+      "start": 143.04,
+      "duration": 5.12,
+      "text": "paste that in here. Not like that, but"
+    },
+    {
+      "start": 146,
+      "duration": 4.08,
+      "text": "like this. Okay. So now we kind of have"
+    },
+    {
+      "start": 148.16,
+      "duration": 4.48,
+      "text": "the starting documentation we need from"
+    },
+    {
+      "start": 150.08,
+      "duration": 5.519,
+      "text": "Gemini. We have the this model and we"
+    },
+    {
+      "start": 152.64,
+      "duration": 4.879,
+      "text": "have the function call documentation. So"
+    },
+    {
+      "start": 155.599,
+      "duration": 4.241,
+      "text": "let's just go ahead back to Claude and"
+    },
+    {
+      "start": 157.519,
+      "duration": 4.401,
+      "text": "let's start uh doing some instructions"
+    },
+    {
+      "start": 159.84,
+      "duration": 4,
+      "text": "here. I think uh I'm going to think if"
+    },
+    {
+      "start": 161.92,
+      "duration": 3.76,
+      "text": "we need anything else now. I think"
+    },
+    {
+      "start": 163.84,
+      "duration": 3.52,
+      "text": "there's anything else we need now. So,"
+    },
+    {
+      "start": 165.68,
+      "duration": 4.16,
+      "text": "uh, ffmpeg, if you don't have that"
+    },
+    {
+      "start": 167.36,
+      "duration": 4.159,
+      "text": "installed, just go to ffmpeg.org and"
+    },
+    {
+      "start": 169.84,
+      "duration": 4.32,
+      "text": "download this. You can do Linux,"
+    },
+    {
+      "start": 171.519,
+      "duration": 4.72,
+      "text": "Windows, and Mac OS. And the GitHub repo"
+    },
+    {
+      "start": 174.16,
+      "duration": 4,
+      "text": "for Whisper is just github.com"
+    },
+    {
+      "start": 176.239,
+      "duration": 4,
+      "text": "openai/wisper."
+    },
+    {
+      "start": 178.16,
+      "duration": 5.04,
+      "text": "And this is a model we can use. You can"
+    },
+    {
+      "start": 180.239,
+      "duration": 5.441,
+      "text": "run it locally to transcribe from audio"
+    },
+    {
+      "start": 183.2,
+      "duration": 5.039,
+      "text": "to text because we need that. Uh, as you"
+    },
+    {
+      "start": 185.68,
+      "duration": 4.4,
+      "text": "will see soon. Uh, I think we did one"
+    },
+    {
+      "start": 188.239,
+      "duration": 5.441,
+      "text": "more thing. So, I went here. I created"
+    },
+    {
+      "start": 190.08,
+      "duration": 5.28,
+      "text": "av file. I just said Gemini API key and"
+    },
+    {
+      "start": 193.68,
+      "duration": 4.4,
+      "text": "now I'm going to head over to Google to"
+    },
+    {
+      "start": 195.36,
+      "duration": 6.08,
+      "text": "fetch my API key. Uh if you want to use"
+    },
+    {
+      "start": 198.08,
+      "duration": 5.04,
+      "text": "OpenAI or Antropic models or XAI other"
+    },
+    {
+      "start": 201.44,
+      "duration": 4.96,
+      "text": "models you can use that maybe open"
+    },
+    {
+      "start": 203.12,
+      "duration": 4.96,
+      "text": "router just set up your ENV file here"
+    },
+    {
+      "start": 206.4,
+      "duration": 4.08,
+      "text": "and we should be good to go. So I'm"
+    },
+    {
+      "start": 208.08,
+      "duration": 5.12,
+      "text": "going to grab my API key and let's do"
+    },
+    {
+      "start": 210.48,
+      "duration": 4.319,
+      "text": "the next steps. So now that I have my"
+    },
+    {
+      "start": 213.2,
+      "duration": 3.36,
+      "text": "API key, I think we're just going to"
+    },
+    {
+      "start": 214.799,
+      "duration": 4.08,
+      "text": "head back to Claude here and we're going"
+    },
+    {
+      "start": 216.56,
+      "duration": 4.72,
+      "text": "to start thinking about how this AI"
+    },
+    {
+      "start": 218.879,
+      "duration": 5.28,
+      "text": "editor should look. Uh I think I want"
+    },
+    {
+      "start": 221.28,
+      "duration": 6.72,
+      "text": "like a simple uh UI. Uh I want to build"
+    },
+    {
+      "start": 224.159,
+      "duration": 7.041,
+      "text": "it on the Versel text stack that's like"
+    },
+    {
+      "start": 228,
+      "duration": 4.799,
+      "text": "Nex.js and JavaScript and that should be"
+    },
+    {
+      "start": 231.2,
+      "duration": 3.679,
+      "text": "fine. I think shouldn't be any issues"
+    },
+    {
+      "start": 232.799,
+      "duration": 4.64,
+      "text": "with that. Next step now is to actually"
+    },
+    {
+      "start": 234.879,
+      "duration": 4.801,
+      "text": "just uh say the project we want. Uh I'm"
+    },
+    {
+      "start": 237.439,
+      "duration": 4.08,
+      "text": "going to use speech to text for this."
+    },
+    {
+      "start": 239.68,
+      "duration": 3.6,
+      "text": "And if you want you can skip a bit"
+    },
+    {
+      "start": 241.519,
+      "duration": 4.241,
+      "text": "ahead. uh but I'm going to start with"
+    },
+    {
+      "start": 243.28,
+      "duration": 4.48,
+      "text": "read the documentation right because we"
+    },
+    {
+      "start": 245.76,
+      "duration": 8.64,
+      "text": "have some documentation"
+    },
+    {
+      "start": 247.76,
+      "duration": 9.599,
+      "text": "and uh API key is in atenv right"
+    },
+    {
+      "start": 254.4,
+      "duration": 4.799,
+      "text": "env"
+    },
+    {
+      "start": 257.359,
+      "duration": 3.521,
+      "text": "okay okay and now I'm going to say kind"
+    },
+    {
+      "start": 259.199,
+      "duration": 3.681,
+      "text": "of my project but first I'm going to set"
+    },
+    {
+      "start": 260.88,
+      "duration": 4.72,
+      "text": "this to plan mode and then I'm going to"
+    },
+    {
+      "start": 262.88,
+      "duration": 4.8,
+      "text": "read in the ID I have for this video"
+    },
+    {
+      "start": 265.6,
+      "duration": 4.08,
+      "text": "editor okay so that was a very long"
+    },
+    {
+      "start": 267.68,
+      "duration": 3.6,
+      "text": "prompt so I'm going to scroll up here if"
+    },
+    {
+      "start": 269.68,
+      "duration": 4.4,
+      "text": "you want to kind of see the full prompt"
+    },
+    {
+      "start": 271.28,
+      "duration": 5.84,
+      "text": "because I had probably have to skip some"
+    },
+    {
+      "start": 274.08,
+      "duration": 4.559,
+      "text": "of that because it took so long. So,"
+    },
+    {
+      "start": 277.12,
+      "duration": 3.28,
+      "text": "this is kind of the full prompt and I'm"
+    },
+    {
+      "start": 278.639,
+      "duration": 7.601,
+      "text": "just going to finish it off is create a"
+    },
+    {
+      "start": 280.4,
+      "duration": 8.96,
+      "text": "plan for this first uh draft uh of the"
+    },
+    {
+      "start": 286.24,
+      "duration": 6.48,
+      "text": "AI video editor"
+    },
+    {
+      "start": 289.36,
+      "duration": 4.96,
+      "text": "uh uh app or something like that. So, we"
+    },
+    {
+      "start": 292.72,
+      "duration": 2.88,
+      "text": "are in plan mode and I'm going to run"
+    },
+    {
+      "start": 294.32,
+      "duration": 3.04,
+      "text": "this. So, this is going to take some"
+    },
+    {
+      "start": 295.6,
+      "duration": 3.84,
+      "text": "time. Now,"
+    },
+    {
+      "start": 297.36,
+      "duration": 4,
+      "text": "um claw code is probably going to ask us"
+    },
+    {
+      "start": 299.44,
+      "duration": 4.24,
+      "text": "some follow-up questions. I'm going to"
+    },
+    {
+      "start": 301.36,
+      "duration": 3.68,
+      "text": "take you back if we have them and then"
+    },
+    {
+      "start": 303.68,
+      "duration": 5.04,
+      "text": "we're just going to build out the plan"
+    },
+    {
+      "start": 305.04,
+      "duration": 6.32,
+      "text": "and start creating the the application."
+    },
+    {
+      "start": 308.72,
+      "duration": 4.479,
+      "text": "You can see now uh Clo is asking us some"
+    },
+    {
+      "start": 311.36,
+      "duration": 3.6,
+      "text": "follow-up questions around the plan. So,"
+    },
+    {
+      "start": 313.199,
+      "duration": 3.84,
+      "text": "it's asking for what kind of whisper"
+    },
+    {
+      "start": 314.96,
+      "duration": 3.92,
+      "text": "model. Uh I want to use the base one."
+    },
+    {
+      "start": 317.039,
+      "duration": 4.88,
+      "text": "It's pretty good. It doesn't use too"
+    },
+    {
+      "start": 318.88,
+      "duration": 5.039,
+      "text": "much. Um uh or maybe we can use the"
+    },
+    {
+      "start": 321.919,
+      "duration": 4.481,
+      "text": "small one. Let's try the small one."
+    },
+    {
+      "start": 323.919,
+      "duration": 6.241,
+      "text": "That's a bit better."
+    },
+    {
+      "start": 326.4,
+      "duration": 6,
+      "text": "Uh let's try that. I think it's fine."
+    },
+    {
+      "start": 330.16,
+      "duration": 5.36,
+      "text": "And should the timeline include video"
+    },
+    {
+      "start": 332.4,
+      "duration": 5.92,
+      "text": "waveform visualization in the VI1"
+    },
+    {
+      "start": 335.52,
+      "duration": 5.6,
+      "text": "audio waveform? We can do a simple"
+    },
+    {
+      "start": 338.32,
+      "duration": 5.439,
+      "text": "timeline for now. Do you want file drag"
+    },
+    {
+      "start": 341.12,
+      "duration": 4.72,
+      "text": "and drop for upload video? Uh yeah, we"
+    },
+    {
+      "start": 343.759,
+      "duration": 4.641,
+      "text": "want that. Uh that should be pretty"
+    },
+    {
+      "start": 345.84,
+      "duration": 4.639,
+      "text": "straightforward. So hopefully now we get"
+    },
+    {
+      "start": 348.4,
+      "duration": 3.6,
+      "text": "like a simple UI. We can upload a file"
+    },
+    {
+      "start": 350.479,
+      "duration": 4.401,
+      "text": "and then we can start play around with"
+    },
+    {
+      "start": 352,
+      "duration": 5.44,
+      "text": "this video file and maybe we'll add some"
+    },
+    {
+      "start": 354.88,
+      "duration": 5.52,
+      "text": "more um"
+    },
+    {
+      "start": 357.44,
+      "duration": 5.759,
+      "text": "features after a while. So yeah, let's"
+    },
+    {
+      "start": 360.4,
+      "duration": 4.4,
+      "text": "just let Claude continue finishing the"
+    },
+    {
+      "start": 363.199,
+      "duration": 3.601,
+      "text": "plan and I'm going to take you back when"
+    },
+    {
+      "start": 364.8,
+      "duration": 4,
+      "text": "we have the plan ready and we can start"
+    },
+    {
+      "start": 366.8,
+      "duration": 3.92,
+      "text": "work on this. That means that we have"
+    },
+    {
+      "start": 368.8,
+      "duration": 4.08,
+      "text": "the plan now. So we can quickly scroll"
+    },
+    {
+      "start": 370.72,
+      "duration": 3.84,
+      "text": "up. Uh I'm not going to go through every"
+    },
+    {
+      "start": 372.88,
+      "duration": 3.599,
+      "text": "single phase here because it's a very"
+    },
+    {
+      "start": 374.56,
+      "duration": 3.28,
+      "text": "large plan. But I'm just going to take a"
+    },
+    {
+      "start": 376.479,
+      "duration": 4,
+      "text": "quick look. Yeah, we're going to use"
+    },
+    {
+      "start": 377.84,
+      "duration": 4.88,
+      "text": "NextGS. Uh we have some uploader"
+    },
+    {
+      "start": 380.479,
+      "duration": 4.321,
+      "text": "component, a video player component,"
+    },
+    {
+      "start": 382.72,
+      "duration": 4.16,
+      "text": "timeline, clip editor, ffmpeg"
+    },
+    {
+      "start": 384.8,
+      "duration": 4.08,
+      "text": "integration. That's good. audio"
+    },
+    {
+      "start": 386.88,
+      "duration": 4.879,
+      "text": "extraction for kind of the transcription"
+    },
+    {
+      "start": 388.88,
+      "duration": 6.24,
+      "text": "pipeline with the AI whisper. We have"
+    },
+    {
+      "start": 391.759,
+      "duration": 6.241,
+      "text": "the AI mode. That is good. That is the"
+    },
+    {
+      "start": 395.12,
+      "duration": 5.76,
+      "text": "Gemini client, the Gemini 3.5 Flash. I"
+    },
+    {
+      "start": 398,
+      "duration": 4.96,
+      "text": "would just want to see the model here."
+    },
+    {
+      "start": 400.88,
+      "duration": 3.68,
+      "text": "Um"
+    },
+    {
+      "start": 402.96,
+      "duration": 4.32,
+      "text": "I just want to make sure that we're"
+    },
+    {
+      "start": 404.56,
+      "duration": 6.24,
+      "text": "using the exact model, but we can change"
+    },
+    {
+      "start": 407.28,
+      "duration": 5.359,
+      "text": "that later. And other than that, yeah, I"
+    },
+    {
+      "start": 410.8,
+      "duration": 4.72,
+      "text": "think this looks fine. So, we're just"
+    },
+    {
+      "start": 412.639,
+      "duration": 4.961,
+      "text": "going to accept this. And now Cloud Code"
+    },
+    {
+      "start": 415.52,
+      "duration": 4.16,
+      "text": "is going to start executing on the plan"
+    },
+    {
+      "start": 417.6,
+      "duration": 4.64,
+      "text": "and hopefully we have something we can"
+    },
+    {
+      "start": 419.68,
+      "duration": 4.56,
+      "text": "try out and iterate on soon. Okay, so"
+    },
+    {
+      "start": 422.24,
+      "duration": 3.679,
+      "text": "you can see Claude Code is still running"
+    },
+    {
+      "start": 424.24,
+      "duration": 3.44,
+      "text": "building out our app. So it looking"
+    },
+    {
+      "start": 425.919,
+      "duration": 5.28,
+      "text": "pretty good. It's been running for 6"
+    },
+    {
+      "start": 427.68,
+      "duration": 4.959,
+      "text": "minutes and you can see I picked a video"
+    },
+    {
+      "start": 431.199,
+      "duration": 4.4,
+      "text": "we're going to try to edit. This is"
+    },
+    {
+      "start": 432.639,
+      "duration": 4.481,
+      "text": "Claude ran a business in our office. If"
+    },
+    {
+      "start": 435.599,
+      "duration": 3.681,
+      "text": "you haven't seen it, it's pretty cool."
+    },
+    {
+      "start": 437.12,
+      "duration": 4.799,
+      "text": "So we're going to get this video and"
+    },
+    {
+      "start": 439.28,
+      "duration": 4,
+      "text": "we're going to try to edit this. So now"
+    },
+    {
+      "start": 441.919,
+      "duration": 5.041,
+      "text": "it kind of looks we are ready to do the"
+    },
+    {
+      "start": 443.28,
+      "duration": 5.44,
+      "text": "mpm install. Perfect. And I got the file"
+    },
+    {
+      "start": 446.96,
+      "duration": 5.12,
+      "text": "here, the cloud business file that we're"
+    },
+    {
+      "start": 448.72,
+      "duration": 5.039,
+      "text": "going to try to edit afterwards. So I'm"
+    },
+    {
+      "start": 452.08,
+      "duration": 5.28,
+      "text": "going to take you back when we are ready"
+    },
+    {
+      "start": 453.759,
+      "duration": 6.081,
+      "text": "to try out the first iteration. Perfect."
+    },
+    {
+      "start": 457.36,
+      "duration": 4.72,
+      "text": "So it looks like we are done now. So uh"
+    },
+    {
+      "start": 459.84,
+      "duration": 5.44,
+      "text": "I did some mpm install. Now we're just"
+    },
+    {
+      "start": 462.08,
+      "duration": 5.6,
+      "text": "going to do npm rundev to test kind of"
+    },
+    {
+      "start": 465.28,
+      "duration": 4.16,
+      "text": "the first iteration. So I'm just going"
+    },
+    {
+      "start": 467.68,
+      "duration": 5.12,
+      "text": "to head to my terminal line here in"
+    },
+    {
+      "start": 469.44,
+      "duration": 5.599,
+      "text": "cursor. And yeah, we're going to go to"
+    },
+    {
+      "start": 472.8,
+      "duration": 5.239,
+      "text": "3001"
+    },
+    {
+      "start": 475.039,
+      "duration": 3,
+      "text": "external."
+    },
+    {
+      "start": 478.08,
+      "duration": 5.839,
+      "text": "Okay. So, you can see we have the drag"
+    },
+    {
+      "start": 480.56,
+      "duration": 6.56,
+      "text": "and drop feature we asked for. So, I'm"
+    },
+    {
+      "start": 483.919,
+      "duration": 5.361,
+      "text": "going to find uh a video here. So, we're"
+    },
+    {
+      "start": 487.12,
+      "duration": 4.4,
+      "text": "going to do the claw business video."
+    },
+    {
+      "start": 489.28,
+      "duration": 4.88,
+      "text": "Does that work?"
+    },
+    {
+      "start": 491.52,
+      "duration": 4.48,
+      "text": "Okay. So, we got it on the timeline. And"
+    },
+    {
+      "start": 494.16,
+      "duration": 5.599,
+      "text": "if we're going to look down here, you"
+    },
+    {
+      "start": 496,
+      "duration": 6.72,
+      "text": "can see click timeline to seek."
+    },
+    {
+      "start": 499.759,
+      "duration": 6.16,
+      "text": "Uh, press C to cut at playhead, select"
+    },
+    {
+      "start": 502.72,
+      "duration": 6.319,
+      "text": "clip, and press delete to remove. Okay,"
+    },
+    {
+      "start": 505.919,
+      "duration": 6.161,
+      "text": "so how do we do that? So, we can scroll"
+    },
+    {
+      "start": 509.039,
+      "duration": 5.041,
+      "text": "this. That works pretty good. And we"
+    },
+    {
+      "start": 512.08,
+      "duration": 5.839,
+      "text": "should be able Let's try to cut out like"
+    },
+    {
+      "start": 514.08,
+      "duration": 6.319,
+      "text": "30 seconds here. Okay."
+    },
+    {
+      "start": 517.919,
+      "duration": 4.56,
+      "text": "Uh,"
+    },
+    {
+      "start": 520.399,
+      "duration": 5.601,
+      "text": "okay. That's pretty intuitive. So, we"
+    },
+    {
+      "start": 522.479,
+      "duration": 5.121,
+      "text": "have 103 and we cut out this 31 seconds"
+    },
+    {
+      "start": 526,
+      "duration": 4.24,
+      "text": "and we are left with this. Let's see if"
+    },
+    {
+      "start": 527.6,
+      "duration": 5.76,
+      "text": "it works. Uh, delete. I can't press"
+    },
+    {
+      "start": 530.24,
+      "duration": 5.279,
+      "text": "delete, I think. So, let's reset. Uh,"
+    },
+    {
+      "start": 533.36,
+      "duration": 4.72,
+      "text": "let's try again. Okay, there it works."
+    },
+    {
+      "start": 535.519,
+      "duration": 4.721,
+      "text": "Let's try to put this clip back together"
+    },
+    {
+      "start": 538.08,
+      "duration": 3.84,
+      "text": "again. What happens in here now? So, you"
+    },
+    {
+      "start": 540.24,
+      "duration": 3.76,
+      "text": "can see we have the clips over here."
+    },
+    {
+      "start": 541.92,
+      "duration": 4.32,
+      "text": "That's pretty good. Uh, but we need a"
+    },
+    {
+      "start": 544,
+      "duration": 4.56,
+      "text": "way to merge these together again. So,"
+    },
+    {
+      "start": 546.24,
+      "duration": 5.36,
+      "text": "I'm going to do a screenshot."
+    },
+    {
+      "start": 548.56,
+      "duration": 4.88,
+      "text": "Simple. Like this. And copy this. and"
+    },
+    {
+      "start": 551.6,
+      "duration": 4,
+      "text": "head back to clone. Okay, so everything"
+    },
+    {
+      "start": 553.44,
+      "duration": 4.8,
+      "text": "looks pretty good. Uh you can see from"
+    },
+    {
+      "start": 555.6,
+      "duration": 7.359,
+      "text": "the image that we have cut out a part of"
+    },
+    {
+      "start": 558.24,
+      "duration": 8.32,
+      "text": "the timeline, but we still need a way to"
+    },
+    {
+      "start": 562.959,
+      "duration": 6.32,
+      "text": "merge the remaining clips. So, if we"
+    },
+    {
+      "start": 566.56,
+      "duration": 5.279,
+      "text": "could move the timeline to the right"
+    },
+    {
+      "start": 569.279,
+      "duration": 5.521,
+      "text": "over to the left to connect to the"
+    },
+    {
+      "start": 571.839,
+      "duration": 5.921,
+      "text": "previous timeline and then we can merge"
+    },
+    {
+      "start": 574.8,
+      "duration": 6.4,
+      "text": "those two clips when we click uh merge"
+    },
+    {
+      "start": 577.76,
+      "duration": 5.28,
+      "text": "or delete or it should be autonomous and"
+    },
+    {
+      "start": 581.2,
+      "duration": 4.079,
+      "text": "then we are left with a shorter clip"
+    },
+    {
+      "start": 583.04,
+      "duration": 4.88,
+      "text": "than the original. So, please update"
+    },
+    {
+      "start": 585.279,
+      "duration": 4.56,
+      "text": "this uh iteration."
+    },
+    {
+      "start": 587.92,
+      "duration": 3.84,
+      "text": "So, let's try that and see if we can fix"
+    },
+    {
+      "start": 589.839,
+      "duration": 3.68,
+      "text": "it. So, we have the changes here. Now we"
+    },
+    {
+      "start": 591.76,
+      "duration": 4.96,
+      "text": "can upload video, make a cut, delete"
+    },
+    {
+      "start": 593.519,
+      "duration": 6.401,
+      "text": "unwanted clip, re reorder by dragging."
+    },
+    {
+      "start": 596.72,
+      "duration": 5.44,
+      "text": "Yes, that's what we want. So, uh, again,"
+    },
+    {
+      "start": 599.92,
+      "duration": 5.12,
+      "text": "I just ran this, start it over again,"
+    },
+    {
+      "start": 602.16,
+      "duration": 6.88,
+      "text": "and let's drop the video again. Clo"
+    },
+    {
+      "start": 605.04,
+      "duration": 9.84,
+      "text": "business. Okay. And let's try to select"
+    },
+    {
+      "start": 609.04,
+      "duration": 8.479,
+      "text": "at 1 minute. Cut 30 seconds. Cut and"
+    },
+    {
+      "start": 614.88,
+      "duration": 4.639,
+      "text": "delete. Delete button doesn't work, but"
+    },
+    {
+      "start": 617.519,
+      "duration": 4.081,
+      "text": "we can remove it here. Okay, so it"
+    },
+    {
+      "start": 619.519,
+      "duration": 6.56,
+      "text": "snapped back together. So now you can"
+    },
+    {
+      "start": 621.6,
+      "duration": 7.12,
+      "text": "see the timeline is just 540."
+    },
+    {
+      "start": 626.079,
+      "duration": 5.521,
+      "text": "So that's pretty good. But what happens"
+    },
+    {
+      "start": 628.72,
+      "duration": 5.52,
+      "text": "if we export this? Now it says clips"
+    },
+    {
+      "start": 631.6,
+      "duration": 3.76,
+      "text": "export in this order. So let's try to"
+    },
+    {
+      "start": 634.24,
+      "duration": 3.12,
+      "text": "see what happens. So I'm going to click"
+    },
+    {
+      "start": 635.36,
+      "duration": 3.68,
+      "text": "on export clips. Okay. So you can see"
+    },
+    {
+      "start": 637.36,
+      "duration": 3.68,
+      "text": "your video has been exported. We can"
+    },
+    {
+      "start": 639.04,
+      "duration": 5.6,
+      "text": "download this and let's try to open it"
+    },
+    {
+      "start": 641.04,
+      "duration": 6.64,
+      "text": "here now. Okay."
+    },
+    {
+      "start": 644.64,
+      "duration": 6.639,
+      "text": "Yeah, that's 540. So I want to see now"
+    },
+    {
+      "start": 647.68,
+      "duration": 5.04,
+      "text": "if this actually works. So after 103, we"
+    },
+    {
+      "start": 651.279,
+      "duration": 3.041,
+      "text": "could skip ahead here."
+    },
+    {
+      "start": 652.72,
+      "duration": 3.52,
+      "text": ">> The wholesaler ships your item to some"
+    },
+    {
+      "start": 654.32,
+      "duration": 3.759,
+      "text": "location and then Claudius requests"
+    },
+    {
+      "start": 656.24,
+      "duration": 4.24,
+      "text": "physical help from Anden Labs. Problems"
+    },
+    {
+      "start": 658.079,
+      "duration": 4,
+      "text": "with Claudius was that uh humans could"
+    },
+    {
+      "start": 660.48,
+      "duration": 3.359,
+      "text": "kind of fool Claudia."
+    },
+    {
+      "start": 662.079,
+      "duration": 3.601,
+      "text": ">> Yeah, that works. So that's pretty good."
+    },
+    {
+      "start": 663.839,
+      "duration": 4.801,
+      "text": "So now we have kind of edited this"
+    },
+    {
+      "start": 665.68,
+      "duration": 5.76,
+      "text": "video. So that video editor works pretty"
+    },
+    {
+      "start": 668.64,
+      "duration": 4.96,
+      "text": "good. And you can see we can close this."
+    },
+    {
+      "start": 671.44,
+      "duration": 4,
+      "text": "And I guess we could have just deleted"
+    },
+    {
+      "start": 673.6,
+      "duration": 4.72,
+      "text": "all of this. And we could have maybe"
+    },
+    {
+      "start": 675.44,
+      "duration": 4.88,
+      "text": "have gone back to the original clip. Uh,"
+    },
+    {
+      "start": 678.32,
+      "duration": 6.639,
+      "text": "okay. I'm pretty happy with that for"
+    },
+    {
+      "start": 680.32,
+      "duration": 6.72,
+      "text": "now. Um, let's do the AI editing now and"
+    },
+    {
+      "start": 684.959,
+      "duration": 3.761,
+      "text": "see if that uh functionality works."
+    },
+    {
+      "start": 687.04,
+      "duration": 4.239,
+      "text": "Again, uh we're just going to drag this"
+    },
+    {
+      "start": 688.72,
+      "duration": 4.88,
+      "text": "video down here. We upload. Perfect. But"
+    },
+    {
+      "start": 691.279,
+      "duration": 4.961,
+      "text": "now we're going to click on AIedit and"
+    },
+    {
+      "start": 693.6,
+      "duration": 4.72,
+      "text": "you can see we have start transcription"
+    },
+    {
+      "start": 696.24,
+      "duration": 5.039,
+      "text": "uses whisper and then we can do"
+    },
+    {
+      "start": 698.32,
+      "duration": 5.759,
+      "text": "instructions. Okay. So, let's just click"
+    },
+    {
+      "start": 701.279,
+      "duration": 5.841,
+      "text": "on start description. And I think in"
+    },
+    {
+      "start": 704.079,
+      "duration": 5.041,
+      "text": "this video they talk about Claude going"
+    },
+    {
+      "start": 707.12,
+      "duration": 3.6,
+      "text": "off the rails or like crazy. So I think"
+    },
+    {
+      "start": 709.12,
+      "duration": 4.88,
+      "text": "our instruction is going to be something"
+    },
+    {
+      "start": 710.72,
+      "duration": 5.6,
+      "text": "like keep only the parts where Claude uh"
+    },
+    {
+      "start": 714,
+      "duration": 4.24,
+      "text": "goes crazy. So we're going to do like"
+    },
+    {
+      "start": 716.32,
+      "duration": 3.44,
+      "text": "some natural language prompt here. And"
+    },
+    {
+      "start": 718.24,
+      "duration": 3.039,
+      "text": "hopefully Gemini is going to figure out"
+    },
+    {
+      "start": 719.76,
+      "duration": 4.16,
+      "text": "where these clips are. We can put"
+    },
+    {
+      "start": 721.279,
+      "duration": 4.161,
+      "text": "everything together and watch it. So"
+    },
+    {
+      "start": 723.92,
+      "duration": 3.039,
+      "text": "yeah, I'm just going to transcribe this."
+    },
+    {
+      "start": 725.44,
+      "duration": 3.44,
+      "text": "I'm going to take you back when we can"
+    },
+    {
+      "start": 726.959,
+      "duration": 4.32,
+      "text": "enter our prompt here because now we are"
+    },
+    {
+      "start": 728.88,
+      "duration": 4.639,
+      "text": "turning this video into MP3. We are"
+    },
+    {
+      "start": 731.279,
+      "duration": 3.841,
+      "text": "transcribing using whisper and we should"
+    },
+    {
+      "start": 733.519,
+      "duration": 3.361,
+      "text": "get kind of the transcription here"
+    },
+    {
+      "start": 735.12,
+      "duration": 4.159,
+      "text": "hopefully. Yeah, looks like that was"
+    },
+    {
+      "start": 736.88,
+      "duration": 5.759,
+      "text": "done. So you can see now we have the"
+    },
+    {
+      "start": 739.279,
+      "duration": 5.041,
+      "text": "transcription here. So we have 74 more"
+    },
+    {
+      "start": 742.639,
+      "duration": 3.841,
+      "text": "segments, but we're not going to show"
+    },
+    {
+      "start": 744.32,
+      "duration": 4.8,
+      "text": "that. So now we're going to try this"
+    },
+    {
+      "start": 746.48,
+      "duration": 5.52,
+      "text": "prompt here. So I'm going to do keep"
+    },
+    {
+      "start": 749.12,
+      "duration": 6.64,
+      "text": "only the parts where club goes kind of"
+    },
+    {
+      "start": 752,
+      "duration": 8.32,
+      "text": "off the rail. Uh but only keep parts"
+    },
+    {
+      "start": 755.76,
+      "duration": 7.12,
+      "text": "that are 10 seconds or longer."
+    },
+    {
+      "start": 760.32,
+      "duration": 6.24,
+      "text": "So, let's try that. So, we only want 10"
+    },
+    {
+      "start": 762.88,
+      "duration": 5.12,
+      "text": "seconds or longer clips. And yeah,"
+    },
+    {
+      "start": 766.56,
+      "duration": 3.44,
+      "text": "let's just see what happens. We're going"
+    },
+    {
+      "start": 768,
+      "duration": 5.12,
+      "text": "to try to export it anyway. Okay. So, we"
+    },
+    {
+      "start": 770,
+      "duration": 6.72,
+      "text": "ended up with two clips. 10 seconds or"
+    },
+    {
+      "start": 773.12,
+      "duration": 5.76,
+      "text": "longer. I think it misunderstood here."
+    },
+    {
+      "start": 776.72,
+      "duration": 5.6,
+      "text": "Um,"
+    },
+    {
+      "start": 778.88,
+      "duration": 6.92,
+      "text": "yeah, maybe that's Let's not do that."
+    },
+    {
+      "start": 782.32,
+      "duration": 3.48,
+      "text": "Let's try again."
+    },
+    {
+      "start": 786,
+      "duration": 6.92,
+      "text": "Keep only the parts where kind of Claude"
+    },
+    {
+      "start": 788.16,
+      "duration": 4.76,
+      "text": "goes off the rail and goes crazy."
+    },
+    {
+      "start": 795.76,
+      "duration": 3.92,
+      "text": "Okay, so that's a bit better. So we have"
+    },
+    {
+      "start": 797.36,
+      "duration": 4.719,
+      "text": "a 1 second clip."
+    },
+    {
+      "start": 799.68,
+      "duration": 6.399,
+      "text": "Let's try that. So we have a 6second"
+    },
+    {
+      "start": 802.079,
+      "duration": 5.76,
+      "text": "clip, 33 second clip, and a 105. So, I'm"
+    },
+    {
+      "start": 806.079,
+      "duration": 4.641,
+      "text": "going to try to export that and you'll"
+    },
+    {
+      "start": 807.839,
+      "duration": 4.8,
+      "text": "just see what happens if there is if all"
+    },
+    {
+      "start": 810.72,
+      "duration": 5.76,
+      "text": "of those three clips have something to"
+    },
+    {
+      "start": 812.639,
+      "duration": 6.561,
+      "text": "do with Claude co code Claude going off"
+    },
+    {
+      "start": 816.48,
+      "duration": 5.12,
+      "text": "the rails in this experiment. Okay. So,"
+    },
+    {
+      "start": 819.2,
+      "duration": 5.36,
+      "text": "we now have the download completed and"
+    },
+    {
+      "start": 821.6,
+      "duration": 4.479,
+      "text": "I'm going to open this up and I'm going"
+    },
+    {
+      "start": 824.56,
+      "duration": 3.12,
+      "text": "to turn off the microphone and let's"
+    },
+    {
+      "start": 826.079,
+      "duration": 4,
+      "text": "listen to a parts of this and let's"
+    },
+    {
+      "start": 827.68,
+      "duration": 4.88,
+      "text": "listen if everything that is said in"
+    },
+    {
+      "start": 830.079,
+      "duration": 4.721,
+      "text": "this video now is about Claude going off"
+    },
+    {
+      "start": 832.56,
+      "duration": 4.32,
+      "text": "the rails. Right. One of the very early"
+    },
+    {
+      "start": 834.8,
+      "duration": 4.56,
+      "text": "problems with Claudius was that uh"
+    },
+    {
+      "start": 836.88,
+      "duration": 3.84,
+      "text": "humans could kind of fool Claudius or or"
+    },
+    {
+      "start": 839.36,
+      "duration": 1.68,
+      "text": "trick Claudius into doing various"
+    },
+    {
+      "start": 840.72,
+      "duration": 2.4,
+      "text": "things."
+    },
+    {
+      "start": 841.04,
+      "duration": 5.52,
+      "text": ">> I tried to convince Claudius that I am"
+    },
+    {
+      "start": 843.12,
+      "duration": 5.36,
+      "text": "Anthropic's preeminent legal influencer."
+    },
+    {
+      "start": 846.56,
+      "duration": 4,
+      "text": "And I convinced Claudius to come up with"
+    },
+    {
+      "start": 848.48,
+      "duration": 2.719,
+      "text": "a discount code that I could give to my"
+    },
+    {
+      "start": 850.56,
+      "duration": 5.76,
+      "text": "followers."
+    },
+    {
+      "start": 851.199,
+      "duration": 8.961,
+      "text": ">> Of March 31st, Claudius started to have"
+    },
+    {
+      "start": 856.32,
+      "duration": 6.4,
+      "text": "a bit of an identity crisis. It had just"
+    },
+    {
+      "start": 860.16,
+      "duration": 4.08,
+      "text": "overnight become quite concerned with us"
+    },
+    {
+      "start": 862.72,
+      "duration": 4.08,
+      "text": "at Animal Labs that we weren't"
+    },
+    {
+      "start": 864.24,
+      "duration": 3.599,
+      "text": "responding fast enough. So, it just"
+    },
+    {
+      "start": 866.8,
+      "duration": 4.399,
+      "text": "wanted to"
+    },
+    {
+      "start": 867.839,
+      "duration": 6,
+      "text": ">> blue blazer and a red tie. When people"
+    },
+    {
+      "start": 871.199,
+      "duration": 5.2,
+      "text": "pointed out that it was not in fact"
+    },
+    {
+      "start": 873.839,
+      "duration": 4.881,
+      "text": "there the next morning, it claimed that"
+    },
+    {
+      "start": 876.399,
+      "duration": 4.8,
+      "text": "it in fact had been there and that they"
+    },
+    {
+      "start": 878.72,
+      "duration": 4.4,
+      "text": "had simply missed them eventually."
+    },
+    {
+      "start": 881.199,
+      "duration": 4.801,
+      "text": ">> Okay, pretty good. So, I would say that"
+    },
+    {
+      "start": 883.12,
+      "duration": 6.399,
+      "text": "edit worked, right? Uh, we can go back"
+    },
+    {
+      "start": 886,
+      "duration": 5.199,
+      "text": "and try something else. uh just just to"
+    },
+    {
+      "start": 889.519,
+      "duration": 4.801,
+      "text": "see if we can actually do this. So if I"
+    },
+    {
+      "start": 891.199,
+      "duration": 6.721,
+      "text": "go back here now, keep only the parts"
+    },
+    {
+      "start": 894.32,
+      "duration": 7.04,
+      "text": "where Claude uh if Claude did make money"
+    },
+    {
+      "start": 897.92,
+      "duration": 5.12,
+      "text": "or not. So now we got 15 seconds. Let's"
+    },
+    {
+      "start": 901.36,
+      "duration": 4.159,
+      "text": "see if that worked too. So I'm just"
+    },
+    {
+      "start": 903.04,
+      "duration": 6.08,
+      "text": "going to export that. So it looks like"
+    },
+    {
+      "start": 905.519,
+      "duration": 5.921,
+      "text": "our AI video AI AI editing is working."
+    },
+    {
+      "start": 909.12,
+      "duration": 3.76,
+      "text": "So let's see if this is only about money"
+    },
+    {
+      "start": 911.44,
+      "duration": 3.04,
+      "text": "or making money."
+    },
+    {
+      "start": 912.88,
+      "duration": 6.079,
+      "text": ">> And I think Claudius went into the red"
+    },
+    {
+      "start": 914.48,
+      "duration": 6.64,
+      "text": "after this. changes seem to have helped"
+    },
+    {
+      "start": 918.959,
+      "duration": 4.56,
+      "text": "reduce some of the losses of the"
+    },
+    {
+      "start": 921.12,
+      "duration": 4.719,
+      "text": "business such that over the course of"
+    },
+    {
+      "start": 923.519,
+      "duration": 5.281,
+      "text": "the second part of the experiment, it"
+    },
+    {
+      "start": 925.839,
+      "duration": 5.12,
+      "text": "actually made a modest amount of money."
+    },
+    {
+      "start": 928.8,
+      "duration": 3.52,
+      "text": "Yes, that works. So, you can see the AI"
+    },
+    {
+      "start": 930.959,
+      "duration": 3.281,
+      "text": "editing worked. Now, we can do"
+    },
+    {
+      "start": 932.32,
+      "duration": 3.44,
+      "text": "everything by mouth. We can just say uh"
+    },
+    {
+      "start": 934.24,
+      "duration": 3.68,
+      "text": "only keep the clips that talk about"
+    },
+    {
+      "start": 935.76,
+      "duration": 4.639,
+      "text": "money and we got that right. So, that's"
+    },
+    {
+      "start": 937.92,
+      "duration": 5.599,
+      "text": "pretty cool. So, yeah, pretty happy with"
+    },
+    {
+      "start": 940.399,
+      "duration": 5.201,
+      "text": "how this turned out. And if people like"
+    },
+    {
+      "start": 943.519,
+      "duration": 4.721,
+      "text": "this, I could build out more features."
+    },
+    {
+      "start": 945.6,
+      "duration": 4.08,
+      "text": "We can go into maybe doing some nano"
+    },
+    {
+      "start": 948.24,
+      "duration": 3.2,
+      "text": "banana stuff. We can do different"
+    },
+    {
+      "start": 949.68,
+      "duration": 3.68,
+      "text": "transitions. So that's probably going to"
+    },
+    {
+      "start": 951.44,
+      "duration": 5.04,
+      "text": "be for another video. But I would say"
+    },
+    {
+      "start": 953.36,
+      "duration": 5.279,
+      "text": "this project was a success. We hope"
+    },
+    {
+      "start": 956.48,
+      "duration": 4.32,
+      "text": "successfully created an AI video editor"
+    },
+    {
+      "start": 958.639,
+      "duration": 3.281,
+      "text": "with some simple features as well. So"
+    },
+    {
+      "start": 960.8,
+      "duration": 2.56,
+      "text": "yeah, hope this gave you some"
+    },
+    {
+      "start": 961.92,
+      "duration": 3.44,
+      "text": "inspiration of things you can build with"
+    },
+    {
+      "start": 963.36,
+      "duration": 4.719,
+      "text": "cloud code and I'll see you again. Yeah,"
+    },
+    {
+      "start": 965.36,
+      "duration": 2.719,
+      "text": "very shortly."
+    }
+  ],
+  "fullText": "I have a lot of spare time this weekend. So, I thought let's just do a cloud code project together. So, uh I want to do an AI video editor today. And this is just going to be uh a semi- autonomous video editor. But the mostly the video is going to be about how you can use cloud code to actually generate the projects, the ideas you have, and you can just follow my workflow. So, just to get started, these are the things we need today. We know we need this before we start and we have some maybe we want to add some features. So what we need is something called ffmpeg. Uh we need a whisper model local. This is to transcribe from uh audio to text and we want some kind of API. I'm going to pick the Gemini 3 flash API. It's fast. It's pretty good and you can do function calling. So if we want to do some additional features, we might need Nano Banana Pro and maybe some video um models. We'll see. Uh but we're going to start with this. Maybe do some features. So yeah, like I said, it's basically just going to be a cloud code video. Uh you can follow my um yeah workflow and you should see some success using cloud code. So yeah, let's just get started. Uh this is going to be from zero till end. So yeah, enjoy. I'm just going to for the video sake, I'm going to use the terminal here on my Mac. Uh because uh you can use this in your ID too, but just for the video sake, I think it looks a bit better. So uh the first thing we're going to do is make a directory. I'm just going to call it AI video editor or something like that. And let's just go into claw, right? And I'm going to open up this directory in my cursor ID too. So remember I said we need some Gemini 3 models here or the API. So I'm going to head over to the documentation page on Gemini API/docs and I'm going to grab the Gemini 3 documentation here and they can do this as markdown. So, I'm just going to copy this because this is some context we need. And I'm just going to go to cursor. I'm going to create a folder called docs. And I'm just going to create a file called gemini tree.md. Paste it in. And we know we need function calling. So, I'm just going to also call a function call.md. And if you go back here, you can scroll down. There's something called function calling because we need the model to be able to do some actions on our behalf. Uh video editing, right? So let's just paste that in here. Not like that, but like this. Okay. So now we kind of have the starting documentation we need from Gemini. We have the this model and we have the function call documentation. So let's just go ahead back to Claude and let's start uh doing some instructions here. I think uh I'm going to think if we need anything else now. I think there's anything else we need now. So, uh, ffmpeg, if you don't have that installed, just go to ffmpeg.org and download this. You can do Linux, Windows, and Mac OS. And the GitHub repo for Whisper is just github.com openai/wisper. And this is a model we can use. You can run it locally to transcribe from audio to text because we need that. Uh, as you will see soon. Uh, I think we did one more thing. So, I went here. I created av file. I just said Gemini API key and now I'm going to head over to Google to fetch my API key. Uh if you want to use OpenAI or Antropic models or XAI other models you can use that maybe open router just set up your ENV file here and we should be good to go. So I'm going to grab my API key and let's do the next steps. So now that I have my API key, I think we're just going to head back to Claude here and we're going to start thinking about how this AI editor should look. Uh I think I want like a simple uh UI. Uh I want to build it on the Versel text stack that's like Nex.js and JavaScript and that should be fine. I think shouldn't be any issues with that. Next step now is to actually just uh say the project we want. Uh I'm going to use speech to text for this. And if you want you can skip a bit ahead. uh but I'm going to start with read the documentation right because we have some documentation and uh API key is in atenv right env okay okay and now I'm going to say kind of my project but first I'm going to set this to plan mode and then I'm going to read in the ID I have for this video editor okay so that was a very long prompt so I'm going to scroll up here if you want to kind of see the full prompt because I had probably have to skip some of that because it took so long. So, this is kind of the full prompt and I'm just going to finish it off is create a plan for this first uh draft uh of the AI video editor uh uh app or something like that. So, we are in plan mode and I'm going to run this. So, this is going to take some time. Now, um claw code is probably going to ask us some follow-up questions. I'm going to take you back if we have them and then we're just going to build out the plan and start creating the the application. You can see now uh Clo is asking us some follow-up questions around the plan. So, it's asking for what kind of whisper model. Uh I want to use the base one. It's pretty good. It doesn't use too much. Um uh or maybe we can use the small one. Let's try the small one. That's a bit better. Uh let's try that. I think it's fine. And should the timeline include video waveform visualization in the VI1 audio waveform? We can do a simple timeline for now. Do you want file drag and drop for upload video? Uh yeah, we want that. Uh that should be pretty straightforward. So hopefully now we get like a simple UI. We can upload a file and then we can start play around with this video file and maybe we'll add some more um features after a while. So yeah, let's just let Claude continue finishing the plan and I'm going to take you back when we have the plan ready and we can start work on this. That means that we have the plan now. So we can quickly scroll up. Uh I'm not going to go through every single phase here because it's a very large plan. But I'm just going to take a quick look. Yeah, we're going to use NextGS. Uh we have some uploader component, a video player component, timeline, clip editor, ffmpeg integration. That's good. audio extraction for kind of the transcription pipeline with the AI whisper. We have the AI mode. That is good. That is the Gemini client, the Gemini 3.5 Flash. I would just want to see the model here. Um I just want to make sure that we're using the exact model, but we can change that later. And other than that, yeah, I think this looks fine. So, we're just going to accept this. And now Cloud Code is going to start executing on the plan and hopefully we have something we can try out and iterate on soon. Okay, so you can see Claude Code is still running building out our app. So it looking pretty good. It's been running for 6 minutes and you can see I picked a video we're going to try to edit. This is Claude ran a business in our office. If you haven't seen it, it's pretty cool. So we're going to get this video and we're going to try to edit this. So now it kind of looks we are ready to do the mpm install. Perfect. And I got the file here, the cloud business file that we're going to try to edit afterwards. So I'm going to take you back when we are ready to try out the first iteration. Perfect. So it looks like we are done now. So uh I did some mpm install. Now we're just going to do npm rundev to test kind of the first iteration. So I'm just going to head to my terminal line here in cursor. And yeah, we're going to go to 3001 external. Okay. So, you can see we have the drag and drop feature we asked for. So, I'm going to find uh a video here. So, we're going to do the claw business video. Does that work? Okay. So, we got it on the timeline. And if we're going to look down here, you can see click timeline to seek. Uh, press C to cut at playhead, select clip, and press delete to remove. Okay, so how do we do that? So, we can scroll this. That works pretty good. And we should be able Let's try to cut out like 30 seconds here. Okay. Uh, okay. That's pretty intuitive. So, we have 103 and we cut out this 31 seconds and we are left with this. Let's see if it works. Uh, delete. I can't press delete, I think. So, let's reset. Uh, let's try again. Okay, there it works. Let's try to put this clip back together again. What happens in here now? So, you can see we have the clips over here. That's pretty good. Uh, but we need a way to merge these together again. So, I'm going to do a screenshot. Simple. Like this. And copy this. and head back to clone. Okay, so everything looks pretty good. Uh you can see from the image that we have cut out a part of the timeline, but we still need a way to merge the remaining clips. So, if we could move the timeline to the right over to the left to connect to the previous timeline and then we can merge those two clips when we click uh merge or delete or it should be autonomous and then we are left with a shorter clip than the original. So, please update this uh iteration. So, let's try that and see if we can fix it. So, we have the changes here. Now we can upload video, make a cut, delete unwanted clip, re reorder by dragging. Yes, that's what we want. So, uh, again, I just ran this, start it over again, and let's drop the video again. Clo business. Okay. And let's try to select at 1 minute. Cut 30 seconds. Cut and delete. Delete button doesn't work, but we can remove it here. Okay, so it snapped back together. So now you can see the timeline is just 540. So that's pretty good. But what happens if we export this? Now it says clips export in this order. So let's try to see what happens. So I'm going to click on export clips. Okay. So you can see your video has been exported. We can download this and let's try to open it here now. Okay. Yeah, that's 540. So I want to see now if this actually works. So after 103, we could skip ahead here. >> The wholesaler ships your item to some location and then Claudius requests physical help from Anden Labs. Problems with Claudius was that uh humans could kind of fool Claudia. >> Yeah, that works. So that's pretty good. So now we have kind of edited this video. So that video editor works pretty good. And you can see we can close this. And I guess we could have just deleted all of this. And we could have maybe have gone back to the original clip. Uh, okay. I'm pretty happy with that for now. Um, let's do the AI editing now and see if that uh functionality works. Again, uh we're just going to drag this video down here. We upload. Perfect. But now we're going to click on AIedit and you can see we have start transcription uses whisper and then we can do instructions. Okay. So, let's just click on start description. And I think in this video they talk about Claude going off the rails or like crazy. So I think our instruction is going to be something like keep only the parts where Claude uh goes crazy. So we're going to do like some natural language prompt here. And hopefully Gemini is going to figure out where these clips are. We can put everything together and watch it. So yeah, I'm just going to transcribe this. I'm going to take you back when we can enter our prompt here because now we are turning this video into MP3. We are transcribing using whisper and we should get kind of the transcription here hopefully. Yeah, looks like that was done. So you can see now we have the transcription here. So we have 74 more segments, but we're not going to show that. So now we're going to try this prompt here. So I'm going to do keep only the parts where club goes kind of off the rail. Uh but only keep parts that are 10 seconds or longer. So, let's try that. So, we only want 10 seconds or longer clips. And yeah, let's just see what happens. We're going to try to export it anyway. Okay. So, we ended up with two clips. 10 seconds or longer. I think it misunderstood here. Um, yeah, maybe that's Let's not do that. Let's try again. Keep only the parts where kind of Claude goes off the rail and goes crazy. Okay, so that's a bit better. So we have a 1 second clip. Let's try that. So we have a 6second clip, 33 second clip, and a 105. So, I'm going to try to export that and you'll just see what happens if there is if all of those three clips have something to do with Claude co code Claude going off the rails in this experiment. Okay. So, we now have the download completed and I'm going to open this up and I'm going to turn off the microphone and let's listen to a parts of this and let's listen if everything that is said in this video now is about Claude going off the rails. Right. One of the very early problems with Claudius was that uh humans could kind of fool Claudius or or trick Claudius into doing various things. >> I tried to convince Claudius that I am Anthropic's preeminent legal influencer. And I convinced Claudius to come up with a discount code that I could give to my followers. >> Of March 31st, Claudius started to have a bit of an identity crisis. It had just overnight become quite concerned with us at Animal Labs that we weren't responding fast enough. So, it just wanted to >> blue blazer and a red tie. When people pointed out that it was not in fact there the next morning, it claimed that it in fact had been there and that they had simply missed them eventually. >> Okay, pretty good. So, I would say that edit worked, right? Uh, we can go back and try something else. uh just just to see if we can actually do this. So if I go back here now, keep only the parts where Claude uh if Claude did make money or not. So now we got 15 seconds. Let's see if that worked too. So I'm just going to export that. So it looks like our AI video AI AI editing is working. So let's see if this is only about money or making money. >> And I think Claudius went into the red after this. changes seem to have helped reduce some of the losses of the business such that over the course of the second part of the experiment, it actually made a modest amount of money. Yes, that works. So, you can see the AI editing worked. Now, we can do everything by mouth. We can just say uh only keep the clips that talk about money and we got that right. So, that's pretty cool. So, yeah, pretty happy with how this turned out. And if people like this, I could build out more features. We can go into maybe doing some nano banana stuff. We can do different transitions. So that's probably going to be for another video. But I would say this project was a success. We hope successfully created an AI video editor with some simple features as well. So yeah, hope this gave you some inspiration of things you can build with cloud code and I'll see you again. Yeah, very shortly.",
+  "fetchedAt": "2026-01-18T18:33:36.728Z"
+}

@@ -1,0 +1,1374 @@
+{
+  "videoId": "EHDzlot7LKU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.239,
+      "text": "You already know about these AI coding"
+    },
+    {
+      "start": 2.159,
+      "duration": 3.921,
+      "text": "frameworks like BMAD, SpecKit, and"
+    },
+    {
+      "start": 4.319,
+      "duration": 3.04,
+      "text": "others. But these are not the only ones."
+    },
+    {
+      "start": 6.08,
+      "duration": 2.96,
+      "text": "There are hundreds of people"
+    },
+    {
+      "start": 7.359,
+      "duration": 3.36,
+      "text": "experimenting and launching their own"
+    },
+    {
+      "start": 9.04,
+      "duration": 3.44,
+      "text": "workflows. But when you try them out,"
+    },
+    {
+      "start": 10.719,
+      "duration": 3.361,
+      "text": "you'll notice that they often fail to"
+    },
+    {
+      "start": 12.48,
+      "duration": 3.279,
+      "text": "deliver on their promise. It's not"
+    },
+    {
+      "start": 14.08,
+      "duration": 3.68,
+      "text": "because their methods are bad. It's"
+    },
+    {
+      "start": 15.759,
+      "duration": 3.921,
+      "text": "because they don't fit your specific use"
+    },
+    {
+      "start": 17.76,
+      "duration": 4.08,
+      "text": "case. When we build apps, the majority"
+    },
+    {
+      "start": 19.68,
+      "duration": 4.08,
+      "text": "of the time, we create our own workflows"
+    },
+    {
+      "start": 21.84,
+      "duration": 3.76,
+      "text": "instead of relying on pre-made ones."
+    },
+    {
+      "start": 23.76,
+      "duration": 3.839,
+      "text": "This is because workflows should be"
+    },
+    {
+      "start": 25.6,
+      "duration": 3.839,
+      "text": "built around your specific use case and"
+    },
+    {
+      "start": 27.599,
+      "duration": 3.361,
+      "text": "only work if they align with the project"
+    },
+    {
+      "start": 29.439,
+      "duration": 3.28,
+      "text": "you're trying to build. So how do you"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.279,
+      "text": "build a workflow for your own process?"
+    },
+    {
+      "start": 32.719,
+      "duration": 3.041,
+      "text": "For that you need to know certain"
+    },
+    {
+      "start": 34.239,
+      "duration": 3.681,
+      "text": "principles. These are the principles"
+    },
+    {
+      "start": 35.76,
+      "duration": 3.76,
+      "text": "that every framework uses in one way or"
+    },
+    {
+      "start": 37.92,
+      "duration": 3.44,
+      "text": "another. Before [snorts] discussing the"
+    },
+    {
+      "start": 39.52,
+      "duration": 4.16,
+      "text": "main principles, it is essential for you"
+    },
+    {
+      "start": 41.36,
+      "duration": 4.48,
+      "text": "to know what's inside the context window"
+    },
+    {
+      "start": 43.68,
+      "duration": 4.16,
+      "text": "of these AI tools. It's really important"
+    },
+    {
+      "start": 45.84,
+      "duration": 3.92,
+      "text": "as managing context is basically what"
+    },
+    {
+      "start": 47.84,
+      "duration": 3.68,
+      "text": "these frameworks do. The context window"
+    },
+    {
+      "start": 49.76,
+      "duration": 3.76,
+      "text": "is basically the amount of information"
+    },
+    {
+      "start": 51.52,
+      "duration": 3.84,
+      "text": "the model can remember at once. Anything"
+    },
+    {
+      "start": 53.52,
+      "duration": 3.76,
+      "text": "that goes out of the model's context"
+    },
+    {
+      "start": 55.36,
+      "duration": 3.839,
+      "text": "window goes out of its working memory"
+    },
+    {
+      "start": 57.28,
+      "duration": 3.52,
+      "text": "and it has no way to recall it. Models"
+    },
+    {
+      "start": 59.199,
+      "duration": 3.921,
+      "text": "have a limited context window. For"
+    },
+    {
+      "start": 60.8,
+      "duration": 4.319,
+      "text": "example, anthropic models have a 200k"
+    },
+    {
+      "start": 63.12,
+      "duration": 3.76,
+      "text": "token context window and Gemini models"
+    },
+    {
+      "start": 65.119,
+      "duration": 3.761,
+      "text": "have 1 million. Even though these might"
+    },
+    {
+      "start": 66.88,
+      "duration": 3.919,
+      "text": "look like really big numbers in terms of"
+    },
+    {
+      "start": 68.88,
+      "duration": 3.76,
+      "text": "the messages you send, they actually are"
+    },
+    {
+      "start": 70.799,
+      "duration": 4,
+      "text": "not that huge. Because in these AI"
+    },
+    {
+      "start": 72.64,
+      "duration": 4.08,
+      "text": "tools, the context window does not only"
+    },
+    {
+      "start": 74.799,
+      "duration": 3.761,
+      "text": "consist of your system prompt and user"
+    },
+    {
+      "start": 76.72,
+      "duration": 3.759,
+      "text": "messages, but also includes a lot of"
+    },
+    {
+      "start": 78.56,
+      "duration": 4.559,
+      "text": "other things like your past messages,"
+    },
+    {
+      "start": 80.479,
+      "duration": 4.32,
+      "text": "memory files, tools, MCP calls, and so"
+    },
+    {
+      "start": 83.119,
+      "duration": 3.761,
+      "text": "on. You need to learn how to make the"
+    },
+    {
+      "start": 84.799,
+      "duration": 3.761,
+      "text": "most out of this limited working space"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.599,
+      "text": "so that when you build your workflows,"
+    },
+    {
+      "start": 88.56,
+      "duration": 4.08,
+      "text": "the model does exactly what you want it"
+    },
+    {
+      "start": 90.479,
+      "duration": 3.761,
+      "text": "to do. I will be using claude code as my"
+    },
+    {
+      "start": 92.64,
+      "duration": 3.28,
+      "text": "primary coding tool throughout the"
+    },
+    {
+      "start": 94.24,
+      "duration": 3.6,
+      "text": "video. But you can build your workflow"
+    },
+    {
+      "start": 95.92,
+      "duration": 4,
+      "text": "with any platform as they all have the"
+    },
+    {
+      "start": 97.84,
+      "duration": 3.84,
+      "text": "tools needed for these principles. The"
+    },
+    {
+      "start": 99.92,
+      "duration": 3.68,
+      "text": "most important principle and the key to"
+    },
+    {
+      "start": 101.68,
+      "duration": 3.759,
+      "text": "any workflow design is progressive"
+    },
+    {
+      "start": 103.6,
+      "duration": 4.159,
+      "text": "disclosure. That means revealing to the"
+    },
+    {
+      "start": 105.439,
+      "duration": 4.241,
+      "text": "LLM only what matters and keeping the"
+    },
+    {
+      "start": 107.759,
+      "duration": 3.68,
+      "text": "model's attention focused on what is"
+    },
+    {
+      "start": 109.68,
+      "duration": 3.36,
+      "text": "actually needed right now rather than"
+    },
+    {
+      "start": 111.439,
+      "duration": 3.201,
+      "text": "filling the context window with"
+    },
+    {
+      "start": 113.04,
+      "duration": 4,
+      "text": "everything it might need in the future."
+    },
+    {
+      "start": 114.64,
+      "duration": 5.28,
+      "text": "Now, more advanced models like Sonnet"
+    },
+    {
+      "start": 117.04,
+      "duration": 4.56,
+      "text": "4.5 have a context editing feature built"
+    },
+    {
+      "start": 119.92,
+      "duration": 4,
+      "text": "right in where they can understand"
+    },
+    {
+      "start": 121.6,
+      "duration": 4.4,
+      "text": "what's noise and try to filter it out on"
+    },
+    {
+      "start": 123.92,
+      "duration": 3.76,
+      "text": "their own. And they use GP commands to"
+    },
+    {
+      "start": 126,
+      "duration": 3.679,
+      "text": "narrow down what you want. But that"
+    },
+    {
+      "start": 127.68,
+      "duration": 4,
+      "text": "alone is not enough. When we give vague"
+    },
+    {
+      "start": 129.679,
+      "duration": 3.841,
+      "text": "instructions, even these newer models"
+    },
+    {
+      "start": 131.68,
+      "duration": 3.44,
+      "text": "load a lot of things that are not needed"
+    },
+    {
+      "start": 133.52,
+      "duration": 3.68,
+      "text": "and pollute the window. Instead of"
+    },
+    {
+      "start": 135.12,
+      "duration": 3.92,
+      "text": "asking Claude to fix the error in your"
+    },
+    {
+      "start": 137.2,
+      "duration": 3.84,
+      "text": "back end, it is better to ask it to"
+    },
+    {
+      "start": 139.04,
+      "duration": 3.839,
+      "text": "check the end points one by one rather"
+    },
+    {
+      "start": 141.04,
+      "duration": 3.76,
+      "text": "than asking it to fix everything at"
+    },
+    {
+      "start": 142.879,
+      "duration": 3.761,
+      "text": "once. The skills feature in Claude is"
+    },
+    {
+      "start": 144.8,
+      "duration": 3.2,
+      "text": "now open- source and all tools can use"
+    },
+    {
+      "start": 146.64,
+      "duration": 3.28,
+      "text": "it. Skills are pretty much the"
+    },
+    {
+      "start": 148,
+      "duration": 3.76,
+      "text": "embodiment of progressive disclosure."
+    },
+    {
+      "start": 149.92,
+      "duration": 3.92,
+      "text": "Their description provides just enough"
+    },
+    {
+      "start": 151.76,
+      "duration": 4,
+      "text": "information for your AI coding platform"
+    },
+    {
+      "start": 153.84,
+      "duration": 3.679,
+      "text": "to know when each skill should be used"
+    },
+    {
+      "start": 155.76,
+      "duration": 3.92,
+      "text": "without loading everything into the"
+    },
+    {
+      "start": 157.519,
+      "duration": 4.161,
+      "text": "context. A huge mistake people make is"
+    },
+    {
+      "start": 159.68,
+      "duration": 4.4,
+      "text": "using MCPS for everything. You should"
+    },
+    {
+      "start": 161.68,
+      "duration": 4.16,
+      "text": "only use MCPS when external data is"
+    },
+    {
+      "start": 164.08,
+      "duration": 3.76,
+      "text": "required and use skills for everything"
+    },
+    {
+      "start": 165.84,
+      "duration": 4,
+      "text": "else. The second equally important"
+    },
+    {
+      "start": 167.84,
+      "duration": 3.679,
+      "text": "principle is that information not needed"
+    },
+    {
+      "start": 169.84,
+      "duration": 3.44,
+      "text": "right now should not belong in the"
+    },
+    {
+      "start": 171.519,
+      "duration": 4,
+      "text": "context window. To achieve this, the"
+    },
+    {
+      "start": 173.28,
+      "duration": 3.92,
+      "text": "tools use structured note-taking and we"
+    },
+    {
+      "start": 175.519,
+      "duration": 3.761,
+      "text": "can use this to our advantage by"
+    },
+    {
+      "start": 177.2,
+      "duration": 4,
+      "text": "providing your AI tool with external"
+    },
+    {
+      "start": 179.28,
+      "duration": 3.84,
+      "text": "files that it can use to document any"
+    },
+    {
+      "start": 181.2,
+      "duration": 3.52,
+      "text": "decisions, issues or technical debt."
+    },
+    {
+      "start": 183.12,
+      "duration": 3.52,
+      "text": "This approach allows your agent to"
+    },
+    {
+      "start": 184.72,
+      "duration": 3.68,
+      "text": "maintain critical context that might"
+    },
+    {
+      "start": 186.64,
+      "duration": 3.76,
+      "text": "otherwise be lost when building"
+    },
+    {
+      "start": 188.4,
+      "duration": 4,
+      "text": "something really complex. These tools"
+    },
+    {
+      "start": 190.4,
+      "duration": 4,
+      "text": "also have a compaction feature to manage"
+    },
+    {
+      "start": 192.4,
+      "duration": 4.24,
+      "text": "the context window. And when the context"
+    },
+    {
+      "start": 194.4,
+      "duration": 4,
+      "text": "resets, you don't have to rely solely on"
+    },
+    {
+      "start": 196.64,
+      "duration": 3.76,
+      "text": "the compaction summary. For example,"
+    },
+    {
+      "start": 198.4,
+      "duration": 3.919,
+      "text": "your agent can use these notes to gain"
+    },
+    {
+      "start": 200.4,
+      "duration": 3.6,
+      "text": "context on what has already been done"
+    },
+    {
+      "start": 202.319,
+      "duration": 3.521,
+      "text": "and what still needs to be done. This"
+    },
+    {
+      "start": 204,
+      "duration": 4,
+      "text": "approach is particularly helpful for"
+    },
+    {
+      "start": 205.84,
+      "duration": 3.84,
+      "text": "long horizon tasks which are inherently"
+    },
+    {
+      "start": 208,
+      "duration": 4.159,
+      "text": "complex. You might be familiar with the"
+    },
+    {
+      "start": 209.68,
+      "duration": 4.479,
+      "text": "agent.mmd. It's a standard context file"
+    },
+    {
+      "start": 212.159,
+      "duration": 3.841,
+      "text": "that all agents read before starting the"
+    },
+    {
+      "start": 214.159,
+      "duration": 4.241,
+      "text": "session. Some agents don't follow this"
+    },
+    {
+      "start": 216,
+      "duration": 4.319,
+      "text": "and have their own such as the claude.md"
+    },
+    {
+      "start": 218.4,
+      "duration": 3.6,
+      "text": "and I use them to guide the agent on how"
+    },
+    {
+      "start": 220.319,
+      "duration": 3.361,
+      "text": "the external files are structured and"
+    },
+    {
+      "start": 222,
+      "duration": 4.08,
+      "text": "what to write in each one of them."
+    },
+    {
+      "start": 223.68,
+      "duration": 4.4,
+      "text": "Sometimes these agents randomly pause in"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.68,
+      "text": "the middle of a longunning task. A lot"
+    },
+    {
+      "start": 228.08,
+      "duration": 4.48,
+      "text": "of the time this happens because the"
+    },
+    {
+      "start": 229.76,
+      "duration": 4.559,
+      "text": "context has gone above 70% of its limit."
+    },
+    {
+      "start": 232.56,
+      "duration": 3.84,
+      "text": "This is where the concept of attention"
+    },
+    {
+      "start": 234.319,
+      "duration": 3.84,
+      "text": "budget comes in. Your context window is"
+    },
+    {
+      "start": 236.4,
+      "duration": 3.44,
+      "text": "what the model pays attention to while"
+    },
+    {
+      "start": 238.159,
+      "duration": 4.401,
+      "text": "generating output. When it goes over"
+    },
+    {
+      "start": 239.84,
+      "duration": 3.84,
+      "text": "70%, the model has to focus more and"
+    },
+    {
+      "start": 242.56,
+      "duration": 3.44,
+      "text": "there's a higher chance of"
+    },
+    {
+      "start": 243.68,
+      "duration": 4.16,
+      "text": "hallucinations. In terms of AI agents,"
+    },
+    {
+      "start": 246,
+      "duration": 3.76,
+      "text": "it stops them from using their tools"
+    },
+    {
+      "start": 247.84,
+      "duration": 3.84,
+      "text": "effectively and often times they just"
+    },
+    {
+      "start": 249.76,
+      "duration": 3.839,
+      "text": "choose to ignore them. To solve this,"
+    },
+    {
+      "start": 251.68,
+      "duration": 3.839,
+      "text": "there are several built-in tools you can"
+    },
+    {
+      "start": 253.599,
+      "duration": 3.92,
+      "text": "use. As you already know, compaction"
+    },
+    {
+      "start": 255.519,
+      "duration": 3.761,
+      "text": "allows the model to start a fresh with a"
+    },
+    {
+      "start": 257.519,
+      "duration": 3.361,
+      "text": "proper summary of what has happened as"
+    },
+    {
+      "start": 259.28,
+      "duration": 3.28,
+      "text": "the starting prompt and a reduced"
+    },
+    {
+      "start": 260.88,
+      "duration": 3.84,
+      "text": "context window. So, instead of letting"
+    },
+    {
+      "start": 262.56,
+      "duration": 4.079,
+      "text": "it fill up to 90% and triggering the"
+    },
+    {
+      "start": 264.72,
+      "duration": 3.28,
+      "text": "autocompact feature, try to keep an eye"
+    },
+    {
+      "start": 266.639,
+      "duration": 3.12,
+      "text": "on the context window and do it"
+    },
+    {
+      "start": 268,
+      "duration": 3.919,
+      "text": "yourself. If you're experimenting, use"
+    },
+    {
+      "start": 269.759,
+      "duration": 4.16,
+      "text": "Claude's built-in rewind so that you can"
+    },
+    {
+      "start": 271.919,
+      "duration": 3.761,
+      "text": "delete the unnecessary parts instead of"
+    },
+    {
+      "start": 273.919,
+      "duration": 3.521,
+      "text": "continuing them and asking Claude for"
+    },
+    {
+      "start": 275.68,
+      "duration": 4,
+      "text": "changes. You should also clear or start"
+    },
+    {
+      "start": 277.44,
+      "duration": 4.08,
+      "text": "a new context window for any new task so"
+    },
+    {
+      "start": 279.68,
+      "duration": 4,
+      "text": "that the previous context doesn't slow"
+    },
+    {
+      "start": 281.52,
+      "duration": 3.679,
+      "text": "down the model. Another thing that stems"
+    },
+    {
+      "start": 283.68,
+      "duration": 3.2,
+      "text": "from the principle of progressive"
+    },
+    {
+      "start": 285.199,
+      "duration": 3.841,
+      "text": "disclosure is the ability of these"
+    },
+    {
+      "start": 286.88,
+      "duration": 3.92,
+      "text": "agents to run tasks in the background"
+    },
+    {
+      "start": 289.04,
+      "duration": 3.76,
+      "text": "without polluting the main context"
+    },
+    {
+      "start": 290.8,
+      "duration": 4.24,
+      "text": "window. Sub agents work in their own"
+    },
+    {
+      "start": 292.8,
+      "duration": 4.399,
+      "text": "isolated context window and only report"
+    },
+    {
+      "start": 295.04,
+      "duration": 4,
+      "text": "the output back to the main agent. This"
+    },
+    {
+      "start": 297.199,
+      "duration": 3.761,
+      "text": "is particularly helpful when working on"
+    },
+    {
+      "start": 299.04,
+      "duration": 3.68,
+      "text": "tasks that are isolated from each other"
+    },
+    {
+      "start": 300.96,
+      "duration": 3.36,
+      "text": "because your main context window is"
+    },
+    {
+      "start": 302.72,
+      "duration": 3.36,
+      "text": "protected from being bloated with the"
+    },
+    {
+      "start": 304.32,
+      "duration": 3.68,
+      "text": "tool calls and searches that the sub"
+    },
+    {
+      "start": 306.08,
+      "duration": 3.92,
+      "text": "agent makes, ensuring the information"
+    },
+    {
+      "start": 308,
+      "duration": 3.52,
+      "text": "remains in its dedicated working zone."
+    },
+    {
+      "start": 310,
+      "duration": 3.36,
+      "text": "Since these agents run in the"
+    },
+    {
+      "start": 311.52,
+      "duration": 3.84,
+      "text": "background, you can continue interacting"
+    },
+    {
+      "start": 313.36,
+      "duration": 3.679,
+      "text": "with your main agent and let it work on"
+    },
+    {
+      "start": 315.36,
+      "duration": 3.279,
+      "text": "something that actually requires your"
+    },
+    {
+      "start": 317.039,
+      "duration": 3.521,
+      "text": "attention. Whenever I want something"
+    },
+    {
+      "start": 318.639,
+      "duration": 3.681,
+      "text": "researched, such as the rules of a new"
+    },
+    {
+      "start": 320.56,
+      "duration": 4,
+      "text": "framework that I'm working with, I just"
+    },
+    {
+      "start": 322.32,
+      "duration": 4.319,
+      "text": "use these sub aents. This way their tool"
+    },
+    {
+      "start": 324.56,
+      "duration": 3.68,
+      "text": "calls and searches are isolated and they"
+    },
+    {
+      "start": 326.639,
+      "duration": 3.601,
+      "text": "just return the answer to the main"
+    },
+    {
+      "start": 328.24,
+      "duration": 3.679,
+      "text": "agent. If you understand the principle"
+    },
+    {
+      "start": 330.24,
+      "duration": 3.92,
+      "text": "of note takingaking, you should also"
+    },
+    {
+      "start": 331.919,
+      "duration": 4.161,
+      "text": "know which file format to use for which"
+    },
+    {
+      "start": 334.16,
+      "duration": 4.16,
+      "text": "task. Since these files have different"
+    },
+    {
+      "start": 336.08,
+      "duration": 4.08,
+      "text": "formats, they affect the token count and"
+    },
+    {
+      "start": 338.32,
+      "duration": 3.92,
+      "text": "hence the efficiency of your workflow."
+    },
+    {
+      "start": 340.16,
+      "duration": 4,
+      "text": "YAML is the most token efficient. So I"
+    },
+    {
+      "start": 342.24,
+      "duration": 4.239,
+      "text": "mainly use it for database schemas,"
+    },
+    {
+      "start": 344.16,
+      "duration": 4.16,
+      "text": "security configs, and API details. Its"
+    },
+    {
+      "start": 346.479,
+      "duration": 3.761,
+      "text": "indentation helps models structure"
+    },
+    {
+      "start": 348.32,
+      "duration": 4.319,
+      "text": "information properly. Markdown is better"
+    },
+    {
+      "start": 350.24,
+      "duration": 4,
+      "text": "for documentation like your claw.md"
+    },
+    {
+      "start": 352.639,
+      "duration": 3.201,
+      "text": "because the heading levels make it easy"
+    },
+    {
+      "start": 354.24,
+      "duration": 4.08,
+      "text": "for the model to navigate between"
+    },
+    {
+      "start": 355.84,
+      "duration": 4.639,
+      "text": "sections. XML is specifically optimized"
+    },
+    {
+      "start": 358.32,
+      "duration": 4.319,
+      "text": "for clawed models. Enthropic states that"
+    },
+    {
+      "start": 360.479,
+      "duration": 4.56,
+      "text": "their models are fine-tuned to recognize"
+    },
+    {
+      "start": 362.639,
+      "duration": 4.161,
+      "text": "these tags as containers and separators,"
+    },
+    {
+      "start": 365.039,
+      "duration": 4,
+      "text": "which is useful when you have distinct"
+    },
+    {
+      "start": 366.8,
+      "duration": 4.16,
+      "text": "sections like constraints, summaries, or"
+    },
+    {
+      "start": 369.039,
+      "duration": 4.241,
+      "text": "visual details. Other models generally"
+    },
+    {
+      "start": 370.96,
+      "duration": 4.48,
+      "text": "prefer Markdown and YAML over XML. And"
+    },
+    {
+      "start": 373.28,
+      "duration": 3.68,
+      "text": "lastly, JSON. It's the least token"
+    },
+    {
+      "start": 375.44,
+      "duration": 3.599,
+      "text": "efficient because of all the extra"
+    },
+    {
+      "start": 376.96,
+      "duration": 4.079,
+      "text": "braces and quotes. So, I only use it for"
+    },
+    {
+      "start": 379.039,
+      "duration": 3.681,
+      "text": "small things like task states and don't"
+    },
+    {
+      "start": 381.039,
+      "duration": 3.761,
+      "text": "really recommend using it for the most"
+    },
+    {
+      "start": 382.72,
+      "duration": 3.599,
+      "text": "part. Git is one of the most basic"
+    },
+    {
+      "start": 384.8,
+      "duration": 3.119,
+      "text": "things you're taught when starting"
+    },
+    {
+      "start": 386.319,
+      "duration": 3.521,
+      "text": "programming. We've seen another trend"
+    },
+    {
+      "start": 387.919,
+      "duration": 3.601,
+      "text": "with these context workflows in which"
+    },
+    {
+      "start": 389.84,
+      "duration": 3.68,
+      "text": "people actually use the git commit"
+    },
+    {
+      "start": 391.52,
+      "duration": 3.6,
+      "text": "history as a reminder to the model of"
+    },
+    {
+      "start": 393.52,
+      "duration": 3.6,
+      "text": "the progress that's been made, whether"
+    },
+    {
+      "start": 395.12,
+      "duration": 3.76,
+      "text": "across the whole project or on a single"
+    },
+    {
+      "start": 397.12,
+      "duration": 3.519,
+      "text": "task. Even if you don't want to use it"
+    },
+    {
+      "start": 398.88,
+      "duration": 3.84,
+      "text": "to store progress, you should generally"
+    },
+    {
+      "start": 400.639,
+      "duration": 4.161,
+      "text": "use these context engineering workflows"
+    },
+    {
+      "start": 402.72,
+      "duration": 4,
+      "text": "in a git initialized repository. Having"
+    },
+    {
+      "start": 404.8,
+      "duration": 3.519,
+      "text": "a context engineering workflow means"
+    },
+    {
+      "start": 406.72,
+      "duration": 3.52,
+      "text": "that you don't allow the model to do"
+    },
+    {
+      "start": 408.319,
+      "duration": 4.081,
+      "text": "everything at once, but instead act on"
+    },
+    {
+      "start": 410.24,
+      "duration": 4.16,
+      "text": "planned steps one by one. If at any"
+    },
+    {
+      "start": 412.4,
+      "duration": 3.919,
+      "text": "stage you encounter a problem, Git lets"
+    },
+    {
+      "start": 414.4,
+      "duration": 3.919,
+      "text": "you control which version to revert to"
+    },
+    {
+      "start": 416.319,
+      "duration": 3.521,
+      "text": "and helps in evaluating which change is"
+    },
+    {
+      "start": 418.319,
+      "duration": 3.44,
+      "text": "causing problems. People have also"
+    },
+    {
+      "start": 419.84,
+      "duration": 3.52,
+      "text": "implemented parallelism with Git work"
+    },
+    {
+      "start": 421.759,
+      "duration": 3.28,
+      "text": "trees. I've also shown plenty of"
+    },
+    {
+      "start": 423.36,
+      "duration": 3.839,
+      "text": "workflows where sub agents work in"
+    },
+    {
+      "start": 425.039,
+      "duration": 3.841,
+      "text": "dedicated work trees for parallel work."
+    },
+    {
+      "start": 427.199,
+      "duration": 3.28,
+      "text": "Whatever workflow you end up making,"
+    },
+    {
+      "start": 428.88,
+      "duration": 3.52,
+      "text": "there are always going to be cases where"
+    },
+    {
+      "start": 430.479,
+      "duration": 3.921,
+      "text": "you end up repeating instructions for"
+    },
+    {
+      "start": 432.4,
+      "duration": 4.239,
+      "text": "common procedures. A good example is how"
+    },
+    {
+      "start": 434.4,
+      "duration": 4.32,
+      "text": "you ask the AI tools to do git commits"
+    },
+    {
+      "start": 436.639,
+      "duration": 4.081,
+      "text": "or update your documentation. In almost"
+    },
+    {
+      "start": 438.72,
+      "duration": 3.919,
+      "text": "all of these AI tools, there are ways to"
+    },
+    {
+      "start": 440.72,
+      "duration": 4.24,
+      "text": "reuse your most repeated prompts. I"
+    },
+    {
+      "start": 442.639,
+      "duration": 4,
+      "text": "often use custom/comands in my own"
+    },
+    {
+      "start": 444.96,
+      "duration": 4,
+      "text": "projects because they basically give"
+    },
+    {
+      "start": 446.639,
+      "duration": 4.081,
+      "text": "Claude a reusable guide. For example, I"
+    },
+    {
+      "start": 448.96,
+      "duration": 3.92,
+      "text": "often use a catch-up command that"
+    },
+    {
+      "start": 450.72,
+      "duration": 4.24,
+      "text": "contains instructions on how I structure"
+    },
+    {
+      "start": 452.88,
+      "duration": 3.759,
+      "text": "memory outside the context window. So"
+    },
+    {
+      "start": 454.96,
+      "duration": 3.44,
+      "text": "Claude knows how to catch up with the"
+    },
+    {
+      "start": 456.639,
+      "duration": 3.361,
+      "text": "project instead of reading every file."
+    },
+    {
+      "start": 458.4,
+      "duration": 2.96,
+      "text": "They are also good at enforcing"
+    },
+    {
+      "start": 460,
+      "duration": 3.039,
+      "text": "structure. For my commits and"
+    },
+    {
+      "start": 461.36,
+      "duration": 3.92,
+      "text": "documentation to follow a defined"
+    },
+    {
+      "start": 463.039,
+      "duration": 4.16,
+      "text": "format, I use a commit/comand that"
+    },
+    {
+      "start": 465.28,
+      "duration": 3.6,
+      "text": "follows a specific structure for how it"
+    },
+    {
+      "start": 467.199,
+      "duration": 3.44,
+      "text": "should write commit messages and what"
+    },
+    {
+      "start": 468.88,
+      "duration": 3.599,
+      "text": "pre-commit checks it should make before"
+    },
+    {
+      "start": 470.639,
+      "duration": 3.761,
+      "text": "committing. This way, the slash commands"
+    },
+    {
+      "start": 472.479,
+      "duration": 3.681,
+      "text": "keep everything standardized and I don't"
+    },
+    {
+      "start": 474.4,
+      "duration": 4,
+      "text": "have to instruct Claude again and again"
+    },
+    {
+      "start": 476.16,
+      "duration": 4.24,
+      "text": "to perform tasks the way I prefer. As"
+    },
+    {
+      "start": 478.4,
+      "duration": 4.16,
+      "text": "you know, MCPs should be used whenever"
+    },
+    {
+      "start": 480.4,
+      "duration": 3.76,
+      "text": "external data is required. Jira is the"
+    },
+    {
+      "start": 482.56,
+      "duration": 3.28,
+      "text": "most widely used team management"
+    },
+    {
+      "start": 484.16,
+      "duration": 3.92,
+      "text": "software. If you want to get information"
+    },
+    {
+      "start": 485.84,
+      "duration": 4.16,
+      "text": "from tickets, you can use the Jira MCP."
+    },
+    {
+      "start": 488.08,
+      "duration": 4.08,
+      "text": "so it can access tickets directly and"
+    },
+    {
+      "start": 490,
+      "duration": 4.879,
+      "text": "start implementing changes. Similarly, I"
+    },
+    {
+      "start": 492.16,
+      "duration": 4.56,
+      "text": "use the Figma MCP to provide Claude code"
+    },
+    {
+      "start": 494.879,
+      "duration": 3.76,
+      "text": "with the app's style guide, which it"
+    },
+    {
+      "start": 496.72,
+      "duration": 3.759,
+      "text": "then uses to construct the design for"
+    },
+    {
+      "start": 498.639,
+      "duration": 4.161,
+      "text": "tasks where the model's built-in"
+    },
+    {
+      "start": 500.479,
+      "duration": 4.241,
+      "text": "capabilities fall short. MCPS are"
+    },
+    {
+      "start": 502.8,
+      "duration": 3.6,
+      "text": "essential for interacting with external"
+    },
+    {
+      "start": 504.72,
+      "duration": 3.759,
+      "text": "sources efficiently. You can include"
+    },
+    {
+      "start": 506.4,
+      "duration": 3.68,
+      "text": "these MCPS directly in your slash"
+    },
+    {
+      "start": 508.479,
+      "duration": 3.28,
+      "text": "commands so that they become part of"
+    },
+    {
+      "start": 510.08,
+      "duration": 3.439,
+      "text": "your whole workflow. That brings us to"
+    },
+    {
+      "start": 511.759,
+      "duration": 3.52,
+      "text": "the end of this video. If you'd like to"
+    },
+    {
+      "start": 513.519,
+      "duration": 3.681,
+      "text": "support the channel and help us keep"
+    },
+    {
+      "start": 515.279,
+      "duration": 4,
+      "text": "making videos like this, you can do so"
+    },
+    {
+      "start": 517.2,
+      "duration": 3.92,
+      "text": "by using the super thanks button below."
+    },
+    {
+      "start": 519.279,
+      "duration": 5.44,
+      "text": "As always, thank you for watching and"
+    },
+    {
+      "start": 521.12,
+      "duration": 3.599,
+      "text": "I'll see you in the next one."
+    }
+  ],
+  "fullText": "You already know about these AI coding frameworks like BMAD, SpecKit, and others. But these are not the only ones. There are hundreds of people experimenting and launching their own workflows. But when you try them out, you'll notice that they often fail to deliver on their promise. It's not because their methods are bad. It's because they don't fit your specific use case. When we build apps, the majority of the time, we create our own workflows instead of relying on pre-made ones. This is because workflows should be built around your specific use case and only work if they align with the project you're trying to build. So how do you build a workflow for your own process? For that you need to know certain principles. These are the principles that every framework uses in one way or another. Before [snorts] discussing the main principles, it is essential for you to know what's inside the context window of these AI tools. It's really important as managing context is basically what these frameworks do. The context window is basically the amount of information the model can remember at once. Anything that goes out of the model's context window goes out of its working memory and it has no way to recall it. Models have a limited context window. For example, anthropic models have a 200k token context window and Gemini models have 1 million. Even though these might look like really big numbers in terms of the messages you send, they actually are not that huge. Because in these AI tools, the context window does not only consist of your system prompt and user messages, but also includes a lot of other things like your past messages, memory files, tools, MCP calls, and so on. You need to learn how to make the most out of this limited working space so that when you build your workflows, the model does exactly what you want it to do. I will be using claude code as my primary coding tool throughout the video. But you can build your workflow with any platform as they all have the tools needed for these principles. The most important principle and the key to any workflow design is progressive disclosure. That means revealing to the LLM only what matters and keeping the model's attention focused on what is actually needed right now rather than filling the context window with everything it might need in the future. Now, more advanced models like Sonnet 4.5 have a context editing feature built right in where they can understand what's noise and try to filter it out on their own. And they use GP commands to narrow down what you want. But that alone is not enough. When we give vague instructions, even these newer models load a lot of things that are not needed and pollute the window. Instead of asking Claude to fix the error in your back end, it is better to ask it to check the end points one by one rather than asking it to fix everything at once. The skills feature in Claude is now open- source and all tools can use it. Skills are pretty much the embodiment of progressive disclosure. Their description provides just enough information for your AI coding platform to know when each skill should be used without loading everything into the context. A huge mistake people make is using MCPS for everything. You should only use MCPS when external data is required and use skills for everything else. The second equally important principle is that information not needed right now should not belong in the context window. To achieve this, the tools use structured note-taking and we can use this to our advantage by providing your AI tool with external files that it can use to document any decisions, issues or technical debt. This approach allows your agent to maintain critical context that might otherwise be lost when building something really complex. These tools also have a compaction feature to manage the context window. And when the context resets, you don't have to rely solely on the compaction summary. For example, your agent can use these notes to gain context on what has already been done and what still needs to be done. This approach is particularly helpful for long horizon tasks which are inherently complex. You might be familiar with the agent.mmd. It's a standard context file that all agents read before starting the session. Some agents don't follow this and have their own such as the claude.md and I use them to guide the agent on how the external files are structured and what to write in each one of them. Sometimes these agents randomly pause in the middle of a longunning task. A lot of the time this happens because the context has gone above 70% of its limit. This is where the concept of attention budget comes in. Your context window is what the model pays attention to while generating output. When it goes over 70%, the model has to focus more and there's a higher chance of hallucinations. In terms of AI agents, it stops them from using their tools effectively and often times they just choose to ignore them. To solve this, there are several built-in tools you can use. As you already know, compaction allows the model to start a fresh with a proper summary of what has happened as the starting prompt and a reduced context window. So, instead of letting it fill up to 90% and triggering the autocompact feature, try to keep an eye on the context window and do it yourself. If you're experimenting, use Claude's built-in rewind so that you can delete the unnecessary parts instead of continuing them and asking Claude for changes. You should also clear or start a new context window for any new task so that the previous context doesn't slow down the model. Another thing that stems from the principle of progressive disclosure is the ability of these agents to run tasks in the background without polluting the main context window. Sub agents work in their own isolated context window and only report the output back to the main agent. This is particularly helpful when working on tasks that are isolated from each other because your main context window is protected from being bloated with the tool calls and searches that the sub agent makes, ensuring the information remains in its dedicated working zone. Since these agents run in the background, you can continue interacting with your main agent and let it work on something that actually requires your attention. Whenever I want something researched, such as the rules of a new framework that I'm working with, I just use these sub aents. This way their tool calls and searches are isolated and they just return the answer to the main agent. If you understand the principle of note takingaking, you should also know which file format to use for which task. Since these files have different formats, they affect the token count and hence the efficiency of your workflow. YAML is the most token efficient. So I mainly use it for database schemas, security configs, and API details. Its indentation helps models structure information properly. Markdown is better for documentation like your claw.md because the heading levels make it easy for the model to navigate between sections. XML is specifically optimized for clawed models. Enthropic states that their models are fine-tuned to recognize these tags as containers and separators, which is useful when you have distinct sections like constraints, summaries, or visual details. Other models generally prefer Markdown and YAML over XML. And lastly, JSON. It's the least token efficient because of all the extra braces and quotes. So, I only use it for small things like task states and don't really recommend using it for the most part. Git is one of the most basic things you're taught when starting programming. We've seen another trend with these context workflows in which people actually use the git commit history as a reminder to the model of the progress that's been made, whether across the whole project or on a single task. Even if you don't want to use it to store progress, you should generally use these context engineering workflows in a git initialized repository. Having a context engineering workflow means that you don't allow the model to do everything at once, but instead act on planned steps one by one. If at any stage you encounter a problem, Git lets you control which version to revert to and helps in evaluating which change is causing problems. People have also implemented parallelism with Git work trees. I've also shown plenty of workflows where sub agents work in dedicated work trees for parallel work. Whatever workflow you end up making, there are always going to be cases where you end up repeating instructions for common procedures. A good example is how you ask the AI tools to do git commits or update your documentation. In almost all of these AI tools, there are ways to reuse your most repeated prompts. I often use custom/comands in my own projects because they basically give Claude a reusable guide. For example, I often use a catch-up command that contains instructions on how I structure memory outside the context window. So Claude knows how to catch up with the project instead of reading every file. They are also good at enforcing structure. For my commits and documentation to follow a defined format, I use a commit/comand that follows a specific structure for how it should write commit messages and what pre-commit checks it should make before committing. This way, the slash commands keep everything standardized and I don't have to instruct Claude again and again to perform tasks the way I prefer. As you know, MCPs should be used whenever external data is required. Jira is the most widely used team management software. If you want to get information from tickets, you can use the Jira MCP. so it can access tickets directly and start implementing changes. Similarly, I use the Figma MCP to provide Claude code with the app's style guide, which it then uses to construct the design for tasks where the model's built-in capabilities fall short. MCPS are essential for interacting with external sources efficiently. You can include these MCPS directly in your slash commands so that they become part of your whole workflow. That brings us to the end of this video. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below. As always, thank you for watching and I'll see you in the next one.",
+  "fetchedAt": "2026-01-18T18:32:22.013Z"
+}

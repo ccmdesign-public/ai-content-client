@@ -1,0 +1,1034 @@
+{
+  "videoId": "A4_6zqPO1yQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.7,
+      "text": "In the previous video, I have shown you the overview of MAID Runner."
+    },
+    {
+      "start": 3.74,
+      "duration": 3.2,
+      "text": "So in this video, I'm going to break this down step by step,"
+    },
+    {
+      "start": 7.059,
+      "duration": 3.28,
+      "text": "starting with how to install the MAID Runner CLI tool."
+    },
+    {
+      "start": 10.48,
+      "duration": 4.379,
+      "text": "Here in my IDE, I have opened the GitHub repository, the readme file,"
+    },
+    {
+      "start": 15.56,
+      "duration": 1.6,
+      "text": "and you can see the three usage modes."
+    },
+    {
+      "start": 17.42,
+      "duration": 1.319,
+      "text": "First is the manual development."
+    },
+    {
+      "start": 19.1,
+      "duration": 1.06,
+      "text": "We write everything."
+    },
+    {
+      "start": 20.3,
+      "duration": 2.539,
+      "text": "We write the manifest, the test, and the implementation."
+    },
+    {
+      "start": 23.219,
+      "duration": 3.96,
+      "text": "On the second usage mode, we are using AI tools to suggest code"
+    },
+    {
+      "start": 27.179,
+      "duration": 2.601,
+      "text": "and create the manifest, etc."
+    },
+    {
+      "start": 30,
+      "duration": 4.5,
+      "text": "The third one is what I have shown you in the previous video, the fully automated mode."
+    },
+    {
+      "start": 34.64,
+      "duration": 3.82,
+      "text": "In this video, I'm going to use the AI-assisted mode using Claude Code."
+    },
+    {
+      "start": 38.7,
+      "duration": 3.18,
+      "text": "If we scroll down a bit, we can see how to install MAID Runner."
+    },
+    {
+      "start": 41.939,
+      "duration": 2.72,
+      "text": "So I've already installed this in my project here."
+    },
+    {
+      "start": 44.82,
+      "duration": 4.119,
+      "text": "So if I install it using pip, it's already audited."
+    },
+    {
+      "start": 49,
+      "duration": 4.939,
+      "text": "So if I run maid version, we can see the latest version is 0.5."
+    },
+    {
+      "start": 54.039,
+      "duration": 3,
+      "text": "I recommend using uuV because it's easy to use."
+    },
+    {
+      "start": 57.039,
+      "duration": 6.421,
+      "text": "Now let's review the current project structure here. So this is a MAID Runner MCP server project."
+    },
+    {
+      "start": 63.74,
+      "duration": 5.339,
+      "text": "This is set up so that it will work well with MAID Runner. If I come here to the issues,"
+    },
+    {
+      "start": 69.459,
+      "duration": 6.5,
+      "text": "I'm using the MAID Runner repository to track the issues even if it's going to be implemented on a"
+    },
+    {
+      "start": 75.959,
+      "duration": 5.56,
+      "text": "separate project. So for today, we're going to implement the MCP server. So there's an epic for"
+    },
+    {
+      "start": 81.519,
+      "duration": 6.14,
+      "text": "that and particularly we're going to implement the mcp server foundation okay so this is the"
+    },
+    {
+      "start": 88.239,
+      "duration": 6.34,
+      "text": "issue details but basically we just want to establish MAID mcp server that is working with"
+    },
+    {
+      "start": 94.579,
+      "duration": 5.761,
+      "text": "all the tools available with the MAID runner cli so to start with what we need to do is to"
+    },
+    {
+      "start": 100.34,
+      "duration": 6.14,
+      "text": "initialize MAID in this project and to do that we can run uv run maid in it what it will do is it"
+    },
+    {
+      "start": 106.48,
+      "duration": 2.64,
+      "text": "It will create the manifest, the test directories."
+    },
+    {
+      "start": 109.14,
+      "duration": 1.34,
+      "text": "It will create docs directory."
+    },
+    {
+      "start": 110.799,
+      "duration": 1.741,
+      "text": "It will copy these two documentation."
+    },
+    {
+      "start": 112.939,
+      "duration": 2.061,
+      "text": "It will update the cloud.md file."
+    },
+    {
+      "start": 115.159,
+      "duration": 4.461,
+      "text": "If it exists, it will show several options to append, overwrite, or skip."
+    },
+    {
+      "start": 119.76,
+      "duration": 6.94,
+      "text": "So generally, we want to append so that it won't overwrite our own cloud.md customizations already inside."
+    },
+    {
+      "start": 126.939,
+      "duration": 3.6,
+      "text": "Now, it's asking us to copy the Claude Code agent files."
+    },
+    {
+      "start": 130.599,
+      "duration": 3.6,
+      "text": "So yes, as well as the command files, the custom slash commands."
+    },
+    {
+      "start": 134.199,
+      "duration": 9.68,
+      "text": "Once we do that, we can see the changes here and the agents, I will explain this as we move along, will be used to work with this project via the MAID methodology."
+    },
+    {
+      "start": 144.139,
+      "duration": 4.481,
+      "text": "And also the corresponding custom slash commands will be used to call the agents."
+    },
+    {
+      "start": 148.62,
+      "duration": 17.199,
+      "text": "And as I mentioned earlier, it also created this documentation directory where the MAID specification is placed, as well as some general unit testing rules to write an effective behavioral test, not implementation detailed testing, but a reliable unit test."
+    },
+    {
+      "start": 166.08,
+      "duration": 12.28,
+      "text": "And if we go to the cloud.md file, we can see the changes here. The init command inserted this MAID methodology section that introduces how to work with MAID. So that's how maid init works."
+    },
+    {
+      "start": 178.36,
+      "duration": 4.42,
+      "text": "So let me just quickly commit all of this so that we have a clean slate."
+    },
+    {
+      "start": 182.939,
+      "duration": 3.921,
+      "text": "Alright, so the next one is I'm going to use the spike command."
+    },
+    {
+      "start": 187.139,
+      "duration": 3.06,
+      "text": "Spike means it's just an exploration of an idea."
+    },
+    {
+      "start": 190.379,
+      "duration": 4.481,
+      "text": "Here we are saying to explore this idea and then come up with a plan."
+    },
+    {
+      "start": 195,
+      "duration": 1.96,
+      "text": "Basically, that's how spike works."
+    },
+    {
+      "start": 197.219,
+      "duration": 3.88,
+      "text": "So let me clear this terminal up and then let me fire up Claude Code."
+    },
+    {
+      "start": 201.199,
+      "duration": 3.821,
+      "text": "I have set up CCD or Claude Code bypassing the permissions."
+    },
+    {
+      "start": 205.02,
+      "duration": 7.04,
+      "text": "I will use the spike custom command and then tell Claude Code to explore this issue number 89."
+    },
+    {
+      "start": 215.06,
+      "duration": 5.359,
+      "text": "It correctly found the GitHub issue and along with the prompt that I have mentioned,"
+    },
+    {
+      "start": 220.719,
+      "duration": 5.361,
+      "text": "Claude Code will explore in the current project to find out how to implement this issue."
+    },
+    {
+      "start": 226.319,
+      "duration": 2.72,
+      "text": "Alright, so we can see here that we have a plan."
+    },
+    {
+      "start": 229.039,
+      "duration": 5.88,
+      "text": "We can see the spike summary for issue number 89 and it correctly identified the correct"
+    },
+    {
+      "start": 234.919,
+      "duration": 0.921,
+      "text": "MAID runner commands."
+    },
+    {
+      "start": 236.18,
+      "duration": 5.079,
+      "text": "And here is the important part, the breakdown of the task, one manifest per file."
+    },
+    {
+      "start": 241.46,
+      "duration": 4.519,
+      "text": "So we will come back to this response by using Claude Code forking."
+    },
+    {
+      "start": 246.12,
+      "duration": 1.699,
+      "text": "I will show you how to do that later."
+    },
+    {
+      "start": 248,
+      "duration": 4.699,
+      "text": "We can see here that the first task is the blank server creating this file."
+    },
+    {
+      "start": 252.86,
+      "duration": 3.459,
+      "text": "So we can refer to the task by using the task number here."
+    },
+    {
+      "start": 256.42,
+      "duration": 1.839,
+      "text": "To start, we need to create the manifest."
+    },
+    {
+      "start": 258.259,
+      "duration": 3.981,
+      "text": "So to do that, we will use the generate manifest custom slash command."
+    },
+    {
+      "start": 262.399,
+      "duration": 8.161,
+      "text": "Once we do that, Claude Code will call the subagent maid manifests architect to create the manifest for task 001, which is the blank MCP server."
+    },
+    {
+      "start": 270.839,
+      "duration": 1.24,
+      "text": "So it has that context."
+    },
+    {
+      "start": 272.279,
+      "duration": 1.1,
+      "text": "Now it's running."
+    },
+    {
+      "start": 273.579,
+      "duration": 1.541,
+      "text": "It's creating the manifest."
+    },
+    {
+      "start": 275.379,
+      "duration": 4.421,
+      "text": "Let me switch to the version control so we can see which files are being created."
+    },
+    {
+      "start": 279.959,
+      "duration": 2.161,
+      "text": "Now it started to create the manifest."
+    },
+    {
+      "start": 282.459,
+      "duration": 3.92,
+      "text": "So the manifest validation passes schema only mode."
+    },
+    {
+      "start": 286.379,
+      "duration": 3.301,
+      "text": "We can see the typical maid manifests here."
+    },
+    {
+      "start": 289.839,
+      "duration": 2.1,
+      "text": "The creatable files does not exist yet."
+    },
+    {
+      "start": 292.019,
+      "duration": 4.3,
+      "text": "And the expected artifacts, create server, the main function is also here."
+    },
+    {
+      "start": 296.399,
+      "duration": 6.461,
+      "text": "As well as the to be created behavioral test to validate these expected artifacts, if it is working or not."
+    },
+    {
+      "start": 302.98,
+      "duration": 3.2,
+      "text": "So the sub-agent has successfully created this manifest."
+    },
+    {
+      "start": 306.5,
+      "duration": 3.8,
+      "text": "Now the next step is to generate the test as suggested here."
+    },
+    {
+      "start": 310.399,
+      "duration": 5.641,
+      "text": "MAID methodology is built on top of the TDD methodology, which is the test-driven development."
+    },
+    {
+      "start": 316.379,
+      "duration": 4.96,
+      "text": "I can simply say task 01 here and Claude Code will have that context ready."
+    },
+    {
+      "start": 321.639,
+      "duration": 6.62,
+      "text": "And as we can see here, Claude Code is going to use the maid test designer agent to create the behavioral test."
+    },
+    {
+      "start": 328.439,
+      "duration": 5.32,
+      "text": "It reads the manifest and now it's exploring the code and it's looking for the implementation."
+    },
+    {
+      "start": 334.06,
+      "duration": 4.06,
+      "text": "Since this is TDD, it means we don't have the implementation yet."
+    },
+    {
+      "start": 338.22,
+      "duration": 3.88,
+      "text": "So if we run this test on its own, it's going to fail, which is normal."
+    },
+    {
+      "start": 342.3,
+      "duration": 1.82,
+      "text": "And we can see what will happen next here."
+    },
+    {
+      "start": 344.12,
+      "duration": 6.5,
+      "text": "and we can check the output of the behavioral test so now MAID will validate this but the"
+    },
+    {
+      "start": 350.62,
+      "duration": 5.56,
+      "text": "intention is not to make this pass yet because this will certainly fail the intention is to"
+    },
+    {
+      "start": 356.18,
+      "duration": 7.139,
+      "text": "make sure that the functions or the expected artifacts mentioned here are being tested here"
+    },
+    {
+      "start": 363.319,
+      "duration": 6.421,
+      "text": "and let's check yes so the validation results which is the behavioral mode is passing meaning"
+    },
+    {
+      "start": 369.74,
+      "duration": 4.38,
+      "text": "Meaning the created unit test here are calling these functions."
+    },
+    {
+      "start": 374.519,
+      "duration": 4.12,
+      "text": "And we can see the red face confirm the test will fail as expected."
+    },
+    {
+      "start": 378.939,
+      "duration": 0.861,
+      "text": "Okay, let's proceed."
+    },
+    {
+      "start": 379.959,
+      "duration": 3.12,
+      "text": "So the next step is to implement the actual code, phase 3."
+    },
+    {
+      "start": 383.22,
+      "duration": 6.38,
+      "text": "We can fire that up by using implement custom slash command and just mention task 001 here."
+    },
+    {
+      "start": 389.74,
+      "duration": 5.76,
+      "text": "We can see the Claude Code also suggested an option 2, manual implementation following TDD."
+    },
+    {
+      "start": 395.66,
+      "duration": 2.58,
+      "text": "But that's not what we are aiming for here."
+    },
+    {
+      "start": 398.24,
+      "duration": 3.519,
+      "text": "We are aiming for developing this via the MAID methodology."
+    },
+    {
+      "start": 402.12,
+      "duration": 4.639,
+      "text": "So now the MAID developer agent or sub-agent is implementing the code itself."
+    },
+    {
+      "start": 406.879,
+      "duration": 3.58,
+      "text": "It's creating the server.py, which is mentioned here."
+    },
+    {
+      "start": 410.6,
+      "duration": 7.839,
+      "text": "And the goal is to implement this in such a way that the expected artifacts exist in the created server.py."
+    },
+    {
+      "start": 418.62,
+      "duration": 6.36,
+      "text": "So if we open the file, we can see that there's a create server and there's also the main function here."
+    },
+    {
+      "start": 425.139,
+      "duration": 2.281,
+      "text": "So this is the power of MAID methodology."
+    },
+    {
+      "start": 427.42,
+      "duration": 4.919,
+      "text": "We are controlling which functions, which classes should be implemented."
+    },
+    {
+      "start": 432.6,
+      "duration": 4.719,
+      "text": "But the AI is free to implement the internal private implementations."
+    },
+    {
+      "start": 437.319,
+      "duration": 2.401,
+      "text": "So we have that breathing room for the AI."
+    },
+    {
+      "start": 440,
+      "duration": 6,
+      "text": "So the validation here is the complete TDD validation, meaning this test should pass."
+    },
+    {
+      "start": 446.199,
+      "duration": 5.021,
+      "text": "And the main developer sub-agent will make sure that this file will pass this test."
+    },
+    {
+      "start": 451.399,
+      "duration": 0.901,
+      "text": "It looks like it's done."
+    },
+    {
+      "start": 452.42,
+      "duration": 2.979,
+      "text": "Says the blank MCP server task has been completed."
+    },
+    {
+      "start": 455.399,
+      "duration": 7.901,
+      "text": "100% validation success but let us check ourselves let me open a terminal here and then let me show"
+    },
+    {
+      "start": 463.3,
+      "duration": 5.519,
+      "text": "you how to do this validation manually you can do that by running maid validate without any"
+    },
+    {
+      "start": 468.819,
+      "duration": 5.7,
+      "text": "arguments and we can see the validation here is passing 100% we have one manifest only for now"
+    },
+    {
+      "start": 474.519,
+      "duration": 5.86,
+      "text": "and we are shown with the file tracking analysis which shows us which files are registered which"
+    },
+    {
+      "start": 480.379,
+      "duration": 4.32,
+      "text": "files are not tracked and this is the most important line everything passes"
+    },
+    {
+      "start": 484.699,
+      "duration": 4.981,
+      "text": "but that doesn't mean that this code works already to verify that we need to"
+    },
+    {
+      "start": 489.68,
+      "duration": 5.62,
+      "text": "run this maid test so let me run UV run maid test alright so this is passing"
+    },
+    {
+      "start": 495.3,
+      "duration": 6.279,
+      "text": "test we can even use PyTest here I have implemented make commands to show"
+    },
+    {
+      "start": 501.579,
+      "duration": 4.661,
+      "text": "this working and we can see that more information here all 12 tests has passed"
+    },
+    {
+      "start": 506.24,
+      "duration": 2.26,
+      "text": "So now we have a running blank server."
+    },
+    {
+      "start": 508.74,
+      "duration": 4.24,
+      "text": "And now I'm going to show the Claude Code forking to implement the next task."
+    },
+    {
+      "start": 513.179,
+      "duration": 10.061,
+      "text": "So if we take a look at the conversation so far, we started with spike, generate manifest for task one, generate test for task one, as well as implementation."
+    },
+    {
+      "start": 523.779,
+      "duration": 3.081,
+      "text": "So what I will do is I will time travel, so to speak."
+    },
+    {
+      "start": 526.98,
+      "duration": 4.319,
+      "text": "I will go to the generate manifest from here, restore the conversation."
+    },
+    {
+      "start": 531.519,
+      "duration": 3.461,
+      "text": "And this time I'm going to say generate task two."
+    },
+    {
+      "start": 534.98,
+      "duration": 3.699,
+      "text": "So this is a technique to preserve the Claude Code context."
+    },
+    {
+      "start": 538.98,
+      "duration": 6.76,
+      "text": "But since Claude Code at this point doesn't know that we already implemented task 1, we have to mention it here."
+    },
+    {
+      "start": 546.259,
+      "duration": 0.821,
+      "text": "Let's proceed."
+    },
+    {
+      "start": 547.279,
+      "duration": 1.88,
+      "text": "So now it will do the same thing."
+    },
+    {
+      "start": 549.24,
+      "duration": 4.279,
+      "text": "It will call the maid manifests architect subagent to create the next manifest."
+    },
+    {
+      "start": 553.82,
+      "duration": 9.079,
+      "text": "We just added the task 0 1 is already implemented just to have some kind of hint and direct it a bit to avoid any confusion."
+    },
+    {
+      "start": 562.899,
+      "duration": 5.88,
+      "text": "and it says it created a file let's see what it looks like it will now create the init file for"
+    },
+    {
+      "start": 568.779,
+      "duration": 7.321,
+      "text": "the tools and if we take a look at the plan here the first tool to be created is a task 003 the"
+    },
+    {
+      "start": 576.1,
+      "duration": 6.22,
+      "text": "maid validate tool all right so let me proceed with the next step generate test okay so it created the"
+    },
+    {
+      "start": 582.32,
+      "duration": 5.04,
+      "text": "validation test or the behavioral test now let's proceed with the phase three the implementation"
+    },
+    {
+      "start": 587.36,
+      "duration": 6.14,
+      "text": "implementation. I made a typo, task 003. We need to implement task 02 first. Okay, so it looks like"
+    },
+    {
+      "start": 593.5,
+      "duration": 5.74,
+      "text": "it created the file. Let's see. Let's open it. Put it here. It's just a simple file. Okay, it's done."
+    },
+    {
+      "start": 599.419,
+      "duration": 5.921,
+      "text": "Now it says it's ready for task 3. As we have done earlier, we need to make sure. So let me clear"
+    },
+    {
+      "start": 605.34,
+      "duration": 7.559,
+      "text": "this up. UBRUN maid validate. Okay, so to manifest passing. We can also use make test. Everything is"
+    },
+    {
+      "start": 612.899,
+      "duration": 7.221,
+      "text": "is passing so let me just ask cursor's help commit the changes and fix any issues you can find it's"
+    },
+    {
+      "start": 620.12,
+      "duration": 5.399,
+      "text": "also been instructed to use the MAID validation so that's why it's running the maid validate as"
+    },
+    {
+      "start": 625.519,
+      "duration": 7.14,
+      "text": "well as the git commit hooks again we're going to fork from the current conversation so that we have"
+    },
+    {
+      "start": 632.659,
+      "duration": 6.9,
+      "text": "the new file here so this is the most important file to be created the first mcp server tool so"
+    },
+    {
+      "start": 639.559,
+      "duration": 1.181,
+      "text": "So let's proceed with that."
+    },
+    {
+      "start": 640.899,
+      "duration": 2.721,
+      "text": "Okay, let's revisit what's happening right now."
+    },
+    {
+      "start": 643.7,
+      "duration": 3.16,
+      "text": "So we can see that we have several manifests now."
+    },
+    {
+      "start": 646.94,
+      "duration": 0.52,
+      "text": "We have two."
+    },
+    {
+      "start": 647.5,
+      "duration": 0.94,
+      "text": "We have two tests."
+    },
+    {
+      "start": 648.539,
+      "duration": 4.681,
+      "text": "And if we go to the source folder, we have the tools created here."
+    },
+    {
+      "start": 653.379,
+      "duration": 1.941,
+      "text": "We also have the server created here."
+    },
+    {
+      "start": 655.48,
+      "duration": 1.179,
+      "text": "So everything is progressing."
+    },
+    {
+      "start": 656.82,
+      "duration": 5.18,
+      "text": "All with 100% passing tests and all with MAID validation coverage."
+    },
+    {
+      "start": 662.379,
+      "duration": 5.621,
+      "text": "Meaning if we change or rename any functions here, the MAID validation will fail."
+    },
+    {
+      "start": 668,
+      "duration": 2.32,
+      "text": "So that's the beauty of the MAID runner validation."
+    },
+    {
+      "start": 670.62,
+      "duration": 5.399,
+      "text": "Let me proceed with the next phase, the generate test, task 003."
+    },
+    {
+      "start": 676.279,
+      "duration": 7.961,
+      "text": "It should generate this file, test task 003 maid validate tool, which will validate all the expected artifacts here."
+    },
+    {
+      "start": 684.24,
+      "duration": 14.539,
+      "text": "So this is not just creating blindly the unit test for this file, but MAID validation will make sure that all of these expected artifacts are actually being used or called in this behavioral test or the validation command."
+    },
+    {
+      "start": 699.059,
+      "duration": 6.141,
+      "text": "Claude Code fired up the maid test designer sub-agent to create the behavioral test for task 003."
+    },
+    {
+      "start": 705.32,
+      "duration": 3.319,
+      "text": "And we can see here, if we scroll up, the status of the validation."
+    },
+    {
+      "start": 708.639,
+      "duration": 8.461,
+      "text": "Claude Code intelligently executed the schema validation, meaning if this manifest file complies with the schema."
+    },
+    {
+      "start": 717.179,
+      "duration": 2.62,
+      "text": "So we have the maid manifests schema."
+    },
+    {
+      "start": 720.059,
+      "duration": 3.281,
+      "text": "We can see it by running uvrun maid schema."
+    },
+    {
+      "start": 723.62,
+      "duration": 4.059,
+      "text": "And this is the JSON schema for the maid manifests file."
+    },
+    {
+      "start": 727.899,
+      "duration": 5.14,
+      "text": "So that's why it was able to create or validate the schema of this manifest."
+    },
+    {
+      "start": 733.32,
+      "duration": 1.459,
+      "text": "Okay, looks like the test is done."
+    },
+    {
+      "start": 734.94,
+      "duration": 3.339,
+      "text": "Let us proceed with the next phase, implement."
+    },
+    {
+      "start": 738.639,
+      "duration": 6.721,
+      "text": "task 0c3 so now it will create this file with all of these functions all right it's done what i'll"
+    },
+    {
+      "start": 745.36,
+      "duration": 7.159,
+      "text": "be showing now is how to implement each task in one go we can use the maid-run custom command"
+    },
+    {
+      "start": 752.519,
+      "duration": 8.341,
+      "text": "okay so let's try that task 004 so we can say okay so this will do all the steps creation of"
+    },
+    {
+      "start": 760.86,
+      "duration": 5.679,
+      "text": "the manifest generation of the validation command or the behavioral test as well as the implementation"
+    },
+    {
+      "start": 766.539,
+      "duration": 7.301,
+      "text": "maid validate passes maid test also passes by the way in my git pre-commit hook i'm also integrating"
+    },
+    {
+      "start": 773.84,
+      "duration": 6.52,
+      "text": "the MAID validation as well as some linting this is additional safeguard to make sure that we have"
+    },
+    {
+      "start": 780.36,
+      "duration": 8.26,
+      "text": "good and high quality code before committing okay let me fork restore conversation okay now i am"
+    },
+    {
+      "start": 788.62,
+      "duration": 6.6,
+      "text": "going to attempt to implement the remaining task five to eight using parallel sub-agent okay so it"
+    },
+    {
+      "start": 795.22,
+      "duration": 1.86,
+      "text": "It uses four task agents."
+    },
+    {
+      "start": 797.72,
+      "duration": 1.199,
+      "text": "Task 08 is done."
+    },
+    {
+      "start": 799.139,
+      "duration": 2.42,
+      "text": "We can actually run MAID validation here."
+    },
+    {
+      "start": 801.86,
+      "duration": 1.46,
+      "text": "Oh, all of them are passing."
+    },
+    {
+      "start": 803.48,
+      "duration": 0.62,
+      "text": "That's great."
+    },
+    {
+      "start": 804.32,
+      "duration": 0.78,
+      "text": "How about the test?"
+    },
+    {
+      "start": 806.039,
+      "duration": 1.321,
+      "text": "All of them are passing."
+    },
+    {
+      "start": 807.539,
+      "duration": 0.36,
+      "text": "Fantastic."
+    },
+    {
+      "start": 808.24,
+      "duration": 0.939,
+      "text": "How about all the tests?"
+    },
+    {
+      "start": 811.179,
+      "duration": 0.5,
+      "text": "Nice."
+    },
+    {
+      "start": 811.799,
+      "duration": 2.48,
+      "text": "We do have 125 tests now."
+    },
+    {
+      "start": 814.44,
+      "duration": 2.959,
+      "text": "Looks like Claude Code successfully did a good job here."
+    },
+    {
+      "start": 817.6,
+      "duration": 2.959,
+      "text": "So now maybe you're thinking, we have the TDD."
+    },
+    {
+      "start": 820.74,
+      "duration": 1,
+      "text": "We have the linters."
+    },
+    {
+      "start": 821.94,
+      "duration": 1.66,
+      "text": "Now we have MAID validation."
+    },
+    {
+      "start": 823.899,
+      "duration": 0.76,
+      "text": "Is it too much?"
+    },
+    {
+      "start": 824.659,
+      "duration": 5.38,
+      "text": "I guess in my opinion I will say there's no such thing as too much with software development"
+    },
+    {
+      "start": 830.039,
+      "duration": 7.281,
+      "text": "especially now that we're using AI we have to drive or to control AI more and more rather than"
+    },
+    {
+      "start": 837.32,
+      "duration": 6.439,
+      "text": "the AI controlling us and MAID validation and MAID methodology in my opinion is the best way"
+    },
+    {
+      "start": 843.759,
+      "duration": 6.681,
+      "text": "to do that right now all right let me fork the next task is to implement the integration so I"
+    },
+    {
+      "start": 850.44,
+      "duration": 5.88,
+      "text": "we'll use MAID runnere for the final task in this video task number nine so we can see here the"
+    },
+    {
+      "start": 856.32,
+      "duration": 6.3,
+      "text": "phases of the MAID methodology very clearly phase one is the creation of manifest this manifest and"
+    },
+    {
+      "start": 862.62,
+      "duration": 5.759,
+      "text": "now we can see the task type is edit meaning it will edit an existing file which is the server"
+    },
+    {
+      "start": 868.379,
+      "duration": 6.28,
+      "text": "file and then it will refer to the created mcp server tools and we have this new test to be used"
+    },
+    {
+      "start": 874.659,
+      "duration": 5.441,
+      "text": "as a validator or the behavioral test validation command this will ensure that all of the created"
+    },
+    {
+      "start": 880.1,
+      "duration": 5.539,
+      "text": "MCP tools will be integrated to the server and if we take a look at the original issue that we're"
+    },
+    {
+      "start": 885.639,
+      "duration": 6.28,
+      "text": "working on this is the foundation so we are only going to implement the core tools we do have other"
+    },
+    {
+      "start": 891.919,
+      "duration": 6.441,
+      "text": "MCP server tasks here or issues here like the resource and the prompts but that's beyond this"
+    },
+    {
+      "start": 898.36,
+      "duration": 5.819,
+      "text": "particular video I think we're getting there now so this is just the final validation and now it's"
+    },
+    {
+      "start": 904.179,
+      "duration": 7.561,
+      "text": "done and we can also commit the changes and fix any issues now we can go to Cursor to test this"
+    },
+    {
+      "start": 911.74,
+      "duration": 6.439,
+      "text": "let me do that now let's try this you should be able to see six tools here oh there you go we"
+    },
+    {
+      "start": 918.179,
+      "duration": 7.88,
+      "text": "have six tools now now let me rerun this all right yes can you try the MAID runner mcp server"
+    },
+    {
+      "start": 928,
+      "duration": 2.139,
+      "text": "all right looks like it's working"
+    },
+    {
+      "start": 933.14,
+      "duration": 5.279,
+      "text": "To recap, we have used the MAID methodology to implement the MAID runner MCP server."
+    },
+    {
+      "start": 938.7,
+      "duration": 7.979,
+      "text": "And we have created several manifest here for each task, as well as the behavioral unit test for each of the tasks,"
+    },
+    {
+      "start": 946.74,
+      "duration": 4.12,
+      "text": "making sure that the implementation, as we can see here, are properly implemented."
+    },
+    {
+      "start": 951.159,
+      "duration": 8.62,
+      "text": "This has been possible due to the MAID specifications, as well as the Claude Code Custom Subagent and Claude Code Custom Slash commands."
+    },
+    {
+      "start": 960.139,
+      "duration": 7.14,
+      "text": "as we saw in the demonstration. This shows us that using MAID methodology helps us to implement"
+    },
+    {
+      "start": 967.279,
+      "duration": 5.421,
+      "text": "software more effectively. That's it for this video. I hope this helps. If you have any questions,"
+    },
+    {
+      "start": 972.919,
+      "duration": 4.46,
+      "text": "please let me know in the comment section. As always, thanks for watching. Happy coding!"
+    }
+  ],
+  "fullText": "In the previous video, I have shown you the overview of MAID Runner. So in this video, I'm going to break this down step by step, starting with how to install the MAID Runner CLI tool. Here in my IDE, I have opened the GitHub repository, the readme file, and you can see the three usage modes. First is the manual development. We write everything. We write the manifest, the test, and the implementation. On the second usage mode, we are using AI tools to suggest code and create the manifest, etc. The third one is what I have shown you in the previous video, the fully automated mode. In this video, I'm going to use the AI-assisted mode using Claude Code. If we scroll down a bit, we can see how to install MAID Runner. So I've already installed this in my project here. So if I install it using pip, it's already audited. So if I run maid version, we can see the latest version is 0.5. I recommend using uuV because it's easy to use. Now let's review the current project structure here. So this is a MAID Runner MCP server project. This is set up so that it will work well with MAID Runner. If I come here to the issues, I'm using the MAID Runner repository to track the issues even if it's going to be implemented on a separate project. So for today, we're going to implement the MCP server. So there's an epic for that and particularly we're going to implement the mcp server foundation okay so this is the issue details but basically we just want to establish MAID mcp server that is working with all the tools available with the MAID runner cli so to start with what we need to do is to initialize MAID in this project and to do that we can run uv run maid in it what it will do is it It will create the manifest, the test directories. It will create docs directory. It will copy these two documentation. It will update the cloud.md file. If it exists, it will show several options to append, overwrite, or skip. So generally, we want to append so that it won't overwrite our own cloud.md customizations already inside. Now, it's asking us to copy the Claude Code agent files. So yes, as well as the command files, the custom slash commands. Once we do that, we can see the changes here and the agents, I will explain this as we move along, will be used to work with this project via the MAID methodology. And also the corresponding custom slash commands will be used to call the agents. And as I mentioned earlier, it also created this documentation directory where the MAID specification is placed, as well as some general unit testing rules to write an effective behavioral test, not implementation detailed testing, but a reliable unit test. And if we go to the cloud.md file, we can see the changes here. The init command inserted this MAID methodology section that introduces how to work with MAID. So that's how maid init works. So let me just quickly commit all of this so that we have a clean slate. Alright, so the next one is I'm going to use the spike command. Spike means it's just an exploration of an idea. Here we are saying to explore this idea and then come up with a plan. Basically, that's how spike works. So let me clear this terminal up and then let me fire up Claude Code. I have set up CCD or Claude Code bypassing the permissions. I will use the spike custom command and then tell Claude Code to explore this issue number 89. It correctly found the GitHub issue and along with the prompt that I have mentioned, Claude Code will explore in the current project to find out how to implement this issue. Alright, so we can see here that we have a plan. We can see the spike summary for issue number 89 and it correctly identified the correct MAID runner commands. And here is the important part, the breakdown of the task, one manifest per file. So we will come back to this response by using Claude Code forking. I will show you how to do that later. We can see here that the first task is the blank server creating this file. So we can refer to the task by using the task number here. To start, we need to create the manifest. So to do that, we will use the generate manifest custom slash command. Once we do that, Claude Code will call the subagent maid manifests architect to create the manifest for task 001, which is the blank MCP server. So it has that context. Now it's running. It's creating the manifest. Let me switch to the version control so we can see which files are being created. Now it started to create the manifest. So the manifest validation passes schema only mode. We can see the typical maid manifests here. The creatable files does not exist yet. And the expected artifacts, create server, the main function is also here. As well as the to be created behavioral test to validate these expected artifacts, if it is working or not. So the sub-agent has successfully created this manifest. Now the next step is to generate the test as suggested here. MAID methodology is built on top of the TDD methodology, which is the test-driven development. I can simply say task 01 here and Claude Code will have that context ready. And as we can see here, Claude Code is going to use the maid test designer agent to create the behavioral test. It reads the manifest and now it's exploring the code and it's looking for the implementation. Since this is TDD, it means we don't have the implementation yet. So if we run this test on its own, it's going to fail, which is normal. And we can see what will happen next here. and we can check the output of the behavioral test so now MAID will validate this but the intention is not to make this pass yet because this will certainly fail the intention is to make sure that the functions or the expected artifacts mentioned here are being tested here and let's check yes so the validation results which is the behavioral mode is passing meaning Meaning the created unit test here are calling these functions. And we can see the red face confirm the test will fail as expected. Okay, let's proceed. So the next step is to implement the actual code, phase 3. We can fire that up by using implement custom slash command and just mention task 001 here. We can see the Claude Code also suggested an option 2, manual implementation following TDD. But that's not what we are aiming for here. We are aiming for developing this via the MAID methodology. So now the MAID developer agent or sub-agent is implementing the code itself. It's creating the server.py, which is mentioned here. And the goal is to implement this in such a way that the expected artifacts exist in the created server.py. So if we open the file, we can see that there's a create server and there's also the main function here. So this is the power of MAID methodology. We are controlling which functions, which classes should be implemented. But the AI is free to implement the internal private implementations. So we have that breathing room for the AI. So the validation here is the complete TDD validation, meaning this test should pass. And the main developer sub-agent will make sure that this file will pass this test. It looks like it's done. Says the blank MCP server task has been completed. 100% validation success but let us check ourselves let me open a terminal here and then let me show you how to do this validation manually you can do that by running maid validate without any arguments and we can see the validation here is passing 100% we have one manifest only for now and we are shown with the file tracking analysis which shows us which files are registered which files are not tracked and this is the most important line everything passes but that doesn't mean that this code works already to verify that we need to run this maid test so let me run UV run maid test alright so this is passing test we can even use PyTest here I have implemented make commands to show this working and we can see that more information here all 12 tests has passed So now we have a running blank server. And now I'm going to show the Claude Code forking to implement the next task. So if we take a look at the conversation so far, we started with spike, generate manifest for task one, generate test for task one, as well as implementation. So what I will do is I will time travel, so to speak. I will go to the generate manifest from here, restore the conversation. And this time I'm going to say generate task two. So this is a technique to preserve the Claude Code context. But since Claude Code at this point doesn't know that we already implemented task 1, we have to mention it here. Let's proceed. So now it will do the same thing. It will call the maid manifests architect subagent to create the next manifest. We just added the task 0 1 is already implemented just to have some kind of hint and direct it a bit to avoid any confusion. and it says it created a file let's see what it looks like it will now create the init file for the tools and if we take a look at the plan here the first tool to be created is a task 003 the maid validate tool all right so let me proceed with the next step generate test okay so it created the validation test or the behavioral test now let's proceed with the phase three the implementation implementation. I made a typo, task 003. We need to implement task 02 first. Okay, so it looks like it created the file. Let's see. Let's open it. Put it here. It's just a simple file. Okay, it's done. Now it says it's ready for task 3. As we have done earlier, we need to make sure. So let me clear this up. UBRUN maid validate. Okay, so to manifest passing. We can also use make test. Everything is is passing so let me just ask cursor's help commit the changes and fix any issues you can find it's also been instructed to use the MAID validation so that's why it's running the maid validate as well as the git commit hooks again we're going to fork from the current conversation so that we have the new file here so this is the most important file to be created the first mcp server tool so So let's proceed with that. Okay, let's revisit what's happening right now. So we can see that we have several manifests now. We have two. We have two tests. And if we go to the source folder, we have the tools created here. We also have the server created here. So everything is progressing. All with 100% passing tests and all with MAID validation coverage. Meaning if we change or rename any functions here, the MAID validation will fail. So that's the beauty of the MAID runner validation. Let me proceed with the next phase, the generate test, task 003. It should generate this file, test task 003 maid validate tool, which will validate all the expected artifacts here. So this is not just creating blindly the unit test for this file, but MAID validation will make sure that all of these expected artifacts are actually being used or called in this behavioral test or the validation command. Claude Code fired up the maid test designer sub-agent to create the behavioral test for task 003. And we can see here, if we scroll up, the status of the validation. Claude Code intelligently executed the schema validation, meaning if this manifest file complies with the schema. So we have the maid manifests schema. We can see it by running uvrun maid schema. And this is the JSON schema for the maid manifests file. So that's why it was able to create or validate the schema of this manifest. Okay, looks like the test is done. Let us proceed with the next phase, implement. task 0c3 so now it will create this file with all of these functions all right it's done what i'll be showing now is how to implement each task in one go we can use the maid-run custom command okay so let's try that task 004 so we can say okay so this will do all the steps creation of the manifest generation of the validation command or the behavioral test as well as the implementation maid validate passes maid test also passes by the way in my git pre-commit hook i'm also integrating the MAID validation as well as some linting this is additional safeguard to make sure that we have good and high quality code before committing okay let me fork restore conversation okay now i am going to attempt to implement the remaining task five to eight using parallel sub-agent okay so it It uses four task agents. Task 08 is done. We can actually run MAID validation here. Oh, all of them are passing. That's great. How about the test? All of them are passing. Fantastic. How about all the tests? Nice. We do have 125 tests now. Looks like Claude Code successfully did a good job here. So now maybe you're thinking, we have the TDD. We have the linters. Now we have MAID validation. Is it too much? I guess in my opinion I will say there's no such thing as too much with software development especially now that we're using AI we have to drive or to control AI more and more rather than the AI controlling us and MAID validation and MAID methodology in my opinion is the best way to do that right now all right let me fork the next task is to implement the integration so I we'll use MAID runnere for the final task in this video task number nine so we can see here the phases of the MAID methodology very clearly phase one is the creation of manifest this manifest and now we can see the task type is edit meaning it will edit an existing file which is the server file and then it will refer to the created mcp server tools and we have this new test to be used as a validator or the behavioral test validation command this will ensure that all of the created MCP tools will be integrated to the server and if we take a look at the original issue that we're working on this is the foundation so we are only going to implement the core tools we do have other MCP server tasks here or issues here like the resource and the prompts but that's beyond this particular video I think we're getting there now so this is just the final validation and now it's done and we can also commit the changes and fix any issues now we can go to Cursor to test this let me do that now let's try this you should be able to see six tools here oh there you go we have six tools now now let me rerun this all right yes can you try the MAID runner mcp server all right looks like it's working To recap, we have used the MAID methodology to implement the MAID runner MCP server. And we have created several manifest here for each task, as well as the behavioral unit test for each of the tasks, making sure that the implementation, as we can see here, are properly implemented. This has been possible due to the MAID specifications, as well as the Claude Code Custom Subagent and Claude Code Custom Slash commands. as we saw in the demonstration. This shows us that using MAID methodology helps us to implement software more effectively. That's it for this video. I hope this helps. If you have any questions, please let me know in the comment section. As always, thanks for watching. Happy coding!",
+  "fetchedAt": "2026-01-18T18:32:11.752Z"
+}

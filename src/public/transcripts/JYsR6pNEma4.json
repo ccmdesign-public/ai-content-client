@@ -1,0 +1,364 @@
+{
+  "videoId": "JYsR6pNEma4",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 4.08,
+      "text": "Hey y'all. It's a new day and there's a"
+    },
+    {
+      "start": 2.08,
+      "duration": 4.719,
+      "text": "new concept in the world of AI agents,"
+    },
+    {
+      "start": 4.4,
+      "duration": 5.04,
+      "text": "skills. Let's break down the concept and"
+    },
+    {
+      "start": 6.799,
+      "duration": 4.401,
+      "text": "then get into a quick demo. So, it all"
+    },
+    {
+      "start": 9.44,
+      "duration": 4.56,
+      "text": "starts with agents. They can plan and"
+    },
+    {
+      "start": 11.2,
+      "duration": 4.399,
+      "text": "solve problems independently. Skills"
+    },
+    {
+      "start": 14,
+      "duration": 3.52,
+      "text": "allow you to give your agent extra"
+    },
+    {
+      "start": 15.599,
+      "duration": 4.081,
+      "text": "knowledge and capabilities. It's like"
+    },
+    {
+      "start": 17.52,
+      "duration": 4.24,
+      "text": "sending them off to school. And your"
+    },
+    {
+      "start": 19.68,
+      "duration": 3.759,
+      "text": "agent still has tools, which are pieces"
+    },
+    {
+      "start": 21.76,
+      "duration": 4.56,
+      "text": "of code that they can work with to get"
+    },
+    {
+      "start": 23.439,
+      "duration": 4.801,
+      "text": "the job done. So, let's say that we have"
+    },
+    {
+      "start": 26.32,
+      "duration": 4.719,
+      "text": "a friendly agent that works side by side"
+    },
+    {
+      "start": 28.24,
+      "duration": 4.72,
+      "text": "with an auto mechanic on cars. As cars"
+    },
+    {
+      "start": 31.039,
+      "duration": 4.241,
+      "text": "evolve, you can give the agent extra"
+    },
+    {
+      "start": 32.96,
+      "duration": 4.96,
+      "text": "training on EVs and new models without"
+    },
+    {
+      "start": 35.28,
+      "duration": 4.08,
+      "text": "having to reprogram the whole agent."
+    },
+    {
+      "start": 37.92,
+      "duration": 3.44,
+      "text": "That training might include how to"
+    },
+    {
+      "start": 39.36,
+      "duration": 4.64,
+      "text": "better use the diagnostic tools the"
+    },
+    {
+      "start": 41.36,
+      "duration": 6.28,
+      "text": "agent already has. Now, let's check out"
+    },
+    {
+      "start": 44,
+      "duration": 3.64,
+      "text": "a real world example."
+    },
+    {
+      "start": 48.239,
+      "duration": 4,
+      "text": "So, our scenario is that we want to"
+    },
+    {
+      "start": 49.92,
+      "duration": 4.639,
+      "text": "create consistent git commit messages"
+    },
+    {
+      "start": 52.239,
+      "duration": 4.721,
+      "text": "for our team. We're using anti-gravity"
+    },
+    {
+      "start": 54.559,
+      "duration": 4.48,
+      "text": "to help at least for me maybe I'm not"
+    },
+    {
+      "start": 56.96,
+      "duration": 4.239,
+      "text": "always that creative and I want it to"
+    },
+    {
+      "start": 59.039,
+      "duration": 6.241,
+      "text": "help look at my changes and suggest"
+    },
+    {
+      "start": 61.199,
+      "duration": 8.001,
+      "text": "them. So I'll say please create a get"
+    },
+    {
+      "start": 65.28,
+      "duration": 5.519,
+      "text": "commit message based on my stage of"
+    },
+    {
+      "start": 69.2,
+      "duration": 3.919,
+      "text": "changes"
+    },
+    {
+      "start": 70.799,
+      "duration": 4.481,
+      "text": "and we'll"
+    },
+    {
+      "start": 73.119,
+      "duration": 4.561,
+      "text": "kick off the agent looking at the change"
+    },
+    {
+      "start": 75.28,
+      "duration": 5.199,
+      "text": "files uh in parallel. What I want to"
+    },
+    {
+      "start": 77.68,
+      "duration": 5.439,
+      "text": "show you is how we create a skill that"
+    },
+    {
+      "start": 80.479,
+      "duration": 5.041,
+      "text": "will enforce a common standard here for"
+    },
+    {
+      "start": 83.119,
+      "duration": 5.761,
+      "text": "this particular task. Let's take a quick"
+    },
+    {
+      "start": 85.52,
+      "duration": 6.88,
+      "text": "look at this folder here where we have a"
+    },
+    {
+      "start": 88.88,
+      "duration": 6.16,
+      "text": "skill.md file which describes how we'd"
+    },
+    {
+      "start": 92.4,
+      "duration": 5.52,
+      "text": "like our agent to work. So at the top we"
+    },
+    {
+      "start": 95.04,
+      "duration": 5.92,
+      "text": "have what's called YAML front matter. So"
+    },
+    {
+      "start": 97.92,
+      "duration": 5.28,
+      "text": "this is an emoji commits skill and we"
+    },
+    {
+      "start": 100.96,
+      "duration": 4.24,
+      "text": "can explain what it does along with the"
+    },
+    {
+      "start": 103.2,
+      "duration": 4.16,
+      "text": "detailed instructions."
+    },
+    {
+      "start": 105.2,
+      "duration": 6.48,
+      "text": "So, let's now turn this on. I'm just"
+    },
+    {
+      "start": 107.36,
+      "duration": 6.32,
+      "text": "going to rename this to agent."
+    },
+    {
+      "start": 111.68,
+      "duration": 4.719,
+      "text": "And as you might suspect, when I put"
+    },
+    {
+      "start": 113.68,
+      "duration": 5.039,
+      "text": "this inside of my workspace, it's only"
+    },
+    {
+      "start": 116.399,
+      "duration": 5.521,
+      "text": "relevant to my workspace. I can also put"
+    },
+    {
+      "start": 118.719,
+      "duration": 5.121,
+      "text": "this skill file in my general Google"
+    },
+    {
+      "start": 121.92,
+      "duration": 4.72,
+      "text": "anti-gravity folder, so it'll apply"
+    },
+    {
+      "start": 123.84,
+      "duration": 4.88,
+      "text": "everywhere. And so, now when I ask the"
+    },
+    {
+      "start": 126.64,
+      "duration": 3.679,
+      "text": "same question, I'll have this additional"
+    },
+    {
+      "start": 128.72,
+      "duration": 4.879,
+      "text": "knowledge that will shape what the"
+    },
+    {
+      "start": 130.319,
+      "duration": 5.361,
+      "text": "answer is. So if we go back here and"
+    },
+    {
+      "start": 133.599,
+      "duration": 3.681,
+      "text": "look at the answer, we have a"
+    },
+    {
+      "start": 135.68,
+      "duration": 4,
+      "text": "conventional commit, right? Where we"
+    },
+    {
+      "start": 137.28,
+      "duration": 5.28,
+      "text": "said to implement the orchestrator agent"
+    },
+    {
+      "start": 139.68,
+      "duration": 7.199,
+      "text": "pattern. Perfect. Let's try this again."
+    },
+    {
+      "start": 142.56,
+      "duration": 7.92,
+      "text": "Give me a commit get commit message for"
+    },
+    {
+      "start": 146.879,
+      "duration": 7.841,
+      "text": "my staged changes. Notice it analyze"
+    },
+    {
+      "start": 150.48,
+      "duration": 6.88,
+      "text": "skill.md. So it connected the task that"
+    },
+    {
+      "start": 154.72,
+      "duration": 4.879,
+      "text": "I was trying to accomplish with the"
+    },
+    {
+      "start": 157.36,
+      "duration": 5.2,
+      "text": "skill. And let's look what it came up"
+    },
+    {
+      "start": 159.599,
+      "duration": 6.881,
+      "text": "with. Perfect. a sparkly commit message."
+    },
+    {
+      "start": 162.56,
+      "duration": 6.48,
+      "text": "So, we're good to go. We can just pop"
+    },
+    {
+      "start": 166.48,
+      "duration": 4.16,
+      "text": "that right in for a consistent get"
+    },
+    {
+      "start": 169.04,
+      "duration": 3.919,
+      "text": "commit message. So, we've given our"
+    },
+    {
+      "start": 170.64,
+      "duration": 4.319,
+      "text": "agent skills or additional knowledge"
+    },
+    {
+      "start": 172.959,
+      "duration": 4.241,
+      "text": "that will shape its response in a way"
+    },
+    {
+      "start": 174.959,
+      "duration": 5.681,
+      "text": "that we'd like, either individually or"
+    },
+    {
+      "start": 177.2,
+      "duration": 3.44,
+      "text": "as part of a team."
+    }
+  ],
+  "fullText": "Hey y'all. It's a new day and there's a new concept in the world of AI agents, skills. Let's break down the concept and then get into a quick demo. So, it all starts with agents. They can plan and solve problems independently. Skills allow you to give your agent extra knowledge and capabilities. It's like sending them off to school. And your agent still has tools, which are pieces of code that they can work with to get the job done. So, let's say that we have a friendly agent that works side by side with an auto mechanic on cars. As cars evolve, you can give the agent extra training on EVs and new models without having to reprogram the whole agent. That training might include how to better use the diagnostic tools the agent already has. Now, let's check out a real world example. So, our scenario is that we want to create consistent git commit messages for our team. We're using anti-gravity to help at least for me maybe I'm not always that creative and I want it to help look at my changes and suggest them. So I'll say please create a get commit message based on my stage of changes and we'll kick off the agent looking at the change files uh in parallel. What I want to show you is how we create a skill that will enforce a common standard here for this particular task. Let's take a quick look at this folder here where we have a skill.md file which describes how we'd like our agent to work. So at the top we have what's called YAML front matter. So this is an emoji commits skill and we can explain what it does along with the detailed instructions. So, let's now turn this on. I'm just going to rename this to agent. And as you might suspect, when I put this inside of my workspace, it's only relevant to my workspace. I can also put this skill file in my general Google anti-gravity folder, so it'll apply everywhere. And so, now when I ask the same question, I'll have this additional knowledge that will shape what the answer is. So if we go back here and look at the answer, we have a conventional commit, right? Where we said to implement the orchestrator agent pattern. Perfect. Let's try this again. Give me a commit get commit message for my staged changes. Notice it analyze skill.md. So it connected the task that I was trying to accomplish with the skill. And let's look what it came up with. Perfect. a sparkly commit message. So, we're good to go. We can just pop that right in for a consistent get commit message. So, we've given our agent skills or additional knowledge that will shape its response in a way that we'd like, either individually or as part of a team.",
+  "fetchedAt": "2026-01-18T18:32:31.703Z"
+}

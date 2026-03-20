@@ -1,0 +1,1754 @@
+{
+  "videoId": "4hUI2GF90nQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4,
+      "text": "Open code is a terminal application"
+    },
+    {
+      "start": 2,
+      "duration": 3.92,
+      "text": "that's very much like cloud code except"
+    },
+    {
+      "start": 4.16,
+      "duration": 3.36,
+      "text": "that it's more open. It lets you work"
+    },
+    {
+      "start": 5.92,
+      "duration": 3.84,
+      "text": "with many different language models from"
+    },
+    {
+      "start": 7.52,
+      "duration": 3.999,
+      "text": "many different providers. And frankly,"
+    },
+    {
+      "start": 9.76,
+      "duration": 3.36,
+      "text": "it also just looks plain amazing in the"
+    },
+    {
+      "start": 11.519,
+      "duration": 3.2,
+      "text": "terminal. Open code doesn't just look"
+    },
+    {
+      "start": 13.12,
+      "duration": 3.12,
+      "text": "pretty though. It solves an actual"
+    },
+    {
+      "start": 14.719,
+      "duration": 3.041,
+      "text": "problem. Thanks to open code, we"
+    },
+    {
+      "start": 16.24,
+      "duration": 2.959,
+      "text": "actually have an insurance policy that"
+    },
+    {
+      "start": 17.76,
+      "duration": 3.599,
+      "text": "will always let us leverage an open-"
+    },
+    {
+      "start": 19.199,
+      "duration": 3.761,
+      "text": "source model just in case. If any of the"
+    },
+    {
+      "start": 21.359,
+      "duration": 3.361,
+      "text": "large language model providers start to"
+    },
+    {
+      "start": 22.96,
+      "duration": 3.68,
+      "text": "jack up their prices, we will have a"
+    },
+    {
+      "start": 24.72,
+      "duration": 3.92,
+      "text": "compelling alternative to flip to. Open"
+    },
+    {
+      "start": 26.64,
+      "duration": 3.76,
+      "text": "code can also run Olama models that you"
+    },
+    {
+      "start": 28.64,
+      "duration": 2.959,
+      "text": "run locally on your own machine and it"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.6,
+      "text": "doesn't stop at the terminal either."
+    },
+    {
+      "start": 31.599,
+      "duration": 4.721,
+      "text": "Open code supports ACP which is a"
+    },
+    {
+      "start": 34,
+      "duration": 3.84,
+      "text": "protocol that allows third party apps to"
+    },
+    {
+      "start": 36.32,
+      "duration": 3.84,
+      "text": "integrate with it and that's great news"
+    },
+    {
+      "start": 37.84,
+      "duration": 3.92,
+      "text": "for tools like MIMO. We have just added"
+    },
+    {
+      "start": 40.16,
+      "duration": 3.2,
+      "text": "support for open code which means that"
+    },
+    {
+      "start": 41.76,
+      "duration": 3.44,
+      "text": "if you have a Python notebook that you"
+    },
+    {
+      "start": 43.36,
+      "duration": 3.679,
+      "text": "would like to edit you can actually get"
+    },
+    {
+      "start": 45.2,
+      "duration": 3.679,
+      "text": "open code to help you with that. In this"
+    },
+    {
+      "start": 47.039,
+      "duration": 3.52,
+      "text": "video I'm going to dive deeper into open"
+    },
+    {
+      "start": 48.879,
+      "duration": 2.881,
+      "text": "code and generally I'm going to talk"
+    },
+    {
+      "start": 50.559,
+      "duration": 2.721,
+      "text": "about how you can configure it."
+    },
+    {
+      "start": 51.76,
+      "duration": 3.119,
+      "text": "Specifically, I'm going to talk how you"
+    },
+    {
+      "start": 53.28,
+      "duration": 2.88,
+      "text": "can configure Olama with it. And at the"
+    },
+    {
+      "start": 54.879,
+      "duration": 4.48,
+      "text": "end, I'm also going to show you how you"
+    },
+    {
+      "start": 56.16,
+      "duration": 5.919,
+      "text": "can use MIMO to connect to both. Okay,"
+    },
+    {
+      "start": 59.359,
+      "duration": 4.961,
+      "text": "so let's do a very first demo. I"
+    },
+    {
+      "start": 62.079,
+      "duration": 4.4,
+      "text": "downloaded Open Code beforehand. Uh here"
+    },
+    {
+      "start": 64.32,
+      "duration": 3.92,
+      "text": "you can see me start it up. And this is"
+    },
+    {
+      "start": 66.479,
+      "duration": 3.281,
+      "text": "what it looks like. I can also see it"
+    },
+    {
+      "start": 68.24,
+      "duration": 3.52,
+      "text": "just uh completed an update"
+    },
+    {
+      "start": 69.76,
+      "duration": 4.16,
+      "text": "automatically, which is very cool. Uh"
+    },
+    {
+      "start": 71.76,
+      "duration": 4.08,
+      "text": "but let's configure a model before doing"
+    },
+    {
+      "start": 73.92,
+      "duration": 3.68,
+      "text": "anything. So you can do back/model to"
+    },
+    {
+      "start": 75.84,
+      "duration": 3.599,
+      "text": "list all the different models. Uh"
+    },
+    {
+      "start": 77.6,
+      "duration": 3.76,
+      "text": "there's a few Olama models here. We'll"
+    },
+    {
+      "start": 79.439,
+      "duration": 3.441,
+      "text": "get to that in just a bit. Uh but you"
+    },
+    {
+      "start": 81.36,
+      "duration": 3.2,
+      "text": "can also see that there are models that"
+    },
+    {
+      "start": 82.88,
+      "duration": 3.76,
+      "text": "I can connect to via this thing called"
+    },
+    {
+      "start": 84.56,
+      "duration": 3.84,
+      "text": "open code zen. These open code zen"
+    },
+    {
+      "start": 86.64,
+      "duration": 3.44,
+      "text": "models are models that the open code"
+    },
+    {
+      "start": 88.4,
+      "duration": 3.759,
+      "text": "people host themselves. They also have"
+    },
+    {
+      "start": 90.08,
+      "duration": 4.56,
+      "text": "the stamp of approval of working well"
+    },
+    {
+      "start": 92.159,
+      "duration": 4.241,
+      "text": "with uh their stack. But uh you can also"
+    },
+    {
+      "start": 94.64,
+      "duration": 3.6,
+      "text": "go for another provider. If I hit"
+    },
+    {
+      "start": 96.4,
+      "duration": 4.24,
+      "text": "control A, you can see that there is a"
+    },
+    {
+      "start": 98.24,
+      "duration": 4.72,
+      "text": "long list of models to go for here. Uh"
+    },
+    {
+      "start": 100.64,
+      "duration": 4,
+      "text": "open router also is a nice provider."
+    },
+    {
+      "start": 102.96,
+      "duration": 3.28,
+      "text": "They basically host every open source"
+    },
+    {
+      "start": 104.64,
+      "duration": 2.799,
+      "text": "model under the sun. But what I'm just"
+    },
+    {
+      "start": 106.24,
+      "duration": 3.04,
+      "text": "going to go ahead and do is I'm just"
+    },
+    {
+      "start": 107.439,
+      "duration": 4.161,
+      "text": "going to use the Kimmy K2 model from"
+    },
+    {
+      "start": 109.28,
+      "duration": 4.08,
+      "text": "Open Code Zen. Going to hit enter. We"
+    },
+    {
+      "start": 111.6,
+      "duration": 4.24,
+      "text": "can confirm that that's now selected."
+    },
+    {
+      "start": 113.36,
+      "duration": 3.84,
+      "text": "And yeah, I can uh type hello. We get a"
+    },
+    {
+      "start": 115.84,
+      "duration": 3.68,
+      "text": "very quick response, which is really"
+    },
+    {
+      "start": 117.2,
+      "duration": 4.16,
+      "text": "nice. Kim K2 is a relatively lightweight"
+    },
+    {
+      "start": 119.52,
+      "duration": 5.04,
+      "text": "model. Uh and I can ask questions like"
+    },
+    {
+      "start": 121.36,
+      "duration": 5.28,
+      "text": "what tools do you have access to?"
+    },
+    {
+      "start": 124.56,
+      "duration": 3.919,
+      "text": "Question mark. And then here we can see"
+    },
+    {
+      "start": 126.64,
+      "duration": 3.679,
+      "text": "that it's able to do code search. It's"
+    },
+    {
+      "start": 128.479,
+      "duration": 4.081,
+      "text": "able to do some system stuff, some web"
+    },
+    {
+      "start": 130.319,
+      "duration": 4.321,
+      "text": "stuff, project stuff, file operations."
+    },
+    {
+      "start": 132.56,
+      "duration": 3.679,
+      "text": "So these are all things that this LM can"
+    },
+    {
+      "start": 134.64,
+      "duration": 3.2,
+      "text": "talk to. Another thing that I feel"
+    },
+    {
+      "start": 136.239,
+      "duration": 3.761,
+      "text": "obliged to mention is that you can also"
+    },
+    {
+      "start": 137.84,
+      "duration": 4,
+      "text": "just hit tab so you can switch between"
+    },
+    {
+      "start": 140,
+      "duration": 2.959,
+      "text": "plan and build mode. Uh there's a lot of"
+    },
+    {
+      "start": 141.84,
+      "duration": 3.52,
+      "text": "these things that you would expect from"
+    },
+    {
+      "start": 142.959,
+      "duration": 4.241,
+      "text": "cloud code. These also exist in open"
+    },
+    {
+      "start": 145.36,
+      "duration": 4.08,
+      "text": "code. But what we are interested in is"
+    },
+    {
+      "start": 147.2,
+      "duration": 3.92,
+      "text": "running this together with Olama. And in"
+    },
+    {
+      "start": 149.44,
+      "duration": 3.92,
+      "text": "order to do that, we are going to have"
+    },
+    {
+      "start": 151.12,
+      "duration": 4.24,
+      "text": "to talk a little bit about Olama first."
+    },
+    {
+      "start": 153.36,
+      "duration": 3.84,
+      "text": "So I'm going to get out of this one. I'm"
+    },
+    {
+      "start": 155.36,
+      "duration": 4.48,
+      "text": "going to hit Ctrl + C and then I'm just"
+    },
+    {
+      "start": 157.2,
+      "duration": 4.319,
+      "text": "going to run Olama list. Now note I"
+    },
+    {
+      "start": 159.84,
+      "duration": 3.52,
+      "text": "installed Olama beforehand. And here's"
+    },
+    {
+      "start": 161.519,
+      "duration": 3.841,
+      "text": "just a list of models that I've got"
+    },
+    {
+      "start": 163.36,
+      "duration": 3.84,
+      "text": "locally. And these are all models that I"
+    },
+    {
+      "start": 165.36,
+      "duration": 3.36,
+      "text": "could go ahead and configure. But before"
+    },
+    {
+      "start": 167.2,
+      "duration": 4.08,
+      "text": "you do that, there's this one setting"
+    },
+    {
+      "start": 168.72,
+      "duration": 5.36,
+      "text": "you got to switch in Olama itself. So if"
+    },
+    {
+      "start": 171.28,
+      "duration": 4.239,
+      "text": "you go and open the Olama app, then"
+    },
+    {
+      "start": 174.08,
+      "duration": 3.04,
+      "text": "there are these settings that you can"
+    },
+    {
+      "start": 175.519,
+      "duration": 2.8,
+      "text": "configure. And the one thing that you"
+    },
+    {
+      "start": 177.12,
+      "duration": 3.199,
+      "text": "really want to do is you want to change"
+    },
+    {
+      "start": 178.319,
+      "duration": 4.56,
+      "text": "this one default setting. By default,"
+    },
+    {
+      "start": 180.319,
+      "duration": 4.64,
+      "text": "the context length is 4K. And that is"
+    },
+    {
+      "start": 182.879,
+      "duration": 3.36,
+      "text": "something that Open Code cannot deal"
+    },
+    {
+      "start": 184.959,
+      "duration": 3.041,
+      "text": "with. Instead, what you want to do is"
+    },
+    {
+      "start": 186.239,
+      "duration": 3.841,
+      "text": "you want to set it quite a bit higher."
+    },
+    {
+      "start": 188,
+      "duration": 5.04,
+      "text": "For our demonstration purposes, I think"
+    },
+    {
+      "start": 190.08,
+      "duration": 4.799,
+      "text": "uh 64K should suffice. But if you don't"
+    },
+    {
+      "start": 193.04,
+      "duration": 4,
+      "text": "configure this, you're going to get into"
+    },
+    {
+      "start": 194.879,
+      "duration": 3.521,
+      "text": "a pickle really quickly because Open"
+    },
+    {
+      "start": 197.04,
+      "duration": 3.04,
+      "text": "Code is going to throw you a bunch of"
+    },
+    {
+      "start": 198.4,
+      "duration": 3.199,
+      "text": "errors real quick. So that's the first"
+    },
+    {
+      "start": 200.08,
+      "duration": 3.519,
+      "text": "setting we got to take care of. The next"
+    },
+    {
+      "start": 201.599,
+      "duration": 4.72,
+      "text": "thing we got to do is uh you want to go"
+    },
+    {
+      "start": 203.599,
+      "duration": 5.041,
+      "text": "to the Open Code configuration and that"
+    },
+    {
+      "start": 206.319,
+      "duration": 3.28,
+      "text": "will be in theconfig/opencode"
+    },
+    {
+      "start": 208.64,
+      "duration": 3.44,
+      "text": "and then I think there's an"
+    },
+    {
+      "start": 209.599,
+      "duration": 4.801,
+      "text": "opencode.json file and that file on my"
+    },
+    {
+      "start": 212.08,
+      "duration": 3.68,
+      "text": "machine looks a little bit like this."
+    },
+    {
+      "start": 214.4,
+      "duration": 3.04,
+      "text": "Now what you're able to do is you're"
+    },
+    {
+      "start": 215.76,
+      "duration": 3.44,
+      "text": "able to configure a few providers"
+    },
+    {
+      "start": 217.44,
+      "duration": 4.32,
+      "text": "manually. Here's a provider called"
+    },
+    {
+      "start": 219.2,
+      "duration": 4.64,
+      "text": "Olama. You can see that it's using a npm"
+    },
+    {
+      "start": 221.76,
+      "duration": 4.559,
+      "text": "package under the hood and it also has"
+    },
+    {
+      "start": 223.84,
+      "duration": 4.64,
+      "text": "this base URL and I'm currently pointing"
+    },
+    {
+      "start": 226.319,
+      "duration": 3.84,
+      "text": "it to a local host endpoint. So, it's"
+    },
+    {
+      "start": 228.48,
+      "duration": 3.52,
+      "text": "running on this machine. You could"
+    },
+    {
+      "start": 230.159,
+      "duration": 3.121,
+      "text": "theoretically also point it to another"
+    },
+    {
+      "start": 232,
+      "duration": 2.959,
+      "text": "server. So, if you have a big machine"
+    },
+    {
+      "start": 233.28,
+      "duration": 3.12,
+      "text": "somewhere with a big GPU, uh that's"
+    },
+    {
+      "start": 234.959,
+      "duration": 3.2,
+      "text": "something you could also configure. But"
+    },
+    {
+      "start": 236.4,
+      "duration": 2.88,
+      "text": "in this case, you know, pretty good Mac."
+    },
+    {
+      "start": 238.159,
+      "duration": 3.041,
+      "text": "So, I'm just going to use what I've got"
+    },
+    {
+      "start": 239.28,
+      "duration": 4.08,
+      "text": "locally. And then once you've configured"
+    },
+    {
+      "start": 241.2,
+      "duration": 3.759,
+      "text": "the general stuff for your Olama"
+    },
+    {
+      "start": 243.36,
+      "duration": 3.92,
+      "text": "provider, next up, what you can do is"
+    },
+    {
+      "start": 244.959,
+      "duration": 3.92,
+      "text": "you can configure your models. What's"
+    },
+    {
+      "start": 247.28,
+      "duration": 4.319,
+      "text": "important here is that you check the"
+    },
+    {
+      "start": 248.879,
+      "duration": 6.08,
+      "text": "names that you provide over here. So,"
+    },
+    {
+      "start": 251.599,
+      "duration": 6.16,
+      "text": "for example, I've got gpt- oss colon"
+    },
+    {
+      "start": 254.959,
+      "duration": 5.041,
+      "text": "20b-cloud. This name has to actually"
+    },
+    {
+      "start": 257.759,
+      "duration": 4.241,
+      "text": "correspond with a name that Olama likes"
+    },
+    {
+      "start": 260,
+      "duration": 3.44,
+      "text": "to refer to. Inside of this little JSON"
+    },
+    {
+      "start": 262,
+      "duration": 2.479,
+      "text": "blob after, you can give it another"
+    },
+    {
+      "start": 263.44,
+      "duration": 3.039,
+      "text": "name. And this is the name that you're"
+    },
+    {
+      "start": 264.479,
+      "duration": 4.641,
+      "text": "going to see in the menu. But this name"
+    },
+    {
+      "start": 266.479,
+      "duration": 4.72,
+      "text": "really does need to correspond. So, if I"
+    },
+    {
+      "start": 269.12,
+      "duration": 4.56,
+      "text": "were to go back to the terminal here, if"
+    },
+    {
+      "start": 271.199,
+      "duration": 4.161,
+      "text": "I were to do lama list, right? Then"
+    },
+    {
+      "start": 273.68,
+      "duration": 3.12,
+      "text": "these are the names that matter. So"
+    },
+    {
+      "start": 275.36,
+      "duration": 3.2,
+      "text": "there's the Quen model that I just"
+    },
+    {
+      "start": 276.8,
+      "duration": 3.28,
+      "text": "mentioned. There's the GPT open source"
+    },
+    {
+      "start": 278.56,
+      "duration": 2.88,
+      "text": "model that I just mentioned. So in"
+    },
+    {
+      "start": 280.08,
+      "duration": 3.36,
+      "text": "general, I would say do yourself a"
+    },
+    {
+      "start": 281.44,
+      "duration": 4.319,
+      "text": "favor. Uh just copy this, make a hard"
+    },
+    {
+      "start": 283.44,
+      "duration": 3.6,
+      "text": "copy, don't invite typos, and then"
+    },
+    {
+      "start": 285.759,
+      "duration": 2.641,
+      "text": "you're good to go. There is another"
+    },
+    {
+      "start": 287.04,
+      "duration": 3.68,
+      "text": "thing that you want to make sure of"
+    },
+    {
+      "start": 288.4,
+      "duration": 3.76,
+      "text": "whenever you're using models from Olama."
+    },
+    {
+      "start": 290.72,
+      "duration": 4,
+      "text": "And let me just show that by copying"
+    },
+    {
+      "start": 292.16,
+      "duration": 5.2,
+      "text": "this Gemma 31B model. And let me just"
+    },
+    {
+      "start": 294.72,
+      "duration": 5.039,
+      "text": "add that model down over here. So that's"
+    },
+    {
+      "start": 297.36,
+      "duration": 4.72,
+      "text": "now configured. And I just hit save. If"
+    },
+    {
+      "start": 299.759,
+      "duration": 4.961,
+      "text": "I run now to start up open code and I"
+    },
+    {
+      "start": 302.08,
+      "duration": 5.36,
+      "text": "hit back slashmodels once again, then"
+    },
+    {
+      "start": 304.72,
+      "duration": 5.039,
+      "text": "you should see that indeed Gemma 1B is"
+    },
+    {
+      "start": 307.44,
+      "duration": 3.599,
+      "text": "something I can now configure. But uh"
+    },
+    {
+      "start": 309.759,
+      "duration": 3.761,
+      "text": "notice what happens when I actually"
+    },
+    {
+      "start": 311.039,
+      "duration": 3.841,
+      "text": "select it. Gemma 1B is now selected down"
+    },
+    {
+      "start": 313.52,
+      "duration": 3.28,
+      "text": "below over here. So that's cool. I'm"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.599,
+      "text": "going to type hello. And boom. We're"
+    },
+    {
+      "start": 316.8,
+      "duration": 4.48,
+      "text": "going to get ourselves an error because"
+    },
+    {
+      "start": 318.479,
+      "duration": 5.361,
+      "text": "it is saying that Gemma 31B does not"
+    },
+    {
+      "start": 321.28,
+      "duration": 4.4,
+      "text": "support tools. To prevent this, I do"
+    },
+    {
+      "start": 323.84,
+      "duration": 3.359,
+      "text": "have a bit of advice. If I look at the"
+    },
+    {
+      "start": 325.68,
+      "duration": 3.28,
+      "text": "Gemma 3 models over here, you can see"
+    },
+    {
+      "start": 327.199,
+      "duration": 3.681,
+      "text": "that it's indeed got vision"
+    },
+    {
+      "start": 328.96,
+      "duration": 4.48,
+      "text": "capabilities. It's also available via"
+    },
+    {
+      "start": 330.88,
+      "duration": 4.159,
+      "text": "the OAMA cloud, but you instead want to"
+    },
+    {
+      "start": 333.44,
+      "duration": 2.96,
+      "text": "go for models that have tools available"
+    },
+    {
+      "start": 335.039,
+      "duration": 3.44,
+      "text": "to it. So, if you're going to look for"
+    },
+    {
+      "start": 336.4,
+      "duration": 3.6,
+      "text": "models, make sure that you select tools"
+    },
+    {
+      "start": 338.479,
+      "duration": 2.881,
+      "text": "here. And then you start looking down"
+    },
+    {
+      "start": 340,
+      "duration": 2.96,
+      "text": "from the list. It might still be the"
+    },
+    {
+      "start": 341.36,
+      "duration": 3.36,
+      "text": "case that it's not fully compatible with"
+    },
+    {
+      "start": 342.96,
+      "duration": 2.88,
+      "text": "Open Code. There's all sorts of models"
+    },
+    {
+      "start": 344.72,
+      "duration": 2.64,
+      "text": "out there these days, so it's hard to"
+    },
+    {
+      "start": 345.84,
+      "duration": 3.12,
+      "text": "give a hard guarantee, but you do want"
+    },
+    {
+      "start": 347.36,
+      "duration": 3.6,
+      "text": "to make sure you've got a model that is"
+    },
+    {
+      "start": 348.96,
+      "duration": 3.2,
+      "text": "able to call tools. Otherwise, open"
+    },
+    {
+      "start": 350.96,
+      "duration": 2.88,
+      "text": "code's not going to be able to"
+    },
+    {
+      "start": 352.16,
+      "duration": 3.36,
+      "text": "understand when the LLM wants to"
+    },
+    {
+      "start": 353.84,
+      "duration": 3.12,
+      "text": "actually edit files. So, that's a thing"
+    },
+    {
+      "start": 355.52,
+      "duration": 2.48,
+      "text": "that the model needs to be trained for."
+    },
+    {
+      "start": 356.96,
+      "duration": 2.959,
+      "text": "That's something you got to keep in the"
+    },
+    {
+      "start": 358,
+      "duration": 3.759,
+      "text": "back of your mind. Finally, another"
+    },
+    {
+      "start": 359.919,
+      "duration": 4.56,
+      "text": "thing that's also good to just uh point"
+    },
+    {
+      "start": 361.759,
+      "duration": 4.961,
+      "text": "out, uh, Olama also has a cloud version"
+    },
+    {
+      "start": 364.479,
+      "duration": 4.401,
+      "text": "these days. If I go to the terminal and"
+    },
+    {
+      "start": 366.72,
+      "duration": 4,
+      "text": "if I type Lama list, you will see that"
+    },
+    {
+      "start": 368.88,
+      "duration": 4,
+      "text": "indeed I have this one connection to a"
+    },
+    {
+      "start": 370.72,
+      "duration": 3.84,
+      "text": "GPT model, the open source model that's"
+    },
+    {
+      "start": 372.88,
+      "duration": 2.96,
+      "text": "hosted on the cloud. It doesn't have a"
+    },
+    {
+      "start": 374.56,
+      "duration": 2.8,
+      "text": "file size because this is something that"
+    },
+    {
+      "start": 375.84,
+      "duration": 3.12,
+      "text": "they host. This is really just kind of a"
+    },
+    {
+      "start": 377.36,
+      "duration": 3.679,
+      "text": "router that I've downloaded. But if I"
+    },
+    {
+      "start": 378.96,
+      "duration": 3.6,
+      "text": "now go to the configuration file again,"
+    },
+    {
+      "start": 381.039,
+      "duration": 2.72,
+      "text": "I just have to refer to the name which"
+    },
+    {
+      "start": 382.56,
+      "duration": 3.359,
+      "text": "is what I'm doing. And that also means"
+    },
+    {
+      "start": 383.759,
+      "duration": 4.241,
+      "text": "that if I go to open code now and if I"
+    },
+    {
+      "start": 385.919,
+      "duration": 4.4,
+      "text": "select the model that I'm also able to"
+    },
+    {
+      "start": 388,
+      "duration": 4.639,
+      "text": "select that cloud model from Olama, I"
+    },
+    {
+      "start": 390.319,
+      "duration": 4.561,
+      "text": "can type hello and I get a very quick"
+    },
+    {
+      "start": 392.639,
+      "duration": 4.721,
+      "text": "reply back. Uh so that's all pretty cool"
+    },
+    {
+      "start": 394.88,
+      "duration": 4.56,
+      "text": "and good too. So this is how you connect"
+    },
+    {
+      "start": 397.36,
+      "duration": 3.76,
+      "text": "Olama models to open code. And again"
+    },
+    {
+      "start": 399.44,
+      "duration": 3.28,
+      "text": "it's worth emphasizing uh you can"
+    },
+    {
+      "start": 401.12,
+      "duration": 3.84,
+      "text": "configure all sorts of models. You don't"
+    },
+    {
+      "start": 402.72,
+      "duration": 4.479,
+      "text": "have to necessarily go with Olama. You"
+    },
+    {
+      "start": 404.96,
+      "duration": 3.6,
+      "text": "can also go with open router or open"
+    },
+    {
+      "start": 407.199,
+      "duration": 3.521,
+      "text": "code zen. you don't have to run it"
+    },
+    {
+      "start": 408.56,
+      "duration": 4.32,
+      "text": "locally. Uh but the fact that you can is"
+    },
+    {
+      "start": 410.72,
+      "duration": 3.759,
+      "text": "definitely uh nice and also pretty fun."
+    },
+    {
+      "start": 412.88,
+      "duration": 3.36,
+      "text": "So at this point we have Olama talking"
+    },
+    {
+      "start": 414.479,
+      "duration": 2.961,
+      "text": "to open code and the next thing that I"
+    },
+    {
+      "start": 416.24,
+      "duration": 2.959,
+      "text": "would like to do is I would like to"
+    },
+    {
+      "start": 417.44,
+      "duration": 3.12,
+      "text": "configure MIMO to also talk to open"
+    },
+    {
+      "start": 419.199,
+      "duration": 2.801,
+      "text": "code. And to do that there is this one"
+    },
+    {
+      "start": 420.56,
+      "duration": 3.68,
+      "text": "extra thing that I got to do. So I'm"
+    },
+    {
+      "start": 422,
+      "duration": 3.68,
+      "text": "going to run Mimo with UVX. That way"
+    },
+    {
+      "start": 424.24,
+      "duration": 3.12,
+      "text": "it's going to just start a notebook uh"
+    },
+    {
+      "start": 425.68,
+      "duration": 3.04,
+      "text": "with its own little sandbox and I don't"
+    },
+    {
+      "start": 427.36,
+      "duration": 2.64,
+      "text": "have to start a virtual environment or"
+    },
+    {
+      "start": 428.72,
+      "duration": 3.28,
+      "text": "anything like that. I'm going to tell"
+    },
+    {
+      "start": 430,
+      "duration": 3.919,
+      "text": "Mimo to edit a new notebook. I'm going"
+    },
+    {
+      "start": 432,
+      "duration": 3.44,
+      "text": "to tell it to do this in sandbox mode."
+    },
+    {
+      "start": 433.919,
+      "duration": 3.041,
+      "text": "This is going to make a UV environment"
+    },
+    {
+      "start": 435.44,
+      "duration": 2.879,
+      "text": "just for that notebook. But the final"
+    },
+    {
+      "start": 436.96,
+      "duration": 3.92,
+      "text": "thing I want to do is I want to set the"
+    },
+    {
+      "start": 438.319,
+      "duration": 4.481,
+      "text": "watch flag. With this watch flag set,"
+    },
+    {
+      "start": 440.88,
+      "duration": 4.56,
+      "text": "the browser, the front end, that's going"
+    },
+    {
+      "start": 442.8,
+      "duration": 3.839,
+      "text": "to auto update whenever it detects a"
+    },
+    {
+      "start": 445.44,
+      "duration": 2.56,
+      "text": "file change. And that's going to make"
+    },
+    {
+      "start": 446.639,
+      "duration": 3.84,
+      "text": "sure that I don't have to manually"
+    },
+    {
+      "start": 448,
+      "duration": 4.24,
+      "text": "refresh the browser all the time. And uh"
+    },
+    {
+      "start": 450.479,
+      "duration": 3.681,
+      "text": "yeah, let's just go for a fun little"
+    },
+    {
+      "start": 452.24,
+      "duration": 4,
+      "text": "file here. I was working on this one"
+    },
+    {
+      "start": 454.16,
+      "duration": 3.759,
+      "text": "little demo a little bit earlier. This"
+    },
+    {
+      "start": 456.24,
+      "duration": 3.04,
+      "text": "Taylor series explainer. This was"
+    },
+    {
+      "start": 457.919,
+      "duration": 2.961,
+      "text": "something that was generated with open"
+    },
+    {
+      "start": 459.28,
+      "duration": 3.44,
+      "text": "code actually. But there you go. The"
+    },
+    {
+      "start": 460.88,
+      "duration": 3.439,
+      "text": "notebook is now open. Uh we can now"
+    },
+    {
+      "start": 462.72,
+      "duration": 3.68,
+      "text": "start exploring this with an agent that"
+    },
+    {
+      "start": 464.319,
+      "duration": 3.761,
+      "text": "is using open code under the hood. Uh"
+    },
+    {
+      "start": 466.4,
+      "duration": 3.519,
+      "text": "there are some things that I can slide"
+    },
+    {
+      "start": 468.08,
+      "duration": 3.28,
+      "text": "around some UI elements. I can also run"
+    },
+    {
+      "start": 469.919,
+      "duration": 3.041,
+      "text": "this in app mode and this is kind of"
+    },
+    {
+      "start": 471.36,
+      "duration": 3.519,
+      "text": "like one of those math explainers. We"
+    },
+    {
+      "start": 472.96,
+      "duration": 4,
+      "text": "can explain tailaylor series. Let's"
+    },
+    {
+      "start": 474.879,
+      "duration": 4.801,
+      "text": "maybe just zoom out a smidge to explain"
+    },
+    {
+      "start": 476.96,
+      "duration": 4.16,
+      "text": "that. I can specify a higher degree of a"
+    },
+    {
+      "start": 479.68,
+      "duration": 3.199,
+      "text": "tailor approximation. We can see the"
+    },
+    {
+      "start": 481.12,
+      "duration": 3.12,
+      "text": "charts update. So okay, that's a pretty"
+    },
+    {
+      "start": 482.879,
+      "duration": 3.76,
+      "text": "fun notebook. But what I would like to"
+    },
+    {
+      "start": 484.24,
+      "duration": 5.12,
+      "text": "do now though is edit this notebook with"
+    },
+    {
+      "start": 486.639,
+      "duration": 4,
+      "text": "a open code agent. Now to do that what"
+    },
+    {
+      "start": 489.36,
+      "duration": 5.44,
+      "text": "you got to do is you got to go to this"
+    },
+    {
+      "start": 490.639,
+      "duration": 5.601,
+      "text": "chat and agents panel and in particular"
+    },
+    {
+      "start": 494.8,
+      "duration": 3.519,
+      "text": "got to zoom out a little bit. We want to"
+    },
+    {
+      "start": 496.24,
+      "duration": 3.76,
+      "text": "use this open code beta over here. You"
+    },
+    {
+      "start": 498.319,
+      "duration": 3.6,
+      "text": "can hit this run in terminal button."
+    },
+    {
+      "start": 500,
+      "duration": 4.08,
+      "text": "That's going to open up this side panel"
+    },
+    {
+      "start": 501.919,
+      "duration": 4.641,
+      "text": "over here that starts up a terminal and"
+    },
+    {
+      "start": 504.08,
+      "duration": 4.799,
+      "text": "we are going to start this standard IO"
+    },
+    {
+      "start": 506.56,
+      "duration": 4.4,
+      "text": "to websocket connection that is going to"
+    },
+    {
+      "start": 508.879,
+      "duration": 3.121,
+      "text": "connect to open code. You don't really"
+    },
+    {
+      "start": 510.96,
+      "duration": 3.04,
+      "text": "have to think too much about it. You"
+    },
+    {
+      "start": 512,
+      "duration": 3.76,
+      "text": "just have to run it and once it starts"
+    },
+    {
+      "start": 514,
+      "duration": 3.919,
+      "text": "listening then we can start a new"
+    },
+    {
+      "start": 515.76,
+      "duration": 3.759,
+      "text": "session and we can start a new open code"
+    },
+    {
+      "start": 517.919,
+      "duration": 3.441,
+      "text": "session. Uh it's going to take a small"
+    },
+    {
+      "start": 519.519,
+      "duration": 4.32,
+      "text": "moment to uh make the connection but"
+    },
+    {
+      "start": 521.36,
+      "duration": 3.919,
+      "text": "once it's made we are indeed good."
+    },
+    {
+      "start": 523.839,
+      "duration": 2.56,
+      "text": "Before typing anything to the agent"
+    },
+    {
+      "start": 525.279,
+      "duration": 2.881,
+      "text": "there's a few things that we can"
+    },
+    {
+      "start": 526.399,
+      "duration": 3.841,
+      "text": "configure from here. One thing is that"
+    },
+    {
+      "start": 528.16,
+      "duration": 3.6,
+      "text": "we can say well let's start in plan mode"
+    },
+    {
+      "start": 530.24,
+      "duration": 3.44,
+      "text": "as opposed to starting in build mode"
+    },
+    {
+      "start": 531.76,
+      "duration": 3.519,
+      "text": "right away. Plan mode has a benefit that"
+    },
+    {
+      "start": 533.68,
+      "duration": 3.04,
+      "text": "we can maybe confirm a plan before we"
+    },
+    {
+      "start": 535.279,
+      "duration": 2.881,
+      "text": "actually start writing code. Uh but"
+    },
+    {
+      "start": 536.72,
+      "duration": 2.88,
+      "text": "starting in build mode in this case I"
+    },
+    {
+      "start": 538.16,
+      "duration": 2.96,
+      "text": "think it's just going to be fine. And"
+    },
+    {
+      "start": 539.6,
+      "duration": 3.28,
+      "text": "another thing that we can do is we can"
+    },
+    {
+      "start": 541.12,
+      "duration": 3.12,
+      "text": "change the model. And if we scroll all"
+    },
+    {
+      "start": 542.88,
+      "duration": 3.6,
+      "text": "the way at the bottom here, we can see"
+    },
+    {
+      "start": 544.24,
+      "duration": 4.719,
+      "text": "all the open code Zen models that are at"
+    },
+    {
+      "start": 546.48,
+      "duration": 4.24,
+      "text": "our disposal. But if you were to scroll"
+    },
+    {
+      "start": 548.959,
+      "duration": 3.921,
+      "text": "around here as well, you can also see"
+    },
+    {
+      "start": 550.72,
+      "duration": 4.32,
+      "text": "that we have a Olama model at our"
+    },
+    {
+      "start": 552.88,
+      "duration": 5.28,
+      "text": "disposal. So I can connect to my local"
+    },
+    {
+      "start": 555.04,
+      "duration": 4.4,
+      "text": "Olama model, Quen 38B. Now, for this"
+    },
+    {
+      "start": 558.16,
+      "duration": 2.48,
+      "text": "demo, what I think I'm just going to go"
+    },
+    {
+      "start": 559.44,
+      "duration": 3.6,
+      "text": "ahead and do is I'm just going to go"
+    },
+    {
+      "start": 560.64,
+      "duration": 3.68,
+      "text": "with an open code Zen model. And the"
+    },
+    {
+      "start": 563.04,
+      "duration": 3.28,
+      "text": "main reason why I'm doing it is that I'm"
+    },
+    {
+      "start": 564.32,
+      "duration": 3.44,
+      "text": "also recording something uh right now."
+    },
+    {
+      "start": 566.32,
+      "duration": 3.519,
+      "text": "But I just want to show you that this"
+    },
+    {
+      "start": 567.76,
+      "duration": 3.36,
+      "text": "connection over here does work. And"
+    },
+    {
+      "start": 569.839,
+      "duration": 3.601,
+      "text": "let's also say that I'm interested in"
+    },
+    {
+      "start": 571.12,
+      "duration": 5.04,
+      "text": "making a very small change. Uh let's say"
+    },
+    {
+      "start": 573.44,
+      "duration": 5.6,
+      "text": "that this function selector over here,"
+    },
+    {
+      "start": 576.16,
+      "duration": 5.359,
+      "text": "let's update uh the function selector so"
+    },
+    {
+      "start": 579.04,
+      "duration": 4.4,
+      "text": "it has more functions. Let's see what"
+    },
+    {
+      "start": 581.519,
+      "duration": 3.201,
+      "text": "happens when I run this. When you run"
+    },
+    {
+      "start": 583.44,
+      "duration": 3.2,
+      "text": "it, by the way, you should see a lot of"
+    },
+    {
+      "start": 584.72,
+      "duration": 3.76,
+      "text": "things stream by down below over here in"
+    },
+    {
+      "start": 586.64,
+      "duration": 3.44,
+      "text": "the terminal. I can also confirm by"
+    },
+    {
+      "start": 588.48,
+      "duration": 3.52,
+      "text": "reading here that it's reading something"
+    },
+    {
+      "start": 590.08,
+      "duration": 3.439,
+      "text": "and that it's making some edits. You can"
+    },
+    {
+      "start": 592,
+      "duration": 4.24,
+      "text": "also see it make some tool calls which"
+    },
+    {
+      "start": 593.519,
+      "duration": 4.241,
+      "text": "are visible uh in between segments here."
+    },
+    {
+      "start": 596.24,
+      "duration": 3.2,
+      "text": "You can also see that it's thinking and"
+    },
+    {
+      "start": 597.76,
+      "duration": 3.12,
+      "text": "plotting and I think it even spotted a"
+    },
+    {
+      "start": 599.44,
+      "duration": 2.88,
+      "text": "mistake that it's trying to fix because"
+    },
+    {
+      "start": 600.88,
+      "duration": 3.04,
+      "text": "watch mode is turned on. You can also"
+    },
+    {
+      "start": 602.32,
+      "duration": 3.519,
+      "text": "see some of the coding updates appear"
+    },
+    {
+      "start": 603.92,
+      "duration": 3.52,
+      "text": "live. But at the end it's saying it's"
+    },
+    {
+      "start": 605.839,
+      "duration": 3.68,
+      "text": "done. It's added a few new functions. So"
+    },
+    {
+      "start": 607.44,
+      "duration": 3.839,
+      "text": "let's run the notebook. Let's go to this"
+    },
+    {
+      "start": 609.519,
+      "duration": 4.32,
+      "text": "dropdown. I can indeed see that there"
+    },
+    {
+      "start": 611.279,
+      "duration": 4.321,
+      "text": "are more functions that have been added."
+    },
+    {
+      "start": 613.839,
+      "duration": 4.24,
+      "text": "And when I scroll down to the plot I can"
+    },
+    {
+      "start": 615.6,
+      "duration": 4.479,
+      "text": "also see that indeed there has been a"
+    },
+    {
+      "start": 618.079,
+      "duration": 4.481,
+      "text": "update. And if I'm not mistaken, I can"
+    },
+    {
+      "start": 620.079,
+      "duration": 3.841,
+      "text": "also change the slider here. And yeah,"
+    },
+    {
+      "start": 622.56,
+      "duration": 3.839,
+      "text": "let's move this little terminal thing"
+    },
+    {
+      "start": 623.92,
+      "duration": 4.56,
+      "text": "down. But as I move around over here, I"
+    },
+    {
+      "start": 626.399,
+      "duration": 4.481,
+      "text": "can also see the chart update just from"
+    },
+    {
+      "start": 628.48,
+      "duration": 4.4,
+      "text": "eyeballing this. Uh, this looks correct."
+    },
+    {
+      "start": 630.88,
+      "duration": 3.28,
+      "text": "So there you go. Open code gives you a"
+    },
+    {
+      "start": 632.88,
+      "duration": 2.88,
+      "text": "lot of freedom when it comes to picking"
+    },
+    {
+      "start": 634.16,
+      "duration": 3.6,
+      "text": "different models. And again, because"
+    },
+    {
+      "start": 635.76,
+      "duration": 3.68,
+      "text": "Open Code can handle the agentic parts"
+    },
+    {
+      "start": 637.76,
+      "duration": 3.36,
+      "text": "like tool calling for you, it really"
+    },
+    {
+      "start": 639.44,
+      "duration": 3.68,
+      "text": "gives you a compelling alternative to"
+    },
+    {
+      "start": 641.12,
+      "duration": 3.36,
+      "text": "tools like Open Code, especially if you"
+    },
+    {
+      "start": 643.12,
+      "duration": 3.2,
+      "text": "have a beefy machine at home that might"
+    },
+    {
+      "start": 644.48,
+      "duration": 3.28,
+      "text": "run O Lama that can work out especially"
+    },
+    {
+      "start": 646.32,
+      "duration": 2.72,
+      "text": "nice for you. But there are lots of"
+    },
+    {
+      "start": 647.76,
+      "duration": 3.199,
+      "text": "other providers these days for these"
+    },
+    {
+      "start": 649.04,
+      "duration": 3.6,
+      "text": "open models that you can consider as"
+    },
+    {
+      "start": 650.959,
+      "duration": 3.681,
+      "text": "well. So, if you're keen to use open"
+    },
+    {
+      "start": 652.64,
+      "duration": 3.92,
+      "text": "models more, just know that in Mimo we"
+    },
+    {
+      "start": 654.64,
+      "duration": 4.72,
+      "text": "have an ACP connection, so you can use"
+    },
+    {
+      "start": 656.56,
+      "duration": 2.8,
+      "text": "it right away"
+    }
+  ],
+  "fullText": "Open code is a terminal application that's very much like cloud code except that it's more open. It lets you work with many different language models from many different providers. And frankly, it also just looks plain amazing in the terminal. Open code doesn't just look pretty though. It solves an actual problem. Thanks to open code, we actually have an insurance policy that will always let us leverage an open- source model just in case. If any of the large language model providers start to jack up their prices, we will have a compelling alternative to flip to. Open code can also run Olama models that you run locally on your own machine and it doesn't stop at the terminal either. Open code supports ACP which is a protocol that allows third party apps to integrate with it and that's great news for tools like MIMO. We have just added support for open code which means that if you have a Python notebook that you would like to edit you can actually get open code to help you with that. In this video I'm going to dive deeper into open code and generally I'm going to talk about how you can configure it. Specifically, I'm going to talk how you can configure Olama with it. And at the end, I'm also going to show you how you can use MIMO to connect to both. Okay, so let's do a very first demo. I downloaded Open Code beforehand. Uh here you can see me start it up. And this is what it looks like. I can also see it just uh completed an update automatically, which is very cool. Uh but let's configure a model before doing anything. So you can do back/model to list all the different models. Uh there's a few Olama models here. We'll get to that in just a bit. Uh but you can also see that there are models that I can connect to via this thing called open code zen. These open code zen models are models that the open code people host themselves. They also have the stamp of approval of working well with uh their stack. But uh you can also go for another provider. If I hit control A, you can see that there is a long list of models to go for here. Uh open router also is a nice provider. They basically host every open source model under the sun. But what I'm just going to go ahead and do is I'm just going to use the Kimmy K2 model from Open Code Zen. Going to hit enter. We can confirm that that's now selected. And yeah, I can uh type hello. We get a very quick response, which is really nice. Kim K2 is a relatively lightweight model. Uh and I can ask questions like what tools do you have access to? Question mark. And then here we can see that it's able to do code search. It's able to do some system stuff, some web stuff, project stuff, file operations. So these are all things that this LM can talk to. Another thing that I feel obliged to mention is that you can also just hit tab so you can switch between plan and build mode. Uh there's a lot of these things that you would expect from cloud code. These also exist in open code. But what we are interested in is running this together with Olama. And in order to do that, we are going to have to talk a little bit about Olama first. So I'm going to get out of this one. I'm going to hit Ctrl + C and then I'm just going to run Olama list. Now note I installed Olama beforehand. And here's just a list of models that I've got locally. And these are all models that I could go ahead and configure. But before you do that, there's this one setting you got to switch in Olama itself. So if you go and open the Olama app, then there are these settings that you can configure. And the one thing that you really want to do is you want to change this one default setting. By default, the context length is 4K. And that is something that Open Code cannot deal with. Instead, what you want to do is you want to set it quite a bit higher. For our demonstration purposes, I think uh 64K should suffice. But if you don't configure this, you're going to get into a pickle really quickly because Open Code is going to throw you a bunch of errors real quick. So that's the first setting we got to take care of. The next thing we got to do is uh you want to go to the Open Code configuration and that will be in theconfig/opencode and then I think there's an opencode.json file and that file on my machine looks a little bit like this. Now what you're able to do is you're able to configure a few providers manually. Here's a provider called Olama. You can see that it's using a npm package under the hood and it also has this base URL and I'm currently pointing it to a local host endpoint. So, it's running on this machine. You could theoretically also point it to another server. So, if you have a big machine somewhere with a big GPU, uh that's something you could also configure. But in this case, you know, pretty good Mac. So, I'm just going to use what I've got locally. And then once you've configured the general stuff for your Olama provider, next up, what you can do is you can configure your models. What's important here is that you check the names that you provide over here. So, for example, I've got gpt- oss colon 20b-cloud. This name has to actually correspond with a name that Olama likes to refer to. Inside of this little JSON blob after, you can give it another name. And this is the name that you're going to see in the menu. But this name really does need to correspond. So, if I were to go back to the terminal here, if I were to do lama list, right? Then these are the names that matter. So there's the Quen model that I just mentioned. There's the GPT open source model that I just mentioned. So in general, I would say do yourself a favor. Uh just copy this, make a hard copy, don't invite typos, and then you're good to go. There is another thing that you want to make sure of whenever you're using models from Olama. And let me just show that by copying this Gemma 31B model. And let me just add that model down over here. So that's now configured. And I just hit save. If I run now to start up open code and I hit back slashmodels once again, then you should see that indeed Gemma 1B is something I can now configure. But uh notice what happens when I actually select it. Gemma 1B is now selected down below over here. So that's cool. I'm going to type hello. And boom. We're going to get ourselves an error because it is saying that Gemma 31B does not support tools. To prevent this, I do have a bit of advice. If I look at the Gemma 3 models over here, you can see that it's indeed got vision capabilities. It's also available via the OAMA cloud, but you instead want to go for models that have tools available to it. So, if you're going to look for models, make sure that you select tools here. And then you start looking down from the list. It might still be the case that it's not fully compatible with Open Code. There's all sorts of models out there these days, so it's hard to give a hard guarantee, but you do want to make sure you've got a model that is able to call tools. Otherwise, open code's not going to be able to understand when the LLM wants to actually edit files. So, that's a thing that the model needs to be trained for. That's something you got to keep in the back of your mind. Finally, another thing that's also good to just uh point out, uh, Olama also has a cloud version these days. If I go to the terminal and if I type Lama list, you will see that indeed I have this one connection to a GPT model, the open source model that's hosted on the cloud. It doesn't have a file size because this is something that they host. This is really just kind of a router that I've downloaded. But if I now go to the configuration file again, I just have to refer to the name which is what I'm doing. And that also means that if I go to open code now and if I select the model that I'm also able to select that cloud model from Olama, I can type hello and I get a very quick reply back. Uh so that's all pretty cool and good too. So this is how you connect Olama models to open code. And again it's worth emphasizing uh you can configure all sorts of models. You don't have to necessarily go with Olama. You can also go with open router or open code zen. you don't have to run it locally. Uh but the fact that you can is definitely uh nice and also pretty fun. So at this point we have Olama talking to open code and the next thing that I would like to do is I would like to configure MIMO to also talk to open code. And to do that there is this one extra thing that I got to do. So I'm going to run Mimo with UVX. That way it's going to just start a notebook uh with its own little sandbox and I don't have to start a virtual environment or anything like that. I'm going to tell Mimo to edit a new notebook. I'm going to tell it to do this in sandbox mode. This is going to make a UV environment just for that notebook. But the final thing I want to do is I want to set the watch flag. With this watch flag set, the browser, the front end, that's going to auto update whenever it detects a file change. And that's going to make sure that I don't have to manually refresh the browser all the time. And uh yeah, let's just go for a fun little file here. I was working on this one little demo a little bit earlier. This Taylor series explainer. This was something that was generated with open code actually. But there you go. The notebook is now open. Uh we can now start exploring this with an agent that is using open code under the hood. Uh there are some things that I can slide around some UI elements. I can also run this in app mode and this is kind of like one of those math explainers. We can explain tailaylor series. Let's maybe just zoom out a smidge to explain that. I can specify a higher degree of a tailor approximation. We can see the charts update. So okay, that's a pretty fun notebook. But what I would like to do now though is edit this notebook with a open code agent. Now to do that what you got to do is you got to go to this chat and agents panel and in particular got to zoom out a little bit. We want to use this open code beta over here. You can hit this run in terminal button. That's going to open up this side panel over here that starts up a terminal and we are going to start this standard IO to websocket connection that is going to connect to open code. You don't really have to think too much about it. You just have to run it and once it starts listening then we can start a new session and we can start a new open code session. Uh it's going to take a small moment to uh make the connection but once it's made we are indeed good. Before typing anything to the agent there's a few things that we can configure from here. One thing is that we can say well let's start in plan mode as opposed to starting in build mode right away. Plan mode has a benefit that we can maybe confirm a plan before we actually start writing code. Uh but starting in build mode in this case I think it's just going to be fine. And another thing that we can do is we can change the model. And if we scroll all the way at the bottom here, we can see all the open code Zen models that are at our disposal. But if you were to scroll around here as well, you can also see that we have a Olama model at our disposal. So I can connect to my local Olama model, Quen 38B. Now, for this demo, what I think I'm just going to go ahead and do is I'm just going to go with an open code Zen model. And the main reason why I'm doing it is that I'm also recording something uh right now. But I just want to show you that this connection over here does work. And let's also say that I'm interested in making a very small change. Uh let's say that this function selector over here, let's update uh the function selector so it has more functions. Let's see what happens when I run this. When you run it, by the way, you should see a lot of things stream by down below over here in the terminal. I can also confirm by reading here that it's reading something and that it's making some edits. You can also see it make some tool calls which are visible uh in between segments here. You can also see that it's thinking and plotting and I think it even spotted a mistake that it's trying to fix because watch mode is turned on. You can also see some of the coding updates appear live. But at the end it's saying it's done. It's added a few new functions. So let's run the notebook. Let's go to this dropdown. I can indeed see that there are more functions that have been added. And when I scroll down to the plot I can also see that indeed there has been a update. And if I'm not mistaken, I can also change the slider here. And yeah, let's move this little terminal thing down. But as I move around over here, I can also see the chart update just from eyeballing this. Uh, this looks correct. So there you go. Open code gives you a lot of freedom when it comes to picking different models. And again, because Open Code can handle the agentic parts like tool calling for you, it really gives you a compelling alternative to tools like Open Code, especially if you have a beefy machine at home that might run O Lama that can work out especially nice for you. But there are lots of other providers these days for these open models that you can consider as well. So, if you're keen to use open models more, just know that in Mimo we have an ACP connection, so you can use it right away",
+  "fetchedAt": "2026-01-18T18:31:53.947Z"
+}

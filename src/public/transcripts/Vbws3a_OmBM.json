@@ -1,0 +1,1229 @@
+{
+  "videoId": "Vbws3a_OmBM",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 5.84,
+      "text": "Daario Amade criticized US chip exports"
+    },
+    {
+      "start": 3.439,
+      "duration": 4.641,
+      "text": "to China, likening the policy to selling"
+    },
+    {
+      "start": 6.08,
+      "duration": 4.4,
+      "text": "nuclear weapons to North Korea."
+    },
+    {
+      "start": 8.08,
+      "duration": 5.28,
+      "text": ">> Earlier this week, Quen released a new"
+    },
+    {
+      "start": 10.48,
+      "duration": 4.72,
+      "text": "Quentry TTS model, and I've been trying"
+    },
+    {
+      "start": 13.36,
+      "duration": 4.24,
+      "text": "it out for the last few days, and it's"
+    },
+    {
+      "start": 15.2,
+      "duration": 4.239,
+      "text": "very good for the size it is. So, I"
+    },
+    {
+      "start": 17.6,
+      "duration": 4.08,
+      "text": "thought we can do some kind of claw"
+    },
+    {
+      "start": 19.439,
+      "duration": 5.121,
+      "text": "let's build video today just to test it"
+    },
+    {
+      "start": 21.68,
+      "duration": 7.04,
+      "text": "out to run this locally on this MacBook."
+    },
+    {
+      "start": 24.56,
+      "duration": 6.32,
+      "text": "So what I came up with was basically"
+    },
+    {
+      "start": 28.72,
+      "duration": 3.999,
+      "text": "uh yeah let me make this big screen"
+    },
+    {
+      "start": 30.88,
+      "duration": 4.96,
+      "text": "here. So basically I wanted to build"
+    },
+    {
+      "start": 32.719,
+      "duration": 5.52,
+      "text": "this AI video pipeline so we can ask a"
+    },
+    {
+      "start": 35.84,
+      "duration": 4.48,
+      "text": "question. We're going to use Gemini to"
+    },
+    {
+      "start": 38.239,
+      "duration": 4.721,
+      "text": "do some research online to try to answer"
+    },
+    {
+      "start": 40.32,
+      "duration": 5.52,
+      "text": "that question in 20 seconds. We're going"
+    },
+    {
+      "start": 42.96,
+      "duration": 4.48,
+      "text": "to generate the voice with the Quen TTS."
+    },
+    {
+      "start": 45.84,
+      "duration": 3.12,
+      "text": "We have some images. We're going to do"
+    },
+    {
+      "start": 47.44,
+      "duration": 3.76,
+      "text": "some video generation using the"
+    },
+    {
+      "start": 48.96,
+      "duration": 4.64,
+      "text": "Omnihuman model. we got to download"
+    },
+    {
+      "start": 51.2,
+      "duration": 4.56,
+      "text": "everything and what we get back is kind"
+    },
+    {
+      "start": 53.6,
+      "duration": 4.56,
+      "text": "of a video with the answer to our"
+    },
+    {
+      "start": 55.76,
+      "duration": 5.279,
+      "text": "question. So since we're using Gemini 3"
+    },
+    {
+      "start": 58.16,
+      "duration": 5.92,
+      "text": "as kind of the the research part, we can"
+    },
+    {
+      "start": 61.039,
+      "duration": 6.001,
+      "text": "kind of answer anything, right? Uh and"
+    },
+    {
+      "start": 64.08,
+      "duration": 5.12,
+      "text": "we want to compress it down to 20"
+    },
+    {
+      "start": 67.04,
+      "duration": 4.32,
+      "text": "seconds. So the answer generation is of"
+    },
+    {
+      "start": 69.2,
+      "duration": 4.239,
+      "text": "course with Gemini Flash, we just ask"
+    },
+    {
+      "start": 71.36,
+      "duration": 4.799,
+      "text": "like Python main.py, what is the latest"
+    },
+    {
+      "start": 73.439,
+      "duration": 5.281,
+      "text": "AI news? We go out, we do some research,"
+    },
+    {
+      "start": 76.159,
+      "duration": 4.801,
+      "text": "right? We're going to do 50 words max,"
+    },
+    {
+      "start": 78.72,
+      "duration": 4.24,
+      "text": "two, three sentences. And that's going"
+    },
+    {
+      "start": 80.96,
+      "duration": 4.32,
+      "text": "to be put into a string. So, we can send"
+    },
+    {
+      "start": 82.96,
+      "duration": 4.72,
+      "text": "it over to Quen, right? And you can see"
+    },
+    {
+      "start": 85.28,
+      "duration": 5.12,
+      "text": "we send this string over to Quen. It's"
+    },
+    {
+      "start": 87.68,
+      "duration": 5.92,
+      "text": "supposed to be three here, TTS. And we"
+    },
+    {
+      "start": 90.4,
+      "duration": 4.719,
+      "text": "use the 1.7B parameter model. We have"
+    },
+    {
+      "start": 93.6,
+      "duration": 5.6,
+      "text": "some reference voice. That's going to be"
+    },
+    {
+      "start": 95.119,
+      "duration": 5.36,
+      "text": "our Vtuber or this anime style girl,"
+    },
+    {
+      "start": 99.2,
+      "duration": 3.52,
+      "text": "right? That's going to be a reference"
+    },
+    {
+      "start": 100.479,
+      "duration": 6.161,
+      "text": "audio and input text. And we kind of get"
+    },
+    {
+      "start": 102.72,
+      "duration": 5.52,
+      "text": "the audio file or the answer out, right?"
+    },
+    {
+      "start": 106.64,
+      "duration": 3.92,
+      "text": "And the next step then is just going to"
+    },
+    {
+      "start": 108.24,
+      "duration": 5.44,
+      "text": "be to upload this along with the image"
+    },
+    {
+      "start": 110.56,
+      "duration": 5.44,
+      "text": "we have to the omnihuman model. And from"
+    },
+    {
+      "start": 113.68,
+      "duration": 5.28,
+      "text": "there, we're going to use the the image"
+    },
+    {
+      "start": 116,
+      "duration": 5.84,
+      "text": "URL and the audio URL, send it over to"
+    },
+    {
+      "start": 118.96,
+      "duration": 4.64,
+      "text": "omni and turn this into like a avatar"
+    },
+    {
+      "start": 121.84,
+      "duration": 3.76,
+      "text": "and generate the video that's going to"
+    },
+    {
+      "start": 123.6,
+      "duration": 4.4,
+      "text": "be our answer. Then we're going to"
+    },
+    {
+      "start": 125.6,
+      "duration": 3.6,
+      "text": "retrieve this and we can save it and we"
+    },
+    {
+      "start": 128,
+      "duration": 4.64,
+      "text": "can play it, right? you're going to get"
+    },
+    {
+      "start": 129.2,
+      "duration": 6.32,
+      "text": "the final video MP4 out. So, like I"
+    },
+    {
+      "start": 132.64,
+      "duration": 5.92,
+      "text": "said, it's not the most uh advanced"
+    },
+    {
+      "start": 135.52,
+      "duration": 4.64,
+      "text": "pipeline. Uh yeah, you can see here it's"
+    },
+    {
+      "start": 138.56,
+      "duration": 5.36,
+      "text": "basically"
+    },
+    {
+      "start": 140.16,
+      "duration": 6.079,
+      "text": "how many steps? 1 2 3 4 5 six steps all"
+    },
+    {
+      "start": 143.92,
+      "duration": 4,
+      "text": "the way. So, let me just show you how"
+    },
+    {
+      "start": 146.239,
+      "duration": 4.561,
+      "text": "this works now. And I think the results"
+    },
+    {
+      "start": 147.92,
+      "duration": 4.959,
+      "text": "is pretty interesting to be honest. So,"
+    },
+    {
+      "start": 150.8,
+      "duration": 4.24,
+      "text": "before we run the full pipeline, let me"
+    },
+    {
+      "start": 152.879,
+      "duration": 4.561,
+      "text": "just show you kind of how Quen 3 works."
+    },
+    {
+      "start": 155.04,
+      "duration": 4.24,
+      "text": "And it's really easy to use. uh even on"
+    },
+    {
+      "start": 157.44,
+      "duration": 4.56,
+      "text": "MacBook it's pretty fast because of the"
+    },
+    {
+      "start": 159.28,
+      "duration": 4.4,
+      "text": "model size. So if you go to cursor here"
+    },
+    {
+      "start": 162,
+      "duration": 5.2,
+      "text": "you can see we have this Python code"
+    },
+    {
+      "start": 163.68,
+      "duration": 8.16,
+      "text": "here where we have kind of loaded up the"
+    },
+    {
+      "start": 167.2,
+      "duration": 7.28,
+      "text": "Quen 3TS 1.7 base model. So you can see"
+    },
+    {
+      "start": 171.84,
+      "duration": 4.64,
+      "text": "we have this set to MPS now. Uh but uh"
+    },
+    {
+      "start": 174.48,
+      "duration": 5.039,
+      "text": "what we can do now is we just select"
+    },
+    {
+      "start": 176.48,
+      "duration": 4.88,
+      "text": "this V tube VV file that is our"
+    },
+    {
+      "start": 179.519,
+      "duration": 4.161,
+      "text": "reference audio. This is our cloned"
+    },
+    {
+      "start": 181.36,
+      "duration": 3.04,
+      "text": "voice. Uh we can have a quick listen to"
+    },
+    {
+      "start": 183.68,
+      "duration": 2.96,
+      "text": "it."
+    },
+    {
+      "start": 184.4,
+      "duration": 4.479,
+      "text": ">> Okay. So, Hightail is basically"
+    },
+    {
+      "start": 186.64,
+      "duration": 3.84,
+      "text": "Minecraft 2 and I am So,"
+    },
+    {
+      "start": 188.879,
+      "duration": 5.44,
+      "text": ">> yeah, you get the point, right? It's"
+    },
+    {
+      "start": 190.48,
+      "duration": 6.399,
+      "text": "like this Vtuber anime boys. So, what"
+    },
+    {
+      "start": 194.319,
+      "duration": 4.721,
+      "text": "happens now if we just put in something"
+    },
+    {
+      "start": 196.879,
+      "duration": 4,
+      "text": "else? We put in Hello YouTube, today's"
+    },
+    {
+      "start": 199.04,
+      "duration": 3.839,
+      "text": "Friday. You might be looking forward to"
+    },
+    {
+      "start": 200.879,
+      "duration": 4.72,
+      "text": "weekend. Maybe have some cool plans blah"
+    },
+    {
+      "start": 202.879,
+      "duration": 5.921,
+      "text": "blah blah. So, to use this now, we can"
+    },
+    {
+      "start": 205.599,
+      "duration": 8,
+      "text": "just do Python"
+    },
+    {
+      "start": 208.8,
+      "duration": 7.359,
+      "text": "voice clone, right? pi. And that's"
+    },
+    {
+      "start": 213.599,
+      "duration": 4.881,
+      "text": "basically all we have to do. Uh, okay. I"
+    },
+    {
+      "start": 216.159,
+      "duration": 4.561,
+      "text": "I might have to fix that. So, let me fix"
+    },
+    {
+      "start": 218.48,
+      "duration": 4.399,
+      "text": "that. And let's run it. Yeah, I just"
+    },
+    {
+      "start": 220.72,
+      "duration": 3.439,
+      "text": "forgot my uh environment here, right? My"
+    },
+    {
+      "start": 222.879,
+      "duration": 3.601,
+      "text": "cond environment. So, we're just going"
+    },
+    {
+      "start": 224.159,
+      "duration": 4.881,
+      "text": "to do cond run, load up the model, and"
+    },
+    {
+      "start": 226.48,
+      "duration": 4.399,
+      "text": "run the Python voice.py. This shouldn't"
+    },
+    {
+      "start": 229.04,
+      "duration": 4.559,
+      "text": "take too long. So, let me see. I think"
+    },
+    {
+      "start": 230.879,
+      "duration": 3.92,
+      "text": "it's just going to take some a minute or"
+    },
+    {
+      "start": 233.599,
+      "duration": 2.72,
+      "text": "something. So, I'm just going to wait"
+    },
+    {
+      "start": 234.799,
+      "duration": 4.241,
+      "text": "for this and then we're going to listen"
+    },
+    {
+      "start": 236.319,
+      "duration": 4.801,
+      "text": "to the output. So while we wait for that"
+    },
+    {
+      "start": 239.04,
+      "duration": 4.559,
+      "text": "everything here was just built very easy"
+    },
+    {
+      "start": 241.12,
+      "duration": 4.479,
+      "text": "just using cloud code. So I just"
+    },
+    {
+      "start": 243.599,
+      "duration": 4.881,
+      "text": "gathered the documentation here I needed"
+    },
+    {
+      "start": 245.599,
+      "duration": 4.881,
+      "text": "I needed some context for yes my testing"
+    },
+    {
+      "start": 248.48,
+      "duration": 4.479,
+      "text": "my Gemini documentation my grounding"
+    },
+    {
+      "start": 250.48,
+      "duration": 6.4,
+      "text": "documentation for Google search. Uh I"
+    },
+    {
+      "start": 252.959,
+      "duration": 5.921,
+      "text": "just went to the GitHub on um on Quen 3"
+    },
+    {
+      "start": 256.88,
+      "duration": 4.72,
+      "text": "and found all the information I needed"
+    },
+    {
+      "start": 258.88,
+      "duration": 5.36,
+      "text": "about the model. Right. So we got all"
+    },
+    {
+      "start": 261.6,
+      "duration": 4.56,
+      "text": "that and and this is the omni model."
+    },
+    {
+      "start": 264.24,
+      "duration": 4.32,
+      "text": "Right. This is the video model. Here is"
+    },
+    {
+      "start": 266.16,
+      "duration": 5.12,
+      "text": "everything I needed about uh the Quent"
+    },
+    {
+      "start": 268.56,
+      "duration": 5.52,
+      "text": "TTS model. Uh I just went to the repo"
+    },
+    {
+      "start": 271.28,
+      "duration": 5.04,
+      "text": "and gathered the documentation and from"
+    },
+    {
+      "start": 274.08,
+      "duration": 4.48,
+      "text": "there cloud code basically helped me set"
+    },
+    {
+      "start": 276.32,
+      "duration": 4.319,
+      "text": "everything up. So this is not a hard"
+    },
+    {
+      "start": 278.56,
+      "duration": 4.8,
+      "text": "thing to create. So let's listen to the"
+    },
+    {
+      "start": 280.639,
+      "duration": 4.321,
+      "text": "cloned output now and kind of compare it"
+    },
+    {
+      "start": 283.36,
+      "duration": 4.24,
+      "text": "to the clone voice."
+    },
+    {
+      "start": 284.96,
+      "duration": 4.72,
+      "text": ">> Hello YouTube. Today is a Friday so you"
+    },
+    {
+      "start": 287.6,
+      "duration": 4.4,
+      "text": "might be looking forward to the weekend."
+    },
+    {
+      "start": 289.68,
+      "duration": 5.04,
+      "text": "Maybe you got some cool plans anyway."
+    },
+    {
+      "start": 292,
+      "duration": 4.479,
+      "text": "Yeah, it's not exactly the same, but for"
+    },
+    {
+      "start": 294.72,
+      "duration": 5.28,
+      "text": "this size of model, I think it's pretty"
+    },
+    {
+      "start": 296.479,
+      "duration": 5.28,
+      "text": "good and it's very usable, right? So, it"
+    },
+    {
+      "start": 300,
+      "duration": 3.759,
+      "text": "kind of saves you a lot of uh money"
+    },
+    {
+      "start": 301.759,
+      "duration": 3.921,
+      "text": "instead of using like 11 labs, that is"
+    },
+    {
+      "start": 303.759,
+      "duration": 4.081,
+      "text": "of course better. So, if you need like a"
+    },
+    {
+      "start": 305.68,
+      "duration": 5.2,
+      "text": "big project, but uh just running this"
+    },
+    {
+      "start": 307.84,
+      "duration": 5.28,
+      "text": "locally and it only spent like couple of"
+    },
+    {
+      "start": 310.88,
+      "duration": 4.4,
+      "text": "minutes or something creating this. So,"
+    },
+    {
+      "start": 313.12,
+      "duration": 4.72,
+      "text": "for long text that kind of cost a lot of"
+    },
+    {
+      "start": 315.28,
+      "duration": 4.88,
+      "text": "money, that doesn't really um need a lot"
+    },
+    {
+      "start": 317.84,
+      "duration": 5.84,
+      "text": "of quality. I think this is pretty good,"
+    },
+    {
+      "start": 320.16,
+      "duration": 8,
+      "text": "right? So now let's do the loop here. So"
+    },
+    {
+      "start": 323.68,
+      "duration": 5.76,
+      "text": "remember we can answer any question. So"
+    },
+    {
+      "start": 328.16,
+      "duration": 3.52,
+      "text": "uh I'm just going to open up a new"
+    },
+    {
+      "start": 329.44,
+      "duration": 4.4,
+      "text": "terminal and let's try this now. Okay."
+    },
+    {
+      "start": 331.68,
+      "duration": 4.4,
+      "text": "So what I'm going to do now kind of run"
+    },
+    {
+      "start": 333.84,
+      "duration": 4.32,
+      "text": "uh the model python pipeline.py and then"
+    },
+    {
+      "start": 336.08,
+      "duration": 6.16,
+      "text": "I'm going to ask a question. So I think"
+    },
+    {
+      "start": 338.16,
+      "duration": 8.879,
+      "text": "I'm going to ask um will there be a"
+    },
+    {
+      "start": 342.24,
+      "duration": 7.92,
+      "text": "season 3 of u severance"
+    },
+    {
+      "start": 347.039,
+      "duration": 4.801,
+      "text": "in 2026? So that is my question. Right."
+    },
+    {
+      "start": 350.16,
+      "duration": 4,
+      "text": "So, I'm going to send this. So,"
+    },
+    {
+      "start": 351.84,
+      "duration": 5.68,
+      "text": "hopefully now the response is going to"
+    },
+    {
+      "start": 354.16,
+      "duration": 5.759,
+      "text": "be in video format with an avatar and"
+    },
+    {
+      "start": 357.52,
+      "duration": 5.44,
+      "text": "kind of moving mouth and some background"
+    },
+    {
+      "start": 359.919,
+      "duration": 5.921,
+      "text": "music I added. So, the idea behind this"
+    },
+    {
+      "start": 362.96,
+      "duration": 4.959,
+      "text": "was I was kind of thinking like"
+    },
+    {
+      "start": 365.84,
+      "duration": 4.479,
+      "text": "uh in the future, let's say 10 years"
+    },
+    {
+      "start": 367.919,
+      "duration": 6,
+      "text": "from now and let's say you go to YouTube"
+    },
+    {
+      "start": 370.319,
+      "duration": 6.401,
+      "text": "and you type in a search. So let's say I"
+    },
+    {
+      "start": 373.919,
+      "duration": 6.4,
+      "text": "was thinking maybe in 10 years YouTube"
+    },
+    {
+      "start": 376.72,
+      "duration": 5.52,
+      "text": "is now gonna produce the video for you."
+    },
+    {
+      "start": 380.319,
+      "duration": 4.481,
+      "text": "So you don't get like a creator or"
+    },
+    {
+      "start": 382.24,
+      "duration": 5.12,
+      "text": "anything not like me. So you get like a"
+    },
+    {
+      "start": 384.8,
+      "duration": 4.64,
+      "text": "fully produced video that kind of"
+    },
+    {
+      "start": 387.36,
+      "duration": 3.6,
+      "text": "resembles with your previous history or"
+    },
+    {
+      "start": 389.44,
+      "duration": 4.24,
+      "text": "something like that. So that was kind of"
+    },
+    {
+      "start": 390.96,
+      "duration": 5.44,
+      "text": "the idea behind this pipeline just to"
+    },
+    {
+      "start": 393.68,
+      "duration": 4.959,
+      "text": "see what we can do now if we just type"
+    },
+    {
+      "start": 396.4,
+      "duration": 4.639,
+      "text": "in a question and we get the answer back"
+    },
+    {
+      "start": 398.639,
+      "duration": 3.68,
+      "text": "in video format. So we're just going to"
+    },
+    {
+      "start": 401.039,
+      "duration": 4.241,
+      "text": "wait for this. This is going to take"
+    },
+    {
+      "start": 402.319,
+      "duration": 4.401,
+      "text": "some time. Maybe like 5 10 minutes and"
+    },
+    {
+      "start": 405.28,
+      "duration": 3.039,
+      "text": "I'll take you back. Okay. So, you can"
+    },
+    {
+      "start": 406.72,
+      "duration": 5.44,
+      "text": "see that is done now. That didn't take"
+    },
+    {
+      "start": 408.319,
+      "duration": 6.72,
+      "text": "too long. I would say maybe 5 to 7"
+    },
+    {
+      "start": 412.16,
+      "duration": 5.039,
+      "text": "minutes. I would say 5 minutes. Okay."
+    },
+    {
+      "start": 415.039,
+      "duration": 4.481,
+      "text": "So, let's pull up the video now and kind"
+    },
+    {
+      "start": 417.199,
+      "duration": 5.521,
+      "text": "of watch the answer to will there be a"
+    },
+    {
+      "start": 419.52,
+      "duration": 5.92,
+      "text": "season 3 of Severance in 2026."
+    },
+    {
+      "start": 422.72,
+      "duration": 5.039,
+      "text": ">> But Apple TV Plus has not yet officially"
+    },
+    {
+      "start": 425.44,
+      "duration": 4.159,
+      "text": "renewed Severance for a third season."
+    },
+    {
+      "start": 427.759,
+      "duration": 4.72,
+      "text": "Season 2 is scheduled to premiere on"
+    },
+    {
+      "start": 429.599,
+      "duration": 4.72,
+      "text": "January 17th, 2025. While the creators"
+    },
+    {
+      "start": 432.479,
+      "duration": 4.241,
+      "text": "have planned for multiple seasons, a"
+    },
+    {
+      "start": 434.319,
+      "duration": 3.921,
+      "text": "2026 release remains unconfirmed and"
+    },
+    {
+      "start": 436.72,
+      "duration": 3.199,
+      "text": "depends on production timelines"
+    },
+    {
+      "start": 438.24,
+      "duration": 3.84,
+      "text": "following the upcoming premiere."
+    },
+    {
+      "start": 439.919,
+      "duration": 3.921,
+      "text": ">> Okay, so I wouldn't say that answer was"
+    },
+    {
+      "start": 442.08,
+      "duration": 4,
+      "text": "maybe the best, but that is with the"
+    },
+    {
+      "start": 443.84,
+      "duration": 4.479,
+      "text": "pipeline. So, I looked this up and it"
+    },
+    {
+      "start": 446.08,
+      "duration": 5.6,
+      "text": "says uh there has no uh it won't be"
+    },
+    {
+      "start": 448.319,
+      "duration": 4.72,
+      "text": "released in 26, so there's no set date"
+    },
+    {
+      "start": 451.68,
+      "duration": 4.079,
+      "text": "uh yet. That is kind of what I get from"
+    },
+    {
+      "start": 453.039,
+      "duration": 5.521,
+      "text": "the AI overview I hear at least. Uh but"
+    },
+    {
+      "start": 455.759,
+      "duration": 4.801,
+      "text": "other than the answer, I guess uh it"
+    },
+    {
+      "start": 458.56,
+      "duration": 6.079,
+      "text": "worked out pretty good and it sounded"
+    },
+    {
+      "start": 460.56,
+      "duration": 6.32,
+      "text": "and looked fine, I would say. So the"
+    },
+    {
+      "start": 464.639,
+      "duration": 4.881,
+      "text": "purpose of the pipeline at least worked."
+    },
+    {
+      "start": 466.88,
+      "duration": 5.039,
+      "text": "We got kind of the animated VTuber"
+    },
+    {
+      "start": 469.52,
+      "duration": 4.64,
+      "text": "style. She's kind of moving her lips and"
+    },
+    {
+      "start": 471.919,
+      "duration": 5.12,
+      "text": "we use the voice and stuff. So I want to"
+    },
+    {
+      "start": 474.16,
+      "duration": 5.68,
+      "text": "try one more more relevant question. So"
+    },
+    {
+      "start": 477.039,
+      "duration": 6.241,
+      "text": "let's do the same, but this time I want"
+    },
+    {
+      "start": 479.84,
+      "duration": 7.039,
+      "text": "to ask something very specific. So let's"
+    },
+    {
+      "start": 483.28,
+      "duration": 5.12,
+      "text": "say what did Daario"
+    },
+    {
+      "start": 486.879,
+      "duration": 4.16,
+      "text": "Amodai"
+    },
+    {
+      "start": 488.4,
+      "duration": 7.199,
+      "text": "say about"
+    },
+    {
+      "start": 491.039,
+      "duration": 7.361,
+      "text": "uh AI in Davos"
+    },
+    {
+      "start": 495.599,
+      "duration": 4.88,
+      "text": "2026 something like that. Yeah, just"
+    },
+    {
+      "start": 498.4,
+      "duration": 3.84,
+      "text": "from the latest news. I'm going to run"
+    },
+    {
+      "start": 500.479,
+      "duration": 5.041,
+      "text": "it one more time and let's see if we get"
+    },
+    {
+      "start": 502.24,
+      "duration": 5.76,
+      "text": "like a very up to-date answer here. So"
+    },
+    {
+      "start": 505.52,
+      "duration": 5.2,
+      "text": "we have that. So let's play it. So, I'm"
+    },
+    {
+      "start": 508,
+      "duration": 6.399,
+      "text": "just going to open up in full screen and"
+    },
+    {
+      "start": 510.72,
+      "duration": 4.799,
+      "text": "let's hear what did Dario Amade say in"
+    },
+    {
+      "start": 514.399,
+      "duration": 5.52,
+      "text": "Davos."
+    },
+    {
+      "start": 515.519,
+      "duration": 7.361,
+      "text": ">> At at at Davos 2026, Dario Amade"
+    },
+    {
+      "start": 519.919,
+      "duration": 5.201,
+      "text": "criticized US chip exports to China,"
+    },
+    {
+      "start": 522.88,
+      "duration": 5.2,
+      "text": "likening the policy to selling nuclear"
+    },
+    {
+      "start": 525.12,
+      "duration": 5.2,
+      "text": "weapons to North Korea. He predicted AI"
+    },
+    {
+      "start": 528.08,
+      "duration": 3.92,
+      "text": "would automate most software engineering"
+    },
+    {
+      "start": 530.32,
+      "duration": 4.56,
+      "text": "tasks within a year."
+    },
+    {
+      "start": 532,
+      "duration": 5.04,
+      "text": ">> Okay, so it is up to date because uh I'm"
+    },
+    {
+      "start": 534.88,
+      "duration": 3.519,
+      "text": "pretty sure that's what he said. He said"
+    },
+    {
+      "start": 537.04,
+      "duration": 5.04,
+      "text": "something about comparing this to North"
+    },
+    {
+      "start": 538.399,
+      "duration": 6.721,
+      "text": "Korea and he's also talked about uh yeah"
+    },
+    {
+      "start": 542.08,
+      "duration": 5.199,
+      "text": "software engineering 2026 or something."
+    },
+    {
+      "start": 545.12,
+      "duration": 5.12,
+      "text": "So yeah, I would say this is working"
+    },
+    {
+      "start": 547.279,
+      "duration": 5.601,
+      "text": "pretty good and and so far I think this"
+    },
+    {
+      "start": 550.24,
+      "duration": 5.039,
+      "text": "new Quen model has been yeah kind of"
+    },
+    {
+      "start": 552.88,
+      "duration": 4.88,
+      "text": "impressive to be honest. It's so small"
+    },
+    {
+      "start": 555.279,
+      "duration": 5.521,
+      "text": "but it performs very well. So I think my"
+    },
+    {
+      "start": 557.76,
+      "duration": 4.32,
+      "text": "next step uh for testing this uh it's"
+    },
+    {
+      "start": 560.8,
+      "duration": 3.84,
+      "text": "not going to be in this video but I want"
+    },
+    {
+      "start": 562.08,
+      "duration": 5.36,
+      "text": "to try like a long input. So, I want to"
+    },
+    {
+      "start": 564.64,
+      "duration": 5.12,
+      "text": "try something like 20 minutes just to"
+    },
+    {
+      "start": 567.44,
+      "duration": 3.6,
+      "text": "see how well it's going to turn out. So,"
+    },
+    {
+      "start": 569.76,
+      "duration": 2.88,
+      "text": "but that is going not going to be in"
+    },
+    {
+      "start": 571.04,
+      "duration": 5.76,
+      "text": "this video. But, uh I think we kind of"
+    },
+    {
+      "start": 572.64,
+      "duration": 7.199,
+      "text": "proved that we can build um a pipeline"
+    },
+    {
+      "start": 576.8,
+      "duration": 5.68,
+      "text": "that kind of goes through all of these"
+    },
+    {
+      "start": 579.839,
+      "duration": 4.481,
+      "text": "steps here using the local model too."
+    },
+    {
+      "start": 582.48,
+      "duration": 4.96,
+      "text": "So, Gemini 3 flash for the research,"
+    },
+    {
+      "start": 584.32,
+      "duration": 5.44,
+      "text": "Quent 3 for the TTS and the Omnihuman"
+    },
+    {
+      "start": 587.44,
+      "duration": 4.24,
+      "text": "model for on foul for generate the"
+    },
+    {
+      "start": 589.76,
+      "duration": 4.16,
+      "text": "avatars and yeah, put everything"
+    },
+    {
+      "start": 591.68,
+      "duration": 4,
+      "text": "together. So yeah, maybe this gave you"
+    },
+    {
+      "start": 593.92,
+      "duration": 3.84,
+      "text": "some inspiration of how you can use"
+    },
+    {
+      "start": 595.68,
+      "duration": 4.8,
+      "text": "cloud code and maybe the new TTS model"
+    },
+    {
+      "start": 597.76,
+      "duration": 4.88,
+      "text": "from Quen to do some yeah, workflows or"
+    },
+    {
+      "start": 600.48,
+      "duration": 5.52,
+      "text": "pipelines like this. So yeah, have a"
+    },
+    {
+      "start": 602.64,
+      "duration": 3.36,
+      "text": "good weekend and I'll see you again"
+    }
+  ],
+  "fullText": "Daario Amade criticized US chip exports to China, likening the policy to selling nuclear weapons to North Korea. >> Earlier this week, Quen released a new Quentry TTS model, and I've been trying it out for the last few days, and it's very good for the size it is. So, I thought we can do some kind of claw let's build video today just to test it out to run this locally on this MacBook. So what I came up with was basically uh yeah let me make this big screen here. So basically I wanted to build this AI video pipeline so we can ask a question. We're going to use Gemini to do some research online to try to answer that question in 20 seconds. We're going to generate the voice with the Quen TTS. We have some images. We're going to do some video generation using the Omnihuman model. we got to download everything and what we get back is kind of a video with the answer to our question. So since we're using Gemini 3 as kind of the the research part, we can kind of answer anything, right? Uh and we want to compress it down to 20 seconds. So the answer generation is of course with Gemini Flash, we just ask like Python main.py, what is the latest AI news? We go out, we do some research, right? We're going to do 50 words max, two, three sentences. And that's going to be put into a string. So, we can send it over to Quen, right? And you can see we send this string over to Quen. It's supposed to be three here, TTS. And we use the 1.7B parameter model. We have some reference voice. That's going to be our Vtuber or this anime style girl, right? That's going to be a reference audio and input text. And we kind of get the audio file or the answer out, right? And the next step then is just going to be to upload this along with the image we have to the omnihuman model. And from there, we're going to use the the image URL and the audio URL, send it over to omni and turn this into like a avatar and generate the video that's going to be our answer. Then we're going to retrieve this and we can save it and we can play it, right? you're going to get the final video MP4 out. So, like I said, it's not the most uh advanced pipeline. Uh yeah, you can see here it's basically how many steps? 1 2 3 4 5 six steps all the way. So, let me just show you how this works now. And I think the results is pretty interesting to be honest. So, before we run the full pipeline, let me just show you kind of how Quen 3 works. And it's really easy to use. uh even on MacBook it's pretty fast because of the model size. So if you go to cursor here you can see we have this Python code here where we have kind of loaded up the Quen 3TS 1.7 base model. So you can see we have this set to MPS now. Uh but uh what we can do now is we just select this V tube VV file that is our reference audio. This is our cloned voice. Uh we can have a quick listen to it. >> Okay. So, Hightail is basically Minecraft 2 and I am So, >> yeah, you get the point, right? It's like this Vtuber anime boys. So, what happens now if we just put in something else? We put in Hello YouTube, today's Friday. You might be looking forward to weekend. Maybe have some cool plans blah blah blah. So, to use this now, we can just do Python voice clone, right? pi. And that's basically all we have to do. Uh, okay. I I might have to fix that. So, let me fix that. And let's run it. Yeah, I just forgot my uh environment here, right? My cond environment. So, we're just going to do cond run, load up the model, and run the Python voice.py. This shouldn't take too long. So, let me see. I think it's just going to take some a minute or something. So, I'm just going to wait for this and then we're going to listen to the output. So while we wait for that everything here was just built very easy just using cloud code. So I just gathered the documentation here I needed I needed some context for yes my testing my Gemini documentation my grounding documentation for Google search. Uh I just went to the GitHub on um on Quen 3 and found all the information I needed about the model. Right. So we got all that and and this is the omni model. Right. This is the video model. Here is everything I needed about uh the Quent TTS model. Uh I just went to the repo and gathered the documentation and from there cloud code basically helped me set everything up. So this is not a hard thing to create. So let's listen to the cloned output now and kind of compare it to the clone voice. >> Hello YouTube. Today is a Friday so you might be looking forward to the weekend. Maybe you got some cool plans anyway. Yeah, it's not exactly the same, but for this size of model, I think it's pretty good and it's very usable, right? So, it kind of saves you a lot of uh money instead of using like 11 labs, that is of course better. So, if you need like a big project, but uh just running this locally and it only spent like couple of minutes or something creating this. So, for long text that kind of cost a lot of money, that doesn't really um need a lot of quality. I think this is pretty good, right? So now let's do the loop here. So remember we can answer any question. So uh I'm just going to open up a new terminal and let's try this now. Okay. So what I'm going to do now kind of run uh the model python pipeline.py and then I'm going to ask a question. So I think I'm going to ask um will there be a season 3 of u severance in 2026? So that is my question. Right. So, I'm going to send this. So, hopefully now the response is going to be in video format with an avatar and kind of moving mouth and some background music I added. So, the idea behind this was I was kind of thinking like uh in the future, let's say 10 years from now and let's say you go to YouTube and you type in a search. So let's say I was thinking maybe in 10 years YouTube is now gonna produce the video for you. So you don't get like a creator or anything not like me. So you get like a fully produced video that kind of resembles with your previous history or something like that. So that was kind of the idea behind this pipeline just to see what we can do now if we just type in a question and we get the answer back in video format. So we're just going to wait for this. This is going to take some time. Maybe like 5 10 minutes and I'll take you back. Okay. So, you can see that is done now. That didn't take too long. I would say maybe 5 to 7 minutes. I would say 5 minutes. Okay. So, let's pull up the video now and kind of watch the answer to will there be a season 3 of Severance in 2026. >> But Apple TV Plus has not yet officially renewed Severance for a third season. Season 2 is scheduled to premiere on January 17th, 2025. While the creators have planned for multiple seasons, a 2026 release remains unconfirmed and depends on production timelines following the upcoming premiere. >> Okay, so I wouldn't say that answer was maybe the best, but that is with the pipeline. So, I looked this up and it says uh there has no uh it won't be released in 26, so there's no set date uh yet. That is kind of what I get from the AI overview I hear at least. Uh but other than the answer, I guess uh it worked out pretty good and it sounded and looked fine, I would say. So the purpose of the pipeline at least worked. We got kind of the animated VTuber style. She's kind of moving her lips and we use the voice and stuff. So I want to try one more more relevant question. So let's do the same, but this time I want to ask something very specific. So let's say what did Daario Amodai say about uh AI in Davos 2026 something like that. Yeah, just from the latest news. I'm going to run it one more time and let's see if we get like a very up to-date answer here. So we have that. So let's play it. So, I'm just going to open up in full screen and let's hear what did Dario Amade say in Davos. >> At at at Davos 2026, Dario Amade criticized US chip exports to China, likening the policy to selling nuclear weapons to North Korea. He predicted AI would automate most software engineering tasks within a year. >> Okay, so it is up to date because uh I'm pretty sure that's what he said. He said something about comparing this to North Korea and he's also talked about uh yeah software engineering 2026 or something. So yeah, I would say this is working pretty good and and so far I think this new Quen model has been yeah kind of impressive to be honest. It's so small but it performs very well. So I think my next step uh for testing this uh it's not going to be in this video but I want to try like a long input. So, I want to try something like 20 minutes just to see how well it's going to turn out. So, but that is going not going to be in this video. But, uh I think we kind of proved that we can build um a pipeline that kind of goes through all of these steps here using the local model too. So, Gemini 3 flash for the research, Quent 3 for the TTS and the Omnihuman model for on foul for generate the avatars and yeah, put everything together. So yeah, maybe this gave you some inspiration of how you can use cloud code and maybe the new TTS model from Quen to do some yeah, workflows or pipelines like this. So yeah, have a good weekend and I'll see you again",
+  "fetchedAt": "2026-01-24T16:12:50.601Z"
+}

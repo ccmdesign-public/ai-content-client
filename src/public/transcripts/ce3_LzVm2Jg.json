@@ -1,0 +1,739 @@
+{
+  "videoId": "ce3_LzVm2Jg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 4.4,
+      "text": "Imagine a bunch of AI bots arguing"
+    },
+    {
+      "start": 2.24,
+      "duration": 4.32,
+      "text": "whether a stock should go up or down."
+    },
+    {
+      "start": 4.4,
+      "duration": 4.48,
+      "text": "Basically like a hedge fund, but ran by"
+    },
+    {
+      "start": 6.56,
+      "duration": 4.079,
+      "text": "AI. We're starting to see more of this."
+    },
+    {
+      "start": 8.88,
+      "duration": 3.839,
+      "text": "You'd think that it's just a joke, but"
+    },
+    {
+      "start": 10.639,
+      "duration": 3.681,
+      "text": "the crazy part is it somewhat behaves"
+    },
+    {
+      "start": 12.719,
+      "duration": 3.441,
+      "text": "like a real team. And today I'm going to"
+    },
+    {
+      "start": 14.32,
+      "duration": 3.68,
+      "text": "look at something called Trading Agents,"
+    },
+    {
+      "start": 16.16,
+      "duration": 3.52,
+      "text": "an open- source Python project that's"
+    },
+    {
+      "start": 18,
+      "duration": 4.24,
+      "text": "gaining a lot of attention cuz it"
+    },
+    {
+      "start": 19.68,
+      "duration": 4.32,
+      "text": "simulates a trading firm but using AI."
+    },
+    {
+      "start": 22.24,
+      "duration": 3.279,
+      "text": "Quick warning, this is not financial"
+    },
+    {
+      "start": 24,
+      "duration": 3.279,
+      "text": "advice. It's just a sandbox for"
+    },
+    {
+      "start": 25.519,
+      "duration": 3.92,
+      "text": "developers who want to experiment with"
+    },
+    {
+      "start": 27.279,
+      "duration": 6.84,
+      "text": "AI workflows. We have videos coming out"
+    },
+    {
+      "start": 29.439,
+      "duration": 4.68,
+      "text": "all the time. Be sure to subscribe."
+    },
+    {
+      "start": 36.88,
+      "duration": 3.44,
+      "text": "What's interesting here is trading"
+    },
+    {
+      "start": 38.239,
+      "duration": 4.241,
+      "text": "agents isn't one smartbot. It's a whole"
+    },
+    {
+      "start": 40.32,
+      "duration": 3.759,
+      "text": "lineup cuz each agent has a job and they"
+    },
+    {
+      "start": 42.48,
+      "duration": 3.599,
+      "text": "don't always agree. You've got things"
+    },
+    {
+      "start": 44.079,
+      "duration": 4.241,
+      "text": "like a fundamentals analyst that goes"
+    },
+    {
+      "start": 46.079,
+      "duration": 4.48,
+      "text": "through company financials, a sentiment"
+    },
+    {
+      "start": 48.32,
+      "duration": 4,
+      "text": "expert to scan social media, news"
+    },
+    {
+      "start": 50.559,
+      "duration": 3.68,
+      "text": "watchers, a technical analyst that looks"
+    },
+    {
+      "start": 52.32,
+      "duration": 3.84,
+      "text": "at charts, and then you got two agents"
+    },
+    {
+      "start": 54.239,
+      "duration": 4.32,
+      "text": "whose job is to argue between bullish"
+    },
+    {
+      "start": 56.16,
+      "duration": 4.239,
+      "text": "and bearish. This spins up a team of"
+    },
+    {
+      "start": 58.559,
+      "duration": 4.561,
+      "text": "specialized AI agents using your choice"
+    },
+    {
+      "start": 60.399,
+      "duration": 5.04,
+      "text": "of model like GPT4 or another one. Now,"
+    },
+    {
+      "start": 63.12,
+      "duration": 4.88,
+      "text": "under it all, it's built on Langraph for"
+    },
+    {
+      "start": 65.439,
+      "duration": 4.561,
+      "text": "multi- aent flow. And then it pulls data"
+    },
+    {
+      "start": 68,
+      "duration": 3.76,
+      "text": "from places like Yahoo Finance and Alpa"
+    },
+    {
+      "start": 70,
+      "duration": 4.24,
+      "text": "Vantage. It's super modular and it's"
+    },
+    {
+      "start": 71.76,
+      "duration": 4.56,
+      "text": "geared for stocks, but yes, I think you"
+    },
+    {
+      "start": 74.24,
+      "duration": 4,
+      "text": "could sneak crypto into it, just not"
+    },
+    {
+      "start": 76.32,
+      "duration": 4,
+      "text": "ETFs. And again, guys, this is"
+    },
+    {
+      "start": 78.24,
+      "duration": 4.559,
+      "text": "simulation only, but you could play this"
+    },
+    {
+      "start": 80.32,
+      "duration": 4.72,
+      "text": "out on a demo account, track your moves,"
+    },
+    {
+      "start": 82.799,
+      "duration": 4.241,
+      "text": "and see how it performs. Now, let me do"
+    },
+    {
+      "start": 85.04,
+      "duration": 4,
+      "text": "a quick demo. You'd expect something"
+    },
+    {
+      "start": 87.04,
+      "duration": 4.079,
+      "text": "like this to take forever to set up, but"
+    },
+    {
+      "start": 89.04,
+      "duration": 3.6,
+      "text": "it was actually really fast. The setup"
+    },
+    {
+      "start": 91.119,
+      "duration": 3.921,
+      "text": "was straightforward and I got it going"
+    },
+    {
+      "start": 92.64,
+      "duration": 5.2,
+      "text": "in no time. First, I cloned the repo"
+    },
+    {
+      "start": 95.04,
+      "duration": 5.2,
+      "text": "from their GitHub page. Then, I made a"
+    },
+    {
+      "start": 97.84,
+      "duration": 4.48,
+      "text": "environment with Python 3. I installed"
+    },
+    {
+      "start": 100.24,
+      "duration": 5.04,
+      "text": "the requirements file and then I added"
+    },
+    {
+      "start": 102.32,
+      "duration": 4.96,
+      "text": "my OpenAI and Alpha Vantage API keys. I"
+    },
+    {
+      "start": 105.28,
+      "duration": 4.08,
+      "text": "was done in like under 2 minutes. You"
+    },
+    {
+      "start": 107.28,
+      "duration": 4.159,
+      "text": "don't need OpenAI cuz you could also use"
+    },
+    {
+      "start": 109.36,
+      "duration": 4.399,
+      "text": "Anthropic, Google, or other ones as"
+    },
+    {
+      "start": 111.439,
+      "duration": 3.921,
+      "text": "well. Now, I really did like the CLI"
+    },
+    {
+      "start": 113.759,
+      "duration": 3.601,
+      "text": "mode here cuz it was simple. It was just"
+    },
+    {
+      "start": 115.36,
+      "duration": 3.759,
+      "text": "fun to play with. First, you run the"
+    },
+    {
+      "start": 117.36,
+      "duration": 3.28,
+      "text": "main script in your terminal. I was"
+    },
+    {
+      "start": 119.119,
+      "duration": 5.04,
+      "text": "looking at a stock that performed well"
+    },
+    {
+      "start": 120.64,
+      "duration": 5.28,
+      "text": "in 2025, so I chose Hilton with HLT. I"
+    },
+    {
+      "start": 124.159,
+      "duration": 3.761,
+      "text": "dropped in a date and then you can"
+    },
+    {
+      "start": 125.92,
+      "duration": 4.319,
+      "text": "choose which type of analyst you want."
+    },
+    {
+      "start": 127.92,
+      "duration": 4.24,
+      "text": "Things like market, social media, news,"
+    },
+    {
+      "start": 130.239,
+      "duration": 4.161,
+      "text": "fundamentals, but I'm just going to opt"
+    },
+    {
+      "start": 132.16,
+      "duration": 4.079,
+      "text": "in for all of them for deeper research."
+    },
+    {
+      "start": 134.4,
+      "duration": 4.24,
+      "text": "You can then choose how deep you want"
+    },
+    {
+      "start": 136.239,
+      "duration": 4.64,
+      "text": "the research to go and then choose your"
+    },
+    {
+      "start": 138.64,
+      "duration": 4.319,
+      "text": "LLM and which two models you want to run"
+    },
+    {
+      "start": 140.879,
+      "duration": 4.401,
+      "text": "it on. And this is where it gets fun cuz"
+    },
+    {
+      "start": 142.959,
+      "duration": 3.92,
+      "text": "instead of one model dumping an answer,"
+    },
+    {
+      "start": 145.28,
+      "duration": 3.36,
+      "text": "the agents start working together like"
+    },
+    {
+      "start": 146.879,
+      "duration": 3.281,
+      "text": "an actual team, which is pretty cool to"
+    },
+    {
+      "start": 148.64,
+      "duration": 3.599,
+      "text": "see. Behind the scenes, you're going to"
+    },
+    {
+      "start": 150.16,
+      "duration": 4.32,
+      "text": "see things like fundamentals crunch"
+    },
+    {
+      "start": 152.239,
+      "duration": 3.921,
+      "text": "earnings, the sediment pools news and"
+    },
+    {
+      "start": 154.48,
+      "duration": 3.759,
+      "text": "social media, and then the technical"
+    },
+    {
+      "start": 156.16,
+      "duration": 5.12,
+      "text": "analyst runs all that technical stuff"
+    },
+    {
+      "start": 158.239,
+      "duration": 5.28,
+      "text": "like RSI, MACD. Then this debate kicks"
+    },
+    {
+      "start": 161.28,
+      "duration": 4.08,
+      "text": "off. So bullish argues the upside,"
+    },
+    {
+      "start": 163.519,
+      "duration": 3.601,
+      "text": "bearish calls out the risk. And at the"
+    },
+    {
+      "start": 165.36,
+      "duration": 3.76,
+      "text": "end, you're going to get trade"
+    },
+    {
+      "start": 167.12,
+      "duration": 4.08,
+      "text": "recommendations like buy or sell, plus"
+    },
+    {
+      "start": 169.12,
+      "duration": 3.759,
+      "text": "the reasoning behind it. So right here"
+    },
+    {
+      "start": 171.2,
+      "duration": 3.52,
+      "text": "you can see the final conclusion they"
+    },
+    {
+      "start": 172.879,
+      "duration": 4.321,
+      "text": "all came to based on the data they"
+    },
+    {
+      "start": 174.72,
+      "duration": 3.68,
+      "text": "found. Now all this ran in the CLI but"
+    },
+    {
+      "start": 177.2,
+      "duration": 3.679,
+      "text": "if you want to make changes you can"
+    },
+    {
+      "start": 178.4,
+      "duration": 5.44,
+      "text": "directly affect the Python scripts. Jump"
+    },
+    {
+      "start": 180.879,
+      "duration": 4.64,
+      "text": "into the main PI file and comes with"
+    },
+    {
+      "start": 183.84,
+      "duration": 3.2,
+      "text": "everything you need as it's already a"
+    },
+    {
+      "start": 185.519,
+      "duration": 3.761,
+      "text": "template. You're going to tweak the"
+    },
+    {
+      "start": 187.04,
+      "duration": 4.16,
+      "text": "default config maybe swap for a deeper"
+    },
+    {
+      "start": 189.28,
+      "duration": 4,
+      "text": "model if you want that and you can set"
+    },
+    {
+      "start": 191.2,
+      "duration": 4.399,
+      "text": "the number of debate rounds as this will"
+    },
+    {
+      "start": 193.28,
+      "duration": 4.48,
+      "text": "give you a deeper analysis but it's"
+    },
+    {
+      "start": 195.599,
+      "duration": 4,
+      "text": "going to call that API a lot more so"
+    },
+    {
+      "start": 197.76,
+      "duration": 3.68,
+      "text": "it's going to be more expensive. Then"
+    },
+    {
+      "start": 199.599,
+      "duration": 4,
+      "text": "you can run it on a ticker and a date."
+    },
+    {
+      "start": 201.44,
+      "duration": 3.76,
+      "text": "You don't need to use the CLI. Then you"
+    },
+    {
+      "start": 203.599,
+      "duration": 4,
+      "text": "can just use the script and it will"
+    },
+    {
+      "start": 205.2,
+      "duration": 4.319,
+      "text": "execute set stock on its own. Now this"
+    },
+    {
+      "start": 207.599,
+      "duration": 3.841,
+      "text": "is the part that people don't expect."
+    },
+    {
+      "start": 209.519,
+      "duration": 3.681,
+      "text": "You might run the same exact thing"
+    },
+    {
+      "start": 211.44,
+      "duration": 3.12,
+      "text": "twice. You're going to get different"
+    },
+    {
+      "start": 213.2,
+      "duration": 3.44,
+      "text": "results. It might not always be the"
+    },
+    {
+      "start": 214.56,
+      "duration": 4.399,
+      "text": "same, but if I rerun it, you might get a"
+    },
+    {
+      "start": 216.64,
+      "duration": 5.2,
+      "text": "twist because it's non-deterministic."
+    },
+    {
+      "start": 218.959,
+      "duration": 4.961,
+      "text": "Also, API calls cost money. Open AAI"
+    },
+    {
+      "start": 221.84,
+      "duration": 3.679,
+      "text": "tokens, they add up. This is no"
+    },
+    {
+      "start": 223.92,
+      "duration": 3.52,
+      "text": "different. There are definitely more"
+    },
+    {
+      "start": 225.519,
+      "duration": 3.761,
+      "text": "cons than pros here because this isn't"
+    },
+    {
+      "start": 227.44,
+      "duration": 3.6,
+      "text": "something I'd bet money on. But let's"
+    },
+    {
+      "start": 229.28,
+      "duration": 3.92,
+      "text": "just start with the good. This project"
+    },
+    {
+      "start": 231.04,
+      "duration": 4.32,
+      "text": "is a win if you're building or learning"
+    },
+    {
+      "start": 233.2,
+      "duration": 4.08,
+      "text": "multi- aent systems. It's insanely"
+    },
+    {
+      "start": 235.36,
+      "duration": 4.159,
+      "text": "modular for playing with AI agents."
+    },
+    {
+      "start": 237.28,
+      "duration": 3.76,
+      "text": "That's cool. It teaches collaborative AI"
+    },
+    {
+      "start": 239.519,
+      "duration": 3.761,
+      "text": "systems, which if you're working with"
+    },
+    {
+      "start": 241.04,
+      "duration": 3.759,
+      "text": "that, also nice. It's open source, which"
+    },
+    {
+      "start": 243.28,
+      "duration": 3.84,
+      "text": "means you can scale it. And it's perfect"
+    },
+    {
+      "start": 244.799,
+      "duration": 4,
+      "text": "for risk-free back testing. Don't bet"
+    },
+    {
+      "start": 247.12,
+      "duration": 3.36,
+      "text": "money on it. Now, on the other side,"
+    },
+    {
+      "start": 248.799,
+      "duration": 4.961,
+      "text": "because there is one, the cons are"
+    },
+    {
+      "start": 250.48,
+      "duration": 4.8,
+      "text": "there. It chews through APIs like crazy."
+    },
+    {
+      "start": 253.76,
+      "duration": 3.439,
+      "text": "It's going to rack up your tokens. You"
+    },
+    {
+      "start": 255.28,
+      "duration": 4,
+      "text": "can see how many times I've ran mine."
+    },
+    {
+      "start": 257.199,
+      "duration": 4.16,
+      "text": "Results aren't consistent every time."
+    },
+    {
+      "start": 259.28,
+      "duration": 4.479,
+      "text": "You're limited by external data and rate"
+    },
+    {
+      "start": 261.359,
+      "duration": 4.961,
+      "text": "limits, and it's more stock tuned than"
+    },
+    {
+      "start": 263.759,
+      "duration": 4.321,
+      "text": "ETFs and everything else out there. So,"
+    },
+    {
+      "start": 266.32,
+      "duration": 3.92,
+      "text": "it's not hardened for any type of real"
+    },
+    {
+      "start": 268.08,
+      "duration": 4.48,
+      "text": "world production yet, but I think we can"
+    },
+    {
+      "start": 270.24,
+      "duration": 4.56,
+      "text": "kind of see where things could be going."
+    },
+    {
+      "start": 272.56,
+      "duration": 4.16,
+      "text": "Now, the big picture here, this kind of"
+    },
+    {
+      "start": 274.8,
+      "duration": 4.399,
+      "text": "system could end up inside everyday"
+    },
+    {
+      "start": 276.72,
+      "duration": 4.24,
+      "text": "tools for quant devs or even apps like"
+    },
+    {
+      "start": 279.199,
+      "duration": 3.681,
+      "text": "Robin Hood one day. So, if you're a"
+    },
+    {
+      "start": 280.96,
+      "duration": 4.08,
+      "text": "developer, here's what might matter to"
+    },
+    {
+      "start": 282.88,
+      "duration": 3.599,
+      "text": "you. We know agent frameworks are"
+    },
+    {
+      "start": 285.04,
+      "duration": 3.36,
+      "text": "blowing up. So, if you learn how to"
+    },
+    {
+      "start": 286.479,
+      "duration": 4.321,
+      "text": "build and control systems like this now,"
+    },
+    {
+      "start": 288.4,
+      "duration": 4.56,
+      "text": "you're still early. Experiment, break"
+    },
+    {
+      "start": 290.8,
+      "duration": 4.72,
+      "text": "it, rewire it, play with it. It's open"
+    },
+    {
+      "start": 292.96,
+      "duration": 4.64,
+      "text": "source. But always do your own digging."
+    },
+    {
+      "start": 295.52,
+      "duration": 4.16,
+      "text": "So, yeah, Trading Agents is fun to play"
+    },
+    {
+      "start": 297.6,
+      "duration": 3.599,
+      "text": "around with if you're into AI, but"
+    },
+    {
+      "start": 299.68,
+      "duration": 3.76,
+      "text": "nothing here is going to mean you should"
+    },
+    {
+      "start": 301.199,
+      "duration": 6.241,
+      "text": "use it as financial advice. Have some"
+    },
+    {
+      "start": 303.44,
+      "duration": 4,
+      "text": "fun with it and we'll see you in another"
+    }
+  ],
+  "fullText": "Imagine a bunch of AI bots arguing whether a stock should go up or down. Basically like a hedge fund, but ran by AI. We're starting to see more of this. You'd think that it's just a joke, but the crazy part is it somewhat behaves like a real team. And today I'm going to look at something called Trading Agents, an open- source Python project that's gaining a lot of attention cuz it simulates a trading firm but using AI. Quick warning, this is not financial advice. It's just a sandbox for developers who want to experiment with AI workflows. We have videos coming out all the time. Be sure to subscribe. What's interesting here is trading agents isn't one smartbot. It's a whole lineup cuz each agent has a job and they don't always agree. You've got things like a fundamentals analyst that goes through company financials, a sentiment expert to scan social media, news watchers, a technical analyst that looks at charts, and then you got two agents whose job is to argue between bullish and bearish. This spins up a team of specialized AI agents using your choice of model like GPT4 or another one. Now, under it all, it's built on Langraph for multi- aent flow. And then it pulls data from places like Yahoo Finance and Alpa Vantage. It's super modular and it's geared for stocks, but yes, I think you could sneak crypto into it, just not ETFs. And again, guys, this is simulation only, but you could play this out on a demo account, track your moves, and see how it performs. Now, let me do a quick demo. You'd expect something like this to take forever to set up, but it was actually really fast. The setup was straightforward and I got it going in no time. First, I cloned the repo from their GitHub page. Then, I made a environment with Python 3. I installed the requirements file and then I added my OpenAI and Alpha Vantage API keys. I was done in like under 2 minutes. You don't need OpenAI cuz you could also use Anthropic, Google, or other ones as well. Now, I really did like the CLI mode here cuz it was simple. It was just fun to play with. First, you run the main script in your terminal. I was looking at a stock that performed well in 2025, so I chose Hilton with HLT. I dropped in a date and then you can choose which type of analyst you want. Things like market, social media, news, fundamentals, but I'm just going to opt in for all of them for deeper research. You can then choose how deep you want the research to go and then choose your LLM and which two models you want to run it on. And this is where it gets fun cuz instead of one model dumping an answer, the agents start working together like an actual team, which is pretty cool to see. Behind the scenes, you're going to see things like fundamentals crunch earnings, the sediment pools news and social media, and then the technical analyst runs all that technical stuff like RSI, MACD. Then this debate kicks off. So bullish argues the upside, bearish calls out the risk. And at the end, you're going to get trade recommendations like buy or sell, plus the reasoning behind it. So right here you can see the final conclusion they all came to based on the data they found. Now all this ran in the CLI but if you want to make changes you can directly affect the Python scripts. Jump into the main PI file and comes with everything you need as it's already a template. You're going to tweak the default config maybe swap for a deeper model if you want that and you can set the number of debate rounds as this will give you a deeper analysis but it's going to call that API a lot more so it's going to be more expensive. Then you can run it on a ticker and a date. You don't need to use the CLI. Then you can just use the script and it will execute set stock on its own. Now this is the part that people don't expect. You might run the same exact thing twice. You're going to get different results. It might not always be the same, but if I rerun it, you might get a twist because it's non-deterministic. Also, API calls cost money. Open AAI tokens, they add up. This is no different. There are definitely more cons than pros here because this isn't something I'd bet money on. But let's just start with the good. This project is a win if you're building or learning multi- aent systems. It's insanely modular for playing with AI agents. That's cool. It teaches collaborative AI systems, which if you're working with that, also nice. It's open source, which means you can scale it. And it's perfect for risk-free back testing. Don't bet money on it. Now, on the other side, because there is one, the cons are there. It chews through APIs like crazy. It's going to rack up your tokens. You can see how many times I've ran mine. Results aren't consistent every time. You're limited by external data and rate limits, and it's more stock tuned than ETFs and everything else out there. So, it's not hardened for any type of real world production yet, but I think we can kind of see where things could be going. Now, the big picture here, this kind of system could end up inside everyday tools for quant devs or even apps like Robin Hood one day. So, if you're a developer, here's what might matter to you. We know agent frameworks are blowing up. So, if you learn how to build and control systems like this now, you're still early. Experiment, break it, rewire it, play with it. It's open source. But always do your own digging. So, yeah, Trading Agents is fun to play around with if you're into AI, but nothing here is going to mean you should use it as financial advice. Have some fun with it and we'll see you in another",
+  "fetchedAt": "2026-01-18T18:33:35.206Z"
+}

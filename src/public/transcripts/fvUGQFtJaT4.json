@@ -1,0 +1,1689 @@
+{
+  "videoId": "fvUGQFtJaT4",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 5.679,
+      "text": "Okay. So, if you're building a business"
+    },
+    {
+      "start": 2.32,
+      "duration": 6.319,
+      "text": "of any kind where you're doing some kind"
+    },
+    {
+      "start": 5.759,
+      "duration": 4.561,
+      "text": "of manufacturing or providing a service,"
+    },
+    {
+      "start": 8.639,
+      "duration": 4.241,
+      "text": "one of the things that you learn quite"
+    },
+    {
+      "start": 10.32,
+      "duration": 5.359,
+      "text": "quickly is that you need to develop a"
+    },
+    {
+      "start": 12.88,
+      "duration": 5.44,
+      "text": "set of standard operating procedures."
+    },
+    {
+      "start": 15.679,
+      "duration": 5.921,
+      "text": "Basically, this is like a list of what"
+    },
+    {
+      "start": 18.32,
+      "duration": 6.32,
+      "text": "needs to get done in what order to what"
+    },
+    {
+      "start": 21.6,
+      "duration": 5.28,
+      "text": "sort of quality. In my 20s, I built a"
+    },
+    {
+      "start": 24.64,
+      "duration": 6,
+      "text": "company that did manufacturing of CDs"
+    },
+    {
+      "start": 26.88,
+      "duration": 6.24,
+      "text": "and CDRs and DVDRs. And we had a whole"
+    },
+    {
+      "start": 30.64,
+      "duration": 5.599,
+      "text": "bunch of different SOPs for everything"
+    },
+    {
+      "start": 33.12,
+      "duration": 4.64,
+      "text": "from the design of the packaging right"
+    },
+    {
+      "start": 36.239,
+      "duration": 3.201,
+      "text": "through to the requirements that we'd"
+    },
+    {
+      "start": 37.76,
+      "duration": 3.84,
+      "text": "give the factory when they were doing"
+    },
+    {
+      "start": 39.44,
+      "duration": 4.24,
+      "text": "manufacturing. And even things like the"
+    },
+    {
+      "start": 41.6,
+      "duration": 4.799,
+      "text": "cartoon boxes that we shipped all the"
+    },
+    {
+      "start": 43.68,
+      "duration": 4.48,
+      "text": "products in had to be custom made so"
+    },
+    {
+      "start": 46.399,
+      "duration": 3.84,
+      "text": "that they would have our logo on it and"
+    },
+    {
+      "start": 48.16,
+      "duration": 4.8,
+      "text": "stuff like that. The good thing was once"
+    },
+    {
+      "start": 50.239,
+      "duration": 5.601,
+      "text": "we had the SOPs then it was very easy to"
+    },
+    {
+      "start": 52.96,
+      "duration": 5.279,
+      "text": "be able to just put in orders and make"
+    },
+    {
+      "start": 55.84,
+      "duration": 3.84,
+      "text": "the whole thing kind of run itself. Now"
+    },
+    {
+      "start": 58.239,
+      "duration": 3.12,
+      "text": "in this video I want to talk about how"
+    },
+    {
+      "start": 59.68,
+      "duration": 5.04,
+      "text": "some of the big companies are now"
+    },
+    {
+      "start": 61.359,
+      "duration": 5.76,
+      "text": "getting agents to adopt standard"
+    },
+    {
+      "start": 64.72,
+      "duration": 4.8,
+      "text": "operating procedures for different"
+    },
+    {
+      "start": 67.119,
+      "duration": 4.561,
+      "text": "tasks. We're seeing this in a number of"
+    },
+    {
+      "start": 69.52,
+      "duration": 3.44,
+      "text": "different places at the moment. The main"
+    },
+    {
+      "start": 71.68,
+      "duration": 3.6,
+      "text": "one I'm going to talk about in this"
+    },
+    {
+      "start": 72.96,
+      "duration": 4.88,
+      "text": "video is something that Anthropic just"
+    },
+    {
+      "start": 75.28,
+      "duration": 3.92,
+      "text": "announced called skills. But I'm also"
+    },
+    {
+      "start": 77.84,
+      "duration": 4.959,
+      "text": "going to touch on the claude code"
+    },
+    {
+      "start": 79.2,
+      "duration": 6.48,
+      "text": "plugins and the Gemini CLI extensions."
+    },
+    {
+      "start": 82.799,
+      "duration": 5.36,
+      "text": "In many ways, all three of these things"
+    },
+    {
+      "start": 85.68,
+      "duration": 4.88,
+      "text": "are ways of giving your agents a set of"
+    },
+    {
+      "start": 88.159,
+      "duration": 4.64,
+      "text": "standard operating procedures that they"
+    },
+    {
+      "start": 90.56,
+      "duration": 4.08,
+      "text": "can follow to do the different tasks"
+    },
+    {
+      "start": 92.799,
+      "duration": 4.081,
+      "text": "that you want them to do. So, I think"
+    },
+    {
+      "start": 94.64,
+      "duration": 4.72,
+      "text": "it's no surprise at this point that the"
+    },
+    {
+      "start": 96.88,
+      "duration": 5.76,
+      "text": "quality of your agents and the quality"
+    },
+    {
+      "start": 99.36,
+      "duration": 5.84,
+      "text": "of your output from any LLM is going to"
+    },
+    {
+      "start": 102.64,
+      "duration": 4.64,
+      "text": "be about the context that you put into"
+    },
+    {
+      "start": 105.2,
+      "duration": 4,
+      "text": "this. Right? Lots of people have been"
+    },
+    {
+      "start": 107.28,
+      "duration": 3.68,
+      "text": "talking about context engineering and"
+    },
+    {
+      "start": 109.2,
+      "duration": 4.08,
+      "text": "really this goes back a few years,"
+    },
+    {
+      "start": 110.96,
+      "duration": 5.04,
+      "text": "right? These models are basically doing"
+    },
+    {
+      "start": 113.28,
+      "duration": 5.119,
+      "text": "a conditional probability where they're"
+    },
+    {
+      "start": 116,
+      "duration": 4.719,
+      "text": "conditioning on whatever you put into"
+    },
+    {
+      "start": 118.399,
+      "duration": 5.201,
+      "text": "them. So the better the quality of the"
+    },
+    {
+      "start": 120.719,
+      "duration": 5.44,
+      "text": "context that you're inputting to the LLM"
+    },
+    {
+      "start": 123.6,
+      "duration": 4.96,
+      "text": "or to your agent, the better the quality"
+    },
+    {
+      "start": 126.159,
+      "duration": 5.041,
+      "text": "you're actually going to get out. So"
+    },
+    {
+      "start": 128.56,
+      "duration": 5.679,
+      "text": "just like humans need SOPs to reduce"
+    },
+    {
+      "start": 131.2,
+      "duration": 5.039,
+      "text": "variability, agents need them even more."
+    },
+    {
+      "start": 134.239,
+      "duration": 4.481,
+      "text": "And you can kind of think of this as a"
+    },
+    {
+      "start": 136.239,
+      "duration": 4.72,
+      "text": "sort of core pattern of where you've got"
+    },
+    {
+      "start": 138.72,
+      "duration": 5.519,
+      "text": "inputs coming in going through a series"
+    },
+    {
+      "start": 140.959,
+      "duration": 6.321,
+      "text": "of steps having key decision points"
+    },
+    {
+      "start": 144.239,
+      "duration": 4.481,
+      "text": "using tools having some kind of output"
+    },
+    {
+      "start": 147.28,
+      "duration": 4.08,
+      "text": "and then perhaps even having a"
+    },
+    {
+      "start": 148.72,
+      "duration": 5.04,
+      "text": "verification at the end to check the"
+    },
+    {
+      "start": 151.36,
+      "duration": 4.879,
+      "text": "output is actually what was supposed to"
+    },
+    {
+      "start": 153.76,
+      "duration": 4.24,
+      "text": "be produced. So if we jump into the"
+    },
+    {
+      "start": 156.239,
+      "duration": 4.961,
+      "text": "anthropic announcement, they're talking"
+    },
+    {
+      "start": 158,
+      "duration": 5.44,
+      "text": "here about Claude skills. And"
+    },
+    {
+      "start": 161.2,
+      "duration": 6.319,
+      "text": "interestingly, this is something that is"
+    },
+    {
+      "start": 163.44,
+      "duration": 6.32,
+      "text": "not only for the Claude chat online"
+    },
+    {
+      "start": 167.519,
+      "duration": 4.72,
+      "text": "interface. This is also something you"
+    },
+    {
+      "start": 169.76,
+      "duration": 4,
+      "text": "can use with the API. So it really shows"
+    },
+    {
+      "start": 172.239,
+      "duration": 4.321,
+      "text": "that they're seeing that this is sort of"
+    },
+    {
+      "start": 173.76,
+      "duration": 4.72,
+      "text": "like a key fundamental thing for people"
+    },
+    {
+      "start": 176.56,
+      "duration": 4,
+      "text": "building better agents and better"
+    },
+    {
+      "start": 178.48,
+      "duration": 4.8,
+      "text": "workflows for using the anthropic"
+    },
+    {
+      "start": 180.56,
+      "duration": 5.2,
+      "text": "models. So what actually is a skill"
+    },
+    {
+      "start": 183.28,
+      "duration": 5.52,
+      "text": "here? Skills are folders that include"
+    },
+    {
+      "start": 185.76,
+      "duration": 5.839,
+      "text": "instructions, scripts, and resources"
+    },
+    {
+      "start": 188.8,
+      "duration": 4.719,
+      "text": "that Claude can load when needed. Claude"
+    },
+    {
+      "start": 191.599,
+      "duration": 3.841,
+      "text": "will only access the skill when it's"
+    },
+    {
+      "start": 193.519,
+      "duration": 3.841,
+      "text": "relevant. Now, they've made a bunch of"
+    },
+    {
+      "start": 195.44,
+      "duration": 3.92,
+      "text": "pre-made skills for things like working"
+    },
+    {
+      "start": 197.36,
+      "duration": 4.48,
+      "text": "with Excel files, creating"
+    },
+    {
+      "start": 199.36,
+      "duration": 4.64,
+      "text": "presentations, formatting documents, and"
+    },
+    {
+      "start": 201.84,
+      "duration": 4.8,
+      "text": "stuff like that. And if you think about"
+    },
+    {
+      "start": 204,
+      "duration": 5.68,
+      "text": "it, you can look at this as part of the"
+    },
+    {
+      "start": 206.64,
+      "duration": 7.2,
+      "text": "original MCP spec. Most people focus on"
+    },
+    {
+      "start": 209.68,
+      "duration": 6.4,
+      "text": "MCPs purely as API calls or data"
+    },
+    {
+      "start": 213.84,
+      "duration": 5.759,
+      "text": "ingestion, but there's a third thing in"
+    },
+    {
+      "start": 216.08,
+      "duration": 5.439,
+      "text": "there for context of sort of prompts and"
+    },
+    {
+      "start": 219.599,
+      "duration": 5.121,
+      "text": "being able to access and pull back"
+    },
+    {
+      "start": 221.519,
+      "duration": 4.881,
+      "text": "prompts to go into the model context. In"
+    },
+    {
+      "start": 224.72,
+      "duration": 4.079,
+      "text": "many ways, you could think of this as"
+    },
+    {
+      "start": 226.4,
+      "duration": 4.64,
+      "text": "making a new way to do that kind of"
+    },
+    {
+      "start": 228.799,
+      "duration": 5.681,
+      "text": "task. All right, so they talk about how"
+    },
+    {
+      "start": 231.04,
+      "duration": 5.6,
+      "text": "skills work that basically it will scan"
+    },
+    {
+      "start": 234.48,
+      "duration": 4,
+      "text": "for any relevant matches. Now, they"
+    },
+    {
+      "start": 236.64,
+      "duration": 3.76,
+      "text": "don't tell us how they're doing this,"
+    },
+    {
+      "start": 238.48,
+      "duration": 4.399,
+      "text": "whether this is done with some kind of"
+    },
+    {
+      "start": 240.4,
+      "duration": 5.759,
+      "text": "similarity check between what you type"
+    },
+    {
+      "start": 242.879,
+      "duration": 5.44,
+      "text": "in and what your skills are called, etc."
+    },
+    {
+      "start": 246.159,
+      "duration": 4.08,
+      "text": "But they do tell us that the skills are"
+    },
+    {
+      "start": 248.319,
+      "duration": 4.321,
+      "text": "composable, that they can stack"
+    },
+    {
+      "start": 250.239,
+      "duration": 4.56,
+      "text": "together, that they're portable, so that"
+    },
+    {
+      "start": 252.64,
+      "duration": 4.48,
+      "text": "once you've got them, you can use them"
+    },
+    {
+      "start": 254.799,
+      "duration": 4.16,
+      "text": "not only in the sort of Claude apps, but"
+    },
+    {
+      "start": 257.12,
+      "duration": 4.239,
+      "text": "you can use them in Claude code, you can"
+    },
+    {
+      "start": 258.959,
+      "duration": 4.481,
+      "text": "use them with the API as well. And"
+    },
+    {
+      "start": 261.359,
+      "duration": 5.041,
+      "text": "clearly they've put a bit of effort into"
+    },
+    {
+      "start": 263.44,
+      "duration": 5.36,
+      "text": "how Claude is going to actually decide"
+    },
+    {
+      "start": 266.4,
+      "duration": 4.799,
+      "text": "which skill to use by talking about that"
+    },
+    {
+      "start": 268.8,
+      "duration": 4.88,
+      "text": "these only get loaded when they're"
+    },
+    {
+      "start": 271.199,
+      "duration": 4.72,
+      "text": "actually needed. So if you come into the"
+    },
+    {
+      "start": 273.68,
+      "duration": 4.4,
+      "text": "Claude settings, you can actually go to"
+    },
+    {
+      "start": 275.919,
+      "duration": 5.041,
+      "text": "the capabilities and they've got a bunch"
+    },
+    {
+      "start": 278.08,
+      "duration": 5.52,
+      "text": "of these already pre-made there. And one"
+    },
+    {
+      "start": 280.96,
+      "duration": 5.12,
+      "text": "of them is a skill creator. So this is"
+    },
+    {
+      "start": 283.6,
+      "duration": 5.039,
+      "text": "kind of cool that they've got a skill to"
+    },
+    {
+      "start": 286.08,
+      "duration": 4.8,
+      "text": "actually help you make skills. And so"
+    },
+    {
+      "start": 288.639,
+      "duration": 4.321,
+      "text": "the skill creator, it's basically its"
+    },
+    {
+      "start": 290.88,
+      "duration": 5.2,
+      "text": "job is to help you provide interactive"
+    },
+    {
+      "start": 292.96,
+      "duration": 5.92,
+      "text": "guidance for you to design a workflow,"
+    },
+    {
+      "start": 296.08,
+      "duration": 4.96,
+      "text": "design something, and then it's going to"
+    },
+    {
+      "start": 298.88,
+      "duration": 4.96,
+      "text": "work out that folder structure and"
+    },
+    {
+      "start": 301.04,
+      "duration": 4,
+      "text": "create what they call the skill MD file."
+    },
+    {
+      "start": 303.84,
+      "duration": 3.12,
+      "text": "So that's going to be one of the key"
+    },
+    {
+      "start": 305.04,
+      "duration": 4.08,
+      "text": "things that sort of directs what the"
+    },
+    {
+      "start": 306.96,
+      "duration": 4.239,
+      "text": "actual steps will be, what the syntax"
+    },
+    {
+      "start": 309.12,
+      "duration": 4.72,
+      "text": "will be, any how it's going to use any"
+    },
+    {
+      "start": 311.199,
+      "duration": 4.321,
+      "text": "tools. And in many ways, this is kind of"
+    },
+    {
+      "start": 313.84,
+      "duration": 3.76,
+      "text": "similar to things that we've seen with"
+    },
+    {
+      "start": 315.52,
+      "duration": 5.2,
+      "text": "coding for quite a while, right? We've"
+    },
+    {
+      "start": 317.6,
+      "duration": 5.439,
+      "text": "had things like agents.md"
+    },
+    {
+      "start": 320.72,
+      "duration": 4.88,
+      "text": "cursor has had their own sort of custom"
+    },
+    {
+      "start": 323.039,
+      "duration": 5.041,
+      "text": "instructions. Pretty much every coding"
+    },
+    {
+      "start": 325.6,
+      "duration": 4.319,
+      "text": "agent now has a way of you sort of"
+    },
+    {
+      "start": 328.08,
+      "duration": 3.839,
+      "text": "preloading a bunch of custom"
+    },
+    {
+      "start": 329.919,
+      "duration": 4.72,
+      "text": "instructions in there. So the cool thing"
+    },
+    {
+      "start": 331.919,
+      "duration": 5.361,
+      "text": "is this skill will actually help you to"
+    },
+    {
+      "start": 334.639,
+      "duration": 4.721,
+      "text": "make more skills. But that said, you can"
+    },
+    {
+      "start": 337.28,
+      "duration": 3.919,
+      "text": "go through it and do it yourself. So"
+    },
+    {
+      "start": 339.36,
+      "duration": 3.119,
+      "text": "like I mentioned early on, one of the"
+    },
+    {
+      "start": 341.199,
+      "duration": 3.761,
+      "text": "other things that's really interesting"
+    },
+    {
+      "start": 342.479,
+      "duration": 5.921,
+      "text": "about this is this is not just for their"
+    },
+    {
+      "start": 344.96,
+      "duration": 6.16,
+      "text": "sort of claude chat UI. This is going to"
+    },
+    {
+      "start": 348.4,
+      "duration": 4.56,
+      "text": "be available in the API as well. So they"
+    },
+    {
+      "start": 351.12,
+      "duration": 4.079,
+      "text": "talk about that agent skills, which we"
+    },
+    {
+      "start": 352.96,
+      "duration": 5.04,
+      "text": "often refer to as simply skills, can now"
+    },
+    {
+      "start": 355.199,
+      "duration": 4.241,
+      "text": "be added to the messages API requests"
+    },
+    {
+      "start": 358,
+      "duration": 4.08,
+      "text": "and they've got a whole endpoint for"
+    },
+    {
+      "start": 359.44,
+      "duration": 5.599,
+      "text": "doing that and the code execution tool"
+    },
+    {
+      "start": 362.08,
+      "duration": 5.44,
+      "text": "at the back to be able to use those as"
+    },
+    {
+      "start": 365.039,
+      "duration": 4.16,
+      "text": "well. And with things like this, we're"
+    },
+    {
+      "start": 367.52,
+      "duration": 4.64,
+      "text": "actually starting to see quite a bit of"
+    },
+    {
+      "start": 369.199,
+      "duration": 6,
+      "text": "divergence between the actual LLM"
+    },
+    {
+      "start": 372.16,
+      "duration": 5.759,
+      "text": "providers APIs. So, we've got all the"
+    },
+    {
+      "start": 375.199,
+      "duration": 5.761,
+      "text": "main foundation model providers actually"
+    },
+    {
+      "start": 377.919,
+      "duration": 6.161,
+      "text": "updating how their APIs work to be able"
+    },
+    {
+      "start": 380.96,
+      "duration": 5.28,
+      "text": "to work better with their background"
+    },
+    {
+      "start": 384.08,
+      "duration": 4,
+      "text": "tools and the tools that they're adding"
+    },
+    {
+      "start": 386.24,
+      "duration": 4.239,
+      "text": "on to the API that they will run"
+    },
+    {
+      "start": 388.08,
+      "duration": 5.04,
+      "text": "themselves. For example, the Gemini API"
+    },
+    {
+      "start": 390.479,
+      "duration": 4.241,
+      "text": "has Google search, etc. So on top of"
+    },
+    {
+      "start": 393.12,
+      "duration": 4.24,
+      "text": "them talking about this for the consumer"
+    },
+    {
+      "start": 394.72,
+      "duration": 6.319,
+      "text": "stuff, they've also outlined how this"
+    },
+    {
+      "start": 397.36,
+      "duration": 5.44,
+      "text": "can actually be sort of used for agents."
+    },
+    {
+      "start": 401.039,
+      "duration": 4.401,
+      "text": "And you can see here this whole idea of"
+    },
+    {
+      "start": 402.8,
+      "duration": 5.839,
+      "text": "the agent configuration where it's going"
+    },
+    {
+      "start": 405.44,
+      "duration": 5.12,
+      "text": "to basically have skills equipped for"
+    },
+    {
+      "start": 408.639,
+      "duration": 4.641,
+      "text": "different things and it's going to have"
+    },
+    {
+      "start": 410.56,
+      "duration": 4.72,
+      "text": "different MCPs that it can connect to."
+    },
+    {
+      "start": 413.28,
+      "duration": 4.639,
+      "text": "And you can see here that it's using"
+    },
+    {
+      "start": 415.28,
+      "duration": 5.199,
+      "text": "back-end code execution to be able to"
+    },
+    {
+      "start": 417.919,
+      "duration": 5.84,
+      "text": "access different folders in that skills"
+    },
+    {
+      "start": 420.479,
+      "duration": 5.761,
+      "text": "directory for things like being able to"
+    },
+    {
+      "start": 423.759,
+      "duration": 5.201,
+      "text": "format documents in a certain way to be"
+    },
+    {
+      "start": 426.24,
+      "duration": 5.6,
+      "text": "able to deal with PDFs to be able to use"
+    },
+    {
+      "start": 428.96,
+      "duration": 3.92,
+      "text": "a database like BigQuery etc. And when"
+    },
+    {
+      "start": 431.84,
+      "duration": 3.52,
+      "text": "we're looking at this, there's more"
+    },
+    {
+      "start": 432.88,
+      "duration": 5.52,
+      "text": "detail about the actual anatomy of a"
+    },
+    {
+      "start": 435.36,
+      "duration": 4.72,
+      "text": "skill and of the skill MD file that it"
+    },
+    {
+      "start": 438.4,
+      "duration": 3.68,
+      "text": "will have basically a name, a"
+    },
+    {
+      "start": 440.08,
+      "duration": 4.08,
+      "text": "description, and you can see in many"
+    },
+    {
+      "start": 442.08,
+      "duration": 4.959,
+      "text": "ways there are elements in here that"
+    },
+    {
+      "start": 444.16,
+      "duration": 6,
+      "text": "similar to the whole sort of prompt"
+    },
+    {
+      "start": 447.039,
+      "duration": 5.44,
+      "text": "layer of MCPS. They have some nice"
+    },
+    {
+      "start": 450.16,
+      "duration": 4.64,
+      "text": "examples in here of some different"
+    },
+    {
+      "start": 452.479,
+      "duration": 4.72,
+      "text": "skills of how you can do things like"
+    },
+    {
+      "start": 454.8,
+      "duration": 4.799,
+      "text": "bundling additional content that can be"
+    },
+    {
+      "start": 457.199,
+      "duration": 4.241,
+      "text": "used and loaded just when it's needed"
+    },
+    {
+      "start": 459.599,
+      "duration": 4.641,
+      "text": "and even showing you how this stuff"
+    },
+    {
+      "start": 461.44,
+      "duration": 4.4,
+      "text": "actually gets used in the actual context"
+    },
+    {
+      "start": 464.24,
+      "duration": 4.32,
+      "text": "window when combined with things like"
+    },
+    {
+      "start": 465.84,
+      "duration": 4.4,
+      "text": "tools and other MCPs etc. Now in many"
+    },
+    {
+      "start": 468.56,
+      "duration": 3.68,
+      "text": "ways this is also similar to what"
+    },
+    {
+      "start": 470.24,
+      "duration": 4.079,
+      "text": "they're doing with claude code plugins"
+    },
+    {
+      "start": 472.24,
+      "duration": 5.679,
+      "text": "and what Google is doing with the Gemini"
+    },
+    {
+      "start": 474.319,
+      "duration": 6.641,
+      "text": "CLI extensions. You want to package up"
+    },
+    {
+      "start": 477.919,
+      "duration": 5.361,
+      "text": "things as these sort of skills. Now, for"
+    },
+    {
+      "start": 480.96,
+      "duration": 5.04,
+      "text": "the CLI code tools, that's going to"
+    },
+    {
+      "start": 483.28,
+      "duration": 5.599,
+      "text": "include things like sub aents, slash"
+    },
+    {
+      "start": 486,
+      "duration": 5.52,
+      "text": "commands, MCP servers, and it's probably"
+    },
+    {
+      "start": 488.879,
+      "duration": 5.04,
+      "text": "a lot more detailed and intense, but"
+    },
+    {
+      "start": 491.52,
+      "duration": 5.119,
+      "text": "fundamentally, it's still the same idea"
+    },
+    {
+      "start": 493.919,
+      "duration": 5.521,
+      "text": "of getting the best context into the"
+    },
+    {
+      "start": 496.639,
+      "duration": 5.361,
+      "text": "actual model when you need it to be able"
+    },
+    {
+      "start": 499.44,
+      "duration": 4.319,
+      "text": "to produce the output that you want. So,"
+    },
+    {
+      "start": 502,
+      "duration": 3.52,
+      "text": "it is interesting to see as we go"
+    },
+    {
+      "start": 503.759,
+      "duration": 3.921,
+      "text": "forward with this, the whole idea of"
+    },
+    {
+      "start": 505.52,
+      "duration": 4.079,
+      "text": "plug-in marketplaces or you could almost"
+    },
+    {
+      "start": 507.68,
+      "duration": 4.56,
+      "text": "think of these as context window"
+    },
+    {
+      "start": 509.599,
+      "duration": 4.24,
+      "text": "marketplaces where people can make a"
+    },
+    {
+      "start": 512.24,
+      "duration": 4.4,
+      "text": "whole bunch of different things that you"
+    },
+    {
+      "start": 513.839,
+      "duration": 5.76,
+      "text": "can package up and serve through. And it"
+    },
+    {
+      "start": 516.64,
+      "duration": 6.399,
+      "text": "also is developing this idea of where"
+    },
+    {
+      "start": 519.599,
+      "duration": 6.561,
+      "text": "these chat platforms like your Claude"
+    },
+    {
+      "start": 523.039,
+      "duration": 6.321,
+      "text": "chat, your Gemini chat, your chat GPT,"
+    },
+    {
+      "start": 526.16,
+      "duration": 5.52,
+      "text": "etc. are becoming full-on platforms that"
+    },
+    {
+      "start": 529.36,
+      "duration": 4.88,
+      "text": "can host apps and can be able to do a"
+    },
+    {
+      "start": 531.68,
+      "duration": 4.56,
+      "text": "whole bunch of different agentic tasks"
+    },
+    {
+      "start": 534.24,
+      "duration": 4.32,
+      "text": "for you. We saw that as part of the"
+    },
+    {
+      "start": 536.24,
+      "duration": 5.36,
+      "text": "announcement that OpenAI introduced"
+    },
+    {
+      "start": 538.56,
+      "duration": 5.04,
+      "text": "recently at their dev day for apps. And"
+    },
+    {
+      "start": 541.6,
+      "duration": 4.56,
+      "text": "one thing to note here is that this is"
+    },
+    {
+      "start": 543.6,
+      "duration": 4.239,
+      "text": "not just one of the foundation model"
+    },
+    {
+      "start": 546.16,
+      "duration": 4.08,
+      "text": "companies doing this. They're all"
+    },
+    {
+      "start": 547.839,
+      "duration": 6,
+      "text": "jumping on the bandwagon. You're tending"
+    },
+    {
+      "start": 550.24,
+      "duration": 6.4,
+      "text": "to see OpenAI, Google, and Anthropic all"
+    },
+    {
+      "start": 553.839,
+      "duration": 4.721,
+      "text": "be moving in the same direction here."
+    },
+    {
+      "start": 556.64,
+      "duration": 3.12,
+      "text": "And then other providers like Mistral"
+    },
+    {
+      "start": 558.56,
+      "duration": 3.6,
+      "text": "and perhaps some of the Chinese"
+    },
+    {
+      "start": 559.76,
+      "duration": 4.32,
+      "text": "companies sort of fast following with"
+    },
+    {
+      "start": 562.16,
+      "duration": 4.16,
+      "text": "integrating a lot of these ideas into"
+    },
+    {
+      "start": 564.08,
+      "duration": 3.84,
+      "text": "their platforms as well. So just to"
+    },
+    {
+      "start": 566.32,
+      "duration": 3.68,
+      "text": "finish up, I would say go and check out"
+    },
+    {
+      "start": 567.92,
+      "duration": 4.08,
+      "text": "the Claude skills and if you've got"
+    },
+    {
+      "start": 570,
+      "duration": 4.24,
+      "text": "access to it, go into the Claude chat"
+    },
+    {
+      "start": 572,
+      "duration": 3.68,
+      "text": "and actually try getting it to make"
+    },
+    {
+      "start": 574.24,
+      "duration": 2.8,
+      "text": "something. Like you can see here, I'm"
+    },
+    {
+      "start": 575.68,
+      "duration": 3.76,
+      "text": "just saying, okay, take my YouTube"
+    },
+    {
+      "start": 577.04,
+      "duration": 4.4,
+      "text": "transcripts and turn it into LinkedIn"
+    },
+    {
+      "start": 579.44,
+      "duration": 3.76,
+      "text": "content. It will walk you through a"
+    },
+    {
+      "start": 581.44,
+      "duration": 4.16,
+      "text": "bunch of different steps before it comes"
+    },
+    {
+      "start": 583.2,
+      "duration": 4.48,
+      "text": "to the final sort of output. And you can"
+    },
+    {
+      "start": 585.6,
+      "duration": 3.84,
+      "text": "see, interestingly, it's obviously knows"
+    },
+    {
+      "start": 587.68,
+      "duration": 4.48,
+      "text": "what you've got connected that I have"
+    },
+    {
+      "start": 589.44,
+      "duration": 4.959,
+      "text": "notion connected to this. So, you will"
+    },
+    {
+      "start": 592.16,
+      "duration": 4.239,
+      "text": "have to correct it and guide it in the"
+    },
+    {
+      "start": 594.399,
+      "duration": 4.481,
+      "text": "way that you want to. But the cool thing"
+    },
+    {
+      "start": 596.399,
+      "duration": 4.401,
+      "text": "is you can then take that skill and put"
+    },
+    {
+      "start": 598.88,
+      "duration": 3.28,
+      "text": "in your own custom prompts. You can do a"
+    },
+    {
+      "start": 600.8,
+      "duration": 4.159,
+      "text": "whole bunch of different things to"
+    },
+    {
+      "start": 602.16,
+      "duration": 5.84,
+      "text": "create your own standard operating"
+    },
+    {
+      "start": 604.959,
+      "duration": 4.961,
+      "text": "procedures for using these platforms."
+    },
+    {
+      "start": 608,
+      "duration": 3.92,
+      "text": "The platform is no longer just a chat"
+    },
+    {
+      "start": 609.92,
+      "duration": 4.4,
+      "text": "app. It's really a set of personal"
+    },
+    {
+      "start": 611.92,
+      "duration": 4.72,
+      "text": "agents that you can use. All right. So,"
+    },
+    {
+      "start": 614.32,
+      "duration": 4.4,
+      "text": "after I recorded the video, I found some"
+    },
+    {
+      "start": 616.64,
+      "duration": 4.319,
+      "text": "other really interesting things in here."
+    },
+    {
+      "start": 618.72,
+      "duration": 4.64,
+      "text": "The first one is the best practices. If"
+    },
+    {
+      "start": 620.959,
+      "duration": 4.241,
+      "text": "you go through this deeply, you see a"
+    },
+    {
+      "start": 623.36,
+      "duration": 4.159,
+      "text": "lot of interesting things about"
+    },
+    {
+      "start": 625.2,
+      "duration": 4.56,
+      "text": "conserving tokens. They've got this"
+    },
+    {
+      "start": 627.519,
+      "duration": 5.921,
+      "text": "example of basically getting the extract"
+    },
+    {
+      "start": 629.76,
+      "duration": 5.759,
+      "text": "PDF out of using approximately 50 tokens"
+    },
+    {
+      "start": 633.44,
+      "duration": 4.8,
+      "text": "and they talk about using this as"
+    },
+    {
+      "start": 635.519,
+      "duration": 5.681,
+      "text": "opposed to using something too verbose"
+    },
+    {
+      "start": 638.24,
+      "duration": 5.12,
+      "text": "in here. I also find it interesting that"
+    },
+    {
+      "start": 641.2,
+      "duration": 4.72,
+      "text": "if you know how to write code perhaps"
+    },
+    {
+      "start": 643.36,
+      "duration": 4.159,
+      "text": "writing some code to put in these things"
+    },
+    {
+      "start": 645.92,
+      "duration": 4.64,
+      "text": "or when you're making it with their"
+    },
+    {
+      "start": 647.519,
+      "duration": 4.88,
+      "text": "skill for making skills that putting"
+    },
+    {
+      "start": 650.56,
+      "duration": 4.32,
+      "text": "code into this actually seems to work"
+    },
+    {
+      "start": 652.399,
+      "duration": 3.521,
+      "text": "more than just writing plain English."
+    },
+    {
+      "start": 654.88,
+      "duration": 3.12,
+      "text": "The other thing that's really"
+    },
+    {
+      "start": 655.92,
+      "duration": 4.64,
+      "text": "fascinating is they've now got this repo"
+    },
+    {
+      "start": 658,
+      "duration": 4.8,
+      "text": "of skills up and that's got a whole"
+    },
+    {
+      "start": 660.56,
+      "duration": 4.64,
+      "text": "bunch of different skills that they made"
+    },
+    {
+      "start": 662.8,
+      "duration": 6.08,
+      "text": "themselves. So you can see their skill"
+    },
+    {
+      "start": 665.2,
+      "duration": 6.56,
+      "text": "creator in here. We can see the skill MD"
+    },
+    {
+      "start": 668.88,
+      "duration": 4.72,
+      "text": "talking about how it does everything,"
+    },
+    {
+      "start": 671.76,
+      "duration": 3.84,
+      "text": "what the process is, and we can see"
+    },
+    {
+      "start": 673.6,
+      "duration": 5.28,
+      "text": "that's reasonably long. And we can see"
+    },
+    {
+      "start": 675.6,
+      "duration": 5.76,
+      "text": "that they've got Python code in here for"
+    },
+    {
+      "start": 678.88,
+      "duration": 4.88,
+      "text": "doing the packaging of this, doing the"
+    },
+    {
+      "start": 681.36,
+      "duration": 4.08,
+      "text": "validation of this, etc. The other thing"
+    },
+    {
+      "start": 683.76,
+      "duration": 3.759,
+      "text": "that I found really interesting is the"
+    },
+    {
+      "start": 685.44,
+      "duration": 4.88,
+      "text": "license. For some of these, you'll see"
+    },
+    {
+      "start": 687.519,
+      "duration": 5.681,
+      "text": "there's Apache 2 licensed, which is what"
+    },
+    {
+      "start": 690.32,
+      "duration": 4.4,
+      "text": "I would expect this to be. But if we"
+    },
+    {
+      "start": 693.2,
+      "duration": 4.079,
+      "text": "come in and look at some of the others,"
+    },
+    {
+      "start": 694.72,
+      "duration": 4.72,
+      "text": "like in the document skills, Excel file"
+    },
+    {
+      "start": 697.279,
+      "duration": 5.041,
+      "text": "stuff, we see this is not Apache"
+    },
+    {
+      "start": 699.44,
+      "duration": 5.839,
+      "text": "license. This is strictly copyright of"
+    },
+    {
+      "start": 702.32,
+      "duration": 4.8,
+      "text": "anthropic and all rights reserved. It"
+    },
+    {
+      "start": 705.279,
+      "duration": 4.081,
+      "text": "does seem that they're planting a flag"
+    },
+    {
+      "start": 707.12,
+      "duration": 5.2,
+      "text": "here that they don't want other"
+    },
+    {
+      "start": 709.36,
+      "duration": 5.76,
+      "text": "providers ripping off these and putting"
+    },
+    {
+      "start": 712.32,
+      "duration": 4.56,
+      "text": "them into their own take on this kind of"
+    },
+    {
+      "start": 715.12,
+      "duration": 3.92,
+      "text": "thing. But if you do want to get into"
+    },
+    {
+      "start": 716.88,
+      "duration": 4.639,
+      "text": "this, this repo is definitely worth"
+    },
+    {
+      "start": 719.04,
+      "duration": 4,
+      "text": "checking out to actually see how they're"
+    },
+    {
+      "start": 721.519,
+      "duration": 4.481,
+      "text": "doing a bunch of different things in"
+    },
+    {
+      "start": 723.04,
+      "duration": 4.64,
+      "text": "here for things like brand guidelines, a"
+    },
+    {
+      "start": 726,
+      "duration": 5.76,
+      "text": "whole bunch of things around the"
+    },
+    {
+      "start": 727.68,
+      "duration": 7.2,
+      "text": "documents, MCP builders, skill creators,"
+    },
+    {
+      "start": 731.76,
+      "duration": 5.92,
+      "text": "etc. My guess is that going forward we"
+    },
+    {
+      "start": 734.88,
+      "duration": 4.72,
+      "text": "will have repos of awesome skills."
+    },
+    {
+      "start": 737.68,
+      "duration": 4.08,
+      "text": "That's something you could imagine we're"
+    },
+    {
+      "start": 739.6,
+      "duration": 4.08,
+      "text": "going to start seeing reasonably quickly"
+    },
+    {
+      "start": 741.76,
+      "duration": 4.24,
+      "text": "where people are actually going to start"
+    },
+    {
+      "start": 743.68,
+      "duration": 4,
+      "text": "putting this kind of thing up. Anyway,"
+    },
+    {
+      "start": 746,
+      "duration": 4.24,
+      "text": "let me know in the comments what is the"
+    },
+    {
+      "start": 747.68,
+      "duration": 4.56,
+      "text": "most unusual thing you could be using"
+    },
+    {
+      "start": 750.24,
+      "duration": 3.92,
+      "text": "this for. Do you have standard operating"
+    },
+    {
+      "start": 752.24,
+      "duration": 3.76,
+      "text": "procedures or things that perhaps are"
+    },
+    {
+      "start": 754.16,
+      "duration": 4.32,
+      "text": "not obvious? I feel like we've seen the"
+    },
+    {
+      "start": 756,
+      "duration": 4.24,
+      "text": "whole repurposing of content or writing"
+    },
+    {
+      "start": 758.48,
+      "duration": 3.359,
+      "text": "tweets, but my guess is that there's"
+    },
+    {
+      "start": 760.24,
+      "duration": 4.719,
+      "text": "probably a lot of really cool things"
+    },
+    {
+      "start": 761.839,
+      "duration": 5.44,
+      "text": "people are doing that are not obvious."
+    },
+    {
+      "start": 764.959,
+      "duration": 4.32,
+      "text": "And I would say also that if you want to"
+    },
+    {
+      "start": 767.279,
+      "duration": 5.201,
+      "text": "protect your skills, you may want to"
+    },
+    {
+      "start": 769.279,
+      "duration": 5.68,
+      "text": "consider turning off allowing Anthropic"
+    },
+    {
+      "start": 772.48,
+      "duration": 4.799,
+      "text": "to train on these skills. I'm sure part"
+    },
+    {
+      "start": 774.959,
+      "duration": 4.641,
+      "text": "of their goals for improving the Claude"
+    },
+    {
+      "start": 777.279,
+      "duration": 4,
+      "text": "models is to get as many skills so that"
+    },
+    {
+      "start": 779.6,
+      "duration": 3.039,
+      "text": "they can work out what are the key"
+    },
+    {
+      "start": 781.279,
+      "duration": 4.24,
+      "text": "things they need to be training the"
+    },
+    {
+      "start": 782.639,
+      "duration": 5.76,
+      "text": "models for. So, let me know what unusual"
+    },
+    {
+      "start": 785.519,
+      "duration": 5.681,
+      "text": "SOPs or unusual things you're doing with"
+    },
+    {
+      "start": 788.399,
+      "duration": 5.281,
+      "text": "these platform agents and where you"
+    },
+    {
+      "start": 791.2,
+      "duration": 4.079,
+      "text": "would like to see this go in the future."
+    },
+    {
+      "start": 793.68,
+      "duration": 3.36,
+      "text": "Anyway, and as always, if you want to"
+    },
+    {
+      "start": 795.279,
+      "duration": 3.36,
+      "text": "see more videos like this, please click"
+    },
+    {
+      "start": 797.04,
+      "duration": 5.44,
+      "text": "like and subscribe. I will talk to you"
+    },
+    {
+      "start": 798.639,
+      "duration": 3.841,
+      "text": "in the next video. Bye for now."
+    }
+  ],
+  "fullText": "Okay. So, if you're building a business of any kind where you're doing some kind of manufacturing or providing a service, one of the things that you learn quite quickly is that you need to develop a set of standard operating procedures. Basically, this is like a list of what needs to get done in what order to what sort of quality. In my 20s, I built a company that did manufacturing of CDs and CDRs and DVDRs. And we had a whole bunch of different SOPs for everything from the design of the packaging right through to the requirements that we'd give the factory when they were doing manufacturing. And even things like the cartoon boxes that we shipped all the products in had to be custom made so that they would have our logo on it and stuff like that. The good thing was once we had the SOPs then it was very easy to be able to just put in orders and make the whole thing kind of run itself. Now in this video I want to talk about how some of the big companies are now getting agents to adopt standard operating procedures for different tasks. We're seeing this in a number of different places at the moment. The main one I'm going to talk about in this video is something that Anthropic just announced called skills. But I'm also going to touch on the claude code plugins and the Gemini CLI extensions. In many ways, all three of these things are ways of giving your agents a set of standard operating procedures that they can follow to do the different tasks that you want them to do. So, I think it's no surprise at this point that the quality of your agents and the quality of your output from any LLM is going to be about the context that you put into this. Right? Lots of people have been talking about context engineering and really this goes back a few years, right? These models are basically doing a conditional probability where they're conditioning on whatever you put into them. So the better the quality of the context that you're inputting to the LLM or to your agent, the better the quality you're actually going to get out. So just like humans need SOPs to reduce variability, agents need them even more. And you can kind of think of this as a sort of core pattern of where you've got inputs coming in going through a series of steps having key decision points using tools having some kind of output and then perhaps even having a verification at the end to check the output is actually what was supposed to be produced. So if we jump into the anthropic announcement, they're talking here about Claude skills. And interestingly, this is something that is not only for the Claude chat online interface. This is also something you can use with the API. So it really shows that they're seeing that this is sort of like a key fundamental thing for people building better agents and better workflows for using the anthropic models. So what actually is a skill here? Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access the skill when it's relevant. Now, they've made a bunch of pre-made skills for things like working with Excel files, creating presentations, formatting documents, and stuff like that. And if you think about it, you can look at this as part of the original MCP spec. Most people focus on MCPs purely as API calls or data ingestion, but there's a third thing in there for context of sort of prompts and being able to access and pull back prompts to go into the model context. In many ways, you could think of this as making a new way to do that kind of task. All right, so they talk about how skills work that basically it will scan for any relevant matches. Now, they don't tell us how they're doing this, whether this is done with some kind of similarity check between what you type in and what your skills are called, etc. But they do tell us that the skills are composable, that they can stack together, that they're portable, so that once you've got them, you can use them not only in the sort of Claude apps, but you can use them in Claude code, you can use them with the API as well. And clearly they've put a bit of effort into how Claude is going to actually decide which skill to use by talking about that these only get loaded when they're actually needed. So if you come into the Claude settings, you can actually go to the capabilities and they've got a bunch of these already pre-made there. And one of them is a skill creator. So this is kind of cool that they've got a skill to actually help you make skills. And so the skill creator, it's basically its job is to help you provide interactive guidance for you to design a workflow, design something, and then it's going to work out that folder structure and create what they call the skill MD file. So that's going to be one of the key things that sort of directs what the actual steps will be, what the syntax will be, any how it's going to use any tools. And in many ways, this is kind of similar to things that we've seen with coding for quite a while, right? We've had things like agents.md cursor has had their own sort of custom instructions. Pretty much every coding agent now has a way of you sort of preloading a bunch of custom instructions in there. So the cool thing is this skill will actually help you to make more skills. But that said, you can go through it and do it yourself. So like I mentioned early on, one of the other things that's really interesting about this is this is not just for their sort of claude chat UI. This is going to be available in the API as well. So they talk about that agent skills, which we often refer to as simply skills, can now be added to the messages API requests and they've got a whole endpoint for doing that and the code execution tool at the back to be able to use those as well. And with things like this, we're actually starting to see quite a bit of divergence between the actual LLM providers APIs. So, we've got all the main foundation model providers actually updating how their APIs work to be able to work better with their background tools and the tools that they're adding on to the API that they will run themselves. For example, the Gemini API has Google search, etc. So on top of them talking about this for the consumer stuff, they've also outlined how this can actually be sort of used for agents. And you can see here this whole idea of the agent configuration where it's going to basically have skills equipped for different things and it's going to have different MCPs that it can connect to. And you can see here that it's using back-end code execution to be able to access different folders in that skills directory for things like being able to format documents in a certain way to be able to deal with PDFs to be able to use a database like BigQuery etc. And when we're looking at this, there's more detail about the actual anatomy of a skill and of the skill MD file that it will have basically a name, a description, and you can see in many ways there are elements in here that similar to the whole sort of prompt layer of MCPS. They have some nice examples in here of some different skills of how you can do things like bundling additional content that can be used and loaded just when it's needed and even showing you how this stuff actually gets used in the actual context window when combined with things like tools and other MCPs etc. Now in many ways this is also similar to what they're doing with claude code plugins and what Google is doing with the Gemini CLI extensions. You want to package up things as these sort of skills. Now, for the CLI code tools, that's going to include things like sub aents, slash commands, MCP servers, and it's probably a lot more detailed and intense, but fundamentally, it's still the same idea of getting the best context into the actual model when you need it to be able to produce the output that you want. So, it is interesting to see as we go forward with this, the whole idea of plug-in marketplaces or you could almost think of these as context window marketplaces where people can make a whole bunch of different things that you can package up and serve through. And it also is developing this idea of where these chat platforms like your Claude chat, your Gemini chat, your chat GPT, etc. are becoming full-on platforms that can host apps and can be able to do a whole bunch of different agentic tasks for you. We saw that as part of the announcement that OpenAI introduced recently at their dev day for apps. And one thing to note here is that this is not just one of the foundation model companies doing this. They're all jumping on the bandwagon. You're tending to see OpenAI, Google, and Anthropic all be moving in the same direction here. And then other providers like Mistral and perhaps some of the Chinese companies sort of fast following with integrating a lot of these ideas into their platforms as well. So just to finish up, I would say go and check out the Claude skills and if you've got access to it, go into the Claude chat and actually try getting it to make something. Like you can see here, I'm just saying, okay, take my YouTube transcripts and turn it into LinkedIn content. It will walk you through a bunch of different steps before it comes to the final sort of output. And you can see, interestingly, it's obviously knows what you've got connected that I have notion connected to this. So, you will have to correct it and guide it in the way that you want to. But the cool thing is you can then take that skill and put in your own custom prompts. You can do a whole bunch of different things to create your own standard operating procedures for using these platforms. The platform is no longer just a chat app. It's really a set of personal agents that you can use. All right. So, after I recorded the video, I found some other really interesting things in here. The first one is the best practices. If you go through this deeply, you see a lot of interesting things about conserving tokens. They've got this example of basically getting the extract PDF out of using approximately 50 tokens and they talk about using this as opposed to using something too verbose in here. I also find it interesting that if you know how to write code perhaps writing some code to put in these things or when you're making it with their skill for making skills that putting code into this actually seems to work more than just writing plain English. The other thing that's really fascinating is they've now got this repo of skills up and that's got a whole bunch of different skills that they made themselves. So you can see their skill creator in here. We can see the skill MD talking about how it does everything, what the process is, and we can see that's reasonably long. And we can see that they've got Python code in here for doing the packaging of this, doing the validation of this, etc. The other thing that I found really interesting is the license. For some of these, you'll see there's Apache 2 licensed, which is what I would expect this to be. But if we come in and look at some of the others, like in the document skills, Excel file stuff, we see this is not Apache license. This is strictly copyright of anthropic and all rights reserved. It does seem that they're planting a flag here that they don't want other providers ripping off these and putting them into their own take on this kind of thing. But if you do want to get into this, this repo is definitely worth checking out to actually see how they're doing a bunch of different things in here for things like brand guidelines, a whole bunch of things around the documents, MCP builders, skill creators, etc. My guess is that going forward we will have repos of awesome skills. That's something you could imagine we're going to start seeing reasonably quickly where people are actually going to start putting this kind of thing up. Anyway, let me know in the comments what is the most unusual thing you could be using this for. Do you have standard operating procedures or things that perhaps are not obvious? I feel like we've seen the whole repurposing of content or writing tweets, but my guess is that there's probably a lot of really cool things people are doing that are not obvious. And I would say also that if you want to protect your skills, you may want to consider turning off allowing Anthropic to train on these skills. I'm sure part of their goals for improving the Claude models is to get as many skills so that they can work out what are the key things they need to be training the models for. So, let me know what unusual SOPs or unusual things you're doing with these platform agents and where you would like to see this go in the future. Anyway, and as always, if you want to see more videos like this, please click like and subscribe. I will talk to you in the next video. Bye for now.",
+  "fetchedAt": "2026-01-18T18:33:46.203Z"
+}

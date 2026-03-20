@@ -1,0 +1,2109 @@
+{
+  "videoId": "eAtvoGlpeRU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.48,
+      "text": "We ran Ralph safe with a sandbox"
+    },
+    {
+      "start": 2.159,
+      "duration": 5.12,
+      "text": "enabled. We ran Ralph efficiently with a"
+    },
+    {
+      "start": 4.56,
+      "duration": 4.8,
+      "text": "plan MD and an activity.mmd. We ran"
+    },
+    {
+      "start": 7.279,
+      "duration": 4.24,
+      "text": "Ralph cost-effectively because we gave"
+    },
+    {
+      "start": 9.36,
+      "duration": 4.239,
+      "text": "it a max number of iterations and we let"
+    },
+    {
+      "start": 11.519,
+      "duration": 4.561,
+      "text": "Ralph validate its own work because we"
+    },
+    {
+      "start": 13.599,
+      "duration": 4.321,
+      "text": "gave it access to Claude for Chrome so"
+    },
+    {
+      "start": 16.08,
+      "duration": 3.52,
+      "text": "it could get visual input and get"
+    },
+    {
+      "start": 17.92,
+      "duration": 3.279,
+      "text": "console logs and understand if it"
+    },
+    {
+      "start": 19.6,
+      "duration": 3.439,
+      "text": "achieves its task or not. These are the"
+    },
+    {
+      "start": 21.199,
+      "duration": 3.441,
+      "text": "steps you should take for Ralph or other"
+    },
+    {
+      "start": 23.039,
+      "duration": 3.521,
+      "text": "longrunning agents. There's a lot of"
+    },
+    {
+      "start": 24.64,
+      "duration": 3.2,
+      "text": "hype about Ralph Wiggum in the AI coding"
+    },
+    {
+      "start": 26.56,
+      "duration": 2.559,
+      "text": "community and I think a lot of people"
+    },
+    {
+      "start": 27.84,
+      "duration": 2.56,
+      "text": "are getting it wrong. Here's the thing."
+    },
+    {
+      "start": 29.119,
+      "duration": 2.801,
+      "text": "You need to know when to actually use"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.12,
+      "text": "Ralph Fugum. You need to know how to use"
+    },
+    {
+      "start": 31.92,
+      "duration": 3.44,
+      "text": "it safely, efficiently, and cost-"
+    },
+    {
+      "start": 33.52,
+      "duration": 3.52,
+      "text": "effectively. And lastly, you need to"
+    },
+    {
+      "start": 35.36,
+      "duration": 2.96,
+      "text": "know how to actually run Ralph because"
+    },
+    {
+      "start": 37.04,
+      "duration": 3.039,
+      "text": "there's two main ways I see people"
+    },
+    {
+      "start": 38.32,
+      "duration": 3.759,
+      "text": "talking about online. The original way"
+    },
+    {
+      "start": 40.079,
+      "duration": 3.921,
+      "text": "by Jeffrey Huntley, which is essentially"
+    },
+    {
+      "start": 42.079,
+      "duration": 4,
+      "text": "just a bash loop, and then you have the"
+    },
+    {
+      "start": 44,
+      "duration": 3.68,
+      "text": "official Ralph Wigum plugin from Claude"
+    },
+    {
+      "start": 46.079,
+      "duration": 3.601,
+      "text": "Code, and it works very differently than"
+    },
+    {
+      "start": 47.68,
+      "duration": 3.84,
+      "text": "the original bash loop. It works on a"
+    },
+    {
+      "start": 49.68,
+      "duration": 4.16,
+      "text": "stop hook, which is fundamentally"
+    },
+    {
+      "start": 51.52,
+      "duration": 3.84,
+      "text": "different than the original Ralph Wiggum"
+    },
+    {
+      "start": 53.84,
+      "duration": 3.6,
+      "text": "setup. The good news is the way I"
+    },
+    {
+      "start": 55.36,
+      "duration": 4.32,
+      "text": "prepare before running Ralph Wiggum is"
+    },
+    {
+      "start": 57.44,
+      "duration": 4.08,
+      "text": "the same if I use the cloud setup or the"
+    },
+    {
+      "start": 59.68,
+      "duration": 3.679,
+      "text": "original bash loop. It's equally as"
+    },
+    {
+      "start": 61.52,
+      "duration": 3.359,
+      "text": "important for both methods and it's very"
+    },
+    {
+      "start": 63.359,
+      "duration": 3.361,
+      "text": "easy to tweak. So in this video I'm"
+    },
+    {
+      "start": 64.879,
+      "duration": 2.961,
+      "text": "going to go over my best practices how I"
+    },
+    {
+      "start": 66.72,
+      "duration": 2.96,
+      "text": "believe we should be running Ralph"
+    },
+    {
+      "start": 67.84,
+      "duration": 3.92,
+      "text": "Wiggum cuz I think a lot of people are"
+    },
+    {
+      "start": 69.68,
+      "duration": 3.68,
+      "text": "hyping this up and giving poor advice on"
+    },
+    {
+      "start": 71.76,
+      "duration": 4.08,
+      "text": "how to use this. So what is Ralph"
+    },
+    {
+      "start": 73.36,
+      "duration": 4.079,
+      "text": "Wiggum? It's a way to run Claude code or"
+    },
+    {
+      "start": 75.84,
+      "duration": 3.52,
+      "text": "whatever agent in a continuous"
+    },
+    {
+      "start": 77.439,
+      "duration": 4,
+      "text": "autonomous loop. It solves the problem"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.84,
+      "text": "that most agents have of finishing too"
+    },
+    {
+      "start": 81.439,
+      "duration": 3.521,
+      "text": "early. But this isn't a magic pill."
+    },
+    {
+      "start": 83.2,
+      "duration": 3.2,
+      "text": "Essentially what it does is it tells"
+    },
+    {
+      "start": 84.96,
+      "duration": 3.199,
+      "text": "Claude or whatever agent you're using,"
+    },
+    {
+      "start": 86.4,
+      "duration": 3.68,
+      "text": "do this task. Oh, you're done. Do this"
+    },
+    {
+      "start": 88.159,
+      "duration": 4.32,
+      "text": "task. Oh, you're done. Do this task. And"
+    },
+    {
+      "start": 90.08,
+      "duration": 4.56,
+      "text": "it just keeps running. And Ralph Wiggum"
+    },
+    {
+      "start": 92.479,
+      "duration": 3.761,
+      "text": "is best for long running tasks, things"
+    },
+    {
+      "start": 94.64,
+      "duration": 3.68,
+      "text": "you want going for a long period of"
+    },
+    {
+      "start": 96.24,
+      "duration": 3.519,
+      "text": "time. And more than that, when you"
+    },
+    {
+      "start": 98.32,
+      "duration": 3.439,
+      "text": "already know what you want to build. So"
+    },
+    {
+      "start": 99.759,
+      "duration": 4.161,
+      "text": "instead of cloud code or cursor or"
+    },
+    {
+      "start": 101.759,
+      "duration": 4.32,
+      "text": "codeex thinking it's done too early and"
+    },
+    {
+      "start": 103.92,
+      "duration": 4.08,
+      "text": "stopping, this is a way to force the"
+    },
+    {
+      "start": 106.079,
+      "duration": 3.601,
+      "text": "agent to keep working, keep checking"
+    },
+    {
+      "start": 108,
+      "duration": 3.28,
+      "text": "until it knows it's done. And by the"
+    },
+    {
+      "start": 109.68,
+      "duration": 3.28,
+      "text": "way, Ralph Wiggum doesn't only have to"
+    },
+    {
+      "start": 111.28,
+      "duration": 4.479,
+      "text": "work for cloud code. You can set it up"
+    },
+    {
+      "start": 112.96,
+      "duration": 5.119,
+      "text": "to work with any CLI agent like Codeex,"
+    },
+    {
+      "start": 115.759,
+      "duration": 3.841,
+      "text": "like Gemini, like Open Code. I'm just"
+    },
+    {
+      "start": 118.079,
+      "duration": 3.521,
+      "text": "showing you in Cloud Code, but you can"
+    },
+    {
+      "start": 119.6,
+      "duration": 4,
+      "text": "apply this with minimal tweaks to any"
+    },
+    {
+      "start": 121.6,
+      "duration": 4.32,
+      "text": "CLI agent. So, my first experience was,"
+    },
+    {
+      "start": 123.6,
+      "duration": 3.76,
+      "text": "wow, this gets really expensive, and it"
+    },
+    {
+      "start": 125.92,
+      "duration": 2.88,
+      "text": "does if you don't use it correctly. But"
+    },
+    {
+      "start": 127.36,
+      "duration": 2.959,
+      "text": "then when Boris Churnney made his post"
+    },
+    {
+      "start": 128.8,
+      "duration": 3.2,
+      "text": "about how he uses cloud code, by the"
+    },
+    {
+      "start": 130.319,
+      "duration": 3.041,
+      "text": "way, I did a full video on Boris's post."
+    },
+    {
+      "start": 132,
+      "duration": 2.48,
+      "text": "I'll link to it above. I got pretty"
+    },
+    {
+      "start": 133.36,
+      "duration": 2.239,
+      "text": "interested when he mentioned Ralph"
+    },
+    {
+      "start": 134.48,
+      "duration": 3.04,
+      "text": "Wiggum. And then I started thinking,"
+    },
+    {
+      "start": 135.599,
+      "duration": 4.241,
+      "text": "well, Anthropic officially released a"
+    },
+    {
+      "start": 137.52,
+      "duration": 4.64,
+      "text": "Ralph Wiggum plugin, and it's actually a"
+    },
+    {
+      "start": 139.84,
+      "duration": 3.44,
+      "text": "perfect catalyst to implement what they"
+    },
+    {
+      "start": 142.16,
+      "duration": 3.04,
+      "text": "talked about in their effective"
+    },
+    {
+      "start": 143.28,
+      "duration": 3.679,
+      "text": "harnesses for long-running agents. And I"
+    },
+    {
+      "start": 145.2,
+      "duration": 3.679,
+      "text": "also did a full video on this blog post"
+    },
+    {
+      "start": 146.959,
+      "duration": 3.121,
+      "text": "by Anthropic about Spectrum Development,"
+    },
+    {
+      "start": 148.879,
+      "duration": 2.801,
+      "text": "but they never really implemented"
+    },
+    {
+      "start": 150.08,
+      "duration": 3.519,
+      "text": "something. They gave us a framework"
+    },
+    {
+      "start": 151.68,
+      "duration": 3.52,
+      "text": "here, but it stopped there. So, I came"
+    },
+    {
+      "start": 153.599,
+      "duration": 3.28,
+      "text": "back to that blog post after Boris"
+    },
+    {
+      "start": 155.2,
+      "duration": 3.28,
+      "text": "Journey's Twitter post, and all the dots"
+    },
+    {
+      "start": 156.879,
+      "duration": 3.921,
+      "text": "started connecting for me. Use Ralph"
+    },
+    {
+      "start": 158.48,
+      "duration": 4.24,
+      "text": "Wigum to try and implement Anthropic's"
+    },
+    {
+      "start": 160.8,
+      "duration": 3.519,
+      "text": "approach to longrunning agents. If Burst"
+    },
+    {
+      "start": 162.72,
+      "duration": 3.519,
+      "text": "Journey from Anthropic is using it for"
+    },
+    {
+      "start": 164.319,
+      "duration": 3.28,
+      "text": "long running tasks, I can do it, too."
+    },
+    {
+      "start": 166.239,
+      "duration": 2.801,
+      "text": "So, that's what I set out to do. And"
+    },
+    {
+      "start": 167.599,
+      "duration": 3.521,
+      "text": "spoiler alert, the plug-in from"
+    },
+    {
+      "start": 169.04,
+      "duration": 3.919,
+      "text": "Anthropic doesn't come nearly as close"
+    },
+    {
+      "start": 171.12,
+      "duration": 3.04,
+      "text": "to achieving this as the original Bash"
+    },
+    {
+      "start": 172.959,
+      "duration": 2.881,
+      "text": "Loop. I'm going to show you both of them"
+    },
+    {
+      "start": 174.16,
+      "duration": 2.96,
+      "text": "and show you why. But first, let's just"
+    },
+    {
+      "start": 175.84,
+      "duration": 3.28,
+      "text": "get into setting it up. So, first things"
+    },
+    {
+      "start": 177.12,
+      "duration": 3.68,
+      "text": "first, safety. Boris Turney gives us the"
+    },
+    {
+      "start": 179.12,
+      "duration": 4.16,
+      "text": "answer right here. For very longunning"
+    },
+    {
+      "start": 180.8,
+      "duration": 4.799,
+      "text": "tasks, I will use the Ralph Wigan plugin"
+    },
+    {
+      "start": 183.28,
+      "duration": 4.16,
+      "text": "in a sandbox to avoid permission prompts"
+    },
+    {
+      "start": 185.599,
+      "duration": 3.521,
+      "text": "for the session so Claude could cook"
+    },
+    {
+      "start": 187.44,
+      "duration": 3.04,
+      "text": "without being blocked. At this point,"
+    },
+    {
+      "start": 189.12,
+      "duration": 3.28,
+      "text": "we've all tried yellow mode or"
+    },
+    {
+      "start": 190.48,
+      "duration": 3.679,
+      "text": "dangerously skip permissions. But what"
+    },
+    {
+      "start": 192.4,
+      "duration": 3.68,
+      "text": "happens there is if you're not careful,"
+    },
+    {
+      "start": 194.159,
+      "duration": 3.601,
+      "text": "the agent eventually gets a little bit"
+    },
+    {
+      "start": 196.08,
+      "duration": 3.519,
+      "text": "too trigger-happy, and it can make"
+    },
+    {
+      "start": 197.76,
+      "duration": 3.92,
+      "text": "changes that are really hard to revert."
+    },
+    {
+      "start": 199.599,
+      "duration": 3.761,
+      "text": "And the whole point of raw is to run in"
+    },
+    {
+      "start": 201.68,
+      "duration": 3.6,
+      "text": "a continuous loop. So, it can be going"
+    },
+    {
+      "start": 203.36,
+      "duration": 3.84,
+      "text": "for minutes, for hours, completely"
+    },
+    {
+      "start": 205.28,
+      "duration": 3.52,
+      "text": "overnight. And the problem is you have"
+    },
+    {
+      "start": 207.2,
+      "duration": 2.56,
+      "text": "to give it a lot of permissions, but you"
+    },
+    {
+      "start": 208.8,
+      "duration": 2.32,
+      "text": "don't want to give it all the"
+    },
+    {
+      "start": 209.76,
+      "duration": 2.88,
+      "text": "permissions, and you also don't want to"
+    },
+    {
+      "start": 211.12,
+      "duration": 2.72,
+      "text": "have to babysit it and keep clicking"
+    },
+    {
+      "start": 212.64,
+      "duration": 2.8,
+      "text": "yes, because what's the point of"
+    },
+    {
+      "start": 213.84,
+      "duration": 3.6,
+      "text": "autonomous agent then? So, the obvious"
+    },
+    {
+      "start": 215.44,
+      "duration": 3.92,
+      "text": "solution is sandboxing cloud code. A few"
+    },
+    {
+      "start": 217.44,
+      "duration": 3.92,
+      "text": "months ago, Enthropic made this paper on"
+    },
+    {
+      "start": 219.36,
+      "duration": 3.84,
+      "text": "how to sandbox cloud code. It's really"
+    },
+    {
+      "start": 221.36,
+      "duration": 4.64,
+      "text": "easy. All you have to do is run slash"
+    },
+    {
+      "start": 223.2,
+      "duration": 4.24,
+      "text": "sandbox, but running / sandbox can put"
+    },
+    {
+      "start": 226,
+      "duration": 2.879,
+      "text": "everything in a sandbox, and you don't"
+    },
+    {
+      "start": 227.44,
+      "duration": 3.439,
+      "text": "always want that. It can get a bit"
+    },
+    {
+      "start": 228.879,
+      "duration": 3.44,
+      "text": "problematic for deploying locally, for"
+    },
+    {
+      "start": 230.879,
+      "duration": 2.881,
+      "text": "pulling down dependencies, and a bunch"
+    },
+    {
+      "start": 232.319,
+      "duration": 2.881,
+      "text": "of other things. So, I recommend going"
+    },
+    {
+      "start": 233.76,
+      "duration": 2.72,
+      "text": "to the docs and figuring out what"
+    },
+    {
+      "start": 235.2,
+      "duration": 2.959,
+      "text": "permissions you want to give it access"
+    },
+    {
+      "start": 236.48,
+      "duration": 2.88,
+      "text": "to. So, let me just open up this project"
+    },
+    {
+      "start": 238.159,
+      "duration": 3.121,
+      "text": "real quickly. If we go into my"
+    },
+    {
+      "start": 239.36,
+      "duration": 3.599,
+      "text": "settings.json, we can see how I set up"
+    },
+    {
+      "start": 241.28,
+      "duration": 3.84,
+      "text": "my sandbox. So, then when we open up"
+    },
+    {
+      "start": 242.959,
+      "duration": 4,
+      "text": "cloud, you will see here your bash"
+    },
+    {
+      "start": 245.12,
+      "duration": 2.88,
+      "text": "commands will be sandbox. My sandbox is"
+    },
+    {
+      "start": 246.959,
+      "duration": 2.881,
+      "text": "already turned on here. If you don't"
+    },
+    {
+      "start": 248,
+      "duration": 4.08,
+      "text": "have it turned on, you can do / sandbox"
+    },
+    {
+      "start": 249.84,
+      "duration": 4,
+      "text": "and turn it on. So, right here, you see"
+    },
+    {
+      "start": 252.08,
+      "duration": 3.92,
+      "text": "that I'm using a sandbox bash tool with"
+    },
+    {
+      "start": 253.84,
+      "duration": 4.239,
+      "text": "autoallow. If I go over to the config,"
+    },
+    {
+      "start": 256,
+      "duration": 3.84,
+      "text": "you can see how I set it up. Everybody"
+    },
+    {
+      "start": 258.079,
+      "duration": 3.521,
+      "text": "will set up their sandbox differently."
+    },
+    {
+      "start": 259.84,
+      "duration": 3.44,
+      "text": "But that's my first step. Start using a"
+    },
+    {
+      "start": 261.6,
+      "duration": 3.039,
+      "text": "sandbox even before you start using"
+    },
+    {
+      "start": 263.28,
+      "duration": 3.04,
+      "text": "Ralph Wum cuz when you're running"
+    },
+    {
+      "start": 264.639,
+      "duration": 3.12,
+      "text": "autonomous agents, you want them to be"
+    },
+    {
+      "start": 266.32,
+      "duration": 2.879,
+      "text": "isolated. You can give them some"
+    },
+    {
+      "start": 267.759,
+      "duration": 3.361,
+      "text": "permissions, but you want that layer of"
+    },
+    {
+      "start": 269.199,
+      "duration": 3.521,
+      "text": "protection. Number two comes back to"
+    },
+    {
+      "start": 271.12,
+      "duration": 3.76,
+      "text": "planning. You don't want to leave Ralph"
+    },
+    {
+      "start": 272.72,
+      "duration": 3.28,
+      "text": "to make these ambiguous decisions and"
+    },
+    {
+      "start": 274.88,
+      "duration": 3.599,
+      "text": "come back and figure out what he did"
+    },
+    {
+      "start": 276,
+      "duration": 4.08,
+      "text": "later. So my first step before anything"
+    },
+    {
+      "start": 278.479,
+      "duration": 3.761,
+      "text": "before you even touch Ralph is write a"
+    },
+    {
+      "start": 280.08,
+      "duration": 4,
+      "text": "plan. Write a PRD. And it's so important"
+    },
+    {
+      "start": 282.24,
+      "duration": 4,
+      "text": "with Ralph because you're going to let"
+    },
+    {
+      "start": 284.08,
+      "duration": 4.08,
+      "text": "it run for hours on end. In all my other"
+    },
+    {
+      "start": 286.24,
+      "duration": 3.6,
+      "text": "videos about spectrum of development, we"
+    },
+    {
+      "start": 288.16,
+      "duration": 3.599,
+      "text": "always start with planning it out and"
+    },
+    {
+      "start": 289.84,
+      "duration": 3.76,
+      "text": "getting as much down on paper as"
+    },
+    {
+      "start": 291.759,
+      "duration": 3.601,
+      "text": "possible so our agents could build out a"
+    },
+    {
+      "start": 293.6,
+      "duration": 3.039,
+      "text": "task list and start working on it. So"
+    },
+    {
+      "start": 295.36,
+      "duration": 3.68,
+      "text": "don't waste your time and don't waste"
+    },
+    {
+      "start": 296.639,
+      "duration": 4.401,
+      "text": "your money on running for an unfleshed"
+    },
+    {
+      "start": 299.04,
+      "duration": 3.599,
+      "text": "out, unplanned idea. have as much as you"
+    },
+    {
+      "start": 301.04,
+      "duration": 3.28,
+      "text": "can figure it out. In my case here, I"
+    },
+    {
+      "start": 302.639,
+      "duration": 3.361,
+      "text": "already made my PRD. And by the way, you"
+    },
+    {
+      "start": 304.32,
+      "duration": 3.04,
+      "text": "could already see my PRD creator skill"
+    },
+    {
+      "start": 306,
+      "duration": 3.199,
+      "text": "here on this project. That's what"
+    },
+    {
+      "start": 307.36,
+      "duration": 3.44,
+      "text": "created this whole PRD. It works really"
+    },
+    {
+      "start": 309.199,
+      "duration": 3.28,
+      "text": "great with any spectrum of development"
+    },
+    {
+      "start": 310.8,
+      "duration": 3.119,
+      "text": "and especially with Ralph. I'll link to"
+    },
+    {
+      "start": 312.479,
+      "duration": 3.121,
+      "text": "that video above. And I already took my"
+    },
+    {
+      "start": 313.919,
+      "duration": 4,
+      "text": "PRD and I broke it into a plan, but I"
+    },
+    {
+      "start": 315.6,
+      "duration": 4.56,
+      "text": "didn't use specit or openspec or bb. I"
+    },
+    {
+      "start": 317.919,
+      "duration": 3.921,
+      "text": "told claude code to build this pland"
+    },
+    {
+      "start": 320.16,
+      "duration": 3.2,
+      "text": "based on what anthropic talked about in"
+    },
+    {
+      "start": 321.84,
+      "duration": 3.76,
+      "text": "effective harnesses for longrunning"
+    },
+    {
+      "start": 323.36,
+      "duration": 3.92,
+      "text": "agents. If we go down, this is how they"
+    },
+    {
+      "start": 325.6,
+      "duration": 3.36,
+      "text": "suggest writing the task list, which is"
+    },
+    {
+      "start": 327.28,
+      "duration": 3.28,
+      "text": "JSON. It has a category. It has a"
+    },
+    {
+      "start": 328.96,
+      "duration": 3.92,
+      "text": "description. It has the steps and it"
+    },
+    {
+      "start": 330.56,
+      "duration": 4.16,
+      "text": "starts as failing. Passes false. So I"
+    },
+    {
+      "start": 332.88,
+      "duration": 4,
+      "text": "told Claude code to look at my P and"
+    },
+    {
+      "start": 334.72,
+      "duration": 4,
+      "text": "then create a plan.mmd file with this"
+    },
+    {
+      "start": 336.88,
+      "duration": 3.52,
+      "text": "format. I also passed it the entire"
+    },
+    {
+      "start": 338.72,
+      "duration": 2.88,
+      "text": "article so it had more context. In that"
+    },
+    {
+      "start": 340.4,
+      "duration": 3.519,
+      "text": "article they talk about a claude"
+    },
+    {
+      "start": 341.6,
+      "duration": 4.64,
+      "text": "progress txt file but I decided to call"
+    },
+    {
+      "start": 343.919,
+      "duration": 4.081,
+      "text": "it the activity.md file because"
+    },
+    {
+      "start": 346.24,
+      "duration": 3.44,
+      "text": "sometimes it doesn't make progress but I"
+    },
+    {
+      "start": 348,
+      "duration": 3.919,
+      "text": "want to log all the activity. So now we"
+    },
+    {
+      "start": 349.68,
+      "duration": 4,
+      "text": "have a prd we have a plan and activity"
+    },
+    {
+      "start": 351.919,
+      "duration": 3.201,
+      "text": "file. Okay. So all the pieces are coming"
+    },
+    {
+      "start": 353.68,
+      "duration": 2.64,
+      "text": "together. Let's start talking about"
+    },
+    {
+      "start": 355.12,
+      "duration": 2.639,
+      "text": "running Ralph. We'll start with"
+    },
+    {
+      "start": 356.32,
+      "duration": 3.04,
+      "text": "Enthropic and then we'll move to the"
+    },
+    {
+      "start": 357.759,
+      "duration": 3.841,
+      "text": "official batch loop. So if we go to"
+    },
+    {
+      "start": 359.36,
+      "duration": 4.16,
+      "text": "Enthropic's Ralphum skill to talk about"
+    },
+    {
+      "start": 361.6,
+      "duration": 3.52,
+      "text": "how it works, but this is the most"
+    },
+    {
+      "start": 363.52,
+      "duration": 3.76,
+      "text": "important thing if you don't want to"
+    },
+    {
+      "start": 365.12,
+      "duration": 4.48,
+      "text": "completely obliterate your usage limits,"
+    },
+    {
+      "start": 367.28,
+      "duration": 4.16,
+      "text": "max iterations because it will just keep"
+    },
+    {
+      "start": 369.6,
+      "duration": 4.08,
+      "text": "running and the default is unlimited."
+    },
+    {
+      "start": 371.44,
+      "duration": 4.64,
+      "text": "And trust me, make sure you set max"
+    },
+    {
+      "start": 373.68,
+      "duration": 4.4,
+      "text": "iterations. And I think the best way to"
+    },
+    {
+      "start": 376.08,
+      "duration": 4.559,
+      "text": "do this is setting it from 10 to 20 at"
+    },
+    {
+      "start": 378.08,
+      "duration": 4.559,
+      "text": "least at first. Next, set a completion"
+    },
+    {
+      "start": 380.639,
+      "duration": 3.041,
+      "text": "promise. Meaning in your prompt, and"
+    },
+    {
+      "start": 382.639,
+      "duration": 2.801,
+      "text": "we're going to get to that in a second,"
+    },
+    {
+      "start": 383.68,
+      "duration": 3.359,
+      "text": "tell it what the completion promise is."
+    },
+    {
+      "start": 385.44,
+      "duration": 3.039,
+      "text": "so that it knows how to stop. So that's"
+    },
+    {
+      "start": 387.039,
+      "duration": 3.201,
+      "text": "how to be costefficient. Worst case"
+    },
+    {
+      "start": 388.479,
+      "duration": 3.201,
+      "text": "scenario, it doesn't finish after 20"
+    },
+    {
+      "start": 390.24,
+      "duration": 2.959,
+      "text": "durations and you can start it up again."
+    },
+    {
+      "start": 391.68,
+      "duration": 3.84,
+      "text": "And last thing you should know is about"
+    },
+    {
+      "start": 393.199,
+      "duration": 5.041,
+      "text": "good prompt practices. Obviously, don't"
+    },
+    {
+      "start": 395.52,
+      "duration": 4.32,
+      "text": "do a very broad, very basic prompt. Give"
+    },
+    {
+      "start": 398.24,
+      "duration": 3.519,
+      "text": "it requirements. Give it success"
+    },
+    {
+      "start": 399.84,
+      "duration": 4.479,
+      "text": "criteria. And going back one last time"
+    },
+    {
+      "start": 401.759,
+      "duration": 4.401,
+      "text": "to Boris Trun's post, his final tip is"
+    },
+    {
+      "start": 404.319,
+      "duration": 4.081,
+      "text": "give it a feedback loop. So what I've"
+    },
+    {
+      "start": 406.16,
+      "duration": 4.24,
+      "text": "been doing is giving Claude code the"
+    },
+    {
+      "start": 408.4,
+      "duration": 3.68,
+      "text": "ability to use Claude for Chrome."
+    },
+    {
+      "start": 410.4,
+      "duration": 3.2,
+      "text": "Essentially gives Claude the ability to"
+    },
+    {
+      "start": 412.08,
+      "duration": 2.88,
+      "text": "launch Chrome and test out what it's"
+    },
+    {
+      "start": 413.6,
+      "duration": 3.2,
+      "text": "doing. Take a look, take a screenshot,"
+    },
+    {
+      "start": 414.96,
+      "duration": 3.76,
+      "text": "look at console logs. It closes the"
+    },
+    {
+      "start": 416.8,
+      "duration": 3.28,
+      "text": "whole feedback loop. Okay, so enough"
+    },
+    {
+      "start": 418.72,
+      "duration": 3.28,
+      "text": "talking. Let's actually look at it in"
+    },
+    {
+      "start": 420.08,
+      "duration": 4.16,
+      "text": "action. So here we are back in this"
+    },
+    {
+      "start": 422,
+      "duration": 4.639,
+      "text": "project. All it has is the PRD, the"
+    },
+    {
+      "start": 424.24,
+      "duration": 4.16,
+      "text": "plan, and the activity.md because we're"
+    },
+    {
+      "start": 426.639,
+      "duration": 4.801,
+      "text": "channeling Boris Jurnney. We're going to"
+    },
+    {
+      "start": 428.4,
+      "duration": 4.639,
+      "text": "open up iterm 2. This is the terminal I"
+    },
+    {
+      "start": 431.44,
+      "duration": 3.36,
+      "text": "believe he's using, and we're just going"
+    },
+    {
+      "start": 433.039,
+      "duration": 3.28,
+      "text": "to open it next to VS Code. Okay, so"
+    },
+    {
+      "start": 434.8,
+      "duration": 3.28,
+      "text": "we're going to open up Claude. If you"
+    },
+    {
+      "start": 436.319,
+      "duration": 4,
+      "text": "don't have Ralph set up already, you"
+    },
+    {
+      "start": 438.08,
+      "duration": 4.399,
+      "text": "want to do /plugin, and you'll see this"
+    },
+    {
+      "start": 440.319,
+      "duration": 4.081,
+      "text": "discover page. And you can just go down"
+    },
+    {
+      "start": 442.479,
+      "duration": 4.081,
+      "text": "to you find Ralph. Or you just go to the"
+    },
+    {
+      "start": 444.4,
+      "duration": 3.359,
+      "text": "top, search Ralph. It's not showing up"
+    },
+    {
+      "start": 446.56,
+      "duration": 2.639,
+      "text": "for me because I already have it"
+    },
+    {
+      "start": 447.759,
+      "duration": 2.801,
+      "text": "installed. But you click enter, you"
+    },
+    {
+      "start": 449.199,
+      "duration": 4.321,
+      "text": "install it, and then you have it running"
+    },
+    {
+      "start": 450.56,
+      "duration": 4.72,
+      "text": "in cloud code. Then if we do /chrome, we"
+    },
+    {
+      "start": 453.52,
+      "duration": 3.04,
+      "text": "can see that we have cloud for Chrome"
+    },
+    {
+      "start": 455.28,
+      "duration": 3.039,
+      "text": "already set up. That's the whole"
+    },
+    {
+      "start": 456.56,
+      "duration": 3.199,
+      "text": "feedback loop that Claude passed to"
+    },
+    {
+      "start": 458.319,
+      "duration": 3.6,
+      "text": "check that it did a good job. And"
+    },
+    {
+      "start": 459.759,
+      "duration": 3.921,
+      "text": "lastly, to trigger Ralph, you do / Ralph"
+    },
+    {
+      "start": 461.919,
+      "duration": 3.68,
+      "text": "and you want to select this one, Ralph"
+    },
+    {
+      "start": 463.68,
+      "duration": 3.359,
+      "text": "loop. So you just press tab, and it"
+    },
+    {
+      "start": 465.599,
+      "duration": 3.361,
+      "text": "tells you everything else you need to"
+    },
+    {
+      "start": 467.039,
+      "duration": 4,
+      "text": "have in here. your prompt, your max"
+    },
+    {
+      "start": 468.96,
+      "duration": 3.359,
+      "text": "iterations, and your completion promise"
+    },
+    {
+      "start": 471.039,
+      "duration": 2.56,
+      "text": "text. So, here's my prompt. I'm just"
+    },
+    {
+      "start": 472.319,
+      "duration": 3.6,
+      "text": "going to tell you the important parts."
+    },
+    {
+      "start": 473.599,
+      "duration": 3.921,
+      "text": "First, read the activity.md file to see"
+    },
+    {
+      "start": 475.919,
+      "duration": 3.361,
+      "text": "what was recently accomplished. Start"
+    },
+    {
+      "start": 477.52,
+      "duration": 3.44,
+      "text": "the site locally and keep it local host"
+    },
+    {
+      "start": 479.28,
+      "duration": 3.52,
+      "text": "only. Verify the current behavior"
+    },
+    {
+      "start": 480.96,
+      "duration": 3.84,
+      "text": "including Chrome by opening the local"
+    },
+    {
+      "start": 482.8,
+      "duration": 3.92,
+      "text": "URL and checking the page loads with no"
+    },
+    {
+      "start": 484.8,
+      "duration": 3.839,
+      "text": "obvious layout issues. Then, open"
+    },
+    {
+      "start": 486.72,
+      "duration": 4.24,
+      "text": "plan.md and choose the single highest"
+    },
+    {
+      "start": 488.639,
+      "duration": 4.641,
+      "text": "priority task whose status is failing."
+    },
+    {
+      "start": 490.96,
+      "duration": 3.84,
+      "text": "Work on exactly one task. Check the"
+    },
+    {
+      "start": 493.28,
+      "duration": 2.96,
+      "text": "browser console for errors and confirm"
+    },
+    {
+      "start": 494.8,
+      "duration": 3.839,
+      "text": "the change matches the acceptance"
+    },
+    {
+      "start": 496.24,
+      "duration": 4.16,
+      "text": "criteria in plan.mmd. Append a dated"
+    },
+    {
+      "start": 498.639,
+      "duration": 3.201,
+      "text": "progress entry to activity.mmd"
+    },
+    {
+      "start": 500.4,
+      "duration": 3.199,
+      "text": "describing what you changed, which"
+    },
+    {
+      "start": 501.84,
+      "duration": 4,
+      "text": "commands you ran and what you verified"
+    },
+    {
+      "start": 503.599,
+      "duration": 4.401,
+      "text": "in Chrome. When the task is confirmed,"
+    },
+    {
+      "start": 505.84,
+      "duration": 4.479,
+      "text": "update the status in plan.mmd from"
+    },
+    {
+      "start": 508,
+      "duration": 4.56,
+      "text": "failing to passing. Make one get commit"
+    },
+    {
+      "start": 510.319,
+      "duration": 4.16,
+      "text": "for that task with a clear single line"
+    },
+    {
+      "start": 512.56,
+      "duration": 3.839,
+      "text": "message. Repeat until all tasks are"
+    },
+    {
+      "start": 514.479,
+      "duration": 4.641,
+      "text": "passing. When all tasks are marked"
+    },
+    {
+      "start": 516.399,
+      "duration": 4.161,
+      "text": "passing, output exactly complete. And"
+    },
+    {
+      "start": 519.12,
+      "duration": 4.479,
+      "text": "here's the most important part, the cost"
+    },
+    {
+      "start": 520.56,
+      "duration": 4.959,
+      "text": "efficiency. max iterations 20 completion"
+    },
+    {
+      "start": 523.599,
+      "duration": 3.281,
+      "text": "promise complete. Okay, so we're going"
+    },
+    {
+      "start": 525.519,
+      "duration": 3.44,
+      "text": "to take all this and paste it in after"
+    },
+    {
+      "start": 526.88,
+      "duration": 4.079,
+      "text": "this Ralph loop slash command. So we're"
+    },
+    {
+      "start": 528.959,
+      "duration": 4.161,
+      "text": "going to press enter and just like that."
+    },
+    {
+      "start": 530.959,
+      "duration": 4.161,
+      "text": "I'll start by reading the activity.md."
+    },
+    {
+      "start": 533.12,
+      "duration": 3.92,
+      "text": "I'll read the plan. Let me check if the"
+    },
+    {
+      "start": 535.12,
+      "duration": 3.839,
+      "text": "files already exist. And as you can see,"
+    },
+    {
+      "start": 537.04,
+      "duration": 3.84,
+      "text": "it's starting to work. It's doing it"
+    },
+    {
+      "start": 538.959,
+      "duration": 3.761,
+      "text": "all. It just opened up cloud in Chrome."
+    },
+    {
+      "start": 540.88,
+      "duration": 4.56,
+      "text": "I'm not even touching it. And it's just"
+    },
+    {
+      "start": 542.72,
+      "duration": 4.48,
+      "text": "getting to work. So we see here task one"
+    },
+    {
+      "start": 545.44,
+      "duration": 3.68,
+      "text": "complete. Let me update activity MD,"
+    },
+    {
+      "start": 547.2,
+      "duration": 3.92,
+      "text": "planned MD, and commit. So let's just"
+    },
+    {
+      "start": 549.12,
+      "duration": 4.32,
+      "text": "check in on that. So we see that the"
+    },
+    {
+      "start": 551.12,
+      "duration": 4.32,
+      "text": "first task went to true. We can also see"
+    },
+    {
+      "start": 553.44,
+      "duration": 3.92,
+      "text": "the activity.mmd file has gotten"
+    },
+    {
+      "start": 555.44,
+      "duration": 3.68,
+      "text": "updated. If we go back to cloud code, we"
+    },
+    {
+      "start": 557.36,
+      "duration": 3.36,
+      "text": "can see that it's verifying in chrome."
+    },
+    {
+      "start": 559.12,
+      "duration": 3.36,
+      "text": "We can see cloud in chrome. It's"
+    },
+    {
+      "start": 560.72,
+      "duration": 4.16,
+      "text": "navigating to the local version. It has"
+    },
+    {
+      "start": 562.48,
+      "duration": 4.24,
+      "text": "feedback services sections looks great."
+    },
+    {
+      "start": 564.88,
+      "duration": 4.72,
+      "text": "We can see it changing the task from"
+    },
+    {
+      "start": 566.72,
+      "duration": 4.64,
+      "text": "false to true. And it will just continue"
+    },
+    {
+      "start": 569.6,
+      "duration": 3.28,
+      "text": "running. Okay, so it finished running."
+    },
+    {
+      "start": 571.36,
+      "duration": 3.44,
+      "text": "You see that it says complete here. It"
+    },
+    {
+      "start": 572.88,
+      "duration": 3.519,
+      "text": "says it ran for 17 minutes. It actually"
+    },
+    {
+      "start": 574.8,
+      "duration": 2.88,
+      "text": "ran for a bit longer than that. I had to"
+    },
+    {
+      "start": 576.399,
+      "duration": 4.321,
+      "text": "stop it. But here's what I want to show"
+    },
+    {
+      "start": 577.68,
+      "duration": 4.719,
+      "text": "you. It ran it all in a single chat in a"
+    },
+    {
+      "start": 580.72,
+      "duration": 4.4,
+      "text": "single context window. The reason I had"
+    },
+    {
+      "start": 582.399,
+      "duration": 5.041,
+      "text": "to stop it is because it got stuck at 0%"
+    },
+    {
+      "start": 585.12,
+      "duration": 4.08,
+      "text": "context. I had to manually compact it"
+    },
+    {
+      "start": 587.44,
+      "duration": 3.6,
+      "text": "and it can do autoco compact. But that's"
+    },
+    {
+      "start": 589.2,
+      "duration": 3.52,
+      "text": "not the point of Ralph Wiggum. Ralph is"
+    },
+    {
+      "start": 591.04,
+      "duration": 3.6,
+      "text": "supposed to be an autonomous agent that"
+    },
+    {
+      "start": 592.72,
+      "duration": 3.92,
+      "text": "runs non-stop where you don't have to"
+    },
+    {
+      "start": 594.64,
+      "duration": 4.16,
+      "text": "intervene. But also more importantly, in"
+    },
+    {
+      "start": 596.64,
+      "duration": 4.56,
+      "text": "the original implementation, every task,"
+    },
+    {
+      "start": 598.8,
+      "duration": 4.96,
+      "text": "every iteration is a fresh loop, a fresh"
+    },
+    {
+      "start": 601.2,
+      "duration": 4.88,
+      "text": "context window. But here in Cloud Code's"
+    },
+    {
+      "start": 603.76,
+      "duration": 4.24,
+      "text": "implementation, it all happens in the"
+    },
+    {
+      "start": 606.08,
+      "duration": 3.759,
+      "text": "same context window because the loop is"
+    },
+    {
+      "start": 608,
+      "duration": 3.44,
+      "text": "triggered on a stop hook. But one of the"
+    },
+    {
+      "start": 609.839,
+      "duration": 3.521,
+      "text": "biggest problems with cloud code with"
+    },
+    {
+      "start": 611.44,
+      "duration": 3.2,
+      "text": "longunning agents is the context window"
+    },
+    {
+      "start": 613.36,
+      "duration": 2.88,
+      "text": "gets bloated. So it doesn't really help"
+    },
+    {
+      "start": 614.64,
+      "duration": 3.28,
+      "text": "that all the tasks are done sequentially"
+    },
+    {
+      "start": 616.24,
+      "duration": 3.279,
+      "text": "within the same context window. Even if"
+    },
+    {
+      "start": 617.92,
+      "duration": 3.359,
+      "text": "it does autoco compact, you're just"
+    },
+    {
+      "start": 619.519,
+      "duration": 3.841,
+      "text": "adding more and more bloat and more and"
+    },
+    {
+      "start": 621.279,
+      "duration": 4.401,
+      "text": "more room for hallucination. So does it"
+    },
+    {
+      "start": 623.36,
+      "duration": 4.8,
+      "text": "run? Yes. But does it actually do the"
+    },
+    {
+      "start": 625.68,
+      "duration": 4.399,
+      "text": "loop? Not really. So now let's move to"
+    },
+    {
+      "start": 628.16,
+      "duration": 4,
+      "text": "the bash loop. This implementation works"
+    },
+    {
+      "start": 630.079,
+      "duration": 4.161,
+      "text": "great for cloud code, codec cli, or any"
+    },
+    {
+      "start": 632.16,
+      "duration": 3.52,
+      "text": "CLI tool. The whole setup process is"
+    },
+    {
+      "start": 634.24,
+      "duration": 3.279,
+      "text": "pretty much the same. I still recommend"
+    },
+    {
+      "start": 635.68,
+      "duration": 3.76,
+      "text": "setting up the sandbox the same way. I"
+    },
+    {
+      "start": 637.519,
+      "duration": 3.76,
+      "text": "still recommend doing a PRD and planning"
+    },
+    {
+      "start": 639.44,
+      "duration": 4.079,
+      "text": "it out and breaking it into a plan and"
+    },
+    {
+      "start": 641.279,
+      "duration": 4,
+      "text": "an activity.mmd file. I still recommend"
+    },
+    {
+      "start": 643.519,
+      "duration": 3.121,
+      "text": "setting max iterations and I still"
+    },
+    {
+      "start": 645.279,
+      "duration": 3.68,
+      "text": "recommend giving it the ability to"
+    },
+    {
+      "start": 646.64,
+      "duration": 3.84,
+      "text": "verify it work. Now, because this method"
+    },
+    {
+      "start": 648.959,
+      "duration": 3.041,
+      "text": "runs headless, we're not going to be"
+    },
+    {
+      "start": 650.48,
+      "duration": 3.52,
+      "text": "able to use claude for code. We're going"
+    },
+    {
+      "start": 652,
+      "duration": 4.079,
+      "text": "to set up the playright MCP. So, I added"
+    },
+    {
+      "start": 654,
+      "duration": 3.839,
+      "text": "the playright MCP into here. Also,"
+    },
+    {
+      "start": 656.079,
+      "duration": 3.921,
+      "text": "instead of pasting the whole prompt in,"
+    },
+    {
+      "start": 657.839,
+      "duration": 4.081,
+      "text": "I made a prompt MD. It's essentially the"
+    },
+    {
+      "start": 660,
+      "duration": 4,
+      "text": "same exact prompt. I just modified it to"
+    },
+    {
+      "start": 661.92,
+      "duration": 3.44,
+      "text": "work with playright. The activity MD"
+    },
+    {
+      "start": 664,
+      "duration": 3.44,
+      "text": "stays the same. It's just empty right"
+    },
+    {
+      "start": 665.36,
+      "duration": 3.84,
+      "text": "now. The plan MD stays the same."
+    },
+    {
+      "start": 667.44,
+      "duration": 4,
+      "text": "Everything is set as false. And then we"
+    },
+    {
+      "start": 669.2,
+      "duration": 3.84,
+      "text": "create a Ralph script for the bash loop."
+    },
+    {
+      "start": 671.44,
+      "duration": 4.079,
+      "text": "Very basic. Of course, you have to make"
+    },
+    {
+      "start": 673.04,
+      "duration": 4.4,
+      "text": "it executable by doing chmod. We give it"
+    },
+    {
+      "start": 675.519,
+      "duration": 4,
+      "text": "the promise. And the way we pass in the"
+    },
+    {
+      "start": 677.44,
+      "duration": 3.6,
+      "text": "max iterations is via the command to"
+    },
+    {
+      "start": 679.519,
+      "duration": 3.121,
+      "text": "start the script. And lastly, because"
+    },
+    {
+      "start": 681.04,
+      "duration": 2.96,
+      "text": "this is in headless mode, we're not"
+    },
+    {
+      "start": 682.64,
+      "duration": 2.8,
+      "text": "going to be able to see what's actually"
+    },
+    {
+      "start": 684,
+      "duration": 3.04,
+      "text": "happening like we were able to see in"
+    },
+    {
+      "start": 685.44,
+      "duration": 3.6,
+      "text": "cloud code. It will give us an update"
+    },
+    {
+      "start": 687.04,
+      "duration": 3.919,
+      "text": "after every iteration, but we will be"
+    },
+    {
+      "start": 689.04,
+      "duration": 4.56,
+      "text": "able to actually watch things change in"
+    },
+    {
+      "start": 690.959,
+      "duration": 4,
+      "text": "the activity.mmd in the plan.mmd. We'll"
+    },
+    {
+      "start": 693.6,
+      "duration": 2.88,
+      "text": "also be able to watch it making git"
+    },
+    {
+      "start": 694.959,
+      "duration": 3.361,
+      "text": "commits. So, we're able to see what"
+    },
+    {
+      "start": 696.48,
+      "duration": 4,
+      "text": "happens. And what you'll see happening"
+    },
+    {
+      "start": 698.32,
+      "duration": 4,
+      "text": "here is a full iteration loop. It's"
+    },
+    {
+      "start": 700.48,
+      "duration": 3.919,
+      "text": "stopping iteration and then it calls"
+    },
+    {
+      "start": 702.32,
+      "duration": 4,
+      "text": "cloud again from a fresh context window."
+    },
+    {
+      "start": 704.399,
+      "duration": 4.161,
+      "text": "And this is why I really recommend using"
+    },
+    {
+      "start": 706.32,
+      "duration": 3.84,
+      "text": "this method over the claude skill"
+    },
+    {
+      "start": 708.56,
+      "duration": 3.68,
+      "text": "plugin. So, let's go. I'm just going to"
+    },
+    {
+      "start": 710.16,
+      "duration": 3.76,
+      "text": "do Ralph.sh3."
+    },
+    {
+      "start": 712.24,
+      "duration": 3.2,
+      "text": "This is the number of max iterations. I"
+    },
+    {
+      "start": 713.92,
+      "duration": 3.039,
+      "text": "just want to show you how it works. So,"
+    },
+    {
+      "start": 715.44,
+      "duration": 2.8,
+      "text": "we see starting iteration one. We can"
+    },
+    {
+      "start": 716.959,
+      "duration": 3.12,
+      "text": "see that more things are being added to"
+    },
+    {
+      "start": 718.24,
+      "duration": 3.68,
+      "text": "the file system. We can see the pass is"
+    },
+    {
+      "start": 720.079,
+      "duration": 3.521,
+      "text": "already moved to true. We can see a"
+    },
+    {
+      "start": 721.92,
+      "duration": 3.919,
+      "text": "summary of its first loop. And then I"
+    },
+    {
+      "start": 723.6,
+      "duration": 3.6,
+      "text": "added the screenshot folder to see if"
+    },
+    {
+      "start": 725.839,
+      "duration": 2.881,
+      "text": "playright's actually being called. So,"
+    },
+    {
+      "start": 727.2,
+      "duration": 3.36,
+      "text": "if we click through to it, we'll see"
+    },
+    {
+      "start": 728.72,
+      "duration": 3.679,
+      "text": "that it did the first step. It made a"
+    },
+    {
+      "start": 730.56,
+      "duration": 3.279,
+      "text": "basic web page and then it screenshotted"
+    },
+    {
+      "start": 732.399,
+      "duration": 2.961,
+      "text": "it and saved it to the screenshots"
+    },
+    {
+      "start": 733.839,
+      "duration": 3.041,
+      "text": "folder. And now we know that there's"
+    },
+    {
+      "start": 735.36,
+      "duration": 3.2,
+      "text": "this whole feedback loop running. And"
+    },
+    {
+      "start": 736.88,
+      "duration": 3.28,
+      "text": "lastly, I know that I said that Ralph"
+    },
+    {
+      "start": 738.56,
+      "duration": 3.12,
+      "text": "should be used for longunning tasks, but"
+    },
+    {
+      "start": 740.16,
+      "duration": 3.28,
+      "text": "I just want to show you how to set it up"
+    },
+    {
+      "start": 741.68,
+      "duration": 3.599,
+      "text": "and how it should run and the difference"
+    },
+    {
+      "start": 743.44,
+      "duration": 3.44,
+      "text": "between the cloud code version and the"
+    },
+    {
+      "start": 745.279,
+      "duration": 3.201,
+      "text": "original bash loop. So, wrapping things"
+    },
+    {
+      "start": 746.88,
+      "duration": 3.519,
+      "text": "up, you could run Ralph whatever way you"
+    },
+    {
+      "start": 748.48,
+      "duration": 3.919,
+      "text": "want, via the cloud plug-in or via the"
+    },
+    {
+      "start": 750.399,
+      "duration": 3.921,
+      "text": "bash loop. The most important thing is"
+    },
+    {
+      "start": 752.399,
+      "duration": 4.321,
+      "text": "giving it all the criteria for it to"
+    },
+    {
+      "start": 754.32,
+      "duration": 4.24,
+      "text": "succeed. A safety mechanism, a plan, the"
+    },
+    {
+      "start": 756.72,
+      "duration": 3.6,
+      "text": "ability to validate its work, and a"
+    },
+    {
+      "start": 758.56,
+      "duration": 3.44,
+      "text": "limit on iterations, and a way to know"
+    },
+    {
+      "start": 760.32,
+      "duration": 3.44,
+      "text": "that it's done. And this is true for any"
+    },
+    {
+      "start": 762,
+      "duration": 3.76,
+      "text": "longrunning agent. So, I hope you found"
+    },
+    {
+      "start": 763.76,
+      "duration": 3.68,
+      "text": "this video helpful or insightful. If you"
+    },
+    {
+      "start": 765.76,
+      "duration": 2.879,
+      "text": "have any questions or feedback, drop in"
+    },
+    {
+      "start": 767.44,
+      "duration": 2.72,
+      "text": "the comments below. If you haven't done"
+    },
+    {
+      "start": 768.639,
+      "duration": 4.32,
+      "text": "so already, subscribe to the channel. It"
+    },
+    {
+      "start": 770.16,
+      "duration": 2.799,
+      "text": "really helps me grow."
+    }
+  ],
+  "fullText": "We ran Ralph safe with a sandbox enabled. We ran Ralph efficiently with a plan MD and an activity.mmd. We ran Ralph cost-effectively because we gave it a max number of iterations and we let Ralph validate its own work because we gave it access to Claude for Chrome so it could get visual input and get console logs and understand if it achieves its task or not. These are the steps you should take for Ralph or other longrunning agents. There's a lot of hype about Ralph Wiggum in the AI coding community and I think a lot of people are getting it wrong. Here's the thing. You need to know when to actually use Ralph Fugum. You need to know how to use it safely, efficiently, and cost- effectively. And lastly, you need to know how to actually run Ralph because there's two main ways I see people talking about online. The original way by Jeffrey Huntley, which is essentially just a bash loop, and then you have the official Ralph Wigum plugin from Claude Code, and it works very differently than the original bash loop. It works on a stop hook, which is fundamentally different than the original Ralph Wiggum setup. The good news is the way I prepare before running Ralph Wiggum is the same if I use the cloud setup or the original bash loop. It's equally as important for both methods and it's very easy to tweak. So in this video I'm going to go over my best practices how I believe we should be running Ralph Wiggum cuz I think a lot of people are hyping this up and giving poor advice on how to use this. So what is Ralph Wiggum? It's a way to run Claude code or whatever agent in a continuous autonomous loop. It solves the problem that most agents have of finishing too early. But this isn't a magic pill. Essentially what it does is it tells Claude or whatever agent you're using, do this task. Oh, you're done. Do this task. Oh, you're done. Do this task. And it just keeps running. And Ralph Wiggum is best for long running tasks, things you want going for a long period of time. And more than that, when you already know what you want to build. So instead of cloud code or cursor or codeex thinking it's done too early and stopping, this is a way to force the agent to keep working, keep checking until it knows it's done. And by the way, Ralph Wiggum doesn't only have to work for cloud code. You can set it up to work with any CLI agent like Codeex, like Gemini, like Open Code. I'm just showing you in Cloud Code, but you can apply this with minimal tweaks to any CLI agent. So, my first experience was, wow, this gets really expensive, and it does if you don't use it correctly. But then when Boris Churnney made his post about how he uses cloud code, by the way, I did a full video on Boris's post. I'll link to it above. I got pretty interested when he mentioned Ralph Wiggum. And then I started thinking, well, Anthropic officially released a Ralph Wiggum plugin, and it's actually a perfect catalyst to implement what they talked about in their effective harnesses for long-running agents. And I also did a full video on this blog post by Anthropic about Spectrum Development, but they never really implemented something. They gave us a framework here, but it stopped there. So, I came back to that blog post after Boris Journey's Twitter post, and all the dots started connecting for me. Use Ralph Wigum to try and implement Anthropic's approach to longrunning agents. If Burst Journey from Anthropic is using it for long running tasks, I can do it, too. So, that's what I set out to do. And spoiler alert, the plug-in from Anthropic doesn't come nearly as close to achieving this as the original Bash Loop. I'm going to show you both of them and show you why. But first, let's just get into setting it up. So, first things first, safety. Boris Turney gives us the answer right here. For very longunning tasks, I will use the Ralph Wigan plugin in a sandbox to avoid permission prompts for the session so Claude could cook without being blocked. At this point, we've all tried yellow mode or dangerously skip permissions. But what happens there is if you're not careful, the agent eventually gets a little bit too trigger-happy, and it can make changes that are really hard to revert. And the whole point of raw is to run in a continuous loop. So, it can be going for minutes, for hours, completely overnight. And the problem is you have to give it a lot of permissions, but you don't want to give it all the permissions, and you also don't want to have to babysit it and keep clicking yes, because what's the point of autonomous agent then? So, the obvious solution is sandboxing cloud code. A few months ago, Enthropic made this paper on how to sandbox cloud code. It's really easy. All you have to do is run slash sandbox, but running / sandbox can put everything in a sandbox, and you don't always want that. It can get a bit problematic for deploying locally, for pulling down dependencies, and a bunch of other things. So, I recommend going to the docs and figuring out what permissions you want to give it access to. So, let me just open up this project real quickly. If we go into my settings.json, we can see how I set up my sandbox. So, then when we open up cloud, you will see here your bash commands will be sandbox. My sandbox is already turned on here. If you don't have it turned on, you can do / sandbox and turn it on. So, right here, you see that I'm using a sandbox bash tool with autoallow. If I go over to the config, you can see how I set it up. Everybody will set up their sandbox differently. But that's my first step. Start using a sandbox even before you start using Ralph Wum cuz when you're running autonomous agents, you want them to be isolated. You can give them some permissions, but you want that layer of protection. Number two comes back to planning. You don't want to leave Ralph to make these ambiguous decisions and come back and figure out what he did later. So my first step before anything before you even touch Ralph is write a plan. Write a PRD. And it's so important with Ralph because you're going to let it run for hours on end. In all my other videos about spectrum of development, we always start with planning it out and getting as much down on paper as possible so our agents could build out a task list and start working on it. So don't waste your time and don't waste your money on running for an unfleshed out, unplanned idea. have as much as you can figure it out. In my case here, I already made my PRD. And by the way, you could already see my PRD creator skill here on this project. That's what created this whole PRD. It works really great with any spectrum of development and especially with Ralph. I'll link to that video above. And I already took my PRD and I broke it into a plan, but I didn't use specit or openspec or bb. I told claude code to build this pland based on what anthropic talked about in effective harnesses for longrunning agents. If we go down, this is how they suggest writing the task list, which is JSON. It has a category. It has a description. It has the steps and it starts as failing. Passes false. So I told Claude code to look at my P and then create a plan.mmd file with this format. I also passed it the entire article so it had more context. In that article they talk about a claude progress txt file but I decided to call it the activity.md file because sometimes it doesn't make progress but I want to log all the activity. So now we have a prd we have a plan and activity file. Okay. So all the pieces are coming together. Let's start talking about running Ralph. We'll start with Enthropic and then we'll move to the official batch loop. So if we go to Enthropic's Ralphum skill to talk about how it works, but this is the most important thing if you don't want to completely obliterate your usage limits, max iterations because it will just keep running and the default is unlimited. And trust me, make sure you set max iterations. And I think the best way to do this is setting it from 10 to 20 at least at first. Next, set a completion promise. Meaning in your prompt, and we're going to get to that in a second, tell it what the completion promise is. so that it knows how to stop. So that's how to be costefficient. Worst case scenario, it doesn't finish after 20 durations and you can start it up again. And last thing you should know is about good prompt practices. Obviously, don't do a very broad, very basic prompt. Give it requirements. Give it success criteria. And going back one last time to Boris Trun's post, his final tip is give it a feedback loop. So what I've been doing is giving Claude code the ability to use Claude for Chrome. Essentially gives Claude the ability to launch Chrome and test out what it's doing. Take a look, take a screenshot, look at console logs. It closes the whole feedback loop. Okay, so enough talking. Let's actually look at it in action. So here we are back in this project. All it has is the PRD, the plan, and the activity.md because we're channeling Boris Jurnney. We're going to open up iterm 2. This is the terminal I believe he's using, and we're just going to open it next to VS Code. Okay, so we're going to open up Claude. If you don't have Ralph set up already, you want to do /plugin, and you'll see this discover page. And you can just go down to you find Ralph. Or you just go to the top, search Ralph. It's not showing up for me because I already have it installed. But you click enter, you install it, and then you have it running in cloud code. Then if we do /chrome, we can see that we have cloud for Chrome already set up. That's the whole feedback loop that Claude passed to check that it did a good job. And lastly, to trigger Ralph, you do / Ralph and you want to select this one, Ralph loop. So you just press tab, and it tells you everything else you need to have in here. your prompt, your max iterations, and your completion promise text. So, here's my prompt. I'm just going to tell you the important parts. First, read the activity.md file to see what was recently accomplished. Start the site locally and keep it local host only. Verify the current behavior including Chrome by opening the local URL and checking the page loads with no obvious layout issues. Then, open plan.md and choose the single highest priority task whose status is failing. Work on exactly one task. Check the browser console for errors and confirm the change matches the acceptance criteria in plan.mmd. Append a dated progress entry to activity.mmd describing what you changed, which commands you ran and what you verified in Chrome. When the task is confirmed, update the status in plan.mmd from failing to passing. Make one get commit for that task with a clear single line message. Repeat until all tasks are passing. When all tasks are marked passing, output exactly complete. And here's the most important part, the cost efficiency. max iterations 20 completion promise complete. Okay, so we're going to take all this and paste it in after this Ralph loop slash command. So we're going to press enter and just like that. I'll start by reading the activity.md. I'll read the plan. Let me check if the files already exist. And as you can see, it's starting to work. It's doing it all. It just opened up cloud in Chrome. I'm not even touching it. And it's just getting to work. So we see here task one complete. Let me update activity MD, planned MD, and commit. So let's just check in on that. So we see that the first task went to true. We can also see the activity.mmd file has gotten updated. If we go back to cloud code, we can see that it's verifying in chrome. We can see cloud in chrome. It's navigating to the local version. It has feedback services sections looks great. We can see it changing the task from false to true. And it will just continue running. Okay, so it finished running. You see that it says complete here. It says it ran for 17 minutes. It actually ran for a bit longer than that. I had to stop it. But here's what I want to show you. It ran it all in a single chat in a single context window. The reason I had to stop it is because it got stuck at 0% context. I had to manually compact it and it can do autoco compact. But that's not the point of Ralph Wiggum. Ralph is supposed to be an autonomous agent that runs non-stop where you don't have to intervene. But also more importantly, in the original implementation, every task, every iteration is a fresh loop, a fresh context window. But here in Cloud Code's implementation, it all happens in the same context window because the loop is triggered on a stop hook. But one of the biggest problems with cloud code with longunning agents is the context window gets bloated. So it doesn't really help that all the tasks are done sequentially within the same context window. Even if it does autoco compact, you're just adding more and more bloat and more and more room for hallucination. So does it run? Yes. But does it actually do the loop? Not really. So now let's move to the bash loop. This implementation works great for cloud code, codec cli, or any CLI tool. The whole setup process is pretty much the same. I still recommend setting up the sandbox the same way. I still recommend doing a PRD and planning it out and breaking it into a plan and an activity.mmd file. I still recommend setting max iterations and I still recommend giving it the ability to verify it work. Now, because this method runs headless, we're not going to be able to use claude for code. We're going to set up the playright MCP. So, I added the playright MCP into here. Also, instead of pasting the whole prompt in, I made a prompt MD. It's essentially the same exact prompt. I just modified it to work with playright. The activity MD stays the same. It's just empty right now. The plan MD stays the same. Everything is set as false. And then we create a Ralph script for the bash loop. Very basic. Of course, you have to make it executable by doing chmod. We give it the promise. And the way we pass in the max iterations is via the command to start the script. And lastly, because this is in headless mode, we're not going to be able to see what's actually happening like we were able to see in cloud code. It will give us an update after every iteration, but we will be able to actually watch things change in the activity.mmd in the plan.mmd. We'll also be able to watch it making git commits. So, we're able to see what happens. And what you'll see happening here is a full iteration loop. It's stopping iteration and then it calls cloud again from a fresh context window. And this is why I really recommend using this method over the claude skill plugin. So, let's go. I'm just going to do Ralph.sh3. This is the number of max iterations. I just want to show you how it works. So, we see starting iteration one. We can see that more things are being added to the file system. We can see the pass is already moved to true. We can see a summary of its first loop. And then I added the screenshot folder to see if playright's actually being called. So, if we click through to it, we'll see that it did the first step. It made a basic web page and then it screenshotted it and saved it to the screenshots folder. And now we know that there's this whole feedback loop running. And lastly, I know that I said that Ralph should be used for longunning tasks, but I just want to show you how to set it up and how it should run and the difference between the cloud code version and the original bash loop. So, wrapping things up, you could run Ralph whatever way you want, via the cloud plug-in or via the bash loop. The most important thing is giving it all the criteria for it to succeed. A safety mechanism, a plan, the ability to validate its work, and a limit on iterations, and a way to know that it's done. And this is true for any longrunning agent. So, I hope you found this video helpful or insightful. If you have any questions or feedback, drop in the comments below. If you haven't done so already, subscribe to the channel. It really helps me grow.",
+  "fetchedAt": "2026-01-18T18:33:40.616Z"
+}

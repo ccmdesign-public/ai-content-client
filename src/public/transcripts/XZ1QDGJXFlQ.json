@@ -1,0 +1,1029 @@
+{
+  "videoId": "XZ1QDGJXFlQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 4.24,
+      "text": "What if I told you that the secret to"
+    },
+    {
+      "start": 2.399,
+      "duration": 5.201,
+      "text": "significantly boosting the performance"
+    },
+    {
+      "start": 4.48,
+      "duration": 6.32,
+      "text": "of your AI models is simply pressing"
+    },
+    {
+      "start": 7.6,
+      "duration": 5.76,
+      "text": "Ctrl +V? No prompt engineering tricks,"
+    },
+    {
+      "start": 10.8,
+      "duration": 5.039,
+      "text": "no specialized libraries, no expensive"
+    },
+    {
+      "start": 13.36,
+      "duration": 5.28,
+      "text": "training, just a simple copy paste of"
+    },
+    {
+      "start": 15.839,
+      "duration": 4.721,
+      "text": "your own request. It sounds like a joke,"
+    },
+    {
+      "start": 18.64,
+      "duration": 4.799,
+      "text": "but it's actually the solution to a"
+    },
+    {
+      "start": 20.56,
+      "duration": 5.92,
+      "text": "fundamental architectural flaw in almost"
+    },
+    {
+      "start": 23.439,
+      "duration": 6.481,
+      "text": "every LLM on the planet. You see, models"
+    },
+    {
+      "start": 26.48,
+      "duration": 6.079,
+      "text": "like GPT40 and Gemini 2 have a vision"
+    },
+    {
+      "start": 29.92,
+      "duration": 4.56,
+      "text": "problem called causal masking. They are"
+    },
+    {
+      "start": 32.559,
+      "duration": 3.761,
+      "text": "physically incapable of seeing the end"
+    },
+    {
+      "start": 34.48,
+      "duration": 4,
+      "text": "of your prompt while they are processing"
+    },
+    {
+      "start": 36.32,
+      "duration": 4.16,
+      "text": "the beginning. It's a one-way street"
+    },
+    {
+      "start": 38.48,
+      "duration": 3.599,
+      "text": "that forces them to read in total"
+    },
+    {
+      "start": 40.48,
+      "duration": 3.36,
+      "text": "ignorance of what's coming next, which"
+    },
+    {
+      "start": 42.079,
+      "duration": 3.521,
+      "text": "is why your most important instructions"
+    },
+    {
+      "start": 43.84,
+      "duration": 3.76,
+      "text": "often get lost if they're buried at the"
+    },
+    {
+      "start": 45.6,
+      "duration": 4,
+      "text": "end. But a breakthrough from Google"
+    },
+    {
+      "start": 47.6,
+      "duration": 4.24,
+      "text": "research has found a way to bridge that"
+    },
+    {
+      "start": 49.6,
+      "duration": 4.799,
+      "text": "gap without adding a single millisecond"
+    },
+    {
+      "start": 51.84,
+      "duration": 5.68,
+      "text": "of latency. Welcome to prompt repetition"
+    },
+    {
+      "start": 54.399,
+      "duration": 5.041,
+      "text": "or RE2. In this video, we're diving into"
+    },
+    {
+      "start": 57.52,
+      "duration": 3.92,
+      "text": "the paper that proves why saying it"
+    },
+    {
+      "start": 59.44,
+      "duration": 4.08,
+      "text": "twice is actually a masterclass in"
+    },
+    {
+      "start": 61.44,
+      "duration": 4.4,
+      "text": "attention engineering. To understand why"
+    },
+    {
+      "start": 63.52,
+      "duration": 5.04,
+      "text": "this works, we have to look under the"
+    },
+    {
+      "start": 65.84,
+      "duration": 4.319,
+      "text": "hood of the transformer architecture. We"
+    },
+    {
+      "start": 68.56,
+      "duration": 4.08,
+      "text": "need to talk about the attention"
+    },
+    {
+      "start": 70.159,
+      "duration": 5.761,
+      "text": "mechanism. When an LLM processes your"
+    },
+    {
+      "start": 72.64,
+      "duration": 6,
+      "text": "text, it calculates attention scores."
+    },
+    {
+      "start": 75.92,
+      "duration": 6.8,
+      "text": "Basically, every word looks at every"
+    },
+    {
+      "start": 78.64,
+      "duration": 6.08,
+      "text": "other word to figure out context. bank"
+    },
+    {
+      "start": 82.72,
+      "duration": 4,
+      "text": "looks at river to know it's not a"
+    },
+    {
+      "start": 84.72,
+      "duration": 5.28,
+      "text": "financial bank but there is a strict"
+    },
+    {
+      "start": 86.72,
+      "duration": 6,
+      "text": "rule for standard LLMs the causal mask"
+    },
+    {
+      "start": 90,
+      "duration": 5.52,
+      "text": "imagine a giant grid a matrix in a"
+    },
+    {
+      "start": 92.72,
+      "duration": 5.439,
+      "text": "perfect world every word runs along the"
+    },
+    {
+      "start": 95.52,
+      "duration": 5.76,
+      "text": "top and the side and they can all see"
+    },
+    {
+      "start": 98.159,
+      "duration": 5.761,
+      "text": "each other but in GPT or Gemini this"
+    },
+    {
+      "start": 101.28,
+      "duration": 5.92,
+      "text": "matrix is triangular token number one"
+    },
+    {
+      "start": 103.92,
+      "duration": 6.239,
+      "text": "can only see itself token number two can"
+    },
+    {
+      "start": 107.2,
+      "duration": 6.4,
+      "text": "see 1 and two token number 50 can see"
+    },
+    {
+      "start": 110.159,
+      "duration": 6.161,
+      "text": "tokens 1 through 50 but token number one"
+    },
+    {
+      "start": 113.6,
+      "duration": 4.4,
+      "text": "can never see token number 50. It is"
+    },
+    {
+      "start": 116.32,
+      "duration": 4.799,
+      "text": "physically impossible in the"
+    },
+    {
+      "start": 118,
+      "duration": 5.439,
+      "text": "architecture. This creates a triangular"
+    },
+    {
+      "start": 121.119,
+      "duration": 4.241,
+      "text": "prison. If your prompt has the most"
+    },
+    {
+      "start": 123.439,
+      "duration": 4.88,
+      "text": "important instruction at the very end"
+    },
+    {
+      "start": 125.36,
+      "duration": 4.48,
+      "text": "say answer this question in JSON format."
+    },
+    {
+      "start": 128.319,
+      "duration": 4.081,
+      "text": "The tokens at the beginning of the"
+    },
+    {
+      "start": 129.84,
+      "duration": 4.399,
+      "text": "prompt never saw that instruction when"
+    },
+    {
+      "start": 132.4,
+      "duration": 4,
+      "text": "they were being processed. Their"
+    },
+    {
+      "start": 134.239,
+      "duration": 4.401,
+      "text": "internal representation was formed in"
+    },
+    {
+      "start": 136.4,
+      "duration": 5.76,
+      "text": "ignorance of the final goal. The paper"
+    },
+    {
+      "start": 138.64,
+      "duration": 6.16,
+      "text": "calls this the options first problem."
+    },
+    {
+      "start": 142.16,
+      "duration": 5.76,
+      "text": "Imagine I give you 50 pages of legal"
+    },
+    {
+      "start": 144.8,
+      "duration": 5.28,
+      "text": "documents and then ask does this violate"
+    },
+    {
+      "start": 147.92,
+      "duration": 4.959,
+      "text": "the tenant agreement? As the mother"
+    },
+    {
+      "start": 150.08,
+      "duration": 5.519,
+      "text": "reads page one, is it looking for tenant"
+    },
+    {
+      "start": 152.879,
+      "duration": 4.801,
+      "text": "agreement violations? No, it doesn't"
+    },
+    {
+      "start": 155.599,
+      "duration": 4.64,
+      "text": "know the question yet. It's just"
+    },
+    {
+      "start": 157.68,
+      "duration": 4.639,
+      "text": "compressing the text generally. By the"
+    },
+    {
+      "start": 160.239,
+      "duration": 5.28,
+      "text": "time it sees the question, the nuance of"
+    },
+    {
+      "start": 162.319,
+      "duration": 5.601,
+      "text": "page one is lost in the compression. So"
+    },
+    {
+      "start": 165.519,
+      "duration": 4.161,
+      "text": "the researchers Yanif Leviathan and his"
+    },
+    {
+      "start": 167.92,
+      "duration": 5.44,
+      "text": "team at Google proposed prompt"
+    },
+    {
+      "start": 169.68,
+      "duration": 6.08,
+      "text": "repetition or RE2. Input equals query"
+    },
+    {
+      "start": 173.36,
+      "duration": 5.36,
+      "text": "plus query. Let's trace the attention"
+    },
+    {
+      "start": 175.76,
+      "duration": 6,
+      "text": "matrix. Now we paste the text twice."
+    },
+    {
+      "start": 178.72,
+      "duration": 5.2,
+      "text": "Let's call them copy A and copy B. Copy"
+    },
+    {
+      "start": 181.76,
+      "duration": 4.08,
+      "text": "A is processed normally. It suffers from"
+    },
+    {
+      "start": 183.92,
+      "duration": 3.679,
+      "text": "the triangular prison. The beginning"
+    },
+    {
+      "start": 185.84,
+      "duration": 4.64,
+      "text": "doesn't know the end. The"
+    },
+    {
+      "start": 187.599,
+      "duration": 5.841,
+      "text": "representations are weak. However, look"
+    },
+    {
+      "start": 190.48,
+      "duration": 6.32,
+      "text": "at copy B. Because copy B comes after"
+    },
+    {
+      "start": 193.44,
+      "duration": 6.32,
+      "text": "copy A, every single token in copy B can"
+    },
+    {
+      "start": 196.8,
+      "duration": 5.84,
+      "text": "attend to every single token in copy A."
+    },
+    {
+      "start": 199.76,
+      "duration": 5.44,
+      "text": "The first word of copy B can see the"
+    },
+    {
+      "start": 202.64,
+      "duration": 4.959,
+      "text": "last word of copy A. It's a hack that"
+    },
+    {
+      "start": 205.2,
+      "duration": 5.84,
+      "text": "simulates birectional attention."
+    },
+    {
+      "start": 207.599,
+      "duration": 6.321,
+      "text": "Effectively, copy A becomes a readonly"
+    },
+    {
+      "start": 211.04,
+      "duration": 5.52,
+      "text": "memory or a virtual scratchpad. The"
+    },
+    {
+      "start": 213.92,
+      "duration": 5.679,
+      "text": "model reads the prompt once to load it"
+    },
+    {
+      "start": 216.56,
+      "duration": 5.679,
+      "text": "into its context window. Then it reads"
+    },
+    {
+      "start": 219.599,
+      "duration": 5.041,
+      "text": "it again, but this time it has full"
+    },
+    {
+      "start": 222.239,
+      "duration": 4.64,
+      "text": "visibility of the entire structure. When"
+    },
+    {
+      "start": 224.64,
+      "duration": 4.8,
+      "text": "it processes the legal documents in copy"
+    },
+    {
+      "start": 226.879,
+      "duration": 5.521,
+      "text": "B, it already knows the question from"
+    },
+    {
+      "start": 229.44,
+      "duration": 5.359,
+      "text": "the end of copy A. It can heavily attend"
+    },
+    {
+      "start": 232.4,
+      "duration": 4.88,
+      "text": "to the specific sentences about tenant"
+    },
+    {
+      "start": 234.799,
+      "duration": 4.961,
+      "text": "agreements. It is a mechanically simple"
+    },
+    {
+      "start": 237.28,
+      "duration": 4.48,
+      "text": "way to convert the council model into a"
+    },
+    {
+      "start": 239.76,
+      "duration": 4.399,
+      "text": "birectional processor for the duration"
+    },
+    {
+      "start": 241.76,
+      "duration": 4.72,
+      "text": "of the prompt. The results are not just"
+    },
+    {
+      "start": 244.159,
+      "duration": 4.8,
+      "text": "good, they are consistent across almost"
+    },
+    {
+      "start": 246.48,
+      "duration": 6.479,
+      "text": "every domain. They tested seven models"
+    },
+    {
+      "start": 248.959,
+      "duration": 7.201,
+      "text": "like Gemini 2, GPT40, Claude 3.7 and"
+    },
+    {
+      "start": 252.959,
+      "duration": 6.161,
+      "text": "Deepsecv Von7 benchmarks. Let's look at"
+    },
+    {
+      "start": 256.16,
+      "duration": 6.08,
+      "text": "the breakdown. First, the needle in a"
+    },
+    {
+      "start": 259.12,
+      "duration": 5.6,
+      "text": "haststack test known as name index. This"
+    },
+    {
+      "start": 262.24,
+      "duration": 4.8,
+      "text": "is the most dramatic proof. The model"
+    },
+    {
+      "start": 264.72,
+      "duration": 5.6,
+      "text": "has to find a specific name in a list"
+    },
+    {
+      "start": 267.04,
+      "duration": 6.159,
+      "text": "directly. Without repetition, Gemini 2"
+    },
+    {
+      "start": 270.32,
+      "duration": 5.28,
+      "text": "flashlights score 21.3%."
+    },
+    {
+      "start": 273.199,
+      "duration": 4.801,
+      "text": "It simply forgot the start of the list"
+    },
+    {
+      "start": 275.6,
+      "duration": 5.52,
+      "text": "by the time it reached the end with"
+    },
+    {
+      "start": 278,
+      "duration": 5.199,
+      "text": "repetition 97.3%."
+    },
+    {
+      "start": 281.12,
+      "duration": 4.96,
+      "text": "It fixed the memory and attention drift"
+    },
+    {
+      "start": 283.199,
+      "duration": 6.56,
+      "text": "completely. Second, general knowledge"
+    },
+    {
+      "start": 286.08,
+      "duration": 6.559,
+      "text": "with MMLU Pro. This is a hard benchmark."
+    },
+    {
+      "start": 289.759,
+      "duration": 5.601,
+      "text": "Multiplechoice complex reasonings"
+    },
+    {
+      "start": 292.639,
+      "duration": 6.081,
+      "text": "standard improvements in AI are usually"
+    },
+    {
+      "start": 295.36,
+      "duration": 5.6,
+      "text": "one or 2%. Prompt repetition yielded"
+    },
+    {
+      "start": 298.72,
+      "duration": 4.56,
+      "text": "consistent gains across the board,"
+    },
+    {
+      "start": 300.96,
+      "duration": 4.72,
+      "text": "especially in options first scenarios"
+    },
+    {
+      "start": 303.28,
+      "duration": 4.72,
+      "text": "where the question comes last. For Deep"
+    },
+    {
+      "start": 305.68,
+      "duration": 3.92,
+      "text": "Seek 53, they saw improvements that"
+    },
+    {
+      "start": 308,
+      "duration": 3.6,
+      "text": "effectively jumped the model a"
+    },
+    {
+      "start": 309.6,
+      "duration": 4.96,
+      "text": "generation ahead in performance on"
+    },
+    {
+      "start": 311.6,
+      "duration": 5.439,
+      "text": "specific retrieval tasks. Third, math"
+    },
+    {
+      "start": 314.56,
+      "duration": 4.32,
+      "text": "and reasoning. Even in math, where you"
+    },
+    {
+      "start": 317.039,
+      "duration": 5.121,
+      "text": "might think reading twice doesn't help"
+    },
+    {
+      "start": 318.88,
+      "duration": 5.84,
+      "text": "calculation, it did. Why? Because math"
+    },
+    {
+      "start": 322.16,
+      "duration": 4.72,
+      "text": "word problems often buried the actual"
+    },
+    {
+      "start": 324.72,
+      "duration": 4,
+      "text": "variable definitions in the text."
+    },
+    {
+      "start": 326.88,
+      "duration": 4.56,
+      "text": "Reading it twice ensures the model"
+    },
+    {
+      "start": 328.72,
+      "duration": 5.68,
+      "text": "doesn't hallucinate a number. Across 70"
+    },
+    {
+      "start": 331.44,
+      "duration": 7.039,
+      "text": "different experimental setups, RE2 won"
+    },
+    {
+      "start": 334.4,
+      "duration": 7.6,
+      "text": "47 times. It lost zero times. This is"
+    },
+    {
+      "start": 338.479,
+      "duration": 6.241,
+      "text": "rare in AI research. Usually, a method"
+    },
+    {
+      "start": 342,
+      "duration": 5.28,
+      "text": "works for some but hurts others. This"
+    },
+    {
+      "start": 344.72,
+      "duration": 5.84,
+      "text": "method appears to be purely additive."
+    },
+    {
+      "start": 347.28,
+      "duration": 5.919,
+      "text": "But RE2 is input-based repetition. And"
+    },
+    {
+      "start": 350.56,
+      "duration": 4.56,
+      "text": "this is where the economics come in. In"
+    },
+    {
+      "start": 353.199,
+      "duration": 5.201,
+      "text": "chain of thought techniques, you pay for"
+    },
+    {
+      "start": 355.12,
+      "duration": 6.88,
+      "text": "output tokens. It's slow. It generates"
+    },
+    {
+      "start": 358.4,
+      "duration": 6.88,
+      "text": "strictly sequentially. With RE2, you pay"
+    },
+    {
+      "start": 362,
+      "duration": 6,
+      "text": "for input tokens. It's fast. Input"
+    },
+    {
+      "start": 365.28,
+      "duration": 5.199,
+      "text": "tokens are processed in parallel. You"
+    },
+    {
+      "start": 368,
+      "duration": 4.639,
+      "text": "can feed 10,000 tokens of input in the"
+    },
+    {
+      "start": 370.479,
+      "duration": 5.041,
+      "text": "same time it takes to generate 50 tokens"
+    },
+    {
+      "start": 372.639,
+      "duration": 5.28,
+      "text": "of output. So, RE2 gives you the"
+    },
+    {
+      "start": 375.52,
+      "duration": 5.119,
+      "text": "attention benefits of thinking without"
+    },
+    {
+      "start": 377.919,
+      "duration": 4.641,
+      "text": "the latency tax of generating thoughts."
+    },
+    {
+      "start": 380.639,
+      "duration": 4.56,
+      "text": "For high-speed applications like chat"
+    },
+    {
+      "start": 382.56,
+      "duration": 5.199,
+      "text": "bots, customer service agents or"
+    },
+    {
+      "start": 385.199,
+      "duration": 4.881,
+      "text": "realtime translations, RA2 is a"
+    },
+    {
+      "start": 387.759,
+      "duration": 4.801,
+      "text": "gamecher. You can't afford to wait 5"
+    },
+    {
+      "start": 390.08,
+      "duration": 4.64,
+      "text": "seconds for the model to think, but you"
+    },
+    {
+      "start": 392.56,
+      "duration": 4.8,
+      "text": "can afford to paste the prompt twice,"
+    },
+    {
+      "start": 394.72,
+      "duration": 4.4,
+      "text": "which takes 10 milliseconds. Of course,"
+    },
+    {
+      "start": 397.36,
+      "duration": 4,
+      "text": "the scientists didn't stop at just"
+    },
+    {
+      "start": 399.12,
+      "duration": 5.199,
+      "text": "repeating it once. They asked the"
+    },
+    {
+      "start": 401.36,
+      "duration": 5.2,
+      "text": "obvious follow-up. If twice as good is"
+    },
+    {
+      "start": 404.319,
+      "duration": 5.521,
+      "text": "three times better. They tested prompt"
+    },
+    {
+      "start": 406.56,
+      "duration": 5.359,
+      "text": "repetition times three. And yes, it"
+    },
+    {
+      "start": 409.84,
+      "duration": 4.88,
+      "text": "actually worked better for some ultra"
+    },
+    {
+      "start": 411.919,
+      "duration": 4.881,
+      "text": "hard tasks. On that name index task we"
+    },
+    {
+      "start": 414.72,
+      "duration": 3.919,
+      "text": "mentioned, three times repetition drove"
+    },
+    {
+      "start": 416.8,
+      "duration": 4.799,
+      "text": "accuracy even higher for the stubborn"
+    },
+    {
+      "start": 418.639,
+      "duration": 4.881,
+      "text": "models. But for general tasks, one"
+    },
+    {
+      "start": 421.599,
+      "duration": 4,
+      "text": "repetition seems to be the sweet spot"
+    },
+    {
+      "start": 423.52,
+      "duration": 5.28,
+      "text": "where you get maximum gain for minimum"
+    },
+    {
+      "start": 425.599,
+      "duration": 5.761,
+      "text": "input cost. They also checked is it just"
+    },
+    {
+      "start": 428.8,
+      "duration": 5.36,
+      "text": "about making the prompt longer? Maybe"
+    },
+    {
+      "start": 431.36,
+      "duration": 4.959,
+      "text": "the model just likes long prompts. They"
+    },
+    {
+      "start": 434.16,
+      "duration": 4.24,
+      "text": "tried the padding method. They took the"
+    },
+    {
+      "start": 436.319,
+      "duration": 4.241,
+      "text": "original prompt and just added a bunch"
+    },
+    {
+      "start": 438.4,
+      "duration": 4.639,
+      "text": "of periods to the end to make it as long"
+    },
+    {
+      "start": 440.56,
+      "duration": 5.759,
+      "text": "as the repeated version. The result,"
+    },
+    {
+      "start": 443.039,
+      "duration": 5.761,
+      "text": "nothing. No improvement. So, it's not"
+    },
+    {
+      "start": 446.319,
+      "duration": 4.32,
+      "text": "about length. It's strictly about the"
+    },
+    {
+      "start": 448.8,
+      "duration": 3.6,
+      "text": "information being available for the"
+    },
+    {
+      "start": 450.639,
+      "duration": 4.4,
+      "text": "attention mechanism to attend to from"
+    },
+    {
+      "start": 452.4,
+      "duration": 5.6,
+      "text": "the future. So, what does this mean for"
+    },
+    {
+      "start": 455.039,
+      "duration": 5.44,
+      "text": "us? One, if you're building retrieval"
+    },
+    {
+      "start": 458,
+      "duration": 4.4,
+      "text": "augmented generation systems, you often"
+    },
+    {
+      "start": 460.479,
+      "duration": 4,
+      "text": "shove a bunch of context into a prompt"
+    },
+    {
+      "start": 462.4,
+      "duration": 4.32,
+      "text": "and ask a question. You stick the"
+    },
+    {
+      "start": 464.479,
+      "duration": 4.321,
+      "text": "question at the end. If your model is"
+    },
+    {
+      "start": 466.72,
+      "duration": 4.24,
+      "text": "missing details, try repeating the"
+    },
+    {
+      "start": 468.8,
+      "duration": 4.959,
+      "text": "context. It might just fix your"
+    },
+    {
+      "start": 470.96,
+      "duration": 5.6,
+      "text": "retrieval issues instantly. Two, the"
+    },
+    {
+      "start": 473.759,
+      "duration": 5.361,
+      "text": "human element. It's humbling. We treat"
+    },
+    {
+      "start": 476.56,
+      "duration": 4.96,
+      "text": "these models like people. We say please"
+    },
+    {
+      "start": 479.12,
+      "duration": 4.72,
+      "text": "and think carefully, but fundamentally"
+    },
+    {
+      "start": 481.52,
+      "duration": 5.04,
+      "text": "they are mathematical machines."
+    },
+    {
+      "start": 483.84,
+      "duration": 5.52,
+      "text": "Sometimes the solution isn't to be more"
+    },
+    {
+      "start": 486.56,
+      "duration": 4.72,
+      "text": "polite, it's to exploit the math."
+    },
+    {
+      "start": 489.36,
+      "duration": 4.32,
+      "text": "Repeating the signal overcomes the"
+    },
+    {
+      "start": 491.28,
+      "duration": 4.319,
+      "text": "noise. We are entering an era where"
+    },
+    {
+      "start": 493.68,
+      "duration": 4.239,
+      "text": "prompt engineering is becoming less"
+    },
+    {
+      "start": 495.599,
+      "duration": 4.72,
+      "text": "about whispering to the AI and more"
+    },
+    {
+      "start": 497.919,
+      "duration": 4.641,
+      "text": "about attention engineering, structuring"
+    },
+    {
+      "start": 500.319,
+      "duration": 4.801,
+      "text": "our data so the model physically can't"
+    },
+    {
+      "start": 502.56,
+      "duration": 5.44,
+      "text": "miss it. This paper is titled prompt"
+    },
+    {
+      "start": 505.12,
+      "duration": 6.16,
+      "text": "repetition improves non-reasoning LLMs."
+    },
+    {
+      "start": 508,
+      "duration": 5.599,
+      "text": "It's a must readad. Go try it. Open your"
+    },
+    {
+      "start": 511.28,
+      "duration": 5.199,
+      "text": "favorite LLM right now. Find the prompt"
+    },
+    {
+      "start": 513.599,
+      "duration": 5.12,
+      "text": "where it fails. Paste it twice and let"
+    },
+    {
+      "start": 516.479,
+      "duration": 5.721,
+      "text": "me know in the comments if it worked."
+    },
+    {
+      "start": 518.719,
+      "duration": 3.481,
+      "text": "Thanks for watching."
+    }
+  ],
+  "fullText": "What if I told you that the secret to significantly boosting the performance of your AI models is simply pressing Ctrl +V? No prompt engineering tricks, no specialized libraries, no expensive training, just a simple copy paste of your own request. It sounds like a joke, but it's actually the solution to a fundamental architectural flaw in almost every LLM on the planet. You see, models like GPT40 and Gemini 2 have a vision problem called causal masking. They are physically incapable of seeing the end of your prompt while they are processing the beginning. It's a one-way street that forces them to read in total ignorance of what's coming next, which is why your most important instructions often get lost if they're buried at the end. But a breakthrough from Google research has found a way to bridge that gap without adding a single millisecond of latency. Welcome to prompt repetition or RE2. In this video, we're diving into the paper that proves why saying it twice is actually a masterclass in attention engineering. To understand why this works, we have to look under the hood of the transformer architecture. We need to talk about the attention mechanism. When an LLM processes your text, it calculates attention scores. Basically, every word looks at every other word to figure out context. bank looks at river to know it's not a financial bank but there is a strict rule for standard LLMs the causal mask imagine a giant grid a matrix in a perfect world every word runs along the top and the side and they can all see each other but in GPT or Gemini this matrix is triangular token number one can only see itself token number two can see 1 and two token number 50 can see tokens 1 through 50 but token number one can never see token number 50. It is physically impossible in the architecture. This creates a triangular prison. If your prompt has the most important instruction at the very end say answer this question in JSON format. The tokens at the beginning of the prompt never saw that instruction when they were being processed. Their internal representation was formed in ignorance of the final goal. The paper calls this the options first problem. Imagine I give you 50 pages of legal documents and then ask does this violate the tenant agreement? As the mother reads page one, is it looking for tenant agreement violations? No, it doesn't know the question yet. It's just compressing the text generally. By the time it sees the question, the nuance of page one is lost in the compression. So the researchers Yanif Leviathan and his team at Google proposed prompt repetition or RE2. Input equals query plus query. Let's trace the attention matrix. Now we paste the text twice. Let's call them copy A and copy B. Copy A is processed normally. It suffers from the triangular prison. The beginning doesn't know the end. The representations are weak. However, look at copy B. Because copy B comes after copy A, every single token in copy B can attend to every single token in copy A. The first word of copy B can see the last word of copy A. It's a hack that simulates birectional attention. Effectively, copy A becomes a readonly memory or a virtual scratchpad. The model reads the prompt once to load it into its context window. Then it reads it again, but this time it has full visibility of the entire structure. When it processes the legal documents in copy B, it already knows the question from the end of copy A. It can heavily attend to the specific sentences about tenant agreements. It is a mechanically simple way to convert the council model into a birectional processor for the duration of the prompt. The results are not just good, they are consistent across almost every domain. They tested seven models like Gemini 2, GPT40, Claude 3.7 and Deepsecv Von7 benchmarks. Let's look at the breakdown. First, the needle in a haststack test known as name index. This is the most dramatic proof. The model has to find a specific name in a list directly. Without repetition, Gemini 2 flashlights score 21.3%. It simply forgot the start of the list by the time it reached the end with repetition 97.3%. It fixed the memory and attention drift completely. Second, general knowledge with MMLU Pro. This is a hard benchmark. Multiplechoice complex reasonings standard improvements in AI are usually one or 2%. Prompt repetition yielded consistent gains across the board, especially in options first scenarios where the question comes last. For Deep Seek 53, they saw improvements that effectively jumped the model a generation ahead in performance on specific retrieval tasks. Third, math and reasoning. Even in math, where you might think reading twice doesn't help calculation, it did. Why? Because math word problems often buried the actual variable definitions in the text. Reading it twice ensures the model doesn't hallucinate a number. Across 70 different experimental setups, RE2 won 47 times. It lost zero times. This is rare in AI research. Usually, a method works for some but hurts others. This method appears to be purely additive. But RE2 is input-based repetition. And this is where the economics come in. In chain of thought techniques, you pay for output tokens. It's slow. It generates strictly sequentially. With RE2, you pay for input tokens. It's fast. Input tokens are processed in parallel. You can feed 10,000 tokens of input in the same time it takes to generate 50 tokens of output. So, RE2 gives you the attention benefits of thinking without the latency tax of generating thoughts. For high-speed applications like chat bots, customer service agents or realtime translations, RA2 is a gamecher. You can't afford to wait 5 seconds for the model to think, but you can afford to paste the prompt twice, which takes 10 milliseconds. Of course, the scientists didn't stop at just repeating it once. They asked the obvious follow-up. If twice as good is three times better. They tested prompt repetition times three. And yes, it actually worked better for some ultra hard tasks. On that name index task we mentioned, three times repetition drove accuracy even higher for the stubborn models. But for general tasks, one repetition seems to be the sweet spot where you get maximum gain for minimum input cost. They also checked is it just about making the prompt longer? Maybe the model just likes long prompts. They tried the padding method. They took the original prompt and just added a bunch of periods to the end to make it as long as the repeated version. The result, nothing. No improvement. So, it's not about length. It's strictly about the information being available for the attention mechanism to attend to from the future. So, what does this mean for us? One, if you're building retrieval augmented generation systems, you often shove a bunch of context into a prompt and ask a question. You stick the question at the end. If your model is missing details, try repeating the context. It might just fix your retrieval issues instantly. Two, the human element. It's humbling. We treat these models like people. We say please and think carefully, but fundamentally they are mathematical machines. Sometimes the solution isn't to be more polite, it's to exploit the math. Repeating the signal overcomes the noise. We are entering an era where prompt engineering is becoming less about whispering to the AI and more about attention engineering, structuring our data so the model physically can't miss it. This paper is titled prompt repetition improves non-reasoning LLMs. It's a must readad. Go try it. Open your favorite LLM right now. Find the prompt where it fails. Paste it twice and let me know in the comments if it worked. Thanks for watching.",
+  "fetchedAt": "2026-01-18T18:33:18.802Z"
+}

@@ -1,0 +1,389 @@
+{
+  "videoId": "ZVwpa-SVo1I",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.8,
+      "text": "AWS solutions architect associates"
+    },
+    {
+      "start": 2,
+      "duration": 4.64,
+      "text": "certification prep question 22 of 65. A"
+    },
+    {
+      "start": 4.88,
+      "duration": 3.84,
+      "text": "financial services company operates a"
+    },
+    {
+      "start": 6.64,
+      "duration": 3.6,
+      "text": "real-time training application in their"
+    },
+    {
+      "start": 8.72,
+      "duration": 3.839,
+      "text": "on-remise data set. So they are"
+    },
+    {
+      "start": 10.24,
+      "duration": 3.439,
+      "text": "extending the application to AWS and"
+    },
+    {
+      "start": 12.559,
+      "duration": 4.081,
+      "text": "they're going to require private"
+    },
+    {
+      "start": 13.679,
+      "duration": 5.36,
+      "text": "connectivity with consistent low latency"
+    },
+    {
+      "start": 16.64,
+      "duration": 4.719,
+      "text": "under milliseconds. So network jitter is"
+    },
+    {
+      "start": 19.039,
+      "duration": 3.361,
+      "text": "unacceptable for trading operations. So"
+    },
+    {
+      "start": 21.359,
+      "duration": 2.641,
+      "text": "they need the highest performance"
+    },
+    {
+      "start": 22.4,
+      "duration": 3.28,
+      "text": "possible and highest consistency"
+    },
+    {
+      "start": 24,
+      "duration": 3.439,
+      "text": "possible. The compliance team also"
+    },
+    {
+      "start": 25.68,
+      "duration": 3.679,
+      "text": "requires an encrypted backup connection"
+    },
+    {
+      "start": 27.439,
+      "duration": 4,
+      "text": "that can take over just in case the"
+    },
+    {
+      "start": 29.359,
+      "duration": 3.441,
+      "text": "primary connection fails. So which two"
+    },
+    {
+      "start": 31.439,
+      "duration": 2.721,
+      "text": "solutions architect implement? We're"
+    },
+    {
+      "start": 32.8,
+      "duration": 3.04,
+      "text": "going to select two. So let's identify"
+    },
+    {
+      "start": 34.16,
+      "duration": 3.52,
+      "text": "the key hints. One, private"
+    },
+    {
+      "start": 35.84,
+      "duration": 4.32,
+      "text": "connectivity, meaning not over the"
+    },
+    {
+      "start": 37.68,
+      "duration": 4.32,
+      "text": "public internet. Number two, consistent"
+    },
+    {
+      "start": 40.16,
+      "duration": 3.6,
+      "text": "low latency. So we want predictable"
+    },
+    {
+      "start": 42,
+      "duration": 4,
+      "text": "consistent performance. That's number"
+    },
+    {
+      "start": 43.76,
+      "duration": 4.56,
+      "text": "two. Number three, real-time trading. So"
+    },
+    {
+      "start": 46,
+      "duration": 4.239,
+      "text": "any kind of network impact or jitter or"
+    },
+    {
+      "start": 48.32,
+      "duration": 4,
+      "text": "you know misordered packets"
+    },
+    {
+      "start": 50.239,
+      "duration": 3.921,
+      "text": "unacceptable. Number four, encrypted"
+    },
+    {
+      "start": 52.32,
+      "duration": 3.84,
+      "text": "backup connection. So, we need the"
+    },
+    {
+      "start": 54.16,
+      "duration": 3.68,
+      "text": "ability to have a primary and fail over"
+    },
+    {
+      "start": 56.16,
+      "duration": 3.76,
+      "text": "with an encrypted backup. So, let's look"
+    },
+    {
+      "start": 57.84,
+      "duration": 5.199,
+      "text": "at the options. Option one, establish an"
+    },
+    {
+      "start": 59.92,
+      "duration": 4.959,
+      "text": "AWS direct connect connection to AWS as"
+    },
+    {
+      "start": 63.039,
+      "duration": 4.08,
+      "text": "the primary link. Option [music] two,"
+    },
+    {
+      "start": 64.879,
+      "duration": 4.24,
+      "text": "configure an AWS sight to-sightVPN"
+    },
+    {
+      "start": 67.119,
+      "duration": 4.081,
+      "text": "connection as the backup. Option three,"
+    },
+    {
+      "start": 69.119,
+      "duration": 4.161,
+      "text": "connect the data center to AWS over the"
+    },
+    {
+      "start": 71.2,
+      "duration": 4.56,
+      "text": "public internet and use TLS encryption."
+    },
+    {
+      "start": 73.28,
+      "duration": 5.28,
+      "text": "Option four, set up VPC peering between"
+    },
+    {
+      "start": 75.76,
+      "duration": 4.48,
+      "text": "the onremise network and AWS. And of"
+    },
+    {
+      "start": 78.56,
+      "duration": 3.52,
+      "text": "course, option five, let's use Amazon"
+    },
+    {
+      "start": 80.24,
+      "duration": 4.239,
+      "text": "CloudFront to accelerate traffic between"
+    },
+    {
+      "start": 82.08,
+      "duration": 4.32,
+      "text": "on premise and AWS. Drop your answers in"
+    },
+    {
+      "start": 84.479,
+      "duration": 4,
+      "text": "the comments below. So, the hint says"
+    },
+    {
+      "start": 86.4,
+      "duration": 4.24,
+      "text": "consistent low latency and private. So,"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.841,
+      "text": "any public internet options are out. So,"
+    },
+    {
+      "start": 90.64,
+      "duration": 3.119,
+      "text": "option three, that's public internet."
+    },
+    {
+      "start": 92.32,
+      "duration": 3.6,
+      "text": "It's got variable latency, variable"
+    },
+    {
+      "start": 93.759,
+      "duration": 3.601,
+      "text": "jitter. Fine for backups, but not for"
+    },
+    {
+      "start": 95.92,
+      "duration": 3.92,
+      "text": "real-time trading, especially as the"
+    },
+    {
+      "start": 97.36,
+      "duration": 5.52,
+      "text": "primary link. Option four, VPC pairing"
+    },
+    {
+      "start": 99.84,
+      "duration": 4.72,
+      "text": "only works between VPCs inside of AWS."
+    },
+    {
+      "start": 102.88,
+      "duration": 5.04,
+      "text": "Can't connect to on-remise data centers"
+    },
+    {
+      "start": 104.56,
+      "duration": 6.32,
+      "text": "yet to AWS. Option five, CloudFront is a"
+    },
+    {
+      "start": 107.92,
+      "duration": 4.72,
+      "text": "content delivery network for basically"
+    },
+    {
+      "start": 110.88,
+      "duration": 3.76,
+      "text": "layer 7 content delivery. So it doesn't"
+    },
+    {
+      "start": 112.64,
+      "duration": 3.92,
+      "text": "really provide data center connectivity"
+    },
+    {
+      "start": 114.64,
+      "duration": 3.759,
+      "text": "for these kinds of private connections."
+    },
+    {
+      "start": 116.56,
+      "duration": 4.239,
+      "text": "So the correct answers are options one"
+    },
+    {
+      "start": 118.399,
+      "duration": 3.601,
+      "text": "and options two. So direct connect"
+    },
+    {
+      "start": 120.799,
+      "duration": 3.441,
+      "text": "dedicated private connection with"
+    },
+    {
+      "start": 122,
+      "duration": 3.52,
+      "text": "consistent latency, no internet, you"
+    },
+    {
+      "start": 124.24,
+      "duration": 3.199,
+      "text": "know, variability, so no internet"
+    },
+    {
+      "start": 125.52,
+      "duration": 4.079,
+      "text": "weather, perfect for real-time trading."
+    },
+    {
+      "start": 127.439,
+      "duration": 3.52,
+      "text": "Sight toightVPN as the secondary runs"
+    },
+    {
+      "start": 129.599,
+      "duration": 3.121,
+      "text": "over the internet but provides"
+    },
+    {
+      "start": 130.959,
+      "duration": 3.601,
+      "text": "encryption. It's a lower cost backup"
+    },
+    {
+      "start": 132.72,
+      "duration": 3.04,
+      "text": "that meets the encrypted requirement. Of"
+    },
+    {
+      "start": 134.56,
+      "duration": 2.8,
+      "text": "course, you won't get the same level of"
+    },
+    {
+      "start": 135.76,
+      "duration": 3.52,
+      "text": "consistency, but you can also fail over"
+    },
+    {
+      "start": 137.36,
+      "duration": 3.68,
+      "text": "automatically. Takeaway: Direct Connect"
+    },
+    {
+      "start": 139.28,
+      "duration": 3.76,
+      "text": "for consistent performance. VPN for"
+    },
+    {
+      "start": 141.04,
+      "duration": 4.08,
+      "text": "encrypted backups. This is the classic"
+    },
+    {
+      "start": 143.04,
+      "duration": 3.68,
+      "text": "hybrid network connectivity architecture"
+    },
+    {
+      "start": 145.12,
+      "duration": 3.199,
+      "text": "pattern. Direct Connect gives you the"
+    },
+    {
+      "start": 146.72,
+      "duration": 4.96,
+      "text": "speed, VPN gives you the resiliency."
+    },
+    {
+      "start": 148.319,
+      "duration": 3.361,
+      "text": "Together they cover both requirements."
+    }
+  ],
+  "fullText": "AWS solutions architect associates certification prep question 22 of 65. A financial services company operates a real-time training application in their on-remise data set. So they are extending the application to AWS and they're going to require private connectivity with consistent low latency under milliseconds. So network jitter is unacceptable for trading operations. So they need the highest performance possible and highest consistency possible. The compliance team also requires an encrypted backup connection that can take over just in case the primary connection fails. So which two solutions architect implement? We're going to select two. So let's identify the key hints. One, private connectivity, meaning not over the public internet. Number two, consistent low latency. So we want predictable consistent performance. That's number two. Number three, real-time trading. So any kind of network impact or jitter or you know misordered packets unacceptable. Number four, encrypted backup connection. So, we need the ability to have a primary and fail over with an encrypted backup. So, let's look at the options. Option one, establish an AWS direct connect connection to AWS as the primary link. Option [music] two, configure an AWS sight to-sightVPN connection as the backup. Option three, connect the data center to AWS over the public internet and use TLS encryption. Option four, set up VPC peering between the onremise network and AWS. And of course, option five, let's use Amazon CloudFront to accelerate traffic between on premise and AWS. Drop your answers in the comments below. So, the hint says consistent low latency and private. So, any public internet options are out. So, option three, that's public internet. It's got variable latency, variable jitter. Fine for backups, but not for real-time trading, especially as the primary link. Option four, VPC pairing only works between VPCs inside of AWS. Can't connect to on-remise data centers yet to AWS. Option five, CloudFront is a content delivery network for basically layer 7 content delivery. So it doesn't really provide data center connectivity for these kinds of private connections. So the correct answers are options one and options two. So direct connect dedicated private connection with consistent latency, no internet, you know, variability, so no internet weather, perfect for real-time trading. Sight toightVPN as the secondary runs over the internet but provides encryption. It's a lower cost backup that meets the encrypted requirement. Of course, you won't get the same level of consistency, but you can also fail over automatically. Takeaway: Direct Connect for consistent performance. VPN for encrypted backups. This is the classic hybrid network connectivity architecture pattern. Direct Connect gives you the speed, VPN gives you the resiliency. Together they cover both requirements.",
+  "fetchedAt": "2026-01-21T22:31:40.858Z"
+}

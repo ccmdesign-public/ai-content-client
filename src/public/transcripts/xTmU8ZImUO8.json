@@ -1,0 +1,1809 @@
+{
+  "videoId": "xTmU8ZImUO8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4,
+      "text": "Your company needs a chatbot on their"
+    },
+    {
+      "start": 1.92,
+      "duration": 4.32,
+      "text": "site where customers can ask questions."
+    },
+    {
+      "start": 4.08,
+      "duration": 4.16,
+      "text": "The chatbot needs to store and retrieve"
+    },
+    {
+      "start": 6.24,
+      "duration": 3.76,
+      "text": "all chat history as well as company"
+    },
+    {
+      "start": 8.24,
+      "duration": 3.12,
+      "text": "knowledge base so that the agent can"
+    },
+    {
+      "start": 10,
+      "duration": 2.719,
+      "text": "help your customer. And you might be"
+    },
+    {
+      "start": 11.36,
+      "duration": 3.279,
+      "text": "wondering, how am I going to make this"
+    },
+    {
+      "start": 12.719,
+      "duration": 4.241,
+      "text": "happen? Maybe your first instinct is to"
+    },
+    {
+      "start": 14.639,
+      "duration": 4.48,
+      "text": "use OpenAI's SDK to write up a quick"
+    },
+    {
+      "start": 16.96,
+      "duration": 4.159,
+      "text": "software and create and simulate a chat."
+    },
+    {
+      "start": 19.119,
+      "duration": 3.92,
+      "text": "But you soon realize that there's a huge"
+    },
+    {
+      "start": 21.119,
+      "duration": 3.601,
+      "text": "missing piece which is context. You"
+    },
+    {
+      "start": 23.039,
+      "duration": 3.681,
+      "text": "realize that you need to store these"
+    },
+    {
+      "start": 24.72,
+      "duration": 3.68,
+      "text": "chat messages somewhere and maintain"
+    },
+    {
+      "start": 26.72,
+      "duration": 3.84,
+      "text": "conversation history. And most"
+    },
+    {
+      "start": 28.4,
+      "duration": 4.24,
+      "text": "importantly, you need the agent to base"
+    },
+    {
+      "start": 30.56,
+      "duration": 3.76,
+      "text": "their answer from company's internal"
+    },
+    {
+      "start": 32.64,
+      "duration": 3.52,
+      "text": "knowledge base to answer questions"
+    },
+    {
+      "start": 34.32,
+      "duration": 3.759,
+      "text": "accordingly. Also, you're not so sure"
+    },
+    {
+      "start": 36.16,
+      "duration": 3.68,
+      "text": "that the company will later change from"
+    },
+    {
+      "start": 38.079,
+      "duration": 3.921,
+      "text": "OpenAI to a different model like"
+    },
+    {
+      "start": 39.84,
+      "duration": 4.16,
+      "text": "Anthropic or Gemini. And now all of a"
+    },
+    {
+      "start": 42,
+      "duration": 3.52,
+      "text": "sudden, this all seems like a massive"
+    },
+    {
+      "start": 44,
+      "duration": 3.36,
+      "text": "undertaking. Lang Chain is an"
+    },
+    {
+      "start": 45.52,
+      "duration": 3.92,
+      "text": "abstraction layer that helps you build"
+    },
+    {
+      "start": 47.36,
+      "duration": 3.84,
+      "text": "agents with minimal code. In other"
+    },
+    {
+      "start": 49.44,
+      "duration": 3.52,
+      "text": "words, all the pain points that we"
+    },
+    {
+      "start": 51.2,
+      "duration": 3.76,
+      "text": "identified earlier, Langchain gives you"
+    },
+    {
+      "start": 52.96,
+      "duration": 3.439,
+      "text": "the tools to address them using their"
+    },
+    {
+      "start": 54.96,
+      "duration": 2.8,
+      "text": "library. And you might be wondering at"
+    },
+    {
+      "start": 56.399,
+      "duration": 3.281,
+      "text": "this point, what's the difference"
+    },
+    {
+      "start": 57.76,
+      "duration": 4.08,
+      "text": "between an agent and an LLM?"
+    },
+    {
+      "start": 59.68,
+      "duration": 4.559,
+      "text": "Understanding agent is a critical piece"
+    },
+    {
+      "start": 61.84,
+      "duration": 4.4,
+      "text": "in knowing why Langchain is a necessary"
+    },
+    {
+      "start": 64.239,
+      "duration": 4.641,
+      "text": "tool for you to learn. When you use LLMs"
+    },
+    {
+      "start": 66.24,
+      "duration": 4.72,
+      "text": "like OpenAI GPT, Anthropex Claude, or"
+    },
+    {
+      "start": 68.88,
+      "duration": 4.08,
+      "text": "even Google's Gemini, you're using these"
+    },
+    {
+      "start": 70.96,
+      "duration": 4,
+      "text": "models out of the box, meaning the model"
+    },
+    {
+      "start": 72.96,
+      "duration": 3.76,
+      "text": "is rather like a static brain that"
+    },
+    {
+      "start": 74.96,
+      "duration": 3.199,
+      "text": "answers questions based on what it"
+    },
+    {
+      "start": 76.72,
+      "duration": 3.92,
+      "text": "learned during training. On the other"
+    },
+    {
+      "start": 78.159,
+      "duration": 4.32,
+      "text": "hand, an agent has full autonomy with"
+    },
+    {
+      "start": 80.64,
+      "duration": 3.76,
+      "text": "memory and tools to do whatever it"
+    },
+    {
+      "start": 82.479,
+      "duration": 3.521,
+      "text": "thinks it needs to get the job done. So"
+    },
+    {
+      "start": 84.4,
+      "duration": 3.12,
+      "text": "in the earlier case, let's say the"
+    },
+    {
+      "start": 86,
+      "duration": 3.6,
+      "text": "customer asked this question. What's"
+    },
+    {
+      "start": 87.52,
+      "duration": 3.76,
+      "text": "your company's policy on refunding my"
+    },
+    {
+      "start": 89.6,
+      "duration": 3.28,
+      "text": "product that arrived damaged? Now,"
+    },
+    {
+      "start": 91.28,
+      "duration": 3.6,
+      "text": "traditionally, you might code something"
+    },
+    {
+      "start": 92.88,
+      "duration": 3.36,
+      "text": "custom for this specific need. Now, with"
+    },
+    {
+      "start": 94.88,
+      "duration": 2.96,
+      "text": "agents, things look a little bit"
+    },
+    {
+      "start": 96.24,
+      "duration": 3.919,
+      "text": "different. An agent will have these"
+    },
+    {
+      "start": 97.84,
+      "duration": 4.239,
+      "text": "capabilities for them to perform. First,"
+    },
+    {
+      "start": 100.159,
+      "duration": 4,
+      "text": "ability to understand your intent using"
+    },
+    {
+      "start": 102.079,
+      "duration": 3.761,
+      "text": "an LLM. Two, ability to store a"
+    },
+    {
+      "start": 104.159,
+      "duration": 3.521,
+      "text": "company's knowledge base in a vector"
+    },
+    {
+      "start": 105.84,
+      "duration": 3.919,
+      "text": "database. Three, ability to perform"
+    },
+    {
+      "start": 107.68,
+      "duration": 4.24,
+      "text": "retrieval from vector database to find"
+    },
+    {
+      "start": 109.759,
+      "duration": 4.32,
+      "text": "relevant data. Four, ability to search"
+    },
+    {
+      "start": 111.92,
+      "duration": 4.08,
+      "text": "internal database to find what product"
+    },
+    {
+      "start": 114.079,
+      "duration": 3.841,
+      "text": "the customer actually ordered. Five,"
+    },
+    {
+      "start": 116,
+      "duration": 3.68,
+      "text": "ability to generate an answer based on"
+    },
+    {
+      "start": 117.92,
+      "duration": 3.6,
+      "text": "the product they ordered according to"
+    },
+    {
+      "start": 119.68,
+      "duration": 4.16,
+      "text": "the company's policy that we gathered."
+    },
+    {
+      "start": 121.52,
+      "duration": 4.08,
+      "text": "And lastly, ability to know the chat"
+    },
+    {
+      "start": 123.84,
+      "duration": 3.599,
+      "text": "history with the memory. The biggest"
+    },
+    {
+      "start": 125.6,
+      "duration": 3.84,
+      "text": "difference between traditional software"
+    },
+    {
+      "start": 127.439,
+      "duration": 4.001,
+      "text": "and agentic software that you build"
+    },
+    {
+      "start": 129.44,
+      "duration": 3.76,
+      "text": "using lang chain is this. In traditional"
+    },
+    {
+      "start": 131.44,
+      "duration": 4,
+      "text": "software, these are typically programmed"
+    },
+    {
+      "start": 133.2,
+      "duration": 4.16,
+      "text": "to run sequentially or conditionally"
+    },
+    {
+      "start": 135.44,
+      "duration": 3.92,
+      "text": "based on code that determines how it's"
+    },
+    {
+      "start": 137.36,
+      "duration": 4,
+      "text": "run. In the case of Langchain, these are"
+    },
+    {
+      "start": 139.36,
+      "duration": 4.16,
+      "text": "rather developed in components and"
+    },
+    {
+      "start": 141.36,
+      "duration": 4.4,
+      "text": "provided to an agent for it to decide"
+    },
+    {
+      "start": 143.52,
+      "duration": 4.32,
+      "text": "how best to use its ability to deliver"
+    },
+    {
+      "start": 145.76,
+      "duration": 3.839,
+      "text": "the task. Thankfully, Langchain comes"
+    },
+    {
+      "start": 147.84,
+      "duration": 3.68,
+      "text": "with a large set of pre-built"
+    },
+    {
+      "start": 149.599,
+      "duration": 3.601,
+      "text": "components. In our earlier example, to"
+    },
+    {
+      "start": 151.52,
+      "duration": 3.76,
+      "text": "set up lane chain for your company's"
+    },
+    {
+      "start": 153.2,
+      "duration": 3.759,
+      "text": "chatbot, Langchain allows you to use"
+    },
+    {
+      "start": 155.28,
+      "duration": 3.92,
+      "text": "their existing tool that gives you"
+    },
+    {
+      "start": 156.959,
+      "duration": 4.321,
+      "text": "direct access to LLM providers like"
+    },
+    {
+      "start": 159.2,
+      "duration": 4.399,
+      "text": "OpenAI and Enthropic. This means that"
+    },
+    {
+      "start": 161.28,
+      "duration": 4.4,
+      "text": "setting up an API to OpenAI can easily"
+    },
+    {
+      "start": 163.599,
+      "duration": 4.561,
+      "text": "be done using a single line of code that"
+    },
+    {
+      "start": 165.68,
+      "duration": 4.639,
+      "text": "says LLM equals chat openAI instead of"
+    },
+    {
+      "start": 168.16,
+      "duration": 4.079,
+      "text": "writing your own implementation of API"
+    },
+    {
+      "start": 170.319,
+      "duration": 4.481,
+      "text": "connection or even using the provider"
+    },
+    {
+      "start": 172.239,
+      "duration": 4.401,
+      "text": "SDK tools which keeps you locked in and"
+    },
+    {
+      "start": 174.8,
+      "duration": 4,
+      "text": "difficult to switch in the future. So"
+    },
+    {
+      "start": 176.64,
+      "duration": 4.239,
+      "text": "later if the requirements change to use"
+    },
+    {
+      "start": 178.8,
+      "duration": 4,
+      "text": "anthropic instead of OpenAI, you simply"
+    },
+    {
+      "start": 180.879,
+      "duration": 4.561,
+      "text": "need to change the code to say LLM"
+    },
+    {
+      "start": 182.8,
+      "duration": 5.28,
+      "text": "equals chatanthropic open bracket quote"
+    },
+    {
+      "start": 185.44,
+      "duration": 4.719,
+      "text": "model equals cla 3 sonnet. A similar"
+    },
+    {
+      "start": 188.08,
+      "duration": 3.68,
+      "text": "process just like this applies to all"
+    },
+    {
+      "start": 190.159,
+      "duration": 3.601,
+      "text": "other abilities that we laid out"
+    },
+    {
+      "start": 191.76,
+      "duration": 4,
+      "text": "earlier. Meaning components that we"
+    },
+    {
+      "start": 193.76,
+      "duration": 4.96,
+      "text": "identified in what typically goes into"
+    },
+    {
+      "start": 195.76,
+      "duration": 4.96,
+      "text": "chatbots like memory, tools, MCP, vector"
+    },
+    {
+      "start": 198.72,
+      "duration": 3.76,
+      "text": "databases, rag, all of these can be set"
+    },
+    {
+      "start": 200.72,
+      "duration": 3.599,
+      "text": "up and configured using Langchain's"
+    },
+    {
+      "start": 202.48,
+      "duration": 3.679,
+      "text": "pre-built libraries. Now, there's an"
+    },
+    {
+      "start": 204.319,
+      "duration": 3.521,
+      "text": "extension of Langchain that helps you do"
+    },
+    {
+      "start": 206.159,
+      "duration": 4.08,
+      "text": "more workflow automation called"
+    },
+    {
+      "start": 207.84,
+      "duration": 4.16,
+      "text": "Langraph. And Langraph can interoperate"
+    },
+    {
+      "start": 210.239,
+      "duration": 3.521,
+      "text": "with Langchain, which is covered in the"
+    },
+    {
+      "start": 212,
+      "duration": 3.44,
+      "text": "next video just dedicated towards"
+    },
+    {
+      "start": 213.76,
+      "duration": 3.44,
+      "text": "Langraph for you to check out. So"
+    },
+    {
+      "start": 215.44,
+      "duration": 4.159,
+      "text": "similar to earlier when we had to write"
+    },
+    {
+      "start": 217.2,
+      "duration": 4,
+      "text": "code to manage API calls to LLM without"
+    },
+    {
+      "start": 219.599,
+      "duration": 3.441,
+      "text": "lang chain you would have to write your"
+    },
+    {
+      "start": 221.2,
+      "duration": 3.679,
+      "text": "own logic to convert your company's"
+    },
+    {
+      "start": 223.04,
+      "duration": 3.52,
+      "text": "document into semantic meaning through"
+    },
+    {
+      "start": 224.879,
+      "duration": 3.601,
+      "text": "text embedding store these embedding"
+    },
+    {
+      "start": 226.56,
+      "duration": 4,
+      "text": "into a vector database like pine cone or"
+    },
+    {
+      "start": 228.48,
+      "duration": 3.759,
+      "text": "chroma using their SDK implement your"
+    },
+    {
+      "start": 230.56,
+      "duration": 3.679,
+      "text": "own semantic search and then inject"
+    },
+    {
+      "start": 232.239,
+      "duration": 4.161,
+      "text": "these results into prompt at runtime and"
+    },
+    {
+      "start": 234.239,
+      "duration": 4.08,
+      "text": "on top of that managing state managing"
+    },
+    {
+      "start": 236.4,
+      "duration": 3.68,
+      "text": "memory managing tool writing logic as"
+    },
+    {
+      "start": 238.319,
+      "duration": 3.521,
+      "text": "you can see the scope of writing and"
+    },
+    {
+      "start": 240.08,
+      "duration": 4,
+      "text": "maintaining these can get out of hand"
+    },
+    {
+      "start": 241.84,
+      "duration": 4.16,
+      "text": "really fast thankfully for lang chain"
+    },
+    {
+      "start": 244.08,
+      "duration": 3.68,
+      "text": "inside lang chain's library. You can"
+    },
+    {
+      "start": 246,
+      "duration": 3.68,
+      "text": "import modules like Chroma for"
+    },
+    {
+      "start": 247.76,
+      "duration": 4,
+      "text": "components related to vector database,"
+    },
+    {
+      "start": 249.68,
+      "duration": 4,
+      "text": "OpenAI embedding for components related"
+    },
+    {
+      "start": 251.76,
+      "duration": 3.92,
+      "text": "to text embedding, conversation buffer"
+    },
+    {
+      "start": 253.68,
+      "duration": 3.679,
+      "text": "memory for components related to keeping"
+    },
+    {
+      "start": 255.68,
+      "duration": 3.36,
+      "text": "memory in chat. And there are so many"
+    },
+    {
+      "start": 257.359,
+      "duration": 3.681,
+      "text": "more components like this that help"
+    },
+    {
+      "start": 259.04,
+      "duration": 4,
+      "text": "alleviate development efforts that go"
+    },
+    {
+      "start": 261.04,
+      "duration": 4.08,
+      "text": "into building agentic software like"
+    },
+    {
+      "start": 263.04,
+      "duration": 4.24,
+      "text": "company chatbots that assist customer"
+    },
+    {
+      "start": 265.12,
+      "duration": 4,
+      "text": "with return policy. With agents becoming"
+    },
+    {
+      "start": 267.28,
+      "duration": 3.76,
+      "text": "the new way of building software,"
+    },
+    {
+      "start": 269.12,
+      "duration": 3.92,
+      "text": "learning how to develop agentic software"
+    },
+    {
+      "start": 271.04,
+      "duration": 3.92,
+      "text": "is becoming a critical skill set to have"
+    },
+    {
+      "start": 273.04,
+      "duration": 4.08,
+      "text": "and libraries like Langchain can help"
+    },
+    {
+      "start": 274.96,
+      "duration": 4.48,
+      "text": "your team drastically reduce development"
+    },
+    {
+      "start": 277.12,
+      "duration": 4.56,
+      "text": "time and accelerate your path to market"
+    },
+    {
+      "start": 279.44,
+      "duration": 4.319,
+      "text": "by using pre-built modules instead of"
+    },
+    {
+      "start": 281.68,
+      "duration": 4.079,
+      "text": "reinventing the wheel on tasks related"
+    },
+    {
+      "start": 283.759,
+      "duration": 3.761,
+      "text": "to building agentic software. Now that"
+    },
+    {
+      "start": 285.759,
+      "duration": 3.521,
+      "text": "we covered the conceptual elements of"
+    },
+    {
+      "start": 287.52,
+      "duration": 3.6,
+      "text": "Langchain, let's look at how it looks"
+    },
+    {
+      "start": 289.28,
+      "duration": 3.76,
+      "text": "like on a practical level. We can look"
+    },
+    {
+      "start": 291.12,
+      "duration": 4.079,
+      "text": "over at this lab specifically geared"
+    },
+    {
+      "start": 293.04,
+      "duration": 4,
+      "text": "towards how to use lang. All right,"
+    },
+    {
+      "start": 295.199,
+      "duration": 3.44,
+      "text": "let's start with the labs. In this lab,"
+    },
+    {
+      "start": 297.04,
+      "duration": 3.439,
+      "text": "we'll build our way up from installing"
+    },
+    {
+      "start": 298.639,
+      "duration": 4.481,
+      "text": "Langchain to deploying a fully"
+    },
+    {
+      "start": 300.479,
+      "duration": 4.72,
+      "text": "functional chatbot that combines memory,"
+    },
+    {
+      "start": 303.12,
+      "duration": 3.919,
+      "text": "knowledge retrieval, and multiple AI"
+    },
+    {
+      "start": 305.199,
+      "duration": 4,
+      "text": "models. Use the link in the description"
+    },
+    {
+      "start": 307.039,
+      "duration": 4.081,
+      "text": "below to access the lab environment to"
+    },
+    {
+      "start": 309.199,
+      "duration": 3.681,
+      "text": "follow along with me. The first question"
+    },
+    {
+      "start": 311.12,
+      "duration": 3.6,
+      "text": "presents us with this scenario. Our"
+    },
+    {
+      "start": 312.88,
+      "duration": 3.759,
+      "text": "company needs a chatbot, but we're"
+    },
+    {
+      "start": 314.72,
+      "duration": 3.919,
+      "text": "realizing that it's more complex than"
+    },
+    {
+      "start": 316.639,
+      "duration": 4.481,
+      "text": "just calling an API. We need to install"
+    },
+    {
+      "start": 318.639,
+      "duration": 4.481,
+      "text": "the complete langchain ecosystem. We"
+    },
+    {
+      "start": 321.12,
+      "duration": 4.4,
+      "text": "start by creating a workspace called"
+    },
+    {
+      "start": 323.12,
+      "duration": 4.24,
+      "text": "Langchain-lab. and setting up a Python"
+    },
+    {
+      "start": 325.52,
+      "duration": 4.08,
+      "text": "virtual environment to keep everything"
+    },
+    {
+      "start": 327.36,
+      "duration": 4.16,
+      "text": "isolated and clean. After upgrading our"
+    },
+    {
+      "start": 329.6,
+      "duration": 3.76,
+      "text": "package tools, we installed a core"
+    },
+    {
+      "start": 331.52,
+      "duration": 4.16,
+      "text": "langchain libraries that form the"
+    },
+    {
+      "start": 333.36,
+      "duration": 4.399,
+      "text": "backbone for building AI powered apps"
+    },
+    {
+      "start": 335.68,
+      "duration": 4.799,
+      "text": "along with LLM provider integrations"
+    },
+    {
+      "start": 337.759,
+      "duration": 4.801,
+      "text": "like OpenAI, Enthropic, and Google so we"
+    },
+    {
+      "start": 340.479,
+      "duration": 4.801,
+      "text": "can plug in different models easily. For"
+    },
+    {
+      "start": 342.56,
+      "duration": 4.8,
+      "text": "storage and retrieval, we'll use FISS or"
+    },
+    {
+      "start": 345.28,
+      "duration": 3.919,
+      "text": "Fias, which is the vector database used"
+    },
+    {
+      "start": 347.36,
+      "duration": 4.48,
+      "text": "for semantic search and embeddings."
+    },
+    {
+      "start": 349.199,
+      "duration": 4.401,
+      "text": "We'll also install Python-Env"
+    },
+    {
+      "start": 351.84,
+      "duration": 3.76,
+      "text": "to manage environment variables"
+    },
+    {
+      "start": 353.6,
+      "duration": 4.24,
+      "text": "securely. And finally, Graddio to"
+    },
+    {
+      "start": 355.6,
+      "duration": 4.48,
+      "text": "quickly build interactive demos and user"
+    },
+    {
+      "start": 357.84,
+      "duration": 3.6,
+      "text": "interfaces. Next, we dive into prompt"
+    },
+    {
+      "start": 360.08,
+      "duration": 3.36,
+      "text": "templates, which are really the"
+    },
+    {
+      "start": 361.44,
+      "duration": 3.68,
+      "text": "foundation of Langchain. This shows how"
+    },
+    {
+      "start": 363.44,
+      "duration": 3.36,
+      "text": "prompt techniques work. You start with"
+    },
+    {
+      "start": 365.12,
+      "duration": 4,
+      "text": "templates like tell me about a certain"
+    },
+    {
+      "start": 366.8,
+      "duration": 4.16,
+      "text": "topic, fill in variables like topic"
+    },
+    {
+      "start": 369.12,
+      "duration": 3.519,
+      "text": "equals lang chain, and get the final"
+    },
+    {
+      "start": 370.96,
+      "duration": 4.16,
+      "text": "prompt, tell me about lang chain, ready"
+    },
+    {
+      "start": 372.639,
+      "duration": 4.241,
+      "text": "to send to the LLM. We have four example"
+    },
+    {
+      "start": 375.12,
+      "duration": 3.359,
+      "text": "templates here. We start with basic"
+    },
+    {
+      "start": 376.88,
+      "duration": 3.68,
+      "text": "templates that use variable"
+    },
+    {
+      "start": 378.479,
+      "duration": 4.241,
+      "text": "substitution. Think of them like Python"
+    },
+    {
+      "start": 380.56,
+      "duration": 4.24,
+      "text": "fst strings but for AI prompts. This"
+    },
+    {
+      "start": 382.72,
+      "duration": 4.08,
+      "text": "code shows how to use Langchain's prompt"
+    },
+    {
+      "start": 384.8,
+      "duration": 3.839,
+      "text": "template. First, we create a template"
+    },
+    {
+      "start": 386.8,
+      "duration": 3.839,
+      "text": "with placeholders for product and"
+    },
+    {
+      "start": 388.639,
+      "duration": 4.641,
+      "text": "feature. Then, we fill it with values"
+    },
+    {
+      "start": 390.639,
+      "duration": 4.481,
+      "text": "like lang chain and AI orchestration to"
+    },
+    {
+      "start": 393.28,
+      "duration": 3.52,
+      "text": "generate a marketing slogan prompt."
+    },
+    {
+      "start": 395.12,
+      "duration": 4.48,
+      "text": "After that, we test it with different"
+    },
+    {
+      "start": 396.8,
+      "duration": 4.72,
+      "text": "examples, smartphone, electric car, AI"
+    },
+    {
+      "start": 399.6,
+      "duration": 3.84,
+      "text": "assistant. Each time replacing the"
+    },
+    {
+      "start": 401.52,
+      "duration": 4.16,
+      "text": "placeholders to produce new prompts."
+    },
+    {
+      "start": 403.44,
+      "duration": 5.599,
+      "text": "Finally, it saves a small progress flag"
+    },
+    {
+      "start": 405.68,
+      "duration": 5.12,
+      "text": "in the file called basic-templates.txt."
+    },
+    {
+      "start": 409.039,
+      "duration": 3.681,
+      "text": "Then we move to chat templates that"
+    },
+    {
+      "start": 410.8,
+      "duration": 4.64,
+      "text": "structure entire conversations with"
+    },
+    {
+      "start": 412.72,
+      "duration": 4.8,
+      "text": "system, human, and assistant messages."
+    },
+    {
+      "start": 415.44,
+      "duration": 4.319,
+      "text": "This is how we maintain context and flow"
+    },
+    {
+      "start": 417.52,
+      "duration": 3.84,
+      "text": "in our chatbot conversations. The fshot"
+    },
+    {
+      "start": 419.759,
+      "duration": 3.761,
+      "text": "learning section is particularly"
+    },
+    {
+      "start": 421.36,
+      "duration": 4.08,
+      "text": "interesting. Here we're teaching the AI"
+    },
+    {
+      "start": 423.52,
+      "duration": 4.88,
+      "text": "through examples. We show it patterns"
+    },
+    {
+      "start": 425.44,
+      "duration": 5.28,
+      "text": "like happy to sad and tall to short and"
+    },
+    {
+      "start": 428.4,
+      "duration": 4.239,
+      "text": "it learns to apply this to new inputs."
+    },
+    {
+      "start": 430.72,
+      "duration": 3.599,
+      "text": "The code demonstrates this beautifully"
+    },
+    {
+      "start": 432.639,
+      "duration": 3.761,
+      "text": "with a template that learns from"
+    },
+    {
+      "start": 434.319,
+      "duration": 4,
+      "text": "examples and applies the patterns to new"
+    },
+    {
+      "start": 436.4,
+      "duration": 4.32,
+      "text": "words. Take some time to explore the"
+    },
+    {
+      "start": 438.319,
+      "duration": 4.88,
+      "text": "advanced templates sections yourself. It"
+    },
+    {
+      "start": 440.72,
+      "duration": 4.16,
+      "text": "covers validation and structured outputs"
+    },
+    {
+      "start": 443.199,
+      "duration": 3.921,
+      "text": "that are essentially for production"
+    },
+    {
+      "start": 444.88,
+      "duration": 4.24,
+      "text": "applications. Make sure to create the"
+    },
+    {
+      "start": 447.12,
+      "duration": 4.96,
+      "text": "files and execute them using the given"
+    },
+    {
+      "start": 449.12,
+      "duration": 5.12,
+      "text": "commands before checking your work."
+    },
+    {
+      "start": 452.08,
+      "duration": 4.64,
+      "text": "Now, we connect to multiple LLMs through"
+    },
+    {
+      "start": 454.24,
+      "duration": 4.88,
+      "text": "a unified interface. What's clever here"
+    },
+    {
+      "start": 456.72,
+      "duration": 5.039,
+      "text": "is we're using a proxy server that gives"
+    },
+    {
+      "start": 459.12,
+      "duration": 4.96,
+      "text": "us access to various models like OpenAI"
+    },
+    {
+      "start": 461.759,
+      "duration": 4.481,
+      "text": "compatible APIs. It's an API that looks"
+    },
+    {
+      "start": 464.08,
+      "duration": 3.76,
+      "text": "and behaves like OpenAI's API, but it"
+    },
+    {
+      "start": 466.24,
+      "duration": 4.32,
+      "text": "doesn't have to come directly from"
+    },
+    {
+      "start": 467.84,
+      "duration": 4.479,
+      "text": "OpenAI. This is where proxy server comes"
+    },
+    {
+      "start": 470.56,
+      "duration": 4.639,
+      "text": "in. It makes the other models like"
+    },
+    {
+      "start": 472.319,
+      "duration": 5.681,
+      "text": "Enthropic, Google, open source LLMs and"
+    },
+    {
+      "start": 475.199,
+      "duration": 4.801,
+      "text": "etc behave as if it was from OpenAI. We"
+    },
+    {
+      "start": 478,
+      "duration": 4.24,
+      "text": "start with a simple connection, then"
+    },
+    {
+      "start": 480,
+      "duration": 4.56,
+      "text": "explore how messages work in Langchain"
+    },
+    {
+      "start": 482.24,
+      "duration": 4.32,
+      "text": "using system message and human message"
+    },
+    {
+      "start": 484.56,
+      "duration": 4,
+      "text": "objects to structure our conversations."
+    },
+    {
+      "start": 486.56,
+      "duration": 4.16,
+      "text": "The code shows us building conversation"
+    },
+    {
+      "start": 488.56,
+      "duration": 4.319,
+      "text": "history that the AI can reference. The"
+    },
+    {
+      "start": 490.72,
+      "duration": 4,
+      "text": "model configuration section demonstrates"
+    },
+    {
+      "start": 492.879,
+      "duration": 4.081,
+      "text": "something crucial which is temperature"
+    },
+    {
+      "start": 494.72,
+      "duration": 4.4,
+      "text": "control. Set it to zero for precise"
+    },
+    {
+      "start": 496.96,
+      "duration": 4.32,
+      "text": "consistent answers or higher for"
+    },
+    {
+      "start": 499.12,
+      "duration": 4.72,
+      "text": "creative responses. We create different"
+    },
+    {
+      "start": 501.28,
+      "duration": 4.88,
+      "text": "models instances for different purposes."
+    },
+    {
+      "start": 503.84,
+      "duration": 4.479,
+      "text": "a fast model for simple tasks, a"
+    },
+    {
+      "start": 506.16,
+      "duration": 4.479,
+      "text": "reasoning model for complex logic, a"
+    },
+    {
+      "start": 508.319,
+      "duration": 4.64,
+      "text": "coding expert for programming questions."
+    },
+    {
+      "start": 510.639,
+      "duration": 4.241,
+      "text": "The code even shows us how to enable"
+    },
+    {
+      "start": 512.959,
+      "duration": 3.52,
+      "text": "streaming for real-time responses."
+    },
+    {
+      "start": 514.88,
+      "duration": 3.76,
+      "text": "Create the script files and execute"
+    },
+    {
+      "start": 516.479,
+      "duration": 4,
+      "text": "them. Once done, check your work and"
+    },
+    {
+      "start": 518.64,
+      "duration": 4.48,
+      "text": "move on to the next question. Here's"
+    },
+    {
+      "start": 520.479,
+      "duration": 4.641,
+      "text": "where it gets powerful. LCEL, the lang"
+    },
+    {
+      "start": 523.12,
+      "duration": 3.92,
+      "text": "chain expression language. It's a new"
+    },
+    {
+      "start": 525.12,
+      "duration": 4.08,
+      "text": "way of building and chaining components"
+    },
+    {
+      "start": 527.04,
+      "duration": 4.64,
+      "text": "in Langchain. Instead of writing long"
+    },
+    {
+      "start": 529.2,
+      "duration": 5.199,
+      "text": "complex code, LCAL lets you create"
+    },
+    {
+      "start": 531.68,
+      "duration": 4.96,
+      "text": "simple composable pipelines using pipe"
+    },
+    {
+      "start": 534.399,
+      "duration": 4.321,
+      "text": "operators. We chain components together"
+    },
+    {
+      "start": 536.64,
+      "duration": 3.68,
+      "text": "elegantly. With streaming first, you"
+    },
+    {
+      "start": 538.72,
+      "duration": 3.28,
+      "text": "don't have to wait for the whole answer."
+    },
+    {
+      "start": 540.32,
+      "duration": 3.76,
+      "text": "The response starts flowing in"
+    },
+    {
+      "start": 542,
+      "duration": 3.92,
+      "text": "immediately. Async native means"
+    },
+    {
+      "start": 544.08,
+      "duration": 3.759,
+      "text": "everything runs without blocking, giving"
+    },
+    {
+      "start": 545.92,
+      "duration": 3.919,
+      "text": "you smoother and faster performance."
+    },
+    {
+      "start": 547.839,
+      "duration": 4.241,
+      "text": "With batch processing, you can handle"
+    },
+    {
+      "start": 549.839,
+      "duration": 4.401,
+      "text": "multiple inputs at the same time, making"
+    },
+    {
+      "start": 552.08,
+      "duration": 4.48,
+      "text": "things more efficient. And type safety"
+    },
+    {
+      "start": 554.24,
+      "duration": 4.159,
+      "text": "ensures that all your inputs and outputs"
+    },
+    {
+      "start": 556.56,
+      "duration": 3.839,
+      "text": "follow the right structure so nothing"
+    },
+    {
+      "start": 558.399,
+      "duration": 4.321,
+      "text": "breaks unexpectedly. The code literally"
+    },
+    {
+      "start": 560.399,
+      "duration": 5.041,
+      "text": "shows prompt piping into model piping"
+    },
+    {
+      "start": 562.72,
+      "duration": 5.04,
+      "text": "into parser. It's clean, readable, and"
+    },
+    {
+      "start": 565.44,
+      "duration": 4.16,
+      "text": "makes complex workflows manageable. We"
+    },
+    {
+      "start": 567.76,
+      "duration": 3.759,
+      "text": "build a chain that takes a question,"
+    },
+    {
+      "start": 569.6,
+      "duration": 4.56,
+      "text": "formats it into a template, sends it to"
+    },
+    {
+      "start": 571.519,
+      "duration": 4.241,
+      "text": "a model, and parses the output allin-one"
+    },
+    {
+      "start": 574.16,
+      "duration": 3.84,
+      "text": "flowing pipeline. Here's what's"
+    },
+    {
+      "start": 575.76,
+      "duration": 4.48,
+      "text": "happening with LCL in that snippet. We"
+    },
+    {
+      "start": 578,
+      "duration": 4.48,
+      "text": "first define a model chat openai that"
+    },
+    {
+      "start": 580.24,
+      "duration": 3.76,
+      "text": "connects to GPT through a proxy. Then we"
+    },
+    {
+      "start": 582.48,
+      "duration": 3.359,
+      "text": "create a prompt template with a"
+    },
+    {
+      "start": 584,
+      "duration": 4.08,
+      "text": "placeholder question so that we can"
+    },
+    {
+      "start": 585.839,
+      "duration": 4.321,
+      "text": "reuse it for different inputs. Next, we"
+    },
+    {
+      "start": 588.08,
+      "duration": 4.72,
+      "text": "add a parser that converts the model's"
+    },
+    {
+      "start": 590.16,
+      "duration": 5.119,
+      "text": "output into plain string. Finally, using"
+    },
+    {
+      "start": 592.8,
+      "duration": 4.8,
+      "text": "LCL's pipe operator, we link these"
+    },
+    {
+      "start": 595.279,
+      "duration": 4,
+      "text": "components together. Prompt to model to"
+    },
+    {
+      "start": 597.6,
+      "duration": 4.08,
+      "text": "parser. There are other chains such as"
+    },
+    {
+      "start": 599.279,
+      "duration": 4.481,
+      "text": "parallel execution, dynamic routing, and"
+    },
+    {
+      "start": 601.68,
+      "duration": 4,
+      "text": "advanced LCL that I'll let you explore"
+    },
+    {
+      "start": 603.76,
+      "duration": 3.759,
+      "text": "by yourself. Create and execute the"
+    },
+    {
+      "start": 605.68,
+      "duration": 3.76,
+      "text": "script and check your work and proceed"
+    },
+    {
+      "start": 607.519,
+      "duration": 3.921,
+      "text": "to the next question. In lane chain,"
+    },
+    {
+      "start": 609.44,
+      "duration": 4.24,
+      "text": "memory is the system that keeps track of"
+    },
+    {
+      "start": 611.44,
+      "duration": 4.959,
+      "text": "conversation history, the context. It"
+    },
+    {
+      "start": 613.68,
+      "duration": 4.56,
+      "text": "stores past user inputs and AI responses"
+    },
+    {
+      "start": 616.399,
+      "duration": 3.68,
+      "text": "so that the model can give you answers"
+    },
+    {
+      "start": 618.24,
+      "duration": 3.839,
+      "text": "that feel natural, coherent, and"
+    },
+    {
+      "start": 620.079,
+      "duration": 3.76,
+      "text": "contextual just like a human would in an"
+    },
+    {
+      "start": 622.079,
+      "duration": 4.081,
+      "text": "ongoing conversation. For memory"
+    },
+    {
+      "start": 623.839,
+      "duration": 4.481,
+      "text": "systems, we implement in-memory chat"
+    },
+    {
+      "start": 626.16,
+      "duration": 4,
+      "text": "message history wrapped with runnable"
+    },
+    {
+      "start": 628.32,
+      "duration": 4.24,
+      "text": "with message history that maintains"
+    },
+    {
+      "start": 630.16,
+      "duration": 4.56,
+      "text": "context across interfaces. The example"
+    },
+    {
+      "start": 632.56,
+      "duration": 3.76,
+      "text": "demonstrates this perfectly. The AI"
+    },
+    {
+      "start": 634.72,
+      "duration": 4,
+      "text": "remembers that the user introduced"
+    },
+    {
+      "start": 636.32,
+      "duration": 4.48,
+      "text": "themselves as Alice and loves Python and"
+    },
+    {
+      "start": 638.72,
+      "duration": 4.48,
+      "text": "can recall this information later in the"
+    },
+    {
+      "start": 640.8,
+      "duration": 4.32,
+      "text": "conversation. This persistent context is"
+    },
+    {
+      "start": 643.2,
+      "duration": 3.759,
+      "text": "what makes conversations feel natural."
+    },
+    {
+      "start": 645.12,
+      "duration": 4,
+      "text": "The rag implementation is where we"
+    },
+    {
+      "start": 646.959,
+      "duration": 4.241,
+      "text": "connect our chatbot to actual knowledge."
+    },
+    {
+      "start": 649.12,
+      "duration": 4,
+      "text": "We load a document about lang chain"
+    },
+    {
+      "start": 651.2,
+      "duration": 3.759,
+      "text": "itself, split it into chunks, create"
+    },
+    {
+      "start": 653.12,
+      "duration": 4.08,
+      "text": "embeddings and store them in a vector"
+    },
+    {
+      "start": 654.959,
+      "duration": 4.241,
+      "text": "database. When user asks question, the"
+    },
+    {
+      "start": 657.2,
+      "duration": 4.319,
+      "text": "system retrieves relevant information"
+    },
+    {
+      "start": 659.2,
+      "duration": 4.48,
+      "text": "and generates informed responses. The"
+    },
+    {
+      "start": 661.519,
+      "duration": 4.161,
+      "text": "code shows the complete pipeline from"
+    },
+    {
+      "start": 663.68,
+      "duration": 3.68,
+      "text": "document loading to question answering."
+    },
+    {
+      "start": 665.68,
+      "duration": 3.36,
+      "text": "By the way, if you haven't learned Rag"
+    },
+    {
+      "start": 667.36,
+      "duration": 3.68,
+      "text": "yet, check out the video we launched"
+    },
+    {
+      "start": 669.04,
+      "duration": 3.84,
+      "text": "last week on our YouTube channel. Okay,"
+    },
+    {
+      "start": 671.04,
+      "duration": 3.84,
+      "text": "finally, everything culminates in"
+    },
+    {
+      "start": 672.88,
+      "duration": 4,
+      "text": "deploying our chatbot. The lab has"
+    },
+    {
+      "start": 674.88,
+      "duration": 4.079,
+      "text": "prepared a complete application that"
+    },
+    {
+      "start": 676.88,
+      "duration": 5.199,
+      "text": "combines all these elements. When we run"
+    },
+    {
+      "start": 678.959,
+      "duration": 4.961,
+      "text": "it, it launches on port 7860 as a fully"
+    },
+    {
+      "start": 682.079,
+      "duration": 4,
+      "text": "functional chatbot with memory,"
+    },
+    {
+      "start": 683.92,
+      "duration": 4.32,
+      "text": "knowledge retrieval, and multimodel"
+    },
+    {
+      "start": 686.079,
+      "duration": 4.241,
+      "text": "support. What makes this powerful isn't"
+    },
+    {
+      "start": 688.24,
+      "duration": 4.24,
+      "text": "just the individual components. It's how"
+    },
+    {
+      "start": 690.32,
+      "duration": 4.24,
+      "text": "lang chain provides a coherent framework"
+    },
+    {
+      "start": 692.48,
+      "duration": 3.68,
+      "text": "for productionready AI application."
+    },
+    {
+      "start": 694.56,
+      "duration": 3.6,
+      "text": "Without it, you'd be writing custom"
+    },
+    {
+      "start": 696.16,
+      "duration": 4,
+      "text": "implementation for custom memory,"
+    },
+    {
+      "start": 698.16,
+      "duration": 3.84,
+      "text": "building semantic search from scratch,"
+    },
+    {
+      "start": 700.16,
+      "duration": 4.08,
+      "text": "and managing complex model switching"
+    },
+    {
+      "start": 702,
+      "duration": 4.32,
+      "text": "logic. The beauty of Langchain is vendor"
+    },
+    {
+      "start": 704.24,
+      "duration": 4.24,
+      "text": "independence. If your company decides to"
+    },
+    {
+      "start": 706.32,
+      "duration": 4,
+      "text": "switch from OpenAI to Enthropic, it's a"
+    },
+    {
+      "start": 708.48,
+      "duration": 3.599,
+      "text": "oneline change instead of rewriting"
+    },
+    {
+      "start": 710.32,
+      "duration": 3.36,
+      "text": "everything. As you work through the lab,"
+    },
+    {
+      "start": 712.079,
+      "duration": 3.361,
+      "text": "experiment with different temperature"
+    },
+    {
+      "start": 713.68,
+      "duration": 3.76,
+      "text": "settings and model configurations."
+    },
+    {
+      "start": 715.44,
+      "duration": 4,
+      "text": "You'll quickly develop an intuition for"
+    },
+    {
+      "start": 717.44,
+      "duration": 4.16,
+      "text": "when to use precise versus creative"
+    },
+    {
+      "start": 719.44,
+      "duration": 4,
+      "text": "models. For more in-depth courses and"
+    },
+    {
+      "start": 721.6,
+      "duration": 3.52,
+      "text": "hands-on labs, check out our AI learning"
+    },
+    {
+      "start": 723.44,
+      "duration": 3.12,
+      "text": "path on CodeCloud. Let us know what"
+    },
+    {
+      "start": 725.12,
+      "duration": 3.04,
+      "text": "you'd like to learn from us in the"
+    },
+    {
+      "start": 726.56,
+      "duration": 3.2,
+      "text": "comments below. And don't forget to"
+    },
+    {
+      "start": 728.16,
+      "duration": 6.2,
+      "text": "subscribe to our channel and to be"
+    },
+    {
+      "start": 729.76,
+      "duration": 4.6,
+      "text": "notified when we release new content."
+    }
+  ],
+  "fullText": "Your company needs a chatbot on their site where customers can ask questions. The chatbot needs to store and retrieve all chat history as well as company knowledge base so that the agent can help your customer. And you might be wondering, how am I going to make this happen? Maybe your first instinct is to use OpenAI's SDK to write up a quick software and create and simulate a chat. But you soon realize that there's a huge missing piece which is context. You realize that you need to store these chat messages somewhere and maintain conversation history. And most importantly, you need the agent to base their answer from company's internal knowledge base to answer questions accordingly. Also, you're not so sure that the company will later change from OpenAI to a different model like Anthropic or Gemini. And now all of a sudden, this all seems like a massive undertaking. Lang Chain is an abstraction layer that helps you build agents with minimal code. In other words, all the pain points that we identified earlier, Langchain gives you the tools to address them using their library. And you might be wondering at this point, what's the difference between an agent and an LLM? Understanding agent is a critical piece in knowing why Langchain is a necessary tool for you to learn. When you use LLMs like OpenAI GPT, Anthropex Claude, or even Google's Gemini, you're using these models out of the box, meaning the model is rather like a static brain that answers questions based on what it learned during training. On the other hand, an agent has full autonomy with memory and tools to do whatever it thinks it needs to get the job done. So in the earlier case, let's say the customer asked this question. What's your company's policy on refunding my product that arrived damaged? Now, traditionally, you might code something custom for this specific need. Now, with agents, things look a little bit different. An agent will have these capabilities for them to perform. First, ability to understand your intent using an LLM. Two, ability to store a company's knowledge base in a vector database. Three, ability to perform retrieval from vector database to find relevant data. Four, ability to search internal database to find what product the customer actually ordered. Five, ability to generate an answer based on the product they ordered according to the company's policy that we gathered. And lastly, ability to know the chat history with the memory. The biggest difference between traditional software and agentic software that you build using lang chain is this. In traditional software, these are typically programmed to run sequentially or conditionally based on code that determines how it's run. In the case of Langchain, these are rather developed in components and provided to an agent for it to decide how best to use its ability to deliver the task. Thankfully, Langchain comes with a large set of pre-built components. In our earlier example, to set up lane chain for your company's chatbot, Langchain allows you to use their existing tool that gives you direct access to LLM providers like OpenAI and Enthropic. This means that setting up an API to OpenAI can easily be done using a single line of code that says LLM equals chat openAI instead of writing your own implementation of API connection or even using the provider SDK tools which keeps you locked in and difficult to switch in the future. So later if the requirements change to use anthropic instead of OpenAI, you simply need to change the code to say LLM equals chatanthropic open bracket quote model equals cla 3 sonnet. A similar process just like this applies to all other abilities that we laid out earlier. Meaning components that we identified in what typically goes into chatbots like memory, tools, MCP, vector databases, rag, all of these can be set up and configured using Langchain's pre-built libraries. Now, there's an extension of Langchain that helps you do more workflow automation called Langraph. And Langraph can interoperate with Langchain, which is covered in the next video just dedicated towards Langraph for you to check out. So similar to earlier when we had to write code to manage API calls to LLM without lang chain you would have to write your own logic to convert your company's document into semantic meaning through text embedding store these embedding into a vector database like pine cone or chroma using their SDK implement your own semantic search and then inject these results into prompt at runtime and on top of that managing state managing memory managing tool writing logic as you can see the scope of writing and maintaining these can get out of hand really fast thankfully for lang chain inside lang chain's library. You can import modules like Chroma for components related to vector database, OpenAI embedding for components related to text embedding, conversation buffer memory for components related to keeping memory in chat. And there are so many more components like this that help alleviate development efforts that go into building agentic software like company chatbots that assist customer with return policy. With agents becoming the new way of building software, learning how to develop agentic software is becoming a critical skill set to have and libraries like Langchain can help your team drastically reduce development time and accelerate your path to market by using pre-built modules instead of reinventing the wheel on tasks related to building agentic software. Now that we covered the conceptual elements of Langchain, let's look at how it looks like on a practical level. We can look over at this lab specifically geared towards how to use lang. All right, let's start with the labs. In this lab, we'll build our way up from installing Langchain to deploying a fully functional chatbot that combines memory, knowledge retrieval, and multiple AI models. Use the link in the description below to access the lab environment to follow along with me. The first question presents us with this scenario. Our company needs a chatbot, but we're realizing that it's more complex than just calling an API. We need to install the complete langchain ecosystem. We start by creating a workspace called Langchain-lab. and setting up a Python virtual environment to keep everything isolated and clean. After upgrading our package tools, we installed a core langchain libraries that form the backbone for building AI powered apps along with LLM provider integrations like OpenAI, Enthropic, and Google so we can plug in different models easily. For storage and retrieval, we'll use FISS or Fias, which is the vector database used for semantic search and embeddings. We'll also install Python-Env to manage environment variables securely. And finally, Graddio to quickly build interactive demos and user interfaces. Next, we dive into prompt templates, which are really the foundation of Langchain. This shows how prompt techniques work. You start with templates like tell me about a certain topic, fill in variables like topic equals lang chain, and get the final prompt, tell me about lang chain, ready to send to the LLM. We have four example templates here. We start with basic templates that use variable substitution. Think of them like Python fst strings but for AI prompts. This code shows how to use Langchain's prompt template. First, we create a template with placeholders for product and feature. Then, we fill it with values like lang chain and AI orchestration to generate a marketing slogan prompt. After that, we test it with different examples, smartphone, electric car, AI assistant. Each time replacing the placeholders to produce new prompts. Finally, it saves a small progress flag in the file called basic-templates.txt. Then we move to chat templates that structure entire conversations with system, human, and assistant messages. This is how we maintain context and flow in our chatbot conversations. The fshot learning section is particularly interesting. Here we're teaching the AI through examples. We show it patterns like happy to sad and tall to short and it learns to apply this to new inputs. The code demonstrates this beautifully with a template that learns from examples and applies the patterns to new words. Take some time to explore the advanced templates sections yourself. It covers validation and structured outputs that are essentially for production applications. Make sure to create the files and execute them using the given commands before checking your work. Now, we connect to multiple LLMs through a unified interface. What's clever here is we're using a proxy server that gives us access to various models like OpenAI compatible APIs. It's an API that looks and behaves like OpenAI's API, but it doesn't have to come directly from OpenAI. This is where proxy server comes in. It makes the other models like Enthropic, Google, open source LLMs and etc behave as if it was from OpenAI. We start with a simple connection, then explore how messages work in Langchain using system message and human message objects to structure our conversations. The code shows us building conversation history that the AI can reference. The model configuration section demonstrates something crucial which is temperature control. Set it to zero for precise consistent answers or higher for creative responses. We create different models instances for different purposes. a fast model for simple tasks, a reasoning model for complex logic, a coding expert for programming questions. The code even shows us how to enable streaming for real-time responses. Create the script files and execute them. Once done, check your work and move on to the next question. Here's where it gets powerful. LCEL, the lang chain expression language. It's a new way of building and chaining components in Langchain. Instead of writing long complex code, LCAL lets you create simple composable pipelines using pipe operators. We chain components together elegantly. With streaming first, you don't have to wait for the whole answer. The response starts flowing in immediately. Async native means everything runs without blocking, giving you smoother and faster performance. With batch processing, you can handle multiple inputs at the same time, making things more efficient. And type safety ensures that all your inputs and outputs follow the right structure so nothing breaks unexpectedly. The code literally shows prompt piping into model piping into parser. It's clean, readable, and makes complex workflows manageable. We build a chain that takes a question, formats it into a template, sends it to a model, and parses the output allin-one flowing pipeline. Here's what's happening with LCL in that snippet. We first define a model chat openai that connects to GPT through a proxy. Then we create a prompt template with a placeholder question so that we can reuse it for different inputs. Next, we add a parser that converts the model's output into plain string. Finally, using LCL's pipe operator, we link these components together. Prompt to model to parser. There are other chains such as parallel execution, dynamic routing, and advanced LCL that I'll let you explore by yourself. Create and execute the script and check your work and proceed to the next question. In lane chain, memory is the system that keeps track of conversation history, the context. It stores past user inputs and AI responses so that the model can give you answers that feel natural, coherent, and contextual just like a human would in an ongoing conversation. For memory systems, we implement in-memory chat message history wrapped with runnable with message history that maintains context across interfaces. The example demonstrates this perfectly. The AI remembers that the user introduced themselves as Alice and loves Python and can recall this information later in the conversation. This persistent context is what makes conversations feel natural. The rag implementation is where we connect our chatbot to actual knowledge. We load a document about lang chain itself, split it into chunks, create embeddings and store them in a vector database. When user asks question, the system retrieves relevant information and generates informed responses. The code shows the complete pipeline from document loading to question answering. By the way, if you haven't learned Rag yet, check out the video we launched last week on our YouTube channel. Okay, finally, everything culminates in deploying our chatbot. The lab has prepared a complete application that combines all these elements. When we run it, it launches on port 7860 as a fully functional chatbot with memory, knowledge retrieval, and multimodel support. What makes this powerful isn't just the individual components. It's how lang chain provides a coherent framework for productionready AI application. Without it, you'd be writing custom implementation for custom memory, building semantic search from scratch, and managing complex model switching logic. The beauty of Langchain is vendor independence. If your company decides to switch from OpenAI to Enthropic, it's a oneline change instead of rewriting everything. As you work through the lab, experiment with different temperature settings and model configurations. You'll quickly develop an intuition for when to use precise versus creative models. For more in-depth courses and hands-on labs, check out our AI learning path on CodeCloud. Let us know what you'd like to learn from us in the comments below. And don't forget to subscribe to our channel and to be notified when we release new content.",
+  "fetchedAt": "2026-01-20T16:52:12.099Z"
+}

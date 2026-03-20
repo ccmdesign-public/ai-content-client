@@ -1,0 +1,1294 @@
+{
+  "videoId": "aHTCawFKkkw",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.92,
+      "text": "So something interesting happened on"
+    },
+    {
+      "start": 1.68,
+      "duration": 4.079,
+      "text": "Christmas morning for many an engineer."
+    },
+    {
+      "start": 4,
+      "duration": 4.72,
+      "text": "Many an engineer instead of opening"
+    },
+    {
+      "start": 5.759,
+      "duration": 4.721,
+      "text": "presents were in an absolute scramble"
+    },
+    {
+      "start": 8.72,
+      "duration": 3.999,
+      "text": "because any of the residual memory"
+    },
+    {
+      "start": 10.48,
+      "duration": 5.199,
+      "text": "running on some of their servers could"
+    },
+    {
+      "start": 12.719,
+      "duration": 5.601,
+      "text": "be exfiltrated with no logging in with"
+    },
+    {
+      "start": 15.679,
+      "duration": 5.201,
+      "text": "no clicking, just simply running a"
+    },
+    {
+      "start": 18.32,
+      "duration": 4.16,
+      "text": "server and kabam you're getting had."
+    },
+    {
+      "start": 20.88,
+      "duration": 4.159,
+      "text": "Now, I'm talking of course of everyone's"
+    },
+    {
+      "start": 22.48,
+      "duration": 4.639,
+      "text": "favorite Christmas present, the MongoDB"
+    },
+    {
+      "start": 25.039,
+      "duration": 4.801,
+      "text": "security incident, which happens to be"
+    },
+    {
+      "start": 27.119,
+      "duration": 4.641,
+      "text": "named Mongoled because it is named after"
+    },
+    {
+      "start": 29.84,
+      "duration": 3.76,
+      "text": "the heartbleleed exploit, which if you"
+    },
+    {
+      "start": 31.76,
+      "duration": 3.76,
+      "text": "don't know that one, it looks just like"
+    },
+    {
+      "start": 33.6,
+      "duration": 5.04,
+      "text": "this. Server, are you still there? If"
+    },
+    {
+      "start": 35.52,
+      "duration": 4.559,
+      "text": "so, reply, potato, six letters. Potato."
+    },
+    {
+      "start": 38.64,
+      "duration": 3.599,
+      "text": "Server, are you still there? Reply bird."
+    },
+    {
+      "start": 40.079,
+      "duration": 4.241,
+      "text": "Four letters. Bird. Server, you're still"
+    },
+    {
+      "start": 42.239,
+      "duration": 3.761,
+      "text": "there? Reply hat. 500 letters. And then"
+    },
+    {
+      "start": 44.32,
+      "duration": 4.8,
+      "text": "it just gives you everything. This is"
+    },
+    {
+      "start": 46,
+      "duration": 4.879,
+      "text": "effectively what Mongol is. All right."
+    },
+    {
+      "start": 49.12,
+      "duration": 4,
+      "text": "To put it into perspective, how it works"
+    },
+    {
+      "start": 50.879,
+      "duration": 4.641,
+      "text": "is that if you have a database"
+    },
+    {
+      "start": 53.12,
+      "duration": 4.88,
+      "text": "that has any sort of exposure to the"
+    },
+    {
+      "start": 55.52,
+      "duration": 4.64,
+      "text": "open internet or someone has been able"
+    },
+    {
+      "start": 58,
+      "duration": 3.84,
+      "text": "to gain access to one of your servers"
+    },
+    {
+      "start": 60.16,
+      "duration": 4.639,
+      "text": "and then can do a little bit of side"
+    },
+    {
+      "start": 61.84,
+      "duration": 4.72,
+      "text": "fumble over to your MongoDB instance,"
+    },
+    {
+      "start": 64.799,
+      "duration": 4,
+      "text": "they're able to take advantage of this."
+    },
+    {
+      "start": 66.56,
+      "duration": 4.48,
+      "text": "Now, any residual data, so anything that"
+    },
+    {
+      "start": 68.799,
+      "duration": 5.281,
+      "text": "has been allocated and has once been"
+    },
+    {
+      "start": 71.04,
+      "duration": 4.64,
+      "text": "used could potentially be exfiltrated."
+    },
+    {
+      "start": 74.08,
+      "duration": 4.079,
+      "text": "So that means your environment variables"
+    },
+    {
+      "start": 75.68,
+      "duration": 4.32,
+      "text": "could be exfiltrated. other just data in"
+    },
+    {
+      "start": 78.159,
+      "duration": 4.161,
+      "text": "your database could be taken. So how"
+    },
+    {
+      "start": 80,
+      "duration": 4.56,
+      "text": "this exactly works is that when an"
+    },
+    {
+      "start": 82.32,
+      "duration": 5.04,
+      "text": "attacker who has access to one of these"
+    },
+    {
+      "start": 84.56,
+      "duration": 5.599,
+      "text": "open MongoDB databases which by the way"
+    },
+    {
+      "start": 87.36,
+      "duration": 6.079,
+      "text": "it spans all the way back to version 3.6"
+    },
+    {
+      "start": 90.159,
+      "duration": 5.761,
+      "text": "which was released in 2017 so almost a"
+    },
+    {
+      "start": 93.439,
+      "duration": 4.961,
+      "text": "decade ago. That means any"
+    },
+    {
+      "start": 95.92,
+      "duration": 5.519,
+      "text": "database that is in production that has"
+    },
+    {
+      "start": 98.4,
+      "duration": 5.2,
+      "text": "any possible outside exposure has been"
+    },
+    {
+      "start": 101.439,
+      "duration": 4.401,
+      "text": "or is currently vulnerable to this"
+    },
+    {
+      "start": 103.6,
+      "duration": 3.76,
+      "text": "exploit right now. So the attacker what"
+    },
+    {
+      "start": 105.84,
+      "duration": 4.16,
+      "text": "they need to do is they need to craft a"
+    },
+    {
+      "start": 107.36,
+      "duration": 6.16,
+      "text": "specially formed Bison message. Now"
+    },
+    {
+      "start": 110,
+      "duration": 5.2,
+      "text": "Bison stands for binary JSON. Uh it's"
+    },
+    {
+      "start": 113.52,
+      "duration": 3.2,
+      "text": "kind of silly you know. I'm just hey I'm"
+    },
+    {
+      "start": 115.2,
+      "duration": 3.68,
+      "text": "just throwing it out there like what are"
+    },
+    {
+      "start": 116.72,
+      "duration": 4.16,
+      "text": "you actually getting out of binary"
+    },
+    {
+      "start": 118.88,
+      "duration": 3.76,
+      "text": "serialization with JSON. I'm not sure if"
+    },
+    {
+      "start": 120.88,
+      "duration": 4.08,
+      "text": "it's actually any more performant or"
+    },
+    {
+      "start": 122.64,
+      "duration": 3.439,
+      "text": "what is the purpose of it. But hey okay"
+    },
+    {
+      "start": 124.96,
+      "duration": 2.96,
+      "text": "who cares? Some people like their"
+    },
+    {
+      "start": 126.079,
+      "duration": 3.761,
+      "text": "cucumbers pickled. Anyways so you"
+    },
+    {
+      "start": 127.92,
+      "duration": 3.28,
+      "text": "specially craft this uh bison on"
+    },
+    {
+      "start": 129.84,
+      "duration": 3.36,
+      "text": "message. Now, part of the spice on"
+    },
+    {
+      "start": 131.2,
+      "duration": 3.44,
+      "text": "message is that you say, \"Hey, this"
+    },
+    {
+      "start": 133.2,
+      "duration": 2.399,
+      "text": "thing is going to be, you know, like"
+    },
+    {
+      "start": 134.64,
+      "duration": 2.88,
+      "text": "some there's going to be some"
+    },
+    {
+      "start": 135.599,
+      "duration": 3.761,
+      "text": "compression involved here.\" And so, when"
+    },
+    {
+      "start": 137.52,
+      "duration": 3.2,
+      "text": "this message is sent up, it's sent up"
+    },
+    {
+      "start": 139.36,
+      "duration": 3.68,
+      "text": "with the compression information, but"
+    },
+    {
+      "start": 140.72,
+      "duration": 4.72,
+      "text": "it's also sent up with a content length"
+    },
+    {
+      "start": 143.04,
+      "duration": 4.4,
+      "text": "effectively. Like, if you had a HTTP"
+    },
+    {
+      "start": 145.44,
+      "duration": 3.84,
+      "text": "header content length, that content"
+    },
+    {
+      "start": 147.44,
+      "duration": 3.92,
+      "text": "length can be set to whatever you want."
+    },
+    {
+      "start": 149.28,
+      "duration": 6.4,
+      "text": "So, you can set it to like 800. And the"
+    },
+    {
+      "start": 151.36,
+      "duration": 6.4,
+      "text": "thing is, instead of actually"
+    },
+    {
+      "start": 155.68,
+      "duration": 4.48,
+      "text": "going, \"Okay, hey, we decompress this"
+    },
+    {
+      "start": 157.76,
+      "duration": 3.759,
+      "text": "data. it takes up seven bytes. Instead,"
+    },
+    {
+      "start": 160.16,
+      "duration": 2.96,
+      "text": "they go, \"Okay, we decompress this"
+    },
+    {
+      "start": 161.519,
+      "duration": 3.681,
+      "text": "data.\" They return whatever was"
+    },
+    {
+      "start": 163.12,
+      "duration": 4.16,
+      "text": "allocated along with your decompressed"
+    },
+    {
+      "start": 165.2,
+      "duration": 5.2,
+      "text": "message. Which means not only is this"
+    },
+    {
+      "start": 167.28,
+      "duration": 5.679,
+      "text": "like a security xfiltration possibility,"
+    },
+    {
+      "start": 170.4,
+      "duration": 4.08,
+      "text": "it's also an attack vector where uh you"
+    },
+    {
+      "start": 172.959,
+      "duration": 3.28,
+      "text": "know attackers can make your computer"
+    },
+    {
+      "start": 174.48,
+      "duration": 3.68,
+      "text": "have you can have out of memory"
+    },
+    {
+      "start": 176.239,
+      "duration": 4.08,
+      "text": "exceptions where they can effectively"
+    },
+    {
+      "start": 178.16,
+      "duration": 4.079,
+      "text": "hold you down and doss you and never"
+    },
+    {
+      "start": 180.319,
+      "duration": 3.92,
+      "text": "have your database be able to be able to"
+    },
+    {
+      "start": 182.239,
+      "duration": 3.681,
+      "text": "run. It's a pretty serious thing because"
+    },
+    {
+      "start": 184.239,
+      "duration": 4.321,
+      "text": "they can get a whole bunch of"
+    },
+    {
+      "start": 185.92,
+      "duration": 4.959,
+      "text": "information out of your system and they"
+    },
+    {
+      "start": 188.56,
+      "duration": 4.64,
+      "text": "can make your server very sad at the"
+    },
+    {
+      "start": 190.879,
+      "duration": 4.64,
+      "text": "exact same time. Now, this incident did"
+    },
+    {
+      "start": 193.2,
+      "duration": 6.36,
+      "text": "actually get reported on Christmas Day."
+    },
+    {
+      "start": 195.519,
+      "duration": 4.041,
+      "text": "The CVE 202514847"
+    },
+    {
+      "start": 199.599,
+      "duration": 5.28,
+      "text": "was posted Christmas Day with an 8.7."
+    },
+    {
+      "start": 203.28,
+      "duration": 2.879,
+      "text": "Pretty high number right there. Okay,"
+    },
+    {
+      "start": 204.879,
+      "duration": 2.881,
+      "text": "that's I mean that's better than the"
+    },
+    {
+      "start": 206.159,
+      "duration": 3.281,
+      "text": "grades I got in high school. And a lot"
+    },
+    {
+      "start": 207.76,
+      "duration": 3.119,
+      "text": "of people, by the way, they were kind of"
+    },
+    {
+      "start": 209.44,
+      "duration": 2.719,
+      "text": "dog piling on this. I saw a lot of"
+    },
+    {
+      "start": 210.879,
+      "duration": 4.401,
+      "text": "posts. People were like posting the"
+    },
+    {
+      "start": 212.159,
+      "duration": 5.521,
+      "text": "guy's face. It was a bit unhinged out"
+    },
+    {
+      "start": 215.28,
+      "duration": 4.959,
+      "text": "there. But to be completely fair, the"
+    },
+    {
+      "start": 217.68,
+      "duration": 5.119,
+      "text": "guy did post that on Christmas. But on"
+    },
+    {
+      "start": 220.239,
+      "duration": 5.601,
+      "text": "Christmas Eve, someone else did post the"
+    },
+    {
+      "start": 222.799,
+      "duration": 5.681,
+      "text": "technical breakdown of this exploit. And"
+    },
+    {
+      "start": 225.84,
+      "duration": 5.759,
+      "text": "so naturally, the CV just had to be"
+    },
+    {
+      "start": 228.48,
+      "duration": 4.96,
+      "text": "followed because turns out exploit up."
+    },
+    {
+      "start": 231.599,
+      "duration": 4.56,
+      "text": "Everybody knows about it. Technical"
+    },
+    {
+      "start": 233.44,
+      "duration": 4.159,
+      "text": "analysis out in the open Christmas Eve."
+    },
+    {
+      "start": 236.159,
+      "duration": 2.72,
+      "text": "Now, the technical exploit is actually"
+    },
+    {
+      "start": 237.599,
+      "duration": 3.28,
+      "text": "really hilarious because if you look at"
+    },
+    {
+      "start": 238.879,
+      "duration": 3.761,
+      "text": "it, just like we said over here in this"
+    },
+    {
+      "start": 240.879,
+      "duration": 4,
+      "text": "drawing with returning the entire"
+    },
+    {
+      "start": 242.64,
+      "duration": 3.76,
+      "text": "payload, this bad boy right here, that's"
+    },
+    {
+      "start": 244.879,
+      "duration": 3.36,
+      "text": "all it is. It's the difference between"
+    },
+    {
+      "start": 246.4,
+      "duration": 3.68,
+      "text": "returning whatever the length was from"
+    },
+    {
+      "start": 248.239,
+      "duration": 3.92,
+      "text": "the returned decompression versus"
+    },
+    {
+      "start": 250.08,
+      "duration": 4.079,
+      "text": "whatever it just decided to say, hey,"
+    },
+    {
+      "start": 252.159,
+      "duration": 3.92,
+      "text": "this is the length. This is kind of the"
+    },
+    {
+      "start": 254.159,
+      "duration": 5.92,
+      "text": "length I said was going to happen. It's"
+    },
+    {
+      "start": 256.079,
+      "duration": 7.601,
+      "text": "just like such a simple small error."
+    },
+    {
+      "start": 260.079,
+      "duration": 5.521,
+      "text": "It's so easy to mess up. and even not"
+    },
+    {
+      "start": 263.68,
+      "duration": 3.68,
+      "text": "seeing that in a code review. And you"
+    },
+    {
+      "start": 265.6,
+      "duration": 3.52,
+      "text": "know, obviously it's a day that ends in"
+    },
+    {
+      "start": 267.36,
+      "duration": 4.32,
+      "text": "Y, so this gives me an opportunity to"
+    },
+    {
+      "start": 269.12,
+      "duration": 4.4,
+      "text": "talk a little about AI. But this is"
+    },
+    {
+      "start": 271.68,
+      "duration": 4.72,
+      "text": "why when people say they they are now"
+    },
+    {
+      "start": 273.52,
+      "duration": 5.2,
+      "text": "writing like 2,000, 5,000, 10,000 lines"
+    },
+    {
+      "start": 276.4,
+      "duration": 4.32,
+      "text": "of code a day. I don't go, \"Oh wow, that"
+    },
+    {
+      "start": 278.72,
+      "duration": 4.64,
+      "text": "sounds so cool.\" I go, \"Oh my gosh, that"
+    },
+    {
+      "start": 280.72,
+      "duration": 4.479,
+      "text": "sounds horrifying.\" It's exactly stuff"
+    },
+    {
+      "start": 283.36,
+      "duration": 4.08,
+      "text": "like this because if I were to be"
+    },
+    {
+      "start": 285.199,
+      "duration": 3.761,
+      "text": "reviewing huge amounts of code, you know"
+    },
+    {
+      "start": 287.44,
+      "duration": 3.12,
+      "text": "how easy this would be to miss? It's"
+    },
+    {
+      "start": 288.96,
+      "duration": 2.64,
+      "text": "actually extremely simple. You just are"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.32,
+      "text": "looking at that, you're like, \"Okay,"
+    },
+    {
+      "start": 291.6,
+      "duration": 2.8,
+      "text": "yep. Okay. return the length of the"
+    },
+    {
+      "start": 292.88,
+      "duration": 3.759,
+      "text": "buffer. Yep, I got that. That seems"
+    },
+    {
+      "start": 294.4,
+      "duration": 4.32,
+      "text": "simple. Like, no, you returned the"
+    },
+    {
+      "start": 296.639,
+      "duration": 4.401,
+      "text": "length of the total buffer. You didn't"
+    },
+    {
+      "start": 298.72,
+      "duration": 4.32,
+      "text": "return the length of the data, right? Oh"
+    },
+    {
+      "start": 301.04,
+      "duration": 4.8,
+      "text": "my gosh, it's like right there in front"
+    },
+    {
+      "start": 303.04,
+      "duration": 4.8,
+      "text": "of you, but it's so simple to miss."
+    },
+    {
+      "start": 305.84,
+      "duration": 4.72,
+      "text": "Like, people don't realize how hard it"
+    },
+    {
+      "start": 307.84,
+      "duration": 5.28,
+      "text": "is to review code properly. If anything,"
+    },
+    {
+      "start": 310.56,
+      "duration": 4.8,
+      "text": "this is a great testament to how easy it"
+    },
+    {
+      "start": 313.12,
+      "duration": 5.04,
+      "text": "is to miss something and to miss it. For"
+    },
+    {
+      "start": 315.36,
+      "duration": 4.8,
+      "text": "literally a decade, there was five"
+    },
+    {
+      "start": 318.16,
+      "duration": 4,
+      "text": "separate major versions of"
+    },
+    {
+      "start": 320.16,
+      "duration": 4.479,
+      "text": "released and this code was able to make"
+    },
+    {
+      "start": 322.16,
+      "duration": 5.36,
+      "text": "it. So even the decisions you make a"
+    },
+    {
+      "start": 324.639,
+      "duration": 4.721,
+      "text": "decade ago can still hang around in"
+    },
+    {
+      "start": 327.52,
+      "duration": 4.32,
+      "text": "production, potentially causing a"
+    },
+    {
+      "start": 329.36,
+      "duration": 4.64,
+      "text": "ticking time bomb on Christmas morning"
+    },
+    {
+      "start": 331.84,
+      "duration": 4.24,
+      "text": "to blow up and cause thousands upon"
+    },
+    {
+      "start": 334,
+      "duration": 3.52,
+      "text": "thousands upon thousands of engineers to"
+    },
+    {
+      "start": 336.08,
+      "duration": 3.92,
+      "text": "panic. For if you didn't even see,"
+    },
+    {
+      "start": 337.52,
+      "duration": 5.44,
+      "text": "there's apparently reported 87,000"
+    },
+    {
+      "start": 340,
+      "duration": 4.479,
+      "text": "MongoDB instances exposed by this uh"
+    },
+    {
+      "start": 342.96,
+      "duration": 3.12,
+      "text": "vulnerability. I'm sure the number is"
+    },
+    {
+      "start": 344.479,
+      "duration": 3.361,
+      "text": "much much higher. This is just some of"
+    },
+    {
+      "start": 346.08,
+      "duration": 3.52,
+      "text": "the numbers I've been able to gather."
+    },
+    {
+      "start": 347.84,
+      "duration": 3.84,
+      "text": "There's been a tons and tons of"
+    },
+    {
+      "start": 349.6,
+      "duration": 4.8,
+      "text": "companies that have been exposed to this"
+    },
+    {
+      "start": 351.68,
+      "duration": 4.56,
+      "text": "and who knows how long they have been"
+    },
+    {
+      "start": 354.4,
+      "duration": 3.68,
+      "text": "exposed to this and for how long people"
+    },
+    {
+      "start": 356.24,
+      "duration": 4.399,
+      "text": "have been taking advantage of. In fact,"
+    },
+    {
+      "start": 358.08,
+      "duration": 5.36,
+      "text": "a game from Ubisoft, Rainbow Six Siege,"
+    },
+    {
+      "start": 360.639,
+      "duration": 4.881,
+      "text": "one of the five groups of hackers have"
+    },
+    {
+      "start": 363.44,
+      "duration": 4.64,
+      "text": "claimed that they got a hold of Ubisoft"
+    },
+    {
+      "start": 365.52,
+      "duration": 4.239,
+      "text": "source code through Mongol. But don't"
+    },
+    {
+      "start": 368.08,
+      "duration": 3.44,
+      "text": "worry, group five came out and said they"
+    },
+    {
+      "start": 369.759,
+      "duration": 3.921,
+      "text": "are liars."
+    },
+    {
+      "start": 371.52,
+      "duration": 4.64,
+      "text": "Crazy stuff happening over on Rainbow"
+    },
+    {
+      "start": 373.68,
+      "duration": 5.04,
+      "text": "Six Siege. But that's just how big this"
+    },
+    {
+      "start": 376.16,
+      "duration": 5.52,
+      "text": "incident is is that so many eyes are on"
+    },
+    {
+      "start": 378.72,
+      "duration": 4.96,
+      "text": "it and so many people have had to take"
+    },
+    {
+      "start": 381.68,
+      "duration": 3.359,
+      "text": "Christmas and actually just go and try"
+    },
+    {
+      "start": 383.68,
+      "duration": 3.04,
+      "text": "to figure out how to upgrade their"
+    },
+    {
+      "start": 385.039,
+      "duration": 3.681,
+      "text": "systems. And some of the worst parts if"
+    },
+    {
+      "start": 386.72,
+      "duration": 4.64,
+      "text": "you're working on like a mega legacy"
+    },
+    {
+      "start": 388.72,
+      "duration": 5.12,
+      "text": "system, there's versions apparently that"
+    },
+    {
+      "start": 391.36,
+      "duration": 4.48,
+      "text": "don't even have a fixed version for it."
+    },
+    {
+      "start": 393.84,
+      "duration": 4,
+      "text": "You have to upgrade. And for anybody"
+    },
+    {
+      "start": 395.84,
+      "duration": 3.6,
+      "text": "that's worked on some legacy stuff,"
+    },
+    {
+      "start": 397.84,
+      "duration": 3.52,
+      "text": "upgrading [snorts]"
+    },
+    {
+      "start": 399.44,
+      "duration": 4.319,
+      "text": "it never feels good. Okay, this is not"
+    },
+    {
+      "start": 401.36,
+      "duration": 3.76,
+      "text": "this is usually not a fun experience."
+    },
+    {
+      "start": 403.759,
+      "duration": 2.801,
+      "text": "So, the moral of the story really is"
+    },
+    {
+      "start": 405.12,
+      "duration": 4,
+      "text": "that uh code reviews are super"
+    },
+    {
+      "start": 406.56,
+      "duration": 4.32,
+      "text": "important. Good luck for those that hey,"
+    },
+    {
+      "start": 409.12,
+      "duration": 4.56,
+      "text": "for those that have the unfortunate"
+    },
+    {
+      "start": 410.88,
+      "duration": 6.48,
+      "text": "teammate that is out there making 50 PRs"
+    },
+    {
+      "start": 413.68,
+      "duration": 5.84,
+      "text": "a day, I'm sorry. RIP to you, [laughter]"
+    },
+    {
+      "start": 417.36,
+      "duration": 4.16,
+      "text": "man. That would be rough. Also, I'll"
+    },
+    {
+      "start": 419.52,
+      "duration": 3.36,
+      "text": "include inside the description uh this"
+    },
+    {
+      "start": 421.52,
+      "duration": 3.04,
+      "text": "right here, which is the Mongoled"
+    },
+    {
+      "start": 422.88,
+      "duration": 3.92,
+      "text": "detector, which can go through and see,"
+    },
+    {
+      "start": 424.56,
+      "duration": 4,
+      "text": "hey, have you been taken advantage of by"
+    },
+    {
+      "start": 426.8,
+      "duration": 3.2,
+      "text": "Mongoled? because apparently the people"
+    },
+    {
+      "start": 428.56,
+      "duration": 3.199,
+      "text": "that were doing it, they weren't getting"
+    },
+    {
+      "start": 430,
+      "duration": 3.199,
+      "text": "metadata being left over and so there's"
+    },
+    {
+      "start": 431.759,
+      "duration": 4.241,
+      "text": "like a lot of oddities you could look"
+    },
+    {
+      "start": 433.199,
+      "duration": 4.56,
+      "text": "for. Also, if a single IP requested"
+    },
+    {
+      "start": 436,
+      "duration": 3.599,
+      "text": "thousands upon thousands of connections"
+    },
+    {
+      "start": 437.759,
+      "duration": 3.361,
+      "text": "per minute, you could often say, \"Hey,"
+    },
+    {
+      "start": 439.599,
+      "duration": 2.961,
+      "text": "you've been uh you've been leaking"
+    },
+    {
+      "start": 441.12,
+      "duration": 3.199,
+      "text": "data.\" So, there's kind of like a bunch"
+    },
+    {
+      "start": 442.56,
+      "duration": 3.84,
+      "text": "of ways to be able to test to see if"
+    },
+    {
+      "start": 444.319,
+      "duration": 5.6,
+      "text": "you've been kind of taken advantage of."
+    },
+    {
+      "start": 446.4,
+      "duration": 6.079,
+      "text": "Also, I know for all those React Andes,"
+    },
+    {
+      "start": 449.919,
+      "duration": 5.361,
+      "text": "finally, this week, it's not your week."
+    },
+    {
+      "start": 452.479,
+      "duration": 4.56,
+      "text": "You have to be feeling so good right now"
+    },
+    {
+      "start": 455.28,
+      "duration": 3.52,
+      "text": "knowing that React did not just get"
+    },
+    {
+      "start": 457.039,
+      "duration": 3.681,
+      "text": "another CVE. And if you're actually"
+    },
+    {
+      "start": 458.8,
+      "duration": 3.679,
+      "text": "curious for the exact details of how"
+    },
+    {
+      "start": 460.72,
+      "duration": 4.8,
+      "text": "this works, you can actually go check"
+    },
+    {
+      "start": 462.479,
+      "duration": 5.28,
+      "text": "out this uh this repo right here by Joe."
+    },
+    {
+      "start": 465.52,
+      "duration": 4.399,
+      "text": "He has exactly a reproduction for the"
+    },
+    {
+      "start": 467.759,
+      "duration": 3.681,
+      "text": "Mongol Bleed stuff. I'll also link that."
+    },
+    {
+      "start": 469.919,
+      "duration": 3.921,
+      "text": "I think part of me kind of maybe"
+    },
+    {
+      "start": 471.44,
+      "duration": 4.8,
+      "text": "relishes in this a little bit too much"
+    },
+    {
+      "start": 473.84,
+      "duration": 3.759,
+      "text": "because in 2022 I had to work with the"
+    },
+    {
+      "start": 476.24,
+      "duration": 3.519,
+      "text": " database where I was getting"
+    },
+    {
+      "start": 477.599,
+      "duration": 3.921,
+      "text": "millions to tens of millions of events"
+    },
+    {
+      "start": 479.759,
+      "duration": 3.681,
+      "text": "uh every few hours and I had to go"
+    },
+    {
+      "start": 481.52,
+      "duration": 4.399,
+      "text": "through and try to figure out what was"
+    },
+    {
+      "start": 483.44,
+      "duration": 4.319,
+      "text": "happening with gaming and it was all"
+    },
+    {
+      "start": 485.919,
+      "duration": 4.321,
+      "text": "unstructured but everything was very"
+    },
+    {
+      "start": 487.759,
+      "duration": 5.28,
+      "text": "typed and so it's just like this mess of"
+    },
+    {
+      "start": 490.24,
+      "duration": 4.799,
+      "text": "unstructured structured like timing logs"
+    },
+    {
+      "start": 493.039,
+      "duration": 3.921,
+      "text": "that I had to go through and parse. I"
+    },
+    {
+      "start": 495.039,
+      "duration": 6.081,
+      "text": "had to write an entire library just to"
+    },
+    {
+      "start": 496.96,
+      "duration": 6.48,
+      "text": "generate types from the day before"
+    },
+    {
+      "start": 501.12,
+      "duration": 3.68,
+      "text": "uh logs because every day new logs were"
+    },
+    {
+      "start": 503.44,
+      "duration": 3.28,
+      "text": "added and I had to be like okay what's"
+    },
+    {
+      "start": 504.8,
+      "duration": 3.6,
+      "text": "this new shape? It was just I I just"
+    },
+    {
+      "start": 506.72,
+      "duration": 3.919,
+      "text": "hated it. And so part of me when I see"
+    },
+    {
+      "start": 508.4,
+      "duration": 4.96,
+      "text": "that had a problem. I just like"
+    },
+    {
+      "start": 510.639,
+      "duration": 4.88,
+      "text": "laugh on the inside because hated I"
+    },
+    {
+      "start": 513.36,
+      "duration": 4.88,
+      "text": "hated my experience with you. Okay. I"
+    },
+    {
+      "start": 515.519,
+      "duration": 5.121,
+      "text": "didn't like you one bit. And so here I"
+    },
+    {
+      "start": 518.24,
+      "duration": 6.159,
+      "text": "am living that dream life laughing at"
+    },
+    {
+      "start": 520.64,
+      "duration": 6.08,
+      "text": "it. The name is the Yep. I don't like"
+    },
+    {
+      "start": 524.399,
+      "duration": 3.921,
+      "text": " again. Hey, do you want to learn"
+    },
+    {
+      "start": 526.72,
+      "duration": 3.36,
+      "text": "how to code? Do you want to become a"
+    },
+    {
+      "start": 528.32,
+      "duration": 3.6,
+      "text": "better back-end engineer? Well, you got"
+    },
+    {
+      "start": 530.08,
+      "duration": 3.52,
+      "text": "to check out boot.dev. Now, I personally"
+    },
+    {
+      "start": 531.92,
+      "duration": 3.919,
+      "text": "have made a couple courses from them. I"
+    },
+    {
+      "start": 533.6,
+      "duration": 4.08,
+      "text": "have live walkthroughs free available on"
+    },
+    {
+      "start": 535.839,
+      "duration": 4.881,
+      "text": "YouTube of the whole course. Everything"
+    },
+    {
+      "start": 537.68,
+      "duration": 4.8,
+      "text": "on boot.dev you can go through for free."
+    },
+    {
+      "start": 540.72,
+      "duration": 3.04,
+      "text": "But if you want the gamified experience,"
+    },
+    {
+      "start": 542.48,
+      "duration": 2.88,
+      "text": "the tracking of your learning and all"
+    },
+    {
+      "start": 543.76,
+      "duration": 2.96,
+      "text": "that, then you got to pay up the money."
+    },
+    {
+      "start": 545.36,
+      "duration": 3.36,
+      "text": "But hey, go check them out. It's"
+    },
+    {
+      "start": 546.72,
+      "duration": 4.32,
+      "text": "awesome. Many content creators you know"
+    },
+    {
+      "start": 548.72,
+      "duration": 6.72,
+      "text": "and you like make courses there."
+    },
+    {
+      "start": 551.04,
+      "duration": 4.4,
+      "text": "boot.dev/prime dev/prime for 25% off."
+    }
+  ],
+  "fullText": "So something interesting happened on Christmas morning for many an engineer. Many an engineer instead of opening presents were in an absolute scramble because any of the residual memory running on some of their servers could be exfiltrated with no logging in with no clicking, just simply running a server and kabam you're getting had. Now, I'm talking of course of everyone's favorite Christmas present, the MongoDB security incident, which happens to be named Mongoled because it is named after the heartbleleed exploit, which if you don't know that one, it looks just like this. Server, are you still there? If so, reply, potato, six letters. Potato. Server, are you still there? Reply bird. Four letters. Bird. Server, you're still there? Reply hat. 500 letters. And then it just gives you everything. This is effectively what Mongol is. All right. To put it into perspective, how it works is that if you have a database that has any sort of exposure to the open internet or someone has been able to gain access to one of your servers and then can do a little bit of side fumble over to your MongoDB instance, they're able to take advantage of this. Now, any residual data, so anything that has been allocated and has once been used could potentially be exfiltrated. So that means your environment variables could be exfiltrated. other just data in your database could be taken. So how this exactly works is that when an attacker who has access to one of these open MongoDB databases which by the way it spans all the way back to version 3.6 which was released in 2017 so almost a decade ago. That means any database that is in production that has any possible outside exposure has been or is currently vulnerable to this exploit right now. So the attacker what they need to do is they need to craft a specially formed Bison message. Now Bison stands for binary JSON. Uh it's kind of silly you know. I'm just hey I'm just throwing it out there like what are you actually getting out of binary serialization with JSON. I'm not sure if it's actually any more performant or what is the purpose of it. But hey okay who cares? Some people like their cucumbers pickled. Anyways so you specially craft this uh bison on message. Now, part of the spice on message is that you say, \"Hey, this thing is going to be, you know, like some there's going to be some compression involved here.\" And so, when this message is sent up, it's sent up with the compression information, but it's also sent up with a content length effectively. Like, if you had a HTTP header content length, that content length can be set to whatever you want. So, you can set it to like 800. And the thing is, instead of actually going, \"Okay, hey, we decompress this data. it takes up seven bytes. Instead, they go, \"Okay, we decompress this data.\" They return whatever was allocated along with your decompressed message. Which means not only is this like a security xfiltration possibility, it's also an attack vector where uh you know attackers can make your computer have you can have out of memory exceptions where they can effectively hold you down and doss you and never have your database be able to be able to run. It's a pretty serious thing because they can get a whole bunch of information out of your system and they can make your server very sad at the exact same time. Now, this incident did actually get reported on Christmas Day. The CVE 202514847 was posted Christmas Day with an 8.7. Pretty high number right there. Okay, that's I mean that's better than the grades I got in high school. And a lot of people, by the way, they were kind of dog piling on this. I saw a lot of posts. People were like posting the guy's face. It was a bit unhinged out there. But to be completely fair, the guy did post that on Christmas. But on Christmas Eve, someone else did post the technical breakdown of this exploit. And so naturally, the CV just had to be followed because turns out exploit up. Everybody knows about it. Technical analysis out in the open Christmas Eve. Now, the technical exploit is actually really hilarious because if you look at it, just like we said over here in this drawing with returning the entire payload, this bad boy right here, that's all it is. It's the difference between returning whatever the length was from the returned decompression versus whatever it just decided to say, hey, this is the length. This is kind of the length I said was going to happen. It's just like such a simple small error. It's so easy to mess up. and even not seeing that in a code review. And you know, obviously it's a day that ends in Y, so this gives me an opportunity to talk a little about AI. But this is why when people say they they are now writing like 2,000, 5,000, 10,000 lines of code a day. I don't go, \"Oh wow, that sounds so cool.\" I go, \"Oh my gosh, that sounds horrifying.\" It's exactly stuff like this because if I were to be reviewing huge amounts of code, you know how easy this would be to miss? It's actually extremely simple. You just are looking at that, you're like, \"Okay, yep. Okay. return the length of the buffer. Yep, I got that. That seems simple. Like, no, you returned the length of the total buffer. You didn't return the length of the data, right? Oh my gosh, it's like right there in front of you, but it's so simple to miss. Like, people don't realize how hard it is to review code properly. If anything, this is a great testament to how easy it is to miss something and to miss it. For literally a decade, there was five separate major versions of released and this code was able to make it. So even the decisions you make a decade ago can still hang around in production, potentially causing a ticking time bomb on Christmas morning to blow up and cause thousands upon thousands upon thousands of engineers to panic. For if you didn't even see, there's apparently reported 87,000 MongoDB instances exposed by this uh vulnerability. I'm sure the number is much much higher. This is just some of the numbers I've been able to gather. There's been a tons and tons of companies that have been exposed to this and who knows how long they have been exposed to this and for how long people have been taking advantage of. In fact, a game from Ubisoft, Rainbow Six Siege, one of the five groups of hackers have claimed that they got a hold of Ubisoft source code through Mongol. But don't worry, group five came out and said they are liars. Crazy stuff happening over on Rainbow Six Siege. But that's just how big this incident is is that so many eyes are on it and so many people have had to take Christmas and actually just go and try to figure out how to upgrade their systems. And some of the worst parts if you're working on like a mega legacy system, there's versions apparently that don't even have a fixed version for it. You have to upgrade. And for anybody that's worked on some legacy stuff, upgrading [snorts] it never feels good. Okay, this is not this is usually not a fun experience. So, the moral of the story really is that uh code reviews are super important. Good luck for those that hey, for those that have the unfortunate teammate that is out there making 50 PRs a day, I'm sorry. RIP to you, [laughter] man. That would be rough. Also, I'll include inside the description uh this right here, which is the Mongoled detector, which can go through and see, hey, have you been taken advantage of by Mongoled? because apparently the people that were doing it, they weren't getting metadata being left over and so there's like a lot of oddities you could look for. Also, if a single IP requested thousands upon thousands of connections per minute, you could often say, \"Hey, you've been uh you've been leaking data.\" So, there's kind of like a bunch of ways to be able to test to see if you've been kind of taken advantage of. Also, I know for all those React Andes, finally, this week, it's not your week. You have to be feeling so good right now knowing that React did not just get another CVE. And if you're actually curious for the exact details of how this works, you can actually go check out this uh this repo right here by Joe. He has exactly a reproduction for the Mongol Bleed stuff. I'll also link that. I think part of me kind of maybe relishes in this a little bit too much because in 2022 I had to work with the  database where I was getting millions to tens of millions of events uh every few hours and I had to go through and try to figure out what was happening with gaming and it was all unstructured but everything was very typed and so it's just like this mess of unstructured structured like timing logs that I had to go through and parse. I had to write an entire library just to generate types from the day before uh logs because every day new logs were added and I had to be like okay what's this new shape? It was just I I just hated it. And so part of me when I see that had a problem. I just like laugh on the inside because hated I hated my experience with you. Okay. I didn't like you one bit. And so here I am living that dream life laughing at it. The name is the Yep. I don't like  again. Hey, do you want to learn how to code? Do you want to become a better back-end engineer? Well, you got to check out boot.dev. Now, I personally have made a couple courses from them. I have live walkthroughs free available on YouTube of the whole course. Everything on boot.dev you can go through for free. But if you want the gamified experience, the tracking of your learning and all that, then you got to pay up the money. But hey, go check them out. It's awesome. Many content creators you know and you like make courses there. boot.dev/prime dev/prime for 25% off.",
+  "fetchedAt": "2026-01-18T18:33:29.843Z"
+}

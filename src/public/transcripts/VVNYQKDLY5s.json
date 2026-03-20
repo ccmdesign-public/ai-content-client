@@ -1,0 +1,1569 @@
+{
+  "videoId": "VVNYQKDLY5s",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 3.76,
+      "text": "Let's say your company has an employee"
+    },
+    {
+      "start": 2,
+      "duration": 4.16,
+      "text": "handbook that covers policies like time"
+    },
+    {
+      "start": 4,
+      "duration": 4.16,
+      "text": "off requests, dress code, and equipment"
+    },
+    {
+      "start": 6.16,
+      "duration": 3.68,
+      "text": "use. Employees might ask questions like,"
+    },
+    {
+      "start": 8.16,
+      "duration": 3.76,
+      "text": "\"Can I wear jeans in the office?\" or"
+    },
+    {
+      "start": 9.84,
+      "duration": 4.16,
+      "text": "\"Can I request time off on a holiday?\""
+    },
+    {
+      "start": 11.92,
+      "duration": 4.08,
+      "text": "or \"Can I bring my company laptop home"
+    },
+    {
+      "start": 14,
+      "duration": 3.359,
+      "text": "for the weekend?\" While these are common"
+    },
+    {
+      "start": 16,
+      "duration": 3.52,
+      "text": "questions that people would typically"
+    },
+    {
+      "start": 17.359,
+      "duration": 3.92,
+      "text": "ask, building a database around this"
+    },
+    {
+      "start": 19.52,
+      "duration": 3.839,
+      "text": "requirement can be a little bit tricky."
+    },
+    {
+      "start": 21.279,
+      "duration": 3.681,
+      "text": "In a conventional approach where data is"
+    },
+    {
+      "start": 23.359,
+      "duration": 3.361,
+      "text": "stored in a structured database like"
+    },
+    {
+      "start": 24.96,
+      "duration": 3.92,
+      "text": "SQL, you typically need to do some"
+    },
+    {
+      "start": 26.72,
+      "duration": 4.24,
+      "text": "amount of similarity search like select"
+    },
+    {
+      "start": 28.88,
+      "duration": 4.4,
+      "text": "all from documents where content like"
+    },
+    {
+      "start": 30.96,
+      "duration": 4.4,
+      "text": "holiday or time off with the emp% around"
+    },
+    {
+      "start": 33.28,
+      "duration": 3.36,
+      "text": "it. And to expand your result set, you"
+    },
+    {
+      "start": 35.36,
+      "duration": 3.359,
+      "text": "might even increase the scope by"
+    },
+    {
+      "start": 36.64,
+      "duration": 4.079,
+      "text": "dropping a few characters like this and"
+    },
+    {
+      "start": 38.719,
+      "duration": 4,
+      "text": "removing spaces between time and off"
+    },
+    {
+      "start": 40.719,
+      "duration": 4,
+      "text": "like this. However, the drawback to this"
+    },
+    {
+      "start": 42.719,
+      "duration": 3.84,
+      "text": "approach is that it puts the onus on the"
+    },
+    {
+      "start": 44.719,
+      "duration": 3.68,
+      "text": "person searching for the data to get the"
+    },
+    {
+      "start": 46.559,
+      "duration": 3.201,
+      "text": "search term formatted correctly. But"
+    },
+    {
+      "start": 48.399,
+      "duration": 2.961,
+      "text": "what if there was a different way to"
+    },
+    {
+      "start": 49.76,
+      "duration": 3.76,
+      "text": "store the data? What if instead of"
+    },
+    {
+      "start": 51.36,
+      "duration": 4,
+      "text": "storing them by the value, we store the"
+    },
+    {
+      "start": 53.52,
+      "duration": 3.44,
+      "text": "meaning of the words? This way when you"
+    },
+    {
+      "start": 55.36,
+      "duration": 3.519,
+      "text": "search the database by sending the"
+    },
+    {
+      "start": 56.96,
+      "duration": 3.68,
+      "text": "question itself, can I request a time"
+    },
+    {
+      "start": 58.879,
+      "duration": 3.761,
+      "text": "off on a holiday instead of the SQL"
+    },
+    {
+      "start": 60.64,
+      "duration": 3.76,
+      "text": "query. So based on the meaning of the"
+    },
+    {
+      "start": 62.64,
+      "duration": 4,
+      "text": "words contained in the question, the"
+    },
+    {
+      "start": 64.4,
+      "duration": 4.56,
+      "text": "database returns only relevant data"
+    },
+    {
+      "start": 66.64,
+      "duration": 4.799,
+      "text": "back. This is a spirit of what vector"
+    },
+    {
+      "start": 68.96,
+      "duration": 4.56,
+      "text": "databases try to address storing data by"
+    },
+    {
+      "start": 71.439,
+      "duration": 4.401,
+      "text": "the embedding. So essentially, instead"
+    },
+    {
+      "start": 73.52,
+      "duration": 4.239,
+      "text": "of searching by value, we can now search"
+    },
+    {
+      "start": 75.84,
+      "duration": 3.52,
+      "text": "by meaning. While conceptually this"
+    },
+    {
+      "start": 77.759,
+      "duration": 3.281,
+      "text": "might seem a little bit straightforward,"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.6,
+      "text": "there's a bit of an overhead in setting"
+    },
+    {
+      "start": 81.04,
+      "duration": 3.6,
+      "text": "this up. And you might be asking, well,"
+    },
+    {
+      "start": 82.96,
+      "duration": 3.6,
+      "text": "can we just throw the employee handbook"
+    },
+    {
+      "start": 84.64,
+      "duration": 4.159,
+      "text": "document into the database like we would"
+    },
+    {
+      "start": 86.56,
+      "duration": 4.64,
+      "text": "in SQL database? Not quite. And here's"
+    },
+    {
+      "start": 88.799,
+      "duration": 4.481,
+      "text": "why. With SQL databases, the burden is"
+    },
+    {
+      "start": 91.2,
+      "duration": 3.68,
+      "text": "actually put on the user searching for"
+    },
+    {
+      "start": 93.28,
+      "duration": 3.76,
+      "text": "the data that's stored in the structured"
+    },
+    {
+      "start": 94.88,
+      "duration": 4.48,
+      "text": "database. But with vector databases, the"
+    },
+    {
+      "start": 97.04,
+      "duration": 4.16,
+      "text": "burden is put on you who is actually"
+    },
+    {
+      "start": 99.36,
+      "duration": 3.6,
+      "text": "setting up the database since you are"
+    },
+    {
+      "start": 101.2,
+      "duration": 3.44,
+      "text": "trying to make it easier for someone"
+    },
+    {
+      "start": 102.96,
+      "duration": 3.439,
+      "text": "searching for the data that's inside it."
+    },
+    {
+      "start": 104.64,
+      "duration": 4,
+      "text": "And you can imagine why a method like"
+    },
+    {
+      "start": 106.399,
+      "duration": 4.08,
+      "text": "this is becoming extremely popular when"
+    },
+    {
+      "start": 108.64,
+      "duration": 4,
+      "text": "paired with the large language models in"
+    },
+    {
+      "start": 110.479,
+      "duration": 3.92,
+      "text": "AI since you don't have to train the LLM"
+    },
+    {
+      "start": 112.64,
+      "duration": 3.92,
+      "text": "separately on how to actually search"
+    },
+    {
+      "start": 114.399,
+      "duration": 4.561,
+      "text": "your database. Instead, the LLM can"
+    },
+    {
+      "start": 116.56,
+      "duration": 4.159,
+      "text": "freely search based on meaning and have"
+    },
+    {
+      "start": 118.96,
+      "duration": 3.92,
+      "text": "the confidence that your database will"
+    },
+    {
+      "start": 120.719,
+      "duration": 4.08,
+      "text": "return relevant data that it needs. So,"
+    },
+    {
+      "start": 122.88,
+      "duration": 4.239,
+      "text": "let's explore some of the key concepts"
+    },
+    {
+      "start": 124.799,
+      "duration": 4.08,
+      "text": "behind what goes into setting up a basic"
+    },
+    {
+      "start": 127.119,
+      "duration": 3.84,
+      "text": "vector database. Let's start with the"
+    },
+    {
+      "start": 128.879,
+      "duration": 4.161,
+      "text": "embedding. Embedding is really the key"
+    },
+    {
+      "start": 130.959,
+      "duration": 4.721,
+      "text": "concept that makes the medium go from"
+    },
+    {
+      "start": 133.04,
+      "duration": 4.16,
+      "text": "value to meaning. In SQL, we store the"
+    },
+    {
+      "start": 135.68,
+      "duration": 3.6,
+      "text": "values contained in the employee"
+    },
+    {
+      "start": 137.2,
+      "duration": 3.84,
+      "text": "handbook as a straightup value. But in"
+    },
+    {
+      "start": 139.28,
+      "duration": 3.44,
+      "text": "vector databases, you need to do a"
+    },
+    {
+      "start": 141.04,
+      "duration": 3.6,
+      "text": "little bit of extra work up front to"
+    },
+    {
+      "start": 142.72,
+      "duration": 3.84,
+      "text": "convert the value into its semantic"
+    },
+    {
+      "start": 144.64,
+      "duration": 3.679,
+      "text": "meanings. And these meanings are stored"
+    },
+    {
+      "start": 146.56,
+      "duration": 4.48,
+      "text": "in what's called an embedding. For"
+    },
+    {
+      "start": 148.319,
+      "duration": 4.721,
+      "text": "example, the words holiday and vacation"
+    },
+    {
+      "start": 151.04,
+      "duration": 4,
+      "text": "should semantically share a similar"
+    },
+    {
+      "start": 153.04,
+      "duration": 3.839,
+      "text": "space since the meaning of those words"
+    },
+    {
+      "start": 155.04,
+      "duration": 3.839,
+      "text": "are close to each other. So before the"
+    },
+    {
+      "start": 156.879,
+      "duration": 4.241,
+      "text": "sentences like employee shall not"
+    },
+    {
+      "start": 158.879,
+      "duration": 4.08,
+      "text": "request time off on holidays that's"
+    },
+    {
+      "start": 161.12,
+      "duration": 3.92,
+      "text": "stored in the document is added to the"
+    },
+    {
+      "start": 162.959,
+      "duration": 3.841,
+      "text": "database, the system runs it through an"
+    },
+    {
+      "start": 165.04,
+      "duration": 4,
+      "text": "embedding model. The embedding model"
+    },
+    {
+      "start": 166.8,
+      "duration": 3.84,
+      "text": "converts the sentence into a long vector"
+    },
+    {
+      "start": 169.04,
+      "duration": 3.839,
+      "text": "of numbers and when you search the"
+    },
+    {
+      "start": 170.64,
+      "duration": 4.4,
+      "text": "database, you're actually comparing this"
+    },
+    {
+      "start": 172.879,
+      "duration": 4.161,
+      "text": "exact vector. That way when someone"
+    },
+    {
+      "start": 175.04,
+      "duration": 3.76,
+      "text": "later asks, \"Can I take a vacation"
+    },
+    {
+      "start": 177.04,
+      "duration": 3.76,
+      "text": "during a holiday?\" Even though the"
+    },
+    {
+      "start": 178.8,
+      "duration": 4.159,
+      "text": "phrasing is different, the database can"
+    },
+    {
+      "start": 180.8,
+      "duration": 3.92,
+      "text": "still service the request. This is the"
+    },
+    {
+      "start": 182.959,
+      "duration": 3.92,
+      "text": "fundamental shift. Instead of searching"
+    },
+    {
+      "start": 184.72,
+      "duration": 4.08,
+      "text": "by exact wording, we're now searching by"
+    },
+    {
+      "start": 186.879,
+      "duration": 3.841,
+      "text": "meaning. Another important concept is"
+    },
+    {
+      "start": 188.8,
+      "duration": 3.04,
+      "text": "dimensionality. And you might be asking,"
+    },
+    {
+      "start": 190.72,
+      "duration": 3.04,
+      "text": "why do I have to worry about"
+    },
+    {
+      "start": 191.84,
+      "duration": 3.52,
+      "text": "dimensionality? Can't I just throw the"
+    },
+    {
+      "start": 193.76,
+      "duration": 3.44,
+      "text": "words into an embedding and store them"
+    },
+    {
+      "start": 195.36,
+      "duration": 3.599,
+      "text": "into the database? Well, there's one"
+    },
+    {
+      "start": 197.2,
+      "duration": 3.759,
+      "text": "more aspect in embedding that you need"
+    },
+    {
+      "start": 198.959,
+      "duration": 4.161,
+      "text": "to think about. That's dimensionality."
+    },
+    {
+      "start": 200.959,
+      "duration": 4.401,
+      "text": "Typically, a word doesn't just have one"
+    },
+    {
+      "start": 203.12,
+      "duration": 4.08,
+      "text": "meaning to learn from. For example, the"
+    },
+    {
+      "start": 205.36,
+      "duration": 3.84,
+      "text": "word vacation can have different"
+    },
+    {
+      "start": 207.2,
+      "duration": 3.84,
+      "text": "semantics depending on the context that"
+    },
+    {
+      "start": 209.2,
+      "duration": 4.319,
+      "text": "it is used. and capturing all the"
+    },
+    {
+      "start": 211.04,
+      "duration": 4.08,
+      "text": "intricacies like tone, formality and"
+    },
+    {
+      "start": 213.519,
+      "duration": 3.36,
+      "text": "other features that give richness to the"
+    },
+    {
+      "start": 215.12,
+      "duration": 4.24,
+      "text": "words are important. Typical dimensions"
+    },
+    {
+      "start": 216.879,
+      "duration": 4.561,
+      "text": "that we use today are,536"
+    },
+    {
+      "start": 219.36,
+      "duration": 4.32,
+      "text": "dimensions which gives a good mix of not"
+    },
+    {
+      "start": 221.44,
+      "duration": 4.48,
+      "text": "having too much storage burden in size"
+    },
+    {
+      "start": 223.68,
+      "duration": 4.639,
+      "text": "but also giving enough context to allow"
+    },
+    {
+      "start": 225.92,
+      "duration": 4.16,
+      "text": "for depth in each search. So once the"
+    },
+    {
+      "start": 228.319,
+      "duration": 3.92,
+      "text": "embedding is stored with the proper"
+    },
+    {
+      "start": 230.08,
+      "duration": 4.079,
+      "text": "dimension, there are two other major"
+    },
+    {
+      "start": 232.239,
+      "duration": 3.841,
+      "text": "angles that we need to consider when we"
+    },
+    {
+      "start": 234.159,
+      "duration": 4.16,
+      "text": "are working with vector databases and"
+    },
+    {
+      "start": 236.08,
+      "duration": 4,
+      "text": "this is the retrieval side. Meaning now"
+    },
+    {
+      "start": 238.319,
+      "duration": 3.84,
+      "text": "that we store the meaning of those"
+    },
+    {
+      "start": 240.08,
+      "duration": 4.4,
+      "text": "words, we have to take on the burden of"
+    },
+    {
+      "start": 242.159,
+      "duration": 4.321,
+      "text": "the retrieval of these embeddings. Since"
+    },
+    {
+      "start": 244.48,
+      "duration": 4,
+      "text": "we are not doing searches like we did in"
+    },
+    {
+      "start": 246.48,
+      "duration": 3.679,
+      "text": "SQL, we need to make a decision on what"
+    },
+    {
+      "start": 248.48,
+      "duration": 4.08,
+      "text": "would technically be counted as a match"
+    },
+    {
+      "start": 250.159,
+      "duration": 4.321,
+      "text": "semantically and by how much. This is"
+    },
+    {
+      "start": 252.56,
+      "duration": 3.6,
+      "text": "done by looking at scoring and chunk"
+    },
+    {
+      "start": 254.48,
+      "duration": 3.2,
+      "text": "overlap. And if you're wondering at this"
+    },
+    {
+      "start": 256.16,
+      "duration": 3.52,
+      "text": "point, this just seems like a lot of"
+    },
+    {
+      "start": 257.68,
+      "duration": 3.839,
+      "text": "tweaking just to use a vector database."
+    },
+    {
+      "start": 259.68,
+      "duration": 3.519,
+      "text": "And that's the serious trade-off that"
+    },
+    {
+      "start": 261.519,
+      "duration": 3.601,
+      "text": "you ought to consider when using a"
+    },
+    {
+      "start": 263.199,
+      "duration": 3.681,
+      "text": "vector database, which is that while a"
+    },
+    {
+      "start": 265.12,
+      "duration": 3.84,
+      "text": "properly set up vector database makes"
+    },
+    {
+      "start": 266.88,
+      "duration": 4.319,
+      "text": "searching so much more flexible, getting"
+    },
+    {
+      "start": 268.96,
+      "duration": 4.16,
+      "text": "the data stored and retrieved often adds"
+    },
+    {
+      "start": 271.199,
+      "duration": 3.921,
+      "text": "complexity. So with that in mind,"
+    },
+    {
+      "start": 273.12,
+      "duration": 4.16,
+      "text": "scoring is a threshold that you set to"
+    },
+    {
+      "start": 275.12,
+      "duration": 4.079,
+      "text": "how similar the results need to be to be"
+    },
+    {
+      "start": 277.28,
+      "duration": 3.84,
+      "text": "considered a proper match. For example,"
+    },
+    {
+      "start": 279.199,
+      "duration": 4.081,
+      "text": "the word Florida might have some"
+    },
+    {
+      "start": 281.12,
+      "duration": 4.799,
+      "text": "similarity to the word vacation since"
+    },
+    {
+      "start": 283.28,
+      "duration": 4.96,
+      "text": "it's often where people go for vacation."
+    },
+    {
+      "start": 285.919,
+      "duration": 4.481,
+      "text": "But asking the question, can I take my"
+    },
+    {
+      "start": 288.24,
+      "duration": 3.92,
+      "text": "company laptop to Florida is very"
+    },
+    {
+      "start": 290.4,
+      "duration": 4,
+      "text": "different than does my company allow"
+    },
+    {
+      "start": 292.16,
+      "duration": 4.72,
+      "text": "vacation to Florida? Since one is asking"
+    },
+    {
+      "start": 294.4,
+      "duration": 5.04,
+      "text": "about a policy on IT jurisdiction and"
+    },
+    {
+      "start": 296.88,
+      "duration": 4.4,
+      "text": "the other about the vacation policy. So"
+    },
+    {
+      "start": 299.44,
+      "duration": 4,
+      "text": "setting a score threshold based on the"
+    },
+    {
+      "start": 301.28,
+      "duration": 4.16,
+      "text": "question can help limit low similarities"
+    },
+    {
+      "start": 303.44,
+      "duration": 4.24,
+      "text": "to count as a match. Okay, there's one"
+    },
+    {
+      "start": 305.44,
+      "duration": 4.479,
+      "text": "final angle which is the chunk overlap."
+    },
+    {
+      "start": 307.68,
+      "duration": 4.56,
+      "text": "So in SQL, we're used to storing things"
+    },
+    {
+      "start": 309.919,
+      "duration": 4,
+      "text": "rowby row. But in a vector database,"
+    },
+    {
+      "start": 312.24,
+      "duration": 3.76,
+      "text": "things look slightly different. When"
+    },
+    {
+      "start": 313.919,
+      "duration": 3.84,
+      "text": "we're storing values in vector database,"
+    },
+    {
+      "start": 316,
+      "duration": 4,
+      "text": "they're often chunked going into the"
+    },
+    {
+      "start": 317.759,
+      "duration": 4.321,
+      "text": "database. So when we chunk down an"
+    },
+    {
+      "start": 320,
+      "duration": 4.08,
+      "text": "employee handbook into chunks, it's"
+    },
+    {
+      "start": 322.08,
+      "duration": 4.16,
+      "text": "possible that the meaning gets chunked"
+    },
+    {
+      "start": 324.08,
+      "duration": 4.48,
+      "text": "with it. That's why we allow chunk"
+    },
+    {
+      "start": 326.24,
+      "duration": 4.56,
+      "text": "overlap so that the context spills over"
+    },
+    {
+      "start": 328.56,
+      "duration": 4.4,
+      "text": "to leave enough margin for the search to"
+    },
+    {
+      "start": 330.8,
+      "duration": 4.32,
+      "text": "work properly. Popular implementation of"
+    },
+    {
+      "start": 332.96,
+      "duration": 4.239,
+      "text": "vector databases include Pine Cone and"
+    },
+    {
+      "start": 335.12,
+      "duration": 4.16,
+      "text": "Chroma DB. And these platforms are"
+    },
+    {
+      "start": 337.199,
+      "duration": 4.321,
+      "text": "designed to handle embeddings at scale"
+    },
+    {
+      "start": 339.28,
+      "duration": 4.479,
+      "text": "and provide efficient retrieval based on"
+    },
+    {
+      "start": 341.52,
+      "duration": 4.08,
+      "text": "semantic similarity. And these are also"
+    },
+    {
+      "start": 343.759,
+      "duration": 3.681,
+      "text": "great tools to use for prototyping"
+    },
+    {
+      "start": 345.6,
+      "duration": 3.76,
+      "text": "something really quick. So now that we"
+    },
+    {
+      "start": 347.44,
+      "duration": 4,
+      "text": "have these concepts understood, we can"
+    },
+    {
+      "start": 349.36,
+      "duration": 4.24,
+      "text": "actually take on the burden of making"
+    },
+    {
+      "start": 351.44,
+      "duration": 4.479,
+      "text": "search easier for users and taking on"
+    },
+    {
+      "start": 353.6,
+      "duration": 4.4,
+      "text": "the burden ourselves to set up a vector"
+    },
+    {
+      "start": 355.919,
+      "duration": 3.681,
+      "text": "database for the company to use it for"
+    },
+    {
+      "start": 358,
+      "duration": 4.56,
+      "text": "employee handbooks and many more"
+    },
+    {
+      "start": 359.6,
+      "duration": 4.56,
+      "text": "documents that we need. All right, let's"
+    },
+    {
+      "start": 362.56,
+      "duration": 3.52,
+      "text": "start with the labs. In these series of"
+    },
+    {
+      "start": 364.16,
+      "duration": 3.599,
+      "text": "labs, we're going to explore how vector"
+    },
+    {
+      "start": 366.08,
+      "duration": 3.44,
+      "text": "databases solve one of the most"
+    },
+    {
+      "start": 367.759,
+      "duration": 4,
+      "text": "fundamental problems in information"
+    },
+    {
+      "start": 369.52,
+      "duration": 4.48,
+      "text": "retrieval. the semantic gap between how"
+    },
+    {
+      "start": 371.759,
+      "duration": 4.401,
+      "text": "humans ask questions and how computers"
+    },
+    {
+      "start": 374,
+      "duration": 4.8,
+      "text": "store information. While traditional SQL"
+    },
+    {
+      "start": 376.16,
+      "duration": 4.72,
+      "text": "databases require exact keyword matches,"
+    },
+    {
+      "start": 378.8,
+      "duration": 4.239,
+      "text": "vector databases understand meaning,"
+    },
+    {
+      "start": 380.88,
+      "duration": 3.92,
+      "text": "making them the backbone of modern AI"
+    },
+    {
+      "start": 383.039,
+      "duration": 3.841,
+      "text": "applications. Let's start by setting up"
+    },
+    {
+      "start": 384.8,
+      "duration": 3.839,
+      "text": "our environment. In this first section,"
+    },
+    {
+      "start": 386.88,
+      "duration": 3.439,
+      "text": "we're asked to run a simple setup script"
+    },
+    {
+      "start": 388.639,
+      "duration": 3.761,
+      "text": "that installs NumPy for vector"
+    },
+    {
+      "start": 390.319,
+      "duration": 4.16,
+      "text": "mathematics, sentence transformers for"
+    },
+    {
+      "start": 392.4,
+      "duration": 3.84,
+      "text": "real AI embeddings, and Chromma DB for"
+    },
+    {
+      "start": 394.479,
+      "duration": 3.041,
+      "text": "our production vector database. Once"
+    },
+    {
+      "start": 396.24,
+      "duration": 3.679,
+      "text": "you've activated the virtual"
+    },
+    {
+      "start": 397.52,
+      "duration": 4.32,
+      "text": "environment, we'll jump into lab one. In"
+    },
+    {
+      "start": 399.919,
+      "duration": 3.921,
+      "text": "this demonstration, you'll create a real"
+    },
+    {
+      "start": 401.84,
+      "duration": 3.919,
+      "text": "SQLite database containing company"
+    },
+    {
+      "start": 403.84,
+      "duration": 3.68,
+      "text": "policies, the dress code, time off"
+    },
+    {
+      "start": 405.759,
+      "duration": 3.361,
+      "text": "rules, and remote work guidelines. When"
+    },
+    {
+      "start": 407.52,
+      "duration": 3.6,
+      "text": "an employee asks, \"What are the clothing"
+    },
+    {
+      "start": 409.12,
+      "duration": 4,
+      "text": "rules?\" You'll watch the SQL like"
+    },
+    {
+      "start": 411.12,
+      "duration": 4.56,
+      "text": "operator search for clothing in the"
+    },
+    {
+      "start": 413.12,
+      "duration": 5.04,
+      "text": "policies. The result, nothing. Zero"
+    },
+    {
+      "start": 415.68,
+      "duration": 4.32,
+      "text": "matches. The policy says dress code, not"
+    },
+    {
+      "start": 418.16,
+      "duration": 4,
+      "text": "clothing, and SQL doesn't understand"
+    },
+    {
+      "start": 420,
+      "duration": 4.4,
+      "text": "these terms are related. Each query"
+    },
+    {
+      "start": 422.16,
+      "duration": 4.159,
+      "text": "pauses to let you see the failure happen"
+    },
+    {
+      "start": 424.4,
+      "duration": 4.4,
+      "text": "in real time. By the end, you're looking"
+    },
+    {
+      "start": 426.319,
+      "duration": 4.72,
+      "text": "at a 0% success rate. Three reasonable"
+    },
+    {
+      "start": 428.8,
+      "duration": 4.88,
+      "text": "questions but three complete failures."
+    },
+    {
+      "start": 431.039,
+      "duration": 4.72,
+      "text": "Moving on to lab two, we encounter the"
+    },
+    {
+      "start": 433.68,
+      "duration": 4,
+      "text": "magic of embeddings. In this question,"
+    },
+    {
+      "start": 435.759,
+      "duration": 4.961,
+      "text": "we're asked to understand how the all"
+    },
+    {
+      "start": 437.68,
+      "duration": 5.04,
+      "text": "mini LM L6V2 model with its 22 million"
+    },
+    {
+      "start": 440.72,
+      "duration": 3.52,
+      "text": "parameters transformed words into"
+    },
+    {
+      "start": 442.72,
+      "duration": 3.199,
+      "text": "384dimensional"
+    },
+    {
+      "start": 444.24,
+      "duration": 3.28,
+      "text": "vectors. Here's where things gets"
+    },
+    {
+      "start": 445.919,
+      "duration": 4.081,
+      "text": "fascinating. You'll start by comparing"
+    },
+    {
+      "start": 447.52,
+      "duration": 4.959,
+      "text": "word pairs that mean the same thing but"
+    },
+    {
+      "start": 450,
+      "duration": 4.88,
+      "text": "share no common letters. The lab loads a"
+    },
+    {
+      "start": 452.479,
+      "duration": 4.081,
+      "text": "real AI model and shows you how holiday"
+    },
+    {
+      "start": 454.88,
+      "duration": 4.159,
+      "text": "and vacation, completely different"
+    },
+    {
+      "start": 456.56,
+      "duration": 4.4,
+      "text": "words, produce vectors that are 87%"
+    },
+    {
+      "start": 459.039,
+      "duration": 4.081,
+      "text": "similar. You'll see the actual numbers,"
+    },
+    {
+      "start": 460.96,
+      "duration": 5.44,
+      "text": "watching as the model converts each word"
+    },
+    {
+      "start": 463.12,
+      "duration": 5.359,
+      "text": "into a list of 384 floatingoint values."
+    },
+    {
+      "start": 466.4,
+      "duration": 4,
+      "text": "The lab then explores why we need so"
+    },
+    {
+      "start": 468.479,
+      "duration": 3.681,
+      "text": "many dimensions. Just like describing a"
+    },
+    {
+      "start": 470.4,
+      "duration": 4,
+      "text": "person requires more than just their"
+    },
+    {
+      "start": 472.16,
+      "duration": 4.24,
+      "text": "height, capturing their meaning of texts"
+    },
+    {
+      "start": 474.4,
+      "duration": 3.68,
+      "text": "require hundreds of dimensions. One"
+    },
+    {
+      "start": 476.4,
+      "duration": 3.44,
+      "text": "dimension might capture formality,"
+    },
+    {
+      "start": 478.08,
+      "duration": 4.559,
+      "text": "another the topic, another the"
+    },
+    {
+      "start": 479.84,
+      "duration": 4.639,
+      "text": "sentiment. With 384 dimensions, the"
+    },
+    {
+      "start": 482.639,
+      "duration": 3.84,
+      "text": "model captures incredibly nuanced"
+    },
+    {
+      "start": 484.479,
+      "duration": 4.321,
+      "text": "semantic relationships. The interactive"
+    },
+    {
+      "start": 486.479,
+      "duration": 4.241,
+      "text": "section here lets you type any two texts"
+    },
+    {
+      "start": 488.8,
+      "duration": 4.16,
+      "text": "and see their similarity score in real"
+    },
+    {
+      "start": 490.72,
+      "duration": 4.479,
+      "text": "time."
+    },
+    {
+      "start": 492.96,
+      "duration": 4.239,
+      "text": "Lab 3 takes us into similarity search"
+    },
+    {
+      "start": 495.199,
+      "duration": 3.761,
+      "text": "where we build our own vector database"
+    },
+    {
+      "start": 497.199,
+      "duration": 3.84,
+      "text": "from scratch. In this demonstration,"
+    },
+    {
+      "start": 498.96,
+      "duration": 4,
+      "text": "you'll implement cosign similarity and"
+    },
+    {
+      "start": 501.039,
+      "duration": 3.761,
+      "text": "see how it enables semantic search that"
+    },
+    {
+      "start": 502.96,
+      "duration": 3.919,
+      "text": "actually works. The real magic happens"
+    },
+    {
+      "start": 504.8,
+      "duration": 3.839,
+      "text": "when you test natural language queries."
+    },
+    {
+      "start": 506.879,
+      "duration": 4.401,
+      "text": "Can I wear jeans to work? doesn't"
+    },
+    {
+      "start": 508.639,
+      "duration": 4.721,
+      "text": "contain the words dress or code, yet it"
+    },
+    {
+      "start": 511.28,
+      "duration": 4.319,
+      "text": "correctly matches the dress code policy."
+    },
+    {
+      "start": 513.36,
+      "duration": 4.4,
+      "text": "The lab visualizes similarity scores as"
+    },
+    {
+      "start": 515.599,
+      "duration": 4.481,
+      "text": "progress bars, making it easy to see"
+    },
+    {
+      "start": 517.76,
+      "duration": 4.159,
+      "text": "which policies are most relevant. One of"
+    },
+    {
+      "start": 520.08,
+      "duration": 3.92,
+      "text": "the most enlightening sections is the"
+    },
+    {
+      "start": 521.919,
+      "duration": 4.321,
+      "text": "Florida example. When you ask, can I"
+    },
+    {
+      "start": 524,
+      "duration": 4.16,
+      "text": "take my company laptop to Florida? It"
+    },
+    {
+      "start": 526.24,
+      "duration": 3.76,
+      "text": "matches the remote work policy because"
+    },
+    {
+      "start": 528.16,
+      "duration": 4.16,
+      "text": "it understands that this is about"
+    },
+    {
+      "start": 530,
+      "duration": 4.399,
+      "text": "equipment. But can I use vacation days"
+    },
+    {
+      "start": 532.32,
+      "duration": 4.32,
+      "text": "for Florida trip? Matches the time off"
+    },
+    {
+      "start": 534.399,
+      "duration": 4.721,
+      "text": "policy because it recognizes this is"
+    },
+    {
+      "start": 536.64,
+      "duration": 4.56,
+      "text": "about vacation. So the same word Florida"
+    },
+    {
+      "start": 539.12,
+      "duration": 3.6,
+      "text": "completely different context correctly"
+    },
+    {
+      "start": 541.2,
+      "duration": 3.36,
+      "text": "identified. The scoring threshold"
+    },
+    {
+      "start": 542.72,
+      "duration": 3.679,
+      "text": "section is crucial for production"
+    },
+    {
+      "start": 544.56,
+      "duration": 5.279,
+      "text": "systems. You experiment with different"
+    },
+    {
+      "start": 546.399,
+      "duration": 5.681,
+      "text": "values. 0.7 for high confidence, 0.5 for"
+    },
+    {
+      "start": 549.839,
+      "duration": 4.241,
+      "text": "moderate matches, 0.3 for weak"
+    },
+    {
+      "start": 552.08,
+      "duration": 4.08,
+      "text": "associations. Setting the threshold too"
+    },
+    {
+      "start": 554.08,
+      "duration": 4.08,
+      "text": "high means missing relevant results"
+    },
+    {
+      "start": 556.16,
+      "duration": 4.239,
+      "text": "while too low introduces noise. Our"
+    },
+    {
+      "start": 558.16,
+      "duration": 3.84,
+      "text": "final lab, lab 4, brings everything"
+    },
+    {
+      "start": 560.399,
+      "duration": 3.681,
+      "text": "together with Chroma DB, a"
+    },
+    {
+      "start": 562,
+      "duration": 3.44,
+      "text": "productionready vector database used by"
+    },
+    {
+      "start": 564.08,
+      "duration": 2.879,
+      "text": "company worldwide. In this"
+    },
+    {
+      "start": 565.44,
+      "duration": 3.44,
+      "text": "demonstration, you're building Tia's"
+    },
+    {
+      "start": 566.959,
+      "duration": 4,
+      "text": "complete smart handbook system that can"
+    },
+    {
+      "start": 568.88,
+      "duration": 4.079,
+      "text": "answer any employee question naturally."
+    },
+    {
+      "start": 570.959,
+      "duration": 4.241,
+      "text": "You'll start by initializing ChromadB"
+    },
+    {
+      "start": 572.959,
+      "duration": 3.921,
+      "text": "with persistence and load comprehensive"
+    },
+    {
+      "start": 575.2,
+      "duration": 3.44,
+      "text": "policy documents. You'll see queries"
+    },
+    {
+      "start": 576.88,
+      "duration": 3.68,
+      "text": "like, \"Can I wear jeans on Monday?\""
+    },
+    {
+      "start": 578.64,
+      "duration": 4.24,
+      "text": "correctly matching the dress code policy"
+    },
+    {
+      "start": 580.56,
+      "duration": 4.399,
+      "text": "with accurate answer that jeans are only"
+    },
+    {
+      "start": 582.88,
+      "duration": 4.16,
+      "text": "allowed on Fridays. What makes this lab"
+    },
+    {
+      "start": 584.959,
+      "duration": 3.761,
+      "text": "particularly valuable is the document"
+    },
+    {
+      "start": 587.04,
+      "duration": 3.6,
+      "text": "chunking demonstration. You'll see why"
+    },
+    {
+      "start": 588.72,
+      "duration": 4.08,
+      "text": "overlap matters when splitting long"
+    },
+    {
+      "start": 590.64,
+      "duration": 4.4,
+      "text": "documents. The lab shows how carelessly"
+    },
+    {
+      "start": 592.8,
+      "duration": 4.32,
+      "text": "splitting text can break words in half."
+    },
+    {
+      "start": 595.04,
+      "duration": 4.4,
+      "text": "Imagine splitting the word vacation into"
+    },
+    {
+      "start": 597.12,
+      "duration": 4.32,
+      "text": "vacay and chun across chunks. The"
+    },
+    {
+      "start": 599.44,
+      "duration": 3.92,
+      "text": "meaning is completely lost. With proper"
+    },
+    {
+      "start": 601.44,
+      "duration": 4,
+      "text": "overlap, split the sentence boundaries"
+    },
+    {
+      "start": 603.36,
+      "duration": 4,
+      "text": "first, then combine sentences to reach"
+    },
+    {
+      "start": 605.44,
+      "duration": 3.92,
+      "text": "target chunk size. Never split in the"
+    },
+    {
+      "start": 607.36,
+      "duration": 3.68,
+      "text": "middle of words. So, preserving semantic"
+    },
+    {
+      "start": 609.36,
+      "duration": 3.599,
+      "text": "coherence. With this, we have come to"
+    },
+    {
+      "start": 611.04,
+      "duration": 4.08,
+      "text": "the end of the lab where you've seen SQL"
+    },
+    {
+      "start": 612.959,
+      "duration": 4.32,
+      "text": "fail with natural language, watched AI"
+    },
+    {
+      "start": 615.12,
+      "duration": 3.839,
+      "text": "transform text into meaningful vectors,"
+    },
+    {
+      "start": 617.279,
+      "duration": 3.441,
+      "text": "implemented similarity search from"
+    },
+    {
+      "start": 618.959,
+      "duration": 3.921,
+      "text": "scratch, and deployed a productionready"
+    },
+    {
+      "start": 620.72,
+      "duration": 4,
+      "text": "system with Chromma DB. The key insight"
+    },
+    {
+      "start": 622.88,
+      "duration": 3.199,
+      "text": "is that vector databases aren't just"
+    },
+    {
+      "start": 624.72,
+      "duration": 3.359,
+      "text": "about better search. They're about"
+    },
+    {
+      "start": 626.079,
+      "duration": 6.041,
+      "text": "bridging the semantic gap between human"
+    },
+    {
+      "start": 628.079,
+      "duration": 4.041,
+      "text": "language and computer storage."
+    }
+  ],
+  "fullText": "Let's say your company has an employee handbook that covers policies like time off requests, dress code, and equipment use. Employees might ask questions like, \"Can I wear jeans in the office?\" or \"Can I request time off on a holiday?\" or \"Can I bring my company laptop home for the weekend?\" While these are common questions that people would typically ask, building a database around this requirement can be a little bit tricky. In a conventional approach where data is stored in a structured database like SQL, you typically need to do some amount of similarity search like select all from documents where content like holiday or time off with the emp% around it. And to expand your result set, you might even increase the scope by dropping a few characters like this and removing spaces between time and off like this. However, the drawback to this approach is that it puts the onus on the person searching for the data to get the search term formatted correctly. But what if there was a different way to store the data? What if instead of storing them by the value, we store the meaning of the words? This way when you search the database by sending the question itself, can I request a time off on a holiday instead of the SQL query. So based on the meaning of the words contained in the question, the database returns only relevant data back. This is a spirit of what vector databases try to address storing data by the embedding. So essentially, instead of searching by value, we can now search by meaning. While conceptually this might seem a little bit straightforward, there's a bit of an overhead in setting this up. And you might be asking, well, can we just throw the employee handbook document into the database like we would in SQL database? Not quite. And here's why. With SQL databases, the burden is actually put on the user searching for the data that's stored in the structured database. But with vector databases, the burden is put on you who is actually setting up the database since you are trying to make it easier for someone searching for the data that's inside it. And you can imagine why a method like this is becoming extremely popular when paired with the large language models in AI since you don't have to train the LLM separately on how to actually search your database. Instead, the LLM can freely search based on meaning and have the confidence that your database will return relevant data that it needs. So, let's explore some of the key concepts behind what goes into setting up a basic vector database. Let's start with the embedding. Embedding is really the key concept that makes the medium go from value to meaning. In SQL, we store the values contained in the employee handbook as a straightup value. But in vector databases, you need to do a little bit of extra work up front to convert the value into its semantic meanings. And these meanings are stored in what's called an embedding. For example, the words holiday and vacation should semantically share a similar space since the meaning of those words are close to each other. So before the sentences like employee shall not request time off on holidays that's stored in the document is added to the database, the system runs it through an embedding model. The embedding model converts the sentence into a long vector of numbers and when you search the database, you're actually comparing this exact vector. That way when someone later asks, \"Can I take a vacation during a holiday?\" Even though the phrasing is different, the database can still service the request. This is the fundamental shift. Instead of searching by exact wording, we're now searching by meaning. Another important concept is dimensionality. And you might be asking, why do I have to worry about dimensionality? Can't I just throw the words into an embedding and store them into the database? Well, there's one more aspect in embedding that you need to think about. That's dimensionality. Typically, a word doesn't just have one meaning to learn from. For example, the word vacation can have different semantics depending on the context that it is used. and capturing all the intricacies like tone, formality and other features that give richness to the words are important. Typical dimensions that we use today are,536 dimensions which gives a good mix of not having too much storage burden in size but also giving enough context to allow for depth in each search. So once the embedding is stored with the proper dimension, there are two other major angles that we need to consider when we are working with vector databases and this is the retrieval side. Meaning now that we store the meaning of those words, we have to take on the burden of the retrieval of these embeddings. Since we are not doing searches like we did in SQL, we need to make a decision on what would technically be counted as a match semantically and by how much. This is done by looking at scoring and chunk overlap. And if you're wondering at this point, this just seems like a lot of tweaking just to use a vector database. And that's the serious trade-off that you ought to consider when using a vector database, which is that while a properly set up vector database makes searching so much more flexible, getting the data stored and retrieved often adds complexity. So with that in mind, scoring is a threshold that you set to how similar the results need to be to be considered a proper match. For example, the word Florida might have some similarity to the word vacation since it's often where people go for vacation. But asking the question, can I take my company laptop to Florida is very different than does my company allow vacation to Florida? Since one is asking about a policy on IT jurisdiction and the other about the vacation policy. So setting a score threshold based on the question can help limit low similarities to count as a match. Okay, there's one final angle which is the chunk overlap. So in SQL, we're used to storing things rowby row. But in a vector database, things look slightly different. When we're storing values in vector database, they're often chunked going into the database. So when we chunk down an employee handbook into chunks, it's possible that the meaning gets chunked with it. That's why we allow chunk overlap so that the context spills over to leave enough margin for the search to work properly. Popular implementation of vector databases include Pine Cone and Chroma DB. And these platforms are designed to handle embeddings at scale and provide efficient retrieval based on semantic similarity. And these are also great tools to use for prototyping something really quick. So now that we have these concepts understood, we can actually take on the burden of making search easier for users and taking on the burden ourselves to set up a vector database for the company to use it for employee handbooks and many more documents that we need. All right, let's start with the labs. In these series of labs, we're going to explore how vector databases solve one of the most fundamental problems in information retrieval. the semantic gap between how humans ask questions and how computers store information. While traditional SQL databases require exact keyword matches, vector databases understand meaning, making them the backbone of modern AI applications. Let's start by setting up our environment. In this first section, we're asked to run a simple setup script that installs NumPy for vector mathematics, sentence transformers for real AI embeddings, and Chromma DB for our production vector database. Once you've activated the virtual environment, we'll jump into lab one. In this demonstration, you'll create a real SQLite database containing company policies, the dress code, time off rules, and remote work guidelines. When an employee asks, \"What are the clothing rules?\" You'll watch the SQL like operator search for clothing in the policies. The result, nothing. Zero matches. The policy says dress code, not clothing, and SQL doesn't understand these terms are related. Each query pauses to let you see the failure happen in real time. By the end, you're looking at a 0% success rate. Three reasonable questions but three complete failures. Moving on to lab two, we encounter the magic of embeddings. In this question, we're asked to understand how the all mini LM L6V2 model with its 22 million parameters transformed words into 384dimensional vectors. Here's where things gets fascinating. You'll start by comparing word pairs that mean the same thing but share no common letters. The lab loads a real AI model and shows you how holiday and vacation, completely different words, produce vectors that are 87% similar. You'll see the actual numbers, watching as the model converts each word into a list of 384 floatingoint values. The lab then explores why we need so many dimensions. Just like describing a person requires more than just their height, capturing their meaning of texts require hundreds of dimensions. One dimension might capture formality, another the topic, another the sentiment. With 384 dimensions, the model captures incredibly nuanced semantic relationships. The interactive section here lets you type any two texts and see their similarity score in real time. Lab 3 takes us into similarity search where we build our own vector database from scratch. In this demonstration, you'll implement cosign similarity and see how it enables semantic search that actually works. The real magic happens when you test natural language queries. Can I wear jeans to work? doesn't contain the words dress or code, yet it correctly matches the dress code policy. The lab visualizes similarity scores as progress bars, making it easy to see which policies are most relevant. One of the most enlightening sections is the Florida example. When you ask, can I take my company laptop to Florida? It matches the remote work policy because it understands that this is about equipment. But can I use vacation days for Florida trip? Matches the time off policy because it recognizes this is about vacation. So the same word Florida completely different context correctly identified. The scoring threshold section is crucial for production systems. You experiment with different values. 0.7 for high confidence, 0.5 for moderate matches, 0.3 for weak associations. Setting the threshold too high means missing relevant results while too low introduces noise. Our final lab, lab 4, brings everything together with Chroma DB, a productionready vector database used by company worldwide. In this demonstration, you're building Tia's complete smart handbook system that can answer any employee question naturally. You'll start by initializing ChromadB with persistence and load comprehensive policy documents. You'll see queries like, \"Can I wear jeans on Monday?\" correctly matching the dress code policy with accurate answer that jeans are only allowed on Fridays. What makes this lab particularly valuable is the document chunking demonstration. You'll see why overlap matters when splitting long documents. The lab shows how carelessly splitting text can break words in half. Imagine splitting the word vacation into vacay and chun across chunks. The meaning is completely lost. With proper overlap, split the sentence boundaries first, then combine sentences to reach target chunk size. Never split in the middle of words. So, preserving semantic coherence. With this, we have come to the end of the lab where you've seen SQL fail with natural language, watched AI transform text into meaningful vectors, implemented similarity search from scratch, and deployed a productionready system with Chromma DB. The key insight is that vector databases aren't just about better search. They're about bridging the semantic gap between human language and computer storage.",
+  "fetchedAt": "2026-01-20T16:51:29.414Z"
+}

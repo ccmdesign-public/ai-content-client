@@ -1,0 +1,5749 @@
+{
+  "videoId": "2vu-6-lIhAs",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.4,
+      "text": "We know that AI coding tools produce"
+    },
+    {
+      "start": 2.159,
+      "duration": 4.081,
+      "text": "generic looking UIs, but it gets even"
+    },
+    {
+      "start": 4.48,
+      "duration": 3.92,
+      "text": "worse when you're building an entire app"
+    },
+    {
+      "start": 6.24,
+      "duration": 4.08,
+      "text": "with multiple screens and interconnected"
+    },
+    {
+      "start": 8.4,
+      "duration": 4.48,
+      "text": "flows. Every page looks like it was"
+    },
+    {
+      "start": 10.32,
+      "duration": 4.56,
+      "text": "designed in isolation because it was. No"
+    },
+    {
+      "start": 12.88,
+      "duration": 4.399,
+      "text": "shared system, no cohesion, just a"
+    },
+    {
+      "start": 14.88,
+      "duration": 4.559,
+      "text": "hodgepodge of disconnected outputs. So,"
+    },
+    {
+      "start": 17.279,
+      "duration": 4,
+      "text": "you reprompt, you rebuild, but each"
+    },
+    {
+      "start": 19.439,
+      "duration": 4.321,
+      "text": "iteration drifts further and further"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.641,
+      "text": "from any coherent vision. What's missing"
+    },
+    {
+      "start": 23.76,
+      "duration": 4.16,
+      "text": "is a design process. A way to make"
+    },
+    {
+      "start": 25.92,
+      "duration": 4.08,
+      "text": "deliberate decisions before your coding"
+    },
+    {
+      "start": 27.92,
+      "duration": 4.479,
+      "text": "agent wires up the back end so that you"
+    },
+    {
+      "start": 30,
+      "duration": 4.48,
+      "text": "can hand off perfectly tuned designs."
+    },
+    {
+      "start": 32.399,
+      "duration": 4,
+      "text": "Not mock-ups, but productionready"
+    },
+    {
+      "start": 34.48,
+      "duration": 4.399,
+      "text": "components for a cohesive front end"
+    },
+    {
+      "start": 36.399,
+      "duration": 4.641,
+      "text": "across your entire app. This is design"
+    },
+    {
+      "start": 38.879,
+      "duration": 4.481,
+      "text": "OS. It's the missing step between your"
+    },
+    {
+      "start": 41.04,
+      "duration": 4.08,
+      "text": "product idea and your codebase. I built"
+    },
+    {
+      "start": 43.36,
+      "duration": 3.84,
+      "text": "it to solve the front-end design problem"
+    },
+    {
+      "start": 45.12,
+      "duration": 4.959,
+      "text": "in my own work. It's a guided process"
+    },
+    {
+      "start": 47.2,
+      "duration": 5.039,
+      "text": "where you and AI plan your product,"
+    },
+    {
+      "start": 50.079,
+      "duration": 4.081,
+      "text": "design your screens, and then export"
+    },
+    {
+      "start": 52.239,
+      "duration": 4,
+      "text": "productionready components that any"
+    },
+    {
+      "start": 54.16,
+      "duration": 4.48,
+      "text": "coding agent can implement. So, the days"
+    },
+    {
+      "start": 56.239,
+      "duration": 4.48,
+      "text": "of creating mock-ups by hand only to see"
+    },
+    {
+      "start": 58.64,
+      "duration": 4.559,
+      "text": "them get lost in translation, that's"
+    },
+    {
+      "start": 60.719,
+      "duration": 4.72,
+      "text": "over. Now, we can design our actual"
+    },
+    {
+      "start": 63.199,
+      "duration": 4.96,
+      "text": "front end with an AI first design"
+    },
+    {
+      "start": 65.439,
+      "duration": 4.72,
+      "text": "process. Design OS is free and open"
+    },
+    {
+      "start": 68.159,
+      "duration": 3.361,
+      "text": "source. You can download it, use it, and"
+    },
+    {
+      "start": 70.159,
+      "duration": 4.081,
+      "text": "see all the docs by going to"
+    },
+    {
+      "start": 71.52,
+      "duration": 4.08,
+      "text": "buildermethods.com/designos."
+    },
+    {
+      "start": 74.24,
+      "duration": 3.36,
+      "text": "In this video, I'll show you how it"
+    },
+    {
+      "start": 75.6,
+      "duration": 4.08,
+      "text": "works. By the way, I'm Brian Castle. I'm"
+    },
+    {
+      "start": 77.6,
+      "duration": 3.92,
+      "text": "the creator of AgentOS, a popular"
+    },
+    {
+      "start": 79.68,
+      "duration": 4.72,
+      "text": "framework for spec driven development"
+    },
+    {
+      "start": 81.52,
+      "duration": 4.72,
+      "text": "with AI and now design OS. I also run"
+    },
+    {
+      "start": 84.4,
+      "duration": 4,
+      "text": "builder methods where pro members get"
+    },
+    {
+      "start": 86.24,
+      "duration": 4.239,
+      "text": "support, training, and community for"
+    },
+    {
+      "start": 88.4,
+      "duration": 4.399,
+      "text": "building software with AI. All right,"
+    },
+    {
+      "start": 90.479,
+      "duration": 4.801,
+      "text": "now let's dive in. Design OS organizes"
+    },
+    {
+      "start": 92.799,
+      "duration": 4.881,
+      "text": "your process into three phases. Phase"
+    },
+    {
+      "start": 95.28,
+      "duration": 4.64,
+      "text": "one is product planning. You establish"
+    },
+    {
+      "start": 97.68,
+      "duration": 4.399,
+      "text": "your foundation, your product's vision,"
+    },
+    {
+      "start": 99.92,
+      "duration": 4.159,
+      "text": "your data model, and your global design"
+    },
+    {
+      "start": 102.079,
+      "duration": 3.921,
+      "text": "system. Phase two is where you design"
+    },
+    {
+      "start": 104.079,
+      "duration": 3.601,
+      "text": "each section of your product. You shape"
+    },
+    {
+      "start": 106,
+      "duration": 3.84,
+      "text": "the requirements, then generate some"
+    },
+    {
+      "start": 107.68,
+      "duration": 4.64,
+      "text": "sample data, and then design the actual"
+    },
+    {
+      "start": 109.84,
+      "duration": 4.48,
+      "text": "screens. And phase three exports your"
+    },
+    {
+      "start": 112.32,
+      "duration": 4.159,
+      "text": "product's design in a package that's"
+    },
+    {
+      "start": 114.32,
+      "duration": 4.32,
+      "text": "ready for implementation. This lets you"
+    },
+    {
+      "start": 116.479,
+      "duration": 4.401,
+      "text": "hand off finished front-end components"
+    },
+    {
+      "start": 118.64,
+      "duration": 4.159,
+      "text": "and also gives you ready-made prompts to"
+    },
+    {
+      "start": 120.88,
+      "duration": 3.839,
+      "text": "instruct your coding agent on exactly"
+    },
+    {
+      "start": 122.799,
+      "duration": 4,
+      "text": "how to use your designs and build your"
+    },
+    {
+      "start": 124.719,
+      "duration": 4.081,
+      "text": "app. You'll interact with Design OS"
+    },
+    {
+      "start": 126.799,
+      "duration": 4.08,
+      "text": "through a series of commands. These are"
+    },
+    {
+      "start": 128.8,
+      "duration": 4.24,
+      "text": "structured conversations where AI guides"
+    },
+    {
+      "start": 130.879,
+      "duration": 4.321,
+      "text": "you through each decision. No staring at"
+    },
+    {
+      "start": 133.04,
+      "duration": 4.96,
+      "text": "a blank page, no guesswork, just a"
+    },
+    {
+      "start": 135.2,
+      "duration": 5.119,
+      "text": "methodical planning and design process."
+    },
+    {
+      "start": 138,
+      "duration": 4.16,
+      "text": "Now, design OS is its own standalone"
+    },
+    {
+      "start": 140.319,
+      "duration": 4.881,
+      "text": "project. It's separate from your app's"
+    },
+    {
+      "start": 142.16,
+      "duration": 5.76,
+      "text": "codebase. It's built on React, VIT, Shad"
+    },
+    {
+      "start": 145.2,
+      "duration": 4.72,
+      "text": "CN, and Tailwind CSS. Now, I recommend"
+    },
+    {
+      "start": 147.92,
+      "duration": 4.24,
+      "text": "you use Cloud Code to run the commands"
+    },
+    {
+      "start": 149.92,
+      "duration": 4.08,
+      "text": "that are included in Design OS. But if"
+    },
+    {
+      "start": 152.16,
+      "duration": 3.84,
+      "text": "you prefer a different tool like Cursor"
+    },
+    {
+      "start": 154,
+      "duration": 4,
+      "text": "or Codeex or Gemini or any of the"
+    },
+    {
+      "start": 156,
+      "duration": 4,
+      "text": "others, it's easy enough to reference"
+    },
+    {
+      "start": 158,
+      "duration": 3.68,
+      "text": "and run those same commands. All right,"
+    },
+    {
+      "start": 160,
+      "duration": 4.16,
+      "text": "now let's start by getting Design OS"
+    },
+    {
+      "start": 161.68,
+      "duration": 5.12,
+      "text": "installed. I'll start by going to the"
+    },
+    {
+      "start": 164.16,
+      "duration": 5.04,
+      "text": "docs and I can go down to setup and go"
+    },
+    {
+      "start": 166.8,
+      "duration": 5.12,
+      "text": "to installation. And you can clone the"
+    },
+    {
+      "start": 169.2,
+      "duration": 4.48,
+      "text": "GitHub repository by just copying this"
+    },
+    {
+      "start": 171.92,
+      "duration": 4.8,
+      "text": "command right here. Now, you'll want to"
+    },
+    {
+      "start": 173.68,
+      "duration": 5.52,
+      "text": "change my product design with the name"
+    },
+    {
+      "start": 176.72,
+      "duration": 4.56,
+      "text": "of your project. Now my project today is"
+    },
+    {
+      "start": 179.2,
+      "duration": 4.72,
+      "text": "going to be called salesy but I'm going"
+    },
+    {
+      "start": 181.28,
+      "duration": 5.28,
+      "text": "to actually add design here because"
+    },
+    {
+      "start": 183.92,
+      "duration": 4.64,
+      "text": "salesy alone will be the name of the app"
+    },
+    {
+      "start": 186.56,
+      "duration": 4.24,
+      "text": "but this project is separate. This is"
+    },
+    {
+      "start": 188.56,
+      "duration": 4.8,
+      "text": "just for design OS. So I'm going to call"
+    },
+    {
+      "start": 190.8,
+      "duration": 6.4,
+      "text": "it salesy design and then we're going to"
+    },
+    {
+      "start": 193.36,
+      "duration": 5.84,
+      "text": "cd into salesy design and we'll just run"
+    },
+    {
+      "start": 197.2,
+      "duration": 4.16,
+      "text": "that all in one command. Okay. So, I've"
+    },
+    {
+      "start": 199.2,
+      "duration": 4.8,
+      "text": "just pulled down all of the files for"
+    },
+    {
+      "start": 201.36,
+      "duration": 5.04,
+      "text": "Design OS, uh, including the Claude"
+    },
+    {
+      "start": 204,
+      "duration": 5.76,
+      "text": "commands, and those are inside of this"
+    },
+    {
+      "start": 206.4,
+      "duration": 6.32,
+      "text": "Design OS folder. And we have the Claude"
+    },
+    {
+      "start": 209.76,
+      "duration": 5.039,
+      "text": "code skill called front-end design. And"
+    },
+    {
+      "start": 212.72,
+      "duration": 4.96,
+      "text": "the rest of this is the React and Vit"
+    },
+    {
+      "start": 214.799,
+      "duration": 4.321,
+      "text": "app that will power Design OS. And then"
+    },
+    {
+      "start": 217.68,
+      "duration": 3.04,
+      "text": "just, you know, following along with the"
+    },
+    {
+      "start": 219.12,
+      "duration": 3.6,
+      "text": "installation instructions, we'll remove"
+    },
+    {
+      "start": 220.72,
+      "duration": 4.4,
+      "text": "the original remote. And then I want to"
+    },
+    {
+      "start": 222.72,
+      "duration": 6.4,
+      "text": "npm install. And then let's start it up."
+    },
+    {
+      "start": 225.12,
+      "duration": 5.839,
+      "text": "MPM rundev. That's on localhost 3000."
+    },
+    {
+      "start": 229.12,
+      "duration": 4.32,
+      "text": "Okay, here we go. Design OS is up and"
+    },
+    {
+      "start": 230.959,
+      "duration": 4.56,
+      "text": "running on my system. Uh, ready to start"
+    },
+    {
+      "start": 233.44,
+      "duration": 4.879,
+      "text": "a new project. Now, the way that Design"
+    },
+    {
+      "start": 235.519,
+      "duration": 5.36,
+      "text": "OS is laid out across the top is our"
+    },
+    {
+      "start": 238.319,
+      "duration": 4.081,
+      "text": "overall process starting from the"
+    },
+    {
+      "start": 240.879,
+      "duration": 3.92,
+      "text": "product vision. And then we're going to"
+    },
+    {
+      "start": 242.4,
+      "duration": 4.559,
+      "text": "move into the data model, the design"
+    },
+    {
+      "start": 244.799,
+      "duration": 3.921,
+      "text": "tokens, and the design shell. Uh, then"
+    },
+    {
+      "start": 246.959,
+      "duration": 3.761,
+      "text": "we'll get into designing each individual"
+    },
+    {
+      "start": 248.72,
+      "duration": 4.4,
+      "text": "section. And then finally, we will"
+    },
+    {
+      "start": 250.72,
+      "duration": 4.96,
+      "text": "export our package. The first step in"
+    },
+    {
+      "start": 253.12,
+      "duration": 4.32,
+      "text": "any design OS project is defining the"
+    },
+    {
+      "start": 255.68,
+      "duration": 3.679,
+      "text": "vision for your product. This is where"
+    },
+    {
+      "start": 257.44,
+      "duration": 3.759,
+      "text": "you establish the core identity of what"
+    },
+    {
+      "start": 259.359,
+      "duration": 3.681,
+      "text": "you're building. What problem does it"
+    },
+    {
+      "start": 261.199,
+      "duration": 3.44,
+      "text": "solve? What are the key features that"
+    },
+    {
+      "start": 263.04,
+      "duration": 3.12,
+      "text": "make this possible? You don't need to"
+    },
+    {
+      "start": 264.639,
+      "duration": 3.361,
+      "text": "have all the answers figured out ahead"
+    },
+    {
+      "start": 266.16,
+      "duration": 4.08,
+      "text": "of time. The product vision command"
+    },
+    {
+      "start": 268,
+      "duration": 4.32,
+      "text": "starts that conversation. You share your"
+    },
+    {
+      "start": 270.24,
+      "duration": 4.08,
+      "text": "rough ideas and AI will ask you"
+    },
+    {
+      "start": 272.32,
+      "duration": 3.92,
+      "text": "clarifying questions and together you"
+    },
+    {
+      "start": 274.32,
+      "duration": 4.64,
+      "text": "shape everything into a clear product"
+    },
+    {
+      "start": 276.24,
+      "duration": 4.48,
+      "text": "overview. And looking at design OS, the"
+    },
+    {
+      "start": 278.96,
+      "duration": 4.16,
+      "text": "first step in the product definition"
+    },
+    {
+      "start": 280.72,
+      "duration": 4.32,
+      "text": "page is to run the product vision"
+    },
+    {
+      "start": 283.12,
+      "duration": 4.96,
+      "text": "command. So I'm going to just run that"
+    },
+    {
+      "start": 285.04,
+      "duration": 4.56,
+      "text": "in cloud code /vision."
+    },
+    {
+      "start": 288.08,
+      "duration": 4.399,
+      "text": "And you'll know that that's the command"
+    },
+    {
+      "start": 289.6,
+      "duration": 4.879,
+      "text": "because it's preceded by design OS. So"
+    },
+    {
+      "start": 292.479,
+      "duration": 4.881,
+      "text": "I'm just going to run that. So first"
+    },
+    {
+      "start": 294.479,
+      "duration": 4.641,
+      "text": "thing is it asks me to define my product"
+    },
+    {
+      "start": 297.36,
+      "duration": 3.36,
+      "text": "vision. It says tell me about the"
+    },
+    {
+      "start": 299.12,
+      "duration": 4,
+      "text": "product you're building. Any notes,"
+    },
+    {
+      "start": 300.72,
+      "duration": 4.16,
+      "text": "ideas, rough thoughts? What problem are"
+    },
+    {
+      "start": 303.12,
+      "duration": 3.2,
+      "text": "you trying to solve? Who's it for? Don't"
+    },
+    {
+      "start": 304.88,
+      "duration": 3.599,
+      "text": "worry about structure yet. just share"
+    },
+    {
+      "start": 306.32,
+      "duration": 4.8,
+      "text": "what's on your mind. Now, I've prepared"
+    },
+    {
+      "start": 308.479,
+      "duration": 4.481,
+      "text": "a prompt to use here. And this is, you"
+    },
+    {
+      "start": 311.12,
+      "duration": 3.68,
+      "text": "know, typically my starting point for a"
+    },
+    {
+      "start": 312.96,
+      "duration": 3.92,
+      "text": "new product. I have a couple of ideas"
+    },
+    {
+      "start": 314.8,
+      "duration": 3.52,
+      "text": "and and rough structure in my mind. It"
+    },
+    {
+      "start": 316.88,
+      "duration": 2.8,
+      "text": "looks something like this. Now, in this"
+    },
+    {
+      "start": 318.32,
+      "duration": 3.599,
+      "text": "case, I'll be building an app that I'll"
+    },
+    {
+      "start": 319.68,
+      "duration": 4.48,
+      "text": "be calling salesy. And it says that"
+    },
+    {
+      "start": 321.919,
+      "duration": 4.961,
+      "text": "it'll let you easily create simple"
+    },
+    {
+      "start": 324.16,
+      "duration": 5.039,
+      "text": "sharable sales pages to request payment"
+    },
+    {
+      "start": 326.88,
+      "duration": 4.96,
+      "text": "for something, a product, a service, and"
+    },
+    {
+      "start": 329.199,
+      "duration": 4.961,
+      "text": "optionally personalize these pages to a"
+    },
+    {
+      "start": 331.84,
+      "duration": 4.799,
+      "text": "client. Now, each sales page should use"
+    },
+    {
+      "start": 334.16,
+      "duration": 4.479,
+      "text": "a clean branded layout separate from the"
+    },
+    {
+      "start": 336.639,
+      "duration": 4.321,
+      "text": "main app's shell because that will be"
+    },
+    {
+      "start": 338.639,
+      "duration": 3.921,
+      "text": "client-f facing. So, that's all that I'm"
+    },
+    {
+      "start": 340.96,
+      "duration": 3.679,
+      "text": "putting into my initial prompt. And"
+    },
+    {
+      "start": 342.56,
+      "duration": 3.199,
+      "text": "sometimes I'll put even less than this."
+    },
+    {
+      "start": 344.639,
+      "duration": 2.961,
+      "text": "You know, as you can see, there's"
+    },
+    {
+      "start": 345.759,
+      "duration": 4.321,
+      "text": "probably some holes and and a lot of"
+    },
+    {
+      "start": 347.6,
+      "duration": 4.4,
+      "text": "open questions, but this is a good start"
+    },
+    {
+      "start": 350.08,
+      "duration": 4.16,
+      "text": "for my new product. So, I'm going to"
+    },
+    {
+      "start": 352,
+      "duration": 4.08,
+      "text": "paste that into Claude, and we'll start"
+    },
+    {
+      "start": 354.24,
+      "duration": 3.84,
+      "text": "from there. All right. So, now Claude is"
+    },
+    {
+      "start": 356.08,
+      "duration": 3.679,
+      "text": "going to start to ask me some clarifying"
+    },
+    {
+      "start": 358.08,
+      "duration": 4.32,
+      "text": "questions. First, it's asking me about"
+    },
+    {
+      "start": 359.759,
+      "duration": 5.44,
+      "text": "the target user. And I think that I'll"
+    },
+    {
+      "start": 362.4,
+      "duration": 4.88,
+      "text": "actually select two of those. Right."
+    },
+    {
+      "start": 365.199,
+      "duration": 4.321,
+      "text": "It's asking me what metrics matter most"
+    },
+    {
+      "start": 367.28,
+      "duration": 3.52,
+      "text": "for tracking sales page performance. And"
+    },
+    {
+      "start": 369.52,
+      "duration": 2.72,
+      "text": "you know, here's an example of something"
+    },
+    {
+      "start": 370.8,
+      "duration": 4.16,
+      "text": "where I sort of want to course correct"
+    },
+    {
+      "start": 372.24,
+      "duration": 4.079,
+      "text": "it and and add my own notes to this. So"
+    },
+    {
+      "start": 374.96,
+      "duration": 2.959,
+      "text": "instead, I'm going to go to the fourth"
+    },
+    {
+      "start": 376.319,
+      "duration": 3.121,
+      "text": "option and just type something in. I'm"
+    },
+    {
+      "start": 377.919,
+      "duration": 3.84,
+      "text": "going to say I'm going to say I just"
+    },
+    {
+      "start": 379.44,
+      "duration": 3.84,
+      "text": "want to track the number of sales pages"
+    },
+    {
+      "start": 381.759,
+      "duration": 3.601,
+      "text": "that I've sent. All right. Then I'll"
+    },
+    {
+      "start": 383.28,
+      "duration": 5.199,
+      "text": "submit those answers. Okay. So, it has"
+    },
+    {
+      "start": 385.36,
+      "duration": 6.16,
+      "text": "drafted up a description and a couple of"
+    },
+    {
+      "start": 388.479,
+      "duration": 5.44,
+      "text": "problems and solutions and a couple of"
+    },
+    {
+      "start": 391.52,
+      "duration": 4.32,
+      "text": "key features based on its understanding"
+    },
+    {
+      "start": 393.919,
+      "duration": 3.28,
+      "text": "of what we're building here. So, you"
+    },
+    {
+      "start": 395.84,
+      "duration": 3.6,
+      "text": "know, I would sort of like read through"
+    },
+    {
+      "start": 397.199,
+      "duration": 3.84,
+      "text": "this and if I have any uh corrections or"
+    },
+    {
+      "start": 399.44,
+      "duration": 3.12,
+      "text": "notes that I want to add, I can add"
+    },
+    {
+      "start": 401.039,
+      "duration": 4,
+      "text": "those in. But, you know, for now, I'm"
+    },
+    {
+      "start": 402.56,
+      "duration": 4.479,
+      "text": "just going to say this is good. So, now"
+    },
+    {
+      "start": 405.039,
+      "duration": 4,
+      "text": "it's actually showing our product"
+    },
+    {
+      "start": 407.039,
+      "duration": 3.921,
+      "text": "overview for this app that we're"
+    },
+    {
+      "start": 409.039,
+      "duration": 4,
+      "text": "building. Here's the description. Here's"
+    },
+    {
+      "start": 410.96,
+      "duration": 4.32,
+      "text": "the list of problems and solutions that"
+    },
+    {
+      "start": 413.039,
+      "duration": 4.641,
+      "text": "we're setting out to solve with this"
+    },
+    {
+      "start": 415.28,
+      "duration": 4.56,
+      "text": "product. And then we have a list of key"
+    },
+    {
+      "start": 417.68,
+      "duration": 4.4,
+      "text": "features. All right. So now our product"
+    },
+    {
+      "start": 419.84,
+      "duration": 4.24,
+      "text": "is starting to take shape. And so now"
+    },
+    {
+      "start": 422.08,
+      "duration": 4.64,
+      "text": "based on this, our next step as I go"
+    },
+    {
+      "start": 424.08,
+      "duration": 4.64,
+      "text": "down in the process here is to run"
+    },
+    {
+      "start": 426.72,
+      "duration": 3.919,
+      "text": "product roadmap. And what this is going"
+    },
+    {
+      "start": 428.72,
+      "duration": 4.96,
+      "text": "to do is it's actually going to break"
+    },
+    {
+      "start": 430.639,
+      "duration": 5.921,
+      "text": "down our product concept into a couple"
+    },
+    {
+      "start": 433.68,
+      "duration": 4.959,
+      "text": "of key sections that are sort of"
+    },
+    {
+      "start": 436.56,
+      "duration": 3.919,
+      "text": "buildable and self-contained screens"
+    },
+    {
+      "start": 438.639,
+      "duration": 3.921,
+      "text": "that we're going to need in our app. And"
+    },
+    {
+      "start": 440.479,
+      "duration": 5.041,
+      "text": "so that's going to start to form a road"
+    },
+    {
+      "start": 442.56,
+      "duration": 5.84,
+      "text": "map for our entire design process. So"
+    },
+    {
+      "start": 445.52,
+      "duration": 5.679,
+      "text": "let's run product road map. All right."
+    },
+    {
+      "start": 448.4,
+      "duration": 5.919,
+      "text": "So just like that, it has come up with a"
+    },
+    {
+      "start": 451.199,
+      "duration": 5.201,
+      "text": "list of about four sections. So we've"
+    },
+    {
+      "start": 454.319,
+      "duration": 3.761,
+      "text": "got sales pages. That's where we would"
+    },
+    {
+      "start": 456.4,
+      "duration": 3.919,
+      "text": "uh like create the sales pages. We've"
+    },
+    {
+      "start": 458.08,
+      "duration": 3.839,
+      "text": "got a clients area. Uh we've got a main"
+    },
+    {
+      "start": 460.319,
+      "duration": 3.761,
+      "text": "dashboard, of course, and then the"
+    },
+    {
+      "start": 461.919,
+      "duration": 3.441,
+      "text": "public page. Yeah, I think that's a"
+    },
+    {
+      "start": 464.08,
+      "duration": 3.36,
+      "text": "that's a really good start. Of course,"
+    },
+    {
+      "start": 465.36,
+      "duration": 4.559,
+      "text": "we'll have like settings pages and maybe"
+    },
+    {
+      "start": 467.44,
+      "duration": 4.24,
+      "text": "some other pages tied into these, but"
+    },
+    {
+      "start": 469.919,
+      "duration": 3.601,
+      "text": "these are like the main sections of the"
+    },
+    {
+      "start": 471.68,
+      "duration": 4.16,
+      "text": "app. And you might even think of these"
+    },
+    {
+      "start": 473.52,
+      "duration": 3.84,
+      "text": "as links in our main navigation. So,"
+    },
+    {
+      "start": 475.84,
+      "duration": 2.88,
+      "text": "I've got a couple of options here, of"
+    },
+    {
+      "start": 477.36,
+      "duration": 3.04,
+      "text": "course, but I'm just going to say looks"
+    },
+    {
+      "start": 478.72,
+      "duration": 4.56,
+      "text": "good. All right. So, with that, now we"
+    },
+    {
+      "start": 480.4,
+      "duration": 5.359,
+      "text": "have those four sections listed here"
+    },
+    {
+      "start": 483.28,
+      "duration": 5.039,
+      "text": "under sections. And now I can of course"
+    },
+    {
+      "start": 485.759,
+      "duration": 4.16,
+      "text": "move on into the next phase. Next up is"
+    },
+    {
+      "start": 488.319,
+      "duration": 3.201,
+      "text": "your data model. Now, if you've never"
+    },
+    {
+      "start": 489.919,
+      "duration": 3.441,
+      "text": "done any back-end development, this"
+    },
+    {
+      "start": 491.52,
+      "duration": 4,
+      "text": "might sound intimidating, but here's the"
+    },
+    {
+      "start": 493.36,
+      "duration": 4,
+      "text": "thing. This step is conceptual. It's not"
+    },
+    {
+      "start": 495.52,
+      "duration": 4.16,
+      "text": "technical. You're not writing database"
+    },
+    {
+      "start": 497.36,
+      "duration": 4.239,
+      "text": "schemas. You're just defining the nouns"
+    },
+    {
+      "start": 499.68,
+      "duration": 4.72,
+      "text": "of the system. The main things that"
+    },
+    {
+      "start": 501.599,
+      "duration": 5.761,
+      "text": "users will create, view, and manage,"
+    },
+    {
+      "start": 504.4,
+      "duration": 5.04,
+      "text": "like users or projects or invoices or"
+    },
+    {
+      "start": 507.36,
+      "duration": 3.92,
+      "text": "tasks, whatever makes sense for your"
+    },
+    {
+      "start": 509.44,
+      "duration": 3.599,
+      "text": "product. AI will help you think through"
+    },
+    {
+      "start": 511.28,
+      "duration": 3.6,
+      "text": "what entities you need and how they"
+    },
+    {
+      "start": 513.039,
+      "duration": 3.44,
+      "text": "relate to each other. So whether you're"
+    },
+    {
+      "start": 514.88,
+      "duration": 3.76,
+      "text": "a technical founder who wants"
+    },
+    {
+      "start": 516.479,
+      "duration": 4,
+      "text": "architectural control or you're a"
+    },
+    {
+      "start": 518.64,
+      "duration": 3.68,
+      "text": "non-technical builder with a clear"
+    },
+    {
+      "start": 520.479,
+      "duration": 4.001,
+      "text": "product vision, this step helps you"
+    },
+    {
+      "start": 522.32,
+      "duration": 4.079,
+      "text": "establish a strong foundation that will"
+    },
+    {
+      "start": 524.48,
+      "duration": 3.359,
+      "text": "guide everything that follows. Okay, so"
+    },
+    {
+      "start": 526.399,
+      "duration": 4.401,
+      "text": "we're on the data model page and the"
+    },
+    {
+      "start": 527.839,
+      "duration": 5.521,
+      "text": "only step to do here is run the data"
+    },
+    {
+      "start": 530.8,
+      "duration": 6,
+      "text": "model command. So let's run that slash"
+    },
+    {
+      "start": 533.36,
+      "duration": 5.84,
+      "text": "data model. Notice how easy it is to go"
+    },
+    {
+      "start": 536.8,
+      "duration": 4.159,
+      "text": "step by step through this guided"
+    },
+    {
+      "start": 539.2,
+      "duration": 3.28,
+      "text": "process. All right. And just like that,"
+    },
+    {
+      "start": 540.959,
+      "duration": 3.601,
+      "text": "it says, \"Looking at your product, here"
+    },
+    {
+      "start": 542.48,
+      "duration": 4.96,
+      "text": "are the entities that I'm seeing that we"
+    },
+    {
+      "start": 544.56,
+      "duration": 5.279,
+      "text": "would need a sales page, client, and"
+    },
+    {
+      "start": 547.44,
+      "duration": 4.959,
+      "text": "payment.\" Now, for the purpose of this"
+    },
+    {
+      "start": 549.839,
+      "duration": 4.241,
+      "text": "design process, I would say that is that"
+    },
+    {
+      "start": 552.399,
+      "duration": 3.44,
+      "text": "is just fine. And now, of course, when"
+    },
+    {
+      "start": 554.08,
+      "duration": 3.36,
+      "text": "we get into the final codebase, we're"
+    },
+    {
+      "start": 555.839,
+      "duration": 4.321,
+      "text": "going to have all sorts of other data"
+    },
+    {
+      "start": 557.44,
+      "duration": 4.32,
+      "text": "models like maybe users and accounts and"
+    },
+    {
+      "start": 560.16,
+      "duration": 3.84,
+      "text": "other stuff, but you know, for the"
+    },
+    {
+      "start": 561.76,
+      "duration": 4.24,
+      "text": "purpose of designing this new app, let's"
+    },
+    {
+      "start": 564,
+      "duration": 3.839,
+      "text": "just focus on these main entities. So,"
+    },
+    {
+      "start": 566,
+      "duration": 4,
+      "text": "I'm going to say good to go. All right."
+    },
+    {
+      "start": 567.839,
+      "duration": 4.641,
+      "text": "So, it documented that data model into"
+    },
+    {
+      "start": 570,
+      "duration": 3.76,
+      "text": "this simple, easy to read. It just makes"
+    },
+    {
+      "start": 572.48,
+      "duration": 3.12,
+      "text": "sense, right? I'm looking at these"
+    },
+    {
+      "start": 573.76,
+      "duration": 4.24,
+      "text": "entities with, you know, short"
+    },
+    {
+      "start": 575.6,
+      "duration": 5.28,
+      "text": "descriptions and then relationships. how"
+    },
+    {
+      "start": 578,
+      "duration": 5.519,
+      "text": "a sales page belongs to a client and how"
+    },
+    {
+      "start": 580.88,
+      "duration": 4.88,
+      "text": "a client has many sales pages. Payment"
+    },
+    {
+      "start": 583.519,
+      "duration": 4,
+      "text": "belongs to a sales page. So, of course,"
+    },
+    {
+      "start": 585.76,
+      "duration": 3.36,
+      "text": "if you're experienced with back-end"
+    },
+    {
+      "start": 587.519,
+      "duration": 3.76,
+      "text": "development and data modeling, you'll"
+    },
+    {
+      "start": 589.12,
+      "duration": 4.32,
+      "text": "understand how these associations might"
+    },
+    {
+      "start": 591.279,
+      "duration": 4.321,
+      "text": "work in a codebase. But even if you're"
+    },
+    {
+      "start": 593.44,
+      "duration": 4.32,
+      "text": "not technical, you can just read this"
+    },
+    {
+      "start": 595.6,
+      "duration": 5.2,
+      "text": "and it's understandable. We're looking"
+    },
+    {
+      "start": 597.76,
+      "duration": 5.12,
+      "text": "at the nouns of our product. Now, before"
+    },
+    {
+      "start": 600.8,
+      "duration": 4.08,
+      "text": "we can design individual screens, we"
+    },
+    {
+      "start": 602.88,
+      "duration": 4.8,
+      "text": "need to establish our global design"
+    },
+    {
+      "start": 604.88,
+      "duration": 5.36,
+      "text": "system. This includes two things. design"
+    },
+    {
+      "start": 607.68,
+      "duration": 5.04,
+      "text": "tokens and your application shell."
+    },
+    {
+      "start": 610.24,
+      "duration": 4.32,
+      "text": "Design tokens are your visual identity,"
+    },
+    {
+      "start": 612.72,
+      "duration": 3.92,
+      "text": "your color palette, your typography"
+    },
+    {
+      "start": 614.56,
+      "duration": 3.6,
+      "text": "choices. These decisions will cascade"
+    },
+    {
+      "start": 616.64,
+      "duration": 3.759,
+      "text": "through every screen you design,"
+    },
+    {
+      "start": 618.16,
+      "duration": 4.08,
+      "text": "ensuring consistency across your entire"
+    },
+    {
+      "start": 620.399,
+      "duration": 3.841,
+      "text": "product. And your application shell is"
+    },
+    {
+      "start": 622.24,
+      "duration": 4.24,
+      "text": "the persistent navigation and layout"
+    },
+    {
+      "start": 624.24,
+      "duration": 4.56,
+      "text": "that wraps all your sections. So, your"
+    },
+    {
+      "start": 626.48,
+      "duration": 4.24,
+      "text": "sidebar layout or your topnav or your"
+    },
+    {
+      "start": 628.8,
+      "duration": 3.84,
+      "text": "minimal header, whatever pattern fits"
+    },
+    {
+      "start": 630.72,
+      "duration": 4,
+      "text": "your product. Getting these right before"
+    },
+    {
+      "start": 632.64,
+      "duration": 3.92,
+      "text": "you design individual sections means"
+    },
+    {
+      "start": 634.72,
+      "duration": 4.08,
+      "text": "everything you build will automatically"
+    },
+    {
+      "start": 636.56,
+      "duration": 4.56,
+      "text": "feel cohesive and intentional. All"
+    },
+    {
+      "start": 638.8,
+      "duration": 4.479,
+      "text": "right, moving on into the design system."
+    },
+    {
+      "start": 641.12,
+      "duration": 5.279,
+      "text": "So, this page has two steps. We're going"
+    },
+    {
+      "start": 643.279,
+      "duration": 5.041,
+      "text": "to start by running design tokens. So,"
+    },
+    {
+      "start": 646.399,
+      "duration": 4.961,
+      "text": "let's run that. And this is going to"
+    },
+    {
+      "start": 648.32,
+      "duration": 4.4,
+      "text": "help me establish our brand colors and"
+    },
+    {
+      "start": 651.36,
+      "duration": 3.52,
+      "text": "the fonts that we're going to be using"
+    },
+    {
+      "start": 652.72,
+      "duration": 3.76,
+      "text": "in our design system. So, it makes a"
+    },
+    {
+      "start": 654.88,
+      "duration": 3.76,
+      "text": "couple of suggestions. It's actually"
+    },
+    {
+      "start": 656.48,
+      "duration": 5.039,
+      "text": "pulling these color names from the"
+    },
+    {
+      "start": 658.64,
+      "duration": 4.4,
+      "text": "Tailwind CSS colors library. And it's"
+    },
+    {
+      "start": 661.519,
+      "duration": 4.401,
+      "text": "going to be using Google fonts. So,"
+    },
+    {
+      "start": 663.04,
+      "duration": 5.2,
+      "text": "which color vibe fits salesy best? And"
+    },
+    {
+      "start": 665.92,
+      "duration": 4.64,
+      "text": "it's even recommending uh this combo,"
+    },
+    {
+      "start": 668.24,
+      "duration": 3.839,
+      "text": "indigo, emerald, and slate. So, yeah,"
+    },
+    {
+      "start": 670.56,
+      "duration": 4.08,
+      "text": "that sounds good to me. All right. So,"
+    },
+    {
+      "start": 672.079,
+      "duration": 4.88,
+      "text": "which typography style do I prefer? Now,"
+    },
+    {
+      "start": 674.64,
+      "duration": 4.48,
+      "text": "I know that inter is, you know, kind of"
+    },
+    {
+      "start": 676.959,
+      "duration": 4.161,
+      "text": "overused, of course, but I think it"
+    },
+    {
+      "start": 679.12,
+      "duration": 4.159,
+      "text": "actually does fit pretty well here. It's"
+    },
+    {
+      "start": 681.12,
+      "duration": 4,
+      "text": "clean, professional, highly readable."
+    },
+    {
+      "start": 683.279,
+      "duration": 3.761,
+      "text": "Cool. All right. So, it has put in our"
+    },
+    {
+      "start": 685.12,
+      "duration": 3.68,
+      "text": "design tokens. Of course, we can uh take"
+    },
+    {
+      "start": 687.04,
+      "duration": 3.68,
+      "text": "a look at those right here. The nice"
+    },
+    {
+      "start": 688.8,
+      "duration": 4.32,
+      "text": "thing here about establishing these now"
+    },
+    {
+      "start": 690.72,
+      "duration": 4.16,
+      "text": "is that in all of the design sections,"
+    },
+    {
+      "start": 693.12,
+      "duration": 4.88,
+      "text": "we're always going to be using these"
+    },
+    {
+      "start": 694.88,
+      "duration": 5.92,
+      "text": "exact colors rather than designing each,"
+    },
+    {
+      "start": 698,
+      "duration": 4.8,
+      "text": "you know, screen in isolation where AI"
+    },
+    {
+      "start": 700.8,
+      "duration": 3.52,
+      "text": "might start to tweak and use different"
+    },
+    {
+      "start": 702.8,
+      "duration": 3.68,
+      "text": "colors for different pages. We don't"
+    },
+    {
+      "start": 704.32,
+      "duration": 3.759,
+      "text": "want that. We want consistency. All"
+    },
+    {
+      "start": 706.48,
+      "duration": 3.68,
+      "text": "right, let's go ahead and actually start"
+    },
+    {
+      "start": 708.079,
+      "duration": 4.32,
+      "text": "designing the shell. So, I'll just run"
+    },
+    {
+      "start": 710.16,
+      "duration": 4,
+      "text": "the design shell command. Now, of"
+    },
+    {
+      "start": 712.399,
+      "duration": 4.161,
+      "text": "course, application shells can come in"
+    },
+    {
+      "start": 714.16,
+      "duration": 4.32,
+      "text": "all different types of configurations"
+    },
+    {
+      "start": 716.56,
+      "duration": 3.36,
+      "text": "and shapes and sizes. So, it's going to"
+    },
+    {
+      "start": 718.48,
+      "duration": 3.28,
+      "text": "ask us, you know, what kind of layout"
+    },
+    {
+      "start": 719.92,
+      "duration": 4.56,
+      "text": "are we working with here? Do we want a"
+    },
+    {
+      "start": 721.76,
+      "duration": 4.879,
+      "text": "sidebar navigation or a top navigation"
+    },
+    {
+      "start": 724.48,
+      "duration": 4.08,
+      "text": "or some kind of minimal header? I think"
+    },
+    {
+      "start": 726.639,
+      "duration": 4.721,
+      "text": "in this case, we will go with a side"
+    },
+    {
+      "start": 728.56,
+      "duration": 5.36,
+      "text": "navigation. And which section or which"
+    },
+    {
+      "start": 731.36,
+      "duration": 4.4,
+      "text": "view should be the default view when the"
+    },
+    {
+      "start": 733.92,
+      "duration": 3.52,
+      "text": "app actually loads? We'll we'll say the"
+    },
+    {
+      "start": 735.76,
+      "duration": 3.519,
+      "text": "dashboard should be that. All right. So,"
+    },
+    {
+      "start": 737.44,
+      "duration": 3.519,
+      "text": "it's working on designing that shell"
+    },
+    {
+      "start": 739.279,
+      "duration": 3.761,
+      "text": "component. Now, while that's cooking, I"
+    },
+    {
+      "start": 740.959,
+      "duration": 3.841,
+      "text": "just want to show you where all of these"
+    },
+    {
+      "start": 743.04,
+      "duration": 3.84,
+      "text": "pages, all this content is actually"
+    },
+    {
+      "start": 744.8,
+      "duration": 5.52,
+      "text": "being stored. There is no actual"
+    },
+    {
+      "start": 746.88,
+      "duration": 6.24,
+      "text": "database built into Design OS. But all"
+    },
+    {
+      "start": 750.32,
+      "duration": 5.36,
+      "text": "of this content is being stored in basic"
+    },
+    {
+      "start": 753.12,
+      "duration": 5.2,
+      "text": "markdown files right here in the product"
+    },
+    {
+      "start": 755.68,
+      "duration": 5.12,
+      "text": "folder. So, we've already finished the"
+    },
+    {
+      "start": 758.32,
+      "duration": 4.4,
+      "text": "the design system. The data model is"
+    },
+    {
+      "start": 760.8,
+      "duration": 4.32,
+      "text": "just a markdown page. And you know, that"
+    },
+    {
+      "start": 762.72,
+      "duration": 4.4,
+      "text": "first product overview is right here."
+    },
+    {
+      "start": 765.12,
+      "duration": 4.159,
+      "text": "And the product road map is right here."
+    },
+    {
+      "start": 767.12,
+      "duration": 4.24,
+      "text": "So, you know, I can go into these simple"
+    },
+    {
+      "start": 769.279,
+      "duration": 3.68,
+      "text": "text files and make any edits that I"
+    },
+    {
+      "start": 771.36,
+      "duration": 3.44,
+      "text": "want along the way. All right, that's"
+    },
+    {
+      "start": 772.959,
+      "duration": 3.761,
+      "text": "all set. So, let's take a look at it."
+    },
+    {
+      "start": 774.8,
+      "duration": 4.24,
+      "text": "So, I'm going to scroll down here and we"
+    },
+    {
+      "start": 776.72,
+      "duration": 4.239,
+      "text": "have the application shell with a little"
+    },
+    {
+      "start": 779.04,
+      "duration": 4.72,
+      "text": "description of it. And then here is the"
+    },
+    {
+      "start": 780.959,
+      "duration": 4.961,
+      "text": "link to actually view our shell design."
+    },
+    {
+      "start": 783.76,
+      "duration": 4.4,
+      "text": "And so, the now I almost forgot. Every"
+    },
+    {
+      "start": 785.92,
+      "duration": 4.719,
+      "text": "time we design a new screen, including"
+    },
+    {
+      "start": 788.16,
+      "duration": 4.799,
+      "text": "the application shell, it's best to go"
+    },
+    {
+      "start": 790.639,
+      "duration": 6.081,
+      "text": "into your server and restart it by"
+    },
+    {
+      "start": 792.959,
+      "duration": 6.161,
+      "text": "running mpm rundev. so that you know we"
+    },
+    {
+      "start": 796.72,
+      "duration": 4.48,
+      "text": "get all the new CSS assets and"
+    },
+    {
+      "start": 799.12,
+      "duration": 3.68,
+      "text": "everything all refreshed. Just restart"
+    },
+    {
+      "start": 801.2,
+      "duration": 3.28,
+      "text": "the server. And here we go. Our"
+    },
+    {
+      "start": 802.8,
+      "duration": 4,
+      "text": "application shell is looking pretty"
+    },
+    {
+      "start": 804.48,
+      "duration": 5.12,
+      "text": "good. We've got the sidebar layout here."
+    },
+    {
+      "start": 806.8,
+      "duration": 4.4,
+      "text": "And this is our viewer for previewing"
+    },
+    {
+      "start": 809.6,
+      "duration": 4.479,
+      "text": "all of the designs that we're going to"
+    },
+    {
+      "start": 811.2,
+      "duration": 5.52,
+      "text": "be creating in Design OS. So this outer"
+    },
+    {
+      "start": 814.079,
+      "duration": 6,
+      "text": "part is just design OS and the inner"
+    },
+    {
+      "start": 816.72,
+      "duration": 6.16,
+      "text": "part is the actual design. So this is a"
+    },
+    {
+      "start": 820.079,
+      "duration": 5.281,
+      "text": "slidable, you know, resizable container."
+    },
+    {
+      "start": 822.88,
+      "duration": 5.68,
+      "text": "We can do that or we can use these handy"
+    },
+    {
+      "start": 825.36,
+      "duration": 5.68,
+      "text": "buttons to go from desktop to tablet to"
+    },
+    {
+      "start": 828.56,
+      "duration": 4.48,
+      "text": "mobile sized. And so this actually did a"
+    },
+    {
+      "start": 831.04,
+      "duration": 4.4,
+      "text": "pretty good job of setting up a sidebar"
+    },
+    {
+      "start": 833.04,
+      "duration": 4.72,
+      "text": "navigation with a little navigation"
+    },
+    {
+      "start": 835.44,
+      "duration": 4.88,
+      "text": "menu. We've got a settings thing down"
+    },
+    {
+      "start": 837.76,
+      "duration": 5.28,
+      "text": "here that looks pretty good. And the"
+    },
+    {
+      "start": 840.32,
+      "duration": 4.079,
+      "text": "other thing is Design OS has dark mode"
+    },
+    {
+      "start": 843.04,
+      "duration": 3.52,
+      "text": "built into it. So we've got a little"
+    },
+    {
+      "start": 844.399,
+      "duration": 3.521,
+      "text": "toggle right here and I can click that"
+    },
+    {
+      "start": 846.56,
+      "duration": 4.24,
+      "text": "and it's going to put the whole thing"
+    },
+    {
+      "start": 847.92,
+      "duration": 5.84,
+      "text": "including the design itself into dark"
+    },
+    {
+      "start": 850.8,
+      "duration": 5.839,
+      "text": "mode. And you know design OS along with"
+    },
+    {
+      "start": 853.76,
+      "duration": 5.92,
+      "text": "the help of the front-end design skill"
+    },
+    {
+      "start": 856.639,
+      "duration": 4.801,
+      "text": "in claude you know instructed the agent"
+    },
+    {
+      "start": 859.68,
+      "duration": 4.64,
+      "text": "to actually make sure that we are"
+    },
+    {
+      "start": 861.44,
+      "duration": 5.68,
+      "text": "designing every screen to be responsive"
+    },
+    {
+      "start": 864.32,
+      "duration": 4.72,
+      "text": "and every screen to have dark mode and"
+    },
+    {
+      "start": 867.12,
+      "duration": 3.36,
+      "text": "light mode capabilities. So it looks"
+    },
+    {
+      "start": 869.04,
+      "duration": 3.84,
+      "text": "like it did a pretty good job of of"
+    },
+    {
+      "start": 870.48,
+      "duration": 5.039,
+      "text": "doing that. If you want to actually"
+    },
+    {
+      "start": 872.88,
+      "duration": 4.079,
+      "text": "break out of this screen and look at it,"
+    },
+    {
+      "start": 875.519,
+      "duration": 3.521,
+      "text": "you know, without the container, you can"
+    },
+    {
+      "start": 876.959,
+      "duration": 4.56,
+      "text": "just click full screen. And now we're"
+    },
+    {
+      "start": 879.04,
+      "duration": 4.08,
+      "text": "looking at the actual design completely,"
+    },
+    {
+      "start": 881.519,
+      "duration": 4.56,
+      "text": "you know, in the browser. All right, so"
+    },
+    {
+      "start": 883.12,
+      "duration": 4.959,
+      "text": "I can go back here into the design OS"
+    },
+    {
+      "start": 886.079,
+      "duration": 4.721,
+      "text": "interface and we're ready to move on"
+    },
+    {
+      "start": 888.079,
+      "duration": 4.641,
+      "text": "into designing each section. Now we get"
+    },
+    {
+      "start": 890.8,
+      "duration": 3.92,
+      "text": "to the fun part, designing individual"
+    },
+    {
+      "start": 892.72,
+      "duration": 4.4,
+      "text": "sections. For each section in your road"
+    },
+    {
+      "start": 894.72,
+      "duration": 4.32,
+      "text": "map, you'll follow three steps. First,"
+    },
+    {
+      "start": 897.12,
+      "duration": 4.32,
+      "text": "you'll shape the section. This is where"
+    },
+    {
+      "start": 899.04,
+      "duration": 4.72,
+      "text": "you define what it does, the user flows,"
+    },
+    {
+      "start": 901.44,
+      "duration": 4.32,
+      "text": "the UI requirements, what's in scope,"
+    },
+    {
+      "start": 903.76,
+      "duration": 3.28,
+      "text": "and what's not. The shape section"
+    },
+    {
+      "start": 905.76,
+      "duration": 3.759,
+      "text": "command guides you through a"
+    },
+    {
+      "start": 907.04,
+      "duration": 4.4,
+      "text": "conversation to nail down a simple spec."
+    },
+    {
+      "start": 909.519,
+      "duration": 3.68,
+      "text": "Then you'll generate sample data. This"
+    },
+    {
+      "start": 911.44,
+      "duration": 4.48,
+      "text": "will be used to populate your designs"
+    },
+    {
+      "start": 913.199,
+      "duration": 5.121,
+      "text": "with realistic content. Not lurim Ipsum,"
+    },
+    {
+      "start": 915.92,
+      "duration": 4.64,
+      "text": "but actual names, dates, varied"
+    },
+    {
+      "start": 918.32,
+      "duration": 4.24,
+      "text": "statuses, edge cases, and finally you're"
+    },
+    {
+      "start": 920.56,
+      "duration": 3.76,
+      "text": "ready to design the screen. This creates"
+    },
+    {
+      "start": 922.56,
+      "duration": 4.079,
+      "text": "actual React components, fully"
+    },
+    {
+      "start": 924.32,
+      "duration": 4.24,
+      "text": "responsive light and dark mode using"
+    },
+    {
+      "start": 926.639,
+      "duration": 4.481,
+      "text": "your design tokens. And by the way,"
+    },
+    {
+      "start": 928.56,
+      "duration": 4.8,
+      "text": "Design OS includes the Claude front-end"
+    },
+    {
+      "start": 931.12,
+      "duration": 4.8,
+      "text": "design skill developed by the Claude"
+    },
+    {
+      "start": 933.36,
+      "duration": 4.8,
+      "text": "team specifically to create distinctive"
+    },
+    {
+      "start": 935.92,
+      "duration": 5.279,
+      "text": "professional-grade interfaces that avoid"
+    },
+    {
+      "start": 938.16,
+      "duration": 6.08,
+      "text": "generic AI aesthetics. It guides bold,"
+    },
+    {
+      "start": 941.199,
+      "duration": 4.961,
+      "text": "creative choices in typography, color,"
+    },
+    {
+      "start": 944.24,
+      "duration": 4.88,
+      "text": "layout, and motion. Okay, so we're here"
+    },
+    {
+      "start": 946.16,
+      "duration": 4.96,
+      "text": "in the sections section of Design OS"
+    },
+    {
+      "start": 949.12,
+      "duration": 2.959,
+      "text": "where again we have all of the the main"
+    },
+    {
+      "start": 951.12,
+      "duration": 3.279,
+      "text": "sections that we're going to be"
+    },
+    {
+      "start": 952.079,
+      "duration": 4.801,
+      "text": "designing here. Starting with the sales"
+    },
+    {
+      "start": 954.399,
+      "duration": 5.44,
+      "text": "pages section. Now, each of these uh has"
+    },
+    {
+      "start": 956.88,
+      "duration": 4.879,
+      "text": "its own, you know, trackable process."
+    },
+    {
+      "start": 959.839,
+      "duration": 4.401,
+      "text": "So, I'm going to go into the sales pages"
+    },
+    {
+      "start": 961.759,
+      "duration": 5.041,
+      "text": "section first. And again, we're going to"
+    },
+    {
+      "start": 964.24,
+      "duration": 4.719,
+      "text": "start by shaping up a simple spec for"
+    },
+    {
+      "start": 966.8,
+      "duration": 4.32,
+      "text": "the design of this section, followed by"
+    },
+    {
+      "start": 968.959,
+      "duration": 4.32,
+      "text": "generating some sample data. And then"
+    },
+    {
+      "start": 971.12,
+      "duration": 4.639,
+      "text": "we'll actually design the screens for"
+    },
+    {
+      "start": 973.279,
+      "duration": 4.56,
+      "text": "the sales pages section. And then, sort"
+    },
+    {
+      "start": 975.759,
+      "duration": 4.241,
+      "text": "of as an optional final step, we can"
+    },
+    {
+      "start": 977.839,
+      "duration": 3.68,
+      "text": "actually snap screenshots of the"
+    },
+    {
+      "start": 980,
+      "duration": 4.56,
+      "text": "designs. All right, let's start with"
+    },
+    {
+      "start": 981.519,
+      "duration": 5.041,
+      "text": "shaping up the sections spec. So, I'll"
+    },
+    {
+      "start": 984.56,
+      "duration": 4.399,
+      "text": "run shape section. All right. So, first"
+    },
+    {
+      "start": 986.56,
+      "duration": 5.36,
+      "text": "it just starts off by asking me if I"
+    },
+    {
+      "start": 988.959,
+      "duration": 5.12,
+      "text": "have any notes or direction or, you"
+    },
+    {
+      "start": 991.92,
+      "duration": 3.68,
+      "text": "know, design specs or anything that I"
+    },
+    {
+      "start": 994.079,
+      "duration": 3.521,
+      "text": "want to drop in here. So, if you have"
+    },
+    {
+      "start": 995.6,
+      "duration": 3.84,
+      "text": "any of those notes, now's the time to"
+    },
+    {
+      "start": 997.6,
+      "duration": 3.28,
+      "text": "drop them in. Of course, I could always,"
+    },
+    {
+      "start": 999.44,
+      "duration": 3.68,
+      "text": "you know, go through the conversation"
+    },
+    {
+      "start": 1000.88,
+      "duration": 3.92,
+      "text": "and and add more as we go. But, one"
+    },
+    {
+      "start": 1003.12,
+      "duration": 3.92,
+      "text": "thing that I do want to specify here is"
+    },
+    {
+      "start": 1004.8,
+      "duration": 4.719,
+      "text": "that the sales pages section is actually"
+    },
+    {
+      "start": 1007.04,
+      "duration": 5.12,
+      "text": "going to need to consist of a few"
+    },
+    {
+      "start": 1009.519,
+      "duration": 6.401,
+      "text": "different pages. So I'll say the sales"
+    },
+    {
+      "start": 1012.16,
+      "duration": 7.599,
+      "text": "pages section will need three distinct"
+    },
+    {
+      "start": 1015.92,
+      "duration": 7.52,
+      "text": "screens to design. First is the index of"
+    },
+    {
+      "start": 1019.759,
+      "duration": 6.881,
+      "text": "all sales pages. Next is the edit view"
+    },
+    {
+      "start": 1023.44,
+      "duration": 6.08,
+      "text": "where we edit a sales page. And finally"
+    },
+    {
+      "start": 1026.64,
+      "duration": 4.96,
+      "text": "the clientfacing"
+    },
+    {
+      "start": 1029.52,
+      "duration": 4.08,
+      "text": "and actually I realized that we won't"
+    },
+    {
+      "start": 1031.6,
+      "duration": 4.079,
+      "text": "actually need to design the public"
+    },
+    {
+      "start": 1033.6,
+      "duration": 4.88,
+      "text": "facing sales page since we already have"
+    },
+    {
+      "start": 1035.679,
+      "duration": 4.321,
+      "text": "that planned as its own section. So"
+    },
+    {
+      "start": 1038.48,
+      "duration": 3.12,
+      "text": "we'll get to that a little bit later."
+    },
+    {
+      "start": 1040,
+      "duration": 4.72,
+      "text": "Uh, but for this section, I'm just going"
+    },
+    {
+      "start": 1041.6,
+      "duration": 5.52,
+      "text": "to be designing the index of sales pages"
+    },
+    {
+      "start": 1044.72,
+      "duration": 4.4,
+      "text": "and the editable sales page. It's funny,"
+    },
+    {
+      "start": 1047.12,
+      "duration": 4.16,
+      "text": "it caught my mistake. So, I had said"
+    },
+    {
+      "start": 1049.12,
+      "duration": 3.84,
+      "text": "three screens. I actually meant two. I'm"
+    },
+    {
+      "start": 1051.28,
+      "duration": 5.6,
+      "text": "going to sort of clarify that for Claude"
+    },
+    {
+      "start": 1052.96,
+      "duration": 6.32,
+      "text": "here. Oops, I meant two screens. Just"
+    },
+    {
+      "start": 1056.88,
+      "duration": 4.32,
+      "text": "index and edit. All right. So, what"
+    },
+    {
+      "start": 1059.28,
+      "duration": 4.32,
+      "text": "information should be shown? And I like"
+    },
+    {
+      "start": 1061.2,
+      "duration": 3.92,
+      "text": "how it suggests like pretty sensible"
+    },
+    {
+      "start": 1063.6,
+      "duration": 3.92,
+      "text": "ideas here. So, I can just, you know,"
+    },
+    {
+      "start": 1065.12,
+      "duration": 4.4,
+      "text": "pick one or I can course correct and"
+    },
+    {
+      "start": 1067.52,
+      "duration": 3.6,
+      "text": "type something. Yeah, I'm going to say"
+    },
+    {
+      "start": 1069.52,
+      "duration": 3.519,
+      "text": "all of the above. All right. Now, for"
+    },
+    {
+      "start": 1071.12,
+      "duration": 3.919,
+      "text": "the edit screen, it's yeah, I want this"
+    },
+    {
+      "start": 1073.039,
+      "duration": 3.681,
+      "text": "third option. And yeah, so for creating"
+    },
+    {
+      "start": 1075.039,
+      "duration": 3.201,
+      "text": "a new sales page, I think in this case,"
+    },
+    {
+      "start": 1076.72,
+      "duration": 4.4,
+      "text": "we can keep it pretty simple. We'll just"
+    },
+    {
+      "start": 1078.24,
+      "duration": 4.72,
+      "text": "do a new button to a little modal popup."
+    },
+    {
+      "start": 1081.12,
+      "duration": 3.439,
+      "text": "That works for me. All right. What UI"
+    },
+    {
+      "start": 1082.96,
+      "duration": 3.68,
+      "text": "pattern should be used here? Let's just"
+    },
+    {
+      "start": 1084.559,
+      "duration": 4.24,
+      "text": "go with list rows. And I love how easy"
+    },
+    {
+      "start": 1086.64,
+      "duration": 4.32,
+      "text": "it is to just answer questions and just,"
+    },
+    {
+      "start": 1088.799,
+      "duration": 3.921,
+      "text": "you know, select an option. Occasionally"
+    },
+    {
+      "start": 1090.96,
+      "duration": 4.16,
+      "text": "I need to actually type in, you know,"
+    },
+    {
+      "start": 1092.72,
+      "duration": 4.88,
+      "text": "some extra notes and whatnot, but this"
+    },
+    {
+      "start": 1095.12,
+      "duration": 5.2,
+      "text": "whole guided process and clarifying"
+    },
+    {
+      "start": 1097.6,
+      "duration": 4.72,
+      "text": "questions makes designing an app and"
+    },
+    {
+      "start": 1100.32,
+      "duration": 4.16,
+      "text": "getting all the details right really"
+    },
+    {
+      "start": 1102.32,
+      "duration": 4.4,
+      "text": "pretty easy. All right, so it's running"
+    },
+    {
+      "start": 1104.48,
+      "duration": 4.16,
+      "text": "back everything that it just gathered"
+    },
+    {
+      "start": 1106.72,
+      "duration": 3.92,
+      "text": "here. And again, this is another"
+    },
+    {
+      "start": 1108.64,
+      "duration": 4.32,
+      "text": "opportunity for me to, you know, add"
+    },
+    {
+      "start": 1110.64,
+      "duration": 4.56,
+      "text": "anything or course correct anything, but"
+    },
+    {
+      "start": 1112.96,
+      "duration": 4.32,
+      "text": "I'm just going to say good. Okay, so now"
+    },
+    {
+      "start": 1115.2,
+      "duration": 4.479,
+      "text": "here on the sections list, you can see"
+    },
+    {
+      "start": 1117.28,
+      "duration": 4.72,
+      "text": "the spec step has been checked. And then"
+    },
+    {
+      "start": 1119.679,
+      "duration": 4.401,
+      "text": "if I go in here now, we have this is a"
+    },
+    {
+      "start": 1122,
+      "duration": 3.76,
+      "text": "very simple spec and that's by design."
+    },
+    {
+      "start": 1124.08,
+      "duration": 4.479,
+      "text": "We want to keep it very simple here."
+    },
+    {
+      "start": 1125.76,
+      "duration": 6.799,
+      "text": "Just an overview, a list of some user"
+    },
+    {
+      "start": 1128.559,
+      "duration": 5.681,
+      "text": "flows and a list of UI requirements."
+    },
+    {
+      "start": 1132.559,
+      "duration": 3.841,
+      "text": "Now, we're going to move on into"
+    },
+    {
+      "start": 1134.24,
+      "duration": 4.48,
+      "text": "generating some sample data. And this is"
+    },
+    {
+      "start": 1136.4,
+      "duration": 5.2,
+      "text": "sort of like some secret sauce in this"
+    },
+    {
+      "start": 1138.72,
+      "duration": 4.959,
+      "text": "AI first design process. by generating"
+    },
+    {
+      "start": 1141.6,
+      "duration": 4.64,
+      "text": "some sample data which will be in in"
+    },
+    {
+      "start": 1143.679,
+      "duration": 7.521,
+      "text": "JSON format that's going to really help"
+    },
+    {
+      "start": 1146.24,
+      "duration": 7.28,
+      "text": "us dial in our actual design so that AI"
+    },
+    {
+      "start": 1151.2,
+      "duration": 4.24,
+      "text": "will design our interface including"
+    },
+    {
+      "start": 1153.52,
+      "duration": 3.76,
+      "text": "exactly what we need in that interface"
+    },
+    {
+      "start": 1155.44,
+      "duration": 4.32,
+      "text": "without all the extra bells and whistles"
+    },
+    {
+      "start": 1157.28,
+      "duration": 4.399,
+      "text": "that AI tends to throw into our designs."
+    },
+    {
+      "start": 1159.76,
+      "duration": 4.64,
+      "text": "That's why we want to generate some"
+    },
+    {
+      "start": 1161.679,
+      "duration": 4.721,
+      "text": "actually realistic sample data. So for"
+    },
+    {
+      "start": 1164.4,
+      "duration": 4.399,
+      "text": "that I'm going to, you know, run the"
+    },
+    {
+      "start": 1166.4,
+      "duration": 4.72,
+      "text": "sample data command. And right after I"
+    },
+    {
+      "start": 1168.799,
+      "duration": 5.041,
+      "text": "run that, it actually generates a"
+    },
+    {
+      "start": 1171.12,
+      "duration": 4.64,
+      "text": "preview of what will go into my sample"
+    },
+    {
+      "start": 1173.84,
+      "duration": 3.68,
+      "text": "data. So even if you're not technical,"
+    },
+    {
+      "start": 1175.76,
+      "duration": 3.6,
+      "text": "you could sort of just read through this"
+    },
+    {
+      "start": 1177.52,
+      "duration": 2.96,
+      "text": "and you can sort of make sense of it."
+    },
+    {
+      "start": 1179.36,
+      "duration": 3.679,
+      "text": "Right? Again, we're just talking about"
+    },
+    {
+      "start": 1180.48,
+      "duration": 5.12,
+      "text": "the entities or the nouns, if you will,"
+    },
+    {
+      "start": 1183.039,
+      "duration": 4.88,
+      "text": "that make up the data, the content, and"
+    },
+    {
+      "start": 1185.6,
+      "duration": 4.16,
+      "text": "the the modeling underneath our"
+    },
+    {
+      "start": 1187.919,
+      "duration": 4.64,
+      "text": "application. Now, don't worry about this"
+    },
+    {
+      "start": 1189.76,
+      "duration": 4.48,
+      "text": "being absolutely accurate. Uh this is"
+    },
+    {
+      "start": 1192.559,
+      "duration": 4.801,
+      "text": "not set in stone. And this is really"
+    },
+    {
+      "start": 1194.24,
+      "duration": 6,
+      "text": "just a part of our design process to"
+    },
+    {
+      "start": 1197.36,
+      "duration": 5.52,
+      "text": "dial in our front-end designs. Once we"
+    },
+    {
+      "start": 1200.24,
+      "duration": 4.16,
+      "text": "get into our final code base later on,"
+    },
+    {
+      "start": 1202.88,
+      "duration": 4.32,
+      "text": "that's when, you know, we're going to be"
+    },
+    {
+      "start": 1204.4,
+      "duration": 5.12,
+      "text": "much more accurate and really, you know,"
+    },
+    {
+      "start": 1207.2,
+      "duration": 4.08,
+      "text": "fine-tune our database modeling and our"
+    },
+    {
+      "start": 1209.52,
+      "duration": 4.399,
+      "text": "columns and everything. This is for the"
+    },
+    {
+      "start": 1211.28,
+      "duration": 5.36,
+      "text": "purpose of just sample data, right? So,"
+    },
+    {
+      "start": 1213.919,
+      "duration": 4.801,
+      "text": "I responded to that with that's good."
+    },
+    {
+      "start": 1216.64,
+      "duration": 4.72,
+      "text": "And off of that, Claude is going to"
+    },
+    {
+      "start": 1218.72,
+      "duration": 5.12,
+      "text": "actually generate some some sample data"
+    },
+    {
+      "start": 1221.36,
+      "duration": 5.52,
+      "text": "in JSON format. All right, so that's all"
+    },
+    {
+      "start": 1223.84,
+      "duration": 5.199,
+      "text": "set and uh we can review our sample data"
+    },
+    {
+      "start": 1226.88,
+      "duration": 4.4,
+      "text": "right here. Here's the data model. Here"
+    },
+    {
+      "start": 1229.039,
+      "duration": 4.401,
+      "text": "is how they connect. In this case, it's"
+    },
+    {
+      "start": 1231.28,
+      "duration": 4.24,
+      "text": "just a list of sales pages. And then we"
+    },
+    {
+      "start": 1233.44,
+      "duration": 3.599,
+      "text": "can look at that JSON. Again, this might"
+    },
+    {
+      "start": 1235.52,
+      "duration": 3.36,
+      "text": "look like a bunch of code to you, but if"
+    },
+    {
+      "start": 1237.039,
+      "duration": 5.361,
+      "text": "you start to read through these lines,"
+    },
+    {
+      "start": 1238.88,
+      "duration": 6.32,
+      "text": "these are actual realistic sounding"
+    },
+    {
+      "start": 1242.4,
+      "duration": 6,
+      "text": "pieces of content that would go into a"
+    },
+    {
+      "start": 1245.2,
+      "duration": 5.76,
+      "text": "list of sales pages that will populate"
+    },
+    {
+      "start": 1248.4,
+      "duration": 5.44,
+      "text": "our index view. So, I'm going to"
+    },
+    {
+      "start": 1250.96,
+      "duration": 5.68,
+      "text": "collapse that. And now we can finally"
+    },
+    {
+      "start": 1253.84,
+      "duration": 4.24,
+      "text": "get on to actually designing the first"
+    },
+    {
+      "start": 1256.64,
+      "duration": 3.84,
+      "text": "screen, which is going to be the the"
+    },
+    {
+      "start": 1258.08,
+      "duration": 4.479,
+      "text": "index view. So, let's go ahead and run"
+    },
+    {
+      "start": 1260.48,
+      "duration": 3.679,
+      "text": "design screen. And I'm going to add a"
+    },
+    {
+      "start": 1262.559,
+      "duration": 4.081,
+      "text": "bit of detail here. Since our sales"
+    },
+    {
+      "start": 1264.159,
+      "duration": 4.721,
+      "text": "pages section is going to have two"
+    },
+    {
+      "start": 1266.64,
+      "duration": 6.24,
+      "text": "separate screens to design, I'm just"
+    },
+    {
+      "start": 1268.88,
+      "duration": 6.32,
+      "text": "going to say first design the index"
+    },
+    {
+      "start": 1272.88,
+      "duration": 5.44,
+      "text": "screen. And you can see here that Claude"
+    },
+    {
+      "start": 1275.2,
+      "duration": 5.359,
+      "text": "is reading the front-end design skill"
+    },
+    {
+      "start": 1278.32,
+      "duration": 3.76,
+      "text": "and then creating the index screen. So"
+    },
+    {
+      "start": 1280.559,
+      "duration": 4.24,
+      "text": "that's that's really good. That's sort"
+    },
+    {
+      "start": 1282.08,
+      "duration": 5.12,
+      "text": "of like baking in a little bit extra"
+    },
+    {
+      "start": 1284.799,
+      "duration": 4.721,
+      "text": "design muscle into Claude when it goes"
+    },
+    {
+      "start": 1287.2,
+      "duration": 4.56,
+      "text": "about creating this screen. Okay, so"
+    },
+    {
+      "start": 1289.52,
+      "duration": 5.68,
+      "text": "that is all set. Shut down the server"
+    },
+    {
+      "start": 1291.76,
+      "duration": 6.08,
+      "text": "and run it again. MPM rundev. So here we"
+    },
+    {
+      "start": 1295.2,
+      "duration": 4.88,
+      "text": "go. Under screen designs, uh, this sales"
+    },
+    {
+      "start": 1297.84,
+      "duration": 4,
+      "text": "page index is ready for me to see. I'm"
+    },
+    {
+      "start": 1300.08,
+      "duration": 4.32,
+      "text": "going to click that. And here we go. I'm"
+    },
+    {
+      "start": 1301.84,
+      "duration": 5.12,
+      "text": "looking at the index view for the sales"
+    },
+    {
+      "start": 1304.4,
+      "duration": 4.72,
+      "text": "pages. It it followed all of the details"
+    },
+    {
+      "start": 1306.96,
+      "duration": 4.24,
+      "text": "that we had actually discussed during"
+    },
+    {
+      "start": 1309.12,
+      "duration": 6.4,
+      "text": "the planning phase to, you know, create"
+    },
+    {
+      "start": 1311.2,
+      "duration": 6.64,
+      "text": "a new sales page. This here is a real"
+    },
+    {
+      "start": 1315.52,
+      "duration": 4.72,
+      "text": "front-end design view. You'll also"
+    },
+    {
+      "start": 1317.84,
+      "duration": 4.56,
+      "text": "notice that it is placed within our"
+    },
+    {
+      "start": 1320.24,
+      "duration": 4.4,
+      "text": "actual shell. The the shell has not"
+    },
+    {
+      "start": 1322.4,
+      "duration": 4.48,
+      "text": "changed. We're not designing these in"
+    },
+    {
+      "start": 1324.64,
+      "duration": 4.32,
+      "text": "isolation. So, we've kept the shell."
+    },
+    {
+      "start": 1326.88,
+      "duration": 4.48,
+      "text": "We've kept our design tokens, our"
+    },
+    {
+      "start": 1328.96,
+      "duration": 5.04,
+      "text": "colors, our fonts. It's all consistent."
+    },
+    {
+      "start": 1331.36,
+      "duration": 4.96,
+      "text": "Uh, let's check it out in in some mobile"
+    },
+    {
+      "start": 1334,
+      "duration": 4.64,
+      "text": "configurations and let's check out dark"
+    },
+    {
+      "start": 1336.32,
+      "duration": 4.8,
+      "text": "mode. Yeah, looking good. All right, so"
+    },
+    {
+      "start": 1338.64,
+      "duration": 5.039,
+      "text": "I'm going to go back into viewing this"
+    },
+    {
+      "start": 1341.12,
+      "duration": 4.08,
+      "text": "section for sales pages. Now, not all"
+    },
+    {
+      "start": 1343.679,
+      "duration": 3.681,
+      "text": "sections are going to have multiple"
+    },
+    {
+      "start": 1345.2,
+      "duration": 4.16,
+      "text": "screens to be designed, but this one"
+    },
+    {
+      "start": 1347.36,
+      "duration": 3.84,
+      "text": "happens to have another screen that I'm"
+    },
+    {
+      "start": 1349.36,
+      "duration": 3.439,
+      "text": "going to need to have designed. So, for"
+    },
+    {
+      "start": 1351.2,
+      "duration": 4,
+      "text": "that reason, I'm actually going to rerun"
+    },
+    {
+      "start": 1352.799,
+      "duration": 5.521,
+      "text": "the same command again. We're going to"
+    },
+    {
+      "start": 1355.2,
+      "duration": 8,
+      "text": "run that design screen and I'm going to"
+    },
+    {
+      "start": 1358.32,
+      "duration": 8.56,
+      "text": "say now design the edit view for a sales"
+    },
+    {
+      "start": 1363.2,
+      "duration": 6.719,
+      "text": "page in the sales pages section. So you"
+    },
+    {
+      "start": 1366.88,
+      "duration": 5.52,
+      "text": "can see how it's reading and drawing on"
+    },
+    {
+      "start": 1369.919,
+      "duration": 5.76,
+      "text": "our colors and the front-end design"
+    },
+    {
+      "start": 1372.4,
+      "duration": 6.399,
+      "text": "skill once again some you know types and"
+    },
+    {
+      "start": 1375.679,
+      "duration": 5.36,
+      "text": "and the sample uh data set. So, it's"
+    },
+    {
+      "start": 1378.799,
+      "duration": 4.641,
+      "text": "it's using all that all that information"
+    },
+    {
+      "start": 1381.039,
+      "duration": 4.161,
+      "text": "that we've established methodically"
+    },
+    {
+      "start": 1383.44,
+      "duration": 4.479,
+      "text": "building up to this point where we're"
+    },
+    {
+      "start": 1385.2,
+      "duration": 4.959,
+      "text": "actually ready to assemble not only a"
+    },
+    {
+      "start": 1387.919,
+      "duration": 4.88,
+      "text": "functional but an accurate user"
+    },
+    {
+      "start": 1390.159,
+      "duration": 4.64,
+      "text": "interface design. Okay, so that is all"
+    },
+    {
+      "start": 1392.799,
+      "duration": 4,
+      "text": "set. Now, once again, I'm going to"
+    },
+    {
+      "start": 1394.799,
+      "duration": 5.12,
+      "text": "restart the server, end it, and then run"
+    },
+    {
+      "start": 1396.799,
+      "duration": 5.441,
+      "text": "it again. And let's refresh this page."
+    },
+    {
+      "start": 1399.919,
+      "duration": 4.24,
+      "text": "And now we have two screen designs"
+    },
+    {
+      "start": 1402.24,
+      "duration": 4.48,
+      "text": "listed here. Let's go ahead and view"
+    },
+    {
+      "start": 1404.159,
+      "duration": 5.441,
+      "text": "that edit sales page. So, here we go."
+    },
+    {
+      "start": 1406.72,
+      "duration": 5.04,
+      "text": "Once again, we are inside of our shell."
+    },
+    {
+      "start": 1409.6,
+      "duration": 5.28,
+      "text": "It's all consistent in that regard. And"
+    },
+    {
+      "start": 1411.76,
+      "duration": 5.6,
+      "text": "we're viewing a single sales page. It's"
+    },
+    {
+      "start": 1414.88,
+      "duration": 5.039,
+      "text": "edit view. Here's the setting for what"
+    },
+    {
+      "start": 1417.36,
+      "duration": 4.64,
+      "text": "happens after a person clicks. Up here,"
+    },
+    {
+      "start": 1419.919,
+      "duration": 4.801,
+      "text": "we've got this like copy link. That's"
+    },
+    {
+      "start": 1422,
+      "duration": 5.12,
+      "text": "kind of cool. The UI components are in"
+    },
+    {
+      "start": 1424.72,
+      "duration": 4.959,
+      "text": "place. Let's see how we're doing as we"
+    },
+    {
+      "start": 1427.12,
+      "duration": 4.559,
+      "text": "drop down into mobile view. And that's,"
+    },
+    {
+      "start": 1429.679,
+      "duration": 4.321,
+      "text": "you know, that's all looking good. And"
+    },
+    {
+      "start": 1431.679,
+      "duration": 4.561,
+      "text": "dark mode as well. Good stuff. All"
+    },
+    {
+      "start": 1434,
+      "duration": 4.32,
+      "text": "right. I'm going to go back to this"
+    },
+    {
+      "start": 1436.24,
+      "duration": 4.64,
+      "text": "section. Now, as I scroll down, we've"
+    },
+    {
+      "start": 1438.32,
+      "duration": 5.52,
+      "text": "got one more step, and this is to snap"
+    },
+    {
+      "start": 1440.88,
+      "duration": 4.64,
+      "text": "some screenshots of the two designs that"
+    },
+    {
+      "start": 1443.84,
+      "duration": 3.76,
+      "text": "I've just created. I would say that this"
+    },
+    {
+      "start": 1445.52,
+      "duration": 4.08,
+      "text": "step is actually optional. Again, we"
+    },
+    {
+      "start": 1447.6,
+      "duration": 4.079,
+      "text": "have already designed and built the"
+    },
+    {
+      "start": 1449.6,
+      "duration": 4.64,
+      "text": "functional screens. So, we don't"
+    },
+    {
+      "start": 1451.679,
+      "duration": 3.921,
+      "text": "necessarily need to have screenshots to"
+    },
+    {
+      "start": 1454.24,
+      "duration": 3.2,
+      "text": "reference, but especially if you're"
+    },
+    {
+      "start": 1455.6,
+      "duration": 3.76,
+      "text": "working with a team or with clients or"
+    },
+    {
+      "start": 1457.44,
+      "duration": 3.599,
+      "text": "other stakeholders, it might be good to"
+    },
+    {
+      "start": 1459.36,
+      "duration": 3.12,
+      "text": "to, you know, generate some some"
+    },
+    {
+      "start": 1461.039,
+      "duration": 2.801,
+      "text": "screenshots of this stuff. Now, of"
+    },
+    {
+      "start": 1462.48,
+      "duration": 3.28,
+      "text": "course, I could just use any"
+    },
+    {
+      "start": 1463.84,
+      "duration": 5.199,
+      "text": "screenshotting tool to to make these"
+    },
+    {
+      "start": 1465.76,
+      "duration": 5.68,
+      "text": "screenshots myself, but Design OS has"
+    },
+    {
+      "start": 1469.039,
+      "duration": 6,
+      "text": "screenshotting capability built in. And"
+    },
+    {
+      "start": 1471.44,
+      "duration": 5.28,
+      "text": "for that, we use the the Playwright MCP."
+    },
+    {
+      "start": 1475.039,
+      "duration": 3.281,
+      "text": "So, let's let's see how that works. I'm"
+    },
+    {
+      "start": 1476.72,
+      "duration": 3.839,
+      "text": "going to run the screenshot design"
+    },
+    {
+      "start": 1478.32,
+      "duration": 4.08,
+      "text": "command. Going to go ahead and run that."
+    },
+    {
+      "start": 1480.559,
+      "duration": 4.561,
+      "text": "And first, Design OS is going to"
+    },
+    {
+      "start": 1482.4,
+      "duration": 6.08,
+      "text": "actually check to see if I already have"
+    },
+    {
+      "start": 1485.12,
+      "duration": 5.039,
+      "text": "the Playright MCP installed. And"
+    },
+    {
+      "start": 1488.48,
+      "duration": 3.439,
+      "text": "actually it found that on my system"
+    },
+    {
+      "start": 1490.159,
+      "duration": 3.76,
+      "text": "currently I don't actually have it"
+    },
+    {
+      "start": 1491.919,
+      "duration": 4.721,
+      "text": "installed. So it actually gave me the"
+    },
+    {
+      "start": 1493.919,
+      "duration": 5.521,
+      "text": "command that I need to run to install"
+    },
+    {
+      "start": 1496.64,
+      "duration": 4.32,
+      "text": "the playwright MCP and activate it for"
+    },
+    {
+      "start": 1499.44,
+      "duration": 3.839,
+      "text": "cloud code. So I'm just going to copy"
+    },
+    {
+      "start": 1500.96,
+      "duration": 4.88,
+      "text": "that. Now this is not a command that you"
+    },
+    {
+      "start": 1503.279,
+      "duration": 5.681,
+      "text": "would run in cloud code itself. I"
+    },
+    {
+      "start": 1505.84,
+      "duration": 4.8,
+      "text": "actually need to exit cloud code and you"
+    },
+    {
+      "start": 1508.96,
+      "duration": 3.839,
+      "text": "know just in the terminal that's where"
+    },
+    {
+      "start": 1510.64,
+      "duration": 3.76,
+      "text": "you want to actually run that command."
+    },
+    {
+      "start": 1512.799,
+      "duration": 5.841,
+      "text": "Run that. I'm going to start Claude"
+    },
+    {
+      "start": 1514.4,
+      "duration": 7.68,
+      "text": "again and I can do slashmcp"
+    },
+    {
+      "start": 1518.64,
+      "duration": 5.2,
+      "text": "to see which MCPS I have installed on my"
+    },
+    {
+      "start": 1522.08,
+      "duration": 3.28,
+      "text": "system. And currently I just have the"
+    },
+    {
+      "start": 1523.84,
+      "duration": 3.839,
+      "text": "one playright. It says that it's"
+    },
+    {
+      "start": 1525.36,
+      "duration": 5.12,
+      "text": "connected. So So that's good to go. All"
+    },
+    {
+      "start": 1527.679,
+      "duration": 5.841,
+      "text": "right. So now I'm going to actually just"
+    },
+    {
+      "start": 1530.48,
+      "duration": 5.52,
+      "text": "press up to to get back that previous"
+    },
+    {
+      "start": 1533.52,
+      "duration": 5.279,
+      "text": "prompt that I that I gave to to Claude"
+    },
+    {
+      "start": 1536,
+      "duration": 5.44,
+      "text": "here. Um and once again I'm I'm going to"
+    },
+    {
+      "start": 1538.799,
+      "duration": 4.721,
+      "text": "be calling that design OS screenshot"
+    },
+    {
+      "start": 1541.44,
+      "duration": 4.32,
+      "text": "design command. And I'm telling it,"
+    },
+    {
+      "start": 1543.52,
+      "duration": 6.72,
+      "text": "let's screenshot both the index and edit"
+    },
+    {
+      "start": 1545.76,
+      "duration": 6.48,
+      "text": "views for the sales page section. Okay."
+    },
+    {
+      "start": 1550.24,
+      "duration": 4.559,
+      "text": "So here it's actually using Playwright"
+    },
+    {
+      "start": 1552.24,
+      "duration": 5.12,
+      "text": "to launch its own browser instance. I'm"
+    },
+    {
+      "start": 1554.799,
+      "duration": 4.641,
+      "text": "not controlling this and it is just, you"
+    },
+    {
+      "start": 1557.36,
+      "duration": 4.559,
+      "text": "know, viewing both of those screens. I"
+    },
+    {
+      "start": 1559.44,
+      "duration": 4.64,
+      "text": "can see in two separate tabs. It opened"
+    },
+    {
+      "start": 1561.919,
+      "duration": 5.441,
+      "text": "them in full screen mode. So it's not"
+    },
+    {
+      "start": 1564.08,
+      "duration": 5.44,
+      "text": "going to screenshot like the design OS"
+    },
+    {
+      "start": 1567.36,
+      "duration": 4.88,
+      "text": "container. It's just going to, you know,"
+    },
+    {
+      "start": 1569.52,
+      "duration": 5.2,
+      "text": "screenshot the actual design. Okay. So,"
+    },
+    {
+      "start": 1572.24,
+      "duration": 5.2,
+      "text": "it just closed down the browser and now"
+    },
+    {
+      "start": 1574.72,
+      "duration": 5.52,
+      "text": "it's going to take those screenshots and"
+    },
+    {
+      "start": 1577.44,
+      "duration": 4.8,
+      "text": "it's placing them in my product folder."
+    },
+    {
+      "start": 1580.24,
+      "duration": 3.679,
+      "text": "And so, first we can, you know, view"
+    },
+    {
+      "start": 1582.24,
+      "duration": 4.48,
+      "text": "those screenshots right here. So, now"
+    },
+    {
+      "start": 1583.919,
+      "duration": 5.12,
+      "text": "our whole section for sales pages is"
+    },
+    {
+      "start": 1586.72,
+      "duration": 4.319,
+      "text": "complete. We have the two screenshots"
+    },
+    {
+      "start": 1589.039,
+      "duration": 4.401,
+      "text": "right here, those screenshots. But just"
+    },
+    {
+      "start": 1591.039,
+      "duration": 3.681,
+      "text": "to show you this whole time while we're"
+    },
+    {
+      "start": 1593.44,
+      "duration": 3.119,
+      "text": "building out the product and then"
+    },
+    {
+      "start": 1594.72,
+      "duration": 3.839,
+      "text": "building out each individual sections,"
+    },
+    {
+      "start": 1596.559,
+      "duration": 4.401,
+      "text": "all the content that we're creating with"
+    },
+    {
+      "start": 1598.559,
+      "duration": 4.081,
+      "text": "Design OS is being stored in here. So"
+    },
+    {
+      "start": 1600.96,
+      "duration": 4,
+      "text": "the first section that we've done here"
+    },
+    {
+      "start": 1602.64,
+      "duration": 5.519,
+      "text": "is sales pages. Inside that we've got"
+    },
+    {
+      "start": 1604.96,
+      "duration": 5.12,
+      "text": "our sample data JSON. We've got that,"
+    },
+    {
+      "start": 1608.159,
+      "duration": 5.041,
+      "text": "you know, basic spec that we've created"
+    },
+    {
+      "start": 1610.08,
+      "duration": 5.68,
+      "text": "early on. Got some some types and we"
+    },
+    {
+      "start": 1613.2,
+      "duration": 5.92,
+      "text": "have those two screenshots right here."
+    },
+    {
+      "start": 1615.76,
+      "duration": 5.919,
+      "text": "So here is the edit view and here is the"
+    },
+    {
+      "start": 1619.12,
+      "duration": 4.48,
+      "text": "index view. Awesome. And if I go back"
+    },
+    {
+      "start": 1621.679,
+      "duration": 4.48,
+      "text": "and view all the sections now, I can"
+    },
+    {
+      "start": 1623.6,
+      "duration": 5.52,
+      "text": "just repeat that same process for"
+    },
+    {
+      "start": 1626.159,
+      "duration": 5.361,
+      "text": "designing the pages for the client"
+    },
+    {
+      "start": 1629.12,
+      "duration": 4.96,
+      "text": "section, the dashboard, and that public"
+    },
+    {
+      "start": 1631.52,
+      "duration": 4.48,
+      "text": "sales page. So, I'm going to pause the"
+    },
+    {
+      "start": 1634.08,
+      "duration": 3.76,
+      "text": "video here off camera. I'm going to go"
+    },
+    {
+      "start": 1636,
+      "duration": 3.6,
+      "text": "ahead and, you know, rerun that process"
+    },
+    {
+      "start": 1637.84,
+      "duration": 3.199,
+      "text": "and finish out all these designs. So,"
+    },
+    {
+      "start": 1639.6,
+      "duration": 3.84,
+      "text": "I'll be back in a minute. Okay, I'm"
+    },
+    {
+      "start": 1641.039,
+      "duration": 4.481,
+      "text": "back. It's about 15 20 minutes later and"
+    },
+    {
+      "start": 1643.44,
+      "duration": 4.56,
+      "text": "I've gone through and I finished the"
+    },
+    {
+      "start": 1645.52,
+      "duration": 3.92,
+      "text": "designs for all four of these sections."
+    },
+    {
+      "start": 1648,
+      "duration": 3.279,
+      "text": "As you can see, they're all checked off"
+    },
+    {
+      "start": 1649.44,
+      "duration": 4.4,
+      "text": "here. So, if I go into the client"
+    },
+    {
+      "start": 1651.279,
+      "duration": 5.52,
+      "text": "section, we have the spec, the sample"
+    },
+    {
+      "start": 1653.84,
+      "duration": 5.76,
+      "text": "data, and two screen designs for that."
+    },
+    {
+      "start": 1656.799,
+      "duration": 3.76,
+      "text": "So, here is the client's list, which I"
+    },
+    {
+      "start": 1659.6,
+      "duration": 3.439,
+      "text": "think looks great. We've got some"
+    },
+    {
+      "start": 1660.559,
+      "duration": 6.161,
+      "text": "metrics across the top. Pretty nice. And"
+    },
+    {
+      "start": 1663.039,
+      "duration": 6.561,
+      "text": "then we've got the um the client's"
+    },
+    {
+      "start": 1666.72,
+      "duration": 4.72,
+      "text": "detail. So, I can view and edit a uh a"
+    },
+    {
+      "start": 1669.6,
+      "duration": 3.679,
+      "text": "single client here. Then, we've got the"
+    },
+    {
+      "start": 1671.44,
+      "duration": 3.599,
+      "text": "dashboard view. And this was just a"
+    },
+    {
+      "start": 1673.279,
+      "duration": 4.161,
+      "text": "single view. I've got the screenshot for"
+    },
+    {
+      "start": 1675.039,
+      "duration": 4.721,
+      "text": "it down there, but here is that"
+    },
+    {
+      "start": 1677.44,
+      "duration": 4.4,
+      "text": "dashboard. We've got some metrics, some"
+    },
+    {
+      "start": 1679.76,
+      "duration": 4.96,
+      "text": "uh some some filtering capability here,"
+    },
+    {
+      "start": 1681.84,
+      "duration": 4.88,
+      "text": "and a list of recent activity. And this"
+    },
+    {
+      "start": 1684.72,
+      "duration": 3.839,
+      "text": "is all looking great. Again, I've got,"
+    },
+    {
+      "start": 1686.72,
+      "duration": 3.76,
+      "text": "you know, dark mode working for all"
+    },
+    {
+      "start": 1688.559,
+      "duration": 4.561,
+      "text": "these designs. I think it did a really"
+    },
+    {
+      "start": 1690.48,
+      "duration": 6.559,
+      "text": "great job on this public sales page."
+    },
+    {
+      "start": 1693.12,
+      "duration": 6.48,
+      "text": "Again, this one is client facing. So, it"
+    },
+    {
+      "start": 1697.039,
+      "duration": 5.36,
+      "text": "actually asked me and then I confirmed"
+    },
+    {
+      "start": 1699.6,
+      "duration": 5.04,
+      "text": "that this one will not be shown inside"
+    },
+    {
+      "start": 1702.399,
+      "duration": 4.64,
+      "text": "of the main application shell because"
+    },
+    {
+      "start": 1704.64,
+      "duration": 4.48,
+      "text": "this is what clients will see, right?"
+    },
+    {
+      "start": 1707.039,
+      "duration": 4.24,
+      "text": "So, here's the sample data. And then"
+    },
+    {
+      "start": 1709.12,
+      "duration": 4.799,
+      "text": "here is that public view. As you can"
+    },
+    {
+      "start": 1711.279,
+      "duration": 4.561,
+      "text": "see, it's much cleaner. We have the, you"
+    },
+    {
+      "start": 1713.919,
+      "duration": 4.24,
+      "text": "know, the branding for whatever the"
+    },
+    {
+      "start": 1715.84,
+      "duration": 5.68,
+      "text": "user's company is. And then we've got"
+    },
+    {
+      "start": 1718.159,
+      "duration": 6.321,
+      "text": "sort of like a sales letter and a a call"
+    },
+    {
+      "start": 1721.52,
+      "duration": 4.639,
+      "text": "to action button. Little subtle motion"
+    },
+    {
+      "start": 1724.48,
+      "duration": 3.919,
+      "text": "animation on that. This looks really"
+    },
+    {
+      "start": 1726.159,
+      "duration": 6.081,
+      "text": "great. You know, this is the work of"
+    },
+    {
+      "start": 1728.399,
+      "duration": 6.88,
+      "text": "Claude Opus 4.5 with the with the"
+    },
+    {
+      "start": 1732.24,
+      "duration": 4.799,
+      "text": "front-end design skill built in that you"
+    },
+    {
+      "start": 1735.279,
+      "duration": 4.321,
+      "text": "know, you'll have that available to you"
+    },
+    {
+      "start": 1737.039,
+      "duration": 4.401,
+      "text": "throughout all of Design OS. All right,"
+    },
+    {
+      "start": 1739.6,
+      "duration": 3.679,
+      "text": "so we've got all the sections ready to"
+    },
+    {
+      "start": 1741.44,
+      "duration": 3.599,
+      "text": "go. And once all your sections are"
+    },
+    {
+      "start": 1743.279,
+      "duration": 3.76,
+      "text": "designed, it's time to export. The"
+    },
+    {
+      "start": 1745.039,
+      "duration": 3.76,
+      "text": "export product command generates a"
+    },
+    {
+      "start": 1747.039,
+      "duration": 3.76,
+      "text": "complete handoff package. Everything"
+    },
+    {
+      "start": 1748.799,
+      "duration": 3.76,
+      "text": "your coding agent needs to implement"
+    },
+    {
+      "start": 1750.799,
+      "duration": 3.76,
+      "text": "your product. This includes your product"
+    },
+    {
+      "start": 1752.559,
+      "duration": 3.6,
+      "text": "overview, your data model, your design"
+    },
+    {
+      "start": 1754.559,
+      "duration": 4.161,
+      "text": "system, and all your designed"
+    },
+    {
+      "start": 1756.159,
+      "duration": 4.961,
+      "text": "components, plus pre-written prompts to"
+    },
+    {
+      "start": 1758.72,
+      "duration": 4.4,
+      "text": "kick off implementation and test writing"
+    },
+    {
+      "start": 1761.12,
+      "duration": 4.08,
+      "text": "specs so that your agent can use a"
+    },
+    {
+      "start": 1763.12,
+      "duration": 3.919,
+      "text": "testdriven development approach when"
+    },
+    {
+      "start": 1765.2,
+      "duration": 4.079,
+      "text": "building out each section. All of it"
+    },
+    {
+      "start": 1767.039,
+      "duration": 3.841,
+      "text": "organized, documented, and ready to drop"
+    },
+    {
+      "start": 1769.279,
+      "duration": 4,
+      "text": "into your codebase. All right, so we're"
+    },
+    {
+      "start": 1770.88,
+      "duration": 4.24,
+      "text": "in the final phase of Design OS, and"
+    },
+    {
+      "start": 1773.279,
+      "duration": 4.161,
+      "text": "that's the export phase. And as we can"
+    },
+    {
+      "start": 1775.12,
+      "duration": 4.64,
+      "text": "see here, we are now ready for export."
+    },
+    {
+      "start": 1777.44,
+      "duration": 4.88,
+      "text": "It tells me what is going to be included"
+    },
+    {
+      "start": 1779.76,
+      "duration": 4.56,
+      "text": "in our export package and uh you know it"
+    },
+    {
+      "start": 1782.32,
+      "duration": 4.479,
+      "text": "gives me sort of uh details about all of"
+    },
+    {
+      "start": 1784.32,
+      "duration": 5.28,
+      "text": "that here. Uh but let's go ahead and run"
+    },
+    {
+      "start": 1786.799,
+      "duration": 6.24,
+      "text": "this export product command. So I'm back"
+    },
+    {
+      "start": 1789.6,
+      "duration": 4.959,
+      "text": "in cloud. I'll just run export product."
+    },
+    {
+      "start": 1793.039,
+      "duration": 4.081,
+      "text": "This is going to take a few minutes to"
+    },
+    {
+      "start": 1794.559,
+      "duration": 5.521,
+      "text": "run because it's actually going to grab"
+    },
+    {
+      "start": 1797.12,
+      "duration": 4.159,
+      "text": "everything inside of my product folder."
+    },
+    {
+      "start": 1800.08,
+      "duration": 3.599,
+      "text": "and it's going to do a little bit of"
+    },
+    {
+      "start": 1801.279,
+      "duration": 4.561,
+      "text": "like reconfiguration of the design"
+    },
+    {
+      "start": 1803.679,
+      "duration": 4,
+      "text": "components, sort of the code uh"
+    },
+    {
+      "start": 1805.84,
+      "duration": 5.28,
+      "text": "underneath the hood to make sure that"
+    },
+    {
+      "start": 1807.679,
+      "duration": 6,
+      "text": "it's all highly portable and ready to"
+    },
+    {
+      "start": 1811.12,
+      "duration": 5.12,
+      "text": "drop into my codebase. It's also going"
+    },
+    {
+      "start": 1813.679,
+      "duration": 4.48,
+      "text": "to prepare some pre-written prompts"
+    },
+    {
+      "start": 1816.24,
+      "duration": 4.319,
+      "text": "that'll make it really easy for me to"
+    },
+    {
+      "start": 1818.159,
+      "duration": 4.161,
+      "text": "hand off to my coding agent. But I'm"
+    },
+    {
+      "start": 1820.559,
+      "duration": 5.041,
+      "text": "going to let this cook and and prepare"
+    },
+    {
+      "start": 1822.32,
+      "duration": 6.479,
+      "text": "my uh my export. All right. So that"
+    },
+    {
+      "start": 1825.6,
+      "duration": 5.76,
+      "text": "export process is all set and uh I can"
+    },
+    {
+      "start": 1828.799,
+      "duration": 4.961,
+      "text": "see it here now on the export page. We"
+    },
+    {
+      "start": 1831.36,
+      "duration": 5.36,
+      "text": "have the link to download uh the zip"
+    },
+    {
+      "start": 1833.76,
+      "duration": 4.56,
+      "text": "file which is product plan.zip"
+    },
+    {
+      "start": 1836.72,
+      "duration": 4.64,
+      "text": "and we can actually just see the"
+    },
+    {
+      "start": 1838.32,
+      "duration": 6.32,
+      "text": "contents of that um right here in uh the"
+    },
+    {
+      "start": 1841.36,
+      "duration": 5.039,
+      "text": "design OS codebase. So um earlier as we"
+    },
+    {
+      "start": 1844.64,
+      "duration": 3.2,
+      "text": "were building out all of our screens and"
+    },
+    {
+      "start": 1846.399,
+      "duration": 3.841,
+      "text": "all of our designs, all of that was"
+    },
+    {
+      "start": 1847.84,
+      "duration": 5.12,
+      "text": "happening in the product folder. But now"
+    },
+    {
+      "start": 1850.24,
+      "duration": 5.679,
+      "text": "we have a folder called product plan and"
+    },
+    {
+      "start": 1852.96,
+      "duration": 5.199,
+      "text": "this is like our export package. So, you"
+    },
+    {
+      "start": 1855.919,
+      "duration": 4.561,
+      "text": "know, it lists out everything that went"
+    },
+    {
+      "start": 1858.159,
+      "duration": 4.24,
+      "text": "into this. We've got a couple of prompts"
+    },
+    {
+      "start": 1860.48,
+      "duration": 4.079,
+      "text": "that we can use uh in the"
+    },
+    {
+      "start": 1862.399,
+      "duration": 3.76,
+      "text": "implementation. I'll show you that next."
+    },
+    {
+      "start": 1864.559,
+      "duration": 4.401,
+      "text": "You know, we have each of the individual"
+    },
+    {
+      "start": 1866.159,
+      "duration": 4.561,
+      "text": "sections. And if we open up components,"
+    },
+    {
+      "start": 1868.96,
+      "duration": 4.16,
+      "text": "you know, these are actual, you know,"
+    },
+    {
+      "start": 1870.72,
+      "duration": 4.64,
+      "text": "React components that are ready to be"
+    },
+    {
+      "start": 1873.12,
+      "duration": 4.96,
+      "text": "dropped into our codebase. We've also"
+    },
+    {
+      "start": 1875.36,
+      "duration": 4.799,
+      "text": "got our product overview, which is uh,"
+    },
+    {
+      "start": 1878.08,
+      "duration": 4.319,
+      "text": "you know, sort of just the overview of"
+    },
+    {
+      "start": 1880.159,
+      "duration": 4.561,
+      "text": "what this product is all about. Go into"
+    },
+    {
+      "start": 1882.399,
+      "duration": 4.561,
+      "text": "this export page. Scroll down and now we"
+    },
+    {
+      "start": 1884.72,
+      "duration": 4.64,
+      "text": "have these simple step-by-step"
+    },
+    {
+      "start": 1886.96,
+      "duration": 4.16,
+      "text": "instructions for how we can implement it"
+    },
+    {
+      "start": 1889.36,
+      "duration": 3.12,
+      "text": "in our codebase. Now, when it comes to"
+    },
+    {
+      "start": 1891.12,
+      "duration": 3.76,
+      "text": "implementing your designs in your"
+    },
+    {
+      "start": 1892.48,
+      "duration": 3.76,
+      "text": "codebase, you've got two options. Option"
+    },
+    {
+      "start": 1894.88,
+      "duration": 3.76,
+      "text": "one, and this is generally my"
+    },
+    {
+      "start": 1896.24,
+      "duration": 4.319,
+      "text": "recommended option, is incremental"
+    },
+    {
+      "start": 1898.64,
+      "duration": 4.56,
+      "text": "implementation. You work through each"
+    },
+    {
+      "start": 1900.559,
+      "duration": 4.561,
+      "text": "section one at a time. foundation first,"
+    },
+    {
+      "start": 1903.2,
+      "duration": 4.319,
+      "text": "then the shell, then each feature"
+    },
+    {
+      "start": 1905.12,
+      "duration": 4.48,
+      "text": "section in order. Each milestone has its"
+    },
+    {
+      "start": 1907.519,
+      "duration": 4.481,
+      "text": "own instruction file and prompt. You"
+    },
+    {
+      "start": 1909.6,
+      "duration": 4.48,
+      "text": "implement, review, test, and then move"
+    },
+    {
+      "start": 1912,
+      "duration": 4,
+      "text": "on to the next one. Option two is"
+    },
+    {
+      "start": 1914.08,
+      "duration": 3.839,
+      "text": "oneshot implementation, and this can"
+    },
+    {
+      "start": 1916,
+      "duration": 3.919,
+      "text": "work for simpler apps or when you just"
+    },
+    {
+      "start": 1917.919,
+      "duration": 3.6,
+      "text": "want to build everything in one session."
+    },
+    {
+      "start": 1919.919,
+      "duration": 3.921,
+      "text": "The oneshot prompt gives your coding"
+    },
+    {
+      "start": 1921.519,
+      "duration": 4.721,
+      "text": "agent everything all at once. It'll ask"
+    },
+    {
+      "start": 1923.84,
+      "duration": 4.48,
+      "text": "clarifying questions about O and data"
+    },
+    {
+      "start": 1926.24,
+      "duration": 3.6,
+      "text": "modeling and then plan and implement the"
+    },
+    {
+      "start": 1928.32,
+      "duration": 4.079,
+      "text": "whole thing. And either way, you're"
+    },
+    {
+      "start": 1929.84,
+      "duration": 4.959,
+      "text": "handing off complete productionready UI"
+    },
+    {
+      "start": 1932.399,
+      "duration": 4.4,
+      "text": "components. Your coding agents job is to"
+    },
+    {
+      "start": 1934.799,
+      "duration": 4.401,
+      "text": "build the backend, wire up the data"
+    },
+    {
+      "start": 1936.799,
+      "duration": 5.201,
+      "text": "layer, and integrate, not recreate"
+    },
+    {
+      "start": 1939.2,
+      "duration": 5.52,
+      "text": "designs from screenshots. Okay, so here"
+    },
+    {
+      "start": 1942,
+      "duration": 5.279,
+      "text": "on the final export page in Design OS,"
+    },
+    {
+      "start": 1944.72,
+      "duration": 4.72,
+      "text": "our export package is all ready. I could"
+    },
+    {
+      "start": 1947.279,
+      "duration": 5.12,
+      "text": "just click this to download the product"
+    },
+    {
+      "start": 1949.44,
+      "duration": 4.88,
+      "text": "plan zip to my machine, you know, or I"
+    },
+    {
+      "start": 1952.399,
+      "duration": 3.76,
+      "text": "can get all of those files right here."
+    },
+    {
+      "start": 1954.32,
+      "duration": 4,
+      "text": "They're they're in the codebase for"
+    },
+    {
+      "start": 1956.159,
+      "duration": 3.601,
+      "text": "Design OS as well. So, let me show you"
+    },
+    {
+      "start": 1958.32,
+      "duration": 4.239,
+      "text": "how I would get started with"
+    },
+    {
+      "start": 1959.76,
+      "duration": 5.84,
+      "text": "implementing our designs in an actual"
+    },
+    {
+      "start": 1962.559,
+      "duration": 5.36,
+      "text": "codebase for this application. So, I've"
+    },
+    {
+      "start": 1965.6,
+      "duration": 3.679,
+      "text": "downloaded the the zip file that's on my"
+    },
+    {
+      "start": 1967.919,
+      "duration": 3.36,
+      "text": "desktop right here, and then I've"
+    },
+    {
+      "start": 1969.279,
+      "duration": 4.24,
+      "text": "unzipped it right here. So, and I'm"
+    },
+    {
+      "start": 1971.279,
+      "duration": 4.081,
+      "text": "going to bring that over into this other"
+    },
+    {
+      "start": 1973.519,
+      "duration": 4.081,
+      "text": "project. So, this would be my actual"
+    },
+    {
+      "start": 1975.36,
+      "duration": 4.72,
+      "text": "codebase for the application that would"
+    },
+    {
+      "start": 1977.6,
+      "duration": 4.799,
+      "text": "become salesy. In my case, I'm using"
+    },
+    {
+      "start": 1980.08,
+      "duration": 4.319,
+      "text": "Ruby on Rails with React. I'm using"
+    },
+    {
+      "start": 1982.399,
+      "duration": 3.76,
+      "text": "Inertia with that. So of course you can"
+    },
+    {
+      "start": 1984.399,
+      "duration": 4.561,
+      "text": "use anything for your back end whether"
+    },
+    {
+      "start": 1986.159,
+      "duration": 4.961,
+      "text": "it's Laravel or Nex.js or Python or"
+    },
+    {
+      "start": 1988.96,
+      "duration": 4.079,
+      "text": "anything else. Um as long as you are"
+    },
+    {
+      "start": 1991.12,
+      "duration": 3.919,
+      "text": "using React on the front end then you"
+    },
+    {
+      "start": 1993.039,
+      "duration": 4.081,
+      "text": "can easily import these design"
+    },
+    {
+      "start": 1995.039,
+      "duration": 4.561,
+      "text": "components. So here is that you know new"
+    },
+    {
+      "start": 1997.12,
+      "duration": 4.799,
+      "text": "project for the actual codebase and here"
+    },
+    {
+      "start": 1999.6,
+      "duration": 4.799,
+      "text": "on the right is the folder for this"
+    },
+    {
+      "start": 2001.919,
+      "duration": 4.88,
+      "text": "codebase and then here on the left is my"
+    },
+    {
+      "start": 2004.399,
+      "duration": 3.921,
+      "text": "product plan folder on my desktop. So"
+    },
+    {
+      "start": 2006.799,
+      "duration": 3.841,
+      "text": "I'm simply going to take that product"
+    },
+    {
+      "start": 2008.32,
+      "duration": 4.479,
+      "text": "plan folder and drop it right into my"
+    },
+    {
+      "start": 2010.64,
+      "duration": 3.919,
+      "text": "codebase just like that. And so now it's"
+    },
+    {
+      "start": 2012.799,
+      "duration": 3.281,
+      "text": "here. So let's take a look at what we"
+    },
+    {
+      "start": 2014.559,
+      "duration": 4.081,
+      "text": "have here. Of course, we have like the"
+    },
+    {
+      "start": 2016.08,
+      "duration": 5.04,
+      "text": "data model, the design system, fonts,"
+    },
+    {
+      "start": 2018.64,
+      "duration": 5.44,
+      "text": "tailwind colors, tokens, but what you'll"
+    },
+    {
+      "start": 2021.12,
+      "duration": 5.76,
+      "text": "actually want to use are one of these"
+    },
+    {
+      "start": 2024.08,
+      "duration": 5.12,
+      "text": "two prompts. And remember, if we look at"
+    },
+    {
+      "start": 2026.88,
+      "duration": 3.6,
+      "text": "the export page and you scroll down,"
+    },
+    {
+      "start": 2029.2,
+      "duration": 3.76,
+      "text": "you'll have these very simple"
+    },
+    {
+      "start": 2030.48,
+      "duration": 4.48,
+      "text": "instructions how to use the export."
+    },
+    {
+      "start": 2032.96,
+      "duration": 4.16,
+      "text": "Option A, incremental, and that's"
+    },
+    {
+      "start": 2034.96,
+      "duration": 3.76,
+      "text": "generally what I recommend. And option B"
+    },
+    {
+      "start": 2037.12,
+      "duration": 4.08,
+      "text": "would be to, you know, build the whole"
+    },
+    {
+      "start": 2038.72,
+      "duration": 4.959,
+      "text": "thing in one shot, which could work for"
+    },
+    {
+      "start": 2041.2,
+      "duration": 4.079,
+      "text": "simpler applications. So, I'm going to"
+    },
+    {
+      "start": 2043.679,
+      "duration": 3.84,
+      "text": "show you how I would get started with"
+    },
+    {
+      "start": 2045.279,
+      "duration": 4.8,
+      "text": "both. So, if we were to take the"
+    },
+    {
+      "start": 2047.519,
+      "duration": 5.281,
+      "text": "incremental approach, you'll want to use"
+    },
+    {
+      "start": 2050.079,
+      "duration": 5.52,
+      "text": "the section prompt. And you'll use this"
+    },
+    {
+      "start": 2052.8,
+      "duration": 5.2,
+      "text": "repeatedly for each of the sections. If"
+    },
+    {
+      "start": 2055.599,
+      "duration": 4.56,
+      "text": "I'm using the oneshot approach, then"
+    },
+    {
+      "start": 2058,
+      "duration": 4.48,
+      "text": "I'll use the oneshot prompt. So, you"
+    },
+    {
+      "start": 2060.159,
+      "duration": 4.161,
+      "text": "would use one or the other. You probably"
+    },
+    {
+      "start": 2062.48,
+      "duration": 4.159,
+      "text": "wouldn't want to use both. Now let's"
+    },
+    {
+      "start": 2064.32,
+      "duration": 4.799,
+      "text": "also open up the instructions folder."
+    },
+    {
+      "start": 2066.639,
+      "duration": 4.801,
+      "text": "And here we have oneshot instructions"
+    },
+    {
+      "start": 2069.119,
+      "duration": 4.321,
+      "text": "and we have a folder called incremental."
+    },
+    {
+      "start": 2071.44,
+      "duration": 4.88,
+      "text": "Again you would use one or the other. So"
+    },
+    {
+      "start": 2073.44,
+      "duration": 5.52,
+      "text": "in the incremental case this one has a"
+    },
+    {
+      "start": 2076.32,
+      "duration": 5.039,
+      "text": "numbered set of you know incremental"
+    },
+    {
+      "start": 2078.96,
+      "duration": 4.959,
+      "text": "milestones that we'll be building one by"
+    },
+    {
+      "start": 2081.359,
+      "duration": 4.961,
+      "text": "one. So for each one of these starting"
+    },
+    {
+      "start": 2083.919,
+      "duration": 4.641,
+      "text": "with a foundation and then and then"
+    },
+    {
+      "start": 2086.32,
+      "duration": 3.92,
+      "text": "designing the application shell and then"
+    },
+    {
+      "start": 2088.56,
+      "duration": 3.92,
+      "text": "going through those four sections that"
+    },
+    {
+      "start": 2090.24,
+      "duration": 5.119,
+      "text": "we've designed. For each of those, we'll"
+    },
+    {
+      "start": 2092.48,
+      "duration": 4.399,
+      "text": "we'll be using our section prompt to to"
+    },
+    {
+      "start": 2095.359,
+      "duration": 2.881,
+      "text": "get the agent started on that. And I'll"
+    },
+    {
+      "start": 2096.879,
+      "duration": 3.041,
+      "text": "and I'll show you how I would do that in"
+    },
+    {
+      "start": 2098.24,
+      "duration": 4.16,
+      "text": "just a second. But just to round this"
+    },
+    {
+      "start": 2099.92,
+      "duration": 4.56,
+      "text": "out, down here, we have the actual"
+    },
+    {
+      "start": 2102.4,
+      "duration": 5.6,
+      "text": "sections. And each of these contain the"
+    },
+    {
+      "start": 2104.48,
+      "duration": 5.84,
+      "text": "actual React components that our coding"
+    },
+    {
+      "start": 2108,
+      "duration": 4.96,
+      "text": "agent will take and integrate into this"
+    },
+    {
+      "start": 2110.32,
+      "duration": 4.32,
+      "text": "codebase. So, you really don't need to"
+    },
+    {
+      "start": 2112.96,
+      "duration": 4.159,
+      "text": "touch this stuff too much because they"
+    },
+    {
+      "start": 2114.64,
+      "duration": 4.64,
+      "text": "are all prepped and ready for your agent"
+    },
+    {
+      "start": 2117.119,
+      "duration": 4.561,
+      "text": "to, you know, integrate and wire up into"
+    },
+    {
+      "start": 2119.28,
+      "duration": 5.04,
+      "text": "your codebase. But it's all here in the"
+    },
+    {
+      "start": 2121.68,
+      "duration": 4,
+      "text": "product plan. So let's actually get the"
+    },
+    {
+      "start": 2124.32,
+      "duration": 3.279,
+      "text": "process started. Again, we're going to"
+    },
+    {
+      "start": 2125.68,
+      "duration": 4.159,
+      "text": "start with the incremental approach. And"
+    },
+    {
+      "start": 2127.599,
+      "duration": 4.401,
+      "text": "I'm going to open up Claude. Now, I"
+    },
+    {
+      "start": 2129.839,
+      "duration": 4.481,
+      "text": "definitely recommend you start with plan"
+    },
+    {
+      "start": 2132,
+      "duration": 3.92,
+      "text": "mode. And the prompts sort of assume"
+    },
+    {
+      "start": 2134.32,
+      "duration": 3.519,
+      "text": "that you are starting in plan mode. So"
+    },
+    {
+      "start": 2135.92,
+      "duration": 5.12,
+      "text": "to toggle into plan mode in Cloud Code,"
+    },
+    {
+      "start": 2137.839,
+      "duration": 6.401,
+      "text": "you do shift tab until you see it says"
+    },
+    {
+      "start": 2141.04,
+      "duration": 5.039,
+      "text": "plan mode on. Okay. So, that's really"
+    },
+    {
+      "start": 2144.24,
+      "duration": 5.04,
+      "text": "important because uh that will enable"
+    },
+    {
+      "start": 2146.079,
+      "duration": 4.881,
+      "text": "the agent to not only analyze all of the"
+    },
+    {
+      "start": 2149.28,
+      "duration": 3.76,
+      "text": "instructions and all the files that"
+    },
+    {
+      "start": 2150.96,
+      "duration": 4.96,
+      "text": "we're going to throw at it, but also"
+    },
+    {
+      "start": 2153.04,
+      "duration": 4.88,
+      "text": "analyze your current codebase and start"
+    },
+    {
+      "start": 2155.92,
+      "duration": 4.8,
+      "text": "to ask you some implementation questions"
+    },
+    {
+      "start": 2157.92,
+      "duration": 4.96,
+      "text": "to really dial in that that plan for"
+    },
+    {
+      "start": 2160.72,
+      "duration": 4.399,
+      "text": "wiring it all up and getting all those"
+    },
+    {
+      "start": 2162.88,
+      "duration": 5.199,
+      "text": "integration details right as they relate"
+    },
+    {
+      "start": 2165.119,
+      "duration": 4.561,
+      "text": "to your codebase and your tech stack."
+    },
+    {
+      "start": 2168.079,
+      "duration": 3.76,
+      "text": "Now, in the case of taking the"
+    },
+    {
+      "start": 2169.68,
+      "duration": 3.52,
+      "text": "incremental approach, we will open up"
+    },
+    {
+      "start": 2171.839,
+      "duration": 3.28,
+      "text": "the prompts and I'm going to open up"
+    },
+    {
+      "start": 2173.2,
+      "duration": 3.2,
+      "text": "that section prompt right here. Now,"
+    },
+    {
+      "start": 2175.119,
+      "duration": 3.441,
+      "text": "before we actually drop that into"
+    },
+    {
+      "start": 2176.4,
+      "duration": 5.36,
+      "text": "Claude, I'm going to drop it into this"
+    },
+    {
+      "start": 2178.56,
+      "duration": 5.92,
+      "text": "text file uh just so that I can define"
+    },
+    {
+      "start": 2181.76,
+      "duration": 4.4,
+      "text": "these three variables at the top. Since"
+    },
+    {
+      "start": 2184.48,
+      "duration": 4.4,
+      "text": "this is a prompt that we're going to be"
+    },
+    {
+      "start": 2186.16,
+      "duration": 6.24,
+      "text": "using repeatedly for each section, we"
+    },
+    {
+      "start": 2188.88,
+      "duration": 6.64,
+      "text": "just need to tweak the values here"
+    },
+    {
+      "start": 2192.4,
+      "duration": 4.56,
+      "text": "uh for each of the different milestones"
+    },
+    {
+      "start": 2195.52,
+      "duration": 3.92,
+      "text": "that we're going to be running. So we're"
+    },
+    {
+      "start": 2196.96,
+      "duration": 4.96,
+      "text": "going to start by doing the foundation"
+    },
+    {
+      "start": 2199.44,
+      "duration": 5.12,
+      "text": "and that's foundation and I can see that"
+    },
+    {
+      "start": 2201.92,
+      "duration": 4.48,
+      "text": "if I open up the instructions under"
+    },
+    {
+      "start": 2204.56,
+      "duration": 6.08,
+      "text": "incremental we're starting with"
+    },
+    {
+      "start": 2206.4,
+      "duration": 5.439,
+      "text": "foundation and then the number is 01. So"
+    },
+    {
+      "start": 2210.64,
+      "duration": 3.68,
+      "text": "this is sort of like the name of the"
+    },
+    {
+      "start": 2211.839,
+      "duration": 5.121,
+      "text": "section and this is the exact name that"
+    },
+    {
+      "start": 2214.32,
+      "duration": 5.68,
+      "text": "we see in this file name and then this"
+    },
+    {
+      "start": 2216.96,
+      "duration": 4.48,
+      "text": "is the number of the milestone. So what"
+    },
+    {
+      "start": 2220,
+      "duration": 3.119,
+      "text": "this does is basically just instructs"
+    },
+    {
+      "start": 2221.44,
+      "duration": 4,
+      "text": "the agent that whenever you see section"
+    },
+    {
+      "start": 2223.119,
+      "duration": 4.96,
+      "text": "name in these instructions, we want that"
+    },
+    {
+      "start": 2225.44,
+      "duration": 6,
+      "text": "to be this. Whenever you see NN, we want"
+    },
+    {
+      "start": 2228.079,
+      "duration": 6.721,
+      "text": "that to be 01. And that will help it"
+    },
+    {
+      "start": 2231.44,
+      "duration": 6.639,
+      "text": "identify the specific files that we will"
+    },
+    {
+      "start": 2234.8,
+      "duration": 5.44,
+      "text": "be pointing the agent to go read and"
+    },
+    {
+      "start": 2238.079,
+      "duration": 3.601,
+      "text": "analyze and bring into its context."
+    },
+    {
+      "start": 2240.24,
+      "duration": 3.119,
+      "text": "Defining these up here just makes it"
+    },
+    {
+      "start": 2241.68,
+      "duration": 3.919,
+      "text": "easy so that you don't have to like find"
+    },
+    {
+      "start": 2243.359,
+      "duration": 4.401,
+      "text": "all the little instances in this in this"
+    },
+    {
+      "start": 2245.599,
+      "duration": 5.361,
+      "text": "prompt to get those going. So each time"
+    },
+    {
+      "start": 2247.76,
+      "duration": 6.16,
+      "text": "we we run this, I'll update these three"
+    },
+    {
+      "start": 2250.96,
+      "duration": 4.8,
+      "text": "values. Okay. So that is all set. I mean"
+    },
+    {
+      "start": 2253.92,
+      "duration": 4.96,
+      "text": "one more thing, this is optional, but if"
+    },
+    {
+      "start": 2255.76,
+      "duration": 4.8,
+      "text": "you have any other additional technical"
+    },
+    {
+      "start": 2258.88,
+      "duration": 4.08,
+      "text": "notes or directions that you want to"
+    },
+    {
+      "start": 2260.56,
+      "duration": 4.16,
+      "text": "give to your agent up front, you can"
+    },
+    {
+      "start": 2262.96,
+      "duration": 3.92,
+      "text": "just, you know, add them into the prompt"
+    },
+    {
+      "start": 2264.72,
+      "duration": 3.6,
+      "text": "here. But of course, the the agent is"
+    },
+    {
+      "start": 2266.88,
+      "duration": 3.76,
+      "text": "going to ask you clarifying questions"
+    },
+    {
+      "start": 2268.32,
+      "duration": 4.24,
+      "text": "because we are in plan mode. All right,"
+    },
+    {
+      "start": 2270.64,
+      "duration": 5.12,
+      "text": "so let's go ahead and get that prompt"
+    },
+    {
+      "start": 2272.56,
+      "duration": 5.44,
+      "text": "into Claude. And I just pasted that in."
+    },
+    {
+      "start": 2275.76,
+      "duration": 3.68,
+      "text": "I can see that here. And since I'm just"
+    },
+    {
+      "start": 2278,
+      "duration": 2.96,
+      "text": "demonstrating how to get started with"
+    },
+    {
+      "start": 2279.44,
+      "duration": 3.679,
+      "text": "this, I'm going to sort of leave it"
+    },
+    {
+      "start": 2280.96,
+      "duration": 4.72,
+      "text": "there. But I do want to point out a few"
+    },
+    {
+      "start": 2283.119,
+      "duration": 4.72,
+      "text": "more things that we will be giving to"
+    },
+    {
+      "start": 2285.68,
+      "duration": 4.48,
+      "text": "Claude. Again, if we look at the section"
+    },
+    {
+      "start": 2287.839,
+      "duration": 4.961,
+      "text": "prompt, you can see that for each"
+    },
+    {
+      "start": 2290.16,
+      "duration": 4.64,
+      "text": "section, we're providing a readme file."
+    },
+    {
+      "start": 2292.8,
+      "duration": 3.92,
+      "text": "And let's look at one of these sections"
+    },
+    {
+      "start": 2294.8,
+      "duration": 4.08,
+      "text": "as an example. If I look at the client"
+    },
+    {
+      "start": 2296.72,
+      "duration": 4.08,
+      "text": "section, we've got this readme. And this"
+    },
+    {
+      "start": 2298.88,
+      "duration": 3.92,
+      "text": "gives Claude all the context about"
+    },
+    {
+      "start": 2300.8,
+      "duration": 4.16,
+      "text": "what's happening in the client section,"
+    },
+    {
+      "start": 2302.8,
+      "duration": 5.6,
+      "text": "what the user flows are, what our design"
+    },
+    {
+      "start": 2304.96,
+      "duration": 5.36,
+      "text": "decisions were um and a little bit of of"
+    },
+    {
+      "start": 2308.4,
+      "duration": 3.84,
+      "text": "instruction on how to wire it up. We're"
+    },
+    {
+      "start": 2310.32,
+      "duration": 4.16,
+      "text": "also giving it that sample data. This is"
+    },
+    {
+      "start": 2312.24,
+      "duration": 4,
+      "text": "more for like reference purposes. We're"
+    },
+    {
+      "start": 2314.48,
+      "duration": 4.8,
+      "text": "giving it those React components which"
+    },
+    {
+      "start": 2316.24,
+      "duration": 5.28,
+      "text": "are in the components folder. These are"
+    },
+    {
+      "start": 2319.28,
+      "duration": 3.6,
+      "text": "actual, you know, React components. And"
+    },
+    {
+      "start": 2321.52,
+      "duration": 3.68,
+      "text": "then this is interesting. We're giving"
+    },
+    {
+      "start": 2322.88,
+      "duration": 4.56,
+      "text": "it a test.md."
+    },
+    {
+      "start": 2325.2,
+      "duration": 5.6,
+      "text": "And so if we look at that, these are"
+    },
+    {
+      "start": 2327.44,
+      "duration": 6.159,
+      "text": "instructions to the coding agent on how"
+    },
+    {
+      "start": 2330.8,
+      "duration": 4.72,
+      "text": "to write tests for this section of the"
+    },
+    {
+      "start": 2333.599,
+      "duration": 4.081,
+      "text": "application. Now, design OS doesn't"
+    },
+    {
+      "start": 2335.52,
+      "duration": 3.92,
+      "text": "necessarily know what your tech stack"
+    },
+    {
+      "start": 2337.68,
+      "duration": 4.8,
+      "text": "is, which framework you might be using"
+    },
+    {
+      "start": 2339.44,
+      "duration": 5.679,
+      "text": "for your test suite, but this gives the"
+    },
+    {
+      "start": 2342.48,
+      "duration": 4.96,
+      "text": "agent just general instructions on what"
+    },
+    {
+      "start": 2345.119,
+      "duration": 4.641,
+      "text": "the key user flows are, like what the"
+    },
+    {
+      "start": 2347.44,
+      "duration": 4.24,
+      "text": "success path is and what the what the"
+    },
+    {
+      "start": 2349.76,
+      "duration": 4.16,
+      "text": "failure path would be. You know, all of"
+    },
+    {
+      "start": 2351.68,
+      "duration": 4.48,
+      "text": "the critical flows that we should have"
+    },
+    {
+      "start": 2353.92,
+      "duration": 4.48,
+      "text": "test coverage for, especially since we"
+    },
+    {
+      "start": 2356.16,
+      "duration": 4.959,
+      "text": "want the agent to take a test driven"
+    },
+    {
+      "start": 2358.4,
+      "duration": 5.04,
+      "text": "development approach. So each section"
+    },
+    {
+      "start": 2361.119,
+      "duration": 4.641,
+      "text": "comes with this pre-written tests"
+    },
+    {
+      "start": 2363.44,
+      "duration": 4.96,
+      "text": "instructions file which will inform your"
+    },
+    {
+      "start": 2365.76,
+      "duration": 5.28,
+      "text": "agent on how to get started on writing"
+    },
+    {
+      "start": 2368.4,
+      "duration": 5.199,
+      "text": "the the critical tests and planning the"
+    },
+    {
+      "start": 2371.04,
+      "duration": 5.52,
+      "text": "implementation. So all of that stuff is"
+    },
+    {
+      "start": 2373.599,
+      "duration": 5.601,
+      "text": "getting referenced from the prompt that"
+    },
+    {
+      "start": 2376.56,
+      "duration": 4.559,
+      "text": "we're giving to the agent here. But to"
+    },
+    {
+      "start": 2379.2,
+      "duration": 4.48,
+      "text": "keep it absolutely simple, all you"
+    },
+    {
+      "start": 2381.119,
+      "duration": 4.401,
+      "text": "actually need to do is take the prompt,"
+    },
+    {
+      "start": 2383.68,
+      "duration": 4.32,
+      "text": "update those variables, and then drop"
+    },
+    {
+      "start": 2385.52,
+      "duration": 5.12,
+      "text": "the prompt right into cloud code in plan"
+    },
+    {
+      "start": 2388,
+      "duration": 5.119,
+      "text": "mode. Let it analyze everything. Let it"
+    },
+    {
+      "start": 2390.64,
+      "duration": 4.16,
+      "text": "ask you clarifying questions and then"
+    },
+    {
+      "start": 2393.119,
+      "duration": 2.96,
+      "text": "let it let it run and do the"
+    },
+    {
+      "start": 2394.8,
+      "duration": 3.039,
+      "text": "implementation. And then of course after"
+    },
+    {
+      "start": 2396.079,
+      "duration": 3.681,
+      "text": "that, you'll want to test its work,"
+    },
+    {
+      "start": 2397.839,
+      "duration": 4.961,
+      "text": "review it. You might need to add in"
+    },
+    {
+      "start": 2399.76,
+      "duration": 5.68,
+      "text": "additional specs and tasks for the agent"
+    },
+    {
+      "start": 2402.8,
+      "duration": 4.72,
+      "text": "to to wire up some backend business"
+    },
+    {
+      "start": 2405.44,
+      "duration": 3.84,
+      "text": "logic that might not have been covered"
+    },
+    {
+      "start": 2407.52,
+      "duration": 3.76,
+      "text": "in all of the specific designs that"
+    },
+    {
+      "start": 2409.28,
+      "duration": 3.68,
+      "text": "we've already created. That's totally"
+    },
+    {
+      "start": 2411.28,
+      "duration": 3.76,
+      "text": "normal, especially when you're taking"
+    },
+    {
+      "start": 2412.96,
+      "duration": 3.84,
+      "text": "this incremental approach. Um, but"
+    },
+    {
+      "start": 2415.04,
+      "duration": 3.28,
+      "text": "that's the process, right? So, so we"
+    },
+    {
+      "start": 2416.8,
+      "duration": 4.799,
+      "text": "would start by doing you know some of"
+    },
+    {
+      "start": 2418.32,
+      "duration": 5.6,
+      "text": "the foundation work and then as we move"
+    },
+    {
+      "start": 2421.599,
+      "duration": 4.881,
+      "text": "from the foundation we would take the"
+    },
+    {
+      "start": 2423.92,
+      "duration": 4.72,
+      "text": "the next step in our incremental process"
+    },
+    {
+      "start": 2426.48,
+      "duration": 3.84,
+      "text": "here which would be the shell. So in"
+    },
+    {
+      "start": 2428.64,
+      "duration": 3.28,
+      "text": "that case you would just you know rerun"
+    },
+    {
+      "start": 2430.32,
+      "duration": 5.2,
+      "text": "that whole process again you would you"
+    },
+    {
+      "start": 2431.92,
+      "duration": 5.6,
+      "text": "change this to shell shell and that's O2"
+    },
+    {
+      "start": 2435.52,
+      "duration": 4.559,
+      "text": "and then you know copy and paste into"
+    },
+    {
+      "start": 2437.52,
+      "duration": 5.44,
+      "text": "plan mode have it analyze it ask your"
+    },
+    {
+      "start": 2440.079,
+      "duration": 4.481,
+      "text": "questions let it run build it test it"
+    },
+    {
+      "start": 2442.96,
+      "duration": 3.44,
+      "text": "review it and then you move on to the"
+    },
+    {
+      "start": 2444.56,
+      "duration": 3.84,
+      "text": "next one which in this case would be"
+    },
+    {
+      "start": 2446.4,
+      "duration": 5.28,
+      "text": "setting up the dashboard so for that we"
+    },
+    {
+      "start": 2448.4,
+      "duration": 6,
+      "text": "would just go dashboard dashboard and"
+    },
+    {
+      "start": 2451.68,
+      "duration": 4.48,
+      "text": "that is 03 then once again you just do"
+    },
+    {
+      "start": 2454.4,
+      "duration": 3.76,
+      "text": "it again so that's the incremental"
+    },
+    {
+      "start": 2456.16,
+      "duration": 4.08,
+      "text": "approach you know you you"
+    },
+    {
+      "start": 2458.16,
+      "duration": 3.919,
+      "text": "one through six. Now, let me show you"
+    },
+    {
+      "start": 2460.24,
+      "duration": 4.079,
+      "text": "the other approach, which is the oneshot"
+    },
+    {
+      "start": 2462.079,
+      "duration": 4.881,
+      "text": "approach. This is better for simpler"
+    },
+    {
+      "start": 2464.319,
+      "duration": 4.321,
+      "text": "applications. It's pretty similar except"
+    },
+    {
+      "start": 2466.96,
+      "duration": 4.159,
+      "text": "we'll just be doing it all in one shot."
+    },
+    {
+      "start": 2468.64,
+      "duration": 4.16,
+      "text": "So, I'll just delete this for now and"
+    },
+    {
+      "start": 2471.119,
+      "duration": 3.2,
+      "text": "we'll go back to our prompts folder. And"
+    },
+    {
+      "start": 2472.8,
+      "duration": 3.519,
+      "text": "in this case, we are not going to be"
+    },
+    {
+      "start": 2474.319,
+      "duration": 3.52,
+      "text": "using the section prompt anymore."
+    },
+    {
+      "start": 2476.319,
+      "duration": 4.081,
+      "text": "Instead, we're going to be using the"
+    },
+    {
+      "start": 2477.839,
+      "duration": 5.041,
+      "text": "oneshot prompt. And so, this is the one"
+    },
+    {
+      "start": 2480.4,
+      "duration": 5.28,
+      "text": "that we will want to give to Claude Code"
+    },
+    {
+      "start": 2482.88,
+      "duration": 4.959,
+      "text": "or whichever coding agent you're using."
+    },
+    {
+      "start": 2485.68,
+      "duration": 4.56,
+      "text": "I'll copy that. Now, since this is just"
+    },
+    {
+      "start": 2487.839,
+      "duration": 5.041,
+      "text": "a one-time use prompt, we don't need to"
+    },
+    {
+      "start": 2490.24,
+      "duration": 4.16,
+      "text": "actually change any variables. Uh, since"
+    },
+    {
+      "start": 2492.88,
+      "duration": 3.36,
+      "text": "we're not, you know, using it repeatedly"
+    },
+    {
+      "start": 2494.4,
+      "duration": 4.4,
+      "text": "for different milestones. It's just one"
+    },
+    {
+      "start": 2496.24,
+      "duration": 4.32,
+      "text": "big one big build here. So, in this"
+    },
+    {
+      "start": 2498.8,
+      "duration": 4.4,
+      "text": "case, I would just, you know, copy and"
+    },
+    {
+      "start": 2500.56,
+      "duration": 4.48,
+      "text": "paste and I'll delete that from earlier."
+    },
+    {
+      "start": 2503.2,
+      "duration": 4,
+      "text": "And then just paste that in. Now, this"
+    },
+    {
+      "start": 2505.04,
+      "duration": 4.799,
+      "text": "one is going to point Claude to your"
+    },
+    {
+      "start": 2507.2,
+      "duration": 5.28,
+      "text": "oneshot instructions, which are here."
+    },
+    {
+      "start": 2509.839,
+      "duration": 4.641,
+      "text": "And, and this is sort of similar to the"
+    },
+    {
+      "start": 2512.48,
+      "duration": 3.599,
+      "text": "incremental instructions, except it"
+    },
+    {
+      "start": 2514.48,
+      "duration": 4.48,
+      "text": "covers everything. It covers all the"
+    },
+    {
+      "start": 2516.079,
+      "duration": 5.28,
+      "text": "sections from the shell to the clients"
+    },
+    {
+      "start": 2518.96,
+      "duration": 5.28,
+      "text": "to the dashboard to the sales pages uh"
+    },
+    {
+      "start": 2521.359,
+      "duration": 4.72,
+      "text": "in this case all of it. So once again,"
+    },
+    {
+      "start": 2524.24,
+      "duration": 4.24,
+      "text": "you know, start that in plan mode, have"
+    },
+    {
+      "start": 2526.079,
+      "duration": 4.961,
+      "text": "cloud code ask you questions, dial in"
+    },
+    {
+      "start": 2528.48,
+      "duration": 4.879,
+      "text": "the the details for especially for the"
+    },
+    {
+      "start": 2531.04,
+      "duration": 4.079,
+      "text": "backend business logic, let it run. And"
+    },
+    {
+      "start": 2533.359,
+      "duration": 3.441,
+      "text": "in one shot mode, it'll be running for"
+    },
+    {
+      "start": 2535.119,
+      "duration": 4,
+      "text": "longer since it'll be it'll have a lot"
+    },
+    {
+      "start": 2536.8,
+      "duration": 4.16,
+      "text": "more to build in one shot. Um but you"
+    },
+    {
+      "start": 2539.119,
+      "duration": 3.761,
+      "text": "know, go ahead and and let it run and"
+    },
+    {
+      "start": 2540.96,
+      "duration": 4.72,
+      "text": "test its work and and there you go. you"
+    },
+    {
+      "start": 2542.88,
+      "duration": 4.4,
+      "text": "can build an entire app in one shot. So,"
+    },
+    {
+      "start": 2545.68,
+      "duration": 4,
+      "text": "that's how I would get started with"
+    },
+    {
+      "start": 2547.28,
+      "duration": 4.72,
+      "text": "taking those finished front-end designs,"
+    },
+    {
+      "start": 2549.68,
+      "duration": 4.639,
+      "text": "bringing them into the codebase and and"
+    },
+    {
+      "start": 2552,
+      "duration": 4.64,
+      "text": "having Claude plan and then implement"
+    },
+    {
+      "start": 2554.319,
+      "duration": 4.081,
+      "text": "the the integration of the front end and"
+    },
+    {
+      "start": 2556.64,
+      "duration": 4.479,
+      "text": "wiring up the back end and your business"
+    },
+    {
+      "start": 2558.4,
+      "duration": 4.8,
+      "text": "logic. So, that's design OS, the missing"
+    },
+    {
+      "start": 2561.119,
+      "duration": 3.2,
+      "text": "step between your product idea and your"
+    },
+    {
+      "start": 2563.2,
+      "duration": 3.44,
+      "text": "codebase. Go to"
+    },
+    {
+      "start": 2564.319,
+      "duration": 4.481,
+      "text": "buildermethods.com/designos"
+    },
+    {
+      "start": 2566.64,
+      "duration": 3.84,
+      "text": "to download it, use it, and access all"
+    },
+    {
+      "start": 2568.8,
+      "duration": 3.36,
+      "text": "the docs for free. And if you want"
+    },
+    {
+      "start": 2570.48,
+      "duration": 3.92,
+      "text": "official support, training, and"
+    },
+    {
+      "start": 2572.16,
+      "duration": 4.159,
+      "text": "community as you use Design OS for"
+    },
+    {
+      "start": 2574.4,
+      "duration": 3.919,
+      "text": "yourself or with your team, that's"
+    },
+    {
+      "start": 2576.319,
+      "duration": 4,
+      "text": "available in my Builder Methods Pro"
+    },
+    {
+      "start": 2578.319,
+      "duration": 4.241,
+      "text": "membership. You'll get access to me for"
+    },
+    {
+      "start": 2580.319,
+      "duration": 4.561,
+      "text": "questions, a community of builders using"
+    },
+    {
+      "start": 2582.56,
+      "duration": 4.88,
+      "text": "these tools, plus all my workshops and"
+    },
+    {
+      "start": 2584.88,
+      "duration": 6.08,
+      "text": "training on AI first development. Thanks"
+    },
+    {
+      "start": 2587.44,
+      "duration": 3.52,
+      "text": "for watching. Now go build something"
+    }
+  ],
+  "fullText": "We know that AI coding tools produce generic looking UIs, but it gets even worse when you're building an entire app with multiple screens and interconnected flows. Every page looks like it was designed in isolation because it was. No shared system, no cohesion, just a hodgepodge of disconnected outputs. So, you reprompt, you rebuild, but each iteration drifts further and further from any coherent vision. What's missing is a design process. A way to make deliberate decisions before your coding agent wires up the back end so that you can hand off perfectly tuned designs. Not mock-ups, but productionready components for a cohesive front end across your entire app. This is design OS. It's the missing step between your product idea and your codebase. I built it to solve the front-end design problem in my own work. It's a guided process where you and AI plan your product, design your screens, and then export productionready components that any coding agent can implement. So, the days of creating mock-ups by hand only to see them get lost in translation, that's over. Now, we can design our actual front end with an AI first design process. Design OS is free and open source. You can download it, use it, and see all the docs by going to buildermethods.com/designos. In this video, I'll show you how it works. By the way, I'm Brian Castle. I'm the creator of AgentOS, a popular framework for spec driven development with AI and now design OS. I also run builder methods where pro members get support, training, and community for building software with AI. All right, now let's dive in. Design OS organizes your process into three phases. Phase one is product planning. You establish your foundation, your product's vision, your data model, and your global design system. Phase two is where you design each section of your product. You shape the requirements, then generate some sample data, and then design the actual screens. And phase three exports your product's design in a package that's ready for implementation. This lets you hand off finished front-end components and also gives you ready-made prompts to instruct your coding agent on exactly how to use your designs and build your app. You'll interact with Design OS through a series of commands. These are structured conversations where AI guides you through each decision. No staring at a blank page, no guesswork, just a methodical planning and design process. Now, design OS is its own standalone project. It's separate from your app's codebase. It's built on React, VIT, Shad CN, and Tailwind CSS. Now, I recommend you use Cloud Code to run the commands that are included in Design OS. But if you prefer a different tool like Cursor or Codeex or Gemini or any of the others, it's easy enough to reference and run those same commands. All right, now let's start by getting Design OS installed. I'll start by going to the docs and I can go down to setup and go to installation. And you can clone the GitHub repository by just copying this command right here. Now, you'll want to change my product design with the name of your project. Now my project today is going to be called salesy but I'm going to actually add design here because salesy alone will be the name of the app but this project is separate. This is just for design OS. So I'm going to call it salesy design and then we're going to cd into salesy design and we'll just run that all in one command. Okay. So, I've just pulled down all of the files for Design OS, uh, including the Claude commands, and those are inside of this Design OS folder. And we have the Claude code skill called front-end design. And the rest of this is the React and Vit app that will power Design OS. And then just, you know, following along with the installation instructions, we'll remove the original remote. And then I want to npm install. And then let's start it up. MPM rundev. That's on localhost 3000. Okay, here we go. Design OS is up and running on my system. Uh, ready to start a new project. Now, the way that Design OS is laid out across the top is our overall process starting from the product vision. And then we're going to move into the data model, the design tokens, and the design shell. Uh, then we'll get into designing each individual section. And then finally, we will export our package. The first step in any design OS project is defining the vision for your product. This is where you establish the core identity of what you're building. What problem does it solve? What are the key features that make this possible? You don't need to have all the answers figured out ahead of time. The product vision command starts that conversation. You share your rough ideas and AI will ask you clarifying questions and together you shape everything into a clear product overview. And looking at design OS, the first step in the product definition page is to run the product vision command. So I'm going to just run that in cloud code /vision. And you'll know that that's the command because it's preceded by design OS. So I'm just going to run that. So first thing is it asks me to define my product vision. It says tell me about the product you're building. Any notes, ideas, rough thoughts? What problem are you trying to solve? Who's it for? Don't worry about structure yet. just share what's on your mind. Now, I've prepared a prompt to use here. And this is, you know, typically my starting point for a new product. I have a couple of ideas and and rough structure in my mind. It looks something like this. Now, in this case, I'll be building an app that I'll be calling salesy. And it says that it'll let you easily create simple sharable sales pages to request payment for something, a product, a service, and optionally personalize these pages to a client. Now, each sales page should use a clean branded layout separate from the main app's shell because that will be client-f facing. So, that's all that I'm putting into my initial prompt. And sometimes I'll put even less than this. You know, as you can see, there's probably some holes and and a lot of open questions, but this is a good start for my new product. So, I'm going to paste that into Claude, and we'll start from there. All right. So, now Claude is going to start to ask me some clarifying questions. First, it's asking me about the target user. And I think that I'll actually select two of those. Right. It's asking me what metrics matter most for tracking sales page performance. And you know, here's an example of something where I sort of want to course correct it and and add my own notes to this. So instead, I'm going to go to the fourth option and just type something in. I'm going to say I'm going to say I just want to track the number of sales pages that I've sent. All right. Then I'll submit those answers. Okay. So, it has drafted up a description and a couple of problems and solutions and a couple of key features based on its understanding of what we're building here. So, you know, I would sort of like read through this and if I have any uh corrections or notes that I want to add, I can add those in. But, you know, for now, I'm just going to say this is good. So, now it's actually showing our product overview for this app that we're building. Here's the description. Here's the list of problems and solutions that we're setting out to solve with this product. And then we have a list of key features. All right. So now our product is starting to take shape. And so now based on this, our next step as I go down in the process here is to run product roadmap. And what this is going to do is it's actually going to break down our product concept into a couple of key sections that are sort of buildable and self-contained screens that we're going to need in our app. And so that's going to start to form a road map for our entire design process. So let's run product road map. All right. So just like that, it has come up with a list of about four sections. So we've got sales pages. That's where we would uh like create the sales pages. We've got a clients area. Uh we've got a main dashboard, of course, and then the public page. Yeah, I think that's a that's a really good start. Of course, we'll have like settings pages and maybe some other pages tied into these, but these are like the main sections of the app. And you might even think of these as links in our main navigation. So, I've got a couple of options here, of course, but I'm just going to say looks good. All right. So, with that, now we have those four sections listed here under sections. And now I can of course move on into the next phase. Next up is your data model. Now, if you've never done any back-end development, this might sound intimidating, but here's the thing. This step is conceptual. It's not technical. You're not writing database schemas. You're just defining the nouns of the system. The main things that users will create, view, and manage, like users or projects or invoices or tasks, whatever makes sense for your product. AI will help you think through what entities you need and how they relate to each other. So whether you're a technical founder who wants architectural control or you're a non-technical builder with a clear product vision, this step helps you establish a strong foundation that will guide everything that follows. Okay, so we're on the data model page and the only step to do here is run the data model command. So let's run that slash data model. Notice how easy it is to go step by step through this guided process. All right. And just like that, it says, \"Looking at your product, here are the entities that I'm seeing that we would need a sales page, client, and payment.\" Now, for the purpose of this design process, I would say that is that is just fine. And now, of course, when we get into the final codebase, we're going to have all sorts of other data models like maybe users and accounts and other stuff, but you know, for the purpose of designing this new app, let's just focus on these main entities. So, I'm going to say good to go. All right. So, it documented that data model into this simple, easy to read. It just makes sense, right? I'm looking at these entities with, you know, short descriptions and then relationships. how a sales page belongs to a client and how a client has many sales pages. Payment belongs to a sales page. So, of course, if you're experienced with back-end development and data modeling, you'll understand how these associations might work in a codebase. But even if you're not technical, you can just read this and it's understandable. We're looking at the nouns of our product. Now, before we can design individual screens, we need to establish our global design system. This includes two things. design tokens and your application shell. Design tokens are your visual identity, your color palette, your typography choices. These decisions will cascade through every screen you design, ensuring consistency across your entire product. And your application shell is the persistent navigation and layout that wraps all your sections. So, your sidebar layout or your topnav or your minimal header, whatever pattern fits your product. Getting these right before you design individual sections means everything you build will automatically feel cohesive and intentional. All right, moving on into the design system. So, this page has two steps. We're going to start by running design tokens. So, let's run that. And this is going to help me establish our brand colors and the fonts that we're going to be using in our design system. So, it makes a couple of suggestions. It's actually pulling these color names from the Tailwind CSS colors library. And it's going to be using Google fonts. So, which color vibe fits salesy best? And it's even recommending uh this combo, indigo, emerald, and slate. So, yeah, that sounds good to me. All right. So, which typography style do I prefer? Now, I know that inter is, you know, kind of overused, of course, but I think it actually does fit pretty well here. It's clean, professional, highly readable. Cool. All right. So, it has put in our design tokens. Of course, we can uh take a look at those right here. The nice thing here about establishing these now is that in all of the design sections, we're always going to be using these exact colors rather than designing each, you know, screen in isolation where AI might start to tweak and use different colors for different pages. We don't want that. We want consistency. All right, let's go ahead and actually start designing the shell. So, I'll just run the design shell command. Now, of course, application shells can come in all different types of configurations and shapes and sizes. So, it's going to ask us, you know, what kind of layout are we working with here? Do we want a sidebar navigation or a top navigation or some kind of minimal header? I think in this case, we will go with a side navigation. And which section or which view should be the default view when the app actually loads? We'll we'll say the dashboard should be that. All right. So, it's working on designing that shell component. Now, while that's cooking, I just want to show you where all of these pages, all this content is actually being stored. There is no actual database built into Design OS. But all of this content is being stored in basic markdown files right here in the product folder. So, we've already finished the the design system. The data model is just a markdown page. And you know, that first product overview is right here. And the product road map is right here. So, you know, I can go into these simple text files and make any edits that I want along the way. All right, that's all set. So, let's take a look at it. So, I'm going to scroll down here and we have the application shell with a little description of it. And then here is the link to actually view our shell design. And so, the now I almost forgot. Every time we design a new screen, including the application shell, it's best to go into your server and restart it by running mpm rundev. so that you know we get all the new CSS assets and everything all refreshed. Just restart the server. And here we go. Our application shell is looking pretty good. We've got the sidebar layout here. And this is our viewer for previewing all of the designs that we're going to be creating in Design OS. So this outer part is just design OS and the inner part is the actual design. So this is a slidable, you know, resizable container. We can do that or we can use these handy buttons to go from desktop to tablet to mobile sized. And so this actually did a pretty good job of setting up a sidebar navigation with a little navigation menu. We've got a settings thing down here that looks pretty good. And the other thing is Design OS has dark mode built into it. So we've got a little toggle right here and I can click that and it's going to put the whole thing including the design itself into dark mode. And you know design OS along with the help of the front-end design skill in claude you know instructed the agent to actually make sure that we are designing every screen to be responsive and every screen to have dark mode and light mode capabilities. So it looks like it did a pretty good job of of doing that. If you want to actually break out of this screen and look at it, you know, without the container, you can just click full screen. And now we're looking at the actual design completely, you know, in the browser. All right, so I can go back here into the design OS interface and we're ready to move on into designing each section. Now we get to the fun part, designing individual sections. For each section in your road map, you'll follow three steps. First, you'll shape the section. This is where you define what it does, the user flows, the UI requirements, what's in scope, and what's not. The shape section command guides you through a conversation to nail down a simple spec. Then you'll generate sample data. This will be used to populate your designs with realistic content. Not lurim Ipsum, but actual names, dates, varied statuses, edge cases, and finally you're ready to design the screen. This creates actual React components, fully responsive light and dark mode using your design tokens. And by the way, Design OS includes the Claude front-end design skill developed by the Claude team specifically to create distinctive professional-grade interfaces that avoid generic AI aesthetics. It guides bold, creative choices in typography, color, layout, and motion. Okay, so we're here in the sections section of Design OS where again we have all of the the main sections that we're going to be designing here. Starting with the sales pages section. Now, each of these uh has its own, you know, trackable process. So, I'm going to go into the sales pages section first. And again, we're going to start by shaping up a simple spec for the design of this section, followed by generating some sample data. And then we'll actually design the screens for the sales pages section. And then, sort of as an optional final step, we can actually snap screenshots of the designs. All right, let's start with shaping up the sections spec. So, I'll run shape section. All right. So, first it just starts off by asking me if I have any notes or direction or, you know, design specs or anything that I want to drop in here. So, if you have any of those notes, now's the time to drop them in. Of course, I could always, you know, go through the conversation and and add more as we go. But, one thing that I do want to specify here is that the sales pages section is actually going to need to consist of a few different pages. So I'll say the sales pages section will need three distinct screens to design. First is the index of all sales pages. Next is the edit view where we edit a sales page. And finally the clientfacing and actually I realized that we won't actually need to design the public facing sales page since we already have that planned as its own section. So we'll get to that a little bit later. Uh, but for this section, I'm just going to be designing the index of sales pages and the editable sales page. It's funny, it caught my mistake. So, I had said three screens. I actually meant two. I'm going to sort of clarify that for Claude here. Oops, I meant two screens. Just index and edit. All right. So, what information should be shown? And I like how it suggests like pretty sensible ideas here. So, I can just, you know, pick one or I can course correct and type something. Yeah, I'm going to say all of the above. All right. Now, for the edit screen, it's yeah, I want this third option. And yeah, so for creating a new sales page, I think in this case, we can keep it pretty simple. We'll just do a new button to a little modal popup. That works for me. All right. What UI pattern should be used here? Let's just go with list rows. And I love how easy it is to just answer questions and just, you know, select an option. Occasionally I need to actually type in, you know, some extra notes and whatnot, but this whole guided process and clarifying questions makes designing an app and getting all the details right really pretty easy. All right, so it's running back everything that it just gathered here. And again, this is another opportunity for me to, you know, add anything or course correct anything, but I'm just going to say good. Okay, so now here on the sections list, you can see the spec step has been checked. And then if I go in here now, we have this is a very simple spec and that's by design. We want to keep it very simple here. Just an overview, a list of some user flows and a list of UI requirements. Now, we're going to move on into generating some sample data. And this is sort of like some secret sauce in this AI first design process. by generating some sample data which will be in in JSON format that's going to really help us dial in our actual design so that AI will design our interface including exactly what we need in that interface without all the extra bells and whistles that AI tends to throw into our designs. That's why we want to generate some actually realistic sample data. So for that I'm going to, you know, run the sample data command. And right after I run that, it actually generates a preview of what will go into my sample data. So even if you're not technical, you could sort of just read through this and you can sort of make sense of it. Right? Again, we're just talking about the entities or the nouns, if you will, that make up the data, the content, and the the modeling underneath our application. Now, don't worry about this being absolutely accurate. Uh this is not set in stone. And this is really just a part of our design process to dial in our front-end designs. Once we get into our final code base later on, that's when, you know, we're going to be much more accurate and really, you know, fine-tune our database modeling and our columns and everything. This is for the purpose of just sample data, right? So, I responded to that with that's good. And off of that, Claude is going to actually generate some some sample data in JSON format. All right, so that's all set and uh we can review our sample data right here. Here's the data model. Here is how they connect. In this case, it's just a list of sales pages. And then we can look at that JSON. Again, this might look like a bunch of code to you, but if you start to read through these lines, these are actual realistic sounding pieces of content that would go into a list of sales pages that will populate our index view. So, I'm going to collapse that. And now we can finally get on to actually designing the first screen, which is going to be the the index view. So, let's go ahead and run design screen. And I'm going to add a bit of detail here. Since our sales pages section is going to have two separate screens to design, I'm just going to say first design the index screen. And you can see here that Claude is reading the front-end design skill and then creating the index screen. So that's that's really good. That's sort of like baking in a little bit extra design muscle into Claude when it goes about creating this screen. Okay, so that is all set. Shut down the server and run it again. MPM rundev. So here we go. Under screen designs, uh, this sales page index is ready for me to see. I'm going to click that. And here we go. I'm looking at the index view for the sales pages. It it followed all of the details that we had actually discussed during the planning phase to, you know, create a new sales page. This here is a real front-end design view. You'll also notice that it is placed within our actual shell. The the shell has not changed. We're not designing these in isolation. So, we've kept the shell. We've kept our design tokens, our colors, our fonts. It's all consistent. Uh, let's check it out in in some mobile configurations and let's check out dark mode. Yeah, looking good. All right, so I'm going to go back into viewing this section for sales pages. Now, not all sections are going to have multiple screens to be designed, but this one happens to have another screen that I'm going to need to have designed. So, for that reason, I'm actually going to rerun the same command again. We're going to run that design screen and I'm going to say now design the edit view for a sales page in the sales pages section. So you can see how it's reading and drawing on our colors and the front-end design skill once again some you know types and and the sample uh data set. So, it's it's using all that all that information that we've established methodically building up to this point where we're actually ready to assemble not only a functional but an accurate user interface design. Okay, so that is all set. Now, once again, I'm going to restart the server, end it, and then run it again. And let's refresh this page. And now we have two screen designs listed here. Let's go ahead and view that edit sales page. So, here we go. Once again, we are inside of our shell. It's all consistent in that regard. And we're viewing a single sales page. It's edit view. Here's the setting for what happens after a person clicks. Up here, we've got this like copy link. That's kind of cool. The UI components are in place. Let's see how we're doing as we drop down into mobile view. And that's, you know, that's all looking good. And dark mode as well. Good stuff. All right. I'm going to go back to this section. Now, as I scroll down, we've got one more step, and this is to snap some screenshots of the two designs that I've just created. I would say that this step is actually optional. Again, we have already designed and built the functional screens. So, we don't necessarily need to have screenshots to reference, but especially if you're working with a team or with clients or other stakeholders, it might be good to to, you know, generate some some screenshots of this stuff. Now, of course, I could just use any screenshotting tool to to make these screenshots myself, but Design OS has screenshotting capability built in. And for that, we use the the Playwright MCP. So, let's let's see how that works. I'm going to run the screenshot design command. Going to go ahead and run that. And first, Design OS is going to actually check to see if I already have the Playright MCP installed. And actually it found that on my system currently I don't actually have it installed. So it actually gave me the command that I need to run to install the playwright MCP and activate it for cloud code. So I'm just going to copy that. Now this is not a command that you would run in cloud code itself. I actually need to exit cloud code and you know just in the terminal that's where you want to actually run that command. Run that. I'm going to start Claude again and I can do slashmcp to see which MCPS I have installed on my system. And currently I just have the one playright. It says that it's connected. So So that's good to go. All right. So now I'm going to actually just press up to to get back that previous prompt that I that I gave to to Claude here. Um and once again I'm I'm going to be calling that design OS screenshot design command. And I'm telling it, let's screenshot both the index and edit views for the sales page section. Okay. So here it's actually using Playwright to launch its own browser instance. I'm not controlling this and it is just, you know, viewing both of those screens. I can see in two separate tabs. It opened them in full screen mode. So it's not going to screenshot like the design OS container. It's just going to, you know, screenshot the actual design. Okay. So, it just closed down the browser and now it's going to take those screenshots and it's placing them in my product folder. And so, first we can, you know, view those screenshots right here. So, now our whole section for sales pages is complete. We have the two screenshots right here, those screenshots. But just to show you this whole time while we're building out the product and then building out each individual sections, all the content that we're creating with Design OS is being stored in here. So the first section that we've done here is sales pages. Inside that we've got our sample data JSON. We've got that, you know, basic spec that we've created early on. Got some some types and we have those two screenshots right here. So here is the edit view and here is the index view. Awesome. And if I go back and view all the sections now, I can just repeat that same process for designing the pages for the client section, the dashboard, and that public sales page. So, I'm going to pause the video here off camera. I'm going to go ahead and, you know, rerun that process and finish out all these designs. So, I'll be back in a minute. Okay, I'm back. It's about 15 20 minutes later and I've gone through and I finished the designs for all four of these sections. As you can see, they're all checked off here. So, if I go into the client section, we have the spec, the sample data, and two screen designs for that. So, here is the client's list, which I think looks great. We've got some metrics across the top. Pretty nice. And then we've got the um the client's detail. So, I can view and edit a uh a single client here. Then, we've got the dashboard view. And this was just a single view. I've got the screenshot for it down there, but here is that dashboard. We've got some metrics, some uh some some filtering capability here, and a list of recent activity. And this is all looking great. Again, I've got, you know, dark mode working for all these designs. I think it did a really great job on this public sales page. Again, this one is client facing. So, it actually asked me and then I confirmed that this one will not be shown inside of the main application shell because this is what clients will see, right? So, here's the sample data. And then here is that public view. As you can see, it's much cleaner. We have the, you know, the branding for whatever the user's company is. And then we've got sort of like a sales letter and a a call to action button. Little subtle motion animation on that. This looks really great. You know, this is the work of Claude Opus 4.5 with the with the front-end design skill built in that you know, you'll have that available to you throughout all of Design OS. All right, so we've got all the sections ready to go. And once all your sections are designed, it's time to export. The export product command generates a complete handoff package. Everything your coding agent needs to implement your product. This includes your product overview, your data model, your design system, and all your designed components, plus pre-written prompts to kick off implementation and test writing specs so that your agent can use a testdriven development approach when building out each section. All of it organized, documented, and ready to drop into your codebase. All right, so we're in the final phase of Design OS, and that's the export phase. And as we can see here, we are now ready for export. It tells me what is going to be included in our export package and uh you know it gives me sort of uh details about all of that here. Uh but let's go ahead and run this export product command. So I'm back in cloud. I'll just run export product. This is going to take a few minutes to run because it's actually going to grab everything inside of my product folder. and it's going to do a little bit of like reconfiguration of the design components, sort of the code uh underneath the hood to make sure that it's all highly portable and ready to drop into my codebase. It's also going to prepare some pre-written prompts that'll make it really easy for me to hand off to my coding agent. But I'm going to let this cook and and prepare my uh my export. All right. So that export process is all set and uh I can see it here now on the export page. We have the link to download uh the zip file which is product plan.zip and we can actually just see the contents of that um right here in uh the design OS codebase. So um earlier as we were building out all of our screens and all of our designs, all of that was happening in the product folder. But now we have a folder called product plan and this is like our export package. So, you know, it lists out everything that went into this. We've got a couple of prompts that we can use uh in the implementation. I'll show you that next. You know, we have each of the individual sections. And if we open up components, you know, these are actual, you know, React components that are ready to be dropped into our codebase. We've also got our product overview, which is uh, you know, sort of just the overview of what this product is all about. Go into this export page. Scroll down and now we have these simple step-by-step instructions for how we can implement it in our codebase. Now, when it comes to implementing your designs in your codebase, you've got two options. Option one, and this is generally my recommended option, is incremental implementation. You work through each section one at a time. foundation first, then the shell, then each feature section in order. Each milestone has its own instruction file and prompt. You implement, review, test, and then move on to the next one. Option two is oneshot implementation, and this can work for simpler apps or when you just want to build everything in one session. The oneshot prompt gives your coding agent everything all at once. It'll ask clarifying questions about O and data modeling and then plan and implement the whole thing. And either way, you're handing off complete productionready UI components. Your coding agents job is to build the backend, wire up the data layer, and integrate, not recreate designs from screenshots. Okay, so here on the final export page in Design OS, our export package is all ready. I could just click this to download the product plan zip to my machine, you know, or I can get all of those files right here. They're they're in the codebase for Design OS as well. So, let me show you how I would get started with implementing our designs in an actual codebase for this application. So, I've downloaded the the zip file that's on my desktop right here, and then I've unzipped it right here. So, and I'm going to bring that over into this other project. So, this would be my actual codebase for the application that would become salesy. In my case, I'm using Ruby on Rails with React. I'm using Inertia with that. So of course you can use anything for your back end whether it's Laravel or Nex.js or Python or anything else. Um as long as you are using React on the front end then you can easily import these design components. So here is that you know new project for the actual codebase and here on the right is the folder for this codebase and then here on the left is my product plan folder on my desktop. So I'm simply going to take that product plan folder and drop it right into my codebase just like that. And so now it's here. So let's take a look at what we have here. Of course, we have like the data model, the design system, fonts, tailwind colors, tokens, but what you'll actually want to use are one of these two prompts. And remember, if we look at the export page and you scroll down, you'll have these very simple instructions how to use the export. Option A, incremental, and that's generally what I recommend. And option B would be to, you know, build the whole thing in one shot, which could work for simpler applications. So, I'm going to show you how I would get started with both. So, if we were to take the incremental approach, you'll want to use the section prompt. And you'll use this repeatedly for each of the sections. If I'm using the oneshot approach, then I'll use the oneshot prompt. So, you would use one or the other. You probably wouldn't want to use both. Now let's also open up the instructions folder. And here we have oneshot instructions and we have a folder called incremental. Again you would use one or the other. So in the incremental case this one has a numbered set of you know incremental milestones that we'll be building one by one. So for each one of these starting with a foundation and then and then designing the application shell and then going through those four sections that we've designed. For each of those, we'll we'll be using our section prompt to to get the agent started on that. And I'll and I'll show you how I would do that in just a second. But just to round this out, down here, we have the actual sections. And each of these contain the actual React components that our coding agent will take and integrate into this codebase. So, you really don't need to touch this stuff too much because they are all prepped and ready for your agent to, you know, integrate and wire up into your codebase. But it's all here in the product plan. So let's actually get the process started. Again, we're going to start with the incremental approach. And I'm going to open up Claude. Now, I definitely recommend you start with plan mode. And the prompts sort of assume that you are starting in plan mode. So to toggle into plan mode in Cloud Code, you do shift tab until you see it says plan mode on. Okay. So, that's really important because uh that will enable the agent to not only analyze all of the instructions and all the files that we're going to throw at it, but also analyze your current codebase and start to ask you some implementation questions to really dial in that that plan for wiring it all up and getting all those integration details right as they relate to your codebase and your tech stack. Now, in the case of taking the incremental approach, we will open up the prompts and I'm going to open up that section prompt right here. Now, before we actually drop that into Claude, I'm going to drop it into this text file uh just so that I can define these three variables at the top. Since this is a prompt that we're going to be using repeatedly for each section, we just need to tweak the values here uh for each of the different milestones that we're going to be running. So we're going to start by doing the foundation and that's foundation and I can see that if I open up the instructions under incremental we're starting with foundation and then the number is 01. So this is sort of like the name of the section and this is the exact name that we see in this file name and then this is the number of the milestone. So what this does is basically just instructs the agent that whenever you see section name in these instructions, we want that to be this. Whenever you see NN, we want that to be 01. And that will help it identify the specific files that we will be pointing the agent to go read and analyze and bring into its context. Defining these up here just makes it easy so that you don't have to like find all the little instances in this in this prompt to get those going. So each time we we run this, I'll update these three values. Okay. So that is all set. I mean one more thing, this is optional, but if you have any other additional technical notes or directions that you want to give to your agent up front, you can just, you know, add them into the prompt here. But of course, the the agent is going to ask you clarifying questions because we are in plan mode. All right, so let's go ahead and get that prompt into Claude. And I just pasted that in. I can see that here. And since I'm just demonstrating how to get started with this, I'm going to sort of leave it there. But I do want to point out a few more things that we will be giving to Claude. Again, if we look at the section prompt, you can see that for each section, we're providing a readme file. And let's look at one of these sections as an example. If I look at the client section, we've got this readme. And this gives Claude all the context about what's happening in the client section, what the user flows are, what our design decisions were um and a little bit of of instruction on how to wire it up. We're also giving it that sample data. This is more for like reference purposes. We're giving it those React components which are in the components folder. These are actual, you know, React components. And then this is interesting. We're giving it a test.md. And so if we look at that, these are instructions to the coding agent on how to write tests for this section of the application. Now, design OS doesn't necessarily know what your tech stack is, which framework you might be using for your test suite, but this gives the agent just general instructions on what the key user flows are, like what the success path is and what the what the failure path would be. You know, all of the critical flows that we should have test coverage for, especially since we want the agent to take a test driven development approach. So each section comes with this pre-written tests instructions file which will inform your agent on how to get started on writing the the critical tests and planning the implementation. So all of that stuff is getting referenced from the prompt that we're giving to the agent here. But to keep it absolutely simple, all you actually need to do is take the prompt, update those variables, and then drop the prompt right into cloud code in plan mode. Let it analyze everything. Let it ask you clarifying questions and then let it let it run and do the implementation. And then of course after that, you'll want to test its work, review it. You might need to add in additional specs and tasks for the agent to to wire up some backend business logic that might not have been covered in all of the specific designs that we've already created. That's totally normal, especially when you're taking this incremental approach. Um, but that's the process, right? So, so we would start by doing you know some of the foundation work and then as we move from the foundation we would take the the next step in our incremental process here which would be the shell. So in that case you would just you know rerun that whole process again you would you change this to shell shell and that's O2 and then you know copy and paste into plan mode have it analyze it ask your questions let it run build it test it review it and then you move on to the next one which in this case would be setting up the dashboard so for that we would just go dashboard dashboard and that is 03 then once again you just do it again so that's the incremental approach you know you you one through six. Now, let me show you the other approach, which is the oneshot approach. This is better for simpler applications. It's pretty similar except we'll just be doing it all in one shot. So, I'll just delete this for now and we'll go back to our prompts folder. And in this case, we are not going to be using the section prompt anymore. Instead, we're going to be using the oneshot prompt. And so, this is the one that we will want to give to Claude Code or whichever coding agent you're using. I'll copy that. Now, since this is just a one-time use prompt, we don't need to actually change any variables. Uh, since we're not, you know, using it repeatedly for different milestones. It's just one big one big build here. So, in this case, I would just, you know, copy and paste and I'll delete that from earlier. And then just paste that in. Now, this one is going to point Claude to your oneshot instructions, which are here. And, and this is sort of similar to the incremental instructions, except it covers everything. It covers all the sections from the shell to the clients to the dashboard to the sales pages uh in this case all of it. So once again, you know, start that in plan mode, have cloud code ask you questions, dial in the the details for especially for the backend business logic, let it run. And in one shot mode, it'll be running for longer since it'll be it'll have a lot more to build in one shot. Um but you know, go ahead and and let it run and test its work and and there you go. you can build an entire app in one shot. So, that's how I would get started with taking those finished front-end designs, bringing them into the codebase and and having Claude plan and then implement the the integration of the front end and wiring up the back end and your business logic. So, that's design OS, the missing step between your product idea and your codebase. Go to buildermethods.com/designos to download it, use it, and access all the docs for free. And if you want official support, training, and community as you use Design OS for yourself or with your team, that's available in my Builder Methods Pro membership. You'll get access to me for questions, a community of builders using these tools, plus all my workshops and training on AI first development. Thanks for watching. Now go build something",
+  "fetchedAt": "2026-01-18T18:31:53.247Z"
+}

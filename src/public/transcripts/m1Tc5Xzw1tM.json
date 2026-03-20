@@ -1,0 +1,2529 @@
+{
+  "videoId": "m1Tc5Xzw1tM",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.68,
+      "text": "agents can finally handle high"
+    },
+    {
+      "start": 1.92,
+      "duration": 4.24,
+      "text": "complexity work outside of software"
+    },
+    {
+      "start": 3.76,
+      "duration": 4.799,
+      "text": "engineering. Honestly, this feels like"
+    },
+    {
+      "start": 6.16,
+      "duration": 5.2,
+      "text": "the reasoning moment all over again, but"
+    },
+    {
+      "start": 8.559,
+      "duration": 5.761,
+      "text": "for AI agents. What's most surprising is"
+    },
+    {
+      "start": 11.36,
+      "duration": 5.36,
+      "text": "the fix is almost absurdly simple. Code"
+    },
+    {
+      "start": 14.32,
+      "duration": 4.16,
+      "text": "execution plus recursion. I've read"
+    },
+    {
+      "start": 16.72,
+      "duration": 3.68,
+      "text": "through the RLM's paper and distilled it"
+    },
+    {
+      "start": 18.48,
+      "duration": 3.84,
+      "text": "into the important mental models that"
+    },
+    {
+      "start": 20.4,
+      "duration": 3.68,
+      "text": "you're going to need to apply this. So"
+    },
+    {
+      "start": 22.32,
+      "duration": 4.16,
+      "text": "the first mental model that I kind of"
+    },
+    {
+      "start": 24.08,
+      "duration": 4.08,
+      "text": "want to communicate is why context"
+    },
+    {
+      "start": 26.48,
+      "duration": 3.199,
+      "text": "length is only half the size when we're"
+    },
+    {
+      "start": 28.16,
+      "duration": 4.239,
+      "text": "dealing with these high complexity"
+    },
+    {
+      "start": 29.679,
+      "duration": 5.601,
+      "text": "tasks. So one of the insights from the"
+    },
+    {
+      "start": 32.399,
+      "duration": 4.801,
+      "text": "RLM paper is that it's not just about"
+    },
+    {
+      "start": 35.28,
+      "duration": 4.24,
+      "text": "context length. It's not just about"
+    },
+    {
+      "start": 37.2,
+      "duration": 4,
+      "text": "having legal contracts that are like a"
+    },
+    {
+      "start": 39.52,
+      "duration": 3.52,
+      "text": "million tokens long, let's say, or"
+    },
+    {
+      "start": 41.2,
+      "duration": 4.16,
+      "text": "having data rooms that span across"
+    },
+    {
+      "start": 43.04,
+      "duration": 5.12,
+      "text": "millions of tokens or large code bases."
+    },
+    {
+      "start": 45.36,
+      "duration": 5.6,
+      "text": "It's also about the inherent complexity"
+    },
+    {
+      "start": 48.16,
+      "duration": 5.44,
+      "text": "of those documents of those types of"
+    },
+    {
+      "start": 50.96,
+      "duration": 4.56,
+      "text": "data assets. So if you look at legal"
+    },
+    {
+      "start": 53.6,
+      "duration": 4.799,
+      "text": "contracts, take a merger agreement for"
+    },
+    {
+      "start": 55.52,
+      "duration": 5.12,
+      "text": "example, there are a lot of internal"
+    },
+    {
+      "start": 58.399,
+      "duration": 4.241,
+      "text": "self- references that introduce a high"
+    },
+    {
+      "start": 60.64,
+      "duration": 3.919,
+      "text": "degree of complexity of that type of"
+    },
+    {
+      "start": 62.64,
+      "duration": 4.24,
+      "text": "asset. So it turns out you can't read"
+    },
+    {
+      "start": 64.559,
+      "duration": 4.801,
+      "text": "those things just like you read a book"
+    },
+    {
+      "start": 66.88,
+      "duration": 4.16,
+      "text": "end to end. There are clauses that"
+    },
+    {
+      "start": 69.36,
+      "duration": 4.32,
+      "text": "reference other clauses that might have"
+    },
+    {
+      "start": 71.04,
+      "duration": 5.52,
+      "text": "come earlier or might come later. There"
+    },
+    {
+      "start": 73.68,
+      "duration": 6.079,
+      "text": "are things in there that create that"
+    },
+    {
+      "start": 76.56,
+      "duration": 5.599,
+      "text": "complex structure. So context window is"
+    },
+    {
+      "start": 79.759,
+      "duration": 5.36,
+      "text": "basically only half the story. The other"
+    },
+    {
+      "start": 82.159,
+      "duration": 4.561,
+      "text": "half of the story is task complexity."
+    },
+    {
+      "start": 85.119,
+      "duration": 2.961,
+      "text": "And when we talk about task complexity,"
+    },
+    {
+      "start": 86.72,
+      "duration": 3.039,
+      "text": "we're talking specifically about the"
+    },
+    {
+      "start": 88.08,
+      "duration": 5.12,
+      "text": "complexity of the documents we're trying"
+    },
+    {
+      "start": 89.759,
+      "duration": 5.281,
+      "text": "to have the agent work with. So let's"
+    },
+    {
+      "start": 93.2,
+      "duration": 3.919,
+      "text": "talk a little bit about why LLMs have"
+    },
+    {
+      "start": 95.04,
+      "duration": 5.92,
+      "text": "struggled with this kind of task"
+    },
+    {
+      "start": 97.119,
+      "duration": 6.561,
+      "text": "complexity and high context workloads."
+    },
+    {
+      "start": 100.96,
+      "duration": 4.96,
+      "text": "It's called context rot. So context rot"
+    },
+    {
+      "start": 103.68,
+      "duration": 3.759,
+      "text": "is this phenomenon where the more"
+    },
+    {
+      "start": 105.92,
+      "duration": 3.04,
+      "text": "context you stuff into a large language"
+    },
+    {
+      "start": 107.439,
+      "duration": 3.521,
+      "text": "model the more the performance"
+    },
+    {
+      "start": 108.96,
+      "duration": 3.6,
+      "text": "deteriorates and before we were looking"
+    },
+    {
+      "start": 110.96,
+      "duration": 3.519,
+      "text": "at context rot kind of unid"
+    },
+    {
+      "start": 112.56,
+      "duration": 4.16,
+      "text": "dimensionally as just a function of"
+    },
+    {
+      "start": 114.479,
+      "duration": 6,
+      "text": "context but it's actually a function of"
+    },
+    {
+      "start": 116.72,
+      "duration": 6.399,
+      "text": "context and task complexity. So a model"
+    },
+    {
+      "start": 120.479,
+      "duration": 4.721,
+      "text": "that has a million token context will"
+    },
+    {
+      "start": 123.119,
+      "duration": 4.801,
+      "text": "deteriorate long before that million"
+    },
+    {
+      "start": 125.2,
+      "duration": 4.64,
+      "text": "tokens is hit if your task complexity is"
+    },
+    {
+      "start": 127.92,
+      "duration": 4.24,
+      "text": "also high. that leads to a lot of"
+    },
+    {
+      "start": 129.84,
+      "duration": 5.119,
+      "text": "instability in how effectively a model"
+    },
+    {
+      "start": 132.16,
+      "duration": 5.28,
+      "text": "can utilize its context. There's also"
+    },
+    {
+      "start": 134.959,
+      "duration": 4.721,
+      "text": "another misconception. So we've had this"
+    },
+    {
+      "start": 137.44,
+      "duration": 4.08,
+      "text": "kind of lost middle problem for a while"
+    },
+    {
+      "start": 139.68,
+      "duration": 3.68,
+      "text": "and a lost in the middle problem is"
+    },
+    {
+      "start": 141.52,
+      "duration": 4.24,
+      "text": "basically give a large language model a"
+    },
+    {
+      "start": 143.36,
+      "duration": 4.32,
+      "text": "huge amount of context, put some needles"
+    },
+    {
+      "start": 145.76,
+      "duration": 4.24,
+      "text": "in there. So to represent a needle in a"
+    },
+    {
+      "start": 147.68,
+      "duration": 3.84,
+      "text": "haystack which is basically small pieces"
+    },
+    {
+      "start": 150,
+      "duration": 3.28,
+      "text": "of information that the model has to"
+    },
+    {
+      "start": 151.52,
+      "duration": 3.12,
+      "text": "retrieve from that large context and"
+    },
+    {
+      "start": 153.28,
+      "duration": 4.08,
+      "text": "that could be distributed anywhere"
+    },
+    {
+      "start": 154.64,
+      "duration": 4.959,
+      "text": "across the context and assess how well"
+    },
+    {
+      "start": 157.36,
+      "duration": 4.239,
+      "text": "the model is able to pull that back. So"
+    },
+    {
+      "start": 159.599,
+      "duration": 3.681,
+      "text": "this has been a relatively solved"
+    },
+    {
+      "start": 161.599,
+      "duration": 3.841,
+      "text": "problem for a while now and the RLS"
+    },
+    {
+      "start": 163.28,
+      "duration": 3.52,
+      "text": "paper does reference that but what we're"
+    },
+    {
+      "start": 165.44,
+      "duration": 3.04,
+      "text": "talking about is different. We're not"
+    },
+    {
+      "start": 166.8,
+      "duration": 3.36,
+      "text": "talking about retrieving needles from"
+    },
+    {
+      "start": 168.48,
+      "duration": 4.72,
+      "text": "haystacks. We're talking about reasoning"
+    },
+    {
+      "start": 170.16,
+      "duration": 5.2,
+      "text": "over document complexity which is an"
+    },
+    {
+      "start": 173.2,
+      "duration": 3.52,
+      "text": "entirely different problem. So it's a"
+    },
+    {
+      "start": 175.36,
+      "duration": 2.959,
+      "text": "different class of problem because it"
+    },
+    {
+      "start": 176.72,
+      "duration": 3.92,
+      "text": "requires something called multihop"
+    },
+    {
+      "start": 178.319,
+      "duration": 4.401,
+      "text": "reasoning. And you know I experimented a"
+    },
+    {
+      "start": 180.64,
+      "duration": 4.319,
+      "text": "while back with a chatbot called Jared"
+    },
+    {
+      "start": 182.72,
+      "duration": 4.48,
+      "text": "to build multihop reasoning. And what I"
+    },
+    {
+      "start": 184.959,
+      "duration": 4,
+      "text": "found was that the scaffolds I used"
+    },
+    {
+      "start": 187.2,
+      "duration": 4.24,
+      "text": "whether I was using langraph or anything"
+    },
+    {
+      "start": 188.959,
+      "duration": 4.721,
+      "text": "else were really fragile. Once you got"
+    },
+    {
+      "start": 191.44,
+      "duration": 4.159,
+      "text": "to two or three hops the chatbot would"
+    },
+    {
+      "start": 193.68,
+      "duration": 3.44,
+      "text": "completely break down. That is what"
+    },
+    {
+      "start": 195.599,
+      "duration": 3.28,
+      "text": "you're doing when you're analyzing a lot"
+    },
+    {
+      "start": 197.12,
+      "duration": 3.759,
+      "text": "of these legal agreements or a lot of"
+    },
+    {
+      "start": 198.879,
+      "duration": 3.761,
+      "text": "these complex policy documents. You're"
+    },
+    {
+      "start": 200.879,
+      "duration": 3.921,
+      "text": "doing multihop reasoning. you're looking"
+    },
+    {
+      "start": 202.64,
+      "duration": 3.84,
+      "text": "at one part and then having to reason"
+    },
+    {
+      "start": 204.8,
+      "duration": 3.2,
+      "text": "about it and then go and find another"
+    },
+    {
+      "start": 206.48,
+      "duration": 3.119,
+      "text": "part that might be relevant and reason"
+    },
+    {
+      "start": 208,
+      "duration": 4.159,
+      "text": "about that and applying some conditions"
+    },
+    {
+      "start": 209.599,
+      "duration": 5.041,
+      "text": "to it to do your analysis. Raw language"
+    },
+    {
+      "start": 212.159,
+      "duration": 4.481,
+      "text": "models deteriorate when the task"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.92,
+      "text": "requires that type of complex multihop"
+    },
+    {
+      "start": 216.64,
+      "duration": 3.36,
+      "text": "reasoning. They can do it over a small"
+    },
+    {
+      "start": 218.56,
+      "duration": 2.8,
+      "text": "context, but as soon as you extend that"
+    },
+    {
+      "start": 220,
+      "duration": 3.36,
+      "text": "context, you see quickly that the"
+    },
+    {
+      "start": 221.36,
+      "duration": 4.159,
+      "text": "performance falls off a cliff. What this"
+    },
+    {
+      "start": 223.36,
+      "duration": 3.92,
+      "text": "leads to is models that are confidently"
+    },
+    {
+      "start": 225.519,
+      "duration": 3.681,
+      "text": "wrong. And that's the quickest way to"
+    },
+    {
+      "start": 227.28,
+      "duration": 3.519,
+      "text": "break down trust in any AI agent that"
+    },
+    {
+      "start": 229.2,
+      "duration": 2.959,
+      "text": "you produce. So, let's talk a bit about"
+    },
+    {
+      "start": 230.799,
+      "duration": 3.121,
+      "text": "the strategies that have been tried in"
+    },
+    {
+      "start": 232.159,
+      "duration": 3.681,
+      "text": "the past. The first one is the naive one"
+    },
+    {
+      "start": 233.92,
+      "duration": 3.92,
+      "text": "of just simply taking everything and"
+    },
+    {
+      "start": 235.84,
+      "duration": 3.759,
+      "text": "stuffing it into an LLM and hoping and"
+    },
+    {
+      "start": 237.84,
+      "duration": 3.679,
+      "text": "praying for the best. So, I've explained"
+    },
+    {
+      "start": 239.599,
+      "duration": 3.28,
+      "text": "before the context rock phenomenon, and"
+    },
+    {
+      "start": 241.519,
+      "duration": 3.36,
+      "text": "you should understand it's pretty"
+    },
+    {
+      "start": 242.879,
+      "duration": 5.041,
+      "text": "self-explanatory why this doesn't work."
+    },
+    {
+      "start": 244.879,
+      "duration": 5.841,
+      "text": "It is also incredibly expensive and slow"
+    },
+    {
+      "start": 247.92,
+      "duration": 5.2,
+      "text": "and have been shown to lead to subpar"
+    },
+    {
+      "start": 250.72,
+      "duration": 4.799,
+      "text": "results. Just stuffing more context in a"
+    },
+    {
+      "start": 253.12,
+      "duration": 4.56,
+      "text": "model can actually reduce reliability"
+    },
+    {
+      "start": 255.519,
+      "duration": 4.72,
+      "text": "rather than improve it because sometimes"
+    },
+    {
+      "start": 257.68,
+      "duration": 4.16,
+      "text": "that context is noise. So sometimes you"
+    },
+    {
+      "start": 260.239,
+      "duration": 3.041,
+      "text": "are actually burying the signal even"
+    },
+    {
+      "start": 261.84,
+      "duration": 3.44,
+      "text": "further. The next approach that we"
+    },
+    {
+      "start": 263.28,
+      "duration": 3.76,
+      "text": "explore is summarization. You would have"
+    },
+    {
+      "start": 265.28,
+      "duration": 3.04,
+      "text": "dealt with summarization if you've used"
+    },
+    {
+      "start": 267.04,
+      "duration": 3.68,
+      "text": "claude because they have this feature"
+    },
+    {
+      "start": 268.32,
+      "duration": 5.2,
+      "text": "called the autocompat feature. What that"
+    },
+    {
+      "start": 270.72,
+      "duration": 4.479,
+      "text": "autocompat feature will do is once you"
+    },
+    {
+      "start": 273.52,
+      "duration": 3.92,
+      "text": "reach a certain saturation of the"
+    },
+    {
+      "start": 275.199,
+      "duration": 4.801,
+      "text": "context window, the large language model"
+    },
+    {
+      "start": 277.44,
+      "duration": 4.64,
+      "text": "itself will hand off that context to"
+    },
+    {
+      "start": 280,
+      "duration": 4.24,
+      "text": "another model which will compact and"
+    },
+    {
+      "start": 282.08,
+      "duration": 4.32,
+      "text": "summarize it freeing up the context of"
+    },
+    {
+      "start": 284.24,
+      "duration": 4.32,
+      "text": "the main model to continue work based on"
+    },
+    {
+      "start": 286.4,
+      "duration": 4.72,
+      "text": "that summary. Now the problem with this"
+    },
+    {
+      "start": 288.56,
+      "duration": 5.199,
+      "text": "is that summarization is lossy. So"
+    },
+    {
+      "start": 291.12,
+      "duration": 4.48,
+      "text": "information is lost about the task and"
+    },
+    {
+      "start": 293.759,
+      "duration": 3.761,
+      "text": "deciding which information to keep and"
+    },
+    {
+      "start": 295.6,
+      "duration": 4.319,
+      "text": "which to get rid of to get an effective"
+    },
+    {
+      "start": 297.52,
+      "duration": 5.52,
+      "text": "summary is a difficult task in and of"
+    },
+    {
+      "start": 299.919,
+      "duration": 4.961,
+      "text": "itself. And this has been shown by the"
+    },
+    {
+      "start": 303.04,
+      "duration": 3.76,
+      "text": "R&M's paper to actually be an expensive"
+    },
+    {
+      "start": 304.88,
+      "duration": 4.319,
+      "text": "approach because that resummarization"
+    },
+    {
+      "start": 306.8,
+      "duration": 4.959,
+      "text": "requires the entire context of the"
+    },
+    {
+      "start": 309.199,
+      "duration": 4,
+      "text": "previous task to do. So what ends up"
+    },
+    {
+      "start": 311.759,
+      "duration": 3.521,
+      "text": "happening with summarization is you"
+    },
+    {
+      "start": 313.199,
+      "duration": 3.521,
+      "text": "often lose important context in the"
+    },
+    {
+      "start": 315.28,
+      "duration": 3.44,
+      "text": "summary and then the agent will"
+    },
+    {
+      "start": 316.72,
+      "duration": 3.44,
+      "text": "gradually drift off task until it's way"
+    },
+    {
+      "start": 318.72,
+      "duration": 2.96,
+      "text": "off from where it initially started"
+    },
+    {
+      "start": 320.16,
+      "duration": 3.2,
+      "text": "with. And some of you might have already"
+    },
+    {
+      "start": 321.68,
+      "duration": 3.6,
+      "text": "experienced this with C code. People"
+    },
+    {
+      "start": 323.36,
+      "duration": 3.76,
+      "text": "have come up with scaffolds to present"
+    },
+    {
+      "start": 325.28,
+      "duration": 3.52,
+      "text": "this but a lot of the time what people"
+    },
+    {
+      "start": 327.12,
+      "duration": 3.359,
+      "text": "are trying to do is they're trying to"
+    },
+    {
+      "start": 328.8,
+      "duration": 4.239,
+      "text": "create some kind of elaborate"
+    },
+    {
+      "start": 330.479,
+      "duration": 4.481,
+      "text": "summarization which is brittle in the"
+    },
+    {
+      "start": 333.039,
+      "duration": 4.561,
+      "text": "end. Another approach that was used is"
+    },
+    {
+      "start": 334.96,
+      "duration": 5.36,
+      "text": "rag retrieval augmented generation. So"
+    },
+    {
+      "start": 337.6,
+      "duration": 5.12,
+      "text": "this came in really I would say 2022"
+    },
+    {
+      "start": 340.32,
+      "duration": 5.12,
+      "text": "2023 when people started to really see"
+    },
+    {
+      "start": 342.72,
+      "duration": 4.56,
+      "text": "the power of large language models and"
+    },
+    {
+      "start": 345.44,
+      "duration": 3.68,
+      "text": "what rag was trying to solve was"
+    },
+    {
+      "start": 347.28,
+      "duration": 4.16,
+      "text": "extremely small context windows of"
+    },
+    {
+      "start": 349.12,
+      "duration": 3.919,
+      "text": "around 8K. Rag turned out to be quite"
+    },
+    {
+      "start": 351.44,
+      "duration": 3.599,
+      "text": "powerful for things like question and"
+    },
+    {
+      "start": 353.039,
+      "duration": 3.681,
+      "text": "answer because what you're doing with"
+    },
+    {
+      "start": 355.039,
+      "duration": 4.641,
+      "text": "rag is you're doing the retrieval which"
+    },
+    {
+      "start": 356.72,
+      "duration": 5.44,
+      "text": "is usually just a similarity search. So"
+    },
+    {
+      "start": 359.68,
+      "duration": 4.799,
+      "text": "it's looking for semantic similarity or"
+    },
+    {
+      "start": 362.16,
+      "duration": 3.84,
+      "text": "keyword matching. So if you imagine with"
+    },
+    {
+      "start": 364.479,
+      "duration": 3.28,
+      "text": "question and answer pairs, you can"
+    },
+    {
+      "start": 366,
+      "duration": 3.199,
+      "text": "easily do semantic matching on the"
+    },
+    {
+      "start": 367.759,
+      "duration": 3.44,
+      "text": "questions themselves and retrieve"
+    },
+    {
+      "start": 369.199,
+      "duration": 3.601,
+      "text": "answers. But rag turned out to be quite"
+    },
+    {
+      "start": 371.199,
+      "duration": 4.161,
+      "text": "a brittle approach when the task"
+    },
+    {
+      "start": 372.8,
+      "duration": 4.56,
+      "text": "complexity grows because you're only"
+    },
+    {
+      "start": 375.36,
+      "duration": 3.52,
+      "text": "doing semantic similarity for retrieval."
+    },
+    {
+      "start": 377.36,
+      "duration": 2.559,
+      "text": "There isn't much flexibility and the"
+    },
+    {
+      "start": 378.88,
+      "duration": 3.439,
+      "text": "types of things that you can pull back"
+    },
+    {
+      "start": 379.919,
+      "duration": 4.481,
+      "text": "from the context are rudimentary. So for"
+    },
+    {
+      "start": 382.319,
+      "duration": 3.121,
+      "text": "example, you're only being able to pull"
+    },
+    {
+      "start": 384.4,
+      "duration": 2.56,
+      "text": "similar documents. should not"
+    },
+    {
+      "start": 385.44,
+      "duration": 4,
+      "text": "necessarily be able to pull logical"
+    },
+    {
+      "start": 386.96,
+      "duration": 4.16,
+      "text": "relationships that you might need to do"
+    },
+    {
+      "start": 389.44,
+      "duration": 3.44,
+      "text": "that multihob reasoning that you need to"
+    },
+    {
+      "start": 391.12,
+      "duration": 4.72,
+      "text": "do over a legal contract or over a"
+    },
+    {
+      "start": 392.88,
+      "duration": 4.72,
+      "text": "codebase. So if any programmers you"
+    },
+    {
+      "start": 395.84,
+      "duration": 4.479,
+      "text": "should think does rag actually ever make"
+    },
+    {
+      "start": 397.6,
+      "duration": 4.08,
+      "text": "sense on a codebase. I wouldn't say it"
+    },
+    {
+      "start": 400.319,
+      "duration": 3.121,
+      "text": "does. The other thing that makes rag"
+    },
+    {
+      "start": 401.68,
+      "duration": 3.6,
+      "text": "brittle is that you have to actually"
+    },
+    {
+      "start": 403.44,
+      "duration": 3.92,
+      "text": "decide the chunking strategy. So the"
+    },
+    {
+      "start": 405.28,
+      "duration": 4.16,
+      "text": "chunking strategy is how you break up"
+    },
+    {
+      "start": 407.36,
+      "duration": 3.76,
+      "text": "and atomize that context so that it can"
+    },
+    {
+      "start": 409.44,
+      "duration": 3.039,
+      "text": "be retrieved. You don't retrieve the"
+    },
+    {
+      "start": 411.12,
+      "duration": 3.359,
+      "text": "whole context. You only retrieve what"
+    },
+    {
+      "start": 412.479,
+      "duration": 3.761,
+      "text": "you need. The type of trunking strategy"
+    },
+    {
+      "start": 414.479,
+      "duration": 3.681,
+      "text": "you use can change depending on the type"
+    },
+    {
+      "start": 416.24,
+      "duration": 4.16,
+      "text": "of document that you have. A legal"
+    },
+    {
+      "start": 418.16,
+      "duration": 4,
+      "text": "contract for a merger for a particular"
+    },
+    {
+      "start": 420.4,
+      "duration": 4.639,
+      "text": "type of entity might be completely"
+    },
+    {
+      "start": 422.16,
+      "duration": 5.039,
+      "text": "different trunking strategy to a"
+    },
+    {
+      "start": 425.039,
+      "duration": 4.081,
+      "text": "research document for a pharmaceutical"
+    },
+    {
+      "start": 427.199,
+      "duration": 3.361,
+      "text": "company for example. And then how do you"
+    },
+    {
+      "start": 429.12,
+      "duration": 3.76,
+      "text": "expand that? How do you scale that"
+    },
+    {
+      "start": 430.56,
+      "duration": 3.6,
+      "text": "strategy to thousands of documents that"
+    },
+    {
+      "start": 432.88,
+      "duration": 2.56,
+      "text": "you might want to work with or to"
+    },
+    {
+      "start": 434.16,
+      "duration": 3.039,
+      "text": "hundreds of documents that you might"
+    },
+    {
+      "start": 435.44,
+      "duration": 3.44,
+      "text": "want to work with. This is what makes"
+    },
+    {
+      "start": 437.199,
+      "duration": 3.84,
+      "text": "rag brittle when you want to scale it to"
+    },
+    {
+      "start": 438.88,
+      "duration": 3.759,
+      "text": "real production use cases. Now I want to"
+    },
+    {
+      "start": 441.039,
+      "duration": 3.28,
+      "text": "give you some mental models about"
+    },
+    {
+      "start": 442.639,
+      "duration": 4.4,
+      "text": "understanding the type of complexity"
+    },
+    {
+      "start": 444.319,
+      "duration": 4.72,
+      "text": "we're dealing with. Right? So when we're"
+    },
+    {
+      "start": 447.039,
+      "duration": 4.16,
+      "text": "talking about a legal contract or code"
+    },
+    {
+      "start": 449.039,
+      "duration": 3.921,
+      "text": "base, we're not really talking about"
+    },
+    {
+      "start": 451.199,
+      "duration": 3.601,
+      "text": "something that necessarily is going to"
+    },
+    {
+      "start": 452.96,
+      "duration": 3.519,
+      "text": "be read end to end. We're talking about"
+    },
+    {
+      "start": 454.8,
+      "duration": 3.6,
+      "text": "something that has a high degree of"
+    },
+    {
+      "start": 456.479,
+      "duration": 3.601,
+      "text": "internal self- refferencing. So in a"
+    },
+    {
+      "start": 458.4,
+      "duration": 3.68,
+      "text": "legal contract, one clause might"
+    },
+    {
+      "start": 460.08,
+      "duration": 3.679,
+      "text": "reference another clause. In a codebase,"
+    },
+    {
+      "start": 462.08,
+      "duration": 3.519,
+      "text": "one function might call another function"
+    },
+    {
+      "start": 463.759,
+      "duration": 4.081,
+      "text": "or you might have a class abstraction"
+    },
+    {
+      "start": 465.599,
+      "duration": 4.641,
+      "text": "that is used in multiple places in the"
+    },
+    {
+      "start": 467.84,
+      "duration": 4.079,
+      "text": "codebase. that class can be called by"
+    },
+    {
+      "start": 470.24,
+      "duration": 3.92,
+      "text": "another function. So there's a high"
+    },
+    {
+      "start": 471.919,
+      "duration": 5.761,
+      "text": "degree of self-referencing and that is"
+    },
+    {
+      "start": 474.16,
+      "duration": 5.68,
+      "text": "what makes these types of data assets"
+    },
+    {
+      "start": 477.68,
+      "duration": 4.079,
+      "text": "complex to reason over. Just think about"
+    },
+    {
+      "start": 479.84,
+      "duration": 4.16,
+      "text": "it yourself. Think about following all"
+    },
+    {
+      "start": 481.759,
+      "duration": 4.081,
+      "text": "of the different links in a legal"
+    },
+    {
+      "start": 484,
+      "duration": 3.759,
+      "text": "contract or following and finding out"
+    },
+    {
+      "start": 485.84,
+      "duration": 4.96,
+      "text": "all of the different places a function"
+    },
+    {
+      "start": 487.759,
+      "duration": 5.041,
+      "text": "is used in a massive codebase. That is"
+    },
+    {
+      "start": 490.8,
+      "duration": 4.32,
+      "text": "what makes it cognitively demanding and"
+    },
+    {
+      "start": 492.8,
+      "duration": 4,
+      "text": "that is actually what makes it complex."
+    },
+    {
+      "start": 495.12,
+      "duration": 3.759,
+      "text": "So rather than trying to model these"
+    },
+    {
+      "start": 496.8,
+      "duration": 4.48,
+      "text": "things as like a story book that you"
+    },
+    {
+      "start": 498.879,
+      "duration": 4.401,
+      "text": "read end to end, I think it helps much"
+    },
+    {
+      "start": 501.28,
+      "duration": 4.319,
+      "text": "more to model these things as dependency"
+    },
+    {
+      "start": 503.28,
+      "duration": 4.16,
+      "text": "graphs on the nodes. For a legal"
+    },
+    {
+      "start": 505.599,
+      "duration": 3.681,
+      "text": "contract, you might have certain clauses"
+    },
+    {
+      "start": 507.44,
+      "duration": 4.64,
+      "text": "and then how they relate to other"
+    },
+    {
+      "start": 509.28,
+      "duration": 5.679,
+      "text": "clauses on the edges. On a codebase,"
+    },
+    {
+      "start": 512.08,
+      "duration": 4.72,
+      "text": "you'll have certain functions and APIs"
+    },
+    {
+      "start": 514.959,
+      "duration": 4.801,
+      "text": "and how they call or how they interact"
+    },
+    {
+      "start": 516.8,
+      "duration": 5.76,
+      "text": "with other functions and APIs as notes."
+    },
+    {
+      "start": 519.76,
+      "duration": 4.88,
+      "text": "that is a much better mental model of"
+    },
+    {
+      "start": 522.56,
+      "duration": 3.76,
+      "text": "mapping the complexity of the type of"
+    },
+    {
+      "start": 524.64,
+      "duration": 3.28,
+      "text": "data assets we're dealing with here when"
+    },
+    {
+      "start": 526.32,
+      "duration": 3.76,
+      "text": "we're talking about these real"
+    },
+    {
+      "start": 527.92,
+      "duration": 4.16,
+      "text": "workflows. So in short, when we're"
+    },
+    {
+      "start": 530.08,
+      "duration": 3.759,
+      "text": "modeling these types of complex long"
+    },
+    {
+      "start": 532.08,
+      "duration": 4.4,
+      "text": "documents, we really want to be modeling"
+    },
+    {
+      "start": 533.839,
+      "duration": 6.161,
+      "text": "them as dependency graphs rather than"
+    },
+    {
+      "start": 536.48,
+      "duration": 6.16,
+      "text": "just long pieces of text. So hopefully"
+    },
+    {
+      "start": 540,
+      "duration": 4.64,
+      "text": "by now I'm building this picture of why"
+    },
+    {
+      "start": 542.64,
+      "duration": 3.28,
+      "text": "the previous approaches didn't work."
+    },
+    {
+      "start": 544.64,
+      "duration": 2.96,
+      "text": "Once you understand that these things"
+    },
+    {
+      "start": 545.92,
+      "duration": 3.68,
+      "text": "are dependency graphs and once you"
+    },
+    {
+      "start": 547.6,
+      "duration": 4.799,
+      "text": "understand context rot, you understand"
+    },
+    {
+      "start": 549.6,
+      "duration": 4.799,
+      "text": "why stuffing everything into an LLM even"
+    },
+    {
+      "start": 552.399,
+      "duration": 4.081,
+      "text": "though the reasoning power is quite high"
+    },
+    {
+      "start": 554.399,
+      "duration": 4.801,
+      "text": "nowadays won't work. And you understand"
+    },
+    {
+      "start": 556.48,
+      "duration": 5.2,
+      "text": "why rag by semantic retrieval doesn't"
+    },
+    {
+      "start": 559.2,
+      "duration": 4.56,
+      "text": "work. And you also understand why the"
+    },
+    {
+      "start": 561.68,
+      "duration": 5.279,
+      "text": "summarization and compaction method that"
+    },
+    {
+      "start": 563.76,
+      "duration": 6.72,
+      "text": "we see so commonly nowadays also is"
+    },
+    {
+      "start": 566.959,
+      "duration": 5.521,
+      "text": "brittle. So let's explain how the RLM"
+    },
+    {
+      "start": 570.48,
+      "duration": 4.96,
+      "text": "actually changes that. So the RLM is the"
+    },
+    {
+      "start": 572.48,
+      "duration": 5.359,
+      "text": "recursive language models. RLM is"
+    },
+    {
+      "start": 575.44,
+      "duration": 5.28,
+      "text": "incredibly simple. You have what you"
+    },
+    {
+      "start": 577.839,
+      "duration": 5.041,
+      "text": "call a ripple. Ripple is simply a read"
+    },
+    {
+      "start": 580.72,
+      "duration": 4.16,
+      "text": "evaluate print loop. That's all it is,"
+    },
+    {
+      "start": 582.88,
+      "duration": 4.079,
+      "text": "right? So what you do is instead of"
+    },
+    {
+      "start": 584.88,
+      "duration": 4.32,
+      "text": "stuffing the entire context into the"
+    },
+    {
+      "start": 586.959,
+      "duration": 4.961,
+      "text": "language model, you provide the model"
+    },
+    {
+      "start": 589.2,
+      "duration": 6.319,
+      "text": "with a data asset and that data asset is"
+    },
+    {
+      "start": 591.92,
+      "duration": 6.24,
+      "text": "a variable in a Python script. So a"
+    },
+    {
+      "start": 595.519,
+      "duration": 4.481,
+      "text": "legal contract can be assigned to a"
+    },
+    {
+      "start": 598.16,
+      "duration": 4.16,
+      "text": "variable in a Python script and instead"
+    },
+    {
+      "start": 600,
+      "duration": 4.16,
+      "text": "of having that inside the context of the"
+    },
+    {
+      "start": 602.32,
+      "duration": 4.56,
+      "text": "language model, the language model"
+    },
+    {
+      "start": 604.16,
+      "duration": 6.16,
+      "text": "programmatically operates on that using"
+    },
+    {
+      "start": 606.88,
+      "duration": 5.76,
+      "text": "the functions read, evaluate, print and"
+    },
+    {
+      "start": 610.32,
+      "duration": 4.56,
+      "text": "loop. And there's an additional point"
+    },
+    {
+      "start": 612.64,
+      "duration": 4.639,
+      "text": "here. There is a recursive factor. So"
+    },
+    {
+      "start": 614.88,
+      "duration": 4.24,
+      "text": "that language model can call a smaller"
+    },
+    {
+      "start": 617.279,
+      "duration": 4.481,
+      "text": "language model or a language model of"
+    },
+    {
+      "start": 619.12,
+      "duration": 4.24,
+      "text": "the same type and recursively operate"
+    },
+    {
+      "start": 621.76,
+      "duration": 4.4,
+      "text": "over that. So the way to think about"
+    },
+    {
+      "start": 623.36,
+      "duration": 4.719,
+      "text": "recursion here is like a handoff. You"
+    },
+    {
+      "start": 626.16,
+      "duration": 4.88,
+      "text": "have one model operating over that data"
+    },
+    {
+      "start": 628.079,
+      "duration": 4.801,
+      "text": "object and then handing that off to a"
+    },
+    {
+      "start": 631.04,
+      "duration": 3.76,
+      "text": "smaller model to focus on different"
+    },
+    {
+      "start": 632.88,
+      "duration": 3.76,
+      "text": "parts of that data object. So what you"
+    },
+    {
+      "start": 634.8,
+      "duration": 4.32,
+      "text": "get there is effectively a much more"
+    },
+    {
+      "start": 636.64,
+      "duration": 5.04,
+      "text": "sophisticated way to do multihop"
+    },
+    {
+      "start": 639.12,
+      "duration": 5.279,
+      "text": "reasoning because that setup gives the"
+    },
+    {
+      "start": 641.68,
+      "duration": 5.76,
+      "text": "agent the ability to search over the"
+    },
+    {
+      "start": 644.399,
+      "duration": 6.401,
+      "text": "context flexibly depending on the task"
+    },
+    {
+      "start": 647.44,
+      "duration": 5.76,
+      "text": "and find out exactly where the relevant"
+    },
+    {
+      "start": 650.8,
+      "duration": 5.44,
+      "text": "information is to answer your query or"
+    },
+    {
+      "start": 653.2,
+      "duration": 5.6,
+      "text": "to deliver a task. And that turns out to"
+    },
+    {
+      "start": 656.24,
+      "duration": 4.64,
+      "text": "use a lot less context than stuffing the"
+    },
+    {
+      "start": 658.8,
+      "duration": 4.56,
+      "text": "model with context. What we built there"
+    },
+    {
+      "start": 660.88,
+      "duration": 5.36,
+      "text": "with Ripple is the ability to"
+    },
+    {
+      "start": 663.36,
+      "duration": 4.159,
+      "text": "intelligently search and synthesize. So"
+    },
+    {
+      "start": 666.24,
+      "duration": 5.76,
+      "text": "we're talking about intelligent"
+    },
+    {
+      "start": 667.519,
+      "duration": 7.121,
+      "text": "decomposition of long legal contracts of"
+    },
+    {
+      "start": 672,
+      "duration": 4.72,
+      "text": "code bases and intelligent symphysis of"
+    },
+    {
+      "start": 674.64,
+      "duration": 4.24,
+      "text": "those code bases all with very simple"
+    },
+    {
+      "start": 676.72,
+      "duration": 4.32,
+      "text": "primitives of a code interpreter and"
+    },
+    {
+      "start": 678.88,
+      "duration": 4.32,
+      "text": "recursion. So let's look at the"
+    },
+    {
+      "start": 681.04,
+      "duration": 4.72,
+      "text": "individual components. Read is obvious."
+    },
+    {
+      "start": 683.2,
+      "duration": 4.72,
+      "text": "Read is just reading the data object at"
+    },
+    {
+      "start": 685.76,
+      "duration": 3.84,
+      "text": "the point in time of what it is."
+    },
+    {
+      "start": 687.92,
+      "duration": 3.52,
+      "text": "Evaluate is where a lot of the magic"
+    },
+    {
+      "start": 689.6,
+      "duration": 4,
+      "text": "happens. So evaluate can be any"
+    },
+    {
+      "start": 691.44,
+      "duration": 4.32,
+      "text": "programmatic function over that data"
+    },
+    {
+      "start": 693.6,
+      "duration": 4.4,
+      "text": "object. So it could be a slice. It could"
+    },
+    {
+      "start": 695.76,
+      "duration": 4.72,
+      "text": "even be a keyword match on that data"
+    },
+    {
+      "start": 698,
+      "duration": 5.44,
+      "text": "object. It could be any programmatic"
+    },
+    {
+      "start": 700.48,
+      "duration": 5.599,
+      "text": "function on that data object. And then"
+    },
+    {
+      "start": 703.44,
+      "duration": 4.88,
+      "text": "print is how we return the result back"
+    },
+    {
+      "start": 706.079,
+      "duration": 4.481,
+      "text": "to the interpreter. So that is how the"
+    },
+    {
+      "start": 708.32,
+      "duration": 4.56,
+      "text": "overall system keeps track of where"
+    },
+    {
+      "start": 710.56,
+      "duration": 4.959,
+      "text": "things are. And then loop is continuing"
+    },
+    {
+      "start": 712.88,
+      "duration": 4.56,
+      "text": "to do that until the task is solved. And"
+    },
+    {
+      "start": 715.519,
+      "duration": 4,
+      "text": "it's this it's with this approach that"
+    },
+    {
+      "start": 717.44,
+      "duration": 4.8,
+      "text": "we're able to build that dependency"
+    },
+    {
+      "start": 719.519,
+      "duration": 5.201,
+      "text": "graph. And that is how we actually are"
+    },
+    {
+      "start": 722.24,
+      "duration": 4.399,
+      "text": "able to model the complexity and reason"
+    },
+    {
+      "start": 724.72,
+      "duration": 4.08,
+      "text": "over those complex documents. Not by"
+    },
+    {
+      "start": 726.639,
+      "duration": 4,
+      "text": "treating them as a story book and trying"
+    },
+    {
+      "start": 728.8,
+      "duration": 3.839,
+      "text": "to stuff the model in and read them auto"
+    },
+    {
+      "start": 730.639,
+      "duration": 4.561,
+      "text": "reggressively end to end, but by"
+    },
+    {
+      "start": 732.639,
+      "duration": 4.64,
+      "text": "actually giving the model the ability to"
+    },
+    {
+      "start": 735.2,
+      "duration": 4.16,
+      "text": "search over that codebase intelligently"
+    },
+    {
+      "start": 737.279,
+      "duration": 3.601,
+      "text": "and build that dependency graph or"
+    },
+    {
+      "start": 739.36,
+      "duration": 3.36,
+      "text": "search over that legal contract"
+    },
+    {
+      "start": 740.88,
+      "duration": 3.759,
+      "text": "intelligently and build that dependency"
+    },
+    {
+      "start": 742.72,
+      "duration": 3.52,
+      "text": "graph. And that dependency graph is what"
+    },
+    {
+      "start": 744.639,
+      "duration": 3.76,
+      "text": "is needed to actually answer those"
+    },
+    {
+      "start": 746.24,
+      "duration": 4.48,
+      "text": "complex legal queries or those complex"
+    },
+    {
+      "start": 748.399,
+      "duration": 4,
+      "text": "code queries in your codebase. So what"
+    },
+    {
+      "start": 750.72,
+      "duration": 2.88,
+      "text": "are some of the implications of this?"
+    },
+    {
+      "start": 752.399,
+      "duration": 2.481,
+      "text": "Well, they ran this over a few"
+    },
+    {
+      "start": 753.6,
+      "duration": 3.6,
+      "text": "experiments and they found that for most"
+    },
+    {
+      "start": 754.88,
+      "duration": 3.6,
+      "text": "of the runs the RLMs for the most part"
+    },
+    {
+      "start": 757.2,
+      "duration": 3.759,
+      "text": "they were cheaper and higher"
+    },
+    {
+      "start": 758.48,
+      "duration": 5.919,
+      "text": "performance. And they did this on GBT5"
+    },
+    {
+      "start": 760.959,
+      "duration": 6.081,
+      "text": "and also on Quen 340 billion parameter"
+    },
+    {
+      "start": 764.399,
+      "duration": 5.12,
+      "text": "coding model. The model did perform"
+    },
+    {
+      "start": 767.04,
+      "duration": 4.479,
+      "text": "slightly worse than the GPT5 model,"
+    },
+    {
+      "start": 769.519,
+      "duration": 4,
+      "text": "which tells us that to use this scaffold"
+    },
+    {
+      "start": 771.519,
+      "duration": 4,
+      "text": "appropriately, you still probably need"
+    },
+    {
+      "start": 773.519,
+      "duration": 4.401,
+      "text": "high performance models. But the"
+    },
+    {
+      "start": 775.519,
+      "duration": 4,
+      "text": "implications downstream are huge because"
+    },
+    {
+      "start": 777.92,
+      "duration": 3.599,
+      "text": "what they were able to do was reason"
+    },
+    {
+      "start": 779.519,
+      "duration": 4.081,
+      "text": "about context that were orders of"
+    },
+    {
+      "start": 781.519,
+      "duration": 4.88,
+      "text": "magnitude larger than the advertised"
+    },
+    {
+      "start": 783.6,
+      "duration": 5.679,
+      "text": "context windows of the models without"
+    },
+    {
+      "start": 786.399,
+      "duration": 5.44,
+      "text": "the same level of deterioration and for"
+    },
+    {
+      "start": 789.279,
+      "duration": 4,
+      "text": "a cost that was in the neighborhood of"
+    },
+    {
+      "start": 791.839,
+      "duration": 3.761,
+      "text": "the other approaches that we talked"
+    },
+    {
+      "start": 793.279,
+      "duration": 4.481,
+      "text": "about. So the rag type of approaches,"
+    },
+    {
+      "start": 795.6,
+      "duration": 3.76,
+      "text": "stuff in the context window approaches."
+    },
+    {
+      "start": 797.76,
+      "duration": 3.12,
+      "text": "So what are the limitations? Because"
+    },
+    {
+      "start": 799.36,
+      "duration": 3.84,
+      "text": "there are limitations with this"
+    },
+    {
+      "start": 800.88,
+      "duration": 4.48,
+      "text": "approach. So the paper I thought was"
+    },
+    {
+      "start": 803.2,
+      "duration": 4,
+      "text": "brilliant. But with all papers you want"
+    },
+    {
+      "start": 805.36,
+      "duration": 3.84,
+      "text": "to apply to your own situation in"
+    },
+    {
+      "start": 807.2,
+      "duration": 4,
+      "text": "production and depending on what you"
+    },
+    {
+      "start": 809.2,
+      "duration": 3.68,
+      "text": "have available to you in production and"
+    },
+    {
+      "start": 811.2,
+      "duration": 3.439,
+      "text": "depending on the sensitivity of the"
+    },
+    {
+      "start": 812.88,
+      "duration": 3.44,
+      "text": "data, this might not be unlocked for you"
+    },
+    {
+      "start": 814.639,
+      "duration": 3.76,
+      "text": "yet. If you can only use very small"
+    },
+    {
+      "start": 816.32,
+      "duration": 4.079,
+      "text": "models, there is nothing in this paper"
+    },
+    {
+      "start": 818.399,
+      "duration": 4,
+      "text": "that shows that it works with very small"
+    },
+    {
+      "start": 820.399,
+      "duration": 5.601,
+      "text": "models. In fact, we see a deterioration"
+    },
+    {
+      "start": 822.399,
+      "duration": 6.321,
+      "text": "in capability even between GBT5 and the"
+    },
+    {
+      "start": 826,
+      "duration": 5.2,
+      "text": "340 billion parameter model, the Quen"
+    },
+    {
+      "start": 828.72,
+      "duration": 4.08,
+      "text": "coding model. There is also this fear of"
+    },
+    {
+      "start": 831.2,
+      "duration": 2.96,
+      "text": "infinite recursion. So, it's not"
+    },
+    {
+      "start": 832.8,
+      "duration": 3.599,
+      "text": "necessarily infinite recursion, but"
+    },
+    {
+      "start": 834.16,
+      "duration": 3.919,
+      "text": "there's a fear that sometimes because"
+    },
+    {
+      "start": 836.399,
+      "duration": 3.761,
+      "text": "you're letting the agentic system run"
+    },
+    {
+      "start": 838.079,
+      "duration": 3.841,
+      "text": "itself that it can get into these"
+    },
+    {
+      "start": 840.16,
+      "duration": 3.359,
+      "text": "recursion loops if it goes off on the"
+    },
+    {
+      "start": 841.92,
+      "duration": 3.68,
+      "text": "wrong tangent and that can become very"
+    },
+    {
+      "start": 843.519,
+      "duration": 4.88,
+      "text": "expensive. So there was a distribution"
+    },
+    {
+      "start": 845.6,
+      "duration": 5.52,
+      "text": "of the cost of running these tasks and"
+    },
+    {
+      "start": 848.399,
+      "duration": 5.201,
+      "text": "for the 95th percentile of tasks, it"
+    },
+    {
+      "start": 851.12,
+      "duration": 5.36,
+      "text": "became very expensive relative to the"
+    },
+    {
+      "start": 853.6,
+      "duration": 5.359,
+      "text": "other approaches when it hit those"
+    },
+    {
+      "start": 856.48,
+      "duration": 4.64,
+      "text": "recursion loops that would actually go"
+    },
+    {
+      "start": 858.959,
+      "duration": 4.56,
+      "text": "off in directions that you don't want it"
+    },
+    {
+      "start": 861.12,
+      "duration": 3.92,
+      "text": "to go off in. But the paper specified"
+    },
+    {
+      "start": 863.519,
+      "duration": 2.88,
+      "text": "how they put guard rails in place. And"
+    },
+    {
+      "start": 865.04,
+      "duration": 2.96,
+      "text": "this is one of the most important things"
+    },
+    {
+      "start": 866.399,
+      "duration": 3.44,
+      "text": "if you're going to use this approach."
+    },
+    {
+      "start": 868,
+      "duration": 3.6,
+      "text": "You need the guardrails in place. So"
+    },
+    {
+      "start": 869.839,
+      "duration": 4,
+      "text": "first of all, they specified that it's"
+    },
+    {
+      "start": 871.6,
+      "duration": 4.64,
+      "text": "only one layer deep of recursion. And"
+    },
+    {
+      "start": 873.839,
+      "duration": 4.24,
+      "text": "then they made the workflow synchronous."
+    },
+    {
+      "start": 876.24,
+      "duration": 3.76,
+      "text": "But I see that as an opportunity to"
+    },
+    {
+      "start": 878.079,
+      "duration": 3.681,
+      "text": "actually expand this because imagine if"
+    },
+    {
+      "start": 880,
+      "duration": 4.56,
+      "text": "it was asynchronous. So that would mean"
+    },
+    {
+      "start": 881.76,
+      "duration": 4.56,
+      "text": "being able to call multiple sub LLM at"
+    },
+    {
+      "start": 884.56,
+      "duration": 3.12,
+      "text": "the same time to do different parts of"
+    },
+    {
+      "start": 886.32,
+      "duration": 3.28,
+      "text": "the work. And you know, you can imagine"
+    },
+    {
+      "start": 887.68,
+      "duration": 3.76,
+      "text": "that would be extremely useful if you're"
+    },
+    {
+      "start": 889.6,
+      "duration": 5.039,
+      "text": "reasoning over a data room for example"
+    },
+    {
+      "start": 891.44,
+      "duration": 6.16,
+      "text": "with 100 legal type documents in there"
+    },
+    {
+      "start": 894.639,
+      "duration": 5.2,
+      "text": "and really complex maybe even some code"
+    },
+    {
+      "start": 897.6,
+      "duration": 4.479,
+      "text": "base in there and really complex things."
+    },
+    {
+      "start": 899.839,
+      "duration": 4.081,
+      "text": "All right. So that asynchronity has not"
+    },
+    {
+      "start": 902.079,
+      "duration": 3.681,
+      "text": "been tested in this paper yet. It leaves"
+    },
+    {
+      "start": 903.92,
+      "duration": 3.359,
+      "text": "it open for experimentation. I'm sure"
+    },
+    {
+      "start": 905.76,
+      "duration": 3.36,
+      "text": "we're going to see lots of that type of"
+    },
+    {
+      "start": 907.279,
+      "duration": 4.321,
+      "text": "stuff in production. So that's one of"
+    },
+    {
+      "start": 909.12,
+      "duration": 4.48,
+      "text": "the limitations there that you are kind"
+    },
+    {
+      "start": 911.6,
+      "duration": 3.84,
+      "text": "of letting go of control of the system a"
+    },
+    {
+      "start": 913.6,
+      "duration": 3.919,
+      "text": "bit which gives it that flexibility but"
+    },
+    {
+      "start": 915.44,
+      "duration": 4.16,
+      "text": "can also run away from you if you don't"
+    },
+    {
+      "start": 917.519,
+      "duration": 3.921,
+      "text": "put the guardrails in place. One of the"
+    },
+    {
+      "start": 919.6,
+      "duration": 4.16,
+      "text": "other limitations is this is not an"
+    },
+    {
+      "start": 921.44,
+      "duration": 3.519,
+      "text": "approach to be used everywhere. The"
+    },
+    {
+      "start": 923.76,
+      "duration": 2.8,
+      "text": "paper actually mentions that when you're"
+    },
+    {
+      "start": 924.959,
+      "duration": 3.361,
+      "text": "dealing with really small context, just"
+    },
+    {
+      "start": 926.56,
+      "duration": 3.76,
+      "text": "doing a one shot with the LLM often"
+    },
+    {
+      "start": 928.32,
+      "duration": 4.639,
+      "text": "performs better. So you have to know"
+    },
+    {
+      "start": 930.32,
+      "duration": 5.04,
+      "text": "when to apply these paper also mentions"
+    },
+    {
+      "start": 932.959,
+      "duration": 4.32,
+      "text": "a slight subtlety. It says that if"
+    },
+    {
+      "start": 935.36,
+      "duration": 3.68,
+      "text": "you're just dealing with long context"
+    },
+    {
+      "start": 937.279,
+      "duration": 4,
+      "text": "sometimes it's better to not use the"
+    },
+    {
+      "start": 939.04,
+      "duration": 4.56,
+      "text": "recursion but still provide the ripple"
+    },
+    {
+      "start": 941.279,
+      "duration": 4.081,
+      "text": "environment for the LLM to operate in."
+    },
+    {
+      "start": 943.6,
+      "duration": 3.599,
+      "text": "So effectively you're getting the large"
+    },
+    {
+      "start": 945.36,
+      "duration": 4.56,
+      "text": "language model to reason over that long"
+    },
+    {
+      "start": 947.199,
+      "duration": 4.961,
+      "text": "context without the handoff process to a"
+    },
+    {
+      "start": 949.92,
+      "duration": 4.08,
+      "text": "smaller agent for that recursion factor."
+    },
+    {
+      "start": 952.16,
+      "duration": 3.119,
+      "text": "And that works better when you're"
+    },
+    {
+      "start": 954,
+      "duration": 4.56,
+      "text": "dealing with something that's long"
+    },
+    {
+      "start": 955.279,
+      "duration": 4.961,
+      "text": "context but low complexity where you"
+    },
+    {
+      "start": 958.56,
+      "duration": 3.279,
+      "text": "have that high complexity and the long"
+    },
+    {
+      "start": 960.24,
+      "duration": 2.959,
+      "text": "context. That's when the recursion"
+    },
+    {
+      "start": 961.839,
+      "duration": 3.12,
+      "text": "factor comes in. So that's one of the"
+    },
+    {
+      "start": 963.199,
+      "duration": 3.2,
+      "text": "limitations understanding where it"
+    },
+    {
+      "start": 964.959,
+      "duration": 3.601,
+      "text": "should be applied and when it shouldn't"
+    },
+    {
+      "start": 966.399,
+      "duration": 4.321,
+      "text": "be applied. And the third limitation as"
+    },
+    {
+      "start": 968.56,
+      "duration": 4.16,
+      "text": "well is complexity. These are much more"
+    },
+    {
+      "start": 970.72,
+      "duration": 3.679,
+      "text": "complex systems to monitor. They're much"
+    },
+    {
+      "start": 972.72,
+      "duration": 3.6,
+      "text": "more complex systems to implement at"
+    },
+    {
+      "start": 974.399,
+      "duration": 3.68,
+      "text": "production. The other thing to consider"
+    },
+    {
+      "start": 976.32,
+      "duration": 3.12,
+      "text": "as well is the nature of your prompt"
+    },
+    {
+      "start": 978.079,
+      "duration": 3.041,
+      "text": "matters because the nature of your"
+    },
+    {
+      "start": 979.44,
+      "duration": 4.079,
+      "text": "prompt will steer that evaluation"
+    },
+    {
+      "start": 981.12,
+      "duration": 4.48,
+      "text": "process. So you should be wary of that"
+    },
+    {
+      "start": 983.519,
+      "duration": 3.76,
+      "text": "as well. The observability does become"
+    },
+    {
+      "start": 985.6,
+      "duration": 2.96,
+      "text": "more difficult. So I want to leave you"
+    },
+    {
+      "start": 987.279,
+      "duration": 3.68,
+      "text": "with the implications here. The"
+    },
+    {
+      "start": 988.56,
+      "duration": 5.199,
+      "text": "implications are that look we can unlock"
+    },
+    {
+      "start": 990.959,
+      "duration": 4.961,
+      "text": "quite a lot of tasks outside of software"
+    },
+    {
+      "start": 993.759,
+      "duration": 5.52,
+      "text": "engineering that have previously been"
+    },
+    {
+      "start": 995.92,
+      "duration": 5.68,
+      "text": "unaccessible to AI agents. And some of"
+    },
+    {
+      "start": 999.279,
+      "duration": 5.521,
+      "text": "those I think I've mentioned before like"
+    },
+    {
+      "start": 1001.6,
+      "duration": 6.239,
+      "text": "legal analysis but there is also policy"
+    },
+    {
+      "start": 1004.8,
+      "duration": 5.039,
+      "text": "review. There is also information"
+    },
+    {
+      "start": 1007.839,
+      "duration": 3.44,
+      "text": "symphysis on internal documents. So"
+    },
+    {
+      "start": 1009.839,
+      "duration": 3.36,
+      "text": "there's a lot of companies that have"
+    },
+    {
+      "start": 1011.279,
+      "duration": 4,
+      "text": "thousands of internal documents and"
+    },
+    {
+      "start": 1013.199,
+      "duration": 4.401,
+      "text": "history of different types Excel"
+    },
+    {
+      "start": 1015.279,
+      "duration": 4,
+      "text": "spreadsheets, word documents in the"
+    },
+    {
+      "start": 1017.6,
+      "duration": 3.919,
+      "text": "organization that they just cannot make"
+    },
+    {
+      "start": 1019.279,
+      "duration": 4.48,
+      "text": "sense of. And this symphysis layer does"
+    },
+    {
+      "start": 1021.519,
+      "duration": 3.68,
+      "text": "provide a way to do that. Now of course"
+    },
+    {
+      "start": 1023.759,
+      "duration": 2.961,
+      "text": "this doesn't get rid of hallucinations."
+    },
+    {
+      "start": 1025.199,
+      "duration": 3.441,
+      "text": "So you need to ensure proper data"
+    },
+    {
+      "start": 1026.72,
+      "duration": 3.76,
+      "text": "provenence, but that's standard if"
+    },
+    {
+      "start": 1028.64,
+      "duration": 3.6,
+      "text": "you're building AI agents at this point."
+    },
+    {
+      "start": 1030.48,
+      "duration": 3.599,
+      "text": "So if I'm going to leave you with a few"
+    },
+    {
+      "start": 1032.24,
+      "duration": 3.599,
+      "text": "points, the points are that when you"
+    },
+    {
+      "start": 1034.079,
+      "duration": 3.281,
+      "text": "model complex documents, the mental"
+    },
+    {
+      "start": 1035.839,
+      "duration": 3.12,
+      "text": "model you should hold is not reading"
+    },
+    {
+      "start": 1037.36,
+      "duration": 4.479,
+      "text": "them as long textbooks, but instead"
+    },
+    {
+      "start": 1038.959,
+      "duration": 4.48,
+      "text": "modeling them as dependency graphs. Code"
+    },
+    {
+      "start": 1041.839,
+      "duration": 3.441,
+      "text": "execution and recursion allows you to"
+    },
+    {
+      "start": 1043.439,
+      "duration": 3.681,
+      "text": "intelligently search over that context"
+    },
+    {
+      "start": 1045.28,
+      "duration": 3.84,
+      "text": "and build those dependency graphs that"
+    },
+    {
+      "start": 1047.12,
+      "duration": 5.2,
+      "text": "allow you to then synthesize correct"
+    },
+    {
+      "start": 1049.12,
+      "duration": 5.12,
+      "text": "answers or synthesize better responses"
+    },
+    {
+      "start": 1052.32,
+      "duration": 3.68,
+      "text": "while reasoning over that long context."
+    },
+    {
+      "start": 1054.24,
+      "duration": 3.2,
+      "text": "It's not a one-sizefits-all. There are"
+    },
+    {
+      "start": 1056,
+      "duration": 3.12,
+      "text": "places it should be applied and there"
+    },
+    {
+      "start": 1057.44,
+      "duration": 3.599,
+      "text": "are places it shouldn't be applied. And"
+    },
+    {
+      "start": 1059.12,
+      "duration": 4.32,
+      "text": "you should apply it if you're doing"
+    },
+    {
+      "start": 1061.039,
+      "duration": 4.721,
+      "text": "large context, complex retrieval,"
+    },
+    {
+      "start": 1063.44,
+      "duration": 4.96,
+      "text": "information synthesis, or research."
+    },
+    {
+      "start": 1065.76,
+      "duration": 2.64,
+      "text": "Thank you."
+    }
+  ],
+  "fullText": "agents can finally handle high complexity work outside of software engineering. Honestly, this feels like the reasoning moment all over again, but for AI agents. What's most surprising is the fix is almost absurdly simple. Code execution plus recursion. I've read through the RLM's paper and distilled it into the important mental models that you're going to need to apply this. So the first mental model that I kind of want to communicate is why context length is only half the size when we're dealing with these high complexity tasks. So one of the insights from the RLM paper is that it's not just about context length. It's not just about having legal contracts that are like a million tokens long, let's say, or having data rooms that span across millions of tokens or large code bases. It's also about the inherent complexity of those documents of those types of data assets. So if you look at legal contracts, take a merger agreement for example, there are a lot of internal self- references that introduce a high degree of complexity of that type of asset. So it turns out you can't read those things just like you read a book end to end. There are clauses that reference other clauses that might have come earlier or might come later. There are things in there that create that complex structure. So context window is basically only half the story. The other half of the story is task complexity. And when we talk about task complexity, we're talking specifically about the complexity of the documents we're trying to have the agent work with. So let's talk a little bit about why LLMs have struggled with this kind of task complexity and high context workloads. It's called context rot. So context rot is this phenomenon where the more context you stuff into a large language model the more the performance deteriorates and before we were looking at context rot kind of unid dimensionally as just a function of context but it's actually a function of context and task complexity. So a model that has a million token context will deteriorate long before that million tokens is hit if your task complexity is also high. that leads to a lot of instability in how effectively a model can utilize its context. There's also another misconception. So we've had this kind of lost middle problem for a while and a lost in the middle problem is basically give a large language model a huge amount of context, put some needles in there. So to represent a needle in a haystack which is basically small pieces of information that the model has to retrieve from that large context and that could be distributed anywhere across the context and assess how well the model is able to pull that back. So this has been a relatively solved problem for a while now and the RLS paper does reference that but what we're talking about is different. We're not talking about retrieving needles from haystacks. We're talking about reasoning over document complexity which is an entirely different problem. So it's a different class of problem because it requires something called multihop reasoning. And you know I experimented a while back with a chatbot called Jared to build multihop reasoning. And what I found was that the scaffolds I used whether I was using langraph or anything else were really fragile. Once you got to two or three hops the chatbot would completely break down. That is what you're doing when you're analyzing a lot of these legal agreements or a lot of these complex policy documents. You're doing multihop reasoning. you're looking at one part and then having to reason about it and then go and find another part that might be relevant and reason about that and applying some conditions to it to do your analysis. Raw language models deteriorate when the task requires that type of complex multihop reasoning. They can do it over a small context, but as soon as you extend that context, you see quickly that the performance falls off a cliff. What this leads to is models that are confidently wrong. And that's the quickest way to break down trust in any AI agent that you produce. So, let's talk a bit about the strategies that have been tried in the past. The first one is the naive one of just simply taking everything and stuffing it into an LLM and hoping and praying for the best. So, I've explained before the context rock phenomenon, and you should understand it's pretty self-explanatory why this doesn't work. It is also incredibly expensive and slow and have been shown to lead to subpar results. Just stuffing more context in a model can actually reduce reliability rather than improve it because sometimes that context is noise. So sometimes you are actually burying the signal even further. The next approach that we explore is summarization. You would have dealt with summarization if you've used claude because they have this feature called the autocompat feature. What that autocompat feature will do is once you reach a certain saturation of the context window, the large language model itself will hand off that context to another model which will compact and summarize it freeing up the context of the main model to continue work based on that summary. Now the problem with this is that summarization is lossy. So information is lost about the task and deciding which information to keep and which to get rid of to get an effective summary is a difficult task in and of itself. And this has been shown by the R&M's paper to actually be an expensive approach because that resummarization requires the entire context of the previous task to do. So what ends up happening with summarization is you often lose important context in the summary and then the agent will gradually drift off task until it's way off from where it initially started with. And some of you might have already experienced this with C code. People have come up with scaffolds to present this but a lot of the time what people are trying to do is they're trying to create some kind of elaborate summarization which is brittle in the end. Another approach that was used is rag retrieval augmented generation. So this came in really I would say 2022 2023 when people started to really see the power of large language models and what rag was trying to solve was extremely small context windows of around 8K. Rag turned out to be quite powerful for things like question and answer because what you're doing with rag is you're doing the retrieval which is usually just a similarity search. So it's looking for semantic similarity or keyword matching. So if you imagine with question and answer pairs, you can easily do semantic matching on the questions themselves and retrieve answers. But rag turned out to be quite a brittle approach when the task complexity grows because you're only doing semantic similarity for retrieval. There isn't much flexibility and the types of things that you can pull back from the context are rudimentary. So for example, you're only being able to pull similar documents. should not necessarily be able to pull logical relationships that you might need to do that multihob reasoning that you need to do over a legal contract or over a codebase. So if any programmers you should think does rag actually ever make sense on a codebase. I wouldn't say it does. The other thing that makes rag brittle is that you have to actually decide the chunking strategy. So the chunking strategy is how you break up and atomize that context so that it can be retrieved. You don't retrieve the whole context. You only retrieve what you need. The type of trunking strategy you use can change depending on the type of document that you have. A legal contract for a merger for a particular type of entity might be completely different trunking strategy to a research document for a pharmaceutical company for example. And then how do you expand that? How do you scale that strategy to thousands of documents that you might want to work with or to hundreds of documents that you might want to work with. This is what makes rag brittle when you want to scale it to real production use cases. Now I want to give you some mental models about understanding the type of complexity we're dealing with. Right? So when we're talking about a legal contract or code base, we're not really talking about something that necessarily is going to be read end to end. We're talking about something that has a high degree of internal self- refferencing. So in a legal contract, one clause might reference another clause. In a codebase, one function might call another function or you might have a class abstraction that is used in multiple places in the codebase. that class can be called by another function. So there's a high degree of self-referencing and that is what makes these types of data assets complex to reason over. Just think about it yourself. Think about following all of the different links in a legal contract or following and finding out all of the different places a function is used in a massive codebase. That is what makes it cognitively demanding and that is actually what makes it complex. So rather than trying to model these things as like a story book that you read end to end, I think it helps much more to model these things as dependency graphs on the nodes. For a legal contract, you might have certain clauses and then how they relate to other clauses on the edges. On a codebase, you'll have certain functions and APIs and how they call or how they interact with other functions and APIs as notes. that is a much better mental model of mapping the complexity of the type of data assets we're dealing with here when we're talking about these real workflows. So in short, when we're modeling these types of complex long documents, we really want to be modeling them as dependency graphs rather than just long pieces of text. So hopefully by now I'm building this picture of why the previous approaches didn't work. Once you understand that these things are dependency graphs and once you understand context rot, you understand why stuffing everything into an LLM even though the reasoning power is quite high nowadays won't work. And you understand why rag by semantic retrieval doesn't work. And you also understand why the summarization and compaction method that we see so commonly nowadays also is brittle. So let's explain how the RLM actually changes that. So the RLM is the recursive language models. RLM is incredibly simple. You have what you call a ripple. Ripple is simply a read evaluate print loop. That's all it is, right? So what you do is instead of stuffing the entire context into the language model, you provide the model with a data asset and that data asset is a variable in a Python script. So a legal contract can be assigned to a variable in a Python script and instead of having that inside the context of the language model, the language model programmatically operates on that using the functions read, evaluate, print and loop. And there's an additional point here. There is a recursive factor. So that language model can call a smaller language model or a language model of the same type and recursively operate over that. So the way to think about recursion here is like a handoff. You have one model operating over that data object and then handing that off to a smaller model to focus on different parts of that data object. So what you get there is effectively a much more sophisticated way to do multihop reasoning because that setup gives the agent the ability to search over the context flexibly depending on the task and find out exactly where the relevant information is to answer your query or to deliver a task. And that turns out to use a lot less context than stuffing the model with context. What we built there with Ripple is the ability to intelligently search and synthesize. So we're talking about intelligent decomposition of long legal contracts of code bases and intelligent symphysis of those code bases all with very simple primitives of a code interpreter and recursion. So let's look at the individual components. Read is obvious. Read is just reading the data object at the point in time of what it is. Evaluate is where a lot of the magic happens. So evaluate can be any programmatic function over that data object. So it could be a slice. It could even be a keyword match on that data object. It could be any programmatic function on that data object. And then print is how we return the result back to the interpreter. So that is how the overall system keeps track of where things are. And then loop is continuing to do that until the task is solved. And it's this it's with this approach that we're able to build that dependency graph. And that is how we actually are able to model the complexity and reason over those complex documents. Not by treating them as a story book and trying to stuff the model in and read them auto reggressively end to end, but by actually giving the model the ability to search over that codebase intelligently and build that dependency graph or search over that legal contract intelligently and build that dependency graph. And that dependency graph is what is needed to actually answer those complex legal queries or those complex code queries in your codebase. So what are some of the implications of this? Well, they ran this over a few experiments and they found that for most of the runs the RLMs for the most part they were cheaper and higher performance. And they did this on GBT5 and also on Quen 340 billion parameter coding model. The model did perform slightly worse than the GPT5 model, which tells us that to use this scaffold appropriately, you still probably need high performance models. But the implications downstream are huge because what they were able to do was reason about context that were orders of magnitude larger than the advertised context windows of the models without the same level of deterioration and for a cost that was in the neighborhood of the other approaches that we talked about. So the rag type of approaches, stuff in the context window approaches. So what are the limitations? Because there are limitations with this approach. So the paper I thought was brilliant. But with all papers you want to apply to your own situation in production and depending on what you have available to you in production and depending on the sensitivity of the data, this might not be unlocked for you yet. If you can only use very small models, there is nothing in this paper that shows that it works with very small models. In fact, we see a deterioration in capability even between GBT5 and the 340 billion parameter model, the Quen coding model. There is also this fear of infinite recursion. So, it's not necessarily infinite recursion, but there's a fear that sometimes because you're letting the agentic system run itself that it can get into these recursion loops if it goes off on the wrong tangent and that can become very expensive. So there was a distribution of the cost of running these tasks and for the 95th percentile of tasks, it became very expensive relative to the other approaches when it hit those recursion loops that would actually go off in directions that you don't want it to go off in. But the paper specified how they put guard rails in place. And this is one of the most important things if you're going to use this approach. You need the guardrails in place. So first of all, they specified that it's only one layer deep of recursion. And then they made the workflow synchronous. But I see that as an opportunity to actually expand this because imagine if it was asynchronous. So that would mean being able to call multiple sub LLM at the same time to do different parts of the work. And you know, you can imagine that would be extremely useful if you're reasoning over a data room for example with 100 legal type documents in there and really complex maybe even some code base in there and really complex things. All right. So that asynchronity has not been tested in this paper yet. It leaves it open for experimentation. I'm sure we're going to see lots of that type of stuff in production. So that's one of the limitations there that you are kind of letting go of control of the system a bit which gives it that flexibility but can also run away from you if you don't put the guardrails in place. One of the other limitations is this is not an approach to be used everywhere. The paper actually mentions that when you're dealing with really small context, just doing a one shot with the LLM often performs better. So you have to know when to apply these paper also mentions a slight subtlety. It says that if you're just dealing with long context sometimes it's better to not use the recursion but still provide the ripple environment for the LLM to operate in. So effectively you're getting the large language model to reason over that long context without the handoff process to a smaller agent for that recursion factor. And that works better when you're dealing with something that's long context but low complexity where you have that high complexity and the long context. That's when the recursion factor comes in. So that's one of the limitations understanding where it should be applied and when it shouldn't be applied. And the third limitation as well is complexity. These are much more complex systems to monitor. They're much more complex systems to implement at production. The other thing to consider as well is the nature of your prompt matters because the nature of your prompt will steer that evaluation process. So you should be wary of that as well. The observability does become more difficult. So I want to leave you with the implications here. The implications are that look we can unlock quite a lot of tasks outside of software engineering that have previously been unaccessible to AI agents. And some of those I think I've mentioned before like legal analysis but there is also policy review. There is also information symphysis on internal documents. So there's a lot of companies that have thousands of internal documents and history of different types Excel spreadsheets, word documents in the organization that they just cannot make sense of. And this symphysis layer does provide a way to do that. Now of course this doesn't get rid of hallucinations. So you need to ensure proper data provenence, but that's standard if you're building AI agents at this point. So if I'm going to leave you with a few points, the points are that when you model complex documents, the mental model you should hold is not reading them as long textbooks, but instead modeling them as dependency graphs. Code execution and recursion allows you to intelligently search over that context and build those dependency graphs that allow you to then synthesize correct answers or synthesize better responses while reasoning over that long context. It's not a one-sizefits-all. There are places it should be applied and there are places it shouldn't be applied. And you should apply it if you're doing large context, complex retrieval, information synthesis, or research. Thank you.",
+  "fetchedAt": "2026-01-18T18:34:01.697Z"
+}

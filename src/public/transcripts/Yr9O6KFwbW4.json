@@ -1,0 +1,3519 @@
+{
+  "videoId": "Yr9O6KFwbW4",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.52,
+      "text": "Okay, fine. I'll talk about Ralph loops."
+    },
+    {
+      "start": 2.24,
+      "duration": 3.599,
+      "text": "You guys have been asking for a while,"
+    },
+    {
+      "start": 3.6,
+      "duration": 3.679,
+      "text": "and they are a really interesting topic."
+    },
+    {
+      "start": 5.839,
+      "duration": 3.521,
+      "text": "They originally introduced by Jeff"
+    },
+    {
+      "start": 7.279,
+      "duration": 4.001,
+      "text": "Huntley all the way back in July, but"
+    },
+    {
+      "start": 9.36,
+      "duration": 3.76,
+      "text": "there's been a huge surge in interest"
+    },
+    {
+      "start": 11.28,
+      "duration": 3.68,
+      "text": "that is from a handful of different"
+    },
+    {
+      "start": 13.12,
+      "duration": 3.52,
+      "text": "things, all of which we'll talk about."
+    },
+    {
+      "start": 14.96,
+      "duration": 3.36,
+      "text": "There are really cool things you can"
+    },
+    {
+      "start": 16.64,
+      "duration": 3.36,
+      "text": "build with Ralph loops. They"
+    },
+    {
+      "start": 18.32,
+      "duration": 3.68,
+      "text": "meaningfully increase the scope of the"
+    },
+    {
+      "start": 20,
+      "duration": 4.96,
+      "text": "tasks you can hand off to an AI and"
+    },
+    {
+      "start": 22,
+      "duration": 5.359,
+      "text": "expect it to complete. That said, there"
+    },
+    {
+      "start": 24.96,
+      "duration": 5.52,
+      "text": "are a lot of different ways to do Ralph"
+    },
+    {
+      "start": 27.359,
+      "duration": 5.121,
+      "text": "loops that vary in how useful they are"
+    },
+    {
+      "start": 30.48,
+      "duration": 4,
+      "text": "and how much they follow the original"
+    },
+    {
+      "start": 32.48,
+      "duration": 4,
+      "text": "vibe of what Jeff was trying to create"
+    },
+    {
+      "start": 34.48,
+      "duration": 3.68,
+      "text": "with the loops. Ryan Carson did a pretty"
+    },
+    {
+      "start": 36.48,
+      "duration": 3.28,
+      "text": "good job breaking down a step-by-step"
+    },
+    {
+      "start": 38.16,
+      "duration": 2.96,
+      "text": "guide on how to get Ralph loops working"
+    },
+    {
+      "start": 39.76,
+      "duration": 2.88,
+      "text": "and shipping code. He even put up a"
+    },
+    {
+      "start": 41.12,
+      "duration": 3.2,
+      "text": "GitHub repo that describes a lot of"
+    },
+    {
+      "start": 42.64,
+      "duration": 3.2,
+      "text": "this, includes a Ralph.sh file and"
+    },
+    {
+      "start": 44.32,
+      "duration": 3.759,
+      "text": "everything else you need. And Jeff"
+    },
+    {
+      "start": 45.84,
+      "duration": 4.8,
+      "text": "replied, \"This isn't it.\" with a link to"
+    },
+    {
+      "start": 48.079,
+      "duration": 4.32,
+      "text": "a video about specifically why claude"
+    },
+    {
+      "start": 50.64,
+      "duration": 3.439,
+      "text": "codes implementation is not actually"
+    },
+    {
+      "start": 52.399,
+      "duration": 3.84,
+      "text": "Ralph loops. So the plugin you might be"
+    },
+    {
+      "start": 54.079,
+      "duration": 4.081,
+      "text": "using in things like cloud code probably"
+    },
+    {
+      "start": 56.239,
+      "duration": 3.361,
+      "text": "isn't a proper Ralph loop. There are a"
+    },
+    {
+      "start": 58.16,
+      "duration": 3.199,
+      "text": "lot of personal implementations like Ben"
+    },
+    {
+      "start": 59.6,
+      "duration": 4.16,
+      "text": "has his that he was using for an Elixir"
+    },
+    {
+      "start": 61.359,
+      "duration": 3.601,
+      "text": "app. Mickey from Convex has one that he"
+    },
+    {
+      "start": 63.76,
+      "duration": 3.039,
+      "text": "put up here that has a lot of"
+    },
+    {
+      "start": 64.96,
+      "duration": 3.68,
+      "text": "customization, additional features."
+    },
+    {
+      "start": 66.799,
+      "duration": 3.441,
+      "text": "There's a lot to talk about here and I"
+    },
+    {
+      "start": 68.64,
+      "duration": 3.839,
+      "text": "want to try and break it down so you can"
+    },
+    {
+      "start": 70.24,
+      "duration": 4,
+      "text": "understand what a Ralph loop is whether"
+    },
+    {
+      "start": 72.479,
+      "duration": 4.401,
+      "text": "or not you want to use it and most"
+    },
+    {
+      "start": 74.24,
+      "duration": 4.32,
+      "text": "importantly how you can bring these"
+    },
+    {
+      "start": 76.88,
+      "duration": 4.08,
+      "text": "ideas into your day-to-day work to be"
+    },
+    {
+      "start": 78.56,
+      "duration": 5.12,
+      "text": "more effective as you use AI tools. That"
+    },
+    {
+      "start": 80.96,
+      "duration": 5.12,
+      "text": "said, I do have to quote Lee Quick. She"
+    },
+    {
+      "start": 83.68,
+      "duration": 3.84,
+      "text": "Ralph on my wigum until I merge. I'm"
+    },
+    {
+      "start": 86.08,
+      "duration": 2.96,
+      "text": "going to need therapy after that one."
+    },
+    {
+      "start": 87.52,
+      "duration": 3.52,
+      "text": "So, let's hear a quick word from today's"
+    },
+    {
+      "start": 89.04,
+      "duration": 3.6,
+      "text": "sponsor before I go further. We recently"
+    },
+    {
+      "start": 91.04,
+      "duration": 3.119,
+      "text": "added a feature to T3 chat that I'm"
+    },
+    {
+      "start": 92.64,
+      "duration": 3.76,
+      "text": "really pumped about. We added the option"
+    },
+    {
+      "start": 94.159,
+      "duration": 4.161,
+      "text": "for you to sync your API keys across"
+    },
+    {
+      "start": 96.4,
+      "duration": 3.6,
+      "text": "different clients, which I was really"
+    },
+    {
+      "start": 98.32,
+      "duration": 3.6,
+      "text": "scared to do because I don't want to be"
+    },
+    {
+      "start": 100,
+      "duration": 3.759,
+      "text": "storing your API keys for various"
+    },
+    {
+      "start": 101.92,
+      "duration": 3.36,
+      "text": "services. That's a massive risk. We"
+    },
+    {
+      "start": 103.759,
+      "duration": 3.201,
+      "text": "wanted to make sure if we did it, we did"
+    },
+    {
+      "start": 105.28,
+      "duration": 3.199,
+      "text": "it right, which is why I'm so pumped"
+    },
+    {
+      "start": 106.96,
+      "duration": 3.839,
+      "text": "today's sponsor has an awesome feature"
+    },
+    {
+      "start": 108.479,
+      "duration": 4.481,
+      "text": "for this. The vault on work OS has made"
+    },
+    {
+      "start": 110.799,
+      "duration": 3.841,
+      "text": "this much easier for us to implement."
+    },
+    {
+      "start": 112.96,
+      "duration": 3.6,
+      "text": "They have two options for how you can"
+    },
+    {
+      "start": 114.64,
+      "duration": 3.36,
+      "text": "use it. The obvious way, which is they"
+    },
+    {
+      "start": 116.56,
+      "duration": 2.72,
+      "text": "store the data and then you can access"
+    },
+    {
+      "start": 118,
+      "duration": 3.28,
+      "text": "it through their client, but they also"
+    },
+    {
+      "start": 119.28,
+      "duration": 4,
+      "text": "have a much cooler way where you store"
+    },
+    {
+      "start": 121.28,
+      "duration": 4.24,
+      "text": "the data. they just have the decryption"
+    },
+    {
+      "start": 123.28,
+      "duration": 3.839,
+      "text": "part on their side. So when a user tries"
+    },
+    {
+      "start": 125.52,
+      "duration": 3.599,
+      "text": "to access the data, they just get a"
+    },
+    {
+      "start": 127.119,
+      "duration": 3.681,
+      "text": "nonsense encrypted blob, unless they are"
+    },
+    {
+      "start": 129.119,
+      "duration": 3.281,
+      "text": "the right user, in which case it works"
+    },
+    {
+      "start": 130.8,
+      "duration": 2.88,
+      "text": "perfectly. And if you have users that"
+    },
+    {
+      "start": 132.4,
+      "duration": 3.36,
+      "text": "want to manage the encryption"
+    },
+    {
+      "start": 133.68,
+      "duration": 4.08,
+      "text": "themselves, they support that too. A"
+    },
+    {
+      "start": 135.76,
+      "duration": 3.839,
+      "text": "given user can bring their own key, not"
+    },
+    {
+      "start": 137.76,
+      "duration": 4.16,
+      "text": "have it stored in vault, and everything"
+    },
+    {
+      "start": 139.599,
+      "duration": 3.441,
+      "text": "will still just work. This is how works"
+    },
+    {
+      "start": 141.92,
+      "duration": 2.24,
+      "text": "tends to do things. They're not just"
+    },
+    {
+      "start": 143.04,
+      "duration": 2.8,
+      "text": "thinking about how do we get this"
+    },
+    {
+      "start": 144.16,
+      "duration": 3.04,
+      "text": "working on your indie side project."
+    },
+    {
+      "start": 145.84,
+      "duration": 3.68,
+      "text": "They're thinking about how you make this"
+    },
+    {
+      "start": 147.2,
+      "duration": 4.08,
+      "text": "work at enterprise scale. How do you"
+    },
+    {
+      "start": 149.52,
+      "duration": 3.6,
+      "text": "handle all the edge cases and weird"
+    },
+    {
+      "start": 151.28,
+      "duration": 3.36,
+      "text": "expectations that enterprises want"
+    },
+    {
+      "start": 153.12,
+      "duration": 3.36,
+      "text": "without compromising on your developer"
+    },
+    {
+      "start": 154.64,
+      "duration": 3.36,
+      "text": "experience as a small team of people"
+    },
+    {
+      "start": 156.48,
+      "duration": 2.64,
+      "text": "that are building applications that are"
+    },
+    {
+      "start": 158,
+      "duration": 2.319,
+      "text": "now competing with these giant"
+    },
+    {
+      "start": 159.12,
+      "duration": 3.119,
+      "text": "companies? That's why everyone from"
+    },
+    {
+      "start": 160.319,
+      "duration": 4.56,
+      "text": "OpenAI to Enthropic to Cursor,"
+    },
+    {
+      "start": 162.239,
+      "duration": 4.64,
+      "text": "Perplexity, Verscell, FA, you get the"
+    },
+    {
+      "start": 164.879,
+      "duration": 3.841,
+      "text": "idea. Everyone's making the move to work"
+    },
+    {
+      "start": 166.879,
+      "duration": 3.041,
+      "text": "OS, including ourselves with T3 chat."
+    },
+    {
+      "start": 168.72,
+      "duration": 3.28,
+      "text": "What are you waiting for? Try them out"
+    },
+    {
+      "start": 169.92,
+      "duration": 3.679,
+      "text": "now at soy.link/workos."
+    },
+    {
+      "start": 172,
+      "duration": 3.76,
+      "text": "Before we dive into the history, I think"
+    },
+    {
+      "start": 173.599,
+      "duration": 4.64,
+      "text": "it's important to have a vague idea of"
+    },
+    {
+      "start": 175.76,
+      "duration": 5.28,
+      "text": "what a Ralph loop is. To put it simply,"
+    },
+    {
+      "start": 178.239,
+      "duration": 5.041,
+      "text": "it's executing your AI agents in a bash"
+    },
+    {
+      "start": 181.04,
+      "duration": 4.4,
+      "text": "loop so they keep going as long as they"
+    },
+    {
+      "start": 183.28,
+      "duration": 4.48,
+      "text": "need to. The way this is implemented can"
+    },
+    {
+      "start": 185.44,
+      "duration": 5.6,
+      "text": "vary a lot, but if we go to the original"
+    },
+    {
+      "start": 187.76,
+      "duration": 7.52,
+      "text": "Ralph post here, you can see the example"
+    },
+    {
+      "start": 191.04,
+      "duration": 6.72,
+      "text": "while true do cat prompt MD pipe that to"
+    },
+    {
+      "start": 195.28,
+      "duration": 4.56,
+      "text": "claude code and just keep doing this."
+    },
+    {
+      "start": 197.76,
+      "duration": 4.32,
+      "text": "This version will literally run forever"
+    },
+    {
+      "start": 199.84,
+      "duration": 3.759,
+      "text": "and you have to manually stop it. And"
+    },
+    {
+      "start": 202.08,
+      "duration": 3.36,
+      "text": "this is what the creator of the Ralph"
+    },
+    {
+      "start": 203.599,
+      "duration": 3.441,
+      "text": "loop mostly does. said creator of the"
+    },
+    {
+      "start": 205.44,
+      "duration": 4.64,
+      "text": "Ralph Loop put together one of the most"
+    },
+    {
+      "start": 207.04,
+      "duration": 5.119,
+      "text": "chaotic videos I've ever seen all about"
+    },
+    {
+      "start": 210.08,
+      "duration": 3.28,
+      "text": "this. It's not the easiest watch. It"
+    },
+    {
+      "start": 212.159,
+      "duration": 2.481,
+      "text": "will be linked in the description if"
+    },
+    {
+      "start": 213.36,
+      "duration": 3.519,
+      "text": "you're curious, but I'm going to do my"
+    },
+    {
+      "start": 214.64,
+      "duration": 4.72,
+      "text": "best to distill the lessons from here"
+    },
+    {
+      "start": 216.879,
+      "duration": 4.321,
+      "text": "and the values you can get from it and"
+    },
+    {
+      "start": 219.36,
+      "duration": 3.519,
+      "text": "how you build. I think there are a lot"
+    },
+    {
+      "start": 221.2,
+      "duration": 3.84,
+      "text": "of things we can learn from this"
+    },
+    {
+      "start": 222.879,
+      "duration": 5.041,
+      "text": "strategy, even if we don't necessarily"
+    },
+    {
+      "start": 225.04,
+      "duration": 4.479,
+      "text": "use it the specific proposed way. Jeff"
+    },
+    {
+      "start": 227.92,
+      "duration": 3.36,
+      "text": "originally made the Ralph loop to build"
+    },
+    {
+      "start": 229.519,
+      "duration": 3.521,
+      "text": "something pretty crazy, which was a full"
+    },
+    {
+      "start": 231.28,
+      "duration": 3.36,
+      "text": "programming language from scratch. I"
+    },
+    {
+      "start": 233.04,
+      "duration": 3.119,
+      "text": "actually already made a video about this"
+    },
+    {
+      "start": 234.64,
+      "duration": 3.519,
+      "text": "way back when he did it because I"
+    },
+    {
+      "start": 236.159,
+      "duration": 3.761,
+      "text": "thought it was so cool. But in order for"
+    },
+    {
+      "start": 238.159,
+      "duration": 4.16,
+      "text": "it to do this, you have to change the"
+    },
+    {
+      "start": 239.92,
+      "duration": 5.12,
+      "text": "way the agents execute. Big part of how"
+    },
+    {
+      "start": 242.319,
+      "duration": 4.801,
+      "text": "agents execute is the context. When you"
+    },
+    {
+      "start": 245.04,
+      "duration": 4.559,
+      "text": "are doing work with a tool like claude"
+    },
+    {
+      "start": 247.12,
+      "duration": 4.24,
+      "text": "code, the history is being passed in for"
+    },
+    {
+      "start": 249.599,
+      "duration": 4.161,
+      "text": "the token generation. You have to"
+    },
+    {
+      "start": 251.36,
+      "duration": 5.36,
+      "text": "remember the way AI works is just next"
+    },
+    {
+      "start": 253.76,
+      "duration": 7.759,
+      "text": "token prediction. So if I say the"
+    },
+    {
+      "start": 256.72,
+      "duration": 7.759,
+      "text": "capital of the United States is, all the"
+    },
+    {
+      "start": 261.519,
+      "duration": 5.921,
+      "text": "AI is doing is guessing what the next"
+    },
+    {
+      "start": 264.479,
+      "duration": 5.361,
+      "text": "word would be based on all the previous"
+    },
+    {
+      "start": 267.44,
+      "duration": 5.12,
+      "text": "things in context. It does this through"
+    },
+    {
+      "start": 269.84,
+      "duration": 4.799,
+      "text": "a crazy mapping of parameters that allow"
+    },
+    {
+      "start": 272.56,
+      "duration": 4.16,
+      "text": "it to calculate based on the current"
+    },
+    {
+      "start": 274.639,
+      "duration": 4.721,
+      "text": "history of the chat and the tokens that"
+    },
+    {
+      "start": 276.72,
+      "duration": 4.72,
+      "text": "it has what the most likely next token"
+    },
+    {
+      "start": 279.36,
+      "duration": 4.48,
+      "text": "is. There are catches here though, in"
+    },
+    {
+      "start": 281.44,
+      "duration": 5.039,
+      "text": "particular, context limits. You can only"
+    },
+    {
+      "start": 283.84,
+      "duration": 4.56,
+      "text": "have so much text in the context before"
+    },
+    {
+      "start": 286.479,
+      "duration": 4,
+      "text": "these prediction algorithms get really"
+    },
+    {
+      "start": 288.4,
+      "duration": 3.92,
+      "text": "bad. Some models can go much further"
+    },
+    {
+      "start": 290.479,
+      "duration": 4.241,
+      "text": "than others, but that doesn't really"
+    },
+    {
+      "start": 292.32,
+      "duration": 4.4,
+      "text": "matter when the quality goes down as a"
+    },
+    {
+      "start": 294.72,
+      "duration": 4.72,
+      "text": "result. There's a term for the quality"
+    },
+    {
+      "start": 296.72,
+      "duration": 4.16,
+      "text": "going down, context rot, and it's really"
+    },
+    {
+      "start": 299.44,
+      "duration": 3.68,
+      "text": "important to remember this because it's"
+    },
+    {
+      "start": 300.88,
+      "duration": 4.24,
+      "text": "a big part of why Ralph loops are so"
+    },
+    {
+      "start": 303.12,
+      "duration": 3.919,
+      "text": "interesting. Context rot happens when"
+    },
+    {
+      "start": 305.12,
+      "duration": 3.6,
+      "text": "there is too much information in the"
+    },
+    {
+      "start": 307.039,
+      "duration": 3.681,
+      "text": "context, which causes the models to"
+    },
+    {
+      "start": 308.72,
+      "duration": 4.479,
+      "text": "behave worse. The solution tools like"
+    },
+    {
+      "start": 310.72,
+      "duration": 4.24,
+      "text": "Cloud Code have for this is compaction."
+    },
+    {
+      "start": 313.199,
+      "duration": 4.72,
+      "text": "And you can trigger it by hand by typing"
+    },
+    {
+      "start": 314.96,
+      "duration": 5.6,
+      "text": "/compact or if you go over the context"
+    },
+    {
+      "start": 317.919,
+      "duration": 4.801,
+      "text": "window, it will do a compaction for you"
+    },
+    {
+      "start": 320.56,
+      "duration": 4.32,
+      "text": "where it sends the existing history to a"
+    },
+    {
+      "start": 322.72,
+      "duration": 4.16,
+      "text": "model says, \"Hey, summarize this and"
+    },
+    {
+      "start": 324.88,
+      "duration": 4.48,
+      "text": "pull out any key details and then it"
+    },
+    {
+      "start": 326.88,
+      "duration": 4.4,
+      "text": "uses that as the history instead.\" So as"
+    },
+    {
+      "start": 329.36,
+      "duration": 3.52,
+      "text": "you're doing a back and forth with an AI"
+    },
+    {
+      "start": 331.28,
+      "duration": 4.32,
+      "text": "agent like cloud code curse or whatever"
+    },
+    {
+      "start": 332.88,
+      "duration": 5.36,
+      "text": "else every time you send a message that"
+    },
+    {
+      "start": 335.6,
+      "duration": 4.72,
+      "text": "gets added to the context then the model"
+    },
+    {
+      "start": 338.24,
+      "duration": 5.12,
+      "text": "does a bunch of stuff. This is now added"
+    },
+    {
+      "start": 340.32,
+      "duration": 5.439,
+      "text": "to the context. Then you send a followup"
+    },
+    {
+      "start": 343.36,
+      "duration": 4.32,
+      "text": "then the model adds even more and every"
+    },
+    {
+      "start": 345.759,
+      "duration": 4.081,
+      "text": "time anything is happening it is"
+    },
+    {
+      "start": 347.68,
+      "duration": 4.959,
+      "text": "appending. So this first message might"
+    },
+    {
+      "start": 349.84,
+      "duration": 5.919,
+      "text": "be 20 tokens. The response you get might"
+    },
+    {
+      "start": 352.639,
+      "duration": 5.041,
+      "text": "be I don't know let's say 5,000 tokens."
+    },
+    {
+      "start": 355.759,
+      "duration": 4.401,
+      "text": "He's another 20 token follow-up and then"
+    },
+    {
+      "start": 357.68,
+      "duration": 4.64,
+      "text": "another 5,000 tokens. When you send this"
+    },
+    {
+      "start": 360.16,
+      "duration": 4,
+      "text": "20 token followup, the model isn't"
+    },
+    {
+      "start": 362.32,
+      "duration": 4.719,
+      "text": "parsing just those 20 tokens. It's the"
+    },
+    {
+      "start": 364.16,
+      "duration": 4.8,
+      "text": "20 plus the 20 plus the 5,000 from"
+    },
+    {
+      "start": 367.039,
+      "duration": 4.081,
+      "text": "before because it is going through and"
+    },
+    {
+      "start": 368.96,
+      "duration": 4.48,
+      "text": "sending the whole history. When you send"
+    },
+    {
+      "start": 371.12,
+      "duration": 4.079,
+      "text": "a message, everything before it is sent."
+    },
+    {
+      "start": 373.44,
+      "duration": 3.36,
+      "text": "And then when you hit the limit or even"
+    },
+    {
+      "start": 375.199,
+      "duration": 3.681,
+      "text": "just get to the point where the context"
+    },
+    {
+      "start": 376.8,
+      "duration": 4.64,
+      "text": "is too bloated and the accuracy goes"
+    },
+    {
+      "start": 378.88,
+      "duration": 4.72,
+      "text": "down, things get worse. And as I said"
+    },
+    {
+      "start": 381.44,
+      "duration": 4.56,
+      "text": "before, the solution most tools use is"
+    },
+    {
+      "start": 383.6,
+      "duration": 4.24,
+      "text": "once they have this and it's too long,"
+    },
+    {
+      "start": 386,
+      "duration": 4.639,
+      "text": "the system will send a prompt that is"
+    },
+    {
+      "start": 387.84,
+      "duration": 5.44,
+      "text": "effectively summarize please. This"
+    },
+    {
+      "start": 390.639,
+      "duration": 4.881,
+      "text": "summary gets sent up to be a whole new"
+    },
+    {
+      "start": 393.28,
+      "duration": 5.199,
+      "text": "thing. We'll say that the summary"
+    },
+    {
+      "start": 395.52,
+      "duration": 4.88,
+      "text": "context is blue and it will take these"
+    },
+    {
+      "start": 398.479,
+      "duration": 5.28,
+      "text": "20,000 tokens and make it a much smaller"
+    },
+    {
+      "start": 400.4,
+      "duration": 4.88,
+      "text": "number. We'll say 5k tokens of summary"
+    },
+    {
+      "start": 403.759,
+      "duration": 3.681,
+      "text": "and then the model continues generating"
+    },
+    {
+      "start": 405.28,
+      "duration": 4.4,
+      "text": "like nothing happened. Kind of though"
+    },
+    {
+      "start": 407.44,
+      "duration": 3.759,
+      "text": "there are a lot of problems with this."
+    },
+    {
+      "start": 409.68,
+      "duration": 2.56,
+      "text": "there are details that might get lost"
+    },
+    {
+      "start": 411.199,
+      "duration": 4.481,
+      "text": "like let's say you have a really"
+    },
+    {
+      "start": 412.24,
+      "duration": 6.399,
+      "text": "important detail here like always read"
+    },
+    {
+      "start": 415.68,
+      "duration": 5.68,
+      "text": "this specific file and then when the"
+    },
+    {
+      "start": 418.639,
+      "duration": 4.721,
+      "text": "model compacts your context it loses"
+    },
+    {
+      "start": 421.36,
+      "duration": 3.36,
+      "text": "that instruction. Now whatever context"
+    },
+    {
+      "start": 423.36,
+      "duration": 3.76,
+      "text": "you thought was important from here is"
+    },
+    {
+      "start": 424.72,
+      "duration": 4.319,
+      "text": "lost as well. One of the key points of a"
+    },
+    {
+      "start": 427.12,
+      "duration": 4.72,
+      "text": "Ralph loop is to throw this whole"
+    },
+    {
+      "start": 429.039,
+      "duration": 5.841,
+      "text": "compaction model away. Instead of having"
+    },
+    {
+      "start": 431.84,
+      "duration": 5.52,
+      "text": "each prompt add on to your history. The"
+    },
+    {
+      "start": 434.88,
+      "duration": 5.12,
+      "text": "goal of a Ralph loop is to break out"
+    },
+    {
+      "start": 437.36,
+      "duration": 4.72,
+      "text": "every follow-up prompt as its own new"
+    },
+    {
+      "start": 440,
+      "duration": 3.36,
+      "text": "history. There is a problem here though."
+    },
+    {
+      "start": 442.08,
+      "duration": 3.28,
+      "text": "If you have information that was"
+    },
+    {
+      "start": 443.36,
+      "duration": 3.36,
+      "text": "important in the history, you lose it."
+    },
+    {
+      "start": 445.36,
+      "duration": 3.119,
+      "text": "And that is where a lot of the"
+    },
+    {
+      "start": 446.72,
+      "duration": 3.52,
+      "text": "implementation details of the Ralph loop"
+    },
+    {
+      "start": 448.479,
+      "duration": 3.041,
+      "text": "come in. All of the details, all the"
+    },
+    {
+      "start": 450.24,
+      "duration": 3.44,
+      "text": "implementation, all of the things that"
+    },
+    {
+      "start": 451.52,
+      "duration": 5.119,
+      "text": "make it interesting are how do you get"
+    },
+    {
+      "start": 453.68,
+      "duration": 5.12,
+      "text": "the right information into this prompt"
+    },
+    {
+      "start": 456.639,
+      "duration": 3.761,
+      "text": "so that you can run this in a loop."
+    },
+    {
+      "start": 458.8,
+      "duration": 3.92,
+      "text": "Instead of getting to the end and then"
+    },
+    {
+      "start": 460.4,
+      "duration": 4.799,
+      "text": "sending a follow-up, what if you get to"
+    },
+    {
+      "start": 462.72,
+      "duration": 4.64,
+      "text": "the end, you update some piece of"
+    },
+    {
+      "start": 465.199,
+      "duration": 4.321,
+      "text": "important information and then start a"
+    },
+    {
+      "start": 467.36,
+      "duration": 3.6,
+      "text": "new instance from scratch that will"
+    },
+    {
+      "start": 469.52,
+      "duration": 3.44,
+      "text": "continue the work that was happening"
+    },
+    {
+      "start": 470.96,
+      "duration": 4.56,
+      "text": "previously. Imagine a really good"
+    },
+    {
+      "start": 472.96,
+      "duration": 5.2,
+      "text": "engineer whose brain gets wiped whenever"
+    },
+    {
+      "start": 475.52,
+      "duration": 4,
+      "text": "they do too much work at once. So if you"
+    },
+    {
+      "start": 478.16,
+      "duration": 3.2,
+      "text": "you have this incredible engineer that"
+    },
+    {
+      "start": 479.52,
+      "duration": 3.84,
+      "text": "can build anything, but once they have"
+    },
+    {
+      "start": 481.36,
+      "duration": 3.44,
+      "text": "done too many lines of code, their"
+    },
+    {
+      "start": 483.36,
+      "duration": 3.279,
+      "text": "memory gets wiped and they have to start"
+    },
+    {
+      "start": 484.8,
+      "duration": 3.839,
+      "text": "from scratch. You're effectively"
+    },
+    {
+      "start": 486.639,
+      "duration": 4.56,
+      "text": "building techniques to catch them back"
+    },
+    {
+      "start": 488.639,
+      "duration": 4.641,
+      "text": "up the right amount fast enough that"
+    },
+    {
+      "start": 491.199,
+      "duration": 3.12,
+      "text": "they can get back to work efficiently."
+    },
+    {
+      "start": 493.28,
+      "duration": 2.8,
+      "text": "And that's where a lot of the"
+    },
+    {
+      "start": 494.319,
+      "duration": 3.841,
+      "text": "interesting parts of Ralph loops come"
+    },
+    {
+      "start": 496.08,
+      "duration": 4.48,
+      "text": "in. I like how Ryan breaks this down,"
+    },
+    {
+      "start": 498.16,
+      "duration": 4.159,
+      "text": "even if it's not a proper Ralph loop. I"
+    },
+    {
+      "start": 500.56,
+      "duration": 3.6,
+      "text": "think it's a good example. It's a bash"
+    },
+    {
+      "start": 502.319,
+      "duration": 3.841,
+      "text": "loop that pipes a prompt into your"
+    },
+    {
+      "start": 504.16,
+      "duration": 4.64,
+      "text": "agent. The agent picks the next story"
+    },
+    {
+      "start": 506.16,
+      "duration": 5.28,
+      "text": "from a PRD, which is a plan document"
+    },
+    {
+      "start": 508.8,
+      "duration": 4.88,
+      "text": "that describes the work you want done."
+    },
+    {
+      "start": 511.44,
+      "duration": 4.159,
+      "text": "The agent implements that story from it."
+    },
+    {
+      "start": 513.68,
+      "duration": 3.76,
+      "text": "It runs type checks and tests. It"
+    },
+    {
+      "start": 515.599,
+      "duration": 4,
+      "text": "commits if passing, marks the story"
+    },
+    {
+      "start": 517.44,
+      "duration": 4.64,
+      "text": "done, logs the learnings, loops and"
+    },
+    {
+      "start": 519.599,
+      "duration": 3.601,
+      "text": "repeats until all of the work is done."
+    },
+    {
+      "start": 522.08,
+      "duration": 3.6,
+      "text": "And this is the key, the memory"
+    },
+    {
+      "start": 523.2,
+      "duration": 5.04,
+      "text": "persistence. It only persists things"
+    },
+    {
+      "start": 525.68,
+      "duration": 4.32,
+      "text": "information memory by making git"
+    },
+    {
+      "start": 528.24,
+      "duration": 4.08,
+      "text": "commits. So it's staying there by"
+    },
+    {
+      "start": 530,
+      "duration": 4.399,
+      "text": "updating a progress.ext file with the"
+    },
+    {
+      "start": 532.32,
+      "duration": 3.76,
+      "text": "things it learns. So instead of keeping"
+    },
+    {
+      "start": 534.399,
+      "duration": 4.321,
+      "text": "the whole context, it just keeps the"
+    },
+    {
+      "start": 536.08,
+      "duration": 4.16,
+      "text": "important key parts. And the prdson"
+    },
+    {
+      "start": 538.72,
+      "duration": 2.88,
+      "text": "which keeps track of all of the statuses"
+    },
+    {
+      "start": 540.24,
+      "duration": 2.56,
+      "text": "for all of the tasks that are being"
+    },
+    {
+      "start": 541.6,
+      "duration": 3.04,
+      "text": "completed. There are lots of different"
+    },
+    {
+      "start": 542.8,
+      "duration": 4.08,
+      "text": "ways to implement this. For example, the"
+    },
+    {
+      "start": 544.64,
+      "duration": 3.92,
+      "text": "original creator, what he suggests doing"
+    },
+    {
+      "start": 546.88,
+      "duration": 3.6,
+      "text": "is going back and forth with the model a"
+    },
+    {
+      "start": 548.56,
+      "duration": 3.68,
+      "text": "bunch to write a thorough plan for what"
+    },
+    {
+      "start": 550.48,
+      "duration": 3.12,
+      "text": "you want to have done that has all of"
+    },
+    {
+      "start": 552.24,
+      "duration": 3.36,
+      "text": "the different tasks that need to be"
+    },
+    {
+      "start": 553.6,
+      "duration": 3.28,
+      "text": "completed in it. Have that in a file in"
+    },
+    {
+      "start": 555.6,
+      "duration": 3.12,
+      "text": "the codebase somewhere. In this case,"
+    },
+    {
+      "start": 556.88,
+      "duration": 4,
+      "text": "it's inspect/analytics"
+    },
+    {
+      "start": 558.72,
+      "duration": 3.84,
+      "text": "implementation plan.mmd. And the"
+    },
+    {
+      "start": 560.88,
+      "duration": 3.92,
+      "text": "important instruction here of pick the"
+    },
+    {
+      "start": 562.56,
+      "duration": 4.24,
+      "text": "most important thing to do, not go"
+    },
+    {
+      "start": 564.8,
+      "duration": 4.159,
+      "text": "through this in order. Pick what you"
+    },
+    {
+      "start": 566.8,
+      "duration": 4.159,
+      "text": "think is most important on here and work"
+    },
+    {
+      "start": 568.959,
+      "duration": 3.201,
+      "text": "on that. And once it's completed, the"
+    },
+    {
+      "start": 570.959,
+      "duration": 2.88,
+      "text": "next time you run it, it will pick"
+    },
+    {
+      "start": 572.16,
+      "duration": 4.4,
+      "text": "something different. And this markdown"
+    },
+    {
+      "start": 573.839,
+      "duration": 4.401,
+      "text": "file is updated when it is completing a"
+    },
+    {
+      "start": 576.56,
+      "duration": 3.2,
+      "text": "task. So he put in here, update the"
+    },
+    {
+      "start": 578.24,
+      "duration": 3.68,
+      "text": "implementation plan when the task is"
+    },
+    {
+      "start": 579.76,
+      "duration": 4.4,
+      "text": "done. That's the key. But this is also"
+    },
+    {
+      "start": 581.92,
+      "duration": 5.2,
+      "text": "where the Ralph Wigum plugin for Claude"
+    },
+    {
+      "start": 584.16,
+      "duration": 5.04,
+      "text": "code starts to have problems. The"
+    },
+    {
+      "start": 587.12,
+      "duration": 4.48,
+      "text": "original limitation was Jeff Huntley's"
+    },
+    {
+      "start": 589.2,
+      "duration": 4.48,
+      "text": "simple while true loop. This plugin"
+    },
+    {
+      "start": 591.6,
+      "duration": 4.48,
+      "text": "works quite a bit differently. The loop"
+    },
+    {
+      "start": 593.68,
+      "duration": 4.719,
+      "text": "happens inside your current session,"
+    },
+    {
+      "start": 596.08,
+      "duration": 5.04,
+      "text": "which sounds really convenient, but"
+    },
+    {
+      "start": 598.399,
+      "duration": 4.401,
+      "text": "sadly causes its own set of problems"
+    },
+    {
+      "start": 601.12,
+      "duration": 3.76,
+      "text": "because when it runs in one session, it"
+    },
+    {
+      "start": 602.8,
+      "duration": 4.56,
+      "text": "no longer has the clean history to start"
+    },
+    {
+      "start": 604.88,
+      "duration": 4.639,
+      "text": "from. It's constantly overflowing the"
+    },
+    {
+      "start": 607.36,
+      "duration": 4,
+      "text": "context window and then having to go"
+    },
+    {
+      "start": 609.519,
+      "duration": 3.921,
+      "text": "back and compact and losing track of"
+    },
+    {
+      "start": 611.36,
+      "duration": 5.12,
+      "text": "what it's doing. Sometimes as a result,"
+    },
+    {
+      "start": 613.44,
+      "duration": 6.399,
+      "text": "if you think of these things as boxes or"
+    },
+    {
+      "start": 616.48,
+      "duration": 6.16,
+      "text": "layers where we have on the outside"
+    },
+    {
+      "start": 619.839,
+      "duration": 5.281,
+      "text": "here, this is cloud code. In an ideal"
+    },
+    {
+      "start": 622.64,
+      "duration": 4.56,
+      "text": "world, following the official Ralph"
+    },
+    {
+      "start": 625.12,
+      "duration": 3.92,
+      "text": "Wigan mindset, the Ralph loop is a thing"
+    },
+    {
+      "start": 627.2,
+      "duration": 3.92,
+      "text": "that exists outside of Claude Code"
+    },
+    {
+      "start": 629.04,
+      "duration": 4.799,
+      "text": "because then it can kill it and"
+    },
+    {
+      "start": 631.12,
+      "duration": 5.76,
+      "text": "reinstantiate it whenever it wants to."
+    },
+    {
+      "start": 633.839,
+      "duration": 4.721,
+      "text": "And Claude Code's history doesn't get to"
+    },
+    {
+      "start": 636.88,
+      "duration": 4.32,
+      "text": "control anything like it is effectively"
+    },
+    {
+      "start": 638.56,
+      "duration": 4.88,
+      "text": "taking Cloud Code out of control and the"
+    },
+    {
+      "start": 641.2,
+      "duration": 4.319,
+      "text": "source of truth is now the markdown or"
+    },
+    {
+      "start": 643.44,
+      "duration": 3.92,
+      "text": "JSON file that describes the work being"
+    },
+    {
+      "start": 645.519,
+      "duration": 4.161,
+      "text": "done and the bash loop that is"
+    },
+    {
+      "start": 647.36,
+      "duration": 4.719,
+      "text": "triggering the work to then continue"
+    },
+    {
+      "start": 649.68,
+      "duration": 4.32,
+      "text": "with a fresh agent. The problem with the"
+    },
+    {
+      "start": 652.079,
+      "duration": 3.841,
+      "text": "plugin is that it inverses this where"
+    },
+    {
+      "start": 654,
+      "duration": 4.079,
+      "text": "instead of the Ralph loop controlling"
+    },
+    {
+      "start": 655.92,
+      "duration": 4.159,
+      "text": "Cloud Code, Claude Code controls the"
+    },
+    {
+      "start": 658.079,
+      "duration": 4.401,
+      "text": "Ralph loop which means a lot of those"
+    },
+    {
+      "start": 660.079,
+      "duration": 5.2,
+      "text": "benefits disappear immediately. You're"
+    },
+    {
+      "start": 662.48,
+      "duration": 5.039,
+      "text": "effectively with this plugin preventing"
+    },
+    {
+      "start": 665.279,
+      "duration": 3.841,
+      "text": "Claude code from saying I am done. If"
+    },
+    {
+      "start": 667.519,
+      "duration": 3.041,
+      "text": "that is all you want the Ralph loop for,"
+    },
+    {
+      "start": 669.12,
+      "duration": 2.8,
+      "text": "you want it to just keep going"
+    },
+    {
+      "start": 670.56,
+      "duration": 3.04,
+      "text": "indefinitely and you don't care about"
+    },
+    {
+      "start": 671.92,
+      "duration": 3.919,
+      "text": "the compaction and you think it works"
+    },
+    {
+      "start": 673.6,
+      "duration": 3.919,
+      "text": "fine with the higher amounts of context"
+    },
+    {
+      "start": 675.839,
+      "duration": 3.281,
+      "text": "and the potential loss of important data"
+    },
+    {
+      "start": 677.519,
+      "duration": 3.041,
+      "text": "from the original prompt. Cool. You can"
+    },
+    {
+      "start": 679.12,
+      "duration": 2.959,
+      "text": "do that. But I've personally not had"
+    },
+    {
+      "start": 680.56,
+      "duration": 2.8,
+      "text": "much success with this and I think a lot"
+    },
+    {
+      "start": 682.079,
+      "duration": 3.121,
+      "text": "of the people that are struggling with"
+    },
+    {
+      "start": 683.36,
+      "duration": 3.599,
+      "text": "Ralph loops are probably using it that"
+    },
+    {
+      "start": 685.2,
+      "duration": 3.92,
+      "text": "way too. I know that's how I was using"
+    },
+    {
+      "start": 686.959,
+      "duration": 3.681,
+      "text": "it and I wasn't seeing much. But when I"
+    },
+    {
+      "start": 689.12,
+      "duration": 3.2,
+      "text": "talked to people like Ben who have been"
+    },
+    {
+      "start": 690.64,
+      "duration": 4.319,
+      "text": "using it the other way where he wraps"
+    },
+    {
+      "start": 692.32,
+      "duration": 4.72,
+      "text": "open code with it on the outside with a"
+    },
+    {
+      "start": 694.959,
+      "duration": 3.681,
+      "text": "script, they have seen much more success"
+    },
+    {
+      "start": 697.04,
+      "duration": 4,
+      "text": "and I'm planning on trying this myself"
+    },
+    {
+      "start": 698.64,
+      "duration": 4.48,
+      "text": "too. One more important piece is how do"
+    },
+    {
+      "start": 701.04,
+      "duration": 4.32,
+      "text": "you determine when it is done? The"
+    },
+    {
+      "start": 703.12,
+      "duration": 4.8,
+      "text": "classic Ralph loop implementation is to"
+    },
+    {
+      "start": 705.36,
+      "duration": 4.56,
+      "text": "stop it by hand. a person comes in and"
+    },
+    {
+      "start": 707.92,
+      "duration": 3.52,
+      "text": "halts it when they think the work is"
+    },
+    {
+      "start": 709.92,
+      "duration": 3.039,
+      "text": "probably done. For various reasons, this"
+    },
+    {
+      "start": 711.44,
+      "duration": 3.28,
+      "text": "might not be ideal, which is why other"
+    },
+    {
+      "start": 712.959,
+      "duration": 3.761,
+      "text": "implementations include some way for the"
+    },
+    {
+      "start": 714.72,
+      "duration": 3.679,
+      "text": "model to indicate that the work is"
+    },
+    {
+      "start": 716.72,
+      "duration": 3.52,
+      "text": "completed. For example, Ryan's"
+    },
+    {
+      "start": 718.399,
+      "duration": 3.761,
+      "text": "implementation, he specifies to the"
+    },
+    {
+      "start": 720.24,
+      "duration": 4,
+      "text": "model in the prompt that when it is"
+    },
+    {
+      "start": 722.16,
+      "duration": 5.28,
+      "text": "completed all of the work in the"
+    },
+    {
+      "start": 724.24,
+      "duration": 6.08,
+      "text": "planning file, it should output promise"
+    },
+    {
+      "start": 727.44,
+      "duration": 6.56,
+      "text": "complete close promise. And if we see"
+    },
+    {
+      "start": 730.32,
+      "duration": 5.92,
+      "text": "this inside of the results, then we exit"
+    },
+    {
+      "start": 734,
+      "duration": 4,
+      "text": "the loop. Otherwise, we keep going. You"
+    },
+    {
+      "start": 736.24,
+      "duration": 4,
+      "text": "can also set a number of max iterations"
+    },
+    {
+      "start": 738,
+      "duration": 4.16,
+      "text": "so that if it goes for too long, it will"
+    },
+    {
+      "start": 740.24,
+      "duration": 3.68,
+      "text": "automatically stop. Not everybody does"
+    },
+    {
+      "start": 742.16,
+      "duration": 3.2,
+      "text": "this, including Jeff, but you probably"
+    },
+    {
+      "start": 743.92,
+      "duration": 3.599,
+      "text": "should do this just to make sure you"
+    },
+    {
+      "start": 745.36,
+      "duration": 3.84,
+      "text": "don't waste all of your tokens. And this"
+    },
+    {
+      "start": 747.519,
+      "duration": 3.361,
+      "text": "will burn tokens, by the way. I'm sure"
+    },
+    {
+      "start": 749.2,
+      "duration": 3.439,
+      "text": "you know that going in, but make sure"
+    },
+    {
+      "start": 750.88,
+      "duration": 4,
+      "text": "you know that as you go in. Ryan also"
+    },
+    {
+      "start": 752.639,
+      "duration": 4.721,
+      "text": "posted examples of a prompt MD as well"
+    },
+    {
+      "start": 754.88,
+      "duration": 4.24,
+      "text": "as the PRD JSON. It is missing a bit of"
+    },
+    {
+      "start": 757.36,
+      "duration": 3.76,
+      "text": "important info at the top here. Like I"
+    },
+    {
+      "start": 759.12,
+      "duration": 5.12,
+      "text": "really like in Jeff's video he specifies"
+    },
+    {
+      "start": 761.12,
+      "duration": 4.64,
+      "text": "at the top study the specme file which"
+    },
+    {
+      "start": 764.24,
+      "duration": 3.279,
+      "text": "is the file that includes all of the"
+    },
+    {
+      "start": 765.76,
+      "duration": 4.16,
+      "text": "specs and roughly what the project is"
+    },
+    {
+      "start": 767.519,
+      "duration": 4.721,
+      "text": "and how it works so it has the right"
+    },
+    {
+      "start": 769.92,
+      "duration": 4.64,
+      "text": "amount of context in the right context"
+    },
+    {
+      "start": 772.24,
+      "duration": 4.159,
+      "text": "when it starts and then also study the"
+    },
+    {
+      "start": 774.56,
+      "duration": 4.32,
+      "text": "implementation plan that you're building"
+    },
+    {
+      "start": 776.399,
+      "duration": 4.481,
+      "text": "and pick the most important thing to do."
+    },
+    {
+      "start": 778.88,
+      "duration": 3.36,
+      "text": "This gives you the right context at the"
+    },
+    {
+      "start": 780.88,
+      "duration": 3.759,
+      "text": "start which is one of the most important"
+    },
+    {
+      "start": 782.24,
+      "duration": 4.48,
+      "text": "things. If you don't have the whole"
+    },
+    {
+      "start": 784.639,
+      "duration": 4.32,
+      "text": "history because you don't keep the"
+    },
+    {
+      "start": 786.72,
+      "duration": 4.88,
+      "text": "history anymore, you need to put work in"
+    },
+    {
+      "start": 788.959,
+      "duration": 4.88,
+      "text": "to make sure that the right information"
+    },
+    {
+      "start": 791.6,
+      "duration": 3.76,
+      "text": "is inside of this first piece. Not"
+    },
+    {
+      "start": 793.839,
+      "duration": 3.841,
+      "text": "necessarily everything it needs to know"
+    },
+    {
+      "start": 795.36,
+      "duration": 4.32,
+      "text": "about the codebase, but the instructions"
+    },
+    {
+      "start": 797.68,
+      "duration": 3.2,
+      "text": "on what tople things it needs to know"
+    },
+    {
+      "start": 799.68,
+      "duration": 3.04,
+      "text": "about the codebase, as well as"
+    },
+    {
+      "start": 800.88,
+      "duration": 3.36,
+      "text": "instructions on how to find more"
+    },
+    {
+      "start": 802.72,
+      "duration": 3.6,
+      "text": "information that it might need."
+    },
+    {
+      "start": 804.24,
+      "duration": 5.599,
+      "text": "Counterintuitively, it's actually"
+    },
+    {
+      "start": 806.32,
+      "duration": 5.92,
+      "text": "totally okay if in this box you tell it"
+    },
+    {
+      "start": 809.839,
+      "duration": 4.641,
+      "text": "to go read some file and then it has to"
+    },
+    {
+      "start": 812.24,
+      "duration": 4.159,
+      "text": "do work in every single one of these"
+    },
+    {
+      "start": 814.48,
+      "duration": 3.919,
+      "text": "instances to get the contents of that"
+    },
+    {
+      "start": 816.399,
+      "duration": 3.68,
+      "text": "file. That might seem like a waste. Like"
+    },
+    {
+      "start": 818.399,
+      "duration": 3.521,
+      "text": "why not just put that information in"
+    },
+    {
+      "start": 820.079,
+      "duration": 4.32,
+      "text": "directly? There's a bunch of reasons"
+    },
+    {
+      "start": 821.92,
+      "duration": 4.24,
+      "text": "why, but let the model determine if it"
+    },
+    {
+      "start": 824.399,
+      "duration": 3.921,
+      "text": "does or doesn't need that info. Just"
+    },
+    {
+      "start": 826.16,
+      "duration": 4,
+      "text": "make sure it knows where to find it. The"
+    },
+    {
+      "start": 828.32,
+      "duration": 3.92,
+      "text": "models have good tools for search, for"
+    },
+    {
+      "start": 830.16,
+      "duration": 3.359,
+      "text": "GP, for finding information, but they"
+    },
+    {
+      "start": 832.24,
+      "duration": 3.36,
+      "text": "don't know what information they should"
+    },
+    {
+      "start": 833.519,
+      "duration": 4,
+      "text": "be finding. And making sure you give it"
+    },
+    {
+      "start": 835.6,
+      "duration": 3.84,
+      "text": "the right path to the information is one"
+    },
+    {
+      "start": 837.519,
+      "duration": 3.76,
+      "text": "of the most important pieces. So, this"
+    },
+    {
+      "start": 839.44,
+      "duration": 3.519,
+      "text": "is an example of a prompt that gets fed"
+    },
+    {
+      "start": 841.279,
+      "duration": 4.721,
+      "text": "over and over again whenever a new"
+    },
+    {
+      "start": 842.959,
+      "duration": 5.12,
+      "text": "instance is created. The task, read the"
+    },
+    {
+      "start": 846,
+      "duration": 3.68,
+      "text": "PRD file, read the progress file, check"
+    },
+    {
+      "start": 848.079,
+      "duration": 2.961,
+      "text": "codebase patterns first, check you're on"
+    },
+    {
+      "start": 849.68,
+      "duration": 2.8,
+      "text": "the correct branch. Don't think you"
+    },
+    {
+      "start": 851.04,
+      "duration": 3.28,
+      "text": "really need to have that. Pick the"
+    },
+    {
+      "start": 852.48,
+      "duration": 4.56,
+      "text": "highest priority story where passes is"
+    },
+    {
+      "start": 854.32,
+      "duration": 5.199,
+      "text": "false. Implement the one story. Run type"
+    },
+    {
+      "start": 857.04,
+      "duration": 4.799,
+      "text": "checks and tests. Update agentsmd file"
+    },
+    {
+      "start": 859.519,
+      "duration": 4.801,
+      "text": "with learnings. Commit the feature."
+    },
+    {
+      "start": 861.839,
+      "duration": 5.12,
+      "text": "Update the pd json and append learnings"
+    },
+    {
+      "start": 864.32,
+      "duration": 4.959,
+      "text": "to progress.ext. There is a problem with"
+    },
+    {
+      "start": 866.959,
+      "duration": 5.361,
+      "text": "this one which is that if it doesn't"
+    },
+    {
+      "start": 869.279,
+      "duration": 5.281,
+      "text": "finish the work in one pass, even if the"
+    },
+    {
+      "start": 872.32,
+      "duration": 5.6,
+      "text": "work is just one story, it's possible"
+    },
+    {
+      "start": 874.56,
+      "duration": 5.6,
+      "text": "one story or one task might fail or take"
+    },
+    {
+      "start": 877.92,
+      "duration": 4.719,
+      "text": "more than one run. Most of the emotions"
+    },
+    {
+      "start": 880.16,
+      "duration": 5.2,
+      "text": "I've seen here are check progress.ext"
+    },
+    {
+      "start": 882.639,
+      "duration": 4.88,
+      "text": "text to see if a task is in progress,"
+    },
+    {
+      "start": 885.36,
+      "duration": 4.32,
+      "text": "pick it up if it hasn't been completed"
+    },
+    {
+      "start": 887.519,
+      "duration": 5.041,
+      "text": "yet. And if you fail to complete it"
+    },
+    {
+      "start": 889.68,
+      "duration": 5.279,
+      "text": "before you run out of room, specify what"
+    },
+    {
+      "start": 892.56,
+      "duration": 4,
+      "text": "you learned in the process in"
+    },
+    {
+      "start": 894.959,
+      "duration": 3.761,
+      "text": "progress.ext. And then we have an"
+    },
+    {
+      "start": 896.56,
+      "duration": 4.16,
+      "text": "example of a PRD JSON. This can just be"
+    },
+    {
+      "start": 898.72,
+      "duration": 3.44,
+      "text": "a markdown file with checkboxes, too."
+    },
+    {
+      "start": 900.72,
+      "duration": 4.32,
+      "text": "This is a pretty simple format though."
+    },
+    {
+      "start": 902.16,
+      "duration": 5.2,
+      "text": "Branch name, then user stories as a"
+    },
+    {
+      "start": 905.04,
+      "duration": 4.72,
+      "text": "keyed array that has all of the stories"
+    },
+    {
+      "start": 907.36,
+      "duration": 4.4,
+      "text": "for this particular branch. Add login"
+    },
+    {
+      "start": 909.76,
+      "duration": 4.319,
+      "text": "form, acceptance criteria. These are"
+    },
+    {
+      "start": 911.76,
+      "duration": 3.759,
+      "text": "things that you expect it to do if"
+    },
+    {
+      "start": 914.079,
+      "duration": 2.641,
+      "text": "you've succeeded. They're not real"
+    },
+    {
+      "start": 915.519,
+      "duration": 3.201,
+      "text": "tests. But this is also one of those"
+    },
+    {
+      "start": 916.72,
+      "duration": 3.04,
+      "text": "things that's interesting about AI. This"
+    },
+    {
+      "start": 918.72,
+      "duration": 4,
+      "text": "is all super chaotic and"
+    },
+    {
+      "start": 919.76,
+      "duration": 6,
+      "text": "nondeterministic. But the definition of"
+    },
+    {
+      "start": 922.72,
+      "duration": 5.2,
+      "text": "criteria to accept can be a lot vagger."
+    },
+    {
+      "start": 925.76,
+      "duration": 4.079,
+      "text": "Now, it could be that you write tests"
+    },
+    {
+      "start": 927.92,
+      "duration": 3.68,
+      "text": "and make sure they pass. It could be"
+    },
+    {
+      "start": 929.839,
+      "duration": 4,
+      "text": "that this capability exists and the"
+    },
+    {
+      "start": 931.6,
+      "duration": 3.76,
+      "text": "agent goes and validates it. As long as"
+    },
+    {
+      "start": 933.839,
+      "duration": 3.841,
+      "text": "they have the right tools to validate"
+    },
+    {
+      "start": 935.36,
+      "duration": 4.479,
+      "text": "and the right knowledge to make sure of"
+    },
+    {
+      "start": 937.68,
+      "duration": 4.08,
+      "text": "the thing being real, you can kind of"
+    },
+    {
+      "start": 939.839,
+      "duration": 4.161,
+      "text": "just put a string of text here and it"
+    },
+    {
+      "start": 941.76,
+      "duration": 4.16,
+      "text": "works, which is kind of crazy but also"
+    },
+    {
+      "start": 944,
+      "duration": 4.16,
+      "text": "awesome. And then the key piece here"
+    },
+    {
+      "start": 945.92,
+      "duration": 4.479,
+      "text": "passes being a boolean where once it's"
+    },
+    {
+      "start": 948.16,
+      "duration": 4.4,
+      "text": "true, this story can now be skipped and"
+    },
+    {
+      "start": 950.399,
+      "duration": 4.56,
+      "text": "other ones can be looked at. And again,"
+    },
+    {
+      "start": 952.56,
+      "duration": 5.12,
+      "text": "the model doesn't go through this and do"
+    },
+    {
+      "start": 954.959,
+      "duration": 4.641,
+      "text": "them one at a time. It looks at the list"
+    },
+    {
+      "start": 957.68,
+      "duration": 4.159,
+      "text": "and chooses the thing it thinks is most"
+    },
+    {
+      "start": 959.6,
+      "duration": 3.679,
+      "text": "important and goes and does it. I do"
+    },
+    {
+      "start": 961.839,
+      "duration": 2.881,
+      "text": "want to talk a bit more about acceptance"
+    },
+    {
+      "start": 963.279,
+      "duration": 3.841,
+      "text": "criteria because I think there are some"
+    },
+    {
+      "start": 964.72,
+      "duration": 4.08,
+      "text": "cool things you can do here. Obviously,"
+    },
+    {
+      "start": 967.12,
+      "duration": 3.36,
+      "text": "things like unit tests are more"
+    },
+    {
+      "start": 968.8,
+      "duration": 3.279,
+      "text": "important than ever. Type checks and"
+    },
+    {
+      "start": 970.48,
+      "duration": 3.12,
+      "text": "type check passing and having the right"
+    },
+    {
+      "start": 972.079,
+      "duration": 3.44,
+      "text": "commands for the model to do a type"
+    },
+    {
+      "start": 973.6,
+      "duration": 4.4,
+      "text": "check. Really useful stuff. Adding"
+    },
+    {
+      "start": 975.519,
+      "duration": 4.161,
+      "text": "pieces like the ability to do testing in"
+    },
+    {
+      "start": 978,
+      "duration": 3.6,
+      "text": "the browser using a browser skill of"
+    },
+    {
+      "start": 979.68,
+      "duration": 4,
+      "text": "some form so it can check in Chrome that"
+    },
+    {
+      "start": 981.6,
+      "duration": 3.52,
+      "text": "things behave as expected can be really"
+    },
+    {
+      "start": 983.68,
+      "duration": 3.2,
+      "text": "helpful, but also can be expensive and"
+    },
+    {
+      "start": 985.12,
+      "duration": 3.279,
+      "text": "slow the model down quite a bit. One"
+    },
+    {
+      "start": 986.88,
+      "duration": 3.6,
+      "text": "underrated thing that I have found to"
+    },
+    {
+      "start": 988.399,
+      "duration": 4.88,
+      "text": "actually be quite useful is using an AI"
+    },
+    {
+      "start": 990.48,
+      "duration": 4.799,
+      "text": "coding CLI, for example, Code Rabbit,"
+    },
+    {
+      "start": 993.279,
+      "duration": 3.841,
+      "text": "where you can have a tool call or even"
+    },
+    {
+      "start": 995.279,
+      "duration": 4.961,
+      "text": "have this as part of the loop where"
+    },
+    {
+      "start": 997.12,
+      "duration": 5.44,
+      "text": "after a run, it runs the Code Rabbit CLI"
+    },
+    {
+      "start": 1000.24,
+      "duration": 4.159,
+      "text": "against the current diff, finds any"
+    },
+    {
+      "start": 1002.56,
+      "duration": 4.56,
+      "text": "potential things that might be wrong"
+    },
+    {
+      "start": 1004.399,
+      "duration": 4.56,
+      "text": "with that code, and then sends that as"
+    },
+    {
+      "start": 1007.12,
+      "duration": 3.68,
+      "text": "part of the context to another agent"
+    },
+    {
+      "start": 1008.959,
+      "duration": 4,
+      "text": "that will go and fix the things that it"
+    },
+    {
+      "start": 1010.8,
+      "duration": 4,
+      "text": "caught. super super helpful and can"
+    },
+    {
+      "start": 1012.959,
+      "duration": 3.921,
+      "text": "result in the code you ship being"
+    },
+    {
+      "start": 1014.8,
+      "duration": 3.76,
+      "text": "significantly nicer. I'm considering"
+    },
+    {
+      "start": 1016.88,
+      "duration": 4.079,
+      "text": "going even further and having a special"
+    },
+    {
+      "start": 1018.56,
+      "duration": 3.92,
+      "text": "git instance that only the agents use"
+    },
+    {
+      "start": 1020.959,
+      "duration": 3.6,
+      "text": "that has code rabbit running as a"
+    },
+    {
+      "start": 1022.48,
+      "duration": 3.68,
+      "text": "pre-commit hook. In fact, pre-commit"
+    },
+    {
+      "start": 1024.559,
+      "duration": 3.201,
+      "text": "hooks are one of those things that makes"
+    },
+    {
+      "start": 1026.16,
+      "duration": 3.519,
+      "text": "a lot of sense when you're building this"
+    },
+    {
+      "start": 1027.76,
+      "duration": 4,
+      "text": "way because you don't want it to commit"
+    },
+    {
+      "start": 1029.679,
+      "duration": 3.76,
+      "text": "the code unless you're sure that it"
+    },
+    {
+      "start": 1031.76,
+      "duration": 3.439,
+      "text": "works. Man, a lot of my takes on these"
+    },
+    {
+      "start": 1033.439,
+      "duration": 5.441,
+      "text": "things are changing as a result of how"
+    },
+    {
+      "start": 1035.199,
+      "duration": 5.6,
+      "text": "AI works. Like previously, I would never"
+    },
+    {
+      "start": 1038.88,
+      "duration": 4.159,
+      "text": "have wanted to add pre-commit hooks to"
+    },
+    {
+      "start": 1040.799,
+      "duration": 3.921,
+      "text": "any project because they make your life"
+    },
+    {
+      "start": 1043.039,
+      "duration": 3.841,
+      "text": "as a developer so much worse. Like the"
+    },
+    {
+      "start": 1044.72,
+      "duration": 4.88,
+      "text": "idea that you can't commit code unless I"
+    },
+    {
+      "start": 1046.88,
+      "duration": 4.72,
+      "text": "validate a bunch of things first sucks"
+    },
+    {
+      "start": 1049.6,
+      "duration": 3.84,
+      "text": "and I wouldn't want to put any human dev"
+    },
+    {
+      "start": 1051.6,
+      "duration": 3.6,
+      "text": "through that, but I gladly put some"
+    },
+    {
+      "start": 1053.44,
+      "duration": 3.359,
+      "text": "agents through it. One last important"
+    },
+    {
+      "start": 1055.2,
+      "duration": 3.2,
+      "text": "point I want to make to like help with"
+    },
+    {
+      "start": 1056.799,
+      "duration": 3.441,
+      "text": "your mental modeling here, especially as"
+    },
+    {
+      "start": 1058.4,
+      "duration": 4.48,
+      "text": "you contrast with other solutions for"
+    },
+    {
+      "start": 1060.24,
+      "duration": 4.08,
+      "text": "doing these types of big builds with AI."
+    },
+    {
+      "start": 1062.88,
+      "duration": 3.44,
+      "text": "Imagine you have a big project and"
+    },
+    {
+      "start": 1064.32,
+      "duration": 3.599,
+      "text": "you've broken it down into tasks. If you"
+    },
+    {
+      "start": 1066.32,
+      "duration": 4.8,
+      "text": "have a traditional endge job, it"
+    },
+    {
+      "start": 1067.919,
+      "duration": 6.081,
+      "text": "wouldn't be uncommon to say, \"Okay, uh,"
+    },
+    {
+      "start": 1071.12,
+      "duration": 5.12,
+      "text": "person one gets these tasks, person two"
+    },
+    {
+      "start": 1074,
+      "duration": 4.08,
+      "text": "gets these ones, and then these ones get"
+    },
+    {
+      "start": 1076.24,
+      "duration": 3.76,
+      "text": "picked up by whoever has the spare time"
+    },
+    {
+      "start": 1078.08,
+      "duration": 3.839,
+      "text": "and whoever finishes their work first.\""
+    },
+    {
+      "start": 1080,
+      "duration": 3.76,
+      "text": "You end up parallelizing a lot of the"
+    },
+    {
+      "start": 1081.919,
+      "duration": 4,
+      "text": "work. So, different things can happen at"
+    },
+    {
+      "start": 1083.76,
+      "duration": 4.24,
+      "text": "the same time. But once you do that,"
+    },
+    {
+      "start": 1085.919,
+      "duration": 3.521,
+      "text": "things get way more complex. You have to"
+    },
+    {
+      "start": 1088,
+      "duration": 2.72,
+      "text": "worry about conflicts. You have to worry"
+    },
+    {
+      "start": 1089.44,
+      "duration": 2.479,
+      "text": "about people stepping on each other's"
+    },
+    {
+      "start": 1090.72,
+      "duration": 2.88,
+      "text": "toes. You have to worry about things"
+    },
+    {
+      "start": 1091.919,
+      "duration": 5.201,
+      "text": "that might be dependent on other things."
+    },
+    {
+      "start": 1093.6,
+      "duration": 5.68,
+      "text": "It can make stuff messy fast and if you"
+    },
+    {
+      "start": 1097.12,
+      "duration": 4.4,
+      "text": "don't have memory because again that's"
+    },
+    {
+      "start": 1099.28,
+      "duration": 3.759,
+      "text": "one of the core pieces agents lose"
+    },
+    {
+      "start": 1101.52,
+      "duration": 3.039,
+      "text": "everything that they've done as soon as"
+    },
+    {
+      "start": 1103.039,
+      "duration": 3.921,
+      "text": "you hit the context window and have to"
+    },
+    {
+      "start": 1104.559,
+      "duration": 4.561,
+      "text": "compress it or move on. If you are"
+    },
+    {
+      "start": 1106.96,
+      "duration": 3.76,
+      "text": "assigned to work on tasks six, seven,"
+    },
+    {
+      "start": 1109.12,
+      "duration": 3.439,
+      "text": "and eight and it turns out seven is"
+    },
+    {
+      "start": 1110.72,
+      "duration": 4,
+      "text": "blocked by two, you're going to keep"
+    },
+    {
+      "start": 1112.559,
+      "duration": 3.841,
+      "text": "getting stuck realizing that over and"
+    },
+    {
+      "start": 1114.72,
+      "duration": 3.92,
+      "text": "over again because that knowledge isn't"
+    },
+    {
+      "start": 1116.4,
+      "duration": 4,
+      "text": "going to stay present unless you have a"
+    },
+    {
+      "start": 1118.64,
+      "duration": 4,
+      "text": "way to do it. A big part of why the"
+    },
+    {
+      "start": 1120.4,
+      "duration": 5.2,
+      "text": "Ralph loops are interesting is it throws"
+    },
+    {
+      "start": 1122.64,
+      "duration": 5.36,
+      "text": "that whole model away. Instead of trying"
+    },
+    {
+      "start": 1125.6,
+      "duration": 4.319,
+      "text": "to split the work up into various groups"
+    },
+    {
+      "start": 1128,
+      "duration": 4.88,
+      "text": "that can be done by different people in"
+    },
+    {
+      "start": 1129.919,
+      "duration": 4.561,
+      "text": "parallel, it says, \"Hey, model, pick"
+    },
+    {
+      "start": 1132.88,
+      "duration": 3.76,
+      "text": "what you think is most important to do"
+    },
+    {
+      "start": 1134.48,
+      "duration": 4.16,
+      "text": "first.\" And it says, \"Okay, task six.\""
+    },
+    {
+      "start": 1136.64,
+      "duration": 4.159,
+      "text": "So, it does six. And then it completes"
+    },
+    {
+      "start": 1138.64,
+      "duration": 4.399,
+      "text": "it. Now, it's green because it's done."
+    },
+    {
+      "start": 1140.799,
+      "duration": 3.681,
+      "text": "Then you ask again, \"What remaining task"
+    },
+    {
+      "start": 1143.039,
+      "duration": 3.041,
+      "text": "is most important?\" It looks at them"
+    },
+    {
+      "start": 1144.48,
+      "duration": 3.84,
+      "text": "all, says, \"I'm going to do three.\""
+    },
+    {
+      "start": 1146.08,
+      "duration": 5.2,
+      "text": "Okay, it does three. Now that's done."
+    },
+    {
+      "start": 1148.32,
+      "duration": 5.12,
+      "text": "And what happens is it is done linearly."
+    },
+    {
+      "start": 1151.28,
+      "duration": 3.68,
+      "text": "It is not done in a fixed order. It's"
+    },
+    {
+      "start": 1153.44,
+      "duration": 4.32,
+      "text": "not one then two then three then four"
+    },
+    {
+      "start": 1154.96,
+      "duration": 5.52,
+      "text": "then five then six. But it is done"
+    },
+    {
+      "start": 1157.76,
+      "duration": 4.96,
+      "text": "linearly. It's six then three then one"
+    },
+    {
+      "start": 1160.48,
+      "duration": 4.4,
+      "text": "then two. Not six and seven being done"
+    },
+    {
+      "start": 1162.72,
+      "duration": 3.839,
+      "text": "at the same time as one and two are. By"
+    },
+    {
+      "start": 1164.88,
+      "duration": 3.12,
+      "text": "throwing away the parallelism aspect."
+    },
+    {
+      "start": 1166.559,
+      "duration": 3.281,
+      "text": "You end up reducing a lot of the"
+    },
+    {
+      "start": 1168,
+      "duration": 4.32,
+      "text": "complexity which allows this method to"
+    },
+    {
+      "start": 1169.84,
+      "duration": 4.56,
+      "text": "be more reliable. That said, if the work"
+    },
+    {
+      "start": 1172.32,
+      "duration": 4.08,
+      "text": "is separated enough, like tasks one and"
+    },
+    {
+      "start": 1174.4,
+      "duration": 4.159,
+      "text": "two really are super different from"
+    },
+    {
+      "start": 1176.4,
+      "duration": 4.56,
+      "text": "tasks seven and eight and you are"
+    },
+    {
+      "start": 1178.559,
+      "duration": 4.24,
+      "text": "watching closely, maybe you can split"
+    },
+    {
+      "start": 1180.96,
+      "duration": 3.28,
+      "text": "those up into parallel agents on your"
+    },
+    {
+      "start": 1182.799,
+      "duration": 3.201,
+      "text": "machine. But if I've learned anything"
+    },
+    {
+      "start": 1184.24,
+      "duration": 3.679,
+      "text": "from my time building with these tools,"
+    },
+    {
+      "start": 1186,
+      "duration": 3.52,
+      "text": "it's that doing things in parallel can"
+    },
+    {
+      "start": 1187.919,
+      "duration": 3.041,
+      "text": "get really frustrating really fast"
+    },
+    {
+      "start": 1189.52,
+      "duration": 3.2,
+      "text": "because our development environments"
+    },
+    {
+      "start": 1190.96,
+      "duration": 3.2,
+      "text": "just aren't built for that yet. If"
+    },
+    {
+      "start": 1192.72,
+      "duration": 3.44,
+      "text": "you're running background agents using"
+    },
+    {
+      "start": 1194.16,
+      "duration": 4.16,
+      "text": "tools like Cloud Code for web, like"
+    },
+    {
+      "start": 1196.16,
+      "duration": 4.56,
+      "text": "Devon, like whatever the heck GitHub is"
+    },
+    {
+      "start": 1198.32,
+      "duration": 4.56,
+      "text": "doing now or cursors background stuff,"
+    },
+    {
+      "start": 1200.72,
+      "duration": 3.6,
+      "text": "then it might work. But I've just yet to"
+    },
+    {
+      "start": 1202.88,
+      "duration": 2.88,
+      "text": "find a workflow where that works well"
+    },
+    {
+      "start": 1204.32,
+      "duration": 3.84,
+      "text": "for me. I still prefer running these"
+    },
+    {
+      "start": 1205.76,
+      "duration": 4,
+      "text": "things on my machine with my tools. One"
+    },
+    {
+      "start": 1208.16,
+      "duration": 3.68,
+      "text": "last thing, cuz I think it's important"
+    },
+    {
+      "start": 1209.76,
+      "duration": 4.56,
+      "text": "to understand the range of opinions"
+    },
+    {
+      "start": 1211.84,
+      "duration": 5.76,
+      "text": "here. Peter here is one of the most"
+    },
+    {
+      "start": 1214.32,
+      "duration": 4.96,
+      "text": "talented agentic coders I've ever seen."
+    },
+    {
+      "start": 1217.6,
+      "duration": 3.76,
+      "text": "He was a very legit engineer before the"
+    },
+    {
+      "start": 1219.28,
+      "duration": 4.16,
+      "text": "AI stuff. He had an exit. He's doing"
+    },
+    {
+      "start": 1221.36,
+      "duration": 4.24,
+      "text": "very well and he's coming back into"
+    },
+    {
+      "start": 1223.44,
+      "duration": 3.84,
+      "text": "coding more than ever. I showed his"
+    },
+    {
+      "start": 1225.6,
+      "duration": 4.319,
+      "text": "GitHub before. It legitimately looks"
+    },
+    {
+      "start": 1227.28,
+      "duration": 4.16,
+      "text": "like unbelievable because he has so many"
+    },
+    {
+      "start": 1229.919,
+      "duration": 4.481,
+      "text": "projects that he has been working on"
+    },
+    {
+      "start": 1231.44,
+      "duration": 4.479,
+      "text": "actively recently. Like it's just crazy."
+    },
+    {
+      "start": 1234.4,
+      "duration": 5.12,
+      "text": "There are individual days where he's"
+    },
+    {
+      "start": 1235.919,
+      "duration": 5.76,
+      "text": "shipping over 500 commits. He did 534 on"
+    },
+    {
+      "start": 1239.52,
+      "duration": 3.68,
+      "text": "December 28th. Unreal. So you'd imagine"
+    },
+    {
+      "start": 1241.679,
+      "duration": 4.721,
+      "text": "someone like this is Ralph looping super"
+    },
+    {
+      "start": 1243.2,
+      "duration": 5.92,
+      "text": "hard, right? Nope. He mostly uses"
+    },
+    {
+      "start": 1246.4,
+      "duration": 4.88,
+      "text": "Codeex. I found that codeex is actually"
+    },
+    {
+      "start": 1249.12,
+      "duration": 4.48,
+      "text": "quite good at these super longunning"
+    },
+    {
+      "start": 1251.28,
+      "duration": 3.92,
+      "text": "tasks and tends to be better at honoring"
+    },
+    {
+      "start": 1253.6,
+      "duration": 3.439,
+      "text": "the original intent of the original"
+    },
+    {
+      "start": 1255.2,
+      "duration": 3.68,
+      "text": "prompt when it does its compaction when"
+    },
+    {
+      "start": 1257.039,
+      "duration": 4,
+      "text": "it runs for a while. Here is a change"
+    },
+    {
+      "start": 1258.88,
+      "duration": 4.56,
+      "text": "that he had it make that touched 393"
+    },
+    {
+      "start": 1261.039,
+      "duration": 4.961,
+      "text": "files, added 8,000 lines of code, and"
+    },
+    {
+      "start": 1263.44,
+      "duration": 4.32,
+      "text": "deleted almost 7,000. Someone assumed"
+    },
+    {
+      "start": 1266,
+      "duration": 3.679,
+      "text": "the prompt he used for this was super"
+    },
+    {
+      "start": 1267.76,
+      "duration": 4.96,
+      "text": "complex and probably took a ton of"
+    },
+    {
+      "start": 1269.679,
+      "duration": 5.281,
+      "text": "steps. It wasn't. He said, \"Rename"
+    },
+    {
+      "start": 1272.72,
+      "duration": 4.079,
+      "text": "providers to messaging channels.\" That"
+    },
+    {
+      "start": 1274.96,
+      "duration": 4.16,
+      "text": "was the whole prompt. and the model was"
+    },
+    {
+      "start": 1276.799,
+      "duration": 4,
+      "text": "able to go and do that for a super long"
+    },
+    {
+      "start": 1279.12,
+      "duration": 3.439,
+      "text": "time. So if your reason for using"
+    },
+    {
+      "start": 1280.799,
+      "duration": 3.841,
+      "text": "something like a Ralph loop is just to"
+    },
+    {
+      "start": 1282.559,
+      "duration": 4.321,
+      "text": "complete longer tasks or have it work on"
+    },
+    {
+      "start": 1284.64,
+      "duration": 4.399,
+      "text": "a thing for a longer amount of time, you"
+    },
+    {
+      "start": 1286.88,
+      "duration": 4.08,
+      "text": "probably don't need it. I have had this"
+    },
+    {
+      "start": 1289.039,
+      "duration": 3.601,
+      "text": "annoyance myself where I was writing a"
+    },
+    {
+      "start": 1290.96,
+      "duration": 3.68,
+      "text": "plan, got it to approve the plan and"
+    },
+    {
+      "start": 1292.64,
+      "duration": 3.36,
+      "text": "said, \"Okay, implement it.\" Then it"
+    },
+    {
+      "start": 1294.64,
+      "duration": 3.44,
+      "text": "stopped halfway through. It's like,"
+    },
+    {
+      "start": 1296,
+      "duration": 3.44,
+      "text": "\"Okay, I finished phase one. Let me know"
+    },
+    {
+      "start": 1298.08,
+      "duration": 3.44,
+      "text": "what you think and when I should start"
+    },
+    {
+      "start": 1299.44,
+      "duration": 4.32,
+      "text": "phase two.\" Does the Ralph loop solve"
+    },
+    {
+      "start": 1301.52,
+      "duration": 5.84,
+      "text": "for this? Kind of. But it's still"
+    },
+    {
+      "start": 1303.76,
+      "duration": 5.68,
+      "text": "annoying as hell. just absurdly so. And"
+    },
+    {
+      "start": 1307.36,
+      "duration": 4.72,
+      "text": "I don't think that's the point either."
+    },
+    {
+      "start": 1309.44,
+      "duration": 5.2,
+      "text": "The goal of a Ralph loop isn't to solve"
+    },
+    {
+      "start": 1312.08,
+      "duration": 4.64,
+      "text": "the problem that the agent stops too"
+    },
+    {
+      "start": 1314.64,
+      "duration": 4,
+      "text": "early. The goal of the Ralph loop is to"
+    },
+    {
+      "start": 1316.72,
+      "duration": 4.24,
+      "text": "let you build an entirely different way"
+    },
+    {
+      "start": 1318.64,
+      "duration": 4.72,
+      "text": "where you are orchestrating agents in a"
+    },
+    {
+      "start": 1320.96,
+      "duration": 5.04,
+      "text": "linear fashion to do lots of different"
+    },
+    {
+      "start": 1323.36,
+      "duration": 4.4,
+      "text": "pieces of related work as part of a PRD"
+    },
+    {
+      "start": 1326,
+      "duration": 3.76,
+      "text": "doc. This longer running work is a big"
+    },
+    {
+      "start": 1327.76,
+      "duration": 4.399,
+      "text": "part of why Pete prefers codeex and GPT"
+    },
+    {
+      "start": 1329.76,
+      "duration": 4.24,
+      "text": "5.2 over cloud code. He's even specified"
+    },
+    {
+      "start": 1332.159,
+      "duration": 5.441,
+      "text": "in his writing in the past that he has"
+    },
+    {
+      "start": 1334,
+      "duration": 5.2,
+      "text": "it unslopping old crimes from Opus 4.0."
+    },
+    {
+      "start": 1337.6,
+      "duration": 3.28,
+      "text": "And the big difference with codeex is it"
+    },
+    {
+      "start": 1339.2,
+      "duration": 3.359,
+      "text": "will just silently read files for 10 to"
+    },
+    {
+      "start": 1340.88,
+      "duration": 3.279,
+      "text": "15 minutes before it even starts writing"
+    },
+    {
+      "start": 1342.559,
+      "duration": 2.721,
+      "text": "code. On one hand, that's annoying. On"
+    },
+    {
+      "start": 1344.159,
+      "duration": 2.4,
+      "text": "the other, it's amazing because it"
+    },
+    {
+      "start": 1345.28,
+      "duration": 3.68,
+      "text": "greatly increases the chance that it"
+    },
+    {
+      "start": 1346.559,
+      "duration": 4.401,
+      "text": "fixes the right thing. Opus is much more"
+    },
+    {
+      "start": 1348.96,
+      "duration": 4.48,
+      "text": "eager, which is great for small edits,"
+    },
+    {
+      "start": 1350.96,
+      "duration": 4.32,
+      "text": "but not so good for larger refactors or"
+    },
+    {
+      "start": 1353.44,
+      "duration": 3.52,
+      "text": "features. And as he specifies here, it"
+    },
+    {
+      "start": 1355.28,
+      "duration": 2.879,
+      "text": "often doesn't read the whole file or"
+    },
+    {
+      "start": 1356.96,
+      "duration": 2.64,
+      "text": "misses parts and then delivers"
+    },
+    {
+      "start": 1358.159,
+      "duration": 3.921,
+      "text": "inefficient outcomes or misses"
+    },
+    {
+      "start": 1359.6,
+      "duration": 4.559,
+      "text": "something. Remember earlier the file"
+    },
+    {
+      "start": 1362.08,
+      "duration": 4.32,
+      "text": "here study spec/readme study"
+    },
+    {
+      "start": 1364.159,
+      "duration": 4.321,
+      "text": "specs/analytics implementation plan."
+    },
+    {
+      "start": 1366.4,
+      "duration": 3.84,
+      "text": "These are things being used to make it"
+    },
+    {
+      "start": 1368.48,
+      "duration": 3.679,
+      "text": "more likely the model starts from the"
+    },
+    {
+      "start": 1370.24,
+      "duration": 3.919,
+      "text": "right place cuz that's really what this"
+    },
+    {
+      "start": 1372.159,
+      "duration": 3.841,
+      "text": "all comes down to. The models are no"
+    },
+    {
+      "start": 1374.159,
+      "duration": 3.121,
+      "text": "better than the context they have."
+    },
+    {
+      "start": 1376,
+      "duration": 2.96,
+      "text": "Everything we've talked today, be it"
+    },
+    {
+      "start": 1377.28,
+      "duration": 4.96,
+      "text": "Ralph loops, be it the way Pete uses"
+    },
+    {
+      "start": 1378.96,
+      "duration": 5.44,
+      "text": "codecs, be it all of the PRD stuff, it's"
+    },
+    {
+      "start": 1382.24,
+      "duration": 3.52,
+      "text": "all about context engineering. And I've"
+    },
+    {
+      "start": 1384.4,
+      "duration": 2.8,
+      "text": "avoided using that term until now"
+    },
+    {
+      "start": 1385.76,
+      "duration": 3.12,
+      "text": "because I know as soon as I say it,"
+    },
+    {
+      "start": 1387.2,
+      "duration": 3.76,
+      "text": "people's ears will just fall off and"
+    },
+    {
+      "start": 1388.88,
+      "duration": 4.08,
+      "text": "their brains will fall out. That is a"
+    },
+    {
+      "start": 1390.96,
+      "duration": 4.32,
+      "text": "thing that matters now. Making sure the"
+    },
+    {
+      "start": 1392.96,
+      "duration": 4.4,
+      "text": "right cargo is on the train before it"
+    },
+    {
+      "start": 1395.28,
+      "duration": 3.92,
+      "text": "goes off is a big part of how these"
+    },
+    {
+      "start": 1397.36,
+      "duration": 3.92,
+      "text": "tools work and how we should use them"
+    },
+    {
+      "start": 1399.2,
+      "duration": 4.56,
+      "text": "properly. And the point of all of this"
+    },
+    {
+      "start": 1401.28,
+      "duration": 4.24,
+      "text": "is to do better context engineering to"
+    },
+    {
+      "start": 1403.76,
+      "duration": 3.919,
+      "text": "set the agent up for the highest"
+    },
+    {
+      "start": 1405.52,
+      "duration": 4,
+      "text": "likelihood of success. So in the end, a"
+    },
+    {
+      "start": 1407.679,
+      "duration": 4.401,
+      "text": "Ralph loop is just calling an agent in a"
+    },
+    {
+      "start": 1409.52,
+      "duration": 4.399,
+      "text": "loop via bash. How it's actually done"
+    },
+    {
+      "start": 1412.08,
+      "duration": 3.52,
+      "text": "varies a lot. And hopefully what you get"
+    },
+    {
+      "start": 1413.919,
+      "duration": 3.76,
+      "text": "out of this isn't I should go use a"
+    },
+    {
+      "start": 1415.6,
+      "duration": 4,
+      "text": "Ralph loop. Rather, you're rethinking"
+    },
+    {
+      "start": 1417.679,
+      "duration": 3.761,
+      "text": "how you manage the context of your"
+    },
+    {
+      "start": 1419.6,
+      "duration": 3.6,
+      "text": "agents as you are using them to build"
+    },
+    {
+      "start": 1421.44,
+      "duration": 2.88,
+      "text": "real software. This has been a chaotic"
+    },
+    {
+      "start": 1423.2,
+      "duration": 2.4,
+      "text": "journey, but I hope you learned"
+    },
+    {
+      "start": 1424.32,
+      "duration": 3.2,
+      "text": "something from it from the history of"
+    },
+    {
+      "start": 1425.6,
+      "duration": 3.84,
+      "text": "Ralph loops to why they are useful. This"
+    },
+    {
+      "start": 1427.52,
+      "duration": 3.92,
+      "text": "is a whole new world we're diving into,"
+    },
+    {
+      "start": 1429.44,
+      "duration": 3.68,
+      "text": "and I get why people are excited. But we"
+    },
+    {
+      "start": 1431.44,
+      "duration": 3.359,
+      "text": "really should try to learn the lessons"
+    },
+    {
+      "start": 1433.12,
+      "duration": 3.28,
+      "text": "rather than the terms and tools that"
+    },
+    {
+      "start": 1434.799,
+      "duration": 2.88,
+      "text": "people are hyped about. Hopefully, this"
+    },
+    {
+      "start": 1436.4,
+      "duration": 2.56,
+      "text": "helps break that down for you. I know"
+    },
+    {
+      "start": 1437.679,
+      "duration": 2.401,
+      "text": "it's been helpful as I've been learning"
+    },
+    {
+      "start": 1438.96,
+      "duration": 5.04,
+      "text": "these things. Let me know what you"
+    },
+    {
+      "start": 1440.08,
+      "duration": 3.92,
+      "text": "think. And until next time, peace nerds."
+    }
+  ],
+  "fullText": "Okay, fine. I'll talk about Ralph loops. You guys have been asking for a while, and they are a really interesting topic. They originally introduced by Jeff Huntley all the way back in July, but there's been a huge surge in interest that is from a handful of different things, all of which we'll talk about. There are really cool things you can build with Ralph loops. They meaningfully increase the scope of the tasks you can hand off to an AI and expect it to complete. That said, there are a lot of different ways to do Ralph loops that vary in how useful they are and how much they follow the original vibe of what Jeff was trying to create with the loops. Ryan Carson did a pretty good job breaking down a step-by-step guide on how to get Ralph loops working and shipping code. He even put up a GitHub repo that describes a lot of this, includes a Ralph.sh file and everything else you need. And Jeff replied, \"This isn't it.\" with a link to a video about specifically why claude codes implementation is not actually Ralph loops. So the plugin you might be using in things like cloud code probably isn't a proper Ralph loop. There are a lot of personal implementations like Ben has his that he was using for an Elixir app. Mickey from Convex has one that he put up here that has a lot of customization, additional features. There's a lot to talk about here and I want to try and break it down so you can understand what a Ralph loop is whether or not you want to use it and most importantly how you can bring these ideas into your day-to-day work to be more effective as you use AI tools. That said, I do have to quote Lee Quick. She Ralph on my wigum until I merge. I'm going to need therapy after that one. So, let's hear a quick word from today's sponsor before I go further. We recently added a feature to T3 chat that I'm really pumped about. We added the option for you to sync your API keys across different clients, which I was really scared to do because I don't want to be storing your API keys for various services. That's a massive risk. We wanted to make sure if we did it, we did it right, which is why I'm so pumped today's sponsor has an awesome feature for this. The vault on work OS has made this much easier for us to implement. They have two options for how you can use it. The obvious way, which is they store the data and then you can access it through their client, but they also have a much cooler way where you store the data. they just have the decryption part on their side. So when a user tries to access the data, they just get a nonsense encrypted blob, unless they are the right user, in which case it works perfectly. And if you have users that want to manage the encryption themselves, they support that too. A given user can bring their own key, not have it stored in vault, and everything will still just work. This is how works tends to do things. They're not just thinking about how do we get this working on your indie side project. They're thinking about how you make this work at enterprise scale. How do you handle all the edge cases and weird expectations that enterprises want without compromising on your developer experience as a small team of people that are building applications that are now competing with these giant companies? That's why everyone from OpenAI to Enthropic to Cursor, Perplexity, Verscell, FA, you get the idea. Everyone's making the move to work OS, including ourselves with T3 chat. What are you waiting for? Try them out now at soy.link/workos. Before we dive into the history, I think it's important to have a vague idea of what a Ralph loop is. To put it simply, it's executing your AI agents in a bash loop so they keep going as long as they need to. The way this is implemented can vary a lot, but if we go to the original Ralph post here, you can see the example while true do cat prompt MD pipe that to claude code and just keep doing this. This version will literally run forever and you have to manually stop it. And this is what the creator of the Ralph loop mostly does. said creator of the Ralph Loop put together one of the most chaotic videos I've ever seen all about this. It's not the easiest watch. It will be linked in the description if you're curious, but I'm going to do my best to distill the lessons from here and the values you can get from it and how you build. I think there are a lot of things we can learn from this strategy, even if we don't necessarily use it the specific proposed way. Jeff originally made the Ralph loop to build something pretty crazy, which was a full programming language from scratch. I actually already made a video about this way back when he did it because I thought it was so cool. But in order for it to do this, you have to change the way the agents execute. Big part of how agents execute is the context. When you are doing work with a tool like claude code, the history is being passed in for the token generation. You have to remember the way AI works is just next token prediction. So if I say the capital of the United States is, all the AI is doing is guessing what the next word would be based on all the previous things in context. It does this through a crazy mapping of parameters that allow it to calculate based on the current history of the chat and the tokens that it has what the most likely next token is. There are catches here though, in particular, context limits. You can only have so much text in the context before these prediction algorithms get really bad. Some models can go much further than others, but that doesn't really matter when the quality goes down as a result. There's a term for the quality going down, context rot, and it's really important to remember this because it's a big part of why Ralph loops are so interesting. Context rot happens when there is too much information in the context, which causes the models to behave worse. The solution tools like Cloud Code have for this is compaction. And you can trigger it by hand by typing /compact or if you go over the context window, it will do a compaction for you where it sends the existing history to a model says, \"Hey, summarize this and pull out any key details and then it uses that as the history instead.\" So as you're doing a back and forth with an AI agent like cloud code curse or whatever else every time you send a message that gets added to the context then the model does a bunch of stuff. This is now added to the context. Then you send a followup then the model adds even more and every time anything is happening it is appending. So this first message might be 20 tokens. The response you get might be I don't know let's say 5,000 tokens. He's another 20 token follow-up and then another 5,000 tokens. When you send this 20 token followup, the model isn't parsing just those 20 tokens. It's the 20 plus the 20 plus the 5,000 from before because it is going through and sending the whole history. When you send a message, everything before it is sent. And then when you hit the limit or even just get to the point where the context is too bloated and the accuracy goes down, things get worse. And as I said before, the solution most tools use is once they have this and it's too long, the system will send a prompt that is effectively summarize please. This summary gets sent up to be a whole new thing. We'll say that the summary context is blue and it will take these 20,000 tokens and make it a much smaller number. We'll say 5k tokens of summary and then the model continues generating like nothing happened. Kind of though there are a lot of problems with this. there are details that might get lost like let's say you have a really important detail here like always read this specific file and then when the model compacts your context it loses that instruction. Now whatever context you thought was important from here is lost as well. One of the key points of a Ralph loop is to throw this whole compaction model away. Instead of having each prompt add on to your history. The goal of a Ralph loop is to break out every follow-up prompt as its own new history. There is a problem here though. If you have information that was important in the history, you lose it. And that is where a lot of the implementation details of the Ralph loop come in. All of the details, all the implementation, all of the things that make it interesting are how do you get the right information into this prompt so that you can run this in a loop. Instead of getting to the end and then sending a follow-up, what if you get to the end, you update some piece of important information and then start a new instance from scratch that will continue the work that was happening previously. Imagine a really good engineer whose brain gets wiped whenever they do too much work at once. So if you you have this incredible engineer that can build anything, but once they have done too many lines of code, their memory gets wiped and they have to start from scratch. You're effectively building techniques to catch them back up the right amount fast enough that they can get back to work efficiently. And that's where a lot of the interesting parts of Ralph loops come in. I like how Ryan breaks this down, even if it's not a proper Ralph loop. I think it's a good example. It's a bash loop that pipes a prompt into your agent. The agent picks the next story from a PRD, which is a plan document that describes the work you want done. The agent implements that story from it. It runs type checks and tests. It commits if passing, marks the story done, logs the learnings, loops and repeats until all of the work is done. And this is the key, the memory persistence. It only persists things information memory by making git commits. So it's staying there by updating a progress.ext file with the things it learns. So instead of keeping the whole context, it just keeps the important key parts. And the prdson which keeps track of all of the statuses for all of the tasks that are being completed. There are lots of different ways to implement this. For example, the original creator, what he suggests doing is going back and forth with the model a bunch to write a thorough plan for what you want to have done that has all of the different tasks that need to be completed in it. Have that in a file in the codebase somewhere. In this case, it's inspect/analytics implementation plan.mmd. And the important instruction here of pick the most important thing to do, not go through this in order. Pick what you think is most important on here and work on that. And once it's completed, the next time you run it, it will pick something different. And this markdown file is updated when it is completing a task. So he put in here, update the implementation plan when the task is done. That's the key. But this is also where the Ralph Wigum plugin for Claude code starts to have problems. The original limitation was Jeff Huntley's simple while true loop. This plugin works quite a bit differently. The loop happens inside your current session, which sounds really convenient, but sadly causes its own set of problems because when it runs in one session, it no longer has the clean history to start from. It's constantly overflowing the context window and then having to go back and compact and losing track of what it's doing. Sometimes as a result, if you think of these things as boxes or layers where we have on the outside here, this is cloud code. In an ideal world, following the official Ralph Wigan mindset, the Ralph loop is a thing that exists outside of Claude Code because then it can kill it and reinstantiate it whenever it wants to. And Claude Code's history doesn't get to control anything like it is effectively taking Cloud Code out of control and the source of truth is now the markdown or JSON file that describes the work being done and the bash loop that is triggering the work to then continue with a fresh agent. The problem with the plugin is that it inverses this where instead of the Ralph loop controlling Cloud Code, Claude Code controls the Ralph loop which means a lot of those benefits disappear immediately. You're effectively with this plugin preventing Claude code from saying I am done. If that is all you want the Ralph loop for, you want it to just keep going indefinitely and you don't care about the compaction and you think it works fine with the higher amounts of context and the potential loss of important data from the original prompt. Cool. You can do that. But I've personally not had much success with this and I think a lot of the people that are struggling with Ralph loops are probably using it that way too. I know that's how I was using it and I wasn't seeing much. But when I talked to people like Ben who have been using it the other way where he wraps open code with it on the outside with a script, they have seen much more success and I'm planning on trying this myself too. One more important piece is how do you determine when it is done? The classic Ralph loop implementation is to stop it by hand. a person comes in and halts it when they think the work is probably done. For various reasons, this might not be ideal, which is why other implementations include some way for the model to indicate that the work is completed. For example, Ryan's implementation, he specifies to the model in the prompt that when it is completed all of the work in the planning file, it should output promise complete close promise. And if we see this inside of the results, then we exit the loop. Otherwise, we keep going. You can also set a number of max iterations so that if it goes for too long, it will automatically stop. Not everybody does this, including Jeff, but you probably should do this just to make sure you don't waste all of your tokens. And this will burn tokens, by the way. I'm sure you know that going in, but make sure you know that as you go in. Ryan also posted examples of a prompt MD as well as the PRD JSON. It is missing a bit of important info at the top here. Like I really like in Jeff's video he specifies at the top study the specme file which is the file that includes all of the specs and roughly what the project is and how it works so it has the right amount of context in the right context when it starts and then also study the implementation plan that you're building and pick the most important thing to do. This gives you the right context at the start which is one of the most important things. If you don't have the whole history because you don't keep the history anymore, you need to put work in to make sure that the right information is inside of this first piece. Not necessarily everything it needs to know about the codebase, but the instructions on what tople things it needs to know about the codebase, as well as instructions on how to find more information that it might need. Counterintuitively, it's actually totally okay if in this box you tell it to go read some file and then it has to do work in every single one of these instances to get the contents of that file. That might seem like a waste. Like why not just put that information in directly? There's a bunch of reasons why, but let the model determine if it does or doesn't need that info. Just make sure it knows where to find it. The models have good tools for search, for GP, for finding information, but they don't know what information they should be finding. And making sure you give it the right path to the information is one of the most important pieces. So, this is an example of a prompt that gets fed over and over again whenever a new instance is created. The task, read the PRD file, read the progress file, check codebase patterns first, check you're on the correct branch. Don't think you really need to have that. Pick the highest priority story where passes is false. Implement the one story. Run type checks and tests. Update agentsmd file with learnings. Commit the feature. Update the pd json and append learnings to progress.ext. There is a problem with this one which is that if it doesn't finish the work in one pass, even if the work is just one story, it's possible one story or one task might fail or take more than one run. Most of the emotions I've seen here are check progress.ext text to see if a task is in progress, pick it up if it hasn't been completed yet. And if you fail to complete it before you run out of room, specify what you learned in the process in progress.ext. And then we have an example of a PRD JSON. This can just be a markdown file with checkboxes, too. This is a pretty simple format though. Branch name, then user stories as a keyed array that has all of the stories for this particular branch. Add login form, acceptance criteria. These are things that you expect it to do if you've succeeded. They're not real tests. But this is also one of those things that's interesting about AI. This is all super chaotic and nondeterministic. But the definition of criteria to accept can be a lot vagger. Now, it could be that you write tests and make sure they pass. It could be that this capability exists and the agent goes and validates it. As long as they have the right tools to validate and the right knowledge to make sure of the thing being real, you can kind of just put a string of text here and it works, which is kind of crazy but also awesome. And then the key piece here passes being a boolean where once it's true, this story can now be skipped and other ones can be looked at. And again, the model doesn't go through this and do them one at a time. It looks at the list and chooses the thing it thinks is most important and goes and does it. I do want to talk a bit more about acceptance criteria because I think there are some cool things you can do here. Obviously, things like unit tests are more important than ever. Type checks and type check passing and having the right commands for the model to do a type check. Really useful stuff. Adding pieces like the ability to do testing in the browser using a browser skill of some form so it can check in Chrome that things behave as expected can be really helpful, but also can be expensive and slow the model down quite a bit. One underrated thing that I have found to actually be quite useful is using an AI coding CLI, for example, Code Rabbit, where you can have a tool call or even have this as part of the loop where after a run, it runs the Code Rabbit CLI against the current diff, finds any potential things that might be wrong with that code, and then sends that as part of the context to another agent that will go and fix the things that it caught. super super helpful and can result in the code you ship being significantly nicer. I'm considering going even further and having a special git instance that only the agents use that has code rabbit running as a pre-commit hook. In fact, pre-commit hooks are one of those things that makes a lot of sense when you're building this way because you don't want it to commit the code unless you're sure that it works. Man, a lot of my takes on these things are changing as a result of how AI works. Like previously, I would never have wanted to add pre-commit hooks to any project because they make your life as a developer so much worse. Like the idea that you can't commit code unless I validate a bunch of things first sucks and I wouldn't want to put any human dev through that, but I gladly put some agents through it. One last important point I want to make to like help with your mental modeling here, especially as you contrast with other solutions for doing these types of big builds with AI. Imagine you have a big project and you've broken it down into tasks. If you have a traditional endge job, it wouldn't be uncommon to say, \"Okay, uh, person one gets these tasks, person two gets these ones, and then these ones get picked up by whoever has the spare time and whoever finishes their work first.\" You end up parallelizing a lot of the work. So, different things can happen at the same time. But once you do that, things get way more complex. You have to worry about conflicts. You have to worry about people stepping on each other's toes. You have to worry about things that might be dependent on other things. It can make stuff messy fast and if you don't have memory because again that's one of the core pieces agents lose everything that they've done as soon as you hit the context window and have to compress it or move on. If you are assigned to work on tasks six, seven, and eight and it turns out seven is blocked by two, you're going to keep getting stuck realizing that over and over again because that knowledge isn't going to stay present unless you have a way to do it. A big part of why the Ralph loops are interesting is it throws that whole model away. Instead of trying to split the work up into various groups that can be done by different people in parallel, it says, \"Hey, model, pick what you think is most important to do first.\" And it says, \"Okay, task six.\" So, it does six. And then it completes it. Now, it's green because it's done. Then you ask again, \"What remaining task is most important?\" It looks at them all, says, \"I'm going to do three.\" Okay, it does three. Now that's done. And what happens is it is done linearly. It is not done in a fixed order. It's not one then two then three then four then five then six. But it is done linearly. It's six then three then one then two. Not six and seven being done at the same time as one and two are. By throwing away the parallelism aspect. You end up reducing a lot of the complexity which allows this method to be more reliable. That said, if the work is separated enough, like tasks one and two really are super different from tasks seven and eight and you are watching closely, maybe you can split those up into parallel agents on your machine. But if I've learned anything from my time building with these tools, it's that doing things in parallel can get really frustrating really fast because our development environments just aren't built for that yet. If you're running background agents using tools like Cloud Code for web, like Devon, like whatever the heck GitHub is doing now or cursors background stuff, then it might work. But I've just yet to find a workflow where that works well for me. I still prefer running these things on my machine with my tools. One last thing, cuz I think it's important to understand the range of opinions here. Peter here is one of the most talented agentic coders I've ever seen. He was a very legit engineer before the AI stuff. He had an exit. He's doing very well and he's coming back into coding more than ever. I showed his GitHub before. It legitimately looks like unbelievable because he has so many projects that he has been working on actively recently. Like it's just crazy. There are individual days where he's shipping over 500 commits. He did 534 on December 28th. Unreal. So you'd imagine someone like this is Ralph looping super hard, right? Nope. He mostly uses Codeex. I found that codeex is actually quite good at these super longunning tasks and tends to be better at honoring the original intent of the original prompt when it does its compaction when it runs for a while. Here is a change that he had it make that touched 393 files, added 8,000 lines of code, and deleted almost 7,000. Someone assumed the prompt he used for this was super complex and probably took a ton of steps. It wasn't. He said, \"Rename providers to messaging channels.\" That was the whole prompt. and the model was able to go and do that for a super long time. So if your reason for using something like a Ralph loop is just to complete longer tasks or have it work on a thing for a longer amount of time, you probably don't need it. I have had this annoyance myself where I was writing a plan, got it to approve the plan and said, \"Okay, implement it.\" Then it stopped halfway through. It's like, \"Okay, I finished phase one. Let me know what you think and when I should start phase two.\" Does the Ralph loop solve for this? Kind of. But it's still annoying as hell. just absurdly so. And I don't think that's the point either. The goal of a Ralph loop isn't to solve the problem that the agent stops too early. The goal of the Ralph loop is to let you build an entirely different way where you are orchestrating agents in a linear fashion to do lots of different pieces of related work as part of a PRD doc. This longer running work is a big part of why Pete prefers codeex and GPT 5.2 over cloud code. He's even specified in his writing in the past that he has it unslopping old crimes from Opus 4.0. And the big difference with codeex is it will just silently read files for 10 to 15 minutes before it even starts writing code. On one hand, that's annoying. On the other, it's amazing because it greatly increases the chance that it fixes the right thing. Opus is much more eager, which is great for small edits, but not so good for larger refactors or features. And as he specifies here, it often doesn't read the whole file or misses parts and then delivers inefficient outcomes or misses something. Remember earlier the file here study spec/readme study specs/analytics implementation plan. These are things being used to make it more likely the model starts from the right place cuz that's really what this all comes down to. The models are no better than the context they have. Everything we've talked today, be it Ralph loops, be it the way Pete uses codecs, be it all of the PRD stuff, it's all about context engineering. And I've avoided using that term until now because I know as soon as I say it, people's ears will just fall off and their brains will fall out. That is a thing that matters now. Making sure the right cargo is on the train before it goes off is a big part of how these tools work and how we should use them properly. And the point of all of this is to do better context engineering to set the agent up for the highest likelihood of success. So in the end, a Ralph loop is just calling an agent in a loop via bash. How it's actually done varies a lot. And hopefully what you get out of this isn't I should go use a Ralph loop. Rather, you're rethinking how you manage the context of your agents as you are using them to build real software. This has been a chaotic journey, but I hope you learned something from it from the history of Ralph loops to why they are useful. This is a whole new world we're diving into, and I get why people are excited. But we really should try to learn the lessons rather than the terms and tools that people are hyped about. Hopefully, this helps break that down for you. I know it's been helpful as I've been learning these things. Let me know what you think. And until next time, peace nerds.",
+  "fetchedAt": "2026-01-18T18:33:25.176Z"
+}

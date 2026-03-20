@@ -1,0 +1,824 @@
+{
+  "videoId": "9hL2kBDmDE0",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 5.92,
+      "text": "Deepseek AI just dropped a paper on the"
+    },
+    {
+      "start": 2.639,
+      "duration": 5.2,
+      "text": "21st of October 2025 that fundamentally"
+    },
+    {
+      "start": 6.08,
+      "duration": 4.4,
+      "text": "breaks the rules of how we process"
+    },
+    {
+      "start": 7.839,
+      "duration": 6.241,
+      "text": "information in large language models. It"
+    },
+    {
+      "start": 10.48,
+      "duration": 6.32,
+      "text": "is titled DeepSeek OCR contexts optical"
+    },
+    {
+      "start": 14.08,
+      "duration": 5.279,
+      "text": "compression. We all know the enemy here."
+    },
+    {
+      "start": 16.8,
+      "duration": 4.479,
+      "text": "It's the context window tax. When you"
+    },
+    {
+      "start": 19.359,
+      "duration": 4.08,
+      "text": "are building a rack pipeline or an agent"
+    },
+    {
+      "start": 21.279,
+      "duration": 4.16,
+      "text": "that reads massive documentation, you"
+    },
+    {
+      "start": 23.439,
+      "duration": 4.401,
+      "text": "hit a hard bottleneck. Text is"
+    },
+    {
+      "start": 25.439,
+      "duration": 4.801,
+      "text": "surprisingly expensive. A single page of"
+    },
+    {
+      "start": 27.84,
+      "duration": 5.6,
+      "text": "dense technical documentation can eat up"
+    },
+    {
+      "start": 30.24,
+      "duration": 6.72,
+      "text": "500 to 1,000 tokens. If you feed a"
+    },
+    {
+      "start": 33.44,
+      "duration": 5.36,
+      "text": "100page contract into GPT4 or cloud, you"
+    },
+    {
+      "start": 36.96,
+      "duration": 4.16,
+      "text": "are burning cash and hitting latency"
+    },
+    {
+      "start": 38.8,
+      "duration": 3.919,
+      "text": "walls because of quadratic scaling. We"
+    },
+    {
+      "start": 41.12,
+      "duration": 3.439,
+      "text": "want our models to read entire"
+    },
+    {
+      "start": 42.719,
+      "duration": 5.041,
+      "text": "libraries, but we are forced to"
+    },
+    {
+      "start": 44.559,
+      "duration": 5.601,
+      "text": "truncate, summarize or chunk data until"
+    },
+    {
+      "start": 47.76,
+      "duration": 4.479,
+      "text": "it loses meaning. Deepseek just proved"
+    },
+    {
+      "start": 50.16,
+      "duration": 4.399,
+      "text": "that we have been doing it wrong. In"
+    },
+    {
+      "start": 52.239,
+      "duration": 4.48,
+      "text": "fact, their findings suggest a radical"
+    },
+    {
+      "start": 54.559,
+      "duration": 4.64,
+      "text": "future where we might stop using text"
+    },
+    {
+      "start": 56.719,
+      "duration": 4.64,
+      "text": "tokens for long contexts entirely and"
+    },
+    {
+      "start": 59.199,
+      "duration": 4.321,
+      "text": "switch exclusively to vision. As"
+    },
+    {
+      "start": 61.359,
+      "duration": 4.641,
+      "text": "developers, when we deal with documents"
+    },
+    {
+      "start": 63.52,
+      "duration": 5.279,
+      "text": "today, we typically use one of two old"
+    },
+    {
+      "start": 66,
+      "duration": 4.64,
+      "text": "ways. The first is the standard OCR"
+    },
+    {
+      "start": 68.799,
+      "duration": 5.121,
+      "text": "pipeline where we use tools like"
+    },
+    {
+      "start": 70.64,
+      "duration": 5.519,
+      "text": "Tesseract or AWS Textract to rip the"
+    },
+    {
+      "start": 73.92,
+      "duration": 4.4,
+      "text": "text out of the image, turn it into a"
+    },
+    {
+      "start": 76.159,
+      "duration": 4.96,
+      "text": "massive string, and feed that string to"
+    },
+    {
+      "start": 78.32,
+      "duration": 4.799,
+      "text": "the LLM. The problem is you lose the"
+    },
+    {
+      "start": 81.119,
+      "duration": 4.32,
+      "text": "layout, the charts and the spatial"
+    },
+    {
+      "start": 83.119,
+      "duration": 4.161,
+      "text": "reasoning. The second way is the VLM"
+    },
+    {
+      "start": 85.439,
+      "duration": 4.641,
+      "text": "approach where you feed the image"
+    },
+    {
+      "start": 87.28,
+      "duration": 4.56,
+      "text": "directly to a model like Quen 2VL. This"
+    },
+    {
+      "start": 90.08,
+      "duration": 4.16,
+      "text": "preserves layout, but it is"
+    },
+    {
+      "start": 91.84,
+      "duration": 4.88,
+      "text": "computationally disastrous because most"
+    },
+    {
+      "start": 94.24,
+      "duration": 5.04,
+      "text": "modern VLMs chop a high resolution page"
+    },
+    {
+      "start": 96.72,
+      "duration": 5.759,
+      "text": "into smaller squares, exploding a single"
+    },
+    {
+      "start": 99.28,
+      "duration": 5.12,
+      "text": "page into 4,000 plus vision tokens. That"
+    },
+    {
+      "start": 102.479,
+      "duration": 4.32,
+      "text": "is slower and more expensive than just"
+    },
+    {
+      "start": 104.4,
+      "duration": 5.84,
+      "text": "reading the text. So, you are usually"
+    },
+    {
+      "start": 106.799,
+      "duration": 5.761,
+      "text": "stuck. Lose the context. OCR or explode"
+    },
+    {
+      "start": 110.24,
+      "duration": 4.72,
+      "text": "your compute VLM. But this paper"
+    },
+    {
+      "start": 112.56,
+      "duration": 4.8,
+      "text": "introduces a concept called context"
+    },
+    {
+      "start": 114.96,
+      "duration": 5.119,
+      "text": "optical compression and the insight is"
+    },
+    {
+      "start": 117.36,
+      "duration": 4.799,
+      "text": "massive. The authors realized that text"
+    },
+    {
+      "start": 120.079,
+      "duration": 4.4,
+      "text": "strings are actually an inefficient way"
+    },
+    {
+      "start": 122.159,
+      "duration": 5.041,
+      "text": "to store information. They asked a"
+    },
+    {
+      "start": 124.479,
+      "duration": 5.681,
+      "text": "counterintuitive question. Can we"
+    },
+    {
+      "start": 127.2,
+      "duration": 5.679,
+      "text": "compress text by keeping it as an image?"
+    },
+    {
+      "start": 130.16,
+      "duration": 5.28,
+      "text": "The answer is yes. They discovered that"
+    },
+    {
+      "start": 132.879,
+      "duration": 6,
+      "text": "you can represent 1,000 text tokens"
+    },
+    {
+      "start": 135.44,
+      "duration": 7.04,
+      "text": "using only 64 to 100 vision tokens and"
+    },
+    {
+      "start": 138.879,
+      "duration": 5.681,
+      "text": "still retain 96% decoding accuracy. This"
+    },
+    {
+      "start": 142.48,
+      "duration": 4.32,
+      "text": "implies that the future of long context"
+    },
+    {
+      "start": 144.56,
+      "duration": 4.64,
+      "text": "AI isn't about extending the text"
+    },
+    {
+      "start": 146.8,
+      "duration": 5.04,
+      "text": "window. It's about rendering your data,"
+    },
+    {
+      "start": 149.2,
+      "duration": 5.039,
+      "text": "even your chat history or code into an"
+    },
+    {
+      "start": 151.84,
+      "duration": 4.399,
+      "text": "image and letting the model see it. An"
+    },
+    {
+      "start": 154.239,
+      "duration": 4.161,
+      "text": "image of text is mathematically more"
+    },
+    {
+      "start": 156.239,
+      "duration": 3.681,
+      "text": "compressible than the text itself. They"
+    },
+    {
+      "start": 158.4,
+      "duration": 3.52,
+      "text": "achieved this by building a new"
+    },
+    {
+      "start": 159.92,
+      "duration": 3.84,
+      "text": "architecture called the deep encoder."
+    },
+    {
+      "start": 161.92,
+      "duration": 4.16,
+      "text": "But you don't need a PhD to understand"
+    },
+    {
+      "start": 163.76,
+      "duration": 4.24,
+      "text": "how it works. Think of it like a highly"
+    },
+    {
+      "start": 166.08,
+      "duration": 4.72,
+      "text": "intelligent zip file for your eyes."
+    },
+    {
+      "start": 168,
+      "duration": 5.599,
+      "text": "Normally an image is a massive grid of"
+    },
+    {
+      "start": 170.8,
+      "duration": 5.04,
+      "text": "millions of pixels. Dip six engine works"
+    },
+    {
+      "start": 173.599,
+      "duration": 4.401,
+      "text": "like a smart filter with two steps."
+    },
+    {
+      "start": 175.84,
+      "duration": 4.72,
+      "text": "First, it scans the image specifically"
+    },
+    {
+      "start": 178,
+      "duration": 4.72,
+      "text": "for the sharp high contrast edges, the"
+    },
+    {
+      "start": 180.56,
+      "duration": 4.399,
+      "text": "curves of letters and numbers, ensuring"
+    },
+    {
+      "start": 182.72,
+      "duration": 4.879,
+      "text": "it can read the data. Then it"
+    },
+    {
+      "start": 184.959,
+      "duration": 5.2,
+      "text": "aggressively crushes everything else"
+    },
+    {
+      "start": 187.599,
+      "duration": 6.481,
+      "text": "like whites space and margins shrinking"
+    },
+    {
+      "start": 190.159,
+      "duration": 7.281,
+      "text": "the data by 16 times. It takes a huge"
+    },
+    {
+      "start": 194.08,
+      "duration": 6.72,
+      "text": "highdefinition page and squeezes it into"
+    },
+    {
+      "start": 197.44,
+      "duration": 5.6,
+      "text": "a tiny dense digital packet. You feed"
+    },
+    {
+      "start": 200.8,
+      "duration": 4.64,
+      "text": "the model the full page, but inside the"
+    },
+    {
+      "start": 203.04,
+      "duration": 4.559,
+      "text": "brain of the AI, it only takes up the"
+    },
+    {
+      "start": 205.44,
+      "duration": 4.32,
+      "text": "space of a short tweet. They aren't"
+    },
+    {
+      "start": 207.599,
+      "duration": 4.481,
+      "text": "converting the image to text to save"
+    },
+    {
+      "start": 209.76,
+      "duration": 4.32,
+      "text": "space. They are proving that the visual"
+    },
+    {
+      "start": 212.08,
+      "duration": 4.32,
+      "text": "packet is the superior compression"
+    },
+    {
+      "start": 214.08,
+      "duration": 4.4,
+      "text": "algorithm. But compression is only half"
+    },
+    {
+      "start": 216.4,
+      "duration": 4.32,
+      "text": "the story. The other massive"
+    },
+    {
+      "start": 218.48,
+      "duration": 4.319,
+      "text": "breakthrough here solves the OCR problem"
+    },
+    {
+      "start": 220.72,
+      "duration": 4.56,
+      "text": "I mentioned earlier where we usually"
+    },
+    {
+      "start": 222.799,
+      "duration": 5.44,
+      "text": "lose the charts and diagrams. The paper"
+    },
+    {
+      "start": 225.28,
+      "duration": 5.039,
+      "text": "calls this deep parsing. Because the"
+    },
+    {
+      "start": 228.239,
+      "duration": 4.481,
+      "text": "model is processing the visual structure"
+    },
+    {
+      "start": 230.319,
+      "duration": 4.48,
+      "text": "instead of just hunting for letters, it"
+    },
+    {
+      "start": 232.72,
+      "duration": 4.64,
+      "text": "can translate complex visual elements"
+    },
+    {
+      "start": 234.799,
+      "duration": 5.121,
+      "text": "into code. It can look at a bar chart or"
+    },
+    {
+      "start": 237.36,
+      "duration": 5.04,
+      "text": "a scatter plot and output a clean HTML"
+    },
+    {
+      "start": 239.92,
+      "duration": 4.399,
+      "text": "table containing that data. It can look"
+    },
+    {
+      "start": 242.4,
+      "duration": 4.16,
+      "text": "at a complex chemical diagram and"
+    },
+    {
+      "start": 244.319,
+      "duration": 4.321,
+      "text": "translate it into a smile string. It"
+    },
+    {
+      "start": 246.56,
+      "duration": 4.16,
+      "text": "isn't just reading text. It is"
+    },
+    {
+      "start": 248.64,
+      "duration": 4.72,
+      "text": "converting visual logic into structured"
+    },
+    {
+      "start": 250.72,
+      "duration": 4.64,
+      "text": "code, something standard OCR has never"
+    },
+    {
+      "start": 253.36,
+      "duration": 4.32,
+      "text": "been able to do. The results confirm"
+    },
+    {
+      "start": 255.36,
+      "duration": 5.04,
+      "text": "this theory. Deepseek tested this on the"
+    },
+    {
+      "start": 257.68,
+      "duration": 5.92,
+      "text": "OmniDoc bench benchmark against Minu"
+    },
+    {
+      "start": 260.4,
+      "duration": 6.32,
+      "text": "2.0, a standard open-source solution."
+    },
+    {
+      "start": 263.6,
+      "duration": 6.08,
+      "text": "Minu required nearly 7,000 vision tokens"
+    },
+    {
+      "start": 266.72,
+      "duration": 5.039,
+      "text": "to parse a complex page. Deepse OCR"
+    },
+    {
+      "start": 269.68,
+      "duration": 4.88,
+      "text": "achieved state-of-the-art performance"
+    },
+    {
+      "start": 271.759,
+      "duration": 5.761,
+      "text": "using fewer than 800 tokens. In their"
+    },
+    {
+      "start": 274.56,
+      "duration": 5.6,
+      "text": "tiny mode, they used just 64 vision"
+    },
+    {
+      "start": 277.52,
+      "duration": 5.04,
+      "text": "tokens to represent a page, achieving a"
+    },
+    {
+      "start": 280.16,
+      "duration": 5.12,
+      "text": "20x compression ratio compared to raw"
+    },
+    {
+      "start": 282.56,
+      "duration": 4.8,
+      "text": "text. In production terms, this allows"
+    },
+    {
+      "start": 285.28,
+      "duration": 5.04,
+      "text": "them to generate training data at a"
+    },
+    {
+      "start": 287.36,
+      "duration": 6.72,
+      "text": "scale of 200,000 plus pages per day on a"
+    },
+    {
+      "start": 290.32,
+      "duration": 6.8,
+      "text": "single A100 GPU. So why does this matter"
+    },
+    {
+      "start": 294.08,
+      "duration": 4.8,
+      "text": "for us builders? This isn't just theory."
+    },
+    {
+      "start": 297.12,
+      "duration": 3.92,
+      "text": "You can implement this architecture to"
+    },
+    {
+      "start": 298.88,
+      "duration": 5.039,
+      "text": "optimize your pipelines today. Here is"
+    },
+    {
+      "start": 301.04,
+      "duration": 4.64,
+      "text": "the concrete blueprint. First, go to the"
+    },
+    {
+      "start": 303.919,
+      "duration": 4.481,
+      "text": "DeepSsee-ISseek"
+    },
+    {
+      "start": 305.68,
+      "duration": 5.04,
+      "text": "OCR repository on GitHub. The model"
+    },
+    {
+      "start": 308.4,
+      "duration": 5.04,
+      "text": "weights are public. Instead of using a"
+    },
+    {
+      "start": 310.72,
+      "duration": 4.56,
+      "text": "standard OCR tool like Tesseract, you"
+    },
+    {
+      "start": 313.44,
+      "duration": 4.24,
+      "text": "should swap your ingestion pipeline to"
+    },
+    {
+      "start": 315.28,
+      "duration": 4.24,
+      "text": "use their inference code, especially if"
+    },
+    {
+      "start": 317.68,
+      "duration": 4.16,
+      "text": "you deal with scientific papers or"
+    },
+    {
+      "start": 319.52,
+      "duration": 4.88,
+      "text": "financial reports with lots of charts."
+    },
+    {
+      "start": 321.84,
+      "duration": 5.84,
+      "text": "Second, you need to implement the Gundam"
+    },
+    {
+      "start": 324.4,
+      "duration": 5.76,
+      "text": "mode logic yourself using Python. Do not"
+    },
+    {
+      "start": 327.68,
+      "duration": 6,
+      "text": "blindly feed every PDF page at full"
+    },
+    {
+      "start": 330.16,
+      "duration": 6.72,
+      "text": "resolution. Use a library like PIMO PDF"
+    },
+    {
+      "start": 333.68,
+      "duration": 6,
+      "text": "import fits to render your PDF pages as"
+    },
+    {
+      "start": 336.88,
+      "duration": 5.2,
+      "text": "images before sending them to the model."
+    },
+    {
+      "start": 339.68,
+      "duration": 5.68,
+      "text": "Check the complexity. If it is a"
+    },
+    {
+      "start": 342.08,
+      "duration": 6.24,
+      "text": "standard text page, use pillow to resize"
+    },
+    {
+      "start": 345.36,
+      "duration": 4.96,
+      "text": "that image to 512 pixels. The paper"
+    },
+    {
+      "start": 348.32,
+      "duration": 4.24,
+      "text": "proves this specific resolution is the"
+    },
+    {
+      "start": 350.32,
+      "duration": 5.439,
+      "text": "magic number where text is readable but"
+    },
+    {
+      "start": 352.56,
+      "duration": 5.28,
+      "text": "token usage drops by 90%. You only need"
+    },
+    {
+      "start": 355.759,
+      "duration": 4.16,
+      "text": "to switch to high resolution tiling if"
+    },
+    {
+      "start": 357.84,
+      "duration": 4.72,
+      "text": "your script detects complex tables or"
+    },
+    {
+      "start": 359.919,
+      "duration": 5.12,
+      "text": "charts. Finally, if you are building a"
+    },
+    {
+      "start": 362.56,
+      "duration": 4.32,
+      "text": "chat application with long history, stop"
+    },
+    {
+      "start": 365.039,
+      "duration": 4.481,
+      "text": "storing the conversation as a JSON"
+    },
+    {
+      "start": 366.88,
+      "duration": 4.64,
+      "text": "string of text. Start experimenting with"
+    },
+    {
+      "start": 369.52,
+      "duration": 4.56,
+      "text": "rendering the old chat logs into a"
+    },
+    {
+      "start": 371.52,
+      "duration": 5.04,
+      "text": "single image canvas. By passing that"
+    },
+    {
+      "start": 374.08,
+      "duration": 5.36,
+      "text": "history image to a VLM instead of the"
+    },
+    {
+      "start": 376.56,
+      "duration": 5.359,
+      "text": "raw text, you bypass the context limit"
+    },
+    {
+      "start": 379.44,
+      "duration": 4.64,
+      "text": "significantly, allowing for agents that"
+    },
+    {
+      "start": 381.919,
+      "duration": 4.72,
+      "text": "can see conversations from weeks ago"
+    },
+    {
+      "start": 384.08,
+      "duration": 4.48,
+      "text": "without blowing up your API costs. If"
+    },
+    {
+      "start": 386.639,
+      "duration": 3.84,
+      "text": "you found this breakdown useful, please"
+    },
+    {
+      "start": 388.56,
+      "duration": 3.68,
+      "text": "hit the like button and subscribe to the"
+    },
+    {
+      "start": 390.479,
+      "duration": 3.84,
+      "text": "channel. I'm going to be doing deep"
+    },
+    {
+      "start": 392.24,
+      "duration": 3.92,
+      "text": "dives into more architectures that are"
+    },
+    {
+      "start": 394.319,
+      "duration": 3.841,
+      "text": "changing the way we build software."
+    },
+    {
+      "start": 396.16,
+      "duration": 4.8,
+      "text": "Thanks so much for watching and I'll see"
+    },
+    {
+      "start": 398.16,
+      "duration": 2.8,
+      "text": "you in the next"
+    }
+  ],
+  "fullText": "Deepseek AI just dropped a paper on the 21st of October 2025 that fundamentally breaks the rules of how we process information in large language models. It is titled DeepSeek OCR contexts optical compression. We all know the enemy here. It's the context window tax. When you are building a rack pipeline or an agent that reads massive documentation, you hit a hard bottleneck. Text is surprisingly expensive. A single page of dense technical documentation can eat up 500 to 1,000 tokens. If you feed a 100page contract into GPT4 or cloud, you are burning cash and hitting latency walls because of quadratic scaling. We want our models to read entire libraries, but we are forced to truncate, summarize or chunk data until it loses meaning. Deepseek just proved that we have been doing it wrong. In fact, their findings suggest a radical future where we might stop using text tokens for long contexts entirely and switch exclusively to vision. As developers, when we deal with documents today, we typically use one of two old ways. The first is the standard OCR pipeline where we use tools like Tesseract or AWS Textract to rip the text out of the image, turn it into a massive string, and feed that string to the LLM. The problem is you lose the layout, the charts and the spatial reasoning. The second way is the VLM approach where you feed the image directly to a model like Quen 2VL. This preserves layout, but it is computationally disastrous because most modern VLMs chop a high resolution page into smaller squares, exploding a single page into 4,000 plus vision tokens. That is slower and more expensive than just reading the text. So, you are usually stuck. Lose the context. OCR or explode your compute VLM. But this paper introduces a concept called context optical compression and the insight is massive. The authors realized that text strings are actually an inefficient way to store information. They asked a counterintuitive question. Can we compress text by keeping it as an image? The answer is yes. They discovered that you can represent 1,000 text tokens using only 64 to 100 vision tokens and still retain 96% decoding accuracy. This implies that the future of long context AI isn't about extending the text window. It's about rendering your data, even your chat history or code into an image and letting the model see it. An image of text is mathematically more compressible than the text itself. They achieved this by building a new architecture called the deep encoder. But you don't need a PhD to understand how it works. Think of it like a highly intelligent zip file for your eyes. Normally an image is a massive grid of millions of pixels. Dip six engine works like a smart filter with two steps. First, it scans the image specifically for the sharp high contrast edges, the curves of letters and numbers, ensuring it can read the data. Then it aggressively crushes everything else like whites space and margins shrinking the data by 16 times. It takes a huge highdefinition page and squeezes it into a tiny dense digital packet. You feed the model the full page, but inside the brain of the AI, it only takes up the space of a short tweet. They aren't converting the image to text to save space. They are proving that the visual packet is the superior compression algorithm. But compression is only half the story. The other massive breakthrough here solves the OCR problem I mentioned earlier where we usually lose the charts and diagrams. The paper calls this deep parsing. Because the model is processing the visual structure instead of just hunting for letters, it can translate complex visual elements into code. It can look at a bar chart or a scatter plot and output a clean HTML table containing that data. It can look at a complex chemical diagram and translate it into a smile string. It isn't just reading text. It is converting visual logic into structured code, something standard OCR has never been able to do. The results confirm this theory. Deepseek tested this on the OmniDoc bench benchmark against Minu 2.0, a standard open-source solution. Minu required nearly 7,000 vision tokens to parse a complex page. Deepse OCR achieved state-of-the-art performance using fewer than 800 tokens. In their tiny mode, they used just 64 vision tokens to represent a page, achieving a 20x compression ratio compared to raw text. In production terms, this allows them to generate training data at a scale of 200,000 plus pages per day on a single A100 GPU. So why does this matter for us builders? This isn't just theory. You can implement this architecture to optimize your pipelines today. Here is the concrete blueprint. First, go to the DeepSsee-ISseek OCR repository on GitHub. The model weights are public. Instead of using a standard OCR tool like Tesseract, you should swap your ingestion pipeline to use their inference code, especially if you deal with scientific papers or financial reports with lots of charts. Second, you need to implement the Gundam mode logic yourself using Python. Do not blindly feed every PDF page at full resolution. Use a library like PIMO PDF import fits to render your PDF pages as images before sending them to the model. Check the complexity. If it is a standard text page, use pillow to resize that image to 512 pixels. The paper proves this specific resolution is the magic number where text is readable but token usage drops by 90%. You only need to switch to high resolution tiling if your script detects complex tables or charts. Finally, if you are building a chat application with long history, stop storing the conversation as a JSON string of text. Start experimenting with rendering the old chat logs into a single image canvas. By passing that history image to a VLM instead of the raw text, you bypass the context limit significantly, allowing for agents that can see conversations from weeks ago without blowing up your API costs. If you found this breakdown useful, please hit the like button and subscribe to the channel. I'm going to be doing deep dives into more architectures that are changing the way we build software. Thanks so much for watching and I'll see you in the next",
+  "fetchedAt": "2026-01-18T18:32:10.051Z"
+}

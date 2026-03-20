@@ -1,0 +1,379 @@
+{
+  "videoId": "25Z4lalSivQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.08,
+      "text": "Okay. AWS solutions architects"
+    },
+    {
+      "start": 2,
+      "duration": 4.96,
+      "text": "associates certification prep. Question"
+    },
+    {
+      "start": 4.16,
+      "duration": 5.6,
+      "text": "31 of 65. So, a retail company processes"
+    },
+    {
+      "start": 6.96,
+      "duration": 4.719,
+      "text": "orders through an Amazon SQS standard Q"
+    },
+    {
+      "start": 9.76,
+      "duration": 4.16,
+      "text": "and that triggers an AWS Lambda"
+    },
+    {
+      "start": 11.679,
+      "duration": 4.481,
+      "text": "function. During flash sales, the Q"
+    },
+    {
+      "start": 13.92,
+      "duration": 4.48,
+      "text": "depth grows to over a 100,000 messages"
+    },
+    {
+      "start": 16.16,
+      "duration": 4.32,
+      "text": "while Lambda struggles to keep up. Each"
+    },
+    {
+      "start": 18.4,
+      "duration": 4,
+      "text": "message takes approximately 3 seconds to"
+    },
+    {
+      "start": 20.48,
+      "duration": 3.52,
+      "text": "process and the team notices that Lambda"
+    },
+    {
+      "start": 22.4,
+      "duration": 4.08,
+      "text": "is hitting its default concurrency"
+    },
+    {
+      "start": 24,
+      "duration": 4.24,
+      "text": "limit. Messages must not be lost and the"
+    },
+    {
+      "start": 26.48,
+      "duration": 3.92,
+      "text": "company needs to significantly improve"
+    },
+    {
+      "start": 28.24,
+      "duration": 4.4,
+      "text": "throughput during peak events. So which"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.999,
+      "text": "solution will most effectively increase"
+    },
+    {
+      "start": 32.64,
+      "duration": 4.64,
+      "text": "processing throughput? Let's identify"
+    },
+    {
+      "start": 34.399,
+      "duration": 4.641,
+      "text": "the key hints. One, Q depth growing. So"
+    },
+    {
+      "start": 37.28,
+      "duration": 4.16,
+      "text": "Lambda can't consume fast enough with"
+    },
+    {
+      "start": 39.04,
+      "duration": 3.76,
+      "text": "100,000 messages in a queue. Two,"
+    },
+    {
+      "start": 41.44,
+      "duration": 3.279,
+      "text": "hitting the concurrency limit. That's"
+    },
+    {
+      "start": 42.8,
+      "duration": 3.68,
+      "text": "the bottleneck. Three, 3 seconds per"
+    },
+    {
+      "start": 44.719,
+      "duration": 4.16,
+      "text": "message. So the processing time is is"
+    },
+    {
+      "start": 46.48,
+      "duration": 3.919,
+      "text": "fixed. Four, we must not lose messages."
+    },
+    {
+      "start": 48.879,
+      "duration": 3.2,
+      "text": "So we need reliability. Let's look at"
+    },
+    {
+      "start": 50.399,
+      "duration": 3.521,
+      "text": "the options. So option one, we can"
+    },
+    {
+      "start": 52.079,
+      "duration": 4.561,
+      "text": "create additional SQSQs and distribute"
+    },
+    {
+      "start": 53.92,
+      "duration": 4.56,
+      "text": "messages across them using SNS fanout."
+    },
+    {
+      "start": 56.64,
+      "duration": 4.16,
+      "text": "Option two, increase the Lambda"
+    },
+    {
+      "start": 58.48,
+      "duration": 6.399,
+      "text": "functions memory allocation from 128"
+    },
+    {
+      "start": 60.8,
+      "duration": 6.319,
+      "text": "megabytes to 3 GB or 3008 megabytes."
+    },
+    {
+      "start": 64.879,
+      "duration": 4.24,
+      "text": "Option three, increase Lambda's reserved"
+    },
+    {
+      "start": 67.119,
+      "duration": 3.521,
+      "text": "concurrency and configure larger batch"
+    },
+    {
+      "start": 69.119,
+      "duration": 5.04,
+      "text": "sizes for the SQS [music]"
+    },
+    {
+      "start": 70.64,
+      "duration": 6.159,
+      "text": "trigger. Option four, convert the SQSQ"
+    },
+    {
+      "start": 74.159,
+      "duration": 4.241,
+      "text": "standard Q to a FIFO Q for more reliable"
+    },
+    {
+      "start": 76.799,
+      "duration": 3.201,
+      "text": "processing. Drop your answer in the"
+    },
+    {
+      "start": 78.4,
+      "duration": 3.039,
+      "text": "comments below. So the hint says that"
+    },
+    {
+      "start": 80,
+      "duration": 3.119,
+      "text": "they're hitting concurrency limits and"
+    },
+    {
+      "start": 81.439,
+      "duration": 3.921,
+      "text": "that's our bottleneck. So solutions that"
+    },
+    {
+      "start": 83.119,
+      "duration": 4.561,
+      "text": "don't address the concurrency issue will"
+    },
+    {
+      "start": 85.36,
+      "duration": 4.32,
+      "text": "not help. Option one, more cues don't"
+    },
+    {
+      "start": 87.68,
+      "duration": 3.28,
+      "text": "help if lambda is the bottleneck. So"
+    },
+    {
+      "start": 89.68,
+      "duration": 3.439,
+      "text": "we're going to have the same concurrency"
+    },
+    {
+      "start": 90.96,
+      "duration": 4.72,
+      "text": "limit across all of the cues. Option"
+    },
+    {
+      "start": 93.119,
+      "duration": 4.32,
+      "text": "two, more memory makes each invocation"
+    },
+    {
+      "start": 95.68,
+      "duration": 3.92,
+      "text": "faster, but it doesn't actually increase"
+    },
+    {
+      "start": 97.439,
+      "duration": 3.521,
+      "text": "parallel execution. Concurrency is"
+    },
+    {
+      "start": 99.6,
+      "duration": 3.44,
+      "text": "probably still going to be capped."
+    },
+    {
+      "start": 100.96,
+      "duration": 3.76,
+      "text": "Option four, BIPO cues have lower"
+    },
+    {
+      "start": 103.04,
+      "duration": 3.119,
+      "text": "throughput limits than standard cues. So"
+    },
+    {
+      "start": 104.72,
+      "duration": 2.96,
+      "text": "that actually makes the problem worse,"
+    },
+    {
+      "start": 106.159,
+      "duration": 3.6,
+      "text": "not better. So the correct answer is"
+    },
+    {
+      "start": 107.68,
+      "duration": 3.6,
+      "text": "option three. Reserve concurrency is"
+    },
+    {
+      "start": 109.759,
+      "duration": 3.68,
+      "text": "going to guarantee Lambda can scale"
+    },
+    {
+      "start": 111.28,
+      "duration": 3.6,
+      "text": "higher, remove the bottleneck. Larger"
+    },
+    {
+      "start": 113.439,
+      "duration": 3.761,
+      "text": "batch sizes are going to process"
+    },
+    {
+      "start": 114.88,
+      "duration": 4.16,
+      "text": "multiple messages per invocation,"
+    },
+    {
+      "start": 117.2,
+      "duration": 3.199,
+      "text": "basically up to 10,000 for standard"
+    },
+    {
+      "start": 119.04,
+      "duration": 3.439,
+      "text": "cues. So you're going to get more"
+    },
+    {
+      "start": 120.399,
+      "duration": 3.921,
+      "text": "parallelism plus more messages per"
+    },
+    {
+      "start": 122.479,
+      "duration": 4.081,
+      "text": "execution. So your throughput is going"
+    },
+    {
+      "start": 124.32,
+      "duration": 3.68,
+      "text": "to multiply. So SQS retains the message"
+    },
+    {
+      "start": 126.56,
+      "duration": 2.88,
+      "text": "until process. So we don't have to worry"
+    },
+    {
+      "start": 128,
+      "duration": 2.399,
+      "text": "about reliability. Nothing is lost"
+    },
+    {
+      "start": 129.44,
+      "duration": 3.2,
+      "text": "during scaling. [music]"
+    },
+    {
+      "start": 130.399,
+      "duration": 4.321,
+      "text": "Takeaway: Lambda concurrency is often"
+    },
+    {
+      "start": 132.64,
+      "duration": 3.52,
+      "text": "the hidden bottleneck. So reserve"
+    },
+    {
+      "start": 134.72,
+      "duration": 3.68,
+      "text": "concurrency is going to guarantee your"
+    },
+    {
+      "start": 136.16,
+      "duration": 4,
+      "text": "function can get the capacity it needs."
+    },
+    {
+      "start": 138.4,
+      "duration": 3.76,
+      "text": "Combine this with batch processing and"
+    },
+    {
+      "start": 140.16,
+      "duration": 4.079,
+      "text": "larger batch sizes. Processing 10"
+    },
+    {
+      "start": 142.16,
+      "duration": 3.68,
+      "text": "messages in one invocation instead of 10"
+    },
+    {
+      "start": 144.239,
+      "duration": 4.08,
+      "text": "separate invocations for a single"
+    },
+    {
+      "start": 145.84,
+      "duration": 2.479,
+      "text": "message."
+    }
+  ],
+  "fullText": "Okay. AWS solutions architects associates certification prep. Question 31 of 65. So, a retail company processes orders through an Amazon SQS standard Q and that triggers an AWS Lambda function. During flash sales, the Q depth grows to over a 100,000 messages while Lambda struggles to keep up. Each message takes approximately 3 seconds to process and the team notices that Lambda is hitting its default concurrency limit. Messages must not be lost and the company needs to significantly improve throughput during peak events. So which solution will most effectively increase processing throughput? Let's identify the key hints. One, Q depth growing. So Lambda can't consume fast enough with 100,000 messages in a queue. Two, hitting the concurrency limit. That's the bottleneck. Three, 3 seconds per message. So the processing time is is fixed. Four, we must not lose messages. So we need reliability. Let's look at the options. So option one, we can create additional SQSQs and distribute messages across them using SNS fanout. Option two, increase the Lambda functions memory allocation from 128 megabytes to 3 GB or 3008 megabytes. Option three, increase Lambda's reserved concurrency and configure larger batch sizes for the SQS [music] trigger. Option four, convert the SQSQ standard Q to a FIFO Q for more reliable processing. Drop your answer in the comments below. So the hint says that they're hitting concurrency limits and that's our bottleneck. So solutions that don't address the concurrency issue will not help. Option one, more cues don't help if lambda is the bottleneck. So we're going to have the same concurrency limit across all of the cues. Option two, more memory makes each invocation faster, but it doesn't actually increase parallel execution. Concurrency is probably still going to be capped. Option four, BIPO cues have lower throughput limits than standard cues. So that actually makes the problem worse, not better. So the correct answer is option three. Reserve concurrency is going to guarantee Lambda can scale higher, remove the bottleneck. Larger batch sizes are going to process multiple messages per invocation, basically up to 10,000 for standard cues. So you're going to get more parallelism plus more messages per execution. So your throughput is going to multiply. So SQS retains the message until process. So we don't have to worry about reliability. Nothing is lost during scaling. [music] Takeaway: Lambda concurrency is often the hidden bottleneck. So reserve concurrency is going to guarantee your function can get the capacity it needs. Combine this with batch processing and larger batch sizes. Processing 10 messages in one invocation instead of 10 separate invocations for a single message.",
+  "fetchedAt": "2026-01-20T17:04:39.673Z"
+}

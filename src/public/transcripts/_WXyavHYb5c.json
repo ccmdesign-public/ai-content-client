@@ -1,0 +1,3854 @@
+{
+  "videoId": "_WXyavHYb5c",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 4.479,
+      "text": "Claude Code, man. If you spend any time"
+    },
+    {
+      "start": 2.879,
+      "duration": 4.161,
+      "text": "on any place on the internet that"
+    },
+    {
+      "start": 4.799,
+      "duration": 4.88,
+      "text": "touches AI, you probably will have"
+    },
+    {
+      "start": 7.04,
+      "duration": 5.28,
+      "text": "noticed that people cannot shut up about"
+    },
+    {
+      "start": 9.679,
+      "duration": 4.161,
+      "text": "Claude code and more broadly Opus 4.5"
+    },
+    {
+      "start": 12.32,
+      "duration": 3.439,
+      "text": "and Vibe coding and the shift, but"
+    },
+    {
+      "start": 13.84,
+      "duration": 4.72,
+      "text": "really claude code. Today, we're going"
+    },
+    {
+      "start": 15.759,
+      "duration": 5.52,
+      "text": "to explore exactly why that is and some"
+    },
+    {
+      "start": 18.56,
+      "duration": 4.879,
+      "text": "predictions for what it means next."
+    },
+    {
+      "start": 21.279,
+      "duration": 5.681,
+      "text": "Welcome back to the AI daily brief. Ever"
+    },
+    {
+      "start": 23.439,
+      "duration": 4.801,
+      "text": "since Anthropic released Opus 4.5, there"
+    },
+    {
+      "start": 26.96,
+      "duration": 3.68,
+      "text": "has been a sense that we've"
+    },
+    {
+      "start": 28.24,
+      "duration": 4.8,
+      "text": "fundamentally shifted in terms of what"
+    },
+    {
+      "start": 30.64,
+      "duration": 4.24,
+      "text": "AI coding is capable of. In point of"
+    },
+    {
+      "start": 33.04,
+      "duration": 4.24,
+      "text": "fact, it's been actually a combination"
+    },
+    {
+      "start": 34.88,
+      "duration": 3.92,
+      "text": "of model advances as well as the tools"
+    },
+    {
+      "start": 37.28,
+      "duration": 3.279,
+      "text": "and platforms through which we access"
+    },
+    {
+      "start": 38.8,
+      "duration": 3.2,
+      "text": "them like claude code that have"
+    },
+    {
+      "start": 40.559,
+      "duration": 4,
+      "text": "contributed to this sense of something"
+    },
+    {
+      "start": 42,
+      "duration": 4.16,
+      "text": "fundamental having shifted. But boy is"
+    },
+    {
+      "start": 44.559,
+      "duration": 4.081,
+      "text": "there a sense that something fundamental"
+    },
+    {
+      "start": 46.16,
+      "duration": 5.12,
+      "text": "has shifted. On January 4th, Simon"
+    },
+    {
+      "start": 48.64,
+      "duration": 6,
+      "text": "Willis posted, \"It genuinely feels to me"
+    },
+    {
+      "start": 51.28,
+      "duration": 5.599,
+      "text": "like GPT52 and Opus 4.5 in November"
+    },
+    {
+      "start": 54.64,
+      "duration": 3.52,
+      "text": "represent an inflection point. One of"
+    },
+    {
+      "start": 56.879,
+      "duration": 2.961,
+      "text": "those moments where the models get"
+    },
+    {
+      "start": 58.16,
+      "duration": 3.919,
+      "text": "incrementally better in a way that tips"
+    },
+    {
+      "start": 59.84,
+      "duration": 4,
+      "text": "across an invisible capability line"
+    },
+    {
+      "start": 62.079,
+      "duration": 4.001,
+      "text": "where suddenly a whole bunch of much"
+    },
+    {
+      "start": 63.84,
+      "duration": 4.959,
+      "text": "harder coding problems open up.\""
+    },
+    {
+      "start": 66.08,
+      "duration": 4.64,
+      "text": "OpenAI's Greg Brockman agreed, reposting"
+    },
+    {
+      "start": 68.799,
+      "duration": 3.521,
+      "text": "and sharing, \"It does feel like models"
+    },
+    {
+      "start": 70.72,
+      "duration": 4.24,
+      "text": "have just cleared a threshold of utility"
+    },
+    {
+      "start": 72.32,
+      "duration": 4.56,
+      "text": "in software engineering.\" AI builder and"
+    },
+    {
+      "start": 74.96,
+      "duration": 3.12,
+      "text": "YouTuber Theo writes, \"It feels like"
+    },
+    {
+      "start": 76.88,
+      "duration": 3.36,
+      "text": "we're actually in one of those"
+    },
+    {
+      "start": 78.08,
+      "duration": 3.44,
+      "text": "everything is about to change moments.\""
+    },
+    {
+      "start": 80.24,
+      "duration": 3.04,
+      "text": "And the den is loud enough that"
+    },
+    {
+      "start": 81.52,
+      "duration": 3.12,
+      "text": "publications like Axios are picking up"
+    },
+    {
+      "start": 83.28,
+      "duration": 3.04,
+      "text": "on it and writing stories even though"
+    },
+    {
+      "start": 84.64,
+      "duration": 4.159,
+      "text": "there's no particular news that the"
+    },
+    {
+      "start": 86.32,
+      "duration": 5.28,
+      "text": "conversation is based on. Now, to be"
+    },
+    {
+      "start": 88.799,
+      "duration": 5.201,
+      "text": "fair, some called this early. From the"
+    },
+    {
+      "start": 91.6,
+      "duration": 4.159,
+      "text": "moment that Opus 4.5 launched, Dan"
+    },
+    {
+      "start": 94,
+      "duration": 3.439,
+      "text": "Shipper and every have been very much on"
+    },
+    {
+      "start": 95.759,
+      "duration": 3.601,
+      "text": "the tip that this represented something"
+    },
+    {
+      "start": 97.439,
+      "duration": 4.401,
+      "text": "different. Back in December, he wrote a"
+    },
+    {
+      "start": 99.36,
+      "duration": 4.96,
+      "text": "piece called Opus 4.5 collapsed 6 months"
+    },
+    {
+      "start": 101.84,
+      "duration": 3.84,
+      "text": "of development work into one week. And"
+    },
+    {
+      "start": 104.32,
+      "duration": 3.439,
+      "text": "he started with this pronounced"
+    },
+    {
+      "start": 105.68,
+      "duration": 3.68,
+      "text": "declaration. Humans, he wrote, have"
+    },
+    {
+      "start": 107.759,
+      "duration": 2.961,
+      "text": "always had two main intuitions about"
+    },
+    {
+      "start": 109.36,
+      "duration": 3.439,
+      "text": "what we'll find when we travel to the"
+    },
+    {
+      "start": 110.72,
+      "duration": 3.84,
+      "text": "end of the Earth. One, an edge where the"
+    },
+    {
+      "start": 112.799,
+      "duration": 4.64,
+      "text": "known world falls off into nothingness,"
+    },
+    {
+      "start": 114.56,
+      "duration": 4.559,
+      "text": "chaos, or monsters. Two, a new vista"
+    },
+    {
+      "start": 117.439,
+      "duration": 4.081,
+      "text": "where unexplored, lush, and perhaps"
+    },
+    {
+      "start": 119.119,
+      "duration": 4.881,
+      "text": "perilous territory extends toward a new"
+    },
+    {
+      "start": 121.52,
+      "duration": 4.48,
+      "text": "horizon. The first is terrifying, a"
+    },
+    {
+      "start": 124,
+      "duration": 3.84,
+      "text": "place to be avoided. The second"
+    },
+    {
+      "start": 126,
+      "duration": 4.56,
+      "text": "represents possibility and an entirely"
+    },
+    {
+      "start": 127.84,
+      "duration": 4.72,
+      "text": "new world. These days, most new AI model"
+    },
+    {
+      "start": 130.56,
+      "duration": 3.52,
+      "text": "releases are incremental. Sometimes"
+    },
+    {
+      "start": 132.56,
+      "duration": 2.96,
+      "text": "though, a new model brings us right up"
+    },
+    {
+      "start": 134.08,
+      "duration": 3.92,
+      "text": "to the edge of the known and allows us"
+    },
+    {
+      "start": 135.52,
+      "duration": 4.799,
+      "text": "to take a peek at what lies beyond. Is"
+    },
+    {
+      "start": 138,
+      "duration": 4.959,
+      "text": "it nothingness, dragons, or a new"
+    },
+    {
+      "start": 140.319,
+      "duration": 4,
+      "text": "horizon? Enthropics Opus 4.5 is one of"
+    },
+    {
+      "start": 142.959,
+      "duration": 3.121,
+      "text": "those models, and I've been peering over"
+    },
+    {
+      "start": 144.319,
+      "duration": 4.321,
+      "text": "the edge for about a week now. Here's"
+    },
+    {
+      "start": 146.08,
+      "duration": 4.64,
+      "text": "what's over the horizon. We are in a new"
+    },
+    {
+      "start": 148.64,
+      "duration": 3.679,
+      "text": "era of autonomous coding. You can build"
+    },
+    {
+      "start": 150.72,
+      "duration": 3.76,
+      "text": "astonishingly complex apps without"
+    },
+    {
+      "start": 152.319,
+      "duration": 4.64,
+      "text": "looking at a single line of code. Two,"
+    },
+    {
+      "start": 154.48,
+      "duration": 4.64,
+      "text": "agentnative apps are now possible. You"
+    },
+    {
+      "start": 156.959,
+      "duration": 4.56,
+      "text": "can use Opus 4.5 as a general purpose"
+    },
+    {
+      "start": 159.12,
+      "duration": 4.399,
+      "text": "agent to power your app's features. This"
+    },
+    {
+      "start": 161.519,
+      "duration": 4.241,
+      "text": "turns new features into an exercise in"
+    },
+    {
+      "start": 163.519,
+      "duration": 4.641,
+      "text": "prompt writing rather than coding. All"
+    },
+    {
+      "start": 165.76,
+      "duration": 5.04,
+      "text": "of this led Dan to declare the birth of"
+    },
+    {
+      "start": 168.16,
+      "duration": 5.04,
+      "text": "an infinite vibe coding machine. And"
+    },
+    {
+      "start": 170.8,
+      "duration": 4.88,
+      "text": "yet, for many, it seems to have taken a"
+    },
+    {
+      "start": 173.2,
+      "duration": 4.96,
+      "text": "holiday of hacking for all of this to"
+    },
+    {
+      "start": 175.68,
+      "duration": 4.559,
+      "text": "really click. Midjourneys David Holes"
+    },
+    {
+      "start": 178.16,
+      "duration": 3.439,
+      "text": "wrote, \"I've done more personal coding"
+    },
+    {
+      "start": 180.239,
+      "duration": 4.801,
+      "text": "projects over Christmas break than I"
+    },
+    {
+      "start": 181.599,
+      "duration": 5.36,
+      "text": "have in the last 10 years. It's crazy. I"
+    },
+    {
+      "start": 185.04,
+      "duration": 4.16,
+      "text": "can sense the limitations, but I know"
+    },
+    {
+      "start": 186.959,
+      "duration": 5.121,
+      "text": "nothing is going to be the same anymore."
+    },
+    {
+      "start": 189.2,
+      "duration": 4.56,
+      "text": "That post had over a million views. Even"
+    },
+    {
+      "start": 192.08,
+      "duration": 3.84,
+      "text": "Elon Musk responded to it saying, \"We've"
+    },
+    {
+      "start": 193.76,
+      "duration": 4.24,
+      "text": "entered the singularity.\" Flo, the"
+    },
+    {
+      "start": 195.92,
+      "duration": 4,
+      "text": "founder of Lindy, agreed, writing, \"This"
+    },
+    {
+      "start": 198,
+      "duration": 4.72,
+      "text": "is definitely how I felt these past 2"
+    },
+    {
+      "start": 199.92,
+      "duration": 4.8,
+      "text": "weeks. Getting AGI shock every day. Chat"
+    },
+    {
+      "start": 202.72,
+      "duration": 3.92,
+      "text": "with the Lindy team on Friday. AI coding"
+    },
+    {
+      "start": 204.72,
+      "duration": 3.36,
+      "text": "is solved at this point. If you think"
+    },
+    {
+      "start": 206.64,
+      "duration": 3.36,
+      "text": "you know what's going to happen next,"
+    },
+    {
+      "start": 208.08,
+      "duration": 3.84,
+      "text": "you're very confused.\""
+    },
+    {
+      "start": 210,
+      "duration": 4.08,
+      "text": "AI news curator Andrew Curran wrote,"
+    },
+    {
+      "start": 211.92,
+      "duration": 4.56,
+      "text": "\"People who work in code have felt a sea"
+    },
+    {
+      "start": 214.08,
+      "duration": 4,
+      "text": "change, but the jump comes from frontier"
+    },
+    {
+      "start": 216.48,
+      "duration": 3.759,
+      "text": "models inside their coding shells, not"
+    },
+    {
+      "start": 218.08,
+      "duration": 3.92,
+      "text": "from the shells themselves. Gains are"
+    },
+    {
+      "start": 220.239,
+      "duration": 4.08,
+      "text": "currently concentrated in one area,"
+    },
+    {
+      "start": 222,
+      "duration": 4.56,
+      "text": "code, but the driving force is general"
+    },
+    {
+      "start": 224.319,
+      "duration": 3.681,
+      "text": "intelligence.\" And the more time you"
+    },
+    {
+      "start": 226.56,
+      "duration": 3.599,
+      "text": "spent on the internet, the more you saw"
+    },
+    {
+      "start": 228,
+      "duration": 4.239,
+      "text": "people sharing specific projects. Po"
+    },
+    {
+      "start": 230.159,
+      "duration": 4.08,
+      "text": "Chirano wrote, \"Claude code isn't just"
+    },
+    {
+      "start": 232.239,
+      "duration": 3.761,
+      "text": "for coding. I fed it my raw DNA data"
+    },
+    {
+      "start": 234.239,
+      "duration": 3.2,
+      "text": "from an ancestry test and used it to"
+    },
+    {
+      "start": 236,
+      "duration": 3.68,
+      "text": "find health related genes I should keep"
+    },
+    {
+      "start": 237.439,
+      "duration": 3.761,
+      "text": "an eye on. The file is massive, but its"
+    },
+    {
+      "start": 239.68,
+      "duration": 4.8,
+      "text": "ability to search what matters makes it"
+    },
+    {
+      "start": 241.2,
+      "duration": 4.8,
+      "text": "possible. Deep mind Xiaom wrote, \"I'm"
+    },
+    {
+      "start": 244.48,
+      "duration": 3.2,
+      "text": "this close to throwing in the towel and"
+    },
+    {
+      "start": 246,
+      "duration": 3.76,
+      "text": "giving coding agents my entire financial"
+    },
+    {
+      "start": 247.68,
+      "duration": 3.919,
+      "text": "history. Been using bean count for"
+    },
+    {
+      "start": 249.76,
+      "duration": 3.44,
+      "text": "personal accounting for years. Every"
+    },
+    {
+      "start": 251.599,
+      "duration": 2.72,
+      "text": "January, download statements, parse with"
+    },
+    {
+      "start": 253.2,
+      "duration": 3.2,
+      "text": "custom scripts I've been manually"
+    },
+    {
+      "start": 254.319,
+      "duration": 4.241,
+      "text": "updating forever. Started having AI"
+    },
+    {
+      "start": 256.4,
+      "duration": 4.32,
+      "text": "upgrade the scripts 2 years ago. Clunky"
+    },
+    {
+      "start": 258.56,
+      "duration": 3.919,
+      "text": "workflow, but it worked. Every year the"
+    },
+    {
+      "start": 260.72,
+      "duration": 3.84,
+      "text": "AI gets a little better. Maybe this is"
+    },
+    {
+      "start": 262.479,
+      "duration": 3.681,
+      "text": "finally the year to just give it all.\""
+    },
+    {
+      "start": 264.56,
+      "duration": 3.12,
+      "text": "Lenny Richitzky of Lenny's podcast"
+    },
+    {
+      "start": 266.16,
+      "duration": 3.44,
+      "text": "shared his Vibe Code project of the"
+    },
+    {
+      "start": 267.68,
+      "duration": 4.72,
+      "text": "week, a soundboard of his toddler's"
+    },
+    {
+      "start": 269.6,
+      "duration": 4.96,
+      "text": "cutest words. He took a $20 microphone"
+    },
+    {
+      "start": 272.4,
+      "duration": 4.079,
+      "text": "off of Amazon, used a script to slice up"
+    },
+    {
+      "start": 274.56,
+      "duration": 4.48,
+      "text": "each word, clawed code to clean up the"
+    },
+    {
+      "start": 276.479,
+      "duration": 4.801,
+      "text": "audio quality, and lovable to build it."
+    },
+    {
+      "start": 279.04,
+      "duration": 3.84,
+      "text": "Google's Logan Kilpatrick wrote, \"I"
+    },
+    {
+      "start": 281.28,
+      "duration": 3.6,
+      "text": "spent the last week building what could"
+    },
+    {
+      "start": 282.88,
+      "duration": 4.16,
+      "text": "easily be a$und00 million venturebacked"
+    },
+    {
+      "start": 284.88,
+      "duration": 5.039,
+      "text": "business. It's truly wild how much"
+    },
+    {
+      "start": 287.04,
+      "duration": 4.32,
+      "text": "leverage AI gives you.\" 10X's Alex"
+    },
+    {
+      "start": 289.919,
+      "duration": 2.881,
+      "text": "Lieberman wrote, \"I've never taken a"
+    },
+    {
+      "start": 291.36,
+      "duration": 3.6,
+      "text": "coding class. I've never shipped a piece"
+    },
+    {
+      "start": 292.8,
+      "duration": 5.28,
+      "text": "of software pre AAI, yet I'm now"
+    },
+    {
+      "start": 294.96,
+      "duration": 4.56,
+      "text": "creating vector embeddings of 812,918"
+    },
+    {
+      "start": 298.08,
+      "duration": 3.52,
+      "text": "messages from the last 5 years of my"
+    },
+    {
+      "start": 299.52,
+      "duration": 4.72,
+      "text": "life. The seismic shift happening before"
+    },
+    {
+      "start": 301.6,
+      "duration": 4,
+      "text": "our eyes is truly once in a lifetime."
+    },
+    {
+      "start": 304.24,
+      "duration": 3.76,
+      "text": "And what's important to note with all of"
+    },
+    {
+      "start": 305.6,
+      "duration": 4.56,
+      "text": "this is that these are not new people"
+    },
+    {
+      "start": 308,
+      "duration": 4.08,
+      "text": "coming into AI for the first time and"
+    },
+    {
+      "start": 310.16,
+      "duration": 4.8,
+      "text": "getting a glimpse of what's possible."
+    },
+    {
+      "start": 312.08,
+      "duration": 4.959,
+      "text": "These are singularly the most active,"
+    },
+    {
+      "start": 314.96,
+      "duration": 4.239,
+      "text": "frankly, proficient AI users in the"
+    },
+    {
+      "start": 317.039,
+      "duration": 4.641,
+      "text": "world. And they are increasingly shocked"
+    },
+    {
+      "start": 319.199,
+      "duration": 4.801,
+      "text": "at what's possible now. Ex Google"
+    },
+    {
+      "start": 321.68,
+      "duration": 4.239,
+      "text": "engineer Roan O'Neal wrote, \"I feel if I"
+    },
+    {
+      "start": 324,
+      "duration": 3.52,
+      "text": "had agenda coding and particularly Opus,"
+    },
+    {
+      "start": 325.919,
+      "duration": 3.28,
+      "text": "I would have saved myself the first six"
+    },
+    {
+      "start": 327.52,
+      "duration": 4.08,
+      "text": "years of my work compressed into a few"
+    },
+    {
+      "start": 329.199,
+      "duration": 4.321,
+      "text": "months.\" Maybe the most notable tweet of"
+    },
+    {
+      "start": 331.6,
+      "duration": 3.36,
+      "text": "the whole period came from John Adogan,"
+    },
+    {
+      "start": 333.52,
+      "duration": 3.44,
+      "text": "a principal engineer at Google, who"
+    },
+    {
+      "start": 334.96,
+      "duration": 3.6,
+      "text": "wrote, \"I'm not joking, and this isn't"
+    },
+    {
+      "start": 336.96,
+      "duration": 3.04,
+      "text": "funny. We've been trying to build"
+    },
+    {
+      "start": 338.56,
+      "duration": 3.28,
+      "text": "distributed agent orchestrators at"
+    },
+    {
+      "start": 340,
+      "duration": 3.199,
+      "text": "Google since last year. There are"
+    },
+    {
+      "start": 341.84,
+      "duration": 3.44,
+      "text": "various options. Not everyone is"
+    },
+    {
+      "start": 343.199,
+      "duration": 4,
+      "text": "aligned. I gave Claude code a"
+    },
+    {
+      "start": 345.28,
+      "duration": 4.32,
+      "text": "description of the problem. It generated"
+    },
+    {
+      "start": 347.199,
+      "duration": 4,
+      "text": "what we built last year in an hour. It's"
+    },
+    {
+      "start": 349.6,
+      "duration": 3.439,
+      "text": "not perfect and I'm iterating on it, but"
+    },
+    {
+      "start": 351.199,
+      "duration": 3.921,
+      "text": "this is where we are right now. If you"
+    },
+    {
+      "start": 353.039,
+      "duration": 3.44,
+      "text": "are skeptical of coding agents, try it"
+    },
+    {
+      "start": 355.12,
+      "duration": 3.519,
+      "text": "on a domain that you are already an"
+    },
+    {
+      "start": 356.479,
+      "duration": 3.521,
+      "text": "expert of. Build something complex from"
+    },
+    {
+      "start": 358.639,
+      "duration": 3.601,
+      "text": "scratch where you can be the judge of"
+    },
+    {
+      "start": 360,
+      "duration": 4.8,
+      "text": "the artifacts. In other words, as many"
+    },
+    {
+      "start": 362.24,
+      "duration": 5.6,
+      "text": "pointed out, even Google engineers are"
+    },
+    {
+      "start": 364.8,
+      "duration": 6.16,
+      "text": "blown away by Claude code. So, whatever"
+    },
+    {
+      "start": 367.84,
+      "duration": 4.88,
+      "text": "is going on, it's clearly widespread. In"
+    },
+    {
+      "start": 370.96,
+      "duration": 3.84,
+      "text": "fact, when Alex Lieberman again posted"
+    },
+    {
+      "start": 372.72,
+      "duration": 4.319,
+      "text": "on January 2nd that he wanted to start a"
+    },
+    {
+      "start": 374.8,
+      "duration": 5.28,
+      "text": "community dedicated to Claude Code, more"
+    },
+    {
+      "start": 377.039,
+      "duration": 4.72,
+      "text": "than 7,000 people signed up. So many, in"
+    },
+    {
+      "start": 380.08,
+      "duration": 4.239,
+      "text": "fact, that he's now hiring a program and"
+    },
+    {
+      "start": 381.759,
+      "duration": 4.641,
+      "text": "community manager to run that community."
+    },
+    {
+      "start": 384.319,
+      "duration": 4.32,
+      "text": "Now, one of the key themes is that"
+    },
+    {
+      "start": 386.4,
+      "duration": 4.56,
+      "text": "Claude code is actually misnamed."
+    },
+    {
+      "start": 388.639,
+      "duration": 3.761,
+      "text": "Investor Nikkun Catari wrote, \"Claude"
+    },
+    {
+      "start": 390.96,
+      "duration": 2.88,
+      "text": "code should be thought of as claude"
+    },
+    {
+      "start": 392.4,
+      "duration": 3.68,
+      "text": "computer because that's what we're"
+    },
+    {
+      "start": 393.84,
+      "duration": 4.56,
+      "text": "getting a glimpse of. alien intelligence"
+    },
+    {
+      "start": 396.08,
+      "duration": 4.16,
+      "text": "that has human tools, browser, file"
+    },
+    {
+      "start": 398.4,
+      "duration": 4.56,
+      "text": "system, terminal commands, and others"
+    },
+    {
+      "start": 400.24,
+      "duration": 4.64,
+      "text": "with generalized ability to do any task."
+    },
+    {
+      "start": 402.96,
+      "duration": 3.92,
+      "text": "Terminal UX is all that's stopping folks"
+    },
+    {
+      "start": 404.88,
+      "duration": 3.68,
+      "text": "from utilizing this all the time. But"
+    },
+    {
+      "start": 406.88,
+      "duration": 3.28,
+      "text": "the guey will come either through"
+    },
+    {
+      "start": 408.56,
+      "duration": 4.4,
+      "text": "anthropic directly or someone packaging"
+    },
+    {
+      "start": 410.16,
+      "duration": 4.319,
+      "text": "the agent SDK neatly. And indeed, one of"
+    },
+    {
+      "start": 412.96,
+      "duration": 2.64,
+      "text": "the things that you see is that the"
+    },
+    {
+      "start": 414.479,
+      "duration": 3.201,
+      "text": "people who are really getting the most"
+    },
+    {
+      "start": 415.6,
+      "duration": 4.319,
+      "text": "out of cloud code are using it for"
+    },
+    {
+      "start": 417.68,
+      "duration": 4,
+      "text": "everything. Alex Vanovvic wrote,"
+    },
+    {
+      "start": 419.919,
+      "duration": 3.68,
+      "text": "\"Started using Claude code for managing"
+    },
+    {
+      "start": 421.68,
+      "duration": 4.16,
+      "text": "my team, admin, program management,"
+    },
+    {
+      "start": 423.599,
+      "duration": 4.16,
+      "text": "meetings, agendas, etc. Basically,"
+    },
+    {
+      "start": 425.84,
+      "duration": 3.52,
+      "text": "Claude is my chief of staff now."
+    },
+    {
+      "start": 427.759,
+      "duration": 3.84,
+      "text": "Marketing and crypto entrepreneur Amanda"
+    },
+    {
+      "start": 429.36,
+      "duration": 4.32,
+      "text": "Cassat wrote, \"I'm now coding,\" air"
+    },
+    {
+      "start": 431.599,
+      "duration": 3.681,
+      "text": "quotes all day with Claude Code. If you"
+    },
+    {
+      "start": 433.68,
+      "duration": 3.04,
+      "text": "haven't tried it, you don't understand."
+    },
+    {
+      "start": 435.28,
+      "duration": 3.199,
+      "text": "It literally takes over your computer"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.96,
+      "text": "and does everything for you. There was"
+    },
+    {
+      "start": 438.479,
+      "duration": 2.72,
+      "text": "something wrong with the sound on my"
+    },
+    {
+      "start": 439.68,
+      "duration": 3.6,
+      "text": "Mac, and I used Claude Code to fix it"
+    },
+    {
+      "start": 441.199,
+      "duration": 4.241,
+      "text": "rather than open settings. She also"
+    },
+    {
+      "start": 443.28,
+      "duration": 3.919,
+      "text": "tweeted, \"Cloud Code is leaving everyone"
+    },
+    {
+      "start": 445.44,
+      "duration": 4.4,
+      "text": "in the dust right now. If you haven't"
+    },
+    {
+      "start": 447.199,
+      "duration": 4.161,
+      "text": "tried it, you need to now. You just"
+    },
+    {
+      "start": 449.84,
+      "duration": 3.12,
+      "text": "speak in English like it's the Starship"
+    },
+    {
+      "start": 451.36,
+      "duration": 3.6,
+      "text": "Enterprise. It takes over your computer"
+    },
+    {
+      "start": 452.96,
+      "duration": 3.6,
+      "text": "and does everything for you. It's not"
+    },
+    {
+      "start": 454.96,
+      "duration": 3.04,
+      "text": "like asking a chat model to help you"
+    },
+    {
+      "start": 456.56,
+      "duration": 3.84,
+      "text": "code where it puts code in the weird"
+    },
+    {
+      "start": 458,
+      "duration": 3.68,
+      "text": "little box. It's not a co-pilot checking"
+    },
+    {
+      "start": 460.4,
+      "duration": 3.359,
+      "text": "over your code or teaching you how to"
+    },
+    {
+      "start": 461.68,
+      "duration": 3.76,
+      "text": "code unless you want that. No copy and"
+    },
+    {
+      "start": 463.759,
+      "duration": 3.921,
+      "text": "pasting between windows. No learning to"
+    },
+    {
+      "start": 465.44,
+      "duration": 4.479,
+      "text": "code. No learning curve at all. Chicago"
+    },
+    {
+      "start": 467.68,
+      "duration": 4.32,
+      "text": "Booth professor Alex wrote, \"To those"
+    },
+    {
+      "start": 469.919,
+      "duration": 4.481,
+      "text": "who are curious about the hoopla, cloud"
+    },
+    {
+      "start": 472,
+      "duration": 4.16,
+      "text": "code is not just for code. It's an AI"
+    },
+    {
+      "start": 474.4,
+      "duration": 3.519,
+      "text": "agent that can essentially act like a"
+    },
+    {
+      "start": 476.16,
+      "duration": 3.039,
+      "text": "combination of personal assistant and"
+    },
+    {
+      "start": 477.919,
+      "duration": 3.441,
+      "text": "colleague that has access to your"
+    },
+    {
+      "start": 479.199,
+      "duration": 3.44,
+      "text": "machine. Need your files organized? Need"
+    },
+    {
+      "start": 481.36,
+      "duration": 2.959,
+      "text": "to create a better calendar app and"
+    },
+    {
+      "start": 482.639,
+      "duration": 3.041,
+      "text": "organize your life? Need a sounding"
+    },
+    {
+      "start": 484.319,
+      "duration": 3.28,
+      "text": "board for a presentation that's coming"
+    },
+    {
+      "start": 485.68,
+      "duration": 2.88,
+      "text": "up? Need to organize your notes that are"
+    },
+    {
+      "start": 487.599,
+      "duration": 3.361,
+      "text": "all over the place for that"
+    },
+    {
+      "start": 488.56,
+      "duration": 4.079,
+      "text": "presentation? Cloud Code will do that."
+    },
+    {
+      "start": 490.96,
+      "duration": 3.919,
+      "text": "Just write it out in plain text and make"
+    },
+    {
+      "start": 492.639,
+      "duration": 3.361,
+      "text": "it happen. Alex also agreed that the"
+    },
+    {
+      "start": 494.879,
+      "duration": 3.521,
+      "text": "word code in the name will slow"
+    },
+    {
+      "start": 496,
+      "duration": 4.879,
+      "text": "adoption. Boris Churnney, who built"
+    },
+    {
+      "start": 498.4,
+      "duration": 4.079,
+      "text": "Claude Code, also shared how he used it,"
+    },
+    {
+      "start": 500.879,
+      "duration": 3.121,
+      "text": "and it gives you a sense of just how"
+    },
+    {
+      "start": 502.479,
+      "duration": 3.521,
+      "text": "comprehensively the Power users are"
+    },
+    {
+      "start": 504,
+      "duration": 3.919,
+      "text": "putting this tool into practice. Boris"
+    },
+    {
+      "start": 506,
+      "duration": 4.4,
+      "text": "writes, \"I run five clouds in parallel"
+    },
+    {
+      "start": 507.919,
+      "duration": 4,
+      "text": "in my terminal. I number my tabs 1 to 5"
+    },
+    {
+      "start": 510.4,
+      "duration": 4.16,
+      "text": "and use system notifications to know"
+    },
+    {
+      "start": 511.919,
+      "duration": 5.04,
+      "text": "when a cloud needs input. I also run 5"
+    },
+    {
+      "start": 514.56,
+      "duration": 4.88,
+      "text": "to 10 clouds on cloud.ai/code"
+    },
+    {
+      "start": 516.959,
+      "duration": 4.08,
+      "text": "in parallel with my local clouds. As I"
+    },
+    {
+      "start": 519.44,
+      "duration": 3.44,
+      "text": "code in my terminal, I will often hand"
+    },
+    {
+      "start": 521.039,
+      "duration": 3.841,
+      "text": "off local sessions to the web or"
+    },
+    {
+      "start": 522.88,
+      "duration": 3.44,
+      "text": "manually kick off sessions in Chrome and"
+    },
+    {
+      "start": 524.88,
+      "duration": 3.68,
+      "text": "sometimes I will teleport back and"
+    },
+    {
+      "start": 526.32,
+      "duration": 4.079,
+      "text": "forth. I also start a few sessions from"
+    },
+    {
+      "start": 528.56,
+      "duration": 3.68,
+      "text": "my phone from the Claude iOS app every"
+    },
+    {
+      "start": 530.399,
+      "duration": 4.641,
+      "text": "morning and throughout the day and check"
+    },
+    {
+      "start": 532.24,
+      "duration": 4.4,
+      "text": "in on them later and so on and so forth."
+    },
+    {
+      "start": 535.04,
+      "duration": 3.12,
+      "text": "You can see that this guy's got 15"
+    },
+    {
+      "start": 536.64,
+      "duration": 3.92,
+      "text": "different instances of Claude running at"
+    },
+    {
+      "start": 538.16,
+      "duration": 4,
+      "text": "any given time. Now, one of the things"
+    },
+    {
+      "start": 540.56,
+      "duration": 4.56,
+      "text": "that's clear is that the new"
+    },
+    {
+      "start": 542.16,
+      "duration": 5.2,
+      "text": "capabilities just feel different. 37"
+    },
+    {
+      "start": 545.12,
+      "duration": 3.76,
+      "text": "Signals Jason Freed writes, \"AI"
+    },
+    {
+      "start": 547.36,
+      "duration": 2.96,
+      "text": "workflows are technically impressive,"
+    },
+    {
+      "start": 548.88,
+      "duration": 4.16,
+      "text": "but there's a deeper reason people are"
+    },
+    {
+      "start": 550.32,
+      "duration": 4.959,
+      "text": "really amped about AI agents. This isn't"
+    },
+    {
+      "start": 553.04,
+      "duration": 3.919,
+      "text": "just new tech, it's new psychology."
+    },
+    {
+      "start": 555.279,
+      "duration": 3.601,
+      "text": "Until now, very few people have known"
+    },
+    {
+      "start": 556.959,
+      "duration": 4.241,
+      "text": "what it feels like to delegate to total"
+    },
+    {
+      "start": 558.88,
+      "duration": 4.48,
+      "text": "competency. If you manage great people"
+    },
+    {
+      "start": 561.2,
+      "duration": 3.68,
+      "text": "or lead great teams, you know how it"
+    },
+    {
+      "start": 563.36,
+      "duration": 3.52,
+      "text": "feels to put someone in charge who will"
+    },
+    {
+      "start": 564.88,
+      "duration": 4.16,
+      "text": "get it done, get it done right, and get"
+    },
+    {
+      "start": 566.88,
+      "duration": 4.8,
+      "text": "it done without drama. That kind of"
+    },
+    {
+      "start": 569.04,
+      "duration": 4.32,
+      "text": "delegation is pure joy. Delegating to"
+    },
+    {
+      "start": 571.68,
+      "duration": 4.719,
+      "text": "competency lets you forget about it"
+    },
+    {
+      "start": 573.36,
+      "duration": 5.28,
+      "text": "completely. That's real leverage. And"
+    },
+    {
+      "start": 576.399,
+      "duration": 5.041,
+      "text": "now anyone can experience that. Everyone"
+    },
+    {
+      "start": 578.64,
+      "duration": 4.24,
+      "text": "can feel it and it feels effing great."
+    },
+    {
+      "start": 581.44,
+      "duration": 4.399,
+      "text": "That's a big reason why the excitement"
+    },
+    {
+      "start": 582.88,
+      "duration": 4.56,
+      "text": "is real and fully justified. Curser's"
+    },
+    {
+      "start": 585.839,
+      "duration": 3.921,
+      "text": "head of design, Ryolu, called this a"
+    },
+    {
+      "start": 587.44,
+      "duration": 4,
+      "text": "software renaissance. The printing press"
+    },
+    {
+      "start": 589.76,
+      "duration": 3.759,
+      "text": "didn't make monks faster at copying"
+    },
+    {
+      "start": 591.44,
+      "duration": 4.72,
+      "text": "manuscripts. He wrote it made copying"
+    },
+    {
+      "start": 593.519,
+      "duration": 4.561,
+      "text": "obsolete. It created new worlds. Anyone"
+    },
+    {
+      "start": 596.16,
+      "duration": 3.28,
+      "text": "with an idea can now make software. But"
+    },
+    {
+      "start": 598.08,
+      "duration": 4.24,
+      "text": "now the tools are no longer the true"
+    },
+    {
+      "start": 599.44,
+      "duration": 4.48,
+      "text": "bottleneck. We are even some folks who"
+    },
+    {
+      "start": 602.32,
+      "duration": 4.639,
+      "text": "might have previously been skeptical are"
+    },
+    {
+      "start": 603.92,
+      "duration": 5.2,
+      "text": "coming on board. Theo again wrote, \"If"
+    },
+    {
+      "start": 606.959,
+      "duration": 4.241,
+      "text": "you think AI coding is a fad, I get it."
+    },
+    {
+      "start": 609.12,
+      "duration": 3.36,
+      "text": "I felt the same way about a year ago. If"
+    },
+    {
+      "start": 611.2,
+      "duration": 3.28,
+      "text": "you tried these tools out during the"
+    },
+    {
+      "start": 612.48,
+      "duration": 4.16,
+      "text": "Copilot autocomplete era, I understand"
+    },
+    {
+      "start": 614.48,
+      "duration": 4.16,
+      "text": "entirely why you wrote them off. Things"
+    },
+    {
+      "start": 616.64,
+      "duration": 4.24,
+      "text": "have changed a lot since then. These"
+    },
+    {
+      "start": 618.64,
+      "duration": 4.24,
+      "text": "tools are here to stay. I don't fault"
+    },
+    {
+      "start": 620.88,
+      "duration": 3.68,
+      "text": "anyone for feeling this way. The rate of"
+    },
+    {
+      "start": 622.88,
+      "duration": 3.84,
+      "text": "progress seems impossible and keeping up"
+    },
+    {
+      "start": 624.56,
+      "duration": 3.68,
+      "text": "on it all is tedious and obnoxious. Lots"
+    },
+    {
+      "start": 626.72,
+      "duration": 2.799,
+      "text": "of people are selling snake oil right"
+    },
+    {
+      "start": 628.24,
+      "duration": 3.279,
+      "text": "now. You might have accidentally bought"
+    },
+    {
+      "start": 629.519,
+      "duration": 4.081,
+      "text": "some yourself. I know I have. That"
+    },
+    {
+      "start": 631.519,
+      "duration": 3.521,
+      "text": "doesn't make the trend irrelevant. Every"
+    },
+    {
+      "start": 633.6,
+      "duration": 3.52,
+      "text": "few months, there's an absurd leap in"
+    },
+    {
+      "start": 635.04,
+      "duration": 4.239,
+      "text": "capability. 6 months ago, I was blown"
+    },
+    {
+      "start": 637.12,
+      "duration": 4.08,
+      "text": "away with GPT5. It could do decent"
+    },
+    {
+      "start": 639.279,
+      "duration": 4.081,
+      "text": "designs and navigate a giant codebase."
+    },
+    {
+      "start": 641.2,
+      "duration": 4,
+      "text": "Awesome. Now, Opus can complete large"
+    },
+    {
+      "start": 643.36,
+      "duration": 4,
+      "text": "feature work by itself. Actually,"
+    },
+    {
+      "start": 645.2,
+      "duration": 3.92,
+      "text": "insane. To be blunt, all of the best"
+    },
+    {
+      "start": 647.36,
+      "duration": 3.44,
+      "text": "devs I know are using AI heavily in"
+    },
+    {
+      "start": 649.12,
+      "duration": 3.68,
+      "text": "their work. Once you see what these"
+    },
+    {
+      "start": 650.8,
+      "duration": 3.52,
+      "text": "tools can do, it's hard to talk about it"
+    },
+    {
+      "start": 652.8,
+      "duration": 3.84,
+      "text": "genuinely without sounding like a paid"
+    },
+    {
+      "start": 654.32,
+      "duration": 4.32,
+      "text": "shill. The gap between devs evangelizing"
+    },
+    {
+      "start": 656.64,
+      "duration": 4.56,
+      "text": "AI and devs skeptical of AI is getting"
+    },
+    {
+      "start": 658.64,
+      "duration": 4.96,
+      "text": "massive. People who insist these tools"
+    },
+    {
+      "start": 661.2,
+      "duration": 4.639,
+      "text": "are useless. I get it. They felt useless"
+    },
+    {
+      "start": 663.6,
+      "duration": 4.799,
+      "text": "just a few months ago. But your takes"
+    },
+    {
+      "start": 665.839,
+      "duration": 4.481,
+      "text": "are dated. AI is fundamentally changing"
+    },
+    {
+      "start": 668.399,
+      "duration": 3.841,
+      "text": "how we work."
+    },
+    {
+      "start": 670.32,
+      "duration": 3.519,
+      "text": "David Henire Hansen shared a very"
+    },
+    {
+      "start": 672.24,
+      "duration": 4.56,
+      "text": "similar sentiment in a recent blog post"
+    },
+    {
+      "start": 673.839,
+      "duration": 4.161,
+      "text": "called promoting AI agents. He wrote, \"I"
+    },
+    {
+      "start": 676.8,
+      "duration": 3.039,
+      "text": "never really cared much for the"
+    },
+    {
+      "start": 678,
+      "duration": 3.12,
+      "text": "in-editor experience of having AI"
+    },
+    {
+      "start": 679.839,
+      "duration": 3.201,
+      "text": "autocomplete your code as you were"
+    },
+    {
+      "start": 681.12,
+      "duration": 3.52,
+      "text": "writing it. That was the original format"
+    },
+    {
+      "start": 683.04,
+      "duration": 3.6,
+      "text": "pioneered by GitHub's co-pilot and"
+    },
+    {
+      "start": 684.64,
+      "duration": 3.68,
+      "text": "cursor, but it left me code. But with"
+    },
+    {
+      "start": 686.64,
+      "duration": 3.6,
+      "text": "these autonomous agents, the experience"
+    },
+    {
+      "start": 688.32,
+      "duration": 3.519,
+      "text": "is very different. It's more like"
+    },
+    {
+      "start": 690.24,
+      "duration": 3.279,
+      "text": "working on a team and less like working"
+    },
+    {
+      "start": 691.839,
+      "duration": 2.961,
+      "text": "with an overzealous pair programmer who"
+    },
+    {
+      "start": 693.519,
+      "duration": 2.401,
+      "text": "can't stop stealing the keyboard to"
+    },
+    {
+      "start": 694.8,
+      "duration": 3.279,
+      "text": "complete the code you were in the middle"
+    },
+    {
+      "start": 695.92,
+      "duration": 3.68,
+      "text": "of writing. With a team of agents,"
+    },
+    {
+      "start": 698.079,
+      "duration": 3.2,
+      "text": "they're doing their work autonomously,"
+    },
+    {
+      "start": 699.6,
+      "duration": 3.84,
+      "text": "and I just review the final outcome,"
+    },
+    {
+      "start": 701.279,
+      "duration": 4.401,
+      "text": "offer guidance when asked, and marvel at"
+    },
+    {
+      "start": 703.44,
+      "duration": 3.68,
+      "text": "how this is possible at all. Yes, I'm"
+    },
+    {
+      "start": 705.68,
+      "duration": 3.36,
+      "text": "ready to give the current crop of AI"
+    },
+    {
+      "start": 707.12,
+      "duration": 3.52,
+      "text": "agents a promotion. They're no longer"
+    },
+    {
+      "start": 709.04,
+      "duration": 3.28,
+      "text": "just here to help me learn, answer my"
+    },
+    {
+      "start": 710.64,
+      "duration": 3.439,
+      "text": "questions, or check my work. They're"
+    },
+    {
+      "start": 712.32,
+      "duration": 3.6,
+      "text": "fully capable of producing production"
+    },
+    {
+      "start": 714.079,
+      "duration": 4.161,
+      "text": "grade contributions to real life code"
+    },
+    {
+      "start": 715.92,
+      "duration": 4,
+      "text": "bases. I get that some programmers are"
+    },
+    {
+      "start": 718.24,
+      "duration": 3.52,
+      "text": "eager to tune it all out. The hype"
+    },
+    {
+      "start": 719.92,
+      "duration": 3.359,
+      "text": "drones on relentlessly. The most"
+    },
+    {
+      "start": 721.76,
+      "duration": 3.36,
+      "text": "fantastical claims are still far off"
+    },
+    {
+      "start": 723.279,
+      "duration": 3.201,
+      "text": "from being substantiated, and there's"
+    },
+    {
+      "start": 725.12,
+      "duration": 3.04,
+      "text": "real uncertainty where this will all"
+    },
+    {
+      "start": 726.48,
+      "duration": 3.2,
+      "text": "leave the profession in the future. But"
+    },
+    {
+      "start": 728.16,
+      "duration": 3.28,
+      "text": "that's still not reason enough to miss"
+    },
+    {
+      "start": 729.68,
+      "duration": 3.92,
+      "text": "out on this incredible moment in human"
+    },
+    {
+      "start": 731.44,
+      "duration": 3.92,
+      "text": "and computing history."
+    },
+    {
+      "start": 733.6,
+      "duration": 3.919,
+      "text": "Now, honestly, at this point, the"
+    },
+    {
+      "start": 735.36,
+      "duration": 3.599,
+      "text": "excitement has gotten so loud that there"
+    },
+    {
+      "start": 737.519,
+      "duration": 3.841,
+      "text": "are some who are trying to show where"
+    },
+    {
+      "start": 738.959,
+      "duration": 4.241,
+      "text": "there are still challenges. OpenAI Uber"
+    },
+    {
+      "start": 741.36,
+      "duration": 3.44,
+      "text": "researcher Nome Brown wrote, \"In one"
+    },
+    {
+      "start": 743.2,
+      "duration": 3.92,
+      "text": "memorable debugging session with Claude"
+    },
+    {
+      "start": 744.8,
+      "duration": 4.24,
+      "text": "Code, I asked it as a sanity check what"
+    },
+    {
+      "start": 747.12,
+      "duration": 3.76,
+      "text": "the expected value would be of an always"
+    },
+    {
+      "start": 749.04,
+      "duration": 3.919,
+      "text": "fold strategy when the poker player has"
+    },
+    {
+      "start": 750.88,
+      "duration": 3.68,
+      "text": "$100 in the pot. It told me that"
+    },
+    {
+      "start": 752.959,
+      "duration": 3.841,
+      "text": "according to its algorithm, the expected"
+    },
+    {
+      "start": 754.56,
+      "duration": 4.079,
+      "text": "value was around $93.\""
+    },
+    {
+      "start": 756.8,
+      "duration": 3.279,
+      "text": "When I pointed out how strange that was,"
+    },
+    {
+      "start": 758.639,
+      "duration": 4.081,
+      "text": "hoping it would realize on its own that"
+    },
+    {
+      "start": 760.079,
+      "duration": 4.56,
+      "text": "there's a bug, it reassured me that $93"
+    },
+    {
+      "start": 762.72,
+      "duration": 4.239,
+      "text": "was close to $100, so it was probably"
+    },
+    {
+      "start": 764.639,
+      "duration": 3.521,
+      "text": "fine. Codeex was not much better on this"
+    },
+    {
+      "start": 766.959,
+      "duration": 2.481,
+      "text": "and ran into its own set of"
+    },
+    {
+      "start": 768.16,
+      "duration": 2.56,
+      "text": "interestingly distinct bugs and"
+    },
+    {
+      "start": 769.44,
+      "duration": 3.68,
+      "text": "algorithmic mistakes that I had to"
+    },
+    {
+      "start": 770.72,
+      "duration": 4.16,
+      "text": "carefully work through. JF Puget, who"
+    },
+    {
+      "start": 773.12,
+      "duration": 3.2,
+      "text": "does machine learning at NVIDIA, did a"
+    },
+    {
+      "start": 774.88,
+      "duration": 3.04,
+      "text": "claude code test and came to the"
+    },
+    {
+      "start": 776.32,
+      "duration": 3.04,
+      "text": "conclusion, I am more and more convinced"
+    },
+    {
+      "start": 777.92,
+      "duration": 3.28,
+      "text": "that its value is where you know the"
+    },
+    {
+      "start": 779.36,
+      "duration": 3.36,
+      "text": "best. The rest is vibe coding, which can"
+    },
+    {
+      "start": 781.2,
+      "duration": 2.8,
+      "text": "be fine for personal projects, but"
+    },
+    {
+      "start": 782.72,
+      "duration": 4.48,
+      "text": "definitely not fine for product"
+    },
+    {
+      "start": 784,
+      "duration": 5.12,
+      "text": "development. Now, to be honest, I think"
+    },
+    {
+      "start": 787.2,
+      "duration": 4.24,
+      "text": "this is in and of itself a temporary"
+    },
+    {
+      "start": 789.12,
+      "duration": 3.36,
+      "text": "state and a temporary opinion. I think a"
+    },
+    {
+      "start": 791.44,
+      "duration": 3.04,
+      "text": "lot of the things that people think"
+    },
+    {
+      "start": 792.48,
+      "duration": 3.919,
+      "text": "currently are barriers on pressing scent"
+    },
+    {
+      "start": 794.48,
+      "duration": 3.919,
+      "text": "on production software right now will"
+    },
+    {
+      "start": 796.399,
+      "duration": 3.521,
+      "text": "just be blown over in the future with"
+    },
+    {
+      "start": 798.399,
+      "duration": 3.521,
+      "text": "builders content to just try to fix the"
+    },
+    {
+      "start": 799.92,
+      "duration": 3.84,
+      "text": "problems when they come up. Which is not"
+    },
+    {
+      "start": 801.92,
+      "duration": 3.68,
+      "text": "to say that I get every use case that's"
+    },
+    {
+      "start": 803.76,
+      "duration": 3.92,
+      "text": "being shared right now. Entrepreneur"
+    },
+    {
+      "start": 805.6,
+      "duration": 4.479,
+      "text": "David Seagull shared an admittedly"
+    },
+    {
+      "start": 807.68,
+      "duration": 4.48,
+      "text": "extremely cool project called Claw"
+    },
+    {
+      "start": 810.079,
+      "duration": 3.841,
+      "text": "Canvas where he basically gave Claude"
+    },
+    {
+      "start": 812.16,
+      "duration": 3.44,
+      "text": "code the capability of creating a"
+    },
+    {
+      "start": 813.92,
+      "duration": 4.56,
+      "text": "generative UI based on the particular"
+    },
+    {
+      "start": 815.6,
+      "duration": 5.039,
+      "text": "task at hand. Now, this was undeniably"
+    },
+    {
+      "start": 818.48,
+      "duration": 4.32,
+      "text": "super cool and technically awesome."
+    },
+    {
+      "start": 820.639,
+      "duration": 4.961,
+      "text": "However, the three examples that he gave"
+    },
+    {
+      "start": 822.8,
+      "duration": 5.44,
+      "text": "of scheduling a call with a CTO, booking"
+    },
+    {
+      "start": 825.6,
+      "duration": 4.799,
+      "text": "a flight, and writing emails just did"
+    },
+    {
+      "start": 828.24,
+      "duration": 4.08,
+      "text": "not resonate with me at all."
+    },
+    {
+      "start": 830.399,
+      "duration": 4,
+      "text": "Specifically, the user experience of"
+    },
+    {
+      "start": 832.32,
+      "duration": 4.079,
+      "text": "doing those things in cloud code as"
+    },
+    {
+      "start": 834.399,
+      "duration": 3.44,
+      "text": "opposed to the highly optimized UX's"
+    },
+    {
+      "start": 836.399,
+      "duration": 2.641,
+      "text": "that have been created for them just"
+    },
+    {
+      "start": 837.839,
+      "duration": 3.68,
+      "text": "doesn't make sense from where I'm"
+    },
+    {
+      "start": 839.04,
+      "duration": 4.479,
+      "text": "sitting. Calendar scheduling is not some"
+    },
+    {
+      "start": 841.519,
+      "duration": 4.081,
+      "text": "massive pain. You just go into your"
+    },
+    {
+      "start": 843.519,
+      "duration": 3.841,
+      "text": "Google calendar, pull up your teammate"
+    },
+    {
+      "start": 845.6,
+      "duration": 3.44,
+      "text": "schedule with their email, and pick a"
+    },
+    {
+      "start": 847.36,
+      "duration": 4,
+      "text": "time that works for you both. [snorts]"
+    },
+    {
+      "start": 849.04,
+      "duration": 4.72,
+      "text": "For flights, by no stretch would I say"
+    },
+    {
+      "start": 851.36,
+      "duration": 5.039,
+      "text": "that flight discovery UX is perfected."
+    },
+    {
+      "start": 853.76,
+      "duration": 4.4,
+      "text": "But seeing clawed code reapproximate the"
+    },
+    {
+      "start": 856.399,
+      "duration": 3.12,
+      "text": "seat layout of an airplane rather than"
+    },
+    {
+      "start": 858.16,
+      "duration": 3.76,
+      "text": "just using the version of that on, for"
+    },
+    {
+      "start": 859.519,
+      "duration": 4.401,
+      "text": "example, the Delta app just seems really"
+    },
+    {
+      "start": 861.92,
+      "duration": 4.32,
+      "text": "not time-saving to me in any meaningful"
+    },
+    {
+      "start": 863.92,
+      "duration": 4.56,
+      "text": "way. What's interesting though is that"
+    },
+    {
+      "start": 866.24,
+      "duration": 5.68,
+      "text": "it's very clear that David is not using"
+    },
+    {
+      "start": 868.48,
+      "duration": 6.24,
+      "text": "Claude code in a one-off to one-off way."
+    },
+    {
+      "start": 871.92,
+      "duration": 5.279,
+      "text": "He is using it very comprehensively as a"
+    },
+    {
+      "start": 874.72,
+      "duration": 4.08,
+      "text": "personal agent across a huge span of his"
+    },
+    {
+      "start": 877.199,
+      "duration": 4.801,
+      "text": "work and interactions with the world of"
+    },
+    {
+      "start": 878.8,
+      "duration": 5.52,
+      "text": "the internet. And so what strikes me is"
+    },
+    {
+      "start": 882,
+      "duration": 4.399,
+      "text": "that while it's possible that he's just"
+    },
+    {
+      "start": 884.32,
+      "duration": 4.24,
+      "text": "one of those folks who's really excited"
+    },
+    {
+      "start": 886.399,
+      "duration": 3.521,
+      "text": "about a new tool and is exploring all"
+    },
+    {
+      "start": 888.56,
+      "duration": 2.639,
+      "text": "the different use cases even though some"
+    },
+    {
+      "start": 889.92,
+      "duration": 3.2,
+      "text": "of them won't make sense for that tool"
+    },
+    {
+      "start": 891.199,
+      "duration": 4.481,
+      "text": "in the long run, it strikes me as"
+    },
+    {
+      "start": 893.12,
+      "duration": 5.6,
+      "text": "perhaps more likely that David is in the"
+    },
+    {
+      "start": 895.68,
+      "duration": 5.2,
+      "text": "midst of a transition to a postux world."
+    },
+    {
+      "start": 898.72,
+      "duration": 4.72,
+      "text": "A world in other words where user"
+    },
+    {
+      "start": 900.88,
+      "duration": 5.199,
+      "text": "experience matters less because the user"
+    },
+    {
+      "start": 903.44,
+      "duration": 5.12,
+      "text": "which is us a human isn't actually"
+    },
+    {
+      "start": 906.079,
+      "duration": 4.481,
+      "text": "having the experience. Instead, we are"
+    },
+    {
+      "start": 908.56,
+      "duration": 3.839,
+      "text": "simply delegating to an agent which"
+    },
+    {
+      "start": 910.56,
+      "duration": 3.92,
+      "text": "doesn't need the Delta app or the Google"
+    },
+    {
+      "start": 912.399,
+      "duration": 4.481,
+      "text": "calendar web app. And so, in some ways,"
+    },
+    {
+      "start": 914.48,
+      "duration": 5.039,
+      "text": "what he's built is a generative guey"
+    },
+    {
+      "start": 916.88,
+      "duration": 4.319,
+      "text": "crutch for this transitional period."
+    },
+    {
+      "start": 919.519,
+      "duration": 3.76,
+      "text": "That's just a solve for him to be able"
+    },
+    {
+      "start": 921.199,
+      "duration": 4.64,
+      "text": "to give the agent, which doesn't need a"
+    },
+    {
+      "start": 923.279,
+      "duration": 5.041,
+      "text": "UX, enough information to complete the"
+    },
+    {
+      "start": 925.839,
+      "duration": 4.081,
+      "text": "task successfully. Still, my broader"
+    },
+    {
+      "start": 928.32,
+      "duration": 4.079,
+      "text": "point is that there is a lot of"
+    },
+    {
+      "start": 929.92,
+      "duration": 4.08,
+      "text": "exploration happening and not every use"
+    },
+    {
+      "start": 932.399,
+      "duration": 2.88,
+      "text": "case that people get incredibly excited"
+    },
+    {
+      "start": 934,
+      "duration": 2.8,
+      "text": "about is going to be one that you have"
+    },
+    {
+      "start": 935.279,
+      "duration": 3.041,
+      "text": "to run out and go try for yourself right"
+    },
+    {
+      "start": 936.8,
+      "duration": 3.44,
+      "text": "away."
+    },
+    {
+      "start": 938.32,
+      "duration": 4.48,
+      "text": "So, what are some predictions for where"
+    },
+    {
+      "start": 940.24,
+      "duration": 5.36,
+      "text": "this all leads? Well, one of them is in"
+    },
+    {
+      "start": 942.8,
+      "duration": 4.88,
+      "text": "fact this postUI world. Broadloom CEO"
+    },
+    {
+      "start": 945.6,
+      "duration": 3.599,
+      "text": "Todd Saunders writes, \"Every single day"
+    },
+    {
+      "start": 947.68,
+      "duration": 3.2,
+      "text": "I become more convinced that the next"
+    },
+    {
+      "start": 949.199,
+      "duration": 4.56,
+      "text": "winners in vertical software won't have"
+    },
+    {
+      "start": 950.88,
+      "duration": 4.319,
+      "text": "a UI. They will be API first, agent"
+    },
+    {
+      "start": 953.759,
+      "duration": 3.44,
+      "text": "first products that integrate directly"
+    },
+    {
+      "start": 955.199,
+      "duration": 4.32,
+      "text": "into a company's Slack, Teams, email, or"
+    },
+    {
+      "start": 957.199,
+      "duration": 4.161,
+      "text": "browser. Sales team doesn't want another"
+    },
+    {
+      "start": 959.519,
+      "duration": 4.32,
+      "text": "dashboard. They want deals automatically"
+    },
+    {
+      "start": 961.36,
+      "duration": 3.919,
+      "text": "qualified in their CRM. Your accountants"
+    },
+    {
+      "start": 963.839,
+      "duration": 3.521,
+      "text": "don't need another portal, although they"
+    },
+    {
+      "start": 965.279,
+      "duration": 3.441,
+      "text": "do love portals. They want invoices"
+    },
+    {
+      "start": 967.36,
+      "duration": 4.159,
+      "text": "reconciled in the tools they already"
+    },
+    {
+      "start": 968.72,
+      "duration": 4.799,
+      "text": "live in. The UIless future is coming. My"
+    },
+    {
+      "start": 971.519,
+      "duration": 3.601,
+      "text": "working thesis still TBD is that we are"
+    },
+    {
+      "start": 973.519,
+      "duration": 4.081,
+      "text": "moving from software you visit to"
+    },
+    {
+      "start": 975.12,
+      "duration": 3.92,
+      "text": "software that visits you. Another"
+    },
+    {
+      "start": 977.6,
+      "duration": 3.039,
+      "text": "prediction which is really more of a"
+    },
+    {
+      "start": 979.04,
+      "duration": 3.44,
+      "text": "sensibility or a feeling which you can"
+    },
+    {
+      "start": 980.639,
+      "duration": 3.921,
+      "text": "see in some of these posts is that"
+    },
+    {
+      "start": 982.48,
+      "duration": 4.159,
+      "text": "although this is amazing, there is"
+    },
+    {
+      "start": 984.56,
+      "duration": 4.24,
+      "text": "something being lost too as the job of"
+    },
+    {
+      "start": 986.639,
+      "duration": 4.481,
+      "text": "the software engineer changes. In"
+    },
+    {
+      "start": 988.8,
+      "duration": 3.839,
+      "text": "another viral post, Dooka writes, \"I'm"
+    },
+    {
+      "start": 991.12,
+      "duration": 3.92,
+      "text": "not sure if other developers feel like"
+    },
+    {
+      "start": 992.639,
+      "duration": 3.841,
+      "text": "this, but I feel kind of depressed. Like"
+    },
+    {
+      "start": 995.04,
+      "duration": 3.12,
+      "text": "everyone else, I've been using Claude"
+    },
+    {
+      "start": 996.48,
+      "duration": 3.44,
+      "text": "Code for a while. It's not a recent"
+    },
+    {
+      "start": 998.16,
+      "duration": 3.919,
+      "text": "thing, and it's incredible. I've never"
+    },
+    {
+      "start": 999.92,
+      "duration": 4.08,
+      "text": "found coding more fun. The stuff you can"
+    },
+    {
+      "start": 1002.079,
+      "duration": 4.32,
+      "text": "do and the speed you can do it at now is"
+    },
+    {
+      "start": 1004,
+      "duration": 4.959,
+      "text": "absolutely insane, and I'm using it to"
+    },
+    {
+      "start": 1006.399,
+      "duration": 5.041,
+      "text": "ship a lot and solve customer problems"
+    },
+    {
+      "start": 1008.959,
+      "duration": 4.32,
+      "text": "faster. So, all around, it's a win. But"
+    },
+    {
+      "start": 1011.44,
+      "duration": 3.6,
+      "text": "at the same time, the skill I spent 10"
+    },
+    {
+      "start": 1013.279,
+      "duration": 3.36,
+      "text": "thousands of hours getting good at,"
+    },
+    {
+      "start": 1015.04,
+      "duration": 3.68,
+      "text": "programming, the thing I spent most of"
+    },
+    {
+      "start": 1016.639,
+      "duration": 4.481,
+      "text": "my life getting good at, is becoming a"
+    },
+    {
+      "start": 1018.72,
+      "duration": 4.08,
+      "text": "full commodity extremely quickly. As"
+    },
+    {
+      "start": 1021.12,
+      "duration": 3.04,
+      "text": "much fun as it is, and as much as I like"
+    },
+    {
+      "start": 1022.8,
+      "duration": 2.879,
+      "text": "using the tools, there's something"
+    },
+    {
+      "start": 1024.16,
+      "duration": 3.279,
+      "text": "disheartening about the thing you spent"
+    },
+    {
+      "start": 1025.679,
+      "duration": 4.4,
+      "text": "most of your life getting good at now"
+    },
+    {
+      "start": 1027.439,
+      "duration": 4.721,
+      "text": "being mostly useless, writes Pathic."
+    },
+    {
+      "start": 1030.079,
+      "duration": 3.921,
+      "text": "Everyone is going to feel this soon."
+    },
+    {
+      "start": 1032.16,
+      "duration": 3.84,
+      "text": "Another line of predictions, as"
+    },
+    {
+      "start": 1034,
+      "duration": 3.52,
+      "text": "expressed by Lewis, everyone who tried"
+    },
+    {
+      "start": 1036,
+      "duration": 2.959,
+      "text": "Claude code over the holidays and has"
+    },
+    {
+      "start": 1037.52,
+      "duration": 4.24,
+      "text": "been thinking deeply about this for 7"
+    },
+    {
+      "start": 1038.959,
+      "duration": 5.201,
+      "text": "days. All white collar jobs are toast."
+    },
+    {
+      "start": 1041.76,
+      "duration": 3.679,
+      "text": "It's over. Although to be fair to Lewis,"
+    },
+    {
+      "start": 1044.16,
+      "duration": 3.279,
+      "text": "he was being a little tongue-in-cheek"
+    },
+    {
+      "start": 1045.439,
+      "duration": 3.521,
+      "text": "and making fun of the Twitter hype posts"
+    },
+    {
+      "start": 1047.439,
+      "duration": 3.441,
+      "text": "that love big pronouncements like all"
+    },
+    {
+      "start": 1048.96,
+      "duration": 3.36,
+      "text": "white collar jobs are toast. That's"
+    },
+    {
+      "start": 1050.88,
+      "duration": 4,
+      "text": "certainly part of the sensibility that"
+    },
+    {
+      "start": 1052.32,
+      "duration": 4.96,
+      "text": "is floating around out there right now."
+    },
+    {
+      "start": 1054.88,
+      "duration": 4.4,
+      "text": "Maybe more discreetly, outside of all"
+    },
+    {
+      "start": 1057.28,
+      "duration": 3.68,
+      "text": "jobs being toast, there's certainly a"
+    },
+    {
+      "start": 1059.28,
+      "duration": 3.04,
+      "text": "sense that the way work happens and the"
+    },
+    {
+      "start": 1060.96,
+      "duration": 3.599,
+      "text": "way that business happens is going to"
+    },
+    {
+      "start": 1062.32,
+      "duration": 4.8,
+      "text": "look quite different. Damian player"
+    },
+    {
+      "start": 1064.559,
+      "duration": 5.201,
+      "text": "writes, \"Things I'm bearish on in 2026"
+    },
+    {
+      "start": 1067.12,
+      "duration": 4.96,
+      "text": "because of Claude code. One, massive"
+    },
+    {
+      "start": 1069.76,
+      "duration": 4.56,
+      "text": "teams. Opus 4.5 can now do the work of"
+    },
+    {
+      "start": 1072.08,
+      "duration": 4.4,
+      "text": "five people for $200 a month. Headcount"
+    },
+    {
+      "start": 1074.32,
+      "duration": 4.08,
+      "text": "is a liability now. Two, manual"
+    },
+    {
+      "start": 1076.48,
+      "duration": 3.68,
+      "text": "workflows. If a human touches the same"
+    },
+    {
+      "start": 1078.4,
+      "duration": 4.32,
+      "text": "task twice, it should be automated. No"
+    },
+    {
+      "start": 1080.16,
+      "duration": 5.28,
+      "text": "exceptions. Three, agency services not"
+    },
+    {
+      "start": 1082.72,
+      "duration": 4.72,
+      "text": "tied to ROI. No one's paying 3K a month"
+    },
+    {
+      "start": 1085.44,
+      "duration": 3.52,
+      "text": "for email. When AI can write, test, and"
+    },
+    {
+      "start": 1087.44,
+      "duration": 2.72,
+      "text": "optimize the entire funnel. The"
+    },
+    {
+      "start": 1088.96,
+      "duration": 3.2,
+      "text": "companies that figure this out first"
+    },
+    {
+      "start": 1090.16,
+      "duration": 4.399,
+      "text": "will run circles around everyone else."
+    },
+    {
+      "start": 1092.16,
+      "duration": 4.32,
+      "text": "The ones that don't will die off."
+    },
+    {
+      "start": 1094.559,
+      "duration": 4.24,
+      "text": "Another big theme in the predictions"
+    },
+    {
+      "start": 1096.48,
+      "duration": 4.559,
+      "text": "which I completely agree with, we'll"
+    },
+    {
+      "start": 1098.799,
+      "duration": 4.321,
+      "text": "call mainstreaming. Riley Brown writes,"
+    },
+    {
+      "start": 1101.039,
+      "duration": 4.241,
+      "text": "\"You thought 2025 was the vibe coding"
+    },
+    {
+      "start": 1103.12,
+      "duration": 4.16,
+      "text": "boom? 3 months from now, all platforms,"
+    },
+    {
+      "start": 1105.28,
+      "duration": 3.84,
+      "text": "not just X, will be talking about it."
+    },
+    {
+      "start": 1107.28,
+      "duration": 4.32,
+      "text": "Lovable and Replet have no moat. The"
+    },
+    {
+      "start": 1109.12,
+      "duration": 5.2,
+      "text": "space is wide open.\" And I think Riley"
+    },
+    {
+      "start": 1111.6,
+      "duration": 4.64,
+      "text": "is dead on when he notes that this is"
+    },
+    {
+      "start": 1114.32,
+      "duration": 4.4,
+      "text": "still so contained to the people who"
+    },
+    {
+      "start": 1116.24,
+      "duration": 4.88,
+      "text": "were already either a coding or b deeply"
+    },
+    {
+      "start": 1118.72,
+      "duration": 4.4,
+      "text": "involved in AI in some way. And it is"
+    },
+    {
+      "start": 1121.12,
+      "duration": 3.52,
+      "text": "not going to take long for the wide"
+    },
+    {
+      "start": 1123.12,
+      "duration": 3.76,
+      "text": "world of normies to realize that they"
+    },
+    {
+      "start": 1124.64,
+      "duration": 3.84,
+      "text": "have been given godlike creation powers"
+    },
+    {
+      "start": 1126.88,
+      "duration": 4.4,
+      "text": "unlike anything they've ever experienced"
+    },
+    {
+      "start": 1128.48,
+      "duration": 4.8,
+      "text": "before. Hamal Hussein gave an example."
+    },
+    {
+      "start": 1131.28,
+      "duration": 3.68,
+      "text": "He tweeted, \"Wife who doesn't code"
+    },
+    {
+      "start": 1133.28,
+      "duration": 3.84,
+      "text": "created this website for her educational"
+    },
+    {
+      "start": 1134.96,
+      "duration": 4.079,
+      "text": "podcast with Claude Code in 30 minutes."
+    },
+    {
+      "start": 1137.12,
+      "duration": 4.08,
+      "text": "Claude Code guided her by deploying on"
+    },
+    {
+      "start": 1139.039,
+      "duration": 3.921,
+      "text": "Versell and getting a domain. Downloaded"
+    },
+    {
+      "start": 1141.2,
+      "duration": 4.24,
+      "text": "and analyzed all her content for website"
+    },
+    {
+      "start": 1142.96,
+      "duration": 3.92,
+      "text": "copy. Made a responsive version and"
+    },
+    {
+      "start": 1145.44,
+      "duration": 3.68,
+      "text": "resolved all links to each episode in"
+    },
+    {
+      "start": 1146.88,
+      "duration": 4.32,
+      "text": "RSS feed. And if you have kids, by the"
+    },
+    {
+      "start": 1149.12,
+      "duration": 3.679,
+      "text": "way, go check out Wonder Wise.cience."
+    },
+    {
+      "start": 1151.2,
+      "duration": 3.92,
+      "text": "But it's even easier than the setup he"
+    },
+    {
+      "start": 1152.799,
+      "duration": 4.321,
+      "text": "just described. This is frankly 5"
+    },
+    {
+      "start": 1155.12,
+      "duration": 3.439,
+      "text": "minutes in rep letter lovable with the"
+    },
+    {
+      "start": 1157.12,
+      "duration": 3.2,
+      "text": "point being that although Claude Code"
+    },
+    {
+      "start": 1158.559,
+      "duration": 3.681,
+      "text": "might be out in the lead, there is an"
+    },
+    {
+      "start": 1160.32,
+      "duration": 5.04,
+      "text": "entire ecosystem which is going to drive"
+    },
+    {
+      "start": 1162.24,
+      "duration": 5.36,
+      "text": "a huge amount of this activity online."
+    },
+    {
+      "start": 1165.36,
+      "duration": 3.36,
+      "text": "Alongside the mainstreaming, one of the"
+    },
+    {
+      "start": 1167.6,
+      "duration": 2.88,
+      "text": "areas where we're going to see the"
+    },
+    {
+      "start": 1168.72,
+      "duration": 4.16,
+      "text": "expansion of Vive coding this year is of"
+    },
+    {
+      "start": 1170.48,
+      "duration": 3.92,
+      "text": "course across the enterprise. This was"
+    },
+    {
+      "start": 1172.88,
+      "duration": 4.08,
+      "text": "one of my main predictions in my 50"
+    },
+    {
+      "start": 1174.4,
+      "duration": 4.159,
+      "text": "predictions for 2026 that vibe coding"
+    },
+    {
+      "start": 1176.96,
+      "duration": 4.24,
+      "text": "was going to go everywhere into every"
+    },
+    {
+      "start": 1178.559,
+      "duration": 4.321,
+      "text": "department. Carvalotti wrote a hilarious"
+    },
+    {
+      "start": 1181.2,
+      "duration": 3.44,
+      "text": "post where he says, \"I showed claude"
+    },
+    {
+      "start": 1182.88,
+      "duration": 3.919,
+      "text": "code to my company last month and every"
+    },
+    {
+      "start": 1184.64,
+      "duration": 4.399,
+      "text": "department now believes they have AGI.\""
+    },
+    {
+      "start": 1186.799,
+      "duration": 4.641,
+      "text": "Attached to it was a hilarious meme of a"
+    },
+    {
+      "start": 1189.039,
+      "duration": 3.681,
+      "text": "soldier handing a chimpanzeee and AK-47"
+    },
+    {
+      "start": 1191.44,
+      "duration": 4.32,
+      "text": "with the title marketing people"
+    },
+    {
+      "start": 1192.72,
+      "duration": 4.88,
+      "text": "discovering Opus 4.5 and clawed code."
+    },
+    {
+      "start": 1195.76,
+      "duration": 3.2,
+      "text": "Now, in addition to this just changing"
+    },
+    {
+      "start": 1197.6,
+      "duration": 3.6,
+      "text": "what people can do inside the"
+    },
+    {
+      "start": 1198.96,
+      "duration": 4.4,
+      "text": "organization, there is likely a broader"
+    },
+    {
+      "start": 1201.2,
+      "duration": 4.479,
+      "text": "organizational change coming in terms of"
+    },
+    {
+      "start": 1203.36,
+      "duration": 3.679,
+      "text": "operational expectations. Paul Graham"
+    },
+    {
+      "start": 1205.679,
+      "duration": 2.721,
+      "text": "reposted that tweet from the Google"
+    },
+    {
+      "start": 1207.039,
+      "duration": 3.52,
+      "text": "engineer who was talking about how"
+    },
+    {
+      "start": 1208.4,
+      "duration": 4.08,
+      "text": "claude code recreated their entire work"
+    },
+    {
+      "start": 1210.559,
+      "duration": 3.761,
+      "text": "of the last year in an hour with Graham"
+    },
+    {
+      "start": 1212.48,
+      "duration": 3.84,
+      "text": "writing, \"This illustrates an aspect of"
+    },
+    {
+      "start": 1214.32,
+      "duration": 4.32,
+      "text": "AI that I hadn't thought about till now."
+    },
+    {
+      "start": 1216.32,
+      "duration": 4.32,
+      "text": "It cuts through bureaucracy. If a big"
+    },
+    {
+      "start": 1218.64,
+      "duration": 4.24,
+      "text": "organization is paralyzed by indecision,"
+    },
+    {
+      "start": 1220.64,
+      "duration": 4,
+      "text": "AI doesn't care. It will happily"
+    },
+    {
+      "start": 1222.88,
+      "duration": 3.2,
+      "text": "generate a version one.\" And that"
+    },
+    {
+      "start": 1224.64,
+      "duration": 4.159,
+      "text": "becomes the starting point because there"
+    },
+    {
+      "start": 1226.08,
+      "duration": 4.56,
+      "text": "is no other version one. Indeed, all of"
+    },
+    {
+      "start": 1228.799,
+      "duration": 3.76,
+      "text": "this infiltration into the enterprise is"
+    },
+    {
+      "start": 1230.64,
+      "duration": 4,
+      "text": "going to create new skill set needs."
+    },
+    {
+      "start": 1232.559,
+      "duration": 4.401,
+      "text": "Ethan Mollik writes, \"When you see how"
+    },
+    {
+      "start": 1234.64,
+      "duration": 4.32,
+      "text": "people use claude code, codeex, etc., it"
+    },
+    {
+      "start": 1236.96,
+      "duration": 4.32,
+      "text": "becomes clear that managing agents is"
+    },
+    {
+      "start": 1238.96,
+      "duration": 4.48,
+      "text": "really a management problem. Can you"
+    },
+    {
+      "start": 1241.28,
+      "duration": 3.92,
+      "text": "specify goals? Can you provide context?"
+    },
+    {
+      "start": 1243.44,
+      "duration": 4.719,
+      "text": "Can you divide up tasks? Can you give"
+    },
+    {
+      "start": 1245.2,
+      "duration": 5.52,
+      "text": "feedback? These are teachable skills."
+    },
+    {
+      "start": 1248.159,
+      "duration": 3.841,
+      "text": "Also, UIs need to support management.\""
+    },
+    {
+      "start": 1250.72,
+      "duration": 3.839,
+      "text": "Now he points out that this is going to"
+    },
+    {
+      "start": 1252,
+      "duration": 3.84,
+      "text": "get an assist likely from UI when he"
+    },
+    {
+      "start": 1254.559,
+      "duration": 3.041,
+      "text": "writes a big question for the coming"
+    },
+    {
+      "start": 1255.84,
+      "duration": 3.44,
+      "text": "year is whether the major AI labs can"
+    },
+    {
+      "start": 1257.6,
+      "duration": 4.24,
+      "text": "rethink the experience to be more suited"
+    },
+    {
+      "start": 1259.28,
+      "duration": 4.08,
+      "text": "towards delegation on other tasks. I"
+    },
+    {
+      "start": 1261.84,
+      "duration": 3.04,
+      "text": "think the answer will be if they don't"
+    },
+    {
+      "start": 1263.36,
+      "duration": 3.92,
+      "text": "there will be other interfaces that do"
+    },
+    {
+      "start": 1264.88,
+      "duration": 3.919,
+      "text": "that. Now beyond the enterprise world"
+    },
+    {
+      "start": 1267.28,
+      "duration": 3.04,
+      "text": "there are also a lot of thoughts about"
+    },
+    {
+      "start": 1268.799,
+      "duration": 3.281,
+      "text": "what new possibilities open up with"
+    },
+    {
+      "start": 1270.32,
+      "duration": 3.839,
+      "text": "application development. Bali"
+    },
+    {
+      "start": 1272.08,
+      "duration": 4.24,
+      "text": "Shrinavasan writes about a golden age of"
+    },
+    {
+      "start": 1274.159,
+      "duration": 3.601,
+      "text": "local and decentralized apps. He writes,"
+    },
+    {
+      "start": 1276.32,
+      "duration": 2.719,
+      "text": "\"The reason we will have this golden age"
+    },
+    {
+      "start": 1277.76,
+      "duration": 3.039,
+      "text": "is that claude code allows you to"
+    },
+    {
+      "start": 1279.039,
+      "duration": 3.841,
+      "text": "quickly clone any moderately complex"
+    },
+    {
+      "start": 1280.799,
+      "duration": 4.321,
+      "text": "cloud-based app into a decent local one"
+    },
+    {
+      "start": 1282.88,
+      "duration": 3.6,
+      "text": "that runs on only your files. Apps of"
+    },
+    {
+      "start": 1285.12,
+      "duration": 2.88,
+      "text": "moderate complexity without strong"
+    },
+    {
+      "start": 1286.48,
+      "duration": 3.28,
+      "text": "global network effects are suddenly easy"
+    },
+    {
+      "start": 1288,
+      "duration": 3.679,
+      "text": "to clone. The clone won't be perfect"
+    },
+    {
+      "start": 1289.76,
+      "duration": 3.52,
+      "text": "right away, but it'll be pretty good."
+    },
+    {
+      "start": 1291.679,
+      "duration": 3.681,
+      "text": "And if the cloning dev sticks with it,"
+    },
+    {
+      "start": 1293.28,
+      "duration": 3.6,
+      "text": "it'll get better. This gets to that idea"
+    },
+    {
+      "start": 1295.36,
+      "duration": 3.6,
+      "text": "of personal software, which is a big"
+    },
+    {
+      "start": 1296.88,
+      "duration": 3.52,
+      "text": "theme for our predictions next year."
+    },
+    {
+      "start": 1298.96,
+      "duration": 3.12,
+      "text": "Likewise, the apps are going to look"
+    },
+    {
+      "start": 1300.4,
+      "duration": 3.519,
+      "text": "different.\" Dan Shipper talked a little"
+    },
+    {
+      "start": 1302.08,
+      "duration": 4,
+      "text": "bit more about what the idea of agent"
+    },
+    {
+      "start": 1303.919,
+      "duration": 3.841,
+      "text": "native apps really means. He writes that"
+    },
+    {
+      "start": 1306.08,
+      "duration": 3.28,
+      "text": "with traditional software architecture,"
+    },
+    {
+      "start": 1307.76,
+      "duration": 2.88,
+      "text": "you write code that defines what happens"
+    },
+    {
+      "start": 1309.36,
+      "duration": 3.199,
+      "text": "and the computer executes your"
+    },
+    {
+      "start": 1310.64,
+      "duration": 3.68,
+      "text": "instructions. With agent native"
+    },
+    {
+      "start": 1312.559,
+      "duration": 3.761,
+      "text": "architecture, you define outcomes in"
+    },
+    {
+      "start": 1314.32,
+      "duration": 4.16,
+      "text": "natural language. The agent figures out"
+    },
+    {
+      "start": 1316.32,
+      "duration": 4,
+      "text": "how to achieve them using tools. In an"
+    },
+    {
+      "start": 1318.48,
+      "duration": 4.4,
+      "text": "agent native worlds, features are"
+    },
+    {
+      "start": 1320.32,
+      "duration": 4.719,
+      "text": "prompts, not code. All of this, he says,"
+    },
+    {
+      "start": 1322.88,
+      "duration": 4.24,
+      "text": "enables emergent capability in your app."
+    },
+    {
+      "start": 1325.039,
+      "duration": 3.601,
+      "text": "It can do things you didn't plan for."
+    },
+    {
+      "start": 1327.12,
+      "duration": 3.039,
+      "text": "This, he says, allows you to discover"
+    },
+    {
+      "start": 1328.64,
+      "duration": 4.08,
+      "text": "latent demand from your users that"
+    },
+    {
+      "start": 1330.159,
+      "duration": 4.481,
+      "text": "inform your road map. Dan points out, by"
+    },
+    {
+      "start": 1332.72,
+      "duration": 3.52,
+      "text": "the way, that this is fairly similar to"
+    },
+    {
+      "start": 1334.64,
+      "duration": 4.24,
+      "text": "how Boris Churnney actually builds"
+    },
+    {
+      "start": 1336.24,
+      "duration": 4.319,
+      "text": "features into Claude code. And contrary"
+    },
+    {
+      "start": 1338.88,
+      "duration": 2.72,
+      "text": "to the prediction that Claude code and"
+    },
+    {
+      "start": 1340.559,
+      "duration": 3.201,
+      "text": "these new models are just going to"
+    },
+    {
+      "start": 1341.6,
+      "duration": 3.36,
+      "text": "destroy all jobs, there are many who are"
+    },
+    {
+      "start": 1343.76,
+      "duration": 2.799,
+      "text": "extremely excited about the"
+    },
+    {
+      "start": 1344.96,
+      "duration": 3.52,
+      "text": "entrepreneurial possibilities that these"
+    },
+    {
+      "start": 1346.559,
+      "duration": 4,
+      "text": "tools and models are going to unlock."
+    },
+    {
+      "start": 1348.48,
+      "duration": 3.76,
+      "text": "Greg Eisenberg writes, I regret to"
+    },
+    {
+      "start": 1350.559,
+      "duration": 3.201,
+      "text": "inform you the amount of opportunity to"
+    },
+    {
+      "start": 1352.24,
+      "duration": 3.6,
+      "text": "build software startups and mobile apps"
+    },
+    {
+      "start": 1353.76,
+      "duration": 4.24,
+      "text": "with cloud code, etc. is mindbending at"
+    },
+    {
+      "start": 1355.84,
+      "duration": 4.319,
+      "text": "the moment. In another tweet, he writes,"
+    },
+    {
+      "start": 1358,
+      "duration": 4.48,
+      "text": "\"The $ 1.3 trillion app store doesn't"
+    },
+    {
+      "start": 1360.159,
+      "duration": 3.841,
+      "text": "die. It's going to explode. Claude Code"
+    },
+    {
+      "start": 1362.48,
+      "duration": 2.8,
+      "text": "makes it so that anyone can ship an app,"
+    },
+    {
+      "start": 1364,
+      "duration": 3.679,
+      "text": "which means the App Store fills up"
+    },
+    {
+      "start": 1365.28,
+      "duration": 4.24,
+      "text": "10,000 times faster than before. Most"
+    },
+    {
+      "start": 1367.679,
+      "duration": 4,
+      "text": "are AI junk, but a few are surprisingly"
+    },
+    {
+      "start": 1369.52,
+      "duration": 3.519,
+      "text": "good and personal instead of universal."
+    },
+    {
+      "start": 1371.679,
+      "duration": 2.641,
+      "text": "Apple will get stricter and add more"
+    },
+    {
+      "start": 1373.039,
+      "duration": 2.401,
+      "text": "filters. How else are they going to deal"
+    },
+    {
+      "start": 1374.32,
+      "duration": 2.88,
+      "text": "with the flood of apps and making it"
+    },
+    {
+      "start": 1375.44,
+      "duration": 3.28,
+      "text": "easier for people to find them?\" At the"
+    },
+    {
+      "start": 1377.2,
+      "duration": 3.52,
+      "text": "same time, the types of apps will change"
+    },
+    {
+      "start": 1378.72,
+      "duration": 3.6,
+      "text": "over the next 24 months. People will"
+    },
+    {
+      "start": 1380.72,
+      "duration": 3.92,
+      "text": "start building very specific apps for"
+    },
+    {
+      "start": 1382.32,
+      "duration": 3.68,
+      "text": "very specific situations. An example he"
+    },
+    {
+      "start": 1384.64,
+      "duration": 2.64,
+      "text": "gives is an app that tells me if my"
+    },
+    {
+      "start": 1386,
+      "duration": 3.52,
+      "text": "snoring last night was bad enough to"
+    },
+    {
+      "start": 1387.28,
+      "duration": 4.08,
+      "text": "wake my partner instead of a generic"
+    },
+    {
+      "start": 1389.52,
+      "duration": 2.88,
+      "text": "sleep tracker. Hearkening to my"
+    },
+    {
+      "start": 1391.36,
+      "duration": 2.559,
+      "text": "prediction that these new app"
+    },
+    {
+      "start": 1392.4,
+      "duration": 3.44,
+      "text": "entrepreneurs will have a different"
+    },
+    {
+      "start": 1393.919,
+      "duration": 3.601,
+      "text": "economic model. He writes, \"Most of"
+    },
+    {
+      "start": 1395.84,
+      "duration": 3.92,
+      "text": "these apps never try to get huge in the"
+    },
+    {
+      "start": 1397.52,
+      "duration": 3.68,
+      "text": "traditional VC sense. Ultimately,"
+    },
+    {
+      "start": 1399.76,
+      "duration": 3.279,
+      "text": "software feels more indie, more"
+    },
+    {
+      "start": 1401.2,
+      "duration": 3.359,
+      "text": "personal. This era is way better for"
+    },
+    {
+      "start": 1403.039,
+      "duration": 3.601,
+      "text": "people who want to build apps, people"
+    },
+    {
+      "start": 1404.559,
+      "duration": 3.6,
+      "text": "who want more personal apps, but maybe"
+    },
+    {
+      "start": 1406.64,
+      "duration": 3.519,
+      "text": "worse off for Apple who have to deal"
+    },
+    {
+      "start": 1408.159,
+      "duration": 3.921,
+      "text": "with the slob.\" Crisping up his"
+    },
+    {
+      "start": 1410.159,
+      "duration": 3.441,
+      "text": "predictions, Greg finishes, \"Claude code"
+    },
+    {
+      "start": 1412.08,
+      "duration": 4,
+      "text": "will probably make 50,000 people"
+    },
+    {
+      "start": 1413.6,
+      "duration": 4.079,
+      "text": "millionaires, if not way more. Be on"
+    },
+    {
+      "start": 1416.08,
+      "duration": 3.92,
+      "text": "Twitter, I think, captures some of my"
+    },
+    {
+      "start": 1417.679,
+      "duration": 4.161,
+      "text": "feeling when he writes,\"It's cliche af,"
+    },
+    {
+      "start": 1420,
+      "duration": 4,
+      "text": "but you literally have the entire world"
+    },
+    {
+      "start": 1421.84,
+      "duration": 3.76,
+      "text": "at your fingertips right now. You could"
+    },
+    {
+      "start": 1424,
+      "duration": 3.2,
+      "text": "hustle take over boomer businesses,"
+    },
+    {
+      "start": 1425.6,
+      "duration": 3.36,
+      "text": "acquire billions of real estate, clone a"
+    },
+    {
+      "start": 1427.2,
+      "duration": 3.359,
+      "text": "SAS, and take the entire market share."
+    },
+    {
+      "start": 1428.96,
+      "duration": 3.68,
+      "text": "Run up a bag with affiliate marketing."
+    },
+    {
+      "start": 1430.559,
+      "duration": 3.441,
+      "text": "The list goes on and on. You should sit"
+    },
+    {
+      "start": 1432.64,
+      "duration": 2.88,
+      "text": "down at your computer every morning with"
+    },
+    {
+      "start": 1434,
+      "duration": 3.679,
+      "text": "pure excitement, as you could be 10"
+    },
+    {
+      "start": 1435.52,
+      "duration": 4,
+      "text": "button pushes away from retirement. Pick"
+    },
+    {
+      "start": 1437.679,
+      "duration": 4.081,
+      "text": "anything, but for the love of God, pick"
+    },
+    {
+      "start": 1439.52,
+      "duration": 4.56,
+      "text": "something. McKay Wrigley echoes the"
+    },
+    {
+      "start": 1441.76,
+      "duration": 4,
+      "text": "sentiment. Claude Code in Opus 4.5, he"
+    },
+    {
+      "start": 1444.08,
+      "duration": 3.36,
+      "text": "writes, injected the immaculate hacker"
+    },
+    {
+      "start": 1445.76,
+      "duration": 4.399,
+      "text": "vibes back into AI that we haven't had"
+    },
+    {
+      "start": 1447.44,
+      "duration": 5.119,
+      "text": "since GBT4. Everything is new and fun"
+    },
+    {
+      "start": 1450.159,
+      "duration": 4.081,
+      "text": "and weird again. You can feel it."
+    },
+    {
+      "start": 1452.559,
+      "duration": 3.041,
+      "text": "Another oo of new ideas and latent"
+    },
+    {
+      "start": 1454.24,
+      "duration": 3.679,
+      "text": "economic value is waiting to be"
+    },
+    {
+      "start": 1455.6,
+      "duration": 5.52,
+      "text": "unlocked. And building has never been"
+    },
+    {
+      "start": 1457.919,
+      "duration": 5.921,
+      "text": "this fun. So, what's the conclusion? It"
+    },
+    {
+      "start": 1461.12,
+      "duration": 5.679,
+      "text": "is not totally clear exactly what set of"
+    },
+    {
+      "start": 1463.84,
+      "duration": 5.28,
+      "text": "changes the combination of Opus 4.5 and"
+    },
+    {
+      "start": 1466.799,
+      "duration": 3.76,
+      "text": "Claude code or 52 codecs or whatever set"
+    },
+    {
+      "start": 1469.12,
+      "duration": 3.52,
+      "text": "of latter-day models and tools you want"
+    },
+    {
+      "start": 1470.559,
+      "duration": 4.561,
+      "text": "to point to have done to tip over into"
+    },
+    {
+      "start": 1472.64,
+      "duration": 3.919,
+      "text": "this new era. But the tip has happened."
+    },
+    {
+      "start": 1475.12,
+      "duration": 3.919,
+      "text": "The people who are the most proficient"
+    },
+    {
+      "start": 1476.559,
+      "duration": 4.881,
+      "text": "users of AI and code all feel it and the"
+    },
+    {
+      "start": 1479.039,
+      "duration": 4,
+      "text": "exhilaration is palpable. Now, if you've"
+    },
+    {
+      "start": 1481.44,
+      "duration": 3.359,
+      "text": "been too intimidated to try these tools"
+    },
+    {
+      "start": 1483.039,
+      "duration": 3.281,
+      "text": "yet, first of all, I would say there's"
+    },
+    {
+      "start": 1484.799,
+      "duration": 2.961,
+      "text": "no shame at all in using something like"
+    },
+    {
+      "start": 1486.32,
+      "duration": 3.52,
+      "text": "Replet or lovable instead of the more"
+    },
+    {
+      "start": 1487.76,
+      "duration": 3.44,
+      "text": "intimidating clawed code to start. It's"
+    },
+    {
+      "start": 1489.84,
+      "duration": 3.92,
+      "text": "still going to give you a feel for just"
+    },
+    {
+      "start": 1491.2,
+      "duration": 4.4,
+      "text": "how much has changed in what you can do."
+    },
+    {
+      "start": 1493.76,
+      "duration": 4.56,
+      "text": "But also, Cloud Code is itself getting"
+    },
+    {
+      "start": 1495.6,
+      "duration": 4.64,
+      "text": "more accessible. Claude Code PM Catwoo"
+    },
+    {
+      "start": 1498.32,
+      "duration": 3.44,
+      "text": "just in fact tweeted earlier this week,"
+    },
+    {
+      "start": 1500.24,
+      "duration": 2.96,
+      "text": "if you want to use Cloud Code, but don't"
+    },
+    {
+      "start": 1501.76,
+      "duration": 2.96,
+      "text": "like the terminal interface, you can now"
+    },
+    {
+      "start": 1503.2,
+      "duration": 3.76,
+      "text": "use local Claude Code from Claude"
+    },
+    {
+      "start": 1504.72,
+      "duration": 4.079,
+      "text": "Desktop. Download Cloud Desktop, open"
+    },
+    {
+      "start": 1506.96,
+      "duration": 3.36,
+      "text": "the sidebar, and click Code toggle."
+    },
+    {
+      "start": 1508.799,
+      "duration": 3.921,
+      "text": "Select the folder you want Cloud Code to"
+    },
+    {
+      "start": 1510.32,
+      "duration": 4.239,
+      "text": "have access to and submit your prompt. I"
+    },
+    {
+      "start": 1512.72,
+      "duration": 4.079,
+      "text": "do think we are starting 2026 in a"
+    },
+    {
+      "start": 1514.559,
+      "duration": 4.321,
+      "text": "unique moment and I am very excited to"
+    },
+    {
+      "start": 1516.799,
+      "duration": 3.201,
+      "text": "see what you guys all go out and build."
+    },
+    {
+      "start": 1518.88,
+      "duration": 2.799,
+      "text": "For now though, that is going to do it"
+    },
+    {
+      "start": 1520,
+      "duration": 3.76,
+      "text": "for today's AI daily brief. Appreciate"
+    },
+    {
+      "start": 1521.679,
+      "duration": 4.801,
+      "text": "you listening as always and until next"
+    },
+    {
+      "start": 1523.76,
+      "duration": 2.72,
+      "text": "time, peace."
+    }
+  ],
+  "fullText": "Claude Code, man. If you spend any time on any place on the internet that touches AI, you probably will have noticed that people cannot shut up about Claude code and more broadly Opus 4.5 and Vibe coding and the shift, but really claude code. Today, we're going to explore exactly why that is and some predictions for what it means next. Welcome back to the AI daily brief. Ever since Anthropic released Opus 4.5, there has been a sense that we've fundamentally shifted in terms of what AI coding is capable of. In point of fact, it's been actually a combination of model advances as well as the tools and platforms through which we access them like claude code that have contributed to this sense of something fundamental having shifted. But boy is there a sense that something fundamental has shifted. On January 4th, Simon Willis posted, \"It genuinely feels to me like GPT52 and Opus 4.5 in November represent an inflection point. One of those moments where the models get incrementally better in a way that tips across an invisible capability line where suddenly a whole bunch of much harder coding problems open up.\" OpenAI's Greg Brockman agreed, reposting and sharing, \"It does feel like models have just cleared a threshold of utility in software engineering.\" AI builder and YouTuber Theo writes, \"It feels like we're actually in one of those everything is about to change moments.\" And the den is loud enough that publications like Axios are picking up on it and writing stories even though there's no particular news that the conversation is based on. Now, to be fair, some called this early. From the moment that Opus 4.5 launched, Dan Shipper and every have been very much on the tip that this represented something different. Back in December, he wrote a piece called Opus 4.5 collapsed 6 months of development work into one week. And he started with this pronounced declaration. Humans, he wrote, have always had two main intuitions about what we'll find when we travel to the end of the Earth. One, an edge where the known world falls off into nothingness, chaos, or monsters. Two, a new vista where unexplored, lush, and perhaps perilous territory extends toward a new horizon. The first is terrifying, a place to be avoided. The second represents possibility and an entirely new world. These days, most new AI model releases are incremental. Sometimes though, a new model brings us right up to the edge of the known and allows us to take a peek at what lies beyond. Is it nothingness, dragons, or a new horizon? Enthropics Opus 4.5 is one of those models, and I've been peering over the edge for about a week now. Here's what's over the horizon. We are in a new era of autonomous coding. You can build astonishingly complex apps without looking at a single line of code. Two, agentnative apps are now possible. You can use Opus 4.5 as a general purpose agent to power your app's features. This turns new features into an exercise in prompt writing rather than coding. All of this led Dan to declare the birth of an infinite vibe coding machine. And yet, for many, it seems to have taken a holiday of hacking for all of this to really click. Midjourneys David Holes wrote, \"I've done more personal coding projects over Christmas break than I have in the last 10 years. It's crazy. I can sense the limitations, but I know nothing is going to be the same anymore. That post had over a million views. Even Elon Musk responded to it saying, \"We've entered the singularity.\" Flo, the founder of Lindy, agreed, writing, \"This is definitely how I felt these past 2 weeks. Getting AGI shock every day. Chat with the Lindy team on Friday. AI coding is solved at this point. If you think you know what's going to happen next, you're very confused.\" AI news curator Andrew Curran wrote, \"People who work in code have felt a sea change, but the jump comes from frontier models inside their coding shells, not from the shells themselves. Gains are currently concentrated in one area, code, but the driving force is general intelligence.\" And the more time you spent on the internet, the more you saw people sharing specific projects. Po Chirano wrote, \"Claude code isn't just for coding. I fed it my raw DNA data from an ancestry test and used it to find health related genes I should keep an eye on. The file is massive, but its ability to search what matters makes it possible. Deep mind Xiaom wrote, \"I'm this close to throwing in the towel and giving coding agents my entire financial history. Been using bean count for personal accounting for years. Every January, download statements, parse with custom scripts I've been manually updating forever. Started having AI upgrade the scripts 2 years ago. Clunky workflow, but it worked. Every year the AI gets a little better. Maybe this is finally the year to just give it all.\" Lenny Richitzky of Lenny's podcast shared his Vibe Code project of the week, a soundboard of his toddler's cutest words. He took a $20 microphone off of Amazon, used a script to slice up each word, clawed code to clean up the audio quality, and lovable to build it. Google's Logan Kilpatrick wrote, \"I spent the last week building what could easily be a$und00 million venturebacked business. It's truly wild how much leverage AI gives you.\" 10X's Alex Lieberman wrote, \"I've never taken a coding class. I've never shipped a piece of software pre AAI, yet I'm now creating vector embeddings of 812,918 messages from the last 5 years of my life. The seismic shift happening before our eyes is truly once in a lifetime. And what's important to note with all of this is that these are not new people coming into AI for the first time and getting a glimpse of what's possible. These are singularly the most active, frankly, proficient AI users in the world. And they are increasingly shocked at what's possible now. Ex Google engineer Roan O'Neal wrote, \"I feel if I had agenda coding and particularly Opus, I would have saved myself the first six years of my work compressed into a few months.\" Maybe the most notable tweet of the whole period came from John Adogan, a principal engineer at Google, who wrote, \"I'm not joking, and this isn't funny. We've been trying to build distributed agent orchestrators at Google since last year. There are various options. Not everyone is aligned. I gave Claude code a description of the problem. It generated what we built last year in an hour. It's not perfect and I'm iterating on it, but this is where we are right now. If you are skeptical of coding agents, try it on a domain that you are already an expert of. Build something complex from scratch where you can be the judge of the artifacts. In other words, as many pointed out, even Google engineers are blown away by Claude code. So, whatever is going on, it's clearly widespread. In fact, when Alex Lieberman again posted on January 2nd that he wanted to start a community dedicated to Claude Code, more than 7,000 people signed up. So many, in fact, that he's now hiring a program and community manager to run that community. Now, one of the key themes is that Claude code is actually misnamed. Investor Nikkun Catari wrote, \"Claude code should be thought of as claude computer because that's what we're getting a glimpse of. alien intelligence that has human tools, browser, file system, terminal commands, and others with generalized ability to do any task. Terminal UX is all that's stopping folks from utilizing this all the time. But the guey will come either through anthropic directly or someone packaging the agent SDK neatly. And indeed, one of the things that you see is that the people who are really getting the most out of cloud code are using it for everything. Alex Vanovvic wrote, \"Started using Claude code for managing my team, admin, program management, meetings, agendas, etc. Basically, Claude is my chief of staff now. Marketing and crypto entrepreneur Amanda Cassat wrote, \"I'm now coding,\" air quotes all day with Claude Code. If you haven't tried it, you don't understand. It literally takes over your computer and does everything for you. There was something wrong with the sound on my Mac, and I used Claude Code to fix it rather than open settings. She also tweeted, \"Cloud Code is leaving everyone in the dust right now. If you haven't tried it, you need to now. You just speak in English like it's the Starship Enterprise. It takes over your computer and does everything for you. It's not like asking a chat model to help you code where it puts code in the weird little box. It's not a co-pilot checking over your code or teaching you how to code unless you want that. No copy and pasting between windows. No learning to code. No learning curve at all. Chicago Booth professor Alex wrote, \"To those who are curious about the hoopla, cloud code is not just for code. It's an AI agent that can essentially act like a combination of personal assistant and colleague that has access to your machine. Need your files organized? Need to create a better calendar app and organize your life? Need a sounding board for a presentation that's coming up? Need to organize your notes that are all over the place for that presentation? Cloud Code will do that. Just write it out in plain text and make it happen. Alex also agreed that the word code in the name will slow adoption. Boris Churnney, who built Claude Code, also shared how he used it, and it gives you a sense of just how comprehensively the Power users are putting this tool into practice. Boris writes, \"I run five clouds in parallel in my terminal. I number my tabs 1 to 5 and use system notifications to know when a cloud needs input. I also run 5 to 10 clouds on cloud.ai/code in parallel with my local clouds. As I code in my terminal, I will often hand off local sessions to the web or manually kick off sessions in Chrome and sometimes I will teleport back and forth. I also start a few sessions from my phone from the Claude iOS app every morning and throughout the day and check in on them later and so on and so forth. You can see that this guy's got 15 different instances of Claude running at any given time. Now, one of the things that's clear is that the new capabilities just feel different. 37 Signals Jason Freed writes, \"AI workflows are technically impressive, but there's a deeper reason people are really amped about AI agents. This isn't just new tech, it's new psychology. Until now, very few people have known what it feels like to delegate to total competency. If you manage great people or lead great teams, you know how it feels to put someone in charge who will get it done, get it done right, and get it done without drama. That kind of delegation is pure joy. Delegating to competency lets you forget about it completely. That's real leverage. And now anyone can experience that. Everyone can feel it and it feels effing great. That's a big reason why the excitement is real and fully justified. Curser's head of design, Ryolu, called this a software renaissance. The printing press didn't make monks faster at copying manuscripts. He wrote it made copying obsolete. It created new worlds. Anyone with an idea can now make software. But now the tools are no longer the true bottleneck. We are even some folks who might have previously been skeptical are coming on board. Theo again wrote, \"If you think AI coding is a fad, I get it. I felt the same way about a year ago. If you tried these tools out during the Copilot autocomplete era, I understand entirely why you wrote them off. Things have changed a lot since then. These tools are here to stay. I don't fault anyone for feeling this way. The rate of progress seems impossible and keeping up on it all is tedious and obnoxious. Lots of people are selling snake oil right now. You might have accidentally bought some yourself. I know I have. That doesn't make the trend irrelevant. Every few months, there's an absurd leap in capability. 6 months ago, I was blown away with GPT5. It could do decent designs and navigate a giant codebase. Awesome. Now, Opus can complete large feature work by itself. Actually, insane. To be blunt, all of the best devs I know are using AI heavily in their work. Once you see what these tools can do, it's hard to talk about it genuinely without sounding like a paid shill. The gap between devs evangelizing AI and devs skeptical of AI is getting massive. People who insist these tools are useless. I get it. They felt useless just a few months ago. But your takes are dated. AI is fundamentally changing how we work. David Henire Hansen shared a very similar sentiment in a recent blog post called promoting AI agents. He wrote, \"I never really cared much for the in-editor experience of having AI autocomplete your code as you were writing it. That was the original format pioneered by GitHub's co-pilot and cursor, but it left me code. But with these autonomous agents, the experience is very different. It's more like working on a team and less like working with an overzealous pair programmer who can't stop stealing the keyboard to complete the code you were in the middle of writing. With a team of agents, they're doing their work autonomously, and I just review the final outcome, offer guidance when asked, and marvel at how this is possible at all. Yes, I'm ready to give the current crop of AI agents a promotion. They're no longer just here to help me learn, answer my questions, or check my work. They're fully capable of producing production grade contributions to real life code bases. I get that some programmers are eager to tune it all out. The hype drones on relentlessly. The most fantastical claims are still far off from being substantiated, and there's real uncertainty where this will all leave the profession in the future. But that's still not reason enough to miss out on this incredible moment in human and computing history. Now, honestly, at this point, the excitement has gotten so loud that there are some who are trying to show where there are still challenges. OpenAI Uber researcher Nome Brown wrote, \"In one memorable debugging session with Claude Code, I asked it as a sanity check what the expected value would be of an always fold strategy when the poker player has $100 in the pot. It told me that according to its algorithm, the expected value was around $93.\" When I pointed out how strange that was, hoping it would realize on its own that there's a bug, it reassured me that $93 was close to $100, so it was probably fine. Codeex was not much better on this and ran into its own set of interestingly distinct bugs and algorithmic mistakes that I had to carefully work through. JF Puget, who does machine learning at NVIDIA, did a claude code test and came to the conclusion, I am more and more convinced that its value is where you know the best. The rest is vibe coding, which can be fine for personal projects, but definitely not fine for product development. Now, to be honest, I think this is in and of itself a temporary state and a temporary opinion. I think a lot of the things that people think currently are barriers on pressing scent on production software right now will just be blown over in the future with builders content to just try to fix the problems when they come up. Which is not to say that I get every use case that's being shared right now. Entrepreneur David Seagull shared an admittedly extremely cool project called Claw Canvas where he basically gave Claude code the capability of creating a generative UI based on the particular task at hand. Now, this was undeniably super cool and technically awesome. However, the three examples that he gave of scheduling a call with a CTO, booking a flight, and writing emails just did not resonate with me at all. Specifically, the user experience of doing those things in cloud code as opposed to the highly optimized UX's that have been created for them just doesn't make sense from where I'm sitting. Calendar scheduling is not some massive pain. You just go into your Google calendar, pull up your teammate schedule with their email, and pick a time that works for you both. [snorts] For flights, by no stretch would I say that flight discovery UX is perfected. But seeing clawed code reapproximate the seat layout of an airplane rather than just using the version of that on, for example, the Delta app just seems really not time-saving to me in any meaningful way. What's interesting though is that it's very clear that David is not using Claude code in a one-off to one-off way. He is using it very comprehensively as a personal agent across a huge span of his work and interactions with the world of the internet. And so what strikes me is that while it's possible that he's just one of those folks who's really excited about a new tool and is exploring all the different use cases even though some of them won't make sense for that tool in the long run, it strikes me as perhaps more likely that David is in the midst of a transition to a postux world. A world in other words where user experience matters less because the user which is us a human isn't actually having the experience. Instead, we are simply delegating to an agent which doesn't need the Delta app or the Google calendar web app. And so, in some ways, what he's built is a generative guey crutch for this transitional period. That's just a solve for him to be able to give the agent, which doesn't need a UX, enough information to complete the task successfully. Still, my broader point is that there is a lot of exploration happening and not every use case that people get incredibly excited about is going to be one that you have to run out and go try for yourself right away. So, what are some predictions for where this all leads? Well, one of them is in fact this postUI world. Broadloom CEO Todd Saunders writes, \"Every single day I become more convinced that the next winners in vertical software won't have a UI. They will be API first, agent first products that integrate directly into a company's Slack, Teams, email, or browser. Sales team doesn't want another dashboard. They want deals automatically qualified in their CRM. Your accountants don't need another portal, although they do love portals. They want invoices reconciled in the tools they already live in. The UIless future is coming. My working thesis still TBD is that we are moving from software you visit to software that visits you. Another prediction which is really more of a sensibility or a feeling which you can see in some of these posts is that although this is amazing, there is something being lost too as the job of the software engineer changes. In another viral post, Dooka writes, \"I'm not sure if other developers feel like this, but I feel kind of depressed. Like everyone else, I've been using Claude Code for a while. It's not a recent thing, and it's incredible. I've never found coding more fun. The stuff you can do and the speed you can do it at now is absolutely insane, and I'm using it to ship a lot and solve customer problems faster. So, all around, it's a win. But at the same time, the skill I spent 10 thousands of hours getting good at, programming, the thing I spent most of my life getting good at, is becoming a full commodity extremely quickly. As much fun as it is, and as much as I like using the tools, there's something disheartening about the thing you spent most of your life getting good at now being mostly useless, writes Pathic. Everyone is going to feel this soon. Another line of predictions, as expressed by Lewis, everyone who tried Claude code over the holidays and has been thinking deeply about this for 7 days. All white collar jobs are toast. It's over. Although to be fair to Lewis, he was being a little tongue-in-cheek and making fun of the Twitter hype posts that love big pronouncements like all white collar jobs are toast. That's certainly part of the sensibility that is floating around out there right now. Maybe more discreetly, outside of all jobs being toast, there's certainly a sense that the way work happens and the way that business happens is going to look quite different. Damian player writes, \"Things I'm bearish on in 2026 because of Claude code. One, massive teams. Opus 4.5 can now do the work of five people for $200 a month. Headcount is a liability now. Two, manual workflows. If a human touches the same task twice, it should be automated. No exceptions. Three, agency services not tied to ROI. No one's paying 3K a month for email. When AI can write, test, and optimize the entire funnel. The companies that figure this out first will run circles around everyone else. The ones that don't will die off. Another big theme in the predictions which I completely agree with, we'll call mainstreaming. Riley Brown writes, \"You thought 2025 was the vibe coding boom? 3 months from now, all platforms, not just X, will be talking about it. Lovable and Replet have no moat. The space is wide open.\" And I think Riley is dead on when he notes that this is still so contained to the people who were already either a coding or b deeply involved in AI in some way. And it is not going to take long for the wide world of normies to realize that they have been given godlike creation powers unlike anything they've ever experienced before. Hamal Hussein gave an example. He tweeted, \"Wife who doesn't code created this website for her educational podcast with Claude Code in 30 minutes. Claude Code guided her by deploying on Versell and getting a domain. Downloaded and analyzed all her content for website copy. Made a responsive version and resolved all links to each episode in RSS feed. And if you have kids, by the way, go check out Wonder Wise.cience. But it's even easier than the setup he just described. This is frankly 5 minutes in rep letter lovable with the point being that although Claude Code might be out in the lead, there is an entire ecosystem which is going to drive a huge amount of this activity online. Alongside the mainstreaming, one of the areas where we're going to see the expansion of Vive coding this year is of course across the enterprise. This was one of my main predictions in my 50 predictions for 2026 that vibe coding was going to go everywhere into every department. Carvalotti wrote a hilarious post where he says, \"I showed claude code to my company last month and every department now believes they have AGI.\" Attached to it was a hilarious meme of a soldier handing a chimpanzeee and AK-47 with the title marketing people discovering Opus 4.5 and clawed code. Now, in addition to this just changing what people can do inside the organization, there is likely a broader organizational change coming in terms of operational expectations. Paul Graham reposted that tweet from the Google engineer who was talking about how claude code recreated their entire work of the last year in an hour with Graham writing, \"This illustrates an aspect of AI that I hadn't thought about till now. It cuts through bureaucracy. If a big organization is paralyzed by indecision, AI doesn't care. It will happily generate a version one.\" And that becomes the starting point because there is no other version one. Indeed, all of this infiltration into the enterprise is going to create new skill set needs. Ethan Mollik writes, \"When you see how people use claude code, codeex, etc., it becomes clear that managing agents is really a management problem. Can you specify goals? Can you provide context? Can you divide up tasks? Can you give feedback? These are teachable skills. Also, UIs need to support management.\" Now he points out that this is going to get an assist likely from UI when he writes a big question for the coming year is whether the major AI labs can rethink the experience to be more suited towards delegation on other tasks. I think the answer will be if they don't there will be other interfaces that do that. Now beyond the enterprise world there are also a lot of thoughts about what new possibilities open up with application development. Bali Shrinavasan writes about a golden age of local and decentralized apps. He writes, \"The reason we will have this golden age is that claude code allows you to quickly clone any moderately complex cloud-based app into a decent local one that runs on only your files. Apps of moderate complexity without strong global network effects are suddenly easy to clone. The clone won't be perfect right away, but it'll be pretty good. And if the cloning dev sticks with it, it'll get better. This gets to that idea of personal software, which is a big theme for our predictions next year. Likewise, the apps are going to look different.\" Dan Shipper talked a little bit more about what the idea of agent native apps really means. He writes that with traditional software architecture, you write code that defines what happens and the computer executes your instructions. With agent native architecture, you define outcomes in natural language. The agent figures out how to achieve them using tools. In an agent native worlds, features are prompts, not code. All of this, he says, enables emergent capability in your app. It can do things you didn't plan for. This, he says, allows you to discover latent demand from your users that inform your road map. Dan points out, by the way, that this is fairly similar to how Boris Churnney actually builds features into Claude code. And contrary to the prediction that Claude code and these new models are just going to destroy all jobs, there are many who are extremely excited about the entrepreneurial possibilities that these tools and models are going to unlock. Greg Eisenberg writes, I regret to inform you the amount of opportunity to build software startups and mobile apps with cloud code, etc. is mindbending at the moment. In another tweet, he writes, \"The $ 1.3 trillion app store doesn't die. It's going to explode. Claude Code makes it so that anyone can ship an app, which means the App Store fills up 10,000 times faster than before. Most are AI junk, but a few are surprisingly good and personal instead of universal. Apple will get stricter and add more filters. How else are they going to deal with the flood of apps and making it easier for people to find them?\" At the same time, the types of apps will change over the next 24 months. People will start building very specific apps for very specific situations. An example he gives is an app that tells me if my snoring last night was bad enough to wake my partner instead of a generic sleep tracker. Hearkening to my prediction that these new app entrepreneurs will have a different economic model. He writes, \"Most of these apps never try to get huge in the traditional VC sense. Ultimately, software feels more indie, more personal. This era is way better for people who want to build apps, people who want more personal apps, but maybe worse off for Apple who have to deal with the slob.\" Crisping up his predictions, Greg finishes, \"Claude code will probably make 50,000 people millionaires, if not way more. Be on Twitter, I think, captures some of my feeling when he writes,\"It's cliche af, but you literally have the entire world at your fingertips right now. You could hustle take over boomer businesses, acquire billions of real estate, clone a SAS, and take the entire market share. Run up a bag with affiliate marketing. The list goes on and on. You should sit down at your computer every morning with pure excitement, as you could be 10 button pushes away from retirement. Pick anything, but for the love of God, pick something. McKay Wrigley echoes the sentiment. Claude Code in Opus 4.5, he writes, injected the immaculate hacker vibes back into AI that we haven't had since GBT4. Everything is new and fun and weird again. You can feel it. Another oo of new ideas and latent economic value is waiting to be unlocked. And building has never been this fun. So, what's the conclusion? It is not totally clear exactly what set of changes the combination of Opus 4.5 and Claude code or 52 codecs or whatever set of latter-day models and tools you want to point to have done to tip over into this new era. But the tip has happened. The people who are the most proficient users of AI and code all feel it and the exhilaration is palpable. Now, if you've been too intimidated to try these tools yet, first of all, I would say there's no shame at all in using something like Replet or lovable instead of the more intimidating clawed code to start. It's still going to give you a feel for just how much has changed in what you can do. But also, Cloud Code is itself getting more accessible. Claude Code PM Catwoo just in fact tweeted earlier this week, if you want to use Cloud Code, but don't like the terminal interface, you can now use local Claude Code from Claude Desktop. Download Cloud Desktop, open the sidebar, and click Code toggle. Select the folder you want Cloud Code to have access to and submit your prompt. I do think we are starting 2026 in a unique moment and I am very excited to see what you guys all go out and build. For now though, that is going to do it for today's AI daily brief. Appreciate you listening as always and until next time, peace.",
+  "fetchedAt": "2026-01-18T18:33:27.547Z"
+}

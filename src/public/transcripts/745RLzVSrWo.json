@@ -1,0 +1,234 @@
+{
+  "videoId": "745RLzVSrWo",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 3.679,
+      "text": "two missing characters. That is all that"
+    },
+    {
+      "start": 1.92,
+      "duration": 4.48,
+      "text": "it took for researchers from Whiz to"
+    },
+    {
+      "start": 3.919,
+      "duration": 3.681,
+      "text": "hack into the core of the AWS console."
+    },
+    {
+      "start": 6.4,
+      "duration": 3.199,
+      "text": "The researchers discovered a"
+    },
+    {
+      "start": 7.6,
+      "duration": 4.32,
+      "text": "vulnerability called codebach where they"
+    },
+    {
+      "start": 9.599,
+      "duration": 4.08,
+      "text": "noticed that within the AWS code build"
+    },
+    {
+      "start": 11.92,
+      "duration": 3.599,
+      "text": "web hook system, there was a set of"
+    },
+    {
+      "start": 13.679,
+      "duration": 3.921,
+      "text": "rules that any event must meet to"
+    },
+    {
+      "start": 15.519,
+      "duration": 4.561,
+      "text": "trigger a build. One of these rules was"
+    },
+    {
+      "start": 17.6,
+      "duration": 4.48,
+      "text": "an actor ID filter. This was an allow"
+    },
+    {
+      "start": 20.08,
+      "duration": 4.16,
+      "text": "list of approved GitHub user IDs that"
+    },
+    {
+      "start": 22.08,
+      "duration": 4.64,
+      "text": "ensures only trusted users can trigger a"
+    },
+    {
+      "start": 24.24,
+      "duration": 4.56,
+      "text": "build. But actor ID used an unanchored"
+    },
+    {
+      "start": 26.72,
+      "duration": 4.24,
+      "text": "reax filter for its verification. In the"
+    },
+    {
+      "start": 28.8,
+      "duration": 3.919,
+      "text": "context of reax, unanchored means the"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.68,
+      "text": "search pattern is looking for a match"
+    },
+    {
+      "start": 32.719,
+      "duration": 3.921,
+      "text": "anywhere within a string rather than"
+    },
+    {
+      "start": 34.64,
+      "duration": 4.079,
+      "text": "requiring the whole string to match. And"
+    },
+    {
+      "start": 36.64,
+      "duration": 4.239,
+      "text": "because this filter wasn't anchored, any"
+    },
+    {
+      "start": 38.719,
+      "duration": 4.401,
+      "text": "GitHub ID that contained a substring of"
+    },
+    {
+      "start": 40.879,
+      "duration": 4,
+      "text": "the trusted ID could bypass code build"
+    },
+    {
+      "start": 43.12,
+      "duration": 3.52,
+      "text": "security. They just needed to obtain a"
+    },
+    {
+      "start": 44.879,
+      "duration": 3.601,
+      "text": "GitHub user with an ID that would match"
+    },
+    {
+      "start": 46.64,
+      "duration": 4.32,
+      "text": "the substring pattern. They named this"
+    },
+    {
+      "start": 48.48,
+      "duration": 4.32,
+      "text": "scenario an eclipse event. So the Whiz"
+    },
+    {
+      "start": 50.96,
+      "duration": 4,
+      "text": "team started creating new GitHub users"
+    },
+    {
+      "start": 52.8,
+      "duration": 3.759,
+      "text": "in batches until they hit that Eclipse"
+    },
+    {
+      "start": 54.96,
+      "duration": 3.599,
+      "text": "event. And eventually they managed to"
+    },
+    {
+      "start": 56.559,
+      "duration": 4.081,
+      "text": "capture a user ID that would bypass the"
+    },
+    {
+      "start": 58.559,
+      "duration": 4,
+      "text": "actor ID filter. And this enabled them"
+    },
+    {
+      "start": 60.64,
+      "duration": 4.239,
+      "text": "to push out a pull request to the AWS"
+    },
+    {
+      "start": 62.559,
+      "duration": 4.001,
+      "text": "JavaScript SDK library which in turn"
+    },
+    {
+      "start": 64.879,
+      "duration": 3.841,
+      "text": "enabled them to retrieve the GitHub"
+    },
+    {
+      "start": 66.56,
+      "duration": 4.559,
+      "text": "credentials for the project and gain"
+    },
+    {
+      "start": 68.72,
+      "duration": 4.399,
+      "text": "admin access to the AWS cold build"
+    },
+    {
+      "start": 71.119,
+      "duration": 4,
+      "text": "repository. Whiz of course then notified"
+    },
+    {
+      "start": 73.119,
+      "duration": 4.32,
+      "text": "AWS who managed to patch this issue"
+    },
+    {
+      "start": 75.119,
+      "duration": 4.401,
+      "text": "within 48 hours. But this just shows how"
+    },
+    {
+      "start": 77.439,
+      "duration": 3.521,
+      "text": "even the most robust systems built by"
+    },
+    {
+      "start": 79.52,
+      "duration": 3.84,
+      "text": "giant companies like Microsoft and"
+    },
+    {
+      "start": 80.96,
+      "duration": 4.4,
+      "text": "Amazon can still be vulnerable to minor"
+    },
+    {
+      "start": 83.36,
+      "duration": 3.759,
+      "text": "security flaws like a random insecure"
+    },
+    {
+      "start": 85.36,
+      "duration": 3.28,
+      "text": "reax pattern. If you want to hear more"
+    },
+    {
+      "start": 87.119,
+      "duration": 4.64,
+      "text": "security stories like this one, be sure"
+    },
+    {
+      "start": 88.64,
+      "duration": 3.119,
+      "text": "to subscribe to the BetterStack"
+    }
+  ],
+  "fullText": "two missing characters. That is all that it took for researchers from Whiz to hack into the core of the AWS console. The researchers discovered a vulnerability called codebach where they noticed that within the AWS code build web hook system, there was a set of rules that any event must meet to trigger a build. One of these rules was an actor ID filter. This was an allow list of approved GitHub user IDs that ensures only trusted users can trigger a build. But actor ID used an unanchored reax filter for its verification. In the context of reax, unanchored means the search pattern is looking for a match anywhere within a string rather than requiring the whole string to match. And because this filter wasn't anchored, any GitHub ID that contained a substring of the trusted ID could bypass code build security. They just needed to obtain a GitHub user with an ID that would match the substring pattern. They named this scenario an eclipse event. So the Whiz team started creating new GitHub users in batches until they hit that Eclipse event. And eventually they managed to capture a user ID that would bypass the actor ID filter. And this enabled them to push out a pull request to the AWS JavaScript SDK library which in turn enabled them to retrieve the GitHub credentials for the project and gain admin access to the AWS cold build repository. Whiz of course then notified AWS who managed to patch this issue within 48 hours. But this just shows how even the most robust systems built by giant companies like Microsoft and Amazon can still be vulnerable to minor security flaws like a random insecure reax pattern. If you want to hear more security stories like this one, be sure to subscribe to the BetterStack",
+  "fetchedAt": "2026-01-18T18:32:03.270Z"
+}

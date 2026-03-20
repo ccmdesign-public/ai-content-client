@@ -1,0 +1,339 @@
+{
+  "videoId": "4TFcrP68-8E",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 5.199,
+      "text": "AWS solutions architect associate"
+    },
+    {
+      "start": 2.56,
+      "duration": 4.239,
+      "text": "certification prep question 21 of 65. A"
+    },
+    {
+      "start": 5.359,
+      "duration": 3.761,
+      "text": "company is migrating a legacy"
+    },
+    {
+      "start": 6.799,
+      "duration": 5.84,
+      "text": "application to AWS. The application"
+    },
+    {
+      "start": 9.12,
+      "duration": 4.96,
+      "text": "connects to an Amazon RDS MySQL database"
+    },
+    {
+      "start": 12.639,
+      "duration": 3.681,
+      "text": "and currently stores database"
+    },
+    {
+      "start": 14.08,
+      "duration": 4.08,
+      "text": "credentials in a configuration file. The"
+    },
+    {
+      "start": 16.32,
+      "duration": 3.68,
+      "text": "security team requires that the"
+    },
+    {
+      "start": 18.16,
+      "duration": 4.16,
+      "text": "credentials rotate automatically every"
+    },
+    {
+      "start": 20,
+      "duration": 3.92,
+      "text": "30 days without application downtime and"
+    },
+    {
+      "start": 22.32,
+      "duration": 3.76,
+      "text": "developers should not have access to"
+    },
+    {
+      "start": 23.92,
+      "duration": 4.16,
+      "text": "view the actual plain text passwords for"
+    },
+    {
+      "start": 26.08,
+      "duration": 3.599,
+      "text": "the database. Which solution meets these"
+    },
+    {
+      "start": 28.08,
+      "duration": 3.92,
+      "text": "requirements? Let's identify the key"
+    },
+    {
+      "start": 29.679,
+      "duration": 4.56,
+      "text": "hints. So one, database credentials,"
+    },
+    {
+      "start": 32,
+      "duration": 4.239,
+      "text": "sensitive secrets. Number two, automatic"
+    },
+    {
+      "start": 34.239,
+      "duration": 3.761,
+      "text": "rotation. So no manual intervention."
+    },
+    {
+      "start": 36.239,
+      "duration": 4.401,
+      "text": "Three, every 30 days. So this is a"
+    },
+    {
+      "start": 38,
+      "duration": 3.92,
+      "text": "scheduled rotation. And then RDS MySQL"
+    },
+    {
+      "start": 40.64,
+      "duration": 3.84,
+      "text": "integration. So it's going to need"
+    },
+    {
+      "start": 41.92,
+      "duration": 4.799,
+      "text": "native RDS integration support. Option"
+    },
+    {
+      "start": 44.48,
+      "duration": 4.64,
+      "text": "one, store credentials in AWS Systems"
+    },
+    {
+      "start": 46.719,
+      "duration": 4.481,
+      "text": "Manager parameter store as a secure"
+    },
+    {
+      "start": 49.12,
+      "duration": 4.16,
+      "text": "string and create a Lambda function to"
+    },
+    {
+      "start": 51.2,
+      "duration": 3.839,
+      "text": "rotate them manually. Option two, store"
+    },
+    {
+      "start": 53.28,
+      "duration": 3.759,
+      "text": "credentials in environment variables on"
+    },
+    {
+      "start": 55.039,
+      "duration": 3.68,
+      "text": "the EC2 instances and update them"
+    },
+    {
+      "start": 57.039,
+      "duration": 4.081,
+      "text": "monthly through a deployment. Option"
+    },
+    {
+      "start": 58.719,
+      "duration": 4.401,
+      "text": "three, store credentials in AWS secrets"
+    },
+    {
+      "start": 61.12,
+      "duration": 4.56,
+      "text": "manager and enable automatic rotation"
+    },
+    {
+      "start": 63.12,
+      "duration": 4.72,
+      "text": "with the built-in RDS MySQL rotation"
+    },
+    {
+      "start": 65.68,
+      "duration": 4.24,
+      "text": "lambda. Option four, store credentials"
+    },
+    {
+      "start": 67.84,
+      "duration": 3.92,
+      "text": "in an encrypted file on Amazon S3 and"
+    },
+    {
+      "start": 69.92,
+      "duration": 3.6,
+      "text": "update the file every 30 days. Drop the"
+    },
+    {
+      "start": 71.76,
+      "duration": 3.28,
+      "text": "answer in the comments. The hint says"
+    },
+    {
+      "start": 73.52,
+      "duration": 3.68,
+      "text": "automatic rotation, so anything"
+    },
+    {
+      "start": 75.04,
+      "duration": 4,
+      "text": "requiring manual updates is out. So"
+    },
+    {
+      "start": 77.2,
+      "duration": 4.32,
+      "text": "option one, parameter store secure"
+    },
+    {
+      "start": 79.04,
+      "duration": 4.399,
+      "text": "string does indeed encrypt secrets, but"
+    },
+    {
+      "start": 81.52,
+      "duration": 3.279,
+      "text": "parameter store doesn't have built-in"
+    },
+    {
+      "start": 83.439,
+      "duration": 3.121,
+      "text": "automatic rotation, so you're going to"
+    },
+    {
+      "start": 84.799,
+      "duration": 4,
+      "text": "have to manually do it yourself. So it's"
+    },
+    {
+      "start": 86.56,
+      "duration": 4.16,
+      "text": "out. Option two, environment variables"
+    },
+    {
+      "start": 88.799,
+      "duration": 3.521,
+      "text": "require redeployment to update. That's"
+    },
+    {
+      "start": 90.72,
+      "duration": 4,
+      "text": "manual and it risks downtime and causes"
+    },
+    {
+      "start": 92.32,
+      "duration": 4.799,
+      "text": "all kinds of issues. Option four, S3"
+    },
+    {
+      "start": 94.72,
+      "duration": 3.759,
+      "text": "files need manual updates. Also not"
+    },
+    {
+      "start": 97.119,
+      "duration": 3.04,
+      "text": "designed for secrets management or"
+    },
+    {
+      "start": 98.479,
+      "duration": 3.361,
+      "text": "automatic rotation or anything along"
+    },
+    {
+      "start": 100.159,
+      "duration": 3.681,
+      "text": "those lines. So the correct answer is"
+    },
+    {
+      "start": 101.84,
+      "duration": 3.919,
+      "text": "actually option three. AWS secrets"
+    },
+    {
+      "start": 103.84,
+      "duration": 3.76,
+      "text": "manager has built-in rotation and it's"
+    },
+    {
+      "start": 105.759,
+      "duration": 3.921,
+      "text": "designed exactly for this case. It has"
+    },
+    {
+      "start": 107.6,
+      "duration": 4,
+      "text": "native RDS integration, provides the"
+    },
+    {
+      "start": 109.68,
+      "duration": 3.439,
+      "text": "rotation, no coding needed, 30-day"
+    },
+    {
+      "start": 111.6,
+      "duration": 3.28,
+      "text": "schedule supported, configure once,"
+    },
+    {
+      "start": 113.119,
+      "duration": 3.36,
+      "text": "rotate automatically, and basically the"
+    },
+    {
+      "start": 114.88,
+      "duration": 3.199,
+      "text": "application will retrieve the current"
+    },
+    {
+      "start": 116.479,
+      "duration": 3.68,
+      "text": "secret. There's no downtime during"
+    },
+    {
+      "start": 118.079,
+      "duration": 3.841,
+      "text": "rotation. So, the takeaway when you see"
+    },
+    {
+      "start": 120.159,
+      "duration": 4.24,
+      "text": "automatic rotation plus database"
+    },
+    {
+      "start": 121.92,
+      "duration": 4.72,
+      "text": "credentials, it's secrets manager. So,"
+    },
+    {
+      "start": 124.399,
+      "duration": 4.241,
+      "text": "parameter store is cheaper, but it lacks"
+    },
+    {
+      "start": 126.64,
+      "duration": 3.759,
+      "text": "the automatic rotation. So for RDS"
+    },
+    {
+      "start": 128.64,
+      "duration": 6.08,
+      "text": "credentials specifically requiring"
+    },
+    {
+      "start": 130.399,
+      "duration": 4.321,
+      "text": "rotation, secrets manager is the way to"
+    }
+  ],
+  "fullText": "AWS solutions architect associate certification prep question 21 of 65. A company is migrating a legacy application to AWS. The application connects to an Amazon RDS MySQL database and currently stores database credentials in a configuration file. The security team requires that the credentials rotate automatically every 30 days without application downtime and developers should not have access to view the actual plain text passwords for the database. Which solution meets these requirements? Let's identify the key hints. So one, database credentials, sensitive secrets. Number two, automatic rotation. So no manual intervention. Three, every 30 days. So this is a scheduled rotation. And then RDS MySQL integration. So it's going to need native RDS integration support. Option one, store credentials in AWS Systems Manager parameter store as a secure string and create a Lambda function to rotate them manually. Option two, store credentials in environment variables on the EC2 instances and update them monthly through a deployment. Option three, store credentials in AWS secrets manager and enable automatic rotation with the built-in RDS MySQL rotation lambda. Option four, store credentials in an encrypted file on Amazon S3 and update the file every 30 days. Drop the answer in the comments. The hint says automatic rotation, so anything requiring manual updates is out. So option one, parameter store secure string does indeed encrypt secrets, but parameter store doesn't have built-in automatic rotation, so you're going to have to manually do it yourself. So it's out. Option two, environment variables require redeployment to update. That's manual and it risks downtime and causes all kinds of issues. Option four, S3 files need manual updates. Also not designed for secrets management or automatic rotation or anything along those lines. So the correct answer is actually option three. AWS secrets manager has built-in rotation and it's designed exactly for this case. It has native RDS integration, provides the rotation, no coding needed, 30-day schedule supported, configure once, rotate automatically, and basically the application will retrieve the current secret. There's no downtime during rotation. So, the takeaway when you see automatic rotation plus database credentials, it's secrets manager. So, parameter store is cheaper, but it lacks the automatic rotation. So for RDS credentials specifically requiring rotation, secrets manager is the way to",
+  "fetchedAt": "2026-01-20T17:05:52.947Z"
+}

@@ -1,0 +1,924 @@
+{
+  "videoId": "bDwr_7n1AZg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.2,
+      "text": "Did you know that there's a"
+    },
+    {
+      "start": 1.36,
+      "duration": 5.12,
+      "text": "cross-platform framework out there that"
+    },
+    {
+      "start": 3.36,
+      "duration": 5.92,
+      "text": "lets you build desktop apps, iOS apps,"
+    },
+    {
+      "start": 6.48,
+      "duration": 5.84,
+      "text": "Android apps, and web apps from a single"
+    },
+    {
+      "start": 9.28,
+      "duration": 5.84,
+      "text": "codebase, or better yet, from a single"
+    },
+    {
+      "start": 12.32,
+      "duration": 4.719,
+      "text": "file? That framework is called Dioxys."
+    },
+    {
+      "start": 15.12,
+      "duration": 4.319,
+      "text": "It's built on top of Rust, and it is"
+    },
+    {
+      "start": 17.039,
+      "duration": 4.961,
+      "text": "blazingly fast. In this video, we'll"
+    },
+    {
+      "start": 19.439,
+      "duration": 4.801,
+      "text": "take a look at what Diosys is, how it"
+    },
+    {
+      "start": 22,
+      "duration": 4.72,
+      "text": "works, and I'll show you how to set up"
+    },
+    {
+      "start": 24.24,
+      "duration": 5.039,
+      "text": "your own cross-platform application with"
+    },
+    {
+      "start": 26.72,
+      "duration": 4.479,
+      "text": "Diosis in just a few minutes. It's going"
+    },
+    {
+      "start": 29.279,
+      "duration": 4.92,
+      "text": "to be a lot of fun. So, let's dive into"
+    },
+    {
+      "start": 31.199,
+      "duration": 3,
+      "text": "it."
+    },
+    {
+      "start": 35.6,
+      "duration": 5.52,
+      "text": "Dioxis is a Rustbased UI framework that"
+    },
+    {
+      "start": 38.399,
+      "duration": 5.361,
+      "text": "lets you build web, desktop, and mobile"
+    },
+    {
+      "start": 41.12,
+      "duration": 6.56,
+      "text": "apps from one single codebase. You write"
+    },
+    {
+      "start": 43.76,
+      "duration": 7.04,
+      "text": "your UI in Rust using a JSX like syntax"
+    },
+    {
+      "start": 47.68,
+      "duration": 5.68,
+      "text": "called RSX. You then style it with HTML"
+    },
+    {
+      "start": 50.8,
+      "duration": 4.96,
+      "text": "and CSS and Dioxis takes care of"
+    },
+    {
+      "start": 53.36,
+      "duration": 4.64,
+      "text": "rendering it across all platforms. It"
+    },
+    {
+      "start": 55.76,
+      "duration": 5.2,
+      "text": "gives you a familiar component and state"
+    },
+    {
+      "start": 58,
+      "duration": 5.92,
+      "text": "model. It also supports hot reloading,"
+    },
+    {
+      "start": 60.96,
+      "duration": 5.04,
+      "text": "and it outputs native bundles for every"
+    },
+    {
+      "start": 63.92,
+      "duration": 4.32,
+      "text": "target you care about. The project is"
+    },
+    {
+      "start": 66,
+      "duration": 5.439,
+      "text": "super popular and growing, and the"
+    },
+    {
+      "start": 68.24,
+      "duration": 5.44,
+      "text": "newest 0.7 release has added a ton of"
+    },
+    {
+      "start": 71.439,
+      "duration": 4.561,
+      "text": "cool features, like it now supports"
+    },
+    {
+      "start": 73.68,
+      "duration": 4.96,
+      "text": "automatic Tailwind styling and has"
+    },
+    {
+      "start": 76,
+      "duration": 4.96,
+      "text": "support for Radics UI components. It now"
+    },
+    {
+      "start": 78.64,
+      "duration": 4.96,
+      "text": "has its own renderer called Dioxis"
+    },
+    {
+      "start": 80.96,
+      "duration": 5.6,
+      "text": "Native that paints Dioxys apps entirely"
+    },
+    {
+      "start": 83.6,
+      "duration": 5.519,
+      "text": "on the GPU and it also ships with its"
+    },
+    {
+      "start": 86.56,
+      "duration": 4.8,
+      "text": "own integrated debugger which works for"
+    },
+    {
+      "start": 89.119,
+      "duration": 4.32,
+      "text": "all built targets. It even supports"
+    },
+    {
+      "start": 91.36,
+      "duration": 4.56,
+      "text": "integration with other Rust engines like"
+    },
+    {
+      "start": 93.439,
+      "duration": 4.801,
+      "text": "the Rust-based game engine called Bevy."
+    },
+    {
+      "start": 95.92,
+      "duration": 4.239,
+      "text": "So needless to say, it's a very strong"
+    },
+    {
+      "start": 98.24,
+      "duration": 4,
+      "text": "cross-platform framework which is"
+    },
+    {
+      "start": 100.159,
+      "duration": 3.92,
+      "text": "becoming more and more mature by the"
+    },
+    {
+      "start": 102.24,
+      "duration": 3.36,
+      "text": "day. And I think this is just the"
+    },
+    {
+      "start": 104.079,
+      "duration": 3.761,
+      "text": "beginning. But now let's see for"
+    },
+    {
+      "start": 105.6,
+      "duration": 4.96,
+      "text": "ourselves how quickly can we build a"
+    },
+    {
+      "start": 107.84,
+      "duration": 4.639,
+      "text": "cross-platform application using Dioxis."
+    },
+    {
+      "start": 110.56,
+      "duration": 3.519,
+      "text": "So the obvious first thing here is to"
+    },
+    {
+      "start": 112.479,
+      "duration": 3.6,
+      "text": "make sure that you have Rust installed"
+    },
+    {
+      "start": 114.079,
+      "duration": 4.881,
+      "text": "on your system. And next you want to"
+    },
+    {
+      "start": 116.079,
+      "duration": 4.801,
+      "text": "make sure to install the WM32 tool"
+    },
+    {
+      "start": 118.96,
+      "duration": 4,
+      "text": "chain. You can do that by running these"
+    },
+    {
+      "start": 120.88,
+      "duration": 4.32,
+      "text": "two commands. And once you have that,"
+    },
+    {
+      "start": 122.96,
+      "duration": 5.439,
+      "text": "you can proceed to download the Dioxis"
+    },
+    {
+      "start": 125.2,
+      "duration": 5.279,
+      "text": "CLI with this single command. And once"
+    },
+    {
+      "start": 128.399,
+      "duration": 3.681,
+      "text": "you're done with that, you can type dx"
+    },
+    {
+      "start": 130.479,
+      "duration": 3.84,
+      "text": "with the version flag to make sure the"
+    },
+    {
+      "start": 132.08,
+      "duration": 3.92,
+      "text": "CLI has been successfully installed."
+    },
+    {
+      "start": 134.319,
+      "duration": 4.321,
+      "text": "Next, we can go ahead and create our own"
+    },
+    {
+      "start": 136,
+      "duration": 4.64,
+      "text": "Diosis project by running DX new"
+    },
+    {
+      "start": 138.64,
+      "duration": 4.08,
+      "text": "followed by the name of your app. I'll"
+    },
+    {
+      "start": 140.64,
+      "duration": 3.52,
+      "text": "just call it test app in this case. It"
+    },
+    {
+      "start": 142.72,
+      "duration": 3.44,
+      "text": "will then ask you what kind of template"
+    },
+    {
+      "start": 144.16,
+      "duration": 4.159,
+      "text": "you want to use. For this demo, we'll"
+    },
+    {
+      "start": 146.16,
+      "duration": 3.84,
+      "text": "just use the simple barebones template."
+    },
+    {
+      "start": 148.319,
+      "duration": 3.361,
+      "text": "And for the simplicity of this demo,"
+    },
+    {
+      "start": 150,
+      "duration": 4.08,
+      "text": "we're not going to be using full stack"
+    },
+    {
+      "start": 151.68,
+      "duration": 5.04,
+      "text": "nor the router, but we will add support"
+    },
+    {
+      "start": 154.08,
+      "duration": 4.879,
+      "text": "for Tailwind. And we also won't need the"
+    },
+    {
+      "start": 156.72,
+      "duration": 4.08,
+      "text": "AI prompts in this project. And for the"
+    },
+    {
+      "start": 158.959,
+      "duration": 3.681,
+      "text": "base target, let's choose desktop for"
+    },
+    {
+      "start": 160.8,
+      "duration": 4.079,
+      "text": "now, but I will show you how you can"
+    },
+    {
+      "start": 162.64,
+      "duration": 4.4,
+      "text": "build it for all other targets later in"
+    },
+    {
+      "start": 164.879,
+      "duration": 4.881,
+      "text": "this video. Once that is all done, let's"
+    },
+    {
+      "start": 167.04,
+      "duration": 5.04,
+      "text": "CD into our directory and open the code"
+    },
+    {
+      "start": 169.76,
+      "duration": 4.96,
+      "text": "editor. And here from the terminal"
+    },
+    {
+      "start": 172.08,
+      "duration": 5.2,
+      "text": "window, I'm just going to run dxerve."
+    },
+    {
+      "start": 174.72,
+      "duration": 4.96,
+      "text": "And in just few seconds, we get this"
+    },
+    {
+      "start": 177.28,
+      "duration": 4.48,
+      "text": "nice looking desktop app running with"
+    },
+    {
+      "start": 179.68,
+      "duration": 4.08,
+      "text": "Dioxis. And it also supports hot"
+    },
+    {
+      "start": 181.76,
+      "duration": 4.16,
+      "text": "reloading. So if I now remove some of"
+    },
+    {
+      "start": 183.76,
+      "duration": 4.559,
+      "text": "these elements, you can see here that it"
+    },
+    {
+      "start": 185.92,
+      "duration": 4.399,
+      "text": "is instantly updated in the app as well."
+    },
+    {
+      "start": 188.319,
+      "duration": 4.801,
+      "text": "We can also pass in some parameters to"
+    },
+    {
+      "start": 190.319,
+      "duration": 5.2,
+      "text": "our components like a name for the hero"
+    },
+    {
+      "start": 193.12,
+      "duration": 5.199,
+      "text": "component and then pass in the value of"
+    },
+    {
+      "start": 195.519,
+      "duration": 5.521,
+      "text": "Joe in the app function. And then let's"
+    },
+    {
+      "start": 198.319,
+      "duration": 4.401,
+      "text": "add a new P tag which will output our"
+    },
+    {
+      "start": 201.04,
+      "duration": 3.839,
+      "text": "name. And updates like these will"
+    },
+    {
+      "start": 202.72,
+      "duration": 4.64,
+      "text": "trigger a full reload because we are"
+    },
+    {
+      "start": 204.879,
+      "duration": 4.241,
+      "text": "changing the function signatures. But as"
+    },
+    {
+      "start": 207.36,
+      "duration": 4.64,
+      "text": "you can see the reload is pretty fast."
+    },
+    {
+      "start": 209.12,
+      "duration": 4.8,
+      "text": "And now we get this new hello text. And"
+    },
+    {
+      "start": 212,
+      "duration": 4.319,
+      "text": "now if we change the name to something"
+    },
+    {
+      "start": 213.92,
+      "duration": 4.8,
+      "text": "else, you see that it is instantly"
+    },
+    {
+      "start": 216.319,
+      "duration": 4.161,
+      "text": "updated with the hot reloading. So now"
+    },
+    {
+      "start": 218.72,
+      "duration": 4.4,
+      "text": "let's try to build this app for other"
+    },
+    {
+      "start": 220.48,
+      "duration": 5.28,
+      "text": "targets. For iOS, we simply need to run"
+    },
+    {
+      "start": 223.12,
+      "duration": 4.8,
+      "text": "DX serve followed by the platform flag"
+    },
+    {
+      "start": 225.76,
+      "duration": 4.479,
+      "text": "with iOS. And this will automatically"
+    },
+    {
+      "start": 227.92,
+      "duration": 5.039,
+      "text": "open our simulator and launch our app"
+    },
+    {
+      "start": 230.239,
+      "duration": 4.801,
+      "text": "over there. Similarly for Android, we"
+    },
+    {
+      "start": 232.959,
+      "duration": 4.56,
+      "text": "can build the target by running DXserve"
+    },
+    {
+      "start": 235.04,
+      "duration": 4.24,
+      "text": "with the Android platform flag. But in"
+    },
+    {
+      "start": 237.519,
+      "duration": 4,
+      "text": "Android's case, you will need to open"
+    },
+    {
+      "start": 239.28,
+      "duration": 4.64,
+      "text": "the simulator manually before the app"
+    },
+    {
+      "start": 241.519,
+      "duration": 4.881,
+      "text": "can be installed on it. And finally, if"
+    },
+    {
+      "start": 243.92,
+      "duration": 4.959,
+      "text": "we run dxserve with the platform web"
+    },
+    {
+      "start": 246.4,
+      "duration": 5.52,
+      "text": "flag, we can now build this target for"
+    },
+    {
+      "start": 248.879,
+      "duration": 5.521,
+      "text": "the web as well. So easy, so elegant,"
+    },
+    {
+      "start": 251.92,
+      "duration": 4.719,
+      "text": "and honestly, the compile time is so"
+    },
+    {
+      "start": 254.4,
+      "duration": 4.16,
+      "text": "blazingly fast. But now I want to try"
+    },
+    {
+      "start": 256.639,
+      "duration": 4.32,
+      "text": "something more challenging. Let's see"
+    },
+    {
+      "start": 258.56,
+      "duration": 4.24,
+      "text": "how we can add a functionality to fetch"
+    },
+    {
+      "start": 260.959,
+      "duration": 3.201,
+      "text": "some external data. And for this"
+    },
+    {
+      "start": 262.8,
+      "duration": 3.52,
+      "text": "purpose, I'm just going to build a"
+    },
+    {
+      "start": 264.16,
+      "duration": 4.4,
+      "text": "simple Chuck Norris joke generator that"
+    },
+    {
+      "start": 266.32,
+      "duration": 4.64,
+      "text": "gives me a new joke about Chuck Norris"
+    },
+    {
+      "start": 268.56,
+      "duration": 4.639,
+      "text": "using the Chuck Norris joke API every"
+    },
+    {
+      "start": 270.96,
+      "duration": 4.32,
+      "text": "time I click the generate button. Now,"
+    },
+    {
+      "start": 273.199,
+      "duration": 4.881,
+      "text": "to enable asynchronous data fetching"
+    },
+    {
+      "start": 275.28,
+      "duration": 5.12,
+      "text": "functionality in Dioxys, we need to add"
+    },
+    {
+      "start": 278.08,
+      "duration": 4.88,
+      "text": "two additional dependencies. One is"
+    },
+    {
+      "start": 280.4,
+      "duration": 4.799,
+      "text": "request to provide an HTTP client for"
+    },
+    {
+      "start": 282.96,
+      "duration": 4.56,
+      "text": "fetching data and serti for"
+    },
+    {
+      "start": 285.199,
+      "duration": 4.641,
+      "text": "deserializing the JSON response coming"
+    },
+    {
+      "start": 287.52,
+      "duration": 4.64,
+      "text": "from the rest endpoint. If we look at"
+    },
+    {
+      "start": 289.84,
+      "duration": 4.639,
+      "text": "the Chucknor's joke API response, there"
+    },
+    {
+      "start": 292.16,
+      "duration": 5.36,
+      "text": "are two keys we are interested in. One"
+    },
+    {
+      "start": 294.479,
+      "duration": 6,
+      "text": "is the value which is the joke itself."
+    },
+    {
+      "start": 297.52,
+      "duration": 5.52,
+      "text": "And then there's also an icon URL which"
+    },
+    {
+      "start": 300.479,
+      "duration": 4.801,
+      "text": "I will use to display an icon on top"
+    },
+    {
+      "start": 303.04,
+      "duration": 4.32,
+      "text": "just so it feels more visually pleasing."
+    },
+    {
+      "start": 305.28,
+      "duration": 5.04,
+      "text": "Next, we need to create a new strct"
+    },
+    {
+      "start": 307.36,
+      "duration": 5.04,
+      "text": "object with the serti decorator to let"
+    },
+    {
+      "start": 310.32,
+      "duration": 4.64,
+      "text": "serti know how we want to parse the"
+    },
+    {
+      "start": 312.4,
+      "duration": 5.04,
+      "text": "incoming data. And here we will just add"
+    },
+    {
+      "start": 314.96,
+      "duration": 4.56,
+      "text": "two keys that I mentioned before. Next,"
+    },
+    {
+      "start": 317.44,
+      "duration": 4.72,
+      "text": "let's create a new component called joke"
+    },
+    {
+      "start": 319.52,
+      "duration": 4.72,
+      "text": "display. And here we should define two"
+    },
+    {
+      "start": 322.16,
+      "duration": 4.4,
+      "text": "new variables for the keys we will"
+    },
+    {
+      "start": 324.24,
+      "duration": 4.72,
+      "text": "extract. And then we create a method"
+    },
+    {
+      "start": 326.56,
+      "duration": 4.88,
+      "text": "called fetch joke which will get a"
+    },
+    {
+      "start": 328.96,
+      "duration": 5.12,
+      "text": "random joke from the API and set the"
+    },
+    {
+      "start": 331.44,
+      "duration": 4.8,
+      "text": "response values to our variables. Then"
+    },
+    {
+      "start": 334.08,
+      "duration": 4.72,
+      "text": "let's create a method called generate"
+    },
+    {
+      "start": 336.24,
+      "duration": 4.16,
+      "text": "which will trigger this fetch on click."
+    },
+    {
+      "start": 338.8,
+      "duration": 4.56,
+      "text": "And then we will render out our"
+    },
+    {
+      "start": 340.4,
+      "duration": 5.519,
+      "text": "component with our icon, the joke text"
+    },
+    {
+      "start": 343.36,
+      "duration": 5.52,
+      "text": "box, and the generate button that will"
+    },
+    {
+      "start": 345.919,
+      "duration": 4.881,
+      "text": "launch the fetch joke method on click."
+    },
+    {
+      "start": 348.88,
+      "duration": 4.08,
+      "text": "One final thing we want to do is make"
+    },
+    {
+      "start": 350.8,
+      "duration": 4.48,
+      "text": "sure that when we launch our app, the"
+    },
+    {
+      "start": 352.96,
+      "duration": 4.4,
+      "text": "first joke is immediately fetched. And"
+    },
+    {
+      "start": 355.28,
+      "duration": 4.88,
+      "text": "for this purpose, we can add a use"
+    },
+    {
+      "start": 357.36,
+      "duration": 4.88,
+      "text": "effect function similar to React, which"
+    },
+    {
+      "start": 360.16,
+      "duration": 4.96,
+      "text": "will be triggered when our component is"
+    },
+    {
+      "start": 362.24,
+      "duration": 5.04,
+      "text": "mounted and will execute the fetch joke"
+    },
+    {
+      "start": 365.12,
+      "duration": 4.24,
+      "text": "method. And lastly, let's add the joke"
+    },
+    {
+      "start": 367.28,
+      "duration": 5.199,
+      "text": "display component to our main app"
+    },
+    {
+      "start": 369.36,
+      "duration": 5.679,
+      "text": "component tree. And with that, we now"
+    },
+    {
+      "start": 372.479,
+      "duration": 4.641,
+      "text": "have a functioning Chuck Norris joke"
+    },
+    {
+      "start": 375.039,
+      "duration": 4.72,
+      "text": "generation app. So that's how you can"
+    },
+    {
+      "start": 377.12,
+      "duration": 4.72,
+      "text": "easily add data fetching to your Dioxis"
+    },
+    {
+      "start": 379.759,
+      "duration": 4.56,
+      "text": "apps. And that's basically it. That is"
+    },
+    {
+      "start": 381.84,
+      "duration": 4.88,
+      "text": "Dioxis in a nutshell. Honestly, this"
+    },
+    {
+      "start": 384.319,
+      "duration": 4.401,
+      "text": "framework looks super impressive and I"
+    },
+    {
+      "start": 386.72,
+      "duration": 4.08,
+      "text": "do believe that it has great potential"
+    },
+    {
+      "start": 388.72,
+      "duration": 4.16,
+      "text": "going forward. Of course, Dioxis is"
+    },
+    {
+      "start": 390.8,
+      "duration": 4.48,
+      "text": "still in its early days, and we still"
+    },
+    {
+      "start": 392.88,
+      "duration": 4.08,
+      "text": "yet to see if it's going to be able to"
+    },
+    {
+      "start": 395.28,
+      "duration": 3.52,
+      "text": "compete with some more mature"
+    },
+    {
+      "start": 396.96,
+      "duration": 4.239,
+      "text": "cross-platform frameworks, but because"
+    },
+    {
+      "start": 398.8,
+      "duration": 4.8,
+      "text": "it's built on such a powerful low-level"
+    },
+    {
+      "start": 401.199,
+      "duration": 4.961,
+      "text": "language like Rust, the possibilities"
+    },
+    {
+      "start": 403.6,
+      "duration": 4.159,
+      "text": "here seem endless. But those are just my"
+    },
+    {
+      "start": 406.16,
+      "duration": 3.84,
+      "text": "two cents. What do you think about"
+    },
+    {
+      "start": 407.759,
+      "duration": 4.16,
+      "text": "Dioxis? Have you tried it? Will you use"
+    },
+    {
+      "start": 410,
+      "duration": 3.68,
+      "text": "it? Let us know in the comments down"
+    },
+    {
+      "start": 411.919,
+      "duration": 3.681,
+      "text": "below. And folks, if you like these"
+    },
+    {
+      "start": 413.68,
+      "duration": 3.92,
+      "text": "types of technical breakdowns, be sure"
+    },
+    {
+      "start": 415.6,
+      "duration": 4.08,
+      "text": "to smash that like button underneath the"
+    },
+    {
+      "start": 417.6,
+      "duration": 4.08,
+      "text": "video. And also don't forget to"
+    },
+    {
+      "start": 419.68,
+      "duration": 4.16,
+      "text": "subscribe to our channel. This has been"
+    },
+    {
+      "start": 421.68,
+      "duration": 6.12,
+      "text": "Andress from Better Stack and I will see"
+    },
+    {
+      "start": 423.84,
+      "duration": 3.96,
+      "text": "you in the next videos."
+    }
+  ],
+  "fullText": "Did you know that there's a cross-platform framework out there that lets you build desktop apps, iOS apps, Android apps, and web apps from a single codebase, or better yet, from a single file? That framework is called Dioxys. It's built on top of Rust, and it is blazingly fast. In this video, we'll take a look at what Diosys is, how it works, and I'll show you how to set up your own cross-platform application with Diosis in just a few minutes. It's going to be a lot of fun. So, let's dive into it. Dioxis is a Rustbased UI framework that lets you build web, desktop, and mobile apps from one single codebase. You write your UI in Rust using a JSX like syntax called RSX. You then style it with HTML and CSS and Dioxis takes care of rendering it across all platforms. It gives you a familiar component and state model. It also supports hot reloading, and it outputs native bundles for every target you care about. The project is super popular and growing, and the newest 0.7 release has added a ton of cool features, like it now supports automatic Tailwind styling and has support for Radics UI components. It now has its own renderer called Dioxis Native that paints Dioxys apps entirely on the GPU and it also ships with its own integrated debugger which works for all built targets. It even supports integration with other Rust engines like the Rust-based game engine called Bevy. So needless to say, it's a very strong cross-platform framework which is becoming more and more mature by the day. And I think this is just the beginning. But now let's see for ourselves how quickly can we build a cross-platform application using Dioxis. So the obvious first thing here is to make sure that you have Rust installed on your system. And next you want to make sure to install the WM32 tool chain. You can do that by running these two commands. And once you have that, you can proceed to download the Dioxis CLI with this single command. And once you're done with that, you can type dx with the version flag to make sure the CLI has been successfully installed. Next, we can go ahead and create our own Diosis project by running DX new followed by the name of your app. I'll just call it test app in this case. It will then ask you what kind of template you want to use. For this demo, we'll just use the simple barebones template. And for the simplicity of this demo, we're not going to be using full stack nor the router, but we will add support for Tailwind. And we also won't need the AI prompts in this project. And for the base target, let's choose desktop for now, but I will show you how you can build it for all other targets later in this video. Once that is all done, let's CD into our directory and open the code editor. And here from the terminal window, I'm just going to run dxerve. And in just few seconds, we get this nice looking desktop app running with Dioxis. And it also supports hot reloading. So if I now remove some of these elements, you can see here that it is instantly updated in the app as well. We can also pass in some parameters to our components like a name for the hero component and then pass in the value of Joe in the app function. And then let's add a new P tag which will output our name. And updates like these will trigger a full reload because we are changing the function signatures. But as you can see the reload is pretty fast. And now we get this new hello text. And now if we change the name to something else, you see that it is instantly updated with the hot reloading. So now let's try to build this app for other targets. For iOS, we simply need to run DX serve followed by the platform flag with iOS. And this will automatically open our simulator and launch our app over there. Similarly for Android, we can build the target by running DXserve with the Android platform flag. But in Android's case, you will need to open the simulator manually before the app can be installed on it. And finally, if we run dxserve with the platform web flag, we can now build this target for the web as well. So easy, so elegant, and honestly, the compile time is so blazingly fast. But now I want to try something more challenging. Let's see how we can add a functionality to fetch some external data. And for this purpose, I'm just going to build a simple Chuck Norris joke generator that gives me a new joke about Chuck Norris using the Chuck Norris joke API every time I click the generate button. Now, to enable asynchronous data fetching functionality in Dioxys, we need to add two additional dependencies. One is request to provide an HTTP client for fetching data and serti for deserializing the JSON response coming from the rest endpoint. If we look at the Chucknor's joke API response, there are two keys we are interested in. One is the value which is the joke itself. And then there's also an icon URL which I will use to display an icon on top just so it feels more visually pleasing. Next, we need to create a new strct object with the serti decorator to let serti know how we want to parse the incoming data. And here we will just add two keys that I mentioned before. Next, let's create a new component called joke display. And here we should define two new variables for the keys we will extract. And then we create a method called fetch joke which will get a random joke from the API and set the response values to our variables. Then let's create a method called generate which will trigger this fetch on click. And then we will render out our component with our icon, the joke text box, and the generate button that will launch the fetch joke method on click. One final thing we want to do is make sure that when we launch our app, the first joke is immediately fetched. And for this purpose, we can add a use effect function similar to React, which will be triggered when our component is mounted and will execute the fetch joke method. And lastly, let's add the joke display component to our main app component tree. And with that, we now have a functioning Chuck Norris joke generation app. So that's how you can easily add data fetching to your Dioxis apps. And that's basically it. That is Dioxis in a nutshell. Honestly, this framework looks super impressive and I do believe that it has great potential going forward. Of course, Dioxis is still in its early days, and we still yet to see if it's going to be able to compete with some more mature cross-platform frameworks, but because it's built on such a powerful low-level language like Rust, the possibilities here seem endless. But those are just my two cents. What do you think about Dioxis? Have you tried it? Will you use it? Let us know in the comments down below. And folks, if you like these types of technical breakdowns, be sure to smash that like button underneath the video. And also don't forget to subscribe to our channel. This has been Andress from Better Stack and I will see you in the next videos.",
+  "fetchedAt": "2026-01-18T18:33:32.150Z"
+}

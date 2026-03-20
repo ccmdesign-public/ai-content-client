@@ -1,0 +1,3189 @@
+{
+  "videoId": "7eP8U2CnKdA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4,
+      "text": "Let's learn about 10 of the most basic"
+    },
+    {
+      "start": 1.839,
+      "duration": 3.44,
+      "text": "AWS services by working on a simpler"
+    },
+    {
+      "start": 4.08,
+      "duration": 3.04,
+      "text": "version of Instagram like an"
+    },
+    {
+      "start": 5.279,
+      "duration": 3.841,
+      "text": "application. We'll be building a simple"
+    },
+    {
+      "start": 7.12,
+      "duration": 3.92,
+      "text": "photo sharing app. Users upload photos."
+    },
+    {
+      "start": 9.12,
+      "duration": 4.32,
+      "text": "We store them in S3, process them with"
+    },
+    {
+      "start": 11.04,
+      "duration": 3.759,
+      "text": "Lambda, store metadata in RDS, and serve"
+    },
+    {
+      "start": 13.44,
+      "duration": 3.2,
+      "text": "the application through an application"
+    },
+    {
+      "start": 14.799,
+      "duration": 4.161,
+      "text": "load balancer. All of this sits inside a"
+    },
+    {
+      "start": 16.64,
+      "duration": 4.799,
+      "text": "VPC monitored by Cloudatch secured by"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.159,
+      "text": "IM. This is not just another tutorial"
+    },
+    {
+      "start": 21.439,
+      "duration": 3.361,
+      "text": "video that you watch. Instead, you'll"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.681,
+      "text": "learn by building this project. This"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.6,
+      "text": "video comes with access to our free AWS"
+    },
+    {
+      "start": 26.8,
+      "duration": 3.2,
+      "text": "labs that you can use to practice what"
+    },
+    {
+      "start": 28.4,
+      "duration": 3.199,
+      "text": "you see. And we'll test your work to"
+    },
+    {
+      "start": 30,
+      "duration": 2.8,
+      "text": "make sure you did it correctly. If you"
+    },
+    {
+      "start": 31.599,
+      "duration": 3.041,
+      "text": "did something wrong, we give you"
+    },
+    {
+      "start": 32.8,
+      "duration": 4.16,
+      "text": "feedback instantly. And the best part is"
+    },
+    {
+      "start": 34.64,
+      "duration": 4.079,
+      "text": "that it is absolutely free. No hidden"
+    },
+    {
+      "start": 36.96,
+      "duration": 3.759,
+      "text": "fees or worries that you'll get charged"
+    },
+    {
+      "start": 38.719,
+      "duration": 3.68,
+      "text": "if you forgot to turn off an instance."
+    },
+    {
+      "start": 40.719,
+      "duration": 3.761,
+      "text": "We'll handle that for you. So, let us"
+    },
+    {
+      "start": 42.399,
+      "duration": 3.761,
+      "text": "begin. When you deploy anything on AWS,"
+    },
+    {
+      "start": 44.48,
+      "duration": 3.04,
+      "text": "the first thing you choose is a region."
+    },
+    {
+      "start": 46.16,
+      "duration": 2.64,
+      "text": "A region is a physical location"
+    },
+    {
+      "start": 47.52,
+      "duration": 3.519,
+      "text": "somewhere in the world. Think of them"
+    },
+    {
+      "start": 48.8,
+      "duration": 4.32,
+      "text": "like cities. You've got US East1 in"
+    },
+    {
+      "start": 51.039,
+      "duration": 4.481,
+      "text": "Virginia, AP Southeast One in Singapore,"
+    },
+    {
+      "start": 53.12,
+      "duration": 4.32,
+      "text": "EU West One in Ireland, AP Northeast One"
+    },
+    {
+      "start": 55.52,
+      "duration": 4.08,
+      "text": "in Tokyo. Each of these regions has its"
+    },
+    {
+      "start": 57.44,
+      "duration": 3.759,
+      "text": "own set of AWS data centers. So, if most"
+    },
+    {
+      "start": 59.6,
+      "duration": 3.439,
+      "text": "of your users are in Asia, you'd pick"
+    },
+    {
+      "start": 61.199,
+      "duration": 3.761,
+      "text": "Singapore or Tokyo. If your users are in"
+    },
+    {
+      "start": 63.039,
+      "duration": 3.201,
+      "text": "the US, you'd pick Virginia or Ohio."
+    },
+    {
+      "start": 64.96,
+      "duration": 3.12,
+      "text": "Choosing the right region affects"
+    },
+    {
+      "start": 66.24,
+      "duration": 3.28,
+      "text": "performance, cost, and even compliance."
+    },
+    {
+      "start": 68.08,
+      "duration": 3.28,
+      "text": "So, it's the very first decision you"
+    },
+    {
+      "start": 69.52,
+      "duration": 4.08,
+      "text": "make. Inside each region, AWS has"
+    },
+    {
+      "start": 71.36,
+      "duration": 3.759,
+      "text": "multiple availability zones or as these"
+    },
+    {
+      "start": 73.6,
+      "duration": 4,
+      "text": "are separate data centers inside that"
+    },
+    {
+      "start": 75.119,
+      "duration": 5.521,
+      "text": "same city. For example, AP Southeast 1"
+    },
+    {
+      "start": 77.6,
+      "duration": 6.08,
+      "text": "Singapore has AP Southeast 1A, AP"
+    },
+    {
+      "start": 80.64,
+      "duration": 4.56,
+      "text": "Southeast 1B, AP Southeast 1C. They're"
+    },
+    {
+      "start": 83.68,
+      "duration": 3.68,
+      "text": "close enough for low latency, but far"
+    },
+    {
+      "start": 85.2,
+      "duration": 3.919,
+      "text": "enough apart so that if one A loses"
+    },
+    {
+      "start": 87.36,
+      "duration": 3.759,
+      "text": "power or has a hardware issue, the other"
+    },
+    {
+      "start": 89.119,
+      "duration": 3.601,
+      "text": "one keeps running. Think of AZ like"
+    },
+    {
+      "start": 91.119,
+      "duration": 3.281,
+      "text": "multiple buildings in the same campus."
+    },
+    {
+      "start": 92.72,
+      "duration": 3.359,
+      "text": "If one building catches fire, your app"
+    },
+    {
+      "start": 94.4,
+      "duration": 3.12,
+      "text": "in the next building stays safe. Now,"
+    },
+    {
+      "start": 96.079,
+      "duration": 3.601,
+      "text": "inside a region, we create something"
+    },
+    {
+      "start": 97.52,
+      "duration": 3.44,
+      "text": "called a VPC, virtual private cloud."
+    },
+    {
+      "start": 99.68,
+      "duration": 3.28,
+      "text": "This is basically your own private"
+    },
+    {
+      "start": 100.96,
+      "duration": 3.68,
+      "text": "network inside AWS. Nobody else can"
+    },
+    {
+      "start": 102.96,
+      "duration": 3.839,
+      "text": "enter it unless you explicitly allow it."
+    },
+    {
+      "start": 104.64,
+      "duration": 3.68,
+      "text": "If a region is a city, your VPC is your"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.521,
+      "text": "own fenced neighborhood inside that"
+    },
+    {
+      "start": 108.32,
+      "duration": 3.52,
+      "text": "city. You choose the IP range. You"
+    },
+    {
+      "start": 110.32,
+      "duration": 3.68,
+      "text": "control who can enter and you decide how"
+    },
+    {
+      "start": 111.84,
+      "duration": 3.76,
+      "text": "the network is laid out. Every EC2"
+    },
+    {
+      "start": 114,
+      "duration": 3.28,
+      "text": "instance, every database, every load"
+    },
+    {
+      "start": 115.6,
+      "duration": 4,
+      "text": "balancer in our app will sit inside this"
+    },
+    {
+      "start": 117.28,
+      "duration": 3.519,
+      "text": "VPC. A VPC always lives inside one"
+    },
+    {
+      "start": 119.6,
+      "duration": 2.96,
+      "text": "region, but it can span multiple"
+    },
+    {
+      "start": 120.799,
+      "duration": 3.68,
+      "text": "availability zones within that region."
+    },
+    {
+      "start": 122.56,
+      "duration": 3.839,
+      "text": "Think of it like this. Region is a city."
+    },
+    {
+      "start": 124.479,
+      "duration": 3.92,
+      "text": "AS are separate buildings in that city"
+    },
+    {
+      "start": 126.399,
+      "duration": 3.761,
+      "text": "and VPC is your private neighborhood"
+    },
+    {
+      "start": 128.399,
+      "duration": 3.681,
+      "text": "inside that city. Your neighborhood can"
+    },
+    {
+      "start": 130.16,
+      "duration": 3.52,
+      "text": "cover multiple buildings, multiple A's,"
+    },
+    {
+      "start": 132.08,
+      "duration": 3.44,
+      "text": "but it cannot stretch into another city."
+    },
+    {
+      "start": 133.68,
+      "duration": 3.76,
+      "text": "Inside a VPC, you divide the network"
+    },
+    {
+      "start": 135.52,
+      "duration": 4.24,
+      "text": "into smaller sections called subnets."
+    },
+    {
+      "start": 137.44,
+      "duration": 4.48,
+      "text": "Subnets are simply slices of your VPC's"
+    },
+    {
+      "start": 139.76,
+      "duration": 4.08,
+      "text": "IP address space. And here's the key"
+    },
+    {
+      "start": 141.92,
+      "duration": 3.679,
+      "text": "idea. Public subnets are reachable from"
+    },
+    {
+      "start": 143.84,
+      "duration": 3.52,
+      "text": "the internet. Private subnets are not"
+    },
+    {
+      "start": 145.599,
+      "duration": 3.521,
+      "text": "reachable directly from the internet. So"
+    },
+    {
+      "start": 147.36,
+      "duration": 3.68,
+      "text": "why do we split them? Because not every"
+    },
+    {
+      "start": 149.12,
+      "duration": 3.839,
+      "text": "part of your app should be exposed. For"
+    },
+    {
+      "start": 151.04,
+      "duration": 4.4,
+      "text": "example, load balancers go in the public"
+    },
+    {
+      "start": 152.959,
+      "duration": 4,
+      "text": "subnet. EC2 servers and databases sit in"
+    },
+    {
+      "start": 155.44,
+      "duration": 3.28,
+      "text": "the private subnet. This gives you a"
+    },
+    {
+      "start": 156.959,
+      "duration": 3.28,
+      "text": "secure and organized layout instead of"
+    },
+    {
+      "start": 158.72,
+      "duration": 3.12,
+      "text": "throwing everything into one giant"
+    },
+    {
+      "start": 160.239,
+      "duration": 3.36,
+      "text": "network. Now, let's tie it back to our"
+    },
+    {
+      "start": 161.84,
+      "duration": 3.44,
+      "text": "photo sharing app. Our application load"
+    },
+    {
+      "start": 163.599,
+      "duration": 3.761,
+      "text": "balancer sits in the public subnet so"
+    },
+    {
+      "start": 165.28,
+      "duration": 3.84,
+      "text": "users can reach it. Typically, EC2"
+    },
+    {
+      "start": 167.36,
+      "duration": 4,
+      "text": "instances are deployed in private"
+    },
+    {
+      "start": 169.12,
+      "duration": 4.399,
+      "text": "subnets. However, due to limitations in"
+    },
+    {
+      "start": 171.36,
+      "duration": 4.64,
+      "text": "the free version of the lab environment,"
+    },
+    {
+      "start": 173.519,
+      "duration": 5.281,
+      "text": "we have placed the EC2 instance in a"
+    },
+    {
+      "start": 176,
+      "duration": 4.879,
+      "text": "public subnet for this setup. Our RDS"
+    },
+    {
+      "start": 178.8,
+      "duration": 3.84,
+      "text": "database resides in the private subnet"
+    },
+    {
+      "start": 180.879,
+      "duration": 3.36,
+      "text": "since it shouldn't be exposed publicly."
+    },
+    {
+      "start": 182.64,
+      "duration": 4.08,
+      "text": "The Lambda function is intentionally"
+    },
+    {
+      "start": 184.239,
+      "duration": 5.121,
+      "text": "kept outside the VPC since it only"
+    },
+    {
+      "start": 186.72,
+      "duration": 4.56,
+      "text": "interacts with AWS managed services like"
+    },
+    {
+      "start": 189.36,
+      "duration": 4.32,
+      "text": "S3 and does not require access to"
+    },
+    {
+      "start": 191.28,
+      "duration": 4.64,
+      "text": "private VPC resources and everything"
+    },
+    {
+      "start": 193.68,
+      "duration": 3.76,
+      "text": "sits inside two different AZs for high"
+    },
+    {
+      "start": 195.92,
+      "duration": 3.2,
+      "text": "availability. Once this network"
+    },
+    {
+      "start": 197.44,
+      "duration": 3.36,
+      "text": "foundation is in place, everything else"
+    },
+    {
+      "start": 199.12,
+      "duration": 3.92,
+      "text": "in the architecture becomes a lot easier"
+    },
+    {
+      "start": 200.8,
+      "duration": 4.24,
+      "text": "to understand. So that's regions, A's,"
+    },
+    {
+      "start": 203.04,
+      "duration": 4.32,
+      "text": "VPCs, and subnets, the backbone of"
+    },
+    {
+      "start": 205.04,
+      "duration": 3.919,
+      "text": "everything we build on AWS. Now that our"
+    },
+    {
+      "start": 207.36,
+      "duration": 3.84,
+      "text": "network is ready, let's spin up our"
+    },
+    {
+      "start": 208.959,
+      "duration": 4.241,
+      "text": "first server on EC2 in the next lesson."
+    },
+    {
+      "start": 211.2,
+      "duration": 3.679,
+      "text": "Before we launch servers or databases,"
+    },
+    {
+      "start": 213.2,
+      "duration": 2.959,
+      "text": "we need to talk about security. IM"
+    },
+    {
+      "start": 214.879,
+      "duration": 2.881,
+      "text": "stands for identity and access"
+    },
+    {
+      "start": 216.159,
+      "duration": 3.521,
+      "text": "management, and it controls who can do"
+    },
+    {
+      "start": 217.76,
+      "duration": 3.6,
+      "text": "what inside your AWS account. Think of"
+    },
+    {
+      "start": 219.68,
+      "duration": 3.6,
+      "text": "IM like the bouncer at the door. Every"
+    },
+    {
+      "start": 221.36,
+      "duration": 3.28,
+      "text": "person in every service must show ID"
+    },
+    {
+      "start": 223.28,
+      "duration": 3.2,
+      "text": "before they can get in. If you're"
+    },
+    {
+      "start": 224.64,
+      "duration": 3.2,
+      "text": "logging in as a human, IM gives you a"
+    },
+    {
+      "start": 226.48,
+      "duration": 3.2,
+      "text": "user account. You can group users"
+    },
+    {
+      "start": 227.84,
+      "duration": 3.6,
+      "text": "together like admins, developers, or"
+    },
+    {
+      "start": 229.68,
+      "duration": 3.68,
+      "text": "finance, and assign permissions using"
+    },
+    {
+      "start": 231.44,
+      "duration": 3.6,
+      "text": "policies. A policy is just a JSON"
+    },
+    {
+      "start": 233.36,
+      "duration": 4,
+      "text": "document that says things like, \"Allow"
+    },
+    {
+      "start": 235.04,
+      "duration": 4.8,
+      "text": "this user to access S3. Block this user"
+    },
+    {
+      "start": 237.36,
+      "duration": 4.4,
+      "text": "from deleting EC2 instances. allow"
+    },
+    {
+      "start": 239.84,
+      "duration": 3.679,
+      "text": "readonly access to Cloudatch logs."
+    },
+    {
+      "start": 241.76,
+      "duration": 3.6,
+      "text": "Policies are the rule book. Users and"
+    },
+    {
+      "start": 243.519,
+      "duration": 3.681,
+      "text": "groups follow those rules. Now, here's"
+    },
+    {
+      "start": 245.36,
+      "duration": 3.439,
+      "text": "the part that matters the most. IM"
+    },
+    {
+      "start": 247.2,
+      "duration": 3.679,
+      "text": "roles. Roles are like temporary"
+    },
+    {
+      "start": 248.799,
+      "duration": 4.401,
+      "text": "permission jackets that AWS services can"
+    },
+    {
+      "start": 250.879,
+      "duration": 4.64,
+      "text": "wear. For example, our EC2 instance"
+    },
+    {
+      "start": 253.2,
+      "duration": 3.92,
+      "text": "needs permission to upload images to S3."
+    },
+    {
+      "start": 255.519,
+      "duration": 3.521,
+      "text": "Our Lambda function needs permission to"
+    },
+    {
+      "start": 257.12,
+      "duration": 3.44,
+      "text": "read from S3 and write to the database."
+    },
+    {
+      "start": 259.04,
+      "duration": 3.039,
+      "text": "Cloudatch needs permission to collect"
+    },
+    {
+      "start": 260.56,
+      "duration": 3.04,
+      "text": "logs. None of these services use"
+    },
+    {
+      "start": 262.079,
+      "duration": 3.521,
+      "text": "usernames or passwords. They get"
+    },
+    {
+      "start": 263.6,
+      "duration": 3.44,
+      "text": "permissions by assuming an IM role. This"
+    },
+    {
+      "start": 265.6,
+      "duration": 3.599,
+      "text": "is why IM comes early in our"
+    },
+    {
+      "start": 267.04,
+      "duration": 3.92,
+      "text": "architecture. When we launch EC2 in the"
+    },
+    {
+      "start": 269.199,
+      "duration": 4,
+      "text": "next lesson, the first thing we'll do is"
+    },
+    {
+      "start": 270.96,
+      "duration": 3.92,
+      "text": "attach an AM role to it. That role will"
+    },
+    {
+      "start": 273.199,
+      "duration": 4.881,
+      "text": "decide whether our backend can actually"
+    },
+    {
+      "start": 274.88,
+      "duration": 5.28,
+      "text": "talk to S3 or RDS. Without AM, all the"
+    },
+    {
+      "start": 278.08,
+      "duration": 4.32,
+      "text": "other AWS services are basically locked"
+    },
+    {
+      "start": 280.16,
+      "duration": 4.56,
+      "text": "doors. In our photo sharing app, EC2's"
+    },
+    {
+      "start": 282.4,
+      "duration": 4.4,
+      "text": "IM role lets it upload user photos to S3"
+    },
+    {
+      "start": 284.72,
+      "duration": 4.32,
+      "text": "and log messages to Cloudatch. Lambda's"
+    },
+    {
+      "start": 286.8,
+      "duration": 4.08,
+      "text": "IM role lets it read new photos from S3,"
+    },
+    {
+      "start": 289.04,
+      "duration": 4.64,
+      "text": "generate thumbnails, and update metadata"
+    },
+    {
+      "start": 290.88,
+      "duration": 5.12,
+      "text": "in RDS. Cloudatch's AM permissions let"
+    },
+    {
+      "start": 293.68,
+      "duration": 4,
+      "text": "it monitor all services. AM is the"
+    },
+    {
+      "start": 296,
+      "duration": 3.199,
+      "text": "silent layer keeping everything secure"
+    },
+    {
+      "start": 297.68,
+      "duration": 2.72,
+      "text": "and in the right boundaries. And one"
+    },
+    {
+      "start": 299.199,
+      "duration": 3.201,
+      "text": "important rule, give the least"
+    },
+    {
+      "start": 300.4,
+      "duration": 4,
+      "text": "permissions needed. If your EC2 server"
+    },
+    {
+      "start": 302.4,
+      "duration": 3.76,
+      "text": "only needs to write to one S3 bucket,"
+    },
+    {
+      "start": 304.4,
+      "duration": 3.76,
+      "text": "don't give it full S3 access. If your"
+    },
+    {
+      "start": 306.16,
+      "duration": 4,
+      "text": "Lambda only needs read access, don't"
+    },
+    {
+      "start": 308.16,
+      "duration": 4.24,
+      "text": "give it write. Small permissions equal"
+    },
+    {
+      "start": 310.16,
+      "duration": 4,
+      "text": "safer systems. So that's AM, the"
+    },
+    {
+      "start": 312.4,
+      "duration": 3.2,
+      "text": "foundation of AWS security and the"
+    },
+    {
+      "start": 314.16,
+      "duration": 2.96,
+      "text": "reason our services can talk to each"
+    },
+    {
+      "start": 315.6,
+      "duration": 3.12,
+      "text": "other safely. Now that permissions are"
+    },
+    {
+      "start": 317.12,
+      "duration": 3.84,
+      "text": "taken care of, we can finally launch our"
+    },
+    {
+      "start": 318.72,
+      "duration": 4.64,
+      "text": "backend server. Let's move on to EC2"
+    },
+    {
+      "start": 320.96,
+      "duration": 4.32,
+      "text": "next. Now that our VPC and subnets are"
+    },
+    {
+      "start": 323.36,
+      "duration": 4.16,
+      "text": "ready, the next step is to actually run"
+    },
+    {
+      "start": 325.28,
+      "duration": 4.639,
+      "text": "our application. And that's where EC2"
+    },
+    {
+      "start": 327.52,
+      "duration": 4.08,
+      "text": "comes in. EC2 is basically a virtual"
+    },
+    {
+      "start": 329.919,
+      "duration": 3.361,
+      "text": "machine, a server you can launch in"
+    },
+    {
+      "start": 331.6,
+      "duration": 4.08,
+      "text": "minutes. You can choose the operating"
+    },
+    {
+      "start": 333.28,
+      "duration": 4.4,
+      "text": "system, the CPU power, the memory, and"
+    },
+    {
+      "start": 335.68,
+      "duration": 3.84,
+      "text": "even attach storage to it. It's like"
+    },
+    {
+      "start": 337.68,
+      "duration": 3.6,
+      "text": "renting a computer from AWS that you"
+    },
+    {
+      "start": 339.52,
+      "duration": 3.92,
+      "text": "control completely. In our photo sharing"
+    },
+    {
+      "start": 341.28,
+      "duration": 4.16,
+      "text": "app, the EC2 instance will run our"
+    },
+    {
+      "start": 343.44,
+      "duration": 3.68,
+      "text": "backend API. This is the part of the app"
+    },
+    {
+      "start": 345.44,
+      "duration": 3.68,
+      "text": "that handles things like uploading"
+    },
+    {
+      "start": 347.12,
+      "duration": 4.24,
+      "text": "photos, processing application logic,"
+    },
+    {
+      "start": 349.12,
+      "duration": 3.919,
+      "text": "and talking to the database. So whenever"
+    },
+    {
+      "start": 351.36,
+      "duration": 3.92,
+      "text": "someone uses our app, the request"
+    },
+    {
+      "start": 353.039,
+      "duration": 4,
+      "text": "eventually reaches our EC2 server which"
+    },
+    {
+      "start": 355.28,
+      "duration": 4.56,
+      "text": "does the actual work. When launching"
+    },
+    {
+      "start": 357.039,
+      "duration": 5.041,
+      "text": "EC2, you pick two important things. One,"
+    },
+    {
+      "start": 359.84,
+      "duration": 5.28,
+      "text": "the instance type. This decides how"
+    },
+    {
+      "start": 362.08,
+      "duration": 5.839,
+      "text": "powerful your server is. For example, T2"
+    },
+    {
+      "start": 365.12,
+      "duration": 5.12,
+      "text": "micro for tiny workloads. T3 medium for"
+    },
+    {
+      "start": 367.919,
+      "duration": 4.641,
+      "text": "lightweight apps. M5 large if you need"
+    },
+    {
+      "start": 370.24,
+      "duration": 4,
+      "text": "more power. Two, the AMI stands for"
+    },
+    {
+      "start": 372.56,
+      "duration": 3.6,
+      "text": "Amazon machine image. It's like the"
+    },
+    {
+      "start": 374.24,
+      "duration": 5.12,
+      "text": "template for your server. You can choose"
+    },
+    {
+      "start": 376.16,
+      "duration": 5.2,
+      "text": "Amazon Linux, Ubuntu, Windows, or even a"
+    },
+    {
+      "start": 379.36,
+      "duration": 4.399,
+      "text": "custom image you built yourself. Every"
+    },
+    {
+      "start": 381.36,
+      "duration": 4.08,
+      "text": "EC2 instance has a security group. Think"
+    },
+    {
+      "start": 383.759,
+      "duration": 3.201,
+      "text": "of it like a firewall that controls what"
+    },
+    {
+      "start": 385.44,
+      "duration": 3.759,
+      "text": "traffic can come in and go out of your"
+    },
+    {
+      "start": 386.96,
+      "duration": 4.799,
+      "text": "server. For example, we'll configure the"
+    },
+    {
+      "start": 389.199,
+      "duration": 4.56,
+      "text": "EC2 instance to accept traffic only from"
+    },
+    {
+      "start": 391.759,
+      "duration": 4.641,
+      "text": "our load balancer, not directly from the"
+    },
+    {
+      "start": 393.759,
+      "duration": 4.481,
+      "text": "internet. This is why EC2 instances are"
+    },
+    {
+      "start": 396.4,
+      "duration": 4.239,
+      "text": "usually placed in a private subnet."
+    },
+    {
+      "start": 398.24,
+      "duration": 4.079,
+      "text": "However, due to free tier limitations in"
+    },
+    {
+      "start": 400.639,
+      "duration": 3.601,
+      "text": "this lab, we've placed it in a public"
+    },
+    {
+      "start": 402.319,
+      "duration": 4.081,
+      "text": "subnet. In a production setup, it should"
+    },
+    {
+      "start": 404.24,
+      "duration": 5.04,
+      "text": "always be kept inside a private subnet."
+    },
+    {
+      "start": 406.4,
+      "duration": 4.799,
+      "text": "Every EC2 instance also needs storage."
+    },
+    {
+      "start": 409.28,
+      "duration": 3.919,
+      "text": "This is where EBS volumes come in."
+    },
+    {
+      "start": 411.199,
+      "duration": 3.44,
+      "text": "Elastic block store. It's basically a"
+    },
+    {
+      "start": 413.199,
+      "duration": 4.081,
+      "text": "hard drive for your server. Your"
+    },
+    {
+      "start": 414.639,
+      "duration": 4.56,
+      "text": "operating system, logs, or temporary"
+    },
+    {
+      "start": 417.28,
+      "duration": 4.72,
+      "text": "files live here. And if you stop or"
+    },
+    {
+      "start": 419.199,
+      "duration": 4.881,
+      "text": "start the EC2 instance, the EBS volume"
+    },
+    {
+      "start": 422,
+      "duration": 4.4,
+      "text": "stays intact. We don't want our app"
+    },
+    {
+      "start": 424.08,
+      "duration": 4.88,
+      "text": "running on just one server because if"
+    },
+    {
+      "start": 426.4,
+      "duration": 4.72,
+      "text": "that one server goes down, the whole app"
+    },
+    {
+      "start": 428.96,
+      "duration": 4.32,
+      "text": "goes down. So usually we run multiple"
+    },
+    {
+      "start": 431.12,
+      "duration": 4.56,
+      "text": "EC2 instances across different"
+    },
+    {
+      "start": 433.28,
+      "duration": 4.24,
+      "text": "availability zones and the load balancer"
+    },
+    {
+      "start": 435.68,
+      "duration": 3.919,
+      "text": "distributes traffic between them. This"
+    },
+    {
+      "start": 437.52,
+      "duration": 4.64,
+      "text": "gives us fault tolerance and smoother"
+    },
+    {
+      "start": 439.599,
+      "duration": 4.481,
+      "text": "performance. So that's EC2, the engine"
+    },
+    {
+      "start": 442.16,
+      "duration": 3.759,
+      "text": "that runs our backend. It has storage"
+    },
+    {
+      "start": 444.08,
+      "duration": 3.839,
+      "text": "attached to it, connected it to our load"
+    },
+    {
+      "start": 445.919,
+      "duration": 3.921,
+      "text": "balancer, our database, and it uses"
+    },
+    {
+      "start": 447.919,
+      "duration": 3.521,
+      "text": "Amazon S3 to store and retrieve"
+    },
+    {
+      "start": 449.84,
+      "duration": 3.759,
+      "text": "application data such as files and"
+    },
+    {
+      "start": 451.44,
+      "duration": 4.159,
+      "text": "static assets. Now that our application"
+    },
+    {
+      "start": 453.599,
+      "duration": 4.481,
+      "text": "server is running, let's look at how it"
+    },
+    {
+      "start": 455.599,
+      "duration": 4.241,
+      "text": "talks to the database using Amazon RDS."
+    },
+    {
+      "start": 458.08,
+      "duration": 4.08,
+      "text": "RDS stands for relational database"
+    },
+    {
+      "start": 459.84,
+      "duration": 3.84,
+      "text": "service. It's AWS's managed database"
+    },
+    {
+      "start": 462.16,
+      "duration": 5.439,
+      "text": "platform that supports engines like"
+    },
+    {
+      "start": 463.68,
+      "duration": 6.56,
+      "text": "MySQL, Postgra SQL, Mariab, Oracle, and"
+    },
+    {
+      "start": 467.599,
+      "duration": 4.16,
+      "text": "even SQL Server. Basically, it's a fully"
+    },
+    {
+      "start": 470.24,
+      "duration": 3.28,
+      "text": "managed version of the databases"
+    },
+    {
+      "start": 471.759,
+      "duration": 3.361,
+      "text": "developers already know. In our photo"
+    },
+    {
+      "start": 473.52,
+      "duration": 3.2,
+      "text": "sharing app, we need a place to store"
+    },
+    {
+      "start": 475.12,
+      "duration": 3.28,
+      "text": "things like photo metadata and"
+    },
+    {
+      "start": 476.72,
+      "duration": 3.68,
+      "text": "timestamps. This is structured"
+    },
+    {
+      "start": 478.4,
+      "duration": 4.32,
+      "text": "information. So, a relational database"
+    },
+    {
+      "start": 480.4,
+      "duration": 5.199,
+      "text": "is perfect. Instead of installing MySQL"
+    },
+    {
+      "start": 482.72,
+      "duration": 5.52,
+      "text": "manually on an EC2 server, RDS gives us"
+    },
+    {
+      "start": 485.599,
+      "duration": 4.641,
+      "text": "a productionready database with backups,"
+    },
+    {
+      "start": 488.24,
+      "duration": 4.399,
+      "text": "scaling, and patching handled for us."
+    },
+    {
+      "start": 490.24,
+      "duration": 4.399,
+      "text": "RDS is always deployed inside our VPC,"
+    },
+    {
+      "start": 492.639,
+      "duration": 3.521,
+      "text": "and we keep it inside a private subnet."
+    },
+    {
+      "start": 494.639,
+      "duration": 3.921,
+      "text": "That means the database is not exposed"
+    },
+    {
+      "start": 496.16,
+      "duration": 3.759,
+      "text": "to the internet. Only our EC2 server can"
+    },
+    {
+      "start": 498.56,
+      "duration": 3.199,
+      "text": "talk to it, and that's controlled"
+    },
+    {
+      "start": 499.919,
+      "duration": 3.921,
+      "text": "through security groups. So, if a hacker"
+    },
+    {
+      "start": 501.759,
+      "duration": 4.321,
+      "text": "scans our public IP space, they can't"
+    },
+    {
+      "start": 503.84,
+      "duration": 4.479,
+      "text": "even see that our database exists. It's"
+    },
+    {
+      "start": 506.08,
+      "duration": 4.08,
+      "text": "protected by design. RDS uses security"
+    },
+    {
+      "start": 508.319,
+      "duration": 3.921,
+      "text": "groups to control which services are"
+    },
+    {
+      "start": 510.16,
+      "duration": 4.319,
+      "text": "allowed to connect. In our case, only"
+    },
+    {
+      "start": 512.24,
+      "duration": 4.159,
+      "text": "the EC2 instance in the public subnet"
+    },
+    {
+      "start": 514.479,
+      "duration": 4,
+      "text": "will be allowed. AM doesn't control"
+    },
+    {
+      "start": 516.399,
+      "duration": 4.56,
+      "text": "database queries, but AM does control"
+    },
+    {
+      "start": 518.479,
+      "duration": 4.881,
+      "text": "which AWS services can manage RDS"
+    },
+    {
+      "start": 520.959,
+      "duration": 4.161,
+      "text": "itself. Things like backups, logs, or"
+    },
+    {
+      "start": 523.36,
+      "duration": 4.159,
+      "text": "monitoring. One of the coolest features"
+    },
+    {
+      "start": 525.12,
+      "duration": 4.64,
+      "text": "of RDS is something called multiazed."
+    },
+    {
+      "start": 527.519,
+      "duration": 4.161,
+      "text": "With a single click, AWS creates a"
+    },
+    {
+      "start": 529.76,
+      "duration": 4.24,
+      "text": "standby copy of your database in another"
+    },
+    {
+      "start": 531.68,
+      "duration": 4.48,
+      "text": "availability zone. If the primary A goes"
+    },
+    {
+      "start": 534,
+      "duration": 4.08,
+      "text": "down, RDS will automatically fail over"
+    },
+    {
+      "start": 536.16,
+      "duration": 3.44,
+      "text": "to the standby. Your app stays up and"
+    },
+    {
+      "start": 538.08,
+      "duration": 3.12,
+      "text": "your users don't notice anything. This"
+    },
+    {
+      "start": 539.6,
+      "duration": 3.76,
+      "text": "is a lifesaver in real production"
+    },
+    {
+      "start": 541.2,
+      "duration": 4.56,
+      "text": "systems. RDS also gives you automated"
+    },
+    {
+      "start": 543.36,
+      "duration": 4.159,
+      "text": "backups every day. AWS takes a backup of"
+    },
+    {
+      "start": 545.76,
+      "duration": 3.68,
+      "text": "your database for you. You can also take"
+    },
+    {
+      "start": 547.519,
+      "duration": 3.681,
+      "text": "manual snapshots before big upgrades or"
+    },
+    {
+      "start": 549.44,
+      "duration": 3.76,
+      "text": "changes. So, if you ever mess something"
+    },
+    {
+      "start": 551.2,
+      "duration": 3.52,
+      "text": "up, and trust me, everyone does, you can"
+    },
+    {
+      "start": 553.2,
+      "duration": 4.24,
+      "text": "restore the database to any point in"
+    },
+    {
+      "start": 554.72,
+      "duration": 4.88,
+      "text": "time. EC2 handles the API logic, but all"
+    },
+    {
+      "start": 557.44,
+      "duration": 4.64,
+      "text": "the important data lands in RDS. When a"
+    },
+    {
+      "start": 559.6,
+      "duration": 4.239,
+      "text": "user signs up, logs in, uploads a photo,"
+    },
+    {
+      "start": 562.08,
+      "duration": 3.759,
+      "text": "or views their gallery. The backend"
+    },
+    {
+      "start": 563.839,
+      "duration": 3.841,
+      "text": "fetches, and stores all that data in"
+    },
+    {
+      "start": 565.839,
+      "duration": 4.721,
+      "text": "RDS, it's the core memory of the"
+    },
+    {
+      "start": 567.68,
+      "duration": 5.2,
+      "text": "application. So that's RDS, a powerful,"
+    },
+    {
+      "start": 570.56,
+      "duration": 3.92,
+      "text": "reliable, fully managed database service"
+    },
+    {
+      "start": 572.88,
+      "duration": 3.28,
+      "text": "that keeps our app data safe and"
+    },
+    {
+      "start": 574.48,
+      "duration": 3.28,
+      "text": "available. Now that we've stored our"
+    },
+    {
+      "start": 576.16,
+      "duration": 3.04,
+      "text": "structured data, let's move on to"
+    },
+    {
+      "start": 577.76,
+      "duration": 3.36,
+      "text": "storing our files and images using"
+    },
+    {
+      "start": 579.2,
+      "duration": 3.92,
+      "text": "Amazon S3. Now that we've talked about"
+    },
+    {
+      "start": 581.12,
+      "duration": 3.36,
+      "text": "how our app stores structured data in"
+    },
+    {
+      "start": 583.12,
+      "duration": 3.279,
+      "text": "the database, we need to think about"
+    },
+    {
+      "start": 584.48,
+      "duration": 4.479,
+      "text": "something else. Our app has to deal with"
+    },
+    {
+      "start": 586.399,
+      "duration": 4.88,
+      "text": "files. Every modern application has to"
+    },
+    {
+      "start": 588.959,
+      "duration": 4.961,
+      "text": "store something. Images, videos,"
+    },
+    {
+      "start": 591.279,
+      "duration": 4.641,
+      "text": "documents, backups, logs, and relying on"
+    },
+    {
+      "start": 593.92,
+      "duration": 4.88,
+      "text": "a server's local storage isn't reliable"
+    },
+    {
+      "start": 595.92,
+      "duration": 4.8,
+      "text": "or scalable. So AWS gives us a dedicated"
+    },
+    {
+      "start": 598.8,
+      "duration": 4.719,
+      "text": "service built specifically for storing"
+    },
+    {
+      "start": 600.72,
+      "duration": 5.36,
+      "text": "files of any size safely and cheaply."
+    },
+    {
+      "start": 603.519,
+      "duration": 4.401,
+      "text": "And that service is Amazon S3. The name"
+    },
+    {
+      "start": 606.08,
+      "duration": 3.84,
+      "text": "comes from the three S's in simple"
+    },
+    {
+      "start": 607.92,
+      "duration": 3.919,
+      "text": "storage service because Amazon built it"
+    },
+    {
+      "start": 609.92,
+      "duration": 4.88,
+      "text": "to make storing and accessing data in"
+    },
+    {
+      "start": 611.839,
+      "duration": 5.041,
+      "text": "the cloud truly simple. S3 is Amazon's"
+    },
+    {
+      "start": 614.8,
+      "duration": 4.08,
+      "text": "cloud storage service. A place to keep"
+    },
+    {
+      "start": 616.88,
+      "duration": 4.079,
+      "text": "your files securely in the cloud without"
+    },
+    {
+      "start": 618.88,
+      "duration": 4.48,
+      "text": "managing servers or discs. Whether it's"
+    },
+    {
+      "start": 620.959,
+      "duration": 4.481,
+      "text": "one photo or millions of objects, S3"
+    },
+    {
+      "start": 623.36,
+      "duration": 3.599,
+      "text": "automatically scales with you. In S3,"
+    },
+    {
+      "start": 625.44,
+      "duration": 3.12,
+      "text": "you store your data inside buckets."
+    },
+    {
+      "start": 626.959,
+      "duration": 3.44,
+      "text": "Think of them as folders in the cloud."
+    },
+    {
+      "start": 628.56,
+      "duration": 4.64,
+      "text": "Each file is an object with data,"
+    },
+    {
+      "start": 630.399,
+      "duration": 4.481,
+      "text": "metadata, and a unique key. S3 even"
+    },
+    {
+      "start": 633.2,
+      "duration": 3.36,
+      "text": "offers different storage classes."
+    },
+    {
+      "start": 634.88,
+      "duration": 3.92,
+      "text": "Standard for frequent access,"
+    },
+    {
+      "start": 636.56,
+      "duration": 4.48,
+      "text": "intelligent taring for cost savings, and"
+    },
+    {
+      "start": 638.8,
+      "duration": 4.159,
+      "text": "Glacier for archives. S3 powers"
+    },
+    {
+      "start": 641.04,
+      "duration": 3.84,
+      "text": "countless cloud projects from hosting"
+    },
+    {
+      "start": 642.959,
+      "duration": 3.601,
+      "text": "static websites and storing backups to"
+    },
+    {
+      "start": 644.88,
+      "duration": 3.44,
+      "text": "building data links and mobile app"
+    },
+    {
+      "start": 646.56,
+      "duration": 4.48,
+      "text": "storage. It's the foundation for many"
+    },
+    {
+      "start": 648.32,
+      "duration": 5.6,
+      "text": "AWS workloads. S3 works seamlessly with"
+    },
+    {
+      "start": 651.04,
+      "duration": 5.44,
+      "text": "other AWS services. EC2 saves data to it"
+    },
+    {
+      "start": 653.92,
+      "duration": 4.96,
+      "text": "and Lambda processes uploads. Remember,"
+    },
+    {
+      "start": 656.48,
+      "duration": 4.24,
+      "text": "S3 is object storage, which means each"
+    },
+    {
+      "start": 658.88,
+      "duration": 4.72,
+      "text": "file is stored as a self-contained"
+    },
+    {
+      "start": 660.72,
+      "duration": 4.799,
+      "text": "object with its data, metadata, and ID"
+    },
+    {
+      "start": 663.6,
+      "duration": 3.919,
+      "text": "like labeling and storing boxes in a"
+    },
+    {
+      "start": 665.519,
+      "duration": 4.641,
+      "text": "giant cloud warehouse. That's different"
+    },
+    {
+      "start": 667.519,
+      "duration": 4.641,
+      "text": "from EBS and EFS which store data like"
+    },
+    {
+      "start": 670.16,
+      "duration": 4.08,
+      "text": "disks or folders. And in our photo"
+    },
+    {
+      "start": 672.16,
+      "duration": 4,
+      "text": "sharing app, S3 is where we store all"
+    },
+    {
+      "start": 674.24,
+      "duration": 3.839,
+      "text": "the uploaded photos. It's the core"
+    },
+    {
+      "start": 676.16,
+      "duration": 3.84,
+      "text": "storage layer of our whole system. One"
+    },
+    {
+      "start": 678.079,
+      "duration": 3.681,
+      "text": "important thing to remember is that S3"
+    },
+    {
+      "start": 680,
+      "duration": 3.68,
+      "text": "buckets are usually kept private by"
+    },
+    {
+      "start": 681.76,
+      "duration": 4.079,
+      "text": "default. That means users can't directly"
+    },
+    {
+      "start": 683.68,
+      "duration": 4.08,
+      "text": "access files inside them. So when a user"
+    },
+    {
+      "start": 685.839,
+      "duration": 4.081,
+      "text": "wants to view a photo, our application"
+    },
+    {
+      "start": 687.76,
+      "duration": 4.88,
+      "text": "doesn't make the bucket public. Instead,"
+    },
+    {
+      "start": 689.92,
+      "duration": 5.359,
+      "text": "the backend generates a pre-signed URL,"
+    },
+    {
+      "start": 692.64,
+      "duration": 4.72,
+      "text": "a temporary secure link to a specific"
+    },
+    {
+      "start": 695.279,
+      "duration": 4.401,
+      "text": "object. This link allows the user to"
+    },
+    {
+      "start": 697.36,
+      "duration": 4.64,
+      "text": "download the image directly from S3 and"
+    },
+    {
+      "start": 699.68,
+      "duration": 4.32,
+      "text": "once it expires, access is automatically"
+    },
+    {
+      "start": 702,
+      "duration": 4.16,
+      "text": "revoked. It is now time to practice what"
+    },
+    {
+      "start": 704,
+      "duration": 3.76,
+      "text": "you learned with our hands-on labs. Use"
+    },
+    {
+      "start": 706.16,
+      "duration": 3.359,
+      "text": "the link in the description below to"
+    },
+    {
+      "start": 707.76,
+      "duration": 3.84,
+      "text": "sign up to CodeCloud to create a free"
+    },
+    {
+      "start": 709.519,
+      "duration": 3.921,
+      "text": "account. Once signed up, enroll in the"
+    },
+    {
+      "start": 711.6,
+      "duration": 3.52,
+      "text": "lab course to start practicing. Every"
+    },
+    {
+      "start": 713.44,
+      "duration": 3.28,
+      "text": "section in this video has associated"
+    },
+    {
+      "start": 715.12,
+      "duration": 4.56,
+      "text": "labs with it. At this point, you should"
+    },
+    {
+      "start": 716.72,
+      "duration": 5.04,
+      "text": "be completing the labs on VPC, AM, EC2,"
+    },
+    {
+      "start": 719.68,
+      "duration": 4.24,
+      "text": "and S3. So far, we've talked about"
+    },
+    {
+      "start": 721.76,
+      "duration": 4.56,
+      "text": "servers that are always running like EC2"
+    },
+    {
+      "start": 723.92,
+      "duration": 4.8,
+      "text": "and storage services like S3 and"
+    },
+    {
+      "start": 726.32,
+      "duration": 4.4,
+      "text": "databases like RDS. But not every task"
+    },
+    {
+      "start": 728.72,
+      "duration": 4.32,
+      "text": "in an application needs a full server"
+    },
+    {
+      "start": 730.72,
+      "duration": 3.76,
+      "text": "running 24/7. Sometimes you just want to"
+    },
+    {
+      "start": 733.04,
+      "duration": 2.96,
+      "text": "run a small piece of code only when"
+    },
+    {
+      "start": 734.48,
+      "duration": 4.08,
+      "text": "something happens, like when a file is"
+    },
+    {
+      "start": 736,
+      "duration": 4.399,
+      "text": "uploaded, an API is called, or a message"
+    },
+    {
+      "start": 738.56,
+      "duration": 3.44,
+      "text": "arrives. Running a full server for that"
+    },
+    {
+      "start": 740.399,
+      "duration": 4,
+      "text": "would be wasteful and hard to manage."
+    },
+    {
+      "start": 742,
+      "duration": 4.32,
+      "text": "That's where AWS Lambda comes in. AWS"
+    },
+    {
+      "start": 744.399,
+      "duration": 3.201,
+      "text": "Lambda is a serverless compute service."
+    },
+    {
+      "start": 746.32,
+      "duration": 3.36,
+      "text": "Instead of launching and managing"
+    },
+    {
+      "start": 747.6,
+      "duration": 4.64,
+      "text": "servers, you just write a function, a"
+    },
+    {
+      "start": 749.68,
+      "duration": 4.56,
+      "text": "small piece of code, and AWS runs it for"
+    },
+    {
+      "start": 752.24,
+      "duration": 4.48,
+      "text": "you. You don't worry about servers,"
+    },
+    {
+      "start": 754.24,
+      "duration": 4.399,
+      "text": "operating systems, patching, scaling."
+    },
+    {
+      "start": 756.72,
+      "duration": 4.32,
+      "text": "You simply upload your code, define when"
+    },
+    {
+      "start": 758.639,
+      "duration": 4.161,
+      "text": "it should run, and AWS handles the rest."
+    },
+    {
+      "start": 761.04,
+      "duration": 4.239,
+      "text": "Lambda functions can be written in"
+    },
+    {
+      "start": 762.8,
+      "duration": 4.56,
+      "text": "multiple languages like Python, Node.js,"
+    },
+    {
+      "start": 765.279,
+      "duration": 3.601,
+      "text": "Java, and Go. They run only when"
+    },
+    {
+      "start": 767.36,
+      "duration": 3.279,
+      "text": "triggered, and shut down automatically"
+    },
+    {
+      "start": 768.88,
+      "duration": 3.28,
+      "text": "once they finish. This means you only"
+    },
+    {
+      "start": 770.639,
+      "duration": 3.601,
+      "text": "pay for the exact time your code is"
+    },
+    {
+      "start": 772.16,
+      "duration": 3.6,
+      "text": "running down to milliseconds. One of the"
+    },
+    {
+      "start": 774.24,
+      "duration": 3.2,
+      "text": "most powerful parts of Lambda is how"
+    },
+    {
+      "start": 775.76,
+      "duration": 4.56,
+      "text": "it's triggered. A Lambda function can"
+    },
+    {
+      "start": 777.44,
+      "duration": 5.44,
+      "text": "run when a file is uploaded to S3, an"
+    },
+    {
+      "start": 780.32,
+      "duration": 4.8,
+      "text": "API is called, a database changes, a"
+    },
+    {
+      "start": 782.88,
+      "duration": 4.399,
+      "text": "message arrives in a queue, or on a"
+    },
+    {
+      "start": 785.12,
+      "duration": 4,
+      "text": "schedule. This makes Lambda perfect for"
+    },
+    {
+      "start": 787.279,
+      "duration": 3.601,
+      "text": "eventdriven workloads and background"
+    },
+    {
+      "start": 789.12,
+      "duration": 3.839,
+      "text": "processing. Lambda also scales"
+    },
+    {
+      "start": 790.88,
+      "duration": 5.36,
+      "text": "automatically. If one event comes in,"
+    },
+    {
+      "start": 792.959,
+      "duration": 5.44,
+      "text": "AWS runs one function. If 10,000 events"
+    },
+    {
+      "start": 796.24,
+      "duration": 4.08,
+      "text": "come in at the same time, AWS runs"
+    },
+    {
+      "start": 798.399,
+      "duration": 4.321,
+      "text": "thousands of Lambda executions in"
+    },
+    {
+      "start": 800.32,
+      "duration": 4.639,
+      "text": "parallel without you doing anything."
+    },
+    {
+      "start": 802.72,
+      "duration": 4.559,
+      "text": "Lambda functions don't have usernames or"
+    },
+    {
+      "start": 804.959,
+      "duration": 4.241,
+      "text": "passwords. They use AM roles to get"
+    },
+    {
+      "start": 807.279,
+      "duration": 4.56,
+      "text": "permissions, for example, to read from"
+    },
+    {
+      "start": 809.2,
+      "duration": 4.639,
+      "text": "S3, write to a database, or publish logs"
+    },
+    {
+      "start": 811.839,
+      "duration": 3.841,
+      "text": "to Cloudatch. This keeps things secure"
+    },
+    {
+      "start": 813.839,
+      "duration": 3.68,
+      "text": "and tightly controlled. And in our photo"
+    },
+    {
+      "start": 815.68,
+      "duration": 3.68,
+      "text": "sharing app, Lambda is used as a"
+    },
+    {
+      "start": 817.519,
+      "duration": 4.161,
+      "text": "background worker. Every time a user"
+    },
+    {
+      "start": 819.36,
+      "duration": 4.24,
+      "text": "uploads a photo to S3, a Lambda function"
+    },
+    {
+      "start": 821.68,
+      "duration": 4.24,
+      "text": "is triggered automatically to extract"
+    },
+    {
+      "start": 823.6,
+      "duration": 5.039,
+      "text": "metadata from uploaded images without"
+    },
+    {
+      "start": 825.92,
+      "duration": 4.88,
+      "text": "adding any load to our EC2 servers. It"
+    },
+    {
+      "start": 828.639,
+      "duration": 4,
+      "text": "lets us run background tasks reliably at"
+    },
+    {
+      "start": 830.8,
+      "duration": 3.839,
+      "text": "scale without managing any extra"
+    },
+    {
+      "start": 832.639,
+      "duration": 4.161,
+      "text": "infrastructure. Head over to the labs on"
+    },
+    {
+      "start": 834.639,
+      "duration": 4.481,
+      "text": "Lambda functions and learn by doing it."
+    },
+    {
+      "start": 836.8,
+      "duration": 4.56,
+      "text": "Okay, so now we have our backend running"
+    },
+    {
+      "start": 839.12,
+      "duration": 3.92,
+      "text": "on servers like EC2 and we might even"
+    },
+    {
+      "start": 841.36,
+      "duration": 3.68,
+      "text": "have multiple instances for high"
+    },
+    {
+      "start": 843.04,
+      "duration": 3.84,
+      "text": "availability. But here's the issue. How"
+    },
+    {
+      "start": 845.04,
+      "duration": 3.44,
+      "text": "do users hit our app without knowing"
+    },
+    {
+      "start": 846.88,
+      "duration": 3.519,
+      "text": "which server to call? And what happens"
+    },
+    {
+      "start": 848.48,
+      "duration": 3.599,
+      "text": "when one server goes down or traffic"
+    },
+    {
+      "start": 850.399,
+      "duration": 3.521,
+      "text": "spikes? You don't want users randomly"
+    },
+    {
+      "start": 852.079,
+      "duration": 3.601,
+      "text": "hitting a dead instance. You need one"
+    },
+    {
+      "start": 853.92,
+      "duration": 3.52,
+      "text": "stable entry point that can distribute"
+    },
+    {
+      "start": 855.68,
+      "duration": 3.36,
+      "text": "traffic across healthy servers. And"
+    },
+    {
+      "start": 857.44,
+      "duration": 3.92,
+      "text": "that's exactly what a load balancer"
+    },
+    {
+      "start": 859.04,
+      "duration": 4.64,
+      "text": "does. An application load balancer or"
+    },
+    {
+      "start": 861.36,
+      "duration": 3.919,
+      "text": "ALB is a managed service that sits in"
+    },
+    {
+      "start": 863.68,
+      "duration": 4.959,
+      "text": "front of your application and routes"
+    },
+    {
+      "start": 865.279,
+      "duration": 5.601,
+      "text": "incoming HTTP HTTPS traffic to your"
+    },
+    {
+      "start": 868.639,
+      "duration": 4.481,
+      "text": "targets, usually EC2 instances,"
+    },
+    {
+      "start": 870.88,
+      "duration": 4.319,
+      "text": "containers, or IP addresses. The most"
+    },
+    {
+      "start": 873.12,
+      "duration": 4.32,
+      "text": "important thing an ALB gives you is one"
+    },
+    {
+      "start": 875.199,
+      "duration": 4.481,
+      "text": "consistent end point for your app. Users"
+    },
+    {
+      "start": 877.44,
+      "duration": 4.48,
+      "text": "hit the ALB, and the ALB decides where"
+    },
+    {
+      "start": 879.68,
+      "duration": 3.92,
+      "text": "the request should go. ALB also does"
+    },
+    {
+      "start": 881.92,
+      "duration": 4.08,
+      "text": "health checks. So if one server is"
+    },
+    {
+      "start": 883.6,
+      "duration": 4.16,
+      "text": "unhealthy, the ALB automatically stops"
+    },
+    {
+      "start": 886,
+      "duration": 3.36,
+      "text": "sending traffic to it. That's a huge"
+    },
+    {
+      "start": 887.76,
+      "duration": 3.68,
+      "text": "deal because it means your app stays"
+    },
+    {
+      "start": 889.36,
+      "duration": 4.159,
+      "text": "available even when individual servers"
+    },
+    {
+      "start": 891.44,
+      "duration": 4.72,
+      "text": "fail. Now technically the ALB itself"
+    },
+    {
+      "start": 893.519,
+      "duration": 5.841,
+      "text": "comes with a default endpoint URL, but"
+    },
+    {
+      "start": 896.16,
+      "duration": 4.799,
+      "text": "this is a long AWS generated URL, not"
+    },
+    {
+      "start": 899.36,
+      "duration": 3.44,
+      "text": "something you'd want users to type or"
+    },
+    {
+      "start": 900.959,
+      "duration": 3.281,
+      "text": "remember in a real production system. In"
+    },
+    {
+      "start": 902.8,
+      "duration": 3.36,
+      "text": "real production applications, users"
+    },
+    {
+      "start": 904.24,
+      "duration": 4.159,
+      "text": "don't access the ALB directly. Instead,"
+    },
+    {
+      "start": 906.16,
+      "duration": 5.28,
+      "text": "we map a clean human friendly domain"
+    },
+    {
+      "start": 908.399,
+      "duration": 5.601,
+      "text": "named like photoshare.com to the ALB"
+    },
+    {
+      "start": 911.44,
+      "duration": 5.839,
+      "text": "using a DNS service such as AWS Route"
+    },
+    {
+      "start": 914,
+      "duration": 5.36,
+      "text": "53. So, users hit photoshare.com. DNS"
+    },
+    {
+      "start": 917.279,
+      "duration": 4.321,
+      "text": "resolves it to the ALB and from there"
+    },
+    {
+      "start": 919.36,
+      "duration": 4,
+      "text": "the ALB routtes traffic to the right"
+    },
+    {
+      "start": 921.6,
+      "duration": 4.08,
+      "text": "back end. We'll dive deeper into Route"
+    },
+    {
+      "start": 923.36,
+      "duration": 4.56,
+      "text": "53 in an upcoming project. Another key"
+    },
+    {
+      "start": 925.68,
+      "duration": 4.719,
+      "text": "feature is routing rules. ALB can route"
+    },
+    {
+      "start": 927.92,
+      "duration": 4.64,
+      "text": "based on things like host name, path,"
+    },
+    {
+      "start": 930.399,
+      "duration": 4.321,
+      "text": "even headers in some setups. So instead"
+    },
+    {
+      "start": 932.56,
+      "duration": 4.48,
+      "text": "of having one big monolith, you can"
+    },
+    {
+      "start": 934.72,
+      "duration": 4.32,
+      "text": "split traffic cleanly. And because it's"
+    },
+    {
+      "start": 937.04,
+      "duration": 4.64,
+      "text": "managed, you don't run or patch the load"
+    },
+    {
+      "start": 939.04,
+      "duration": 4.159,
+      "text": "balancer yourself. AWS scales it, keeps"
+    },
+    {
+      "start": 941.68,
+      "duration": 4.56,
+      "text": "it available, and you typically use it"
+    },
+    {
+      "start": 943.199,
+      "duration": 5.121,
+      "text": "with HTTPS termination, meaning the ALB"
+    },
+    {
+      "start": 946.24,
+      "duration": 4,
+      "text": "can handle TLS certificates and forward"
+    },
+    {
+      "start": 948.32,
+      "duration": 3.84,
+      "text": "decrypted traffic to your backend. And"
+    },
+    {
+      "start": 950.24,
+      "duration": 4.399,
+      "text": "in our architecture, the application"
+    },
+    {
+      "start": 952.16,
+      "duration": 4.56,
+      "text": "load balancer sits in the public subnet"
+    },
+    {
+      "start": 954.639,
+      "duration": 4.161,
+      "text": "as the main entry point for incoming"
+    },
+    {
+      "start": 956.72,
+      "duration": 4.559,
+      "text": "requests. Most of the traffic is routed"
+    },
+    {
+      "start": 958.8,
+      "duration": 4.8,
+      "text": "to EC2 instances running our backend"
+    },
+    {
+      "start": 961.279,
+      "duration": 4.081,
+      "text": "inside our public subnet which in a"
+    },
+    {
+      "start": 963.6,
+      "duration": 3.84,
+      "text": "production setup should be inside a"
+    },
+    {
+      "start": 965.36,
+      "duration": 3.839,
+      "text": "private subnet. But the ALB doesn't"
+    },
+    {
+      "start": 967.44,
+      "duration": 3.44,
+      "text": "actually care whether the backend is a"
+    },
+    {
+      "start": 969.199,
+      "duration": 3.681,
+      "text": "server or a function. For certain"
+    },
+    {
+      "start": 970.88,
+      "duration": 3.68,
+      "text": "routes, it can also invoke lambda"
+    },
+    {
+      "start": 972.88,
+      "duration": 4.72,
+      "text": "functions directly. This gives us the"
+    },
+    {
+      "start": 974.56,
+      "duration": 5.04,
+      "text": "flexibility to use EC2 for longunning"
+    },
+    {
+      "start": 977.6,
+      "duration": 4.88,
+      "text": "application logic and Lambda for"
+    },
+    {
+      "start": 979.6,
+      "duration": 4.88,
+      "text": "lightweight or eventdriven endpoints all"
+    },
+    {
+      "start": 982.48,
+      "duration": 3.599,
+      "text": "behind the same load balancer. Head over"
+    },
+    {
+      "start": 984.48,
+      "duration": 4.159,
+      "text": "to the labs and practice working on"
+    },
+    {
+      "start": 986.079,
+      "duration": 4.481,
+      "text": "ALBs. link is in the description. So now"
+    },
+    {
+      "start": 988.639,
+      "duration": 3.76,
+      "text": "we have our application running. Users"
+    },
+    {
+      "start": 990.56,
+      "duration": 3.6,
+      "text": "can access it and background processing"
+    },
+    {
+      "start": 992.399,
+      "duration": 3.761,
+      "text": "is working as expected. But here's the"
+    },
+    {
+      "start": 994.16,
+      "duration": 4.08,
+      "text": "issue. What about the data itself? In"
+    },
+    {
+      "start": 996.16,
+      "duration": 4.64,
+      "text": "any real application, we store a lot of"
+    },
+    {
+      "start": 998.24,
+      "duration": 4.56,
+      "text": "data, files, database records, logs,"
+    },
+    {
+      "start": 1000.8,
+      "duration": 3.839,
+      "text": "configuration values. Some of this data"
+    },
+    {
+      "start": 1002.8,
+      "duration": 3.44,
+      "text": "can be private or sensitive. And if"
+    },
+    {
+      "start": 1004.639,
+      "duration": 3.281,
+      "text": "someone somehow gains access to the"
+    },
+    {
+      "start": 1006.24,
+      "duration": 3.76,
+      "text": "underlying storage, we don't want that"
+    },
+    {
+      "start": 1007.92,
+      "duration": 4,
+      "text": "data to be readable in plain text."
+    },
+    {
+      "start": 1010,
+      "duration": 4.32,
+      "text": "That's where encryption comes in. AWS"
+    },
+    {
+      "start": 1011.92,
+      "duration": 4.24,
+      "text": "key management service or KMS is a"
+    },
+    {
+      "start": 1014.32,
+      "duration": 4.16,
+      "text": "managed service used to create and"
+    },
+    {
+      "start": 1016.16,
+      "duration": 4.32,
+      "text": "manage encryption keys. These encryption"
+    },
+    {
+      "start": 1018.48,
+      "duration": 3.84,
+      "text": "keys are used to encrypt data when it's"
+    },
+    {
+      "start": 1020.48,
+      "duration": 3.92,
+      "text": "stored and decrypt it when it needs to"
+    },
+    {
+      "start": 1022.32,
+      "duration": 4.16,
+      "text": "be read. With KMS, you don't create or"
+    },
+    {
+      "start": 1024.4,
+      "duration": 4.24,
+      "text": "store encryption keys yourself. AWS"
+    },
+    {
+      "start": 1026.48,
+      "duration": 3.839,
+      "text": "creates the keys, stores them securely,"
+    },
+    {
+      "start": 1028.64,
+      "duration": 3.039,
+      "text": "and protects them for you. Your"
+    },
+    {
+      "start": 1030.319,
+      "duration": 3.6,
+      "text": "application never handles the keys"
+    },
+    {
+      "start": 1031.679,
+      "duration": 3.601,
+      "text": "directly. Instead, it asks KMS to"
+    },
+    {
+      "start": 1033.919,
+      "duration": 3.28,
+      "text": "perform encryption or decryption"
+    },
+    {
+      "start": 1035.28,
+      "duration": 3.679,
+      "text": "whenever needed. Access to these keys is"
+    },
+    {
+      "start": 1037.199,
+      "duration": 3.441,
+      "text": "tightly controlled. Even if someone has"
+    },
+    {
+      "start": 1038.959,
+      "duration": 3.201,
+      "text": "access to encrypted data, they still"
+    },
+    {
+      "start": 1040.64,
+      "duration": 3.12,
+      "text": "can't read it unless they're explicitly"
+    },
+    {
+      "start": 1042.16,
+      "duration": 3.039,
+      "text": "allowed to use the encryption key. This"
+    },
+    {
+      "start": 1043.76,
+      "duration": 3.6,
+      "text": "gives you precise control over who can"
+    },
+    {
+      "start": 1045.199,
+      "duration": 4.081,
+      "text": "encrypt and decrypt data. KMS also"
+    },
+    {
+      "start": 1047.36,
+      "duration": 3.52,
+      "text": "records every time a key is used. This"
+    },
+    {
+      "start": 1049.28,
+      "duration": 4,
+      "text": "means you can see when encryptionying"
+    },
+    {
+      "start": 1050.88,
+      "duration": 3.919,
+      "text": "keys are accessed and by whom, which is"
+    },
+    {
+      "start": 1053.28,
+      "duration": 3.2,
+      "text": "important for security monitoring and"
+    },
+    {
+      "start": 1054.799,
+      "duration": 4.561,
+      "text": "compliance. And in our photo sharing"
+    },
+    {
+      "start": 1056.48,
+      "duration": 5.36,
+      "text": "application, AWS KMS is used to protect"
+    },
+    {
+      "start": 1059.36,
+      "duration": 4.8,
+      "text": "sensitive data. User photos stored in S3"
+    },
+    {
+      "start": 1061.84,
+      "duration": 4.16,
+      "text": "are encrypted using KMS managed keys."
+    },
+    {
+      "start": 1064.16,
+      "duration": 3.84,
+      "text": "Data stored in the database is encrypted"
+    },
+    {
+      "start": 1066,
+      "duration": 3.679,
+      "text": "at rest using the same approach. So even"
+    },
+    {
+      "start": 1068,
+      "duration": 3.039,
+      "text": "if someone gains access to the storage"
+    },
+    {
+      "start": 1069.679,
+      "duration": 3.12,
+      "text": "layer, the data itself remains"
+    },
+    {
+      "start": 1071.039,
+      "duration": 3.52,
+      "text": "protected. This allows us to secure our"
+    },
+    {
+      "start": 1072.799,
+      "duration": 3.281,
+      "text": "application data without adding any"
+    },
+    {
+      "start": 1074.559,
+      "duration": 4,
+      "text": "extra complexity to the application"
+    },
+    {
+      "start": 1076.08,
+      "duration": 4.64,
+      "text": "code. Okay, so now we're encrypting our"
+    },
+    {
+      "start": 1078.559,
+      "duration": 4,
+      "text": "data using KMS which protects the data"
+    },
+    {
+      "start": 1080.72,
+      "duration": 3.839,
+      "text": "at rest. But here is another common"
+    },
+    {
+      "start": 1082.559,
+      "duration": 4,
+      "text": "problem every application runs into."
+    },
+    {
+      "start": 1084.559,
+      "duration": 4.161,
+      "text": "Applications need secrets. Things like"
+    },
+    {
+      "start": 1086.559,
+      "duration": 3.841,
+      "text": "database passwords, API keys, and"
+    },
+    {
+      "start": 1088.72,
+      "duration": 3.12,
+      "text": "credentials. And these secrets need to"
+    },
+    {
+      "start": 1090.4,
+      "duration": 3.44,
+      "text": "be available to the application at"
+    },
+    {
+      "start": 1091.84,
+      "duration": 3.839,
+      "text": "runtime. Storing secrets directly in"
+    },
+    {
+      "start": 1093.84,
+      "duration": 3.68,
+      "text": "code, configuration files, or"
+    },
+    {
+      "start": 1095.679,
+      "duration": 4,
+      "text": "environment variables is risky and hard"
+    },
+    {
+      "start": 1097.52,
+      "duration": 4.56,
+      "text": "to manage. That's where AWS Secrets"
+    },
+    {
+      "start": 1099.679,
+      "duration": 4.561,
+      "text": "Manager comes in. AWS Secrets Manager is"
+    },
+    {
+      "start": 1102.08,
+      "duration": 4.24,
+      "text": "a managed service used to securely store"
+    },
+    {
+      "start": 1104.24,
+      "duration": 3.92,
+      "text": "and manage secrets. Instead of embedding"
+    },
+    {
+      "start": 1106.32,
+      "duration": 3.84,
+      "text": "secrets in your application, you store"
+    },
+    {
+      "start": 1108.16,
+      "duration": 4,
+      "text": "them centrally in Secrets Manager."
+    },
+    {
+      "start": 1110.16,
+      "duration": 3.759,
+      "text": "Secrets stored in Secrets Manager are"
+    },
+    {
+      "start": 1112.16,
+      "duration": 4.96,
+      "text": "encrypted automatically. Behind the"
+    },
+    {
+      "start": 1113.919,
+      "duration": 5.12,
+      "text": "scenes, Secrets Manager uses AWS KMS to"
+    },
+    {
+      "start": 1117.12,
+      "duration": 4.08,
+      "text": "encrypt secrets. This encryption and key"
+    },
+    {
+      "start": 1119.039,
+      "duration": 4.081,
+      "text": "management is handled for you. No manual"
+    },
+    {
+      "start": 1121.2,
+      "duration": 3.599,
+      "text": "setup is required. Applications don't"
+    },
+    {
+      "start": 1123.12,
+      "duration": 3.28,
+      "text": "keep secrets locally. When they need a"
+    },
+    {
+      "start": 1124.799,
+      "duration": 3.601,
+      "text": "secret, they retrieve it from secrets"
+    },
+    {
+      "start": 1126.4,
+      "duration": 3.92,
+      "text": "manager at runtime. This allows secrets"
+    },
+    {
+      "start": 1128.4,
+      "duration": 3.76,
+      "text": "to be updated or rotated without"
+    },
+    {
+      "start": 1130.32,
+      "duration": 3.76,
+      "text": "changing application code. Access to"
+    },
+    {
+      "start": 1132.16,
+      "duration": 3.6,
+      "text": "secrets is tightly controlled. Only"
+    },
+    {
+      "start": 1134.08,
+      "duration": 3.28,
+      "text": "identities that are explicitly allowed"
+    },
+    {
+      "start": 1135.76,
+      "duration": 3.039,
+      "text": "can retrieve a secret. This helps"
+    },
+    {
+      "start": 1137.36,
+      "duration": 3.84,
+      "text": "prevent accidental exposure or"
+    },
+    {
+      "start": 1138.799,
+      "duration": 4.24,
+      "text": "unauthorized access. Secrets manager can"
+    },
+    {
+      "start": 1141.2,
+      "duration": 3.359,
+      "text": "also rotate secrets automatically. This"
+    },
+    {
+      "start": 1143.039,
+      "duration": 3.921,
+      "text": "reduces the risk of long-ived"
+    },
+    {
+      "start": 1144.559,
+      "duration": 4.721,
+      "text": "credentials being leaked or misused. And"
+    },
+    {
+      "start": 1146.96,
+      "duration": 4.32,
+      "text": "in our photosharing application, AWS"
+    },
+    {
+      "start": 1149.28,
+      "duration": 4.16,
+      "text": "secrets manager is used to store"
+    },
+    {
+      "start": 1151.28,
+      "duration": 3.68,
+      "text": "sensitive configuration values. Database"
+    },
+    {
+      "start": 1153.44,
+      "duration": 2.88,
+      "text": "credentials are stored securely in"
+    },
+    {
+      "start": 1154.96,
+      "duration": 3.36,
+      "text": "secrets manager instead of being"
+    },
+    {
+      "start": 1156.32,
+      "duration": 3.92,
+      "text": "hard-coded. Our backend retrieves these"
+    },
+    {
+      "start": 1158.32,
+      "duration": 4.16,
+      "text": "secrets securely at runtime. Secrets are"
+    },
+    {
+      "start": 1160.24,
+      "duration": 4.16,
+      "text": "encrypted using KMS and access is"
+    },
+    {
+      "start": 1162.48,
+      "duration": 3.28,
+      "text": "controlled using AM. This keeps"
+    },
+    {
+      "start": 1164.4,
+      "duration": 3.04,
+      "text": "credentials out of our codebase and"
+    },
+    {
+      "start": 1165.76,
+      "duration": 3.68,
+      "text": "makes the application more secure and"
+    },
+    {
+      "start": 1167.44,
+      "duration": 3.599,
+      "text": "easier to manage. So far, we've talked"
+    },
+    {
+      "start": 1169.44,
+      "duration": 4.72,
+      "text": "about building and connecting different"
+    },
+    {
+      "start": 1171.039,
+      "duration": 5.281,
+      "text": "AWS services, servers, databases,"
+    },
+    {
+      "start": 1174.16,
+      "duration": 3.6,
+      "text": "storage, and load balancers. But once"
+    },
+    {
+      "start": 1176.32,
+      "duration": 3.28,
+      "text": "everything is running, there's one big"
+    },
+    {
+      "start": 1177.76,
+      "duration": 3.44,
+      "text": "question left. How do you know what's"
+    },
+    {
+      "start": 1179.6,
+      "duration": 3.36,
+      "text": "actually happening inside your system?"
+    },
+    {
+      "start": 1181.2,
+      "duration": 3.76,
+      "text": "Is your server healthy? Is a function"
+    },
+    {
+      "start": 1182.96,
+      "duration": 3.36,
+      "text": "failing? Is traffic suddenly spiking?"
+    },
+    {
+      "start": 1184.96,
+      "duration": 3.2,
+      "text": "Without visibility, you're basically"
+    },
+    {
+      "start": 1186.32,
+      "duration": 4.4,
+      "text": "flying blind. That's where monitoring"
+    },
+    {
+      "start": 1188.16,
+      "duration": 4.56,
+      "text": "comes in. And on AWS, monitoring starts"
+    },
+    {
+      "start": 1190.72,
+      "duration": 4.24,
+      "text": "with Cloudatch. Amazon Cloudatch is"
+    },
+    {
+      "start": 1192.72,
+      "duration": 3.92,
+      "text": "AWS's monitoring and observability"
+    },
+    {
+      "start": 1194.96,
+      "duration": 4.16,
+      "text": "service. It helps you collect and view"
+    },
+    {
+      "start": 1196.64,
+      "duration": 4.8,
+      "text": "metrics, logs, and events from your AWS"
+    },
+    {
+      "start": 1199.12,
+      "duration": 4.24,
+      "text": "resources all in one place. At a basic"
+    },
+    {
+      "start": 1201.44,
+      "duration": 3.52,
+      "text": "level, Cloudatch gives you metrics."
+    },
+    {
+      "start": 1203.36,
+      "duration": 3.52,
+      "text": "Metrics are numbers that tell you how"
+    },
+    {
+      "start": 1204.96,
+      "duration": 4.719,
+      "text": "your resources are behaving. Things like"
+    },
+    {
+      "start": 1206.88,
+      "duration": 4.72,
+      "text": "CPU usage on an EC2 instance, the number"
+    },
+    {
+      "start": 1209.679,
+      "duration": 4,
+      "text": "of requests hitting a load balancer, or"
+    },
+    {
+      "start": 1211.6,
+      "duration": 4.319,
+      "text": "how many times a Lambda function runs."
+    },
+    {
+      "start": 1213.679,
+      "duration": 4.161,
+      "text": "Cloudatch also collects logs. These are"
+    },
+    {
+      "start": 1215.919,
+      "duration": 3.681,
+      "text": "the actual text logs produced by your"
+    },
+    {
+      "start": 1217.84,
+      "duration": 4.4,
+      "text": "applications. For example, application"
+    },
+    {
+      "start": 1219.6,
+      "duration": 4.8,
+      "text": "logs from EC2, access logs from a load"
+    },
+    {
+      "start": 1222.24,
+      "duration": 4.48,
+      "text": "balancer, or execution logs from Lambda."
+    },
+    {
+      "start": 1224.4,
+      "duration": 4.32,
+      "text": "Instead of sshing into servers to check"
+    },
+    {
+      "start": 1226.72,
+      "duration": 4.24,
+      "text": "logs, everything shows up centrally in"
+    },
+    {
+      "start": 1228.72,
+      "duration": 4.24,
+      "text": "Cloudatch. On top of metrics and logs,"
+    },
+    {
+      "start": 1230.96,
+      "duration": 3.68,
+      "text": "Cloudatch lets you create alarms. An"
+    },
+    {
+      "start": 1232.96,
+      "duration": 3.76,
+      "text": "alarm watches a metric and triggers when"
+    },
+    {
+      "start": 1234.64,
+      "duration": 5.039,
+      "text": "a threshold is crossed. For example, if"
+    },
+    {
+      "start": 1236.72,
+      "duration": 4.72,
+      "text": "CPU usage goes above 80% or if a Lambda"
+    },
+    {
+      "start": 1239.679,
+      "duration": 3.281,
+      "text": "function starts failing repeatedly,"
+    },
+    {
+      "start": 1241.44,
+      "duration": 2.96,
+      "text": "Cloudatch can raise an alert"
+    },
+    {
+      "start": 1242.96,
+      "duration": 3.599,
+      "text": "automatically. You can also build"
+    },
+    {
+      "start": 1244.4,
+      "duration": 3.84,
+      "text": "dashboards in Cloudatch. Dashboards give"
+    },
+    {
+      "start": 1246.559,
+      "duration": 4,
+      "text": "you a real-time visual view of your"
+    },
+    {
+      "start": 1248.24,
+      "duration": 3.679,
+      "text": "system, graphs, counters, and charts"
+    },
+    {
+      "start": 1250.559,
+      "duration": 3.36,
+      "text": "that help you understand what's normal"
+    },
+    {
+      "start": 1251.919,
+      "duration": 3.921,
+      "text": "and spot problems quickly. In our photo"
+    },
+    {
+      "start": 1253.919,
+      "duration": 3.841,
+      "text": "sharing app, Cloudatch runs in the"
+    },
+    {
+      "start": 1255.84,
+      "duration": 4.16,
+      "text": "background as a regional service outside"
+    },
+    {
+      "start": 1257.76,
+      "duration": 5.039,
+      "text": "the VPC, collecting metrics and logs"
+    },
+    {
+      "start": 1260,
+      "duration": 4.64,
+      "text": "from EC2, Lambda, the load balancer, and"
+    },
+    {
+      "start": 1262.799,
+      "duration": 3.841,
+      "text": "other services. If something goes wrong,"
+    },
+    {
+      "start": 1264.64,
+      "duration": 3.84,
+      "text": "it helps us detect issues early and take"
+    },
+    {
+      "start": 1266.64,
+      "duration": 3.2,
+      "text": "action. It's the visibility layer that"
+    },
+    {
+      "start": 1268.48,
+      "duration": 3.6,
+      "text": "tells us whether our architecture is"
+    },
+    {
+      "start": 1269.84,
+      "duration": 4.8,
+      "text": "healthy or not. All right, so these were"
+    },
+    {
+      "start": 1272.08,
+      "duration": 4.079,
+      "text": "the 10 most basic AWS services, and we"
+    },
+    {
+      "start": 1274.64,
+      "duration": 3.279,
+      "text": "understood how they work by building a"
+    },
+    {
+      "start": 1276.159,
+      "duration": 3.76,
+      "text": "simple photo sharing app. If this is"
+    },
+    {
+      "start": 1277.919,
+      "duration": 3.841,
+      "text": "already making AWS feel clearer, you're"
+    },
+    {
+      "start": 1279.919,
+      "duration": 5.561,
+      "text": "on the right track. Let's keep building."
+    },
+    {
+      "start": 1281.76,
+      "duration": 3.72,
+      "text": "See you in the next video."
+    }
+  ],
+  "fullText": "Let's learn about 10 of the most basic AWS services by working on a simpler version of Instagram like an application. We'll be building a simple photo sharing app. Users upload photos. We store them in S3, process them with Lambda, store metadata in RDS, and serve the application through an application load balancer. All of this sits inside a VPC monitored by Cloudatch secured by IM. This is not just another tutorial video that you watch. Instead, you'll learn by building this project. This video comes with access to our free AWS labs that you can use to practice what you see. And we'll test your work to make sure you did it correctly. If you did something wrong, we give you feedback instantly. And the best part is that it is absolutely free. No hidden fees or worries that you'll get charged if you forgot to turn off an instance. We'll handle that for you. So, let us begin. When you deploy anything on AWS, the first thing you choose is a region. A region is a physical location somewhere in the world. Think of them like cities. You've got US East1 in Virginia, AP Southeast One in Singapore, EU West One in Ireland, AP Northeast One in Tokyo. Each of these regions has its own set of AWS data centers. So, if most of your users are in Asia, you'd pick Singapore or Tokyo. If your users are in the US, you'd pick Virginia or Ohio. Choosing the right region affects performance, cost, and even compliance. So, it's the very first decision you make. Inside each region, AWS has multiple availability zones or as these are separate data centers inside that same city. For example, AP Southeast 1 Singapore has AP Southeast 1A, AP Southeast 1B, AP Southeast 1C. They're close enough for low latency, but far enough apart so that if one A loses power or has a hardware issue, the other one keeps running. Think of AZ like multiple buildings in the same campus. If one building catches fire, your app in the next building stays safe. Now, inside a region, we create something called a VPC, virtual private cloud. This is basically your own private network inside AWS. Nobody else can enter it unless you explicitly allow it. If a region is a city, your VPC is your own fenced neighborhood inside that city. You choose the IP range. You control who can enter and you decide how the network is laid out. Every EC2 instance, every database, every load balancer in our app will sit inside this VPC. A VPC always lives inside one region, but it can span multiple availability zones within that region. Think of it like this. Region is a city. AS are separate buildings in that city and VPC is your private neighborhood inside that city. Your neighborhood can cover multiple buildings, multiple A's, but it cannot stretch into another city. Inside a VPC, you divide the network into smaller sections called subnets. Subnets are simply slices of your VPC's IP address space. And here's the key idea. Public subnets are reachable from the internet. Private subnets are not reachable directly from the internet. So why do we split them? Because not every part of your app should be exposed. For example, load balancers go in the public subnet. EC2 servers and databases sit in the private subnet. This gives you a secure and organized layout instead of throwing everything into one giant network. Now, let's tie it back to our photo sharing app. Our application load balancer sits in the public subnet so users can reach it. Typically, EC2 instances are deployed in private subnets. However, due to limitations in the free version of the lab environment, we have placed the EC2 instance in a public subnet for this setup. Our RDS database resides in the private subnet since it shouldn't be exposed publicly. The Lambda function is intentionally kept outside the VPC since it only interacts with AWS managed services like S3 and does not require access to private VPC resources and everything sits inside two different AZs for high availability. Once this network foundation is in place, everything else in the architecture becomes a lot easier to understand. So that's regions, A's, VPCs, and subnets, the backbone of everything we build on AWS. Now that our network is ready, let's spin up our first server on EC2 in the next lesson. Before we launch servers or databases, we need to talk about security. IM stands for identity and access management, and it controls who can do what inside your AWS account. Think of IM like the bouncer at the door. Every person in every service must show ID before they can get in. If you're logging in as a human, IM gives you a user account. You can group users together like admins, developers, or finance, and assign permissions using policies. A policy is just a JSON document that says things like, \"Allow this user to access S3. Block this user from deleting EC2 instances. allow readonly access to Cloudatch logs. Policies are the rule book. Users and groups follow those rules. Now, here's the part that matters the most. IM roles. Roles are like temporary permission jackets that AWS services can wear. For example, our EC2 instance needs permission to upload images to S3. Our Lambda function needs permission to read from S3 and write to the database. Cloudatch needs permission to collect logs. None of these services use usernames or passwords. They get permissions by assuming an IM role. This is why IM comes early in our architecture. When we launch EC2 in the next lesson, the first thing we'll do is attach an AM role to it. That role will decide whether our backend can actually talk to S3 or RDS. Without AM, all the other AWS services are basically locked doors. In our photo sharing app, EC2's IM role lets it upload user photos to S3 and log messages to Cloudatch. Lambda's IM role lets it read new photos from S3, generate thumbnails, and update metadata in RDS. Cloudatch's AM permissions let it monitor all services. AM is the silent layer keeping everything secure and in the right boundaries. And one important rule, give the least permissions needed. If your EC2 server only needs to write to one S3 bucket, don't give it full S3 access. If your Lambda only needs read access, don't give it write. Small permissions equal safer systems. So that's AM, the foundation of AWS security and the reason our services can talk to each other safely. Now that permissions are taken care of, we can finally launch our backend server. Let's move on to EC2 next. Now that our VPC and subnets are ready, the next step is to actually run our application. And that's where EC2 comes in. EC2 is basically a virtual machine, a server you can launch in minutes. You can choose the operating system, the CPU power, the memory, and even attach storage to it. It's like renting a computer from AWS that you control completely. In our photo sharing app, the EC2 instance will run our backend API. This is the part of the app that handles things like uploading photos, processing application logic, and talking to the database. So whenever someone uses our app, the request eventually reaches our EC2 server which does the actual work. When launching EC2, you pick two important things. One, the instance type. This decides how powerful your server is. For example, T2 micro for tiny workloads. T3 medium for lightweight apps. M5 large if you need more power. Two, the AMI stands for Amazon machine image. It's like the template for your server. You can choose Amazon Linux, Ubuntu, Windows, or even a custom image you built yourself. Every EC2 instance has a security group. Think of it like a firewall that controls what traffic can come in and go out of your server. For example, we'll configure the EC2 instance to accept traffic only from our load balancer, not directly from the internet. This is why EC2 instances are usually placed in a private subnet. However, due to free tier limitations in this lab, we've placed it in a public subnet. In a production setup, it should always be kept inside a private subnet. Every EC2 instance also needs storage. This is where EBS volumes come in. Elastic block store. It's basically a hard drive for your server. Your operating system, logs, or temporary files live here. And if you stop or start the EC2 instance, the EBS volume stays intact. We don't want our app running on just one server because if that one server goes down, the whole app goes down. So usually we run multiple EC2 instances across different availability zones and the load balancer distributes traffic between them. This gives us fault tolerance and smoother performance. So that's EC2, the engine that runs our backend. It has storage attached to it, connected it to our load balancer, our database, and it uses Amazon S3 to store and retrieve application data such as files and static assets. Now that our application server is running, let's look at how it talks to the database using Amazon RDS. RDS stands for relational database service. It's AWS's managed database platform that supports engines like MySQL, Postgra SQL, Mariab, Oracle, and even SQL Server. Basically, it's a fully managed version of the databases developers already know. In our photo sharing app, we need a place to store things like photo metadata and timestamps. This is structured information. So, a relational database is perfect. Instead of installing MySQL manually on an EC2 server, RDS gives us a productionready database with backups, scaling, and patching handled for us. RDS is always deployed inside our VPC, and we keep it inside a private subnet. That means the database is not exposed to the internet. Only our EC2 server can talk to it, and that's controlled through security groups. So, if a hacker scans our public IP space, they can't even see that our database exists. It's protected by design. RDS uses security groups to control which services are allowed to connect. In our case, only the EC2 instance in the public subnet will be allowed. AM doesn't control database queries, but AM does control which AWS services can manage RDS itself. Things like backups, logs, or monitoring. One of the coolest features of RDS is something called multiazed. With a single click, AWS creates a standby copy of your database in another availability zone. If the primary A goes down, RDS will automatically fail over to the standby. Your app stays up and your users don't notice anything. This is a lifesaver in real production systems. RDS also gives you automated backups every day. AWS takes a backup of your database for you. You can also take manual snapshots before big upgrades or changes. So, if you ever mess something up, and trust me, everyone does, you can restore the database to any point in time. EC2 handles the API logic, but all the important data lands in RDS. When a user signs up, logs in, uploads a photo, or views their gallery. The backend fetches, and stores all that data in RDS, it's the core memory of the application. So that's RDS, a powerful, reliable, fully managed database service that keeps our app data safe and available. Now that we've stored our structured data, let's move on to storing our files and images using Amazon S3. Now that we've talked about how our app stores structured data in the database, we need to think about something else. Our app has to deal with files. Every modern application has to store something. Images, videos, documents, backups, logs, and relying on a server's local storage isn't reliable or scalable. So AWS gives us a dedicated service built specifically for storing files of any size safely and cheaply. And that service is Amazon S3. The name comes from the three S's in simple storage service because Amazon built it to make storing and accessing data in the cloud truly simple. S3 is Amazon's cloud storage service. A place to keep your files securely in the cloud without managing servers or discs. Whether it's one photo or millions of objects, S3 automatically scales with you. In S3, you store your data inside buckets. Think of them as folders in the cloud. Each file is an object with data, metadata, and a unique key. S3 even offers different storage classes. Standard for frequent access, intelligent taring for cost savings, and Glacier for archives. S3 powers countless cloud projects from hosting static websites and storing backups to building data links and mobile app storage. It's the foundation for many AWS workloads. S3 works seamlessly with other AWS services. EC2 saves data to it and Lambda processes uploads. Remember, S3 is object storage, which means each file is stored as a self-contained object with its data, metadata, and ID like labeling and storing boxes in a giant cloud warehouse. That's different from EBS and EFS which store data like disks or folders. And in our photo sharing app, S3 is where we store all the uploaded photos. It's the core storage layer of our whole system. One important thing to remember is that S3 buckets are usually kept private by default. That means users can't directly access files inside them. So when a user wants to view a photo, our application doesn't make the bucket public. Instead, the backend generates a pre-signed URL, a temporary secure link to a specific object. This link allows the user to download the image directly from S3 and once it expires, access is automatically revoked. It is now time to practice what you learned with our hands-on labs. Use the link in the description below to sign up to CodeCloud to create a free account. Once signed up, enroll in the lab course to start practicing. Every section in this video has associated labs with it. At this point, you should be completing the labs on VPC, AM, EC2, and S3. So far, we've talked about servers that are always running like EC2 and storage services like S3 and databases like RDS. But not every task in an application needs a full server running 24/7. Sometimes you just want to run a small piece of code only when something happens, like when a file is uploaded, an API is called, or a message arrives. Running a full server for that would be wasteful and hard to manage. That's where AWS Lambda comes in. AWS Lambda is a serverless compute service. Instead of launching and managing servers, you just write a function, a small piece of code, and AWS runs it for you. You don't worry about servers, operating systems, patching, scaling. You simply upload your code, define when it should run, and AWS handles the rest. Lambda functions can be written in multiple languages like Python, Node.js, Java, and Go. They run only when triggered, and shut down automatically once they finish. This means you only pay for the exact time your code is running down to milliseconds. One of the most powerful parts of Lambda is how it's triggered. A Lambda function can run when a file is uploaded to S3, an API is called, a database changes, a message arrives in a queue, or on a schedule. This makes Lambda perfect for eventdriven workloads and background processing. Lambda also scales automatically. If one event comes in, AWS runs one function. If 10,000 events come in at the same time, AWS runs thousands of Lambda executions in parallel without you doing anything. Lambda functions don't have usernames or passwords. They use AM roles to get permissions, for example, to read from S3, write to a database, or publish logs to Cloudatch. This keeps things secure and tightly controlled. And in our photo sharing app, Lambda is used as a background worker. Every time a user uploads a photo to S3, a Lambda function is triggered automatically to extract metadata from uploaded images without adding any load to our EC2 servers. It lets us run background tasks reliably at scale without managing any extra infrastructure. Head over to the labs on Lambda functions and learn by doing it. Okay, so now we have our backend running on servers like EC2 and we might even have multiple instances for high availability. But here's the issue. How do users hit our app without knowing which server to call? And what happens when one server goes down or traffic spikes? You don't want users randomly hitting a dead instance. You need one stable entry point that can distribute traffic across healthy servers. And that's exactly what a load balancer does. An application load balancer or ALB is a managed service that sits in front of your application and routes incoming HTTP HTTPS traffic to your targets, usually EC2 instances, containers, or IP addresses. The most important thing an ALB gives you is one consistent end point for your app. Users hit the ALB, and the ALB decides where the request should go. ALB also does health checks. So if one server is unhealthy, the ALB automatically stops sending traffic to it. That's a huge deal because it means your app stays available even when individual servers fail. Now technically the ALB itself comes with a default endpoint URL, but this is a long AWS generated URL, not something you'd want users to type or remember in a real production system. In real production applications, users don't access the ALB directly. Instead, we map a clean human friendly domain named like photoshare.com to the ALB using a DNS service such as AWS Route 53. So, users hit photoshare.com. DNS resolves it to the ALB and from there the ALB routtes traffic to the right back end. We'll dive deeper into Route 53 in an upcoming project. Another key feature is routing rules. ALB can route based on things like host name, path, even headers in some setups. So instead of having one big monolith, you can split traffic cleanly. And because it's managed, you don't run or patch the load balancer yourself. AWS scales it, keeps it available, and you typically use it with HTTPS termination, meaning the ALB can handle TLS certificates and forward decrypted traffic to your backend. And in our architecture, the application load balancer sits in the public subnet as the main entry point for incoming requests. Most of the traffic is routed to EC2 instances running our backend inside our public subnet which in a production setup should be inside a private subnet. But the ALB doesn't actually care whether the backend is a server or a function. For certain routes, it can also invoke lambda functions directly. This gives us the flexibility to use EC2 for longunning application logic and Lambda for lightweight or eventdriven endpoints all behind the same load balancer. Head over to the labs and practice working on ALBs. link is in the description. So now we have our application running. Users can access it and background processing is working as expected. But here's the issue. What about the data itself? In any real application, we store a lot of data, files, database records, logs, configuration values. Some of this data can be private or sensitive. And if someone somehow gains access to the underlying storage, we don't want that data to be readable in plain text. That's where encryption comes in. AWS key management service or KMS is a managed service used to create and manage encryption keys. These encryption keys are used to encrypt data when it's stored and decrypt it when it needs to be read. With KMS, you don't create or store encryption keys yourself. AWS creates the keys, stores them securely, and protects them for you. Your application never handles the keys directly. Instead, it asks KMS to perform encryption or decryption whenever needed. Access to these keys is tightly controlled. Even if someone has access to encrypted data, they still can't read it unless they're explicitly allowed to use the encryption key. This gives you precise control over who can encrypt and decrypt data. KMS also records every time a key is used. This means you can see when encryptionying keys are accessed and by whom, which is important for security monitoring and compliance. And in our photo sharing application, AWS KMS is used to protect sensitive data. User photos stored in S3 are encrypted using KMS managed keys. Data stored in the database is encrypted at rest using the same approach. So even if someone gains access to the storage layer, the data itself remains protected. This allows us to secure our application data without adding any extra complexity to the application code. Okay, so now we're encrypting our data using KMS which protects the data at rest. But here is another common problem every application runs into. Applications need secrets. Things like database passwords, API keys, and credentials. And these secrets need to be available to the application at runtime. Storing secrets directly in code, configuration files, or environment variables is risky and hard to manage. That's where AWS Secrets Manager comes in. AWS Secrets Manager is a managed service used to securely store and manage secrets. Instead of embedding secrets in your application, you store them centrally in Secrets Manager. Secrets stored in Secrets Manager are encrypted automatically. Behind the scenes, Secrets Manager uses AWS KMS to encrypt secrets. This encryption and key management is handled for you. No manual setup is required. Applications don't keep secrets locally. When they need a secret, they retrieve it from secrets manager at runtime. This allows secrets to be updated or rotated without changing application code. Access to secrets is tightly controlled. Only identities that are explicitly allowed can retrieve a secret. This helps prevent accidental exposure or unauthorized access. Secrets manager can also rotate secrets automatically. This reduces the risk of long-ived credentials being leaked or misused. And in our photosharing application, AWS secrets manager is used to store sensitive configuration values. Database credentials are stored securely in secrets manager instead of being hard-coded. Our backend retrieves these secrets securely at runtime. Secrets are encrypted using KMS and access is controlled using AM. This keeps credentials out of our codebase and makes the application more secure and easier to manage. So far, we've talked about building and connecting different AWS services, servers, databases, storage, and load balancers. But once everything is running, there's one big question left. How do you know what's actually happening inside your system? Is your server healthy? Is a function failing? Is traffic suddenly spiking? Without visibility, you're basically flying blind. That's where monitoring comes in. And on AWS, monitoring starts with Cloudatch. Amazon Cloudatch is AWS's monitoring and observability service. It helps you collect and view metrics, logs, and events from your AWS resources all in one place. At a basic level, Cloudatch gives you metrics. Metrics are numbers that tell you how your resources are behaving. Things like CPU usage on an EC2 instance, the number of requests hitting a load balancer, or how many times a Lambda function runs. Cloudatch also collects logs. These are the actual text logs produced by your applications. For example, application logs from EC2, access logs from a load balancer, or execution logs from Lambda. Instead of sshing into servers to check logs, everything shows up centrally in Cloudatch. On top of metrics and logs, Cloudatch lets you create alarms. An alarm watches a metric and triggers when a threshold is crossed. For example, if CPU usage goes above 80% or if a Lambda function starts failing repeatedly, Cloudatch can raise an alert automatically. You can also build dashboards in Cloudatch. Dashboards give you a real-time visual view of your system, graphs, counters, and charts that help you understand what's normal and spot problems quickly. In our photo sharing app, Cloudatch runs in the background as a regional service outside the VPC, collecting metrics and logs from EC2, Lambda, the load balancer, and other services. If something goes wrong, it helps us detect issues early and take action. It's the visibility layer that tells us whether our architecture is healthy or not. All right, so these were the 10 most basic AWS services, and we understood how they work by building a simple photo sharing app. If this is already making AWS feel clearer, you're on the right track. Let's keep building. See you in the next video.",
+  "fetchedAt": "2026-01-20T17:07:37.038Z"
+}

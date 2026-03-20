@@ -1,0 +1,1454 @@
+{
+  "videoId": "-4nUCaMNBR8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 2.64,
+      "text": "In this video, I'm going to be showing"
+    },
+    {
+      "start": 1.199,
+      "duration": 3.12,
+      "text": "you how to set up self-improving skills"
+    },
+    {
+      "start": 2.8,
+      "duration": 3.44,
+      "text": "within cloud code. Now, one of the"
+    },
+    {
+      "start": 4.319,
+      "duration": 3.44,
+      "text": "issues with LLMs right now is they don't"
+    },
+    {
+      "start": 6.24,
+      "duration": 2.88,
+      "text": "actually learn from us. Just to run"
+    },
+    {
+      "start": 7.759,
+      "duration": 2.96,
+      "text": "through an example of this, let's say"
+    },
+    {
+      "start": 9.12,
+      "duration": 3.2,
+      "text": "you're working on a web application."
+    },
+    {
+      "start": 10.719,
+      "duration": 3.601,
+      "text": "There might be a mistake that the coding"
+    },
+    {
+      "start": 12.32,
+      "duration": 4.16,
+      "text": "harness or the model that you're using"
+    },
+    {
+      "start": 14.32,
+      "duration": 3.76,
+      "text": "makes within the first iteration of what"
+    },
+    {
+      "start": 16.48,
+      "duration": 3.6,
+      "text": "it's trying to do. Let's say you want to"
+    },
+    {
+      "start": 18.08,
+      "duration": 3.84,
+      "text": "add a new feature and then it has a"
+    },
+    {
+      "start": 20.08,
+      "duration": 3.439,
+      "text": "button as a part of that feature. Just a"
+    },
+    {
+      "start": 21.92,
+      "duration": 3.279,
+      "text": "simple but relatively common mistake"
+    },
+    {
+      "start": 23.519,
+      "duration": 3.201,
+      "text": "could be that an LLM doesn't actually"
+    },
+    {
+      "start": 25.199,
+      "duration": 2.801,
+      "text": "know the particular button that you"
+    },
+    {
+      "start": 26.72,
+      "duration": 2.559,
+      "text": "might want to leverage. Generally"
+    },
+    {
+      "start": 28,
+      "duration": 2.96,
+      "text": "speaking, you can tell from certain"
+    },
+    {
+      "start": 29.279,
+      "duration": 3.601,
+      "text": "inputs and buttons what is actually"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.759,
+      "text": "generated from an LLM. Now, you might"
+    },
+    {
+      "start": 32.88,
+      "duration": 3.12,
+      "text": "correct that mistake and say, \"Okay, I"
+    },
+    {
+      "start": 34.719,
+      "duration": 3.201,
+      "text": "actually want you to reference this"
+    },
+    {
+      "start": 36,
+      "duration": 3.36,
+      "text": "button.\" But the issue with this is when"
+    },
+    {
+      "start": 37.92,
+      "duration": 3.44,
+      "text": "you actually correct it within that"
+    },
+    {
+      "start": 39.36,
+      "duration": 3.6,
+      "text": "session, when you pick up in a second"
+    },
+    {
+      "start": 41.36,
+      "duration": 2.96,
+      "text": "session, it's going to make that same"
+    },
+    {
+      "start": 42.96,
+      "duration": 3.119,
+      "text": "mistake again. And you're going to have"
+    },
+    {
+      "start": 44.32,
+      "duration": 4.079,
+      "text": "to correct it or remember to actually"
+    },
+    {
+      "start": 46.079,
+      "duration": 4.721,
+      "text": "specify to reference that particular"
+    },
+    {
+      "start": 48.399,
+      "duration": 4.241,
+      "text": "button. Same thing for the next session."
+    },
+    {
+      "start": 50.8,
+      "duration": 3.36,
+      "text": "And this loop will continue. Every"
+    },
+    {
+      "start": 52.64,
+      "duration": 3.28,
+      "text": "conversation effectively starts from"
+    },
+    {
+      "start": 54.16,
+      "duration": 3.6,
+      "text": "zero. And the thing with this problem is"
+    },
+    {
+      "start": 55.92,
+      "duration": 4.319,
+      "text": "it touches every single model that is"
+    },
+    {
+      "start": 57.76,
+      "duration": 4.4,
+      "text": "out there as well as every single coding"
+    },
+    {
+      "start": 60.239,
+      "duration": 3.841,
+      "text": "harness. Not having a good effective"
+    },
+    {
+      "start": 62.16,
+      "duration": 3.999,
+      "text": "memory mechanism within the harness in"
+    },
+    {
+      "start": 64.08,
+      "duration": 3.84,
+      "text": "my opinion can definitely lead to a lot"
+    },
+    {
+      "start": 66.159,
+      "duration": 3.601,
+      "text": "of different frustrations. Now this"
+    },
+    {
+      "start": 67.92,
+      "duration": 3.12,
+      "text": "frustration can come up in a number of"
+    },
+    {
+      "start": 69.76,
+      "duration": 3.12,
+      "text": "different ways. It might not follow"
+    },
+    {
+      "start": 71.04,
+      "duration": 3.36,
+      "text": "naming conventions. Use the proper"
+    },
+    {
+      "start": 72.88,
+      "duration": 3.279,
+      "text": "logging convention. It might not"
+    },
+    {
+      "start": 74.4,
+      "duration": 3.6,
+      "text": "validate inputs the proper way that you"
+    },
+    {
+      "start": 76.159,
+      "duration": 3.28,
+      "text": "did within other components. Had that"
+    },
+    {
+      "start": 78,
+      "duration": 2.799,
+      "text": "experience where you're just thinking, I"
+    },
+    {
+      "start": 79.439,
+      "duration": 3.36,
+      "text": "just told you this yesterday or I told"
+    },
+    {
+      "start": 80.799,
+      "duration": 3.921,
+      "text": "you this last week. The issue with this"
+    },
+    {
+      "start": 82.799,
+      "duration": 3.921,
+      "text": "is there's no memory. your preferences"
+    },
+    {
+      "start": 84.72,
+      "duration": 3.52,
+      "text": "aren't persisted and effectively without"
+    },
+    {
+      "start": 86.72,
+      "duration": 3.039,
+      "text": "some form of memory is you're going to"
+    },
+    {
+      "start": 88.24,
+      "duration": 3.12,
+      "text": "be repeating yourself forever. The"
+    },
+    {
+      "start": 89.759,
+      "duration": 3.921,
+      "text": "solution to this is relatively simple."
+    },
+    {
+      "start": 91.36,
+      "duration": 4.719,
+      "text": "We can actually set up a reflex skill to"
+    },
+    {
+      "start": 93.68,
+      "duration": 4.16,
+      "text": "analyze the session, extract corrections"
+    },
+    {
+      "start": 96.079,
+      "duration": 3.281,
+      "text": "and update the skill file. One thing"
+    },
+    {
+      "start": 97.84,
+      "duration": 3.68,
+      "text": "that I've been playing around with is"
+    },
+    {
+      "start": 99.36,
+      "duration": 4.16,
+      "text": "for my global skills that I use across"
+    },
+    {
+      "start": 101.52,
+      "duration": 4.48,
+      "text": "my machine is I have all of those"
+    },
+    {
+      "start": 103.52,
+      "duration": 4.559,
+      "text": "different skills versioned on GitHub as"
+    },
+    {
+      "start": 106,
+      "duration": 3.68,
+      "text": "I have them reflect and iterate on those"
+    },
+    {
+      "start": 108.079,
+      "duration": 3.201,
+      "text": "particular skills. I can see all of"
+    },
+    {
+      "start": 109.68,
+      "duration": 3.2,
+      "text": "those different memories over time and"
+    },
+    {
+      "start": 111.28,
+      "duration": 3.36,
+      "text": "if there are regressions and if I want"
+    },
+    {
+      "start": 112.88,
+      "duration": 3.519,
+      "text": "to roll it back, it makes it easy to"
+    },
+    {
+      "start": 114.64,
+      "duration": 3.36,
+      "text": "have it all within the version control"
+    },
+    {
+      "start": 116.399,
+      "duration": 3.04,
+      "text": "within git. So now the way that I've set"
+    },
+    {
+      "start": 118,
+      "duration": 3.2,
+      "text": "this up is there's a few different"
+    },
+    {
+      "start": 119.439,
+      "duration": 3.36,
+      "text": "mechanisms to this and it's relatively"
+    },
+    {
+      "start": 121.2,
+      "duration": 3.919,
+      "text": "simple. I have the ability to turn"
+    },
+    {
+      "start": 122.799,
+      "duration": 4.161,
+      "text": "reflect on, reflect off, and then"
+    },
+    {
+      "start": 125.119,
+      "duration": 3.521,
+      "text": "reflect status. There's two different"
+    },
+    {
+      "start": 126.96,
+      "duration": 3.439,
+      "text": "ways that we can do this. There's a"
+    },
+    {
+      "start": 128.64,
+      "duration": 3.599,
+      "text": "manual way, and then there's also an"
+    },
+    {
+      "start": 130.399,
+      "duration": 3.601,
+      "text": "automatic way. First, let's touch on the"
+    },
+    {
+      "start": 132.239,
+      "duration": 3.201,
+      "text": "manual flow. There's a skill called"
+    },
+    {
+      "start": 134,
+      "duration": 2.959,
+      "text": "reflect, and then there's a slash"
+    },
+    {
+      "start": 135.44,
+      "duration": 2.799,
+      "text": "command. As soon as you go through a"
+    },
+    {
+      "start": 136.959,
+      "duration": 3.041,
+      "text": "conversation and if there's something"
+    },
+    {
+      "start": 138.239,
+      "duration": 3.681,
+      "text": "that you want to have it remember, you"
+    },
+    {
+      "start": 140,
+      "duration": 3.36,
+      "text": "can simply call that slash command and"
+    },
+    {
+      "start": 141.92,
+      "duration": 3.2,
+      "text": "it will have the context of the"
+    },
+    {
+      "start": 143.36,
+      "duration": 3.76,
+      "text": "conversation and then it will reference"
+    },
+    {
+      "start": 145.12,
+      "duration": 3.92,
+      "text": "the particular skills and then it can go"
+    },
+    {
+      "start": 147.12,
+      "duration": 3.36,
+      "text": "and update those accordingly. And the"
+    },
+    {
+      "start": 149.04,
+      "duration": 3.04,
+      "text": "nice thing with the manual update is"
+    },
+    {
+      "start": 150.48,
+      "duration": 3.2,
+      "text": "you're going to have a lot more control"
+    },
+    {
+      "start": 152.08,
+      "duration": 3.92,
+      "text": "in terms of what is actually being"
+    },
+    {
+      "start": 153.68,
+      "duration": 4.24,
+      "text": "updated within the skill file. Just to"
+    },
+    {
+      "start": 156,
+      "duration": 3.76,
+      "text": "go through a hypothetical example, so"
+    },
+    {
+      "start": 157.92,
+      "duration": 4.08,
+      "text": "you might leverage the skill, it might"
+    },
+    {
+      "start": 159.76,
+      "duration": 3.68,
+      "text": "say here's my review of the O module and"
+    },
+    {
+      "start": 162,
+      "duration": 3.68,
+      "text": "you might realize, oh, it's actually not"
+    },
+    {
+      "start": 163.44,
+      "duration": 4.4,
+      "text": "looking for SQL injections. we could go"
+    },
+    {
+      "start": 165.68,
+      "duration": 3.919,
+      "text": "and specify always check for SQL"
+    },
+    {
+      "start": 167.84,
+      "duration": 3.759,
+      "text": "injections and then from there cloud"
+    },
+    {
+      "start": 169.599,
+      "duration": 4,
+      "text": "will go in the current session check for"
+    },
+    {
+      "start": 171.599,
+      "duration": 3.841,
+      "text": "SQL injections similar to the button"
+    },
+    {
+      "start": 173.599,
+      "duration": 3.121,
+      "text": "example that I had and then ideally it"
+    },
+    {
+      "start": 175.44,
+      "duration": 3.04,
+      "text": "will come back and show you that it's"
+    },
+    {
+      "start": 176.72,
+      "duration": 3.76,
+      "text": "done and the really nice thing with this"
+    },
+    {
+      "start": 178.48,
+      "duration": 4.24,
+      "text": "is corrections are all signals that"
+    },
+    {
+      "start": 180.48,
+      "duration": 4.32,
+      "text": "could be good memories approvals are"
+    },
+    {
+      "start": 182.72,
+      "duration": 4.56,
+      "text": "further confirmations and the reflect"
+    },
+    {
+      "start": 184.8,
+      "duration": 4.32,
+      "text": "command and skill will extract both of"
+    },
+    {
+      "start": 187.28,
+      "duration": 3.44,
+      "text": "these and then after that process all"
+    },
+    {
+      "start": 189.12,
+      "duration": 3.36,
+      "text": "that we need to do is actually run the"
+    },
+    {
+      "start": 190.72,
+      "duration": 3.36,
+      "text": "command to reflect we have two different"
+    },
+    {
+      "start": 192.48,
+      "duration": 3.28,
+      "text": "ways that we can do this we can run the"
+    },
+    {
+      "start": 194.08,
+      "duration": 3.92,
+      "text": "reflect command And or we can also"
+    },
+    {
+      "start": 195.76,
+      "duration": 4.08,
+      "text": "explicitly pass in the skill name as"
+    },
+    {
+      "start": 198,
+      "duration": 3.599,
+      "text": "well. But if you just pass in reflect,"
+    },
+    {
+      "start": 199.84,
+      "duration": 4.08,
+      "text": "it will have the contextual awareness"
+    },
+    {
+      "start": 201.599,
+      "duration": 4.161,
+      "text": "since it is within that thread to know"
+    },
+    {
+      "start": 203.92,
+      "duration": 3.44,
+      "text": "when that skill was actually invoked."
+    },
+    {
+      "start": 205.76,
+      "duration": 3.44,
+      "text": "Effectively, Claude will analyze and"
+    },
+    {
+      "start": 207.36,
+      "duration": 4,
+      "text": "scan the conversation for corrections."
+    },
+    {
+      "start": 209.2,
+      "duration": 3.84,
+      "text": "It will identify success patterns, post"
+    },
+    {
+      "start": 211.36,
+      "duration": 3.2,
+      "text": "skill updates, and the way that this is"
+    },
+    {
+      "start": 213.04,
+      "duration": 3.199,
+      "text": "set up is it will give you a breakdown"
+    },
+    {
+      "start": 214.56,
+      "duration": 3.759,
+      "text": "of different confidence levels. There"
+    },
+    {
+      "start": 216.239,
+      "duration": 4.241,
+      "text": "will be high, medium, as well as low. If"
+    },
+    {
+      "start": 218.319,
+      "duration": 4.081,
+      "text": "I say never do X, like never come up"
+    },
+    {
+      "start": 220.48,
+      "duration": 3.679,
+      "text": "with a button style on your own within"
+    },
+    {
+      "start": 222.4,
+      "duration": 3.839,
+      "text": "this project, you can go ahead and"
+    },
+    {
+      "start": 224.159,
+      "duration": 3.681,
+      "text": "specify something like that. Medium are"
+    },
+    {
+      "start": 226.239,
+      "duration": 3.441,
+      "text": "going to be patterns that worked well."
+    },
+    {
+      "start": 227.84,
+      "duration": 4.24,
+      "text": "And low are going to be observations to"
+    },
+    {
+      "start": 229.68,
+      "duration": 3.919,
+      "text": "review later. And all of this works is"
+    },
+    {
+      "start": 232.08,
+      "duration": 3.04,
+      "text": "just through this skill file. You're"
+    },
+    {
+      "start": 233.599,
+      "duration": 3.28,
+      "text": "going to be able to edit this, tweak it"
+    },
+    {
+      "start": 235.12,
+      "duration": 3.679,
+      "text": "if you want to have version control, or"
+    },
+    {
+      "start": 236.879,
+      "duration": 3.44,
+      "text": "if you don't, you can go ahead add in a"
+    },
+    {
+      "start": 238.799,
+      "duration": 2.72,
+      "text": "G integration. Additionally, you can"
+    },
+    {
+      "start": 240.319,
+      "duration": 2.721,
+      "text": "just remove that if you don't want to"
+    },
+    {
+      "start": 241.519,
+      "duration": 3.041,
+      "text": "leverage it. I'll link all of this"
+    },
+    {
+      "start": 243.04,
+      "duration": 2.72,
+      "text": "within the description of the video"
+    },
+    {
+      "start": 244.56,
+      "duration": 3.12,
+      "text": "before it actually updates through"
+    },
+    {
+      "start": 245.76,
+      "duration": 4.08,
+      "text": "respective skill. This is what the"
+    },
+    {
+      "start": 247.68,
+      "duration": 4.16,
+      "text": "review and approval process looks like."
+    },
+    {
+      "start": 249.84,
+      "duration": 3.84,
+      "text": "We have the signals that were detected."
+    },
+    {
+      "start": 251.84,
+      "duration": 3.36,
+      "text": "We have the proposed changes. And then"
+    },
+    {
+      "start": 253.68,
+      "duration": 3.519,
+      "text": "we have the commit message that it's"
+    },
+    {
+      "start": 255.2,
+      "duration": 3.36,
+      "text": "going to add if we go and accept those."
+    },
+    {
+      "start": 257.199,
+      "duration": 3.121,
+      "text": "Additionally, what we can do within here"
+    },
+    {
+      "start": 258.56,
+      "duration": 3.6,
+      "text": "is we can just change and we can change"
+    },
+    {
+      "start": 260.32,
+      "duration": 3.439,
+      "text": "with natural language. That's one of the"
+    },
+    {
+      "start": 262.16,
+      "duration": 3.12,
+      "text": "really nice things with this in terms of"
+    },
+    {
+      "start": 263.759,
+      "duration": 3.121,
+      "text": "actually applying these to our skills"
+    },
+    {
+      "start": 265.28,
+      "duration": 4,
+      "text": "directory as well as pushing them to"
+    },
+    {
+      "start": 266.88,
+      "duration": 3.92,
+      "text": "get. We can either click Y and or we can"
+    },
+    {
+      "start": 269.28,
+      "duration": 2.8,
+      "text": "type with natural language the different"
+    },
+    {
+      "start": 270.8,
+      "duration": 2.959,
+      "text": "changes that we want to have within"
+    },
+    {
+      "start": 272.08,
+      "duration": 3.28,
+      "text": "Cloud Code. And then once you've either"
+    },
+    {
+      "start": 273.759,
+      "duration": 3.361,
+      "text": "made those changes or you've accepted"
+    },
+    {
+      "start": 275.36,
+      "duration": 3.839,
+      "text": "what Claude has proposed, it's going to"
+    },
+    {
+      "start": 277.12,
+      "duration": 3.359,
+      "text": "edit the particular skill and then it's"
+    },
+    {
+      "start": 279.199,
+      "duration": 2.72,
+      "text": "going to go ahead and commit that within"
+    },
+    {
+      "start": 280.479,
+      "duration": 3.121,
+      "text": "Git. And then it's going to go ahead and"
+    },
+    {
+      "start": 281.919,
+      "duration": 3.601,
+      "text": "push that up. And one thing about this"
+    },
+    {
+      "start": 283.6,
+      "duration": 4,
+      "text": "process that I did want to have within"
+    },
+    {
+      "start": 285.52,
+      "duration": 3.36,
+      "text": "at least my setup is for all of those"
+    },
+    {
+      "start": 287.6,
+      "duration": 2.96,
+      "text": "different changes that it makes within"
+    },
+    {
+      "start": 288.88,
+      "duration": 3.44,
+      "text": "the skill, make sure you're actually"
+    },
+    {
+      "start": 290.56,
+      "duration": 3.44,
+      "text": "versioning all of those as Next up, you"
+    },
+    {
+      "start": 292.32,
+      "duration": 3.36,
+      "text": "can actually take the same flow and you"
+    },
+    {
+      "start": 294,
+      "duration": 3.759,
+      "text": "can automate it. You can have hooks"
+    },
+    {
+      "start": 295.68,
+      "duration": 3.28,
+      "text": "trigger reflections automatically. Now,"
+    },
+    {
+      "start": 297.759,
+      "duration": 2.88,
+      "text": "if you haven't used hooks before,"
+    },
+    {
+      "start": 298.96,
+      "duration": 4.4,
+      "text": "effectively what they are commands that"
+    },
+    {
+      "start": 300.639,
+      "duration": 4.321,
+      "text": "run on different events. Now, there is a"
+    },
+    {
+      "start": 303.36,
+      "duration": 3.76,
+      "text": "stop hook, and this is something that I"
+    },
+    {
+      "start": 304.96,
+      "duration": 4.079,
+      "text": "covered in an earlier video on the Ralph"
+    },
+    {
+      "start": 307.12,
+      "duration": 3.28,
+      "text": "Wigums loop where what you can do is to"
+    },
+    {
+      "start": 309.039,
+      "duration": 3.281,
+      "text": "have Claude persist and run"
+    },
+    {
+      "start": 310.4,
+      "duration": 4.32,
+      "text": "automatically. You can actually bind a"
+    },
+    {
+      "start": 312.32,
+      "duration": 5.439,
+      "text": "shell script to invoke and have Claude"
+    },
+    {
+      "start": 314.72,
+      "duration": 5.36,
+      "text": "continue whenever that stop hook is run."
+    },
+    {
+      "start": 317.759,
+      "duration": 4.641,
+      "text": "But it can also be perfect for end of"
+    },
+    {
+      "start": 320.08,
+      "duration": 4,
+      "text": "session analysis just like this. Now the"
+    },
+    {
+      "start": 322.4,
+      "duration": 3.2,
+      "text": "syntax is broken within this example"
+    },
+    {
+      "start": 324.08,
+      "duration": 3.36,
+      "text": "here, but effectively what this is going"
+    },
+    {
+      "start": 325.6,
+      "duration": 4.08,
+      "text": "to do is on the stop hook, we're going"
+    },
+    {
+      "start": 327.44,
+      "duration": 3.84,
+      "text": "to go and trigger that shell script to"
+    },
+    {
+      "start": 329.68,
+      "duration": 3.2,
+      "text": "reflect. If you are going to be running"
+    },
+    {
+      "start": 331.28,
+      "duration": 3.6,
+      "text": "this automatically, you do want to have"
+    },
+    {
+      "start": 332.88,
+      "duration": 3.68,
+      "text": "a lot of confidence in terms of that"
+    },
+    {
+      "start": 334.88,
+      "duration": 3.68,
+      "text": "reflect mechanism and what it's actually"
+    },
+    {
+      "start": 336.56,
+      "duration": 3.76,
+      "text": "doing. But what it will do is you will"
+    },
+    {
+      "start": 338.56,
+      "duration": 3.919,
+      "text": "go through the process just like before."
+    },
+    {
+      "start": 340.32,
+      "duration": 4.319,
+      "text": "And then once the session ends, the hook"
+    },
+    {
+      "start": 342.479,
+      "duration": 4.081,
+      "text": "is going to analyze and automatically"
+    },
+    {
+      "start": 344.639,
+      "duration": 3.361,
+      "text": "update all of those different learnings."
+    },
+    {
+      "start": 346.56,
+      "duration": 3.28,
+      "text": "This is going to be that continual"
+    },
+    {
+      "start": 348,
+      "duration": 3.759,
+      "text": "self-improving loop that you can have"
+    },
+    {
+      "start": 349.84,
+      "duration": 4.32,
+      "text": "within cloud code. You can very well"
+    },
+    {
+      "start": 351.759,
+      "duration": 4.961,
+      "text": "also leverage the same strategy of"
+    },
+    {
+      "start": 354.16,
+      "duration": 4.319,
+      "text": "continual learning within other agentic"
+    },
+    {
+      "start": 356.72,
+      "duration": 3.36,
+      "text": "systems as well. And so what it will do"
+    },
+    {
+      "start": 358.479,
+      "duration": 3.121,
+      "text": "is in that button example, it will go"
+    },
+    {
+      "start": 360.08,
+      "duration": 2.959,
+      "text": "ahead, it will learn from the session."
+    },
+    {
+      "start": 361.6,
+      "duration": 3.599,
+      "text": "Then what it will look like within cloud"
+    },
+    {
+      "start": 363.039,
+      "duration": 3.761,
+      "text": "code is we'll see learn from session and"
+    },
+    {
+      "start": 365.199,
+      "duration": 3.361,
+      "text": "it will have the skill that it updated."
+    },
+    {
+      "start": 366.8,
+      "duration": 3.2,
+      "text": "So it's effectively more of a silent"
+    },
+    {
+      "start": 368.56,
+      "duration": 2.72,
+      "text": "notification, but just like this"
+    },
+    {
+      "start": 370,
+      "duration": 3.12,
+      "text": "indication like you see on the screen"
+    },
+    {
+      "start": 371.28,
+      "duration": 3.359,
+      "text": "here that it actually updated that"
+    },
+    {
+      "start": 373.12,
+      "duration": 3.28,
+      "text": "particular skill. And then in terms of"
+    },
+    {
+      "start": 374.639,
+      "duration": 4,
+      "text": "the reflect shell script that gets"
+    },
+    {
+      "start": 376.4,
+      "duration": 4.32,
+      "text": "invoked on the stop hook, we can turn it"
+    },
+    {
+      "start": 378.639,
+      "duration": 3.921,
+      "text": "on. There's a mechanism to reflect on,"
+    },
+    {
+      "start": 380.72,
+      "duration": 2.96,
+      "text": "reflect off, and this is effectively"
+    },
+    {
+      "start": 382.56,
+      "duration": 3.199,
+      "text": "going to work the same way as the"
+    },
+    {
+      "start": 383.68,
+      "duration": 3.84,
+      "text": "reflect pattern that we had, though just"
+    },
+    {
+      "start": 385.759,
+      "duration": 3.361,
+      "text": "being automatic. The one thing that I"
+    },
+    {
+      "start": 387.52,
+      "duration": 3.6,
+      "text": "find exciting about this is you can"
+    },
+    {
+      "start": 389.12,
+      "duration": 4.16,
+      "text": "leverage skills for a ton of different"
+    },
+    {
+      "start": 391.12,
+      "duration": 4.4,
+      "text": "things. This can be for code review, API"
+    },
+    {
+      "start": 393.28,
+      "duration": 4.72,
+      "text": "design, testing, documentation, amongst"
+    },
+    {
+      "start": 395.52,
+      "duration": 4.08,
+      "text": "a ton of other use cases. And having"
+    },
+    {
+      "start": 398,
+      "duration": 3.44,
+      "text": "skills actually be able to learn from"
+    },
+    {
+      "start": 399.6,
+      "duration": 3.599,
+      "text": "your conversation, I think, can be"
+    },
+    {
+      "start": 401.44,
+      "duration": 3.68,
+      "text": "something that is pretty powerful. and"
+    },
+    {
+      "start": 403.199,
+      "duration": 3.28,
+      "text": "also having it within skills. You don't"
+    },
+    {
+      "start": 405.12,
+      "duration": 3.04,
+      "text": "have to worry about embeddings and"
+    },
+    {
+      "start": 406.479,
+      "duration": 3.521,
+      "text": "memory and all of the complexity that"
+    },
+    {
+      "start": 408.16,
+      "duration": 3.68,
+      "text": "comes with typical memory systems that"
+    },
+    {
+      "start": 410,
+      "duration": 3.84,
+      "text": "we see out there. This is going to all"
+    },
+    {
+      "start": 411.84,
+      "duration": 3.76,
+      "text": "be within a markdown file that you can"
+    },
+    {
+      "start": 413.84,
+      "duration": 2.96,
+      "text": "simply read with natural language. And"
+    },
+    {
+      "start": 415.6,
+      "duration": 2.879,
+      "text": "now the other thing that I like about"
+    },
+    {
+      "start": 416.8,
+      "duration": 3.519,
+      "text": "this is actually having it within git"
+    },
+    {
+      "start": 418.479,
+      "duration": 3.28,
+      "text": "cuz you can see how the system learns"
+    },
+    {
+      "start": 420.319,
+      "duration": 3.201,
+      "text": "over time. If you have a front-end"
+    },
+    {
+      "start": 421.759,
+      "duration": 3.361,
+      "text": "skill, you can see all of the different"
+    },
+    {
+      "start": 423.52,
+      "duration": 3.04,
+      "text": "things that are learned as it goes"
+    },
+    {
+      "start": 425.12,
+      "duration": 3.44,
+      "text": "through instead of actually having to"
+    },
+    {
+      "start": 426.56,
+      "duration": 3.52,
+      "text": "start from blank every single time. But"
+    },
+    {
+      "start": 428.56,
+      "duration": 3.44,
+      "text": "I think the more interesting aspect of"
+    },
+    {
+      "start": 430.08,
+      "duration": 4.48,
+      "text": "this is you can see how those skills"
+    },
+    {
+      "start": 432,
+      "duration": 4.72,
+      "text": "evolve over time and how your system"
+    },
+    {
+      "start": 434.56,
+      "duration": 3.44,
+      "text": "gets smarter over time as you have"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.8,
+      "text": "conversations with it. You're going to"
+    },
+    {
+      "start": 438,
+      "duration": 3.68,
+      "text": "be able to see all of the different"
+    },
+    {
+      "start": 439.52,
+      "duration": 3.92,
+      "text": "learnings for the particular skills if"
+    },
+    {
+      "start": 441.68,
+      "duration": 3.359,
+      "text": "you are to leverage this within Git as"
+    },
+    {
+      "start": 443.44,
+      "duration": 3.28,
+      "text": "well. And just to wrap up, if you aren't"
+    },
+    {
+      "start": 445.039,
+      "duration": 3.361,
+      "text": "as familiar with agent skills, I'll put"
+    },
+    {
+      "start": 446.72,
+      "duration": 3.52,
+      "text": "a couple links within the description of"
+    },
+    {
+      "start": 448.4,
+      "duration": 3.6,
+      "text": "the video. I'll also do some other"
+    },
+    {
+      "start": 450.24,
+      "duration": 4,
+      "text": "videos probably over the course of the"
+    },
+    {
+      "start": 452,
+      "duration": 3.52,
+      "text": "month on this type of topic as well. So"
+    },
+    {
+      "start": 454.24,
+      "duration": 2.799,
+      "text": "feel free to subscribe if you're"
+    },
+    {
+      "start": 455.52,
+      "duration": 2.88,
+      "text": "interested in this type of content."
+    },
+    {
+      "start": 457.039,
+      "duration": 3.041,
+      "text": "Okay. Okay, last but not least, just to"
+    },
+    {
+      "start": 458.4,
+      "duration": 2.639,
+      "text": "sum up what we've touched on, there's a"
+    },
+    {
+      "start": 460.08,
+      "duration": 2.399,
+      "text": "couple different ways to do this. You"
+    },
+    {
+      "start": 461.039,
+      "duration": 2.961,
+      "text": "can do it through the autodetect method,"
+    },
+    {
+      "start": 462.479,
+      "duration": 3.761,
+      "text": "you can do it through the manual method,"
+    },
+    {
+      "start": 464,
+      "duration": 3.759,
+      "text": "or you can toggle on and off and do a"
+    },
+    {
+      "start": 466.24,
+      "duration": 3.519,
+      "text": "little bit of both. If you do want to"
+    },
+    {
+      "start": 467.759,
+      "duration": 3.601,
+      "text": "leverage the auto detect method, see how"
+    },
+    {
+      "start": 469.759,
+      "duration": 3.601,
+      "text": "it works for a little bit. You can try"
+    },
+    {
+      "start": 471.36,
+      "duration": 3.92,
+      "text": "that. Additionally, I'd encourage you"
+    },
+    {
+      "start": 473.36,
+      "duration": 3.92,
+      "text": "just get familiar with the actual"
+    },
+    {
+      "start": 475.28,
+      "duration": 3.919,
+      "text": "reflect mechanism. I'll put a link to"
+    },
+    {
+      "start": 477.28,
+      "duration": 3.44,
+      "text": "the working copy of the one that I'm"
+    },
+    {
+      "start": 479.199,
+      "duration": 3.361,
+      "text": "leveraging within the description of the"
+    },
+    {
+      "start": 480.72,
+      "duration": 3.44,
+      "text": "video if you're interested. And then we"
+    },
+    {
+      "start": 482.56,
+      "duration": 3.44,
+      "text": "also have the toggle mechanism. So, if"
+    },
+    {
+      "start": 484.16,
+      "duration": 3.92,
+      "text": "you want to use a combination of manual"
+    },
+    {
+      "start": 486,
+      "duration": 4.8,
+      "text": "as well as automatic, you have to turn"
+    },
+    {
+      "start": 488.08,
+      "duration": 4.559,
+      "text": "on that auto detect mechanism when it's"
+    },
+    {
+      "start": 490.8,
+      "duration": 3.519,
+      "text": "triggered within the hook. Okay. So, all"
+    },
+    {
+      "start": 492.639,
+      "duration": 3.761,
+      "text": "in all, the goal with this is to correct"
+    },
+    {
+      "start": 494.319,
+      "duration": 3.681,
+      "text": "once and then never again. This is a"
+    },
+    {
+      "start": 496.4,
+      "duration": 3.359,
+      "text": "start. I'm not saying this is definitely"
+    },
+    {
+      "start": 498,
+      "duration": 3.36,
+      "text": "the end solution, but hopefully it"
+    },
+    {
+      "start": 499.759,
+      "duration": 3.361,
+      "text": "inspires some ideas in terms of how you"
+    },
+    {
+      "start": 501.36,
+      "duration": 3.2,
+      "text": "can leverage skills, self-improvement,"
+    },
+    {
+      "start": 503.12,
+      "duration": 2.72,
+      "text": "as well as continual learning."
+    },
+    {
+      "start": 504.56,
+      "duration": 2.72,
+      "text": "Otherwise, if you're interested in this"
+    },
+    {
+      "start": 505.84,
+      "duration": 3.039,
+      "text": "type of stuff, follow the channel. I'll"
+    },
+    {
+      "start": 507.28,
+      "duration": 2.96,
+      "text": "be covering some more ideas in and"
+    },
+    {
+      "start": 508.879,
+      "duration": 2.72,
+      "text": "around this type of stuff over the"
+    },
+    {
+      "start": 510.24,
+      "duration": 2.799,
+      "text": "coming weeks. But otherwise, if you"
+    },
+    {
+      "start": 511.599,
+      "duration": 4.081,
+      "text": "found this video useful, please comment,"
+    },
+    {
+      "start": 513.039,
+      "duration": 2.641,
+      "text": "share, and subscribe."
+    }
+  ],
+  "fullText": "In this video, I'm going to be showing you how to set up self-improving skills within cloud code. Now, one of the issues with LLMs right now is they don't actually learn from us. Just to run through an example of this, let's say you're working on a web application. There might be a mistake that the coding harness or the model that you're using makes within the first iteration of what it's trying to do. Let's say you want to add a new feature and then it has a button as a part of that feature. Just a simple but relatively common mistake could be that an LLM doesn't actually know the particular button that you might want to leverage. Generally speaking, you can tell from certain inputs and buttons what is actually generated from an LLM. Now, you might correct that mistake and say, \"Okay, I actually want you to reference this button.\" But the issue with this is when you actually correct it within that session, when you pick up in a second session, it's going to make that same mistake again. And you're going to have to correct it or remember to actually specify to reference that particular button. Same thing for the next session. And this loop will continue. Every conversation effectively starts from zero. And the thing with this problem is it touches every single model that is out there as well as every single coding harness. Not having a good effective memory mechanism within the harness in my opinion can definitely lead to a lot of different frustrations. Now this frustration can come up in a number of different ways. It might not follow naming conventions. Use the proper logging convention. It might not validate inputs the proper way that you did within other components. Had that experience where you're just thinking, I just told you this yesterday or I told you this last week. The issue with this is there's no memory. your preferences aren't persisted and effectively without some form of memory is you're going to be repeating yourself forever. The solution to this is relatively simple. We can actually set up a reflex skill to analyze the session, extract corrections and update the skill file. One thing that I've been playing around with is for my global skills that I use across my machine is I have all of those different skills versioned on GitHub as I have them reflect and iterate on those particular skills. I can see all of those different memories over time and if there are regressions and if I want to roll it back, it makes it easy to have it all within the version control within git. So now the way that I've set this up is there's a few different mechanisms to this and it's relatively simple. I have the ability to turn reflect on, reflect off, and then reflect status. There's two different ways that we can do this. There's a manual way, and then there's also an automatic way. First, let's touch on the manual flow. There's a skill called reflect, and then there's a slash command. As soon as you go through a conversation and if there's something that you want to have it remember, you can simply call that slash command and it will have the context of the conversation and then it will reference the particular skills and then it can go and update those accordingly. And the nice thing with the manual update is you're going to have a lot more control in terms of what is actually being updated within the skill file. Just to go through a hypothetical example, so you might leverage the skill, it might say here's my review of the O module and you might realize, oh, it's actually not looking for SQL injections. we could go and specify always check for SQL injections and then from there cloud will go in the current session check for SQL injections similar to the button example that I had and then ideally it will come back and show you that it's done and the really nice thing with this is corrections are all signals that could be good memories approvals are further confirmations and the reflect command and skill will extract both of these and then after that process all that we need to do is actually run the command to reflect we have two different ways that we can do this we can run the reflect command And or we can also explicitly pass in the skill name as well. But if you just pass in reflect, it will have the contextual awareness since it is within that thread to know when that skill was actually invoked. Effectively, Claude will analyze and scan the conversation for corrections. It will identify success patterns, post skill updates, and the way that this is set up is it will give you a breakdown of different confidence levels. There will be high, medium, as well as low. If I say never do X, like never come up with a button style on your own within this project, you can go ahead and specify something like that. Medium are going to be patterns that worked well. And low are going to be observations to review later. And all of this works is just through this skill file. You're going to be able to edit this, tweak it if you want to have version control, or if you don't, you can go ahead add in a G integration. Additionally, you can just remove that if you don't want to leverage it. I'll link all of this within the description of the video before it actually updates through respective skill. This is what the review and approval process looks like. We have the signals that were detected. We have the proposed changes. And then we have the commit message that it's going to add if we go and accept those. Additionally, what we can do within here is we can just change and we can change with natural language. That's one of the really nice things with this in terms of actually applying these to our skills directory as well as pushing them to get. We can either click Y and or we can type with natural language the different changes that we want to have within Cloud Code. And then once you've either made those changes or you've accepted what Claude has proposed, it's going to edit the particular skill and then it's going to go ahead and commit that within Git. And then it's going to go ahead and push that up. And one thing about this process that I did want to have within at least my setup is for all of those different changes that it makes within the skill, make sure you're actually versioning all of those as Next up, you can actually take the same flow and you can automate it. You can have hooks trigger reflections automatically. Now, if you haven't used hooks before, effectively what they are commands that run on different events. Now, there is a stop hook, and this is something that I covered in an earlier video on the Ralph Wigums loop where what you can do is to have Claude persist and run automatically. You can actually bind a shell script to invoke and have Claude continue whenever that stop hook is run. But it can also be perfect for end of session analysis just like this. Now the syntax is broken within this example here, but effectively what this is going to do is on the stop hook, we're going to go and trigger that shell script to reflect. If you are going to be running this automatically, you do want to have a lot of confidence in terms of that reflect mechanism and what it's actually doing. But what it will do is you will go through the process just like before. And then once the session ends, the hook is going to analyze and automatically update all of those different learnings. This is going to be that continual self-improving loop that you can have within cloud code. You can very well also leverage the same strategy of continual learning within other agentic systems as well. And so what it will do is in that button example, it will go ahead, it will learn from the session. Then what it will look like within cloud code is we'll see learn from session and it will have the skill that it updated. So it's effectively more of a silent notification, but just like this indication like you see on the screen here that it actually updated that particular skill. And then in terms of the reflect shell script that gets invoked on the stop hook, we can turn it on. There's a mechanism to reflect on, reflect off, and this is effectively going to work the same way as the reflect pattern that we had, though just being automatic. The one thing that I find exciting about this is you can leverage skills for a ton of different things. This can be for code review, API design, testing, documentation, amongst a ton of other use cases. And having skills actually be able to learn from your conversation, I think, can be something that is pretty powerful. and also having it within skills. You don't have to worry about embeddings and memory and all of the complexity that comes with typical memory systems that we see out there. This is going to all be within a markdown file that you can simply read with natural language. And now the other thing that I like about this is actually having it within git cuz you can see how the system learns over time. If you have a front-end skill, you can see all of the different things that are learned as it goes through instead of actually having to start from blank every single time. But I think the more interesting aspect of this is you can see how those skills evolve over time and how your system gets smarter over time as you have conversations with it. You're going to be able to see all of the different learnings for the particular skills if you are to leverage this within Git as well. And just to wrap up, if you aren't as familiar with agent skills, I'll put a couple links within the description of the video. I'll also do some other videos probably over the course of the month on this type of topic as well. So feel free to subscribe if you're interested in this type of content. Okay. Okay, last but not least, just to sum up what we've touched on, there's a couple different ways to do this. You can do it through the autodetect method, you can do it through the manual method, or you can toggle on and off and do a little bit of both. If you do want to leverage the auto detect method, see how it works for a little bit. You can try that. Additionally, I'd encourage you just get familiar with the actual reflect mechanism. I'll put a link to the working copy of the one that I'm leveraging within the description of the video if you're interested. And then we also have the toggle mechanism. So, if you want to use a combination of manual as well as automatic, you have to turn on that auto detect mechanism when it's triggered within the hook. Okay. So, all in all, the goal with this is to correct once and then never again. This is a start. I'm not saying this is definitely the end solution, but hopefully it inspires some ideas in terms of how you can leverage skills, self-improvement, as well as continual learning. Otherwise, if you're interested in this type of stuff, follow the channel. I'll be covering some more ideas in and around this type of stuff over the coming weeks. But otherwise, if you found this video useful, please comment, share, and subscribe.",
+  "fetchedAt": "2026-01-18T18:31:26.558Z"
+}

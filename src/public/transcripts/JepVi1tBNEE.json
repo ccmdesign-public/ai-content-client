@@ -1,0 +1,664 @@
+{
+  "videoId": "JepVi1tBNEE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.719,
+      "duration": 3.841,
+      "text": "Agents are smart, but skills make them"
+    },
+    {
+      "start": 2.72,
+      "duration": 4.4,
+      "text": "unstoppable. And they're now available"
+    },
+    {
+      "start": 4.56,
+      "duration": 4.8,
+      "text": "inside of VS Code. Agent skills are"
+    },
+    {
+      "start": 7.12,
+      "duration": 4.8,
+      "text": "folders of instructions, scripts, and"
+    },
+    {
+      "start": 9.36,
+      "duration": 4.48,
+      "text": "resources that load on demand to perform"
+    },
+    {
+      "start": 11.92,
+      "duration": 4.08,
+      "text": "specialized tasks. And best of all,"
+    },
+    {
+      "start": 13.84,
+      "duration": 4.88,
+      "text": "they're an open standard. They really"
+    },
+    {
+      "start": 16,
+      "duration": 5.279,
+      "text": "help tailor agents for domain specific"
+    },
+    {
+      "start": 18.72,
+      "duration": 5.68,
+      "text": "tasks, reducing repetition, and they let"
+    },
+    {
+      "start": 21.279,
+      "duration": 5.281,
+      "text": "you compose complex workflows. So from"
+    },
+    {
+      "start": 24.4,
+      "duration": 4,
+      "text": "how you build a project, perform web"
+    },
+    {
+      "start": 26.56,
+      "duration": 4.16,
+      "text": "testing, manipulate images, write"
+    },
+    {
+      "start": 28.4,
+      "duration": 5.36,
+      "text": "documentation, or even set up full CI"
+    },
+    {
+      "start": 30.72,
+      "duration": 5.04,
+      "text": "systems, skills make agents know how to"
+    },
+    {
+      "start": 33.76,
+      "duration": 4.08,
+      "text": "do the work and how you want it to be"
+    },
+    {
+      "start": 35.76,
+      "duration": 4,
+      "text": "done. So let's take a look at how to"
+    },
+    {
+      "start": 37.84,
+      "duration": 5.28,
+      "text": "build and trigger your first skill"
+    },
+    {
+      "start": 39.76,
+      "duration": 5.28,
+      "text": "inside of VS Code. To get started using"
+    },
+    {
+      "start": 43.12,
+      "duration": 4.24,
+      "text": "skills, head into your settings and"
+    },
+    {
+      "start": 45.04,
+      "duration": 4.08,
+      "text": "enable use agent skills. Once you do,"
+    },
+    {
+      "start": 47.36,
+      "duration": 3.679,
+      "text": "skills and resources can be loaded from"
+    },
+    {
+      "start": 49.12,
+      "duration": 3.68,
+      "text": "several different locations. Here I have"
+    },
+    {
+      "start": 51.039,
+      "duration": 4.16,
+      "text": "a brand new project and I write a lot of"
+    },
+    {
+      "start": 52.8,
+      "duration": 3.599,
+      "text": "PRDs or product requirement documents. I"
+    },
+    {
+      "start": 55.199,
+      "duration": 3.36,
+      "text": "want to create a skill to help me"
+    },
+    {
+      "start": 56.399,
+      "duration": 4.081,
+      "text": "streamline that process. So in my GitHub"
+    },
+    {
+      "start": 58.559,
+      "duration": 4,
+      "text": "folder with my agents, prompts and"
+    },
+    {
+      "start": 60.48,
+      "duration": 4.24,
+      "text": "custom instructions. I have a skills"
+    },
+    {
+      "start": 62.559,
+      "duration": 4.001,
+      "text": "folder. Now inside this folder will be a"
+    },
+    {
+      "start": 64.72,
+      "duration": 3.6,
+      "text": "bunch of different subfolders containing"
+    },
+    {
+      "start": 66.56,
+      "duration": 3.36,
+      "text": "each of the different skills for my"
+    },
+    {
+      "start": 68.32,
+      "duration": 5.68,
+      "text": "project. So I'm going to create a new"
+    },
+    {
+      "start": 69.92,
+      "duration": 7.12,
+      "text": "folder called PRD writing. And inside of"
+    },
+    {
+      "start": 74,
+      "duration": 4.72,
+      "text": "this folder will contain at least a"
+    },
+    {
+      "start": 77.04,
+      "duration": 4.56,
+      "text": "skill.md"
+    },
+    {
+      "start": 78.72,
+      "duration": 4.96,
+      "text": "file that outlines the skill itself. And"
+    },
+    {
+      "start": 81.6,
+      "duration": 4.24,
+      "text": "it may have other resources as well such"
+    },
+    {
+      "start": 83.68,
+      "duration": 4.88,
+      "text": "as JavaScript files or images or other"
+    },
+    {
+      "start": 85.84,
+      "duration": 5.84,
+      "text": "things like that. So here I've created"
+    },
+    {
+      "start": 88.56,
+      "duration": 5.68,
+      "text": "what I like for creating PRDS or my main"
+    },
+    {
+      "start": 91.68,
+      "duration": 5.439,
+      "text": "workflow. Now up top we have some front"
+    },
+    {
+      "start": 94.24,
+      "duration": 4.879,
+      "text": "matter that defines the name and when"
+    },
+    {
+      "start": 97.119,
+      "duration": 3.841,
+      "text": "specifically an agent may want to use"
+    },
+    {
+      "start": 99.119,
+      "duration": 4.561,
+      "text": "this skill. So here when I'm creating"
+    },
+    {
+      "start": 100.96,
+      "duration": 5.6,
+      "text": "PRDS and then I define my workflow for"
+    },
+    {
+      "start": 103.68,
+      "duration": 6.32,
+      "text": "example when exactly I want to use it my"
+    },
+    {
+      "start": 106.56,
+      "duration": 6.239,
+      "text": "stages such as context gathering section"
+    },
+    {
+      "start": 110,
+      "duration": 6.159,
+      "text": "drafting and then validation. So this"
+    },
+    {
+      "start": 112.799,
+      "duration": 6.161,
+      "text": "gives a full workflow that the agent is"
+    },
+    {
+      "start": 116.159,
+      "duration": 5.361,
+      "text": "now aware of. So that means if I come"
+    },
+    {
+      "start": 118.96,
+      "duration": 4.159,
+      "text": "down and I start to draft up a message"
+    },
+    {
+      "start": 121.52,
+      "duration": 4.879,
+      "text": "of what I want the agent to start"
+    },
+    {
+      "start": 123.119,
+      "duration": 4.881,
+      "text": "working on, I can say, \"Let's write a"
+    },
+    {
+      "start": 126.399,
+      "duration": 6.161,
+      "text": "PRD"
+    },
+    {
+      "start": 128,
+      "duration": 6.879,
+      "text": "for a new website to create and share"
+    },
+    {
+      "start": 132.56,
+      "duration": 5.28,
+      "text": "agent skills.\""
+    },
+    {
+      "start": 134.879,
+      "duration": 5.761,
+      "text": "So now it will use its references and"
+    },
+    {
+      "start": 137.84,
+      "duration": 4.8,
+      "text": "resources and take a look to see if a"
+    },
+    {
+      "start": 140.64,
+      "duration": 3.76,
+      "text": "skill is available. And yep, sure"
+    },
+    {
+      "start": 142.64,
+      "duration": 5.92,
+      "text": "enough, it's read the skill, which is"
+    },
+    {
+      "start": 144.4,
+      "duration": 7.199,
+      "text": "the PRD writing skill. And we can see"
+    },
+    {
+      "start": 148.56,
+      "duration": 5.6,
+      "text": "that it is now drafting in stage one the"
+    },
+    {
+      "start": 151.599,
+      "duration": 4.72,
+      "text": "context gathering to help me start to"
+    },
+    {
+      "start": 154.16,
+      "duration": 5.439,
+      "text": "build this PRD out and it will continue"
+    },
+    {
+      "start": 156.319,
+      "duration": 5.441,
+      "text": "on using that skill. This is natural as"
+    },
+    {
+      "start": 159.599,
+      "duration": 5.521,
+      "text": "part of my process as I'm asking the"
+    },
+    {
+      "start": 161.76,
+      "duration": 6.4,
+      "text": "agent to write code draft documentation."
+    },
+    {
+      "start": 165.12,
+      "duration": 4.88,
+      "text": "It can be aware of the skill and loaded"
+    },
+    {
+      "start": 168.16,
+      "duration": 3.28,
+      "text": "on demand for me. Now, I mentioned this"
+    },
+    {
+      "start": 170,
+      "duration": 3.28,
+      "text": "is an open standard, which means this"
+    },
+    {
+      "start": 171.44,
+      "duration": 3.92,
+      "text": "skill can be transferable to other"
+    },
+    {
+      "start": 173.28,
+      "duration": 3.84,
+      "text": "agents that are compatible with agent"
+    },
+    {
+      "start": 175.36,
+      "duration": 4.959,
+      "text": "skills such as the GitHub copilot cloud"
+    },
+    {
+      "start": 177.12,
+      "duration": 4.88,
+      "text": "agent and also the CLI. Okay, we just"
+    },
+    {
+      "start": 180.319,
+      "duration": 3.041,
+      "text": "built and used our very first agent"
+    },
+    {
+      "start": 182,
+      "duration": 3.36,
+      "text": "skill. But what does it look like in"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.599,
+      "text": "everyday development? Well, here I have"
+    },
+    {
+      "start": 185.36,
+      "duration": 2.959,
+      "text": "the source code for one of the websites"
+    },
+    {
+      "start": 186.959,
+      "duration": 3.36,
+      "text": "that I built, visual studio"
+    },
+    {
+      "start": 188.319,
+      "duration": 4.401,
+      "text": "wallpapers.com, that, as you guessed it,"
+    },
+    {
+      "start": 190.319,
+      "duration": 4.56,
+      "text": "has a bunch of wallpapers for a bunch of"
+    },
+    {
+      "start": 192.72,
+      "duration": 4.96,
+      "text": "different screen sizes for Visual Studio"
+    },
+    {
+      "start": 194.879,
+      "duration": 5.201,
+      "text": "and VS Code. Now, here I have many"
+    },
+    {
+      "start": 197.68,
+      "duration": 5.12,
+      "text": "skills. I do tons of image manipulation."
+    },
+    {
+      "start": 200.08,
+      "duration": 6.56,
+      "text": "So I have an skill specifically on how I"
+    },
+    {
+      "start": 202.8,
+      "duration": 6.32,
+      "text": "like to use image magic to do resizing,"
+    },
+    {
+      "start": 206.64,
+      "duration": 4.72,
+      "text": "conversions, batch processing a lot more"
+    },
+    {
+      "start": 209.12,
+      "duration": 4.32,
+      "text": "and what commands and how to locate it."
+    },
+    {
+      "start": 211.36,
+      "duration": 4.08,
+      "text": "I have one specifically on PRD writing"
+    },
+    {
+      "start": 213.44,
+      "duration": 3.84,
+      "text": "that we just saw and a skill for web"
+    },
+    {
+      "start": 215.44,
+      "duration": 4,
+      "text": "testing. So how to interact with the web"
+    },
+    {
+      "start": 217.28,
+      "duration": 4.239,
+      "text": "page using playwright and even how to"
+    },
+    {
+      "start": 219.44,
+      "duration": 3.84,
+      "text": "build out tests. I even have a test"
+    },
+    {
+      "start": 221.519,
+      "duration": 3.841,
+      "text": "helper JavaScript file as a resource"
+    },
+    {
+      "start": 223.28,
+      "duration": 3.92,
+      "text": "that the skill can use. And this is"
+    },
+    {
+      "start": 225.36,
+      "duration": 3.12,
+      "text": "leveraging progressive loading. And"
+    },
+    {
+      "start": 227.2,
+      "duration": 3.28,
+      "text": "that's what makes skills different from"
+    },
+    {
+      "start": 228.48,
+      "duration": 4.08,
+      "text": "instructions. They come with more files"
+    },
+    {
+      "start": 230.48,
+      "duration": 4,
+      "text": "that can be loaded on demand when"
+    },
+    {
+      "start": 232.56,
+      "duration": 4.16,
+      "text": "they're needed. So here inside of the"
+    },
+    {
+      "start": 234.48,
+      "duration": 4.56,
+      "text": "agent chat, we can see that I asked it"
+    },
+    {
+      "start": 236.72,
+      "duration": 5.92,
+      "text": "what skills are available. And it's"
+    },
+    {
+      "start": 239.04,
+      "duration": 6.32,
+      "text": "identified the three skills and it shows"
+    },
+    {
+      "start": 242.64,
+      "duration": 6.08,
+      "text": "that different metadata description that"
+    },
+    {
+      "start": 245.36,
+      "duration": 5.68,
+      "text": "made it aware of when specifically it"
+    },
+    {
+      "start": 248.72,
+      "duration": 3.92,
+      "text": "would use one of those skills. So, I"
+    },
+    {
+      "start": 251.04,
+      "duration": 3.919,
+      "text": "come down to the chat and I'm going to"
+    },
+    {
+      "start": 252.64,
+      "duration": 6.319,
+      "text": "ask it to resize all of the images in"
+    },
+    {
+      "start": 254.959,
+      "duration": 5.921,
+      "text": "the 1080p folder into the 720p folder."
+    },
+    {
+      "start": 258.959,
+      "duration": 4.481,
+      "text": "And what we'll see is that it will use"
+    },
+    {
+      "start": 260.88,
+      "duration": 4.72,
+      "text": "these references to identify that it has"
+    },
+    {
+      "start": 263.44,
+      "duration": 4.08,
+      "text": "the skill available. There it is, of"
+    },
+    {
+      "start": 265.6,
+      "duration": 4.72,
+      "text": "image manipulation."
+    },
+    {
+      "start": 267.52,
+      "duration": 4.72,
+      "text": "It will then understand how to do batch"
+    },
+    {
+      "start": 270.32,
+      "duration": 4.319,
+      "text": "processing and what commands"
+    },
+    {
+      "start": 272.24,
+      "duration": 4.959,
+      "text": "specifically to call and how to locate"
+    },
+    {
+      "start": 274.639,
+      "duration": 5.201,
+      "text": "image magic on my machine or anybody's"
+    },
+    {
+      "start": 277.199,
+      "duration": 4.72,
+      "text": "machine. And now if we go over, we can"
+    },
+    {
+      "start": 279.84,
+      "duration": 5.28,
+      "text": "take a look. And sure enough, I have all"
+    },
+    {
+      "start": 281.919,
+      "duration": 4.961,
+      "text": "of my 720p images ready to go. Agent"
+    },
+    {
+      "start": 285.12,
+      "duration": 3.76,
+      "text": "skills aren't just fancy instructions."
+    },
+    {
+      "start": 286.88,
+      "duration": 3.759,
+      "text": "They're portable test specific workflows"
+    },
+    {
+      "start": 288.88,
+      "duration": 3.52,
+      "text": "that load only when you need them. So"
+    },
+    {
+      "start": 290.639,
+      "duration": 4,
+      "text": "unlike custom instructions, which are a"
+    },
+    {
+      "start": 292.4,
+      "duration": 4.48,
+      "text": "set often of coding standards, skills"
+    },
+    {
+      "start": 294.639,
+      "duration": 4.881,
+      "text": "bring scripts, examples, and automation"
+    },
+    {
+      "start": 296.88,
+      "duration": 5.36,
+      "text": "into the mix, making agents truly"
+    },
+    {
+      "start": 299.52,
+      "duration": 4.48,
+      "text": "actionoriented. So get started today and"
+    },
+    {
+      "start": 302.24,
+      "duration": 4.72,
+      "text": "build your first skills and start using"
+    },
+    {
+      "start": 304,
+      "duration": 6.28,
+      "text": "them inside of VS Code. And as always,"
+    },
+    {
+      "start": 306.96,
+      "duration": 3.32,
+      "text": "happy coding."
+    }
+  ],
+  "fullText": "Agents are smart, but skills make them unstoppable. And they're now available inside of VS Code. Agent skills are folders of instructions, scripts, and resources that load on demand to perform specialized tasks. And best of all, they're an open standard. They really help tailor agents for domain specific tasks, reducing repetition, and they let you compose complex workflows. So from how you build a project, perform web testing, manipulate images, write documentation, or even set up full CI systems, skills make agents know how to do the work and how you want it to be done. So let's take a look at how to build and trigger your first skill inside of VS Code. To get started using skills, head into your settings and enable use agent skills. Once you do, skills and resources can be loaded from several different locations. Here I have a brand new project and I write a lot of PRDs or product requirement documents. I want to create a skill to help me streamline that process. So in my GitHub folder with my agents, prompts and custom instructions. I have a skills folder. Now inside this folder will be a bunch of different subfolders containing each of the different skills for my project. So I'm going to create a new folder called PRD writing. And inside of this folder will contain at least a skill.md file that outlines the skill itself. And it may have other resources as well such as JavaScript files or images or other things like that. So here I've created what I like for creating PRDS or my main workflow. Now up top we have some front matter that defines the name and when specifically an agent may want to use this skill. So here when I'm creating PRDS and then I define my workflow for example when exactly I want to use it my stages such as context gathering section drafting and then validation. So this gives a full workflow that the agent is now aware of. So that means if I come down and I start to draft up a message of what I want the agent to start working on, I can say, \"Let's write a PRD for a new website to create and share agent skills.\" So now it will use its references and resources and take a look to see if a skill is available. And yep, sure enough, it's read the skill, which is the PRD writing skill. And we can see that it is now drafting in stage one the context gathering to help me start to build this PRD out and it will continue on using that skill. This is natural as part of my process as I'm asking the agent to write code draft documentation. It can be aware of the skill and loaded on demand for me. Now, I mentioned this is an open standard, which means this skill can be transferable to other agents that are compatible with agent skills such as the GitHub copilot cloud agent and also the CLI. Okay, we just built and used our very first agent skill. But what does it look like in everyday development? Well, here I have the source code for one of the websites that I built, visual studio wallpapers.com, that, as you guessed it, has a bunch of wallpapers for a bunch of different screen sizes for Visual Studio and VS Code. Now, here I have many skills. I do tons of image manipulation. So I have an skill specifically on how I like to use image magic to do resizing, conversions, batch processing a lot more and what commands and how to locate it. I have one specifically on PRD writing that we just saw and a skill for web testing. So how to interact with the web page using playwright and even how to build out tests. I even have a test helper JavaScript file as a resource that the skill can use. And this is leveraging progressive loading. And that's what makes skills different from instructions. They come with more files that can be loaded on demand when they're needed. So here inside of the agent chat, we can see that I asked it what skills are available. And it's identified the three skills and it shows that different metadata description that made it aware of when specifically it would use one of those skills. So, I come down to the chat and I'm going to ask it to resize all of the images in the 1080p folder into the 720p folder. And what we'll see is that it will use these references to identify that it has the skill available. There it is, of image manipulation. It will then understand how to do batch processing and what commands specifically to call and how to locate image magic on my machine or anybody's machine. And now if we go over, we can take a look. And sure enough, I have all of my 720p images ready to go. Agent skills aren't just fancy instructions. They're portable test specific workflows that load only when you need them. So unlike custom instructions, which are a set often of coding standards, skills bring scripts, examples, and automation into the mix, making agents truly actionoriented. So get started today and build your first skills and start using them inside of VS Code. And as always, happy coding.",
+  "fetchedAt": "2026-01-18T18:32:33.208Z"
+}

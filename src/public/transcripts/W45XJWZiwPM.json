@@ -1,0 +1,1479 @@
+{
+  "videoId": "W45XJWZiwPM",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 3.92,
+      "text": "Many people are trying to run 10 cloud"
+    },
+    {
+      "start": 2.08,
+      "duration": 4,
+      "text": "code instances at once to speed up their"
+    },
+    {
+      "start": 4.16,
+      "duration": 4.24,
+      "text": "AI coding. But everyone who does this"
+    },
+    {
+      "start": 6.08,
+      "duration": 4.24,
+      "text": "will run into two issues. First of all,"
+    },
+    {
+      "start": 8.4,
+      "duration": 4,
+      "text": "cloud code is going to cause massive"
+    },
+    {
+      "start": 10.32,
+      "duration": 4.319,
+      "text": "merge conflicts because all of these"
+    },
+    {
+      "start": 12.4,
+      "duration": 4.719,
+      "text": "different agents will try to change the"
+    },
+    {
+      "start": 14.639,
+      "duration": 4.321,
+      "text": "same files. And secondly, you don't even"
+    },
+    {
+      "start": 17.119,
+      "duration": 3.681,
+      "text": "understand the code these agents are"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.159,
+      "text": "writing, which is going to lead into"
+    },
+    {
+      "start": 20.8,
+      "duration": 4,
+      "text": "massive production bugs. But today I'm"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.441,
+      "text": "showing you Vibe Conbon, which is a"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.92,
+      "text": "really great open source project that"
+    },
+    {
+      "start": 26.56,
+      "duration": 4.24,
+      "text": "you can use today to organize all of"
+    },
+    {
+      "start": 28.72,
+      "duration": 3.44,
+      "text": "these agents and to check up on the code"
+    },
+    {
+      "start": 30.8,
+      "duration": 3.68,
+      "text": "to make sure that you can speed up your"
+    },
+    {
+      "start": 32.16,
+      "duration": 4.72,
+      "text": "AI coding while still keeping control of"
+    },
+    {
+      "start": 34.48,
+      "duration": 4.16,
+      "text": "what you're actually doing. Today's demo"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.44,
+      "text": "app is going to be a clone of the very"
+    },
+    {
+      "start": 38.64,
+      "duration": 3.52,
+      "text": "popular game Plants vs. Zombies, and"
+    },
+    {
+      "start": 40.32,
+      "duration": 3.84,
+      "text": "it's just a bit of a fun game to"
+    },
+    {
+      "start": 42.16,
+      "duration": 4.079,
+      "text": "showcase what it means to just do a lot"
+    },
+    {
+      "start": 44.16,
+      "duration": 4,
+      "text": "of parallel work. Because with this kind"
+    },
+    {
+      "start": 46.239,
+      "duration": 3.761,
+      "text": "of game development, you will see that"
+    },
+    {
+      "start": 48.16,
+      "duration": 3.76,
+      "text": "you can actually parallelize a lot of"
+    },
+    {
+      "start": 50,
+      "duration": 4.079,
+      "text": "the things that are needed to make the"
+    },
+    {
+      "start": 51.92,
+      "duration": 3.6,
+      "text": "game work properly. For example, this is"
+    },
+    {
+      "start": 54.079,
+      "duration": 3.761,
+      "text": "a game where you're supposed to create"
+    },
+    {
+      "start": 55.52,
+      "duration": 4,
+      "text": "plans that can defend against zombies,"
+    },
+    {
+      "start": 57.84,
+      "duration": 3.28,
+      "text": "right? We're going to be using five"
+    },
+    {
+      "start": 59.52,
+      "duration": 2.879,
+      "text": "combine to actually orchestrate my"
+    },
+    {
+      "start": 61.12,
+      "duration": 3.439,
+      "text": "agents. And I'm going to pull it up"
+    },
+    {
+      "start": 62.399,
+      "duration": 4.08,
+      "text": "right here. And it's all hosted locally."
+    },
+    {
+      "start": 64.559,
+      "duration": 3.6,
+      "text": "So I can just go into my PVC clone,"
+    },
+    {
+      "start": 66.479,
+      "duration": 3.201,
+      "text": "which is the repository. And you can see"
+    },
+    {
+      "start": 68.159,
+      "duration": 3.601,
+      "text": "that I already finished quite a lot of"
+    },
+    {
+      "start": 69.68,
+      "duration": 3.92,
+      "text": "tasks. And these tasks were all done"
+    },
+    {
+      "start": 71.76,
+      "duration": 3.679,
+      "text": "through Vibe Combon and created this"
+    },
+    {
+      "start": 73.6,
+      "duration": 3.76,
+      "text": "first proof of concept. It's not very"
+    },
+    {
+      "start": 75.439,
+      "duration": 3.601,
+      "text": "beautiful, but of course, I'm not"
+    },
+    {
+      "start": 77.36,
+      "duration": 3.68,
+      "text": "creating any assets here. It's all just,"
+    },
+    {
+      "start": 79.04,
+      "duration": 3.28,
+      "text": "you know, created with AI code. What"
+    },
+    {
+      "start": 81.04,
+      "duration": 3.84,
+      "text": "we're going to do now is we're going to"
+    },
+    {
+      "start": 82.32,
+      "duration": 4.88,
+      "text": "create two tasks to create new plans to"
+    },
+    {
+      "start": 84.88,
+      "duration": 3.599,
+      "text": "try and defeat the zombies faster. So,"
+    },
+    {
+      "start": 87.2,
+      "duration": 2.959,
+      "text": "first I'm going to click here on a plus"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.28,
+      "text": "in to-do and I'm going to write the task"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.28,
+      "text": "add a cherry bomb plan to the game. And"
+    },
+    {
+      "start": 91.759,
+      "duration": 3.281,
+      "text": "this is just going to be very similar to"
+    },
+    {
+      "start": 93.439,
+      "duration": 3.36,
+      "text": "your spec driven development. And here"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.439,
+      "text": "you need to describe in detail what"
+    },
+    {
+      "start": 96.799,
+      "duration": 3.28,
+      "text": "you're trying to build. So in this case,"
+    },
+    {
+      "start": 98.479,
+      "duration": 3.441,
+      "text": "I have a little bit of an explanation"
+    },
+    {
+      "start": 100.079,
+      "duration": 3.841,
+      "text": "already that I'm just going to copy"
+    },
+    {
+      "start": 101.92,
+      "duration": 4.08,
+      "text": "paste here to explain that this is an"
+    },
+    {
+      "start": 103.92,
+      "duration": 4.8,
+      "text": "instant use explosive plant that will"
+    },
+    {
+      "start": 106,
+      "duration": 4.799,
+      "text": "actually explode in a 3x3 area. And this"
+    },
+    {
+      "start": 108.72,
+      "duration": 3.759,
+      "text": "is already enough for cloud code to then"
+    },
+    {
+      "start": 110.799,
+      "duration": 3.521,
+      "text": "pick up on these changes in my main"
+    },
+    {
+      "start": 112.479,
+      "duration": 3.521,
+      "text": "branch using the default model which is"
+    },
+    {
+      "start": 114.32,
+      "duration": 3.36,
+      "text": "claude opus at the moment. So I can just"
+    },
+    {
+      "start": 116,
+      "duration": 3.68,
+      "text": "go ahead and create the task. I can"
+    },
+    {
+      "start": 117.68,
+      "duration": 4.16,
+      "text": "decide to not start it yet and then it"
+    },
+    {
+      "start": 119.68,
+      "duration": 4.079,
+      "text": "will just be added to my conbon board"
+    },
+    {
+      "start": 121.84,
+      "duration": 4.4,
+      "text": "just like with regular scrum agile"
+    },
+    {
+      "start": 123.759,
+      "duration": 4.881,
+      "text": "process and then I can move it into in"
+    },
+    {
+      "start": 126.24,
+      "duration": 4.56,
+      "text": "progress and now I can manually say that"
+    },
+    {
+      "start": 128.64,
+      "duration": 3.84,
+      "text": "I want a cloud agent to start working on"
+    },
+    {
+      "start": 130.8,
+      "duration": 3.6,
+      "text": "this in the base branch. So we're going"
+    },
+    {
+      "start": 132.48,
+      "duration": 3.52,
+      "text": "to go ahead and start it and then you'll"
+    },
+    {
+      "start": 134.4,
+      "duration": 3.199,
+      "text": "be able to see the code changes come in"
+    },
+    {
+      "start": 136,
+      "duration": 3.599,
+      "text": "but before we do that we're just going"
+    },
+    {
+      "start": 137.599,
+      "duration": 4,
+      "text": "to go ahead and create a new task"
+    },
+    {
+      "start": 139.599,
+      "duration": 3.761,
+      "text": "specifically to create the squash plant"
+    },
+    {
+      "start": 141.599,
+      "duration": 3.201,
+      "text": "and this one can just squash zombies"
+    },
+    {
+      "start": 143.36,
+      "duration": 3.04,
+      "text": "that are right in front of the plant."
+    },
+    {
+      "start": 144.8,
+      "duration": 3.36,
+      "text": "So, I'm just going to go ahead and paste"
+    },
+    {
+      "start": 146.4,
+      "duration": 3.199,
+      "text": "the same kind of description here. So,"
+    },
+    {
+      "start": 148.16,
+      "duration": 3.84,
+      "text": "we're going to go ahead and create that"
+    },
+    {
+      "start": 149.599,
+      "duration": 4.161,
+      "text": "task like so. And in this case, we can"
+    },
+    {
+      "start": 152,
+      "duration": 2.959,
+      "text": "just go check out the other task here."
+    },
+    {
+      "start": 153.76,
+      "duration": 2.64,
+      "text": "And you can see that it's already"
+    },
+    {
+      "start": 154.959,
+      "duration": 3.441,
+      "text": "working. It's reading all of the files"
+    },
+    {
+      "start": 156.4,
+      "duration": 3.44,
+      "text": "to understand how to create a plant. And"
+    },
+    {
+      "start": 158.4,
+      "duration": 3.76,
+      "text": "the great part about this is that the"
+    },
+    {
+      "start": 159.84,
+      "duration": 3.759,
+      "text": "logic for these two different plants can"
+    },
+    {
+      "start": 162.16,
+      "duration": 3.76,
+      "text": "live in different files. So, you're not"
+    },
+    {
+      "start": 163.599,
+      "duration": 3.841,
+      "text": "going to get a merge conflict. However,"
+    },
+    {
+      "start": 165.92,
+      "duration": 3.92,
+      "text": "there are some places in this kind of"
+    },
+    {
+      "start": 167.44,
+      "duration": 3.84,
+      "text": "game where these two plants will overlap"
+    },
+    {
+      "start": 169.84,
+      "duration": 4.32,
+      "text": "in terms of the code that has to be"
+    },
+    {
+      "start": 171.28,
+      "duration": 4.48,
+      "text": "changed. for example, the top bar here"
+    },
+    {
+      "start": 174.16,
+      "duration": 3.52,
+      "text": "that determines all the plants are"
+    },
+    {
+      "start": 175.76,
+      "duration": 3.68,
+      "text": "available for you to use. So, I'm"
+    },
+    {
+      "start": 177.68,
+      "duration": 3.76,
+      "text": "expecting a merge conflict to come up."
+    },
+    {
+      "start": 179.44,
+      "duration": 3.68,
+      "text": "But while these two tasks are running,"
+    },
+    {
+      "start": 181.44,
+      "duration": 3.36,
+      "text": "let's create one more task. I'm still"
+    },
+    {
+      "start": 183.12,
+      "duration": 3.119,
+      "text": "kind of developing this clone, and it"
+    },
+    {
+      "start": 184.8,
+      "duration": 4.32,
+      "text": "would be nice to have a bit of a debug"
+    },
+    {
+      "start": 186.239,
+      "duration": 5.36,
+      "text": "menu for me to give myself more sunpower"
+    },
+    {
+      "start": 189.12,
+      "duration": 4.479,
+      "text": "or just spawn in some zombies to test if"
+    },
+    {
+      "start": 191.599,
+      "duration": 3.841,
+      "text": "specific plants are working properly."
+    },
+    {
+      "start": 193.599,
+      "duration": 3.841,
+      "text": "So, I'm going to go and create a new"
+    },
+    {
+      "start": 195.44,
+      "duration": 3.84,
+      "text": "task for that. We're going to go ahead"
+    },
+    {
+      "start": 197.44,
+      "duration": 3.2,
+      "text": "and type debug panel features. And I'm"
+    },
+    {
+      "start": 199.28,
+      "duration": 3.039,
+      "text": "just going to prompt it with some of the"
+    },
+    {
+      "start": 200.64,
+      "duration": 4.08,
+      "text": "things that I want like that zombie"
+    },
+    {
+      "start": 202.319,
+      "duration": 4.56,
+      "text": "spawner and the plant cooldown toggle."
+    },
+    {
+      "start": 204.72,
+      "duration": 4,
+      "text": "So I'm just going to paste that in here."
+    },
+    {
+      "start": 206.879,
+      "duration": 4.161,
+      "text": "And we can go ahead and start creating"
+    },
+    {
+      "start": 208.72,
+      "duration": 4.239,
+      "text": "that immediately. Now while Clock code"
+    },
+    {
+      "start": 211.04,
+      "duration": 2.96,
+      "text": "is thinking in three different agents, I"
+    },
+    {
+      "start": 212.959,
+      "duration": 2.64,
+      "text": "wanted to let you know that you can"
+    },
+    {
+      "start": 214,
+      "duration": 3.2,
+      "text": "check out my free newsletter in the"
+    },
+    {
+      "start": 215.599,
+      "duration": 3.121,
+      "text": "description down below so you can keep"
+    },
+    {
+      "start": 217.2,
+      "duration": 3.28,
+      "text": "up to date with these kinds of AI"
+    },
+    {
+      "start": 218.72,
+      "duration": 3.68,
+      "text": "projects and advance your career with"
+    },
+    {
+      "start": 220.48,
+      "duration": 3.92,
+      "text": "real AI coding. I want to share with you"
+    },
+    {
+      "start": 222.4,
+      "duration": 3.68,
+      "text": "why this is so effective. If you check"
+    },
+    {
+      "start": 224.4,
+      "duration": 3.199,
+      "text": "out Visual Studio Code, you'll be able"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.439,
+      "text": "to see that we don't just have our main"
+    },
+    {
+      "start": 227.599,
+      "duration": 4.961,
+      "text": "branch. we actually have these specific"
+    },
+    {
+      "start": 229.519,
+      "duration": 5.841,
+      "text": "sub trees that these agents are working"
+    },
+    {
+      "start": 232.56,
+      "duration": 4.879,
+      "text": "in on their own. So they're not all"
+    },
+    {
+      "start": 235.36,
+      "duration": 4.239,
+      "text": "working on the main branch. They have"
+    },
+    {
+      "start": 237.439,
+      "duration": 4.321,
+      "text": "their own branch based on main that they"
+    },
+    {
+      "start": 239.599,
+      "duration": 4.481,
+      "text": "are now editing. So you can for example"
+    },
+    {
+      "start": 241.76,
+      "duration": 4.24,
+      "text": "already see the cherry plant has a"
+    },
+    {
+      "start": 244.08,
+      "duration": 3.6,
+      "text": "branch here where the properties of the"
+    },
+    {
+      "start": 246,
+      "duration": 3.68,
+      "text": "plant are being determined already and"
+    },
+    {
+      "start": 247.68,
+      "duration": 3.759,
+      "text": "all of this is just being done in its"
+    },
+    {
+      "start": 249.68,
+      "duration": 4.24,
+      "text": "own branch. And you'll see the changes"
+    },
+    {
+      "start": 251.439,
+      "duration": 4.721,
+      "text": "for the squash plant and the debug panel"
+    },
+    {
+      "start": 253.92,
+      "duration": 3.92,
+      "text": "show up in here as well. And so the idea"
+    },
+    {
+      "start": 256.16,
+      "duration": 3.919,
+      "text": "with this is that you can very easily"
+    },
+    {
+      "start": 257.84,
+      "duration": 4.48,
+      "text": "create a lot of parallel work and then"
+    },
+    {
+      "start": 260.079,
+      "duration": 4.161,
+      "text": "carefully merge it into your branch. And"
+    },
+    {
+      "start": 262.32,
+      "duration": 3.439,
+      "text": "this is where the human loop comes in."
+    },
+    {
+      "start": 264.24,
+      "duration": 3.519,
+      "text": "You're going to be the person pressing"
+    },
+    {
+      "start": 265.759,
+      "duration": 4.241,
+      "text": "the button to merge all of this work"
+    },
+    {
+      "start": 267.759,
+      "duration": 3.761,
+      "text": "into main. The great part is before you"
+    },
+    {
+      "start": 270,
+      "duration": 3.44,
+      "text": "merge, you can test out the specific"
+    },
+    {
+      "start": 271.52,
+      "duration": 3.92,
+      "text": "branch. You can just have code reviews"
+    },
+    {
+      "start": 273.44,
+      "duration": 3.68,
+      "text": "that I'll show you later. And only then"
+    },
+    {
+      "start": 275.44,
+      "duration": 3.28,
+      "text": "when you know the code actually works,"
+    },
+    {
+      "start": 277.12,
+      "duration": 3.28,
+      "text": "will you be pushing it into the main"
+    },
+    {
+      "start": 278.72,
+      "duration": 3.28,
+      "text": "branch. So we can already see that the"
+    },
+    {
+      "start": 280.4,
+      "duration": 3.12,
+      "text": "cherry one is in review. And what does"
+    },
+    {
+      "start": 282,
+      "duration": 2.72,
+      "text": "it mean when a task is in review? Well,"
+    },
+    {
+      "start": 283.52,
+      "duration": 2.959,
+      "text": "it means that cloud code has finished"
+    },
+    {
+      "start": 284.72,
+      "duration": 3.36,
+      "text": "the session and as a human, I can"
+    },
+    {
+      "start": 286.479,
+      "duration": 3.121,
+      "text": "actually see, oh, I can check out the"
+    },
+    {
+      "start": 288.08,
+      "duration": 3.76,
+      "text": "code and see if everything works as"
+    },
+    {
+      "start": 289.6,
+      "duration": 4,
+      "text": "intended. When I open this, you can see"
+    },
+    {
+      "start": 291.84,
+      "duration": 3.12,
+      "text": "that I can check out the entire cloud"
+    },
+    {
+      "start": 293.6,
+      "duration": 2.879,
+      "text": "code session, which is properly saved"
+    },
+    {
+      "start": 294.96,
+      "duration": 2.959,
+      "text": "into memory. And that's really nice"
+    },
+    {
+      "start": 296.479,
+      "duration": 3.28,
+      "text": "because if you know anything about the"
+    },
+    {
+      "start": 297.919,
+      "duration": 3.28,
+      "text": "cloud code terminal sessions, if you"
+    },
+    {
+      "start": 299.759,
+      "duration": 3.281,
+      "text": "close all of them, it's very difficult"
+    },
+    {
+      "start": 301.199,
+      "duration": 3.601,
+      "text": "to get a visualization of what happened."
+    },
+    {
+      "start": 303.04,
+      "duration": 3.439,
+      "text": "So, if your computer crashes, you have a"
+    },
+    {
+      "start": 304.8,
+      "duration": 4,
+      "text": "pretty big problem. You can go back into"
+    },
+    {
+      "start": 306.479,
+      "duration": 4.16,
+      "text": "the history of previous chats, but it's"
+    },
+    {
+      "start": 308.8,
+      "duration": 3.44,
+      "text": "not as nice of an interface as just"
+    },
+    {
+      "start": 310.639,
+      "duration": 3.681,
+      "text": "being able to see all of the sessions in"
+    },
+    {
+      "start": 312.24,
+      "duration": 4.239,
+      "text": "this conbon style board. I can even go"
+    },
+    {
+      "start": 314.32,
+      "duration": 4.08,
+      "text": "back into those first tasks and check"
+    },
+    {
+      "start": 316.479,
+      "duration": 3.28,
+      "text": "out how exactly this was implemented."
+    },
+    {
+      "start": 318.4,
+      "duration": 3.04,
+      "text": "So, if you want to check out how the"
+    },
+    {
+      "start": 319.759,
+      "duration": 3.44,
+      "text": "cherry plant was implemented, we can go"
+    },
+    {
+      "start": 321.44,
+      "duration": 3.68,
+      "text": "ahead and click this button here to see"
+    },
+    {
+      "start": 323.199,
+      "duration": 3.84,
+      "text": "the diff. Basically, just see all the"
+    },
+    {
+      "start": 325.12,
+      "duration": 3.6,
+      "text": "code changes that were made. The great"
+    },
+    {
+      "start": 327.039,
+      "duration": 3.201,
+      "text": "part about this too is that you can have"
+    },
+    {
+      "start": 328.72,
+      "duration": 4.88,
+      "text": "some comments on a specific line of"
+    },
+    {
+      "start": 330.24,
+      "duration": 7.679,
+      "text": "code. Write the comment like so. I want"
+    },
+    {
+      "start": 333.6,
+      "duration": 6.08,
+      "text": "you to double check this code."
+    },
+    {
+      "start": 337.919,
+      "duration": 3.28,
+      "text": "And then if I extend this window just a"
+    },
+    {
+      "start": 339.68,
+      "duration": 3.519,
+      "text": "little bit, you can see here that you"
+    },
+    {
+      "start": 341.199,
+      "duration": 3.84,
+      "text": "have both that commenting capability as"
+    },
+    {
+      "start": 343.199,
+      "duration": 4.241,
+      "text": "well as the capability to just send over"
+    },
+    {
+      "start": 345.039,
+      "duration": 4.88,
+      "text": "your review comments to the AI agent in"
+    },
+    {
+      "start": 347.44,
+      "duration": 4.4,
+      "text": "order to just revise some code. So for"
+    },
+    {
+      "start": 349.919,
+      "duration": 3.441,
+      "text": "example, one thing that I can do is I"
+    },
+    {
+      "start": 351.84,
+      "duration": 5.44,
+      "text": "can clear my review comments and I can"
+    },
+    {
+      "start": 353.36,
+      "duration": 6.88,
+      "text": "ask it to change the cost"
+    },
+    {
+      "start": 357.28,
+      "duration": 4.479,
+      "text": "to just 100. Of course, this is a small"
+    },
+    {
+      "start": 360.24,
+      "duration": 3.28,
+      "text": "change. I could have done that myself,"
+    },
+    {
+      "start": 361.759,
+      "duration": 3.841,
+      "text": "but I just want to show how this really"
+    },
+    {
+      "start": 363.52,
+      "duration": 4.239,
+      "text": "works. So now I'm asking clot code to"
+    },
+    {
+      "start": 365.6,
+      "duration": 4.159,
+      "text": "change the cost to just 100, which it"
+    },
+    {
+      "start": 367.759,
+      "duration": 3.921,
+      "text": "will be able to do because even though"
+    },
+    {
+      "start": 369.759,
+      "duration": 4.241,
+      "text": "LLMs are stateless, it's able to pick up"
+    },
+    {
+      "start": 371.68,
+      "duration": 4,
+      "text": "on the work by reading the entire"
+    },
+    {
+      "start": 374,
+      "duration": 3.759,
+      "text": "conversation history of this specific"
+    },
+    {
+      "start": 375.68,
+      "duration": 4.4,
+      "text": "task as well as working in that feature"
+    },
+    {
+      "start": 377.759,
+      "duration": 3.921,
+      "text": "branch. So now very quickly in just a"
+    },
+    {
+      "start": 380.08,
+      "duration": 4,
+      "text": "couple of seconds, it was able to start"
+    },
+    {
+      "start": 381.68,
+      "duration": 5.519,
+      "text": "a new clock code session and change the"
+    },
+    {
+      "start": 384.08,
+      "duration": 5.76,
+      "text": "cost from 150 to 100 sun. Very cool"
+    },
+    {
+      "start": 387.199,
+      "duration": 4.401,
+      "text": "stuff. Now to check out what this code"
+    },
+    {
+      "start": 389.84,
+      "duration": 4.16,
+      "text": "does, I can go ahead and go to the"
+    },
+    {
+      "start": 391.6,
+      "duration": 4.08,
+      "text": "triple dots here and open a tent in IDE."
+    },
+    {
+      "start": 394,
+      "duration": 4.4,
+      "text": "This will just open Visual Studio Code"
+    },
+    {
+      "start": 395.68,
+      "duration": 4.239,
+      "text": "in the correct branch. This opens Visual"
+    },
+    {
+      "start": 398.4,
+      "duration": 3.68,
+      "text": "Studio Code in the correct branch"
+    },
+    {
+      "start": 399.919,
+      "duration": 4.801,
+      "text": "folder. And now I can just go ahead and"
+    },
+    {
+      "start": 402.08,
+      "duration": 3.92,
+      "text": "run mpm rundev to just restart my dev"
+    },
+    {
+      "start": 404.72,
+      "duration": 3.039,
+      "text": "server. And you can see that the plant"
+    },
+    {
+      "start": 406,
+      "duration": 3.759,
+      "text": "is in there right now. And just in time"
+    },
+    {
+      "start": 407.759,
+      "duration": 4.081,
+      "text": "here, we're going to try and see if the"
+    },
+    {
+      "start": 409.759,
+      "duration": 3.921,
+      "text": "cherry plant works. And there you go. It"
+    },
+    {
+      "start": 411.84,
+      "duration": 3.199,
+      "text": "successfully seems to work. Now I want"
+    },
+    {
+      "start": 413.68,
+      "duration": 2.959,
+      "text": "to make sure that this piece of code is"
+    },
+    {
+      "start": 415.039,
+      "duration": 3.28,
+      "text": "actually going to be in my main branch."
+    },
+    {
+      "start": 416.639,
+      "duration": 3.761,
+      "text": "All I need to do is just click on the"
+    },
+    {
+      "start": 418.319,
+      "duration": 4,
+      "text": "merge button here. And that's it. Now"
+    },
+    {
+      "start": 420.4,
+      "duration": 3.84,
+      "text": "the code is merged. And you can even see"
+    },
+    {
+      "start": 422.319,
+      "duration": 4.16,
+      "text": "here that that task is automatically"
+    },
+    {
+      "start": 424.24,
+      "duration": 4,
+      "text": "moved into the done section. Now let's"
+    },
+    {
+      "start": 426.479,
+      "duration": 3.44,
+      "text": "see if the squash plant works as well."
+    },
+    {
+      "start": 428.24,
+      "duration": 3.679,
+      "text": "So I'm going to go ahead and open a divs"
+    },
+    {
+      "start": 429.919,
+      "duration": 3.441,
+      "text": "here. You can see that I actually will"
+    },
+    {
+      "start": 431.919,
+      "duration": 3.521,
+      "text": "not be able to merge it properly because"
+    },
+    {
+      "start": 433.36,
+      "duration": 4.239,
+      "text": "it's also one commit behind. So I'm just"
+    },
+    {
+      "start": 435.44,
+      "duration": 4.879,
+      "text": "going to rebase this to make sure that"
+    },
+    {
+      "start": 437.599,
+      "duration": 5.521,
+      "text": "we can merge it safely. And now you can"
+    },
+    {
+      "start": 440.319,
+      "duration": 4.801,
+      "text": "see whoops, we have a conflict because"
+    },
+    {
+      "start": 443.12,
+      "duration": 3.519,
+      "text": "we were adding two plants. And even"
+    },
+    {
+      "start": 445.12,
+      "duration": 3.519,
+      "text": "though the plant logic lives in"
+    },
+    {
+      "start": 446.639,
+      "duration": 3.84,
+      "text": "different files, the actual registry of"
+    },
+    {
+      "start": 448.639,
+      "duration": 4.161,
+      "text": "all the plants is in the same file. And"
+    },
+    {
+      "start": 450.479,
+      "duration": 4.16,
+      "text": "you can see here that these two parallel"
+    },
+    {
+      "start": 452.8,
+      "duration": 4,
+      "text": "agents were already in conflict with"
+    },
+    {
+      "start": 454.639,
+      "duration": 3.68,
+      "text": "each other trying to edit the same file."
+    },
+    {
+      "start": 456.8,
+      "duration": 4.239,
+      "text": "Now the great part about this is that I"
+    },
+    {
+      "start": 458.319,
+      "duration": 5.041,
+      "text": "can solve it myself or I can ask cla"
+    },
+    {
+      "start": 461.039,
+      "duration": 3.921,
+      "text": "code to resolve this specific conflict."
+    },
+    {
+      "start": 463.36,
+      "duration": 3.119,
+      "text": "Because it's a small change, I know that"
+    },
+    {
+      "start": 464.96,
+      "duration": 2.72,
+      "text": "clot code can do this successfully and"
+    },
+    {
+      "start": 466.479,
+      "duration": 2.801,
+      "text": "I'm just going to ask it to do that"
+    },
+    {
+      "start": 467.68,
+      "duration": 4.239,
+      "text": "safely. And you can already see here"
+    },
+    {
+      "start": 469.28,
+      "duration": 4.4,
+      "text": "that with my very small scale app, even"
+    },
+    {
+      "start": 471.919,
+      "duration": 3.921,
+      "text": "though I was running just three parallel"
+    },
+    {
+      "start": 473.68,
+      "duration": 3.68,
+      "text": "agents, I already have a merge conflict."
+    },
+    {
+      "start": 475.84,
+      "duration": 4,
+      "text": "And but because I'm now using something"
+    },
+    {
+      "start": 477.36,
+      "duration": 4.559,
+      "text": "like vibe canban, I'm able to just take"
+    },
+    {
+      "start": 479.84,
+      "duration": 3.84,
+      "text": "care of this. And indeed, you can now"
+    },
+    {
+      "start": 481.919,
+      "duration": 3.84,
+      "text": "see that the merge conflict is solved"
+    },
+    {
+      "start": 483.68,
+      "duration": 3.919,
+      "text": "simply by adding those two plans next to"
+    },
+    {
+      "start": 485.759,
+      "duration": 3.44,
+      "text": "each other, which is totally fine. And"
+    },
+    {
+      "start": 487.599,
+      "duration": 3.201,
+      "text": "while it's doing that, let's go ahead"
+    },
+    {
+      "start": 489.199,
+      "duration": 4.081,
+      "text": "and exit out because we can probably"
+    },
+    {
+      "start": 490.8,
+      "duration": 4.079,
+      "text": "merge the debug panel without any issues"
+    },
+    {
+      "start": 493.28,
+      "duration": 3.359,
+      "text": "simply because I'm pretty sure all of"
+    },
+    {
+      "start": 494.879,
+      "duration": 3.44,
+      "text": "that code lives in different places. So"
+    },
+    {
+      "start": 496.639,
+      "duration": 3.28,
+      "text": "if I try to merge, you will see that"
+    },
+    {
+      "start": 498.319,
+      "duration": 3.681,
+      "text": "it's not going to happen because the"
+    },
+    {
+      "start": 499.919,
+      "duration": 3.921,
+      "text": "base branch has moved forward. I need to"
+    },
+    {
+      "start": 502,
+      "duration": 3.759,
+      "text": "first rebase this branch to make sure it"
+    },
+    {
+      "start": 503.84,
+      "duration": 3.759,
+      "text": "has all the latest changes for main and"
+    },
+    {
+      "start": 505.759,
+      "duration": 4,
+      "text": "then I can merge it successfully. So"
+    },
+    {
+      "start": 507.599,
+      "duration": 3.521,
+      "text": "indeed, we got it merged and now in the"
+    },
+    {
+      "start": 509.759,
+      "duration": 3.121,
+      "text": "new version of the app, we actually have"
+    },
+    {
+      "start": 511.12,
+      "duration": 4.08,
+      "text": "the debug panel and I'm able to just"
+    },
+    {
+      "start": 512.88,
+      "duration": 4.56,
+      "text": "give myself extra sun or just spawn a"
+    },
+    {
+      "start": 515.2,
+      "duration": 4.319,
+      "text": "bunch of zombies just so I can test"
+    },
+    {
+      "start": 517.44,
+      "duration": 4.479,
+      "text": "everything out. There you go. They're"
+    },
+    {
+      "start": 519.519,
+      "duration": 3.76,
+      "text": "coming along now and the cherry plant"
+    },
+    {
+      "start": 521.919,
+      "duration": 2.561,
+      "text": "will take care of them. So, coming back"
+    },
+    {
+      "start": 523.279,
+      "duration": 2.641,
+      "text": "to the squash plants, we're just going"
+    },
+    {
+      "start": 524.48,
+      "duration": 2.96,
+      "text": "to rebase one more time now that the"
+    },
+    {
+      "start": 525.92,
+      "duration": 3.44,
+      "text": "merge conflicts are solved. We're going"
+    },
+    {
+      "start": 527.44,
+      "duration": 3.519,
+      "text": "to merge the branch. And now, if I just"
+    },
+    {
+      "start": 529.36,
+      "duration": 3.36,
+      "text": "double check, we can indeed see we've"
+    },
+    {
+      "start": 530.959,
+      "duration": 3.201,
+      "text": "got a nice little plant. So, I can just"
+    },
+    {
+      "start": 532.72,
+      "duration": 3.92,
+      "text": "go ahead and test it out by waiting for"
+    },
+    {
+      "start": 534.16,
+      "duration": 4.32,
+      "text": "a zombie. And then, if I spawn it in"
+    },
+    {
+      "start": 536.64,
+      "duration": 3.44,
+      "text": "here, you can see that it squashes it."
+    },
+    {
+      "start": 538.48,
+      "duration": 3.44,
+      "text": "And there you go. It disappears. Now,"
+    },
+    {
+      "start": 540.08,
+      "duration": 3.199,
+      "text": "this game is obviously a toy example."
+    },
+    {
+      "start": 541.92,
+      "duration": 3.52,
+      "text": "I'm not going to rebuild a game that's"
+    },
+    {
+      "start": 543.279,
+      "duration": 3.841,
+      "text": "already existed for over 15 years. The"
+    },
+    {
+      "start": 545.44,
+      "duration": 4,
+      "text": "video here was really more about the"
+    },
+    {
+      "start": 547.12,
+      "duration": 4.399,
+      "text": "workflow, understanding how to properly"
+    },
+    {
+      "start": 549.44,
+      "duration": 4.16,
+      "text": "analyze and understand which parts of"
+    },
+    {
+      "start": 551.519,
+      "duration": 4.961,
+      "text": "your software can be parallelized and"
+    },
+    {
+      "start": 553.6,
+      "duration": 5.2,
+      "text": "then using something like Vibe Canban to"
+    },
+    {
+      "start": 556.48,
+      "duration": 4.16,
+      "text": "do that in a very structured way. If you"
+    },
+    {
+      "start": 558.8,
+      "duration": 4.479,
+      "text": "want to keep track of AI coding trends"
+    },
+    {
+      "start": 560.64,
+      "duration": 4,
+      "text": "in 2026, make sure to sign up for my"
+    },
+    {
+      "start": 563.279,
+      "duration": 5.12,
+      "text": "newsletter in the description down"
+    },
+    {
+      "start": 564.64,
+      "duration": 3.759,
+      "text": "below. And then I'll see you next time."
+    }
+  ],
+  "fullText": "Many people are trying to run 10 cloud code instances at once to speed up their AI coding. But everyone who does this will run into two issues. First of all, cloud code is going to cause massive merge conflicts because all of these different agents will try to change the same files. And secondly, you don't even understand the code these agents are writing, which is going to lead into massive production bugs. But today I'm showing you Vibe Conbon, which is a really great open source project that you can use today to organize all of these agents and to check up on the code to make sure that you can speed up your AI coding while still keeping control of what you're actually doing. Today's demo app is going to be a clone of the very popular game Plants vs. Zombies, and it's just a bit of a fun game to showcase what it means to just do a lot of parallel work. Because with this kind of game development, you will see that you can actually parallelize a lot of the things that are needed to make the game work properly. For example, this is a game where you're supposed to create plans that can defend against zombies, right? We're going to be using five combine to actually orchestrate my agents. And I'm going to pull it up right here. And it's all hosted locally. So I can just go into my PVC clone, which is the repository. And you can see that I already finished quite a lot of tasks. And these tasks were all done through Vibe Combon and created this first proof of concept. It's not very beautiful, but of course, I'm not creating any assets here. It's all just, you know, created with AI code. What we're going to do now is we're going to create two tasks to create new plans to try and defeat the zombies faster. So, first I'm going to click here on a plus in to-do and I'm going to write the task add a cherry bomb plan to the game. And this is just going to be very similar to your spec driven development. And here you need to describe in detail what you're trying to build. So in this case, I have a little bit of an explanation already that I'm just going to copy paste here to explain that this is an instant use explosive plant that will actually explode in a 3x3 area. And this is already enough for cloud code to then pick up on these changes in my main branch using the default model which is claude opus at the moment. So I can just go ahead and create the task. I can decide to not start it yet and then it will just be added to my conbon board just like with regular scrum agile process and then I can move it into in progress and now I can manually say that I want a cloud agent to start working on this in the base branch. So we're going to go ahead and start it and then you'll be able to see the code changes come in but before we do that we're just going to go ahead and create a new task specifically to create the squash plant and this one can just squash zombies that are right in front of the plant. So, I'm just going to go ahead and paste the same kind of description here. So, we're going to go ahead and create that task like so. And in this case, we can just go check out the other task here. And you can see that it's already working. It's reading all of the files to understand how to create a plant. And the great part about this is that the logic for these two different plants can live in different files. So, you're not going to get a merge conflict. However, there are some places in this kind of game where these two plants will overlap in terms of the code that has to be changed. for example, the top bar here that determines all the plants are available for you to use. So, I'm expecting a merge conflict to come up. But while these two tasks are running, let's create one more task. I'm still kind of developing this clone, and it would be nice to have a bit of a debug menu for me to give myself more sunpower or just spawn in some zombies to test if specific plants are working properly. So, I'm going to go and create a new task for that. We're going to go ahead and type debug panel features. And I'm just going to prompt it with some of the things that I want like that zombie spawner and the plant cooldown toggle. So I'm just going to paste that in here. And we can go ahead and start creating that immediately. Now while Clock code is thinking in three different agents, I wanted to let you know that you can check out my free newsletter in the description down below so you can keep up to date with these kinds of AI projects and advance your career with real AI coding. I want to share with you why this is so effective. If you check out Visual Studio Code, you'll be able to see that we don't just have our main branch. we actually have these specific sub trees that these agents are working in on their own. So they're not all working on the main branch. They have their own branch based on main that they are now editing. So you can for example already see the cherry plant has a branch here where the properties of the plant are being determined already and all of this is just being done in its own branch. And you'll see the changes for the squash plant and the debug panel show up in here as well. And so the idea with this is that you can very easily create a lot of parallel work and then carefully merge it into your branch. And this is where the human loop comes in. You're going to be the person pressing the button to merge all of this work into main. The great part is before you merge, you can test out the specific branch. You can just have code reviews that I'll show you later. And only then when you know the code actually works, will you be pushing it into the main branch. So we can already see that the cherry one is in review. And what does it mean when a task is in review? Well, it means that cloud code has finished the session and as a human, I can actually see, oh, I can check out the code and see if everything works as intended. When I open this, you can see that I can check out the entire cloud code session, which is properly saved into memory. And that's really nice because if you know anything about the cloud code terminal sessions, if you close all of them, it's very difficult to get a visualization of what happened. So, if your computer crashes, you have a pretty big problem. You can go back into the history of previous chats, but it's not as nice of an interface as just being able to see all of the sessions in this conbon style board. I can even go back into those first tasks and check out how exactly this was implemented. So, if you want to check out how the cherry plant was implemented, we can go ahead and click this button here to see the diff. Basically, just see all the code changes that were made. The great part about this too is that you can have some comments on a specific line of code. Write the comment like so. I want you to double check this code. And then if I extend this window just a little bit, you can see here that you have both that commenting capability as well as the capability to just send over your review comments to the AI agent in order to just revise some code. So for example, one thing that I can do is I can clear my review comments and I can ask it to change the cost to just 100. Of course, this is a small change. I could have done that myself, but I just want to show how this really works. So now I'm asking clot code to change the cost to just 100, which it will be able to do because even though LLMs are stateless, it's able to pick up on the work by reading the entire conversation history of this specific task as well as working in that feature branch. So now very quickly in just a couple of seconds, it was able to start a new clock code session and change the cost from 150 to 100 sun. Very cool stuff. Now to check out what this code does, I can go ahead and go to the triple dots here and open a tent in IDE. This will just open Visual Studio Code in the correct branch. This opens Visual Studio Code in the correct branch folder. And now I can just go ahead and run mpm rundev to just restart my dev server. And you can see that the plant is in there right now. And just in time here, we're going to try and see if the cherry plant works. And there you go. It successfully seems to work. Now I want to make sure that this piece of code is actually going to be in my main branch. All I need to do is just click on the merge button here. And that's it. Now the code is merged. And you can even see here that that task is automatically moved into the done section. Now let's see if the squash plant works as well. So I'm going to go ahead and open a divs here. You can see that I actually will not be able to merge it properly because it's also one commit behind. So I'm just going to rebase this to make sure that we can merge it safely. And now you can see whoops, we have a conflict because we were adding two plants. And even though the plant logic lives in different files, the actual registry of all the plants is in the same file. And you can see here that these two parallel agents were already in conflict with each other trying to edit the same file. Now the great part about this is that I can solve it myself or I can ask cla code to resolve this specific conflict. Because it's a small change, I know that clot code can do this successfully and I'm just going to ask it to do that safely. And you can already see here that with my very small scale app, even though I was running just three parallel agents, I already have a merge conflict. And but because I'm now using something like vibe canban, I'm able to just take care of this. And indeed, you can now see that the merge conflict is solved simply by adding those two plans next to each other, which is totally fine. And while it's doing that, let's go ahead and exit out because we can probably merge the debug panel without any issues simply because I'm pretty sure all of that code lives in different places. So if I try to merge, you will see that it's not going to happen because the base branch has moved forward. I need to first rebase this branch to make sure it has all the latest changes for main and then I can merge it successfully. So indeed, we got it merged and now in the new version of the app, we actually have the debug panel and I'm able to just give myself extra sun or just spawn a bunch of zombies just so I can test everything out. There you go. They're coming along now and the cherry plant will take care of them. So, coming back to the squash plants, we're just going to rebase one more time now that the merge conflicts are solved. We're going to merge the branch. And now, if I just double check, we can indeed see we've got a nice little plant. So, I can just go ahead and test it out by waiting for a zombie. And then, if I spawn it in here, you can see that it squashes it. And there you go. It disappears. Now, this game is obviously a toy example. I'm not going to rebuild a game that's already existed for over 15 years. The video here was really more about the workflow, understanding how to properly analyze and understand which parts of your software can be parallelized and then using something like Vibe Canban to do that in a very structured way. If you want to keep track of AI coding trends in 2026, make sure to sign up for my newsletter in the description down below. And then I'll see you next time.",
+  "fetchedAt": "2026-01-18T18:33:15.839Z"
+}

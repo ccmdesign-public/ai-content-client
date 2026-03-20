@@ -1,0 +1,3409 @@
+{
+  "videoId": "UTztjR4o7Y8",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.3890000000000002,
+      "duration": 0.009999999999999787,
+      "text": "I ran into a big problem with my open"
+    },
+    {
+      "start": 2.399,
+      "duration": 2.151,
+      "text": "I ran into a big problem with my open claw a few weeks ago. It kept forgetting"
+    },
+    {
+      "start": 4.55,
+      "duration": 0.010000000000000675,
+      "text": "claw a few weeks ago. It kept forgetting"
+    },
+    {
+      "start": 4.5600000000000005,
+      "duration": 1.67,
+      "text": "claw a few weeks ago. It kept forgetting everything and I kept getting error"
+    },
+    {
+      "start": 6.23,
+      "duration": 0.009999999999999787,
+      "text": "everything and I kept getting error"
+    },
+    {
+      "start": 6.24,
+      "duration": 2.0700000000000003,
+      "text": "everything and I kept getting error messages about the context window"
+    },
+    {
+      "start": 8.31,
+      "duration": 0.009999999999999787,
+      "text": "messages about the context window"
+    },
+    {
+      "start": 8.32,
+      "duration": 1.9900000000000002,
+      "text": "messages about the context window completely filling up. My skills and"
+    },
+    {
+      "start": 10.31,
+      "duration": 0.009999999999999787,
+      "text": "completely filling up. My skills and"
+    },
+    {
+      "start": 10.32,
+      "duration": 1.5899999999999999,
+      "text": "completely filling up. My skills and cron jobs stopped working and it was"
+    },
+    {
+      "start": 11.91,
+      "duration": 0.009999999999999787,
+      "text": "cron jobs stopped working and it was"
+    },
+    {
+      "start": 11.92,
+      "duration": 1.7490000000000006,
+      "text": "cron jobs stopped working and it was burning through a ton of tokens which"
+    },
+    {
+      "start": 13.669,
+      "duration": 0.009999999999999787,
+      "text": "burning through a ton of tokens which"
+    },
+    {
+      "start": 13.679,
+      "duration": 1.5909999999999993,
+      "text": "burning through a ton of tokens which was costing me a lot of money. I"
+    },
+    {
+      "start": 15.27,
+      "duration": 0.009999999999999787,
+      "text": "was costing me a lot of money. I"
+    },
+    {
+      "start": 15.28,
+      "duration": 1.988999999999999,
+      "text": "was costing me a lot of money. I switched models and tried everything."
+    },
+    {
+      "start": 17.269,
+      "duration": 0.010000000000001563,
+      "text": "switched models and tried everything."
+    },
+    {
+      "start": 17.279,
+      "duration": 1.8300000000000018,
+      "text": "switched models and tried everything. But it turns out it wasn't the AI"
+    },
+    {
+      "start": 19.109,
+      "duration": 0.00999999999999801,
+      "text": "But it turns out it wasn't the AI"
+    },
+    {
+      "start": 19.119,
+      "duration": 2.2300000000000004,
+      "text": "But it turns out it wasn't the AI models. It was how OpenClaw handles"
+    },
+    {
+      "start": 21.349,
+      "duration": 0.010000000000001563,
+      "text": "models. It was how OpenClaw handles"
+    },
+    {
+      "start": 21.359,
+      "duration": 2.0699999999999967,
+      "text": "models. It was how OpenClaw handles memory and context in the background."
+    },
+    {
+      "start": 23.429,
+      "duration": 0.010000000000001563,
+      "text": "memory and context in the background."
+    },
+    {
+      "start": 23.439,
+      "duration": 1.9100000000000001,
+      "text": "memory and context in the background. Once I figured this out, my openclaw"
+    },
+    {
+      "start": 25.349,
+      "duration": 0.010000000000001563,
+      "text": "Once I figured this out, my openclaw"
+    },
+    {
+      "start": 25.359,
+      "duration": 2.1499999999999986,
+      "text": "Once I figured this out, my openclaw runs much smoother and much cheaper."
+    },
+    {
+      "start": 27.509,
+      "duration": 0.00999999999999801,
+      "text": "runs much smoother and much cheaper."
+    },
+    {
+      "start": 27.519,
+      "duration": 1.6700000000000017,
+      "text": "runs much smoother and much cheaper. Today, I'm going to walk through exactly"
+    },
+    {
+      "start": 29.189,
+      "duration": 0.010000000000001563,
+      "text": "Today, I'm going to walk through exactly"
+    },
+    {
+      "start": 29.199,
+      "duration": 2.3099999999999987,
+      "text": "Today, I'm going to walk through exactly how I fix my OpenClaw so you can do the"
+    },
+    {
+      "start": 31.509,
+      "duration": 0.00999999999999801,
+      "text": "how I fix my OpenClaw so you can do the"
+    },
+    {
+      "start": 31.519,
+      "duration": 2.311,
+      "text": "how I fix my OpenClaw so you can do the same for yours. Let's dive in. So, if"
+    },
+    {
+      "start": 33.83,
+      "duration": 0.010000000000005116,
+      "text": "same for yours. Let's dive in. So, if"
+    },
+    {
+      "start": 33.84,
+      "duration": 1.1899999999999977,
+      "text": "same for yours. Let's dive in. So, if you've been following along with this"
+    },
+    {
+      "start": 35.03,
+      "duration": 0.00999999999999801,
+      "text": "you've been following along with this"
+    },
+    {
+      "start": 35.04,
+      "duration": 1.5090000000000003,
+      "text": "you've been following along with this channel, you know I have an OpenClaw"
+    },
+    {
+      "start": 36.549,
+      "duration": 0.00999999999999801,
+      "text": "channel, you know I have an OpenClaw"
+    },
+    {
+      "start": 36.559,
+      "duration": 2.1500000000000057,
+      "text": "channel, you know I have an OpenClaw agent. I call mine Jarvis, and he's been"
+    },
+    {
+      "start": 38.709,
+      "duration": 0.00999999999999801,
+      "text": "agent. I call mine Jarvis, and he's been"
+    },
+    {
+      "start": 38.719,
+      "duration": 2.6310000000000002,
+      "text": "agent. I call mine Jarvis, and he's been doing a lot. Telegram, email, managing a"
+    },
+    {
+      "start": 41.35,
+      "duration": 0.00999999999999801,
+      "text": "doing a lot. Telegram, email, managing a"
+    },
+    {
+      "start": 41.36,
+      "duration": 2.230000000000004,
+      "text": "doing a lot. Telegram, email, managing a calendar, transcribing podcast, managing"
+    },
+    {
+      "start": 43.59,
+      "duration": 0.00999999999999801,
+      "text": "calendar, transcribing podcast, managing"
+    },
+    {
+      "start": 43.6,
+      "duration": 1.8299999999999983,
+      "text": "calendar, transcribing podcast, managing an Obsidian vault, etc. And you can see"
+    },
+    {
+      "start": 45.43,
+      "duration": 0.00999999999999801,
+      "text": "an Obsidian vault, etc. And you can see"
+    },
+    {
+      "start": 45.44,
+      "duration": 1.5890000000000057,
+      "text": "an Obsidian vault, etc. And you can see I have a mission control dashboard here,"
+    },
+    {
+      "start": 47.029,
+      "duration": 0.00999999999999801,
+      "text": "I have a mission control dashboard here,"
+    },
+    {
+      "start": 47.039,
+      "duration": 1.8299999999999983,
+      "text": "I have a mission control dashboard here, which shows some of the tasks Jarvis is"
+    },
+    {
+      "start": 48.869,
+      "duration": 0.00999999999999801,
+      "text": "which shows some of the tasks Jarvis is"
+    },
+    {
+      "start": 48.879,
+      "duration": 1.4310000000000045,
+      "text": "which shows some of the tasks Jarvis is working on throughout the day. But"
+    },
+    {
+      "start": 50.31,
+      "duration": 0.00999999999999801,
+      "text": "working on throughout the day. But"
+    },
+    {
+      "start": 50.32,
+      "duration": 1.7490000000000023,
+      "text": "working on throughout the day. But here's the thing nobody talks about. The"
+    },
+    {
+      "start": 52.069,
+      "duration": 0.00999999999999801,
+      "text": "here's the thing nobody talks about. The"
+    },
+    {
+      "start": 52.079,
+      "duration": 1.7509999999999977,
+      "text": "here's the thing nobody talks about. The more you use your agent and the more"
+    },
+    {
+      "start": 53.83,
+      "duration": 0.010000000000005116,
+      "text": "more you use your agent and the more"
+    },
+    {
+      "start": 53.84,
+      "duration": 2.1499999999999986,
+      "text": "more you use your agent and the more skills you hook up to it, generally the"
+    },
+    {
+      "start": 55.99,
+      "duration": 0.00999999999999801,
+      "text": "skills you hook up to it, generally the"
+    },
+    {
+      "start": 56,
+      "duration": 2.0690000000000026,
+      "text": "skills you hook up to it, generally the worse the memory gets. And it's not"
+    },
+    {
+      "start": 58.069,
+      "duration": 0.00999999999999801,
+      "text": "worse the memory gets. And it's not"
+    },
+    {
+      "start": 58.079,
+      "duration": 2.3909999999999982,
+      "text": "worse the memory gets. And it's not because of the underlying AI model. You"
+    },
+    {
+      "start": 60.47,
+      "duration": 0.00999999999999801,
+      "text": "because of the underlying AI model. You"
+    },
+    {
+      "start": 60.48,
+      "duration": 3.7490000000000023,
+      "text": "because of the underlying AI model. You could be using Opus 4.6 or GPT 5.4. It"
+    },
+    {
+      "start": 64.229,
+      "duration": 0.010000000000005116,
+      "text": "could be using Opus 4.6 or GPT 5.4. It"
+    },
+    {
+      "start": 64.239,
+      "duration": 1.6709999999999923,
+      "text": "could be using Opus 4.6 or GPT 5.4. It doesn't matter. It's because of how"
+    },
+    {
+      "start": 65.91,
+      "duration": 0.010000000000005116,
+      "text": "doesn't matter. It's because of how"
+    },
+    {
+      "start": 65.92,
+      "duration": 2.228999999999999,
+      "text": "doesn't matter. It's because of how OpenClaw manages context behind the"
+    },
+    {
+      "start": 68.149,
+      "duration": 0.010000000000005116,
+      "text": "OpenClaw manages context behind the"
+    },
+    {
+      "start": 68.159,
+      "duration": 1.9109999999999872,
+      "text": "OpenClaw manages context behind the scenes. And this is where memory and"
+    },
+    {
+      "start": 70.07,
+      "duration": 0.010000000000005116,
+      "text": "scenes. And this is where memory and"
+    },
+    {
+      "start": 70.08,
+      "duration": 1.9899999999999949,
+      "text": "scenes. And this is where memory and context management is key. Right around"
+    },
+    {
+      "start": 72.07,
+      "duration": 0.010000000000005116,
+      "text": "context management is key. Right around"
+    },
+    {
+      "start": 72.08,
+      "duration": 1.4300000000000068,
+      "text": "context management is key. Right around the time I was struggling with my"
+    },
+    {
+      "start": 73.51,
+      "duration": 0.009999999999990905,
+      "text": "the time I was struggling with my"
+    },
+    {
+      "start": 73.52,
+      "duration": 2.1500000000000057,
+      "text": "the time I was struggling with my OpenClaw, I saw this post on X where"
+    },
+    {
+      "start": 75.67,
+      "duration": 0.010000000000005116,
+      "text": "OpenClaw, I saw this post on X where"
+    },
+    {
+      "start": 75.68,
+      "duration": 1.8299999999999983,
+      "text": "OpenClaw, I saw this post on X where this developer walked through how she"
+    },
+    {
+      "start": 77.51,
+      "duration": 0.009999999999990905,
+      "text": "this developer walked through how she"
+    },
+    {
+      "start": 77.52,
+      "duration": 2.0700000000000074,
+      "text": "this developer walked through how she spent 5 days straight debugging her"
+    },
+    {
+      "start": 79.59,
+      "duration": 0.009999999999990905,
+      "text": "spent 5 days straight debugging her"
+    },
+    {
+      "start": 79.6,
+      "duration": 1.990000000000009,
+      "text": "spent 5 days straight debugging her OpenClaw's memory system. She documented"
+    },
+    {
+      "start": 81.59,
+      "duration": 0.009999999999990905,
+      "text": "OpenClaw's memory system. She documented"
+    },
+    {
+      "start": 81.6,
+      "duration": 1.5900000000000034,
+      "text": "OpenClaw's memory system. She documented the whole thing. I'll put a link to this"
+    },
+    {
+      "start": 83.19,
+      "duration": 0.010000000000005116,
+      "text": "the whole thing. I'll put a link to this"
+    },
+    {
+      "start": 83.2,
+      "duration": 1.6700000000000017,
+      "text": "the whole thing. I'll put a link to this article in the show notes. And what she"
+    },
+    {
+      "start": 84.87,
+      "duration": 0.009999999999990905,
+      "text": "article in the show notes. And what she"
+    },
+    {
+      "start": 84.88,
+      "duration": 1.8299999999999983,
+      "text": "article in the show notes. And what she found is super relevant to anybody"
+    },
+    {
+      "start": 86.71,
+      "duration": 0.010000000000005116,
+      "text": "found is super relevant to anybody"
+    },
+    {
+      "start": 86.72,
+      "duration": 1.5900000000000034,
+      "text": "found is super relevant to anybody running OpenClaw. I had been running"
+    },
+    {
+      "start": 88.31,
+      "duration": 0.009999999999990905,
+      "text": "running OpenClaw. I had been running"
+    },
+    {
+      "start": 88.32,
+      "duration": 2.0700000000000074,
+      "text": "running OpenClaw. I had been running into the exact same issues and I also"
+    },
+    {
+      "start": 90.39,
+      "duration": 0.010000000000005116,
+      "text": "into the exact same issues and I also"
+    },
+    {
+      "start": 90.4,
+      "duration": 1.5899999999999892,
+      "text": "into the exact same issues and I also learned a thing or two on my own just"
+    },
+    {
+      "start": 91.99,
+      "duration": 0.010000000000005116,
+      "text": "learned a thing or two on my own just"
+    },
+    {
+      "start": 92,
+      "duration": 2.0690000000000026,
+      "text": "learned a thing or two on my own just using clawed code to iterate on my"
+    },
+    {
+      "start": 94.069,
+      "duration": 0.009999999999990905,
+      "text": "using clawed code to iterate on my"
+    },
+    {
+      "start": 94.079,
+      "duration": 2.1510000000000105,
+      "text": "using clawed code to iterate on my agents context management system. So let"
+    },
+    {
+      "start": 96.23,
+      "duration": 0.009999999999990905,
+      "text": "agents context management system. So let"
+    },
+    {
+      "start": 96.24,
+      "duration": 1.6700000000000017,
+      "text": "agents context management system. So let me walk through the biggest problems and"
+    },
+    {
+      "start": 97.91,
+      "duration": 0.010000000000005116,
+      "text": "me walk through the biggest problems and"
+    },
+    {
+      "start": 97.92,
+      "duration": 1.75,
+      "text": "me walk through the biggest problems and actually how to fix them for yourself."
+    },
+    {
+      "start": 99.67,
+      "duration": 0.010000000000005116,
+      "text": "actually how to fix them for yourself."
+    },
+    {
+      "start": 99.68,
+      "duration": 2.0689999999999884,
+      "text": "actually how to fix them for yourself. Problem number one is the compaction"
+    },
+    {
+      "start": 101.749,
+      "duration": 0.010000000000005116,
+      "text": "Problem number one is the compaction"
+    },
+    {
+      "start": 101.759,
+      "duration": 1.5109999999999957,
+      "text": "Problem number one is the compaction problem. So here's the first thing you"
+    },
+    {
+      "start": 103.27,
+      "duration": 0.010000000000005116,
+      "text": "problem. So here's the first thing you"
+    },
+    {
+      "start": 103.28,
+      "duration": 1.8289999999999935,
+      "text": "problem. So here's the first thing you need to understand about OpenClaw. Like"
+    },
+    {
+      "start": 105.109,
+      "duration": 0.010000000000005116,
+      "text": "need to understand about OpenClaw. Like"
+    },
+    {
+      "start": 105.119,
+      "duration": 2.551000000000002,
+      "text": "need to understand about OpenClaw. Like any AI agent, it has a finite context"
+    },
+    {
+      "start": 107.67,
+      "duration": 0.010000000000005116,
+      "text": "any AI agent, it has a finite context"
+    },
+    {
+      "start": 107.68,
+      "duration": 1.8299999999999983,
+      "text": "any AI agent, it has a finite context window. This is basically the agent's"
+    },
+    {
+      "start": 109.51,
+      "duration": 0.009999999999990905,
+      "text": "window. This is basically the agent's"
+    },
+    {
+      "start": 109.52,
+      "duration": 1.5100000000000051,
+      "text": "window. This is basically the agent's short-term memory. And as your"
+    },
+    {
+      "start": 111.03,
+      "duration": 0.010000000000005116,
+      "text": "short-term memory. And as your"
+    },
+    {
+      "start": 111.04,
+      "duration": 2.0689999999999884,
+      "text": "short-term memory. And as your conversation gets longer, OpenClaw does"
+    },
+    {
+      "start": 113.109,
+      "duration": 0.010000000000005116,
+      "text": "conversation gets longer, OpenClaw does"
+    },
+    {
+      "start": 113.119,
+      "duration": 1.590999999999994,
+      "text": "conversation gets longer, OpenClaw does something called compaction. It"
+    },
+    {
+      "start": 114.71,
+      "duration": 0.010000000000005116,
+      "text": "something called compaction. It"
+    },
+    {
+      "start": 114.72,
+      "duration": 2.469999999999999,
+      "text": "something called compaction. It compresses the old context window and"
+    },
+    {
+      "start": 117.19,
+      "duration": 0.010000000000005116,
+      "text": "compresses the old context window and"
+    },
+    {
+      "start": 117.2,
+      "duration": 1.8299999999999983,
+      "text": "compresses the old context window and the old conversation history into a"
+    },
+    {
+      "start": 119.03,
+      "duration": 0.010000000000005116,
+      "text": "the old conversation history into a"
+    },
+    {
+      "start": 119.04,
+      "duration": 2.6299999999999955,
+      "text": "the old conversation history into a summary to make way for a new refresh"
+    },
+    {
+      "start": 121.67,
+      "duration": 0.010000000000005116,
+      "text": "summary to make way for a new refresh"
+    },
+    {
+      "start": 121.68,
+      "duration": 1.6699999999999875,
+      "text": "summary to make way for a new refresh context window. Sounds reasonable,"
+    },
+    {
+      "start": 123.35,
+      "duration": 0.010000000000005116,
+      "text": "context window. Sounds reasonable,"
+    },
+    {
+      "start": 123.36,
+      "duration": 2.3100000000000023,
+      "text": "context window. Sounds reasonable, right? The problem is it treats every"
+    },
+    {
+      "start": 125.67,
+      "duration": 0.010000000000005116,
+      "text": "right? The problem is it treats every"
+    },
+    {
+      "start": 125.68,
+      "duration": 1.509999999999991,
+      "text": "right? The problem is it treats every single thing in that conversation"
+    },
+    {
+      "start": 127.19,
+      "duration": 0.010000000000005116,
+      "text": "single thing in that conversation"
+    },
+    {
+      "start": 127.2,
+      "duration": 1.9899999999999949,
+      "text": "single thing in that conversation history equally. That super important"
+    },
+    {
+      "start": 129.19,
+      "duration": 0.009999999999990905,
+      "text": "history equally. That super important"
+    },
+    {
+      "start": 129.2,
+      "duration": 2.0700000000000216,
+      "text": "history equally. That super important thing you learned 20 messages ago, it"
+    },
+    {
+      "start": 131.27,
+      "duration": 0.009999999999990905,
+      "text": "thing you learned 20 messages ago, it"
+    },
+    {
+      "start": 131.28,
+      "duration": 1.5889999999999986,
+      "text": "thing you learned 20 messages ago, it gets the same exact treatment as"
+    },
+    {
+      "start": 132.869,
+      "duration": 0.009999999999990905,
+      "text": "gets the same exact treatment as"
+    },
+    {
+      "start": 132.879,
+      "duration": 1.3500000000000227,
+      "text": "gets the same exact treatment as everything else in the conversation"
+    },
+    {
+      "start": 134.229,
+      "duration": 0.009999999999990905,
+      "text": "everything else in the conversation"
+    },
+    {
+      "start": 134.239,
+      "duration": 1.990000000000009,
+      "text": "everything else in the conversation history, no matter if it's irrelevant or"
+    },
+    {
+      "start": 136.229,
+      "duration": 0.009999999999990905,
+      "text": "history, no matter if it's irrelevant or"
+    },
+    {
+      "start": 136.239,
+      "duration": 1.7510000000000048,
+      "text": "history, no matter if it's irrelevant or not. names, numbers, important"
+    },
+    {
+      "start": 137.99,
+      "duration": 0.009999999999990905,
+      "text": "not. names, numbers, important"
+    },
+    {
+      "start": 138,
+      "duration": 2.1500000000000057,
+      "text": "not. names, numbers, important decisions, etc. It all gets the same"
+    },
+    {
+      "start": 140.15,
+      "duration": 0.009999999999990905,
+      "text": "decisions, etc. It all gets the same"
+    },
+    {
+      "start": 140.16,
+      "duration": 1.8300000000000125,
+      "text": "decisions, etc. It all gets the same treatment and it's compacted into a"
+    },
+    {
+      "start": 141.99,
+      "duration": 0.009999999999990905,
+      "text": "treatment and it's compacted into a"
+    },
+    {
+      "start": 142,
+      "duration": 1.990000000000009,
+      "text": "treatment and it's compacted into a vague summary. So, this illustrates the"
+    },
+    {
+      "start": 143.99,
+      "duration": 0.009999999999990905,
+      "text": "vague summary. So, this illustrates the"
+    },
+    {
+      "start": 144,
+      "duration": 2.1500000000000057,
+      "text": "vague summary. So, this illustrates the typical way that the compaction works."
+    },
+    {
+      "start": 146.15,
+      "duration": 0.009999999999990905,
+      "text": "typical way that the compaction works."
+    },
+    {
+      "start": 146.16,
+      "duration": 1.429000000000002,
+      "text": "typical way that the compaction works. So, you just have a context window"
+    },
+    {
+      "start": 147.589,
+      "duration": 0.009999999999990905,
+      "text": "So, you just have a context window"
+    },
+    {
+      "start": 147.599,
+      "duration": 1.8310000000000173,
+      "text": "So, you just have a context window that's filling up with various things in"
+    },
+    {
+      "start": 149.43,
+      "duration": 0.009999999999990905,
+      "text": "that's filling up with various things in"
+    },
+    {
+      "start": 149.44,
+      "duration": 1.990000000000009,
+      "text": "that's filling up with various things in your conversation history, tool calls,"
+    },
+    {
+      "start": 151.43,
+      "duration": 0.009999999999990905,
+      "text": "your conversation history, tool calls,"
+    },
+    {
+      "start": 151.44,
+      "duration": 2.469999999999999,
+      "text": "your conversation history, tool calls, system prompts, etc., and then you get"
+    },
+    {
+      "start": 153.91,
+      "duration": 0.009999999999990905,
+      "text": "system prompts, etc., and then you get"
+    },
+    {
+      "start": 153.92,
+      "duration": 2.630000000000024,
+      "text": "system prompts, etc., and then you get compacted into just a generic summary."
+    },
+    {
+      "start": 156.55,
+      "duration": 0.009999999999990905,
+      "text": "compacted into just a generic summary."
+    },
+    {
+      "start": 156.56,
+      "duration": 1.5900000000000034,
+      "text": "compacted into just a generic summary. Now, here's the fix. It's something"
+    },
+    {
+      "start": 158.15,
+      "duration": 0.009999999999990905,
+      "text": "Now, here's the fix. It's something"
+    },
+    {
+      "start": 158.16,
+      "duration": 1.990000000000009,
+      "text": "Now, here's the fix. It's something called memory flush. Now, I'll get into"
+    },
+    {
+      "start": 160.15,
+      "duration": 0.009999999999990905,
+      "text": "called memory flush. Now, I'll get into"
+    },
+    {
+      "start": 160.16,
+      "duration": 1.8300000000000125,
+      "text": "called memory flush. Now, I'll get into how to implement that in your open claw"
+    },
+    {
+      "start": 161.99,
+      "duration": 0.009999999999990905,
+      "text": "how to implement that in your open claw"
+    },
+    {
+      "start": 162,
+      "duration": 1.5089999999999861,
+      "text": "how to implement that in your open claw in just one second. But what this"
+    },
+    {
+      "start": 163.509,
+      "duration": 0.010000000000019327,
+      "text": "in just one second. But what this"
+    },
+    {
+      "start": 163.519,
+      "duration": 2.4710000000000036,
+      "text": "in just one second. But what this basically does is before the compaction"
+    },
+    {
+      "start": 165.99,
+      "duration": 0.009999999999990905,
+      "text": "basically does is before the compaction"
+    },
+    {
+      "start": 166,
+      "duration": 2.5500000000000114,
+      "text": "basically does is before the compaction runs, it triggers a silent turn that"
+    },
+    {
+      "start": 168.55,
+      "duration": 0.009999999999990905,
+      "text": "runs, it triggers a silent turn that"
+    },
+    {
+      "start": 168.56,
+      "duration": 1.7489999999999952,
+      "text": "runs, it triggers a silent turn that tells the agent, hey, write any"
+    },
+    {
+      "start": 170.309,
+      "duration": 0.009999999999990905,
+      "text": "tells the agent, hey, write any"
+    },
+    {
+      "start": 170.319,
+      "duration": 1.350999999999999,
+      "text": "tells the agent, hey, write any important stuff, any important"
+    },
+    {
+      "start": 171.67,
+      "duration": 0.010000000000019327,
+      "text": "important stuff, any important"
+    },
+    {
+      "start": 171.68,
+      "duration": 2.7099999999999795,
+      "text": "important stuff, any important learnings, decisions, etc. to a file"
+    },
+    {
+      "start": 174.39,
+      "duration": 0.010000000000019327,
+      "text": "learnings, decisions, etc. to a file"
+    },
+    {
+      "start": 174.4,
+      "duration": 2.069999999999993,
+      "text": "learnings, decisions, etc. to a file before I compress this and before the"
+    },
+    {
+      "start": 176.47,
+      "duration": 0.009999999999990905,
+      "text": "before I compress this and before the"
+    },
+    {
+      "start": 176.48,
+      "duration": 2.1500000000000057,
+      "text": "before I compress this and before the compaction runs. The agent therefore"
+    },
+    {
+      "start": 178.63,
+      "duration": 0.009999999999990905,
+      "text": "compaction runs. The agent therefore"
+    },
+    {
+      "start": 178.64,
+      "duration": 2.630000000000024,
+      "text": "compaction runs. The agent therefore saves these durable facts onto a daily"
+    },
+    {
+      "start": 181.27,
+      "duration": 0.009999999999990905,
+      "text": "saves these durable facts onto a daily"
+    },
+    {
+      "start": 181.28,
+      "duration": 2.3089999999999975,
+      "text": "saves these durable facts onto a daily log which lives on your disc. And so"
+    },
+    {
+      "start": 183.589,
+      "duration": 0.009999999999990905,
+      "text": "log which lives on your disc. And so"
+    },
+    {
+      "start": 183.599,
+      "duration": 2.070999999999998,
+      "text": "log which lives on your disc. And so once the compaction runs, the important"
+    },
+    {
+      "start": 185.67,
+      "duration": 0.010000000000019327,
+      "text": "once the compaction runs, the important"
+    },
+    {
+      "start": 185.68,
+      "duration": 1.509999999999991,
+      "text": "once the compaction runs, the important stuff survives and it doesn't get"
+    },
+    {
+      "start": 187.19,
+      "duration": 0.009999999999990905,
+      "text": "stuff survives and it doesn't get"
+    },
+    {
+      "start": 187.2,
+      "duration": 2.1500000000000057,
+      "text": "stuff survives and it doesn't get distilled out in the summary. So that"
+    },
+    {
+      "start": 189.35,
+      "duration": 0.010000000000019327,
+      "text": "distilled out in the summary. So that"
+    },
+    {
+      "start": 189.36,
+      "duration": 2.3899999999999864,
+      "text": "distilled out in the summary. So that way whatever's in the context window, it"
+    },
+    {
+      "start": 191.75,
+      "duration": 0.009999999999990905,
+      "text": "way whatever's in the context window, it"
+    },
+    {
+      "start": 191.76,
+      "duration": 1.9099999999999966,
+      "text": "way whatever's in the context window, it can disappear. But the important stuff"
+    },
+    {
+      "start": 193.67,
+      "duration": 0.010000000000019327,
+      "text": "can disappear. But the important stuff"
+    },
+    {
+      "start": 193.68,
+      "duration": 1.8289999999999793,
+      "text": "can disappear. But the important stuff gets written to the file so it lives on"
+    },
+    {
+      "start": 195.509,
+      "duration": 0.010000000000019327,
+      "text": "gets written to the file so it lives on"
+    },
+    {
+      "start": 195.519,
+      "duration": 2.069999999999993,
+      "text": "gets written to the file so it lives on your disk and it survives. So how do you"
+    },
+    {
+      "start": 197.589,
+      "duration": 0.009999999999990905,
+      "text": "your disk and it survives. So how do you"
+    },
+    {
+      "start": 197.599,
+      "duration": 2.5500000000000114,
+      "text": "your disk and it survives. So how do you set this memory flush up? Well, you can"
+    },
+    {
+      "start": 200.149,
+      "duration": 0.009999999999990905,
+      "text": "set this memory flush up? Well, you can"
+    },
+    {
+      "start": 200.159,
+      "duration": 1.990000000000009,
+      "text": "set this memory flush up? Well, you can point cloud code at your OpenClaw"
+    },
+    {
+      "start": 202.149,
+      "duration": 0.009999999999990905,
+      "text": "point cloud code at your OpenClaw"
+    },
+    {
+      "start": 202.159,
+      "duration": 1.9110000000000014,
+      "text": "point cloud code at your OpenClaw directory and tell it to change your"
+    },
+    {
+      "start": 204.07,
+      "duration": 0.010000000000019327,
+      "text": "directory and tell it to change your"
+    },
+    {
+      "start": 204.08,
+      "duration": 2.9499999999999886,
+      "text": "directory and tell it to change your config file which is openclaw.json. It's"
+    },
+    {
+      "start": 207.03,
+      "duration": 0.009999999999990905,
+      "text": "config file which is openclaw.json. It's"
+    },
+    {
+      "start": 207.04,
+      "duration": 2.1500000000000057,
+      "text": "config file which is openclaw.json. It's basically a list of configurations for"
+    },
+    {
+      "start": 209.19,
+      "duration": 0.009999999999990905,
+      "text": "basically a list of configurations for"
+    },
+    {
+      "start": 209.2,
+      "duration": 1.990000000000009,
+      "text": "basically a list of configurations for your openclaw agent. Or you can just"
+    },
+    {
+      "start": 211.19,
+      "duration": 0.009999999999990905,
+      "text": "your openclaw agent. Or you can just"
+    },
+    {
+      "start": 211.2,
+      "duration": 2.9490000000000123,
+      "text": "your openclaw agent. Or you can just paste this into the openclaw.json. And"
+    },
+    {
+      "start": 214.149,
+      "duration": 0.009999999999990905,
+      "text": "paste this into the openclaw.json. And"
+    },
+    {
+      "start": 214.159,
+      "duration": 1.990000000000009,
+      "text": "paste this into the openclaw.json. And this is what enables the memory flush"
+    },
+    {
+      "start": 216.149,
+      "duration": 0.009999999999990905,
+      "text": "this is what enables the memory flush"
+    },
+    {
+      "start": 216.159,
+      "duration": 1.6710000000000207,
+      "text": "this is what enables the memory flush protocol. And once you do that, you're"
+    },
+    {
+      "start": 217.83,
+      "duration": 0.009999999999990905,
+      "text": "protocol. And once you do that, you're"
+    },
+    {
+      "start": 217.84,
+      "duration": 2.1500000000000057,
+      "text": "protocol. And once you do that, you're ready to go. Now, one caveat I'll add"
+    },
+    {
+      "start": 219.99,
+      "duration": 0.009999999999990905,
+      "text": "ready to go. Now, one caveat I'll add"
+    },
+    {
+      "start": 220,
+      "duration": 1.5889999999999986,
+      "text": "ready to go. Now, one caveat I'll add here. What if you have a really long"
+    },
+    {
+      "start": 221.589,
+      "duration": 0.009999999999990905,
+      "text": "here. What if you have a really long"
+    },
+    {
+      "start": 221.599,
+      "duration": 1.5910000000000082,
+      "text": "here. What if you have a really long session, like you're running for four to"
+    },
+    {
+      "start": 223.19,
+      "duration": 0.009999999999990905,
+      "text": "session, like you're running for four to"
+    },
+    {
+      "start": 223.2,
+      "duration": 2.0700000000000216,
+      "text": "session, like you're running for four to six hours, the compaction process might"
+    },
+    {
+      "start": 225.27,
+      "duration": 0.009999999999990905,
+      "text": "six hours, the compaction process might"
+    },
+    {
+      "start": 225.28,
+      "duration": 2.069999999999993,
+      "text": "six hours, the compaction process might run multiple times, but the way memory"
+    },
+    {
+      "start": 227.35,
+      "duration": 0.010000000000019327,
+      "text": "run multiple times, but the way memory"
+    },
+    {
+      "start": 227.36,
+      "duration": 2.309999999999974,
+      "text": "run multiple times, but the way memory flush works, it might only run on the"
+    },
+    {
+      "start": 229.67,
+      "duration": 0.010000000000019327,
+      "text": "flush works, it might only run on the"
+    },
+    {
+      "start": 229.68,
+      "duration": 1.9899999999999807,
+      "text": "flush works, it might only run on the first compaction and not the other ones."
+    },
+    {
+      "start": 231.67,
+      "duration": 0.010000000000019327,
+      "text": "first compaction and not the other ones."
+    },
+    {
+      "start": 231.68,
+      "duration": 1.2690000000000055,
+      "text": "first compaction and not the other ones. Now, according to what I'm seeing"
+    },
+    {
+      "start": 232.949,
+      "duration": 0.009999999999990905,
+      "text": "Now, according to what I'm seeing"
+    },
+    {
+      "start": 232.959,
+      "duration": 1.990000000000009,
+      "text": "Now, according to what I'm seeing online, in order to fix this problem,"
+    },
+    {
+      "start": 234.949,
+      "duration": 0.009999999999990905,
+      "text": "online, in order to fix this problem,"
+    },
+    {
+      "start": 234.959,
+      "duration": 1.5109999999999957,
+      "text": "online, in order to fix this problem, you have to enable something called"
+    },
+    {
+      "start": 236.47,
+      "duration": 0.009999999999990905,
+      "text": "you have to enable something called"
+    },
+    {
+      "start": 236.48,
+      "duration": 1.6690000000000111,
+      "text": "you have to enable something called context pruning. And this is something"
+    },
+    {
+      "start": 238.149,
+      "duration": 0.009999999999990905,
+      "text": "context pruning. And this is something"
+    },
+    {
+      "start": 238.159,
+      "duration": 2.6299999999999955,
+      "text": "context pruning. And this is something you can add again to your openclaw.json."
+    },
+    {
+      "start": 240.789,
+      "duration": 0.010000000000019327,
+      "text": "you can add again to your openclaw.json."
+    },
+    {
+      "start": 240.799,
+      "duration": 1.6709999999999923,
+      "text": "you can add again to your openclaw.json. You can either add it directly or work"
+    },
+    {
+      "start": 242.47,
+      "duration": 0.009999999999990905,
+      "text": "You can either add it directly or work"
+    },
+    {
+      "start": 242.48,
+      "duration": 2.230000000000018,
+      "text": "You can either add it directly or work with cloud code or another agent to kind"
+    },
+    {
+      "start": 244.71,
+      "duration": 0.009999999999990905,
+      "text": "with cloud code or another agent to kind"
+    },
+    {
+      "start": 244.72,
+      "duration": 2.149000000000001,
+      "text": "with cloud code or another agent to kind of iterate on this. But basically, it"
+    },
+    {
+      "start": 246.869,
+      "duration": 0.009999999999990905,
+      "text": "of iterate on this. But basically, it"
+    },
+    {
+      "start": 246.879,
+      "duration": 1.990000000000009,
+      "text": "of iterate on this. But basically, it sets a time period. I've set it to 4"
+    },
+    {
+      "start": 248.869,
+      "duration": 0.009999999999990905,
+      "text": "sets a time period. I've set it to 4"
+    },
+    {
+      "start": 248.879,
+      "duration": 1.990000000000009,
+      "text": "sets a time period. I've set it to 4 hours here. And so once a conversation"
+    },
+    {
+      "start": 250.869,
+      "duration": 0.009999999999990905,
+      "text": "hours here. And so once a conversation"
+    },
+    {
+      "start": 250.879,
+      "duration": 2.311000000000007,
+      "text": "hours here. And so once a conversation gets that long, this cleans up context"
+    },
+    {
+      "start": 253.19,
+      "duration": 0.009999999999990905,
+      "text": "gets that long, this cleans up context"
+    },
+    {
+      "start": 253.2,
+      "duration": 2.0700000000000216,
+      "text": "gets that long, this cleans up context while keeping the last three assistant"
+    },
+    {
+      "start": 255.27,
+      "duration": 0.009999999999990905,
+      "text": "while keeping the last three assistant"
+    },
+    {
+      "start": 255.28,
+      "duration": 2.0689999999999884,
+      "text": "while keeping the last three assistant responses. Again, your agent writes"
+    },
+    {
+      "start": 257.349,
+      "duration": 0.009999999999990905,
+      "text": "responses. Again, your agent writes"
+    },
+    {
+      "start": 257.359,
+      "duration": 1.990000000000009,
+      "text": "responses. Again, your agent writes important stuff to disk early and old"
+    },
+    {
+      "start": 259.349,
+      "duration": 0.009999999999990905,
+      "text": "important stuff to disk early and old"
+    },
+    {
+      "start": 259.359,
+      "duration": 1.830000000000041,
+      "text": "important stuff to disk early and old context gets cleaned up before it causes"
+    },
+    {
+      "start": 261.189,
+      "duration": 0.009999999999990905,
+      "text": "context gets cleaned up before it causes"
+    },
+    {
+      "start": 261.199,
+      "duration": 1.9110000000000014,
+      "text": "context gets cleaned up before it causes problems. Problem number two, search and"
+    },
+    {
+      "start": 263.11,
+      "duration": 0.009999999999990905,
+      "text": "problems. Problem number two, search and"
+    },
+    {
+      "start": 263.12,
+      "duration": 2.069000000000017,
+      "text": "problems. Problem number two, search and retrieval. So even after we set up the"
+    },
+    {
+      "start": 265.189,
+      "duration": 0.009999999999990905,
+      "text": "retrieval. So even after we set up the"
+    },
+    {
+      "start": 265.199,
+      "duration": 1.5910000000000082,
+      "text": "retrieval. So even after we set up the previous fix and your agent starts"
+    },
+    {
+      "start": 266.79,
+      "duration": 0.009999999999990905,
+      "text": "previous fix and your agent starts"
+    },
+    {
+      "start": 266.8,
+      "duration": 2.38900000000001,
+      "text": "previous fix and your agent starts saving important stuff to file, it still"
+    },
+    {
+      "start": 269.189,
+      "duration": 0.009999999999990905,
+      "text": "saving important stuff to file, it still"
+    },
+    {
+      "start": 269.199,
+      "duration": 1.9110000000000014,
+      "text": "saving important stuff to file, it still has to search and find those things. And"
+    },
+    {
+      "start": 271.11,
+      "duration": 0.009999999999990905,
+      "text": "has to search and find those things. And"
+    },
+    {
+      "start": 271.12,
+      "duration": 1.9099999999999682,
+      "text": "has to search and find those things. And the default search in Open Claw isn't"
+    },
+    {
+      "start": 273.03,
+      "duration": 0.010000000000047748,
+      "text": "the default search in Open Claw isn't"
+    },
+    {
+      "start": 273.04,
+      "duration": 2.069999999999993,
+      "text": "the default search in Open Claw isn't the best. It uses pure semantic"
+    },
+    {
+      "start": 275.11,
+      "duration": 0.009999999999990905,
+      "text": "the best. It uses pure semantic"
+    },
+    {
+      "start": 275.12,
+      "duration": 1.829999999999984,
+      "text": "the best. It uses pure semantic similarity, which is good for certain"
+    },
+    {
+      "start": 276.95,
+      "duration": 0.009999999999990905,
+      "text": "similarity, which is good for certain"
+    },
+    {
+      "start": 276.96,
+      "duration": 1.6690000000000396,
+      "text": "similarity, which is good for certain types of queries, but not great for"
+    },
+    {
+      "start": 278.629,
+      "duration": 0.009999999999990905,
+      "text": "types of queries, but not great for"
+    },
+    {
+      "start": 278.639,
+      "duration": 1.7509999999999764,
+      "text": "types of queries, but not great for others. I covered this in my prior"
+    },
+    {
+      "start": 280.39,
+      "duration": 0.009999999999990905,
+      "text": "others. I covered this in my prior"
+    },
+    {
+      "start": 280.4,
+      "duration": 1.830000000000041,
+      "text": "others. I covered this in my prior video. Basically, you search for a"
+    },
+    {
+      "start": 282.23,
+      "duration": 0.009999999999990905,
+      "text": "video. Basically, you search for a"
+    },
+    {
+      "start": 282.24,
+      "duration": 1.5090000000000146,
+      "text": "video. Basically, you search for a specific thing and you end up getting"
+    },
+    {
+      "start": 283.749,
+      "duration": 0.009999999999990905,
+      "text": "specific thing and you end up getting"
+    },
+    {
+      "start": 283.759,
+      "duration": 1.5109999999999673,
+      "text": "specific thing and you end up getting results about a completely different"
+    },
+    {
+      "start": 285.27,
+      "duration": 0.009999999999990905,
+      "text": "results about a completely different"
+    },
+    {
+      "start": 285.28,
+      "duration": 2.07000000000005,
+      "text": "results about a completely different topic that just uses similar language."
+    },
+    {
+      "start": 287.35,
+      "duration": 0.009999999999990905,
+      "text": "topic that just uses similar language."
+    },
+    {
+      "start": 287.36,
+      "duration": 2.2299999999999613,
+      "text": "topic that just uses similar language. The fix is switching to QMD, which again"
+    },
+    {
+      "start": 289.59,
+      "duration": 0.010000000000047748,
+      "text": "The fix is switching to QMD, which again"
+    },
+    {
+      "start": 289.6,
+      "duration": 2.9499999999999886,
+      "text": "The fix is switching to QMD, which again I covered in my last video. QMD combines"
+    },
+    {
+      "start": 292.55,
+      "duration": 0.009999999999990905,
+      "text": "I covered in my last video. QMD combines"
+    },
+    {
+      "start": 292.56,
+      "duration": 1.670000000000016,
+      "text": "I covered in my last video. QMD combines three types of search, so you get"
+    },
+    {
+      "start": 294.23,
+      "duration": 0.009999999999990905,
+      "text": "three types of search, so you get"
+    },
+    {
+      "start": 294.24,
+      "duration": 2.1499999999999773,
+      "text": "three types of search, so you get semantic matches and exact matches"
+    },
+    {
+      "start": 296.39,
+      "duration": 0.009999999999990905,
+      "text": "semantic matches and exact matches"
+    },
+    {
+      "start": 296.4,
+      "duration": 1.830000000000041,
+      "text": "semantic matches and exact matches ranked by relevance. If you haven't set"
+    },
+    {
+      "start": 298.23,
+      "duration": 0.009999999999990905,
+      "text": "ranked by relevance. If you haven't set"
+    },
+    {
+      "start": 298.24,
+      "duration": 2.228999999999985,
+      "text": "ranked by relevance. If you haven't set up QMD yet, please go watch that video"
+    },
+    {
+      "start": 300.469,
+      "duration": 0.009999999999990905,
+      "text": "up QMD yet, please go watch that video"
+    },
+    {
+      "start": 300.479,
+      "duration": 1.9110000000000014,
+      "text": "up QMD yet, please go watch that video and do it. But here's the more subtle"
+    },
+    {
+      "start": 302.39,
+      "duration": 0.009999999999990905,
+      "text": "and do it. But here's the more subtle"
+    },
+    {
+      "start": 302.4,
+      "duration": 1.75,
+      "text": "and do it. But here's the more subtle problem that I didn't cover in that"
+    },
+    {
+      "start": 304.15,
+      "duration": 0.010000000000047748,
+      "text": "problem that I didn't cover in that"
+    },
+    {
+      "start": 304.16,
+      "duration": 2.6299999999999955,
+      "text": "problem that I didn't cover in that video. Even with great search like QMD,"
+    },
+    {
+      "start": 306.79,
+      "duration": 0.009999999999990905,
+      "text": "video. Even with great search like QMD,"
+    },
+    {
+      "start": 306.8,
+      "duration": 1.75,
+      "text": "video. Even with great search like QMD, your agent still has to decide to"
+    },
+    {
+      "start": 308.55,
+      "duration": 0.009999999999990905,
+      "text": "your agent still has to decide to"
+    },
+    {
+      "start": 308.56,
+      "duration": 1.75,
+      "text": "your agent still has to decide to search. And if the conversation doesn't"
+    },
+    {
+      "start": 310.31,
+      "duration": 0.009999999999990905,
+      "text": "search. And if the conversation doesn't"
+    },
+    {
+      "start": 310.32,
+      "duration": 2.309000000000026,
+      "text": "search. And if the conversation doesn't trigger the right cues, the agent just"
+    },
+    {
+      "start": 312.629,
+      "duration": 0.009999999999990905,
+      "text": "trigger the right cues, the agent just"
+    },
+    {
+      "start": 312.639,
+      "duration": 1.829999999999984,
+      "text": "trigger the right cues, the agent just won't look things up. That's what I get"
+    },
+    {
+      "start": 314.469,
+      "duration": 0.009999999999990905,
+      "text": "won't look things up. That's what I get"
+    },
+    {
+      "start": 314.479,
+      "duration": 2.790999999999997,
+      "text": "won't look things up. That's what I get into over here. QMD solves the bad"
+    },
+    {
+      "start": 317.27,
+      "duration": 0.009999999999990905,
+      "text": "into over here. QMD solves the bad"
+    },
+    {
+      "start": 317.28,
+      "duration": 2.07000000000005,
+      "text": "into over here. QMD solves the bad search problem by implementing a better"
+    },
+    {
+      "start": 319.35,
+      "duration": 0.009999999999990905,
+      "text": "search problem by implementing a better"
+    },
+    {
+      "start": 319.36,
+      "duration": 2.548999999999978,
+      "text": "search problem by implementing a better hybrid search so you get better results."
+    },
+    {
+      "start": 321.909,
+      "duration": 0.009999999999990905,
+      "text": "hybrid search so you get better results."
+    },
+    {
+      "start": 321.919,
+      "duration": 1.6709999999999923,
+      "text": "hybrid search so you get better results. But what about when the agent actually"
+    },
+    {
+      "start": 323.59,
+      "duration": 0.010000000000047748,
+      "text": "But what about when the agent actually"
+    },
+    {
+      "start": 323.6,
+      "duration": 1.829999999999984,
+      "text": "But what about when the agent actually doesn't search? This is where the agent"
+    },
+    {
+      "start": 325.43,
+      "duration": 0.009999999999990905,
+      "text": "doesn't search? This is where the agent"
+    },
+    {
+      "start": 325.44,
+      "duration": 2.5500000000000114,
+      "text": "doesn't search? This is where the agent might just try to answer from memory,"
+    },
+    {
+      "start": 327.99,
+      "duration": 0.009999999999990905,
+      "text": "might just try to answer from memory,"
+    },
+    {
+      "start": 328,
+      "duration": 1.990000000000009,
+      "text": "might just try to answer from memory, i.e. what's currently in the context"
+    },
+    {
+      "start": 329.99,
+      "duration": 0.009999999999990905,
+      "text": "i.e. what's currently in the context"
+    },
+    {
+      "start": 330,
+      "duration": 1.829999999999984,
+      "text": "i.e. what's currently in the context window. In order to fix this, you have"
+    },
+    {
+      "start": 331.83,
+      "duration": 0.009999999999990905,
+      "text": "window. In order to fix this, you have"
+    },
+    {
+      "start": 331.84,
+      "duration": 1.990000000000009,
+      "text": "window. In order to fix this, you have to add specific instructions to your"
+    },
+    {
+      "start": 333.83,
+      "duration": 0.009999999999990905,
+      "text": "to add specific instructions to your"
+    },
+    {
+      "start": 333.84,
+      "duration": 3.1100000000000136,
+      "text": "to add specific instructions to your open clause agents.m MD file. Basically"
+    },
+    {
+      "start": 336.95,
+      "duration": 0.009999999999990905,
+      "text": "open clause agents.m MD file. Basically"
+    },
+    {
+      "start": 336.96,
+      "duration": 2.4700000000000273,
+      "text": "open clause agents.m MD file. Basically prompting it that before any task, it"
+    },
+    {
+      "start": 339.43,
+      "duration": 0.009999999999990905,
+      "text": "prompting it that before any task, it"
+    },
+    {
+      "start": 339.44,
+      "duration": 1.829999999999984,
+      "text": "prompting it that before any task, it has to search daily logs for relevant"
+    },
+    {
+      "start": 341.27,
+      "duration": 0.009999999999990905,
+      "text": "has to search daily logs for relevant"
+    },
+    {
+      "start": 341.28,
+      "duration": 2.07000000000005,
+      "text": "has to search daily logs for relevant context and to check a learnings file,"
+    },
+    {
+      "start": 343.35,
+      "duration": 0.009999999999990905,
+      "text": "context and to check a learnings file,"
+    },
+    {
+      "start": 343.36,
+      "duration": 2.2299999999999613,
+      "text": "context and to check a learnings file, what we'll call learnings.md to see if"
+    },
+    {
+      "start": 345.59,
+      "duration": 0.010000000000047748,
+      "text": "what we'll call learnings.md to see if"
+    },
+    {
+      "start": 345.6,
+      "duration": 1.75,
+      "text": "what we'll call learnings.md to see if there are any rules about this type of"
+    },
+    {
+      "start": 347.35,
+      "duration": 0.009999999999990905,
+      "text": "there are any rules about this type of"
+    },
+    {
+      "start": 347.36,
+      "duration": 1.8290000000000077,
+      "text": "there are any rules about this type of task or search. So the idea for"
+    },
+    {
+      "start": 349.189,
+      "duration": 0.009999999999990905,
+      "text": "task or search. So the idea for"
+    },
+    {
+      "start": 349.199,
+      "duration": 1.990000000000009,
+      "text": "task or search. So the idea for learnings.md actually came from that X"
+    },
+    {
+      "start": 351.189,
+      "duration": 0.009999999999990905,
+      "text": "learnings.md actually came from that X"
+    },
+    {
+      "start": 351.199,
+      "duration": 1.5109999999999673,
+      "text": "learnings.md actually came from that X article I was talking about. And I"
+    },
+    {
+      "start": 352.71,
+      "duration": 0.010000000000047748,
+      "text": "article I was talking about. And I"
+    },
+    {
+      "start": 352.72,
+      "duration": 1.829999999999984,
+      "text": "article I was talking about. And I thought this was a super cool idea. So"
+    },
+    {
+      "start": 354.55,
+      "duration": 0.009999999999990905,
+      "text": "thought this was a super cool idea. So"
+    },
+    {
+      "start": 354.56,
+      "duration": 2.7099999999999795,
+      "text": "thought this was a super cool idea. So raw memories get written to a memory.mmd"
+    },
+    {
+      "start": 357.27,
+      "duration": 0.009999999999990905,
+      "text": "raw memories get written to a memory.mmd"
+    },
+    {
+      "start": 357.28,
+      "duration": 1.7490000000000236,
+      "text": "raw memories get written to a memory.mmd file. But as you can imagine that file"
+    },
+    {
+      "start": 359.029,
+      "duration": 0.009999999999990905,
+      "text": "file. But as you can imagine that file"
+    },
+    {
+      "start": 359.039,
+      "duration": 1.990000000000009,
+      "text": "file. But as you can imagine that file can get extremely bloated. So you can"
+    },
+    {
+      "start": 361.029,
+      "duration": 0.009999999999990905,
+      "text": "can get extremely bloated. So you can"
+    },
+    {
+      "start": 361.039,
+      "duration": 1.271000000000015,
+      "text": "can get extremely bloated. So you can have a separate file called"
+    },
+    {
+      "start": 362.31,
+      "duration": 0.009999999999990905,
+      "text": "have a separate file called"
+    },
+    {
+      "start": 362.32,
+      "duration": 2.3899999999999864,
+      "text": "have a separate file called learnings.md. And what that serves to do"
+    },
+    {
+      "start": 364.71,
+      "duration": 0.010000000000047748,
+      "text": "learnings.md. And what that serves to do"
+    },
+    {
+      "start": 364.72,
+      "duration": 2.2299999999999613,
+      "text": "learnings.md. And what that serves to do is every time your openclaw agent makes"
+    },
+    {
+      "start": 366.95,
+      "duration": 0.009999999999990905,
+      "text": "is every time your openclaw agent makes"
+    },
+    {
+      "start": 366.96,
+      "duration": 2.7100000000000364,
+      "text": "is every time your openclaw agent makes a mistake, you document a rule or a use"
+    },
+    {
+      "start": 369.67,
+      "duration": 0.009999999999990905,
+      "text": "a mistake, you document a rule or a use"
+    },
+    {
+      "start": 369.68,
+      "duration": 1.670000000000016,
+      "text": "a mistake, you document a rule or a use case to prevent that mistake in the"
+    },
+    {
+      "start": 371.35,
+      "duration": 0.009999999999990905,
+      "text": "case to prevent that mistake in the"
+    },
+    {
+      "start": 371.36,
+      "duration": 1.6689999999999827,
+      "text": "case to prevent that mistake in the future. And you put the rule as a"
+    },
+    {
+      "start": 373.029,
+      "duration": 0.009999999999990905,
+      "text": "future. And you put the rule as a"
+    },
+    {
+      "start": 373.039,
+      "duration": 2.8700000000000045,
+      "text": "future. And you put the rule as a oneliner or a twoliner in learnings.md."
+    },
+    {
+      "start": 375.909,
+      "duration": 0.009999999999990905,
+      "text": "oneliner or a twoliner in learnings.md."
+    },
+    {
+      "start": 375.919,
+      "duration": 2.1510000000000105,
+      "text": "oneliner or a twoliner in learnings.md. And then in your agents file, it tells"
+    },
+    {
+      "start": 378.07,
+      "duration": 0.009999999999990905,
+      "text": "And then in your agents file, it tells"
+    },
+    {
+      "start": 378.08,
+      "duration": 2.150000000000034,
+      "text": "And then in your agents file, it tells the agent that every time you ask it to"
+    },
+    {
+      "start": 380.23,
+      "duration": 0.009999999999990905,
+      "text": "the agent that every time you ask it to"
+    },
+    {
+      "start": 380.24,
+      "duration": 1.349999999999966,
+      "text": "the agent that every time you ask it to do something, it needs to check"
+    },
+    {
+      "start": 381.59,
+      "duration": 0.010000000000047748,
+      "text": "do something, it needs to check"
+    },
+    {
+      "start": 381.6,
+      "duration": 2.149000000000001,
+      "text": "do something, it needs to check learnings.mmd to make sure that it's"
+    },
+    {
+      "start": 383.749,
+      "duration": 0.009999999999990905,
+      "text": "learnings.mmd to make sure that it's"
+    },
+    {
+      "start": 383.759,
+      "duration": 1.990000000000009,
+      "text": "learnings.mmd to make sure that it's implementing a rule if it applies."
+    },
+    {
+      "start": 385.749,
+      "duration": 0.009999999999990905,
+      "text": "implementing a rule if it applies."
+    },
+    {
+      "start": 385.759,
+      "duration": 2.2309999999999945,
+      "text": "implementing a rule if it applies. Problem number three is the heartbeat"
+    },
+    {
+      "start": 387.99,
+      "duration": 0.009999999999990905,
+      "text": "Problem number three is the heartbeat"
+    },
+    {
+      "start": 388,
+      "duration": 2.069999999999993,
+      "text": "Problem number three is the heartbeat cost trap. Now, this is something that"
+    },
+    {
+      "start": 390.07,
+      "duration": 0.009999999999990905,
+      "text": "cost trap. Now, this is something that"
+    },
+    {
+      "start": 390.08,
+      "duration": 1.910000000000025,
+      "text": "cost trap. Now, this is something that nobody really warns you about, and I"
+    },
+    {
+      "start": 391.99,
+      "duration": 0.009999999999990905,
+      "text": "nobody really warns you about, and I"
+    },
+    {
+      "start": 392,
+      "duration": 1.509999999999991,
+      "text": "nobody really warns you about, and I definitely got caught off guard by this."
+    },
+    {
+      "start": 393.51,
+      "duration": 0.009999999999990905,
+      "text": "definitely got caught off guard by this."
+    },
+    {
+      "start": 393.52,
+      "duration": 1.990000000000009,
+      "text": "definitely got caught off guard by this. So, heartbeat is basically OpenClaw's"
+    },
+    {
+      "start": 395.51,
+      "duration": 0.009999999999990905,
+      "text": "So, heartbeat is basically OpenClaw's"
+    },
+    {
+      "start": 395.52,
+      "duration": 1.830000000000041,
+      "text": "So, heartbeat is basically OpenClaw's way of checking on things at some"
+    },
+    {
+      "start": 397.35,
+      "duration": 0.009999999999990905,
+      "text": "way of checking on things at some"
+    },
+    {
+      "start": 397.36,
+      "duration": 2.069999999999993,
+      "text": "way of checking on things at some predetermined time interval. By default,"
+    },
+    {
+      "start": 399.43,
+      "duration": 0.009999999999990905,
+      "text": "predetermined time interval. By default,"
+    },
+    {
+      "start": 399.44,
+      "duration": 1.7490000000000236,
+      "text": "predetermined time interval. By default, it's about every 30 minutes. The"
+    },
+    {
+      "start": 401.189,
+      "duration": 0.009999999999990905,
+      "text": "it's about every 30 minutes. The"
+    },
+    {
+      "start": 401.199,
+      "duration": 1.990000000000009,
+      "text": "it's about every 30 minutes. The heartbeat is really what enables Open"
+    },
+    {
+      "start": 403.189,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat is really what enables Open"
+    },
+    {
+      "start": 403.199,
+      "duration": 2.630999999999972,
+      "text": "heartbeat is really what enables Open Claw to be more like a real-time agent."
+    },
+    {
+      "start": 405.83,
+      "duration": 0.009999999999990905,
+      "text": "Claw to be more like a real-time agent."
+    },
+    {
+      "start": 405.84,
+      "duration": 2.629000000000019,
+      "text": "Claw to be more like a real-time agent. The problem is that by default, every"
+    },
+    {
+      "start": 408.469,
+      "duration": 0.009999999999990905,
+      "text": "The problem is that by default, every"
+    },
+    {
+      "start": 408.479,
+      "duration": 2.2309999999999945,
+      "text": "The problem is that by default, every heartbeat is a full agent turn. What"
+    },
+    {
+      "start": 410.71,
+      "duration": 0.010000000000047748,
+      "text": "heartbeat is a full agent turn. What"
+    },
+    {
+      "start": 410.72,
+      "duration": 2.1499999999999773,
+      "text": "heartbeat is a full agent turn. What that means is that every 30 minutes your"
+    },
+    {
+      "start": 412.87,
+      "duration": 0.009999999999990905,
+      "text": "that means is that every 30 minutes your"
+    },
+    {
+      "start": 412.88,
+      "duration": 2.230000000000018,
+      "text": "that means is that every 30 minutes your heartbeat is sending the entire system"
+    },
+    {
+      "start": 415.11,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat is sending the entire system"
+    },
+    {
+      "start": 415.12,
+      "duration": 3.908999999999992,
+      "text": "heartbeat is sending the entire system prompt agents.mmd, soul.md, tools.md,"
+    },
+    {
+      "start": 419.029,
+      "duration": 0.009999999999990905,
+      "text": "prompt agents.mmd, soul.md, tools.md,"
+    },
+    {
+      "start": 419.039,
+      "duration": 3.031000000000006,
+      "text": "prompt agents.mmd, soul.md, tools.md, identity.md, heartbeat.md, and memory"
+    },
+    {
+      "start": 422.07,
+      "duration": 0.009999999999990905,
+      "text": "identity.md, heartbeat.md, and memory"
+    },
+    {
+      "start": 422.08,
+      "duration": 2.6299999999999955,
+      "text": "identity.md, heartbeat.md, and memory all to the API or whatever AI model"
+    },
+    {
+      "start": 424.71,
+      "duration": 0.010000000000047748,
+      "text": "all to the API or whatever AI model"
+    },
+    {
+      "start": 424.72,
+      "duration": 2.069999999999993,
+      "text": "all to the API or whatever AI model provider your openclaw is using. This"
+    },
+    {
+      "start": 426.79,
+      "duration": 0.009999999999990905,
+      "text": "provider your openclaw is using. This"
+    },
+    {
+      "start": 426.8,
+      "duration": 1.9099999999999682,
+      "text": "provider your openclaw is using. This can burn through a ton of tokens and"
+    },
+    {
+      "start": 428.71,
+      "duration": 0.010000000000047748,
+      "text": "can burn through a ton of tokens and"
+    },
+    {
+      "start": 428.72,
+      "duration": 1.9899999999999523,
+      "text": "can burn through a ton of tokens and cost you real money. So, how do you fix"
+    },
+    {
+      "start": 430.71,
+      "duration": 0.010000000000047748,
+      "text": "cost you real money. So, how do you fix"
+    },
+    {
+      "start": 430.72,
+      "duration": 2.069999999999993,
+      "text": "cost you real money. So, how do you fix this and not spend through a bunch of"
+    },
+    {
+      "start": 432.79,
+      "duration": 0.009999999999990905,
+      "text": "this and not spend through a bunch of"
+    },
+    {
+      "start": 432.8,
+      "duration": 2.6299999999999955,
+      "text": "this and not spend through a bunch of money on API costs? Number one, you can"
+    },
+    {
+      "start": 435.43,
+      "duration": 0.009999999999990905,
+      "text": "money on API costs? Number one, you can"
+    },
+    {
+      "start": 435.44,
+      "duration": 2.069999999999993,
+      "text": "money on API costs? Number one, you can set active hours for your heartbeat. It"
+    },
+    {
+      "start": 437.51,
+      "duration": 0.009999999999990905,
+      "text": "set active hours for your heartbeat. It"
+    },
+    {
+      "start": 437.52,
+      "duration": 2.069000000000017,
+      "text": "set active hours for your heartbeat. It doesn't need to run 24 hours a day. If"
+    },
+    {
+      "start": 439.589,
+      "duration": 0.009999999999990905,
+      "text": "doesn't need to run 24 hours a day. If"
+    },
+    {
+      "start": 439.599,
+      "duration": 1.511000000000024,
+      "text": "doesn't need to run 24 hours a day. If the agent doesn't need to check in at"
+    },
+    {
+      "start": 441.11,
+      "duration": 0.009999999999990905,
+      "text": "the agent doesn't need to check in at"
+    },
+    {
+      "start": 441.12,
+      "duration": 2.069000000000017,
+      "text": "the agent doesn't need to check in at 3:00 a.m., don't let it. Just assign"
+    },
+    {
+      "start": 443.189,
+      "duration": 0.009999999999990905,
+      "text": "3:00 a.m., don't let it. Just assign"
+    },
+    {
+      "start": 443.199,
+      "duration": 1.829999999999984,
+      "text": "3:00 a.m., don't let it. Just assign working hours to the heartbeat. The"
+    },
+    {
+      "start": 445.029,
+      "duration": 0.009999999999990905,
+      "text": "working hours to the heartbeat. The"
+    },
+    {
+      "start": 445.039,
+      "duration": 1.8310000000000173,
+      "text": "working hours to the heartbeat. The second option is to turn on light"
+    },
+    {
+      "start": 446.87,
+      "duration": 0.009999999999990905,
+      "text": "second option is to turn on light"
+    },
+    {
+      "start": 446.88,
+      "duration": 2.230000000000018,
+      "text": "second option is to turn on light context. As I mentioned, by default,"
+    },
+    {
+      "start": 449.11,
+      "duration": 0.009999999999990905,
+      "text": "context. As I mentioned, by default,"
+    },
+    {
+      "start": 449.12,
+      "duration": 1.990000000000009,
+      "text": "context. As I mentioned, by default, heartbeat loads your entire system"
+    },
+    {
+      "start": 451.11,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat loads your entire system"
+    },
+    {
+      "start": 451.12,
+      "duration": 1.9089999999999918,
+      "text": "heartbeat loads your entire system prompt every time it runs. But if you"
+    },
+    {
+      "start": 453.029,
+      "duration": 0.009999999999990905,
+      "text": "prompt every time it runs. But if you"
+    },
+    {
+      "start": 453.039,
+      "duration": 2.150000000000034,
+      "text": "prompt every time it runs. But if you turn light context on, which is again"
+    },
+    {
+      "start": 455.189,
+      "duration": 0.009999999999990905,
+      "text": "turn light context on, which is again"
+    },
+    {
+      "start": 455.199,
+      "duration": 1.190999999999974,
+      "text": "turn light context on, which is again something that lives in your"
+    },
+    {
+      "start": 456.39,
+      "duration": 0.009999999999990905,
+      "text": "something that lives in your"
+    },
+    {
+      "start": 456.4,
+      "duration": 2.3100000000000023,
+      "text": "something that lives in your openclaw.json, JSON your configuration"
+    },
+    {
+      "start": 458.71,
+      "duration": 0.010000000000047748,
+      "text": "openclaw.json, JSON your configuration"
+    },
+    {
+      "start": 458.72,
+      "duration": 2.069999999999993,
+      "text": "openclaw.json, JSON your configuration file. The heartbeat does not load the"
+    },
+    {
+      "start": 460.79,
+      "duration": 0.009999999999990905,
+      "text": "file. The heartbeat does not load the"
+    },
+    {
+      "start": 460.8,
+      "duration": 1.8290000000000077,
+      "text": "file. The heartbeat does not load the entire system prompt. It only loads"
+    },
+    {
+      "start": 462.629,
+      "duration": 0.009999999999990905,
+      "text": "entire system prompt. It only loads"
+    },
+    {
+      "start": 462.639,
+      "duration": 2.4710000000000036,
+      "text": "entire system prompt. It only loads heartbeat.md. This saves a ton of money"
+    },
+    {
+      "start": 465.11,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat.md. This saves a ton of money"
+    },
+    {
+      "start": 465.12,
+      "duration": 1.9089999999999918,
+      "text": "heartbeat.md. This saves a ton of money if your other files are really big. The"
+    },
+    {
+      "start": 467.029,
+      "duration": 0.009999999999990905,
+      "text": "if your other files are really big. The"
+    },
+    {
+      "start": 467.039,
+      "duration": 2.0710000000000264,
+      "text": "if your other files are really big. The third thing you can do is to use a"
+    },
+    {
+      "start": 469.11,
+      "duration": 0.009999999999990905,
+      "text": "third thing you can do is to use a"
+    },
+    {
+      "start": 469.12,
+      "duration": 1.75,
+      "text": "third thing you can do is to use a cheaper model for the heartbeat. That's"
+    },
+    {
+      "start": 470.87,
+      "duration": 0.009999999999990905,
+      "text": "cheaper model for the heartbeat. That's"
+    },
+    {
+      "start": 470.88,
+      "duration": 2.869000000000028,
+      "text": "cheaper model for the heartbeat. That's what I did. I started using Gemini 3.1"
+    },
+    {
+      "start": 473.749,
+      "duration": 0.009999999999990905,
+      "text": "what I did. I started using Gemini 3.1"
+    },
+    {
+      "start": 473.759,
+      "duration": 2.0709999999999695,
+      "text": "what I did. I started using Gemini 3.1 Flash Light, which is a very cheap and"
+    },
+    {
+      "start": 475.83,
+      "duration": 0.009999999999990905,
+      "text": "Flash Light, which is a very cheap and"
+    },
+    {
+      "start": 475.84,
+      "duration": 1.990000000000009,
+      "text": "Flash Light, which is a very cheap and efficient model with a big context"
+    },
+    {
+      "start": 477.83,
+      "duration": 0.009999999999990905,
+      "text": "efficient model with a big context"
+    },
+    {
+      "start": 477.84,
+      "duration": 2.150000000000034,
+      "text": "efficient model with a big context window. This saved me a ton of API cost"
+    },
+    {
+      "start": 479.99,
+      "duration": 0.009999999999990905,
+      "text": "window. This saved me a ton of API cost"
+    },
+    {
+      "start": 480,
+      "duration": 1.9089999999999918,
+      "text": "window. This saved me a ton of API cost as well. And the last thing you can do"
+    },
+    {
+      "start": 481.909,
+      "duration": 0.009999999999990905,
+      "text": "as well. And the last thing you can do"
+    },
+    {
+      "start": 481.919,
+      "duration": 2.4710000000000036,
+      "text": "as well. And the last thing you can do is if you really want to load the entire"
+    },
+    {
+      "start": 484.39,
+      "duration": 0.009999999999990905,
+      "text": "is if you really want to load the entire"
+    },
+    {
+      "start": 484.4,
+      "duration": 1.4300000000000068,
+      "text": "is if you really want to load the entire system prompt and you want your"
+    },
+    {
+      "start": 485.83,
+      "duration": 0.009999999999990905,
+      "text": "system prompt and you want your"
+    },
+    {
+      "start": 485.84,
+      "duration": 2.069000000000017,
+      "text": "system prompt and you want your heartbeat to check in on everything,"
+    },
+    {
+      "start": 487.909,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat to check in on everything,"
+    },
+    {
+      "start": 487.919,
+      "duration": 1.43100000000004,
+      "text": "heartbeat to check in on everything, then you need to make sure that your"
+    },
+    {
+      "start": 489.35,
+      "duration": 0.009999999999990905,
+      "text": "then you need to make sure that your"
+    },
+    {
+      "start": 489.36,
+      "duration": 2.7899999999999636,
+      "text": "then you need to make sure that your heartbeat.md file and your agents.md"
+    },
+    {
+      "start": 492.15,
+      "duration": 0.010000000000047748,
+      "text": "heartbeat.md file and your agents.md"
+    },
+    {
+      "start": 492.16,
+      "duration": 1.509999999999991,
+      "text": "heartbeat.md file and your agents.md file are trimmed. You don't have to"
+    },
+    {
+      "start": 493.67,
+      "duration": 0.009999999999990905,
+      "text": "file are trimmed. You don't have to"
+    },
+    {
+      "start": 493.68,
+      "duration": 1.75,
+      "text": "file are trimmed. You don't have to rewrite these files yourself. You can"
+    },
+    {
+      "start": 495.43,
+      "duration": 0.009999999999990905,
+      "text": "rewrite these files yourself. You can"
+    },
+    {
+      "start": 495.44,
+      "duration": 1.7490000000000236,
+      "text": "rewrite these files yourself. You can work with cloud code to iterate on them"
+    },
+    {
+      "start": 497.189,
+      "duration": 0.009999999999990905,
+      "text": "work with cloud code to iterate on them"
+    },
+    {
+      "start": 497.199,
+      "duration": 2.0709999999999695,
+      "text": "work with cloud code to iterate on them and remove anything that's not relevant."
+    },
+    {
+      "start": 499.27,
+      "duration": 0.009999999999990905,
+      "text": "and remove anything that's not relevant."
+    },
+    {
+      "start": 499.28,
+      "duration": 1.7490000000000236,
+      "text": "and remove anything that's not relevant. So again, you could have cloud code do"
+    },
+    {
+      "start": 501.029,
+      "duration": 0.009999999999990905,
+      "text": "So again, you could have cloud code do"
+    },
+    {
+      "start": 501.039,
+      "duration": 1.511000000000024,
+      "text": "So again, you could have cloud code do all this for you, but I just want to"
+    },
+    {
+      "start": 502.55,
+      "duration": 0.009999999999990905,
+      "text": "all this for you, but I just want to"
+    },
+    {
+      "start": 502.56,
+      "duration": 2.3899999999999864,
+      "text": "all this for you, but I just want to show you what your openclaw.json would"
+    },
+    {
+      "start": 504.95,
+      "duration": 0.009999999999990905,
+      "text": "show you what your openclaw.json would"
+    },
+    {
+      "start": 504.96,
+      "duration": 1.990000000000009,
+      "text": "show you what your openclaw.json would look like if you did these settings that"
+    },
+    {
+      "start": 506.95,
+      "duration": 0.009999999999990905,
+      "text": "look like if you did these settings that"
+    },
+    {
+      "start": 506.96,
+      "duration": 1.9090000000000487,
+      "text": "look like if you did these settings that I just recommended for heartbeat. So, we"
+    },
+    {
+      "start": 508.869,
+      "duration": 0.009999999999990905,
+      "text": "I just recommended for heartbeat. So, we"
+    },
+    {
+      "start": 508.879,
+      "duration": 1.5109999999999673,
+      "text": "I just recommended for heartbeat. So, we have this heartbeat running every 30"
+    },
+    {
+      "start": 510.39,
+      "duration": 0.009999999999990905,
+      "text": "have this heartbeat running every 30"
+    },
+    {
+      "start": 510.4,
+      "duration": 1.9890000000000327,
+      "text": "have this heartbeat running every 30 minutes. We've turned on light context."
+    },
+    {
+      "start": 512.389,
+      "duration": 0.009999999999990905,
+      "text": "minutes. We've turned on light context."
+    },
+    {
+      "start": 512.399,
+      "duration": 2.1509999999999536,
+      "text": "minutes. We've turned on light context. We've set some active hours, and we've"
+    },
+    {
+      "start": 514.55,
+      "duration": 0.009999999999990905,
+      "text": "We've set some active hours, and we've"
+    },
+    {
+      "start": 514.56,
+      "duration": 2.7900000000000773,
+      "text": "We've set some active hours, and we've set the model to Gemini 3.1 flashlight,"
+    },
+    {
+      "start": 517.35,
+      "duration": 0.009999999999990905,
+      "text": "set the model to Gemini 3.1 flashlight,"
+    },
+    {
+      "start": 517.36,
+      "duration": 1.3489999999999327,
+      "text": "set the model to Gemini 3.1 flashlight, which I would recommend. But you can"
+    },
+    {
+      "start": 518.709,
+      "duration": 0.010000000000104592,
+      "text": "which I would recommend. But you can"
+    },
+    {
+      "start": 518.719,
+      "duration": 1.75,
+      "text": "which I would recommend. But you can also use local models if your computer"
+    },
+    {
+      "start": 520.469,
+      "duration": 0.009999999999990905,
+      "text": "also use local models if your computer"
+    },
+    {
+      "start": 520.479,
+      "duration": 2.310999999999922,
+      "text": "also use local models if your computer permits it. You could use Quen 3.5,"
+    },
+    {
+      "start": 522.79,
+      "duration": 0.009999999999990905,
+      "text": "permits it. You could use Quen 3.5,"
+    },
+    {
+      "start": 522.8,
+      "duration": 1.5890000000000555,
+      "text": "permits it. You could use Quen 3.5, either the 9 billion or 4 billion"
+    },
+    {
+      "start": 524.389,
+      "duration": 0.009999999999990905,
+      "text": "either the 9 billion or 4 billion"
+    },
+    {
+      "start": 524.399,
+      "duration": 1.5109999999999673,
+      "text": "either the 9 billion or 4 billion parameter model, and that way you're not"
+    },
+    {
+      "start": 525.91,
+      "duration": 0.009999999999990905,
+      "text": "parameter model, and that way you're not"
+    },
+    {
+      "start": 525.92,
+      "duration": 1.3490000000000464,
+      "text": "parameter model, and that way you're not paying for anything. You're just running"
+    },
+    {
+      "start": 527.269,
+      "duration": 0.009999999999990905,
+      "text": "paying for anything. You're just running"
+    },
+    {
+      "start": 527.279,
+      "duration": 1.669999999999959,
+      "text": "paying for anything. You're just running heartbeat locally, which brings us to"
+    },
+    {
+      "start": 528.949,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat locally, which brings us to"
+    },
+    {
+      "start": 528.959,
+      "duration": 1.9110000000000582,
+      "text": "heartbeat locally, which brings us to our fourth and final problem, which is"
+    },
+    {
+      "start": 530.87,
+      "duration": 0.009999999999990905,
+      "text": "our fourth and final problem, which is"
+    },
+    {
+      "start": 530.88,
+      "duration": 1.9099999999999682,
+      "text": "our fourth and final problem, which is the system prompt. And this is something"
+    },
+    {
+      "start": 532.79,
+      "duration": 0.009999999999990905,
+      "text": "the system prompt. And this is something"
+    },
+    {
+      "start": 532.8,
+      "duration": 2.149000000000001,
+      "text": "the system prompt. And this is something that I would recommend you all do, which"
+    },
+    {
+      "start": 534.949,
+      "duration": 0.009999999999990905,
+      "text": "that I would recommend you all do, which"
+    },
+    {
+      "start": 534.959,
+      "duration": 2.3910000000000764,
+      "text": "that I would recommend you all do, which is a system prompt audit. Now, the last"
+    },
+    {
+      "start": 537.35,
+      "duration": 0.009999999999990905,
+      "text": "is a system prompt audit. Now, the last"
+    },
+    {
+      "start": 537.36,
+      "duration": 1.2699999999999818,
+      "text": "is a system prompt audit. Now, the last issue we talked about which was"
+    },
+    {
+      "start": 538.63,
+      "duration": 0.009999999999990905,
+      "text": "issue we talked about which was"
+    },
+    {
+      "start": 538.64,
+      "duration": 2.1499999999999773,
+      "text": "issue we talked about which was heartbeat.md, we of course just talked"
+    },
+    {
+      "start": 540.79,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat.md, we of course just talked"
+    },
+    {
+      "start": 540.8,
+      "duration": 1.990000000000009,
+      "text": "heartbeat.md, we of course just talked about how the system prompt by default"
+    },
+    {
+      "start": 542.79,
+      "duration": 0.009999999999990905,
+      "text": "about how the system prompt by default"
+    },
+    {
+      "start": 542.8,
+      "duration": 1.830000000000041,
+      "text": "about how the system prompt by default gets called every time. And for"
+    },
+    {
+      "start": 544.63,
+      "duration": 0.009999999999990905,
+      "text": "gets called every time. And for"
+    },
+    {
+      "start": 544.64,
+      "duration": 1.5900000000000318,
+      "text": "gets called every time. And for heartbeat, there are some ways we can"
+    },
+    {
+      "start": 546.23,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat, there are some ways we can"
+    },
+    {
+      "start": 546.24,
+      "duration": 1.669999999999959,
+      "text": "heartbeat, there are some ways we can tweak that to make the system prompt"
+    },
+    {
+      "start": 547.91,
+      "duration": 0.009999999999990905,
+      "text": "tweak that to make the system prompt"
+    },
+    {
+      "start": 547.92,
+      "duration": 1.830000000000041,
+      "text": "tweak that to make the system prompt more efficient. But in order to truly"
+    },
+    {
+      "start": 549.75,
+      "duration": 0.009999999999990905,
+      "text": "more efficient. But in order to truly"
+    },
+    {
+      "start": 549.76,
+      "duration": 2.5499999999999545,
+      "text": "more efficient. But in order to truly optimize openclaw's memory and context"
+    },
+    {
+      "start": 552.31,
+      "duration": 0.010000000000104592,
+      "text": "optimize openclaw's memory and context"
+    },
+    {
+      "start": 552.32,
+      "duration": 2.06899999999996,
+      "text": "optimize openclaw's memory and context management system, you really need to do"
+    },
+    {
+      "start": 554.389,
+      "duration": 0.009999999999990905,
+      "text": "management system, you really need to do"
+    },
+    {
+      "start": 554.399,
+      "duration": 2.5499999999999545,
+      "text": "management system, you really need to do a full system prompt audit. I definitely"
+    },
+    {
+      "start": 556.949,
+      "duration": 0.009999999999990905,
+      "text": "a full system prompt audit. I definitely"
+    },
+    {
+      "start": 556.959,
+      "duration": 1.8310000000000173,
+      "text": "a full system prompt audit. I definitely had to learn this the hard way. So when"
+    },
+    {
+      "start": 558.79,
+      "duration": 0.009999999999990905,
+      "text": "had to learn this the hard way. So when"
+    },
+    {
+      "start": 558.8,
+      "duration": 2.07000000000005,
+      "text": "had to learn this the hard way. So when I first set up my open claw, I was using"
+    },
+    {
+      "start": 560.87,
+      "duration": 0.009999999999990905,
+      "text": "I first set up my open claw, I was using"
+    },
+    {
+      "start": 560.88,
+      "duration": 3.269999999999982,
+      "text": "I first set up my open claw, I was using Kimmy K2.5 to run everything as sort of"
+    },
+    {
+      "start": 564.15,
+      "duration": 0.009999999999990905,
+      "text": "Kimmy K2.5 to run everything as sort of"
+    },
+    {
+      "start": 564.16,
+      "duration": 2.310000000000059,
+      "text": "Kimmy K2.5 to run everything as sort of my brain model, my top level model, and"
+    },
+    {
+      "start": 566.47,
+      "duration": 0.009999999999990905,
+      "text": "my brain model, my top level model, and"
+    },
+    {
+      "start": 566.48,
+      "duration": 1.5900000000000318,
+      "text": "my brain model, my top level model, and I kept hitting this wall where the"
+    },
+    {
+      "start": 568.07,
+      "duration": 0.009999999999990905,
+      "text": "I kept hitting this wall where the"
+    },
+    {
+      "start": 568.08,
+      "duration": 1.8299999999999272,
+      "text": "I kept hitting this wall where the context window would fill up. Here's a"
+    },
+    {
+      "start": 569.91,
+      "duration": 0.009999999999990905,
+      "text": "context window would fill up. Here's a"
+    },
+    {
+      "start": 569.92,
+      "duration": 1.75,
+      "text": "context window would fill up. Here's a screenshot of the Telegram messages I"
+    },
+    {
+      "start": 571.67,
+      "duration": 0.009999999999990905,
+      "text": "screenshot of the Telegram messages I"
+    },
+    {
+      "start": 571.68,
+      "duration": 1.75,
+      "text": "screenshot of the Telegram messages I was getting. It was really frustrating."
+    },
+    {
+      "start": 573.43,
+      "duration": 0.010000000000104592,
+      "text": "was getting. It was really frustrating."
+    },
+    {
+      "start": 573.44,
+      "duration": 1.9899999999998954,
+      "text": "was getting. It was really frustrating. My cron jobs weren't working. My skills"
+    },
+    {
+      "start": 575.43,
+      "duration": 0.010000000000104592,
+      "text": "My cron jobs weren't working. My skills"
+    },
+    {
+      "start": 575.44,
+      "duration": 1.9099999999999682,
+      "text": "My cron jobs weren't working. My skills weren't working. Nothing was working. So"
+    },
+    {
+      "start": 577.35,
+      "duration": 0.009999999999990905,
+      "text": "weren't working. Nothing was working. So"
+    },
+    {
+      "start": 577.36,
+      "duration": 2.4689999999999372,
+      "text": "weren't working. Nothing was working. So I switched to Sonnet 4.6 as my main"
+    },
+    {
+      "start": 579.829,
+      "duration": 0.010000000000104592,
+      "text": "I switched to Sonnet 4.6 as my main"
+    },
+    {
+      "start": 579.839,
+      "duration": 1.42999999999995,
+      "text": "I switched to Sonnet 4.6 as my main model, and that helped things a little"
+    },
+    {
+      "start": 581.269,
+      "duration": 0.009999999999990905,
+      "text": "model, and that helped things a little"
+    },
+    {
+      "start": 581.279,
+      "duration": 1.7509999999999764,
+      "text": "model, and that helped things a little bit. But there were still problems. See,"
+    },
+    {
+      "start": 583.03,
+      "duration": 0.009999999999990905,
+      "text": "bit. But there were still problems. See,"
+    },
+    {
+      "start": 583.04,
+      "duration": 2.150000000000091,
+      "text": "bit. But there were still problems. See, the real problem wasn't the AI model. It"
+    },
+    {
+      "start": 585.19,
+      "duration": 0.009999999999990905,
+      "text": "the real problem wasn't the AI model. It"
+    },
+    {
+      "start": 585.2,
+      "duration": 1.74899999999991,
+      "text": "the real problem wasn't the AI model. It was my system prompt and all the"
+    },
+    {
+      "start": 586.949,
+      "duration": 0.009999999999990905,
+      "text": "was my system prompt and all the"
+    },
+    {
+      "start": 586.959,
+      "duration": 1.4300000000000637,
+      "text": "was my system prompt and all the underlying files that go along with"
+    },
+    {
+      "start": 588.389,
+      "duration": 0.009999999999990905,
+      "text": "underlying files that go along with"
+    },
+    {
+      "start": 588.399,
+      "duration": 1.5910000000000082,
+      "text": "underlying files that go along with that. That's when I learned I had been"
+    },
+    {
+      "start": 589.99,
+      "duration": 0.009999999999990905,
+      "text": "that. That's when I learned I had been"
+    },
+    {
+      "start": 590,
+      "duration": 2.6299999999999955,
+      "text": "that. That's when I learned I had been adding way too much content to my agent"
+    },
+    {
+      "start": 592.63,
+      "duration": 0.009999999999990905,
+      "text": "adding way too much content to my agent"
+    },
+    {
+      "start": 592.64,
+      "duration": 2.550000000000068,
+      "text": "adding way too much content to my agent files, my skill files, everything. And"
+    },
+    {
+      "start": 595.19,
+      "duration": 0.009999999999990905,
+      "text": "files, my skill files, everything. And"
+    },
+    {
+      "start": 595.2,
+      "duration": 1.9099999999999682,
+      "text": "files, my skill files, everything. And all of that was creating a massive"
+    },
+    {
+      "start": 597.11,
+      "duration": 0.009999999999990905,
+      "text": "all of that was creating a massive"
+    },
+    {
+      "start": 597.12,
+      "duration": 2.38900000000001,
+      "text": "all of that was creating a massive contact dump every time I activated my"
+    },
+    {
+      "start": 599.509,
+      "duration": 0.009999999999990905,
+      "text": "contact dump every time I activated my"
+    },
+    {
+      "start": 599.519,
+      "duration": 2.4710000000000036,
+      "text": "contact dump every time I activated my agent. So, here's what I did. I fired up"
+    },
+    {
+      "start": 601.99,
+      "duration": 0.009999999999990905,
+      "text": "agent. So, here's what I did. I fired up"
+    },
+    {
+      "start": 602,
+      "duration": 2.4700000000000273,
+      "text": "agent. So, here's what I did. I fired up Claude Code and basically asked it to do"
+    },
+    {
+      "start": 604.47,
+      "duration": 0.009999999999990905,
+      "text": "Claude Code and basically asked it to do"
+    },
+    {
+      "start": 604.48,
+      "duration": 2.4689999999999372,
+      "text": "Claude Code and basically asked it to do a full audit of my system prompt and all"
+    },
+    {
+      "start": 606.949,
+      "duration": 0.009999999999990905,
+      "text": "a full audit of my system prompt and all"
+    },
+    {
+      "start": 606.959,
+      "duration": 1.990000000000009,
+      "text": "a full audit of my system prompt and all the underlying files. I asked it to find"
+    },
+    {
+      "start": 608.949,
+      "duration": 0.009999999999990905,
+      "text": "the underlying files. I asked it to find"
+    },
+    {
+      "start": 608.959,
+      "duration": 2.2310000000001082,
+      "text": "the underlying files. I asked it to find any redundant, duplicated, or bloated"
+    },
+    {
+      "start": 611.19,
+      "duration": 0.009999999999990905,
+      "text": "any redundant, duplicated, or bloated"
+    },
+    {
+      "start": 611.2,
+      "duration": 2.06899999999996,
+      "text": "any redundant, duplicated, or bloated content and to fix it. Quad code is"
+    },
+    {
+      "start": 613.269,
+      "duration": 0.009999999999990905,
+      "text": "content and to fix it. Quad code is"
+    },
+    {
+      "start": 613.279,
+      "duration": 1.8310000000000173,
+      "text": "content and to fix it. Quad code is perfect for this because it can read all"
+    },
+    {
+      "start": 615.11,
+      "duration": 0.009999999999990905,
+      "text": "perfect for this because it can read all"
+    },
+    {
+      "start": 615.12,
+      "duration": 1.8289999999999509,
+      "text": "perfect for this because it can read all these files, understand how they work"
+    },
+    {
+      "start": 616.949,
+      "duration": 0.009999999999990905,
+      "text": "these files, understand how they work"
+    },
+    {
+      "start": 616.959,
+      "duration": 1.990000000000009,
+      "text": "these files, understand how they work together, and come up with a concrete"
+    },
+    {
+      "start": 618.949,
+      "duration": 0.009999999999990905,
+      "text": "together, and come up with a concrete"
+    },
+    {
+      "start": 618.959,
+      "duration": 2.0710000000000264,
+      "text": "together, and come up with a concrete game plan of things to trim. And that's"
+    },
+    {
+      "start": 621.03,
+      "duration": 0.009999999999990905,
+      "text": "game plan of things to trim. And that's"
+    },
+    {
+      "start": 621.04,
+      "duration": 1.9089999999999918,
+      "text": "game plan of things to trim. And that's exactly what worked for me. After I did"
+    },
+    {
+      "start": 622.949,
+      "duration": 0.009999999999990905,
+      "text": "exactly what worked for me. After I did"
+    },
+    {
+      "start": 622.959,
+      "duration": 1.6710000000000491,
+      "text": "exactly what worked for me. After I did this, my system prompt shrunk"
+    },
+    {
+      "start": 624.63,
+      "duration": 0.009999999999990905,
+      "text": "this, my system prompt shrunk"
+    },
+    {
+      "start": 624.64,
+      "duration": 1.830000000000041,
+      "text": "this, my system prompt shrunk significantly. And I have never seen"
+    },
+    {
+      "start": 626.47,
+      "duration": 0.009999999999990905,
+      "text": "significantly. And I have never seen"
+    },
+    {
+      "start": 626.48,
+      "duration": 2.3099999999999454,
+      "text": "significantly. And I have never seen that context fill up message again. So,"
+    },
+    {
+      "start": 628.79,
+      "duration": 0.009999999999990905,
+      "text": "that context fill up message again. So,"
+    },
+    {
+      "start": 628.8,
+      "duration": 1.6700000000000728,
+      "text": "that context fill up message again. So, the real lesson here is it doesn't"
+    },
+    {
+      "start": 630.47,
+      "duration": 0.009999999999990905,
+      "text": "the real lesson here is it doesn't"
+    },
+    {
+      "start": 630.48,
+      "duration": 1.5889999999999418,
+      "text": "the real lesson here is it doesn't really matter what model you're running."
+    },
+    {
+      "start": 632.069,
+      "duration": 0.009999999999990905,
+      "text": "really matter what model you're running."
+    },
+    {
+      "start": 632.079,
+      "duration": 1.9110000000000582,
+      "text": "really matter what model you're running. If your system prompt files are bloated,"
+    },
+    {
+      "start": 633.99,
+      "duration": 0.009999999999990905,
+      "text": "If your system prompt files are bloated,"
+    },
+    {
+      "start": 634,
+      "duration": 1.990000000000009,
+      "text": "If your system prompt files are bloated, you're wasting context on every single"
+    },
+    {
+      "start": 635.99,
+      "duration": 0.009999999999990905,
+      "text": "you're wasting context on every single"
+    },
+    {
+      "start": 636,
+      "duration": 1.990000000000009,
+      "text": "you're wasting context on every single turn. That's context that could be used"
+    },
+    {
+      "start": 637.99,
+      "duration": 0.009999999999990905,
+      "text": "turn. That's context that could be used"
+    },
+    {
+      "start": 638,
+      "duration": 1.669999999999959,
+      "text": "turn. That's context that could be used for better tool calling and better"
+    },
+    {
+      "start": 639.67,
+      "duration": 0.009999999999990905,
+      "text": "for better tool calling and better"
+    },
+    {
+      "start": 639.68,
+      "duration": 1.75,
+      "text": "for better tool calling and better conversation with your agent. I'll put"
+    },
+    {
+      "start": 641.43,
+      "duration": 0.010000000000104592,
+      "text": "conversation with your agent. I'll put"
+    },
+    {
+      "start": 641.44,
+      "duration": 1.5899999999999181,
+      "text": "conversation with your agent. I'll put the prompt that I gave Claude code in"
+    },
+    {
+      "start": 643.03,
+      "duration": 0.009999999999990905,
+      "text": "the prompt that I gave Claude code in"
+    },
+    {
+      "start": 643.04,
+      "duration": 1.5900000000000318,
+      "text": "the prompt that I gave Claude code in the show notes so you can copy and paste"
+    },
+    {
+      "start": 644.63,
+      "duration": 0.009999999999990905,
+      "text": "the show notes so you can copy and paste"
+    },
+    {
+      "start": 644.64,
+      "duration": 1.7490000000000236,
+      "text": "the show notes so you can copy and paste it for yourself. All right, so quick"
+    },
+    {
+      "start": 646.389,
+      "duration": 0.009999999999990905,
+      "text": "it for yourself. All right, so quick"
+    },
+    {
+      "start": 646.399,
+      "duration": 2.1509999999999536,
+      "text": "it for yourself. All right, so quick recap. Enable memory flush so important"
+    },
+    {
+      "start": 648.55,
+      "duration": 0.009999999999990905,
+      "text": "recap. Enable memory flush so important"
+    },
+    {
+      "start": 648.56,
+      "duration": 1.75,
+      "text": "recap. Enable memory flush so important stuff gets written to disk before"
+    },
+    {
+      "start": 650.31,
+      "duration": 0.010000000000104592,
+      "text": "stuff gets written to disk before"
+    },
+    {
+      "start": 650.32,
+      "duration": 2.06899999999996,
+      "text": "stuff gets written to disk before compaction runs. Set up better memory"
+    },
+    {
+      "start": 652.389,
+      "duration": 0.009999999999990905,
+      "text": "compaction runs. Set up better memory"
+    },
+    {
+      "start": 652.399,
+      "duration": 2.3110000000000355,
+      "text": "compaction runs. Set up better memory search with QMD so your agent actually"
+    },
+    {
+      "start": 654.71,
+      "duration": 0.009999999999990905,
+      "text": "search with QMD so your agent actually"
+    },
+    {
+      "start": 654.72,
+      "duration": 1.5899999999999181,
+      "text": "search with QMD so your agent actually finds what it's saved. Fix your"
+    },
+    {
+      "start": 656.31,
+      "duration": 0.010000000000104592,
+      "text": "finds what it's saved. Fix your"
+    },
+    {
+      "start": 656.32,
+      "duration": 1.349999999999909,
+      "text": "finds what it's saved. Fix your heartbeat so it's not burning"
+    },
+    {
+      "start": 657.67,
+      "duration": 0.009999999999990905,
+      "text": "heartbeat so it's not burning"
+    },
+    {
+      "start": 657.68,
+      "duration": 2.07000000000005,
+      "text": "heartbeat so it's not burning unnecessary tokens every 30 minutes and"
+    },
+    {
+      "start": 659.75,
+      "duration": 0.009999999999990905,
+      "text": "unnecessary tokens every 30 minutes and"
+    },
+    {
+      "start": 659.76,
+      "duration": 1.9099999999999682,
+      "text": "unnecessary tokens every 30 minutes and audit your system prompt to cut out any"
+    },
+    {
+      "start": 661.67,
+      "duration": 0.009999999999990905,
+      "text": "audit your system prompt to cut out any"
+    },
+    {
+      "start": 661.68,
+      "duration": 1.75,
+      "text": "audit your system prompt to cut out any irrelevant parts. The biggest lesson"
+    },
+    {
+      "start": 663.43,
+      "duration": 0.010000000000104592,
+      "text": "irrelevant parts. The biggest lesson"
+    },
+    {
+      "start": 663.44,
+      "duration": 1.9899999999998954,
+      "text": "irrelevant parts. The biggest lesson from this is that context engineering"
+    },
+    {
+      "start": 665.43,
+      "duration": 0.010000000000104592,
+      "text": "from this is that context engineering"
+    },
+    {
+      "start": 665.44,
+      "duration": 2.2299999999999045,
+      "text": "from this is that context engineering and memory management really matter when"
+    },
+    {
+      "start": 667.67,
+      "duration": 0.009999999999990905,
+      "text": "and memory management really matter when"
+    },
+    {
+      "start": 667.68,
+      "duration": 1.990000000000009,
+      "text": "and memory management really matter when you're designing your own AI agent. All"
+    },
+    {
+      "start": 669.67,
+      "duration": 0.009999999999990905,
+      "text": "you're designing your own AI agent. All"
+    },
+    {
+      "start": 669.68,
+      "duration": 1.9100000000000819,
+      "text": "you're designing your own AI agent. All right, if you found this helpful, drop a"
+    },
+    {
+      "start": 671.59,
+      "duration": 0.009999999999990905,
+      "text": "right, if you found this helpful, drop a"
+    },
+    {
+      "start": 671.6,
+      "duration": 1.9089999999999918,
+      "text": "right, if you found this helpful, drop a comment down below to let me know. I'm"
+    },
+    {
+      "start": 673.509,
+      "duration": 0.009999999999990905,
+      "text": "comment down below to let me know. I'm"
+    },
+    {
+      "start": 673.519,
+      "duration": 1.5910000000000082,
+      "text": "comment down below to let me know. I'm curious what your OpenCL claw setup"
+    },
+    {
+      "start": 675.11,
+      "duration": 0.009999999999990905,
+      "text": "curious what your OpenCL claw setup"
+    },
+    {
+      "start": 675.12,
+      "duration": 1.669999999999959,
+      "text": "curious what your OpenCL claw setup looks like. And if you haven't already,"
+    },
+    {
+      "start": 676.79,
+      "duration": 0.009999999999990905,
+      "text": "looks like. And if you haven't already,"
+    },
+    {
+      "start": 676.8,
+      "duration": 1.75,
+      "text": "looks like. And if you haven't already, make sure you're subscribed for upcoming"
+    },
+    {
+      "start": 678.55,
+      "duration": 0.009999999999990905,
+      "text": "make sure you're subscribed for upcoming"
+    },
+    {
+      "start": 678.56,
+      "duration": 2.07000000000005,
+      "text": "make sure you're subscribed for upcoming Open Claw and AI coding content on this"
+    },
+    {
+      "start": 680.63,
+      "duration": 0.009999999999990905,
+      "text": "Open Claw and AI coding content on this"
+    },
+    {
+      "start": 680.64,
+      "duration": 1.509999999999991,
+      "text": "Open Claw and AI coding content on this channel. Thanks for watching and I'll"
+    },
+    {
+      "start": 682.15,
+      "duration": 0.009999999999990905,
+      "text": "channel. Thanks for watching and I'll"
+    },
+    {
+      "start": 682.16,
+      "duration": 2.480000000000018,
+      "text": "channel. Thanks for watching and I'll see you next"
+    }
+  ],
+  "fullText": "I ran into a big problem with my open I ran into a big problem with my open claw a few weeks ago. It kept forgetting claw a few weeks ago. It kept forgetting claw a few weeks ago. It kept forgetting everything and I kept getting error everything and I kept getting error everything and I kept getting error messages about the context window messages about the context window messages about the context window completely filling up. My skills and completely filling up. My skills and completely filling up. My skills and cron jobs stopped working and it was cron jobs stopped working and it was cron jobs stopped working and it was burning through a ton of tokens which burning through a ton of tokens which burning through a ton of tokens which was costing me a lot of money. I was costing me a lot of money. I was costing me a lot of money. I switched models and tried everything. switched models and tried everything. switched models and tried everything. But it turns out it wasn't the AI But it turns out it wasn't the AI But it turns out it wasn't the AI models. It was how OpenClaw handles models. It was how OpenClaw handles models. It was how OpenClaw handles memory and context in the background. memory and context in the background. memory and context in the background. Once I figured this out, my openclaw Once I figured this out, my openclaw Once I figured this out, my openclaw runs much smoother and much cheaper. runs much smoother and much cheaper. runs much smoother and much cheaper. Today, I'm going to walk through exactly Today, I'm going to walk through exactly Today, I'm going to walk through exactly how I fix my OpenClaw so you can do the how I fix my OpenClaw so you can do the how I fix my OpenClaw so you can do the same for yours. Let's dive in. So, if same for yours. Let's dive in. So, if same for yours. Let's dive in. So, if you've been following along with this you've been following along with this you've been following along with this channel, you know I have an OpenClaw channel, you know I have an OpenClaw channel, you know I have an OpenClaw agent. I call mine Jarvis, and he's been agent. I call mine Jarvis, and he's been agent. I call mine Jarvis, and he's been doing a lot. Telegram, email, managing a doing a lot. Telegram, email, managing a doing a lot. Telegram, email, managing a calendar, transcribing podcast, managing calendar, transcribing podcast, managing calendar, transcribing podcast, managing an Obsidian vault, etc. And you can see an Obsidian vault, etc. And you can see an Obsidian vault, etc. And you can see I have a mission control dashboard here, I have a mission control dashboard here, I have a mission control dashboard here, which shows some of the tasks Jarvis is which shows some of the tasks Jarvis is which shows some of the tasks Jarvis is working on throughout the day. But working on throughout the day. But working on throughout the day. But here's the thing nobody talks about. The here's the thing nobody talks about. The here's the thing nobody talks about. The more you use your agent and the more more you use your agent and the more more you use your agent and the more skills you hook up to it, generally the skills you hook up to it, generally the skills you hook up to it, generally the worse the memory gets. And it's not worse the memory gets. And it's not worse the memory gets. And it's not because of the underlying AI model. You because of the underlying AI model. You because of the underlying AI model. You could be using Opus 4.6 or GPT 5.4. It could be using Opus 4.6 or GPT 5.4. It could be using Opus 4.6 or GPT 5.4. It doesn't matter. It's because of how doesn't matter. It's because of how doesn't matter. It's because of how OpenClaw manages context behind the OpenClaw manages context behind the OpenClaw manages context behind the scenes. And this is where memory and scenes. And this is where memory and scenes. And this is where memory and context management is key. Right around context management is key. Right around context management is key. Right around the time I was struggling with my the time I was struggling with my the time I was struggling with my OpenClaw, I saw this post on X where OpenClaw, I saw this post on X where OpenClaw, I saw this post on X where this developer walked through how she this developer walked through how she this developer walked through how she spent 5 days straight debugging her spent 5 days straight debugging her spent 5 days straight debugging her OpenClaw's memory system. She documented OpenClaw's memory system. She documented OpenClaw's memory system. She documented the whole thing. I'll put a link to this the whole thing. I'll put a link to this the whole thing. I'll put a link to this article in the show notes. And what she article in the show notes. And what she article in the show notes. And what she found is super relevant to anybody found is super relevant to anybody found is super relevant to anybody running OpenClaw. I had been running running OpenClaw. I had been running running OpenClaw. I had been running into the exact same issues and I also into the exact same issues and I also into the exact same issues and I also learned a thing or two on my own just learned a thing or two on my own just learned a thing or two on my own just using clawed code to iterate on my using clawed code to iterate on my using clawed code to iterate on my agents context management system. So let agents context management system. So let agents context management system. So let me walk through the biggest problems and me walk through the biggest problems and me walk through the biggest problems and actually how to fix them for yourself. actually how to fix them for yourself. actually how to fix them for yourself. Problem number one is the compaction Problem number one is the compaction Problem number one is the compaction problem. So here's the first thing you problem. So here's the first thing you problem. So here's the first thing you need to understand about OpenClaw. Like need to understand about OpenClaw. Like need to understand about OpenClaw. Like any AI agent, it has a finite context any AI agent, it has a finite context any AI agent, it has a finite context window. This is basically the agent's window. This is basically the agent's window. This is basically the agent's short-term memory. And as your short-term memory. And as your short-term memory. And as your conversation gets longer, OpenClaw does conversation gets longer, OpenClaw does conversation gets longer, OpenClaw does something called compaction. It something called compaction. It something called compaction. It compresses the old context window and compresses the old context window and compresses the old context window and the old conversation history into a the old conversation history into a the old conversation history into a summary to make way for a new refresh summary to make way for a new refresh summary to make way for a new refresh context window. Sounds reasonable, context window. Sounds reasonable, context window. Sounds reasonable, right? The problem is it treats every right? The problem is it treats every right? The problem is it treats every single thing in that conversation single thing in that conversation single thing in that conversation history equally. That super important history equally. That super important history equally. That super important thing you learned 20 messages ago, it thing you learned 20 messages ago, it thing you learned 20 messages ago, it gets the same exact treatment as gets the same exact treatment as gets the same exact treatment as everything else in the conversation everything else in the conversation everything else in the conversation history, no matter if it's irrelevant or history, no matter if it's irrelevant or history, no matter if it's irrelevant or not. names, numbers, important not. names, numbers, important not. names, numbers, important decisions, etc. It all gets the same decisions, etc. It all gets the same decisions, etc. It all gets the same treatment and it's compacted into a treatment and it's compacted into a treatment and it's compacted into a vague summary. So, this illustrates the vague summary. So, this illustrates the vague summary. So, this illustrates the typical way that the compaction works. typical way that the compaction works. typical way that the compaction works. So, you just have a context window So, you just have a context window So, you just have a context window that's filling up with various things in that's filling up with various things in that's filling up with various things in your conversation history, tool calls, your conversation history, tool calls, your conversation history, tool calls, system prompts, etc., and then you get system prompts, etc., and then you get system prompts, etc., and then you get compacted into just a generic summary. compacted into just a generic summary. compacted into just a generic summary. Now, here's the fix. It's something Now, here's the fix. It's something Now, here's the fix. It's something called memory flush. Now, I'll get into called memory flush. Now, I'll get into called memory flush. Now, I'll get into how to implement that in your open claw how to implement that in your open claw how to implement that in your open claw in just one second. But what this in just one second. But what this in just one second. But what this basically does is before the compaction basically does is before the compaction basically does is before the compaction runs, it triggers a silent turn that runs, it triggers a silent turn that runs, it triggers a silent turn that tells the agent, hey, write any tells the agent, hey, write any tells the agent, hey, write any important stuff, any important important stuff, any important important stuff, any important learnings, decisions, etc. to a file learnings, decisions, etc. to a file learnings, decisions, etc. to a file before I compress this and before the before I compress this and before the before I compress this and before the compaction runs. The agent therefore compaction runs. The agent therefore compaction runs. The agent therefore saves these durable facts onto a daily saves these durable facts onto a daily saves these durable facts onto a daily log which lives on your disc. And so log which lives on your disc. And so log which lives on your disc. And so once the compaction runs, the important once the compaction runs, the important once the compaction runs, the important stuff survives and it doesn't get stuff survives and it doesn't get stuff survives and it doesn't get distilled out in the summary. So that distilled out in the summary. So that distilled out in the summary. So that way whatever's in the context window, it way whatever's in the context window, it way whatever's in the context window, it can disappear. But the important stuff can disappear. But the important stuff can disappear. But the important stuff gets written to the file so it lives on gets written to the file so it lives on gets written to the file so it lives on your disk and it survives. So how do you your disk and it survives. So how do you your disk and it survives. So how do you set this memory flush up? Well, you can set this memory flush up? Well, you can set this memory flush up? Well, you can point cloud code at your OpenClaw point cloud code at your OpenClaw point cloud code at your OpenClaw directory and tell it to change your directory and tell it to change your directory and tell it to change your config file which is openclaw.json. It's config file which is openclaw.json. It's config file which is openclaw.json. It's basically a list of configurations for basically a list of configurations for basically a list of configurations for your openclaw agent. Or you can just your openclaw agent. Or you can just your openclaw agent. Or you can just paste this into the openclaw.json. And paste this into the openclaw.json. And paste this into the openclaw.json. And this is what enables the memory flush this is what enables the memory flush this is what enables the memory flush protocol. And once you do that, you're protocol. And once you do that, you're protocol. And once you do that, you're ready to go. Now, one caveat I'll add ready to go. Now, one caveat I'll add ready to go. Now, one caveat I'll add here. What if you have a really long here. What if you have a really long here. What if you have a really long session, like you're running for four to session, like you're running for four to session, like you're running for four to six hours, the compaction process might six hours, the compaction process might six hours, the compaction process might run multiple times, but the way memory run multiple times, but the way memory run multiple times, but the way memory flush works, it might only run on the flush works, it might only run on the flush works, it might only run on the first compaction and not the other ones. first compaction and not the other ones. first compaction and not the other ones. Now, according to what I'm seeing Now, according to what I'm seeing Now, according to what I'm seeing online, in order to fix this problem, online, in order to fix this problem, online, in order to fix this problem, you have to enable something called you have to enable something called you have to enable something called context pruning. And this is something context pruning. And this is something context pruning. And this is something you can add again to your openclaw.json. you can add again to your openclaw.json. you can add again to your openclaw.json. You can either add it directly or work You can either add it directly or work You can either add it directly or work with cloud code or another agent to kind with cloud code or another agent to kind with cloud code or another agent to kind of iterate on this. But basically, it of iterate on this. But basically, it of iterate on this. But basically, it sets a time period. I've set it to 4 sets a time period. I've set it to 4 sets a time period. I've set it to 4 hours here. And so once a conversation hours here. And so once a conversation hours here. And so once a conversation gets that long, this cleans up context gets that long, this cleans up context gets that long, this cleans up context while keeping the last three assistant while keeping the last three assistant while keeping the last three assistant responses. Again, your agent writes responses. Again, your agent writes responses. Again, your agent writes important stuff to disk early and old important stuff to disk early and old important stuff to disk early and old context gets cleaned up before it causes context gets cleaned up before it causes context gets cleaned up before it causes problems. Problem number two, search and problems. Problem number two, search and problems. Problem number two, search and retrieval. So even after we set up the retrieval. So even after we set up the retrieval. So even after we set up the previous fix and your agent starts previous fix and your agent starts previous fix and your agent starts saving important stuff to file, it still saving important stuff to file, it still saving important stuff to file, it still has to search and find those things. And has to search and find those things. And has to search and find those things. And the default search in Open Claw isn't the default search in Open Claw isn't the default search in Open Claw isn't the best. It uses pure semantic the best. It uses pure semantic the best. It uses pure semantic similarity, which is good for certain similarity, which is good for certain similarity, which is good for certain types of queries, but not great for types of queries, but not great for types of queries, but not great for others. I covered this in my prior others. I covered this in my prior others. I covered this in my prior video. Basically, you search for a video. Basically, you search for a video. Basically, you search for a specific thing and you end up getting specific thing and you end up getting specific thing and you end up getting results about a completely different results about a completely different results about a completely different topic that just uses similar language. topic that just uses similar language. topic that just uses similar language. The fix is switching to QMD, which again The fix is switching to QMD, which again The fix is switching to QMD, which again I covered in my last video. QMD combines I covered in my last video. QMD combines I covered in my last video. QMD combines three types of search, so you get three types of search, so you get three types of search, so you get semantic matches and exact matches semantic matches and exact matches semantic matches and exact matches ranked by relevance. If you haven't set ranked by relevance. If you haven't set ranked by relevance. If you haven't set up QMD yet, please go watch that video up QMD yet, please go watch that video up QMD yet, please go watch that video and do it. But here's the more subtle and do it. But here's the more subtle and do it. But here's the more subtle problem that I didn't cover in that problem that I didn't cover in that problem that I didn't cover in that video. Even with great search like QMD, video. Even with great search like QMD, video. Even with great search like QMD, your agent still has to decide to your agent still has to decide to your agent still has to decide to search. And if the conversation doesn't search. And if the conversation doesn't search. And if the conversation doesn't trigger the right cues, the agent just trigger the right cues, the agent just trigger the right cues, the agent just won't look things up. That's what I get won't look things up. That's what I get won't look things up. That's what I get into over here. QMD solves the bad into over here. QMD solves the bad into over here. QMD solves the bad search problem by implementing a better search problem by implementing a better search problem by implementing a better hybrid search so you get better results. hybrid search so you get better results. hybrid search so you get better results. But what about when the agent actually But what about when the agent actually But what about when the agent actually doesn't search? This is where the agent doesn't search? This is where the agent doesn't search? This is where the agent might just try to answer from memory, might just try to answer from memory, might just try to answer from memory, i.e. what's currently in the context i.e. what's currently in the context i.e. what's currently in the context window. In order to fix this, you have window. In order to fix this, you have window. In order to fix this, you have to add specific instructions to your to add specific instructions to your to add specific instructions to your open clause agents.m MD file. Basically open clause agents.m MD file. Basically open clause agents.m MD file. Basically prompting it that before any task, it prompting it that before any task, it prompting it that before any task, it has to search daily logs for relevant has to search daily logs for relevant has to search daily logs for relevant context and to check a learnings file, context and to check a learnings file, context and to check a learnings file, what we'll call learnings.md to see if what we'll call learnings.md to see if what we'll call learnings.md to see if there are any rules about this type of there are any rules about this type of there are any rules about this type of task or search. So the idea for task or search. So the idea for task or search. So the idea for learnings.md actually came from that X learnings.md actually came from that X learnings.md actually came from that X article I was talking about. And I article I was talking about. And I article I was talking about. And I thought this was a super cool idea. So thought this was a super cool idea. So thought this was a super cool idea. So raw memories get written to a memory.mmd raw memories get written to a memory.mmd raw memories get written to a memory.mmd file. But as you can imagine that file file. But as you can imagine that file file. But as you can imagine that file can get extremely bloated. So you can can get extremely bloated. So you can can get extremely bloated. So you can have a separate file called have a separate file called have a separate file called learnings.md. And what that serves to do learnings.md. And what that serves to do learnings.md. And what that serves to do is every time your openclaw agent makes is every time your openclaw agent makes is every time your openclaw agent makes a mistake, you document a rule or a use a mistake, you document a rule or a use a mistake, you document a rule or a use case to prevent that mistake in the case to prevent that mistake in the case to prevent that mistake in the future. And you put the rule as a future. And you put the rule as a future. And you put the rule as a oneliner or a twoliner in learnings.md. oneliner or a twoliner in learnings.md. oneliner or a twoliner in learnings.md. And then in your agents file, it tells And then in your agents file, it tells And then in your agents file, it tells the agent that every time you ask it to the agent that every time you ask it to the agent that every time you ask it to do something, it needs to check do something, it needs to check do something, it needs to check learnings.mmd to make sure that it's learnings.mmd to make sure that it's learnings.mmd to make sure that it's implementing a rule if it applies. implementing a rule if it applies. implementing a rule if it applies. Problem number three is the heartbeat Problem number three is the heartbeat Problem number three is the heartbeat cost trap. Now, this is something that cost trap. Now, this is something that cost trap. Now, this is something that nobody really warns you about, and I nobody really warns you about, and I nobody really warns you about, and I definitely got caught off guard by this. definitely got caught off guard by this. definitely got caught off guard by this. So, heartbeat is basically OpenClaw's So, heartbeat is basically OpenClaw's So, heartbeat is basically OpenClaw's way of checking on things at some way of checking on things at some way of checking on things at some predetermined time interval. By default, predetermined time interval. By default, predetermined time interval. By default, it's about every 30 minutes. The it's about every 30 minutes. The it's about every 30 minutes. The heartbeat is really what enables Open heartbeat is really what enables Open heartbeat is really what enables Open Claw to be more like a real-time agent. Claw to be more like a real-time agent. Claw to be more like a real-time agent. The problem is that by default, every The problem is that by default, every The problem is that by default, every heartbeat is a full agent turn. What heartbeat is a full agent turn. What heartbeat is a full agent turn. What that means is that every 30 minutes your that means is that every 30 minutes your that means is that every 30 minutes your heartbeat is sending the entire system heartbeat is sending the entire system heartbeat is sending the entire system prompt agents.mmd, soul.md, tools.md, prompt agents.mmd, soul.md, tools.md, prompt agents.mmd, soul.md, tools.md, identity.md, heartbeat.md, and memory identity.md, heartbeat.md, and memory identity.md, heartbeat.md, and memory all to the API or whatever AI model all to the API or whatever AI model all to the API or whatever AI model provider your openclaw is using. This provider your openclaw is using. This provider your openclaw is using. This can burn through a ton of tokens and can burn through a ton of tokens and can burn through a ton of tokens and cost you real money. So, how do you fix cost you real money. So, how do you fix cost you real money. So, how do you fix this and not spend through a bunch of this and not spend through a bunch of this and not spend through a bunch of money on API costs? Number one, you can money on API costs? Number one, you can money on API costs? Number one, you can set active hours for your heartbeat. It set active hours for your heartbeat. It set active hours for your heartbeat. It doesn't need to run 24 hours a day. If doesn't need to run 24 hours a day. If doesn't need to run 24 hours a day. If the agent doesn't need to check in at the agent doesn't need to check in at the agent doesn't need to check in at 3:00 a.m., don't let it. Just assign 3:00 a.m., don't let it. Just assign 3:00 a.m., don't let it. Just assign working hours to the heartbeat. The working hours to the heartbeat. The working hours to the heartbeat. The second option is to turn on light second option is to turn on light second option is to turn on light context. As I mentioned, by default, context. As I mentioned, by default, context. As I mentioned, by default, heartbeat loads your entire system heartbeat loads your entire system heartbeat loads your entire system prompt every time it runs. But if you prompt every time it runs. But if you prompt every time it runs. But if you turn light context on, which is again turn light context on, which is again turn light context on, which is again something that lives in your something that lives in your something that lives in your openclaw.json, JSON your configuration openclaw.json, JSON your configuration openclaw.json, JSON your configuration file. The heartbeat does not load the file. The heartbeat does not load the file. The heartbeat does not load the entire system prompt. It only loads entire system prompt. It only loads entire system prompt. It only loads heartbeat.md. This saves a ton of money heartbeat.md. This saves a ton of money heartbeat.md. This saves a ton of money if your other files are really big. The if your other files are really big. The if your other files are really big. The third thing you can do is to use a third thing you can do is to use a third thing you can do is to use a cheaper model for the heartbeat. That's cheaper model for the heartbeat. That's cheaper model for the heartbeat. That's what I did. I started using Gemini 3.1 what I did. I started using Gemini 3.1 what I did. I started using Gemini 3.1 Flash Light, which is a very cheap and Flash Light, which is a very cheap and Flash Light, which is a very cheap and efficient model with a big context efficient model with a big context efficient model with a big context window. This saved me a ton of API cost window. This saved me a ton of API cost window. This saved me a ton of API cost as well. And the last thing you can do as well. And the last thing you can do as well. And the last thing you can do is if you really want to load the entire is if you really want to load the entire is if you really want to load the entire system prompt and you want your system prompt and you want your system prompt and you want your heartbeat to check in on everything, heartbeat to check in on everything, heartbeat to check in on everything, then you need to make sure that your then you need to make sure that your then you need to make sure that your heartbeat.md file and your agents.md heartbeat.md file and your agents.md heartbeat.md file and your agents.md file are trimmed. You don't have to file are trimmed. You don't have to file are trimmed. You don't have to rewrite these files yourself. You can rewrite these files yourself. You can rewrite these files yourself. You can work with cloud code to iterate on them work with cloud code to iterate on them work with cloud code to iterate on them and remove anything that's not relevant. and remove anything that's not relevant. and remove anything that's not relevant. So again, you could have cloud code do So again, you could have cloud code do So again, you could have cloud code do all this for you, but I just want to all this for you, but I just want to all this for you, but I just want to show you what your openclaw.json would show you what your openclaw.json would show you what your openclaw.json would look like if you did these settings that look like if you did these settings that look like if you did these settings that I just recommended for heartbeat. So, we I just recommended for heartbeat. So, we I just recommended for heartbeat. So, we have this heartbeat running every 30 have this heartbeat running every 30 have this heartbeat running every 30 minutes. We've turned on light context. minutes. We've turned on light context. minutes. We've turned on light context. We've set some active hours, and we've We've set some active hours, and we've We've set some active hours, and we've set the model to Gemini 3.1 flashlight, set the model to Gemini 3.1 flashlight, set the model to Gemini 3.1 flashlight, which I would recommend. But you can which I would recommend. But you can which I would recommend. But you can also use local models if your computer also use local models if your computer also use local models if your computer permits it. You could use Quen 3.5, permits it. You could use Quen 3.5, permits it. You could use Quen 3.5, either the 9 billion or 4 billion either the 9 billion or 4 billion either the 9 billion or 4 billion parameter model, and that way you're not parameter model, and that way you're not parameter model, and that way you're not paying for anything. You're just running paying for anything. You're just running paying for anything. You're just running heartbeat locally, which brings us to heartbeat locally, which brings us to heartbeat locally, which brings us to our fourth and final problem, which is our fourth and final problem, which is our fourth and final problem, which is the system prompt. And this is something the system prompt. And this is something the system prompt. And this is something that I would recommend you all do, which that I would recommend you all do, which that I would recommend you all do, which is a system prompt audit. Now, the last is a system prompt audit. Now, the last is a system prompt audit. Now, the last issue we talked about which was issue we talked about which was issue we talked about which was heartbeat.md, we of course just talked heartbeat.md, we of course just talked heartbeat.md, we of course just talked about how the system prompt by default about how the system prompt by default about how the system prompt by default gets called every time. And for gets called every time. And for gets called every time. And for heartbeat, there are some ways we can heartbeat, there are some ways we can heartbeat, there are some ways we can tweak that to make the system prompt tweak that to make the system prompt tweak that to make the system prompt more efficient. But in order to truly more efficient. But in order to truly more efficient. But in order to truly optimize openclaw's memory and context optimize openclaw's memory and context optimize openclaw's memory and context management system, you really need to do management system, you really need to do management system, you really need to do a full system prompt audit. I definitely a full system prompt audit. I definitely a full system prompt audit. I definitely had to learn this the hard way. So when had to learn this the hard way. So when had to learn this the hard way. So when I first set up my open claw, I was using I first set up my open claw, I was using I first set up my open claw, I was using Kimmy K2.5 to run everything as sort of Kimmy K2.5 to run everything as sort of Kimmy K2.5 to run everything as sort of my brain model, my top level model, and my brain model, my top level model, and my brain model, my top level model, and I kept hitting this wall where the I kept hitting this wall where the I kept hitting this wall where the context window would fill up. Here's a context window would fill up. Here's a context window would fill up. Here's a screenshot of the Telegram messages I screenshot of the Telegram messages I screenshot of the Telegram messages I was getting. It was really frustrating. was getting. It was really frustrating. was getting. It was really frustrating. My cron jobs weren't working. My skills My cron jobs weren't working. My skills My cron jobs weren't working. My skills weren't working. Nothing was working. So weren't working. Nothing was working. So weren't working. Nothing was working. So I switched to Sonnet 4.6 as my main I switched to Sonnet 4.6 as my main I switched to Sonnet 4.6 as my main model, and that helped things a little model, and that helped things a little model, and that helped things a little bit. But there were still problems. See, bit. But there were still problems. See, bit. But there were still problems. See, the real problem wasn't the AI model. It the real problem wasn't the AI model. It the real problem wasn't the AI model. It was my system prompt and all the was my system prompt and all the was my system prompt and all the underlying files that go along with underlying files that go along with underlying files that go along with that. That's when I learned I had been that. That's when I learned I had been that. That's when I learned I had been adding way too much content to my agent adding way too much content to my agent adding way too much content to my agent files, my skill files, everything. And files, my skill files, everything. And files, my skill files, everything. And all of that was creating a massive all of that was creating a massive all of that was creating a massive contact dump every time I activated my contact dump every time I activated my contact dump every time I activated my agent. So, here's what I did. I fired up agent. So, here's what I did. I fired up agent. So, here's what I did. I fired up Claude Code and basically asked it to do Claude Code and basically asked it to do Claude Code and basically asked it to do a full audit of my system prompt and all a full audit of my system prompt and all a full audit of my system prompt and all the underlying files. I asked it to find the underlying files. I asked it to find the underlying files. I asked it to find any redundant, duplicated, or bloated any redundant, duplicated, or bloated any redundant, duplicated, or bloated content and to fix it. Quad code is content and to fix it. Quad code is content and to fix it. Quad code is perfect for this because it can read all perfect for this because it can read all perfect for this because it can read all these files, understand how they work these files, understand how they work these files, understand how they work together, and come up with a concrete together, and come up with a concrete together, and come up with a concrete game plan of things to trim. And that's game plan of things to trim. And that's game plan of things to trim. And that's exactly what worked for me. After I did exactly what worked for me. After I did exactly what worked for me. After I did this, my system prompt shrunk this, my system prompt shrunk this, my system prompt shrunk significantly. And I have never seen significantly. And I have never seen significantly. And I have never seen that context fill up message again. So, that context fill up message again. So, that context fill up message again. So, the real lesson here is it doesn't the real lesson here is it doesn't the real lesson here is it doesn't really matter what model you're running. really matter what model you're running. really matter what model you're running. If your system prompt files are bloated, If your system prompt files are bloated, If your system prompt files are bloated, you're wasting context on every single you're wasting context on every single you're wasting context on every single turn. That's context that could be used turn. That's context that could be used turn. That's context that could be used for better tool calling and better for better tool calling and better for better tool calling and better conversation with your agent. I'll put conversation with your agent. I'll put conversation with your agent. I'll put the prompt that I gave Claude code in the prompt that I gave Claude code in the prompt that I gave Claude code in the show notes so you can copy and paste the show notes so you can copy and paste the show notes so you can copy and paste it for yourself. All right, so quick it for yourself. All right, so quick it for yourself. All right, so quick recap. Enable memory flush so important recap. Enable memory flush so important recap. Enable memory flush so important stuff gets written to disk before stuff gets written to disk before stuff gets written to disk before compaction runs. Set up better memory compaction runs. Set up better memory compaction runs. Set up better memory search with QMD so your agent actually search with QMD so your agent actually search with QMD so your agent actually finds what it's saved. Fix your finds what it's saved. Fix your finds what it's saved. Fix your heartbeat so it's not burning heartbeat so it's not burning heartbeat so it's not burning unnecessary tokens every 30 minutes and unnecessary tokens every 30 minutes and unnecessary tokens every 30 minutes and audit your system prompt to cut out any audit your system prompt to cut out any audit your system prompt to cut out any irrelevant parts. The biggest lesson irrelevant parts. The biggest lesson irrelevant parts. The biggest lesson from this is that context engineering from this is that context engineering from this is that context engineering and memory management really matter when and memory management really matter when and memory management really matter when you're designing your own AI agent. All you're designing your own AI agent. All you're designing your own AI agent. All right, if you found this helpful, drop a right, if you found this helpful, drop a right, if you found this helpful, drop a comment down below to let me know. I'm comment down below to let me know. I'm comment down below to let me know. I'm curious what your OpenCL claw setup curious what your OpenCL claw setup curious what your OpenCL claw setup looks like. And if you haven't already, looks like. And if you haven't already, looks like. And if you haven't already, make sure you're subscribed for upcoming make sure you're subscribed for upcoming make sure you're subscribed for upcoming Open Claw and AI coding content on this Open Claw and AI coding content on this Open Claw and AI coding content on this channel. Thanks for watching and I'll channel. Thanks for watching and I'll channel. Thanks for watching and I'll see you next",
+  "fetchedAt": "2026-03-12T15:18:55.725Z"
+}

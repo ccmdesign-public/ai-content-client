@@ -1,0 +1,3144 @@
+{
+  "videoId": "l7qVtHpctic",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 5.68,
+      "text": "Anthropic just fixed the biggest problem"
+    },
+    {
+      "start": 2.8,
+      "duration": 4.88,
+      "text": "with MCP servers in cloud code. Just a"
+    },
+    {
+      "start": 6,
+      "duration": 4.32,
+      "text": "few days ago, I posted this video"
+    },
+    {
+      "start": 7.68,
+      "duration": 5.2,
+      "text": "breaking down how connecting MCPs"
+    },
+    {
+      "start": 10.32,
+      "duration": 4.88,
+      "text": "directly to cloud code degrades"
+    },
+    {
+      "start": 12.88,
+      "duration": 4.64,
+      "text": "performance and consumes your context"
+    },
+    {
+      "start": 15.2,
+      "duration": 4.64,
+      "text": "window. This video did surprisingly"
+    },
+    {
+      "start": 17.52,
+      "duration": 5.04,
+      "text": "well, so I can see that this issue"
+    },
+    {
+      "start": 19.84,
+      "duration": 5.359,
+      "text": "really resonated with you guys. I also"
+    },
+    {
+      "start": 22.56,
+      "duration": 4.479,
+      "text": "open sourced and shared this tool that I"
+    },
+    {
+      "start": 25.199,
+      "duration": 4.24,
+      "text": "built for solving this called the MCP"
+    },
+    {
+      "start": 27.039,
+      "duration": 4.801,
+      "text": "Launchpad which basically allowed Cloud"
+    },
+    {
+      "start": 29.439,
+      "duration": 5.041,
+      "text": "Code to search for tools without"
+    },
+    {
+      "start": 31.84,
+      "duration": 5.2,
+      "text": "preloading tool definitions into the"
+    },
+    {
+      "start": 34.48,
+      "duration": 5.68,
+      "text": "context window and thousands of you have"
+    },
+    {
+      "start": 37.04,
+      "duration": 4.96,
+      "text": "been using this and even contributing to"
+    },
+    {
+      "start": 40.16,
+      "duration": 4.719,
+      "text": "this project. So I just really want to"
+    },
+    {
+      "start": 42,
+      "duration": 4.64,
+      "text": "say thank you guys. Now, I was sure that"
+    },
+    {
+      "start": 44.879,
+      "duration": 4.241,
+      "text": "it would only be a matter of time before"
+    },
+    {
+      "start": 46.64,
+      "duration": 4.16,
+      "text": "Anthropic addressed this because we had"
+    },
+    {
+      "start": 49.12,
+      "duration": 4.88,
+      "text": "been dealing with the problem for so"
+    },
+    {
+      "start": 50.8,
+      "duration": 6.239,
+      "text": "long. This GitHub issue for lazy loading"
+    },
+    {
+      "start": 54,
+      "duration": 5.52,
+      "text": "MCP servers has been open since July of"
+    },
+    {
+      "start": 57.039,
+      "duration": 4.481,
+      "text": "2025. And I know a lot of people were"
+    },
+    {
+      "start": 59.52,
+      "duration": 4.32,
+      "text": "implementing their own workarounds."
+    },
+    {
+      "start": 61.52,
+      "duration": 4.4,
+      "text": "Well, Anthropic heard the community and"
+    },
+    {
+      "start": 63.84,
+      "duration": 4.72,
+      "text": "2 days ago they shipped Cloud Code with"
+    },
+    {
+      "start": 65.92,
+      "duration": 5.44,
+      "text": "a new MCP search tool that works really"
+    },
+    {
+      "start": 68.56,
+      "duration": 5.44,
+      "text": "similarly to the MCP Launchpad, just"
+    },
+    {
+      "start": 71.36,
+      "duration": 5.92,
+      "text": "better. Now, Claude Code no longer"
+    },
+    {
+      "start": 74,
+      "duration": 6.159,
+      "text": "preloads all of the MCP tool definitions"
+    },
+    {
+      "start": 77.28,
+      "duration": 5.68,
+      "text": "into the context window. Instead, Claude"
+    },
+    {
+      "start": 80.159,
+      "duration": 5.121,
+      "text": "Code will now search for specific tools"
+    },
+    {
+      "start": 82.96,
+      "duration": 4.64,
+      "text": "only when it needs them. And I've been"
+    },
+    {
+      "start": 85.28,
+      "duration": 4.64,
+      "text": "using Cloud Code with the new MCP search"
+    },
+    {
+      "start": 87.6,
+      "duration": 4.32,
+      "text": "tool over the last 2 days since it came"
+    },
+    {
+      "start": 89.92,
+      "duration": 4.48,
+      "text": "out. So, I wanted to show you how it"
+    },
+    {
+      "start": 91.92,
+      "duration": 5.12,
+      "text": "works and also share what I've learned"
+    },
+    {
+      "start": 94.4,
+      "duration": 4.88,
+      "text": "while testing it. Before we dive in, I"
+    },
+    {
+      "start": 97.04,
+      "duration": 4.64,
+      "text": "wanted to address two things that came"
+    },
+    {
+      "start": 99.28,
+      "duration": 4.64,
+      "text": "up over and over in the comments of my"
+    },
+    {
+      "start": 101.68,
+      "duration": 5.439,
+      "text": "previous video, which was this idea that"
+    },
+    {
+      "start": 103.92,
+      "duration": 6.32,
+      "text": "you could hide the MCP tool definitions"
+    },
+    {
+      "start": 107.119,
+      "duration": 6.401,
+      "text": "behind skills or sub agents and get"
+    },
+    {
+      "start": 110.24,
+      "duration": 6.879,
+      "text": "around this problem of context bloat"
+    },
+    {
+      "start": 113.52,
+      "duration": 5.68,
+      "text": "from MCP tool definitions. For skills,"
+    },
+    {
+      "start": 117.119,
+      "duration": 5.04,
+      "text": "we know that they work using progressive"
+    },
+    {
+      "start": 119.2,
+      "duration": 5.36,
+      "text": "disclosure where the skill contents is"
+    },
+    {
+      "start": 122.159,
+      "duration": 5.761,
+      "text": "only going to be read once Claude"
+    },
+    {
+      "start": 124.56,
+      "duration": 5.679,
+      "text": "decides to use that skill. And in the"
+    },
+    {
+      "start": 127.92,
+      "duration": 5.2,
+      "text": "skill front matter, you can define what"
+    },
+    {
+      "start": 130.239,
+      "duration": 6.801,
+      "text": "tools are allowed. But the thing is, if"
+    },
+    {
+      "start": 133.12,
+      "duration": 7.119,
+      "text": "you have MCP tools in a skill, they're"
+    },
+    {
+      "start": 137.04,
+      "duration": 5.76,
+      "text": "still connected to the main cloud code,"
+    },
+    {
+      "start": 140.239,
+      "duration": 6.241,
+      "text": "whether a skill employs them or not."
+    },
+    {
+      "start": 142.8,
+      "duration": 6.56,
+      "text": "meaning all of the tools are still"
+    },
+    {
+      "start": 146.48,
+      "duration": 4.72,
+      "text": "loaded into Claude's context window. And"
+    },
+    {
+      "start": 149.36,
+      "duration": 4.32,
+      "text": "it's the same thing with sub aents. In"
+    },
+    {
+      "start": 151.2,
+      "duration": 5.28,
+      "text": "sub aents, you can restrict what tools"
+    },
+    {
+      "start": 153.68,
+      "duration": 6.24,
+      "text": "sub aents have access to. But again, any"
+    },
+    {
+      "start": 156.48,
+      "duration": 6.399,
+      "text": "MCP tools that you give a sub aent will"
+    },
+    {
+      "start": 159.92,
+      "duration": 5.84,
+      "text": "by definition be connected to Claude"
+    },
+    {
+      "start": 162.879,
+      "duration": 5.44,
+      "text": "codes context window. A lot of you also"
+    },
+    {
+      "start": 165.76,
+      "duration": 5.6,
+      "text": "mentioned Docker MCP toolkit and how"
+    },
+    {
+      "start": 168.319,
+      "duration": 6.481,
+      "text": "this solved the context bloat problem"
+    },
+    {
+      "start": 171.36,
+      "duration": 5.68,
+      "text": "for MCP tools. I really enjoy using MCP"
+    },
+    {
+      "start": 174.8,
+      "duration": 4.4,
+      "text": "toolkit. It's super easy to configure,"
+    },
+    {
+      "start": 177.04,
+      "duration": 5.04,
+      "text": "but unless I'm missing something, it"
+    },
+    {
+      "start": 179.2,
+      "duration": 4.959,
+      "text": "actually doesn't solve this problem. I"
+    },
+    {
+      "start": 182.08,
+      "duration": 5.6,
+      "text": "configured my MCP toolkit here with"
+    },
+    {
+      "start": 184.159,
+      "duration": 6,
+      "text": "these six MCP servers. And to connect it"
+    },
+    {
+      "start": 187.68,
+      "duration": 6.16,
+      "text": "to Cloud Code is super easy. I just have"
+    },
+    {
+      "start": 190.159,
+      "duration": 6.08,
+      "text": "to go to the client tab and then connect"
+    },
+    {
+      "start": 193.84,
+      "duration": 5.2,
+      "text": "to cloud code which you can see I"
+    },
+    {
+      "start": 196.239,
+      "duration": 6.72,
+      "text": "already did. Now what this does is just"
+    },
+    {
+      "start": 199.04,
+      "duration": 6.64,
+      "text": "add Docker's MCP gateway to your MCP"
+    },
+    {
+      "start": 202.959,
+      "duration": 5.121,
+      "text": "configuration. So I have it open here."
+    },
+    {
+      "start": 205.68,
+      "duration": 4.8,
+      "text": "This is my docloud.json."
+    },
+    {
+      "start": 208.08,
+      "duration": 6,
+      "text": "It only has one entry. It just adds this"
+    },
+    {
+      "start": 210.48,
+      "duration": 5.759,
+      "text": "MCP docker. And so I think maybe this is"
+    },
+    {
+      "start": 214.08,
+      "duration": 5.68,
+      "text": "where the confusion lies where it looks"
+    },
+    {
+      "start": 216.239,
+      "duration": 6.961,
+      "text": "like it's only adding one server that is"
+    },
+    {
+      "start": 219.76,
+      "duration": 5.6,
+      "text": "somehow going to efficiently connect to"
+    },
+    {
+      "start": 223.2,
+      "duration": 4.56,
+      "text": "tools only as they're needed. But I can"
+    },
+    {
+      "start": 225.36,
+      "duration": 6.48,
+      "text": "show you how this actually works within"
+    },
+    {
+      "start": 227.76,
+      "duration": 6.72,
+      "text": "cloud code. So I'll head over to this uh"
+    },
+    {
+      "start": 231.84,
+      "duration": 4.16,
+      "text": "test project where I don't really have"
+    },
+    {
+      "start": 234.48,
+      "duration": 5.28,
+      "text": "anything in here, just some stuff I'm"
+    },
+    {
+      "start": 236,
+      "duration": 5.36,
+      "text": "testing. This cloud MD is empty. And I'm"
+    },
+    {
+      "start": 239.76,
+      "duration": 4.96,
+      "text": "going to go over to my console and just"
+    },
+    {
+      "start": 241.36,
+      "duration": 6.799,
+      "text": "start up Claude. I'm going to do"
+    },
+    {
+      "start": 244.72,
+      "duration": 5.12,
+      "text": "slashMCP just to show you that the MCP"
+    },
+    {
+      "start": 248.159,
+      "duration": 4.72,
+      "text": "Docker is the only thing I have"
+    },
+    {
+      "start": 249.84,
+      "duration": 6.239,
+      "text": "connected. I'm just going to go back to"
+    },
+    {
+      "start": 252.879,
+      "duration": 5.76,
+      "text": "Cloud and then type /context."
+    },
+    {
+      "start": 256.079,
+      "duration": 6.56,
+      "text": "Here you're going to see all of the"
+    },
+    {
+      "start": 258.639,
+      "duration": 6.56,
+      "text": "tools that are in my actual MCP servers."
+    },
+    {
+      "start": 262.639,
+      "duration": 4.56,
+      "text": "Here's the context usage. All of those"
+    },
+    {
+      "start": 265.199,
+      "duration": 4.56,
+      "text": "tool definitions have in fact been"
+    },
+    {
+      "start": 267.199,
+      "duration": 5.601,
+      "text": "loaded into the context window. So"
+    },
+    {
+      "start": 269.759,
+      "duration": 5.681,
+      "text": "they're now taking up 22,000 tokens or"
+    },
+    {
+      "start": 272.8,
+      "duration": 4.72,
+      "text": "11% of the context window. So this is"
+    },
+    {
+      "start": 275.44,
+      "duration": 3.52,
+      "text": "still a big issue, right? The more MCP"
+    },
+    {
+      "start": 277.52,
+      "duration": 3.52,
+      "text": "servers you add, the more of your"
+    },
+    {
+      "start": 278.96,
+      "duration": 3.44,
+      "text": "context window you're going to take up."
+    },
+    {
+      "start": 281.04,
+      "duration": 3.84,
+      "text": "All right, so I'm back in my test"
+    },
+    {
+      "start": 282.4,
+      "duration": 5.44,
+      "text": "project and I disconnected the MCP"
+    },
+    {
+      "start": 284.88,
+      "duration": 6.48,
+      "text": "toolkit. So now if I go to my cloud code"
+    },
+    {
+      "start": 287.84,
+      "duration": 5.6,
+      "text": "and do /mcp, no MCP servers are"
+    },
+    {
+      "start": 291.36,
+      "duration": 4.16,
+      "text": "currently configured. So, let's take a"
+    },
+    {
+      "start": 293.44,
+      "duration": 5.28,
+      "text": "look at the context. I have some"
+    },
+    {
+      "start": 295.52,
+      "duration": 6.16,
+      "text": "plugins, some skills, but my context"
+    },
+    {
+      "start": 298.72,
+      "duration": 7.759,
+      "text": "window is super clean here. I have no"
+    },
+    {
+      "start": 301.68,
+      "duration": 9.04,
+      "text": "MCP servers configured, and 135,000 or"
+    },
+    {
+      "start": 306.479,
+      "duration": 7.041,
+      "text": "68% almost of free space. So, let's see"
+    },
+    {
+      "start": 310.72,
+      "duration": 8.16,
+      "text": "what this looks like when I connect my"
+    },
+    {
+      "start": 313.52,
+      "duration": 8.16,
+      "text": "MCPS. So, here I have this MCP file. I"
+    },
+    {
+      "start": 318.88,
+      "duration": 6.24,
+      "text": "have render Sentry, Superbase, Verscell,"
+    },
+    {
+      "start": 321.68,
+      "duration": 6.64,
+      "text": "Linear, Obsidian, and Context 7. So,"
+    },
+    {
+      "start": 325.12,
+      "duration": 5.2,
+      "text": "seven MCP servers in total. And I'm just"
+    },
+    {
+      "start": 328.32,
+      "duration": 4.8,
+      "text": "going to rename this now so that Claude"
+    },
+    {
+      "start": 330.32,
+      "duration": 5.439,
+      "text": "can pick it up. So, I'm going to close"
+    },
+    {
+      "start": 333.12,
+      "duration": 5.76,
+      "text": "that old one and we'll open a new one"
+    },
+    {
+      "start": 335.759,
+      "duration": 6.241,
+      "text": "here. What you'll see now, this is uh"
+    },
+    {
+      "start": 338.88,
+      "duration": 5.52,
+      "text": "updated with the new MCP search tool."
+    },
+    {
+      "start": 342,
+      "duration": 4.96,
+      "text": "So, once you upgrade your cloud code to"
+    },
+    {
+      "start": 344.4,
+      "duration": 4.639,
+      "text": "2.17, you should have this new MCP"
+    },
+    {
+      "start": 346.96,
+      "duration": 4.88,
+      "text": "search tool. Since I loaded the MCP"
+    },
+    {
+      "start": 349.039,
+      "duration": 5.681,
+      "text": "servers, there's now this warning saying"
+    },
+    {
+      "start": 351.84,
+      "duration": 5.12,
+      "text": "that there's invalid settings and it's"
+    },
+    {
+      "start": 354.72,
+      "duration": 3.759,
+      "text": "telling me to run Doctor. So, if I do"
+    },
+    {
+      "start": 356.96,
+      "duration": 3.6,
+      "text": "that,"
+    },
+    {
+      "start": 358.479,
+      "duration": 4.401,
+      "text": "basically what's happening is these"
+    },
+    {
+      "start": 360.56,
+      "duration": 6,
+      "text": "warnings are because it's detecting that"
+    },
+    {
+      "start": 362.88,
+      "duration": 5.84,
+      "text": "I have large MCP tool context across all"
+    },
+    {
+      "start": 366.56,
+      "duration": 6.639,
+      "text": "of these MCP servers. I'm consuming"
+    },
+    {
+      "start": 368.72,
+      "duration": 7.759,
+      "text": "36,000 tokens and that's over this limit"
+    },
+    {
+      "start": 373.199,
+      "duration": 5.44,
+      "text": "that it suggests of 25,000 tokens. So"
+    },
+    {
+      "start": 376.479,
+      "duration": 5.121,
+      "text": "that's why I'm getting that warning. Now"
+    },
+    {
+      "start": 378.639,
+      "duration": 6.161,
+      "text": "I want to do a slashcontext."
+    },
+    {
+      "start": 381.6,
+      "duration": 5.92,
+      "text": "So we can see the MCP servers are all"
+    },
+    {
+      "start": 384.8,
+      "duration": 4.64,
+      "text": "connected now. And a lot of our context"
+    },
+    {
+      "start": 387.52,
+      "duration": 6.16,
+      "text": "window is taken up. So now we're"
+    },
+    {
+      "start": 389.44,
+      "duration": 6.64,
+      "text": "consuming around 36,000 tokens or 18% of"
+    },
+    {
+      "start": 393.68,
+      "duration": 4.48,
+      "text": "the total context window. So before"
+    },
+    {
+      "start": 396.08,
+      "duration": 6.8,
+      "text": "we've even sent our first message, we"
+    },
+    {
+      "start": 398.16,
+      "duration": 6.64,
+      "text": "now have less than 100k of free space."
+    },
+    {
+      "start": 402.88,
+      "duration": 4.48,
+      "text": "Not only that, but of course we are"
+    },
+    {
+      "start": 404.8,
+      "duration": 5.36,
+      "text": "polluting the entire context window with"
+    },
+    {
+      "start": 407.36,
+      "duration": 6.32,
+      "text": "potentially a bunch of irrelevant MCP"
+    },
+    {
+      "start": 410.16,
+      "duration": 6.56,
+      "text": "tool definitions. If we go back to the"
+    },
+    {
+      "start": 413.68,
+      "duration": 5.6,
+      "text": "original announcement, I'm not exactly"
+    },
+    {
+      "start": 416.72,
+      "duration": 5.039,
+      "text": "sure based on this wording how it's"
+    },
+    {
+      "start": 419.28,
+      "duration": 5.359,
+      "text": "supposed to work, but they say Cloud"
+    },
+    {
+      "start": 421.759,
+      "duration": 6.481,
+      "text": "Code will detect when your MCP tool"
+    },
+    {
+      "start": 424.639,
+      "duration": 6.801,
+      "text": "descriptions would use more than 10% of"
+    },
+    {
+      "start": 428.24,
+      "duration": 6.959,
+      "text": "the context. When triggered, tools are"
+    },
+    {
+      "start": 431.44,
+      "duration": 5.599,
+      "text": "loaded via search instead of preloaded."
+    },
+    {
+      "start": 435.199,
+      "duration": 5.361,
+      "text": "Now, I don't know how they're"
+    },
+    {
+      "start": 437.039,
+      "duration": 6.081,
+      "text": "calculating this 10% of context. From"
+    },
+    {
+      "start": 440.56,
+      "duration": 5.68,
+      "text": "reading this, it makes it seem like it"
+    },
+    {
+      "start": 443.12,
+      "duration": 5.519,
+      "text": "would be on a per tool basis, but that"
+    },
+    {
+      "start": 446.24,
+      "duration": 5.28,
+      "text": "doesn't quite make sense because there"
+    },
+    {
+      "start": 448.639,
+      "duration": 5.28,
+      "text": "are literally no tools that are going to"
+    },
+    {
+      "start": 451.52,
+      "duration": 5.2,
+      "text": "take up 10% of your context on their"
+    },
+    {
+      "start": 453.919,
+      "duration": 5.68,
+      "text": "own. So maybe they mean for the entire"
+    },
+    {
+      "start": 456.72,
+      "duration": 5.84,
+      "text": "MCP server or maybe they mean across all"
+    },
+    {
+      "start": 459.599,
+      "duration": 5.761,
+      "text": "MCP servers. I don't know. It's not"
+    },
+    {
+      "start": 462.56,
+      "duration": 5.52,
+      "text": "clear. But if you just update your cloud"
+    },
+    {
+      "start": 465.36,
+      "duration": 5.839,
+      "text": "code and run it out of the box with all"
+    },
+    {
+      "start": 468.08,
+      "duration": 5.679,
+      "text": "of these MCP tools connected, it's still"
+    },
+    {
+      "start": 471.199,
+      "duration": 4.241,
+      "text": "going to preload them into your context"
+    },
+    {
+      "start": 473.759,
+      "duration": 4.961,
+      "text": "window. So it's not doing the lazy"
+    },
+    {
+      "start": 475.44,
+      "duration": 6.8,
+      "text": "loading by default. In order to enable"
+    },
+    {
+      "start": 478.72,
+      "duration": 5.759,
+      "text": "lazy loading of tool definitions and not"
+    },
+    {
+      "start": 482.24,
+      "duration": 4.48,
+      "text": "preload all of these MCP tools like"
+    },
+    {
+      "start": 484.479,
+      "duration": 4.481,
+      "text": "this, we have to actually turn on a"
+    },
+    {
+      "start": 486.72,
+      "duration": 5.28,
+      "text": "setting in Cloud Code. So, you're going"
+    },
+    {
+      "start": 488.96,
+      "duration": 4.56,
+      "text": "to want to go over to yourcloud folder."
+    },
+    {
+      "start": 492,
+      "duration": 3.68,
+      "text": "If you don't have it in your project,"
+    },
+    {
+      "start": 493.52,
+      "duration": 3.76,
+      "text": "you can just create this folder and name"
+    },
+    {
+      "start": 495.68,
+      "duration": 3.84,
+      "text": "it.cloud."
+    },
+    {
+      "start": 497.28,
+      "duration": 4.56,
+      "text": "And then inside of it, we're going to"
+    },
+    {
+      "start": 499.52,
+      "duration": 3.84,
+      "text": "modify this settings.json."
+    },
+    {
+      "start": 501.84,
+      "duration": 3.68,
+      "text": "And again, if you don't have this yet,"
+    },
+    {
+      "start": 503.36,
+      "duration": 4.239,
+      "text": "then you can just create one. In here,"
+    },
+    {
+      "start": 505.52,
+      "duration": 4.72,
+      "text": "you're going to add just one more"
+    },
+    {
+      "start": 507.599,
+      "duration": 4.8,
+      "text": "variable for the ENV settings. And it's"
+    },
+    {
+      "start": 510.24,
+      "duration": 4.88,
+      "text": "going to look like this with another"
+    },
+    {
+      "start": 512.399,
+      "duration": 4.401,
+      "text": "setting called enable tool search. And"
+    },
+    {
+      "start": 515.12,
+      "duration": 4.24,
+      "text": "you're going to want to set this to"
+    },
+    {
+      "start": 516.8,
+      "duration": 5.599,
+      "text": "true. So, this is just an override"
+    },
+    {
+      "start": 519.36,
+      "duration": 5.68,
+      "text": "setting to ensure that tool search is"
+    },
+    {
+      "start": 522.399,
+      "duration": 4.56,
+      "text": "always on and always used by cloud. And"
+    },
+    {
+      "start": 525.04,
+      "duration": 5.04,
+      "text": "it's going to disable that automatic"
+    },
+    {
+      "start": 526.959,
+      "duration": 4.88,
+      "text": "preloading of MCP tool definitions. Now,"
+    },
+    {
+      "start": 530.08,
+      "duration": 3.68,
+      "text": "you can set that here like we just did"
+    },
+    {
+      "start": 531.839,
+      "duration": 4.641,
+      "text": "at the project level, or you could do it"
+    },
+    {
+      "start": 533.76,
+      "duration": 4.079,
+      "text": "at the user level, as I mentioned in the"
+    },
+    {
+      "start": 536.48,
+      "duration": 3.84,
+      "text": "last video. You're just going to want to"
+    },
+    {
+      "start": 537.839,
+      "duration": 5.601,
+      "text": "go to your username, which should be"
+    },
+    {
+      "start": 540.32,
+      "duration": 5.68,
+      "text": "similar on Windows, and then enable the"
+    },
+    {
+      "start": 543.44,
+      "duration": 4.64,
+      "text": "hidden folders option, which is shift"
+    },
+    {
+      "start": 546,
+      "duration": 5.12,
+      "text": "command period, and you're going to go"
+    },
+    {
+      "start": 548.08,
+      "duration": 5.439,
+      "text": "into yourcloud folder. And these are"
+    },
+    {
+      "start": 551.12,
+      "duration": 5.52,
+      "text": "global settings. So if you enable it"
+    },
+    {
+      "start": 553.519,
+      "duration": 5.681,
+      "text": "here, it'll always be on for all of your"
+    },
+    {
+      "start": 556.64,
+      "duration": 4.879,
+      "text": "projects, no matter where you use cloud"
+    },
+    {
+      "start": 559.2,
+      "duration": 4.88,
+      "text": "code. In this folder, there's also a"
+    },
+    {
+      "start": 561.519,
+      "duration": 4.721,
+      "text": "settings.json. And so you can enable it"
+    },
+    {
+      "start": 564.08,
+      "duration": 3.84,
+      "text": "there if you want to make it global."
+    },
+    {
+      "start": 566.24,
+      "duration": 3.92,
+      "text": "Coming back to cloud code, let's see"
+    },
+    {
+      "start": 567.92,
+      "duration": 4.4,
+      "text": "what this context looks like now that we"
+    },
+    {
+      "start": 570.16,
+      "duration": 4.4,
+      "text": "enabled that setting. So I'm going to"
+    },
+    {
+      "start": 572.32,
+      "duration": 7.44,
+      "text": "start up a new cloud and it should pick"
+    },
+    {
+      "start": 574.56,
+      "duration": 7.68,
+      "text": "up the new setting. So, I'll do slashmcp"
+    },
+    {
+      "start": 579.76,
+      "duration": 4.96,
+      "text": "just to confirm that all of the MCP"
+    },
+    {
+      "start": 582.24,
+      "duration": 5.039,
+      "text": "servers are still connected and wait for"
+    },
+    {
+      "start": 584.72,
+      "duration": 4.799,
+      "text": "them to load. And then we'll do a"
+    },
+    {
+      "start": 587.279,
+      "duration": 4.24,
+      "text": "slashcontext."
+    },
+    {
+      "start": 589.519,
+      "duration": 5.121,
+      "text": "So, this time as we scroll up, you can"
+    },
+    {
+      "start": 591.519,
+      "duration": 5.681,
+      "text": "still see the MCP servers here. And you"
+    },
+    {
+      "start": 594.64,
+      "duration": 4.56,
+      "text": "might notice it's uh subtle, but they"
+    },
+    {
+      "start": 597.2,
+      "duration": 3.68,
+      "text": "are grayed out a bit. Actually, we can"
+    },
+    {
+      "start": 599.2,
+      "duration": 4.079,
+      "text": "just flip over to see how they were"
+    },
+    {
+      "start": 600.88,
+      "duration": 4.639,
+      "text": "here. So here you can see that they have"
+    },
+    {
+      "start": 603.279,
+      "duration": 4.881,
+      "text": "tokens next to them and they're a little"
+    },
+    {
+      "start": 605.519,
+      "duration": 5.041,
+      "text": "bit brighter. Now after we change that"
+    },
+    {
+      "start": 608.16,
+      "duration": 4.4,
+      "text": "setting, the tokens are gone and they're"
+    },
+    {
+      "start": 610.56,
+      "duration": 4.56,
+      "text": "a little bit grayed out. If we scroll"
+    },
+    {
+      "start": 612.56,
+      "duration": 6.32,
+      "text": "all the way to the top, we'll see now"
+    },
+    {
+      "start": 615.12,
+      "duration": 6,
+      "text": "this new indication that these are being"
+    },
+    {
+      "start": 618.88,
+      "duration": 4.32,
+      "text": "loaded on demand. And more importantly,"
+    },
+    {
+      "start": 621.12,
+      "duration": 4.64,
+      "text": "you check the context usage. And sure"
+    },
+    {
+      "start": 623.2,
+      "duration": 4.96,
+      "text": "enough, it has been freed up. We no"
+    },
+    {
+      "start": 625.76,
+      "duration": 4.8,
+      "text": "longer have any MCP tools taking up"
+    },
+    {
+      "start": 628.16,
+      "duration": 5.44,
+      "text": "context. and our free space has gone"
+    },
+    {
+      "start": 630.56,
+      "duration": 4.8,
+      "text": "back up to 135,000."
+    },
+    {
+      "start": 633.6,
+      "duration": 4.32,
+      "text": "Another thing I want to point out is the"
+    },
+    {
+      "start": 635.36,
+      "duration": 6.719,
+      "text": "system tools. These system tools take up"
+    },
+    {
+      "start": 637.92,
+      "duration": 7.359,
+      "text": "16.8,000 tokens or 8.4%."
+    },
+    {
+      "start": 642.079,
+      "duration": 7.281,
+      "text": "This is with the MCP search tool. And if"
+    },
+    {
+      "start": 645.279,
+      "duration": 6.481,
+      "text": "I go to the previous claude where we had"
+    },
+    {
+      "start": 649.36,
+      "duration": 5.919,
+      "text": "the setting off, you'll notice this is"
+    },
+    {
+      "start": 651.76,
+      "duration": 5.92,
+      "text": "only 16.2 or 8.1%."
+    },
+    {
+      "start": 655.279,
+      "duration": 6.401,
+      "text": "So, it's slightly less than what we have"
+    },
+    {
+      "start": 657.68,
+      "duration": 7.04,
+      "text": "here. And that's because of the MCP"
+    },
+    {
+      "start": 661.68,
+      "duration": 5.36,
+      "text": "search tool now being enabled and added"
+    },
+    {
+      "start": 664.72,
+      "duration": 5.04,
+      "text": "as a system tool. So what does the MCP"
+    },
+    {
+      "start": 667.04,
+      "duration": 5.44,
+      "text": "search tool actually look like? I took"
+    },
+    {
+      "start": 669.76,
+      "duration": 5.199,
+      "text": "this trace of a conversation I had"
+    },
+    {
+      "start": 672.48,
+      "duration": 5.12,
+      "text": "earlier with Claude just to show you"
+    },
+    {
+      "start": 674.959,
+      "duration": 5.761,
+      "text": "what the MCP tool actually looks like"
+    },
+    {
+      "start": 677.6,
+      "duration": 5.359,
+      "text": "and the mechanism for how it works. So"
+    },
+    {
+      "start": 680.72,
+      "duration": 4.4,
+      "text": "these are all of the default tools that"
+    },
+    {
+      "start": 682.959,
+      "duration": 4.401,
+      "text": "Claude code has. You have a couple of"
+    },
+    {
+      "start": 685.12,
+      "duration": 5.44,
+      "text": "MCPS down here, but here you can see"
+    },
+    {
+      "start": 687.36,
+      "duration": 5.84,
+      "text": "this new MCP search tool. So, this is"
+    },
+    {
+      "start": 690.56,
+      "duration": 5.6,
+      "text": "that additional context that's now being"
+    },
+    {
+      "start": 693.2,
+      "duration": 5.68,
+      "text": "loaded into the context window. The"
+    },
+    {
+      "start": 696.16,
+      "duration": 5.76,
+      "text": "description says, \"Search for or select"
+    },
+    {
+      "start": 698.88,
+      "duration": 6.48,
+      "text": "MCP tools to make them available for"
+    },
+    {
+      "start": 701.92,
+      "duration": 5.68,
+      "text": "use.\" Mandatory prerequisite. This is a"
+    },
+    {
+      "start": 705.36,
+      "duration": 5.039,
+      "text": "hard requirement. You must use this tool"
+    },
+    {
+      "start": 707.6,
+      "duration": 6.88,
+      "text": "to load MCP tools before calling them"
+    },
+    {
+      "start": 710.399,
+      "duration": 7.601,
+      "text": "directly. Okay. There are two ways to"
+    },
+    {
+      "start": 714.48,
+      "duration": 6.08,
+      "text": "use this MCP search tool. The first one"
+    },
+    {
+      "start": 718,
+      "duration": 6.079,
+      "text": "is through direct selection. So if it"
+    },
+    {
+      "start": 720.56,
+      "duration": 6.56,
+      "text": "uses this syntax where it says select"
+    },
+    {
+      "start": 724.079,
+      "duration": 6.801,
+      "text": "colon and then the name of the tool,"
+    },
+    {
+      "start": 727.12,
+      "duration": 6.24,
+      "text": "it's going to return just that tool if"
+    },
+    {
+      "start": 730.88,
+      "duration": 5.12,
+      "text": "it exists. The second way it can search"
+    },
+    {
+      "start": 733.36,
+      "duration": 4.719,
+      "text": "is using keyword if it's not sure which"
+    },
+    {
+      "start": 736,
+      "duration": 4,
+      "text": "tool it actually wants to use. So we can"
+    },
+    {
+      "start": 738.079,
+      "duration": 3.681,
+      "text": "use plain language search terms or"
+    },
+    {
+      "start": 740,
+      "duration": 4.959,
+      "text": "keyword search terms like list"
+    },
+    {
+      "start": 741.76,
+      "duration": 4.319,
+      "text": "directory, read file, Slack message. And"
+    },
+    {
+      "start": 744.959,
+      "duration": 3.041,
+      "text": "this is going to work a little"
+    },
+    {
+      "start": 746.079,
+      "duration": 5.44,
+      "text": "differently. This is going to return up"
+    },
+    {
+      "start": 748,
+      "duration": 7.6,
+      "text": "to five matching tools that are ranked"
+    },
+    {
+      "start": 751.519,
+      "duration": 6.721,
+      "text": "based on relevance. Now either way, both"
+    },
+    {
+      "start": 755.6,
+      "duration": 5.6,
+      "text": "of these mechanisms are through the same"
+    },
+    {
+      "start": 758.24,
+      "duration": 5.76,
+      "text": "search tool. Once it gets the full tool"
+    },
+    {
+      "start": 761.2,
+      "duration": 5.759,
+      "text": "definition back from the search tool, it"
+    },
+    {
+      "start": 764,
+      "duration": 5.68,
+      "text": "can then call the tool like it normally"
+    },
+    {
+      "start": 766.959,
+      "duration": 5.921,
+      "text": "would. So here are some examples of"
+    },
+    {
+      "start": 769.68,
+      "duration": 5.52,
+      "text": "correct and incorrect usage patterns."
+    },
+    {
+      "start": 772.88,
+      "duration": 4.48,
+      "text": "These first two correct usage patterns"
+    },
+    {
+      "start": 775.2,
+      "duration": 6.639,
+      "text": "show you using the different query"
+    },
+    {
+      "start": 777.36,
+      "duration": 6.64,
+      "text": "methods. So MCP search using the select"
+    },
+    {
+      "start": 781.839,
+      "duration": 5.12,
+      "text": "method where it's calling a specific"
+    },
+    {
+      "start": 784,
+      "duration": 4.72,
+      "text": "tool and then once it gets back the full"
+    },
+    {
+      "start": 786.959,
+      "duration": 3.201,
+      "text": "tool definition and schema and"
+    },
+    {
+      "start": 788.72,
+      "duration": 3.84,
+      "text": "understands how to use it, it can then"
+    },
+    {
+      "start": 790.16,
+      "duration": 4.88,
+      "text": "call the tool. With the second method,"
+    },
+    {
+      "start": 792.56,
+      "duration": 4.959,
+      "text": "it can just query using a keyword like"
+    },
+    {
+      "start": 795.04,
+      "duration": 5.039,
+      "text": "Slack. It'll get back several tool"
+    },
+    {
+      "start": 797.519,
+      "duration": 5.201,
+      "text": "definitions including the most likely"
+    },
+    {
+      "start": 800.079,
+      "duration": 5.041,
+      "text": "correct tool for this query which is to"
+    },
+    {
+      "start": 802.72,
+      "duration": 4.32,
+      "text": "read a channel and then it can again"
+    },
+    {
+      "start": 805.12,
+      "duration": 4.32,
+      "text": "call that tool like it would normally"
+    },
+    {
+      "start": 807.04,
+      "duration": 5.52,
+      "text": "directly and then the incorrect pattern"
+    },
+    {
+      "start": 809.44,
+      "duration": 6.079,
+      "text": "is instead of doing the search first it"
+    },
+    {
+      "start": 812.56,
+      "duration": 4.959,
+      "text": "just directly calls the tool. Now after"
+    },
+    {
+      "start": 815.519,
+      "duration": 5.841,
+      "text": "those examples you'll see that we"
+    },
+    {
+      "start": 817.519,
+      "duration": 7.12,
+      "text": "actually have the full list of MCP tool"
+    },
+    {
+      "start": 821.36,
+      "duration": 6.719,
+      "text": "names. There's no description of the"
+    },
+    {
+      "start": 824.639,
+      "duration": 5.601,
+      "text": "tool. There's no input requirements or"
+    },
+    {
+      "start": 828.079,
+      "duration": 4.56,
+      "text": "usage patterns, no information about the"
+    },
+    {
+      "start": 830.24,
+      "duration": 6.719,
+      "text": "tool other than the names loaded here."
+    },
+    {
+      "start": 832.639,
+      "duration": 7.841,
+      "text": "So Claude has an idea of what tools are"
+    },
+    {
+      "start": 836.959,
+      "duration": 5.761,
+      "text": "available. And this is where the naming"
+    },
+    {
+      "start": 840.48,
+      "duration": 4.32,
+      "text": "of the MCP tools becomes really"
+    },
+    {
+      "start": 842.72,
+      "duration": 4.799,
+      "text": "important because this is kind of that"
+    },
+    {
+      "start": 844.8,
+      "duration": 5.36,
+      "text": "first layer of progressive disclosure"
+    },
+    {
+      "start": 847.519,
+      "duration": 5.12,
+      "text": "where it's going to make up its mind on"
+    },
+    {
+      "start": 850.16,
+      "duration": 6,
+      "text": "what this tool probably is supposed to"
+    },
+    {
+      "start": 852.639,
+      "duration": 5.601,
+      "text": "be used for and how it might use it. As"
+    },
+    {
+      "start": 856.16,
+      "duration": 4.88,
+      "text": "this list grows, if you add more and"
+    },
+    {
+      "start": 858.24,
+      "duration": 5.839,
+      "text": "more MCP servers, you will take up"
+    },
+    {
+      "start": 861.04,
+      "duration": 5.359,
+      "text": "slightly more of the context window in"
+    },
+    {
+      "start": 864.079,
+      "duration": 4.801,
+      "text": "this tool definition. But again, since"
+    },
+    {
+      "start": 866.399,
+      "duration": 5.521,
+      "text": "we're only using the names here, it's"
+    },
+    {
+      "start": 868.88,
+      "duration": 6.079,
+      "text": "pretty negligible compared to having the"
+    },
+    {
+      "start": 871.92,
+      "duration": 5.12,
+      "text": "full tool descriptions and tool schemas."
+    },
+    {
+      "start": 874.959,
+      "duration": 4.161,
+      "text": "So in this example, I asked it a very"
+    },
+    {
+      "start": 877.04,
+      "duration": 5.359,
+      "text": "specific question. I wanted to know how"
+    },
+    {
+      "start": 879.12,
+      "duration": 5.92,
+      "text": "many customers had used my app. So it"
+    },
+    {
+      "start": 882.399,
+      "duration": 5.44,
+      "text": "knew it had to query the database and it"
+    },
+    {
+      "start": 885.04,
+      "duration": 6.239,
+      "text": "saw that there's a Superbase MCP"
+    },
+    {
+      "start": 887.839,
+      "duration": 5.921,
+      "text": "available. And because it sees all of"
+    },
+    {
+      "start": 891.279,
+      "duration": 4.641,
+      "text": "the tool names, it just selected the"
+    },
+    {
+      "start": 893.76,
+      "duration": 4.639,
+      "text": "exact tool that it saw, which would"
+    },
+    {
+      "start": 895.92,
+      "duration": 4.32,
+      "text": "allow it to query the database since"
+    },
+    {
+      "start": 898.399,
+      "duration": 3.841,
+      "text": "again it already knew exactly what it"
+    },
+    {
+      "start": 900.24,
+      "duration": 3.76,
+      "text": "wanted to do. Interestingly, if you look"
+    },
+    {
+      "start": 902.24,
+      "duration": 4.08,
+      "text": "at the tool result here, we don't"
+    },
+    {
+      "start": 904,
+      "duration": 6.079,
+      "text": "actually get the full tool definition."
+    },
+    {
+      "start": 906.32,
+      "duration": 6.079,
+      "text": "We get the tool name back and a type of"
+    },
+    {
+      "start": 910.079,
+      "duration": 5.2,
+      "text": "tool reference. So what's actually"
+    },
+    {
+      "start": 912.399,
+      "duration": 5.841,
+      "text": "happening here is instead of returning"
+    },
+    {
+      "start": 915.279,
+      "duration": 5.761,
+      "text": "the tool definition in a tool result"
+    },
+    {
+      "start": 918.24,
+      "duration": 5.839,
+      "text": "block like normal, what the cloud code"
+    },
+    {
+      "start": 921.04,
+      "duration": 6.32,
+      "text": "harness does is it just goes back and"
+    },
+    {
+      "start": 924.079,
+      "duration": 6.401,
+      "text": "injects it into the system message now."
+    },
+    {
+      "start": 927.36,
+      "duration": 6.159,
+      "text": "So it's loaded just like any other tool"
+    },
+    {
+      "start": 930.48,
+      "duration": 6.799,
+      "text": "up here. And that way you don't really"
+    },
+    {
+      "start": 933.519,
+      "duration": 7.281,
+      "text": "break how Claude understands its system"
+    },
+    {
+      "start": 937.279,
+      "duration": 6.56,
+      "text": "prompt and instructions which I think is"
+    },
+    {
+      "start": 940.8,
+      "duration": 5.279,
+      "text": "super cool. So it's loaded up here just"
+    },
+    {
+      "start": 943.839,
+      "duration": 4,
+      "text": "like all of the other tool definitions"
+    },
+    {
+      "start": 946.079,
+      "duration": 4.161,
+      "text": "except this time it's going to load the"
+    },
+    {
+      "start": 947.839,
+      "duration": 5.36,
+      "text": "full definition including the"
+    },
+    {
+      "start": 950.24,
+      "duration": 6.159,
+      "text": "description and the required parameters."
+    },
+    {
+      "start": 953.199,
+      "duration": 5.041,
+      "text": "It requires a project ID and Claude"
+    },
+    {
+      "start": 956.399,
+      "duration": 3.281,
+      "text": "doesn't know the project ID yet. So it"
+    },
+    {
+      "start": 958.24,
+      "duration": 3.76,
+      "text": "needs to list what projects are"
+    },
+    {
+      "start": 959.68,
+      "duration": 5.76,
+      "text": "available. So in the very next step as"
+    },
+    {
+      "start": 962,
+      "duration": 6.72,
+      "text": "we'll see it runs another search and"
+    },
+    {
+      "start": 965.44,
+      "duration": 7.04,
+      "text": "selects this tool which then again loads"
+    },
+    {
+      "start": 968.72,
+      "duration": 5.84,
+      "text": "this tool into this system prompt. So to"
+    },
+    {
+      "start": 972.48,
+      "duration": 5.12,
+      "text": "begin the conversation these two tools"
+    },
+    {
+      "start": 974.56,
+      "duration": 5.68,
+      "text": "were not here. They're injected later in"
+    },
+    {
+      "start": 977.6,
+      "duration": 5.44,
+      "text": "the conversation which I think is a"
+    },
+    {
+      "start": 980.24,
+      "duration": 6.159,
+      "text": "really clever way to do it. So scrolling"
+    },
+    {
+      "start": 983.04,
+      "duration": 7.039,
+      "text": "back down, we get that tool result for"
+    },
+    {
+      "start": 986.399,
+      "duration": 5.921,
+      "text": "the first execute SQL tool. And then"
+    },
+    {
+      "start": 990.079,
+      "duration": 4,
+      "text": "like I said, it runs the search tool"
+    },
+    {
+      "start": 992.32,
+      "duration": 4,
+      "text": "again. This time selecting the list"
+    },
+    {
+      "start": 994.079,
+      "duration": 5.841,
+      "text": "projects tool, which now loads this tool"
+    },
+    {
+      "start": 996.32,
+      "duration": 6.48,
+      "text": "definition into the context. Now it"
+    },
+    {
+      "start": 999.92,
+      "duration": 5.919,
+      "text": "actually calls the list projects tool."
+    },
+    {
+      "start": 1002.8,
+      "duration": 5.52,
+      "text": "And if we look here, this is the normal"
+    },
+    {
+      "start": 1005.839,
+      "duration": 5.761,
+      "text": "tool response. So this is going to be"
+    },
+    {
+      "start": 1008.32,
+      "duration": 5.68,
+      "text": "all of the project IDs. And then if we"
+    },
+    {
+      "start": 1011.6,
+      "duration": 4.96,
+      "text": "scroll down now, it knows what project"
+    },
+    {
+      "start": 1014,
+      "duration": 5.759,
+      "text": "ids we have and then we'll run the"
+    },
+    {
+      "start": 1016.56,
+      "duration": 5.839,
+      "text": "actual query and then get back uh real"
+    },
+    {
+      "start": 1019.759,
+      "duration": 5.121,
+      "text": "data. Really quick, if you are enjoying"
+    },
+    {
+      "start": 1022.399,
+      "duration": 4.881,
+      "text": "this video, please drop a like as it"
+    },
+    {
+      "start": 1024.88,
+      "duration": 4.319,
+      "text": "helps out my small channel a lot. And"
+    },
+    {
+      "start": 1027.28,
+      "duration": 4.399,
+      "text": "let me know in the comments what other"
+    },
+    {
+      "start": 1029.199,
+      "duration": 4.64,
+      "text": "big issues do you have with Claude Code"
+    },
+    {
+      "start": 1031.679,
+      "duration": 4.081,
+      "text": "or what feature do you wish it really"
+    },
+    {
+      "start": 1033.839,
+      "duration": 4,
+      "text": "had? I'm really curious to hear you guys"
+    },
+    {
+      "start": 1035.76,
+      "duration": 4.319,
+      "text": "thoughts and I'll respond to all of the"
+    },
+    {
+      "start": 1037.839,
+      "duration": 5.12,
+      "text": "comments. So now I want to show you this"
+    },
+    {
+      "start": 1040.079,
+      "duration": 5.441,
+      "text": "in action. Let's hop back over to our"
+    },
+    {
+      "start": 1042.959,
+      "duration": 4.801,
+      "text": "cloud code session here. Remember we"
+    },
+    {
+      "start": 1045.52,
+      "duration": 4.399,
+      "text": "have enabled the search. So these are"
+    },
+    {
+      "start": 1047.76,
+      "duration": 5.039,
+      "text": "all loaded on demand and our context"
+    },
+    {
+      "start": 1049.919,
+      "duration": 6.801,
+      "text": "window is clear of any MCP tool"
+    },
+    {
+      "start": 1052.799,
+      "duration": 6.801,
+      "text": "definitions. Can you tell me about SPR89"
+    },
+    {
+      "start": 1056.72,
+      "duration": 6.56,
+      "text": "and also see how many files we have in"
+    },
+    {
+      "start": 1059.6,
+      "duration": 7.6,
+      "text": "our superbase storage? Okay, so we see a"
+    },
+    {
+      "start": 1063.28,
+      "duration": 6.399,
+      "text": "couple of MCP tool searches here and one"
+    },
+    {
+      "start": 1067.2,
+      "duration": 4.4,
+      "text": "of them is to select the linear get"
+    },
+    {
+      "start": 1069.679,
+      "duration": 4.401,
+      "text": "project tool so it knows exactly what it"
+    },
+    {
+      "start": 1071.6,
+      "duration": 5.12,
+      "text": "wants to use there. Uh but the other one"
+    },
+    {
+      "start": 1074.08,
+      "duration": 6.719,
+      "text": "it's not sure. So it does a searchabase"
+    },
+    {
+      "start": 1076.72,
+      "duration": 6.56,
+      "text": "storage files. It loads the exact linear"
+    },
+    {
+      "start": 1080.799,
+      "duration": 6,
+      "text": "tool that I wanted to use. But for"
+    },
+    {
+      "start": 1083.28,
+      "duration": 6.16,
+      "text": "superbase, it sees a maybe related tool"
+    },
+    {
+      "start": 1086.799,
+      "duration": 5.441,
+      "text": "called get logs, but it doesn't see"
+    },
+    {
+      "start": 1089.44,
+      "duration": 6,
+      "text": "anything for actually looking at the"
+    },
+    {
+      "start": 1092.24,
+      "duration": 6,
+      "text": "storage that I have in Superbase. So, it"
+    },
+    {
+      "start": 1095.44,
+      "duration": 5.84,
+      "text": "realizes, hey, I need to actually just"
+    },
+    {
+      "start": 1098.24,
+      "duration": 4.799,
+      "text": "use the execute SQL tool. So that's an"
+    },
+    {
+      "start": 1101.28,
+      "duration": 5.04,
+      "text": "example where it wasn't sure what tool"
+    },
+    {
+      "start": 1103.039,
+      "duration": 6.321,
+      "text": "it needed and so it did a search to try"
+    },
+    {
+      "start": 1106.32,
+      "duration": 5.04,
+      "text": "to load more of the tool definitions and"
+    },
+    {
+      "start": 1109.36,
+      "duration": 4.96,
+      "text": "read more about potentially related"
+    },
+    {
+      "start": 1111.36,
+      "duration": 6.319,
+      "text": "tools. Finally, it just decides that it"
+    },
+    {
+      "start": 1114.32,
+      "duration": 5.52,
+      "text": "maybe it can execute SQL directly on the"
+    },
+    {
+      "start": 1117.679,
+      "duration": 4.24,
+      "text": "database and then find out what's in the"
+    },
+    {
+      "start": 1119.84,
+      "duration": 3.76,
+      "text": "storage. I won't go through the rest of"
+    },
+    {
+      "start": 1121.919,
+      "duration": 4.561,
+      "text": "this. Basically, it's just trying to"
+    },
+    {
+      "start": 1123.6,
+      "duration": 5.28,
+      "text": "figure out uh what the correct issue ID"
+    },
+    {
+      "start": 1126.48,
+      "duration": 6.559,
+      "text": "is and how to call this tool properly."
+    },
+    {
+      "start": 1128.88,
+      "duration": 8.48,
+      "text": "It executes some SQL for superbase and"
+    },
+    {
+      "start": 1133.039,
+      "duration": 5.76,
+      "text": "eventually it is able to load S spr 89."
+    },
+    {
+      "start": 1137.36,
+      "duration": 3.76,
+      "text": "So I guess I just gave it the wrong"
+    },
+    {
+      "start": 1138.799,
+      "duration": 4.321,
+      "text": "issue ID using voice but it figures it"
+    },
+    {
+      "start": 1141.12,
+      "duration": 4.72,
+      "text": "out and it's able to load the correct"
+    },
+    {
+      "start": 1143.12,
+      "duration": 6.08,
+      "text": "issue. So here it can see my linear"
+    },
+    {
+      "start": 1145.84,
+      "duration": 6.16,
+      "text": "issue and then it is able to eventually"
+    },
+    {
+      "start": 1149.2,
+      "duration": 5.44,
+      "text": "get the answer about the files I have in"
+    },
+    {
+      "start": 1152,
+      "duration": 5.36,
+      "text": "my superbase storage. So we've used a"
+    },
+    {
+      "start": 1154.64,
+      "duration": 5.2,
+      "text": "few tools. Now I want to now take a look"
+    },
+    {
+      "start": 1157.36,
+      "duration": 5.28,
+      "text": "at the context so we can compare it to"
+    },
+    {
+      "start": 1159.84,
+      "duration": 5.44,
+      "text": "what we saw in the trace earlier. Now"
+    },
+    {
+      "start": 1162.64,
+      "duration": 5.36,
+      "text": "you can see that there is a separate"
+    },
+    {
+      "start": 1165.28,
+      "duration": 6,
+      "text": "section for the MCP tools which were"
+    },
+    {
+      "start": 1168,
+      "duration": 5.919,
+      "text": "searched for and selected and are now"
+    },
+    {
+      "start": 1171.28,
+      "duration": 6.32,
+      "text": "loaded into the context. We now have"
+    },
+    {
+      "start": 1173.919,
+      "duration": 5.921,
+      "text": "1.4,000 tokens taken up by these MCP"
+    },
+    {
+      "start": 1177.6,
+      "duration": 4,
+      "text": "tools that weren't there before. So,"
+    },
+    {
+      "start": 1179.84,
+      "duration": 3.92,
+      "text": "what happens as we continue this"
+    },
+    {
+      "start": 1181.6,
+      "duration": 4.56,
+      "text": "conversation and Claude calls more of"
+    },
+    {
+      "start": 1183.76,
+      "duration": 4.24,
+      "text": "these MCP tools? I'm going to ask it"
+    },
+    {
+      "start": 1186.16,
+      "duration": 5.2,
+      "text": "another question and this time I want to"
+    },
+    {
+      "start": 1188,
+      "duration": 5.2,
+      "text": "specifically ask about Sentry. So, it"
+    },
+    {
+      "start": 1191.36,
+      "duration": 3.92,
+      "text": "calls a different tool that's not"
+    },
+    {
+      "start": 1193.2,
+      "duration": 4.8,
+      "text": "already loaded. Do we have any recent"
+    },
+    {
+      "start": 1195.28,
+      "duration": 5.519,
+      "text": "Sentry errors? So, this time we should"
+    },
+    {
+      "start": 1198,
+      "duration": 5.76,
+      "text": "see another search tool called since it"
+    },
+    {
+      "start": 1200.799,
+      "duration": 5.841,
+      "text": "hasn't loaded this one. There it is. It"
+    },
+    {
+      "start": 1203.76,
+      "duration": 5.84,
+      "text": "selected the exact tool that it wants to"
+    },
+    {
+      "start": 1206.64,
+      "duration": 5.919,
+      "text": "use. And it looks like it had to load a"
+    },
+    {
+      "start": 1209.6,
+      "duration": 5.76,
+      "text": "second tool as well. So it needed to get"
+    },
+    {
+      "start": 1212.559,
+      "duration": 6.561,
+      "text": "the organization slug first. Now it's"
+    },
+    {
+      "start": 1215.36,
+      "duration": 6.72,
+      "text": "able to go ahead and call the tool and"
+    },
+    {
+      "start": 1219.12,
+      "duration": 5.36,
+      "text": "see what the issues are. And we got our"
+    },
+    {
+      "start": 1222.08,
+      "duration": 5.04,
+      "text": "final response. So we have four"
+    },
+    {
+      "start": 1224.48,
+      "duration": 6.4,
+      "text": "unresolved issues that are being tracked"
+    },
+    {
+      "start": 1227.12,
+      "duration": 6.24,
+      "text": "in Sentry. And now let's look at our"
+    },
+    {
+      "start": 1230.88,
+      "duration": 5.52,
+      "text": "context after calling a couple of"
+    },
+    {
+      "start": 1233.36,
+      "duration": 6.16,
+      "text": "additional tools from the Sentry server."
+    },
+    {
+      "start": 1236.4,
+      "duration": 6.159,
+      "text": "We have two new tools, our two Sentry"
+    },
+    {
+      "start": 1239.52,
+      "duration": 6.24,
+      "text": "tools that are now loaded along with the"
+    },
+    {
+      "start": 1242.559,
+      "duration": 5.681,
+      "text": "other ones. As a session or conversation"
+    },
+    {
+      "start": 1245.76,
+      "duration": 6.88,
+      "text": "continues, any tool that has already"
+    },
+    {
+      "start": 1248.24,
+      "duration": 6.72,
+      "text": "been loaded stays loaded and MCP tool"
+    },
+    {
+      "start": 1252.64,
+      "duration": 5.76,
+      "text": "token usage has now gone up from, I"
+    },
+    {
+      "start": 1254.96,
+      "duration": 7.04,
+      "text": "think it was 1.8 before to 2.6,000"
+    },
+    {
+      "start": 1258.4,
+      "duration": 5.44,
+      "text": "tokens. So, this accumulates over time."
+    },
+    {
+      "start": 1262,
+      "duration": 3.6,
+      "text": "You can imagine if you're having a"
+    },
+    {
+      "start": 1263.84,
+      "duration": 4.48,
+      "text": "really long conversation with claude and"
+    },
+    {
+      "start": 1265.6,
+      "duration": 5.439,
+      "text": "it's calling a bunch of MCP tools. This"
+    },
+    {
+      "start": 1268.32,
+      "duration": 5.839,
+      "text": "is going to continue to grow over time."
+    },
+    {
+      "start": 1271.039,
+      "duration": 5.52,
+      "text": "This context usage and I think it's"
+    },
+    {
+      "start": 1274.159,
+      "duration": 6.241,
+      "text": "worth exploring this design decision"
+    },
+    {
+      "start": 1276.559,
+      "duration": 6.24,
+      "text": "from anthropic. We saw that when an MCP"
+    },
+    {
+      "start": 1280.4,
+      "duration": 5.04,
+      "text": "search tool is called, we don't get back"
+    },
+    {
+      "start": 1282.799,
+      "duration": 5.841,
+      "text": "the schema in the tool result, just a"
+    },
+    {
+      "start": 1285.44,
+      "duration": 5.68,
+      "text": "reference that that tool was loaded. And"
+    },
+    {
+      "start": 1288.64,
+      "duration": 5.76,
+      "text": "the tool definition then gets"
+    },
+    {
+      "start": 1291.12,
+      "duration": 5.6,
+      "text": "permanently added to the tool list now"
+    },
+    {
+      "start": 1294.4,
+      "duration": 5.12,
+      "text": "just like how it worked before. And so"
+    },
+    {
+      "start": 1296.72,
+      "duration": 4.959,
+      "text": "that's why this list of loaded tools is"
+    },
+    {
+      "start": 1299.52,
+      "duration": 5.12,
+      "text": "going to accumulate longer and longer"
+    },
+    {
+      "start": 1301.679,
+      "duration": 5.521,
+      "text": "for longer conversations. And I think"
+    },
+    {
+      "start": 1304.64,
+      "duration": 4.64,
+      "text": "there's a few benefits to this design."
+    },
+    {
+      "start": 1307.2,
+      "duration": 4.16,
+      "text": "One is that it already follows existing"
+    },
+    {
+      "start": 1309.28,
+      "duration": 4.639,
+      "text": "patterns. So it's putting the tool"
+    },
+    {
+      "start": 1311.36,
+      "duration": 4.96,
+      "text": "definition up top with the rest of the"
+    },
+    {
+      "start": 1313.919,
+      "duration": 4.161,
+      "text": "the system tools. So it's easy for cloud"
+    },
+    {
+      "start": 1316.32,
+      "duration": 4.479,
+      "text": "code to understand and it doesn't have"
+    },
+    {
+      "start": 1318.08,
+      "duration": 5.04,
+      "text": "to go looking for tool scholas in the"
+    },
+    {
+      "start": 1320.799,
+      "duration": 4.481,
+      "text": "conversation history. The second benefit"
+    },
+    {
+      "start": 1323.12,
+      "duration": 5.28,
+      "text": "of loading the tool schema this way and"
+    },
+    {
+      "start": 1325.28,
+      "duration": 5.279,
+      "text": "not as a tool result is it's going to"
+    },
+    {
+      "start": 1328.4,
+      "duration": 5.04,
+      "text": "have better attention from cloud code"
+    },
+    {
+      "start": 1330.559,
+      "duration": 5.12,
+      "text": "since we know that with long context"
+    },
+    {
+      "start": 1333.44,
+      "duration": 3.92,
+      "text": "windows things that are at the very"
+    },
+    {
+      "start": 1335.679,
+      "duration": 3.841,
+      "text": "beginning or at the very end of the"
+    },
+    {
+      "start": 1337.36,
+      "duration": 5.6,
+      "text": "context window tend to be remembered"
+    },
+    {
+      "start": 1339.52,
+      "duration": 7.039,
+      "text": "better. And typically the way cloud code"
+    },
+    {
+      "start": 1342.96,
+      "duration": 6.88,
+      "text": "uses tools is it will call the same tool"
+    },
+    {
+      "start": 1346.559,
+      "duration": 6.48,
+      "text": "multiple times. So if you think about"
+    },
+    {
+      "start": 1349.84,
+      "duration": 6.16,
+      "text": "the web search tool or different file"
+    },
+    {
+      "start": 1353.039,
+      "duration": 6.401,
+      "text": "system tools. So it makes sense to keep"
+    },
+    {
+      "start": 1356,
+      "duration": 5.76,
+      "text": "the loaded tool in context for the rest"
+    },
+    {
+      "start": 1359.44,
+      "duration": 4.64,
+      "text": "of the session because it's likely that"
+    },
+    {
+      "start": 1361.76,
+      "duration": 5.279,
+      "text": "that tool is going to be needed again"
+    },
+    {
+      "start": 1364.08,
+      "duration": 5.2,
+      "text": "and again. And then lastly, maybe not as"
+    },
+    {
+      "start": 1367.039,
+      "duration": 5.441,
+      "text": "important, but you can imagine if you"
+    },
+    {
+      "start": 1369.28,
+      "duration": 5.44,
+      "text": "had maybe a weaker model like sonnet or"
+    },
+    {
+      "start": 1372.48,
+      "duration": 4.96,
+      "text": "you have a really long conversation"
+    },
+    {
+      "start": 1374.72,
+      "duration": 5.04,
+      "text": "where at some point Claude called the"
+    },
+    {
+      "start": 1377.44,
+      "duration": 4.64,
+      "text": "search tool and then got back some tool"
+    },
+    {
+      "start": 1379.76,
+      "duration": 4.72,
+      "text": "schemas, but they're buried really deep"
+    },
+    {
+      "start": 1382.08,
+      "duration": 4.32,
+      "text": "in that long conversation history. And"
+    },
+    {
+      "start": 1384.48,
+      "duration": 4.48,
+      "text": "then, you know, for whatever reason, it"
+    },
+    {
+      "start": 1386.4,
+      "duration": 5.279,
+      "text": "decides to call the search tool again"
+    },
+    {
+      "start": 1388.96,
+      "duration": 4.959,
+      "text": "and get back the same tool schema. It's"
+    },
+    {
+      "start": 1391.679,
+      "duration": 4.24,
+      "text": "going to be less efficient overall for"
+    },
+    {
+      "start": 1393.919,
+      "duration": 4.481,
+      "text": "your context window to have the same"
+    },
+    {
+      "start": 1395.919,
+      "duration": 3.921,
+      "text": "tool schemas loaded multiple times. Now,"
+    },
+    {
+      "start": 1398.4,
+      "duration": 4.159,
+      "text": "what do you think is going to happen if"
+    },
+    {
+      "start": 1399.84,
+      "duration": 5.04,
+      "text": "we compact at this point? Obviously,"
+    },
+    {
+      "start": 1402.559,
+      "duration": 3.681,
+      "text": "this isn't a realistic situation. We"
+    },
+    {
+      "start": 1404.88,
+      "duration": 3.2,
+      "text": "still have a ton of free space, but"
+    },
+    {
+      "start": 1406.24,
+      "duration": 4.64,
+      "text": "let's say we had a really long working"
+    },
+    {
+      "start": 1408.08,
+      "duration": 6.079,
+      "text": "session. We have a ton of MCP tools"
+    },
+    {
+      "start": 1410.88,
+      "duration": 5.6,
+      "text": "loaded and it's time for us to compact"
+    },
+    {
+      "start": 1414.159,
+      "duration": 5.361,
+      "text": "this conversation. Let's see what"
+    },
+    {
+      "start": 1416.48,
+      "duration": 5.76,
+      "text": "happens to these loaded tools. run a"
+    },
+    {
+      "start": 1419.52,
+      "duration": 5.519,
+      "text": "compact and it should be relatively"
+    },
+    {
+      "start": 1422.24,
+      "duration": 4.72,
+      "text": "quick since it's a short conversation."
+    },
+    {
+      "start": 1425.039,
+      "duration": 4.721,
+      "text": "Okay, so that finished. For some reason,"
+    },
+    {
+      "start": 1426.96,
+      "duration": 4.64,
+      "text": "it took like a minute and 20 seconds. I"
+    },
+    {
+      "start": 1429.76,
+      "duration": 4.159,
+      "text": "thought they fixed this, but there you"
+    },
+    {
+      "start": 1431.6,
+      "duration": 5.28,
+      "text": "go. Down here now shows that our token"
+    },
+    {
+      "start": 1433.919,
+      "duration": 6.321,
+      "text": "usage is zero. I'm going to now run"
+    },
+    {
+      "start": 1436.88,
+      "duration": 7.6,
+      "text": "context again. Notice that now we don't"
+    },
+    {
+      "start": 1440.24,
+      "duration": 8.16,
+      "text": "have any MCP tools loaded and no MCP"
+    },
+    {
+      "start": 1444.48,
+      "duration": 7.76,
+      "text": "tools taking up context. Now again, this"
+    },
+    {
+      "start": 1448.4,
+      "duration": 6.159,
+      "text": "is just a design decision that Anthropic"
+    },
+    {
+      "start": 1452.24,
+      "duration": 5.039,
+      "text": "made. They could have chose to leave"
+    },
+    {
+      "start": 1454.559,
+      "duration": 5.36,
+      "text": "those tools that were already loaded,"
+    },
+    {
+      "start": 1457.279,
+      "duration": 6,
+      "text": "assuming that you're continuing a"
+    },
+    {
+      "start": 1459.919,
+      "duration": 5.921,
+      "text": "session or conversation and task and"
+    },
+    {
+      "start": 1463.279,
+      "duration": 5.041,
+      "text": "you're probably going to be using the"
+    },
+    {
+      "start": 1465.84,
+      "duration": 5.04,
+      "text": "same tools. But I think this is actually"
+    },
+    {
+      "start": 1468.32,
+      "duration": 4.959,
+      "text": "a good way to do it where they're"
+    },
+    {
+      "start": 1470.88,
+      "duration": 3.919,
+      "text": "instead not going to assume that Claude"
+    },
+    {
+      "start": 1473.279,
+      "duration": 3.361,
+      "text": "is going to be using the same tools."
+    },
+    {
+      "start": 1474.799,
+      "duration": 4.24,
+      "text": "they clear the full context so you get"
+    },
+    {
+      "start": 1476.64,
+      "duration": 5.6,
+      "text": "all of your context window back and now"
+    },
+    {
+      "start": 1479.039,
+      "duration": 5.841,
+      "text": "it'll proceed as normal. If Claude"
+    },
+    {
+      "start": 1482.24,
+      "duration": 5.76,
+      "text": "decides to use one of those tools, it'll"
+    },
+    {
+      "start": 1484.88,
+      "duration": 6.799,
+      "text": "just load it again. Now, everything else"
+    },
+    {
+      "start": 1488,
+      "duration": 6.48,
+      "text": "as far as how MCPs work with skills,"
+    },
+    {
+      "start": 1491.679,
+      "duration": 6.48,
+      "text": "with sub agents, etc., still works the"
+    },
+    {
+      "start": 1494.48,
+      "duration": 6.559,
+      "text": "same. So, if you have skills or sub"
+    },
+    {
+      "start": 1498.159,
+      "duration": 6.721,
+      "text": "aents, I'll just show you. Uh in this"
+    },
+    {
+      "start": 1501.039,
+      "duration": 6.88,
+      "text": "example I have this issue picker and I"
+    },
+    {
+      "start": 1504.88,
+      "duration": 5.679,
+      "text": "have specified that only these four"
+    },
+    {
+      "start": 1507.919,
+      "duration": 5.601,
+      "text": "tools are allowed. This is still"
+    },
+    {
+      "start": 1510.559,
+      "duration": 5.921,
+      "text": "respected. So everything else about the"
+    },
+    {
+      "start": 1513.52,
+      "duration": 4.56,
+      "text": "MCP tool permissions works the same."
+    },
+    {
+      "start": 1516.48,
+      "duration": 4.72,
+      "text": "Finally, since so many of you did"
+    },
+    {
+      "start": 1518.08,
+      "duration": 6.16,
+      "text": "mention the Docker MCP toolkit, I wanted"
+    },
+    {
+      "start": 1521.2,
+      "duration": 6.24,
+      "text": "to show you how this works with that. So"
+    },
+    {
+      "start": 1524.24,
+      "duration": 6.88,
+      "text": "now let's connect the Docker MCP toolkit"
+    },
+    {
+      "start": 1527.44,
+      "duration": 6.719,
+      "text": "like before and see what that does to"
+    },
+    {
+      "start": 1531.12,
+      "duration": 5.28,
+      "text": "the MCP tools in the context. That"
+    },
+    {
+      "start": 1534.159,
+      "duration": 5.041,
+      "text": "should now be loaded. I'm going to start"
+    },
+    {
+      "start": 1536.4,
+      "duration": 5.84,
+      "text": "up a new claude and again I'm getting"
+    },
+    {
+      "start": 1539.2,
+      "duration": 7.2,
+      "text": "this warning about uh settings. So if we"
+    },
+    {
+      "start": 1542.24,
+      "duration": 6.64,
+      "text": "look in /d. So before we just had our"
+    },
+    {
+      "start": 1546.4,
+      "duration": 5.6,
+      "text": "regular list of MCPs and now you can see"
+    },
+    {
+      "start": 1548.88,
+      "duration": 6.72,
+      "text": "we have also MCP Docker with 89 tools"
+    },
+    {
+      "start": 1552,
+      "duration": 6.32,
+      "text": "taking up an additional 22,000 tokens."
+    },
+    {
+      "start": 1555.6,
+      "duration": 5.92,
+      "text": "So we're two times over the limit. Now"
+    },
+    {
+      "start": 1558.32,
+      "duration": 6.8,
+      "text": "I'm going to go back and now take a look"
+    },
+    {
+      "start": 1561.52,
+      "duration": 6.48,
+      "text": "at our context. We have a lot of MCP"
+    },
+    {
+      "start": 1565.12,
+      "duration": 5.039,
+      "text": "tools. So this is taking a little while."
+    },
+    {
+      "start": 1568,
+      "duration": 4.08,
+      "text": "Wow. 30 seconds in. I don't think it's"
+    },
+    {
+      "start": 1570.159,
+      "duration": 3.601,
+      "text": "ever taken me this long to run"
+    },
+    {
+      "start": 1572.08,
+      "duration": 4,
+      "text": "slashcontext."
+    },
+    {
+      "start": 1573.76,
+      "duration": 4.32,
+      "text": "Okay, finally it's done. We have all of"
+    },
+    {
+      "start": 1576.08,
+      "duration": 5.199,
+      "text": "our MCPs,"
+    },
+    {
+      "start": 1578.08,
+      "duration": 5.199,
+      "text": "including all of the Docker MCPS. And"
+    },
+    {
+      "start": 1581.279,
+      "duration": 5.041,
+      "text": "voila. You could see that the lazy"
+    },
+    {
+      "start": 1583.279,
+      "duration": 4.801,
+      "text": "loading works for the Docker MCP toolkit"
+    },
+    {
+      "start": 1586.32,
+      "duration": 4.88,
+      "text": "as well, which makes sense. It's just"
+    },
+    {
+      "start": 1588.08,
+      "duration": 5.68,
+      "text": "loaded via the same way of defining it"
+    },
+    {
+      "start": 1591.2,
+      "duration": 5.28,
+      "text": "in the MCP.JSON."
+    },
+    {
+      "start": 1593.76,
+      "duration": 5.84,
+      "text": "So, our context window is still clean of"
+    },
+    {
+      "start": 1596.48,
+      "duration": 5.6,
+      "text": "MCP servers. And this is a good example"
+    },
+    {
+      "start": 1599.6,
+      "duration": 5.52,
+      "text": "showing that you can have a mix of MCPs"
+    },
+    {
+      "start": 1602.08,
+      "duration": 6.64,
+      "text": "that you define yourself in your project"
+    },
+    {
+      "start": 1605.12,
+      "duration": 6.559,
+      "text": "level at your user level in MCP Docker"
+    },
+    {
+      "start": 1608.72,
+      "duration": 5.76,
+      "text": "toolkit and it's all going to work as"
+    },
+    {
+      "start": 1611.679,
+      "duration": 5.921,
+      "text": "expected. So that is everything I have"
+    },
+    {
+      "start": 1614.48,
+      "duration": 5.92,
+      "text": "to share for this video. I'm super"
+    },
+    {
+      "start": 1617.6,
+      "duration": 5.12,
+      "text": "excited with this new MCP search tool"
+    },
+    {
+      "start": 1620.4,
+      "duration": 5.6,
+      "text": "and the lazy loading of MCP servers."
+    },
+    {
+      "start": 1622.72,
+      "duration": 6.72,
+      "text": "It's going to really improve the usage"
+    },
+    {
+      "start": 1626,
+      "duration": 6.48,
+      "text": "of MCPs and performance of agents like"
+    },
+    {
+      "start": 1629.44,
+      "duration": 5.28,
+      "text": "cloud code when using a ton of MCPs and"
+    },
+    {
+      "start": 1632.48,
+      "duration": 4.72,
+      "text": "really unlocks a lot if you think about"
+    },
+    {
+      "start": 1634.72,
+      "duration": 5.36,
+      "text": "it because we can expose our agents now"
+    },
+    {
+      "start": 1637.2,
+      "duration": 6.24,
+      "text": "to so many more tools and not have it"
+    },
+    {
+      "start": 1640.08,
+      "duration": 5.36,
+      "text": "impact the context window. From the"
+    },
+    {
+      "start": 1643.44,
+      "duration": 4.96,
+      "text": "testing that I've done, it seems to"
+    },
+    {
+      "start": 1645.44,
+      "duration": 6.08,
+      "text": "perform really well since it has that"
+    },
+    {
+      "start": 1648.4,
+      "duration": 5.92,
+      "text": "list of available MCP tools. It's great"
+    },
+    {
+      "start": 1651.52,
+      "duration": 5.6,
+      "text": "because it has an idea up front of what"
+    },
+    {
+      "start": 1654.32,
+      "duration": 5.04,
+      "text": "capabilities it has. And I think the"
+    },
+    {
+      "start": 1657.12,
+      "duration": 4.08,
+      "text": "only other thing that you could do if"
+    },
+    {
+      "start": 1659.36,
+      "duration": 5.6,
+      "text": "you want to improve the system even more"
+    },
+    {
+      "start": 1661.2,
+      "duration": 6.56,
+      "text": "is to add some usage patterns or use"
+    },
+    {
+      "start": 1664.96,
+      "duration": 5.839,
+      "text": "cases for the different MCP servers in"
+    },
+    {
+      "start": 1667.76,
+      "duration": 5.6,
+      "text": "your CloudMD or for example in skills"
+    },
+    {
+      "start": 1670.799,
+      "duration": 5.521,
+      "text": "and sub agents. But overall, I think"
+    },
+    {
+      "start": 1673.36,
+      "duration": 4.64,
+      "text": "this is a really awesome update from"
+    },
+    {
+      "start": 1676.32,
+      "duration": 3.839,
+      "text": "Anthropic. Let me know in the comments"
+    },
+    {
+      "start": 1678,
+      "duration": 4,
+      "text": "what you guys think about this update"
+    },
+    {
+      "start": 1680.159,
+      "duration": 4.161,
+      "text": "and new feature. That's going to do it"
+    },
+    {
+      "start": 1682,
+      "duration": 4.799,
+      "text": "for today's video. Thank you guys for"
+    },
+    {
+      "start": 1684.32,
+      "duration": 5.599,
+      "text": "watching. Like, subscribe, and I'll see"
+    },
+    {
+      "start": 1686.799,
+      "duration": 5.14,
+      "text": "you in the next one."
+    },
+    {
+      "start": 1689.919,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 1696.469,
+      "duration": 2.02,
+      "text": "[music]"
+    }
+  ],
+  "fullText": "Anthropic just fixed the biggest problem with MCP servers in cloud code. Just a few days ago, I posted this video breaking down how connecting MCPs directly to cloud code degrades performance and consumes your context window. This video did surprisingly well, so I can see that this issue really resonated with you guys. I also open sourced and shared this tool that I built for solving this called the MCP Launchpad which basically allowed Cloud Code to search for tools without preloading tool definitions into the context window and thousands of you have been using this and even contributing to this project. So I just really want to say thank you guys. Now, I was sure that it would only be a matter of time before Anthropic addressed this because we had been dealing with the problem for so long. This GitHub issue for lazy loading MCP servers has been open since July of 2025. And I know a lot of people were implementing their own workarounds. Well, Anthropic heard the community and 2 days ago they shipped Cloud Code with a new MCP search tool that works really similarly to the MCP Launchpad, just better. Now, Claude Code no longer preloads all of the MCP tool definitions into the context window. Instead, Claude Code will now search for specific tools only when it needs them. And I've been using Cloud Code with the new MCP search tool over the last 2 days since it came out. So, I wanted to show you how it works and also share what I've learned while testing it. Before we dive in, I wanted to address two things that came up over and over in the comments of my previous video, which was this idea that you could hide the MCP tool definitions behind skills or sub agents and get around this problem of context bloat from MCP tool definitions. For skills, we know that they work using progressive disclosure where the skill contents is only going to be read once Claude decides to use that skill. And in the skill front matter, you can define what tools are allowed. But the thing is, if you have MCP tools in a skill, they're still connected to the main cloud code, whether a skill employs them or not. meaning all of the tools are still loaded into Claude's context window. And it's the same thing with sub aents. In sub aents, you can restrict what tools sub aents have access to. But again, any MCP tools that you give a sub aent will by definition be connected to Claude codes context window. A lot of you also mentioned Docker MCP toolkit and how this solved the context bloat problem for MCP tools. I really enjoy using MCP toolkit. It's super easy to configure, but unless I'm missing something, it actually doesn't solve this problem. I configured my MCP toolkit here with these six MCP servers. And to connect it to Cloud Code is super easy. I just have to go to the client tab and then connect to cloud code which you can see I already did. Now what this does is just add Docker's MCP gateway to your MCP configuration. So I have it open here. This is my docloud.json. It only has one entry. It just adds this MCP docker. And so I think maybe this is where the confusion lies where it looks like it's only adding one server that is somehow going to efficiently connect to tools only as they're needed. But I can show you how this actually works within cloud code. So I'll head over to this uh test project where I don't really have anything in here, just some stuff I'm testing. This cloud MD is empty. And I'm going to go over to my console and just start up Claude. I'm going to do slashMCP just to show you that the MCP Docker is the only thing I have connected. I'm just going to go back to Cloud and then type /context. Here you're going to see all of the tools that are in my actual MCP servers. Here's the context usage. All of those tool definitions have in fact been loaded into the context window. So they're now taking up 22,000 tokens or 11% of the context window. So this is still a big issue, right? The more MCP servers you add, the more of your context window you're going to take up. All right, so I'm back in my test project and I disconnected the MCP toolkit. So now if I go to my cloud code and do /mcp, no MCP servers are currently configured. So, let's take a look at the context. I have some plugins, some skills, but my context window is super clean here. I have no MCP servers configured, and 135,000 or 68% almost of free space. So, let's see what this looks like when I connect my MCPS. So, here I have this MCP file. I have render Sentry, Superbase, Verscell, Linear, Obsidian, and Context 7. So, seven MCP servers in total. And I'm just going to rename this now so that Claude can pick it up. So, I'm going to close that old one and we'll open a new one here. What you'll see now, this is uh updated with the new MCP search tool. So, once you upgrade your cloud code to 2.17, you should have this new MCP search tool. Since I loaded the MCP servers, there's now this warning saying that there's invalid settings and it's telling me to run Doctor. So, if I do that, basically what's happening is these warnings are because it's detecting that I have large MCP tool context across all of these MCP servers. I'm consuming 36,000 tokens and that's over this limit that it suggests of 25,000 tokens. So that's why I'm getting that warning. Now I want to do a slashcontext. So we can see the MCP servers are all connected now. And a lot of our context window is taken up. So now we're consuming around 36,000 tokens or 18% of the total context window. So before we've even sent our first message, we now have less than 100k of free space. Not only that, but of course we are polluting the entire context window with potentially a bunch of irrelevant MCP tool definitions. If we go back to the original announcement, I'm not exactly sure based on this wording how it's supposed to work, but they say Cloud Code will detect when your MCP tool descriptions would use more than 10% of the context. When triggered, tools are loaded via search instead of preloaded. Now, I don't know how they're calculating this 10% of context. From reading this, it makes it seem like it would be on a per tool basis, but that doesn't quite make sense because there are literally no tools that are going to take up 10% of your context on their own. So maybe they mean for the entire MCP server or maybe they mean across all MCP servers. I don't know. It's not clear. But if you just update your cloud code and run it out of the box with all of these MCP tools connected, it's still going to preload them into your context window. So it's not doing the lazy loading by default. In order to enable lazy loading of tool definitions and not preload all of these MCP tools like this, we have to actually turn on a setting in Cloud Code. So, you're going to want to go over to yourcloud folder. If you don't have it in your project, you can just create this folder and name it.cloud. And then inside of it, we're going to modify this settings.json. And again, if you don't have this yet, then you can just create one. In here, you're going to add just one more variable for the ENV settings. And it's going to look like this with another setting called enable tool search. And you're going to want to set this to true. So, this is just an override setting to ensure that tool search is always on and always used by cloud. And it's going to disable that automatic preloading of MCP tool definitions. Now, you can set that here like we just did at the project level, or you could do it at the user level, as I mentioned in the last video. You're just going to want to go to your username, which should be similar on Windows, and then enable the hidden folders option, which is shift command period, and you're going to go into yourcloud folder. And these are global settings. So if you enable it here, it'll always be on for all of your projects, no matter where you use cloud code. In this folder, there's also a settings.json. And so you can enable it there if you want to make it global. Coming back to cloud code, let's see what this context looks like now that we enabled that setting. So I'm going to start up a new cloud and it should pick up the new setting. So, I'll do slashmcp just to confirm that all of the MCP servers are still connected and wait for them to load. And then we'll do a slashcontext. So, this time as we scroll up, you can still see the MCP servers here. And you might notice it's uh subtle, but they are grayed out a bit. Actually, we can just flip over to see how they were here. So here you can see that they have tokens next to them and they're a little bit brighter. Now after we change that setting, the tokens are gone and they're a little bit grayed out. If we scroll all the way to the top, we'll see now this new indication that these are being loaded on demand. And more importantly, you check the context usage. And sure enough, it has been freed up. We no longer have any MCP tools taking up context. and our free space has gone back up to 135,000. Another thing I want to point out is the system tools. These system tools take up 16.8,000 tokens or 8.4%. This is with the MCP search tool. And if I go to the previous claude where we had the setting off, you'll notice this is only 16.2 or 8.1%. So, it's slightly less than what we have here. And that's because of the MCP search tool now being enabled and added as a system tool. So what does the MCP search tool actually look like? I took this trace of a conversation I had earlier with Claude just to show you what the MCP tool actually looks like and the mechanism for how it works. So these are all of the default tools that Claude code has. You have a couple of MCPS down here, but here you can see this new MCP search tool. So, this is that additional context that's now being loaded into the context window. The description says, \"Search for or select MCP tools to make them available for use.\" Mandatory prerequisite. This is a hard requirement. You must use this tool to load MCP tools before calling them directly. Okay. There are two ways to use this MCP search tool. The first one is through direct selection. So if it uses this syntax where it says select colon and then the name of the tool, it's going to return just that tool if it exists. The second way it can search is using keyword if it's not sure which tool it actually wants to use. So we can use plain language search terms or keyword search terms like list directory, read file, Slack message. And this is going to work a little differently. This is going to return up to five matching tools that are ranked based on relevance. Now either way, both of these mechanisms are through the same search tool. Once it gets the full tool definition back from the search tool, it can then call the tool like it normally would. So here are some examples of correct and incorrect usage patterns. These first two correct usage patterns show you using the different query methods. So MCP search using the select method where it's calling a specific tool and then once it gets back the full tool definition and schema and understands how to use it, it can then call the tool. With the second method, it can just query using a keyword like Slack. It'll get back several tool definitions including the most likely correct tool for this query which is to read a channel and then it can again call that tool like it would normally directly and then the incorrect pattern is instead of doing the search first it just directly calls the tool. Now after those examples you'll see that we actually have the full list of MCP tool names. There's no description of the tool. There's no input requirements or usage patterns, no information about the tool other than the names loaded here. So Claude has an idea of what tools are available. And this is where the naming of the MCP tools becomes really important because this is kind of that first layer of progressive disclosure where it's going to make up its mind on what this tool probably is supposed to be used for and how it might use it. As this list grows, if you add more and more MCP servers, you will take up slightly more of the context window in this tool definition. But again, since we're only using the names here, it's pretty negligible compared to having the full tool descriptions and tool schemas. So in this example, I asked it a very specific question. I wanted to know how many customers had used my app. So it knew it had to query the database and it saw that there's a Superbase MCP available. And because it sees all of the tool names, it just selected the exact tool that it saw, which would allow it to query the database since again it already knew exactly what it wanted to do. Interestingly, if you look at the tool result here, we don't actually get the full tool definition. We get the tool name back and a type of tool reference. So what's actually happening here is instead of returning the tool definition in a tool result block like normal, what the cloud code harness does is it just goes back and injects it into the system message now. So it's loaded just like any other tool up here. And that way you don't really break how Claude understands its system prompt and instructions which I think is super cool. So it's loaded up here just like all of the other tool definitions except this time it's going to load the full definition including the description and the required parameters. It requires a project ID and Claude doesn't know the project ID yet. So it needs to list what projects are available. So in the very next step as we'll see it runs another search and selects this tool which then again loads this tool into this system prompt. So to begin the conversation these two tools were not here. They're injected later in the conversation which I think is a really clever way to do it. So scrolling back down, we get that tool result for the first execute SQL tool. And then like I said, it runs the search tool again. This time selecting the list projects tool, which now loads this tool definition into the context. Now it actually calls the list projects tool. And if we look here, this is the normal tool response. So this is going to be all of the project IDs. And then if we scroll down now, it knows what project ids we have and then we'll run the actual query and then get back uh real data. Really quick, if you are enjoying this video, please drop a like as it helps out my small channel a lot. And let me know in the comments what other big issues do you have with Claude Code or what feature do you wish it really had? I'm really curious to hear you guys thoughts and I'll respond to all of the comments. So now I want to show you this in action. Let's hop back over to our cloud code session here. Remember we have enabled the search. So these are all loaded on demand and our context window is clear of any MCP tool definitions. Can you tell me about SPR89 and also see how many files we have in our superbase storage? Okay, so we see a couple of MCP tool searches here and one of them is to select the linear get project tool so it knows exactly what it wants to use there. Uh but the other one it's not sure. So it does a searchabase storage files. It loads the exact linear tool that I wanted to use. But for superbase, it sees a maybe related tool called get logs, but it doesn't see anything for actually looking at the storage that I have in Superbase. So, it realizes, hey, I need to actually just use the execute SQL tool. So that's an example where it wasn't sure what tool it needed and so it did a search to try to load more of the tool definitions and read more about potentially related tools. Finally, it just decides that it maybe it can execute SQL directly on the database and then find out what's in the storage. I won't go through the rest of this. Basically, it's just trying to figure out uh what the correct issue ID is and how to call this tool properly. It executes some SQL for superbase and eventually it is able to load S spr 89. So I guess I just gave it the wrong issue ID using voice but it figures it out and it's able to load the correct issue. So here it can see my linear issue and then it is able to eventually get the answer about the files I have in my superbase storage. So we've used a few tools. Now I want to now take a look at the context so we can compare it to what we saw in the trace earlier. Now you can see that there is a separate section for the MCP tools which were searched for and selected and are now loaded into the context. We now have 1.4,000 tokens taken up by these MCP tools that weren't there before. So, what happens as we continue this conversation and Claude calls more of these MCP tools? I'm going to ask it another question and this time I want to specifically ask about Sentry. So, it calls a different tool that's not already loaded. Do we have any recent Sentry errors? So, this time we should see another search tool called since it hasn't loaded this one. There it is. It selected the exact tool that it wants to use. And it looks like it had to load a second tool as well. So it needed to get the organization slug first. Now it's able to go ahead and call the tool and see what the issues are. And we got our final response. So we have four unresolved issues that are being tracked in Sentry. And now let's look at our context after calling a couple of additional tools from the Sentry server. We have two new tools, our two Sentry tools that are now loaded along with the other ones. As a session or conversation continues, any tool that has already been loaded stays loaded and MCP tool token usage has now gone up from, I think it was 1.8 before to 2.6,000 tokens. So, this accumulates over time. You can imagine if you're having a really long conversation with claude and it's calling a bunch of MCP tools. This is going to continue to grow over time. This context usage and I think it's worth exploring this design decision from anthropic. We saw that when an MCP search tool is called, we don't get back the schema in the tool result, just a reference that that tool was loaded. And the tool definition then gets permanently added to the tool list now just like how it worked before. And so that's why this list of loaded tools is going to accumulate longer and longer for longer conversations. And I think there's a few benefits to this design. One is that it already follows existing patterns. So it's putting the tool definition up top with the rest of the the system tools. So it's easy for cloud code to understand and it doesn't have to go looking for tool scholas in the conversation history. The second benefit of loading the tool schema this way and not as a tool result is it's going to have better attention from cloud code since we know that with long context windows things that are at the very beginning or at the very end of the context window tend to be remembered better. And typically the way cloud code uses tools is it will call the same tool multiple times. So if you think about the web search tool or different file system tools. So it makes sense to keep the loaded tool in context for the rest of the session because it's likely that that tool is going to be needed again and again. And then lastly, maybe not as important, but you can imagine if you had maybe a weaker model like sonnet or you have a really long conversation where at some point Claude called the search tool and then got back some tool schemas, but they're buried really deep in that long conversation history. And then, you know, for whatever reason, it decides to call the search tool again and get back the same tool schema. It's going to be less efficient overall for your context window to have the same tool schemas loaded multiple times. Now, what do you think is going to happen if we compact at this point? Obviously, this isn't a realistic situation. We still have a ton of free space, but let's say we had a really long working session. We have a ton of MCP tools loaded and it's time for us to compact this conversation. Let's see what happens to these loaded tools. run a compact and it should be relatively quick since it's a short conversation. Okay, so that finished. For some reason, it took like a minute and 20 seconds. I thought they fixed this, but there you go. Down here now shows that our token usage is zero. I'm going to now run context again. Notice that now we don't have any MCP tools loaded and no MCP tools taking up context. Now again, this is just a design decision that Anthropic made. They could have chose to leave those tools that were already loaded, assuming that you're continuing a session or conversation and task and you're probably going to be using the same tools. But I think this is actually a good way to do it where they're instead not going to assume that Claude is going to be using the same tools. they clear the full context so you get all of your context window back and now it'll proceed as normal. If Claude decides to use one of those tools, it'll just load it again. Now, everything else as far as how MCPs work with skills, with sub agents, etc., still works the same. So, if you have skills or sub aents, I'll just show you. Uh in this example I have this issue picker and I have specified that only these four tools are allowed. This is still respected. So everything else about the MCP tool permissions works the same. Finally, since so many of you did mention the Docker MCP toolkit, I wanted to show you how this works with that. So now let's connect the Docker MCP toolkit like before and see what that does to the MCP tools in the context. That should now be loaded. I'm going to start up a new claude and again I'm getting this warning about uh settings. So if we look in /d. So before we just had our regular list of MCPs and now you can see we have also MCP Docker with 89 tools taking up an additional 22,000 tokens. So we're two times over the limit. Now I'm going to go back and now take a look at our context. We have a lot of MCP tools. So this is taking a little while. Wow. 30 seconds in. I don't think it's ever taken me this long to run slashcontext. Okay, finally it's done. We have all of our MCPs, including all of the Docker MCPS. And voila. You could see that the lazy loading works for the Docker MCP toolkit as well, which makes sense. It's just loaded via the same way of defining it in the MCP.JSON. So, our context window is still clean of MCP servers. And this is a good example showing that you can have a mix of MCPs that you define yourself in your project level at your user level in MCP Docker toolkit and it's all going to work as expected. So that is everything I have to share for this video. I'm super excited with this new MCP search tool and the lazy loading of MCP servers. It's going to really improve the usage of MCPs and performance of agents like cloud code when using a ton of MCPs and really unlocks a lot if you think about it because we can expose our agents now to so many more tools and not have it impact the context window. From the testing that I've done, it seems to perform really well since it has that list of available MCP tools. It's great because it has an idea up front of what capabilities it has. And I think the only other thing that you could do if you want to improve the system even more is to add some usage patterns or use cases for the different MCP servers in your CloudMD or for example in skills and sub agents. But overall, I think this is a really awesome update from Anthropic. Let me know in the comments what you guys think about this update and new feature. That's going to do it for today's video. Thank you guys for watching. Like, subscribe, and I'll see you in the next one. [music] [music]",
+  "fetchedAt": "2026-01-18T18:33:57.918Z"
+}

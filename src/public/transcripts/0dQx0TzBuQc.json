@@ -1,0 +1,509 @@
+{
+  "videoId": "0dQx0TzBuQc",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.08,
+      "text": "The OSI models have been explained many,"
+    },
+    {
+      "start": 2.08,
+      "duration": 4.08,
+      "text": "many, many times in the past, but maybe"
+    },
+    {
+      "start": 4.16,
+      "duration": 3.679,
+      "text": "not with this level of clarity. The OSI"
+    },
+    {
+      "start": 6.16,
+      "duration": 3.519,
+      "text": "model is a networking model, and it has"
+    },
+    {
+      "start": 7.839,
+      "duration": 4.161,
+      "text": "seven layers, and we're going to trace"
+    },
+    {
+      "start": 9.679,
+      "duration": 4.321,
+      "text": "how an HTTP request travels through each"
+    },
+    {
+      "start": 12,
+      "duration": 3.36,
+      "text": "one. Think of it like a letter getting"
+    },
+    {
+      "start": 14,
+      "duration": 3.199,
+      "text": "wrapped in envelopes, each with"
+    },
+    {
+      "start": 15.36,
+      "duration": 3.6,
+      "text": "different information from your browser"
+    },
+    {
+      "start": 17.199,
+      "duration": 3.601,
+      "text": "to a web server and back. Let's see what"
+    },
+    {
+      "start": 18.96,
+      "duration": 4.159,
+      "text": "happens at each layer. Let's start with"
+    },
+    {
+      "start": 20.8,
+      "duration": 4.319,
+      "text": "our example. You're browsing example.com"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.681,
+      "text": "at layer 7. And your browser is going to"
+    },
+    {
+      "start": 25.119,
+      "duration": 3.361,
+      "text": "create an HTTP request called get"
+    },
+    {
+      "start": 26.8,
+      "duration": 3.36,
+      "text": "index.html."
+    },
+    {
+      "start": 28.48,
+      "duration": 4,
+      "text": "This is the actual data you want to"
+    },
+    {
+      "start": 30.16,
+      "duration": 3.76,
+      "text": "send, pure application stuff. It's like"
+    },
+    {
+      "start": 32.48,
+      "duration": 4.64,
+      "text": "writing a letter saying, \"Please send me"
+    },
+    {
+      "start": 33.92,
+      "duration": 4.56,
+      "text": "the homepage.\" Now, layer six steps in."
+    },
+    {
+      "start": 37.12,
+      "duration": 2.64,
+      "text": "This layer is responsible for things"
+    },
+    {
+      "start": 38.48,
+      "duration": 2.48,
+      "text": "like formatting, compression, and"
+    },
+    {
+      "start": 39.76,
+      "duration": 2.88,
+      "text": "character encoding. And it's like"
+    },
+    {
+      "start": 40.96,
+      "duration": 4,
+      "text": "putting your letter inside of a lock box"
+    },
+    {
+      "start": 42.64,
+      "duration": 4.239,
+      "text": "before it goes out. Layer five of the"
+    },
+    {
+      "start": 44.96,
+      "duration": 4,
+      "text": "OSI model is about the idea of"
+    },
+    {
+      "start": 46.879,
+      "duration": 3.68,
+      "text": "maintaining a session, an ongoing"
+    },
+    {
+      "start": 48.96,
+      "duration": 3.279,
+      "text": "conversation between your computer and"
+    },
+    {
+      "start": 50.559,
+      "duration": 3.121,
+      "text": "the server you're talking to. Think of"
+    },
+    {
+      "start": 52.239,
+      "duration": 2.721,
+      "text": "it like making the sure the person"
+    },
+    {
+      "start": 53.68,
+      "duration": 3.519,
+      "text": "you're talking to doesn't suddenly"
+    },
+    {
+      "start": 54.96,
+      "duration": 4.239,
+      "text": "forget who you are. Now we get to the"
+    },
+    {
+      "start": 57.199,
+      "duration": 4.081,
+      "text": "networking layers. Layer four is going"
+    },
+    {
+      "start": 59.199,
+      "duration": 4,
+      "text": "to wrap everything in TCP for reliable"
+    },
+    {
+      "start": 61.28,
+      "duration": 4.48,
+      "text": "delivery. It may add source ports like"
+    },
+    {
+      "start": 63.199,
+      "duration": 5.201,
+      "text": "54321 and destination port of 443 for"
+    },
+    {
+      "start": 65.76,
+      "duration": 3.92,
+      "text": "HTTPS and some sequence numbers. So it"
+    },
+    {
+      "start": 68.4,
+      "duration": 3.36,
+      "text": "basically sets ports and sequence"
+    },
+    {
+      "start": 69.68,
+      "duration": 3.28,
+      "text": "numbers. Layer three is going to add IP"
+    },
+    {
+      "start": 71.76,
+      "duration": 3.039,
+      "text": "routing information. So this is going to"
+    },
+    {
+      "start": 72.96,
+      "duration": 4.799,
+      "text": "be your IP address, the server's IP"
+    },
+    {
+      "start": 74.799,
+      "duration": 5.121,
+      "text": "address. Let's say it's 192.168.100"
+    },
+    {
+      "start": 77.759,
+      "duration": 5.121,
+      "text": "on your internal network and perhaps"
+    },
+    {
+      "start": 79.92,
+      "duration": 5.04,
+      "text": "93.184.26.34 216.34"
+    },
+    {
+      "start": 82.88,
+      "duration": 3.36,
+      "text": "for your server network like the IP"
+    },
+    {
+      "start": 84.96,
+      "duration": 3.04,
+      "text": "address that you're talking to. Layer"
+    },
+    {
+      "start": 86.24,
+      "duration": 3.44,
+      "text": "two adds MAC addressing and that's"
+    },
+    {
+      "start": 88,
+      "duration": 4.32,
+      "text": "mainly for local network, local Ethernet"
+    },
+    {
+      "start": 89.68,
+      "duration": 4.32,
+      "text": "connectivity. Finally, layer 1 is the"
+    },
+    {
+      "start": 92.32,
+      "duration": 3.28,
+      "text": "layer that actually converts everything"
+    },
+    {
+      "start": 94,
+      "duration": 3.2,
+      "text": "from electrical signals that travel"
+    },
+    {
+      "start": 95.6,
+      "duration": 4.08,
+      "text": "through your Ethernet or network cable"
+    },
+    {
+      "start": 97.2,
+      "duration": 4.4,
+      "text": "or the Wi-Fi radio waves. Now, your your"
+    },
+    {
+      "start": 99.68,
+      "duration": 3.68,
+      "text": "packet your network packet for from the"
+    },
+    {
+      "start": 101.6,
+      "duration": 3.44,
+      "text": "OSI model is like a Russian nesting"
+    },
+    {
+      "start": 103.36,
+      "duration": 3.759,
+      "text": "doll. Each layer is kind of wrapped"
+    },
+    {
+      "start": 105.04,
+      "duration": 4.24,
+      "text": "inside the next and as it travels across"
+    },
+    {
+      "start": 107.119,
+      "duration": 4,
+      "text": "the internet through routers that read"
+    },
+    {
+      "start": 109.28,
+      "duration": 3.519,
+      "text": "layer three switches that read layer two"
+    },
+    {
+      "start": 111.119,
+      "duration": 3.841,
+      "text": "and it finally reaches the web server."
+    },
+    {
+      "start": 112.799,
+      "duration": 4.161,
+      "text": "Now the web server receives your packet"
+    },
+    {
+      "start": 114.96,
+      "duration": 3.439,
+      "text": "and processes it in reverse order just"
+    },
+    {
+      "start": 116.96,
+      "duration": 3.519,
+      "text": "like unwrapping all of those little"
+    },
+    {
+      "start": 118.399,
+      "duration": 3.76,
+      "text": "nesting dolls. So layer 1 converts"
+    },
+    {
+      "start": 120.479,
+      "duration": 2.801,
+      "text": "electrical signals back to data. Layer"
+    },
+    {
+      "start": 122.159,
+      "duration": 2.32,
+      "text": "two is going to look at the MAC headers."
+    },
+    {
+      "start": 123.28,
+      "duration": 3.199,
+      "text": "Layer three is going to look at the IP"
+    },
+    {
+      "start": 124.479,
+      "duration": 4.161,
+      "text": "headers. Layer four is going to look at"
+    },
+    {
+      "start": 126.479,
+      "duration": 4,
+      "text": "the TCP headers. Layer five is going to"
+    },
+    {
+      "start": 128.64,
+      "duration": 3.52,
+      "text": "look at the session. Layer six is going"
+    },
+    {
+      "start": 130.479,
+      "duration": 3.201,
+      "text": "to handle decryption and formatting. And"
+    },
+    {
+      "start": 132.16,
+      "duration": 2.719,
+      "text": "finally, the highest layer, layer seven,"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.04,
+      "text": "the application layer, it's going to"
+    },
+    {
+      "start": 134.879,
+      "duration": 2.961,
+      "text": "process your HTTP request and then it's"
+    },
+    {
+      "start": 136.72,
+      "duration": 2.8,
+      "text": "going to send back the web page"
+    },
+    {
+      "start": 137.84,
+      "duration": 2.88,
+      "text": "following the exact same path. So the"
+    },
+    {
+      "start": 139.52,
+      "duration": 2.96,
+      "text": "response is going to follow the same"
+    },
+    {
+      "start": 140.72,
+      "duration": 3.2,
+      "text": "seven layer journey back to your browser"
+    },
+    {
+      "start": 142.48,
+      "duration": 2.88,
+      "text": "where it's process also in a reverse"
+    },
+    {
+      "start": 143.92,
+      "duration": 2.56,
+      "text": "order. And this layered approach is"
+    },
+    {
+      "start": 145.36,
+      "duration": 2.32,
+      "text": "actually pretty clever. So your like"
+    },
+    {
+      "start": 146.48,
+      "duration": 3.28,
+      "text": "Wi-Fi router for example is going to"
+    },
+    {
+      "start": 147.68,
+      "duration": 3.199,
+      "text": "handle layers 1 through two. Your ISP is"
+    },
+    {
+      "start": 149.76,
+      "duration": 2.32,
+      "text": "going to handle layer three. Your brand"
+    },
+    {
+      "start": 150.879,
+      "duration": 3.121,
+      "text": "your browser is going to handle layers"
+    },
+    {
+      "start": 152.08,
+      "duration": 3.6,
+      "text": "four through 7. So each layer can be"
+    },
+    {
+      "start": 154,
+      "duration": 3.36,
+      "text": "optimized independently but still have"
+    },
+    {
+      "start": 155.68,
+      "duration": 3.36,
+      "text": "interoperability so that they can work"
+    },
+    {
+      "start": 157.36,
+      "duration": 3.12,
+      "text": "together. Understanding this layered"
+    },
+    {
+      "start": 159.04,
+      "duration": 2.72,
+      "text": "approach is super important for system"
+    },
+    {
+      "start": 160.48,
+      "duration": 2.8,
+      "text": "design because for example, load"
+    },
+    {
+      "start": 161.76,
+      "duration": 2.96,
+      "text": "balancers operate at different layers."
+    },
+    {
+      "start": 163.28,
+      "duration": 3.36,
+      "text": "Some operate at layer four for fast"
+    },
+    {
+      "start": 164.72,
+      "duration": 3.2,
+      "text": "packet forwarding, others at layer 7 so"
+    },
+    {
+      "start": 166.64,
+      "duration": 3.36,
+      "text": "they can do intelligent application"
+    },
+    {
+      "start": 167.92,
+      "duration": 4.399,
+      "text": "routing. But firewalls can block layer"
+    },
+    {
+      "start": 170,
+      "duration": 3.68,
+      "text": "3, layer four, layer 7, and each layer"
+    },
+    {
+      "start": 172.319,
+      "duration": 2.961,
+      "text": "provides specific services that"
+    },
+    {
+      "start": 173.68,
+      "duration": 3.199,
+      "text": "basically enable the layers above it to"
+    },
+    {
+      "start": 175.28,
+      "duration": 5.28,
+      "text": "function. So, we'll explore how load"
+    },
+    {
+      "start": 176.879,
+      "duration": 3.681,
+      "text": "balancers use these layers in another"
+    }
+  ],
+  "fullText": "The OSI models have been explained many, many, many times in the past, but maybe not with this level of clarity. The OSI model is a networking model, and it has seven layers, and we're going to trace how an HTTP request travels through each one. Think of it like a letter getting wrapped in envelopes, each with different information from your browser to a web server and back. Let's see what happens at each layer. Let's start with our example. You're browsing example.com at layer 7. And your browser is going to create an HTTP request called get index.html. This is the actual data you want to send, pure application stuff. It's like writing a letter saying, \"Please send me the homepage.\" Now, layer six steps in. This layer is responsible for things like formatting, compression, and character encoding. And it's like putting your letter inside of a lock box before it goes out. Layer five of the OSI model is about the idea of maintaining a session, an ongoing conversation between your computer and the server you're talking to. Think of it like making the sure the person you're talking to doesn't suddenly forget who you are. Now we get to the networking layers. Layer four is going to wrap everything in TCP for reliable delivery. It may add source ports like 54321 and destination port of 443 for HTTPS and some sequence numbers. So it basically sets ports and sequence numbers. Layer three is going to add IP routing information. So this is going to be your IP address, the server's IP address. Let's say it's 192.168.100 on your internal network and perhaps 93.184.26.34 216.34 for your server network like the IP address that you're talking to. Layer two adds MAC addressing and that's mainly for local network, local Ethernet connectivity. Finally, layer 1 is the layer that actually converts everything from electrical signals that travel through your Ethernet or network cable or the Wi-Fi radio waves. Now, your your packet your network packet for from the OSI model is like a Russian nesting doll. Each layer is kind of wrapped inside the next and as it travels across the internet through routers that read layer three switches that read layer two and it finally reaches the web server. Now the web server receives your packet and processes it in reverse order just like unwrapping all of those little nesting dolls. So layer 1 converts electrical signals back to data. Layer two is going to look at the MAC headers. Layer three is going to look at the IP headers. Layer four is going to look at the TCP headers. Layer five is going to look at the session. Layer six is going to handle decryption and formatting. And finally, the highest layer, layer seven, the application layer, it's going to process your HTTP request and then it's going to send back the web page following the exact same path. So the response is going to follow the same seven layer journey back to your browser where it's process also in a reverse order. And this layered approach is actually pretty clever. So your like Wi-Fi router for example is going to handle layers 1 through two. Your ISP is going to handle layer three. Your brand your browser is going to handle layers four through 7. So each layer can be optimized independently but still have interoperability so that they can work together. Understanding this layered approach is super important for system design because for example, load balancers operate at different layers. Some operate at layer four for fast packet forwarding, others at layer 7 so they can do intelligent application routing. But firewalls can block layer 3, layer four, layer 7, and each layer provides specific services that basically enable the layers above it to function. So, we'll explore how load balancers use these layers in another",
+  "fetchedAt": "2026-01-21T22:45:57.822Z"
+}

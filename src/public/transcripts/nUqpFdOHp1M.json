@@ -1,0 +1,1299 @@
+{
+  "videoId": "nUqpFdOHp1M",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 5.68,
+      "text": "This month, December 2025,"
+    },
+    {
+      "start": 3.679,
+      "duration": 4.401,
+      "text": "the research team at Deepseek AI"
+    },
+    {
+      "start": 6,
+      "duration": 5.44,
+      "text": "released a revolutionary paper titled"
+    },
+    {
+      "start": 8.08,
+      "duration": 5.679,
+      "text": "Deepseek V 3.2, pushing the frontier of"
+    },
+    {
+      "start": 11.44,
+      "duration": 4.64,
+      "text": "open large language models. This is not"
+    },
+    {
+      "start": 13.759,
+      "duration": 4.561,
+      "text": "just another incremental update. We are"
+    },
+    {
+      "start": 16.08,
+      "duration": 4.4,
+      "text": "looking at a pivotal moment where"
+    },
+    {
+      "start": 18.32,
+      "duration": 5.119,
+      "text": "open-source architecture is"
+    },
+    {
+      "start": 20.48,
+      "duration": 6,
+      "text": "fundamentally changing how it handles"
+    },
+    {
+      "start": 23.439,
+      "duration": 6,
+      "text": "long contexts and complex reasoning to"
+    },
+    {
+      "start": 26.48,
+      "duration": 8,
+      "text": "finally catch up with proprietary giants"
+    },
+    {
+      "start": 29.439,
+      "duration": 7.201,
+      "text": "like Gemini 3.0 Pro and GPT five. If you"
+    },
+    {
+      "start": 34.48,
+      "duration": 4.32,
+      "text": "are a developer or a machine learning"
+    },
+    {
+      "start": 36.64,
+      "duration": 4.8,
+      "text": "engineer, you need to understand the"
+    },
+    {
+      "start": 38.8,
+      "duration": 4.96,
+      "text": "mechanics inside this paper because it"
+    },
+    {
+      "start": 41.44,
+      "duration": 4.56,
+      "text": "introduces a new attention mechanism"
+    },
+    {
+      "start": 43.76,
+      "duration": 4.639,
+      "text": "that destroys the traditional quadratic"
+    },
+    {
+      "start": 46,
+      "duration": 4.64,
+      "text": "complexity barrier and it provides a"
+    },
+    {
+      "start": 48.399,
+      "duration": 4.64,
+      "text": "blueprint for how to train agents that"
+    },
+    {
+      "start": 50.64,
+      "duration": 4.88,
+      "text": "actually work in the real world. Let us"
+    },
+    {
+      "start": 53.039,
+      "duration": 5.601,
+      "text": "get straight into the problem. For the"
+    },
+    {
+      "start": 55.52,
+      "duration": 5.28,
+      "text": "last few months of 2025,"
+    },
+    {
+      "start": 58.64,
+      "duration": 4.16,
+      "text": "we have seen a widening gap. While"
+    },
+    {
+      "start": 60.8,
+      "duration": 4.8,
+      "text": "proprietary models from Google and"
+    },
+    {
+      "start": 62.8,
+      "duration": 4.72,
+      "text": "OpenAI have accelerated, open- source"
+    },
+    {
+      "start": 65.6,
+      "duration": 4.96,
+      "text": "models have struggled with three"
+    },
+    {
+      "start": 67.52,
+      "duration": 4.959,
+      "text": "specific deficiencies. First, they rely"
+    },
+    {
+      "start": 70.56,
+      "duration": 3.44,
+      "text": "on what we call vanilla attention"
+    },
+    {
+      "start": 72.479,
+      "duration": 4.081,
+      "text": "mechanisms."
+    },
+    {
+      "start": 74,
+      "duration": 4.72,
+      "text": "In technical terms, the computational"
+    },
+    {
+      "start": 76.56,
+      "duration": 5.84,
+      "text": "complexity of standard attention is"
+    },
+    {
+      "start": 78.72,
+      "duration": 5.759,
+      "text": "quadratic or big O of L squ relative to"
+    },
+    {
+      "start": 82.4,
+      "duration": 4.56,
+      "text": "the sequence length. This means that as"
+    },
+    {
+      "start": 84.479,
+      "duration": 5.361,
+      "text": "you increase the context window to"
+    },
+    {
+      "start": 86.96,
+      "duration": 5.36,
+      "text": "128,000 tokens or more, the cost to"
+    },
+    {
+      "start": 89.84,
+      "duration": 5.44,
+      "text": "process that data skyrockets, making it"
+    },
+    {
+      "start": 92.32,
+      "duration": 5.92,
+      "text": "inefficient for deployment and extremely"
+    },
+    {
+      "start": 95.28,
+      "duration": 5.12,
+      "text": "expensive for post-training. Second,"
+    },
+    {
+      "start": 98.24,
+      "duration": 4.8,
+      "text": "open models simply do not think long"
+    },
+    {
+      "start": 100.4,
+      "duration": 4.96,
+      "text": "enough. They suffer from insufficient"
+    },
+    {
+      "start": 103.04,
+      "duration": 4.399,
+      "text": "computational investment during the"
+    },
+    {
+      "start": 105.36,
+      "duration": 4.48,
+      "text": "post-training phase, limiting their"
+    },
+    {
+      "start": 107.439,
+      "duration": 5.521,
+      "text": "ability to solve hard math or coding"
+    },
+    {
+      "start": 109.84,
+      "duration": 5.68,
+      "text": "problems. And third, they are terrible"
+    },
+    {
+      "start": 112.96,
+      "duration": 5.04,
+      "text": "at being agents. They struggle to follow"
+    },
+    {
+      "start": 115.52,
+      "duration": 4.639,
+      "text": "instructions when using tools in complex"
+    },
+    {
+      "start": 118,
+      "duration": 4.56,
+      "text": "multi-step environments. The paper"
+    },
+    {
+      "start": 120.159,
+      "duration": 4.401,
+      "text": "explicitly states that open- source"
+    },
+    {
+      "start": 122.56,
+      "duration": 4.48,
+      "text": "models demonstrate a marked lag in"
+    },
+    {
+      "start": 124.56,
+      "duration": 5.6,
+      "text": "generalization compared to closed source"
+    },
+    {
+      "start": 127.04,
+      "duration": 6.08,
+      "text": "systems. The solution presented in deepb"
+    },
+    {
+      "start": 130.16,
+      "duration": 4.64,
+      "text": "3.2 addresses these exact pain points"
+    },
+    {
+      "start": 133.12,
+      "duration": 3.68,
+      "text": "with three massive technical"
+    },
+    {
+      "start": 134.8,
+      "duration": 4.48,
+      "text": "breakthroughs. The first and most"
+    },
+    {
+      "start": 136.8,
+      "duration": 4.96,
+      "text": "significant architectural change is"
+    },
+    {
+      "start": 139.28,
+      "duration": 5.92,
+      "text": "something they call deepseek sparse"
+    },
+    {
+      "start": 141.76,
+      "duration": 5.52,
+      "text": "attention or DSA. This is a gamecher for"
+    },
+    {
+      "start": 145.2,
+      "duration": 4.08,
+      "text": "efficiency. Instead of the model"
+    },
+    {
+      "start": 147.28,
+      "duration": 4.319,
+      "text": "attending to every single token in the"
+    },
+    {
+      "start": 149.28,
+      "duration": 4.959,
+      "text": "history for every query which is the"
+    },
+    {
+      "start": 151.599,
+      "duration": 5.841,
+      "text": "standard dense attention method, DSA"
+    },
+    {
+      "start": 154.239,
+      "duration": 5.36,
+      "text": "introduces a two-stage process. First,"
+    },
+    {
+      "start": 157.44,
+      "duration": 4.96,
+      "text": "it uses a component called a lightning"
+    },
+    {
+      "start": 159.599,
+      "duration": 4.801,
+      "text": "indexer. This indexer rapidly computes a"
+    },
+    {
+      "start": 162.4,
+      "duration": 4.479,
+      "text": "coarse grain score between the current"
+    },
+    {
+      "start": 164.4,
+      "duration": 4.559,
+      "text": "query token and preceding tokens to"
+    },
+    {
+      "start": 166.879,
+      "duration": 4.881,
+      "text": "determine which parts of the history are"
+    },
+    {
+      "start": 168.959,
+      "duration": 5.28,
+      "text": "actually relevant. It uses a rectified"
+    },
+    {
+      "start": 171.76,
+      "duration": 5.36,
+      "text": "linear unit activation function for high"
+    },
+    {
+      "start": 174.239,
+      "duration": 5.681,
+      "text": "throughput. Once the indexer identifies"
+    },
+    {
+      "start": 177.12,
+      "duration": 5.36,
+      "text": "the relevant regions, the model performs"
+    },
+    {
+      "start": 179.92,
+      "duration": 4.56,
+      "text": "a fine grained token selection. It"
+    },
+    {
+      "start": 182.48,
+      "duration": 4.24,
+      "text": "retrieves only the top K key value"
+    },
+    {
+      "start": 184.48,
+      "duration": 4.399,
+      "text": "entries that matter. This reduces the"
+    },
+    {
+      "start": 186.72,
+      "duration": 6.08,
+      "text": "core attention complexity from quadratic"
+    },
+    {
+      "start": 188.879,
+      "duration": 5.681,
+      "text": "to linear or big O of L multiplied by K"
+    },
+    {
+      "start": 192.8,
+      "duration": 4.48,
+      "text": "where K is the number of selected"
+    },
+    {
+      "start": 194.56,
+      "duration": 4.959,
+      "text": "tokens. This allows the model to handle"
+    },
+    {
+      "start": 197.28,
+      "duration": 4.56,
+      "text": "massive contexts without the massive"
+    },
+    {
+      "start": 199.519,
+      "duration": 4.241,
+      "text": "computational penalty effectively"
+    },
+    {
+      "start": 201.84,
+      "duration": 4.399,
+      "text": "breaking the efficiency bottleneck that"
+    },
+    {
+      "start": 203.76,
+      "duration": 4.88,
+      "text": "has held back open models. The second"
+    },
+    {
+      "start": 206.239,
+      "duration": 5.121,
+      "text": "breakthrough is a scalable reinforcement"
+    },
+    {
+      "start": 208.64,
+      "duration": 5.599,
+      "text": "learning framework. The researchers"
+    },
+    {
+      "start": 211.36,
+      "duration": 4.879,
+      "text": "realized that to beat GPT5, they needed"
+    },
+    {
+      "start": 214.239,
+      "duration": 4.481,
+      "text": "to scale up the compute used during the"
+    },
+    {
+      "start": 216.239,
+      "duration": 4.401,
+      "text": "post training phase. They allocated a"
+    },
+    {
+      "start": 218.72,
+      "duration": 4.48,
+      "text": "budget for reinforcement learning that"
+    },
+    {
+      "start": 220.64,
+      "duration": 4.239,
+      "text": "exceeds 10% of the entire pre-training"
+    },
+    {
+      "start": 223.2,
+      "duration": 4,
+      "text": "cost. That is a massive amount of"
+    },
+    {
+      "start": 224.879,
+      "duration": 4.64,
+      "text": "compute dedicated solely to teaching the"
+    },
+    {
+      "start": 227.2,
+      "duration": 4.24,
+      "text": "model how to think after it has already"
+    },
+    {
+      "start": 229.519,
+      "duration": 4.881,
+      "text": "learned the language. But scaling"
+    },
+    {
+      "start": 231.44,
+      "duration": 4.719,
+      "text": "reinforcement learning is unstable. To"
+    },
+    {
+      "start": 234.4,
+      "duration": 4.16,
+      "text": "fix this, they improved the group"
+    },
+    {
+      "start": 236.159,
+      "duration": 5.521,
+      "text": "relative policy optimization algorithm"
+    },
+    {
+      "start": 238.56,
+      "duration": 5.44,
+      "text": "or GRPO. Specifically, they addressed a"
+    },
+    {
+      "start": 241.68,
+      "duration": 4.24,
+      "text": "flaw in the standard K3 estimator used"
+    },
+    {
+      "start": 244,
+      "duration": 3.92,
+      "text": "for calculating the Koolback labler"
+    },
+    {
+      "start": 245.92,
+      "duration": 4.239,
+      "text": "divergence. The standard estimator"
+    },
+    {
+      "start": 247.92,
+      "duration": 4.16,
+      "text": "produces biased gradients when the model"
+    },
+    {
+      "start": 250.159,
+      "duration": 4.08,
+      "text": "samples tokens that have very low"
+    },
+    {
+      "start": 252.08,
+      "duration": 4.719,
+      "text": "probabilities in the reference policy"
+    },
+    {
+      "start": 254.239,
+      "duration": 4.96,
+      "text": "leading to unstable training. Deepseek"
+    },
+    {
+      "start": 256.799,
+      "duration": 4.881,
+      "text": "introduced an unbiased Kulbach labler"
+    },
+    {
+      "start": 259.199,
+      "duration": 4.801,
+      "text": "estimate that uses important sampling"
+    },
+    {
+      "start": 261.68,
+      "duration": 5.12,
+      "text": "ratios to eliminate these systematic"
+    },
+    {
+      "start": 264,
+      "duration": 5.04,
+      "text": "errors. They also implemented off policy"
+    },
+    {
+      "start": 266.8,
+      "duration": 4,
+      "text": "sequence masking which prevents the"
+    },
+    {
+      "start": 269.04,
+      "duration": 4.24,
+      "text": "model from learning from negative"
+    },
+    {
+      "start": 270.8,
+      "duration": 4.48,
+      "text": "samples that are too divergent from the"
+    },
+    {
+      "start": 273.28,
+      "duration": 4.4,
+      "text": "current policy. This stabilizes the"
+    },
+    {
+      "start": 275.28,
+      "duration": 4.56,
+      "text": "training process allowing them to pump"
+    },
+    {
+      "start": 277.68,
+      "duration": 4.079,
+      "text": "significantly more compute into the"
+    },
+    {
+      "start": 279.84,
+      "duration": 3.919,
+      "text": "reasoning phase without the model"
+    },
+    {
+      "start": 281.759,
+      "duration": 4.561,
+      "text": "collapsing. The third pillar of this"
+    },
+    {
+      "start": 283.759,
+      "duration": 4.72,
+      "text": "solution is the largecale agentic task"
+    },
+    {
+      "start": 286.32,
+      "duration": 5.04,
+      "text": "synthesis pipeline. We know that"
+    },
+    {
+      "start": 288.479,
+      "duration": 5.121,
+      "text": "reasoning data is scarce, but agentic"
+    },
+    {
+      "start": 291.36,
+      "duration": 4.72,
+      "text": "data where a model uses tools to solve"
+    },
+    {
+      "start": 293.6,
+      "duration": 4.24,
+      "text": "problems is even scarcer. Deepseek"
+    },
+    {
+      "start": 296.08,
+      "duration": 4.32,
+      "text": "solved this by building a factory for"
+    },
+    {
+      "start": 297.84,
+      "duration": 4.079,
+      "text": "synthetic data. They generated over"
+    },
+    {
+      "start": 300.4,
+      "duration": 5.2,
+      "text": "1,800"
+    },
+    {
+      "start": 301.919,
+      "duration": 6,
+      "text": "distinct virtual environments and 85,000"
+    },
+    {
+      "start": 305.6,
+      "duration": 4.96,
+      "text": "complex prompts. They used a technique"
+    },
+    {
+      "start": 307.919,
+      "duration": 4.961,
+      "text": "called cold start where they take a"
+    },
+    {
+      "start": 310.56,
+      "duration": 4.96,
+      "text": "strong reasoning model and prompt it to"
+    },
+    {
+      "start": 312.88,
+      "duration": 5.44,
+      "text": "wrap its thought process in thinking tax"
+    },
+    {
+      "start": 315.52,
+      "duration": 5.119,
+      "text": "and its tool usage in specific formats."
+    },
+    {
+      "start": 318.32,
+      "duration": 5.52,
+      "text": "This creates a unified trajectory where"
+    },
+    {
+      "start": 320.639,
+      "duration": 5.441,
+      "text": "the model thinks, calls a tool, observes"
+    },
+    {
+      "start": 323.84,
+      "duration": 4.32,
+      "text": "the output, and thinks again. By"
+    },
+    {
+      "start": 326.08,
+      "duration": 4.8,
+      "text": "training on this massive corpus of"
+    },
+    {
+      "start": 328.16,
+      "duration": 5.36,
+      "text": "synthetic agent tasks, the model learned"
+    },
+    {
+      "start": 330.88,
+      "duration": 5.28,
+      "text": "to generalize tool use to domains it had"
+    },
+    {
+      "start": 333.52,
+      "duration": 5.84,
+      "text": "never seen before. Now let us look at"
+    },
+    {
+      "start": 336.16,
+      "duration": 4.96,
+      "text": "the evidence. Does this actually work?"
+    },
+    {
+      "start": 339.36,
+      "duration": 4.08,
+      "text": "The benchmarks in the paper are"
+    },
+    {
+      "start": 341.12,
+      "duration": 5.28,
+      "text": "staggering. The team trained a high"
+    },
+    {
+      "start": 343.44,
+      "duration": 6.16,
+      "text": "compute variant called DeepSc V 3.2"
+    },
+    {
+      "start": 346.4,
+      "duration": 6.079,
+      "text": "Special. This model achieves gold medal"
+    },
+    {
+      "start": 349.6,
+      "duration": 5.36,
+      "text": "performance in the 2025"
+    },
+    {
+      "start": 352.479,
+      "duration": 3.841,
+      "text": "International Mathematical Olympiad and"
+    },
+    {
+      "start": 354.96,
+      "duration": 3.519,
+      "text": "the International Olympiad in"
+    },
+    {
+      "start": 356.32,
+      "duration": 6.64,
+      "text": "Informatics. In the code forces"
+    },
+    {
+      "start": 358.479,
+      "duration": 6.16,
+      "text": "benchmark, it achieved a rating of 271,"
+    },
+    {
+      "start": 362.96,
+      "duration": 3.76,
+      "text": "beating the previous open-source"
+    },
+    {
+      "start": 364.639,
+      "duration": 5.441,
+      "text": "leaders. When compared against the"
+    },
+    {
+      "start": 366.72,
+      "duration": 7.039,
+      "text": "titans of the industry, Deep Sigv 3.2"
+    },
+    {
+      "start": 370.08,
+      "duration": 6,
+      "text": "Special outperforms GPT5 on multiple"
+    },
+    {
+      "start": 373.759,
+      "duration": 4.641,
+      "text": "reasoning benchmarks and exhibits"
+    },
+    {
+      "start": 376.08,
+      "duration": 5.92,
+      "text": "reasoning proficiency on par with"
+    },
+    {
+      "start": 378.4,
+      "duration": 6.639,
+      "text": "Google's Gemini 3.0 Pro. In the domain"
+    },
+    {
+      "start": 382,
+      "duration": 5.199,
+      "text": "of agentic tasks, specifically on the SU"
+    },
+    {
+      "start": 385.039,
+      "duration": 4.561,
+      "text": "verified benchmark, which tests software"
+    },
+    {
+      "start": 387.199,
+      "duration": 5.44,
+      "text": "engineering capabilities, the model"
+    },
+    {
+      "start": 389.6,
+      "duration": 5.039,
+      "text": "achieved a score of 73.1%,"
+    },
+    {
+      "start": 392.639,
+      "duration": 4.161,
+      "text": "effectively narrowing the gap with"
+    },
+    {
+      "start": 394.639,
+      "duration": 4.881,
+      "text": "frontier proprietary models while"
+    },
+    {
+      "start": 396.8,
+      "duration": 5.2,
+      "text": "costing substantially less to run. The"
+    },
+    {
+      "start": 399.52,
+      "duration": 4.799,
+      "text": "impact of this research is primarily on"
+    },
+    {
+      "start": 402,
+      "duration": 4.24,
+      "text": "cost efficiency and accessibility. By"
+    },
+    {
+      "start": 404.319,
+      "duration": 4.641,
+      "text": "reducing the attention complexity to"
+    },
+    {
+      "start": 406.24,
+      "duration": 5.679,
+      "text": "linear time for long contexts, Deepseek"
+    },
+    {
+      "start": 408.96,
+      "duration": 5.6,
+      "text": "V3 3.2 2 allows for significantly faster"
+    },
+    {
+      "start": 411.919,
+      "duration": 4.961,
+      "text": "inference and lower deployment costs."
+    },
+    {
+      "start": 414.56,
+      "duration": 4.88,
+      "text": "The paper includes a graph showing that"
+    },
+    {
+      "start": 416.88,
+      "duration": 5.28,
+      "text": "for decoding tasks, the cost per million"
+    },
+    {
+      "start": 419.44,
+      "duration": 4.879,
+      "text": "tokens remains almost flat as the"
+    },
+    {
+      "start": 422.16,
+      "duration": 4,
+      "text": "sequence length increases, whereas for"
+    },
+    {
+      "start": 424.319,
+      "duration": 4.561,
+      "text": "the previous version, it scaled"
+    },
+    {
+      "start": 426.16,
+      "duration": 5.12,
+      "text": "linearly. This means developers can now"
+    },
+    {
+      "start": 428.88,
+      "duration": 5.2,
+      "text": "run agents that maintain massive history"
+    },
+    {
+      "start": 431.28,
+      "duration": 4.72,
+      "text": "logs like entire code bases or long"
+    },
+    {
+      "start": 434.08,
+      "duration": 4.8,
+      "text": "conversation histories without"
+    },
+    {
+      "start": 436,
+      "duration": 4.4,
+      "text": "bankruptcy. Furthermore, by proving that"
+    },
+    {
+      "start": 438.88,
+      "duration": 3.84,
+      "text": "synthetic data can train"
+    },
+    {
+      "start": 440.4,
+      "duration": 4.799,
+      "text": "state-of-the-art agents, they have"
+    },
+    {
+      "start": 442.72,
+      "duration": 5.12,
+      "text": "democratized the creation of specialized"
+    },
+    {
+      "start": 445.199,
+      "duration": 5.361,
+      "text": "agent models. You do not need millions"
+    },
+    {
+      "start": 447.84,
+      "duration": 5.919,
+      "text": "of human annotated logs. You need a"
+    },
+    {
+      "start": 450.56,
+      "duration": 5.44,
+      "text": "smart synthesis pipeline. So, here is"
+    },
+    {
+      "start": 453.759,
+      "duration": 4.961,
+      "text": "your developer blueprint. How do you"
+    },
+    {
+      "start": 456,
+      "duration": 4.56,
+      "text": "apply this to your work today? First, if"
+    },
+    {
+      "start": 458.72,
+      "duration": 3.84,
+      "text": "you are building applications that"
+    },
+    {
+      "start": 460.56,
+      "duration": 4.32,
+      "text": "require processing long documents or"
+    },
+    {
+      "start": 462.56,
+      "duration": 4.639,
+      "text": "history, look for implementations of"
+    },
+    {
+      "start": 464.88,
+      "duration": 4.48,
+      "text": "sparse attention. The deepseek sparse"
+    },
+    {
+      "start": 467.199,
+      "duration": 4.081,
+      "text": "attention mechanism proves that you do"
+    },
+    {
+      "start": 469.36,
+      "duration": 4,
+      "text": "not need full context awareness for"
+    },
+    {
+      "start": 471.28,
+      "duration": 4.4,
+      "text": "every token. If you are fine-tuning your"
+    },
+    {
+      "start": 473.36,
+      "duration": 4.88,
+      "text": "own models, consider implementing the"
+    },
+    {
+      "start": 475.68,
+      "duration": 4.56,
+      "text": "lightning indexer concept. Filter your"
+    },
+    {
+      "start": 478.24,
+      "duration": 4.639,
+      "text": "context before feeding it to the heavy"
+    },
+    {
+      "start": 480.24,
+      "duration": 4.959,
+      "text": "attention layers. Second, regarding"
+    },
+    {
+      "start": 482.879,
+      "duration": 4.641,
+      "text": "agents, the paper offers a critical"
+    },
+    {
+      "start": 485.199,
+      "duration": 4.4,
+      "text": "lesson in context management. When an"
+    },
+    {
+      "start": 487.52,
+      "duration": 4.399,
+      "text": "agent enters a loop of thinking and"
+    },
+    {
+      "start": 489.599,
+      "duration": 4.72,
+      "text": "acting, the context window fills up"
+    },
+    {
+      "start": 491.919,
+      "duration": 4.72,
+      "text": "fast. Deepseek proposes distinct"
+    },
+    {
+      "start": 494.319,
+      "duration": 4.641,
+      "text": "strategies to handle this. They found"
+    },
+    {
+      "start": 496.639,
+      "duration": 4,
+      "text": "that for tool use scenarios, you can"
+    },
+    {
+      "start": 498.96,
+      "duration": 4.799,
+      "text": "discard the historical reasoning"
+    },
+    {
+      "start": 500.639,
+      "duration": 5.521,
+      "text": "content, the thinking tokens once a new"
+    },
+    {
+      "start": 503.759,
+      "duration": 5.201,
+      "text": "user message arrives, but you must"
+    },
+    {
+      "start": 506.16,
+      "duration": 5.439,
+      "text": "retain the history of tool calls and"
+    },
+    {
+      "start": 508.96,
+      "duration": 5.28,
+      "text": "their results. This keeps the context"
+    },
+    {
+      "start": 511.599,
+      "duration": 6.24,
+      "text": "clean but the state accurate. They also"
+    },
+    {
+      "start": 514.24,
+      "duration": 5.44,
+      "text": "tested a discard 75% strategy where they"
+    },
+    {
+      "start": 517.839,
+      "duration": 4.401,
+      "text": "dumped the first three quarters of the"
+    },
+    {
+      "start": 519.68,
+      "duration": 4.96,
+      "text": "tool history when the limit is reached."
+    },
+    {
+      "start": 522.24,
+      "duration": 4.64,
+      "text": "Surprisingly, this crude method worked"
+    },
+    {
+      "start": 524.64,
+      "duration": 4.96,
+      "text": "almost as well as complex summarization"
+    },
+    {
+      "start": 526.88,
+      "duration": 5.2,
+      "text": "techniques. So, if you are building an"
+    },
+    {
+      "start": 529.6,
+      "duration": 5.28,
+      "text": "agent loop today, do not overengineer"
+    },
+    {
+      "start": 532.08,
+      "duration": 5.12,
+      "text": "the memory management. Start by simply"
+    },
+    {
+      "start": 534.88,
+      "duration": 4.079,
+      "text": "truncating the oldest tool outputs or"
+    },
+    {
+      "start": 537.2,
+      "duration": 4.8,
+      "text": "stripping out the intermediate reasoning"
+    },
+    {
+      "start": 538.959,
+      "duration": 5.361,
+      "text": "thoughts to save tokens. Third, apply"
+    },
+    {
+      "start": 542,
+      "duration": 5.2,
+      "text": "the cold start technique for your own"
+    },
+    {
+      "start": 544.32,
+      "duration": 5.44,
+      "text": "specialized agents. If you need a model"
+    },
+    {
+      "start": 547.2,
+      "duration": 5.199,
+      "text": "to use a custom API, do not just"
+    },
+    {
+      "start": 549.76,
+      "duration": 4.8,
+      "text": "fine-tune it on API documentation."
+    },
+    {
+      "start": 552.399,
+      "duration": 4.961,
+      "text": "Create a synthetic data set where a"
+    },
+    {
+      "start": 554.56,
+      "duration": 5.12,
+      "text": "smart model imagines a user asking a"
+    },
+    {
+      "start": 557.36,
+      "duration": 4.88,
+      "text": "question, reasons about which API to"
+    },
+    {
+      "start": 559.68,
+      "duration": 4.64,
+      "text": "call, and then executes it. This"
+    },
+    {
+      "start": 562.24,
+      "duration": 3.92,
+      "text": "synthetic chain of thought data is what"
+    },
+    {
+      "start": 564.32,
+      "duration": 4.4,
+      "text": "drove DeepSeek to gold medal"
+    },
+    {
+      "start": 566.16,
+      "duration": 4.88,
+      "text": "performance. You can replicate this on a"
+    },
+    {
+      "start": 568.72,
+      "duration": 5.36,
+      "text": "smaller scale for your specific domain"
+    },
+    {
+      "start": 571.04,
+      "duration": 5.359,
+      "text": "whether it is finance legal analysis or"
+    },
+    {
+      "start": 574.08,
+      "duration": 4.16,
+      "text": "custom hardware control. Finally, keep"
+    },
+    {
+      "start": 576.399,
+      "duration": 4.081,
+      "text": "an eye on the reinforcement learning"
+    },
+    {
+      "start": 578.24,
+      "duration": 4.08,
+      "text": "strategies mentioned. The shift to embi"
+    },
+    {
+      "start": 580.48,
+      "duration": 3.52,
+      "text": "coach lieler estimates and the use of"
+    },
+    {
+      "start": 582.32,
+      "duration": 3.76,
+      "text": "generative reward models for general"
+    },
+    {
+      "start": 584,
+      "duration": 3.839,
+      "text": "tasks suggests that the industry is"
+    },
+    {
+      "start": 586.08,
+      "duration": 4.56,
+      "text": "moving away from simple human feedback"
+    },
+    {
+      "start": 587.839,
+      "duration": 4.881,
+      "text": "and towards system generated rewards. If"
+    },
+    {
+      "start": 590.64,
+      "duration": 4.48,
+      "text": "you are training models, focus on"
+    },
+    {
+      "start": 592.72,
+      "duration": 5.2,
+      "text": "defining robust rule-based reward"
+    },
+    {
+      "start": 595.12,
+      "duration": 5.52,
+      "text": "functions or using a strong judge model"
+    },
+    {
+      "start": 597.92,
+      "duration": 6.16,
+      "text": "to verify outputs rather than relying"
+    },
+    {
+      "start": 600.64,
+      "duration": 6.48,
+      "text": "solely on static data sets. Deepseek v"
+    },
+    {
+      "start": 604.08,
+      "duration": 5.52,
+      "text": "3.2 proves that the gap between open and"
+    },
+    {
+      "start": 607.12,
+      "duration": 4.8,
+      "text": "closed AI is closing not just through"
+    },
+    {
+      "start": 609.6,
+      "duration": 5.12,
+      "text": "raw scale but through architectural"
+    },
+    {
+      "start": 611.92,
+      "duration": 5.039,
+      "text": "elegance and smarter training protocols."
+    },
+    {
+      "start": 614.72,
+      "duration": 4.4,
+      "text": "It is a massive leap forward for the"
+    },
+    {
+      "start": 616.959,
+      "duration": 3.921,
+      "text": "open-source community. Thanks so much"
+    },
+    {
+      "start": 619.12,
+      "duration": 3.76,
+      "text": "for watching. If you found this"
+    },
+    {
+      "start": 620.88,
+      "duration": 3.76,
+      "text": "breakdown useful, please hit the like"
+    },
+    {
+      "start": 622.88,
+      "duration": 3.44,
+      "text": "button and subscribe to the channel for"
+    },
+    {
+      "start": 624.64,
+      "duration": 3.759,
+      "text": "more deep dives into the latest"
+    },
+    {
+      "start": 626.32,
+      "duration": 5.519,
+      "text": "artificial intelligence research. See"
+    },
+    {
+      "start": 628.399,
+      "duration": 3.44,
+      "text": "you in the next video."
+    }
+  ],
+  "fullText": "This month, December 2025, the research team at Deepseek AI released a revolutionary paper titled Deepseek V 3.2, pushing the frontier of open large language models. This is not just another incremental update. We are looking at a pivotal moment where open-source architecture is fundamentally changing how it handles long contexts and complex reasoning to finally catch up with proprietary giants like Gemini 3.0 Pro and GPT five. If you are a developer or a machine learning engineer, you need to understand the mechanics inside this paper because it introduces a new attention mechanism that destroys the traditional quadratic complexity barrier and it provides a blueprint for how to train agents that actually work in the real world. Let us get straight into the problem. For the last few months of 2025, we have seen a widening gap. While proprietary models from Google and OpenAI have accelerated, open- source models have struggled with three specific deficiencies. First, they rely on what we call vanilla attention mechanisms. In technical terms, the computational complexity of standard attention is quadratic or big O of L squ relative to the sequence length. This means that as you increase the context window to 128,000 tokens or more, the cost to process that data skyrockets, making it inefficient for deployment and extremely expensive for post-training. Second, open models simply do not think long enough. They suffer from insufficient computational investment during the post-training phase, limiting their ability to solve hard math or coding problems. And third, they are terrible at being agents. They struggle to follow instructions when using tools in complex multi-step environments. The paper explicitly states that open- source models demonstrate a marked lag in generalization compared to closed source systems. The solution presented in deepb 3.2 addresses these exact pain points with three massive technical breakthroughs. The first and most significant architectural change is something they call deepseek sparse attention or DSA. This is a gamecher for efficiency. Instead of the model attending to every single token in the history for every query which is the standard dense attention method, DSA introduces a two-stage process. First, it uses a component called a lightning indexer. This indexer rapidly computes a coarse grain score between the current query token and preceding tokens to determine which parts of the history are actually relevant. It uses a rectified linear unit activation function for high throughput. Once the indexer identifies the relevant regions, the model performs a fine grained token selection. It retrieves only the top K key value entries that matter. This reduces the core attention complexity from quadratic to linear or big O of L multiplied by K where K is the number of selected tokens. This allows the model to handle massive contexts without the massive computational penalty effectively breaking the efficiency bottleneck that has held back open models. The second breakthrough is a scalable reinforcement learning framework. The researchers realized that to beat GPT5, they needed to scale up the compute used during the post training phase. They allocated a budget for reinforcement learning that exceeds 10% of the entire pre-training cost. That is a massive amount of compute dedicated solely to teaching the model how to think after it has already learned the language. But scaling reinforcement learning is unstable. To fix this, they improved the group relative policy optimization algorithm or GRPO. Specifically, they addressed a flaw in the standard K3 estimator used for calculating the Koolback labler divergence. The standard estimator produces biased gradients when the model samples tokens that have very low probabilities in the reference policy leading to unstable training. Deepseek introduced an unbiased Kulbach labler estimate that uses important sampling ratios to eliminate these systematic errors. They also implemented off policy sequence masking which prevents the model from learning from negative samples that are too divergent from the current policy. This stabilizes the training process allowing them to pump significantly more compute into the reasoning phase without the model collapsing. The third pillar of this solution is the largecale agentic task synthesis pipeline. We know that reasoning data is scarce, but agentic data where a model uses tools to solve problems is even scarcer. Deepseek solved this by building a factory for synthetic data. They generated over 1,800 distinct virtual environments and 85,000 complex prompts. They used a technique called cold start where they take a strong reasoning model and prompt it to wrap its thought process in thinking tax and its tool usage in specific formats. This creates a unified trajectory where the model thinks, calls a tool, observes the output, and thinks again. By training on this massive corpus of synthetic agent tasks, the model learned to generalize tool use to domains it had never seen before. Now let us look at the evidence. Does this actually work? The benchmarks in the paper are staggering. The team trained a high compute variant called DeepSc V 3.2 Special. This model achieves gold medal performance in the 2025 International Mathematical Olympiad and the International Olympiad in Informatics. In the code forces benchmark, it achieved a rating of 271, beating the previous open-source leaders. When compared against the titans of the industry, Deep Sigv 3.2 Special outperforms GPT5 on multiple reasoning benchmarks and exhibits reasoning proficiency on par with Google's Gemini 3.0 Pro. In the domain of agentic tasks, specifically on the SU verified benchmark, which tests software engineering capabilities, the model achieved a score of 73.1%, effectively narrowing the gap with frontier proprietary models while costing substantially less to run. The impact of this research is primarily on cost efficiency and accessibility. By reducing the attention complexity to linear time for long contexts, Deepseek V3 3.2 2 allows for significantly faster inference and lower deployment costs. The paper includes a graph showing that for decoding tasks, the cost per million tokens remains almost flat as the sequence length increases, whereas for the previous version, it scaled linearly. This means developers can now run agents that maintain massive history logs like entire code bases or long conversation histories without bankruptcy. Furthermore, by proving that synthetic data can train state-of-the-art agents, they have democratized the creation of specialized agent models. You do not need millions of human annotated logs. You need a smart synthesis pipeline. So, here is your developer blueprint. How do you apply this to your work today? First, if you are building applications that require processing long documents or history, look for implementations of sparse attention. The deepseek sparse attention mechanism proves that you do not need full context awareness for every token. If you are fine-tuning your own models, consider implementing the lightning indexer concept. Filter your context before feeding it to the heavy attention layers. Second, regarding agents, the paper offers a critical lesson in context management. When an agent enters a loop of thinking and acting, the context window fills up fast. Deepseek proposes distinct strategies to handle this. They found that for tool use scenarios, you can discard the historical reasoning content, the thinking tokens once a new user message arrives, but you must retain the history of tool calls and their results. This keeps the context clean but the state accurate. They also tested a discard 75% strategy where they dumped the first three quarters of the tool history when the limit is reached. Surprisingly, this crude method worked almost as well as complex summarization techniques. So, if you are building an agent loop today, do not overengineer the memory management. Start by simply truncating the oldest tool outputs or stripping out the intermediate reasoning thoughts to save tokens. Third, apply the cold start technique for your own specialized agents. If you need a model to use a custom API, do not just fine-tune it on API documentation. Create a synthetic data set where a smart model imagines a user asking a question, reasons about which API to call, and then executes it. This synthetic chain of thought data is what drove DeepSeek to gold medal performance. You can replicate this on a smaller scale for your specific domain whether it is finance legal analysis or custom hardware control. Finally, keep an eye on the reinforcement learning strategies mentioned. The shift to embi coach lieler estimates and the use of generative reward models for general tasks suggests that the industry is moving away from simple human feedback and towards system generated rewards. If you are training models, focus on defining robust rule-based reward functions or using a strong judge model to verify outputs rather than relying solely on static data sets. Deepseek v 3.2 proves that the gap between open and closed AI is closing not just through raw scale but through architectural elegance and smarter training protocols. It is a massive leap forward for the open-source community. Thanks so much for watching. If you found this breakdown useful, please hit the like button and subscribe to the channel for more deep dives into the latest artificial intelligence research. See you in the next video.",
+  "fetchedAt": "2026-01-18T18:34:07.302Z"
+}

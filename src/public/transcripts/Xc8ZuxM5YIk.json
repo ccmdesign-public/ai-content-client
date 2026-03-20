@@ -1,0 +1,844 @@
+{
+  "videoId": "Xc8ZuxM5YIk",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.04,
+      "duration": 4.92,
+      "text": "I once heard that the best way to get your company to invest in fire extinguishers is to"
+    },
+    {
+      "start": 5,
+      "duration": 5.919,
+      "text": "burn down the building across the street. For the lawyers that might be listening, let me be clear. I"
+    },
+    {
+      "start": 10.92,
+      "duration": 5.279,
+      "text": "am not advising anyone to burn down the building across the street. And by the way, who let you in"
+    },
+    {
+      "start": 16.2,
+      "duration": 6.64,
+      "text": "here anyway? Okay, so put away your matches because we won't be lighting anything up. But what's the"
+    },
+    {
+      "start": 22.84,
+      "duration": 6.8,
+      "text": "next best thing? Well, it's the judicious use of war stories. These are anecdotes and real-world"
+    },
+    {
+      "start": 29.64,
+      "duration": 6.52,
+      "text": "stories that serve as cautionary tales and inform us as anti-patterns of what not to do. With"
+    },
+    {
+      "start": 36.16,
+      "duration": 6.24,
+      "text": "me is Patrick Fussell, Global Head of Adversarial Simulation for IBM's X-Force team. In other words,"
+    },
+    {
+      "start": 42.4,
+      "duration": 5.999,
+      "text": "he's an ethical hacker. Welcome, Patrick. Thanks, Jeff. We did some previous videos where we talked"
+    },
+    {
+      "start": 48.4,
+      "duration": 6.28,
+      "text": "about what an ethical hacker is, what the job entails and how to pursue a career in this space. Now,"
+    },
+    {
+      "start": 54.72,
+      "duration": 6.2,
+      "text": "let's take a look at a real-world example from an ethical hacking exercise. But before we do,"
+    },
+    {
+      "start": 60.92,
+      "duration": 6.969,
+      "text": "we should emphasize the word ethical. It means just that. You do this for the right reasons,"
+    },
+    {
+      "start": 67.889,
+      "duration": 5.92,
+      "text": "which are to improve security, not take advantage of vulnerabilities that you find out about. And most"
+    },
+    {
+      "start": 73.809,
+      "duration": 5.72,
+      "text": "importantly, you do it with permission. If you don't have permission, it's just hacking and you"
+    },
+    {
+      "start": 79.529,
+      "duration": 5.24,
+      "text": "can go to jail for that. But if you do it ethically, as Patrick's team does, you can actually"
+    },
+    {
+      "start": 84.769,
+      "duration": 6.16,
+      "text": "get paid, and not have to find out how you look in an orange jumpsuit. That's a win-win scenario. Okay, Patrick,"
+    },
+    {
+      "start": 90.93,
+      "duration": 3.879,
+      "text": "let's take a look at one of the real-world examples that you and your team went"
+    },
+    {
+      "start": 94.809,
+      "duration": 4.36,
+      "text": "through. So, take us through it. Sure. So one of the things we're really trying to achieve with this"
+    },
+    {
+      "start": 99.169,
+      "duration": 4.881,
+      "text": "type of testing is representing the real world. We wanna be a sparring partner for the blue team."
+    },
+    {
+      "start": 104.05,
+      "duration": 5.239,
+      "text": "And in particular, this particular engagement that I want to talk about today, we start this testing"
+    },
+    {
+      "start": 109.289,
+      "duration": 6.76,
+      "text": "from what we call assume breach. So, inside of the network. Yeah, I like that idea of assume breach. We"
+    },
+    {
+      "start": 116.049,
+      "duration": 6.8,
+      "text": "get this this term, I think, from the area of zero trust. Ah, with zero trust where we're looking"
+    },
+    {
+      "start": 122.94,
+      "duration": 4.799,
+      "text": "and assuming that the bad guy is already in your environment, and then you're designing the"
+    },
+    {
+      "start": 127.739,
+      "duration": 5.761,
+      "text": "defenses as if the guy has already penetrated, which is a wholly different paradigm than just"
+    },
+    {
+      "start": 133.5,
+      "duration": 4.759,
+      "text": "assuming the bad guy's on the outside trying to get in. That's exactly right. And we want this to"
+    },
+    {
+      "start": 138.3,
+      "duration": 6.28,
+      "text": "be as representative of real threat actors as possible. So, in this particular scenario, ah, we did"
+    },
+    {
+      "start": 144.58,
+      "duration": 6.199,
+      "text": "our assume breach by having a trusted insider essentially run our payload for us. And how they"
+    },
+    {
+      "start": 150.779,
+      "duration": 5.76,
+      "text": "got to that payload was we hosted it, ah, somewhere in a public software store. So somewhere,"
+    },
+    {
+      "start": 156.58,
+      "duration": 4.759,
+      "text": "hypothetically, anybody could get access to. But we designed it so this particular person could"
+    },
+    {
+      "start": 161.339,
+      "duration": 4.92,
+      "text": "download our payload, run it, which is what kicks off our initial access to the environment and"
+    },
+    {
+      "start": 166.259,
+      "duration": 6.24,
+      "text": "lets us begin our testing. Okay, so you've got an accomplice on the inside. And that's actually not"
+    },
+    {
+      "start": 172.499,
+      "duration": 5.441,
+      "text": "so unrealistic because we know that lots of attacks occur from the inside.So, it it may seem a"
+    },
+    {
+      "start": 177.94,
+      "duration": 4.8,
+      "text": "little bit like you're cheating, but it's actually not 'cause that's actually a real-world, ah, example."
+    },
+    {
+      "start": 182.74,
+      "duration": 5.65,
+      "text": "That's 100% correct. I think most organizations at this point have realized it's not a matter of if"
+    },
+    {
+      "start": 188.429,
+      "duration": 4.601,
+      "text": "you get breached, but when. And designing all of your security with the idea of a breach is gonna"
+    },
+    {
+      "start": 193.03,
+      "duration": 4.439,
+      "text": "happen, let's make sure that when that breach happens that we're well protected. Yeah. And that"
+    },
+    {
+      "start": 197.47,
+      "duration": 5.64,
+      "text": "insider has the advantage of superior knowledge and superior access, as we're going to see, I think,"
+    },
+    {
+      "start": 203.11,
+      "duration": 5.679,
+      "text": "as we go through this. But tell me, how did how did this guy get this bad software? Where did this"
+    },
+    {
+      "start": 208.789,
+      "duration": 4.681,
+      "text": "malware come from in the first place? Yeah, we wanna put it, ah. There's lots of ways you might go about"
+    },
+    {
+      "start": 213.47,
+      "duration": 3.76,
+      "text": "this. And again, we're trying to represent how could this happen in the real world. So we look at"
+    },
+    {
+      "start": 217.23,
+      "duration": 4.599,
+      "text": "real stories of breaches and what are the ways we can affect this in a way that makes sense. In this"
+    },
+    {
+      "start": 221.829,
+      "duration": 6.241,
+      "text": "case we we hosted it in the software store. The insider downloads it for us and runs it. And that"
+    },
+    {
+      "start": 228.07,
+      "duration": 5.72,
+      "text": "essentially kicks off what we we call an implant. And an implant is we can think of it as just a piece"
+    },
+    {
+      "start": 233.79,
+      "duration": 6.039,
+      "text": "of software that's part of a, a C2 framework. And that implant, when it's run, calls out to a server"
+    },
+    {
+      "start": 239.829,
+      "duration": 5.38,
+      "text": "on the internet and does communication at its most basic level. Okay. So basically, the person"
+    },
+    {
+      "start": 245.21,
+      "duration": 5.799,
+      "text": "that gave this and enabled them was you. That's right. So there we are. It it tha, that's a very close"
+    },
+    {
+      "start": 251.009,
+      "duration": 5.319,
+      "text": "likeness that I thought I've captured there. And you said C2. So that means command and control."
+    },
+    {
+      "start": 256.369,
+      "duration": 5.72,
+      "text": "This is basically software that allows you remotely to command and control other parts of"
+    },
+    {
+      "start": 262.129,
+      "duration": 4.44,
+      "text": "their environment. That's right. So you can think this is a piece of software. It's running on a"
+    },
+    {
+      "start": 266.57,
+      "duration": 5.439,
+      "text": "system. It calls out, ah, over the internet to a server that we control and allows us to interact"
+    },
+    {
+      "start": 272.01,
+      "duration": 4.479,
+      "text": "directly with that, what you might call a victim box. So the box that's been compromised, our"
+    },
+    {
+      "start": 276.489,
+      "duration": 6.36,
+      "text": "initial access point in in this case. Okay. So this guy is going to implant the software. Then on some"
+    },
+    {
+      "start": 282.849,
+      "duration": 6.161,
+      "text": "other system, take the bait that you've given and he's gonna put it on there. And now he has some"
+    },
+    {
+      "start": 289.049,
+      "duration": 6.72,
+      "text": "sort of a of a foothold established. And what are we gonna do at this point? So this, ah, this connection,"
+    },
+    {
+      "start": 295.89,
+      "duration": 6.119,
+      "text": "this, ah, box this that's calling out to us, it's calling out to our C2 servers, which, again, exists"
+    },
+    {
+      "start": 302.049,
+      "duration": 4.85,
+      "text": "somewhere on the internet for for the ah sake of simplicity, uh, the C2 framework we're using here"
+    },
+    {
+      "start": 306.899,
+      "duration": 5.44,
+      "text": "is called low key C2, which is actually written by one of the folks on my team named Bobby Cooke. Ah. His"
+    },
+    {
+      "start": 312.339,
+      "duration": 6.119,
+      "text": "hacker handle might be you might know him as Boku. Um,so, eh and the reason that I say that is it also"
+    },
+    {
+      "start": 318.459,
+      "duration": 4.76,
+      "text": "has to evade all the defenses inside of the network. So, think things like EDR and antivirus."
+    },
+    {
+      "start": 323.26,
+      "duration": 5.799,
+      "text": "We can't get caught. Right? Yeah.So. So you found a way to get around the EDR, which is ah ah a good trick."
+    },
+    {
+      "start": 329.059,
+      "duration": 6.88,
+      "text": "And so here's this, this software that this system that now has been, uh,"
+    },
+    {
+      "start": 335.98,
+      "duration": 5.56,
+      "text": "compromised is making a phone home. And it's gonna phone home and listen to the instructions that"
+    },
+    {
+      "start": 341.54,
+      "duration": 5.119,
+      "text": "you give it, and you're gonna supply those instructions. And then what happens? So now we're"
+    },
+    {
+      "start": 346.659,
+      "duration": 4.321,
+      "text": "in what you might think of initial access and reconnaissance phase. We want to learn as much as"
+    },
+    {
+      "start": 350.98,
+      "duration": 5.56,
+      "text": "we can. You might surprise some people to to find out that a lot of hacking is actually a lot like"
+    },
+    {
+      "start": 356.54,
+      "duration": 3.879,
+      "text": "detective work. So we started one place where we know nothing, and we wanna learn as much as we"
+    },
+    {
+      "start": 360.42,
+      "duration": 6.36,
+      "text": "can about the system, the user, the organization. Ah. That might involve looking at things like file"
+    },
+    {
+      "start": 366.829,
+      "duration": 4.6,
+      "text": "shares or centralized data stores. So, think of things like SharePoint. There's a lot you can"
+    },
+    {
+      "start": 371.429,
+      "duration": 5,
+      "text": "learn by looking at an organization's SharePoint, about people, processes, technology that really"
+    },
+    {
+      "start": 376.43,
+      "duration": 5.879,
+      "text": "helps you further ah an engagement. Yeah. And the more you know, the more damage you can do. And tha, so that's"
+    },
+    {
+      "start": 382.309,
+      "duration": 4.76,
+      "text": "part of the the landing in the area and doing reconnaissance. And so what did you find that"
+    },
+    {
+      "start": 387.07,
+      "duration": 5.799,
+      "text": "allowed you to to do more? So in this case, the sort of first critical step, the thing that lets"
+    },
+    {
+      "start": 392.869,
+      "duration": 5.36,
+      "text": "us move forward was finding a set of credentials inside of the strip, which is sort of a common"
+    },
+    {
+      "start": 398.23,
+      "duration": 5.08,
+      "text": "story, but we find these credentials that were in a script from some legacy Active Directory thing"
+    },
+    {
+      "start": 403.31,
+      "duration": 4.92,
+      "text": "that had happened you know many years in the past, and just nobody had ever bothered to go back and clean it"
+    },
+    {
+      "start": 408.23,
+      "duration": 4.999,
+      "text": "Credentials in a script. Somebody hardcoded a password into a script. I'm sure that has never"
+    },
+    {
+      "start": 413.23,
+      "duration": 6.319,
+      "text": "happened in the real world. In my dreams.Ah. I wish that was the case. But in fact, this is a very"
+    },
+    {
+      "start": 419.549,
+      "duration": 4.64,
+      "text": "common situation. And a lot of times, like you say, if it's been around for a long time, nobody even"
+    },
+    {
+      "start": 424.19,
+      "duration": 3.599,
+      "text": "thinks about it anymore. The script just keeps working and nobody wants to go in and crack it"
+    },
+    {
+      "start": 427.88,
+      "duration": 5.959,
+      "text": "open and make changes. Just leave it. Leave it alone.Ah. But obviously if you've hardcoded that in"
+    },
+    {
+      "start": 433.839,
+      "duration": 5.201,
+      "text": "and now you've sucked that in, now where do we go? So what we wanna do is find out what are those"
+    },
+    {
+      "start": 439.04,
+      "duration": 4.159,
+      "text": "credentials give us? And that's where the reconnaissance really came into play. And that"
+    },
+    {
+      "start": 443.2,
+      "duration": 4.72,
+      "text": "allowed us to identify that these credentials give us access to several of the production SQL"
+    },
+    {
+      "start": 447.92,
+      "duration": 5.559,
+      "text": "servers. So now we can move over the SMB protocol to a new set of systems using these new"
+    },
+    {
+      "start": 453.479,
+      "duration": 6.76,
+      "text": "credentials. Okay. So now you are into a database and we continue. Now we've done the"
+    },
+    {
+      "start": 460.239,
+      "duration": 6.64,
+      "text": "land. Now we're doing the expand part of all of this attack.And, ah, we're continuing to move through."
+    },
+    {
+      "start": 466.88,
+      "duration": 5.879,
+      "text": "This leads to something else. And then what does this SQL database lead you to be able to do? So"
+    },
+    {
+      "start": 472.76,
+      "duration": 5.559,
+      "text": "what we want to do is, ah, what's your term as land and expand is we typically call it lateral"
+    },
+    {
+      "start": 478.32,
+      "duration": 4.919,
+      "text": "movement privilege escalation. So it's where we're getting larger concentric circles of control and"
+    },
+    {
+      "start": 483.239,
+      "duration": 5.771,
+      "text": "access. And in this case what we did is, from the SQL boxes, we were able to do what we call"
+    },
+    {
+      "start": 489.01,
+      "duration": 4.999,
+      "text": "credential dumping. So, essentially think of investigating the system for credentials in"
+    },
+    {
+      "start": 494.01,
+      "duration": 5.039,
+      "text": "memory and on disk and looking to see can we move past this box to the next set of credentials? And, ah,"
+    },
+    {
+      "start": 499.169,
+      "duration": 5.8,
+      "text": "luckily enough we found some, ah, SCCM credentials. Ah. If you're not familiar with SCCM, it's essentially a, ah,"
+    },
+    {
+      "start": 505.729,
+      "duration": 5.76,
+      "text": "system management, ah, framework or software for large enterprise environments. Yeah. And what I know"
+    },
+    {
+      "start": 511.489,
+      "duration": 4.96,
+      "text": "about SCCM is if you get into that, now you've kinda got pretty close to the keys to the"
+    },
+    {
+      "start": 516.449,
+      "duration": 5.361,
+      "text": "kingdom, because this is where you can control the other systems that are in the environment. Ah. You can"
+    },
+    {
+      "start": 521.81,
+      "duration": 5.039,
+      "text": "control their access rights and all kinds of other privileges, policies and things like that. So"
+    },
+    {
+      "start": 526.849,
+      "duration": 6.32,
+      "text": "once you've gotten in there, now what? So once we have, ah, access to the SCCM system, we have the"
+    },
+    {
+      "start": 533.169,
+      "duration": 4.72,
+      "text": "ability to get credentials that essentially give us access to lots and lots of other workstations"
+    },
+    {
+      "start": 537.889,
+      "duration": 6.28,
+      "text": "and servers, and it becomes almost trivial to identify where are, eh, the next set of elevated"
+    },
+    {
+      "start": 544.169,
+      "duration": 4.52,
+      "text": "credentials. And in this case, we were looking for domain administrator credentials because they"
+    },
+    {
+      "start": 548.69,
+      "duration": 4.77,
+      "text": "allowed us to move on to our final objectives, our business objectives. And that's basically a"
+    },
+    {
+      "start": 553.46,
+      "duration": 6.039,
+      "text": "privilege escalation. You started in with one low level, and you continue to move through the system"
+    },
+    {
+      "start": 559.499,
+      "duration": 6.16,
+      "text": "laterally and gathering more information, more passwords, more credentials, more capabilities, more"
+    },
+    {
+      "start": 565.659,
+      "duration": 6.56,
+      "text": "privileges until now, it's essentially game over. Okay, Patrick. So now we've gone through this. You"
+    },
+    {
+      "start": 572.219,
+      "duration": 4.4,
+      "text": "and your team are gonna go back and write your report, and you're gonna tell the client then"
+    },
+    {
+      "start": 576.619,
+      "duration": 6.72,
+      "text": "what you found, how you breach them, how you own them and what should they do. What kind of"
+    },
+    {
+      "start": 583.34,
+      "duration": 5.879,
+      "text": "recommendations would you give to an organization so that they don't fall victim the same way? Yeah,"
+    },
+    {
+      "start": 589.219,
+      "duration": 3.6,
+      "text": "I think there's a lot of things that could come out in a report. Obviously, we'd have quite a few"
+    },
+    {
+      "start": 592.82,
+      "duration": 5.239,
+      "text": "findings from a a test like this, but at a high level, I would start to wrap it up with the idea"
+    },
+    {
+      "start": 598.059,
+      "duration": 5.88,
+      "text": "of start with thinking about things from the assume breach perspective. Really focus on what"
+    },
+    {
+      "start": 603.939,
+      "duration": 4.44,
+      "text": "happens when we're breached, because we know that there are a lot of hackers out there working very"
+    },
+    {
+      "start": 608.38,
+      "duration": 5.289,
+      "text": "hard on a continuous basis to try to get access to just about anything that that touches the internet."
+    },
+    {
+      "start": 613.71,
+      "duration": 5.399,
+      "text": "Yeah, absolutely. You have to assume that the bad guy's already in your environment, that they're in"
+    },
+    {
+      "start": 619.109,
+      "duration": 4.761,
+      "text": "your network, they're in your database, they're in your application, they already have credentials"
+    },
+    {
+      "start": 623.87,
+      "duration": 6.84,
+      "text": "and can log in. And now define your your security based upon that. And that would lead you to"
+    },
+    {
+      "start": 630.75,
+      "duration": 5.038,
+      "text": "do some other kinds of things, like what kind of security principles? I think a really good one"
+    },
+    {
+      "start": 635.789,
+      "duration": 5.041,
+      "text": "that, ah, is often talked about, but not always exercise well is defense and depth. When you're"
+    },
+    {
+      "start": 640.83,
+      "duration": 4.159,
+      "text": "looking at how does a breach happen, you think, well, what happens if they get past this first one?"
+    },
+    {
+      "start": 644.99,
+      "duration": 4.039,
+      "text": "Because we always want to question the assumption of is this security control doing everything that"
+    },
+    {
+      "start": 649.03,
+      "duration": 4.599,
+      "text": "I hope that it is? Yeah. Yeah, exactly. Defense in depth basically means you don't rely on any"
+    },
+    {
+      "start": 653.63,
+      "duration": 5.439,
+      "text": "single mechanism for your security. So you create essentially an obstacle course for the bad guy to"
+    },
+    {
+      "start": 659.109,
+      "duration": 6.481,
+      "text": "have to traverse. So, if this first part fails, well then they've still got other backup"
+    },
+    {
+      "start": 665.59,
+      "duration": 4.559,
+      "text": "mechanisms. How about the other thing? There was, there was that business of, you know, there was a"
+    },
+    {
+      "start": 670.15,
+      "duration": 6.61,
+      "text": "script that had hard coded in it, ah, some credentials, some secrets that wow."
+    },
+    {
+      "start": 676.88,
+      "duration": 4.919,
+      "text": "That never happens in the real world, does it? We wish. Unfortunately, we see it happen pretty much"
+    },
+    {
+      "start": 681.799,
+      "duration": 3.52,
+      "text": "all the time. It's it's one of the more consistent findings that we write in our reports and we see"
+    },
+    {
+      "start": 685.319,
+      "duration": 6.801,
+      "text": "in our testing. Um. And I always think clients want to focus on, ah, getting the latest and greatest"
+    },
+    {
+      "start": 692.12,
+      "duration": 4.479,
+      "text": "technology or looking at the, the, the brand-new zero day that may be dropping in next week, but"
+    },
+    {
+      "start": 696.599,
+      "duration": 4.68,
+      "text": "they haven't really taken the time to think about their identity and access management policies. And, ah,"
+    },
+    {
+      "start": 701.56,
+      "duration": 3.599,
+      "text": "have we cleaned up all the data that's on our shares? And what do the hackers see when they land"
+    },
+    {
+      "start": 705.159,
+      "duration": 4.841,
+      "text": "on one of our boxes? Yeah, absolutely. Basic blocking and tackling the fundamentals of"
+    },
+    {
+      "start": 710,
+      "duration": 5.599,
+      "text": "identity and access management. So, really what they should be doing is storing these credentials"
+    },
+    {
+      "start": 715.599,
+      "duration": 6.48,
+      "text": "in some sort of vault,ah, a secure space where these can be checked in and checked out and used as"
+    },
+    {
+      "start": 722.08,
+      "duration": 5.519,
+      "text": "necessary and changed over time. We want these credentials not to be static. They should be"
+    },
+    {
+      "start": 727.599,
+      "duration": 5.58,
+      "text": "dynamic so that there's no place for somebody to go and just get that. And now they can, they can"
+    },
+    {
+      "start": 733.18,
+      "duration": 6.318,
+      "text": "run free day after day after day. Ah. You make it a moving target, makes it much more difficult, ah, thing"
+    },
+    {
+      "start": 739.539,
+      "duration": 5.721,
+      "text": "to break into. And you also mention about IAM ah identity and access management, making sure that"
+    },
+    {
+      "start": 745.26,
+      "duration": 6.479,
+      "text": "we don't overprivilege individual users because even though that user might be perfectly honest"
+    },
+    {
+      "start": 751.74,
+      "duration": 5.319,
+      "text": "and would never use that against us, maybe their account gets taken over and now someone leverages"
+    },
+    {
+      "start": 757.059,
+      "duration": 4.68,
+      "text": "all of these extra capabilities that they have. So, this kinda goes into the notion of the"
+    },
+    {
+      "start": 761.739,
+      "duration": 5.2,
+      "text": "principle of least privilege. We only give you exactly what you need to do your job and not one"
+    },
+    {
+      "start": 766.94,
+      "duration": 5.559,
+      "text": "bit more. And we take away anything you don't need anymore. So, this is a big one also, I think. Yeah, I"
+    },
+    {
+      "start": 772.5,
+      "duration": 5.679,
+      "text": "think if, ah, all organizations that we tested for could really master these two bits, as simple as"
+    },
+    {
+      "start": 778.179,
+      "duration": 5.4,
+      "text": "they seem, they would make hackers' lives drastically harder. Yeah, yeah, no doubt, no doubt."
+    },
+    {
+      "start": 783.58,
+      "duration": 5.879,
+      "text": "And anything else that you can think of that that we should be doing on this? I think that just a always"
+    },
+    {
+      "start": 789.46,
+      "duration": 5.93,
+      "text": "have a a sort of eye on not assuming that all of your controls are doing what you think that"
+    },
+    {
+      "start": 795.39,
+      "duration": 3.48,
+      "text": "they're doing. You wanna look for things like continuous improvement. Are you testing these"
+    },
+    {
+      "start": 798.87,
+      "duration": 4.799,
+      "text": "things and validating that they're actually being, you know, as effective as you want them to be? Yeah, and I"
+    },
+    {
+      "start": 803.669,
+      "duration": 5.12,
+      "text": "think bottom line is you've gonna be monitoring what's happening out there as well. Make sure that"
+    },
+    {
+      "start": 808.789,
+      "duration": 5.801,
+      "text": "you see if there's behaviors. Now someone's moving laterally or all of a sudden a lot of data starts"
+    },
+    {
+      "start": 814.59,
+      "duration": 6.239,
+      "text": "leaving your environment, ah, in ways that you haven't seen before. Ah. Have those kinda capabilities in"
+    },
+    {
+      "start": 820.83,
+      "duration": 4.919,
+      "text": "place and then ultimately be able to have some sort of incident response capability once you do"
+    },
+    {
+      "start": 825.75,
+      "duration": 6.44,
+      "text": "discover that you've been breached like this and ah and that way you'll be in better situation"
+    },
+    {
+      "start": 832.229,
+      "duration": 5.32,
+      "text": "knowing what to do when that occurs. Definitely So good news, Patrick. We didn't have to burn down"
+    },
+    {
+      "start": 837.549,
+      "duration": 5.92,
+      "text": "that building across the street after all, and I promised that we wouldn't. But, we do have some"
+    },
+    {
+      "start": 843.469,
+      "duration": 5.48,
+      "text": "war stories. At least we have one more story that is on the shelf that you can use. You could take"
+    },
+    {
+      "start": 848.95,
+      "duration": 5.889,
+      "text": "this story back to your colleagues, to your managers and say, look, this could happen to us."
+    },
+    {
+      "start": 854.84,
+      "duration": 6.679,
+      "text": "This is a very realistic situation that Patrick and his team see all the time. So, what could we do"
+    },
+    {
+      "start": 861.519,
+      "duration": 6.36,
+      "text": "to make sure that this doesn't happen to us and try to leverage those war stories to do, ah, something"
+    },
+    {
+      "start": 867.88,
+      "duration": 4.879,
+      "text": "that will improve your environment? I would definitely say, don't be the one organization in"
+    },
+    {
+      "start": 872.76,
+      "duration": 4.439,
+      "text": "the world who thinks that they're unhackable. They're all hackable, and, ah, they often will be"
+    },
+    {
+      "start": 877.24,
+      "duration": 4.559,
+      "text": "hacked. So, ah, focus on things like continuous improvement. You have a bunch of security controls"
+    },
+    {
+      "start": 881.799,
+      "duration": 4.641,
+      "text": "in your environment. You probably installed them and set them up. But did you go validate and test"
+    },
+    {
+      "start": 886.44,
+      "duration": 3.84,
+      "text": "and make sure that they're doing what you think that they are and improving with the times, making"
+    },
+    {
+      "start": 890.28,
+      "duration": 4.56,
+      "text": "sure they're getting better over time? Because the bad guys are for sure. Yeah, it's gonna be"
+    },
+    {
+      "start": 894.84,
+      "duration": 5.159,
+      "text": "continuous improvement. And one of my favorite sayings is if you're satisfied with your security,"
+    },
+    {
+      "start": 900.039,
+      "duration": 1.559,
+      "text": "so are the bad guys."
+    }
+  ],
+  "fullText": "I once heard that the best way to get your company to invest in fire extinguishers is to burn down the building across the street. For the lawyers that might be listening, let me be clear. I am not advising anyone to burn down the building across the street. And by the way, who let you in here anyway? Okay, so put away your matches because we won't be lighting anything up. But what's the next best thing? Well, it's the judicious use of war stories. These are anecdotes and real-world stories that serve as cautionary tales and inform us as anti-patterns of what not to do. With me is Patrick Fussell, Global Head of Adversarial Simulation for IBM's X-Force team. In other words, he's an ethical hacker. Welcome, Patrick. Thanks, Jeff. We did some previous videos where we talked about what an ethical hacker is, what the job entails and how to pursue a career in this space. Now, let's take a look at a real-world example from an ethical hacking exercise. But before we do, we should emphasize the word ethical. It means just that. You do this for the right reasons, which are to improve security, not take advantage of vulnerabilities that you find out about. And most importantly, you do it with permission. If you don't have permission, it's just hacking and you can go to jail for that. But if you do it ethically, as Patrick's team does, you can actually get paid, and not have to find out how you look in an orange jumpsuit. That's a win-win scenario. Okay, Patrick, let's take a look at one of the real-world examples that you and your team went through. So, take us through it. Sure. So one of the things we're really trying to achieve with this type of testing is representing the real world. We wanna be a sparring partner for the blue team. And in particular, this particular engagement that I want to talk about today, we start this testing from what we call assume breach. So, inside of the network. Yeah, I like that idea of assume breach. We get this this term, I think, from the area of zero trust. Ah, with zero trust where we're looking and assuming that the bad guy is already in your environment, and then you're designing the defenses as if the guy has already penetrated, which is a wholly different paradigm than just assuming the bad guy's on the outside trying to get in. That's exactly right. And we want this to be as representative of real threat actors as possible. So, in this particular scenario, ah, we did our assume breach by having a trusted insider essentially run our payload for us. And how they got to that payload was we hosted it, ah, somewhere in a public software store. So somewhere, hypothetically, anybody could get access to. But we designed it so this particular person could download our payload, run it, which is what kicks off our initial access to the environment and lets us begin our testing. Okay, so you've got an accomplice on the inside. And that's actually not so unrealistic because we know that lots of attacks occur from the inside.So, it it may seem a little bit like you're cheating, but it's actually not 'cause that's actually a real-world, ah, example. That's 100% correct. I think most organizations at this point have realized it's not a matter of if you get breached, but when. And designing all of your security with the idea of a breach is gonna happen, let's make sure that when that breach happens that we're well protected. Yeah. And that insider has the advantage of superior knowledge and superior access, as we're going to see, I think, as we go through this. But tell me, how did how did this guy get this bad software? Where did this malware come from in the first place? Yeah, we wanna put it, ah. There's lots of ways you might go about this. And again, we're trying to represent how could this happen in the real world. So we look at real stories of breaches and what are the ways we can affect this in a way that makes sense. In this case we we hosted it in the software store. The insider downloads it for us and runs it. And that essentially kicks off what we we call an implant. And an implant is we can think of it as just a piece of software that's part of a, a C2 framework. And that implant, when it's run, calls out to a server on the internet and does communication at its most basic level. Okay. So basically, the person that gave this and enabled them was you. That's right. So there we are. It it tha, that's a very close likeness that I thought I've captured there. And you said C2. So that means command and control. This is basically software that allows you remotely to command and control other parts of their environment. That's right. So you can think this is a piece of software. It's running on a system. It calls out, ah, over the internet to a server that we control and allows us to interact directly with that, what you might call a victim box. So the box that's been compromised, our initial access point in in this case. Okay. So this guy is going to implant the software. Then on some other system, take the bait that you've given and he's gonna put it on there. And now he has some sort of a of a foothold established. And what are we gonna do at this point? So this, ah, this connection, this, ah, box this that's calling out to us, it's calling out to our C2 servers, which, again, exists somewhere on the internet for for the ah sake of simplicity, uh, the C2 framework we're using here is called low key C2, which is actually written by one of the folks on my team named Bobby Cooke. Ah. His hacker handle might be you might know him as Boku. Um,so, eh and the reason that I say that is it also has to evade all the defenses inside of the network. So, think things like EDR and antivirus. We can't get caught. Right? Yeah.So. So you found a way to get around the EDR, which is ah ah a good trick. And so here's this, this software that this system that now has been, uh, compromised is making a phone home. And it's gonna phone home and listen to the instructions that you give it, and you're gonna supply those instructions. And then what happens? So now we're in what you might think of initial access and reconnaissance phase. We want to learn as much as we can. You might surprise some people to to find out that a lot of hacking is actually a lot like detective work. So we started one place where we know nothing, and we wanna learn as much as we can about the system, the user, the organization. Ah. That might involve looking at things like file shares or centralized data stores. So, think of things like SharePoint. There's a lot you can learn by looking at an organization's SharePoint, about people, processes, technology that really helps you further ah an engagement. Yeah. And the more you know, the more damage you can do. And tha, so that's part of the the landing in the area and doing reconnaissance. And so what did you find that allowed you to to do more? So in this case, the sort of first critical step, the thing that lets us move forward was finding a set of credentials inside of the strip, which is sort of a common story, but we find these credentials that were in a script from some legacy Active Directory thing that had happened you know many years in the past, and just nobody had ever bothered to go back and clean it Credentials in a script. Somebody hardcoded a password into a script. I'm sure that has never happened in the real world. In my dreams.Ah. I wish that was the case. But in fact, this is a very common situation. And a lot of times, like you say, if it's been around for a long time, nobody even thinks about it anymore. The script just keeps working and nobody wants to go in and crack it open and make changes. Just leave it. Leave it alone.Ah. But obviously if you've hardcoded that in and now you've sucked that in, now where do we go? So what we wanna do is find out what are those credentials give us? And that's where the reconnaissance really came into play. And that allowed us to identify that these credentials give us access to several of the production SQL servers. So now we can move over the SMB protocol to a new set of systems using these new credentials. Okay. So now you are into a database and we continue. Now we've done the land. Now we're doing the expand part of all of this attack.And, ah, we're continuing to move through. This leads to something else. And then what does this SQL database lead you to be able to do? So what we want to do is, ah, what's your term as land and expand is we typically call it lateral movement privilege escalation. So it's where we're getting larger concentric circles of control and access. And in this case what we did is, from the SQL boxes, we were able to do what we call credential dumping. So, essentially think of investigating the system for credentials in memory and on disk and looking to see can we move past this box to the next set of credentials? And, ah, luckily enough we found some, ah, SCCM credentials. Ah. If you're not familiar with SCCM, it's essentially a, ah, system management, ah, framework or software for large enterprise environments. Yeah. And what I know about SCCM is if you get into that, now you've kinda got pretty close to the keys to the kingdom, because this is where you can control the other systems that are in the environment. Ah. You can control their access rights and all kinds of other privileges, policies and things like that. So once you've gotten in there, now what? So once we have, ah, access to the SCCM system, we have the ability to get credentials that essentially give us access to lots and lots of other workstations and servers, and it becomes almost trivial to identify where are, eh, the next set of elevated credentials. And in this case, we were looking for domain administrator credentials because they allowed us to move on to our final objectives, our business objectives. And that's basically a privilege escalation. You started in with one low level, and you continue to move through the system laterally and gathering more information, more passwords, more credentials, more capabilities, more privileges until now, it's essentially game over. Okay, Patrick. So now we've gone through this. You and your team are gonna go back and write your report, and you're gonna tell the client then what you found, how you breach them, how you own them and what should they do. What kind of recommendations would you give to an organization so that they don't fall victim the same way? Yeah, I think there's a lot of things that could come out in a report. Obviously, we'd have quite a few findings from a a test like this, but at a high level, I would start to wrap it up with the idea of start with thinking about things from the assume breach perspective. Really focus on what happens when we're breached, because we know that there are a lot of hackers out there working very hard on a continuous basis to try to get access to just about anything that that touches the internet. Yeah, absolutely. You have to assume that the bad guy's already in your environment, that they're in your network, they're in your database, they're in your application, they already have credentials and can log in. And now define your your security based upon that. And that would lead you to do some other kinds of things, like what kind of security principles? I think a really good one that, ah, is often talked about, but not always exercise well is defense and depth. When you're looking at how does a breach happen, you think, well, what happens if they get past this first one? Because we always want to question the assumption of is this security control doing everything that I hope that it is? Yeah. Yeah, exactly. Defense in depth basically means you don't rely on any single mechanism for your security. So you create essentially an obstacle course for the bad guy to have to traverse. So, if this first part fails, well then they've still got other backup mechanisms. How about the other thing? There was, there was that business of, you know, there was a script that had hard coded in it, ah, some credentials, some secrets that wow. That never happens in the real world, does it? We wish. Unfortunately, we see it happen pretty much all the time. It's it's one of the more consistent findings that we write in our reports and we see in our testing. Um. And I always think clients want to focus on, ah, getting the latest and greatest technology or looking at the, the, the brand-new zero day that may be dropping in next week, but they haven't really taken the time to think about their identity and access management policies. And, ah, have we cleaned up all the data that's on our shares? And what do the hackers see when they land on one of our boxes? Yeah, absolutely. Basic blocking and tackling the fundamentals of identity and access management. So, really what they should be doing is storing these credentials in some sort of vault,ah, a secure space where these can be checked in and checked out and used as necessary and changed over time. We want these credentials not to be static. They should be dynamic so that there's no place for somebody to go and just get that. And now they can, they can run free day after day after day. Ah. You make it a moving target, makes it much more difficult, ah, thing to break into. And you also mention about IAM ah identity and access management, making sure that we don't overprivilege individual users because even though that user might be perfectly honest and would never use that against us, maybe their account gets taken over and now someone leverages all of these extra capabilities that they have. So, this kinda goes into the notion of the principle of least privilege. We only give you exactly what you need to do your job and not one bit more. And we take away anything you don't need anymore. So, this is a big one also, I think. Yeah, I think if, ah, all organizations that we tested for could really master these two bits, as simple as they seem, they would make hackers' lives drastically harder. Yeah, yeah, no doubt, no doubt. And anything else that you can think of that that we should be doing on this? I think that just a always have a a sort of eye on not assuming that all of your controls are doing what you think that they're doing. You wanna look for things like continuous improvement. Are you testing these things and validating that they're actually being, you know, as effective as you want them to be? Yeah, and I think bottom line is you've gonna be monitoring what's happening out there as well. Make sure that you see if there's behaviors. Now someone's moving laterally or all of a sudden a lot of data starts leaving your environment, ah, in ways that you haven't seen before. Ah. Have those kinda capabilities in place and then ultimately be able to have some sort of incident response capability once you do discover that you've been breached like this and ah and that way you'll be in better situation knowing what to do when that occurs. Definitely So good news, Patrick. We didn't have to burn down that building across the street after all, and I promised that we wouldn't. But, we do have some war stories. At least we have one more story that is on the shelf that you can use. You could take this story back to your colleagues, to your managers and say, look, this could happen to us. This is a very realistic situation that Patrick and his team see all the time. So, what could we do to make sure that this doesn't happen to us and try to leverage those war stories to do, ah, something that will improve your environment? I would definitely say, don't be the one organization in the world who thinks that they're unhackable. They're all hackable, and, ah, they often will be hacked. So, ah, focus on things like continuous improvement. You have a bunch of security controls in your environment. You probably installed them and set them up. But did you go validate and test and make sure that they're doing what you think that they are and improving with the times, making sure they're getting better over time? Because the bad guys are for sure. Yeah, it's gonna be continuous improvement. And one of my favorite sayings is if you're satisfied with your security, so are the bad guys.",
+  "fetchedAt": "2026-01-20T17:13:51.543Z"
+}

@@ -1,0 +1,1024 @@
+{
+  "videoId": "oEA1WgjcL7w",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.2,
+      "text": "If you're using claude code, one of the"
+    },
+    {
+      "start": 1.6,
+      "duration": 3.04,
+      "text": "most important features that they have"
+    },
+    {
+      "start": 3.28,
+      "duration": 3.12,
+      "text": "provided to us is something called"
+    },
+    {
+      "start": 4.64,
+      "duration": 3.44,
+      "text": "skills. And I want to show you how you"
+    },
+    {
+      "start": 6.4,
+      "duration": 4.159,
+      "text": "can create your own skill and actually"
+    },
+    {
+      "start": 8.08,
+      "duration": 5.04,
+      "text": "use it to elevate your claude code"
+    },
+    {
+      "start": 10.559,
+      "duration": 5.12,
+      "text": "coding. So a skill is basically a"
+    },
+    {
+      "start": 13.12,
+      "duration": 4.4,
+      "text": "directory that has a skill.md file. And"
+    },
+    {
+      "start": 15.679,
+      "duration": 3.52,
+      "text": "that skill MD file basically has a"
+    },
+    {
+      "start": 17.52,
+      "duration": 3.599,
+      "text": "description of when the LM should kick"
+    },
+    {
+      "start": 19.199,
+      "duration": 3.92,
+      "text": "in and use it. And it does something"
+    },
+    {
+      "start": 21.119,
+      "duration": 4,
+      "text": "called progressive disclosure. So if the"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.521,
+      "text": "LM doesn't know how to do something, it"
+    },
+    {
+      "start": 25.119,
+      "duration": 3.361,
+      "text": "first looks at all your skills that are"
+    },
+    {
+      "start": 26.64,
+      "duration": 3.76,
+      "text": "set up in your cloud folder and it looks"
+    },
+    {
+      "start": 28.48,
+      "duration": 3.919,
+      "text": "through these skill.md files and then"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.839,
+      "text": "these skill.md files can point to more"
+    },
+    {
+      "start": 32.399,
+      "duration": 4.481,
+      "text": "documentation, can point to different"
+    },
+    {
+      "start": 34.239,
+      "duration": 4.241,
+      "text": "scripts and really teach cloud code how"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.199,
+      "text": "to run different things. And I think the"
+    },
+    {
+      "start": 38.48,
+      "duration": 2.96,
+      "text": "best way to show you what a cloud skill"
+    },
+    {
+      "start": 40.079,
+      "duration": 2.64,
+      "text": "is is let's actually just build one."
+    },
+    {
+      "start": 41.44,
+      "duration": 3.439,
+      "text": "Let's try to see if we can build one"
+    },
+    {
+      "start": 42.719,
+      "duration": 3.281,
+      "text": "live together on this channel and maybe"
+    },
+    {
+      "start": 44.879,
+      "duration": 2.321,
+      "text": "you guys can learn about it. So over"
+    },
+    {
+      "start": 46,
+      "duration": 3.52,
+      "text": "here I'm going to go ahead and just ask"
+    },
+    {
+      "start": 47.2,
+      "duration": 3.679,
+      "text": "composer one to build us out a really"
+    },
+    {
+      "start": 49.52,
+      "duration": 4.08,
+      "text": "simple skill. And what I want to do in"
+    },
+    {
+      "start": 50.879,
+      "duration": 6.081,
+      "text": "this skill is I want to allow me to tell"
+    },
+    {
+      "start": 53.6,
+      "duration": 5.599,
+      "text": "Claude Code to scale down a video. I"
+    },
+    {
+      "start": 56.96,
+      "duration": 5.52,
+      "text": "want to scale down a video using FFmpeg"
+    },
+    {
+      "start": 59.199,
+      "duration": 4.641,
+      "text": "from 1080p down to like 720p and also 4,"
+    },
+    {
+      "start": 62.48,
+      "duration": 3.36,
+      "text": "what was it? 440p or something like"
+    },
+    {
+      "start": 63.84,
+      "duration": 3.599,
+      "text": "that. Now, the way I like to code is"
+    },
+    {
+      "start": 65.84,
+      "duration": 2.959,
+      "text": "doing iterative coding. Some people like"
+    },
+    {
+      "start": 67.439,
+      "duration": 2.321,
+      "text": "doing huge plans and waiting for 10"
+    },
+    {
+      "start": 68.799,
+      "duration": 1.761,
+      "text": "minutes for this to finish, but I'm"
+    },
+    {
+      "start": 69.76,
+      "duration": 2.32,
+      "text": "going to do iterative coding. I think"
+    },
+    {
+      "start": 70.56,
+      "duration": 4.239,
+      "text": "it's more entertaining. Can you create"
+    },
+    {
+      "start": 72.08,
+      "duration": 5.28,
+      "text": "me initial Claude code skill which we"
+    },
+    {
+      "start": 74.799,
+      "duration": 5.441,
+      "text": "can use to basically teach Claude how to"
+    },
+    {
+      "start": 77.36,
+      "duration": 5.2,
+      "text": "use FFmpeg to scale down a 1080p video"
+    },
+    {
+      "start": 80.24,
+      "duration": 5.28,
+      "text": "into smaller versions of that video like"
+    },
+    {
+      "start": 82.56,
+      "duration": 4.32,
+      "text": "720p and 480p. Now we'll see how this"
+    },
+    {
+      "start": 85.52,
+      "duration": 2.88,
+      "text": "does. Sometimes I'll actually grab the"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.04,
+      "text": "entire like documentation of how you can"
+    },
+    {
+      "start": 88.4,
+      "duration": 2.96,
+      "text": "write your own skill. In fact, I'll just"
+    },
+    {
+      "start": 89.92,
+      "duration": 2.8,
+      "text": "stop it now. I'm going to add this in as"
+    },
+    {
+      "start": 91.36,
+      "duration": 2.96,
+      "text": "a reference so we can kind of get more"
+    },
+    {
+      "start": 92.72,
+      "duration": 3.2,
+      "text": "information about how to do this. All"
+    },
+    {
+      "start": 94.32,
+      "duration": 4,
+      "text": "right. So you see it's making aclad"
+    },
+    {
+      "start": 95.92,
+      "duration": 4,
+      "text": "folder. We have some skills and inside"
+    },
+    {
+      "start": 98.32,
+      "duration": 3.439,
+      "text": "of that we have all the different skills"
+    },
+    {
+      "start": 99.92,
+      "duration": 3.76,
+      "text": "of this project. You can install skills"
+    },
+    {
+      "start": 101.759,
+      "duration": 3.841,
+      "text": "globally on your claude like instance or"
+    },
+    {
+      "start": 103.68,
+      "duration": 4.96,
+      "text": "you can install it per per project."
+    },
+    {
+      "start": 105.6,
+      "duration": 4.96,
+      "text": "Right? So we just made a skill over here"
+    },
+    {
+      "start": 108.64,
+      "duration": 4.56,
+      "text": "that teaches claude code how to"
+    },
+    {
+      "start": 110.56,
+      "duration": 4.559,
+      "text": "basically use ffmpeg to take a video and"
+    },
+    {
+      "start": 113.2,
+      "duration": 3.52,
+      "text": "to scale it down. Now from a surface"
+    },
+    {
+      "start": 115.119,
+      "duration": 3.28,
+      "text": "level this isn't too impressive. We just"
+    },
+    {
+      "start": 116.72,
+      "duration": 3.6,
+      "text": "have an MD file that explains how to use"
+    },
+    {
+      "start": 118.399,
+      "duration": 3.121,
+      "text": "ffmpeg. Big whoop, right? What are we"
+    },
+    {
+      "start": 120.32,
+      "duration": 2.72,
+      "text": "saving here? You could have created a"
+    },
+    {
+      "start": 121.52,
+      "duration": 3.599,
+      "text": "slash command for this. You could have"
+    },
+    {
+      "start": 123.04,
+      "duration": 3.679,
+      "text": "created a sub aent for this. Overall"
+    },
+    {
+      "start": 125.119,
+      "duration": 3.521,
+      "text": "like everything is just built around MD"
+    },
+    {
+      "start": 126.719,
+      "duration": 3.841,
+      "text": "files and context at this point. a skill"
+    },
+    {
+      "start": 128.64,
+      "duration": 3.599,
+      "text": "just allows claude code to basically"
+    },
+    {
+      "start": 130.56,
+      "duration": 3.6,
+      "text": "dive into and start using it. Now the"
+    },
+    {
+      "start": 132.239,
+      "duration": 3.36,
+      "text": "cool thing about this is let's say you"
+    },
+    {
+      "start": 134.16,
+      "duration": 3.04,
+      "text": "actually had some custom scripts here"
+    },
+    {
+      "start": 135.599,
+      "duration": 3.041,
+      "text": "like let's make a scripts folder and"
+    },
+    {
+      "start": 137.2,
+      "duration": 3.6,
+      "text": "then I'm going to reprompt composer to"
+    },
+    {
+      "start": 138.64,
+      "duration": 3.92,
+      "text": "kind of split this down into using a"
+    },
+    {
+      "start": 140.8,
+      "duration": 3.36,
+      "text": "progressive disclosure approach and I'll"
+    },
+    {
+      "start": 142.56,
+      "duration": 3.6,
+      "text": "kind of talk about as well. Can you"
+    },
+    {
+      "start": 144.16,
+      "duration": 3.68,
+      "text": "please break this skill MD file into"
+    },
+    {
+      "start": 146.16,
+      "duration": 3.92,
+      "text": "using progressive disclosure. I want to"
+    },
+    {
+      "start": 147.84,
+      "duration": 4.08,
+      "text": "keep the skill MD as slim as possible"
+    },
+    {
+      "start": 150.08,
+      "duration": 4.32,
+      "text": "and then I want you to have another MD"
+    },
+    {
+      "start": 151.92,
+      "duration": 4.319,
+      "text": "that explains how to run a script that"
+    },
+    {
+      "start": 154.4,
+      "duration": 2.96,
+      "text": "I'm going to use to run ffmpeg. And then"
+    },
+    {
+      "start": 156.239,
+      "duration": 3.201,
+      "text": "I want you to create a node script"
+    },
+    {
+      "start": 157.36,
+      "duration": 3.599,
+      "text": "inside my scripts folder that this new"
+    },
+    {
+      "start": 159.44,
+      "duration": 3.84,
+      "text": "progressive disclosure script should"
+    },
+    {
+      "start": 160.959,
+      "duration": 3.92,
+      "text": "describe how to run using node. And node"
+    },
+    {
+      "start": 163.28,
+      "duration": 5.039,
+      "text": "should just use like a child process to"
+    },
+    {
+      "start": 164.879,
+      "duration": 4.881,
+      "text": "invoke ffmpeg to scale down the video."
+    },
+    {
+      "start": 168.319,
+      "duration": 3.121,
+      "text": "So why am I doing this whole progressive"
+    },
+    {
+      "start": 169.76,
+      "duration": 4.16,
+      "text": "disclosure thing? If you keep your skill"
+    },
+    {
+      "start": 171.44,
+      "duration": 4.4,
+      "text": "MD file very short and concise, you can"
+    },
+    {
+      "start": 173.92,
+      "duration": 3.84,
+      "text": "have it act like a table of contents. So"
+    },
+    {
+      "start": 175.84,
+      "duration": 4.88,
+      "text": "like let's say someone wanted to learn"
+    },
+    {
+      "start": 177.76,
+      "duration": 4.64,
+      "text": "how to scale down using Python or using"
+    },
+    {
+      "start": 180.72,
+      "duration": 3.92,
+      "text": "Node or using Java. You could actually"
+    },
+    {
+      "start": 182.4,
+      "duration": 4.24,
+      "text": "have different folders that describe how"
+    },
+    {
+      "start": 184.64,
+      "duration": 3.92,
+      "text": "to do ffmpeg scaling in these different"
+    },
+    {
+      "start": 186.64,
+      "duration": 3.44,
+      "text": "languages or libraries. So if someone"
+    },
+    {
+      "start": 188.56,
+      "duration": 2.88,
+      "text": "were to pull your skill, not only would"
+    },
+    {
+      "start": 190.08,
+      "duration": 2.32,
+      "text": "it work for node, it could work for all"
+    },
+    {
+      "start": 191.44,
+      "duration": 2.4,
+      "text": "the different languages that you're"
+    },
+    {
+      "start": 192.4,
+      "duration": 3.36,
+      "text": "trying to support. And you could have"
+    },
+    {
+      "start": 193.84,
+      "duration": 3.52,
+      "text": "very fine grain details of all the"
+    },
+    {
+      "start": 195.76,
+      "duration": 4.16,
+      "text": "different languages, right? So we have a"
+    },
+    {
+      "start": 197.36,
+      "duration": 4.239,
+      "text": "skill now. We have a script.md. We have"
+    },
+    {
+      "start": 199.92,
+      "duration": 2.959,
+      "text": "a scripts folder, which I do believe"
+    },
+    {
+      "start": 201.599,
+      "duration": 3.36,
+      "text": "this is in the wrong directory. I need"
+    },
+    {
+      "start": 202.879,
+      "duration": 4.401,
+      "text": "to put it in my skills. And notice here"
+    },
+    {
+      "start": 204.959,
+      "duration": 5.36,
+      "text": "in the skill.md, it points to node"
+    },
+    {
+      "start": 207.28,
+      "duration": 4.16,
+      "text": "scripts scale video. All right. And so"
+    },
+    {
+      "start": 210.319,
+      "duration": 2.881,
+      "text": "hopefully you'll know how to actually"
+    },
+    {
+      "start": 211.44,
+      "duration": 3.359,
+      "text": "reference that. Now granted, this might"
+    },
+    {
+      "start": 213.2,
+      "duration": 3.52,
+      "text": "be a silly approach. I'm sure the models"
+    },
+    {
+      "start": 214.799,
+      "duration": 4.241,
+      "text": "already know how to use ffmpeg. So like"
+    },
+    {
+      "start": 216.72,
+      "duration": 3.84,
+      "text": "having generating a script might not be"
+    },
+    {
+      "start": 219.04,
+      "duration": 4.16,
+      "text": "that important, but the point is is that"
+    },
+    {
+      "start": 220.56,
+      "duration": 5.44,
+      "text": "now you can teach claude code how to use"
+    },
+    {
+      "start": 223.2,
+      "duration": 4.72,
+      "text": "particular scripts or runtimes or"
+    },
+    {
+      "start": 226,
+      "duration": 3.76,
+      "text": "executables instead of it having to go"
+    },
+    {
+      "start": 227.92,
+      "duration": 3.28,
+      "text": "and try to figure stuff out. Because as"
+    },
+    {
+      "start": 229.76,
+      "duration": 3.199,
+      "text": "you've seen, sometimes it hallucinates,"
+    },
+    {
+      "start": 231.2,
+      "duration": 3.2,
+      "text": "sometimes it gets stuff wrong. And you"
+    },
+    {
+      "start": 232.959,
+      "duration": 2.881,
+      "text": "can actually have these skills be"
+    },
+    {
+      "start": 234.4,
+      "duration": 2.64,
+      "text": "publishable to the internet. Other"
+    },
+    {
+      "start": 235.84,
+      "duration": 2.88,
+      "text": "people can grab them and start running"
+    },
+    {
+      "start": 237.04,
+      "duration": 3.36,
+      "text": "them. So now that we have the skill, I"
+    },
+    {
+      "start": 238.72,
+      "duration": 3.12,
+      "text": "want to put an MP4 file here. And I'm"
+    },
+    {
+      "start": 240.4,
+      "duration": 2.8,
+      "text": "going to go ahead and type in /skills."
+    },
+    {
+      "start": 241.84,
+      "duration": 4.64,
+      "text": "And I want to show you that we have an"
+    },
+    {
+      "start": 243.2,
+      "duration": 4.56,
+      "text": "FFmpeg video scaling skill, right? And"
+    },
+    {
+      "start": 246.48,
+      "duration": 3.839,
+      "text": "so what I could do is I could prompt"
+    },
+    {
+      "start": 247.76,
+      "duration": 5.52,
+      "text": "Claude Code, use the FFmpeg video"
+    },
+    {
+      "start": 250.319,
+      "duration": 5.12,
+      "text": "scaling skill to scale down the one MP4"
+    },
+    {
+      "start": 253.28,
+      "duration": 5.04,
+      "text": "file I have in my directory into its"
+    },
+    {
+      "start": 255.439,
+      "duration": 4.64,
+      "text": "smaller resolution equivalent. And then"
+    },
+    {
+      "start": 258.32,
+      "duration": 3.039,
+      "text": "I'll go ahead and kick off this prompt."
+    },
+    {
+      "start": 260.079,
+      "duration": 3.441,
+      "text": "And now you should see that it's going"
+    },
+    {
+      "start": 261.359,
+      "duration": 4.081,
+      "text": "to actually engage my skill. And it's"
+    },
+    {
+      "start": 263.52,
+      "duration": 4.64,
+      "text": "going to use that skill MD file to dive"
+    },
+    {
+      "start": 265.44,
+      "duration": 3.759,
+      "text": "into how it can use these scripts. And"
+    },
+    {
+      "start": 268.16,
+      "duration": 2.4,
+      "text": "then it's going to figure out that I'm"
+    },
+    {
+      "start": 269.199,
+      "duration": 2.881,
+      "text": "going to use node probably. And then"
+    },
+    {
+      "start": 270.56,
+      "duration": 3.04,
+      "text": "it's going to actually run my node"
+    },
+    {
+      "start": 272.08,
+      "duration": 3.28,
+      "text": "script. It's going to learn how to run"
+    },
+    {
+      "start": 273.6,
+      "duration": 3.92,
+      "text": "the node script. It's going to pass in"
+    },
+    {
+      "start": 275.36,
+      "duration": 3.68,
+      "text": "my MP4 file to the script. And then"
+    },
+    {
+      "start": 277.52,
+      "duration": 4,
+      "text": "hopefully after this, we should actually"
+    },
+    {
+      "start": 279.04,
+      "duration": 4.64,
+      "text": "see it list out all of our rendered"
+    },
+    {
+      "start": 281.52,
+      "duration": 3.52,
+      "text": "lower resolution files. And now you can"
+    },
+    {
+      "start": 283.68,
+      "duration": 3.68,
+      "text": "see here it's actually running node"
+    },
+    {
+      "start": 285.04,
+      "duration": 4.8,
+      "text": "against my skill. It's running my scale"
+    },
+    {
+      "start": 287.36,
+      "duration": 3.76,
+      "text": "video.js file. It passed in the original"
+    },
+    {
+      "start": 289.84,
+      "duration": 3.84,
+      "text": "input video. And now we're getting a"
+    },
+    {
+      "start": 291.12,
+      "duration": 5.12,
+      "text": "720p output. We should be getting a"
+    },
+    {
+      "start": 293.68,
+      "duration": 3.92,
+      "text": "lower output, the 480 soon. And there"
+    },
+    {
+      "start": 296.24,
+      "duration": 2.64,
+      "text": "you have it. So that's how a skill kind"
+    },
+    {
+      "start": 297.6,
+      "duration": 3.599,
+      "text": "of works. You have this directory that"
+    },
+    {
+      "start": 298.88,
+      "duration": 4.16,
+      "text": "has a skill.md file that describes how"
+    },
+    {
+      "start": 301.199,
+      "duration": 4,
+      "text": "it can reach into other things to do"
+    },
+    {
+      "start": 303.04,
+      "duration": 3.999,
+      "text": "progressive disclosure to really learn"
+    },
+    {
+      "start": 305.199,
+      "duration": 3.121,
+      "text": "how to run the skill. And then you can"
+    },
+    {
+      "start": 307.039,
+      "duration": 2.801,
+      "text": "have many different scripts. You can"
+    },
+    {
+      "start": 308.32,
+      "duration": 4.4,
+      "text": "actually put CSV files in here. You can"
+    },
+    {
+      "start": 309.84,
+      "duration": 5.12,
+      "text": "put data in here. So the skill can enact"
+    },
+    {
+      "start": 312.72,
+      "duration": 3.36,
+      "text": "and engage different things when it"
+    },
+    {
+      "start": 314.96,
+      "duration": 3.28,
+      "text": "needs it. And that's going to keep your"
+    },
+    {
+      "start": 316.08,
+      "duration": 3.44,
+      "text": "context window small. The other really"
+    },
+    {
+      "start": 318.24,
+      "duration": 3.04,
+      "text": "good benefit of this is that you can"
+    },
+    {
+      "start": 319.52,
+      "duration": 3.679,
+      "text": "publish your skill to a marketplace,"
+    },
+    {
+      "start": 321.28,
+      "duration": 3.84,
+      "text": "which if you actually type in /plugins"
+    },
+    {
+      "start": 323.199,
+      "duration": 3.681,
+      "text": "and if I go to marketplaces over here,"
+    },
+    {
+      "start": 325.12,
+      "duration": 3.44,
+      "text": "you can actually have a repo that stores"
+    },
+    {
+      "start": 326.88,
+      "duration": 3.52,
+      "text": "all of your skills and your slash"
+    },
+    {
+      "start": 328.56,
+      "duration": 4.16,
+      "text": "commands and whatever and people can"
+    },
+    {
+      "start": 330.4,
+      "duration": 3.6,
+      "text": "install that to their local cloud code"
+    },
+    {
+      "start": 332.72,
+      "duration": 2.64,
+      "text": "instance and start installing your"
+    },
+    {
+      "start": 334,
+      "duration": 3.199,
+      "text": "plugins. So, if I wanted to make a"
+    },
+    {
+      "start": 335.36,
+      "duration": 3.36,
+      "text": "marketplace for my skills, I could do"
+    },
+    {
+      "start": 337.199,
+      "duration": 3.28,
+      "text": "that and people could download the web"
+    },
+    {
+      "start": 338.72,
+      "duration": 2.88,
+      "text": "dev coding marketplace and see all of"
+    },
+    {
+      "start": 340.479,
+      "duration": 2.241,
+      "text": "the plugins and skills that I've"
+    },
+    {
+      "start": 341.6,
+      "duration": 2.56,
+      "text": "published. But I'm not going to kind of"
+    },
+    {
+      "start": 342.72,
+      "duration": 2.72,
+      "text": "dive into that in this video. Maybe in a"
+    },
+    {
+      "start": 344.16,
+      "duration": 3.039,
+      "text": "future video. And I really think"
+    },
+    {
+      "start": 345.44,
+      "duration": 4.4,
+      "text": "becoming a power user of skills can make"
+    },
+    {
+      "start": 347.199,
+      "duration": 4.241,
+      "text": "you a much better cla developer or just"
+    },
+    {
+      "start": 349.84,
+      "duration": 2.799,
+      "text": "a developer in general. That's about it."
+    },
+    {
+      "start": 351.44,
+      "duration": 2.8,
+      "text": "If you guys want more tips and tricks"
+    },
+    {
+      "start": 352.639,
+      "duration": 3.361,
+      "text": "about agent coding, go check out agentic"
+    },
+    {
+      "start": 354.24,
+      "duration": 3.76,
+      "text": "jumpstart.com. This is my course. I have"
+    },
+    {
+      "start": 356,
+      "duration": 3.6,
+      "text": "over 80 videos, 12 hours of content. I"
+    },
+    {
+      "start": 358,
+      "duration": 3.52,
+      "text": "teach about cloud code. I teach about"
+    },
+    {
+      "start": 359.6,
+      "duration": 3.76,
+      "text": "cursor. I give you a walkthrough of how"
+    },
+    {
+      "start": 361.52,
+      "duration": 3.04,
+      "text": "I do agent coding my workflows. And then"
+    },
+    {
+      "start": 363.36,
+      "duration": 2.48,
+      "text": "we build out a full stack web"
+    },
+    {
+      "start": 364.56,
+      "duration": 2.8,
+      "text": "application using Drizzle, using"
+    },
+    {
+      "start": 365.84,
+      "duration": 2.96,
+      "text": "Tanstack, using Postgress and get it"
+    },
+    {
+      "start": 367.36,
+      "duration": 2.48,
+      "text": "deployed out to an actual environment."
+    },
+    {
+      "start": 368.8,
+      "duration": 3.28,
+      "text": "So I do think this is a really great"
+    },
+    {
+      "start": 369.84,
+      "duration": 3.919,
+      "text": "value. Go check out agenticjumpstart.com"
+    },
+    {
+      "start": 372.08,
+      "duration": 4.48,
+      "text": "if you're interested. Other than that,"
+    },
+    {
+      "start": 373.759,
+      "duration": 2.801,
+      "text": "have a good day and happy coding."
+    }
+  ],
+  "fullText": "If you're using claude code, one of the most important features that they have provided to us is something called skills. And I want to show you how you can create your own skill and actually use it to elevate your claude code coding. So a skill is basically a directory that has a skill.md file. And that skill MD file basically has a description of when the LM should kick in and use it. And it does something called progressive disclosure. So if the LM doesn't know how to do something, it first looks at all your skills that are set up in your cloud folder and it looks through these skill.md files and then these skill.md files can point to more documentation, can point to different scripts and really teach cloud code how to run different things. And I think the best way to show you what a cloud skill is is let's actually just build one. Let's try to see if we can build one live together on this channel and maybe you guys can learn about it. So over here I'm going to go ahead and just ask composer one to build us out a really simple skill. And what I want to do in this skill is I want to allow me to tell Claude Code to scale down a video. I want to scale down a video using FFmpeg from 1080p down to like 720p and also 4, what was it? 440p or something like that. Now, the way I like to code is doing iterative coding. Some people like doing huge plans and waiting for 10 minutes for this to finish, but I'm going to do iterative coding. I think it's more entertaining. Can you create me initial Claude code skill which we can use to basically teach Claude how to use FFmpeg to scale down a 1080p video into smaller versions of that video like 720p and 480p. Now we'll see how this does. Sometimes I'll actually grab the entire like documentation of how you can write your own skill. In fact, I'll just stop it now. I'm going to add this in as a reference so we can kind of get more information about how to do this. All right. So you see it's making aclad folder. We have some skills and inside of that we have all the different skills of this project. You can install skills globally on your claude like instance or you can install it per per project. Right? So we just made a skill over here that teaches claude code how to basically use ffmpeg to take a video and to scale it down. Now from a surface level this isn't too impressive. We just have an MD file that explains how to use ffmpeg. Big whoop, right? What are we saving here? You could have created a slash command for this. You could have created a sub aent for this. Overall like everything is just built around MD files and context at this point. a skill just allows claude code to basically dive into and start using it. Now the cool thing about this is let's say you actually had some custom scripts here like let's make a scripts folder and then I'm going to reprompt composer to kind of split this down into using a progressive disclosure approach and I'll kind of talk about as well. Can you please break this skill MD file into using progressive disclosure. I want to keep the skill MD as slim as possible and then I want you to have another MD that explains how to run a script that I'm going to use to run ffmpeg. And then I want you to create a node script inside my scripts folder that this new progressive disclosure script should describe how to run using node. And node should just use like a child process to invoke ffmpeg to scale down the video. So why am I doing this whole progressive disclosure thing? If you keep your skill MD file very short and concise, you can have it act like a table of contents. So like let's say someone wanted to learn how to scale down using Python or using Node or using Java. You could actually have different folders that describe how to do ffmpeg scaling in these different languages or libraries. So if someone were to pull your skill, not only would it work for node, it could work for all the different languages that you're trying to support. And you could have very fine grain details of all the different languages, right? So we have a skill now. We have a script.md. We have a scripts folder, which I do believe this is in the wrong directory. I need to put it in my skills. And notice here in the skill.md, it points to node scripts scale video. All right. And so hopefully you'll know how to actually reference that. Now granted, this might be a silly approach. I'm sure the models already know how to use ffmpeg. So like having generating a script might not be that important, but the point is is that now you can teach claude code how to use particular scripts or runtimes or executables instead of it having to go and try to figure stuff out. Because as you've seen, sometimes it hallucinates, sometimes it gets stuff wrong. And you can actually have these skills be publishable to the internet. Other people can grab them and start running them. So now that we have the skill, I want to put an MP4 file here. And I'm going to go ahead and type in /skills. And I want to show you that we have an FFmpeg video scaling skill, right? And so what I could do is I could prompt Claude Code, use the FFmpeg video scaling skill to scale down the one MP4 file I have in my directory into its smaller resolution equivalent. And then I'll go ahead and kick off this prompt. And now you should see that it's going to actually engage my skill. And it's going to use that skill MD file to dive into how it can use these scripts. And then it's going to figure out that I'm going to use node probably. And then it's going to actually run my node script. It's going to learn how to run the node script. It's going to pass in my MP4 file to the script. And then hopefully after this, we should actually see it list out all of our rendered lower resolution files. And now you can see here it's actually running node against my skill. It's running my scale video.js file. It passed in the original input video. And now we're getting a 720p output. We should be getting a lower output, the 480 soon. And there you have it. So that's how a skill kind of works. You have this directory that has a skill.md file that describes how it can reach into other things to do progressive disclosure to really learn how to run the skill. And then you can have many different scripts. You can actually put CSV files in here. You can put data in here. So the skill can enact and engage different things when it needs it. And that's going to keep your context window small. The other really good benefit of this is that you can publish your skill to a marketplace, which if you actually type in /plugins and if I go to marketplaces over here, you can actually have a repo that stores all of your skills and your slash commands and whatever and people can install that to their local cloud code instance and start installing your plugins. So, if I wanted to make a marketplace for my skills, I could do that and people could download the web dev coding marketplace and see all of the plugins and skills that I've published. But I'm not going to kind of dive into that in this video. Maybe in a future video. And I really think becoming a power user of skills can make you a much better cla developer or just a developer in general. That's about it. If you guys want more tips and tricks about agent coding, go check out agentic jumpstart.com. This is my course. I have over 80 videos, 12 hours of content. I teach about cloud code. I teach about cursor. I give you a walkthrough of how I do agent coding my workflows. And then we build out a full stack web application using Drizzle, using Tanstack, using Postgress and get it deployed out to an actual environment. So I do think this is a really great value. Go check out agenticjumpstart.com if you're interested. Other than that, have a good day and happy coding.",
+  "fetchedAt": "2026-01-18T18:34:11.317Z"
+}

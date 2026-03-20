@@ -1,0 +1,779 @@
+{
+  "videoId": "B7VPMKW5tnk",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.76,
+      "text": "Hello and welcome to this video about"
+    },
+    {
+      "start": 1.68,
+      "duration": 3.52,
+      "text": "OpenSpec, a specdriven development tool."
+    },
+    {
+      "start": 3.76,
+      "duration": 4.079,
+      "text": "There are quite a few great videos out"
+    },
+    {
+      "start": 5.2,
+      "duration": 4.56,
+      "text": "there which talk about what OpenSpec is."
+    },
+    {
+      "start": 7.839,
+      "duration": 4.561,
+      "text": "What I'm going to focus on here is what"
+    },
+    {
+      "start": 9.76,
+      "duration": 5.36,
+      "text": "makes OpenSpec unique and that is the"
+    },
+    {
+      "start": 12.4,
+      "duration": 4.879,
+      "text": "workflow itself. Now in this swim lane"
+    },
+    {
+      "start": 15.12,
+      "duration": 5.12,
+      "text": "diagram what we have is the interaction"
+    },
+    {
+      "start": 17.279,
+      "duration": 5.281,
+      "text": "between us the humans and the AI which"
+    },
+    {
+      "start": 20.24,
+      "duration": 4.32,
+      "text": "could be your claude code your codec or"
+    },
+    {
+      "start": 22.56,
+      "duration": 4.479,
+      "text": "your Gemini CLI and the files that are"
+    },
+    {
+      "start": 24.56,
+      "duration": 5.119,
+      "text": "generated. Now OpenSpec has a"
+    },
+    {
+      "start": 27.039,
+      "duration": 4.961,
+      "text": "three-phase process. We propose, we"
+    },
+    {
+      "start": 29.679,
+      "duration": 5.201,
+      "text": "apply and then we archive a change. When"
+    },
+    {
+      "start": 32,
+      "duration": 5.2,
+      "text": "we propose a change, uh the AI helps us"
+    },
+    {
+      "start": 34.88,
+      "duration": 4.4,
+      "text": "draft the change proposal in terms of a"
+    },
+    {
+      "start": 37.2,
+      "duration": 4.48,
+      "text": "delta format. A delta format is"
+    },
+    {
+      "start": 39.28,
+      "duration": 4.32,
+      "text": "basically it says what is being added,"
+    },
+    {
+      "start": 41.68,
+      "duration": 4.48,
+      "text": "modified and removed as part of this"
+    },
+    {
+      "start": 43.6,
+      "duration": 5.119,
+      "text": "particular feature addition. Now this is"
+    },
+    {
+      "start": 46.16,
+      "duration": 4.399,
+      "text": "crucial because in the final step I'll"
+    },
+    {
+      "start": 48.719,
+      "duration": 3.281,
+      "text": "tell you why this matters. Now"
+    },
+    {
+      "start": 50.559,
+      "duration": 4.081,
+      "text": "eventually once you're happy with this"
+    },
+    {
+      "start": 52,
+      "duration": 4.64,
+      "text": "and you review it and you want to you"
+    },
+    {
+      "start": 54.64,
+      "duration": 4.719,
+      "text": "know go ahead and implement this change"
+    },
+    {
+      "start": 56.64,
+      "duration": 5.04,
+      "text": "you say apply and that will go ahead go"
+    },
+    {
+      "start": 59.359,
+      "duration": 5.281,
+      "text": "through the task list and go uh you know"
+    },
+    {
+      "start": 61.68,
+      "duration": 4.88,
+      "text": "completes the tasking itself and uh"
+    },
+    {
+      "start": 64.64,
+      "duration": 3.92,
+      "text": "basically your implementation is"
+    },
+    {
+      "start": 66.56,
+      "duration": 4.239,
+      "text": "generated. Now if you're happy with your"
+    },
+    {
+      "start": 68.56,
+      "duration": 4.08,
+      "text": "implementation you can ship it and once"
+    },
+    {
+      "start": 70.799,
+      "duration": 3.521,
+      "text": "it's shipped you can say this particular"
+    },
+    {
+      "start": 72.64,
+      "duration": 4.08,
+      "text": "change has been achieved so let's"
+    },
+    {
+      "start": 74.32,
+      "duration": 4.799,
+      "text": "archive it. At this point is where the"
+    },
+    {
+      "start": 76.72,
+      "duration": 5.52,
+      "text": "unique capability of openspec comes in"
+    },
+    {
+      "start": 79.119,
+      "duration": 6.481,
+      "text": "wherein it merges or rather takes this"
+    },
+    {
+      "start": 82.24,
+      "duration": 5.6,
+      "text": "delta that you created and then merges"
+    },
+    {
+      "start": 85.6,
+      "duration": 4.72,
+      "text": "it into some something called a source"
+    },
+    {
+      "start": 87.84,
+      "duration": 4.239,
+      "text": "of truth specification. Now what is a"
+    },
+    {
+      "start": 90.32,
+      "duration": 4.08,
+      "text": "source of truth specification? So for"
+    },
+    {
+      "start": 92.079,
+      "duration": 6.321,
+      "text": "this let me give you a rough comparison"
+    },
+    {
+      "start": 94.4,
+      "duration": 6.399,
+      "text": "with how GitHub specit operates."
+    },
+    {
+      "start": 98.4,
+      "duration": 4.16,
+      "text": "I have the sample project here or rather"
+    },
+    {
+      "start": 100.799,
+      "duration": 3.761,
+      "text": "a live project which I'm actually using"
+    },
+    {
+      "start": 102.56,
+      "duration": 4.72,
+      "text": "and building this. I've been building it"
+    },
+    {
+      "start": 104.56,
+      "duration": 5.04,
+      "text": "with specit and uh if those of you are"
+    },
+    {
+      "start": 107.28,
+      "duration": 6.08,
+      "text": "familiar specit generates a folder for"
+    },
+    {
+      "start": 109.6,
+      "duration": 6.4,
+      "text": "each uh specification or specify feature"
+    },
+    {
+      "start": 113.36,
+      "duration": 4.719,
+      "text": "that I go through. Now the difficulty I"
+    },
+    {
+      "start": 116,
+      "duration": 5.119,
+      "text": "have here is I may have introduced a"
+    },
+    {
+      "start": 118.079,
+      "duration": 5.68,
+      "text": "capability in feature number one and"
+    },
+    {
+      "start": 121.119,
+      "duration": 6.161,
+      "text": "subsequently when I built feature number"
+    },
+    {
+      "start": 123.759,
+      "duration": 5.84,
+      "text": "six I may have removed it or modified it"
+    },
+    {
+      "start": 127.28,
+      "duration": 4.319,
+      "text": "significantly. So at any given point in"
+    },
+    {
+      "start": 129.599,
+      "duration": 3.521,
+      "text": "time I cannot say that all of these"
+    },
+    {
+      "start": 131.599,
+      "duration": 5.041,
+      "text": "specifications which are sitting inside"
+    },
+    {
+      "start": 133.12,
+      "duration": 5.44,
+      "text": "the specs folder are representative of"
+    },
+    {
+      "start": 136.64,
+      "duration": 4.959,
+      "text": "the actual code or the implementation"
+    },
+    {
+      "start": 138.56,
+      "duration": 4.56,
+      "text": "that exists in this particular repo and"
+    },
+    {
+      "start": 141.599,
+      "duration": 3.28,
+      "text": "that's only the beginning right there"
+    },
+    {
+      "start": 143.12,
+      "duration": 3.92,
+      "text": "can be a lot more deviation. So"
+    },
+    {
+      "start": 144.879,
+      "duration": 5.36,
+      "text": "basically what it means is the specs"
+    },
+    {
+      "start": 147.04,
+      "duration": 4.96,
+      "text": "here because of the workflow itself is"
+    },
+    {
+      "start": 150.239,
+      "duration": 4.561,
+      "text": "not necessary for all of them to be in"
+    },
+    {
+      "start": 152,
+      "duration": 4.72,
+      "text": "line with the actual application code at"
+    },
+    {
+      "start": 154.8,
+      "duration": 4.48,
+      "text": "any given point in time. And this is"
+    },
+    {
+      "start": 156.72,
+      "duration": 4.56,
+      "text": "where openspec significantly differs."
+    },
+    {
+      "start": 159.28,
+      "duration": 4.4,
+      "text": "Now this is another website which I've"
+    },
+    {
+      "start": 161.28,
+      "duration": 5.28,
+      "text": "been building with openspec and openspec"
+    },
+    {
+      "start": 163.68,
+      "duration": 4.639,
+      "text": "has two separate folders. One is called"
+    },
+    {
+      "start": 166.56,
+      "duration": 3.84,
+      "text": "the changes where you can keep the"
+    },
+    {
+      "start": 168.319,
+      "duration": 5.121,
+      "text": "archived sections. This is very much"
+    },
+    {
+      "start": 170.4,
+      "duration": 4.72,
+      "text": "similar to how the github spec kit if"
+    },
+    {
+      "start": 173.44,
+      "duration": 4,
+      "text": "you want to call it right like you know"
+    },
+    {
+      "start": 175.12,
+      "duration": 6.479,
+      "text": "it's got all the feature related"
+    },
+    {
+      "start": 177.44,
+      "duration": 6.24,
+      "text": "documents here. And uh if you look at u"
+    },
+    {
+      "start": 181.599,
+      "duration": 4.081,
+      "text": "any change which you look at uh let's"
+    },
+    {
+      "start": 183.68,
+      "duration": 3.839,
+      "text": "open some of this and if you open the"
+    },
+    {
+      "start": 185.68,
+      "duration": 4.479,
+      "text": "spec you will see that it's in the delta"
+    },
+    {
+      "start": 187.519,
+      "duration": 6.241,
+      "text": "format that I modifi that I mentioned."
+    },
+    {
+      "start": 190.159,
+      "duration": 5.761,
+      "text": "So uh let me open the navigation. If I"
+    },
+    {
+      "start": 193.76,
+      "duration": 4.24,
+      "text": "open the specs section you'll notice"
+    },
+    {
+      "start": 195.92,
+      "duration": 4.319,
+      "text": "that it says these are the requirements"
+    },
+    {
+      "start": 198,
+      "duration": 5.76,
+      "text": "that were added as part of this feature"
+    },
+    {
+      "start": 200.239,
+      "duration": 5.681,
+      "text": "to uh add a markdown blog and this is"
+    },
+    {
+      "start": 203.76,
+      "duration": 3.759,
+      "text": "the modifications that were made to the"
+    },
+    {
+      "start": 205.92,
+      "duration": 4.879,
+      "text": "navigation as part of this particular"
+    },
+    {
+      "start": 207.519,
+      "duration": 5.28,
+      "text": "feature. And once I archived this, once"
+    },
+    {
+      "start": 210.799,
+      "duration": 4.72,
+      "text": "I built this feature and archived it,"
+    },
+    {
+      "start": 212.799,
+      "duration": 4.321,
+      "text": "all of this got merged into my source of"
+    },
+    {
+      "start": 215.519,
+      "duration": 4.241,
+      "text": "truth specification which sits right"
+    },
+    {
+      "start": 217.12,
+      "duration": 5.199,
+      "text": "here at the top level. And this is my"
+    },
+    {
+      "start": 219.76,
+      "duration": 5.039,
+      "text": "overall navigation spec for the current"
+    },
+    {
+      "start": 222.319,
+      "duration": 4.881,
+      "text": "application as it stands. So this is"
+    },
+    {
+      "start": 224.799,
+      "duration": 4.72,
+      "text": "fully in lock step with the actual code"
+    },
+    {
+      "start": 227.2,
+      "duration": 4.88,
+      "text": "and this is really really important from"
+    },
+    {
+      "start": 229.519,
+      "duration": 6.161,
+      "text": "a uh concept that was explained very"
+    },
+    {
+      "start": 232.08,
+      "duration": 5.12,
+      "text": "well by Betta in her blog post on"
+    },
+    {
+      "start": 235.68,
+      "duration": 3.04,
+      "text": "martinfaller.com."
+    },
+    {
+      "start": 237.2,
+      "duration": 4.64,
+      "text": "What she classifies specdriven"
+    },
+    {
+      "start": 238.72,
+      "duration": 5.36,
+      "text": "development tools is based on uh like"
+    },
+    {
+      "start": 241.84,
+      "duration": 3.84,
+      "text": "you know how much the spec and the code"
+    },
+    {
+      "start": 244.08,
+      "duration": 4.799,
+      "text": "are in line with each other based on"
+    },
+    {
+      "start": 245.68,
+      "duration": 5.199,
+      "text": "spec first spec anchor and spec source."
+    },
+    {
+      "start": 248.879,
+      "duration": 4.481,
+      "text": "Now spec first is where you use the"
+    },
+    {
+      "start": 250.879,
+      "duration": 6.08,
+      "text": "specdriven development tool to come up"
+    },
+    {
+      "start": 253.36,
+      "duration": 5.2,
+      "text": "with the you know the detailed tasking"
+    },
+    {
+      "start": 256.959,
+      "duration": 3.201,
+      "text": "uh and the spec for building out the"
+    },
+    {
+      "start": 258.56,
+      "duration": 4.56,
+      "text": "application itself. But thereafter do"
+    },
+    {
+      "start": 260.16,
+      "duration": 4.64,
+      "text": "you strive to keep the application code"
+    },
+    {
+      "start": 263.12,
+      "duration": 3.519,
+      "text": "in line with the spec? Maybe not. It's"
+    },
+    {
+      "start": 264.8,
+      "duration": 3.36,
+      "text": "just throw away right? It's a thinking"
+    },
+    {
+      "start": 266.639,
+      "duration": 3.681,
+      "text": "process."
+    },
+    {
+      "start": 268.16,
+      "duration": 4.96,
+      "text": "But spec anchored is interesting because"
+    },
+    {
+      "start": 270.32,
+      "duration": 6.319,
+      "text": "at this point you can potentially say"
+    },
+    {
+      "start": 273.12,
+      "duration": 5.92,
+      "text": "that the spec and the code are always in"
+    },
+    {
+      "start": 276.639,
+      "duration": 4.961,
+      "text": "line. And this is where I find openspec"
+    },
+    {
+      "start": 279.04,
+      "duration": 4.24,
+      "text": "unique because openspec has a source of"
+    },
+    {
+      "start": 281.6,
+      "duration": 3.52,
+      "text": "truth specification which can"
+    },
+    {
+      "start": 283.28,
+      "duration": 3.919,
+      "text": "technically be called as something that"
+    },
+    {
+      "start": 285.12,
+      "duration": 4,
+      "text": "we can anchor the application on. I"
+    },
+    {
+      "start": 287.199,
+      "duration": 4,
+      "text": "could make a small little code change"
+    },
+    {
+      "start": 289.12,
+      "duration": 4.16,
+      "text": "and uh you know try running a validate"
+    },
+    {
+      "start": 291.199,
+      "duration": 4.081,
+      "text": "and the validate might fail or I can"
+    },
+    {
+      "start": 293.28,
+      "duration": 3.44,
+      "text": "make a spec change and if I run the"
+    },
+    {
+      "start": 295.28,
+      "duration": 3.04,
+      "text": "validate it will fail. So basically"
+    },
+    {
+      "start": 296.72,
+      "duration": 4.24,
+      "text": "there's a potential here to keep the"
+    },
+    {
+      "start": 298.32,
+      "duration": 4.8,
+      "text": "source of truth specification anchored"
+    },
+    {
+      "start": 300.96,
+      "duration": 3.44,
+      "text": "with the actual application itself and"
+    },
+    {
+      "start": 303.12,
+      "duration": 3.519,
+      "text": "that's where that's what makes it"
+    },
+    {
+      "start": 304.4,
+      "duration": 4.72,
+      "text": "unique. Now obviously we could all"
+    },
+    {
+      "start": 306.639,
+      "duration": 4.801,
+      "text": "strive for spec source which is how I"
+    },
+    {
+      "start": 309.12,
+      "duration": 5.84,
+      "text": "generally operate even now I never make"
+    },
+    {
+      "start": 311.44,
+      "duration": 5.28,
+      "text": "code changes. I only make changes from"
+    },
+    {
+      "start": 314.96,
+      "duration": 3.679,
+      "text": "uh the spec itself. If I need to make"
+    },
+    {
+      "start": 316.72,
+      "duration": 4.16,
+      "text": "even a tiny bit of change, I propose it"
+    },
+    {
+      "start": 318.639,
+      "duration": 4.241,
+      "text": "and then that uh you know translates"
+    },
+    {
+      "start": 320.88,
+      "duration": 4.48,
+      "text": "into code. But do we want to go there?"
+    },
+    {
+      "start": 322.88,
+      "duration": 5.2,
+      "text": "Maybe that's another uh talk by itself"
+    },
+    {
+      "start": 325.36,
+      "duration": 4.32,
+      "text": "or another video. But for now, what I'll"
+    },
+    {
+      "start": 328.08,
+      "duration": 3.6,
+      "text": "leave you with is if you haven't tried"
+    },
+    {
+      "start": 329.68,
+      "duration": 4.48,
+      "text": "out OpenSpec, uh it's an interesting"
+    },
+    {
+      "start": 331.68,
+      "duration": 4.88,
+      "text": "tool. It's quite fast. It's very very"
+    },
+    {
+      "start": 334.16,
+      "duration": 4.319,
+      "text": "quick in terms of iteration. Uh I"
+    },
+    {
+      "start": 336.56,
+      "duration": 4.32,
+      "text": "personally like it and I use it quite"
+    },
+    {
+      "start": 338.479,
+      "duration": 4,
+      "text": "extensively. And uh its unique"
+    },
+    {
+      "start": 340.88,
+      "duration": 4.8,
+      "text": "capability is the source of truth"
+    },
+    {
+      "start": 342.479,
+      "duration": 5.521,
+      "text": "specification which makes it uh you know"
+    },
+    {
+      "start": 345.68,
+      "duration": 4.959,
+      "text": "the what do you call you could"
+    },
+    {
+      "start": 348,
+      "duration": 5.12,
+      "text": "potentially be call it the spec anchored"
+    },
+    {
+      "start": 350.639,
+      "duration": 4.881,
+      "text": "uh specdriven development tool. So"
+    },
+    {
+      "start": 353.12,
+      "duration": 4.16,
+      "text": "that's all I had for this video. Uh this"
+    },
+    {
+      "start": 355.52,
+      "duration": 4.64,
+      "text": "is Hari Krishnan. I'll catch you on the"
+    },
+    {
+      "start": 357.28,
+      "duration": 2.88,
+      "text": "next one."
+    }
+  ],
+  "fullText": "Hello and welcome to this video about OpenSpec, a specdriven development tool. There are quite a few great videos out there which talk about what OpenSpec is. What I'm going to focus on here is what makes OpenSpec unique and that is the workflow itself. Now in this swim lane diagram what we have is the interaction between us the humans and the AI which could be your claude code your codec or your Gemini CLI and the files that are generated. Now OpenSpec has a three-phase process. We propose, we apply and then we archive a change. When we propose a change, uh the AI helps us draft the change proposal in terms of a delta format. A delta format is basically it says what is being added, modified and removed as part of this particular feature addition. Now this is crucial because in the final step I'll tell you why this matters. Now eventually once you're happy with this and you review it and you want to you know go ahead and implement this change you say apply and that will go ahead go through the task list and go uh you know completes the tasking itself and uh basically your implementation is generated. Now if you're happy with your implementation you can ship it and once it's shipped you can say this particular change has been achieved so let's archive it. At this point is where the unique capability of openspec comes in wherein it merges or rather takes this delta that you created and then merges it into some something called a source of truth specification. Now what is a source of truth specification? So for this let me give you a rough comparison with how GitHub specit operates. I have the sample project here or rather a live project which I'm actually using and building this. I've been building it with specit and uh if those of you are familiar specit generates a folder for each uh specification or specify feature that I go through. Now the difficulty I have here is I may have introduced a capability in feature number one and subsequently when I built feature number six I may have removed it or modified it significantly. So at any given point in time I cannot say that all of these specifications which are sitting inside the specs folder are representative of the actual code or the implementation that exists in this particular repo and that's only the beginning right there can be a lot more deviation. So basically what it means is the specs here because of the workflow itself is not necessary for all of them to be in line with the actual application code at any given point in time. And this is where openspec significantly differs. Now this is another website which I've been building with openspec and openspec has two separate folders. One is called the changes where you can keep the archived sections. This is very much similar to how the github spec kit if you want to call it right like you know it's got all the feature related documents here. And uh if you look at u any change which you look at uh let's open some of this and if you open the spec you will see that it's in the delta format that I modifi that I mentioned. So uh let me open the navigation. If I open the specs section you'll notice that it says these are the requirements that were added as part of this feature to uh add a markdown blog and this is the modifications that were made to the navigation as part of this particular feature. And once I archived this, once I built this feature and archived it, all of this got merged into my source of truth specification which sits right here at the top level. And this is my overall navigation spec for the current application as it stands. So this is fully in lock step with the actual code and this is really really important from a uh concept that was explained very well by Betta in her blog post on martinfaller.com. What she classifies specdriven development tools is based on uh like you know how much the spec and the code are in line with each other based on spec first spec anchor and spec source. Now spec first is where you use the specdriven development tool to come up with the you know the detailed tasking uh and the spec for building out the application itself. But thereafter do you strive to keep the application code in line with the spec? Maybe not. It's just throw away right? It's a thinking process. But spec anchored is interesting because at this point you can potentially say that the spec and the code are always in line. And this is where I find openspec unique because openspec has a source of truth specification which can technically be called as something that we can anchor the application on. I could make a small little code change and uh you know try running a validate and the validate might fail or I can make a spec change and if I run the validate it will fail. So basically there's a potential here to keep the source of truth specification anchored with the actual application itself and that's where that's what makes it unique. Now obviously we could all strive for spec source which is how I generally operate even now I never make code changes. I only make changes from uh the spec itself. If I need to make even a tiny bit of change, I propose it and then that uh you know translates into code. But do we want to go there? Maybe that's another uh talk by itself or another video. But for now, what I'll leave you with is if you haven't tried out OpenSpec, uh it's an interesting tool. It's quite fast. It's very very quick in terms of iteration. Uh I personally like it and I use it quite extensively. And uh its unique capability is the source of truth specification which makes it uh you know the what do you call you could potentially be call it the spec anchored uh specdriven development tool. So that's all I had for this video. Uh this is Hari Krishnan. I'll catch you on the next one.",
+  "fetchedAt": "2026-01-26T07:30:24.697Z"
+}

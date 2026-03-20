@@ -1,0 +1,2369 @@
+{
+  "videoId": "6Z4vP0xbjt8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.56,
+      "duration": 6.799,
+      "text": "Hello and welcome to another edition of"
+    },
+    {
+      "start": 2.96,
+      "duration": 6.08,
+      "text": "TJ Plays with some A2 UI. So, in this"
+    },
+    {
+      "start": 7.359,
+      "duration": 3.441,
+      "text": "video, I thought I'd cover something"
+    },
+    {
+      "start": 9.04,
+      "duration": 4.719,
+      "text": "that's been generating a little bit of"
+    },
+    {
+      "start": 10.8,
+      "duration": 6.08,
+      "text": "buzz right now, both in the AI community"
+    },
+    {
+      "start": 13.759,
+      "duration": 7.36,
+      "text": "and the design systems community. And"
+    },
+    {
+      "start": 16.88,
+      "duration": 6.639,
+      "text": "it's called A2 UI. And in this video, I"
+    },
+    {
+      "start": 21.119,
+      "duration": 4.961,
+      "text": "hope to break it down into easily"
+    },
+    {
+      "start": 23.519,
+      "duration": 5.6,
+      "text": "digestible sections just so that way you"
+    },
+    {
+      "start": 26.08,
+      "duration": 6.24,
+      "text": "kind of understand completely what it is"
+    },
+    {
+      "start": 29.119,
+      "duration": 5.841,
+      "text": "both from like a designer standpoint,"
+    },
+    {
+      "start": 32.32,
+      "duration": 4.64,
+      "text": "from a infrastructure standpoint, from a"
+    },
+    {
+      "start": 34.96,
+      "duration": 4,
+      "text": "user standpoint, who's interacting with"
+    },
+    {
+      "start": 36.96,
+      "duration": 4.64,
+      "text": "it. And then I want to call out some"
+    },
+    {
+      "start": 38.96,
+      "duration": 5.84,
+      "text": "differences between some of the types of"
+    },
+    {
+      "start": 41.6,
+      "duration": 5.279,
+      "text": "code generators and ways these"
+    },
+    {
+      "start": 44.8,
+      "duration": 4.72,
+      "text": "components and layouts are generated"
+    },
+    {
+      "start": 46.879,
+      "duration": 4.641,
+      "text": "versus what this actually is because I"
+    },
+    {
+      "start": 49.52,
+      "duration": 3.44,
+      "text": "know there's a lot of confusion behind"
+    },
+    {
+      "start": 51.52,
+      "duration": 5.28,
+      "text": "or at least I'm hearing a lot of"
+    },
+    {
+      "start": 52.96,
+      "duration": 7.919,
+      "text": "confusion around what exactly is A2 UI."
+    },
+    {
+      "start": 56.8,
+      "duration": 7.52,
+      "text": "So I think where I'll start is uh so"
+    },
+    {
+      "start": 60.879,
+      "duration": 6.481,
+      "text": "like the concept is like what if a AI"
+    },
+    {
+      "start": 64.32,
+      "duration": 5.52,
+      "text": "agent could build real user interfaces"
+    },
+    {
+      "start": 67.36,
+      "duration": 6.079,
+      "text": "not mockups or code snippets but like"
+    },
+    {
+      "start": 69.84,
+      "duration": 6.88,
+      "text": "real actual working components from your"
+    },
+    {
+      "start": 73.439,
+      "duration": 6.32,
+      "text": "design system on demand as part of a"
+    },
+    {
+      "start": 76.72,
+      "duration": 5.92,
+      "text": "conversation or an interaction and this"
+    },
+    {
+      "start": 79.759,
+      "duration": 6.081,
+      "text": "is in your production application. And"
+    },
+    {
+      "start": 82.64,
+      "duration": 5.68,
+      "text": "this isn't like a developer support tool"
+    },
+    {
+      "start": 85.84,
+      "duration": 5.84,
+      "text": "or something like that. So in a"
+    },
+    {
+      "start": 88.32,
+      "duration": 7.28,
+      "text": "nutshell, that's what A2UI enables. And"
+    },
+    {
+      "start": 91.68,
+      "duration": 6.32,
+      "text": "we feel really strongly about it only"
+    },
+    {
+      "start": 95.6,
+      "duration": 4.879,
+      "text": "because we've already started to begin"
+    },
+    {
+      "start": 98,
+      "duration": 3.84,
+      "text": "implementing this kind of like in a beta"
+    },
+    {
+      "start": 100.479,
+      "duration": 3.361,
+      "text": "version of some of the projects that"
+    },
+    {
+      "start": 101.84,
+      "duration": 4.72,
+      "text": "we're currently working in. So, we felt"
+    },
+    {
+      "start": 103.84,
+      "duration": 4.88,
+      "text": "the need to kind of show you some of the"
+    },
+    {
+      "start": 106.56,
+      "duration": 4.32,
+      "text": "work that we've been doing with it and"
+    },
+    {
+      "start": 108.72,
+      "duration": 4.399,
+      "text": "then explain to you the importance of it"
+    },
+    {
+      "start": 110.88,
+      "duration": 3.76,
+      "text": "and then where we think it's headed in"
+    },
+    {
+      "start": 113.119,
+      "duration": 4,
+      "text": "the future."
+    },
+    {
+      "start": 114.64,
+      "duration": 5.519,
+      "text": "So just to address what we think the"
+    },
+    {
+      "start": 117.119,
+      "duration": 5.841,
+      "text": "current problem is with AI UI generation"
+    },
+    {
+      "start": 120.159,
+      "duration": 6.24,
+      "text": "is that currently right now when AI"
+    },
+    {
+      "start": 122.96,
+      "duration": 6.56,
+      "text": "agents need to show something more than"
+    },
+    {
+      "start": 126.399,
+      "duration": 7.281,
+      "text": "just text they usually resort to two or"
+    },
+    {
+      "start": 129.52,
+      "duration": 6.48,
+      "text": "three poor options or bad options."
+    },
+    {
+      "start": 133.68,
+      "duration": 5.84,
+      "text": "First they can generate code using"
+    },
+    {
+      "start": 136,
+      "duration": 6,
+      "text": "claude or JPT or Gemini or whatever. It"
+    },
+    {
+      "start": 139.52,
+      "duration": 4.96,
+      "text": "writes your React. You can copy and"
+    },
+    {
+      "start": 142,
+      "duration": 4.72,
+      "text": "paste that React into your codebase. If"
+    },
+    {
+      "start": 144.48,
+      "duration": 3.839,
+      "text": "it has access to your codebase, then it"
+    },
+    {
+      "start": 146.72,
+      "duration": 4.159,
+      "text": "writes it directly to your codebase."
+    },
+    {
+      "start": 148.319,
+      "duration": 4.64,
+      "text": "Maybe it works, maybe it doesn't. But"
+    },
+    {
+      "start": 150.879,
+      "duration": 4.161,
+      "text": "this is the key distinction. It can't"
+    },
+    {
+      "start": 152.959,
+      "duration": 5.201,
+      "text": "run arbitrary"
+    },
+    {
+      "start": 155.04,
+      "duration": 4.96,
+      "text": "generated code in production."
+    },
+    {
+      "start": 158.16,
+      "duration": 5.04,
+      "text": "One, it's not something that you want to"
+    },
+    {
+      "start": 160,
+      "duration": 4.64,
+      "text": "do, but two, you need to test that. The"
+    },
+    {
+      "start": 163.2,
+      "duration": 2.64,
+      "text": "security issues, there's lots of"
+    },
+    {
+      "start": 164.64,
+      "duration": 3.52,
+      "text": "different reasons why you wouldn't want"
+    },
+    {
+      "start": 165.84,
+      "duration": 4.399,
+      "text": "that to happen. People talk about, you"
+    },
+    {
+      "start": 168.16,
+      "duration": 4.48,
+      "text": "know, the issues with risky AI"
+    },
+    {
+      "start": 170.239,
+      "duration": 5.441,
+      "text": "generations and hallucinations and just"
+    },
+    {
+      "start": 172.64,
+      "duration": 5.04,
+      "text": "the fidelity of component generations"
+    },
+    {
+      "start": 175.68,
+      "duration": 4.639,
+      "text": "and just code generation in general from"
+    },
+    {
+      "start": 177.68,
+      "duration": 5.04,
+      "text": "AI. So that's probably not something"
+    },
+    {
+      "start": 180.319,
+      "duration": 4.721,
+      "text": "that we want to do in production, just"
+    },
+    {
+      "start": 182.72,
+      "duration": 4.159,
+      "text": "letting AI run a muck in your production"
+    },
+    {
+      "start": 185.04,
+      "duration": 4.16,
+      "text": "environment. And so, uh, one of the"
+    },
+    {
+      "start": 186.879,
+      "duration": 4.561,
+      "text": "second things is they can describe what"
+    },
+    {
+      "start": 189.2,
+      "duration": 4.72,
+      "text": "to build. So like create a form with"
+    },
+    {
+      "start": 191.44,
+      "duration": 4.799,
+      "text": "three fields and a submit button. Cool."
+    },
+    {
+      "start": 193.92,
+      "duration": 3.84,
+      "text": "Now you kind of need somebody to go and"
+    },
+    {
+      "start": 196.239,
+      "duration": 3.121,
+      "text": "hook it up to stuff. You need a"
+    },
+    {
+      "start": 197.76,
+      "duration": 3.44,
+      "text": "developer to implement it. It needs to"
+    },
+    {
+      "start": 199.36,
+      "duration": 4.239,
+      "text": "hook to an API. Needs to be integrated"
+    },
+    {
+      "start": 201.2,
+      "duration": 5.2,
+      "text": "within a CMS or whatever the use case is"
+    },
+    {
+      "start": 203.599,
+      "duration": 5.92,
+      "text": "for that component structure. Another"
+    },
+    {
+      "start": 206.4,
+      "duration": 5.36,
+      "text": "issue is they can use pre-built widgets,"
+    },
+    {
+      "start": 209.519,
+      "duration": 5.521,
+      "text": "but they're only they're limited to"
+    },
+    {
+      "start": 211.76,
+      "duration": 6.32,
+      "text": "whatever widget someone anticipates you"
+    },
+    {
+      "start": 215.04,
+      "duration": 6.32,
+      "text": "need. So there's really no flexibility."
+    },
+    {
+      "start": 218.08,
+      "duration": 5.28,
+      "text": "So it's a predefined layout, so to"
+    },
+    {
+      "start": 221.36,
+      "duration": 4,
+      "text": "speak. So that it's like you can if"
+    },
+    {
+      "start": 223.36,
+      "duration": 4.32,
+      "text": "you're using tools to generate your"
+    },
+    {
+      "start": 225.36,
+      "duration": 4.159,
+      "text": "landing page or your homepage, they'll"
+    },
+    {
+      "start": 227.68,
+      "duration": 3.52,
+      "text": "always be your landing page or your"
+    },
+    {
+      "start": 229.519,
+      "duration": 3.601,
+      "text": "homepage. You can edit them and"
+    },
+    {
+      "start": 231.2,
+      "duration": 4.24,
+      "text": "republish them and maybe you can drag"
+    },
+    {
+      "start": 233.12,
+      "duration": 5.6,
+      "text": "and drop some things around, but that"
+    },
+    {
+      "start": 235.44,
+      "duration": 6.799,
+      "text": "requires a developer or an editor to go"
+    },
+    {
+      "start": 238.72,
+      "duration": 7.12,
+      "text": "in and make those edits. So it's limited"
+    },
+    {
+      "start": 242.239,
+      "duration": 6.801,
+      "text": "flexibility. A2 UI"
+    },
+    {
+      "start": 245.84,
+      "duration": 5.759,
+      "text": "is is mainly"
+    },
+    {
+      "start": 249.04,
+      "duration": 5.52,
+      "text": "looking to solve this problem."
+    },
+    {
+      "start": 251.599,
+      "duration": 6.081,
+      "text": "A2UI solves this by separating what the"
+    },
+    {
+      "start": 254.56,
+      "duration": 7.12,
+      "text": "agent wants to show from how your"
+    },
+    {
+      "start": 257.68,
+      "duration": 6.16,
+      "text": "application renders it. So I'll get into"
+    },
+    {
+      "start": 261.68,
+      "duration": 6.16,
+      "text": "a little diagram"
+    },
+    {
+      "start": 263.84,
+      "duration": 6.48,
+      "text": "here. So this is the the A2 UI official"
+    },
+    {
+      "start": 267.84,
+      "duration": 3.84,
+      "text": "documentation site from Google and this"
+    },
+    {
+      "start": 270.32,
+      "duration": 4.24,
+      "text": "is like a little bit of a behind"
+    },
+    {
+      "start": 271.68,
+      "duration": 6.88,
+      "text": "thescenes look into what exactly it"
+    },
+    {
+      "start": 274.56,
+      "duration": 6.16,
+      "text": "does. The key insight is that A2UI is a"
+    },
+    {
+      "start": 278.56,
+      "duration": 5.12,
+      "text": "dec a"
+    },
+    {
+      "start": 280.72,
+      "duration": 5.919,
+      "text": "declarative protocol. The AI doesn't"
+    },
+    {
+      "start": 283.68,
+      "duration": 6.239,
+      "text": "generate the code. It generates a recipe"
+    },
+    {
+      "start": 286.639,
+      "duration": 6.481,
+      "text": "that lines up to the code. So, it's a"
+    },
+    {
+      "start": 289.919,
+      "duration": 6.081,
+      "text": "structured JSON description of what UI"
+    },
+    {
+      "start": 293.12,
+      "duration": 5.6,
+      "text": "elements should appear and how they're"
+    },
+    {
+      "start": 296,
+      "duration": 5.199,
+      "text": "arranged in the data they display. So,"
+    },
+    {
+      "start": 298.72,
+      "duration": 5.68,
+      "text": "your application then renders that"
+    },
+    {
+      "start": 301.199,
+      "duration": 5.521,
+      "text": "recipe using your own components. You"
+    },
+    {
+      "start": 304.4,
+      "duration": 3.92,
+      "text": "type whatever it is, type a message or"
+    },
+    {
+      "start": 306.72,
+      "duration": 4.96,
+      "text": "interact with a button or something"
+    },
+    {
+      "start": 308.32,
+      "duration": 6.4,
+      "text": "somewhere. And then there's an AI agent"
+    },
+    {
+      "start": 311.68,
+      "duration": 6.16,
+      "text": "that communicates with the language"
+    },
+    {
+      "start": 314.72,
+      "duration": 5.52,
+      "text": "model that then generates the JSON,"
+    },
+    {
+      "start": 317.84,
+      "duration": 5.04,
+      "text": "which is the recipe. And then that"
+    },
+    {
+      "start": 320.24,
+      "duration": 4.56,
+      "text": "recipe is hooked to your component, your"
+    },
+    {
+      "start": 322.88,
+      "duration": 3.599,
+      "text": "web application that serves your"
+    },
+    {
+      "start": 324.8,
+      "duration": 4.32,
+      "text": "component library, your design system."
+    },
+    {
+      "start": 326.479,
+      "duration": 5.121,
+      "text": "It then serves up those components to"
+    },
+    {
+      "start": 329.12,
+      "duration": 4.88,
+      "text": "the user's UI. So the the user interface"
+    },
+    {
+      "start": 331.6,
+      "duration": 4.879,
+      "text": "that the user is interacting with based"
+    },
+    {
+      "start": 334,
+      "duration": 6,
+      "text": "on whatever their interaction was,"
+    },
+    {
+      "start": 336.479,
+      "duration": 5.921,
+      "text": "whatever the intention was of that user."
+    },
+    {
+      "start": 340,
+      "duration": 4.08,
+      "text": "So why does this matter? know this"
+    },
+    {
+      "start": 342.4,
+      "duration": 4,
+      "text": "matters because when we're moving"
+    },
+    {
+      "start": 344.08,
+      "duration": 5.119,
+      "text": "forward into a world where AI agents"
+    },
+    {
+      "start": 346.4,
+      "duration": 4.48,
+      "text": "handle more complex tasks and this isn't"
+    },
+    {
+      "start": 349.199,
+      "duration": 3.921,
+      "text": "something that's going to be utilized in"
+    },
+    {
+      "start": 350.88,
+      "duration": 6.08,
+      "text": "every like this isn't probably something"
+    },
+    {
+      "start": 353.12,
+      "duration": 5.84,
+      "text": "meant for marketing websites or uh maybe"
+    },
+    {
+      "start": 356.96,
+      "duration": 5.76,
+      "text": "at some point they will but this is"
+    },
+    {
+      "start": 358.96,
+      "duration": 6.32,
+      "text": "mainly meant for UI heavy workflows that"
+    },
+    {
+      "start": 362.72,
+      "duration": 5.12,
+      "text": "have a lot of uh widgets and dashboards"
+    },
+    {
+      "start": 365.28,
+      "duration": 4.479,
+      "text": "and forms and mostly enterprise use"
+    },
+    {
+      "start": 367.84,
+      "duration": 3.44,
+      "text": "cases I think in the beginning is"
+    },
+    {
+      "start": 369.759,
+      "duration": 4.72,
+      "text": "probably what this would likely be used"
+    },
+    {
+      "start": 371.28,
+      "duration": 5.28,
+      "text": "for. But right now, the way that a lot"
+    },
+    {
+      "start": 374.479,
+      "duration": 4.801,
+      "text": "of this back and forth happens is"
+    },
+    {
+      "start": 376.56,
+      "duration": 5.44,
+      "text": "through chat bubbles. Basically, like"
+    },
+    {
+      "start": 379.28,
+      "duration": 5.44,
+      "text": "we've all used and claude and all these"
+    },
+    {
+      "start": 382,
+      "duration": 5.36,
+      "text": "other language model platforms and it's"
+    },
+    {
+      "start": 384.72,
+      "duration": 5.36,
+      "text": "a very much a back and forth repetitious"
+    },
+    {
+      "start": 387.36,
+      "duration": 4.72,
+      "text": "cycle of you ask a thing or you say a"
+    },
+    {
+      "start": 390.08,
+      "duration": 4.32,
+      "text": "thing, it responds with the thing and"
+    },
+    {
+      "start": 392.08,
+      "duration": 5.28,
+      "text": "then so on and so on and so on. So"
+    },
+    {
+      "start": 394.4,
+      "duration": 5.919,
+      "text": "imagine an enterprise agent that can"
+    },
+    {
+      "start": 397.36,
+      "duration": 6,
+      "text": "generate approval workflows or data"
+    },
+    {
+      "start": 400.319,
+      "duration": 5.921,
+      "text": "visualizations or custom forms based on"
+    },
+    {
+      "start": 403.36,
+      "duration": 5.6,
+      "text": "conversation context or customer service"
+    },
+    {
+      "start": 406.24,
+      "duration": 5.12,
+      "text": "agent that can show product comparisons"
+    },
+    {
+      "start": 408.96,
+      "duration": 4.48,
+      "text": "or booking interfaces or account"
+    },
+    {
+      "start": 411.36,
+      "duration": 5.679,
+      "text": "management screens without any pre-built"
+    },
+    {
+      "start": 413.44,
+      "duration": 6.479,
+      "text": "templates. So when Google released this"
+    },
+    {
+      "start": 417.039,
+      "duration": 5.521,
+      "text": "A2 UI as a open protocol because this is"
+    },
+    {
+      "start": 419.919,
+      "duration": 5.12,
+      "text": "the future that they see coming. So when"
+    },
+    {
+      "start": 422.56,
+      "duration": 4.639,
+      "text": "you ask things like some of the examples"
+    },
+    {
+      "start": 425.039,
+      "duration": 4.72,
+      "text": "that they supplied here, it's like book"
+    },
+    {
+      "start": 427.199,
+      "duration": 4.481,
+      "text": "a table for two. The user doesn't"
+    },
+    {
+      "start": 429.759,
+      "duration": 4.88,
+      "text": "understand components or understands"
+    },
+    {
+      "start": 431.68,
+      "duration": 5.04,
+      "text": "forms or what exactly they want to"
+    },
+    {
+      "start": 434.639,
+      "duration": 4.4,
+      "text": "display. They're not explicitly"
+    },
+    {
+      "start": 436.72,
+      "duration": 4.879,
+      "text": "describing what they need in order for"
+    },
+    {
+      "start": 439.039,
+      "duration": 5.28,
+      "text": "them to book a table for two. They're"
+    },
+    {
+      "start": 441.599,
+      "duration": 6.801,
+      "text": "saying book a table for two. in the"
+    },
+    {
+      "start": 444.319,
+      "duration": 7.841,
+      "text": "agent is generating a recipe that is"
+    },
+    {
+      "start": 448.4,
+      "duration": 5.359,
+      "text": "lining up to components or component"
+    },
+    {
+      "start": 452.16,
+      "duration": 3.92,
+      "text": "structures that have already been"
+    },
+    {
+      "start": 453.759,
+      "duration": 6.961,
+      "text": "predefined within your design system and"
+    },
+    {
+      "start": 456.08,
+      "duration": 7.2,
+      "text": "then delivers a date field, a username"
+    },
+    {
+      "start": 460.72,
+      "duration": 4.08,
+      "text": "field to log in potentially and how many"
+    },
+    {
+      "start": 463.28,
+      "duration": 3.919,
+      "text": "seats or how many people your"
+    },
+    {
+      "start": 464.8,
+      "duration": 4.72,
+      "text": "reservation. So that's kind of an"
+    },
+    {
+      "start": 467.199,
+      "duration": 3.521,
+      "text": "example of how that works. And uh I"
+    },
+    {
+      "start": 469.52,
+      "duration": 4.399,
+      "text": "think one of the biggest distinctions"
+    },
+    {
+      "start": 470.72,
+      "duration": 5.12,
+      "text": "that is important to make here is that"
+    },
+    {
+      "start": 473.919,
+      "duration": 4.241,
+      "text": "these are different like this is a"
+    },
+    {
+      "start": 475.84,
+      "duration": 4.639,
+      "text": "protocol for one. So it isn't like an"
+    },
+    {
+      "start": 478.16,
+      "duration": 5.599,
+      "text": "application that you're downloading. AUI"
+    },
+    {
+      "start": 480.479,
+      "duration": 5.761,
+      "text": "is like HTML. It's there's confined set"
+    },
+    {
+      "start": 483.759,
+      "duration": 4.88,
+      "text": "of constraints around the way these"
+    },
+    {
+      "start": 486.24,
+      "duration": 5.44,
+      "text": "recipes are built. It's not like"
+    },
+    {
+      "start": 488.639,
+      "duration": 6.881,
+      "text": "something like lovable or v 0 or bolt"
+    },
+    {
+      "start": 491.68,
+      "duration": 6.079,
+      "text": "tools like lovable or vzero. Those"
+    },
+    {
+      "start": 495.52,
+      "duration": 3.92,
+      "text": "already generate full applications from"
+    },
+    {
+      "start": 497.759,
+      "duration": 4.321,
+      "text": "natural language. But the big"
+    },
+    {
+      "start": 499.44,
+      "duration": 4.72,
+      "text": "distinction here, those are meant for"
+    },
+    {
+      "start": 502.08,
+      "duration": 4.16,
+      "text": "developers or designers who are looking"
+    },
+    {
+      "start": 504.16,
+      "duration": 4.319,
+      "text": "to dabble into code generation or"
+    },
+    {
+      "start": 506.24,
+      "duration": 5.359,
+      "text": "application generation. They generate"
+    },
+    {
+      "start": 508.479,
+      "duration": 5.201,
+      "text": "code that developer reviews that you"
+    },
+    {
+      "start": 511.599,
+      "duration": 4.721,
+      "text": "typically a developer would review and"
+    },
+    {
+      "start": 513.68,
+      "duration": 4.08,
+      "text": "deploy before going live. And then once"
+    },
+    {
+      "start": 516.32,
+      "duration": 3.68,
+      "text": "it's live, it's there. It's great for"
+    },
+    {
+      "start": 517.76,
+      "duration": 5.68,
+      "text": "prototyping, but they're not running"
+    },
+    {
+      "start": 520,
+      "duration": 5.12,
+      "text": "that output directly in a production"
+    },
+    {
+      "start": 523.44,
+      "duration": 4.88,
+      "text": "environment, especially without someone"
+    },
+    {
+      "start": 525.12,
+      "duration": 5.839,
+      "text": "taking a look at it. A2 UI is different"
+    },
+    {
+      "start": 528.32,
+      "duration": 5.28,
+      "text": "because it's a runtime protocol. That AI"
+    },
+    {
+      "start": 530.959,
+      "duration": 5.361,
+      "text": "generates a recipe, your application"
+    },
+    {
+      "start": 533.6,
+      "duration": 5.679,
+      "text": "renders it using your pre-approved"
+    },
+    {
+      "start": 536.32,
+      "duration": 4.959,
+      "text": "components, and real users see the"
+    },
+    {
+      "start": 539.279,
+      "duration": 4.24,
+      "text": "results, all without a developer in the"
+    },
+    {
+      "start": 541.279,
+      "duration": 3.521,
+      "text": "loop. So, this is happening live in your"
+    },
+    {
+      "start": 543.519,
+      "duration": 2.961,
+      "text": "application. And this isn't something"
+    },
+    {
+      "start": 544.8,
+      "duration": 4.56,
+      "text": "that's pre-built and then shipped or"
+    },
+    {
+      "start": 546.48,
+      "duration": 6.16,
+      "text": "deployed to an application. So, it's"
+    },
+    {
+      "start": 549.36,
+      "duration": 6.88,
+      "text": "different between AI helps me build an"
+    },
+    {
+      "start": 552.64,
+      "duration": 6.08,
+      "text": "app and AI shows users an interface"
+    },
+    {
+      "start": 556.24,
+      "duration": 3.84,
+      "text": "during a conversation. Both are very"
+    },
+    {
+      "start": 558.72,
+      "duration": 3.36,
+      "text": "valuable. Don't get me wrong. I think"
+    },
+    {
+      "start": 560.08,
+      "duration": 3.759,
+      "text": "they're both amazing pieces of"
+    },
+    {
+      "start": 562.08,
+      "duration": 3.759,
+      "text": "technology. They're just different"
+    },
+    {
+      "start": 563.839,
+      "duration": 5.041,
+      "text": "layers in the stack. So, I hope that"
+    },
+    {
+      "start": 565.839,
+      "duration": 5.041,
+      "text": "helps create the distinction there."
+    },
+    {
+      "start": 568.88,
+      "duration": 5.36,
+      "text": "So, let me show you a little bit about"
+    },
+    {
+      "start": 570.88,
+      "duration": 6.639,
+      "text": "what ATUI actually looks like. So, I can"
+    },
+    {
+      "start": 574.24,
+      "duration": 6.64,
+      "text": "use uh the documentation site just to"
+    },
+    {
+      "start": 577.519,
+      "duration": 6,
+      "text": "kind of give you the anatomy of A2 UI"
+    },
+    {
+      "start": 580.88,
+      "duration": 5.92,
+      "text": "and what the quote unquote recipe looks"
+    },
+    {
+      "start": 583.519,
+      "duration": 6.641,
+      "text": "like. And this is basically what it is."
+    },
+    {
+      "start": 586.8,
+      "duration": 6.32,
+      "text": "So, the AI is generating this recipe."
+    },
+    {
+      "start": 590.16,
+      "duration": 4.72,
+      "text": "So, first it kind of it generates an ID."
+    },
+    {
+      "start": 593.12,
+      "duration": 4.64,
+      "text": "So, this is the main ID. This is kind of"
+    },
+    {
+      "start": 594.88,
+      "duration": 5.6,
+      "text": "like establishing the global ID of the"
+    },
+    {
+      "start": 597.76,
+      "duration": 6.16,
+      "text": "UI that it's about to generate. And then"
+    },
+    {
+      "start": 600.48,
+      "duration": 6.24,
+      "text": "it is grabbing some identification"
+    },
+    {
+      "start": 603.92,
+      "duration": 5.28,
+      "text": "uh some some uh identification markers"
+    },
+    {
+      "start": 606.72,
+      "duration": 5.119,
+      "text": "that are syncing to components that"
+    },
+    {
+      "start": 609.2,
+      "duration": 5.199,
+      "text": "exist within your design system and then"
+    },
+    {
+      "start": 611.839,
+      "duration": 4.881,
+      "text": "it's filling those with the components"
+    },
+    {
+      "start": 614.399,
+      "duration": 4.241,
+      "text": "and then any of the properties that live"
+    },
+    {
+      "start": 616.72,
+      "duration": 5.119,
+      "text": "within those components. So it's putting"
+    },
+    {
+      "start": 618.64,
+      "duration": 6.4,
+      "text": "in the values like book your table. It's"
+    },
+    {
+      "start": 621.839,
+      "duration": 5.921,
+      "text": "saying grab the ID of date picker is"
+    },
+    {
+      "start": 625.04,
+      "duration": 5.6,
+      "text": "going to pull the datetime picker"
+    },
+    {
+      "start": 627.76,
+      "duration": 5.519,
+      "text": "datetime input and then the the values"
+    },
+    {
+      "start": 630.64,
+      "duration": 4.879,
+      "text": "that need to be filled in are these. And"
+    },
+    {
+      "start": 633.279,
+      "duration": 3.921,
+      "text": "then so there's other uh key value pairs"
+    },
+    {
+      "start": 635.519,
+      "duration": 4.88,
+      "text": "that it pulls through. But this is a"
+    },
+    {
+      "start": 637.2,
+      "duration": 6.16,
+      "text": "fairly simple example of what this might"
+    },
+    {
+      "start": 640.399,
+      "duration": 6.161,
+      "text": "look like for the restaurant reservation"
+    },
+    {
+      "start": 643.36,
+      "duration": 5.039,
+      "text": "book a table for two example. Uh and"
+    },
+    {
+      "start": 646.56,
+      "duration": 3.12,
+      "text": "we'll get into a little bit more of the"
+    },
+    {
+      "start": 648.399,
+      "duration": 3.921,
+      "text": "detail stuff. I don't want to get bogged"
+    },
+    {
+      "start": 649.68,
+      "duration": 5.2,
+      "text": "down in the code side of it uh too much,"
+    },
+    {
+      "start": 652.32,
+      "duration": 5.6,
+      "text": "but what's important to understand is"
+    },
+    {
+      "start": 654.88,
+      "duration": 4.72,
+      "text": "that uh it is uh some sort of user"
+    },
+    {
+      "start": 657.92,
+      "duration": 6.08,
+      "text": "input, whether it's an event that"
+    },
+    {
+      "start": 659.6,
+      "duration": 8.4,
+      "text": "happens that engages your agent, your AI"
+    },
+    {
+      "start": 664,
+      "duration": 5.519,
+      "text": "to generate the recipe based on A2UI's"
+    },
+    {
+      "start": 668,
+      "duration": 4.959,
+      "text": "predefined"
+    },
+    {
+      "start": 669.519,
+      "duration": 5.76,
+      "text": "guidelines. And then it's up to your"
+    },
+    {
+      "start": 672.959,
+      "duration": 6.32,
+      "text": "design system and how well your design"
+    },
+    {
+      "start": 675.279,
+      "duration": 6.481,
+      "text": "system has been defined to determine the"
+    },
+    {
+      "start": 679.279,
+      "duration": 6.401,
+      "text": "return the output what comes back from"
+    },
+    {
+      "start": 681.76,
+      "duration": 5.759,
+      "text": "the recipe that the AI has generated."
+    },
+    {
+      "start": 685.68,
+      "duration": 5.04,
+      "text": "So, one of the things that I wanted to"
+    },
+    {
+      "start": 687.519,
+      "duration": 5.76,
+      "text": "make sure that we talk about why it's"
+    },
+    {
+      "start": 690.72,
+      "duration": 4.4,
+      "text": "such an important piece of technology"
+    },
+    {
+      "start": 693.279,
+      "duration": 4.721,
+      "text": "right now and how this ties in with"
+    },
+    {
+      "start": 695.12,
+      "duration": 4.959,
+      "text": "design systems is that now more than"
+    },
+    {
+      "start": 698,
+      "duration": 4.24,
+      "text": "ever is it important to increase the"
+    },
+    {
+      "start": 700.079,
+      "duration": 4.32,
+      "text": "fidelity of your design systems to"
+    },
+    {
+      "start": 702.24,
+      "duration": 4.719,
+      "text": "ensure that you've got documentation on"
+    },
+    {
+      "start": 704.399,
+      "duration": 4.081,
+      "text": "point that you've got full coverage of"
+    },
+    {
+      "start": 706.959,
+      "duration": 3.841,
+      "text": "all your components and component"
+    },
+    {
+      "start": 708.48,
+      "duration": 4.96,
+      "text": "structures. Because once these recipes"
+    },
+    {
+      "start": 710.8,
+      "duration": 5.039,
+      "text": "are created, these are the recipes that"
+    },
+    {
+      "start": 713.44,
+      "duration": 4.639,
+      "text": "are going to be looking for components"
+    },
+    {
+      "start": 715.839,
+      "duration": 4.401,
+      "text": "that should exist within your design"
+    },
+    {
+      "start": 718.079,
+      "duration": 4.961,
+      "text": "system and line them up so that way it"
+    },
+    {
+      "start": 720.24,
+      "duration": 5.52,
+      "text": "can create these compositions in order"
+    },
+    {
+      "start": 723.04,
+      "duration": 4.239,
+      "text": "to fulfill the user's intent. If it"
+    },
+    {
+      "start": 725.76,
+      "duration": 4.4,
+      "text": "doesn't find a certain component, your"
+    },
+    {
+      "start": 727.279,
+      "duration": 6.24,
+      "text": "AI will either move on to whatever the"
+    },
+    {
+      "start": 730.16,
+      "duration": 5.52,
+      "text": "next best thing is or it'll fail safely"
+    },
+    {
+      "start": 733.519,
+      "duration": 4.721,
+      "text": "and it won't error out or anything"
+    },
+    {
+      "start": 735.68,
+      "duration": 6,
+      "text": "depending on how your application works"
+    },
+    {
+      "start": 738.24,
+      "duration": 4.64,
+      "text": "with it. So, we've been doing some work"
+    },
+    {
+      "start": 741.68,
+      "duration": 2.88,
+      "text": "with this for a little bit. I can show"
+    },
+    {
+      "start": 742.88,
+      "duration": 4.399,
+      "text": "you a couple of examples of some things"
+    },
+    {
+      "start": 744.56,
+      "duration": 6.079,
+      "text": "that exist out there. For one, this is"
+    },
+    {
+      "start": 747.279,
+      "duration": 6,
+      "text": "the A2 UI. It's a public repository. You"
+    },
+    {
+      "start": 750.639,
+      "duration": 5.121,
+      "text": "can play with it. There's some demos in"
+    },
+    {
+      "start": 753.279,
+      "duration": 6,
+      "text": "here that you can mess around with. The"
+    },
+    {
+      "start": 755.76,
+      "duration": 5.44,
+      "text": "demos are mainly Angular in web"
+    },
+    {
+      "start": 759.279,
+      "duration": 6.881,
+      "text": "components with lit. I think in the"
+    },
+    {
+      "start": 761.2,
+      "duration": 7.759,
+      "text": "future are some um uh they're looking to"
+    },
+    {
+      "start": 766.16,
+      "duration": 5.679,
+      "text": "add React View and some other JavaScript"
+    },
+    {
+      "start": 768.959,
+      "duration": 4.481,
+      "text": "libraries and frameworks to it. But as"
+    },
+    {
+      "start": 771.839,
+      "duration": 3.201,
+      "text": "of right now, you can clone this and"
+    },
+    {
+      "start": 773.44,
+      "duration": 3.12,
+      "text": "play with some of the examples that they"
+    },
+    {
+      "start": 775.04,
+      "duration": 3.76,
+      "text": "have in there. They're good to play"
+    },
+    {
+      "start": 776.56,
+      "duration": 4.959,
+      "text": "with. And this is the official blog post"
+    },
+    {
+      "start": 778.8,
+      "duration": 4.96,
+      "text": "where they're introducing A2 UI. It's a"
+    },
+    {
+      "start": 781.519,
+      "duration": 3.841,
+      "text": "good read. It does a really good job"
+    },
+    {
+      "start": 783.76,
+      "duration": 3.519,
+      "text": "distilling some of the stuff that I just"
+    },
+    {
+      "start": 785.36,
+      "duration": 4.4,
+      "text": "mentioned, talking about the main"
+    },
+    {
+      "start": 787.279,
+      "duration": 5.68,
+      "text": "problems, how agents need to speak to"
+    },
+    {
+      "start": 789.76,
+      "duration": 4.879,
+      "text": "UI, not have this clunky back and forth"
+    },
+    {
+      "start": 792.959,
+      "duration": 3.44,
+      "text": "that happens with the I want to book a"
+    },
+    {
+      "start": 794.639,
+      "duration": 3.921,
+      "text": "table for two. Okay, what day? I want"
+    },
+    {
+      "start": 796.399,
+      "duration": 4.081,
+      "text": "that tomorrow. Okay, what time? Maybe"
+    },
+    {
+      "start": 798.56,
+      "duration": 3.839,
+      "text": "7:00 p.m. Oh, we don't have anything for"
+    },
+    {
+      "start": 800.48,
+      "duration": 3.76,
+      "text": "that. What other times? So, there's a"
+    },
+    {
+      "start": 802.399,
+      "duration": 4.24,
+      "text": "lot of back and forth that why not just"
+    },
+    {
+      "start": 804.24,
+      "duration": 5.2,
+      "text": "present the user with a form and then"
+    },
+    {
+      "start": 806.639,
+      "duration": 5.76,
+      "text": "allow them to do the interactive parts"
+    },
+    {
+      "start": 809.44,
+      "duration": 4.72,
+      "text": "themselves? Uh, one cool little tool"
+    },
+    {
+      "start": 812.399,
+      "duration": 4.961,
+      "text": "that I wanted to call out was this neat"
+    },
+    {
+      "start": 814.16,
+      "duration": 4.64,
+      "text": "A2 UI composer. So, you can just there's"
+    },
+    {
+      "start": 817.36,
+      "duration": 2.96,
+      "text": "a gallery of things that you can"
+    },
+    {
+      "start": 818.8,
+      "duration": 3.039,
+      "text": "actually pull from in here. So, there's"
+    },
+    {
+      "start": 820.32,
+      "duration": 4,
+      "text": "all these little card components and"
+    },
+    {
+      "start": 821.839,
+      "duration": 5.361,
+      "text": "then reasons why all these are created."
+    },
+    {
+      "start": 824.32,
+      "duration": 6.48,
+      "text": "But then there's uh this create part."
+    },
+    {
+      "start": 827.2,
+      "duration": 6.56,
+      "text": "So, you can say something like um I need"
+    },
+    {
+      "start": 830.8,
+      "duration": 8.32,
+      "text": "to book a flight from New Orleans,"
+    },
+    {
+      "start": 833.76,
+      "duration": 7.12,
+      "text": "Louisiana to New York on March 15, 2026."
+    },
+    {
+      "start": 839.12,
+      "duration": 4.24,
+      "text": "And then I can create this. And this is"
+    },
+    {
+      "start": 840.88,
+      "duration": 5.92,
+      "text": "a fun little tool. This is powered by uh"
+    },
+    {
+      "start": 843.36,
+      "duration": 6.4,
+      "text": "Copilot Kit, which is uh like a a"
+    },
+    {
+      "start": 846.8,
+      "duration": 4.88,
+      "text": "partner of A2UI. They have a site here"
+    },
+    {
+      "start": 849.76,
+      "duration": 4.56,
+      "text": "that does a really good job of outlining"
+    },
+    {
+      "start": 851.68,
+      "duration": 4.56,
+      "text": "some of the specs and uh and then it"
+    },
+    {
+      "start": 854.32,
+      "duration": 5.04,
+      "text": "does a pretty deep dive into what"
+    },
+    {
+      "start": 856.24,
+      "duration": 5.279,
+      "text": "exactly A2 UI is and offers some"
+    },
+    {
+      "start": 859.36,
+      "duration": 4.479,
+      "text": "examples and demos and other fun stuff."
+    },
+    {
+      "start": 861.519,
+      "duration": 4.241,
+      "text": "So, I'll link all of these in a in a"
+    },
+    {
+      "start": 863.839,
+      "duration": 3.761,
+      "text": "resources post and I'll post it along"
+    },
+    {
+      "start": 865.76,
+      "duration": 3.199,
+      "text": "with this message. As you can see right"
+    },
+    {
+      "start": 867.6,
+      "duration": 3.679,
+      "text": "here, this is a live example of"
+    },
+    {
+      "start": 868.959,
+      "duration": 4.801,
+      "text": "something that I posted. This is a"
+    },
+    {
+      "start": 871.279,
+      "duration": 4.24,
+      "text": "flight booking. This has the place where"
+    },
+    {
+      "start": 873.76,
+      "duration": 3.68,
+      "text": "I said the origin should be. And this"
+    },
+    {
+      "start": 875.519,
+      "duration": 4.081,
+      "text": "has the destination of where I'm looking"
+    },
+    {
+      "start": 877.44,
+      "duration": 5.04,
+      "text": "to go. It knew that I needed some sort"
+    },
+    {
+      "start": 879.6,
+      "duration": 4.4,
+      "text": "of uh date picker. Uh and then with the"
+    },
+    {
+      "start": 882.48,
+      "duration": 3.28,
+      "text": "book flight options, this is a little"
+    },
+    {
+      "start": 884,
+      "duration": 4.399,
+      "text": "primitive. It's not exactly like the"
+    },
+    {
+      "start": 885.76,
+      "duration": 5.519,
+      "text": "most uh aesthetic thing. And then over"
+    },
+    {
+      "start": 888.399,
+      "duration": 4.8,
+      "text": "here, it shows you the recipe or the"
+    },
+    {
+      "start": 891.279,
+      "duration": 4.56,
+      "text": "spec that the A2 UI spec that was"
+    },
+    {
+      "start": 893.199,
+      "duration": 5.281,
+      "text": "created. And then over here is the chat"
+    },
+    {
+      "start": 895.839,
+      "duration": 5.12,
+      "text": "interface that it heard from my input"
+    },
+    {
+      "start": 898.48,
+      "duration": 4.88,
+      "text": "and then how it ended up generating"
+    },
+    {
+      "start": 900.959,
+      "duration": 4.081,
+      "text": "this. And then if you wanted to apply"
+    },
+    {
+      "start": 903.36,
+      "duration": 3.36,
+      "text": "this to your application, you can copy"
+    },
+    {
+      "start": 905.04,
+      "duration": 3.44,
+      "text": "the JSON or you can download it"
+    },
+    {
+      "start": 906.72,
+      "duration": 4.239,
+      "text": "specifically and then add it if this is"
+    },
+    {
+      "start": 908.48,
+      "duration": 4.799,
+      "text": "something that you're looking to do. Uh"
+    },
+    {
+      "start": 910.959,
+      "duration": 3.68,
+      "text": "we have uh a similar tool that we've"
+    },
+    {
+      "start": 913.279,
+      "duration": 4.24,
+      "text": "been working on. Like I said, we've had"
+    },
+    {
+      "start": 914.639,
+      "duration": 5.121,
+      "text": "some projects that have called for this"
+    },
+    {
+      "start": 917.519,
+      "duration": 4.241,
+      "text": "type of technology. uh mainly for a lot"
+    },
+    {
+      "start": 919.76,
+      "duration": 4.48,
+      "text": "of security reasons and then just for"
+    },
+    {
+      "start": 921.76,
+      "duration": 4.8,
+      "text": "ensuring that there isn't any sort of"
+    },
+    {
+      "start": 924.24,
+      "duration": 5.2,
+      "text": "derailment of the AI when it's"
+    },
+    {
+      "start": 926.56,
+      "duration": 4.959,
+      "text": "generating these components. So we ended"
+    },
+    {
+      "start": 929.44,
+      "duration": 4.24,
+      "text": "up creating this thing called A2UI"
+    },
+    {
+      "start": 931.519,
+      "duration": 4.161,
+      "text": "bridge. Uh I'll show you in a second"
+    },
+    {
+      "start": 933.68,
+      "duration": 5.599,
+      "text": "about what it this is very similar to"
+    },
+    {
+      "start": 935.68,
+      "duration": 6.88,
+      "text": "the A2UI composer from uh the co-pilot"
+    },
+    {
+      "start": 939.279,
+      "duration": 4.481,
+      "text": "kit folks. Uh this one's ours. So I did"
+    },
+    {
+      "start": 942.56,
+      "duration": 2.8,
+      "text": "the same thing here. It's a chat"
+    },
+    {
+      "start": 943.76,
+      "duration": 5.36,
+      "text": "interface. I'm trying to book a flight"
+    },
+    {
+      "start": 945.36,
+      "duration": 7.68,
+      "text": "from uh New Orleans airport to uh New"
+    },
+    {
+      "start": 949.12,
+      "duration": 6.959,
+      "text": "York JFK on March 26, 2026. And then I"
+    },
+    {
+      "start": 953.04,
+      "duration": 5.28,
+      "text": "have right now A2UI's demo is only"
+    },
+    {
+      "start": 956.079,
+      "duration": 5.601,
+      "text": "limited to like I said before uh web"
+    },
+    {
+      "start": 958.32,
+      "duration": 6.8,
+      "text": "components with lit and angular I"
+    },
+    {
+      "start": 961.68,
+      "duration": 6.159,
+      "text": "believe it's using material and uh in"
+    },
+    {
+      "start": 965.12,
+      "duration": 6.639,
+      "text": "our projects we were mainly working with"
+    },
+    {
+      "start": 967.839,
+      "duration": 6.881,
+      "text": "shad CN or mantine as our as our design"
+    },
+    {
+      "start": 971.759,
+      "duration": 5.361,
+      "text": "systems. So, we needed to create this"
+    },
+    {
+      "start": 974.72,
+      "duration": 5.6,
+      "text": "bridge to do something similar to what's"
+    },
+    {
+      "start": 977.12,
+      "duration": 4.959,
+      "text": "in the A2UI GitHub repository to work"
+    },
+    {
+      "start": 980.32,
+      "duration": 3.6,
+      "text": "with React, which isn't something that's"
+    },
+    {
+      "start": 982.079,
+      "duration": 3.841,
+      "text": "currently supported. So, we needed to"
+    },
+    {
+      "start": 983.92,
+      "duration": 3.359,
+      "text": "figure out a way to get that bridge"
+    },
+    {
+      "start": 985.92,
+      "duration": 3.12,
+      "text": "connected and actually have it"
+    },
+    {
+      "start": 987.279,
+      "duration": 3.12,
+      "text": "supported. So, that's what this is here."
+    },
+    {
+      "start": 989.04,
+      "duration": 3.359,
+      "text": "It's it's fairly simple and"
+    },
+    {
+      "start": 990.399,
+      "duration": 5.12,
+      "text": "straightforward. I did the same thing"
+    },
+    {
+      "start": 992.399,
+      "duration": 4.641,
+      "text": "here with this uh conversation chat. I"
+    },
+    {
+      "start": 995.519,
+      "duration": 3.12,
+      "text": "said, \"Book me a flight.\" This is what"
+    },
+    {
+      "start": 997.04,
+      "duration": 3.2,
+      "text": "it rendered. And then you have the"
+    },
+    {
+      "start": 998.639,
+      "duration": 5.2,
+      "text": "option of going back and forth between"
+    },
+    {
+      "start": 1000.24,
+      "duration": 5.36,
+      "text": "Shad Cien uh and Mantine. And as you can"
+    },
+    {
+      "start": 1003.839,
+      "duration": 4.881,
+      "text": "see, it'll it'll put the actual airports"
+    },
+    {
+      "start": 1005.6,
+      "duration": 5.039,
+      "text": "in there um for New York. And then"
+    },
+    {
+      "start": 1008.72,
+      "duration": 3.52,
+      "text": "there's the datetime picker. And then"
+    },
+    {
+      "start": 1010.639,
+      "duration": 3.12,
+      "text": "you could select your seats and all that"
+    },
+    {
+      "start": 1012.24,
+      "duration": 3.279,
+      "text": "kind of stuff. And there's other ones."
+    },
+    {
+      "start": 1013.759,
+      "duration": 3.281,
+      "text": "There's these predefined scenarios. If"
+    },
+    {
+      "start": 1015.519,
+      "duration": 5.201,
+      "text": "you ever wanted to use any of these, you"
+    },
+    {
+      "start": 1017.04,
+      "duration": 6.159,
+      "text": "could uh like say you could doctor's"
+    },
+    {
+      "start": 1020.72,
+      "duration": 4.8,
+      "text": "visit. So these are the predefined"
+    },
+    {
+      "start": 1023.199,
+      "duration": 4.081,
+      "text": "scenarios. You don't have to go by any"
+    },
+    {
+      "start": 1025.52,
+      "duration": 3.84,
+      "text": "of the ones that are in here. You can go"
+    },
+    {
+      "start": 1027.28,
+      "duration": 4.32,
+      "text": "with just whatever you want to do. So"
+    },
+    {
+      "start": 1029.36,
+      "duration": 4.959,
+      "text": "you can say like, I want to book a table"
+    },
+    {
+      "start": 1031.6,
+      "duration": 4.8,
+      "text": "for two at my local Chinese food"
+    },
+    {
+      "start": 1034.319,
+      "duration": 4.24,
+      "text": "restaurant. And then it would render"
+    },
+    {
+      "start": 1036.4,
+      "duration": 5.279,
+      "text": "that for you. So here's the here's what"
+    },
+    {
+      "start": 1038.559,
+      "duration": 4.4,
+      "text": "it generated. Um, and this is like"
+    },
+    {
+      "start": 1041.679,
+      "duration": 6.081,
+      "text": "pretty spot-on for what you're looking"
+    },
+    {
+      "start": 1042.959,
+      "duration": 7.041,
+      "text": "for. So imagine a world where you're"
+    },
+    {
+      "start": 1047.76,
+      "duration": 5.6,
+      "text": "working within an application. Instead"
+    },
+    {
+      "start": 1050,
+      "duration": 5.6,
+      "text": "of the response that you get from your"
+    },
+    {
+      "start": 1053.36,
+      "duration": 4.24,
+      "text": "language model provider or whatever"
+    },
+    {
+      "start": 1055.6,
+      "duration": 4.88,
+      "text": "language model you're working with,"
+    },
+    {
+      "start": 1057.6,
+      "duration": 4.72,
+      "text": "you're getting the actual tool or"
+    },
+    {
+      "start": 1060.48,
+      "duration": 4.88,
+      "text": "interface that is needed in order for"
+    },
+    {
+      "start": 1062.32,
+      "duration": 5.599,
+      "text": "you to complete the thought or or finish"
+    },
+    {
+      "start": 1065.36,
+      "duration": 4.559,
+      "text": "the action or whatever it is that you're"
+    },
+    {
+      "start": 1067.919,
+      "duration": 4.241,
+      "text": "communicating with AI in the first"
+    },
+    {
+      "start": 1069.919,
+      "duration": 3.841,
+      "text": "place. So I'll post this along our"
+    },
+    {
+      "start": 1072.16,
+      "duration": 4.32,
+      "text": "resources. This gives a full explanation"
+    },
+    {
+      "start": 1073.76,
+      "duration": 4.96,
+      "text": "of exactly what it does and what it is"
+    },
+    {
+      "start": 1076.48,
+      "duration": 6.4,
+      "text": "and probably does a better job of"
+    },
+    {
+      "start": 1078.72,
+      "duration": 7.28,
+      "text": "explaining what ati bridge is. It does"
+    },
+    {
+      "start": 1082.88,
+      "duration": 4.799,
+      "text": "have mantina and shad cn adapter in it."
+    },
+    {
+      "start": 1086,
+      "duration": 4.96,
+      "text": "So if you didn't want to write your own"
+    },
+    {
+      "start": 1087.679,
+      "duration": 5.201,
+      "text": "recipes, it comes with recipes that are"
+    },
+    {
+      "start": 1090.96,
+      "duration": 4,
+      "text": "aligned with the properties from those"
+    },
+    {
+      "start": 1092.88,
+      "duration": 3.52,
+      "text": "design systems. So you would just be"
+    },
+    {
+      "start": 1094.96,
+      "duration": 3.68,
+      "text": "able to hook this up and it should work"
+    },
+    {
+      "start": 1096.4,
+      "duration": 5.44,
+      "text": "right away. If you don't have that, then"
+    },
+    {
+      "start": 1098.64,
+      "duration": 5.2,
+      "text": "you'd want to install the A2UI bridge"
+    },
+    {
+      "start": 1101.84,
+      "duration": 5.28,
+      "text": "and then you'd want to start creating"
+    },
+    {
+      "start": 1103.84,
+      "duration": 5.839,
+      "text": "your own adapters. So that way your A2UI"
+    },
+    {
+      "start": 1107.12,
+      "duration": 4.72,
+      "text": "knows how to generate. Basically, you're"
+    },
+    {
+      "start": 1109.679,
+      "duration": 5.761,
+      "text": "creating the guidelines for the recipes"
+    },
+    {
+      "start": 1111.84,
+      "duration": 6.24,
+      "text": "that A2 UI would be generating or your"
+    },
+    {
+      "start": 1115.44,
+      "duration": 5.52,
+      "text": "language model would be generating based"
+    },
+    {
+      "start": 1118.08,
+      "duration": 4.8,
+      "text": "on the A2UI spec."
+    },
+    {
+      "start": 1120.96,
+      "duration": 3.52,
+      "text": "Anyway, that was a lot. Um, there's"
+    },
+    {
+      "start": 1122.88,
+      "duration": 2.88,
+      "text": "another piece that I want to get into at"
+    },
+    {
+      "start": 1124.48,
+      "duration": 2.8,
+      "text": "some point where we have this fun"
+    },
+    {
+      "start": 1125.76,
+      "duration": 3.36,
+      "text": "playground where we get into these"
+    },
+    {
+      "start": 1127.28,
+      "duration": 3.759,
+      "text": "experiments and uh, a lot of"
+    },
+    {
+      "start": 1129.12,
+      "duration": 3.439,
+      "text": "documentation and just some really"
+    },
+    {
+      "start": 1131.039,
+      "duration": 4.64,
+      "text": "interesting stuff that we've been doing"
+    },
+    {
+      "start": 1132.559,
+      "duration": 4.721,
+      "text": "with A2UI. Uh, this is all publicly"
+    },
+    {
+      "start": 1135.679,
+      "duration": 4.481,
+      "text": "accessible stuff and I'll be sharing all"
+    },
+    {
+      "start": 1137.28,
+      "duration": 5.44,
+      "text": "of this. This is our A2UI lab where you"
+    },
+    {
+      "start": 1140.16,
+      "duration": 6.08,
+      "text": "can really get into like a some really"
+    },
+    {
+      "start": 1142.72,
+      "duration": 6.8,
+      "text": "like deep areas of A2UI and how it's"
+    },
+    {
+      "start": 1146.24,
+      "duration": 4.799,
+      "text": "being used and how it renders and what's"
+    },
+    {
+      "start": 1149.52,
+      "duration": 3.519,
+      "text": "happening on the back end. This is a"
+    },
+    {
+      "start": 1151.039,
+      "duration": 4.88,
+      "text": "little technical for this conversation"
+    },
+    {
+      "start": 1153.039,
+      "duration": 5.361,
+      "text": "and this is already a pretty lengthy"
+    },
+    {
+      "start": 1155.919,
+      "duration": 4.081,
+      "text": "demo. So, I'll leave it right there and"
+    },
+    {
+      "start": 1158.4,
+      "duration": 3.2,
+      "text": "say if you have any questions about"
+    },
+    {
+      "start": 1160,
+      "duration": 2.72,
+      "text": "this, please feel free to reach out."
+    },
+    {
+      "start": 1161.6,
+      "duration": 2.959,
+      "text": "This is something that's near and dear"
+    },
+    {
+      "start": 1162.72,
+      "duration": 3.839,
+      "text": "to us only because we've been kind of"
+    },
+    {
+      "start": 1164.559,
+      "duration": 6,
+      "text": "consumed with it over the last couple of"
+    },
+    {
+      "start": 1166.559,
+      "duration": 6.24,
+      "text": "weeks. And um and yeah, so uh I hope you"
+    },
+    {
+      "start": 1170.559,
+      "duration": 4.24,
+      "text": "have a moment to look into it and and"
+    },
+    {
+      "start": 1172.799,
+      "duration": 4.24,
+      "text": "like I said, if you're ever looking to"
+    },
+    {
+      "start": 1174.799,
+      "duration": 5.041,
+      "text": "uh get a little bit more information"
+    },
+    {
+      "start": 1177.039,
+      "duration": 4.561,
+      "text": "about this or or curious about what"
+    },
+    {
+      "start": 1179.84,
+      "duration": 5.76,
+      "text": "we're doing with it, don't hesitate to"
+    },
+    {
+      "start": 1181.6,
+      "duration": 4,
+      "text": "reach out. Thanks a lot everybody."
+    }
+  ],
+  "fullText": "Hello and welcome to another edition of TJ Plays with some A2 UI. So, in this video, I thought I'd cover something that's been generating a little bit of buzz right now, both in the AI community and the design systems community. And it's called A2 UI. And in this video, I hope to break it down into easily digestible sections just so that way you kind of understand completely what it is both from like a designer standpoint, from a infrastructure standpoint, from a user standpoint, who's interacting with it. And then I want to call out some differences between some of the types of code generators and ways these components and layouts are generated versus what this actually is because I know there's a lot of confusion behind or at least I'm hearing a lot of confusion around what exactly is A2 UI. So I think where I'll start is uh so like the concept is like what if a AI agent could build real user interfaces not mockups or code snippets but like real actual working components from your design system on demand as part of a conversation or an interaction and this is in your production application. And this isn't like a developer support tool or something like that. So in a nutshell, that's what A2UI enables. And we feel really strongly about it only because we've already started to begin implementing this kind of like in a beta version of some of the projects that we're currently working in. So, we felt the need to kind of show you some of the work that we've been doing with it and then explain to you the importance of it and then where we think it's headed in the future. So just to address what we think the current problem is with AI UI generation is that currently right now when AI agents need to show something more than just text they usually resort to two or three poor options or bad options. First they can generate code using claude or JPT or Gemini or whatever. It writes your React. You can copy and paste that React into your codebase. If it has access to your codebase, then it writes it directly to your codebase. Maybe it works, maybe it doesn't. But this is the key distinction. It can't run arbitrary generated code in production. One, it's not something that you want to do, but two, you need to test that. The security issues, there's lots of different reasons why you wouldn't want that to happen. People talk about, you know, the issues with risky AI generations and hallucinations and just the fidelity of component generations and just code generation in general from AI. So that's probably not something that we want to do in production, just letting AI run a muck in your production environment. And so, uh, one of the second things is they can describe what to build. So like create a form with three fields and a submit button. Cool. Now you kind of need somebody to go and hook it up to stuff. You need a developer to implement it. It needs to hook to an API. Needs to be integrated within a CMS or whatever the use case is for that component structure. Another issue is they can use pre-built widgets, but they're only they're limited to whatever widget someone anticipates you need. So there's really no flexibility. So it's a predefined layout, so to speak. So that it's like you can if you're using tools to generate your landing page or your homepage, they'll always be your landing page or your homepage. You can edit them and republish them and maybe you can drag and drop some things around, but that requires a developer or an editor to go in and make those edits. So it's limited flexibility. A2 UI is is mainly looking to solve this problem. A2UI solves this by separating what the agent wants to show from how your application renders it. So I'll get into a little diagram here. So this is the the A2 UI official documentation site from Google and this is like a little bit of a behind thescenes look into what exactly it does. The key insight is that A2UI is a dec a declarative protocol. The AI doesn't generate the code. It generates a recipe that lines up to the code. So, it's a structured JSON description of what UI elements should appear and how they're arranged in the data they display. So, your application then renders that recipe using your own components. You type whatever it is, type a message or interact with a button or something somewhere. And then there's an AI agent that communicates with the language model that then generates the JSON, which is the recipe. And then that recipe is hooked to your component, your web application that serves your component library, your design system. It then serves up those components to the user's UI. So the the user interface that the user is interacting with based on whatever their interaction was, whatever the intention was of that user. So why does this matter? know this matters because when we're moving forward into a world where AI agents handle more complex tasks and this isn't something that's going to be utilized in every like this isn't probably something meant for marketing websites or uh maybe at some point they will but this is mainly meant for UI heavy workflows that have a lot of uh widgets and dashboards and forms and mostly enterprise use cases I think in the beginning is probably what this would likely be used for. But right now, the way that a lot of this back and forth happens is through chat bubbles. Basically, like we've all used and claude and all these other language model platforms and it's a very much a back and forth repetitious cycle of you ask a thing or you say a thing, it responds with the thing and then so on and so on and so on. So imagine an enterprise agent that can generate approval workflows or data visualizations or custom forms based on conversation context or customer service agent that can show product comparisons or booking interfaces or account management screens without any pre-built templates. So when Google released this A2 UI as a open protocol because this is the future that they see coming. So when you ask things like some of the examples that they supplied here, it's like book a table for two. The user doesn't understand components or understands forms or what exactly they want to display. They're not explicitly describing what they need in order for them to book a table for two. They're saying book a table for two. in the agent is generating a recipe that is lining up to components or component structures that have already been predefined within your design system and then delivers a date field, a username field to log in potentially and how many seats or how many people your reservation. So that's kind of an example of how that works. And uh I think one of the biggest distinctions that is important to make here is that these are different like this is a protocol for one. So it isn't like an application that you're downloading. AUI is like HTML. It's there's confined set of constraints around the way these recipes are built. It's not like something like lovable or v 0 or bolt tools like lovable or vzero. Those already generate full applications from natural language. But the big distinction here, those are meant for developers or designers who are looking to dabble into code generation or application generation. They generate code that developer reviews that you typically a developer would review and deploy before going live. And then once it's live, it's there. It's great for prototyping, but they're not running that output directly in a production environment, especially without someone taking a look at it. A2 UI is different because it's a runtime protocol. That AI generates a recipe, your application renders it using your pre-approved components, and real users see the results, all without a developer in the loop. So, this is happening live in your application. And this isn't something that's pre-built and then shipped or deployed to an application. So, it's different between AI helps me build an app and AI shows users an interface during a conversation. Both are very valuable. Don't get me wrong. I think they're both amazing pieces of technology. They're just different layers in the stack. So, I hope that helps create the distinction there. So, let me show you a little bit about what ATUI actually looks like. So, I can use uh the documentation site just to kind of give you the anatomy of A2 UI and what the quote unquote recipe looks like. And this is basically what it is. So, the AI is generating this recipe. So, first it kind of it generates an ID. So, this is the main ID. This is kind of like establishing the global ID of the UI that it's about to generate. And then it is grabbing some identification uh some some uh identification markers that are syncing to components that exist within your design system and then it's filling those with the components and then any of the properties that live within those components. So it's putting in the values like book your table. It's saying grab the ID of date picker is going to pull the datetime picker datetime input and then the the values that need to be filled in are these. And then so there's other uh key value pairs that it pulls through. But this is a fairly simple example of what this might look like for the restaurant reservation book a table for two example. Uh and we'll get into a little bit more of the detail stuff. I don't want to get bogged down in the code side of it uh too much, but what's important to understand is that uh it is uh some sort of user input, whether it's an event that happens that engages your agent, your AI to generate the recipe based on A2UI's predefined guidelines. And then it's up to your design system and how well your design system has been defined to determine the return the output what comes back from the recipe that the AI has generated. So, one of the things that I wanted to make sure that we talk about why it's such an important piece of technology right now and how this ties in with design systems is that now more than ever is it important to increase the fidelity of your design systems to ensure that you've got documentation on point that you've got full coverage of all your components and component structures. Because once these recipes are created, these are the recipes that are going to be looking for components that should exist within your design system and line them up so that way it can create these compositions in order to fulfill the user's intent. If it doesn't find a certain component, your AI will either move on to whatever the next best thing is or it'll fail safely and it won't error out or anything depending on how your application works with it. So, we've been doing some work with this for a little bit. I can show you a couple of examples of some things that exist out there. For one, this is the A2 UI. It's a public repository. You can play with it. There's some demos in here that you can mess around with. The demos are mainly Angular in web components with lit. I think in the future are some um uh they're looking to add React View and some other JavaScript libraries and frameworks to it. But as of right now, you can clone this and play with some of the examples that they have in there. They're good to play with. And this is the official blog post where they're introducing A2 UI. It's a good read. It does a really good job distilling some of the stuff that I just mentioned, talking about the main problems, how agents need to speak to UI, not have this clunky back and forth that happens with the I want to book a table for two. Okay, what day? I want that tomorrow. Okay, what time? Maybe 7:00 p.m. Oh, we don't have anything for that. What other times? So, there's a lot of back and forth that why not just present the user with a form and then allow them to do the interactive parts themselves? Uh, one cool little tool that I wanted to call out was this neat A2 UI composer. So, you can just there's a gallery of things that you can actually pull from in here. So, there's all these little card components and then reasons why all these are created. But then there's uh this create part. So, you can say something like um I need to book a flight from New Orleans, Louisiana to New York on March 15, 2026. And then I can create this. And this is a fun little tool. This is powered by uh Copilot Kit, which is uh like a a partner of A2UI. They have a site here that does a really good job of outlining some of the specs and uh and then it does a pretty deep dive into what exactly A2 UI is and offers some examples and demos and other fun stuff. So, I'll link all of these in a in a resources post and I'll post it along with this message. As you can see right here, this is a live example of something that I posted. This is a flight booking. This has the place where I said the origin should be. And this has the destination of where I'm looking to go. It knew that I needed some sort of uh date picker. Uh and then with the book flight options, this is a little primitive. It's not exactly like the most uh aesthetic thing. And then over here, it shows you the recipe or the spec that the A2 UI spec that was created. And then over here is the chat interface that it heard from my input and then how it ended up generating this. And then if you wanted to apply this to your application, you can copy the JSON or you can download it specifically and then add it if this is something that you're looking to do. Uh we have uh a similar tool that we've been working on. Like I said, we've had some projects that have called for this type of technology. uh mainly for a lot of security reasons and then just for ensuring that there isn't any sort of derailment of the AI when it's generating these components. So we ended up creating this thing called A2UI bridge. Uh I'll show you in a second about what it this is very similar to the A2UI composer from uh the co-pilot kit folks. Uh this one's ours. So I did the same thing here. It's a chat interface. I'm trying to book a flight from uh New Orleans airport to uh New York JFK on March 26, 2026. And then I have right now A2UI's demo is only limited to like I said before uh web components with lit and angular I believe it's using material and uh in our projects we were mainly working with shad CN or mantine as our as our design systems. So, we needed to create this bridge to do something similar to what's in the A2UI GitHub repository to work with React, which isn't something that's currently supported. So, we needed to figure out a way to get that bridge connected and actually have it supported. So, that's what this is here. It's it's fairly simple and straightforward. I did the same thing here with this uh conversation chat. I said, \"Book me a flight.\" This is what it rendered. And then you have the option of going back and forth between Shad Cien uh and Mantine. And as you can see, it'll it'll put the actual airports in there um for New York. And then there's the datetime picker. And then you could select your seats and all that kind of stuff. And there's other ones. There's these predefined scenarios. If you ever wanted to use any of these, you could uh like say you could doctor's visit. So these are the predefined scenarios. You don't have to go by any of the ones that are in here. You can go with just whatever you want to do. So you can say like, I want to book a table for two at my local Chinese food restaurant. And then it would render that for you. So here's the here's what it generated. Um, and this is like pretty spot-on for what you're looking for. So imagine a world where you're working within an application. Instead of the response that you get from your language model provider or whatever language model you're working with, you're getting the actual tool or interface that is needed in order for you to complete the thought or or finish the action or whatever it is that you're communicating with AI in the first place. So I'll post this along our resources. This gives a full explanation of exactly what it does and what it is and probably does a better job of explaining what ati bridge is. It does have mantina and shad cn adapter in it. So if you didn't want to write your own recipes, it comes with recipes that are aligned with the properties from those design systems. So you would just be able to hook this up and it should work right away. If you don't have that, then you'd want to install the A2UI bridge and then you'd want to start creating your own adapters. So that way your A2UI knows how to generate. Basically, you're creating the guidelines for the recipes that A2 UI would be generating or your language model would be generating based on the A2UI spec. Anyway, that was a lot. Um, there's another piece that I want to get into at some point where we have this fun playground where we get into these experiments and uh, a lot of documentation and just some really interesting stuff that we've been doing with A2UI. Uh, this is all publicly accessible stuff and I'll be sharing all of this. This is our A2UI lab where you can really get into like a some really like deep areas of A2UI and how it's being used and how it renders and what's happening on the back end. This is a little technical for this conversation and this is already a pretty lengthy demo. So, I'll leave it right there and say if you have any questions about this, please feel free to reach out. This is something that's near and dear to us only because we've been kind of consumed with it over the last couple of weeks. And um and yeah, so uh I hope you have a moment to look into it and and like I said, if you're ever looking to uh get a little bit more information about this or or curious about what we're doing with it, don't hesitate to reach out. Thanks a lot everybody.",
+  "fetchedAt": "2026-01-18T18:32:01.705Z"
+}

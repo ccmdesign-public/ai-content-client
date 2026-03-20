@@ -1,0 +1,959 @@
+{
+  "videoId": "b1xe7IpxQ9o",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.08,
+      "text": "Hello guys, this week Cloud Code"
+    },
+    {
+      "start": 2.08,
+      "duration": 5.679,
+      "text": "released a really important internal"
+    },
+    {
+      "start": 4.16,
+      "duration": 5.84,
+      "text": "improvement, a new version 2.1.7"
+    },
+    {
+      "start": 7.759,
+      "duration": 4.721,
+      "text": "and this is a tweet by Tariq from Cloud"
+    },
+    {
+      "start": 10,
+      "duration": 4.559,
+      "text": "Code. This is called tool search now in"
+    },
+    {
+      "start": 12.48,
+      "duration": 5.12,
+      "text": "cloud code. In this video, I will show"
+    },
+    {
+      "start": 14.559,
+      "duration": 6.401,
+      "text": "you why it is hugely important not only"
+    },
+    {
+      "start": 17.6,
+      "duration": 6.24,
+      "text": "for this specific use case of MCP but in"
+    },
+    {
+      "start": 20.96,
+      "duration": 5.2,
+      "text": "general where cloud code is heading to"
+    },
+    {
+      "start": 23.84,
+      "duration": 4.8,
+      "text": "the direction and in general how you"
+    },
+    {
+      "start": 26.16,
+      "duration": 4.959,
+      "text": "should think about context management."
+    },
+    {
+      "start": 28.64,
+      "duration": 6.24,
+      "text": "So yeah, tool search now in cloud code"
+    },
+    {
+      "start": 31.119,
+      "duration": 7.041,
+      "text": "enabling MCP tool search basically on"
+    },
+    {
+      "start": 34.88,
+      "duration": 5.92,
+      "text": "demand when cloud code detects that tool"
+    },
+    {
+      "start": 38.16,
+      "duration": 5.2,
+      "text": "descriptions would use more than 10% of"
+    },
+    {
+      "start": 40.8,
+      "duration": 4.4,
+      "text": "context. What does it actually mean? So"
+    },
+    {
+      "start": 43.36,
+      "duration": 4.56,
+      "text": "let me show you. I launched cloud code"
+    },
+    {
+      "start": 45.2,
+      "duration": 5.039,
+      "text": "and I have a few MCP servers. By the"
+    },
+    {
+      "start": 47.92,
+      "duration": 4.639,
+      "text": "way, side note, I switched from cloud"
+    },
+    {
+      "start": 50.239,
+      "duration": 4.721,
+      "text": "code inside of cursor or VS code to"
+    },
+    {
+      "start": 52.559,
+      "duration": 5.041,
+      "text": "separate terminal ghosty because I was"
+    },
+    {
+      "start": 54.96,
+      "duration": 5.279,
+      "text": "tired of flickering cloud code inside of"
+    },
+    {
+      "start": 57.6,
+      "duration": 5.92,
+      "text": "those tools. So yeah, we launch MCP and"
+    },
+    {
+      "start": 60.239,
+      "duration": 6.401,
+      "text": "I have four MCP servers typical for"
+    },
+    {
+      "start": 63.52,
+      "duration": 5.36,
+      "text": "Laravel projects but all disabled for a"
+    },
+    {
+      "start": 66.64,
+      "duration": 5.28,
+      "text": "reason. Let me show you. Then we launch"
+    },
+    {
+      "start": 68.88,
+      "duration": 6.32,
+      "text": "context and it will show you how much"
+    },
+    {
+      "start": 71.92,
+      "duration": 6.08,
+      "text": "context is actually taken by various"
+    },
+    {
+      "start": 75.2,
+      "duration": 5.599,
+      "text": "tools and system things. So this is the"
+    },
+    {
+      "start": 78,
+      "duration": 5.36,
+      "text": "diagram. In total, we have 200,000"
+    },
+    {
+      "start": 80.799,
+      "duration": 5.36,
+      "text": "tokens. And this is important because"
+    },
+    {
+      "start": 83.36,
+      "duration": 5.28,
+      "text": "the more things your prompt does, the"
+    },
+    {
+      "start": 86.159,
+      "duration": 5.361,
+      "text": "more tokens it's using in the same"
+    },
+    {
+      "start": 88.64,
+      "duration": 5.119,
+      "text": "context. And for bigger task, at some"
+    },
+    {
+      "start": 91.52,
+      "duration": 5.12,
+      "text": "point cloud code will either start"
+    },
+    {
+      "start": 93.759,
+      "duration": 5.841,
+      "text": "really hallucinating or compacting your"
+    },
+    {
+      "start": 96.64,
+      "duration": 5.04,
+      "text": "context, which will lose your initial"
+    },
+    {
+      "start": 99.6,
+      "duration": 4.96,
+      "text": "things like guidelines or prompt, which"
+    },
+    {
+      "start": 101.68,
+      "duration": 4.479,
+      "text": "will start hallucinating even more. So"
+    },
+    {
+      "start": 104.56,
+      "duration": 4.16,
+      "text": "context management and context"
+    },
+    {
+      "start": 106.159,
+      "duration": 5.201,
+      "text": "optimization becomes a huge topic"
+    },
+    {
+      "start": 108.72,
+      "duration": 5.039,
+      "text": "especially for bigger tasks with AI in"
+    },
+    {
+      "start": 111.36,
+      "duration": 4.799,
+      "text": "general and this is just one example. So"
+    },
+    {
+      "start": 113.759,
+      "duration": 6.161,
+      "text": "as you can see without even any prompt"
+    },
+    {
+      "start": 116.159,
+      "duration": 6.721,
+      "text": "without anything I already have 16% of"
+    },
+    {
+      "start": 119.92,
+      "duration": 5.92,
+      "text": "context window used by cloud code itself"
+    },
+    {
+      "start": 122.88,
+      "duration": 5.12,
+      "text": "also memory uses quite a lot and then a"
+    },
+    {
+      "start": 125.84,
+      "duration": 5.28,
+      "text": "few more things I was experimenting with"
+    },
+    {
+      "start": 128,
+      "duration": 6.239,
+      "text": "like agents but those don't take much if"
+    },
+    {
+      "start": 131.12,
+      "duration": 6.32,
+      "text": "we add MCP servers into account each of"
+    },
+    {
+      "start": 134.239,
+      "duration": 6.321,
+      "text": "MCP server their descriptions their tool"
+    },
+    {
+      "start": 137.44,
+      "duration": 5.6,
+      "text": "descriptions take also tokens even if"
+    },
+    {
+      "start": 140.56,
+      "duration": 5.36,
+      "text": "you don't use them directly it's kind of"
+    },
+    {
+      "start": 143.04,
+      "duration": 6.48,
+      "text": "on demand. But look what happens if I"
+    },
+    {
+      "start": 145.92,
+      "duration": 6.48,
+      "text": "launch MCP again and enable those MCP"
+    },
+    {
+      "start": 149.52,
+      "duration": 6.16,
+      "text": "servers like context 7. So yeah, now all"
+    },
+    {
+      "start": 152.4,
+      "duration": 6.72,
+      "text": "four enabled. And now if we go and"
+    },
+    {
+      "start": 155.68,
+      "duration": 5.919,
+      "text": "launch context. If I scroll up the list,"
+    },
+    {
+      "start": 159.12,
+      "duration": 5.119,
+      "text": "look, we have MCP play, right? Then we"
+    },
+    {
+      "start": 161.599,
+      "duration": 6.481,
+      "text": "have MCP Laravel boost, MCP context 7"
+    },
+    {
+      "start": 164.239,
+      "duration": 8,
+      "text": "and her. And in total, MCP tools take"
+    },
+    {
+      "start": 168.08,
+      "duration": 6.56,
+      "text": "7,000 tokens, which is 3.5% of the total"
+    },
+    {
+      "start": 172.239,
+      "duration": 4.64,
+      "text": "context window. And again, I haven't"
+    },
+    {
+      "start": 174.64,
+      "duration": 4.879,
+      "text": "even launched any prompts. I may not"
+    },
+    {
+      "start": 176.879,
+      "duration": 5.201,
+      "text": "even use those MCP servers, but those"
+    },
+    {
+      "start": 179.519,
+      "duration": 5.041,
+      "text": "still take tokens. So, this is exactly"
+    },
+    {
+      "start": 182.08,
+      "duration": 5.28,
+      "text": "what that new change of cloud code is"
+    },
+    {
+      "start": 184.56,
+      "duration": 5.44,
+      "text": "trying to fight against. If cloud code"
+    },
+    {
+      "start": 187.36,
+      "duration": 7.28,
+      "text": "detects that this number is bigger than"
+    },
+    {
+      "start": 190,
+      "duration": 7.44,
+      "text": "10% then it will try to load MCP tools"
+    },
+    {
+      "start": 194.64,
+      "duration": 5.599,
+      "text": "when they are triggered by descriptions"
+    },
+    {
+      "start": 197.44,
+      "duration": 5.12,
+      "text": "searching for the tools only when needed"
+    },
+    {
+      "start": 200.239,
+      "duration": 4.72,
+      "text": "instead of loading them up front without"
+    },
+    {
+      "start": 202.56,
+      "duration": 4.16,
+      "text": "any prompts. It's actually so important"
+    },
+    {
+      "start": 204.959,
+      "duration": 4.721,
+      "text": "and it was such a big problem that"
+    },
+    {
+      "start": 206.72,
+      "duration": 5.92,
+      "text": "people stopped using MCPS altogether."
+    },
+    {
+      "start": 209.68,
+      "duration": 5.68,
+      "text": "For example, Simon Willis, well-known AI"
+    },
+    {
+      "start": 212.64,
+      "duration": 6.08,
+      "text": "expert, said that context pollution is"
+    },
+    {
+      "start": 215.36,
+      "duration": 5.04,
+      "text": "why I rarely used MCPs at all. Also,"
+    },
+    {
+      "start": 218.72,
+      "duration": 4.799,
+      "text": "another reply to the same prompt of"
+    },
+    {
+      "start": 220.4,
+      "duration": 5.759,
+      "text": "Tariq by Timur solves the biggest MCP"
+    },
+    {
+      "start": 223.519,
+      "duration": 5.201,
+      "text": "pain point. Running 10 plus MCP servers"
+    },
+    {
+      "start": 226.159,
+      "duration": 4.401,
+      "text": "were scaling my context. Of course, it's"
+    },
+    {
+      "start": 228.72,
+      "duration": 4.96,
+      "text": "a debatable question whether you do need"
+    },
+    {
+      "start": 230.56,
+      "duration": 4.959,
+      "text": "those 10 plus MCP servers, but this is a"
+    },
+    {
+      "start": 233.68,
+      "duration": 3.68,
+      "text": "topic for another video. Which MCP"
+    },
+    {
+      "start": 235.519,
+      "duration": 4.161,
+      "text": "servers are actually useful? probably"
+    },
+    {
+      "start": 237.36,
+      "duration": 4,
+      "text": "for some projects it's unavoidable."
+    },
+    {
+      "start": 239.68,
+      "duration": 4.4,
+      "text": "Also, I asked Google just out of"
+    },
+    {
+      "start": 241.36,
+      "duration": 5.28,
+      "text": "curiosity what MCP servers take a lot of"
+    },
+    {
+      "start": 244.08,
+      "duration": 5.2,
+      "text": "tokens. So, it listed those. Playright,"
+    },
+    {
+      "start": 246.64,
+      "duration": 6,
+      "text": "which I did use inside. And then GitHub"
+    },
+    {
+      "start": 249.28,
+      "duration": 6,
+      "text": "and linear could often use 10K or even"
+    },
+    {
+      "start": 252.64,
+      "duration": 4.879,
+      "text": "100K tokens per server. And this is"
+    },
+    {
+      "start": 255.28,
+      "duration": 4.799,
+      "text": "again without you writing any prompts"
+    },
+    {
+      "start": 257.519,
+      "duration": 4.641,
+      "text": "before prompting. Just by existing, they"
+    },
+    {
+      "start": 260.079,
+      "duration": 4.56,
+      "text": "take tokens. Also, I found an"
+    },
+    {
+      "start": 262.16,
+      "duration": 4.24,
+      "text": "interesting post on Reddit's blog from"
+    },
+    {
+      "start": 264.639,
+      "duration": 4.801,
+      "text": "December, which is basically a month"
+    },
+    {
+      "start": 266.4,
+      "duration": 5.28,
+      "text": "ago. They solved that problem that exact"
+    },
+    {
+      "start": 269.44,
+      "duration": 5.36,
+      "text": "problem but from another angle. The"
+    },
+    {
+      "start": 271.68,
+      "duration": 5.84,
+      "text": "problem is the same too much context for"
+    },
+    {
+      "start": 274.8,
+      "duration": 5.839,
+      "text": "MCP. So these are the examples how many"
+    },
+    {
+      "start": 277.52,
+      "duration": 6.56,
+      "text": "tools are inside of each MCPS and"
+    },
+    {
+      "start": 280.639,
+      "duration": 5.681,
+      "text": "roughly 60k tokens consumed before any"
+    },
+    {
+      "start": 284.08,
+      "duration": 4.64,
+      "text": "prompt. So they released a tool specific"
+    },
+    {
+      "start": 286.32,
+      "duration": 5.52,
+      "text": "tool it seems tool filtering with Reddis"
+    },
+    {
+      "start": 288.72,
+      "duration": 6.88,
+      "text": "that allows them to reach these results"
+    },
+    {
+      "start": 291.84,
+      "duration": 6.639,
+      "text": "from 23k tokens to barely any. So yeah,"
+    },
+    {
+      "start": 295.6,
+      "duration": 5.12,
+      "text": "the problem is real. MCP token overload"
+    },
+    {
+      "start": 298.479,
+      "duration": 4.881,
+      "text": "is real. And now inside of cloud code,"
+    },
+    {
+      "start": 300.72,
+      "duration": 5.36,
+      "text": "we have a mechanism to automatically"
+    },
+    {
+      "start": 303.36,
+      "duration": 6.08,
+      "text": "solve this. In the change log of cloud"
+    },
+    {
+      "start": 306.08,
+      "duration": 5.6,
+      "text": "code, as I said, 2.1.7 is the version."
+    },
+    {
+      "start": 309.44,
+      "duration": 4.4,
+      "text": "And this change was barely noticed"
+    },
+    {
+      "start": 311.68,
+      "duration": 5.92,
+      "text": "because it's not in the addit. It's not"
+    },
+    {
+      "start": 313.84,
+      "duration": 6.48,
+      "text": "in the top of the list. It's this. In"
+    },
+    {
+      "start": 317.6,
+      "duration": 5.28,
+      "text": "fact, MCP tool search is not even a new"
+    },
+    {
+      "start": 320.32,
+      "duration": 5.92,
+      "text": "thing. It was in cloud code before. Now"
+    },
+    {
+      "start": 322.88,
+      "duration": 6.159,
+      "text": "they just enabled it at 10% of context"
+    },
+    {
+      "start": 326.24,
+      "duration": 4.88,
+      "text": "window automatically for everyone and"
+    },
+    {
+      "start": 329.039,
+      "duration": 4.561,
+      "text": "this will become even configurable quite"
+    },
+    {
+      "start": 331.12,
+      "duration": 5.519,
+      "text": "soon. So Miguel replied to Tariq asking"
+    },
+    {
+      "start": 333.6,
+      "duration": 6.159,
+      "text": "whether any way to force it and Tariq"
+    },
+    {
+      "start": 336.639,
+      "duration": 5.921,
+      "text": "replied with we can add this as toggle"
+    },
+    {
+      "start": 339.759,
+      "duration": 5.28,
+      "text": "and this reply got so many likes that I"
+    },
+    {
+      "start": 342.56,
+      "duration": 4.8,
+      "text": "like the approach of anthropic team."
+    },
+    {
+      "start": 345.039,
+      "duration": 5.121,
+      "text": "This is enough likes so yeah we'll build"
+    },
+    {
+      "start": 347.36,
+      "duration": 5.279,
+      "text": "it. So in 2.1.9"
+    },
+    {
+      "start": 350.16,
+      "duration": 4.72,
+      "text": "we will have environment variable. So"
+    },
+    {
+      "start": 352.639,
+      "duration": 3.921,
+      "text": "this is a great new improvement of cloud"
+    },
+    {
+      "start": 354.88,
+      "duration": 4.4,
+      "text": "code and with that I see kind of"
+    },
+    {
+      "start": 356.56,
+      "duration": 5.68,
+      "text": "philosophical overarching topic. They"
+    },
+    {
+      "start": 359.28,
+      "duration": 5.52,
+      "text": "keep improving internally cloud code as"
+    },
+    {
+      "start": 362.24,
+      "duration": 5.84,
+      "text": "a tool to work on the problems that"
+    },
+    {
+      "start": 364.8,
+      "duration": 5.44,
+      "text": "developers use to create specific tools"
+    },
+    {
+      "start": 368.08,
+      "duration": 3.92,
+      "text": "for. And here I want to mention a great"
+    },
+    {
+      "start": 370.24,
+      "duration": 4.32,
+      "text": "video I watched yesterday by Brian"
+    },
+    {
+      "start": 372,
+      "duration": 6.24,
+      "text": "Castle. Claude code is all you need in"
+    },
+    {
+      "start": 374.56,
+      "duration": 5.84,
+      "text": "2026. So it seems like a lot of tools"
+    },
+    {
+      "start": 378.24,
+      "duration": 4.799,
+      "text": "and workarounds and methodologies"
+    },
+    {
+      "start": 380.4,
+      "duration": 5.12,
+      "text": "including Brian's agent OS which I"
+    },
+    {
+      "start": 383.039,
+      "duration": 5.6,
+      "text": "recently mentioned in my video things"
+    },
+    {
+      "start": 385.52,
+      "duration": 5.84,
+      "text": "like opensp spec agent OS spec kit for"
+    },
+    {
+      "start": 388.639,
+      "duration": 5.84,
+      "text": "specification. Brian admitted in this"
+    },
+    {
+      "start": 391.36,
+      "duration": 6.16,
+      "text": "video that default clot code already"
+    },
+    {
+      "start": 394.479,
+      "duration": 6.241,
+      "text": "covers a lot of it inside with the tool"
+    },
+    {
+      "start": 397.52,
+      "duration": 7.04,
+      "text": "of ask user questions with improved plan"
+    },
+    {
+      "start": 400.72,
+      "duration": 6,
+      "text": "mode and so on. Also, the model OPUS 4.5"
+    },
+    {
+      "start": 404.56,
+      "duration": 5.199,
+      "text": "got so much better at basically"
+    },
+    {
+      "start": 406.72,
+      "duration": 5.199,
+      "text": "understanding a lot by default. So my"
+    },
+    {
+      "start": 409.759,
+      "duration": 3.841,
+      "text": "kind of philosophical point here is that"
+    },
+    {
+      "start": 411.919,
+      "duration": 4.641,
+      "text": "I think we're heading in the direction"
+    },
+    {
+      "start": 413.6,
+      "duration": 5.599,
+      "text": "that clothe code is indeed almost all"
+    },
+    {
+      "start": 416.56,
+      "duration": 5.84,
+      "text": "that we need and the success of your"
+    },
+    {
+      "start": 419.199,
+      "duration": 6,
+      "text": "prompts depend on well prompts your"
+    },
+    {
+      "start": 422.4,
+      "duration": 5.68,
+      "text": "context specification and how well you"
+    },
+    {
+      "start": 425.199,
+      "duration": 5.521,
+      "text": "can describe what you want because cloud"
+    },
+    {
+      "start": 428.08,
+      "duration": 5.36,
+      "text": "code as a technical implement of what"
+    },
+    {
+      "start": 430.72,
+      "duration": 5.36,
+      "text": "you want becomes better and better even"
+    },
+    {
+      "start": 433.44,
+      "duration": 4.56,
+      "text": "without external MCPS. Of course,"
+    },
+    {
+      "start": 436.08,
+      "duration": 4.16,
+      "text": "external tools are still needed and"
+    },
+    {
+      "start": 438,
+      "duration": 3.919,
+      "text": "skills. Some skills are needed and I"
+    },
+    {
+      "start": 440.24,
+      "duration": 3.679,
+      "text": "will talk a lot about those on this"
+    },
+    {
+      "start": 441.919,
+      "duration": 5.041,
+      "text": "channel. Kind of extra thing, but I"
+    },
+    {
+      "start": 443.919,
+      "duration": 5.441,
+      "text": "think Claude Code is improving rapidly"
+    },
+    {
+      "start": 446.96,
+      "duration": 5.519,
+      "text": "based on the problems they see in the"
+    },
+    {
+      "start": 449.36,
+      "duration": 6,
+      "text": "community of developers with Tariq Boris"
+    },
+    {
+      "start": 452.479,
+      "duration": 4.72,
+      "text": "and others active on Twitter replying to"
+    },
+    {
+      "start": 455.36,
+      "duration": 4,
+      "text": "everyone. So I think if you're still"
+    },
+    {
+      "start": 457.199,
+      "duration": 4.801,
+      "text": "debating whether to use cursor, codeex"
+    },
+    {
+      "start": 459.36,
+      "duration": 5.279,
+      "text": "or claw code, I think the winner is"
+    },
+    {
+      "start": 462,
+      "duration": 5.28,
+      "text": "pretty clear at this point in January of"
+    },
+    {
+      "start": 464.639,
+      "duration": 4.161,
+      "text": "2026, but we'll see. So yeah, this is"
+    },
+    {
+      "start": 467.28,
+      "duration": 3.919,
+      "text": "the improvement. Have you actually"
+    },
+    {
+      "start": 468.8,
+      "duration": 5.519,
+      "text": "experienced this problem of too many"
+    },
+    {
+      "start": 471.199,
+      "duration": 4.56,
+      "text": "MCPS and too much context taken? Let's"
+    },
+    {
+      "start": 474.319,
+      "duration": 2.961,
+      "text": "discuss all of that in the comments"
+    },
+    {
+      "start": 475.759,
+      "duration": 4,
+      "text": "below. And if you want to find the"
+    },
+    {
+      "start": 477.28,
+      "duration": 4,
+      "text": "latest news and trends in AI coding, I"
+    },
+    {
+      "start": 479.759,
+      "duration": 4.241,
+      "text": "recently launched a website"
+    },
+    {
+      "start": 481.28,
+      "duration": 5.12,
+      "text": "aiccodingdaily.com in addition to my"
+    },
+    {
+      "start": 484,
+      "duration": 4.24,
+      "text": "substack. But here I will curate more"
+    },
+    {
+      "start": 486.4,
+      "duration": 4.16,
+      "text": "news from the community. So for example,"
+    },
+    {
+      "start": 488.24,
+      "duration": 4.239,
+      "text": "latest tweets on the right. You can see"
+    },
+    {
+      "start": 490.56,
+      "duration": 4.24,
+      "text": "Reddit posts and stuff like that"
+    },
+    {
+      "start": 492.479,
+      "duration": 3.921,
+      "text": "including free weekly newsletter which"
+    },
+    {
+      "start": 494.8,
+      "duration": 3.36,
+      "text": "you can subscribe to at the bottom of"
+    },
+    {
+      "start": 496.4,
+      "duration": 4.639,
+      "text": "the website. That's it for this time and"
+    },
+    {
+      "start": 498.16,
+      "duration": 2.879,
+      "text": "see you guys in other"
+    }
+  ],
+  "fullText": "Hello guys, this week Cloud Code released a really important internal improvement, a new version 2.1.7 and this is a tweet by Tariq from Cloud Code. This is called tool search now in cloud code. In this video, I will show you why it is hugely important not only for this specific use case of MCP but in general where cloud code is heading to the direction and in general how you should think about context management. So yeah, tool search now in cloud code enabling MCP tool search basically on demand when cloud code detects that tool descriptions would use more than 10% of context. What does it actually mean? So let me show you. I launched cloud code and I have a few MCP servers. By the way, side note, I switched from cloud code inside of cursor or VS code to separate terminal ghosty because I was tired of flickering cloud code inside of those tools. So yeah, we launch MCP and I have four MCP servers typical for Laravel projects but all disabled for a reason. Let me show you. Then we launch context and it will show you how much context is actually taken by various tools and system things. So this is the diagram. In total, we have 200,000 tokens. And this is important because the more things your prompt does, the more tokens it's using in the same context. And for bigger task, at some point cloud code will either start really hallucinating or compacting your context, which will lose your initial things like guidelines or prompt, which will start hallucinating even more. So context management and context optimization becomes a huge topic especially for bigger tasks with AI in general and this is just one example. So as you can see without even any prompt without anything I already have 16% of context window used by cloud code itself also memory uses quite a lot and then a few more things I was experimenting with like agents but those don't take much if we add MCP servers into account each of MCP server their descriptions their tool descriptions take also tokens even if you don't use them directly it's kind of on demand. But look what happens if I launch MCP again and enable those MCP servers like context 7. So yeah, now all four enabled. And now if we go and launch context. If I scroll up the list, look, we have MCP play, right? Then we have MCP Laravel boost, MCP context 7 and her. And in total, MCP tools take 7,000 tokens, which is 3.5% of the total context window. And again, I haven't even launched any prompts. I may not even use those MCP servers, but those still take tokens. So, this is exactly what that new change of cloud code is trying to fight against. If cloud code detects that this number is bigger than 10% then it will try to load MCP tools when they are triggered by descriptions searching for the tools only when needed instead of loading them up front without any prompts. It's actually so important and it was such a big problem that people stopped using MCPS altogether. For example, Simon Willis, well-known AI expert, said that context pollution is why I rarely used MCPs at all. Also, another reply to the same prompt of Tariq by Timur solves the biggest MCP pain point. Running 10 plus MCP servers were scaling my context. Of course, it's a debatable question whether you do need those 10 plus MCP servers, but this is a topic for another video. Which MCP servers are actually useful? probably for some projects it's unavoidable. Also, I asked Google just out of curiosity what MCP servers take a lot of tokens. So, it listed those. Playright, which I did use inside. And then GitHub and linear could often use 10K or even 100K tokens per server. And this is again without you writing any prompts before prompting. Just by existing, they take tokens. Also, I found an interesting post on Reddit's blog from December, which is basically a month ago. They solved that problem that exact problem but from another angle. The problem is the same too much context for MCP. So these are the examples how many tools are inside of each MCPS and roughly 60k tokens consumed before any prompt. So they released a tool specific tool it seems tool filtering with Reddis that allows them to reach these results from 23k tokens to barely any. So yeah, the problem is real. MCP token overload is real. And now inside of cloud code, we have a mechanism to automatically solve this. In the change log of cloud code, as I said, 2.1.7 is the version. And this change was barely noticed because it's not in the addit. It's not in the top of the list. It's this. In fact, MCP tool search is not even a new thing. It was in cloud code before. Now they just enabled it at 10% of context window automatically for everyone and this will become even configurable quite soon. So Miguel replied to Tariq asking whether any way to force it and Tariq replied with we can add this as toggle and this reply got so many likes that I like the approach of anthropic team. This is enough likes so yeah we'll build it. So in 2.1.9 we will have environment variable. So this is a great new improvement of cloud code and with that I see kind of philosophical overarching topic. They keep improving internally cloud code as a tool to work on the problems that developers use to create specific tools for. And here I want to mention a great video I watched yesterday by Brian Castle. Claude code is all you need in 2026. So it seems like a lot of tools and workarounds and methodologies including Brian's agent OS which I recently mentioned in my video things like opensp spec agent OS spec kit for specification. Brian admitted in this video that default clot code already covers a lot of it inside with the tool of ask user questions with improved plan mode and so on. Also, the model OPUS 4.5 got so much better at basically understanding a lot by default. So my kind of philosophical point here is that I think we're heading in the direction that clothe code is indeed almost all that we need and the success of your prompts depend on well prompts your context specification and how well you can describe what you want because cloud code as a technical implement of what you want becomes better and better even without external MCPS. Of course, external tools are still needed and skills. Some skills are needed and I will talk a lot about those on this channel. Kind of extra thing, but I think Claude Code is improving rapidly based on the problems they see in the community of developers with Tariq Boris and others active on Twitter replying to everyone. So I think if you're still debating whether to use cursor, codeex or claw code, I think the winner is pretty clear at this point in January of 2026, but we'll see. So yeah, this is the improvement. Have you actually experienced this problem of too many MCPS and too much context taken? Let's discuss all of that in the comments below. And if you want to find the latest news and trends in AI coding, I recently launched a website aiccodingdaily.com in addition to my substack. But here I will curate more news from the community. So for example, latest tweets on the right. You can see Reddit posts and stuff like that including free weekly newsletter which you can subscribe to at the bottom of the website. That's it for this time and see you guys in other",
+  "fetchedAt": "2026-01-18T18:33:30.611Z"
+}

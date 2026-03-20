@@ -1,0 +1,259 @@
+{
+  "videoId": "_ldsSsguqvQ",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.3890000000000002,
+      "duration": 0.009999999999999787,
+      "text": "Want to cut your Docker image size by"
+    },
+    {
+      "start": 2.399,
+      "duration": 2.0709999999999997,
+      "text": "Want to cut your Docker image size by 80%. Because most people are still"
+    },
+    {
+      "start": 4.47,
+      "duration": 0.010000000000000675,
+      "text": "80%. Because most people are still"
+    },
+    {
+      "start": 4.48,
+      "duration": 1.9099999999999993,
+      "text": "80%. Because most people are still shipping way more than they need to."
+    },
+    {
+      "start": 6.39,
+      "duration": 0.010000000000000675,
+      "text": "shipping way more than they need to."
+    },
+    {
+      "start": 6.4,
+      "duration": 2.629999999999999,
+      "text": "shipping way more than they need to. Here's the problem. A single stage build"
+    },
+    {
+      "start": 9.03,
+      "duration": 0.009999999999999787,
+      "text": "Here's the problem. A single stage build"
+    },
+    {
+      "start": 9.04,
+      "duration": 2.2300000000000004,
+      "text": "Here's the problem. A single stage build throws everything into one image. Build"
+    },
+    {
+      "start": 11.27,
+      "duration": 0.009999999999999787,
+      "text": "throws everything into one image. Build"
+    },
+    {
+      "start": 11.28,
+      "duration": 1.83,
+      "text": "throws everything into one image. Build tools, dependencies, all that extra"
+    },
+    {
+      "start": 13.11,
+      "duration": 0.009999999999999787,
+      "text": "tools, dependencies, all that extra"
+    },
+    {
+      "start": 13.12,
+      "duration": 2.1500000000000004,
+      "text": "tools, dependencies, all that extra junk. Sometimes pushing it close to 1"
+    },
+    {
+      "start": 15.27,
+      "duration": 0.009999999999999787,
+      "text": "junk. Sometimes pushing it close to 1"
+    },
+    {
+      "start": 15.28,
+      "duration": 2.4700000000000006,
+      "text": "junk. Sometimes pushing it close to 1 GB. And that means slower deploys,"
+    },
+    {
+      "start": 17.75,
+      "duration": 0.010000000000001563,
+      "text": "GB. And that means slower deploys,"
+    },
+    {
+      "start": 17.76,
+      "duration": 2.1499999999999986,
+      "text": "GB. And that means slower deploys, higher storage costs, and more stuff"
+    },
+    {
+      "start": 19.91,
+      "duration": 0.010000000000001563,
+      "text": "higher storage costs, and more stuff"
+    },
+    {
+      "start": 19.92,
+      "duration": 1.8299999999999983,
+      "text": "higher storage costs, and more stuff sitting in production that doesn't need"
+    },
+    {
+      "start": 21.75,
+      "duration": 0.010000000000001563,
+      "text": "sitting in production that doesn't need"
+    },
+    {
+      "start": 21.76,
+      "duration": 1.8299999999999983,
+      "text": "sitting in production that doesn't need to be there. But the fix is actually"
+    },
+    {
+      "start": 23.59,
+      "duration": 0.010000000000001563,
+      "text": "to be there. But the fix is actually"
+    },
+    {
+      "start": 23.6,
+      "duration": 2.469999999999999,
+      "text": "to be there. But the fix is actually really simple. It's called a multi-stage"
+    },
+    {
+      "start": 26.07,
+      "duration": 0.00999999999999801,
+      "text": "really simple. It's called a multi-stage"
+    },
+    {
+      "start": 26.08,
+      "duration": 2.4700000000000024,
+      "text": "really simple. It's called a multi-stage build. You build the app in one stage,"
+    },
+    {
+      "start": 28.55,
+      "duration": 0.00999999999999801,
+      "text": "build. You build the app in one stage,"
+    },
+    {
+      "start": 28.56,
+      "duration": 2.469000000000001,
+      "text": "build. You build the app in one stage, then copy the final artifact into a much"
+    },
+    {
+      "start": 31.029,
+      "duration": 0.010000000000001563,
+      "text": "then copy the final artifact into a much"
+    },
+    {
+      "start": 31.039,
+      "duration": 2.7109999999999985,
+      "text": "then copy the final artifact into a much smaller runtime image. Same app, single"
+    },
+    {
+      "start": 33.75,
+      "duration": 0.00999999999999801,
+      "text": "smaller runtime image. Same app, single"
+    },
+    {
+      "start": 33.76,
+      "duration": 3.990000000000002,
+      "text": "smaller runtime image. Same app, single stage, 950 megabytes. Multi-stage, 190"
+    },
+    {
+      "start": 37.75,
+      "duration": 0.00999999999999801,
+      "text": "stage, 950 megabytes. Multi-stage, 190"
+    },
+    {
+      "start": 37.76,
+      "duration": 2.0700000000000003,
+      "text": "stage, 950 megabytes. Multi-stage, 190 megabytes. That could be up to an 80%"
+    },
+    {
+      "start": 39.83,
+      "duration": 0.010000000000005116,
+      "text": "megabytes. That could be up to an 80%"
+    },
+    {
+      "start": 39.84,
+      "duration": 2.469999999999999,
+      "text": "megabytes. That could be up to an 80% drop. So now your image pulls faster,"
+    },
+    {
+      "start": 42.31,
+      "duration": 0.00999999999999801,
+      "text": "drop. So now your image pulls faster,"
+    },
+    {
+      "start": 42.32,
+      "duration": 2.5489999999999995,
+      "text": "drop. So now your image pulls faster, costs less to store, and is cleaner for"
+    },
+    {
+      "start": 44.869,
+      "duration": 0.00999999999999801,
+      "text": "costs less to store, and is cleaner for"
+    },
+    {
+      "start": 44.879,
+      "duration": 1.6700000000000017,
+      "text": "costs less to store, and is cleaner for production. If you're not doing this"
+    },
+    {
+      "start": 46.549,
+      "duration": 0.00999999999999801,
+      "text": "production. If you're not doing this"
+    },
+    {
+      "start": 46.559,
+      "duration": 2.2310000000000016,
+      "text": "production. If you're not doing this yet, start by adding a builder stage."
+    },
+    {
+      "start": 48.79,
+      "duration": 0.00999999999999801,
+      "text": "yet, start by adding a builder stage."
+    },
+    {
+      "start": 48.8,
+      "duration": 1.7490000000000023,
+      "text": "yet, start by adding a builder stage. And if you want to go even slimmer, use"
+    },
+    {
+      "start": 50.549,
+      "duration": 0.00999999999999801,
+      "text": "And if you want to go even slimmer, use"
+    },
+    {
+      "start": 50.559,
+      "duration": 2.6300000000000026,
+      "text": "And if you want to go even slimmer, use Alpine or Scratch for the runtime image."
+    },
+    {
+      "start": 53.189,
+      "duration": 0.00999999999999801,
+      "text": "Alpine or Scratch for the runtime image."
+    },
+    {
+      "start": 53.199,
+      "duration": 2.2310000000000016,
+      "text": "Alpine or Scratch for the runtime image. So yeah, multi-stage builds are one of"
+    },
+    {
+      "start": 55.43,
+      "duration": 0.00999999999999801,
+      "text": "So yeah, multi-stage builds are one of"
+    },
+    {
+      "start": 55.44,
+      "duration": 1.8300000000000054,
+      "text": "So yeah, multi-stage builds are one of the easiest Docker wins that we can"
+    },
+    {
+      "start": 57.27,
+      "duration": 0.00999999999999801,
+      "text": "the easiest Docker wins that we can"
+    },
+    {
+      "start": 57.28,
+      "duration": 2.479999999999997,
+      "text": "the easiest Docker wins that we can implement."
+    }
+  ],
+  "fullText": "Want to cut your Docker image size by Want to cut your Docker image size by 80%. Because most people are still 80%. Because most people are still 80%. Because most people are still shipping way more than they need to. shipping way more than they need to. shipping way more than they need to. Here's the problem. A single stage build Here's the problem. A single stage build Here's the problem. A single stage build throws everything into one image. Build throws everything into one image. Build throws everything into one image. Build tools, dependencies, all that extra tools, dependencies, all that extra tools, dependencies, all that extra junk. Sometimes pushing it close to 1 junk. Sometimes pushing it close to 1 junk. Sometimes pushing it close to 1 GB. And that means slower deploys, GB. And that means slower deploys, GB. And that means slower deploys, higher storage costs, and more stuff higher storage costs, and more stuff higher storage costs, and more stuff sitting in production that doesn't need sitting in production that doesn't need sitting in production that doesn't need to be there. But the fix is actually to be there. But the fix is actually to be there. But the fix is actually really simple. It's called a multi-stage really simple. It's called a multi-stage really simple. It's called a multi-stage build. You build the app in one stage, build. You build the app in one stage, build. You build the app in one stage, then copy the final artifact into a much then copy the final artifact into a much then copy the final artifact into a much smaller runtime image. Same app, single smaller runtime image. Same app, single smaller runtime image. Same app, single stage, 950 megabytes. Multi-stage, 190 stage, 950 megabytes. Multi-stage, 190 stage, 950 megabytes. Multi-stage, 190 megabytes. That could be up to an 80% megabytes. That could be up to an 80% megabytes. That could be up to an 80% drop. So now your image pulls faster, drop. So now your image pulls faster, drop. So now your image pulls faster, costs less to store, and is cleaner for costs less to store, and is cleaner for costs less to store, and is cleaner for production. If you're not doing this production. If you're not doing this production. If you're not doing this yet, start by adding a builder stage. yet, start by adding a builder stage. yet, start by adding a builder stage. And if you want to go even slimmer, use And if you want to go even slimmer, use And if you want to go even slimmer, use Alpine or Scratch for the runtime image. Alpine or Scratch for the runtime image. Alpine or Scratch for the runtime image. So yeah, multi-stage builds are one of So yeah, multi-stage builds are one of So yeah, multi-stage builds are one of the easiest Docker wins that we can the easiest Docker wins that we can the easiest Docker wins that we can implement.",
+  "fetchedAt": "2026-03-06T19:02:16.828Z"
+}

@@ -1,0 +1,1374 @@
+{
+  "videoId": "opZpIN8g_6M",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.08,
+      "text": "Believe it or not, but Claude has solved"
+    },
+    {
+      "start": 2,
+      "duration": 4,
+      "text": "another major AI problem that we didn't"
+    },
+    {
+      "start": 4.24,
+      "duration": 4.88,
+      "text": "even realize we had. As you know,"
+    },
+    {
+      "start": 6,
+      "duration": 4.88,
+      "text": "Anthropic introduced MCP back in 2024,"
+    },
+    {
+      "start": 9.12,
+      "duration": 4.32,
+      "text": "and it completely changed the way that"
+    },
+    {
+      "start": 10.88,
+      "duration": 4.48,
+      "text": "we use AI. But their MCP system is far"
+    },
+    {
+      "start": 13.44,
+      "duration": 3.52,
+      "text": "from perfect, and even they knew that."
+    },
+    {
+      "start": 15.36,
+      "duration": 3.44,
+      "text": "So that's why they released a paper"
+    },
+    {
+      "start": 16.96,
+      "duration": 3.36,
+      "text": "talking about this issue. In this video,"
+    },
+    {
+      "start": 18.8,
+      "duration": 3.52,
+      "text": "I'll take you through that paper,"
+    },
+    {
+      "start": 20.32,
+      "duration": 3.68,
+      "text": "explain the problems, show you how it"
+    },
+    {
+      "start": 22.32,
+      "duration": 3.44,
+      "text": "solves these problems, and how to"
+    },
+    {
+      "start": 24,
+      "duration": 3.519,
+      "text": "implement the solutions. Even though"
+    },
+    {
+      "start": 25.76,
+      "duration": 4.64,
+      "text": "Anthropic was the one who released the"
+    },
+    {
+      "start": 27.519,
+      "duration": 5.2,
+      "text": "MCP system, why do they consider MCPs"
+    },
+    {
+      "start": 30.4,
+      "duration": 4.159,
+      "text": "problematic? If you've used MCPS before,"
+    },
+    {
+      "start": 32.719,
+      "duration": 4.161,
+      "text": "you know that they exist as tool calls"
+    },
+    {
+      "start": 34.559,
+      "duration": 4.081,
+      "text": "in the context window. Each MCP has its"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.6,
+      "text": "own tools that remain exposed to the"
+    },
+    {
+      "start": 38.64,
+      "duration": 3.84,
+      "text": "model in the context even before you"
+    },
+    {
+      "start": 40.48,
+      "duration": 3.759,
+      "text": "perform any task with the agent. Even"
+    },
+    {
+      "start": 42.48,
+      "duration": 4.88,
+      "text": "though the messages in this example"
+    },
+    {
+      "start": 44.239,
+      "duration": 5.441,
+      "text": "occupy 0% of the context, the MCPS have"
+    },
+    {
+      "start": 47.36,
+      "duration": 4.96,
+      "text": "already consumed about 10% of the total"
+    },
+    {
+      "start": 49.68,
+      "duration": 4.399,
+      "text": "context window because MCP tools stay in"
+    },
+    {
+      "start": 52.32,
+      "duration": 3.6,
+      "text": "the context regardless of whether you"
+    },
+    {
+      "start": 54.079,
+      "duration": 4.081,
+      "text": "use them or not. And this was just for"
+    },
+    {
+      "start": 55.92,
+      "duration": 4.159,
+      "text": "three MCPS connected. Now imagine how"
+    },
+    {
+      "start": 58.16,
+      "duration": 4.399,
+      "text": "much context usage will increase when"
+    },
+    {
+      "start": 60.079,
+      "duration": 4.561,
+      "text": "you connect more MCPS. This is exactly"
+    },
+    {
+      "start": 62.559,
+      "duration": 3.761,
+      "text": "the problem highlighted by anthropic."
+    },
+    {
+      "start": 64.64,
+      "duration": 3.68,
+      "text": "They point out that tool definitions"
+    },
+    {
+      "start": 66.32,
+      "duration": 4.4,
+      "text": "overload the context. And it's not just"
+    },
+    {
+      "start": 68.32,
+      "duration": 4.88,
+      "text": "about the definitions. Results from MCP"
+    },
+    {
+      "start": 70.72,
+      "duration": 4.48,
+      "text": "calls also remain in the context window"
+    },
+    {
+      "start": 73.2,
+      "duration": 4.48,
+      "text": "consuming additional tokens. In this"
+    },
+    {
+      "start": 75.2,
+      "duration": 4.72,
+      "text": "way, both the MCP tool definitions and"
+    },
+    {
+      "start": 77.68,
+      "duration": 4.479,
+      "text": "the tool call results bloat the context"
+    },
+    {
+      "start": 79.92,
+      "duration": 4.08,
+      "text": "window, gradually causing problems and"
+    },
+    {
+      "start": 82.159,
+      "duration": 3.761,
+      "text": "taking up more space than the actual"
+    },
+    {
+      "start": 84,
+      "duration": 3.52,
+      "text": "user messages and their content. Now"
+    },
+    {
+      "start": 85.92,
+      "duration": 3.12,
+      "text": "that you understand the actual problem,"
+    },
+    {
+      "start": 87.52,
+      "duration": 3.919,
+      "text": "I'll take you through the solution that"
+    },
+    {
+      "start": 89.04,
+      "duration": 4.079,
+      "text": "they presented. So what can we do about"
+    },
+    {
+      "start": 91.439,
+      "duration": 3.68,
+      "text": "this problem? Anthropic actually"
+    },
+    {
+      "start": 93.119,
+      "duration": 3.921,
+      "text": "provided a solution in the paper that"
+    },
+    {
+      "start": 95.119,
+      "duration": 4.561,
+      "text": "they released. They suggest that instead"
+    },
+    {
+      "start": 97.04,
+      "duration": 5.039,
+      "text": "of having MCPs as separate tool calls,"
+    },
+    {
+      "start": 99.68,
+      "duration": 4.32,
+      "text": "we can use the MCP server as code."
+    },
+    {
+      "start": 102.079,
+      "duration": 3.761,
+      "text": "Rather than having them as tool calls"
+    },
+    {
+      "start": 104,
+      "duration": 3.6,
+      "text": "bloating the context window, we can"
+    },
+    {
+      "start": 105.84,
+      "duration": 3.68,
+      "text": "leverage Claude's powerful coding"
+    },
+    {
+      "start": 107.6,
+      "duration": 4.479,
+      "text": "capabilities and have it write whatever"
+    },
+    {
+      "start": 109.52,
+      "duration": 4.72,
+      "text": "MCP you're using as a backend API"
+    },
+    {
+      "start": 112.079,
+      "duration": 3.921,
+      "text": "instead of relying on the MCP server"
+    },
+    {
+      "start": 114.24,
+      "duration": 4.559,
+      "text": "directly. This way, instead of loading"
+    },
+    {
+      "start": 116,
+      "duration": 5.28,
+      "text": "an MCP directly into the context window,"
+    },
+    {
+      "start": 118.799,
+      "duration": 5.28,
+      "text": "you can have all MCPS as separate code"
+    },
+    {
+      "start": 121.28,
+      "duration": 4.799,
+      "text": "files representing a specific MCP tool."
+    },
+    {
+      "start": 124.079,
+      "duration": 3.921,
+      "text": "Then whenever the agent needs to access"
+    },
+    {
+      "start": 126.079,
+      "duration": 3.761,
+      "text": "a particular tool, it can reference"
+    },
+    {
+      "start": 128,
+      "duration": 4.08,
+      "text": "these files instead of relying on the"
+    },
+    {
+      "start": 129.84,
+      "duration": 4.88,
+      "text": "MCP tools in the context window. This"
+    },
+    {
+      "start": 132.08,
+      "duration": 4.159,
+      "text": "method of using MCPS as code is highly"
+    },
+    {
+      "start": 134.72,
+      "duration": 3.519,
+      "text": "effective because it prevents the"
+    },
+    {
+      "start": 136.239,
+      "duration": 4.08,
+      "text": "context window from being occupied by"
+    },
+    {
+      "start": 138.239,
+      "duration": 4.08,
+      "text": "tool definitions. It allows for better"
+    },
+    {
+      "start": 140.319,
+      "duration": 3.841,
+      "text": "context window management and provides"
+    },
+    {
+      "start": 142.319,
+      "duration": 3.601,
+      "text": "more space for the actual work that"
+    },
+    {
+      "start": 144.16,
+      "duration": 3.68,
+      "text": "needs to be done in the project. I won't"
+    },
+    {
+      "start": 145.92,
+      "duration": 3.76,
+      "text": "go into implementation details for this"
+    },
+    {
+      "start": 147.84,
+      "duration": 3.6,
+      "text": "solution, but if you want a dedicated"
+    },
+    {
+      "start": 149.68,
+      "duration": 3.44,
+      "text": "video on the implementation, comment"
+    },
+    {
+      "start": 151.44,
+      "duration": 3.76,
+      "text": "down below. To elaborate, [snorts]"
+    },
+    {
+      "start": 153.12,
+      "duration": 4.56,
+      "text": "Enthropic's idea is that instead of"
+    },
+    {
+      "start": 155.2,
+      "duration": 4.56,
+      "text": "having separate MCP servers, we can have"
+    },
+    {
+      "start": 157.68,
+      "duration": 4.559,
+      "text": "a servers folder that contains all the"
+    },
+    {
+      "start": 159.76,
+      "duration": 4.72,
+      "text": "MCP servers. Within that folder, each"
+    },
+    {
+      "start": 162.239,
+      "duration": 4.08,
+      "text": "file represents a specific function and"
+    },
+    {
+      "start": 164.48,
+      "duration": 3.92,
+      "text": "there's an index file that acts as a"
+    },
+    {
+      "start": 166.319,
+      "duration": 4.64,
+      "text": "base to let Claude know what tools are"
+    },
+    {
+      "start": 168.4,
+      "duration": 4.24,
+      "text": "available in this MCP server. Cloudflare"
+    },
+    {
+      "start": 170.959,
+      "duration": 4.081,
+      "text": "had actually already presented this"
+    },
+    {
+      "start": 172.64,
+      "duration": 4.64,
+      "text": "exact idea and called it code mode. They"
+    },
+    {
+      "start": 175.04,
+      "duration": 4.64,
+      "text": "mentioned that all MCP tools should be"
+    },
+    {
+      "start": 177.28,
+      "duration": 4.48,
+      "text": "converted into a TypeScript API and then"
+    },
+    {
+      "start": 179.68,
+      "duration": 3.919,
+      "text": "the LLM could write code for it. But if"
+    },
+    {
+      "start": 181.76,
+      "duration": 3.44,
+      "text": "you're still not clear on why this is a"
+    },
+    {
+      "start": 183.599,
+      "duration": 3.761,
+      "text": "big problem and why we shouldn't just"
+    },
+    {
+      "start": 185.2,
+      "duration": 4.24,
+      "text": "keep using MCPS the way we were before,"
+    },
+    {
+      "start": 187.36,
+      "duration": 4.239,
+      "text": "Entropic actually listed the benefits of"
+    },
+    {
+      "start": 189.44,
+      "duration": 4.159,
+      "text": "this new solution. The first benefit of"
+    },
+    {
+      "start": 191.599,
+      "duration": 4.241,
+      "text": "this solution is progressive disclosure"
+    },
+    {
+      "start": 193.599,
+      "duration": 4.081,
+      "text": "or slowly revealing only the information"
+    },
+    {
+      "start": 195.84,
+      "duration": 3.92,
+      "text": "required in the context window. We're"
+    },
+    {
+      "start": 197.68,
+      "duration": 3.919,
+      "text": "using the agents ability to navigate the"
+    },
+    {
+      "start": 199.76,
+      "duration": 3.92,
+      "text": "file structure, understand the purpose"
+    },
+    {
+      "start": 201.599,
+      "duration": 4.081,
+      "text": "of a file from its name and load only"
+    },
+    {
+      "start": 203.68,
+      "duration": 4.32,
+      "text": "what is required in the context. That's"
+    },
+    {
+      "start": 205.68,
+      "duration": 4.479,
+      "text": "why each MCP is represented as a folder"
+    },
+    {
+      "start": 208,
+      "duration": 4.08,
+      "text": "and within it are multiple files each"
+    },
+    {
+      "start": 210.159,
+      "duration": 3.681,
+      "text": "corresponding to a specific tool. To"
+    },
+    {
+      "start": 212.08,
+      "duration": 4.879,
+      "text": "coordinate all these files, we have an"
+    },
+    {
+      "start": 213.84,
+      "duration": 4.64,
+      "text": "index.ts file that exposes all the tools"
+    },
+    {
+      "start": 216.959,
+      "duration": 4.081,
+      "text": "along with their definitions."
+    },
+    {
+      "start": 218.48,
+      "duration": 4.399,
+      "text": "Essentially, this index.ts acts as a"
+    },
+    {
+      "start": 221.04,
+      "duration": 3.68,
+      "text": "guide for Claude, helping it navigate"
+    },
+    {
+      "start": 222.879,
+      "duration": 3.521,
+      "text": "which tools are available and how to"
+    },
+    {
+      "start": 224.72,
+      "duration": 4,
+      "text": "call them. The main advantage is that"
+    },
+    {
+      "start": 226.4,
+      "duration": 5.119,
+      "text": "whenever a particular MCP is needed,"
+    },
+    {
+      "start": 228.72,
+      "duration": 4.72,
+      "text": "Claude references this index.ts and only"
+    },
+    {
+      "start": 231.519,
+      "duration": 3.761,
+      "text": "loads the specific tool file into"
+    },
+    {
+      "start": 233.44,
+      "duration": 3.999,
+      "text": "memory, revealing its context as"
+    },
+    {
+      "start": 235.28,
+      "duration": 4.4,
+      "text": "required instead of loading all tools at"
+    },
+    {
+      "start": 237.439,
+      "duration": 4.241,
+      "text": "once. The second benefit highlighted in"
+    },
+    {
+      "start": 239.68,
+      "duration": 3.919,
+      "text": "this paper is context efficient tool"
+    },
+    {
+      "start": 241.68,
+      "duration": 3.919,
+      "text": "results. As I mentioned earlier, all"
+    },
+    {
+      "start": 243.599,
+      "duration": 3.92,
+      "text": "tool call results are normally exposed"
+    },
+    {
+      "start": 245.599,
+      "duration": 4.161,
+      "text": "in the context window which can bloat"
+    },
+    {
+      "start": 247.519,
+      "duration": 4.401,
+      "text": "it. With this approach, even if an MCP"
+    },
+    {
+      "start": 249.76,
+      "duration": 4.32,
+      "text": "tool call produces a huge response, you"
+    },
+    {
+      "start": 251.92,
+      "duration": 4.24,
+      "text": "can use code to transform, aggregate,"
+    },
+    {
+      "start": 254.08,
+      "duration": 3.92,
+      "text": "and expose only the required portion of"
+    },
+    {
+      "start": 256.16,
+      "duration": 3.84,
+      "text": "the data. For example, if you want the"
+    },
+    {
+      "start": 258,
+      "duration": 4.32,
+      "text": "agent to know what type of data is in"
+    },
+    {
+      "start": 260,
+      "duration": 4.639,
+      "text": "your Google Sheets, an MCP tool call"
+    },
+    {
+      "start": 262.32,
+      "duration": 4.48,
+      "text": "returns all 10,000 rows, which only"
+    },
+    {
+      "start": 264.639,
+      "duration": 4.401,
+      "text": "bloat the context window. So instead,"
+    },
+    {
+      "start": 266.8,
+      "duration": 4.08,
+      "text": "you can send only the first five rows to"
+    },
+    {
+      "start": 269.04,
+      "duration": 3.68,
+      "text": "the model for review. This prevents the"
+    },
+    {
+      "start": 270.88,
+      "duration": 3.44,
+      "text": "context window from being unnecessarily"
+    },
+    {
+      "start": 272.72,
+      "duration": 3.36,
+      "text": "bloated. The next [snorts] benefit"
+    },
+    {
+      "start": 274.32,
+      "duration": 3.84,
+      "text": "highlighted in this paper is more"
+    },
+    {
+      "start": 276.08,
+      "duration": 4.64,
+      "text": "powerful and context efficient control"
+    },
+    {
+      "start": 278.16,
+      "duration": 4.319,
+      "text": "flow. When using MCPs, tool calls must"
+    },
+    {
+      "start": 280.72,
+      "duration": 3.36,
+      "text": "wait for each other sequentially, and"
+    },
+    {
+      "start": 282.479,
+      "duration": 3.361,
+      "text": "the model makes these decisions."
+    },
+    {
+      "start": 284.08,
+      "duration": 3.76,
+      "text": "Enthropic emphasized that instead of"
+    },
+    {
+      "start": 285.84,
+      "duration": 3.84,
+      "text": "having the model decide what to do and"
+    },
+    {
+      "start": 287.84,
+      "duration": 3.84,
+      "text": "when to do it, Claude can manage this"
+    },
+    {
+      "start": 289.68,
+      "duration": 3.84,
+      "text": "through logic within the code, reducing"
+    },
+    {
+      "start": 291.68,
+      "duration": 3.84,
+      "text": "hallucinations and context window"
+    },
+    {
+      "start": 293.52,
+      "duration": 3.52,
+      "text": "overload. Code can handle execution"
+    },
+    {
+      "start": 295.52,
+      "duration": 3.44,
+      "text": "effectively using conditional"
+    },
+    {
+      "start": 297.04,
+      "duration": 3.76,
+      "text": "statements, saving time since the model"
+    },
+    {
+      "start": 298.96,
+      "duration": 3.84,
+      "text": "doesn't need to chain tool calls. The"
+    },
+    {
+      "start": 300.8,
+      "duration": 4.08,
+      "text": "code manages the logic including checks"
+    },
+    {
+      "start": 302.8,
+      "duration": 4.08,
+      "text": "and flow control instead of the model."
+    },
+    {
+      "start": 304.88,
+      "duration": 3.68,
+      "text": "When working with data, privacy is often"
+    },
+    {
+      "start": 306.88,
+      "duration": 3.92,
+      "text": "a major concern. You don't want the"
+    },
+    {
+      "start": 308.56,
+      "duration": 4.079,
+      "text": "model to access sensitive information in"
+    },
+    {
+      "start": 310.8,
+      "duration": 3.92,
+      "text": "your database. The next benefit this"
+    },
+    {
+      "start": 312.639,
+      "duration": 4.641,
+      "text": "approach provides is privacy preserving"
+    },
+    {
+      "start": 314.72,
+      "duration": 4.72,
+      "text": "operations. With MCP as code execution,"
+    },
+    {
+      "start": 317.28,
+      "duration": 4.32,
+      "text": "the agent only sees what the code logs"
+    },
+    {
+      "start": 319.44,
+      "duration": 4.24,
+      "text": "or returns. For example, if your code is"
+    },
+    {
+      "start": 321.6,
+      "duration": 3.92,
+      "text": "written to log only specific outputs,"
+    },
+    {
+      "start": 323.68,
+      "duration": 3.92,
+      "text": "the agent only has access to that"
+    },
+    {
+      "start": 325.52,
+      "duration": 4,
+      "text": "information and sensitive data remains"
+    },
+    {
+      "start": 327.6,
+      "duration": 4.24,
+      "text": "hidden from the context window. If you"
+    },
+    {
+      "start": 329.52,
+      "duration": 3.92,
+      "text": "want your MCP to keep your data private,"
+    },
+    {
+      "start": 331.84,
+      "duration": 3.919,
+      "text": "you can design the code to return"
+    },
+    {
+      "start": 333.44,
+      "duration": 4.64,
+      "text": "generic or placeholder values instead of"
+    },
+    {
+      "start": 335.759,
+      "duration": 4.561,
+      "text": "the actual database content. This way,"
+    },
+    {
+      "start": 338.08,
+      "duration": 4.16,
+      "text": "the agent can perform its tasks without"
+    },
+    {
+      "start": 340.32,
+      "duration": 3.92,
+      "text": "ever accessing sensitive data,"
+    },
+    {
+      "start": 342.24,
+      "duration": 4.32,
+      "text": "preserving your privacy. The final"
+    },
+    {
+      "start": 344.24,
+      "duration": 4.48,
+      "text": "benefit is state persistence and skills."
+    },
+    {
+      "start": 346.56,
+      "duration": 4.4,
+      "text": "With the memory tool, the agent can save"
+    },
+    {
+      "start": 348.72,
+      "duration": 4.24,
+      "text": "working code and intermediate results as"
+    },
+    {
+      "start": 350.96,
+      "duration": 4.4,
+      "text": "files, allowing it to maintain state"
+    },
+    {
+      "start": 352.96,
+      "duration": 4.48,
+      "text": "across operations and pick up execution"
+    },
+    {
+      "start": 355.36,
+      "duration": 4.16,
+      "text": "exactly where it left off. This approach"
+    },
+    {
+      "start": 357.44,
+      "duration": 4,
+      "text": "closely resembles Claude's skills that"
+    },
+    {
+      "start": 359.52,
+      "duration": 4.56,
+      "text": "were released earlier. Both skills and"
+    },
+    {
+      "start": 361.44,
+      "duration": 4.64,
+      "text": "MCP as code use a file systembased"
+    },
+    {
+      "start": 364.08,
+      "duration": 4.239,
+      "text": "structure where capabilities are stored"
+    },
+    {
+      "start": 366.08,
+      "duration": 4,
+      "text": "as files that Claude can discover and"
+    },
+    {
+      "start": 368.319,
+      "duration": 3.841,
+      "text": "load on demand. The difference is that"
+    },
+    {
+      "start": 370.08,
+      "duration": 4.88,
+      "text": "skills are broader and contain multiple"
+    },
+    {
+      "start": 372.16,
+      "duration": 5.28,
+      "text": "resources documented in a skill.md file,"
+    },
+    {
+      "start": 374.96,
+      "duration": 4.72,
+      "text": "while MCP as code focuses specifically"
+    },
+    {
+      "start": 377.44,
+      "duration": 4.24,
+      "text": "on wrapping MCP server tools as"
+    },
+    {
+      "start": 379.68,
+      "duration": 4,
+      "text": "executable code. You can also combine"
+    },
+    {
+      "start": 381.68,
+      "duration": 4.639,
+      "text": "both approaches. When your agent writes"
+    },
+    {
+      "start": 383.68,
+      "duration": 4.56,
+      "text": "code that successfully uses MCP tools,"
+    },
+    {
+      "start": 386.319,
+      "duration": 3.841,
+      "text": "you can save that code and add a skill"
+    },
+    {
+      "start": 388.24,
+      "duration": 3.76,
+      "text": "file to document it. This creates a"
+    },
+    {
+      "start": 390.16,
+      "duration": 4,
+      "text": "reusable skill that the agent can"
+    },
+    {
+      "start": 392,
+      "duration": 4.319,
+      "text": "reference in future tasks, building a"
+    },
+    {
+      "start": 394.16,
+      "duration": 4.319,
+      "text": "library of capabilities over time and"
+    },
+    {
+      "start": 396.319,
+      "duration": 4,
+      "text": "making development much more efficient."
+    },
+    {
+      "start": 398.479,
+      "duration": 3.84,
+      "text": "While this idea is truly impressive"
+    },
+    {
+      "start": 400.319,
+      "duration": 3.841,
+      "text": "given all the benefits it offers, there"
+    },
+    {
+      "start": 402.319,
+      "duration": 3.761,
+      "text": "is also a challenge. Running agent"
+    },
+    {
+      "start": 404.16,
+      "duration": 4,
+      "text": "generated code requires a secure"
+    },
+    {
+      "start": 406.08,
+      "duration": 4.16,
+      "text": "environment with proper sandboxing"
+    },
+    {
+      "start": 408.16,
+      "duration": 4.4,
+      "text": "resources and monitoring. Although this"
+    },
+    {
+      "start": 410.24,
+      "duration": 4.72,
+      "text": "approach reduces token costs and lowers"
+    },
+    {
+      "start": 412.56,
+      "duration": 4.4,
+      "text": "latency, it also introduces technical"
+    },
+    {
+      "start": 414.96,
+      "duration": 3.76,
+      "text": "complexities that need to be managed,"
+    },
+    {
+      "start": 416.96,
+      "duration": 3.519,
+      "text": "this solution prompts you to make a"
+    },
+    {
+      "start": 418.72,
+      "duration": 4.24,
+      "text": "choice between token costs and"
+    },
+    {
+      "start": 420.479,
+      "duration": 4.961,
+      "text": "infrastructure complexity. To conclude,"
+    },
+    {
+      "start": 422.96,
+      "duration": 4.239,
+      "text": "MCP as code can solve many of the"
+    },
+    {
+      "start": 425.44,
+      "duration": 3.759,
+      "text": "problems we've been facing. While these"
+    },
+    {
+      "start": 427.199,
+      "duration": 3.84,
+      "text": "ideas may feel new, they actually are"
+    },
+    {
+      "start": 429.199,
+      "duration": 3.761,
+      "text": "not. They're standard practices that"
+    },
+    {
+      "start": 431.039,
+      "duration": 3.761,
+      "text": "software engineers have been using for"
+    },
+    {
+      "start": 432.96,
+      "duration": 4.079,
+      "text": "years. The key difference is that we're"
+    },
+    {
+      "start": 434.8,
+      "duration": 4.08,
+      "text": "now extending these practices to AI"
+    },
+    {
+      "start": 437.039,
+      "duration": 3.921,
+      "text": "agents, helping them become familiar"
+    },
+    {
+      "start": 438.88,
+      "duration": 4.08,
+      "text": "with the real development environment."
+    },
+    {
+      "start": 440.96,
+      "duration": 4.32,
+      "text": "Before you go, last month we ran our"
+    },
+    {
+      "start": 442.96,
+      "duration": 4.239,
+      "text": "biggest server event yet, the AI labs"
+    },
+    {
+      "start": 445.28,
+      "duration": 4.16,
+      "text": "hackathon. We were absolutely blown"
+    },
+    {
+      "start": 447.199,
+      "duration": 4,
+      "text": "away, receiving nearly 40 incredible"
+    },
+    {
+      "start": 449.44,
+      "duration": 3.599,
+      "text": "projects. Before we get to the top"
+    },
+    {
+      "start": 451.199,
+      "duration": 4.4,
+      "text": "three, we have to recognize a project"
+    },
+    {
+      "start": 453.039,
+      "duration": 4.401,
+      "text": "that was pure innovation and deserved an"
+    },
+    {
+      "start": 455.599,
+      "duration": 4.241,
+      "text": "honorable mention. That goes to our"
+    },
+    {
+      "start": 457.44,
+      "duration": 5.199,
+      "text": "honorable member for his project, Convo"
+    },
+    {
+      "start": 459.84,
+      "duration": 4.479,
+      "text": "Lang. Convol is an ambitious AI native"
+    },
+    {
+      "start": 462.639,
+      "duration": 4,
+      "text": "programming language that seamlessly"
+    },
+    {
+      "start": 464.319,
+      "duration": 4.401,
+      "text": "mixes prompting and procedural code."
+    },
+    {
+      "start": 466.639,
+      "duration": 4.161,
+      "text": "It's built to simplify creating complex"
+    },
+    {
+      "start": 468.72,
+      "duration": 4.319,
+      "text": "AI agents, making things like tool"
+    },
+    {
+      "start": 470.8,
+      "duration": 4.48,
+      "text": "calling, rag, and custom reasoning easy"
+    },
+    {
+      "start": 473.039,
+      "duration": 4.401,
+      "text": "to manage in one consistent language."
+    },
+    {
+      "start": 475.28,
+      "duration": 4.319,
+      "text": "It's a huge, incredibly impressive"
+    },
+    {
+      "start": 477.44,
+      "duration": 4.08,
+      "text": "undertaking. Fantastic work. Now, let's"
+    },
+    {
+      "start": 479.599,
+      "duration": 3.921,
+      "text": "get into the top projects. Starting at"
+    },
+    {
+      "start": 481.52,
+      "duration": 4.16,
+      "text": "number three, landing in third place is"
+    },
+    {
+      "start": 483.52,
+      "duration": 4.079,
+      "text": "Emergency Contact Finder. Their project"
+    },
+    {
+      "start": 485.68,
+      "duration": 4.16,
+      "text": "tackles a super important real world"
+    },
+    {
+      "start": 487.599,
+      "duration": 4.16,
+      "text": "problem. It lets users create a unique"
+    },
+    {
+      "start": 489.84,
+      "duration": 4,
+      "text": "QR code that they can attach to"
+    },
+    {
+      "start": 491.759,
+      "duration": 4,
+      "text": "anything. When someone scans it, that"
+    },
+    {
+      "start": 493.84,
+      "duration": 4.079,
+      "text": "person is immediately redirected to a"
+    },
+    {
+      "start": 495.759,
+      "duration": 4.081,
+      "text": "designated emergency contact saved in"
+    },
+    {
+      "start": 497.919,
+      "duration": 3.921,
+      "text": "the user's account. Simple, but"
+    },
+    {
+      "start": 499.84,
+      "duration": 4.32,
+      "text": "brilliant for peace of mind. Coming in"
+    },
+    {
+      "start": 501.84,
+      "duration": 4.479,
+      "text": "at second place is Core Notes. This is a"
+    },
+    {
+      "start": 504.16,
+      "duration": 4.56,
+      "text": "performance-first offline capable"
+    },
+    {
+      "start": 506.319,
+      "duration": 4.32,
+      "text": "desktop app designed as a productivity"
+    },
+    {
+      "start": 508.72,
+      "duration": 3.84,
+      "text": "hub with four different modes for"
+    },
+    {
+      "start": 510.639,
+      "duration": 3.76,
+      "text": "different users. The standout is the"
+    },
+    {
+      "start": 512.56,
+      "duration": 3.919,
+      "text": "entrepreneur mode which packs features"
+    },
+    {
+      "start": 514.399,
+      "duration": 3.921,
+      "text": "like AI idea generation, pitch"
+    },
+    {
+      "start": 516.479,
+      "duration": 3.761,
+      "text": "structuring, and integrated financial"
+    },
+    {
+      "start": 518.32,
+      "duration": 4.24,
+      "text": "tracking. All built to help founders"
+    },
+    {
+      "start": 520.24,
+      "duration": 3.84,
+      "text": "move faster. And now our first place"
+    },
+    {
+      "start": 522.56,
+      "duration": 3.839,
+      "text": "winner. Let's have a big round of"
+    },
+    {
+      "start": 524.08,
+      "duration": 4.24,
+      "text": "applause for Ignasia Sparkfinder, a"
+    },
+    {
+      "start": 526.399,
+      "duration": 3.521,
+      "text": "powerful platform that automatically"
+    },
+    {
+      "start": 528.32,
+      "duration": 3.84,
+      "text": "finds and validates product"
+    },
+    {
+      "start": 529.92,
+      "duration": 4.64,
+      "text": "opportunities or sparks from sources"
+    },
+    {
+      "start": 532.16,
+      "duration": 4.64,
+      "text": "like Reddit. Using multimodel AI, it"
+    },
+    {
+      "start": 534.56,
+      "duration": 4.64,
+      "text": "analyzes data and provides detailed"
+    },
+    {
+      "start": 536.8,
+      "duration": 4.159,
+      "text": "scores for pain level, market viability,"
+    },
+    {
+      "start": 539.2,
+      "duration": 3.759,
+      "text": "and confidence, effectively giving"
+    },
+    {
+      "start": 540.959,
+      "duration": 3.921,
+      "text": "product builders a huge head start. And"
+    },
+    {
+      "start": 542.959,
+      "duration": 3.921,
+      "text": "that's it for our winners. A massive"
+    },
+    {
+      "start": 544.88,
+      "duration": 3.76,
+      "text": "thank you to everyone who submitted a"
+    },
+    {
+      "start": 546.88,
+      "duration": 3.84,
+      "text": "project. You made this hackathon our"
+    },
+    {
+      "start": 548.64,
+      "duration": 4,
+      "text": "best yet. Congratulations again to our"
+    },
+    {
+      "start": 550.72,
+      "duration": 3.76,
+      "text": "top four. That brings us to the end of"
+    },
+    {
+      "start": 552.64,
+      "duration": 3.759,
+      "text": "this video. If you'd like to support the"
+    },
+    {
+      "start": 554.48,
+      "duration": 3.84,
+      "text": "channel and help us keep making videos"
+    },
+    {
+      "start": 556.399,
+      "duration": 4.081,
+      "text": "like this, you can do so by using the"
+    },
+    {
+      "start": 558.32,
+      "duration": 3.76,
+      "text": "super thanks button below. As always,"
+    },
+    {
+      "start": 560.48,
+      "duration": 4,
+      "text": "thank you for watching and I'll see you"
+    },
+    {
+      "start": 562.08,
+      "duration": 2.4,
+      "text": "in the next"
+    }
+  ],
+  "fullText": "Believe it or not, but Claude has solved another major AI problem that we didn't even realize we had. As you know, Anthropic introduced MCP back in 2024, and it completely changed the way that we use AI. But their MCP system is far from perfect, and even they knew that. So that's why they released a paper talking about this issue. In this video, I'll take you through that paper, explain the problems, show you how it solves these problems, and how to implement the solutions. Even though Anthropic was the one who released the MCP system, why do they consider MCPs problematic? If you've used MCPS before, you know that they exist as tool calls in the context window. Each MCP has its own tools that remain exposed to the model in the context even before you perform any task with the agent. Even though the messages in this example occupy 0% of the context, the MCPS have already consumed about 10% of the total context window because MCP tools stay in the context regardless of whether you use them or not. And this was just for three MCPS connected. Now imagine how much context usage will increase when you connect more MCPS. This is exactly the problem highlighted by anthropic. They point out that tool definitions overload the context. And it's not just about the definitions. Results from MCP calls also remain in the context window consuming additional tokens. In this way, both the MCP tool definitions and the tool call results bloat the context window, gradually causing problems and taking up more space than the actual user messages and their content. Now that you understand the actual problem, I'll take you through the solution that they presented. So what can we do about this problem? Anthropic actually provided a solution in the paper that they released. They suggest that instead of having MCPs as separate tool calls, we can use the MCP server as code. Rather than having them as tool calls bloating the context window, we can leverage Claude's powerful coding capabilities and have it write whatever MCP you're using as a backend API instead of relying on the MCP server directly. This way, instead of loading an MCP directly into the context window, you can have all MCPS as separate code files representing a specific MCP tool. Then whenever the agent needs to access a particular tool, it can reference these files instead of relying on the MCP tools in the context window. This method of using MCPS as code is highly effective because it prevents the context window from being occupied by tool definitions. It allows for better context window management and provides more space for the actual work that needs to be done in the project. I won't go into implementation details for this solution, but if you want a dedicated video on the implementation, comment down below. To elaborate, [snorts] Enthropic's idea is that instead of having separate MCP servers, we can have a servers folder that contains all the MCP servers. Within that folder, each file represents a specific function and there's an index file that acts as a base to let Claude know what tools are available in this MCP server. Cloudflare had actually already presented this exact idea and called it code mode. They mentioned that all MCP tools should be converted into a TypeScript API and then the LLM could write code for it. But if you're still not clear on why this is a big problem and why we shouldn't just keep using MCPS the way we were before, Entropic actually listed the benefits of this new solution. The first benefit of this solution is progressive disclosure or slowly revealing only the information required in the context window. We're using the agents ability to navigate the file structure, understand the purpose of a file from its name and load only what is required in the context. That's why each MCP is represented as a folder and within it are multiple files each corresponding to a specific tool. To coordinate all these files, we have an index.ts file that exposes all the tools along with their definitions. Essentially, this index.ts acts as a guide for Claude, helping it navigate which tools are available and how to call them. The main advantage is that whenever a particular MCP is needed, Claude references this index.ts and only loads the specific tool file into memory, revealing its context as required instead of loading all tools at once. The second benefit highlighted in this paper is context efficient tool results. As I mentioned earlier, all tool call results are normally exposed in the context window which can bloat it. With this approach, even if an MCP tool call produces a huge response, you can use code to transform, aggregate, and expose only the required portion of the data. For example, if you want the agent to know what type of data is in your Google Sheets, an MCP tool call returns all 10,000 rows, which only bloat the context window. So instead, you can send only the first five rows to the model for review. This prevents the context window from being unnecessarily bloated. The next [snorts] benefit highlighted in this paper is more powerful and context efficient control flow. When using MCPs, tool calls must wait for each other sequentially, and the model makes these decisions. Enthropic emphasized that instead of having the model decide what to do and when to do it, Claude can manage this through logic within the code, reducing hallucinations and context window overload. Code can handle execution effectively using conditional statements, saving time since the model doesn't need to chain tool calls. The code manages the logic including checks and flow control instead of the model. When working with data, privacy is often a major concern. You don't want the model to access sensitive information in your database. The next benefit this approach provides is privacy preserving operations. With MCP as code execution, the agent only sees what the code logs or returns. For example, if your code is written to log only specific outputs, the agent only has access to that information and sensitive data remains hidden from the context window. If you want your MCP to keep your data private, you can design the code to return generic or placeholder values instead of the actual database content. This way, the agent can perform its tasks without ever accessing sensitive data, preserving your privacy. The final benefit is state persistence and skills. With the memory tool, the agent can save working code and intermediate results as files, allowing it to maintain state across operations and pick up execution exactly where it left off. This approach closely resembles Claude's skills that were released earlier. Both skills and MCP as code use a file systembased structure where capabilities are stored as files that Claude can discover and load on demand. The difference is that skills are broader and contain multiple resources documented in a skill.md file, while MCP as code focuses specifically on wrapping MCP server tools as executable code. You can also combine both approaches. When your agent writes code that successfully uses MCP tools, you can save that code and add a skill file to document it. This creates a reusable skill that the agent can reference in future tasks, building a library of capabilities over time and making development much more efficient. While this idea is truly impressive given all the benefits it offers, there is also a challenge. Running agent generated code requires a secure environment with proper sandboxing resources and monitoring. Although this approach reduces token costs and lowers latency, it also introduces technical complexities that need to be managed, this solution prompts you to make a choice between token costs and infrastructure complexity. To conclude, MCP as code can solve many of the problems we've been facing. While these ideas may feel new, they actually are not. They're standard practices that software engineers have been using for years. The key difference is that we're now extending these practices to AI agents, helping them become familiar with the real development environment. Before you go, last month we ran our biggest server event yet, the AI labs hackathon. We were absolutely blown away, receiving nearly 40 incredible projects. Before we get to the top three, we have to recognize a project that was pure innovation and deserved an honorable mention. That goes to our honorable member for his project, Convo Lang. Convol is an ambitious AI native programming language that seamlessly mixes prompting and procedural code. It's built to simplify creating complex AI agents, making things like tool calling, rag, and custom reasoning easy to manage in one consistent language. It's a huge, incredibly impressive undertaking. Fantastic work. Now, let's get into the top projects. Starting at number three, landing in third place is Emergency Contact Finder. Their project tackles a super important real world problem. It lets users create a unique QR code that they can attach to anything. When someone scans it, that person is immediately redirected to a designated emergency contact saved in the user's account. Simple, but brilliant for peace of mind. Coming in at second place is Core Notes. This is a performance-first offline capable desktop app designed as a productivity hub with four different modes for different users. The standout is the entrepreneur mode which packs features like AI idea generation, pitch structuring, and integrated financial tracking. All built to help founders move faster. And now our first place winner. Let's have a big round of applause for Ignasia Sparkfinder, a powerful platform that automatically finds and validates product opportunities or sparks from sources like Reddit. Using multimodel AI, it analyzes data and provides detailed scores for pain level, market viability, and confidence, effectively giving product builders a huge head start. And that's it for our winners. A massive thank you to everyone who submitted a project. You made this hackathon our best yet. Congratulations again to our top four. That brings us to the end of this video. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below. As always, thank you for watching and I'll see you in the next",
+  "fetchedAt": "2026-01-18T18:34:13.069Z"
+}

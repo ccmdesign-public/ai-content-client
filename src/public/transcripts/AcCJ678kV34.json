@@ -1,0 +1,614 @@
+{
+  "videoId": "AcCJ678kV34",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.24,
+      "duration": 4.079,
+      "text": "This year has started with some very"
+    },
+    {
+      "start": 2.24,
+      "duration": 4.48,
+      "text": "exciting news. Docker has finally"
+    },
+    {
+      "start": 4.319,
+      "duration": 5.041,
+      "text": "decided to make their hardened images"
+    },
+    {
+      "start": 6.72,
+      "duration": 4.879,
+      "text": "free and open- source. That's right."
+    },
+    {
+      "start": 9.36,
+      "duration": 5.279,
+      "text": "Every developer can now use any of their"
+    },
+    {
+      "start": 11.599,
+      "duration": 5.44,
+      "text": "more than 1,000 Dockered hardened images"
+    },
+    {
+      "start": 14.639,
+      "duration": 5.041,
+      "text": "without any hidden costs or restrictive"
+    },
+    {
+      "start": 17.039,
+      "duration": 4.16,
+      "text": "licenses. Now, why is this a big deal?"
+    },
+    {
+      "start": 19.68,
+      "duration": 5.24,
+      "text": "Well, that's what we're going to look at"
+    },
+    {
+      "start": 21.199,
+      "duration": 3.721,
+      "text": "in today's video."
+    },
+    {
+      "start": 26.48,
+      "duration": 5.119,
+      "text": "So, what exactly are hardened images? If"
+    },
+    {
+      "start": 29.519,
+      "duration": 5.04,
+      "text": "you're a developer using Docker, chances"
+    },
+    {
+      "start": 31.599,
+      "duration": 5.361,
+      "text": "are your app is only as secure as the"
+    },
+    {
+      "start": 34.559,
+      "duration": 4.561,
+      "text": "base image you start from. And most of"
+    },
+    {
+      "start": 36.96,
+      "duration": 4.16,
+      "text": "us pull base images without even"
+    },
+    {
+      "start": 39.12,
+      "duration": 4.24,
+      "text": "thinking twice about it. The problem is"
+    },
+    {
+      "start": 41.12,
+      "duration": 4.959,
+      "text": "that many of those images come with a"
+    },
+    {
+      "start": 43.36,
+      "duration": 5.199,
+      "text": "lot of unnecessary packages, outdated"
+    },
+    {
+      "start": 46.079,
+      "duration": 4.401,
+      "text": "dependencies, and known vulnerabilities"
+    },
+    {
+      "start": 48.559,
+      "duration": 4.561,
+      "text": "baked into it. At the end of the day,"
+    },
+    {
+      "start": 50.48,
+      "duration": 4.96,
+      "text": "container security is a supply chain"
+    },
+    {
+      "start": 53.12,
+      "duration": 4.72,
+      "text": "problem. If the base image you start"
+    },
+    {
+      "start": 55.44,
+      "duration": 4.88,
+      "text": "from has vulnerabilities, every image"
+    },
+    {
+      "start": 57.84,
+      "duration": 4.8,
+      "text": "you build on top of it inherits those"
+    },
+    {
+      "start": 60.32,
+      "duration": 4.479,
+      "text": "problems automatically. But wait, does"
+    },
+    {
+      "start": 62.64,
+      "duration": 5.36,
+      "text": "that mean that base images we commonly"
+    },
+    {
+      "start": 64.799,
+      "duration": 5.761,
+      "text": "use in Docker are not safe? Well, many"
+    },
+    {
+      "start": 68,
+      "duration": 5.439,
+      "text": "commonly used base images are built to"
+    },
+    {
+      "start": 70.56,
+      "duration": 5.36,
+      "text": "be flexible and convenient, not minimal"
+    },
+    {
+      "start": 73.439,
+      "duration": 5.201,
+      "text": "or hardened. They often include extra"
+    },
+    {
+      "start": 75.92,
+      "duration": 4.879,
+      "text": "tools, legacy packages, and dependencies"
+    },
+    {
+      "start": 78.64,
+      "duration": 4.32,
+      "text": "that most applications never actually"
+    },
+    {
+      "start": 80.799,
+      "duration": 4.401,
+      "text": "use. And all of that increases the"
+    },
+    {
+      "start": 82.96,
+      "duration": 4.32,
+      "text": "likelihood of vulnerabilities. And last"
+    },
+    {
+      "start": 85.2,
+      "duration": 4.72,
+      "text": "year was a record year for newly"
+    },
+    {
+      "start": 87.28,
+      "duration": 5.44,
+      "text": "discovered supply chain attacks. So even"
+    },
+    {
+      "start": 89.92,
+      "duration": 4.32,
+      "text": "if your own application code is solid,"
+    },
+    {
+      "start": 92.72,
+      "duration": 3.68,
+      "text": "you can still end up shipping"
+    },
+    {
+      "start": 94.24,
+      "duration": 4.239,
+      "text": "vulnerabilities that come from the very"
+    },
+    {
+      "start": 96.4,
+      "duration": 4.56,
+      "text": "first line of your Docker file. This is"
+    },
+    {
+      "start": 98.479,
+      "duration": 4.561,
+      "text": "where the idea of hardened images starts"
+    },
+    {
+      "start": 100.96,
+      "duration": 4.88,
+      "text": "to make a lot of sense. But up until"
+    },
+    {
+      "start": 103.04,
+      "duration": 4.96,
+      "text": "now, Harden images was a paid feature"
+    },
+    {
+      "start": 105.84,
+      "duration": 5.2,
+      "text": "because as Docker puts it, patching"
+    },
+    {
+      "start": 108,
+      "duration": 5.92,
+      "text": "SLAs's and our build service carry real"
+    },
+    {
+      "start": 111.04,
+      "duration": 5.52,
+      "text": "operational cost. That's why DHI has"
+    },
+    {
+      "start": 113.92,
+      "duration": 5.28,
+      "text": "historically been a commercial offering."
+    },
+    {
+      "start": 116.56,
+      "duration": 4.32,
+      "text": "But our vision has always been broader."
+    },
+    {
+      "start": 119.2,
+      "duration": 4.08,
+      "text": "This level of security should be"
+    },
+    {
+      "start": 120.88,
+      "duration": 4.879,
+      "text": "available to everyone. That's why today"
+    },
+    {
+      "start": 123.28,
+      "duration": 4.959,
+      "text": "we are making Docker hardened images"
+    },
+    {
+      "start": 125.759,
+      "duration": 4.48,
+      "text": "free and open source. And this is really"
+    },
+    {
+      "start": 128.239,
+      "duration": 4.321,
+      "text": "cool because this means that the free"
+    },
+    {
+      "start": 130.239,
+      "duration": 5.601,
+      "text": "tier is now open- source and licensed"
+    },
+    {
+      "start": 132.56,
+      "duration": 5.28,
+      "text": "under Apache 2.0, which means individual"
+    },
+    {
+      "start": 135.84,
+      "duration": 4.08,
+      "text": "developers and small teams can start"
+    },
+    {
+      "start": 137.84,
+      "duration": 4.16,
+      "text": "using them right away. And the way to"
+    },
+    {
+      "start": 139.92,
+      "duration": 4.319,
+      "text": "use it is extremely simple. In most"
+    },
+    {
+      "start": 142,
+      "duration": 4.239,
+      "text": "cases, you just swap your existing base"
+    },
+    {
+      "start": 144.239,
+      "duration": 4.08,
+      "text": "image with the Docker hardened image"
+    },
+    {
+      "start": 146.239,
+      "duration": 4.401,
+      "text": "version of it. If your project already"
+    },
+    {
+      "start": 148.319,
+      "duration": 5.121,
+      "text": "uses a common base image, there is"
+    },
+    {
+      "start": 150.64,
+      "duration": 4.959,
+      "text": "usually a DHI equivalent you can drop in"
+    },
+    {
+      "start": 153.44,
+      "duration": 4.159,
+      "text": "with minimal changes. Your Docker file"
+    },
+    {
+      "start": 155.599,
+      "duration": 4.321,
+      "text": "stays mostly the same. Your build"
+    },
+    {
+      "start": 157.599,
+      "duration": 4.481,
+      "text": "process does not change and your"
+    },
+    {
+      "start": 159.92,
+      "duration": 4.16,
+      "text": "application code stays untouched. You"
+    },
+    {
+      "start": 162.08,
+      "duration": 4.159,
+      "text": "just end up building on top of a much"
+    },
+    {
+      "start": 164.08,
+      "duration": 4.159,
+      "text": "smaller and much more secure foundation"
+    },
+    {
+      "start": 166.239,
+      "duration": 4.401,
+      "text": "without having to rethink your entire"
+    },
+    {
+      "start": 168.239,
+      "duration": 4.481,
+      "text": "setup. And in many real world projects,"
+    },
+    {
+      "start": 170.64,
+      "duration": 5.36,
+      "text": "swapping a standard base image for its"
+    },
+    {
+      "start": 172.72,
+      "duration": 5.519,
+      "text": "DHI equivalent works with little or no"
+    },
+    {
+      "start": 176,
+      "duration": 4.239,
+      "text": "change. That is because DHIS are"
+    },
+    {
+      "start": 178.239,
+      "duration": 4.72,
+      "text": "intentionally built on familiar"
+    },
+    {
+      "start": 180.239,
+      "duration": 4.561,
+      "text": "foundations like Debian or Alpine."
+    },
+    {
+      "start": 182.959,
+      "duration": 4.161,
+      "text": "However, hardened images are"
+    },
+    {
+      "start": 184.8,
+      "duration": 4.24,
+      "text": "intentionally minimal. That means a few"
+    },
+    {
+      "start": 187.12,
+      "duration": 4.32,
+      "text": "things can still break. First of all,"
+    },
+    {
+      "start": 189.04,
+      "duration": 5.279,
+      "text": "common debugging tools like bash, curl,"
+    },
+    {
+      "start": 191.44,
+      "duration": 5.12,
+      "text": "or apt might be missing. Secondly,"
+    },
+    {
+      "start": 194.319,
+      "duration": 4.721,
+      "text": "package managers may be locked down or"
+    },
+    {
+      "start": 196.56,
+      "duration": 4.64,
+      "text": "limited to reduce attack surface. And"
+    },
+    {
+      "start": 199.04,
+      "duration": 4.24,
+      "text": "thirdly, some build steps that assume"
+    },
+    {
+      "start": 201.2,
+      "duration": 4.56,
+      "text": "that you have extra system utilities"
+    },
+    {
+      "start": 203.28,
+      "duration": 4.64,
+      "text": "installed might fail. But in practice,"
+    },
+    {
+      "start": 205.76,
+      "duration": 4.64,
+      "text": "this usually shows up during the image"
+    },
+    {
+      "start": 207.92,
+      "duration": 4.8,
+      "text": "build, not at runtime, which makes it"
+    },
+    {
+      "start": 210.4,
+      "duration": 4.64,
+      "text": "easy to fix. Most fixes involve"
+    },
+    {
+      "start": 212.72,
+      "duration": 4.079,
+      "text": "explicitly installing just the few tools"
+    },
+    {
+      "start": 215.04,
+      "duration": 3.36,
+      "text": "that you need for your build and"
+    },
+    {
+      "start": 216.799,
+      "duration": 3.601,
+      "text": "basically that's all you need to do."
+    },
+    {
+      "start": 218.4,
+      "duration": 4.559,
+      "text": "What's even cooler is that Docker has"
+    },
+    {
+      "start": 220.4,
+      "duration": 4.88,
+      "text": "also built hardened Helm charts. So"
+    },
+    {
+      "start": 222.959,
+      "duration": 4.241,
+      "text": "instead of pulling in random community"
+    },
+    {
+      "start": 225.28,
+      "duration": 4.08,
+      "text": "charts and then trying to secure them"
+    },
+    {
+      "start": 227.2,
+      "duration": 4.48,
+      "text": "yourself, you start from charts that"
+    },
+    {
+      "start": 229.36,
+      "duration": 4.239,
+      "text": "already follow security best practices"
+    },
+    {
+      "start": 231.68,
+      "duration": 4.4,
+      "text": "by default. If you're a developer"
+    },
+    {
+      "start": 233.599,
+      "duration": 4.64,
+      "text": "deploying on Kubernetes, this alleviates"
+    },
+    {
+      "start": 236.08,
+      "duration": 4.159,
+      "text": "a lot of heavy lifting because you get"
+    },
+    {
+      "start": 238.239,
+      "duration": 4.72,
+      "text": "productionready defaults without having"
+    },
+    {
+      "start": 240.239,
+      "duration": 4.881,
+      "text": "to be a Kubernetes security expert and"
+    },
+    {
+      "start": 242.959,
+      "duration": 4.161,
+      "text": "you still retain the flexibility to"
+    },
+    {
+      "start": 245.12,
+      "duration": 3.92,
+      "text": "customize things when you need to. So,"
+    },
+    {
+      "start": 247.12,
+      "duration": 3.92,
+      "text": "if you're already using Docker, this is"
+    },
+    {
+      "start": 249.04,
+      "duration": 4.08,
+      "text": "one of the easiest ways to improve your"
+    },
+    {
+      "start": 251.04,
+      "duration": 4,
+      "text": "application security without slowing"
+    },
+    {
+      "start": 253.12,
+      "duration": 4.16,
+      "text": "down development. And now that it is"
+    },
+    {
+      "start": 255.04,
+      "duration": 4.24,
+      "text": "finally free, there's no reason not to"
+    },
+    {
+      "start": 257.28,
+      "duration": 4,
+      "text": "do it. I'm super happy that we as an"
+    },
+    {
+      "start": 259.28,
+      "duration": 3.919,
+      "text": "industry are starting to take security"
+    },
+    {
+      "start": 261.28,
+      "duration": 4.24,
+      "text": "more seriously. And it's nice to see"
+    },
+    {
+      "start": 263.199,
+      "duration": 4.56,
+      "text": "organizations like Docker thinking about"
+    },
+    {
+      "start": 265.52,
+      "duration": 4.48,
+      "text": "these issues proactively. If you found"
+    },
+    {
+      "start": 267.759,
+      "duration": 3.921,
+      "text": "this video useful and informative, let"
+    },
+    {
+      "start": 270,
+      "duration": 4.08,
+      "text": "us know by smashing that like button"
+    },
+    {
+      "start": 271.68,
+      "duration": 4.4,
+      "text": "underneath the video. And also don't"
+    },
+    {
+      "start": 274.08,
+      "duration": 4.16,
+      "text": "forget to subscribe to our channel. This"
+    },
+    {
+      "start": 276.08,
+      "duration": 6.52,
+      "text": "has been Andress from Better Stack and I"
+    },
+    {
+      "start": 278.24,
+      "duration": 4.36,
+      "text": "will see you in the next videos."
+    }
+  ],
+  "fullText": "This year has started with some very exciting news. Docker has finally decided to make their hardened images free and open- source. That's right. Every developer can now use any of their more than 1,000 Dockered hardened images without any hidden costs or restrictive licenses. Now, why is this a big deal? Well, that's what we're going to look at in today's video. So, what exactly are hardened images? If you're a developer using Docker, chances are your app is only as secure as the base image you start from. And most of us pull base images without even thinking twice about it. The problem is that many of those images come with a lot of unnecessary packages, outdated dependencies, and known vulnerabilities baked into it. At the end of the day, container security is a supply chain problem. If the base image you start from has vulnerabilities, every image you build on top of it inherits those problems automatically. But wait, does that mean that base images we commonly use in Docker are not safe? Well, many commonly used base images are built to be flexible and convenient, not minimal or hardened. They often include extra tools, legacy packages, and dependencies that most applications never actually use. And all of that increases the likelihood of vulnerabilities. And last year was a record year for newly discovered supply chain attacks. So even if your own application code is solid, you can still end up shipping vulnerabilities that come from the very first line of your Docker file. This is where the idea of hardened images starts to make a lot of sense. But up until now, Harden images was a paid feature because as Docker puts it, patching SLAs's and our build service carry real operational cost. That's why DHI has historically been a commercial offering. But our vision has always been broader. This level of security should be available to everyone. That's why today we are making Docker hardened images free and open source. And this is really cool because this means that the free tier is now open- source and licensed under Apache 2.0, which means individual developers and small teams can start using them right away. And the way to use it is extremely simple. In most cases, you just swap your existing base image with the Docker hardened image version of it. If your project already uses a common base image, there is usually a DHI equivalent you can drop in with minimal changes. Your Docker file stays mostly the same. Your build process does not change and your application code stays untouched. You just end up building on top of a much smaller and much more secure foundation without having to rethink your entire setup. And in many real world projects, swapping a standard base image for its DHI equivalent works with little or no change. That is because DHIS are intentionally built on familiar foundations like Debian or Alpine. However, hardened images are intentionally minimal. That means a few things can still break. First of all, common debugging tools like bash, curl, or apt might be missing. Secondly, package managers may be locked down or limited to reduce attack surface. And thirdly, some build steps that assume that you have extra system utilities installed might fail. But in practice, this usually shows up during the image build, not at runtime, which makes it easy to fix. Most fixes involve explicitly installing just the few tools that you need for your build and basically that's all you need to do. What's even cooler is that Docker has also built hardened Helm charts. So instead of pulling in random community charts and then trying to secure them yourself, you start from charts that already follow security best practices by default. If you're a developer deploying on Kubernetes, this alleviates a lot of heavy lifting because you get productionready defaults without having to be a Kubernetes security expert and you still retain the flexibility to customize things when you need to. So, if you're already using Docker, this is one of the easiest ways to improve your application security without slowing down development. And now that it is finally free, there's no reason not to do it. I'm super happy that we as an industry are starting to take security more seriously. And it's nice to see organizations like Docker thinking about these issues proactively. If you found this video useful and informative, let us know by smashing that like button underneath the video. And also don't forget to subscribe to our channel. This has been Andress from Better Stack and I will see you in the next videos.",
+  "fetchedAt": "2026-01-18T18:32:14.312Z"
+}

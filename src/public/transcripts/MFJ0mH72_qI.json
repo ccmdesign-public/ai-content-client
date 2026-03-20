@@ -1,0 +1,1529 @@
+{
+  "videoId": "MFJ0mH72_qI",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.56,
+      "text": "Most of you already know Shad CN as one"
+    },
+    {
+      "start": 2.56,
+      "duration": 4.239,
+      "text": "of the most widely used UI libraries,"
+    },
+    {
+      "start": 4.72,
+      "duration": 3.839,
+      "text": "but using an AI agent to build with it"
+    },
+    {
+      "start": 6.799,
+      "duration": 3.84,
+      "text": "can be problematic. If you're building"
+    },
+    {
+      "start": 8.559,
+      "duration": 3.761,
+      "text": "oneshot landing pages, you won't have a"
+    },
+    {
+      "start": 10.639,
+      "duration": 3.761,
+      "text": "huge problem. But if you're building a"
+    },
+    {
+      "start": 12.32,
+      "duration": 4,
+      "text": "new app or implementing a new feature,"
+    },
+    {
+      "start": 14.4,
+      "duration": 3.6,
+      "text": "things break and they break other parts"
+    },
+    {
+      "start": 16.32,
+      "duration": 3.6,
+      "text": "of the app as well. But this isn't"
+    },
+    {
+      "start": 18,
+      "duration": 3.92,
+      "text": "anything new. This problem has already"
+    },
+    {
+      "start": 19.92,
+      "duration": 4.4,
+      "text": "been solved and it's how engineers build"
+    },
+    {
+      "start": 21.92,
+      "duration": 4.32,
+      "text": "apps. Now, AI agents always test the"
+    },
+    {
+      "start": 24.32,
+      "duration": 4.4,
+      "text": "code that they write, but these agents"
+    },
+    {
+      "start": 26.24,
+      "duration": 4.48,
+      "text": "become unreliable with large contexts."
+    },
+    {
+      "start": 28.72,
+      "duration": 4.08,
+      "text": "Therefore, we need a way to ensure that"
+    },
+    {
+      "start": 30.72,
+      "duration": 3.839,
+      "text": "agents complete the work they're given."
+    },
+    {
+      "start": 32.8,
+      "duration": 3.759,
+      "text": "This is where the concept of agentic"
+    },
+    {
+      "start": 34.559,
+      "duration": 4,
+      "text": "loops comes in. And anthropic solves"
+    },
+    {
+      "start": 36.559,
+      "duration": 4.081,
+      "text": "this by using the Ralph loop. To solve"
+    },
+    {
+      "start": 38.559,
+      "duration": 4.16,
+      "text": "my UI problem, I tried to implement the"
+    },
+    {
+      "start": 40.64,
+      "duration": 3.759,
+      "text": "Ralph loop. And at first, it completely"
+    },
+    {
+      "start": 42.719,
+      "duration": 3.441,
+      "text": "failed. But I soon learned that it"
+    },
+    {
+      "start": 44.399,
+      "duration": 3.601,
+      "text": "wasn't because of the Ralph loop. It was"
+    },
+    {
+      "start": 46.16,
+      "duration": 4,
+      "text": "because of the process I had implemented"
+    },
+    {
+      "start": 48,
+      "duration": 3.6,
+      "text": "with it. So, Ralph is actually a new"
+    },
+    {
+      "start": 50.16,
+      "duration": 3.28,
+      "text": "plug-in that has been released by"
+    },
+    {
+      "start": 51.6,
+      "duration": 3.76,
+      "text": "Anthropic themselves. But this wasn't"
+    },
+    {
+      "start": 53.44,
+      "duration": 3.759,
+      "text": "one of their original ideas. It's based"
+    },
+    {
+      "start": 55.36,
+      "duration": 3.92,
+      "text": "on a technique by someone else and"
+    },
+    {
+      "start": 57.199,
+      "duration": 4,
+      "text": "Anthropic implemented and open sourced"
+    },
+    {
+      "start": 59.28,
+      "duration": 3.759,
+      "text": "it. Basically, Ralph is a loop and if"
+    },
+    {
+      "start": 61.199,
+      "duration": 3.6,
+      "text": "you know about Claude code hooks, it"
+    },
+    {
+      "start": 63.039,
+      "duration": 3.76,
+      "text": "uses these stop hooks which run when"
+    },
+    {
+      "start": 64.799,
+      "duration": 4.081,
+      "text": "Claude stops outputting an answer. As"
+    },
+    {
+      "start": 66.799,
+      "duration": 4.081,
+      "text": "soon as it stops, the AI agent is fed"
+    },
+    {
+      "start": 68.88,
+      "duration": 3.84,
+      "text": "its initial prompt file again and this"
+    },
+    {
+      "start": 70.88,
+      "duration": 3.12,
+      "text": "allows it to iteratively improve its"
+    },
+    {
+      "start": 72.72,
+      "duration": 3.04,
+      "text": "work. Now, here's the important"
+    },
+    {
+      "start": 74,
+      "duration": 3.04,
+      "text": "question. When does it actually break"
+    },
+    {
+      "start": 75.76,
+      "duration": 3.2,
+      "text": "out of the loop? There's something"
+    },
+    {
+      "start": 77.04,
+      "duration": 3.92,
+      "text": "called a completion promise, which can"
+    },
+    {
+      "start": 78.96,
+      "duration": 4.159,
+      "text": "be any word you input. When Claude feels"
+    },
+    {
+      "start": 80.96,
+      "duration": 4.24,
+      "text": "like its task is completed, it outputs"
+    },
+    {
+      "start": 83.119,
+      "duration": 3.761,
+      "text": "this promise by itself. For example, in"
+    },
+    {
+      "start": 85.2,
+      "duration": 3.36,
+      "text": "this case, the promise is the word"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.599,
+      "text": "complete. If the promise is in the"
+    },
+    {
+      "start": 88.56,
+      "duration": 3.84,
+      "text": "return prompt, then the loop doesn't run"
+    },
+    {
+      "start": 90.479,
+      "duration": 3.68,
+      "text": "again. So, until Claude outputs a"
+    },
+    {
+      "start": 92.4,
+      "duration": 3.44,
+      "text": "promise, it doesn't stop. This makes"
+    },
+    {
+      "start": 94.159,
+      "duration": 3.681,
+      "text": "sure that Claude doesn't just quit"
+    },
+    {
+      "start": 95.84,
+      "duration": 3.84,
+      "text": "whenever it wants. After you install the"
+    },
+    {
+      "start": 97.84,
+      "duration": 4,
+      "text": "plugin, you'll have three commands. The"
+    },
+    {
+      "start": 99.68,
+      "duration": 4.079,
+      "text": "Ralph loop command, a cancel command,"
+    },
+    {
+      "start": 101.84,
+      "duration": 3.52,
+      "text": "and a help command. In the loop command,"
+    },
+    {
+      "start": 103.759,
+      "duration": 3.521,
+      "text": "you need to provide the prompt that is"
+    },
+    {
+      "start": 105.36,
+      "duration": 3.92,
+      "text": "fed to the agent again and again."
+    },
+    {
+      "start": 107.28,
+      "duration": 3.6,
+      "text": "Sometimes it may get an impossible task"
+    },
+    {
+      "start": 109.28,
+      "duration": 3.44,
+      "text": "that it's not able to solve, and it"
+    },
+    {
+      "start": 110.88,
+      "duration": 3.76,
+      "text": "might get stuck in an infinite loop. So"
+    },
+    {
+      "start": 112.72,
+      "duration": 3.52,
+      "text": "setting a max iteration count is a"
+    },
+    {
+      "start": 114.64,
+      "duration": 3.6,
+      "text": "really good practice. I will leave the"
+    },
+    {
+      "start": 116.24,
+      "duration": 4.08,
+      "text": "link to the repo below because they have"
+    },
+    {
+      "start": 118.24,
+      "duration": 3.839,
+      "text": "some good best practices for the prompts"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.439,
+      "text": "you can give to the Ralph loop. But in"
+    },
+    {
+      "start": 122.079,
+      "duration": 4,
+      "text": "this video, I'm only going to discuss"
+    },
+    {
+      "start": 123.759,
+      "duration": 4.321,
+      "text": "the ones related to the UI workflow that"
+    },
+    {
+      "start": 126.079,
+      "duration": 3.761,
+      "text": "I'm going to show you. So let's say we"
+    },
+    {
+      "start": 128.08,
+      "duration": 3.6,
+      "text": "want to implement two features in this"
+    },
+    {
+      "start": 129.84,
+      "duration": 3.84,
+      "text": "app. One is a command pallet where we"
+    },
+    {
+      "start": 131.68,
+      "duration": 3.68,
+      "text": "add a menu to search through our app and"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.44,
+      "text": "execute other commands. To make sure"
+    },
+    {
+      "start": 135.36,
+      "duration": 3.519,
+      "text": "that this new feature doesn't break"
+    },
+    {
+      "start": 137.12,
+      "duration": 3.28,
+      "text": "other parts of the app, you would start"
+    },
+    {
+      "start": 138.879,
+      "duration": 3.44,
+      "text": "with the tests. This is called"
+    },
+    {
+      "start": 140.4,
+      "duration": 3.839,
+      "text": "test-driven development. If you're not"
+    },
+    {
+      "start": 142.319,
+      "duration": 4.481,
+      "text": "familiar with this, you can ask Claude"
+    },
+    {
+      "start": 144.239,
+      "duration": 4.64,
+      "text": "Code to set up the TDD structure for you"
+    },
+    {
+      "start": 146.8,
+      "duration": 4.24,
+      "text": "where it creates an end-to-end test"
+    },
+    {
+      "start": 148.879,
+      "duration": 4.321,
+      "text": "folder, a screenshots folder to check"
+    },
+    {
+      "start": 151.04,
+      "duration": 3.919,
+      "text": "for UI problems and the corresponding"
+    },
+    {
+      "start": 153.2,
+      "duration": 3.84,
+      "text": "test as well. The other feature we're"
+    },
+    {
+      "start": 154.959,
+      "duration": 4.161,
+      "text": "going to implement is a board view in"
+    },
+    {
+      "start": 157.04,
+      "duration": 4.4,
+      "text": "the database, similar to what notion"
+    },
+    {
+      "start": 159.12,
+      "duration": 4.32,
+      "text": "allows us to do with their databases. If"
+    },
+    {
+      "start": 161.44,
+      "duration": 4,
+      "text": "you've caught on, testdriven development"
+    },
+    {
+      "start": 163.44,
+      "duration": 4.079,
+      "text": "is an approach where tests are written"
+    },
+    {
+      "start": 165.44,
+      "duration": 4.079,
+      "text": "before the code is implemented. But this"
+    },
+    {
+      "start": 167.519,
+      "duration": 4,
+      "text": "means that the initial tests will always"
+    },
+    {
+      "start": 169.519,
+      "duration": 3.841,
+      "text": "fail. So if I'm implementing the command"
+    },
+    {
+      "start": 171.519,
+      "duration": 3.601,
+      "text": "pallet feature, I wouldn't just start"
+    },
+    {
+      "start": 173.36,
+      "duration": 3.44,
+      "text": "writing the code for it. Instead, I"
+    },
+    {
+      "start": 175.12,
+      "duration": 3.6,
+      "text": "would first write elaborate tests for"
+    },
+    {
+      "start": 176.8,
+      "duration": 4.079,
+      "text": "it. Then we write the minimum amount of"
+    },
+    {
+      "start": 178.72,
+      "duration": 4.32,
+      "text": "code required to pass those tests. Once"
+    },
+    {
+      "start": 180.879,
+      "duration": 4.161,
+      "text": "that's done, we refactor and add more"
+    },
+    {
+      "start": 183.04,
+      "duration": 3.919,
+      "text": "functionality. And with every addition,"
+    },
+    {
+      "start": 185.04,
+      "duration": 3.52,
+      "text": "we make sure the tests still pass."
+    },
+    {
+      "start": 186.959,
+      "duration": 3.761,
+      "text": "Another interesting thing is that these"
+    },
+    {
+      "start": 188.56,
+      "duration": 3.759,
+      "text": "tests are automated and playright can be"
+    },
+    {
+      "start": 190.72,
+      "duration": 3.28,
+      "text": "imported and used for visual"
+    },
+    {
+      "start": 192.319,
+      "duration": 4.161,
+      "text": "verification. If you think that we're"
+    },
+    {
+      "start": 194,
+      "duration": 4.239,
+      "text": "using the Playright MCP to autonomously"
+    },
+    {
+      "start": 196.48,
+      "duration": 3.92,
+      "text": "verify this through the browser, you're"
+    },
+    {
+      "start": 198.239,
+      "duration": 4.241,
+      "text": "wrong. With TDD, for each functional"
+    },
+    {
+      "start": 200.4,
+      "duration": 4,
+      "text": "behavior, you can take screenshots. For"
+    },
+    {
+      "start": 202.48,
+      "duration": 3.839,
+      "text": "example, if the functional behavior is"
+    },
+    {
+      "start": 204.4,
+      "duration": 4,
+      "text": "adding a card, then the screenshot would"
+    },
+    {
+      "start": 206.319,
+      "duration": 4.081,
+      "text": "show a card added into the board. So"
+    },
+    {
+      "start": 208.4,
+      "duration": 3.759,
+      "text": "now, all the AI agent has to do is look"
+    },
+    {
+      "start": 210.4,
+      "duration": 3.44,
+      "text": "at those screenshots and make sure there"
+    },
+    {
+      "start": 212.159,
+      "duration": 3.281,
+      "text": "are no problems in the way that these"
+    },
+    {
+      "start": 213.84,
+      "duration": 3.52,
+      "text": "Shad CNN components have been"
+    },
+    {
+      "start": 215.44,
+      "duration": 4,
+      "text": "implemented. These test files ensure"
+    },
+    {
+      "start": 217.36,
+      "duration": 4,
+      "text": "that whenever something new is added or"
+    },
+    {
+      "start": 219.44,
+      "duration": 3.519,
+      "text": "while a feature is being built, all of"
+    },
+    {
+      "start": 221.36,
+      "duration": 3.439,
+      "text": "our behavioral requirements are"
+    },
+    {
+      "start": 222.959,
+      "duration": 4.081,
+      "text": "fulfilled. But in our case, we want to"
+    },
+    {
+      "start": 224.799,
+      "duration": 3.143,
+      "text": "use the screenshots purely for UI"
+    },
+    {
+      "start": 227.04,
+      "duration": 1.04,
+      "text": "verification."
+    },
+    {
+      "start": 227.942,
+      "duration": 2.377,
+      "text": ">> [snorts]"
+    },
+    {
+      "start": 228.08,
+      "duration": 3.84,
+      "text": ">> But if we already have TDD, why do we"
+    },
+    {
+      "start": 230.319,
+      "duration": 3.681,
+      "text": "need the Ralph loop? As I already"
+    },
+    {
+      "start": 231.92,
+      "duration": 3.92,
+      "text": "stated, with larger tasks and context"
+    },
+    {
+      "start": 234,
+      "duration": 3.92,
+      "text": "windows becoming nearly filled, these"
+    },
+    {
+      "start": 235.84,
+      "duration": 4.24,
+      "text": "models abruptly quit their tasks and"
+    },
+    {
+      "start": 237.92,
+      "duration": 4.16,
+      "text": "require constant human input. Therefore,"
+    },
+    {
+      "start": 240.08,
+      "duration": 3.76,
+      "text": "I can have tests written beforehand for"
+    },
+    {
+      "start": 242.08,
+      "duration": 3.519,
+      "text": "any type of function that I want, then"
+    },
+    {
+      "start": 243.84,
+      "duration": 3.679,
+      "text": "use the loop to instruct it on what to"
+    },
+    {
+      "start": 245.599,
+      "duration": 3.761,
+      "text": "do, and it can work autonomously. by"
+    },
+    {
+      "start": 247.519,
+      "duration": 3.681,
+      "text": "telling it what workflow to follow and"
+    },
+    {
+      "start": 249.36,
+      "duration": 3.92,
+      "text": "then giving it the condition for when it"
+    },
+    {
+      "start": 251.2,
+      "duration": 4.08,
+      "text": "can output the promise it completes the"
+    },
+    {
+      "start": 253.28,
+      "duration": 4.56,
+      "text": "task and exits the loop which in this"
+    },
+    {
+      "start": 255.28,
+      "duration": 4.799,
+      "text": "case is when it passes all 25 unique"
+    },
+    {
+      "start": 257.84,
+      "duration": 4.079,
+      "text": "tests. So [snorts] using the Ralph slash"
+    },
+    {
+      "start": 260.079,
+      "duration": 3.601,
+      "text": "command I gave it a prompt so that it"
+    },
+    {
+      "start": 261.919,
+      "duration": 3.681,
+      "text": "would iteratively build the command"
+    },
+    {
+      "start": 263.68,
+      "duration": 3.68,
+      "text": "pallet feature. In the prompt we were"
+    },
+    {
+      "start": 265.6,
+      "duration": 3.36,
+      "text": "basically telling it to implement the"
+    },
+    {
+      "start": 267.36,
+      "duration": 3.04,
+      "text": "feature along with some basic"
+    },
+    {
+      "start": 268.96,
+      "duration": 3.12,
+      "text": "requirements which aren't really"
+    },
+    {
+      "start": 270.4,
+      "duration": 3.68,
+      "text": "important because the requirements can"
+    },
+    {
+      "start": 272.08,
+      "duration": 3.76,
+      "text": "be found in the tests as well but we did"
+    },
+    {
+      "start": 274.08,
+      "duration": 3.6,
+      "text": "outline the whole workflow. In that"
+    },
+    {
+      "start": 275.84,
+      "duration": 3.6,
+      "text": "workflow, it was supposed to start by"
+    },
+    {
+      "start": 277.68,
+      "duration": 3.76,
+      "text": "running the tests. It knows that the"
+    },
+    {
+      "start": 279.44,
+      "duration": 4,
+      "text": "tests will fail and after that it needs"
+    },
+    {
+      "start": 281.44,
+      "duration": 4,
+      "text": "to implement the components to make them"
+    },
+    {
+      "start": 283.44,
+      "duration": 4,
+      "text": "pass. So that's the whole goal. Now, if"
+    },
+    {
+      "start": 285.44,
+      "duration": 3.759,
+      "text": "this were a much broader task, chances"
+    },
+    {
+      "start": 287.44,
+      "duration": 4,
+      "text": "are that when the context window fills"
+    },
+    {
+      "start": 289.199,
+      "duration": 4.241,
+      "text": "up or claude gets confused, it will quit"
+    },
+    {
+      "start": 291.44,
+      "duration": 3.759,
+      "text": "automatically. It will never output the"
+    },
+    {
+      "start": 293.44,
+      "duration": 3.759,
+      "text": "completion promise. And since it never"
+    },
+    {
+      "start": 295.199,
+      "duration": 4.081,
+      "text": "outputs the promise, the prompt will be"
+    },
+    {
+      "start": 297.199,
+      "duration": 4.241,
+      "text": "fed back again and it will have to start"
+    },
+    {
+      "start": 299.28,
+      "duration": 4.16,
+      "text": "all over, meaning it will iteratively"
+    },
+    {
+      "start": 301.44,
+      "duration": 3.92,
+      "text": "keep working on it. But since this was a"
+    },
+    {
+      "start": 303.44,
+      "duration": 3.84,
+      "text": "smaller task, it was actually able to"
+    },
+    {
+      "start": 305.36,
+      "duration": 3.76,
+      "text": "implement everything in a single go,"
+    },
+    {
+      "start": 307.28,
+      "duration": 4,
+      "text": "write out all the components, and make"
+    },
+    {
+      "start": 309.12,
+      "duration": 4.16,
+      "text": "all of the tests pass. Now, after the"
+    },
+    {
+      "start": 311.28,
+      "duration": 3.759,
+      "text": "tests pass, the workflow tells it to"
+    },
+    {
+      "start": 313.28,
+      "duration": 3.6,
+      "text": "review all of the screenshots for the"
+    },
+    {
+      "start": 315.039,
+      "duration": 3.681,
+      "text": "command pallet. These are screenshots"
+    },
+    {
+      "start": 316.88,
+      "duration": 4.319,
+      "text": "taken at different stages to make sure"
+    },
+    {
+      "start": 318.72,
+      "duration": 4.479,
+      "text": "that the UI, whether it's shad CN or any"
+    },
+    {
+      "start": 321.199,
+      "duration": 3.681,
+      "text": "other component library you're using, is"
+    },
+    {
+      "start": 323.199,
+      "duration": 3.84,
+      "text": "implemented correctly and that there"
+    },
+    {
+      "start": 324.88,
+      "duration": 3.84,
+      "text": "aren't any minor issues. After that, it"
+    },
+    {
+      "start": 327.039,
+      "duration": 3.841,
+      "text": "should run the tests again and make sure"
+    },
+    {
+      "start": 328.72,
+      "duration": 3.84,
+      "text": "they still pass after the UI changes."
+    },
+    {
+      "start": 330.88,
+      "duration": 3.599,
+      "text": "Since all of the tests were passing and"
+    },
+    {
+      "start": 332.56,
+      "duration": 3.6,
+      "text": "the screenshots were reviewed, it output"
+    },
+    {
+      "start": 334.479,
+      "duration": 3.361,
+      "text": "the completion promise. This is where"
+    },
+    {
+      "start": 336.16,
+      "duration": 3.2,
+      "text": "the loop stopped and didn't continue"
+    },
+    {
+      "start": 337.84,
+      "duration": 3.28,
+      "text": "again. But there was a really big"
+    },
+    {
+      "start": 339.36,
+      "duration": 3.52,
+      "text": "problem with this which I didn't notice"
+    },
+    {
+      "start": 341.12,
+      "duration": 4,
+      "text": "in the command pallet feature because"
+    },
+    {
+      "start": 342.88,
+      "duration": 3.84,
+      "text": "there were very few chances of UI errors"
+    },
+    {
+      "start": 345.12,
+      "duration": 3.44,
+      "text": "there. However, when I moved on to"
+    },
+    {
+      "start": 346.72,
+      "duration": 4,
+      "text": "implementing the board view, I realized"
+    },
+    {
+      "start": 348.56,
+      "duration": 3.52,
+      "text": "there was a huge mistake in the system."
+    },
+    {
+      "start": 350.72,
+      "duration": 2.88,
+      "text": "I started [snorts] by implementing the"
+    },
+    {
+      "start": 352.08,
+      "duration": 2.959,
+      "text": "board with the same prompt. The"
+    },
+    {
+      "start": 353.6,
+      "duration": 3.039,
+      "text": "requirements were different, of course,"
+    },
+    {
+      "start": 355.039,
+      "duration": 3.44,
+      "text": "but the workflow was pretty much the"
+    },
+    {
+      "start": 356.639,
+      "duration": 3.681,
+      "text": "same. Now, I was kind of surprised when"
+    },
+    {
+      "start": 358.479,
+      "duration": 3.601,
+      "text": "it completed all of the requirements in"
+    },
+    {
+      "start": 360.32,
+      "duration": 3.28,
+      "text": "one go. Don't get me wrong, it was"
+    },
+    {
+      "start": 362.08,
+      "duration": 3.2,
+      "text": "actually making sure that all of the"
+    },
+    {
+      "start": 363.6,
+      "duration": 3.52,
+      "text": "tests were passing. But while it was"
+    },
+    {
+      "start": 365.28,
+      "duration": 3.6,
+      "text": "doing that, there were cases where the"
+    },
+    {
+      "start": 367.12,
+      "duration": 3.6,
+      "text": "number of successful tests would"
+    },
+    {
+      "start": 368.88,
+      "duration": 3.2,
+      "text": "actually decrease because by changing"
+    },
+    {
+      "start": 370.72,
+      "duration": 3.44,
+      "text": "something, it would break something"
+    },
+    {
+      "start": 372.08,
+      "duration": 3.76,
+      "text": "else. And this is why TDD is actually"
+    },
+    {
+      "start": 374.16,
+      "duration": 3.599,
+      "text": "really important because of this"
+    },
+    {
+      "start": 375.84,
+      "duration": 3.68,
+      "text": "recursive testing and making sure that"
+    },
+    {
+      "start": 377.759,
+      "duration": 4,
+      "text": "everything works. But the main problem"
+    },
+    {
+      "start": 379.52,
+      "duration": 3.84,
+      "text": "was that after it had verified that it"
+    },
+    {
+      "start": 381.759,
+      "duration": 3.201,
+      "text": "was done and I went ahead and checked"
+    },
+    {
+      "start": 383.36,
+      "duration": 3.279,
+      "text": "the UI. Most of the things were"
+    },
+    {
+      "start": 384.96,
+      "duration": 4.16,
+      "text": "implemented correctly but it had"
+    },
+    {
+      "start": 386.639,
+      "duration": 4.56,
+      "text": "completely missed some UI errors such as"
+    },
+    {
+      "start": 389.12,
+      "duration": 4,
+      "text": "this one. I also checked the screenshots"
+    },
+    {
+      "start": 391.199,
+      "duration": 3.921,
+      "text": "and the errors were showing up in those"
+    },
+    {
+      "start": 393.12,
+      "duration": 4,
+      "text": "screenshots as well. So I asked it and"
+    },
+    {
+      "start": 395.12,
+      "duration": 4.16,
+      "text": "we analyzed what actually went wrong."
+    },
+    {
+      "start": 397.12,
+      "duration": 4.32,
+      "text": "The real issue was a process failure"
+    },
+    {
+      "start": 399.28,
+      "duration": 4.16,
+      "text": "specifically in terms of fixing the UI."
+    },
+    {
+      "start": 401.44,
+      "duration": 3.84,
+      "text": "What happened was that it did pass all"
+    },
+    {
+      "start": 403.44,
+      "duration": 4,
+      "text": "of the tests because it was supposed to"
+    },
+    {
+      "start": 405.28,
+      "duration": 4.24,
+      "text": "run the test files again and again, but"
+    },
+    {
+      "start": 407.44,
+      "duration": 3.92,
+      "text": "there was no specific test for the UI"
+    },
+    {
+      "start": 409.52,
+      "duration": 3.84,
+      "text": "other than the screenshots. It glanced"
+    },
+    {
+      "start": 411.36,
+      "duration": 4.32,
+      "text": "at a few of them and it even ignored"
+    },
+    {
+      "start": 413.36,
+      "duration": 4.48,
+      "text": "some of the UI errors that it had seen."
+    },
+    {
+      "start": 415.68,
+      "duration": 4.16,
+      "text": "Some files were completely ignored. So,"
+    },
+    {
+      "start": 417.84,
+      "duration": 4.079,
+      "text": "the main issue was that it output its"
+    },
+    {
+      "start": 419.84,
+      "duration": 4.079,
+      "text": "promise statement prematurely and didn't"
+    },
+    {
+      "start": 421.919,
+      "duration": 3.441,
+      "text": "verify whether the UI was actually"
+    },
+    {
+      "start": 423.919,
+      "duration": 3.201,
+      "text": "fixed. We went through a whole"
+    },
+    {
+      "start": 425.36,
+      "duration": 3.6,
+      "text": "brainstorming session on how we could"
+    },
+    {
+      "start": 427.12,
+      "duration": 3.919,
+      "text": "fix this and I even gave the prompt"
+    },
+    {
+      "start": 428.96,
+      "duration": 4.079,
+      "text": "writing best practices from the repo to"
+    },
+    {
+      "start": 431.039,
+      "duration": 4,
+      "text": "claude code. But in the end, we came up"
+    },
+    {
+      "start": 433.039,
+      "duration": 4,
+      "text": "with some specific rules and a change in"
+    },
+    {
+      "start": 435.039,
+      "duration": 3.681,
+      "text": "the process that would ensure the UI was"
+    },
+    {
+      "start": 437.039,
+      "duration": 3.44,
+      "text": "always correct. Now, this had nothing to"
+    },
+    {
+      "start": 438.72,
+      "duration": 3.759,
+      "text": "do with the tests because they're always"
+    },
+    {
+      "start": 440.479,
+      "duration": 4,
+      "text": "going to run. The prompt we used for the"
+    },
+    {
+      "start": 442.479,
+      "duration": 3.921,
+      "text": "command pallet is really helpful when"
+    },
+    {
+      "start": 444.479,
+      "duration": 3.761,
+      "text": "the feature or implementation is very"
+    },
+    {
+      "start": 446.4,
+      "duration": 3.6,
+      "text": "large where Claude doesn't hallucinate"
+    },
+    {
+      "start": 448.24,
+      "duration": 4.079,
+      "text": "that it has completed the task, but"
+    },
+    {
+      "start": 450,
+      "duration": 4.16,
+      "text": "instead due to a full context window or"
+    },
+    {
+      "start": 452.319,
+      "duration": 3.681,
+      "text": "the complexity of the task, it quits"
+    },
+    {
+      "start": 454.16,
+      "duration": 3.36,
+      "text": "abruptly. Now, Claude code is already"
+    },
+    {
+      "start": 456,
+      "duration": 3.199,
+      "text": "really autonomous. There's no doubt"
+    },
+    {
+      "start": 457.52,
+      "duration": 3.76,
+      "text": "about that. But there are still issues"
+    },
+    {
+      "start": 459.199,
+      "duration": 3.761,
+      "text": "like this that we need to fix. So, we"
+    },
+    {
+      "start": 461.28,
+      "duration": 3.52,
+      "text": "changed a number of things in the main"
+    },
+    {
+      "start": 462.96,
+      "duration": 4.079,
+      "text": "prompt. The first was the screenshot"
+    },
+    {
+      "start": 464.8,
+      "duration": 4.32,
+      "text": "verification protocol. We added a simple"
+    },
+    {
+      "start": 467.039,
+      "duration": 3.761,
+      "text": "prefix to each image that told Claude"
+    },
+    {
+      "start": 469.12,
+      "duration": 3.68,
+      "text": "whether it had read the screenshot or"
+    },
+    {
+      "start": 470.8,
+      "duration": 4.079,
+      "text": "not. But when I first implemented this,"
+    },
+    {
+      "start": 472.8,
+      "duration": 4.16,
+      "text": "it still didn't read all of the images."
+    },
+    {
+      "start": 474.879,
+      "duration": 3.841,
+      "text": "It would read a few, write verified on"
+    },
+    {
+      "start": 476.96,
+      "duration": 3.679,
+      "text": "top of them, and just like before, it"
+    },
+    {
+      "start": 478.72,
+      "duration": 3.52,
+      "text": "would quit early. So to solve this, we"
+    },
+    {
+      "start": 480.639,
+      "duration": 3.601,
+      "text": "encouraged it to think in a different"
+    },
+    {
+      "start": 482.24,
+      "duration": 3.6,
+      "text": "way. We told it that after it renamed"
+    },
+    {
+      "start": 484.24,
+      "duration": 3.2,
+      "text": "all the screenshots, it should not"
+    },
+    {
+      "start": 485.84,
+      "duration": 3.28,
+      "text": "output the promise yet, meaning it"
+    },
+    {
+      "start": 487.44,
+      "duration": 3.28,
+      "text": "should not consider the task completed"
+    },
+    {
+      "start": 489.12,
+      "duration": 3.519,
+      "text": "and it should let the next iteration"
+    },
+    {
+      "start": 490.72,
+      "duration": 3.759,
+      "text": "confirm completion. So at least two"
+    },
+    {
+      "start": 492.639,
+      "duration": 3.521,
+      "text": "loops should run. What happens in the"
+    },
+    {
+      "start": 494.479,
+      "duration": 3.84,
+      "text": "next verification is that Claude"
+    },
+    {
+      "start": 496.16,
+      "duration": 4.159,
+      "text": "verifies all the files have the verified"
+    },
+    {
+      "start": 498.319,
+      "duration": 4.081,
+      "text": "prefix. Of course, this meant we had to"
+    },
+    {
+      "start": 500.319,
+      "duration": 4.16,
+      "text": "change the tests and separate the image"
+    },
+    {
+      "start": 502.4,
+      "duration": 4,
+      "text": "verification from the functional tests."
+    },
+    {
+      "start": 504.479,
+      "duration": 4.16,
+      "text": "The next iteration makes sure that all"
+    },
+    {
+      "start": 506.4,
+      "duration": 4,
+      "text": "the images have verified results. And if"
+    },
+    {
+      "start": 508.639,
+      "duration": 3.601,
+      "text": "Claude misses any, it looks at them"
+    },
+    {
+      "start": 510.4,
+      "duration": 4.319,
+      "text": "again and fixes the output. [snorts]"
+    },
+    {
+      "start": 512.24,
+      "duration": 4.479,
+      "text": "With this change, the small UI errors we"
+    },
+    {
+      "start": 514.719,
+      "duration": 3.68,
+      "text": "were facing were finally fixed and it"
+    },
+    {
+      "start": 516.719,
+      "duration": 3.521,
+      "text": "was able to implement all of these"
+    },
+    {
+      "start": 518.399,
+      "duration": 3.841,
+      "text": "features correctly. So, when it entered"
+    },
+    {
+      "start": 520.24,
+      "duration": 3.919,
+      "text": "the next loop, it ran the tests again."
+    },
+    {
+      "start": 522.24,
+      "duration": 3.92,
+      "text": "Since it found some errors, it fixed"
+    },
+    {
+      "start": 524.159,
+      "duration": 4.561,
+      "text": "them. And because all the files had the"
+    },
+    {
+      "start": 526.16,
+      "duration": 4.64,
+      "text": "word verified in them, it ran one final"
+    },
+    {
+      "start": 528.72,
+      "duration": 4.4,
+      "text": "test. This time, it completed its task"
+    },
+    {
+      "start": 530.8,
+      "duration": 4.341,
+      "text": "in two loops and was able to fix all the"
+    },
+    {
+      "start": 533.12,
+      "duration": 3.76,
+      "text": "major UI errors in the app. Let's"
+    },
+    {
+      "start": 535.141,
+      "duration": 3.499,
+      "text": "[snorts] talk about Automator now. After"
+    },
+    {
+      "start": 536.88,
+      "duration": 4,
+      "text": "teaching millions of people how to build"
+    },
+    {
+      "start": 538.64,
+      "duration": 4.24,
+      "text": "with AI, we started implementing these"
+    },
+    {
+      "start": 540.88,
+      "duration": 3.92,
+      "text": "workflows ourselves. We discovered we"
+    },
+    {
+      "start": 542.88,
+      "duration": 4.079,
+      "text": "could build better products faster than"
+    },
+    {
+      "start": 544.8,
+      "duration": 4.159,
+      "text": "ever before. We help bring your ideas to"
+    },
+    {
+      "start": 546.959,
+      "duration": 3.44,
+      "text": "life, whether it's apps or websites."
+    },
+    {
+      "start": 548.959,
+      "duration": 3.44,
+      "text": "Maybe you've watched our videos"
+    },
+    {
+      "start": 550.399,
+      "duration": 3.521,
+      "text": "thinking, \"I have a great idea, but I"
+    },
+    {
+      "start": 552.399,
+      "duration": 3.201,
+      "text": "don't have a tech team to build it.\""
+    },
+    {
+      "start": 553.92,
+      "duration": 4.08,
+      "text": "That's exactly where we come in. Think"
+    },
+    {
+      "start": 555.6,
+      "duration": 4.56,
+      "text": "of us as your technical co-pilot. We"
+    },
+    {
+      "start": 558,
+      "duration": 4,
+      "text": "apply the same workflows we've taught"
+    },
+    {
+      "start": 560.16,
+      "duration": 4,
+      "text": "millions directly to your project,"
+    },
+    {
+      "start": 562,
+      "duration": 3.92,
+      "text": "turning concepts into real working"
+    },
+    {
+      "start": 564.16,
+      "duration": 4,
+      "text": "solutions without the headaches of"
+    },
+    {
+      "start": 565.92,
+      "duration": 4.56,
+      "text": "hiring or managing a dev team. Ready to"
+    },
+    {
+      "start": 568.16,
+      "duration": 4.799,
+      "text": "accelerate your idea into reality? Reach"
+    },
+    {
+      "start": 570.48,
+      "duration": 4.24,
+      "text": "out at hello@automator.dev."
+    },
+    {
+      "start": 572.959,
+      "duration": 3.841,
+      "text": "If you'd like to support the channel and"
+    },
+    {
+      "start": 574.72,
+      "duration": 4,
+      "text": "help us keep making videos like this,"
+    },
+    {
+      "start": 576.8,
+      "duration": 4.56,
+      "text": "you can do so by using the super thanks"
+    },
+    {
+      "start": 578.72,
+      "duration": 2.64,
+      "text": "button below."
+    }
+  ],
+  "fullText": "Most of you already know Shad CN as one of the most widely used UI libraries, but using an AI agent to build with it can be problematic. If you're building oneshot landing pages, you won't have a huge problem. But if you're building a new app or implementing a new feature, things break and they break other parts of the app as well. But this isn't anything new. This problem has already been solved and it's how engineers build apps. Now, AI agents always test the code that they write, but these agents become unreliable with large contexts. Therefore, we need a way to ensure that agents complete the work they're given. This is where the concept of agentic loops comes in. And anthropic solves this by using the Ralph loop. To solve my UI problem, I tried to implement the Ralph loop. And at first, it completely failed. But I soon learned that it wasn't because of the Ralph loop. It was because of the process I had implemented with it. So, Ralph is actually a new plug-in that has been released by Anthropic themselves. But this wasn't one of their original ideas. It's based on a technique by someone else and Anthropic implemented and open sourced it. Basically, Ralph is a loop and if you know about Claude code hooks, it uses these stop hooks which run when Claude stops outputting an answer. As soon as it stops, the AI agent is fed its initial prompt file again and this allows it to iteratively improve its work. Now, here's the important question. When does it actually break out of the loop? There's something called a completion promise, which can be any word you input. When Claude feels like its task is completed, it outputs this promise by itself. For example, in this case, the promise is the word complete. If the promise is in the return prompt, then the loop doesn't run again. So, until Claude outputs a promise, it doesn't stop. This makes sure that Claude doesn't just quit whenever it wants. After you install the plugin, you'll have three commands. The Ralph loop command, a cancel command, and a help command. In the loop command, you need to provide the prompt that is fed to the agent again and again. Sometimes it may get an impossible task that it's not able to solve, and it might get stuck in an infinite loop. So setting a max iteration count is a really good practice. I will leave the link to the repo below because they have some good best practices for the prompts you can give to the Ralph loop. But in this video, I'm only going to discuss the ones related to the UI workflow that I'm going to show you. So let's say we want to implement two features in this app. One is a command pallet where we add a menu to search through our app and execute other commands. To make sure that this new feature doesn't break other parts of the app, you would start with the tests. This is called test-driven development. If you're not familiar with this, you can ask Claude Code to set up the TDD structure for you where it creates an end-to-end test folder, a screenshots folder to check for UI problems and the corresponding test as well. The other feature we're going to implement is a board view in the database, similar to what notion allows us to do with their databases. If you've caught on, testdriven development is an approach where tests are written before the code is implemented. But this means that the initial tests will always fail. So if I'm implementing the command pallet feature, I wouldn't just start writing the code for it. Instead, I would first write elaborate tests for it. Then we write the minimum amount of code required to pass those tests. Once that's done, we refactor and add more functionality. And with every addition, we make sure the tests still pass. Another interesting thing is that these tests are automated and playright can be imported and used for visual verification. If you think that we're using the Playright MCP to autonomously verify this through the browser, you're wrong. With TDD, for each functional behavior, you can take screenshots. For example, if the functional behavior is adding a card, then the screenshot would show a card added into the board. So now, all the AI agent has to do is look at those screenshots and make sure there are no problems in the way that these Shad CNN components have been implemented. These test files ensure that whenever something new is added or while a feature is being built, all of our behavioral requirements are fulfilled. But in our case, we want to use the screenshots purely for UI verification. >> [snorts] >> But if we already have TDD, why do we need the Ralph loop? As I already stated, with larger tasks and context windows becoming nearly filled, these models abruptly quit their tasks and require constant human input. Therefore, I can have tests written beforehand for any type of function that I want, then use the loop to instruct it on what to do, and it can work autonomously. by telling it what workflow to follow and then giving it the condition for when it can output the promise it completes the task and exits the loop which in this case is when it passes all 25 unique tests. So [snorts] using the Ralph slash command I gave it a prompt so that it would iteratively build the command pallet feature. In the prompt we were basically telling it to implement the feature along with some basic requirements which aren't really important because the requirements can be found in the tests as well but we did outline the whole workflow. In that workflow, it was supposed to start by running the tests. It knows that the tests will fail and after that it needs to implement the components to make them pass. So that's the whole goal. Now, if this were a much broader task, chances are that when the context window fills up or claude gets confused, it will quit automatically. It will never output the completion promise. And since it never outputs the promise, the prompt will be fed back again and it will have to start all over, meaning it will iteratively keep working on it. But since this was a smaller task, it was actually able to implement everything in a single go, write out all the components, and make all of the tests pass. Now, after the tests pass, the workflow tells it to review all of the screenshots for the command pallet. These are screenshots taken at different stages to make sure that the UI, whether it's shad CN or any other component library you're using, is implemented correctly and that there aren't any minor issues. After that, it should run the tests again and make sure they still pass after the UI changes. Since all of the tests were passing and the screenshots were reviewed, it output the completion promise. This is where the loop stopped and didn't continue again. But there was a really big problem with this which I didn't notice in the command pallet feature because there were very few chances of UI errors there. However, when I moved on to implementing the board view, I realized there was a huge mistake in the system. I started [snorts] by implementing the board with the same prompt. The requirements were different, of course, but the workflow was pretty much the same. Now, I was kind of surprised when it completed all of the requirements in one go. Don't get me wrong, it was actually making sure that all of the tests were passing. But while it was doing that, there were cases where the number of successful tests would actually decrease because by changing something, it would break something else. And this is why TDD is actually really important because of this recursive testing and making sure that everything works. But the main problem was that after it had verified that it was done and I went ahead and checked the UI. Most of the things were implemented correctly but it had completely missed some UI errors such as this one. I also checked the screenshots and the errors were showing up in those screenshots as well. So I asked it and we analyzed what actually went wrong. The real issue was a process failure specifically in terms of fixing the UI. What happened was that it did pass all of the tests because it was supposed to run the test files again and again, but there was no specific test for the UI other than the screenshots. It glanced at a few of them and it even ignored some of the UI errors that it had seen. Some files were completely ignored. So, the main issue was that it output its promise statement prematurely and didn't verify whether the UI was actually fixed. We went through a whole brainstorming session on how we could fix this and I even gave the prompt writing best practices from the repo to claude code. But in the end, we came up with some specific rules and a change in the process that would ensure the UI was always correct. Now, this had nothing to do with the tests because they're always going to run. The prompt we used for the command pallet is really helpful when the feature or implementation is very large where Claude doesn't hallucinate that it has completed the task, but instead due to a full context window or the complexity of the task, it quits abruptly. Now, Claude code is already really autonomous. There's no doubt about that. But there are still issues like this that we need to fix. So, we changed a number of things in the main prompt. The first was the screenshot verification protocol. We added a simple prefix to each image that told Claude whether it had read the screenshot or not. But when I first implemented this, it still didn't read all of the images. It would read a few, write verified on top of them, and just like before, it would quit early. So to solve this, we encouraged it to think in a different way. We told it that after it renamed all the screenshots, it should not output the promise yet, meaning it should not consider the task completed and it should let the next iteration confirm completion. So at least two loops should run. What happens in the next verification is that Claude verifies all the files have the verified prefix. Of course, this meant we had to change the tests and separate the image verification from the functional tests. The next iteration makes sure that all the images have verified results. And if Claude misses any, it looks at them again and fixes the output. [snorts] With this change, the small UI errors we were facing were finally fixed and it was able to implement all of these features correctly. So, when it entered the next loop, it ran the tests again. Since it found some errors, it fixed them. And because all the files had the word verified in them, it ran one final test. This time, it completed its task in two loops and was able to fix all the major UI errors in the app. Let's [snorts] talk about Automator now. After teaching millions of people how to build with AI, we started implementing these workflows ourselves. We discovered we could build better products faster than ever before. We help bring your ideas to life, whether it's apps or websites. Maybe you've watched our videos thinking, \"I have a great idea, but I don't have a tech team to build it.\" That's exactly where we come in. Think of us as your technical co-pilot. We apply the same workflows we've taught millions directly to your project, turning concepts into real working solutions without the headaches of hiring or managing a dev team. Ready to accelerate your idea into reality? Reach out at hello@automator.dev. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below.",
+  "fetchedAt": "2026-01-18T18:32:37.020Z"
+}

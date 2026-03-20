@@ -1,0 +1,874 @@
+{
+  "videoId": "A-ZScvLMd-U",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.04,
+      "text": "In this quick video, we're going to talk"
+    },
+    {
+      "start": 1.12,
+      "duration": 4.159,
+      "text": "about agent skills recently released by"
+    },
+    {
+      "start": 3.04,
+      "duration": 3.839,
+      "text": "Anthropic for Claude Claude Code and"
+    },
+    {
+      "start": 5.279,
+      "duration": 4.161,
+      "text": "Claude in the API. And this is"
+    },
+    {
+      "start": 6.879,
+      "duration": 4.241,
+      "text": "potentially a huge fix to the MCP, the"
+    },
+    {
+      "start": 9.44,
+      "duration": 3.76,
+      "text": "model context protocol. It doesn't"
+    },
+    {
+      "start": 11.12,
+      "duration": 4.24,
+      "text": "necessarily fix the rate limits, but if"
+    },
+    {
+      "start": 13.2,
+      "duration": 4.159,
+      "text": "this pans out how I expect it to, it"
+    },
+    {
+      "start": 15.36,
+      "duration": 3.04,
+      "text": "will greatly reduce token usage, and"
+    },
+    {
+      "start": 17.359,
+      "duration": 3.041,
+      "text": "we're going to get into that right now."
+    },
+    {
+      "start": 18.4,
+      "duration": 3.6,
+      "text": "So, anthropic release agent skills, the"
+    },
+    {
+      "start": 20.4,
+      "duration": 3.2,
+      "text": "best way I can explain this is"
+    },
+    {
+      "start": 22,
+      "duration": 4,
+      "text": "essentially custom instructions for"
+    },
+    {
+      "start": 23.6,
+      "duration": 4.56,
+      "text": "specific tasks. And skills is"
+    },
+    {
+      "start": 26,
+      "duration": 3.599,
+      "text": "essentially a directory, a folder with a"
+    },
+    {
+      "start": 28.16,
+      "duration": 3.119,
+      "text": "markdown file where you explain what the"
+    },
+    {
+      "start": 29.599,
+      "duration": 4.001,
+      "text": "skills are and you can add subsequent"
+    },
+    {
+      "start": 31.279,
+      "duration": 4.001,
+      "text": "markdown files and examples and"
+    },
+    {
+      "start": 33.6,
+      "duration": 3.84,
+      "text": "executable scripts, but the whole"
+    },
+    {
+      "start": 35.28,
+      "duration": 3.68,
+      "text": "package of your specific skill isn't fed"
+    },
+    {
+      "start": 37.44,
+      "duration": 3.6,
+      "text": "into Claude's context window right off"
+    },
+    {
+      "start": 38.96,
+      "duration": 4.4,
+      "text": "the bat. And this is because of the"
+    },
+    {
+      "start": 41.04,
+      "duration": 4.96,
+      "text": "anatomy of a skill. It essentially uses"
+    },
+    {
+      "start": 43.36,
+      "duration": 4.719,
+      "text": "progressive disclosure which exposes to"
+    },
+    {
+      "start": 46,
+      "duration": 4.399,
+      "text": "Claude the name of the tool, a short"
+    },
+    {
+      "start": 48.079,
+      "duration": 4.32,
+      "text": "description, and how to use it. And"
+    },
+    {
+      "start": 50.399,
+      "duration": 4.401,
+      "text": "Claude could choose to dig deeper into"
+    },
+    {
+      "start": 52.399,
+      "duration": 4.48,
+      "text": "that skill and its specific tools and"
+    },
+    {
+      "start": 54.8,
+      "duration": 3.68,
+      "text": "its code if it needs to. Progressive"
+    },
+    {
+      "start": 56.879,
+      "duration": 3.601,
+      "text": "disclosure is the core design principle"
+    },
+    {
+      "start": 58.48,
+      "duration": 3.919,
+      "text": "that makes agent skills flexible and"
+    },
+    {
+      "start": 60.48,
+      "duration": 3.44,
+      "text": "scalable. Like a wellorganized manual"
+    },
+    {
+      "start": 62.399,
+      "duration": 3.521,
+      "text": "that starts with a table of contents,"
+    },
+    {
+      "start": 63.92,
+      "duration": 4.08,
+      "text": "then specific chapters, and finally a"
+    },
+    {
+      "start": 65.92,
+      "duration": 3.6,
+      "text": "detailed appendix, skills like cloud"
+    },
+    {
+      "start": 68,
+      "duration": 2.88,
+      "text": "loan information only as needed. One of"
+    },
+    {
+      "start": 69.52,
+      "duration": 4,
+      "text": "the biggest problems with MCB is either"
+    },
+    {
+      "start": 70.88,
+      "duration": 4.72,
+      "text": "an MCB server will have tons of tools or"
+    },
+    {
+      "start": 73.52,
+      "duration": 3.52,
+      "text": "very long tool descriptions. And I've"
+    },
+    {
+      "start": 75.6,
+      "duration": 3.36,
+      "text": "shown this plenty of times in my other"
+    },
+    {
+      "start": 77.04,
+      "duration": 3.36,
+      "text": "videos with Claude Code where we can see"
+    },
+    {
+      "start": 78.96,
+      "duration": 3.199,
+      "text": "how the context window is already filled"
+    },
+    {
+      "start": 80.4,
+      "duration": 3.92,
+      "text": "up before we start a conversation. So,"
+    },
+    {
+      "start": 82.159,
+      "duration": 3.521,
+      "text": "introducing agent skills. Claude can now"
+    },
+    {
+      "start": 84.32,
+      "duration": 3.839,
+      "text": "use skills to improve how it performs"
+    },
+    {
+      "start": 85.68,
+      "duration": 4.24,
+      "text": "specific tasks. Skills are folders that"
+    },
+    {
+      "start": 88.159,
+      "duration": 3.521,
+      "text": "include instructions, scripts, and"
+    },
+    {
+      "start": 89.92,
+      "duration": 3.839,
+      "text": "resources that Claude can load when"
+    },
+    {
+      "start": 91.68,
+      "duration": 3.759,
+      "text": "needed. Claude will only access a skill"
+    },
+    {
+      "start": 93.759,
+      "duration": 3.68,
+      "text": "when it's relevant to the task at hand."
+    },
+    {
+      "start": 95.439,
+      "duration": 3.761,
+      "text": "When used, skills make Claude better at"
+    },
+    {
+      "start": 97.439,
+      "duration": 3.761,
+      "text": "specialized tasks like working with"
+    },
+    {
+      "start": 99.2,
+      "duration": 3.68,
+      "text": "Excel or following your organization's"
+    },
+    {
+      "start": 101.2,
+      "duration": 3.76,
+      "text": "brand guidelines. While working on"
+    },
+    {
+      "start": 102.88,
+      "duration": 3.919,
+      "text": "tasks, Claude scans available skills to"
+    },
+    {
+      "start": 104.96,
+      "duration": 3.519,
+      "text": "find relevant matches. When one matches,"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.36,
+      "text": "it only loads the minimal information"
+    },
+    {
+      "start": 108.479,
+      "duration": 4.721,
+      "text": "and files needed. You can load this into"
+    },
+    {
+      "start": 110.159,
+      "duration": 4.721,
+      "text": "claw.ai or claw desktop by uploading a"
+    },
+    {
+      "start": 113.2,
+      "duration": 3.599,
+      "text": "zip file. The way you do that is you go"
+    },
+    {
+      "start": 114.88,
+      "duration": 4.48,
+      "text": "to claude settings, you go down to"
+    },
+    {
+      "start": 116.799,
+      "duration": 4.96,
+      "text": "capabilities, and you scroll down to"
+    },
+    {
+      "start": 119.36,
+      "duration": 4.399,
+      "text": "skills. It's in preview. Anyone on a"
+    },
+    {
+      "start": 121.759,
+      "duration": 3.521,
+      "text": "paid plan, that means pro or max can use"
+    },
+    {
+      "start": 123.759,
+      "duration": 3.04,
+      "text": "it right now. And it came with these"
+    },
+    {
+      "start": 125.28,
+      "duration": 3.92,
+      "text": "example skills. I've been playing with"
+    },
+    {
+      "start": 126.799,
+      "duration": 4.721,
+      "text": "the algorithmic art, the artifacts"
+    },
+    {
+      "start": 129.2,
+      "duration": 4.08,
+      "text": "builder, the MCP builder, and the skill"
+    },
+    {
+      "start": 131.52,
+      "duration": 4,
+      "text": "creator. So that means you can actually"
+    },
+    {
+      "start": 133.28,
+      "duration": 4.16,
+      "text": "have Claude help you build skills. It's"
+    },
+    {
+      "start": 135.52,
+      "duration": 3.359,
+      "text": "very meta, very cool. And once you build"
+    },
+    {
+      "start": 137.44,
+      "duration": 3.84,
+      "text": "your own skill or you download the"
+    },
+    {
+      "start": 138.879,
+      "duration": 4.401,
+      "text": "skill, you upload it via the same"
+    },
+    {
+      "start": 141.28,
+      "duration": 4.16,
+      "text": "settings panel. Just upload skill, but"
+    },
+    {
+      "start": 143.28,
+      "duration": 4.08,
+      "text": "it's very easy, much easier to build"
+    },
+    {
+      "start": 145.44,
+      "duration": 4.96,
+      "text": "than MCP servers. In my opinion, this is"
+    },
+    {
+      "start": 147.36,
+      "duration": 4.239,
+      "text": "MCP 2.0 because it complements where MCP"
+    },
+    {
+      "start": 150.4,
+      "duration": 2.88,
+      "text": "fails, where we've learned seem to be"
+    },
+    {
+      "start": 151.599,
+      "duration": 3.36,
+      "text": "the pitfalls of MCP, and this comes in"
+    },
+    {
+      "start": 153.28,
+      "duration": 3.52,
+      "text": "and fixes it. On top of that, skills"
+    },
+    {
+      "start": 154.959,
+      "duration": 3.441,
+      "text": "could also run code outside of your"
+    },
+    {
+      "start": 156.8,
+      "duration": 3.2,
+      "text": "context window on the same virtual"
+    },
+    {
+      "start": 158.4,
+      "duration": 3.36,
+      "text": "machine that Claude is running. So"
+    },
+    {
+      "start": 160,
+      "duration": 3.28,
+      "text": "that's very very cool. Take a look at"
+    },
+    {
+      "start": 161.76,
+      "duration": 2.8,
+      "text": "this. This is where they break down how"
+    },
+    {
+      "start": 163.28,
+      "duration": 2.88,
+      "text": "it works. Basically, you have your"
+    },
+    {
+      "start": 164.56,
+      "duration": 4.24,
+      "text": "system prompt. You have the skills you"
+    },
+    {
+      "start": 166.16,
+      "duration": 5.28,
+      "text": "equipped. You have the MCPs you added"
+    },
+    {
+      "start": 168.8,
+      "duration": 4.56,
+      "text": "and it can use bash command, run Python,"
+    },
+    {
+      "start": 171.44,
+      "duration": 4,
+      "text": "Node.js, and then it has the file system"
+    },
+    {
+      "start": 173.36,
+      "duration": 4.239,
+      "text": "where the skills are hosted. It sees a"
+    },
+    {
+      "start": 175.44,
+      "duration": 4.159,
+      "text": "skill MD. And if you use cloud code,"
+    },
+    {
+      "start": 177.599,
+      "duration": 4.481,
+      "text": "this is kind of like the cloud.MD file,"
+    },
+    {
+      "start": 179.599,
+      "duration": 4.401,
+      "text": "just a markdown file that breaks down"
+    },
+    {
+      "start": 182.08,
+      "duration": 4.079,
+      "text": "how to do specific tasks. You start with"
+    },
+    {
+      "start": 184,
+      "duration": 3.599,
+      "text": "a bit of YAML, you give it the name, the"
+    },
+    {
+      "start": 186.159,
+      "duration": 2.641,
+      "text": "description, and then under that you"
+    },
+    {
+      "start": 187.599,
+      "duration": 2.321,
+      "text": "have the markdown. You talk about what"
+    },
+    {
+      "start": 188.8,
+      "duration": 4.4,
+      "text": "it's supposed to do. So it has the"
+    },
+    {
+      "start": 189.92,
+      "duration": 4.88,
+      "text": "overview and the code or the tools. Now,"
+    },
+    {
+      "start": 193.2,
+      "duration": 3.84,
+      "text": "one thing that's really cool about it is"
+    },
+    {
+      "start": 194.8,
+      "duration": 3.68,
+      "text": "if your initial skill.md isn't enough,"
+    },
+    {
+      "start": 197.04,
+      "duration": 2.8,
+      "text": "you could give it additional context. So"
+    },
+    {
+      "start": 198.48,
+      "duration": 3.36,
+      "text": "here they give you example where they"
+    },
+    {
+      "start": 199.84,
+      "duration": 3.679,
+      "text": "add another file, the reference.md and"
+    },
+    {
+      "start": 201.84,
+      "duration": 3.52,
+      "text": "the forms.md. So this is in their"
+    },
+    {
+      "start": 203.519,
+      "duration": 3.601,
+      "text": "example of referencing this PDF skill."
+    },
+    {
+      "start": 205.36,
+      "duration": 3.12,
+      "text": "And what's also really awesome about it"
+    },
+    {
+      "start": 207.12,
+      "duration": 3.039,
+      "text": "is that you can also upload it to"
+    },
+    {
+      "start": 208.48,
+      "duration": 3.119,
+      "text": "plugins. So if you saw the other video I"
+    },
+    {
+      "start": 210.159,
+      "duration": 3.521,
+      "text": "did the other day on plugins where you"
+    },
+    {
+      "start": 211.599,
+      "duration": 4.321,
+      "text": "can share slash commands and sub agents"
+    },
+    {
+      "start": 213.68,
+      "duration": 4,
+      "text": "and hooks and MCB servers skills will"
+    },
+    {
+      "start": 215.92,
+      "duration": 3.92,
+      "text": "also be sharable. So again the biggest"
+    },
+    {
+      "start": 217.68,
+      "duration": 4.88,
+      "text": "thing here is we're not loading all of"
+    },
+    {
+      "start": 219.84,
+      "duration": 4.72,
+      "text": "it into context. Claude should only look"
+    },
+    {
+      "start": 222.56,
+      "duration": 4.08,
+      "text": "at the tools or only look at the skills"
+    },
+    {
+      "start": 224.56,
+      "duration": 3.92,
+      "text": "if they need it and only dig deeper if"
+    },
+    {
+      "start": 226.64,
+      "duration": 3.599,
+      "text": "it finds it necessary. And I think this"
+    },
+    {
+      "start": 228.48,
+      "duration": 4.08,
+      "text": "is the natural progression and the"
+    },
+    {
+      "start": 230.239,
+      "duration": 4.801,
+      "text": "natural fix to MCP. And I challenge"
+    },
+    {
+      "start": 232.56,
+      "duration": 4.8,
+      "text": "anybody that's building MCP to build an"
+    },
+    {
+      "start": 235.04,
+      "duration": 4.08,
+      "text": "MCB server and a skill side by side and"
+    },
+    {
+      "start": 237.36,
+      "duration": 3.519,
+      "text": "give the minimal tool description in the"
+    },
+    {
+      "start": 239.12,
+      "duration": 4.72,
+      "text": "MCP server itself and then follow the"
+    },
+    {
+      "start": 240.879,
+      "duration": 4.72,
+      "text": "instructions here to build proper skills"
+    },
+    {
+      "start": 243.84,
+      "duration": 3.36,
+      "text": "and give tool descriptions so that"
+    },
+    {
+      "start": 245.599,
+      "duration": 3.2,
+      "text": "Claude or Claude code will be able to"
+    },
+    {
+      "start": 247.2,
+      "duration": 3.119,
+      "text": "look at the MCB server and look back at"
+    },
+    {
+      "start": 248.799,
+      "duration": 3.841,
+      "text": "the skills and only take the necessary"
+    },
+    {
+      "start": 250.319,
+      "duration": 4.56,
+      "text": "information to use MCB server. And I'm"
+    },
+    {
+      "start": 252.64,
+      "duration": 5.52,
+      "text": "willing to bet that this will improve"
+    },
+    {
+      "start": 254.879,
+      "duration": 5.121,
+      "text": "the usage of MCP and cascade down to"
+    },
+    {
+      "start": 258.16,
+      "duration": 3.12,
+      "text": "improve our rate limit issues. And I"
+    },
+    {
+      "start": 260,
+      "duration": 3.759,
+      "text": "think for example about the Playright"
+    },
+    {
+      "start": 261.28,
+      "duration": 4.88,
+      "text": "MCP or the GitHub MCP which are great"
+    },
+    {
+      "start": 263.759,
+      "duration": 4.561,
+      "text": "MCP servers but have so many tools and"
+    },
+    {
+      "start": 266.16,
+      "duration": 3.84,
+      "text": "such detailed descriptions that when you"
+    },
+    {
+      "start": 268.32,
+      "duration": 3.599,
+      "text": "load them into an agent it fills up the"
+    },
+    {
+      "start": 270,
+      "duration": 4.16,
+      "text": "context window so fast that it pretty"
+    },
+    {
+      "start": 271.919,
+      "duration": 3.601,
+      "text": "much becomes unusable. So this seems to"
+    },
+    {
+      "start": 274.16,
+      "duration": 3.36,
+      "text": "be the solution when you're building a"
+    },
+    {
+      "start": 275.52,
+      "duration": 4,
+      "text": "skill. I definitely recommend looking at"
+    },
+    {
+      "start": 277.52,
+      "duration": 3.44,
+      "text": "the best practices for tool descriptions"
+    },
+    {
+      "start": 279.52,
+      "duration": 2.48,
+      "text": "because you don't want to be too vague"
+    },
+    {
+      "start": 280.96,
+      "duration": 3.12,
+      "text": "but you don't want to be too"
+    },
+    {
+      "start": 282,
+      "duration": 4.24,
+      "text": "descriptive. And what's really cool is"
+    },
+    {
+      "start": 284.08,
+      "duration": 3.679,
+      "text": "that because they gave us a skill that"
+    },
+    {
+      "start": 286.24,
+      "duration": 2.88,
+      "text": "builds skills, you shouldn't have to"
+    },
+    {
+      "start": 287.759,
+      "duration": 3.121,
+      "text": "worry about it too much. Now, it's been"
+    },
+    {
+      "start": 289.12,
+      "duration": 3.68,
+      "text": "almost a year since MCB came out, and"
+    },
+    {
+      "start": 290.88,
+      "duration": 3.52,
+      "text": "there's been thousands of MCP servers"
+    },
+    {
+      "start": 292.8,
+      "duration": 3.28,
+      "text": "that have since been released. Skills"
+    },
+    {
+      "start": 294.4,
+      "duration": 3.92,
+      "text": "seems like a more lightweight and even"
+    },
+    {
+      "start": 296.08,
+      "duration": 3.92,
+      "text": "improved approach to MCP, but the risks"
+    },
+    {
+      "start": 298.32,
+      "duration": 3.2,
+      "text": "remain the same. There's still the"
+    },
+    {
+      "start": 300,
+      "duration": 2.8,
+      "text": "chance of tool poisoning and prompt"
+    },
+    {
+      "start": 301.52,
+      "duration": 3.2,
+      "text": "injections. So, when you start"
+    },
+    {
+      "start": 302.8,
+      "duration": 3.28,
+      "text": "downloading other people's skills, I"
+    },
+    {
+      "start": 304.72,
+      "duration": 3.28,
+      "text": "definitely recommend looking through"
+    },
+    {
+      "start": 306.08,
+      "duration": 3.679,
+      "text": "them for any malicious code or malicious"
+    },
+    {
+      "start": 308,
+      "duration": 3.28,
+      "text": "instructions. There's a lot of good"
+    },
+    {
+      "start": 309.759,
+      "duration": 3.521,
+      "text": "documentation here. There's a lot to"
+    },
+    {
+      "start": 311.28,
+      "duration": 3.52,
+      "text": "learn from. They also have this GitHub"
+    },
+    {
+      "start": 313.28,
+      "duration": 3.28,
+      "text": "repository where they show you a bunch"
+    },
+    {
+      "start": 314.8,
+      "duration": 3.119,
+      "text": "of skills, kind of like the original MCP"
+    },
+    {
+      "start": 316.56,
+      "duration": 2.56,
+      "text": "reference servers. So, I definitely"
+    },
+    {
+      "start": 317.919,
+      "duration": 2.72,
+      "text": "recommend looking at how they build"
+    },
+    {
+      "start": 319.12,
+      "duration": 2.96,
+      "text": "this. So, I hope this video came out"
+    },
+    {
+      "start": 320.639,
+      "duration": 3.12,
+      "text": "short. I hope you found this video"
+    },
+    {
+      "start": 322.08,
+      "duration": 2.8,
+      "text": "helpful. If you haven't done so already,"
+    },
+    {
+      "start": 323.759,
+      "duration": 3.601,
+      "text": "subscribe to the channel. It really"
+    },
+    {
+      "start": 324.88,
+      "duration": 2.48,
+      "text": "helps me grow."
+    }
+  ],
+  "fullText": "In this quick video, we're going to talk about agent skills recently released by Anthropic for Claude Claude Code and Claude in the API. And this is potentially a huge fix to the MCP, the model context protocol. It doesn't necessarily fix the rate limits, but if this pans out how I expect it to, it will greatly reduce token usage, and we're going to get into that right now. So, anthropic release agent skills, the best way I can explain this is essentially custom instructions for specific tasks. And skills is essentially a directory, a folder with a markdown file where you explain what the skills are and you can add subsequent markdown files and examples and executable scripts, but the whole package of your specific skill isn't fed into Claude's context window right off the bat. And this is because of the anatomy of a skill. It essentially uses progressive disclosure which exposes to Claude the name of the tool, a short description, and how to use it. And Claude could choose to dig deeper into that skill and its specific tools and its code if it needs to. Progressive disclosure is the core design principle that makes agent skills flexible and scalable. Like a wellorganized manual that starts with a table of contents, then specific chapters, and finally a detailed appendix, skills like cloud loan information only as needed. One of the biggest problems with MCB is either an MCB server will have tons of tools or very long tool descriptions. And I've shown this plenty of times in my other videos with Claude Code where we can see how the context window is already filled up before we start a conversation. So, introducing agent skills. Claude can now use skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines. While working on tasks, Claude scans available skills to find relevant matches. When one matches, it only loads the minimal information and files needed. You can load this into claw.ai or claw desktop by uploading a zip file. The way you do that is you go to claude settings, you go down to capabilities, and you scroll down to skills. It's in preview. Anyone on a paid plan, that means pro or max can use it right now. And it came with these example skills. I've been playing with the algorithmic art, the artifacts builder, the MCP builder, and the skill creator. So that means you can actually have Claude help you build skills. It's very meta, very cool. And once you build your own skill or you download the skill, you upload it via the same settings panel. Just upload skill, but it's very easy, much easier to build than MCP servers. In my opinion, this is MCP 2.0 because it complements where MCP fails, where we've learned seem to be the pitfalls of MCP, and this comes in and fixes it. On top of that, skills could also run code outside of your context window on the same virtual machine that Claude is running. So that's very very cool. Take a look at this. This is where they break down how it works. Basically, you have your system prompt. You have the skills you equipped. You have the MCPs you added and it can use bash command, run Python, Node.js, and then it has the file system where the skills are hosted. It sees a skill MD. And if you use cloud code, this is kind of like the cloud.MD file, just a markdown file that breaks down how to do specific tasks. You start with a bit of YAML, you give it the name, the description, and then under that you have the markdown. You talk about what it's supposed to do. So it has the overview and the code or the tools. Now, one thing that's really cool about it is if your initial skill.md isn't enough, you could give it additional context. So here they give you example where they add another file, the reference.md and the forms.md. So this is in their example of referencing this PDF skill. And what's also really awesome about it is that you can also upload it to plugins. So if you saw the other video I did the other day on plugins where you can share slash commands and sub agents and hooks and MCB servers skills will also be sharable. So again the biggest thing here is we're not loading all of it into context. Claude should only look at the tools or only look at the skills if they need it and only dig deeper if it finds it necessary. And I think this is the natural progression and the natural fix to MCP. And I challenge anybody that's building MCP to build an MCB server and a skill side by side and give the minimal tool description in the MCP server itself and then follow the instructions here to build proper skills and give tool descriptions so that Claude or Claude code will be able to look at the MCB server and look back at the skills and only take the necessary information to use MCB server. And I'm willing to bet that this will improve the usage of MCP and cascade down to improve our rate limit issues. And I think for example about the Playright MCP or the GitHub MCP which are great MCP servers but have so many tools and such detailed descriptions that when you load them into an agent it fills up the context window so fast that it pretty much becomes unusable. So this seems to be the solution when you're building a skill. I definitely recommend looking at the best practices for tool descriptions because you don't want to be too vague but you don't want to be too descriptive. And what's really cool is that because they gave us a skill that builds skills, you shouldn't have to worry about it too much. Now, it's been almost a year since MCB came out, and there's been thousands of MCP servers that have since been released. Skills seems like a more lightweight and even improved approach to MCP, but the risks remain the same. There's still the chance of tool poisoning and prompt injections. So, when you start downloading other people's skills, I definitely recommend looking through them for any malicious code or malicious instructions. There's a lot of good documentation here. There's a lot to learn from. They also have this GitHub repository where they show you a bunch of skills, kind of like the original MCP reference servers. So, I definitely recommend looking at how they build this. So, I hope this video came out short. I hope you found this video helpful. If you haven't done so already, subscribe to the channel. It really helps me grow.",
+  "fetchedAt": "2026-01-18T18:32:10.844Z"
+}

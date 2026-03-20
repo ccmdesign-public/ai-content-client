@@ -1,0 +1,864 @@
+{
+  "videoId": "1WImBwiA7RA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 2.88,
+      "text": "Cloud just introduced this concept"
+    },
+    {
+      "start": 1.439,
+      "duration": 2.88,
+      "text": "called agent skills. It might look"
+    },
+    {
+      "start": 2.96,
+      "duration": 3.839,
+      "text": "complicated but it's actually really"
+    },
+    {
+      "start": 4.319,
+      "duration": 4.481,
+      "text": "simple ideas but super powerful and many"
+    },
+    {
+      "start": 6.799,
+      "duration": 3.84,
+      "text": "things that it might be even bigger than"
+    },
+    {
+      "start": 8.8,
+      "duration": 4.16,
+      "text": "MCP. So a cloud skill you can almost"
+    },
+    {
+      "start": 10.639,
+      "duration": 3.92,
+      "text": "consider as a combination of both a prom"
+    },
+    {
+      "start": 12.96,
+      "duration": 3.44,
+      "text": "instruction to teach agent how to do"
+    },
+    {
+      "start": 14.559,
+      "duration": 3.601,
+      "text": "certain skills as well as a list of"
+    },
+    {
+      "start": 16.4,
+      "duration": 3.92,
+      "text": "assets and tools like predefined"
+    },
+    {
+      "start": 18.16,
+      "duration": 3.92,
+      "text": "functions and templates guidelines to"
+    },
+    {
+      "start": 20.32,
+      "duration": 2.879,
+      "text": "make it produce more consistent result."
+    },
+    {
+      "start": 22.08,
+      "duration": 3.119,
+      "text": "But tool and assets are kind of"
+    },
+    {
+      "start": 23.199,
+      "duration": 3.84,
+      "text": "optional. It can be as simple as just"
+    },
+    {
+      "start": 25.199,
+      "duration": 3.92,
+      "text": "one single prompt as well. For example,"
+    },
+    {
+      "start": 27.039,
+      "duration": 3.921,
+      "text": "for brand guideline skill, literally"
+    },
+    {
+      "start": 29.119,
+      "duration": 3.681,
+      "text": "just one single prompt including very"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.92,
+      "text": "specific brand guidelines that you want"
+    },
+    {
+      "start": 32.8,
+      "duration": 4.64,
+      "text": "agent to follow. Same thing here. I also"
+    },
+    {
+      "start": 34.88,
+      "duration": 4.24,
+      "text": "have a UI design skills that just one"
+    },
+    {
+      "start": 37.44,
+      "duration": 4,
+      "text": "single prompt. So all the skills start"
+    },
+    {
+      "start": 39.12,
+      "duration": 4.24,
+      "text": "with a skill.md file including this"
+    },
+    {
+      "start": 41.44,
+      "duration": 3.52,
+      "text": "short description explain to agent when"
+    },
+    {
+      "start": 43.36,
+      "duration": 3.039,
+      "text": "to use this skill and this description"
+    },
+    {
+      "start": 44.96,
+      "duration": 3.119,
+      "text": "will always be added to the agent"
+    },
+    {
+      "start": 46.399,
+      "duration": 3.601,
+      "text": "context. So you will know what type of"
+    },
+    {
+      "start": 48.079,
+      "duration": 4,
+      "text": "skills it has access to and when agent"
+    },
+    {
+      "start": 50,
+      "duration": 4.399,
+      "text": "decide to call the skill this where the"
+    },
+    {
+      "start": 52.079,
+      "duration": 4,
+      "text": "rest of context below will be loaded. So"
+    },
+    {
+      "start": 54.399,
+      "duration": 3.921,
+      "text": "this part almost feel like cloud code"
+    },
+    {
+      "start": 56.079,
+      "duration": 4.081,
+      "text": "commands. So skill.mmd is the most"
+    },
+    {
+      "start": 58.32,
+      "duration": 3.68,
+      "text": "necessary part of skill. For more"
+    },
+    {
+      "start": 60.16,
+      "duration": 3.6,
+      "text": "complex skill you can also include more"
+    },
+    {
+      "start": 62,
+      "duration": 3.199,
+      "text": "resource. For example for this skill to"
+    },
+    {
+      "start": 63.76,
+      "duration": 3.2,
+      "text": "generate algorithm art. They also"
+    },
+    {
+      "start": 65.199,
+      "duration": 3.841,
+      "text": "include resource like example"
+    },
+    {
+      "start": 66.96,
+      "duration": 3.6,
+      "text": "implementation and get agent to raise"
+    },
+    {
+      "start": 69.04,
+      "duration": 3.119,
+      "text": "those example reference before they"
+    },
+    {
+      "start": 70.56,
+      "duration": 3.52,
+      "text": "implement to making sure we have more"
+    },
+    {
+      "start": 72.159,
+      "duration": 3.441,
+      "text": "consistent result. But more importantly"
+    },
+    {
+      "start": 74.08,
+      "duration": 3.28,
+      "text": "you can also include some predefined"
+    },
+    {
+      "start": 75.6,
+      "duration": 3.68,
+      "text": "functions like in this slack give"
+    },
+    {
+      "start": 77.36,
+      "duration": 3.84,
+      "text": "creator skill. They already import"
+    },
+    {
+      "start": 79.28,
+      "duration": 3.519,
+      "text": "packages and predefined functions and"
+    },
+    {
+      "start": 81.2,
+      "duration": 3.52,
+      "text": "the instruction here basically tell the"
+    },
+    {
+      "start": 82.799,
+      "duration": 3.68,
+      "text": "agent how to use those functions to"
+    },
+    {
+      "start": 84.72,
+      "duration": 3.439,
+      "text": "create a nice gift out of the box. And"
+    },
+    {
+      "start": 86.479,
+      "duration": 3.841,
+      "text": "here's why I think skills might be even"
+    },
+    {
+      "start": 88.159,
+      "duration": 4.481,
+      "text": "better than MCPS. So MCP has been"
+    },
+    {
+      "start": 90.32,
+      "duration": 4.72,
+      "text": "awesome way to extend agents capability"
+    },
+    {
+      "start": 92.64,
+      "duration": 3.76,
+      "text": "by connecting agent with new MCPS can"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.2,
+      "text": "suddenly do new things that it couldn't"
+    },
+    {
+      "start": 96.4,
+      "duration": 3.759,
+      "text": "do before. The problem is that MCP in"
+    },
+    {
+      "start": 98.24,
+      "duration": 3.76,
+      "text": "practical is not that easy to use."
+    },
+    {
+      "start": 100.159,
+      "duration": 3.6,
+      "text": "Firstly, MCP can consume a whole bunch"
+    },
+    {
+      "start": 102,
+      "duration": 4,
+      "text": "of token that is unnecessary because"
+    },
+    {
+      "start": 103.759,
+      "duration": 3.841,
+      "text": "each MCP can contain a bundle of"
+    },
+    {
+      "start": 106,
+      "duration": 3.2,
+      "text": "different tools and each tool here"
+    },
+    {
+      "start": 107.6,
+      "duration": 3.839,
+      "text": "including the description about when to"
+    },
+    {
+      "start": 109.2,
+      "duration": 4,
+      "text": "use this tool as well as input schema"
+    },
+    {
+      "start": 111.439,
+      "duration": 3.841,
+      "text": "and all those token will be loaded to"
+    },
+    {
+      "start": 113.2,
+      "duration": 4.08,
+      "text": "agent context regardless whether this is"
+    },
+    {
+      "start": 115.28,
+      "duration": 3.92,
+      "text": "useful or not and more importantly quite"
+    },
+    {
+      "start": 117.28,
+      "duration": 3.76,
+      "text": "often MCP builder will want to build the"
+    },
+    {
+      "start": 119.2,
+      "duration": 3.84,
+      "text": "tools in a more kind of modular way so"
+    },
+    {
+      "start": 121.04,
+      "duration": 4,
+      "text": "it's reusable and more composable but"
+    },
+    {
+      "start": 123.04,
+      "duration": 3.679,
+      "text": "that also means most of MCP is not"
+    },
+    {
+      "start": 125.04,
+      "duration": 3.199,
+      "text": "something you just connect and use you"
+    },
+    {
+      "start": 126.719,
+      "duration": 3.361,
+      "text": "want to give agent more detailed"
+    },
+    {
+      "start": 128.239,
+      "duration": 3.761,
+      "text": "instruction about the order of when to"
+    },
+    {
+      "start": 130.08,
+      "duration": 3.6,
+      "text": "use which tool and that may set up more"
+    },
+    {
+      "start": 132,
+      "duration": 3.44,
+      "text": "complicated. But on the other hand, the"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.68,
+      "text": "way skill is set up allow you to consume"
+    },
+    {
+      "start": 135.44,
+      "duration": 3.92,
+      "text": "much less token but perform much more"
+    },
+    {
+      "start": 137.36,
+      "duration": 4.4,
+      "text": "complicated tasks. Let's take chassis"
+    },
+    {
+      "start": 139.36,
+      "duration": 3.76,
+      "text": "and MCP as example. At default, it has"
+    },
+    {
+      "start": 141.76,
+      "duration": 3.6,
+      "text": "seven different tools for different"
+    },
+    {
+      "start": 143.12,
+      "duration": 4.72,
+      "text": "purpose. If I load the context, you will"
+    },
+    {
+      "start": 145.36,
+      "duration": 5.28,
+      "text": "see those chassis MCP tools already take"
+    },
+    {
+      "start": 147.84,
+      "duration": 4.8,
+      "text": "about 4.2,000 token. But you can imagine"
+    },
+    {
+      "start": 150.64,
+      "duration": 3.52,
+      "text": "if we turn that into a chassine skill,"
+    },
+    {
+      "start": 152.64,
+      "duration": 4.16,
+      "text": "we can probably reduce token from"
+    },
+    {
+      "start": 154.16,
+      "duration": 4.24,
+      "text": "4.2,000 to just 70. And that means your"
+    },
+    {
+      "start": 156.8,
+      "duration": 3.2,
+      "text": "agent can be equipped with many more"
+    },
+    {
+      "start": 158.4,
+      "duration": 4.08,
+      "text": "skills and it should just work out of"
+    },
+    {
+      "start": 160,
+      "duration": 4,
+      "text": "box because skill.md can already contain"
+    },
+    {
+      "start": 162.48,
+      "duration": 2.64,
+      "text": "all the referencing instructions. But"
+    },
+    {
+      "start": 164,
+      "duration": 4,
+      "text": "without further ado, let's show you"
+    },
+    {
+      "start": 165.12,
+      "duration": 4.399,
+      "text": "example. So here under docloud/sklls"
+    },
+    {
+      "start": 168,
+      "duration": 2.959,
+      "text": "we have loaded a list of different"
+    },
+    {
+      "start": 169.519,
+      "duration": 3.281,
+      "text": "skills and there's one skill called"
+    },
+    {
+      "start": 170.959,
+      "duration": 3.761,
+      "text": "slack gift creator which including the"
+    },
+    {
+      "start": 172.8,
+      "duration": 3.36,
+      "text": "description the four details about how"
+    },
+    {
+      "start": 174.72,
+      "duration": 3.92,
+      "text": "to create a gift as well as some"
+    },
+    {
+      "start": 176.16,
+      "duration": 4.48,
+      "text": "predefined functions. So if I ask it to"
+    },
+    {
+      "start": 178.64,
+      "duration": 3.44,
+      "text": "create a gift for my slack around daily"
+    },
+    {
+      "start": 180.64,
+      "duration": 3.36,
+      "text": "stand up time, you will see that it will"
+    },
+    {
+      "start": 182.08,
+      "duration": 3.68,
+      "text": "try to call this command slack give"
+    },
+    {
+      "start": 184,
+      "duration": 2.879,
+      "text": "creator with a custom prompt. As I"
+    },
+    {
+      "start": 185.76,
+      "duration": 2.559,
+      "text": "mentioned before, this skill is"
+    },
+    {
+      "start": 186.879,
+      "duration": 3.28,
+      "text": "basically reuse the command"
+    },
+    {
+      "start": 188.319,
+      "duration": 3.601,
+      "text": "infrastructure. If you click yes, it"
+    },
+    {
+      "start": 190.159,
+      "duration": 3.841,
+      "text": "will start loading all skills here. Then"
+    },
+    {
+      "start": 191.92,
+      "duration": 5.959,
+      "text": "it will create this Python code and run"
+    },
+    {
+      "start": 194,
+      "duration": 3.879,
+      "text": "this Python code which gener"
+    },
+    {
+      "start": 200.239,
+      "duration": 2.961,
+      "text": "pipeline by just improving those"
+    },
+    {
+      "start": 201.599,
+      "duration": 3.441,
+      "text": "predefined functions. There's another"
+    },
+    {
+      "start": 203.2,
+      "duration": 3.6,
+      "text": "skill called algorithm art. If I tell it"
+    },
+    {
+      "start": 205.04,
+      "duration": 3.68,
+      "text": "to help me create animated Zen style"
+    },
+    {
+      "start": 206.8,
+      "duration": 3.76,
+      "text": "mountain algorithm art again it recall"
+    },
+    {
+      "start": 208.72,
+      "duration": 3.92,
+      "text": "this command. It will firstly create MD"
+    },
+    {
+      "start": 210.56,
+      "duration": 4.239,
+      "text": "file to really design and plan the"
+    },
+    {
+      "start": 212.64,
+      "duration": 4.319,
+      "text": "artwork read the template file that we"
+    },
+    {
+      "start": 214.799,
+      "duration": 3.841,
+      "text": "defined here as example reference. Then"
+    },
+    {
+      "start": 216.959,
+      "duration": 3.84,
+      "text": "just generate this animated art using"
+    },
+    {
+      "start": 218.64,
+      "duration": 3.92,
+      "text": "p5GS. Meanwhile another really cool"
+    },
+    {
+      "start": 220.799,
+      "duration": 3.841,
+      "text": "thing about skill is that you can also"
+    },
+    {
+      "start": 222.56,
+      "duration": 4.16,
+      "text": "start using skill for your own codebase"
+    },
+    {
+      "start": 224.64,
+      "duration": 3.76,
+      "text": "as a way to make agent self-improving."
+    },
+    {
+      "start": 226.72,
+      "duration": 3.12,
+      "text": "So here's how I create skills for my own"
+    },
+    {
+      "start": 228.4,
+      "duration": 3.04,
+      "text": "codebase. So I'm building this cloud"
+    },
+    {
+      "start": 229.84,
+      "duration": 3.44,
+      "text": "platform for super design and we have"
+    },
+    {
+      "start": 231.44,
+      "duration": 3.439,
+      "text": "this fairly large motor ripple and what"
+    },
+    {
+      "start": 233.28,
+      "duration": 3.84,
+      "text": "I do is that I load a skill creator"
+    },
+    {
+      "start": 234.879,
+      "duration": 3.681,
+      "text": "skill inside cloud folder. So I can give"
+    },
+    {
+      "start": 237.12,
+      "duration": 2.96,
+      "text": "a prompt we have the front end in this"
+    },
+    {
+      "start": 238.56,
+      "duration": 3.12,
+      "text": "folder and also share package here."
+    },
+    {
+      "start": 240.08,
+      "duration": 3.12,
+      "text": "Please go investigate our current"
+    },
+    {
+      "start": 241.68,
+      "duration": 3.44,
+      "text": "convention and tell me what's the best"
+    },
+    {
+      "start": 243.2,
+      "duration": 3.2,
+      "text": "practice for adding new UI component."
+    },
+    {
+      "start": 245.12,
+      "duration": 2.88,
+      "text": "Great. So we did a quite deep"
+    },
+    {
+      "start": 246.4,
+      "duration": 3.039,
+      "text": "investigation and come back with the"
+    },
+    {
+      "start": 248,
+      "duration": 2.799,
+      "text": "convention. Now let's create skill"
+    },
+    {
+      "start": 249.439,
+      "duration": 2.641,
+      "text": "called front end including all the best"
+    },
+    {
+      "start": 250.799,
+      "duration": 3.36,
+      "text": "practice for front end implementation"
+    },
+    {
+      "start": 252.08,
+      "duration": 4.48,
+      "text": "for our codebase. Let's start with how"
+    },
+    {
+      "start": 254.159,
+      "duration": 4.48,
+      "text": "to add UI components. So it will try to"
+    },
+    {
+      "start": 256.56,
+      "duration": 3.679,
+      "text": "call the skill initiate skew front end"
+    },
+    {
+      "start": 258.639,
+      "duration": 3.44,
+      "text": "which will be created here include this"
+    },
+    {
+      "start": 260.239,
+      "duration": 3.361,
+      "text": "file that generates gener description"
+    },
+    {
+      "start": 262.079,
+      "duration": 3.12,
+      "text": "obviously you can update that also it"
+    },
+    {
+      "start": 263.6,
+      "duration": 3.599,
+      "text": "start including those best practice"
+    },
+    {
+      "start": 265.199,
+      "duration": 4.161,
+      "text": "about our front end UI implementation it"
+    },
+    {
+      "start": 267.199,
+      "duration": 4,
+      "text": "even create a further reference file for"
+    },
+    {
+      "start": 269.36,
+      "duration": 3.52,
+      "text": "the component guide as well as style"
+    },
+    {
+      "start": 271.199,
+      "duration": 3.041,
+      "text": "guide with this one next time if I ask"
+    },
+    {
+      "start": 272.88,
+      "duration": 2.64,
+      "text": "you to create new UI component like"
+    },
+    {
+      "start": 274.24,
+      "duration": 3.2,
+      "text": "let's create a new UI component for"
+    },
+    {
+      "start": 275.52,
+      "duration": 4,
+      "text": "emoji and image picker in our front end"
+    },
+    {
+      "start": 277.44,
+      "duration": 4.08,
+      "text": "it will firstly call the skills to get a"
+    },
+    {
+      "start": 279.52,
+      "duration": 3.36,
+      "text": "best practice and coding convention in"
+    },
+    {
+      "start": 281.52,
+      "duration": 3.04,
+      "text": "our codebase first and then start"
+    },
+    {
+      "start": 282.88,
+      "duration": 3.44,
+      "text": "building things properly following the"
+    },
+    {
+      "start": 284.56,
+      "duration": 4,
+      "text": "best practice So this how you can use"
+    },
+    {
+      "start": 286.32,
+      "duration": 3.92,
+      "text": "skill feature to really extend agent"
+    },
+    {
+      "start": 288.56,
+      "duration": 3.199,
+      "text": "capability and make it continuously"
+    },
+    {
+      "start": 290.24,
+      "duration": 3.04,
+      "text": "improving. I just started this ripple"
+    },
+    {
+      "start": 291.759,
+      "duration": 3.121,
+      "text": "called awesome cloud skills and moment"
+    },
+    {
+      "start": 293.28,
+      "duration": 3.6,
+      "text": "most of them is from official cloud but"
+    },
+    {
+      "start": 294.88,
+      "duration": 3.44,
+      "text": "I start adding some stuff like UI design"
+    },
+    {
+      "start": 296.88,
+      "duration": 2.879,
+      "text": "which including very specific prompt"
+    },
+    {
+      "start": 298.32,
+      "duration": 2.96,
+      "text": "I've been using and I'll keep adding new"
+    },
+    {
+      "start": 299.759,
+      "duration": 2.801,
+      "text": "stuff also feel free to contribute and"
+    },
+    {
+      "start": 301.28,
+      "duration": 3.199,
+      "text": "create PRs and meanwhile if you're"
+    },
+    {
+      "start": 302.56,
+      "duration": 3.76,
+      "text": "interested to dive into cloud skills"
+    },
+    {
+      "start": 304.479,
+      "duration": 3.921,
+      "text": "more I will dive a bit deeper in our"
+    },
+    {
+      "start": 306.32,
+      "duration": 3.52,
+      "text": "upcoming weekly workshop at AI builder"
+    },
+    {
+      "start": 308.4,
+      "duration": 2.88,
+      "text": "cup. So you can click on the link below"
+    },
+    {
+      "start": 309.84,
+      "duration": 2.799,
+      "text": "to join if you're interested. I hope you"
+    },
+    {
+      "start": 311.28,
+      "duration": 3.6,
+      "text": "enjoy this video. Thank you and I see"
+    },
+    {
+      "start": 312.639,
+      "duration": 2.241,
+      "text": "you next"
+    }
+  ],
+  "fullText": "Cloud just introduced this concept called agent skills. It might look complicated but it's actually really simple ideas but super powerful and many things that it might be even bigger than MCP. So a cloud skill you can almost consider as a combination of both a prom instruction to teach agent how to do certain skills as well as a list of assets and tools like predefined functions and templates guidelines to make it produce more consistent result. But tool and assets are kind of optional. It can be as simple as just one single prompt as well. For example, for brand guideline skill, literally just one single prompt including very specific brand guidelines that you want agent to follow. Same thing here. I also have a UI design skills that just one single prompt. So all the skills start with a skill.md file including this short description explain to agent when to use this skill and this description will always be added to the agent context. So you will know what type of skills it has access to and when agent decide to call the skill this where the rest of context below will be loaded. So this part almost feel like cloud code commands. So skill.mmd is the most necessary part of skill. For more complex skill you can also include more resource. For example for this skill to generate algorithm art. They also include resource like example implementation and get agent to raise those example reference before they implement to making sure we have more consistent result. But more importantly you can also include some predefined functions like in this slack give creator skill. They already import packages and predefined functions and the instruction here basically tell the agent how to use those functions to create a nice gift out of the box. And here's why I think skills might be even better than MCPS. So MCP has been awesome way to extend agents capability by connecting agent with new MCPS can suddenly do new things that it couldn't do before. The problem is that MCP in practical is not that easy to use. Firstly, MCP can consume a whole bunch of token that is unnecessary because each MCP can contain a bundle of different tools and each tool here including the description about when to use this tool as well as input schema and all those token will be loaded to agent context regardless whether this is useful or not and more importantly quite often MCP builder will want to build the tools in a more kind of modular way so it's reusable and more composable but that also means most of MCP is not something you just connect and use you want to give agent more detailed instruction about the order of when to use which tool and that may set up more complicated. But on the other hand, the way skill is set up allow you to consume much less token but perform much more complicated tasks. Let's take chassis and MCP as example. At default, it has seven different tools for different purpose. If I load the context, you will see those chassis MCP tools already take about 4.2,000 token. But you can imagine if we turn that into a chassine skill, we can probably reduce token from 4.2,000 to just 70. And that means your agent can be equipped with many more skills and it should just work out of box because skill.md can already contain all the referencing instructions. But without further ado, let's show you example. So here under docloud/sklls we have loaded a list of different skills and there's one skill called slack gift creator which including the description the four details about how to create a gift as well as some predefined functions. So if I ask it to create a gift for my slack around daily stand up time, you will see that it will try to call this command slack give creator with a custom prompt. As I mentioned before, this skill is basically reuse the command infrastructure. If you click yes, it will start loading all skills here. Then it will create this Python code and run this Python code which gener pipeline by just improving those predefined functions. There's another skill called algorithm art. If I tell it to help me create animated Zen style mountain algorithm art again it recall this command. It will firstly create MD file to really design and plan the artwork read the template file that we defined here as example reference. Then just generate this animated art using p5GS. Meanwhile another really cool thing about skill is that you can also start using skill for your own codebase as a way to make agent self-improving. So here's how I create skills for my own codebase. So I'm building this cloud platform for super design and we have this fairly large motor ripple and what I do is that I load a skill creator skill inside cloud folder. So I can give a prompt we have the front end in this folder and also share package here. Please go investigate our current convention and tell me what's the best practice for adding new UI component. Great. So we did a quite deep investigation and come back with the convention. Now let's create skill called front end including all the best practice for front end implementation for our codebase. Let's start with how to add UI components. So it will try to call the skill initiate skew front end which will be created here include this file that generates gener description obviously you can update that also it start including those best practice about our front end UI implementation it even create a further reference file for the component guide as well as style guide with this one next time if I ask you to create new UI component like let's create a new UI component for emoji and image picker in our front end it will firstly call the skills to get a best practice and coding convention in our codebase first and then start building things properly following the best practice So this how you can use skill feature to really extend agent capability and make it continuously improving. I just started this ripple called awesome cloud skills and moment most of them is from official cloud but I start adding some stuff like UI design which including very specific prompt I've been using and I'll keep adding new stuff also feel free to contribute and create PRs and meanwhile if you're interested to dive into cloud skills more I will dive a bit deeper in our upcoming weekly workshop at AI builder cup. So you can click on the link below to join if you're interested. I hope you enjoy this video. Thank you and I see you next",
+  "fetchedAt": "2026-01-18T18:31:49.935Z"
+}

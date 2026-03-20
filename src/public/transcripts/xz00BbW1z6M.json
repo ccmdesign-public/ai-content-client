@@ -1,0 +1,329 @@
+{
+  "videoId": "xz00BbW1z6M",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.44,
+      "duration": 5.76,
+      "text": "As an application developer in this era of AI, there are a bunch of different approaches you can"
+    },
+    {
+      "start": 6.2,
+      "duration": 6.759,
+      "text": "take to bring AI into your applications. You could possibly take a code-driven approach with"
+    },
+    {
+      "start": 12.96,
+      "duration": 6.999,
+      "text": "one of many various languages, or maybe a UI-driven one, and possibly"
+    },
+    {
+      "start": 19.959,
+      "duration": 4.321,
+      "text": "a bit of both. Maybe your company only allows a particular vendor, or you'd like to take a more"
+    },
+    {
+      "start": 24.28,
+      "duration": 6.84,
+      "text": "open path. Do you plan on using any observability tools or possibly MCP? So"
+    },
+    {
+      "start": 31.12,
+      "duration": 4.639,
+      "text": "these are all considerations we need to take into account. And if you're looking to quickly build"
+    },
+    {
+      "start": 35.759,
+      "duration": 5,
+      "text": "and iterate on AI on your apps, this is where Langflow really comes into play."
+    },
+    {
+      "start": 43.36,
+      "duration": 6.76,
+      "text": "So, what is Langflow? Langflow is an open-source visual studio for developers that allows you to"
+    },
+    {
+      "start": 50.12,
+      "duration": 6.96,
+      "text": "build agentic RAG in gen AI workflows in a drag-and-drop, low code/no code way."
+    },
+    {
+      "start": 59.2,
+      "duration": 5.16,
+      "text": "Visual workflow builders can really help simplify the process of chaining AI components together"
+    },
+    {
+      "start": 64.36,
+      "duration": 6.44,
+      "text": "without a lot of code. It is completely model and vector store-agnostic,"
+    },
+    {
+      "start": 71.12,
+      "duration": 6.68,
+      "text": "with support for many dozens of model and vector database providers. So, many of the"
+    },
+    {
+      "start": 77.8,
+      "duration": 5.08,
+      "text": "major model providers. If you want to use local models, you can do that. If you want to stick with"
+    },
+    {
+      "start": 82.88,
+      "duration": 6.399,
+      "text": "a particular model vendor, these are all options that you have available, and it's the same on the"
+    },
+    {
+      "start": 89.28,
+      "duration": 4.48,
+      "text": "vector store front. There are all sorts of options, dozens that are supported out of the box. And"
+    },
+    {
+      "start": 93.76,
+      "duration": 6.8,
+      "text": "what's really important is you can also edit any of the components as you wish. It is all Python"
+    },
+    {
+      "start": 100.8,
+      "duration": 3.719,
+      "text": "under the hood. So if you want to make custom components, maybe you have a vector or model"
+    },
+    {
+      "start": 104.519,
+      "duration": 5.161,
+      "text": "provider that isn't there by default, you can absolutely add those in with some Python code. And"
+    },
+    {
+      "start": 109.68,
+      "duration": 4.88,
+      "text": "because it's open source, you can inspect and modify any component or contribute your own back"
+    },
+    {
+      "start": 114.56,
+      "duration": 5.04,
+      "text": "to the community. Okay, so let's take a look at what it's like to build an agent with Langflow."
+    },
+    {
+      "start": 119.6,
+      "duration": 6.48,
+      "text": "So as I mentioned earlier, Langflow is a visual studio that uses drag-and-drop components to"
+    },
+    {
+      "start": 126.15,
+      "duration": 5.879,
+      "text": "build out AI workflows. So I have some input and output components. I would drag these over, right."
+    },
+    {
+      "start": 132.03,
+      "duration": 5.839,
+      "text": "I'm just going to go ahead and put an output here. And I do need these, right. In a case where I'm say"
+    },
+    {
+      "start": 137.91,
+      "duration": 6.2,
+      "text": "talking with an agent where I need to be able to communicate, both give agent, give the agent"
+    },
+    {
+      "start": 144.11,
+      "duration": 6.52,
+      "text": "instructions and receive data back from the agent. And then, I would pull over an agent component,"
+    },
+    {
+      "start": 151.149,
+      "duration": 6.4,
+      "text": "let's say agent here and then hook them up. And this is where some of the UI and visual aspects"
+    },
+    {
+      "start": 157.55,
+      "duration": 6.44,
+      "text": "really come into play. So you'll find in, Langflow uses this node-based architecture. And the nodes"
+    },
+    {
+      "start": 163.99,
+      "duration": 4.439,
+      "text": "have these nice little colors on them and they denote the type, right. So, in the case of like"
+    },
+    {
+      "start": 168.429,
+      "duration": 3.8,
+      "text": "these inputs and outputs, maybe they're a message or some other types of components that could be a"
+    },
+    {
+      "start": 172.229,
+      "duration": 5.44,
+      "text": "data, data frame. There are various types that you can find in Langflow. And if I want to get more"
+    },
+    {
+      "start": 177.67,
+      "duration": 4.839,
+      "text": "information on a particular type, I can just click on the little node, and it will tell me what kind"
+    },
+    {
+      "start": 182.509,
+      "duration": 4.401,
+      "text": "of type it is. And it'll also filter on the other components in the system to show me which ones"
+    },
+    {
+      "start": 186.91,
+      "duration": 6.159,
+      "text": "are compatible. Now, for now, let's get back to our agent. In the agent itself, once I have it in place,"
+    },
+    {
+      "start": 193.07,
+      "duration": 5.159,
+      "text": "I'm going to want to choose a model. All right. The model and the model provider. Now, this can also be"
+    },
+    {
+      "start": 198.27,
+      "duration": 3.84,
+      "text": "you know, again, as I mentioned before, there are dozens of various types of providers. You can use"
+    },
+    {
+      "start": 202.11,
+      "duration": 5.039,
+      "text": "local models. And if you want to change any of the base providers that are in there, again, you can"
+    },
+    {
+      "start": 207.149,
+      "duration": 6.961,
+      "text": "just bring a component over from the side. It would be some model. And again, this is where"
+    },
+    {
+      "start": 214.11,
+      "duration": 5.719,
+      "text": "you would then hook that up. And as long, in the case of an agentic case, as long as the model"
+    },
+    {
+      "start": 219.829,
+      "duration": 6.56,
+      "text": "has tool support, then you will be able to use whatever model you hook up with your agent. Now"
+    },
+    {
+      "start": 226.389,
+      "duration": 6.96,
+      "text": "once I have my basic agent in place, I can use the playground up here in the top corner. And this"
+    },
+    {
+      "start": 233.35,
+      "duration": 6.679,
+      "text": "allows me to start testing my agent directly well before I've even hooked up an"
+    },
+    {
+      "start": 240.03,
+      "duration": 5.799,
+      "text": "application, right? So I can start to work out the basic flow of what my agent is going to do, and"
+    },
+    {
+      "start": 245.829,
+      "duration": 4.96,
+      "text": "then I can worry about my application later. Now, this is just the most basic setup. If I really"
+    },
+    {
+      "start": 250.789,
+      "duration": 4.871,
+      "text": "want an agent to do something for me, I need to hook up tools. And the cool thing is that most"
+    },
+    {
+      "start": 255.66,
+      "duration": 5.48,
+      "text": "components in Langflow have a tool mode that you can just switch on. So I could bring, say, the URL"
+    },
+    {
+      "start": 261.14,
+      "duration": 5.718,
+      "text": "component over and up on the top there's this little, little radio button. I can just switch that"
+    },
+    {
+      "start": 266.859,
+      "duration": 5.84,
+      "text": "up, pop into tool mode. And now, I can hook it right into my agent. And what's super cool about this is"
+    },
+    {
+      "start": 272.7,
+      "duration": 5.039,
+      "text": "that once I'm in tool mode or I hook up a tool, the agent will auto discover it, right? It'll"
+    },
+    {
+      "start": 277.739,
+      "duration": 5.279,
+      "text": "actually auto discover what that tool is for, when to use it, and the agent can start using it right"
+    },
+    {
+      "start": 283.019,
+      "duration": 6.68,
+      "text": "away. Langflow also has native support for MCP, both in being able to add"
+    },
+    {
+      "start": 289.739,
+      "duration": 6.36,
+      "text": "MCP tools to your flows and expose your flows as MCP tools"
+    },
+    {
+      "start": 296.099,
+      "duration": 5.12,
+      "text": "themselves. This gives you access to possibly thousands of tools and allows you to easily"
+    },
+    {
+      "start": 301.219,
+      "duration": 6.8,
+      "text": "create MCP tools, curated with your own agent instructions and capabilities that you can use in"
+    },
+    {
+      "start": 308.019,
+      "duration": 5.24,
+      "text": "downstream agents like an AI code companion. And a tool for developers wouldn't mean much if you"
+    },
+    {
+      "start": 313.26,
+      "duration": 6.079,
+      "text": "couldn't easily hook it into your application. Every flow in Langflow has its own API access"
+    },
+    {
+      "start": 319.34,
+      "duration": 5.559,
+      "text": "that allows you to execute flows, pass in data, stream data, receive responses, and you can tweak"
+    },
+    {
+      "start": 324.899,
+      "duration": 4.679,
+      "text": "any of the parameters you see in components. And this gives you full programmatic control over"
+    },
+    {
+      "start": 329.579,
+      "duration": 6.12,
+      "text": "your flows. So you're not stuck with only what you see in the UI. And finally, Langflow is not limited to"
+    },
+    {
+      "start": 335.7,
+      "duration": 5.559,
+      "text": "basic flows like I've been drawing here. Here is a more complex example of a flow that uses database"
+    },
+    {
+      "start": 341.299,
+      "duration": 6.24,
+      "text": "access, agents, conditional logic and structured output to ensure my agents can conform exactly to"
+    },
+    {
+      "start": 347.579,
+      "duration": 5.24,
+      "text": "my application's requirements in a more deterministic way. Imagine trying to explain this"
+    },
+    {
+      "start": 352.82,
+      "duration": 4.72,
+      "text": "to a non-coder, or even another coder without the visual aid to help in seeing everything that's"
+    },
+    {
+      "start": 357.54,
+      "duration": 6.28,
+      "text": "going on. So there you have it. I hope you now have a much better idea of what Langflow is and how"
+    },
+    {
+      "start": 363.82,
+      "duration": 2.679,
+      "text": "you can use it to power your AI workflow."
+    }
+  ],
+  "fullText": "As an application developer in this era of AI, there are a bunch of different approaches you can take to bring AI into your applications. You could possibly take a code-driven approach with one of many various languages, or maybe a UI-driven one, and possibly a bit of both. Maybe your company only allows a particular vendor, or you'd like to take a more open path. Do you plan on using any observability tools or possibly MCP? So these are all considerations we need to take into account. And if you're looking to quickly build and iterate on AI on your apps, this is where Langflow really comes into play. So, what is Langflow? Langflow is an open-source visual studio for developers that allows you to build agentic RAG in gen AI workflows in a drag-and-drop, low code/no code way. Visual workflow builders can really help simplify the process of chaining AI components together without a lot of code. It is completely model and vector store-agnostic, with support for many dozens of model and vector database providers. So, many of the major model providers. If you want to use local models, you can do that. If you want to stick with a particular model vendor, these are all options that you have available, and it's the same on the vector store front. There are all sorts of options, dozens that are supported out of the box. And what's really important is you can also edit any of the components as you wish. It is all Python under the hood. So if you want to make custom components, maybe you have a vector or model provider that isn't there by default, you can absolutely add those in with some Python code. And because it's open source, you can inspect and modify any component or contribute your own back to the community. Okay, so let's take a look at what it's like to build an agent with Langflow. So as I mentioned earlier, Langflow is a visual studio that uses drag-and-drop components to build out AI workflows. So I have some input and output components. I would drag these over, right. I'm just going to go ahead and put an output here. And I do need these, right. In a case where I'm say talking with an agent where I need to be able to communicate, both give agent, give the agent instructions and receive data back from the agent. And then, I would pull over an agent component, let's say agent here and then hook them up. And this is where some of the UI and visual aspects really come into play. So you'll find in, Langflow uses this node-based architecture. And the nodes have these nice little colors on them and they denote the type, right. So, in the case of like these inputs and outputs, maybe they're a message or some other types of components that could be a data, data frame. There are various types that you can find in Langflow. And if I want to get more information on a particular type, I can just click on the little node, and it will tell me what kind of type it is. And it'll also filter on the other components in the system to show me which ones are compatible. Now, for now, let's get back to our agent. In the agent itself, once I have it in place, I'm going to want to choose a model. All right. The model and the model provider. Now, this can also be you know, again, as I mentioned before, there are dozens of various types of providers. You can use local models. And if you want to change any of the base providers that are in there, again, you can just bring a component over from the side. It would be some model. And again, this is where you would then hook that up. And as long, in the case of an agentic case, as long as the model has tool support, then you will be able to use whatever model you hook up with your agent. Now once I have my basic agent in place, I can use the playground up here in the top corner. And this allows me to start testing my agent directly well before I've even hooked up an application, right? So I can start to work out the basic flow of what my agent is going to do, and then I can worry about my application later. Now, this is just the most basic setup. If I really want an agent to do something for me, I need to hook up tools. And the cool thing is that most components in Langflow have a tool mode that you can just switch on. So I could bring, say, the URL component over and up on the top there's this little, little radio button. I can just switch that up, pop into tool mode. And now, I can hook it right into my agent. And what's super cool about this is that once I'm in tool mode or I hook up a tool, the agent will auto discover it, right? It'll actually auto discover what that tool is for, when to use it, and the agent can start using it right away. Langflow also has native support for MCP, both in being able to add MCP tools to your flows and expose your flows as MCP tools themselves. This gives you access to possibly thousands of tools and allows you to easily create MCP tools, curated with your own agent instructions and capabilities that you can use in downstream agents like an AI code companion. And a tool for developers wouldn't mean much if you couldn't easily hook it into your application. Every flow in Langflow has its own API access that allows you to execute flows, pass in data, stream data, receive responses, and you can tweak any of the parameters you see in components. And this gives you full programmatic control over your flows. So you're not stuck with only what you see in the UI. And finally, Langflow is not limited to basic flows like I've been drawing here. Here is a more complex example of a flow that uses database access, agents, conditional logic and structured output to ensure my agents can conform exactly to my application's requirements in a more deterministic way. Imagine trying to explain this to a non-coder, or even another coder without the visual aid to help in seeing everything that's going on. So there you have it. I hope you now have a much better idea of what Langflow is and how you can use it to power your AI workflow.",
+  "fetchedAt": "2026-01-18T18:34:39.944Z"
+}

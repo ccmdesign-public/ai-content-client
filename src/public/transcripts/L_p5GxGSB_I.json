@@ -1,0 +1,1039 @@
+{
+  "videoId": "L_p5GxGSB_I",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 6.4,
+      "text": "rules, commands, MCP servers, sub aents,"
+    },
+    {
+      "start": 3.04,
+      "duration": 5.44,
+      "text": "modes, hooks, tools. There's a lot of"
+    },
+    {
+      "start": 6.56,
+      "duration": 3.84,
+      "text": "stuff and I don't think it needs to be"
+    },
+    {
+      "start": 8.48,
+      "duration": 3.84,
+      "text": "this complex. So, I want to talk about"
+    },
+    {
+      "start": 10.4,
+      "duration": 3.6,
+      "text": "the most important things and then also"
+    },
+    {
+      "start": 12.32,
+      "duration": 4.08,
+      "text": "share some of the history on how we got"
+    },
+    {
+      "start": 14,
+      "duration": 3.76,
+      "text": "here. Okay, let's start with rules. When"
+    },
+    {
+      "start": 16.4,
+      "duration": 3.36,
+      "text": "agents were first getting started,"
+    },
+    {
+      "start": 17.76,
+      "duration": 4.16,
+      "text": "models would frequently hallucinate"
+    },
+    {
+      "start": 19.76,
+      "duration": 4.08,
+      "text": "things. And a rules file was a way of"
+    },
+    {
+      "start": 21.92,
+      "duration": 4.32,
+      "text": "including context in every single"
+    },
+    {
+      "start": 23.84,
+      "duration": 4.16,
+      "text": "conversation about your codebase or"
+    },
+    {
+      "start": 26.24,
+      "duration": 3.52,
+      "text": "business requirements or just things"
+    },
+    {
+      "start": 28,
+      "duration": 4.32,
+      "text": "that you would see the model get wrong"
+    },
+    {
+      "start": 29.76,
+      "duration": 5.04,
+      "text": "every time. And this worked pretty well."
+    },
+    {
+      "start": 32.32,
+      "duration": 4,
+      "text": "Over time, as the rules files got longer"
+    },
+    {
+      "start": 34.8,
+      "duration": 4.16,
+      "text": "and we kind of figured out the right way"
+    },
+    {
+      "start": 36.32,
+      "duration": 4.96,
+      "text": "of doing this, they then broke into sub"
+    },
+    {
+      "start": 38.96,
+      "duration": 3.919,
+      "text": "files. So you could nest rule files or"
+    },
+    {
+      "start": 41.28,
+      "duration": 3.76,
+      "text": "you could have multiple files."
+    },
+    {
+      "start": 42.879,
+      "duration": 4.481,
+      "text": "Essentially, these all combined into one"
+    },
+    {
+      "start": 45.04,
+      "duration": 5.039,
+      "text": "anyway into what I'm calling static"
+    },
+    {
+      "start": 47.36,
+      "duration": 5.6,
+      "text": "context. So regardless if if I had one"
+    },
+    {
+      "start": 50.079,
+      "duration": 5.041,
+      "text": "rule or 10 rules file, all of these"
+    },
+    {
+      "start": 52.96,
+      "duration": 3.919,
+      "text": "rules files would combine into the"
+    },
+    {
+      "start": 55.12,
+      "duration": 3.759,
+      "text": "information that was included in every"
+    },
+    {
+      "start": 56.879,
+      "duration": 3.84,
+      "text": "single conversation. Now, ideally, some"
+    },
+    {
+      "start": 58.879,
+      "duration": 3.68,
+      "text": "of these rules would only be included"
+    },
+    {
+      "start": 60.719,
+      "duration": 3.76,
+      "text": "sometimes. The agent could decide"
+    },
+    {
+      "start": 62.559,
+      "duration": 3.841,
+      "text": "conditionally whether it was relevant"
+    },
+    {
+      "start": 64.479,
+      "duration": 4.241,
+      "text": "for the task it was trying to do and"
+    },
+    {
+      "start": 66.4,
+      "duration": 4,
+      "text": "then either include or exclude it from"
+    },
+    {
+      "start": 68.72,
+      "duration": 3.759,
+      "text": "the context window. And you have to"
+    },
+    {
+      "start": 70.4,
+      "duration": 4.16,
+      "text": "remember at the time the models were not"
+    },
+    {
+      "start": 72.479,
+      "duration": 3.761,
+      "text": "consistently good at tool calling. They"
+    },
+    {
+      "start": 74.56,
+      "duration": 3.76,
+      "text": "were just starting to get good at being"
+    },
+    {
+      "start": 76.24,
+      "duration": 4,
+      "text": "able to edit files with tools and run"
+    },
+    {
+      "start": 78.32,
+      "duration": 4.159,
+      "text": "shell commands. So, this was the right"
+    },
+    {
+      "start": 80.24,
+      "duration": 3.68,
+      "text": "idea, but a little early to do very"
+    },
+    {
+      "start": 82.479,
+      "duration": 3.041,
+      "text": "consistently well, but we're going to"
+    },
+    {
+      "start": 83.92,
+      "duration": 3.6,
+      "text": "come back to it. Now that people are"
+    },
+    {
+      "start": 85.52,
+      "duration": 4.239,
+      "text": "starting to code with agents more, some"
+    },
+    {
+      "start": 87.52,
+      "duration": 4.639,
+      "text": "patterns and workflows are emerging. So,"
+    },
+    {
+      "start": 89.759,
+      "duration": 4.881,
+      "text": "you want a way to effectively run a"
+    },
+    {
+      "start": 92.159,
+      "duration": 5.121,
+      "text": "repeated prompt on demand multiple"
+    },
+    {
+      "start": 94.64,
+      "duration": 4.88,
+      "text": "times. This introduces the concept of a"
+    },
+    {
+      "start": 97.28,
+      "duration": 4,
+      "text": "slash command or a custom command. You"
+    },
+    {
+      "start": 99.52,
+      "duration": 3.04,
+      "text": "can package up a prompt. You can share"
+    },
+    {
+      "start": 101.28,
+      "duration": 3.44,
+      "text": "it with your team. You can put it in"
+    },
+    {
+      "start": 102.56,
+      "duration": 4.64,
+      "text": "git. And this is essentially a workflow"
+    },
+    {
+      "start": 104.72,
+      "duration": 4.88,
+      "text": "that you want to run in your agent input"
+    },
+    {
+      "start": 107.2,
+      "duration": 4.8,
+      "text": "box conditionally whenever you need it."
+    },
+    {
+      "start": 109.6,
+      "duration": 4.72,
+      "text": "So, one that I like is doing my get and"
+    },
+    {
+      "start": 112,
+      "duration": 4.32,
+      "text": "commit and opening a PR all through just"
+    },
+    {
+      "start": 114.32,
+      "duration": 5.04,
+      "text": "one command. So far, all we've covered"
+    },
+    {
+      "start": 116.32,
+      "duration": 4.799,
+      "text": "is text. Basically, including prompts in"
+    },
+    {
+      "start": 119.36,
+      "duration": 3.68,
+      "text": "the initial message or the conversation"
+    },
+    {
+      "start": 121.119,
+      "duration": 4,
+      "text": "with an agent. But you also want to be"
+    },
+    {
+      "start": 123.04,
+      "duration": 4.48,
+      "text": "able to run code. And this is where the"
+    },
+    {
+      "start": 125.119,
+      "duration": 4.48,
+      "text": "initial exploration into MCP servers"
+    },
+    {
+      "start": 127.52,
+      "duration": 3.92,
+      "text": "started. An MCP server was more than"
+    },
+    {
+      "start": 129.599,
+      "duration": 4.401,
+      "text": "just a prompt. You could use it to"
+    },
+    {
+      "start": 131.44,
+      "duration": 4.48,
+      "text": "actually run a full server, connect to"
+    },
+    {
+      "start": 134,
+      "duration": 3.92,
+      "text": "your existing systems, and eventually"
+    },
+    {
+      "start": 135.92,
+      "duration": 3.76,
+      "text": "also do OOTH, which is one of the most"
+    },
+    {
+      "start": 137.92,
+      "duration": 3.28,
+      "text": "important pieces. Just like we talked"
+    },
+    {
+      "start": 139.68,
+      "duration": 4,
+      "text": "about first party tools like running"
+    },
+    {
+      "start": 141.2,
+      "duration": 5.039,
+      "text": "shell commands, MCP servers exposed"
+    },
+    {
+      "start": 143.68,
+      "duration": 4.8,
+      "text": "third party tools. So maybe reading a"
+    },
+    {
+      "start": 146.239,
+      "duration": 4.481,
+      "text": "Slack message or creating a new linear"
+    },
+    {
+      "start": 148.48,
+      "duration": 4,
+      "text": "issue, it exposed those tools to the"
+    },
+    {
+      "start": 150.72,
+      "duration": 4.32,
+      "text": "agent. It put them in the context"
+    },
+    {
+      "start": 152.48,
+      "duration": 4.88,
+      "text": "window, effectively giving the agent new"
+    },
+    {
+      "start": 155.04,
+      "duration": 4.8,
+      "text": "skills. Now, the downside to this was"
+    },
+    {
+      "start": 157.36,
+      "duration": 4.48,
+      "text": "that that additional context usage could"
+    },
+    {
+      "start": 159.84,
+      "duration": 3.28,
+      "text": "get pretty bloated if you had many"
+    },
+    {
+      "start": 161.84,
+      "duration": 2.64,
+      "text": "different tools. And we'll talk about"
+    },
+    {
+      "start": 163.12,
+      "duration": 2.96,
+      "text": "some of the solutions that have fixed"
+    },
+    {
+      "start": 164.48,
+      "duration": 3.2,
+      "text": "this. At this point, we have two"
+    },
+    {
+      "start": 166.08,
+      "duration": 3.92,
+      "text": "different ways of putting information"
+    },
+    {
+      "start": 167.68,
+      "duration": 5.52,
+      "text": "into the context. We have text and we"
+    },
+    {
+      "start": 170,
+      "duration": 6.56,
+      "text": "have code. The next evolution here was"
+    },
+    {
+      "start": 173.2,
+      "duration": 5.119,
+      "text": "modes and sub aents. So, a sub agent was"
+    },
+    {
+      "start": 176.56,
+      "duration": 4.08,
+      "text": "kind of like a prompt. You could include"
+    },
+    {
+      "start": 178.319,
+      "duration": 4.56,
+      "text": "some persona or some task that you"
+    },
+    {
+      "start": 180.64,
+      "duration": 4.4,
+      "text": "wanted the agent to always do, but you"
+    },
+    {
+      "start": 182.879,
+      "duration": 4.64,
+      "text": "could also then limit the scope of the"
+    },
+    {
+      "start": 185.04,
+      "duration": 4.32,
+      "text": "tools that you give the agent. And modes"
+    },
+    {
+      "start": 187.519,
+      "duration": 3.761,
+      "text": "kind of took this a little bit further."
+    },
+    {
+      "start": 189.36,
+      "duration": 4.08,
+      "text": "Not only was it instructions on what you"
+    },
+    {
+      "start": 191.28,
+      "duration": 4.239,
+      "text": "were trying to do, like creating a plan,"
+    },
+    {
+      "start": 193.44,
+      "duration": 3.92,
+      "text": "you could also then modify the system"
+    },
+    {
+      "start": 195.519,
+      "duration": 4.241,
+      "text": "prompt to let it know that you have"
+    },
+    {
+      "start": 197.36,
+      "duration": 4.56,
+      "text": "these tools and these modes available,"
+    },
+    {
+      "start": 199.76,
+      "duration": 4.399,
+      "text": "you could give it access to new tools to"
+    },
+    {
+      "start": 201.92,
+      "duration": 4.48,
+      "text": "maybe go create plans and modify those"
+    },
+    {
+      "start": 204.159,
+      "duration": 4.641,
+      "text": "plans through some kind of guey. You can"
+    },
+    {
+      "start": 206.4,
+      "duration": 4.88,
+      "text": "have other UI changes. You can even put"
+    },
+    {
+      "start": 208.8,
+      "duration": 4.4,
+      "text": "in reminders in the prompts so that the"
+    },
+    {
+      "start": 211.28,
+      "duration": 3.76,
+      "text": "agent remembers that you're in this mode"
+    },
+    {
+      "start": 213.2,
+      "duration": 3.92,
+      "text": "and you're focused on planning. So,"
+    },
+    {
+      "start": 215.04,
+      "duration": 3.36,
+      "text": "you're extending the capabilities. You"
+    },
+    {
+      "start": 217.12,
+      "duration": 3.28,
+      "text": "have to remember the whole point of"
+    },
+    {
+      "start": 218.4,
+      "duration": 4.399,
+      "text": "these new concepts is to make it more"
+    },
+    {
+      "start": 220.4,
+      "duration": 4.399,
+      "text": "reliable and more discoverable. A mode"
+    },
+    {
+      "start": 222.799,
+      "duration": 3.601,
+      "text": "is more discoverable in the UI and then"
+    },
+    {
+      "start": 224.799,
+      "duration": 3.44,
+      "text": "all of these other tricks that we're"
+    },
+    {
+      "start": 226.4,
+      "duration": 4.559,
+      "text": "doing help make the output that the"
+    },
+    {
+      "start": 228.239,
+      "duration": 4.64,
+      "text": "agent can produce much more reliable."
+    },
+    {
+      "start": 230.959,
+      "duration": 3.92,
+      "text": "However, it's still a non-deterministic"
+    },
+    {
+      "start": 232.879,
+      "duration": 4.241,
+      "text": "system. Things can still go wrong. The"
+    },
+    {
+      "start": 234.879,
+      "duration": 4.961,
+      "text": "next evolution here was giving the agent"
+    },
+    {
+      "start": 237.12,
+      "duration": 4,
+      "text": "deterministic hooks. So maybe you always"
+    },
+    {
+      "start": 239.84,
+      "duration": 3.759,
+      "text": "want to inject something into the"
+    },
+    {
+      "start": 241.12,
+      "duration": 4.479,
+      "text": "context for every single run basically"
+    },
+    {
+      "start": 243.599,
+      "duration": 4.64,
+      "text": "as static context. You can use a hook"
+    },
+    {
+      "start": 245.599,
+      "duration": 4.64,
+      "text": "for that. Maybe after a conversation has"
+    },
+    {
+      "start": 248.239,
+      "duration": 4.08,
+      "text": "finished, you want to prompt the agent"
+    },
+    {
+      "start": 250.239,
+      "duration": 4.161,
+      "text": "with something else or log it and save"
+    },
+    {
+      "start": 252.319,
+      "duration": 4.32,
+      "text": "it off into a database. There's also a"
+    },
+    {
+      "start": 254.4,
+      "duration": 4.72,
+      "text": "hook for that. So 100% deterministic"
+    },
+    {
+      "start": 256.639,
+      "duration": 4.72,
+      "text": "hooks. So to recap so far, you need"
+    },
+    {
+      "start": 259.12,
+      "duration": 4.56,
+      "text": "static context like prompts that you can"
+    },
+    {
+      "start": 261.359,
+      "duration": 5.041,
+      "text": "include in every single conversation."
+    },
+    {
+      "start": 263.68,
+      "duration": 5.04,
+      "text": "And then you need dynamic context, ways"
+    },
+    {
+      "start": 266.4,
+      "duration": 4.48,
+      "text": "to run code or give your agent new"
+    },
+    {
+      "start": 268.72,
+      "duration": 4.8,
+      "text": "powers that is not going to bloat the"
+    },
+    {
+      "start": 270.88,
+      "duration": 4.08,
+      "text": "initial context window. And this ideally"
+    },
+    {
+      "start": 273.52,
+      "duration": 3.04,
+      "text": "we can turn into something that's an"
+    },
+    {
+      "start": 274.96,
+      "duration": 4.16,
+      "text": "open standard and that everybody can"
+    },
+    {
+      "start": 276.56,
+      "duration": 4.88,
+      "text": "rally behind. And that's what skills are"
+    },
+    {
+      "start": 279.12,
+      "duration": 5.04,
+      "text": "doing. So skills for example in their"
+    },
+    {
+      "start": 281.44,
+      "duration": 4.4,
+      "text": "most basic form can be just like a"
+    },
+    {
+      "start": 284.16,
+      "duration": 4,
+      "text": "command. You have a skill that is a"
+    },
+    {
+      "start": 285.84,
+      "duration": 4.72,
+      "text": "workflow you want to repeat like my git"
+    },
+    {
+      "start": 288.16,
+      "duration": 4.72,
+      "text": "PR flow that can now just be modeled as"
+    },
+    {
+      "start": 290.56,
+      "duration": 4.24,
+      "text": "a skill. It doesn't affect the initial"
+    },
+    {
+      "start": 292.88,
+      "duration": 4,
+      "text": "context size and I can package this up"
+    },
+    {
+      "start": 294.8,
+      "duration": 4.399,
+      "text": "and share it with my team. In their most"
+    },
+    {
+      "start": 296.88,
+      "duration": 4.96,
+      "text": "advanced form, this can be a combination"
+    },
+    {
+      "start": 299.199,
+      "duration": 4,
+      "text": "of scripts and executables and assets"
+    },
+    {
+      "start": 301.84,
+      "duration": 3.52,
+      "text": "and really anything that I want to"
+    },
+    {
+      "start": 303.199,
+      "duration": 4.161,
+      "text": "bundle together. It's just code and"
+    },
+    {
+      "start": 305.36,
+      "duration": 4,
+      "text": "distribute to my team without taking"
+    },
+    {
+      "start": 307.36,
+      "duration": 3.839,
+      "text": "that negative hit on bloating the"
+    },
+    {
+      "start": 309.36,
+      "duration": 4.08,
+      "text": "context if you're not actually using it."
+    },
+    {
+      "start": 311.199,
+      "duration": 5.201,
+      "text": "This is great because it boils down the"
+    },
+    {
+      "start": 313.44,
+      "duration": 5.28,
+      "text": "world as a user of a coding agent to"
+    },
+    {
+      "start": 316.4,
+      "duration": 6.16,
+      "text": "basically two things. static and dynamic"
+    },
+    {
+      "start": 318.72,
+      "duration": 5.84,
+      "text": "context rules and skills. Now there's a"
+    },
+    {
+      "start": 322.56,
+      "duration": 4.56,
+      "text": "few other things but you can mostly just"
+    },
+    {
+      "start": 324.56,
+      "duration": 4.88,
+      "text": "focus on those two and coding agents"
+    },
+    {
+      "start": 327.12,
+      "duration": 4.88,
+      "text": "themselves can then make optimizations"
+    },
+    {
+      "start": 329.44,
+      "duration": 4.56,
+      "text": "to learn from the skills pattern. So for"
+    },
+    {
+      "start": 332,
+      "duration": 5.28,
+      "text": "example in cursor we learn from the"
+    },
+    {
+      "start": 334,
+      "duration": 6,
+      "text": "skills pattern of dynamic context and we"
+    },
+    {
+      "start": 337.28,
+      "duration": 4.72,
+      "text": "made it such that if you have 10 MCP"
+    },
+    {
+      "start": 340,
+      "duration": 4.479,
+      "text": "servers installed and they all have 10"
+    },
+    {
+      "start": 342,
+      "duration": 4,
+      "text": "different tools ideally you would only"
+    },
+    {
+      "start": 344.479,
+      "duration": 3.041,
+      "text": "load the tools when they're actually"
+    },
+    {
+      "start": 346,
+      "duration": 3.28,
+      "text": "used. So we're able to make those"
+    },
+    {
+      "start": 347.52,
+      "duration": 4.32,
+      "text": "optimizations for you so you can keep"
+    },
+    {
+      "start": 349.28,
+      "duration": 4.24,
+      "text": "using MCP if you need features like"
+    },
+    {
+      "start": 351.84,
+      "duration": 3.6,
+      "text": "OOTH. That's basically the only"
+    },
+    {
+      "start": 353.52,
+      "duration": 3.119,
+      "text": "difference with a skill. And then"
+    },
+    {
+      "start": 355.44,
+      "duration": 3.36,
+      "text": "additionally, you might still need"
+    },
+    {
+      "start": 356.639,
+      "duration": 4.801,
+      "text": "something like hooks for deterministic"
+    },
+    {
+      "start": 358.8,
+      "duration": 4.72,
+      "text": "runs or maybe you want to define custom"
+    },
+    {
+      "start": 361.44,
+      "duration": 3.44,
+      "text": "sub aents. What we try to do with sub"
+    },
+    {
+      "start": 363.52,
+      "duration": 3.36,
+      "text": "aents is just make it work out of the"
+    },
+    {
+      "start": 364.88,
+      "duration": 3.68,
+      "text": "box if you ask for something like run"
+    },
+    {
+      "start": 366.88,
+      "duration": 4.4,
+      "text": "this in parallel or you want to go do"
+    },
+    {
+      "start": 368.56,
+      "duration": 4.479,
+      "text": "some research. But most of the time as a"
+    },
+    {
+      "start": 371.28,
+      "duration": 3.68,
+      "text": "user of a coding agent, I think you"
+    },
+    {
+      "start": 373.039,
+      "duration": 4.241,
+      "text": "should be thinking about skills and"
+    },
+    {
+      "start": 374.96,
+      "duration": 4.239,
+      "text": "rules. kind of two concepts. As a best"
+    },
+    {
+      "start": 377.28,
+      "duration": 4.08,
+      "text": "practice for rules, I try to make this"
+    },
+    {
+      "start": 379.199,
+      "duration": 3.84,
+      "text": "the minimal high quality context that I"
+    },
+    {
+      "start": 381.36,
+      "duration": 3.92,
+      "text": "can provide because it's included in"
+    },
+    {
+      "start": 383.039,
+      "duration": 4.72,
+      "text": "every conversation and it's it's kind of"
+    },
+    {
+      "start": 385.28,
+      "duration": 4,
+      "text": "a living and breathing artifact. So, if"
+    },
+    {
+      "start": 387.759,
+      "duration": 3.921,
+      "text": "I see the coding agent mess something"
+    },
+    {
+      "start": 389.28,
+      "duration": 4.479,
+      "text": "up, whether it's local or on a PR, I"
+    },
+    {
+      "start": 391.68,
+      "duration": 4.56,
+      "text": "just tag at cursor on the PR, hey, add"
+    },
+    {
+      "start": 393.759,
+      "duration": 4.16,
+      "text": "this to my agents.m MD or my cursor"
+    },
+    {
+      "start": 396.24,
+      "duration": 3.36,
+      "text": "rule. We also have a standard for that"
+    },
+    {
+      "start": 397.919,
+      "duration": 3.041,
+      "text": "now, which is nice. And then it can"
+    },
+    {
+      "start": 399.6,
+      "duration": 3.039,
+      "text": "update it and evolve it over time."
+    },
+    {
+      "start": 400.96,
+      "duration": 3.76,
+      "text": "Because skills are so new, I don't have"
+    },
+    {
+      "start": 402.639,
+      "duration": 4.4,
+      "text": "any groundbreaking best practices, but I"
+    },
+    {
+      "start": 404.72,
+      "duration": 4.319,
+      "text": "would expect over the next six months as"
+    },
+    {
+      "start": 407.039,
+      "duration": 4.081,
+      "text": "more people start adopting skills and"
+    },
+    {
+      "start": 409.039,
+      "duration": 4.16,
+      "text": "the ecosystems built out that they will"
+    },
+    {
+      "start": 411.12,
+      "duration": 5.04,
+      "text": "be more and more important. So hopefully"
+    },
+    {
+      "start": 413.199,
+      "duration": 5.201,
+      "text": "this helps you make sense of rules and"
+    },
+    {
+      "start": 416.16,
+      "duration": 4.96,
+      "text": "skills and MCB servers, commands, sub"
+    },
+    {
+      "start": 418.4,
+      "duration": 4.96,
+      "text": "aents, tools, hooks. There's just a lot"
+    },
+    {
+      "start": 421.12,
+      "duration": 3.76,
+      "text": "of stuff and I think you can compress"
+    },
+    {
+      "start": 423.36,
+      "duration": 3.92,
+      "text": "down these concepts while understanding"
+    },
+    {
+      "start": 424.88,
+      "duration": 4.319,
+      "text": "the history that's led us to this point"
+    },
+    {
+      "start": 427.28,
+      "duration": 3.44,
+      "text": "today to hopefully be more effective"
+    },
+    {
+      "start": 429.199,
+      "duration": 2.881,
+      "text": "with coding agents. If you want to see"
+    },
+    {
+      "start": 430.72,
+      "duration": 3.039,
+      "text": "me cover more things like this, just let"
+    },
+    {
+      "start": 432.08,
+      "duration": 3.119,
+      "text": "me know in the comments. And uh I'm"
+    },
+    {
+      "start": 433.759,
+      "duration": 3.921,
+      "text": "going to be making some more videos."
+    },
+    {
+      "start": 435.199,
+      "duration": 2.481,
+      "text": "Peace."
+    }
+  ],
+  "fullText": "rules, commands, MCP servers, sub aents, modes, hooks, tools. There's a lot of stuff and I don't think it needs to be this complex. So, I want to talk about the most important things and then also share some of the history on how we got here. Okay, let's start with rules. When agents were first getting started, models would frequently hallucinate things. And a rules file was a way of including context in every single conversation about your codebase or business requirements or just things that you would see the model get wrong every time. And this worked pretty well. Over time, as the rules files got longer and we kind of figured out the right way of doing this, they then broke into sub files. So you could nest rule files or you could have multiple files. Essentially, these all combined into one anyway into what I'm calling static context. So regardless if if I had one rule or 10 rules file, all of these rules files would combine into the information that was included in every single conversation. Now, ideally, some of these rules would only be included sometimes. The agent could decide conditionally whether it was relevant for the task it was trying to do and then either include or exclude it from the context window. And you have to remember at the time the models were not consistently good at tool calling. They were just starting to get good at being able to edit files with tools and run shell commands. So, this was the right idea, but a little early to do very consistently well, but we're going to come back to it. Now that people are starting to code with agents more, some patterns and workflows are emerging. So, you want a way to effectively run a repeated prompt on demand multiple times. This introduces the concept of a slash command or a custom command. You can package up a prompt. You can share it with your team. You can put it in git. And this is essentially a workflow that you want to run in your agent input box conditionally whenever you need it. So, one that I like is doing my get and commit and opening a PR all through just one command. So far, all we've covered is text. Basically, including prompts in the initial message or the conversation with an agent. But you also want to be able to run code. And this is where the initial exploration into MCP servers started. An MCP server was more than just a prompt. You could use it to actually run a full server, connect to your existing systems, and eventually also do OOTH, which is one of the most important pieces. Just like we talked about first party tools like running shell commands, MCP servers exposed third party tools. So maybe reading a Slack message or creating a new linear issue, it exposed those tools to the agent. It put them in the context window, effectively giving the agent new skills. Now, the downside to this was that that additional context usage could get pretty bloated if you had many different tools. And we'll talk about some of the solutions that have fixed this. At this point, we have two different ways of putting information into the context. We have text and we have code. The next evolution here was modes and sub aents. So, a sub agent was kind of like a prompt. You could include some persona or some task that you wanted the agent to always do, but you could also then limit the scope of the tools that you give the agent. And modes kind of took this a little bit further. Not only was it instructions on what you were trying to do, like creating a plan, you could also then modify the system prompt to let it know that you have these tools and these modes available, you could give it access to new tools to maybe go create plans and modify those plans through some kind of guey. You can have other UI changes. You can even put in reminders in the prompts so that the agent remembers that you're in this mode and you're focused on planning. So, you're extending the capabilities. You have to remember the whole point of these new concepts is to make it more reliable and more discoverable. A mode is more discoverable in the UI and then all of these other tricks that we're doing help make the output that the agent can produce much more reliable. However, it's still a non-deterministic system. Things can still go wrong. The next evolution here was giving the agent deterministic hooks. So maybe you always want to inject something into the context for every single run basically as static context. You can use a hook for that. Maybe after a conversation has finished, you want to prompt the agent with something else or log it and save it off into a database. There's also a hook for that. So 100% deterministic hooks. So to recap so far, you need static context like prompts that you can include in every single conversation. And then you need dynamic context, ways to run code or give your agent new powers that is not going to bloat the initial context window. And this ideally we can turn into something that's an open standard and that everybody can rally behind. And that's what skills are doing. So skills for example in their most basic form can be just like a command. You have a skill that is a workflow you want to repeat like my git PR flow that can now just be modeled as a skill. It doesn't affect the initial context size and I can package this up and share it with my team. In their most advanced form, this can be a combination of scripts and executables and assets and really anything that I want to bundle together. It's just code and distribute to my team without taking that negative hit on bloating the context if you're not actually using it. This is great because it boils down the world as a user of a coding agent to basically two things. static and dynamic context rules and skills. Now there's a few other things but you can mostly just focus on those two and coding agents themselves can then make optimizations to learn from the skills pattern. So for example in cursor we learn from the skills pattern of dynamic context and we made it such that if you have 10 MCP servers installed and they all have 10 different tools ideally you would only load the tools when they're actually used. So we're able to make those optimizations for you so you can keep using MCP if you need features like OOTH. That's basically the only difference with a skill. And then additionally, you might still need something like hooks for deterministic runs or maybe you want to define custom sub aents. What we try to do with sub aents is just make it work out of the box if you ask for something like run this in parallel or you want to go do some research. But most of the time as a user of a coding agent, I think you should be thinking about skills and rules. kind of two concepts. As a best practice for rules, I try to make this the minimal high quality context that I can provide because it's included in every conversation and it's it's kind of a living and breathing artifact. So, if I see the coding agent mess something up, whether it's local or on a PR, I just tag at cursor on the PR, hey, add this to my agents.m MD or my cursor rule. We also have a standard for that now, which is nice. And then it can update it and evolve it over time. Because skills are so new, I don't have any groundbreaking best practices, but I would expect over the next six months as more people start adopting skills and the ecosystems built out that they will be more and more important. So hopefully this helps you make sense of rules and skills and MCB servers, commands, sub aents, tools, hooks. There's just a lot of stuff and I think you can compress down these concepts while understanding the history that's led us to this point today to hopefully be more effective with coding agents. If you want to see me cover more things like this, just let me know in the comments. And uh I'm going to be making some more videos. Peace.",
+  "fetchedAt": "2026-01-24T16:02:34.048Z"
+}

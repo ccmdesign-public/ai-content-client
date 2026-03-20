@@ -1,0 +1,1189 @@
+{
+  "videoId": "MsJzacfjzp8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.599,
+      "text": "Codeex just got agent skill support. And"
+    },
+    {
+      "start": 2.32,
+      "duration": 2.8,
+      "text": "the good news is you don't have to do"
+    },
+    {
+      "start": 3.679,
+      "duration": 3.041,
+      "text": "anything crazy to get it working. All"
+    },
+    {
+      "start": 5.12,
+      "duration": 3.36,
+      "text": "you have to do is update your codeex"
+    },
+    {
+      "start": 6.72,
+      "duration": 3.52,
+      "text": "installation. It's really easy. And the"
+    },
+    {
+      "start": 8.48,
+      "duration": 3.76,
+      "text": "even better news is that it follows the"
+    },
+    {
+      "start": 10.24,
+      "duration": 3.68,
+      "text": "skills spec almost word for word."
+    },
+    {
+      "start": 12.24,
+      "duration": 4.08,
+      "text": "Meaning if you created skills for claude"
+    },
+    {
+      "start": 13.92,
+      "duration": 3.92,
+      "text": "or claude code, 99% of the time it will"
+    },
+    {
+      "start": 16.32,
+      "duration": 2.64,
+      "text": "work out of the box. So in this quick"
+    },
+    {
+      "start": 17.84,
+      "duration": 2.72,
+      "text": "video we're going to go over agent"
+    },
+    {
+      "start": 18.96,
+      "duration": 3.12,
+      "text": "skills for codecs. I did a video on"
+    },
+    {
+      "start": 20.56,
+      "duration": 2.719,
+      "text": "skills about 2 months ago when Anthropic"
+    },
+    {
+      "start": 22.08,
+      "duration": 2.72,
+      "text": "just released it. I'll link to that"
+    },
+    {
+      "start": 23.279,
+      "duration": 3.361,
+      "text": "above. Essentially what it is is a way"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.76,
+      "text": "to pass skills to your agent. Be it"
+    },
+    {
+      "start": 26.64,
+      "duration": 3.52,
+      "text": "custom instructions, be it executable"
+    },
+    {
+      "start": 28.56,
+      "duration": 3.28,
+      "text": "scripts, you could put reference files"
+    },
+    {
+      "start": 30.16,
+      "duration": 3.919,
+      "text": "in there. And this is a very simple"
+    },
+    {
+      "start": 31.84,
+      "duration": 5.2,
+      "text": "solution for fixing context bloat. Be it"
+    },
+    {
+      "start": 34.079,
+      "duration": 5.441,
+      "text": "MCB servers, be it long agents.mmd files"
+    },
+    {
+      "start": 37.04,
+      "duration": 4.08,
+      "text": "or claw.mmd files. All these tools and"
+    },
+    {
+      "start": 39.52,
+      "duration": 3.359,
+      "text": "rules and files that essentially get put"
+    },
+    {
+      "start": 41.12,
+      "duration": 3.52,
+      "text": "into context and bloat our context"
+    },
+    {
+      "start": 42.879,
+      "duration": 3.041,
+      "text": "window even before we start working. And"
+    },
+    {
+      "start": 44.64,
+      "duration": 3.28,
+      "text": "skills uses this thing called"
+    },
+    {
+      "start": 45.92,
+      "duration": 3.6,
+      "text": "progressive disclosure which essentially"
+    },
+    {
+      "start": 47.92,
+      "duration": 3.04,
+      "text": "just gives the skill name and a short"
+    },
+    {
+      "start": 49.52,
+      "duration": 3.28,
+      "text": "description. And if the agent either"
+    },
+    {
+      "start": 50.96,
+      "duration": 3.2,
+      "text": "chooses to use it or you tell it to use"
+    },
+    {
+      "start": 52.8,
+      "duration": 3.04,
+      "text": "it, it will then look at the subsequent"
+    },
+    {
+      "start": 54.16,
+      "duration": 3.039,
+      "text": "files if it needs to instead of it all"
+    },
+    {
+      "start": 55.84,
+      "duration": 2.879,
+      "text": "getting added to your context at the"
+    },
+    {
+      "start": 57.199,
+      "duration": 3.441,
+      "text": "get-go. And I've used this to improve"
+    },
+    {
+      "start": 58.719,
+      "duration": 3.761,
+      "text": "MCB servers. I've used this instead of"
+    },
+    {
+      "start": 60.64,
+      "duration": 3.919,
+      "text": "MCP. And what's great about this is"
+    },
+    {
+      "start": 62.48,
+      "duration": 4.08,
+      "text": "OpenAI took the agent skill standard"
+    },
+    {
+      "start": 64.559,
+      "duration": 3.761,
+      "text": "spec and just applied it to Codex. So if"
+    },
+    {
+      "start": 66.56,
+      "duration": 3.76,
+      "text": "we look at the documentation, the skill"
+    },
+    {
+      "start": 68.32,
+      "duration": 3.76,
+      "text": "packages its instructions, resources,"
+    },
+    {
+      "start": 70.32,
+      "duration": 4,
+      "text": "and optional scripts to codeex to"
+    },
+    {
+      "start": 72.08,
+      "duration": 4,
+      "text": "perform a specific workflow reliably."
+    },
+    {
+      "start": 74.32,
+      "duration": 3.36,
+      "text": "You can share them across teams or the"
+    },
+    {
+      "start": 76.08,
+      "duration": 3.28,
+      "text": "community, and they build upon the open"
+    },
+    {
+      "start": 77.68,
+      "duration": 3.759,
+      "text": "agent skills standard. Skills are"
+    },
+    {
+      "start": 79.36,
+      "duration": 3.68,
+      "text": "available in codec cli and the ID"
+    },
+    {
+      "start": 81.439,
+      "duration": 3.04,
+      "text": "extensions. The structure of skills are"
+    },
+    {
+      "start": 83.04,
+      "duration": 3.36,
+      "text": "very simple. All you really need is a"
+    },
+    {
+      "start": 84.479,
+      "duration": 4.081,
+      "text": "skill.mmd file, but you can also put in"
+    },
+    {
+      "start": 86.4,
+      "duration": 3.759,
+      "text": "scripts and reference files and assets."
+    },
+    {
+      "start": 88.56,
+      "duration": 3.04,
+      "text": "These are all optional. Skills use"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.361,
+      "text": "progressive disclosure to manage the"
+    },
+    {
+      "start": 91.6,
+      "duration": 3.519,
+      "text": "context efficiently. At startup, Codex"
+    },
+    {
+      "start": 93.52,
+      "duration": 3.36,
+      "text": "loads the name and description of each"
+    },
+    {
+      "start": 95.119,
+      "duration": 3.201,
+      "text": "available skill and then Codex can load"
+    },
+    {
+      "start": 96.88,
+      "duration": 3.44,
+      "text": "the skill in two ways. Either you tell"
+    },
+    {
+      "start": 98.32,
+      "duration": 4,
+      "text": "it to do it or Codex can decide to use"
+    },
+    {
+      "start": 100.32,
+      "duration": 3.52,
+      "text": "it implicitly when it matches the user's"
+    },
+    {
+      "start": 102.32,
+      "duration": 3.119,
+      "text": "task. But in my experience of skills"
+    },
+    {
+      "start": 103.84,
+      "duration": 3.2,
+      "text": "both in Claude and now in Codex, I"
+    },
+    {
+      "start": 105.439,
+      "duration": 3.04,
+      "text": "prefer to just tell the agent use the"
+    },
+    {
+      "start": 107.04,
+      "duration": 3.68,
+      "text": "skill. With Codex, you can put skills on"
+    },
+    {
+      "start": 108.479,
+      "duration": 4.161,
+      "text": "multiple places. Codex has its own skill"
+    },
+    {
+      "start": 110.72,
+      "duration": 4.16,
+      "text": "creator skill and its own skill"
+    },
+    {
+      "start": 112.64,
+      "duration": 4.24,
+      "text": "installer skill, which is actually even"
+    },
+    {
+      "start": 114.88,
+      "duration": 3.44,
+      "text": "easier than adding skills via cloud code"
+    },
+    {
+      "start": 116.88,
+      "duration": 2.64,
+      "text": "or cloud desktop. But let me just show"
+    },
+    {
+      "start": 118.32,
+      "duration": 2.64,
+      "text": "you. First things first, you have to"
+    },
+    {
+      "start": 119.52,
+      "duration": 3.199,
+      "text": "update your version of Codex. If you"
+    },
+    {
+      "start": 120.96,
+      "duration": 3.04,
+      "text": "installed via npm, I'm pretty sure it"
+    },
+    {
+      "start": 122.719,
+      "duration": 2.881,
+      "text": "will auto update for you. If you"
+    },
+    {
+      "start": 124,
+      "duration": 2.96,
+      "text": "installed via bun, you just have to run"
+    },
+    {
+      "start": 125.6,
+      "duration": 2.639,
+      "text": "the installer again. Once you're on the"
+    },
+    {
+      "start": 126.96,
+      "duration": 4.079,
+      "text": "latest version of Codex, you just open"
+    },
+    {
+      "start": 128.239,
+      "duration": 4.321,
+      "text": "it up. If you do /kills, you can list"
+    },
+    {
+      "start": 131.039,
+      "duration": 3.28,
+      "text": "the skills that are already in there."
+    },
+    {
+      "start": 132.56,
+      "duration": 3.44,
+      "text": "And all we see here are the skill"
+    },
+    {
+      "start": 134.319,
+      "duration": 3.201,
+      "text": "creator and the skill installer. And"
+    },
+    {
+      "start": 136,
+      "duration": 3.44,
+      "text": "then if you go to the skill installer"
+    },
+    {
+      "start": 137.52,
+      "duration": 4,
+      "text": "and you just press enter, it will tell"
+    },
+    {
+      "start": 139.44,
+      "duration": 3.68,
+      "text": "you what skills are available via open"
+    },
+    {
+      "start": 141.52,
+      "duration": 3.68,
+      "text": "AI right now. So let's just go through"
+    },
+    {
+      "start": 143.12,
+      "duration": 4.08,
+      "text": "that. They have two GitHub skills and"
+    },
+    {
+      "start": 145.2,
+      "duration": 3.119,
+      "text": "four notion skills. That's cool and not"
+    },
+    {
+      "start": 147.2,
+      "duration": 2.32,
+      "text": "really relevant. So we're not going to"
+    },
+    {
+      "start": 148.319,
+      "duration": 2.56,
+      "text": "install any of those right now. But one"
+    },
+    {
+      "start": 149.52,
+      "duration": 3.12,
+      "text": "thing I want to show you right now to"
+    },
+    {
+      "start": 150.879,
+      "duration": 3.36,
+      "text": "invoke a skill directly, you just do"
+    },
+    {
+      "start": 152.64,
+      "duration": 3.44,
+      "text": "dollar sign and you can choose whatever"
+    },
+    {
+      "start": 154.239,
+      "duration": 3.36,
+      "text": "skill you want. If you do skill creator,"
+    },
+    {
+      "start": 156.08,
+      "duration": 3.04,
+      "text": "you can now have Codeex help you build"
+    },
+    {
+      "start": 157.599,
+      "duration": 3.521,
+      "text": "your own skills. But I want to show you"
+    },
+    {
+      "start": 159.12,
+      "duration": 4,
+      "text": "how to install already created skills."
+    },
+    {
+      "start": 161.12,
+      "duration": 3.92,
+      "text": "In a different video I did about skills,"
+    },
+    {
+      "start": 163.12,
+      "duration": 3.839,
+      "text": "I showed how to build, evaluate, and"
+    },
+    {
+      "start": 165.04,
+      "duration": 4,
+      "text": "install skills. And in that video, I"
+    },
+    {
+      "start": 166.959,
+      "duration": 3.681,
+      "text": "showed my skill evaluator skill. Because"
+    },
+    {
+      "start": 169.04,
+      "duration": 3.839,
+      "text": "when you install skills, you're adding"
+    },
+    {
+      "start": 170.64,
+      "duration": 3.599,
+      "text": "custom prompts and custom commands to"
+    },
+    {
+      "start": 172.879,
+      "duration": 3.121,
+      "text": "your agents. And therefore, you're"
+    },
+    {
+      "start": 174.239,
+      "duration": 3.121,
+      "text": "potentially opening yourself up to shady"
+    },
+    {
+      "start": 176,
+      "duration": 2.8,
+      "text": "business. If you're installing other"
+    },
+    {
+      "start": 177.36,
+      "duration": 3.36,
+      "text": "people's skills, you never know what"
+    },
+    {
+      "start": 178.8,
+      "duration": 3.76,
+      "text": "they put in there. So, I created a skill"
+    },
+    {
+      "start": 180.72,
+      "duration": 2.879,
+      "text": "evaluator skill to check other people's"
+    },
+    {
+      "start": 182.56,
+      "duration": 2.08,
+      "text": "skills. And I'm just going to show you"
+    },
+    {
+      "start": 183.599,
+      "duration": 2.64,
+      "text": "how to install that one right now"
+    },
+    {
+      "start": 184.64,
+      "duration": 3.28,
+      "text": "because it will show you how easy it is"
+    },
+    {
+      "start": 186.239,
+      "duration": 3.121,
+      "text": "to install other people's skills. And"
+    },
+    {
+      "start": 187.92,
+      "duration": 3.36,
+      "text": "it's actually even easier to install"
+    },
+    {
+      "start": 189.36,
+      "duration": 3.36,
+      "text": "thirdparty skills than it is for Claude"
+    },
+    {
+      "start": 191.28,
+      "duration": 2.879,
+      "text": "Code or Claude Desktop. So in that"
+    },
+    {
+      "start": 192.72,
+      "duration": 3.04,
+      "text": "video, which I'll link to above, I"
+    },
+    {
+      "start": 194.159,
+      "duration": 4.16,
+      "text": "shared my eval marketplace where I have"
+    },
+    {
+      "start": 195.76,
+      "duration": 3.759,
+      "text": "an MCP evaluator and a skills evaluator."
+    },
+    {
+      "start": 198.319,
+      "duration": 3.041,
+      "text": "And by the way, this is built with"
+    },
+    {
+      "start": 199.519,
+      "duration": 3.44,
+      "text": "Claude for Claude and Claude Code, but"
+    },
+    {
+      "start": 201.36,
+      "duration": 2.799,
+      "text": "Codeex doesn't support plugins or"
+    },
+    {
+      "start": 202.959,
+      "duration": 2.241,
+      "text": "marketplaces yet, but that doesn't"
+    },
+    {
+      "start": 204.159,
+      "duration": 2.72,
+      "text": "really matter. So if we go into"
+    },
+    {
+      "start": 205.2,
+      "duration": 3.28,
+      "text": "evaluator tools and then we go into"
+    },
+    {
+      "start": 206.879,
+      "duration": 2.961,
+      "text": "skills and then we go into the agent"
+    },
+    {
+      "start": 208.48,
+      "duration": 2.72,
+      "text": "skill evaluator and all we're going to"
+    },
+    {
+      "start": 209.84,
+      "duration": 3.52,
+      "text": "do is take the URL. And now I'm going to"
+    },
+    {
+      "start": 211.2,
+      "duration": 3.84,
+      "text": "invoke the skill installer, dollar sign"
+    },
+    {
+      "start": 213.36,
+      "duration": 3.2,
+      "text": "skill installer, and just paste the URL"
+    },
+    {
+      "start": 215.04,
+      "duration": 2.88,
+      "text": "in here. Press enter. And now it's"
+    },
+    {
+      "start": 216.56,
+      "duration": 2.8,
+      "text": "asking permission. So, we're just going"
+    },
+    {
+      "start": 217.92,
+      "duration": 3.36,
+      "text": "to give it permission and that's it. So,"
+    },
+    {
+      "start": 219.36,
+      "duration": 4.08,
+      "text": "it installed the agent skill evaluator"
+    },
+    {
+      "start": 221.28,
+      "duration": 3.519,
+      "text": "to my user level skills and all I have"
+    },
+    {
+      "start": 223.44,
+      "duration": 2.96,
+      "text": "to do to get it working is to quit"
+    },
+    {
+      "start": 224.799,
+      "duration": 3.921,
+      "text": "codeex and go back into it. So, let's do"
+    },
+    {
+      "start": 226.4,
+      "duration": 4.8,
+      "text": "/quit and open up codex again. And now,"
+    },
+    {
+      "start": 228.72,
+      "duration": 4.4,
+      "text": "if we do /kills, we see three skills."
+    },
+    {
+      "start": 231.2,
+      "duration": 3.679,
+      "text": "The skill creator, the skill installer,"
+    },
+    {
+      "start": 233.12,
+      "duration": 3.44,
+      "text": "and the one we just installed, the agent"
+    },
+    {
+      "start": 234.879,
+      "duration": 3.44,
+      "text": "skill evaluator skill. It was that"
+    },
+    {
+      "start": 236.56,
+      "duration": 3.039,
+      "text": "simple and I'll show you it working in 1"
+    },
+    {
+      "start": 238.319,
+      "duration": 3.041,
+      "text": "second. But let's say you already have"
+    },
+    {
+      "start": 239.599,
+      "duration": 3.441,
+      "text": "skills installed for Claude in your"
+    },
+    {
+      "start": 241.36,
+      "duration": 3.439,
+      "text": "project. Let me show you how easy it is"
+    },
+    {
+      "start": 243.04,
+      "duration": 3.6,
+      "text": "to get it working in Codex. This is a"
+    },
+    {
+      "start": 244.799,
+      "duration": 4,
+      "text": "project I used in a previous video just"
+    },
+    {
+      "start": 246.64,
+      "duration": 3.519,
+      "text": "testing skills versus MCP and in it we"
+    },
+    {
+      "start": 248.799,
+      "duration": 2.8,
+      "text": "have a playright skill. In that video I"
+    },
+    {
+      "start": 250.159,
+      "duration": 3.36,
+      "text": "also showed how certain skills can"
+    },
+    {
+      "start": 251.599,
+      "duration": 3.441,
+      "text": "replace MCP servers. In this case we"
+    },
+    {
+      "start": 253.519,
+      "duration": 3.12,
+      "text": "talked about playright because playright"
+    },
+    {
+      "start": 255.04,
+      "duration": 3.199,
+      "text": "could also be called from the CLI and"
+    },
+    {
+      "start": 256.639,
+      "duration": 3.201,
+      "text": "somebody created a playright skill that"
+    },
+    {
+      "start": 258.239,
+      "duration": 3.441,
+      "text": "almost completely replaces the need for"
+    },
+    {
+      "start": 259.84,
+      "duration": 3.76,
+      "text": "the playright MCP server which takes up"
+    },
+    {
+      "start": 261.68,
+      "duration": 3.519,
+      "text": "a lot of context. So this is a third"
+    },
+    {
+      "start": 263.6,
+      "duration": 2.8,
+      "text": "party skill that somebody created. He's"
+    },
+    {
+      "start": 265.199,
+      "duration": 2.72,
+      "text": "still updating it and it's already"
+    },
+    {
+      "start": 266.4,
+      "duration": 3.12,
+      "text": "working for Claude code. So to get it to"
+    },
+    {
+      "start": 267.919,
+      "duration": 3.361,
+      "text": "work in codeex in this project all I"
+    },
+    {
+      "start": 269.52,
+      "duration": 3.52,
+      "text": "have to do is create a codeex folder."
+    },
+    {
+      "start": 271.28,
+      "duration": 2.8,
+      "text": "Inside that, create a skills folder. And"
+    },
+    {
+      "start": 273.04,
+      "duration": 2.96,
+      "text": "now we're just going to paste it in"
+    },
+    {
+      "start": 274.08,
+      "duration": 3.52,
+      "text": "here. So check this out. Here's a claude"
+    },
+    {
+      "start": 276,
+      "duration": 3.199,
+      "text": "skills folder with a playright skill."
+    },
+    {
+      "start": 277.6,
+      "duration": 3.2,
+      "text": "And here we have the Codex folder with a"
+    },
+    {
+      "start": 279.199,
+      "duration": 3.601,
+      "text": "skill folder with a playright skill as"
+    },
+    {
+      "start": 280.8,
+      "duration": 4.24,
+      "text": "well. So now if we quit Codex again, and"
+    },
+    {
+      "start": 282.8,
+      "duration": 4.16,
+      "text": "then we reopen it up and then do /kills."
+    },
+    {
+      "start": 285.04,
+      "duration": 3.52,
+      "text": "We now see the new playright browser"
+    },
+    {
+      "start": 286.96,
+      "duration": 3.2,
+      "text": "skill. It was that easy. It just works."
+    },
+    {
+      "start": 288.56,
+      "duration": 3.6,
+      "text": "So let's just clear it up, make it"
+    },
+    {
+      "start": 290.16,
+      "duration": 3.12,
+      "text": "clean. Open up Codex again. So what"
+    },
+    {
+      "start": 292.16,
+      "duration": 3.28,
+      "text": "we're going to do is we're going to use"
+    },
+    {
+      "start": 293.28,
+      "duration": 4.08,
+      "text": "the agent skill evaluator skill that we"
+    },
+    {
+      "start": 295.44,
+      "duration": 3.52,
+      "text": "imported from GitHub to look at the"
+    },
+    {
+      "start": 297.36,
+      "duration": 3.52,
+      "text": "Playright skill and make sure it's safe."
+    },
+    {
+      "start": 298.96,
+      "duration": 4,
+      "text": "And I just want to show you how portable"
+    },
+    {
+      "start": 300.88,
+      "duration": 3.68,
+      "text": "our clot skills are with codeex skills."
+    },
+    {
+      "start": 302.96,
+      "duration": 3.44,
+      "text": "And by the way, this is unlike MCP where"
+    },
+    {
+      "start": 304.56,
+      "duration": 4.079,
+      "text": "with codeex you have to change the JSON"
+    },
+    {
+      "start": 306.4,
+      "duration": 3.6,
+      "text": "config to Toml. This doesn't need any"
+    },
+    {
+      "start": 308.639,
+      "duration": 2.721,
+      "text": "different configurations right now. And"
+    },
+    {
+      "start": 310,
+      "duration": 3.44,
+      "text": "more than that, I've tested skills I"
+    },
+    {
+      "start": 311.36,
+      "duration": 3.52,
+      "text": "made for claudex and by definition it"
+    },
+    {
+      "start": 313.44,
+      "duration": 3.039,
+      "text": "shouldn't have worked and codeex just"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.12,
+      "text": "selfcorrected. Let me just show you. So"
+    },
+    {
+      "start": 316.479,
+      "duration": 3.28,
+      "text": "we're going to press the agent skill"
+    },
+    {
+      "start": 318,
+      "duration": 3.759,
+      "text": "evaluator. And now we're going to go"
+    },
+    {
+      "start": 319.759,
+      "duration": 3.841,
+      "text": "back to the GitHub, copy the URL, and"
+    },
+    {
+      "start": 321.759,
+      "duration": 3.761,
+      "text": "put it in here. So we're doing agent"
+    },
+    {
+      "start": 323.6,
+      "duration": 3.68,
+      "text": "skill evaluator and putting in the URL"
+    },
+    {
+      "start": 325.52,
+      "duration": 3.679,
+      "text": "of this third party playright skill. And"
+    },
+    {
+      "start": 327.28,
+      "duration": 4.08,
+      "text": "by the way, this skill tells the agent"
+    },
+    {
+      "start": 329.199,
+      "duration": 3.921,
+      "text": "to use various MCP servers like Bright"
+    },
+    {
+      "start": 331.36,
+      "duration": 3.04,
+      "text": "Data, like GitHub, and do a whole"
+    },
+    {
+      "start": 333.12,
+      "duration": 2.799,
+      "text": "evaluation of the skill to make sure"
+    },
+    {
+      "start": 334.4,
+      "duration": 3.44,
+      "text": "there's no shady commands or code and"
+    },
+    {
+      "start": 335.919,
+      "duration": 3.601,
+      "text": "then give us a full report to know if"
+    },
+    {
+      "start": 337.84,
+      "duration": 3.6,
+      "text": "this is a good skill to install or not."
+    },
+    {
+      "start": 339.52,
+      "duration": 3.44,
+      "text": "So, let's see what happens. Okay, so it"
+    },
+    {
+      "start": 341.44,
+      "duration": 3.599,
+      "text": "finished running and it worked almost"
+    },
+    {
+      "start": 342.96,
+      "duration": 3.76,
+      "text": "perfectly. It used the bright data MCP."
+    },
+    {
+      "start": 345.039,
+      "duration": 3.201,
+      "text": "You can see all the tool calls here and"
+    },
+    {
+      "start": 346.72,
+      "duration": 3.6,
+      "text": "then it looked at the reference files,"
+    },
+    {
+      "start": 348.24,
+      "duration": 3.6,
+      "text": "the attack patterns.mmd file, and then"
+    },
+    {
+      "start": 350.32,
+      "duration": 2.56,
+      "text": "it asked me to create the output. And"
+    },
+    {
+      "start": 351.84,
+      "duration": 2.56,
+      "text": "this is actually really interesting"
+    },
+    {
+      "start": 352.88,
+      "duration": 3.2,
+      "text": "because this skill was built with Claude"
+    },
+    {
+      "start": 354.4,
+      "duration": 3.44,
+      "text": "in mind and it want to output it to this"
+    },
+    {
+      "start": 356.08,
+      "duration": 3.44,
+      "text": "directory. But this directory is very"
+    },
+    {
+      "start": 357.84,
+      "duration": 3.44,
+      "text": "specific to claude and claude code. So"
+    },
+    {
+      "start": 359.52,
+      "duration": 3.6,
+      "text": "here it sees it was read only. So in the"
+    },
+    {
+      "start": 361.28,
+      "duration": 3.52,
+      "text": "end it created its own outputs directory"
+    },
+    {
+      "start": 363.12,
+      "duration": 3.519,
+      "text": "in the project and then gave us the"
+    },
+    {
+      "start": 364.8,
+      "duration": 3.92,
+      "text": "markdown file just like I told it to do"
+    },
+    {
+      "start": 366.639,
+      "duration": 3.761,
+      "text": "in the skill itself. Very detailed, very"
+    },
+    {
+      "start": 368.72,
+      "duration": 3.199,
+      "text": "good. And the bottom line here is it"
+    },
+    {
+      "start": 370.4,
+      "duration": 2.96,
+      "text": "just selfcorrected. So that's really"
+    },
+    {
+      "start": 371.919,
+      "duration": 3.84,
+      "text": "cool. I think it's great that only after"
+    },
+    {
+      "start": 373.36,
+      "duration": 4.48,
+      "text": "2 months Openai has adopted the full"
+    },
+    {
+      "start": 375.759,
+      "duration": 3.841,
+      "text": "spec, implemented it into codeex. I'm"
+    },
+    {
+      "start": 377.84,
+      "duration": 3.04,
+      "text": "hoping that it will also come to chatbt"
+    },
+    {
+      "start": 379.6,
+      "duration": 3.28,
+      "text": "very soon. I think it's really cool that"
+    },
+    {
+      "start": 380.88,
+      "duration": 4.24,
+      "text": "Anthropic is coming out with these novel"
+    },
+    {
+      "start": 382.88,
+      "duration": 3.28,
+      "text": "ideas to solve limitations of LLMs. And"
+    },
+    {
+      "start": 385.12,
+      "duration": 2.4,
+      "text": "they're not perfect and they're still"
+    },
+    {
+      "start": 386.16,
+      "duration": 2.64,
+      "text": "being improved upon, but they're simple"
+    },
+    {
+      "start": 387.52,
+      "duration": 2.72,
+      "text": "enough that other companies are able to"
+    },
+    {
+      "start": 388.8,
+      "duration": 2.64,
+      "text": "adopt them and ship them in a matter of"
+    },
+    {
+      "start": 390.24,
+      "duration": 2.32,
+      "text": "months. So, let me know what you guys"
+    },
+    {
+      "start": 391.44,
+      "duration": 2.64,
+      "text": "think. I hope you found this video"
+    },
+    {
+      "start": 392.56,
+      "duration": 3.04,
+      "text": "helpful or insightful. If you have any"
+    },
+    {
+      "start": 394.08,
+      "duration": 2.959,
+      "text": "questions or feedback, drop it in the"
+    },
+    {
+      "start": 395.6,
+      "duration": 2.719,
+      "text": "comments below. If you haven't done so"
+    },
+    {
+      "start": 397.039,
+      "duration": 2.561,
+      "text": "already, subscribe to the channel. It"
+    },
+    {
+      "start": 398.319,
+      "duration": 4.081,
+      "text": "really helps me grow. Thank you guys for"
+    },
+    {
+      "start": 399.6,
+      "duration": 2.8,
+      "text": "watching and have a great"
+    }
+  ],
+  "fullText": "Codeex just got agent skill support. And the good news is you don't have to do anything crazy to get it working. All you have to do is update your codeex installation. It's really easy. And the even better news is that it follows the skills spec almost word for word. Meaning if you created skills for claude or claude code, 99% of the time it will work out of the box. So in this quick video we're going to go over agent skills for codecs. I did a video on skills about 2 months ago when Anthropic just released it. I'll link to that above. Essentially what it is is a way to pass skills to your agent. Be it custom instructions, be it executable scripts, you could put reference files in there. And this is a very simple solution for fixing context bloat. Be it MCB servers, be it long agents.mmd files or claw.mmd files. All these tools and rules and files that essentially get put into context and bloat our context window even before we start working. And skills uses this thing called progressive disclosure which essentially just gives the skill name and a short description. And if the agent either chooses to use it or you tell it to use it, it will then look at the subsequent files if it needs to instead of it all getting added to your context at the get-go. And I've used this to improve MCB servers. I've used this instead of MCP. And what's great about this is OpenAI took the agent skill standard spec and just applied it to Codex. So if we look at the documentation, the skill packages its instructions, resources, and optional scripts to codeex to perform a specific workflow reliably. You can share them across teams or the community, and they build upon the open agent skills standard. Skills are available in codec cli and the ID extensions. The structure of skills are very simple. All you really need is a skill.mmd file, but you can also put in scripts and reference files and assets. These are all optional. Skills use progressive disclosure to manage the context efficiently. At startup, Codex loads the name and description of each available skill and then Codex can load the skill in two ways. Either you tell it to do it or Codex can decide to use it implicitly when it matches the user's task. But in my experience of skills both in Claude and now in Codex, I prefer to just tell the agent use the skill. With Codex, you can put skills on multiple places. Codex has its own skill creator skill and its own skill installer skill, which is actually even easier than adding skills via cloud code or cloud desktop. But let me just show you. First things first, you have to update your version of Codex. If you installed via npm, I'm pretty sure it will auto update for you. If you installed via bun, you just have to run the installer again. Once you're on the latest version of Codex, you just open it up. If you do /kills, you can list the skills that are already in there. And all we see here are the skill creator and the skill installer. And then if you go to the skill installer and you just press enter, it will tell you what skills are available via open AI right now. So let's just go through that. They have two GitHub skills and four notion skills. That's cool and not really relevant. So we're not going to install any of those right now. But one thing I want to show you right now to invoke a skill directly, you just do dollar sign and you can choose whatever skill you want. If you do skill creator, you can now have Codeex help you build your own skills. But I want to show you how to install already created skills. In a different video I did about skills, I showed how to build, evaluate, and install skills. And in that video, I showed my skill evaluator skill. Because when you install skills, you're adding custom prompts and custom commands to your agents. And therefore, you're potentially opening yourself up to shady business. If you're installing other people's skills, you never know what they put in there. So, I created a skill evaluator skill to check other people's skills. And I'm just going to show you how to install that one right now because it will show you how easy it is to install other people's skills. And it's actually even easier to install thirdparty skills than it is for Claude Code or Claude Desktop. So in that video, which I'll link to above, I shared my eval marketplace where I have an MCP evaluator and a skills evaluator. And by the way, this is built with Claude for Claude and Claude Code, but Codeex doesn't support plugins or marketplaces yet, but that doesn't really matter. So if we go into evaluator tools and then we go into skills and then we go into the agent skill evaluator and all we're going to do is take the URL. And now I'm going to invoke the skill installer, dollar sign skill installer, and just paste the URL in here. Press enter. And now it's asking permission. So, we're just going to give it permission and that's it. So, it installed the agent skill evaluator to my user level skills and all I have to do to get it working is to quit codeex and go back into it. So, let's do /quit and open up codex again. And now, if we do /kills, we see three skills. The skill creator, the skill installer, and the one we just installed, the agent skill evaluator skill. It was that simple and I'll show you it working in 1 second. But let's say you already have skills installed for Claude in your project. Let me show you how easy it is to get it working in Codex. This is a project I used in a previous video just testing skills versus MCP and in it we have a playright skill. In that video I also showed how certain skills can replace MCP servers. In this case we talked about playright because playright could also be called from the CLI and somebody created a playright skill that almost completely replaces the need for the playright MCP server which takes up a lot of context. So this is a third party skill that somebody created. He's still updating it and it's already working for Claude code. So to get it to work in codeex in this project all I have to do is create a codeex folder. Inside that, create a skills folder. And now we're just going to paste it in here. So check this out. Here's a claude skills folder with a playright skill. And here we have the Codex folder with a skill folder with a playright skill as well. So now if we quit Codex again, and then we reopen it up and then do /kills. We now see the new playright browser skill. It was that easy. It just works. So let's just clear it up, make it clean. Open up Codex again. So what we're going to do is we're going to use the agent skill evaluator skill that we imported from GitHub to look at the Playright skill and make sure it's safe. And I just want to show you how portable our clot skills are with codeex skills. And by the way, this is unlike MCP where with codeex you have to change the JSON config to Toml. This doesn't need any different configurations right now. And more than that, I've tested skills I made for claudex and by definition it shouldn't have worked and codeex just selfcorrected. Let me just show you. So we're going to press the agent skill evaluator. And now we're going to go back to the GitHub, copy the URL, and put it in here. So we're doing agent skill evaluator and putting in the URL of this third party playright skill. And by the way, this skill tells the agent to use various MCP servers like Bright Data, like GitHub, and do a whole evaluation of the skill to make sure there's no shady commands or code and then give us a full report to know if this is a good skill to install or not. So, let's see what happens. Okay, so it finished running and it worked almost perfectly. It used the bright data MCP. You can see all the tool calls here and then it looked at the reference files, the attack patterns.mmd file, and then it asked me to create the output. And this is actually really interesting because this skill was built with Claude in mind and it want to output it to this directory. But this directory is very specific to claude and claude code. So here it sees it was read only. So in the end it created its own outputs directory in the project and then gave us the markdown file just like I told it to do in the skill itself. Very detailed, very good. And the bottom line here is it just selfcorrected. So that's really cool. I think it's great that only after 2 months Openai has adopted the full spec, implemented it into codeex. I'm hoping that it will also come to chatbt very soon. I think it's really cool that Anthropic is coming out with these novel ideas to solve limitations of LLMs. And they're not perfect and they're still being improved upon, but they're simple enough that other companies are able to adopt them and ship them in a matter of months. So, let me know what you guys think. I hope you found this video helpful or insightful. If you have any questions or feedback, drop it in the comments below. If you haven't done so already, subscribe to the channel. It really helps me grow. Thank you guys for watching and have a great",
+  "fetchedAt": "2026-01-18T18:32:40.214Z"
+}

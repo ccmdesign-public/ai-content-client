@@ -1,0 +1,1934 @@
+{
+  "videoId": "THpWtwZ866s",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 5.759,
+      "text": "Welcome friends to another video of me"
+    },
+    {
+      "start": 2.48,
+      "duration": 4.319,
+      "text": "talking about of course specit. And"
+    },
+    {
+      "start": 5.759,
+      "duration": 2.721,
+      "text": "today I'm going to be breaking a"
+    },
+    {
+      "start": 6.799,
+      "duration": 3.521,
+      "text": "cardinal rule of mine because usually I"
+    },
+    {
+      "start": 8.48,
+      "duration": 4.159,
+      "text": "talk about stuff that has already"
+    },
+    {
+      "start": 10.32,
+      "duration": 4.16,
+      "text": "shipped, stuff that you can just go to"
+    },
+    {
+      "start": 12.639,
+      "duration": 3.761,
+      "text": "the repo, click a couple buttons, and"
+    },
+    {
+      "start": 14.48,
+      "duration": 3.28,
+      "text": "just download. And today I'm going to be"
+    },
+    {
+      "start": 16.4,
+      "duration": 3.68,
+      "text": "talking about something that is"
+    },
+    {
+      "start": 17.76,
+      "duration": 5.12,
+      "text": "currently gated behind a pull request."
+    },
+    {
+      "start": 20.08,
+      "duration": 4.72,
+      "text": "That's right. It's an unstaged change"
+    },
+    {
+      "start": 22.88,
+      "duration": 4.159,
+      "text": "that is not yet in production. And I"
+    },
+    {
+      "start": 24.8,
+      "duration": 4.799,
+      "text": "have a very, very good reason for it"
+    },
+    {
+      "start": 27.039,
+      "duration": 5.121,
+      "text": "that I will explain. But before we get"
+    },
+    {
+      "start": 29.599,
+      "duration": 6.401,
+      "text": "to that, I just want to call out this"
+    },
+    {
+      "start": 32.16,
+      "duration": 6.719,
+      "text": "little thing here. Look at the number."
+    },
+    {
+      "start": 36,
+      "duration": 6.16,
+      "text": "40.7,000"
+    },
+    {
+      "start": 38.879,
+      "duration": 4.481,
+      "text": "people enjoy Speckit. I am so grateful"
+    },
+    {
+      "start": 42.16,
+      "duration": 2.559,
+      "text": "to every single one of you for"
+    },
+    {
+      "start": 43.36,
+      "duration": 3.519,
+      "text": "submitting your feedback, trying this"
+    },
+    {
+      "start": 44.719,
+      "duration": 4.721,
+      "text": "out. This is means the world to me. So,"
+    },
+    {
+      "start": 46.879,
+      "duration": 4.16,
+      "text": "thank you. Thank you for that. Um, keep"
+    },
+    {
+      "start": 49.44,
+      "duration": 3.04,
+      "text": "the feedback coming. Keep the pull"
+    },
+    {
+      "start": 51.039,
+      "duration": 3.52,
+      "text": "requests coming. I'm triaging them"
+    },
+    {
+      "start": 52.48,
+      "duration": 4.559,
+      "text": "regularly and we're we're getting faster"
+    },
+    {
+      "start": 54.559,
+      "duration": 5.441,
+      "text": "at this. I know this. And I was talking"
+    },
+    {
+      "start": 57.039,
+      "duration": 5.04,
+      "text": "about a PR here. So we have PR 986. It's"
+    },
+    {
+      "start": 60,
+      "duration": 3.52,
+      "text": "a pull request in GitHub. It's again all"
+    },
+    {
+      "start": 62.079,
+      "duration": 4.161,
+      "text": "of this is in the open. You you can take"
+    },
+    {
+      "start": 63.52,
+      "duration": 5.84,
+      "text": "a look at exactly what it changes. So"
+    },
+    {
+      "start": 66.24,
+      "duration": 5.36,
+      "text": "there's a few things that this PR"
+    },
+    {
+      "start": 69.36,
+      "duration": 4.32,
+      "text": "introduces. By the way, I should mention"
+    },
+    {
+      "start": 71.6,
+      "duration": 4.8,
+      "text": "that the branch naming is now much"
+    },
+    {
+      "start": 73.68,
+      "duration": 5.68,
+      "text": "serit."
+    },
+    {
+      "start": 76.4,
+      "duration": 4.719,
+      "text": "Remember how we had this problem of 001"
+    },
+    {
+      "start": 79.36,
+      "duration": 4.16,
+      "text": "I want you and it's like an absolutely"
+    },
+    {
+      "start": 81.119,
+      "duration": 4.561,
+      "text": "unhinged branch name like nobody should"
+    },
+    {
+      "start": 83.52,
+      "duration": 5.919,
+      "text": "be using that as a branch name. We fixed"
+    },
+    {
+      "start": 85.68,
+      "duration": 5.52,
+      "text": "that with the power of LLMs because now"
+    },
+    {
+      "start": 89.439,
+      "duration": 3.68,
+      "text": "you can actually get a short name that"
+    },
+    {
+      "start": 91.2,
+      "duration": 3.52,
+      "text": "is representative of your prompt. So if"
+    },
+    {
+      "start": 93.119,
+      "duration": 3.04,
+      "text": "you're building a podcast landing page,"
+    },
+    {
+      "start": 94.72,
+      "duration": 3.039,
+      "text": "it's going to be something like 001"
+    },
+    {
+      "start": 96.159,
+      "duration": 3.441,
+      "text": "podcast landing. If you're building"
+    },
+    {
+      "start": 97.759,
+      "duration": 3.841,
+      "text": "something like a feature that changes"
+    },
+    {
+      "start": 99.6,
+      "duration": 4.8,
+      "text": "the checkout flow, it's going to be 002"
+    },
+    {
+      "start": 101.6,
+      "duration": 5.839,
+      "text": "checkout flow. Much better, much easier"
+    },
+    {
+      "start": 104.4,
+      "duration": 4.64,
+      "text": "to parse. But there's another thing that"
+    },
+    {
+      "start": 107.439,
+      "duration": 3.521,
+      "text": "this pull request introduces that I talk"
+    },
+    {
+      "start": 109.04,
+      "duration": 4.8,
+      "text": "about here in screenshots, but I'd"
+    },
+    {
+      "start": 110.96,
+      "duration": 4.88,
+      "text": "rather show you. So for this we have"
+    },
+    {
+      "start": 113.84,
+      "duration": 3.599,
+      "text": "Visual Studio Code Insiders, right? So"
+    },
+    {
+      "start": 115.84,
+      "duration": 4.48,
+      "text": "Visual Studio Code Insiders and I'm"
+    },
+    {
+      "start": 117.439,
+      "duration": 4.241,
+      "text": "using Copilot. All the functionality"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.92,
+      "text": "pieces that I'm going to be describing"
+    },
+    {
+      "start": 121.68,
+      "duration": 4.16,
+      "text": "today are specific to Copilot inside"
+    },
+    {
+      "start": 124.24,
+      "duration": 3.28,
+      "text": "Visual Studio Code. This doesn't quite"
+    },
+    {
+      "start": 125.84,
+      "duration": 3.199,
+      "text": "work with other agents because this is"
+    },
+    {
+      "start": 127.52,
+      "duration": 4.64,
+      "text": "something that the Copilot folks"
+    },
+    {
+      "start": 129.039,
+      "duration": 6.081,
+      "text": "introduced. But if you are downloading"
+    },
+    {
+      "start": 132.16,
+      "duration": 5.12,
+      "text": "the co-pilot version of the packages"
+    },
+    {
+      "start": 135.12,
+      "duration": 4.16,
+      "text": "that we have here, by the way, because"
+    },
+    {
+      "start": 137.28,
+      "duration": 3.599,
+      "text": "they're gated in the PR, you might be"
+    },
+    {
+      "start": 139.28,
+      "duration": 4,
+      "text": "asking yourself, well, typically if I go"
+    },
+    {
+      "start": 140.879,
+      "duration": 3.841,
+      "text": "to the repo, right, to my specit repo,"
+    },
+    {
+      "start": 143.28,
+      "duration": 4.64,
+      "text": "there is a specit template. So, you can"
+    },
+    {
+      "start": 144.72,
+      "duration": 5.04,
+      "text": "just grab a template from here"
+    },
+    {
+      "start": 147.92,
+      "duration": 3.52,
+      "text": "and just push it right like into your"
+    },
+    {
+      "start": 149.76,
+      "duration": 3.119,
+      "text": "project. You can just download, unzip"
+    },
+    {
+      "start": 151.44,
+      "duration": 4,
+      "text": "the file, and just throw it into your"
+    },
+    {
+      "start": 152.879,
+      "duration": 4.161,
+      "text": "project. Boom, done."
+    },
+    {
+      "start": 155.44,
+      "duration": 3.6,
+      "text": "Doesn't quite work like that because we"
+    },
+    {
+      "start": 157.04,
+      "duration": 3.76,
+      "text": "have a PR here, right? And if you have a"
+    },
+    {
+      "start": 159.04,
+      "duration": 4.08,
+      "text": "pull request"
+    },
+    {
+      "start": 160.8,
+      "duration": 4.799,
+      "text": "with specific changes to templates, how"
+    },
+    {
+      "start": 163.12,
+      "duration": 5.04,
+      "text": "do I modify these things? How do I grab"
+    },
+    {
+      "start": 165.599,
+      "duration": 5.681,
+      "text": "them for myself? Well, the good news is"
+    },
+    {
+      "start": 168.16,
+      "duration": 6.4,
+      "text": "if we go to the terminal here, I can run"
+    },
+    {
+      "start": 171.28,
+      "duration": 6.319,
+      "text": "a script. You have a script here for you"
+    },
+    {
+      "start": 174.56,
+      "duration": 5.6,
+      "text": "that does just that. It's called the"
+    },
+    {
+      "start": 177.599,
+      "duration": 4,
+      "text": "create release packages."
+    },
+    {
+      "start": 180.16,
+      "duration": 3.2,
+      "text": "There's a PowerShell script and there's"
+    },
+    {
+      "start": 181.599,
+      "duration": 4.481,
+      "text": "also a shell script. And then you append"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.599,
+      "text": "the version. This can be anything. It"
+    },
+    {
+      "start": 186.08,
+      "duration": 3.84,
+      "text": "doesn't matter because you're going to"
+    },
+    {
+      "start": 186.959,
+      "duration": 6.241,
+      "text": "be writing this locally, right? And what"
+    },
+    {
+      "start": 189.92,
+      "duration": 5.76,
+      "text": "this will do is this will produce"
+    },
+    {
+      "start": 193.2,
+      "duration": 5.679,
+      "text": "a number of"
+    },
+    {
+      "start": 195.68,
+      "duration": 4.32,
+      "text": "local copies for every single agent of"
+    },
+    {
+      "start": 198.879,
+      "duration": 2.881,
+      "text": "all the templates. So if you're"
+    },
+    {
+      "start": 200,
+      "duration": 4.159,
+      "text": "iterating on your local branch, you can"
+    },
+    {
+      "start": 201.76,
+      "duration": 4.559,
+      "text": "grab these templates. You can uh take a"
+    },
+    {
+      "start": 204.159,
+      "duration": 5.281,
+      "text": "look here into let's take a look at the"
+    },
+    {
+      "start": 206.319,
+      "duration": 4.721,
+      "text": "gen releases. This is the folder,"
+    },
+    {
+      "start": 209.44,
+      "duration": 4,
+      "text": "right? So we'll see that there's a bunch"
+    },
+    {
+      "start": 211.04,
+      "duration": 3.919,
+      "text": "of folders and a bunch of zip files."
+    },
+    {
+      "start": 213.44,
+      "duration": 3.04,
+      "text": "These are what's used for the releases."
+    },
+    {
+      "start": 214.959,
+      "duration": 2.881,
+      "text": "So you can just grab the latest one"
+    },
+    {
+      "start": 216.48,
+      "duration": 3.759,
+      "text": "here. So if you ever are cloning a"
+    },
+    {
+      "start": 217.84,
+      "duration": 4.959,
+      "text": "branch, you can you can do this and just"
+    },
+    {
+      "start": 220.239,
+      "duration": 4,
+      "text": "grab the latest, put in your project and"
+    },
+    {
+      "start": 222.799,
+      "duration": 3.52,
+      "text": "iterate and experiment with it. But"
+    },
+    {
+      "start": 224.239,
+      "duration": 4.64,
+      "text": "anyway, that's not the point. So with"
+    },
+    {
+      "start": 226.319,
+      "duration": 6.321,
+      "text": "this PR, you can actually use VS Code"
+    },
+    {
+      "start": 228.879,
+      "duration": 5.521,
+      "text": "Insiders now to go and generate and copy"
+    },
+    {
+      "start": 232.64,
+      "duration": 4.159,
+      "text": "the latest version of the templates, put"
+    },
+    {
+      "start": 234.4,
+      "duration": 4.399,
+      "text": "it in your project. And then what you'll"
+    },
+    {
+      "start": 236.799,
+      "duration": 5.121,
+      "text": "notice that now in the GitHub folder"
+    },
+    {
+      "start": 238.799,
+      "duration": 7.121,
+      "text": "here, previously we only had prompts."
+    },
+    {
+      "start": 241.92,
+      "duration": 5.92,
+      "text": "Now we shifted to chat modes, right? So"
+    },
+    {
+      "start": 245.92,
+      "duration": 3.36,
+      "text": "if we look here at at the at these"
+    },
+    {
+      "start": 247.84,
+      "duration": 3.2,
+      "text": "folders here, so the prompts, we have"
+    },
+    {
+      "start": 249.28,
+      "duration": 3.12,
+      "text": "the prompt.md files. And this is how you"
+    },
+    {
+      "start": 251.04,
+      "duration": 4.32,
+      "text": "know that there are prompts, right? Is"
+    },
+    {
+      "start": 252.4,
+      "duration": 6.399,
+      "text": "because you generally have this suffix"
+    },
+    {
+      "start": 255.36,
+      "duration": 6.399,
+      "text": "here, prompt MD, right? So they're still"
+    },
+    {
+      "start": 258.799,
+      "duration": 7.761,
+      "text": "there, but now there's a chat modes file"
+    },
+    {
+      "start": 261.759,
+      "duration": 6.961,
+      "text": "or set of files with a chat modem MD"
+    },
+    {
+      "start": 266.56,
+      "duration": 4.8,
+      "text": "prefix, right? So you know for a fact"
+    },
+    {
+      "start": 268.72,
+      "duration": 4.479,
+      "text": "that these are chat modes and chat modes"
+    },
+    {
+      "start": 271.36,
+      "duration": 4.48,
+      "text": "in this case act as almost like system"
+    },
+    {
+      "start": 273.199,
+      "duration": 4,
+      "text": "prompts. We've reorganized things a"
+    },
+    {
+      "start": 275.84,
+      "duration": 3.12,
+      "text": "little bit where the stuff that"
+    },
+    {
+      "start": 277.199,
+      "duration": 3.44,
+      "text": "previously was in a prompt is now inside"
+    },
+    {
+      "start": 278.96,
+      "duration": 5.2,
+      "text": "a chat mode. So if we're going to look"
+    },
+    {
+      "start": 280.639,
+      "duration": 6.081,
+      "text": "inside specit analyze the chat mode it's"
+    },
+    {
+      "start": 284.16,
+      "duration": 4.319,
+      "text": "exactly the same content that you saw"
+    },
+    {
+      "start": 286.72,
+      "duration": 5.039,
+      "text": "before with the prompt. It's literally"
+    },
+    {
+      "start": 288.479,
+      "duration": 5.44,
+      "text": "exactly the same but"
+    },
+    {
+      "start": 291.759,
+      "duration": 5.281,
+      "text": "you now trigger it through a chat mode"
+    },
+    {
+      "start": 293.919,
+      "duration": 4.481,
+      "text": "not a prompt at the same time."
+    },
+    {
+      "start": 297.04,
+      "duration": 3.28,
+      "text": "Switching chat modes is not exactly"
+    },
+    {
+      "start": 298.4,
+      "duration": 3.2,
+      "text": "intuitive. Now, if I would have asked"
+    },
+    {
+      "start": 300.32,
+      "duration": 2.319,
+      "text": "you right now like how do you switch a"
+    },
+    {
+      "start": 301.6,
+      "duration": 3.52,
+      "text": "chat mode? You probably are thinking"
+    },
+    {
+      "start": 302.639,
+      "duration": 4.881,
+      "text": "like what the heck is a chat mode? Well,"
+    },
+    {
+      "start": 305.12,
+      "duration": 4.32,
+      "text": "in VS Code, there's this functionality"
+    },
+    {
+      "start": 307.52,
+      "duration": 5.44,
+      "text": "here at the very bottom of the screen"
+    },
+    {
+      "start": 309.44,
+      "duration": 5.36,
+      "text": "here with this agent. See this agent?"
+    },
+    {
+      "start": 312.96,
+      "duration": 5.2,
+      "text": "Like you're typically operating in agent"
+    },
+    {
+      "start": 314.8,
+      "duration": 5.36,
+      "text": "mode. A chat mode is just another"
+    },
+    {
+      "start": 318.16,
+      "duration": 3.92,
+      "text": "agentic mode here. So, what I can do is"
+    },
+    {
+      "start": 320.16,
+      "duration": 4.319,
+      "text": "I can select this and you'll quickly"
+    },
+    {
+      "start": 322.08,
+      "duration": 4.8,
+      "text": "notice that now I have all the the spec"
+    },
+    {
+      "start": 324.479,
+      "duration": 5.44,
+      "text": "kit pieces, right? the the stuff that is"
+    },
+    {
+      "start": 326.88,
+      "duration": 5.52,
+      "text": "custom to my folder that I saw in chat"
+    },
+    {
+      "start": 329.919,
+      "duration": 4.801,
+      "text": "modes. So there are now all these"
+    },
+    {
+      "start": 332.4,
+      "duration": 4,
+      "text": "commands like specify setting up the"
+    },
+    {
+      "start": 334.72,
+      "duration": 3.84,
+      "text": "constitution and the technical plan"
+    },
+    {
+      "start": 336.4,
+      "duration": 5.68,
+      "text": "implementation all this is captured as a"
+    },
+    {
+      "start": 338.56,
+      "duration": 4.96,
+      "text": "chat mode at the same time the prompts"
+    },
+    {
+      "start": 342.08,
+      "duration": 5.44,
+      "text": "are still available to you because there"
+    },
+    {
+      "start": 343.52,
+      "duration": 5.519,
+      "text": "are shortcuts to you using the actual"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.04,
+      "text": "chat mode. So that's why you still have"
+    },
+    {
+      "start": 349.039,
+      "duration": 3.44,
+      "text": "the suggested actions right? So when you"
+    },
+    {
+      "start": 350.56,
+      "duration": 3.919,
+      "text": "bootstrap a new project or a new chat"
+    },
+    {
+      "start": 352.479,
+      "duration": 4.401,
+      "text": "session, you have the ability to say,"
+    },
+    {
+      "start": 354.479,
+      "duration": 5.681,
+      "text": "\"Oh, Constitution, right? Specky"
+    },
+    {
+      "start": 356.88,
+      "duration": 5.28,
+      "text": "Constitution static website with minimal"
+    },
+    {
+      "start": 360.16,
+      "duration": 3.84,
+      "text": "dependencies.\""
+    },
+    {
+      "start": 362.16,
+      "duration": 3.599,
+      "text": "And I use this, by the way, as a demo"
+    },
+    {
+      "start": 364,
+      "duration": 2.96,
+      "text": "because it's the fastest one that I can"
+    },
+    {
+      "start": 365.759,
+      "duration": 2.641,
+      "text": "actually demo to you on this video"
+    },
+    {
+      "start": 366.96,
+      "duration": 3.92,
+      "text": "without bogging you down with like 3"
+    },
+    {
+      "start": 368.4,
+      "duration": 4.16,
+      "text": "hours of uh iterating on specs. And"
+    },
+    {
+      "start": 370.88,
+      "duration": 5.439,
+      "text": "notice that now it actually switched to"
+    },
+    {
+      "start": 372.56,
+      "duration": 5.919,
+      "text": "spec constitution, right? Like it's"
+    },
+    {
+      "start": 376.319,
+      "duration": 3.44,
+      "text": "automatically switched to a chat mode"
+    },
+    {
+      "start": 378.479,
+      "duration": 5.361,
+      "text": "with the model that I'm using. I'm using"
+    },
+    {
+      "start": 379.759,
+      "duration": 5.921,
+      "text": "GBT5 mini here. That's fine. And based"
+    },
+    {
+      "start": 383.84,
+      "duration": 3.359,
+      "text": "on this, it's actually going to go and"
+    },
+    {
+      "start": 385.68,
+      "duration": 4.16,
+      "text": "do the work, right? Like it creates"
+    },
+    {
+      "start": 387.199,
+      "duration": 5.681,
+      "text": "to-dos, which is a nice VS Code feature"
+    },
+    {
+      "start": 389.84,
+      "duration": 4.32,
+      "text": "here. It's VS Code C-pilot. Um, so it's"
+    },
+    {
+      "start": 392.88,
+      "duration": 4.56,
+      "text": "going to go and do this, but it switched"
+    },
+    {
+      "start": 394.16,
+      "duration": 4.319,
+      "text": "the chat mode. This is not just the"
+    },
+    {
+      "start": 397.44,
+      "duration": 3.039,
+      "text": "functionality I'm going to be talking"
+    },
+    {
+      "start": 398.479,
+      "duration": 3.521,
+      "text": "about because as you'll see shortly, the"
+    },
+    {
+      "start": 400.479,
+      "duration": 2.881,
+      "text": "chat mode itself is triggered by the"
+    },
+    {
+      "start": 402,
+      "duration": 3.52,
+      "text": "prompt. So if I go here to my"
+    },
+    {
+      "start": 403.36,
+      "duration": 5.279,
+      "text": "constitution prompt, you'll notice that"
+    },
+    {
+      "start": 405.52,
+      "duration": 4.799,
+      "text": "all this prompt file is it is just a"
+    },
+    {
+      "start": 408.639,
+      "duration": 4.881,
+      "text": "definition for the agent. It's going to"
+    },
+    {
+      "start": 410.319,
+      "duration": 6,
+      "text": "be using specit constitution. This is a"
+    },
+    {
+      "start": 413.52,
+      "duration": 6.32,
+      "text": "hint for VS code with copilot to then go"
+    },
+    {
+      "start": 416.319,
+      "duration": 6.641,
+      "text": "and say oh I get it. You're trying to"
+    },
+    {
+      "start": 419.84,
+      "duration": 4.4,
+      "text": "use the constitution chat mode. So it's"
+    },
+    {
+      "start": 422.96,
+      "duration": 4.079,
+      "text": "going to go and find the specket"
+    },
+    {
+      "start": 424.24,
+      "duration": 4.88,
+      "text": "constitution chat mode which is this."
+    },
+    {
+      "start": 427.039,
+      "duration": 4.401,
+      "text": "And it's going to trigger and follow the"
+    },
+    {
+      "start": 429.12,
+      "duration": 4.24,
+      "text": "steps defined in the constitution chat"
+    },
+    {
+      "start": 431.44,
+      "duration": 4.24,
+      "text": "mode. That's what it's doing right now,"
+    },
+    {
+      "start": 433.36,
+      "duration": 4.08,
+      "text": "right? And we see the files changing all"
+    },
+    {
+      "start": 435.68,
+      "duration": 4.56,
+      "text": "the stuff that you expected. Like this"
+    },
+    {
+      "start": 437.44,
+      "duration": 4.64,
+      "text": "is typical workflow here. Like we've"
+    },
+    {
+      "start": 440.24,
+      "duration": 4.88,
+      "text": "seen this many many times. And I find"
+    },
+    {
+      "start": 442.08,
+      "duration": 4.959,
+      "text": "this super nice because"
+    },
+    {
+      "start": 445.12,
+      "duration": 4.56,
+      "text": "I can now encode a lot of these things"
+    },
+    {
+      "start": 447.039,
+      "duration": 4.481,
+      "text": "in programmable basically system prompts"
+    },
+    {
+      "start": 449.68,
+      "duration": 3.44,
+      "text": "if you will, not just not just prompts"
+    },
+    {
+      "start": 451.52,
+      "duration": 4,
+      "text": "me like going in with like slash"
+    },
+    {
+      "start": 453.12,
+      "duration": 4.799,
+      "text": "commands. There's another functionality"
+    },
+    {
+      "start": 455.52,
+      "duration": 4.16,
+      "text": "here that is really really cool that is"
+    },
+    {
+      "start": 457.919,
+      "duration": 4.241,
+      "text": "currently in VS Code insiders and thank"
+    },
+    {
+      "start": 459.68,
+      "duration": 3.84,
+      "text": "you to uh Harold Kushner who was uh"
+    },
+    {
+      "start": 462.16,
+      "duration": 4.24,
+      "text": "guiding me through a lot of this stuff."
+    },
+    {
+      "start": 463.52,
+      "duration": 4.399,
+      "text": "But now if you've spotted here something"
+    },
+    {
+      "start": 466.4,
+      "duration": 2.799,
+      "text": "in this file it's hard to spot because"
+    },
+    {
+      "start": 467.919,
+      "duration": 2.321,
+      "text": "there's no formatting because it says"
+    },
+    {
+      "start": 469.199,
+      "duration": 3.201,
+      "text": "agent. We're going to change it to"
+    },
+    {
+      "start": 470.24,
+      "duration": 4.32,
+      "text": "markdown."
+    },
+    {
+      "start": 472.4,
+      "duration": 3.44,
+      "text": "Handoffs."
+    },
+    {
+      "start": 474.56,
+      "duration": 3.199,
+      "text": "This is what I wanted to actually talk"
+    },
+    {
+      "start": 475.84,
+      "duration": 4.16,
+      "text": "about today. So like if we look here"
+    },
+    {
+      "start": 477.759,
+      "duration": 5.681,
+      "text": "you'll notice that there's now this YAML"
+    },
+    {
+      "start": 480,
+      "duration": 5.039,
+      "text": "front matter that's called handoffs. And"
+    },
+    {
+      "start": 483.44,
+      "duration": 4.56,
+      "text": "notice that it says there's a label for"
+    },
+    {
+      "start": 485.039,
+      "duration": 7.44,
+      "text": "it. There's an agent and there's a"
+    },
+    {
+      "start": 488,
+      "duration": 6.8,
+      "text": "prompt. A handoff is a very nice way to"
+    },
+    {
+      "start": 492.479,
+      "duration": 4.241,
+      "text": "tell the agent that once you complete"
+    },
+    {
+      "start": 494.8,
+      "duration": 4.64,
+      "text": "this task, once you complete the prompt"
+    },
+    {
+      "start": 496.72,
+      "duration": 5.84,
+      "text": "that you're doing here now, your next"
+    },
+    {
+      "start": 499.44,
+      "duration": 5.52,
+      "text": "step is to allow the user to go and do"
+    },
+    {
+      "start": 502.56,
+      "duration": 5.199,
+      "text": "other things. In this case, after I do"
+    },
+    {
+      "start": 504.96,
+      "duration": 4.4,
+      "text": "the constitution, I need to go and write"
+    },
+    {
+      "start": 507.759,
+      "duration": 4.881,
+      "text": "the spec. So, I'm going to be using the"
+    },
+    {
+      "start": 509.36,
+      "duration": 4.64,
+      "text": "specify command, right? or the specify"
+    },
+    {
+      "start": 512.64,
+      "duration": 3.199,
+      "text": "chat mode because that's what we"
+    },
+    {
+      "start": 514,
+      "duration": 4.399,
+      "text": "switched to here. So what's going to"
+    },
+    {
+      "start": 515.839,
+      "duration": 4.88,
+      "text": "happen with the the chat mode here is"
+    },
+    {
+      "start": 518.399,
+      "duration": 3.921,
+      "text": "you'll see that once it actually"
+    },
+    {
+      "start": 520.719,
+      "duration": 3.521,
+      "text": "completes the iteration on our"
+    },
+    {
+      "start": 522.32,
+      "duration": 5.76,
+      "text": "constitution, once it actually completes"
+    },
+    {
+      "start": 524.24,
+      "duration": 6.56,
+      "text": "the work, it's going to allow me to"
+    },
+    {
+      "start": 528.08,
+      "duration": 4.4,
+      "text": "intuitively see the suggestions that I"
+    },
+    {
+      "start": 530.8,
+      "duration": 4,
+      "text": "need to follow to go to the next step."
+    },
+    {
+      "start": 532.48,
+      "duration": 4,
+      "text": "Because one of the most annoying pieces"
+    },
+    {
+      "start": 534.8,
+      "duration": 3.44,
+      "text": "for me when I'm in the middle of the"
+    },
+    {
+      "start": 536.48,
+      "duration": 3.039,
+      "text": "process, when I finish a prompt, right?"
+    },
+    {
+      "start": 538.24,
+      "duration": 3.2,
+      "text": "Because sometimes it can take some time,"
+    },
+    {
+      "start": 539.519,
+      "duration": 3.76,
+      "text": "like it'll run for 5, 10 minutes,"
+    },
+    {
+      "start": 541.44,
+      "duration": 5.04,
+      "text": "whatever, and then I come back, I'm"
+    },
+    {
+      "start": 543.279,
+      "duration": 4.881,
+      "text": "like, wait, am I on a spec step? Am I on"
+    },
+    {
+      "start": 546.48,
+      "duration": 3.6,
+      "text": "a plan step? I have to go look through"
+    },
+    {
+      "start": 548.16,
+      "duration": 3.84,
+      "text": "the folder. But when there's a handoff,"
+    },
+    {
+      "start": 550.08,
+      "duration": 3.759,
+      "text": "I can instantly tell, oh, it just"
+    },
+    {
+      "start": 552,
+      "duration": 3.44,
+      "text": "finished the constitution. Now I can go"
+    },
+    {
+      "start": 553.839,
+      "duration": 3.361,
+      "text": "to the spec. Oh, it just finished the"
+    },
+    {
+      "start": 555.44,
+      "duration": 4,
+      "text": "plan. Now I can go break this down into"
+    },
+    {
+      "start": 557.2,
+      "duration": 6.24,
+      "text": "tasks. Right? So a lot of the stuff is"
+    },
+    {
+      "start": 559.44,
+      "duration": 6.48,
+      "text": "automatically now encoded into the UX of"
+    },
+    {
+      "start": 563.44,
+      "duration": 4.959,
+      "text": "VS Code. So for me intuitively I can go"
+    },
+    {
+      "start": 565.92,
+      "duration": 4.88,
+      "text": "in and start making these changes and"
+    },
+    {
+      "start": 568.399,
+      "duration": 4.401,
+      "text": "update them automatically and kind of"
+    },
+    {
+      "start": 570.8,
+      "duration": 4.08,
+      "text": "start going through the flow without me"
+    },
+    {
+      "start": 572.8,
+      "duration": 4.08,
+      "text": "losing track of where in the flow I am."
+    },
+    {
+      "start": 574.88,
+      "duration": 3.44,
+      "text": "Also it reduces the amount of clicking"
+    },
+    {
+      "start": 576.88,
+      "duration": 2.72,
+      "text": "that I have to do, right? Because like"
+    },
+    {
+      "start": 578.32,
+      "duration": 2.88,
+      "text": "you'll notice that the same thing here"
+    },
+    {
+      "start": 579.6,
+      "duration": 4.48,
+      "text": "is like I have my handoffs for the"
+    },
+    {
+      "start": 581.2,
+      "duration": 4.88,
+      "text": "constitution but for example for specify"
+    },
+    {
+      "start": 584.08,
+      "duration": 3.68,
+      "text": "once I get to the spec you'll notice"
+    },
+    {
+      "start": 586.08,
+      "duration": 2.64,
+      "text": "that I have two handoffs. And again,"
+    },
+    {
+      "start": 587.76,
+      "duration": 2.8,
+      "text": "we're going to change the formatting"
+    },
+    {
+      "start": 588.72,
+      "duration": 4.64,
+      "text": "here to markdown"
+    },
+    {
+      "start": 590.56,
+      "duration": 4.8,
+      "text": "because I like formatted text. We're"
+    },
+    {
+      "start": 593.36,
+      "duration": 4.4,
+      "text": "just going to minimize this just a"
+    },
+    {
+      "start": 595.36,
+      "duration": 4.4,
+      "text": "little bit. And you'll notice here that"
+    },
+    {
+      "start": 597.76,
+      "duration": 5.28,
+      "text": "I have two handoffs, right? So when I"
+    },
+    {
+      "start": 599.76,
+      "duration": 5.199,
+      "text": "finish the spec, I can go through the"
+    },
+    {
+      "start": 603.04,
+      "duration": 3.6,
+      "text": "plan steps or I can ask for"
+    },
+    {
+      "start": 604.959,
+      "duration": 3.361,
+      "text": "clarification."
+    },
+    {
+      "start": 606.64,
+      "duration": 3.759,
+      "text": "And there's an important distinction"
+    },
+    {
+      "start": 608.32,
+      "duration": 3.519,
+      "text": "here for the fact that like when I click"
+    },
+    {
+      "start": 610.399,
+      "duration": 3.521,
+      "text": "build technical plan, you'll see this in"
+    },
+    {
+      "start": 611.839,
+      "duration": 3.921,
+      "text": "action shortly. It will not"
+    },
+    {
+      "start": 613.92,
+      "duration": 3.359,
+      "text": "automatically send the prompt because I"
+    },
+    {
+      "start": 615.76,
+      "duration": 6.24,
+      "text": "still need to provide input. Notice that"
+    },
+    {
+      "start": 617.279,
+      "duration": 6.881,
+      "text": "I am building with right here because"
+    },
+    {
+      "start": 622,
+      "duration": 3.68,
+      "text": "I'm I need to provide the context. I"
+    },
+    {
+      "start": 624.16,
+      "duration": 3.76,
+      "text": "can't just have the agent go and do the"
+    },
+    {
+      "start": 625.68,
+      "duration": 5.52,
+      "text": "technical plan for me. When I do things"
+    },
+    {
+      "start": 627.92,
+      "duration": 5.039,
+      "text": "like clarify, I can actually have the"
+    },
+    {
+      "start": 631.2,
+      "duration": 3.12,
+      "text": "agent just jump right into the"
+    },
+    {
+      "start": 632.959,
+      "duration": 5.041,
+      "text": "clarification step. So that's why it has"
+    },
+    {
+      "start": 634.32,
+      "duration": 5.68,
+      "text": "this send true option here that is going"
+    },
+    {
+      "start": 638,
+      "duration": 3.44,
+      "text": "to automatically send this prompt"
+    },
+    {
+      "start": 640,
+      "duration": 3.519,
+      "text": "whenever I click the button. And we'll"
+    },
+    {
+      "start": 641.44,
+      "duration": 4,
+      "text": "see how this lights up in the UX. So"
+    },
+    {
+      "start": 643.519,
+      "duration": 4.641,
+      "text": "notice now that the spec or not sorry"
+    },
+    {
+      "start": 645.44,
+      "duration": 4.639,
+      "text": "the constitution is done and it says"
+    },
+    {
+      "start": 648.16,
+      "duration": 3.76,
+      "text": "proceed from spec constitution. It gives"
+    },
+    {
+      "start": 650.079,
+      "duration": 4.161,
+      "text": "you the next step build specification."
+    },
+    {
+      "start": 651.92,
+      "duration": 4.4,
+      "text": "Great. This is this is wonderful. Like I"
+    },
+    {
+      "start": 654.24,
+      "duration": 6.719,
+      "text": "now have this"
+    },
+    {
+      "start": 656.32,
+      "duration": 6.56,
+      "text": "one hint just one hint for how to do the"
+    },
+    {
+      "start": 660.959,
+      "duration": 3.601,
+      "text": "next thing"
+    },
+    {
+      "start": 662.88,
+      "duration": 3.12,
+      "text": "right like I I can just click build"
+    },
+    {
+      "start": 664.56,
+      "duration": 3.36,
+      "text": "specification and notice what's going to"
+    },
+    {
+      "start": 666,
+      "duration": 3.519,
+      "text": "happen. Build specification. It switched"
+    },
+    {
+      "start": 667.92,
+      "duration": 3.039,
+      "text": "to chat mode automatically when I"
+    },
+    {
+      "start": 669.519,
+      "duration": 3.121,
+      "text": "clicked to specify because it's now"
+    },
+    {
+      "start": 670.959,
+      "duration": 3.041,
+      "text": "going to be using the specify prompt."
+    },
+    {
+      "start": 672.64,
+      "duration": 3.84,
+      "text": "the specify system prompt and the"
+    },
+    {
+      "start": 674,
+      "duration": 5.519,
+      "text": "specified chat mode"
+    },
+    {
+      "start": 676.48,
+      "duration": 7.12,
+      "text": "and I want to build and here I'm just"
+    },
+    {
+      "start": 679.519,
+      "duration": 6.641,
+      "text": "going to say podcast landing page"
+    },
+    {
+      "start": 683.6,
+      "duration": 4.56,
+      "text": "still the same model right still the"
+    },
+    {
+      "start": 686.16,
+      "duration": 4.16,
+      "text": "same chat mode that I just switched to"
+    },
+    {
+      "start": 688.16,
+      "duration": 3.919,
+      "text": "with one click of a button I did not"
+    },
+    {
+      "start": 690.32,
+      "duration": 3.04,
+      "text": "have to go and do custom slash commands"
+    },
+    {
+      "start": 692.079,
+      "duration": 4.161,
+      "text": "or anything like that I'm just going to"
+    },
+    {
+      "start": 693.36,
+      "duration": 7.4,
+      "text": "just do this and we're going to say yes"
+    },
+    {
+      "start": 696.24,
+      "duration": 4.52,
+      "text": "this is fine podcast signing page"
+    },
+    {
+      "start": 701.12,
+      "duration": 4.56,
+      "text": "and now it should kick in but notice"
+    },
+    {
+      "start": 703.36,
+      "duration": 3.68,
+      "text": "that also while it's going to be doing"
+    },
+    {
+      "start": 705.68,
+      "duration": 3.92,
+      "text": "all the stuff now I have the next steps"
+    },
+    {
+      "start": 707.04,
+      "duration": 4.799,
+      "text": "available for me as well"
+    },
+    {
+      "start": 709.6,
+      "duration": 5.04,
+      "text": "these are the handoffs right so from"
+    },
+    {
+      "start": 711.839,
+      "duration": 5.521,
+      "text": "specit specify once I'm done I can just"
+    },
+    {
+      "start": 714.64,
+      "duration": 4.24,
+      "text": "build a technical plan"
+    },
+    {
+      "start": 717.36,
+      "duration": 3.28,
+      "text": "which is of course I want to do that"
+    },
+    {
+      "start": 718.88,
+      "duration": 4.16,
+      "text": "after the spec is done or I can clarify"
+    },
+    {
+      "start": 720.64,
+      "duration": 4.48,
+      "text": "the spec requirements which is the your"
+    },
+    {
+      "start": 723.04,
+      "duration": 5.12,
+      "text": "typical clarify command that you saw so"
+    },
+    {
+      "start": 725.12,
+      "duration": 5.2,
+      "text": "VS code actually makes this much"
+    },
+    {
+      "start": 728.16,
+      "duration": 4.08,
+      "text": "smoother because I can go through the"
+    },
+    {
+      "start": 730.32,
+      "duration": 4.639,
+      "text": "process I can just click a button"
+    },
+    {
+      "start": 732.24,
+      "duration": 6.24,
+      "text": "type in click a button type in I don't"
+    },
+    {
+      "start": 734.959,
+      "duration": 4.961,
+      "text": "need to go and guess what is the next"
+    },
+    {
+      "start": 738.48,
+      "duration": 3.28,
+      "text": "step what are the commands that I should"
+    },
+    {
+      "start": 739.92,
+      "duration": 3.359,
+      "text": "be running so for you given the fact"
+    },
+    {
+      "start": 741.76,
+      "duration": 4.24,
+      "text": "that we now have like a bit of a command"
+    },
+    {
+      "start": 743.279,
+      "duration": 4.961,
+      "text": "sprawl here and I know this yes I I know"
+    },
+    {
+      "start": 746,
+      "duration": 3.6,
+      "text": "I know it can be a little bit annoying"
+    },
+    {
+      "start": 748.24,
+      "duration": 3.12,
+      "text": "that there's like all these commands"
+    },
+    {
+      "start": 749.6,
+      "duration": 4.479,
+      "text": "there's clarify there's analyze there's"
+    },
+    {
+      "start": 751.36,
+      "duration": 4.479,
+      "text": "plan there is implement there's task and"
+    },
+    {
+      "start": 754.079,
+      "duration": 3.521,
+      "text": "you have to keep track of all of them"
+    },
+    {
+      "start": 755.839,
+      "duration": 3.521,
+      "text": "this functionality in VS Code is going"
+    },
+    {
+      "start": 757.6,
+      "duration": 4.32,
+      "text": "to make it a little bit easier because"
+    },
+    {
+      "start": 759.36,
+      "duration": 4.24,
+      "text": "now you can look at this You can look at"
+    },
+    {
+      "start": 761.92,
+      "duration": 3.919,
+      "text": "the handoff, you can look at the button,"
+    },
+    {
+      "start": 763.6,
+      "duration": 5.28,
+      "text": "and you can just click on it and that's"
+    },
+    {
+      "start": 765.839,
+      "duration": 4.721,
+      "text": "it. So, VS Code plus Copilot plus"
+    },
+    {
+      "start": 768.88,
+      "duration": 4.16,
+      "text": "specit. I think this is going to be a"
+    },
+    {
+      "start": 770.56,
+      "duration": 4.32,
+      "text": "very, very cool feature that we're very"
+    },
+    {
+      "start": 773.04,
+      "duration": 3.28,
+      "text": "excited to see it roll out. Now, the"
+    },
+    {
+      "start": 774.88,
+      "duration": 4.639,
+      "text": "reason this is in the pull request right"
+    },
+    {
+      "start": 776.32,
+      "duration": 5.28,
+      "text": "now is because this is now in VS Code"
+    },
+    {
+      "start": 779.519,
+      "duration": 5.921,
+      "text": "Insiders. This is not yet available in"
+    },
+    {
+      "start": 781.6,
+      "duration": 5.44,
+      "text": "production VS Code. I'm going to bet"
+    },
+    {
+      "start": 785.44,
+      "duration": 3.92,
+      "text": "that we're going to merge this and keep"
+    },
+    {
+      "start": 787.04,
+      "duration": 4.72,
+      "text": "iterative because it doesn't necessarily"
+    },
+    {
+      "start": 789.36,
+      "duration": 3.68,
+      "text": "break anything, right? The handoffs are"
+    },
+    {
+      "start": 791.76,
+      "duration": 3.6,
+      "text": "just not a thing in the production"
+    },
+    {
+      "start": 793.04,
+      "duration": 3.76,
+      "text": "builds of VS Code yet, but they will be."
+    },
+    {
+      "start": 795.36,
+      "duration": 3.279,
+      "text": "And when they will be, the buttons will"
+    },
+    {
+      "start": 796.8,
+      "duration": 3.279,
+      "text": "light up. But just the switching itself"
+    },
+    {
+      "start": 798.639,
+      "duration": 2.64,
+      "text": "is is going to be a little bit more"
+    },
+    {
+      "start": 800.079,
+      "duration": 2.961,
+      "text": "manual. You have to use the slash"
+    },
+    {
+      "start": 801.279,
+      "duration": 3.12,
+      "text": "commands in the meantime. But once it's"
+    },
+    {
+      "start": 803.04,
+      "duration": 3.28,
+      "text": "there, you can, by the way, again, you"
+    },
+    {
+      "start": 804.399,
+      "duration": 3.44,
+      "text": "can use VS Code insiders. You can"
+    },
+    {
+      "start": 806.32,
+      "duration": 3.36,
+      "text": "generate the templates the way that I"
+    },
+    {
+      "start": 807.839,
+      "duration": 3.521,
+      "text": "showed you and it's just going to work."
+    },
+    {
+      "start": 809.68,
+      "duration": 4.08,
+      "text": "So, it's going to be a little bit of an"
+    },
+    {
+      "start": 811.36,
+      "duration": 4.719,
+      "text": "easier process. Stay tuned for updates"
+    },
+    {
+      "start": 813.76,
+      "duration": 3.6,
+      "text": "to VS Code when this is going to be"
+    },
+    {
+      "start": 816.079,
+      "duration": 4.641,
+      "text": "integrated in kind of the production"
+    },
+    {
+      "start": 817.36,
+      "duration": 5.12,
+      "text": "builds. And I'm eager to hear your"
+    },
+    {
+      "start": 820.72,
+      "duration": 4.64,
+      "text": "feedback about Speckit and what we can"
+    },
+    {
+      "start": 822.48,
+      "duration": 4,
+      "text": "do to make your experience even better."
+    },
+    {
+      "start": 825.36,
+      "duration": 3.52,
+      "text": "Especially because again from a"
+    },
+    {
+      "start": 826.48,
+      "duration": 5.599,
+      "text": "developer perspective, I'm all or just"
+    },
+    {
+      "start": 828.88,
+      "duration": 4.8,
+      "text": "for making things easier, smoother."
+    },
+    {
+      "start": 832.079,
+      "duration": 3.521,
+      "text": "Simplify, simplify, simplify. So you"
+    },
+    {
+      "start": 833.68,
+      "duration": 3.68,
+      "text": "don't have to think about which commands"
+    },
+    {
+      "start": 835.6,
+      "duration": 2.32,
+      "text": "to run and when. So your feedback very"
+    },
+    {
+      "start": 837.36,
+      "duration": 3.56,
+      "text": "appreciated. Go to"
+    },
+    {
+      "start": 837.92,
+      "duration": 3,
+      "text": "github.com/github/spec-kit"
+    },
+    {
+      "start": 842.24,
+      "duration": 3.839,
+      "text": "and give me your input. All all the"
+    },
+    {
+      "start": 844.24,
+      "duration": 4.32,
+      "text": "feedback like what works, what doesn't"
+    },
+    {
+      "start": 846.079,
+      "duration": 6.801,
+      "text": "work. We're always happy. always happy"
+    },
+    {
+      "start": 848.56,
+      "duration": 4.32,
+      "text": "always happy to hear it."
+    }
+  ],
+  "fullText": "Welcome friends to another video of me talking about of course specit. And today I'm going to be breaking a cardinal rule of mine because usually I talk about stuff that has already shipped, stuff that you can just go to the repo, click a couple buttons, and just download. And today I'm going to be talking about something that is currently gated behind a pull request. That's right. It's an unstaged change that is not yet in production. And I have a very, very good reason for it that I will explain. But before we get to that, I just want to call out this little thing here. Look at the number. 40.7,000 people enjoy Speckit. I am so grateful to every single one of you for submitting your feedback, trying this out. This is means the world to me. So, thank you. Thank you for that. Um, keep the feedback coming. Keep the pull requests coming. I'm triaging them regularly and we're we're getting faster at this. I know this. And I was talking about a PR here. So we have PR 986. It's a pull request in GitHub. It's again all of this is in the open. You you can take a look at exactly what it changes. So there's a few things that this PR introduces. By the way, I should mention that the branch naming is now much serit. Remember how we had this problem of 001 I want you and it's like an absolutely unhinged branch name like nobody should be using that as a branch name. We fixed that with the power of LLMs because now you can actually get a short name that is representative of your prompt. So if you're building a podcast landing page, it's going to be something like 001 podcast landing. If you're building something like a feature that changes the checkout flow, it's going to be 002 checkout flow. Much better, much easier to parse. But there's another thing that this pull request introduces that I talk about here in screenshots, but I'd rather show you. So for this we have Visual Studio Code Insiders, right? So Visual Studio Code Insiders and I'm using Copilot. All the functionality pieces that I'm going to be describing today are specific to Copilot inside Visual Studio Code. This doesn't quite work with other agents because this is something that the Copilot folks introduced. But if you are downloading the co-pilot version of the packages that we have here, by the way, because they're gated in the PR, you might be asking yourself, well, typically if I go to the repo, right, to my specit repo, there is a specit template. So, you can just grab a template from here and just push it right like into your project. You can just download, unzip the file, and just throw it into your project. Boom, done. Doesn't quite work like that because we have a PR here, right? And if you have a pull request with specific changes to templates, how do I modify these things? How do I grab them for myself? Well, the good news is if we go to the terminal here, I can run a script. You have a script here for you that does just that. It's called the create release packages. There's a PowerShell script and there's also a shell script. And then you append the version. This can be anything. It doesn't matter because you're going to be writing this locally, right? And what this will do is this will produce a number of local copies for every single agent of all the templates. So if you're iterating on your local branch, you can grab these templates. You can uh take a look here into let's take a look at the gen releases. This is the folder, right? So we'll see that there's a bunch of folders and a bunch of zip files. These are what's used for the releases. So you can just grab the latest one here. So if you ever are cloning a branch, you can you can do this and just grab the latest, put in your project and iterate and experiment with it. But anyway, that's not the point. So with this PR, you can actually use VS Code Insiders now to go and generate and copy the latest version of the templates, put it in your project. And then what you'll notice that now in the GitHub folder here, previously we only had prompts. Now we shifted to chat modes, right? So if we look here at at the at these folders here, so the prompts, we have the prompt.md files. And this is how you know that there are prompts, right? Is because you generally have this suffix here, prompt MD, right? So they're still there, but now there's a chat modes file or set of files with a chat modem MD prefix, right? So you know for a fact that these are chat modes and chat modes in this case act as almost like system prompts. We've reorganized things a little bit where the stuff that previously was in a prompt is now inside a chat mode. So if we're going to look inside specit analyze the chat mode it's exactly the same content that you saw before with the prompt. It's literally exactly the same but you now trigger it through a chat mode not a prompt at the same time. Switching chat modes is not exactly intuitive. Now, if I would have asked you right now like how do you switch a chat mode? You probably are thinking like what the heck is a chat mode? Well, in VS Code, there's this functionality here at the very bottom of the screen here with this agent. See this agent? Like you're typically operating in agent mode. A chat mode is just another agentic mode here. So, what I can do is I can select this and you'll quickly notice that now I have all the the spec kit pieces, right? the the stuff that is custom to my folder that I saw in chat modes. So there are now all these commands like specify setting up the constitution and the technical plan implementation all this is captured as a chat mode at the same time the prompts are still available to you because there are shortcuts to you using the actual chat mode. So that's why you still have the suggested actions right? So when you bootstrap a new project or a new chat session, you have the ability to say, \"Oh, Constitution, right? Specky Constitution static website with minimal dependencies.\" And I use this, by the way, as a demo because it's the fastest one that I can actually demo to you on this video without bogging you down with like 3 hours of uh iterating on specs. And notice that now it actually switched to spec constitution, right? Like it's automatically switched to a chat mode with the model that I'm using. I'm using GBT5 mini here. That's fine. And based on this, it's actually going to go and do the work, right? Like it creates to-dos, which is a nice VS Code feature here. It's VS Code C-pilot. Um, so it's going to go and do this, but it switched the chat mode. This is not just the functionality I'm going to be talking about because as you'll see shortly, the chat mode itself is triggered by the prompt. So if I go here to my constitution prompt, you'll notice that all this prompt file is it is just a definition for the agent. It's going to be using specit constitution. This is a hint for VS code with copilot to then go and say oh I get it. You're trying to use the constitution chat mode. So it's going to go and find the specket constitution chat mode which is this. And it's going to trigger and follow the steps defined in the constitution chat mode. That's what it's doing right now, right? And we see the files changing all the stuff that you expected. Like this is typical workflow here. Like we've seen this many many times. And I find this super nice because I can now encode a lot of these things in programmable basically system prompts if you will, not just not just prompts me like going in with like slash commands. There's another functionality here that is really really cool that is currently in VS Code insiders and thank you to uh Harold Kushner who was uh guiding me through a lot of this stuff. But now if you've spotted here something in this file it's hard to spot because there's no formatting because it says agent. We're going to change it to markdown. Handoffs. This is what I wanted to actually talk about today. So like if we look here you'll notice that there's now this YAML front matter that's called handoffs. And notice that it says there's a label for it. There's an agent and there's a prompt. A handoff is a very nice way to tell the agent that once you complete this task, once you complete the prompt that you're doing here now, your next step is to allow the user to go and do other things. In this case, after I do the constitution, I need to go and write the spec. So, I'm going to be using the specify command, right? or the specify chat mode because that's what we switched to here. So what's going to happen with the the chat mode here is you'll see that once it actually completes the iteration on our constitution, once it actually completes the work, it's going to allow me to intuitively see the suggestions that I need to follow to go to the next step. Because one of the most annoying pieces for me when I'm in the middle of the process, when I finish a prompt, right? Because sometimes it can take some time, like it'll run for 5, 10 minutes, whatever, and then I come back, I'm like, wait, am I on a spec step? Am I on a plan step? I have to go look through the folder. But when there's a handoff, I can instantly tell, oh, it just finished the constitution. Now I can go to the spec. Oh, it just finished the plan. Now I can go break this down into tasks. Right? So a lot of the stuff is automatically now encoded into the UX of VS Code. So for me intuitively I can go in and start making these changes and update them automatically and kind of start going through the flow without me losing track of where in the flow I am. Also it reduces the amount of clicking that I have to do, right? Because like you'll notice that the same thing here is like I have my handoffs for the constitution but for example for specify once I get to the spec you'll notice that I have two handoffs. And again, we're going to change the formatting here to markdown because I like formatted text. We're just going to minimize this just a little bit. And you'll notice here that I have two handoffs, right? So when I finish the spec, I can go through the plan steps or I can ask for clarification. And there's an important distinction here for the fact that like when I click build technical plan, you'll see this in action shortly. It will not automatically send the prompt because I still need to provide input. Notice that I am building with right here because I'm I need to provide the context. I can't just have the agent go and do the technical plan for me. When I do things like clarify, I can actually have the agent just jump right into the clarification step. So that's why it has this send true option here that is going to automatically send this prompt whenever I click the button. And we'll see how this lights up in the UX. So notice now that the spec or not sorry the constitution is done and it says proceed from spec constitution. It gives you the next step build specification. Great. This is this is wonderful. Like I now have this one hint just one hint for how to do the next thing right like I I can just click build specification and notice what's going to happen. Build specification. It switched to chat mode automatically when I clicked to specify because it's now going to be using the specify prompt. the specify system prompt and the specified chat mode and I want to build and here I'm just going to say podcast landing page still the same model right still the same chat mode that I just switched to with one click of a button I did not have to go and do custom slash commands or anything like that I'm just going to just do this and we're going to say yes this is fine podcast signing page and now it should kick in but notice that also while it's going to be doing all the stuff now I have the next steps available for me as well these are the handoffs right so from specit specify once I'm done I can just build a technical plan which is of course I want to do that after the spec is done or I can clarify the spec requirements which is the your typical clarify command that you saw so VS code actually makes this much smoother because I can go through the process I can just click a button type in click a button type in I don't need to go and guess what is the next step what are the commands that I should be running so for you given the fact that we now have like a bit of a command sprawl here and I know this yes I I know I know it can be a little bit annoying that there's like all these commands there's clarify there's analyze there's plan there is implement there's task and you have to keep track of all of them this functionality in VS Code is going to make it a little bit easier because now you can look at this You can look at the handoff, you can look at the button, and you can just click on it and that's it. So, VS Code plus Copilot plus specit. I think this is going to be a very, very cool feature that we're very excited to see it roll out. Now, the reason this is in the pull request right now is because this is now in VS Code Insiders. This is not yet available in production VS Code. I'm going to bet that we're going to merge this and keep iterative because it doesn't necessarily break anything, right? The handoffs are just not a thing in the production builds of VS Code yet, but they will be. And when they will be, the buttons will light up. But just the switching itself is is going to be a little bit more manual. You have to use the slash commands in the meantime. But once it's there, you can, by the way, again, you can use VS Code insiders. You can generate the templates the way that I showed you and it's just going to work. So, it's going to be a little bit of an easier process. Stay tuned for updates to VS Code when this is going to be integrated in kind of the production builds. And I'm eager to hear your feedback about Speckit and what we can do to make your experience even better. Especially because again from a developer perspective, I'm all or just for making things easier, smoother. Simplify, simplify, simplify. So you don't have to think about which commands to run and when. So your feedback very appreciated. Go to github.com/github/spec-kit and give me your input. All all the feedback like what works, what doesn't work. We're always happy. always happy always happy to hear it.",
+  "fetchedAt": "2026-01-18T18:33:01.794Z"
+}

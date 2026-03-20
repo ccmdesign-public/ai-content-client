@@ -1,0 +1,1479 @@
+{
+  "videoId": "n-F1QI2LLdo",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.12,
+      "text": "Just like context 7, this will reduce"
+    },
+    {
+      "start": 1.76,
+      "duration": 3.2,
+      "text": "the amount of time and reduce the amount"
+    },
+    {
+      "start": 3.2,
+      "duration": 3.28,
+      "text": "of errors you get when building with AI."
+    },
+    {
+      "start": 4.96,
+      "duration": 3.36,
+      "text": "The number one mistake I see people make"
+    },
+    {
+      "start": 6.48,
+      "duration": 3.68,
+      "text": "when coding with AI and especially vi"
+    },
+    {
+      "start": 8.32,
+      "duration": 3.279,
+      "text": "coding is skipping out on testing."
+    },
+    {
+      "start": 10.16,
+      "duration": 2.72,
+      "text": "Testing is probably the second most"
+    },
+    {
+      "start": 11.599,
+      "duration": 2.721,
+      "text": "important thing you should do, first one"
+    },
+    {
+      "start": 12.88,
+      "duration": 2.959,
+      "text": "of course being planning, creating a"
+    },
+    {
+      "start": 14.32,
+      "duration": 3.68,
+      "text": "PRD, but after the code is written"
+    },
+    {
+      "start": 15.839,
+      "duration": 3.681,
+      "text": "either by AI or by a human, the most"
+    },
+    {
+      "start": 18,
+      "duration": 3.52,
+      "text": "important thing is then testing that"
+    },
+    {
+      "start": 19.52,
+      "duration": 3.759,
+      "text": "code because every new line, every new"
+    },
+    {
+      "start": 21.52,
+      "duration": 3.28,
+      "text": "character is potentially breaking"
+    },
+    {
+      "start": 23.279,
+      "duration": 3.521,
+      "text": "changes. And if you've been coding with"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.52,
+      "text": "AI or in real life, you know what I'm"
+    },
+    {
+      "start": 26.8,
+      "duration": 3.44,
+      "text": "talking about. And that's why big"
+    },
+    {
+      "start": 28.32,
+      "duration": 3.759,
+      "text": "companies implement procedures like"
+    },
+    {
+      "start": 30.24,
+      "duration": 4.4,
+      "text": "test-driven development, CI/CD"
+    },
+    {
+      "start": 32.079,
+      "duration": 4.721,
+      "text": "pipelines, and employ QA testers. As"
+    },
+    {
+      "start": 34.64,
+      "duration": 3.52,
+      "text": "good as AI is at writing code and being"
+    },
+    {
+      "start": 36.8,
+      "duration": 2.96,
+      "text": "confident that it's right, it doesn't"
+    },
+    {
+      "start": 38.16,
+      "duration": 3.44,
+      "text": "even know when it's wrong. It doesn't"
+    },
+    {
+      "start": 39.76,
+      "duration": 3.6,
+      "text": "have the whole context in mind of your"
+    },
+    {
+      "start": 41.6,
+      "duration": 3.119,
+      "text": "app or your project. And therefore,"
+    },
+    {
+      "start": 43.36,
+      "duration": 2.879,
+      "text": "every time you finish something, you"
+    },
+    {
+      "start": 44.719,
+      "duration": 3.201,
+      "text": "have to spend time testing it to make"
+    },
+    {
+      "start": 46.239,
+      "duration": 2.881,
+      "text": "sure it works. And not just testing the"
+    },
+    {
+      "start": 47.92,
+      "duration": 2.639,
+      "text": "thing you just built, testing everything"
+    },
+    {
+      "start": 49.12,
+      "duration": 2.88,
+      "text": "that came before it. Because if you"
+    },
+    {
+      "start": 50.559,
+      "duration": 3.041,
+      "text": "don't test, if you just give it a quick"
+    },
+    {
+      "start": 52,
+      "duration": 3.199,
+      "text": "look and see if the button clicks,"
+    },
+    {
+      "start": 53.6,
+      "duration": 2.959,
+      "text": "something else under the hood could have"
+    },
+    {
+      "start": 55.199,
+      "duration": 2.641,
+      "text": "broken. And it probably did. And if you"
+    },
+    {
+      "start": 56.559,
+      "duration": 2.961,
+      "text": "don't figure that out right away, it"
+    },
+    {
+      "start": 57.84,
+      "duration": 3.28,
+      "text": "will cascade down and create problems"
+    },
+    {
+      "start": 59.52,
+      "duration": 2.879,
+      "text": "for every other feature or thing you"
+    },
+    {
+      "start": 61.12,
+      "duration": 2.8,
+      "text": "add. So, in this video, we're going to"
+    },
+    {
+      "start": 62.399,
+      "duration": 2.961,
+      "text": "go over my testing practices, and then"
+    },
+    {
+      "start": 63.92,
+      "duration": 2.64,
+      "text": "I'm going to show you an MCB server that"
+    },
+    {
+      "start": 65.36,
+      "duration": 2.32,
+      "text": "does a lot of the work for you. So,"
+    },
+    {
+      "start": 66.56,
+      "duration": 2.8,
+      "text": "let's get into it. Now, the first thing"
+    },
+    {
+      "start": 67.68,
+      "duration": 3.119,
+      "text": "I make into all my projects is"
+    },
+    {
+      "start": 69.36,
+      "duration": 3.6,
+      "text": "test-driven development. This is a"
+    },
+    {
+      "start": 70.799,
+      "duration": 3.761,
+      "text": "triedand-rue methodology implemented by"
+    },
+    {
+      "start": 72.96,
+      "duration": 3.199,
+      "text": "companies and small teams alike. And"
+    },
+    {
+      "start": 74.56,
+      "duration": 3.12,
+      "text": "what it boils down to is as you write"
+    },
+    {
+      "start": 76.159,
+      "duration": 3.761,
+      "text": "your PRD, you start breaking everything"
+    },
+    {
+      "start": 77.68,
+      "duration": 4.16,
+      "text": "into small tasks. You write a test for"
+    },
+    {
+      "start": 79.92,
+      "duration": 3.6,
+      "text": "every single task so that when you work"
+    },
+    {
+      "start": 81.84,
+      "duration": 3.599,
+      "text": "on that task on that feature, you only"
+    },
+    {
+      "start": 83.52,
+      "duration": 3.279,
+      "text": "move on to the next one if it passes the"
+    },
+    {
+      "start": 85.439,
+      "duration": 2.641,
+      "text": "test you wrote for it ahead of time. And"
+    },
+    {
+      "start": 86.799,
+      "duration": 2.32,
+      "text": "if it doesn't pass that test, you keep"
+    },
+    {
+      "start": 88.08,
+      "duration": 2.399,
+      "text": "working on it. And there are many"
+    },
+    {
+      "start": 89.119,
+      "duration": 2.721,
+      "text": "flavors to this, but the whole idea here"
+    },
+    {
+      "start": 90.479,
+      "duration": 2.96,
+      "text": "is to know what you want to build, know"
+    },
+    {
+      "start": 91.84,
+      "duration": 3.04,
+      "text": "the test that has to pass to make sure"
+    },
+    {
+      "start": 93.439,
+      "duration": 3.36,
+      "text": "it works, and then move on to the next"
+    },
+    {
+      "start": 94.88,
+      "duration": 3.599,
+      "text": "task. And it's a lot more planning, but"
+    },
+    {
+      "start": 96.799,
+      "duration": 3.841,
+      "text": "the good news is specri development"
+    },
+    {
+      "start": 98.479,
+      "duration": 3.68,
+      "text": "frameworks like BMAT and OpenSpec factor"
+    },
+    {
+      "start": 100.64,
+      "duration": 3.36,
+      "text": "in test-driven development when they"
+    },
+    {
+      "start": 102.159,
+      "duration": 3.121,
+      "text": "write the task lists. So if you're using"
+    },
+    {
+      "start": 104,
+      "duration": 2.56,
+      "text": "spectriven development, you don't have"
+    },
+    {
+      "start": 105.28,
+      "duration": 2.64,
+      "text": "to worry about it that much. The bottom"
+    },
+    {
+      "start": 106.56,
+      "duration": 3.04,
+      "text": "line is if you have a plan, if you have"
+    },
+    {
+      "start": 107.92,
+      "duration": 3.28,
+      "text": "a PRD, if you have a spec, you break"
+    },
+    {
+      "start": 109.6,
+      "duration": 3.6,
+      "text": "that down into tasks and then those"
+    },
+    {
+      "start": 111.2,
+      "duration": 4.08,
+      "text": "tasks also have tests written for them."
+    },
+    {
+      "start": 113.2,
+      "duration": 3.68,
+      "text": "So the human coder or the AI wouldn't"
+    },
+    {
+      "start": 115.28,
+      "duration": 3.76,
+      "text": "have to go to the next task until the"
+    },
+    {
+      "start": 116.88,
+      "duration": 4.32,
+      "text": "test for that task passes. And it solves"
+    },
+    {
+      "start": 119.04,
+      "duration": 3.759,
+      "text": "a lot of issues, but it's not foolproof,"
+    },
+    {
+      "start": 121.2,
+      "duration": 3.04,
+      "text": "especially when you're building with AI."
+    },
+    {
+      "start": 122.799,
+      "duration": 2.401,
+      "text": "Meaning, every time you write with AI,"
+    },
+    {
+      "start": 124.24,
+      "duration": 2.4,
+      "text": "there's several different issues that"
+    },
+    {
+      "start": 125.2,
+      "duration": 3.36,
+      "text": "you could run to, like the model being"
+    },
+    {
+      "start": 126.64,
+      "duration": 3.92,
+      "text": "degraded, or your spec not being clear"
+    },
+    {
+      "start": 128.56,
+      "duration": 3.679,
+      "text": "enough, or overuse of a context window"
+    },
+    {
+      "start": 130.56,
+      "duration": 3.36,
+      "text": "having a really long chat and the model"
+    },
+    {
+      "start": 132.239,
+      "duration": 3.36,
+      "text": "starts hallucinating, or the agent could"
+    },
+    {
+      "start": 133.92,
+      "duration": 3.12,
+      "text": "have just written buggy code anyways."
+    },
+    {
+      "start": 135.599,
+      "duration": 2.72,
+      "text": "And lastly, you see something you didn't"
+    },
+    {
+      "start": 137.04,
+      "duration": 2.4,
+      "text": "like or didn't work out as you thought"
+    },
+    {
+      "start": 138.319,
+      "duration": 2.801,
+      "text": "about in your head. So you tell the"
+    },
+    {
+      "start": 139.44,
+      "duration": 3.2,
+      "text": "agent to change something, to change a"
+    },
+    {
+      "start": 141.12,
+      "duration": 2.96,
+      "text": "button, to move a thing, to change a"
+    },
+    {
+      "start": 142.64,
+      "duration": 3.04,
+      "text": "functionality. So you start changing"
+    },
+    {
+      "start": 144.08,
+      "duration": 2.879,
+      "text": "things on the fly or when any of these"
+    },
+    {
+      "start": 145.68,
+      "duration": 2.72,
+      "text": "things happen, the tests that were"
+    },
+    {
+      "start": 146.959,
+      "duration": 3.36,
+      "text": "written beforehand are not relevant"
+    },
+    {
+      "start": 148.4,
+      "duration": 3.44,
+      "text": "anymore. So either the tests start"
+    },
+    {
+      "start": 150.319,
+      "duration": 3.121,
+      "text": "breaking or they're not even testing the"
+    },
+    {
+      "start": 151.84,
+      "duration": 2.72,
+      "text": "right thing anymore. So test development"
+    },
+    {
+      "start": 153.44,
+      "duration": 2.4,
+      "text": "works really well when you know what"
+    },
+    {
+      "start": 154.56,
+      "duration": 2.8,
+      "text": "you're building ahead of time and you"
+    },
+    {
+      "start": 155.84,
+      "duration": 2.88,
+      "text": "don't really veer from that plan. Now on"
+    },
+    {
+      "start": 157.36,
+      "duration": 3.68,
+      "text": "the other end of the spectrum, you have"
+    },
+    {
+      "start": 158.72,
+      "duration": 3.92,
+      "text": "CI/CD. You have code review. It tests"
+    },
+    {
+      "start": 161.04,
+      "duration": 3.12,
+      "text": "the code after it's committed or before"
+    },
+    {
+      "start": 162.64,
+      "duration": 3.12,
+      "text": "it gets pushed to production. But that"
+    },
+    {
+      "start": 164.16,
+      "duration": 3.2,
+      "text": "generally just makes sure that it runs."
+    },
+    {
+      "start": 165.76,
+      "duration": 2.88,
+      "text": "Doesn't really check for usability."
+    },
+    {
+      "start": 167.36,
+      "duration": 2.879,
+      "text": "Doesn't really check for functionality."
+    },
+    {
+      "start": 168.64,
+      "duration": 3.12,
+      "text": "So then it comes down to manual testing,"
+    },
+    {
+      "start": 170.239,
+      "duration": 3.201,
+      "text": "QA testing, going through the flow of"
+    },
+    {
+      "start": 171.76,
+      "duration": 2.96,
+      "text": "your project or checking that the APIs"
+    },
+    {
+      "start": 173.44,
+      "duration": 2.64,
+      "text": "work. You have to test that the main"
+    },
+    {
+      "start": 174.72,
+      "duration": 2.96,
+      "text": "functionality works. You have to test"
+    },
+    {
+      "start": 176.08,
+      "duration": 3.28,
+      "text": "out that all the other functionality"
+    },
+    {
+      "start": 177.68,
+      "duration": 3.04,
+      "text": "that you wrote previously still works."
+    },
+    {
+      "start": 179.36,
+      "duration": 2.799,
+      "text": "And repeating this every time you change"
+    },
+    {
+      "start": 180.72,
+      "duration": 3.439,
+      "text": "the code and eventually this process"
+    },
+    {
+      "start": 182.159,
+      "duration": 3.44,
+      "text": "gets very tedious, especially as your"
+    },
+    {
+      "start": 184.159,
+      "duration": 2.961,
+      "text": "project gets bigger and bigger. And if"
+    },
+    {
+      "start": 185.599,
+      "duration": 3.28,
+      "text": "you're coding with AI or working with"
+    },
+    {
+      "start": 187.12,
+      "duration": 3.52,
+      "text": "multiple agents or get work trees, this"
+    },
+    {
+      "start": 188.879,
+      "duration": 3.681,
+      "text": "gets exponentially bigger. You have to"
+    },
+    {
+      "start": 190.64,
+      "duration": 3.519,
+      "text": "test a lot more. And again, I know the"
+    },
+    {
+      "start": 192.56,
+      "duration": 3.36,
+      "text": "sentiment is, well, AI is so good at"
+    },
+    {
+      "start": 194.159,
+      "duration": 2.961,
+      "text": "coding, it should just work. Or, I"
+    },
+    {
+      "start": 195.92,
+      "duration": 2.8,
+      "text": "checked this one thing, it works, I'll"
+    },
+    {
+      "start": 197.12,
+      "duration": 3.039,
+      "text": "move forward. But that's wrong. If you"
+    },
+    {
+      "start": 198.72,
+      "duration": 3.28,
+      "text": "want to ship production code, if you"
+    },
+    {
+      "start": 200.159,
+      "duration": 3.041,
+      "text": "want to ship products, you have to test."
+    },
+    {
+      "start": 202,
+      "duration": 2.64,
+      "text": "So, that's why I want to talk about"
+    },
+    {
+      "start": 203.2,
+      "duration": 3.28,
+      "text": "today's sponsor, Test Sprite, which"
+    },
+    {
+      "start": 204.64,
+      "duration": 3.76,
+      "text": "offers an MCB server that writes tests"
+    },
+    {
+      "start": 206.48,
+      "duration": 3.44,
+      "text": "after code and tests your code in a"
+    },
+    {
+      "start": 208.4,
+      "duration": 3.04,
+      "text": "secure environment. And they do it in a"
+    },
+    {
+      "start": 209.92,
+      "duration": 3.36,
+      "text": "way that keeps your whole project's"
+    },
+    {
+      "start": 211.44,
+      "duration": 3.439,
+      "text": "context in mind. Because unlike having"
+    },
+    {
+      "start": 213.28,
+      "duration": 3.44,
+      "text": "your agent just write tests before it"
+    },
+    {
+      "start": 214.879,
+      "duration": 3.601,
+      "text": "codes or ask your agent to test out what"
+    },
+    {
+      "start": 216.72,
+      "duration": 3.439,
+      "text": "it just did, you want to have the whole"
+    },
+    {
+      "start": 218.48,
+      "duration": 3.119,
+      "text": "picture of what you're building, how"
+    },
+    {
+      "start": 220.159,
+      "duration": 2.881,
+      "text": "everything connects. So the way that"
+    },
+    {
+      "start": 221.599,
+      "duration": 3.36,
+      "text": "they do this is that you upload your"
+    },
+    {
+      "start": 223.04,
+      "duration": 3.52,
+      "text": "PRD. The PRD that you created during the"
+    },
+    {
+      "start": 224.959,
+      "duration": 3.041,
+      "text": "planning phase. I'll link to the PRD"
+    },
+    {
+      "start": 226.56,
+      "duration": 2.72,
+      "text": "video above. So the PRD which"
+    },
+    {
+      "start": 228,
+      "duration": 2.72,
+      "text": "understands the essence of what you're"
+    },
+    {
+      "start": 229.28,
+      "duration": 3.36,
+      "text": "trying to build, understands the user"
+    },
+    {
+      "start": 230.72,
+      "duration": 3.599,
+      "text": "stories, the user personas, understands"
+    },
+    {
+      "start": 232.64,
+      "duration": 3.12,
+      "text": "the greater picture, is also being used"
+    },
+    {
+      "start": 234.319,
+      "duration": 3.441,
+      "text": "with the code you just wrote. So in a"
+    },
+    {
+      "start": 235.76,
+      "duration": 4.16,
+      "text": "way, Testrate has the whole picture here"
+    },
+    {
+      "start": 237.76,
+      "duration": 3.759,
+      "text": "because the PRD has the overall goal of"
+    },
+    {
+      "start": 239.92,
+      "duration": 3.12,
+      "text": "your project. It has the whole thing in"
+    },
+    {
+      "start": 241.519,
+      "duration": 3.761,
+      "text": "mind. Then it looks at the code. It"
+    },
+    {
+      "start": 243.04,
+      "duration": 3.6,
+      "text": "looks at the PRD. It writes tests on the"
+    },
+    {
+      "start": 245.28,
+      "duration": 3.12,
+      "text": "spot and then tests it out. And it's"
+    },
+    {
+      "start": 246.64,
+      "duration": 3.36,
+      "text": "almost like having a QA tester or a QA"
+    },
+    {
+      "start": 248.4,
+      "duration": 2.88,
+      "text": "engineer on call all the time. So I'm"
+    },
+    {
+      "start": 250,
+      "duration": 3.04,
+      "text": "just going to show you test sprite"
+    },
+    {
+      "start": 251.28,
+      "duration": 3.599,
+      "text": "really quickly. It works with any MCP"
+    },
+    {
+      "start": 253.04,
+      "duration": 3.759,
+      "text": "enabled client like cursor clog code,"
+    },
+    {
+      "start": 254.879,
+      "duration": 3.681,
+      "text": "windsurf, VS code, whatever. Because you"
+    },
+    {
+      "start": 256.799,
+      "duration": 3.521,
+      "text": "upload the PRD, it understands what you"
+    },
+    {
+      "start": 258.56,
+      "duration": 3.44,
+      "text": "want. It validates the code, test the"
+    },
+    {
+      "start": 260.32,
+      "duration": 3.28,
+      "text": "code, and then recommends how to fix it."
+    },
+    {
+      "start": 262,
+      "duration": 3.36,
+      "text": "Here they show an example of how just a"
+    },
+    {
+      "start": 263.6,
+      "duration": 3.039,
+      "text": "coding agent works versus building it"
+    },
+    {
+      "start": 265.36,
+      "duration": 2.48,
+      "text": "with test sprite. So once you create"
+    },
+    {
+      "start": 266.639,
+      "duration": 2.801,
+      "text": "your account, you have a dashboard."
+    },
+    {
+      "start": 267.84,
+      "duration": 3.359,
+      "text": "They're giving a one month free trial."
+    },
+    {
+      "start": 269.44,
+      "duration": 3.52,
+      "text": "You see all your recent tests, you"
+    },
+    {
+      "start": 271.199,
+      "duration": 3.361,
+      "text": "create test lists, you can create tests"
+    },
+    {
+      "start": 272.96,
+      "duration": 3.36,
+      "text": "on a schedule. If we go in here, we"
+    },
+    {
+      "start": 274.56,
+      "duration": 3.6,
+      "text": "could see what actually failed. So here"
+    },
+    {
+      "start": 276.32,
+      "duration": 3.439,
+      "text": "it failed user registration and input"
+    },
+    {
+      "start": 278.16,
+      "duration": 4.56,
+      "text": "validation. And if we click through to"
+    },
+    {
+      "start": 279.759,
+      "duration": 4.88,
+      "text": "it, it shows us a video of it trying to"
+    },
+    {
+      "start": 282.72,
+      "duration": 3.759,
+      "text": "work. But unlike just using Playright or"
+    },
+    {
+      "start": 284.639,
+      "duration": 3.441,
+      "text": "Chrome DevTools out of the box, this"
+    },
+    {
+      "start": 286.479,
+      "duration": 3.681,
+      "text": "creates a testing plan based on your"
+    },
+    {
+      "start": 288.08,
+      "duration": 4,
+      "text": "code and your P and then uses them. So"
+    },
+    {
+      "start": 290.16,
+      "duration": 3.68,
+      "text": "it knows exactly what to test. And to"
+    },
+    {
+      "start": 292.08,
+      "duration": 3.36,
+      "text": "get started, you just click test locally"
+    },
+    {
+      "start": 293.84,
+      "duration": 3.84,
+      "text": "and you do quick installation. And then"
+    },
+    {
+      "start": 295.44,
+      "duration": 4.16,
+      "text": "you can create an API key and use easy"
+    },
+    {
+      "start": 297.68,
+      "duration": 4.079,
+      "text": "installation for cursor cloud code or"
+    },
+    {
+      "start": 299.6,
+      "duration": 3.68,
+      "text": "any other MCP enabled IDE. So now if we"
+    },
+    {
+      "start": 301.759,
+      "duration": 2.801,
+      "text": "go back to my faith course, open up the"
+    },
+    {
+      "start": 303.28,
+      "duration": 3.199,
+      "text": "browser and we go to the local"
+    },
+    {
+      "start": 304.56,
+      "duration": 3.28,
+      "text": "deployment, we see the course website."
+    },
+    {
+      "start": 306.479,
+      "duration": 3.361,
+      "text": "And I'm sure you could already see some"
+    },
+    {
+      "start": 307.84,
+      "duration": 3.52,
+      "text": "problems here. So we say use test sprite"
+    },
+    {
+      "start": 309.84,
+      "duration": 2.639,
+      "text": "to test the UI of this site. Send it"
+    },
+    {
+      "start": 311.36,
+      "duration": 3.04,
+      "text": "off. The first thing that happens when"
+    },
+    {
+      "start": 312.479,
+      "duration": 3.361,
+      "text": "you invoke the test sprite MCP is it"
+    },
+    {
+      "start": 314.4,
+      "duration": 3.28,
+      "text": "opens up this testing configuration"
+    },
+    {
+      "start": 315.84,
+      "duration": 3.12,
+      "text": "page. And here's where you give it extra"
+    },
+    {
+      "start": 317.68,
+      "duration": 2.88,
+      "text": "context. If we're working on the front"
+    },
+    {
+      "start": 318.96,
+      "duration": 2.88,
+      "text": "end or the back end, if we want to look"
+    },
+    {
+      "start": 320.56,
+      "duration": 3.12,
+      "text": "at the whole codebase or just look at"
+    },
+    {
+      "start": 321.84,
+      "duration": 3.359,
+      "text": "what you changed, if you have a login"
+    },
+    {
+      "start": 323.68,
+      "duration": 2.799,
+      "text": "mechanism, you give it test account"
+    },
+    {
+      "start": 325.199,
+      "duration": 2.401,
+      "text": "details. You tell it what port it's"
+    },
+    {
+      "start": 326.479,
+      "duration": 3.44,
+      "text": "running on. So right now we're running"
+    },
+    {
+      "start": 327.6,
+      "duration": 4.4,
+      "text": "on 8081. And most importantly, you"
+    },
+    {
+      "start": 329.919,
+      "duration": 3.361,
+      "text": "upload the PRD and just drag it and drop"
+    },
+    {
+      "start": 332,
+      "duration": 2.56,
+      "text": "it down in here. You press continue,"
+    },
+    {
+      "start": 333.28,
+      "duration": 2.96,
+      "text": "it'll close the page. And then what"
+    },
+    {
+      "start": 334.56,
+      "duration": 3.6,
+      "text": "it'll do is it'll take your PRD, it will"
+    },
+    {
+      "start": 336.24,
+      "duration": 3.2,
+      "text": "create a standardized PRD based on what"
+    },
+    {
+      "start": 338.16,
+      "duration": 2.96,
+      "text": "you already have in your codebase and"
+    },
+    {
+      "start": 339.44,
+      "duration": 2.88,
+      "text": "then start generating tests. And you can"
+    },
+    {
+      "start": 341.12,
+      "duration": 2.48,
+      "text": "see it all running here. Then if you go"
+    },
+    {
+      "start": 342.32,
+      "duration": 2.719,
+      "text": "back to your dashboard, you can click"
+    },
+    {
+      "start": 343.6,
+      "duration": 2.96,
+      "text": "into seeing the one that's running right"
+    },
+    {
+      "start": 345.039,
+      "duration": 3.44,
+      "text": "now. You can see that they're all in"
+    },
+    {
+      "start": 346.56,
+      "duration": 3.52,
+      "text": "progress. Once it's done, it not only"
+    },
+    {
+      "start": 348.479,
+      "duration": 3.201,
+      "text": "gives you the answer here in the chat,"
+    },
+    {
+      "start": 350.08,
+      "duration": 3.2,
+      "text": "but it also provides evidence and"
+    },
+    {
+      "start": 351.68,
+      "duration": 4.239,
+      "text": "details on the dashboard. And then you"
+    },
+    {
+      "start": 353.28,
+      "duration": 4.24,
+      "text": "can tell the agent to fix task 005 or"
+    },
+    {
+      "start": 355.919,
+      "duration": 3.28,
+      "text": "whatever. And because the agent now has"
+    },
+    {
+      "start": 357.52,
+      "duration": 3.36,
+      "text": "the test results with error logs and"
+    },
+    {
+      "start": 359.199,
+      "duration": 3.121,
+      "text": "with visuals, it knows how to go out and"
+    },
+    {
+      "start": 360.88,
+      "duration": 3.039,
+      "text": "fix it right away. So the test finished"
+    },
+    {
+      "start": 362.32,
+      "duration": 3.52,
+      "text": "running. If we go back to cursor, it"
+    },
+    {
+      "start": 363.919,
+      "duration": 3.921,
+      "text": "gives us a short description, the tests"
+    },
+    {
+      "start": 365.84,
+      "duration": 3.359,
+      "text": "it passed, what it failed, some things"
+    },
+    {
+      "start": 367.84,
+      "duration": 2.72,
+      "text": "it found that I didn't even think about."
+    },
+    {
+      "start": 369.199,
+      "duration": 2.961,
+      "text": "And then it sends the whole test report"
+    },
+    {
+      "start": 370.56,
+      "duration": 3.359,
+      "text": "to your test sprite dashboard. If we go"
+    },
+    {
+      "start": 372.16,
+      "duration": 3.52,
+      "text": "there, we can see what passed, what"
+    },
+    {
+      "start": 373.919,
+      "duration": 4.481,
+      "text": "failed in detail. And then if we want to"
+    },
+    {
+      "start": 375.68,
+      "duration": 3.84,
+      "text": "fix it, we can just say fix TC00003."
+    },
+    {
+      "start": 378.4,
+      "duration": 2.239,
+      "text": "That's why I just copy and paste it,"
+    },
+    {
+      "start": 379.52,
+      "duration": 2.399,
+      "text": "send it off, and it will look at the"
+    },
+    {
+      "start": 380.639,
+      "duration": 2.56,
+      "text": "context and start doing its work. And"
+    },
+    {
+      "start": 381.919,
+      "duration": 2.72,
+      "text": "while it's not perfect, it's another"
+    },
+    {
+      "start": 383.199,
+      "duration": 3.601,
+      "text": "great tool to have in your arsenal. Just"
+    },
+    {
+      "start": 384.639,
+      "duration": 3.761,
+      "text": "like context 7, just like having a PRD,"
+    },
+    {
+      "start": 386.8,
+      "duration": 3.2,
+      "text": "this will reduce the amount of time and"
+    },
+    {
+      "start": 388.4,
+      "duration": 3.12,
+      "text": "reduce the amount of errors you get when"
+    },
+    {
+      "start": 390,
+      "duration": 2.88,
+      "text": "building with AI. It might even figure"
+    },
+    {
+      "start": 391.52,
+      "duration": 2.88,
+      "text": "out things you didn't realize, things"
+    },
+    {
+      "start": 392.88,
+      "duration": 3.439,
+      "text": "you didn't think about testing, and then"
+    },
+    {
+      "start": 394.4,
+      "duration": 3.28,
+      "text": "give you or the agent the extra context"
+    },
+    {
+      "start": 396.319,
+      "duration": 2.561,
+      "text": "of what you need to fix it. And I'll"
+    },
+    {
+      "start": 397.68,
+      "duration": 2.4,
+      "text": "drop a link to Test Sprite in the"
+    },
+    {
+      "start": 398.88,
+      "duration": 2.96,
+      "text": "description below. At the end of the"
+    },
+    {
+      "start": 400.08,
+      "duration": 3.52,
+      "text": "day, what I want you to walk away from"
+    },
+    {
+      "start": 401.84,
+      "duration": 3.44,
+      "text": "is the importance of testing. If it's"
+    },
+    {
+      "start": 403.6,
+      "duration": 3.599,
+      "text": "test-driven development, if it's manual"
+    },
+    {
+      "start": 405.28,
+      "duration": 3.84,
+      "text": "testing, if it's CI/CD, if it's"
+    },
+    {
+      "start": 407.199,
+      "duration": 3.201,
+      "text": "regression testing, the list goes on."
+    },
+    {
+      "start": 409.12,
+      "duration": 3.28,
+      "text": "But if you plan on shipping"
+    },
+    {
+      "start": 410.4,
+      "duration": 4.079,
+      "text": "productionready apps or websites for"
+    },
+    {
+      "start": 412.4,
+      "duration": 3.68,
+      "text": "yourself or for others, you got to test."
+    },
+    {
+      "start": 414.479,
+      "duration": 2.881,
+      "text": "It's like looking both ways before you"
+    },
+    {
+      "start": 416.08,
+      "duration": 2.8,
+      "text": "cross the road. You look really cool"
+    },
+    {
+      "start": 417.36,
+      "duration": 3.279,
+      "text": "when you don't do it, but sometimes you"
+    },
+    {
+      "start": 418.88,
+      "duration": 3.84,
+      "text": "might get hit by a bus. Same thing with"
+    },
+    {
+      "start": 420.639,
+      "duration": 3.921,
+      "text": "testing. I know it's really cool to vibe"
+    },
+    {
+      "start": 422.72,
+      "duration": 3.52,
+      "text": "code and just give a prompt and have"
+    },
+    {
+      "start": 424.56,
+      "duration": 3.12,
+      "text": "whatever agent you're using build"
+    },
+    {
+      "start": 426.24,
+      "duration": 3.12,
+      "text": "something really quickly for you. When"
+    },
+    {
+      "start": 427.68,
+      "duration": 3.44,
+      "text": "you start adding to it, when you start"
+    },
+    {
+      "start": 429.36,
+      "duration": 4.08,
+      "text": "editing it, things start breaking. And"
+    },
+    {
+      "start": 431.12,
+      "duration": 4.079,
+      "text": "the agent is not capable of knowing when"
+    },
+    {
+      "start": 433.44,
+      "duration": 3.84,
+      "text": "it broke other things. It's not capable"
+    },
+    {
+      "start": 435.199,
+      "duration": 3.681,
+      "text": "of remembering all the context. It's not"
+    },
+    {
+      "start": 437.28,
+      "duration": 3.199,
+      "text": "capable of understanding how it's"
+    },
+    {
+      "start": 438.88,
+      "duration": 3.28,
+      "text": "supposed to work from a UIUX"
+    },
+    {
+      "start": 440.479,
+      "duration": 3.041,
+      "text": "perspective. So, you got to bake testing"
+    },
+    {
+      "start": 442.16,
+      "duration": 2.8,
+      "text": "into your workflow. And that doesn't"
+    },
+    {
+      "start": 443.52,
+      "duration": 2.959,
+      "text": "mean just clicking it once and checking"
+    },
+    {
+      "start": 444.96,
+      "duration": 3.2,
+      "text": "if the feature you just built works."
+    },
+    {
+      "start": 446.479,
+      "duration": 3.44,
+      "text": "That means testing everything else."
+    },
+    {
+      "start": 448.16,
+      "duration": 3.84,
+      "text": "Because the truth of the matter is it"
+    },
+    {
+      "start": 449.919,
+      "duration": 3.921,
+      "text": "will break. By definition, it will break"
+    },
+    {
+      "start": 452,
+      "duration": 4.08,
+      "text": "and you need to find that out as quickly"
+    },
+    {
+      "start": 453.84,
+      "duration": 4.479,
+      "text": "as possible. So use your time, use your"
+    },
+    {
+      "start": 456.08,
+      "duration": 4.16,
+      "text": "mental energy to plan. Let AI write the"
+    },
+    {
+      "start": 458.319,
+      "duration": 3.361,
+      "text": "code and then test either with tools,"
+    },
+    {
+      "start": 460.24,
+      "duration": 2.72,
+      "text": "either with workflows, but you got to"
+    },
+    {
+      "start": 461.68,
+      "duration": 2.48,
+      "text": "test. You got to make sure that it's"
+    },
+    {
+      "start": 462.96,
+      "duration": 2.88,
+      "text": "working. So I hope you found this video"
+    },
+    {
+      "start": 464.16,
+      "duration": 3.039,
+      "text": "helpful. I hope you will bake testing"
+    },
+    {
+      "start": 465.84,
+      "duration": 2.96,
+      "text": "into your development mindset,"
+    },
+    {
+      "start": 467.199,
+      "duration": 2.961,
+      "text": "especially if it's vibe coding. I hope"
+    },
+    {
+      "start": 468.8,
+      "duration": 2.56,
+      "text": "you understand the importance of it"
+    },
+    {
+      "start": 470.16,
+      "duration": 2.72,
+      "text": "because in the end of the day, it will"
+    },
+    {
+      "start": 471.36,
+      "duration": 3.119,
+      "text": "save you so much time. And thanks to"
+    },
+    {
+      "start": 472.88,
+      "duration": 3.2,
+      "text": "Testrate for sponsoring this video. If"
+    },
+    {
+      "start": 474.479,
+      "duration": 2.801,
+      "text": "you have any questions or feedback, drop"
+    },
+    {
+      "start": 476.08,
+      "duration": 2.48,
+      "text": "in the comments below. If you haven't"
+    },
+    {
+      "start": 477.28,
+      "duration": 4.479,
+      "text": "done so already, subscribe to the"
+    },
+    {
+      "start": 478.56,
+      "duration": 3.199,
+      "text": "channel. It really helps me grow."
+    }
+  ],
+  "fullText": "Just like context 7, this will reduce the amount of time and reduce the amount of errors you get when building with AI. The number one mistake I see people make when coding with AI and especially vi coding is skipping out on testing. Testing is probably the second most important thing you should do, first one of course being planning, creating a PRD, but after the code is written either by AI or by a human, the most important thing is then testing that code because every new line, every new character is potentially breaking changes. And if you've been coding with AI or in real life, you know what I'm talking about. And that's why big companies implement procedures like test-driven development, CI/CD pipelines, and employ QA testers. As good as AI is at writing code and being confident that it's right, it doesn't even know when it's wrong. It doesn't have the whole context in mind of your app or your project. And therefore, every time you finish something, you have to spend time testing it to make sure it works. And not just testing the thing you just built, testing everything that came before it. Because if you don't test, if you just give it a quick look and see if the button clicks, something else under the hood could have broken. And it probably did. And if you don't figure that out right away, it will cascade down and create problems for every other feature or thing you add. So, in this video, we're going to go over my testing practices, and then I'm going to show you an MCB server that does a lot of the work for you. So, let's get into it. Now, the first thing I make into all my projects is test-driven development. This is a triedand-rue methodology implemented by companies and small teams alike. And what it boils down to is as you write your PRD, you start breaking everything into small tasks. You write a test for every single task so that when you work on that task on that feature, you only move on to the next one if it passes the test you wrote for it ahead of time. And if it doesn't pass that test, you keep working on it. And there are many flavors to this, but the whole idea here is to know what you want to build, know the test that has to pass to make sure it works, and then move on to the next task. And it's a lot more planning, but the good news is specri development frameworks like BMAT and OpenSpec factor in test-driven development when they write the task lists. So if you're using spectriven development, you don't have to worry about it that much. The bottom line is if you have a plan, if you have a PRD, if you have a spec, you break that down into tasks and then those tasks also have tests written for them. So the human coder or the AI wouldn't have to go to the next task until the test for that task passes. And it solves a lot of issues, but it's not foolproof, especially when you're building with AI. Meaning, every time you write with AI, there's several different issues that you could run to, like the model being degraded, or your spec not being clear enough, or overuse of a context window having a really long chat and the model starts hallucinating, or the agent could have just written buggy code anyways. And lastly, you see something you didn't like or didn't work out as you thought about in your head. So you tell the agent to change something, to change a button, to move a thing, to change a functionality. So you start changing things on the fly or when any of these things happen, the tests that were written beforehand are not relevant anymore. So either the tests start breaking or they're not even testing the right thing anymore. So test development works really well when you know what you're building ahead of time and you don't really veer from that plan. Now on the other end of the spectrum, you have CI/CD. You have code review. It tests the code after it's committed or before it gets pushed to production. But that generally just makes sure that it runs. Doesn't really check for usability. Doesn't really check for functionality. So then it comes down to manual testing, QA testing, going through the flow of your project or checking that the APIs work. You have to test that the main functionality works. You have to test out that all the other functionality that you wrote previously still works. And repeating this every time you change the code and eventually this process gets very tedious, especially as your project gets bigger and bigger. And if you're coding with AI or working with multiple agents or get work trees, this gets exponentially bigger. You have to test a lot more. And again, I know the sentiment is, well, AI is so good at coding, it should just work. Or, I checked this one thing, it works, I'll move forward. But that's wrong. If you want to ship production code, if you want to ship products, you have to test. So, that's why I want to talk about today's sponsor, Test Sprite, which offers an MCB server that writes tests after code and tests your code in a secure environment. And they do it in a way that keeps your whole project's context in mind. Because unlike having your agent just write tests before it codes or ask your agent to test out what it just did, you want to have the whole picture of what you're building, how everything connects. So the way that they do this is that you upload your PRD. The PRD that you created during the planning phase. I'll link to the PRD video above. So the PRD which understands the essence of what you're trying to build, understands the user stories, the user personas, understands the greater picture, is also being used with the code you just wrote. So in a way, Testrate has the whole picture here because the PRD has the overall goal of your project. It has the whole thing in mind. Then it looks at the code. It looks at the PRD. It writes tests on the spot and then tests it out. And it's almost like having a QA tester or a QA engineer on call all the time. So I'm just going to show you test sprite really quickly. It works with any MCP enabled client like cursor clog code, windsurf, VS code, whatever. Because you upload the PRD, it understands what you want. It validates the code, test the code, and then recommends how to fix it. Here they show an example of how just a coding agent works versus building it with test sprite. So once you create your account, you have a dashboard. They're giving a one month free trial. You see all your recent tests, you create test lists, you can create tests on a schedule. If we go in here, we could see what actually failed. So here it failed user registration and input validation. And if we click through to it, it shows us a video of it trying to work. But unlike just using Playright or Chrome DevTools out of the box, this creates a testing plan based on your code and your P and then uses them. So it knows exactly what to test. And to get started, you just click test locally and you do quick installation. And then you can create an API key and use easy installation for cursor cloud code or any other MCP enabled IDE. So now if we go back to my faith course, open up the browser and we go to the local deployment, we see the course website. And I'm sure you could already see some problems here. So we say use test sprite to test the UI of this site. Send it off. The first thing that happens when you invoke the test sprite MCP is it opens up this testing configuration page. And here's where you give it extra context. If we're working on the front end or the back end, if we want to look at the whole codebase or just look at what you changed, if you have a login mechanism, you give it test account details. You tell it what port it's running on. So right now we're running on 8081. And most importantly, you upload the PRD and just drag it and drop it down in here. You press continue, it'll close the page. And then what it'll do is it'll take your PRD, it will create a standardized PRD based on what you already have in your codebase and then start generating tests. And you can see it all running here. Then if you go back to your dashboard, you can click into seeing the one that's running right now. You can see that they're all in progress. Once it's done, it not only gives you the answer here in the chat, but it also provides evidence and details on the dashboard. And then you can tell the agent to fix task 005 or whatever. And because the agent now has the test results with error logs and with visuals, it knows how to go out and fix it right away. So the test finished running. If we go back to cursor, it gives us a short description, the tests it passed, what it failed, some things it found that I didn't even think about. And then it sends the whole test report to your test sprite dashboard. If we go there, we can see what passed, what failed in detail. And then if we want to fix it, we can just say fix TC00003. That's why I just copy and paste it, send it off, and it will look at the context and start doing its work. And while it's not perfect, it's another great tool to have in your arsenal. Just like context 7, just like having a PRD, this will reduce the amount of time and reduce the amount of errors you get when building with AI. It might even figure out things you didn't realize, things you didn't think about testing, and then give you or the agent the extra context of what you need to fix it. And I'll drop a link to Test Sprite in the description below. At the end of the day, what I want you to walk away from is the importance of testing. If it's test-driven development, if it's manual testing, if it's CI/CD, if it's regression testing, the list goes on. But if you plan on shipping productionready apps or websites for yourself or for others, you got to test. It's like looking both ways before you cross the road. You look really cool when you don't do it, but sometimes you might get hit by a bus. Same thing with testing. I know it's really cool to vibe code and just give a prompt and have whatever agent you're using build something really quickly for you. When you start adding to it, when you start editing it, things start breaking. And the agent is not capable of knowing when it broke other things. It's not capable of remembering all the context. It's not capable of understanding how it's supposed to work from a UIUX perspective. So, you got to bake testing into your workflow. And that doesn't mean just clicking it once and checking if the feature you just built works. That means testing everything else. Because the truth of the matter is it will break. By definition, it will break and you need to find that out as quickly as possible. So use your time, use your mental energy to plan. Let AI write the code and then test either with tools, either with workflows, but you got to test. You got to make sure that it's working. So I hope you found this video helpful. I hope you will bake testing into your development mindset, especially if it's vibe coding. I hope you understand the importance of it because in the end of the day, it will save you so much time. And thanks to Testrate for sponsoring this video. If you have any questions or feedback, drop in the comments below. If you haven't done so already, subscribe to the channel. It really helps me grow.",
+  "fetchedAt": "2026-01-18T18:34:04.824Z"
+}

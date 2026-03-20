@@ -1,0 +1,2144 @@
+{
+  "videoId": "e4giCKHIJy8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.68,
+      "text": "There are many AI code editors, each"
+    },
+    {
+      "start": 2,
+      "duration": 3.6,
+      "text": "with its own set of tools and features"
+    },
+    {
+      "start": 3.76,
+      "duration": 3.519,
+      "text": "that make it stand out. Claude Code is"
+    },
+    {
+      "start": 5.6,
+      "duration": 3.76,
+      "text": "arguably the best, especially with the"
+    },
+    {
+      "start": 7.279,
+      "duration": 3.601,
+      "text": "Opus model, but it's also expensive. On"
+    },
+    {
+      "start": 9.36,
+      "duration": 3.359,
+      "text": "the other hand, cursor is another"
+    },
+    {
+      "start": 10.88,
+      "duration": 3.6,
+      "text": "favorite among developers who like to"
+    },
+    {
+      "start": 12.719,
+      "duration": 3.521,
+      "text": "see the code side by side with the"
+    },
+    {
+      "start": 14.48,
+      "duration": 3.36,
+      "text": "agents actions, but it has its own"
+    },
+    {
+      "start": 16.24,
+      "duration": 3.92,
+      "text": "problems. Google also released"
+    },
+    {
+      "start": 17.84,
+      "duration": 4.32,
+      "text": "anti-gravity with Gemini 3, which became"
+    },
+    {
+      "start": 20.16,
+      "duration": 4.16,
+      "text": "rapidly popular among developers because"
+    },
+    {
+      "start": 22.16,
+      "duration": 4.16,
+      "text": "of the model and its free usage. It is"
+    },
+    {
+      "start": 24.32,
+      "duration": 3.84,
+      "text": "newer than both clawed code and cursor,"
+    },
+    {
+      "start": 26.32,
+      "duration": 3.92,
+      "text": "but it has implemented a lot of things"
+    },
+    {
+      "start": 28.16,
+      "duration": 3.919,
+      "text": "better than cursor. Now, ever since AI"
+    },
+    {
+      "start": 30.24,
+      "duration": 3.2,
+      "text": "coding started getting powerful, a lot"
+    },
+    {
+      "start": 32.079,
+      "duration": 3.201,
+      "text": "of people have been coming out with"
+    },
+    {
+      "start": 33.44,
+      "duration": 3.76,
+      "text": "their own workflows with these tools."
+    },
+    {
+      "start": 35.28,
+      "duration": 3.439,
+      "text": "But the key to any good workflow is how"
+    },
+    {
+      "start": 37.2,
+      "duration": 3.6,
+      "text": "efficient it is at managing your"
+    },
+    {
+      "start": 38.719,
+      "duration": 4.241,
+      "text": "context. Previously, Anthropic released"
+    },
+    {
+      "start": 40.8,
+      "duration": 3.919,
+      "text": "an agent harness designed for longunning"
+    },
+    {
+      "start": 42.96,
+      "duration": 3.599,
+      "text": "tasks. And this time, Cursor has"
+    },
+    {
+      "start": 44.719,
+      "duration": 3.921,
+      "text": "released its own harness designed to"
+    },
+    {
+      "start": 46.559,
+      "duration": 4.241,
+      "text": "significantly improve the use of cursor"
+    },
+    {
+      "start": 48.64,
+      "duration": 3.84,
+      "text": "by maximally utilizing its capabilities."
+    },
+    {
+      "start": 50.8,
+      "duration": 3.759,
+      "text": "The principles mentioned in the article"
+    },
+    {
+      "start": 52.48,
+      "duration": 3.599,
+      "text": "are largely applicable to all agents."
+    },
+    {
+      "start": 54.559,
+      "duration": 3.281,
+      "text": "So, I'm taking these principles to"
+    },
+    {
+      "start": 56.079,
+      "duration": 3.681,
+      "text": "Google's anti-gravity. It might not be"
+    },
+    {
+      "start": 57.84,
+      "duration": 3.68,
+      "text": "the best yet, but it has features that"
+    },
+    {
+      "start": 59.76,
+      "duration": 3.599,
+      "text": "set it apart from the others. We've got"
+    },
+    {
+      "start": 61.52,
+      "duration": 3.2,
+      "text": "a lot to talk about today because with"
+    },
+    {
+      "start": 63.359,
+      "duration": 3.521,
+      "text": "the addition of this harness,"
+    },
+    {
+      "start": 64.72,
+      "duration": 4.32,
+      "text": "anti-gravity's performance has improved"
+    },
+    {
+      "start": 66.88,
+      "duration": 3.919,
+      "text": "significantly. Before we go into the"
+    },
+    {
+      "start": 69.04,
+      "duration": 3.6,
+      "text": "methods, let us understand what a"
+    },
+    {
+      "start": 70.799,
+      "duration": 3.761,
+      "text": "harness is actually built upon. There"
+    },
+    {
+      "start": 72.64,
+      "duration": 3.6,
+      "text": "are three main components. The first is"
+    },
+    {
+      "start": 74.56,
+      "duration": 3.52,
+      "text": "the instructions, which include the"
+    },
+    {
+      "start": 76.24,
+      "duration": 3.919,
+      "text": "system prompts and rules that guide"
+    },
+    {
+      "start": 78.08,
+      "duration": 3.679,
+      "text": "agentic behavior. These are specialized"
+    },
+    {
+      "start": 80.159,
+      "duration": 3.6,
+      "text": "instructions that are built into the"
+    },
+    {
+      "start": 81.759,
+      "duration": 3.761,
+      "text": "tool itself. The second component is the"
+    },
+    {
+      "start": 83.759,
+      "duration": 3.601,
+      "text": "tools attached to the agent, which help"
+    },
+    {
+      "start": 85.52,
+      "duration": 3.84,
+      "text": "it perform better. These include file"
+    },
+    {
+      "start": 87.36,
+      "duration": 3.84,
+      "text": "editing, codebased search, and terminal"
+    },
+    {
+      "start": 89.36,
+      "duration": 4.079,
+      "text": "execution, giving the agent the ability"
+    },
+    {
+      "start": 91.2,
+      "duration": 4.64,
+      "text": "to carry out tasks effectively. Lastly,"
+    },
+    {
+      "start": 93.439,
+      "duration": 4,
+      "text": "there is how you as a user interact with"
+    },
+    {
+      "start": 95.84,
+      "duration": 3.2,
+      "text": "it, how you prompt it, and how you"
+    },
+    {
+      "start": 97.439,
+      "duration": 3.441,
+      "text": "follow up with the responses. The"
+    },
+    {
+      "start": 99.04,
+      "duration": 3.84,
+      "text": "harness is important because different"
+    },
+    {
+      "start": 100.88,
+      "duration": 3.919,
+      "text": "models respond to the same prompt in"
+    },
+    {
+      "start": 102.88,
+      "duration": 3.84,
+      "text": "different ways, as each model has its"
+    },
+    {
+      "start": 104.799,
+      "duration": 3.521,
+      "text": "own strengths and performs best in the"
+    },
+    {
+      "start": 106.72,
+      "duration": 3.039,
+      "text": "environment it was trained for. For"
+    },
+    {
+      "start": 108.32,
+      "duration": 3.439,
+      "text": "example, a model trained in a"
+    },
+    {
+      "start": 109.759,
+      "duration": 4.32,
+      "text": "shell-based environment might naturally"
+    },
+    {
+      "start": 111.759,
+      "duration": 4.081,
+      "text": "prefer using GP over a dedicated search"
+    },
+    {
+      "start": 114.079,
+      "duration": 4.161,
+      "text": "tool. This matters because we know that"
+    },
+    {
+      "start": 115.84,
+      "duration": 4.239,
+      "text": "some models like Claude excel with XML"
+    },
+    {
+      "start": 118.24,
+      "duration": 3.6,
+      "text": "prompts while others perform better with"
+    },
+    {
+      "start": 120.079,
+      "duration": 3.68,
+      "text": "markdown. Therefore, it's crucial that"
+    },
+    {
+      "start": 121.84,
+      "duration": 3.84,
+      "text": "the harness we use is tailored to the"
+    },
+    {
+      "start": 123.759,
+      "duration": 3.761,
+      "text": "specific model we're working with."
+    },
+    {
+      "start": 125.68,
+      "duration": 3.68,
+      "text": "Planning before implementation is"
+    },
+    {
+      "start": 127.52,
+      "duration": 3.519,
+      "text": "essential to ensure that the code meets"
+    },
+    {
+      "start": 129.36,
+      "duration": 3.44,
+      "text": "your expectations. Experienced"
+    },
+    {
+      "start": 131.039,
+      "duration": 3.84,
+      "text": "developers are more likely to plan"
+    },
+    {
+      "start": 132.8,
+      "duration": 3.92,
+      "text": "before generating code because it forces"
+    },
+    {
+      "start": 134.879,
+      "duration": 3.761,
+      "text": "clear thinking about what is being built"
+    },
+    {
+      "start": 136.72,
+      "duration": 3.76,
+      "text": "and gives the agent concrete goals to"
+    },
+    {
+      "start": 138.64,
+      "duration": 3.52,
+      "text": "target. Anti-gravity's planning feature"
+    },
+    {
+      "start": 140.48,
+      "duration": 3.36,
+      "text": "is the one I like the most because"
+    },
+    {
+      "start": 142.16,
+      "duration": 3.36,
+      "text": "revising the plan is easy with"
+    },
+    {
+      "start": 143.84,
+      "duration": 3.52,
+      "text": "commenting. When I started in planning"
+    },
+    {
+      "start": 145.52,
+      "duration": 3.92,
+      "text": "mode, it thoroughly analyzed my"
+    },
+    {
+      "start": 147.36,
+      "duration": 4.08,
+      "text": "instructions and the existing codebase,"
+    },
+    {
+      "start": 149.44,
+      "duration": 3.84,
+      "text": "then generated a detailed plan. Although"
+    },
+    {
+      "start": 151.44,
+      "duration": 3.76,
+      "text": "reading through the plan was tedious, it"
+    },
+    {
+      "start": 153.28,
+      "duration": 3.76,
+      "text": "is essential to review it carefully to"
+    },
+    {
+      "start": 155.2,
+      "duration": 3.6,
+      "text": "ensure the implementation aligns with"
+    },
+    {
+      "start": 157.04,
+      "duration": 3.76,
+      "text": "the vision. So, make sure to thoroughly"
+    },
+    {
+      "start": 158.8,
+      "duration": 3.84,
+      "text": "read through it. For changes, I just had"
+    },
+    {
+      "start": 160.8,
+      "duration": 3.76,
+      "text": "to comment on any line that did not"
+    },
+    {
+      "start": 162.64,
+      "duration": 3.76,
+      "text": "match my goal and it incorporated the"
+    },
+    {
+      "start": 164.56,
+      "duration": 3.759,
+      "text": "change into the revised plan. It is"
+    },
+    {
+      "start": 166.4,
+      "duration": 4.08,
+      "text": "essential to keep refining until the"
+    },
+    {
+      "start": 168.319,
+      "duration": 4.161,
+      "text": "plan is perfect. Once done, the agent"
+    },
+    {
+      "start": 170.48,
+      "duration": 3.759,
+      "text": "can implement everything autonomously."
+    },
+    {
+      "start": 172.48,
+      "duration": 3.52,
+      "text": "Even if the implementation does not"
+    },
+    {
+      "start": 174.239,
+      "duration": 3.681,
+      "text": "match what you wanted, it is better to"
+    },
+    {
+      "start": 176,
+      "duration": 3.599,
+      "text": "go back to planning mode and edit the"
+    },
+    {
+      "start": 177.92,
+      "duration": 3.52,
+      "text": "plan rather than using follow-up"
+    },
+    {
+      "start": 179.599,
+      "duration": 3.441,
+      "text": "prompts. After that, the agent needs to"
+    },
+    {
+      "start": 181.44,
+      "duration": 3.2,
+      "text": "work with the correct context. But"
+    },
+    {
+      "start": 183.04,
+      "duration": 3.68,
+      "text": "before that, here's a word from our"
+    },
+    {
+      "start": 184.64,
+      "duration": 4.239,
+      "text": "sponsor. Luma AI and their new tool,"
+    },
+    {
+      "start": 186.72,
+      "duration": 3.84,
+      "text": "Dream Machine, Ray 3 Modify. If you've"
+    },
+    {
+      "start": 188.879,
+      "duration": 3.201,
+      "text": "worked with AI video, you know the"
+    },
+    {
+      "start": 190.56,
+      "duration": 3.28,
+      "text": "frustration. you generate something"
+    },
+    {
+      "start": 192.08,
+      "duration": 3.519,
+      "text": "cool, but the moment you try to change"
+    },
+    {
+      "start": 193.84,
+      "duration": 3.52,
+      "text": "the style or scene, the character"
+    },
+    {
+      "start": 195.599,
+      "duration": 4.161,
+      "text": "breaks, motion feels off, and you're"
+    },
+    {
+      "start": 197.36,
+      "duration": 4.239,
+      "text": "stuck regenerating. Ray 3 modify solves"
+    },
+    {
+      "start": 199.76,
+      "duration": 3.759,
+      "text": "that. For the first time, AI video"
+    },
+    {
+      "start": 201.599,
+      "duration": 3.841,
+      "text": "actually feels directed, not guested."
+    },
+    {
+      "start": 203.519,
+      "duration": 3.681,
+      "text": "You can take an existing clip, even a"
+    },
+    {
+      "start": 205.44,
+      "duration": 3.92,
+      "text": "real performance, and transform the"
+    },
+    {
+      "start": 207.2,
+      "duration": 4,
+      "text": "world, lighting, or cinematic style"
+    },
+    {
+      "start": 209.36,
+      "duration": 4.239,
+      "text": "while keeping the character identity,"
+    },
+    {
+      "start": 211.2,
+      "duration": 3.84,
+      "text": "motion, and emotional beats intact. The"
+    },
+    {
+      "start": 213.599,
+      "duration": 3.2,
+      "text": "performance stays locked. The look"
+    },
+    {
+      "start": 215.04,
+      "duration": 3.6,
+      "text": "evolves exactly how you want. With"
+    },
+    {
+      "start": 216.799,
+      "duration": 3.36,
+      "text": "character reference and modifiable key"
+    },
+    {
+      "start": 218.64,
+      "duration": 3.28,
+      "text": "frames, you control what stays"
+    },
+    {
+      "start": 220.159,
+      "duration": 3.841,
+      "text": "consistent and what changes across"
+    },
+    {
+      "start": 221.92,
+      "duration": 4.399,
+      "text": "shots. Perfect for hybrid workflows,"
+    },
+    {
+      "start": 224,
+      "duration": 4.48,
+      "text": "short films, music videos, and cinematic"
+    },
+    {
+      "start": 226.319,
+      "duration": 4.081,
+      "text": "concept work. Even smaller productions."
+    },
+    {
+      "start": 228.48,
+      "duration": 3.92,
+      "text": "Honestly, this feels like real AI"
+    },
+    {
+      "start": 230.4,
+      "duration": 4.32,
+      "text": "post-prouction. Stop guessing, start"
+    },
+    {
+      "start": 232.4,
+      "duration": 4.479,
+      "text": "directing. Check out Ray 3 modify in the"
+    },
+    {
+      "start": 234.72,
+      "duration": 4.079,
+      "text": "pinned comment or scan the QR code and"
+    },
+    {
+      "start": 236.879,
+      "duration": 3.92,
+      "text": "see what's possible. Once you have"
+    },
+    {
+      "start": 238.799,
+      "duration": 4,
+      "text": "perfected your planning, your job is to"
+    },
+    {
+      "start": 240.799,
+      "duration": 3.841,
+      "text": "provide each agent with the context"
+    },
+    {
+      "start": 242.799,
+      "duration": 3.52,
+      "text": "needed to complete the task. Another"
+    },
+    {
+      "start": 244.64,
+      "duration": 3.76,
+      "text": "thing that people get wrong is they tend"
+    },
+    {
+      "start": 246.319,
+      "duration": 4.161,
+      "text": "to manually tag every file. You don't"
+    },
+    {
+      "start": 248.4,
+      "duration": 3.839,
+      "text": "need to manually do it as agents have"
+    },
+    {
+      "start": 250.48,
+      "duration": 3.759,
+      "text": "powerful search tools that can pull"
+    },
+    {
+      "start": 252.239,
+      "duration": 4.321,
+      "text": "context on demand. Manually tagging"
+    },
+    {
+      "start": 254.239,
+      "duration": 4.321,
+      "text": "files loads everything into context even"
+    },
+    {
+      "start": 256.56,
+      "duration": 4.16,
+      "text": "though not all lines are needed. Agents"
+    },
+    {
+      "start": 258.56,
+      "duration": 4.079,
+      "text": "can use GP to load the specific segments"
+    },
+    {
+      "start": 260.72,
+      "duration": 3.44,
+      "text": "they require. For example, if I want to"
+    },
+    {
+      "start": 262.639,
+      "duration": 3.521,
+      "text": "make a change on the signup page,"
+    },
+    {
+      "start": 264.16,
+      "duration": 4.16,
+      "text": "tagging the file would load the entire"
+    },
+    {
+      "start": 266.16,
+      "duration": 4.24,
+      "text": "component of more than 200 lines into"
+    },
+    {
+      "start": 268.32,
+      "duration": 3.92,
+      "text": "the context, bloating it unnecessarily."
+    },
+    {
+      "start": 270.4,
+      "duration": 4.16,
+      "text": "Even though the lines actually required"
+    },
+    {
+      "start": 272.24,
+      "duration": 3.76,
+      "text": "are just one function of about 50 lines,"
+    },
+    {
+      "start": 274.56,
+      "duration": 3.28,
+      "text": "the rest of the lines, which are"
+    },
+    {
+      "start": 276,
+      "duration": 3.68,
+      "text": "completely unnecessary, would still be"
+    },
+    {
+      "start": 277.84,
+      "duration": 4.079,
+      "text": "included. Instead of tagging the file"
+    },
+    {
+      "start": 279.68,
+      "duration": 4.16,
+      "text": "manually, rely on the agent search tool"
+    },
+    {
+      "start": 281.919,
+      "duration": 3.441,
+      "text": "to GP for the function it needs. You"
+    },
+    {
+      "start": 283.84,
+      "duration": 3.44,
+      "text": "don't have to do everything in a single"
+    },
+    {
+      "start": 285.36,
+      "duration": 4.24,
+      "text": "conversation. Start a new conversation"
+    },
+    {
+      "start": 287.28,
+      "duration": 4.4,
+      "text": "for any new task or whenever the agents"
+    },
+    {
+      "start": 289.6,
+      "duration": 4.08,
+      "text": "performance becomes confused or it keeps"
+    },
+    {
+      "start": 291.68,
+      "duration": 3.84,
+      "text": "making the same mistakes. Essentially,"
+    },
+    {
+      "start": 293.68,
+      "duration": 4.079,
+      "text": "start a new conversation once you have"
+    },
+    {
+      "start": 295.52,
+      "duration": 4.399,
+      "text": "completed one logical unit of work. For"
+    },
+    {
+      "start": 297.759,
+      "duration": 4.081,
+      "text": "instance, I start a new conversation for"
+    },
+    {
+      "start": 299.919,
+      "duration": 3.681,
+      "text": "every new feature I want to implement"
+    },
+    {
+      "start": 301.84,
+      "duration": 3.84,
+      "text": "and begin with planning for that feature"
+    },
+    {
+      "start": 303.6,
+      "duration": 4.159,
+      "text": "as I want. This way, all tasks are"
+    },
+    {
+      "start": 305.68,
+      "duration": 3.68,
+      "text": "isolated and exactly as I need. The only"
+    },
+    {
+      "start": 307.759,
+      "duration": 3.28,
+      "text": "time you do not need to start a new"
+    },
+    {
+      "start": 309.36,
+      "duration": 3.6,
+      "text": "conversation is when you are working on"
+    },
+    {
+      "start": 311.039,
+      "duration": 3.841,
+      "text": "the same feature, need the same context"
+    },
+    {
+      "start": 312.96,
+      "duration": 3.519,
+      "text": "from the discussion, or are debugging a"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.68,
+      "text": "feature the agent has implemented."
+    },
+    {
+      "start": 316.479,
+      "duration": 3.841,
+      "text": "Outside of these cases, it is better to"
+    },
+    {
+      "start": 318.56,
+      "duration": 3.52,
+      "text": "reduce the noise by starting a new"
+    },
+    {
+      "start": 320.32,
+      "duration": 3.92,
+      "text": "conversation. The effectiveness of the"
+    },
+    {
+      "start": 322.08,
+      "duration": 3.36,
+      "text": "agents responses is actually a guide for"
+    },
+    {
+      "start": 324.24,
+      "duration": 2.959,
+      "text": "when you should start a new"
+    },
+    {
+      "start": 325.44,
+      "duration": 3.84,
+      "text": "conversation. If you want to refer back"
+    },
+    {
+      "start": 327.199,
+      "duration": 3.761,
+      "text": "to any details from your previous chats,"
+    },
+    {
+      "start": 329.28,
+      "duration": 3.52,
+      "text": "you can do so by referencing them"
+    },
+    {
+      "start": 330.96,
+      "duration": 3.519,
+      "text": "directly in the chat and mentioning that"
+    },
+    {
+      "start": 332.8,
+      "duration": 3.36,
+      "text": "conversation instead of guiding the"
+    },
+    {
+      "start": 334.479,
+      "duration": 3.44,
+      "text": "agent through it again. This allows the"
+    },
+    {
+      "start": 336.16,
+      "duration": 3.44,
+      "text": "agent to identify the conversational"
+    },
+    {
+      "start": 337.919,
+      "duration": 3.521,
+      "text": "context intelligently, letting it"
+    },
+    {
+      "start": 339.6,
+      "duration": 4.159,
+      "text": "selectively read from the chat history"
+    },
+    {
+      "start": 341.44,
+      "duration": 4.4,
+      "text": "and pick only the context it needs. The"
+    },
+    {
+      "start": 343.759,
+      "duration": 4.081,
+      "text": "agents capabilities can be extended by"
+    },
+    {
+      "start": 345.84,
+      "duration": 4.16,
+      "text": "using a set of rules and skills. You can"
+    },
+    {
+      "start": 347.84,
+      "duration": 3.76,
+      "text": "customize its behavior by defining rules"
+    },
+    {
+      "start": 350,
+      "duration": 3.52,
+      "text": "for your project, which are specific"
+    },
+    {
+      "start": 351.6,
+      "duration": 3.52,
+      "text": "guidelines or best practices you want"
+    },
+    {
+      "start": 353.52,
+      "duration": 3.36,
+      "text": "the agent to follow consistently."
+    },
+    {
+      "start": 355.12,
+      "duration": 3.76,
+      "text": "Anti-gravity makes it simple to add"
+    },
+    {
+      "start": 356.88,
+      "duration": 3.68,
+      "text": "these customizations across either the"
+    },
+    {
+      "start": 358.88,
+      "duration": 3.68,
+      "text": "local or global scope. To add a"
+    },
+    {
+      "start": 360.56,
+      "duration": 3.52,
+      "text": "guideline, simply include the rule in"
+    },
+    {
+      "start": 362.56,
+      "duration": 3.44,
+      "text": "the project scope. These rules are"
+    },
+    {
+      "start": 364.08,
+      "duration": 3.839,
+      "text": "stored in the aagent folder which"
+    },
+    {
+      "start": 366,
+      "duration": 3.759,
+      "text": "contains a rules folder with markdown"
+    },
+    {
+      "start": 367.919,
+      "duration": 3.84,
+      "text": "files for the instructions. For example,"
+    },
+    {
+      "start": 369.759,
+      "duration": 4.241,
+      "text": "I added a rule in this project to make"
+    },
+    {
+      "start": 371.759,
+      "duration": 4.16,
+      "text": "the front end vag compliant. Once the"
+    },
+    {
+      "start": 374,
+      "duration": 4.16,
+      "text": "rule is added and a task is assigned to"
+    },
+    {
+      "start": 375.919,
+      "duration": 4.081,
+      "text": "anti-gravity, the agent generates a plan"
+    },
+    {
+      "start": 378.16,
+      "duration": 4.24,
+      "text": "that incorporates the rule including"
+    },
+    {
+      "start": 380,
+      "duration": 4.8,
+      "text": "label tags with inputs and other details"
+    },
+    {
+      "start": 382.4,
+      "duration": 3.919,
+      "text": "to make the entire page vag compliant."
+    },
+    {
+      "start": 384.8,
+      "duration": 3.44,
+      "text": "You can add as many rules as your"
+    },
+    {
+      "start": 386.319,
+      "duration": 4,
+      "text": "workspace needs to guide and extend the"
+    },
+    {
+      "start": 388.24,
+      "duration": 4,
+      "text": "agents capabilities. Similarly, agent"
+    },
+    {
+      "start": 390.319,
+      "duration": 4,
+      "text": "skills were added in anti-gravity by"
+    },
+    {
+      "start": 392.24,
+      "duration": 4.079,
+      "text": "following the same open standard set by"
+    },
+    {
+      "start": 394.319,
+      "duration": 4.16,
+      "text": "anthropic, which contains instructions,"
+    },
+    {
+      "start": 396.319,
+      "duration": 4.081,
+      "text": "scripts, and domain specific knowledge."
+    },
+    {
+      "start": 398.479,
+      "duration": 3.761,
+      "text": "Skills are loaded dynamically when the"
+    },
+    {
+      "start": 400.4,
+      "duration": 3.68,
+      "text": "agent decides they are relevant, which"
+    },
+    {
+      "start": 402.24,
+      "duration": 4,
+      "text": "keeps the context managed. All of the"
+    },
+    {
+      "start": 404.08,
+      "duration": 4.239,
+      "text": "skills reside in the aagent folder for"
+    },
+    {
+      "start": 406.24,
+      "duration": 4.56,
+      "text": "anti-gravity. Each skill contains a"
+    },
+    {
+      "start": 408.319,
+      "duration": 4.241,
+      "text": "specialized skill.md file that includes"
+    },
+    {
+      "start": 410.8,
+      "duration": 3.76,
+      "text": "the name, a description of what goes"
+    },
+    {
+      "start": 412.56,
+      "duration": 3.84,
+      "text": "into the context, and all the details on"
+    },
+    {
+      "start": 414.56,
+      "duration": 3.6,
+      "text": "how to use the skill. Access to other"
+    },
+    {
+      "start": 416.4,
+      "duration": 3.519,
+      "text": "references and scripts is stored in"
+    },
+    {
+      "start": 418.16,
+      "duration": 3.52,
+      "text": "their respective folders. Using skills"
+    },
+    {
+      "start": 419.919,
+      "duration": 3.761,
+      "text": "in anti-gravity is as simple as"
+    },
+    {
+      "start": 421.68,
+      "duration": 3.76,
+      "text": "specifying which skill you want and what"
+    },
+    {
+      "start": 423.68,
+      "duration": 4,
+      "text": "task you want it to perform. I asked"
+    },
+    {
+      "start": 425.44,
+      "duration": 4.08,
+      "text": "anti-gravity to use the test specialist"
+    },
+    {
+      "start": 427.68,
+      "duration": 3.519,
+      "text": "skill to write test cases for my"
+    },
+    {
+      "start": 429.52,
+      "duration": 3.84,
+      "text": "project. And it took some time to create"
+    },
+    {
+      "start": 431.199,
+      "duration": 3.761,
+      "text": "a complete testing plan using the skills"
+    },
+    {
+      "start": 433.36,
+      "duration": 3.04,
+      "text": "guidelines. It also used all the"
+    },
+    {
+      "start": 434.96,
+      "duration": 3.2,
+      "text": "libraries I had mentioned in the"
+    },
+    {
+      "start": 436.4,
+      "duration": 3.6,
+      "text": "references along with the scripts and"
+    },
+    {
+      "start": 438.16,
+      "duration": 4.319,
+      "text": "all the guidelines defined in the skill"
+    },
+    {
+      "start": 440,
+      "duration": 4.56,
+      "text": "to perform the task. Models are getting"
+    },
+    {
+      "start": 442.479,
+      "duration": 4.081,
+      "text": "better at analyzing images, so we should"
+    },
+    {
+      "start": 444.56,
+      "duration": 3.759,
+      "text": "rely on their capabilities more and"
+    },
+    {
+      "start": 446.56,
+      "duration": 3.199,
+      "text": "include them in our prompts to enhance"
+    },
+    {
+      "start": 448.319,
+      "duration": 3.28,
+      "text": "their understanding. Instead of"
+    },
+    {
+      "start": 449.759,
+      "duration": 3.44,
+      "text": "explaining with words the design you"
+    },
+    {
+      "start": 451.599,
+      "duration": 3.281,
+      "text": "want to include, you can just take a"
+    },
+    {
+      "start": 453.199,
+      "duration": 3.761,
+      "text": "screenshot of the section you want to"
+    },
+    {
+      "start": 454.88,
+      "duration": 3.92,
+      "text": "implement. Go to anti-gravity, paste in"
+    },
+    {
+      "start": 456.96,
+      "duration": 3.519,
+      "text": "the screenshot, and ask it to implement"
+    },
+    {
+      "start": 458.8,
+      "duration": 3.679,
+      "text": "that section exactly like the"
+    },
+    {
+      "start": 460.479,
+      "duration": 3.84,
+      "text": "screenshot. By using its image analysis"
+    },
+    {
+      "start": 462.479,
+      "duration": 3.681,
+      "text": "capabilities, it can fully understand"
+    },
+    {
+      "start": 464.319,
+      "duration": 4.081,
+      "text": "the image and implement it. Another"
+    },
+    {
+      "start": 466.16,
+      "duration": 4,
+      "text": "thing I use images for the most is error"
+    },
+    {
+      "start": 468.4,
+      "duration": 3.84,
+      "text": "debugging because it is easier to"
+    },
+    {
+      "start": 470.16,
+      "duration": 4,
+      "text": "explain UI issues with a screenshot"
+    },
+    {
+      "start": 472.24,
+      "duration": 4.32,
+      "text": "rather than just describing the error in"
+    },
+    {
+      "start": 474.16,
+      "duration": 3.92,
+      "text": "words. So whenever I have any UI issues,"
+    },
+    {
+      "start": 476.56,
+      "duration": 3.919,
+      "text": "I take a screenshot, give it to"
+    },
+    {
+      "start": 478.08,
+      "duration": 4.399,
+      "text": "anti-gravity and it fixes it for me."
+    },
+    {
+      "start": 480.479,
+      "duration": 3.921,
+      "text": "Instead of blind diving into code, we"
+    },
+    {
+      "start": 482.479,
+      "duration": 4.081,
+      "text": "need to follow software development best"
+    },
+    {
+      "start": 484.4,
+      "duration": 4,
+      "text": "practices in AI development too. There"
+    },
+    {
+      "start": 486.56,
+      "duration": 3.919,
+      "text": "are some common workflows that work well"
+    },
+    {
+      "start": 488.4,
+      "duration": 3.84,
+      "text": "with agents. The first one is testdriven"
+    },
+    {
+      "start": 490.479,
+      "duration": 3.681,
+      "text": "development where the agent writes the"
+    },
+    {
+      "start": 492.24,
+      "duration": 3.76,
+      "text": "tests first and then writes the code to"
+    },
+    {
+      "start": 494.16,
+      "duration": 4,
+      "text": "satisfy those tests. The reason why"
+    },
+    {
+      "start": 496,
+      "duration": 3.759,
+      "text": "test-driven development with AI agents"
+    },
+    {
+      "start": 498.16,
+      "duration": 2.96,
+      "text": "works is because they have a clear"
+    },
+    {
+      "start": 499.759,
+      "duration": 3.44,
+      "text": "target toward which they should"
+    },
+    {
+      "start": 501.12,
+      "duration": 3.6,
+      "text": "optimize. They know what the criteria of"
+    },
+    {
+      "start": 503.199,
+      "duration": 3.521,
+      "text": "success are and they are able to"
+    },
+    {
+      "start": 504.72,
+      "duration": 3.919,
+      "text": "incrementally improve in that direction."
+    },
+    {
+      "start": 506.72,
+      "duration": 3.84,
+      "text": "So when working on the backend setup, I"
+    },
+    {
+      "start": 508.639,
+      "duration": 3.76,
+      "text": "had not written any code and just gave"
+    },
+    {
+      "start": 510.56,
+      "duration": 3.839,
+      "text": "the prompt asking the agent to write"
+    },
+    {
+      "start": 512.399,
+      "duration": 3.681,
+      "text": "tests for the offroot and described the"
+    },
+    {
+      "start": 514.399,
+      "duration": 3.44,
+      "text": "input and the output and the test"
+    },
+    {
+      "start": 516.08,
+      "duration": 3.439,
+      "text": "behaviors and I explicitly mentioned"
+    },
+    {
+      "start": 517.839,
+      "duration": 3.76,
+      "text": "that it should not write the code for"
+    },
+    {
+      "start": 519.519,
+      "duration": 3.76,
+      "text": "the tests at this stage. Once the agent"
+    },
+    {
+      "start": 521.599,
+      "duration": 3.441,
+      "text": "had written the test cases and I was"
+    },
+    {
+      "start": 523.279,
+      "duration": 3.921,
+      "text": "satisfied with them, I asked the agent"
+    },
+    {
+      "start": 525.04,
+      "duration": 3.68,
+      "text": "to run the tests. These tests failed at"
+    },
+    {
+      "start": 527.2,
+      "duration": 3.44,
+      "text": "first because they do not have any"
+    },
+    {
+      "start": 528.72,
+      "duration": 3.84,
+      "text": "implementation yet. After the tests were"
+    },
+    {
+      "start": 530.64,
+      "duration": 3.92,
+      "text": "completed, I committed them to git to"
+    },
+    {
+      "start": 532.56,
+      "duration": 4.16,
+      "text": "maintain a log in case the agent tried"
+    },
+    {
+      "start": 534.56,
+      "duration": 3.6,
+      "text": "to modify the tests. Then I asked the"
+    },
+    {
+      "start": 536.72,
+      "duration": 3.6,
+      "text": "agent to write the code for the"
+    },
+    {
+      "start": 538.16,
+      "duration": 3.92,
+      "text": "endpoint, explicitly instructing it not"
+    },
+    {
+      "start": 540.32,
+      "duration": 4,
+      "text": "to modify the tests. We then kept"
+    },
+    {
+      "start": 542.08,
+      "duration": 4.4,
+      "text": "iterating until all of the tests passed,"
+    },
+    {
+      "start": 544.32,
+      "duration": 4.16,
+      "text": "asking it to verify repeatedly until"
+    },
+    {
+      "start": 546.48,
+      "duration": 3.76,
+      "text": "every test succeeded. This way, the"
+    },
+    {
+      "start": 548.48,
+      "duration": 3.6,
+      "text": "agents have a clear goal to iterate"
+    },
+    {
+      "start": 550.24,
+      "duration": 3.76,
+      "text": "toward. When you start working on a new"
+    },
+    {
+      "start": 552.08,
+      "duration": 3.84,
+      "text": "codebase with an agent, you need to ask"
+    },
+    {
+      "start": 554,
+      "duration": 4,
+      "text": "the same type of questions you would ask"
+    },
+    {
+      "start": 555.92,
+      "duration": 3.76,
+      "text": "a teammate. This allows the agent to dig"
+    },
+    {
+      "start": 558,
+      "duration": 3.76,
+      "text": "through the codebase using GP and"
+    },
+    {
+      "start": 559.68,
+      "duration": 4,
+      "text": "semantic search, find the answers, and"
+    },
+    {
+      "start": 561.76,
+      "duration": 3.68,
+      "text": "understand how the codebase works while"
+    },
+    {
+      "start": 563.68,
+      "duration": 3.52,
+      "text": "trying to answer you. I ask questions"
+    },
+    {
+      "start": 565.44,
+      "duration": 3.68,
+      "text": "about the details of the codebase and"
+    },
+    {
+      "start": 567.2,
+      "duration": 3.759,
+      "text": "the roots. So, the agent can grasp the"
+    },
+    {
+      "start": 569.12,
+      "duration": 3.44,
+      "text": "project's structure and functionality."
+    },
+    {
+      "start": 570.959,
+      "duration": 3.521,
+      "text": "That way whenever I give it a new"
+    },
+    {
+      "start": 572.56,
+      "duration": 3.68,
+      "text": "feature to implement, it already knows"
+    },
+    {
+      "start": 574.48,
+      "duration": 3.84,
+      "text": "the project's structure, making it"
+    },
+    {
+      "start": 576.24,
+      "duration": 3.92,
+      "text": "easier to implement the feature. Git is"
+    },
+    {
+      "start": 578.32,
+      "duration": 4,
+      "text": "important because it not only acts as"
+    },
+    {
+      "start": 580.16,
+      "duration": 4.16,
+      "text": "version control, but also serves as a"
+    },
+    {
+      "start": 582.32,
+      "duration": 3.68,
+      "text": "knowledge base for the coding agent. We"
+    },
+    {
+      "start": 584.32,
+      "duration": 3.84,
+      "text": "have already emphasized the importance"
+    },
+    {
+      "start": 586,
+      "duration": 4.16,
+      "text": "of using git in previous videos. Clear"
+    },
+    {
+      "start": 588.16,
+      "duration": 4,
+      "text": "Git commits not only provide a knowledge"
+    },
+    {
+      "start": 590.16,
+      "duration": 4.16,
+      "text": "base for your agent, but they also help"
+    },
+    {
+      "start": 592.16,
+      "duration": 4.239,
+      "text": "manage features, track the last stable"
+    },
+    {
+      "start": 594.32,
+      "duration": 3.84,
+      "text": "version, and revert changes if the agent"
+    },
+    {
+      "start": 596.399,
+      "duration": 3.921,
+      "text": "modifies something you did not want it"
+    },
+    {
+      "start": 598.16,
+      "duration": 4.239,
+      "text": "to. To make my work with Git easier, I"
+    },
+    {
+      "start": 600.32,
+      "duration": 4,
+      "text": "use a set of reusable commands that we"
+    },
+    {
+      "start": 602.399,
+      "duration": 4,
+      "text": "call workflows in anti-gravity. For"
+    },
+    {
+      "start": 604.32,
+      "duration": 3.84,
+      "text": "committing, I prefer a structured commit"
+    },
+    {
+      "start": 606.399,
+      "duration": 4.081,
+      "text": "format. So, I make sure the commit"
+    },
+    {
+      "start": 608.16,
+      "duration": 4.16,
+      "text": "workflow enforces that commit messages"
+    },
+    {
+      "start": 610.48,
+      "duration": 3.44,
+      "text": "follow this structure and even include"
+    },
+    {
+      "start": 612.32,
+      "duration": 3.519,
+      "text": "examples for the agent. Before"
+    },
+    {
+      "start": 613.92,
+      "duration": 4,
+      "text": "committing, certain security and code"
+    },
+    {
+      "start": 615.839,
+      "duration": 4,
+      "text": "review checks are performed to ensure my"
+    },
+    {
+      "start": 617.92,
+      "duration": 3.84,
+      "text": "Git commits are clean and aligned with"
+    },
+    {
+      "start": 619.839,
+      "duration": 4,
+      "text": "my standards. You can also create sets"
+    },
+    {
+      "start": 621.76,
+      "duration": 4,
+      "text": "of commands for managing pull requests,"
+    },
+    {
+      "start": 623.839,
+      "duration": 4,
+      "text": "work trees, branches, and more, making"
+    },
+    {
+      "start": 625.76,
+      "duration": 4.079,
+      "text": "the entire Git workflow more consistent"
+    },
+    {
+      "start": 627.839,
+      "duration": 3.841,
+      "text": "and efficient. Invoking these workflows"
+    },
+    {
+      "start": 629.839,
+      "duration": 3.921,
+      "text": "is as simple as writing the workflow"
+    },
+    {
+      "start": 631.68,
+      "duration": 3.52,
+      "text": "name, which then executes all the steps"
+    },
+    {
+      "start": 633.76,
+      "duration": 4.079,
+      "text": "automatically. You can use other"
+    },
+    {
+      "start": 635.2,
+      "duration": 4.72,
+      "text": "commands such as fix issues or review to"
+    },
+    {
+      "start": 637.839,
+      "duration": 4.081,
+      "text": "perform code reviews and run workflows"
+    },
+    {
+      "start": 639.92,
+      "duration": 4.08,
+      "text": "for updating dependencies based on the"
+    },
+    {
+      "start": 641.92,
+      "duration": 4.479,
+      "text": "specific needs of the codebase. This"
+    },
+    {
+      "start": 644,
+      "duration": 4,
+      "text": "might sound basic, but AI generated code"
+    },
+    {
+      "start": 646.399,
+      "duration": 3.361,
+      "text": "definitely needs review and is not"
+    },
+    {
+      "start": 648,
+      "duration": 3.44,
+      "text": "always perfect. One important practice"
+    },
+    {
+      "start": 649.76,
+      "duration": 3.28,
+      "text": "is to watch the agent while it is"
+    },
+    {
+      "start": 651.44,
+      "duration": 2.959,
+      "text": "working. If you see it heading in the"
+    },
+    {
+      "start": 653.04,
+      "duration": 3.2,
+      "text": "wrong direction, interrupt it"
+    },
+    {
+      "start": 654.399,
+      "duration": 3.601,
+      "text": "immediately and redirect it toward your"
+    },
+    {
+      "start": 656.24,
+      "duration": 3.76,
+      "text": "goal. Once the agent has finished, you"
+    },
+    {
+      "start": 658,
+      "duration": 4.16,
+      "text": "need to perform a review using the agent"
+    },
+    {
+      "start": 660,
+      "duration": 4.079,
+      "text": "itself. In my projects, I often use a"
+    },
+    {
+      "start": 662.16,
+      "duration": 3.919,
+      "text": "custom workflow for code reviews that"
+    },
+    {
+      "start": 664.079,
+      "duration": 3.841,
+      "text": "incorporates all the best practices with"
+    },
+    {
+      "start": 666.079,
+      "duration": 3.76,
+      "text": "git. It highlights issues based on"
+    },
+    {
+      "start": 667.92,
+      "duration": 3.44,
+      "text": "severity, lists all the checks that"
+    },
+    {
+      "start": 669.839,
+      "duration": 3.281,
+      "text": "should be performed on the code to"
+    },
+    {
+      "start": 671.36,
+      "duration": 3.919,
+      "text": "ensure it is correct and can also"
+    },
+    {
+      "start": 673.12,
+      "duration": 4.08,
+      "text": "include llinters and tests to run after"
+    },
+    {
+      "start": 675.279,
+      "duration": 4,
+      "text": "the review. This ensures the code is"
+    },
+    {
+      "start": 677.2,
+      "duration": 3.84,
+      "text": "high quality and reliable. Since almost"
+    },
+    {
+      "start": 679.279,
+      "duration": 3.921,
+      "text": "all projects are managed using source"
+    },
+    {
+      "start": 681.04,
+      "duration": 4.56,
+      "text": "control such as GitHub, we use bug bots"
+    },
+    {
+      "start": 683.2,
+      "duration": 4.4,
+      "text": "for advanced AI analysis to catch issues"
+    },
+    {
+      "start": 685.6,
+      "duration": 4.239,
+      "text": "and suggest improvements on every pull"
+    },
+    {
+      "start": 687.6,
+      "duration": 4.16,
+      "text": "request. There are many AI powered tools"
+    },
+    {
+      "start": 689.839,
+      "duration": 3.841,
+      "text": "that can help review your code such as"
+    },
+    {
+      "start": 691.76,
+      "duration": 4.16,
+      "text": "code rabbit sentry and others. Even"
+    },
+    {
+      "start": 693.68,
+      "duration": 4.24,
+      "text": "GitHub has built-in code review features"
+    },
+    {
+      "start": 695.92,
+      "duration": 4.24,
+      "text": "for every pull request which help manage"
+    },
+    {
+      "start": 697.92,
+      "duration": 4.32,
+      "text": "team workflows. To identify architecture"
+    },
+    {
+      "start": 700.16,
+      "duration": 4.16,
+      "text": "issues, we can ask the agent to create a"
+    },
+    {
+      "start": 702.24,
+      "duration": 4.24,
+      "text": "mermaid diagram. Using these diagrams,"
+    },
+    {
+      "start": 704.32,
+      "duration": 4.079,
+      "text": "we can visually analyze and spot key"
+    },
+    {
+      "start": 706.48,
+      "duration": 3.919,
+      "text": "problems. These diagrams are especially"
+    },
+    {
+      "start": 708.399,
+      "duration": 3.521,
+      "text": "useful because visuals are easier to"
+    },
+    {
+      "start": 710.399,
+      "duration": 3.12,
+      "text": "understand and serve as clear"
+    },
+    {
+      "start": 711.92,
+      "duration": 3.919,
+      "text": "documentation for the project's"
+    },
+    {
+      "start": 713.519,
+      "duration": 4.241,
+      "text": "architecture. Running agents in parallel"
+    },
+    {
+      "start": 715.839,
+      "duration": 3.761,
+      "text": "is very important because it not only"
+    },
+    {
+      "start": 717.76,
+      "duration": 4.079,
+      "text": "improves the performance of the AI"
+    },
+    {
+      "start": 719.6,
+      "duration": 4.16,
+      "text": "models, but also saves a lot of time"
+    },
+    {
+      "start": 721.839,
+      "duration": 4.081,
+      "text": "compared to waiting for a single agent"
+    },
+    {
+      "start": 723.76,
+      "duration": 4.319,
+      "text": "to complete a task. This approach can"
+    },
+    {
+      "start": 725.92,
+      "duration": 3.599,
+      "text": "significantly improve outputs. I often"
+    },
+    {
+      "start": 728.079,
+      "duration": 3.44,
+      "text": "use multiple agents working"
+    },
+    {
+      "start": 729.519,
+      "duration": 3.841,
+      "text": "simultaneously, assigning each one a"
+    },
+    {
+      "start": 731.519,
+      "duration": 3.921,
+      "text": "different task, and I also use multiple"
+    },
+    {
+      "start": 733.36,
+      "duration": 3.76,
+      "text": "models since each model excels at"
+    },
+    {
+      "start": 735.44,
+      "duration": 3.76,
+      "text": "different tasks. The agents work"
+    },
+    {
+      "start": 737.12,
+      "duration": 3.76,
+      "text": "independently and notify you only if"
+    },
+    {
+      "start": 739.2,
+      "duration": 3.28,
+      "text": "they need input, allowing them to"
+    },
+    {
+      "start": 740.88,
+      "duration": 3.519,
+      "text": "operate simultaneously. Since"
+    },
+    {
+      "start": 742.48,
+      "duration": 4.08,
+      "text": "Anti-gravity's agents share the same"
+    },
+    {
+      "start": 744.399,
+      "duration": 4,
+      "text": "workspace and are not isolated, I let"
+    },
+    {
+      "start": 746.56,
+      "duration": 3.76,
+      "text": "them work in separate branches. Once"
+    },
+    {
+      "start": 748.399,
+      "duration": 3.841,
+      "text": "they complete their tasks and pass the"
+    },
+    {
+      "start": 750.32,
+      "duration": 3.6,
+      "text": "checks I have defined for the project, I"
+    },
+    {
+      "start": 752.24,
+      "duration": 4.159,
+      "text": "merge their features into the main"
+    },
+    {
+      "start": 753.92,
+      "duration": 4.56,
+      "text": "branch. Often we encounter bugs that we"
+    },
+    {
+      "start": 756.399,
+      "duration": 4.24,
+      "text": "cannot figure out how to fix. In such"
+    },
+    {
+      "start": 758.48,
+      "duration": 4.159,
+      "text": "cases, debug mode is the best solution."
+    },
+    {
+      "start": 760.639,
+      "duration": 3.841,
+      "text": "Instead of just guessing fixes, debug"
+    },
+    {
+      "start": 762.639,
+      "duration": 3.521,
+      "text": "mode tries to understand what could be"
+    },
+    {
+      "start": 764.48,
+      "duration": 3.599,
+      "text": "going wrong and generates logging"
+    },
+    {
+      "start": 766.16,
+      "duration": 3.84,
+      "text": "statements for your code, helping reduce"
+    },
+    {
+      "start": 768.079,
+      "duration": 3.76,
+      "text": "bugs and making the debugging process"
+    },
+    {
+      "start": 770,
+      "duration": 4.079,
+      "text": "more systematic. Even though there is no"
+    },
+    {
+      "start": 771.839,
+      "duration": 4.24,
+      "text": "native debug mode in anti-gravity, we"
+    },
+    {
+      "start": 774.079,
+      "duration": 3.841,
+      "text": "can implement one using a debug mode"
+    },
+    {
+      "start": 776.079,
+      "duration": 3.841,
+      "text": "skill. This skill contains all the"
+    },
+    {
+      "start": 777.92,
+      "duration": 3.84,
+      "text": "instructions for debugging unexpected"
+    },
+    {
+      "start": 779.92,
+      "duration": 3.68,
+      "text": "behavior in the code. It follows an"
+    },
+    {
+      "start": 781.76,
+      "duration": 3.84,
+      "text": "evidence-based approach, generates"
+    },
+    {
+      "start": 783.6,
+      "duration": 4,
+      "text": "hypothesis, and provides a detailed"
+    },
+    {
+      "start": 785.6,
+      "duration": 3.84,
+      "text": "multiplephase plan for approaching the"
+    },
+    {
+      "start": 787.6,
+      "duration": 3.919,
+      "text": "problem and resolving it. It is guided"
+    },
+    {
+      "start": 789.44,
+      "duration": 3.839,
+      "text": "by specific scripts and references to"
+    },
+    {
+      "start": 791.519,
+      "duration": 3.841,
+      "text": "improve its effectiveness, making the"
+    },
+    {
+      "start": 793.279,
+      "duration": 4.321,
+      "text": "debug mode much more reliable. Whenever"
+    },
+    {
+      "start": 795.36,
+      "duration": 4.32,
+      "text": "I encounter any sort of bug, I just use"
+    },
+    {
+      "start": 797.6,
+      "duration": 4,
+      "text": "debug mode and let the agent figure out"
+    },
+    {
+      "start": 799.68,
+      "duration": 4.08,
+      "text": "what went wrong by following the guides"
+    },
+    {
+      "start": 801.6,
+      "duration": 4.32,
+      "text": "in the skill.md, making my error"
+    },
+    {
+      "start": 803.76,
+      "duration": 3.84,
+      "text": "debugging process smooth. That brings us"
+    },
+    {
+      "start": 805.92,
+      "duration": 3.599,
+      "text": "to the end of this video. If you'd like"
+    },
+    {
+      "start": 807.6,
+      "duration": 3.919,
+      "text": "to support the channel and help us keep"
+    },
+    {
+      "start": 809.519,
+      "duration": 4.081,
+      "text": "making videos like this, you can do so"
+    },
+    {
+      "start": 811.519,
+      "duration": 3.841,
+      "text": "by using the super thanks button below."
+    },
+    {
+      "start": 813.6,
+      "duration": 5.359,
+      "text": "As always, thank you for watching and"
+    },
+    {
+      "start": 815.36,
+      "duration": 3.599,
+      "text": "I'll see you in the next one."
+    }
+  ],
+  "fullText": "There are many AI code editors, each with its own set of tools and features that make it stand out. Claude Code is arguably the best, especially with the Opus model, but it's also expensive. On the other hand, cursor is another favorite among developers who like to see the code side by side with the agents actions, but it has its own problems. Google also released anti-gravity with Gemini 3, which became rapidly popular among developers because of the model and its free usage. It is newer than both clawed code and cursor, but it has implemented a lot of things better than cursor. Now, ever since AI coding started getting powerful, a lot of people have been coming out with their own workflows with these tools. But the key to any good workflow is how efficient it is at managing your context. Previously, Anthropic released an agent harness designed for longunning tasks. And this time, Cursor has released its own harness designed to significantly improve the use of cursor by maximally utilizing its capabilities. The principles mentioned in the article are largely applicable to all agents. So, I'm taking these principles to Google's anti-gravity. It might not be the best yet, but it has features that set it apart from the others. We've got a lot to talk about today because with the addition of this harness, anti-gravity's performance has improved significantly. Before we go into the methods, let us understand what a harness is actually built upon. There are three main components. The first is the instructions, which include the system prompts and rules that guide agentic behavior. These are specialized instructions that are built into the tool itself. The second component is the tools attached to the agent, which help it perform better. These include file editing, codebased search, and terminal execution, giving the agent the ability to carry out tasks effectively. Lastly, there is how you as a user interact with it, how you prompt it, and how you follow up with the responses. The harness is important because different models respond to the same prompt in different ways, as each model has its own strengths and performs best in the environment it was trained for. For example, a model trained in a shell-based environment might naturally prefer using GP over a dedicated search tool. This matters because we know that some models like Claude excel with XML prompts while others perform better with markdown. Therefore, it's crucial that the harness we use is tailored to the specific model we're working with. Planning before implementation is essential to ensure that the code meets your expectations. Experienced developers are more likely to plan before generating code because it forces clear thinking about what is being built and gives the agent concrete goals to target. Anti-gravity's planning feature is the one I like the most because revising the plan is easy with commenting. When I started in planning mode, it thoroughly analyzed my instructions and the existing codebase, then generated a detailed plan. Although reading through the plan was tedious, it is essential to review it carefully to ensure the implementation aligns with the vision. So, make sure to thoroughly read through it. For changes, I just had to comment on any line that did not match my goal and it incorporated the change into the revised plan. It is essential to keep refining until the plan is perfect. Once done, the agent can implement everything autonomously. Even if the implementation does not match what you wanted, it is better to go back to planning mode and edit the plan rather than using follow-up prompts. After that, the agent needs to work with the correct context. But before that, here's a word from our sponsor. Luma AI and their new tool, Dream Machine, Ray 3 Modify. If you've worked with AI video, you know the frustration. you generate something cool, but the moment you try to change the style or scene, the character breaks, motion feels off, and you're stuck regenerating. Ray 3 modify solves that. For the first time, AI video actually feels directed, not guested. You can take an existing clip, even a real performance, and transform the world, lighting, or cinematic style while keeping the character identity, motion, and emotional beats intact. The performance stays locked. The look evolves exactly how you want. With character reference and modifiable key frames, you control what stays consistent and what changes across shots. Perfect for hybrid workflows, short films, music videos, and cinematic concept work. Even smaller productions. Honestly, this feels like real AI post-prouction. Stop guessing, start directing. Check out Ray 3 modify in the pinned comment or scan the QR code and see what's possible. Once you have perfected your planning, your job is to provide each agent with the context needed to complete the task. Another thing that people get wrong is they tend to manually tag every file. You don't need to manually do it as agents have powerful search tools that can pull context on demand. Manually tagging files loads everything into context even though not all lines are needed. Agents can use GP to load the specific segments they require. For example, if I want to make a change on the signup page, tagging the file would load the entire component of more than 200 lines into the context, bloating it unnecessarily. Even though the lines actually required are just one function of about 50 lines, the rest of the lines, which are completely unnecessary, would still be included. Instead of tagging the file manually, rely on the agent search tool to GP for the function it needs. You don't have to do everything in a single conversation. Start a new conversation for any new task or whenever the agents performance becomes confused or it keeps making the same mistakes. Essentially, start a new conversation once you have completed one logical unit of work. For instance, I start a new conversation for every new feature I want to implement and begin with planning for that feature as I want. This way, all tasks are isolated and exactly as I need. The only time you do not need to start a new conversation is when you are working on the same feature, need the same context from the discussion, or are debugging a feature the agent has implemented. Outside of these cases, it is better to reduce the noise by starting a new conversation. The effectiveness of the agents responses is actually a guide for when you should start a new conversation. If you want to refer back to any details from your previous chats, you can do so by referencing them directly in the chat and mentioning that conversation instead of guiding the agent through it again. This allows the agent to identify the conversational context intelligently, letting it selectively read from the chat history and pick only the context it needs. The agents capabilities can be extended by using a set of rules and skills. You can customize its behavior by defining rules for your project, which are specific guidelines or best practices you want the agent to follow consistently. Anti-gravity makes it simple to add these customizations across either the local or global scope. To add a guideline, simply include the rule in the project scope. These rules are stored in the aagent folder which contains a rules folder with markdown files for the instructions. For example, I added a rule in this project to make the front end vag compliant. Once the rule is added and a task is assigned to anti-gravity, the agent generates a plan that incorporates the rule including label tags with inputs and other details to make the entire page vag compliant. You can add as many rules as your workspace needs to guide and extend the agents capabilities. Similarly, agent skills were added in anti-gravity by following the same open standard set by anthropic, which contains instructions, scripts, and domain specific knowledge. Skills are loaded dynamically when the agent decides they are relevant, which keeps the context managed. All of the skills reside in the aagent folder for anti-gravity. Each skill contains a specialized skill.md file that includes the name, a description of what goes into the context, and all the details on how to use the skill. Access to other references and scripts is stored in their respective folders. Using skills in anti-gravity is as simple as specifying which skill you want and what task you want it to perform. I asked anti-gravity to use the test specialist skill to write test cases for my project. And it took some time to create a complete testing plan using the skills guidelines. It also used all the libraries I had mentioned in the references along with the scripts and all the guidelines defined in the skill to perform the task. Models are getting better at analyzing images, so we should rely on their capabilities more and include them in our prompts to enhance their understanding. Instead of explaining with words the design you want to include, you can just take a screenshot of the section you want to implement. Go to anti-gravity, paste in the screenshot, and ask it to implement that section exactly like the screenshot. By using its image analysis capabilities, it can fully understand the image and implement it. Another thing I use images for the most is error debugging because it is easier to explain UI issues with a screenshot rather than just describing the error in words. So whenever I have any UI issues, I take a screenshot, give it to anti-gravity and it fixes it for me. Instead of blind diving into code, we need to follow software development best practices in AI development too. There are some common workflows that work well with agents. The first one is testdriven development where the agent writes the tests first and then writes the code to satisfy those tests. The reason why test-driven development with AI agents works is because they have a clear target toward which they should optimize. They know what the criteria of success are and they are able to incrementally improve in that direction. So when working on the backend setup, I had not written any code and just gave the prompt asking the agent to write tests for the offroot and described the input and the output and the test behaviors and I explicitly mentioned that it should not write the code for the tests at this stage. Once the agent had written the test cases and I was satisfied with them, I asked the agent to run the tests. These tests failed at first because they do not have any implementation yet. After the tests were completed, I committed them to git to maintain a log in case the agent tried to modify the tests. Then I asked the agent to write the code for the endpoint, explicitly instructing it not to modify the tests. We then kept iterating until all of the tests passed, asking it to verify repeatedly until every test succeeded. This way, the agents have a clear goal to iterate toward. When you start working on a new codebase with an agent, you need to ask the same type of questions you would ask a teammate. This allows the agent to dig through the codebase using GP and semantic search, find the answers, and understand how the codebase works while trying to answer you. I ask questions about the details of the codebase and the roots. So, the agent can grasp the project's structure and functionality. That way whenever I give it a new feature to implement, it already knows the project's structure, making it easier to implement the feature. Git is important because it not only acts as version control, but also serves as a knowledge base for the coding agent. We have already emphasized the importance of using git in previous videos. Clear Git commits not only provide a knowledge base for your agent, but they also help manage features, track the last stable version, and revert changes if the agent modifies something you did not want it to. To make my work with Git easier, I use a set of reusable commands that we call workflows in anti-gravity. For committing, I prefer a structured commit format. So, I make sure the commit workflow enforces that commit messages follow this structure and even include examples for the agent. Before committing, certain security and code review checks are performed to ensure my Git commits are clean and aligned with my standards. You can also create sets of commands for managing pull requests, work trees, branches, and more, making the entire Git workflow more consistent and efficient. Invoking these workflows is as simple as writing the workflow name, which then executes all the steps automatically. You can use other commands such as fix issues or review to perform code reviews and run workflows for updating dependencies based on the specific needs of the codebase. This might sound basic, but AI generated code definitely needs review and is not always perfect. One important practice is to watch the agent while it is working. If you see it heading in the wrong direction, interrupt it immediately and redirect it toward your goal. Once the agent has finished, you need to perform a review using the agent itself. In my projects, I often use a custom workflow for code reviews that incorporates all the best practices with git. It highlights issues based on severity, lists all the checks that should be performed on the code to ensure it is correct and can also include llinters and tests to run after the review. This ensures the code is high quality and reliable. Since almost all projects are managed using source control such as GitHub, we use bug bots for advanced AI analysis to catch issues and suggest improvements on every pull request. There are many AI powered tools that can help review your code such as code rabbit sentry and others. Even GitHub has built-in code review features for every pull request which help manage team workflows. To identify architecture issues, we can ask the agent to create a mermaid diagram. Using these diagrams, we can visually analyze and spot key problems. These diagrams are especially useful because visuals are easier to understand and serve as clear documentation for the project's architecture. Running agents in parallel is very important because it not only improves the performance of the AI models, but also saves a lot of time compared to waiting for a single agent to complete a task. This approach can significantly improve outputs. I often use multiple agents working simultaneously, assigning each one a different task, and I also use multiple models since each model excels at different tasks. The agents work independently and notify you only if they need input, allowing them to operate simultaneously. Since Anti-gravity's agents share the same workspace and are not isolated, I let them work in separate branches. Once they complete their tasks and pass the checks I have defined for the project, I merge their features into the main branch. Often we encounter bugs that we cannot figure out how to fix. In such cases, debug mode is the best solution. Instead of just guessing fixes, debug mode tries to understand what could be going wrong and generates logging statements for your code, helping reduce bugs and making the debugging process more systematic. Even though there is no native debug mode in anti-gravity, we can implement one using a debug mode skill. This skill contains all the instructions for debugging unexpected behavior in the code. It follows an evidence-based approach, generates hypothesis, and provides a detailed multiplephase plan for approaching the problem and resolving it. It is guided by specific scripts and references to improve its effectiveness, making the debug mode much more reliable. Whenever I encounter any sort of bug, I just use debug mode and let the agent figure out what went wrong by following the guides in the skill.md, making my error debugging process smooth. That brings us to the end of this video. If you'd like to support the channel and help us keep making videos like this, you can do so by using the super thanks button below. As always, thank you for watching and I'll see you in the next one.",
+  "fetchedAt": "2026-01-18T18:33:39.866Z"
+}

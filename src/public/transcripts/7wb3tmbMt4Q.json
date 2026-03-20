@@ -1,0 +1,319 @@
+{
+  "videoId": "7wb3tmbMt4Q",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.149,
+      "duration": 0.009999999999999787,
+      "text": "Browser features are still breaking apps"
+    },
+    {
+      "start": 2.159,
+      "duration": 2.311,
+      "text": "Browser features are still breaking apps here in 2026 and most devs are fixing"
+    },
+    {
+      "start": 4.47,
+      "duration": 0.010000000000000675,
+      "text": "here in 2026 and most devs are fixing"
+    },
+    {
+      "start": 4.48,
+      "duration": 2.1499999999999995,
+      "text": "here in 2026 and most devs are fixing them in the wrong way. Because if you"
+    },
+    {
+      "start": 6.63,
+      "duration": 0.009999999999999787,
+      "text": "them in the wrong way. Because if you"
+    },
+    {
+      "start": 6.64,
+      "duration": 1.9889999999999999,
+      "text": "them in the wrong way. Because if you don't detect features first, you usually"
+    },
+    {
+      "start": 8.629,
+      "duration": 0.009999999999999787,
+      "text": "don't detect features first, you usually"
+    },
+    {
+      "start": 8.639,
+      "duration": 1.9900000000000002,
+      "text": "don't detect features first, you usually end up loading polyfills everywhere,"
+    },
+    {
+      "start": 10.629,
+      "duration": 0.009999999999999787,
+      "text": "end up loading polyfills everywhere,"
+    },
+    {
+      "start": 10.639,
+      "duration": 2.391,
+      "text": "end up loading polyfills everywhere, slowing things down or just crashing in"
+    },
+    {
+      "start": 13.03,
+      "duration": 0.009999999999999787,
+      "text": "slowing things down or just crashing in"
+    },
+    {
+      "start": 13.04,
+      "duration": 2.3100000000000005,
+      "text": "slowing things down or just crashing in older browsers. That is exactly where"
+    },
+    {
+      "start": 15.35,
+      "duration": 0.009999999999999787,
+      "text": "older browsers. That is exactly where"
+    },
+    {
+      "start": 15.36,
+      "duration": 2.3100000000000023,
+      "text": "older browsers. That is exactly where modernizer comes in. You can just"
+    },
+    {
+      "start": 17.67,
+      "duration": 0.00999999999999801,
+      "text": "modernizer comes in. You can just"
+    },
+    {
+      "start": 17.68,
+      "duration": 2.629999999999999,
+      "text": "modernizer comes in. You can just download a JS file from modernizer of"
+    },
+    {
+      "start": 20.31,
+      "duration": 0.010000000000001563,
+      "text": "download a JS file from modernizer of"
+    },
+    {
+      "start": 20.32,
+      "duration": 2.469999999999999,
+      "text": "download a JS file from modernizer of exactly what you need. It checks if a"
+    },
+    {
+      "start": 22.79,
+      "duration": 0.010000000000001563,
+      "text": "exactly what you need. It checks if a"
+    },
+    {
+      "start": 22.8,
+      "duration": 2.3889999999999993,
+      "text": "exactly what you need. It checks if a feature actually exists before your app"
+    },
+    {
+      "start": 25.189,
+      "duration": 0.010000000000001563,
+      "text": "feature actually exists before your app"
+    },
+    {
+      "start": 25.199,
+      "duration": 2.0699999999999967,
+      "text": "feature actually exists before your app depends on it. So instead of guessing,"
+    },
+    {
+      "start": 27.269,
+      "duration": 0.010000000000001563,
+      "text": "depends on it. So instead of guessing,"
+    },
+    {
+      "start": 27.279,
+      "duration": 2.3099999999999987,
+      "text": "depends on it. So instead of guessing, you do something simple like this. If"
+    },
+    {
+      "start": 29.589,
+      "duration": 0.010000000000001563,
+      "text": "you do something simple like this. If"
+    },
+    {
+      "start": 29.599,
+      "duration": 1.9100000000000001,
+      "text": "you do something simple like this. If canvas is not supported, load the"
+    },
+    {
+      "start": 31.509,
+      "duration": 0.00999999999999801,
+      "text": "canvas is not supported, load the"
+    },
+    {
+      "start": 31.519,
+      "duration": 2.311,
+      "text": "canvas is not supported, load the polyfill only when needed. And this is"
+    },
+    {
+      "start": 33.83,
+      "duration": 0.010000000000005116,
+      "text": "polyfill only when needed. And this is"
+    },
+    {
+      "start": 33.84,
+      "duration": 2.228999999999999,
+      "text": "polyfill only when needed. And this is the big difference. Without modernizer,"
+    },
+    {
+      "start": 36.069,
+      "duration": 0.00999999999999801,
+      "text": "the big difference. Without modernizer,"
+    },
+    {
+      "start": 36.079,
+      "duration": 3.030999999999999,
+      "text": "the big difference. Without modernizer, canvas can fail hard. With modernizer,"
+    },
+    {
+      "start": 39.11,
+      "duration": 0.00999999999999801,
+      "text": "canvas can fail hard. With modernizer,"
+    },
+    {
+      "start": 39.12,
+      "duration": 2.230000000000004,
+      "text": "canvas can fail hard. With modernizer, the browser gets a fallback and the app"
+    },
+    {
+      "start": 41.35,
+      "duration": 0.00999999999999801,
+      "text": "the browser gets a fallback and the app"
+    },
+    {
+      "start": 41.36,
+      "duration": 2.3100000000000023,
+      "text": "the browser gets a fallback and the app keeps working. It can test more than 300"
+    },
+    {
+      "start": 43.67,
+      "duration": 0.00999999999999801,
+      "text": "keeps working. It can test more than 300"
+    },
+    {
+      "start": 43.68,
+      "duration": 1.9100000000000037,
+      "text": "keeps working. It can test more than 300 features, too. Things like flexbox,"
+    },
+    {
+      "start": 45.59,
+      "duration": 0.00999999999999801,
+      "text": "features, too. Things like flexbox,"
+    },
+    {
+      "start": 45.6,
+      "duration": 2.549999999999997,
+      "text": "features, too. Things like flexbox, webgl, touch events, and a lot more just"
+    },
+    {
+      "start": 48.15,
+      "duration": 0.00999999999999801,
+      "text": "webgl, touch events, and a lot more just"
+    },
+    {
+      "start": 48.16,
+      "duration": 1.990000000000002,
+      "text": "webgl, touch events, and a lot more just over on their platform. So, the payoff"
+    },
+    {
+      "start": 50.15,
+      "duration": 0.00999999999999801,
+      "text": "over on their platform. So, the payoff"
+    },
+    {
+      "start": 50.16,
+      "duration": 2.3100000000000023,
+      "text": "over on their platform. So, the payoff here is high. Lighter loads, faster"
+    },
+    {
+      "start": 52.47,
+      "duration": 0.00999999999999801,
+      "text": "here is high. Lighter loads, faster"
+    },
+    {
+      "start": 52.48,
+      "duration": 2.3100000000000023,
+      "text": "here is high. Lighter loads, faster apps, better UX, and yes, even major"
+    },
+    {
+      "start": 54.79,
+      "duration": 0.00999999999999801,
+      "text": "apps, better UX, and yes, even major"
+    },
+    {
+      "start": 54.8,
+      "duration": 1.909000000000006,
+      "text": "apps, better UX, and yes, even major sites have used this like BBC and"
+    },
+    {
+      "start": 56.709,
+      "duration": 0.00999999999999801,
+      "text": "sites have used this like BBC and"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.070999999999998,
+      "text": "sites have used this like BBC and GitHub. You can even customize your"
+    },
+    {
+      "start": 58.79,
+      "duration": 0.00999999999999801,
+      "text": "GitHub. You can even customize your"
+    },
+    {
+      "start": 58.8,
+      "duration": 2.1500000000000057,
+      "text": "GitHub. You can even customize your modernizer build so you only include the"
+    },
+    {
+      "start": 60.95,
+      "duration": 0.00999999999999801,
+      "text": "modernizer build so you only include the"
+    },
+    {
+      "start": 60.96,
+      "duration": 2.549999999999997,
+      "text": "modernizer build so you only include the tests you actually want. So really, it's"
+    },
+    {
+      "start": 63.51,
+      "duration": 0.010000000000005116,
+      "text": "tests you actually want. So really, it's"
+    },
+    {
+      "start": 63.52,
+      "duration": 1.908999999999999,
+      "text": "tests you actually want. So really, it's your choice, feature detection or"
+    },
+    {
+      "start": 65.429,
+      "duration": 0.009999999999990905,
+      "text": "your choice, feature detection or"
+    },
+    {
+      "start": 65.439,
+      "duration": 1.51100000000001,
+      "text": "your choice, feature detection or debugging. If you want to hear more"
+    },
+    {
+      "start": 66.95,
+      "duration": 0.009999999999990905,
+      "text": "debugging. If you want to hear more"
+    },
+    {
+      "start": 66.96,
+      "duration": 1.75,
+      "text": "debugging. If you want to hear more coding tips like this one, be sure to"
+    },
+    {
+      "start": 68.71,
+      "duration": 0.010000000000005116,
+      "text": "coding tips like this one, be sure to"
+    },
+    {
+      "start": 68.72,
+      "duration": 3.280000000000001,
+      "text": "coding tips like this one, be sure to subscribe to the Better Stack"
+    }
+  ],
+  "fullText": "Browser features are still breaking apps Browser features are still breaking apps here in 2026 and most devs are fixing here in 2026 and most devs are fixing here in 2026 and most devs are fixing them in the wrong way. Because if you them in the wrong way. Because if you them in the wrong way. Because if you don't detect features first, you usually don't detect features first, you usually don't detect features first, you usually end up loading polyfills everywhere, end up loading polyfills everywhere, end up loading polyfills everywhere, slowing things down or just crashing in slowing things down or just crashing in slowing things down or just crashing in older browsers. That is exactly where older browsers. That is exactly where older browsers. That is exactly where modernizer comes in. You can just modernizer comes in. You can just modernizer comes in. You can just download a JS file from modernizer of download a JS file from modernizer of download a JS file from modernizer of exactly what you need. It checks if a exactly what you need. It checks if a exactly what you need. It checks if a feature actually exists before your app feature actually exists before your app feature actually exists before your app depends on it. So instead of guessing, depends on it. So instead of guessing, depends on it. So instead of guessing, you do something simple like this. If you do something simple like this. If you do something simple like this. If canvas is not supported, load the canvas is not supported, load the canvas is not supported, load the polyfill only when needed. And this is polyfill only when needed. And this is polyfill only when needed. And this is the big difference. Without modernizer, the big difference. Without modernizer, the big difference. Without modernizer, canvas can fail hard. With modernizer, canvas can fail hard. With modernizer, canvas can fail hard. With modernizer, the browser gets a fallback and the app the browser gets a fallback and the app the browser gets a fallback and the app keeps working. It can test more than 300 keeps working. It can test more than 300 keeps working. It can test more than 300 features, too. Things like flexbox, features, too. Things like flexbox, features, too. Things like flexbox, webgl, touch events, and a lot more just webgl, touch events, and a lot more just webgl, touch events, and a lot more just over on their platform. So, the payoff over on their platform. So, the payoff over on their platform. So, the payoff here is high. Lighter loads, faster here is high. Lighter loads, faster here is high. Lighter loads, faster apps, better UX, and yes, even major apps, better UX, and yes, even major apps, better UX, and yes, even major sites have used this like BBC and sites have used this like BBC and sites have used this like BBC and GitHub. You can even customize your GitHub. You can even customize your GitHub. You can even customize your modernizer build so you only include the modernizer build so you only include the modernizer build so you only include the tests you actually want. So really, it's tests you actually want. So really, it's tests you actually want. So really, it's your choice, feature detection or your choice, feature detection or your choice, feature detection or debugging. If you want to hear more debugging. If you want to hear more debugging. If you want to hear more coding tips like this one, be sure to coding tips like this one, be sure to coding tips like this one, be sure to subscribe to the Better Stack",
+  "fetchedAt": "2026-03-06T19:00:08.886Z"
+}

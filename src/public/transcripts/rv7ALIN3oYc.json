@@ -1,0 +1,139 @@
+{
+  "videoId": "rv7ALIN3oYc",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 5.12,
+      "text": "So agents that get better over time will"
+    },
+    {
+      "start": 2.8,
+      "duration": 3.999,
+      "text": "be able to log and update their"
+    },
+    {
+      "start": 5.2,
+      "duration": 4,
+      "text": "strategies, their huristics, their"
+    },
+    {
+      "start": 6.799,
+      "duration": 5.441,
+      "text": "domain knowledge if you construct your"
+    },
+    {
+      "start": 9.2,
+      "duration": 5.599,
+      "text": "memory systems appropriately. And if you"
+    },
+    {
+      "start": 12.24,
+      "duration": 6.24,
+      "text": "scope them right, they will not update"
+    },
+    {
+      "start": 14.799,
+      "duration": 6.56,
+      "text": "those in ways that overcope the agent."
+    },
+    {
+      "start": 18.48,
+      "duration": 5.6,
+      "text": "You can still constrain agentic scope,"
+    },
+    {
+      "start": 21.359,
+      "duration": 4.881,
+      "text": "but allow the agent to execute within"
+    },
+    {
+      "start": 24.08,
+      "duration": 5.439,
+      "text": "that scope with increasing intelligence"
+    },
+    {
+      "start": 26.24,
+      "duration": 5.199,
+      "text": "as it learns from each run. This isn't"
+    },
+    {
+      "start": 29.519,
+      "duration": 4.001,
+      "text": "training with weights, right? We're not"
+    },
+    {
+      "start": 31.439,
+      "duration": 4.64,
+      "text": "changing the weights of the model. This"
+    },
+    {
+      "start": 33.52,
+      "duration": 5.039,
+      "text": "can happen entirely in your memory and"
+    },
+    {
+      "start": 36.079,
+      "duration": 5.441,
+      "text": "instruction layers if your agents are"
+    },
+    {
+      "start": 38.559,
+      "duration": 5.52,
+      "text": "clearly instructed to record and learn"
+    },
+    {
+      "start": 41.52,
+      "duration": 5.12,
+      "text": "from what they did. So if you want"
+    },
+    {
+      "start": 44.079,
+      "duration": 4.561,
+      "text": "persistent profiles that remember user"
+    },
+    {
+      "start": 46.64,
+      "duration": 4,
+      "text": "preferences, that remember constraints,"
+    },
+    {
+      "start": 48.64,
+      "duration": 4.16,
+      "text": "that remember prior outcomes or behavior"
+    },
+    {
+      "start": 50.64,
+      "duration": 4.16,
+      "text": "patterns in your agents, then you don't"
+    },
+    {
+      "start": 52.8,
+      "duration": 3.599,
+      "text": "have to balloon out the per call context"
+    },
+    {
+      "start": 54.8,
+      "duration": 3.439,
+      "text": "to get that done if you're constructing"
+    },
+    {
+      "start": 56.399,
+      "duration": 3.601,
+      "text": "the memory state correctly because you"
+    },
+    {
+      "start": 58.239,
+      "duration": 3.921,
+      "text": "just inject the particular slice that"
+    },
+    {
+      "start": 60,
+      "duration": 2.16,
+      "text": "matters."
+    }
+  ],
+  "fullText": "So agents that get better over time will be able to log and update their strategies, their huristics, their domain knowledge if you construct your memory systems appropriately. And if you scope them right, they will not update those in ways that overcope the agent. You can still constrain agentic scope, but allow the agent to execute within that scope with increasing intelligence as it learns from each run. This isn't training with weights, right? We're not changing the weights of the model. This can happen entirely in your memory and instruction layers if your agents are clearly instructed to record and learn from what they did. So if you want persistent profiles that remember user preferences, that remember constraints, that remember prior outcomes or behavior patterns in your agents, then you don't have to balloon out the per call context to get that done if you're constructing the memory state correctly because you just inject the particular slice that matters.",
+  "fetchedAt": "2026-01-24T16:08:44.497Z"
+}

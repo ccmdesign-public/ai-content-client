@@ -1,0 +1,989 @@
+{
+  "videoId": "9QmH6DDyLCQ",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.639,
+      "text": "Are you a hardcore Python fan? I mean,"
+    },
+    {
+      "start": 2.72,
+      "duration": 4.559,
+      "text": "like, are you someone who just wants to"
+    },
+    {
+      "start": 4.799,
+      "duration": 4.961,
+      "text": "write Python code and nothing else?"
+    },
+    {
+      "start": 7.279,
+      "duration": 4.4,
+      "text": "Well, if that's you, then I got just the"
+    },
+    {
+      "start": 9.76,
+      "duration": 3.999,
+      "text": "thing for you. It's a framework called"
+    },
+    {
+      "start": 11.679,
+      "duration": 4.481,
+      "text": "Reflex, and it aims to solve the"
+    },
+    {
+      "start": 13.759,
+      "duration": 4.961,
+      "text": "friction and complexity involved in"
+    },
+    {
+      "start": 16.16,
+      "duration": 4.8,
+      "text": "turning full stack Python code into"
+    },
+    {
+      "start": 18.72,
+      "duration": 3.84,
+      "text": "productionready web applications. In"
+    },
+    {
+      "start": 20.96,
+      "duration": 4,
+      "text": "this video, we're going to look at what"
+    },
+    {
+      "start": 22.56,
+      "duration": 6.44,
+      "text": "Reflex is, how it works, and let's see"
+    },
+    {
+      "start": 24.96,
+      "duration": 4.04,
+      "text": "what the hype is all about."
+    },
+    {
+      "start": 30.4,
+      "duration": 4.8,
+      "text": "So the primary problem Reflex is trying"
+    },
+    {
+      "start": 32.88,
+      "duration": 4.4,
+      "text": "to solve is the requirement for Python"
+    },
+    {
+      "start": 35.2,
+      "duration": 4.72,
+      "text": "developers to learn an entirely"
+    },
+    {
+      "start": 37.28,
+      "duration": 5.68,
+      "text": "different stack including JavaScript,"
+    },
+    {
+      "start": 39.92,
+      "duration": 5.6,
+      "text": "React, routing, and bundlers just to be"
+    },
+    {
+      "start": 42.96,
+      "duration": 5.52,
+      "text": "able to build a functional web interface"
+    },
+    {
+      "start": 45.52,
+      "duration": 6.24,
+      "text": "for their code. Reflex allows developers"
+    },
+    {
+      "start": 48.48,
+      "duration": 5.68,
+      "text": "to build full stack apps in 100% pure"
+    },
+    {
+      "start": 51.76,
+      "duration": 4.72,
+      "text": "Python. So you can just focus on using"
+    },
+    {
+      "start": 54.16,
+      "duration": 4.559,
+      "text": "one language for the entire stack"
+    },
+    {
+      "start": 56.48,
+      "duration": 4.239,
+      "text": "without context switching. They also"
+    },
+    {
+      "start": 58.719,
+      "duration": 4.401,
+      "text": "claim that since their launch,"
+    },
+    {
+      "start": 60.719,
+      "duration": 4.8,
+      "text": "developers have built over 1 million"
+    },
+    {
+      "start": 63.12,
+      "duration": 5.28,
+      "text": "apps with this framework. And they also"
+    },
+    {
+      "start": 65.519,
+      "duration": 5.92,
+      "text": "claim that 30% of Fortune 500 companies"
+    },
+    {
+      "start": 68.4,
+      "duration": 4.719,
+      "text": "are using it for their internal tooling."
+    },
+    {
+      "start": 71.439,
+      "duration": 4.321,
+      "text": "And recently they've been weighing"
+    },
+    {
+      "start": 73.119,
+      "duration": 4.64,
+      "text": "heavily into AI. And they launched a"
+    },
+    {
+      "start": 75.76,
+      "duration": 4.24,
+      "text": "tool called Reflex Build, which"
+    },
+    {
+      "start": 77.759,
+      "duration": 4.561,
+      "text": "basically allows you to vibe code your"
+    },
+    {
+      "start": 80,
+      "duration": 4.72,
+      "text": "app from a single prompt. Plus, they"
+    },
+    {
+      "start": 82.32,
+      "duration": 4.4,
+      "text": "support integrations for other SDKs and"
+    },
+    {
+      "start": 84.72,
+      "duration": 4.079,
+      "text": "tools that let you easily connect your"
+    },
+    {
+      "start": 86.72,
+      "duration": 6,
+      "text": "app to other popular services like"
+    },
+    {
+      "start": 88.799,
+      "duration": 6.081,
+      "text": "databicks, octa, stripe, AWS, etc. Now,"
+    },
+    {
+      "start": 92.72,
+      "duration": 4.8,
+      "text": "that all sounds impressive, but I want"
+    },
+    {
+      "start": 94.88,
+      "duration": 5.36,
+      "text": "to get my hands dirty and try this code"
+    },
+    {
+      "start": 97.52,
+      "duration": 4.559,
+      "text": "on my own to see how it actually works."
+    },
+    {
+      "start": 100.24,
+      "duration": 4.239,
+      "text": "Let's start by creating a new directory,"
+    },
+    {
+      "start": 102.079,
+      "duration": 4.161,
+      "text": "reflex test, and then cd into it. From"
+    },
+    {
+      "start": 104.479,
+      "duration": 3.521,
+      "text": "here, the docs say we can run these"
+    },
+    {
+      "start": 106.24,
+      "duration": 3.28,
+      "text": "three commands to start our reflex"
+    },
+    {
+      "start": 108,
+      "duration": 4.159,
+      "text": "project. So let's start by running pip"
+    },
+    {
+      "start": 109.52,
+      "duration": 4.239,
+      "text": "install reflex and then reflex init. And"
+    },
+    {
+      "start": 112.159,
+      "duration": 2.96,
+      "text": "here we are offered to get started with"
+    },
+    {
+      "start": 113.759,
+      "duration": 2.801,
+      "text": "one of their templates. But for this"
+    },
+    {
+      "start": 115.119,
+      "duration": 4.241,
+      "text": "demo, we're just going to keep it simple"
+    },
+    {
+      "start": 116.56,
+      "duration": 4.239,
+      "text": "and choose the blank reflex app option."
+    },
+    {
+      "start": 119.36,
+      "duration": 3.28,
+      "text": "Once that's done, we can open the"
+    },
+    {
+      "start": 120.799,
+      "duration": 4.081,
+      "text": "project in our code editor. And if we"
+    },
+    {
+      "start": 122.64,
+      "duration": 4.96,
+      "text": "open the reflex test folder, this is"
+    },
+    {
+      "start": 124.88,
+      "duration": 5.12,
+      "text": "where our entire app lives in the reflex"
+    },
+    {
+      "start": 127.6,
+      "duration": 5.279,
+      "text": "test.py file. We can see that it has an"
+    },
+    {
+      "start": 130,
+      "duration": 4.72,
+      "text": "RX component section and a state class."
+    },
+    {
+      "start": 132.879,
+      "duration": 4.08,
+      "text": "Let's run reflex build in our terminal"
+    },
+    {
+      "start": 134.72,
+      "duration": 4.8,
+      "text": "to launch our app and it spins up our"
+    },
+    {
+      "start": 136.959,
+      "duration": 4.481,
+      "text": "app on port 3000 and we can see the"
+    },
+    {
+      "start": 139.52,
+      "duration": 3.76,
+      "text": "result here in the browser. So now let's"
+    },
+    {
+      "start": 141.44,
+      "duration": 3.76,
+      "text": "see how reflex manages state. We can"
+    },
+    {
+      "start": 143.28,
+      "duration": 3.76,
+      "text": "start by adding a simple count variable"
+    },
+    {
+      "start": 145.2,
+      "duration": 3.84,
+      "text": "and to change this value we also need to"
+    },
+    {
+      "start": 147.04,
+      "duration": 3.6,
+      "text": "define a function which will do that. So"
+    },
+    {
+      "start": 149.04,
+      "duration": 3.6,
+      "text": "underneath the count variable we can"
+    },
+    {
+      "start": 150.64,
+      "duration": 3.76,
+      "text": "define an increment function that will"
+    },
+    {
+      "start": 152.64,
+      "duration": 3.92,
+      "text": "just increase the count by one. And it"
+    },
+    {
+      "start": 154.4,
+      "duration": 4.16,
+      "text": "is recommended to add the RX event"
+    },
+    {
+      "start": 156.56,
+      "duration": 4.16,
+      "text": "decorator on top which enables proper"
+    },
+    {
+      "start": 158.56,
+      "duration": 3.84,
+      "text": "static type checking and ensures event"
+    },
+    {
+      "start": 160.72,
+      "duration": 3.519,
+      "text": "handlers receive the correct number and"
+    },
+    {
+      "start": 162.4,
+      "duration": 3.52,
+      "text": "types of arguments. And then we can add"
+    },
+    {
+      "start": 164.239,
+      "duration": 3.921,
+      "text": "a simple button in the return statement"
+    },
+    {
+      "start": 165.92,
+      "duration": 3.84,
+      "text": "of the RX component. It will show us the"
+    },
+    {
+      "start": 168.16,
+      "duration": 3.84,
+      "text": "count in the text field and it will"
+    },
+    {
+      "start": 169.76,
+      "duration": 4.16,
+      "text": "trigger the increment function on click."
+    },
+    {
+      "start": 172,
+      "duration": 3.599,
+      "text": "And reflex supports hot reloading. So if"
+    },
+    {
+      "start": 173.92,
+      "duration": 3.52,
+      "text": "we now save the file and open the"
+    },
+    {
+      "start": 175.599,
+      "duration": 3.521,
+      "text": "browser, we now see our count button"
+    },
+    {
+      "start": 177.44,
+      "duration": 3.439,
+      "text": "which increments the value every time we"
+    },
+    {
+      "start": 179.12,
+      "duration": 3.6,
+      "text": "press it. Now let's try something more"
+    },
+    {
+      "start": 180.879,
+      "duration": 4,
+      "text": "interesting. Let's create an array of"
+    },
+    {
+      "start": 182.72,
+      "duration": 4,
+      "text": "items in our state. And in theory, we"
+    },
+    {
+      "start": 184.879,
+      "duration": 4.801,
+      "text": "should be able to render these items out"
+    },
+    {
+      "start": 186.72,
+      "duration": 4.56,
+      "text": "as a list by doing this inline for loop."
+    },
+    {
+      "start": 189.68,
+      "duration": 4.16,
+      "text": "But this will not work because this"
+    },
+    {
+      "start": 191.28,
+      "duration": 4.319,
+      "text": "value is not known at compile time. You"
+    },
+    {
+      "start": 193.84,
+      "duration": 3.52,
+      "text": "see, the way reflex works is that when"
+    },
+    {
+      "start": 195.599,
+      "duration": 3.761,
+      "text": "you run your app, the front end gets"
+    },
+    {
+      "start": 197.36,
+      "duration": 3.76,
+      "text": "compiled to JavaScript code that runs in"
+    },
+    {
+      "start": 199.36,
+      "duration": 4.08,
+      "text": "the browser, which is called compile"
+    },
+    {
+      "start": 201.12,
+      "duration": 4.08,
+      "text": "time in reflex terms. The back end stays"
+    },
+    {
+      "start": 203.44,
+      "duration": 3.28,
+      "text": "in Python and runs on the server during"
+    },
+    {
+      "start": 205.2,
+      "duration": 3.759,
+      "text": "the lifetime of the app, and this is"
+    },
+    {
+      "start": 206.72,
+      "duration": 4.64,
+      "text": "called runtime in reflex terms. So we"
+    },
+    {
+      "start": 208.959,
+      "duration": 4.401,
+      "text": "cannot do a pure Python for loop in our"
+    },
+    {
+      "start": 211.36,
+      "duration": 4,
+      "text": "component render. But we can do pure"
+    },
+    {
+      "start": 213.36,
+      "duration": 3.92,
+      "text": "Python operations outside the component"
+    },
+    {
+      "start": 215.36,
+      "duration": 3.76,
+      "text": "render block. But how do we loop through"
+    },
+    {
+      "start": 217.28,
+      "duration": 3.44,
+      "text": "the items in the component block? Well,"
+    },
+    {
+      "start": 219.12,
+      "duration": 3.199,
+      "text": "for this case, we need to define a"
+    },
+    {
+      "start": 220.72,
+      "duration": 4.159,
+      "text": "simple render item function that will"
+    },
+    {
+      "start": 222.319,
+      "duration": 4.56,
+      "text": "render out our item like so. And then we"
+    },
+    {
+      "start": 224.879,
+      "duration": 4.161,
+      "text": "need to use the RX for each function in"
+    },
+    {
+      "start": 226.879,
+      "duration": 4,
+      "text": "the component render block to do our for"
+    },
+    {
+      "start": 229.04,
+      "duration": 3.919,
+      "text": "loop. And now we see our items rendered"
+    },
+    {
+      "start": 230.879,
+      "duration": 4,
+      "text": "properly on the app. The same applies"
+    },
+    {
+      "start": 232.959,
+      "duration": 3.92,
+      "text": "with conditional rendering. We cannot do"
+    },
+    {
+      "start": 234.879,
+      "duration": 3.841,
+      "text": "plain if else statements in the return"
+    },
+    {
+      "start": 236.879,
+      "duration": 4.401,
+      "text": "block like so. Instead, we need to use"
+    },
+    {
+      "start": 238.72,
+      "duration": 4.079,
+      "text": "the RX conditional function like so. And"
+    },
+    {
+      "start": 241.28,
+      "duration": 3.92,
+      "text": "if we now click the button more than"
+    },
+    {
+      "start": 242.799,
+      "duration": 4.401,
+      "text": "five times, we will see our text pop up"
+    },
+    {
+      "start": 245.2,
+      "duration": 4.16,
+      "text": "on our app. The last thing to look at is"
+    },
+    {
+      "start": 247.2,
+      "duration": 3.679,
+      "text": "how can we fetch and render data. For"
+    },
+    {
+      "start": 249.36,
+      "duration": 3.28,
+      "text": "this demo, let's just fetch a random"
+    },
+    {
+      "start": 250.879,
+      "duration": 4.241,
+      "text": "useless fact from the random useless"
+    },
+    {
+      "start": 252.64,
+      "duration": 4.319,
+      "text": "facts API and display it in a text box."
+    },
+    {
+      "start": 255.12,
+      "duration": 3.839,
+      "text": "First, let's add a boolean variable that"
+    },
+    {
+      "start": 256.959,
+      "duration": 4.081,
+      "text": "will indicate if our data is fetching"
+    },
+    {
+      "start": 258.959,
+      "duration": 3.921,
+      "text": "and a simple empty string that will hold"
+    },
+    {
+      "start": 261.04,
+      "duration": 3.84,
+      "text": "our fact. And then we can define an"
+    },
+    {
+      "start": 262.88,
+      "duration": 4.16,
+      "text": "asynchronous data fetching function that"
+    },
+    {
+      "start": 264.88,
+      "duration": 4.8,
+      "text": "will set data fetching to true. And then"
+    },
+    {
+      "start": 267.04,
+      "duration": 4.64,
+      "text": "it will use the HTTPX library to fetch"
+    },
+    {
+      "start": 269.68,
+      "duration": 4.239,
+      "text": "our random useless fact and store it in"
+    },
+    {
+      "start": 271.68,
+      "duration": 4.48,
+      "text": "our fact state variable. And I'm also"
+    },
+    {
+      "start": 273.919,
+      "duration": 4.161,
+      "text": "adding a slight delay of 1 second with"
+    },
+    {
+      "start": 276.16,
+      "duration": 3.52,
+      "text": "sync IO so we can actually see the data"
+    },
+    {
+      "start": 278.08,
+      "duration": 3.2,
+      "text": "fetching in real time. After the"
+    },
+    {
+      "start": 279.68,
+      "duration": 3.36,
+      "text": "operation is done, we set the data"
+    },
+    {
+      "start": 281.28,
+      "duration": 3.76,
+      "text": "fetching boolean back to false. And"
+    },
+    {
+      "start": 283.04,
+      "duration": 3.84,
+      "text": "notice how we added the yield operation"
+    },
+    {
+      "start": 285.04,
+      "duration": 3.92,
+      "text": "here. So anytime we want to update the"
+    },
+    {
+      "start": 286.88,
+      "duration": 4.08,
+      "text": "UI multiple times in an event handler,"
+    },
+    {
+      "start": 288.96,
+      "duration": 3.679,
+      "text": "we can use yield when we want to send an"
+    },
+    {
+      "start": 290.96,
+      "duration": 3.44,
+      "text": "update to the renderer. So in this case,"
+    },
+    {
+      "start": 292.639,
+      "duration": 3.601,
+      "text": "as soon as data fetching is changed, we"
+    },
+    {
+      "start": 294.4,
+      "duration": 3.6,
+      "text": "want to update our UI to reflect that"
+    },
+    {
+      "start": 296.24,
+      "duration": 4.64,
+      "text": "change. And let's not forget to add the"
+    },
+    {
+      "start": 298,
+      "duration": 4.72,
+      "text": "HTTPX and async.io imports at the top."
+    },
+    {
+      "start": 300.88,
+      "duration": 3.84,
+      "text": "And lastly, in our render function, we"
+    },
+    {
+      "start": 302.72,
+      "duration": 4.24,
+      "text": "can do a simple RX conditional function"
+    },
+    {
+      "start": 304.72,
+      "duration": 3.84,
+      "text": "to show a loading spinner or the fact"
+    },
+    {
+      "start": 306.96,
+      "duration": 3.12,
+      "text": "based on the current state. And if we"
+    },
+    {
+      "start": 308.56,
+      "duration": 3.12,
+      "text": "want this function to trigger every time"
+    },
+    {
+      "start": 310.08,
+      "duration": 3.76,
+      "text": "we load the page, we need to add a"
+    },
+    {
+      "start": 311.68,
+      "duration": 4.4,
+      "text": "decorator for our RX component that will"
+    },
+    {
+      "start": 313.84,
+      "duration": 4.48,
+      "text": "trigger our fetch data function on page"
+    },
+    {
+      "start": 316.08,
+      "duration": 4,
+      "text": "load. And now if we reload our page, we"
+    },
+    {
+      "start": 318.32,
+      "duration": 3.599,
+      "text": "can see our random useless fact being"
+    },
+    {
+      "start": 320.08,
+      "duration": 3.36,
+      "text": "fetched and rendered on the page. The"
+    },
+    {
+      "start": 321.919,
+      "duration": 3.921,
+      "text": "last thing I want to do here is look at"
+    },
+    {
+      "start": 323.44,
+      "duration": 4.16,
+      "text": "the web folder. As we can see here,"
+    },
+    {
+      "start": 325.84,
+      "duration": 4,
+      "text": "everything we just wrote is compiled and"
+    },
+    {
+      "start": 327.6,
+      "duration": 4.56,
+      "text": "rendered onto a React app under the"
+    },
+    {
+      "start": 329.84,
+      "duration": 4.96,
+      "text": "hood, which uses VTE and Tailwind under"
+    },
+    {
+      "start": 332.16,
+      "duration": 4.4,
+      "text": "its hood. And it even has a React router"
+    },
+    {
+      "start": 334.8,
+      "duration": 3.44,
+      "text": "for its route handling. And to be"
+    },
+    {
+      "start": 336.56,
+      "duration": 3.28,
+      "text": "honest, as soon as I saw this, I was"
+    },
+    {
+      "start": 338.24,
+      "duration": 3.44,
+      "text": "super disappointed. I thought they had"
+    },
+    {
+      "start": 339.84,
+      "duration": 3.52,
+      "text": "built like a custom JavaScript compiler"
+    },
+    {
+      "start": 341.68,
+      "duration": 3.12,
+      "text": "or something original, but this just"
+    },
+    {
+      "start": 343.36,
+      "duration": 3.92,
+      "text": "means that Reflex is just another"
+    },
+    {
+      "start": 344.8,
+      "duration": 4.08,
+      "text": "abstraction layer on top of React. So, I"
+    },
+    {
+      "start": 347.28,
+      "duration": 4.08,
+      "text": "kind of have mixed feelings about"
+    },
+    {
+      "start": 348.88,
+      "duration": 4.96,
+      "text": "Reflex. On one hand, the idea is really"
+    },
+    {
+      "start": 351.36,
+      "duration": 4.399,
+      "text": "cool to have a single Python fullstack"
+    },
+    {
+      "start": 353.84,
+      "duration": 4.48,
+      "text": "framework that lets you write everything"
+    },
+    {
+      "start": 355.759,
+      "duration": 4.72,
+      "text": "in pure Python, but I was super"
+    },
+    {
+      "start": 358.32,
+      "duration": 5.04,
+      "text": "disappointed to find out that under the"
+    },
+    {
+      "start": 360.479,
+      "duration": 5.201,
+      "text": "hood, it's just wrapping a React app and"
+    },
+    {
+      "start": 363.36,
+      "duration": 4.72,
+      "text": "not using native Python. This just makes"
+    },
+    {
+      "start": 365.68,
+      "duration": 5.28,
+      "text": "it more convoluted because you are now"
+    },
+    {
+      "start": 368.08,
+      "duration": 5.2,
+      "text": "forced to relearn a new architecture and"
+    },
+    {
+      "start": 370.96,
+      "duration": 4.32,
+      "text": "understand how Reflex handles state"
+    },
+    {
+      "start": 373.28,
+      "duration": 4,
+      "text": "management. Not to mention all the edge"
+    },
+    {
+      "start": 375.28,
+      "duration": 3.919,
+      "text": "cases that can occur. You might as well"
+    },
+    {
+      "start": 377.28,
+      "duration": 4.88,
+      "text": "just stick with React because it's a"
+    },
+    {
+      "start": 379.199,
+      "duration": 5.201,
+      "text": "battle tested and solid framework. So if"
+    },
+    {
+      "start": 382.16,
+      "duration": 4.8,
+      "text": "I were to create a project with a Python"
+    },
+    {
+      "start": 384.4,
+      "duration": 5.04,
+      "text": "backend, I would still use a JavaScript"
+    },
+    {
+      "start": 386.96,
+      "duration": 5.04,
+      "text": "framework for my front end. Reflex did"
+    },
+    {
+      "start": 389.44,
+      "duration": 4.8,
+      "text": "not convince me to go fullon Python"
+    },
+    {
+      "start": 392,
+      "duration": 4.319,
+      "text": "fullstack. But those are just my two"
+    },
+    {
+      "start": 394.24,
+      "duration": 4.239,
+      "text": "cents. What do you think about Reflex?"
+    },
+    {
+      "start": 396.319,
+      "duration": 4,
+      "text": "Do you like this idea of a full stack"
+    },
+    {
+      "start": 398.479,
+      "duration": 3.681,
+      "text": "Python framework like this one? I'm"
+    },
+    {
+      "start": 400.319,
+      "duration": 4,
+      "text": "really curious to know what you think."
+    },
+    {
+      "start": 402.16,
+      "duration": 3.92,
+      "text": "And folks, if you enjoyed this video, be"
+    },
+    {
+      "start": 404.319,
+      "duration": 4.16,
+      "text": "sure to let us know by smashing that"
+    },
+    {
+      "start": 406.08,
+      "duration": 3.92,
+      "text": "like button underneath the video. And"
+    },
+    {
+      "start": 408.479,
+      "duration": 3.44,
+      "text": "don't forget to subscribe to our"
+    },
+    {
+      "start": 410,
+      "duration": 4,
+      "text": "channel. This has been Andress from"
+    },
+    {
+      "start": 411.919,
+      "duration": 5.4,
+      "text": "Better Stack, and I will see you in the"
+    },
+    {
+      "start": 414,
+      "duration": 3.319,
+      "text": "next videos."
+    }
+  ],
+  "fullText": "Are you a hardcore Python fan? I mean, like, are you someone who just wants to write Python code and nothing else? Well, if that's you, then I got just the thing for you. It's a framework called Reflex, and it aims to solve the friction and complexity involved in turning full stack Python code into productionready web applications. In this video, we're going to look at what Reflex is, how it works, and let's see what the hype is all about. So the primary problem Reflex is trying to solve is the requirement for Python developers to learn an entirely different stack including JavaScript, React, routing, and bundlers just to be able to build a functional web interface for their code. Reflex allows developers to build full stack apps in 100% pure Python. So you can just focus on using one language for the entire stack without context switching. They also claim that since their launch, developers have built over 1 million apps with this framework. And they also claim that 30% of Fortune 500 companies are using it for their internal tooling. And recently they've been weighing heavily into AI. And they launched a tool called Reflex Build, which basically allows you to vibe code your app from a single prompt. Plus, they support integrations for other SDKs and tools that let you easily connect your app to other popular services like databicks, octa, stripe, AWS, etc. Now, that all sounds impressive, but I want to get my hands dirty and try this code on my own to see how it actually works. Let's start by creating a new directory, reflex test, and then cd into it. From here, the docs say we can run these three commands to start our reflex project. So let's start by running pip install reflex and then reflex init. And here we are offered to get started with one of their templates. But for this demo, we're just going to keep it simple and choose the blank reflex app option. Once that's done, we can open the project in our code editor. And if we open the reflex test folder, this is where our entire app lives in the reflex test.py file. We can see that it has an RX component section and a state class. Let's run reflex build in our terminal to launch our app and it spins up our app on port 3000 and we can see the result here in the browser. So now let's see how reflex manages state. We can start by adding a simple count variable and to change this value we also need to define a function which will do that. So underneath the count variable we can define an increment function that will just increase the count by one. And it is recommended to add the RX event decorator on top which enables proper static type checking and ensures event handlers receive the correct number and types of arguments. And then we can add a simple button in the return statement of the RX component. It will show us the count in the text field and it will trigger the increment function on click. And reflex supports hot reloading. So if we now save the file and open the browser, we now see our count button which increments the value every time we press it. Now let's try something more interesting. Let's create an array of items in our state. And in theory, we should be able to render these items out as a list by doing this inline for loop. But this will not work because this value is not known at compile time. You see, the way reflex works is that when you run your app, the front end gets compiled to JavaScript code that runs in the browser, which is called compile time in reflex terms. The back end stays in Python and runs on the server during the lifetime of the app, and this is called runtime in reflex terms. So we cannot do a pure Python for loop in our component render. But we can do pure Python operations outside the component render block. But how do we loop through the items in the component block? Well, for this case, we need to define a simple render item function that will render out our item like so. And then we need to use the RX for each function in the component render block to do our for loop. And now we see our items rendered properly on the app. The same applies with conditional rendering. We cannot do plain if else statements in the return block like so. Instead, we need to use the RX conditional function like so. And if we now click the button more than five times, we will see our text pop up on our app. The last thing to look at is how can we fetch and render data. For this demo, let's just fetch a random useless fact from the random useless facts API and display it in a text box. First, let's add a boolean variable that will indicate if our data is fetching and a simple empty string that will hold our fact. And then we can define an asynchronous data fetching function that will set data fetching to true. And then it will use the HTTPX library to fetch our random useless fact and store it in our fact state variable. And I'm also adding a slight delay of 1 second with sync IO so we can actually see the data fetching in real time. After the operation is done, we set the data fetching boolean back to false. And notice how we added the yield operation here. So anytime we want to update the UI multiple times in an event handler, we can use yield when we want to send an update to the renderer. So in this case, as soon as data fetching is changed, we want to update our UI to reflect that change. And let's not forget to add the HTTPX and async.io imports at the top. And lastly, in our render function, we can do a simple RX conditional function to show a loading spinner or the fact based on the current state. And if we want this function to trigger every time we load the page, we need to add a decorator for our RX component that will trigger our fetch data function on page load. And now if we reload our page, we can see our random useless fact being fetched and rendered on the page. The last thing I want to do here is look at the web folder. As we can see here, everything we just wrote is compiled and rendered onto a React app under the hood, which uses VTE and Tailwind under its hood. And it even has a React router for its route handling. And to be honest, as soon as I saw this, I was super disappointed. I thought they had built like a custom JavaScript compiler or something original, but this just means that Reflex is just another abstraction layer on top of React. So, I kind of have mixed feelings about Reflex. On one hand, the idea is really cool to have a single Python fullstack framework that lets you write everything in pure Python, but I was super disappointed to find out that under the hood, it's just wrapping a React app and not using native Python. This just makes it more convoluted because you are now forced to relearn a new architecture and understand how Reflex handles state management. Not to mention all the edge cases that can occur. You might as well just stick with React because it's a battle tested and solid framework. So if I were to create a project with a Python backend, I would still use a JavaScript framework for my front end. Reflex did not convince me to go fullon Python fullstack. But those are just my two cents. What do you think about Reflex? Do you like this idea of a full stack Python framework like this one? I'm really curious to know what you think. And folks, if you enjoyed this video, be sure to let us know by smashing that like button underneath the video. And don't forget to subscribe to our channel. This has been Andress from Better Stack, and I will see you in the next videos.",
+  "fetchedAt": "2026-01-19T16:16:59.922Z"
+}

@@ -1,0 +1,1544 @@
+{
+  "videoId": "XQWOdQ8GM4w",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 1.12,
+      "duration": 4.239,
+      "text": "You are using cloud.md wrong. If you"
+    },
+    {
+      "start": 3.76,
+      "duration": 2.8,
+      "text": "have ever thought to yourself, I would"
+    },
+    {
+      "start": 5.359,
+      "duration": 3.121,
+      "text": "like to teach Claude to better"
+    },
+    {
+      "start": 6.56,
+      "duration": 4.159,
+      "text": "understand my preferences, then this"
+    },
+    {
+      "start": 8.48,
+      "duration": 4.88,
+      "text": "video is for you. I'm Roman. I published"
+    },
+    {
+      "start": 10.719,
+      "duration": 4.481,
+      "text": "a top 3% paper at Nurips, the largest AI"
+    },
+    {
+      "start": 13.36,
+      "duration": 5.2,
+      "text": "conference in the world. Now, I'm on a"
+    },
+    {
+      "start": 15.2,
+      "duration": 5.2,
+      "text": "mission to become the best AI coder."
+    },
+    {
+      "start": 18.56,
+      "duration": 4.559,
+      "text": "So, here's how an uninformed user treats"
+    },
+    {
+      "start": 20.4,
+      "duration": 4.719,
+      "text": "cloud.md. I treat my claw.md as a"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.121,
+      "text": "playbook so that if I ever see something"
+    },
+    {
+      "start": 25.119,
+      "duration": 3.441,
+      "text": "happen that I want to happen"
+    },
+    {
+      "start": 26.24,
+      "duration": 3.68,
+      "text": "differently, I go ahead and I add to it."
+    },
+    {
+      "start": 28.56,
+      "duration": 2.959,
+      "text": "Now, on the surface, this is a"
+    },
+    {
+      "start": 29.92,
+      "duration": 3.04,
+      "text": "reasonable way to go about it. Claude"
+    },
+    {
+      "start": 31.519,
+      "duration": 3.281,
+      "text": "will begin to understand more and more"
+    },
+    {
+      "start": 32.96,
+      "duration": 4.24,
+      "text": "of how you like to work. For example,"
+    },
+    {
+      "start": 34.8,
+      "duration": 6.16,
+      "text": "you might say, \"Don't ever put SVG icons"
+    },
+    {
+      "start": 37.2,
+      "duration": 6.24,
+      "text": "in the websites unless necessary.\" Now,"
+    },
+    {
+      "start": 40.96,
+      "duration": 4.32,
+      "text": "this is a reasonable thing to do, but"
+    },
+    {
+      "start": 43.44,
+      "duration": 3.279,
+      "text": "actually it will load into every single"
+    },
+    {
+      "start": 45.28,
+      "duration": 4.16,
+      "text": "conversation you have ever had with"
+    },
+    {
+      "start": 46.719,
+      "duration": 5.121,
+      "text": "Claude and cause some context confusion"
+    },
+    {
+      "start": 49.44,
+      "duration": 5.119,
+      "text": "and context rot, especially if you do"
+    },
+    {
+      "start": 51.84,
+      "duration": 4.64,
+      "text": "this over time with a lot of patterns."
+    },
+    {
+      "start": 54.559,
+      "duration": 3.601,
+      "text": "So, as your cloud.md gets bigger and"
+    },
+    {
+      "start": 56.48,
+      "duration": 3.68,
+      "text": "more messy, your model performance"
+    },
+    {
+      "start": 58.16,
+      "duration": 4.239,
+      "text": "begins to quietly decrease without you"
+    },
+    {
+      "start": 60.16,
+      "duration": 5.279,
+      "text": "understanding why in a process called"
+    },
+    {
+      "start": 62.399,
+      "duration": 4.561,
+      "text": "context rot. And many users never get"
+    },
+    {
+      "start": 65.439,
+      "duration": 3.441,
+      "text": "past this and are still struggling with"
+    },
+    {
+      "start": 66.96,
+      "duration": 4.8,
+      "text": "context rot to this day because their"
+    },
+    {
+      "start": 68.88,
+      "duration": 4.4,
+      "text": "claw.md file is very long, over a 100"
+    },
+    {
+      "start": 71.76,
+      "duration": 5.6,
+      "text": "lines."
+    },
+    {
+      "start": 73.28,
+      "duration": 6.879,
+      "text": "So, the naive solution would be to have"
+    },
+    {
+      "start": 77.36,
+      "duration": 5.119,
+      "text": "the LLM summarize or consolidate the"
+    },
+    {
+      "start": 80.159,
+      "duration": 4.241,
+      "text": "information. So basically compacting or"
+    },
+    {
+      "start": 82.479,
+      "duration": 4.241,
+      "text": "switching up your claw.md as a weekly"
+    },
+    {
+      "start": 84.4,
+      "duration": 4.64,
+      "text": "habit to make it a little bit better and"
+    },
+    {
+      "start": 86.72,
+      "duration": 4.32,
+      "text": "a little bit cheaper in terms of tokens."
+    },
+    {
+      "start": 89.04,
+      "duration": 3.52,
+      "text": "So you decide that this is fine if you"
+    },
+    {
+      "start": 91.04,
+      "duration": 4,
+      "text": "lose information and you're okay with"
+    },
+    {
+      "start": 92.56,
+      "duration": 5.12,
+      "text": "that. Now from here two things will"
+    },
+    {
+      "start": 95.04,
+      "duration": 4.48,
+      "text": "occur. One, information is slowly lost"
+    },
+    {
+      "start": 97.68,
+      "duration": 3.68,
+      "text": "as the model tries to fit it into fewer"
+    },
+    {
+      "start": 99.52,
+      "duration": 4.559,
+      "text": "and fewer tokens, meaning your patterns"
+    },
+    {
+      "start": 101.36,
+      "duration": 4.24,
+      "text": "are lost to the wind. And two, every"
+    },
+    {
+      "start": 104.079,
+      "duration": 3.841,
+      "text": "time the model tries to rewrite or"
+    },
+    {
+      "start": 105.6,
+      "duration": 4.64,
+      "text": "compact your cloud.mmd file, there's a"
+    },
+    {
+      "start": 107.92,
+      "duration": 5.199,
+      "text": "chance that it exhibits context collapse"
+    },
+    {
+      "start": 110.24,
+      "duration": 4.879,
+      "text": "or a catastrophic rewrite. And if you"
+    },
+    {
+      "start": 113.119,
+      "duration": 3.841,
+      "text": "don't catch this happening and undo it"
+    },
+    {
+      "start": 115.119,
+      "duration": 4.401,
+      "text": "during your sessions, it will be too"
+    },
+    {
+      "start": 116.96,
+      "duration": 4.4,
+      "text": "late and your model will be effectively"
+    },
+    {
+      "start": 119.52,
+      "duration": 5.36,
+      "text": "nuked."
+    },
+    {
+      "start": 121.36,
+      "duration": 5.84,
+      "text": "Now, the result of all of this is that"
+    },
+    {
+      "start": 124.88,
+      "duration": 5.359,
+      "text": "the context gets poisoned actually"
+    },
+    {
+      "start": 127.2,
+      "duration": 5.039,
+      "text": "sometimes below baseline and then you go"
+    },
+    {
+      "start": 130.239,
+      "duration": 4.961,
+      "text": "on Twitter and you post a tweet about"
+    },
+    {
+      "start": 132.239,
+      "duration": 5.601,
+      "text": "why Opus 4.5 feels so much weaker and"
+    },
+    {
+      "start": 135.2,
+      "duration": 5.28,
+      "text": "like Anthropic went ahead and nerfed it"
+    },
+    {
+      "start": 137.84,
+      "duration": 5.2,
+      "text": "because the uninformed people are stuck"
+    },
+    {
+      "start": 140.48,
+      "duration": 4.08,
+      "text": "in this cycle of these first five steps"
+    },
+    {
+      "start": 143.04,
+      "duration": 4.72,
+      "text": "because they haven't found the solution"
+    },
+    {
+      "start": 144.56,
+      "duration": 5.92,
+      "text": "to it. So, there are two solutions to"
+    },
+    {
+      "start": 147.76,
+      "duration": 5.68,
+      "text": "this. One solution is that you can keep"
+    },
+    {
+      "start": 150.48,
+      "duration": 5.44,
+      "text": "your claw.md file super lean. I think"
+    },
+    {
+      "start": 153.44,
+      "duration": 5.36,
+      "text": "right now my claw.md file is about three"
+    },
+    {
+      "start": 155.92,
+      "duration": 4.959,
+      "text": "to five lines and it's mostly telling"
+    },
+    {
+      "start": 158.8,
+      "duration": 4.24,
+      "text": "claude to always launch opus agents as"
+    },
+    {
+      "start": 160.879,
+      "duration": 4.241,
+      "text": "sub aents because it likes to not do"
+    },
+    {
+      "start": 163.04,
+      "duration": 4.32,
+      "text": "that properly and a couple of other"
+    },
+    {
+      "start": 165.12,
+      "duration": 4.72,
+      "text": "patterns that are globally useful in"
+    },
+    {
+      "start": 167.36,
+      "duration": 4.72,
+      "text": "pretty much every session I've ever had."
+    },
+    {
+      "start": 169.84,
+      "duration": 4.96,
+      "text": "So what is agentic context engineering"
+    },
+    {
+      "start": 172.08,
+      "duration": 5.28,
+      "text": "or ACE? Well, this is a Stamford paper"
+    },
+    {
+      "start": 174.8,
+      "duration": 5.28,
+      "text": "that is a rag-based playbook, but quite"
+    },
+    {
+      "start": 177.36,
+      "duration": 4.48,
+      "text": "a bit smarter. So, Claude gets to decide"
+    },
+    {
+      "start": 180.08,
+      "duration": 3.84,
+      "text": "through a voting system what stays and"
+    },
+    {
+      "start": 181.84,
+      "duration": 4,
+      "text": "what goes, but it will never be able to"
+    },
+    {
+      "start": 183.92,
+      "duration": 4.08,
+      "text": "rewrite the whole playbook, which will"
+    },
+    {
+      "start": 185.84,
+      "duration": 4.8,
+      "text": "prevent it from having the chance of"
+    },
+    {
+      "start": 188,
+      "duration": 4.959,
+      "text": "collapsing context. So, this is the more"
+    },
+    {
+      "start": 190.64,
+      "duration": 6.64,
+      "text": "creative way to do it. And it doesn't"
+    },
+    {
+      "start": 192.959,
+      "duration": 6.56,
+      "text": "just mean that your clog.md file has to"
+    },
+    {
+      "start": 197.28,
+      "duration": 4.4,
+      "text": "be what this follows. You can actually"
+    },
+    {
+      "start": 199.519,
+      "duration": 4.64,
+      "text": "use ACE in a lot of other applications"
+    },
+    {
+      "start": 201.68,
+      "duration": 4.8,
+      "text": "such as training a model on how to"
+    },
+    {
+      "start": 204.159,
+      "duration": 4.16,
+      "text": "animate or training a model on a"
+    },
+    {
+      "start": 206.48,
+      "duration": 4.16,
+      "text": "specific stack in your software"
+    },
+    {
+      "start": 208.319,
+      "duration": 4.321,
+      "text": "engineering job."
+    },
+    {
+      "start": 210.64,
+      "duration": 4.08,
+      "text": "So before anyone says anything about"
+    },
+    {
+      "start": 212.64,
+      "duration": 3.92,
+      "text": "this, yes, Claude skills are still"
+    },
+    {
+      "start": 214.72,
+      "duration": 4.32,
+      "text": "incredibly useful and incredibly"
+    },
+    {
+      "start": 216.56,
+      "duration": 4.08,
+      "text": "important, but they are less guaranteed"
+    },
+    {
+      "start": 219.04,
+      "duration": 3.68,
+      "text": "and less deterministic for teaching"
+    },
+    {
+      "start": 220.64,
+      "duration": 3.679,
+      "text": "Claude domain specific stuff. So they"
+    },
+    {
+      "start": 222.72,
+      "duration": 3.28,
+      "text": "are not always called and Claude will"
+    },
+    {
+      "start": 224.319,
+      "duration": 4.48,
+      "text": "frequently ignore Claude skills"
+    },
+    {
+      "start": 226,
+      "duration": 4.64,
+      "text": "sometimes even if you ask it to do that."
+    },
+    {
+      "start": 228.799,
+      "duration": 3.681,
+      "text": "But the way that ACE works is it always"
+    },
+    {
+      "start": 230.64,
+      "duration": 4.48,
+      "text": "gets injected into context similar to"
+    },
+    {
+      "start": 232.48,
+      "duration": 5.52,
+      "text": "rag. So let me quickly talk about"
+    },
+    {
+      "start": 235.12,
+      "duration": 5.28,
+      "text": "context collapse which is a little bit"
+    },
+    {
+      "start": 238,
+      "duration": 4.959,
+      "text": "confusing and is a very big part of the"
+    },
+    {
+      "start": 240.4,
+      "duration": 4.399,
+      "text": "paper. So watch what happens when you"
+    },
+    {
+      "start": 242.959,
+      "duration": 3.36,
+      "text": "just try the naive approach and you"
+    },
+    {
+      "start": 244.799,
+      "duration": 3.761,
+      "text": "basically continue to add to the"
+    },
+    {
+      "start": 246.319,
+      "duration": 3.521,
+      "text": "playbook. Context grows steadily. More"
+    },
+    {
+      "start": 248.56,
+      "duration": 3.12,
+      "text": "lessons are learned by you and the"
+    },
+    {
+      "start": 249.84,
+      "duration": 3.44,
+      "text": "model. More knowledge is accumulated"
+    },
+    {
+      "start": 251.68,
+      "duration": 3.759,
+      "text": "until you get up to something like a"
+    },
+    {
+      "start": 253.28,
+      "duration": 4.239,
+      "text": "couple thousand tokens with a higher"
+    },
+    {
+      "start": 255.439,
+      "duration": 3.76,
+      "text": "accuracy than when you started. Now,"
+    },
+    {
+      "start": 257.519,
+      "duration": 3.28,
+      "text": "this is good and actually in a lot of"
+    },
+    {
+      "start": 259.199,
+      "duration": 3.121,
+      "text": "cases you'll have a lower accuracy from"
+    },
+    {
+      "start": 260.799,
+      "duration": 2.561,
+      "text": "when you started because typically"
+    },
+    {
+      "start": 262.32,
+      "duration": 2.8,
+      "text": "claude doesn't need that much"
+    },
+    {
+      "start": 263.36,
+      "duration": 5.44,
+      "text": "handholding anymore. But this is an"
+    },
+    {
+      "start": 265.12,
+      "duration": 6.4,
+      "text": "older study and this is still relevant."
+    },
+    {
+      "start": 268.8,
+      "duration": 5.52,
+      "text": "So at each jagged spike you are asking"
+    },
+    {
+      "start": 271.52,
+      "duration": 4.56,
+      "text": "to have Claude clean up the cloud.MD"
+    },
+    {
+      "start": 274.32,
+      "duration": 3.68,
+      "text": "file or compact the playbook that you"
+    },
+    {
+      "start": 276.08,
+      "duration": 4.48,
+      "text": "are working with. So you can see those"
+    },
+    {
+      "start": 278,
+      "duration": 4.88,
+      "text": "little drops in the number of tokens in"
+    },
+    {
+      "start": 280.56,
+      "duration": 4.24,
+      "text": "context is whenever Claude does this."
+    },
+    {
+      "start": 282.88,
+      "duration": 4.08,
+      "text": "And so the adaptation steps are the"
+    },
+    {
+      "start": 284.8,
+      "duration": 4.56,
+      "text": "amount of times you have Claude do this."
+    },
+    {
+      "start": 286.96,
+      "duration": 5.12,
+      "text": "But the thing is each time that this"
+    },
+    {
+      "start": 289.36,
+      "duration": 5.36,
+      "text": "happens, you are gambling with a fixed"
+    },
+    {
+      "start": 292.08,
+      "duration": 5.36,
+      "text": "chance that Claude hallucinates and"
+    },
+    {
+      "start": 294.72,
+      "duration": 5.6,
+      "text": "collapses the context into about 100 or"
+    },
+    {
+      "start": 297.44,
+      "duration": 4.319,
+      "text": "200 tokens. So for example, let's say"
+    },
+    {
+      "start": 300.32,
+      "duration": 3.439,
+      "text": "each time you ask Claude to fix up your"
+    },
+    {
+      "start": 301.759,
+      "duration": 4.88,
+      "text": "playbook, it has a 3% chance of getting"
+    },
+    {
+      "start": 303.759,
+      "duration": 5.521,
+      "text": "nuked. That increases by 0.25% each"
+    },
+    {
+      "start": 306.639,
+      "duration": 4.801,
+      "text": "time. Now after every iteration of this"
+    },
+    {
+      "start": 309.28,
+      "duration": 5.12,
+      "text": "eventually that block black swan event"
+    },
+    {
+      "start": 311.44,
+      "duration": 5.28,
+      "text": "will hit and you will not be prepared"
+    },
+    {
+      "start": 314.4,
+      "duration": 5.359,
+      "text": "which is what happens here and you go"
+    },
+    {
+      "start": 316.72,
+      "duration": 4.8,
+      "text": "down to 57% accuracy or around a 10%"
+    },
+    {
+      "start": 319.759,
+      "duration": 3.521,
+      "text": "accuracy drop in this case studied by"
+    },
+    {
+      "start": 321.52,
+      "duration": 3.92,
+      "text": "the paper and you have a very cheap"
+    },
+    {
+      "start": 323.28,
+      "duration": 5.759,
+      "text": "cloudmd file or playbook depending on"
+    },
+    {
+      "start": 325.44,
+      "duration": 5.759,
+      "text": "your use case. Now, here's the kicker is"
+    },
+    {
+      "start": 329.039,
+      "duration": 5.041,
+      "text": "that the accuracy without any of the"
+    },
+    {
+      "start": 331.199,
+      "duration": 6.161,
+      "text": "context is actually higher than now that"
+    },
+    {
+      "start": 334.08,
+      "duration": 6.559,
+      "text": "you have your very condensed summary in"
+    },
+    {
+      "start": 337.36,
+      "duration": 5.44,
+      "text": "your cloud. MD file or your playbook."
+    },
+    {
+      "start": 340.639,
+      "duration": 4.4,
+      "text": "And this is a process called context"
+    },
+    {
+      "start": 342.8,
+      "duration": 4.32,
+      "text": "pollution where a little bit of context"
+    },
+    {
+      "start": 345.039,
+      "duration": 4.561,
+      "text": "actually distracts the model and makes"
+    },
+    {
+      "start": 347.12,
+      "duration": 5.359,
+      "text": "it perform worse than it normally would"
+    },
+    {
+      "start": 349.6,
+      "duration": 6.64,
+      "text": "without any of that context. Anyways,"
+    },
+    {
+      "start": 352.479,
+      "duration": 6.801,
+      "text": "so to get into what ACE actually is,"
+    },
+    {
+      "start": 356.24,
+      "duration": 5.2,
+      "text": "let's start with the flow. So you have a"
+    },
+    {
+      "start": 359.28,
+      "duration": 4.56,
+      "text": "task arriving which could be any coding"
+    },
+    {
+      "start": 361.44,
+      "duration": 4.24,
+      "text": "task or whatever. This is given to a"
+    },
+    {
+      "start": 363.84,
+      "duration": 4,
+      "text": "generator which is the builder. This"
+    },
+    {
+      "start": 365.68,
+      "duration": 4.959,
+      "text": "model actually does all of the work and"
+    },
+    {
+      "start": 367.84,
+      "duration": 5.68,
+      "text": "it starts by semantically searching your"
+    },
+    {
+      "start": 370.639,
+      "duration": 5.521,
+      "text": "vector database to find the bullets that"
+    },
+    {
+      "start": 373.52,
+      "duration": 4.399,
+      "text": "were produced later. So it retrieves the"
+    },
+    {
+      "start": 376.16,
+      "duration": 3.759,
+      "text": "top k most relevant bullets which are"
+    },
+    {
+      "start": 377.919,
+      "duration": 3.681,
+      "text": "basically plays in your playbooks which"
+    },
+    {
+      "start": 379.919,
+      "duration": 3.761,
+      "text": "I like to think of as if then"
+    },
+    {
+      "start": 381.6,
+      "duration": 4.24,
+      "text": "statements. So if you're working with"
+    },
+    {
+      "start": 383.68,
+      "duration": 3.92,
+      "text": "claude or you're having a model that"
+    },
+    {
+      "start": 385.84,
+      "duration": 3.76,
+      "text": "you're teaching to do something you have"
+    },
+    {
+      "start": 387.6,
+      "duration": 4.24,
+      "text": "if this happens then I want this to"
+    },
+    {
+      "start": 389.6,
+      "duration": 4,
+      "text": "happen or if this happens this is good"
+    },
+    {
+      "start": 391.84,
+      "duration": 3.919,
+      "text": "and have this happen. So those are"
+    },
+    {
+      "start": 393.6,
+      "duration": 4.319,
+      "text": "bullets. They're very simple. And then"
+    },
+    {
+      "start": 395.759,
+      "duration": 3.761,
+      "text": "the task is executed with the bullets"
+    },
+    {
+      "start": 397.919,
+      "duration": 4.72,
+      "text": "put into the context very similar to"
+    },
+    {
+      "start": 399.52,
+      "duration": 4.88,
+      "text": "rag. And the output from this generator"
+    },
+    {
+      "start": 402.639,
+      "duration": 4.721,
+      "text": "is of course the changed code. the"
+    },
+    {
+      "start": 404.4,
+      "duration": 4.88,
+      "text": "execution trace and the bullet ids. Now,"
+    },
+    {
+      "start": 407.36,
+      "duration": 3.92,
+      "text": "this will go to a reflector model in"
+    },
+    {
+      "start": 409.28,
+      "duration": 4.56,
+      "text": "step two, which analyzes what happened"
+    },
+    {
+      "start": 411.28,
+      "duration": 4.639,
+      "text": "in the traces and it extracts any new"
+    },
+    {
+      "start": 413.84,
+      "duration": 3.44,
+      "text": "lessons that were learned based on the"
+    },
+    {
+      "start": 415.919,
+      "duration": 2.481,
+      "text": "traces from the generator. So, if"
+    },
+    {
+      "start": 417.28,
+      "duration": 2.72,
+      "text": "something went well, it will mention"
+    },
+    {
+      "start": 418.4,
+      "duration": 3.6,
+      "text": "that. If something went poorly, it will"
+    },
+    {
+      "start": 420,
+      "duration": 3.52,
+      "text": "mention that. And these are the if then"
+    },
+    {
+      "start": 422,
+      "duration": 3.599,
+      "text": "statements, the bullet candidates that"
+    },
+    {
+      "start": 423.52,
+      "duration": 3.92,
+      "text": "it decides to add. And it can optionally"
+    },
+    {
+      "start": 425.599,
+      "duration": 4.16,
+      "text": "self-refine to get these to be very"
+    },
+    {
+      "start": 427.44,
+      "duration": 4.159,
+      "text": "clean bullets by doing multiple passes"
+    },
+    {
+      "start": 429.759,
+      "duration": 4.801,
+      "text": "on the reflector to make sure it's"
+    },
+    {
+      "start": 431.599,
+      "duration": 5.281,
+      "text": "proper. So the helpful or harmful bullet"
+    },
+    {
+      "start": 434.56,
+      "duration": 4.639,
+      "text": "IDs from the first step in the generator"
+    },
+    {
+      "start": 436.88,
+      "duration": 4.64,
+      "text": "goes straight to the curator model which"
+    },
+    {
+      "start": 439.199,
+      "duration": 4.4,
+      "text": "basically puts the bullets into your"
+    },
+    {
+      "start": 441.52,
+      "duration": 3.679,
+      "text": "vector database by embedding them and it"
+    },
+    {
+      "start": 443.599,
+      "duration": 3.361,
+      "text": "compares them against existing bullets"
+    },
+    {
+      "start": 445.199,
+      "duration": 3.84,
+      "text": "of course and if they're similar enough"
+    },
+    {
+      "start": 446.96,
+      "duration": 5.28,
+      "text": "to existing bullets they don't get added"
+    },
+    {
+      "start": 449.039,
+      "duration": 5.761,
+      "text": "so that we get distinct bullets. And"
+    },
+    {
+      "start": 452.24,
+      "duration": 4.799,
+      "text": "what it also does is it will update the"
+    },
+    {
+      "start": 454.8,
+      "duration": 5.119,
+      "text": "helpful/harmful counts which are"
+    },
+    {
+      "start": 457.039,
+      "duration": 4.801,
+      "text": "effectively the generator agent saying"
+    },
+    {
+      "start": 459.919,
+      "duration": 4.081,
+      "text": "what plays in the playbook it found"
+    },
+    {
+      "start": 461.84,
+      "duration": 4.32,
+      "text": "helpful or hurtful. So this ends up"
+    },
+    {
+      "start": 464,
+      "duration": 6.24,
+      "text": "being a voting system where a certain"
+    },
+    {
+      "start": 466.16,
+      "duration": 6.479,
+      "text": "amount of the votes results in a play"
+    },
+    {
+      "start": 470.24,
+      "duration": 4.16,
+      "text": "being removed or kept. Now this depends"
+    },
+    {
+      "start": 472.639,
+      "duration": 5.361,
+      "text": "on the use case of course but maybe if"
+    },
+    {
+      "start": 474.4,
+      "duration": 5.44,
+      "text": "you have negative3 cumulative votes on"
+    },
+    {
+      "start": 478,
+      "duration": 3.759,
+      "text": "one of the bullets it gets dropped from"
+    },
+    {
+      "start": 479.84,
+      "duration": 4.479,
+      "text": "the database. So it's found to no longer"
+    },
+    {
+      "start": 481.759,
+      "duration": 5.12,
+      "text": "be useful and so that means that you're"
+    },
+    {
+      "start": 484.319,
+      "duration": 4.72,
+      "text": "every time you are working with cloud it"
+    },
+    {
+      "start": 486.879,
+      "duration": 5.6,
+      "text": "actually improves."
+    },
+    {
+      "start": 489.039,
+      "duration": 5.681,
+      "text": "Now for the bullet database itself when"
+    },
+    {
+      "start": 492.479,
+      "duration": 3.681,
+      "text": "all which is where all the accumulated"
+    },
+    {
+      "start": 494.72,
+      "duration": 4.72,
+      "text": "knowledge lives I'm just going to show"
+    },
+    {
+      "start": 496.16,
+      "duration": 4.8,
+      "text": "you the bullet consists of an ID maybe"
+    },
+    {
+      "start": 499.44,
+      "duration": 3.12,
+      "text": "some content maybe the embedding a"
+    },
+    {
+      "start": 500.96,
+      "duration": 3.6,
+      "text": "helpful count and a harmful count which"
+    },
+    {
+      "start": 502.56,
+      "duration": 5.359,
+      "text": "is basically all the data it needs. Now"
+    },
+    {
+      "start": 504.56,
+      "duration": 4.88,
+      "text": "this loops and you continue a new task"
+    },
+    {
+      "start": 507.919,
+      "duration": 3.84,
+      "text": "arrives or you want the model to do a"
+    },
+    {
+      "start": 509.44,
+      "duration": 4.159,
+      "text": "new task and the cycle repeats. Now you"
+    },
+    {
+      "start": 511.759,
+      "duration": 4.08,
+      "text": "might be asking why I'm not talking"
+    },
+    {
+      "start": 513.599,
+      "duration": 3.601,
+      "text": "about claw.md as much. Well, this is"
+    },
+    {
+      "start": 515.839,
+      "duration": 3.921,
+      "text": "because this is a generalizable"
+    },
+    {
+      "start": 517.2,
+      "duration": 5.92,
+      "text": "approach. And applying this to your"
+    },
+    {
+      "start": 519.76,
+      "duration": 5.12,
+      "text": "claw.md file may lead to some very odd"
+    },
+    {
+      "start": 523.12,
+      "duration": 3.6,
+      "text": "outcomes. And I haven't used this too"
+    },
+    {
+      "start": 524.88,
+      "duration": 4.24,
+      "text": "much myself, but I think it's something"
+    },
+    {
+      "start": 526.72,
+      "duration": 4.48,
+      "text": "that I might start doing."
+    },
+    {
+      "start": 529.12,
+      "duration": 3.92,
+      "text": "So the playbooks will evolve"
+    },
+    {
+      "start": 531.2,
+      "duration": 3.92,
+      "text": "continuously. And each task that you"
+    },
+    {
+      "start": 533.04,
+      "duration": 4.64,
+      "text": "have them do makes the system or model"
+    },
+    {
+      "start": 535.12,
+      "duration": 4.64,
+      "text": "smarter. So if you're using a cloud.mmd"
+    },
+    {
+      "start": 537.68,
+      "duration": 3.76,
+      "text": "file because you normally would be using"
+    },
+    {
+      "start": 539.76,
+      "duration": 4.88,
+      "text": "it in a naive way and now you're trying"
+    },
+    {
+      "start": 541.44,
+      "duration": 6.079,
+      "text": "out ACE on it, uh your claude will get"
+    },
+    {
+      "start": 544.64,
+      "duration": 4.56,
+      "text": "just better and better. So here's where"
+    },
+    {
+      "start": 547.519,
+      "duration": 4.081,
+      "text": "ACE might shine if you're looking for"
+    },
+    {
+      "start": 549.2,
+      "duration": 4.639,
+      "text": "some examples. So ACE is only as good as"
+    },
+    {
+      "start": 551.6,
+      "duration": 4.239,
+      "text": "your ability to evaluate the outcomes."
+    },
+    {
+      "start": 553.839,
+      "duration": 3.841,
+      "text": "The key is going to be binary successes"
+    },
+    {
+      "start": 555.839,
+      "duration": 3.041,
+      "text": "or failure signals. So somewhere where"
+    },
+    {
+      "start": 557.68,
+      "duration": 3.36,
+      "text": "you can actually prove that something"
+    },
+    {
+      "start": 558.88,
+      "duration": 4,
+      "text": "went right or wrong. So if you have"
+    },
+    {
+      "start": 561.04,
+      "duration": 3.52,
+      "text": "something build a system do some"
+    },
+    {
+      "start": 562.88,
+      "duration": 3.28,
+      "text": "test-driven development or some API"
+    },
+    {
+      "start": 564.56,
+      "duration": 4.08,
+      "text": "integration these are binary these are"
+    },
+    {
+      "start": 566.16,
+      "duration": 4.96,
+      "text": "test passes or fails the calls succeed"
+    },
+    {
+      "start": 568.64,
+      "duration": 5.68,
+      "text": "or error and this allows us to iterate"
+    },
+    {
+      "start": 571.12,
+      "duration": 5.6,
+      "text": "in a quick and easy way. Now another way"
+    },
+    {
+      "start": 574.32,
+      "duration": 4.32,
+      "text": "to do this would be LLM as a judge or"
+    },
+    {
+      "start": 576.72,
+      "duration": 4.72,
+      "text": "human as a judge. So if you were doing"
+    },
+    {
+      "start": 578.64,
+      "duration": 4.48,
+      "text": "animations with Claude then you would be"
+    },
+    {
+      "start": 581.44,
+      "duration": 4.399,
+      "text": "the judge and you would determine what's"
+    },
+    {
+      "start": 583.12,
+      "duration": 5.839,
+      "text": "going on."
+    },
+    {
+      "start": 585.839,
+      "duration": 4.721,
+      "text": "The poisoning problem is something that"
+    },
+    {
+      "start": 588.959,
+      "duration": 3.361,
+      "text": "ACE struggles with though that I want"
+    },
+    {
+      "start": 590.56,
+      "duration": 3.44,
+      "text": "you to be careful with if you are going"
+    },
+    {
+      "start": 592.32,
+      "duration": 3.84,
+      "text": "to implement ACE or think about"
+    },
+    {
+      "start": 594,
+      "duration": 5.04,
+      "text": "implementing ACE into your cloud.MD file"
+    },
+    {
+      "start": 596.16,
+      "duration": 5.76,
+      "text": "or something else. Let's go with the"
+    },
+    {
+      "start": 599.04,
+      "duration": 6.16,
+      "text": "animation complex scene as our example"
+    },
+    {
+      "start": 601.92,
+      "duration": 6.24,
+      "text": "here. So in your cloud MD or whatever"
+    },
+    {
+      "start": 605.2,
+      "duration": 5.52,
+      "text": "global place that you want it to always"
+    },
+    {
+      "start": 608.16,
+      "duration": 5.44,
+      "text": "here, you are going to ask it to please"
+    },
+    {
+      "start": 610.72,
+      "duration": 5.359,
+      "text": "make your animations in 60 fps."
+    },
+    {
+      "start": 613.6,
+      "duration": 4.799,
+      "text": "Now let's say the generator runs at 60"
+    },
+    {
+      "start": 616.079,
+      "duration": 5.281,
+      "text": "fps and then crashes for a different"
+    },
+    {
+      "start": 618.399,
+      "duration": 5.68,
+      "text": "reason. Then the reflector is called and"
+    },
+    {
+      "start": 621.36,
+      "duration": 5.36,
+      "text": "misdiagnoses the fact which is 60 fps"
+    },
+    {
+      "start": 624.079,
+      "duration": 5.521,
+      "text": "caused the crash. Now use 30 fps instead"
+    },
+    {
+      "start": 626.72,
+      "duration": 4.96,
+      "text": "which would be a bullet. Then what might"
+    },
+    {
+      "start": 629.6,
+      "duration": 4.239,
+      "text": "happen is that the curator adds the"
+    },
+    {
+      "start": 631.68,
+      "duration": 4.48,
+      "text": "bullet because it's just doing its job"
+    },
+    {
+      "start": 633.839,
+      "duration": 5.601,
+      "text": "which would be use 30 fps for complex"
+    },
+    {
+      "start": 636.16,
+      "duration": 6.72,
+      "text": "scenes. Now future tasks retrieve the"
+    },
+    {
+      "start": 639.44,
+      "duration": 6.32,
+      "text": "bullet and now the bullet is disagreeing"
+    },
+    {
+      "start": 642.88,
+      "duration": 4.88,
+      "text": "with your cloud.MD file in context which"
+    },
+    {
+      "start": 645.76,
+      "duration": 4.079,
+      "text": "causes a context clash or context"
+    },
+    {
+      "start": 647.76,
+      "duration": 5.199,
+      "text": "confusion and as a result the outputs"
+    },
+    {
+      "start": 649.839,
+      "duration": 5.521,
+      "text": "get worse than they did in baseline."
+    },
+    {
+      "start": 652.959,
+      "duration": 4.721,
+      "text": "So no crash would be marked as helpful"
+    },
+    {
+      "start": 655.36,
+      "duration": 4.479,
+      "text": "which would be reinforcing this problem."
+    },
+    {
+      "start": 657.68,
+      "duration": 4.32,
+      "text": "So a human would have to go clear this"
+    },
+    {
+      "start": 659.839,
+      "duration": 5.521,
+      "text": "out or make sure that there's no"
+    },
+    {
+      "start": 662,
+      "duration": 5.36,
+      "text": "conflicting evidence. And now bad advice"
+    },
+    {
+      "start": 665.36,
+      "duration": 4.159,
+      "text": "would be propagating unless if a human"
+    },
+    {
+      "start": 667.36,
+      "duration": 4.159,
+      "text": "or an LLM goes and cleans up the"
+    },
+    {
+      "start": 669.519,
+      "duration": 6.721,
+      "text": "database quickly. I just wanted to bring"
+    },
+    {
+      "start": 671.519,
+      "duration": 7.76,
+      "text": "that up just in case. So to summarize as"
+    },
+    {
+      "start": 676.24,
+      "duration": 5.039,
+      "text": "well, if you are using claw.md, you can"
+    },
+    {
+      "start": 679.279,
+      "duration": 3.68,
+      "text": "still use it. Just know that that's for"
+    },
+    {
+      "start": 681.279,
+      "duration": 4.401,
+      "text": "your permanent truths and it's something"
+    },
+    {
+      "start": 682.959,
+      "duration": 5.681,
+      "text": "that will always be present. And another"
+    },
+    {
+      "start": 685.68,
+      "duration": 5.599,
+      "text": "thing, if you would like to read some of"
+    },
+    {
+      "start": 688.64,
+      "duration": 4.96,
+      "text": "my documentation or talk to me"
+    },
+    {
+      "start": 691.279,
+      "duration": 4.481,
+      "text": "personally or my group, I've started a"
+    },
+    {
+      "start": 693.6,
+      "duration": 5.04,
+      "text": "school community for free which is full"
+    },
+    {
+      "start": 695.76,
+      "duration": 4.8,
+      "text": "of over a hundred experienced software"
+    },
+    {
+      "start": 698.64,
+      "duration": 3.52,
+      "text": "developers and engineers. We would be"
+    },
+    {
+      "start": 700.56,
+      "duration": 3.44,
+      "text": "happy to help you with your workflow and"
+    },
+    {
+      "start": 702.16,
+      "duration": 5.52,
+      "text": "solve any questions for free. Thanks for"
+    },
+    {
+      "start": 704,
+      "duration": 3.68,
+      "text": "listening and take care."
+    }
+  ],
+  "fullText": "You are using cloud.md wrong. If you have ever thought to yourself, I would like to teach Claude to better understand my preferences, then this video is for you. I'm Roman. I published a top 3% paper at Nurips, the largest AI conference in the world. Now, I'm on a mission to become the best AI coder. So, here's how an uninformed user treats cloud.md. I treat my claw.md as a playbook so that if I ever see something happen that I want to happen differently, I go ahead and I add to it. Now, on the surface, this is a reasonable way to go about it. Claude will begin to understand more and more of how you like to work. For example, you might say, \"Don't ever put SVG icons in the websites unless necessary.\" Now, this is a reasonable thing to do, but actually it will load into every single conversation you have ever had with Claude and cause some context confusion and context rot, especially if you do this over time with a lot of patterns. So, as your cloud.md gets bigger and more messy, your model performance begins to quietly decrease without you understanding why in a process called context rot. And many users never get past this and are still struggling with context rot to this day because their claw.md file is very long, over a 100 lines. So, the naive solution would be to have the LLM summarize or consolidate the information. So basically compacting or switching up your claw.md as a weekly habit to make it a little bit better and a little bit cheaper in terms of tokens. So you decide that this is fine if you lose information and you're okay with that. Now from here two things will occur. One, information is slowly lost as the model tries to fit it into fewer and fewer tokens, meaning your patterns are lost to the wind. And two, every time the model tries to rewrite or compact your cloud.mmd file, there's a chance that it exhibits context collapse or a catastrophic rewrite. And if you don't catch this happening and undo it during your sessions, it will be too late and your model will be effectively nuked. Now, the result of all of this is that the context gets poisoned actually sometimes below baseline and then you go on Twitter and you post a tweet about why Opus 4.5 feels so much weaker and like Anthropic went ahead and nerfed it because the uninformed people are stuck in this cycle of these first five steps because they haven't found the solution to it. So, there are two solutions to this. One solution is that you can keep your claw.md file super lean. I think right now my claw.md file is about three to five lines and it's mostly telling claude to always launch opus agents as sub aents because it likes to not do that properly and a couple of other patterns that are globally useful in pretty much every session I've ever had. So what is agentic context engineering or ACE? Well, this is a Stamford paper that is a rag-based playbook, but quite a bit smarter. So, Claude gets to decide through a voting system what stays and what goes, but it will never be able to rewrite the whole playbook, which will prevent it from having the chance of collapsing context. So, this is the more creative way to do it. And it doesn't just mean that your clog.md file has to be what this follows. You can actually use ACE in a lot of other applications such as training a model on how to animate or training a model on a specific stack in your software engineering job. So before anyone says anything about this, yes, Claude skills are still incredibly useful and incredibly important, but they are less guaranteed and less deterministic for teaching Claude domain specific stuff. So they are not always called and Claude will frequently ignore Claude skills sometimes even if you ask it to do that. But the way that ACE works is it always gets injected into context similar to rag. So let me quickly talk about context collapse which is a little bit confusing and is a very big part of the paper. So watch what happens when you just try the naive approach and you basically continue to add to the playbook. Context grows steadily. More lessons are learned by you and the model. More knowledge is accumulated until you get up to something like a couple thousand tokens with a higher accuracy than when you started. Now, this is good and actually in a lot of cases you'll have a lower accuracy from when you started because typically claude doesn't need that much handholding anymore. But this is an older study and this is still relevant. So at each jagged spike you are asking to have Claude clean up the cloud.MD file or compact the playbook that you are working with. So you can see those little drops in the number of tokens in context is whenever Claude does this. And so the adaptation steps are the amount of times you have Claude do this. But the thing is each time that this happens, you are gambling with a fixed chance that Claude hallucinates and collapses the context into about 100 or 200 tokens. So for example, let's say each time you ask Claude to fix up your playbook, it has a 3% chance of getting nuked. That increases by 0.25% each time. Now after every iteration of this eventually that block black swan event will hit and you will not be prepared which is what happens here and you go down to 57% accuracy or around a 10% accuracy drop in this case studied by the paper and you have a very cheap cloudmd file or playbook depending on your use case. Now, here's the kicker is that the accuracy without any of the context is actually higher than now that you have your very condensed summary in your cloud. MD file or your playbook. And this is a process called context pollution where a little bit of context actually distracts the model and makes it perform worse than it normally would without any of that context. Anyways, so to get into what ACE actually is, let's start with the flow. So you have a task arriving which could be any coding task or whatever. This is given to a generator which is the builder. This model actually does all of the work and it starts by semantically searching your vector database to find the bullets that were produced later. So it retrieves the top k most relevant bullets which are basically plays in your playbooks which I like to think of as if then statements. So if you're working with claude or you're having a model that you're teaching to do something you have if this happens then I want this to happen or if this happens this is good and have this happen. So those are bullets. They're very simple. And then the task is executed with the bullets put into the context very similar to rag. And the output from this generator is of course the changed code. the execution trace and the bullet ids. Now, this will go to a reflector model in step two, which analyzes what happened in the traces and it extracts any new lessons that were learned based on the traces from the generator. So, if something went well, it will mention that. If something went poorly, it will mention that. And these are the if then statements, the bullet candidates that it decides to add. And it can optionally self-refine to get these to be very clean bullets by doing multiple passes on the reflector to make sure it's proper. So the helpful or harmful bullet IDs from the first step in the generator goes straight to the curator model which basically puts the bullets into your vector database by embedding them and it compares them against existing bullets of course and if they're similar enough to existing bullets they don't get added so that we get distinct bullets. And what it also does is it will update the helpful/harmful counts which are effectively the generator agent saying what plays in the playbook it found helpful or hurtful. So this ends up being a voting system where a certain amount of the votes results in a play being removed or kept. Now this depends on the use case of course but maybe if you have negative3 cumulative votes on one of the bullets it gets dropped from the database. So it's found to no longer be useful and so that means that you're every time you are working with cloud it actually improves. Now for the bullet database itself when all which is where all the accumulated knowledge lives I'm just going to show you the bullet consists of an ID maybe some content maybe the embedding a helpful count and a harmful count which is basically all the data it needs. Now this loops and you continue a new task arrives or you want the model to do a new task and the cycle repeats. Now you might be asking why I'm not talking about claw.md as much. Well, this is because this is a generalizable approach. And applying this to your claw.md file may lead to some very odd outcomes. And I haven't used this too much myself, but I think it's something that I might start doing. So the playbooks will evolve continuously. And each task that you have them do makes the system or model smarter. So if you're using a cloud.mmd file because you normally would be using it in a naive way and now you're trying out ACE on it, uh your claude will get just better and better. So here's where ACE might shine if you're looking for some examples. So ACE is only as good as your ability to evaluate the outcomes. The key is going to be binary successes or failure signals. So somewhere where you can actually prove that something went right or wrong. So if you have something build a system do some test-driven development or some API integration these are binary these are test passes or fails the calls succeed or error and this allows us to iterate in a quick and easy way. Now another way to do this would be LLM as a judge or human as a judge. So if you were doing animations with Claude then you would be the judge and you would determine what's going on. The poisoning problem is something that ACE struggles with though that I want you to be careful with if you are going to implement ACE or think about implementing ACE into your cloud.MD file or something else. Let's go with the animation complex scene as our example here. So in your cloud MD or whatever global place that you want it to always here, you are going to ask it to please make your animations in 60 fps. Now let's say the generator runs at 60 fps and then crashes for a different reason. Then the reflector is called and misdiagnoses the fact which is 60 fps caused the crash. Now use 30 fps instead which would be a bullet. Then what might happen is that the curator adds the bullet because it's just doing its job which would be use 30 fps for complex scenes. Now future tasks retrieve the bullet and now the bullet is disagreeing with your cloud.MD file in context which causes a context clash or context confusion and as a result the outputs get worse than they did in baseline. So no crash would be marked as helpful which would be reinforcing this problem. So a human would have to go clear this out or make sure that there's no conflicting evidence. And now bad advice would be propagating unless if a human or an LLM goes and cleans up the database quickly. I just wanted to bring that up just in case. So to summarize as well, if you are using claw.md, you can still use it. Just know that that's for your permanent truths and it's something that will always be present. And another thing, if you would like to read some of my documentation or talk to me personally or my group, I've started a school community for free which is full of over a hundred experienced software developers and engineers. We would be happy to help you with your workflow and solve any questions for free. Thanks for listening and take care.",
+  "fetchedAt": "2026-01-18T18:33:18.107Z"
+}

@@ -1,0 +1,2294 @@
+{
+  "videoId": "qulrnI-xgNU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 3.84,
+      "text": "What we did is we used the power of"
+    },
+    {
+      "start": 1.199,
+      "duration": 5.6,
+      "text": "Opus45 with cloud code to connect to"
+    },
+    {
+      "start": 3.84,
+      "duration": 5.679,
+      "text": "NADN to build an entire workflow via an"
+    },
+    {
+      "start": 6.799,
+      "duration": 4.8,
+      "text": "MCP server and cloud skills in NAN"
+    },
+    {
+      "start": 9.519,
+      "duration": 3.2,
+      "text": "community version from start to finish."
+    },
+    {
+      "start": 11.599,
+      "duration": 3.92,
+      "text": "In this video, I'm going to show you how"
+    },
+    {
+      "start": 12.719,
+      "duration": 4.881,
+      "text": "I built and debug NAN workflows with an"
+    },
+    {
+      "start": 15.519,
+      "duration": 4.801,
+      "text": "unofficial MCP server that works with"
+    },
+    {
+      "start": 17.6,
+      "duration": 4.72,
+      "text": "NAN V2 and is way more powerful than the"
+    },
+    {
+      "start": 20.32,
+      "duration": 3.52,
+      "text": "official Naden MCP server that was"
+    },
+    {
+      "start": 22.32,
+      "duration": 4.16,
+      "text": "released last week. This works for both"
+    },
+    {
+      "start": 23.84,
+      "duration": 5.519,
+      "text": "NAN cloud and NAN hosted. We're going to"
+    },
+    {
+      "start": 26.48,
+      "duration": 4.48,
+      "text": "use Docker Cloud Code with an MCP server"
+    },
+    {
+      "start": 29.359,
+      "duration": 3.601,
+      "text": "and Cloud Skills. And I'm also going to"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.36,
+      "text": "show you how to update Naden V2 for the"
+    },
+    {
+      "start": 32.96,
+      "duration": 3.119,
+      "text": "community version. So, let's get into"
+    },
+    {
+      "start": 34.32,
+      "duration": 3.44,
+      "text": "it. So, Nan recently released this"
+    },
+    {
+      "start": 36.079,
+      "duration": 4.16,
+      "text": "official MCP server. What's great about"
+    },
+    {
+      "start": 37.76,
+      "duration": 4.24,
+      "text": "it is it's official. It's remote MCP, so"
+    },
+    {
+      "start": 40.239,
+      "duration": 3.681,
+      "text": "you can use it on cloud mobile, but it's"
+    },
+    {
+      "start": 42,
+      "duration": 4,
+      "text": "very limited. It only has three tools."
+    },
+    {
+      "start": 43.92,
+      "duration": 4,
+      "text": "Execute workflow, get workflow details,"
+    },
+    {
+      "start": 46,
+      "duration": 3.6,
+      "text": "and search workflows, meaning it's great"
+    },
+    {
+      "start": 47.92,
+      "duration": 3.68,
+      "text": "for connecting your already working"
+    },
+    {
+      "start": 49.6,
+      "duration": 3.84,
+      "text": "workflows to external tools like Cloud"
+    },
+    {
+      "start": 51.6,
+      "duration": 3.2,
+      "text": "Desktop, Lovable, or Cursor. But that's"
+    },
+    {
+      "start": 53.44,
+      "duration": 3.52,
+      "text": "pretty limited. I want to show you the"
+    },
+    {
+      "start": 54.8,
+      "duration": 3.52,
+      "text": "unofficial NAND MCB server that I've"
+    },
+    {
+      "start": 56.96,
+      "duration": 2.96,
+      "text": "been using for months. It's able to"
+    },
+    {
+      "start": 58.32,
+      "duration": 3.759,
+      "text": "create workflows, edit workflows, look"
+    },
+    {
+      "start": 59.92,
+      "duration": 3.92,
+      "text": "at executions, and help debug. It's much"
+    },
+    {
+      "start": 62.079,
+      "duration": 3.281,
+      "text": "better, but it only runs locally. It's a"
+    },
+    {
+      "start": 63.84,
+      "duration": 3.92,
+      "text": "little more technical. It has completely"
+    },
+    {
+      "start": 65.36,
+      "duration": 6.24,
+      "text": "change the way I build or debug Naden"
+    },
+    {
+      "start": 67.76,
+      "duration": 5.6,
+      "text": "workflows. And that is the NAN MCP by CZ"
+    },
+    {
+      "start": 71.6,
+      "duration": 4.16,
+      "text": "Lancowski. I don't know if I said that"
+    },
+    {
+      "start": 73.36,
+      "duration": 4.799,
+      "text": "right. I connect this MCP server to an"
+    },
+    {
+      "start": 75.76,
+      "duration": 4.32,
+      "text": "NAD instance. Then I connected to an IDE"
+    },
+    {
+      "start": 78.159,
+      "duration": 3.121,
+      "text": "with an agentic coding tool like Cloud"
+    },
+    {
+      "start": 80.08,
+      "duration": 2.64,
+      "text": "Code so I could build the whole thing"
+    },
+    {
+      "start": 81.28,
+      "duration": 2.56,
+      "text": "out in a coding environment. It's very"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.96,
+      "text": "efficient. I'm going to show you how"
+    },
+    {
+      "start": 83.84,
+      "duration": 4.4,
+      "text": "this whole setup is very powerful for"
+    },
+    {
+      "start": 85.68,
+      "duration": 4.96,
+      "text": "both NAND cloud users and NAN"
+    },
+    {
+      "start": 88.24,
+      "duration": 4.879,
+      "text": "self-hosted because in NAND cloud you're"
+    },
+    {
+      "start": 90.64,
+      "duration": 4.4,
+      "text": "able to use NAND AI to help you build"
+    },
+    {
+      "start": 93.119,
+      "duration": 3.921,
+      "text": "workflows. You only get about 50 credits"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.52,
+      "text": "per month. And as great as it is, it"
+    },
+    {
+      "start": 97.04,
+      "duration": 3.039,
+      "text": "hasn't really been able to push me past"
+    },
+    {
+      "start": 98.56,
+      "duration": 3.599,
+      "text": "the finish line. And it's not even"
+    },
+    {
+      "start": 100.079,
+      "duration": 3.601,
+      "text": "available in the self-hosted N instance,"
+    },
+    {
+      "start": 102.159,
+      "duration": 3.681,
+      "text": "which is where I do most of my work. So,"
+    },
+    {
+      "start": 103.68,
+      "duration": 4.079,
+      "text": "in my experience, this unofficial MCP"
+    },
+    {
+      "start": 105.84,
+      "duration": 4,
+      "text": "server paired with skills is not only"
+    },
+    {
+      "start": 107.759,
+      "duration": 4.081,
+      "text": "available both in self-hosted and in"
+    },
+    {
+      "start": 109.84,
+      "duration": 4.48,
+      "text": "cloud, it's much more efficient and"
+    },
+    {
+      "start": 111.84,
+      "duration": 4.239,
+      "text": "affordable than what NAN is offering in"
+    },
+    {
+      "start": 114.32,
+      "duration": 3.6,
+      "text": "its paid cloud subscriptions. It's"
+    },
+    {
+      "start": 116.079,
+      "duration": 3.521,
+      "text": "better debugging. It's better at problem"
+    },
+    {
+      "start": 117.92,
+      "duration": 3.76,
+      "text": "solving. It's better at giving you"
+    },
+    {
+      "start": 119.6,
+      "duration": 3.68,
+      "text": "control on how to build these NAND"
+    },
+    {
+      "start": 121.68,
+      "duration": 3.52,
+      "text": "workflows. And I've been tweaking and"
+    },
+    {
+      "start": 123.28,
+      "duration": 4.159,
+      "text": "hacking my NAND usage over the last"
+    },
+    {
+      "start": 125.2,
+      "duration": 4,
+      "text": "year. I've used several noode tools in"
+    },
+    {
+      "start": 127.439,
+      "duration": 3.6,
+      "text": "the past. I've used Zapier, I've used"
+    },
+    {
+      "start": 129.2,
+      "duration": 3.52,
+      "text": "Make. Naden is definitely a step up from"
+    },
+    {
+      "start": 131.039,
+      "duration": 3.441,
+      "text": "both of those, but it's not exactly no"
+    },
+    {
+      "start": 132.72,
+      "duration": 4,
+      "text": "code. It's like a low code tool cuz I"
+    },
+    {
+      "start": 134.48,
+      "duration": 4,
+      "text": "often find myself putting code via code"
+    },
+    {
+      "start": 136.72,
+      "duration": 3.68,
+      "text": "nodes into my workflows. About a year"
+    },
+    {
+      "start": 138.48,
+      "duration": 3.52,
+      "text": "ago, I started off using Naden Cloud. I"
+    },
+    {
+      "start": 140.4,
+      "duration": 3.919,
+      "text": "was paying about $20 a month to get"
+    },
+    {
+      "start": 142,
+      "duration": 3.599,
+      "text": "25,500 executions per month. But as I"
+    },
+    {
+      "start": 144.319,
+      "duration": 3.28,
+      "text": "started building on my workflows, I"
+    },
+    {
+      "start": 145.599,
+      "duration": 3.841,
+      "text": "would hit that limit midmon, which means"
+    },
+    {
+      "start": 147.599,
+      "duration": 2.961,
+      "text": "my nadn would completely stop working."
+    },
+    {
+      "start": 149.44,
+      "duration": 2.64,
+      "text": "And that's why I'm really excited to"
+    },
+    {
+      "start": 150.56,
+      "duration": 3.12,
+      "text": "talk about the sponsor of today's video,"
+    },
+    {
+      "start": 152.08,
+      "duration": 4.56,
+      "text": "Hostinger. Because straight out value"
+    },
+    {
+      "start": 153.68,
+      "duration": 4.559,
+      "text": "for money, self-hosting nen on Hostinger"
+    },
+    {
+      "start": 156.64,
+      "duration": 3.679,
+      "text": "is about a quarter of the cost that I"
+    },
+    {
+      "start": 158.239,
+      "duration": 4.08,
+      "text": "was paying for the most basic plan on"
+    },
+    {
+      "start": 160.319,
+      "duration": 3.761,
+      "text": "nen cloud. On hosting air, you pay once"
+    },
+    {
+      "start": 162.319,
+      "duration": 4.161,
+      "text": "and you get as many executions as you"
+    },
+    {
+      "start": 164.08,
+      "duration": 4.08,
+      "text": "want. Since I switched, I haven't hit my"
+    },
+    {
+      "start": 166.48,
+      "duration": 3.28,
+      "text": "usage limits once. So, I'm paying less"
+    },
+    {
+      "start": 168.16,
+      "duration": 3.68,
+      "text": "and I'm getting way more executions than"
+    },
+    {
+      "start": 169.76,
+      "duration": 4.32,
+      "text": "I got from the standard NAN cloud plan."
+    },
+    {
+      "start": 171.84,
+      "duration": 3.92,
+      "text": "This is the plan that I'm using, KVM2."
+    },
+    {
+      "start": 174.08,
+      "duration": 3.68,
+      "text": "The specs here are more than enough for"
+    },
+    {
+      "start": 175.76,
+      "duration": 3.68,
+      "text": "running NN. And remember, it's Docker,"
+    },
+    {
+      "start": 177.76,
+      "duration": 3.44,
+      "text": "so it doesn't only have to be NAN. You"
+    },
+    {
+      "start": 179.44,
+      "duration": 3.68,
+      "text": "could add other containers. And if you"
+    },
+    {
+      "start": 181.2,
+      "duration": 3.44,
+      "text": "use my coupon code, you get another 10%"
+    },
+    {
+      "start": 183.12,
+      "duration": 3.199,
+      "text": "off. So, once you're in, you choose a"
+    },
+    {
+      "start": 184.64,
+      "duration": 3.04,
+      "text": "server location closest to you. And then"
+    },
+    {
+      "start": 186.319,
+      "duration": 2.56,
+      "text": "you can set up hosting or however you"
+    },
+    {
+      "start": 187.68,
+      "duration": 3.04,
+      "text": "want. In our case, we'll just type in"
+    },
+    {
+      "start": 188.879,
+      "duration": 3.601,
+      "text": "Nad. And there's actually three"
+    },
+    {
+      "start": 190.72,
+      "duration": 3.92,
+      "text": "templates already built in. There's a"
+    },
+    {
+      "start": 192.48,
+      "duration": 3.679,
+      "text": "standard version, Q mode, or this"
+    },
+    {
+      "start": 194.64,
+      "duration": 3.36,
+      "text": "version that comes with over 100"
+    },
+    {
+      "start": 196.159,
+      "duration": 3.121,
+      "text": "pre-made workflows out of the box. Then"
+    },
+    {
+      "start": 198,
+      "duration": 2.879,
+      "text": "you create your root password, your"
+    },
+    {
+      "start": 199.28,
+      "duration": 2.72,
+      "text": "master password, and then finish set up."
+    },
+    {
+      "start": 200.879,
+      "duration": 2.481,
+      "text": "And it takes about 5 minutes for"
+    },
+    {
+      "start": 202,
+      "duration": 3.12,
+      "text": "Hostinger here to set up your instance."
+    },
+    {
+      "start": 203.36,
+      "duration": 3.84,
+      "text": "I would suggest taking advantage of this"
+    },
+    {
+      "start": 205.12,
+      "duration": 3.52,
+      "text": "deal while it's available and using my"
+    },
+    {
+      "start": 207.2,
+      "duration": 3.28,
+      "text": "code Jared Blue for an additional"
+    },
+    {
+      "start": 208.64,
+      "duration": 3.36,
+      "text": "discount. I'll drop a link below. As we"
+    },
+    {
+      "start": 210.48,
+      "duration": 3.44,
+      "text": "see, it finished building the instance."
+    },
+    {
+      "start": 212,
+      "duration": 3.44,
+      "text": "Let's go into it. And I highly suggest"
+    },
+    {
+      "start": 213.92,
+      "duration": 3.2,
+      "text": "not pressing the skip button. Let them"
+    },
+    {
+      "start": 215.44,
+      "duration": 3.439,
+      "text": "send you a free license key. You get a"
+    },
+    {
+      "start": 217.12,
+      "duration": 3.6,
+      "text": "lot of functionality out of this. Now"
+    },
+    {
+      "start": 218.879,
+      "duration": 4,
+      "text": "we're inside a brand new instance of"
+    },
+    {
+      "start": 220.72,
+      "duration": 4.4,
+      "text": "NADN. In this case, we see the 100"
+    },
+    {
+      "start": 222.879,
+      "duration": 4.161,
+      "text": "pre-built workflows that we selected. If"
+    },
+    {
+      "start": 225.12,
+      "duration": 3.679,
+      "text": "you're new to NADN, I suggest opening"
+    },
+    {
+      "start": 227.04,
+      "duration": 2.88,
+      "text": "them up and just getting an idea of how"
+    },
+    {
+      "start": 228.799,
+      "duration": 3.281,
+      "text": "they work. It may give you some"
+    },
+    {
+      "start": 229.92,
+      "duration": 4.56,
+      "text": "inspiration, some ideas of what or how"
+    },
+    {
+      "start": 232.08,
+      "duration": 4.48,
+      "text": "to build, or you can just create a new"
+    },
+    {
+      "start": 234.48,
+      "duration": 3.36,
+      "text": "workflow, a blank canvas. But I'm going"
+    },
+    {
+      "start": 236.56,
+      "duration": 3.599,
+      "text": "to show you a much better way to get"
+    },
+    {
+      "start": 237.84,
+      "duration": 4.56,
+      "text": "started with the most powerful AI model"
+    },
+    {
+      "start": 240.159,
+      "duration": 3.921,
+      "text": "using Cloud Skills and MTV servers. But"
+    },
+    {
+      "start": 242.4,
+      "duration": 3.52,
+      "text": "if you're already running NN on"
+    },
+    {
+      "start": 244.08,
+      "duration": 3.28,
+      "text": "Hostinger or some other self-hosted"
+    },
+    {
+      "start": 245.92,
+      "duration": 3.44,
+      "text": "instance, I'm going to show you how to"
+    },
+    {
+      "start": 247.36,
+      "duration": 3.519,
+      "text": "upgrade to V2. Before doing this, I"
+    },
+    {
+      "start": 249.36,
+      "duration": 2.959,
+      "text": "recommend going to the migration report"
+    },
+    {
+      "start": 250.879,
+      "duration": 3.121,
+      "text": "page and making sure that you don't have"
+    },
+    {
+      "start": 252.319,
+      "duration": 3.12,
+      "text": "any workflow issues because there are"
+    },
+    {
+      "start": 254,
+      "duration": 3.04,
+      "text": "some breaking changes between the"
+    },
+    {
+      "start": 255.439,
+      "duration": 3.36,
+      "text": "previous version of N and this new"
+    },
+    {
+      "start": 257.04,
+      "duration": 3.039,
+      "text": "version. This migration report tool"
+    },
+    {
+      "start": 258.799,
+      "duration": 2.4,
+      "text": "makes it really easy to figure out what"
+    },
+    {
+      "start": 260.079,
+      "duration": 3.041,
+      "text": "you have to change in your current"
+    },
+    {
+      "start": 261.199,
+      "duration": 3.44,
+      "text": "workflows, if anything will break, and"
+    },
+    {
+      "start": 263.12,
+      "duration": 3.28,
+      "text": "gives you a good idea what you have to"
+    },
+    {
+      "start": 264.639,
+      "duration": 3.12,
+      "text": "do to fix it. Instance issues are less"
+    },
+    {
+      "start": 266.4,
+      "duration": 3.519,
+      "text": "of a problem. You want to focus more on"
+    },
+    {
+      "start": 267.759,
+      "duration": 3.521,
+      "text": "workflow issues. So you can see we are"
+    },
+    {
+      "start": 269.919,
+      "duration": 3.681,
+      "text": "currently in the community version of"
+    },
+    {
+      "start": 271.28,
+      "duration": 3.44,
+      "text": "NAN version 1.12. I'm just going to show"
+    },
+    {
+      "start": 273.6,
+      "duration": 2.72,
+      "text": "you how to do the update. It's really"
+    },
+    {
+      "start": 274.72,
+      "duration": 3.52,
+      "text": "easy. And there's even instructions here"
+    },
+    {
+      "start": 276.32,
+      "duration": 4.08,
+      "text": "how to update NAN. It's three simple"
+    },
+    {
+      "start": 278.24,
+      "duration": 3.76,
+      "text": "terminal commands. And because NAN runs"
+    },
+    {
+      "start": 280.4,
+      "duration": 3.84,
+      "text": "in Docker, it's just Docker compose"
+    },
+    {
+      "start": 282,
+      "duration": 4.32,
+      "text": "pull, docker compose down, and docker"
+    },
+    {
+      "start": 284.24,
+      "duration": 3.76,
+      "text": "compose up-d. So you go to your hosting"
+    },
+    {
+      "start": 286.32,
+      "duration": 3.04,
+      "text": "or overview. You press terminal. And"
+    },
+    {
+      "start": 288,
+      "duration": 3.28,
+      "text": "we're just going to run those commands."
+    },
+    {
+      "start": 289.36,
+      "duration": 3.76,
+      "text": "Docker compose pull. Now it's pulling"
+    },
+    {
+      "start": 291.28,
+      "duration": 3.28,
+      "text": "the latest version of nadn. It might"
+    },
+    {
+      "start": 293.12,
+      "duration": 3.519,
+      "text": "take a few seconds. When that's done,"
+    },
+    {
+      "start": 294.56,
+      "duration": 5.04,
+      "text": "you run docker compose down. And then"
+    },
+    {
+      "start": 296.639,
+      "duration": 4.881,
+      "text": "you run docker compose up-dress enter."
+    },
+    {
+      "start": 299.6,
+      "duration": 4.879,
+      "text": "So now we go back to nadn. We see in our"
+    },
+    {
+      "start": 301.52,
+      "duration": 5.04,
+      "text": "settings for version 2.0.1. Assuming you"
+    },
+    {
+      "start": 304.479,
+      "duration": 4,
+      "text": "already have n installed. Let's talk"
+    },
+    {
+      "start": 306.56,
+      "duration": 3.6,
+      "text": "about the process of building nad"
+    },
+    {
+      "start": 308.479,
+      "duration": 3.601,
+      "text": "workflows with this MCP server. I've"
+    },
+    {
+      "start": 310.16,
+      "duration": 4.08,
+      "text": "been using this unofficial MCP server"
+    },
+    {
+      "start": 312.08,
+      "duration": 4.32,
+      "text": "for NAND for months now. The developer"
+    },
+    {
+      "start": 314.24,
+      "duration": 4.32,
+      "text": "is constantly updating it. It has almost"
+    },
+    {
+      "start": 316.4,
+      "duration": 4.079,
+      "text": "11k stars. The last release was 2 days"
+    },
+    {
+      "start": 318.56,
+      "duration": 3.199,
+      "text": "ago. So it's actively in development."
+    },
+    {
+      "start": 320.479,
+      "duration": 2.401,
+      "text": "There are a bunch of different ways of"
+    },
+    {
+      "start": 321.759,
+      "duration": 2.561,
+      "text": "installing it. I'm just going to show"
+    },
+    {
+      "start": 322.88,
+      "duration": 2.72,
+      "text": "you the way I recommend installing it"
+    },
+    {
+      "start": 324.32,
+      "duration": 2.879,
+      "text": "because it's the most powerful and"
+    },
+    {
+      "start": 325.6,
+      "duration": 3.52,
+      "text": "you'll get the most out of it. I like to"
+    },
+    {
+      "start": 327.199,
+      "duration": 4.161,
+      "text": "do it with Cloud4 Opus. It's really good"
+    },
+    {
+      "start": 329.12,
+      "duration": 4.4,
+      "text": "at building N&M workflows and I like to"
+    },
+    {
+      "start": 331.36,
+      "duration": 3.679,
+      "text": "do it in IDE over Cloud Desktop because"
+    },
+    {
+      "start": 333.52,
+      "duration": 3.36,
+      "text": "we're able to actually edit the code"
+    },
+    {
+      "start": 335.039,
+      "duration": 3.44,
+      "text": "ourselves and sometimes when the final"
+    },
+    {
+      "start": 336.88,
+      "duration": 2.96,
+      "text": "JSON comes out, it's a bit too heavy."
+    },
+    {
+      "start": 338.479,
+      "duration": 3.921,
+      "text": "So, you just copy and paste it between"
+    },
+    {
+      "start": 339.84,
+      "duration": 4.56,
+      "text": "the code editor and N. So, first let's"
+    },
+    {
+      "start": 342.4,
+      "duration": 5.519,
+      "text": "set up the MCB server. So, let's create"
+    },
+    {
+      "start": 344.4,
+      "duration": 5.28,
+      "text": "a MCP.json file. There's a few different"
+    },
+    {
+      "start": 347.919,
+      "duration": 3.601,
+      "text": "ways to install this MCB server. You"
+    },
+    {
+      "start": 349.68,
+      "duration": 3.04,
+      "text": "have the standard MPX installation, but"
+    },
+    {
+      "start": 351.52,
+      "duration": 3.119,
+      "text": "for this we're going to be using the"
+    },
+    {
+      "start": 352.72,
+      "duration": 3.52,
+      "text": "Docker installation, meaning you have to"
+    },
+    {
+      "start": 354.639,
+      "duration": 3.521,
+      "text": "have Docker running locally on your"
+    },
+    {
+      "start": 356.24,
+      "duration": 3.44,
+      "text": "machine, and it's not complicated. You"
+    },
+    {
+      "start": 358.16,
+      "duration": 2.96,
+      "text": "can go download Docker Desktop right"
+    },
+    {
+      "start": 359.68,
+      "duration": 2.959,
+      "text": "now. You don't have to worry about"
+    },
+    {
+      "start": 361.12,
+      "duration": 3.28,
+      "text": "configuration. It just needs to be"
+    },
+    {
+      "start": 362.639,
+      "duration": 2.961,
+      "text": "running. I covered installing Docker in"
+    },
+    {
+      "start": 364.4,
+      "duration": 2.72,
+      "text": "a different video. I'll link to it"
+    },
+    {
+      "start": 365.6,
+      "duration": 2.719,
+      "text": "above. It's really simple, but for the"
+    },
+    {
+      "start": 367.12,
+      "duration": 2.56,
+      "text": "sake of time, I'm not going to go into"
+    },
+    {
+      "start": 368.319,
+      "duration": 2.961,
+      "text": "it, but we are using the Docker"
+    },
+    {
+      "start": 369.68,
+      "duration": 3.04,
+      "text": "installation because it gives us so much"
+    },
+    {
+      "start": 371.28,
+      "duration": 3.44,
+      "text": "more functionality. And then there's a"
+    },
+    {
+      "start": 372.72,
+      "duration": 3.919,
+      "text": "basic configuration where has access to"
+    },
+    {
+      "start": 374.72,
+      "duration": 3.919,
+      "text": "the documentation of the NAN but the one"
+    },
+    {
+      "start": 376.639,
+      "duration": 4.641,
+      "text": "we want is the full configuration with"
+    },
+    {
+      "start": 378.639,
+      "duration": 4.4,
+      "text": "NAN management tools. So let's just copy"
+    },
+    {
+      "start": 381.28,
+      "duration": 4.16,
+      "text": "this exactly and now paste it into our"
+    },
+    {
+      "start": 383.039,
+      "duration": 4.961,
+      "text": "MCP.json file. This is necessary for"
+    },
+    {
+      "start": 385.44,
+      "duration": 5.12,
+      "text": "cloud code or cursor to use it as MCP"
+    },
+    {
+      "start": 388,
+      "duration": 4.479,
+      "text": "server. So what we want to do now is"
+    },
+    {
+      "start": 390.56,
+      "duration": 3.359,
+      "text": "pull the Docker image. I'm assuming you"
+    },
+    {
+      "start": 392.479,
+      "duration": 2.641,
+      "text": "already have Docker installed either via"
+    },
+    {
+      "start": 393.919,
+      "duration": 3.201,
+      "text": "Docker desktop or some other"
+    },
+    {
+      "start": 395.12,
+      "duration": 3.6,
+      "text": "installation. So you just copy this and"
+    },
+    {
+      "start": 397.12,
+      "duration": 3.199,
+      "text": "open up a terminal and paste it in."
+    },
+    {
+      "start": 398.72,
+      "duration": 2.88,
+      "text": "Press enter. And it goes without saying"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.641,
+      "text": "you should have Docker installed and"
+    },
+    {
+      "start": 401.6,
+      "duration": 2.719,
+      "text": "running at this time. And now for me"
+    },
+    {
+      "start": 402.96,
+      "duration": 2.959,
+      "text": "it's pulling the latest version of this"
+    },
+    {
+      "start": 404.319,
+      "duration": 3.921,
+      "text": "MCP server. Now there's a few things we"
+    },
+    {
+      "start": 405.919,
+      "duration": 5.521,
+      "text": "have to figure out. Specifically our NAN"
+    },
+    {
+      "start": 408.24,
+      "duration": 5.6,
+      "text": "URL and our NAN API key. So getting your"
+    },
+    {
+      "start": 411.44,
+      "duration": 3.759,
+      "text": "URL depends on how you're running NAN. I"
+    },
+    {
+      "start": 413.84,
+      "duration": 3.199,
+      "text": "recommend checking your documentation"
+    },
+    {
+      "start": 415.199,
+      "duration": 4,
+      "text": "for that. But getting your API key is"
+    },
+    {
+      "start": 417.039,
+      "duration": 3.841,
+      "text": "really easy. Just go to NAN API and you"
+    },
+    {
+      "start": 419.199,
+      "duration": 3.681,
+      "text": "just create an API key. You give it a"
+    },
+    {
+      "start": 420.88,
+      "duration": 3.92,
+      "text": "name. Define the scopes. I recommend"
+    },
+    {
+      "start": 422.88,
+      "duration": 3.52,
+      "text": "keeping your expiration date relatively"
+    },
+    {
+      "start": 424.8,
+      "duration": 4,
+      "text": "short. You give it a label. I'm going to"
+    },
+    {
+      "start": 426.4,
+      "duration": 5.68,
+      "text": "call mine MCP. And you get your API key."
+    },
+    {
+      "start": 428.8,
+      "duration": 5.2,
+      "text": "Copy. Go back to your mcp.json and paste"
+    },
+    {
+      "start": 432.08,
+      "duration": 3.839,
+      "text": "it in here. So here I pasted in the URL"
+    },
+    {
+      "start": 434,
+      "duration": 3.599,
+      "text": "for my nadn instance hosted on"
+    },
+    {
+      "start": 435.919,
+      "duration": 3.761,
+      "text": "hostinger. So we installed the docker"
+    },
+    {
+      "start": 437.599,
+      "duration": 4.481,
+      "text": "image. We put in the full configuration"
+    },
+    {
+      "start": 439.68,
+      "duration": 4.239,
+      "text": "with our URL and API key. There's one"
+    },
+    {
+      "start": 442.08,
+      "duration": 3.839,
+      "text": "more step to make this really powerful"
+    },
+    {
+      "start": 443.919,
+      "duration": 4,
+      "text": "and that is adding skills from the same"
+    },
+    {
+      "start": 445.919,
+      "duration": 4.161,
+      "text": "developer. This adds more context via"
+    },
+    {
+      "start": 447.919,
+      "duration": 3.921,
+      "text": "cloud skills that teach cloud code or"
+    },
+    {
+      "start": 450.08,
+      "duration": 3.6,
+      "text": "cloud desktop best practices for"
+    },
+    {
+      "start": 451.84,
+      "duration": 3.6,
+      "text": "building within. So the easiest way to"
+    },
+    {
+      "start": 453.68,
+      "duration": 3.84,
+      "text": "do this is go to his cloud skill. We'll"
+    },
+    {
+      "start": 455.44,
+      "duration": 4.08,
+      "text": "just copy his username and repo. Paste"
+    },
+    {
+      "start": 457.52,
+      "duration": 4.239,
+      "text": "it in here. And we're going to press yes"
+    },
+    {
+      "start": 459.52,
+      "duration": 6,
+      "text": "to install it. So now if we open up plot"
+    },
+    {
+      "start": 461.759,
+      "duration": 6.16,
+      "text": "again and do /plugins, go to installed."
+    },
+    {
+      "start": 465.52,
+      "duration": 4.72,
+      "text": "We see the naden mcp skills. We have"
+    },
+    {
+      "start": 467.919,
+      "duration": 4.081,
+      "text": "naden installed either via hostinger or"
+    },
+    {
+      "start": 470.24,
+      "duration": 4.72,
+      "text": "cloud. We have docker installed. We have"
+    },
+    {
+      "start": 472,
+      "duration": 5.919,
+      "text": "the naden mcp server installed on docker"
+    },
+    {
+      "start": 474.96,
+      "duration": 4.56,
+      "text": "connected to cloud code with naden mcp"
+    },
+    {
+      "start": 477.919,
+      "duration": 2.96,
+      "text": "skills. Now we're ready to build"
+    },
+    {
+      "start": 479.52,
+      "duration": 2.56,
+      "text": "whatever we want. At this point you can"
+    },
+    {
+      "start": 480.879,
+      "duration": 3.121,
+      "text": "do a few things. You can start from"
+    },
+    {
+      "start": 482.08,
+      "duration": 3.6,
+      "text": "scratch where you can debug and work on"
+    },
+    {
+      "start": 484,
+      "duration": 3.28,
+      "text": "an existing workflow. Now, I'm assuming"
+    },
+    {
+      "start": 485.68,
+      "duration": 3.6,
+      "text": "you have some knowledge. You've played a"
+    },
+    {
+      "start": 487.28,
+      "duration": 3.199,
+      "text": "bit with Naden. You know about triggers."
+    },
+    {
+      "start": 489.28,
+      "duration": 3.039,
+      "text": "You know about the different types of"
+    },
+    {
+      "start": 490.479,
+      "duration": 3.28,
+      "text": "nodes and you know more or less what you"
+    },
+    {
+      "start": 492.319,
+      "duration": 3.121,
+      "text": "want to build. If not, I definitely"
+    },
+    {
+      "start": 493.759,
+      "duration": 3.681,
+      "text": "recommend taking a step back and going"
+    },
+    {
+      "start": 495.44,
+      "duration": 3.52,
+      "text": "to NATE basics. It will help you"
+    },
+    {
+      "start": 497.44,
+      "duration": 3.599,
+      "text": "understand what's going on because even"
+    },
+    {
+      "start": 498.96,
+      "duration": 4.239,
+      "text": "with this amazing MCP server and cloud"
+    },
+    {
+      "start": 501.039,
+      "duration": 4.321,
+      "text": "skills still will require you to"
+    },
+    {
+      "start": 503.199,
+      "duration": 3.601,
+      "text": "understand a bit of NAND. So, you'll be"
+    },
+    {
+      "start": 505.36,
+      "duration": 2.88,
+      "text": "able to debug and figure out what's"
+    },
+    {
+      "start": 506.8,
+      "duration": 3.76,
+      "text": "working and what's not working. Because"
+    },
+    {
+      "start": 508.24,
+      "duration": 4.159,
+      "text": "in all of my experience with Nad, it"
+    },
+    {
+      "start": 510.56,
+      "duration": 3.76,
+      "text": "never works on the first try. It's a lot"
+    },
+    {
+      "start": 512.399,
+      "duration": 3.52,
+      "text": "better with this MCP server, but it will"
+    },
+    {
+      "start": 514.32,
+      "duration": 3.199,
+      "text": "require some basic knowledge. Let's say"
+    },
+    {
+      "start": 515.919,
+      "duration": 3.36,
+      "text": "we're starting a new project, we need to"
+    },
+    {
+      "start": 517.519,
+      "duration": 3.44,
+      "text": "know what we want. And what I usually do"
+    },
+    {
+      "start": 519.279,
+      "duration": 3.44,
+      "text": "is create a PRD. And I talk a lot on"
+    },
+    {
+      "start": 520.959,
+      "duration": 3.281,
+      "text": "this channel about creating PRDs. That's"
+    },
+    {
+      "start": 522.719,
+      "duration": 3.921,
+      "text": "essentially your product requirement"
+    },
+    {
+      "start": 524.24,
+      "duration": 4.4,
+      "text": "document. I'll link to my PRD creator"
+    },
+    {
+      "start": 526.64,
+      "duration": 3.6,
+      "text": "above. And in my opinion, it's also"
+    },
+    {
+      "start": 528.64,
+      "duration": 3.52,
+      "text": "applicable here. We want to know what"
+    },
+    {
+      "start": 530.24,
+      "duration": 3.36,
+      "text": "we're building before we even add a"
+    },
+    {
+      "start": 532.16,
+      "duration": 3.44,
+      "text": "first step. So just like I do with every"
+    },
+    {
+      "start": 533.6,
+      "duration": 3.679,
+      "text": "project, I make a PRD. I'm going to put"
+    },
+    {
+      "start": 535.6,
+      "duration": 3.679,
+      "text": "it into the root of the folder. And what"
+    },
+    {
+      "start": 537.279,
+      "duration": 4.641,
+      "text": "I want to do here is use NAN to build a"
+    },
+    {
+      "start": 539.279,
+      "duration": 4,
+      "text": "PC of a scam or a fishing detector"
+    },
+    {
+      "start": 541.92,
+      "duration": 3.12,
+      "text": "because these scams are getting more and"
+    },
+    {
+      "start": 543.279,
+      "duration": 3.761,
+      "text": "more intense and it is a billion-dollar"
+    },
+    {
+      "start": 545.04,
+      "duration": 3.68,
+      "text": "industry and the built-in spam detection"
+    },
+    {
+      "start": 547.04,
+      "duration": 3.76,
+      "text": "is not good enough anymore. So I put"
+    },
+    {
+      "start": 548.72,
+      "duration": 3.6,
+      "text": "this PRD into my root directory. So I"
+    },
+    {
+      "start": 550.8,
+      "duration": 4.159,
+      "text": "said look at the following PRD and I"
+    },
+    {
+      "start": 552.32,
+      "duration": 4.8,
+      "text": "tagged the PRD use the NAND skill and"
+    },
+    {
+      "start": 554.959,
+      "duration": 4.32,
+      "text": "NAND MCP to build as a new workflow. I"
+    },
+    {
+      "start": 557.12,
+      "duration": 4,
+      "text": "made sure that we're in Opus 4.5 and I'm"
+    },
+    {
+      "start": 559.279,
+      "duration": 4.56,
+      "text": "turning on plan mode by hitting shift"
+    },
+    {
+      "start": 561.12,
+      "duration": 4.96,
+      "text": "tab twice. Essentially, we're giving it"
+    },
+    {
+      "start": 563.839,
+      "duration": 3.921,
+      "text": "all the tools, all the power to plan it"
+    },
+    {
+      "start": 566.08,
+      "duration": 2.879,
+      "text": "out within cloud code. So, we're going"
+    },
+    {
+      "start": 567.76,
+      "duration": 2.88,
+      "text": "to press enter and we're going to see"
+    },
+    {
+      "start": 568.959,
+      "duration": 3.761,
+      "text": "what it does. I'm just going to give it"
+    },
+    {
+      "start": 570.64,
+      "duration": 3.199,
+      "text": "permission to use the NPCP skill and"
+    },
+    {
+      "start": 572.72,
+      "duration": 2.799,
+      "text": "many other things. I'm just going to"
+    },
+    {
+      "start": 573.839,
+      "duration": 3.921,
+      "text": "give it full reign. Now, it's using the"
+    },
+    {
+      "start": 575.519,
+      "duration": 3.681,
+      "text": "MCB tool to look at different nodes. So,"
+    },
+    {
+      "start": 577.76,
+      "duration": 3.519,
+      "text": "it says I have all the information I"
+    },
+    {
+      "start": 579.2,
+      "duration": 3.36,
+      "text": "need. The NIN API is connected and"
+    },
+    {
+      "start": 581.279,
+      "duration": 3.361,
+      "text": "working. Now, let me write the"
+    },
+    {
+      "start": 582.56,
+      "duration": 3.6,
+      "text": "implementation plan. And I find this a"
+    },
+    {
+      "start": 584.64,
+      "duration": 3.68,
+      "text": "lot more stable, a lot more"
+    },
+    {
+      "start": 586.16,
+      "duration": 4.56,
+      "text": "controllable, and the output comes out a"
+    },
+    {
+      "start": 588.32,
+      "duration": 4.32,
+      "text": "lot better than the standard Naden AI"
+    },
+    {
+      "start": 590.72,
+      "duration": 3.92,
+      "text": "agent that they have built into Naden"
+    },
+    {
+      "start": 592.64,
+      "duration": 4.16,
+      "text": "Cloud, probably because it's Claude Opus"
+    },
+    {
+      "start": 594.64,
+      "duration": 4.16,
+      "text": "45 with plan mode with all these extra"
+    },
+    {
+      "start": 596.8,
+      "duration": 3.92,
+      "text": "tools and what I'm assuming is a much"
+    },
+    {
+      "start": 598.8,
+      "duration": 3.68,
+      "text": "larger context window. Now, it's gave us"
+    },
+    {
+      "start": 600.72,
+      "duration": 3.44,
+      "text": "the first version of its plan. I usually"
+    },
+    {
+      "start": 602.48,
+      "duration": 3.039,
+      "text": "go back and forth a lot with the plan."
+    },
+    {
+      "start": 604.16,
+      "duration": 2.4,
+      "text": "If this is good enough for the sake of"
+    },
+    {
+      "start": 605.519,
+      "duration": 2.801,
+      "text": "the video, I'm just going to go forward"
+    },
+    {
+      "start": 606.56,
+      "duration": 4.48,
+      "text": "with it. Let's take a look. Email scam"
+    },
+    {
+      "start": 608.32,
+      "duration": 5.28,
+      "text": "detector workflow trigger monitors inbox"
+    },
+    {
+      "start": 611.04,
+      "duration": 5.359,
+      "text": "filters by scam keywords. prepares email"
+    },
+    {
+      "start": 613.6,
+      "duration": 5.12,
+      "text": "data, analyzes for scam indicators, a"
+    },
+    {
+      "start": 616.399,
+      "duration": 3.761,
+      "text": "set node formats the verdict email, and"
+    },
+    {
+      "start": 618.72,
+      "duration": 3.28,
+      "text": "then a Gmail node will send a"
+    },
+    {
+      "start": 620.16,
+      "duration": 3.2,
+      "text": "notification to a separate recipient. It"
+    },
+    {
+      "start": 622,
+      "duration": 3.6,
+      "text": "tells me the credentials I'll need to"
+    },
+    {
+      "start": 623.36,
+      "duration": 4.479,
+      "text": "add. Overview: Build a workflow per P"
+    },
+    {
+      "start": 625.6,
+      "duration": 4.32,
+      "text": "that monitors email, filters suspicious"
+    },
+    {
+      "start": 627.839,
+      "duration": 4,
+      "text": "emails, analyzes with AI, and sends"
+    },
+    {
+      "start": 629.92,
+      "duration": 3.44,
+      "text": "verdict notification. So, this all looks"
+    },
+    {
+      "start": 631.839,
+      "duration": 2.881,
+      "text": "pretty good. Good enough for the sake of"
+    },
+    {
+      "start": 633.36,
+      "duration": 3.12,
+      "text": "this video. Right now, we're going to"
+    },
+    {
+      "start": 634.72,
+      "duration": 3.119,
+      "text": "press yes. Let's go. And here's what's"
+    },
+    {
+      "start": 636.48,
+      "duration": 3.52,
+      "text": "happening now. It's creating a new"
+    },
+    {
+      "start": 637.839,
+      "duration": 3.521,
+      "text": "workflow in and end. And then we'll be"
+    },
+    {
+      "start": 640,
+      "duration": 3.12,
+      "text": "able to go in there and test it. And I'm"
+    },
+    {
+      "start": 641.36,
+      "duration": 3.039,
+      "text": "not expecting it to be perfect, but that"
+    },
+    {
+      "start": 643.12,
+      "duration": 2.8,
+      "text": "this is a much better approach than"
+    },
+    {
+      "start": 644.399,
+      "duration": 3.201,
+      "text": "building it from scratch. Usually what"
+    },
+    {
+      "start": 645.92,
+      "duration": 3.2,
+      "text": "happens is I'm able just to go forward"
+    },
+    {
+      "start": 647.6,
+      "duration": 2.96,
+      "text": "and start debugging and figure out"
+    },
+    {
+      "start": 649.12,
+      "duration": 3.44,
+      "text": "what's working, what's not working. So"
+    },
+    {
+      "start": 650.56,
+      "duration": 3.6,
+      "text": "here we see it wants to use the end"
+    },
+    {
+      "start": 652.56,
+      "duration": 4.08,
+      "text": "create workflow tool. So we're going to"
+    },
+    {
+      "start": 654.16,
+      "duration": 3.679,
+      "text": "say yes. Okay. So it says it's done. It"
+    },
+    {
+      "start": 656.64,
+      "duration": 3.12,
+      "text": "created a workflow. It gave us the new"
+    },
+    {
+      "start": 657.839,
+      "duration": 3.521,
+      "text": "workflow ID. Tells us about the nodes"
+    },
+    {
+      "start": 659.76,
+      "duration": 2.96,
+      "text": "and it tells us what we have to set up"
+    },
+    {
+      "start": 661.36,
+      "duration": 2.719,
+      "text": "before it will start working. Now let's"
+    },
+    {
+      "start": 662.72,
+      "duration": 2.72,
+      "text": "go back to Naden and see if that"
+    },
+    {
+      "start": 664.079,
+      "duration": 3.281,
+      "text": "workflow is actually created. I'm just"
+    },
+    {
+      "start": 665.44,
+      "duration": 4.16,
+      "text": "going to refresh the page here. And here"
+    },
+    {
+      "start": 667.36,
+      "duration": 4.24,
+      "text": "we have it, a new workflow email scam"
+    },
+    {
+      "start": 669.6,
+      "duration": 3.359,
+      "text": "detector. So, it's the six nodes. It"
+    },
+    {
+      "start": 671.6,
+      "duration": 4.08,
+      "text": "said it was going to do the email"
+    },
+    {
+      "start": 672.959,
+      "duration": 5.281,
+      "text": "trigger, the keyword prefilter, data"
+    },
+    {
+      "start": 675.68,
+      "duration": 4.24,
+      "text": "analysis, AI analysis, setting up a"
+    },
+    {
+      "start": 678.24,
+      "duration": 2.88,
+      "text": "notification, and these three red"
+    },
+    {
+      "start": 679.92,
+      "duration": 2.479,
+      "text": "warnings are saying set up the"
+    },
+    {
+      "start": 681.12,
+      "duration": 3.279,
+      "text": "credentials here. If we go into each"
+    },
+    {
+      "start": 682.399,
+      "duration": 3.921,
+      "text": "node, we see that it's filled with data,"
+    },
+    {
+      "start": 684.399,
+      "duration": 4,
+      "text": "not just empty, not connected nodes."
+    },
+    {
+      "start": 686.32,
+      "duration": 4.24,
+      "text": "Something I noticed here is it used the"
+    },
+    {
+      "start": 688.399,
+      "duration": 4.161,
+      "text": "open AI node, but I actually wanted open"
+    },
+    {
+      "start": 690.56,
+      "duration": 3.04,
+      "text": "router. I didn't clarify that in my PRD."
+    },
+    {
+      "start": 692.56,
+      "duration": 2.719,
+      "text": "And that's because I already have my"
+    },
+    {
+      "start": 693.6,
+      "duration": 3.679,
+      "text": "open router credentials set up in this"
+    },
+    {
+      "start": 695.279,
+      "duration": 4.081,
+      "text": "Nad instance. But the workflow already"
+    },
+    {
+      "start": 697.279,
+      "duration": 3.921,
+      "text": "has this chatbt node built into it. With"
+    },
+    {
+      "start": 699.36,
+      "duration": 3.84,
+      "text": "the system prompt and the user prompt,"
+    },
+    {
+      "start": 701.2,
+      "duration": 3.52,
+      "text": "I'm going to ask cloud code to change it"
+    },
+    {
+      "start": 703.2,
+      "duration": 3.04,
+      "text": "to open router model. One thing you"
+    },
+    {
+      "start": 704.72,
+      "duration": 4,
+      "text": "should know when working with NAN with"
+    },
+    {
+      "start": 706.24,
+      "duration": 4.56,
+      "text": "an agent via MCP is to always save your"
+    },
+    {
+      "start": 708.72,
+      "duration": 4.16,
+      "text": "NAND instance and then leave to the"
+    },
+    {
+      "start": 710.8,
+      "duration": 3.2,
+      "text": "overview page. So you press save and you"
+    },
+    {
+      "start": 712.88,
+      "duration": 2.32,
+      "text": "go back. And the reason you should do"
+    },
+    {
+      "start": 714,
+      "duration": 2.399,
+      "text": "this is you don't want to have two"
+    },
+    {
+      "start": 715.2,
+      "duration": 2.72,
+      "text": "separate versions. the version that"
+    },
+    {
+      "start": 716.399,
+      "duration": 2.88,
+      "text": "you're working on and then the version"
+    },
+    {
+      "start": 717.92,
+      "duration": 2.88,
+      "text": "that the agent's working on cuz then"
+    },
+    {
+      "start": 719.279,
+      "duration": 2.961,
+      "text": "you'll get into this kind of limbo where"
+    },
+    {
+      "start": 720.8,
+      "duration": 3.76,
+      "text": "you don't know what the proper version"
+    },
+    {
+      "start": 722.24,
+      "duration": 4.24,
+      "text": "is. So always save your work and leave"
+    },
+    {
+      "start": 724.56,
+      "duration": 3.76,
+      "text": "and then let the agent work on it via"
+    },
+    {
+      "start": 726.48,
+      "duration": 3.52,
+      "text": "MCP. So I'm writing to Claude, please"
+    },
+    {
+      "start": 728.32,
+      "duration": 3.519,
+      "text": "replace the OpenAI node with the open"
+    },
+    {
+      "start": 730,
+      "duration": 3.92,
+      "text": "router node and be sure to add the"
+    },
+    {
+      "start": 731.839,
+      "duration": 4,
+      "text": "prompts to it. It says workflow updated"
+    },
+    {
+      "start": 733.92,
+      "duration": 4.08,
+      "text": "successfully. It removed the OpenAI"
+    },
+    {
+      "start": 735.839,
+      "duration": 3.841,
+      "text": "node. It added the basic LLM node and"
+    },
+    {
+      "start": 738,
+      "duration": 3.76,
+      "text": "then it added the system prompt with the"
+    },
+    {
+      "start": 739.68,
+      "duration": 3.68,
+      "text": "scam detection criteria. So let's go"
+    },
+    {
+      "start": 741.76,
+      "duration": 3.28,
+      "text": "back into it. If we look in here, we"
+    },
+    {
+      "start": 743.36,
+      "duration": 3.52,
+      "text": "have the system prompt. And like any"
+    },
+    {
+      "start": 745.04,
+      "duration": 3.44,
+      "text": "real project, it's never a one and done."
+    },
+    {
+      "start": 746.88,
+      "duration": 2.8,
+      "text": "There's a lot of testing. There's a lot"
+    },
+    {
+      "start": 748.48,
+      "duration": 2.64,
+      "text": "of edge cases. There's a lot of"
+    },
+    {
+      "start": 749.68,
+      "duration": 2.719,
+      "text": "customizations that you have to do from"
+    },
+    {
+      "start": 751.12,
+      "duration": 2.719,
+      "text": "here. But this is a great place to"
+    },
+    {
+      "start": 752.399,
+      "duration": 2.88,
+      "text": "start. In the case of this video, we"
+    },
+    {
+      "start": 753.839,
+      "duration": 3.281,
+      "text": "started from scratch. But what I've"
+    },
+    {
+      "start": 755.279,
+      "duration": 3.921,
+      "text": "often done is connected an existing"
+    },
+    {
+      "start": 757.12,
+      "duration": 3.839,
+      "text": "workflow that has many nodes and it's"
+    },
+    {
+      "start": 759.2,
+      "duration": 3.759,
+      "text": "already working and I've given that MCP"
+    },
+    {
+      "start": 760.959,
+      "duration": 4.161,
+      "text": "server access and it's helped me debug"
+    },
+    {
+      "start": 762.959,
+      "duration": 4,
+      "text": "it and improve it, essentially refactor"
+    },
+    {
+      "start": 765.12,
+      "duration": 3.519,
+      "text": "it. And I found it very useful. And with"
+    },
+    {
+      "start": 766.959,
+      "duration": 3.12,
+      "text": "that being said, one of the tools it has"
+    },
+    {
+      "start": 768.639,
+      "duration": 3.44,
+      "text": "is the ability to look at past"
+    },
+    {
+      "start": 770.079,
+      "duration": 3.841,
+      "text": "executions and figure out what was going"
+    },
+    {
+      "start": 772.079,
+      "duration": 4,
+      "text": "on. And yes, there are times when you"
+    },
+    {
+      "start": 773.92,
+      "duration": 4.719,
+      "text": "have to actually go into an execution,"
+    },
+    {
+      "start": 776.079,
+      "duration": 4.56,
+      "text": "go into a node, and take a screenshot or"
+    },
+    {
+      "start": 778.639,
+      "duration": 3.76,
+      "text": "copy and paste the input or the output"
+    },
+    {
+      "start": 780.639,
+      "duration": 3.601,
+      "text": "to Cloud Code to help figure out what's"
+    },
+    {
+      "start": 782.399,
+      "duration": 3.841,
+      "text": "going on. But because the workflow is"
+    },
+    {
+      "start": 784.24,
+      "duration": 3.599,
+      "text": "connected directly to Cloud Code, it's a"
+    },
+    {
+      "start": 786.24,
+      "duration": 2.88,
+      "text": "lot faster. It's a lot easier to figure"
+    },
+    {
+      "start": 787.839,
+      "duration": 2.721,
+      "text": "out what was going on. And I'm not going"
+    },
+    {
+      "start": 789.12,
+      "duration": 2.719,
+      "text": "to build this whole workflow out on"
+    },
+    {
+      "start": 790.56,
+      "duration": 3.76,
+      "text": "video because I just want to show you"
+    },
+    {
+      "start": 791.839,
+      "duration": 5.201,
+      "text": "how you could use an MCP to replicate"
+    },
+    {
+      "start": 794.32,
+      "duration": 4.319,
+      "text": "and improve the NADN AI that comes with"
+    },
+    {
+      "start": 797.04,
+      "duration": 2.96,
+      "text": "the cloud version on the community"
+    },
+    {
+      "start": 798.639,
+      "duration": 4.081,
+      "text": "version. What we did is we used the"
+    },
+    {
+      "start": 800,
+      "duration": 5.519,
+      "text": "power of Opus45 with cloud code and plan"
+    },
+    {
+      "start": 802.72,
+      "duration": 5.28,
+      "text": "mode to connect to NADN to build an"
+    },
+    {
+      "start": 805.519,
+      "duration": 4.961,
+      "text": "entire workflow via an MCP server and"
+    },
+    {
+      "start": 808,
+      "duration": 4.399,
+      "text": "cloud skills in NADN community version"
+    },
+    {
+      "start": 810.48,
+      "duration": 4.479,
+      "text": "from start to finish. The way I look at"
+    },
+    {
+      "start": 812.399,
+      "duration": 4.641,
+      "text": "this is kind of like what cloud code or"
+    },
+    {
+      "start": 814.959,
+      "duration": 3.281,
+      "text": "cursor does to a codebase. At the end of"
+    },
+    {
+      "start": 817.04,
+      "duration": 3.12,
+      "text": "the day, we should be able to build"
+    },
+    {
+      "start": 818.24,
+      "duration": 3.52,
+      "text": "these workflows faster with the help of"
+    },
+    {
+      "start": 820.16,
+      "duration": 3.52,
+      "text": "AI and not just copy and pasting back"
+    },
+    {
+      "start": 821.76,
+      "duration": 3.44,
+      "text": "and forth. Actually connecting our AI,"
+    },
+    {
+      "start": 823.68,
+      "duration": 3.279,
+      "text": "connecting our agents directly into"
+    },
+    {
+      "start": 825.2,
+      "duration": 3.52,
+      "text": "Naden, and that's how we did it here. If"
+    },
+    {
+      "start": 826.959,
+      "duration": 3.761,
+      "text": "you want to use Naden at a fraction of"
+    },
+    {
+      "start": 828.72,
+      "duration": 3.679,
+      "text": "the price of Naden Cloud, I suggest"
+    },
+    {
+      "start": 830.72,
+      "duration": 3.44,
+      "text": "using Hostinger, don't forget to use my"
+    },
+    {
+      "start": 832.399,
+      "duration": 3.841,
+      "text": "promo code Jared Blue. Thanks again to"
+    },
+    {
+      "start": 834.16,
+      "duration": 3.52,
+      "text": "Hostinger for sponsoring this video. I"
+    },
+    {
+      "start": 836.24,
+      "duration": 3.039,
+      "text": "hope you found this video helpful and"
+    },
+    {
+      "start": 837.68,
+      "duration": 2.959,
+      "text": "insightful. If you have any feedback or"
+    },
+    {
+      "start": 839.279,
+      "duration": 2.961,
+      "text": "questions, drop them in the comments"
+    },
+    {
+      "start": 840.639,
+      "duration": 2.801,
+      "text": "below. If you haven't done so already,"
+    },
+    {
+      "start": 842.24,
+      "duration": 2.399,
+      "text": "subscribe to the channel. It really"
+    },
+    {
+      "start": 843.44,
+      "duration": 3.92,
+      "text": "helps me grow. Thank you guys for"
+    },
+    {
+      "start": 844.639,
+      "duration": 2.721,
+      "text": "watching and have a great"
+    }
+  ],
+  "fullText": "What we did is we used the power of Opus45 with cloud code to connect to NADN to build an entire workflow via an MCP server and cloud skills in NAN community version from start to finish. In this video, I'm going to show you how I built and debug NAN workflows with an unofficial MCP server that works with NAN V2 and is way more powerful than the official Naden MCP server that was released last week. This works for both NAN cloud and NAN hosted. We're going to use Docker Cloud Code with an MCP server and Cloud Skills. And I'm also going to show you how to update Naden V2 for the community version. So, let's get into it. So, Nan recently released this official MCP server. What's great about it is it's official. It's remote MCP, so you can use it on cloud mobile, but it's very limited. It only has three tools. Execute workflow, get workflow details, and search workflows, meaning it's great for connecting your already working workflows to external tools like Cloud Desktop, Lovable, or Cursor. But that's pretty limited. I want to show you the unofficial NAND MCB server that I've been using for months. It's able to create workflows, edit workflows, look at executions, and help debug. It's much better, but it only runs locally. It's a little more technical. It has completely change the way I build or debug Naden workflows. And that is the NAN MCP by CZ Lancowski. I don't know if I said that right. I connect this MCP server to an NAD instance. Then I connected to an IDE with an agentic coding tool like Cloud Code so I could build the whole thing out in a coding environment. It's very efficient. I'm going to show you how this whole setup is very powerful for both NAND cloud users and NAN self-hosted because in NAND cloud you're able to use NAND AI to help you build workflows. You only get about 50 credits per month. And as great as it is, it hasn't really been able to push me past the finish line. And it's not even available in the self-hosted N instance, which is where I do most of my work. So, in my experience, this unofficial MCP server paired with skills is not only available both in self-hosted and in cloud, it's much more efficient and affordable than what NAN is offering in its paid cloud subscriptions. It's better debugging. It's better at problem solving. It's better at giving you control on how to build these NAND workflows. And I've been tweaking and hacking my NAND usage over the last year. I've used several noode tools in the past. I've used Zapier, I've used Make. Naden is definitely a step up from both of those, but it's not exactly no code. It's like a low code tool cuz I often find myself putting code via code nodes into my workflows. About a year ago, I started off using Naden Cloud. I was paying about $20 a month to get 25,500 executions per month. But as I started building on my workflows, I would hit that limit midmon, which means my nadn would completely stop working. And that's why I'm really excited to talk about the sponsor of today's video, Hostinger. Because straight out value for money, self-hosting nen on Hostinger is about a quarter of the cost that I was paying for the most basic plan on nen cloud. On hosting air, you pay once and you get as many executions as you want. Since I switched, I haven't hit my usage limits once. So, I'm paying less and I'm getting way more executions than I got from the standard NAN cloud plan. This is the plan that I'm using, KVM2. The specs here are more than enough for running NN. And remember, it's Docker, so it doesn't only have to be NAN. You could add other containers. And if you use my coupon code, you get another 10% off. So, once you're in, you choose a server location closest to you. And then you can set up hosting or however you want. In our case, we'll just type in Nad. And there's actually three templates already built in. There's a standard version, Q mode, or this version that comes with over 100 pre-made workflows out of the box. Then you create your root password, your master password, and then finish set up. And it takes about 5 minutes for Hostinger here to set up your instance. I would suggest taking advantage of this deal while it's available and using my code Jared Blue for an additional discount. I'll drop a link below. As we see, it finished building the instance. Let's go into it. And I highly suggest not pressing the skip button. Let them send you a free license key. You get a lot of functionality out of this. Now we're inside a brand new instance of NADN. In this case, we see the 100 pre-built workflows that we selected. If you're new to NADN, I suggest opening them up and just getting an idea of how they work. It may give you some inspiration, some ideas of what or how to build, or you can just create a new workflow, a blank canvas. But I'm going to show you a much better way to get started with the most powerful AI model using Cloud Skills and MTV servers. But if you're already running NN on Hostinger or some other self-hosted instance, I'm going to show you how to upgrade to V2. Before doing this, I recommend going to the migration report page and making sure that you don't have any workflow issues because there are some breaking changes between the previous version of N and this new version. This migration report tool makes it really easy to figure out what you have to change in your current workflows, if anything will break, and gives you a good idea what you have to do to fix it. Instance issues are less of a problem. You want to focus more on workflow issues. So you can see we are currently in the community version of NAN version 1.12. I'm just going to show you how to do the update. It's really easy. And there's even instructions here how to update NAN. It's three simple terminal commands. And because NAN runs in Docker, it's just Docker compose pull, docker compose down, and docker compose up-d. So you go to your hosting or overview. You press terminal. And we're just going to run those commands. Docker compose pull. Now it's pulling the latest version of nadn. It might take a few seconds. When that's done, you run docker compose down. And then you run docker compose up-dress enter. So now we go back to nadn. We see in our settings for version 2.0.1. Assuming you already have n installed. Let's talk about the process of building nad workflows with this MCP server. I've been using this unofficial MCP server for NAND for months now. The developer is constantly updating it. It has almost 11k stars. The last release was 2 days ago. So it's actively in development. There are a bunch of different ways of installing it. I'm just going to show you the way I recommend installing it because it's the most powerful and you'll get the most out of it. I like to do it with Cloud4 Opus. It's really good at building N&M workflows and I like to do it in IDE over Cloud Desktop because we're able to actually edit the code ourselves and sometimes when the final JSON comes out, it's a bit too heavy. So, you just copy and paste it between the code editor and N. So, first let's set up the MCB server. So, let's create a MCP.json file. There's a few different ways to install this MCB server. You have the standard MPX installation, but for this we're going to be using the Docker installation, meaning you have to have Docker running locally on your machine, and it's not complicated. You can go download Docker Desktop right now. You don't have to worry about configuration. It just needs to be running. I covered installing Docker in a different video. I'll link to it above. It's really simple, but for the sake of time, I'm not going to go into it, but we are using the Docker installation because it gives us so much more functionality. And then there's a basic configuration where has access to the documentation of the NAN but the one we want is the full configuration with NAN management tools. So let's just copy this exactly and now paste it into our MCP.json file. This is necessary for cloud code or cursor to use it as MCP server. So what we want to do now is pull the Docker image. I'm assuming you already have Docker installed either via Docker desktop or some other installation. So you just copy this and open up a terminal and paste it in. Press enter. And it goes without saying you should have Docker installed and running at this time. And now for me it's pulling the latest version of this MCP server. Now there's a few things we have to figure out. Specifically our NAN URL and our NAN API key. So getting your URL depends on how you're running NAN. I recommend checking your documentation for that. But getting your API key is really easy. Just go to NAN API and you just create an API key. You give it a name. Define the scopes. I recommend keeping your expiration date relatively short. You give it a label. I'm going to call mine MCP. And you get your API key. Copy. Go back to your mcp.json and paste it in here. So here I pasted in the URL for my nadn instance hosted on hostinger. So we installed the docker image. We put in the full configuration with our URL and API key. There's one more step to make this really powerful and that is adding skills from the same developer. This adds more context via cloud skills that teach cloud code or cloud desktop best practices for building within. So the easiest way to do this is go to his cloud skill. We'll just copy his username and repo. Paste it in here. And we're going to press yes to install it. So now if we open up plot again and do /plugins, go to installed. We see the naden mcp skills. We have naden installed either via hostinger or cloud. We have docker installed. We have the naden mcp server installed on docker connected to cloud code with naden mcp skills. Now we're ready to build whatever we want. At this point you can do a few things. You can start from scratch where you can debug and work on an existing workflow. Now, I'm assuming you have some knowledge. You've played a bit with Naden. You know about triggers. You know about the different types of nodes and you know more or less what you want to build. If not, I definitely recommend taking a step back and going to NATE basics. It will help you understand what's going on because even with this amazing MCP server and cloud skills still will require you to understand a bit of NAND. So, you'll be able to debug and figure out what's working and what's not working. Because in all of my experience with Nad, it never works on the first try. It's a lot better with this MCP server, but it will require some basic knowledge. Let's say we're starting a new project, we need to know what we want. And what I usually do is create a PRD. And I talk a lot on this channel about creating PRDs. That's essentially your product requirement document. I'll link to my PRD creator above. And in my opinion, it's also applicable here. We want to know what we're building before we even add a first step. So just like I do with every project, I make a PRD. I'm going to put it into the root of the folder. And what I want to do here is use NAN to build a PC of a scam or a fishing detector because these scams are getting more and more intense and it is a billion-dollar industry and the built-in spam detection is not good enough anymore. So I put this PRD into my root directory. So I said look at the following PRD and I tagged the PRD use the NAND skill and NAND MCP to build as a new workflow. I made sure that we're in Opus 4.5 and I'm turning on plan mode by hitting shift tab twice. Essentially, we're giving it all the tools, all the power to plan it out within cloud code. So, we're going to press enter and we're going to see what it does. I'm just going to give it permission to use the NPCP skill and many other things. I'm just going to give it full reign. Now, it's using the MCB tool to look at different nodes. So, it says I have all the information I need. The NIN API is connected and working. Now, let me write the implementation plan. And I find this a lot more stable, a lot more controllable, and the output comes out a lot better than the standard Naden AI agent that they have built into Naden Cloud, probably because it's Claude Opus 45 with plan mode with all these extra tools and what I'm assuming is a much larger context window. Now, it's gave us the first version of its plan. I usually go back and forth a lot with the plan. If this is good enough for the sake of the video, I'm just going to go forward with it. Let's take a look. Email scam detector workflow trigger monitors inbox filters by scam keywords. prepares email data, analyzes for scam indicators, a set node formats the verdict email, and then a Gmail node will send a notification to a separate recipient. It tells me the credentials I'll need to add. Overview: Build a workflow per P that monitors email, filters suspicious emails, analyzes with AI, and sends verdict notification. So, this all looks pretty good. Good enough for the sake of this video. Right now, we're going to press yes. Let's go. And here's what's happening now. It's creating a new workflow in and end. And then we'll be able to go in there and test it. And I'm not expecting it to be perfect, but that this is a much better approach than building it from scratch. Usually what happens is I'm able just to go forward and start debugging and figure out what's working, what's not working. So here we see it wants to use the end create workflow tool. So we're going to say yes. Okay. So it says it's done. It created a workflow. It gave us the new workflow ID. Tells us about the nodes and it tells us what we have to set up before it will start working. Now let's go back to Naden and see if that workflow is actually created. I'm just going to refresh the page here. And here we have it, a new workflow email scam detector. So, it's the six nodes. It said it was going to do the email trigger, the keyword prefilter, data analysis, AI analysis, setting up a notification, and these three red warnings are saying set up the credentials here. If we go into each node, we see that it's filled with data, not just empty, not connected nodes. Something I noticed here is it used the open AI node, but I actually wanted open router. I didn't clarify that in my PRD. And that's because I already have my open router credentials set up in this Nad instance. But the workflow already has this chatbt node built into it. With the system prompt and the user prompt, I'm going to ask cloud code to change it to open router model. One thing you should know when working with NAN with an agent via MCP is to always save your NAND instance and then leave to the overview page. So you press save and you go back. And the reason you should do this is you don't want to have two separate versions. the version that you're working on and then the version that the agent's working on cuz then you'll get into this kind of limbo where you don't know what the proper version is. So always save your work and leave and then let the agent work on it via MCP. So I'm writing to Claude, please replace the OpenAI node with the open router node and be sure to add the prompts to it. It says workflow updated successfully. It removed the OpenAI node. It added the basic LLM node and then it added the system prompt with the scam detection criteria. So let's go back into it. If we look in here, we have the system prompt. And like any real project, it's never a one and done. There's a lot of testing. There's a lot of edge cases. There's a lot of customizations that you have to do from here. But this is a great place to start. In the case of this video, we started from scratch. But what I've often done is connected an existing workflow that has many nodes and it's already working and I've given that MCP server access and it's helped me debug it and improve it, essentially refactor it. And I found it very useful. And with that being said, one of the tools it has is the ability to look at past executions and figure out what was going on. And yes, there are times when you have to actually go into an execution, go into a node, and take a screenshot or copy and paste the input or the output to Cloud Code to help figure out what's going on. But because the workflow is connected directly to Cloud Code, it's a lot faster. It's a lot easier to figure out what was going on. And I'm not going to build this whole workflow out on video because I just want to show you how you could use an MCP to replicate and improve the NADN AI that comes with the cloud version on the community version. What we did is we used the power of Opus45 with cloud code and plan mode to connect to NADN to build an entire workflow via an MCP server and cloud skills in NADN community version from start to finish. The way I look at this is kind of like what cloud code or cursor does to a codebase. At the end of the day, we should be able to build these workflows faster with the help of AI and not just copy and pasting back and forth. Actually connecting our AI, connecting our agents directly into Naden, and that's how we did it here. If you want to use Naden at a fraction of the price of Naden Cloud, I suggest using Hostinger, don't forget to use my promo code Jared Blue. Thanks again to Hostinger for sponsoring this video. I hope you found this video helpful and insightful. If you have any feedback or questions, drop them in the comments below. If you haven't done so already, subscribe to the channel. It really helps me grow. Thank you guys for watching and have a great",
+  "fetchedAt": "2026-01-18T18:34:20.876Z"
+}

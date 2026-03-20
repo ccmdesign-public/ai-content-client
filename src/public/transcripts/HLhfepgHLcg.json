@@ -1,0 +1,1859 @@
+{
+  "videoId": "HLhfepgHLcg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 5.52,
+      "text": "We now have a fully open-source open"
+    },
+    {
+      "start": 2.399,
+      "duration": 6.001,
+      "text": "weights texttovideo model. This is LTX2"
+    },
+    {
+      "start": 5.6,
+      "duration": 5.2,
+      "text": "and now it is completely open. You can"
+    },
+    {
+      "start": 8.4,
+      "duration": 4.239,
+      "text": "download and run it on your local"
+    },
+    {
+      "start": 10.8,
+      "duration": 4.56,
+      "text": "machine. Here's the announcement. The"
+    },
+    {
+      "start": 12.639,
+      "duration": 5.041,
+      "text": "release makes a full LTX2 development"
+    },
+    {
+      "start": 15.36,
+      "duration": 4.56,
+      "text": "stack publicly available. You get the"
+    },
+    {
+      "start": 17.68,
+      "duration": 4.88,
+      "text": "model weights, both the main model and"
+    },
+    {
+      "start": 19.92,
+      "duration": 4.32,
+      "text": "the distilled version, enabling local"
+    },
+    {
+      "start": 22.56,
+      "duration": 4.16,
+      "text": "inference, fine-tuning, and production"
+    },
+    {
+      "start": 24.24,
+      "duration": 5.039,
+      "text": "use across a range of hardware, which"
+    },
+    {
+      "start": 26.72,
+      "duration": 5.12,
+      "text": "means you can download it and you can"
+    },
+    {
+      "start": 29.279,
+      "duration": 5.041,
+      "text": "customize it for your own needs. They"
+    },
+    {
+      "start": 31.84,
+      "duration": 4.32,
+      "text": "are also offering Laura adapters, so you"
+    },
+    {
+      "start": 34.32,
+      "duration": 4.72,
+      "text": "get to see how they've customized the"
+    },
+    {
+      "start": 36.16,
+      "duration": 4.559,
+      "text": "model for specific styles and tasks, and"
+    },
+    {
+      "start": 39.04,
+      "duration": 3.359,
+      "text": "that might give you inspiration for how"
+    },
+    {
+      "start": 40.719,
+      "duration": 3.281,
+      "text": "you might do it. They're also providing"
+    },
+    {
+      "start": 42.399,
+      "duration": 2.881,
+      "text": "something called trainer, a modular"
+    },
+    {
+      "start": 44,
+      "duration": 3.28,
+      "text": "training framework that includes"
+    },
+    {
+      "start": 45.28,
+      "duration": 4.64,
+      "text": "multimodal data pipelines, reference"
+    },
+    {
+      "start": 47.28,
+      "duration": 4.32,
+      "text": "configurations, multi-GPU support and"
+    },
+    {
+      "start": 49.92,
+      "duration": 3.76,
+      "text": "evaluation tools. They are basically"
+    },
+    {
+      "start": 51.6,
+      "duration": 4.08,
+      "text": "giving you the full stack to do anything"
+    },
+    {
+      "start": 53.68,
+      "duration": 4.24,
+      "text": "you want with this texttovideo model."
+    },
+    {
+      "start": 55.68,
+      "duration": 5.12,
+      "text": "Really the first time we're ever getting"
+    },
+    {
+      "start": 57.92,
+      "duration": 5.119,
+      "text": "this much support from a company. LTX2"
+    },
+    {
+      "start": 60.8,
+      "duration": 4.48,
+      "text": "is optimized for Nvidia machines and"
+    },
+    {
+      "start": 63.039,
+      "duration": 3.76,
+      "text": "specifically it can run well on an"
+    },
+    {
+      "start": 65.28,
+      "duration": 3.839,
+      "text": "RTX5090,"
+    },
+    {
+      "start": 66.799,
+      "duration": 4.561,
+      "text": "but those chips might be getting pretty"
+    },
+    {
+      "start": 69.119,
+      "duration": 4.161,
+      "text": "expensive very soon. More on that later."
+    },
+    {
+      "start": 71.36,
+      "duration": 4.48,
+      "text": "A few more things about this model. You"
+    },
+    {
+      "start": 73.28,
+      "duration": 4.24,
+      "text": "can get up to 20 second generations, but"
+    },
+    {
+      "start": 75.84,
+      "duration": 4.639,
+      "text": "you have control over the first and last"
+    },
+    {
+      "start": 77.52,
+      "duration": 5.44,
+      "text": "frame. So, you can tie together these 20"
+    },
+    {
+      "start": 80.479,
+      "duration": 5.441,
+      "text": "second clips into however long you want."
+    },
+    {
+      "start": 82.96,
+      "duration": 5.199,
+      "text": "The special thing about LTX in"
+    },
+    {
+      "start": 85.92,
+      "duration": 4.8,
+      "text": "particular is that it gives you kind of"
+    },
+    {
+      "start": 88.159,
+      "duration": 5.521,
+      "text": "this storyboarding control as if you"
+    },
+    {
+      "start": 90.72,
+      "duration": 6.64,
+      "text": "were sitting inside of a movie studio."
+    },
+    {
+      "start": 93.68,
+      "duration": 6.88,
+      "text": "With these 22nd generations, they are 4K"
+    },
+    {
+      "start": 97.36,
+      "duration": 5.6,
+      "text": "and up to 50 frames per second. So very"
+    },
+    {
+      "start": 100.56,
+      "duration": 4.239,
+      "text": "high quality. It also has very accurate"
+    },
+    {
+      "start": 102.96,
+      "duration": 5.439,
+      "text": "lip sync. So obviously it comes with"
+    },
+    {
+      "start": 104.799,
+      "duration": 6.401,
+      "text": "audio and you get incredibly fine grain"
+    },
+    {
+      "start": 108.399,
+      "duration": 5.121,
+      "text": "control over everything including multi"
+    },
+    {
+      "start": 111.2,
+      "duration": 5.599,
+      "text": "keyframe conditioning, Laura based"
+    },
+    {
+      "start": 113.52,
+      "duration": 6.32,
+      "text": "customization, 3D camera logic and"
+    },
+    {
+      "start": 116.799,
+      "duration": 5.6,
+      "text": "multimodal inputs including text, video,"
+    },
+    {
+      "start": 119.84,
+      "duration": 6.08,
+      "text": "audio and more. So download the model,"
+    },
+    {
+      "start": 122.399,
+      "duration": 6.161,
+      "text": "download the code, download the pipeline"
+    },
+    {
+      "start": 125.92,
+      "duration": 4.559,
+      "text": "all from GitHub, from HuggingFace, run"
+    },
+    {
+      "start": 128.56,
+      "duration": 3.6,
+      "text": "it locally. Of course, if you don't want"
+    },
+    {
+      "start": 130.479,
+      "duration": 3.921,
+      "text": "to run it locally, you can use a cloud"
+    },
+    {
+      "start": 132.16,
+      "duration": 4,
+      "text": "provider. And all of this is listed in"
+    },
+    {
+      "start": 134.4,
+      "duration": 3.839,
+      "text": "this announcement. I'll link that down"
+    },
+    {
+      "start": 136.16,
+      "duration": 3.439,
+      "text": "below. And LTX2 has already taken the"
+    },
+    {
+      "start": 138.239,
+      "duration": 3.441,
+      "text": "number one spot on the artificial"
+    },
+    {
+      "start": 139.599,
+      "duration": 5.121,
+      "text": "analysis open weights leaderboard. This"
+    },
+    {
+      "start": 141.68,
+      "duration": 5.279,
+      "text": "is the number one video model that is"
+    },
+    {
+      "start": 144.72,
+      "duration": 4.159,
+      "text": "also open source open weights. Go check"
+    },
+    {
+      "start": 146.959,
+      "duration": 3.761,
+      "text": "it out. It's super cool. I'm thinking"
+    },
+    {
+      "start": 148.879,
+      "duration": 3.601,
+      "text": "about making more videos, maybe a"
+    },
+    {
+      "start": 150.72,
+      "duration": 3.12,
+      "text": "tutorial about how to plug it into Comfy"
+    },
+    {
+      "start": 152.48,
+      "duration": 3.36,
+      "text": "UI. Let me know if you want to see that"
+    },
+    {
+      "start": 153.84,
+      "duration": 5.039,
+      "text": "in the comments. And they even released"
+    },
+    {
+      "start": 155.84,
+      "duration": 4.96,
+      "text": "a research paper detailing all of the"
+    },
+    {
+      "start": 158.879,
+      "duration": 3.921,
+      "text": "techniques that they use to create this"
+    },
+    {
+      "start": 160.8,
+      "duration": 4.159,
+      "text": "model. Here's a few demos of what you"
+    },
+    {
+      "start": 162.8,
+      "duration": 4,
+      "text": "can actually get out of LTX. Look at the"
+    },
+    {
+      "start": 164.959,
+      "duration": 4.081,
+      "text": "quality. Look at the detail. Look at the"
+    },
+    {
+      "start": 166.8,
+      "duration": 4.24,
+      "text": "realism of the physics, the different"
+    },
+    {
+      "start": 169.04,
+      "duration": 4.96,
+      "text": "styles that you can use. All of this is"
+    },
+    {
+      "start": 171.04,
+      "duration": 5.6,
+      "text": "now available to you for free. And next,"
+    },
+    {
+      "start": 174,
+      "duration": 5.04,
+      "text": "I just got back from CES. I attended"
+    },
+    {
+      "start": 176.64,
+      "duration": 4.879,
+      "text": "Jensen's keynote where he announced"
+    },
+    {
+      "start": 179.04,
+      "duration": 5.44,
+      "text": "multiple new products including this"
+    },
+    {
+      "start": 181.519,
+      "duration": 4.881,
+      "text": "absolute beast of a supercomput called"
+    },
+    {
+      "start": 184.48,
+      "duration": 4,
+      "text": "Reuben. This is their next generation"
+    },
+    {
+      "start": 186.4,
+      "duration": 3.68,
+      "text": "architecture. This is not consumer grade"
+    },
+    {
+      "start": 188.48,
+      "duration": 4,
+      "text": "hardware. This is what the hyperscalers"
+    },
+    {
+      "start": 190.08,
+      "duration": 4.96,
+      "text": "and model providers like OpenAI and"
+    },
+    {
+      "start": 192.48,
+      "duration": 4.64,
+      "text": "Enthropic and AWS. This is what they're"
+    },
+    {
+      "start": 195.04,
+      "duration": 6,
+      "text": "going to be buying. Rubin delivers up to"
+    },
+    {
+      "start": 197.12,
+      "duration": 6.64,
+      "text": "a 10x cost reduction in inference and a"
+    },
+    {
+      "start": 201.04,
+      "duration": 5.52,
+      "text": "4x reduction in the number of GPUs"
+    },
+    {
+      "start": 203.76,
+      "duration": 4.64,
+      "text": "required to train a mixture of experts"
+    },
+    {
+      "start": 206.56,
+      "duration": 3.599,
+      "text": "model. This is all compared to the"
+    },
+    {
+      "start": 208.4,
+      "duration": 4.16,
+      "text": "Blackwell platform, their current"
+    },
+    {
+      "start": 210.159,
+      "duration": 5.041,
+      "text": "Frontier supercomputer. It's also much"
+    },
+    {
+      "start": 212.56,
+      "duration": 4.48,
+      "text": "more power efficient and something that"
+    },
+    {
+      "start": 215.2,
+      "duration": 4.56,
+      "text": "kind of blew my mind, it doesn't even"
+    },
+    {
+      "start": 217.04,
+      "duration": 5.279,
+      "text": "require water coolers. It's basically"
+    },
+    {
+      "start": 219.76,
+      "duration": 5.039,
+      "text": "cooling the system with hot water. And"
+    },
+    {
+      "start": 222.319,
+      "duration": 4.56,
+      "text": "if that sounds weird, that is literally"
+    },
+    {
+      "start": 224.799,
+      "duration": 3.52,
+      "text": "what Jensen said. Look at this."
+    },
+    {
+      "start": 226.879,
+      "duration": 5.041,
+      "text": ">> Very importantly, the water that goes"
+    },
+    {
+      "start": 228.319,
+      "duration": 7.92,
+      "text": "into it is the same temperature, 45° C."
+    },
+    {
+      "start": 231.92,
+      "duration": 6.64,
+      "text": "With 45° C, no water chillers are"
+    },
+    {
+      "start": 236.239,
+      "duration": 5.441,
+      "text": "necessary for data centers. We're"
+    },
+    {
+      "start": 238.56,
+      "duration": 6.72,
+      "text": "basically cooling this supercomput with"
+    },
+    {
+      "start": 241.68,
+      "duration": 6.479,
+      "text": "hot water. Is so incredibly efficient."
+    },
+    {
+      "start": 245.28,
+      "duration": 7.2,
+      "text": "Each of these has 1,152"
+    },
+    {
+      "start": 248.159,
+      "duration": 7.36,
+      "text": "GPUs, which is just insane, and 16 racks"
+    },
+    {
+      "start": 252.48,
+      "duration": 5.999,
+      "text": "to power it all. Each rack has 72"
+    },
+    {
+      "start": 255.519,
+      "duration": 5.12,
+      "text": "Reubins. Elon Musk commented on this"
+    },
+    {
+      "start": 258.479,
+      "duration": 4.081,
+      "text": "expost. It will take another 9 months or"
+    },
+    {
+      "start": 260.639,
+      "duration": 4,
+      "text": "so before the hardware is operational at"
+    },
+    {
+      "start": 262.56,
+      "duration": 4.48,
+      "text": "scale, and the software works well. That"
+    },
+    {
+      "start": 264.639,
+      "duration": 4.56,
+      "text": "might be true, but it's already in"
+    },
+    {
+      "start": 267.04,
+      "duration": 4.64,
+      "text": "production. And they've greatly"
+    },
+    {
+      "start": 269.199,
+      "duration": 5.44,
+      "text": "simplified this machine. No cables, no"
+    },
+    {
+      "start": 271.68,
+      "duration": 5.84,
+      "text": "hoses, no fans. It is as close to being"
+    },
+    {
+      "start": 274.639,
+      "duration": 4.241,
+      "text": "cooled ambiently as you can be. And as I"
+    },
+    {
+      "start": 277.52,
+      "duration": 3.44,
+      "text": "mentioned, it's already in full"
+    },
+    {
+      "start": 278.88,
+      "duration": 4.56,
+      "text": "production and should be available later"
+    },
+    {
+      "start": 280.96,
+      "duration": 4.32,
+      "text": "this year to Nvidia's partners. And of"
+    },
+    {
+      "start": 283.44,
+      "duration": 4.56,
+      "text": "course, one of the biggest use cases for"
+    },
+    {
+      "start": 285.28,
+      "duration": 3.919,
+      "text": "all of this AI power is coding, which is"
+    },
+    {
+      "start": 288,
+      "duration": 4.08,
+      "text": "why I'm excited to tell you about"
+    },
+    {
+      "start": 289.199,
+      "duration": 4.881,
+      "text": "today's sponsor, Grapile. AI has gotten"
+    },
+    {
+      "start": 292.08,
+      "duration": 3.839,
+      "text": "pretty good at writing code, but what"
+    },
+    {
+      "start": 294.08,
+      "duration": 4.24,
+      "text": "you may not have realized is that with"
+    },
+    {
+      "start": 295.919,
+      "duration": 4.881,
+      "text": "the right tools, it can be really good"
+    },
+    {
+      "start": 298.32,
+      "duration": 5.12,
+      "text": "at reviewing code, too. That's where"
+    },
+    {
+      "start": 300.8,
+      "duration": 5.2,
+      "text": "Grapile comes in. Gretile is AI that"
+    },
+    {
+      "start": 303.44,
+      "duration": 5.28,
+      "text": "reviews all of your code automatically."
+    },
+    {
+      "start": 306,
+      "duration": 5.6,
+      "text": "And the GPile team has spent a lot of"
+    },
+    {
+      "start": 308.72,
+      "duration": 5.84,
+      "text": "time on this reviewing code problem. And"
+    },
+    {
+      "start": 311.6,
+      "duration": 5.92,
+      "text": "they showed me some incredible bugs and"
+    },
+    {
+      "start": 314.56,
+      "duration": 6,
+      "text": "errors and issues that Greile was able"
+    },
+    {
+      "start": 317.52,
+      "duration": 5.2,
+      "text": "to find that humans overlooked. In fact,"
+    },
+    {
+      "start": 320.56,
+      "duration": 3.919,
+      "text": "they have an entire page dedicated to"
+    },
+    {
+      "start": 322.72,
+      "duration": 4.479,
+      "text": "showing off some of those crazy"
+    },
+    {
+      "start": 324.479,
+      "duration": 4.961,
+      "text": "findings. And Gretile is completely free"
+    },
+    {
+      "start": 327.199,
+      "duration": 4.401,
+      "text": "for open source and has some massive"
+    },
+    {
+      "start": 329.44,
+      "duration": 4.72,
+      "text": "repos using it today, including Nvidia,"
+    },
+    {
+      "start": 331.6,
+      "duration": 4.319,
+      "text": "Postthog, Storybook, and more. So check"
+    },
+    {
+      "start": 334.16,
+      "duration": 3.52,
+      "text": "out Graptile. They're offering a 14-day"
+    },
+    {
+      "start": 335.919,
+      "duration": 3.921,
+      "text": "free trial right now. I'll drop a link"
+    },
+    {
+      "start": 337.68,
+      "duration": 4.239,
+      "text": "down below. Check them out to review all"
+    },
+    {
+      "start": 339.84,
+      "duration": 4.079,
+      "text": "of your code automatically, adding"
+    },
+    {
+      "start": 341.919,
+      "duration": 4,
+      "text": "another layer of confidence to your"
+    },
+    {
+      "start": 343.919,
+      "duration": 4.72,
+      "text": "deployment cycle. Now, back to the"
+    },
+    {
+      "start": 345.919,
+      "duration": 6.481,
+      "text": "video. And next, OpenAI is launching"
+    },
+    {
+      "start": 348.639,
+      "duration": 6.881,
+      "text": "ChatGpt Health, a major feature that, at"
+    },
+    {
+      "start": 352.4,
+      "duration": 5.68,
+      "text": "least for me, is very welcome. ChachiPT"
+    },
+    {
+      "start": 355.52,
+      "duration": 4.48,
+      "text": "health is a dedicated experience that"
+    },
+    {
+      "start": 358.08,
+      "duration": 4.8,
+      "text": "brings your health information into"
+    },
+    {
+      "start": 360,
+      "duration": 5.28,
+      "text": "CHACPT so that it could proactively give"
+    },
+    {
+      "start": 362.88,
+      "duration": 4.56,
+      "text": "you health recommendations. So you can"
+    },
+    {
+      "start": 365.28,
+      "duration": 5.199,
+      "text": "plug in things like your Whoop device if"
+    },
+    {
+      "start": 367.44,
+      "duration": 5.039,
+      "text": "you have that Oro ring Apple health and"
+    },
+    {
+      "start": 370.479,
+      "duration": 3.761,
+      "text": "all of this. You plug it into Chad GPT"
+    },
+    {
+      "start": 372.479,
+      "duration": 3.921,
+      "text": "and it will have all of that information"
+    },
+    {
+      "start": 374.24,
+      "duration": 4.799,
+      "text": "for whenever you ask it health related"
+    },
+    {
+      "start": 376.4,
+      "duration": 4.48,
+      "text": "questions but also if you want it to"
+    },
+    {
+      "start": 379.039,
+      "duration": 3.681,
+      "text": "proactively give you recommendations"
+    },
+    {
+      "start": 380.88,
+      "duration": 4.08,
+      "text": "about your health. You can connect your"
+    },
+    {
+      "start": 382.72,
+      "duration": 4.88,
+      "text": "medical records, wellness apps,"
+    },
+    {
+      "start": 384.96,
+      "duration": 4.799,
+      "text": "anything. I already use ChachiPT to help"
+    },
+    {
+      "start": 387.6,
+      "duration": 4.56,
+      "text": "me understand test results from my"
+    },
+    {
+      "start": 389.759,
+      "duration": 4.88,
+      "text": "doctor, scans, different things about my"
+    },
+    {
+      "start": 392.16,
+      "duration": 4.08,
+      "text": "health. I'm asking ChachiPT first. And"
+    },
+    {
+      "start": 394.639,
+      "duration": 3.68,
+      "text": "of course, I'm going to a human doctor,"
+    },
+    {
+      "start": 396.24,
+      "duration": 4.48,
+      "text": "but I want to arrive at the doctor's"
+    },
+    {
+      "start": 398.319,
+      "duration": 4.561,
+      "text": "office better informed. And so now"
+    },
+    {
+      "start": 400.72,
+      "duration": 4.16,
+      "text": "giving it access to my health data seems"
+    },
+    {
+      "start": 402.88,
+      "duration": 4.8,
+      "text": "like a natural next step. Now, I know a"
+    },
+    {
+      "start": 404.88,
+      "duration": 5.2,
+      "text": "lot of you are probably not so willing"
+    },
+    {
+      "start": 407.68,
+      "duration": 4.799,
+      "text": "or excited to share all of your health"
+    },
+    {
+      "start": 410.08,
+      "duration": 4,
+      "text": "data with OpenAI. And I kind of"
+    },
+    {
+      "start": 412.479,
+      "duration": 4.641,
+      "text": "understand that. And this is actually"
+    },
+    {
+      "start": 414.08,
+      "duration": 4.959,
+      "text": "where I think Apple might be just once"
+    },
+    {
+      "start": 417.12,
+      "duration": 4.079,
+      "text": "again getting in their own way. For"
+    },
+    {
+      "start": 419.039,
+      "duration": 4.481,
+      "text": "folks who use the Apple ecosystem, they"
+    },
+    {
+      "start": 421.199,
+      "duration": 4.72,
+      "text": "already have all of your health data"
+    },
+    {
+      "start": 423.52,
+      "duration": 4.079,
+      "text": "built into their Apple Health app, which"
+    },
+    {
+      "start": 425.919,
+      "duration": 4.4,
+      "text": "people seem to be very comfortable"
+    },
+    {
+      "start": 427.599,
+      "duration": 5.761,
+      "text": "sharing with Apple. And they are very"
+    },
+    {
+      "start": 430.319,
+      "duration": 4.72,
+      "text": "big on local artificial intelligence. So"
+    },
+    {
+      "start": 433.36,
+      "duration": 3.839,
+      "text": "AI running on your phone, on your"
+    },
+    {
+      "start": 435.039,
+      "duration": 3.921,
+      "text": "laptop. And so you can imagine a world"
+    },
+    {
+      "start": 437.199,
+      "duration": 4.081,
+      "text": "in which you don't actually have to"
+    },
+    {
+      "start": 438.96,
+      "duration": 5.2,
+      "text": "share your health data with a third"
+    },
+    {
+      "start": 441.28,
+      "duration": 5.28,
+      "text": "party like Chad GPT and Apple could use"
+    },
+    {
+      "start": 444.16,
+      "duration": 4.64,
+      "text": "its AI to give you those proactive"
+    },
+    {
+      "start": 446.56,
+      "duration": 4.639,
+      "text": "recommendations to answer your questions"
+    },
+    {
+      "start": 448.8,
+      "duration": 4.16,
+      "text": "about your health data without it ever"
+    },
+    {
+      "start": 451.199,
+      "duration": 3.921,
+      "text": "leaving your phone. But of course"
+    },
+    {
+      "start": 452.96,
+      "duration": 4.56,
+      "text": "they're not doing that at least not yet."
+    },
+    {
+      "start": 455.12,
+      "duration": 4.32,
+      "text": "And so that's where chatbt comes in. So"
+    },
+    {
+      "start": 457.52,
+      "duration": 4.16,
+      "text": "there is a wait list for this feature."
+    },
+    {
+      "start": 459.44,
+      "duration": 4.24,
+      "text": "It is available to essentially all the"
+    },
+    {
+      "start": 461.68,
+      "duration": 4.16,
+      "text": "plans. the free, the go, the plus, the"
+    },
+    {
+      "start": 463.68,
+      "duration": 5.12,
+      "text": "pro plans, all of them have it as soon"
+    },
+    {
+      "start": 465.84,
+      "duration": 6.079,
+      "text": "as it goes public with one big exception"
+    },
+    {
+      "start": 468.8,
+      "duration": 5.519,
+      "text": "and that's Europe. Of course, Europe has"
+    },
+    {
+      "start": 471.919,
+      "duration": 3.68,
+      "text": "much higher regulation and thus they're"
+    },
+    {
+      "start": 474.319,
+      "duration": 3.6,
+      "text": "not going to have this available, at"
+    },
+    {
+      "start": 475.599,
+      "duration": 4.801,
+      "text": "least not on day one. So, this is going"
+    },
+    {
+      "start": 477.919,
+      "duration": 4.881,
+      "text": "to operate as a completely separate area"
+    },
+    {
+      "start": 480.4,
+      "duration": 4.88,
+      "text": "in Chat GPT. And the thinking is to"
+    },
+    {
+      "start": 482.8,
+      "duration": 4.64,
+      "text": "increase privacy and security so that if"
+    },
+    {
+      "start": 485.28,
+      "duration": 3.68,
+      "text": "you happen to share a chat or you're"
+    },
+    {
+      "start": 487.44,
+      "duration": 3.439,
+      "text": "showing off your screen like I do all"
+    },
+    {
+      "start": 488.96,
+      "duration": 4.079,
+      "text": "the time, you won't accidentally share"
+    },
+    {
+      "start": 490.879,
+      "duration": 4.401,
+      "text": "your health information. And of course,"
+    },
+    {
+      "start": 493.039,
+      "duration": 4.641,
+      "text": "your health information is not used to"
+    },
+    {
+      "start": 495.28,
+      "duration": 4.4,
+      "text": "train the chat GBT models. So go sign up"
+    },
+    {
+      "start": 497.68,
+      "duration": 3.519,
+      "text": "for the weight list and hopefully we get"
+    },
+    {
+      "start": 499.68,
+      "duration": 3.199,
+      "text": "it soon. I haven't actually played"
+    },
+    {
+      "start": 501.199,
+      "duration": 3.68,
+      "text": "around with it. I just pinged my contact"
+    },
+    {
+      "start": 502.879,
+      "duration": 3.76,
+      "text": "at OpenAI. Hopefully I get access and"
+    },
+    {
+      "start": 504.879,
+      "duration": 3.841,
+      "text": "I'll show it off to you when I can. All"
+    },
+    {
+      "start": 506.639,
+      "duration": 4.081,
+      "text": "right. I mentioned that GPU prices might"
+    },
+    {
+      "start": 508.72,
+      "duration": 3.439,
+      "text": "be going up and yeah, they actually"
+    },
+    {
+      "start": 510.72,
+      "duration": 4.4,
+      "text": "might be. And it's all because of the"
+    },
+    {
+      "start": 512.159,
+      "duration": 6.32,
+      "text": "lack of inventory of memory, one of the"
+    },
+    {
+      "start": 515.12,
+      "duration": 6.399,
+      "text": "core components of GPUs. We might be"
+    },
+    {
+      "start": 518.479,
+      "duration": 4.641,
+      "text": "paying up to $5,000 for the latest"
+    },
+    {
+      "start": 521.519,
+      "duration": 4.241,
+      "text": "RTX5090."
+    },
+    {
+      "start": 523.12,
+      "duration": 4.24,
+      "text": "According to Newswire, Nvidia and AMD to"
+    },
+    {
+      "start": 525.76,
+      "duration": 3.84,
+      "text": "significantly increase GPU prices"
+    },
+    {
+      "start": 527.36,
+      "duration": 6,
+      "text": "starting next month. RTX 5090 increasing"
+    },
+    {
+      "start": 529.6,
+      "duration": 6.08,
+      "text": "from 2,000 to 5,000. However, there is a"
+    },
+    {
+      "start": 533.36,
+      "duration": 4.88,
+      "text": "community note on this post. Reports"
+    },
+    {
+      "start": 535.68,
+      "duration": 5.12,
+      "text": "suggest GPU prices might rise in early"
+    },
+    {
+      "start": 538.24,
+      "duration": 4.32,
+      "text": "2026 due to memory shortages and some"
+    },
+    {
+      "start": 540.8,
+      "duration": 4.96,
+      "text": "speculate high-end cards could fetch"
+    },
+    {
+      "start": 542.56,
+      "duration": 5.92,
+      "text": "$5,000, but neither Nvidia nor AMD has"
+    },
+    {
+      "start": 545.76,
+      "duration": 4.8,
+      "text": "officially confirmed these price hikes."
+    },
+    {
+      "start": 548.48,
+      "duration": 4.4,
+      "text": "But the rumors are happening and"
+    },
+    {
+      "start": 550.56,
+      "duration": 5.36,
+      "text": "somebody just asked Jensen about it"
+    },
+    {
+      "start": 552.88,
+      "duration": 6.32,
+      "text": "during the live Q&A at CES. Tom's"
+    },
+    {
+      "start": 555.92,
+      "duration": 5.2,
+      "text": "Hardware in response to these potential"
+    },
+    {
+      "start": 559.2,
+      "duration": 5.44,
+      "text": "price increases of the latest generation"
+    },
+    {
+      "start": 561.12,
+      "duration": 5.52,
+      "text": "GPUs asked Jensen specifically, do you"
+    },
+    {
+      "start": 564.64,
+      "duration": 4.96,
+      "text": "think that maybe spinning up production"
+    },
+    {
+      "start": 566.64,
+      "duration": 5.28,
+      "text": "on some of the older generation GPUs on"
+    },
+    {
+      "start": 569.6,
+      "duration": 4.64,
+      "text": "older process nodes where there might be"
+    },
+    {
+      "start": 571.92,
+      "duration": 4.24,
+      "text": "more available production capacity would"
+    },
+    {
+      "start": 574.24,
+      "duration": 3.599,
+      "text": "help with that? Or maybe also increasing"
+    },
+    {
+      "start": 576.16,
+      "duration": 3.679,
+      "text": "the supply of GPUs with lower amounts of"
+    },
+    {
+      "start": 577.839,
+      "duration": 4.481,
+      "text": "DRAM. Are there steps that could be"
+    },
+    {
+      "start": 579.839,
+      "duration": 4.641,
+      "text": "taken or any specific color you can give"
+    },
+    {
+      "start": 582.32,
+      "duration": 3.84,
+      "text": "on that? And Jensen said, \"Yeah,"
+    },
+    {
+      "start": 584.48,
+      "duration": 3.039,
+      "text": "possibly. And we could possibly,"
+    },
+    {
+      "start": 586.16,
+      "duration": 3.04,
+      "text": "depending on which generation, we could"
+    },
+    {
+      "start": 587.519,
+      "duration": 3.361,
+      "text": "also bring the latest generation AI"
+    },
+    {
+      "start": 589.2,
+      "duration": 3.84,
+      "text": "technology to the previous generation"
+    },
+    {
+      "start": 590.88,
+      "duration": 4.079,
+      "text": "GPUs, and that will require a fair"
+    },
+    {
+      "start": 593.04,
+      "duration": 3.6,
+      "text": "amount of engineering, but it's also"
+    },
+    {
+      "start": 594.959,
+      "duration": 2.88,
+      "text": "within the realm of possibility. I'll go"
+    },
+    {
+      "start": 596.64,
+      "duration": 3.36,
+      "text": "back and take a look at this. It's a"
+    },
+    {
+      "start": 597.839,
+      "duration": 4.401,
+      "text": "good idea.\" So, price increases"
+    },
+    {
+      "start": 600,
+      "duration": 4.24,
+      "text": "seemingly are coming. There's a few"
+    },
+    {
+      "start": 602.24,
+      "duration": 4.719,
+      "text": "different solutions that Nvidia is"
+    },
+    {
+      "start": 604.24,
+      "duration": 5.039,
+      "text": "exploring, but the entire industry is"
+    },
+    {
+      "start": 606.959,
+      "duration": 4.241,
+      "text": "feeling the pinch of memory shortages."
+    },
+    {
+      "start": 609.279,
+      "duration": 3.921,
+      "text": "So, if you don't already have a 5090 and"
+    },
+    {
+      "start": 611.2,
+      "duration": 4.319,
+      "text": "you want one, now is probably a good"
+    },
+    {
+      "start": 613.2,
+      "duration": 4,
+      "text": "time to get it. And next, in what I"
+    },
+    {
+      "start": 615.519,
+      "duration": 3.44,
+      "text": "thought was probably the coolest"
+    },
+    {
+      "start": 617.2,
+      "duration": 5.199,
+      "text": "announcement of all the announcements"
+    },
+    {
+      "start": 618.959,
+      "duration": 6,
+      "text": "that Nvidia made, Alpa Mayo, their model"
+    },
+    {
+      "start": 622.399,
+      "duration": 6,
+      "text": "and really full stack architecture for"
+    },
+    {
+      "start": 624.959,
+      "duration": 5.841,
+      "text": "autonomous vehicles. Now, why is this so"
+    },
+    {
+      "start": 628.399,
+      "duration": 4.56,
+      "text": "special? Well, first of all, it's just"
+    },
+    {
+      "start": 630.8,
+      "duration": 5.2,
+      "text": "really cool. Autonomous vehicles is so"
+    },
+    {
+      "start": 632.959,
+      "duration": 6.401,
+      "text": "futuristic. It is so cool. And Tesla and"
+    },
+    {
+      "start": 636,
+      "duration": 6.24,
+      "text": "Whimo work incredibly well. In fact, my"
+    },
+    {
+      "start": 639.36,
+      "duration": 5.44,
+      "text": "friend drove me in a Tesla from my house"
+    },
+    {
+      "start": 642.24,
+      "duration": 5.36,
+      "text": "to the airport and with one button drove"
+    },
+    {
+      "start": 644.8,
+      "duration": 5.599,
+      "text": "us the entire way. No disengagements. It"
+    },
+    {
+      "start": 647.6,
+      "duration": 5.04,
+      "text": "was truly impressive. Now, back to"
+    },
+    {
+      "start": 650.399,
+      "duration": 5.12,
+      "text": "Alpameo. And so, how did Tesla and how"
+    },
+    {
+      "start": 652.64,
+      "duration": 4.8,
+      "text": "did Whimo get so good? Well, they had"
+    },
+    {
+      "start": 655.519,
+      "duration": 4.961,
+      "text": "millions and millions of miles of"
+    },
+    {
+      "start": 657.44,
+      "duration": 6.399,
+      "text": "training data to train their models on."
+    },
+    {
+      "start": 660.48,
+      "duration": 6.4,
+      "text": "But that's where Alpameo really shines."
+    },
+    {
+      "start": 663.839,
+      "duration": 5.201,
+      "text": "Nvidia is not a car company. They don't"
+    },
+    {
+      "start": 666.88,
+      "duration": 4.399,
+      "text": "have millions of miles of data to train"
+    },
+    {
+      "start": 669.04,
+      "duration": 5.6,
+      "text": "their models on. So what did they do?"
+    },
+    {
+      "start": 671.279,
+      "duration": 6.56,
+      "text": "They used synthetic data. They generated"
+    },
+    {
+      "start": 674.64,
+      "duration": 5.36,
+      "text": "synthetic video clips of a car driving"
+    },
+    {
+      "start": 677.839,
+      "duration": 4.721,
+      "text": "around different cities and used that"
+    },
+    {
+      "start": 680,
+      "duration": 4.16,
+      "text": "synthetic data to train the models. So"
+    },
+    {
+      "start": 682.56,
+      "duration": 4.32,
+      "text": "they didn't need millions and millions"
+    },
+    {
+      "start": 684.16,
+      "duration": 4.88,
+      "text": "of real world miles. They simply use"
+    },
+    {
+      "start": 686.88,
+      "duration": 4.959,
+      "text": "synthetic data. Now what also makes this"
+    },
+    {
+      "start": 689.04,
+      "duration": 4.64,
+      "text": "special? It is completely open source."
+    },
+    {
+      "start": 691.839,
+      "duration": 3.68,
+      "text": "The models you can download. You can"
+    },
+    {
+      "start": 693.68,
+      "duration": 4.159,
+      "text": "play around with them. the entire stack"
+    },
+    {
+      "start": 695.519,
+      "duration": 4.401,
+      "text": "you can download. And basically, if you"
+    },
+    {
+      "start": 697.839,
+      "duration": 4.401,
+      "text": "own a car company, you can implement it"
+    },
+    {
+      "start": 699.92,
+      "duration": 4.24,
+      "text": "yourself. And it's also a reasoning"
+    },
+    {
+      "start": 702.24,
+      "duration": 4.08,
+      "text": "model. So, not only is it a vision"
+    },
+    {
+      "start": 704.16,
+      "duration": 4.239,
+      "text": "model, but it is a vision reasoning"
+    },
+    {
+      "start": 706.32,
+      "duration": 4.72,
+      "text": "model, which seems to be different from"
+    },
+    {
+      "start": 708.399,
+      "duration": 4.321,
+      "text": "Whimo and Tesla, but nothing confirmed"
+    },
+    {
+      "start": 711.04,
+      "duration": 3.52,
+      "text": "because those are completely closed"
+    },
+    {
+      "start": 712.72,
+      "duration": 3.76,
+      "text": "systems. According to the announcement,"
+    },
+    {
+      "start": 714.56,
+      "duration": 4.64,
+      "text": "Nvidia is the first to release an open"
+    },
+    {
+      "start": 716.48,
+      "duration": 5.039,
+      "text": "reasoning VLA, I think vision, language"
+    },
+    {
+      "start": 719.2,
+      "duration": 3.759,
+      "text": "action model designed to tackle longtail"
+    },
+    {
+      "start": 721.519,
+      "duration": 4.721,
+      "text": "autonomous driving challenges. This"
+    },
+    {
+      "start": 722.959,
+      "duration": 5.841,
+      "text": "Nvidia Alpameo family also includes"
+    },
+    {
+      "start": 726.24,
+      "duration": 5.36,
+      "text": "simulation tools and data sets for AV"
+    },
+    {
+      "start": 728.8,
+      "duration": 5.76,
+      "text": "development. It includes Alpameo 1, Alpa"
+    },
+    {
+      "start": 731.6,
+      "duration": 5.44,
+      "text": "SIM and physical AI open data sets"
+    },
+    {
+      "start": 734.56,
+      "duration": 4.64,
+      "text": "enable the development of vehicles that"
+    },
+    {
+      "start": 737.04,
+      "duration": 4,
+      "text": "perceive, reason, and act with"
+    },
+    {
+      "start": 739.2,
+      "duration": 3.68,
+      "text": "human-like judgment. And they actually"
+    },
+    {
+      "start": 741.04,
+      "duration": 4.88,
+      "text": "showed off their partnership with"
+    },
+    {
+      "start": 742.88,
+      "duration": 5.519,
+      "text": "Mercedes. And a Mercedes vehicle with"
+    },
+    {
+      "start": 745.92,
+      "duration": 4.64,
+      "text": "cameras only driving around San"
+    },
+    {
+      "start": 748.399,
+      "duration": 5.281,
+      "text": "Francisco quite successfully. And so"
+    },
+    {
+      "start": 750.56,
+      "duration": 6.719,
+      "text": "what Jensen said is Alpameo is an end"
+    },
+    {
+      "start": 753.68,
+      "duration": 5.92,
+      "text": "toend AI architecture. Video in,"
+    },
+    {
+      "start": 757.279,
+      "duration": 4.161,
+      "text": "actuation out, meaning it looks at the"
+    },
+    {
+      "start": 759.6,
+      "duration": 3.6,
+      "text": "world and then controls the steering"
+    },
+    {
+      "start": 761.44,
+      "duration": 4.24,
+      "text": "wheel and controls the acceleration and"
+    },
+    {
+      "start": 763.2,
+      "duration": 5.28,
+      "text": "the braking. It is so impressive and it"
+    },
+    {
+      "start": 765.68,
+      "duration": 5.12,
+      "text": "was trained using only 1,700 hours of"
+    },
+    {
+      "start": 768.48,
+      "duration": 5.039,
+      "text": "driving data, which is really not a lot,"
+    },
+    {
+      "start": 770.8,
+      "duration": 6.56,
+      "text": "but apparently it's really good. So, any"
+    },
+    {
+      "start": 773.519,
+      "duration": 7.201,
+      "text": "car company now can catch up to Tesla's"
+    },
+    {
+      "start": 777.36,
+      "duration": 5.84,
+      "text": "drastic lead in autonomous driving, but"
+    },
+    {
+      "start": 780.72,
+      "duration": 5.119,
+      "text": "I don't actually think they're going to."
+    },
+    {
+      "start": 783.2,
+      "duration": 5.04,
+      "text": "Some of these legacy auto manufacturers"
+    },
+    {
+      "start": 785.839,
+      "duration": 4.641,
+      "text": "just cannot get out of their own way."
+    },
+    {
+      "start": 788.24,
+      "duration": 4.719,
+      "text": "And so, even though all of these tools"
+    },
+    {
+      "start": 790.48,
+      "duration": 4.479,
+      "text": "are essentially free, obviously Nvidia"
+    },
+    {
+      "start": 792.959,
+      "duration": 3.601,
+      "text": "wants you to buy their GPUs to power it"
+    },
+    {
+      "start": 794.959,
+      "duration": 3.521,
+      "text": "all in the vehicle, I just don't think"
+    },
+    {
+      "start": 796.56,
+      "duration": 3.68,
+      "text": "they're going to be able to implement it"
+    },
+    {
+      "start": 798.48,
+      "duration": 3.76,
+      "text": "successfully. And it's also interesting"
+    },
+    {
+      "start": 800.24,
+      "duration": 4.64,
+      "text": "when you look at Tesla versus Whimo."
+    },
+    {
+      "start": 802.24,
+      "duration": 4.159,
+      "text": "Whimo uses LAR, radar, all of these"
+    },
+    {
+      "start": 804.88,
+      "duration": 4.8,
+      "text": "different sensors which are quite"
+    },
+    {
+      "start": 806.399,
+      "duration": 5.12,
+      "text": "expensive. And Tesla took a completely"
+    },
+    {
+      "start": 809.68,
+      "duration": 4.64,
+      "text": "stripped down approach. It is vision"
+    },
+    {
+      "start": 811.519,
+      "duration": 5.361,
+      "text": "only. It is cameras on the road making"
+    },
+    {
+      "start": 814.32,
+      "duration": 5.759,
+      "text": "decisions. And it seems like the Alpameo"
+    },
+    {
+      "start": 816.88,
+      "duration": 5.68,
+      "text": "system is more akin to that approach,"
+    },
+    {
+      "start": 820.079,
+      "duration": 5.601,
+      "text": "although I've been hearing it also can"
+    },
+    {
+      "start": 822.56,
+      "duration": 5.44,
+      "text": "use LAR. And next, breaking. At the time"
+    },
+    {
+      "start": 825.68,
+      "duration": 5.2,
+      "text": "of recording this video, Anthropic has"
+    },
+    {
+      "start": 828,
+      "duration": 4.399,
+      "text": "raised a new massive funding round."
+    },
+    {
+      "start": 830.88,
+      "duration": 4.16,
+      "text": "According to the Wall Street Journal,"
+    },
+    {
+      "start": 832.399,
+      "duration": 6.081,
+      "text": "Anthropic is raising $10 billion at a"
+    },
+    {
+      "start": 835.04,
+      "duration": 6.4,
+      "text": "$350 billion valuation. Now, for"
+    },
+    {
+      "start": 838.48,
+      "duration": 5.76,
+      "text": "context, Open AAI is at I think about a"
+    },
+    {
+      "start": 841.44,
+      "duration": 4.8,
+      "text": "$750 billion valuation. So, Anthropic is"
+    },
+    {
+      "start": 844.24,
+      "duration": 4.56,
+      "text": "coming in at just about half, but"
+    },
+    {
+      "start": 846.24,
+      "duration": 4.8,
+      "text": "Anthropic is nearly profitable. They are"
+    },
+    {
+      "start": 848.8,
+      "duration": 4,
+      "text": "generating a great amount of revenue."
+    },
+    {
+      "start": 851.04,
+      "duration": 4.4,
+      "text": "And so, this is a continuation of"
+    },
+    {
+      "start": 852.8,
+      "duration": 5.12,
+      "text": "Anthropic success. This is in addition"
+    },
+    {
+      "start": 855.44,
+      "duration": 5.12,
+      "text": "to the 15 billion that Nvidia and"
+    },
+    {
+      "start": 857.92,
+      "duration": 3.84,
+      "text": "Microsoft are investing in Anthropic."
+    },
+    {
+      "start": 860.56,
+      "duration": 3.44,
+      "text": "And if that sounds weird because"
+    },
+    {
+      "start": 861.76,
+      "duration": 5.12,
+      "text": "Microsoft is also invested in OpenAI,"
+    },
+    {
+      "start": 864,
+      "duration": 5.68,
+      "text": "well, so is Nvidia. They are just on a"
+    },
+    {
+      "start": 866.88,
+      "duration": 4.319,
+      "text": "bet on everything strategy. So that's it"
+    },
+    {
+      "start": 869.68,
+      "duration": 2.8,
+      "text": "for today. If you enjoyed this video,"
+    },
+    {
+      "start": 871.199,
+      "duration": 3.681,
+      "text": "please consider giving a like and"
+    },
+    {
+      "start": 872.48,
+      "duration": 2.4,
+      "text": "subscribe."
+    }
+  ],
+  "fullText": "We now have a fully open-source open weights texttovideo model. This is LTX2 and now it is completely open. You can download and run it on your local machine. Here's the announcement. The release makes a full LTX2 development stack publicly available. You get the model weights, both the main model and the distilled version, enabling local inference, fine-tuning, and production use across a range of hardware, which means you can download it and you can customize it for your own needs. They are also offering Laura adapters, so you get to see how they've customized the model for specific styles and tasks, and that might give you inspiration for how you might do it. They're also providing something called trainer, a modular training framework that includes multimodal data pipelines, reference configurations, multi-GPU support and evaluation tools. They are basically giving you the full stack to do anything you want with this texttovideo model. Really the first time we're ever getting this much support from a company. LTX2 is optimized for Nvidia machines and specifically it can run well on an RTX5090, but those chips might be getting pretty expensive very soon. More on that later. A few more things about this model. You can get up to 20 second generations, but you have control over the first and last frame. So, you can tie together these 20 second clips into however long you want. The special thing about LTX in particular is that it gives you kind of this storyboarding control as if you were sitting inside of a movie studio. With these 22nd generations, they are 4K and up to 50 frames per second. So very high quality. It also has very accurate lip sync. So obviously it comes with audio and you get incredibly fine grain control over everything including multi keyframe conditioning, Laura based customization, 3D camera logic and multimodal inputs including text, video, audio and more. So download the model, download the code, download the pipeline all from GitHub, from HuggingFace, run it locally. Of course, if you don't want to run it locally, you can use a cloud provider. And all of this is listed in this announcement. I'll link that down below. And LTX2 has already taken the number one spot on the artificial analysis open weights leaderboard. This is the number one video model that is also open source open weights. Go check it out. It's super cool. I'm thinking about making more videos, maybe a tutorial about how to plug it into Comfy UI. Let me know if you want to see that in the comments. And they even released a research paper detailing all of the techniques that they use to create this model. Here's a few demos of what you can actually get out of LTX. Look at the quality. Look at the detail. Look at the realism of the physics, the different styles that you can use. All of this is now available to you for free. And next, I just got back from CES. I attended Jensen's keynote where he announced multiple new products including this absolute beast of a supercomput called Reuben. This is their next generation architecture. This is not consumer grade hardware. This is what the hyperscalers and model providers like OpenAI and Enthropic and AWS. This is what they're going to be buying. Rubin delivers up to a 10x cost reduction in inference and a 4x reduction in the number of GPUs required to train a mixture of experts model. This is all compared to the Blackwell platform, their current Frontier supercomputer. It's also much more power efficient and something that kind of blew my mind, it doesn't even require water coolers. It's basically cooling the system with hot water. And if that sounds weird, that is literally what Jensen said. Look at this. >> Very importantly, the water that goes into it is the same temperature, 45° C. With 45° C, no water chillers are necessary for data centers. We're basically cooling this supercomput with hot water. Is so incredibly efficient. Each of these has 1,152 GPUs, which is just insane, and 16 racks to power it all. Each rack has 72 Reubins. Elon Musk commented on this expost. It will take another 9 months or so before the hardware is operational at scale, and the software works well. That might be true, but it's already in production. And they've greatly simplified this machine. No cables, no hoses, no fans. It is as close to being cooled ambiently as you can be. And as I mentioned, it's already in full production and should be available later this year to Nvidia's partners. And of course, one of the biggest use cases for all of this AI power is coding, which is why I'm excited to tell you about today's sponsor, Grapile. AI has gotten pretty good at writing code, but what you may not have realized is that with the right tools, it can be really good at reviewing code, too. That's where Grapile comes in. Gretile is AI that reviews all of your code automatically. And the GPile team has spent a lot of time on this reviewing code problem. And they showed me some incredible bugs and errors and issues that Greile was able to find that humans overlooked. In fact, they have an entire page dedicated to showing off some of those crazy findings. And Gretile is completely free for open source and has some massive repos using it today, including Nvidia, Postthog, Storybook, and more. So check out Graptile. They're offering a 14-day free trial right now. I'll drop a link down below. Check them out to review all of your code automatically, adding another layer of confidence to your deployment cycle. Now, back to the video. And next, OpenAI is launching ChatGpt Health, a major feature that, at least for me, is very welcome. ChachiPT health is a dedicated experience that brings your health information into CHACPT so that it could proactively give you health recommendations. So you can plug in things like your Whoop device if you have that Oro ring Apple health and all of this. You plug it into Chad GPT and it will have all of that information for whenever you ask it health related questions but also if you want it to proactively give you recommendations about your health. You can connect your medical records, wellness apps, anything. I already use ChachiPT to help me understand test results from my doctor, scans, different things about my health. I'm asking ChachiPT first. And of course, I'm going to a human doctor, but I want to arrive at the doctor's office better informed. And so now giving it access to my health data seems like a natural next step. Now, I know a lot of you are probably not so willing or excited to share all of your health data with OpenAI. And I kind of understand that. And this is actually where I think Apple might be just once again getting in their own way. For folks who use the Apple ecosystem, they already have all of your health data built into their Apple Health app, which people seem to be very comfortable sharing with Apple. And they are very big on local artificial intelligence. So AI running on your phone, on your laptop. And so you can imagine a world in which you don't actually have to share your health data with a third party like Chad GPT and Apple could use its AI to give you those proactive recommendations to answer your questions about your health data without it ever leaving your phone. But of course they're not doing that at least not yet. And so that's where chatbt comes in. So there is a wait list for this feature. It is available to essentially all the plans. the free, the go, the plus, the pro plans, all of them have it as soon as it goes public with one big exception and that's Europe. Of course, Europe has much higher regulation and thus they're not going to have this available, at least not on day one. So, this is going to operate as a completely separate area in Chat GPT. And the thinking is to increase privacy and security so that if you happen to share a chat or you're showing off your screen like I do all the time, you won't accidentally share your health information. And of course, your health information is not used to train the chat GBT models. So go sign up for the weight list and hopefully we get it soon. I haven't actually played around with it. I just pinged my contact at OpenAI. Hopefully I get access and I'll show it off to you when I can. All right. I mentioned that GPU prices might be going up and yeah, they actually might be. And it's all because of the lack of inventory of memory, one of the core components of GPUs. We might be paying up to $5,000 for the latest RTX5090. According to Newswire, Nvidia and AMD to significantly increase GPU prices starting next month. RTX 5090 increasing from 2,000 to 5,000. However, there is a community note on this post. Reports suggest GPU prices might rise in early 2026 due to memory shortages and some speculate high-end cards could fetch $5,000, but neither Nvidia nor AMD has officially confirmed these price hikes. But the rumors are happening and somebody just asked Jensen about it during the live Q&A at CES. Tom's Hardware in response to these potential price increases of the latest generation GPUs asked Jensen specifically, do you think that maybe spinning up production on some of the older generation GPUs on older process nodes where there might be more available production capacity would help with that? Or maybe also increasing the supply of GPUs with lower amounts of DRAM. Are there steps that could be taken or any specific color you can give on that? And Jensen said, \"Yeah, possibly. And we could possibly, depending on which generation, we could also bring the latest generation AI technology to the previous generation GPUs, and that will require a fair amount of engineering, but it's also within the realm of possibility. I'll go back and take a look at this. It's a good idea.\" So, price increases seemingly are coming. There's a few different solutions that Nvidia is exploring, but the entire industry is feeling the pinch of memory shortages. So, if you don't already have a 5090 and you want one, now is probably a good time to get it. And next, in what I thought was probably the coolest announcement of all the announcements that Nvidia made, Alpa Mayo, their model and really full stack architecture for autonomous vehicles. Now, why is this so special? Well, first of all, it's just really cool. Autonomous vehicles is so futuristic. It is so cool. And Tesla and Whimo work incredibly well. In fact, my friend drove me in a Tesla from my house to the airport and with one button drove us the entire way. No disengagements. It was truly impressive. Now, back to Alpameo. And so, how did Tesla and how did Whimo get so good? Well, they had millions and millions of miles of training data to train their models on. But that's where Alpameo really shines. Nvidia is not a car company. They don't have millions of miles of data to train their models on. So what did they do? They used synthetic data. They generated synthetic video clips of a car driving around different cities and used that synthetic data to train the models. So they didn't need millions and millions of real world miles. They simply use synthetic data. Now what also makes this special? It is completely open source. The models you can download. You can play around with them. the entire stack you can download. And basically, if you own a car company, you can implement it yourself. And it's also a reasoning model. So, not only is it a vision model, but it is a vision reasoning model, which seems to be different from Whimo and Tesla, but nothing confirmed because those are completely closed systems. According to the announcement, Nvidia is the first to release an open reasoning VLA, I think vision, language action model designed to tackle longtail autonomous driving challenges. This Nvidia Alpameo family also includes simulation tools and data sets for AV development. It includes Alpameo 1, Alpa SIM and physical AI open data sets enable the development of vehicles that perceive, reason, and act with human-like judgment. And they actually showed off their partnership with Mercedes. And a Mercedes vehicle with cameras only driving around San Francisco quite successfully. And so what Jensen said is Alpameo is an end toend AI architecture. Video in, actuation out, meaning it looks at the world and then controls the steering wheel and controls the acceleration and the braking. It is so impressive and it was trained using only 1,700 hours of driving data, which is really not a lot, but apparently it's really good. So, any car company now can catch up to Tesla's drastic lead in autonomous driving, but I don't actually think they're going to. Some of these legacy auto manufacturers just cannot get out of their own way. And so, even though all of these tools are essentially free, obviously Nvidia wants you to buy their GPUs to power it all in the vehicle, I just don't think they're going to be able to implement it successfully. And it's also interesting when you look at Tesla versus Whimo. Whimo uses LAR, radar, all of these different sensors which are quite expensive. And Tesla took a completely stripped down approach. It is vision only. It is cameras on the road making decisions. And it seems like the Alpameo system is more akin to that approach, although I've been hearing it also can use LAR. And next, breaking. At the time of recording this video, Anthropic has raised a new massive funding round. According to the Wall Street Journal, Anthropic is raising $10 billion at a $350 billion valuation. Now, for context, Open AAI is at I think about a $750 billion valuation. So, Anthropic is coming in at just about half, but Anthropic is nearly profitable. They are generating a great amount of revenue. And so, this is a continuation of Anthropic success. This is in addition to the 15 billion that Nvidia and Microsoft are investing in Anthropic. And if that sounds weird because Microsoft is also invested in OpenAI, well, so is Nvidia. They are just on a bet on everything strategy. So that's it for today. If you enjoyed this video, please consider giving a like and subscribe.",
+  "fetchedAt": "2026-01-18T18:32:28.018Z"
+}

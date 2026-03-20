@@ -1,0 +1,2874 @@
+{
+  "videoId": "Eq0XJy_AlDc",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.68,
+      "text": "That is at least my theory about the"
+    },
+    {
+      "start": 2,
+      "duration": 3.44,
+      "text": "theory of coding. It's the same as if"
+    },
+    {
+      "start": 3.84,
+      "duration": 3.84,
+      "text": "you had somebody doing it for you,"
+    },
+    {
+      "start": 5.44,
+      "duration": 3.68,
+      "text": "right? Like if you if you had a a dev"
+    },
+    {
+      "start": 7.68,
+      "duration": 2.959,
+      "text": "doing the work for you, if you delegated"
+    },
+    {
+      "start": 9.12,
+      "duration": 3.36,
+      "text": "it to somebody else, like you wouldn't"
+    },
+    {
+      "start": 10.639,
+      "duration": 3.681,
+      "text": "go into their work in progress code and"
+    },
+    {
+      "start": 12.48,
+      "duration": 3.52,
+      "text": "change one thing. You would wait until"
+    },
+    {
+      "start": 14.32,
+      "duration": 3.52,
+      "text": "the code review came in or you would"
+    },
+    {
+      "start": 16,
+      "duration": 3.68,
+      "text": "wait until the merge request came in or"
+    },
+    {
+      "start": 17.84,
+      "duration": 3.68,
+      "text": "whatever, but you would give them the"
+    },
+    {
+      "start": 19.68,
+      "duration": 3.439,
+      "text": "opportunity to do the thing you asked"
+    },
+    {
+      "start": 21.52,
+      "duration": 3.28,
+      "text": "them to do because you know that they"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.441,
+      "text": "spent the last 4 hours building this up"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.92,
+      "text": "in their mind. Claude does it in 20"
+    },
+    {
+      "start": 26.56,
+      "duration": 4.639,
+      "text": "seconds. People do it in a couple hours."
+    },
+    {
+      "start": 28.72,
+      "duration": 5.2,
+      "text": "And you wouldn't want to destroy this"
+    },
+    {
+      "start": 31.199,
+      "duration": 3.52,
+      "text": "this integrity of their their internal"
+    },
+    {
+      "start": 33.92,
+      "duration": 3.52,
+      "text": "representation."
+    },
+    {
+      "start": 34.719,
+      "duration": 5.52,
+      "text": ">> I love this 98%. That's how much of"
+    },
+    {
+      "start": 37.44,
+      "duration": 4.72,
+      "text": "Arvid Kal's code is written by AI. And"
+    },
+    {
+      "start": 40.239,
+      "duration": 4.32,
+      "text": "he's not just blindly accepting whatever"
+    },
+    {
+      "start": 42.16,
+      "duration": 4.559,
+      "text": "Claude spits out. He's built an entire"
+    },
+    {
+      "start": 44.559,
+      "duration": 4.32,
+      "text": "system to make sure that AI actually"
+    },
+    {
+      "start": 46.719,
+      "duration": 4,
+      "text": "understands his product. So, I invited"
+    },
+    {
+      "start": 48.879,
+      "duration": 4.16,
+      "text": "Arvid to join me today for the very"
+    },
+    {
+      "start": 50.719,
+      "duration": 4.081,
+      "text": "first installment of builder methods."
+    },
+    {
+      "start": 53.039,
+      "duration": 3.761,
+      "text": "It's a new series here on the channel"
+    },
+    {
+      "start": 54.8,
+      "duration": 4,
+      "text": "where I'm bringing on fellow builders to"
+    },
+    {
+      "start": 56.8,
+      "duration": 4.48,
+      "text": "share their screens and show us how they"
+    },
+    {
+      "start": 58.8,
+      "duration": 4.64,
+      "text": "actually work in this AI first era. And"
+    },
+    {
+      "start": 61.28,
+      "duration": 3.919,
+      "text": "so Arvid Khal is an indie founder. You"
+    },
+    {
+      "start": 63.44,
+      "duration": 4.08,
+      "text": "might know him from his build and public"
+    },
+    {
+      "start": 65.199,
+      "duration": 5.041,
+      "text": "journey which he shares regularly over"
+    },
+    {
+      "start": 67.52,
+      "duration": 5.36,
+      "text": "on Twitter and on his podcast. So Arvid"
+    },
+    {
+      "start": 70.24,
+      "duration": 4.879,
+      "text": "created a SAS product called Podscan."
+    },
+    {
+      "start": 72.88,
+      "duration": 3.84,
+      "text": "That's a podcast monitoring platform"
+    },
+    {
+      "start": 75.119,
+      "duration": 3.281,
+      "text": "which you can find out about at"
+    },
+    {
+      "start": 76.72,
+      "duration": 3.759,
+      "text": "podscan.fm."
+    },
+    {
+      "start": 78.4,
+      "duration": 5.039,
+      "text": "But what really caught my attention is"
+    },
+    {
+      "start": 80.479,
+      "duration": 4.801,
+      "text": "how he systemized his AI development"
+    },
+    {
+      "start": 83.439,
+      "duration": 4.561,
+      "text": "workflow. So in this episode, you're"
+    },
+    {
+      "start": 85.28,
+      "duration": 4.879,
+      "text": "going to see his actual IDE setup, how"
+    },
+    {
+      "start": 88,
+      "duration": 4,
+      "text": "he set up his claw.md file and his"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.841,
+      "text": "workspace. And what really impressed me"
+    },
+    {
+      "start": 92,
+      "duration": 3.92,
+      "text": "was Arvid's approach to platform"
+    },
+    {
+      "start": 94,
+      "duration": 4.159,
+      "text": "documentation where he literally"
+    },
+    {
+      "start": 95.92,
+      "duration": 4.559,
+      "text": "recorded video of himself walking"
+    },
+    {
+      "start": 98.159,
+      "duration": 4.401,
+      "text": "through his app like he's training a new"
+    },
+    {
+      "start": 100.479,
+      "duration": 4.241,
+      "text": "developer. And then he had Claude turn"
+    },
+    {
+      "start": 102.56,
+      "duration": 3.76,
+      "text": "his walkthroughs into docs. And you'll"
+    },
+    {
+      "start": 104.72,
+      "duration": 4.32,
+      "text": "also see us dig into this concept that"
+    },
+    {
+      "start": 106.32,
+      "duration": 4.72,
+      "text": "Arvid calls comprehension debt or why"
+    },
+    {
+      "start": 109.04,
+      "duration": 4.079,
+      "text": "you need to stay synced up with what AI"
+    },
+    {
+      "start": 111.04,
+      "duration": 3.68,
+      "text": "writes even when you're not writing the"
+    },
+    {
+      "start": 113.119,
+      "duration": 3.36,
+      "text": "code yourself. And by the way, if we"
+    },
+    {
+      "start": 114.72,
+      "duration": 3.2,
+      "text": "haven't met, I'm Brian Castle. I run"
+    },
+    {
+      "start": 116.479,
+      "duration": 3.28,
+      "text": "Builder Methods where I help"
+    },
+    {
+      "start": 117.92,
+      "duration": 4.08,
+      "text": "professional builders stay ahead of the"
+    },
+    {
+      "start": 119.759,
+      "duration": 4.241,
+      "text": "curve when it comes to building with AI."
+    },
+    {
+      "start": 122,
+      "duration": 4.64,
+      "text": "And every Friday, I send my builder"
+    },
+    {
+      "start": 124,
+      "duration": 4.479,
+      "text": "briefing. That's a free 5-minute read to"
+    },
+    {
+      "start": 126.64,
+      "duration": 2.88,
+      "text": "help keep you sharp in your craft. You"
+    },
+    {
+      "start": 128.479,
+      "duration": 3.201,
+      "text": "can get yours by going to"
+    },
+    {
+      "start": 129.52,
+      "duration": 3.68,
+      "text": "buildermethods.com. Now, you'll find the"
+    },
+    {
+      "start": 131.68,
+      "duration": 3.52,
+      "text": "notes for today's episode linked up"
+    },
+    {
+      "start": 133.2,
+      "duration": 3.679,
+      "text": "below. And if you're a Builder Methods"
+    },
+    {
+      "start": 135.2,
+      "duration": 4.16,
+      "text": "Pro member, then you'll get access to"
+    },
+    {
+      "start": 136.879,
+      "duration": 4.401,
+      "text": "the full unedited recording where Arvid"
+    },
+    {
+      "start": 139.36,
+      "duration": 3.84,
+      "text": "and I talked for over an hour and we"
+    },
+    {
+      "start": 141.28,
+      "duration": 4.72,
+      "text": "heard Arvid's story of how he made the"
+    },
+    {
+      "start": 143.2,
+      "duration": 6.08,
+      "text": "transition from a career as a full stack"
+    },
+    {
+      "start": 146,
+      "duration": 5.28,
+      "text": "developer into this AI first builder of"
+    },
+    {
+      "start": 149.28,
+      "duration": 3.76,
+      "text": "successful SAS products. Why don't you"
+    },
+    {
+      "start": 151.28,
+      "duration": 3.28,
+      "text": "share your screen if you would and I"
+    },
+    {
+      "start": 153.04,
+      "duration": 3.6,
+      "text": "want to get a lay of the land of like"
+    },
+    {
+      "start": 154.56,
+      "duration": 3.52,
+      "text": "what your like you come in every"
+    },
+    {
+      "start": 156.64,
+      "duration": 2.64,
+      "text": "morning, you you get to work. What does"
+    },
+    {
+      "start": 158.08,
+      "duration": 2.56,
+      "text": "your screen look like? What are you"
+    },
+    {
+      "start": 159.28,
+      "duration": 4.08,
+      "text": "looking at? What tools are are you"
+    },
+    {
+      "start": 160.64,
+      "duration": 5.04,
+      "text": "opening up first? Do you see the world's"
+    },
+    {
+      "start": 163.36,
+      "duration": 4.08,
+      "text": "most beautiful"
+    },
+    {
+      "start": 165.68,
+      "duration": 3.52,
+      "text": "all text PHP storm at this point? All"
+    },
+    {
+      "start": 167.44,
+      "duration": 3.92,
+      "text": "right. So, you're using PHP Storm."
+    },
+    {
+      "start": 169.2,
+      "duration": 3.84,
+      "text": "That's all I do. I have a browser window"
+    },
+    {
+      "start": 171.36,
+      "duration": 3.76,
+      "text": "with the application somewhere else. Um,"
+    },
+    {
+      "start": 173.04,
+      "duration": 3.44,
+      "text": "yeah, we might might share that too at"
+    },
+    {
+      "start": 175.12,
+      "duration": 4,
+      "text": "some point, but this is this is kind of"
+    },
+    {
+      "start": 176.48,
+      "duration": 5.36,
+      "text": "where PCan lives. It's a PHP Storm app."
+    },
+    {
+      "start": 179.12,
+      "duration": 4.64,
+      "text": "This up here, this this window is me"
+    },
+    {
+      "start": 181.84,
+      "duration": 4.319,
+      "text": "just having code or whatever. We we"
+    },
+    {
+      "start": 183.76,
+      "duration": 4,
+      "text": "currently see my my system prompt, which"
+    },
+    {
+      "start": 186.159,
+      "duration": 3.041,
+      "text": "is probably one of the most interesting"
+    },
+    {
+      "start": 187.76,
+      "duration": 3.68,
+      "text": "things I can share. And then on the"
+    },
+    {
+      "start": 189.2,
+      "duration": 4.08,
+      "text": "bottom here we have um you know vite is"
+    },
+    {
+      "start": 191.44,
+      "duration": 4.32,
+      "text": "running and rendering the application."
+    },
+    {
+      "start": 193.28,
+      "duration": 6.239,
+      "text": "There's a a kind of scheduler. There's a"
+    },
+    {
+      "start": 195.76,
+      "duration": 6.24,
+      "text": "queue because Laravel I I'm using um"
+    },
+    {
+      "start": 199.519,
+      "duration": 4.161,
+      "text": "horizon for like backend process manage"
+    },
+    {
+      "start": 202,
+      "duration": 4,
+      "text": "management and there's a lot of backend"
+    },
+    {
+      "start": 203.68,
+      "duration": 4.72,
+      "text": "process to manage which potan cuz it's"
+    },
+    {
+      "start": 206,
+      "duration": 4.159,
+      "text": "all this data flowing in and out um at"
+    },
+    {
+      "start": 208.4,
+      "duration": 2.64,
+      "text": "somebody else's leisure right somebody"
+    },
+    {
+      "start": 210.159,
+      "duration": 2.481,
+      "text": "releases a podcast [clears throat]"
+    },
+    {
+      "start": 211.04,
+      "duration": 3.36,
+      "text": "episode I need to deal with it. So"
+    },
+    {
+      "start": 212.64,
+      "duration": 4.8,
+      "text": "that's what hap what's happening here."
+    },
+    {
+      "start": 214.4,
+      "duration": 5.119,
+      "text": "Then uh what is this? There is uh"
+    },
+    {
+      "start": 217.44,
+      "duration": 4.96,
+      "text": "another this this is actually logs like"
+    },
+    {
+      "start": 219.519,
+      "duration": 5.521,
+      "text": "I I have my log streaming here and then"
+    },
+    {
+      "start": 222.4,
+      "duration": 5.28,
+      "text": "a little little window just a couple of"
+    },
+    {
+      "start": 225.04,
+      "duration": 5.919,
+      "text": "tiny uh prompts where I can do stuff"
+    },
+    {
+      "start": 227.68,
+      "duration": 4.72,
+      "text": "like uh artisan commands or or get push"
+    },
+    {
+      "start": 230.959,
+      "duration": 3.84,
+      "text": "stuff like that. All right, so Arvid's"
+    },
+    {
+      "start": 232.4,
+      "duration": 4.08,
+      "text": "about to show us his claw.md file which"
+    },
+    {
+      "start": 234.799,
+      "duration": 3.121,
+      "text": "is sort of like a system prompt that"
+    },
+    {
+      "start": 236.48,
+      "duration": 3.679,
+      "text": "sets the stage for everything that"
+    },
+    {
+      "start": 237.92,
+      "duration": 3.599,
+      "text": "claude code does in his codebase. So"
+    },
+    {
+      "start": 240.159,
+      "duration": 4,
+      "text": "what's interesting to pay attention to"
+    },
+    {
+      "start": 241.519,
+      "duration": 4.561,
+      "text": "here is his use of the augster library"
+    },
+    {
+      "start": 244.159,
+      "duration": 3.921,
+      "text": "which helps him dial in his system"
+    },
+    {
+      "start": 246.08,
+      "duration": 4.56,
+      "text": "prompt. It's basically a structured way"
+    },
+    {
+      "start": 248.08,
+      "duration": 5.04,
+      "text": "to ensure that AI is executing his tasks"
+    },
+    {
+      "start": 250.64,
+      "duration": 5.52,
+      "text": "consistently every single time. Pattern"
+    },
+    {
+      "start": 253.12,
+      "duration": 5.44,
+      "text": "I I use I talk about all the time and"
+    },
+    {
+      "start": 256.16,
+      "duration": 5.599,
+      "text": "that's just like really being specific"
+    },
+    {
+      "start": 258.56,
+      "duration": 4.639,
+      "text": "about instructing your agent to reuse"
+    },
+    {
+      "start": 261.759,
+      "duration": 2.561,
+      "text": "this cuz that's what we always do"
+    },
+    {
+      "start": 263.199,
+      "duration": 2.961,
+      "text": "especially when you're building on an"
+    },
+    {
+      "start": 264.32,
+      "duration": 2.56,
+      "text": "existing app. You're going to be reusing"
+    },
+    {
+      "start": 266.16,
+      "duration": 2.4,
+      "text": "UI."
+    },
+    {
+      "start": 266.88,
+      "duration": 4.24,
+      "text": ">> I have a couple things like this is my"
+    },
+    {
+      "start": 268.56,
+      "duration": 4.56,
+      "text": "cloud MD file. It is sizable. This is my"
+    },
+    {
+      "start": 271.12,
+      "duration": 4.4,
+      "text": "system prompt that has a lot of stuff in"
+    },
+    {
+      "start": 273.12,
+      "duration": 5.04,
+      "text": "there like code examples and and all"
+    },
+    {
+      "start": 275.52,
+      "duration": 4.56,
+      "text": "kinds of stuff. I was recommended to use"
+    },
+    {
+      "start": 278.16,
+      "duration": 3.759,
+      "text": "the Oxto system prompt. That's something"
+    },
+    {
+      "start": 280.08,
+      "duration": 4,
+      "text": "you might want to look into and maybe"
+    },
+    {
+      "start": 281.919,
+      "duration": 5.201,
+      "text": "even put if you can find it on GitHub"
+    },
+    {
+      "start": 284.08,
+      "duration": 5.44,
+      "text": "into uh the show notes here. This has"
+    },
+    {
+      "start": 287.12,
+      "duration": 5.12,
+      "text": "been an extremely helpful thing that"
+    },
+    {
+      "start": 289.52,
+      "duration": 4.08,
+      "text": "Oxar is is an AI coding assistant tool"
+    },
+    {
+      "start": 292.24,
+      "duration": 2.88,
+      "text": "and they have the system prompt that"
+    },
+    {
+      "start": 293.6,
+      "duration": 4.56,
+      "text": "they make you put into your project so"
+    },
+    {
+      "start": 295.12,
+      "duration": 6.56,
+      "text": "that then their tool which I don't use"
+    },
+    {
+      "start": 298.16,
+      "duration": 6.319,
+      "text": "can be more can can reliably use the"
+    },
+    {
+      "start": 301.68,
+      "duration": 4.48,
+      "text": "agentic loop whatever tool or whatever"
+    },
+    {
+      "start": 304.479,
+      "duration": 4.241,
+      "text": "agentic system you might use. This is"
+    },
+    {
+      "start": 306.16,
+      "duration": 7.36,
+      "text": "kind of a almost like a normalized CSS"
+    },
+    {
+      "start": 308.72,
+      "duration": 8,
+      "text": "but for um for agentic AI and this has"
+    },
+    {
+      "start": 313.52,
+      "duration": 4.88,
+      "text": "it is super important that you have uh"
+    },
+    {
+      "start": 316.72,
+      "duration": 3.68,
+      "text": "this this this what is it like the"
+    },
+    {
+      "start": 318.4,
+      "duration": 4.48,
+      "text": "golden rules and fundamental ethers of"
+    },
+    {
+      "start": 320.4,
+      "duration": 4.72,
+      "text": "of building code always just have"
+    },
+    {
+      "start": 322.88,
+      "duration": 5.12,
+      "text": "structured insightful thinking and be"
+    },
+    {
+      "start": 325.12,
+      "duration": 5.04,
+      "text": "proactive and autonomous execution like"
+    },
+    {
+      "start": 328,
+      "duration": 3.84,
+      "text": "this this thing is full of explaining to"
+    },
+    {
+      "start": 330.16,
+      "duration": 4.319,
+      "text": "the coding agent how a coding agent"
+    },
+    {
+      "start": 331.84,
+      "duration": 4.16,
+      "text": "should behave how to make good choices"
+    },
+    {
+      "start": 334.479,
+      "duration": 4.801,
+      "text": "and then it explains explains exactly"
+    },
+    {
+      "start": 336,
+      "duration": 5.759,
+      "text": "how it should take your prompt,"
+    },
+    {
+      "start": 339.28,
+      "duration": 4.96,
+      "text": "structure this into step-by-step"
+    },
+    {
+      "start": 341.759,
+      "duration": 4.641,
+      "text": "instructions, and then have a planning"
+    },
+    {
+      "start": 344.24,
+      "duration": 3.28,
+      "text": "workflow, how to stage the to stage the"
+    },
+    {
+      "start": 346.4,
+      "duration": 2.799,
+      "text": "planning, how to stage the"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.6,
+      "text": "implementation, how to verify."
+    },
+    {
+      "start": 349.199,
+      "duration": 4.321,
+      "text": ">> Oh, that's interesting. So, like I like"
+    },
+    {
+      "start": 351.12,
+      "duration": 4.72,
+      "text": "with with my uh agent OS framework that"
+    },
+    {
+      "start": 353.52,
+      "duration": 4.08,
+      "text": "that has like a lot of the uh like"
+    },
+    {
+      "start": 355.84,
+      "duration": 3.6,
+      "text": "putting like your your coding standards"
+    },
+    {
+      "start": 357.6,
+      "duration": 3.36,
+      "text": "and your own best practices and opinions"
+    },
+    {
+      "start": 359.44,
+      "duration": 3.44,
+      "text": "in there. But this,"
+    },
+    {
+      "start": 360.96,
+      "duration": 2.959,
+      "text": ">> as I understand it, does something a"
+    },
+    {
+      "start": 362.88,
+      "duration": 3.759,
+      "text": "little bit different. And it's sort of"
+    },
+    {
+      "start": 363.919,
+      "duration": 6.4,
+      "text": "instructing Claude code on how to"
+    },
+    {
+      "start": 366.639,
+      "duration": 6.241,
+      "text": "interpret your raw prompts. So you can"
+    },
+    {
+      "start": 370.319,
+      "duration": 4.241,
+      "text": "you can speak in a a a prompt and then"
+    },
+    {
+      "start": 372.88,
+      "duration": 3.84,
+      "text": "it's going to look to this"
+    },
+    {
+      "start": 374.56,
+      "duration": 4,
+      "text": ">> to sort of make sense of your ramblings."
+    },
+    {
+      "start": 376.72,
+      "duration": 3.84,
+      "text": ">> That's right. Like it takes it takes"
+    },
+    {
+      "start": 378.56,
+      "duration": 4.56,
+      "text": "whatever you say and it tries to fit it"
+    },
+    {
+      "start": 380.56,
+      "duration": 4.56,
+      "text": "into this structure which it then"
+    },
+    {
+      "start": 383.12,
+      "duration": 3.44,
+      "text": "facilitates. I mean a lot of this is"
+    },
+    {
+      "start": 385.12,
+      "duration": 4.639,
+      "text": "just made up stuff, right? You kind of"
+    },
+    {
+      "start": 386.56,
+      "duration": 4.8,
+      "text": "tell this story to the agent and if the"
+    },
+    {
+      "start": 389.759,
+      "duration": 3.761,
+      "text": "agent believes it then it behaves like"
+    },
+    {
+      "start": 391.36,
+      "duration": 3.92,
+      "text": "that. Did you ever think that we would"
+    },
+    {
+      "start": 393.52,
+      "duration": 2.48,
+      "text": "think about stuff like that in coding?"
+    },
+    {
+      "start": 395.28,
+      "duration": 1.759,
+      "text": ">> That's unbelievable."
+    },
+    {
+      "start": 396,
+      "duration": 2.8,
+      "text": ">> I'm narrative."
+    },
+    {
+      "start": 397.039,
+      "duration": 4.321,
+      "text": ">> What I was going to ask you before you"
+    },
+    {
+      "start": 398.8,
+      "duration": 5.36,
+      "text": "showed this part is like, do you ever do"
+    },
+    {
+      "start": 401.36,
+      "duration": 4.559,
+      "text": "any like drafts of prompts? Like this is"
+    },
+    {
+      "start": 404.16,
+      "duration": 3.36,
+      "text": "something that I I'm doing a lot. If I"
+    },
+    {
+      "start": 405.919,
+      "duration": 3.12,
+      "text": "have a prompt that's about that that"
+    },
+    {
+      "start": 407.52,
+      "duration": 2.959,
+      "text": "length of what you have, which I have"
+    },
+    {
+      "start": 409.039,
+      "duration": 4,
+      "text": "all the time,"
+    },
+    {
+      "start": 410.479,
+      "duration": 5.041,
+      "text": ">> I'm going to probably speak it into a"
+    },
+    {
+      "start": 413.039,
+      "duration": 4.561,
+      "text": "plain text file or into the clawed web"
+    },
+    {
+      "start": 415.52,
+      "duration": 4,
+      "text": "app and go back and forth and refine the"
+    },
+    {
+      "start": 417.6,
+      "duration": 3.999,
+      "text": "prompt. And then when once it's ready"
+    },
+    {
+      "start": 419.52,
+      "duration": 3.28,
+      "text": "and it has all the details that I want,"
+    },
+    {
+      "start": 421.599,
+      "duration": 3.681,
+      "text": "then I get it into cloud code."
+    },
+    {
+      "start": 422.8,
+      "duration": 4.48,
+      "text": ">> I I have a notion to-do thing here that"
+    },
+    {
+      "start": 425.28,
+      "duration": 3.84,
+      "text": "that has all my my to-dos and all the"
+    },
+    {
+      "start": 427.28,
+      "duration": 4.08,
+      "text": "to-dos that I will never get to. And"
+    },
+    {
+      "start": 429.12,
+      "duration": 4.88,
+      "text": "occasionally I just get it right in here"
+    },
+    {
+      "start": 431.36,
+      "duration": 5.279,
+      "text": "and then I edit it or add more. But if I"
+    },
+    {
+      "start": 434,
+      "duration": 4.319,
+      "text": "know it's a feature that has like like"
+    },
+    {
+      "start": 436.639,
+      "duration": 3.601,
+      "text": "this one here, right, that was just me"
+    },
+    {
+      "start": 438.319,
+      "duration": 3.761,
+      "text": "speaking for like 3 4 minutes. I know"
+    },
+    {
+      "start": 440.24,
+      "duration": 3.679,
+      "text": "exactly what I wanted it to do and it"
+    },
+    {
+      "start": 442.08,
+      "duration": 4.959,
+      "text": "was well scoped cuz it was just an admin"
+    },
+    {
+      "start": 443.919,
+      "duration": 4.881,
+      "text": "feature. I tend to just like speak it"
+    },
+    {
+      "start": 447.039,
+      "duration": 4.321,
+      "text": "right into the prompt here. Like I I"
+    },
+    {
+      "start": 448.8,
+      "duration": 4,
+      "text": "still speak I still uh dictate the"
+    },
+    {
+      "start": 451.36,
+      "duration": 3.76,
+      "text": "thing, but I put it right into the"
+    },
+    {
+      "start": 452.8,
+      "duration": 5.04,
+      "text": "prompt window and then it shows up as"
+    },
+    {
+      "start": 455.12,
+      "duration": 5.04,
+      "text": "this like I like I said this pasted text"
+    },
+    {
+      "start": 457.84,
+      "duration": 4.4,
+      "text": "one pasted text two plus eight lines,"
+    },
+    {
+      "start": 460.16,
+      "duration": 4.96,
+      "text": "right? That's just me. This is I think"
+    },
+    {
+      "start": 462.24,
+      "duration": 4.399,
+      "text": "two segments of me speaking and if it's"
+    },
+    {
+      "start": 465.12,
+      "duration": 3.12,
+      "text": "shorter it puts the full text in"
+    },
+    {
+      "start": 466.639,
+      "duration": 3.28,
+      "text": "otherwise it considers it a paste."
+    },
+    {
+      "start": 468.24,
+      "duration": 3.359,
+      "text": "That's how cloud code deals with"
+    },
+    {
+      "start": 469.919,
+      "duration": 4.081,
+      "text": ">> but the the the system prompt is is"
+    },
+    {
+      "start": 471.599,
+      "duration": 4.241,
+      "text": "critical because that governs like any"
+    },
+    {
+      "start": 474,
+      "duration": 3.919,
+      "text": "approach and you will see this like um"
+    },
+    {
+      "start": 475.84,
+      "duration": 4.88,
+      "text": "hopefully I can scroll here but this is"
+    },
+    {
+      "start": 477.919,
+      "duration": 5.361,
+      "text": "how it how it checks. This is how it uh"
+    },
+    {
+      "start": 480.72,
+      "duration": 4.08,
+      "text": "puts actual structure in here right it"
+    },
+    {
+      "start": 483.28,
+      "duration": 3.44,
+      "text": "says now executing the implementation"
+    },
+    {
+      "start": 484.8,
+      "duration": 4.72,
+      "text": "plan phase one core job implementation"
+    },
+    {
+      "start": 486.72,
+      "duration": 5.36,
+      "text": "it goes to 9.1.1 create this"
+    },
+    {
+      "start": 489.52,
+      "duration": 4.399,
+      "text": "prioritization job and then 9.1.2 to"
+    },
+    {
+      "start": 492.08,
+      "duration": 3.28,
+      "text": "imple implement the custoing ID based"
+    },
+    {
+      "start": 493.919,
+      "duration": 3.68,
+      "text": "chunking logic and then it goes through"
+    },
+    {
+      "start": 495.36,
+      "duration": 4,
+      "text": "all of this explains to me what it's"
+    },
+    {
+      "start": 497.599,
+      "duration": 5.121,
+      "text": "going to do and then it does it"
+    },
+    {
+      "start": 499.36,
+      "duration": 4,
+      "text": ">> that phased breakdown is driven by your"
+    },
+    {
+      "start": 502.72,
+      "duration": 2.72,
+      "text": "system"
+    },
+    {
+      "start": 503.36,
+      "duration": 2.64,
+      "text": ">> that is the first thing in the system"
+    },
+    {
+      "start": 505.44,
+      "duration": 2.879,
+      "text": "prompt yeah"
+    },
+    {
+      "start": 506,
+      "duration": 4.24,
+      "text": ">> which which like sort of interpreted the"
+    },
+    {
+      "start": 508.319,
+      "duration": 4.4,
+      "text": "content of your raw prompt"
+    },
+    {
+      "start": 510.24,
+      "duration": 6.32,
+      "text": ">> yeah it it reformats it into a a"
+    },
+    {
+      "start": 512.719,
+      "duration": 6.161,
+      "text": "normalized standard that then um it"
+    },
+    {
+      "start": 516.56,
+      "duration": 5.359,
+      "text": "treats as if it's part of a normalized"
+    },
+    {
+      "start": 518.88,
+      "duration": 5.2,
+      "text": "behavior and implements it and has a"
+    },
+    {
+      "start": 521.919,
+      "duration": 4.961,
+      "text": "output that is reliable and tells you"
+    },
+    {
+      "start": 524.08,
+      "duration": 4.879,
+      "text": "exactly what happened when and uh you"
+    },
+    {
+      "start": 526.88,
+      "duration": 3.68,
+      "text": "know it has its own verification step"
+    },
+    {
+      "start": 528.959,
+      "duration": 3.44,
+      "text": "and then at the end it has a summary"
+    },
+    {
+      "start": 530.56,
+      "duration": 4.08,
+      "text": "that it tells you exactly what it did"
+    },
+    {
+      "start": 532.399,
+      "duration": 4.961,
+      "text": "and then obviously it forgot something"
+    },
+    {
+      "start": 534.64,
+      "duration": 4.319,
+      "text": "because it's decoding and then it says"
+    },
+    {
+      "start": 537.36,
+      "duration": 2.72,
+      "text": "you are absolutely right and then it"
+    },
+    {
+      "start": 538.959,
+      "duration": 2.32,
+      "text": "fixed the thing and then it worked. All"
+    },
+    {
+      "start": 540.08,
+      "duration": 2.72,
+      "text": "right, now here's where it gets really"
+    },
+    {
+      "start": 541.279,
+      "duration": 3.521,
+      "text": "clever. Arvid didn't just write"
+    },
+    {
+      "start": 542.8,
+      "duration": 3.84,
+      "text": "documentation for his codebase. He"
+    },
+    {
+      "start": 544.8,
+      "duration": 4.479,
+      "text": "recorded video of himself walking"
+    },
+    {
+      "start": 546.64,
+      "duration": 4.639,
+      "text": "through Podcan like he was onboarding a"
+    },
+    {
+      "start": 549.279,
+      "duration": 4.321,
+      "text": "new developer on his team. And then he"
+    },
+    {
+      "start": 551.279,
+      "duration": 4.881,
+      "text": "had Claude turn those video transcripts"
+    },
+    {
+      "start": 553.6,
+      "duration": 4.48,
+      "text": "into structured platform documentation."
+    },
+    {
+      "start": 556.16,
+      "duration": 3.6,
+      "text": "It's like giving AI the same context"
+    },
+    {
+      "start": 558.08,
+      "duration": 3.84,
+      "text": "that a human teammate would get on their"
+    },
+    {
+      "start": 559.76,
+      "duration": 4.72,
+      "text": "first week. Watch how this plays out. I"
+    },
+    {
+      "start": 561.92,
+      "duration": 4.24,
+      "text": "have another document here in my let me"
+    },
+    {
+      "start": 564.48,
+      "duration": 4.64,
+      "text": "see my documents folder. It's called"
+    },
+    {
+      "start": 566.16,
+      "duration": 5.84,
+      "text": "platform docs. And this is uh the result"
+    },
+    {
+      "start": 569.12,
+      "duration": 4.88,
+      "text": "of me going like in a in a video that I"
+    },
+    {
+      "start": 572,
+      "duration": 4.08,
+      "text": "recorded through my whole platform and"
+    },
+    {
+      "start": 574,
+      "duration": 3.2,
+      "text": "explaining every single bit in in a"
+    },
+    {
+      "start": 576.08,
+      "duration": 2.8,
+      "text": "transcript and then I took the"
+    },
+    {
+      "start": 577.2,
+      "duration": 4.88,
+      "text": "transcript and I told Claude the web"
+    },
+    {
+      "start": 578.88,
+      "duration": 4.639,
+      "text": "version turn this into a markdown file"
+    },
+    {
+      "start": 582.08,
+      "duration": 3.199,
+      "text": "that explains every single thing about"
+    },
+    {
+      "start": 583.519,
+      "duration": 3.521,
+      "text": "this product. What I want it to be, who"
+    },
+    {
+      "start": 585.279,
+      "duration": 2.321,
+      "text": "it's for, what I said this is supposed"
+    },
+    {
+      "start": 587.04,
+      "duration": 2.799,
+      "text": "to do."
+    },
+    {
+      "start": 587.6,
+      "duration": 3.84,
+      "text": ">> I want to dig into this. So you you"
+    },
+    {
+      "start": 589.839,
+      "duration": 3.761,
+      "text": "recorded a video Yeah."
+    },
+    {
+      "start": 591.44,
+      "duration": 4.399,
+      "text": ">> of you walking through as if like you"
+    },
+    {
+      "start": 593.6,
+      "duration": 3.84,
+      "text": "have a a new developer sitting right"
+    },
+    {
+      "start": 595.839,
+      "duration": 3.841,
+      "text": "next to you. you're training this new"
+    },
+    {
+      "start": 597.44,
+      "duration": 4.32,
+      "text": "employee on your business, but you're"
+    },
+    {
+      "start": 599.68,
+      "duration": 4.56,
+      "text": "doing it on video. And even though like"
+    },
+    {
+      "start": 601.76,
+      "duration": 4.56,
+      "text": "Claude can't view your video, it can"
+    },
+    {
+      "start": 604.24,
+      "duration": 4.08,
+      "text": "just based on your transcript, it can"
+    },
+    {
+      "start": 606.32,
+      "duration": 3.44,
+      "text": "understand and and build like the"
+    },
+    {
+      "start": 608.32,
+      "duration": 3.12,
+      "text": "technical schema."
+    },
+    {
+      "start": 609.76,
+      "duration": 4.24,
+      "text": ">> That's exactly what it was. I took great"
+    },
+    {
+      "start": 611.44,
+      "duration": 3.6,
+      "text": "care to explain I'm now clicking on the"
+    },
+    {
+      "start": 614,
+      "duration": 1.76,
+      "text": "alerts."
+    },
+    {
+      "start": 615.04,
+      "duration": 2.64,
+      "text": ">> Oh, interesting."
+    },
+    {
+      "start": 615.76,
+      "duration": 3.6,
+      "text": ">> Right. And then uh on the left side you"
+    },
+    {
+      "start": 617.68,
+      "duration": 3.279,
+      "text": "will find or on the top you'll find the"
+    },
+    {
+      "start": 619.36,
+      "duration": 2.719,
+      "text": "latest mentions and all alerts. And then"
+    },
+    {
+      "start": 620.959,
+      "duration": 2.88,
+      "text": "if you click on this, you see the"
+    },
+    {
+      "start": 622.079,
+      "duration": 3.76,
+      "text": "alerts. And then I said if you click on"
+    },
+    {
+      "start": 623.839,
+      "duration": 4.081,
+      "text": "each alert or any alert you can then you"
+    },
+    {
+      "start": 625.839,
+      "duration": 4.24,
+      "text": "know get go into the alert uh view or"
+    },
+    {
+      "start": 627.92,
+      "duration": 4.8,
+      "text": "whatever. And from there it figured all"
+    },
+    {
+      "start": 630.079,
+      "duration": 5.681,
+      "text": "of this out. And each of these sections"
+    },
+    {
+      "start": 632.72,
+      "duration": 4.559,
+      "text": "has a clear explanation of uh what the"
+    },
+    {
+      "start": 635.76,
+      "duration": 3.36,
+      "text": "window does. When you've claimed the"
+    },
+    {
+      "start": 637.279,
+      "duration": 3.201,
+      "text": "podcast you gain the ability to edit its"
+    },
+    {
+      "start": 639.12,
+      "duration": 3.839,
+      "text": "information through the edit podcast"
+    },
+    {
+      "start": 640.48,
+      "duration": 4.72,
+      "text": "window. And then it shows what the tabs"
+    },
+    {
+      "start": 642.959,
+      "duration": 4.641,
+      "text": "do and what the data in those tabs is,"
+    },
+    {
+      "start": 645.2,
+      "duration": 4.079,
+      "text": "what flags, what values they might have."
+    },
+    {
+      "start": 647.6,
+      "duration": 3.52,
+      "text": "So I went through every single UI"
+    },
+    {
+      "start": 649.279,
+      "duration": 3.68,
+      "text": "component. It took me like yeah an hour"
+    },
+    {
+      "start": 651.12,
+      "duration": 4.32,
+      "text": "or so to go through every every one of"
+    },
+    {
+      "start": 652.959,
+      "duration": 4.961,
+      "text": "these and the transcript thrown into"
+    },
+    {
+      "start": 655.44,
+      "duration": 4.959,
+      "text": "clot with a prompt of make this cool"
+    },
+    {
+      "start": 657.92,
+      "duration": 4.4,
+      "text": "pretty much uh gave me this file and now"
+    },
+    {
+      "start": 660.399,
+      "duration": 4.321,
+      "text": "whenever I'm building something new or"
+    },
+    {
+      "start": 662.32,
+      "duration": 5.68,
+      "text": "I'm changing something I can say scan"
+    },
+    {
+      "start": 664.72,
+      "duration": 5.28,
+      "text": "the platform docs and see if this fits"
+    },
+    {
+      "start": 668,
+      "duration": 2.72,
+      "text": "where it would fit which gives it"
+    },
+    {
+      "start": 670,
+      "duration": 2.399,
+      "text": "coherence."
+    },
+    {
+      "start": 670.72,
+      "duration": 2.799,
+      "text": ">> Oh this this is great. This is I mean"
+    },
+    {
+      "start": 672.399,
+      "duration": 2.801,
+      "text": "this is like my favorite part of the"
+    },
+    {
+      "start": 673.519,
+      "duration": 3.361,
+      "text": "episode. Okay this next concept is"
+    },
+    {
+      "start": 675.2,
+      "duration": 4.4,
+      "text": "something that I think every developer"
+    },
+    {
+      "start": 676.88,
+      "duration": 4.8,
+      "text": "using AI tools needs to hear. Arvin"
+    },
+    {
+      "start": 679.6,
+      "duration": 3.919,
+      "text": "calls it comprehension debt. So here's"
+    },
+    {
+      "start": 681.68,
+      "duration": 4.399,
+      "text": "the problem. When Claude writes code for"
+    },
+    {
+      "start": 683.519,
+      "duration": 4.801,
+      "text": "you, it builds a temporary mental model,"
+    },
+    {
+      "start": 686.079,
+      "duration": 5.281,
+      "text": "a theory of how things work and then"
+    },
+    {
+      "start": 688.32,
+      "duration": 6.4,
+      "text": "that context just disappears. AI doesn't"
+    },
+    {
+      "start": 691.36,
+      "duration": 5.52,
+      "text": "remember, but you or your future agents"
+    },
+    {
+      "start": 694.72,
+      "duration": 3.679,
+      "text": "still need to maintain that code. So if"
+    },
+    {
+      "start": 696.88,
+      "duration": 3.36,
+      "text": "you're not reviewing what gets written,"
+    },
+    {
+      "start": 698.399,
+      "duration": 3.761,
+      "text": "you're accumulating this debt which"
+    },
+    {
+      "start": 700.24,
+      "duration": 3.839,
+      "text": "you'll have to pay back later. So let's"
+    },
+    {
+      "start": 702.16,
+      "duration": 3.2,
+      "text": "see how Arvid handles this. I wrote"
+    },
+    {
+      "start": 704.079,
+      "duration": 2.721,
+      "text": "about this and I talked about it in my"
+    },
+    {
+      "start": 705.36,
+      "duration": 2.8,
+      "text": "podcast a couple weeks ago. Like there's"
+    },
+    {
+      "start": 706.8,
+      "duration": 3.36,
+      "text": "something called comprehension debt"
+    },
+    {
+      "start": 708.16,
+      "duration": 3.679,
+      "text": "which is a form of technical debt. It's"
+    },
+    {
+      "start": 710.16,
+      "duration": 4.64,
+      "text": "like we before cloud code, before"
+    },
+    {
+      "start": 711.839,
+      "duration": 4.881,
+      "text": "agentic code, uh we we we had this"
+    },
+    {
+      "start": 714.8,
+      "duration": 3.2,
+      "text": "theory of our codebase in our minds"
+    },
+    {
+      "start": 716.72,
+      "duration": 2.559,
+      "text": "otherwise it wouldn't exist. Right?"
+    },
+    {
+      "start": 718,
+      "duration": 3.68,
+      "text": "That's the the first couple months of"
+    },
+    {
+      "start": 719.279,
+      "duration": 4.721,
+      "text": "pods was I knew exactly what pot was in"
+    },
+    {
+      "start": 721.68,
+      "duration": 4.24,
+      "text": "my brain and then I kind of coded it"
+    },
+    {
+      "start": 724,
+      "duration": 4.48,
+      "text": "into reality by putting it into this"
+    },
+    {
+      "start": 725.92,
+      "duration": 5.359,
+      "text": "this codebase. Now that cloud code is"
+    },
+    {
+      "start": 728.48,
+      "duration": 4.799,
+      "text": "working for me, um it has its own theory"
+    },
+    {
+      "start": 731.279,
+      "duration": 3.841,
+      "text": "of what the product is and that is the"
+    },
+    {
+      "start": 733.279,
+      "duration": 3.521,
+      "text": "mix of the system prompt and this this"
+    },
+    {
+      "start": 735.12,
+      "duration": 3.6,
+      "text": "platform docs and the com the comments"
+    },
+    {
+      "start": 736.8,
+      "duration": 4.24,
+      "text": "and the actual code. That is not"
+    },
+    {
+      "start": 738.72,
+      "duration": 4.16,
+      "text": "necessarily what I have in mind and it"
+    },
+    {
+      "start": 741.04,
+      "duration": 3.919,
+      "text": "could well be slightly different enough"
+    },
+    {
+      "start": 742.88,
+      "duration": 4.48,
+      "text": "that cloud code just does things"
+    },
+    {
+      "start": 744.959,
+      "duration": 4.161,
+      "text": "differently and changes the overall"
+    },
+    {
+      "start": 747.36,
+      "duration": 3.76,
+      "text": "actual theory of the codebase that is in"
+    },
+    {
+      "start": 749.12,
+      "duration": 4.8,
+      "text": "my mind is kind of desynchronized at"
+    },
+    {
+      "start": 751.12,
+      "duration": 5.519,
+      "text": "that moment. So I do this step so I can"
+    },
+    {
+      "start": 753.92,
+      "duration": 4.32,
+      "text": "recynchronize my theory of the codebase"
+    },
+    {
+      "start": 756.639,
+      "duration": 3.361,
+      "text": "that I have in my mind with what the"
+    },
+    {
+      "start": 758.24,
+      "duration": 3.68,
+      "text": "actual theory of the codebase is as"
+    },
+    {
+      "start": 760,
+      "duration": 4.56,
+      "text": "expressing code. Hope this makes sense."
+    },
+    {
+      "start": 761.92,
+      "duration": 4.08,
+      "text": "And if you don't do that then your"
+    },
+    {
+      "start": 764.56,
+      "duration": 3.279,
+      "text": "understanding of what the codebase is"
+    },
+    {
+      "start": 766,
+      "duration": 3.04,
+      "text": "drifts away from the actual codebase and"
+    },
+    {
+      "start": 767.839,
+      "duration": 3.521,
+      "text": "you end up with code you don't"
+    },
+    {
+      "start": 769.04,
+      "duration": 4.72,
+      "text": "understand. And the problem is that the"
+    },
+    {
+      "start": 771.36,
+      "duration": 4.4,
+      "text": "agentic coding system does not retain"
+    },
+    {
+      "start": 773.76,
+      "duration": 4.079,
+      "text": "the theory. like they built the theory"
+    },
+    {
+      "start": 775.76,
+      "duration": 4.879,
+      "text": "up like when I start this when I say"
+    },
+    {
+      "start": 777.839,
+      "duration": 4.24,
+      "text": "what I want and I hit enter cloud code"
+    },
+    {
+      "start": 780.639,
+      "duration": 4,
+      "text": "builds this internal theory of what the"
+    },
+    {
+      "start": 782.079,
+      "duration": 4.961,
+      "text": "codebase is it changes the code and then"
+    },
+    {
+      "start": 784.639,
+      "duration": 4.561,
+      "text": "it ends it says all changes are built"
+    },
+    {
+      "start": 787.04,
+      "duration": 5.2,
+      "text": "and ready and it discards the the"
+    },
+    {
+      "start": 789.2,
+      "duration": 5.28,
+      "text": "internal theory completely whatever it"
+    },
+    {
+      "start": 792.24,
+      "duration": 3.36,
+      "text": "was thinking the codebase was is"
+    },
+    {
+      "start": 794.48,
+      "duration": 2.88,
+      "text": "completely gone"
+    },
+    {
+      "start": 795.6,
+      "duration": 4.799,
+      "text": ">> yeah it has to like relearn that"
+    },
+    {
+      "start": 797.36,
+      "duration": 4.479,
+      "text": ">> with a person you can kind of ask them"
+    },
+    {
+      "start": 800.399,
+      "duration": 3.041,
+      "text": "what are you thinking here and then they"
+    },
+    {
+      "start": 801.839,
+      "duration": 2.961,
+      "text": "slowly rebuild it in their mind and they"
+    },
+    {
+      "start": 803.44,
+      "duration": 2.959,
+      "text": "go oh yeah that's what I was thinking"
+    },
+    {
+      "start": 804.8,
+      "duration": 4.4,
+      "text": "and then they tell you hopefully but"
+    },
+    {
+      "start": 806.399,
+      "duration": 5.12,
+      "text": "with cloud code it is unretrievable. It"
+    },
+    {
+      "start": 809.2,
+      "duration": 5.12,
+      "text": "will never come back. So I need to take"
+    },
+    {
+      "start": 811.519,
+      "duration": 4.241,
+      "text": "this step to rebuild this internally and"
+    },
+    {
+      "start": 814.32,
+      "duration": 4.079,
+      "text": "maybe adjust the comments or maybe"
+    },
+    {
+      "start": 815.76,
+      "duration": 4.96,
+      "text": "adjust my my prompt or whatever so that"
+    },
+    {
+      "start": 818.399,
+      "duration": 5.041,
+      "text": "there is like this unified theory of the"
+    },
+    {
+      "start": 820.72,
+      "duration": 5.44,
+      "text": "product that I have which is why I step"
+    },
+    {
+      "start": 823.44,
+      "duration": 4.16,
+      "text": "through each of these changes. I also"
+    },
+    {
+      "start": 826.16,
+      "duration": 4,
+      "text": "instruct and this is part of my system"
+    },
+    {
+      "start": 827.6,
+      "duration": 4.799,
+      "text": "prompt cloud code to write tests for"
+    },
+    {
+      "start": 830.16,
+      "duration": 3.84,
+      "text": "anything it does. I've never been a"
+    },
+    {
+      "start": 832.399,
+      "duration": 3.601,
+      "text": "tester. This is the first software"
+    },
+    {
+      "start": 834,
+      "duration": 3.44,
+      "text": "project that ever has amazing. Like I"
+    },
+    {
+      "start": 836,
+      "duration": 3.44,
+      "text": "I've I've gone through phases of being"
+    },
+    {
+      "start": 837.44,
+      "duration": 3.68,
+      "text": "like like over testing and then I just"
+    },
+    {
+      "start": 839.44,
+      "duration": 3.44,
+      "text": "got fed up with writing so many tests"
+    },
+    {
+      "start": 841.12,
+      "duration": 3.76,
+      "text": "and now now that we're here like I can"
+    },
+    {
+      "start": 842.88,
+      "duration": 2.48,
+      "text": "just have have Claude write tests for"
+    },
+    {
+      "start": 844.88,
+      "duration": 3.28,
+      "text": "everything."
+    },
+    {
+      "start": 845.36,
+      "duration": 6.08,
+      "text": ">> Claude has like I had zero tests a"
+    },
+    {
+      "start": 848.16,
+      "duration": 5.84,
+      "text": "couple months ago. This um current"
+    },
+    {
+      "start": 851.44,
+      "duration": 5.68,
+      "text": "incarnation of hot scan has like 3,500"
+    },
+    {
+      "start": 854,
+      "duration": 3.36,
+      "text": "tests with like 12 14,000 assertions in"
+    },
+    {
+      "start": 857.12,
+      "duration": 2.079,
+      "text": "there."
+    },
+    {
+      "start": 857.36,
+      "duration": 3.76,
+      "text": ">> And you're doing like test driven as"
+    },
+    {
+      "start": 859.199,
+      "duration": 3.601,
+      "text": "part of the original prompt or or doing"
+    },
+    {
+      "start": 861.12,
+      "duration": 3.76,
+      "text": "afterwards? I I do super delayed"
+    },
+    {
+      "start": 862.8,
+      "duration": 3.68,
+      "text": "test-driven development. I uh put things"
+    },
+    {
+      "start": 864.88,
+      "duration": 3.36,
+      "text": "into production and then 2 days later I"
+    },
+    {
+      "start": 866.48,
+      "duration": 3.52,
+      "text": "run the test occasionally like when I"
+    },
+    {
+      "start": 868.24,
+      "duration": 5.52,
+      "text": "when I know again like this is also when"
+    },
+    {
+      "start": 870,
+      "duration": 5.68,
+      "text": "I do the the git github uh co-pilot um"
+    },
+    {
+      "start": 873.76,
+      "duration": 3.439,
+      "text": "step through every change thing for"
+    },
+    {
+      "start": 875.68,
+      "duration": 3.76,
+      "text": "critical things for like really"
+    },
+    {
+      "start": 877.199,
+      "duration": 4.801,
+      "text": "important changes I run my tests before"
+    },
+    {
+      "start": 879.44,
+      "duration": 5.519,
+      "text": "I commit obviously and for for things"
+    },
+    {
+      "start": 882,
+      "duration": 5.68,
+      "text": "like this um I I could run the test now"
+    },
+    {
+      "start": 884.959,
+      "duration": 4.24,
+      "text": "but 10 minutes of I I don't really know"
+    },
+    {
+      "start": 887.68,
+      "duration": 3.68,
+      "text": "I'm touching files that I know nothing"
+    },
+    {
+      "start": 889.199,
+      "duration": 5.041,
+      "text": "else is touching it's fine. This is all"
+    },
+    {
+      "start": 891.36,
+      "duration": 5.12,
+      "text": "no side effects stuff, but usually I run"
+    },
+    {
+      "start": 894.24,
+      "duration": 5.2,
+      "text": "my tests before the larger things and I"
+    },
+    {
+      "start": 896.48,
+      "duration": 4.56,
+      "text": "instruct it to um run those tests"
+    },
+    {
+      "start": 899.44,
+      "duration": 3.04,
+      "text": "internally when they touch things that"
+    },
+    {
+      "start": 901.04,
+      "duration": 2.88,
+      "text": "already have tests,"
+    },
+    {
+      "start": 902.48,
+      "duration": 3.359,
+      "text": ">> right? That's that's what it does."
+    },
+    {
+      "start": 903.92,
+      "duration": 3.599,
+      "text": "That's the agentic loop too. Like it"
+    },
+    {
+      "start": 905.839,
+      "duration": 3.36,
+      "text": "goes in and checks is there a test for"
+    },
+    {
+      "start": 907.519,
+      "duration": 4.081,
+      "text": "this? Okay, I'm going to run it and see"
+    },
+    {
+      "start": 909.199,
+      "duration": 4.721,
+      "text": "if my implementation breaks it. If so,"
+    },
+    {
+      "start": 911.6,
+      "duration": 4.799,
+      "text": "let me see if I need to fix it. And if"
+    },
+    {
+      "start": 913.92,
+      "duration": 3.84,
+      "text": "not, well, then it asks me, it stops and"
+    },
+    {
+      "start": 916.399,
+      "duration": 3.44,
+      "text": "says, well, what should we do? And then"
+    },
+    {
+      "start": 917.76,
+      "duration": 5.6,
+      "text": "I they go in. If you had to like put a"
+    },
+    {
+      "start": 919.839,
+      "duration": 5.68,
+      "text": "number on it, uh, in like on average,"
+    },
+    {
+      "start": 923.36,
+      "duration": 4.88,
+      "text": "would you say that you're like what"
+    },
+    {
+      "start": 925.519,
+      "duration": 5.361,
+      "text": "percentage of the work of the code are"
+    },
+    {
+      "start": 928.24,
+      "duration": 6.24,
+      "text": "you letting not only letting cloud code"
+    },
+    {
+      "start": 930.88,
+      "duration": 5.36,
+      "text": "write, but like you are not touching it"
+    },
+    {
+      "start": 934.48,
+      "duration": 4.159,
+      "text": "when it goes to production? like how how"
+    },
+    {
+      "start": 936.24,
+      "duration": 4.159,
+      "text": "much at at this at the end of this phase"
+    },
+    {
+      "start": 938.639,
+      "duration": 5.2,
+      "text": "as you're getting ready to push to"
+    },
+    {
+      "start": 940.399,
+      "duration": 4.88,
+      "text": "production or before that how much are"
+    },
+    {
+      "start": 943.839,
+      "duration": 2.321,
+      "text": "you going into the codebase and saying"
+    },
+    {
+      "start": 945.279,
+      "duration": 2.24,
+      "text": "like you know what I'm just going to"
+    },
+    {
+      "start": 946.16,
+      "duration": 3.52,
+      "text": "write this part myself or I'm going to"
+    },
+    {
+      "start": 947.519,
+      "duration": 5.44,
+      "text": "polish this up myself and write it. So"
+    },
+    {
+      "start": 949.68,
+      "duration": 6.32,
+      "text": "hand touch code if I were to count it as"
+    },
+    {
+      "start": 952.959,
+      "duration": 4.721,
+      "text": "lines per day I could probably count on"
+    },
+    {
+      "start": 956,
+      "duration": 5.759,
+      "text": "one or two hands."
+    },
+    {
+      "start": 957.68,
+      "duration": 5.599,
+      "text": ">> Wow. it it is likely 98 99% of code that"
+    },
+    {
+      "start": 961.759,
+      "duration": 3.601,
+      "text": "I just allow it to write"
+    },
+    {
+      "start": 963.279,
+      "duration": 3.68,
+      "text": ">> because because even even the the small"
+    },
+    {
+      "start": 965.36,
+      "duration": 3.2,
+      "text": "tweaks like I I have a lot of small"
+    },
+    {
+      "start": 966.959,
+      "duration": 2.081,
+      "text": "tweaks that I then just ask cloud to"
+    },
+    {
+      "start": 968.56,
+      "duration": 1.6,
+      "text": "make for"
+    },
+    {
+      "start": 969.04,
+      "duration": 3.039,
+      "text": ">> that's exactly right you know"
+    },
+    {
+      "start": 970.16,
+      "duration": 3.84,
+      "text": ">> like oh no this should be a little bit"
+    },
+    {
+      "start": 972.079,
+      "duration": 3.68,
+      "text": "grayer than the other thing that's the"
+    },
+    {
+      "start": 974,
+      "duration": 3.279,
+      "text": "thing and this is either laziness or"
+    },
+    {
+      "start": 975.759,
+      "duration": 3.281,
+      "text": "genius or something in between I'm not"
+    },
+    {
+      "start": 977.279,
+      "duration": 3.601,
+      "text": "sure about it but it's like it's easier"
+    },
+    {
+      "start": 979.04,
+      "duration": 3.84,
+      "text": "for me to say no make it a little bit"
+    },
+    {
+      "start": 980.88,
+      "duration": 4.079,
+      "text": "more gray and then go back to the other"
+    },
+    {
+      "start": 982.88,
+      "duration": 4.079,
+      "text": "distraction that I have than to try and"
+    },
+    {
+      "start": 984.959,
+      "duration": 4.32,
+      "text": "get into the file like this particular"
+    },
+    {
+      "start": 986.959,
+      "duration": 4.24,
+      "text": "panel okay now This is this color. Okay."
+    },
+    {
+      "start": 989.279,
+      "duration": 3.36,
+      "text": "Well, it's like I need to change it. I"
+    },
+    {
+      "start": 991.199,
+      "duration": 3.44,
+      "text": "know that the change is literally one"
+    },
+    {
+      "start": 992.639,
+      "duration": 3.681,
+      "text": "line. I'd rather just ask cloud to do it"
+    },
+    {
+      "start": 994.639,
+      "duration": 3.041,
+      "text": ">> because it sometimes has um side effects"
+    },
+    {
+      "start": 996.32,
+      "duration": 3.04,
+      "text": "that I'm not considering. That's the"
+    },
+    {
+      "start": 997.68,
+      "duration": 3.76,
+      "text": "thing with the theory. That's and that's"
+    },
+    {
+      "start": 999.36,
+      "duration": 3.76,
+      "text": "maybe why this this uh this"
+    },
+    {
+      "start": 1001.44,
+      "duration": 3.519,
+      "text": "comprehension that is is a really"
+    },
+    {
+      "start": 1003.12,
+      "duration": 4.399,
+      "text": "relevant concept for us as developers"
+    },
+    {
+      "start": 1004.959,
+      "duration": 4.721,
+      "text": "with AI coding to understand the theory"
+    },
+    {
+      "start": 1007.519,
+      "duration": 4,
+      "text": "that Claude builds internally for the"
+    },
+    {
+      "start": 1009.68,
+      "duration": 4.079,
+      "text": "process of you running it for this"
+    },
+    {
+      "start": 1011.519,
+      "duration": 4.481,
+      "text": "particular feature is let's say"
+    },
+    {
+      "start": 1013.759,
+      "duration": 4.721,
+      "text": "internally complete. like Claude knows"
+    },
+    {
+      "start": 1016,
+      "duration": 4.48,
+      "text": "that this color here also is referenced"
+    },
+    {
+      "start": 1018.48,
+      "duration": 4.4,
+      "text": "somebody somewhere else like in an"
+    },
+    {
+      "start": 1020.48,
+      "duration": 5.199,
+      "text": "overlay or in a you know in a popup that"
+    },
+    {
+      "start": 1022.88,
+      "duration": 4.48,
+      "text": "it also has built for you. You as the"
+    },
+    {
+      "start": 1025.679,
+      "duration": 3.601,
+      "text": "person that sees it in the front end,"
+    },
+    {
+      "start": 1027.36,
+      "duration": 3.28,
+      "text": "you might not know. So when you say I'm"
+    },
+    {
+      "start": 1029.28,
+      "duration": 3.6,
+      "text": "going to go in here and I change this to"
+    },
+    {
+      "start": 1030.64,
+      "duration": 4.08,
+      "text": "a slightly different like purple or"
+    },
+    {
+      "start": 1032.88,
+      "duration": 3.919,
+      "text": "whatever, you might miss the other"
+    },
+    {
+      "start": 1034.72,
+      "duration": 3.52,
+      "text": "incarnation of purple. But when I say"
+    },
+    {
+      "start": 1036.799,
+      "duration": 2.88,
+      "text": "this purple needs to be a little bit"
+    },
+    {
+      "start": 1038.24,
+      "duration": 3.839,
+      "text": "less purple,"
+    },
+    {
+      "start": 1039.679,
+      "duration": 4.16,
+      "text": ">> Claude internally understands with its"
+    },
+    {
+      "start": 1042.079,
+      "duration": 3.521,
+      "text": "current temporary theory that this"
+    },
+    {
+      "start": 1043.839,
+      "duration": 2.641,
+      "text": "purple is in four locations. I need to"
+    },
+    {
+      "start": 1045.6,
+      "duration": 3.12,
+      "text": "change all four."
+    },
+    {
+      "start": 1046.48,
+      "duration": 2.72,
+      "text": ">> So it's so true. And I notic that I go"
+    },
+    {
+      "start": 1048.72,
+      "duration": 2.24,
+      "text": "in"
+    },
+    {
+      "start": 1049.2,
+      "duration": 3.52,
+      "text": ">> totally. And that I I notice this all"
+    },
+    {
+      "start": 1050.96,
+      "duration": 4.4,
+      "text": "the time when when it's like I know that"
+    },
+    {
+      "start": 1052.72,
+      "duration": 4.88,
+      "text": "the little tweak that I'm asking Claude"
+    },
+    {
+      "start": 1055.36,
+      "duration": 4.24,
+      "text": "or cursor to make for me, I know that"
+    },
+    {
+      "start": 1057.6,
+      "duration": 3.76,
+      "text": "it's so small. It's like one line and"
+    },
+    {
+      "start": 1059.6,
+      "duration": 3.28,
+      "text": "then and then I do that and then it"
+    },
+    {
+      "start": 1061.36,
+      "duration": 3.12,
+      "text": "found like three or more three or four"
+    },
+    {
+      "start": 1062.88,
+      "duration": 3.52,
+      "text": "more instances of like little fixes that"
+    },
+    {
+      "start": 1064.48,
+      "duration": 2.64,
+      "text": "I totally had no idea that that should"
+    },
+    {
+      "start": 1066.4,
+      "duration": 2.639,
+      "text": "have been fixed."
+    },
+    {
+      "start": 1067.12,
+      "duration": 4.24,
+      "text": ">> That is at least my theory about the"
+    },
+    {
+      "start": 1069.039,
+      "duration": 4.401,
+      "text": "theory of coding. Do not interfere"
+    },
+    {
+      "start": 1071.36,
+      "duration": 3.6,
+      "text": "manually with the internal. It's the"
+    },
+    {
+      "start": 1073.44,
+      "duration": 3.76,
+      "text": "same as if you had somebody doing it for"
+    },
+    {
+      "start": 1074.96,
+      "duration": 3.76,
+      "text": "you, right? Like if you if you had a a"
+    },
+    {
+      "start": 1077.2,
+      "duration": 3.2,
+      "text": "dev doing the work for you if you"
+    },
+    {
+      "start": 1078.72,
+      "duration": 3.28,
+      "text": "delegated it to somebody else like you"
+    },
+    {
+      "start": 1080.4,
+      "duration": 3.84,
+      "text": "wouldn't go into their work in progress"
+    },
+    {
+      "start": 1082,
+      "duration": 3.52,
+      "text": "code and change one thing. So two things"
+    },
+    {
+      "start": 1084.24,
+      "duration": 2.96,
+      "text": "really stood out to me from this"
+    },
+    {
+      "start": 1085.52,
+      "duration": 3.92,
+      "text": "conversation with Arvid. First, I"
+    },
+    {
+      "start": 1087.2,
+      "duration": 4.479,
+      "text": "noticed how much he's invested in his"
+    },
+    {
+      "start": 1089.44,
+      "duration": 4.16,
+      "text": "system prompts and documentation. That"
+    },
+    {
+      "start": 1091.679,
+      "duration": 3.521,
+      "text": "video to docs workflow that he showed"
+    },
+    {
+      "start": 1093.6,
+      "duration": 3.52,
+      "text": "us, that's not something that most"
+    },
+    {
+      "start": 1095.2,
+      "duration": 4.719,
+      "text": "builders are doing, but it's clearly"
+    },
+    {
+      "start": 1097.12,
+      "duration": 4.799,
+      "text": "what lets him hand off real work to AI"
+    },
+    {
+      "start": 1099.919,
+      "duration": 4.241,
+      "text": "with confidence. He's built himself a"
+    },
+    {
+      "start": 1101.919,
+      "duration": 4.321,
+      "text": "system that gives AI a holistic"
+    },
+    {
+      "start": 1104.16,
+      "duration": 3.759,
+      "text": "understanding of his product, and that"
+    },
+    {
+      "start": 1106.24,
+      "duration": 3.84,
+      "text": "seems to be what makes the difference."
+    },
+    {
+      "start": 1107.919,
+      "duration": 4.961,
+      "text": "Second is this idea of comprehension"
+    },
+    {
+      "start": 1110.08,
+      "duration": 5.2,
+      "text": "debt. When 98% of his code is AI"
+    },
+    {
+      "start": 1112.88,
+      "duration": 4.72,
+      "text": "written, Arvid stays in sync with what's"
+    },
+    {
+      "start": 1115.28,
+      "duration": 4.32,
+      "text": "being created. The AI builds a temporary"
+    },
+    {
+      "start": 1117.6,
+      "duration": 3.92,
+      "text": "theory, does its work, and then moves"
+    },
+    {
+      "start": 1119.6,
+      "duration": 4.16,
+      "text": "on. But he's the one maintaining that"
+    },
+    {
+      "start": 1121.52,
+      "duration": 4.399,
+      "text": "code 6 months from now, or his future"
+    },
+    {
+      "start": 1123.76,
+      "duration": 4.159,
+      "text": "agents are. So, he reviews what gets"
+    },
+    {
+      "start": 1125.919,
+      "duration": 3.841,
+      "text": "written, and keeps his mental model up"
+    },
+    {
+      "start": 1127.919,
+      "duration": 3.521,
+      "text": "to date. That's a discipline that's"
+    },
+    {
+      "start": 1129.76,
+      "duration": 3.84,
+      "text": "worth thinking about. Now, in my full"
+    },
+    {
+      "start": 1131.44,
+      "duration": 3.84,
+      "text": "unedited conversation with Arvid, we go"
+    },
+    {
+      "start": 1133.6,
+      "duration": 3.52,
+      "text": "deeper into his backstory of how he"
+    },
+    {
+      "start": 1135.28,
+      "duration": 4.639,
+      "text": "transitioned from being a full stack"
+    },
+    {
+      "start": 1137.12,
+      "duration": 4.48,
+      "text": "developer into this AI first SAS"
+    },
+    {
+      "start": 1139.919,
+      "duration": 3.681,
+      "text": "founder. So, if you want access to that,"
+    },
+    {
+      "start": 1141.6,
+      "duration": 3.6,
+      "text": "consider becoming a Builder Methods Pro"
+    },
+    {
+      "start": 1143.6,
+      "duration": 3.76,
+      "text": "member. You'll get access to all my"
+    },
+    {
+      "start": 1145.2,
+      "duration": 4.08,
+      "text": "interviews, all my workshops, our"
+    },
+    {
+      "start": 1147.36,
+      "duration": 4.08,
+      "text": "community of builders, and you'll access"
+    },
+    {
+      "start": 1149.28,
+      "duration": 4,
+      "text": "my library of courses on building with"
+    },
+    {
+      "start": 1151.44,
+      "duration": 4,
+      "text": "AI. You can join us by going to"
+    },
+    {
+      "start": 1153.28,
+      "duration": 4.399,
+      "text": "buildermethods.com/pro."
+    },
+    {
+      "start": 1155.44,
+      "duration": 4.72,
+      "text": "Now, Arvid was able to successfully make"
+    },
+    {
+      "start": 1157.679,
+      "duration": 5.521,
+      "text": "that transition from career full stack"
+    },
+    {
+      "start": 1160.16,
+      "duration": 4.32,
+      "text": "developer to fully AI first builder. And"
+    },
+    {
+      "start": 1163.2,
+      "duration": 3.92,
+      "text": "if you want to do the same, then you'll"
+    },
+    {
+      "start": 1164.48,
+      "duration": 4.64,
+      "text": "need to master a few key skills, some of"
+    },
+    {
+      "start": 1167.12,
+      "duration": 3.84,
+      "text": "which are new ones. So, I made a video"
+    },
+    {
+      "start": 1169.12,
+      "duration": 3.2,
+      "text": "all about that here. So, right after you"
+    },
+    {
+      "start": 1170.96,
+      "duration": 2.8,
+      "text": "hit subscribe on the channel, I'll see"
+    },
+    {
+      "start": 1172.32,
+      "duration": 3.92,
+      "text": "you over there next. Let's keep"
+    },
+    {
+      "start": 1173.76,
+      "duration": 2.48,
+      "text": "building."
+    }
+  ],
+  "fullText": "That is at least my theory about the theory of coding. It's the same as if you had somebody doing it for you, right? Like if you if you had a a dev doing the work for you, if you delegated it to somebody else, like you wouldn't go into their work in progress code and change one thing. You would wait until the code review came in or you would wait until the merge request came in or whatever, but you would give them the opportunity to do the thing you asked them to do because you know that they spent the last 4 hours building this up in their mind. Claude does it in 20 seconds. People do it in a couple hours. And you wouldn't want to destroy this this integrity of their their internal representation. >> I love this 98%. That's how much of Arvid Kal's code is written by AI. And he's not just blindly accepting whatever Claude spits out. He's built an entire system to make sure that AI actually understands his product. So, I invited Arvid to join me today for the very first installment of builder methods. It's a new series here on the channel where I'm bringing on fellow builders to share their screens and show us how they actually work in this AI first era. And so Arvid Khal is an indie founder. You might know him from his build and public journey which he shares regularly over on Twitter and on his podcast. So Arvid created a SAS product called Podscan. That's a podcast monitoring platform which you can find out about at podscan.fm. But what really caught my attention is how he systemized his AI development workflow. So in this episode, you're going to see his actual IDE setup, how he set up his claw.md file and his workspace. And what really impressed me was Arvid's approach to platform documentation where he literally recorded video of himself walking through his app like he's training a new developer. And then he had Claude turn his walkthroughs into docs. And you'll also see us dig into this concept that Arvid calls comprehension debt or why you need to stay synced up with what AI writes even when you're not writing the code yourself. And by the way, if we haven't met, I'm Brian Castle. I run Builder Methods where I help professional builders stay ahead of the curve when it comes to building with AI. And every Friday, I send my builder briefing. That's a free 5-minute read to help keep you sharp in your craft. You can get yours by going to buildermethods.com. Now, you'll find the notes for today's episode linked up below. And if you're a Builder Methods Pro member, then you'll get access to the full unedited recording where Arvid and I talked for over an hour and we heard Arvid's story of how he made the transition from a career as a full stack developer into this AI first builder of successful SAS products. Why don't you share your screen if you would and I want to get a lay of the land of like what your like you come in every morning, you you get to work. What does your screen look like? What are you looking at? What tools are are you opening up first? Do you see the world's most beautiful all text PHP storm at this point? All right. So, you're using PHP Storm. That's all I do. I have a browser window with the application somewhere else. Um, yeah, we might might share that too at some point, but this is this is kind of where PCan lives. It's a PHP Storm app. This up here, this this window is me just having code or whatever. We we currently see my my system prompt, which is probably one of the most interesting things I can share. And then on the bottom here we have um you know vite is running and rendering the application. There's a a kind of scheduler. There's a queue because Laravel I I'm using um horizon for like backend process manage management and there's a lot of backend process to manage which potan cuz it's all this data flowing in and out um at somebody else's leisure right somebody releases a podcast [clears throat] episode I need to deal with it. So that's what hap what's happening here. Then uh what is this? There is uh another this this is actually logs like I I have my log streaming here and then a little little window just a couple of tiny uh prompts where I can do stuff like uh artisan commands or or get push stuff like that. All right, so Arvid's about to show us his claw.md file which is sort of like a system prompt that sets the stage for everything that claude code does in his codebase. So what's interesting to pay attention to here is his use of the augster library which helps him dial in his system prompt. It's basically a structured way to ensure that AI is executing his tasks consistently every single time. Pattern I I use I talk about all the time and that's just like really being specific about instructing your agent to reuse this cuz that's what we always do especially when you're building on an existing app. You're going to be reusing UI. >> I have a couple things like this is my cloud MD file. It is sizable. This is my system prompt that has a lot of stuff in there like code examples and and all kinds of stuff. I was recommended to use the Oxto system prompt. That's something you might want to look into and maybe even put if you can find it on GitHub into uh the show notes here. This has been an extremely helpful thing that Oxar is is an AI coding assistant tool and they have the system prompt that they make you put into your project so that then their tool which I don't use can be more can can reliably use the agentic loop whatever tool or whatever agentic system you might use. This is kind of a almost like a normalized CSS but for um for agentic AI and this has it is super important that you have uh this this this what is it like the golden rules and fundamental ethers of of building code always just have structured insightful thinking and be proactive and autonomous execution like this this thing is full of explaining to the coding agent how a coding agent should behave how to make good choices and then it explains explains exactly how it should take your prompt, structure this into step-by-step instructions, and then have a planning workflow, how to stage the to stage the planning, how to stage the implementation, how to verify. >> Oh, that's interesting. So, like I like with with my uh agent OS framework that that has like a lot of the uh like putting like your your coding standards and your own best practices and opinions in there. But this, >> as I understand it, does something a little bit different. And it's sort of instructing Claude code on how to interpret your raw prompts. So you can you can speak in a a a prompt and then it's going to look to this >> to sort of make sense of your ramblings. >> That's right. Like it takes it takes whatever you say and it tries to fit it into this structure which it then facilitates. I mean a lot of this is just made up stuff, right? You kind of tell this story to the agent and if the agent believes it then it behaves like that. Did you ever think that we would think about stuff like that in coding? >> That's unbelievable. >> I'm narrative. >> What I was going to ask you before you showed this part is like, do you ever do any like drafts of prompts? Like this is something that I I'm doing a lot. If I have a prompt that's about that that length of what you have, which I have all the time, >> I'm going to probably speak it into a plain text file or into the clawed web app and go back and forth and refine the prompt. And then when once it's ready and it has all the details that I want, then I get it into cloud code. >> I I have a notion to-do thing here that that has all my my to-dos and all the to-dos that I will never get to. And occasionally I just get it right in here and then I edit it or add more. But if I know it's a feature that has like like this one here, right, that was just me speaking for like 3 4 minutes. I know exactly what I wanted it to do and it was well scoped cuz it was just an admin feature. I tend to just like speak it right into the prompt here. Like I I still speak I still uh dictate the thing, but I put it right into the prompt window and then it shows up as this like I like I said this pasted text one pasted text two plus eight lines, right? That's just me. This is I think two segments of me speaking and if it's shorter it puts the full text in otherwise it considers it a paste. That's how cloud code deals with >> but the the the system prompt is is critical because that governs like any approach and you will see this like um hopefully I can scroll here but this is how it how it checks. This is how it uh puts actual structure in here right it says now executing the implementation plan phase one core job implementation it goes to 9.1.1 create this prioritization job and then 9.1.2 to imple implement the custoing ID based chunking logic and then it goes through all of this explains to me what it's going to do and then it does it >> that phased breakdown is driven by your system >> that is the first thing in the system prompt yeah >> which which like sort of interpreted the content of your raw prompt >> yeah it it reformats it into a a normalized standard that then um it treats as if it's part of a normalized behavior and implements it and has a output that is reliable and tells you exactly what happened when and uh you know it has its own verification step and then at the end it has a summary that it tells you exactly what it did and then obviously it forgot something because it's decoding and then it says you are absolutely right and then it fixed the thing and then it worked. All right, now here's where it gets really clever. Arvid didn't just write documentation for his codebase. He recorded video of himself walking through Podcan like he was onboarding a new developer on his team. And then he had Claude turn those video transcripts into structured platform documentation. It's like giving AI the same context that a human teammate would get on their first week. Watch how this plays out. I have another document here in my let me see my documents folder. It's called platform docs. And this is uh the result of me going like in a in a video that I recorded through my whole platform and explaining every single bit in in a transcript and then I took the transcript and I told Claude the web version turn this into a markdown file that explains every single thing about this product. What I want it to be, who it's for, what I said this is supposed to do. >> I want to dig into this. So you you recorded a video Yeah. >> of you walking through as if like you have a a new developer sitting right next to you. you're training this new employee on your business, but you're doing it on video. And even though like Claude can't view your video, it can just based on your transcript, it can understand and and build like the technical schema. >> That's exactly what it was. I took great care to explain I'm now clicking on the alerts. >> Oh, interesting. >> Right. And then uh on the left side you will find or on the top you'll find the latest mentions and all alerts. And then if you click on this, you see the alerts. And then I said if you click on each alert or any alert you can then you know get go into the alert uh view or whatever. And from there it figured all of this out. And each of these sections has a clear explanation of uh what the window does. When you've claimed the podcast you gain the ability to edit its information through the edit podcast window. And then it shows what the tabs do and what the data in those tabs is, what flags, what values they might have. So I went through every single UI component. It took me like yeah an hour or so to go through every every one of these and the transcript thrown into clot with a prompt of make this cool pretty much uh gave me this file and now whenever I'm building something new or I'm changing something I can say scan the platform docs and see if this fits where it would fit which gives it coherence. >> Oh this this is great. This is I mean this is like my favorite part of the episode. Okay this next concept is something that I think every developer using AI tools needs to hear. Arvin calls it comprehension debt. So here's the problem. When Claude writes code for you, it builds a temporary mental model, a theory of how things work and then that context just disappears. AI doesn't remember, but you or your future agents still need to maintain that code. So if you're not reviewing what gets written, you're accumulating this debt which you'll have to pay back later. So let's see how Arvid handles this. I wrote about this and I talked about it in my podcast a couple weeks ago. Like there's something called comprehension debt which is a form of technical debt. It's like we before cloud code, before agentic code, uh we we we had this theory of our codebase in our minds otherwise it wouldn't exist. Right? That's the the first couple months of pods was I knew exactly what pot was in my brain and then I kind of coded it into reality by putting it into this this codebase. Now that cloud code is working for me, um it has its own theory of what the product is and that is the mix of the system prompt and this this platform docs and the com the comments and the actual code. That is not necessarily what I have in mind and it could well be slightly different enough that cloud code just does things differently and changes the overall actual theory of the codebase that is in my mind is kind of desynchronized at that moment. So I do this step so I can recynchronize my theory of the codebase that I have in my mind with what the actual theory of the codebase is as expressing code. Hope this makes sense. And if you don't do that then your understanding of what the codebase is drifts away from the actual codebase and you end up with code you don't understand. And the problem is that the agentic coding system does not retain the theory. like they built the theory up like when I start this when I say what I want and I hit enter cloud code builds this internal theory of what the codebase is it changes the code and then it ends it says all changes are built and ready and it discards the the internal theory completely whatever it was thinking the codebase was is completely gone >> yeah it has to like relearn that >> with a person you can kind of ask them what are you thinking here and then they slowly rebuild it in their mind and they go oh yeah that's what I was thinking and then they tell you hopefully but with cloud code it is unretrievable. It will never come back. So I need to take this step to rebuild this internally and maybe adjust the comments or maybe adjust my my prompt or whatever so that there is like this unified theory of the product that I have which is why I step through each of these changes. I also instruct and this is part of my system prompt cloud code to write tests for anything it does. I've never been a tester. This is the first software project that ever has amazing. Like I I've I've gone through phases of being like like over testing and then I just got fed up with writing so many tests and now now that we're here like I can just have have Claude write tests for everything. >> Claude has like I had zero tests a couple months ago. This um current incarnation of hot scan has like 3,500 tests with like 12 14,000 assertions in there. >> And you're doing like test driven as part of the original prompt or or doing afterwards? I I do super delayed test-driven development. I uh put things into production and then 2 days later I run the test occasionally like when I when I know again like this is also when I do the the git github uh co-pilot um step through every change thing for critical things for like really important changes I run my tests before I commit obviously and for for things like this um I I could run the test now but 10 minutes of I I don't really know I'm touching files that I know nothing else is touching it's fine. This is all no side effects stuff, but usually I run my tests before the larger things and I instruct it to um run those tests internally when they touch things that already have tests, >> right? That's that's what it does. That's the agentic loop too. Like it goes in and checks is there a test for this? Okay, I'm going to run it and see if my implementation breaks it. If so, let me see if I need to fix it. And if not, well, then it asks me, it stops and says, well, what should we do? And then I they go in. If you had to like put a number on it, uh, in like on average, would you say that you're like what percentage of the work of the code are you letting not only letting cloud code write, but like you are not touching it when it goes to production? like how how much at at this at the end of this phase as you're getting ready to push to production or before that how much are you going into the codebase and saying like you know what I'm just going to write this part myself or I'm going to polish this up myself and write it. So hand touch code if I were to count it as lines per day I could probably count on one or two hands. >> Wow. it it is likely 98 99% of code that I just allow it to write >> because because even even the the small tweaks like I I have a lot of small tweaks that I then just ask cloud to make for >> that's exactly right you know >> like oh no this should be a little bit grayer than the other thing that's the thing and this is either laziness or genius or something in between I'm not sure about it but it's like it's easier for me to say no make it a little bit more gray and then go back to the other distraction that I have than to try and get into the file like this particular panel okay now This is this color. Okay. Well, it's like I need to change it. I know that the change is literally one line. I'd rather just ask cloud to do it >> because it sometimes has um side effects that I'm not considering. That's the thing with the theory. That's and that's maybe why this this uh this comprehension that is is a really relevant concept for us as developers with AI coding to understand the theory that Claude builds internally for the process of you running it for this particular feature is let's say internally complete. like Claude knows that this color here also is referenced somebody somewhere else like in an overlay or in a you know in a popup that it also has built for you. You as the person that sees it in the front end, you might not know. So when you say I'm going to go in here and I change this to a slightly different like purple or whatever, you might miss the other incarnation of purple. But when I say this purple needs to be a little bit less purple, >> Claude internally understands with its current temporary theory that this purple is in four locations. I need to change all four. >> So it's so true. And I notic that I go in >> totally. And that I I notice this all the time when when it's like I know that the little tweak that I'm asking Claude or cursor to make for me, I know that it's so small. It's like one line and then and then I do that and then it found like three or more three or four more instances of like little fixes that I totally had no idea that that should have been fixed. >> That is at least my theory about the theory of coding. Do not interfere manually with the internal. It's the same as if you had somebody doing it for you, right? Like if you if you had a a dev doing the work for you if you delegated it to somebody else like you wouldn't go into their work in progress code and change one thing. So two things really stood out to me from this conversation with Arvid. First, I noticed how much he's invested in his system prompts and documentation. That video to docs workflow that he showed us, that's not something that most builders are doing, but it's clearly what lets him hand off real work to AI with confidence. He's built himself a system that gives AI a holistic understanding of his product, and that seems to be what makes the difference. Second is this idea of comprehension debt. When 98% of his code is AI written, Arvid stays in sync with what's being created. The AI builds a temporary theory, does its work, and then moves on. But he's the one maintaining that code 6 months from now, or his future agents are. So, he reviews what gets written, and keeps his mental model up to date. That's a discipline that's worth thinking about. Now, in my full unedited conversation with Arvid, we go deeper into his backstory of how he transitioned from being a full stack developer into this AI first SAS founder. So, if you want access to that, consider becoming a Builder Methods Pro member. You'll get access to all my interviews, all my workshops, our community of builders, and you'll access my library of courses on building with AI. You can join us by going to buildermethods.com/pro. Now, Arvid was able to successfully make that transition from career full stack developer to fully AI first builder. And if you want to do the same, then you'll need to master a few key skills, some of which are new ones. So, I made a video all about that here. So, right after you hit subscribe on the channel, I'll see you over there next. Let's keep building.",
+  "fetchedAt": "2026-01-19T16:19:33.037Z"
+}

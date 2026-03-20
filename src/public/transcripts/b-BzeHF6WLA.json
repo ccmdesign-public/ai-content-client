@@ -1,0 +1,1989 @@
+{
+  "videoId": "b-BzeHF6WLA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 5.04,
+      "text": "Okay, so in this video I'm going to talk"
+    },
+    {
+      "start": 2.24,
+      "duration": 4.8,
+      "text": "about a new initiative from Open AI and"
+    },
+    {
+      "start": 5.12,
+      "duration": 4.24,
+      "text": "how they're looking to support open"
+    },
+    {
+      "start": 7.04,
+      "duration": 4.719,
+      "text": "models. Is this a genuine thing that is"
+    },
+    {
+      "start": 9.36,
+      "duration": 4.72,
+      "text": "actually going to help open models or is"
+    },
+    {
+      "start": 11.759,
+      "duration": 4.401,
+      "text": "it just OpenAI trying to make a claim to"
+    },
+    {
+      "start": 14.08,
+      "duration": 3.76,
+      "text": "be more open? And then later on in the"
+    },
+    {
+      "start": 16.16,
+      "duration": 3.76,
+      "text": "video, I'm also going to show you how"
+    },
+    {
+      "start": 17.84,
+      "duration": 4.56,
+      "text": "this all works with code. I'm also going"
+    },
+    {
+      "start": 19.92,
+      "duration": 5.76,
+      "text": "to show you how Anthropic may have just"
+    },
+    {
+      "start": 22.4,
+      "duration": 6.08,
+      "text": "scooped Open AI on this open effort"
+    },
+    {
+      "start": 25.68,
+      "duration": 6.399,
+      "text": "without even trying. So recently I did a"
+    },
+    {
+      "start": 28.48,
+      "duration": 5.04,
+      "text": "video about Gemini's interactions API"
+    },
+    {
+      "start": 32.079,
+      "duration": 4.48,
+      "text": "and one of the things that people"
+    },
+    {
+      "start": 33.52,
+      "duration": 4.96,
+      "text": "pointed out there correctly so was that"
+    },
+    {
+      "start": 36.559,
+      "duration": 4.561,
+      "text": "there were similarities between the"
+    },
+    {
+      "start": 38.48,
+      "duration": 6,
+      "text": "Gemini interactions API and the"
+    },
+    {
+      "start": 41.12,
+      "duration": 5.04,
+      "text": "responses API built by OpenAI. But one"
+    },
+    {
+      "start": 44.48,
+      "duration": 4.48,
+      "text": "of the things I think the interactions"
+    },
+    {
+      "start": 46.16,
+      "duration": 5.919,
+      "text": "API really sort of showed is that many"
+    },
+    {
+      "start": 48.96,
+      "duration": 5.68,
+      "text": "of the frontier labs want to have their"
+    },
+    {
+      "start": 52.079,
+      "duration": 5.041,
+      "text": "own API endpoints and they want to"
+    },
+    {
+      "start": 54.64,
+      "duration": 4.48,
+      "text": "control how people are actually sending"
+    },
+    {
+      "start": 57.12,
+      "duration": 4.48,
+      "text": "things to the model. Now, this wasn't"
+    },
+    {
+      "start": 59.12,
+      "duration": 4.8,
+      "text": "the case a year or two ago when"
+    },
+    {
+      "start": 61.6,
+      "duration": 4.879,
+      "text": "everybody basically had to have an"
+    },
+    {
+      "start": 63.92,
+      "duration": 5.199,
+      "text": "OpenAI compatibility mode. And these"
+    },
+    {
+      "start": 66.479,
+      "duration": 5.441,
+      "text": "OpenAI compatibility modes were what"
+    },
+    {
+      "start": 69.119,
+      "duration": 6,
+      "text": "allowed you to basically use the OpenAI"
+    },
+    {
+      "start": 71.92,
+      "duration": 5.44,
+      "text": "API SDK and then use the chat"
+    },
+    {
+      "start": 75.119,
+      "duration": 4,
+      "text": "completions API. The thing I talked"
+    },
+    {
+      "start": 77.36,
+      "duration": 4.16,
+      "text": "about in the previous video though is"
+    },
+    {
+      "start": 79.119,
+      "duration": 5.281,
+      "text": "that really we've moved beyond that in"
+    },
+    {
+      "start": 81.52,
+      "duration": 6,
+      "text": "many ways. We're now after APIs that are"
+    },
+    {
+      "start": 84.4,
+      "duration": 5.759,
+      "text": "much more built for systems and agents"
+    },
+    {
+      "start": 87.52,
+      "duration": 4.239,
+      "text": "than just for simple chat completions."
+    },
+    {
+      "start": 90.159,
+      "duration": 4.481,
+      "text": "So, we haven't seen companies just"
+    },
+    {
+      "start": 91.759,
+      "duration": 6.641,
+      "text": "automatically support this new OpenAI"
+    },
+    {
+      "start": 94.64,
+      "duration": 6.72,
+      "text": "responses API for other models. In fact,"
+    },
+    {
+      "start": 98.4,
+      "duration": 5.92,
+      "text": "the API that has been the hottest lately"
+    },
+    {
+      "start": 101.36,
+      "duration": 5.68,
+      "text": "has been the Claude API. And this has"
+    },
+    {
+      "start": 104.32,
+      "duration": 4.799,
+      "text": "mostly been because of clawed code. And"
+    },
+    {
+      "start": 107.04,
+      "duration": 5.6,
+      "text": "a really good example of this is we've"
+    },
+    {
+      "start": 109.119,
+      "duration": 5.601,
+      "text": "seen some of the Chinese model providers"
+    },
+    {
+      "start": 112.64,
+      "duration": 4.24,
+      "text": "that were building models which they"
+    },
+    {
+      "start": 114.72,
+      "duration": 4.32,
+      "text": "claimed would work really well with"
+    },
+    {
+      "start": 116.88,
+      "duration": 6.239,
+      "text": "claude code and tools that were very"
+    },
+    {
+      "start": 119.04,
+      "duration": 7.759,
+      "text": "similar like rue clin open code gemini"
+    },
+    {
+      "start": 123.119,
+      "duration": 7.521,
+      "text": "cli etc have actually gone out and"
+    },
+    {
+      "start": 126.799,
+      "duration": 5.921,
+      "text": "supported a clawed API endpoint for"
+    },
+    {
+      "start": 130.64,
+      "duration": 4.56,
+      "text": "their particular models. We've seen this"
+    },
+    {
+      "start": 132.72,
+      "duration": 4.32,
+      "text": "from the team at Moonshot AI and we've"
+    },
+    {
+      "start": 135.2,
+      "duration": 4.72,
+      "text": "also seen it especially at places like"
+    },
+    {
+      "start": 137.04,
+      "duration": 5.199,
+      "text": "ZAI where they've actually gotten behind"
+    },
+    {
+      "start": 139.92,
+      "duration": 4.959,
+      "text": "this in a big way and been sort of"
+    },
+    {
+      "start": 142.239,
+      "duration": 5.201,
+      "text": "offering the equivalent of claude code"
+    },
+    {
+      "start": 144.879,
+      "duration": 4.961,
+      "text": "subscriptions where they make a clear"
+    },
+    {
+      "start": 147.44,
+      "duration": 4.799,
+      "text": "point that this is actually compatible"
+    },
+    {
+      "start": 149.84,
+      "duration": 4.399,
+      "text": "with claude code and with all these"
+    },
+    {
+      "start": 152.239,
+      "duration": 4.401,
+      "text": "other coding tools that are out there."
+    },
+    {
+      "start": 154.239,
+      "duration": 5.921,
+      "text": "So that brings us back to an initiative"
+    },
+    {
+      "start": 156.64,
+      "duration": 6.16,
+      "text": "started by open AI recently. So I would"
+    },
+    {
+      "start": 160.16,
+      "duration": 4.159,
+      "text": "say that in many ways OpenAI realized"
+    },
+    {
+      "start": 162.8,
+      "duration": 4.56,
+      "text": "that they're just not going to be able"
+    },
+    {
+      "start": 164.319,
+      "duration": 5.841,
+      "text": "to get everyone to adopt their responses"
+    },
+    {
+      "start": 167.36,
+      "duration": 5.44,
+      "text": "API like they would have liked. So what"
+    },
+    {
+      "start": 170.16,
+      "duration": 5.68,
+      "text": "they've proposed is this new API"
+    },
+    {
+      "start": 172.8,
+      "duration": 5.439,
+      "text": "standard called open responses. And the"
+    },
+    {
+      "start": 175.84,
+      "duration": 5.52,
+      "text": "idea here is to basically make it so"
+    },
+    {
+      "start": 178.239,
+      "duration": 6.241,
+      "text": "that models will be compatible with this"
+    },
+    {
+      "start": 181.36,
+      "duration": 5.92,
+      "text": "open responses standard for things like"
+    },
+    {
+      "start": 184.48,
+      "duration": 4.56,
+      "text": "tool calling perhaps even aentic uses"
+    },
+    {
+      "start": 187.28,
+      "duration": 4.48,
+      "text": "and systems and things like that that"
+    },
+    {
+      "start": 189.04,
+      "duration": 4.8,
+      "text": "are coming and also of course to be able"
+    },
+    {
+      "start": 191.76,
+      "duration": 4.96,
+      "text": "to actually support things like"
+    },
+    {
+      "start": 193.84,
+      "duration": 5.119,
+      "text": "multimodal inputs etc. And this has"
+    },
+    {
+      "start": 196.72,
+      "duration": 5.2,
+      "text": "certainly been a really big challenge"
+    },
+    {
+      "start": 198.959,
+      "duration": 4.961,
+      "text": "especially for open models. While it's"
+    },
+    {
+      "start": 201.92,
+      "duration": 3.92,
+      "text": "okay that Gemini has got their way of"
+    },
+    {
+      "start": 203.92,
+      "duration": 4.8,
+      "text": "doing it, Claude and Anthropic have got"
+    },
+    {
+      "start": 205.84,
+      "duration": 5.2,
+      "text": "their way, OpenAI has their way, people"
+    },
+    {
+      "start": 208.72,
+      "duration": 5.04,
+      "text": "don't really want to have to learn a new"
+    },
+    {
+      "start": 211.04,
+      "duration": 5.52,
+      "text": "way to do this for every single open"
+    },
+    {
+      "start": 213.76,
+      "duration": 4.16,
+      "text": "model that comes out. So in many ways, I"
+    },
+    {
+      "start": 216.56,
+      "duration": 3.2,
+      "text": "think this is a really good thing,"
+    },
+    {
+      "start": 217.92,
+      "duration": 4.959,
+      "text": "right? This is a new sort of open"
+    },
+    {
+      "start": 219.76,
+      "duration": 5.839,
+      "text": "standard for what an agentic API could"
+    },
+    {
+      "start": 222.879,
+      "duration": 5.121,
+      "text": "look like for interfacing with models"
+    },
+    {
+      "start": 225.599,
+      "duration": 5.841,
+      "text": "that can support out of the box things"
+    },
+    {
+      "start": 228,
+      "duration": 6.159,
+      "text": "like tool calls, streaming, multimodal"
+    },
+    {
+      "start": 231.44,
+      "duration": 5.2,
+      "text": "inputs, and as we can see here, it's"
+    },
+    {
+      "start": 234.159,
+      "duration": 5.36,
+      "text": "sort of multi-provider by default and"
+    },
+    {
+      "start": 236.64,
+      "duration": 6.48,
+      "text": "even allows model makers to actually"
+    },
+    {
+      "start": 239.519,
+      "duration": 5.601,
+      "text": "provide extra extendable features on top"
+    },
+    {
+      "start": 243.12,
+      "duration": 3.759,
+      "text": "of this without having to break the"
+    },
+    {
+      "start": 245.12,
+      "duration": 4.64,
+      "text": "whole standard. So, it's really good to"
+    },
+    {
+      "start": 246.879,
+      "duration": 5.44,
+      "text": "see from the start that this has quite a"
+    },
+    {
+      "start": 249.76,
+      "duration": 4.72,
+      "text": "number of community adopters in here."
+    },
+    {
+      "start": 252.319,
+      "duration": 5.281,
+      "text": "The big ones would be obviously hugging"
+    },
+    {
+      "start": 254.48,
+      "duration": 4.159,
+      "text": "face, but also people like Versel is"
+    },
+    {
+      "start": 257.6,
+      "duration": 3.44,
+      "text": "really interesting that they're getting"
+    },
+    {
+      "start": 258.639,
+      "duration": 4.721,
+      "text": "behind this. Open router, which I use a"
+    },
+    {
+      "start": 261.04,
+      "duration": 4.64,
+      "text": "lot for testing out different open"
+    },
+    {
+      "start": 263.36,
+      "duration": 4.72,
+      "text": "models that are either too big for me to"
+    },
+    {
+      "start": 265.68,
+      "duration": 4.48,
+      "text": "just spin up easily or if I want to just"
+    },
+    {
+      "start": 268.08,
+      "duration": 4.16,
+      "text": "try something out across a bunch of"
+    },
+    {
+      "start": 270.16,
+      "duration": 4.56,
+      "text": "different models. And one of the issues"
+    },
+    {
+      "start": 272.24,
+      "duration": 6,
+      "text": "there has been that you're often limited"
+    },
+    {
+      "start": 274.72,
+      "duration": 5.919,
+      "text": "to the old open AI API endpoints for"
+    },
+    {
+      "start": 278.24,
+      "duration": 3.76,
+      "text": "chat completion etc. Now the other ones"
+    },
+    {
+      "start": 280.639,
+      "duration": 5.681,
+      "text": "that I would say really sort of stand"
+    },
+    {
+      "start": 282,
+      "duration": 7.04,
+      "text": "out here are LM Studio, Olama and VLLM."
+    },
+    {
+      "start": 286.32,
+      "duration": 5.28,
+      "text": "So these are what people are often using"
+    },
+    {
+      "start": 289.04,
+      "duration": 5.439,
+      "text": "to either run models locally certainly"
+    },
+    {
+      "start": 291.6,
+      "duration": 4.56,
+      "text": "for Olama and LM Studio and for even"
+    },
+    {
+      "start": 294.479,
+      "duration": 4,
+      "text": "running models in the cloud with things"
+    },
+    {
+      "start": 296.16,
+      "duration": 3.92,
+      "text": "like VLM. My guess is based on this,"
+    },
+    {
+      "start": 298.479,
+      "duration": 3.681,
+      "text": "we'll start to see a lot of other"
+    },
+    {
+      "start": 300.08,
+      "duration": 4,
+      "text": "frameworks jump in and get involved in"
+    },
+    {
+      "start": 302.16,
+      "duration": 4.56,
+      "text": "this as well. Perhaps things like SG"
+    },
+    {
+      "start": 304.08,
+      "duration": 6.399,
+      "text": "Lang and it certainly would be nice to"
+    },
+    {
+      "start": 306.72,
+      "duration": 5.44,
+      "text": "see Google support this format for new"
+    },
+    {
+      "start": 310.479,
+      "duration": 3.921,
+      "text": "Gemma models and stuff like that that"
+    },
+    {
+      "start": 312.16,
+      "duration": 4.4,
+      "text": "they end up bringing out. So looking at"
+    },
+    {
+      "start": 314.4,
+      "duration": 4.48,
+      "text": "what's actually in the standard, there's"
+    },
+    {
+      "start": 316.56,
+      "duration": 4.72,
+      "text": "not a huge amount here that's new. If"
+    },
+    {
+      "start": 318.88,
+      "duration": 5.52,
+      "text": "you've actually used the responses API"
+    },
+    {
+      "start": 321.28,
+      "duration": 4.88,
+      "text": "from OpenAI, you will certainly see that"
+    },
+    {
+      "start": 324.4,
+      "duration": 4.079,
+      "text": "a lot of this is just clear sort of"
+    },
+    {
+      "start": 326.16,
+      "duration": 4.64,
+      "text": "mapping things across. But we do have"
+    },
+    {
+      "start": 328.479,
+      "duration": 5.361,
+      "text": "the whole sort of agentic loop idea"
+    },
+    {
+      "start": 330.8,
+      "duration": 5.839,
+      "text": "going on here. The concept of items"
+    },
+    {
+      "start": 333.84,
+      "duration": 5.44,
+      "text": "where items can represent anything from"
+    },
+    {
+      "start": 336.639,
+      "duration": 4.961,
+      "text": "sort of like a tool call, a reasoning"
+    },
+    {
+      "start": 339.28,
+      "duration": 4.16,
+      "text": "state beyond just a plain sort of chat"
+    },
+    {
+      "start": 341.6,
+      "duration": 4,
+      "text": "completion. And we can see when we look"
+    },
+    {
+      "start": 343.44,
+      "duration": 4.08,
+      "text": "at some of these items, there's not a"
+    },
+    {
+      "start": 345.6,
+      "duration": 4.48,
+      "text": "lot of surprising stuff in here, right?"
+    },
+    {
+      "start": 347.52,
+      "duration": 4.959,
+      "text": "We've got things like message items"
+    },
+    {
+      "start": 350.08,
+      "duration": 5.92,
+      "text": "which will have the whole sort of role"
+    },
+    {
+      "start": 352.479,
+      "duration": 6,
+      "text": "of assistant or user or system model"
+    },
+    {
+      "start": 356,
+      "duration": 4.24,
+      "text": "etc. We'll have function calling which"
+    },
+    {
+      "start": 358.479,
+      "duration": 3.041,
+      "text": "will have a name for the function the"
+    },
+    {
+      "start": 360.24,
+      "duration": 3.2,
+      "text": "arguments that are going to get passed"
+    },
+    {
+      "start": 361.52,
+      "duration": 4.56,
+      "text": "into that function. And we can see that"
+    },
+    {
+      "start": 363.44,
+      "duration": 5.199,
+      "text": "all this handles both streaming but also"
+    },
+    {
+      "start": 366.08,
+      "duration": 5.04,
+      "text": "then allows these items to actually"
+    },
+    {
+      "start": 368.639,
+      "duration": 4,
+      "text": "represent state of where we can see is"
+    },
+    {
+      "start": 371.12,
+      "duration": 3.44,
+      "text": "something in progress or is something"
+    },
+    {
+      "start": 372.639,
+      "duration": 3.68,
+      "text": "completed already. Another big thing"
+    },
+    {
+      "start": 374.56,
+      "duration": 3.759,
+      "text": "that we see here very clearly which I"
+    },
+    {
+      "start": 376.319,
+      "duration": 4.961,
+      "text": "think is going to help a lot of the open"
+    },
+    {
+      "start": 378.319,
+      "duration": 6.081,
+      "text": "models is how this has already got baked"
+    },
+    {
+      "start": 381.28,
+      "duration": 5.44,
+      "text": "into it how reasoning should be handled."
+    },
+    {
+      "start": 384.4,
+      "duration": 4.72,
+      "text": "So one of the frustrating things was as"
+    },
+    {
+      "start": 386.72,
+      "duration": 5.44,
+      "text": "some of the open models started to roll"
+    },
+    {
+      "start": 389.12,
+      "duration": 6.079,
+      "text": "out reasoning they often would approach"
+    },
+    {
+      "start": 392.16,
+      "duration": 5.44,
+      "text": "it in their API endpoints in a different"
+    },
+    {
+      "start": 395.199,
+      "duration": 4.56,
+      "text": "way than each other. So if you had one"
+    },
+    {
+      "start": 397.6,
+      "duration": 4.24,
+      "text": "set of code that worked for one model"
+    },
+    {
+      "start": 399.759,
+      "duration": 4.481,
+      "text": "and you could then easily hide the"
+    },
+    {
+      "start": 401.84,
+      "duration": 3.84,
+      "text": "reasoning tokens or process them in a"
+    },
+    {
+      "start": 404.24,
+      "duration": 3.679,
+      "text": "way that you wanted to actually show"
+    },
+    {
+      "start": 405.68,
+      "duration": 3.6,
+      "text": "them would work great for one model but"
+    },
+    {
+      "start": 407.919,
+      "duration": 3.12,
+      "text": "as soon as you then went to the next"
+    },
+    {
+      "start": 409.28,
+      "duration": 3.28,
+      "text": "model you would end up having to rewrite"
+    },
+    {
+      "start": 411.039,
+      "duration": 3.6,
+      "text": "how you actually going to get this stuff"
+    },
+    {
+      "start": 412.56,
+      "duration": 3.68,
+      "text": "to go. It's also so interesting in here"
+    },
+    {
+      "start": 414.639,
+      "duration": 3.761,
+      "text": "that out of the box this is not only"
+    },
+    {
+      "start": 416.24,
+      "duration": 5.679,
+      "text": "supporting the sort of raw reasoning"
+    },
+    {
+      "start": 418.4,
+      "duration": 5.28,
+      "text": "tokens but the summaries in here. So"
+    },
+    {
+      "start": 421.919,
+      "duration": 3.84,
+      "text": "many of you know I've been highly"
+    },
+    {
+      "start": 423.68,
+      "duration": 4.72,
+      "text": "critical of a lot of these companies is"
+    },
+    {
+      "start": 425.759,
+      "duration": 5.361,
+      "text": "that we don't get to see enough of the"
+    },
+    {
+      "start": 428.4,
+      "duration": 5.199,
+      "text": "realworld reasoning tokens and just see"
+    },
+    {
+      "start": 431.12,
+      "duration": 6.079,
+      "text": "how detailed they are on some of these"
+    },
+    {
+      "start": 433.599,
+      "duration": 6.081,
+      "text": "frontier lab models. All we get back are"
+    },
+    {
+      "start": 437.199,
+      "duration": 4.801,
+      "text": "summaries. So, I do find it in some ways"
+    },
+    {
+      "start": 439.68,
+      "duration": 4.639,
+      "text": "actually funny that they're showing here"
+    },
+    {
+      "start": 442,
+      "duration": 5.039,
+      "text": "like, okay, if you wanted to basically"
+    },
+    {
+      "start": 444.319,
+      "duration": 5.761,
+      "text": "just provide summaries of your reasoning"
+    },
+    {
+      "start": 447.039,
+      "duration": 5.521,
+      "text": "content and pass that back via the API,"
+    },
+    {
+      "start": 450.08,
+      "duration": 4.16,
+      "text": "this API automatically supports that out"
+    },
+    {
+      "start": 452.56,
+      "duration": 3.039,
+      "text": "of the box. Another thing that this"
+    },
+    {
+      "start": 454.24,
+      "duration": 5.2,
+      "text": "brings in, which I think we're going to"
+    },
+    {
+      "start": 455.599,
+      "duration": 6.88,
+      "text": "see a lot more in 2026, tools that are"
+    },
+    {
+      "start": 459.44,
+      "duration": 6,
+      "text": "internally hosted. So we've seen this"
+    },
+    {
+      "start": 462.479,
+      "duration": 5.201,
+      "text": "already in 2025 a lot from Google that"
+    },
+    {
+      "start": 465.44,
+      "duration": 5.12,
+      "text": "we've seen things like the Google search"
+    },
+    {
+      "start": 467.68,
+      "duration": 5.919,
+      "text": "tool. We've seen the different sandbox"
+    },
+    {
+      "start": 470.56,
+      "duration": 6,
+      "text": "tools of where you can run code server"
+    },
+    {
+      "start": 473.599,
+      "duration": 5.44,
+      "text": "side via a sandbox and stuff like that."
+    },
+    {
+      "start": 476.56,
+      "duration": 4.639,
+      "text": "Those internally hosted tools are"
+    },
+    {
+      "start": 479.039,
+      "duration": 4.88,
+      "text": "actually very different than returning"
+    },
+    {
+      "start": 481.199,
+      "duration": 5.68,
+      "text": "back a sort of function call to use an"
+    },
+    {
+      "start": 483.919,
+      "duration": 5.12,
+      "text": "external tool or an MCP or something"
+    },
+    {
+      "start": 486.879,
+      "duration": 5.76,
+      "text": "like that. And especially even with"
+    },
+    {
+      "start": 489.039,
+      "duration": 6.641,
+      "text": "people using serverside hosted MCPs or"
+    },
+    {
+      "start": 492.639,
+      "duration": 5.441,
+      "text": "making calls from the actual server side"
+    },
+    {
+      "start": 495.68,
+      "duration": 4.16,
+      "text": "of the model provider, it's good to see"
+    },
+    {
+      "start": 498.08,
+      "duration": 4.16,
+      "text": "that these are both supported in this"
+    },
+    {
+      "start": 499.84,
+      "duration": 4.16,
+      "text": "open spec here. Also having things out"
+    },
+    {
+      "start": 502.24,
+      "duration": 3.519,
+      "text": "of the box like tool choice where you"
+    },
+    {
+      "start": 504,
+      "duration": 4.96,
+      "text": "can define what tools this is going to"
+    },
+    {
+      "start": 505.759,
+      "duration": 6.64,
+      "text": "use or you can define that it will not"
+    },
+    {
+      "start": 508.96,
+      "duration": 5.04,
+      "text": "use tools or it must use tools. This is"
+    },
+    {
+      "start": 512.399,
+      "duration": 4.161,
+      "text": "something that in many ways the open"
+    },
+    {
+      "start": 514,
+      "duration": 4.959,
+      "text": "models haven't really gotten behind, but"
+    },
+    {
+      "start": 516.56,
+      "duration": 4.959,
+      "text": "you can imagine now with this open sort"
+    },
+    {
+      "start": 518.959,
+      "duration": 4.481,
+      "text": "of spec, it makes it very easy for them"
+    },
+    {
+      "start": 521.519,
+      "duration": 4.241,
+      "text": "to start training this into their"
+    },
+    {
+      "start": 523.44,
+      "duration": 5.36,
+      "text": "models. And again, as we're starting to"
+    },
+    {
+      "start": 525.76,
+      "duration": 5.199,
+      "text": "see with a lot of the open model"
+    },
+    {
+      "start": 528.8,
+      "duration": 4.64,
+      "text": "providers, they're not just providing"
+    },
+    {
+      "start": 530.959,
+      "duration": 4.481,
+      "text": "models anymore. They're also providing"
+    },
+    {
+      "start": 533.44,
+      "duration": 3.92,
+      "text": "deep research agents. They're also"
+    },
+    {
+      "start": 535.44,
+      "duration": 3.2,
+      "text": "providing other sorts of things. And"
+    },
+    {
+      "start": 537.36,
+      "duration": 4.08,
+      "text": "this is something that we see that the"
+    },
+    {
+      "start": 538.64,
+      "duration": 5.6,
+      "text": "API is supporting out of the box where"
+    },
+    {
+      "start": 541.44,
+      "duration": 4.8,
+      "text": "you can actually call an agent. You can"
+    },
+    {
+      "start": 544.24,
+      "duration": 4.24,
+      "text": "actually have some kind of agentic loop"
+    },
+    {
+      "start": 546.24,
+      "duration": 4.56,
+      "text": "running in here. You can actually see"
+    },
+    {
+      "start": 548.48,
+      "duration": 4.24,
+      "text": "how that's going to get processed and"
+    },
+    {
+      "start": 550.8,
+      "duration": 4.08,
+      "text": "how it's going to handle its own tools"
+    },
+    {
+      "start": 552.72,
+      "duration": 4.4,
+      "text": "on the back end and provide a final"
+    },
+    {
+      "start": 554.88,
+      "duration": 4.32,
+      "text": "response back to the user. And I think"
+    },
+    {
+      "start": 557.12,
+      "duration": 4.159,
+      "text": "this is something that perhaps even"
+    },
+    {
+      "start": 559.2,
+      "duration": 5.6,
+      "text": "sadly we're going to see a lot more in"
+    },
+    {
+      "start": 561.279,
+      "duration": 6.321,
+      "text": "2026 is that the model providers are"
+    },
+    {
+      "start": 564.8,
+      "duration": 4.32,
+      "text": "going to more become system providers"
+    },
+    {
+      "start": 567.6,
+      "duration": 3.28,
+      "text": "where they're going to do things in the"
+    },
+    {
+      "start": 569.12,
+      "duration": 4.159,
+      "text": "background that we actually don't know"
+    },
+    {
+      "start": 570.88,
+      "duration": 4.959,
+      "text": "what they're doing. Currently most of"
+    },
+    {
+      "start": 573.279,
+      "duration": 5.441,
+      "text": "Claude code for example runs locally on"
+    },
+    {
+      "start": 575.839,
+      "duration": 5.12,
+      "text": "your machine and is just using APIs to"
+    },
+    {
+      "start": 578.72,
+      "duration": 4.64,
+      "text": "basically do stuff. we may actually see"
+    },
+    {
+      "start": 580.959,
+      "duration": 4.56,
+      "text": "going forward that some of the providers"
+    },
+    {
+      "start": 583.36,
+      "duration": 4.24,
+      "text": "try to push some of that functionality"
+    },
+    {
+      "start": 585.519,
+      "duration": 4.961,
+      "text": "to server side so that they've got an"
+    },
+    {
+      "start": 587.6,
+      "duration": 4.799,
+      "text": "advantage over what other frontier labs"
+    },
+    {
+      "start": 590.48,
+      "duration": 4.08,
+      "text": "and companies are actually able to"
+    },
+    {
+      "start": 592.399,
+      "duration": 4.481,
+      "text": "provide. So just looking at hugging face"
+    },
+    {
+      "start": 594.56,
+      "duration": 4.32,
+      "text": "they've also got an article about this."
+    },
+    {
+      "start": 596.88,
+      "duration": 4.32,
+      "text": "It seems that they've been involved in"
+    },
+    {
+      "start": 598.88,
+      "duration": 4.959,
+      "text": "it. Obviously, they want to basically"
+    },
+    {
+      "start": 601.2,
+      "duration": 5.6,
+      "text": "support you being able to call open"
+    },
+    {
+      "start": 603.839,
+      "duration": 4.961,
+      "text": "models both locally but also on their"
+    },
+    {
+      "start": 606.8,
+      "duration": 4.159,
+      "text": "inference solutions where they're"
+    },
+    {
+      "start": 608.8,
+      "duration": 4.479,
+      "text": "actually starting to host and serve some"
+    },
+    {
+      "start": 610.959,
+      "duration": 4.721,
+      "text": "of the open models for people. So, let's"
+    },
+    {
+      "start": 613.279,
+      "duration": 4.401,
+      "text": "jump in and have a quick look in code at"
+    },
+    {
+      "start": 615.68,
+      "duration": 4,
+      "text": "what's actually there and try it out"
+    },
+    {
+      "start": 617.68,
+      "duration": 4.399,
+      "text": "with some use cases both for hugging"
+    },
+    {
+      "start": 619.68,
+      "duration": 4.719,
+      "text": "face and running it locally for O Lama."
+    },
+    {
+      "start": 622.079,
+      "duration": 5.121,
+      "text": "Okay, so I've created a few simple"
+    },
+    {
+      "start": 624.399,
+      "duration": 5.12,
+      "text": "scripts in here to basically test this"
+    },
+    {
+      "start": 627.2,
+      "duration": 4.16,
+      "text": "out. So if you want to try it, I'll put"
+    },
+    {
+      "start": 629.519,
+      "duration": 3.681,
+      "text": "this up on GitHub. If you want to try it"
+    },
+    {
+      "start": 631.36,
+      "duration": 3.28,
+      "text": "out, you basically will need hanging"
+    },
+    {
+      "start": 633.2,
+      "duration": 3.68,
+      "text": "face token if you're going to use their"
+    },
+    {
+      "start": 634.64,
+      "duration": 5.199,
+      "text": "inference endpoints. Also, I'm using"
+    },
+    {
+      "start": 636.88,
+      "duration": 5.6,
+      "text": "OAMA in here. So the way this kind of"
+    },
+    {
+      "start": 639.839,
+      "duration": 5.68,
+      "text": "works is really not that different at"
+    },
+    {
+      "start": 642.48,
+      "duration": 5.52,
+      "text": "all. If you've used the OpenAI API,"
+    },
+    {
+      "start": 645.519,
+      "duration": 3.921,
+      "text": "you're going to set this up like normal"
+    },
+    {
+      "start": 648,
+      "duration": 4.399,
+      "text": "and then you're going to be able to just"
+    },
+    {
+      "start": 649.44,
+      "duration": 5.68,
+      "text": "do the responses calls. So you can do"
+    },
+    {
+      "start": 652.399,
+      "duration": 5.281,
+      "text": "client.responses in here. So we can just"
+    },
+    {
+      "start": 655.12,
+      "duration": 4.159,
+      "text": "do like a basic call if we wanted to do"
+    },
+    {
+      "start": 657.68,
+      "duration": 3.44,
+      "text": "this where we're setting instructions"
+    },
+    {
+      "start": 659.279,
+      "duration": 4.081,
+      "text": "where we've got input. We've got"
+    },
+    {
+      "start": 661.12,
+      "duration": 4.399,
+      "text": "eventbased streaming where we can"
+    },
+    {
+      "start": 663.36,
+      "duration": 4.479,
+      "text": "actually see that going on. We've also"
+    },
+    {
+      "start": 665.519,
+      "duration": 4.161,
+      "text": "got tool calling to see how it was or"
+    },
+    {
+      "start": 667.839,
+      "duration": 4.56,
+      "text": "set it up. And remember we're not"
+    },
+    {
+      "start": 669.68,
+      "duration": 4.88,
+      "text": "running this with the OpenAI models, not"
+    },
+    {
+      "start": 672.399,
+      "duration": 4.801,
+      "text": "like GPD5 or anything like that. We're"
+    },
+    {
+      "start": 674.56,
+      "duration": 3.6,
+      "text": "using all open models in here. Now you"
+    },
+    {
+      "start": 677.2,
+      "duration": 3.04,
+      "text": "can actually play around with the"
+    },
+    {
+      "start": 678.16,
+      "duration": 4.32,
+      "text": "models. So they've got a few models sort"
+    },
+    {
+      "start": 680.24,
+      "duration": 4.4,
+      "text": "of set up. You can use the Kimmy K2"
+    },
+    {
+      "start": 682.48,
+      "duration": 4.24,
+      "text": "which is actually using Grock for the"
+    },
+    {
+      "start": 684.64,
+      "duration": 4.319,
+      "text": "inference provider there. You can use"
+    },
+    {
+      "start": 686.72,
+      "duration": 3.92,
+      "text": "the Quen models. You can use the llama"
+    },
+    {
+      "start": 688.959,
+      "duration": 3.601,
+      "text": "models and you'll see that the inference"
+    },
+    {
+      "start": 690.64,
+      "duration": 4,
+      "text": "is actually pretty quick. So if I run"
+    },
+    {
+      "start": 692.56,
+      "duration": 4,
+      "text": "this straight away, we're getting"
+    },
+    {
+      "start": 694.64,
+      "duration": 4.56,
+      "text": "streaming responses back. It's gone"
+    },
+    {
+      "start": 696.56,
+      "duration": 4.64,
+      "text": "through and run all the demos in there."
+    },
+    {
+      "start": 699.2,
+      "duration": 4.8,
+      "text": "So let me just go through them quickly."
+    },
+    {
+      "start": 701.2,
+      "duration": 5.12,
+      "text": "We can see first off it did basic calls,"
+    },
+    {
+      "start": 704,
+      "duration": 4.24,
+      "text": "no problems. we can see sort of what we"
+    },
+    {
+      "start": 706.32,
+      "duration": 4.8,
+      "text": "got back would be similar to what we"
+    },
+    {
+      "start": 708.24,
+      "duration": 4.96,
+      "text": "would get on the open AAI API. We've got"
+    },
+    {
+      "start": 711.12,
+      "duration": 4.24,
+      "text": "then streaming where we can see the"
+    },
+    {
+      "start": 713.2,
+      "duration": 5.84,
+      "text": "actual event streaming coming back."
+    },
+    {
+      "start": 715.36,
+      "duration": 5.84,
+      "text": "We've got tool calling with the Kimmy K2"
+    },
+    {
+      "start": 719.04,
+      "duration": 5.52,
+      "text": "instruct model in this case. And then we"
+    },
+    {
+      "start": 721.2,
+      "duration": 6.319,
+      "text": "can use the GPT OSS120B"
+    },
+    {
+      "start": 724.56,
+      "duration": 5.519,
+      "text": "for reasoning traces and actually see"
+    },
+    {
+      "start": 727.519,
+      "duration": 4.56,
+      "text": "like okay what are we going to get out"
+    },
+    {
+      "start": 730.079,
+      "duration": 4.241,
+      "text": "of where we can see items coming back"
+    },
+    {
+      "start": 732.079,
+      "duration": 4.56,
+      "text": "that are reasoning versus the actual"
+    },
+    {
+      "start": 734.32,
+      "duration": 3.84,
+      "text": "text for a final answer out there. Now"
+    },
+    {
+      "start": 736.639,
+      "duration": 3.76,
+      "text": "if we want to do the same thing with"
+    },
+    {
+      "start": 738.16,
+      "duration": 4.799,
+      "text": "Olama basically the same thing. We just"
+    },
+    {
+      "start": 740.399,
+      "duration": 6,
+      "text": "set up an OAMA endpoint. I'm running"
+    },
+    {
+      "start": 742.959,
+      "duration": 6.641,
+      "text": "Lama on my Mac here and then I pass that"
+    },
+    {
+      "start": 746.399,
+      "duration": 5.201,
+      "text": "localhost or Lama host in there and the"
+    },
+    {
+      "start": 749.6,
+      "duration": 3.919,
+      "text": "API key you can just put anything"
+    },
+    {
+      "start": 751.6,
+      "duration": 3.76,
+      "text": "because a llama just ignores the API"
+    },
+    {
+      "start": 753.519,
+      "duration": 3.681,
+      "text": "keys, right? It's not using any of that"
+    },
+    {
+      "start": 755.36,
+      "duration": 4,
+      "text": "stuff. And you can see we can do some"
+    },
+    {
+      "start": 757.2,
+      "duration": 5.199,
+      "text": "actual checks to see, okay, is this"
+    },
+    {
+      "start": 759.36,
+      "duration": 5.68,
+      "text": "actually supported in here. Then do our"
+    },
+    {
+      "start": 762.399,
+      "duration": 3.68,
+      "text": "basic API calls. Again, you're always"
+    },
+    {
+      "start": 765.04,
+      "duration": 2.56,
+      "text": "going to see it's doing the"
+    },
+    {
+      "start": 766.079,
+      "duration": 4.801,
+      "text": "client.responses"
+    },
+    {
+      "start": 767.6,
+      "duration": 5.84,
+      "text": "API there. Streaming and tool calling."
+    },
+    {
+      "start": 770.88,
+      "duration": 4.48,
+      "text": "Now, this one won't be as quick because"
+    },
+    {
+      "start": 773.44,
+      "duration": 4.32,
+      "text": "this is actually running locally. And if"
+    },
+    {
+      "start": 775.36,
+      "duration": 4.8,
+      "text": "the model needs to load up, you need to"
+    },
+    {
+      "start": 777.76,
+      "duration": 4.72,
+      "text": "wait for it to actually load up. This is"
+    },
+    {
+      "start": 780.16,
+      "duration": 4.799,
+      "text": "one of the things that is a common issue"
+    },
+    {
+      "start": 782.48,
+      "duration": 4.56,
+      "text": "with Olama is do you have the model"
+    },
+    {
+      "start": 784.959,
+      "duration": 4.161,
+      "text": "running all the time or do you have it"
+    },
+    {
+      "start": 787.04,
+      "duration": 3.919,
+      "text": "actually loading up the model? You will"
+    },
+    {
+      "start": 789.12,
+      "duration": 3.519,
+      "text": "see once the model's loaded up though,"
+    },
+    {
+      "start": 790.959,
+      "duration": 4.081,
+      "text": "you're going to get pretty good"
+    },
+    {
+      "start": 792.639,
+      "duration": 4.081,
+      "text": "performance. And I'm not using a super"
+    },
+    {
+      "start": 795.04,
+      "duration": 3.68,
+      "text": "fast machine here. This is just a Mac"
+    },
+    {
+      "start": 796.72,
+      "duration": 3.76,
+      "text": "Mini that I'm running this on. Okay. So"
+    },
+    {
+      "start": 798.72,
+      "duration": 4.4,
+      "text": "you can see that once it worked out that"
+    },
+    {
+      "start": 800.48,
+      "duration": 4.479,
+      "text": "yes this is supported we then had"
+    },
+    {
+      "start": 803.12,
+      "duration": 4.56,
+      "text": "event-based streaming stream through"
+    },
+    {
+      "start": 804.959,
+      "duration": 5.281,
+      "text": "that we handled the tool calling."
+    },
+    {
+      "start": 807.68,
+      "duration": 5.12,
+      "text": "Obviously using the 20B model perhaps"
+    },
+    {
+      "start": 810.24,
+      "duration": 5.76,
+      "text": "not going to get as good results as the"
+    },
+    {
+      "start": 812.8,
+      "duration": 5.279,
+      "text": "120D model but you can see all of this"
+    },
+    {
+      "start": 816,
+      "duration": 4,
+      "text": "is coming out quite good here. I've also"
+    },
+    {
+      "start": 818.079,
+      "duration": 3.921,
+      "text": "put a demo in there focusing on the"
+    },
+    {
+      "start": 820,
+      "duration": 4,
+      "text": "reasoning stuff. The reasoning stuff I"
+    },
+    {
+      "start": 822,
+      "duration": 3.76,
+      "text": "find to be a little bit hit and miss."
+    },
+    {
+      "start": 824,
+      "duration": 4.24,
+      "text": "You can see in this where we're actually"
+    },
+    {
+      "start": 825.76,
+      "duration": 4.24,
+      "text": "streaming the reasoning tokens out and"
+    },
+    {
+      "start": 828.24,
+      "duration": 4.48,
+      "text": "it looks like it's done a pretty good"
+    },
+    {
+      "start": 830,
+      "duration": 5.2,
+      "text": "approach there. Okay. So, you will find"
+    },
+    {
+      "start": 832.72,
+      "duration": 5.04,
+      "text": "it a little bit hit and miss in regards"
+    },
+    {
+      "start": 835.2,
+      "duration": 4.96,
+      "text": "to model support. Not all the models are"
+    },
+    {
+      "start": 837.76,
+      "duration": 5.439,
+      "text": "going to support this out of the box. In"
+    },
+    {
+      "start": 840.16,
+      "duration": 5.119,
+      "text": "my testing, the GBT OSS models seem to"
+    },
+    {
+      "start": 843.199,
+      "duration": 4.241,
+      "text": "be supporting most of this stuff. Like"
+    },
+    {
+      "start": 845.279,
+      "duration": 4.161,
+      "text": "here we can see with reasoning tokens it"
+    },
+    {
+      "start": 847.44,
+      "duration": 4.399,
+      "text": "will go through and we can actually then"
+    },
+    {
+      "start": 849.44,
+      "duration": 4.079,
+      "text": "sort of break down okay how many tokens"
+    },
+    {
+      "start": 851.839,
+      "duration": 4.641,
+      "text": "were the prompt what were the completion"
+    },
+    {
+      "start": 853.519,
+      "duration": 5.12,
+      "text": "tokens what were the reasoning tokens"
+    },
+    {
+      "start": 856.48,
+      "duration": 4.159,
+      "text": "you can actually stream the reasoning"
+    },
+    {
+      "start": 858.639,
+      "duration": 4.241,
+      "text": "back but you're just then just streaming"
+    },
+    {
+      "start": 860.639,
+      "duration": 5.041,
+      "text": "normal tokens so you can see here we've"
+    },
+    {
+      "start": 862.88,
+      "duration": 6,
+      "text": "been able to basically take in the query"
+    },
+    {
+      "start": 865.68,
+      "duration": 5.519,
+      "text": "looking at the actual thinking process"
+    },
+    {
+      "start": 868.88,
+      "duration": 4.24,
+      "text": "and then finally getting to an output so"
+    },
+    {
+      "start": 871.199,
+      "duration": 4.32,
+      "text": "just to finish up I will say that I do"
+    },
+    {
+      "start": 873.12,
+      "duration": 6.159,
+      "text": "think that this a step forward forward"
+    },
+    {
+      "start": 875.519,
+      "duration": 7.361,
+      "text": "for open models in that if the frontier"
+    },
+    {
+      "start": 879.279,
+      "duration": 6.8,
+      "text": "labs of open models, your Quans, your"
+    },
+    {
+      "start": 882.88,
+      "duration": 5.6,
+      "text": "Kimies, your Deep Seeks, etc. If they"
+    },
+    {
+      "start": 886.079,
+      "duration": 5.76,
+      "text": "get behind this and they start to train"
+    },
+    {
+      "start": 888.48,
+      "duration": 5.12,
+      "text": "their models to work with this schema"
+    },
+    {
+      "start": 891.839,
+      "duration": 4,
+      "text": "and this setup, it's going to make it"
+    },
+    {
+      "start": 893.6,
+      "duration": 4.32,
+      "text": "much easier for people going from"
+    },
+    {
+      "start": 895.839,
+      "duration": 5.041,
+      "text": "proprietary models with big providers"
+    },
+    {
+      "start": 897.92,
+      "duration": 6.08,
+      "text": "perhaps like OpenAI to be able to use"
+    },
+    {
+      "start": 900.88,
+      "duration": 5.44,
+      "text": "Open models with this locally on your"
+    },
+    {
+      "start": 904,
+      "duration": 4.959,
+      "text": "machine. etc. I also wouldn't be"
+    },
+    {
+      "start": 906.32,
+      "duration": 4.4,
+      "text": "surprised though that with the Chinese"
+    },
+    {
+      "start": 908.959,
+      "duration": 4,
+      "text": "companies at least that they will"
+    },
+    {
+      "start": 910.72,
+      "duration": 5.359,
+      "text": "probably train their models to work with"
+    },
+    {
+      "start": 912.959,
+      "duration": 4.961,
+      "text": "the Claude API or the anthropic API for"
+    },
+    {
+      "start": 916.079,
+      "duration": 4.721,
+      "text": "compatibility. And actually, we've"
+    },
+    {
+      "start": 917.92,
+      "duration": 5.12,
+      "text": "already just seen Olama announced this"
+    },
+    {
+      "start": 920.8,
+      "duration": 5.279,
+      "text": "that they're also supporting now"
+    },
+    {
+      "start": 923.04,
+      "duration": 4.799,
+      "text": "anthropic API compatibility. So you can"
+    },
+    {
+      "start": 926.079,
+      "duration": 4.401,
+      "text": "imagine combining some of those coding"
+    },
+    {
+      "start": 927.839,
+      "duration": 5.601,
+      "text": "tools like Claude Code and the ones that"
+    },
+    {
+      "start": 930.48,
+      "duration": 5.28,
+      "text": "support the anthropic API, we're"
+    },
+    {
+      "start": 933.44,
+      "duration": 4.16,
+      "text": "hopefully not that long off being able"
+    },
+    {
+      "start": 935.76,
+      "duration": 4.879,
+      "text": "to have models that are really high"
+    },
+    {
+      "start": 937.6,
+      "duration": 5.44,
+      "text": "standard running locally with these"
+    },
+    {
+      "start": 940.639,
+      "duration": 3.841,
+      "text": "tools to be able to work on things. And"
+    },
+    {
+      "start": 943.04,
+      "duration": 4.08,
+      "text": "I think that's going to be a huge win"
+    },
+    {
+      "start": 944.48,
+      "duration": 4.719,
+      "text": "for 2026. So let me know in the comments"
+    },
+    {
+      "start": 947.12,
+      "duration": 4.079,
+      "text": "what you think, what your take on it is,"
+    },
+    {
+      "start": 949.199,
+      "duration": 5.681,
+      "text": "etc. And as always, I will talk to you"
+    },
+    {
+      "start": 951.199,
+      "duration": 3.681,
+      "text": "in the next video. Bye for now."
+    }
+  ],
+  "fullText": "Okay, so in this video I'm going to talk about a new initiative from Open AI and how they're looking to support open models. Is this a genuine thing that is actually going to help open models or is it just OpenAI trying to make a claim to be more open? And then later on in the video, I'm also going to show you how this all works with code. I'm also going to show you how Anthropic may have just scooped Open AI on this open effort without even trying. So recently I did a video about Gemini's interactions API and one of the things that people pointed out there correctly so was that there were similarities between the Gemini interactions API and the responses API built by OpenAI. But one of the things I think the interactions API really sort of showed is that many of the frontier labs want to have their own API endpoints and they want to control how people are actually sending things to the model. Now, this wasn't the case a year or two ago when everybody basically had to have an OpenAI compatibility mode. And these OpenAI compatibility modes were what allowed you to basically use the OpenAI API SDK and then use the chat completions API. The thing I talked about in the previous video though is that really we've moved beyond that in many ways. We're now after APIs that are much more built for systems and agents than just for simple chat completions. So, we haven't seen companies just automatically support this new OpenAI responses API for other models. In fact, the API that has been the hottest lately has been the Claude API. And this has mostly been because of clawed code. And a really good example of this is we've seen some of the Chinese model providers that were building models which they claimed would work really well with claude code and tools that were very similar like rue clin open code gemini cli etc have actually gone out and supported a clawed API endpoint for their particular models. We've seen this from the team at Moonshot AI and we've also seen it especially at places like ZAI where they've actually gotten behind this in a big way and been sort of offering the equivalent of claude code subscriptions where they make a clear point that this is actually compatible with claude code and with all these other coding tools that are out there. So that brings us back to an initiative started by open AI recently. So I would say that in many ways OpenAI realized that they're just not going to be able to get everyone to adopt their responses API like they would have liked. So what they've proposed is this new API standard called open responses. And the idea here is to basically make it so that models will be compatible with this open responses standard for things like tool calling perhaps even aentic uses and systems and things like that that are coming and also of course to be able to actually support things like multimodal inputs etc. And this has certainly been a really big challenge especially for open models. While it's okay that Gemini has got their way of doing it, Claude and Anthropic have got their way, OpenAI has their way, people don't really want to have to learn a new way to do this for every single open model that comes out. So in many ways, I think this is a really good thing, right? This is a new sort of open standard for what an agentic API could look like for interfacing with models that can support out of the box things like tool calls, streaming, multimodal inputs, and as we can see here, it's sort of multi-provider by default and even allows model makers to actually provide extra extendable features on top of this without having to break the whole standard. So, it's really good to see from the start that this has quite a number of community adopters in here. The big ones would be obviously hugging face, but also people like Versel is really interesting that they're getting behind this. Open router, which I use a lot for testing out different open models that are either too big for me to just spin up easily or if I want to just try something out across a bunch of different models. And one of the issues there has been that you're often limited to the old open AI API endpoints for chat completion etc. Now the other ones that I would say really sort of stand out here are LM Studio, Olama and VLLM. So these are what people are often using to either run models locally certainly for Olama and LM Studio and for even running models in the cloud with things like VLM. My guess is based on this, we'll start to see a lot of other frameworks jump in and get involved in this as well. Perhaps things like SG Lang and it certainly would be nice to see Google support this format for new Gemma models and stuff like that that they end up bringing out. So looking at what's actually in the standard, there's not a huge amount here that's new. If you've actually used the responses API from OpenAI, you will certainly see that a lot of this is just clear sort of mapping things across. But we do have the whole sort of agentic loop idea going on here. The concept of items where items can represent anything from sort of like a tool call, a reasoning state beyond just a plain sort of chat completion. And we can see when we look at some of these items, there's not a lot of surprising stuff in here, right? We've got things like message items which will have the whole sort of role of assistant or user or system model etc. We'll have function calling which will have a name for the function the arguments that are going to get passed into that function. And we can see that all this handles both streaming but also then allows these items to actually represent state of where we can see is something in progress or is something completed already. Another big thing that we see here very clearly which I think is going to help a lot of the open models is how this has already got baked into it how reasoning should be handled. So one of the frustrating things was as some of the open models started to roll out reasoning they often would approach it in their API endpoints in a different way than each other. So if you had one set of code that worked for one model and you could then easily hide the reasoning tokens or process them in a way that you wanted to actually show them would work great for one model but as soon as you then went to the next model you would end up having to rewrite how you actually going to get this stuff to go. It's also so interesting in here that out of the box this is not only supporting the sort of raw reasoning tokens but the summaries in here. So many of you know I've been highly critical of a lot of these companies is that we don't get to see enough of the realworld reasoning tokens and just see how detailed they are on some of these frontier lab models. All we get back are summaries. So, I do find it in some ways actually funny that they're showing here like, okay, if you wanted to basically just provide summaries of your reasoning content and pass that back via the API, this API automatically supports that out of the box. Another thing that this brings in, which I think we're going to see a lot more in 2026, tools that are internally hosted. So we've seen this already in 2025 a lot from Google that we've seen things like the Google search tool. We've seen the different sandbox tools of where you can run code server side via a sandbox and stuff like that. Those internally hosted tools are actually very different than returning back a sort of function call to use an external tool or an MCP or something like that. And especially even with people using serverside hosted MCPs or making calls from the actual server side of the model provider, it's good to see that these are both supported in this open spec here. Also having things out of the box like tool choice where you can define what tools this is going to use or you can define that it will not use tools or it must use tools. This is something that in many ways the open models haven't really gotten behind, but you can imagine now with this open sort of spec, it makes it very easy for them to start training this into their models. And again, as we're starting to see with a lot of the open model providers, they're not just providing models anymore. They're also providing deep research agents. They're also providing other sorts of things. And this is something that we see that the API is supporting out of the box where you can actually call an agent. You can actually have some kind of agentic loop running in here. You can actually see how that's going to get processed and how it's going to handle its own tools on the back end and provide a final response back to the user. And I think this is something that perhaps even sadly we're going to see a lot more in 2026 is that the model providers are going to more become system providers where they're going to do things in the background that we actually don't know what they're doing. Currently most of Claude code for example runs locally on your machine and is just using APIs to basically do stuff. we may actually see going forward that some of the providers try to push some of that functionality to server side so that they've got an advantage over what other frontier labs and companies are actually able to provide. So just looking at hugging face they've also got an article about this. It seems that they've been involved in it. Obviously, they want to basically support you being able to call open models both locally but also on their inference solutions where they're actually starting to host and serve some of the open models for people. So, let's jump in and have a quick look in code at what's actually there and try it out with some use cases both for hugging face and running it locally for O Lama. Okay, so I've created a few simple scripts in here to basically test this out. So if you want to try it, I'll put this up on GitHub. If you want to try it out, you basically will need hanging face token if you're going to use their inference endpoints. Also, I'm using OAMA in here. So the way this kind of works is really not that different at all. If you've used the OpenAI API, you're going to set this up like normal and then you're going to be able to just do the responses calls. So you can do client.responses in here. So we can just do like a basic call if we wanted to do this where we're setting instructions where we've got input. We've got eventbased streaming where we can actually see that going on. We've also got tool calling to see how it was or set it up. And remember we're not running this with the OpenAI models, not like GPD5 or anything like that. We're using all open models in here. Now you can actually play around with the models. So they've got a few models sort of set up. You can use the Kimmy K2 which is actually using Grock for the inference provider there. You can use the Quen models. You can use the llama models and you'll see that the inference is actually pretty quick. So if I run this straight away, we're getting streaming responses back. It's gone through and run all the demos in there. So let me just go through them quickly. We can see first off it did basic calls, no problems. we can see sort of what we got back would be similar to what we would get on the open AAI API. We've got then streaming where we can see the actual event streaming coming back. We've got tool calling with the Kimmy K2 instruct model in this case. And then we can use the GPT OSS120B for reasoning traces and actually see like okay what are we going to get out of where we can see items coming back that are reasoning versus the actual text for a final answer out there. Now if we want to do the same thing with Olama basically the same thing. We just set up an OAMA endpoint. I'm running Lama on my Mac here and then I pass that localhost or Lama host in there and the API key you can just put anything because a llama just ignores the API keys, right? It's not using any of that stuff. And you can see we can do some actual checks to see, okay, is this actually supported in here. Then do our basic API calls. Again, you're always going to see it's doing the client.responses API there. Streaming and tool calling. Now, this one won't be as quick because this is actually running locally. And if the model needs to load up, you need to wait for it to actually load up. This is one of the things that is a common issue with Olama is do you have the model running all the time or do you have it actually loading up the model? You will see once the model's loaded up though, you're going to get pretty good performance. And I'm not using a super fast machine here. This is just a Mac Mini that I'm running this on. Okay. So you can see that once it worked out that yes this is supported we then had event-based streaming stream through that we handled the tool calling. Obviously using the 20B model perhaps not going to get as good results as the 120D model but you can see all of this is coming out quite good here. I've also put a demo in there focusing on the reasoning stuff. The reasoning stuff I find to be a little bit hit and miss. You can see in this where we're actually streaming the reasoning tokens out and it looks like it's done a pretty good approach there. Okay. So, you will find it a little bit hit and miss in regards to model support. Not all the models are going to support this out of the box. In my testing, the GBT OSS models seem to be supporting most of this stuff. Like here we can see with reasoning tokens it will go through and we can actually then sort of break down okay how many tokens were the prompt what were the completion tokens what were the reasoning tokens you can actually stream the reasoning back but you're just then just streaming normal tokens so you can see here we've been able to basically take in the query looking at the actual thinking process and then finally getting to an output so just to finish up I will say that I do think that this a step forward forward for open models in that if the frontier labs of open models, your Quans, your Kimies, your Deep Seeks, etc. If they get behind this and they start to train their models to work with this schema and this setup, it's going to make it much easier for people going from proprietary models with big providers perhaps like OpenAI to be able to use Open models with this locally on your machine. etc. I also wouldn't be surprised though that with the Chinese companies at least that they will probably train their models to work with the Claude API or the anthropic API for compatibility. And actually, we've already just seen Olama announced this that they're also supporting now anthropic API compatibility. So you can imagine combining some of those coding tools like Claude Code and the ones that support the anthropic API, we're hopefully not that long off being able to have models that are really high standard running locally with these tools to be able to work on things. And I think that's going to be a huge win for 2026. So let me know in the comments what you think, what your take on it is, etc. And as always, I will talk to you in the next video. Bye for now.",
+  "fetchedAt": "2026-01-21T19:20:01.542Z"
+}

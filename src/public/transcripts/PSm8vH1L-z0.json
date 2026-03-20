@@ -1,0 +1,4639 @@
+{
+  "videoId": "PSm8vH1L-z0",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 4.08,
+      "text": "Afternoon"
+    },
+    {
+      "start": 2.619,
+      "duration": 3.301,
+      "text": "[music]"
+    },
+    {
+      "start": 4.08,
+      "duration": 4.96,
+      "text": "everybody. My name is Dylan Turbull. I'm"
+    },
+    {
+      "start": 5.92,
+      "duration": 5.839,
+      "text": "a developer advocate here at Brock.ai"
+    },
+    {
+      "start": 9.04,
+      "duration": 5.04,
+      "text": "and I have with me today Jonathan who"
+    },
+    {
+      "start": 11.759,
+      "duration": 4.561,
+      "text": "also works at Brock and is also the"
+    },
+    {
+      "start": 14.08,
+      "duration": 3.76,
+      "text": "founder and CEO of Brock. Today we're"
+    },
+    {
+      "start": 16.32,
+      "duration": 5.6,
+      "text": "going to be covering the Brock power"
+    },
+    {
+      "start": 17.84,
+      "duration": 6.56,
+      "text": "ranking which is our view into how LLMs"
+    },
+    {
+      "start": 21.92,
+      "duration": 4.88,
+      "text": "perform and built off of real world"
+    },
+    {
+      "start": 24.4,
+      "duration": 3.6,
+      "text": "testing. So to get us started, why don't"
+    },
+    {
+      "start": 26.8,
+      "duration": 3.04,
+      "text": "I go ahead and hand it off to you,"
+    },
+    {
+      "start": 28,
+      "duration": 4.16,
+      "text": "Jonathan, and you can tell us a little"
+    },
+    {
+      "start": 29.84,
+      "duration": 3.6,
+      "text": "bit about the the genesis of the broad"
+    },
+    {
+      "start": 32.16,
+      "duration": 3.68,
+      "text": "power ranking."
+    },
+    {
+      "start": 33.44,
+      "duration": 7.119,
+      "text": ">> I'd love to. So we built the power"
+    },
+    {
+      "start": 35.84,
+      "duration": 8.719,
+      "text": "ranking to tell us and everyone how good"
+    },
+    {
+      "start": 40.559,
+      "duration": 6.16,
+      "text": "LLMs are at writing code. And you might"
+    },
+    {
+      "start": 44.559,
+      "duration": 4.641,
+      "text": "think, oh well, I've seen Swebench or"
+    },
+    {
+      "start": 46.719,
+      "duration": 5.041,
+      "text": "I've seen Live Codebench. Like the these"
+    },
+    {
+      "start": 49.2,
+      "duration": 4.48,
+      "text": "things exist. and they do exist. But"
+    },
+    {
+      "start": 51.76,
+      "duration": 4.319,
+      "text": "there's there's three problems that we"
+    },
+    {
+      "start": 53.68,
+      "duration": 5.6,
+      "text": "wanted to solve that nobody else was"
+    },
+    {
+      "start": 56.079,
+      "duration": 6.16,
+      "text": "tackling. The first is that a lot of"
+    },
+    {
+      "start": 59.28,
+      "duration": 6.56,
+      "text": "these other benchmarks and I would say"
+    },
+    {
+      "start": 62.239,
+      "duration": 7.281,
+      "text": "especially SweetBench are"
+    },
+    {
+      "start": 65.84,
+      "duration": 5.92,
+      "text": "they're the tasks that they test are"
+    },
+    {
+      "start": 69.52,
+      "duration": 5.04,
+      "text": "well known at this point and they're"
+    },
+    {
+      "start": 71.76,
+      "duration": 6.48,
+      "text": "part of the model's training data. And"
+    },
+    {
+      "start": 74.56,
+      "duration": 6.48,
+      "text": "you'll see that some of the labs are"
+    },
+    {
+      "start": 78.24,
+      "duration": 4.8,
+      "text": "very scrupulous about pulling those"
+    },
+    {
+      "start": 81.04,
+      "duration": 5.04,
+      "text": "tests out of the training data so that"
+    },
+    {
+      "start": 83.04,
+      "duration": 5.2,
+      "text": "Sweepbench stays a relevant ranking of"
+    },
+    {
+      "start": 86.08,
+      "duration": 3.679,
+      "text": "how well they're doing. But other labs"
+    },
+    {
+      "start": 88.24,
+      "duration": 3.68,
+      "text": "are just like, hey, we want the number"
+    },
+    {
+      "start": 89.759,
+      "duration": 4.081,
+      "text": "to go up because that helps us market"
+    },
+    {
+      "start": 91.92,
+      "duration": 4.239,
+      "text": "our models better. And so they're just"
+    },
+    {
+      "start": 93.84,
+      "duration": 3.919,
+      "text": "like, sure, like train on memorize the"
+    },
+    {
+      "start": 96.159,
+      "duration": 2.561,
+      "text": "test. Like that's that's what they're"
+    },
+    {
+      "start": 97.759,
+      "duration": 2.881,
+      "text": "doing is they're memorizing."
+    },
+    {
+      "start": 98.72,
+      "duration": 2.64,
+      "text": ">> Yeah. They're poisoning the well, so to"
+    },
+    {
+      "start": 100.64,
+      "duration": 2.4,
+      "text": "speak."
+    },
+    {
+      "start": 101.36,
+      "duration": 3.759,
+      "text": ">> Yeah. So the the three things we wanted"
+    },
+    {
+      "start": 103.04,
+      "duration": 4.16,
+      "text": "to deliver are we wanted to to deliver"
+    },
+    {
+      "start": 105.119,
+      "duration": 4.721,
+      "text": "fresh tests that nobody's had a chance"
+    },
+    {
+      "start": 107.2,
+      "duration": 6.32,
+      "text": "to train on yet and we wanted to test"
+    },
+    {
+      "start": 109.84,
+      "duration": 6.88,
+      "text": "with meaningful meaty enterprisy"
+    },
+    {
+      "start": 113.52,
+      "duration": 6.239,
+      "text": "problems covering multiple files"
+    },
+    {
+      "start": 116.72,
+      "duration": 5.52,
+      "text": "covering many patches that need to be"
+    },
+    {
+      "start": 119.759,
+      "duration": 7.441,
+      "text": "applied to those files. And then the the"
+    },
+    {
+      "start": 122.24,
+      "duration": 7.999,
+      "text": "third one is we want to measure speed"
+    },
+    {
+      "start": 127.2,
+      "duration": 6.16,
+      "text": "and cost and not just hey did you pass"
+    },
+    {
+      "start": 130.239,
+      "duration": 5.121,
+      "text": "or not because when you're sitting in"
+    },
+    {
+      "start": 133.36,
+      "duration": 4.959,
+      "text": "front of the monitor pair programming"
+    },
+    {
+      "start": 135.36,
+      "duration": 5.68,
+      "text": "with a model that's really important to"
+    },
+    {
+      "start": 138.319,
+      "duration": 4.961,
+      "text": "stay in the flow is can it deliver"
+    },
+    {
+      "start": 141.04,
+      "duration": 4.64,
+      "text": "results quickly and then it's going to"
+    },
+    {
+      "start": 143.28,
+      "duration": 4.48,
+      "text": "make you a lot happier if it's light on"
+    },
+    {
+      "start": 145.68,
+      "duration": 5.199,
+      "text": "your wallet. So we wanted to measure all"
+    },
+    {
+      "start": 147.76,
+      "duration": 5.36,
+      "text": "three of those. I think that uh from my"
+    },
+    {
+      "start": 150.879,
+      "duration": 4.481,
+      "text": "experience uh working with you know AI"
+    },
+    {
+      "start": 153.12,
+      "duration": 4.64,
+      "text": "assisted development it has been a a"
+    },
+    {
+      "start": 155.36,
+      "duration": 5.76,
+      "text": "source of frustration at least from my"
+    },
+    {
+      "start": 157.76,
+      "duration": 5.04,
+      "text": "vantage point where I'll spend uh I'll"
+    },
+    {
+      "start": 161.12,
+      "duration": 3.6,
+      "text": "be working on a particular you know like"
+    },
+    {
+      "start": 162.8,
+      "duration": 4.079,
+      "text": "a new feature in something and then I'll"
+    },
+    {
+      "start": 164.72,
+      "duration": 4,
+      "text": "I'll get further down the line and it"
+    },
+    {
+      "start": 166.879,
+      "duration": 4.72,
+      "text": "will have affected something else in the"
+    },
+    {
+      "start": 168.72,
+      "duration": 6.159,
+      "text": "code and and then I'll spend the next 30"
+    },
+    {
+      "start": 171.599,
+      "duration": 6.961,
+      "text": "40 minutes or maybe even an hour burning"
+    },
+    {
+      "start": 174.879,
+      "duration": 6.161,
+      "text": "tokens to try to back up or undo what's"
+    },
+    {
+      "start": 178.56,
+      "duration": 3.92,
+      "text": "and done. And to say that the cost of"
+    },
+    {
+      "start": 181.04,
+      "duration": 3.44,
+      "text": "that or even the fact that if you're"
+    },
+    {
+      "start": 182.48,
+      "duration": 4.32,
+      "text": "paying a monthly fee for something and"
+    },
+    {
+      "start": 184.48,
+      "duration": 4.16,
+      "text": "you get an aotment of tokens, the idea"
+    },
+    {
+      "start": 186.8,
+      "duration": 4,
+      "text": "that you just burned a bunch of money"
+    },
+    {
+      "start": 188.64,
+      "duration": 4.239,
+      "text": "that you spent because you know the"
+    },
+    {
+      "start": 190.8,
+      "duration": 4.159,
+      "text": "model you don't know how the model per"
+    },
+    {
+      "start": 192.879,
+      "duration": 5.44,
+      "text": "is expected to perform."
+    },
+    {
+      "start": 194.959,
+      "duration": 5.28,
+      "text": ">> Yeah. And and I would say for me and I"
+    },
+    {
+      "start": 198.319,
+      "duration": 4.801,
+      "text": "think for most people whose bosses are"
+    },
+    {
+      "start": 200.239,
+      "duration": 5.201,
+      "text": "paying for this, uh the speed aspect is"
+    },
+    {
+      "start": 203.12,
+      "duration": 5.28,
+      "text": "more important than the cost. Uh but"
+    },
+    {
+      "start": 205.44,
+      "duration": 5.519,
+      "text": "certainly there's certainly times when"
+    },
+    {
+      "start": 208.4,
+      "duration": 4,
+      "text": "the cost is just as important. So really"
+    },
+    {
+      "start": 210.959,
+      "duration": 4.56,
+      "text": "you want to you really would need a"
+    },
+    {
+      "start": 212.4,
+      "duration": 5.199,
+      "text": "handle on all three of these metrics."
+    },
+    {
+      "start": 215.519,
+      "duration": 4,
+      "text": ">> Yeah. Yeah. I I I would I would"
+    },
+    {
+      "start": 217.599,
+      "duration": 4.241,
+      "text": "wholeheartedly agree. I feel like it it"
+    },
+    {
+      "start": 219.519,
+      "duration": 4.241,
+      "text": "it doesn't make much sense to measure"
+    },
+    {
+      "start": 221.84,
+      "duration": 3.52,
+      "text": "just whether they whether they're good,"
+    },
+    {
+      "start": 223.76,
+      "duration": 3.28,
+      "text": "whether they succeed or don't succeed"
+    },
+    {
+      "start": 225.36,
+      "duration": 3.12,
+      "text": "because there are more elements to the"
+    },
+    {
+      "start": 227.04,
+      "duration": 3.52,
+      "text": "to the puzzle."
+    },
+    {
+      "start": 228.48,
+      "duration": 3.679,
+      "text": ">> Excellent. So yeah. So, let's talk a"
+    },
+    {
+      "start": 230.56,
+      "duration": 4.399,
+      "text": "little bit about the ranking system"
+    },
+    {
+      "start": 232.159,
+      "duration": 5.121,
+      "text": "because I I I found this interesting in"
+    },
+    {
+      "start": 234.959,
+      "duration": 5.761,
+      "text": "the past because I've run into this same"
+    },
+    {
+      "start": 237.28,
+      "duration": 5.36,
+      "text": "model, the AR S tier model, and I"
+    },
+    {
+      "start": 240.72,
+      "duration": 3.84,
+      "text": "actually think this is a fantastic way"
+    },
+    {
+      "start": 242.64,
+      "duration": 4.4,
+      "text": "to represent this information to the"
+    },
+    {
+      "start": 244.56,
+      "duration": 3.36,
+      "text": "world because it's familiar uh on a web"
+    },
+    {
+      "start": 247.04,
+      "duration": 2.72,
+      "text": "scale."
+    },
+    {
+      "start": 247.92,
+      "duration": 4.239,
+      "text": ">> Yeah. And so, this is our second power"
+    },
+    {
+      "start": 249.76,
+      "duration": 4.96,
+      "text": "ranking. We did one in August and then"
+    },
+    {
+      "start": 252.159,
+      "duration": 6.8,
+      "text": "uh you know we updated it with uh you"
+    },
+    {
+      "start": 254.72,
+      "duration": 7.84,
+      "text": "know the anthropic 45 release of of Opus"
+    },
+    {
+      "start": 258.959,
+      "duration": 5.441,
+      "text": "and uh GPT51 dropped and the Grock 41"
+    },
+    {
+      "start": 262.56,
+      "duration": 4.88,
+      "text": "dropped. There was a lot of stuff that"
+    },
+    {
+      "start": 264.4,
+      "duration": 5.6,
+      "text": "dropped in uh in late November and so it"
+    },
+    {
+      "start": 267.44,
+      "duration": 5.039,
+      "text": "was time for a new power ranking. But"
+    },
+    {
+      "start": 270,
+      "duration": 4.24,
+      "text": "yeah, we it it we did want to have a"
+    },
+    {
+      "start": 272.479,
+      "duration": 4.081,
+      "text": "little bit of fun with it and and rather"
+    },
+    {
+      "start": 274.24,
+      "duration": 4.959,
+      "text": "than just put a number on things, uh"
+    },
+    {
+      "start": 276.56,
+      "duration": 5.919,
+      "text": "kind of uh use a little bit of human"
+    },
+    {
+      "start": 279.199,
+      "duration": 5.841,
+      "text": "judgment on allocating these models into"
+    },
+    {
+      "start": 282.479,
+      "duration": 4.641,
+      "text": "tiers based on their performance. And of"
+    },
+    {
+      "start": 285.04,
+      "duration": 3.84,
+      "text": "course, if you're coming from the, you"
+    },
+    {
+      "start": 287.12,
+      "duration": 4.32,
+      "text": "know, video gaming background, then you"
+    },
+    {
+      "start": 288.88,
+      "duration": 4.64,
+      "text": "know that S tier stands for shu, which"
+    },
+    {
+      "start": 291.44,
+      "duration": 5.6,
+      "text": "is Japanese for excellent."
+    },
+    {
+      "start": 293.52,
+      "duration": 5.52,
+      "text": ">> Uh, and so in, uh, in this iteration of"
+    },
+    {
+      "start": 297.04,
+      "duration": 4.32,
+      "text": "the power ranking, our only member of"
+    },
+    {
+      "start": 299.04,
+      "duration": 4.48,
+      "text": "the S tier to be S tier, you really have"
+    },
+    {
+      "start": 301.36,
+      "duration": 4.16,
+      "text": "to be firing on all cylinders. You"
+    },
+    {
+      "start": 303.52,
+      "duration": 5.119,
+      "text": "really have to be better than everyone"
+    },
+    {
+      "start": 305.52,
+      "duration": 4.72,
+      "text": "else on on multiple dimensions. And"
+    },
+    {
+      "start": 308.639,
+      "duration": 3.201,
+      "text": "really, that's that's what Haiku is"
+    },
+    {
+      "start": 310.24,
+      "duration": 5.28,
+      "text": "doing this time around. It is better"
+    },
+    {
+      "start": 311.84,
+      "duration": 6.24,
+      "text": "than everyone else at speed"
+    },
+    {
+      "start": 315.52,
+      "duration": 5.679,
+      "text": "and good good performance, good"
+    },
+    {
+      "start": 318.08,
+      "duration": 5.839,
+      "text": "intelligence and a reasonable cost."
+    },
+    {
+      "start": 321.199,
+      "duration": 4.881,
+      "text": ">> Yeah. And from my experience when I when"
+    },
+    {
+      "start": 323.919,
+      "duration": 4.961,
+      "text": "I first joined Brock, I was very that"
+    },
+    {
+      "start": 326.08,
+      "duration": 4.16,
+      "text": "kind of took me by surprise. So, as a"
+    },
+    {
+      "start": 328.88,
+      "duration": 3.12,
+      "text": "result, I said, \"Well, okay, let me"
+    },
+    {
+      "start": 330.24,
+      "duration": 3.6,
+      "text": "revisit the some of the assumptions I"
+    },
+    {
+      "start": 332,
+      "duration": 4.479,
+      "text": "might have because when Haiku first hit"
+    },
+    {
+      "start": 333.84,
+      "duration": 4.32,
+      "text": "the hit the lists, I thought, well, this"
+    },
+    {
+      "start": 336.479,
+      "duration": 5.601,
+      "text": "is probably just a watered down version"
+    },
+    {
+      "start": 338.16,
+      "duration": 6.64,
+      "text": "of of u, you know, of Claude Sonnet or"
+    },
+    {
+      "start": 342.08,
+      "duration": 5.44,
+      "text": "or, you know, obviously not Opus, but"
+    },
+    {
+      "start": 344.8,
+      "duration": 5.04,
+      "text": "and plus it it comes in at a at a at a"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.84,
+      "text": "lower price point as far as tokens are"
+    },
+    {
+      "start": 349.84,
+      "duration": 2.88,
+      "text": "concerned. So, I thought, well, I'm not"
+    },
+    {
+      "start": 351.36,
+      "duration": 2.96,
+      "text": "going to get as much out of this as I"
+    },
+    {
+      "start": 352.72,
+      "duration": 4,
+      "text": "thought I would.\" But after looking at"
+    },
+    {
+      "start": 354.32,
+      "duration": 5.439,
+      "text": "the power rankings, I I went back and"
+    },
+    {
+      "start": 356.72,
+      "duration": 5.84,
+      "text": "revisited and I was shockingly surprised"
+    },
+    {
+      "start": 359.759,
+      "duration": 4.801,
+      "text": "at how good it was at not only solving"
+    },
+    {
+      "start": 362.56,
+      "duration": 4.32,
+      "text": "the problems that I was running into,"
+    },
+    {
+      "start": 364.56,
+      "duration": 4.079,
+      "text": "but not being quite as chatty as Sonnet"
+    },
+    {
+      "start": 366.88,
+      "duration": 3.759,
+      "text": "is."
+    },
+    {
+      "start": 368.639,
+      "duration": 3.84,
+      "text": ">> Yeah, I I think of I'm going to call out"
+    },
+    {
+      "start": 370.639,
+      "duration": 5.28,
+      "text": "like what are the most controversial"
+    },
+    {
+      "start": 372.479,
+      "duration": 7.681,
+      "text": "things on this page? Uh the Haiku being"
+    },
+    {
+      "start": 375.919,
+      "duration": 6.961,
+      "text": "alone in S tiers one. uh GPT5.1"
+    },
+    {
+      "start": 380.16,
+      "duration": 3.759,
+      "text": "being on the same tier as Opus 45. I"
+    },
+    {
+      "start": 382.88,
+      "duration": 3.12,
+      "text": "think that's probably going to be a"
+    },
+    {
+      "start": 383.919,
+      "duration": 6.081,
+      "text": "little controversial as well as Grock"
+    },
+    {
+      "start": 386,
+      "duration": 6.88,
+      "text": "Codefest one and then uh Gemini 3 Pro"
+    },
+    {
+      "start": 390,
+      "duration": 6.24,
+      "text": "being down in C tier might also be a"
+    },
+    {
+      "start": 392.88,
+      "duration": 5.2,
+      "text": "little bit controversial, but I that"
+    },
+    {
+      "start": 396.24,
+      "duration": 4.399,
+      "text": "jumps right to mind because the whole"
+    },
+    {
+      "start": 398.08,
+      "duration": 5.76,
+      "text": "web not less than a couple of weeks ago"
+    },
+    {
+      "start": 400.639,
+      "duration": 6.56,
+      "text": "was like crowning the new king and and"
+    },
+    {
+      "start": 403.84,
+      "duration": 5.68,
+      "text": "uh we found that maybe not. I mean and"
+    },
+    {
+      "start": 407.199,
+      "duration": 4.801,
+      "text": "it when you when you look at it from an"
+    },
+    {
+      "start": 409.52,
+      "duration": 5.44,
+      "text": "you know all points in vantage point it"
+    },
+    {
+      "start": 412,
+      "duration": 4.319,
+      "text": "it yeah it's it's it may be fast and of"
+    },
+    {
+      "start": 414.96,
+      "duration": 4.799,
+      "text": "course things that came with it like"
+    },
+    {
+      "start": 416.319,
+      "duration": 6.801,
+      "text": "nanobano are pretty amazing but as far"
+    },
+    {
+      "start": 419.759,
+      "duration": 6.241,
+      "text": "as how it performs in a coding task and"
+    },
+    {
+      "start": 423.12,
+      "duration": 4.639,
+      "text": "we we found alternative we well we found"
+    },
+    {
+      "start": 426,
+      "duration": 3.36,
+      "text": "a different story and may maybe you can"
+    },
+    {
+      "start": 427.759,
+      "duration": 4,
+      "text": "talk a little bit about what we found"
+    },
+    {
+      "start": 429.36,
+      "duration": 4.64,
+      "text": "when uh when when you put Gemini 3"
+    },
+    {
+      "start": 431.759,
+      "duration": 4.321,
+      "text": "through its paces. Yeah, we'll we'll do"
+    },
+    {
+      "start": 434,
+      "duration": 4.08,
+      "text": "that in in just a little bit, but but"
+    },
+    {
+      "start": 436.08,
+      "duration": 4.08,
+      "text": "first I I want to defend my S tier pick"
+    },
+    {
+      "start": 438.08,
+      "duration": 2.959,
+      "text": "and explain where that's coming from."
+    },
+    {
+      "start": 440.16,
+      "duration": 2.96,
+      "text": ">> That sounds great."
+    },
+    {
+      "start": 441.039,
+      "duration": 4.481,
+      "text": ">> And and"
+    },
+    {
+      "start": 443.12,
+      "duration": 4.24,
+      "text": "before we do that, uh I just want to"
+    },
+    {
+      "start": 445.52,
+      "duration": 4.239,
+      "text": "point out that the power ranking data"
+    },
+    {
+      "start": 447.36,
+      "duration": 4,
+      "text": "set is public. We have a GitHub repo"
+    },
+    {
+      "start": 449.759,
+      "duration": 4.801,
+      "text": "Brockai"
+    },
+    {
+      "start": 451.36,
+      "duration": 4.8,
+      "text": "Power Rank. It's Apache licensed. So,"
+    },
+    {
+      "start": 454.56,
+      "duration": 4.16,
+      "text": "you know, knock yourselves out, dig into"
+    },
+    {
+      "start": 456.16,
+      "duration": 5.36,
+      "text": "the tasks. But th those are tasks coming"
+    },
+    {
+      "start": 458.72,
+      "duration": 6.16,
+      "text": "from five uh open source Java"
+    },
+    {
+      "start": 461.52,
+      "duration": 6.48,
+      "text": "repositories where we've said take we've"
+    },
+    {
+      "start": 464.88,
+      "duration": 7.12,
+      "text": "taken commits from the Apache Cassandra"
+    },
+    {
+      "start": 468,
+      "duration": 7.039,
+      "text": "Apache lucine lang chain forj jit and"
+    },
+    {
+      "start": 472,
+      "duration": 5.599,
+      "text": "brock itself and we've asked an LLM to"
+    },
+    {
+      "start": 475.039,
+      "duration": 5.041,
+      "text": "generate synthetic tasks using those"
+    },
+    {
+      "start": 477.599,
+      "duration": 4.401,
+      "text": "commits and and those tasks you know"
+    },
+    {
+      "start": 480.08,
+      "duration": 5.92,
+      "text": "those tasks are there and the the run"
+    },
+    {
+      "start": 482,
+      "duration": 6.8,
+      "text": "harness is there and so yeah it's all"
+    },
+    {
+      "start": 486,
+      "duration": 5.039,
+      "text": "it's all open source. So, if you can"
+    },
+    {
+      "start": 488.8,
+      "duration": 5.6,
+      "text": "show us how to do this better, we'd love"
+    },
+    {
+      "start": 491.039,
+      "duration": 5.761,
+      "text": "to to listen because this is driving our"
+    },
+    {
+      "start": 494.4,
+      "duration": 5.04,
+      "text": "product decisions as well as our coding"
+    },
+    {
+      "start": 496.8,
+      "duration": 4.56,
+      "text": "as engineers. So, we're we're very"
+    },
+    {
+      "start": 499.44,
+      "duration": 5.28,
+      "text": "invested in in making sure this is as"
+    },
+    {
+      "start": 501.36,
+      "duration": 4.08,
+      "text": "accurate as we can make it. Yeah, I know"
+    },
+    {
+      "start": 504.72,
+      "duration": 3.52,
+      "text": "that"
+    },
+    {
+      "start": 505.44,
+      "duration": 4.879,
+      "text": ">> I know that this is on my my hit list of"
+    },
+    {
+      "start": 508.24,
+      "duration": 4.96,
+      "text": "things to do is I would love to add, you"
+    },
+    {
+      "start": 510.319,
+      "duration": 5.121,
+      "text": "know, my old alma mo to the list and and"
+    },
+    {
+      "start": 513.2,
+      "duration": 4.88,
+      "text": "pit pit it against the current version"
+    },
+    {
+      "start": 515.44,
+      "duration": 4.56,
+      "text": "of EngineX core. I think that would be a"
+    },
+    {
+      "start": 518.08,
+      "duration": 3.519,
+      "text": "nice addition. It's kind of in the same"
+    },
+    {
+      "start": 520,
+      "duration": 3.36,
+      "text": "realm as the rest of the things that"
+    },
+    {
+      "start": 521.599,
+      "duration": 3.521,
+      "text": "we're touching and it's it's pretty much"
+    },
+    {
+      "start": 523.36,
+      "duration": 4.32,
+      "text": "native C. So, that would be an excellent"
+    },
+    {
+      "start": 525.12,
+      "duration": 5.36,
+      "text": "test. I also think that one thing that"
+    },
+    {
+      "start": 527.68,
+      "duration": 7.2,
+      "text": "that I think would be interesting is to"
+    },
+    {
+      "start": 530.48,
+      "duration": 6.4,
+      "text": "see uh what what the experience of our"
+    },
+    {
+      "start": 534.88,
+      "duration": 3.519,
+      "text": "uh of the open source community if they"
+    },
+    {
+      "start": 536.88,
+      "duration": 3.44,
+      "text": "wanted to add their own tests if they"
+    },
+    {
+      "start": 538.399,
+      "duration": 5.12,
+      "text": "want to fork it and add own tests or add"
+    },
+    {
+      "start": 540.32,
+      "duration": 6.24,
+      "text": "tests as just sending in a PR that would"
+    },
+    {
+      "start": 543.519,
+      "duration": 5.201,
+      "text": "be that would be fantastic to see that."
+    },
+    {
+      "start": 546.56,
+      "duration": 3.92,
+      "text": ">> Yeah. The one the one hurdle to to"
+    },
+    {
+      "start": 548.72,
+      "duration": 3.679,
+      "text": "participating there is that if you want"
+    },
+    {
+      "start": 550.48,
+      "duration": 3.919,
+      "text": "to run the full test suite, it does get"
+    },
+    {
+      "start": 552.399,
+      "duration": 6.081,
+      "text": "expensive, especially with your your"
+    },
+    {
+      "start": 554.399,
+      "duration": 6.801,
+      "text": "Opus 45 and before Opus 545, we"
+    },
+    {
+      "start": 558.48,
+      "duration": 5.84,
+      "text": "benchmarked Opus 41 for August and that"
+    },
+    {
+      "start": 561.2,
+      "duration": 5.759,
+      "text": "was three times as expensive. So, uh"
+    },
+    {
+      "start": 564.32,
+      "duration": 5.12,
+      "text": "yeah, it can it can get pricey. Uh but"
+    },
+    {
+      "start": 566.959,
+      "duration": 5.121,
+      "text": "let's let's dig into the results here."
+    },
+    {
+      "start": 569.44,
+      "duration": 7.839,
+      "text": "And this is this is my illustration of"
+    },
+    {
+      "start": 572.08,
+      "duration": 9.28,
+      "text": "why uh Haiku 45 is alone in the S tier."
+    },
+    {
+      "start": 577.279,
+      "duration": 7.12,
+      "text": "And and this is the most qualitative"
+    },
+    {
+      "start": 581.36,
+      "duration": 5.599,
+      "text": "judgment call on the tier list. And and"
+    },
+    {
+      "start": 584.399,
+      "duration": 6.56,
+      "text": "the reason it's qualitative is that I've"
+    },
+    {
+      "start": 586.959,
+      "duration": 7.281,
+      "text": "drawn a line here at about 45%. And"
+    },
+    {
+      "start": 590.959,
+      "duration": 4.88,
+      "text": "that's an on the one hand it's an"
+    },
+    {
+      "start": 594.24,
+      "duration": 5.2,
+      "text": "arbitrary number but on the other hand"
+    },
+    {
+      "start": 595.839,
+      "duration": 7.041,
+      "text": "it it's guided by my experience using"
+    },
+    {
+      "start": 599.44,
+      "duration": 8.16,
+      "text": "models full-time to write code with for"
+    },
+    {
+      "start": 602.88,
+      "duration": 7.92,
+      "text": "the past six to eight months. And"
+    },
+    {
+      "start": 607.6,
+      "duration": 5.359,
+      "text": "above that line is where you stop"
+    },
+    {
+      "start": 610.8,
+      "duration": 5.52,
+      "text": "needing to hold the model's hand so"
+    },
+    {
+      "start": 612.959,
+      "duration": 6.88,
+      "text": "much. It can handle larger tasks that"
+    },
+    {
+      "start": 616.32,
+      "duration": 5.68,
+      "text": "have more components to them and figure"
+    },
+    {
+      "start": 619.839,
+      "duration": 4.641,
+      "text": "out how to do those across multiple"
+    },
+    {
+      "start": 622,
+      "duration": 5.36,
+      "text": "files and so forth without you having to"
+    },
+    {
+      "start": 624.48,
+      "duration": 4.64,
+      "text": "break it down for them further. And so"
+    },
+    {
+      "start": 627.36,
+      "duration": 3.84,
+      "text": "yeah, could you say that the line really"
+    },
+    {
+      "start": 629.12,
+      "duration": 4.24,
+      "text": "should be 55%?"
+    },
+    {
+      "start": 631.2,
+      "duration": 3.68,
+      "text": "Maybe. Could you say it should really be"
+    },
+    {
+      "start": 633.36,
+      "duration": 4.08,
+      "text": "35%?"
+    },
+    {
+      "start": 634.88,
+      "duration": 4.8,
+      "text": "I think that's a little bit I think you"
+    },
+    {
+      "start": 637.44,
+      "duration": 6.56,
+      "text": "would be disappointed with most of the"
+    },
+    {
+      "start": 639.68,
+      "duration": 8.64,
+      "text": "models uh below 35%. So 45% is my"
+    },
+    {
+      "start": 644,
+      "duration": 7.279,
+      "text": "experience and uh my intuition of this"
+    },
+    {
+      "start": 648.32,
+      "duration": 5.12,
+      "text": "is above this line you can get a lot of"
+    },
+    {
+      "start": 651.279,
+      "duration": 6.401,
+      "text": "good work done with the models with a"
+    },
+    {
+      "start": 653.44,
+      "duration": 6.72,
+      "text": "minimum of hassle and so given that"
+    },
+    {
+      "start": 657.68,
+      "duration": 4.96,
+      "text": "minimum level of intelligence the most"
+    },
+    {
+      "start": 660.16,
+      "duration": 5.52,
+      "text": "important thing when I'm coding with the"
+    },
+    {
+      "start": 662.64,
+      "duration": 5.6,
+      "text": "model is how much how much does it make"
+    },
+    {
+      "start": 665.68,
+      "duration": 5.04,
+      "text": "me wait because when I'm waiting I'm"
+    },
+    {
+      "start": 668.24,
+      "duration": 4.159,
+      "text": "starting to fidget I'm thinking oh like"
+    },
+    {
+      "start": 670.72,
+      "duration": 3.84,
+      "text": "you know I can wait for a few seconds,"
+    },
+    {
+      "start": 672.399,
+      "duration": 4.081,
+      "text": "right? But if it's Yeah. turns into a"
+    },
+    {
+      "start": 674.56,
+      "duration": 3.92,
+      "text": "few minutes, it's like, \"Oh, what's on"
+    },
+    {
+      "start": 676.48,
+      "duration": 4.08,
+      "text": "Hacker News?\" Like, \"What's on X?\""
+    },
+    {
+      "start": 678.48,
+      "duration": 4.56,
+      "text": ">> Yeah, I'm distracted now and and I'm"
+    },
+    {
+      "start": 680.56,
+      "duration": 3.839,
+      "text": "losing productivity by the second. Yeah."
+    },
+    {
+      "start": 683.04,
+      "duration": 3.28,
+      "text": "And that and you don't know what's going"
+    },
+    {
+      "start": 684.399,
+      "duration": 4.801,
+      "text": "on if you if you and that's something we"
+    },
+    {
+      "start": 686.32,
+      "duration": 4.959,
+      "text": "address as well. But, you know, in Brock"
+    },
+    {
+      "start": 689.2,
+      "duration": 4.079,
+      "text": "itself, giving the visibility that's"
+    },
+    {
+      "start": 691.279,
+      "duration": 4.161,
+      "text": "necessary to what's happening in the"
+    },
+    {
+      "start": 693.279,
+      "duration": 3.601,
+      "text": "background. I get I start to get worried"
+    },
+    {
+      "start": 695.44,
+      "duration": 2.8,
+      "text": "personally. I start going, okay, what is"
+    },
+    {
+      "start": 696.88,
+      "duration": 4,
+      "text": "it doing? What is it ch? What's it"
+    },
+    {
+      "start": 698.24,
+      "duration": 4.56,
+      "text": "touching that I can't see that I'm going"
+    },
+    {
+      "start": 700.88,
+      "duration": 3.84,
+      "text": "to have to spend the next three hours"
+    },
+    {
+      "start": 702.8,
+      "duration": 3.44,
+      "text": "fixing? Which is something that I think"
+    },
+    {
+      "start": 704.72,
+      "duration": 3.6,
+      "text": "everybody's experienced when they're"
+    },
+    {
+      "start": 706.24,
+      "duration": 4.159,
+      "text": "when they're coding with an LLM."
+    },
+    {
+      "start": 708.32,
+      "duration": 4.56,
+      "text": ">> Yeah. Yeah. And and so I I mentioned"
+    },
+    {
+      "start": 710.399,
+      "duration": 4.56,
+      "text": "that you do need you do need a decent"
+    },
+    {
+      "start": 712.88,
+      "duration": 4.88,
+      "text": "budget to run the tests and you also"
+    },
+    {
+      "start": 714.959,
+      "duration": 5.841,
+      "text": "need a certain amount of patience uh and"
+    },
+    {
+      "start": 717.76,
+      "duration": 5.519,
+      "text": "a a fair amount of RAM because the more"
+    },
+    {
+      "start": 720.8,
+      "duration": 4.479,
+      "text": "you can parallelize the tests uh then"
+    },
+    {
+      "start": 723.279,
+      "duration": 3.601,
+      "text": "the faster you'll get done overall. And"
+    },
+    {
+      "start": 725.279,
+      "duration": 3.68,
+      "text": "so you can see the numbers here. The"
+    },
+    {
+      "start": 726.88,
+      "duration": 5.36,
+      "text": "first number there is not minutes, it's"
+    },
+    {
+      "start": 728.959,
+      "duration": 6.161,
+      "text": "hours. So this was uh five hours of"
+    },
+    {
+      "start": 732.24,
+      "duration": 6.399,
+      "text": "thinking time for Claude 45, seven and a"
+    },
+    {
+      "start": 735.12,
+      "duration": 5.92,
+      "text": "half for Claude Sonnet and 12 hours for"
+    },
+    {
+      "start": 738.639,
+      "duration": 5.76,
+      "text": "Claude Opus. And so we're going from"
+    },
+    {
+      "start": 741.04,
+      "duration": 6.479,
+      "text": "sonnet. If we move to the right above"
+    },
+    {
+      "start": 744.399,
+      "duration": 5.761,
+      "text": "that line of Jonathan thinks these"
+    },
+    {
+      "start": 747.519,
+      "duration": 5.041,
+      "text": "models are smart enough, we hit"
+    },
+    {
+      "start": 750.16,
+      "duration": 4.72,
+      "text": "anthropic anthropic anthropic before we"
+    },
+    {
+      "start": 752.56,
+      "duration": 5.279,
+      "text": "hit someone else. And that's why that's"
+    },
+    {
+      "start": 754.88,
+      "duration": 6.079,
+      "text": "why Haiku is in the S tier because uh I"
+    },
+    {
+      "start": 757.839,
+      "duration": 5.761,
+      "text": "I I didn't want to give it a joint prize"
+    },
+    {
+      "start": 760.959,
+      "duration": 5.281,
+      "text": "to all of the anthropic models, but like"
+    },
+    {
+      "start": 763.6,
+      "duration": 6.64,
+      "text": "the these guys anthropic is cooking with"
+    },
+    {
+      "start": 766.24,
+      "duration": 7.599,
+      "text": "something special and Haiku is my go-to"
+    },
+    {
+      "start": 770.24,
+      "duration": 5.76,
+      "text": "weapon of choice for coding out the"
+    },
+    {
+      "start": 773.839,
+      "duration": 3.761,
+      "text": "plans that I've generated with with a"
+    },
+    {
+      "start": 776,
+      "duration": 3.2,
+      "text": "smarter model."
+    },
+    {
+      "start": 777.6,
+      "duration": 3.12,
+      "text": ">> Yeah. Yeah, that makes total sense."
+    },
+    {
+      "start": 779.2,
+      "duration": 4.48,
+      "text": "plus, you know, I mean, when you get"
+    },
+    {
+      "start": 780.72,
+      "duration": 5.76,
+      "text": "into seven plus hours of thinking time,"
+    },
+    {
+      "start": 783.68,
+      "duration": 4.159,
+      "text": "that is a non-trivial amount of time."
+    },
+    {
+      "start": 786.48,
+      "duration": 2.88,
+      "text": ">> Yeah. And of course, that's, you know,"
+    },
+    {
+      "start": 787.839,
+      "duration": 3.521,
+      "text": "we're we're parallelizing that. We're"
+    },
+    {
+      "start": 789.36,
+      "duration": 4.88,
+      "text": "running lots of tests in parallel, but"
+    },
+    {
+      "start": 791.36,
+      "duration": 6.4,
+      "text": "yeah, it is it is a lot of time. Yeah."
+    },
+    {
+      "start": 794.24,
+      "duration": 6.88,
+      "text": ">> The next tiers, the the A tier list is"
+    },
+    {
+      "start": 797.76,
+      "duration": 5.68,
+      "text": "basically who's on the PTO frontier for"
+    },
+    {
+      "start": 801.12,
+      "duration": 5.92,
+      "text": "cost versus performance and cost versus"
+    },
+    {
+      "start": 803.44,
+      "duration": 5.839,
+      "text": "speed. And Pareto Frontier means that if"
+    },
+    {
+      "start": 807.04,
+      "duration": 5.2,
+      "text": "I'm if I'm looking at I' I've drawn it"
+    },
+    {
+      "start": 809.279,
+      "duration": 6.481,
+      "text": "out on this graph. So Grock Codefast"
+    },
+    {
+      "start": 812.24,
+      "duration": 5.76,
+      "text": "One, GPT5 Mini, and GPT51"
+    },
+    {
+      "start": 815.76,
+      "duration": 6.96,
+      "text": "are on the Pareto frontier, which means"
+    },
+    {
+      "start": 818,
+      "duration": 7.44,
+      "text": "that you cannot get less expensive"
+    },
+    {
+      "start": 822.72,
+      "duration": 5.52,
+      "text": "without giving up performance."
+    },
+    {
+      "start": 825.44,
+      "duration": 4.639,
+      "text": ">> Yeah. And so that's the you you have to"
+    },
+    {
+      "start": 828.24,
+      "duration": 4.24,
+      "text": "give up something. This is the law of"
+    },
+    {
+      "start": 830.079,
+      "duration": 4.56,
+      "text": "equivalent of equivalent exchange so to"
+    },
+    {
+      "start": 832.48,
+      "duration": 4.159,
+      "text": "speak where you know there there has to"
+    },
+    {
+      "start": 834.639,
+      "duration": 3.121,
+      "text": "be a trade-off just just to clarify for"
+    },
+    {
+      "start": 836.639,
+      "duration": 3.921,
+      "text": "folks who don't know what the Prito"
+    },
+    {
+      "start": 837.76,
+      "duration": 4.4,
+      "text": "Frontier is right and so that and and"
+    },
+    {
+      "start": 840.56,
+      "duration": 3.519,
+      "text": "this one the speed versus performance"
+    },
+    {
+      "start": 842.16,
+      "duration": 4.88,
+      "text": "we've got Haiku we've got Sonnet and"
+    },
+    {
+      "start": 844.079,
+      "duration": 5.841,
+      "text": "Opus um"
+    },
+    {
+      "start": 847.04,
+      "duration": 4.479,
+      "text": "those models that we connected with"
+    },
+    {
+      "start": 849.92,
+      "duration": 4.479,
+      "text": "those lines on the frontier those are"
+    },
+    {
+      "start": 851.519,
+      "duration": 4.961,
+      "text": "what made it into the A tier and this is"
+    },
+    {
+      "start": 854.399,
+      "duration": 4.56,
+      "text": "this is my other somewhat arbitrary"
+    },
+    {
+      "start": 856.48,
+      "duration": 5.52,
+      "text": "judgment call where I said look Look at"
+    },
+    {
+      "start": 858.959,
+      "duration": 5.361,
+      "text": "that bend. Right. So on on the cost"
+    },
+    {
+      "start": 862,
+      "duration": 4.88,
+      "text": "versus performance, the the graph is"
+    },
+    {
+      "start": 864.32,
+      "duration": 4.48,
+      "text": "going up. It's kind of curving up and to"
+    },
+    {
+      "start": 866.88,
+      "duration": 3.92,
+      "text": "the right. And on this one, it's going"
+    },
+    {
+      "start": 868.8,
+      "duration": 4.719,
+      "text": "kind of making a dent the other"
+    },
+    {
+      "start": 870.8,
+      "duration": 5.039,
+      "text": "direction. And that means that if you"
+    },
+    {
+      "start": 873.519,
+      "duration": 6.081,
+      "text": "look at it from that perspective, it"
+    },
+    {
+      "start": 875.839,
+      "duration": 6.401,
+      "text": "means Claude 45 Sonnet is a worse value"
+    },
+    {
+      "start": 879.6,
+      "duration": 4.64,
+      "text": "than Haiku or Opus because you're not"
+    },
+    {
+      "start": 882.24,
+      "duration": 3.36,
+      "text": "getting as much performance as Opus and"
+    },
+    {
+      "start": 884.24,
+      "duration": 3.68,
+      "text": "you're not getting as much speed as"
+    },
+    {
+      "start": 885.6,
+      "duration": 4.16,
+      "text": "Haiku. So, I said, \"You know what? Even"
+    },
+    {
+      "start": 887.92,
+      "duration": 5.039,
+      "text": "though it's on the Purto frontier,"
+    },
+    {
+      "start": 889.76,
+      "duration": 5.28,
+      "text": "you're not as good as your two brothers"
+    },
+    {
+      "start": 892.959,
+      "duration": 3.761,
+      "text": "here, and so I'm going to put you in the"
+    },
+    {
+      "start": 895.04,
+      "duration": 5.039,
+      "text": "B tier.\""
+    },
+    {
+      "start": 896.72,
+      "duration": 5.04,
+      "text": ">> Yeah, that makes sense. I mean, again,"
+    },
+    {
+      "start": 900.079,
+      "duration": 4.161,
+      "text": "it's if if you're working with one"
+    },
+    {
+      "start": 901.76,
+      "duration": 4.4,
+      "text": "measurement, I mean, I'm not sure, you"
+    },
+    {
+      "start": 904.24,
+      "duration": 3.44,
+      "text": "know, I that's where that that calls"
+    },
+    {
+      "start": 906.16,
+      "duration": 3.679,
+      "text": "into the usefulness of a single"
+    },
+    {
+      "start": 907.68,
+      "duration": 4.56,
+      "text": "measurement, you know. And then the the"
+    },
+    {
+      "start": 909.839,
+      "duration": 6.321,
+      "text": "last thing I promised was a defense of"
+    },
+    {
+      "start": 912.24,
+      "duration": 7.12,
+      "text": "why Gemini 3 Pro was all the way down in"
+    },
+    {
+      "start": 916.16,
+      "duration": 5.919,
+      "text": "the C tier. And to visualize that, I"
+    },
+    {
+      "start": 919.36,
+      "duration": 5.839,
+      "text": "wanted to put all three metrics on a"
+    },
+    {
+      "start": 922.079,
+      "duration": 6.161,
+      "text": "single plot. And so I've got this radar"
+    },
+    {
+      "start": 925.199,
+      "duration": 6.961,
+      "text": "chart here where I've got speed, score,"
+    },
+    {
+      "start": 928.24,
+      "duration": 5.599,
+      "text": "and price for those three models."
+    },
+    {
+      "start": 932.16,
+      "duration": 4.4,
+      "text": "And"
+    },
+    {
+      "start": 933.839,
+      "duration": 5.921,
+      "text": "I've normalized the speed and the prize"
+    },
+    {
+      "start": 936.56,
+      "duration": 5.839,
+      "text": "to you get 100 points if you're the"
+    },
+    {
+      "start": 939.76,
+      "duration": 6.8,
+      "text": "fastest one. And so and then the others"
+    },
+    {
+      "start": 942.399,
+      "duration": 7.68,
+      "text": "the other scores are what percent of"
+    },
+    {
+      "start": 946.56,
+      "duration": 6.88,
+      "text": "that are you? So if GPT51 is twice as"
+    },
+    {
+      "start": 950.079,
+      "duration": 5.361,
+      "text": "slow or takes twice as long as Opus,"
+    },
+    {
+      "start": 953.44,
+      "duration": 4.88,
+      "text": "then it's going to have a speed of about"
+    },
+    {
+      "start": 955.44,
+      "duration": 4.639,
+      "text": "50. Uh and that's what we that's what we"
+    },
+    {
+      "start": 958.32,
+      "duration": 6.639,
+      "text": "see here. It's actually a speed of about"
+    },
+    {
+      "start": 960.079,
+      "duration": 7.841,
+      "text": "40. So Claude is really fast and really"
+    },
+    {
+      "start": 964.959,
+      "duration": 6.721,
+      "text": "smart and GPT51"
+    },
+    {
+      "start": 967.92,
+      "duration": 7.44,
+      "text": "is really inexpensive and really smart"
+    },
+    {
+      "start": 971.68,
+      "duration": 6.32,
+      "text": "and Gemini 3 Pro is neither fast nor"
+    },
+    {
+      "start": 975.36,
+      "duration": 4.719,
+      "text": "inexpensive and it also gives up a"
+    },
+    {
+      "start": 978,
+      "duration": 4.639,
+      "text": "little bit in intelligence"
+    },
+    {
+      "start": 980.079,
+      "duration": 4.241,
+      "text": "uh to the other two models. And so"
+    },
+    {
+      "start": 982.639,
+      "duration": 3.921,
+      "text": "that's that's why that's why it's"
+    },
+    {
+      "start": 984.32,
+      "duration": 4.24,
+      "text": "clocking in here. And by the way, I"
+    },
+    {
+      "start": 986.56,
+      "duration": 5.12,
+      "text": "fully think this is a preview, right?"
+    },
+    {
+      "start": 988.56,
+      "duration": 5.68,
+      "text": "And and I fully think that when Google"
+    },
+    {
+      "start": 991.68,
+      "duration": 6,
+      "text": "launches the full model that it's"
+    },
+    {
+      "start": 994.24,
+      "duration": 5.12,
+      "text": "definitely going to bump bump up on the"
+    },
+    {
+      "start": 997.68,
+      "duration": 4.24,
+      "text": "intelligence level and maybe on the"
+    },
+    {
+      "start": 999.36,
+      "duration": 5.44,
+      "text": "others as well because right now when I"
+    },
+    {
+      "start": 1001.92,
+      "duration": 5.279,
+      "text": "looked at the results coming out of the"
+    },
+    {
+      "start": 1004.8,
+      "duration": 6.8,
+      "text": "test harness, there were a bunch of"
+    },
+    {
+      "start": 1007.199,
+      "duration": 6.801,
+      "text": "tasks where Gemini 3 got stuck in a loop"
+    },
+    {
+      "start": 1011.6,
+      "duration": 5.28,
+      "text": "and it would just"
+    },
+    {
+      "start": 1014,
+      "duration": 5.92,
+      "text": ">> it would just be open. I'm ready to"
+    },
+    {
+      "start": 1016.88,
+      "duration": 5.12,
+      "text": "submit my answer. I'm ready to to be"
+    },
+    {
+      "start": 1019.92,
+      "duration": 3.68,
+      "text": "done. I've solved the problem. And it"
+    },
+    {
+      "start": 1022,
+      "duration": 3.6,
+      "text": "would just be looping and saying that"
+    },
+    {
+      "start": 1023.6,
+      "duration": 4.959,
+      "text": "over and over and over and it never"
+    },
+    {
+      "start": 1025.6,
+      "duration": 5.359,
+      "text": "actually would solve the problem."
+    },
+    {
+      "start": 1028.559,
+      "duration": 4.161,
+      "text": ">> It had some weird reasoning loop and you"
+    },
+    {
+      "start": 1030.959,
+      "duration": 3.681,
+      "text": "could watch that if you just watch it"
+    },
+    {
+      "start": 1032.72,
+      "duration": 3.44,
+      "text": "like if you just look at Gemini even"
+    },
+    {
+      "start": 1034.64,
+      "duration": 4.08,
+      "text": "even if you're not trying to code with"
+    },
+    {
+      "start": 1036.16,
+      "duration": 4.32,
+      "text": "Gemini and you just look at Gemini 3"
+    },
+    {
+      "start": 1038.72,
+      "duration": 4.64,
+      "text": "just ask it a question and then follow"
+    },
+    {
+      "start": 1040.48,
+      "duration": 5.359,
+      "text": "its reasoning cycle. It's continually"
+    },
+    {
+      "start": 1043.36,
+      "duration": 4.8,
+      "text": "second-guessing itself over and over and"
+    },
+    {
+      "start": 1045.839,
+      "duration": 4.401,
+      "text": "over. And I feel like that manifests in"
+    },
+    {
+      "start": 1048.16,
+      "duration": 3.519,
+      "text": "the coding space as"
+    },
+    {
+      "start": 1050.24,
+      "duration": 4.16,
+      "text": ">> well. That's that's a tricky thing to"
+    },
+    {
+      "start": 1051.679,
+      "duration": 4.401,
+      "text": "get right because multiple labs do that."
+    },
+    {
+      "start": 1054.4,
+      "duration": 4.639,
+      "text": "And what they're doing is they're trying"
+    },
+    {
+      "start": 1056.08,
+      "duration": 7.76,
+      "text": "to get the model to think long enough to"
+    },
+    {
+      "start": 1059.039,
+      "duration": 7.921,
+      "text": "get to its maximumly good answer. Uh so"
+    },
+    {
+      "start": 1063.84,
+      "duration": 5.839,
+      "text": "so they'll just I I don't know what's"
+    },
+    {
+      "start": 1066.96,
+      "duration": 5.12,
+      "text": "going on under the hood with Gemini, but"
+    },
+    {
+      "start": 1069.679,
+      "duration": 5.521,
+      "text": "uh a lot of the models will just like"
+    },
+    {
+      "start": 1072.08,
+      "duration": 7.12,
+      "text": "they they have a very high propensity to"
+    },
+    {
+      "start": 1075.2,
+      "duration": 7.28,
+      "text": "generate tokens like wait or actually"
+    },
+    {
+      "start": 1079.2,
+      "duration": 5.68,
+      "text": "and and that sends it off in a kind of"
+    },
+    {
+      "start": 1082.48,
+      "duration": 4,
+      "text": "checking its work direction. And so"
+    },
+    {
+      "start": 1084.88,
+      "duration": 4.08,
+      "text": "that's that's a useful thing to have,"
+    },
+    {
+      "start": 1086.48,
+      "duration": 4.319,
+      "text": "but not only if it does only if you"
+    },
+    {
+      "start": 1088.96,
+      "duration": 4,
+      "text": "don't get stuck in that mode."
+    },
+    {
+      "start": 1090.799,
+      "duration": 4.561,
+      "text": ">> Yeah. Yeah. And and that's where that's"
+    },
+    {
+      "start": 1092.96,
+      "duration": 5.04,
+      "text": "where it's like the it's the there's a"
+    },
+    {
+      "start": 1095.36,
+      "duration": 4.16,
+      "text": "saying that I I I saw I saw from you"
+    },
+    {
+      "start": 1098,
+      "duration": 3.6,
+      "text": "recently where you said it doesn't have"
+    },
+    {
+      "start": 1099.52,
+      "duration": 4,
+      "text": "to be uh goldplated. And I feel like"
+    },
+    {
+      "start": 1101.6,
+      "duration": 3.6,
+      "text": "that's the this is the LLM equivalent of"
+    },
+    {
+      "start": 1103.52,
+      "duration": 3.519,
+      "text": "that. It's like okay, we you need to"
+    },
+    {
+      "start": 1105.2,
+      "duration": 3.76,
+      "text": "reach a point of good enough and then"
+    },
+    {
+      "start": 1107.039,
+      "duration": 4.561,
+      "text": "just stick a fork in the sand and then"
+    },
+    {
+      "start": 1108.96,
+      "duration": 4.88,
+      "text": "we can we can correct context from there"
+    },
+    {
+      "start": 1111.6,
+      "duration": 4.079,
+      "text": "if necessary, but you just can't keep"
+    },
+    {
+      "start": 1113.84,
+      "duration": 3.52,
+      "text": "doing that forever because you know"
+    },
+    {
+      "start": 1115.679,
+      "duration": 2.561,
+      "text": "people are you're you're burning tokens"
+    },
+    {
+      "start": 1117.36,
+      "duration": 2.319,
+      "text": "in time,"
+    },
+    {
+      "start": 1118.24,
+      "duration": 3.76,
+      "text": ">> right?"
+    },
+    {
+      "start": 1119.679,
+      "duration": 4.561,
+      "text": "So the the other thing that I I wanted"
+    },
+    {
+      "start": 1122,
+      "duration": 5.2,
+      "text": "to to show then is you know we kind of"
+    },
+    {
+      "start": 1124.24,
+      "duration": 5.2,
+      "text": "took a look at the the big boys and you"
+    },
+    {
+      "start": 1127.2,
+      "duration": 4.56,
+      "text": "know what am I going to do when my boss"
+    },
+    {
+      "start": 1129.44,
+      "duration": 4.16,
+      "text": "is paying for it and then this is a"
+    },
+    {
+      "start": 1131.76,
+      "duration": 5.12,
+      "text": "visualization of kind of the budget"
+    },
+    {
+      "start": 1133.6,
+      "duration": 6.72,
+      "text": "category. So if we zoom in on the graph"
+    },
+    {
+      "start": 1136.88,
+      "duration": 5.84,
+      "text": "of cost versus performance who's"
+    },
+    {
+      "start": 1140.32,
+      "duration": 5.359,
+      "text": "delivering the most intelligence at the"
+    },
+    {
+      "start": 1142.72,
+      "duration": 6.56,
+      "text": "lowest price and it's it's really these"
+    },
+    {
+      "start": 1145.679,
+      "duration": 6.961,
+      "text": "three models. It's uh GPT5 Mini and it's"
+    },
+    {
+      "start": 1149.28,
+      "duration": 7.36,
+      "text": "two models from XAI, which was actually"
+    },
+    {
+      "start": 1152.64,
+      "duration": 6.399,
+      "text": "surprising to me. And last time around"
+    },
+    {
+      "start": 1156.64,
+      "duration": 4.8,
+      "text": "in August, if I remember correctly, none"
+    },
+    {
+      "start": 1159.039,
+      "duration": 4.321,
+      "text": "of the XAI models made it to the"
+    },
+    {
+      "start": 1161.44,
+      "duration": 4.96,
+      "text": "finalists round where we test them with"
+    },
+    {
+      "start": 1163.36,
+      "duration": 6,
+      "text": "the entire test suite. But this time, we"
+    },
+    {
+      "start": 1166.4,
+      "duration": 4.8,
+      "text": "had two of them make it there. And Grock"
+    },
+    {
+      "start": 1169.36,
+      "duration": 5.12,
+      "text": "Codef fast one, if you look at that blue"
+    },
+    {
+      "start": 1171.2,
+      "duration": 6.479,
+      "text": "area on the graph, like it's at a really"
+    },
+    {
+      "start": 1174.48,
+      "duration": 6.4,
+      "text": "good spot where it's delivering amazing"
+    },
+    {
+      "start": 1177.679,
+      "duration": 4.961,
+      "text": "price. It's delivering very solid speed"
+    },
+    {
+      "start": 1180.88,
+      "duration": 3.76,
+      "text": "and it's delivering it's giving up a"
+    },
+    {
+      "start": 1182.64,
+      "duration": 5.36,
+      "text": "little bit on intelligence. Yes, but it"
+    },
+    {
+      "start": 1184.64,
+      "duration": 5.84,
+      "text": "it is delivering a lot uh for what"
+    },
+    {
+      "start": 1188,
+      "duration": 5.2,
+      "text": "you're paying. Uh the other one that I"
+    },
+    {
+      "start": 1190.48,
+      "duration": 4.72,
+      "text": "think obviously is is a good candidate"
+    },
+    {
+      "start": 1193.2,
+      "duration": 4.8,
+      "text": "for the best model to use in the budget"
+    },
+    {
+      "start": 1195.2,
+      "duration": 5.599,
+      "text": "category would be GPG5 mini just because"
+    },
+    {
+      "start": 1198,
+      "duration": 4.96,
+      "text": "you're getting so much more intelligence"
+    },
+    {
+      "start": 1200.799,
+      "duration": 4.321,
+      "text": "for that price."
+    },
+    {
+      "start": 1202.96,
+      "duration": 4.56,
+      "text": "But I mean look at the look at those"
+    },
+    {
+      "start": 1205.12,
+      "duration": 4.96,
+      "text": "graphs. So if you follow that that 20"
+    },
+    {
+      "start": 1207.52,
+      "duration": 5.84,
+      "text": "circle around to the upper left where"
+    },
+    {
+      "start": 1210.08,
+      "duration": 6.32,
+      "text": "that dot is for GPT5 Mini. So that means"
+    },
+    {
+      "start": 1213.36,
+      "duration": 6.16,
+      "text": "it's five times slower than GR code fast"
+    },
+    {
+      "start": 1216.4,
+      "duration": 6.72,
+      "text": "one. Yeah. And but by the and by the way"
+    },
+    {
+      "start": 1219.52,
+      "duration": 5.519,
+      "text": "uh Grock 41 fast that its upper left dot"
+    },
+    {
+      "start": 1223.12,
+      "duration": 5.76,
+      "text": "for speed is in this it's right next to"
+    },
+    {
+      "start": 1225.039,
+      "duration": 6.801,
+      "text": "GBT 5 mini. So Grock 41 is a little bit"
+    },
+    {
+      "start": 1228.88,
+      "duration": 4.799,
+      "text": "smarter than GR code fast one but it's"
+    },
+    {
+      "start": 1231.84,
+      "duration": 3.76,
+      "text": "way way way way slower. It should not be"
+    },
+    {
+      "start": 1233.679,
+      "duration": 4.321,
+      "text": "called fast. I think probably they"
+    },
+    {
+      "start": 1235.6,
+      "duration": 5.04,
+      "text": "didn't want to call it mini but uh but"
+    },
+    {
+      "start": 1238,
+      "duration": 5.28,
+      "text": "it's not fast but GR code fast one is"
+    },
+    {
+      "start": 1240.64,
+      "duration": 4.8,
+      "text": "fast uh and it's low price so it's a"
+    },
+    {
+      "start": 1243.28,
+      "duration": 4.32,
+      "text": "great deal. And I I would the other"
+    },
+    {
+      "start": 1245.44,
+      "duration": 4.32,
+      "text": "thing I would point out is besides the"
+    },
+    {
+      "start": 1247.6,
+      "duration": 4.88,
+      "text": "Brock Power went rankings, the other"
+    },
+    {
+      "start": 1249.76,
+      "duration": 5.44,
+      "text": "unbiased source that you'll find for how"
+    },
+    {
+      "start": 1252.48,
+      "duration": 5.439,
+      "text": "good is this model is open router"
+    },
+    {
+      "start": 1255.2,
+      "duration": 5.76,
+      "text": "because they publish a leaderboard of"
+    },
+    {
+      "start": 1257.919,
+      "duration": 6.161,
+      "text": "how how much are people using this thing"
+    },
+    {
+      "start": 1260.96,
+      "duration": 6.32,
+      "text": "and gro code fast one last I looked it's"
+    },
+    {
+      "start": 1264.08,
+      "duration": 5.12,
+      "text": "rid it was like something like 40% of"
+    },
+    {
+      "start": 1267.28,
+      "duration": 3.759,
+      "text": "the programming being done on open"
+    },
+    {
+      "start": 1269.2,
+      "duration": 4.32,
+      "text": "router is being done with gro code fast"
+    },
+    {
+      "start": 1271.039,
+      "duration": 6,
+      "text": "one and now granted the open router"
+    },
+    {
+      "start": 1273.52,
+      "duration": 6.24,
+      "text": "audience is tends to be very very"
+    },
+    {
+      "start": 1277.039,
+      "duration": 4.241,
+      "text": "cost-sensitive. But yeah, like that that"
+    },
+    {
+      "start": 1279.76,
+      "duration": 3.84,
+      "text": "is people voting with their feet and"
+    },
+    {
+      "start": 1281.28,
+      "duration": 5.04,
+      "text": "saying, \"Yeah, this is useful enough to"
+    },
+    {
+      "start": 1283.6,
+      "duration": 4.959,
+      "text": "write code with and do billions of"
+    },
+    {
+      "start": 1286.32,
+      "duration": 4.32,
+      "text": "tokens worth of inference on.\" So yeah,"
+    },
+    {
+      "start": 1288.559,
+      "duration": 3.761,
+      "text": "I I came away I didn't expect to find"
+    },
+    {
+      "start": 1290.64,
+      "duration": 4.159,
+      "text": "this. I didn't expect to find this, but"
+    },
+    {
+      "start": 1292.32,
+      "duration": 4.16,
+      "text": "I came away very impressed with with GR"
+    },
+    {
+      "start": 1294.799,
+      "duration": 4.88,
+      "text": "code fast one to the point that we've"
+    },
+    {
+      "start": 1296.48,
+      "duration": 5.92,
+      "text": "actually made that the default model for"
+    },
+    {
+      "start": 1299.679,
+      "duration": 5.041,
+      "text": "Brock's free tier. So uh you know this"
+    },
+    {
+      "start": 1302.4,
+      "duration": 4.399,
+      "text": "isn't a presentation about Brock the the"
+    },
+    {
+      "start": 1304.72,
+      "duration": 4.48,
+      "text": "development platform but you know we do"
+    },
+    {
+      "start": 1306.799,
+      "duration": 4.88,
+      "text": "have a a free tier where you can use as"
+    },
+    {
+      "start": 1309.2,
+      "duration": 4.64,
+      "text": "much grock codefast one as you want and"
+    },
+    {
+      "start": 1311.679,
+      "duration": 4.88,
+      "text": "to show you the power of Brock."
+    },
+    {
+      "start": 1313.84,
+      "duration": 4.8,
+      "text": ">> That's cool. Yep. I I think that uh I"
+    },
+    {
+      "start": 1316.559,
+      "duration": 5.041,
+      "text": "mean and I I've seen this in other"
+    },
+    {
+      "start": 1318.64,
+      "duration": 5.6,
+      "text": "instances where I've traditionally"
+    },
+    {
+      "start": 1321.6,
+      "duration": 5.199,
+      "text": "picked on these models to do like"
+    },
+    {
+      "start": 1324.24,
+      "duration": 4,
+      "text": "loweffort tasks you know that that I"
+    },
+    {
+      "start": 1326.799,
+      "duration": 2.961,
+      "text": "want to be that that I don't want to"
+    },
+    {
+      "start": 1328.24,
+      "duration": 3.12,
+      "text": "spend a time. So I'm not going to put a"
+    },
+    {
+      "start": 1329.76,
+      "duration": 2.72,
+      "text": "lot of something that I need a lot of"
+    },
+    {
+      "start": 1331.36,
+      "duration": 4.08,
+      "text": "reasoning or a lot of thinking"
+    },
+    {
+      "start": 1332.48,
+      "duration": 4.88,
+      "text": "capability involved with. So it's"
+    },
+    {
+      "start": 1335.44,
+      "duration": 4.239,
+      "text": "interesting to see that this mirrors"
+    },
+    {
+      "start": 1337.36,
+      "duration": 5.28,
+      "text": "with my personal experience and why I"
+    },
+    {
+      "start": 1339.679,
+      "duration": 5.12,
+      "text": "and unknowingly gravitating to these"
+    },
+    {
+      "start": 1342.64,
+      "duration": 3.919,
+      "text": "because of that this exactly what we're"
+    },
+    {
+      "start": 1344.799,
+      "duration": 4.24,
+      "text": "seeing on this on this uh graph."
+    },
+    {
+      "start": 1346.559,
+      "duration": 4.721,
+      "text": ">> We'll have to create a new benchmark"
+    },
+    {
+      "start": 1349.039,
+      "duration": 2.481,
+      "text": "called uh Dylan bench or something."
+    },
+    {
+      "start": 1351.28,
+      "duration": 2.96,
+      "text": "[laughter]"
+    },
+    {
+      "start": 1351.52,
+      "duration": 4.8,
+      "text": ">> Dylan"
+    },
+    {
+      "start": 1354.24,
+      "duration": 6,
+      "text": "the next thing I wanted to talk about is"
+    },
+    {
+      "start": 1356.32,
+      "duration": 6.88,
+      "text": "the the open models. So we we looked at"
+    },
+    {
+      "start": 1360.24,
+      "duration": 5.84,
+      "text": "four uh we put four open models in the"
+    },
+    {
+      "start": 1363.2,
+      "duration": 6.88,
+      "text": "finalists category this time around. And"
+    },
+    {
+      "start": 1366.08,
+      "duration": 6.959,
+      "text": "so the these are those four with GLM46"
+    },
+    {
+      "start": 1370.08,
+      "duration": 4.88,
+      "text": "doing the best on the intelligence"
+    },
+    {
+      "start": 1373.039,
+      "duration": 5.441,
+      "text": "metric which is interesting because it's"
+    },
+    {
+      "start": 1374.96,
+      "duration": 6.32,
+      "text": "a couple months older than Deepseek 32."
+    },
+    {
+      "start": 1378.48,
+      "duration": 4.48,
+      "text": "I think just just anecdotally again I"
+    },
+    {
+      "start": 1381.28,
+      "duration": 3.759,
+      "text": "have no inside information here but it"
+    },
+    {
+      "start": 1382.96,
+      "duration": 5.68,
+      "text": "looks to me like DeepSeek has not"
+    },
+    {
+      "start": 1385.039,
+      "duration": 6.161,
+      "text": "prioritized coding power a whole lot in"
+    },
+    {
+      "start": 1388.64,
+      "duration": 5.12,
+      "text": "their training not as much as uh Quinn"
+    },
+    {
+      "start": 1391.2,
+      "duration": 5.52,
+      "text": "for instance or GLM and I think that's"
+    },
+    {
+      "start": 1393.76,
+      "duration": 4.88,
+      "text": "probably why even even though in general"
+    },
+    {
+      "start": 1396.72,
+      "duration": 4.24,
+      "text": "newer models tend to do better and this"
+    },
+    {
+      "start": 1398.64,
+      "duration": 4.72,
+      "text": "is actually the newest model uh on the"
+    },
+    {
+      "start": 1400.96,
+      "duration": 4.959,
+      "text": "slide I think that's probably why it's"
+    },
+    {
+      "start": 1403.36,
+      "duration": 5.12,
+      "text": "just not as high a priority for the"
+    },
+    {
+      "start": 1405.919,
+      "duration": 4.561,
+      "text": "deepseat guys. Oh, and by the way, I'm"
+    },
+    {
+      "start": 1408.48,
+      "duration": 3.439,
+      "text": "going to call this out too because I"
+    },
+    {
+      "start": 1410.48,
+      "duration": 3.52,
+      "text": "mentioned at the beginning that one of"
+    },
+    {
+      "start": 1411.919,
+      "duration": 5.521,
+      "text": "the reasons that we created the power"
+    },
+    {
+      "start": 1414,
+      "duration": 6.4,
+      "text": "ranking was to see like who's actually"
+    },
+    {
+      "start": 1417.44,
+      "duration": 5.44,
+      "text": "cheating on the tests. And from the"
+    },
+    {
+      "start": 1420.4,
+      "duration": 4.32,
+      "text": "difference between what we measured and"
+    },
+    {
+      "start": 1422.88,
+      "duration": 4.64,
+      "text": "what these guys are publishing on"
+    },
+    {
+      "start": 1424.72,
+      "duration": 7.36,
+      "text": "Swebench and like CodeBench, it looks"
+    },
+    {
+      "start": 1427.52,
+      "duration": 6.48,
+      "text": "very much to me like uh Kimmy and Minax"
+    },
+    {
+      "start": 1432.08,
+      "duration": 4.16,
+      "text": "are in fact cheating on the test because"
+    },
+    {
+      "start": 1434,
+      "duration": 5.2,
+      "text": "both of those guys published numbers"
+    },
+    {
+      "start": 1436.24,
+      "duration": 5.76,
+      "text": "that said, \"Hey, we're better than GPT."
+    },
+    {
+      "start": 1439.2,
+      "duration": 5.359,
+      "text": "We're better than Sonnet.\" Uh and that's"
+    },
+    {
+      "start": 1442,
+      "duration": 4.32,
+      "text": "just that's just not the case at all."
+    },
+    {
+      "start": 1444.559,
+      "duration": 4.721,
+      "text": "And that that's an interesting outcome"
+    },
+    {
+      "start": 1446.32,
+      "duration": 6.16,
+      "text": "because if you follow any of the AI"
+    },
+    {
+      "start": 1449.28,
+      "duration": 7.36,
+      "text": "folks that do regular news about this,"
+    },
+    {
+      "start": 1452.48,
+      "duration": 6.16,
+      "text": "I've seen uh Kimmy just constantly"
+    },
+    {
+      "start": 1456.64,
+      "duration": 5.919,
+      "text": "bubbling to the top and being called out"
+    },
+    {
+      "start": 1458.64,
+      "duration": 7.36,
+      "text": "as as a a frontr runner based entirely"
+    },
+    {
+      "start": 1462.559,
+      "duration": 7.041,
+      "text": "off of what may ostensibly be a fixed"
+    },
+    {
+      "start": 1466,
+      "duration": 5.76,
+      "text": "test or a a cheated on test. I think I"
+    },
+    {
+      "start": 1469.6,
+      "duration": 5.439,
+      "text": "think the buzz around Kimmy is around"
+    },
+    {
+      "start": 1471.76,
+      "duration": 4.96,
+      "text": "those numbers and it's also the largest"
+    },
+    {
+      "start": 1475.039,
+      "duration": 2.961,
+      "text": "openweight model or at least it was when"
+    },
+    {
+      "start": 1476.72,
+      "duration": 2.48,
+      "text": "it was released. It's a billion"
+    },
+    {
+      "start": 1478,
+      "duration": 6,
+      "text": "parameters."
+    },
+    {
+      "start": 1479.2,
+      "duration": 8,
+      "text": ">> Uh so GLM46 is is somewhere around half"
+    },
+    {
+      "start": 1484,
+      "duration": 5.679,
+      "text": "a million half a billion and deepseek is"
+    },
+    {
+      "start": 1487.2,
+      "duration": 4.479,
+      "text": "somewhere around seven billion I think."
+    },
+    {
+      "start": 1489.679,
+      "duration": 4,
+      "text": "Uh so so people look at that and say"
+    },
+    {
+      "start": 1491.679,
+      "duration": 4,
+      "text": "well bigger is better"
+    },
+    {
+      "start": 1493.679,
+      "duration": 3.841,
+      "text": ">> but in this case it's not."
+    },
+    {
+      "start": 1495.679,
+      "duration": 5.201,
+      "text": ">> Yeah. And and just for folks that don't"
+    },
+    {
+      "start": 1497.52,
+      "duration": 5.12,
+      "text": "know specifically what GLM is, I find"
+    },
+    {
+      "start": 1500.88,
+      "duration": 4.799,
+      "text": "that to be probably one of the most"
+    },
+    {
+      "start": 1502.64,
+      "duration": 4.399,
+      "text": "unknown AI users, but that's ZAI if you"
+    },
+    {
+      "start": 1505.679,
+      "duration": 3.521,
+      "text": "if you're looking for the chat"
+    },
+    {
+      "start": 1507.039,
+      "duration": 3.921,
+      "text": "equivalent of that. So"
+    },
+    {
+      "start": 1509.2,
+      "duration": 3.839,
+      "text": ">> yeah, that's actually that's actually"
+    },
+    {
+      "start": 1510.96,
+      "duration": 5.199,
+      "text": "one that was flying under my radar as"
+    },
+    {
+      "start": 1513.039,
+      "duration": 5.201,
+      "text": "well. And when I posted the August power"
+    },
+    {
+      "start": 1516.159,
+      "duration": 3.681,
+      "text": "ranking to the Reddit local llama"
+    },
+    {
+      "start": 1518.24,
+      "duration": 4.799,
+      "text": "community, they said, \"Hey, where's"
+    },
+    {
+      "start": 1519.84,
+      "duration": 5.199,
+      "text": "GLM?\" Uh so so this time around this"
+    },
+    {
+      "start": 1523.039,
+      "duration": 4.161,
+      "text": "time around we went and we we we put it"
+    },
+    {
+      "start": 1525.039,
+      "duration": 3.76,
+      "text": "through the paces and yeah it's it's it"
+    },
+    {
+      "start": 1527.2,
+      "duration": 4.719,
+      "text": "is really good. One interesting thing"
+    },
+    {
+      "start": 1528.799,
+      "duration": 6.401,
+      "text": "about this is if we take those numbers"
+    },
+    {
+      "start": 1531.919,
+      "duration": 6.481,
+      "text": "from like the most recent and best"
+    },
+    {
+      "start": 1535.2,
+      "duration": 5.359,
+      "text": "performing open weights models and we"
+    },
+    {
+      "start": 1538.4,
+      "duration": 5.6,
+      "text": "look at"
+    },
+    {
+      "start": 1540.559,
+      "duration": 8.321,
+      "text": "the top closed models from just a little"
+    },
+    {
+      "start": 1544,
+      "duration": 6.4,
+      "text": "while ago. the gap between these open 03"
+    },
+    {
+      "start": 1548.88,
+      "duration": 4.08,
+      "text": "if I remember correctly these were"
+    },
+    {
+      "start": 1550.4,
+      "duration": 5.44,
+      "text": "released in April and May respectively"
+    },
+    {
+      "start": 1552.96,
+      "duration": 5.04,
+      "text": "03 and sonnet it's possible it was March"
+    },
+    {
+      "start": 1555.84,
+      "duration": 6.319,
+      "text": "and April but they were a month apart"
+    },
+    {
+      "start": 1558,
+      "duration": 7.2,
+      "text": "and then uh GLM46 was September Deepseek"
+    },
+    {
+      "start": 1562.159,
+      "duration": 6.64,
+      "text": "32 was November so we're basically have"
+    },
+    {
+      "start": 1565.2,
+      "duration": 6.719,
+      "text": "a three a six-month gap between the"
+    },
+    {
+      "start": 1568.799,
+      "duration": 5.76,
+      "text": "closed and the open models here and"
+    },
+    {
+      "start": 1571.919,
+      "duration": 3.921,
+      "text": "they're just neck and neck in"
+    },
+    {
+      "start": 1574.559,
+      "duration": 2.321,
+      "text": "performance and I thought that was"
+    },
+    {
+      "start": 1575.84,
+      "duration": 3.28,
+      "text": "really interesting."
+    },
+    {
+      "start": 1576.88,
+      "duration": 5.44,
+      "text": ">> Yeah, I mean they're catching up fast. I"
+    },
+    {
+      "start": 1579.12,
+      "duration": 6,
+      "text": "mean there's a lot of interesting things"
+    },
+    {
+      "start": 1582.32,
+      "duration": 5.12,
+      "text": "going on with the open models especially"
+    },
+    {
+      "start": 1585.12,
+      "duration": 4.799,
+      "text": "for folks that are trying to do like the"
+    },
+    {
+      "start": 1587.44,
+      "duration": 5.44,
+      "text": "lower the lower uh end ones. So things"
+    },
+    {
+      "start": 1589.919,
+      "duration": 7.041,
+      "text": "that are in the 2030b um category but"
+    },
+    {
+      "start": 1592.88,
+      "duration": 6.399,
+      "text": "they are shockingly performant for being"
+    },
+    {
+      "start": 1596.96,
+      "duration": 3.599,
+      "text": "for for for their source of origin. you"
+    },
+    {
+      "start": 1599.279,
+      "duration": 2.721,
+      "text": "know, these aren't these aren't, you"
+    },
+    {
+      "start": 1600.559,
+      "duration": 3.36,
+      "text": "know, hundred billion dollar plus"
+    },
+    {
+      "start": 1602,
+      "duration": 4.08,
+      "text": "companies that are, you know, that that"
+    },
+    {
+      "start": 1603.919,
+      "duration": 4.721,
+      "text": "are rolling these models."
+    },
+    {
+      "start": 1606.08,
+      "duration": 5.52,
+      "text": ">> Yeah. Um, and so this is this is a good"
+    },
+    {
+      "start": 1608.64,
+      "duration": 5.84,
+      "text": "point time to uh kind of answer a"
+    },
+    {
+      "start": 1611.6,
+      "duration": 5.36,
+      "text": "frequently asked question, which is uh"
+    },
+    {
+      "start": 1614.48,
+      "duration": 4.16,
+      "text": "people ask, so what is the score that"
+    },
+    {
+      "start": 1616.96,
+      "duration": 4.16,
+      "text": "you're measuring? Like I just want the"
+    },
+    {
+      "start": 1618.64,
+      "duration": 5.44,
+      "text": "raw pass rate. Give me give me the raw"
+    },
+    {
+      "start": 1621.12,
+      "duration": 7.52,
+      "text": "pass rate. And I don't want to do that"
+    },
+    {
+      "start": 1624.08,
+      "duration": 7.76,
+      "text": "because it it's materially different and"
+    },
+    {
+      "start": 1628.64,
+      "duration": 5.6,
+      "text": "worse if it takes your model multiple"
+    },
+    {
+      "start": 1631.84,
+      "duration": 5.199,
+      "text": "tries to solve the problem than if it"
+    },
+    {
+      "start": 1634.24,
+      "duration": 5.52,
+      "text": "takes just a single try. So we have a"
+    },
+    {
+      "start": 1637.039,
+      "duration": 5.12,
+      "text": "decaying score credit that you get when"
+    },
+    {
+      "start": 1639.76,
+      "duration": 5.039,
+      "text": "you solve the problem. And it starts off"
+    },
+    {
+      "start": 1642.159,
+      "duration": 5.041,
+      "text": "at, you know, one point for solving it"
+    },
+    {
+      "start": 1644.799,
+      "duration": 4.88,
+      "text": "on your first try and then on your"
+    },
+    {
+      "start": 1647.2,
+      "duration": 5.12,
+      "text": "second try it drops to, I don't"
+    },
+    {
+      "start": 1649.679,
+      "duration": 6.561,
+      "text": "remember, I think 65. It's it's it's a"
+    },
+    {
+      "start": 1652.32,
+      "duration": 5.92,
+      "text": "logarithmic curve and so it it decays."
+    },
+    {
+      "start": 1656.24,
+      "duration": 4.88,
+      "text": "It never goes to zero. If you can solve"
+    },
+    {
+      "start": 1658.24,
+      "duration": 6.24,
+      "text": "it with an in, you know, an almost"
+    },
+    {
+      "start": 1661.12,
+      "duration": 4.72,
+      "text": "infinite amount of tries, you're still a"
+    },
+    {
+      "start": 1664.48,
+      "duration": 3.92,
+      "text": "little bit better than somebody who"
+    },
+    {
+      "start": 1665.84,
+      "duration": 5.36,
+      "text": "can't solve it at all. But we do want to"
+    },
+    {
+      "start": 1668.4,
+      "duration": 4.56,
+      "text": "have that uh penalty because you're"
+    },
+    {
+      "start": 1671.2,
+      "duration": 4.079,
+      "text": "that's that you're wasting my time and"
+    },
+    {
+      "start": 1672.96,
+      "duration": 4.56,
+      "text": "you're wasting my money if it takes you"
+    },
+    {
+      "start": 1675.279,
+      "duration": 3.841,
+      "text": "lots and lots of tries to solve it. But"
+    },
+    {
+      "start": 1677.52,
+      "duration": 4,
+      "text": "I mean, well, and"
+    },
+    {
+      "start": 1679.12,
+      "duration": 4.08,
+      "text": ">> this goes back to old adages like when"
+    },
+    {
+      "start": 1681.52,
+      "duration": 3.84,
+      "text": "you when you when you're trying to build"
+    },
+    {
+      "start": 1683.2,
+      "duration": 3.92,
+      "text": "anything in the universe, if you have if"
+    },
+    {
+      "start": 1685.36,
+      "duration": 3.84,
+      "text": "you have infinite people and infinite"
+    },
+    {
+      "start": 1687.12,
+      "duration": 3.919,
+      "text": "time and infinite money, anything is"
+    },
+    {
+      "start": 1689.2,
+      "duration": 3.68,
+      "text": "achievable. So, but at some point in"
+    },
+    {
+      "start": 1691.039,
+      "duration": 4.161,
+      "text": "time, you got to bubble it down to"
+    },
+    {
+      "start": 1692.88,
+      "duration": 5.12,
+      "text": "reality. And that is what can we do with"
+    },
+    {
+      "start": 1695.2,
+      "duration": 4.24,
+      "text": "five developers in six months and, you"
+    },
+    {
+      "start": 1698,
+      "duration": 2,
+      "text": "know, a quarter million dollars worth of"
+    },
+    {
+      "start": 1699.44,
+      "duration": 2.88,
+      "text": "money."
+    },
+    {
+      "start": 1700,
+      "duration": 4.08,
+      "text": ">> And and this so in general, so this is a"
+    },
+    {
+      "start": 1702.32,
+      "duration": 4.239,
+      "text": "graph I made. It's not on the official"
+    },
+    {
+      "start": 1704.08,
+      "duration": 5.04,
+      "text": "power ranking site, so it's texton. Kind"
+    },
+    {
+      "start": 1706.559,
+      "duration": 3.36,
+      "text": "of a kind of an engineers graph."
+    },
+    {
+      "start": 1709.12,
+      "duration": 3.439,
+      "text": ">> I like it."
+    },
+    {
+      "start": 1709.919,
+      "duration": 4.48,
+      "text": ">> But it it shows two things. One is that"
+    },
+    {
+      "start": 1712.559,
+      "duration": 4.401,
+      "text": "the the score that we're calculating"
+    },
+    {
+      "start": 1714.399,
+      "duration": 8.321,
+      "text": "with that decaying credit tracks very"
+    },
+    {
+      "start": 1716.96,
+      "duration": 7.599,
+      "text": "very closely with the number of tasks"
+    },
+    {
+      "start": 1722.72,
+      "duration": 3.199,
+      "text": "that get solved successfully. So the"
+    },
+    {
+      "start": 1724.559,
+      "duration": 4.24,
+      "text": "there's two interesting things that that"
+    },
+    {
+      "start": 1725.919,
+      "duration": 5.36,
+      "text": "that this shows. One is that we've got"
+    },
+    {
+      "start": 1728.799,
+      "duration": 5.201,
+      "text": "this fancy decaying credit that we're"
+    },
+    {
+      "start": 1731.279,
+      "duration": 5.681,
+      "text": "publishing in the power ranking, but it"
+    },
+    {
+      "start": 1734,
+      "duration": 5.2,
+      "text": "tracks very very closely with a naive"
+    },
+    {
+      "start": 1736.96,
+      "duration": 4.079,
+      "text": "like did you get it to pass, which is"
+    },
+    {
+      "start": 1739.2,
+      "duration": 4.4,
+      "text": "what's what's at the top and the bottom"
+    },
+    {
+      "start": 1741.039,
+      "duration": 5.201,
+      "text": "of this graph respectively. And the the"
+    },
+    {
+      "start": 1743.6,
+      "duration": 5.679,
+      "text": "other interesting thing is that the the"
+    },
+    {
+      "start": 1746.24,
+      "duration": 6.159,
+      "text": "number of tries it takes you does matter"
+    },
+    {
+      "start": 1749.279,
+      "duration": 7.441,
+      "text": "when it's a very close score. So, if you"
+    },
+    {
+      "start": 1752.399,
+      "duration": 8.961,
+      "text": "look at the 45 OPUS and the GPT 51"
+    },
+    {
+      "start": 1756.72,
+      "duration": 6.079,
+      "text": "scores, OPUS outscores GPT by a couple"
+    },
+    {
+      "start": 1761.36,
+      "duration": 3.439,
+      "text": "percentage points. I'm looking at the"
+    },
+    {
+      "start": 1762.799,
+      "duration": 4.161,
+      "text": "average scores. I think in general, the"
+    },
+    {
+      "start": 1764.799,
+      "duration": 3.76,
+      "text": "average score is more useful. You can"
+    },
+    {
+      "start": 1766.96,
+      "duration": 3.12,
+      "text": "look at the best score if you want. I"
+    },
+    {
+      "start": 1768.559,
+      "duration": 3.6,
+      "text": "think they're both useful, but the"
+    },
+    {
+      "start": 1770.08,
+      "duration": 3.76,
+      "text": "average score is more useful, I think."
+    },
+    {
+      "start": 1772.159,
+      "duration": 3.921,
+      "text": "But Opus is outscoring it by two"
+    },
+    {
+      "start": 1773.84,
+      "duration": 4.24,
+      "text": "percentage points of the average score."
+    },
+    {
+      "start": 1776.08,
+      "duration": 6,
+      "text": "But if you look down at the pass count,"
+    },
+    {
+      "start": 1778.08,
+      "duration": 8.64,
+      "text": "GPT51 actually passed one more task that"
+    },
+    {
+      "start": 1782.08,
+      "duration": 8.319,
+      "text": "Opus 45 did not. But it took almost 20%"
+    },
+    {
+      "start": 1786.72,
+      "duration": 5.6,
+      "text": "more tries overall. And so I think I"
+    },
+    {
+      "start": 1790.399,
+      "duration": 5.201,
+      "text": "think when you look at it like that, I"
+    },
+    {
+      "start": 1792.32,
+      "duration": 6.479,
+      "text": "think that the score metric that is"
+    },
+    {
+      "start": 1795.6,
+      "duration": 4.88,
+      "text": "doing the right thing. It's it's it's"
+    },
+    {
+      "start": 1798.799,
+      "duration": 2.961,
+      "text": "solving the problem that it was created"
+    },
+    {
+      "start": 1800.48,
+      "duration": 2.88,
+      "text": "to solve."
+    },
+    {
+      "start": 1801.76,
+      "duration": 3.76,
+      "text": ">> Yeah, I would agree. I mean to put this"
+    },
+    {
+      "start": 1803.36,
+      "duration": 3.6,
+      "text": "in the context of you know like if"
+    },
+    {
+      "start": 1805.52,
+      "duration": 3.92,
+      "text": "you're doing something like performance"
+    },
+    {
+      "start": 1806.96,
+      "duration": 3.839,
+      "text": "measurement against GPUs it it's"
+    },
+    {
+      "start": 1809.44,
+      "duration": 3.599,
+      "text": "something that a lot of people are"
+    },
+    {
+      "start": 1810.799,
+      "duration": 5.76,
+      "text": "familiar with when you're when you're"
+    },
+    {
+      "start": 1813.039,
+      "duration": 6.321,
+      "text": "looking at do I buy you know a a 5080 or"
+    },
+    {
+      "start": 1816.559,
+      "duration": 4.641,
+      "text": "a 5070 you're really looking at you"
+    },
+    {
+      "start": 1819.36,
+      "duration": 4.319,
+      "text": "really want to get that sweet spot that"
+    },
+    {
+      "start": 1821.2,
+      "duration": 4,
+      "text": "that a couple more frames don't matter"
+    },
+    {
+      "start": 1823.679,
+      "duration": 2.961,
+      "text": "um in the long in the grand scheme of"
+    },
+    {
+      "start": 1825.2,
+      "duration": 3.199,
+      "text": "things especially if those frames come"
+    },
+    {
+      "start": 1826.64,
+      "duration": 4.32,
+      "text": "at the cost of several hundred dollars"
+    },
+    {
+      "start": 1828.399,
+      "duration": 4.16,
+      "text": "or in this case a few more tokens"
+    },
+    {
+      "start": 1830.96,
+      "duration": 3.04,
+      "text": ">> and this highlights by the way One more"
+    },
+    {
+      "start": 1832.559,
+      "duration": 4.72,
+      "text": "controversial thing about the power"
+    },
+    {
+      "start": 1834,
+      "duration": 6.72,
+      "text": "ranking which is that we have GPT5 mini"
+    },
+    {
+      "start": 1837.279,
+      "duration": 6.561,
+      "text": "just barely edging out cloud 45 sonnet"
+    },
+    {
+      "start": 1840.72,
+      "duration": 5.679,
+      "text": "both on the score and on the pass count"
+    },
+    {
+      "start": 1843.84,
+      "duration": 5.76,
+      "text": "and fortunately opus 45 came out came"
+    },
+    {
+      "start": 1846.399,
+      "duration": 5.041,
+      "text": "out and that's clobbering five mini"
+    },
+    {
+      "start": 1849.6,
+      "duration": 4.559,
+      "text": "otherwise I would never hear the end of"
+    },
+    {
+      "start": 1851.44,
+      "duration": 5.28,
+      "text": "that because that that that is not"
+    },
+    {
+      "start": 1854.159,
+      "duration": 4.721,
+      "text": "intuitive to people but I like the"
+    },
+    {
+      "start": 1856.72,
+      "duration": 5.6,
+      "text": "data's there guys the data is the data"
+    },
+    {
+      "start": 1858.88,
+      "duration": 6.08,
+      "text": "and and I think if you give GPT5 5 mini"
+    },
+    {
+      "start": 1862.32,
+      "duration": 4.4,
+      "text": "a try. I think you'll be more impressed"
+    },
+    {
+      "start": 1864.96,
+      "duration": 4.16,
+      "text": "than you thought you would be. The last"
+    },
+    {
+      "start": 1866.72,
+      "duration": 5.6,
+      "text": "thing that I that I wanted to talk about"
+    },
+    {
+      "start": 1869.12,
+      "duration": 4.88,
+      "text": "is uh since we were kind of on a on a"
+    },
+    {
+      "start": 1872.32,
+      "duration": 4.56,
+      "text": "journey through history there over the"
+    },
+    {
+      "start": 1874,
+      "duration": 4.559,
+      "text": "last six months is um the other"
+    },
+    {
+      "start": 1876.88,
+      "duration": 3.44,
+      "text": "frequently asked question I get is well"
+    },
+    {
+      "start": 1878.559,
+      "duration": 4.881,
+      "text": "what about Quen 3 co coder like why"
+    },
+    {
+      "start": 1880.32,
+      "duration": 6.239,
+      "text": "isn't that on your finalists list? It"
+    },
+    {
+      "start": 1883.44,
+      "duration": 5.2,
+      "text": "was on our finalist list in August but"
+    },
+    {
+      "start": 1886.559,
+      "duration": 4.401,
+      "text": "the other models are better that it's"
+    },
+    {
+      "start": 1888.64,
+      "duration": 5.519,
+      "text": "it's that simple. So you can see"
+    },
+    {
+      "start": 1890.96,
+      "duration": 7.199,
+      "text": "actually Quinn3 coder is faster than uh"
+    },
+    {
+      "start": 1894.159,
+      "duration": 7.681,
+      "text": "than GLM or deepseek but it is higher"
+    },
+    {
+      "start": 1898.159,
+      "duration": 5.841,
+      "text": "priced much higher priced and also not"
+    },
+    {
+      "start": 1901.84,
+      "duration": 4.64,
+      "text": "as intelligent. So it it didn't make the"
+    },
+    {
+      "start": 1904,
+      "duration": 4.96,
+      "text": "finalists list this time around"
+    },
+    {
+      "start": 1906.48,
+      "duration": 3.919,
+      "text": ">> you know and to be fair is kind of a"
+    },
+    {
+      "start": 1908.96,
+      "duration": 3.439,
+      "text": "darling when it comes to sites like"
+    },
+    {
+      "start": 1910.399,
+      "duration": 4,
+      "text": "Hugging Face. Uh there's there's a lot"
+    },
+    {
+      "start": 1912.399,
+      "duration": 3.601,
+      "text": "of people that it's their favorite model"
+    },
+    {
+      "start": 1914.399,
+      "duration": 3.361,
+      "text": "because it's their favorite model. So"
+    },
+    {
+      "start": 1916,
+      "duration": 3.12,
+      "text": "they they would just want to see it. But"
+    },
+    {
+      "start": 1917.76,
+      "duration": 3.2,
+      "text": "again, we come back to what you just"
+    },
+    {
+      "start": 1919.12,
+      "duration": 3.76,
+      "text": "said not less than a few minutes ago."
+    },
+    {
+      "start": 1920.96,
+      "duration": 3.599,
+      "text": "The the numbers are the numbers, but"
+    },
+    {
+      "start": 1922.88,
+      "duration": 3.2,
+      "text": "it's there now. So people"
+    },
+    {
+      "start": 1924.559,
+      "duration": 4.801,
+      "text": ">> Yeah. And and I can understand that,"
+    },
+    {
+      "start": 1926.08,
+      "duration": 6.64,
+      "text": "right? So Quinn or Alibaba is the only"
+    },
+    {
+      "start": 1929.36,
+      "duration": 6.4,
+      "text": "group that's put out uh two generations"
+    },
+    {
+      "start": 1932.72,
+      "duration": 4.64,
+      "text": "now of coding specialized models. So"
+    },
+    {
+      "start": 1935.76,
+      "duration": 3.84,
+      "text": "yeah, I would definitely like to give"
+    },
+    {
+      "start": 1937.36,
+      "duration": 5.199,
+      "text": "them some love for that,"
+    },
+    {
+      "start": 1939.6,
+      "duration": 5.28,
+      "text": ">> but unfortunately this time around, uh I"
+    },
+    {
+      "start": 1942.559,
+      "duration": 4.881,
+      "text": "couldn't. So hopefully Quinn 4 or Quinn"
+    },
+    {
+      "start": 1944.88,
+      "duration": 4.799,
+      "text": "35 will will get them back in the winner"
+    },
+    {
+      "start": 1947.44,
+      "duration": 4.64,
+      "text": "circle, but for now we're we're looking"
+    },
+    {
+      "start": 1949.679,
+      "duration": 4.641,
+      "text": "at GLM and Deep Seek as holding down the"
+    },
+    {
+      "start": 1952.08,
+      "duration": 5.52,
+      "text": "four for the open weights. So I' we've"
+    },
+    {
+      "start": 1954.32,
+      "duration": 5.76,
+      "text": "talked about speed uh quite a bit today"
+    },
+    {
+      "start": 1957.6,
+      "duration": 5.76,
+      "text": "because I just think it it it's just so"
+    },
+    {
+      "start": 1960.08,
+      "duration": 5.28,
+      "text": "overwhelmingly important to the quality"
+    },
+    {
+      "start": 1963.36,
+      "duration": 6.159,
+      "text": "of experience that you have with a"
+    },
+    {
+      "start": 1965.36,
+      "duration": 7.919,
+      "text": "model. Uh, and I I wrote an article that"
+    },
+    {
+      "start": 1969.519,
+      "duration": 7.76,
+      "text": "concluded with saying that speed is the"
+    },
+    {
+      "start": 1973.279,
+      "duration": 6.321,
+      "text": "final box for open models. And this is"
+    },
+    {
+      "start": 1977.279,
+      "duration": 5.441,
+      "text": "illustrating why that is. So, we've got"
+    },
+    {
+      "start": 1979.6,
+      "duration": 7.04,
+      "text": "two of the two fastest open models from"
+    },
+    {
+      "start": 1982.72,
+      "duration": 5.839,
+      "text": "our finalist round compared with"
+    },
+    {
+      "start": 1986.64,
+      "duration": 4.56,
+      "text": "are these the two fastest? I think these"
+    },
+    {
+      "start": 1988.559,
+      "duration": 5.041,
+      "text": "are No, these are not the two f fastest"
+    },
+    {
+      "start": 1991.2,
+      "duration": 4.64,
+      "text": "because sonnet is closer is faster than"
+    },
+    {
+      "start": 1993.6,
+      "duration": 5.28,
+      "text": "gro fast one. But it's more interesting"
+    },
+    {
+      "start": 1995.84,
+      "duration": 4.88,
+      "text": "if we if we add a little variety. But"
+    },
+    {
+      "start": 1998.88,
+      "duration": 5.12,
+      "text": "yeah, if you look at those those closed"
+    },
+    {
+      "start": 2000.72,
+      "duration": 6.4,
+      "text": "models, they are smarter and faster. And"
+    },
+    {
+      "start": 2004,
+      "duration": 7.2,
+      "text": "it's not close. We've got grot codefast"
+    },
+    {
+      "start": 2007.12,
+      "duration": 8,
+      "text": "one uh twice as fast as Minamax and 50%"
+    },
+    {
+      "start": 2011.2,
+      "duration": 7.76,
+      "text": "smarter. And then you've got Haiku at"
+    },
+    {
+      "start": 2015.12,
+      "duration": 6.96,
+      "text": "five times as fast as the LM46"
+    },
+    {
+      "start": 2018.96,
+      "duration": 5.76,
+      "text": ">> and just narrowly edging it out on on"
+    },
+    {
+      "start": 2022.08,
+      "duration": 4.88,
+      "text": "the performance aspect. Yeah, I'm I if"
+    },
+    {
+      "start": 2024.72,
+      "duration": 4.079,
+      "text": "if people don't want to take a second,"
+    },
+    {
+      "start": 2026.96,
+      "duration": 3.76,
+      "text": "if not third look at Haiku at this"
+    },
+    {
+      "start": 2028.799,
+      "duration": 4.24,
+      "text": "point, I'm not sure what more"
+    },
+    {
+      "start": 2030.72,
+      "duration": 4.16,
+      "text": "information could be provided to them,"
+    },
+    {
+      "start": 2033.039,
+      "duration": 5.52,
+      "text": "you know, and and as a person who"
+    },
+    {
+      "start": 2034.88,
+      "duration": 6.32,
+      "text": "actually took that dive, uh I I it's it"
+    },
+    {
+      "start": 2038.559,
+      "duration": 4.72,
+      "text": "is it is an interesting outcome to say"
+    },
+    {
+      "start": 2041.2,
+      "duration": 5.52,
+      "text": "the least. So,"
+    },
+    {
+      "start": 2043.279,
+      "duration": 6.64,
+      "text": ">> so I I do have uh one bone to throw to"
+    },
+    {
+      "start": 2046.72,
+      "duration": 8.24,
+      "text": "to the the Quinn stands out there, which"
+    },
+    {
+      "start": 2049.919,
+      "duration": 6.72,
+      "text": "is this slide of local sized models. And"
+    },
+    {
+      "start": 2054.96,
+      "duration": 5.36,
+      "text": "you can you basically there's two"
+    },
+    {
+      "start": 2056.639,
+      "duration": 5.2,
+      "text": "categories here. There's GPOSS 12B and"
+    },
+    {
+      "start": 2060.32,
+      "duration": 5.2,
+      "text": "then there's everyone else. And that's"
+    },
+    {
+      "start": 2061.839,
+      "duration": 6,
+      "text": "because 12B is really stretching the"
+    },
+    {
+      "start": 2065.52,
+      "duration": 5.04,
+      "text": "definition of a local size model. either"
+    },
+    {
+      "start": 2067.839,
+      "duration": 4.08,
+      "text": "you have a Mac that you've maxed out the"
+    },
+    {
+      "start": 2070.56,
+      "duration": 3.76,
+      "text": "RAM for [clears throat]"
+    },
+    {
+      "start": 2071.919,
+      "duration": 4.081,
+      "text": "what is what is it $10,000 just about"
+    },
+    {
+      "start": 2074.32,
+      "duration": 4.079,
+      "text": "for for their top of the line."
+    },
+    {
+      "start": 2076,
+      "duration": 5.599,
+      "text": ">> Yeah. You're running a Nvidia 6000 card"
+    },
+    {
+      "start": 2078.399,
+      "duration": 5.68,
+      "text": "with 96 gigabytes of VRAM. Yeah."
+    },
+    {
+      "start": 2081.599,
+      "duration": 5.841,
+      "text": ">> Yeah. Like these are these are it it's"
+    },
+    {
+      "start": 2084.079,
+      "duration": 5.681,
+      "text": "easily a $10,000 investment to run uh"
+    },
+    {
+      "start": 2087.44,
+      "duration": 5.76,
+      "text": "120B, but the the others are all"
+    },
+    {
+      "start": 2089.76,
+      "duration": 6.879,
+      "text": "runnable on, you know, a 5090 or a more"
+    },
+    {
+      "start": 2093.2,
+      "duration": 5.44,
+      "text": "more normalsized amount of Mac RAM. But"
+    },
+    {
+      "start": 2096.639,
+      "duration": 4.72,
+      "text": "there you can see that that size does"
+    },
+    {
+      "start": 2098.64,
+      "duration": 4.959,
+      "text": "matter. Like there's a fairly big gap"
+    },
+    {
+      "start": 2101.359,
+      "duration": 4.161,
+      "text": "between the the 30 billion size models"
+    },
+    {
+      "start": 2103.599,
+      "duration": 4.721,
+      "text": "and I if I remember correctly Quint3"
+    },
+    {
+      "start": 2105.52,
+      "duration": 4.72,
+      "text": "next is actually 80 billion but it's not"
+    },
+    {
+      "start": 2108.32,
+      "duration": 5.12,
+      "text": "specialized for coding so it's just not"
+    },
+    {
+      "start": 2110.24,
+      "duration": 6.08,
+      "text": "as good. Yeah. So"
+    },
+    {
+      "start": 2113.44,
+      "duration": 5.2,
+      "text": "I I I want to have a coding LLM that"
+    },
+    {
+      "start": 2116.32,
+      "duration": 5.904,
+      "text": "lives on my desktop and I've got the the"
+    },
+    {
+      "start": 2118.64,
+      "duration": 4.24,
+      "text": "the dual GPUs to prove it but like"
+    },
+    {
+      "start": 2122.224,
+      "duration": 2.096,
+      "text": "[clears throat]"
+    },
+    {
+      "start": 2122.88,
+      "duration": 5.12,
+      "text": "especially when you throw this in,"
+    },
+    {
+      "start": 2124.32,
+      "duration": 6.799,
+      "text": "right? like Grock Code Fast One was not"
+    },
+    {
+      "start": 2128,
+      "duration": 4.96,
+      "text": "our top performing uh closed model. It"
+    },
+    {
+      "start": 2131.119,
+      "duration": 4.321,
+      "text": "was at the bottom. It's it's a great"
+    },
+    {
+      "start": 2132.96,
+      "duration": 6,
+      "text": "value, but it's not nearly as smart as"
+    },
+    {
+      "start": 2135.44,
+      "duration": 5.44,
+      "text": "Haiku or G uh GPT5 Mini, let alone the"
+    },
+    {
+      "start": 2138.96,
+      "duration": 3.52,
+      "text": "bigger models. By the way, the reason"
+    },
+    {
+      "start": 2140.88,
+      "duration": 4.239,
+      "text": "the numbers different here is that this"
+    },
+    {
+      "start": 2142.48,
+      "duration": 4.4,
+      "text": "is the open round. Like the none of the"
+    },
+    {
+      "start": 2145.119,
+      "duration": 4.881,
+      "text": "only model here that qualified for the"
+    },
+    {
+      "start": 2146.88,
+      "duration": 4.719,
+      "text": "finalists was Grocode Fast one. And so"
+    },
+    {
+      "start": 2150,
+      "duration": 3.359,
+      "text": "these are the open round problems."
+    },
+    {
+      "start": 2151.599,
+      "duration": 3.76,
+      "text": "They're a little bit easier. And so"
+    },
+    {
+      "start": 2153.359,
+      "duration": 5.281,
+      "text": "that's why Grow Code Fast one is scoring"
+    },
+    {
+      "start": 2155.359,
+      "duration": 4.24,
+      "text": "almost 50%. But the others are not. So"
+    },
+    {
+      "start": 2158.64,
+      "duration": 3.6,
+      "text": ">> yeah,"
+    },
+    {
+      "start": 2159.599,
+      "duration": 4.881,
+      "text": ">> I I I I definitely like I know people"
+    },
+    {
+      "start": 2162.24,
+      "duration": 5.68,
+      "text": "who are running local models and writing"
+    },
+    {
+      "start": 2164.48,
+      "duration": 5.44,
+      "text": "code with them and if you've got the"
+    },
+    {
+      "start": 2167.92,
+      "duration": 4.72,
+      "text": "patience to wait for them spitting out"
+    },
+    {
+      "start": 2169.92,
+      "duration": 4.72,
+      "text": "tokens at you know 20 tokens a second or"
+    },
+    {
+      "start": 2172.64,
+      "duration": 6.08,
+      "text": "if you've got the budget to drop for"
+    },
+    {
+      "start": 2174.64,
+      "duration": 7.12,
+      "text": "that $10,000 setup to to get uh you know"
+    },
+    {
+      "start": 2178.72,
+      "duration": 5.44,
+      "text": "GPTOSS120 billion doing I saw people on"
+    },
+    {
+      "start": 2181.76,
+      "duration": 4.8,
+      "text": "Reddit saying they're doing 150 tokens"
+    },
+    {
+      "start": 2184.16,
+      "duration": 5.199,
+      "text": "per second which is really fast. Like"
+    },
+    {
+      "start": 2186.56,
+      "duration": 6.32,
+      "text": "that's that's faster than Haiku, but"
+    },
+    {
+      "start": 2189.359,
+      "duration": 6,
+      "text": "that's a lot of money that it takes."
+    },
+    {
+      "start": 2192.88,
+      "duration": 6.16,
+      "text": ">> I've seen enthusiasts that are that are"
+    },
+    {
+      "start": 2195.359,
+      "duration": 8,
+      "text": "rolling with like four four GPU rigs"
+    },
+    {
+      "start": 2199.04,
+      "duration": 6.48,
+      "text": "that are that are like 30 series 90"
+    },
+    {
+      "start": 2203.359,
+      "duration": 4.48,
+      "text": "cards that had a reasonable amount of"
+    },
+    {
+      "start": 2205.52,
+      "duration": 4.24,
+      "text": "RAM, but they're they're they're"
+    },
+    {
+      "start": 2207.839,
+      "duration": 3.921,
+      "text": "investing some serious time and energy"
+    },
+    {
+      "start": 2209.76,
+      "duration": 3.359,
+      "text": "into those horsep."
+    },
+    {
+      "start": 2211.76,
+      "duration": 2.88,
+      "text": ">> I mean, I've looked into this enough to"
+    },
+    {
+      "start": 2213.119,
+      "duration": 4.161,
+      "text": "know, right? Like even if you're going"
+    },
+    {
+      "start": 2214.64,
+      "duration": 4.24,
+      "text": "4x3090, like the cooling that you need,"
+    },
+    {
+      "start": 2217.28,
+      "duration": 2.88,
+      "text": "the power requirements that you need,"
+    },
+    {
+      "start": 2218.88,
+      "duration": 3.28,
+      "text": "those are not trivial."
+    },
+    {
+      "start": 2220.16,
+      "duration": 3.6,
+      "text": ">> A small rack machine to get to get that"
+    },
+    {
+      "start": 2222.16,
+      "duration": 4.88,
+      "text": "kind of performance for sure."
+    },
+    {
+      "start": 2223.76,
+      "duration": 5.599,
+      "text": ">> Yeah. Yeah. So like if if if you enjoy"
+    },
+    {
+      "start": 2227.04,
+      "duration": 4.16,
+      "text": "it, like great. Like enjoy, right? Like"
+    },
+    {
+      "start": 2229.359,
+      "duration": 3.441,
+      "text": "it's only going to get better from here."
+    },
+    {
+      "start": 2231.2,
+      "duration": 4.08,
+      "text": "But in terms of like does it make"
+    },
+    {
+      "start": 2232.8,
+      "duration": 4.16,
+      "text": "economic sense to to spend the money on"
+    },
+    {
+      "start": 2235.28,
+      "duration": 3.6,
+      "text": "one of these workstations so I can run"
+    },
+    {
+      "start": 2236.96,
+      "duration": 2.32,
+      "text": "one of these models?"
+    },
+    {
+      "start": 2238.88,
+      "duration": 1.68,
+      "text": ">> No."
+    },
+    {
+      "start": 2239.28,
+      "duration": 4,
+      "text": ">> Yeah. [snorts] I mean, if you have a"
+    },
+    {
+      "start": 2240.56,
+      "duration": 5.6,
+      "text": "DGX, you know, uh, system lying around"
+    },
+    {
+      "start": 2243.28,
+      "duration": 4.319,
+      "text": "someplace, uh, go for it. That's what I"
+    },
+    {
+      "start": 2246.16,
+      "duration": 3.439,
+      "text": "would say. [laughter]"
+    },
+    {
+      "start": 2247.599,
+      "duration": 4.401,
+      "text": ">> Yeah. Yeah, that that's totally"
+    },
+    {
+      "start": 2249.599,
+      "duration": 4.48,
+      "text": "reasonable."
+    },
+    {
+      "start": 2252,
+      "duration": 4.96,
+      "text": "Um, so that's that's the tier list."
+    },
+    {
+      "start": 2254.079,
+      "duration": 5.921,
+      "text": "That's the the December tier list, uh,"
+    },
+    {
+      "start": 2256.96,
+      "duration": 4.08,
+      "text": "2025. And we'd love to hear what you"
+    },
+    {
+      "start": 2260,
+      "duration": 2.96,
+      "text": "think."
+    },
+    {
+      "start": 2261.04,
+      "duration": 4.16,
+      "text": ">> Yeah. Well, I appreciate you taking the"
+    },
+    {
+      "start": 2262.96,
+      "duration": 4.159,
+      "text": "time today and this has been educational"
+    },
+    {
+      "start": 2265.2,
+      "duration": 3.6,
+      "text": "for me and I'm sure it will be"
+    },
+    {
+      "start": 2267.119,
+      "duration": 4,
+      "text": "educational for all the folks that that"
+    },
+    {
+      "start": 2268.8,
+      "duration": 4.16,
+      "text": "have a look at this. And of course, if"
+    },
+    {
+      "start": 2271.119,
+      "duration": 4.161,
+      "text": "you have any questions or if you're"
+    },
+    {
+      "start": 2272.96,
+      "duration": 4.08,
+      "text": "curious, I would say go to the GitHub"
+    },
+    {
+      "start": 2275.28,
+      "duration": 3.52,
+      "text": "repo. It's right on the on the on the"
+    },
+    {
+      "start": 2277.04,
+      "duration": 3.52,
+      "text": "page where you would find the actual"
+    },
+    {
+      "start": 2278.8,
+      "duration": 4.4,
+      "text": "right here at the at Brock. Go to the"
+    },
+    {
+      "start": 2280.56,
+      "duration": 4.559,
+      "text": "power rankings. Hit the GitHub repo."
+    },
+    {
+      "start": 2283.2,
+      "duration": 3.52,
+      "text": "Take a look at what we're testing. That"
+    },
+    {
+      "start": 2285.119,
+      "duration": 3.521,
+      "text": "that's the proof is in my opinion."
+    },
+    {
+      "start": 2286.72,
+      "duration": 4.16,
+      "text": "There's no better source of truth than"
+    },
+    {
+      "start": 2288.64,
+      "duration": 4.16,
+      "text": "to look at the repo that's generating"
+    },
+    {
+      "start": 2290.88,
+      "duration": 4.16,
+      "text": "what it is we're seeing. So, there's"
+    },
+    {
+      "start": 2292.8,
+      "duration": 5.039,
+      "text": "nothing in the dark. It's all for folks"
+    },
+    {
+      "start": 2295.04,
+      "duration": 5.36,
+      "text": "to see. So, uh again, thank you for your"
+    },
+    {
+      "start": 2297.839,
+      "duration": 4.561,
+      "text": "time and I and come come visit us at at"
+    },
+    {
+      "start": 2300.4,
+      "duration": 5,
+      "text": "Brock.ai and check out our power"
+    },
+    {
+      "start": 2302.4,
+      "duration": 3,
+      "text": "rankings."
+    }
+  ],
+  "fullText": "Afternoon [music] everybody. My name is Dylan Turbull. I'm a developer advocate here at Brock.ai and I have with me today Jonathan who also works at Brock and is also the founder and CEO of Brock. Today we're going to be covering the Brock power ranking which is our view into how LLMs perform and built off of real world testing. So to get us started, why don't I go ahead and hand it off to you, Jonathan, and you can tell us a little bit about the the genesis of the broad power ranking. >> I'd love to. So we built the power ranking to tell us and everyone how good LLMs are at writing code. And you might think, oh well, I've seen Swebench or I've seen Live Codebench. Like the these things exist. and they do exist. But there's there's three problems that we wanted to solve that nobody else was tackling. The first is that a lot of these other benchmarks and I would say especially SweetBench are they're the tasks that they test are well known at this point and they're part of the model's training data. And you'll see that some of the labs are very scrupulous about pulling those tests out of the training data so that Sweepbench stays a relevant ranking of how well they're doing. But other labs are just like, hey, we want the number to go up because that helps us market our models better. And so they're just like, sure, like train on memorize the test. Like that's that's what they're doing is they're memorizing. >> Yeah. They're poisoning the well, so to speak. >> Yeah. So the the three things we wanted to deliver are we wanted to to deliver fresh tests that nobody's had a chance to train on yet and we wanted to test with meaningful meaty enterprisy problems covering multiple files covering many patches that need to be applied to those files. And then the the third one is we want to measure speed and cost and not just hey did you pass or not because when you're sitting in front of the monitor pair programming with a model that's really important to stay in the flow is can it deliver results quickly and then it's going to make you a lot happier if it's light on your wallet. So we wanted to measure all three of those. I think that uh from my experience uh working with you know AI assisted development it has been a a source of frustration at least from my vantage point where I'll spend uh I'll be working on a particular you know like a new feature in something and then I'll I'll get further down the line and it will have affected something else in the code and and then I'll spend the next 30 40 minutes or maybe even an hour burning tokens to try to back up or undo what's and done. And to say that the cost of that or even the fact that if you're paying a monthly fee for something and you get an aotment of tokens, the idea that you just burned a bunch of money that you spent because you know the model you don't know how the model per is expected to perform. >> Yeah. And and I would say for me and I think for most people whose bosses are paying for this, uh the speed aspect is more important than the cost. Uh but certainly there's certainly times when the cost is just as important. So really you want to you really would need a handle on all three of these metrics. >> Yeah. Yeah. I I I would I would wholeheartedly agree. I feel like it it it doesn't make much sense to measure just whether they whether they're good, whether they succeed or don't succeed because there are more elements to the to the puzzle. >> Excellent. So yeah. So, let's talk a little bit about the ranking system because I I I found this interesting in the past because I've run into this same model, the AR S tier model, and I actually think this is a fantastic way to represent this information to the world because it's familiar uh on a web scale. >> Yeah. And so, this is our second power ranking. We did one in August and then uh you know we updated it with uh you know the anthropic 45 release of of Opus and uh GPT51 dropped and the Grock 41 dropped. There was a lot of stuff that dropped in uh in late November and so it was time for a new power ranking. But yeah, we it it we did want to have a little bit of fun with it and and rather than just put a number on things, uh kind of uh use a little bit of human judgment on allocating these models into tiers based on their performance. And of course, if you're coming from the, you know, video gaming background, then you know that S tier stands for shu, which is Japanese for excellent. >> Uh, and so in, uh, in this iteration of the power ranking, our only member of the S tier to be S tier, you really have to be firing on all cylinders. You really have to be better than everyone else on on multiple dimensions. And really, that's that's what Haiku is doing this time around. It is better than everyone else at speed and good good performance, good intelligence and a reasonable cost. >> Yeah. And from my experience when I when I first joined Brock, I was very that kind of took me by surprise. So, as a result, I said, \"Well, okay, let me revisit the some of the assumptions I might have because when Haiku first hit the hit the lists, I thought, well, this is probably just a watered down version of of u, you know, of Claude Sonnet or or, you know, obviously not Opus, but and plus it it comes in at a at a at a lower price point as far as tokens are concerned. So, I thought, well, I'm not going to get as much out of this as I thought I would.\" But after looking at the power rankings, I I went back and revisited and I was shockingly surprised at how good it was at not only solving the problems that I was running into, but not being quite as chatty as Sonnet is. >> Yeah, I I think of I'm going to call out like what are the most controversial things on this page? Uh the Haiku being alone in S tiers one. uh GPT5.1 being on the same tier as Opus 45. I think that's probably going to be a little controversial as well as Grock Codefest one and then uh Gemini 3 Pro being down in C tier might also be a little bit controversial, but I that jumps right to mind because the whole web not less than a couple of weeks ago was like crowning the new king and and uh we found that maybe not. I mean and it when you when you look at it from an you know all points in vantage point it it yeah it's it's it may be fast and of course things that came with it like nanobano are pretty amazing but as far as how it performs in a coding task and we we found alternative we well we found a different story and may maybe you can talk a little bit about what we found when uh when when you put Gemini 3 through its paces. Yeah, we'll we'll do that in in just a little bit, but but first I I want to defend my S tier pick and explain where that's coming from. >> That sounds great. >> And and before we do that, uh I just want to point out that the power ranking data set is public. We have a GitHub repo Brockai Power Rank. It's Apache licensed. So, you know, knock yourselves out, dig into the tasks. But th those are tasks coming from five uh open source Java repositories where we've said take we've taken commits from the Apache Cassandra Apache lucine lang chain forj jit and brock itself and we've asked an LLM to generate synthetic tasks using those commits and and those tasks you know those tasks are there and the the run harness is there and so yeah it's all it's all open source. So, if you can show us how to do this better, we'd love to to listen because this is driving our product decisions as well as our coding as engineers. So, we're we're very invested in in making sure this is as accurate as we can make it. Yeah, I know that >> I know that this is on my my hit list of things to do is I would love to add, you know, my old alma mo to the list and and pit pit it against the current version of EngineX core. I think that would be a nice addition. It's kind of in the same realm as the rest of the things that we're touching and it's it's pretty much native C. So, that would be an excellent test. I also think that one thing that that I think would be interesting is to see uh what what the experience of our uh of the open source community if they wanted to add their own tests if they want to fork it and add own tests or add tests as just sending in a PR that would be that would be fantastic to see that. >> Yeah. The one the one hurdle to to participating there is that if you want to run the full test suite, it does get expensive, especially with your your Opus 45 and before Opus 545, we benchmarked Opus 41 for August and that was three times as expensive. So, uh yeah, it can it can get pricey. Uh but let's let's dig into the results here. And this is this is my illustration of why uh Haiku 45 is alone in the S tier. And and this is the most qualitative judgment call on the tier list. And and the reason it's qualitative is that I've drawn a line here at about 45%. And that's an on the one hand it's an arbitrary number but on the other hand it it's guided by my experience using models full-time to write code with for the past six to eight months. And above that line is where you stop needing to hold the model's hand so much. It can handle larger tasks that have more components to them and figure out how to do those across multiple files and so forth without you having to break it down for them further. And so yeah, could you say that the line really should be 55%? Maybe. Could you say it should really be 35%? I think that's a little bit I think you would be disappointed with most of the models uh below 35%. So 45% is my experience and uh my intuition of this is above this line you can get a lot of good work done with the models with a minimum of hassle and so given that minimum level of intelligence the most important thing when I'm coding with the model is how much how much does it make me wait because when I'm waiting I'm starting to fidget I'm thinking oh like you know I can wait for a few seconds, right? But if it's Yeah. turns into a few minutes, it's like, \"Oh, what's on Hacker News?\" Like, \"What's on X?\" >> Yeah, I'm distracted now and and I'm losing productivity by the second. Yeah. And that and you don't know what's going on if you if you and that's something we address as well. But, you know, in Brock itself, giving the visibility that's necessary to what's happening in the background. I get I start to get worried personally. I start going, okay, what is it doing? What is it ch? What's it touching that I can't see that I'm going to have to spend the next three hours fixing? Which is something that I think everybody's experienced when they're when they're coding with an LLM. >> Yeah. Yeah. And and so I I mentioned that you do need you do need a decent budget to run the tests and you also need a certain amount of patience uh and a a fair amount of RAM because the more you can parallelize the tests uh then the faster you'll get done overall. And so you can see the numbers here. The first number there is not minutes, it's hours. So this was uh five hours of thinking time for Claude 45, seven and a half for Claude Sonnet and 12 hours for Claude Opus. And so we're going from sonnet. If we move to the right above that line of Jonathan thinks these models are smart enough, we hit anthropic anthropic anthropic before we hit someone else. And that's why that's why Haiku is in the S tier because uh I I I didn't want to give it a joint prize to all of the anthropic models, but like the these guys anthropic is cooking with something special and Haiku is my go-to weapon of choice for coding out the plans that I've generated with with a smarter model. >> Yeah. Yeah, that makes total sense. plus, you know, I mean, when you get into seven plus hours of thinking time, that is a non-trivial amount of time. >> Yeah. And of course, that's, you know, we're we're parallelizing that. We're running lots of tests in parallel, but yeah, it is it is a lot of time. Yeah. >> The next tiers, the the A tier list is basically who's on the PTO frontier for cost versus performance and cost versus speed. And Pareto Frontier means that if I'm if I'm looking at I' I've drawn it out on this graph. So Grock Codefast One, GPT5 Mini, and GPT51 are on the Pareto frontier, which means that you cannot get less expensive without giving up performance. >> Yeah. And so that's the you you have to give up something. This is the law of equivalent of equivalent exchange so to speak where you know there there has to be a trade-off just just to clarify for folks who don't know what the Prito Frontier is right and so that and and this one the speed versus performance we've got Haiku we've got Sonnet and Opus um those models that we connected with those lines on the frontier those are what made it into the A tier and this is this is my other somewhat arbitrary judgment call where I said look Look at that bend. Right. So on on the cost versus performance, the the graph is going up. It's kind of curving up and to the right. And on this one, it's going kind of making a dent the other direction. And that means that if you look at it from that perspective, it means Claude 45 Sonnet is a worse value than Haiku or Opus because you're not getting as much performance as Opus and you're not getting as much speed as Haiku. So, I said, \"You know what? Even though it's on the Purto frontier, you're not as good as your two brothers here, and so I'm going to put you in the B tier.\" >> Yeah, that makes sense. I mean, again, it's if if you're working with one measurement, I mean, I'm not sure, you know, I that's where that that calls into the usefulness of a single measurement, you know. And then the the last thing I promised was a defense of why Gemini 3 Pro was all the way down in the C tier. And to visualize that, I wanted to put all three metrics on a single plot. And so I've got this radar chart here where I've got speed, score, and price for those three models. And I've normalized the speed and the prize to you get 100 points if you're the fastest one. And so and then the others the other scores are what percent of that are you? So if GPT51 is twice as slow or takes twice as long as Opus, then it's going to have a speed of about 50. Uh and that's what we that's what we see here. It's actually a speed of about 40. So Claude is really fast and really smart and GPT51 is really inexpensive and really smart and Gemini 3 Pro is neither fast nor inexpensive and it also gives up a little bit in intelligence uh to the other two models. And so that's that's why that's why it's clocking in here. And by the way, I fully think this is a preview, right? And and I fully think that when Google launches the full model that it's definitely going to bump bump up on the intelligence level and maybe on the others as well because right now when I looked at the results coming out of the test harness, there were a bunch of tasks where Gemini 3 got stuck in a loop and it would just >> it would just be open. I'm ready to submit my answer. I'm ready to to be done. I've solved the problem. And it would just be looping and saying that over and over and over and it never actually would solve the problem. >> It had some weird reasoning loop and you could watch that if you just watch it like if you just look at Gemini even even if you're not trying to code with Gemini and you just look at Gemini 3 just ask it a question and then follow its reasoning cycle. It's continually second-guessing itself over and over and over. And I feel like that manifests in the coding space as >> well. That's that's a tricky thing to get right because multiple labs do that. And what they're doing is they're trying to get the model to think long enough to get to its maximumly good answer. Uh so so they'll just I I don't know what's going on under the hood with Gemini, but uh a lot of the models will just like they they have a very high propensity to generate tokens like wait or actually and and that sends it off in a kind of checking its work direction. And so that's that's a useful thing to have, but not only if it does only if you don't get stuck in that mode. >> Yeah. Yeah. And and that's where that's where it's like the it's the there's a saying that I I I saw I saw from you recently where you said it doesn't have to be uh goldplated. And I feel like that's the this is the LLM equivalent of that. It's like okay, we you need to reach a point of good enough and then just stick a fork in the sand and then we can we can correct context from there if necessary, but you just can't keep doing that forever because you know people are you're you're burning tokens in time, >> right? So the the other thing that I I wanted to to show then is you know we kind of took a look at the the big boys and you know what am I going to do when my boss is paying for it and then this is a visualization of kind of the budget category. So if we zoom in on the graph of cost versus performance who's delivering the most intelligence at the lowest price and it's it's really these three models. It's uh GPT5 Mini and it's two models from XAI, which was actually surprising to me. And last time around in August, if I remember correctly, none of the XAI models made it to the finalists round where we test them with the entire test suite. But this time, we had two of them make it there. And Grock Codef fast one, if you look at that blue area on the graph, like it's at a really good spot where it's delivering amazing price. It's delivering very solid speed and it's delivering it's giving up a little bit on intelligence. Yes, but it it is delivering a lot uh for what you're paying. Uh the other one that I think obviously is is a good candidate for the best model to use in the budget category would be GPG5 mini just because you're getting so much more intelligence for that price. But I mean look at the look at those graphs. So if you follow that that 20 circle around to the upper left where that dot is for GPT5 Mini. So that means it's five times slower than GR code fast one. Yeah. And but by the and by the way uh Grock 41 fast that its upper left dot for speed is in this it's right next to GBT 5 mini. So Grock 41 is a little bit smarter than GR code fast one but it's way way way way slower. It should not be called fast. I think probably they didn't want to call it mini but uh but it's not fast but GR code fast one is fast uh and it's low price so it's a great deal. And I I would the other thing I would point out is besides the Brock Power went rankings, the other unbiased source that you'll find for how good is this model is open router because they publish a leaderboard of how how much are people using this thing and gro code fast one last I looked it's rid it was like something like 40% of the programming being done on open router is being done with gro code fast one and now granted the open router audience is tends to be very very cost-sensitive. But yeah, like that that is people voting with their feet and saying, \"Yeah, this is useful enough to write code with and do billions of tokens worth of inference on.\" So yeah, I I came away I didn't expect to find this. I didn't expect to find this, but I came away very impressed with with GR code fast one to the point that we've actually made that the default model for Brock's free tier. So uh you know this isn't a presentation about Brock the the development platform but you know we do have a a free tier where you can use as much grock codefast one as you want and to show you the power of Brock. >> That's cool. Yep. I I think that uh I mean and I I've seen this in other instances where I've traditionally picked on these models to do like loweffort tasks you know that that I want to be that that I don't want to spend a time. So I'm not going to put a lot of something that I need a lot of reasoning or a lot of thinking capability involved with. So it's interesting to see that this mirrors with my personal experience and why I and unknowingly gravitating to these because of that this exactly what we're seeing on this on this uh graph. >> We'll have to create a new benchmark called uh Dylan bench or something. [laughter] >> Dylan the next thing I wanted to talk about is the the open models. So we we looked at four uh we put four open models in the finalists category this time around. And so the these are those four with GLM46 doing the best on the intelligence metric which is interesting because it's a couple months older than Deepseek 32. I think just just anecdotally again I have no inside information here but it looks to me like DeepSeek has not prioritized coding power a whole lot in their training not as much as uh Quinn for instance or GLM and I think that's probably why even even though in general newer models tend to do better and this is actually the newest model uh on the slide I think that's probably why it's just not as high a priority for the deepseat guys. Oh, and by the way, I'm going to call this out too because I mentioned at the beginning that one of the reasons that we created the power ranking was to see like who's actually cheating on the tests. And from the difference between what we measured and what these guys are publishing on Swebench and like CodeBench, it looks very much to me like uh Kimmy and Minax are in fact cheating on the test because both of those guys published numbers that said, \"Hey, we're better than GPT. We're better than Sonnet.\" Uh and that's just that's just not the case at all. And that that's an interesting outcome because if you follow any of the AI folks that do regular news about this, I've seen uh Kimmy just constantly bubbling to the top and being called out as as a a frontr runner based entirely off of what may ostensibly be a fixed test or a a cheated on test. I think I think the buzz around Kimmy is around those numbers and it's also the largest openweight model or at least it was when it was released. It's a billion parameters. >> Uh so GLM46 is is somewhere around half a million half a billion and deepseek is somewhere around seven billion I think. Uh so so people look at that and say well bigger is better >> but in this case it's not. >> Yeah. And and just for folks that don't know specifically what GLM is, I find that to be probably one of the most unknown AI users, but that's ZAI if you if you're looking for the chat equivalent of that. So >> yeah, that's actually that's actually one that was flying under my radar as well. And when I posted the August power ranking to the Reddit local llama community, they said, \"Hey, where's GLM?\" Uh so so this time around this time around we went and we we we put it through the paces and yeah it's it's it is really good. One interesting thing about this is if we take those numbers from like the most recent and best performing open weights models and we look at the top closed models from just a little while ago. the gap between these open 03 if I remember correctly these were released in April and May respectively 03 and sonnet it's possible it was March and April but they were a month apart and then uh GLM46 was September Deepseek 32 was November so we're basically have a three a six-month gap between the closed and the open models here and they're just neck and neck in performance and I thought that was really interesting. >> Yeah, I mean they're catching up fast. I mean there's a lot of interesting things going on with the open models especially for folks that are trying to do like the lower the lower uh end ones. So things that are in the 2030b um category but they are shockingly performant for being for for for their source of origin. you know, these aren't these aren't, you know, hundred billion dollar plus companies that are, you know, that that are rolling these models. >> Yeah. Um, and so this is this is a good point time to uh kind of answer a frequently asked question, which is uh people ask, so what is the score that you're measuring? Like I just want the raw pass rate. Give me give me the raw pass rate. And I don't want to do that because it it's materially different and worse if it takes your model multiple tries to solve the problem than if it takes just a single try. So we have a decaying score credit that you get when you solve the problem. And it starts off at, you know, one point for solving it on your first try and then on your second try it drops to, I don't remember, I think 65. It's it's it's a logarithmic curve and so it it decays. It never goes to zero. If you can solve it with an in, you know, an almost infinite amount of tries, you're still a little bit better than somebody who can't solve it at all. But we do want to have that uh penalty because you're that's that you're wasting my time and you're wasting my money if it takes you lots and lots of tries to solve it. But I mean, well, and >> this goes back to old adages like when you when you when you're trying to build anything in the universe, if you have if you have infinite people and infinite time and infinite money, anything is achievable. So, but at some point in time, you got to bubble it down to reality. And that is what can we do with five developers in six months and, you know, a quarter million dollars worth of money. >> And and this so in general, so this is a graph I made. It's not on the official power ranking site, so it's texton. Kind of a kind of an engineers graph. >> I like it. >> But it it shows two things. One is that the the score that we're calculating with that decaying credit tracks very very closely with the number of tasks that get solved successfully. So the there's two interesting things that that that this shows. One is that we've got this fancy decaying credit that we're publishing in the power ranking, but it tracks very very closely with a naive like did you get it to pass, which is what's what's at the top and the bottom of this graph respectively. And the the other interesting thing is that the the number of tries it takes you does matter when it's a very close score. So, if you look at the 45 OPUS and the GPT 51 scores, OPUS outscores GPT by a couple percentage points. I'm looking at the average scores. I think in general, the average score is more useful. You can look at the best score if you want. I think they're both useful, but the average score is more useful, I think. But Opus is outscoring it by two percentage points of the average score. But if you look down at the pass count, GPT51 actually passed one more task that Opus 45 did not. But it took almost 20% more tries overall. And so I think I think when you look at it like that, I think that the score metric that is doing the right thing. It's it's it's solving the problem that it was created to solve. >> Yeah, I would agree. I mean to put this in the context of you know like if you're doing something like performance measurement against GPUs it it's something that a lot of people are familiar with when you're when you're looking at do I buy you know a a 5080 or a 5070 you're really looking at you really want to get that sweet spot that that a couple more frames don't matter um in the long in the grand scheme of things especially if those frames come at the cost of several hundred dollars or in this case a few more tokens >> and this highlights by the way One more controversial thing about the power ranking which is that we have GPT5 mini just barely edging out cloud 45 sonnet both on the score and on the pass count and fortunately opus 45 came out came out and that's clobbering five mini otherwise I would never hear the end of that because that that that is not intuitive to people but I like the data's there guys the data is the data and and I think if you give GPT5 5 mini a try. I think you'll be more impressed than you thought you would be. The last thing that I that I wanted to talk about is uh since we were kind of on a on a journey through history there over the last six months is um the other frequently asked question I get is well what about Quen 3 co coder like why isn't that on your finalists list? It was on our finalist list in August but the other models are better that it's it's that simple. So you can see actually Quinn3 coder is faster than uh than GLM or deepseek but it is higher priced much higher priced and also not as intelligent. So it it didn't make the finalists list this time around >> you know and to be fair is kind of a darling when it comes to sites like Hugging Face. Uh there's there's a lot of people that it's their favorite model because it's their favorite model. So they they would just want to see it. But again, we come back to what you just said not less than a few minutes ago. The the numbers are the numbers, but it's there now. So people >> Yeah. And and I can understand that, right? So Quinn or Alibaba is the only group that's put out uh two generations now of coding specialized models. So yeah, I would definitely like to give them some love for that, >> but unfortunately this time around, uh I couldn't. So hopefully Quinn 4 or Quinn 35 will will get them back in the winner circle, but for now we're we're looking at GLM and Deep Seek as holding down the four for the open weights. So I' we've talked about speed uh quite a bit today because I just think it it it's just so overwhelmingly important to the quality of experience that you have with a model. Uh, and I I wrote an article that concluded with saying that speed is the final box for open models. And this is illustrating why that is. So, we've got two of the two fastest open models from our finalist round compared with are these the two fastest? I think these are No, these are not the two f fastest because sonnet is closer is faster than gro fast one. But it's more interesting if we if we add a little variety. But yeah, if you look at those those closed models, they are smarter and faster. And it's not close. We've got grot codefast one uh twice as fast as Minamax and 50% smarter. And then you've got Haiku at five times as fast as the LM46 >> and just narrowly edging it out on on the performance aspect. Yeah, I'm I if if people don't want to take a second, if not third look at Haiku at this point, I'm not sure what more information could be provided to them, you know, and and as a person who actually took that dive, uh I I it's it is it is an interesting outcome to say the least. So, >> so I I do have uh one bone to throw to to the the Quinn stands out there, which is this slide of local sized models. And you can you basically there's two categories here. There's GPOSS 12B and then there's everyone else. And that's because 12B is really stretching the definition of a local size model. either you have a Mac that you've maxed out the RAM for [clears throat] what is what is it $10,000 just about for for their top of the line. >> Yeah. You're running a Nvidia 6000 card with 96 gigabytes of VRAM. Yeah. >> Yeah. Like these are these are it it's easily a $10,000 investment to run uh 120B, but the the others are all runnable on, you know, a 5090 or a more more normalsized amount of Mac RAM. But there you can see that that size does matter. Like there's a fairly big gap between the the 30 billion size models and I if I remember correctly Quint3 next is actually 80 billion but it's not specialized for coding so it's just not as good. Yeah. So I I I want to have a coding LLM that lives on my desktop and I've got the the the dual GPUs to prove it but like [clears throat] especially when you throw this in, right? like Grock Code Fast One was not our top performing uh closed model. It was at the bottom. It's it's a great value, but it's not nearly as smart as Haiku or G uh GPT5 Mini, let alone the bigger models. By the way, the reason the numbers different here is that this is the open round. Like the none of the only model here that qualified for the finalists was Grocode Fast one. And so these are the open round problems. They're a little bit easier. And so that's why Grow Code Fast one is scoring almost 50%. But the others are not. So >> yeah, >> I I I I definitely like I know people who are running local models and writing code with them and if you've got the patience to wait for them spitting out tokens at you know 20 tokens a second or if you've got the budget to drop for that $10,000 setup to to get uh you know GPTOSS120 billion doing I saw people on Reddit saying they're doing 150 tokens per second which is really fast. Like that's that's faster than Haiku, but that's a lot of money that it takes. >> I've seen enthusiasts that are that are rolling with like four four GPU rigs that are that are like 30 series 90 cards that had a reasonable amount of RAM, but they're they're they're investing some serious time and energy into those horsep. >> I mean, I've looked into this enough to know, right? Like even if you're going 4x3090, like the cooling that you need, the power requirements that you need, those are not trivial. >> A small rack machine to get to get that kind of performance for sure. >> Yeah. Yeah. So like if if if you enjoy it, like great. Like enjoy, right? Like it's only going to get better from here. But in terms of like does it make economic sense to to spend the money on one of these workstations so I can run one of these models? >> No. >> Yeah. [snorts] I mean, if you have a DGX, you know, uh, system lying around someplace, uh, go for it. That's what I would say. [laughter] >> Yeah. Yeah, that that's totally reasonable. Um, so that's that's the tier list. That's the the December tier list, uh, 2025. And we'd love to hear what you think. >> Yeah. Well, I appreciate you taking the time today and this has been educational for me and I'm sure it will be educational for all the folks that that have a look at this. And of course, if you have any questions or if you're curious, I would say go to the GitHub repo. It's right on the on the on the page where you would find the actual right here at the at Brock. Go to the power rankings. Hit the GitHub repo. Take a look at what we're testing. That that's the proof is in my opinion. There's no better source of truth than to look at the repo that's generating what it is we're seeing. So, there's nothing in the dark. It's all for folks to see. So, uh again, thank you for your time and I and come come visit us at at Brock.ai and check out our power rankings.",
+  "fetchedAt": "2026-01-18T18:32:45.833Z"
+}

@@ -1,0 +1,754 @@
+{
+  "videoId": "vpbNP4loCiE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.519,
+      "text": "Astro is joining Cloudflare. So if"
+    },
+    {
+      "start": 2.24,
+      "duration": 3.68,
+      "text": "you're keeping track at home, this now"
+    },
+    {
+      "start": 3.679,
+      "duration": 4.561,
+      "text": "means that Cloudflare has Astro, Vel has"
+    },
+    {
+      "start": 5.92,
+      "duration": 4.799,
+      "text": "Nex.js, but also Nux and Spelt, Google"
+    },
+    {
+      "start": 8.24,
+      "duration": 4.56,
+      "text": "has Angular, Microsoft have Blazer, and"
+    },
+    {
+      "start": 10.719,
+      "duration": 3.681,
+      "text": "everybody gets a framework. In all"
+    },
+    {
+      "start": 12.8,
+      "duration": 3.039,
+      "text": "honesty though, this news does seem like"
+    },
+    {
+      "start": 14.4,
+      "duration": 3.28,
+      "text": "a good thing. So let's just jump right"
+    },
+    {
+      "start": 15.839,
+      "duration": 6.36,
+      "text": "in, talk about what this news is and"
+    },
+    {
+      "start": 17.68,
+      "duration": 4.519,
+      "text": "what this means for Astro going forward."
+    },
+    {
+      "start": 24.64,
+      "duration": 3.52,
+      "text": "I'll start with a quick recap of what"
+    },
+    {
+      "start": 26.32,
+      "duration": 3.84,
+      "text": "Astro is for those of you that might not"
+    },
+    {
+      "start": 28.16,
+      "duration": 4,
+      "text": "know. Astro is an open- source web"
+    },
+    {
+      "start": 30.16,
+      "duration": 3.68,
+      "text": "framework, but not a UI one. This is"
+    },
+    {
+      "start": 32.16,
+      "duration": 3.52,
+      "text": "sometimes misunderstood, and you can"
+    },
+    {
+      "start": 33.84,
+      "duration": 4.239,
+      "text": "actually still use React, View, Fel, or"
+    },
+    {
+      "start": 35.68,
+      "duration": 4.16,
+      "text": "Solid with Astro. What Astro provides as"
+    },
+    {
+      "start": 38.079,
+      "duration": 3.921,
+      "text": "its main selling point is making it"
+    },
+    {
+      "start": 39.84,
+      "duration": 4,
+      "text": "incredibly easy to build content-driven"
+    },
+    {
+      "start": 42,
+      "duration": 3.76,
+      "text": "sites like blogs, documentation, or"
+    },
+    {
+      "start": 43.84,
+      "duration": 4.08,
+      "text": "e-commerce and making those sites"
+    },
+    {
+      "start": 45.76,
+      "duration": 4,
+      "text": "incredibly performant. And its main way"
+    },
+    {
+      "start": 47.92,
+      "duration": 4,
+      "text": "of doing that is rendering the site on"
+    },
+    {
+      "start": 49.76,
+      "duration": 3.76,
+      "text": "the server and sending static HTML to"
+    },
+    {
+      "start": 51.92,
+      "duration": 3.52,
+      "text": "the client with the least amount of"
+    },
+    {
+      "start": 53.52,
+      "duration": 4.32,
+      "text": "JavaScript needed. So, the initial load"
+    },
+    {
+      "start": 55.44,
+      "duration": 4.4,
+      "text": "is very fast, especially when compared"
+    },
+    {
+      "start": 57.84,
+      "duration": 3.68,
+      "text": "to some of the other options. Now,"
+    },
+    {
+      "start": 59.84,
+      "duration": 2.879,
+      "text": "there's obviously loads more to Astro"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.56,
+      "text": "than just that. And in fact, we've"
+    },
+    {
+      "start": 62.719,
+      "duration": 3.041,
+      "text": "covered a few of the features on this"
+    },
+    {
+      "start": 64.08,
+      "duration": 3.6,
+      "text": "channel. So, subscribe for more great"
+    },
+    {
+      "start": 65.76,
+      "duration": 4.16,
+      "text": "content like this. And it's also worth"
+    },
+    {
+      "start": 67.68,
+      "duration": 3.68,
+      "text": "noting Astro can handle more complexity"
+    },
+    {
+      "start": 69.92,
+      "duration": 2.879,
+      "text": "with its island architecture that it"
+    },
+    {
+      "start": 71.36,
+      "duration": 3.2,
+      "text": "helped popularize. But the main thing"
+    },
+    {
+      "start": 72.799,
+      "duration": 4.161,
+      "text": "that you need to know for this story is"
+    },
+    {
+      "start": 74.56,
+      "duration": 3.919,
+      "text": "it makes content driven sites very fast."
+    },
+    {
+      "start": 76.96,
+      "duration": 3.92,
+      "text": "That's why companies like Google,"
+    },
+    {
+      "start": 78.479,
+      "duration": 3.921,
+      "text": "OpenAI, and of course, Cloudflare use it"
+    },
+    {
+      "start": 80.88,
+      "duration": 2.8,
+      "text": "for things like their blog post, their"
+    },
+    {
+      "start": 82.4,
+      "duration": 3.44,
+      "text": "marketing pages, and their"
+    },
+    {
+      "start": 83.68,
+      "duration": 3.759,
+      "text": "documentation. Even me, too. I use it"
+    },
+    {
+      "start": 85.84,
+      "duration": 3.36,
+      "text": "personally for my blog, which I haven't"
+    },
+    {
+      "start": 87.439,
+      "duration": 3.601,
+      "text": "updated in years. But that is definitely"
+    },
+    {
+      "start": 89.2,
+      "duration": 3.44,
+      "text": "not Astro's fault. So, with that bit of"
+    },
+    {
+      "start": 91.04,
+      "duration": 3.52,
+      "text": "context, then we're at this blog post"
+    },
+    {
+      "start": 92.64,
+      "duration": 3.6,
+      "text": "from the founder of Astro announcing"
+    },
+    {
+      "start": 94.56,
+      "duration": 2.96,
+      "text": "that they're joining Cloudflare. And"
+    },
+    {
+      "start": 96.24,
+      "duration": 3.12,
+      "text": "I'll just start out with the important"
+    },
+    {
+      "start": 97.52,
+      "duration": 3.68,
+      "text": "bits for those of you that use Astro or"
+    },
+    {
+      "start": 99.36,
+      "duration": 3.84,
+      "text": "want to in the future. And that is the"
+    },
+    {
+      "start": 101.2,
+      "duration": 3.599,
+      "text": "key promises in this announcement. The"
+    },
+    {
+      "start": 103.2,
+      "duration": 3.599,
+      "text": "first one is that it will stay open"
+    },
+    {
+      "start": 104.799,
+      "duration": 3.28,
+      "text": "source and actively maintained. The"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.041,
+      "text": "second is that it will continue to"
+    },
+    {
+      "start": 108.079,
+      "duration": 3.441,
+      "text": "support other deployment options, not"
+    },
+    {
+      "start": 109.84,
+      "duration": 3.44,
+      "text": "just Cloudflare. So hopefully there's no"
+    },
+    {
+      "start": 111.52,
+      "duration": 4.08,
+      "text": "feelings of vendor lockin like many"
+    },
+    {
+      "start": 113.28,
+      "duration": 4.479,
+      "text": "people feel with Nex.js, but Vel does"
+    },
+    {
+      "start": 115.6,
+      "duration": 3.6,
+      "text": "try and deny. And also the open"
+    },
+    {
+      "start": 117.759,
+      "duration": 3.68,
+      "text": "governance and road map are going to"
+    },
+    {
+      "start": 119.2,
+      "duration": 4.559,
+      "text": "stay the exact same with the entire team"
+    },
+    {
+      "start": 121.439,
+      "duration": 4.561,
+      "text": "over at Astro now working at Cloudflare"
+    },
+    {
+      "start": 123.759,
+      "duration": 4,
+      "text": "full-time on Astro. So that's pretty"
+    },
+    {
+      "start": 126,
+      "duration": 3.84,
+      "text": "good news for everyone over there, which"
+    },
+    {
+      "start": 127.759,
+      "duration": 3.761,
+      "text": "I am very happy to see. But why join"
+    },
+    {
+      "start": 129.84,
+      "duration": 3.2,
+      "text": "Cloudflare then? Well, the answer to"
+    },
+    {
+      "start": 131.52,
+      "duration": 3.28,
+      "text": "that is pretty similar to some of the"
+    },
+    {
+      "start": 133.04,
+      "duration": 4.24,
+      "text": "other stories that we've heard recently."
+    },
+    {
+      "start": 134.8,
+      "duration": 4.64,
+      "text": "While Astro is an MIT licensed"
+    },
+    {
+      "start": 137.28,
+      "duration": 4.16,
+      "text": "open-source web framework, it's backed"
+    },
+    {
+      "start": 139.44,
+      "duration": 4.96,
+      "text": "by the Astro Technology Company, which"
+    },
+    {
+      "start": 141.44,
+      "duration": 4.879,
+      "text": "is VCbacked, aka it needs to make some"
+    },
+    {
+      "start": 144.4,
+      "duration": 3.6,
+      "text": "money. Now, the original idea was that"
+    },
+    {
+      "start": 146.319,
+      "duration": 3.841,
+      "text": "Astro would sit at the center of a"
+    },
+    {
+      "start": 148,
+      "duration": 3.84,
+      "text": "massive developer platform with optional"
+    },
+    {
+      "start": 150.16,
+      "duration": 4.079,
+      "text": "hosted primitives like database,"
+    },
+    {
+      "start": 151.84,
+      "duration": 4.64,
+      "text": "storage, analytics, all designed in lock"
+    },
+    {
+      "start": 154.239,
+      "duration": 3.841,
+      "text": "step with the framework. But Fred says,"
+    },
+    {
+      "start": 156.48,
+      "duration": 4,
+      "text": "attempts to introduce paid hosted"
+    },
+    {
+      "start": 158.08,
+      "duration": 4.239,
+      "text": "primitives into the ecosystem fell flat"
+    },
+    {
+      "start": 160.48,
+      "duration": 3.6,
+      "text": "and rarely justified their own"
+    },
+    {
+      "start": 162.319,
+      "duration": 4.081,
+      "text": "existence. Nothing clicked with the"
+    },
+    {
+      "start": 164.08,
+      "duration": 4.08,
+      "text": "users the same way that Astro did. And"
+    },
+    {
+      "start": 166.4,
+      "duration": 3.6,
+      "text": "in fact, we've seen similar stories to"
+    },
+    {
+      "start": 168.16,
+      "duration": 3.68,
+      "text": "this with other projects like Tailwind"
+    },
+    {
+      "start": 170,
+      "duration": 4.319,
+      "text": "and Bun where they perform really well"
+    },
+    {
+      "start": 171.84,
+      "duration": 4.24,
+      "text": "as an open- source tool, but not so much"
+    },
+    {
+      "start": 174.319,
+      "duration": 3.2,
+      "text": "as a company. Astro's actually been"
+    },
+    {
+      "start": 176.08,
+      "duration": 3.12,
+      "text": "doubling in downloads every year, and"
+    },
+    {
+      "start": 177.519,
+      "duration": 3.281,
+      "text": "it's now at nearly a million per week."
+    },
+    {
+      "start": 179.2,
+      "duration": 4.16,
+      "text": "But I imagine their revenue probably"
+    },
+    {
+      "start": 180.8,
+      "duration": 4.48,
+      "text": "wasn't as successful. So, that answers"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.519,
+      "text": "why Astro was probably looking for a new"
+    },
+    {
+      "start": 185.28,
+      "duration": 4.319,
+      "text": "place to keep up with the maintenance"
+    },
+    {
+      "start": 186.879,
+      "duration": 5.041,
+      "text": "cost of Astro. But why Cloudflare? And"
+    },
+    {
+      "start": 189.599,
+      "duration": 3.761,
+      "text": "what did Cloudflare want with Astro?"
+    },
+    {
+      "start": 191.92,
+      "duration": 3.12,
+      "text": "Well, they actually realized they've"
+    },
+    {
+      "start": 193.36,
+      "duration": 3.36,
+      "text": "been working towards the same goal from"
+    },
+    {
+      "start": 195.04,
+      "duration": 3.68,
+      "text": "different angles. Cloudflare has always"
+    },
+    {
+      "start": 196.72,
+      "duration": 3.68,
+      "text": "been about solving the fast web problem"
+    },
+    {
+      "start": 198.72,
+      "duration": 3.36,
+      "text": "from the infrastructure side of things,"
+    },
+    {
+      "start": 200.4,
+      "duration": 3.68,
+      "text": "and Astro has been trying to solve it"
+    },
+    {
+      "start": 202.08,
+      "duration": 4,
+      "text": "from the framework side. And now"
+    },
+    {
+      "start": 204.08,
+      "duration": 3.6,
+      "text": "together, they can do both. Plus,"
+    },
+    {
+      "start": 206.08,
+      "duration": 3.36,
+      "text": "Cloudflare was already a longtime"
+    },
+    {
+      "start": 207.68,
+      "duration": 3.119,
+      "text": "sponsor of Astro, even using it"
+    },
+    {
+      "start": 209.44,
+      "duration": 3.359,
+      "text": "themselves for their documentation,"
+    },
+    {
+      "start": 210.799,
+      "duration": 3.921,
+      "text": "their workers landing page, and a bunch"
+    },
+    {
+      "start": 212.799,
+      "duration": 3.52,
+      "text": "of their marketing sites. So, the team"
+    },
+    {
+      "start": 214.72,
+      "duration": 3.439,
+      "text": "over there is already very familiar with"
+    },
+    {
+      "start": 216.319,
+      "duration": 3.681,
+      "text": "it. So, it's not just an opportunity to"
+    },
+    {
+      "start": 218.159,
+      "duration": 4.64,
+      "text": "buy a framework. They actually like the"
+    },
+    {
+      "start": 220,
+      "duration": 4.72,
+      "text": "goal of Astro and want it to thrive. And"
+    },
+    {
+      "start": 222.799,
+      "duration": 4.08,
+      "text": "I also like Cloudflare as a host for"
+    },
+    {
+      "start": 224.72,
+      "duration": 4.32,
+      "text": "Astro as they do have a decent track"
+    },
+    {
+      "start": 226.879,
+      "duration": 3.841,
+      "text": "record. They sponsor projects like Hono"
+    },
+    {
+      "start": 229.04,
+      "duration": 3.919,
+      "text": "and Tanstack and they haven't tried to"
+    },
+    {
+      "start": 230.72,
+      "duration": 3.28,
+      "text": "lock them down onto only that platform."
+    },
+    {
+      "start": 232.959,
+      "duration": 3.28,
+      "text": "So, I think they have some good"
+    },
+    {
+      "start": 234,
+      "duration": 4.08,
+      "text": "precedent for keeping things nice and"
+    },
+    {
+      "start": 236.239,
+      "duration": 3.441,
+      "text": "open. And finally, in Cloudflare's blog"
+    },
+    {
+      "start": 238.08,
+      "duration": 3.68,
+      "text": "post, we also get another reason why"
+    },
+    {
+      "start": 239.68,
+      "duration": 3.36,
+      "text": "they might be interested in Astro, and"
+    },
+    {
+      "start": 241.76,
+      "duration": 3.119,
+      "text": "that is because they've already seen a"
+    },
+    {
+      "start": 243.04,
+      "duration": 4.24,
+      "text": "trend of Astro and Cloudflare being used"
+    },
+    {
+      "start": 244.879,
+      "duration": 4.401,
+      "text": "together in the new world of AI. There's"
+    },
+    {
+      "start": 247.28,
+      "duration": 4.72,
+      "text": "tools like Web Flow Cloud, Wix Vive, and"
+    },
+    {
+      "start": 249.28,
+      "duration": 4.319,
+      "text": "Stainless Cloudflare and Astro together,"
+    },
+    {
+      "start": 252,
+      "duration": 3.36,
+      "text": "demonstrating that it's good fit for"
+    },
+    {
+      "start": 253.599,
+      "duration": 4.081,
+      "text": "both of them, and there's a demand for"
+    },
+    {
+      "start": 255.36,
+      "duration": 3.76,
+      "text": "this synergy of Astro and Cloudflare."
+    },
+    {
+      "start": 257.68,
+      "duration": 3.92,
+      "text": "So, it really does seem like it's going"
+    },
+    {
+      "start": 259.12,
+      "duration": 4.24,
+      "text": "to be a great home for Astro. And going"
+    },
+    {
+      "start": 261.6,
+      "duration": 3.039,
+      "text": "forward, Astro doesn't have to worry"
+    },
+    {
+      "start": 263.36,
+      "duration": 3.119,
+      "text": "about where they're making their money"
+    },
+    {
+      "start": 264.639,
+      "duration": 3.761,
+      "text": "from. They can fully focus on making"
+    },
+    {
+      "start": 266.479,
+      "duration": 3.761,
+      "text": "Astro the best web framework for"
+    },
+    {
+      "start": 268.4,
+      "duration": 3.76,
+      "text": "contentdriven websites. And in fact,"
+    },
+    {
+      "start": 270.24,
+      "duration": 3.679,
+      "text": "Astro 6 just hit beta, which looks"
+    },
+    {
+      "start": 272.16,
+      "duration": 3.92,
+      "text": "really cool. So subscribe for when we"
+    },
+    {
+      "start": 273.919,
+      "duration": 4.081,
+      "text": "have a video on that. And that's really"
+    },
+    {
+      "start": 276.08,
+      "duration": 3.92,
+      "text": "all there is to this news. I am very"
+    },
+    {
+      "start": 278,
+      "duration": 3.84,
+      "text": "excited to see what's coming from Astro"
+    },
+    {
+      "start": 280,
+      "duration": 3.199,
+      "text": "now that they can fully focus on it. Let"
+    },
+    {
+      "start": 281.84,
+      "duration": 2.799,
+      "text": "me know what you think in the comments"
+    },
+    {
+      "start": 283.199,
+      "duration": 5.801,
+      "text": "below. While you're there, subscribe."
+    },
+    {
+      "start": 284.639,
+      "duration": 4.361,
+      "text": "And as always, see you in the next one."
+    }
+  ],
+  "fullText": "Astro is joining Cloudflare. So if you're keeping track at home, this now means that Cloudflare has Astro, Vel has Nex.js, but also Nux and Spelt, Google has Angular, Microsoft have Blazer, and everybody gets a framework. In all honesty though, this news does seem like a good thing. So let's just jump right in, talk about what this news is and what this means for Astro going forward. I'll start with a quick recap of what Astro is for those of you that might not know. Astro is an open- source web framework, but not a UI one. This is sometimes misunderstood, and you can actually still use React, View, Fel, or Solid with Astro. What Astro provides as its main selling point is making it incredibly easy to build content-driven sites like blogs, documentation, or e-commerce and making those sites incredibly performant. And its main way of doing that is rendering the site on the server and sending static HTML to the client with the least amount of JavaScript needed. So, the initial load is very fast, especially when compared to some of the other options. Now, there's obviously loads more to Astro than just that. And in fact, we've covered a few of the features on this channel. So, subscribe for more great content like this. And it's also worth noting Astro can handle more complexity with its island architecture that it helped popularize. But the main thing that you need to know for this story is it makes content driven sites very fast. That's why companies like Google, OpenAI, and of course, Cloudflare use it for things like their blog post, their marketing pages, and their documentation. Even me, too. I use it personally for my blog, which I haven't updated in years. But that is definitely not Astro's fault. So, with that bit of context, then we're at this blog post from the founder of Astro announcing that they're joining Cloudflare. And I'll just start out with the important bits for those of you that use Astro or want to in the future. And that is the key promises in this announcement. The first one is that it will stay open source and actively maintained. The second is that it will continue to support other deployment options, not just Cloudflare. So hopefully there's no feelings of vendor lockin like many people feel with Nex.js, but Vel does try and deny. And also the open governance and road map are going to stay the exact same with the entire team over at Astro now working at Cloudflare full-time on Astro. So that's pretty good news for everyone over there, which I am very happy to see. But why join Cloudflare then? Well, the answer to that is pretty similar to some of the other stories that we've heard recently. While Astro is an MIT licensed open-source web framework, it's backed by the Astro Technology Company, which is VCbacked, aka it needs to make some money. Now, the original idea was that Astro would sit at the center of a massive developer platform with optional hosted primitives like database, storage, analytics, all designed in lock step with the framework. But Fred says, attempts to introduce paid hosted primitives into the ecosystem fell flat and rarely justified their own existence. Nothing clicked with the users the same way that Astro did. And in fact, we've seen similar stories to this with other projects like Tailwind and Bun where they perform really well as an open- source tool, but not so much as a company. Astro's actually been doubling in downloads every year, and it's now at nearly a million per week. But I imagine their revenue probably wasn't as successful. So, that answers why Astro was probably looking for a new place to keep up with the maintenance cost of Astro. But why Cloudflare? And what did Cloudflare want with Astro? Well, they actually realized they've been working towards the same goal from different angles. Cloudflare has always been about solving the fast web problem from the infrastructure side of things, and Astro has been trying to solve it from the framework side. And now together, they can do both. Plus, Cloudflare was already a longtime sponsor of Astro, even using it themselves for their documentation, their workers landing page, and a bunch of their marketing sites. So, the team over there is already very familiar with it. So, it's not just an opportunity to buy a framework. They actually like the goal of Astro and want it to thrive. And I also like Cloudflare as a host for Astro as they do have a decent track record. They sponsor projects like Hono and Tanstack and they haven't tried to lock them down onto only that platform. So, I think they have some good precedent for keeping things nice and open. And finally, in Cloudflare's blog post, we also get another reason why they might be interested in Astro, and that is because they've already seen a trend of Astro and Cloudflare being used together in the new world of AI. There's tools like Web Flow Cloud, Wix Vive, and Stainless Cloudflare and Astro together, demonstrating that it's good fit for both of them, and there's a demand for this synergy of Astro and Cloudflare. So, it really does seem like it's going to be a great home for Astro. And going forward, Astro doesn't have to worry about where they're making their money from. They can fully focus on making Astro the best web framework for contentdriven websites. And in fact, Astro 6 just hit beta, which looks really cool. So subscribe for when we have a video on that. And that's really all there is to this news. I am very excited to see what's coming from Astro now that they can fully focus on it. Let me know what you think in the comments below. While you're there, subscribe. And as always, see you in the next one.",
+  "fetchedAt": "2026-01-19T16:17:57.884Z"
+}

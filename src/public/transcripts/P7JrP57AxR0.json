@@ -1,0 +1,984 @@
+{
+  "videoId": "P7JrP57AxR0",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.24,
+      "text": "This is agents browser, an open- source"
+    },
+    {
+      "start": 2.08,
+      "duration": 4.48,
+      "text": "headless browser CLI built in a weekend"
+    },
+    {
+      "start": 4.4,
+      "duration": 4.159,
+      "text": "by a single VEL employee that lets your"
+    },
+    {
+      "start": 6.56,
+      "duration": 3.44,
+      "text": "agent do anything in the browser from"
+    },
+    {
+      "start": 8.559,
+      "duration": 3.281,
+      "text": "dragging and dropping to uploading an"
+    },
+    {
+      "start": 10,
+      "duration": 3.759,
+      "text": "image and even toggling offline mode."
+    },
+    {
+      "start": 11.84,
+      "duration": 3.44,
+      "text": "But why would anyone use this over"
+    },
+    {
+      "start": 13.759,
+      "duration": 3.6,
+      "text": "something like a browser use which has"
+    },
+    {
+      "start": 15.28,
+      "duration": 4.32,
+      "text": "way more features? And is Versel getting"
+    },
+    {
+      "start": 17.359,
+      "duration": 5.361,
+      "text": "into the agent browser space? Hit"
+    },
+    {
+      "start": 19.6,
+      "duration": 5.839,
+      "text": "subscribe and let's get into it."
+    },
+    {
+      "start": 22.72,
+      "duration": 4.719,
+      "text": "2026 is the year of AI agents writing,"
+    },
+    {
+      "start": 25.439,
+      "duration": 3.84,
+      "text": "reviewing, and testing all of your code."
+    },
+    {
+      "start": 27.439,
+      "duration": 3.68,
+      "text": "No more tab completions. In fact,"
+    },
+    {
+      "start": 29.279,
+      "duration": 4.001,
+      "text": "developers are even moving away from"
+    },
+    {
+      "start": 31.119,
+      "duration": 4.001,
+      "text": "idees entirely in favor of doing"
+    },
+    {
+      "start": 33.28,
+      "duration": 3.52,
+      "text": "everything in the terminal since all"
+    },
+    {
+      "start": 35.12,
+      "duration": 4,
+      "text": "we're really doing now is reviewing"
+    },
+    {
+      "start": 36.8,
+      "duration": 4.16,
+      "text": "code. And to help with this movement, we"
+    },
+    {
+      "start": 39.12,
+      "duration": 3.599,
+      "text": "need the agents to actually interact"
+    },
+    {
+      "start": 40.96,
+      "duration": 3.279,
+      "text": "with and test the code they've written."
+    },
+    {
+      "start": 42.719,
+      "duration": 4.081,
+      "text": "Because the last thing you want to do as"
+    },
+    {
+      "start": 44.239,
+      "duration": 4.881,
+      "text": "a developer is to open up the browser to"
+    },
+    {
+      "start": 46.8,
+      "duration": 4.4,
+      "text": "test each feature an army of agents have"
+    },
+    {
+      "start": 49.12,
+      "duration": 4.959,
+      "text": "written one by one because that's just"
+    },
+    {
+      "start": 51.2,
+      "duration": 4.8,
+      "text": "tedious. This is where Vel's new agent"
+    },
+    {
+      "start": 54.079,
+      "duration": 4.241,
+      "text": "browser comes in handy. Written by Chris"
+    },
+    {
+      "start": 56,
+      "duration": 4.879,
+      "text": "Tate in both Rust and Typescript. I'll"
+    },
+    {
+      "start": 58.32,
+      "duration": 4.559,
+      "text": "explain why later. This tool makes it so"
+    },
+    {
+      "start": 60.879,
+      "duration": 4.401,
+      "text": "easy for an agent to interact with the"
+    },
+    {
+      "start": 62.879,
+      "duration": 4.321,
+      "text": "browser using CLI commands that do a"
+    },
+    {
+      "start": 65.28,
+      "duration": 4.32,
+      "text": "bunch of things like creating an"
+    },
+    {
+      "start": 67.2,
+      "duration": 4.4,
+      "text": "accessibility snapshot that provides an"
+    },
+    {
+      "start": 69.6,
+      "duration": 4,
+      "text": "accessibility tree and references to"
+    },
+    {
+      "start": 71.6,
+      "duration": 3.839,
+      "text": "elements of a page, reference based"
+    },
+    {
+      "start": 73.6,
+      "duration": 3.6,
+      "text": "actions that takes the references from"
+    },
+    {
+      "start": 75.439,
+      "duration": 4.081,
+      "text": "the tree and apply relevant actions to"
+    },
+    {
+      "start": 77.2,
+      "duration": 4.16,
+      "text": "them. There's also semantic locators if"
+    },
+    {
+      "start": 79.52,
+      "duration": 4.16,
+      "text": "you don't want to use references that"
+    },
+    {
+      "start": 81.36,
+      "duration": 5.6,
+      "text": "allow you to find an element based on"
+    },
+    {
+      "start": 83.68,
+      "duration": 5.28,
+      "text": "its area ro its text content its label"
+    },
+    {
+      "start": 86.96,
+      "duration": 3.6,
+      "text": "and so much more. In fact, let's go"
+    },
+    {
+      "start": 88.96,
+      "duration": 3.68,
+      "text": "through a quick demo of how it works."
+    },
+    {
+      "start": 90.56,
+      "duration": 4.239,
+      "text": "Now, here is a little login page with an"
+    },
+    {
+      "start": 92.64,
+      "duration": 4.88,
+      "text": "email and password. And it's built with"
+    },
+    {
+      "start": 94.799,
+      "duration": 4.161,
+      "text": "Shadien React MV not because of a cell"
+    },
+    {
+      "start": 97.52,
+      "duration": 3.36,
+      "text": "or anything. It just happened to be"
+    },
+    {
+      "start": 98.96,
+      "duration": 4.32,
+      "text": "built that way. Now, there's one problem"
+    },
+    {
+      "start": 100.88,
+      "duration": 4.64,
+      "text": "with this whole page and it's that right"
+    },
+    {
+      "start": 103.28,
+      "duration": 4.24,
+      "text": "now I'm blinding my users because it's"
+    },
+    {
+      "start": 105.52,
+      "duration": 3.76,
+      "text": "in light mode. So I want there to be a"
+    },
+    {
+      "start": 107.52,
+      "duration": 3.84,
+      "text": "dark mode which I've actually gone ahead"
+    },
+    {
+      "start": 109.28,
+      "duration": 4.08,
+      "text": "and asked the agent to do but as you can"
+    },
+    {
+      "start": 111.36,
+      "duration": 4.88,
+      "text": "see it hasn't done it correctly. I mean"
+    },
+    {
+      "start": 113.36,
+      "duration": 4.88,
+      "text": "okay this text changes but nothing else."
+    },
+    {
+      "start": 116.24,
+      "duration": 4.239,
+      "text": "So let's go ahead and get the agent to"
+    },
+    {
+      "start": 118.24,
+      "duration": 4.879,
+      "text": "fix this using agent browser. So right"
+    },
+    {
+      "start": 120.479,
+      "duration": 4.801,
+      "text": "now I'm using open code with the GLM 4.7"
+    },
+    {
+      "start": 123.119,
+      "duration": 4.241,
+      "text": "model but of course agent browser can"
+    },
+    {
+      "start": 125.28,
+      "duration": 3.839,
+      "text": "work with any agent and any model. I've"
+    },
+    {
+      "start": 127.36,
+      "duration": 4,
+      "text": "gone ahead and told it that dark mode is"
+    },
+    {
+      "start": 129.119,
+      "duration": 4.801,
+      "text": "broken and it should test it with agent"
+    },
+    {
+      "start": 131.36,
+      "duration": 4.4,
+      "text": "hyphen browser on the specific port."
+    },
+    {
+      "start": 133.92,
+      "duration": 5.28,
+      "text": "What's important is this part of the"
+    },
+    {
+      "start": 135.76,
+      "duration": 5.28,
+      "text": "command to run agent hyphen browser-help"
+    },
+    {
+      "start": 139.2,
+      "duration": 3.679,
+      "text": "to see the available commands because"
+    },
+    {
+      "start": 141.04,
+      "duration": 3.6,
+      "text": "there's no slash commands, no skills."
+    },
+    {
+      "start": 142.879,
+      "duration": 3.521,
+      "text": "I've just installed agent browser"
+    },
+    {
+      "start": 144.64,
+      "duration": 3.52,
+      "text": "globally with npm. I'm going to hit"
+    },
+    {
+      "start": 146.4,
+      "duration": 3.6,
+      "text": "enter and then it checks the available"
+    },
+    {
+      "start": 148.16,
+      "duration": 4,
+      "text": "commands, uses the agent browser"
+    },
+    {
+      "start": 150,
+      "duration": 3.84,
+      "text": "snapshot functionality to create a"
+    },
+    {
+      "start": 152.16,
+      "duration": 3.68,
+      "text": "snapshot of the page which shows"
+    },
+    {
+      "start": 153.84,
+      "duration": 4,
+      "text": "documents, heading, paragraph, text, and"
+    },
+    {
+      "start": 155.84,
+      "duration": 3.759,
+      "text": "even images. It's then clicked on the"
+    },
+    {
+      "start": 157.84,
+      "duration": 3.84,
+      "text": "relevant element and taken a screenshot"
+    },
+    {
+      "start": 159.599,
+      "duration": 3.601,
+      "text": "to see if dark mode is working. And this"
+    },
+    {
+      "start": 161.68,
+      "duration": 3.199,
+      "text": "is the screenshot if you're curious."
+    },
+    {
+      "start": 163.2,
+      "duration": 3.36,
+      "text": "From here, it's gone ahead and fixed the"
+    },
+    {
+      "start": 164.879,
+      "duration": 4.08,
+      "text": "issue before taking another screenshot"
+    },
+    {
+      "start": 166.56,
+      "duration": 4.16,
+      "text": "of the fixed dark mode. And it's finally"
+    },
+    {
+      "start": 168.959,
+      "duration": 3.601,
+      "text": "finished the task, which we can test by"
+    },
+    {
+      "start": 170.72,
+      "duration": 3.519,
+      "text": "clicking up here. And we have a page"
+    },
+    {
+      "start": 172.56,
+      "duration": 3.679,
+      "text": "with perfect dark mode. Let's try"
+    },
+    {
+      "start": 174.239,
+      "duration": 3.761,
+      "text": "another test. Actually, while this was"
+    },
+    {
+      "start": 176.239,
+      "duration": 3.681,
+      "text": "running, I had another agent in the"
+    },
+    {
+      "start": 178,
+      "duration": 3.76,
+      "text": "background fix another issue. You may"
+    },
+    {
+      "start": 179.92,
+      "duration": 3.679,
+      "text": "have noticed that if I press the login"
+    },
+    {
+      "start": 181.76,
+      "duration": 3.839,
+      "text": "button, it will take me straight here"
+    },
+    {
+      "start": 183.599,
+      "duration": 4.161,
+      "text": "without any validation, which of course"
+    },
+    {
+      "start": 185.599,
+      "duration": 4.161,
+      "text": "isn't good. So I went ahead and asked it"
+    },
+    {
+      "start": 187.76,
+      "duration": 4,
+      "text": "to fix the issue with the validation in"
+    },
+    {
+      "start": 189.76,
+      "duration": 3.68,
+      "text": "this project and it did something"
+    },
+    {
+      "start": 191.76,
+      "duration": 3.6,
+      "text": "actually really interesting. It first"
+    },
+    {
+      "start": 193.44,
+      "duration": 4.159,
+      "text": "checks the available commands from Asian"
+    },
+    {
+      "start": 195.36,
+      "duration": 5.2,
+      "text": "browser and then if we scroll down it"
+    },
+    {
+      "start": 197.599,
+      "duration": 5.521,
+      "text": "fixes the issue and even makes a bash"
+    },
+    {
+      "start": 200.56,
+      "duration": 4.8,
+      "text": "script. So it's over here to test that"
+    },
+    {
+      "start": 203.12,
+      "duration": 4.56,
+      "text": "it works. So it echoes the first test,"
+    },
+    {
+      "start": 205.36,
+      "duration": 4.64,
+      "text": "adds an empty input, clicks the login"
+    },
+    {
+      "start": 207.68,
+      "duration": 4.559,
+      "text": "button and then expects these errors."
+    },
+    {
+      "start": 210,
+      "duration": 4.4,
+      "text": "It's made a few tests here, but it's"
+    },
+    {
+      "start": 212.239,
+      "duration": 4,
+      "text": "actually made an even better bash test"
+    },
+    {
+      "start": 214.4,
+      "duration": 4.24,
+      "text": "down below, which we can see over here"
+    },
+    {
+      "start": 216.239,
+      "duration": 4.321,
+      "text": "that makes use of agent browser eval to"
+    },
+    {
+      "start": 218.64,
+      "duration": 3.84,
+      "text": "run some JavaScript code. So now we can"
+    },
+    {
+      "start": 220.56,
+      "duration": 3.679,
+      "text": "see if I press the login button, we get"
+    },
+    {
+      "start": 222.48,
+      "duration": 3.6,
+      "text": "some validation. This looks like an"
+    },
+    {
+      "start": 224.239,
+      "duration": 3.521,
+      "text": "email, but it's actually a placeholder."
+    },
+    {
+      "start": 226.08,
+      "duration": 3.84,
+      "text": "If I give it an email over here, just a"
+    },
+    {
+      "start": 227.76,
+      "duration": 4,
+      "text": "made up one, and hit login, it says"
+    },
+    {
+      "start": 229.92,
+      "duration": 3.84,
+      "text": "enter a valid email, which I can do like"
+    },
+    {
+      "start": 231.76,
+      "duration": 4,
+      "text": "this. And then I can enter a password"
+    },
+    {
+      "start": 233.76,
+      "duration": 4.08,
+      "text": "before it takes me to this dashboard."
+    },
+    {
+      "start": 235.76,
+      "duration": 4,
+      "text": "So, basically, agents have addressed two"
+    },
+    {
+      "start": 237.84,
+      "duration": 3.92,
+      "text": "issues with this app and tested it"
+    },
+    {
+      "start": 239.76,
+      "duration": 4.08,
+      "text": "themselves to validate it works using"
+    },
+    {
+      "start": 241.76,
+      "duration": 3.839,
+      "text": "the agent browser plug-in. I would say"
+    },
+    {
+      "start": 243.84,
+      "duration": 4.08,
+      "text": "if I could do it again, I'd go with a"
+    },
+    {
+      "start": 245.599,
+      "duration": 4.321,
+      "text": "model that has multimodal support so you"
+    },
+    {
+      "start": 247.92,
+      "duration": 4.64,
+      "text": "can actually read the screenshots it"
+    },
+    {
+      "start": 249.92,
+      "duration": 4.399,
+      "text": "takes instead of using GLM 4.7. But now,"
+    },
+    {
+      "start": 252.56,
+      "duration": 3.6,
+      "text": "let's get into some architecture. How"
+    },
+    {
+      "start": 254.319,
+      "duration": 3.6,
+      "text": "does agent browser actually do all of"
+    },
+    {
+      "start": 256.16,
+      "duration": 3.84,
+      "text": "these things? Well, after an agent runs"
+    },
+    {
+      "start": 257.919,
+      "duration": 5.361,
+      "text": "a command like agent browser click at"
+    },
+    {
+      "start": 260,
+      "duration": 5.68,
+      "text": "E2, this gets sent to a Rust binary that"
+    },
+    {
+      "start": 263.28,
+      "duration": 4.639,
+      "text": "passes that command and converts it to"
+    },
+    {
+      "start": 265.68,
+      "duration": 4.799,
+      "text": "JSON. The benefit of it being Rust is"
+    },
+    {
+      "start": 267.919,
+      "duration": 4.801,
+      "text": "that it's fast, resource efficient, and"
+    },
+    {
+      "start": 270.479,
+      "duration": 4.641,
+      "text": "stays running after it's spawned. This"
+    },
+    {
+      "start": 272.72,
+      "duration": 4.479,
+      "text": "JSON then gets sent to a node demon"
+    },
+    {
+      "start": 275.12,
+      "duration": 3.76,
+      "text": "through a Unix socket, and this demon"
+    },
+    {
+      "start": 277.199,
+      "duration": 3.921,
+      "text": "manages the Chromium browser. What's"
+    },
+    {
+      "start": 278.88,
+      "duration": 4.16,
+      "text": "cool about this is that a demon is run"
+    },
+    {
+      "start": 281.12,
+      "duration": 3.76,
+      "text": "on each session, meaning multiple"
+    },
+    {
+      "start": 283.04,
+      "duration": 4,
+      "text": "browsers can be controlled. Once the"
+    },
+    {
+      "start": 284.88,
+      "duration": 4.879,
+      "text": "demon validates the output, it launches"
+    },
+    {
+      "start": 287.04,
+      "duration": 5.36,
+      "text": "the browser which is headless by default"
+    },
+    {
+      "start": 289.759,
+      "duration": 4.401,
+      "text": "and executes the action using playright."
+    },
+    {
+      "start": 292.4,
+      "duration": 4.72,
+      "text": "And once it's completed, it sends the"
+    },
+    {
+      "start": 294.16,
+      "duration": 5.52,
+      "text": "output also in JSON back to the agent."
+    },
+    {
+      "start": 297.12,
+      "duration": 4.32,
+      "text": "So the CLI and from here the agent can"
+    },
+    {
+      "start": 299.68,
+      "duration": 4.48,
+      "text": "do whatever it wants. So it can send"
+    },
+    {
+      "start": 301.44,
+      "duration": 4.64,
+      "text": "even more commands to the ROS passer or"
+    },
+    {
+      "start": 304.16,
+      "duration": 3.92,
+      "text": "it can end the whole loop. All of this"
+    },
+    {
+      "start": 306.08,
+      "duration": 3.679,
+      "text": "is super impressive for a weekend's"
+    },
+    {
+      "start": 308.08,
+      "duration": 4,
+      "text": "project. But how does it compare to"
+    },
+    {
+      "start": 309.759,
+      "duration": 4.88,
+      "text": "browser use or even using the Playright"
+    },
+    {
+      "start": 312.08,
+      "duration": 5.2,
+      "text": "MCP server? Well, browser use can be"
+    },
+    {
+      "start": 314.639,
+      "duration": 4.641,
+      "text": "used with or without an external agent"
+    },
+    {
+      "start": 317.28,
+      "duration": 4.56,
+      "text": "because it can run the full agent"
+    },
+    {
+      "start": 319.28,
+      "duration": 5.359,
+      "text": "reasoning loop. So, plan, action,"
+    },
+    {
+      "start": 321.84,
+      "duration": 4.799,
+      "text": "observe, and replan all on its own"
+    },
+    {
+      "start": 324.639,
+      "duration": 4.641,
+      "text": "without the use of anything else. It"
+    },
+    {
+      "start": 326.639,
+      "duration": 4.801,
+      "text": "also has a Python and TypeScript SDK for"
+    },
+    {
+      "start": 329.28,
+      "duration": 4.56,
+      "text": "fine grained control. It has a skills"
+    },
+    {
+      "start": 331.44,
+      "duration": 4.16,
+      "text": "marketplace, an MCP server, and uses"
+    },
+    {
+      "start": 333.84,
+      "duration": 4,
+      "text": "better stack to track the API status,"
+    },
+    {
+      "start": 335.6,
+      "duration": 4.96,
+      "text": "which is very cool. Agent browser on the"
+    },
+    {
+      "start": 337.84,
+      "duration": 5.6,
+      "text": "other hand is much simpler and can only"
+    },
+    {
+      "start": 340.56,
+      "duration": 4.96,
+      "text": "be used with an external agent. So you"
+    },
+    {
+      "start": 343.44,
+      "duration": 4.72,
+      "text": "the developer have to provide an agent"
+    },
+    {
+      "start": 345.52,
+      "duration": 5.119,
+      "text": "like cursor, claw code, open code and"
+    },
+    {
+      "start": 348.16,
+      "duration": 4.8,
+      "text": "the agent only interacts with agent"
+    },
+    {
+      "start": 350.639,
+      "duration": 4,
+      "text": "browser through CLI commands. When it"
+    },
+    {
+      "start": 352.96,
+      "duration": 4.079,
+      "text": "comes to comparing agent browser with"
+    },
+    {
+      "start": 354.639,
+      "duration": 4.241,
+      "text": "the Playright MCP server right now,"
+    },
+    {
+      "start": 357.039,
+      "duration": 4.561,
+      "text": "agent browser only supports Chromium"
+    },
+    {
+      "start": 358.88,
+      "duration": 5.2,
+      "text": "browsers. So no Firefox or Safari, which"
+    },
+    {
+      "start": 361.6,
+      "duration": 4.4,
+      "text": "I believe the Playright MCP server does"
+    },
+    {
+      "start": 364.08,
+      "duration": 4.32,
+      "text": "support. In fact, it supports everything"
+    },
+    {
+      "start": 366,
+      "duration": 4.4,
+      "text": "that Playright can do, but with an MCP"
+    },
+    {
+      "start": 368.4,
+      "duration": 4.079,
+      "text": "server that is perfect for agents. The"
+    },
+    {
+      "start": 370.4,
+      "duration": 4.4,
+      "text": "only kind of downside is if you already"
+    },
+    {
+      "start": 372.479,
+      "duration": 4.321,
+      "text": "have loads and loads of MCP tools, then"
+    },
+    {
+      "start": 374.8,
+      "duration": 4.239,
+      "text": "adding a bunch more could confuse the"
+    },
+    {
+      "start": 376.8,
+      "duration": 4.399,
+      "text": "agents since it has more tools available"
+    },
+    {
+      "start": 379.039,
+      "duration": 3.6,
+      "text": "to choose from autonomously, and it"
+    },
+    {
+      "start": 381.199,
+      "duration": 3.361,
+      "text": "might not choose the right one the first"
+    },
+    {
+      "start": 382.639,
+      "duration": 4.161,
+      "text": "time. Basically, choosing between"
+    },
+    {
+      "start": 384.56,
+      "duration": 4.4,
+      "text": "browser use, the Playright MCP server,"
+    },
+    {
+      "start": 386.8,
+      "duration": 3.92,
+      "text": "and agent browser really depends on your"
+    },
+    {
+      "start": 388.96,
+      "duration": 4.239,
+      "text": "use case and what you want from your"
+    },
+    {
+      "start": 390.72,
+      "duration": 4.96,
+      "text": "agent. For me personally, I like the"
+    },
+    {
+      "start": 393.199,
+      "duration": 4.481,
+      "text": "simplicity and ease of installation from"
+    },
+    {
+      "start": 395.68,
+      "duration": 3.6,
+      "text": "agent browser. And I primarily use"
+    },
+    {
+      "start": 397.68,
+      "duration": 3.76,
+      "text": "Chromium browsers, so not too fussed"
+    },
+    {
+      "start": 399.28,
+      "duration": 4.56,
+      "text": "about not having Firefox or Safari"
+    },
+    {
+      "start": 401.44,
+      "duration": 4.4,
+      "text": "access. So, I'll use it for now and see"
+    },
+    {
+      "start": 403.84,
+      "duration": 3.6,
+      "text": "how it goes. Also, while I've got your"
+    },
+    {
+      "start": 405.84,
+      "duration": 3.76,
+      "text": "attention, we are so close to hitting"
+    },
+    {
+      "start": 407.44,
+      "duration": 3.68,
+      "text": "that 100K subscriber mark. So, if you"
+    },
+    {
+      "start": 409.6,
+      "duration": 3.92,
+      "text": "haven't already, go ahead and hit the"
+    },
+    {
+      "start": 411.12,
+      "duration": 2.4,
+      "text": "subscribe button."
+    }
+  ],
+  "fullText": "This is agents browser, an open- source headless browser CLI built in a weekend by a single VEL employee that lets your agent do anything in the browser from dragging and dropping to uploading an image and even toggling offline mode. But why would anyone use this over something like a browser use which has way more features? And is Versel getting into the agent browser space? Hit subscribe and let's get into it. 2026 is the year of AI agents writing, reviewing, and testing all of your code. No more tab completions. In fact, developers are even moving away from idees entirely in favor of doing everything in the terminal since all we're really doing now is reviewing code. And to help with this movement, we need the agents to actually interact with and test the code they've written. Because the last thing you want to do as a developer is to open up the browser to test each feature an army of agents have written one by one because that's just tedious. This is where Vel's new agent browser comes in handy. Written by Chris Tate in both Rust and Typescript. I'll explain why later. This tool makes it so easy for an agent to interact with the browser using CLI commands that do a bunch of things like creating an accessibility snapshot that provides an accessibility tree and references to elements of a page, reference based actions that takes the references from the tree and apply relevant actions to them. There's also semantic locators if you don't want to use references that allow you to find an element based on its area ro its text content its label and so much more. In fact, let's go through a quick demo of how it works. Now, here is a little login page with an email and password. And it's built with Shadien React MV not because of a cell or anything. It just happened to be built that way. Now, there's one problem with this whole page and it's that right now I'm blinding my users because it's in light mode. So I want there to be a dark mode which I've actually gone ahead and asked the agent to do but as you can see it hasn't done it correctly. I mean okay this text changes but nothing else. So let's go ahead and get the agent to fix this using agent browser. So right now I'm using open code with the GLM 4.7 model but of course agent browser can work with any agent and any model. I've gone ahead and told it that dark mode is broken and it should test it with agent hyphen browser on the specific port. What's important is this part of the command to run agent hyphen browser-help to see the available commands because there's no slash commands, no skills. I've just installed agent browser globally with npm. I'm going to hit enter and then it checks the available commands, uses the agent browser snapshot functionality to create a snapshot of the page which shows documents, heading, paragraph, text, and even images. It's then clicked on the relevant element and taken a screenshot to see if dark mode is working. And this is the screenshot if you're curious. From here, it's gone ahead and fixed the issue before taking another screenshot of the fixed dark mode. And it's finally finished the task, which we can test by clicking up here. And we have a page with perfect dark mode. Let's try another test. Actually, while this was running, I had another agent in the background fix another issue. You may have noticed that if I press the login button, it will take me straight here without any validation, which of course isn't good. So I went ahead and asked it to fix the issue with the validation in this project and it did something actually really interesting. It first checks the available commands from Asian browser and then if we scroll down it fixes the issue and even makes a bash script. So it's over here to test that it works. So it echoes the first test, adds an empty input, clicks the login button and then expects these errors. It's made a few tests here, but it's actually made an even better bash test down below, which we can see over here that makes use of agent browser eval to run some JavaScript code. So now we can see if I press the login button, we get some validation. This looks like an email, but it's actually a placeholder. If I give it an email over here, just a made up one, and hit login, it says enter a valid email, which I can do like this. And then I can enter a password before it takes me to this dashboard. So, basically, agents have addressed two issues with this app and tested it themselves to validate it works using the agent browser plug-in. I would say if I could do it again, I'd go with a model that has multimodal support so you can actually read the screenshots it takes instead of using GLM 4.7. But now, let's get into some architecture. How does agent browser actually do all of these things? Well, after an agent runs a command like agent browser click at E2, this gets sent to a Rust binary that passes that command and converts it to JSON. The benefit of it being Rust is that it's fast, resource efficient, and stays running after it's spawned. This JSON then gets sent to a node demon through a Unix socket, and this demon manages the Chromium browser. What's cool about this is that a demon is run on each session, meaning multiple browsers can be controlled. Once the demon validates the output, it launches the browser which is headless by default and executes the action using playright. And once it's completed, it sends the output also in JSON back to the agent. So the CLI and from here the agent can do whatever it wants. So it can send even more commands to the ROS passer or it can end the whole loop. All of this is super impressive for a weekend's project. But how does it compare to browser use or even using the Playright MCP server? Well, browser use can be used with or without an external agent because it can run the full agent reasoning loop. So, plan, action, observe, and replan all on its own without the use of anything else. It also has a Python and TypeScript SDK for fine grained control. It has a skills marketplace, an MCP server, and uses better stack to track the API status, which is very cool. Agent browser on the other hand is much simpler and can only be used with an external agent. So you the developer have to provide an agent like cursor, claw code, open code and the agent only interacts with agent browser through CLI commands. When it comes to comparing agent browser with the Playright MCP server right now, agent browser only supports Chromium browsers. So no Firefox or Safari, which I believe the Playright MCP server does support. In fact, it supports everything that Playright can do, but with an MCP server that is perfect for agents. The only kind of downside is if you already have loads and loads of MCP tools, then adding a bunch more could confuse the agents since it has more tools available to choose from autonomously, and it might not choose the right one the first time. Basically, choosing between browser use, the Playright MCP server, and agent browser really depends on your use case and what you want from your agent. For me personally, I like the simplicity and ease of installation from agent browser. And I primarily use Chromium browsers, so not too fussed about not having Firefox or Safari access. So, I'll use it for now and see how it goes. Also, while I've got your attention, we are so close to hitting that 100K subscriber mark. So, if you haven't already, go ahead and hit the subscribe button.",
+  "fetchedAt": "2026-01-18T18:32:44.319Z"
+}

@@ -1,0 +1,859 @@
+{
+  "videoId": "PkeC2hNQ9Zw",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 4.32,
+      "text": "This is Skills by Bell, a directory of"
+    },
+    {
+      "start": 2.48,
+      "duration": 4.56,
+      "text": "agent skills that you can add to any"
+    },
+    {
+      "start": 4.48,
+      "duration": 4.96,
+      "text": "agent to extend its capabilities like"
+    },
+    {
+      "start": 7.04,
+      "duration": 4.479,
+      "text": "making it amazing at React, turning it"
+    },
+    {
+      "start": 9.44,
+      "duration": 4.159,
+      "text": "into a front-end designer, or even"
+    },
+    {
+      "start": 11.519,
+      "duration": 3.441,
+      "text": "making it a motion graphics editor. The"
+    },
+    {
+      "start": 13.599,
+      "duration": 3.44,
+      "text": "whole thing works by cloning and"
+    },
+    {
+      "start": 14.96,
+      "duration": 4.399,
+      "text": "scanning a repo to see if it has a"
+    },
+    {
+      "start": 17.039,
+      "duration": 4.561,
+      "text": "skills MD file before installing the"
+    },
+    {
+      "start": 19.359,
+      "duration": 4.561,
+      "text": "skill. But will Cloudflare's new"
+    },
+    {
+      "start": 21.6,
+      "duration": 4.16,
+      "text": "proposal make this amazing resource"
+    },
+    {
+      "start": 23.92,
+      "duration": 3.599,
+      "text": "obsolete? Hit subscribe and let's get"
+    },
+    {
+      "start": 25.76,
+      "duration": 3.359,
+      "text": "into it."
+    },
+    {
+      "start": 27.519,
+      "duration": 3.76,
+      "text": "Agent skills were introduced by"
+    },
+    {
+      "start": 29.119,
+      "duration": 4.641,
+      "text": "Anthropic last year to improve Claude's"
+    },
+    {
+      "start": 31.279,
+      "duration": 4.96,
+      "text": "capabilities on specific tasks and works"
+    },
+    {
+      "start": 33.76,
+      "duration": 4.319,
+      "text": "by adding a skills directory to the"
+    },
+    {
+      "start": 36.239,
+      "duration": 3.84,
+      "text": "Claude one and then adding another"
+    },
+    {
+      "start": 38.079,
+      "duration": 4.8,
+      "text": "directory with the name of the skill"
+    },
+    {
+      "start": 40.079,
+      "duration": 4.64,
+      "text": "followed by a skills.md file. Now, this"
+    },
+    {
+      "start": 42.879,
+      "duration": 3.761,
+      "text": "file needs to contain a few key things"
+    },
+    {
+      "start": 44.719,
+      "duration": 4.241,
+      "text": "for the skill to work. First, the top"
+    },
+    {
+      "start": 46.64,
+      "duration": 4.48,
+      "text": "section which is front matter in YAML."
+    },
+    {
+      "start": 48.96,
+      "duration": 4.48,
+      "text": "That should contain at least the name of"
+    },
+    {
+      "start": 51.12,
+      "duration": 4.8,
+      "text": "the skill and the description. Then"
+    },
+    {
+      "start": 53.44,
+      "duration": 4.08,
+      "text": "below that outside of the front matter,"
+    },
+    {
+      "start": 55.92,
+      "duration": 3.52,
+      "text": "this is where the instructions for the"
+    },
+    {
+      "start": 57.52,
+      "duration": 3.839,
+      "text": "skill should go. The instructions get"
+    },
+    {
+      "start": 59.44,
+      "duration": 3.759,
+      "text": "loaded into the model's context so that"
+    },
+    {
+      "start": 61.359,
+      "duration": 3.921,
+      "text": "it can be used for the specific task."
+    },
+    {
+      "start": 63.199,
+      "duration": 4.081,
+      "text": "And the beauty of skills lies in a"
+    },
+    {
+      "start": 65.28,
+      "duration": 4.08,
+      "text": "technique called progressive disclosure"
+    },
+    {
+      "start": 67.28,
+      "duration": 4.56,
+      "text": "where only the essential information is"
+    },
+    {
+      "start": 69.36,
+      "duration": 4.88,
+      "text": "shown at first and the model can dig in"
+    },
+    {
+      "start": 71.84,
+      "duration": 4.88,
+      "text": "to find even more if necessary. So when"
+    },
+    {
+      "start": 74.24,
+      "duration": 4.8,
+      "text": "an agent loads up, only the information"
+    },
+    {
+      "start": 76.72,
+      "duration": 4.399,
+      "text": "in the front matter of each skill is"
+    },
+    {
+      "start": 79.04,
+      "duration": 3.759,
+      "text": "loaded into the context. And after it"
+    },
+    {
+      "start": 81.119,
+      "duration": 3.68,
+      "text": "reads a prompt, it checks the"
+    },
+    {
+      "start": 82.799,
+      "duration": 4.081,
+      "text": "description of each skill to find out if"
+    },
+    {
+      "start": 84.799,
+      "duration": 4.401,
+      "text": "a skill can be used to enhance the"
+    },
+    {
+      "start": 86.88,
+      "duration": 4.64,
+      "text": "prompt. And if it finds one, it then"
+    },
+    {
+      "start": 89.2,
+      "duration": 4.959,
+      "text": "adds everything outside of the front"
+    },
+    {
+      "start": 91.52,
+      "duration": 4.959,
+      "text": "matter into the model's active context."
+    },
+    {
+      "start": 94.159,
+      "duration": 4.32,
+      "text": "You can even link other files to skills"
+    },
+    {
+      "start": 96.479,
+      "duration": 4.241,
+      "text": "like references for a model to grab"
+    },
+    {
+      "start": 98.479,
+      "duration": 4.32,
+      "text": "those if it thinks it's necessary. Since"
+    },
+    {
+      "start": 100.72,
+      "duration": 5.12,
+      "text": "then, other companies like Microsoft,"
+    },
+    {
+      "start": 102.799,
+      "duration": 5.441,
+      "text": "OpenAI, and Open Code have adopted agent"
+    },
+    {
+      "start": 105.84,
+      "duration": 4.88,
+      "text": "skills, but there hasn't really been an"
+    },
+    {
+      "start": 108.24,
+      "duration": 4.96,
+      "text": "easy way to install a skill for multiple"
+    },
+    {
+      "start": 110.72,
+      "duration": 5.12,
+      "text": "agents without manually going into the"
+    },
+    {
+      "start": 113.2,
+      "duration": 4.32,
+      "text": "relevant directory and cloning the repo."
+    },
+    {
+      "start": 115.84,
+      "duration": 3.919,
+      "text": "This became especially apparent when"
+    },
+    {
+      "start": 117.52,
+      "duration": 3.919,
+      "text": "Versel wanted to share skills for their"
+    },
+    {
+      "start": 119.759,
+      "duration": 4,
+      "text": "tools for people to put in their"
+    },
+    {
+      "start": 121.439,
+      "duration": 4.881,
+      "text": "specific agent. So, they made a project"
+    },
+    {
+      "start": 123.759,
+      "duration": 5.84,
+      "text": "called add skill, which makes it easy to"
+    },
+    {
+      "start": 126.32,
+      "duration": 5.6,
+      "text": "add a skill to 16 different agents."
+    },
+    {
+      "start": 129.599,
+      "duration": 4.561,
+      "text": "simply npx add skill followed by the"
+    },
+    {
+      "start": 131.92,
+      "duration": 4.399,
+      "text": "name of the skill or the location of the"
+    },
+    {
+      "start": 134.16,
+      "duration": 3.84,
+      "text": "repo. Now, I know what you're thinking."
+    },
+    {
+      "start": 136.319,
+      "duration": 4.481,
+      "text": "What's stopping people from using add"
+    },
+    {
+      "start": 138,
+      "duration": 5.76,
+      "text": "skill to add any repo? Well, the way it"
+    },
+    {
+      "start": 140.8,
+      "duration": 5.36,
+      "text": "works is after it passes the command, it"
+    },
+    {
+      "start": 143.76,
+      "duration": 5.44,
+      "text": "then clones the repo, then looks for a"
+    },
+    {
+      "start": 146.16,
+      "duration": 5.2,
+      "text": "skill.md file. If it can't find it, it"
+    },
+    {
+      "start": 149.2,
+      "duration": 4.72,
+      "text": "cleans up by removing the repo. But if"
+    },
+    {
+      "start": 151.36,
+      "duration": 4.72,
+      "text": "it can find it, it auto detects a user's"
+    },
+    {
+      "start": 153.92,
+      "duration": 4.72,
+      "text": "installed agents by looking through the"
+    },
+    {
+      "start": 156.08,
+      "duration": 5.36,
+      "text": "configs. Then creates a sim link from"
+    },
+    {
+      "start": 158.64,
+      "duration": 5.12,
+      "text": "agents/skills to wherever the skills"
+    },
+    {
+      "start": 161.44,
+      "duration": 4.56,
+      "text": "need to be located for that agent. So"
+    },
+    {
+      "start": 163.76,
+      "duration": 4.4,
+      "text": "doc cursor for cursor and dotclaws for"
+    },
+    {
+      "start": 166,
+      "duration": 3.84,
+      "text": "claude code. It also has some telemetry"
+    },
+    {
+      "start": 168.16,
+      "duration": 4.56,
+      "text": "for tracking which I'll talk about"
+    },
+    {
+      "start": 169.84,
+      "duration": 4.96,
+      "text": "later. But at this point, Vel had a way"
+    },
+    {
+      "start": 172.72,
+      "duration": 4.64,
+      "text": "for people to easily install skills to"
+    },
+    {
+      "start": 174.8,
+      "duration": 4.88,
+      "text": "any agent. But what about discovering a"
+    },
+    {
+      "start": 177.36,
+      "duration": 4.64,
+      "text": "skill? This is where skills.sh SH comes"
+    },
+    {
+      "start": 179.68,
+      "duration": 5.279,
+      "text": "in showing currently a long list of"
+    },
+    {
+      "start": 182,
+      "duration": 5.519,
+      "text": "uncatategorized and unpadenated skills"
+    },
+    {
+      "start": 184.959,
+      "duration": 4.801,
+      "text": "and the list gets populated I think by"
+    },
+    {
+      "start": 187.519,
+      "duration": 5.041,
+      "text": "someone first installing a skill using"
+    },
+    {
+      "start": 189.76,
+      "duration": 5.36,
+      "text": "ad skills or skills which kicks off the"
+    },
+    {
+      "start": 192.56,
+      "duration": 5.039,
+      "text": "telemetry that's inside the package to"
+    },
+    {
+      "start": 195.12,
+      "duration": 4.72,
+      "text": "add things like name agents and other"
+    },
+    {
+      "start": 197.599,
+      "duration": 4.72,
+      "text": "information. The telemetry is completely"
+    },
+    {
+      "start": 199.84,
+      "duration": 4.8,
+      "text": "anonymous and is not only used to"
+    },
+    {
+      "start": 202.319,
+      "duration": 4.961,
+      "text": "populate the list, but also the amount"
+    },
+    {
+      "start": 204.64,
+      "duration": 4.959,
+      "text": "of times a skill has been downloaded and"
+    },
+    {
+      "start": 207.28,
+      "duration": 4.72,
+      "text": "by the specific agent, which can also be"
+    },
+    {
+      "start": 209.599,
+      "duration": 4.64,
+      "text": "used to track the trending skills in the"
+    },
+    {
+      "start": 212,
+      "duration": 3.92,
+      "text": "last 24 hours. And also, if you're"
+    },
+    {
+      "start": 214.239,
+      "duration": 3.681,
+      "text": "worried about being tracked, you can"
+    },
+    {
+      "start": 215.92,
+      "duration": 4.16,
+      "text": "totally disable the telemetry. It's"
+    },
+    {
+      "start": 217.92,
+      "duration": 4.56,
+      "text": "amazing how much work the cell labs have"
+    },
+    {
+      "start": 220.08,
+      "duration": 4.799,
+      "text": "put into skill discovery and it's being"
+    },
+    {
+      "start": 222.48,
+      "duration": 4.96,
+      "text": "used by loads of people to discover"
+    },
+    {
+      "start": 224.879,
+      "duration": 4.321,
+      "text": "awesome skills like react native skills"
+    },
+    {
+      "start": 227.44,
+      "duration": 4.24,
+      "text": "for your agents best practices for"
+    },
+    {
+      "start": 229.2,
+      "duration": 4.8,
+      "text": "better or even the super popular"
+    },
+    {
+      "start": 231.68,
+      "duration": 4.72,
+      "text": "remotion skill which people are using to"
+    },
+    {
+      "start": 234,
+      "duration": 4.4,
+      "text": "create all kinds of crazy videos just"
+    },
+    {
+      "start": 236.4,
+      "duration": 4.32,
+      "text": "from a single prompt. But has"
+    },
+    {
+      "start": 238.4,
+      "duration": 4.559,
+      "text": "Cloudflare's new proposal made this all"
+    },
+    {
+      "start": 240.72,
+      "duration": 4.56,
+      "text": "for nothing? because it introduces an"
+    },
+    {
+      "start": 242.959,
+      "duration": 5.041,
+      "text": "alternative way for agents to discover"
+    },
+    {
+      "start": 245.28,
+      "duration": 5.76,
+      "text": "skills by first fetching a lightweight"
+    },
+    {
+      "start": 248,
+      "duration": 5.04,
+      "text": "JSON file from a well-known location"
+    },
+    {
+      "start": 251.04,
+      "duration": 4.08,
+      "text": "that lists out all the available skills"
+    },
+    {
+      "start": 253.04,
+      "duration": 4.08,
+      "text": "a place has to offer. So you could"
+    },
+    {
+      "start": 255.12,
+      "duration": 4.239,
+      "text": "essentially write a prompt saying build"
+    },
+    {
+      "start": 257.12,
+      "duration": 4.88,
+      "text": "me a Cloudflare project using Wrangler"
+    },
+    {
+      "start": 259.359,
+      "duration": 5.12,
+      "text": "and the agent will first read the prompt"
+    },
+    {
+      "start": 262,
+      "duration": 4.96,
+      "text": "then check the well-known location like"
+    },
+    {
+      "start": 264.479,
+      "duration": 4.641,
+      "text": "cloudflare.com/wwellnown"
+    },
+    {
+      "start": 266.96,
+      "duration": 4.56,
+      "text": "of course it won't actually be wellnown"
+    },
+    {
+      "start": 269.12,
+      "duration": 5.92,
+      "text": "it'll be something else/skills"
+    },
+    {
+      "start": 271.52,
+      "duration": 6,
+      "text": "and then retrieve the index.json from"
+    },
+    {
+      "start": 275.04,
+      "duration": 4.719,
+      "text": "that location which includes mandatory"
+    },
+    {
+      "start": 277.52,
+      "duration": 4.399,
+      "text": "information per skill like name,"
+    },
+    {
+      "start": 279.759,
+      "duration": 4.241,
+      "text": "description and number of files related"
+    },
+    {
+      "start": 281.919,
+      "duration": 4.321,
+      "text": "to that skill. After that, it passes"
+    },
+    {
+      "start": 284,
+      "duration": 4.32,
+      "text": "this information to the agent and then"
+    },
+    {
+      "start": 286.24,
+      "duration": 4.48,
+      "text": "based on the prompt, the agent will"
+    },
+    {
+      "start": 288.32,
+      "duration": 4.24,
+      "text": "realize that the wrangler skill is"
+    },
+    {
+      "start": 290.72,
+      "duration": 4.08,
+      "text": "needed from this well-known location"
+    },
+    {
+      "start": 292.56,
+      "duration": 4.88,
+      "text": "based on the index station file. So, it"
+    },
+    {
+      "start": 294.8,
+      "duration": 5.6,
+      "text": "will make a call to that location to get"
+    },
+    {
+      "start": 297.44,
+      "duration": 5.44,
+      "text": "all the files related to that skill and"
+    },
+    {
+      "start": 300.4,
+      "duration": 5.519,
+      "text": "cache them in case they used again in a"
+    },
+    {
+      "start": 302.88,
+      "duration": 5.2,
+      "text": "followup prompt, but use that skill for"
+    },
+    {
+      "start": 305.919,
+      "duration": 4.321,
+      "text": "its response that it gives back to the"
+    },
+    {
+      "start": 308.08,
+      "duration": 4.64,
+      "text": "user. So, while Cloudflare's proposal"
+    },
+    {
+      "start": 310.24,
+      "duration": 4.399,
+      "text": "does sound really cool, it does add a"
+    },
+    {
+      "start": 312.72,
+      "duration": 3.44,
+      "text": "few extra steps to making a skill"
+    },
+    {
+      "start": 314.639,
+      "duration": 3.761,
+      "text": "discoverable, like adding that"
+    },
+    {
+      "start": 316.16,
+      "duration": 4.879,
+      "text": "index.json file with the relevant"
+    },
+    {
+      "start": 318.4,
+      "duration": 5.359,
+      "text": "information and also adding it to a"
+    },
+    {
+      "start": 321.039,
+      "duration": 5.201,
+      "text": "well-known URL, which I'm not exactly"
+    },
+    {
+      "start": 323.759,
+      "duration": 4.481,
+      "text": "sure what that means. But compared to"
+    },
+    {
+      "start": 326.24,
+      "duration": 4.959,
+      "text": "putting a skill on GitHub and having it"
+    },
+    {
+      "start": 328.24,
+      "duration": 5.36,
+      "text": "found by Vel versus this way, I think"
+    },
+    {
+      "start": 331.199,
+      "duration": 4.161,
+      "text": "Cloudflare's approach does harm smaller"
+    },
+    {
+      "start": 333.6,
+      "duration": 5.439,
+      "text": "developers because of all these extra"
+    },
+    {
+      "start": 335.36,
+      "duration": 5.679,
+      "text": "steps. But if it does get accepted, and"
+    },
+    {
+      "start": 339.039,
+      "duration": 4.401,
+      "text": "I'm not also sure who's reviewing this"
+    },
+    {
+      "start": 341.039,
+      "duration": 5.761,
+      "text": "and who has to accept it, then it means"
+    },
+    {
+      "start": 343.44,
+      "duration": 5.36,
+      "text": "goodbye to Vcel's Skills.sh project."
+    },
+    {
+      "start": 346.8,
+      "duration": 3.839,
+      "text": "However, I'm sure there is a way they"
+    },
+    {
+      "start": 348.8,
+      "duration": 4.56,
+      "text": "could work together because you could"
+    },
+    {
+      "start": 350.639,
+      "duration": 4.56,
+      "text": "use skill.sh to find skills from indie"
+    },
+    {
+      "start": 353.36,
+      "duration": 3.839,
+      "text": "and lesserknown developers, and you"
+    },
+    {
+      "start": 355.199,
+      "duration": 4.081,
+      "text": "could use Cloudflare's approach for an"
+    },
+    {
+      "start": 357.199,
+      "duration": 4.481,
+      "text": "agent to discover a skill automatically"
+    },
+    {
+      "start": 359.28,
+      "duration": 4.96,
+      "text": "from big companies like Cloudflare and"
+    },
+    {
+      "start": 361.68,
+      "duration": 4.48,
+      "text": "Vel. Either way, with developers using"
+    },
+    {
+      "start": 364.24,
+      "duration": 3.44,
+      "text": "these skills to create amazing new"
+    },
+    {
+      "start": 366.16,
+      "duration": 3.2,
+      "text": "projects, you're going to need some"
+    },
+    {
+      "start": 367.68,
+      "duration": 3.359,
+      "text": "error tracking in case they explode"
+    },
+    {
+      "start": 369.36,
+      "duration": 3.76,
+      "text": "without you knowing. And this is where"
+    },
+    {
+      "start": 371.039,
+      "duration": 4.401,
+      "text": "Better Stack comes in. Because not only"
+    },
+    {
+      "start": 373.12,
+      "duration": 4.639,
+      "text": "does it ingest logs from your back end,"
+    },
+    {
+      "start": 375.44,
+      "duration": 4.479,
+      "text": "it can also keep track of front-end"
+    },
+    {
+      "start": 377.759,
+      "duration": 3.921,
+      "text": "errors using its AI native error"
+    },
+    {
+      "start": 379.919,
+      "duration": 3.921,
+      "text": "tracking. And to top everything off,"
+    },
+    {
+      "start": 381.68,
+      "duration": 4.32,
+      "text": "Better Stack can also create beautiful"
+    },
+    {
+      "start": 383.84,
+      "duration": 4.799,
+      "text": "status pages. So go ahead and check out"
+    },
+    {
+      "start": 386,
+      "duration": 2.639,
+      "text": "Better Stack"
+    }
+  ],
+  "fullText": "This is Skills by Bell, a directory of agent skills that you can add to any agent to extend its capabilities like making it amazing at React, turning it into a front-end designer, or even making it a motion graphics editor. The whole thing works by cloning and scanning a repo to see if it has a skills MD file before installing the skill. But will Cloudflare's new proposal make this amazing resource obsolete? Hit subscribe and let's get into it. Agent skills were introduced by Anthropic last year to improve Claude's capabilities on specific tasks and works by adding a skills directory to the Claude one and then adding another directory with the name of the skill followed by a skills.md file. Now, this file needs to contain a few key things for the skill to work. First, the top section which is front matter in YAML. That should contain at least the name of the skill and the description. Then below that outside of the front matter, this is where the instructions for the skill should go. The instructions get loaded into the model's context so that it can be used for the specific task. And the beauty of skills lies in a technique called progressive disclosure where only the essential information is shown at first and the model can dig in to find even more if necessary. So when an agent loads up, only the information in the front matter of each skill is loaded into the context. And after it reads a prompt, it checks the description of each skill to find out if a skill can be used to enhance the prompt. And if it finds one, it then adds everything outside of the front matter into the model's active context. You can even link other files to skills like references for a model to grab those if it thinks it's necessary. Since then, other companies like Microsoft, OpenAI, and Open Code have adopted agent skills, but there hasn't really been an easy way to install a skill for multiple agents without manually going into the relevant directory and cloning the repo. This became especially apparent when Versel wanted to share skills for their tools for people to put in their specific agent. So, they made a project called add skill, which makes it easy to add a skill to 16 different agents. simply npx add skill followed by the name of the skill or the location of the repo. Now, I know what you're thinking. What's stopping people from using add skill to add any repo? Well, the way it works is after it passes the command, it then clones the repo, then looks for a skill.md file. If it can't find it, it cleans up by removing the repo. But if it can find it, it auto detects a user's installed agents by looking through the configs. Then creates a sim link from agents/skills to wherever the skills need to be located for that agent. So doc cursor for cursor and dotclaws for claude code. It also has some telemetry for tracking which I'll talk about later. But at this point, Vel had a way for people to easily install skills to any agent. But what about discovering a skill? This is where skills.sh SH comes in showing currently a long list of uncatategorized and unpadenated skills and the list gets populated I think by someone first installing a skill using ad skills or skills which kicks off the telemetry that's inside the package to add things like name agents and other information. The telemetry is completely anonymous and is not only used to populate the list, but also the amount of times a skill has been downloaded and by the specific agent, which can also be used to track the trending skills in the last 24 hours. And also, if you're worried about being tracked, you can totally disable the telemetry. It's amazing how much work the cell labs have put into skill discovery and it's being used by loads of people to discover awesome skills like react native skills for your agents best practices for better or even the super popular remotion skill which people are using to create all kinds of crazy videos just from a single prompt. But has Cloudflare's new proposal made this all for nothing? because it introduces an alternative way for agents to discover skills by first fetching a lightweight JSON file from a well-known location that lists out all the available skills a place has to offer. So you could essentially write a prompt saying build me a Cloudflare project using Wrangler and the agent will first read the prompt then check the well-known location like cloudflare.com/wwellnown of course it won't actually be wellnown it'll be something else/skills and then retrieve the index.json from that location which includes mandatory information per skill like name, description and number of files related to that skill. After that, it passes this information to the agent and then based on the prompt, the agent will realize that the wrangler skill is needed from this well-known location based on the index station file. So, it will make a call to that location to get all the files related to that skill and cache them in case they used again in a followup prompt, but use that skill for its response that it gives back to the user. So, while Cloudflare's proposal does sound really cool, it does add a few extra steps to making a skill discoverable, like adding that index.json file with the relevant information and also adding it to a well-known URL, which I'm not exactly sure what that means. But compared to putting a skill on GitHub and having it found by Vel versus this way, I think Cloudflare's approach does harm smaller developers because of all these extra steps. But if it does get accepted, and I'm not also sure who's reviewing this and who has to accept it, then it means goodbye to Vcel's Skills.sh project. However, I'm sure there is a way they could work together because you could use skill.sh to find skills from indie and lesserknown developers, and you could use Cloudflare's approach for an agent to discover a skill automatically from big companies like Cloudflare and Vel. Either way, with developers using these skills to create amazing new projects, you're going to need some error tracking in case they explode without you knowing. And this is where Better Stack comes in. Because not only does it ingest logs from your back end, it can also keep track of front-end errors using its AI native error tracking. And to top everything off, Better Stack can also create beautiful status pages. So go ahead and check out Better Stack",
+  "fetchedAt": "2026-01-24T16:09:19.031Z"
+}

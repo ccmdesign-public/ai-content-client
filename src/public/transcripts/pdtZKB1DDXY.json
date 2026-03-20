@@ -1,0 +1,959 @@
+{
+  "videoId": "pdtZKB1DDXY",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 6.24,
+      "text": "On the 26th of November 2025, Nvidia"
+    },
+    {
+      "start": 4.319,
+      "duration": 5.041,
+      "text": "released a new research paper that"
+    },
+    {
+      "start": 6.4,
+      "duration": 5.52,
+      "text": "exposes a massive inefficiency in how we"
+    },
+    {
+      "start": 9.36,
+      "duration": 5.199,
+      "text": "are currently building agentic systems."
+    },
+    {
+      "start": 11.92,
+      "duration": 4.96,
+      "text": "It is titled tool orchestra and it takes"
+    },
+    {
+      "start": 14.559,
+      "duration": 5.121,
+      "text": "aim at the financial and computational"
+    },
+    {
+      "start": 16.88,
+      "duration": 4.88,
+      "text": "waste of using massive models for every"
+    },
+    {
+      "start": 19.68,
+      "duration": 4.16,
+      "text": "single step of a workflow. We are all"
+    },
+    {
+      "start": 21.76,
+      "duration": 4.4,
+      "text": "facing a significant architectural"
+    },
+    {
+      "start": 23.84,
+      "duration": 4.08,
+      "text": "crisis right now known as the monolith."
+    },
+    {
+      "start": 26.16,
+      "duration": 4,
+      "text": "When you build a complex agentic"
+    },
+    {
+      "start": 27.92,
+      "duration": 4.639,
+      "text": "workflow today, the standard best"
+    },
+    {
+      "start": 30.16,
+      "duration": 6.239,
+      "text": "practice is to default to the smartest"
+    },
+    {
+      "start": 32.559,
+      "duration": 6.481,
+      "text": "largest model available such as GPT5 or"
+    },
+    {
+      "start": 36.399,
+      "duration": 4.561,
+      "text": "cloud opus. We do this out of fear"
+    },
+    {
+      "start": 39.04,
+      "duration": 4.08,
+      "text": "because complex reasoning is difficult"
+    },
+    {
+      "start": 40.96,
+      "duration": 4,
+      "text": "and smaller models are notorious for"
+    },
+    {
+      "start": 43.12,
+      "duration": 4.24,
+      "text": "hallucinating or failing to follow"
+    },
+    {
+      "start": 44.96,
+      "duration": 4.32,
+      "text": "instructions. However, this safety"
+    },
+    {
+      "start": 47.36,
+      "duration": 4.4,
+      "text": "mechanism is destroying your profit"
+    },
+    {
+      "start": 49.28,
+      "duration": 4.799,
+      "text": "margins and increasing your latency. It"
+    },
+    {
+      "start": 51.76,
+      "duration": 4.88,
+      "text": "is overkill to use a trillion parameter"
+    },
+    {
+      "start": 54.079,
+      "duration": 5.12,
+      "text": "model to simply check a flight status,"
+    },
+    {
+      "start": 56.64,
+      "duration": 5.2,
+      "text": "query a database, or format a data"
+    },
+    {
+      "start": 59.199,
+      "duration": 4.96,
+      "text": "object. Historically, developers have"
+    },
+    {
+      "start": 61.84,
+      "duration": 4.08,
+      "text": "tried to solve this by building routers"
+    },
+    {
+      "start": 64.159,
+      "duration": 4,
+      "text": "where they prompt a smaller model to"
+    },
+    {
+      "start": 65.92,
+      "duration": 4.559,
+      "text": "decide which expert model to call. But"
+    },
+    {
+      "start": 68.159,
+      "duration": 4.481,
+      "text": "the authors of this paper conducted a"
+    },
+    {
+      "start": 70.479,
+      "duration": 4,
+      "text": "pilot study that reveals exactly why"
+    },
+    {
+      "start": 72.64,
+      "duration": 4.08,
+      "text": "this fails and the results are"
+    },
+    {
+      "start": 74.479,
+      "duration": 3.921,
+      "text": "counterintuitive. They identified two"
+    },
+    {
+      "start": 76.72,
+      "duration": 4.16,
+      "text": "specific failures known as"
+    },
+    {
+      "start": 78.4,
+      "duration": 4.8,
+      "text": "self-enhancement bias and other"
+    },
+    {
+      "start": 80.88,
+      "duration": 4.559,
+      "text": "enhancement bias. The researchers found"
+    },
+    {
+      "start": 83.2,
+      "duration": 5.36,
+      "text": "that when you simply prompt a powerful"
+    },
+    {
+      "start": 85.439,
+      "duration": 5.36,
+      "text": "model like GPT5 to route tasks, it"
+    },
+    {
+      "start": 88.56,
+      "duration": 4.32,
+      "text": "suffers from self-enhancement bias, it"
+    },
+    {
+      "start": 90.799,
+      "duration": 5.441,
+      "text": "disproportionately routes tasks to its"
+    },
+    {
+      "start": 92.88,
+      "duration": 5.199,
+      "text": "own family of models like GPT5 mini,"
+    },
+    {
+      "start": 96.24,
+      "duration": 4.48,
+      "text": "regardless of whether that is the best"
+    },
+    {
+      "start": 98.079,
+      "duration": 5.281,
+      "text": "tool for the job. But more importantly"
+    },
+    {
+      "start": 100.72,
+      "duration": 5.759,
+      "text": "for us, when they prompted a smaller,"
+    },
+    {
+      "start": 103.36,
+      "duration": 5.759,
+      "text": "efficient model like Quen 38B, it"
+    },
+    {
+      "start": 106.479,
+      "duration": 4.561,
+      "text": "exhibited other enhancement bias."
+    },
+    {
+      "start": 109.119,
+      "duration": 4.161,
+      "text": "Instead of trying to solve problems it"
+    },
+    {
+      "start": 111.04,
+      "duration": 4.64,
+      "text": "was capable of handling, it became"
+    },
+    {
+      "start": 113.28,
+      "duration": 4.72,
+      "text": "overly dependent on the smartest tool in"
+    },
+    {
+      "start": 115.68,
+      "duration": 6.16,
+      "text": "the list. It blindly forwarded almost"
+    },
+    {
+      "start": 118,
+      "duration": 6.079,
+      "text": "73% of tasks to GPT5, ignoring the cost"
+    },
+    {
+      "start": 121.84,
+      "duration": 4.559,
+      "text": "completely. This defeats the entire"
+    },
+    {
+      "start": 124.079,
+      "duration": 4.001,
+      "text": "purpose of a router. The small model"
+    },
+    {
+      "start": 126.399,
+      "duration": 4.241,
+      "text": "isn't failing because it is too"
+    },
+    {
+      "start": 128.08,
+      "duration": 4.799,
+      "text": "arrogant. it fails because it is too"
+    },
+    {
+      "start": 130.64,
+      "duration": 4.8,
+      "text": "scared to do the work itself rendering"
+    },
+    {
+      "start": 132.879,
+      "duration": 4.401,
+      "text": "your optimization useless. But this"
+    },
+    {
+      "start": 135.44,
+      "duration": 4.64,
+      "text": "paper suggests we have been looking at"
+    },
+    {
+      "start": 137.28,
+      "duration": 4.72,
+      "text": "the problem entirely wrong. The authors"
+    },
+    {
+      "start": 140.08,
+      "duration": 4.239,
+      "text": "introduce the orchestration paradigm."
+    },
+    {
+      "start": 142,
+      "duration": 4.879,
+      "text": "The core insight is to stop treating"
+    },
+    {
+      "start": 144.319,
+      "duration": 4.801,
+      "text": "large language models as the solver and"
+    },
+    {
+      "start": 146.879,
+      "duration": 4.481,
+      "text": "start treating them as managers. In"
+    },
+    {
+      "start": 149.12,
+      "duration": 4.479,
+      "text": "their architecture, they take that small"
+    },
+    {
+      "start": 151.36,
+      "duration": 4.4,
+      "text": "efficient 8 billion parameter model and"
+    },
+    {
+      "start": 153.599,
+      "duration": 4.321,
+      "text": "train it to be the orchestrator. But"
+    },
+    {
+      "start": 155.76,
+      "duration": 4.08,
+      "text": "rather than teaching it to be humble,"
+    },
+    {
+      "start": 157.92,
+      "duration": 4.8,
+      "text": "the training actually teaches it to be"
+    },
+    {
+      "start": 159.84,
+      "duration": 4.8,
+      "text": "brave and economical. Here is the clever"
+    },
+    {
+      "start": 162.72,
+      "duration": 4.96,
+      "text": "engineering trick that distinguishes"
+    },
+    {
+      "start": 164.64,
+      "duration": 5.12,
+      "text": "this paper from previous work. They did"
+    },
+    {
+      "start": 167.68,
+      "duration": 4.72,
+      "text": "not just give the orchestrator standard"
+    },
+    {
+      "start": 169.76,
+      "duration": 4.8,
+      "text": "software tools like a calculator, a"
+    },
+    {
+      "start": 172.4,
+      "duration": 4.8,
+      "text": "Python interpreter, or a web search"
+    },
+    {
+      "start": 174.56,
+      "duration": 4.8,
+      "text": "interface. They defined other large"
+    },
+    {
+      "start": 177.2,
+      "duration": 5.039,
+      "text": "language models as tools within the"
+    },
+    {
+      "start": 179.36,
+      "duration": 6.4,
+      "text": "system. In the orchestrator's definition"
+    },
+    {
+      "start": 182.239,
+      "duration": 6.401,
+      "text": "schema, GPT5 is listed as a tool."
+    },
+    {
+      "start": 185.76,
+      "duration": 5.199,
+      "text": "Codestro 22B is listed as a tool."
+    },
+    {
+      "start": 188.64,
+      "duration": 4.4,
+      "text": "Quenmath is listed as a tool. The"
+    },
+    {
+      "start": 190.959,
+      "duration": 4.401,
+      "text": "orchestrator treats a call to a massive"
+    },
+    {
+      "start": 193.04,
+      "duration": 4.4,
+      "text": "reasoning model exactly the same way it"
+    },
+    {
+      "start": 195.36,
+      "duration": 4.4,
+      "text": "treats a call to a search engine. To"
+    },
+    {
+      "start": 197.44,
+      "duration": 4.879,
+      "text": "make this work, they could not rely on"
+    },
+    {
+      "start": 199.76,
+      "duration": 4,
+      "text": "standard training. They trained this 8"
+    },
+    {
+      "start": 202.319,
+      "duration": 3.92,
+      "text": "billion parameter model using"
+    },
+    {
+      "start": 203.76,
+      "duration": 4.479,
+      "text": "reinforcement learning, specifically an"
+    },
+    {
+      "start": 206.239,
+      "duration": 5.36,
+      "text": "algorithm called group relative policy"
+    },
+    {
+      "start": 208.239,
+      "duration": 5.28,
+      "text": "optimization. Crucially, this algorithm"
+    },
+    {
+      "start": 211.599,
+      "duration": 4,
+      "text": "offers a distinct advantage over"
+    },
+    {
+      "start": 213.519,
+      "duration": 4.481,
+      "text": "traditional methods like proximal policy"
+    },
+    {
+      "start": 215.599,
+      "duration": 4.72,
+      "text": "optimization because it removes the need"
+    },
+    {
+      "start": 218,
+      "duration": 4.319,
+      "text": "for a separate critic model instead of"
+    },
+    {
+      "start": 220.319,
+      "duration": 4.401,
+      "text": "relying on a second neural network to"
+    },
+    {
+      "start": 222.319,
+      "duration": 4.881,
+      "text": "estimate the value of an action. Group"
+    },
+    {
+      "start": 224.72,
+      "duration": 4.48,
+      "text": "relative policy optimization generates a"
+    },
+    {
+      "start": 227.2,
+      "duration": 4.24,
+      "text": "group of multiple trajectories for the"
+    },
+    {
+      "start": 229.2,
+      "duration": 4.399,
+      "text": "same input and grades them against each"
+    },
+    {
+      "start": 231.44,
+      "duration": 4.48,
+      "text": "other. It effectively forces the model"
+    },
+    {
+      "start": 233.599,
+      "duration": 4.961,
+      "text": "to compete with itself, identifying"
+    },
+    {
+      "start": 235.92,
+      "duration": 5.679,
+      "text": "which specific path calling a cheap tool"
+    },
+    {
+      "start": 238.56,
+      "duration": 5.44,
+      "text": "versus calling GPT5 yields the highest"
+    },
+    {
+      "start": 241.599,
+      "duration": 4.881,
+      "text": "reward relative to the group average."
+    },
+    {
+      "start": 244,
+      "duration": 5.68,
+      "text": "The magic lies in their multiobjective"
+    },
+    {
+      "start": 246.48,
+      "duration": 6.56,
+      "text": "reward function. Usually, we only reward"
+    },
+    {
+      "start": 249.68,
+      "duration": 5.36,
+      "text": "the model for accuracy. However, Nvidia"
+    },
+    {
+      "start": 253.04,
+      "duration": 4.4,
+      "text": "implemented a reward function that"
+    },
+    {
+      "start": 255.04,
+      "duration": 5.28,
+      "text": "simultaneously evaluates three distinct"
+    },
+    {
+      "start": 257.44,
+      "duration": 5.12,
+      "text": "metrics. First, it looks at the outcome"
+    },
+    {
+      "start": 260.32,
+      "duration": 5.12,
+      "text": "to see if the task was actually solved."
+    },
+    {
+      "start": 262.56,
+      "duration": 5.44,
+      "text": "Second, it calculates the efficiency of"
+    },
+    {
+      "start": 265.44,
+      "duration": 4.8,
+      "text": "the trajectory, literally converting the"
+    },
+    {
+      "start": 268,
+      "duration": 5.04,
+      "text": "token usage into a dollar amount and"
+    },
+    {
+      "start": 270.24,
+      "duration": 5.44,
+      "text": "measuring the wall clock latency. Third,"
+    },
+    {
+      "start": 273.04,
+      "duration": 5.12,
+      "text": "it evaluates preference adherence to see"
+    },
+    {
+      "start": 275.68,
+      "duration": 4.48,
+      "text": "if the model respected user constraints."
+    },
+    {
+      "start": 278.16,
+      "duration": 4.72,
+      "text": "The results of this approach are"
+    },
+    {
+      "start": 280.16,
+      "duration": 5.44,
+      "text": "staggering. This 8 billion parameter"
+    },
+    {
+      "start": 282.88,
+      "duration": 5.52,
+      "text": "orchestrator managing a swarm of tools"
+    },
+    {
+      "start": 285.6,
+      "duration": 5.12,
+      "text": "and specialized models achieved a score"
+    },
+    {
+      "start": 288.4,
+      "duration": 5.2,
+      "text": "of 37.1%"
+    },
+    {
+      "start": 290.72,
+      "duration": 5.199,
+      "text": "on humanity's last exam, a benchmark"
+    },
+    {
+      "start": 293.6,
+      "duration": 4.64,
+      "text": "designed to be incredibly difficult."
+    },
+    {
+      "start": 295.919,
+      "duration": 4.961,
+      "text": "That score beats the standalone GPT5"
+    },
+    {
+      "start": 298.24,
+      "duration": 4.48,
+      "text": "baseline of 35.1%."
+    },
+    {
+      "start": 300.88,
+      "duration": 5.759,
+      "text": "But the most important metric is"
+    },
+    {
+      "start": 302.72,
+      "duration": 6.479,
+      "text": "efficiency. It beat GPT5 while being 2.5"
+    },
+    {
+      "start": 306.639,
+      "duration": 4.641,
+      "text": "times more efficient in terms of cost."
+    },
+    {
+      "start": 309.199,
+      "duration": 5.521,
+      "text": "On other benchmarks like Frames and"
+    },
+    {
+      "start": 311.28,
+      "duration": 5.84,
+      "text": "Towen, it outperformed GPT5 by a wide"
+    },
+    {
+      "start": 314.72,
+      "duration": 4.4,
+      "text": "margin while using only 30% of the"
+    },
+    {
+      "start": 317.12,
+      "duration": 4.639,
+      "text": "financial cost. The behavior of the"
+    },
+    {
+      "start": 319.12,
+      "duration": 5.2,
+      "text": "model is what is truly fascinating. It"
+    },
+    {
+      "start": 321.759,
+      "duration": 5.761,
+      "text": "learned without explicit hard-coded"
+    },
+    {
+      "start": 324.32,
+      "duration": 5.52,
+      "text": "rules to strategize. For example, when"
+    },
+    {
+      "start": 327.52,
+      "duration": 3.92,
+      "text": "faced with a difficult math problem, the"
+    },
+    {
+      "start": 329.84,
+      "duration": 4.48,
+      "text": "reinforcement learning training taught"
+    },
+    {
+      "start": 331.44,
+      "duration": 5.039,
+      "text": "it to stop defaulting to GPT5. Instead,"
+    },
+    {
+      "start": 334.32,
+      "duration": 4.719,
+      "text": "it learned to route that specific"
+    },
+    {
+      "start": 336.479,
+      "duration": 4.961,
+      "text": "request to a specialized cheaper math"
+    },
+    {
+      "start": 339.039,
+      "duration": 4.16,
+      "text": "model. In their analysis, the"
+    },
+    {
+      "start": 341.44,
+      "duration": 4.72,
+      "text": "orchestrator only called the most"
+    },
+    {
+      "start": 343.199,
+      "duration": 4.881,
+      "text": "expensive model about 40% of the time,"
+    },
+    {
+      "start": 346.16,
+      "duration": 3.68,
+      "text": "reserving that heavy compute only for"
+    },
+    {
+      "start": 348.08,
+      "duration": 3.76,
+      "text": "the tasks that truly require deep"
+    },
+    {
+      "start": 349.84,
+      "duration": 4.32,
+      "text": "generalist reasoning. It essentially"
+    },
+    {
+      "start": 351.84,
+      "duration": 5.52,
+      "text": "learned that intelligence includes"
+    },
+    {
+      "start": 354.16,
+      "duration": 5.599,
+      "text": "fiscal responsibility. So why does this"
+    },
+    {
+      "start": 357.36,
+      "duration": 4.72,
+      "text": "matter for builders? This logic can be"
+    },
+    {
+      "start": 359.759,
+      "duration": 5.28,
+      "text": "implemented today and the paper provides"
+    },
+    {
+      "start": 362.08,
+      "duration": 5.119,
+      "text": "a clear blueprint. First, intelligence"
+    },
+    {
+      "start": 365.039,
+      "duration": 4.321,
+      "text": "must be virtualized. Instead of hard-"
+    },
+    {
+      "start": 367.199,
+      "duration": 4.56,
+      "text": "coding an agent to use a single model,"
+    },
+    {
+      "start": 369.36,
+      "duration": 4.32,
+      "text": "the codebase should be structured so"
+    },
+    {
+      "start": 371.759,
+      "duration": 4.56,
+      "text": "that highle reasoning is just another"
+    },
+    {
+      "start": 373.68,
+      "duration": 5.2,
+      "text": "tool in the definition list. Second,"
+    },
+    {
+      "start": 376.319,
+      "duration": 4.641,
+      "text": "solving the data bottleneck is critical."
+    },
+    {
+      "start": 378.88,
+      "duration": 4.56,
+      "text": "The authors created a pipeline called"
+    },
+    {
+      "start": 380.96,
+      "duration": 4.72,
+      "text": "tool scale to generate training data."
+    },
+    {
+      "start": 383.44,
+      "duration": 4.96,
+      "text": "They simulated rich environments such as"
+    },
+    {
+      "start": 385.68,
+      "duration": 4.959,
+      "text": "a movie booking database and then used a"
+    },
+    {
+      "start": 388.4,
+      "duration": 5.28,
+      "text": "large model to generate diverse user"
+    },
+    {
+      "start": 390.639,
+      "duration": 4.961,
+      "text": "tasks and crucially the golden path"
+    },
+    {
+      "start": 393.68,
+      "duration": 4.88,
+      "text": "solutions that use the most efficient"
+    },
+    {
+      "start": 395.6,
+      "duration": 4.719,
+      "text": "tools. Synthetic data of this caliber is"
+    },
+    {
+      "start": 398.56,
+      "duration": 4.72,
+      "text": "necessary because human conversation"
+    },
+    {
+      "start": 400.319,
+      "duration": 5.841,
+      "text": "logs rarely contain perfect cost"
+    },
+    {
+      "start": 403.28,
+      "duration": 5.44,
+      "text": "optimized routing decisions. Finally,"
+    },
+    {
+      "start": 406.16,
+      "duration": 4.159,
+      "text": "the system requires costaware training."
+    },
+    {
+      "start": 408.72,
+      "duration": 4.08,
+      "text": "Simply prompting a router to be"
+    },
+    {
+      "start": 410.319,
+      "duration": 4.88,
+      "text": "efficient is insufficient because as the"
+    },
+    {
+      "start": 412.8,
+      "duration": 4.48,
+      "text": "pilot study showed, prompted models will"
+    },
+    {
+      "start": 415.199,
+      "duration": 4.161,
+      "text": "default to the most expensive tools out"
+    },
+    {
+      "start": 417.28,
+      "duration": 4.639,
+      "text": "of caution. The architecture demands"
+    },
+    {
+      "start": 419.36,
+      "duration": 4.88,
+      "text": "fine-tuning using reinforcement learning"
+    },
+    {
+      "start": 421.919,
+      "duration": 4.321,
+      "text": "where the penalty for spending money is"
+    },
+    {
+      "start": 424.24,
+      "duration": 4,
+      "text": "just as high as the penalty for getting"
+    },
+    {
+      "start": 426.24,
+      "duration": 4.399,
+      "text": "the answer wrong. By using the group"
+    },
+    {
+      "start": 428.24,
+      "duration": 5.12,
+      "text": "relative policy optimization method"
+    },
+    {
+      "start": 430.639,
+      "duration": 5.12,
+      "text": "described in the paper, a small local"
+    },
+    {
+      "start": 433.36,
+      "duration": 5.279,
+      "text": "model can be trained to act as the chief"
+    },
+    {
+      "start": 435.759,
+      "duration": 5.44,
+      "text": "executive officer of the agentic system,"
+    },
+    {
+      "start": 438.639,
+      "duration": 5.201,
+      "text": "intelligently delegating tasks to larger"
+    },
+    {
+      "start": 441.199,
+      "duration": 4.4,
+      "text": "models only when absolutely necessary."
+    },
+    {
+      "start": 443.84,
+      "duration": 3.68,
+      "text": "If you found this breakdown useful,"
+    },
+    {
+      "start": 445.599,
+      "duration": 4.081,
+      "text": "please hit the like button and subscribe"
+    },
+    {
+      "start": 447.52,
+      "duration": 4.64,
+      "text": "to the channel. I'm going to be doing"
+    },
+    {
+      "start": 449.68,
+      "duration": 4.56,
+      "text": "deep dives into more architectures that"
+    },
+    {
+      "start": 452.16,
+      "duration": 3.92,
+      "text": "are changing the way we build software."
+    },
+    {
+      "start": 454.24,
+      "duration": 4.399,
+      "text": "Thanks so much for watching and I'll see"
+    },
+    {
+      "start": 456.08,
+      "duration": 2.559,
+      "text": "you in the next"
+    }
+  ],
+  "fullText": "On the 26th of November 2025, Nvidia released a new research paper that exposes a massive inefficiency in how we are currently building agentic systems. It is titled tool orchestra and it takes aim at the financial and computational waste of using massive models for every single step of a workflow. We are all facing a significant architectural crisis right now known as the monolith. When you build a complex agentic workflow today, the standard best practice is to default to the smartest largest model available such as GPT5 or cloud opus. We do this out of fear because complex reasoning is difficult and smaller models are notorious for hallucinating or failing to follow instructions. However, this safety mechanism is destroying your profit margins and increasing your latency. It is overkill to use a trillion parameter model to simply check a flight status, query a database, or format a data object. Historically, developers have tried to solve this by building routers where they prompt a smaller model to decide which expert model to call. But the authors of this paper conducted a pilot study that reveals exactly why this fails and the results are counterintuitive. They identified two specific failures known as self-enhancement bias and other enhancement bias. The researchers found that when you simply prompt a powerful model like GPT5 to route tasks, it suffers from self-enhancement bias, it disproportionately routes tasks to its own family of models like GPT5 mini, regardless of whether that is the best tool for the job. But more importantly for us, when they prompted a smaller, efficient model like Quen 38B, it exhibited other enhancement bias. Instead of trying to solve problems it was capable of handling, it became overly dependent on the smartest tool in the list. It blindly forwarded almost 73% of tasks to GPT5, ignoring the cost completely. This defeats the entire purpose of a router. The small model isn't failing because it is too arrogant. it fails because it is too scared to do the work itself rendering your optimization useless. But this paper suggests we have been looking at the problem entirely wrong. The authors introduce the orchestration paradigm. The core insight is to stop treating large language models as the solver and start treating them as managers. In their architecture, they take that small efficient 8 billion parameter model and train it to be the orchestrator. But rather than teaching it to be humble, the training actually teaches it to be brave and economical. Here is the clever engineering trick that distinguishes this paper from previous work. They did not just give the orchestrator standard software tools like a calculator, a Python interpreter, or a web search interface. They defined other large language models as tools within the system. In the orchestrator's definition schema, GPT5 is listed as a tool. Codestro 22B is listed as a tool. Quenmath is listed as a tool. The orchestrator treats a call to a massive reasoning model exactly the same way it treats a call to a search engine. To make this work, they could not rely on standard training. They trained this 8 billion parameter model using reinforcement learning, specifically an algorithm called group relative policy optimization. Crucially, this algorithm offers a distinct advantage over traditional methods like proximal policy optimization because it removes the need for a separate critic model instead of relying on a second neural network to estimate the value of an action. Group relative policy optimization generates a group of multiple trajectories for the same input and grades them against each other. It effectively forces the model to compete with itself, identifying which specific path calling a cheap tool versus calling GPT5 yields the highest reward relative to the group average. The magic lies in their multiobjective reward function. Usually, we only reward the model for accuracy. However, Nvidia implemented a reward function that simultaneously evaluates three distinct metrics. First, it looks at the outcome to see if the task was actually solved. Second, it calculates the efficiency of the trajectory, literally converting the token usage into a dollar amount and measuring the wall clock latency. Third, it evaluates preference adherence to see if the model respected user constraints. The results of this approach are staggering. This 8 billion parameter orchestrator managing a swarm of tools and specialized models achieved a score of 37.1% on humanity's last exam, a benchmark designed to be incredibly difficult. That score beats the standalone GPT5 baseline of 35.1%. But the most important metric is efficiency. It beat GPT5 while being 2.5 times more efficient in terms of cost. On other benchmarks like Frames and Towen, it outperformed GPT5 by a wide margin while using only 30% of the financial cost. The behavior of the model is what is truly fascinating. It learned without explicit hard-coded rules to strategize. For example, when faced with a difficult math problem, the reinforcement learning training taught it to stop defaulting to GPT5. Instead, it learned to route that specific request to a specialized cheaper math model. In their analysis, the orchestrator only called the most expensive model about 40% of the time, reserving that heavy compute only for the tasks that truly require deep generalist reasoning. It essentially learned that intelligence includes fiscal responsibility. So why does this matter for builders? This logic can be implemented today and the paper provides a clear blueprint. First, intelligence must be virtualized. Instead of hard- coding an agent to use a single model, the codebase should be structured so that highle reasoning is just another tool in the definition list. Second, solving the data bottleneck is critical. The authors created a pipeline called tool scale to generate training data. They simulated rich environments such as a movie booking database and then used a large model to generate diverse user tasks and crucially the golden path solutions that use the most efficient tools. Synthetic data of this caliber is necessary because human conversation logs rarely contain perfect cost optimized routing decisions. Finally, the system requires costaware training. Simply prompting a router to be efficient is insufficient because as the pilot study showed, prompted models will default to the most expensive tools out of caution. The architecture demands fine-tuning using reinforcement learning where the penalty for spending money is just as high as the penalty for getting the answer wrong. By using the group relative policy optimization method described in the paper, a small local model can be trained to act as the chief executive officer of the agentic system, intelligently delegating tasks to larger models only when absolutely necessary. If you found this breakdown useful, please hit the like button and subscribe to the channel. I'm going to be doing deep dives into more architectures that are changing the way we build software. Thanks so much for watching and I'll see you in the next",
+  "fetchedAt": "2026-01-18T18:34:17.579Z"
+}

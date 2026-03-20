@@ -1,0 +1,1599 @@
+{
+  "videoId": "vGfTyHPWZLE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0,
+      "duration": 2.96,
+      "text": "Hi there, my friend and friend. If"
+    },
+    {
+      "start": 1.439,
+      "duration": 3.441,
+      "text": "you're maintaining separate variables"
+    },
+    {
+      "start": 2.96,
+      "duration": 4,
+      "text": "for lighter, darker, and transparent"
+    },
+    {
+      "start": 4.88,
+      "duration": 4.4,
+      "text": "versions of the same color, there's a"
+    },
+    {
+      "start": 6.96,
+      "duration": 4.24,
+      "text": "much better way to work because of CSS"
+    },
+    {
+      "start": 9.28,
+      "duration": 4,
+      "text": "relative colors that let us generate all"
+    },
+    {
+      "start": 11.2,
+      "duration": 4.479,
+      "text": "of these variations based on a single"
+    },
+    {
+      "start": 13.28,
+      "duration": 3.999,
+      "text": "value. Let's dive in and see how this"
+    },
+    {
+      "start": 15.679,
+      "duration": 4.001,
+      "text": "works. I got a demo set up for us right"
+    },
+    {
+      "start": 17.279,
+      "duration": 4.08,
+      "text": "here. Uh, and we can take a look. So,"
+    },
+    {
+      "start": 19.68,
+      "duration": 3.359,
+      "text": "you can see I have some variables set up"
+    },
+    {
+      "start": 21.359,
+      "duration": 3.68,
+      "text": "and I have some I'm using toast"
+    },
+    {
+      "start": 23.039,
+      "duration": 4.16,
+      "text": "notifications for this cuz I think it's"
+    },
+    {
+      "start": 25.039,
+      "duration": 4,
+      "text": "a nice example of something where we can"
+    },
+    {
+      "start": 27.199,
+      "duration": 3.201,
+      "text": "have multiple variations of this as"
+    },
+    {
+      "start": 29.039,
+      "duration": 3.68,
+      "text": "well. and we can look at how we're"
+    },
+    {
+      "start": 30.4,
+      "duration": 3.839,
+      "text": "saving a lot of time. So, the very first"
+    },
+    {
+      "start": 32.719,
+      "duration": 3.601,
+      "text": "thing I'm going to do is let's come in"
+    },
+    {
+      "start": 34.239,
+      "duration": 4.081,
+      "text": "and sort of style the generic one and"
+    },
+    {
+      "start": 36.32,
+      "duration": 3.68,
+      "text": "then we'll sort of fancy things up uh"
+    },
+    {
+      "start": 38.32,
+      "duration": 3.28,
+      "text": "from there. And really quickly there, I"
+    },
+    {
+      "start": 40,
+      "duration": 3.12,
+      "text": "just made the font size bigger cuz I"
+    },
+    {
+      "start": 41.6,
+      "duration": 3.84,
+      "text": "think it would look better for our demo."
+    },
+    {
+      "start": 43.12,
+      "duration": 3.36,
+      "text": "Uh so here, let's set things up where"
+    },
+    {
+      "start": 45.44,
+      "duration": 2.88,
+      "text": "I'm going to come in and we're just"
+    },
+    {
+      "start": 46.48,
+      "duration": 5.2,
+      "text": "going to come in on this to start with"
+    },
+    {
+      "start": 48.32,
+      "duration": 4.8,
+      "text": "and do a I call it toast color. Uh and"
+    },
+    {
+      "start": 51.68,
+      "duration": 3.28,
+      "text": "and put a color here. And I'm going to"
+    },
+    {
+      "start": 53.12,
+      "duration": 4.4,
+      "text": "use the base color for now. So, we're"
+    },
+    {
+      "start": 54.96,
+      "duration": 3.68,
+      "text": "going to say it's our var of base color."
+    },
+    {
+      "start": 57.52,
+      "duration": 4.16,
+      "text": "And this is going to help us a little"
+    },
+    {
+      "start": 58.64,
+      "duration": 4.559,
+      "text": "bit out. Uh uh just base like that. This"
+    },
+    {
+      "start": 61.68,
+      "duration": 3.119,
+      "text": "will help us out a little bit later on."
+    },
+    {
+      "start": 63.199,
+      "duration": 3.92,
+      "text": "This could be a step that we do later."
+    },
+    {
+      "start": 64.799,
+      "duration": 3.601,
+      "text": "It could even be a step that you skip if"
+    },
+    {
+      "start": 67.119,
+      "duration": 2.961,
+      "text": "this is something that you're only doing"
+    },
+    {
+      "start": 68.4,
+      "duration": 2.96,
+      "text": "one thing of and you don't need a bunch"
+    },
+    {
+      "start": 70.08,
+      "duration": 2.48,
+      "text": "of variations like we're going to have"
+    },
+    {
+      "start": 71.36,
+      "duration": 2.32,
+      "text": "here. Now, next up, I'm going to do"
+    },
+    {
+      "start": 72.56,
+      "duration": 2.96,
+      "text": "something looks a little bit weird cuz"
+    },
+    {
+      "start": 73.68,
+      "duration": 4.079,
+      "text": "I'm going to say we're a color. I'm"
+    },
+    {
+      "start": 75.52,
+      "duration": 4.239,
+      "text": "going to do an HSL from and this is"
+    },
+    {
+      "start": 77.759,
+      "duration": 3.761,
+      "text": "relative colors and I'll explain the"
+    },
+    {
+      "start": 79.759,
+      "duration": 5.04,
+      "text": "syntax of this as we write it out. I'm"
+    },
+    {
+      "start": 81.52,
+      "duration": 6.959,
+      "text": "going to say var toast color and then"
+    },
+    {
+      "start": 84.799,
+      "duration": 5.281,
+      "text": "I'm going hsl and nothing really should"
+    },
+    {
+      "start": 88.479,
+      "duration": 2.96,
+      "text": "change actually. Uh and I need a"
+    },
+    {
+      "start": 90.08,
+      "duration": 2.88,
+      "text": "semicolon at the end. And as you can"
+    },
+    {
+      "start": 91.439,
+      "duration": 2.72,
+      "text": "see, not nothing really much has"
+    },
+    {
+      "start": 92.96,
+      "duration": 5.199,
+      "text": "changed. But what we're saying is the"
+    },
+    {
+      "start": 94.159,
+      "duration": 6.96,
+      "text": "color is an HSL value that is coming"
+    },
+    {
+      "start": 98.159,
+      "duration": 5.361,
+      "text": "from the toast color. And this H and S"
+    },
+    {
+      "start": 101.119,
+      "duration": 3.921,
+      "text": "and L are just placeholders for the hue,"
+    },
+    {
+      "start": 103.52,
+      "duration": 3.279,
+      "text": "saturation, and lightness. And we'll see"
+    },
+    {
+      "start": 105.04,
+      "duration": 3.28,
+      "text": "why that's important in a minute. Uh"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.36,
+      "text": "just so we can see quickly that this is"
+    },
+    {
+      "start": 108.32,
+      "duration": 3.759,
+      "text": "working. If I change this over to my"
+    },
+    {
+      "start": 110.159,
+      "duration": 4.161,
+      "text": "info, we're going to see that the color"
+    },
+    {
+      "start": 112.079,
+      "duration": 4.08,
+      "text": "of the text and the border has changed"
+    },
+    {
+      "start": 114.32,
+      "duration": 3.439,
+      "text": "on all of them. The reason the border"
+    },
+    {
+      "start": 116.159,
+      "duration": 4.161,
+      "text": "color is currently changing is because"
+    },
+    {
+      "start": 117.759,
+      "duration": 4.72,
+      "text": "my border is set to two pixels solid. I"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.839,
+      "text": "haven't declared a color and borders by"
+    },
+    {
+      "start": 122.479,
+      "duration": 3.841,
+      "text": "default will follow the color of the"
+    },
+    {
+      "start": 124.159,
+      "duration": 3.841,
+      "text": "text. Uh but for now, I'm going to keep"
+    },
+    {
+      "start": 126.32,
+      "duration": 3.76,
+      "text": "this one as my base and we'll come in"
+    },
+    {
+      "start": 128,
+      "duration": 3.92,
+      "text": "with the modifications for the the other"
+    },
+    {
+      "start": 130.08,
+      "duration": 3.68,
+      "text": "ones as we go through. Now, where this"
+    },
+    {
+      "start": 131.92,
+      "duration": 3.36,
+      "text": "gets a little bit more useful is let's"
+    },
+    {
+      "start": 133.76,
+      "duration": 2.64,
+      "text": "come in with a background color. So"
+    },
+    {
+      "start": 135.28,
+      "duration": 2.959,
+      "text": "background color I'm going to put this"
+    },
+    {
+      "start": 136.4,
+      "duration": 3.68,
+      "text": "on a different line just so it we can"
+    },
+    {
+      "start": 138.239,
+      "duration": 4.561,
+      "text": "keep it all without any uh horizontal"
+    },
+    {
+      "start": 140.08,
+      "duration": 5.68,
+      "text": "scrolling. I'm going to say hsl from"
+    },
+    {
+      "start": 142.8,
+      "duration": 6.159,
+      "text": "same thing my var of toast. You got to"
+    },
+    {
+      "start": 145.76,
+      "duration": 6.8,
+      "text": "spell toast right toast color and space"
+    },
+    {
+      "start": 148.959,
+      "duration": 5.36,
+      "text": "h space s space l except this time if I"
+    },
+    {
+      "start": 152.56,
+      "duration": 3.6,
+      "text": "do that I can't read my text but I want"
+    },
+    {
+      "start": 154.319,
+      "duration": 3.601,
+      "text": "it to always be based on the color of"
+    },
+    {
+      "start": 156.16,
+      "duration": 3.439,
+      "text": "the text. I can just come here and"
+    },
+    {
+      "start": 157.92,
+      "duration": 3.76,
+      "text": "actually change the lightness value. So"
+    },
+    {
+      "start": 159.599,
+      "duration": 3.441,
+      "text": "I can actually say this is at like 15%."
+    },
+    {
+      "start": 161.68,
+      "duration": 4,
+      "text": "Except that's going to be really uh"
+    },
+    {
+      "start": 163.04,
+      "duration": 5.04,
+      "text": "dark. I meant to say something like 85%"
+    },
+    {
+      "start": 165.68,
+      "duration": 5.919,
+      "text": "and go the other way around. And we can"
+    },
+    {
+      "start": 168.08,
+      "duration": 5.36,
+      "text": "have a the exact same color but 85%. And"
+    },
+    {
+      "start": 171.599,
+      "duration": 3.041,
+      "text": "maybe even we can come up to a 90 here."
+    },
+    {
+      "start": 173.44,
+      "duration": 3.28,
+      "text": "Something like that. But we're getting"
+    },
+    {
+      "start": 174.64,
+      "duration": 3.76,
+      "text": "that a little bit of that same color"
+    },
+    {
+      "start": 176.72,
+      "duration": 2.72,
+      "text": "coming in in the background now. And"
+    },
+    {
+      "start": 178.4,
+      "duration": 2.88,
+      "text": "this is cool, right? We're just"
+    },
+    {
+      "start": 179.44,
+      "duration": 4.879,
+      "text": "replacing whatever the lightness was"
+    },
+    {
+      "start": 181.28,
+      "duration": 4.72,
+      "text": "with it being 90% now in our HSL. And"
+    },
+    {
+      "start": 184.319,
+      "duration": 3.521,
+      "text": "just for fun, we can also take this to"
+    },
+    {
+      "start": 186,
+      "duration": 3.599,
+      "text": "another level. Uh and we can add like a"
+    },
+    {
+      "start": 187.84,
+      "duration": 4.64,
+      "text": "box shadow here as well. So, I'm going"
+    },
+    {
+      "start": 189.599,
+      "duration": 5.521,
+      "text": "to actually move we'll do the box shadow"
+    },
+    {
+      "start": 192.48,
+      "duration": 4.56,
+      "text": "here. Uh, box shadow. And again, I'll do"
+    },
+    {
+      "start": 195.12,
+      "duration": 3.92,
+      "text": "this on two lines just so we can see the"
+    },
+    {
+      "start": 197.04,
+      "duration": 4.64,
+      "text": "the entire declaration. And let's come"
+    },
+    {
+      "start": 199.04,
+      "duration": 4.559,
+      "text": "in with zero offset, maybe 12 pixels, 12"
+    },
+    {
+      "start": 201.68,
+      "duration": 3.52,
+      "text": "pixels. I'm going to leave it big for"
+    },
+    {
+      "start": 203.599,
+      "duration": 3.681,
+      "text": "now. Like, it really is standing out"
+    },
+    {
+      "start": 205.2,
+      "duration": 4.08,
+      "text": "obviously, but then we can come in with,"
+    },
+    {
+      "start": 207.28,
+      "duration": 5.12,
+      "text": "and this is another really cool thing,"
+    },
+    {
+      "start": 209.28,
+      "duration": 8.239,
+      "text": "um, with our relative colors. So, HSL"
+    },
+    {
+      "start": 212.4,
+      "duration": 7.839,
+      "text": "from var toast color and my H, my S, my"
+    },
+    {
+      "start": 217.519,
+      "duration": 4.321,
+      "text": "L. Except in this case, it's really dark"
+    },
+    {
+      "start": 220.239,
+      "duration": 3.601,
+      "text": "and I go, \"Oh man, I need a shadow, but"
+    },
+    {
+      "start": 221.84,
+      "duration": 3.44,
+      "text": "I want to lower the opacity of it.\" We"
+    },
+    {
+      "start": 223.84,
+      "duration": 2.959,
+      "text": "can do that with relative colors, which"
+    },
+    {
+      "start": 225.28,
+      "duration": 4.16,
+      "text": "is amazing. So, I just do a forward"
+    },
+    {
+      "start": 226.799,
+      "duration": 4.961,
+      "text": "slash here cuz this is the way the uh"
+    },
+    {
+      "start": 229.44,
+      "duration": 3.439,
+      "text": "spaceepparated syntax works in CSS. If"
+    },
+    {
+      "start": 231.76,
+      "duration": 2.72,
+      "text": "you'd like to learn more about that,"
+    },
+    {
+      "start": 232.879,
+      "duration": 3.36,
+      "text": "I'll I talked about it last week. I'll"
+    },
+    {
+      "start": 234.48,
+      "duration": 3.119,
+      "text": "put a link in the description. Uh, and"
+    },
+    {
+      "start": 236.239,
+      "duration": 3.121,
+      "text": "there might be a card popping up. You"
+    },
+    {
+      "start": 237.599,
+      "duration": 3.441,
+      "text": "can check that one out and I'll remind"
+    },
+    {
+      "start": 239.36,
+      "duration": 3.68,
+      "text": "you at the end. Uh, but I can just come"
+    },
+    {
+      "start": 241.04,
+      "duration": 5.04,
+      "text": "here and say something like 0.25 or"
+    },
+    {
+      "start": 243.04,
+      "duration": 5.119,
+      "text": "whatever I want for the lowered opacity"
+    },
+    {
+      "start": 246.08,
+      "duration": 3.28,
+      "text": "of that same color. Uh, and you can see"
+    },
+    {
+      "start": 248.159,
+      "duration": 2.401,
+      "text": "that's working. I want to make this a"
+    },
+    {
+      "start": 249.36,
+      "duration": 3.36,
+      "text": "bit more subtle. So, I'm also going to"
+    },
+    {
+      "start": 250.56,
+      "duration": 3.759,
+      "text": "give it a spread of8 just to pull it in"
+    },
+    {
+      "start": 252.72,
+      "duration": 3.44,
+      "text": "a little bit. Just give us a little"
+    },
+    {
+      "start": 254.319,
+      "duration": 4.88,
+      "text": "subtle shadow underneath each one of"
+    },
+    {
+      "start": 256.16,
+      "duration": 4.96,
+      "text": "those cards or toasts or whatever we"
+    },
+    {
+      "start": 259.199,
+      "duration": 3.921,
+      "text": "want to call them. Awesome. So, that's"
+    },
+    {
+      "start": 261.12,
+      "duration": 4.16,
+      "text": "all working. Now, this is where the"
+    },
+    {
+      "start": 263.12,
+      "duration": 4.799,
+      "text": "other cool thing comes in here. Uh, is I"
+    },
+    {
+      "start": 265.28,
+      "duration": 3.84,
+      "text": "have my info, my warning, and my uh"
+    },
+    {
+      "start": 267.919,
+      "duration": 2.72,
+      "text": "error here. And I'm just doing these"
+    },
+    {
+      "start": 269.12,
+      "duration": 2.639,
+      "text": "with data attributes cuz this would be"
+    },
+    {
+      "start": 270.639,
+      "duration": 3.201,
+      "text": "the easiest way to do it with"
+    },
+    {
+      "start": 271.759,
+      "duration": 3.681,
+      "text": "JavaScript. Uh especially if you're, you"
+    },
+    {
+      "start": 273.84,
+      "duration": 2.88,
+      "text": "know, instead of using a class here, I"
+    },
+    {
+      "start": 275.44,
+      "duration": 3.6,
+      "text": "think it makes a lot more sense to do it"
+    },
+    {
+      "start": 276.72,
+      "duration": 3.6,
+      "text": "with a data attribute because if you're"
+    },
+    {
+      "start": 279.04,
+      "duration": 2.719,
+      "text": "setting it with JavaScript, you just set"
+    },
+    {
+      "start": 280.32,
+      "duration": 4.4,
+      "text": "it. You don't have to worry about"
+    },
+    {
+      "start": 281.759,
+      "duration": 5.521,
+      "text": "removing the info to put a warning or"
+    },
+    {
+      "start": 284.72,
+      "duration": 3.919,
+      "text": "you you just say if it's this one, the"
+    },
+    {
+      "start": 287.28,
+      "duration": 3.359,
+      "text": "text is going to be coming in probably"
+    },
+    {
+      "start": 288.639,
+      "duration": 2.801,
+      "text": "from JavaScript as well. The whole thing"
+    },
+    {
+      "start": 290.639,
+      "duration": 2.721,
+      "text": "is going to be triggered with"
+    },
+    {
+      "start": 291.44,
+      "duration": 4.319,
+      "text": "JavaScript. And you just do the data"
+    },
+    {
+      "start": 293.36,
+      "duration": 4.559,
+      "text": "what toast is equal to uh and you style"
+    },
+    {
+      "start": 295.759,
+      "duration": 3.521,
+      "text": "it that way. So let's come down here and"
+    },
+    {
+      "start": 297.919,
+      "duration": 5.361,
+      "text": "we'll start with the first one where we"
+    },
+    {
+      "start": 299.28,
+      "duration": 5.84,
+      "text": "can say the data toast is equal to info."
+    },
+    {
+      "start": 303.28,
+      "duration": 4.16,
+      "text": "And because I was set this up with a"
+    },
+    {
+      "start": 305.12,
+      "duration": 5.04,
+      "text": "custom property of toast color, we can"
+    },
+    {
+      "start": 307.44,
+      "duration": 6.16,
+      "text": "just come here and say in this case my"
+    },
+    {
+      "start": 310.16,
+      "duration": 5.039,
+      "text": "toast color is my Did I call it info?"
+    },
+    {
+      "start": 313.6,
+      "duration": 3.28,
+      "text": "Yeah, I did. Look at that. There we go."
+    },
+    {
+      "start": 315.199,
+      "duration": 2.801,
+      "text": "So my info comes in. Now there's a bit"
+    },
+    {
+      "start": 316.88,
+      "duration": 2.96,
+      "text": "of a problem here. We're going to solve"
+    },
+    {
+      "start": 318,
+      "duration": 3.36,
+      "text": "that in a second. But let's come in with"
+    },
+    {
+      "start": 319.84,
+      "duration": 5.44,
+      "text": "all three of them. So that's my info."
+    },
+    {
+      "start": 321.36,
+      "duration": 5.6,
+      "text": "And the last one uh will be so info I"
+    },
+    {
+      "start": 325.28,
+      "duration": 5.759,
+      "text": "forget what I called them warning and"
+    },
+    {
+      "start": 326.96,
+      "duration": 6.56,
+      "text": "error. So uh these two that's a warning"
+    },
+    {
+      "start": 331.039,
+      "duration": 5.281,
+      "text": "and then I can come on this one and say"
+    },
+    {
+      "start": 333.52,
+      "duration": 4.239,
+      "text": "those are error and all the colors are"
+    },
+    {
+      "start": 336.32,
+      "duration": 3.439,
+      "text": "coming in and it's it's looking pretty"
+    },
+    {
+      "start": 337.759,
+      "duration": 3.681,
+      "text": "cool that we can do all of this with a"
+    },
+    {
+      "start": 339.759,
+      "duration": 3.44,
+      "text": "single color and everything is adapting"
+    },
+    {
+      "start": 341.44,
+      "duration": 3.68,
+      "text": "automatically. There's one problem"
+    },
+    {
+      "start": 343.199,
+      "duration": 3.521,
+      "text": "that's coming in is like the text might"
+    },
+    {
+      "start": 345.12,
+      "duration": 3.28,
+      "text": "be a little bit hard to read depending"
+    },
+    {
+      "start": 346.72,
+      "duration": 3.199,
+      "text": "on what color you're using. especially"
+    },
+    {
+      "start": 348.4,
+      "duration": 3.2,
+      "text": "like I don't know. I guess this one's"
+    },
+    {
+      "start": 349.919,
+      "duration": 3.201,
+      "text": "okay, but we could definitely make it"
+    },
+    {
+      "start": 351.6,
+      "duration": 3.12,
+      "text": "better. So, what I'm going to do is come"
+    },
+    {
+      "start": 353.12,
+      "duration": 4.4,
+      "text": "back up to where we declared all of"
+    },
+    {
+      "start": 354.72,
+      "duration": 4.8,
+      "text": "this. And over here, I want this color"
+    },
+    {
+      "start": 357.52,
+      "duration": 4.239,
+      "text": "to actually always be dark no matter"
+    },
+    {
+      "start": 359.52,
+      "duration": 4.64,
+      "text": "what value I'm using. So, maybe I come"
+    },
+    {
+      "start": 361.759,
+      "duration": 4.481,
+      "text": "in with a 20% here for the lightness on"
+    },
+    {
+      "start": 364.16,
+      "duration": 4.24,
+      "text": "the color. And then it's going to be,"
+    },
+    {
+      "start": 366.24,
+      "duration": 4.399,
+      "text": "you know, based on the red or based on"
+    },
+    {
+      "start": 368.4,
+      "duration": 4.16,
+      "text": "that orangey yellow, but I know it's"
+    },
+    {
+      "start": 370.639,
+      "duration": 3.68,
+      "text": "always going to be darker. Now, my"
+    },
+    {
+      "start": 372.56,
+      "duration": 3.28,
+      "text": "borders have sort of gotten darker, too."
+    },
+    {
+      "start": 374.319,
+      "duration": 3.041,
+      "text": "Well, we just do the same thing for the"
+    },
+    {
+      "start": 375.84,
+      "duration": 3.359,
+      "text": "border where I never actually declared"
+    },
+    {
+      "start": 377.36,
+      "duration": 4.08,
+      "text": "one. I'm just going to copy and paste to"
+    },
+    {
+      "start": 379.199,
+      "duration": 4.72,
+      "text": "speed things up. And this one, we'll"
+    },
+    {
+      "start": 381.44,
+      "duration": 5.039,
+      "text": "just use the original HSL. And I guess I"
+    },
+    {
+      "start": 383.919,
+      "duration": 4.641,
+      "text": "could, if you're not changing the value,"
+    },
+    {
+      "start": 386.479,
+      "duration": 3.84,
+      "text": "you could just do the vartos color and"
+    },
+    {
+      "start": 388.56,
+      "duration": 4.24,
+      "text": "not worry about it. Uh, and that would"
+    },
+    {
+      "start": 390.319,
+      "duration": 4.481,
+      "text": "work. But, uh, this just opens up some"
+    },
+    {
+      "start": 392.8,
+      "duration": 4.72,
+      "text": "extra doors, I think. So, we have the"
+    },
+    {
+      "start": 394.8,
+      "duration": 4.959,
+      "text": "border color always coming in with sort"
+    },
+    {
+      "start": 397.52,
+      "duration": 4.16,
+      "text": "of the more bright vibrant version. Uh,"
+    },
+    {
+      "start": 399.759,
+      "duration": 3.921,
+      "text": "and then the text we can darken. Maybe"
+    },
+    {
+      "start": 401.68,
+      "duration": 3.6,
+      "text": "20 is a bit low. We could try like a 35."
+    },
+    {
+      "start": 403.68,
+      "duration": 3.2,
+      "text": "You can play with the number uh that you"
+    },
+    {
+      "start": 405.28,
+      "duration": 3.039,
+      "text": "want on that to just make sure that it's"
+    },
+    {
+      "start": 406.88,
+      "duration": 3.28,
+      "text": "always something that's decently"
+    },
+    {
+      "start": 408.319,
+      "duration": 3.281,
+      "text": "readable. But we can do better. And"
+    },
+    {
+      "start": 410.16,
+      "duration": 2.8,
+      "text": "before I let you know how we can do"
+    },
+    {
+      "start": 411.6,
+      "duration": 3.439,
+      "text": "better, I just want to let you know that"
+    },
+    {
+      "start": 412.96,
+      "duration": 4.32,
+      "text": "this video is inspired by an article or"
+    },
+    {
+      "start": 415.039,
+      "duration": 4,
+      "text": "two articles actually that I wrote for"
+    },
+    {
+      "start": 417.28,
+      "duration": 3.039,
+      "text": "Piccoly. And so I'm going to link to"
+    },
+    {
+      "start": 419.039,
+      "duration": 4.88,
+      "text": "both of those down below. They're the"
+    },
+    {
+      "start": 420.319,
+      "duration": 5.44,
+      "text": "pragmatic guide to modern colors in CSS"
+    },
+    {
+      "start": 423.919,
+      "duration": 3.84,
+      "text": "I think is what we called it. Uh there's"
+    },
+    {
+      "start": 425.759,
+      "duration": 3.28,
+      "text": "two articles in there. First one is"
+    },
+    {
+      "start": 427.759,
+      "duration": 3.601,
+      "text": "really for people who are copying"
+    },
+    {
+      "start": 429.039,
+      "duration": 4.321,
+      "text": "pasting colors. The second one is going"
+    },
+    {
+      "start": 431.36,
+      "duration": 3.679,
+      "text": "a little bit further uh and diving into"
+    },
+    {
+      "start": 433.36,
+      "duration": 4,
+      "text": "a lot more of the manipulations and"
+    },
+    {
+      "start": 435.039,
+      "duration": 2.961,
+      "text": "other things that you can do. And just,"
+    },
+    {
+      "start": 437.36,
+      "duration": 2.559,
+      "text": "you know, we're talking about"
+    },
+    {
+      "start": 438,
+      "duration": 4,
+      "text": "Piccolilly. Uh people have been asking"
+    },
+    {
+      "start": 439.919,
+      "duration": 3.68,
+      "text": "me for JavaScript content for a long"
+    },
+    {
+      "start": 442,
+      "duration": 3.44,
+      "text": "time. They do have a relatively new"
+    },
+    {
+      "start": 443.599,
+      "duration": 3.04,
+      "text": "course called JavaScript for everyone."
+    },
+    {
+      "start": 445.44,
+      "duration": 2.64,
+      "text": "And so if you're somebody who's looking"
+    },
+    {
+      "start": 446.639,
+      "duration": 2.881,
+      "text": "to learn more about JavaScript, I"
+    },
+    {
+      "start": 448.08,
+      "duration": 2.88,
+      "text": "definitely would recommend going to"
+    },
+    {
+      "start": 449.52,
+      "duration": 3.36,
+      "text": "check it out. And no, this is not a"
+    },
+    {
+      "start": 450.96,
+      "duration": 3.84,
+      "text": "sponsored bit. I just like spreading the"
+    },
+    {
+      "start": 452.88,
+      "duration": 3.68,
+      "text": "word on good quality content that is out"
+    },
+    {
+      "start": 454.8,
+      "duration": 3.04,
+      "text": "there. So check out the course, check"
+    },
+    {
+      "start": 456.56,
+      "duration": 2.639,
+      "text": "out those articles if you're interested."
+    },
+    {
+      "start": 457.84,
+      "duration": 4.079,
+      "text": "But now let's look at the other"
+    },
+    {
+      "start": 459.199,
+      "duration": 5.361,
+      "text": "improvement that we can make to this uh"
+    },
+    {
+      "start": 461.919,
+      "duration": 6.241,
+      "text": "which is while I have all of these set"
+    },
+    {
+      "start": 464.56,
+      "duration": 5.28,
+      "text": "up using HSL RGB hex you know your copy"
+    },
+    {
+      "start": 468.16,
+      "duration": 2.96,
+      "text": "pasting from your design software"
+    },
+    {
+      "start": 469.84,
+      "duration": 4.4,
+      "text": "whatever it is and you're setting these"
+    },
+    {
+      "start": 471.12,
+      "duration": 4.88,
+      "text": "here when using relative colors you can"
+    },
+    {
+      "start": 474.24,
+      "duration": 5.76,
+      "text": "often get a little bit of a better"
+    },
+    {
+      "start": 476,
+      "duration": 7.28,
+      "text": "result by using OKLCH and OKLCH is a"
+    },
+    {
+      "start": 480,
+      "duration": 5.039,
+      "text": "newer it's like it's like HSL just came"
+    },
+    {
+      "start": 483.28,
+      "duration": 4.72,
+      "text": "around more recently but the difference"
+    },
+    {
+      "start": 485.039,
+      "duration": 4.801,
+      "text": "between HSL and OKLCH is as you go"
+    },
+    {
+      "start": 488,
+      "duration": 3.68,
+      "text": "through the different hues, it works in"
+    },
+    {
+      "start": 489.84,
+      "duration": 3.52,
+      "text": "a much more consistent way. So, what I"
+    },
+    {
+      "start": 491.68,
+      "duration": 3.359,
+      "text": "mean by that really quickly is looking"
+    },
+    {
+      "start": 493.36,
+      "duration": 4.64,
+      "text": "at this demo, I've set these both up"
+    },
+    {
+      "start": 495.039,
+      "duration": 4.481,
+      "text": "with uh OKLCH and HSL. And if I go"
+    },
+    {
+      "start": 498,
+      "duration": 3.12,
+      "text": "through the different hues, as you get"
+    },
+    {
+      "start": 499.52,
+      "duration": 3.44,
+      "text": "to here, you can see like this text"
+    },
+    {
+      "start": 501.12,
+      "duration": 3.199,
+      "text": "becomes harder to read. And it really"
+    },
+    {
+      "start": 502.96,
+      "duration": 3.519,
+      "text": "depends on the color that we're using."
+    },
+    {
+      "start": 504.319,
+      "duration": 4.16,
+      "text": "When you get to yellows, it gets much"
+    },
+    {
+      "start": 506.479,
+      "duration": 3.44,
+      "text": "visually it gets a lot brighter even"
+    },
+    {
+      "start": 508.479,
+      "duration": 4,
+      "text": "though the saturation and the lightness"
+    },
+    {
+      "start": 509.919,
+      "duration": 5.441,
+      "text": "values have stayed the same. And the"
+    },
+    {
+      "start": 512.479,
+      "duration": 4.8,
+      "text": "whole point of the okay or not okay LCH"
+    },
+    {
+      "start": 515.36,
+      "duration": 4.799,
+      "text": "but the whole point of LCH in general is"
+    },
+    {
+      "start": 517.279,
+      "duration": 4.961,
+      "text": "to keep that consistency as you're going"
+    },
+    {
+      "start": 520.159,
+      "duration": 4.081,
+      "text": "through the different hues in terms of"
+    },
+    {
+      "start": 522.24,
+      "duration": 4.24,
+      "text": "the perception of the the brightness of"
+    },
+    {
+      "start": 524.24,
+      "duration": 4.48,
+      "text": "the colors. And so here's an example of"
+    },
+    {
+      "start": 526.48,
+      "duration": 3.68,
+      "text": "looking at the differences between using"
+    },
+    {
+      "start": 528.72,
+      "duration": 3.28,
+      "text": "I've set these up exactly the same way."
+    },
+    {
+      "start": 530.16,
+      "duration": 3.76,
+      "text": "I just took away the the gray one. Um"
+    },
+    {
+      "start": 532,
+      "duration": 3.839,
+      "text": "but you have the base toast color coming"
+    },
+    {
+      "start": 533.92,
+      "duration": 4.24,
+      "text": "in and I've set them all up with okay"
+    },
+    {
+      "start": 535.839,
+      "duration": 4.161,
+      "text": "LCH here uh instead. the border I just"
+    },
+    {
+      "start": 538.16,
+      "duration": 4.4,
+      "text": "set with the the base color like I said"
+    },
+    {
+      "start": 540,
+      "duration": 4.32,
+      "text": "we could do uh if it's staying the same."
+    },
+    {
+      "start": 542.56,
+      "duration": 3.44,
+      "text": "Uh but one thing you'll notice here"
+    },
+    {
+      "start": 544.32,
+      "duration": 4.959,
+      "text": "there's two important things is if I'm"
+    },
+    {
+      "start": 546,
+      "duration": 6.24,
+      "text": "doing okay LCH on the outside here I do"
+    },
+    {
+      "start": 549.279,
+      "duration": 5.361,
+      "text": "I do need to use the LCH values. So LCH"
+    },
+    {
+      "start": 552.24,
+      "duration": 5.84,
+      "text": "instead of an HSL and the lightness"
+    },
+    {
+      "start": 554.64,
+      "duration": 5.04,
+      "text": "being the first one now. Uh and I've"
+    },
+    {
+      "start": 558.08,
+      "duration": 3.12,
+      "text": "done a little bit of extra math in here"
+    },
+    {
+      "start": 559.68,
+      "duration": 4.32,
+      "text": "for the background color to change the"
+    },
+    {
+      "start": 561.2,
+      "duration": 4.639,
+      "text": "chroma a little bit. Um, but you can see"
+    },
+    {
+      "start": 564,
+      "duration": 3.839,
+      "text": "there's a little bit more consistency"
+    },
+    {
+      "start": 565.839,
+      "duration": 4.721,
+      "text": "between the colors coming in when I'm"
+    },
+    {
+      "start": 567.839,
+      "duration": 6.721,
+      "text": "using the OKLCH versus using the HSL"
+    },
+    {
+      "start": 570.56,
+      "duration": 6.24,
+      "text": "here with the the border color is"
+    },
+    {
+      "start": 574.56,
+      "duration": 3.92,
+      "text": "perceptually looks similar. The vibrancy"
+    },
+    {
+      "start": 576.8,
+      "duration": 3.12,
+      "text": "of the color of the background looks"
+    },
+    {
+      "start": 578.48,
+      "duration": 4,
+      "text": "much more similar. Whereas here, like"
+    },
+    {
+      "start": 579.92,
+      "duration": 4.64,
+      "text": "the difference in the border color,"
+    },
+    {
+      "start": 582.48,
+      "duration": 3.68,
+      "text": "especially I find with this one uh"
+    },
+    {
+      "start": 584.56,
+      "duration": 3.2,
+      "text": "coming through, the border looks much"
+    },
+    {
+      "start": 586.16,
+      "duration": 3.679,
+      "text": "more faded out compared to the blue,"
+    },
+    {
+      "start": 587.76,
+      "duration": 4,
+      "text": "which one is popping so much more when"
+    },
+    {
+      "start": 589.839,
+      "duration": 3.921,
+      "text": "I'm using the HSL. It's not something"
+    },
+    {
+      "start": 591.76,
+      "duration": 4.56,
+      "text": "that a lot of users are going to notice."
+    },
+    {
+      "start": 593.76,
+      "duration": 4.96,
+      "text": "But by using OKLCH, even though my base"
+    },
+    {
+      "start": 596.32,
+      "duration": 4,
+      "text": "color is set to an HSL or whatever, you"
+    },
+    {
+      "start": 598.72,
+      "duration": 4.88,
+      "text": "know, hex or RGB, it doesn't really"
+    },
+    {
+      "start": 600.32,
+      "duration": 5.44,
+      "text": "matter. By using the OKLCH throughout"
+    },
+    {
+      "start": 603.6,
+      "duration": 4.56,
+      "text": "and having my toast colors all set"
+    },
+    {
+      "start": 605.76,
+      "duration": 4.88,
+      "text": "through an OKLCH rather than using an"
+    },
+    {
+      "start": 608.16,
+      "duration": 4.88,
+      "text": "HSL and modifying it that way, you just"
+    },
+    {
+      "start": 610.64,
+      "duration": 3.84,
+      "text": "get a little bit more uh consistency"
+    },
+    {
+      "start": 613.04,
+      "duration": 2.96,
+      "text": "between the different colors that are"
+    },
+    {
+      "start": 614.48,
+      "duration": 2.96,
+      "text": "being generated for you. So if you"
+    },
+    {
+      "start": 616,
+      "duration": 3.839,
+      "text": "enjoyed this video, if you do want a bit"
+    },
+    {
+      "start": 617.44,
+      "duration": 4.079,
+      "text": "of a primer on the uh space separated"
+    },
+    {
+      "start": 619.839,
+      "duration": 3.041,
+      "text": "syntax like I mentioned, that video"
+    },
+    {
+      "start": 621.519,
+      "duration": 3.76,
+      "text": "should be showing up on the screen"
+    },
+    {
+      "start": 622.88,
+      "duration": 4.399,
+      "text": "somewhere right now. And also if you"
+    },
+    {
+      "start": 625.279,
+      "duration": 3.841,
+      "text": "want to dive deeper into all of this, do"
+    },
+    {
+      "start": 627.279,
+      "duration": 3.841,
+      "text": "go and check out those two PLY articles"
+    },
+    {
+      "start": 629.12,
+      "duration": 3.04,
+      "text": "and maybe their courses as well. And"
+    },
+    {
+      "start": 631.12,
+      "duration": 2.64,
+      "text": "with that, I would like to thank my"
+    },
+    {
+      "start": 632.16,
+      "duration": 3.2,
+      "text": "enabler of awesome, Johnny, as well as"
+    },
+    {
+      "start": 633.76,
+      "duration": 2.8,
+      "text": "all my other patrons and channel members"
+    },
+    {
+      "start": 635.36,
+      "duration": 2.56,
+      "text": "for their monthly support. And of"
+    },
+    {
+      "start": 636.56,
+      "duration": 2.719,
+      "text": "course, until next time, don't forget to"
+    },
+    {
+      "start": 637.92,
+      "duration": 4.479,
+      "text": "make your corner of the internet just a"
+    },
+    {
+      "start": 639.279,
+      "duration": 3.12,
+      "text": "little bit more awesome."
+    }
+  ],
+  "fullText": "Hi there, my friend and friend. If you're maintaining separate variables for lighter, darker, and transparent versions of the same color, there's a much better way to work because of CSS relative colors that let us generate all of these variations based on a single value. Let's dive in and see how this works. I got a demo set up for us right here. Uh, and we can take a look. So, you can see I have some variables set up and I have some I'm using toast notifications for this cuz I think it's a nice example of something where we can have multiple variations of this as well. and we can look at how we're saving a lot of time. So, the very first thing I'm going to do is let's come in and sort of style the generic one and then we'll sort of fancy things up uh from there. And really quickly there, I just made the font size bigger cuz I think it would look better for our demo. Uh so here, let's set things up where I'm going to come in and we're just going to come in on this to start with and do a I call it toast color. Uh and and put a color here. And I'm going to use the base color for now. So, we're going to say it's our var of base color. And this is going to help us a little bit out. Uh uh just base like that. This will help us out a little bit later on. This could be a step that we do later. It could even be a step that you skip if this is something that you're only doing one thing of and you don't need a bunch of variations like we're going to have here. Now, next up, I'm going to do something looks a little bit weird cuz I'm going to say we're a color. I'm going to do an HSL from and this is relative colors and I'll explain the syntax of this as we write it out. I'm going to say var toast color and then I'm going hsl and nothing really should change actually. Uh and I need a semicolon at the end. And as you can see, not nothing really much has changed. But what we're saying is the color is an HSL value that is coming from the toast color. And this H and S and L are just placeholders for the hue, saturation, and lightness. And we'll see why that's important in a minute. Uh just so we can see quickly that this is working. If I change this over to my info, we're going to see that the color of the text and the border has changed on all of them. The reason the border color is currently changing is because my border is set to two pixels solid. I haven't declared a color and borders by default will follow the color of the text. Uh but for now, I'm going to keep this one as my base and we'll come in with the modifications for the the other ones as we go through. Now, where this gets a little bit more useful is let's come in with a background color. So background color I'm going to put this on a different line just so it we can keep it all without any uh horizontal scrolling. I'm going to say hsl from same thing my var of toast. You got to spell toast right toast color and space h space s space l except this time if I do that I can't read my text but I want it to always be based on the color of the text. I can just come here and actually change the lightness value. So I can actually say this is at like 15%. Except that's going to be really uh dark. I meant to say something like 85% and go the other way around. And we can have a the exact same color but 85%. And maybe even we can come up to a 90 here. Something like that. But we're getting that a little bit of that same color coming in in the background now. And this is cool, right? We're just replacing whatever the lightness was with it being 90% now in our HSL. And just for fun, we can also take this to another level. Uh and we can add like a box shadow here as well. So, I'm going to actually move we'll do the box shadow here. Uh, box shadow. And again, I'll do this on two lines just so we can see the the entire declaration. And let's come in with zero offset, maybe 12 pixels, 12 pixels. I'm going to leave it big for now. Like, it really is standing out obviously, but then we can come in with, and this is another really cool thing, um, with our relative colors. So, HSL from var toast color and my H, my S, my L. Except in this case, it's really dark and I go, \"Oh man, I need a shadow, but I want to lower the opacity of it.\" We can do that with relative colors, which is amazing. So, I just do a forward slash here cuz this is the way the uh spaceepparated syntax works in CSS. If you'd like to learn more about that, I'll I talked about it last week. I'll put a link in the description. Uh, and there might be a card popping up. You can check that one out and I'll remind you at the end. Uh, but I can just come here and say something like 0.25 or whatever I want for the lowered opacity of that same color. Uh, and you can see that's working. I want to make this a bit more subtle. So, I'm also going to give it a spread of8 just to pull it in a little bit. Just give us a little subtle shadow underneath each one of those cards or toasts or whatever we want to call them. Awesome. So, that's all working. Now, this is where the other cool thing comes in here. Uh, is I have my info, my warning, and my uh error here. And I'm just doing these with data attributes cuz this would be the easiest way to do it with JavaScript. Uh especially if you're, you know, instead of using a class here, I think it makes a lot more sense to do it with a data attribute because if you're setting it with JavaScript, you just set it. You don't have to worry about removing the info to put a warning or you you just say if it's this one, the text is going to be coming in probably from JavaScript as well. The whole thing is going to be triggered with JavaScript. And you just do the data what toast is equal to uh and you style it that way. So let's come down here and we'll start with the first one where we can say the data toast is equal to info. And because I was set this up with a custom property of toast color, we can just come here and say in this case my toast color is my Did I call it info? Yeah, I did. Look at that. There we go. So my info comes in. Now there's a bit of a problem here. We're going to solve that in a second. But let's come in with all three of them. So that's my info. And the last one uh will be so info I forget what I called them warning and error. So uh these two that's a warning and then I can come on this one and say those are error and all the colors are coming in and it's it's looking pretty cool that we can do all of this with a single color and everything is adapting automatically. There's one problem that's coming in is like the text might be a little bit hard to read depending on what color you're using. especially like I don't know. I guess this one's okay, but we could definitely make it better. So, what I'm going to do is come back up to where we declared all of this. And over here, I want this color to actually always be dark no matter what value I'm using. So, maybe I come in with a 20% here for the lightness on the color. And then it's going to be, you know, based on the red or based on that orangey yellow, but I know it's always going to be darker. Now, my borders have sort of gotten darker, too. Well, we just do the same thing for the border where I never actually declared one. I'm just going to copy and paste to speed things up. And this one, we'll just use the original HSL. And I guess I could, if you're not changing the value, you could just do the vartos color and not worry about it. Uh, and that would work. But, uh, this just opens up some extra doors, I think. So, we have the border color always coming in with sort of the more bright vibrant version. Uh, and then the text we can darken. Maybe 20 is a bit low. We could try like a 35. You can play with the number uh that you want on that to just make sure that it's always something that's decently readable. But we can do better. And before I let you know how we can do better, I just want to let you know that this video is inspired by an article or two articles actually that I wrote for Piccoly. And so I'm going to link to both of those down below. They're the pragmatic guide to modern colors in CSS I think is what we called it. Uh there's two articles in there. First one is really for people who are copying pasting colors. The second one is going a little bit further uh and diving into a lot more of the manipulations and other things that you can do. And just, you know, we're talking about Piccolilly. Uh people have been asking me for JavaScript content for a long time. They do have a relatively new course called JavaScript for everyone. And so if you're somebody who's looking to learn more about JavaScript, I definitely would recommend going to check it out. And no, this is not a sponsored bit. I just like spreading the word on good quality content that is out there. So check out the course, check out those articles if you're interested. But now let's look at the other improvement that we can make to this uh which is while I have all of these set up using HSL RGB hex you know your copy pasting from your design software whatever it is and you're setting these here when using relative colors you can often get a little bit of a better result by using OKLCH and OKLCH is a newer it's like it's like HSL just came around more recently but the difference between HSL and OKLCH is as you go through the different hues, it works in a much more consistent way. So, what I mean by that really quickly is looking at this demo, I've set these both up with uh OKLCH and HSL. And if I go through the different hues, as you get to here, you can see like this text becomes harder to read. And it really depends on the color that we're using. When you get to yellows, it gets much visually it gets a lot brighter even though the saturation and the lightness values have stayed the same. And the whole point of the okay or not okay LCH but the whole point of LCH in general is to keep that consistency as you're going through the different hues in terms of the perception of the the brightness of the colors. And so here's an example of looking at the differences between using I've set these up exactly the same way. I just took away the the gray one. Um but you have the base toast color coming in and I've set them all up with okay LCH here uh instead. the border I just set with the the base color like I said we could do uh if it's staying the same. Uh but one thing you'll notice here there's two important things is if I'm doing okay LCH on the outside here I do I do need to use the LCH values. So LCH instead of an HSL and the lightness being the first one now. Uh and I've done a little bit of extra math in here for the background color to change the chroma a little bit. Um, but you can see there's a little bit more consistency between the colors coming in when I'm using the OKLCH versus using the HSL here with the the border color is perceptually looks similar. The vibrancy of the color of the background looks much more similar. Whereas here, like the difference in the border color, especially I find with this one uh coming through, the border looks much more faded out compared to the blue, which one is popping so much more when I'm using the HSL. It's not something that a lot of users are going to notice. But by using OKLCH, even though my base color is set to an HSL or whatever, you know, hex or RGB, it doesn't really matter. By using the OKLCH throughout and having my toast colors all set through an OKLCH rather than using an HSL and modifying it that way, you just get a little bit more uh consistency between the different colors that are being generated for you. So if you enjoyed this video, if you do want a bit of a primer on the uh space separated syntax like I mentioned, that video should be showing up on the screen somewhere right now. And also if you want to dive deeper into all of this, do go and check out those two PLY articles and maybe their courses as well. And with that, I would like to thank my enabler of awesome, Johnny, as well as all my other patrons and channel members for their monthly support. And of course, until next time, don't forget to make your corner of the internet just a little bit more awesome.",
+  "fetchedAt": "2026-01-26T07:31:16.983Z"
+}

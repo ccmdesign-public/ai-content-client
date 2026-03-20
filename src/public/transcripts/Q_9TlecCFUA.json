@@ -1,0 +1,1329 @@
+{
+  "videoId": "Q_9TlecCFUA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 2.4,
+      "text": "In this quick video, I'm going to show"
+    },
+    {
+      "start": 1.199,
+      "duration": 3.361,
+      "text": "you how I can now chain together"
+    },
+    {
+      "start": 2.48,
+      "duration": 4.399,
+      "text": "multiple MCB servers and skills to"
+    },
+    {
+      "start": 4.56,
+      "duration": 4.48,
+      "text": "complete a full productivity workflow in"
+    },
+    {
+      "start": 6.879,
+      "duration": 3.76,
+      "text": "a single chat in a single context"
+    },
+    {
+      "start": 9.04,
+      "duration": 3.36,
+      "text": "window. And this is a realworld"
+    },
+    {
+      "start": 10.639,
+      "duration": 3.92,
+      "text": "productivity workflow that saves me at"
+    },
+    {
+      "start": 12.4,
+      "duration": 4.16,
+      "text": "least an hour per day. I will be demoing"
+    },
+    {
+      "start": 14.559,
+      "duration": 4.161,
+      "text": "my consulting call follow-up master"
+    },
+    {
+      "start": 16.56,
+      "duration": 3.6,
+      "text": "skill and claw desktop. But this formula"
+    },
+    {
+      "start": 18.72,
+      "duration": 3.92,
+      "text": "which is comprised of a master"
+    },
+    {
+      "start": 20.16,
+      "duration": 4.72,
+      "text": "orchestration skill, atomic task skills,"
+    },
+    {
+      "start": 22.64,
+      "duration": 3.76,
+      "text": "remote MCP servers, and MCP support"
+    },
+    {
+      "start": 24.88,
+      "duration": 3.12,
+      "text": "skills works also in development"
+    },
+    {
+      "start": 26.4,
+      "duration": 3.68,
+      "text": "environments. Any client that supports"
+    },
+    {
+      "start": 28,
+      "duration": 4,
+      "text": "MCP and skills. And the point of this"
+    },
+    {
+      "start": 30.08,
+      "duration": 4.08,
+      "text": "video is twofold. One, you don't need to"
+    },
+    {
+      "start": 32,
+      "duration": 3.2,
+      "text": "download other people's MCPS and skills."
+    },
+    {
+      "start": 34.16,
+      "duration": 2.88,
+      "text": "You can actually build them really"
+    },
+    {
+      "start": 35.2,
+      "duration": 4,
+      "text": "easily and customize them for your own"
+    },
+    {
+      "start": 37.04,
+      "duration": 3.44,
+      "text": "tasks that you do daily. It's really not"
+    },
+    {
+      "start": 39.2,
+      "duration": 2.64,
+      "text": "that hard. Number two point of this"
+    },
+    {
+      "start": 40.48,
+      "duration": 2.96,
+      "text": "video is showing you how much of a"
+    },
+    {
+      "start": 41.84,
+      "duration": 3.76,
+      "text": "difference it's made that Anthropic has"
+    },
+    {
+      "start": 43.44,
+      "duration": 3.84,
+      "text": "now added lazy loading of MCB servers."
+    },
+    {
+      "start": 45.6,
+      "duration": 3.439,
+      "text": "They added in cloud code and they added"
+    },
+    {
+      "start": 47.28,
+      "duration": 3.04,
+      "text": "in cloud desktop. And what this means is"
+    },
+    {
+      "start": 49.039,
+      "duration": 3.04,
+      "text": "we don't have to worry about context"
+    },
+    {
+      "start": 50.32,
+      "duration": 2.8,
+      "text": "bloat for MCP servers anymore. One of"
+    },
+    {
+      "start": 52.079,
+      "duration": 2.8,
+      "text": "the biggest problems with adding"
+    },
+    {
+      "start": 53.12,
+      "duration": 3.279,
+      "text": "multiple MCB servers was all the tool"
+    },
+    {
+      "start": 54.879,
+      "duration": 3.281,
+      "text": "definitions, the descriptions would"
+    },
+    {
+      "start": 56.399,
+      "duration": 3.281,
+      "text": "bloat the context even before we start a"
+    },
+    {
+      "start": 58.16,
+      "duration": 3.12,
+      "text": "conversation. But that's not the case"
+    },
+    {
+      "start": 59.68,
+      "duration": 4,
+      "text": "anymore. I'm able to do this whole"
+    },
+    {
+      "start": 61.28,
+      "duration": 4.4,
+      "text": "workflow in one single chat with"
+    },
+    {
+      "start": 63.68,
+      "duration": 3.84,
+      "text": "multiple MCPs and multiple skills"
+    },
+    {
+      "start": 65.68,
+      "duration": 3.6,
+      "text": "because it uses tool search and"
+    },
+    {
+      "start": 67.52,
+      "duration": 3.2,
+      "text": "progressive disclosure. It doesn't load"
+    },
+    {
+      "start": 69.28,
+      "duration": 2.96,
+      "text": "anything into context that it doesn't"
+    },
+    {
+      "start": 70.72,
+      "duration": 2.96,
+      "text": "need. So, enough talking. Let me explain"
+    },
+    {
+      "start": 72.24,
+      "duration": 2.72,
+      "text": "to you the use case, show you the"
+    },
+    {
+      "start": 73.68,
+      "duration": 3.28,
+      "text": "building blocks, and then show you it"
+    },
+    {
+      "start": 74.96,
+      "duration": 3.519,
+      "text": "all in action. So, here's the context."
+    },
+    {
+      "start": 76.96,
+      "duration": 2.96,
+      "text": "Among other things, I do remote"
+    },
+    {
+      "start": 78.479,
+      "duration": 2.801,
+      "text": "consulting. And once I finish a"
+    },
+    {
+      "start": 79.92,
+      "duration": 2.96,
+      "text": "discovery call with a prospective"
+    },
+    {
+      "start": 81.28,
+      "duration": 3.44,
+      "text": "client, there are several repeatable"
+    },
+    {
+      "start": 82.88,
+      "duration": 3.44,
+      "text": "mundane tasks that I need to do for"
+    },
+    {
+      "start": 84.72,
+      "duration": 3.759,
+      "text": "client intake, like consolidate my"
+    },
+    {
+      "start": 86.32,
+      "duration": 3.92,
+      "text": "notes, make a plan, send them a payment"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.28,
+      "text": "link, send them a calendar link,"
+    },
+    {
+      "start": 90.24,
+      "duration": 3.76,
+      "text": "generate a letter of engagement, and the"
+    },
+    {
+      "start": 91.759,
+      "duration": 4,
+      "text": "list goes on. And since every client is"
+    },
+    {
+      "start": 94,
+      "duration": 3.52,
+      "text": "different, all these tasks need"
+    },
+    {
+      "start": 95.759,
+      "duration": 3.281,
+      "text": "customization. It's not just a simple"
+    },
+    {
+      "start": 97.52,
+      "duration": 2.88,
+      "text": "template. Do they want a one-off call?"
+    },
+    {
+      "start": 99.04,
+      "duration": 2.96,
+      "text": "Do they want a bundle? Are we in the"
+    },
+    {
+      "start": 100.4,
+      "duration": 3.359,
+      "text": "same time zone? What's the start date,"
+    },
+    {
+      "start": 102,
+      "duration": 3.36,
+      "text": "the price? What's the scope? Where do I"
+    },
+    {
+      "start": 103.759,
+      "duration": 3.201,
+      "text": "need to modify the contract or any"
+    },
+    {
+      "start": 105.36,
+      "duration": 3.439,
+      "text": "documentation? And these tasks are"
+    },
+    {
+      "start": 106.96,
+      "duration": 3.68,
+      "text": "repeatable but tedious and often takes"
+    },
+    {
+      "start": 108.799,
+      "duration": 3.521,
+      "text": "me at least an hour per client. So I"
+    },
+    {
+      "start": 110.64,
+      "duration": 3.68,
+      "text": "built some custom MCB servers and"
+    },
+    {
+      "start": 112.32,
+      "duration": 4.079,
+      "text": "connected some official MCB servers. I"
+    },
+    {
+      "start": 114.32,
+      "duration": 3.839,
+      "text": "wrote specific skills for each MCB"
+    },
+    {
+      "start": 116.399,
+      "duration": 4,
+      "text": "server and then I built a master skill"
+    },
+    {
+      "start": 118.159,
+      "duration": 3.761,
+      "text": "that orchestrates all the skills and MCB"
+    },
+    {
+      "start": 120.399,
+      "duration": 3.04,
+      "text": "servers. It checks in with me along the"
+    },
+    {
+      "start": 121.92,
+      "duration": 2.96,
+      "text": "way and shows me previews so I know that"
+    },
+    {
+      "start": 123.439,
+      "duration": 3.121,
+      "text": "everything is kosher and essentially"
+    },
+    {
+      "start": 124.88,
+      "duration": 3.2,
+      "text": "takes this hourong process and does it"
+    },
+    {
+      "start": 126.56,
+      "duration": 2.72,
+      "text": "all in a matter of minutes. Let me just"
+    },
+    {
+      "start": 128.08,
+      "duration": 2.64,
+      "text": "show you what I'm working with. So if we"
+    },
+    {
+      "start": 129.28,
+      "duration": 3.52,
+      "text": "open up cloud desktop and go to"
+    },
+    {
+      "start": 130.72,
+      "duration": 5.28,
+      "text": "connectors, we see Gmail search, Bright"
+    },
+    {
+      "start": 132.8,
+      "duration": 4.72,
+      "text": "Data, Fireflies, mycal.com, notion, and"
+    },
+    {
+      "start": 136,
+      "duration": 3.2,
+      "text": "stripe. This is all I need. And what's"
+    },
+    {
+      "start": 137.52,
+      "duration": 3.6,
+      "text": "great about it is all of these are"
+    },
+    {
+      "start": 139.2,
+      "duration": 3.119,
+      "text": "remote MCB servers, meaning I can do"
+    },
+    {
+      "start": 141.12,
+      "duration": 2.479,
+      "text": "this from anywhere. I don't need to be"
+    },
+    {
+      "start": 142.319,
+      "duration": 3.041,
+      "text": "on my computer anymore. I can do this"
+    },
+    {
+      "start": 143.599,
+      "duration": 3.521,
+      "text": "from my phone. This all happens on the"
+    },
+    {
+      "start": 145.36,
+      "duration": 3.92,
+      "text": "cloud. It uses Gmail search to get"
+    },
+    {
+      "start": 147.12,
+      "duration": 4.08,
+      "text": "context for my emails. Fireflies is"
+    },
+    {
+      "start": 149.28,
+      "duration": 3.76,
+      "text": "connected to my Zoom. It transcribes the"
+    },
+    {
+      "start": 151.2,
+      "duration": 3.52,
+      "text": "whole conversation. So then I can later"
+    },
+    {
+      "start": 153.04,
+      "duration": 3.76,
+      "text": "feed that back to Claude and get more"
+    },
+    {
+      "start": 154.72,
+      "duration": 4,
+      "text": "context from the conversation. Calcom is"
+    },
+    {
+      "start": 156.8,
+      "duration": 3.28,
+      "text": "the only unofficial MTB server here. I"
+    },
+    {
+      "start": 158.72,
+      "duration": 2.879,
+      "text": "built this one myself because there"
+    },
+    {
+      "start": 160.08,
+      "duration": 3.12,
+      "text": "wasn't an official one and I wanted to"
+    },
+    {
+      "start": 161.599,
+      "duration": 3.36,
+      "text": "customize it for my workflow. Then we"
+    },
+    {
+      "start": 163.2,
+      "duration": 3.28,
+      "text": "have NAND and notion. And then I use"
+    },
+    {
+      "start": 164.959,
+      "duration": 3.441,
+      "text": "Stripe for invoicing for my payment"
+    },
+    {
+      "start": 166.48,
+      "duration": 3.68,
+      "text": "links. Okay, so now let's look at all my"
+    },
+    {
+      "start": 168.4,
+      "duration": 3.919,
+      "text": "skills. So we go to settings,"
+    },
+    {
+      "start": 170.16,
+      "duration": 4,
+      "text": "capabilities. I iterate on these a lot"
+    },
+    {
+      "start": 172.319,
+      "duration": 3.521,
+      "text": "in cloud desktop and in cloud code."
+    },
+    {
+      "start": 174.16,
+      "duration": 3.359,
+      "text": "Sometimes I overwrite them, sometimes I"
+    },
+    {
+      "start": 175.84,
+      "duration": 3.759,
+      "text": "just rewrite them. Here's the sponsor"
+    },
+    {
+      "start": 177.519,
+      "duration": 3.601,
+      "text": "veter skill. Here's the LOE generator."
+    },
+    {
+      "start": 179.599,
+      "duration": 3.441,
+      "text": "This one writes a letter of engagement."
+    },
+    {
+      "start": 181.12,
+      "duration": 4.64,
+      "text": "It doesn't even need an MCP server."
+    },
+    {
+      "start": 183.04,
+      "duration": 4.479,
+      "text": "Here's my cal.com MCP support skill. my"
+    },
+    {
+      "start": 185.76,
+      "duration": 4,
+      "text": "Stripe payment skill and the new and"
+    },
+    {
+      "start": 187.519,
+      "duration": 3.761,
+      "text": "improved post call follow-up V2 skill."
+    },
+    {
+      "start": 189.76,
+      "duration": 2.72,
+      "text": "So, if we just click into that, I just"
+    },
+    {
+      "start": 191.28,
+      "duration": 3.039,
+      "text": "want to show you the beginning of it."
+    },
+    {
+      "start": 192.48,
+      "duration": 3.44,
+      "text": "Generate follow-up email and LOE"
+    },
+    {
+      "start": 194.319,
+      "duration": 3.521,
+      "text": "generation, Stripe payment leaks,"
+    },
+    {
+      "start": 195.92,
+      "duration": 3.76,
+      "text": "cal.com scheduling. And the workflow is"
+    },
+    {
+      "start": 197.84,
+      "duration": 3.44,
+      "text": "really cool. It starts by asking for"
+    },
+    {
+      "start": 199.68,
+      "duration": 3.12,
+      "text": "context. Where should I get my context"
+    },
+    {
+      "start": 201.28,
+      "duration": 2.959,
+      "text": "for this follow-up? And I'll often use"
+    },
+    {
+      "start": 202.8,
+      "duration": 3.6,
+      "text": "all of them. Fireflies for the"
+    },
+    {
+      "start": 204.239,
+      "duration": 4.08,
+      "text": "transcript, Gmail for more context, and"
+    },
+    {
+      "start": 206.4,
+      "duration": 3.04,
+      "text": "then I often give it more manual context"
+    },
+    {
+      "start": 208.319,
+      "duration": 3.361,
+      "text": "from things I understood from the"
+    },
+    {
+      "start": 209.44,
+      "duration": 3.76,
+      "text": "conversation or offline non-documented"
+    },
+    {
+      "start": 211.68,
+      "duration": 2.96,
+      "text": "conversations. or I tell it to look at"
+    },
+    {
+      "start": 213.2,
+      "duration": 2.959,
+      "text": "my CRM that already has some data"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.36,
+      "text": "enrichment. And then based on all that"
+    },
+    {
+      "start": 216.159,
+      "duration": 3.761,
+      "text": "context, it takes the client name, their"
+    },
+    {
+      "start": 218,
+      "duration": 4.08,
+      "text": "email, the pricing discussed, if it's"
+    },
+    {
+      "start": 219.92,
+      "duration": 4,
+      "text": "hourly, a bundle or a package, the"
+    },
+    {
+      "start": 222.08,
+      "duration": 3.519,
+      "text": "potential start date, the key topics,"
+    },
+    {
+      "start": 223.92,
+      "duration": 4.08,
+      "text": "the pain points, and then the specific"
+    },
+    {
+      "start": 225.599,
+      "duration": 3.761,
+      "text": "asks or next steps. And then along the"
+    },
+    {
+      "start": 228,
+      "duration": 3.12,
+      "text": "way, I have all these checkpoints where"
+    },
+    {
+      "start": 229.36,
+      "duration": 3.68,
+      "text": "it either shows me what it's doing or"
+    },
+    {
+      "start": 231.12,
+      "duration": 2.88,
+      "text": "asks me clarifying questions because I"
+    },
+    {
+      "start": 233.04,
+      "duration": 2.08,
+      "text": "always want to make sure that has the"
+    },
+    {
+      "start": 234,
+      "duration": 2.64,
+      "text": "right context. It doesn't make"
+    },
+    {
+      "start": 235.12,
+      "duration": 3.199,
+      "text": "assumptions. Here we see the step four"
+    },
+    {
+      "start": 236.64,
+      "duration": 3.76,
+      "text": "checkpoint. Confirm details. Here's what"
+    },
+    {
+      "start": 238.319,
+      "duration": 3.441,
+      "text": "I gathered. Confirm or correct. And then"
+    },
+    {
+      "start": 240.4,
+      "duration": 3.52,
+      "text": "after I confirm all that and we'll call"
+    },
+    {
+      "start": 241.76,
+      "duration": 4,
+      "text": "the LOE generator skill with the client"
+    },
+    {
+      "start": 243.92,
+      "duration": 3.36,
+      "text": "name, the document date, all the stuff"
+    },
+    {
+      "start": 245.76,
+      "duration": 2.8,
+      "text": "we just clarify. Okay, so now I showed"
+    },
+    {
+      "start": 247.28,
+      "duration": 3.039,
+      "text": "you all the building blocks. Let's see"
+    },
+    {
+      "start": 248.56,
+      "duration": 3.2,
+      "text": "it in action. I'm not going to use real"
+    },
+    {
+      "start": 250.319,
+      "duration": 3.041,
+      "text": "client data. I'm just going to give it"
+    },
+    {
+      "start": 251.76,
+      "duration": 3.119,
+      "text": "context manually. So you'll be able to"
+    },
+    {
+      "start": 253.36,
+      "duration": 3.2,
+      "text": "see the whole workflow in action. Keep"
+    },
+    {
+      "start": 254.879,
+      "duration": 4.001,
+      "text": "in mind that I will usually also look at"
+    },
+    {
+      "start": 256.56,
+      "duration": 4.079,
+      "text": "Fireflies, Gmail, and the CRM. So here's"
+    },
+    {
+      "start": 258.88,
+      "duration": 4.24,
+      "text": "the prompt. Use the post call follow-up"
+    },
+    {
+      "start": 260.639,
+      "duration": 4.801,
+      "text": "skill V2 for my recent call with Leroy"
+    },
+    {
+      "start": 263.12,
+      "duration": 3.6,
+      "text": "Jenkins. Here's Leroy's email. Leroy is"
+    },
+    {
+      "start": 265.44,
+      "duration": 2.88,
+      "text": "working on an app to help sell"
+    },
+    {
+      "start": 266.72,
+      "duration": 3.68,
+      "text": "beachfront real estate to ICE employees"
+    },
+    {
+      "start": 268.32,
+      "duration": 3.599,
+      "text": "in Greenland using AI, cryptocurrency,"
+    },
+    {
+      "start": 270.4,
+      "duration": 2.799,
+      "text": "and init. He wants to know how to"
+    },
+    {
+      "start": 271.919,
+      "duration": 3.441,
+      "text": "improve his workflow with tools like"
+    },
+    {
+      "start": 273.199,
+      "duration": 4,
+      "text": "Cloud Skills, Cloud Hooks, and Get Work"
+    },
+    {
+      "start": 275.36,
+      "duration": 3.92,
+      "text": "Trees. He wants to book a five call"
+    },
+    {
+      "start": 277.199,
+      "duration": 4.401,
+      "text": "remote bundle for $3,000 starting on"
+    },
+    {
+      "start": 279.28,
+      "duration": 3.919,
+      "text": "January 21st once a week for the next 5"
+    },
+    {
+      "start": 281.6,
+      "duration": 3.68,
+      "text": "weeks. I will be on the West Coast for"
+    },
+    {
+      "start": 283.199,
+      "duration": 3.921,
+      "text": "the next 5 weeks. Leroy is in Denmark."
+    },
+    {
+      "start": 285.28,
+      "duration": 3.199,
+      "text": "Use the 1-hour call for the paid West"
+    },
+    {
+      "start": 287.12,
+      "duration": 2.56,
+      "text": "Coast schedule. And we're just going to"
+    },
+    {
+      "start": 288.479,
+      "duration": 2.321,
+      "text": "send it off like this. So, the first"
+    },
+    {
+      "start": 289.68,
+      "duration": 2.959,
+      "text": "thing it's doing is reading the post"
+    },
+    {
+      "start": 290.8,
+      "duration": 3.679,
+      "text": "call follow-up V2 skill to understand"
+    },
+    {
+      "start": 292.639,
+      "duration": 3.601,
+      "text": "the workflow. Then it's reading the LOE"
+    },
+    {
+      "start": 294.479,
+      "duration": 3.841,
+      "text": "generator skill. Then it's checking my"
+    },
+    {
+      "start": 296.24,
+      "duration": 3.6,
+      "text": "cal.com event types. And then before"
+    },
+    {
+      "start": 298.32,
+      "duration": 3.36,
+      "text": "proceeding, it's confirming all the"
+    },
+    {
+      "start": 299.84,
+      "duration": 4,
+      "text": "details with me. The client name, his"
+    },
+    {
+      "start": 301.68,
+      "duration": 4.799,
+      "text": "email, details about the project, key"
+    },
+    {
+      "start": 303.84,
+      "duration": 4.72,
+      "text": "topics, the pricing, the start date, my"
+    },
+    {
+      "start": 306.479,
+      "duration": 3.601,
+      "text": "location, Leroyy's location, and the"
+    },
+    {
+      "start": 308.56,
+      "duration": 3.199,
+      "text": "schedule I wanted to use. Now, it's"
+    },
+    {
+      "start": 310.08,
+      "duration": 3.36,
+      "text": "asking me some clarifying questions. So,"
+    },
+    {
+      "start": 311.759,
+      "duration": 3.681,
+      "text": "I'm just going to answer yes, generate"
+    },
+    {
+      "start": 313.44,
+      "duration": 4.479,
+      "text": "an LOE for this bundle. For the payment"
+    },
+    {
+      "start": 315.44,
+      "duration": 4.24,
+      "text": "handling, generate a separate Stripe"
+    },
+    {
+      "start": 317.919,
+      "duration": 3.921,
+      "text": "link. Okay, so it created the letter of"
+    },
+    {
+      "start": 319.68,
+      "duration": 3.68,
+      "text": "engagement. It converted it to a PDF."
+    },
+    {
+      "start": 321.84,
+      "duration": 2.88,
+      "text": "Now it's moving on to the Stripe link,"
+    },
+    {
+      "start": 323.36,
+      "duration": 3.119,
+      "text": "but now it's using the checkpoints"
+    },
+    {
+      "start": 324.72,
+      "duration": 3.36,
+      "text": "because Stripe is sensitive because it"
+    },
+    {
+      "start": 326.479,
+      "duration": 3.121,
+      "text": "touches my bottom line. I have it"
+    },
+    {
+      "start": 328.08,
+      "duration": 3.76,
+      "text": "confirmed the details and I also gave"
+    },
+    {
+      "start": 329.6,
+      "duration": 4.4,
+      "text": "the MCP very strict permissions. So now"
+    },
+    {
+      "start": 331.84,
+      "duration": 3.919,
+      "text": "I created the LOE, the payment link, and"
+    },
+    {
+      "start": 334,
+      "duration": 3.68,
+      "text": "the Calcom scheduling link. The next"
+    },
+    {
+      "start": 335.759,
+      "duration": 3.681,
+      "text": "step is drafting me the email. And I'll"
+    },
+    {
+      "start": 337.68,
+      "duration": 3.28,
+      "text": "often work on the email myself, but the"
+    },
+    {
+      "start": 339.44,
+      "duration": 3.12,
+      "text": "point is to look at hundreds of previous"
+    },
+    {
+      "start": 340.96,
+      "duration": 3.44,
+      "text": "emails that I wrote to get my writing"
+    },
+    {
+      "start": 342.56,
+      "duration": 3.68,
+      "text": "style so it doesn't sound AI generated"
+    },
+    {
+      "start": 344.4,
+      "duration": 3.44,
+      "text": "and generic. has the payment link here,"
+    },
+    {
+      "start": 346.24,
+      "duration": 3.2,
+      "text": "the scheduling link here, and then what"
+    },
+    {
+      "start": 347.84,
+      "duration": 3.6,
+      "text": "I often do is just copy and paste this"
+    },
+    {
+      "start": 349.44,
+      "duration": 3.52,
+      "text": "into Gmail. Iterate on it, make it more"
+    },
+    {
+      "start": 351.44,
+      "duration": 2.64,
+      "text": "human, make it more like me, and then"
+    },
+    {
+      "start": 352.96,
+      "duration": 2.72,
+      "text": "send it off. I forgot to show you"
+    },
+    {
+      "start": 354.08,
+      "duration": 3.44,
+      "text": "before. Here is the finished letter of"
+    },
+    {
+      "start": 355.68,
+      "duration": 3.12,
+      "text": "engagement. The name, the date, the"
+    },
+    {
+      "start": 357.52,
+      "duration": 2.88,
+      "text": "commencement date, the price, they're"
+    },
+    {
+      "start": 358.8,
+      "duration": 2.959,
+      "text": "all added into here. I didn't have to"
+    },
+    {
+      "start": 360.4,
+      "duration": 2.96,
+      "text": "touch it, but I just look at it to"
+    },
+    {
+      "start": 361.759,
+      "duration": 3.601,
+      "text": "verify it to make sure there's nothing"
+    },
+    {
+      "start": 363.36,
+      "duration": 3.52,
+      "text": "wrong with it cuz it's still AI. AI"
+    },
+    {
+      "start": 365.36,
+      "duration": 3.2,
+      "text": "still hallucinates, though, I haven't"
+    },
+    {
+      "start": 366.88,
+      "duration": 3.2,
+      "text": "had any problems with it so far. Now,"
+    },
+    {
+      "start": 368.56,
+      "duration": 2.96,
+      "text": "one thing it didn't do here because I"
+    },
+    {
+      "start": 370.08,
+      "duration": 3.28,
+      "text": "didn't have any conflicts on that date"
+    },
+    {
+      "start": 371.52,
+      "duration": 3.679,
+      "text": "is sometimes it will look at my calendar"
+    },
+    {
+      "start": 373.36,
+      "duration": 3.2,
+      "text": "or look at my call.com and notice I"
+    },
+    {
+      "start": 375.199,
+      "duration": 3.361,
+      "text": "already have a call booked for that date"
+    },
+    {
+      "start": 376.56,
+      "duration": 3.52,
+      "text": "or that time or calculate the time"
+    },
+    {
+      "start": 378.56,
+      "duration": 3.52,
+      "text": "difference between me and the other"
+    },
+    {
+      "start": 380.08,
+      "duration": 3.679,
+      "text": "person to make sure my availability"
+    },
+    {
+      "start": 382.08,
+      "duration": 3.44,
+      "text": "matches their availability. So, what"
+    },
+    {
+      "start": 383.759,
+      "duration": 3.681,
+      "text": "used to take me at least an hour is now"
+    },
+    {
+      "start": 385.52,
+      "duration": 3.519,
+      "text": "done in a few minutes with checkpoints"
+    },
+    {
+      "start": 387.44,
+      "duration": 3.52,
+      "text": "along the way where I could stop it,"
+    },
+    {
+      "start": 389.039,
+      "duration": 3.44,
+      "text": "verify, tweak it, and iterate on it"
+    },
+    {
+      "start": 390.96,
+      "duration": 3.519,
+      "text": "before sending it out. And the point of"
+    },
+    {
+      "start": 392.479,
+      "duration": 3.921,
+      "text": "this video isn't the specific workflow,"
+    },
+    {
+      "start": 394.479,
+      "duration": 3.84,
+      "text": "it's the pattern. It's skills that call"
+    },
+    {
+      "start": 396.4,
+      "duration": 3.68,
+      "text": "other skills that give Claude access to"
+    },
+    {
+      "start": 398.319,
+      "duration": 3.44,
+      "text": "your actual tools that are all running"
+    },
+    {
+      "start": 400.08,
+      "duration": 3.119,
+      "text": "in a single context window so you don't"
+    },
+    {
+      "start": 401.759,
+      "duration": 2.961,
+      "text": "have to go back and forth and lose your"
+    },
+    {
+      "start": 403.199,
+      "duration": 2.72,
+      "text": "progress. And if you can think about the"
+    },
+    {
+      "start": 404.72,
+      "duration": 3.12,
+      "text": "things in your life that you do"
+    },
+    {
+      "start": 405.919,
+      "duration": 3.681,
+      "text": "repeatedly and then you reverse engineer"
+    },
+    {
+      "start": 407.84,
+      "duration": 3.52,
+      "text": "them and break them into steps and give"
+    },
+    {
+      "start": 409.6,
+      "duration": 3.28,
+      "text": "Cloud access to the tools and the"
+    },
+    {
+      "start": 411.36,
+      "duration": 2.959,
+      "text": "knowledge that it needs, you'll be able"
+    },
+    {
+      "start": 412.88,
+      "duration": 2.64,
+      "text": "to build this for your own workflows."
+    },
+    {
+      "start": 414.319,
+      "duration": 3.44,
+      "text": "Because downloading other people's"
+    },
+    {
+      "start": 415.52,
+      "duration": 4.399,
+      "text": "skills and MCPs and software is nice,"
+    },
+    {
+      "start": 417.759,
+      "duration": 4.16,
+      "text": "but my point here is a barrier for entry"
+    },
+    {
+      "start": 419.919,
+      "duration": 4.161,
+      "text": "is very low. You can do a lot of this"
+    },
+    {
+      "start": 421.919,
+      "duration": 4.161,
+      "text": "yourself and customize it for small or"
+    },
+    {
+      "start": 424.08,
+      "duration": 3.36,
+      "text": "big tasks that you do every day or every"
+    },
+    {
+      "start": 426.08,
+      "duration": 3.36,
+      "text": "week and then unlock these huge"
+    },
+    {
+      "start": 427.44,
+      "duration": 3.599,
+      "text": "productivity gains so you can go work or"
+    },
+    {
+      "start": 429.44,
+      "duration": 3.36,
+      "text": "do other things. And again, this isn't"
+    },
+    {
+      "start": 431.039,
+      "duration": 3.44,
+      "text": "only for cloud desktop. I use the same"
+    },
+    {
+      "start": 432.8,
+      "duration": 3.44,
+      "text": "structure, the same formula in cloud"
+    },
+    {
+      "start": 434.479,
+      "duration": 3.28,
+      "text": "code. I'm adopting to codeex and in"
+    },
+    {
+      "start": 436.24,
+      "duration": 3.28,
+      "text": "development workflows. What you need to"
+    },
+    {
+      "start": 437.759,
+      "duration": 3.121,
+      "text": "take from this is the mental model to"
+    },
+    {
+      "start": 439.52,
+      "duration": 3.2,
+      "text": "understand that you can use a skill to"
+    },
+    {
+      "start": 440.88,
+      "duration": 3.2,
+      "text": "call another skill to call MCP server."
+    },
+    {
+      "start": 442.72,
+      "duration": 3.599,
+      "text": "And when we're not worried about the"
+    },
+    {
+      "start": 444.08,
+      "duration": 3.519,
+      "text": "context blow for MCP servers, the sky"
+    },
+    {
+      "start": 446.319,
+      "duration": 3.121,
+      "text": "becomes the limit. I mean, there's still"
+    },
+    {
+      "start": 447.599,
+      "duration": 3.04,
+      "text": "a limit, but it's a lot higher now. So,"
+    },
+    {
+      "start": 449.44,
+      "duration": 2.64,
+      "text": "I hope you learned something. I hope you"
+    },
+    {
+      "start": 450.639,
+      "duration": 3.12,
+      "text": "go out and try this for yourself. If you"
+    },
+    {
+      "start": 452.08,
+      "duration": 2.959,
+      "text": "have any questions or feedback, drop in"
+    },
+    {
+      "start": 453.759,
+      "duration": 2.961,
+      "text": "the comments below. If you haven't done"
+    },
+    {
+      "start": 455.039,
+      "duration": 4.56,
+      "text": "so already, subscribe to the channel. It"
+    },
+    {
+      "start": 456.72,
+      "duration": 2.879,
+      "text": "really helps me grow."
+    }
+  ],
+  "fullText": "In this quick video, I'm going to show you how I can now chain together multiple MCB servers and skills to complete a full productivity workflow in a single chat in a single context window. And this is a realworld productivity workflow that saves me at least an hour per day. I will be demoing my consulting call follow-up master skill and claw desktop. But this formula which is comprised of a master orchestration skill, atomic task skills, remote MCP servers, and MCP support skills works also in development environments. Any client that supports MCP and skills. And the point of this video is twofold. One, you don't need to download other people's MCPS and skills. You can actually build them really easily and customize them for your own tasks that you do daily. It's really not that hard. Number two point of this video is showing you how much of a difference it's made that Anthropic has now added lazy loading of MCB servers. They added in cloud code and they added in cloud desktop. And what this means is we don't have to worry about context bloat for MCP servers anymore. One of the biggest problems with adding multiple MCB servers was all the tool definitions, the descriptions would bloat the context even before we start a conversation. But that's not the case anymore. I'm able to do this whole workflow in one single chat with multiple MCPs and multiple skills because it uses tool search and progressive disclosure. It doesn't load anything into context that it doesn't need. So, enough talking. Let me explain to you the use case, show you the building blocks, and then show you it all in action. So, here's the context. Among other things, I do remote consulting. And once I finish a discovery call with a prospective client, there are several repeatable mundane tasks that I need to do for client intake, like consolidate my notes, make a plan, send them a payment link, send them a calendar link, generate a letter of engagement, and the list goes on. And since every client is different, all these tasks need customization. It's not just a simple template. Do they want a one-off call? Do they want a bundle? Are we in the same time zone? What's the start date, the price? What's the scope? Where do I need to modify the contract or any documentation? And these tasks are repeatable but tedious and often takes me at least an hour per client. So I built some custom MCB servers and connected some official MCB servers. I wrote specific skills for each MCB server and then I built a master skill that orchestrates all the skills and MCB servers. It checks in with me along the way and shows me previews so I know that everything is kosher and essentially takes this hourong process and does it all in a matter of minutes. Let me just show you what I'm working with. So if we open up cloud desktop and go to connectors, we see Gmail search, Bright Data, Fireflies, mycal.com, notion, and stripe. This is all I need. And what's great about it is all of these are remote MCB servers, meaning I can do this from anywhere. I don't need to be on my computer anymore. I can do this from my phone. This all happens on the cloud. It uses Gmail search to get context for my emails. Fireflies is connected to my Zoom. It transcribes the whole conversation. So then I can later feed that back to Claude and get more context from the conversation. Calcom is the only unofficial MTB server here. I built this one myself because there wasn't an official one and I wanted to customize it for my workflow. Then we have NAND and notion. And then I use Stripe for invoicing for my payment links. Okay, so now let's look at all my skills. So we go to settings, capabilities. I iterate on these a lot in cloud desktop and in cloud code. Sometimes I overwrite them, sometimes I just rewrite them. Here's the sponsor veter skill. Here's the LOE generator. This one writes a letter of engagement. It doesn't even need an MCP server. Here's my cal.com MCP support skill. my Stripe payment skill and the new and improved post call follow-up V2 skill. So, if we just click into that, I just want to show you the beginning of it. Generate follow-up email and LOE generation, Stripe payment leaks, cal.com scheduling. And the workflow is really cool. It starts by asking for context. Where should I get my context for this follow-up? And I'll often use all of them. Fireflies for the transcript, Gmail for more context, and then I often give it more manual context from things I understood from the conversation or offline non-documented conversations. or I tell it to look at my CRM that already has some data enrichment. And then based on all that context, it takes the client name, their email, the pricing discussed, if it's hourly, a bundle or a package, the potential start date, the key topics, the pain points, and then the specific asks or next steps. And then along the way, I have all these checkpoints where it either shows me what it's doing or asks me clarifying questions because I always want to make sure that has the right context. It doesn't make assumptions. Here we see the step four checkpoint. Confirm details. Here's what I gathered. Confirm or correct. And then after I confirm all that and we'll call the LOE generator skill with the client name, the document date, all the stuff we just clarify. Okay, so now I showed you all the building blocks. Let's see it in action. I'm not going to use real client data. I'm just going to give it context manually. So you'll be able to see the whole workflow in action. Keep in mind that I will usually also look at Fireflies, Gmail, and the CRM. So here's the prompt. Use the post call follow-up skill V2 for my recent call with Leroy Jenkins. Here's Leroy's email. Leroy is working on an app to help sell beachfront real estate to ICE employees in Greenland using AI, cryptocurrency, and init. He wants to know how to improve his workflow with tools like Cloud Skills, Cloud Hooks, and Get Work Trees. He wants to book a five call remote bundle for $3,000 starting on January 21st once a week for the next 5 weeks. I will be on the West Coast for the next 5 weeks. Leroy is in Denmark. Use the 1-hour call for the paid West Coast schedule. And we're just going to send it off like this. So, the first thing it's doing is reading the post call follow-up V2 skill to understand the workflow. Then it's reading the LOE generator skill. Then it's checking my cal.com event types. And then before proceeding, it's confirming all the details with me. The client name, his email, details about the project, key topics, the pricing, the start date, my location, Leroyy's location, and the schedule I wanted to use. Now, it's asking me some clarifying questions. So, I'm just going to answer yes, generate an LOE for this bundle. For the payment handling, generate a separate Stripe link. Okay, so it created the letter of engagement. It converted it to a PDF. Now it's moving on to the Stripe link, but now it's using the checkpoints because Stripe is sensitive because it touches my bottom line. I have it confirmed the details and I also gave the MCP very strict permissions. So now I created the LOE, the payment link, and the Calcom scheduling link. The next step is drafting me the email. And I'll often work on the email myself, but the point is to look at hundreds of previous emails that I wrote to get my writing style so it doesn't sound AI generated and generic. has the payment link here, the scheduling link here, and then what I often do is just copy and paste this into Gmail. Iterate on it, make it more human, make it more like me, and then send it off. I forgot to show you before. Here is the finished letter of engagement. The name, the date, the commencement date, the price, they're all added into here. I didn't have to touch it, but I just look at it to verify it to make sure there's nothing wrong with it cuz it's still AI. AI still hallucinates, though, I haven't had any problems with it so far. Now, one thing it didn't do here because I didn't have any conflicts on that date is sometimes it will look at my calendar or look at my call.com and notice I already have a call booked for that date or that time or calculate the time difference between me and the other person to make sure my availability matches their availability. So, what used to take me at least an hour is now done in a few minutes with checkpoints along the way where I could stop it, verify, tweak it, and iterate on it before sending it out. And the point of this video isn't the specific workflow, it's the pattern. It's skills that call other skills that give Claude access to your actual tools that are all running in a single context window so you don't have to go back and forth and lose your progress. And if you can think about the things in your life that you do repeatedly and then you reverse engineer them and break them into steps and give Cloud access to the tools and the knowledge that it needs, you'll be able to build this for your own workflows. Because downloading other people's skills and MCPs and software is nice, but my point here is a barrier for entry is very low. You can do a lot of this yourself and customize it for small or big tasks that you do every day or every week and then unlock these huge productivity gains so you can go work or do other things. And again, this isn't only for cloud desktop. I use the same structure, the same formula in cloud code. I'm adopting to codeex and in development workflows. What you need to take from this is the mental model to understand that you can use a skill to call another skill to call MCP server. And when we're not worried about the context blow for MCP servers, the sky becomes the limit. I mean, there's still a limit, but it's a lot higher now. So, I hope you learned something. I hope you go out and try this for yourself. If you have any questions or feedback, drop in the comments below. If you haven't done so already, subscribe to the channel. It really helps me grow.",
+  "fetchedAt": "2026-01-20T17:04:21.514Z"
+}

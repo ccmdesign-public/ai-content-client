@@ -1,0 +1,1684 @@
+{
+  "videoId": "MzLLR9gFEZU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.8,
+      "duration": 7.28,
+      "text": "Hi everyone. My name is Jeff Moore and"
+    },
+    {
+      "start": 3.6,
+      "duration": 8.56,
+      "text": "uh this is my 31st year in education. Um"
+    },
+    {
+      "start": 8.08,
+      "duration": 6.4,
+      "text": "I started as a a history teacher. Uh I"
+    },
+    {
+      "start": 12.16,
+      "duration": 4.879,
+      "text": "was a technology person for a while, a"
+    },
+    {
+      "start": 14.48,
+      "duration": 3.92,
+      "text": "curriculum person. Uh spent most of my"
+    },
+    {
+      "start": 17.039,
+      "duration": 3.281,
+      "text": "career in New Jersey. I was a"
+    },
+    {
+      "start": 18.4,
+      "duration": 4.799,
+      "text": "superintendent in New Jersey for seven"
+    },
+    {
+      "start": 20.32,
+      "duration": 6.719,
+      "text": "years. I'm now working in Westchester"
+    },
+    {
+      "start": 23.199,
+      "duration": 6.08,
+      "text": "County, New York, back at curriculum."
+    },
+    {
+      "start": 27.039,
+      "duration": 4.08,
+      "text": "And uh through all of that, all those"
+    },
+    {
+      "start": 29.279,
+      "duration": 3.921,
+      "text": "different roles and other things that"
+    },
+    {
+      "start": 31.119,
+      "duration": 5.841,
+      "text": "I've done along the way, really focusing"
+    },
+    {
+      "start": 33.2,
+      "duration": 7.359,
+      "text": "in on really what does it mean um for"
+    },
+    {
+      "start": 36.96,
+      "duration": 5.279,
+      "text": "knowledge workers? Uh channeling my"
+    },
+    {
+      "start": 40.559,
+      "duration": 3.68,
+      "text": "Peter F. Ducker there a little bit. What"
+    },
+    {
+      "start": 42.239,
+      "duration": 3.601,
+      "text": "does it mean for knowledge workers to"
+    },
+    {
+      "start": 44.239,
+      "duration": 4.32,
+      "text": "work with information and to work"
+    },
+    {
+      "start": 45.84,
+      "duration": 4.399,
+      "text": "together with information? So, uh, what"
+    },
+    {
+      "start": 48.559,
+      "duration": 4.081,
+      "text": "I want to show you now is something that"
+    },
+    {
+      "start": 50.239,
+      "duration": 3.921,
+      "text": "I rigged up, um, using artificial"
+    },
+    {
+      "start": 52.64,
+      "duration": 4.48,
+      "text": "intelligence,"
+    },
+    {
+      "start": 54.16,
+      "duration": 6.48,
+      "text": "uh, to help me derive meaning from from"
+    },
+    {
+      "start": 57.12,
+      "duration": 5.599,
+      "text": "information. And, uh, we'll get under"
+    },
+    {
+      "start": 60.64,
+      "duration": 4,
+      "text": "the hood in a separate video to talk"
+    },
+    {
+      "start": 62.719,
+      "duration": 4.4,
+      "text": "about things like semantic similarity"
+    },
+    {
+      "start": 64.64,
+      "duration": 4.159,
+      "text": "analysis and vibe coding and all that,"
+    },
+    {
+      "start": 67.119,
+      "duration": 4.961,
+      "text": "but just suffice to say at this point"
+    },
+    {
+      "start": 68.799,
+      "duration": 8.64,
+      "text": "that I am not a programmer. Um, I used"
+    },
+    {
+      "start": 72.08,
+      "duration": 10.8,
+      "text": "AI to write the computer code that is"
+    },
+    {
+      "start": 77.439,
+      "duration": 7.121,
+      "text": "then using AI to interpret my notes. So,"
+    },
+    {
+      "start": 82.88,
+      "duration": 5.36,
+      "text": "let's get into it and I'll show you what"
+    },
+    {
+      "start": 84.56,
+      "duration": 6.16,
+      "text": "it looks like. So, I use Obsidian,"
+    },
+    {
+      "start": 88.24,
+      "duration": 4.48,
+      "text": "um, which is a notetaking app that's"
+    },
+    {
+      "start": 90.72,
+      "duration": 6.399,
+      "text": "pretty popular, uh, and for a lot of"
+    },
+    {
+      "start": 92.72,
+      "duration": 8.24,
+      "text": "good reasons. Uh, Obsidian has a neat"
+    },
+    {
+      "start": 97.119,
+      "duration": 7.281,
+      "text": "feature where you can basically have a"
+    },
+    {
+      "start": 100.96,
+      "duration": 6.72,
+      "text": "whiteboard and add notes and cards to"
+    },
+    {
+      "start": 104.4,
+      "duration": 5.12,
+      "text": "that whiteboard. So, if I want to um"
+    },
+    {
+      "start": 107.68,
+      "duration": 5.92,
+      "text": "look for notes about John Dewey, for"
+    },
+    {
+      "start": 109.52,
+      "duration": 6.559,
+      "text": "example, I can bring in this note. Uh, I"
+    },
+    {
+      "start": 113.6,
+      "duration": 5.839,
+      "text": "can bring in another note about"
+    },
+    {
+      "start": 116.079,
+      "duration": 5.04,
+      "text": "democracy and education. These are notes"
+    },
+    {
+      "start": 119.439,
+      "duration": 4.801,
+      "text": "that I've taken from reading, from"
+    },
+    {
+      "start": 121.119,
+      "duration": 6.64,
+      "text": "musings, etc. you know, I can add a card"
+    },
+    {
+      "start": 124.24,
+      "duration": 6.32,
+      "text": "and say, \"Wow,\" you know, and uh connect"
+    },
+    {
+      "start": 127.759,
+      "duration": 4.321,
+      "text": "all of these things together and this is"
+    },
+    {
+      "start": 130.56,
+      "duration": 6.16,
+      "text": "great,"
+    },
+    {
+      "start": 132.08,
+      "duration": 7.68,
+      "text": "you know, however, there is a difficulty"
+    },
+    {
+      "start": 136.72,
+      "duration": 4.64,
+      "text": "here that AI can address. You know, how"
+    },
+    {
+      "start": 139.76,
+      "duration": 3.76,
+      "text": "do I start to make meaning from all of"
+    },
+    {
+      "start": 141.36,
+      "duration": 4.4,
+      "text": "this? How do I choose notes? There's a"
+    },
+    {
+      "start": 143.52,
+      "duration": 4.16,
+      "text": "little tension in how we choose notes to"
+    },
+    {
+      "start": 145.76,
+      "duration": 5.52,
+      "text": "put on here. I have to drag them all."
+    },
+    {
+      "start": 147.68,
+      "duration": 6.16,
+      "text": "Um, so I created using AI to code it. I"
+    },
+    {
+      "start": 151.28,
+      "duration": 6.56,
+      "text": "created a plugin for in Obsidian."
+    },
+    {
+      "start": 153.84,
+      "duration": 7.84,
+      "text": "Obsidian has a rich plug-in ecosystem. A"
+    },
+    {
+      "start": 157.84,
+      "duration": 7.92,
+      "text": "plugin that helps use uh or that helps"
+    },
+    {
+      "start": 161.68,
+      "duration": 6.08,
+      "text": "me create these canvases using AI. So,"
+    },
+    {
+      "start": 165.76,
+      "duration": 4.559,
+      "text": "let's delete this and I'll show you how"
+    },
+    {
+      "start": 167.76,
+      "duration": 5.68,
+      "text": "it works. It's called Thoughtlands. And"
+    },
+    {
+      "start": 170.319,
+      "duration": 6.321,
+      "text": "what my plugin does is it creates this"
+    },
+    {
+      "start": 173.44,
+      "duration": 6.24,
+      "text": "little box up here in Obsidian. And it"
+    },
+    {
+      "start": 176.64,
+      "duration": 5.2,
+      "text": "allows me to create regions of"
+    },
+    {
+      "start": 179.68,
+      "duration": 4,
+      "text": "information from all of my notes. Now, I"
+    },
+    {
+      "start": 181.84,
+      "duration": 4.399,
+      "text": "have hundreds of notes that I've"
+    },
+    {
+      "start": 183.68,
+      "duration": 6.08,
+      "text": "gathered over the years in this and"
+    },
+    {
+      "start": 186.239,
+      "duration": 5.041,
+      "text": "other notetaking systems that uh could"
+    },
+    {
+      "start": 189.76,
+      "duration": 4.32,
+      "text": "be things, you know, notes from things"
+    },
+    {
+      "start": 191.28,
+      "duration": 3.84,
+      "text": "that I've read, could be um you know,"
+    },
+    {
+      "start": 194.08,
+      "duration": 2.64,
+      "text": "things that I've thought about,"
+    },
+    {
+      "start": 195.12,
+      "duration": 4.16,
+      "text": "connections that I've made, articles"
+    },
+    {
+      "start": 196.72,
+      "duration": 4.159,
+      "text": "that I've drafted, all sorts of things."
+    },
+    {
+      "start": 199.28,
+      "duration": 3.36,
+      "text": "Now,"
+    },
+    {
+      "start": 200.879,
+      "duration": 3.201,
+      "text": "if you have Obsidian, you can do what"
+    },
+    {
+      "start": 202.64,
+      "duration": 4.879,
+      "text": "I'm about to do. And there are some"
+    },
+    {
+      "start": 204.08,
+      "duration": 5.76,
+      "text": "plugins that do some of what I uh"
+    },
+    {
+      "start": 207.519,
+      "duration": 4.72,
+      "text": "programmed my plugin to do, but they"
+    },
+    {
+      "start": 209.84,
+      "duration": 4.64,
+      "text": "don't do all of it. And particularly"
+    },
+    {
+      "start": 212.239,
+      "duration": 6.161,
+      "text": "that canvas piece, you putting that"
+    },
+    {
+      "start": 214.48,
+      "duration": 7.44,
+      "text": "canvas together. Um, and this plugin"
+    },
+    {
+      "start": 218.4,
+      "duration": 6.96,
+      "text": "won't work unless you have"
+    },
+    {
+      "start": 221.92,
+      "duration": 7.599,
+      "text": "uh a local large language model"
+    },
+    {
+      "start": 225.36,
+      "duration": 7.2,
+      "text": "installed. It uses the O Lama U with the"
+    },
+    {
+      "start": 229.519,
+      "duration": 6.401,
+      "text": "Llama large language model and a special"
+    },
+    {
+      "start": 232.56,
+      "duration": 5.039,
+      "text": "uh extension that does AI embeddings."
+    },
+    {
+      "start": 235.92,
+      "duration": 3.28,
+      "text": "Now again, we'll get under the hood in"
+    },
+    {
+      "start": 237.599,
+      "duration": 3.2,
+      "text": "another video and I'll show you what's"
+    },
+    {
+      "start": 239.2,
+      "duration": 6.399,
+      "text": "going on here, but let me just show you"
+    },
+    {
+      "start": 240.799,
+      "duration": 7.121,
+      "text": "what it does. So, if I and again, uh you"
+    },
+    {
+      "start": 245.599,
+      "duration": 4.961,
+      "text": "need Olama, you need something locally"
+    },
+    {
+      "start": 247.92,
+      "duration": 5.28,
+      "text": "installed, uh in terms of AI, so this"
+    },
+    {
+      "start": 250.56,
+      "duration": 4.64,
+      "text": "isn't for everybody. If I click on this"
+    },
+    {
+      "start": 253.2,
+      "duration": 4.4,
+      "text": "button here,"
+    },
+    {
+      "start": 255.2,
+      "duration": 5.52,
+      "text": "what I can do is start entering"
+    },
+    {
+      "start": 257.6,
+      "duration": 4.8,
+      "text": "information to tell the plugin what kind"
+    },
+    {
+      "start": 260.72,
+      "duration": 3.36,
+      "text": "of information I want it to pull from my"
+    },
+    {
+      "start": 262.4,
+      "duration": 4.32,
+      "text": "notes. What kind of ideas I want it to"
+    },
+    {
+      "start": 264.08,
+      "duration": 4.72,
+      "text": "pull from my notes. So I have something"
+    },
+    {
+      "start": 266.72,
+      "duration": 3.6,
+      "text": "written here. I'm just pasting in the"
+    },
+    {
+      "start": 268.8,
+      "duration": 4.399,
+      "text": "history of government and public schools"
+    },
+    {
+      "start": 270.32,
+      "duration": 6.08,
+      "text": "in the US is related to different eras"
+    },
+    {
+      "start": 273.199,
+      "duration": 5.201,
+      "text": "focus on behaviorism or constructivism."
+    },
+    {
+      "start": 276.4,
+      "duration": 4.64,
+      "text": "This has implications for strategic"
+    },
+    {
+      "start": 278.4,
+      "duration": 4,
+      "text": "planning today in the 21st century. So,"
+    },
+    {
+      "start": 281.04,
+      "duration": 4.56,
+      "text": "basically what I'm going to ask this"
+    },
+    {
+      "start": 282.4,
+      "duration": 5.359,
+      "text": "plugin to do is to take this concept and"
+    },
+    {
+      "start": 285.6,
+      "duration": 3.92,
+      "text": "go into my notes and find all the notes"
+    },
+    {
+      "start": 287.759,
+      "duration": 3.121,
+      "text": "that might be related to that concept."
+    },
+    {
+      "start": 289.52,
+      "duration": 3.04,
+      "text": "And I have a different couple different"
+    },
+    {
+      "start": 290.88,
+      "duration": 5.759,
+      "text": "ways to to lay that out. And I'm going"
+    },
+    {
+      "start": 292.56,
+      "duration": 5.44,
+      "text": "to bump up the threshold a little bit."
+    },
+    {
+      "start": 296.639,
+      "duration": 3.041,
+      "text": "That'll make it a little more specific"
+    },
+    {
+      "start": 298,
+      "duration": 4.8,
+      "text": "so I don't get like a 100 notes. I'll"
+    },
+    {
+      "start": 299.68,
+      "duration": 4.64,
+      "text": "just get uh like 40 or 50. And I'm going"
+    },
+    {
+      "start": 302.8,
+      "duration": 3.36,
+      "text": "to hit okay. And it's going to start"
+    },
+    {
+      "start": 304.32,
+      "duration": 4.879,
+      "text": "thinking."
+    },
+    {
+      "start": 306.16,
+      "duration": 7,
+      "text": "Okay. It's creating the region based on"
+    },
+    {
+      "start": 309.199,
+      "duration": 3.961,
+      "text": "my input."
+    },
+    {
+      "start": 313.44,
+      "duration": 5.84,
+      "text": "AI gave it a clever name based on the"
+    },
+    {
+      "start": 316.639,
+      "duration": 4.241,
+      "text": "content. The learning paradigm zone."
+    },
+    {
+      "start": 319.28,
+      "duration": 3.84,
+      "text": "Okay. So, we'll hit okay. We'll accept"
+    },
+    {
+      "start": 320.88,
+      "duration": 5.36,
+      "text": "that. We'll give it a color on the list."
+    },
+    {
+      "start": 323.12,
+      "duration": 5.44,
+      "text": "So, here's my region. Now I can go into"
+    },
+    {
+      "start": 326.24,
+      "duration": 5.36,
+      "text": "the information and see all of my notes"
+    },
+    {
+      "start": 328.56,
+      "duration": 6.479,
+      "text": "that it pulled in to create this region"
+    },
+    {
+      "start": 331.6,
+      "duration": 5.2,
+      "text": "based on an examination of this concept"
+    },
+    {
+      "start": 335.039,
+      "duration": 4.401,
+      "text": "in comparison with what these notes are"
+    },
+    {
+      "start": 336.8,
+      "duration": 5.839,
+      "text": "about. I've got 48 notes."
+    },
+    {
+      "start": 339.44,
+      "duration": 5.28,
+      "text": "But the magic here, I think, is in this"
+    },
+    {
+      "start": 342.639,
+      "duration": 4.081,
+      "text": "feature right here. And again, lots of"
+    },
+    {
+      "start": 344.72,
+      "duration": 4.479,
+      "text": "plugins. A smart connections plugin in"
+    },
+    {
+      "start": 346.72,
+      "duration": 4.479,
+      "text": "particular does so far what what I've"
+    },
+    {
+      "start": 349.199,
+      "duration": 4.961,
+      "text": "done here. But this is the piece that"
+    },
+    {
+      "start": 351.199,
+      "duration": 5.44,
+      "text": "that I needed uh for my workflow using"
+    },
+    {
+      "start": 354.16,
+      "duration": 4.64,
+      "text": "that canvas that I haven't found other"
+    },
+    {
+      "start": 356.639,
+      "duration": 4,
+      "text": "plugins or other software solutions"
+    },
+    {
+      "start": 358.8,
+      "duration": 4.8,
+      "text": "really doing. So I'm going to click on"
+    },
+    {
+      "start": 360.639,
+      "duration": 7.441,
+      "text": "this button here. And now what I can do"
+    },
+    {
+      "start": 363.6,
+      "duration": 5.599,
+      "text": "is create a canvas from those 48 notes."
+    },
+    {
+      "start": 368.08,
+      "duration": 2.88,
+      "text": "So I don't have to drag them on"
+    },
+    {
+      "start": 369.199,
+      "duration": 4.481,
+      "text": "individually. It's going to plop them"
+    },
+    {
+      "start": 370.96,
+      "duration": 5.12,
+      "text": "in. But I have set up here a specific"
+    },
+    {
+      "start": 373.68,
+      "duration": 3.76,
+      "text": "way that I want that canvas to appear."
+    },
+    {
+      "start": 376.08,
+      "duration": 2.72,
+      "text": "And I'll show you. I'm going to play"
+    },
+    {
+      "start": 377.44,
+      "duration": 2.879,
+      "text": "with options. And again, I'll explain"
+    },
+    {
+      "start": 378.8,
+      "duration": 3.679,
+      "text": "them in another video as we get under"
+    },
+    {
+      "start": 380.319,
+      "duration": 6.16,
+      "text": "the hood, but let's just get into the"
+    },
+    {
+      "start": 382.479,
+      "duration": 7.28,
+      "text": "meat of it. Here is my initial concept"
+    },
+    {
+      "start": 386.479,
+      "duration": 6.641,
+      "text": "in the middle. Now, here are my 48 notes"
+    },
+    {
+      "start": 389.759,
+      "duration": 5.921,
+      "text": "arranged around that concept. This over"
+    },
+    {
+      "start": 393.12,
+      "duration": 4.4,
+      "text": "here is Obsidian's graph, um, which is"
+    },
+    {
+      "start": 395.68,
+      "duration": 3.519,
+      "text": "also really handy for showing how things"
+    },
+    {
+      "start": 397.52,
+      "duration": 3.84,
+      "text": "connect in Obsidian, but doesn't give"
+    },
+    {
+      "start": 399.199,
+      "duration": 4.321,
+      "text": "you the information necessarily that"
+    },
+    {
+      "start": 401.36,
+      "duration": 4.8,
+      "text": "this gives. So, here's my initial"
+    },
+    {
+      "start": 403.52,
+      "duration": 5.6,
+      "text": "concept. Here are the 48 notes that"
+    },
+    {
+      "start": 406.16,
+      "duration": 6.64,
+      "text": "relate to it. The closer the note is,"
+    },
+    {
+      "start": 409.12,
+      "duration": 5.84,
+      "text": "the more related it is. So this note is"
+    },
+    {
+      "start": 412.8,
+      "duration": 4.64,
+      "text": "the least related out of the 48. Still"
+    },
+    {
+      "start": 414.96,
+      "duration": 4.959,
+      "text": "related, but least related. These notes"
+    },
+    {
+      "start": 417.44,
+      "duration": 5.199,
+      "text": "in here are the most related. So that's"
+    },
+    {
+      "start": 419.919,
+      "duration": 4.881,
+      "text": "that's helpful to me. Uh I don't know"
+    },
+    {
+      "start": 422.639,
+      "duration": 5.201,
+      "text": "exactly where to draw the line in here"
+    },
+    {
+      "start": 424.8,
+      "duration": 4.88,
+      "text": "to say what where does some noise begin"
+    },
+    {
+      "start": 427.84,
+      "duration": 3.84,
+      "text": "and where does meaning kind of end, but"
+    },
+    {
+      "start": 429.68,
+      "duration": 5.44,
+      "text": "this is this is pretty good. And this"
+    },
+    {
+      "start": 431.68,
+      "duration": 4.959,
+      "text": "was my first stab at this. Now I can do"
+    },
+    {
+      "start": 435.12,
+      "duration": 3.28,
+      "text": "some other things here, too. I'm going"
+    },
+    {
+      "start": 436.639,
+      "duration": 3.28,
+      "text": "to rerun"
+    },
+    {
+      "start": 438.4,
+      "duration": 3.28,
+      "text": "this"
+    },
+    {
+      "start": 439.919,
+      "duration": 3.441,
+      "text": "um or I'm going to add it a new canvas"
+    },
+    {
+      "start": 441.68,
+      "duration": 3.44,
+      "text": "here and I'm going to change the"
+    },
+    {
+      "start": 443.36,
+      "duration": 4.32,
+      "text": "setting. So I'm going to bump this all"
+    },
+    {
+      "start": 445.12,
+      "duration": 4.079,
+      "text": "the way up to four. This is clustering."
+    },
+    {
+      "start": 447.68,
+      "duration": 3.2,
+      "text": "So what we're going to get and it's"
+    },
+    {
+      "start": 449.199,
+      "duration": 3.12,
+      "text": "going to take a minute here to think. So"
+    },
+    {
+      "start": 450.88,
+      "duration": 4.48,
+      "text": "create new canvas. We're going to get"
+    },
+    {
+      "start": 452.319,
+      "duration": 4.641,
+      "text": "some thoughtfulness going on over here."
+    },
+    {
+      "start": 455.36,
+      "duration": 4.16,
+      "text": "What I'm going to what I'm asking it to"
+    },
+    {
+      "start": 456.96,
+      "duration": 5.44,
+      "text": "do basically is now to take these notes"
+    },
+    {
+      "start": 459.52,
+      "duration": 5.84,
+      "text": "and sort of clump them together by how"
+    },
+    {
+      "start": 462.4,
+      "duration": 4.639,
+      "text": "similar they are. Now, I'm going to talk"
+    },
+    {
+      "start": 465.36,
+      "duration": 3.76,
+      "text": "a little bit about how it's doing this"
+    },
+    {
+      "start": 467.039,
+      "duration": 3.681,
+      "text": "while it's chewing on it. Uh, again,"
+    },
+    {
+      "start": 469.12,
+      "duration": 4,
+      "text": "under the hood in more detail in the"
+    },
+    {
+      "start": 470.72,
+      "duration": 4.8,
+      "text": "next video, but what's happening here is"
+    },
+    {
+      "start": 473.12,
+      "duration": 7.6,
+      "text": "something called semantic similarity"
+    },
+    {
+      "start": 475.52,
+      "duration": 7.2,
+      "text": "analysis. So, the AI Olama, the Llama"
+    },
+    {
+      "start": 480.72,
+      "duration": 6,
+      "text": "large language model is taking my"
+    },
+    {
+      "start": 482.72,
+      "duration": 5.759,
+      "text": "concept and it's converting it into a"
+    },
+    {
+      "start": 486.72,
+      "duration": 3.919,
+      "text": "mathematical signature. So, it's"
+    },
+    {
+      "start": 488.479,
+      "duration": 3.521,
+      "text": "examining all the words and I guess in"
+    },
+    {
+      "start": 490.639,
+      "duration": 2.721,
+      "text": "some ways the meaning. I don't fully"
+    },
+    {
+      "start": 492,
+      "duration": 2.8,
+      "text": "know what's going on here, folks. Again,"
+    },
+    {
+      "start": 493.36,
+      "duration": 4.16,
+      "text": "I'm not a developer. I'm just a"
+    },
+    {
+      "start": 494.8,
+      "duration": 5.36,
+      "text": "thoughtful person um who can who can"
+    },
+    {
+      "start": 497.52,
+      "duration": 7.519,
+      "text": "tell the computer to do this stuff. So,"
+    },
+    {
+      "start": 500.16,
+      "duration": 7.439,
+      "text": "it's got this reduced down to numbers."
+    },
+    {
+      "start": 505.039,
+      "duration": 4.321,
+      "text": "It's also taken all of my notes, and not"
+    },
+    {
+      "start": 507.599,
+      "duration": 4,
+      "text": "just these 48, but all hundreds and"
+    },
+    {
+      "start": 509.36,
+      "duration": 5.119,
+      "text": "hundreds of my notes. Oh, there we go."
+    },
+    {
+      "start": 511.599,
+      "duration": 5.12,
+      "text": "I'll flip back one second. Taken all of"
+    },
+    {
+      "start": 514.479,
+      "duration": 5.04,
+      "text": "my hundreds and hundreds of notes and"
+    },
+    {
+      "start": 516.719,
+      "duration": 5.12,
+      "text": "assigned them mathematical values as"
+    },
+    {
+      "start": 519.519,
+      "duration": 4.961,
+      "text": "well. And so it's basically comparing"
+    },
+    {
+      "start": 521.839,
+      "duration": 4.56,
+      "text": "the mathematical value of my concept"
+    },
+    {
+      "start": 524.48,
+      "duration": 3.2,
+      "text": "with the mathematical values of all my"
+    },
+    {
+      "start": 526.399,
+      "duration": 4.401,
+      "text": "notes and measuring some kind of"
+    },
+    {
+      "start": 527.68,
+      "duration": 5.44,
+      "text": "distance there. Um cosiness are"
+    },
+    {
+      "start": 530.8,
+      "duration": 4.24,
+      "text": "involved. I don't know. So this is what"
+    },
+    {
+      "start": 533.12,
+      "duration": 3.68,
+      "text": "we have now. So we have my notes"
+    },
+    {
+      "start": 535.04,
+      "duration": 4.56,
+      "text": "clustered. Here's my it's kind of a"
+    },
+    {
+      "start": 536.8,
+      "duration": 5.68,
+      "text": "beautiful galaxy type thing. Here's my"
+    },
+    {
+      "start": 539.6,
+      "duration": 4.64,
+      "text": "initial concept. And now the notes are"
+    },
+    {
+      "start": 542.48,
+      "duration": 4.96,
+      "text": "clustered and they have these additional"
+    },
+    {
+      "start": 544.24,
+      "duration": 6.96,
+      "text": "little summary cards. So let's zoom in"
+    },
+    {
+      "start": 547.44,
+      "duration": 6.48,
+      "text": "over here. And remember the initial"
+    },
+    {
+      "start": 551.2,
+      "duration": 4.079,
+      "text": "uh the initial concept was about the"
+    },
+    {
+      "start": 553.92,
+      "duration": 3.84,
+      "text": "history of government and public"
+    },
+    {
+      "start": 555.279,
+      "duration": 4.881,
+      "text": "schools. Um this battle between"
+    },
+    {
+      "start": 557.76,
+      "duration": 4.16,
+      "text": "behaviorism and constructivism and how"
+    },
+    {
+      "start": 560.16,
+      "duration": 3.52,
+      "text": "that has implications for strategic"
+    },
+    {
+      "start": 561.92,
+      "duration": 5.44,
+      "text": "planning. And if we go over here to this"
+    },
+    {
+      "start": 563.68,
+      "duration": 8.24,
+      "text": "cluster, we're seeing"
+    },
+    {
+      "start": 567.36,
+      "duration": 7.039,
+      "text": "some discussion in these notes of"
+    },
+    {
+      "start": 571.92,
+      "duration": 4.8,
+      "text": "this is a summary of all of these notes"
+    },
+    {
+      "start": 574.399,
+      "duration": 3.841,
+      "text": "in this cluster. Pragmatism emphasizes"
+    },
+    {
+      "start": 576.72,
+      "duration": 3.28,
+      "text": "individual liberty, but social learning"
+    },
+    {
+      "start": 578.24,
+      "duration": 3.279,
+      "text": "is necessary for democracy. So we get a"
+    },
+    {
+      "start": 580,
+      "duration": 3.36,
+      "text": "little bit of a summary here of this"
+    },
+    {
+      "start": 581.519,
+      "duration": 4.161,
+      "text": "cluster. So now I can start to make"
+    },
+    {
+      "start": 583.36,
+      "duration": 4.88,
+      "text": "decisions about all right are these"
+    },
+    {
+      "start": 585.68,
+      "duration": 6.48,
+      "text": "notes on target or should I be looking"
+    },
+    {
+      "start": 588.24,
+      "duration": 6.719,
+      "text": "more at this spine over here which is"
+    },
+    {
+      "start": 592.16,
+      "duration": 6.48,
+      "text": "playing around with behaviorism"
+    },
+    {
+      "start": 594.959,
+      "duration": 5.44,
+      "text": "uh as it um relates to Thornike and"
+    },
+    {
+      "start": 598.64,
+      "duration": 3.52,
+      "text": "Pavlov. Again, this is all coming out of"
+    },
+    {
+      "start": 600.399,
+      "duration": 5.12,
+      "text": "my notes. The progressive era is in"
+    },
+    {
+      "start": 602.16,
+      "duration": 5.52,
+      "text": "here. We have the late 1960s"
+    },
+    {
+      "start": 605.519,
+      "duration": 4.721,
+      "text": "challenging traditional classrooms. We"
+    },
+    {
+      "start": 607.68,
+      "duration": 4.4,
+      "text": "have John Dwiey's thoughts. You know, so"
+    },
+    {
+      "start": 610.24,
+      "duration": 4.159,
+      "text": "all of this now is coming together into"
+    },
+    {
+      "start": 612.08,
+      "duration": 5.68,
+      "text": "something that is arranged visually and"
+    },
+    {
+      "start": 614.399,
+      "duration": 5.44,
+      "text": "potentially more useful."
+    },
+    {
+      "start": 617.76,
+      "duration": 3.519,
+      "text": "One last thing to show you here in this"
+    },
+    {
+      "start": 619.839,
+      "duration": 4.24,
+      "text": "first video. Again, we'll get under the"
+    },
+    {
+      "start": 621.279,
+      "duration": 4.881,
+      "text": "hood in a second video. I can do other"
+    },
+    {
+      "start": 624.079,
+      "duration": 4.641,
+      "text": "kinds of representations as well. And I"
+    },
+    {
+      "start": 626.16,
+      "duration": 5.84,
+      "text": "want to show you one in particular. So I"
+    },
+    {
+      "start": 628.72,
+      "duration": 6.48,
+      "text": "have four. Um I want to show you rolling"
+    },
+    {
+      "start": 632,
+      "duration": 6.959,
+      "text": "path. Rolling path does a really"
+    },
+    {
+      "start": 635.2,
+      "duration": 7.92,
+      "text": "specific thing. Um so now it's run"
+    },
+    {
+      "start": 638.959,
+      "duration": 7.88,
+      "text": "already. Uh let me create the canvas"
+    },
+    {
+      "start": 643.12,
+      "duration": 3.719,
+      "text": "from this new."
+    },
+    {
+      "start": 647.76,
+      "duration": 4.96,
+      "text": "Let that think for a second. Rolling"
+    },
+    {
+      "start": 649.68,
+      "duration": 8,
+      "text": "path starts with my concept and then"
+    },
+    {
+      "start": 652.72,
+      "duration": 7.2,
+      "text": "examines my notes one at a time."
+    },
+    {
+      "start": 657.68,
+      "duration": 6,
+      "text": "um into a path. So basically what it's"
+    },
+    {
+      "start": 659.92,
+      "duration": 7.84,
+      "text": "done is it's taken my concept and it's"
+    },
+    {
+      "start": 663.68,
+      "duration": 6,
+      "text": "found the most related note. So this"
+    },
+    {
+      "start": 667.76,
+      "duration": 4.88,
+      "text": "note I know this note well this note is"
+    },
+    {
+      "start": 669.68,
+      "duration": 6.24,
+      "text": "about kind of dueling purposes uh of"
+    },
+    {
+      "start": 672.64,
+      "duration": 5.68,
+      "text": "education um in the founding era whether"
+    },
+    {
+      "start": 675.92,
+      "duration": 6.4,
+      "text": "we were talking about"
+    },
+    {
+      "start": 678.32,
+      "duration": 6.32,
+      "text": "uh uh you know education toward uh"
+    },
+    {
+      "start": 682.32,
+      "duration": 4.16,
+      "text": "individual prosperity and liberty or"
+    },
+    {
+      "start": 684.64,
+      "duration": 4,
+      "text": "education toward collective success and"
+    },
+    {
+      "start": 686.48,
+      "duration": 7.44,
+      "text": "how that expresses itself across the"
+    },
+    {
+      "start": 688.64,
+      "duration": 7.36,
+      "text": "different founders writings. Um so this"
+    },
+    {
+      "start": 693.92,
+      "duration": 3.84,
+      "text": "semantic similarity analysis has"
+    },
+    {
+      "start": 696,
+      "duration": 5.12,
+      "text": "determined that this is the most related"
+    },
+    {
+      "start": 697.76,
+      "duration": 5.199,
+      "text": "note I have to this concept."
+    },
+    {
+      "start": 701.12,
+      "duration": 6.08,
+      "text": "So what it's doing is it's combining"
+    },
+    {
+      "start": 702.959,
+      "duration": 6.801,
+      "text": "these and now comparing the combination"
+    },
+    {
+      "start": 707.2,
+      "duration": 4.639,
+      "text": "of this to all my notes and coming up"
+    },
+    {
+      "start": 709.76,
+      "duration": 5.12,
+      "text": "with the next one combining all of"
+    },
+    {
+      "start": 711.839,
+      "duration": 4.961,
+      "text": "these. Coming up with the next one"
+    },
+    {
+      "start": 714.88,
+      "duration": 4.16,
+      "text": "combining all of these. So, it's like"
+    },
+    {
+      "start": 716.8,
+      "duration": 4.24,
+      "text": "assimilating the knowledge as it goes."
+    },
+    {
+      "start": 719.04,
+      "duration": 3.68,
+      "text": "And we go all the way down those 48"
+    },
+    {
+      "start": 721.04,
+      "duration": 3.359,
+      "text": "notes. It's gathering and gathering."
+    },
+    {
+      "start": 722.72,
+      "duration": 7.88,
+      "text": "It's like a snowball rolling down a"
+    },
+    {
+      "start": 724.399,
+      "duration": 6.201,
+      "text": "hill. And we end up with this summary."
+    },
+    {
+      "start": 730.639,
+      "duration": 5.361,
+      "text": "And this summary connects back to that"
+    },
+    {
+      "start": 733.68,
+      "duration": 3.599,
+      "text": "initial concept that we typed in."
+    },
+    {
+      "start": 736,
+      "duration": 4.24,
+      "text": "History of government and public"
+    },
+    {
+      "start": 737.279,
+      "duration": 4.881,
+      "text": "schools, two dominant eras focus. Uh"
+    },
+    {
+      "start": 740.24,
+      "duration": 3.839,
+      "text": "we've got Watson and behaviorism."
+    },
+    {
+      "start": 742.16,
+      "duration": 3.52,
+      "text": "Dichotomy has implications for strategic"
+    },
+    {
+      "start": 744.079,
+      "duration": 4.721,
+      "text": "planning. So it's using my knowledge"
+    },
+    {
+      "start": 745.68,
+      "duration": 7.12,
+      "text": "base to come up with this. Now one last"
+    },
+    {
+      "start": 748.8,
+      "duration": 9.279,
+      "text": "thing to show you is we can also in any"
+    },
+    {
+      "start": 752.8,
+      "duration": 9.68,
+      "text": "of these show in fact let me rerun it as"
+    },
+    {
+      "start": 758.079,
+      "duration": 6.241,
+      "text": "that spiral again. I'm going to rerun"
+    },
+    {
+      "start": 762.48,
+      "duration": 4.08,
+      "text": "bring that spiral in. I'm going to click"
+    },
+    {
+      "start": 764.32,
+      "duration": 4.079,
+      "text": "on this button right here. Draw edges"
+    },
+    {
+      "start": 766.56,
+      "duration": 4.24,
+      "text": "from links."
+    },
+    {
+      "start": 768.399,
+      "duration": 4.481,
+      "text": "In Obsidian you can link notes to one"
+    },
+    {
+      "start": 770.8,
+      "duration": 4.96,
+      "text": "another within the text of the note. So,"
+    },
+    {
+      "start": 772.88,
+      "duration": 6.48,
+      "text": "it's like a Wikipedia type of thing."
+    },
+    {
+      "start": 775.76,
+      "duration": 5.68,
+      "text": "This will put arrows on the map based on"
+    },
+    {
+      "start": 779.36,
+      "duration": 4.08,
+      "text": "those links, which is something else"
+    },
+    {
+      "start": 781.44,
+      "duration": 4,
+      "text": "that's difficult to do in the canvas"
+    },
+    {
+      "start": 783.44,
+      "duration": 3.28,
+      "text": "without other plugins. So, I'm going to"
+    },
+    {
+      "start": 785.44,
+      "duration": 3.12,
+      "text": "turn the clustering all the way down"
+    },
+    {
+      "start": 786.72,
+      "duration": 3.679,
+      "text": "just to make sure it runs as quickly as"
+    },
+    {
+      "start": 788.56,
+      "duration": 4.719,
+      "text": "possible. Hit create new canvas. And"
+    },
+    {
+      "start": 790.399,
+      "duration": 5.921,
+      "text": "what you'll see is now how these notes"
+    },
+    {
+      "start": 793.279,
+      "duration": 5.36,
+      "text": "are linked together. Um, and you can"
+    },
+    {
+      "start": 796.32,
+      "duration": 4.639,
+      "text": "see, for example, that we've got some"
+    },
+    {
+      "start": 798.639,
+      "duration": 5.32,
+      "text": "links going on that in the text of this"
+    },
+    {
+      "start": 800.959,
+      "duration": 3,
+      "text": "note,"
+    },
+    {
+      "start": 805.36,
+      "duration": 7.44,
+      "text": "fact, we zoom in. In the text of this"
+    },
+    {
+      "start": 807.6,
+      "duration": 7.28,
+      "text": "note, there are links to"
+    },
+    {
+      "start": 812.8,
+      "duration": 3.92,
+      "text": "um"
+    },
+    {
+      "start": 814.88,
+      "duration": 3.36,
+      "text": "tensions in learning science. If we come"
+    },
+    {
+      "start": 816.72,
+      "duration": 3.84,
+      "text": "up here, here's tensions in learning"
+    },
+    {
+      "start": 818.24,
+      "duration": 4.08,
+      "text": "science, right? So, there are links"
+    },
+    {
+      "start": 820.56,
+      "duration": 5.36,
+      "text": "within these notes that tie them"
+    },
+    {
+      "start": 822.32,
+      "duration": 7.84,
+      "text": "together. So this is very helpful for"
+    },
+    {
+      "start": 825.92,
+      "duration": 7.2,
+      "text": "me. Um in particular this helps me"
+    },
+    {
+      "start": 830.16,
+      "duration": 6.08,
+      "text": "understand uh and gives me a jump start"
+    },
+    {
+      "start": 833.12,
+      "duration": 5.68,
+      "text": "on synthesis. I mean imagine if you have"
+    },
+    {
+      "start": 836.24,
+      "duration": 6,
+      "text": "a pile of notes and you have a sense of"
+    },
+    {
+      "start": 838.8,
+      "duration": 4.64,
+      "text": "what an argument might be. Uh this this"
+    },
+    {
+      "start": 842.24,
+      "duration": 3.12,
+      "text": "can really help you get there. And"
+    },
+    {
+      "start": 843.44,
+      "duration": 3.519,
+      "text": "again, there are other plugins like"
+    },
+    {
+      "start": 845.36,
+      "duration": 3.52,
+      "text": "smart connections and other that can do"
+    },
+    {
+      "start": 846.959,
+      "duration": 4.401,
+      "text": "some of this, but the visual piece of"
+    },
+    {
+      "start": 848.88,
+      "duration": 4.319,
+      "text": "interacting with the Obsidian canvas is"
+    },
+    {
+      "start": 851.36,
+      "duration": 4.32,
+      "text": "something that I haven't seen in other"
+    },
+    {
+      "start": 853.199,
+      "duration": 6.08,
+      "text": "plug pro uh plugins. So, that's why I"
+    },
+    {
+      "start": 855.68,
+      "duration": 5.839,
+      "text": "pulled out um an AI uh vibe coding app"
+    },
+    {
+      "start": 859.279,
+      "duration": 5.68,
+      "text": "and put this together. Uh, and we'll get"
+    },
+    {
+      "start": 861.519,
+      "duration": 3.44,
+      "text": "into that in my next"
+    }
+  ],
+  "fullText": "Hi everyone. My name is Jeff Moore and uh this is my 31st year in education. Um I started as a a history teacher. Uh I was a technology person for a while, a curriculum person. Uh spent most of my career in New Jersey. I was a superintendent in New Jersey for seven years. I'm now working in Westchester County, New York, back at curriculum. And uh through all of that, all those different roles and other things that I've done along the way, really focusing in on really what does it mean um for knowledge workers? Uh channeling my Peter F. Ducker there a little bit. What does it mean for knowledge workers to work with information and to work together with information? So, uh, what I want to show you now is something that I rigged up, um, using artificial intelligence, uh, to help me derive meaning from from information. And, uh, we'll get under the hood in a separate video to talk about things like semantic similarity analysis and vibe coding and all that, but just suffice to say at this point that I am not a programmer. Um, I used AI to write the computer code that is then using AI to interpret my notes. So, let's get into it and I'll show you what it looks like. So, I use Obsidian, um, which is a notetaking app that's pretty popular, uh, and for a lot of good reasons. Uh, Obsidian has a neat feature where you can basically have a whiteboard and add notes and cards to that whiteboard. So, if I want to um look for notes about John Dewey, for example, I can bring in this note. Uh, I can bring in another note about democracy and education. These are notes that I've taken from reading, from musings, etc. you know, I can add a card and say, \"Wow,\" you know, and uh connect all of these things together and this is great, you know, however, there is a difficulty here that AI can address. You know, how do I start to make meaning from all of this? How do I choose notes? There's a little tension in how we choose notes to put on here. I have to drag them all. Um, so I created using AI to code it. I created a plugin for in Obsidian. Obsidian has a rich plug-in ecosystem. A plugin that helps use uh or that helps me create these canvases using AI. So, let's delete this and I'll show you how it works. It's called Thoughtlands. And what my plugin does is it creates this little box up here in Obsidian. And it allows me to create regions of information from all of my notes. Now, I have hundreds of notes that I've gathered over the years in this and other notetaking systems that uh could be things, you know, notes from things that I've read, could be um you know, things that I've thought about, connections that I've made, articles that I've drafted, all sorts of things. Now, if you have Obsidian, you can do what I'm about to do. And there are some plugins that do some of what I uh programmed my plugin to do, but they don't do all of it. And particularly that canvas piece, you putting that canvas together. Um, and this plugin won't work unless you have uh a local large language model installed. It uses the O Lama U with the Llama large language model and a special uh extension that does AI embeddings. Now again, we'll get under the hood in another video and I'll show you what's going on here, but let me just show you what it does. So, if I and again, uh you need Olama, you need something locally installed, uh in terms of AI, so this isn't for everybody. If I click on this button here, what I can do is start entering information to tell the plugin what kind of information I want it to pull from my notes. What kind of ideas I want it to pull from my notes. So I have something written here. I'm just pasting in the history of government and public schools in the US is related to different eras focus on behaviorism or constructivism. This has implications for strategic planning today in the 21st century. So, basically what I'm going to ask this plugin to do is to take this concept and go into my notes and find all the notes that might be related to that concept. And I have a different couple different ways to to lay that out. And I'm going to bump up the threshold a little bit. That'll make it a little more specific so I don't get like a 100 notes. I'll just get uh like 40 or 50. And I'm going to hit okay. And it's going to start thinking. Okay. It's creating the region based on my input. AI gave it a clever name based on the content. The learning paradigm zone. Okay. So, we'll hit okay. We'll accept that. We'll give it a color on the list. So, here's my region. Now I can go into the information and see all of my notes that it pulled in to create this region based on an examination of this concept in comparison with what these notes are about. I've got 48 notes. But the magic here, I think, is in this feature right here. And again, lots of plugins. A smart connections plugin in particular does so far what what I've done here. But this is the piece that that I needed uh for my workflow using that canvas that I haven't found other plugins or other software solutions really doing. So I'm going to click on this button here. And now what I can do is create a canvas from those 48 notes. So I don't have to drag them on individually. It's going to plop them in. But I have set up here a specific way that I want that canvas to appear. And I'll show you. I'm going to play with options. And again, I'll explain them in another video as we get under the hood, but let's just get into the meat of it. Here is my initial concept in the middle. Now, here are my 48 notes arranged around that concept. This over here is Obsidian's graph, um, which is also really handy for showing how things connect in Obsidian, but doesn't give you the information necessarily that this gives. So, here's my initial concept. Here are the 48 notes that relate to it. The closer the note is, the more related it is. So this note is the least related out of the 48. Still related, but least related. These notes in here are the most related. So that's that's helpful to me. Uh I don't know exactly where to draw the line in here to say what where does some noise begin and where does meaning kind of end, but this is this is pretty good. And this was my first stab at this. Now I can do some other things here, too. I'm going to rerun this um or I'm going to add it a new canvas here and I'm going to change the setting. So I'm going to bump this all the way up to four. This is clustering. So what we're going to get and it's going to take a minute here to think. So create new canvas. We're going to get some thoughtfulness going on over here. What I'm going to what I'm asking it to do basically is now to take these notes and sort of clump them together by how similar they are. Now, I'm going to talk a little bit about how it's doing this while it's chewing on it. Uh, again, under the hood in more detail in the next video, but what's happening here is something called semantic similarity analysis. So, the AI Olama, the Llama large language model is taking my concept and it's converting it into a mathematical signature. So, it's examining all the words and I guess in some ways the meaning. I don't fully know what's going on here, folks. Again, I'm not a developer. I'm just a thoughtful person um who can who can tell the computer to do this stuff. So, it's got this reduced down to numbers. It's also taken all of my notes, and not just these 48, but all hundreds and hundreds of my notes. Oh, there we go. I'll flip back one second. Taken all of my hundreds and hundreds of notes and assigned them mathematical values as well. And so it's basically comparing the mathematical value of my concept with the mathematical values of all my notes and measuring some kind of distance there. Um cosiness are involved. I don't know. So this is what we have now. So we have my notes clustered. Here's my it's kind of a beautiful galaxy type thing. Here's my initial concept. And now the notes are clustered and they have these additional little summary cards. So let's zoom in over here. And remember the initial uh the initial concept was about the history of government and public schools. Um this battle between behaviorism and constructivism and how that has implications for strategic planning. And if we go over here to this cluster, we're seeing some discussion in these notes of this is a summary of all of these notes in this cluster. Pragmatism emphasizes individual liberty, but social learning is necessary for democracy. So we get a little bit of a summary here of this cluster. So now I can start to make decisions about all right are these notes on target or should I be looking more at this spine over here which is playing around with behaviorism uh as it um relates to Thornike and Pavlov. Again, this is all coming out of my notes. The progressive era is in here. We have the late 1960s challenging traditional classrooms. We have John Dwiey's thoughts. You know, so all of this now is coming together into something that is arranged visually and potentially more useful. One last thing to show you here in this first video. Again, we'll get under the hood in a second video. I can do other kinds of representations as well. And I want to show you one in particular. So I have four. Um I want to show you rolling path. Rolling path does a really specific thing. Um so now it's run already. Uh let me create the canvas from this new. Let that think for a second. Rolling path starts with my concept and then examines my notes one at a time. um into a path. So basically what it's done is it's taken my concept and it's found the most related note. So this note I know this note well this note is about kind of dueling purposes uh of education um in the founding era whether we were talking about uh uh you know education toward uh individual prosperity and liberty or education toward collective success and how that expresses itself across the different founders writings. Um so this semantic similarity analysis has determined that this is the most related note I have to this concept. So what it's doing is it's combining these and now comparing the combination of this to all my notes and coming up with the next one combining all of these. Coming up with the next one combining all of these. So, it's like assimilating the knowledge as it goes. And we go all the way down those 48 notes. It's gathering and gathering. It's like a snowball rolling down a hill. And we end up with this summary. And this summary connects back to that initial concept that we typed in. History of government and public schools, two dominant eras focus. Uh we've got Watson and behaviorism. Dichotomy has implications for strategic planning. So it's using my knowledge base to come up with this. Now one last thing to show you is we can also in any of these show in fact let me rerun it as that spiral again. I'm going to rerun bring that spiral in. I'm going to click on this button right here. Draw edges from links. In Obsidian you can link notes to one another within the text of the note. So, it's like a Wikipedia type of thing. This will put arrows on the map based on those links, which is something else that's difficult to do in the canvas without other plugins. So, I'm going to turn the clustering all the way down just to make sure it runs as quickly as possible. Hit create new canvas. And what you'll see is now how these notes are linked together. Um, and you can see, for example, that we've got some links going on that in the text of this note, fact, we zoom in. In the text of this note, there are links to um tensions in learning science. If we come up here, here's tensions in learning science, right? So, there are links within these notes that tie them together. So this is very helpful for me. Um in particular this helps me understand uh and gives me a jump start on synthesis. I mean imagine if you have a pile of notes and you have a sense of what an argument might be. Uh this this can really help you get there. And again, there are other plugins like smart connections and other that can do some of this, but the visual piece of interacting with the Obsidian canvas is something that I haven't seen in other plug pro uh plugins. So, that's why I pulled out um an AI uh vibe coding app and put this together. Uh, and we'll get into that in my next",
+  "fetchedAt": "2026-01-18T18:32:41.043Z"
+}

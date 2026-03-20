@@ -1,0 +1,2904 @@
+{
+  "videoId": "OFow2aTnqB8",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.68,
+      "text": "Hey friends, today instead of me"
+    },
+    {
+      "start": 1.76,
+      "duration": 4.079,
+      "text": "rambling about more specket features and"
+    },
+    {
+      "start": 3.76,
+      "duration": 3.68,
+      "text": "changes, I thought I'd instead focus on"
+    },
+    {
+      "start": 5.839,
+      "duration": 4.081,
+      "text": "something that is much more important to"
+    },
+    {
+      "start": 7.44,
+      "duration": 4.239,
+      "text": "me and that is answering your questions."
+    },
+    {
+      "start": 9.92,
+      "duration": 4.4,
+      "text": "Uh the videos that I've been posting"
+    },
+    {
+      "start": 11.679,
+      "duration": 4.881,
+      "text": "about the specket evolution have been"
+    },
+    {
+      "start": 14.32,
+      "duration": 4.16,
+      "text": "gaining a lot of traction and there were"
+    },
+    {
+      "start": 16.56,
+      "duration": 3.92,
+      "text": "a lot of comments that I thought it'd be"
+    },
+    {
+      "start": 18.48,
+      "duration": 4.24,
+      "text": "much better for me to just address over"
+    },
+    {
+      "start": 20.48,
+      "duration": 4.4,
+      "text": "video so that future developers, future"
+    },
+    {
+      "start": 22.72,
+      "duration": 5.04,
+      "text": "PMs, designers, data scientists that are"
+    },
+    {
+      "start": 24.88,
+      "duration": 5.36,
+      "text": "using this tooling can benefit from. So"
+    },
+    {
+      "start": 27.76,
+      "duration": 4.16,
+      "text": "the first question is from Bobby"
+    },
+    {
+      "start": 30.24,
+      "duration": 3.68,
+      "text": "Wang0120"
+    },
+    {
+      "start": 31.92,
+      "duration": 3.84,
+      "text": "and that is thanks for the video and"
+    },
+    {
+      "start": 33.92,
+      "duration": 3.92,
+      "text": "specit quick question. You add the"
+    },
+    {
+      "start": 35.76,
+      "duration": 4.16,
+      "text": "learnings to the spec doc at the end"
+    },
+    {
+      "start": 37.84,
+      "duration": 3.6,
+      "text": "after several iterations the plan task"
+    },
+    {
+      "start": 39.92,
+      "duration": 3.04,
+      "text": "and other empty files can drift from"
+    },
+    {
+      "start": 41.44,
+      "duration": 4.48,
+      "text": "what actually shipped. Do you also"
+    },
+    {
+      "start": 42.96,
+      "duration": 4.64,
+      "text": "update those files or leave them as"
+    },
+    {
+      "start": 45.92,
+      "duration": 3.36,
+      "text": "historical in your view? Should we"
+    },
+    {
+      "start": 47.6,
+      "duration": 4.639,
+      "text": "update only the spec doc or all the docs"
+    },
+    {
+      "start": 49.28,
+      "duration": 6,
+      "text": "when the work is done? I'd say if I look"
+    },
+    {
+      "start": 52.239,
+      "duration": 6.48,
+      "text": "back at my workflow, I try to keep the"
+    },
+    {
+      "start": 55.28,
+      "duration": 6.88,
+      "text": "spec itself as the sole source of truth"
+    },
+    {
+      "start": 58.719,
+      "duration": 5.361,
+      "text": "unless I am making changes to specific"
+    },
+    {
+      "start": 62.16,
+      "duration": 4.72,
+      "text": "implementation details. So for example,"
+    },
+    {
+      "start": 64.08,
+      "duration": 5.84,
+      "text": "if I go through the process of designing"
+    },
+    {
+      "start": 66.88,
+      "duration": 4.32,
+      "text": "a new landing page for my site, right,"
+    },
+    {
+      "start": 69.92,
+      "duration": 3.199,
+      "text": "and I have made certain design"
+    },
+    {
+      "start": 71.2,
+      "duration": 4.4,
+      "text": "decisions, I have made certain decisions"
+    },
+    {
+      "start": 73.119,
+      "duration": 4.161,
+      "text": "around things like the layout of the"
+    },
+    {
+      "start": 75.6,
+      "duration": 4.159,
+      "text": "page or what should be and shouldn't be"
+    },
+    {
+      "start": 77.28,
+      "duration": 5.12,
+      "text": "included. And some of these decisions"
+    },
+    {
+      "start": 79.759,
+      "duration": 4.161,
+      "text": "will pop in after the fact, like you've"
+    },
+    {
+      "start": 82.4,
+      "duration": 2.64,
+      "text": "already started specifying things."
+    },
+    {
+      "start": 83.92,
+      "duration": 2.16,
+      "text": "You've already started kind of working"
+    },
+    {
+      "start": 85.04,
+      "duration": 3.2,
+      "text": "through the implementation and you"
+    },
+    {
+      "start": 86.08,
+      "duration": 4.399,
+      "text": "realize, oh, I forgot that I want to"
+    },
+    {
+      "start": 88.24,
+      "duration": 4.32,
+      "text": "include a list of testimonials. I forgot"
+    },
+    {
+      "start": 90.479,
+      "duration": 4.081,
+      "text": "that I want to include a contact form or"
+    },
+    {
+      "start": 92.56,
+      "duration": 5.04,
+      "text": "a box to subscribe to my newsletter."
+    },
+    {
+      "start": 94.56,
+      "duration": 5.36,
+      "text": "Right? So, you'll obviously ask the LLM"
+    },
+    {
+      "start": 97.6,
+      "duration": 4.8,
+      "text": "to go and get the functionality for you,"
+    },
+    {
+      "start": 99.92,
+      "duration": 4.879,
+      "text": "but that was not in your initial spec."
+    },
+    {
+      "start": 102.4,
+      "duration": 4.64,
+      "text": "And what I usually do is knowing the"
+    },
+    {
+      "start": 104.799,
+      "duration": 3.761,
+      "text": "fact that for a lot of these things I"
+    },
+    {
+      "start": 107.04,
+      "duration": 2.8,
+      "text": "will reuse them in the future. For"
+    },
+    {
+      "start": 108.56,
+      "duration": 2.72,
+      "text": "example, as I mentioned in my previous"
+    },
+    {
+      "start": 109.84,
+      "duration": 3.279,
+      "text": "video, like what if I decide to change"
+    },
+    {
+      "start": 111.28,
+      "duration": 4.479,
+      "text": "my static side generator or what I"
+    },
+    {
+      "start": 113.119,
+      "duration": 4.081,
+      "text": "decide to change the back end, I still"
+    },
+    {
+      "start": 115.759,
+      "duration": 3.761,
+      "text": "want to have the specification that is a"
+    },
+    {
+      "start": 117.2,
+      "duration": 5.279,
+      "text": "source of truth and reflecting what I"
+    },
+    {
+      "start": 119.52,
+      "duration": 4.8,
+      "text": "meant with the actual final output. So"
+    },
+    {
+      "start": 122.479,
+      "duration": 3.441,
+      "text": "in this case, I just asked the LLM to"
+    },
+    {
+      "start": 124.32,
+      "duration": 3.119,
+      "text": "encode the learnings from the"
+    },
+    {
+      "start": 125.92,
+      "duration": 3.759,
+      "text": "conversation from the context that we"
+    },
+    {
+      "start": 127.439,
+      "duration": 4.081,
+      "text": "have into the specification. And some of"
+    },
+    {
+      "start": 129.679,
+      "duration": 4.481,
+      "text": "those learnings can also be encoded into"
+    },
+    {
+      "start": 131.52,
+      "duration": 5.359,
+      "text": "the plan. Now, I personally consider the"
+    },
+    {
+      "start": 134.16,
+      "duration": 4.159,
+      "text": "spec to be the more durable artifact of"
+    },
+    {
+      "start": 136.879,
+      "duration": 3.44,
+      "text": "all of them, right? Because the plan"
+    },
+    {
+      "start": 138.319,
+      "duration": 3.841,
+      "text": "changes. As I mentioned, the plan is"
+    },
+    {
+      "start": 140.319,
+      "duration": 4.801,
+      "text": "much more flexible because the the the"
+    },
+    {
+      "start": 142.16,
+      "duration": 5.439,
+      "text": "plan file is the technical spec. This is"
+    },
+    {
+      "start": 145.12,
+      "duration": 3.839,
+      "text": "where I define the shape of the API."
+    },
+    {
+      "start": 147.599,
+      "duration": 2.961,
+      "text": "This is where I define the framework"
+    },
+    {
+      "start": 148.959,
+      "duration": 3.841,
+      "text": "that I'm using, the database. And those"
+    },
+    {
+      "start": 150.56,
+      "duration": 4.24,
+      "text": "can change. So, if you're not changing"
+    },
+    {
+      "start": 152.8,
+      "duration": 4.24,
+      "text": "those, you can leave the plan as is and"
+    },
+    {
+      "start": 154.8,
+      "duration": 4.4,
+      "text": "update just the spec. If you realize"
+    },
+    {
+      "start": 157.04,
+      "duration": 4.24,
+      "text": "that actually the database that I chose"
+    },
+    {
+      "start": 159.2,
+      "duration": 4.399,
+      "text": "is not really fitting like I can't use"
+    },
+    {
+      "start": 161.28,
+      "duration": 4.319,
+      "text": "SQL light I actually need to use like a"
+    },
+    {
+      "start": 163.599,
+      "duration": 3.681,
+      "text": "document DB hosted in the cloud then of"
+    },
+    {
+      "start": 165.599,
+      "duration": 4.161,
+      "text": "course update the plan as well but I"
+    },
+    {
+      "start": 167.28,
+      "duration": 4.319,
+      "text": "tend to update them and keep them"
+    },
+    {
+      "start": 169.76,
+      "duration": 3.52,
+      "text": "updated as I go through the process"
+    },
+    {
+      "start": 171.599,
+      "duration": 3.521,
+      "text": "because you're absolutely right but"
+    },
+    {
+      "start": 173.28,
+      "duration": 3.2,
+      "text": "there's going to be points where a lot"
+    },
+    {
+      "start": 175.12,
+      "duration": 3.52,
+      "text": "of these things will just be"
+    },
+    {
+      "start": 176.48,
+      "duration": 5.36,
+      "text": "underspecified and I will realize after"
+    },
+    {
+      "start": 178.64,
+      "duration": 4.959,
+      "text": "the fact that it drifted quite heavily"
+    },
+    {
+      "start": 181.84,
+      "duration": 3.119,
+      "text": "from what I initially envisioned because"
+    },
+    {
+      "start": 183.599,
+      "duration": 3.36,
+      "text": "I did not ask the questions that I"
+    },
+    {
+      "start": 184.959,
+      "duration": 3.601,
+      "text": "thought I would So, uh, keeping them up"
+    },
+    {
+      "start": 186.959,
+      "duration": 3.92,
+      "text": "to date is generally a good idea, but"
+    },
+    {
+      "start": 188.56,
+      "duration": 4.399,
+      "text": "I'd say from a priority perspective, the"
+    },
+    {
+      "start": 190.879,
+      "duration": 4.08,
+      "text": "spec document and the constitution"
+    },
+    {
+      "start": 192.959,
+      "duration": 3.92,
+      "text": "probably be the most important. And then"
+    },
+    {
+      "start": 194.959,
+      "duration": 4.801,
+      "text": "obviously the implementation plan and"
+    },
+    {
+      "start": 196.879,
+      "duration": 4.561,
+      "text": "tasks I say is generally a reflection of"
+    },
+    {
+      "start": 199.76,
+      "duration": 3.68,
+      "text": "the implementation plan or the technical"
+    },
+    {
+      "start": 201.44,
+      "duration": 4,
+      "text": "plan anyway. So, you can just delete"
+    },
+    {
+      "start": 203.44,
+      "duration": 4.879,
+      "text": "tasks and just recreate it as you see"
+    },
+    {
+      "start": 205.44,
+      "duration": 5.76,
+      "text": "fit. And another question is from Carlos"
+    },
+    {
+      "start": 208.319,
+      "duration": 4.64,
+      "text": "Pravia 4967. In our team, we tend to use"
+    },
+    {
+      "start": 211.2,
+      "duration": 4.24,
+      "text": "different git repos to develop different"
+    },
+    {
+      "start": 212.959,
+      "duration": 4.161,
+      "text": "parts of the app. For example, one repo"
+    },
+    {
+      "start": 215.44,
+      "duration": 3.2,
+      "text": "for implementing the required app logic"
+    },
+    {
+      "start": 217.12,
+      "duration": 3.679,
+      "text": "and endpoints, another for handling the"
+    },
+    {
+      "start": 218.64,
+      "duration": 4,
+      "text": "client side and UI, and perhaps another"
+    },
+    {
+      "start": 220.799,
+      "duration": 4.08,
+      "text": "for deploying GraphQL and maintaining"
+    },
+    {
+      "start": 222.64,
+      "duration": 3.599,
+      "text": "other types of data queries. In this"
+    },
+    {
+      "start": 224.879,
+      "duration": 3.28,
+      "text": "type of scenario, would you recommend"
+    },
+    {
+      "start": 226.239,
+      "duration": 4.481,
+      "text": "using one specit per repo to define,"
+    },
+    {
+      "start": 228.159,
+      "duration": 4.241,
+      "text": "refine, and test these components in a"
+    },
+    {
+      "start": 230.72,
+      "duration": 3.12,
+      "text": "modular and safe way? Maybe with"
+    },
+    {
+      "start": 232.4,
+      "duration": 3.199,
+      "text": "different team members focusing solely"
+    },
+    {
+      "start": 233.84,
+      "duration": 3.759,
+      "text": "on that part of the app and then having"
+    },
+    {
+      "start": 235.599,
+      "duration": 4.081,
+      "text": "another repo that maintains a highle"
+    },
+    {
+      "start": 237.599,
+      "duration": 4.241,
+      "text": "spec. How do you integrate and maintain"
+    },
+    {
+      "start": 239.68,
+      "duration": 3.44,
+      "text": "coherence between these components?"
+    },
+    {
+      "start": 241.84,
+      "duration": 3.44,
+      "text": "That's an actually interesting question"
+    },
+    {
+      "start": 243.12,
+      "duration": 3.52,
+      "text": "because in our samples so far, right,"
+    },
+    {
+      "start": 245.28,
+      "duration": 3.92,
+      "text": "like you've seen the videos, you've seen"
+    },
+    {
+      "start": 246.64,
+      "duration": 4.239,
+      "text": "the demos, it's all about having one"
+    },
+    {
+      "start": 249.2,
+      "duration": 4.239,
+      "text": "repository and because when you operate"
+    },
+    {
+      "start": 250.879,
+      "duration": 4.72,
+      "text": "in one repository, things are relatively"
+    },
+    {
+      "start": 253.439,
+      "duration": 4.721,
+      "text": "constrained and easy to manage because"
+    },
+    {
+      "start": 255.599,
+      "duration": 4.001,
+      "text": "uh if you work with the built-in specket"
+    },
+    {
+      "start": 258.16,
+      "duration": 3.52,
+      "text": "templates, you'll notice that when you"
+    },
+    {
+      "start": 259.6,
+      "duration": 4,
+      "text": "use the specify command, it's going to"
+    },
+    {
+      "start": 261.68,
+      "duration": 3.6,
+      "text": "create a new branch within that"
+    },
+    {
+      "start": 263.6,
+      "duration": 5.92,
+      "text": "repository, right? And that branch is"
+    },
+    {
+      "start": 265.28,
+      "duration": 6.4,
+      "text": "going to have a version of the templates"
+    },
+    {
+      "start": 269.52,
+      "duration": 4.72,
+      "text": "that sometimes are encoded based on the"
+    },
+    {
+      "start": 271.68,
+      "duration": 4.72,
+      "text": "constitution. There's going to have um a"
+    },
+    {
+      "start": 274.24,
+      "duration": 3.84,
+      "text": "version of the spec, a version of"
+    },
+    {
+      "start": 276.4,
+      "duration": 4.88,
+      "text": "anything else you might include in that"
+    },
+    {
+      "start": 278.08,
+      "duration": 6.32,
+      "text": "particular iteration. Right? So um if"
+    },
+    {
+      "start": 281.28,
+      "duration": 5.44,
+      "text": "there is a shared spec repo, then"
+    },
+    {
+      "start": 284.4,
+      "duration": 3.84,
+      "text": "somehow you need to cross reference it"
+    },
+    {
+      "start": 286.72,
+      "duration": 5.12,
+      "text": "from other repositories. Right? If you"
+    },
+    {
+      "start": 288.24,
+      "duration": 5.6,
+      "text": "have seven, 10, 15 different repos, then"
+    },
+    {
+      "start": 291.84,
+      "duration": 4.56,
+      "text": "how is that core spec repo being"
+    },
+    {
+      "start": 293.84,
+      "duration": 3.76,
+      "text": "included? Is it a sub module? Like you"
+    },
+    {
+      "start": 296.4,
+      "duration": 2.96,
+      "text": "could do that, but then you're just"
+    },
+    {
+      "start": 297.6,
+      "duration": 4.24,
+      "text": "increasing the complexity of actually"
+    },
+    {
+      "start": 299.36,
+      "duration": 4.32,
+      "text": "managing that code. So from my"
+    },
+    {
+      "start": 301.84,
+      "duration": 3.2,
+      "text": "perspective and my experiments that I"
+    },
+    {
+      "start": 303.68,
+      "duration": 2.72,
+      "text": "have done personally again take this"
+    },
+    {
+      "start": 305.04,
+      "duration": 2.48,
+      "text": "with a boulder of salt because it might"
+    },
+    {
+      "start": 306.4,
+      "duration": 3.92,
+      "text": "not be fitting for every single"
+    },
+    {
+      "start": 307.52,
+      "duration": 6.64,
+      "text": "scenarios but but what I've seen is"
+    },
+    {
+      "start": 310.32,
+      "duration": 5.36,
+      "text": "using one spec kit deployment and when I"
+    },
+    {
+      "start": 314.16,
+      "duration": 3.36,
+      "text": "say that is basically like bootstrapping"
+    },
+    {
+      "start": 315.68,
+      "duration": 4.16,
+      "text": "it for a specific project within one"
+    },
+    {
+      "start": 317.52,
+      "duration": 6,
+      "text": "repository is the most helpful because"
+    },
+    {
+      "start": 319.84,
+      "duration": 5.52,
+      "text": "then the the work is contained within"
+    },
+    {
+      "start": 323.52,
+      "duration": 4.72,
+      "text": "that repo and managing it becomes much"
+    },
+    {
+      "start": 325.36,
+      "duration": 4.48,
+      "text": "much easier than using it across"
+    },
+    {
+      "start": 328.24,
+      "duration": 3.44,
+      "text": "multiple repositories. Now that being"
+    },
+    {
+      "start": 329.84,
+      "duration": 3.199,
+      "text": "said, you can have content that is"
+    },
+    {
+      "start": 331.68,
+      "duration": 4,
+      "text": "shared. So for example, if you have a"
+    },
+    {
+      "start": 333.039,
+      "duration": 4.16,
+      "text": "constitution that defines how web apps"
+    },
+    {
+      "start": 335.68,
+      "duration": 2.88,
+      "text": "are built inside your organization, then"
+    },
+    {
+      "start": 337.199,
+      "duration": 3.28,
+      "text": "that constitution can be pulled in"
+    },
+    {
+      "start": 338.56,
+      "duration": 4.479,
+      "text": "through a git sub module for example,"
+    },
+    {
+      "start": 340.479,
+      "duration": 5.041,
+      "text": "right? Like that's seems fairly trivial"
+    },
+    {
+      "start": 343.039,
+      "duration": 5.041,
+      "text": "to set up and that is reusable. But"
+    },
+    {
+      "start": 345.52,
+      "duration": 4.48,
+      "text": "there's other things that might not work"
+    },
+    {
+      "start": 348.08,
+      "duration": 3.76,
+      "text": "as well, right? Because certain specs"
+    },
+    {
+      "start": 350,
+      "duration": 3.36,
+      "text": "that you create for one repo are not"
+    },
+    {
+      "start": 351.84,
+      "duration": 3.44,
+      "text": "really applicable to another one. If you"
+    },
+    {
+      "start": 353.36,
+      "duration": 3.839,
+      "text": "have a repository that is for a mobile"
+    },
+    {
+      "start": 355.28,
+      "duration": 4.32,
+      "text": "application, another one for a web app,"
+    },
+    {
+      "start": 357.199,
+      "duration": 5.601,
+      "text": "then those spec templates or even the"
+    },
+    {
+      "start": 359.6,
+      "duration": 5.28,
+      "text": "spec sets that already exist, there"
+    },
+    {
+      "start": 362.8,
+      "duration": 4.48,
+      "text": "value in probably matching them up"
+    },
+    {
+      "start": 364.88,
+      "duration": 4,
+      "text": "unless you're talking about specific API"
+    },
+    {
+      "start": 367.28,
+      "duration": 3.199,
+      "text": "design documents, right? So, I'd say"
+    },
+    {
+      "start": 368.88,
+      "duration": 4.08,
+      "text": "like it it really depends on the"
+    },
+    {
+      "start": 370.479,
+      "duration": 5.201,
+      "text": "workflow, but I've seen personally that"
+    },
+    {
+      "start": 372.96,
+      "duration": 5.359,
+      "text": "per repo configurations of specit work"
+    },
+    {
+      "start": 375.68,
+      "duration": 4.959,
+      "text": "better than having one shared unless you"
+    },
+    {
+      "start": 378.319,
+      "duration": 4.401,
+      "text": "absolutely need that. And then you can"
+    },
+    {
+      "start": 380.639,
+      "duration": 4.241,
+      "text": "use again tools like git subm modules to"
+    },
+    {
+      "start": 382.72,
+      "duration": 4.64,
+      "text": "create this kind of infrastructure"
+    },
+    {
+      "start": 384.88,
+      "duration": 3.52,
+      "text": "around the git the mechanisms to make"
+    },
+    {
+      "start": 387.36,
+      "duration": 2.959,
+      "text": "sure that that content is actually"
+    },
+    {
+      "start": 388.4,
+      "duration": 3.519,
+      "text": "shared across repositories. All right,"
+    },
+    {
+      "start": 390.319,
+      "duration": 4.401,
+      "text": "the next one is a very interesting one."
+    },
+    {
+      "start": 391.919,
+      "duration": 4.481,
+      "text": "It's from Suzie Q codes. Great video. I"
+    },
+    {
+      "start": 394.72,
+      "duration": 4.8,
+      "text": "added to an existing project and use it"
+    },
+    {
+      "start": 396.4,
+      "duration": 5.359,
+      "text": "to help refactor a monolithic page.tsx"
+    },
+    {
+      "start": 399.52,
+      "duration": 3.679,
+      "text": "as TypeScript component. It seemed to be"
+    },
+    {
+      "start": 401.759,
+      "duration": 2.88,
+      "text": "going great, but when it made some"
+    },
+    {
+      "start": 403.199,
+      "duration": 3.681,
+      "text": "changes, I noticed it had dropped some"
+    },
+    {
+      "start": 404.639,
+      "duration": 3.68,
+      "text": "prior features. I'm using cursor. I"
+    },
+    {
+      "start": 406.88,
+      "duration": 2.96,
+      "text": "asked it a few questions and immediately"
+    },
+    {
+      "start": 408.319,
+      "duration": 3.681,
+      "text": "began making more code changes. even"
+    },
+    {
+      "start": 409.84,
+      "duration": 4.32,
+      "text": "though we hadn't specked out the changes"
+    },
+    {
+      "start": 412,
+      "duration": 3.36,
+      "text": "which yeah makes sense. So if you"
+    },
+    {
+      "start": 414.16,
+      "duration": 3.039,
+      "text": "overlook something and it starts"
+    },
+    {
+      "start": 415.36,
+      "duration": 3.119,
+      "text": "creating new files which you then catch"
+    },
+    {
+      "start": 417.199,
+      "duration": 3.361,
+      "text": "what's the best process to capture the"
+    },
+    {
+      "start": 418.479,
+      "duration": 3.921,
+      "text": "right specs research tasks I had to"
+    },
+    {
+      "start": 420.56,
+      "duration": 3.039,
+      "text": "unwind and write a new spec even though"
+    },
+    {
+      "start": 422.4,
+      "duration": 2.88,
+      "text": "spec one hadn't been completely"
+    },
+    {
+      "start": 423.599,
+      "duration": 4.081,
+      "text": "implemented correctly or does spec 2"
+    },
+    {
+      "start": 425.28,
+      "duration": 4.479,
+      "text": "take care of updating what occurred in"
+    },
+    {
+      "start": 427.68,
+      "duration": 4.32,
+      "text": "the first branch."
+    },
+    {
+      "start": 429.759,
+      "duration": 4.481,
+      "text": "So this is an interesting scenario. So I"
+    },
+    {
+      "start": 432,
+      "duration": 3.68,
+      "text": "think if I unwind"
+    },
+    {
+      "start": 434.24,
+      "duration": 4.56,
+      "text": "kind of this explanation it's"
+    },
+    {
+      "start": 435.68,
+      "duration": 5.04,
+      "text": "essentially you have started a project"
+    },
+    {
+      "start": 438.8,
+      "duration": 4.56,
+      "text": "you have a specification you went"
+    },
+    {
+      "start": 440.72,
+      "duration": 4.96,
+      "text": "through that spec process and then down"
+    },
+    {
+      "start": 443.36,
+      "duration": 3.92,
+      "text": "the line you realize that oh cursor"
+    },
+    {
+      "start": 445.68,
+      "duration": 4.079,
+      "text": "started going off the rails a little bit"
+    },
+    {
+      "start": 447.28,
+      "duration": 4,
+      "text": "and just creating things on its own that"
+    },
+    {
+      "start": 449.759,
+      "duration": 4.321,
+      "text": "you did not ask for it and so you need"
+    },
+    {
+      "start": 451.28,
+      "duration": 5.759,
+      "text": "to now go and remove those files. What I"
+    },
+    {
+      "start": 454.08,
+      "duration": 6.08,
+      "text": "started doing generally and this is why"
+    },
+    {
+      "start": 457.039,
+      "duration": 5.921,
+      "text": "it's so important to use git here. It is"
+    },
+    {
+      "start": 460.16,
+      "duration": 6.319,
+      "text": "it is so so important to use source"
+    },
+    {
+      "start": 462.96,
+      "duration": 5.44,
+      "text": "control is my approach to this is when I"
+    },
+    {
+      "start": 466.479,
+      "duration": 4.961,
+      "text": "start working on a new feature I start"
+    },
+    {
+      "start": 468.4,
+      "duration": 5.84,
+      "text": "working on a new component for something"
+    },
+    {
+      "start": 471.44,
+      "duration": 4.64,
+      "text": "or a bug fix and I use specit. So when I"
+    },
+    {
+      "start": 474.24,
+      "duration": 4.079,
+      "text": "use slp specify it of course creates a"
+    },
+    {
+      "start": 476.08,
+      "duration": 4.799,
+      "text": "new branch that makes it very easy. I"
+    },
+    {
+      "start": 478.319,
+      "duration": 5.28,
+      "text": "also use a git client. A git client like"
+    },
+    {
+      "start": 480.879,
+      "duration": 6.16,
+      "text": "GitHub desktop or Sublime Merge or Git"
+    },
+    {
+      "start": 483.599,
+      "duration": 5.6,
+      "text": "Kraken. Any of them really are great."
+    },
+    {
+      "start": 487.039,
+      "duration": 3.361,
+      "text": "You know, it's all like ice cream. It"
+    },
+    {
+      "start": 489.199,
+      "duration": 3.12,
+      "text": "depends on your preference and what you"
+    },
+    {
+      "start": 490.4,
+      "duration": 3.919,
+      "text": "actually like. But what I started doing"
+    },
+    {
+      "start": 492.319,
+      "duration": 3.761,
+      "text": "is as I go through this iterative"
+    },
+    {
+      "start": 494.319,
+      "duration": 3.841,
+      "text": "process and especially once you go into"
+    },
+    {
+      "start": 496.08,
+      "duration": 3.839,
+      "text": "the implementation stages and that"
+    },
+    {
+      "start": 498.16,
+      "duration": 3.439,
+      "text": "things can become a little bit murkier"
+    },
+    {
+      "start": 499.919,
+      "duration": 3.761,
+      "text": "because there's things that you have not"
+    },
+    {
+      "start": 501.599,
+      "duration": 3.28,
+      "text": "specified in the initial spec and"
+    },
+    {
+      "start": 503.68,
+      "duration": 3.68,
+      "text": "initial prompt and then you have to go"
+    },
+    {
+      "start": 504.879,
+      "duration": 4.081,
+      "text": "and cover that. What happens is"
+    },
+    {
+      "start": 507.36,
+      "duration": 3.839,
+      "text": "sometimes it does go over the rails. It"
+    },
+    {
+      "start": 508.96,
+      "duration": 4.16,
+      "text": "starts creating new files going building"
+    },
+    {
+      "start": 511.199,
+      "duration": 4.96,
+      "text": "experiences you did not ask it for. And"
+    },
+    {
+      "start": 513.12,
+      "duration": 5.279,
+      "text": "the easiest way for you to unwind that"
+    },
+    {
+      "start": 516.159,
+      "duration": 3.601,
+      "text": "is to first of all encode the"
+    },
+    {
+      "start": 518.399,
+      "duration": 3.361,
+      "text": "requirements that you want. So you spot"
+    },
+    {
+      "start": 519.76,
+      "duration": 5.68,
+      "text": "it's like oh I do not want to have a"
+    },
+    {
+      "start": 521.76,
+      "duration": 5.6,
+      "text": "component for uh footer changes on my"
+    },
+    {
+      "start": 525.44,
+      "duration": 4,
+      "text": "website. Right? So that's fine. You"
+    },
+    {
+      "start": 527.36,
+      "duration": 4,
+      "text": "encode it in a specification and then"
+    },
+    {
+      "start": 529.44,
+      "duration": 3.28,
+      "text": "you go to the git client that you have"
+    },
+    {
+      "start": 531.36,
+      "duration": 4.159,
+      "text": "because you're already operating on a"
+    },
+    {
+      "start": 532.72,
+      "duration": 5.04,
+      "text": "branch. You select the files that were"
+    },
+    {
+      "start": 535.519,
+      "duration": 3.841,
+      "text": "not yet committed because we're because"
+    },
+    {
+      "start": 537.76,
+      "duration": 3.12,
+      "text": "we're working on git, we don't just"
+    },
+    {
+      "start": 539.36,
+      "duration": 3.76,
+      "text": "automatically commit every single"
+    },
+    {
+      "start": 540.88,
+      "duration": 4.079,
+      "text": "change, but we do it in batches. So, and"
+    },
+    {
+      "start": 543.12,
+      "duration": 3.2,
+      "text": "you can just discard those changes. The"
+    },
+    {
+      "start": 544.959,
+      "duration": 3.44,
+      "text": "spec can stay the same. The spec"
+    },
+    {
+      "start": 546.32,
+      "duration": 3.68,
+      "text": "document is there. Make sure that that"
+    },
+    {
+      "start": 548.399,
+      "duration": 3.681,
+      "text": "is actually checked into the branch and"
+    },
+    {
+      "start": 550,
+      "duration": 3.92,
+      "text": "committed and pushed. And then the code"
+    },
+    {
+      "start": 552.08,
+      "duration": 4.8,
+      "text": "changes are flexible. So, if you see it"
+    },
+    {
+      "start": 553.92,
+      "duration": 4.88,
+      "text": "go off the rails, just update the spec,"
+    },
+    {
+      "start": 556.88,
+      "duration": 4.24,
+      "text": "discard the changes for the files, and"
+    },
+    {
+      "start": 558.8,
+      "duration": 4,
+      "text": "then use the spec to re essentially go"
+    },
+    {
+      "start": 561.12,
+      "duration": 3.76,
+      "text": "through the process of creating things."
+    },
+    {
+      "start": 562.8,
+      "duration": 5.039,
+      "text": "So that to me is the easiest way to do"
+    },
+    {
+      "start": 564.88,
+      "duration": 6,
+      "text": "this is just lean heavily into the"
+    },
+    {
+      "start": 567.839,
+      "duration": 4.641,
+      "text": "actual git workflows. Super important. I"
+    },
+    {
+      "start": 570.88,
+      "duration": 3.519,
+      "text": "think if there's one thing that I"
+    },
+    {
+      "start": 572.48,
+      "duration": 4.24,
+      "text": "encourage people that are trying to use"
+    },
+    {
+      "start": 574.399,
+      "duration": 4.481,
+      "text": "specitate is get very familiar with how"
+    },
+    {
+      "start": 576.72,
+      "duration": 4.559,
+      "text": "git works, how branching works and how"
+    },
+    {
+      "start": 578.88,
+      "duration": 4.48,
+      "text": "you can stage changes and iterate on"
+    },
+    {
+      "start": 581.279,
+      "duration": 4.961,
+      "text": "them without necessarily worrying about"
+    },
+    {
+      "start": 583.36,
+      "duration": 4.96,
+      "text": "the fact that a uh, you know, a rogue"
+    },
+    {
+      "start": 586.24,
+      "duration": 4.24,
+      "text": "agent is going to go astray because it"
+    },
+    {
+      "start": 588.32,
+      "duration": 3.519,
+      "text": "decided to, you know, design something"
+    },
+    {
+      "start": 590.48,
+      "duration": 3.44,
+      "text": "differently and now you have to go and"
+    },
+    {
+      "start": 591.839,
+      "duration": 3.521,
+      "text": "unfurl and figure out like what are all"
+    },
+    {
+      "start": 593.92,
+      "duration": 4.24,
+      "text": "the things that went wrong and what are"
+    },
+    {
+      "start": 595.36,
+      "duration": 5.2,
+      "text": "the code changes like use git commit"
+    },
+    {
+      "start": 598.16,
+      "duration": 4.72,
+      "text": "often for things that work as you"
+    },
+    {
+      "start": 600.56,
+      "duration": 4.88,
+      "text": "iterate, make sure that you you track of"
+    },
+    {
+      "start": 602.88,
+      "duration": 4.959,
+      "text": "that again with git on a branch that we"
+    },
+    {
+      "start": 605.44,
+      "duration": 3.92,
+      "text": "create for you by default and then use"
+    },
+    {
+      "start": 607.839,
+      "duration": 2.881,
+      "text": "that to your advantage. That that would"
+    },
+    {
+      "start": 609.36,
+      "duration": 2.96,
+      "text": "be my recipe for this. That's the"
+    },
+    {
+      "start": 610.72,
+      "duration": 3.92,
+      "text": "easiest way to manage it. All right, the"
+    },
+    {
+      "start": 612.32,
+      "duration": 3.68,
+      "text": "next question is from griff.an and that"
+    },
+    {
+      "start": 614.64,
+      "duration": 3.199,
+      "text": "is you mentioned the possibility of"
+    },
+    {
+      "start": 616,
+      "duration": 4.24,
+      "text": "refactoring the website in the future"
+    },
+    {
+      "start": 617.839,
+      "duration": 3.921,
+      "text": "and being able to simply reuse the spec"
+    },
+    {
+      "start": 620.24,
+      "duration": 3.36,
+      "text": "because it did not include technical"
+    },
+    {
+      "start": 621.76,
+      "duration": 4.56,
+      "text": "implementation details. How would a"
+    },
+    {
+      "start": 623.6,
+      "duration": 4.56,
+      "text": "process like that work? Does the agent"
+    },
+    {
+      "start": 626.32,
+      "duration": 3.519,
+      "text": "go back through each feature spec one by"
+    },
+    {
+      "start": 628.16,
+      "duration": 3.679,
+      "text": "one, including branching if you were to"
+    },
+    {
+      "start": 629.839,
+      "duration": 4.401,
+      "text": "create a new empty project with just the"
+    },
+    {
+      "start": 631.839,
+      "duration": 4.401,
+      "text": "constitution and specs? So, that's an"
+    },
+    {
+      "start": 634.24,
+      "duration": 3.44,
+      "text": "interesting one because I it's coming on"
+    },
+    {
+      "start": 636.24,
+      "duration": 3.76,
+      "text": "the heels of the last video where I"
+    },
+    {
+      "start": 637.68,
+      "duration": 5.76,
+      "text": "showed that I added a reading list to my"
+    },
+    {
+      "start": 640,
+      "duration": 5.279,
+      "text": "website. And the challenge with this is"
+    },
+    {
+      "start": 643.44,
+      "duration": 4.48,
+      "text": "that initially when I started my"
+    },
+    {
+      "start": 645.279,
+      "duration": 5.201,
+      "text": "website, I of course did not use specit."
+    },
+    {
+      "start": 647.92,
+      "duration": 4.479,
+      "text": "The website was started based on my own"
+    },
+    {
+      "start": 650.48,
+      "duration": 3.52,
+      "text": "blogging habits, my own configuration."
+    },
+    {
+      "start": 652.399,
+      "duration": 3.68,
+      "text": "And I actually wrote some custom"
+    },
+    {
+      "start": 654,
+      "duration": 3.44,
+      "text": "templates on top of congo mod as I"
+    },
+    {
+      "start": 656.079,
+      "duration": 4.32,
+      "text": "called out in the video. It's all based"
+    },
+    {
+      "start": 657.44,
+      "duration": 5.92,
+      "text": "on uh Hugo the Hugoatic site generator."
+    },
+    {
+      "start": 660.399,
+      "duration": 5.201,
+      "text": "Now of course in the context of this"
+    },
+    {
+      "start": 663.36,
+      "duration": 3.919,
+      "text": "functionality not everything would be"
+    },
+    {
+      "start": 665.6,
+      "duration": 3.52,
+      "text": "recreated from scratch because this is"
+    },
+    {
+      "start": 667.279,
+      "duration": 3.281,
+      "text": "not what's referred to as a green field"
+    },
+    {
+      "start": 669.12,
+      "duration": 3.68,
+      "text": "project. This is not a project that I"
+    },
+    {
+      "start": 670.56,
+      "duration": 4.24,
+      "text": "set up from scratch from zero with all"
+    },
+    {
+      "start": 672.8,
+      "duration": 4.96,
+      "text": "the artifacts being built with specit."
+    },
+    {
+      "start": 674.8,
+      "duration": 4.24,
+      "text": "So unless I go back and actually say"
+    },
+    {
+      "start": 677.76,
+      "duration": 2.72,
+      "text": "here's the structure of the landing"
+    },
+    {
+      "start": 679.04,
+      "duration": 2.799,
+      "text": "page, here's the structure of the about"
+    },
+    {
+      "start": 680.48,
+      "duration": 3.2,
+      "text": "page, here's the structure of the blog"
+    },
+    {
+      "start": 681.839,
+      "duration": 4.961,
+      "text": "post page, all the stuff of course would"
+    },
+    {
+      "start": 683.68,
+      "duration": 5.76,
+      "text": "not be recreated. But for features that"
+    },
+    {
+      "start": 686.8,
+      "duration": 5.039,
+      "text": "were built using specit for bug fixes"
+    },
+    {
+      "start": 689.44,
+      "duration": 4.959,
+      "text": "that were built using specit for"
+    },
+    {
+      "start": 691.839,
+      "duration": 4.801,
+      "text": "anything that is actually encoded in"
+    },
+    {
+      "start": 694.399,
+      "duration": 3.761,
+      "text": "spec files, I can recreate this. So you"
+    },
+    {
+      "start": 696.64,
+      "duration": 3.439,
+      "text": "can imagine if I at some point decide"
+    },
+    {
+      "start": 698.16,
+      "duration": 4.48,
+      "text": "instead of using Hugo to move to let's"
+    },
+    {
+      "start": 700.079,
+      "duration": 5.361,
+      "text": "say Jackal and Jackekal uses a different"
+    },
+    {
+      "start": 702.64,
+      "duration": 4.96,
+      "text": "templating engine and I don't have the"
+    },
+    {
+      "start": 705.44,
+      "duration": 4.88,
+      "text": "same ability to just have a built-in"
+    },
+    {
+      "start": 707.6,
+      "duration": 5.12,
+      "text": "reading list page. I can just ask my"
+    },
+    {
+      "start": 710.32,
+      "duration": 6.16,
+      "text": "coding agent whatever I use at the time"
+    },
+    {
+      "start": 712.72,
+      "duration": 5.84,
+      "text": "to go in and rebuild based on that spec."
+    },
+    {
+      "start": 716.48,
+      "duration": 3.359,
+      "text": "Right? So in the context of the codebase"
+    },
+    {
+      "start": 718.56,
+      "duration": 2.88,
+      "text": "I'm operating in is going to go ahead"
+    },
+    {
+      "start": 719.839,
+      "duration": 3.041,
+      "text": "and rebuild that. Now, of course, it's"
+    },
+    {
+      "start": 721.44,
+      "duration": 2.56,
+      "text": "not going to rebuild everything and of"
+    },
+    {
+      "start": 722.88,
+      "duration": 4.639,
+      "text": "course there's going to be a lot of"
+    },
+    {
+      "start": 724,
+      "duration": 5.519,
+      "text": "variability, but it is the approach"
+    },
+    {
+      "start": 727.519,
+      "duration": 3.921,
+      "text": "here. So, you can you can essentially"
+    },
+    {
+      "start": 729.519,
+      "duration": 3.521,
+      "text": "detach the implementation from the spec"
+    },
+    {
+      "start": 731.44,
+      "duration": 3.199,
+      "text": "and that that's where the value of the"
+    },
+    {
+      "start": 733.04,
+      "duration": 5.359,
+      "text": "specification comes from, right? Because"
+    },
+    {
+      "start": 734.639,
+      "duration": 5.681,
+      "text": "the spec itself is the I want to call it"
+    },
+    {
+      "start": 738.399,
+      "duration": 4.161,
+      "text": "like the executable artifact. This the"
+    },
+    {
+      "start": 740.32,
+      "duration": 4,
+      "text": "spec becomes the code because I can just"
+    },
+    {
+      "start": 742.56,
+      "duration": 3.12,
+      "text": "toss it into an LLM and say go build"
+    },
+    {
+      "start": 744.32,
+      "duration": 3.28,
+      "text": "this in the context of what I'm"
+    },
+    {
+      "start": 745.68,
+      "duration": 4.399,
+      "text": "operating. If you're building a project"
+    },
+    {
+      "start": 747.6,
+      "duration": 3.919,
+      "text": "from scratch that is a brand new app,"
+    },
+    {
+      "start": 750.079,
+      "duration": 3.841,
+      "text": "you're building, I don't know, a SAS"
+    },
+    {
+      "start": 751.519,
+      "duration": 4.481,
+      "text": "business, it's a SAS application, and"
+    },
+    {
+      "start": 753.92,
+      "duration": 4.08,
+      "text": "then you encode everything in specs and"
+    },
+    {
+      "start": 756,
+      "duration": 4.72,
+      "text": "every feature is spec, you know, your"
+    },
+    {
+      "start": 758,
+      "duration": 4.88,
+      "text": "landing page, your checkout page, your"
+    },
+    {
+      "start": 760.72,
+      "duration": 4.4,
+      "text": "user profile page, then of course, like"
+    },
+    {
+      "start": 762.88,
+      "duration": 4.32,
+      "text": "because you have those artifacts down"
+    },
+    {
+      "start": 765.12,
+      "duration": 3.68,
+      "text": "the line, you can go on and recreate"
+    },
+    {
+      "start": 767.2,
+      "duration": 2.96,
+      "text": "that with a different framework, with a"
+    },
+    {
+      "start": 768.8,
+      "duration": 3.44,
+      "text": "different tool set on different"
+    },
+    {
+      "start": 770.16,
+      "duration": 3.28,
+      "text": "databases and so on so forth. But it"
+    },
+    {
+      "start": 772.24,
+      "duration": 3.039,
+      "text": "depends on a project. And if it's a"
+    },
+    {
+      "start": 773.44,
+      "duration": 4.16,
+      "text": "brownfield project then of course it"
+    },
+    {
+      "start": 775.279,
+      "duration": 4.961,
+      "text": "will depend on having prior information"
+    },
+    {
+      "start": 777.6,
+      "duration": 6.16,
+      "text": "encoded in specs. The next question is"
+    },
+    {
+      "start": 780.24,
+      "duration": 5.12,
+      "text": "from Alpara Manalp 2933 and that is"
+    },
+    {
+      "start": 783.76,
+      "duration": 4.24,
+      "text": "thanks for the great effort. The main"
+    },
+    {
+      "start": 785.36,
+      "duration": 4.4,
+      "text": "problem with specit is TDD or testdriven"
+    },
+    {
+      "start": 788,
+      "duration": 3.36,
+      "text": "development. I think if you put a non"
+    },
+    {
+      "start": 789.76,
+      "duration": 3.28,
+      "text": "TDD approach in the constitution it will"
+    },
+    {
+      "start": 791.36,
+      "duration": 3.039,
+      "text": "shine. I don't have anything as TDD but"
+    },
+    {
+      "start": 793.04,
+      "duration": 6,
+      "text": "intelligence context for expensive"
+    },
+    {
+      "start": 794.399,
+      "duration": 7.281,
+      "text": "credits etc. V wise we're not there yet."
+    },
+    {
+      "start": 799.04,
+      "duration": 4.16,
+      "text": "Uh yes I know and I'm practively working"
+    },
+    {
+      "start": 801.68,
+      "duration": 3.279,
+      "text": "on this. So for folks that don't know,"
+    },
+    {
+      "start": 803.2,
+      "duration": 5.04,
+      "text": "if you use the built-in templates, one"
+    },
+    {
+      "start": 804.959,
+      "duration": 4.88,
+      "text": "of the things that we encoded in them is"
+    },
+    {
+      "start": 808.24,
+      "duration": 3.44,
+      "text": "testdriven development approaches. So"
+    },
+    {
+      "start": 809.839,
+      "duration": 3.521,
+      "text": "any new project, any new feature starts,"
+    },
+    {
+      "start": 811.68,
+      "duration": 3.839,
+      "text": "it actually goes in and says, \"Oh, you"
+    },
+    {
+      "start": 813.36,
+      "duration": 5.52,
+      "text": "need to create tests.\" And as you saw in"
+    },
+    {
+      "start": 815.519,
+      "duration": 5.681,
+      "text": "my last video where I talked about the"
+    },
+    {
+      "start": 818.88,
+      "duration": 4.959,
+      "text": "possibility of using this with my own"
+    },
+    {
+      "start": 821.2,
+      "duration": 5.199,
+      "text": "site like I don't need tests. I'm just"
+    },
+    {
+      "start": 823.839,
+      "duration": 5.44,
+      "text": "creating something that is based on the"
+    },
+    {
+      "start": 826.399,
+      "duration": 4.961,
+      "text": "existing project. I just want a new page"
+    },
+    {
+      "start": 829.279,
+      "duration": 4.721,
+      "text": "for for the site, right? the tests can"
+    },
+    {
+      "start": 831.36,
+      "duration": 4.479,
+      "text": "be very very heavy and very timeconuming"
+    },
+    {
+      "start": 834,
+      "duration": 4.079,
+      "text": "context consuming as well because"
+    },
+    {
+      "start": 835.839,
+      "duration": 5.041,
+      "text": "building that out is just a massive"
+    },
+    {
+      "start": 838.079,
+      "duration": 4.161,
+      "text": "massive pain on the behind. So yes,"
+    },
+    {
+      "start": 840.88,
+      "duration": 3.199,
+      "text": "fully acknowledge that this is a"
+    },
+    {
+      "start": 842.24,
+      "duration": 4.88,
+      "text": "problem. It's coming. We're going to"
+    },
+    {
+      "start": 844.079,
+      "duration": 5.361,
+      "text": "have a TDD less option for this and then"
+    },
+    {
+      "start": 847.12,
+      "duration": 4,
+      "text": "you can add test driven as you need, but"
+    },
+    {
+      "start": 849.44,
+      "duration": 4.24,
+      "text": "it's not going to be baked in by default"
+    },
+    {
+      "start": 851.12,
+      "duration": 4,
+      "text": "because yeah, I agree it's it's it's a"
+    },
+    {
+      "start": 853.68,
+      "duration": 2.959,
+      "text": "little heavy and it's not really"
+    },
+    {
+      "start": 855.12,
+      "duration": 3.68,
+      "text": "appropriate for every single scenario."
+    },
+    {
+      "start": 856.639,
+      "duration": 4.241,
+      "text": "I'd say like even actually for most very"
+    },
+    {
+      "start": 858.8,
+      "duration": 3.92,
+      "text": "quick prototypy iterative scenarios like"
+    },
+    {
+      "start": 860.88,
+      "duration": 4.079,
+      "text": "I don't I don't need tests. Just give me"
+    },
+    {
+      "start": 862.72,
+      "duration": 3.919,
+      "text": "the product. I want to see it. I want to"
+    },
+    {
+      "start": 864.959,
+      "duration": 2.88,
+      "text": "I want to see it on my screen. I want to"
+    },
+    {
+      "start": 866.639,
+      "duration": 3.041,
+      "text": "be able to interact with it and not"
+    },
+    {
+      "start": 867.839,
+      "duration": 4.321,
+      "text": "worry about which tests were created"
+    },
+    {
+      "start": 869.68,
+      "duration": 5.279,
+      "text": "because all that stuff can come in later"
+    },
+    {
+      "start": 872.16,
+      "duration": 4.64,
+      "text": "for more serious enterprisy projects. So"
+    },
+    {
+      "start": 874.959,
+      "duration": 3.601,
+      "text": "point taken. Thank you so much for the"
+    },
+    {
+      "start": 876.8,
+      "duration": 4,
+      "text": "feedback. Now another question comes"
+    },
+    {
+      "start": 878.56,
+      "duration": 4.399,
+      "text": "from ninjatronics and is so what will be"
+    },
+    {
+      "start": 880.8,
+      "duration": 4,
+      "text": "the proper way of adding features to my"
+    },
+    {
+      "start": 882.959,
+      "duration": 4.88,
+      "text": "current website that I didn't start with"
+    },
+    {
+      "start": 884.8,
+      "duration": 5.36,
+      "text": "speckit h it's exactly the same thing"
+    },
+    {
+      "start": 887.839,
+      "duration": 4.481,
+      "text": "that I did in my previous video uh the"
+    },
+    {
+      "start": 890.16,
+      "duration": 4.239,
+      "text": "site that you saw the blog that I"
+    },
+    {
+      "start": 892.32,
+      "duration": 5.12,
+      "text": "maintained my own blog is not actually"
+    },
+    {
+      "start": 894.399,
+      "duration": 4.961,
+      "text": "built with speckit I had it for since I"
+    },
+    {
+      "start": 897.44,
+      "duration": 4.399,
+      "text": "want to say like 2017 in the current"
+    },
+    {
+      "start": 899.36,
+      "duration": 4.159,
+      "text": "shape with Hugo and for like uh more"
+    },
+    {
+      "start": 901.839,
+      "duration": 3.36,
+      "text": "than a decade because I used WordPress"
+    },
+    {
+      "start": 903.519,
+      "duration": 4.56,
+      "text": "before right like it was not built with"
+    },
+    {
+      "start": 905.199,
+      "duration": 5.521,
+      "text": "specit It's a custom theme and I use"
+    },
+    {
+      "start": 908.079,
+      "duration": 5.521,
+      "text": "spec kit to build on top of it. So you"
+    },
+    {
+      "start": 910.72,
+      "duration": 4.64,
+      "text": "can use different techniques to actually"
+    },
+    {
+      "start": 913.6,
+      "duration": 3.359,
+      "text": "build out the context of the codebase,"
+    },
+    {
+      "start": 915.36,
+      "duration": 3.599,
+      "text": "right? So like folks have been using"
+    },
+    {
+      "start": 916.959,
+      "duration": 3.921,
+      "text": "cloud.md to provide that context. And by"
+    },
+    {
+      "start": 918.959,
+      "duration": 4.32,
+      "text": "the way, when you use specit and"
+    },
+    {
+      "start": 920.88,
+      "duration": 4.24,
+      "text": "specifically one of the uh commands is"
+    },
+    {
+      "start": 923.279,
+      "duration": 3.281,
+      "text": "going to bootstrap that agent file, it"
+    },
+    {
+      "start": 925.12,
+      "duration": 3.44,
+      "text": "does not exist to encode some of the"
+    },
+    {
+      "start": 926.56,
+      "duration": 4.48,
+      "text": "decisions. But if you already have one,"
+    },
+    {
+      "start": 928.56,
+      "duration": 4.639,
+      "text": "then you can use that to provide context"
+    },
+    {
+      "start": 931.04,
+      "duration": 3.44,
+      "text": "as to how your project is structured,"
+    },
+    {
+      "start": 933.199,
+      "duration": 3.44,
+      "text": "what are the components, how it"
+    },
+    {
+      "start": 934.48,
+      "duration": 4.08,
+      "text": "operates, how it's being built. And that"
+    },
+    {
+      "start": 936.639,
+      "duration": 3.521,
+      "text": "will allow the LLM that as you're"
+    },
+    {
+      "start": 938.56,
+      "duration": 4.16,
+      "text": "creating new features to use that"
+    },
+    {
+      "start": 940.16,
+      "duration": 4,
+      "text": "context to actually understand the"
+    },
+    {
+      "start": 942.72,
+      "duration": 4,
+      "text": "relationships and know like, oh, if I'm"
+    },
+    {
+      "start": 944.16,
+      "duration": 4.239,
+      "text": "going to create a new footer, I need to"
+    },
+    {
+      "start": 946.72,
+      "duration": 3.52,
+      "text": "look in the components folder here for"
+    },
+    {
+      "start": 948.399,
+      "duration": 4.081,
+      "text": "this tsx file that's going to be my"
+    },
+    {
+      "start": 950.24,
+      "duration": 4.159,
+      "text": "footer. Right? So the process is not"
+    },
+    {
+      "start": 952.48,
+      "duration": 4.159,
+      "text": "that different from any green field"
+    },
+    {
+      "start": 954.399,
+      "duration": 4,
+      "text": "projects is your biggest bottleneck is"
+    },
+    {
+      "start": 956.639,
+      "duration": 4.961,
+      "text": "really going to be to provide as much"
+    },
+    {
+      "start": 958.399,
+      "duration": 5.281,
+      "text": "context of as possible about your"
+    },
+    {
+      "start": 961.6,
+      "duration": 4,
+      "text": "project about what you're building and"
+    },
+    {
+      "start": 963.68,
+      "duration": 4.64,
+      "text": "how you built it previously so that when"
+    },
+    {
+      "start": 965.6,
+      "duration": 4.479,
+      "text": "you start specking new things it has"
+    },
+    {
+      "start": 968.32,
+      "duration": 3.519,
+      "text": "that context and then you can operate"
+    },
+    {
+      "start": 970.079,
+      "duration": 4.481,
+      "text": "with it and say oh I know where to look"
+    },
+    {
+      "start": 971.839,
+      "duration": 4.24,
+      "text": "for components. That being said, in my"
+    },
+    {
+      "start": 974.56,
+      "duration": 3.44,
+      "text": "experience, depending on the complexity"
+    },
+    {
+      "start": 976.079,
+      "duration": 4.721,
+      "text": "of the project, the LLMs, the modern"
+    },
+    {
+      "start": 978,
+      "duration": 4.48,
+      "text": "models especially are very good about"
+    },
+    {
+      "start": 980.8,
+      "duration": 4.08,
+      "text": "kind of sussing out this context"
+    },
+    {
+      "start": 982.48,
+      "duration": 3.919,
+      "text": "dynamically. So I, as an experiment, you"
+    },
+    {
+      "start": 984.88,
+      "duration": 2.72,
+      "text": "know, I showed you the reading page in"
+    },
+    {
+      "start": 986.399,
+      "duration": 4.401,
+      "text": "my previous video, but something that"
+    },
+    {
+      "start": 987.6,
+      "duration": 5.2,
+      "text": "I've also done before is asking it to go"
+    },
+    {
+      "start": 990.8,
+      "duration": 4.56,
+      "text": "and build me a new component that I can"
+    },
+    {
+      "start": 992.8,
+      "duration": 4.479,
+      "text": "embed like a podcast player in specific"
+    },
+    {
+      "start": 995.36,
+      "duration": 5.44,
+      "text": "page types, a new component, right? and"
+    },
+    {
+      "start": 997.279,
+      "duration": 4.881,
+      "text": "it would actually scan the component"
+    },
+    {
+      "start": 1000.8,
+      "duration": 2.64,
+      "text": "definitions within the folder and say,"
+    },
+    {
+      "start": 1002.16,
+      "duration": 2.479,
+      "text": "\"Okay, let me take a look at how all"
+    },
+    {
+      "start": 1003.44,
+      "duration": 2.8,
+      "text": "these components are defined. Let me"
+    },
+    {
+      "start": 1004.639,
+      "duration": 3.361,
+      "text": "take a look at where the podcast"
+    },
+    {
+      "start": 1006.24,
+      "duration": 3.839,
+      "text": "component might live.\" And it created"
+    },
+    {
+      "start": 1008,
+      "duration": 3.92,
+      "text": "relatively well. Like I'd say like there"
+    },
+    {
+      "start": 1010.079,
+      "duration": 3.44,
+      "text": "there's of course gaps and you as an"
+    },
+    {
+      "start": 1011.92,
+      "duration": 3.12,
+      "text": "engineer are going to be in control and"
+    },
+    {
+      "start": 1013.519,
+      "duration": 3.44,
+      "text": "saying like, \"Oh, you actually looked at"
+    },
+    {
+      "start": 1015.04,
+      "duration": 3.52,
+      "text": "the wrong folder because this is the"
+    },
+    {
+      "start": 1016.959,
+      "duration": 3.12,
+      "text": "compiled components, not the actual"
+    },
+    {
+      "start": 1018.56,
+      "duration": 3.04,
+      "text": "defined components.\" So you still have"
+    },
+    {
+      "start": 1020.079,
+      "duration": 2.721,
+      "text": "to be aware of those things. But I I"
+    },
+    {
+      "start": 1021.6,
+      "duration": 3.439,
+      "text": "noticed that that gets better. But I'd"
+    },
+    {
+      "start": 1022.8,
+      "duration": 4.879,
+      "text": "say like if you provide proactive"
+    },
+    {
+      "start": 1025.039,
+      "duration": 5.201,
+      "text": "context ahead of time that usually works"
+    },
+    {
+      "start": 1027.679,
+      "duration": 4.561,
+      "text": "much much better uh on any new feature"
+    },
+    {
+      "start": 1030.24,
+      "duration": 4.959,
+      "text": "iterations. And the last question for"
+    },
+    {
+      "start": 1032.24,
+      "duration": 4.4,
+      "text": "today is going from AOSF."
+    },
+    {
+      "start": 1035.199,
+      "duration": 5.36,
+      "text": "I think that's how I pronounce that"
+    },
+    {
+      "start": 1036.64,
+      "duration": 5.76,
+      "text": "name. Yep. A a Y0sef."
+    },
+    {
+      "start": 1040.559,
+      "duration": 3.841,
+      "text": "For the simple use case, most web devs"
+    },
+    {
+      "start": 1042.4,
+      "duration": 4.08,
+      "text": "would have spent much less time building"
+    },
+    {
+      "start": 1044.4,
+      "duration": 3.6,
+      "text": "no AI or simple AI assistance. For"
+    },
+    {
+      "start": 1046.48,
+      "duration": 3.12,
+      "text": "complex use cases, not sure how the"
+    },
+    {
+      "start": 1048,
+      "duration": 3.2,
+      "text": "constitution will fit in a single repo"
+    },
+    {
+      "start": 1049.6,
+      "duration": 4,
+      "text": "with backend, front end, DB files, and"
+    },
+    {
+      "start": 1051.2,
+      "duration": 4.32,
+      "text": "other docs. you are absolutely correct."
+    },
+    {
+      "start": 1053.6,
+      "duration": 3.12,
+      "text": "So, the the sample that I showed you and"
+    },
+    {
+      "start": 1055.52,
+      "duration": 2.8,
+      "text": "again for folks that have missed a"
+    },
+    {
+      "start": 1056.72,
+      "duration": 4.319,
+      "text": "previous video, just go check it out."
+    },
+    {
+      "start": 1058.32,
+      "duration": 5.76,
+      "text": "It's me adding a reading list page to my"
+    },
+    {
+      "start": 1061.039,
+      "duration": 4.88,
+      "text": "blog. Um, it is a relatively simple use"
+    },
+    {
+      "start": 1064.08,
+      "duration": 3.839,
+      "text": "case and I'd say like if you're somebody"
+    },
+    {
+      "start": 1065.919,
+      "duration": 4.481,
+      "text": "that is comfortable with CSS, JavaScript"
+    },
+    {
+      "start": 1067.919,
+      "duration": 4.161,
+      "text": "and templating and Hugo like I am like"
+    },
+    {
+      "start": 1070.4,
+      "duration": 3.68,
+      "text": "sure, yeah, I could have created this"
+    },
+    {
+      "start": 1072.08,
+      "duration": 4,
+      "text": "with no AI and this is just like a demo."
+    },
+    {
+      "start": 1074.08,
+      "duration": 4.959,
+      "text": "At the same time, I'd say it's"
+    },
+    {
+      "start": 1076.08,
+      "duration": 4.8,
+      "text": "demonstrating how that process can work"
+    },
+    {
+      "start": 1079.039,
+      "duration": 3.361,
+      "text": "for complex use cases you called out"
+    },
+    {
+      "start": 1080.88,
+      "duration": 3.28,
+      "text": "where you know you have a repository"
+    },
+    {
+      "start": 1082.4,
+      "duration": 3.44,
+      "text": "like a monor repo that contains a whole"
+    },
+    {
+      "start": 1084.16,
+      "duration": 4.399,
+      "text": "bunch of other things that are not"
+    },
+    {
+      "start": 1085.84,
+      "duration": 4.079,
+      "text": "necessarily tied together. This does"
+    },
+    {
+      "start": 1088.559,
+      "duration": 3.841,
+      "text": "become a little bit trickier, right?"
+    },
+    {
+      "start": 1089.919,
+      "duration": 4.321,
+      "text": "Because you have one specified folder"
+    },
+    {
+      "start": 1092.4,
+      "duration": 4.24,
+      "text": "with the kind of the the templates and"
+    },
+    {
+      "start": 1094.24,
+      "duration": 4,
+      "text": "everything else that are usually like if"
+    },
+    {
+      "start": 1096.64,
+      "duration": 3.039,
+      "text": "you define a constitution like the"
+    },
+    {
+      "start": 1098.24,
+      "duration": 4,
+      "text": "constitution becomes bound to the"
+    },
+    {
+      "start": 1099.679,
+      "duration": 5.441,
+      "text": "specified folder and that specified"
+    },
+    {
+      "start": 1102.24,
+      "duration": 5.52,
+      "text": "folder is now embedded directly into the"
+    },
+    {
+      "start": 1105.12,
+      "duration": 4.559,
+      "text": "context of where you're operating. What"
+    },
+    {
+      "start": 1107.76,
+      "duration": 4.24,
+      "text": "we're looking at right now is how to"
+    },
+    {
+      "start": 1109.679,
+      "duration": 4.081,
+      "text": "properly split that up so that you can"
+    },
+    {
+      "start": 1112,
+      "duration": 3.6,
+      "text": "have a dot specified folder for your"
+    },
+    {
+      "start": 1113.76,
+      "duration": 3.44,
+      "text": "backend, a dot specified folder for your"
+    },
+    {
+      "start": 1115.6,
+      "duration": 4.16,
+      "text": "front end, a dot specified folder for"
+    },
+    {
+      "start": 1117.2,
+      "duration": 4,
+      "text": "your API uh like monitoring solutions"
+    },
+    {
+      "start": 1119.76,
+      "duration": 4.159,
+      "text": "and so on so forth. So basically give"
+    },
+    {
+      "start": 1121.2,
+      "duration": 4.4,
+      "text": "you the granularity so that you're still"
+    },
+    {
+      "start": 1123.919,
+      "duration": 3.521,
+      "text": "encoding the commands the custom slash"
+    },
+    {
+      "start": 1125.6,
+      "duration": 3.92,
+      "text": "commands inside whatever agent folder"
+    },
+    {
+      "start": 1127.44,
+      "duration": 3.599,
+      "text": "you have as you should, right? Because"
+    },
+    {
+      "start": 1129.52,
+      "duration": 4.399,
+      "text": "they're they're generic like the slash"
+    },
+    {
+      "start": 1131.039,
+      "duration": 5.441,
+      "text": "specify is the same. If you're using"
+    },
+    {
+      "start": 1133.919,
+      "duration": 3.681,
+      "text": "slash uh clarify it's the same. It"
+    },
+    {
+      "start": 1136.48,
+      "duration": 3.84,
+      "text": "doesn't matter which project you're"
+    },
+    {
+      "start": 1137.6,
+      "duration": 4.56,
+      "text": "using on the command itself is exactly"
+    },
+    {
+      "start": 1140.32,
+      "duration": 4.479,
+      "text": "the same as it would be for any other"
+    },
+    {
+      "start": 1142.16,
+      "duration": 4.48,
+      "text": "project. But what changes is the format"
+    },
+    {
+      "start": 1144.799,
+      "duration": 3.361,
+      "text": "of the constitution, the format of the"
+    },
+    {
+      "start": 1146.64,
+      "duration": 2.96,
+      "text": "specs, the requirements. Like some"
+    },
+    {
+      "start": 1148.16,
+      "duration": 2.56,
+      "text": "things as we just talked about like"
+    },
+    {
+      "start": 1149.6,
+      "duration": 3.199,
+      "text": "test-driven development, some of them"
+    },
+    {
+      "start": 1150.72,
+      "duration": 4.8,
+      "text": "require test, some of them don't. So you"
+    },
+    {
+      "start": 1152.799,
+      "duration": 6.161,
+      "text": "could have multiple specified folders in"
+    },
+    {
+      "start": 1155.52,
+      "duration": 6.24,
+      "text": "these different projects and then use"
+    },
+    {
+      "start": 1158.96,
+      "duration": 4.719,
+      "text": "the prompts from from the project as is"
+    },
+    {
+      "start": 1161.76,
+      "duration": 3.76,
+      "text": "within those folders. So we're we're"
+    },
+    {
+      "start": 1163.679,
+      "duration": 3.041,
+      "text": "kind of testing this out right now and"
+    },
+    {
+      "start": 1165.52,
+      "duration": 2.48,
+      "text": "there's going to be a documented"
+    },
+    {
+      "start": 1166.72,
+      "duration": 3.76,
+      "text": "approach to make it a little bit easier"
+    },
+    {
+      "start": 1168,
+      "duration": 4.559,
+      "text": "because monor repos are a thing. We know"
+    },
+    {
+      "start": 1170.48,
+      "duration": 4.4,
+      "text": "it's a thing and we know we have to"
+    },
+    {
+      "start": 1172.559,
+      "duration": 5.841,
+      "text": "actually cover it. So not yeah not every"
+    },
+    {
+      "start": 1174.88,
+      "duration": 5.36,
+      "text": "scenario is going to be uh this vanilla"
+    },
+    {
+      "start": 1178.4,
+      "duration": 3.519,
+      "text": "very much constrained GitHub"
+    },
+    {
+      "start": 1180.24,
+      "duration": 4.16,
+      "text": "environments like a one repo one"
+    },
+    {
+      "start": 1181.919,
+      "duration": 3.841,
+      "text": "project. So yeah uh we know it's coming."
+    },
+    {
+      "start": 1184.4,
+      "duration": 3.519,
+      "text": "It's going to be documented. You're"
+    },
+    {
+      "start": 1185.76,
+      "duration": 3.919,
+      "text": "going to see this in one of the next"
+    },
+    {
+      "start": 1187.919,
+      "duration": 3.841,
+      "text": "videos. I'm excited to show you our"
+    },
+    {
+      "start": 1189.679,
+      "duration": 4.081,
+      "text": "progress. And that's it. That's it for"
+    },
+    {
+      "start": 1191.76,
+      "duration": 4.24,
+      "text": "the questions for today's video. Stay"
+    },
+    {
+      "start": 1193.76,
+      "duration": 4.32,
+      "text": "tuned for the next one. I have way more"
+    },
+    {
+      "start": 1196,
+      "duration": 4.64,
+      "text": "coming. There's way more updates coming"
+    },
+    {
+      "start": 1198.08,
+      "duration": 4.64,
+      "text": "to SpecKit. I'm excited to see all of"
+    },
+    {
+      "start": 1200.64,
+      "duration": 3.919,
+      "text": "you testing it out and pushing it to its"
+    },
+    {
+      "start": 1202.72,
+      "duration": 5.64,
+      "text": "limits, providing so much feedback, and"
+    },
+    {
+      "start": 1204.559,
+      "duration": 3.801,
+      "text": "please go to github.com/github/spec-kit."
+    },
+    {
+      "start": 1208.4,
+      "duration": 5.76,
+      "text": "Provide your feedback, participate in"
+    },
+    {
+      "start": 1210.32,
+      "duration": 6.8,
+      "text": "discussions, and I am excited, I use the"
+    },
+    {
+      "start": 1214.16,
+      "duration": 5.44,
+      "text": "word not lightly at all, I am excited to"
+    },
+    {
+      "start": 1217.12,
+      "duration": 6.76,
+      "text": "bring you more specket goodness very,"
+    },
+    {
+      "start": 1219.6,
+      "duration": 4.28,
+      "text": "very soon. See you then."
+    }
+  ],
+  "fullText": "Hey friends, today instead of me rambling about more specket features and changes, I thought I'd instead focus on something that is much more important to me and that is answering your questions. Uh the videos that I've been posting about the specket evolution have been gaining a lot of traction and there were a lot of comments that I thought it'd be much better for me to just address over video so that future developers, future PMs, designers, data scientists that are using this tooling can benefit from. So the first question is from Bobby Wang0120 and that is thanks for the video and specit quick question. You add the learnings to the spec doc at the end after several iterations the plan task and other empty files can drift from what actually shipped. Do you also update those files or leave them as historical in your view? Should we update only the spec doc or all the docs when the work is done? I'd say if I look back at my workflow, I try to keep the spec itself as the sole source of truth unless I am making changes to specific implementation details. So for example, if I go through the process of designing a new landing page for my site, right, and I have made certain design decisions, I have made certain decisions around things like the layout of the page or what should be and shouldn't be included. And some of these decisions will pop in after the fact, like you've already started specifying things. You've already started kind of working through the implementation and you realize, oh, I forgot that I want to include a list of testimonials. I forgot that I want to include a contact form or a box to subscribe to my newsletter. Right? So, you'll obviously ask the LLM to go and get the functionality for you, but that was not in your initial spec. And what I usually do is knowing the fact that for a lot of these things I will reuse them in the future. For example, as I mentioned in my previous video, like what if I decide to change my static side generator or what I decide to change the back end, I still want to have the specification that is a source of truth and reflecting what I meant with the actual final output. So in this case, I just asked the LLM to encode the learnings from the conversation from the context that we have into the specification. And some of those learnings can also be encoded into the plan. Now, I personally consider the spec to be the more durable artifact of all of them, right? Because the plan changes. As I mentioned, the plan is much more flexible because the the the plan file is the technical spec. This is where I define the shape of the API. This is where I define the framework that I'm using, the database. And those can change. So, if you're not changing those, you can leave the plan as is and update just the spec. If you realize that actually the database that I chose is not really fitting like I can't use SQL light I actually need to use like a document DB hosted in the cloud then of course update the plan as well but I tend to update them and keep them updated as I go through the process because you're absolutely right but there's going to be points where a lot of these things will just be underspecified and I will realize after the fact that it drifted quite heavily from what I initially envisioned because I did not ask the questions that I thought I would So, uh, keeping them up to date is generally a good idea, but I'd say from a priority perspective, the spec document and the constitution probably be the most important. And then obviously the implementation plan and tasks I say is generally a reflection of the implementation plan or the technical plan anyway. So, you can just delete tasks and just recreate it as you see fit. And another question is from Carlos Pravia 4967. In our team, we tend to use different git repos to develop different parts of the app. For example, one repo for implementing the required app logic and endpoints, another for handling the client side and UI, and perhaps another for deploying GraphQL and maintaining other types of data queries. In this type of scenario, would you recommend using one specit per repo to define, refine, and test these components in a modular and safe way? Maybe with different team members focusing solely on that part of the app and then having another repo that maintains a highle spec. How do you integrate and maintain coherence between these components? That's an actually interesting question because in our samples so far, right, like you've seen the videos, you've seen the demos, it's all about having one repository and because when you operate in one repository, things are relatively constrained and easy to manage because uh if you work with the built-in specket templates, you'll notice that when you use the specify command, it's going to create a new branch within that repository, right? And that branch is going to have a version of the templates that sometimes are encoded based on the constitution. There's going to have um a version of the spec, a version of anything else you might include in that particular iteration. Right? So um if there is a shared spec repo, then somehow you need to cross reference it from other repositories. Right? If you have seven, 10, 15 different repos, then how is that core spec repo being included? Is it a sub module? Like you could do that, but then you're just increasing the complexity of actually managing that code. So from my perspective and my experiments that I have done personally again take this with a boulder of salt because it might not be fitting for every single scenarios but but what I've seen is using one spec kit deployment and when I say that is basically like bootstrapping it for a specific project within one repository is the most helpful because then the the work is contained within that repo and managing it becomes much much easier than using it across multiple repositories. Now that being said, you can have content that is shared. So for example, if you have a constitution that defines how web apps are built inside your organization, then that constitution can be pulled in through a git sub module for example, right? Like that's seems fairly trivial to set up and that is reusable. But there's other things that might not work as well, right? Because certain specs that you create for one repo are not really applicable to another one. If you have a repository that is for a mobile application, another one for a web app, then those spec templates or even the spec sets that already exist, there value in probably matching them up unless you're talking about specific API design documents, right? So, I'd say like it it really depends on the workflow, but I've seen personally that per repo configurations of specit work better than having one shared unless you absolutely need that. And then you can use again tools like git subm modules to create this kind of infrastructure around the git the mechanisms to make sure that that content is actually shared across repositories. All right, the next one is a very interesting one. It's from Suzie Q codes. Great video. I added to an existing project and use it to help refactor a monolithic page.tsx as TypeScript component. It seemed to be going great, but when it made some changes, I noticed it had dropped some prior features. I'm using cursor. I asked it a few questions and immediately began making more code changes. even though we hadn't specked out the changes which yeah makes sense. So if you overlook something and it starts creating new files which you then catch what's the best process to capture the right specs research tasks I had to unwind and write a new spec even though spec one hadn't been completely implemented correctly or does spec 2 take care of updating what occurred in the first branch. So this is an interesting scenario. So I think if I unwind kind of this explanation it's essentially you have started a project you have a specification you went through that spec process and then down the line you realize that oh cursor started going off the rails a little bit and just creating things on its own that you did not ask for it and so you need to now go and remove those files. What I started doing generally and this is why it's so important to use git here. It is it is so so important to use source control is my approach to this is when I start working on a new feature I start working on a new component for something or a bug fix and I use specit. So when I use slp specify it of course creates a new branch that makes it very easy. I also use a git client. A git client like GitHub desktop or Sublime Merge or Git Kraken. Any of them really are great. You know, it's all like ice cream. It depends on your preference and what you actually like. But what I started doing is as I go through this iterative process and especially once you go into the implementation stages and that things can become a little bit murkier because there's things that you have not specified in the initial spec and initial prompt and then you have to go and cover that. What happens is sometimes it does go over the rails. It starts creating new files going building experiences you did not ask it for. And the easiest way for you to unwind that is to first of all encode the requirements that you want. So you spot it's like oh I do not want to have a component for uh footer changes on my website. Right? So that's fine. You encode it in a specification and then you go to the git client that you have because you're already operating on a branch. You select the files that were not yet committed because we're because we're working on git, we don't just automatically commit every single change, but we do it in batches. So, and you can just discard those changes. The spec can stay the same. The spec document is there. Make sure that that is actually checked into the branch and committed and pushed. And then the code changes are flexible. So, if you see it go off the rails, just update the spec, discard the changes for the files, and then use the spec to re essentially go through the process of creating things. So that to me is the easiest way to do this is just lean heavily into the actual git workflows. Super important. I think if there's one thing that I encourage people that are trying to use specitate is get very familiar with how git works, how branching works and how you can stage changes and iterate on them without necessarily worrying about the fact that a uh, you know, a rogue agent is going to go astray because it decided to, you know, design something differently and now you have to go and unfurl and figure out like what are all the things that went wrong and what are the code changes like use git commit often for things that work as you iterate, make sure that you you track of that again with git on a branch that we create for you by default and then use that to your advantage. That that would be my recipe for this. That's the easiest way to manage it. All right, the next question is from griff.an and that is you mentioned the possibility of refactoring the website in the future and being able to simply reuse the spec because it did not include technical implementation details. How would a process like that work? Does the agent go back through each feature spec one by one, including branching if you were to create a new empty project with just the constitution and specs? So, that's an interesting one because I it's coming on the heels of the last video where I showed that I added a reading list to my website. And the challenge with this is that initially when I started my website, I of course did not use specit. The website was started based on my own blogging habits, my own configuration. And I actually wrote some custom templates on top of congo mod as I called out in the video. It's all based on uh Hugo the Hugoatic site generator. Now of course in the context of this functionality not everything would be recreated from scratch because this is not what's referred to as a green field project. This is not a project that I set up from scratch from zero with all the artifacts being built with specit. So unless I go back and actually say here's the structure of the landing page, here's the structure of the about page, here's the structure of the blog post page, all the stuff of course would not be recreated. But for features that were built using specit for bug fixes that were built using specit for anything that is actually encoded in spec files, I can recreate this. So you can imagine if I at some point decide instead of using Hugo to move to let's say Jackal and Jackekal uses a different templating engine and I don't have the same ability to just have a built-in reading list page. I can just ask my coding agent whatever I use at the time to go in and rebuild based on that spec. Right? So in the context of the codebase I'm operating in is going to go ahead and rebuild that. Now, of course, it's not going to rebuild everything and of course there's going to be a lot of variability, but it is the approach here. So, you can you can essentially detach the implementation from the spec and that that's where the value of the specification comes from, right? Because the spec itself is the I want to call it like the executable artifact. This the spec becomes the code because I can just toss it into an LLM and say go build this in the context of what I'm operating. If you're building a project from scratch that is a brand new app, you're building, I don't know, a SAS business, it's a SAS application, and then you encode everything in specs and every feature is spec, you know, your landing page, your checkout page, your user profile page, then of course, like because you have those artifacts down the line, you can go on and recreate that with a different framework, with a different tool set on different databases and so on so forth. But it depends on a project. And if it's a brownfield project then of course it will depend on having prior information encoded in specs. The next question is from Alpara Manalp 2933 and that is thanks for the great effort. The main problem with specit is TDD or testdriven development. I think if you put a non TDD approach in the constitution it will shine. I don't have anything as TDD but intelligence context for expensive credits etc. V wise we're not there yet. Uh yes I know and I'm practively working on this. So for folks that don't know, if you use the built-in templates, one of the things that we encoded in them is testdriven development approaches. So any new project, any new feature starts, it actually goes in and says, \"Oh, you need to create tests.\" And as you saw in my last video where I talked about the possibility of using this with my own site like I don't need tests. I'm just creating something that is based on the existing project. I just want a new page for for the site, right? the tests can be very very heavy and very timeconuming context consuming as well because building that out is just a massive massive pain on the behind. So yes, fully acknowledge that this is a problem. It's coming. We're going to have a TDD less option for this and then you can add test driven as you need, but it's not going to be baked in by default because yeah, I agree it's it's it's a little heavy and it's not really appropriate for every single scenario. I'd say like even actually for most very quick prototypy iterative scenarios like I don't I don't need tests. Just give me the product. I want to see it. I want to I want to see it on my screen. I want to be able to interact with it and not worry about which tests were created because all that stuff can come in later for more serious enterprisy projects. So point taken. Thank you so much for the feedback. Now another question comes from ninjatronics and is so what will be the proper way of adding features to my current website that I didn't start with speckit h it's exactly the same thing that I did in my previous video uh the site that you saw the blog that I maintained my own blog is not actually built with speckit I had it for since I want to say like 2017 in the current shape with Hugo and for like uh more than a decade because I used WordPress before right like it was not built with specit It's a custom theme and I use spec kit to build on top of it. So you can use different techniques to actually build out the context of the codebase, right? So like folks have been using cloud.md to provide that context. And by the way, when you use specit and specifically one of the uh commands is going to bootstrap that agent file, it does not exist to encode some of the decisions. But if you already have one, then you can use that to provide context as to how your project is structured, what are the components, how it operates, how it's being built. And that will allow the LLM that as you're creating new features to use that context to actually understand the relationships and know like, oh, if I'm going to create a new footer, I need to look in the components folder here for this tsx file that's going to be my footer. Right? So the process is not that different from any green field projects is your biggest bottleneck is really going to be to provide as much context of as possible about your project about what you're building and how you built it previously so that when you start specking new things it has that context and then you can operate with it and say oh I know where to look for components. That being said, in my experience, depending on the complexity of the project, the LLMs, the modern models especially are very good about kind of sussing out this context dynamically. So I, as an experiment, you know, I showed you the reading page in my previous video, but something that I've also done before is asking it to go and build me a new component that I can embed like a podcast player in specific page types, a new component, right? and it would actually scan the component definitions within the folder and say, \"Okay, let me take a look at how all these components are defined. Let me take a look at where the podcast component might live.\" And it created relatively well. Like I'd say like there there's of course gaps and you as an engineer are going to be in control and saying like, \"Oh, you actually looked at the wrong folder because this is the compiled components, not the actual defined components.\" So you still have to be aware of those things. But I I noticed that that gets better. But I'd say like if you provide proactive context ahead of time that usually works much much better uh on any new feature iterations. And the last question for today is going from AOSF. I think that's how I pronounce that name. Yep. A a Y0sef. For the simple use case, most web devs would have spent much less time building no AI or simple AI assistance. For complex use cases, not sure how the constitution will fit in a single repo with backend, front end, DB files, and other docs. you are absolutely correct. So, the the sample that I showed you and again for folks that have missed a previous video, just go check it out. It's me adding a reading list page to my blog. Um, it is a relatively simple use case and I'd say like if you're somebody that is comfortable with CSS, JavaScript and templating and Hugo like I am like sure, yeah, I could have created this with no AI and this is just like a demo. At the same time, I'd say it's demonstrating how that process can work for complex use cases you called out where you know you have a repository like a monor repo that contains a whole bunch of other things that are not necessarily tied together. This does become a little bit trickier, right? Because you have one specified folder with the kind of the the templates and everything else that are usually like if you define a constitution like the constitution becomes bound to the specified folder and that specified folder is now embedded directly into the context of where you're operating. What we're looking at right now is how to properly split that up so that you can have a dot specified folder for your backend, a dot specified folder for your front end, a dot specified folder for your API uh like monitoring solutions and so on so forth. So basically give you the granularity so that you're still encoding the commands the custom slash commands inside whatever agent folder you have as you should, right? Because they're they're generic like the slash specify is the same. If you're using slash uh clarify it's the same. It doesn't matter which project you're using on the command itself is exactly the same as it would be for any other project. But what changes is the format of the constitution, the format of the specs, the requirements. Like some things as we just talked about like test-driven development, some of them require test, some of them don't. So you could have multiple specified folders in these different projects and then use the prompts from from the project as is within those folders. So we're we're kind of testing this out right now and there's going to be a documented approach to make it a little bit easier because monor repos are a thing. We know it's a thing and we know we have to actually cover it. So not yeah not every scenario is going to be uh this vanilla very much constrained GitHub environments like a one repo one project. So yeah uh we know it's coming. It's going to be documented. You're going to see this in one of the next videos. I'm excited to show you our progress. And that's it. That's it for the questions for today's video. Stay tuned for the next one. I have way more coming. There's way more updates coming to SpecKit. I'm excited to see all of you testing it out and pushing it to its limits, providing so much feedback, and please go to github.com/github/spec-kit. Provide your feedback, participate in discussions, and I am excited, I use the word not lightly at all, I am excited to bring you more specket goodness very, very soon. See you then.",
+  "fetchedAt": "2026-01-18T18:32:42.607Z"
+}

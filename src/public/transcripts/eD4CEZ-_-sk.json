@@ -1,0 +1,1679 @@
+{
+  "videoId": "eD4CEZ-_-sk",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 9.2,
+      "duration": 4.88,
+      "text": "So, you probably have seen this Ralph"
+    },
+    {
+      "start": 10.96,
+      "duration": 5.76,
+      "text": "loop all over the X and YouTube lately,"
+    },
+    {
+      "start": 14.08,
+      "duration": 5.119,
+      "text": "right? So, uh but I haven't seen a lot"
+    },
+    {
+      "start": 16.72,
+      "duration": 3.76,
+      "text": "of people actually do create or build"
+    },
+    {
+      "start": 19.199,
+      "duration": 3.201,
+      "text": "something with it. So, I thought we"
+    },
+    {
+      "start": 20.48,
+      "duration": 3.6,
+      "text": "could do that today. Uh so, I'm not"
+    },
+    {
+      "start": 22.4,
+      "duration": 4.48,
+      "text": "going to spend too much time talking"
+    },
+    {
+      "start": 24.08,
+      "duration": 5.599,
+      "text": "about how this loop works. Uh but I just"
+    },
+    {
+      "start": 26.88,
+      "duration": 4.719,
+      "text": "have a simple graphic here. So basically"
+    },
+    {
+      "start": 29.679,
+      "duration": 4.241,
+      "text": "uh I try to explain it as easy as"
+    },
+    {
+      "start": 31.599,
+      "duration": 4.881,
+      "text": "possible. So the first thing we want to"
+    },
+    {
+      "start": 33.92,
+      "duration": 5.12,
+      "text": "do is create like a prd. So this is the"
+    },
+    {
+      "start": 36.48,
+      "duration": 4.16,
+      "text": "steps we want to create. This could be"
+    },
+    {
+      "start": 39.04,
+      "duration": 3.199,
+      "text": "yeah you will see how I do this in the"
+    },
+    {
+      "start": 40.64,
+      "duration": 4.16,
+      "text": "video. It's basically a to-do list,"
+    },
+    {
+      "start": 42.239,
+      "duration": 6.081,
+      "text": "right? Uh it can be in JSON format in"
+    },
+    {
+      "start": 44.8,
+      "duration": 5.759,
+      "text": "our case. And now we're going to uh just"
+    },
+    {
+      "start": 48.32,
+      "duration": 5.6,
+      "text": "set up cloud code. So it's just going to"
+    },
+    {
+      "start": 50.559,
+      "duration": 6.561,
+      "text": "pick one task. Do this verify and"
+    },
+    {
+      "start": 53.92,
+      "duration": 5.36,
+      "text": "commit, right? and it's going to reset,"
+    },
+    {
+      "start": 57.12,
+      "duration": 6.16,
+      "text": "wipe the context, and start over again"
+    },
+    {
+      "start": 59.28,
+      "duration": 6,
+      "text": "on the to-do list. So, basically, we u"
+    },
+    {
+      "start": 63.28,
+      "duration": 4.48,
+      "text": "like launch a new instance of clawed"
+    },
+    {
+      "start": 65.28,
+      "duration": 4.879,
+      "text": "code for every wipe. So, we don't bring"
+    },
+    {
+      "start": 67.76,
+      "duration": 4.64,
+      "text": "over the previous context to the next"
+    },
+    {
+      "start": 70.159,
+      "duration": 4.32,
+      "text": "task we're going to do, right? Uh but it"
+    },
+    {
+      "start": 72.4,
+      "duration": 3.84,
+      "text": "has some memory, right? The memory is of"
+    },
+    {
+      "start": 74.479,
+      "duration": 3.841,
+      "text": "course the PRD file and we have some"
+    },
+    {
+      "start": 76.24,
+      "duration": 4.32,
+      "text": "logging and stuff. We can check where we"
+    },
+    {
+      "start": 78.32,
+      "duration": 3.92,
+      "text": "are in the project. So, I think I'm just"
+    },
+    {
+      "start": 80.56,
+      "duration": 3.28,
+      "text": "going to show you how I've been using"
+    },
+    {
+      "start": 82.24,
+      "duration": 3.519,
+      "text": "this to create some project over the"
+    },
+    {
+      "start": 83.84,
+      "duration": 4,
+      "text": "weekend. Maybe you pick something up you"
+    },
+    {
+      "start": 85.759,
+      "duration": 4.801,
+      "text": "want to try out for yourself. So yeah,"
+    },
+    {
+      "start": 87.84,
+      "duration": 4.8,
+      "text": "let's just create our first project. So"
+    },
+    {
+      "start": 90.56,
+      "duration": 4.16,
+      "text": "my setup is maybe not the most advanced,"
+    },
+    {
+      "start": 92.64,
+      "duration": 5.36,
+      "text": "but I have tried it and it seems to work"
+    },
+    {
+      "start": 94.72,
+      "duration": 5.439,
+      "text": "pretty good. So here you can see my PRD"
+    },
+    {
+      "start": 98,
+      "duration": 5.119,
+      "text": "and I have some examples here, right? So"
+    },
+    {
+      "start": 100.159,
+      "duration": 6.96,
+      "text": "basically in this PRD we have the tasks"
+    },
+    {
+      "start": 103.119,
+      "duration": 5.601,
+      "text": "here. So we have one, two, five tasks."
+    },
+    {
+      "start": 107.119,
+      "duration": 3.841,
+      "text": "We probably going to have more in the"
+    },
+    {
+      "start": 108.72,
+      "duration": 4.079,
+      "text": "upcoming project, but these are the five"
+    },
+    {
+      "start": 110.96,
+      "duration": 4.56,
+      "text": "task and you can see we have passes"
+    },
+    {
+      "start": 112.799,
+      "duration": 4.241,
+      "text": "here. So if this passes or we have"
+    },
+    {
+      "start": 115.52,
+      "duration": 3.919,
+      "text": "completed this task, this is going to be"
+    },
+    {
+      "start": 117.04,
+      "duration": 4.079,
+      "text": "set to true. And when we reset the"
+    },
+    {
+      "start": 119.439,
+      "duration": 4.881,
+      "text": "context, we're going to skip this task"
+    },
+    {
+      "start": 121.119,
+      "duration": 5.841,
+      "text": "and start on the second one or uh a more"
+    },
+    {
+      "start": 124.32,
+      "duration": 4.639,
+      "text": "important task if there are any task"
+    },
+    {
+      "start": 126.96,
+      "duration": 4.8,
+      "text": "that has kind of dependence on each"
+    },
+    {
+      "start": 128.959,
+      "duration": 4.241,
+      "text": "other. So we also have a progress. This"
+    },
+    {
+      "start": 131.76,
+      "duration": 3.28,
+      "text": "is kind of the log. So here we kind of"
+    },
+    {
+      "start": 133.2,
+      "duration": 3.6,
+      "text": "track the progress. So we can go in and"
+    },
+    {
+      "start": 135.04,
+      "duration": 3.36,
+      "text": "read that. How we actually run this is"
+    },
+    {
+      "start": 136.8,
+      "duration": 4.079,
+      "text": "in this loop here, right? So this is"
+    },
+    {
+      "start": 138.4,
+      "duration": 4.559,
+      "text": "going to launch instances of cloud code."
+    },
+    {
+      "start": 140.879,
+      "duration": 4.321,
+      "text": "Uh if you scroll down here you can see"
+    },
+    {
+      "start": 142.959,
+      "duration": 4.721,
+      "text": "we're going to use the clo print"
+    },
+    {
+      "start": 145.2,
+      "duration": 4.08,
+      "text": "dangerously script permissions. Uh so"
+    },
+    {
+      "start": 147.68,
+      "duration": 4.559,
+      "text": "that is a bit risky. You have to kind of"
+    },
+    {
+      "start": 149.28,
+      "duration": 5.2,
+      "text": "think about that because uh we don't we"
+    },
+    {
+      "start": 152.239,
+      "duration": 4.08,
+      "text": "always want to approve everything. So we"
+    },
+    {
+      "start": 154.48,
+      "duration": 4.8,
+      "text": "have to kind of run this in skip"
+    },
+    {
+      "start": 156.319,
+      "duration": 4.961,
+      "text": "permissions mode. So do that on your own"
+    },
+    {
+      "start": 159.28,
+      "duration": 3.36,
+      "text": "risk. But if you look at kind of the"
+    },
+    {
+      "start": 161.28,
+      "duration": 4.16,
+      "text": "steps here. So we're going to find the"
+    },
+    {
+      "start": 162.64,
+      "duration": 5.36,
+      "text": "highest priority task from the PRD where"
+    },
+    {
+      "start": 165.44,
+      "duration": 4.56,
+      "text": "passes is false. Right? So we set this"
+    },
+    {
+      "start": 168,
+      "duration": 4.16,
+      "text": "to false here. So everything is false"
+    },
+    {
+      "start": 170,
+      "duration": 4.959,
+      "text": "now and when it's update and it sets"
+    },
+    {
+      "start": 172.16,
+      "duration": 4.719,
+      "text": "this to true this loop is going to skip"
+    },
+    {
+      "start": 174.959,
+      "duration": 3.841,
+      "text": "that one right choose based on"
+    },
+    {
+      "start": 176.879,
+      "duration": 4.241,
+      "text": "dependencies and logical order not just"
+    },
+    {
+      "start": 178.8,
+      "duration": 4.56,
+      "text": "the first one implement that single"
+    },
+    {
+      "start": 181.12,
+      "duration": 4.08,
+      "text": "feature run available test and type"
+    },
+    {
+      "start": 183.36,
+      "duration": 4.08,
+      "text": "checks to verify your work and we're"
+    },
+    {
+      "start": 185.2,
+      "duration": 4.64,
+      "text": "going to update the prd JSON set passes"
+    },
+    {
+      "start": 187.44,
+      "duration": 4.719,
+      "text": "to true when completed append your"
+    },
+    {
+      "start": 189.84,
+      "duration": 5.36,
+      "text": "progress to the progress txt that's kind"
+    },
+    {
+      "start": 192.159,
+      "duration": 5.281,
+      "text": "of the login commit your changes uh only"
+    },
+    {
+      "start": 195.2,
+      "duration": 4.319,
+      "text": "work on one feature per iterization and"
+    },
+    {
+      "start": 197.44,
+      "duration": 3.68,
+      "text": "that is basically it and when we have"
+    },
+    {
+      "start": 199.519,
+      "duration": 4.8,
+      "text": "done all the passes we're just going to"
+    },
+    {
+      "start": 201.12,
+      "duration": 5.6,
+      "text": "output Ralph complete and we stop. So"
+    },
+    {
+      "start": 204.319,
+      "duration": 5.601,
+      "text": "yeah that is basically a simple setup of"
+    },
+    {
+      "start": 206.72,
+      "duration": 4.64,
+      "text": "the Ralph loop. So to create the tasks"
+    },
+    {
+      "start": 209.92,
+      "duration": 4.72,
+      "text": "now I think we're going to head over to"
+    },
+    {
+      "start": 211.36,
+      "duration": 5.599,
+      "text": "cloud code think about my ID help uh let"
+    },
+    {
+      "start": 214.64,
+      "duration": 5.12,
+      "text": "cloud code help us set up all the tasks"
+    },
+    {
+      "start": 216.959,
+      "duration": 4.56,
+      "text": "here for the the first ID I have and"
+    },
+    {
+      "start": 219.76,
+      "duration": 4.32,
+      "text": "let's try it out. So the project we're"
+    },
+    {
+      "start": 221.519,
+      "duration": 4.401,
+      "text": "going to do today uh or at least this"
+    },
+    {
+      "start": 224.08,
+      "duration": 4.4,
+      "text": "project we're going to do two I think."
+    },
+    {
+      "start": 225.92,
+      "duration": 4.16,
+      "text": "Uh the first one I wanted to have like a"
+    },
+    {
+      "start": 228.48,
+      "duration": 6,
+      "text": "3JS"
+    },
+    {
+      "start": 230.08,
+      "duration": 6.48,
+      "text": "uh like a 180 degree movie screen so I"
+    },
+    {
+      "start": 234.48,
+      "duration": 5.36,
+      "text": "can kind of walk inside this movie"
+    },
+    {
+      "start": 236.56,
+      "duration": 6.239,
+      "text": "screen and I can uh kind of play the"
+    },
+    {
+      "start": 239.84,
+      "duration": 6.08,
+      "text": "video on this kind of curved 180"
+    },
+    {
+      "start": 242.799,
+      "duration": 5.201,
+      "text": "spherical screen in kind of 3JS where I"
+    },
+    {
+      "start": 245.92,
+      "duration": 4.8,
+      "text": "can kind of walk around. So I wanted to"
+    },
+    {
+      "start": 248,
+      "duration": 4.239,
+      "text": "test out uh this project in this loop."
+    },
+    {
+      "start": 250.72,
+      "duration": 2.879,
+      "text": "So basically I'm just going to head over"
+    },
+    {
+      "start": 252.239,
+      "duration": 3.521,
+      "text": "to Cloud Code now. So we're going to"
+    },
+    {
+      "start": 253.599,
+      "duration": 4.32,
+      "text": "launch cloud code and then I'm going to"
+    },
+    {
+      "start": 255.76,
+      "duration": 5.52,
+      "text": "describe"
+    },
+    {
+      "start": 257.919,
+      "duration": 6.161,
+      "text": "um my project and I'm going to integrate"
+    },
+    {
+      "start": 261.28,
+      "duration": 5.04,
+      "text": "it into the Ralph loop light. So let me"
+    },
+    {
+      "start": 264.08,
+      "duration": 3.52,
+      "text": "just set this up and we can try to do"
+    },
+    {
+      "start": 266.32,
+      "duration": 3.28,
+      "text": "that. The first thing I'm going to do is"
+    },
+    {
+      "start": 267.6,
+      "duration": 3.76,
+      "text": "just bring cloud code up to speed on"
+    },
+    {
+      "start": 269.6,
+      "duration": 3.44,
+      "text": "kind of the RAL loop and everything we"
+    },
+    {
+      "start": 271.36,
+      "duration": 3.6,
+      "text": "have set up here. So I'm just going to"
+    },
+    {
+      "start": 273.04,
+      "duration": 4.08,
+      "text": "say read all the documentation around"
+    },
+    {
+      "start": 274.96,
+      "duration": 5.2,
+      "text": "this RL loop we have set up. Read"
+    },
+    {
+      "start": 277.12,
+      "duration": 4.639,
+      "text": "Ralph.sh and the PRD.json. And I just"
+    },
+    {
+      "start": 280.16,
+      "duration": 3.84,
+      "text": "say let me know you're ready for a new"
+    },
+    {
+      "start": 281.759,
+      "duration": 3.761,
+      "text": "task. And while we wait for that I'm"
+    },
+    {
+      "start": 284,
+      "duration": 3.759,
+      "text": "going to kind of think of a bit how it"
+    },
+    {
+      "start": 285.52,
+      "duration": 3.679,
+      "text": "should describe this task now I think."
+    },
+    {
+      "start": 287.759,
+      "duration": 4.72,
+      "text": "Okay. So you can see we are kind of"
+    },
+    {
+      "start": 289.199,
+      "duration": 4.961,
+      "text": "ready now. So um I'm going to paste in"
+    },
+    {
+      "start": 292.479,
+      "duration": 4.401,
+      "text": "this and I'm going to pause. So I'm"
+    },
+    {
+      "start": 294.16,
+      "duration": 4.64,
+      "text": "going to show you um the new prdson we"
+    },
+    {
+      "start": 296.88,
+      "duration": 5.12,
+      "text": "need is for you to create a project as"
+    },
+    {
+      "start": 298.8,
+      "duration": 6,
+      "text": "follows. a 3JS room we can walk around"
+    },
+    {
+      "start": 302,
+      "duration": 6.16,
+      "text": "in uh but with a video player kind of"
+    },
+    {
+      "start": 304.8,
+      "duration": 5.679,
+      "text": "wrapped 180 degrees spherical kind of"
+    },
+    {
+      "start": 308.16,
+      "duration": 3.759,
+      "text": "wrapped around the room so we can load a"
+    },
+    {
+      "start": 310.479,
+      "duration": 3.521,
+      "text": "video. So I'm going to create like a"
+    },
+    {
+      "start": 311.919,
+      "duration": 4.72,
+      "text": "video uh directory but I'm going to put"
+    },
+    {
+      "start": 314,
+      "duration": 4.639,
+      "text": "in like an MP4 video and we create a"
+    },
+    {
+      "start": 316.639,
+      "duration": 4.481,
+      "text": "menu so we can pick what video we want"
+    },
+    {
+      "start": 318.639,
+      "duration": 4.801,
+      "text": "to play and a start button just to get"
+    },
+    {
+      "start": 321.12,
+      "duration": 4.639,
+      "text": "into the cinema room. Create a task"
+    },
+    {
+      "start": 323.44,
+      "duration": 3.92,
+      "text": "iterations in prdson please. Let's"
+    },
+    {
+      "start": 325.759,
+      "duration": 4.321,
+      "text": "create a plan for how we should write"
+    },
+    {
+      "start": 327.36,
+      "duration": 4.16,
+      "text": "the task to PRD JSON. So I'm going to"
+    },
+    {
+      "start": 330.08,
+      "duration": 3.679,
+      "text": "paste this again, but this time I'm"
+    },
+    {
+      "start": 331.52,
+      "duration": 4.32,
+      "text": "going to go into plan mode in Cloud Code"
+    },
+    {
+      "start": 333.759,
+      "duration": 5.44,
+      "text": "to create kind of a plan how we should"
+    },
+    {
+      "start": 335.84,
+      "duration": 4.72,
+      "text": "execute this in our PRD tasks. So I'm"
+    },
+    {
+      "start": 339.199,
+      "duration": 3.121,
+      "text": "just going to wait for the plan and then"
+    },
+    {
+      "start": 340.56,
+      "duration": 3.6,
+      "text": "we see how this goes. So now you can"
+    },
+    {
+      "start": 342.32,
+      "duration": 3.68,
+      "text": "kind of see Cloud Code has done some"
+    },
+    {
+      "start": 344.16,
+      "duration": 3.84,
+      "text": "research around this project we wanted"
+    },
+    {
+      "start": 346,
+      "duration": 4.16,
+      "text": "to. It sent out some explore agents and"
+    },
+    {
+      "start": 348,
+      "duration": 4.479,
+      "text": "now it's just going to write the plan to"
+    },
+    {
+      "start": 350.16,
+      "duration": 4.56,
+      "text": "it's writing the plan for what we're"
+    },
+    {
+      "start": 352.479,
+      "duration": 5.041,
+      "text": "going to introduce into our tasks."
+    },
+    {
+      "start": 354.72,
+      "duration": 5.12,
+      "text": "Right. So yeah, we update the plan. This"
+    },
+    {
+      "start": 357.52,
+      "duration": 5.679,
+      "text": "is going to be for the VR cinema room"
+    },
+    {
+      "start": 359.84,
+      "duration": 6.72,
+      "text": "with the 100° screen and hopefully now"
+    },
+    {
+      "start": 363.199,
+      "duration": 5.12,
+      "text": "we can just integrate this into the PRD"
+    },
+    {
+      "start": 366.56,
+      "duration": 6.639,
+      "text": "and we should be good to go. You can see"
+    },
+    {
+      "start": 368.319,
+      "duration": 6.561,
+      "text": "we end up with 22 tasks. Okay. And yeah,"
+    },
+    {
+      "start": 373.199,
+      "duration": 4.72,
+      "text": "hopefully that is it. So I'm just going"
+    },
+    {
+      "start": 374.88,
+      "duration": 5.2,
+      "text": "to execute on this uh now and we will"
+    },
+    {
+      "start": 377.919,
+      "duration": 4.641,
+      "text": "get our PRD and let's take a quick look"
+    },
+    {
+      "start": 380.08,
+      "duration": 3.76,
+      "text": "at it before we start a Ralph loop."
+    },
+    {
+      "start": 382.56,
+      "duration": 3.04,
+      "text": "Right. Okay. So this is looking pretty"
+    },
+    {
+      "start": 383.84,
+      "duration": 4.32,
+      "text": "good. You can see we updated the full"
+    },
+    {
+      "start": 385.6,
+      "duration": 4.8,
+      "text": "PRD. So let's go in here. You can see"
+    },
+    {
+      "start": 388.16,
+      "duration": 5.12,
+      "text": "now we have the VR cinema room and we"
+    },
+    {
+      "start": 390.4,
+      "duration": 4.72,
+      "text": "have all 22 tasks. Perfect. So remember"
+    },
+    {
+      "start": 393.28,
+      "duration": 3.199,
+      "text": "we're going to pick one. We're going to"
+    },
+    {
+      "start": 395.12,
+      "duration": 3.919,
+      "text": "execute that and then we're going to set"
+    },
+    {
+      "start": 396.479,
+      "duration": 4.321,
+      "text": "it to true if we complete it. So if we"
+    },
+    {
+      "start": 399.039,
+      "duration": 5.121,
+      "text": "go back here now you can see we can run"
+    },
+    {
+      "start": 400.8,
+      "duration": 5.839,
+      "text": "this uh once. Uh, but I want to run this"
+    },
+    {
+      "start": 404.16,
+      "duration": 4.879,
+      "text": "in autonomous mode. So, we can set 22"
+    },
+    {
+      "start": 406.639,
+      "duration": 6.081,
+      "text": "iteration. Maybe leave a couple for a"
+    },
+    {
+      "start": 409.039,
+      "duration": 5.6,
+      "text": "retry. So, now basically all we have to"
+    },
+    {
+      "start": 412.72,
+      "duration": 4.319,
+      "text": "do is head over here. I think I'm just"
+    },
+    {
+      "start": 414.639,
+      "duration": 4.721,
+      "text": "going to run 25 iterations. It doesn't"
+    },
+    {
+      "start": 417.039,
+      "duration": 4.16,
+      "text": "really matter if we have some retries."
+    },
+    {
+      "start": 419.36,
+      "duration": 4.8,
+      "text": "So, this is kind of the maximum number"
+    },
+    {
+      "start": 421.199,
+      "duration": 5.12,
+      "text": "of iterations we're going to run. So now"
+    },
+    {
+      "start": 424.16,
+      "duration": 4.319,
+      "text": "I'm just going to start this. And"
+    },
+    {
+      "start": 426.319,
+      "duration": 3.44,
+      "text": "remember, we are going to run the RA"
+    },
+    {
+      "start": 428.479,
+      "duration": 4.081,
+      "text": "loop now. So you can see we have"
+    },
+    {
+      "start": 429.759,
+      "duration": 5.361,
+      "text": "iterations one of 25. We have the start"
+    },
+    {
+      "start": 432.56,
+      "duration": 5.28,
+      "text": "time and for each time we start a new"
+    },
+    {
+      "start": 435.12,
+      "duration": 5.6,
+      "text": "iteration that means that we have closed"
+    },
+    {
+      "start": 437.84,
+      "duration": 4.96,
+      "text": "this cloud code instance we start fresh"
+    },
+    {
+      "start": 440.72,
+      "duration": 4.879,
+      "text": "we read the PRD we see where we are in"
+    },
+    {
+      "start": 442.8,
+      "duration": 4.16,
+      "text": "the project and continues okay so we are"
+    },
+    {
+      "start": 445.599,
+      "duration": 3.6,
+      "text": "done you can see I had some issues here"
+    },
+    {
+      "start": 446.96,
+      "duration": 4.48,
+      "text": "because I lost my Wi-Fi so I had to"
+    },
+    {
+      "start": 449.199,
+      "duration": 4.481,
+      "text": "start it up again but we did complete"
+    },
+    {
+      "start": 451.44,
+      "duration": 5.36,
+      "text": "because we already had updated all the"
+    },
+    {
+      "start": 453.68,
+      "duration": 5.44,
+      "text": "PRDS right so you can see all 22 tasks"
+    },
+    {
+      "start": 456.8,
+      "duration": 3.92,
+      "text": "complete ready to test but before we do"
+    },
+    {
+      "start": 459.12,
+      "duration": 3.6,
+      "text": "that I want to start up the second loop"
+    },
+    {
+      "start": 460.72,
+      "duration": 3.36,
+      "text": "that is going to our second project. So,"
+    },
+    {
+      "start": 462.72,
+      "duration": 3.039,
+      "text": "I'm just going to head over there now."
+    },
+    {
+      "start": 464.08,
+      "duration": 4.16,
+      "text": "Let's fire up that and then we can go"
+    },
+    {
+      "start": 465.759,
+      "duration": 4.961,
+      "text": "and test this cinema room here. So, I"
+    },
+    {
+      "start": 468.24,
+      "duration": 4.399,
+      "text": "set this up as we did earlier. So, now"
+    },
+    {
+      "start": 470.72,
+      "duration": 4.4,
+      "text": "we're going to do a music game. We have"
+    },
+    {
+      "start": 472.639,
+      "duration": 4.321,
+      "text": "the Sunno API so we can generate songs,"
+    },
+    {
+      "start": 475.12,
+      "duration": 4.16,
+      "text": "right? So, what I want this to be is"
+    },
+    {
+      "start": 476.96,
+      "duration": 4.4,
+      "text": "like a slot machine. So, you can spin"
+    },
+    {
+      "start": 479.28,
+      "duration": 4.56,
+      "text": "the four reels and all the reels have"
+    },
+    {
+      "start": 481.36,
+      "duration": 5.04,
+      "text": "like different genres of music,"
+    },
+    {
+      "start": 483.84,
+      "duration": 4.4,
+      "text": "instruments, tags and stuff. So when we"
+    },
+    {
+      "start": 486.4,
+      "duration": 4.079,
+      "text": "kind of spin the slot and we land on"
+    },
+    {
+      "start": 488.24,
+      "duration": 4.88,
+      "text": "like four different ones, we're going to"
+    },
+    {
+      "start": 490.479,
+      "duration": 4.881,
+      "text": "send that as a prompt to the Suno API"
+    },
+    {
+      "start": 493.12,
+      "duration": 4.479,
+      "text": "and like that we get like a different"
+    },
+    {
+      "start": 495.36,
+      "duration": 5.6,
+      "text": "song every time. So we can use like a"
+    },
+    {
+      "start": 497.599,
+      "duration": 5.521,
+      "text": "web engine like 3JS or similar. Uh I"
+    },
+    {
+      "start": 500.96,
+      "duration": 6.88,
+      "text": "think I need to say everything has to be"
+    },
+    {
+      "start": 503.12,
+      "duration": 6.88,
+      "text": "random for each spin. Every spin is uh"
+    },
+    {
+      "start": 507.84,
+      "duration": 4.8,
+      "text": "random, right? Please create a plan for"
+    },
+    {
+      "start": 510,
+      "duration": 4.08,
+      "text": "all task for the PRD for our JSON. And"
+    },
+    {
+      "start": 512.64,
+      "duration": 2.8,
+      "text": "I'm just in plan mode. I'm going to"
+    },
+    {
+      "start": 514.08,
+      "duration": 3.6,
+      "text": "create a new plan. I'm going to take you"
+    },
+    {
+      "start": 515.44,
+      "duration": 5.519,
+      "text": "back when we are ready to fire up the"
+    },
+    {
+      "start": 517.68,
+      "duration": 4.799,
+      "text": "iterations uh in the RAL loop and then"
+    },
+    {
+      "start": 520.959,
+      "duration": 4.641,
+      "text": "we're going to look at the cinema. So"
+    },
+    {
+      "start": 522.479,
+      "duration": 6.721,
+      "text": "you can see uh now I have actually let"
+    },
+    {
+      "start": 525.6,
+      "duration": 6.88,
+      "text": "me find it here. I have updated the PRD."
+    },
+    {
+      "start": 529.2,
+      "duration": 6.4,
+      "text": "So we should have 20 tasks now we should"
+    },
+    {
+      "start": 532.48,
+      "duration": 4.479,
+      "text": "do for the music game."
+    },
+    {
+      "start": 535.6,
+      "duration": 5.359,
+      "text": "And I think we're just going to start"
+    },
+    {
+      "start": 536.959,
+      "duration": 7.761,
+      "text": "it. So we can run 20 iterations. Let's"
+    },
+    {
+      "start": 540.959,
+      "duration": 5.761,
+      "text": "here and let's just go. So this just"
+    },
+    {
+      "start": 544.72,
+      "duration": 4.88,
+      "text": "going to run in the background now and I"
+    },
+    {
+      "start": 546.72,
+      "duration": 6.64,
+      "text": "have kind of launched the previous um"
+    },
+    {
+      "start": 549.6,
+      "duration": 5.76,
+      "text": "application the the cinema VR. So let me"
+    },
+    {
+      "start": 553.36,
+      "duration": 3.68,
+      "text": "show you how it turned out. So if we"
+    },
+    {
+      "start": 555.36,
+      "duration": 3.36,
+      "text": "refresh here now you can see we can"
+    },
+    {
+      "start": 557.04,
+      "duration": 3.359,
+      "text": "choose yeah I only have video. This was"
+    },
+    {
+      "start": 558.72,
+      "duration": 4.559,
+      "text": "just a placeholder. So I'm going to"
+    },
+    {
+      "start": 560.399,
+      "duration": 4.641,
+      "text": "choose my internet video right and I'm"
+    },
+    {
+      "start": 563.279,
+      "duration": 4.641,
+      "text": "going to do enter cinema. So this is"
+    },
+    {
+      "start": 565.04,
+      "duration": 5.04,
+      "text": "going to load. And I think if you press"
+    },
+    {
+      "start": 567.92,
+      "duration": 4.64,
+      "text": "space"
+    },
+    {
+      "start": 570.08,
+      "duration": 4,
+      "text": "we are able to play the video now. So,"
+    },
+    {
+      "start": 572.56,
+      "duration": 2,
+      "text": "where are we? So, I'm going to press"
+    },
+    {
+      "start": 574.08,
+      "duration": 3.439,
+      "text": "space."
+    },
+    {
+      "start": 574.56,
+      "duration": 5.959,
+      "text": ">> These are the best videos of 2025."
+    },
+    {
+      "start": 577.519,
+      "duration": 3,
+      "text": ">> Boom."
+    },
+    {
+      "start": 604.48,
+      "duration": 3.84,
+      "text": "Yeah, this is working, right? So, you"
+    },
+    {
+      "start": 606.24,
+      "duration": 4.159,
+      "text": "can kind of see we can move around the"
+    },
+    {
+      "start": 608.32,
+      "duration": 4.88,
+      "text": "sphere and we can still see kind of the"
+    },
+    {
+      "start": 610.399,
+      "duration": 5.041,
+      "text": "screen here. We can go all the way up to"
+    },
+    {
+      "start": 613.2,
+      "duration": 5.04,
+      "text": "the screen and look up. So, that's"
+    },
+    {
+      "start": 615.44,
+      "duration": 4.8,
+      "text": "pretty cool. So, what is cool about this"
+    },
+    {
+      "start": 618.24,
+      "duration": 5.36,
+      "text": "is that I didn't really have to do"
+    },
+    {
+      "start": 620.24,
+      "duration": 6,
+      "text": "anything. Everything was just running"
+    },
+    {
+      "start": 623.6,
+      "duration": 4.32,
+      "text": "um in this loop, right? And I just came"
+    },
+    {
+      "start": 626.24,
+      "duration": 2.96,
+      "text": "back after I think it took an hour or"
+    },
+    {
+      "start": 627.92,
+      "duration": 2.8,
+      "text": "something and it's probably going to"
+    },
+    {
+      "start": 629.2,
+      "duration": 2.879,
+      "text": "spend a lot of tokens, but that was"
+    },
+    {
+      "start": 630.72,
+      "duration": 3.6,
+      "text": "pretty cool. And I was really happy with"
+    },
+    {
+      "start": 632.079,
+      "duration": 3.841,
+      "text": "the results. So, for now, we're just"
+    },
+    {
+      "start": 634.32,
+      "duration": 3.92,
+      "text": "going to wait for the music game to"
+    },
+    {
+      "start": 635.92,
+      "duration": 4.96,
+      "text": "finish and take a look at that. And"
+    },
+    {
+      "start": 638.24,
+      "duration": 5.12,
+      "text": "yeah, hopefully this works as well as"
+    },
+    {
+      "start": 640.88,
+      "duration": 4.48,
+      "text": "this cinema game did. Okay, so this is"
+    },
+    {
+      "start": 643.36,
+      "duration": 5.12,
+      "text": "going a bit better. Uh you can see we"
+    },
+    {
+      "start": 645.36,
+      "duration": 5.44,
+      "text": "started 1718. We have run for about 25"
+    },
+    {
+      "start": 648.48,
+      "duration": 4.799,
+      "text": "minutes. No interruptions by me. This"
+    },
+    {
+      "start": 650.8,
+      "duration": 4.8,
+      "text": "has just been fully autonomous. So if we"
+    },
+    {
+      "start": 653.279,
+      "duration": 5.361,
+      "text": "go to our PRD now JSON, you can see we"
+    },
+    {
+      "start": 655.6,
+      "duration": 5.76,
+      "text": "have passed all the way up to task 13."
+    },
+    {
+      "start": 658.64,
+      "duration": 4.879,
+      "text": "So this means we have about seven left."
+    },
+    {
+      "start": 661.36,
+      "duration": 4.88,
+      "text": "And yeah, hopefully this works and let's"
+    },
+    {
+      "start": 663.519,
+      "duration": 5.361,
+      "text": "try it out. Okay, so all 20 iterations"
+    },
+    {
+      "start": 666.24,
+      "duration": 5.12,
+      "text": "is now done. Uh, we had a small issue"
+    },
+    {
+      "start": 668.88,
+      "duration": 5.04,
+      "text": "that I'm looking at now because the text"
+    },
+    {
+      "start": 671.36,
+      "duration": 4.8,
+      "text": "was kind of vertical instead of"
+    },
+    {
+      "start": 673.92,
+      "duration": 3.68,
+      "text": "horizontal on kind of the reels. Other"
+    },
+    {
+      "start": 676.16,
+      "duration": 2.72,
+      "text": "than that, I think it looks pretty good."
+    },
+    {
+      "start": 677.6,
+      "duration": 3.12,
+      "text": "So, I'm just going to do the final"
+    },
+    {
+      "start": 678.88,
+      "duration": 4.399,
+      "text": "update here and then we're going to test"
+    },
+    {
+      "start": 680.72,
+      "duration": 4.64,
+      "text": "it out and try to generate a song by"
+    },
+    {
+      "start": 683.279,
+      "duration": 3.841,
+      "text": "spinning the slot machine. So, when we"
+    },
+    {
+      "start": 685.36,
+      "duration": 3.44,
+      "text": "go to our local host now, you can see we"
+    },
+    {
+      "start": 687.12,
+      "duration": 3.44,
+      "text": "are kind of greeted with this slot"
+    },
+    {
+      "start": 688.8,
+      "duration": 5.92,
+      "text": "machine here, right? So, we have kind of"
+    },
+    {
+      "start": 690.56,
+      "duration": 5.839,
+      "text": "K-pop, hypnotic, vocoder, piano. So"
+    },
+    {
+      "start": 694.72,
+      "duration": 4.48,
+      "text": "what's going to happen now is when we"
+    },
+    {
+      "start": 696.399,
+      "duration": 4.961,
+      "text": "spin this, this will generate a random"
+    },
+    {
+      "start": 699.2,
+      "duration": 5.4,
+      "text": "song and we can play it. Okay. So let's"
+    },
+    {
+      "start": 701.36,
+      "duration": 3.24,
+      "text": "just spin"
+    },
+    {
+      "start": 704.64,
+      "duration": 3.759,
+      "text": "jazz."
+    },
+    {
+      "start": 706.72,
+      "duration": 4.16,
+      "text": "What did we actually get? Did we get the"
+    },
+    {
+      "start": 708.399,
+      "duration": 5.521,
+      "text": "lowfi or this? So I can check the"
+    },
+    {
+      "start": 710.88,
+      "duration": 8.399,
+      "text": "console for that. That was not too easy."
+    },
+    {
+      "start": 713.92,
+      "duration": 7.2,
+      "text": "So we got loi mysterious drums 2020s"
+    },
+    {
+      "start": 719.279,
+      "duration": 5.361,
+      "text": "production style. And you can see we are"
+    },
+    {
+      "start": 721.12,
+      "duration": 5.68,
+      "text": "sending this to now. And yeah, it's"
+    },
+    {
+      "start": 724.64,
+      "duration": 3.999,
+      "text": "working. So that's pretty cool. So maybe"
+    },
+    {
+      "start": 726.8,
+      "duration": 3.76,
+      "text": "we should have got this a bit more"
+    },
+    {
+      "start": 728.639,
+      "duration": 5.601,
+      "text": "center, but we landed on lowfi,"
+    },
+    {
+      "start": 730.56,
+      "duration": 6.24,
+      "text": "mysterious, drums, and 2020s. So now we"
+    },
+    {
+      "start": 734.24,
+      "duration": 4.64,
+      "text": "are sending that prompt to So we will"
+    },
+    {
+      "start": 736.8,
+      "duration": 3.2,
+      "text": "get the song back soon. So let's just"
+    },
+    {
+      "start": 738.88,
+      "duration": 5,
+      "text": "wait for that. I think it's going to"
+    },
+    {
+      "start": 740,
+      "duration": 3.88,
+      "text": "take a minute or something."
+    },
+    {
+      "start": 753.279,
+      "duration": 3.601,
+      "text": "Okay, that's pretty cool. So now we got"
+    },
+    {
+      "start": 755.36,
+      "duration": 3.599,
+      "text": "the song here, right? And we can pause"
+    },
+    {
+      "start": 756.88,
+      "duration": 4.639,
+      "text": "it from the player. And this worked out"
+    },
+    {
+      "start": 758.959,
+      "duration": 4.481,
+      "text": "very good. So we created our slot"
+    },
+    {
+      "start": 761.519,
+      "duration": 5.521,
+      "text": "machine that plays different songs."
+    },
+    {
+      "start": 763.44,
+      "duration": 7.04,
+      "text": "Let's see what we land on now. So we got"
+    },
+    {
+      "start": 767.04,
+      "duration": 4.64,
+      "text": "Bosa Mysterious Strings 90s. So yeah,"
+    },
+    {
+      "start": 770.48,
+      "duration": 3.68,
+      "text": "you're probably not going to hear that,"
+    },
+    {
+      "start": 771.68,
+      "duration": 4.959,
+      "text": "but uh overall a great success. And"
+    },
+    {
+      "start": 774.16,
+      "duration": 5.28,
+      "text": "again, the Ralph loop, I think it worked"
+    },
+    {
+      "start": 776.639,
+      "duration": 4.721,
+      "text": "pretty good because we just let it run."
+    },
+    {
+      "start": 779.44,
+      "duration": 4.16,
+      "text": "We had to fix a few small things"
+    },
+    {
+      "start": 781.36,
+      "duration": 4.479,
+      "text": "afterwards, but uh not a lot of"
+    },
+    {
+      "start": 783.6,
+      "duration": 3.84,
+      "text": "intervention for me. So yeah, I think"
+    },
+    {
+      "start": 785.839,
+      "duration": 2.881,
+      "text": "this works and I was super happy with"
+    },
+    {
+      "start": 787.44,
+      "duration": 3.199,
+      "text": "the results. I had a lot of fun with"
+    },
+    {
+      "start": 788.72,
+      "duration": 3.679,
+      "text": "this. So just to summarize, I think you"
+    },
+    {
+      "start": 790.639,
+      "duration": 3.44,
+      "text": "should check this out if you wanted to."
+    },
+    {
+      "start": 792.399,
+      "duration": 3.521,
+      "text": "I think it's pretty interesting and it's"
+    },
+    {
+      "start": 794.079,
+      "duration": 4.32,
+      "text": "not so hard to set up if you just look"
+    },
+    {
+      "start": 795.92,
+      "duration": 3.919,
+      "text": "at it. So yeah, had a lot of fun with"
+    },
+    {
+      "start": 798.399,
+      "duration": 3.12,
+      "text": "this. I'm definitely going to try it out"
+    },
+    {
+      "start": 799.839,
+      "duration": 3.68,
+      "text": "more for like a bigger project that's"
+    },
+    {
+      "start": 801.519,
+      "duration": 3.921,
+      "text": "going to run longer. Uh, the nice thing"
+    },
+    {
+      "start": 803.519,
+      "duration": 3.281,
+      "text": "about it that it's pretty hands off, but"
+    },
+    {
+      "start": 805.44,
+      "duration": 3.44,
+      "text": "of course you have the risk with the"
+    },
+    {
+      "start": 806.8,
+      "duration": 4.159,
+      "text": "dangerous script permissions, but so far"
+    },
+    {
+      "start": 808.88,
+      "duration": 3.519,
+      "text": "I had no issues with that. So yeah, hope"
+    },
+    {
+      "start": 810.959,
+      "duration": 4.32,
+      "text": "this gave you some inspiration to try it"
+    },
+    {
+      "start": 812.399,
+      "duration": 2.88,
+      "text": "out and enjoy your"
+    }
+  ],
+  "fullText": "So, you probably have seen this Ralph loop all over the X and YouTube lately, right? So, uh but I haven't seen a lot of people actually do create or build something with it. So, I thought we could do that today. Uh so, I'm not going to spend too much time talking about how this loop works. Uh but I just have a simple graphic here. So basically uh I try to explain it as easy as possible. So the first thing we want to do is create like a prd. So this is the steps we want to create. This could be yeah you will see how I do this in the video. It's basically a to-do list, right? Uh it can be in JSON format in our case. And now we're going to uh just set up cloud code. So it's just going to pick one task. Do this verify and commit, right? and it's going to reset, wipe the context, and start over again on the to-do list. So, basically, we u like launch a new instance of clawed code for every wipe. So, we don't bring over the previous context to the next task we're going to do, right? Uh but it has some memory, right? The memory is of course the PRD file and we have some logging and stuff. We can check where we are in the project. So, I think I'm just going to show you how I've been using this to create some project over the weekend. Maybe you pick something up you want to try out for yourself. So yeah, let's just create our first project. So my setup is maybe not the most advanced, but I have tried it and it seems to work pretty good. So here you can see my PRD and I have some examples here, right? So basically in this PRD we have the tasks here. So we have one, two, five tasks. We probably going to have more in the upcoming project, but these are the five task and you can see we have passes here. So if this passes or we have completed this task, this is going to be set to true. And when we reset the context, we're going to skip this task and start on the second one or uh a more important task if there are any task that has kind of dependence on each other. So we also have a progress. This is kind of the log. So here we kind of track the progress. So we can go in and read that. How we actually run this is in this loop here, right? So this is going to launch instances of cloud code. Uh if you scroll down here you can see we're going to use the clo print dangerously script permissions. Uh so that is a bit risky. You have to kind of think about that because uh we don't we always want to approve everything. So we have to kind of run this in skip permissions mode. So do that on your own risk. But if you look at kind of the steps here. So we're going to find the highest priority task from the PRD where passes is false. Right? So we set this to false here. So everything is false now and when it's update and it sets this to true this loop is going to skip that one right choose based on dependencies and logical order not just the first one implement that single feature run available test and type checks to verify your work and we're going to update the prd JSON set passes to true when completed append your progress to the progress txt that's kind of the login commit your changes uh only work on one feature per iterization and that is basically it and when we have done all the passes we're just going to output Ralph complete and we stop. So yeah that is basically a simple setup of the Ralph loop. So to create the tasks now I think we're going to head over to cloud code think about my ID help uh let cloud code help us set up all the tasks here for the the first ID I have and let's try it out. So the project we're going to do today uh or at least this project we're going to do two I think. Uh the first one I wanted to have like a 3JS uh like a 180 degree movie screen so I can kind of walk inside this movie screen and I can uh kind of play the video on this kind of curved 180 spherical screen in kind of 3JS where I can kind of walk around. So I wanted to test out uh this project in this loop. So basically I'm just going to head over to Cloud Code now. So we're going to launch cloud code and then I'm going to describe um my project and I'm going to integrate it into the Ralph loop light. So let me just set this up and we can try to do that. The first thing I'm going to do is just bring cloud code up to speed on kind of the RAL loop and everything we have set up here. So I'm just going to say read all the documentation around this RL loop we have set up. Read Ralph.sh and the PRD.json. And I just say let me know you're ready for a new task. And while we wait for that I'm going to kind of think of a bit how it should describe this task now I think. Okay. So you can see we are kind of ready now. So um I'm going to paste in this and I'm going to pause. So I'm going to show you um the new prdson we need is for you to create a project as follows. a 3JS room we can walk around in uh but with a video player kind of wrapped 180 degrees spherical kind of wrapped around the room so we can load a video. So I'm going to create like a video uh directory but I'm going to put in like an MP4 video and we create a menu so we can pick what video we want to play and a start button just to get into the cinema room. Create a task iterations in prdson please. Let's create a plan for how we should write the task to PRD JSON. So I'm going to paste this again, but this time I'm going to go into plan mode in Cloud Code to create kind of a plan how we should execute this in our PRD tasks. So I'm just going to wait for the plan and then we see how this goes. So now you can kind of see Cloud Code has done some research around this project we wanted to. It sent out some explore agents and now it's just going to write the plan to it's writing the plan for what we're going to introduce into our tasks. Right. So yeah, we update the plan. This is going to be for the VR cinema room with the 100° screen and hopefully now we can just integrate this into the PRD and we should be good to go. You can see we end up with 22 tasks. Okay. And yeah, hopefully that is it. So I'm just going to execute on this uh now and we will get our PRD and let's take a quick look at it before we start a Ralph loop. Right. Okay. So this is looking pretty good. You can see we updated the full PRD. So let's go in here. You can see now we have the VR cinema room and we have all 22 tasks. Perfect. So remember we're going to pick one. We're going to execute that and then we're going to set it to true if we complete it. So if we go back here now you can see we can run this uh once. Uh, but I want to run this in autonomous mode. So, we can set 22 iteration. Maybe leave a couple for a retry. So, now basically all we have to do is head over here. I think I'm just going to run 25 iterations. It doesn't really matter if we have some retries. So, this is kind of the maximum number of iterations we're going to run. So now I'm just going to start this. And remember, we are going to run the RA loop now. So you can see we have iterations one of 25. We have the start time and for each time we start a new iteration that means that we have closed this cloud code instance we start fresh we read the PRD we see where we are in the project and continues okay so we are done you can see I had some issues here because I lost my Wi-Fi so I had to start it up again but we did complete because we already had updated all the PRDS right so you can see all 22 tasks complete ready to test but before we do that I want to start up the second loop that is going to our second project. So, I'm just going to head over there now. Let's fire up that and then we can go and test this cinema room here. So, I set this up as we did earlier. So, now we're going to do a music game. We have the Sunno API so we can generate songs, right? So, what I want this to be is like a slot machine. So, you can spin the four reels and all the reels have like different genres of music, instruments, tags and stuff. So when we kind of spin the slot and we land on like four different ones, we're going to send that as a prompt to the Suno API and like that we get like a different song every time. So we can use like a web engine like 3JS or similar. Uh I think I need to say everything has to be random for each spin. Every spin is uh random, right? Please create a plan for all task for the PRD for our JSON. And I'm just in plan mode. I'm going to create a new plan. I'm going to take you back when we are ready to fire up the iterations uh in the RAL loop and then we're going to look at the cinema. So you can see uh now I have actually let me find it here. I have updated the PRD. So we should have 20 tasks now we should do for the music game. And I think we're just going to start it. So we can run 20 iterations. Let's here and let's just go. So this just going to run in the background now and I have kind of launched the previous um application the the cinema VR. So let me show you how it turned out. So if we refresh here now you can see we can choose yeah I only have video. This was just a placeholder. So I'm going to choose my internet video right and I'm going to do enter cinema. So this is going to load. And I think if you press space we are able to play the video now. So, where are we? So, I'm going to press space. >> These are the best videos of 2025. >> Boom. Yeah, this is working, right? So, you can kind of see we can move around the sphere and we can still see kind of the screen here. We can go all the way up to the screen and look up. So, that's pretty cool. So, what is cool about this is that I didn't really have to do anything. Everything was just running um in this loop, right? And I just came back after I think it took an hour or something and it's probably going to spend a lot of tokens, but that was pretty cool. And I was really happy with the results. So, for now, we're just going to wait for the music game to finish and take a look at that. And yeah, hopefully this works as well as this cinema game did. Okay, so this is going a bit better. Uh you can see we started 1718. We have run for about 25 minutes. No interruptions by me. This has just been fully autonomous. So if we go to our PRD now JSON, you can see we have passed all the way up to task 13. So this means we have about seven left. And yeah, hopefully this works and let's try it out. Okay, so all 20 iterations is now done. Uh, we had a small issue that I'm looking at now because the text was kind of vertical instead of horizontal on kind of the reels. Other than that, I think it looks pretty good. So, I'm just going to do the final update here and then we're going to test it out and try to generate a song by spinning the slot machine. So, when we go to our local host now, you can see we are kind of greeted with this slot machine here, right? So, we have kind of K-pop, hypnotic, vocoder, piano. So what's going to happen now is when we spin this, this will generate a random song and we can play it. Okay. So let's just spin jazz. What did we actually get? Did we get the lowfi or this? So I can check the console for that. That was not too easy. So we got loi mysterious drums 2020s production style. And you can see we are sending this to now. And yeah, it's working. So that's pretty cool. So maybe we should have got this a bit more center, but we landed on lowfi, mysterious, drums, and 2020s. So now we are sending that prompt to So we will get the song back soon. So let's just wait for that. I think it's going to take a minute or something. Okay, that's pretty cool. So now we got the song here, right? And we can pause it from the player. And this worked out very good. So we created our slot machine that plays different songs. Let's see what we land on now. So we got Bosa Mysterious Strings 90s. So yeah, you're probably not going to hear that, but uh overall a great success. And again, the Ralph loop, I think it worked pretty good because we just let it run. We had to fix a few small things afterwards, but uh not a lot of intervention for me. So yeah, I think this works and I was super happy with the results. I had a lot of fun with this. So just to summarize, I think you should check this out if you wanted to. I think it's pretty interesting and it's not so hard to set up if you just look at it. So yeah, had a lot of fun with this. I'm definitely going to try it out more for like a bigger project that's going to run longer. Uh, the nice thing about it that it's pretty hands off, but of course you have the risk with the dangerous script permissions, but so far I had no issues with that. So yeah, hope this gave you some inspiration to try it out and enjoy your",
+  "fetchedAt": "2026-01-20T17:02:29.765Z"
+}

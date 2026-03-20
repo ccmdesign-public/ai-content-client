@@ -1,0 +1,1974 @@
+{
+  "videoId": "UApd-gjQ6nM",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.16,
+      "duration": 3.36,
+      "text": "Okay, so today I thought we could try"
+    },
+    {
+      "start": 1.76,
+      "duration": 5.84,
+      "text": "something pretty cool. I have access to"
+    },
+    {
+      "start": 3.52,
+      "duration": 6.48,
+      "text": "the AMD Ryzen AI Pro MPU here from AMD."
+    },
+    {
+      "start": 7.6,
+      "duration": 4.24,
+      "text": "And what I want to try today is run this"
+    },
+    {
+      "start": 10,
+      "duration": 4,
+      "text": "with Lama. I want to try to run this"
+    },
+    {
+      "start": 11.84,
+      "duration": 5.279,
+      "text": "with open code running some aentic"
+    },
+    {
+      "start": 14,
+      "duration": 5.76,
+      "text": "workflows with maybe the GPT OSS 12B"
+    },
+    {
+      "start": 17.119,
+      "duration": 5.361,
+      "text": "model. I want to try out the Quen image"
+    },
+    {
+      "start": 19.76,
+      "duration": 4.64,
+      "text": "model 3VL I think it's called just to"
+    },
+    {
+      "start": 22.48,
+      "duration": 3.6,
+      "text": "see how much we can actually do local."
+    },
+    {
+      "start": 24.4,
+      "duration": 3.92,
+      "text": "Let's say you are on a plane, you bring"
+    },
+    {
+      "start": 26.08,
+      "duration": 4.4,
+      "text": "your laptop with the AMD Ryzen AI pro"
+    },
+    {
+      "start": 28.32,
+      "duration": 4.079,
+      "text": "chip in it and let's just see what you"
+    },
+    {
+      "start": 30.48,
+      "duration": 3.759,
+      "text": "can do with that. So yeah, let's just"
+    },
+    {
+      "start": 32.399,
+      "duration": 3.361,
+      "text": "try it out. See what we can do, what"
+    },
+    {
+      "start": 34.239,
+      "duration": 3.84,
+      "text": "kind of tokens per second we can get"
+    },
+    {
+      "start": 35.76,
+      "duration": 4.799,
+      "text": "with different models and yeah, do some"
+    },
+    {
+      "start": 38.079,
+      "duration": 4.8,
+      "text": "local AI. So yeah, like I said, we are"
+    },
+    {
+      "start": 40.559,
+      "duration": 4.32,
+      "text": "going to run this on Ulama and yeah, if"
+    },
+    {
+      "start": 42.879,
+      "duration": 4.641,
+      "text": "you haven't tried, it's a super easy way"
+    },
+    {
+      "start": 44.879,
+      "duration": 4.401,
+      "text": "to get into local models. And if you go"
+    },
+    {
+      "start": 47.52,
+      "duration": 3.84,
+      "text": "to models here, you can just download"
+    },
+    {
+      "start": 49.28,
+      "duration": 5.2,
+      "text": "this, install it for Mac, Windows or"
+    },
+    {
+      "start": 51.36,
+      "duration": 5.44,
+      "text": "Linux. Today we are on Windows and you"
+    },
+    {
+      "start": 54.48,
+      "duration": 3.919,
+      "text": "if you go to models here we have all"
+    },
+    {
+      "start": 56.8,
+      "duration": 4.32,
+      "text": "kind of the latest models we can just"
+    },
+    {
+      "start": 58.399,
+      "duration": 5.361,
+      "text": "pull right and this will work perfect"
+    },
+    {
+      "start": 61.12,
+      "duration": 4.96,
+      "text": "and I'm going to focus I think on uh I"
+    },
+    {
+      "start": 63.76,
+      "duration": 5.92,
+      "text": "think I'm going to focus on the GPT OSS"
+    },
+    {
+      "start": 66.08,
+      "duration": 5.92,
+      "text": "20B quentry as I said VL I also want to"
+    },
+    {
+      "start": 69.68,
+      "duration": 4.72,
+      "text": "try out quentry coder to see what kind"
+    },
+    {
+      "start": 72,
+      "duration": 4.64,
+      "text": "of performance we can get on that and"
+    },
+    {
+      "start": 74.4,
+      "duration": 6.079,
+      "text": "one thing I'm a big fan of is kind of"
+    },
+    {
+      "start": 76.64,
+      "duration": 7.119,
+      "text": "the open source of claw code open code"
+    },
+    {
+      "start": 80.479,
+      "duration": 4.881,
+      "text": "super good tool to be honest. If you"
+    },
+    {
+      "start": 83.759,
+      "duration": 3.68,
+      "text": "haven't tried it, definitely go check it"
+    },
+    {
+      "start": 85.36,
+      "duration": 4.64,
+      "text": "out. And I'm going to set up like open"
+    },
+    {
+      "start": 87.439,
+      "duration": 6,
+      "text": "code to run on Wama so we can try some"
+    },
+    {
+      "start": 90,
+      "duration": 6.4,
+      "text": "agentic workflows uh with yeah running"
+    },
+    {
+      "start": 93.439,
+      "duration": 4.801,
+      "text": "this offline or like local I guess. So"
+    },
+    {
+      "start": 96.4,
+      "duration": 3.52,
+      "text": "you can do some agentic workflow if"
+    },
+    {
+      "start": 98.24,
+      "duration": 3.839,
+      "text": "you're on a plane, you have your AMD"
+    },
+    {
+      "start": 99.92,
+      "duration": 4.96,
+      "text": "laptop with you and you can do stuff"
+    },
+    {
+      "start": 102.079,
+      "duration": 4.4,
+      "text": "like this. So yeah, that is basically uh"
+    },
+    {
+      "start": 104.88,
+      "duration": 4.48,
+      "text": "what we are starting with. I have"
+    },
+    {
+      "start": 106.479,
+      "duration": 5.201,
+      "text": "installed lama. I have downloaded set up"
+    },
+    {
+      "start": 109.36,
+      "duration": 4.16,
+      "text": "open code and yeah let's just explore a"
+    },
+    {
+      "start": 111.68,
+      "duration": 3.28,
+      "text": "bit. Let's see what we can get here. So"
+    },
+    {
+      "start": 113.52,
+      "duration": 4,
+      "text": "the first thing I wanted to do was just"
+    },
+    {
+      "start": 114.96,
+      "duration": 4.08,
+      "text": "to go to the terminal lama list just see"
+    },
+    {
+      "start": 117.52,
+      "duration": 4,
+      "text": "what kind of models I have. So I have"
+    },
+    {
+      "start": 119.04,
+      "duration": 6.32,
+      "text": "the quen 3 code there. I have the quen 3"
+    },
+    {
+      "start": 121.52,
+      "duration": 6.16,
+      "text": "v8b image model and I have uh oss 20b."
+    },
+    {
+      "start": 125.36,
+      "duration": 4.64,
+      "text": "So what we can do in that we can run"
+    },
+    {
+      "start": 127.68,
+      "duration": 4.16,
+      "text": "some test with a verbose flag to"
+    },
+    {
+      "start": 130,
+      "duration": 4.72,
+      "text": "actually see what kind of speeds we get."
+    },
+    {
+      "start": 131.84,
+      "duration": 5.84,
+      "text": "So what we can do is uh ola run and"
+    },
+    {
+      "start": 134.72,
+      "duration": 6.239,
+      "text": "let's do gptoss"
+    },
+    {
+      "start": 137.68,
+      "duration": 6.08,
+      "text": "20B and we can do the d-verbose"
+    },
+    {
+      "start": 140.959,
+      "duration": 4.721,
+      "text": "right so that is the flag and when this"
+    },
+    {
+      "start": 143.76,
+      "duration": 6.08,
+      "text": "launches now we can actually see at the"
+    },
+    {
+      "start": 145.68,
+      "duration": 6.88,
+      "text": "end what kind of speed we get okay so uh"
+    },
+    {
+      "start": 149.84,
+      "duration": 5.119,
+      "text": "I just want to say a quick bit about uh"
+    },
+    {
+      "start": 152.56,
+      "duration": 4.48,
+      "text": "this what we are running on here so you"
+    },
+    {
+      "start": 154.959,
+      "duration": 4.881,
+      "text": "can get some comparison"
+    },
+    {
+      "start": 157.04,
+      "duration": 5.52,
+      "text": "uh if I go to the system and I go to"
+    },
+    {
+      "start": 159.84,
+      "duration": 4.72,
+      "text": "about you can see This is the setup we"
+    },
+    {
+      "start": 162.56,
+      "duration": 4.24,
+      "text": "have now. Uh yeah, I guess you can just"
+    },
+    {
+      "start": 164.56,
+      "duration": 7.759,
+      "text": "zoom in. We are on the AMD Ryzen AI Max"
+    },
+    {
+      "start": 166.8,
+      "duration": 7.2,
+      "text": "Pro uh 395 and we have the 128 GB of RAM"
+    },
+    {
+      "start": 172.319,
+      "duration": 3.681,
+      "text": "and yeah, you can kind of see here. So"
+    },
+    {
+      "start": 174,
+      "duration": 4.16,
+      "text": "you can put it to your laptop if you"
+    },
+    {
+      "start": 176,
+      "duration": 4.08,
+      "text": "want to do that something like this."
+    },
+    {
+      "start": 178.16,
+      "duration": 4.48,
+      "text": "Okay, so you can see we are now in this"
+    },
+    {
+      "start": 180.08,
+      "duration": 4.32,
+      "text": "and let me just do a quick test here."
+    },
+    {
+      "start": 182.64,
+      "duration": 4.4,
+      "text": "Write a short story about the history of"
+    },
+    {
+      "start": 184.4,
+      "duration": 3.919,
+      "text": "RAM. Okay, so you can see this is"
+    },
+    {
+      "start": 187.04,
+      "duration": 3.76,
+      "text": "looking pretty good. You can see here"
+    },
+    {
+      "start": 188.319,
+      "duration": 5.521,
+      "text": "are the thinking tokens from the GPT OSS"
+    },
+    {
+      "start": 190.8,
+      "duration": 6.159,
+      "text": "model and basically at the end now we"
+    },
+    {
+      "start": 193.84,
+      "duration": 5.84,
+      "text": "will kind of get like a small uh"
+    },
+    {
+      "start": 196.959,
+      "duration": 4.721,
+      "text": "overview of what speed we ended up with"
+    },
+    {
+      "start": 199.68,
+      "duration": 4,
+      "text": "using a lot of thinking tokens but with"
+    },
+    {
+      "start": 201.68,
+      "duration": 3.919,
+      "text": "what is nice here doesn't really matter"
+    },
+    {
+      "start": 203.68,
+      "duration": 5.279,
+      "text": "too much now you can kind of see the"
+    },
+    {
+      "start": 205.599,
+      "duration": 5.441,
+      "text": "output and this is pretty good speed if"
+    },
+    {
+      "start": 208.959,
+      "duration": 4.241,
+      "text": "you ask me just to running on a local"
+    },
+    {
+      "start": 211.04,
+      "duration": 4.559,
+      "text": "laptop here this is I have nothing"
+    },
+    {
+      "start": 213.2,
+      "duration": 3.84,
+      "text": "against this speed for me this is fast"
+    },
+    {
+      "start": 215.599,
+      "duration": 3.36,
+      "text": "enough I can't really keep up with"
+    },
+    {
+      "start": 217.04,
+      "duration": 4.559,
+      "text": "reading Anyway, we can see the world"
+    },
+    {
+      "start": 218.959,
+      "duration": 5.28,
+      "text": "kept accelerating. DDR2, 3, four, and"
+    },
+    {
+      "start": 221.599,
+      "duration": 4.72,
+      "text": "five. And the prices now for the DDR5 is"
+    },
+    {
+      "start": 224.239,
+      "duration": 4.321,
+      "text": "crazy high, right? So, that is also"
+    },
+    {
+      "start": 226.319,
+      "duration": 5.681,
+      "text": "interesting. So, this was a really long"
+    },
+    {
+      "start": 228.56,
+      "duration": 5.759,
+      "text": "story here from GPT OSS 20. And we end"
+    },
+    {
+      "start": 232,
+      "duration": 5.36,
+      "text": "up here. I think this means that we got"
+    },
+    {
+      "start": 234.319,
+      "duration": 4.801,
+      "text": "about 40 tokens per second. And that is"
+    },
+    {
+      "start": 237.36,
+      "duration": 4.32,
+      "text": "pretty good. That I'm super happy with"
+    },
+    {
+      "start": 239.12,
+      "duration": 5.039,
+      "text": "that. So, running at 40 tokens per"
+    },
+    {
+      "start": 241.68,
+      "duration": 4.479,
+      "text": "second is far more than I can read. And"
+    },
+    {
+      "start": 244.159,
+      "duration": 4.72,
+      "text": "for coding also as you will see later"
+    },
+    {
+      "start": 246.159,
+      "duration": 5.36,
+      "text": "that is fine. So I'm happy with that. So"
+    },
+    {
+      "start": 248.879,
+      "duration": 4.08,
+      "text": "if we go to the Quen model now you can"
+    },
+    {
+      "start": 251.519,
+      "duration": 3.761,
+      "text": "see this will probably fall a bit"
+    },
+    {
+      "start": 252.959,
+      "duration": 7.761,
+      "text": "because we are on a 30B. Remember this"
+    },
+    {
+      "start": 255.28,
+      "duration": 8.88,
+      "text": "was um a 20B model right? So let's just"
+    },
+    {
+      "start": 260.72,
+      "duration": 8.24,
+      "text": "try that. So for that we go"
+    },
+    {
+      "start": 264.16,
+      "duration": 7.68,
+      "text": "run and I think it's three coder"
+    },
+    {
+      "start": 268.96,
+      "duration": 5.6,
+      "text": "30B is it? I think so. If not I'm going"
+    },
+    {
+      "start": 271.84,
+      "duration": 4.72,
+      "text": "to fix it. And let's do the verbose flag"
+    },
+    {
+      "start": 274.56,
+      "duration": 4.48,
+      "text": "again. And this time, let's just try"
+    },
+    {
+      "start": 276.56,
+      "duration": 5.919,
+      "text": "some Python code or something, right? A"
+    },
+    {
+      "start": 279.04,
+      "duration": 5.52,
+      "text": "simple snake game. Okay. So, yeah, you"
+    },
+    {
+      "start": 282.479,
+      "duration": 3.521,
+      "text": "can see even though this is 30B, it's"
+    },
+    {
+      "start": 284.56,
+      "duration": 4.079,
+      "text": "still pretty fast. I would say this"
+    },
+    {
+      "start": 286,
+      "duration": 4.72,
+      "text": "almost looks faster if you ask me. At"
+    },
+    {
+      "start": 288.639,
+      "duration": 4.321,
+      "text": "least it's not slower. And this is a"
+    },
+    {
+      "start": 290.72,
+      "duration": 5.039,
+      "text": "pretty good coding model to be honest."
+    },
+    {
+      "start": 292.96,
+      "duration": 4.64,
+      "text": "30B and running this on like a local"
+    },
+    {
+      "start": 295.759,
+      "duration": 4.081,
+      "text": "laptop. Let's say you're in a plane, you"
+    },
+    {
+      "start": 297.6,
+      "duration": 4.08,
+      "text": "want to do something with your coding."
+    },
+    {
+      "start": 299.84,
+      "duration": 4.48,
+      "text": "And yeah, this is just a superb way to"
+    },
+    {
+      "start": 301.68,
+      "duration": 4.56,
+      "text": "do it on like a local laptop. So let's"
+    },
+    {
+      "start": 304.32,
+      "duration": 4.64,
+      "text": "see what we end up here now. We ended up"
+    },
+    {
+      "start": 306.24,
+      "duration": 6.32,
+      "text": "on 51 tokens per second. So even though"
+    },
+    {
+      "start": 308.96,
+      "duration": 6,
+      "text": "this was a 30B model, this was faster,"
+    },
+    {
+      "start": 312.56,
+      "duration": 4.56,
+      "text": "right? So that's pretty interesting. And"
+    },
+    {
+      "start": 314.96,
+      "duration": 4.64,
+      "text": "50 tokens per second for doing coding,"
+    },
+    {
+      "start": 317.12,
+      "duration": 4.48,
+      "text": "that's good enough for me. I have no"
+    },
+    {
+      "start": 319.6,
+      "duration": 4.24,
+      "text": "issues with that as you will see soon in"
+    },
+    {
+      "start": 321.6,
+      "duration": 3.76,
+      "text": "my small testing. So yeah, that is an"
+    },
+    {
+      "start": 323.84,
+      "duration": 3.28,
+      "text": "introduction to Lama in the terminal."
+    },
+    {
+      "start": 325.36,
+      "duration": 3.6,
+      "text": "But we also have the llama app that is a"
+    },
+    {
+      "start": 327.12,
+      "duration": 4.32,
+      "text": "bit more nice if you want like a an"
+    },
+    {
+      "start": 328.96,
+      "duration": 6,
+      "text": "interface. You can see we are on the GPT"
+    },
+    {
+      "start": 331.44,
+      "duration": 6.08,
+      "text": "OSS30B here. Do I have the quen coder?"
+    },
+    {
+      "start": 334.96,
+      "duration": 6.56,
+      "text": "Yeah, I have the quen coder too. And I"
+    },
+    {
+      "start": 337.52,
+      "duration": 6.56,
+      "text": "can say write a simple"
+    },
+    {
+      "start": 341.52,
+      "duration": 5.92,
+      "text": "uh Python code or something like that."
+    },
+    {
+      "start": 344.08,
+      "duration": 6.48,
+      "text": "And you can see pretty fast all local on"
+    },
+    {
+      "start": 347.44,
+      "duration": 5.68,
+      "text": "my laptop on my MPU. So yeah, no issues"
+    },
+    {
+      "start": 350.56,
+      "duration": 5.52,
+      "text": "with that. So you can also use the amama"
+    },
+    {
+      "start": 353.12,
+      "duration": 5.44,
+      "text": "yeah kind of in uh yeah interface here"
+    },
+    {
+      "start": 356.08,
+      "duration": 4.959,
+      "text": "it looks a bit better but now uh I want"
+    },
+    {
+      "start": 358.56,
+      "duration": 4.4,
+      "text": "to do one more thing with images and"
+    },
+    {
+      "start": 361.039,
+      "duration": 3.841,
+      "text": "then I want to go to open coder and see"
+    },
+    {
+      "start": 362.96,
+      "duration": 4.799,
+      "text": "what we actually can do on a genic"
+    },
+    {
+      "start": 364.88,
+      "duration": 5.2,
+      "text": "tasks. So the quentry VL is my favorite"
+    },
+    {
+      "start": 367.759,
+      "duration": 3.841,
+      "text": "uh image model at the moment and what is"
+    },
+    {
+      "start": 370.08,
+      "duration": 3.44,
+      "text": "pretty cool about this at there are"
+    },
+    {
+      "start": 371.6,
+      "duration": 4.48,
+      "text": "different sizes. So I have been actually"
+    },
+    {
+      "start": 373.52,
+      "duration": 5.28,
+      "text": "using the 8B model on the quen 3 VL"
+    },
+    {
+      "start": 376.08,
+      "duration": 5.679,
+      "text": "power uh vision model and it's so good"
+    },
+    {
+      "start": 378.8,
+      "duration": 4.56,
+      "text": "for being just 8 billion parameters and"
+    },
+    {
+      "start": 381.759,
+      "duration": 4.56,
+      "text": "this is what I've been just running on"
+    },
+    {
+      "start": 383.36,
+      "duration": 6.08,
+      "text": "like my desktop too with the uh and it"
+    },
+    {
+      "start": 386.319,
+      "duration": 4.72,
+      "text": "has no issues doing like simple OCR. We"
+    },
+    {
+      "start": 389.44,
+      "duration": 4.16,
+      "text": "can do images and you can kind of see"
+    },
+    {
+      "start": 391.039,
+      "duration": 4.801,
+      "text": "the capabilities here and I think this"
+    },
+    {
+      "start": 393.6,
+      "duration": 4.08,
+      "text": "is great enough to do some simple task"
+    },
+    {
+      "start": 395.84,
+      "duration": 3.84,
+      "text": "with this. I built some small app that"
+    },
+    {
+      "start": 397.68,
+      "duration": 4.16,
+      "text": "are running this model. So let's just"
+    },
+    {
+      "start": 399.68,
+      "duration": 4.32,
+      "text": "see how this performs now and I can kind"
+    },
+    {
+      "start": 401.84,
+      "duration": 4.96,
+      "text": "of show you how this works. So remember"
+    },
+    {
+      "start": 404,
+      "duration": 5.039,
+      "text": "we could do this in the uh the desktop"
+    },
+    {
+      "start": 406.8,
+      "duration": 3.839,
+      "text": "here. We can try both. So let me first"
+    },
+    {
+      "start": 409.039,
+      "duration": 4.88,
+      "text": "just show you how this work in the"
+    },
+    {
+      "start": 410.639,
+      "duration": 6.161,
+      "text": "terminal. Right? If you remember list we"
+    },
+    {
+      "start": 413.919,
+      "duration": 5.28,
+      "text": "have the quen 3VL. So we can just run"
+    },
+    {
+      "start": 416.8,
+      "duration": 7.44,
+      "text": "that uh"
+    },
+    {
+      "start": 419.199,
+      "duration": 8.4,
+      "text": "run and let's do uh yeah Quen 3VL8B."
+    },
+    {
+      "start": 424.24,
+      "duration": 6.16,
+      "text": "Okay. So let's just run that. And I took"
+    },
+    {
+      "start": 427.599,
+      "duration": 4.961,
+      "text": "a screenshot of kind of hacker news."
+    },
+    {
+      "start": 430.4,
+      "duration": 4.799,
+      "text": "This is kind of the first uh 15"
+    },
+    {
+      "start": 432.56,
+      "duration": 5.759,
+      "text": "headlines or something. So you can see I"
+    },
+    {
+      "start": 435.199,
+      "duration": 6.161,
+      "text": "took a screenshot of that. And what we"
+    },
+    {
+      "start": 438.319,
+      "duration": 6.081,
+      "text": "can do now uh when this is running, yes,"
+    },
+    {
+      "start": 441.36,
+      "duration": 5.6,
+      "text": "I can kind of just po point to that"
+    },
+    {
+      "start": 444.4,
+      "duration": 4.4,
+      "text": "path. So I just paste in the path here."
+    },
+    {
+      "start": 446.96,
+      "duration": 4.32,
+      "text": "This is the hack.png. And then I can"
+    },
+    {
+      "start": 448.8,
+      "duration": 8.16,
+      "text": "just ask a question. So I can do"
+    },
+    {
+      "start": 451.28,
+      "duration": 9.199,
+      "text": "something. What are the first or the top"
+    },
+    {
+      "start": 456.96,
+      "duration": 6.16,
+      "text": "three headlines? Something like that."
+    },
+    {
+      "start": 460.479,
+      "duration": 6.72,
+      "text": "Let's do that. And let's see now if this"
+    },
+    {
+      "start": 463.12,
+      "duration": 6.079,
+      "text": "small 8B uh quent 3VL vision model can"
+    },
+    {
+      "start": 467.199,
+      "duration": 4.72,
+      "text": "just look at the image, find the top"
+    },
+    {
+      "start": 469.199,
+      "duration": 5.201,
+      "text": "three uh headlines and bring it back"
+    },
+    {
+      "start": 471.919,
+      "duration": 4.4,
+      "text": "here. So remember this is offline. We"
+    },
+    {
+      "start": 474.4,
+      "duration": 6.239,
+      "text": "are not doing we're just working uh"
+    },
+    {
+      "start": 476.319,
+      "duration": 6.72,
+      "text": "locally now on the the AMD uh chip here,"
+    },
+    {
+      "start": 480.639,
+      "duration": 4.481,
+      "text": "right?"
+    },
+    {
+      "start": 483.039,
+      "duration": 5.121,
+      "text": "So you can see. Okay. So look at this."
+    },
+    {
+      "start": 485.12,
+      "duration": 5.68,
+      "text": "We have 50 hallucinated citations."
+    },
+    {
+      "start": 488.16,
+      "duration": 4.24,
+      "text": "Google Titan. Goodbye Microsoft."
+    },
+    {
+      "start": 490.8,
+      "duration": 4.32,
+      "text": "Everything looks okay. Let's double"
+    },
+    {
+      "start": 492.4,
+      "duration": 6.239,
+      "text": "check. Yeah. Goodbye Microsoft. Google"
+    },
+    {
+      "start": 495.12,
+      "duration": 6.079,
+      "text": "Titans. 50 hallucinated citations."
+    },
+    {
+      "start": 498.639,
+      "duration": 4.96,
+      "text": "Yes, you can see how nice this is. And"
+    },
+    {
+      "start": 501.199,
+      "duration": 5.921,
+      "text": "we can also just double check if we go"
+    },
+    {
+      "start": 503.599,
+      "duration": 6.401,
+      "text": "to the lama here. Uh let's just do a new"
+    },
+    {
+      "start": 507.12,
+      "duration": 6,
+      "text": "session. Something like this. Uh, let's"
+    },
+    {
+      "start": 510,
+      "duration": 4.64,
+      "text": "select the Quinn model here. And then I"
+    },
+    {
+      "start": 513.12,
+      "duration": 4.159,
+      "text": "can just upload the image, right?"
+    },
+    {
+      "start": 514.64,
+      "duration": 5.519,
+      "text": "Because now we have a more of like a I"
+    },
+    {
+      "start": 517.279,
+      "duration": 5.2,
+      "text": "can just upload this, right? I can zoom"
+    },
+    {
+      "start": 520.159,
+      "duration": 4.641,
+      "text": "in a bit here. And let's ask the same"
+    },
+    {
+      "start": 522.479,
+      "duration": 8.321,
+      "text": "questions."
+    },
+    {
+      "start": 524.8,
+      "duration": 8.24,
+      "text": "What are the top three headlines?"
+    },
+    {
+      "start": 530.8,
+      "duration": 4.56,
+      "text": "And of course this uh here if you are"
+    },
+    {
+      "start": 533.04,
+      "duration": 5.28,
+      "text": "taking this laptop uh with the AMD chip"
+    },
+    {
+      "start": 535.36,
+      "duration": 4.88,
+      "text": "offline or on a plane and this will of"
+    },
+    {
+      "start": 538.32,
+      "duration": 4.48,
+      "text": "course work offline and you can see now"
+    },
+    {
+      "start": 540.24,
+      "duration": 4.719,
+      "text": "we get it in a more like nice formatting"
+    },
+    {
+      "start": 542.8,
+      "duration": 4.32,
+      "text": "here. It only took 4 seconds. So that's"
+    },
+    {
+      "start": 544.959,
+      "duration": 4.641,
+      "text": "pretty fast because now this time the"
+    },
+    {
+      "start": 547.12,
+      "duration": 5.44,
+      "text": "model was already loaded into memory and"
+    },
+    {
+      "start": 549.6,
+      "duration": 4.96,
+      "text": "it's even quicker this time. So just a"
+    },
+    {
+      "start": 552.56,
+      "duration": 3.68,
+      "text": "superb vision model if you want to try"
+    },
+    {
+      "start": 554.56,
+      "duration": 3.6,
+      "text": "out running something local on your"
+    },
+    {
+      "start": 556.24,
+      "duration": 5.599,
+      "text": "laptop like I am doing now on my Windows"
+    },
+    {
+      "start": 558.16,
+      "duration": 6,
+      "text": "machine. And yeah, just a very good"
+    },
+    {
+      "start": 561.839,
+      "duration": 4.321,
+      "text": "model. Uh, but now let's try to do some"
+    },
+    {
+      "start": 564.16,
+      "duration": 4,
+      "text": "aentic coding and build like a simple"
+    },
+    {
+      "start": 566.16,
+      "duration": 4.4,
+      "text": "maybe like an HTML website with some"
+    },
+    {
+      "start": 568.16,
+      "duration": 4.4,
+      "text": "images and stuff. So let's get into some"
+    },
+    {
+      "start": 570.56,
+      "duration": 3.76,
+      "text": "aentic coding. And you remember open"
+    },
+    {
+      "start": 572.56,
+      "duration": 4.16,
+      "text": "code. I can just type that in my"
+    },
+    {
+      "start": 574.32,
+      "duration": 4.48,
+      "text": "terminal and I get to kind of this yeah"
+    },
+    {
+      "start": 576.72,
+      "duration": 4.799,
+      "text": "open- source local version of cloud code"
+    },
+    {
+      "start": 578.8,
+      "duration": 5.92,
+      "text": "that I like to call it. And you can see"
+    },
+    {
+      "start": 581.519,
+      "duration": 6.401,
+      "text": "this has this here set up as kind of my"
+    },
+    {
+      "start": 584.72,
+      "duration": 7.119,
+      "text": "local provider here. Uh I can do"
+    },
+    {
+      "start": 587.92,
+      "duration": 5.52,
+      "text": "slashmodels, right? And if I do"
+    },
+    {
+      "start": 591.839,
+      "duration": 4,
+      "text": "here, you can see here are the two"
+    },
+    {
+      "start": 593.44,
+      "duration": 5.2,
+      "text": "models I have installed. I'm not using"
+    },
+    {
+      "start": 595.839,
+      "duration": 6,
+      "text": "the the wish model here. But let's"
+    },
+    {
+      "start": 598.64,
+      "duration": 5.36,
+      "text": "select the GPT20B model. And you can see"
+    },
+    {
+      "start": 601.839,
+      "duration": 4,
+      "text": "I can do hello. And when this has loaded"
+    },
+    {
+      "start": 604,
+      "duration": 4.16,
+      "text": "into memory now, it should work a bit"
+    },
+    {
+      "start": 605.839,
+      "duration": 4,
+      "text": "better. Uh but you can see we are still"
+    },
+    {
+      "start": 608.16,
+      "duration": 4.48,
+      "text": "kind of loading this into memory and we"
+    },
+    {
+      "start": 609.839,
+      "duration": 5.361,
+      "text": "will get a response. So remember uh"
+    },
+    {
+      "start": 612.64,
+      "duration": 4.24,
+      "text": "running this has some uh additional"
+    },
+    {
+      "start": 615.2,
+      "duration": 4.48,
+      "text": "context when we are running this. But"
+    },
+    {
+      "start": 616.88,
+      "duration": 5.28,
+      "text": "you can see it is working 100% locally."
+    },
+    {
+      "start": 619.68,
+      "duration": 4.56,
+      "text": "We are running open code. Uh this is not"
+    },
+    {
+      "start": 622.16,
+      "duration": 3.76,
+      "text": "kind of my favorite way of running open"
+    },
+    {
+      "start": 624.24,
+      "duration": 3.12,
+      "text": "code. So I'm going to show you what I"
+    },
+    {
+      "start": 625.92,
+      "duration": 4.64,
+      "text": "like to use this when I'm running this"
+    },
+    {
+      "start": 627.36,
+      "duration": 5.84,
+      "text": "locally on uh this AMD laptop here. Uh"
+    },
+    {
+      "start": 630.56,
+      "duration": 5.279,
+      "text": "so if I just uh I'm just going to leave"
+    },
+    {
+      "start": 633.2,
+      "duration": 4.319,
+      "text": "this. Okay. And I'm going to close this"
+    },
+    {
+      "start": 635.839,
+      "duration": 5.12,
+      "text": "and I'm going to head over to cursor. So"
+    },
+    {
+      "start": 637.519,
+      "duration": 5.601,
+      "text": "this is where I like to use um"
+    },
+    {
+      "start": 640.959,
+      "duration": 5.601,
+      "text": "open code because then I can kind of see"
+    },
+    {
+      "start": 643.12,
+      "duration": 5.92,
+      "text": "the files here. And again we can just do"
+    },
+    {
+      "start": 646.56,
+      "duration": 4.48,
+      "text": "open code here and we will launch it"
+    },
+    {
+      "start": 649.04,
+      "duration": 4.72,
+      "text": "again. So you can see this is basically"
+    },
+    {
+      "start": 651.04,
+      "duration": 4.88,
+      "text": "the same as we had before. Uh again I"
+    },
+    {
+      "start": 653.76,
+      "duration": 4.72,
+      "text": "want to switch models. I want to just go"
+    },
+    {
+      "start": 655.92,
+      "duration": 4.64,
+      "text": "to the 20B or let's try yeah let's do"
+    },
+    {
+      "start": 658.48,
+      "duration": 4.4,
+      "text": "the 20B. I kind of like that for open"
+    },
+    {
+      "start": 660.56,
+      "duration": 4.8,
+      "text": "code. So let's try to create a file"
+    },
+    {
+      "start": 662.88,
+      "duration": 6.639,
+      "text": "here. Now let's say we wanted to do a a"
+    },
+    {
+      "start": 665.36,
+      "duration": 8.24,
+      "text": "simple HTML file HTML web page or"
+    },
+    {
+      "start": 669.519,
+      "duration": 10.721,
+      "text": "something. So we can start with uh"
+    },
+    {
+      "start": 673.6,
+      "duration": 11.359,
+      "text": "create a simple and uh white HTML page"
+    },
+    {
+      "start": 680.24,
+      "duration": 7.52,
+      "text": "uh white text uh black background uh for"
+    },
+    {
+      "start": 684.959,
+      "duration": 5.361,
+      "text": "readability or something"
+    },
+    {
+      "start": 687.76,
+      "duration": 5.12,
+      "text": "uh ability. Okay, that's fine. Let's"
+    },
+    {
+      "start": 690.32,
+      "duration": 5.04,
+      "text": "just try that. So what is happening here"
+    },
+    {
+      "start": 692.88,
+      "duration": 4.16,
+      "text": "now in open code as this is more like an"
+    },
+    {
+      "start": 695.36,
+      "duration": 4.8,
+      "text": "agentic"
+    },
+    {
+      "start": 697.04,
+      "duration": 6,
+      "text": "uh it has tools. So it has read tool, it"
+    },
+    {
+      "start": 700.16,
+      "duration": 4.72,
+      "text": "had write tool, it has tools to generate"
+    },
+    {
+      "start": 703.04,
+      "duration": 4.479,
+      "text": "files. So if you look at the right here"
+    },
+    {
+      "start": 704.88,
+      "duration": 4.72,
+      "text": "now uh this is basically the same as"
+    },
+    {
+      "start": 707.519,
+      "duration": 4.32,
+      "text": "cloud code as I said before we can"
+    },
+    {
+      "start": 709.6,
+      "duration": 4.16,
+      "text": "generate files. But what is cool now is"
+    },
+    {
+      "start": 711.839,
+      "duration": 4.24,
+      "text": "this. This is not connected to the"
+    },
+    {
+      "start": 713.76,
+      "duration": 4.639,
+      "text": "cloud. Everything is local. The tool"
+    },
+    {
+      "start": 716.079,
+      "duration": 3.841,
+      "text": "calls are all performed locally. So now"
+    },
+    {
+      "start": 718.399,
+      "duration": 3.44,
+      "text": "you can kind of see more. You can see we"
+    },
+    {
+      "start": 719.92,
+      "duration": 5.039,
+      "text": "are writing this and we got the text"
+    },
+    {
+      "start": 721.839,
+      "duration": 5.521,
+      "text": "file here. Black and white HTML."
+    },
+    {
+      "start": 724.959,
+      "duration": 5.201,
+      "text": "Perfect. So let's check it out. Okay."
+    },
+    {
+      "start": 727.36,
+      "duration": 4.719,
+      "text": "Simple but easy, right? Uh, but I'm not"
+    },
+    {
+      "start": 730.16,
+      "duration": 5.04,
+      "text": "quite happy. I want to work more on"
+    },
+    {
+      "start": 732.079,
+      "duration": 5.281,
+      "text": "this. Uh, I want to center the text and"
+    },
+    {
+      "start": 735.2,
+      "duration": 4.24,
+      "text": "just write more text and do some"
+    },
+    {
+      "start": 737.36,
+      "duration": 4.32,
+      "text": "headlines and stuff like that. I can"
+    },
+    {
+      "start": 739.44,
+      "duration": 5.6,
+      "text": "just go back here and I could say"
+    },
+    {
+      "start": 741.68,
+      "duration": 6.959,
+      "text": "something like centered."
+    },
+    {
+      "start": 745.04,
+      "duration": 7.56,
+      "text": "Uh, that's that's fine for now. Okay."
+    },
+    {
+      "start": 748.639,
+      "duration": 3.961,
+      "text": "So, I'm just going to do that."
+    },
+    {
+      "start": 753.2,
+      "duration": 4.4,
+      "text": "So, let's see the changes now. So, let's"
+    },
+    {
+      "start": 755.12,
+      "duration": 5.279,
+      "text": "refresh. Okay. Much better. Welcome to"
+    },
+    {
+      "start": 757.6,
+      "duration": 4.799,
+      "text": "the reading demo. Yeah, I like this. You"
+    },
+    {
+      "start": 760.399,
+      "duration": 5.041,
+      "text": "can see we have a bit more spacing. We"
+    },
+    {
+      "start": 762.399,
+      "duration": 6.081,
+      "text": "have like a quote here in this perfect"
+    },
+    {
+      "start": 765.44,
+      "duration": 5.36,
+      "text": "easy way to read. And yeah, that was it."
+    },
+    {
+      "start": 768.48,
+      "duration": 4.08,
+      "text": "How easy was that? But now, let's change"
+    },
+    {
+      "start": 770.8,
+      "duration": 3.599,
+      "text": "it up a bit. So, I'm going to do a new"
+    },
+    {
+      "start": 772.56,
+      "duration": 5.68,
+      "text": "session. Uh, I'm going to switch the"
+    },
+    {
+      "start": 774.399,
+      "duration": 6.88,
+      "text": "model. So, I'm going to do the Quen"
+    },
+    {
+      "start": 778.24,
+      "duration": 5.36,
+      "text": "Coder model this time. Uh let's do uh"
+    },
+    {
+      "start": 781.279,
+      "duration": 7.761,
+      "text": "let's see if we can do a Python um"
+    },
+    {
+      "start": 783.6,
+      "duration": 10.88,
+      "text": "Python snake game here in Python. So um"
+    },
+    {
+      "start": 789.04,
+      "duration": 9.44,
+      "text": "write a snake game in uh Python. So"
+    },
+    {
+      "start": 794.48,
+      "duration": 6.24,
+      "text": "let's try it out. Uh Python snake"
+    },
+    {
+      "start": 798.48,
+      "duration": 3.76,
+      "text": "game.py."
+    },
+    {
+      "start": 800.72,
+      "duration": 3.919,
+      "text": "Okay."
+    },
+    {
+      "start": 802.24,
+      "duration": 5.36,
+      "text": "All right. This is working right. It's a"
+    },
+    {
+      "start": 804.639,
+      "duration": 5.76,
+      "text": "bit fast maybe. Let's see if we can get"
+    },
+    {
+      "start": 807.6,
+      "duration": 4.88,
+      "text": "any scores here. If I can do this. Okay."
+    },
+    {
+      "start": 810.399,
+      "duration": 7.12,
+      "text": "Yeah. Score is working. Is it growing?"
+    },
+    {
+      "start": 812.48,
+      "duration": 9.12,
+      "text": "Yes. All right. We got a snake game. So,"
+    },
+    {
+      "start": 817.519,
+      "duration": 5.76,
+      "text": "but I wouldn't say open coder is is it I"
+    },
+    {
+      "start": 821.6,
+      "duration": 4.239,
+      "text": "don't think this is the best use case of"
+    },
+    {
+      "start": 823.279,
+      "duration": 4.881,
+      "text": "open coder because it does takes a lot"
+    },
+    {
+      "start": 825.839,
+      "duration": 5.281,
+      "text": "of context and this will slow down your"
+    },
+    {
+      "start": 828.16,
+      "duration": 4.96,
+      "text": "local models. So, for me, I just want to"
+    },
+    {
+      "start": 831.12,
+      "duration": 3.68,
+      "text": "show you the preferred method is if I"
+    },
+    {
+      "start": 833.12,
+      "duration": 3.519,
+      "text": "was going to build a snake game, I would"
+    },
+    {
+      "start": 834.8,
+      "duration": 4.56,
+      "text": "do something like this. So what I would"
+    },
+    {
+      "start": 836.639,
+      "duration": 5.281,
+      "text": "do is I would just do the Quen 3 coder"
+    },
+    {
+      "start": 839.36,
+      "duration": 8.479,
+      "text": "30B here in maybe the llama interface"
+    },
+    {
+      "start": 841.92,
+      "duration": 8.64,
+      "text": "and I would say uh write uh snake game"
+    },
+    {
+      "start": 847.839,
+      "duration": 5.201,
+      "text": "uh tkinter something like this and you"
+    },
+    {
+      "start": 850.56,
+      "duration": 5.2,
+      "text": "can see how much faster this is. So now"
+    },
+    {
+      "start": 853.04,
+      "duration": 4.32,
+      "text": "we can just copy this, right? And I"
+    },
+    {
+      "start": 855.76,
+      "duration": 4.8,
+      "text": "would say if you're going to use open"
+    },
+    {
+      "start": 857.36,
+      "duration": 5.039,
+      "text": "coder, maybe you just have some small"
+    },
+    {
+      "start": 860.56,
+      "duration": 3.92,
+      "text": "things you need to do. But uh this is"
+    },
+    {
+      "start": 862.399,
+      "duration": 4,
+      "text": "kind of my preferred way of running"
+    },
+    {
+      "start": 864.48,
+      "duration": 4.64,
+      "text": "local models because then you don't have"
+    },
+    {
+      "start": 866.399,
+      "duration": 4.401,
+      "text": "to deal with all this context that is"
+    },
+    {
+      "start": 869.12,
+      "duration": 3.279,
+      "text": "tool calling the descriptions and"
+    },
+    {
+      "start": 870.8,
+      "duration": 3.599,
+      "text": "everything. But it does work though if"
+    },
+    {
+      "start": 872.399,
+      "duration": 4.24,
+      "text": "you really want to go for it. And let's"
+    },
+    {
+      "start": 874.399,
+      "duration": 6,
+      "text": "try to run this"
+    },
+    {
+      "start": 876.639,
+      "duration": 5.44,
+      "text": "python snake 2.py. And yeah, you can see"
+    },
+    {
+      "start": 880.399,
+      "duration": 5.68,
+      "text": "this is a bit better too. is not so"
+    },
+    {
+      "start": 882.079,
+      "duration": 6.721,
+      "text": "fast. So yeah, that is basically"
+    },
+    {
+      "start": 886.079,
+      "duration": 4.32,
+      "text": "I would say running these models on your"
+    },
+    {
+      "start": 888.8,
+      "duration": 3.52,
+      "text": "laptop. Let's say you have an AMD"
+    },
+    {
+      "start": 890.399,
+      "duration": 3.921,
+      "text": "machine like I have there today. It"
+    },
+    {
+      "start": 892.32,
+      "duration": 4.56,
+      "text": "works great and you don't really have to"
+    },
+    {
+      "start": 894.32,
+      "duration": 4.56,
+      "text": "think about any security. You can try"
+    },
+    {
+      "start": 896.88,
+      "duration": 3.759,
+      "text": "out a bunch of different models like we"
+    },
+    {
+      "start": 898.88,
+      "duration": 4.16,
+      "text": "did today. We have the image model"
+    },
+    {
+      "start": 900.639,
+      "duration": 4.961,
+      "text": "integrated. We have the Quen 3 for"
+    },
+    {
+      "start": 903.04,
+      "duration": 6.159,
+      "text": "coding. We have the GPT OSS 20B for"
+    },
+    {
+      "start": 905.6,
+      "duration": 5.919,
+      "text": "conversation and more general thing. And"
+    },
+    {
+      "start": 909.199,
+      "duration": 4.64,
+      "text": "this setup of having the image model,"
+    },
+    {
+      "start": 911.519,
+      "duration": 4.401,
+      "text": "the coder model, and uh yeah, the"
+    },
+    {
+      "start": 913.839,
+      "duration": 4.321,
+      "text": "conversational model is basically all I"
+    },
+    {
+      "start": 915.92,
+      "duration": 4.32,
+      "text": "need on like a plane trip. And if I kind"
+    },
+    {
+      "start": 918.16,
+      "duration": 5.359,
+      "text": "of just bring the laptop here, right,"
+    },
+    {
+      "start": 920.24,
+      "duration": 5.12,
+      "text": "this works great. I I I'm entertained"
+    },
+    {
+      "start": 923.519,
+      "duration": 3.68,
+      "text": "during the whole flight. And another"
+    },
+    {
+      "start": 925.36,
+      "duration": 4,
+      "text": "great thing is that when I run this"
+    },
+    {
+      "start": 927.199,
+      "duration": 4.32,
+      "text": "locally, right, on my right AI pro"
+    },
+    {
+      "start": 929.36,
+      "duration": 4.08,
+      "text": "machine, the security is kind of"
+    },
+    {
+      "start": 931.519,
+      "duration": 4.481,
+      "text": "flawless, right? Because everything is"
+    },
+    {
+      "start": 933.44,
+      "duration": 3.92,
+      "text": "processed right on this device. My data"
+    },
+    {
+      "start": 936,
+      "duration": 2.959,
+      "text": "never leaves the machine. It doesn't go"
+    },
+    {
+      "start": 937.36,
+      "duration": 3.839,
+      "text": "to the cloud. doesn't grow abroad. But"
+    },
+    {
+      "start": 938.959,
+      "duration": 5.041,
+      "text": "most importantly, everything I do on my"
+    },
+    {
+      "start": 941.199,
+      "duration": 5.041,
+      "text": "Ryzen AI laptop now stays here, right?"
+    },
+    {
+      "start": 944,
+      "duration": 4.24,
+      "text": "I'm not training anyone else's model"
+    },
+    {
+      "start": 946.24,
+      "duration": 4.48,
+      "text": "based on the data or the inputs outputs"
+    },
+    {
+      "start": 948.24,
+      "duration": 4.719,
+      "text": "I used. So, it stays strictly private."
+    },
+    {
+      "start": 950.72,
+      "duration": 4.559,
+      "text": "So, I can work with like sensitive code"
+    },
+    {
+      "start": 952.959,
+      "duration": 5.361,
+      "text": "or proprietary information without uh"
+    },
+    {
+      "start": 955.279,
+      "duration": 5.521,
+      "text": "yeah feeling like I'm fetting this back"
+    },
+    {
+      "start": 958.32,
+      "duration": 5.519,
+      "text": "to the bigger companies and training on"
+    },
+    {
+      "start": 960.8,
+      "duration": 4.479,
+      "text": "my kind of yeah secure data. Right. If"
+    },
+    {
+      "start": 963.839,
+      "duration": 3.601,
+      "text": "you want to see how these local AI"
+    },
+    {
+      "start": 965.279,
+      "duration": 3.521,
+      "text": "workflows can benefit your business, uh"
+    },
+    {
+      "start": 967.44,
+      "duration": 3.92,
+      "text": "you don't have to take my word for it."
+    },
+    {
+      "start": 968.8,
+      "duration": 4.8,
+      "text": "AMD now offers like a free loaner"
+    },
+    {
+      "start": 971.36,
+      "duration": 4.56,
+      "text": "program uh where you can get these Ryzen"
+    },
+    {
+      "start": 973.6,
+      "duration": 4.799,
+      "text": "AI pro machines uh to test them for"
+    },
+    {
+      "start": 975.92,
+      "duration": 5.12,
+      "text": "yourself. So I will put a link in the"
+    },
+    {
+      "start": 978.399,
+      "duration": 4.8,
+      "text": "description below to this loan offer. So"
+    },
+    {
+      "start": 981.04,
+      "duration": 4.32,
+      "text": "definitely go check it out and see what"
+    },
+    {
+      "start": 983.199,
+      "duration": 4.961,
+      "text": "these local machines can do for you and"
+    },
+    {
+      "start": 985.36,
+      "duration": 4.88,
+      "text": "you can use AI locally, right? So yeah,"
+    },
+    {
+      "start": 988.16,
+      "duration": 3.679,
+      "text": "thank you for tuning in today and like I"
+    },
+    {
+      "start": 990.24,
+      "duration": 4.399,
+      "text": "said, check this link in the description"
+    },
+    {
+      "start": 991.839,
+      "duration": 2.8,
+      "text": "and have a great"
+    }
+  ],
+  "fullText": "Okay, so today I thought we could try something pretty cool. I have access to the AMD Ryzen AI Pro MPU here from AMD. And what I want to try today is run this with Lama. I want to try to run this with open code running some aentic workflows with maybe the GPT OSS 12B model. I want to try out the Quen image model 3VL I think it's called just to see how much we can actually do local. Let's say you are on a plane, you bring your laptop with the AMD Ryzen AI pro chip in it and let's just see what you can do with that. So yeah, let's just try it out. See what we can do, what kind of tokens per second we can get with different models and yeah, do some local AI. So yeah, like I said, we are going to run this on Ulama and yeah, if you haven't tried, it's a super easy way to get into local models. And if you go to models here, you can just download this, install it for Mac, Windows or Linux. Today we are on Windows and you if you go to models here we have all kind of the latest models we can just pull right and this will work perfect and I'm going to focus I think on uh I think I'm going to focus on the GPT OSS 20B quentry as I said VL I also want to try out quentry coder to see what kind of performance we can get on that and one thing I'm a big fan of is kind of the open source of claw code open code super good tool to be honest. If you haven't tried it, definitely go check it out. And I'm going to set up like open code to run on Wama so we can try some agentic workflows uh with yeah running this offline or like local I guess. So you can do some agentic workflow if you're on a plane, you have your AMD laptop with you and you can do stuff like this. So yeah, that is basically uh what we are starting with. I have installed lama. I have downloaded set up open code and yeah let's just explore a bit. Let's see what we can get here. So the first thing I wanted to do was just to go to the terminal lama list just see what kind of models I have. So I have the quen 3 code there. I have the quen 3 v8b image model and I have uh oss 20b. So what we can do in that we can run some test with a verbose flag to actually see what kind of speeds we get. So what we can do is uh ola run and let's do gptoss 20B and we can do the d-verbose right so that is the flag and when this launches now we can actually see at the end what kind of speed we get okay so uh I just want to say a quick bit about uh this what we are running on here so you can get some comparison uh if I go to the system and I go to about you can see This is the setup we have now. Uh yeah, I guess you can just zoom in. We are on the AMD Ryzen AI Max Pro uh 395 and we have the 128 GB of RAM and yeah, you can kind of see here. So you can put it to your laptop if you want to do that something like this. Okay, so you can see we are now in this and let me just do a quick test here. Write a short story about the history of RAM. Okay, so you can see this is looking pretty good. You can see here are the thinking tokens from the GPT OSS model and basically at the end now we will kind of get like a small uh overview of what speed we ended up with using a lot of thinking tokens but with what is nice here doesn't really matter too much now you can kind of see the output and this is pretty good speed if you ask me just to running on a local laptop here this is I have nothing against this speed for me this is fast enough I can't really keep up with reading Anyway, we can see the world kept accelerating. DDR2, 3, four, and five. And the prices now for the DDR5 is crazy high, right? So, that is also interesting. So, this was a really long story here from GPT OSS 20. And we end up here. I think this means that we got about 40 tokens per second. And that is pretty good. That I'm super happy with that. So, running at 40 tokens per second is far more than I can read. And for coding also as you will see later that is fine. So I'm happy with that. So if we go to the Quen model now you can see this will probably fall a bit because we are on a 30B. Remember this was um a 20B model right? So let's just try that. So for that we go run and I think it's three coder 30B is it? I think so. If not I'm going to fix it. And let's do the verbose flag again. And this time, let's just try some Python code or something, right? A simple snake game. Okay. So, yeah, you can see even though this is 30B, it's still pretty fast. I would say this almost looks faster if you ask me. At least it's not slower. And this is a pretty good coding model to be honest. 30B and running this on like a local laptop. Let's say you're in a plane, you want to do something with your coding. And yeah, this is just a superb way to do it on like a local laptop. So let's see what we end up here now. We ended up on 51 tokens per second. So even though this was a 30B model, this was faster, right? So that's pretty interesting. And 50 tokens per second for doing coding, that's good enough for me. I have no issues with that as you will see soon in my small testing. So yeah, that is an introduction to Lama in the terminal. But we also have the llama app that is a bit more nice if you want like a an interface. You can see we are on the GPT OSS30B here. Do I have the quen coder? Yeah, I have the quen coder too. And I can say write a simple uh Python code or something like that. And you can see pretty fast all local on my laptop on my MPU. So yeah, no issues with that. So you can also use the amama yeah kind of in uh yeah interface here it looks a bit better but now uh I want to do one more thing with images and then I want to go to open coder and see what we actually can do on a genic tasks. So the quentry VL is my favorite uh image model at the moment and what is pretty cool about this at there are different sizes. So I have been actually using the 8B model on the quen 3 VL power uh vision model and it's so good for being just 8 billion parameters and this is what I've been just running on like my desktop too with the uh and it has no issues doing like simple OCR. We can do images and you can kind of see the capabilities here and I think this is great enough to do some simple task with this. I built some small app that are running this model. So let's just see how this performs now and I can kind of show you how this works. So remember we could do this in the uh the desktop here. We can try both. So let me first just show you how this work in the terminal. Right? If you remember list we have the quen 3VL. So we can just run that uh run and let's do uh yeah Quen 3VL8B. Okay. So let's just run that. And I took a screenshot of kind of hacker news. This is kind of the first uh 15 headlines or something. So you can see I took a screenshot of that. And what we can do now uh when this is running, yes, I can kind of just po point to that path. So I just paste in the path here. This is the hack.png. And then I can just ask a question. So I can do something. What are the first or the top three headlines? Something like that. Let's do that. And let's see now if this small 8B uh quent 3VL vision model can just look at the image, find the top three uh headlines and bring it back here. So remember this is offline. We are not doing we're just working uh locally now on the the AMD uh chip here, right? So you can see. Okay. So look at this. We have 50 hallucinated citations. Google Titan. Goodbye Microsoft. Everything looks okay. Let's double check. Yeah. Goodbye Microsoft. Google Titans. 50 hallucinated citations. Yes, you can see how nice this is. And we can also just double check if we go to the lama here. Uh let's just do a new session. Something like this. Uh, let's select the Quinn model here. And then I can just upload the image, right? Because now we have a more of like a I can just upload this, right? I can zoom in a bit here. And let's ask the same questions. What are the top three headlines? And of course this uh here if you are taking this laptop uh with the AMD chip offline or on a plane and this will of course work offline and you can see now we get it in a more like nice formatting here. It only took 4 seconds. So that's pretty fast because now this time the model was already loaded into memory and it's even quicker this time. So just a superb vision model if you want to try out running something local on your laptop like I am doing now on my Windows machine. And yeah, just a very good model. Uh, but now let's try to do some aentic coding and build like a simple maybe like an HTML website with some images and stuff. So let's get into some aentic coding. And you remember open code. I can just type that in my terminal and I get to kind of this yeah open- source local version of cloud code that I like to call it. And you can see this has this here set up as kind of my local provider here. Uh I can do slashmodels, right? And if I do here, you can see here are the two models I have installed. I'm not using the the wish model here. But let's select the GPT20B model. And you can see I can do hello. And when this has loaded into memory now, it should work a bit better. Uh but you can see we are still kind of loading this into memory and we will get a response. So remember uh running this has some uh additional context when we are running this. But you can see it is working 100% locally. We are running open code. Uh this is not kind of my favorite way of running open code. So I'm going to show you what I like to use this when I'm running this locally on uh this AMD laptop here. Uh so if I just uh I'm just going to leave this. Okay. And I'm going to close this and I'm going to head over to cursor. So this is where I like to use um open code because then I can kind of see the files here. And again we can just do open code here and we will launch it again. So you can see this is basically the same as we had before. Uh again I want to switch models. I want to just go to the 20B or let's try yeah let's do the 20B. I kind of like that for open code. So let's try to create a file here. Now let's say we wanted to do a a simple HTML file HTML web page or something. So we can start with uh create a simple and uh white HTML page uh white text uh black background uh for readability or something uh ability. Okay, that's fine. Let's just try that. So what is happening here now in open code as this is more like an agentic uh it has tools. So it has read tool, it had write tool, it has tools to generate files. So if you look at the right here now uh this is basically the same as cloud code as I said before we can generate files. But what is cool now is this. This is not connected to the cloud. Everything is local. The tool calls are all performed locally. So now you can kind of see more. You can see we are writing this and we got the text file here. Black and white HTML. Perfect. So let's check it out. Okay. Simple but easy, right? Uh, but I'm not quite happy. I want to work more on this. Uh, I want to center the text and just write more text and do some headlines and stuff like that. I can just go back here and I could say something like centered. Uh, that's that's fine for now. Okay. So, I'm just going to do that. So, let's see the changes now. So, let's refresh. Okay. Much better. Welcome to the reading demo. Yeah, I like this. You can see we have a bit more spacing. We have like a quote here in this perfect easy way to read. And yeah, that was it. How easy was that? But now, let's change it up a bit. So, I'm going to do a new session. Uh, I'm going to switch the model. So, I'm going to do the Quen Coder model this time. Uh let's do uh let's see if we can do a Python um Python snake game here in Python. So um write a snake game in uh Python. So let's try it out. Uh Python snake game.py. Okay. All right. This is working right. It's a bit fast maybe. Let's see if we can get any scores here. If I can do this. Okay. Yeah. Score is working. Is it growing? Yes. All right. We got a snake game. So, but I wouldn't say open coder is is it I don't think this is the best use case of open coder because it does takes a lot of context and this will slow down your local models. So, for me, I just want to show you the preferred method is if I was going to build a snake game, I would do something like this. So what I would do is I would just do the Quen 3 coder 30B here in maybe the llama interface and I would say uh write uh snake game uh tkinter something like this and you can see how much faster this is. So now we can just copy this, right? And I would say if you're going to use open coder, maybe you just have some small things you need to do. But uh this is kind of my preferred way of running local models because then you don't have to deal with all this context that is tool calling the descriptions and everything. But it does work though if you really want to go for it. And let's try to run this python snake 2.py. And yeah, you can see this is a bit better too. is not so fast. So yeah, that is basically I would say running these models on your laptop. Let's say you have an AMD machine like I have there today. It works great and you don't really have to think about any security. You can try out a bunch of different models like we did today. We have the image model integrated. We have the Quen 3 for coding. We have the GPT OSS 20B for conversation and more general thing. And this setup of having the image model, the coder model, and uh yeah, the conversational model is basically all I need on like a plane trip. And if I kind of just bring the laptop here, right, this works great. I I I'm entertained during the whole flight. And another great thing is that when I run this locally, right, on my right AI pro machine, the security is kind of flawless, right? Because everything is processed right on this device. My data never leaves the machine. It doesn't go to the cloud. doesn't grow abroad. But most importantly, everything I do on my Ryzen AI laptop now stays here, right? I'm not training anyone else's model based on the data or the inputs outputs I used. So, it stays strictly private. So, I can work with like sensitive code or proprietary information without uh yeah feeling like I'm fetting this back to the bigger companies and training on my kind of yeah secure data. Right. If you want to see how these local AI workflows can benefit your business, uh you don't have to take my word for it. AMD now offers like a free loaner program uh where you can get these Ryzen AI pro machines uh to test them for yourself. So I will put a link in the description below to this loan offer. So definitely go check it out and see what these local machines can do for you and you can use AI locally, right? So yeah, thank you for tuning in today and like I said, check this link in the description and have a great",
+  "fetchedAt": "2026-01-20T17:01:12.239Z"
+}

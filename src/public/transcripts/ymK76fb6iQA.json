@@ -1,0 +1,579 @@
+{
+  "videoId": "ymK76fb6iQA",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.239,
+      "text": "Meta have recently introduced VLJ, a"
+    },
+    {
+      "start": 2.639,
+      "duration": 4.001,
+      "text": "research project that could make all"
+    },
+    {
+      "start": 4.319,
+      "duration": 4.481,
+      "text": "other AI models obsolete because instead"
+    },
+    {
+      "start": 6.64,
+      "duration": 4.16,
+      "text": "of predicting the next word based on"
+    },
+    {
+      "start": 8.8,
+      "duration": 4.16,
+      "text": "previous text, it actually doesn't use"
+    },
+    {
+      "start": 10.8,
+      "duration": 4.48,
+      "text": "words, but instead it predicts meaning"
+    },
+    {
+      "start": 12.96,
+      "duration": 4.8,
+      "text": "directly using embeddings, then only"
+    },
+    {
+      "start": 15.28,
+      "duration": 3.919,
+      "text": "turns it into words if necessary. This"
+    },
+    {
+      "start": 17.76,
+      "duration": 3.92,
+      "text": "is a radical difference from other"
+    },
+    {
+      "start": 19.199,
+      "duration": 4.481,
+      "text": "models that ends up making VLJ smaller"
+    },
+    {
+      "start": 21.68,
+      "duration": 3.839,
+      "text": "and faster than the competition while"
+    },
+    {
+      "start": 23.68,
+      "duration": 4.32,
+      "text": "producing better results. Could this be"
+    },
+    {
+      "start": 25.519,
+      "duration": 4.401,
+      "text": "the end of LLM? Hit subscribe and let's"
+    },
+    {
+      "start": 28,
+      "duration": 4,
+      "text": "get into it."
+    },
+    {
+      "start": 29.92,
+      "duration": 4.08,
+      "text": "VLJepper is a vision language model"
+    },
+    {
+      "start": 32,
+      "duration": 3.44,
+      "text": "based on the joint embedding predictive"
+    },
+    {
+      "start": 34,
+      "duration": 3.68,
+      "text": "architecture. This project was"
+    },
+    {
+      "start": 35.44,
+      "duration": 4.639,
+      "text": "spearheaded by Yan Lun while he was"
+    },
+    {
+      "start": 37.68,
+      "duration": 4.08,
+      "text": "chief of AI at Meta. Yes, the guy who"
+    },
+    {
+      "start": 40.079,
+      "duration": 3.041,
+      "text": "called Alexander Wang in experienced."
+    },
+    {
+      "start": 41.76,
+      "duration": 3.52,
+      "text": "I'll share my thoughts on that later."
+    },
+    {
+      "start": 43.12,
+      "duration": 5.68,
+      "text": "But VLJ uses different models like"
+    },
+    {
+      "start": 45.28,
+      "duration": 5.36,
+      "text": "VJepper 2 and Llama 3.2 to generate its"
+    },
+    {
+      "start": 48.8,
+      "duration": 3.84,
+      "text": "predictions and has some impressive"
+    },
+    {
+      "start": 50.64,
+      "duration": 3.84,
+      "text": "early results. But to truly understand"
+    },
+    {
+      "start": 52.64,
+      "duration": 3.52,
+      "text": "what makes this so impressive, we need"
+    },
+    {
+      "start": 54.48,
+      "duration": 3.759,
+      "text": "to take a step back and have a look at"
+    },
+    {
+      "start": 56.16,
+      "duration": 4,
+      "text": "how vision language models work today."
+    },
+    {
+      "start": 58.239,
+      "duration": 4.721,
+      "text": "Imagine we showed this video to a"
+    },
+    {
+      "start": 60.16,
+      "duration": 4.399,
+      "text": "generative model like 01 and asked it"
+    },
+    {
+      "start": 62.96,
+      "duration": 3.68,
+      "text": "what would happen next. The model will"
+    },
+    {
+      "start": 64.559,
+      "duration": 4.24,
+      "text": "encode video frames to embeddings using"
+    },
+    {
+      "start": 66.64,
+      "duration": 4.24,
+      "text": "a vision encoder. Run those embeddings"
+    },
+    {
+      "start": 68.799,
+      "duration": 3.441,
+      "text": "as well as the token used for the query"
+    },
+    {
+      "start": 70.88,
+      "duration": 3.04,
+      "text": "through transformer layers with"
+    },
+    {
+      "start": 72.24,
+      "duration": 3.44,
+      "text": "attention. Then the model builds a"
+    },
+    {
+      "start": 73.92,
+      "duration": 3.199,
+      "text": "representation of what it sees in those"
+    },
+    {
+      "start": 75.68,
+      "duration": 3.6,
+      "text": "layers and then predicts what would"
+    },
+    {
+      "start": 77.119,
+      "duration": 4.241,
+      "text": "happen next before directly generating"
+    },
+    {
+      "start": 79.28,
+      "duration": 3.92,
+      "text": "output tokens one by one running a"
+    },
+    {
+      "start": 81.36,
+      "duration": 3.439,
+      "text": "forward pass for each new token."
+    },
+    {
+      "start": 83.2,
+      "duration": 3.84,
+      "text": "Basically, it's rereading everything"
+    },
+    {
+      "start": 84.799,
+      "duration": 4.161,
+      "text": "it's written so far to decide on the"
+    },
+    {
+      "start": 87.04,
+      "duration": 4.48,
+      "text": "next word, which could take a really"
+    },
+    {
+      "start": 88.96,
+      "duration": 4.88,
+      "text": "long time for long answers. VLJO, on the"
+    },
+    {
+      "start": 91.52,
+      "duration": 4.08,
+      "text": "other hand, will also encode frames to"
+    },
+    {
+      "start": 93.84,
+      "duration": 3.68,
+      "text": "embeddings, but then predicts the"
+    },
+    {
+      "start": 95.6,
+      "duration": 4,
+      "text": "missing or future parts of the video in"
+    },
+    {
+      "start": 97.52,
+      "duration": 4.32,
+      "text": "the embedding space and then turns that"
+    },
+    {
+      "start": 99.6,
+      "duration": 4.08,
+      "text": "whole prediction embedding into text. No"
+    },
+    {
+      "start": 101.84,
+      "duration": 4.08,
+      "text": "need to look back on previous text to"
+    },
+    {
+      "start": 103.68,
+      "duration": 4.24,
+      "text": "generate the next word. Yan has always"
+    },
+    {
+      "start": 105.92,
+      "duration": 4.239,
+      "text": "believed that intelligence requires"
+    },
+    {
+      "start": 107.92,
+      "duration": 3.839,
+      "text": "thought more than language, and VLJ"
+    },
+    {
+      "start": 110.159,
+      "duration": 3.681,
+      "text": "embodies that vision completely. The"
+    },
+    {
+      "start": 111.759,
+      "duration": 4.32,
+      "text": "model thinks in latent space, comes up"
+    },
+    {
+      "start": 113.84,
+      "duration": 4.48,
+      "text": "with a prediction, and only turns that"
+    },
+    {
+      "start": 116.079,
+      "duration": 4.561,
+      "text": "into text if the user asks. Take a look"
+    },
+    {
+      "start": 118.32,
+      "duration": 4,
+      "text": "at this. VlJepper is given a query, and"
+    },
+    {
+      "start": 120.64,
+      "duration": 3.759,
+      "text": "this section is an illustration of the"
+    },
+    {
+      "start": 122.32,
+      "duration": 4,
+      "text": "vision model. The red dots you see here"
+    },
+    {
+      "start": 124.399,
+      "duration": 4.64,
+      "text": "are the predictions, so the instant"
+    },
+    {
+      "start": 126.32,
+      "duration": 4.681,
+      "text": "guesses, and the blue moving dot is the"
+    },
+    {
+      "start": 129.039,
+      "duration": 3.521,
+      "text": "continuous stabilized understanding."
+    },
+    {
+      "start": 131.001,
+      "duration": 3.719,
+      "text": "[music] So, it only labels an"
+    },
+    {
+      "start": 132.56,
+      "duration": 4.16,
+      "text": "understanding once it's confident, and"
+    },
+    {
+      "start": 134.72,
+      "duration": 3.44,
+      "text": "returns the whole output to the user."
+    },
+    {
+      "start": 136.72,
+      "duration": 3.36,
+      "text": "This kind of speed when it comes to"
+    },
+    {
+      "start": 138.16,
+      "duration": 2.64,
+      "text": "predicting video is perfect for"
+    },
+    {
+      "start": 140.08,
+      "duration": 2.96,
+      "text": "robotics, [music]"
+    },
+    {
+      "start": 140.8,
+      "duration": 4.88,
+      "text": "wearables or anything that needs quick"
+    },
+    {
+      "start": 143.04,
+      "duration": 4.48,
+      "text": "results. But how exactly does this work?"
+    },
+    {
+      "start": 145.68,
+      "duration": 3.76,
+      "text": "So looking at this diagram from the"
+    },
+    {
+      "start": 147.52,
+      "duration": 4.079,
+      "text": "research paper, this is the visual"
+    },
+    {
+      "start": 149.44,
+      "duration": 4.32,
+      "text": "input. So the video and this is the"
+    },
+    {
+      "start": 151.599,
+      "duration": 4.481,
+      "text": "query from the user. The visual input is"
+    },
+    {
+      "start": 153.76,
+      "duration": 4.88,
+      "text": "encoded to embeddings using a frozen or"
+    },
+    {
+      "start": 156.08,
+      "duration": 5.439,
+      "text": "set version of VJ Japer 2. The predictor"
+    },
+    {
+      "start": 158.64,
+      "duration": 5.52,
+      "text": "is kind of like the brains of VLJ and is"
+    },
+    {
+      "start": 161.519,
+      "duration": 4.481,
+      "text": "based on eight layers of Llama 3.2 two,"
+    },
+    {
+      "start": 164.16,
+      "duration": 3.92,
+      "text": "which fuses the visual embeddings with"
+    },
+    {
+      "start": 166,
+      "duration": 3.84,
+      "text": "the user's query tokens in order to come"
+    },
+    {
+      "start": 168.08,
+      "duration": 4.48,
+      "text": "up with a prediction. The section here"
+    },
+    {
+      "start": 169.84,
+      "duration": 4.399,
+      "text": "with the L and the SY without a hat, are"
+    },
+    {
+      "start": 172.56,
+      "duration": 2.959,
+      "text": "the supervision elements used for"
+    },
+    {
+      "start": 174.239,
+      "duration": 2.961,
+      "text": "training. And since we're focusing on"
+    },
+    {
+      "start": 175.519,
+      "duration": 3.681,
+      "text": "inference, we won't talk about this"
+    },
+    {
+      "start": 177.2,
+      "duration": 3.759,
+      "text": "section. But the decoder module up here,"
+    },
+    {
+      "start": 179.2,
+      "duration": 4,
+      "text": "which we will talk about, is used to"
+    },
+    {
+      "start": 180.959,
+      "duration": 3.761,
+      "text": "decode embeddings into text, which may"
+    },
+    {
+      "start": 183.2,
+      "duration": 3.119,
+      "text": "seem really simple, but I'm sure the"
+    },
+    {
+      "start": 184.72,
+      "duration": 3.28,
+      "text": "research team went through a lot of work"
+    },
+    {
+      "start": 186.319,
+      "duration": 3.601,
+      "text": "to get to this point. If we take a look"
+    },
+    {
+      "start": 188,
+      "duration": 4.319,
+      "text": "at these test results, the base version"
+    },
+    {
+      "start": 189.92,
+      "duration": 5.599,
+      "text": "of VLJ has an average performance score"
+    },
+    {
+      "start": 192.319,
+      "duration": 5.441,
+      "text": "from all these values of 46.6%."
+    },
+    {
+      "start": 195.519,
+      "duration": 4.72,
+      "text": "But the fine-tuned model has a score of"
+    },
+    {
+      "start": 197.76,
+      "duration": 4.72,
+      "text": "70.7, which is very impressive"
+    },
+    {
+      "start": 200.239,
+      "duration": 4.161,
+      "text": "considering it has a very low amount of"
+    },
+    {
+      "start": 202.48,
+      "duration": 4.08,
+      "text": "training samples. But now that Yan has"
+    },
+    {
+      "start": 204.4,
+      "duration": 3.919,
+      "text": "left Meta because of some disagreements"
+    },
+    {
+      "start": 206.56,
+      "duration": 4,
+      "text": "with Mark Zuckerberg, what does that"
+    },
+    {
+      "start": 208.319,
+      "duration": 4.241,
+      "text": "mean for the future of VLJ? Well, Yan"
+    },
+    {
+      "start": 210.56,
+      "duration": 4.239,
+      "text": "has actually found his own AI company"
+    },
+    {
+      "start": 212.56,
+      "duration": 4.959,
+      "text": "this year that's targeting a valuation"
+    },
+    {
+      "start": 214.799,
+      "duration": 5.041,
+      "text": "of 5 billion. But the focus of this"
+    },
+    {
+      "start": 217.519,
+      "duration": 4.64,
+      "text": "company is to further develop the Jeppa"
+    },
+    {
+      "start": 219.84,
+      "duration": 4.16,
+      "text": "architecture. So, a loss for Meta, but a"
+    },
+    {
+      "start": 222.159,
+      "duration": 4.481,
+      "text": "win for the rest of the world. And"
+    },
+    {
+      "start": 224,
+      "duration": 5.599,
+      "text": "speaking of wins, we're less than 5,000"
+    },
+    {
+      "start": 226.64,
+      "duration": 5.04,
+      "text": "away from hitting 100K subs, which is"
+    },
+    {
+      "start": 229.599,
+      "duration": 4.081,
+      "text": "very, very exciting. So, if you haven't"
+    },
+    {
+      "start": 231.68,
+      "duration": 4.559,
+      "text": "done so already, go ahead and click that"
+    },
+    {
+      "start": 233.68,
+      "duration": 2.559,
+      "text": "subscribe button."
+    }
+  ],
+  "fullText": "Meta have recently introduced VLJ, a research project that could make all other AI models obsolete because instead of predicting the next word based on previous text, it actually doesn't use words, but instead it predicts meaning directly using embeddings, then only turns it into words if necessary. This is a radical difference from other models that ends up making VLJ smaller and faster than the competition while producing better results. Could this be the end of LLM? Hit subscribe and let's get into it. VLJepper is a vision language model based on the joint embedding predictive architecture. This project was spearheaded by Yan Lun while he was chief of AI at Meta. Yes, the guy who called Alexander Wang in experienced. I'll share my thoughts on that later. But VLJ uses different models like VJepper 2 and Llama 3.2 to generate its predictions and has some impressive early results. But to truly understand what makes this so impressive, we need to take a step back and have a look at how vision language models work today. Imagine we showed this video to a generative model like 01 and asked it what would happen next. The model will encode video frames to embeddings using a vision encoder. Run those embeddings as well as the token used for the query through transformer layers with attention. Then the model builds a representation of what it sees in those layers and then predicts what would happen next before directly generating output tokens one by one running a forward pass for each new token. Basically, it's rereading everything it's written so far to decide on the next word, which could take a really long time for long answers. VLJO, on the other hand, will also encode frames to embeddings, but then predicts the missing or future parts of the video in the embedding space and then turns that whole prediction embedding into text. No need to look back on previous text to generate the next word. Yan has always believed that intelligence requires thought more than language, and VLJ embodies that vision completely. The model thinks in latent space, comes up with a prediction, and only turns that into text if the user asks. Take a look at this. VlJepper is given a query, and this section is an illustration of the vision model. The red dots you see here are the predictions, so the instant guesses, and the blue moving dot is the continuous stabilized understanding. [music] So, it only labels an understanding once it's confident, and returns the whole output to the user. This kind of speed when it comes to predicting video is perfect for robotics, [music] wearables or anything that needs quick results. But how exactly does this work? So looking at this diagram from the research paper, this is the visual input. So the video and this is the query from the user. The visual input is encoded to embeddings using a frozen or set version of VJ Japer 2. The predictor is kind of like the brains of VLJ and is based on eight layers of Llama 3.2 two, which fuses the visual embeddings with the user's query tokens in order to come up with a prediction. The section here with the L and the SY without a hat, are the supervision elements used for training. And since we're focusing on inference, we won't talk about this section. But the decoder module up here, which we will talk about, is used to decode embeddings into text, which may seem really simple, but I'm sure the research team went through a lot of work to get to this point. If we take a look at these test results, the base version of VLJ has an average performance score from all these values of 46.6%. But the fine-tuned model has a score of 70.7, which is very impressive considering it has a very low amount of training samples. But now that Yan has left Meta because of some disagreements with Mark Zuckerberg, what does that mean for the future of VLJ? Well, Yan has actually found his own AI company this year that's targeting a valuation of 5 billion. But the focus of this company is to further develop the Jeppa architecture. So, a loss for Meta, but a win for the rest of the world. And speaking of wins, we're less than 5,000 away from hitting 100K subs, which is very, very exciting. So, if you haven't done so already, go ahead and click that subscribe button.",
+  "fetchedAt": "2026-01-18T18:34:44.612Z"
+}

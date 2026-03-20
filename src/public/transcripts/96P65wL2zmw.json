@@ -1,0 +1,669 @@
+{
+  "videoId": "96P65wL2zmw",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 3.84,
+      "text": "You've probably tried turning emails,"
+    },
+    {
+      "start": 2.159,
+      "duration": 4.001,
+      "text": "PDFs, or transcripts into structured"
+    },
+    {
+      "start": 4.16,
+      "duration": 4.24,
+      "text": "data at one point, and it went sideways"
+    },
+    {
+      "start": 6.16,
+      "duration": 4.24,
+      "text": "fast. Everyone thinks that the hard part"
+    },
+    {
+      "start": 8.4,
+      "duration": 4.159,
+      "text": "is building the app. It's not. It's the"
+    },
+    {
+      "start": 10.4,
+      "duration": 4.399,
+      "text": "text. Because a huge chunk of real world"
+    },
+    {
+      "start": 12.559,
+      "duration": 4.48,
+      "text": "data is often unstructured, and most"
+    },
+    {
+      "start": 14.799,
+      "duration": 4.161,
+      "text": "pipelines fall apart right here. Now,"
+    },
+    {
+      "start": 17.039,
+      "duration": 3.921,
+      "text": "you'd expect the fix to be more roles,"
+    },
+    {
+      "start": 18.96,
+      "duration": 4,
+      "text": "more NLP, but some devs are actually"
+    },
+    {
+      "start": 20.96,
+      "duration": 4.399,
+      "text": "doing the opposite. This is Lang"
+    },
+    {
+      "start": 22.96,
+      "duration": 4.559,
+      "text": "Extract. It's a free Google open-source"
+    },
+    {
+      "start": 25.359,
+      "duration": 4.08,
+      "text": "tool that's quietly growing and fast. We"
+    },
+    {
+      "start": 27.519,
+      "duration": 5.561,
+      "text": "have videos coming out all the time. Be"
+    },
+    {
+      "start": 29.439,
+      "duration": 3.641,
+      "text": "sure to subscribe."
+    },
+    {
+      "start": 35.68,
+      "duration": 4.24,
+      "text": "Okay, now Lang Extract just sounds like"
+    },
+    {
+      "start": 37.84,
+      "duration": 4.559,
+      "text": "another extraction library, and at first"
+    },
+    {
+      "start": 39.92,
+      "duration": 4.799,
+      "text": "glance, it kind of is. But here's what"
+    },
+    {
+      "start": 42.399,
+      "duration": 4.64,
+      "text": "makes it different. Lang Extract is a"
+    },
+    {
+      "start": 44.719,
+      "duration": 5.201,
+      "text": "Python library that uses LLMs like"
+    },
+    {
+      "start": 47.039,
+      "duration": 5.68,
+      "text": "Gemini or GPT to pull structured data"
+    },
+    {
+      "start": 49.92,
+      "duration": 4.88,
+      "text": "out of messy text. So yes, entities,"
+    },
+    {
+      "start": 52.719,
+      "duration": 4.32,
+      "text": "attributes, relationships into clean"
+    },
+    {
+      "start": 54.8,
+      "duration": 4.88,
+      "text": "output like JSON or even interactive"
+    },
+    {
+      "start": 57.039,
+      "duration": 4.881,
+      "text": "HTML. But the real reason debs care is"
+    },
+    {
+      "start": 59.68,
+      "duration": 4.879,
+      "text": "every single extraction is grounded back"
+    },
+    {
+      "start": 61.92,
+      "duration": 4.48,
+      "text": "to the exact text span it came from."
+    },
+    {
+      "start": 64.559,
+      "duration": 4.161,
+      "text": "Which means instead of the model saying"
+    },
+    {
+      "start": 66.4,
+      "duration": 4.56,
+      "text": "trust me, it says here's the exact"
+    },
+    {
+      "start": 68.72,
+      "duration": 4.56,
+      "text": "sentence I used. That's the big change"
+    },
+    {
+      "start": 70.96,
+      "duration": 4,
+      "text": "here. Now the workflow here basically is"
+    },
+    {
+      "start": 73.28,
+      "duration": 3.28,
+      "text": "something like the prompt goes in,"
+    },
+    {
+      "start": 74.96,
+      "duration": 3.6,
+      "text": "extraction happens, and then you get"
+    },
+    {
+      "start": 76.56,
+      "duration": 4.32,
+      "text": "this structured output you can actually"
+    },
+    {
+      "start": 78.56,
+      "duration": 4.96,
+      "text": "verify. Before I answer the big question"
+    },
+    {
+      "start": 80.88,
+      "duration": 4.48,
+      "text": "of why are devs ditching old school NLP"
+    },
+    {
+      "start": 83.52,
+      "duration": 3.919,
+      "text": "for this, let me show you how all this"
+    },
+    {
+      "start": 85.36,
+      "duration": 4.24,
+      "text": "works first so you can try it out. All"
+    },
+    {
+      "start": 87.439,
+      "duration": 4.161,
+      "text": "right, here's a simple example. On the"
+    },
+    {
+      "start": 89.6,
+      "duration": 3.839,
+      "text": "screen, we've got unstructured text that"
+    },
+    {
+      "start": 91.6,
+      "duration": 3.92,
+      "text": "I found of some clinical notes. And"
+    },
+    {
+      "start": 93.439,
+      "duration": 4.241,
+      "text": "right now, it's just text. It's in a"
+    },
+    {
+      "start": 95.52,
+      "duration": 4,
+      "text": "text file. A human can read it and pull"
+    },
+    {
+      "start": 97.68,
+      "duration": 4.399,
+      "text": "out the important parts, but a computer"
+    },
+    {
+      "start": 99.52,
+      "duration": 4.639,
+      "text": "sees it all as gibberish. First off, I"
+    },
+    {
+      "start": 102.079,
+      "duration": 3.761,
+      "text": "had to clone the Git repo and install"
+    },
+    {
+      "start": 104.159,
+      "duration": 3.841,
+      "text": "the requirements. Then I also needed to"
+    },
+    {
+      "start": 105.84,
+      "duration": 4.959,
+      "text": "get my Gemini API key which I just"
+    },
+    {
+      "start": 108,
+      "duration": 5.119,
+      "text": "housed in an EMV file. I then typed out"
+    },
+    {
+      "start": 110.799,
+      "duration": 4.64,
+      "text": "this Python script here to run this and"
+    },
+    {
+      "start": 113.119,
+      "duration": 4,
+      "text": "described what I wanted to extract in my"
+    },
+    {
+      "start": 115.439,
+      "duration": 3.441,
+      "text": "prompt. This is why you need some"
+    },
+    {
+      "start": 117.119,
+      "duration": 4,
+      "text": "understanding of Python. All my"
+    },
+    {
+      "start": 118.88,
+      "duration": 4.08,
+      "text": "entities, attributes, relationships, all"
+    },
+    {
+      "start": 121.119,
+      "duration": 4.081,
+      "text": "written as this prompt. There is no"
+    },
+    {
+      "start": 122.96,
+      "duration": 4.32,
+      "text": "training data. There is no model tuning."
+    },
+    {
+      "start": 125.2,
+      "duration": 4.32,
+      "text": "Then lang extract runs and I get a"
+    },
+    {
+      "start": 127.28,
+      "duration": 3.84,
+      "text": "structured JSON output. And now here's"
+    },
+    {
+      "start": 129.52,
+      "duration": 4.24,
+      "text": "the part I want you to notice because"
+    },
+    {
+      "start": 131.12,
+      "duration": 4.8,
+      "text": "this is the whole point. Every extracted"
+    },
+    {
+      "start": 133.76,
+      "duration": 5.04,
+      "text": "field here is linked back to the same"
+    },
+    {
+      "start": 135.92,
+      "duration": 4.72,
+      "text": "exact sentence it came from in my JSON."
+    },
+    {
+      "start": 138.8,
+      "duration": 3.519,
+      "text": "So if you're reviewing it, debugging,"
+    },
+    {
+      "start": 140.64,
+      "duration": 3.76,
+      "text": "explaining to someone else, you're no"
+    },
+    {
+      "start": 142.319,
+      "duration": 3.361,
+      "text": "more guessing. But one of the coolest"
+    },
+    {
+      "start": 144.4,
+      "duration": 3.28,
+      "text": "features I found here was the"
+    },
+    {
+      "start": 145.68,
+      "duration": 4.08,
+      "text": "interactive HTML page, which it"
+    },
+    {
+      "start": 147.68,
+      "duration": 4.32,
+      "text": "autogenerates. This is where you can"
+    },
+    {
+      "start": 149.76,
+      "duration": 5.04,
+      "text": "click an entity and see it highlighted"
+    },
+    {
+      "start": 152,
+      "duration": 5.44,
+      "text": "in the original text and run through for"
+    },
+    {
+      "start": 154.8,
+      "duration": 4.64,
+      "text": "a quicker visual to see all the targeted"
+    },
+    {
+      "start": 157.44,
+      "duration": 4,
+      "text": "words you were after. That's why it's"
+    },
+    {
+      "start": 159.44,
+      "duration": 3.6,
+      "text": "huge for debugging, audits, reviews,"
+    },
+    {
+      "start": 161.44,
+      "duration": 3.76,
+      "text": "that kind of thing. And if you need to"
+    },
+    {
+      "start": 163.04,
+      "duration": 4,
+      "text": "do this at scale, batch mode lets you"
+    },
+    {
+      "start": 165.2,
+      "duration": 4.399,
+      "text": "run it across thousands of documents"
+    },
+    {
+      "start": 167.04,
+      "duration": 4.32,
+      "text": "more efficiently. So yeah, this looks"
+    },
+    {
+      "start": 169.599,
+      "duration": 4.081,
+      "text": "great. This was really cool, too,"
+    },
+    {
+      "start": 171.36,
+      "duration": 4.56,
+      "text": "especially the HTML part. Okay, now why"
+    },
+    {
+      "start": 173.68,
+      "duration": 4.24,
+      "text": "are devs ditching old school NLP for"
+    },
+    {
+      "start": 175.92,
+      "duration": 3.44,
+      "text": "this? And that's because messy text"
+    },
+    {
+      "start": 177.92,
+      "duration": 3.44,
+      "text": "isn't just annoying, right? It is"
+    },
+    {
+      "start": 179.36,
+      "duration": 4.32,
+      "text": "annoying, but it's also expensive. It"
+    },
+    {
+      "start": 181.36,
+      "duration": 4,
+      "text": "costs time and it breaks things. That's"
+    },
+    {
+      "start": 183.68,
+      "duration": 4,
+      "text": "why we're seeing laying extract show up"
+    },
+    {
+      "start": 185.36,
+      "duration": 4.4,
+      "text": "where accuracy and traceability actually"
+    },
+    {
+      "start": 187.68,
+      "duration": 3.839,
+      "text": "matter. Things like extracting"
+    },
+    {
+      "start": 189.76,
+      "duration": 3.44,
+      "text": "structured data from clinical notes"
+    },
+    {
+      "start": 191.519,
+      "duration": 3.921,
+      "text": "while still being able to audit where it"
+    },
+    {
+      "start": 193.2,
+      "duration": 4.08,
+      "text": "came from. That's huge. Or maybe we're"
+    },
+    {
+      "start": 195.44,
+      "duration": 3.6,
+      "text": "turning feedback and support tickets"
+    },
+    {
+      "start": 197.28,
+      "duration": 4.319,
+      "text": "into knowledge graphs instead of those"
+    },
+    {
+      "start": 199.04,
+      "duration": 4.559,
+      "text": "giant CSV files. With all the good we"
+    },
+    {
+      "start": 201.599,
+      "duration": 3.841,
+      "text": "get from these style tools, we also get"
+    },
+    {
+      "start": 203.599,
+      "duration": 3.681,
+      "text": "some bad too. These will influence how"
+    },
+    {
+      "start": 205.44,
+      "duration": 3.439,
+      "text": "you decide to use it. For the good, we"
+    },
+    {
+      "start": 207.28,
+      "duration": 4,
+      "text": "have a lot here. The setup is simple,"
+    },
+    {
+      "start": 208.879,
+      "duration": 4.561,
+      "text": "right? pip install, write a prompt, go"
+    },
+    {
+      "start": 211.28,
+      "duration": 4.239,
+      "text": "grounded outputs, reduced LLM trust"
+    },
+    {
+      "start": 213.44,
+      "duration": 4.4,
+      "text": "issues because you can verify everything"
+    },
+    {
+      "start": 215.519,
+      "duration": 4.64,
+      "text": "and you're not locked into one model. It"
+    },
+    {
+      "start": 217.84,
+      "duration": 3.679,
+      "text": "works local or cloud. Both of these are"
+    },
+    {
+      "start": 220.159,
+      "duration": 3.281,
+      "text": "going to work and it handles long"
+    },
+    {
+      "start": 221.519,
+      "duration": 3.601,
+      "text": "documents better than most tools. It's"
+    },
+    {
+      "start": 223.44,
+      "duration": 3.6,
+      "text": "free, it's open source, and it's moving"
+    },
+    {
+      "start": 225.12,
+      "duration": 4.72,
+      "text": "fast. There are some drawbacks here that"
+    },
+    {
+      "start": 227.04,
+      "duration": 5.199,
+      "text": "you may feel because you still pay LLM"
+    },
+    {
+      "start": 229.84,
+      "duration": 4.24,
+      "text": "costs at scale. Really noisy text can"
+    },
+    {
+      "start": 232.239,
+      "duration": 3.36,
+      "text": "cause incomplete extractions. It's"
+    },
+    {
+      "start": 234.08,
+      "duration": 2.879,
+      "text": "Python first, so if you don't know"
+    },
+    {
+      "start": 235.599,
+      "duration": 3.2,
+      "text": "Python, there might be a bit of a"
+    },
+    {
+      "start": 236.959,
+      "duration": 3.681,
+      "text": "learning curve, but Python's great. And"
+    },
+    {
+      "start": 238.799,
+      "duration": 3.681,
+      "text": "it's not ideal for ultra- low latency"
+    },
+    {
+      "start": 240.64,
+      "duration": 3.76,
+      "text": "real-time apps. Why should you care?"
+    },
+    {
+      "start": 242.48,
+      "duration": 3.839,
+      "text": "Because Lang Extract lowers the barrier"
+    },
+    {
+      "start": 244.4,
+      "duration": 4.24,
+      "text": "to working with unstructured data"
+    },
+    {
+      "start": 246.319,
+      "duration": 4.48,
+      "text": "without building custom models or"
+    },
+    {
+      "start": 248.64,
+      "duration": 3.92,
+      "text": "fragile pipelines. And it makes LLM"
+    },
+    {
+      "start": 250.799,
+      "duration": 3.761,
+      "text": "output something you can actually trust"
+    },
+    {
+      "start": 252.56,
+      "duration": 3.76,
+      "text": "in production because it's tied back to"
+    },
+    {
+      "start": 254.56,
+      "duration": 3.76,
+      "text": "where it came from. Especially in"
+    },
+    {
+      "start": 256.32,
+      "duration": 3.84,
+      "text": "sectors maybe like finance, healthcare,"
+    },
+    {
+      "start": 258.32,
+      "duration": 3.84,
+      "text": "right? Compliance, that sort of stuff"
+    },
+    {
+      "start": 260.16,
+      "duration": 4.479,
+      "text": "where it really does matter. Plus, it"
+    },
+    {
+      "start": 262.16,
+      "duration": 4.08,
+      "text": "fits right into modern stacks. Rag,"
+    },
+    {
+      "start": 264.639,
+      "duration": 2.881,
+      "text": "search, knowledge graph, analytics,"
+    },
+    {
+      "start": 266.24,
+      "duration": 3.12,
+      "text": "whatever you're building. If"
+    },
+    {
+      "start": 267.52,
+      "duration": 4.08,
+      "text": "unstructured data is slowing you down,"
+    },
+    {
+      "start": 269.36,
+      "duration": 4.399,
+      "text": "this tool can seriously level you up. If"
+    },
+    {
+      "start": 271.6,
+      "duration": 4.319,
+      "text": "data is part of your job, and let's be"
+    },
+    {
+      "start": 273.759,
+      "duration": 5.361,
+      "text": "real, it's probably worth checking out."
+    },
+    {
+      "start": 275.919,
+      "duration": 3.201,
+      "text": "We'll see you in another"
+    }
+  ],
+  "fullText": "You've probably tried turning emails, PDFs, or transcripts into structured data at one point, and it went sideways fast. Everyone thinks that the hard part is building the app. It's not. It's the text. Because a huge chunk of real world data is often unstructured, and most pipelines fall apart right here. Now, you'd expect the fix to be more roles, more NLP, but some devs are actually doing the opposite. This is Lang Extract. It's a free Google open-source tool that's quietly growing and fast. We have videos coming out all the time. Be sure to subscribe. Okay, now Lang Extract just sounds like another extraction library, and at first glance, it kind of is. But here's what makes it different. Lang Extract is a Python library that uses LLMs like Gemini or GPT to pull structured data out of messy text. So yes, entities, attributes, relationships into clean output like JSON or even interactive HTML. But the real reason debs care is every single extraction is grounded back to the exact text span it came from. Which means instead of the model saying trust me, it says here's the exact sentence I used. That's the big change here. Now the workflow here basically is something like the prompt goes in, extraction happens, and then you get this structured output you can actually verify. Before I answer the big question of why are devs ditching old school NLP for this, let me show you how all this works first so you can try it out. All right, here's a simple example. On the screen, we've got unstructured text that I found of some clinical notes. And right now, it's just text. It's in a text file. A human can read it and pull out the important parts, but a computer sees it all as gibberish. First off, I had to clone the Git repo and install the requirements. Then I also needed to get my Gemini API key which I just housed in an EMV file. I then typed out this Python script here to run this and described what I wanted to extract in my prompt. This is why you need some understanding of Python. All my entities, attributes, relationships, all written as this prompt. There is no training data. There is no model tuning. Then lang extract runs and I get a structured JSON output. And now here's the part I want you to notice because this is the whole point. Every extracted field here is linked back to the same exact sentence it came from in my JSON. So if you're reviewing it, debugging, explaining to someone else, you're no more guessing. But one of the coolest features I found here was the interactive HTML page, which it autogenerates. This is where you can click an entity and see it highlighted in the original text and run through for a quicker visual to see all the targeted words you were after. That's why it's huge for debugging, audits, reviews, that kind of thing. And if you need to do this at scale, batch mode lets you run it across thousands of documents more efficiently. So yeah, this looks great. This was really cool, too, especially the HTML part. Okay, now why are devs ditching old school NLP for this? And that's because messy text isn't just annoying, right? It is annoying, but it's also expensive. It costs time and it breaks things. That's why we're seeing laying extract show up where accuracy and traceability actually matter. Things like extracting structured data from clinical notes while still being able to audit where it came from. That's huge. Or maybe we're turning feedback and support tickets into knowledge graphs instead of those giant CSV files. With all the good we get from these style tools, we also get some bad too. These will influence how you decide to use it. For the good, we have a lot here. The setup is simple, right? pip install, write a prompt, go grounded outputs, reduced LLM trust issues because you can verify everything and you're not locked into one model. It works local or cloud. Both of these are going to work and it handles long documents better than most tools. It's free, it's open source, and it's moving fast. There are some drawbacks here that you may feel because you still pay LLM costs at scale. Really noisy text can cause incomplete extractions. It's Python first, so if you don't know Python, there might be a bit of a learning curve, but Python's great. And it's not ideal for ultra- low latency real-time apps. Why should you care? Because Lang Extract lowers the barrier to working with unstructured data without building custom models or fragile pipelines. And it makes LLM output something you can actually trust in production because it's tied back to where it came from. Especially in sectors maybe like finance, healthcare, right? Compliance, that sort of stuff where it really does matter. Plus, it fits right into modern stacks. Rag, search, knowledge graph, analytics, whatever you're building. If unstructured data is slowing you down, this tool can seriously level you up. If data is part of your job, and let's be real, it's probably worth checking out. We'll see you in another",
+  "fetchedAt": "2026-01-18T18:32:07.751Z"
+}

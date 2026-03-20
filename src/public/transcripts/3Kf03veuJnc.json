@@ -1,0 +1,624 @@
+{
+  "videoId": "3Kf03veuJnc",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.839,
+      "text": "In this video, you will learn how to use"
+    },
+    {
+      "start": 1.76,
+      "duration": 3.999,
+      "text": "grid stacking as a great alternative to"
+    },
+    {
+      "start": 3.919,
+      "duration": 4,
+      "text": "absolute positioning. Now, let me be"
+    },
+    {
+      "start": 5.759,
+      "duration": 3.92,
+      "text": "clear. Absolute positioning isn't bad,"
+    },
+    {
+      "start": 7.919,
+      "duration": 3.521,
+      "text": "but whenever I use it, it just feels a"
+    },
+    {
+      "start": 9.679,
+      "duration": 3.361,
+      "text": "bit wrong, especially since there are"
+    },
+    {
+      "start": 11.44,
+      "duration": 3.92,
+      "text": "alternatives that are more accessible"
+    },
+    {
+      "start": 13.04,
+      "duration": 3.92,
+      "text": "and more responsive. So, why not learn"
+    },
+    {
+      "start": 15.36,
+      "duration": 3.28,
+      "text": "one of them? Today, we'll take a look at"
+    },
+    {
+      "start": 16.96,
+      "duration": 3.52,
+      "text": "a few examples where grid stacking is"
+    },
+    {
+      "start": 18.64,
+      "duration": 3.68,
+      "text": "the better choice. But first, how does"
+    },
+    {
+      "start": 20.48,
+      "duration": 3.44,
+      "text": "grid stacking actually work? When you"
+    },
+    {
+      "start": 22.32,
+      "duration": 3.28,
+      "text": "have a grid layout defined, you can"
+    },
+    {
+      "start": 23.92,
+      "duration": 4.24,
+      "text": "target the child elements and use the"
+    },
+    {
+      "start": 25.6,
+      "duration": 4.16,
+      "text": "properties grid row and grid column."
+    },
+    {
+      "start": 28.16,
+      "duration": 3.76,
+      "text": "These properties control how many"
+    },
+    {
+      "start": 29.76,
+      "duration": 4.24,
+      "text": "columns or rows an element should span."
+    },
+    {
+      "start": 31.92,
+      "duration": 3.6,
+      "text": "For example, if I set grid column to"
+    },
+    {
+      "start": 34,
+      "duration": 3.12,
+      "text": "1/3,"
+    },
+    {
+      "start": 35.52,
+      "duration": 3.76,
+      "text": "the element stretches across two"
+    },
+    {
+      "start": 37.12,
+      "duration": 5.279,
+      "text": "columns. Because grid lines are count as"
+    },
+    {
+      "start": 39.28,
+      "duration": 5.04,
+      "text": "1 2 3. Now, why am I telling you this?"
+    },
+    {
+      "start": 42.399,
+      "duration": 4.241,
+      "text": "Because we can use this exact concept to"
+    },
+    {
+      "start": 44.32,
+      "duration": 4,
+      "text": "make ch elements overlap. Let's assign"
+    },
+    {
+      "start": 46.64,
+      "duration": 3.68,
+      "text": "the same cell in the middle to our"
+    },
+    {
+      "start": 48.32,
+      "duration": 5.12,
+      "text": "second chart by making it stretch from"
+    },
+    {
+      "start": 50.32,
+      "duration": 5.6,
+      "text": "line two to line four. By default, that"
+    },
+    {
+      "start": 53.44,
+      "duration": 5.2,
+      "text": "will push it into another row. So, we"
+    },
+    {
+      "start": 55.92,
+      "duration": 5.36,
+      "text": "also have to set the same grid row 1 /"
+    },
+    {
+      "start": 58.64,
+      "duration": 4.559,
+      "text": "two and do that for both chart elements."
+    },
+    {
+      "start": 61.28,
+      "duration": 3.76,
+      "text": "Now, you can see how they overlap. It is"
+    },
+    {
+      "start": 63.199,
+      "duration": 4.161,
+      "text": "even clearer if I lower the opacity on"
+    },
+    {
+      "start": 65.04,
+      "duration": 4.32,
+      "text": "one of them. So, when two elements share"
+    },
+    {
+      "start": 67.36,
+      "duration": 3.84,
+      "text": "the same grid cell, we essentially get"
+    },
+    {
+      "start": 69.36,
+      "duration": 3.84,
+      "text": "the same behavior we want from absolute"
+    },
+    {
+      "start": 71.2,
+      "duration": 4,
+      "text": "positioning, overlapping elements that"
+    },
+    {
+      "start": 73.2,
+      "duration": 3.84,
+      "text": "are positioned relative to their parent."
+    },
+    {
+      "start": 75.2,
+      "duration": 4.08,
+      "text": "A common example for this would be to"
+    },
+    {
+      "start": 77.04,
+      "duration": 3.68,
+      "text": "place text on top of an image. With"
+    },
+    {
+      "start": 79.28,
+      "duration": 3.28,
+      "text": "absolute positioning, you would have a"
+    },
+    {
+      "start": 80.72,
+      "duration": 3.6,
+      "text": "wrapper with position relative and a"
+    },
+    {
+      "start": 82.56,
+      "duration": 3.52,
+      "text": "text container with position absolute"
+    },
+    {
+      "start": 84.32,
+      "duration": 3.52,
+      "text": "and then use the top left, bottom right"
+    },
+    {
+      "start": 86.08,
+      "duration": 4.079,
+      "text": "values to position it exactly where you"
+    },
+    {
+      "start": 87.84,
+      "duration": 3.599,
+      "text": "want it. This works totally fine. But"
+    },
+    {
+      "start": 90.159,
+      "duration": 3.521,
+      "text": "here's the same thing with grid"
+    },
+    {
+      "start": 91.439,
+      "duration": 4.561,
+      "text": "stacking. Remove all of this and instead"
+    },
+    {
+      "start": 93.68,
+      "duration": 4.24,
+      "text": "set the wrapper to display grid. This"
+    },
+    {
+      "start": 96,
+      "duration": 3.84,
+      "text": "will automatically create a one by one"
+    },
+    {
+      "start": 97.92,
+      "duration": 3.44,
+      "text": "grid without defining rows or columns."
+    },
+    {
+      "start": 99.84,
+      "duration": 3.919,
+      "text": "We don't need them. Now on the text"
+    },
+    {
+      "start": 101.36,
+      "duration": 4.88,
+      "text": "container, set both grid column and grid"
+    },
+    {
+      "start": 103.759,
+      "duration": 4.961,
+      "text": "row to start at line one and end at line"
+    },
+    {
+      "start": 106.24,
+      "duration": 4.8,
+      "text": "two. meaning it covers the entire grid"
+    },
+    {
+      "start": 108.72,
+      "duration": 4.719,
+      "text": "since this is only one cell. On the"
+    },
+    {
+      "start": 111.04,
+      "duration": 5.039,
+      "text": "image, we do exactly the same grid row"
+    },
+    {
+      "start": 113.439,
+      "duration": 4.881,
+      "text": "and grid column one, two, and that will"
+    },
+    {
+      "start": 116.079,
+      "duration": 4.241,
+      "text": "make them overlap perfectly just like"
+    },
+    {
+      "start": 118.32,
+      "duration": 3.92,
+      "text": "with absolute positioning, but with the"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.759,
+      "text": "advantage that we now have access to all"
+    },
+    {
+      "start": 122.24,
+      "duration": 4.159,
+      "text": "those fancy grid properties. For"
+    },
+    {
+      "start": 124.079,
+      "duration": 4.081,
+      "text": "example, we can use place items to align"
+    },
+    {
+      "start": 126.399,
+      "duration": 4.161,
+      "text": "the elements at the start, at the end,"
+    },
+    {
+      "start": 128.16,
+      "duration": 4.799,
+      "text": "or even in the center without having to"
+    },
+    {
+      "start": 130.56,
+      "duration": 3.84,
+      "text": "calculate top 50% and translating it"
+    },
+    {
+      "start": 132.959,
+      "duration": 3.28,
+      "text": "back as you would have to do it in"
+    },
+    {
+      "start": 134.4,
+      "duration": 4,
+      "text": "position absolute. Right now, we're"
+    },
+    {
+      "start": 136.239,
+      "duration": 4,
+      "text": "stacking the CSS grid using grid row and"
+    },
+    {
+      "start": 138.4,
+      "duration": 3.44,
+      "text": "grid column. But the cool thing is"
+    },
+    {
+      "start": 140.239,
+      "duration": 3.601,
+      "text": "there's actually a shorter and more"
+    },
+    {
+      "start": 141.84,
+      "duration": 3.84,
+      "text": "readable way which I prefer. Let's use"
+    },
+    {
+      "start": 143.84,
+      "duration": 3.44,
+      "text": "that in the next example. Imagine you"
+    },
+    {
+      "start": 145.68,
+      "duration": 3.04,
+      "text": "want to play a large video in the"
+    },
+    {
+      "start": 147.28,
+      "duration": 3.039,
+      "text": "background of your header section."
+    },
+    {
+      "start": 148.72,
+      "duration": 3.28,
+      "text": "Here's my video element which has all"
+    },
+    {
+      "start": 150.319,
+      "duration": 3.841,
+      "text": "the important attributes we need to make"
+    },
+    {
+      "start": 152,
+      "duration": 3.68,
+      "text": "it play in the background. With absolute"
+    },
+    {
+      "start": 154.16,
+      "duration": 3.52,
+      "text": "positioning, you would often have to set"
+    },
+    {
+      "start": 155.68,
+      "duration": 4.48,
+      "text": "either the video or the text content to"
+    },
+    {
+      "start": 157.68,
+      "duration": 4.08,
+      "text": "position absolute. That will work fine,"
+    },
+    {
+      "start": 160.16,
+      "duration": 3.439,
+      "text": "but if the content size changes"
+    },
+    {
+      "start": 161.76,
+      "duration": 3.759,
+      "text": "dynamically, you could run into some"
+    },
+    {
+      "start": 163.599,
+      "duration": 3.521,
+      "text": "ugly overflow issues. But with grid"
+    },
+    {
+      "start": 165.519,
+      "duration": 3.201,
+      "text": "stacking, you don't have to worry about"
+    },
+    {
+      "start": 167.12,
+      "duration": 3.6,
+      "text": "that. Let's remove the absolute"
+    },
+    {
+      "start": 168.72,
+      "duration": 4.879,
+      "text": "positioning and set the header to"
+    },
+    {
+      "start": 170.72,
+      "duration": 5.76,
+      "text": "display grid. This time I will use grid"
+    },
+    {
+      "start": 173.599,
+      "duration": 5.681,
+      "text": "template areas. I simply define one area"
+    },
+    {
+      "start": 176.48,
+      "duration": 4.88,
+      "text": "and call it stack. Now on both the video"
+    },
+    {
+      "start": 179.28,
+      "duration": 5.2,
+      "text": "and the text container, I assign that"
+    },
+    {
+      "start": 181.36,
+      "duration": 5.12,
+      "text": "grid area stack. It is very readable and"
+    },
+    {
+      "start": 184.48,
+      "duration": 3.759,
+      "text": "you can see how both elements stack in"
+    },
+    {
+      "start": 186.48,
+      "duration": 3.759,
+      "text": "the browser. Now to control which"
+    },
+    {
+      "start": 188.239,
+      "duration": 3.92,
+      "text": "element is on top, I just use the Z"
+    },
+    {
+      "start": 190.239,
+      "duration": 3.841,
+      "text": "index property. The higher the value,"
+    },
+    {
+      "start": 192.159,
+      "duration": 3.921,
+      "text": "the closer the element is to the viewer."
+    },
+    {
+      "start": 194.08,
+      "duration": 5.04,
+      "text": "And again, we can center everything with"
+    },
+    {
+      "start": 196.08,
+      "duration": 4.799,
+      "text": "place items center. Very intuitive. Now,"
+    },
+    {
+      "start": 199.12,
+      "duration": 3.52,
+      "text": "you might be wondering if grid stacking"
+    },
+    {
+      "start": 200.879,
+      "duration": 3.841,
+      "text": "works so well. Then when should you"
+    },
+    {
+      "start": 202.64,
+      "duration": 3.76,
+      "text": "still use position absolute? Absolute"
+    },
+    {
+      "start": 204.72,
+      "duration": 3.28,
+      "text": "positioning is still the go-to choice"
+    },
+    {
+      "start": 206.4,
+      "duration": 3.199,
+      "text": "when you need the element to break out"
+    },
+    {
+      "start": 208,
+      "duration": 4.159,
+      "text": "of its parent container. For example,"
+    },
+    {
+      "start": 209.599,
+      "duration": 4.56,
+      "text": "for tool tips, popovers, or custom"
+    },
+    {
+      "start": 212.159,
+      "duration": 3.281,
+      "text": "drop-own menus. These are all elements"
+    },
+    {
+      "start": 214.159,
+      "duration": 2.881,
+      "text": "that should ignore the parents"
+    },
+    {
+      "start": 215.44,
+      "duration": 3.6,
+      "text": "boundaries and position themselves"
+    },
+    {
+      "start": 217.04,
+      "duration": 3.68,
+      "text": "anywhere on the screen. Grid stacking"
+    },
+    {
+      "start": 219.04,
+      "duration": 3.44,
+      "text": "can't do that because it always keeps"
+    },
+    {
+      "start": 220.72,
+      "duration": 3.68,
+      "text": "the element inside the grid area of its"
+    },
+    {
+      "start": 222.48,
+      "duration": 3.92,
+      "text": "parent. On a side note, I'm thinking"
+    },
+    {
+      "start": 224.4,
+      "duration": 3.6,
+      "text": "about doing a long- form video on CSS"
+    },
+    {
+      "start": 226.4,
+      "duration": 3.52,
+      "text": "grid explaining everything there is to"
+    },
+    {
+      "start": 228,
+      "duration": 3.84,
+      "text": "learn about it compressed into one big"
+    },
+    {
+      "start": 229.92,
+      "duration": 3.92,
+      "text": "video. So, if you'd be interested in"
+    },
+    {
+      "start": 231.84,
+      "duration": 3.52,
+      "text": "that, like this video and let me know in"
+    },
+    {
+      "start": 233.84,
+      "duration": 3.28,
+      "text": "the comments so I know I should make"
+    },
+    {
+      "start": 235.36,
+      "duration": 3.28,
+      "text": "one. Until then, you can watch this"
+    },
+    {
+      "start": 237.12,
+      "duration": 3.36,
+      "text": "video right here to learn more about web"
+    },
+    {
+      "start": 238.64,
+      "duration": 3.84,
+      "text": "development. My name is Fabian and this"
+    },
+    {
+      "start": 240.48,
+      "duration": 4.24,
+      "text": "was Coding to Go. I'll see you in the"
+    },
+    {
+      "start": 242.48,
+      "duration": 2.24,
+      "text": "next"
+    }
+  ],
+  "fullText": "In this video, you will learn how to use grid stacking as a great alternative to absolute positioning. Now, let me be clear. Absolute positioning isn't bad, but whenever I use it, it just feels a bit wrong, especially since there are alternatives that are more accessible and more responsive. So, why not learn one of them? Today, we'll take a look at a few examples where grid stacking is the better choice. But first, how does grid stacking actually work? When you have a grid layout defined, you can target the child elements and use the properties grid row and grid column. These properties control how many columns or rows an element should span. For example, if I set grid column to 1/3, the element stretches across two columns. Because grid lines are count as 1 2 3. Now, why am I telling you this? Because we can use this exact concept to make ch elements overlap. Let's assign the same cell in the middle to our second chart by making it stretch from line two to line four. By default, that will push it into another row. So, we also have to set the same grid row 1 / two and do that for both chart elements. Now, you can see how they overlap. It is even clearer if I lower the opacity on one of them. So, when two elements share the same grid cell, we essentially get the same behavior we want from absolute positioning, overlapping elements that are positioned relative to their parent. A common example for this would be to place text on top of an image. With absolute positioning, you would have a wrapper with position relative and a text container with position absolute and then use the top left, bottom right values to position it exactly where you want it. This works totally fine. But here's the same thing with grid stacking. Remove all of this and instead set the wrapper to display grid. This will automatically create a one by one grid without defining rows or columns. We don't need them. Now on the text container, set both grid column and grid row to start at line one and end at line two. meaning it covers the entire grid since this is only one cell. On the image, we do exactly the same grid row and grid column one, two, and that will make them overlap perfectly just like with absolute positioning, but with the advantage that we now have access to all those fancy grid properties. For example, we can use place items to align the elements at the start, at the end, or even in the center without having to calculate top 50% and translating it back as you would have to do it in position absolute. Right now, we're stacking the CSS grid using grid row and grid column. But the cool thing is there's actually a shorter and more readable way which I prefer. Let's use that in the next example. Imagine you want to play a large video in the background of your header section. Here's my video element which has all the important attributes we need to make it play in the background. With absolute positioning, you would often have to set either the video or the text content to position absolute. That will work fine, but if the content size changes dynamically, you could run into some ugly overflow issues. But with grid stacking, you don't have to worry about that. Let's remove the absolute positioning and set the header to display grid. This time I will use grid template areas. I simply define one area and call it stack. Now on both the video and the text container, I assign that grid area stack. It is very readable and you can see how both elements stack in the browser. Now to control which element is on top, I just use the Z index property. The higher the value, the closer the element is to the viewer. And again, we can center everything with place items center. Very intuitive. Now, you might be wondering if grid stacking works so well. Then when should you still use position absolute? Absolute positioning is still the go-to choice when you need the element to break out of its parent container. For example, for tool tips, popovers, or custom drop-own menus. These are all elements that should ignore the parents boundaries and position themselves anywhere on the screen. Grid stacking can't do that because it always keeps the element inside the grid area of its parent. On a side note, I'm thinking about doing a long- form video on CSS grid explaining everything there is to learn about it compressed into one big video. So, if you'd be interested in that, like this video and let me know in the comments so I know I should make one. Until then, you can watch this video right here to learn more about web development. My name is Fabian and this was Coding to Go. I'll see you in the next",
+  "fetchedAt": "2026-01-25T20:26:52.952Z"
+}

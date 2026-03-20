@@ -1,0 +1,679 @@
+{
+  "videoId": "-Z-Clxo-v-g",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.32,
+      "duration": 3.84,
+      "text": "Transcribing audio offline without"
+    },
+    {
+      "start": 2.24,
+      "duration": 4.24,
+      "text": "sending your private stuff to some cloud"
+    },
+    {
+      "start": 4.16,
+      "duration": 4.24,
+      "text": "service can be a mess. Or maybe you've"
+    },
+    {
+      "start": 6.48,
+      "duration": 3.92,
+      "text": "paid for this and it takes forever when"
+    },
+    {
+      "start": 8.4,
+      "duration": 5.199,
+      "text": "actually your own computer can handle it"
+    },
+    {
+      "start": 10.4,
+      "duration": 5.68,
+      "text": "way faster. This is Buzz. It's an open-"
+    },
+    {
+      "start": 13.599,
+      "duration": 4.241,
+      "text": "source desktop app powered by Whisper."
+    },
+    {
+      "start": 16.08,
+      "duration": 3.44,
+      "text": "It might just save you hours or it might"
+    },
+    {
+      "start": 17.84,
+      "duration": 3.12,
+      "text": "just clog up your hard drive. That's"
+    },
+    {
+      "start": 19.52,
+      "duration": 3.519,
+      "text": "what we're going to look at here. We"
+    },
+    {
+      "start": 20.96,
+      "duration": 5.72,
+      "text": "have videos coming out all the time. Be"
+    },
+    {
+      "start": 23.039,
+      "duration": 3.641,
+      "text": "sure to subscribe."
+    },
+    {
+      "start": 29.359,
+      "duration": 4.161,
+      "text": "Buzz is a free desktop app that works on"
+    },
+    {
+      "start": 31.439,
+      "duration": 4.561,
+      "text": "any computer using OpenAI's Whisper"
+    },
+    {
+      "start": 33.52,
+      "duration": 4.4,
+      "text": "model to transcribe and translate audio"
+    },
+    {
+      "start": 36,
+      "duration": 3.6,
+      "text": "right on your machine with no internet"
+    },
+    {
+      "start": 37.92,
+      "duration": 4.4,
+      "text": "required. You might think that this is"
+    },
+    {
+      "start": 39.6,
+      "duration": 5.279,
+      "text": "just for files, but no. It handles MP3s,"
+    },
+    {
+      "start": 42.32,
+      "duration": 5.12,
+      "text": "MP4s, YouTube links, and even live mic"
+    },
+    {
+      "start": 44.879,
+      "duration": 5.281,
+      "text": "recordings. Outputs come as plain text,"
+    },
+    {
+      "start": 47.44,
+      "duration": 4.799,
+      "text": "SRT subtitles, or VTT files. Great for"
+    },
+    {
+      "start": 50.16,
+      "duration": 4.239,
+      "text": "notes or editing videos. It also lets"
+    },
+    {
+      "start": 52.239,
+      "duration": 3.601,
+      "text": "you search, edit, and replay parts in an"
+    },
+    {
+      "start": 54.399,
+      "duration": 3.361,
+      "text": "interactive viewer, which is really"
+    },
+    {
+      "start": 55.84,
+      "duration": 3.28,
+      "text": "nice. Plus, there's a command line tool"
+    },
+    {
+      "start": 57.76,
+      "duration": 3.36,
+      "text": "for automating stuff that we're going to"
+    },
+    {
+      "start": 59.12,
+      "duration": 4.32,
+      "text": "check out here in this video. This"
+    },
+    {
+      "start": 61.12,
+      "duration": 4.48,
+      "text": "Python project is MIT licensed and"
+    },
+    {
+      "start": 63.44,
+      "duration": 3.44,
+      "text": "blowing up on GitHub, which means devs"
+    },
+    {
+      "start": 65.6,
+      "duration": 2.879,
+      "text": "are loving it, and they're actually"
+    },
+    {
+      "start": 66.88,
+      "duration": 4.16,
+      "text": "putting it to real work. You can"
+    },
+    {
+      "start": 68.479,
+      "duration": 5.121,
+      "text": "download it on your system via DMG file,"
+    },
+    {
+      "start": 71.04,
+      "duration": 4.24,
+      "text": "or you can use it in your CLI, which is"
+    },
+    {
+      "start": 73.6,
+      "duration": 3.28,
+      "text": "what I'm going to do here. Since I"
+    },
+    {
+      "start": 75.28,
+      "duration": 3.36,
+      "text": "already have it ready to go here, I made"
+    },
+    {
+      "start": 76.88,
+      "duration": 4.16,
+      "text": "a shell file that's going to run through"
+    },
+    {
+      "start": 78.64,
+      "duration": 4.159,
+      "text": "some of these scenarios for us. It's"
+    },
+    {
+      "start": 81.04,
+      "duration": 4.16,
+      "text": "going to do some basic transcription,"
+    },
+    {
+      "start": 82.799,
+      "duration": 5.121,
+      "text": "multi-level outputs with text and BTT"
+    },
+    {
+      "start": 85.2,
+      "duration": 4.32,
+      "text": "files, word level timestamps, and JSON"
+    },
+    {
+      "start": 87.92,
+      "duration": 3.68,
+      "text": "outputs."
+    },
+    {
+      "start": 89.52,
+      "duration": 4.48,
+      "text": "I'm going to give it a Theo von podcast,"
+    },
+    {
+      "start": 91.6,
+      "duration": 5.44,
+      "text": "which is just shy of 1 hour in length."
+    },
+    {
+      "start": 94,
+      "duration": 5.04,
+      "text": "Okay, let me run it."
+    },
+    {
+      "start": 97.04,
+      "duration": 3.6,
+      "text": "This did take a few minutes, but to go"
+    },
+    {
+      "start": 99.04,
+      "duration": 3.36,
+      "text": "through them all, but this output here"
+    },
+    {
+      "start": 100.64,
+      "duration": 4,
+      "text": "is still quite good. Here you can see"
+    },
+    {
+      "start": 102.4,
+      "duration": 5.359,
+      "text": "the basic translation file that shows"
+    },
+    {
+      "start": 104.64,
+      "duration": 5.839,
+      "text": "all the spoken text. Next, we have these"
+    },
+    {
+      "start": 107.759,
+      "duration": 4.64,
+      "text": "timestamps for sentences, which is super"
+    },
+    {
+      "start": 110.479,
+      "duration": 4.561,
+      "text": "cool. But not only do we have the"
+    },
+    {
+      "start": 112.399,
+      "duration": 5.521,
+      "text": "sentence timestamps, I also generated a"
+    },
+    {
+      "start": 115.04,
+      "duration": 4.88,
+      "text": "wordbyword timestamp. That is really"
+    },
+    {
+      "start": 117.92,
+      "duration": 4.159,
+      "text": "nice. At least for me, this is really"
+    },
+    {
+      "start": 119.92,
+      "duration": 3.92,
+      "text": "useful as this was rather quick for"
+    },
+    {
+      "start": 122.079,
+      "duration": 3.601,
+      "text": "audio length. And not to mention, it was"
+    },
+    {
+      "start": 123.84,
+      "duration": 4.479,
+      "text": "free. The last one I'm going to run via"
+    },
+    {
+      "start": 125.68,
+      "duration": 4.16,
+      "text": "CLI for you guys is a French audio file."
+    },
+    {
+      "start": 128.319,
+      "duration": 4.481,
+      "text": "We can run this here and get an English"
+    },
+    {
+      "start": 129.84,
+      "duration": 4.8,
+      "text": "translation of the file. I could specify"
+    },
+    {
+      "start": 132.8,
+      "duration": 4.32,
+      "text": "my input and output languages. So, it's"
+    },
+    {
+      "start": 134.64,
+      "duration": 4.959,
+      "text": "not just for English and vice versa. And"
+    },
+    {
+      "start": 137.12,
+      "duration": 5.759,
+      "text": "look at this clean output of the French"
+    },
+    {
+      "start": 139.599,
+      "duration": 5.521,
+      "text": "audio for us in English. There is no UI"
+    },
+    {
+      "start": 142.879,
+      "duration": 4.161,
+      "text": "as I did all this via my terminal. But"
+    },
+    {
+      "start": 145.12,
+      "duration": 3.6,
+      "text": "if you did want an alternative option,"
+    },
+    {
+      "start": 147.04,
+      "duration": 3.44,
+      "text": "then you could use the UI that's going"
+    },
+    {
+      "start": 148.72,
+      "duration": 3.519,
+      "text": "to look a little something like this."
+    },
+    {
+      "start": 150.48,
+      "duration": 4.32,
+      "text": "Here you can see all the files that I've"
+    },
+    {
+      "start": 152.239,
+      "duration": 4.561,
+      "text": "ran in my CLI in this interface. And I"
+    },
+    {
+      "start": 154.8,
+      "duration": 4.24,
+      "text": "can also upload directly to this and get"
+    },
+    {
+      "start": 156.8,
+      "duration": 3.76,
+      "text": "an output with transcription. When I"
+    },
+    {
+      "start": 159.04,
+      "duration": 3.839,
+      "text": "click the file, it shows the"
+    },
+    {
+      "start": 160.56,
+      "duration": 4.72,
+      "text": "transcription and the timestamps for us"
+    },
+    {
+      "start": 162.879,
+      "duration": 4.401,
+      "text": "right in this UI. All in all, both of"
+    },
+    {
+      "start": 165.28,
+      "duration": 4.239,
+      "text": "these are super nice features, and it's"
+    },
+    {
+      "start": 167.28,
+      "duration": 4.16,
+      "text": "made it a lot easier for transcription"
+    },
+    {
+      "start": 169.519,
+      "duration": 3.521,
+      "text": "and translation. All right. Now, besides"
+    },
+    {
+      "start": 171.44,
+      "duration": 3.84,
+      "text": "that, why does this even matter? Well,"
+    },
+    {
+      "start": 173.04,
+      "duration": 3.68,
+      "text": "if you're tired of slow, pricey tools,"
+    },
+    {
+      "start": 175.28,
+      "duration": 3.679,
+      "text": "or you're worried about data leaks,"
+    },
+    {
+      "start": 176.72,
+      "duration": 4.4,
+      "text": "bugs, solves a lot of these pain points."
+    },
+    {
+      "start": 178.959,
+      "duration": 4.161,
+      "text": "It may just cut costs and keep your info"
+    },
+    {
+      "start": 181.12,
+      "duration": 4.08,
+      "text": "private, giving you that win that you've"
+    },
+    {
+      "start": 183.12,
+      "duration": 3.68,
+      "text": "been looking for. It's free. No more"
+    },
+    {
+      "start": 185.2,
+      "duration": 3.039,
+      "text": "payments for this. I'll start with the"
+    },
+    {
+      "start": 186.8,
+      "duration": 3.439,
+      "text": "good because there is a lot of good"
+    },
+    {
+      "start": 188.239,
+      "duration": 4,
+      "text": "here. Privacy with Buzz seems to be"
+    },
+    {
+      "start": 190.239,
+      "duration": 4.321,
+      "text": "pretty huge. Everything stays local. No"
+    },
+    {
+      "start": 192.239,
+      "duration": 4.881,
+      "text": "uploads, no API keys needed. You expect"
+    },
+    {
+      "start": 194.56,
+      "duration": 4.56,
+      "text": "to pay for fees on this, but no, not"
+    },
+    {
+      "start": 197.12,
+      "duration": 3.92,
+      "text": "here. It's absolutely free after you"
+    },
+    {
+      "start": 199.12,
+      "duration": 3.68,
+      "text": "download these models. If you got a GPU,"
+    },
+    {
+      "start": 201.04,
+      "duration": 3.76,
+      "text": "then it has files making multil-"
+    },
+    {
+      "start": 202.8,
+      "duration": 4,
+      "text": "language transcriptions quick. And that"
+    },
+    {
+      "start": 204.8,
+      "duration": 4.159,
+      "text": "CLI tool, you can drop right into your"
+    },
+    {
+      "start": 206.8,
+      "duration": 3.519,
+      "text": "Python scripts. These are nice. So,"
+    },
+    {
+      "start": 208.959,
+      "duration": 3.441,
+      "text": "you're probably thinking it'll be"
+    },
+    {
+      "start": 210.319,
+      "duration": 4.56,
+      "text": "lightweight, but that is actually a core"
+    },
+    {
+      "start": 212.4,
+      "duration": 5.04,
+      "text": "drawback here. It's not. Those models"
+    },
+    {
+      "start": 214.879,
+      "duration": 4.561,
+      "text": "are massive, eating gigabytes of space."
+    },
+    {
+      "start": 217.44,
+      "duration": 4.32,
+      "text": "If you don't have a GPU, then it falls"
+    },
+    {
+      "start": 219.44,
+      "duration": 4.48,
+      "text": "back to your CPU. So, you can expect"
+    },
+    {
+      "start": 221.76,
+      "duration": 3.839,
+      "text": "some slowness here. The setup can be"
+    },
+    {
+      "start": 223.92,
+      "duration": 3.679,
+      "text": "somewhat tedious with drivers and"
+    },
+    {
+      "start": 225.599,
+      "duration": 4.241,
+      "text": "things. If you've tinkered with local ML"
+    },
+    {
+      "start": 227.599,
+      "duration": 3.841,
+      "text": "projects before, you get this hassle."
+    },
+    {
+      "start": 229.84,
+      "duration": 3.92,
+      "text": "Now, how does Buzz actually pull this"
+    },
+    {
+      "start": 231.44,
+      "duration": 4.879,
+      "text": "off? Well, since Whisper is the core of"
+    },
+    {
+      "start": 233.76,
+      "duration": 5.199,
+      "text": "all this, Buzz wraps it with faster"
+    },
+    {
+      "start": 236.319,
+      "duration": 4.56,
+      "text": "backends to speed all this up. audio"
+    },
+    {
+      "start": 238.959,
+      "duration": 3.92,
+      "text": "gets cleaned and normalized first, then"
+    },
+    {
+      "start": 240.879,
+      "duration": 4.401,
+      "text": "it runs through the model, spits it out"
+    },
+    {
+      "start": 242.879,
+      "duration": 3.92,
+      "text": "in the format you want. Why care? Well,"
+    },
+    {
+      "start": 245.28,
+      "duration": 3.679,
+      "text": "if you're frustrated with all these"
+    },
+    {
+      "start": 246.799,
+      "duration": 4,
+      "text": "tools, this saves you time and some"
+    },
+    {
+      "start": 248.959,
+      "duration": 4.241,
+      "text": "money by also allowing you to customize"
+    },
+    {
+      "start": 250.799,
+      "duration": 5.041,
+      "text": "some things. For example, your shell"
+    },
+    {
+      "start": 253.2,
+      "duration": 4.48,
+      "text": "files or even your Python integrations."
+    },
+    {
+      "start": 255.84,
+      "duration": 4.239,
+      "text": "You could integrate this with Python and"
+    },
+    {
+      "start": 257.68,
+      "duration": 4.64,
+      "text": "use this transcription. Now, is Buzz for"
+    },
+    {
+      "start": 260.079,
+      "duration": 4.721,
+      "text": "you? It might be. If privacy headaches"
+    },
+    {
+      "start": 262.32,
+      "duration": 5.04,
+      "text": "or setup fees bug you and you want fast"
+    },
+    {
+      "start": 264.8,
+      "duration": 5.2,
+      "text": "offline transcription with customization"
+    },
+    {
+      "start": 267.36,
+      "duration": 4.96,
+      "text": "options, it's awesome, right? But if you"
+    },
+    {
+      "start": 270,
+      "duration": 3.759,
+      "text": "want those cloud perfected tools or you"
+    },
+    {
+      "start": 272.32,
+      "duration": 3.76,
+      "text": "don't have enough space on your system"
+    },
+    {
+      "start": 273.759,
+      "duration": 4.72,
+      "text": "with that GPU, it might not be the right"
+    },
+    {
+      "start": 276.08,
+      "duration": 3.76,
+      "text": "tool, right? That's going to be huge on"
+    },
+    {
+      "start": 278.479,
+      "duration": 3.841,
+      "text": "your system. It's going to slow things"
+    },
+    {
+      "start": 279.84,
+      "duration": 3.919,
+      "text": "down. So check out the repo, give it a"
+    },
+    {
+      "start": 282.32,
+      "duration": 3.439,
+      "text": "shot if you're into transcription and"
+    },
+    {
+      "start": 283.759,
+      "duration": 5.201,
+      "text": "audio, and let us know what you think."
+    },
+    {
+      "start": 285.759,
+      "duration": 3.201,
+      "text": "We'll see you in another"
+    }
+  ],
+  "fullText": "Transcribing audio offline without sending your private stuff to some cloud service can be a mess. Or maybe you've paid for this and it takes forever when actually your own computer can handle it way faster. This is Buzz. It's an open- source desktop app powered by Whisper. It might just save you hours or it might just clog up your hard drive. That's what we're going to look at here. We have videos coming out all the time. Be sure to subscribe. Buzz is a free desktop app that works on any computer using OpenAI's Whisper model to transcribe and translate audio right on your machine with no internet required. You might think that this is just for files, but no. It handles MP3s, MP4s, YouTube links, and even live mic recordings. Outputs come as plain text, SRT subtitles, or VTT files. Great for notes or editing videos. It also lets you search, edit, and replay parts in an interactive viewer, which is really nice. Plus, there's a command line tool for automating stuff that we're going to check out here in this video. This Python project is MIT licensed and blowing up on GitHub, which means devs are loving it, and they're actually putting it to real work. You can download it on your system via DMG file, or you can use it in your CLI, which is what I'm going to do here. Since I already have it ready to go here, I made a shell file that's going to run through some of these scenarios for us. It's going to do some basic transcription, multi-level outputs with text and BTT files, word level timestamps, and JSON outputs. I'm going to give it a Theo von podcast, which is just shy of 1 hour in length. Okay, let me run it. This did take a few minutes, but to go through them all, but this output here is still quite good. Here you can see the basic translation file that shows all the spoken text. Next, we have these timestamps for sentences, which is super cool. But not only do we have the sentence timestamps, I also generated a wordbyword timestamp. That is really nice. At least for me, this is really useful as this was rather quick for audio length. And not to mention, it was free. The last one I'm going to run via CLI for you guys is a French audio file. We can run this here and get an English translation of the file. I could specify my input and output languages. So, it's not just for English and vice versa. And look at this clean output of the French audio for us in English. There is no UI as I did all this via my terminal. But if you did want an alternative option, then you could use the UI that's going to look a little something like this. Here you can see all the files that I've ran in my CLI in this interface. And I can also upload directly to this and get an output with transcription. When I click the file, it shows the transcription and the timestamps for us right in this UI. All in all, both of these are super nice features, and it's made it a lot easier for transcription and translation. All right. Now, besides that, why does this even matter? Well, if you're tired of slow, pricey tools, or you're worried about data leaks, bugs, solves a lot of these pain points. It may just cut costs and keep your info private, giving you that win that you've been looking for. It's free. No more payments for this. I'll start with the good because there is a lot of good here. Privacy with Buzz seems to be pretty huge. Everything stays local. No uploads, no API keys needed. You expect to pay for fees on this, but no, not here. It's absolutely free after you download these models. If you got a GPU, then it has files making multil- language transcriptions quick. And that CLI tool, you can drop right into your Python scripts. These are nice. So, you're probably thinking it'll be lightweight, but that is actually a core drawback here. It's not. Those models are massive, eating gigabytes of space. If you don't have a GPU, then it falls back to your CPU. So, you can expect some slowness here. The setup can be somewhat tedious with drivers and things. If you've tinkered with local ML projects before, you get this hassle. Now, how does Buzz actually pull this off? Well, since Whisper is the core of all this, Buzz wraps it with faster backends to speed all this up. audio gets cleaned and normalized first, then it runs through the model, spits it out in the format you want. Why care? Well, if you're frustrated with all these tools, this saves you time and some money by also allowing you to customize some things. For example, your shell files or even your Python integrations. You could integrate this with Python and use this transcription. Now, is Buzz for you? It might be. If privacy headaches or setup fees bug you and you want fast offline transcription with customization options, it's awesome, right? But if you want those cloud perfected tools or you don't have enough space on your system with that GPU, it might not be the right tool, right? That's going to be huge on your system. It's going to slow things down. So check out the repo, give it a shot if you're into transcription and audio, and let us know what you think. We'll see you in another",
+  "fetchedAt": "2026-01-18T18:31:28.184Z"
+}

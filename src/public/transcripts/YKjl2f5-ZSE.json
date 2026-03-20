@@ -1,0 +1,694 @@
+{
+  "videoId": "YKjl2f5-ZSE",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.839,
+      "text": "This is Canata, an open- source tool"
+    },
+    {
+      "start": 2,
+      "duration": 3.68,
+      "text": "that maximizes your keyboard's potential"
+    },
+    {
+      "start": 3.919,
+      "duration": 3.521,
+      "text": "by doing things like registering a"
+    },
+    {
+      "start": 5.68,
+      "duration": 3.999,
+      "text": "different key when it's tapped versus"
+    },
+    {
+      "start": 7.44,
+      "duration": 3.92,
+      "text": "when it's held. Using one key to trigger"
+    },
+    {
+      "start": 9.679,
+      "duration": 2.88,
+      "text": "multiple key presses or having different"
+    },
+    {
+      "start": 11.36,
+      "duration": 2.48,
+      "text": "layers for different custom key"
+    },
+    {
+      "start": 12.559,
+      "duration": 3.361,
+      "text": "mappings, which is great for someone"
+    },
+    {
+      "start": 13.84,
+      "duration": 3.92,
+      "text": "like me who tries their best to mainly"
+    },
+    {
+      "start": 15.92,
+      "duration": 4.16,
+      "text": "use the keyboard. But what's with the"
+    },
+    {
+      "start": 17.76,
+      "duration": 4.72,
+      "text": "weird configuration syntax? And why"
+    },
+    {
+      "start": 20.08,
+      "duration": 4.64,
+      "text": "would I use this instead of carabiner or"
+    },
+    {
+      "start": 22.48,
+      "duration": 5.039,
+      "text": "another tool that begins with K? Hit"
+    },
+    {
+      "start": 24.72,
+      "duration": 5.04,
+      "text": "subscribe and let's get into it."
+    },
+    {
+      "start": 27.519,
+      "duration": 4.72,
+      "text": "Kannata is the indigenous Iracoin name"
+    },
+    {
+      "start": 29.76,
+      "duration": 4.639,
+      "text": "for village which has nothing to do with"
+    },
+    {
+      "start": 32.239,
+      "duration": 4,
+      "text": "keyboards at all. But if you're into"
+    },
+    {
+      "start": 34.399,
+      "duration": 3.84,
+      "text": "mechanical keyboards like me, you may"
+    },
+    {
+      "start": 36.239,
+      "duration": 3.681,
+      "text": "have heard of QMK, a popular open-"
+    },
+    {
+      "start": 38.239,
+      "duration": 3.601,
+      "text": "source keyboard firmware which allows"
+    },
+    {
+      "start": 39.92,
+      "duration": 3.76,
+      "text": "you to remap keys on the keyboard before"
+    },
+    {
+      "start": 41.84,
+      "duration": 4.239,
+      "text": "it's sent to your machine. Canata is"
+    },
+    {
+      "start": 43.68,
+      "duration": 4.64,
+      "text": "like QMK but works on the software"
+    },
+    {
+      "start": 46.079,
+      "duration": 3.761,
+      "text": "level. So it supports all keyboards,"
+    },
+    {
+      "start": 48.32,
+      "duration": 3.28,
+      "text": "even the one for your laptop. And"
+    },
+    {
+      "start": 49.84,
+      "duration": 3.92,
+      "text": "because it's written in Rust, this means"
+    },
+    {
+      "start": 51.6,
+      "duration": 4.4,
+      "text": "it's fast and there isn't really much of"
+    },
+    {
+      "start": 53.76,
+      "duration": 4,
+      "text": "a delay when typing on your keyboard."
+    },
+    {
+      "start": 56,
+      "duration": 4,
+      "text": "But it's not that straightforward to set"
+    },
+    {
+      "start": 57.76,
+      "duration": 4.24,
+      "text": "up because after installing Canata with"
+    },
+    {
+      "start": 60,
+      "duration": 3.6,
+      "text": "Carabina for Mac, I'll talk more about"
+    },
+    {
+      "start": 62,
+      "duration": 3.68,
+      "text": "that later, you need to write a"
+    },
+    {
+      "start": 63.6,
+      "duration": 4.48,
+      "text": "configuration file using this s"
+    },
+    {
+      "start": 65.68,
+      "duration": 4.4,
+      "text": "expression syntax inspired by lisp,"
+    },
+    {
+      "start": 68.08,
+      "duration": 4,
+      "text": "which is the weirdest configuration"
+    },
+    {
+      "start": 70.08,
+      "duration": 4.16,
+      "text": "syntax I have ever seen because instead"
+    },
+    {
+      "start": 72.08,
+      "duration": 4.399,
+      "text": "of writing a function name outside of"
+    },
+    {
+      "start": 74.24,
+      "duration": 4.239,
+      "text": "the parenthesis, as you'd expect for"
+    },
+    {
+      "start": 76.479,
+      "duration": 4.801,
+      "text": "this configuration file, you write it"
+    },
+    {
+      "start": 78.479,
+      "duration": 4.64,
+      "text": "inside the parentheses right next to the"
+    },
+    {
+      "start": 81.28,
+      "duration": 3.76,
+      "text": "arguments. But things get even weirder"
+    },
+    {
+      "start": 83.119,
+      "duration": 3.761,
+      "text": "when you start nesting functions, which"
+    },
+    {
+      "start": 85.04,
+      "duration": 3.439,
+      "text": "is quite common in the configuration"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.36,
+      "text": "because instead of course of having"
+    },
+    {
+      "start": 88.479,
+      "duration": 4.081,
+      "text": "these function names outside of"
+    },
+    {
+      "start": 90.24,
+      "duration": 4,
+      "text": "parenthesis, everything is inside,"
+    },
+    {
+      "start": 92.56,
+      "duration": 3.76,
+      "text": "making it look a bit difficult to"
+    },
+    {
+      "start": 94.24,
+      "duration": 4.239,
+      "text": "understand at first, but you get used to"
+    },
+    {
+      "start": 96.32,
+      "duration": 4.479,
+      "text": "it after a while. So, as a simple keymap"
+    },
+    {
+      "start": 98.479,
+      "duration": 4.721,
+      "text": "example, let's say I wanted the A key to"
+    },
+    {
+      "start": 100.799,
+      "duration": 4.561,
+      "text": "map to X. I can do this with a def"
+    },
+    {
+      "start": 103.2,
+      "duration": 4.48,
+      "text": "source function to specify source keys"
+    },
+    {
+      "start": 105.36,
+      "duration": 4.56,
+      "text": "with an argument of A and at least one"
+    },
+    {
+      "start": 107.68,
+      "duration": 4.479,
+      "text": "def layer function to specify the output"
+    },
+    {
+      "start": 109.92,
+      "duration": 4.8,
+      "text": "keys. I'll give this a name of base and"
+    },
+    {
+      "start": 112.159,
+      "duration": 4.64,
+      "text": "an argument of X. Any key that isn't"
+    },
+    {
+      "start": 114.72,
+      "duration": 4.16,
+      "text": "listed in the configuration file behaves"
+    },
+    {
+      "start": 116.799,
+      "duration": 4.801,
+      "text": "as normal. So adding more keys like B"
+    },
+    {
+      "start": 118.88,
+      "duration": 4.64,
+      "text": "and C and mapping them to X and Z looks"
+    },
+    {
+      "start": 121.6,
+      "duration": 3.92,
+      "text": "like this. Luckily, white spaces and"
+    },
+    {
+      "start": 123.52,
+      "duration": 4.239,
+      "text": "tabs are insignificant. So you can space"
+    },
+    {
+      "start": 125.52,
+      "duration": 3.92,
+      "text": "out the keys to make them as readable as"
+    },
+    {
+      "start": 127.759,
+      "duration": 3.681,
+      "text": "you want. A few more cool things you can"
+    },
+    {
+      "start": 129.44,
+      "duration": 4.24,
+      "text": "do with this configuration file. I could"
+    },
+    {
+      "start": 131.44,
+      "duration": 4.48,
+      "text": "configure tap hold so tapping onto it"
+    },
+    {
+      "start": 133.68,
+      "duration": 4.72,
+      "text": "does one action and holding does another"
+    },
+    {
+      "start": 135.92,
+      "duration": 4.56,
+      "text": "with a tap hold timeout and then add the"
+    },
+    {
+      "start": 138.4,
+      "duration": 4.08,
+      "text": "keys I want it to map to. So in this"
+    },
+    {
+      "start": 140.48,
+      "duration": 3.68,
+      "text": "case, tapping A will register X and"
+    },
+    {
+      "start": 142.48,
+      "duration": 3.36,
+      "text": "holding on to it will register left"
+    },
+    {
+      "start": 144.16,
+      "duration": 3.84,
+      "text": "shift. To make things easier, I could"
+    },
+    {
+      "start": 145.84,
+      "duration": 4.16,
+      "text": "add a def var function to register some"
+    },
+    {
+      "start": 148,
+      "duration": 3.92,
+      "text": "variables I use multiple times in the"
+    },
+    {
+      "start": 150,
+      "duration": 3.76,
+      "text": "configuration and reference them with a"
+    },
+    {
+      "start": 151.92,
+      "duration": 3.92,
+      "text": "dollar sign, which is perfect for home"
+    },
+    {
+      "start": 153.76,
+      "duration": 3.92,
+      "text": "row mods matching the home keys to the"
+    },
+    {
+      "start": 155.84,
+      "duration": 3.759,
+      "text": "four common modifiers. To be honest,"
+    },
+    {
+      "start": 157.68,
+      "duration": 3.279,
+      "text": "this seems really weird at first, but I"
+    },
+    {
+      "start": 159.599,
+      "duration": 3.201,
+      "text": "really got used to it, and I can't"
+    },
+    {
+      "start": 160.959,
+      "duration": 3.841,
+      "text": "imagine using a keyboard any other way."
+    },
+    {
+      "start": 162.8,
+      "duration": 4.4,
+      "text": "I could also create a new deaf layer"
+    },
+    {
+      "start": 164.8,
+      "duration": 4.32,
+      "text": "with a new name like editor and use it"
+    },
+    {
+      "start": 167.2,
+      "duration": 4.24,
+      "text": "specifically for editing videos. So I"
+    },
+    {
+      "start": 169.12,
+      "duration": 4.399,
+      "text": "can give it a whole new set of key maps"
+    },
+    {
+      "start": 171.44,
+      "duration": 4.159,
+      "text": "and switch to this layer by having a"
+    },
+    {
+      "start": 173.519,
+      "duration": 3.681,
+      "text": "layer switch key. And if you want to do"
+    },
+    {
+      "start": 175.599,
+      "duration": 3.201,
+      "text": "something really cool when it comes to"
+    },
+    {
+      "start": 177.2,
+      "duration": 4.8,
+      "text": "switching layers or anything else, you"
+    },
+    {
+      "start": 178.8,
+      "duration": 5.04,
+      "text": "could enable TCP server so that other"
+    },
+    {
+      "start": 182,
+      "duration": 3.76,
+      "text": "applications can listen to it. So in my"
+    },
+    {
+      "start": 183.84,
+      "duration": 4.319,
+      "text": "case, I have Sketchy Bar listening to"
+    },
+    {
+      "start": 185.76,
+      "duration": 4.88,
+      "text": "Canata so that when I change layers, it"
+    },
+    {
+      "start": 188.159,
+      "duration": 4,
+      "text": "displays at the top of my desktop. Yes,"
+    },
+    {
+      "start": 190.64,
+      "duration": 3.599,
+      "text": "it did take writing a lot of"
+    },
+    {
+      "start": 192.159,
+      "duration": 4.481,
+      "text": "configuration to get to this stage, but"
+    },
+    {
+      "start": 194.239,
+      "duration": 4.64,
+      "text": "it's nothing AI can't help with. Anyway,"
+    },
+    {
+      "start": 196.64,
+      "duration": 4.8,
+      "text": "as cool as this is, why would somebody"
+    },
+    {
+      "start": 198.879,
+      "duration": 4.64,
+      "text": "use Canata over Carabina elements?"
+    },
+    {
+      "start": 201.44,
+      "duration": 4.079,
+      "text": "Considering it can do everything Canata"
+    },
+    {
+      "start": 203.519,
+      "duration": 4.161,
+      "text": "can do and much more, like using"
+    },
+    {
+      "start": 205.519,
+      "duration": 4,
+      "text": "application and keyboard specific key"
+    },
+    {
+      "start": 207.68,
+      "duration": 3.919,
+      "text": "mappingss, testing keys with a very"
+    },
+    {
+      "start": 209.519,
+      "duration": 3.841,
+      "text": "intuitive event viewer, and it has a"
+    },
+    {
+      "start": 211.599,
+      "duration": 3.041,
+      "text": "nice graphical interface for those who"
+    },
+    {
+      "start": 213.36,
+      "duration": 3.68,
+      "text": "don't like running commands in the"
+    },
+    {
+      "start": 214.64,
+      "duration": 4.879,
+      "text": "terminal. But for me, Carabina's tap"
+    },
+    {
+      "start": 217.04,
+      "duration": 4.479,
+      "text": "hold feature, so for home row mods, was"
+    },
+    {
+      "start": 219.519,
+      "duration": 4.401,
+      "text": "severely lacking. It took a lot of"
+    },
+    {
+      "start": 221.519,
+      "duration": 4.321,
+      "text": "research and a lot of configuration to"
+    },
+    {
+      "start": 223.92,
+      "duration": 3.76,
+      "text": "get to the stage where I got it working."
+    },
+    {
+      "start": 225.84,
+      "duration": 3.92,
+      "text": "And even when I did get it working, it"
+    },
+    {
+      "start": 227.68,
+      "duration": 4.4,
+      "text": "wasn't as intuitive as Kata. It"
+    },
+    {
+      "start": 229.76,
+      "duration": 4.479,
+      "text": "regularly registered holds as taps."
+    },
+    {
+      "start": 232.08,
+      "duration": 4.239,
+      "text": "Kannata, however, handled this feature"
+    },
+    {
+      "start": 234.239,
+      "duration": 3.92,
+      "text": "perfectly out of the box without any"
+    },
+    {
+      "start": 236.319,
+      "duration": 4.161,
+      "text": "tweaking, and I haven't felt the need to"
+    },
+    {
+      "start": 238.159,
+      "duration": 4.401,
+      "text": "go back to Carabina Elements. So, if you"
+    },
+    {
+      "start": 240.48,
+      "duration": 4.56,
+      "text": "really want home row mods, I'd suggest"
+    },
+    {
+      "start": 242.56,
+      "duration": 4,
+      "text": "using Canata. But that doesn't mean it's"
+    },
+    {
+      "start": 245.04,
+      "duration": 2.96,
+      "text": "perfect. You'll need multiple"
+    },
+    {
+      "start": 246.56,
+      "duration": 3.039,
+      "text": "configuration files for different"
+    },
+    {
+      "start": 248,
+      "duration": 3.599,
+      "text": "keyboards. If you have different key"
+    },
+    {
+      "start": 249.599,
+      "duration": 3.84,
+      "text": "maps, which is a bit annoying if you"
+    },
+    {
+      "start": 251.599,
+      "duration": 3.92,
+      "text": "unplug a keyboard because you have to"
+    },
+    {
+      "start": 253.439,
+      "duration": 4.08,
+      "text": "run a command to switch to that key"
+    },
+    {
+      "start": 255.519,
+      "duration": 4.24,
+      "text": "mapping. I couldn't find a way to remap"
+    },
+    {
+      "start": 257.519,
+      "duration": 4,
+      "text": "the play pause button to F8 on my"
+    },
+    {
+      "start": 259.759,
+      "duration": 3.761,
+      "text": "keyboard, which is something I was able"
+    },
+    {
+      "start": 261.519,
+      "duration": 3.841,
+      "text": "to do with Carabina and it took a few"
+    },
+    {
+      "start": 263.52,
+      "duration": 4.32,
+      "text": "tweaks to get Canata working with the"
+    },
+    {
+      "start": 265.36,
+      "duration": 4.399,
+      "text": "MXM mouse. Luckily, I've been able to"
+    },
+    {
+      "start": 267.84,
+      "duration": 4,
+      "text": "vibe code solutions to most of these"
+    },
+    {
+      "start": 269.759,
+      "duration": 3.921,
+      "text": "issues, which I may open source in the"
+    },
+    {
+      "start": 271.84,
+      "duration": 4.24,
+      "text": "future. But I really wish Kannata had a"
+    },
+    {
+      "start": 273.68,
+      "duration": 4.16,
+      "text": "bigger community, which this video could"
+    },
+    {
+      "start": 276.08,
+      "duration": 4.96,
+      "text": "help do if more people share it with"
+    },
+    {
+      "start": 277.84,
+      "duration": 3.2,
+      "text": "their friends and colleagues,"
+    }
+  ],
+  "fullText": "This is Canata, an open- source tool that maximizes your keyboard's potential by doing things like registering a different key when it's tapped versus when it's held. Using one key to trigger multiple key presses or having different layers for different custom key mappings, which is great for someone like me who tries their best to mainly use the keyboard. But what's with the weird configuration syntax? And why would I use this instead of carabiner or another tool that begins with K? Hit subscribe and let's get into it. Kannata is the indigenous Iracoin name for village which has nothing to do with keyboards at all. But if you're into mechanical keyboards like me, you may have heard of QMK, a popular open- source keyboard firmware which allows you to remap keys on the keyboard before it's sent to your machine. Canata is like QMK but works on the software level. So it supports all keyboards, even the one for your laptop. And because it's written in Rust, this means it's fast and there isn't really much of a delay when typing on your keyboard. But it's not that straightforward to set up because after installing Canata with Carabina for Mac, I'll talk more about that later, you need to write a configuration file using this s expression syntax inspired by lisp, which is the weirdest configuration syntax I have ever seen because instead of writing a function name outside of the parenthesis, as you'd expect for this configuration file, you write it inside the parentheses right next to the arguments. But things get even weirder when you start nesting functions, which is quite common in the configuration because instead of course of having these function names outside of parenthesis, everything is inside, making it look a bit difficult to understand at first, but you get used to it after a while. So, as a simple keymap example, let's say I wanted the A key to map to X. I can do this with a def source function to specify source keys with an argument of A and at least one def layer function to specify the output keys. I'll give this a name of base and an argument of X. Any key that isn't listed in the configuration file behaves as normal. So adding more keys like B and C and mapping them to X and Z looks like this. Luckily, white spaces and tabs are insignificant. So you can space out the keys to make them as readable as you want. A few more cool things you can do with this configuration file. I could configure tap hold so tapping onto it does one action and holding does another with a tap hold timeout and then add the keys I want it to map to. So in this case, tapping A will register X and holding on to it will register left shift. To make things easier, I could add a def var function to register some variables I use multiple times in the configuration and reference them with a dollar sign, which is perfect for home row mods matching the home keys to the four common modifiers. To be honest, this seems really weird at first, but I really got used to it, and I can't imagine using a keyboard any other way. I could also create a new deaf layer with a new name like editor and use it specifically for editing videos. So I can give it a whole new set of key maps and switch to this layer by having a layer switch key. And if you want to do something really cool when it comes to switching layers or anything else, you could enable TCP server so that other applications can listen to it. So in my case, I have Sketchy Bar listening to Canata so that when I change layers, it displays at the top of my desktop. Yes, it did take writing a lot of configuration to get to this stage, but it's nothing AI can't help with. Anyway, as cool as this is, why would somebody use Canata over Carabina elements? Considering it can do everything Canata can do and much more, like using application and keyboard specific key mappingss, testing keys with a very intuitive event viewer, and it has a nice graphical interface for those who don't like running commands in the terminal. But for me, Carabina's tap hold feature, so for home row mods, was severely lacking. It took a lot of research and a lot of configuration to get to the stage where I got it working. And even when I did get it working, it wasn't as intuitive as Kata. It regularly registered holds as taps. Kannata, however, handled this feature perfectly out of the box without any tweaking, and I haven't felt the need to go back to Carabina Elements. So, if you really want home row mods, I'd suggest using Canata. But that doesn't mean it's perfect. You'll need multiple configuration files for different keyboards. If you have different key maps, which is a bit annoying if you unplug a keyboard because you have to run a command to switch to that key mapping. I couldn't find a way to remap the play pause button to F8 on my keyboard, which is something I was able to do with Carabina and it took a few tweaks to get Canata working with the MXM mouse. Luckily, I've been able to vibe code solutions to most of these issues, which I may open source in the future. But I really wish Kannata had a bigger community, which this video could help do if more people share it with their friends and colleagues,",
+  "fetchedAt": "2026-01-20T16:59:55.352Z"
+}

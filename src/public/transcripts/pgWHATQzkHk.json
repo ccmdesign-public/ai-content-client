@@ -1,0 +1,679 @@
+{
+  "videoId": "pgWHATQzkHk",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.48,
+      "duration": 4.48,
+      "text": "Meet Plane, a free open-source project"
+    },
+    {
+      "start": 2.879,
+      "duration": 4.241,
+      "text": "management tool that's growing a lot and"
+    },
+    {
+      "start": 4.96,
+      "duration": 4.16,
+      "text": "fast, especially on GitHub. If you're"
+    },
+    {
+      "start": 7.12,
+      "duration": 4.08,
+      "text": "sick of Jira and Linear, this might be"
+    },
+    {
+      "start": 9.12,
+      "duration": 3.519,
+      "text": "the alternative us devs need. It's"
+    },
+    {
+      "start": 11.2,
+      "duration": 3.2,
+      "text": "pretty neat, but it lacks in certain"
+    },
+    {
+      "start": 12.639,
+      "duration": 3.921,
+      "text": "areas, too. But here's the thing. The"
+    },
+    {
+      "start": 14.4,
+      "duration": 4.48,
+      "text": "tool that actually feels most modern is"
+    },
+    {
+      "start": 16.56,
+      "duration": 4.479,
+      "text": "often the one you can run yourself. You"
+    },
+    {
+      "start": 18.88,
+      "duration": 3.76,
+      "text": "can self-host plane in minutes, add AI"
+    },
+    {
+      "start": 21.039,
+      "duration": 3.361,
+      "text": "when needed, and hopefully quit paying"
+    },
+    {
+      "start": 22.64,
+      "duration": 3.92,
+      "text": "those monthly fees. We have videos"
+    },
+    {
+      "start": 24.4,
+      "duration": 3.765,
+      "text": "coming out all the time. Be sure to"
+    },
+    {
+      "start": 26.56,
+      "duration": 3.625,
+      "text": "subscribe."
+    },
+    {
+      "start": 28.165,
+      "duration": 2.02,
+      "text": "[music]"
+    },
+    {
+      "start": 32.239,
+      "duration": 4.641,
+      "text": "You can think Jira meets linear, but the"
+    },
+    {
+      "start": 34.64,
+      "duration": 4.32,
+      "text": "experience seems a lot simpler. It's"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.6,
+      "text": "open- source. It's self-hostable, and I"
+    },
+    {
+      "start": 38.96,
+      "duration": 3.919,
+      "text": "actually had a lot of fun experimenting"
+    },
+    {
+      "start": 40.48,
+      "duration": 4.72,
+      "text": "with it. This matters to you if you're"
+    },
+    {
+      "start": 42.879,
+      "duration": 3.84,
+      "text": "losing time to process meetings and tool"
+    },
+    {
+      "start": 45.2,
+      "duration": 4.08,
+      "text": "friction. Now, let's start with"
+    },
+    {
+      "start": 46.719,
+      "duration": 4.961,
+      "text": "self-hosting. We can make a folder, and"
+    },
+    {
+      "start": 49.28,
+      "duration": 4.64,
+      "text": "we're going to CD into that. I'll run a"
+    },
+    {
+      "start": 51.68,
+      "duration": 4.96,
+      "text": "curl and I'll get the repo, then run the"
+    },
+    {
+      "start": 53.92,
+      "duration": 4.72,
+      "text": "setup shell file. Make sure docker is"
+    },
+    {
+      "start": 56.64,
+      "duration": 4.16,
+      "text": "open running in the background. The"
+    },
+    {
+      "start": 58.64,
+      "duration": 5.04,
+      "text": "setup is a few commands here where I'll"
+    },
+    {
+      "start": 60.8,
+      "duration": 5.359,
+      "text": "run install then cd into the folder"
+    },
+    {
+      "start": 63.68,
+      "duration": 4.96,
+      "text": "plain app. I can run nano and add some"
+    },
+    {
+      "start": 66.159,
+      "duration": 4.401,
+      "text": "basic config settings like my port urls"
+    },
+    {
+      "start": 68.64,
+      "duration": 3.6,
+      "text": "course origin. All of these are really"
+    },
+    {
+      "start": 70.56,
+      "duration": 3.76,
+      "text": "important for it to get going. I'm going"
+    },
+    {
+      "start": 72.24,
+      "duration": 5.76,
+      "text": "to cd back and then run the shell file"
+    },
+    {
+      "start": 74.32,
+      "duration": 5.439,
+      "text": "again. That's it. No kubernetes unless"
+    },
+    {
+      "start": 78,
+      "duration": 3.119,
+      "text": "of course you want to go that route cuz"
+    },
+    {
+      "start": 79.759,
+      "duration": 3.281,
+      "text": "they have it. And I did all this in"
+    },
+    {
+      "start": 81.119,
+      "duration": 4.241,
+      "text": "under two minutes. plane is now running"
+    },
+    {
+      "start": 83.04,
+      "duration": 4.32,
+      "text": "locally and that changes things because"
+    },
+    {
+      "start": 85.36,
+      "duration": 4.799,
+      "text": "you get full data ownership and you can"
+    },
+    {
+      "start": 87.36,
+      "duration": 6,
+      "text": "do air gap deployments and yes it scales"
+    },
+    {
+      "start": 90.159,
+      "duration": 5.201,
+      "text": "from solo dev to thousands of users now"
+    },
+    {
+      "start": 93.36,
+      "duration": 4.64,
+      "text": "creating new issues well it felt pretty"
+    },
+    {
+      "start": 95.36,
+      "duration": 4.719,
+      "text": "good you've got fields for detailed"
+    },
+    {
+      "start": 98,
+      "duration": 4.079,
+      "text": "descriptions so dependencies custom"
+    },
+    {
+      "start": 100.079,
+      "duration": 4.161,
+      "text": "properties all these labels we can drop"
+    },
+    {
+      "start": 102.079,
+      "duration": 4.241,
+      "text": "in and you can build workflows that"
+    },
+    {
+      "start": 104.24,
+      "duration": 4,
+      "text": "actually match how you work without"
+    },
+    {
+      "start": 106.32,
+      "duration": 4,
+      "text": "getting lost in some kind of Jira"
+    },
+    {
+      "start": 108.24,
+      "duration": 3.68,
+      "text": "configuration mess now the views feel"
+    },
+    {
+      "start": 110.32,
+      "duration": 3.36,
+      "text": "instant filters were sharable able."
+    },
+    {
+      "start": 111.92,
+      "duration": 3.519,
+      "text": "Everything just felt fast. I feel like"
+    },
+    {
+      "start": 113.68,
+      "duration": 3.439,
+      "text": "this is what dev first is supposed to"
+    },
+    {
+      "start": 115.439,
+      "duration": 3.601,
+      "text": "feel like. And the next part is where it"
+    },
+    {
+      "start": 117.119,
+      "duration": 4.64,
+      "text": "stops being nice and it starts being all"
+    },
+    {
+      "start": 119.04,
+      "duration": 5.52,
+      "text": "right. This is pretty cool. Plane has AI"
+    },
+    {
+      "start": 121.759,
+      "duration": 5.601,
+      "text": "built directly into your workspace. I"
+    },
+    {
+      "start": 124.56,
+      "duration": 5.44,
+      "text": "just need to get my open AI API key."
+    },
+    {
+      "start": 127.36,
+      "duration": 4.56,
+      "text": "Drop it in the AI tab here and hit save."
+    },
+    {
+      "start": 130,
+      "duration": 3.84,
+      "text": "I can now literally ask questions like"
+    },
+    {
+      "start": 131.92,
+      "duration": 3.76,
+      "text": "summarize the work and blockers. It's"
+    },
+    {
+      "start": 133.84,
+      "duration": 3.6,
+      "text": "going to scan issues, cycles, docs, and"
+    },
+    {
+      "start": 135.68,
+      "duration": 4.32,
+      "text": "dependencies. Then it gives you a clear"
+    },
+    {
+      "start": 137.44,
+      "duration": 4.64,
+      "text": "summary as a page output within the"
+    },
+    {
+      "start": 140,
+      "duration": 4.72,
+      "text": "platform. Now, this only works on the"
+    },
+    {
+      "start": 142.08,
+      "duration": 4.879,
+      "text": "cloud version, which is still free to an"
+    },
+    {
+      "start": 144.72,
+      "duration": 4.239,
+      "text": "extent, but if you wanted to do locally,"
+    },
+    {
+      "start": 146.959,
+      "duration": 3.681,
+      "text": "you need the commercial version. That is"
+    },
+    {
+      "start": 148.959,
+      "duration": 3.521,
+      "text": "honestly a bit of a drawback. Now,"
+    },
+    {
+      "start": 150.64,
+      "duration": 3.76,
+      "text": "self-hosting is free with Docker and"
+    },
+    {
+      "start": 152.48,
+      "duration": 4.16,
+      "text": "Kubernetes. Then, the cloud version is"
+    },
+    {
+      "start": 154.4,
+      "duration": 3.6,
+      "text": "also free to an extent with basic core"
+    },
+    {
+      "start": 156.64,
+      "duration": 3.04,
+      "text": "features, but you're limited to the"
+    },
+    {
+      "start": 158,
+      "duration": 3.519,
+      "text": "basics, and you only get a few hundred"
+    },
+    {
+      "start": 159.68,
+      "duration": 3.6,
+      "text": "AI credits from the start. But the part"
+    },
+    {
+      "start": 161.519,
+      "duration": 4.08,
+      "text": "that surprised me the most, it's not"
+    },
+    {
+      "start": 163.28,
+      "duration": 4.16,
+      "text": "just good for open source, it's actually"
+    },
+    {
+      "start": 165.599,
+      "duration": 3.681,
+      "text": "pretty fast. Here's what you get with"
+    },
+    {
+      "start": 167.44,
+      "duration": 4,
+      "text": "plane. You get issues, epics,"
+    },
+    {
+      "start": 169.28,
+      "duration": 4.4,
+      "text": "dependencies. We have cycles, which is"
+    },
+    {
+      "start": 171.44,
+      "duration": 4.079,
+      "text": "basically sprints with burndown charts,"
+    },
+    {
+      "start": 173.68,
+      "duration": 4,
+      "text": "modules for big projects. We have"
+    },
+    {
+      "start": 175.519,
+      "duration": 4.961,
+      "text": "real-time analytics, built-in docs and"
+    },
+    {
+      "start": 177.68,
+      "duration": 4.8,
+      "text": "wikis, and yes, AI is baked right into"
+    },
+    {
+      "start": 180.48,
+      "duration": 4.16,
+      "text": "the cloud version. If you're thinking,"
+    },
+    {
+      "start": 182.48,
+      "duration": 3.839,
+      "text": "okay, cool, but is this a real Jira"
+    },
+    {
+      "start": 184.64,
+      "duration": 3.679,
+      "text": "alternative? This is the stuff that"
+    },
+    {
+      "start": 186.319,
+      "duration": 4,
+      "text": "actually answers this. It's built with a"
+    },
+    {
+      "start": 188.319,
+      "duration": 3.761,
+      "text": "combination of React and TypeScript for"
+    },
+    {
+      "start": 190.319,
+      "duration": 4.081,
+      "text": "the front end, Django for the back end,"
+    },
+    {
+      "start": 192.08,
+      "duration": 4.239,
+      "text": "and then uses Postgress and Reddus. The"
+    },
+    {
+      "start": 194.4,
+      "duration": 3.919,
+      "text": "weird part is that the setup is easier"
+    },
+    {
+      "start": 196.319,
+      "duration": 3.601,
+      "text": "than some paid tools that I've used. But"
+    },
+    {
+      "start": 198.319,
+      "duration": 3.761,
+      "text": "I want you to know the good and the bad,"
+    },
+    {
+      "start": 199.92,
+      "duration": 3.92,
+      "text": "so it's clear here from the get-go. This"
+    },
+    {
+      "start": 202.08,
+      "duration": 4,
+      "text": "is great, but it's definitely not"
+    },
+    {
+      "start": 203.84,
+      "duration": 4.319,
+      "text": "perfect. Yeah, sure, it's free. It's"
+    },
+    {
+      "start": 206.08,
+      "duration": 3.76,
+      "text": "open source while being self-hosted, but"
+    },
+    {
+      "start": 208.159,
+      "duration": 3.841,
+      "text": "they lock a lot behind a payw wall,"
+    },
+    {
+      "start": 209.84,
+      "duration": 4.319,
+      "text": "which again is rather annoying. We still"
+    },
+    {
+      "start": 212,
+      "duration": 4.64,
+      "text": "get core features like projects, cycles,"
+    },
+    {
+      "start": 214.159,
+      "duration": 4.8,
+      "text": "views, pages, and basic analytics. There"
+    },
+    {
+      "start": 216.64,
+      "duration": 4.159,
+      "text": "is AI integration, which is nice, with a"
+    },
+    {
+      "start": 218.959,
+      "duration": 3.601,
+      "text": "pretty decent range of APIs that I"
+    },
+    {
+      "start": 220.799,
+      "duration": 4,
+      "text": "found. The thing that's frustrating here"
+    },
+    {
+      "start": 222.56,
+      "duration": 4.959,
+      "text": "is things like SSO is paid if you want"
+    },
+    {
+      "start": 224.799,
+      "duration": 4.961,
+      "text": "hosted and self-hosting assumes you're a"
+    },
+    {
+      "start": 227.519,
+      "duration": 4.241,
+      "text": "dev. There are fewer niche plugins than"
+    },
+    {
+      "start": 229.76,
+      "duration": 4.24,
+      "text": "Jira, so I want to see that change. But"
+    },
+    {
+      "start": 231.76,
+      "duration": 4.16,
+      "text": "if you're a small dev team or even solo,"
+    },
+    {
+      "start": 234,
+      "duration": 3.599,
+      "text": "the pros still feel pretty good. I love"
+    },
+    {
+      "start": 235.92,
+      "duration": 3.36,
+      "text": "open source tools for this reason."
+    },
+    {
+      "start": 237.599,
+      "duration": 4.241,
+      "text": "Playing against Jira, there's less"
+    },
+    {
+      "start": 239.28,
+      "duration": 4.959,
+      "text": "complexity, no config hell, and yeah, it"
+    },
+    {
+      "start": 241.84,
+      "duration": 4.16,
+      "text": "is mostly free. If we put it up against"
+    },
+    {
+      "start": 244.239,
+      "duration": 3.761,
+      "text": "Linear, then it's open- source,"
+    },
+    {
+      "start": 246,
+      "duration": 4.159,
+      "text": "self-hostable, and there's no per user"
+    },
+    {
+      "start": 248,
+      "duration": 4.08,
+      "text": "tax. with ClickUp or Monday. Those are"
+    },
+    {
+      "start": 250.159,
+      "duration": 3.681,
+      "text": "like these everything apps crammed into"
+    },
+    {
+      "start": 252.08,
+      "duration": 4.08,
+      "text": "one. So, it's not like that. And all"
+    },
+    {
+      "start": 253.84,
+      "duration": 4.56,
+      "text": "those other oss tools, plane just seems"
+    },
+    {
+      "start": 256.16,
+      "duration": 4.24,
+      "text": "to win on the modern UX and the AI"
+    },
+    {
+      "start": 258.4,
+      "duration": 3.92,
+      "text": "integration. This is not sponsored or"
+    },
+    {
+      "start": 260.4,
+      "duration": 3.84,
+      "text": "anything by them. I only plan on using"
+    },
+    {
+      "start": 262.32,
+      "duration": 3.68,
+      "text": "the open- source version, if anything at"
+    },
+    {
+      "start": 264.24,
+      "duration": 3.679,
+      "text": "all. If they start putting more behind a"
+    },
+    {
+      "start": 266,
+      "duration": 3.84,
+      "text": "payw wall, I think it's time that I'll"
+    },
+    {
+      "start": 267.919,
+      "duration": 3.521,
+      "text": "be pulling the plug. If you like these"
+    },
+    {
+      "start": 269.84,
+      "duration": 3.6,
+      "text": "kind of tools, or maybe you just like"
+    },
+    {
+      "start": 271.44,
+      "duration": 3.92,
+      "text": "not being locked into subscriptions,"
+    },
+    {
+      "start": 273.44,
+      "duration": 3.759,
+      "text": "give it a try and spin it up. If you"
+    },
+    {
+      "start": 275.36,
+      "duration": 4,
+      "text": "like finding new tools to add to your"
+    },
+    {
+      "start": 277.199,
+      "duration": 5.201,
+      "text": "workflow, hit that like button and we'll"
+    },
+    {
+      "start": 279.36,
+      "duration": 3.04,
+      "text": "see you in another"
+    }
+  ],
+  "fullText": "Meet Plane, a free open-source project management tool that's growing a lot and fast, especially on GitHub. If you're sick of Jira and Linear, this might be the alternative us devs need. It's pretty neat, but it lacks in certain areas, too. But here's the thing. The tool that actually feels most modern is often the one you can run yourself. You can self-host plane in minutes, add AI when needed, and hopefully quit paying those monthly fees. We have videos coming out all the time. Be sure to subscribe. [music] You can think Jira meets linear, but the experience seems a lot simpler. It's open- source. It's self-hostable, and I actually had a lot of fun experimenting with it. This matters to you if you're losing time to process meetings and tool friction. Now, let's start with self-hosting. We can make a folder, and we're going to CD into that. I'll run a curl and I'll get the repo, then run the setup shell file. Make sure docker is open running in the background. The setup is a few commands here where I'll run install then cd into the folder plain app. I can run nano and add some basic config settings like my port urls course origin. All of these are really important for it to get going. I'm going to cd back and then run the shell file again. That's it. No kubernetes unless of course you want to go that route cuz they have it. And I did all this in under two minutes. plane is now running locally and that changes things because you get full data ownership and you can do air gap deployments and yes it scales from solo dev to thousands of users now creating new issues well it felt pretty good you've got fields for detailed descriptions so dependencies custom properties all these labels we can drop in and you can build workflows that actually match how you work without getting lost in some kind of Jira configuration mess now the views feel instant filters were sharable able. Everything just felt fast. I feel like this is what dev first is supposed to feel like. And the next part is where it stops being nice and it starts being all right. This is pretty cool. Plane has AI built directly into your workspace. I just need to get my open AI API key. Drop it in the AI tab here and hit save. I can now literally ask questions like summarize the work and blockers. It's going to scan issues, cycles, docs, and dependencies. Then it gives you a clear summary as a page output within the platform. Now, this only works on the cloud version, which is still free to an extent, but if you wanted to do locally, you need the commercial version. That is honestly a bit of a drawback. Now, self-hosting is free with Docker and Kubernetes. Then, the cloud version is also free to an extent with basic core features, but you're limited to the basics, and you only get a few hundred AI credits from the start. But the part that surprised me the most, it's not just good for open source, it's actually pretty fast. Here's what you get with plane. You get issues, epics, dependencies. We have cycles, which is basically sprints with burndown charts, modules for big projects. We have real-time analytics, built-in docs and wikis, and yes, AI is baked right into the cloud version. If you're thinking, okay, cool, but is this a real Jira alternative? This is the stuff that actually answers this. It's built with a combination of React and TypeScript for the front end, Django for the back end, and then uses Postgress and Reddus. The weird part is that the setup is easier than some paid tools that I've used. But I want you to know the good and the bad, so it's clear here from the get-go. This is great, but it's definitely not perfect. Yeah, sure, it's free. It's open source while being self-hosted, but they lock a lot behind a payw wall, which again is rather annoying. We still get core features like projects, cycles, views, pages, and basic analytics. There is AI integration, which is nice, with a pretty decent range of APIs that I found. The thing that's frustrating here is things like SSO is paid if you want hosted and self-hosting assumes you're a dev. There are fewer niche plugins than Jira, so I want to see that change. But if you're a small dev team or even solo, the pros still feel pretty good. I love open source tools for this reason. Playing against Jira, there's less complexity, no config hell, and yeah, it is mostly free. If we put it up against Linear, then it's open- source, self-hostable, and there's no per user tax. with ClickUp or Monday. Those are like these everything apps crammed into one. So, it's not like that. And all those other oss tools, plane just seems to win on the modern UX and the AI integration. This is not sponsored or anything by them. I only plan on using the open- source version, if anything at all. If they start putting more behind a payw wall, I think it's time that I'll be pulling the plug. If you like these kind of tools, or maybe you just like not being locked into subscriptions, give it a try and spin it up. If you like finding new tools to add to your workflow, hit that like button and we'll see you in another",
+  "fetchedAt": "2026-01-18T18:34:18.328Z"
+}

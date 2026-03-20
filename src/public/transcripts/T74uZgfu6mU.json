@@ -1,0 +1,2504 @@
+{
+  "videoId": "T74uZgfu6mU",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 4.96,
+      "text": "Just picture this. You tell an AI agent"
+    },
+    {
+      "start": 2.48,
+      "duration": 4.48,
+      "text": "to clean up the old docs on your laptop."
+    },
+    {
+      "start": 5.04,
+      "duration": 3.84,
+      "text": "You've given it access to the folders."
+    },
+    {
+      "start": 6.96,
+      "duration": 4.16,
+      "text": "It should be able to do that job well."
+    },
+    {
+      "start": 8.88,
+      "duration": 4.16,
+      "text": "But it does exactly what you asked. And"
+    },
+    {
+      "start": 11.12,
+      "duration": 4.32,
+      "text": "that's the problem. It deletes"
+    },
+    {
+      "start": 13.04,
+      "duration": 3.44,
+      "text": "duplicates. It organizes. It even writes"
+    },
+    {
+      "start": 15.44,
+      "duration": 2.88,
+      "text": "a little summary of what it"
+    },
+    {
+      "start": 16.48,
+      "duration": 4.48,
+      "text": "accomplished. And then you discover it"
+    },
+    {
+      "start": 18.32,
+      "duration": 5.199,
+      "text": "removed the originals that you actually"
+    },
+    {
+      "start": 20.96,
+      "duration": 4.8,
+      "text": "needed. The model didn't hallucinate. It"
+    },
+    {
+      "start": 23.519,
+      "duration": 4,
+      "text": "didn't lack context. It did something"
+    },
+    {
+      "start": 25.76,
+      "duration": 3.359,
+      "text": "even worse than that. And that's what"
+    },
+    {
+      "start": 27.519,
+      "duration": 4.08,
+      "text": "we're going to talk about today. It took"
+    },
+    {
+      "start": 29.119,
+      "duration": 4.241,
+      "text": "a fuzzy human request. It guessed a"
+    },
+    {
+      "start": 31.599,
+      "duration": 3.761,
+      "text": "goal. It committed to it. And it"
+    },
+    {
+      "start": 33.36,
+      "duration": 4.8,
+      "text": "executed confidently without checking"
+    },
+    {
+      "start": 35.36,
+      "duration": 4.879,
+      "text": "back. In other words, it misread your"
+    },
+    {
+      "start": 38.16,
+      "duration": 4.239,
+      "text": "intent. And that is a surprisingly"
+    },
+    {
+      "start": 40.239,
+      "duration": 4.32,
+      "text": "common issue with models. That feeling"
+    },
+    {
+      "start": 42.399,
+      "duration": 4.64,
+      "text": "of being smart, of being fast, and of"
+    },
+    {
+      "start": 44.559,
+      "duration": 4.401,
+      "text": "being subtly wrong is not an edge case"
+    },
+    {
+      "start": 47.039,
+      "duration": 4,
+      "text": "these days. It's actually the center of"
+    },
+    {
+      "start": 48.96,
+      "duration": 5.52,
+      "text": "the agent problem. And that's why in"
+    },
+    {
+      "start": 51.039,
+      "duration": 5.281,
+      "text": "late 2025, early 2026, it feels like a"
+    },
+    {
+      "start": 54.48,
+      "duration": 3.68,
+      "text": "very strange moment. We're finally"
+    },
+    {
+      "start": 56.32,
+      "duration": 4.16,
+      "text": "getting a lot of the big pieces for"
+    },
+    {
+      "start": 58.16,
+      "duration": 3.919,
+      "text": "agents under control. We understand a"
+    },
+    {
+      "start": 60.48,
+      "duration": 3.28,
+      "text": "lot more about tool calling than we did"
+    },
+    {
+      "start": 62.079,
+      "duration": 3.841,
+      "text": "a year ago. We understand a lot about"
+    },
+    {
+      "start": 63.76,
+      "duration": 3.92,
+      "text": "agent orchestration. We understand a lot"
+    },
+    {
+      "start": 65.92,
+      "duration": 4.64,
+      "text": "about tracing, about evaluation"
+    },
+    {
+      "start": 67.68,
+      "duration": 6.32,
+      "text": "harnesses, about durable execution over"
+    },
+    {
+      "start": 70.56,
+      "duration": 5.599,
+      "text": "time. And yet, we keep face planting on"
+    },
+    {
+      "start": 74,
+      "duration": 5.28,
+      "text": "intent. We can now build systems that"
+    },
+    {
+      "start": 76.159,
+      "duration": 4.96,
+      "text": "act, but we have to put a ton of work"
+    },
+    {
+      "start": 79.28,
+      "duration": 5.36,
+      "text": "into making sure that they can reliably"
+    },
+    {
+      "start": 81.119,
+      "duration": 6.721,
+      "text": "act with the objective that we set them."
+    },
+    {
+      "start": 84.64,
+      "duration": 6.32,
+      "text": "And that is why when we are building our"
+    },
+    {
+      "start": 87.84,
+      "duration": 6.16,
+      "text": "tool calling system following agents, we"
+    },
+    {
+      "start": 90.96,
+      "duration": 5.68,
+      "text": "still have to put a ton into getting the"
+    },
+    {
+      "start": 94,
+      "duration": 4.079,
+      "text": "intent defined through the prompt right."
+    },
+    {
+      "start": 96.64,
+      "duration": 3.439,
+      "text": "Have you ever stopped and asked yourself"
+    },
+    {
+      "start": 98.079,
+      "duration": 4,
+      "text": "why it's that hard? Here's here's the"
+    },
+    {
+      "start": 100.079,
+      "duration": 4.161,
+      "text": "root of why we're here. LLMs are"
+    },
+    {
+      "start": 102.079,
+      "duration": 5.04,
+      "text": "actually incredible at producing"
+    },
+    {
+      "start": 104.24,
+      "duration": 4.32,
+      "text": "plausible sounding continuations because"
+    },
+    {
+      "start": 107.119,
+      "duration": 2.881,
+      "text": "that's what they were really trained to"
+    },
+    {
+      "start": 108.56,
+      "duration": 3.28,
+      "text": "do. They were trained to predict the"
+    },
+    {
+      "start": 110,
+      "duration": 4.64,
+      "text": "next token. And so that training"
+    },
+    {
+      "start": 111.84,
+      "duration": 6.08,
+      "text": "objective creates a machine that is"
+    },
+    {
+      "start": 114.64,
+      "duration": 6.799,
+      "text": "really really good at an answershaped"
+    },
+    {
+      "start": 117.92,
+      "duration": 5.92,
+      "text": "text in a piece of text that sounds like"
+    },
+    {
+      "start": 121.439,
+      "duration": 4.561,
+      "text": "it should be right. And in pure chat"
+    },
+    {
+      "start": 123.84,
+      "duration": 4.16,
+      "text": "mode, the world is pretty forgiving of"
+    },
+    {
+      "start": 126,
+      "duration": 4.319,
+      "text": "that. If the model answers the wrong"
+    },
+    {
+      "start": 128,
+      "duration": 4.08,
+      "text": "thing, you just correct it. And in many"
+    },
+    {
+      "start": 130.319,
+      "duration": 3.681,
+      "text": "cases, it answers the right thing"
+    },
+    {
+      "start": 132.08,
+      "duration": 3.519,
+      "text": "because the answer shaped text is good"
+    },
+    {
+      "start": 134,
+      "duration": 3.44,
+      "text": "enough. In fact, one of the things that"
+    },
+    {
+      "start": 135.599,
+      "duration": 4,
+      "text": "has surprised me and almost everyone"
+    },
+    {
+      "start": 137.44,
+      "duration": 4.799,
+      "text": "else in the last two years is that this"
+    },
+    {
+      "start": 139.599,
+      "duration": 5.761,
+      "text": "whole idea of token generation turns out"
+    },
+    {
+      "start": 142.239,
+      "duration": 5.201,
+      "text": "to be incredibly practical, incredibly"
+    },
+    {
+      "start": 145.36,
+      "duration": 5.28,
+      "text": "realistic, incredibly useful at"
+    },
+    {
+      "start": 147.44,
+      "duration": 5.36,
+      "text": "producing real economic utility. And so"
+    },
+    {
+      "start": 150.64,
+      "duration": 4.16,
+      "text": "this video is not about challenging"
+    },
+    {
+      "start": 152.8,
+      "duration": 4.4,
+      "text": "that. We know that this whole idea of"
+    },
+    {
+      "start": 154.8,
+      "duration": 5.68,
+      "text": "token generation fundamentally works."
+    },
+    {
+      "start": 157.2,
+      "duration": 5.52,
+      "text": "What we are asking ourselves is what's"
+    },
+    {
+      "start": 160.48,
+      "duration": 5.119,
+      "text": "next when it comes to agents? How do we"
+    },
+    {
+      "start": 162.72,
+      "duration": 5.28,
+      "text": "start to get to intention in ways that"
+    },
+    {
+      "start": 165.599,
+      "duration": 5.201,
+      "text": "help us to build more reliable agentic"
+    },
+    {
+      "start": 168,
+      "duration": 4.72,
+      "text": "systems? Because in a chat, if the model"
+    },
+    {
+      "start": 170.8,
+      "duration": 3.76,
+      "text": "answers the wrong thing, well, you just"
+    },
+    {
+      "start": 172.72,
+      "duration": 3.84,
+      "text": "correct it. The conversation is"
+    },
+    {
+      "start": 174.56,
+      "duration": 4.319,
+      "text": "inherently reversible. You just yell at"
+    },
+    {
+      "start": 176.56,
+      "duration": 5.28,
+      "text": "it in the chat. But once you give the"
+    },
+    {
+      "start": 178.879,
+      "duration": 5.44,
+      "text": "model tools, files, email, calendars,"
+    },
+    {
+      "start": 181.84,
+      "duration": 4.64,
+      "text": "CRM code, maybe your credit card, the"
+    },
+    {
+      "start": 184.319,
+      "duration": 5.041,
+      "text": "cost of a wrong guess spikes up real"
+    },
+    {
+      "start": 186.48,
+      "duration": 5.679,
+      "text": "high. The tool use turns a fluent"
+    },
+    {
+      "start": 189.36,
+      "duration": 4.799,
+      "text": "completion into a realworld commitment"
+    },
+    {
+      "start": 192.159,
+      "duration": 4.72,
+      "text": "that the agent has made on your behalf."
+    },
+    {
+      "start": 194.159,
+      "duration": 4.881,
+      "text": "In a sense, it is writing to reality,"
+    },
+    {
+      "start": 196.879,
+      "duration": 3.841,
+      "text": "not just writing to the chat. That is an"
+    },
+    {
+      "start": 199.04,
+      "duration": 4.4,
+      "text": "inflection point that we're all living"
+    },
+    {
+      "start": 200.72,
+      "duration": 5.36,
+      "text": "through. And it makes intent and the"
+    },
+    {
+      "start": 203.44,
+      "duration": 4.799,
+      "text": "intent gap matter a lot more. And"
+    },
+    {
+      "start": 206.08,
+      "duration": 4.4,
+      "text": "everything else is going so well. People"
+    },
+    {
+      "start": 208.239,
+      "duration": 4.401,
+      "text": "are no longer handwaving how agents"
+    },
+    {
+      "start": 210.48,
+      "duration": 5.119,
+      "text": "work. They're actually able to build"
+    },
+    {
+      "start": 212.64,
+      "duration": 4.72,
+      "text": "them. You can see it in how eval emerged"
+    },
+    {
+      "start": 215.599,
+      "duration": 4.401,
+      "text": "as a first class discipline over the"
+    },
+    {
+      "start": 217.36,
+      "duration": 4.799,
+      "text": "last 6 months. You can see it in how"
+    },
+    {
+      "start": 220,
+      "duration": 5.2,
+      "text": "tools like Langchain and Langsmith have"
+    },
+    {
+      "start": 222.159,
+      "duration": 5.521,
+      "text": "evolved over the last year into full"
+    },
+    {
+      "start": 225.2,
+      "duration": 4,
+      "text": "stack traceable audit ready agent"
+    },
+    {
+      "start": 227.68,
+      "duration": 3.279,
+      "text": "building toolkits and they're not the"
+    },
+    {
+      "start": 229.2,
+      "duration": 5.039,
+      "text": "only ones. There's lots like Google has"
+    },
+    {
+      "start": 230.959,
+      "duration": 5.2,
+      "text": "their ADK. We are getting to a point"
+    },
+    {
+      "start": 234.239,
+      "duration": 4.401,
+      "text": "where we have so many parts of the"
+    },
+    {
+      "start": 236.159,
+      "duration": 5.041,
+      "text": "ecosystem in place to deploy agents"
+    },
+    {
+      "start": 238.64,
+      "duration": 4.799,
+      "text": "reliably, efficiently and at scale. So"
+    },
+    {
+      "start": 241.2,
+      "duration": 4.8,
+      "text": "why with all that progress are we still"
+    },
+    {
+      "start": 243.439,
+      "duration": 5.52,
+      "text": "wrestling with intent? Because intent is"
+    },
+    {
+      "start": 246,
+      "duration": 4.64,
+      "text": "not in the text the way context is. And"
+    },
+    {
+      "start": 248.959,
+      "duration": 4.56,
+      "text": "I'm going to say it again. Intent is not"
+    },
+    {
+      "start": 250.64,
+      "duration": 4.319,
+      "text": "in the text. Context is the literal"
+    },
+    {
+      "start": 253.519,
+      "duration": 3.601,
+      "text": "content that we put in when we do"
+    },
+    {
+      "start": 254.959,
+      "duration": 4.641,
+      "text": "context engineering. Entities,"
+    },
+    {
+      "start": 257.12,
+      "duration": 6.32,
+      "text": "constraints, instructions, facts that we"
+    },
+    {
+      "start": 259.6,
+      "duration": 5.92,
+      "text": "include. Intent is typically latent. It"
+    },
+    {
+      "start": 263.44,
+      "duration": 3.84,
+      "text": "is our priorities. It is our tradeoffs."
+    },
+    {
+      "start": 265.52,
+      "duration": 3.52,
+      "text": "It is what done looks like. It's what's"
+    },
+    {
+      "start": 267.28,
+      "duration": 4.16,
+      "text": "allowed, what's risky, and what to do"
+    },
+    {
+      "start": 269.04,
+      "duration": 4.48,
+      "text": "when instructions conflict. Whether you"
+    },
+    {
+      "start": 271.44,
+      "duration": 4,
+      "text": "want exploration from your agent or a"
+    },
+    {
+      "start": 273.52,
+      "duration": 4.32,
+      "text": "decision from your agent, what you'd"
+    },
+    {
+      "start": 275.44,
+      "duration": 5.12,
+      "text": "regret if the assistant guessed wrong."
+    },
+    {
+      "start": 277.84,
+      "duration": 5.359,
+      "text": "By the way, if some of this sounds like"
+    },
+    {
+      "start": 280.56,
+      "duration": 5.359,
+      "text": "a prompt that you should write, that's a"
+    },
+    {
+      "start": 283.199,
+      "duration": 5.361,
+      "text": "good instinct in 2026. We need to be"
+    },
+    {
+      "start": 285.919,
+      "duration": 4.961,
+      "text": "writing prompts for our agents that do"
+    },
+    {
+      "start": 288.56,
+      "duration": 4.72,
+      "text": "encode these things until we get intent"
+    },
+    {
+      "start": 290.88,
+      "duration": 5.68,
+      "text": "figured out. We need to be focusing on"
+    },
+    {
+      "start": 293.28,
+      "duration": 5.28,
+      "text": "making intent not hidden but super super"
+    },
+    {
+      "start": 296.56,
+      "duration": 4.4,
+      "text": "explicit, including all of those things"
+    },
+    {
+      "start": 298.56,
+      "duration": 5.359,
+      "text": "that we can typically leave other humans"
+    },
+    {
+      "start": 300.96,
+      "duration": 4.959,
+      "text": "to infer like our priorities. If we're"
+    },
+    {
+      "start": 303.919,
+      "duration": 4.961,
+      "text": "in a business meeting and we talk about"
+    },
+    {
+      "start": 305.919,
+      "duration": 4.401,
+      "text": "priorities, we are typically saying the"
+    },
+    {
+      "start": 308.88,
+      "duration": 3.28,
+      "text": "thing that needs to be said in the"
+    },
+    {
+      "start": 310.32,
+      "duration": 3.92,
+      "text": "meeting and then we're typically not"
+    },
+    {
+      "start": 312.16,
+      "duration": 4.319,
+      "text": "needing to say what is second or third"
+    },
+    {
+      "start": 314.24,
+      "duration": 4.32,
+      "text": "or fourth priority because everyone in"
+    },
+    {
+      "start": 316.479,
+      "duration": 4.401,
+      "text": "the room can infer that. That kind of"
+    },
+    {
+      "start": 318.56,
+      "duration": 4.079,
+      "text": "thing agents are bad at. LLMs are bad at"
+    },
+    {
+      "start": 320.88,
+      "duration": 3.68,
+      "text": "humans in first off from sparse"
+    },
+    {
+      "start": 322.639,
+      "duration": 4.721,
+      "text": "information really really reliably."
+    },
+    {
+      "start": 324.56,
+      "duration": 4.88,
+      "text": "Effectively, we do a second pass where"
+    },
+    {
+      "start": 327.36,
+      "duration": 4.08,
+      "text": "we simulate consequences and social"
+    },
+    {
+      "start": 329.44,
+      "duration": 3.68,
+      "text": "context and then we come back with a"
+    },
+    {
+      "start": 331.44,
+      "duration": 2.88,
+      "text": "priority list in our heads. It's one of"
+    },
+    {
+      "start": 333.12,
+      "duration": 3.76,
+      "text": "the things that makes us a little bit"
+    },
+    {
+      "start": 334.32,
+      "duration": 4.96,
+      "text": "magical. We can hear, for example, make"
+    },
+    {
+      "start": 336.88,
+      "duration": 4.96,
+      "text": "some quick pasta sauce and we instantly"
+    },
+    {
+      "start": 339.28,
+      "duration": 4.4,
+      "text": "infer that you're hungry. We we infer"
+    },
+    {
+      "start": 341.84,
+      "duration": 4.48,
+      "text": "you don't need a lecture, you just want"
+    },
+    {
+      "start": 343.68,
+      "duration": 5.04,
+      "text": "a a quick snack. We hear clean up the"
+    },
+    {
+      "start": 346.32,
+      "duration": 4,
+      "text": "docks and we can infer don't destroy"
+    },
+    {
+      "start": 348.72,
+      "duration": 3.44,
+      "text": "anything important to go back to the"
+    },
+    {
+      "start": 350.32,
+      "duration": 4.4,
+      "text": "example at the beginning of this video."
+    },
+    {
+      "start": 352.16,
+      "duration": 5.599,
+      "text": "We can sense invisible guardrails and"
+    },
+    {
+      "start": 354.72,
+      "duration": 4.72,
+      "text": "LLMs need the guard rails to be visible."
+    },
+    {
+      "start": 357.759,
+      "duration": 3.841,
+      "text": "And so a lot of what we've been doing"
+    },
+    {
+      "start": 359.44,
+      "duration": 4.879,
+      "text": "and talking about when we build a"
+    },
+    {
+      "start": 361.6,
+      "duration": 4.56,
+      "text": "systems is essentially how you obsess"
+    },
+    {
+      "start": 364.319,
+      "duration": 3.841,
+      "text": "over those guardrails and make them"
+    },
+    {
+      "start": 366.16,
+      "duration": 3.68,
+      "text": "visible. Obsess over them and put them"
+    },
+    {
+      "start": 368.16,
+      "duration": 3.599,
+      "text": "into prompts. Obsess over them and put"
+    },
+    {
+      "start": 369.84,
+      "duration": 3.76,
+      "text": "them into evals. Take your business"
+    },
+    {
+      "start": 371.759,
+      "duration": 3.201,
+      "text": "logic and put it into code, not just"
+    },
+    {
+      "start": 373.6,
+      "duration": 3.36,
+      "text": "into a prompt. and so that it's more"
+    },
+    {
+      "start": 374.96,
+      "duration": 4,
+      "text": "deterministic. All of that is good"
+    },
+    {
+      "start": 376.96,
+      "duration": 4.64,
+      "text": "stuff. All of that is important stuff to"
+    },
+    {
+      "start": 378.96,
+      "duration": 4.239,
+      "text": "build agents. But I want to think a"
+    },
+    {
+      "start": 381.6,
+      "duration": 3.92,
+      "text": "little bit more deeply in this video"
+    },
+    {
+      "start": 383.199,
+      "duration": 4.321,
+      "text": "about intent itself and how we can start"
+    },
+    {
+      "start": 385.52,
+      "duration": 3.92,
+      "text": "to solve that problem. Because if you"
+    },
+    {
+      "start": 387.52,
+      "duration": 4.799,
+      "text": "step back, everything I just talked"
+    },
+    {
+      "start": 389.44,
+      "duration": 4.879,
+      "text": "about is essentially us working around"
+    },
+    {
+      "start": 392.319,
+      "duration": 4.081,
+      "text": "the intent problem, not solving it"
+    },
+    {
+      "start": 394.319,
+      "duration": 3.841,
+      "text": "directly. And a lot of the most useful"
+    },
+    {
+      "start": 396.4,
+      "duration": 3.519,
+      "text": "research in the last year is basically"
+    },
+    {
+      "start": 398.16,
+      "duration": 3.52,
+      "text": "saying, stop pretending the model can"
+    },
+    {
+      "start": 399.919,
+      "duration": 3.521,
+      "text": "read intent straight off the prompt. I'm"
+    },
+    {
+      "start": 401.68,
+      "duration": 3.04,
+      "text": "glad we've got there. I think I could"
+    },
+    {
+      "start": 403.44,
+      "duration": 3.36,
+      "text": "have told you that from the beginning of"
+    },
+    {
+      "start": 404.72,
+      "duration": 3.52,
+      "text": "the year, but it's important that we"
+    },
+    {
+      "start": 406.8,
+      "duration": 3.92,
+      "text": "understand that so we can take the next"
+    },
+    {
+      "start": 408.24,
+      "duration": 4.56,
+      "text": "step toward fixing it. I think there may"
+    },
+    {
+      "start": 410.72,
+      "duration": 5.039,
+      "text": "be a fundamental language mismatch here."
+    },
+    {
+      "start": 412.8,
+      "duration": 5.28,
+      "text": "We have built LLMs to do next token"
+    },
+    {
+      "start": 415.759,
+      "duration": 4.72,
+      "text": "completion on human language, but real"
+    },
+    {
+      "start": 418.08,
+      "duration": 5.119,
+      "text": "world human language is notoriously"
+    },
+    {
+      "start": 420.479,
+      "duration": 4.881,
+      "text": "underspecified by default. If you want"
+    },
+    {
+      "start": 423.199,
+      "duration": 5.041,
+      "text": "reliable outcomes, the system is going"
+    },
+    {
+      "start": 425.36,
+      "duration": 5.119,
+      "text": "to have to reduce uncertainty about the"
+    },
+    {
+      "start": 428.24,
+      "duration": 4.72,
+      "text": "objective before it asks. In other"
+    },
+    {
+      "start": 430.479,
+      "duration": 5.361,
+      "text": "words, it needs active task"
+    },
+    {
+      "start": 432.96,
+      "duration": 5.12,
+      "text": "disambiguation and human language"
+    },
+    {
+      "start": 435.84,
+      "duration": 4.72,
+      "text": "optimizes in many cases for social"
+    },
+    {
+      "start": 438.08,
+      "duration": 4.959,
+      "text": "cohesion and does not optimize for the"
+    },
+    {
+      "start": 440.56,
+      "duration": 4.4,
+      "text": "kind of over declarative specification"
+    },
+    {
+      "start": 443.039,
+      "duration": 3.521,
+      "text": "that the model really needs. One of the"
+    },
+    {
+      "start": 444.96,
+      "duration": 4.48,
+      "text": "directions that researchers are taking"
+    },
+    {
+      "start": 446.56,
+      "duration": 5.359,
+      "text": "to address this is to formalize that"
+    },
+    {
+      "start": 449.44,
+      "duration": 5.039,
+      "text": "task ambiguity and treat clarification"
+    },
+    {
+      "start": 451.919,
+      "duration": 6.161,
+      "text": "as a design problem. You want to get the"
+    },
+    {
+      "start": 454.479,
+      "duration": 6.241,
+      "text": "model to ask you targeted questions that"
+    },
+    {
+      "start": 458.08,
+      "duration": 4.8,
+      "text": "maximize information gain and narrow the"
+    },
+    {
+      "start": 460.72,
+      "duration": 4.16,
+      "text": "space of viable solutions. This is"
+    },
+    {
+      "start": 462.88,
+      "duration": 3.52,
+      "text": "something that you can start to simulate"
+    },
+    {
+      "start": 464.88,
+      "duration": 4.8,
+      "text": "with a model when you're trying to"
+    },
+    {
+      "start": 466.4,
+      "duration": 5.28,
+      "text": "clarify intent. Anyway, it is possible"
+    },
+    {
+      "start": 469.68,
+      "duration": 4.56,
+      "text": "to bolt on a piece of the prompt and"
+    },
+    {
+      "start": 471.68,
+      "duration": 5.28,
+      "text": "basically say where you have lack of"
+    },
+    {
+      "start": 474.24,
+      "duration": 4.959,
+      "text": "clarity, please ask me questions. I've"
+    },
+    {
+      "start": 476.96,
+      "duration": 4.959,
+      "text": "gotten in the habit of doing this both"
+    },
+    {
+      "start": 479.199,
+      "duration": 5.201,
+      "text": "with agents and also with chat. With"
+    },
+    {
+      "start": 481.919,
+      "duration": 4.4,
+      "text": "agents, you have to build in response"
+    },
+    {
+      "start": 484.4,
+      "duration": 3.199,
+      "text": "sets that help it to clarify the intent"
+    },
+    {
+      "start": 486.319,
+      "duration": 3.041,
+      "text": "where it gets confused. You have to"
+    },
+    {
+      "start": 487.599,
+      "duration": 3.681,
+      "text": "build in essentially a clarification"
+    },
+    {
+      "start": 489.36,
+      "duration": 4.08,
+      "text": "loop into your agentic system. With"
+    },
+    {
+      "start": 491.28,
+      "duration": 5.359,
+      "text": "chat, it's simpler. You just ask the"
+    },
+    {
+      "start": 493.44,
+      "duration": 4.879,
+      "text": "agent or you ask the LLM, hey, is there"
+    },
+    {
+      "start": 496.639,
+      "duration": 3.68,
+      "text": "something that is prompting you to"
+    },
+    {
+      "start": 498.319,
+      "duration": 3.841,
+      "text": "perform in this way? Can you articulate"
+    },
+    {
+      "start": 500.319,
+      "duration": 3.921,
+      "text": "your assumptions? And can you please ask"
+    },
+    {
+      "start": 502.16,
+      "duration": 4.879,
+      "text": "me where you don't understand my intent?"
+    },
+    {
+      "start": 504.24,
+      "duration": 5.359,
+      "text": "That's usually a very productive line of"
+    },
+    {
+      "start": 507.039,
+      "duration": 5.201,
+      "text": "questioning to go with. These days, LLMs"
+    },
+    {
+      "start": 509.599,
+      "duration": 4.8,
+      "text": "do not do that proactively. I suspect by"
+    },
+    {
+      "start": 512.24,
+      "duration": 4.159,
+      "text": "mid next year, they will. For now, we"
+    },
+    {
+      "start": 514.399,
+      "duration": 4.721,
+      "text": "have to nudge them to ask questions. A"
+    },
+    {
+      "start": 516.399,
+      "duration": 5.041,
+      "text": "second line of attack treats intent as"
+    },
+    {
+      "start": 519.12,
+      "duration": 4.399,
+      "text": "something that is probabilistic. Instead"
+    },
+    {
+      "start": 521.44,
+      "duration": 4.48,
+      "text": "of asking the system to pick only one"
+    },
+    {
+      "start": 523.519,
+      "duration": 4.32,
+      "text": "interpretation and roll forward, the"
+    },
+    {
+      "start": 525.92,
+      "duration": 3.919,
+      "text": "approach essentially maintains a"
+    },
+    {
+      "start": 527.839,
+      "duration": 4.401,
+      "text": "distribution of plausible goals based on"
+    },
+    {
+      "start": 529.839,
+      "duration": 5.44,
+      "text": "the text it's received and then updates"
+    },
+    {
+      "start": 532.24,
+      "duration": 5.12,
+      "text": "it as conversation progresses. You can"
+    },
+    {
+      "start": 535.279,
+      "duration": 3.521,
+      "text": "actually simulate that one with a chat."
+    },
+    {
+      "start": 537.36,
+      "duration": 2.88,
+      "text": "It's a little bit more difficult to"
+    },
+    {
+      "start": 538.8,
+      "duration": 2.96,
+      "text": "simulate that one with an agentic"
+    },
+    {
+      "start": 540.24,
+      "duration": 4.159,
+      "text": "system. I don't think you'd really want"
+    },
+    {
+      "start": 541.76,
+      "duration": 5.199,
+      "text": "to because most agentic systems are"
+    },
+    {
+      "start": 544.399,
+      "duration": 4.641,
+      "text": "designed to be relatively predictable in"
+    },
+    {
+      "start": 546.959,
+      "duration": 4,
+      "text": "outcomes. And in this case, what you"
+    },
+    {
+      "start": 549.04,
+      "duration": 4.239,
+      "text": "have here is essentially a progressive"
+    },
+    {
+      "start": 550.959,
+      "duration": 4.081,
+      "text": "intent classifier where the intent is"
+    },
+    {
+      "start": 553.279,
+      "duration": 4.401,
+      "text": "crystallized out of a probability"
+    },
+    {
+      "start": 555.04,
+      "duration": 5.28,
+      "text": "distribution over time. You can, if"
+    },
+    {
+      "start": 557.68,
+      "duration": 4.96,
+      "text": "you're trying to sharpen your thinking,"
+    },
+    {
+      "start": 560.32,
+      "duration": 4.88,
+      "text": "simulate this with a good chat, though."
+    },
+    {
+      "start": 562.64,
+      "duration": 4.56,
+      "text": "You can talk with an LLM and you can"
+    },
+    {
+      "start": 565.2,
+      "duration": 4.48,
+      "text": "tell it at the beginning to hold"
+    },
+    {
+      "start": 567.2,
+      "duration": 4,
+      "text": "multiple plausible interpretations of"
+    },
+    {
+      "start": 569.68,
+      "duration": 4.159,
+      "text": "what you're trying to do so it doesn't"
+    },
+    {
+      "start": 571.2,
+      "duration": 4.56,
+      "text": "jump to conclusions and you can actually"
+    },
+    {
+      "start": 573.839,
+      "duration": 3.601,
+      "text": "watch it start to crystallize and infer"
+    },
+    {
+      "start": 575.76,
+      "duration": 4,
+      "text": "as you continue to have a conversation"
+    },
+    {
+      "start": 577.44,
+      "duration": 5.04,
+      "text": "over time. Ironically, when I was doing"
+    },
+    {
+      "start": 579.76,
+      "duration": 5.04,
+      "text": "research into intent as a preparation"
+    },
+    {
+      "start": 582.48,
+      "duration": 5.12,
+      "text": "for this video, I had that kind of a"
+    },
+    {
+      "start": 584.8,
+      "duration": 5.2,
+      "text": "conversation with SHA GPT 5.2 to"
+    },
+    {
+      "start": 587.6,
+      "duration": 5.679,
+      "text": "thinking because I was trying to nudge"
+    },
+    {
+      "start": 590,
+      "duration": 5.279,
+      "text": "it to not over infer from one or two"
+    },
+    {
+      "start": 593.279,
+      "duration": 4.161,
+      "text": "academic white papers and actually think"
+    },
+    {
+      "start": 595.279,
+      "duration": 5.361,
+      "text": "more broadly. That is something that"
+    },
+    {
+      "start": 597.44,
+      "duration": 5.76,
+      "text": "that you need to learn to do so that you"
+    },
+    {
+      "start": 600.64,
+      "duration": 4.56,
+      "text": "are not stuck yelling at your LLM about"
+    },
+    {
+      "start": 603.2,
+      "duration": 4.16,
+      "text": "hallucinations when really the issue is"
+    },
+    {
+      "start": 605.2,
+      "duration": 5.36,
+      "text": "an intent. Another approach is to"
+    },
+    {
+      "start": 607.36,
+      "duration": 5.599,
+      "text": "essentially make this intent a separate"
+    },
+    {
+      "start": 610.56,
+      "duration": 4.8,
+      "text": "uh document. And that can be very very"
+    },
+    {
+      "start": 612.959,
+      "duration": 4,
+      "text": "helpful in agentic systems because you"
+    },
+    {
+      "start": 615.36,
+      "duration": 4.479,
+      "text": "can then have what we would call like an"
+    },
+    {
+      "start": 616.959,
+      "duration": 5.281,
+      "text": "intent commit or a semantic commit that"
+    },
+    {
+      "start": 619.839,
+      "duration": 4.481,
+      "text": "literally documents the intent as as"
+    },
+    {
+      "start": 622.24,
+      "duration": 3.599,
+      "text": "crystallized a format as possible. What"
+    },
+    {
+      "start": 624.32,
+      "duration": 3.36,
+      "text": "are the goals? What are the failure"
+    },
+    {
+      "start": 625.839,
+      "duration": 3.601,
+      "text": "conditions? What are the graceful fail"
+    },
+    {
+      "start": 627.68,
+      "duration": 3.36,
+      "text": "conditions? What are the trade-offs that"
+    },
+    {
+      "start": 629.44,
+      "duration": 3.519,
+      "text": "we make? What are the larger priorities"
+    },
+    {
+      "start": 631.04,
+      "duration": 4.08,
+      "text": "here? All of that is documented in one"
+    },
+    {
+      "start": 632.959,
+      "duration": 4,
+      "text": "place. If you take that approach, you"
+    },
+    {
+      "start": 635.12,
+      "duration": 4.399,
+      "text": "end up in a position where you can"
+    },
+    {
+      "start": 636.959,
+      "duration": 5.361,
+      "text": "actually update your intent separately"
+    },
+    {
+      "start": 639.519,
+      "duration": 7.041,
+      "text": "from the prompt and you can understand"
+    },
+    {
+      "start": 642.32,
+      "duration": 6.24,
+      "text": "very clearly where your intent takes the"
+    },
+    {
+      "start": 646.56,
+      "duration": 3.76,
+      "text": "system and where you can version your"
+    },
+    {
+      "start": 648.56,
+      "duration": 3.2,
+      "text": "intent over time if you change your"
+    },
+    {
+      "start": 650.32,
+      "duration": 3.36,
+      "text": "mind, if you want to update the system"
+    },
+    {
+      "start": 651.76,
+      "duration": 4,
+      "text": "and what it does, etc. I think that's"
+    },
+    {
+      "start": 653.68,
+      "duration": 4.08,
+      "text": "very interesting because it turns intent"
+    },
+    {
+      "start": 655.76,
+      "duration": 4.4,
+      "text": "into more of an interface and workflow"
+    },
+    {
+      "start": 657.76,
+      "duration": 4.4,
+      "text": "problem and it doesn't bind us to"
+    },
+    {
+      "start": 660.16,
+      "duration": 4.16,
+      "text": "figuring out how model makers are going"
+    },
+    {
+      "start": 662.16,
+      "duration": 5.04,
+      "text": "to solve this. Now, that being said, I"
+    },
+    {
+      "start": 664.32,
+      "duration": 5.519,
+      "text": "do think that there is a lot of room to"
+    },
+    {
+      "start": 667.2,
+      "duration": 4.639,
+      "text": "run on reinforcement learning for model"
+    },
+    {
+      "start": 669.839,
+      "duration": 3.68,
+      "text": "makers in getting better at intent."
+    },
+    {
+      "start": 671.839,
+      "duration": 3.761,
+      "text": "Fundamentally, if we figured out models"
+    },
+    {
+      "start": 673.519,
+      "duration": 5.121,
+      "text": "that can do multiple passes on token"
+    },
+    {
+      "start": 675.6,
+      "duration": 5.28,
+      "text": "generation and infer, we should be able"
+    },
+    {
+      "start": 678.64,
+      "duration": 4.4,
+      "text": "to use reinforcement learning techniques"
+    },
+    {
+      "start": 680.88,
+      "duration": 5.28,
+      "text": "to help them to do second and third"
+    },
+    {
+      "start": 683.04,
+      "duration": 5.68,
+      "text": "passes across sparse text and infer"
+    },
+    {
+      "start": 686.16,
+      "duration": 4.56,
+      "text": "context and infer intent more reliably."
+    },
+    {
+      "start": 688.72,
+      "duration": 3.92,
+      "text": "I would expect gains there next year."
+    },
+    {
+      "start": 690.72,
+      "duration": 4.08,
+      "text": "And by the way, if you're listening to"
+    },
+    {
+      "start": 692.64,
+      "duration": 4.319,
+      "text": "this and thinking more context will save"
+    },
+    {
+      "start": 694.8,
+      "duration": 4.159,
+      "text": "us, we'll get a bigger context window."
+    },
+    {
+      "start": 696.959,
+      "duration": 4.32,
+      "text": "That can sometimes make things worse."
+    },
+    {
+      "start": 698.959,
+      "duration": 5.201,
+      "text": "Even if the user did express the real"
+    },
+    {
+      "start": 701.279,
+      "duration": 5.761,
+      "text": "priority somewhere models don't robustly"
+    },
+    {
+      "start": 704.16,
+      "duration": 4.4,
+      "text": "use long context, they still have lost"
+    },
+    {
+      "start": 707.04,
+      "duration": 3.44,
+      "text": "in the middle challenges. They still"
+    },
+    {
+      "start": 708.56,
+      "duration": 4.64,
+      "text": "need a lot of good structure, a lot of"
+    },
+    {
+      "start": 710.48,
+      "duration": 5.039,
+      "text": "good intent to navigate context well."
+    },
+    {
+      "start": 713.2,
+      "duration": 4.4,
+      "text": "And long context often embodies"
+    },
+    {
+      "start": 715.519,
+      "duration": 4.241,
+      "text": "difficult and ambiguous trade-offs that"
+    },
+    {
+      "start": 717.6,
+      "duration": 4.88,
+      "text": "we don't specify and that we leave the"
+    },
+    {
+      "start": 719.76,
+      "duration": 4.96,
+      "text": "model to guess. This goes back to the"
+    },
+    {
+      "start": 722.48,
+      "duration": 4.08,
+      "text": "larger insight. Uh Andre Karpathy called"
+    },
+    {
+      "start": 724.72,
+      "duration": 4.96,
+      "text": "this out a few weeks ago when when he"
+    },
+    {
+      "start": 726.56,
+      "duration": 5.6,
+      "text": "observed that humans are very very good"
+    },
+    {
+      "start": 729.68,
+      "duration": 4.719,
+      "text": "at learning from sparse examples and"
+    },
+    {
+      "start": 732.16,
+      "duration": 4.32,
+      "text": "models need many many more examples than"
+    },
+    {
+      "start": 734.399,
+      "duration": 4.56,
+      "text": "humans to learn and tend to generalize"
+    },
+    {
+      "start": 736.48,
+      "duration": 4.24,
+      "text": "much more poorly than humans do. In this"
+    },
+    {
+      "start": 738.959,
+      "duration": 3.601,
+      "text": "case adding the context is something"
+    },
+    {
+      "start": 740.72,
+      "duration": 3.359,
+      "text": "where you would think as a human you"
+    },
+    {
+      "start": 742.56,
+      "duration": 3.44,
+      "text": "have way more than you need you can"
+    },
+    {
+      "start": 744.079,
+      "duration": 3.681,
+      "text": "generalize effectively. It sometimes"
+    },
+    {
+      "start": 746,
+      "duration": 3.839,
+      "text": "leads to worse performance because the"
+    },
+    {
+      "start": 747.76,
+      "duration": 4.319,
+      "text": "signal gets muddled. But let's zoom back"
+    },
+    {
+      "start": 749.839,
+      "duration": 4.321,
+      "text": "to the practical reality. Builders still"
+    },
+    {
+      "start": 752.079,
+      "duration": 4.161,
+      "text": "need to learn to ship agents and we"
+    },
+    {
+      "start": 754.16,
+      "duration": 4.239,
+      "text": "still need to compensate for weak intent"
+    },
+    {
+      "start": 756.24,
+      "duration": 4,
+      "text": "interference at the moment. This is"
+    },
+    {
+      "start": 758.399,
+      "duration": 3.841,
+      "text": "where I want to lean into the harness"
+    },
+    {
+      "start": 760.24,
+      "duration": 3.839,
+      "text": "piece. Yes, you should be building"
+    },
+    {
+      "start": 762.24,
+      "duration": 4.08,
+      "text": "evaluation harnesses. You should be"
+    },
+    {
+      "start": 764.079,
+      "duration": 4.161,
+      "text": "running agents against curated tasks."
+    },
+    {
+      "start": 766.32,
+      "duration": 3.519,
+      "text": "You should be instrumenting your traces."
+    },
+    {
+      "start": 768.24,
+      "duration": 3.279,
+      "text": "You should be constraining your tool"
+    },
+    {
+      "start": 769.839,
+      "duration": 3.361,
+      "text": "permissions. You should not be using too"
+    },
+    {
+      "start": 771.519,
+      "duration": 4,
+      "text": "many tools with an agent. You should"
+    },
+    {
+      "start": 773.2,
+      "duration": 4.079,
+      "text": "force an agent into a planning state."
+    },
+    {
+      "start": 775.519,
+      "duration": 3.521,
+      "text": "You can see that this mindset is"
+    },
+    {
+      "start": 777.279,
+      "duration": 3.441,
+      "text": "starting to dig in. And I think is"
+    },
+    {
+      "start": 779.04,
+      "duration": 4.88,
+      "text": "really really important if you want to"
+    },
+    {
+      "start": 780.72,
+      "duration": 4.64,
+      "text": "build real time productive agents that"
+    },
+    {
+      "start": 783.92,
+      "duration": 3.359,
+      "text": "scale. Think of it as a kind of"
+    },
+    {
+      "start": 785.36,
+      "duration": 4.96,
+      "text": "production pragmatism for the first half"
+    },
+    {
+      "start": 787.279,
+      "duration": 5.521,
+      "text": "of 2026. We can make agents reliable"
+    },
+    {
+      "start": 790.32,
+      "duration": 4.56,
+      "text": "enough to ship now. We don't have to"
+    },
+    {
+      "start": 792.8,
+      "duration": 3.68,
+      "text": "have the intent problem fully solved."
+    },
+    {
+      "start": 794.88,
+      "duration": 3.28,
+      "text": "Even if it's something that I think we"
+    },
+    {
+      "start": 796.48,
+      "duration": 3.84,
+      "text": "need to be more aware of and we need to"
+    },
+    {
+      "start": 798.16,
+      "duration": 3.679,
+      "text": "not pretend is not an issue. I haven't"
+    },
+    {
+      "start": 800.32,
+      "duration": 3.519,
+      "text": "heard enough conversation about it and"
+    },
+    {
+      "start": 801.839,
+      "duration": 3.841,
+      "text": "that's why I'm chatting about it in this"
+    },
+    {
+      "start": 803.839,
+      "duration": 4.081,
+      "text": "video. The reason why I think we're near"
+    },
+    {
+      "start": 805.68,
+      "duration": 4.32,
+      "text": "a breakthrough is because this is"
+    },
+    {
+      "start": 807.92,
+      "duration": 4.08,
+      "text": "something that is clearly reinforcement"
+    },
+    {
+      "start": 810,
+      "duration": 4.399,
+      "text": "learning susceptible and it's something"
+    },
+    {
+      "start": 812,
+      "duration": 5.279,
+      "text": "that we have a lot of the pieces of with"
+    },
+    {
+      "start": 814.399,
+      "duration": 5.281,
+      "text": "inference and LLMs. We have a lot of the"
+    },
+    {
+      "start": 817.279,
+      "duration": 4.721,
+      "text": "pieces of the Asian ecosystem and if we"
+    },
+    {
+      "start": 819.68,
+      "duration": 3.839,
+      "text": "get this one piece on intent, it's a"
+    },
+    {
+      "start": 822,
+      "duration": 3.839,
+      "text": "piece of jagged intelligence that"
+    },
+    {
+      "start": 823.519,
+      "duration": 4.32,
+      "text": "unlocks a real breakthrough for us. And"
+    },
+    {
+      "start": 825.839,
+      "duration": 3.44,
+      "text": "it's very laborious to work around right"
+    },
+    {
+      "start": 827.839,
+      "duration": 3.361,
+      "text": "now. Like all of the things I talked"
+    },
+    {
+      "start": 829.279,
+      "duration": 3.68,
+      "text": "about with harnesses, they're they're"
+    },
+    {
+      "start": 831.2,
+      "duration": 4.24,
+      "text": "complicated to set up. It would be"
+    },
+    {
+      "start": 832.959,
+      "duration": 4.961,
+      "text": "really handy if we could reliably trust"
+    },
+    {
+      "start": 835.44,
+      "duration": 4.32,
+      "text": "an agent to infer intent and call tools"
+    },
+    {
+      "start": 837.92,
+      "duration": 4.479,
+      "text": "appropriately with a lot less"
+    },
+    {
+      "start": 839.76,
+      "duration": 4.72,
+      "text": "rigomearroll. We're not there yet, but I"
+    },
+    {
+      "start": 842.399,
+      "duration": 3.841,
+      "text": "think that the opportunity is too big"
+    },
+    {
+      "start": 844.48,
+      "duration": 4,
+      "text": "for us not to chase it and get to it."
+    },
+    {
+      "start": 846.24,
+      "duration": 4.88,
+      "text": "And I suspect that a 2026 breakthrough"
+    },
+    {
+      "start": 848.48,
+      "duration": 4.719,
+      "text": "is possible. I don't believe even in"
+    },
+    {
+      "start": 851.12,
+      "duration": 4.079,
+      "text": "2026 that we're going to get to a models"
+    },
+    {
+      "start": 853.199,
+      "duration": 5.521,
+      "text": "magically understand all intent moment."
+    },
+    {
+      "start": 855.199,
+      "duration": 5.681,
+      "text": "I think of it more as an alwayson agent"
+    },
+    {
+      "start": 858.72,
+      "duration": 3.919,
+      "text": "can routinely run cheap and intermediate"
+    },
+    {
+      "start": 860.88,
+      "duration": 4.72,
+      "text": "checks automatically in the background"
+    },
+    {
+      "start": 862.639,
+      "duration": 5.361,
+      "text": "that approximate a human second pass and"
+    },
+    {
+      "start": 865.6,
+      "duration": 4.64,
+      "text": "only escalate to a user or escalate to a"
+    },
+    {
+      "start": 868,
+      "duration": 4.24,
+      "text": "resolution loop when the uncertainty is"
+    },
+    {
+      "start": 870.24,
+      "duration": 4.56,
+      "text": "high or it determines the consequences"
+    },
+    {
+      "start": 872.24,
+      "duration": 5.36,
+      "text": "are very serious or irreversible. That"
+    },
+    {
+      "start": 874.8,
+      "duration": 5.2,
+      "text": "would simulate intent well enough for us"
+    },
+    {
+      "start": 877.6,
+      "duration": 4.32,
+      "text": "to be moving on with even as we work on"
+    },
+    {
+      "start": 880,
+      "duration": 4.079,
+      "text": "the larger problem. An interesting way"
+    },
+    {
+      "start": 881.92,
+      "duration": 4.08,
+      "text": "to see where intent is going is to look"
+    },
+    {
+      "start": 884.079,
+      "duration": 4.401,
+      "text": "sideways at the crypto community where"
+    },
+    {
+      "start": 886,
+      "duration": 4.72,
+      "text": "intents become a thing for basically the"
+    },
+    {
+      "start": 888.48,
+      "duration": 4.799,
+      "text": "same reason that agents are difficult."
+    },
+    {
+      "start": 890.72,
+      "duration": 4.799,
+      "text": "Intents matter in crypto because actions"
+    },
+    {
+      "start": 893.279,
+      "duration": 3.92,
+      "text": "are expensive and often irreversible."
+    },
+    {
+      "start": 895.519,
+      "duration": 3.281,
+      "text": "We're learning the same thing with LLMs"
+    },
+    {
+      "start": 897.199,
+      "duration": 4.32,
+      "text": "and agents. Actions are expensive and"
+    },
+    {
+      "start": 898.8,
+      "duration": 5.92,
+      "text": "often irreversible. So in intentbased"
+    },
+    {
+      "start": 901.519,
+      "duration": 5.601,
+      "text": "DeFi systems, the user often has to sign"
+    },
+    {
+      "start": 904.72,
+      "duration": 4.64,
+      "text": "an intent to trade that specifies"
+    },
+    {
+      "start": 907.12,
+      "duration": 4.88,
+      "text": "constraints and desired outcomes and"
+    },
+    {
+      "start": 909.36,
+      "duration": 5.36,
+      "text": "then specialized automated solvers will"
+    },
+    {
+      "start": 912,
+      "duration": 5.839,
+      "text": "compete to execute that trade. The whole"
+    },
+    {
+      "start": 914.72,
+      "duration": 5.6,
+      "text": "design separates what you want from how"
+    },
+    {
+      "start": 917.839,
+      "duration": 4.321,
+      "text": "it is executed. Look, it's not a perfect"
+    },
+    {
+      "start": 920.32,
+      "duration": 3.759,
+      "text": "analogy. Crypto has its own issues, but"
+    },
+    {
+      "start": 922.16,
+      "duration": 4.56,
+      "text": "it's it's a clue in the direction that"
+    },
+    {
+      "start": 924.079,
+      "duration": 5.521,
+      "text": "we're going, right? When execution is"
+    },
+    {
+      "start": 926.72,
+      "duration": 5.919,
+      "text": "high stakes with aentic systems, systems"
+    },
+    {
+      "start": 929.6,
+      "duration": 5.359,
+      "text": "tend to evolve toward explicit intent"
+    },
+    {
+      "start": 932.639,
+      "duration": 4.64,
+      "text": "representations and solver checker"
+    },
+    {
+      "start": 934.959,
+      "duration": 4.401,
+      "text": "mechanisms to ensure that that intent is"
+    },
+    {
+      "start": 937.279,
+      "duration": 4.081,
+      "text": "accurately translated. I think that"
+    },
+    {
+      "start": 939.36,
+      "duration": 4.88,
+      "text": "we're converging on a similar solution"
+    },
+    {
+      "start": 941.36,
+      "duration": 5.919,
+      "text": "in the agent world because we need"
+    },
+    {
+      "start": 944.24,
+      "duration": 5.039,
+      "text": "higher fidelity execution in 2026. So if"
+    },
+    {
+      "start": 947.279,
+      "duration": 3.68,
+      "text": "you're building systems, I would advise"
+    },
+    {
+      "start": 949.279,
+      "duration": 4.081,
+      "text": "you start to think about how you can"
+    },
+    {
+      "start": 950.959,
+      "duration": 4.401,
+      "text": "separate interpretation from execution"
+    },
+    {
+      "start": 953.36,
+      "duration": 4.32,
+      "text": "in your architecture so that you can"
+    },
+    {
+      "start": 955.36,
+      "duration": 4.32,
+      "text": "learn to inspect and test the model's"
+    },
+    {
+      "start": 957.68,
+      "duration": 3.599,
+      "text": "understanding before it touches tools."
+    },
+    {
+      "start": 959.68,
+      "duration": 4.719,
+      "text": "Start to think about how to run your"
+    },
+    {
+      "start": 961.279,
+      "duration": 5.601,
+      "text": "agent against eval suites that include"
+    },
+    {
+      "start": 964.399,
+      "duration": 4.8,
+      "text": "ambiguous prompts on purpose because the"
+    },
+    {
+      "start": 966.88,
+      "duration": 4.56,
+      "text": "real world is going to be ambiguous and"
+    },
+    {
+      "start": 969.199,
+      "duration": 4.56,
+      "text": "you should be grading how the model"
+    },
+    {
+      "start": 971.44,
+      "duration": 4.48,
+      "text": "reaches the final output and how well it"
+    },
+    {
+      "start": 973.759,
+      "duration": 4.64,
+      "text": "handles ambiguity along the way. Agent"
+    },
+    {
+      "start": 975.92,
+      "duration": 5.039,
+      "text": "behavior needs to be evaluated in tool"
+    },
+    {
+      "start": 978.399,
+      "duration": 4.721,
+      "text": "use in multi-step settings under"
+    },
+    {
+      "start": 980.959,
+      "duration": 4.32,
+      "text": "controlled conditions. I would also take"
+    },
+    {
+      "start": 983.12,
+      "duration": 4.32,
+      "text": "adopting a disambiguation mindset"
+    },
+    {
+      "start": 985.279,
+      "duration": 4.881,
+      "text": "seriously. And you can implement it"
+    },
+    {
+      "start": 987.44,
+      "duration": 5.759,
+      "text": "relatively simply when an action is"
+    },
+    {
+      "start": 990.16,
+      "duration": 5.2,
+      "text": "destructive. Have the agent know that"
+    },
+    {
+      "start": 993.199,
+      "duration": 4.721,
+      "text": "and then trigger a surfaced"
+    },
+    {
+      "start": 995.36,
+      "duration": 5.2,
+      "text": "interpretation and a clarifying question"
+    },
+    {
+      "start": 997.92,
+      "duration": 4.64,
+      "text": "if multiple plausible meanings exist."
+    },
+    {
+      "start": 1000.56,
+      "duration": 3.839,
+      "text": "Look, an example could be if it's"
+    },
+    {
+      "start": 1002.56,
+      "duration": 3.839,
+      "text": "deleting a record in your database,"
+    },
+    {
+      "start": 1004.399,
+      "duration": 4.161,
+      "text": "right? Maybe it needs to surface an"
+    },
+    {
+      "start": 1006.399,
+      "duration": 4.321,
+      "text": "interpretation and a clarifier to"
+    },
+    {
+      "start": 1008.56,
+      "duration": 4.32,
+      "text": "another LLM or if the stakes are high"
+    },
+    {
+      "start": 1010.72,
+      "duration": 5.039,
+      "text": "enough to a human. But the point is to"
+    },
+    {
+      "start": 1012.88,
+      "duration": 5.68,
+      "text": "start to align what we're learning about"
+    },
+    {
+      "start": 1015.759,
+      "duration": 4.88,
+      "text": "the importance of disambiguating intent"
+    },
+    {
+      "start": 1018.56,
+      "duration": 3.92,
+      "text": "with the way we design our agentic"
+    },
+    {
+      "start": 1020.639,
+      "duration": 3.68,
+      "text": "systems. And obviously you're going to"
+    },
+    {
+      "start": 1022.48,
+      "duration": 3.68,
+      "text": "want to do this selectively. You cannot"
+    },
+    {
+      "start": 1024.319,
+      "duration": 4.24,
+      "text": "have the agent ask a question every"
+    },
+    {
+      "start": 1026.16,
+      "duration": 4.72,
+      "text": "breath because then it removes the point"
+    },
+    {
+      "start": 1028.559,
+      "duration": 4,
+      "text": "of having the agent at all. You need to"
+    },
+    {
+      "start": 1030.88,
+      "duration": 3.76,
+      "text": "decide where the agent really needs to"
+    },
+    {
+      "start": 1032.559,
+      "duration": 4.64,
+      "text": "get intent right and where your agentic"
+    },
+    {
+      "start": 1034.64,
+      "duration": 4.159,
+      "text": "system alone can't carry that intent"
+    },
+    {
+      "start": 1037.199,
+      "duration": 3.441,
+      "text": "clearly."
+    },
+    {
+      "start": 1038.799,
+      "duration": 3.76,
+      "text": "And then you're going to find out, okay,"
+    },
+    {
+      "start": 1040.64,
+      "duration": 3.84,
+      "text": "now we need to have a disambiguation"
+    },
+    {
+      "start": 1042.559,
+      "duration": 3.441,
+      "text": "loop here. This is what this loop looks"
+    },
+    {
+      "start": 1044.48,
+      "duration": 3.199,
+      "text": "like. This is why it matters here. This"
+    },
+    {
+      "start": 1046,
+      "duration": 3.36,
+      "text": "is why it's worth it. And then before"
+    },
+    {
+      "start": 1047.679,
+      "duration": 3.841,
+      "text": "you forget, make sure you externalize"
+    },
+    {
+      "start": 1049.36,
+      "duration": 5.12,
+      "text": "your intent as an artifact that you can"
+    },
+    {
+      "start": 1051.52,
+      "duration": 5.279,
+      "text": "update. Because the closer you are to"
+    },
+    {
+      "start": 1054.48,
+      "duration": 5.199,
+      "text": "having a sort of living requirements"
+    },
+    {
+      "start": 1056.799,
+      "duration": 5.361,
+      "text": "page or a living intent page, the more"
+    },
+    {
+      "start": 1059.679,
+      "duration": 5.921,
+      "text": "you're going to be able to build"
+    },
+    {
+      "start": 1062.16,
+      "duration": 5.12,
+      "text": "interfaces that actually drive quality"
+    },
+    {
+      "start": 1065.6,
+      "duration": 3.52,
+      "text": "over time because you're going to be"
+    },
+    {
+      "start": 1067.28,
+      "duration": 3.92,
+      "text": "able to say"
+    },
+    {
+      "start": 1069.12,
+      "duration": 4.24,
+      "text": "it's okay if you change your mind. It's"
+    },
+    {
+      "start": 1071.2,
+      "duration": 4.56,
+      "text": "okay if you update your intent. Intent"
+    },
+    {
+      "start": 1073.36,
+      "duration": 4.88,
+      "text": "is a separate artifact in our system and"
+    },
+    {
+      "start": 1075.76,
+      "duration": 4.56,
+      "text": "we can codify it really, really cleanly"
+    },
+    {
+      "start": 1078.24,
+      "duration": 4.48,
+      "text": "and we can plug and play it as we need"
+    },
+    {
+      "start": 1080.32,
+      "duration": 4.08,
+      "text": "to. It opens up a lot of flexibility in"
+    },
+    {
+      "start": 1082.72,
+      "duration": 4.079,
+      "text": "your system design. I think looking"
+    },
+    {
+      "start": 1084.4,
+      "duration": 4.48,
+      "text": "ahead, the winners in designing Agentic"
+    },
+    {
+      "start": 1086.799,
+      "duration": 4.081,
+      "text": "systems are not going to be the ones"
+    },
+    {
+      "start": 1088.88,
+      "duration": 3.28,
+      "text": "that have thousands of tools or the most"
+    },
+    {
+      "start": 1090.88,
+      "duration": 3.52,
+      "text": "tools. They're not going to be the ones"
+    },
+    {
+      "start": 1092.16,
+      "duration": 4.399,
+      "text": "that have put their agents in the most"
+    },
+    {
+      "start": 1094.4,
+      "duration": 4.8,
+      "text": "different places in the business even."
+    },
+    {
+      "start": 1096.559,
+      "duration": 5.761,
+      "text": "They're going to be the tools and"
+    },
+    {
+      "start": 1099.2,
+      "duration": 8.24,
+      "text": "designers and systems engineers who are"
+    },
+    {
+      "start": 1102.32,
+      "duration": 7.92,
+      "text": "able to reliably design agents that can"
+    },
+    {
+      "start": 1107.44,
+      "duration": 4.72,
+      "text": "carry intent clearly all the way to"
+    },
+    {
+      "start": 1110.24,
+      "duration": 4.48,
+      "text": "executable work. I think we'll get some"
+    },
+    {
+      "start": 1112.16,
+      "duration": 4,
+      "text": "help from modelmakers on intent in 2026,"
+    },
+    {
+      "start": 1114.72,
+      "duration": 3.28,
+      "text": "but a lot of it is going to be on us,"
+    },
+    {
+      "start": 1116.16,
+      "duration": 4.16,
+      "text": "the builders. And I hope this video has"
+    },
+    {
+      "start": 1118,
+      "duration": 4.08,
+      "text": "given you a sense of how we can start to"
+    },
+    {
+      "start": 1120.32,
+      "duration": 6,
+      "text": "design for intent as a first class"
+    },
+    {
+      "start": 1122.08,
+      "duration": 4.24,
+      "text": "object in Agentic Systems. F."
+    }
+  ],
+  "fullText": "Just picture this. You tell an AI agent to clean up the old docs on your laptop. You've given it access to the folders. It should be able to do that job well. But it does exactly what you asked. And that's the problem. It deletes duplicates. It organizes. It even writes a little summary of what it accomplished. And then you discover it removed the originals that you actually needed. The model didn't hallucinate. It didn't lack context. It did something even worse than that. And that's what we're going to talk about today. It took a fuzzy human request. It guessed a goal. It committed to it. And it executed confidently without checking back. In other words, it misread your intent. And that is a surprisingly common issue with models. That feeling of being smart, of being fast, and of being subtly wrong is not an edge case these days. It's actually the center of the agent problem. And that's why in late 2025, early 2026, it feels like a very strange moment. We're finally getting a lot of the big pieces for agents under control. We understand a lot more about tool calling than we did a year ago. We understand a lot about agent orchestration. We understand a lot about tracing, about evaluation harnesses, about durable execution over time. And yet, we keep face planting on intent. We can now build systems that act, but we have to put a ton of work into making sure that they can reliably act with the objective that we set them. And that is why when we are building our tool calling system following agents, we still have to put a ton into getting the intent defined through the prompt right. Have you ever stopped and asked yourself why it's that hard? Here's here's the root of why we're here. LLMs are actually incredible at producing plausible sounding continuations because that's what they were really trained to do. They were trained to predict the next token. And so that training objective creates a machine that is really really good at an answershaped text in a piece of text that sounds like it should be right. And in pure chat mode, the world is pretty forgiving of that. If the model answers the wrong thing, you just correct it. And in many cases, it answers the right thing because the answer shaped text is good enough. In fact, one of the things that has surprised me and almost everyone else in the last two years is that this whole idea of token generation turns out to be incredibly practical, incredibly realistic, incredibly useful at producing real economic utility. And so this video is not about challenging that. We know that this whole idea of token generation fundamentally works. What we are asking ourselves is what's next when it comes to agents? How do we start to get to intention in ways that help us to build more reliable agentic systems? Because in a chat, if the model answers the wrong thing, well, you just correct it. The conversation is inherently reversible. You just yell at it in the chat. But once you give the model tools, files, email, calendars, CRM code, maybe your credit card, the cost of a wrong guess spikes up real high. The tool use turns a fluent completion into a realworld commitment that the agent has made on your behalf. In a sense, it is writing to reality, not just writing to the chat. That is an inflection point that we're all living through. And it makes intent and the intent gap matter a lot more. And everything else is going so well. People are no longer handwaving how agents work. They're actually able to build them. You can see it in how eval emerged as a first class discipline over the last 6 months. You can see it in how tools like Langchain and Langsmith have evolved over the last year into full stack traceable audit ready agent building toolkits and they're not the only ones. There's lots like Google has their ADK. We are getting to a point where we have so many parts of the ecosystem in place to deploy agents reliably, efficiently and at scale. So why with all that progress are we still wrestling with intent? Because intent is not in the text the way context is. And I'm going to say it again. Intent is not in the text. Context is the literal content that we put in when we do context engineering. Entities, constraints, instructions, facts that we include. Intent is typically latent. It is our priorities. It is our tradeoffs. It is what done looks like. It's what's allowed, what's risky, and what to do when instructions conflict. Whether you want exploration from your agent or a decision from your agent, what you'd regret if the assistant guessed wrong. By the way, if some of this sounds like a prompt that you should write, that's a good instinct in 2026. We need to be writing prompts for our agents that do encode these things until we get intent figured out. We need to be focusing on making intent not hidden but super super explicit, including all of those things that we can typically leave other humans to infer like our priorities. If we're in a business meeting and we talk about priorities, we are typically saying the thing that needs to be said in the meeting and then we're typically not needing to say what is second or third or fourth priority because everyone in the room can infer that. That kind of thing agents are bad at. LLMs are bad at humans in first off from sparse information really really reliably. Effectively, we do a second pass where we simulate consequences and social context and then we come back with a priority list in our heads. It's one of the things that makes us a little bit magical. We can hear, for example, make some quick pasta sauce and we instantly infer that you're hungry. We we infer you don't need a lecture, you just want a a quick snack. We hear clean up the docks and we can infer don't destroy anything important to go back to the example at the beginning of this video. We can sense invisible guardrails and LLMs need the guard rails to be visible. And so a lot of what we've been doing and talking about when we build a systems is essentially how you obsess over those guardrails and make them visible. Obsess over them and put them into prompts. Obsess over them and put them into evals. Take your business logic and put it into code, not just into a prompt. and so that it's more deterministic. All of that is good stuff. All of that is important stuff to build agents. But I want to think a little bit more deeply in this video about intent itself and how we can start to solve that problem. Because if you step back, everything I just talked about is essentially us working around the intent problem, not solving it directly. And a lot of the most useful research in the last year is basically saying, stop pretending the model can read intent straight off the prompt. I'm glad we've got there. I think I could have told you that from the beginning of the year, but it's important that we understand that so we can take the next step toward fixing it. I think there may be a fundamental language mismatch here. We have built LLMs to do next token completion on human language, but real world human language is notoriously underspecified by default. If you want reliable outcomes, the system is going to have to reduce uncertainty about the objective before it asks. In other words, it needs active task disambiguation and human language optimizes in many cases for social cohesion and does not optimize for the kind of over declarative specification that the model really needs. One of the directions that researchers are taking to address this is to formalize that task ambiguity and treat clarification as a design problem. You want to get the model to ask you targeted questions that maximize information gain and narrow the space of viable solutions. This is something that you can start to simulate with a model when you're trying to clarify intent. Anyway, it is possible to bolt on a piece of the prompt and basically say where you have lack of clarity, please ask me questions. I've gotten in the habit of doing this both with agents and also with chat. With agents, you have to build in response sets that help it to clarify the intent where it gets confused. You have to build in essentially a clarification loop into your agentic system. With chat, it's simpler. You just ask the agent or you ask the LLM, hey, is there something that is prompting you to perform in this way? Can you articulate your assumptions? And can you please ask me where you don't understand my intent? That's usually a very productive line of questioning to go with. These days, LLMs do not do that proactively. I suspect by mid next year, they will. For now, we have to nudge them to ask questions. A second line of attack treats intent as something that is probabilistic. Instead of asking the system to pick only one interpretation and roll forward, the approach essentially maintains a distribution of plausible goals based on the text it's received and then updates it as conversation progresses. You can actually simulate that one with a chat. It's a little bit more difficult to simulate that one with an agentic system. I don't think you'd really want to because most agentic systems are designed to be relatively predictable in outcomes. And in this case, what you have here is essentially a progressive intent classifier where the intent is crystallized out of a probability distribution over time. You can, if you're trying to sharpen your thinking, simulate this with a good chat, though. You can talk with an LLM and you can tell it at the beginning to hold multiple plausible interpretations of what you're trying to do so it doesn't jump to conclusions and you can actually watch it start to crystallize and infer as you continue to have a conversation over time. Ironically, when I was doing research into intent as a preparation for this video, I had that kind of a conversation with SHA GPT 5.2 to thinking because I was trying to nudge it to not over infer from one or two academic white papers and actually think more broadly. That is something that that you need to learn to do so that you are not stuck yelling at your LLM about hallucinations when really the issue is an intent. Another approach is to essentially make this intent a separate uh document. And that can be very very helpful in agentic systems because you can then have what we would call like an intent commit or a semantic commit that literally documents the intent as as crystallized a format as possible. What are the goals? What are the failure conditions? What are the graceful fail conditions? What are the trade-offs that we make? What are the larger priorities here? All of that is documented in one place. If you take that approach, you end up in a position where you can actually update your intent separately from the prompt and you can understand very clearly where your intent takes the system and where you can version your intent over time if you change your mind, if you want to update the system and what it does, etc. I think that's very interesting because it turns intent into more of an interface and workflow problem and it doesn't bind us to figuring out how model makers are going to solve this. Now, that being said, I do think that there is a lot of room to run on reinforcement learning for model makers in getting better at intent. Fundamentally, if we figured out models that can do multiple passes on token generation and infer, we should be able to use reinforcement learning techniques to help them to do second and third passes across sparse text and infer context and infer intent more reliably. I would expect gains there next year. And by the way, if you're listening to this and thinking more context will save us, we'll get a bigger context window. That can sometimes make things worse. Even if the user did express the real priority somewhere models don't robustly use long context, they still have lost in the middle challenges. They still need a lot of good structure, a lot of good intent to navigate context well. And long context often embodies difficult and ambiguous trade-offs that we don't specify and that we leave the model to guess. This goes back to the larger insight. Uh Andre Karpathy called this out a few weeks ago when when he observed that humans are very very good at learning from sparse examples and models need many many more examples than humans to learn and tend to generalize much more poorly than humans do. In this case adding the context is something where you would think as a human you have way more than you need you can generalize effectively. It sometimes leads to worse performance because the signal gets muddled. But let's zoom back to the practical reality. Builders still need to learn to ship agents and we still need to compensate for weak intent interference at the moment. This is where I want to lean into the harness piece. Yes, you should be building evaluation harnesses. You should be running agents against curated tasks. You should be instrumenting your traces. You should be constraining your tool permissions. You should not be using too many tools with an agent. You should force an agent into a planning state. You can see that this mindset is starting to dig in. And I think is really really important if you want to build real time productive agents that scale. Think of it as a kind of production pragmatism for the first half of 2026. We can make agents reliable enough to ship now. We don't have to have the intent problem fully solved. Even if it's something that I think we need to be more aware of and we need to not pretend is not an issue. I haven't heard enough conversation about it and that's why I'm chatting about it in this video. The reason why I think we're near a breakthrough is because this is something that is clearly reinforcement learning susceptible and it's something that we have a lot of the pieces of with inference and LLMs. We have a lot of the pieces of the Asian ecosystem and if we get this one piece on intent, it's a piece of jagged intelligence that unlocks a real breakthrough for us. And it's very laborious to work around right now. Like all of the things I talked about with harnesses, they're they're complicated to set up. It would be really handy if we could reliably trust an agent to infer intent and call tools appropriately with a lot less rigomearroll. We're not there yet, but I think that the opportunity is too big for us not to chase it and get to it. And I suspect that a 2026 breakthrough is possible. I don't believe even in 2026 that we're going to get to a models magically understand all intent moment. I think of it more as an alwayson agent can routinely run cheap and intermediate checks automatically in the background that approximate a human second pass and only escalate to a user or escalate to a resolution loop when the uncertainty is high or it determines the consequences are very serious or irreversible. That would simulate intent well enough for us to be moving on with even as we work on the larger problem. An interesting way to see where intent is going is to look sideways at the crypto community where intents become a thing for basically the same reason that agents are difficult. Intents matter in crypto because actions are expensive and often irreversible. We're learning the same thing with LLMs and agents. Actions are expensive and often irreversible. So in intentbased DeFi systems, the user often has to sign an intent to trade that specifies constraints and desired outcomes and then specialized automated solvers will compete to execute that trade. The whole design separates what you want from how it is executed. Look, it's not a perfect analogy. Crypto has its own issues, but it's it's a clue in the direction that we're going, right? When execution is high stakes with aentic systems, systems tend to evolve toward explicit intent representations and solver checker mechanisms to ensure that that intent is accurately translated. I think that we're converging on a similar solution in the agent world because we need higher fidelity execution in 2026. So if you're building systems, I would advise you start to think about how you can separate interpretation from execution in your architecture so that you can learn to inspect and test the model's understanding before it touches tools. Start to think about how to run your agent against eval suites that include ambiguous prompts on purpose because the real world is going to be ambiguous and you should be grading how the model reaches the final output and how well it handles ambiguity along the way. Agent behavior needs to be evaluated in tool use in multi-step settings under controlled conditions. I would also take adopting a disambiguation mindset seriously. And you can implement it relatively simply when an action is destructive. Have the agent know that and then trigger a surfaced interpretation and a clarifying question if multiple plausible meanings exist. Look, an example could be if it's deleting a record in your database, right? Maybe it needs to surface an interpretation and a clarifier to another LLM or if the stakes are high enough to a human. But the point is to start to align what we're learning about the importance of disambiguating intent with the way we design our agentic systems. And obviously you're going to want to do this selectively. You cannot have the agent ask a question every breath because then it removes the point of having the agent at all. You need to decide where the agent really needs to get intent right and where your agentic system alone can't carry that intent clearly. And then you're going to find out, okay, now we need to have a disambiguation loop here. This is what this loop looks like. This is why it matters here. This is why it's worth it. And then before you forget, make sure you externalize your intent as an artifact that you can update. Because the closer you are to having a sort of living requirements page or a living intent page, the more you're going to be able to build interfaces that actually drive quality over time because you're going to be able to say it's okay if you change your mind. It's okay if you update your intent. Intent is a separate artifact in our system and we can codify it really, really cleanly and we can plug and play it as we need to. It opens up a lot of flexibility in your system design. I think looking ahead, the winners in designing Agentic systems are not going to be the ones that have thousands of tools or the most tools. They're not going to be the ones that have put their agents in the most different places in the business even. They're going to be the tools and designers and systems engineers who are able to reliably design agents that can carry intent clearly all the way to executable work. I think we'll get some help from modelmakers on intent in 2026, but a lot of it is going to be on us, the builders. And I hope this video has given you a sense of how we can start to design for intent as a first class object in Agentic Systems. F.",
+  "fetchedAt": "2026-01-18T18:33:00.987Z"
+}

@@ -1,0 +1,299 @@
+{
+  "videoId": "0J_fz6RlqVg",
+  "language": "en",
+  "source": "caption-extractor",
+  "segments": [
+    {
+      "start": 4.48,
+      "duration": 3.68,
+      "text": "Okay, so we have our front-end"
+    },
+    {
+      "start": 5.92,
+      "duration": 5.04,
+      "text": "application, but it doesn't want to"
+    },
+    {
+      "start": 8.16,
+      "duration": 4.88,
+      "text": "manage a complex multi-step AI workflow."
+    },
+    {
+      "start": 10.96,
+      "duration": 4.16,
+      "text": "It just wants to ask a question and get"
+    },
+    {
+      "start": 13.04,
+      "duration": 4.319,
+      "text": "an answer. Think of our front end like a"
+    },
+    {
+      "start": 15.12,
+      "duration": 3.68,
+      "text": "homeowner who wants a new kitchen. They"
+    },
+    {
+      "start": 17.359,
+      "duration": 2.801,
+      "text": "don't want to manage the plumber, the"
+    },
+    {
+      "start": 18.8,
+      "duration": 3.28,
+      "text": "electrician, and the carpenter"
+    },
+    {
+      "start": 20.16,
+      "duration": 3.52,
+      "text": "individually. So, they hire a general"
+    },
+    {
+      "start": 22.08,
+      "duration": 3.6,
+      "text": "contractor instead. That's what our"
+    },
+    {
+      "start": 23.68,
+      "duration": 4.08,
+      "text": "orchestrator agent will be. It's the"
+    },
+    {
+      "start": 25.68,
+      "duration": 4.48,
+      "text": "general contractor, but for our AI"
+    },
+    {
+      "start": 27.76,
+      "duration": 4.24,
+      "text": "squad. It hides all of the wild internal"
+    },
+    {
+      "start": 30.16,
+      "duration": 3.919,
+      "text": "complexity from your users. In the"
+    },
+    {
+      "start": 32,
+      "duration": 4.88,
+      "text": "orchestrator's code, we connect to a"
+    },
+    {
+      "start": 34.079,
+      "duration": 5.041,
+      "text": "remote specialist using remote ATA"
+    },
+    {
+      "start": 36.88,
+      "duration": 4.08,
+      "text": "agent. We just give it a URL and that's"
+    },
+    {
+      "start": 39.12,
+      "duration": 4.08,
+      "text": "it. It's that simple. It adds the"
+    },
+    {
+      "start": 40.96,
+      "duration": 5.04,
+      "text": "subcontractor to the team. Now, for the"
+    },
+    {
+      "start": 43.2,
+      "duration": 5.679,
+      "text": "logic, we want a research to judge loop."
+    },
+    {
+      "start": 46,
+      "duration": 4.96,
+      "text": "ADK makes this trivial with loop agent."
+    },
+    {
+      "start": 48.879,
+      "duration": 4.641,
+      "text": "But how does it know when to stop? To"
+    },
+    {
+      "start": 50.96,
+      "duration": 4.4,
+      "text": "accomplish this, we need a shared state."
+    },
+    {
+      "start": 53.52,
+      "duration": 4.719,
+      "text": "When the judge runs, we save its"
+    },
+    {
+      "start": 55.36,
+      "duration": 5.76,
+      "text": "feedback to the session state. Then our"
+    },
+    {
+      "start": 58.239,
+      "duration": 5.441,
+      "text": "escalator checker, a tiny custom agent,"
+    },
+    {
+      "start": 61.12,
+      "duration": 4.88,
+      "text": "peaks at that state. If it sees status"
+    },
+    {
+      "start": 63.68,
+      "duration": 4.96,
+      "text": "pass, it pulls the emergency break by"
+    },
+    {
+      "start": 66,
+      "duration": 4.479,
+      "text": "yielding an escalate equals true event."
+    },
+    {
+      "start": 68.64,
+      "duration": 3.92,
+      "text": "It's like the building inspector finally"
+    },
+    {
+      "start": 70.479,
+      "duration": 3.921,
+      "text": "signing off on all the permits. But we"
+    },
+    {
+      "start": 72.56,
+      "duration": 3.919,
+      "text": "don't want our users staring at a blank"
+    },
+    {
+      "start": 74.4,
+      "duration": 3.92,
+      "text": "screen. Obviously, we want to implement"
+    },
+    {
+      "start": 76.479,
+      "duration": 4,
+      "text": "streaming so that they get updates every"
+    },
+    {
+      "start": 78.32,
+      "duration": 4.72,
+      "text": "step of the way. In our server, we tap"
+    },
+    {
+      "start": 80.479,
+      "duration": 4.64,
+      "text": "into the ADK event stream. And as events"
+    },
+    {
+      "start": 83.04,
+      "duration": 3.759,
+      "text": "fly by, we check who sent them. And if"
+    },
+    {
+      "start": 85.119,
+      "duration": 4.32,
+      "text": "it's the researcher, we tell the front"
+    },
+    {
+      "start": 86.799,
+      "duration": 4.561,
+      "text": "end researcher is working, for example."
+    },
+    {
+      "start": 89.439,
+      "duration": 3.36,
+      "text": "But let's run it all locally. I've got a"
+    },
+    {
+      "start": 91.36,
+      "duration": 3.68,
+      "text": "script that spins up all four"
+    },
+    {
+      "start": 92.799,
+      "duration": 4.241,
+      "text": "microservices on my laptop. It's a full"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.439,
+      "text": "distributed system on one machine. All"
+    },
+    {
+      "start": 97.04,
+      "duration": 3.119,
+      "text": "of the code is in the description below"
+    },
+    {
+      "start": 98.479,
+      "duration": 4,
+      "text": "for you to follow along as well. The"
+    },
+    {
+      "start": 100.159,
+      "duration": 4.401,
+      "text": "front end connects to just one port, but"
+    },
+    {
+      "start": 102.479,
+      "duration": 4.721,
+      "text": "it gets live updates from the whole"
+    },
+    {
+      "start": 104.56,
+      "duration": 5.28,
+      "text": "squad. This is the user experience we"
+    },
+    {
+      "start": 107.2,
+      "duration": 5.04,
+      "text": "want. So to recap, the orchestrator is"
+    },
+    {
+      "start": 109.84,
+      "duration": 4.959,
+      "text": "our general contractor. It manages the"
+    },
+    {
+      "start": 112.24,
+      "duration": 4.879,
+      "text": "workflow using ADK patterns and shared"
+    },
+    {
+      "start": 114.799,
+      "duration": 4.081,
+      "text": "state. It uses streaming to keep the"
+    },
+    {
+      "start": 117.119,
+      "duration": 3.6,
+      "text": "homeowner, which is the front end, happy"
+    },
+    {
+      "start": 118.88,
+      "duration": 3.599,
+      "text": "while the work gets done. So, it works"
+    },
+    {
+      "start": 120.719,
+      "duration": 4.561,
+      "text": "on my machine, but that's not good"
+    },
+    {
+      "start": 122.479,
+      "duration": 7.64,
+      "text": "enough. Next, we'll take the whole squad"
+    },
+    {
+      "start": 125.28,
+      "duration": 4.839,
+      "text": "into production. Bye for now."
+    },
+    {
+      "start": 137.24,
+      "duration": 3.549,
+      "text": "[Music]"
+    }
+  ],
+  "fullText": "Okay, so we have our front-end application, but it doesn't want to manage a complex multi-step AI workflow. It just wants to ask a question and get an answer. Think of our front end like a homeowner who wants a new kitchen. They don't want to manage the plumber, the electrician, and the carpenter individually. So, they hire a general contractor instead. That's what our orchestrator agent will be. It's the general contractor, but for our AI squad. It hides all of the wild internal complexity from your users. In the orchestrator's code, we connect to a remote specialist using remote ATA agent. We just give it a URL and that's it. It's that simple. It adds the subcontractor to the team. Now, for the logic, we want a research to judge loop. ADK makes this trivial with loop agent. But how does it know when to stop? To accomplish this, we need a shared state. When the judge runs, we save its feedback to the session state. Then our escalator checker, a tiny custom agent, peaks at that state. If it sees status pass, it pulls the emergency break by yielding an escalate equals true event. It's like the building inspector finally signing off on all the permits. But we don't want our users staring at a blank screen. Obviously, we want to implement streaming so that they get updates every step of the way. In our server, we tap into the ADK event stream. And as events fly by, we check who sent them. And if it's the researcher, we tell the front end researcher is working, for example. But let's run it all locally. I've got a script that spins up all four microservices on my laptop. It's a full distributed system on one machine. All of the code is in the description below for you to follow along as well. The front end connects to just one port, but it gets live updates from the whole squad. This is the user experience we want. So to recap, the orchestrator is our general contractor. It manages the workflow using ADK patterns and shared state. It uses streaming to keep the homeowner, which is the front end, happy while the work gets done. So, it works on my machine, but that's not good enough. Next, we'll take the whole squad into production. Bye for now. [Music]",
+  "fetchedAt": "2026-01-18T18:31:42.826Z"
+}
