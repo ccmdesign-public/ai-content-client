@@ -15,7 +15,7 @@ const { getTagBySlug } = useTagsConfig()
 const tagConfig = computed(() => getTagBySlug(slug.value))
 
 // Load tag data and cross-referenced summaries
-const { summaries, summaryItemCount, pending } = useTagIndex(slug)
+const { summaries, summaryItemCount, pending, error, refresh } = useTagIndex(slug)
 
 // Sort and group
 const items = computed(() => summaries.value || [])
@@ -38,7 +38,11 @@ useHead({
 
 <template>
   <div class="p-7">
-    <div v-if="pending" class="text-center py-14 text-muted-foreground">Loading...</div>
+    <div v-if="pending" aria-busy="true" aria-label="Loading topic summaries">
+      <SummaryCardSkeleton v-for="n in 5" :key="n" />
+    </div>
+
+    <PageErrorState v-else-if="error" message="Failed to load topic data." @retry="refresh()" />
 
     <PageNotFound
       v-else-if="!tagConfig"

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/formatDate'
+import { useSanitizedHtml } from '~/composables/useSanitizedHtml'
 import { marked } from 'marked'
 
 const renderer = {
@@ -9,6 +10,8 @@ const renderer = {
 }
 
 marked.use({ renderer })
+
+const { sanitizeMarkdown } = useSanitizedHtml()
 
 interface SummaryMetadata {
   videoId: string
@@ -59,7 +62,8 @@ defineProps<{
       <div
         v-if="summary.tldr"
         class="text-sm text-muted-foreground prose prose-sm prose-zinc dark:prose-invert max-w-none [&_ul]:list-disc [&_ul]:ml-4"
-        v-html="marked.parse(summary.tldr)"
+        <!-- eslint-disable-next-line vue/no-v-html -->
+        v-html="sanitizeMarkdown(summary.tldr)"
       />
     </div>
   </article>

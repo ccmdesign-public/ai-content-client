@@ -1,8 +1,26 @@
 <template>
   <section class="py-8">
-    <div v-if="pending" class="text-center text-muted-foreground">Loading...</div>
-    <div v-else-if="error" class="text-center text-destructive">Error: {{ error }}</div>
-    <div v-else-if="!article" class="text-center text-muted-foreground">Not found</div>
+    <!-- Loading skeleton -->
+    <div v-if="pending" aria-busy="true" aria-label="Loading article">
+      <div class="max-w-[80ch] mx-auto px-4 space-y-4">
+        <Skeleton class="h-4 w-24" />
+        <Skeleton class="h-4 w-1/3" />
+        <Skeleton class="h-8 w-3/4" />
+        <Skeleton class="h-5 w-1/2" />
+        <Skeleton class="h-4 w-full" />
+        <Skeleton class="h-4 w-5/6" />
+        <Skeleton class="h-4 w-2/3" />
+      </div>
+    </div>
+    <PageErrorState v-else-if="error" message="Failed to load this article." @retry="refresh()" />
+    <PageNotFound
+      v-else-if="!article"
+      icon="article"
+      title="Article not found"
+      message="We couldn't find the article you're looking for."
+      link-to="/"
+      link-text="Back to feed"
+    />
     <div v-else>
       <div class="center">
         <NuxtLink to="/" class="text-sm text-muted-foreground hover:text-foreground">Back to feed</NuxtLink>
@@ -51,7 +69,7 @@ const route = useRoute()
 const slugParts = route.params.slug as string[]
 const fullPath = `/articles/${slugParts.join('/')}`
 
-const { data: article, pending, error } = useAsyncData(
+const { data: article, pending, error, refresh } = useAsyncData(
   `article-${fullPath}`,
   async () => {
     // Query by exact path

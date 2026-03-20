@@ -32,7 +32,7 @@ export function useTagIndex(slug: MaybeRefOrGetter<string>) {
 
   // Load tag data from Nuxt Content data collection
   // Pass reactive key and watch slug changes for client-side navigation
-  const { data: tagData, pending: tagPending, error: tagError } = useAsyncData(
+  const { data: tagData, pending: tagPending, error: tagError, refresh: refreshTag } = useAsyncData(
     key,
     () => queryCollection('tags')
       .where('stem', '=', resolvedSlug.value)
@@ -55,7 +55,7 @@ export function useTagIndex(slug: MaybeRefOrGetter<string>) {
   // Load only summaries whose videoId appears in the tag's item list.
   // Uses queryCollection with a where clause instead of loading the
   // entire summaries collection, dramatically reducing data per page.
-  const { data: summaries, pending: summariesPending } = useAsyncData(
+  const { data: summaries, pending: summariesPending, refresh: refreshSummaries } = useAsyncData(
     computed(() => `tag-summaries:${resolvedSlug.value}`),
     async () => {
       const ids = summaryVideoIds.value
@@ -77,6 +77,10 @@ export function useTagIndex(slug: MaybeRefOrGetter<string>) {
     summaries: computed(() => summaries.value || []),
     summaryItemCount,
     pending,
-    error: tagError
+    error: tagError,
+    async refresh() {
+      await refreshTag()
+      await refreshSummaries()
+    }
   }
 }
