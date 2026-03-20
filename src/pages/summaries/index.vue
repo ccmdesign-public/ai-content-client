@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { useDateGroups } from '~/composables/useDateGroups'
-import { useSortOptions } from '~/composables/useSortOptions'
+import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
 import { AlertCircle, SearchX, FilterX } from 'lucide-vue-next'
@@ -23,18 +22,7 @@ const {
 } = useSummariesFilter(summaries, tagsByCategory)
 
 // Sort the filtered results
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(filteredSummaries)
-const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
-
-// When not a date sort, build a single flat segment to pass to DateGroupedFeed
-const feedSegments = computed(() =>
-  isDateSort.value
-    ? segments.value
-    : sorted.value.length > 0
-      ? [{ key: 'older' as const, label: '', items: sorted.value }]
-      : []
-)
+const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(filteredSummaries)
 
 // Search integration -- injected from layout
 const search = inject('search') as ReturnType<typeof import('~/composables/useSearch').useSearch> | undefined
@@ -51,6 +39,22 @@ const searchError = computed(() => search?.error.value ?? null)
 function onSearchExpand() {
   search?.init()
 }
+
+// Map search results to the shape SummaryCard expects
+const searchResultsAsSummaries = computed(() =>
+  searchResults.value.map(result => ({
+    metadata: {
+      videoId: result.id,
+      title: result.title,
+      channel: result.channel,
+      publishedAt: result.date,
+      thumbnailUrl: result.thumbnailUrl,
+      youtubeUrl: `https://www.youtube.com/watch?v=${result.id}`,
+    },
+    processedAt: result.date,
+    tldr: result.tldr,
+  }))
+)
 
 // Page title adapts to search state
 const pageTitle = computed(() => isSearchActive.value ? 'Search Results' : 'All Summaries')
@@ -107,22 +111,11 @@ const displayedCount = computed(() =>
     </div>
 
     <!-- Search results -->
-    <div v-else-if="isSearchActive && searchResults.length > 0" class="flex flex-col">
+    <div v-else-if="isSearchActive && searchResultsAsSummaries.length > 0" class="flex flex-col">
       <SummaryCard
-        v-for="result in searchResults"
-        :key="result.id"
-        :summary="{
-          metadata: {
-            videoId: result.id,
-            title: result.title,
-            channel: result.channel,
-            publishedAt: result.date,
-            thumbnailUrl: result.thumbnailUrl,
-            youtubeUrl: `https://www.youtube.com/watch?v=${result.id}`,
-          },
-          processedAt: result.date,
-          tldr: result.tldr,
-        }"
+        v-for="item in searchResultsAsSummaries"
+        :key="item.metadata.videoId"
+        :summary="item"
       />
     </div>
 

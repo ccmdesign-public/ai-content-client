@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { useDateGroups } from '~/composables/useDateGroups'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
-import { useSortOptions } from '~/composables/useSortOptions'
+import { useSortedFeed } from '~/composables/useSortedFeed'
 import { deslugify } from '~/utils/slugify'
 
 const route = useRoute()
@@ -54,17 +53,7 @@ const shouldShow404 = computed(() => {
 })
 
 // Sort and group -- summaries is already a computed with null guard
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(summaries)
-const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
-
-const feedSegments = computed(() =>
-  isDateSort.value
-    ? segments.value
-    : sorted.value.length > 0
-      ? [{ key: 'older' as const, label: '', items: sorted.value }]
-      : []
-)
+const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(summaries)
 
 // Check if empty (channel exists in config but no summaries)
 const isEmpty = computed(() => {
@@ -81,8 +70,8 @@ useHead({
 </script>
 
 <template>
-  <div class="channel-page">
-    <div v-if="!allSummaries" class="loading">Loading...</div>
+  <div class="p-7">
+    <div v-if="!allSummaries" class="text-center py-14 text-muted-foreground">Loading...</div>
 
     <PageNotFound
       v-else-if="shouldShow404"
@@ -94,11 +83,11 @@ useHead({
     />
 
     <template v-else>
-      <header class="page-header">
-        <div class="page-header__top">
+      <header class="mb-7">
+        <div class="flex justify-between items-start gap-5 flex-wrap">
           <div>
-            <h1>{{ displayName }}</h1>
-            <p class="page-header__count">{{ summaries.length }} videos</p>
+            <h1 class="m-0 text-xl">{{ displayName }}</h1>
+            <p class="mt-1.5 text-muted-foreground text-sm">{{ summaries.length }} videos</p>
           </div>
           <SortControl v-model="currentSort" />
         </div>
@@ -119,38 +108,3 @@ useHead({
     </template>
   </div>
 </template>
-
-<style scoped>
-.channel-page {
-  padding: 1.75rem;
-}
-
-.page-header {
-  margin-bottom: 1.75rem;
-}
-
-.page-header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.3125rem;
-  flex-wrap: wrap;
-}
-
-.page-header h1 {
-  margin: 0;
-  font-size: 1.25rem;
-}
-
-.page-header__count {
-  margin: 0.375rem 0 0;
-  color: var(--muted-foreground);
-  font-size: 0.875rem;
-}
-
-.loading {
-  text-align: center;
-  padding: 3.5rem;
-  color: var(--muted-foreground);
-}
-</style>

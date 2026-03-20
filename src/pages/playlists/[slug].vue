@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
-import { useDateGroups } from '~/composables/useDateGroups'
-import { useSortOptions, type Sortable } from '~/composables/useSortOptions'
+import { useSortedFeed } from '~/composables/useSortedFeed'
+import type { Sortable } from '~/composables/useSortOptions'
 import { ListX } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 
@@ -11,18 +11,10 @@ const { getPlaylistBySlug } = usePlaylistsConfig()
 const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 
 // All composable calls must happen before the synchronous throw.
+// useSortedFeed internally calls useSortOptions which uses tryUseNuxtApp() and useRoute()
+// -- these must be called during synchronous component setup, before any throw.
 const items = computed<Sortable[]>(() => summaries.value || [])
-const { currentSort, sorted, isDateSort, currentSortLabel } = useSortOptions(items)
-const dateSortDirection = computed(() => currentSort.value === 'publish-date-asc' ? 'asc' as const : 'desc' as const)
-const { segments } = useDateGroups(computed(() => isDateSort.value ? sorted.value : []), undefined, dateSortDirection)
-
-const feedSegments = computed(() =>
-  isDateSort.value
-    ? segments.value
-    : sorted.value.length > 0
-      ? [{ key: 'older' as const, label: '', items: sorted.value }]
-      : []
-)
+const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
 
 // 404 if playlist not found
 if (!playlist.value) {
