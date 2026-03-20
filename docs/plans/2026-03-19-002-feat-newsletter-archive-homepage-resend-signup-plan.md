@@ -3,6 +3,29 @@ title: "feat: Newsletter archive as homepage + Resend signup"
 type: feat
 status: active
 date: 2026-03-19
+deepened: 2026-03-19
+---
+
+## Enhancement Summary
+
+**Deepened on:** 2026-03-19
+**Sections enhanced:** 8
+**Research sources:** Nuxt Content v3 docs (Context7), Resend API docs (Context7), Netlify hybrid rendering docs, newsletter signup UX research, project learnings (3 solution files), codebase analysis (content.config.ts, nuxt.config.ts, sitemap.xml.ts, contact.post.ts, index.vue)
+
+### Key Improvements
+1. **Resolved the static-vs-serverless blocker** with concrete Netlify preset + hybrid rendering guidance (routeRules for prerender + serverless coexistence)
+2. **Added honeypot spam prevention** to the signup form -- invisible to users, blocks bots without degrading UX (no reCAPTCHA needed)
+3. **Updated Resend API endpoint** from deprecated `/audiences/{id}/contacts` to the new global `/contacts` endpoint (contacts are now global entities, no audience_id required for creation)
+4. **Added `rel="noopener noreferrer"` and `useId()` patterns** from project learnings to prevent SSR hydration mismatches and security issues on external links
+5. **Added structured data (JSON-LD), Open Graph, and RSS autodiscovery** for newsletter issue pages, grounding SEO recommendations with concrete implementation patterns
+
+### New Considerations Discovered
+- Resend contacts are now global (not per-audience); the plan's API call pattern needs updating
+- The `static` preset is a hard blocker for the subscribe endpoint; switching to `netlify` preset enables hybrid rendering with route-level control over prerender vs serverless
+- Honeypot field is essential for a public signup form exposed as a LinkedIn CTA (high bot traffic risk)
+- The `closing` field should also support rich text (move to body or use a second Markdown section delimiter)
+- Sitemap priority for `/` must flip from 0.5 to 1.0 when the redirect is removed (documented learning from PR #8)
+
 ---
 
 # feat: Newsletter archive as homepage + Resend signup
@@ -100,7 +123,7 @@ ai-content-scraper                    ai-content-client (this repo)
                                       |   Full issue detail page         |
                                       +----------------------------------+
                                       | src/server/api/subscribe.post.ts |
-                                      |   Resend audience API            |
+                                      |   Resend contacts API            |
                                       +----------------------------------+
 ```
 
@@ -112,8 +135,8 @@ ai-content-scraper                    ai-content-client (this repo)
 | `src/content/newsletters/` | Create (dir) | Newsletter content files |
 | `src/pages/index.vue` | Rewrite | Hero + signup form + issue archive list |
 | `src/pages/issues/[id].vue` | Create | Issue detail page |
-| `src/server/api/subscribe.post.ts` | Create | Resend audience signup endpoint |
-| `src/nuxt.config.ts` | Modify | Remove `/` redirect, add `RESEND_API_KEY` + `RESEND_AUDIENCE_ID` to runtimeConfig, update prerender routes |
+| `src/server/api/subscribe.post.ts` | Create | Resend contacts signup endpoint |
+| `src/nuxt.config.ts` | Modify | Switch to `netlify` preset, remove `/` redirect, add `RESEND_API_KEY` to runtimeConfig, update prerender routes |
 | `src/components/content/NewsletterSignupForm.vue` | Create | Reusable signup form component |
 | `src/components/content/IssueCard.vue` | Create | Issue list item card for the archive |
 | `src/layouts/default.vue` | Potentially modify | Adjust sidebar/hero behavior for homepage |
@@ -171,6 +194,23 @@ ai-content-scraper                    ai-content-client (this repo)
 **Decision: `type: 'page'` vs `type: 'data'`**
 
 Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for the editorial intro (which may contain rich text formatting), while structured data lives in frontmatter. The alternative (`type: 'data'` with JSON files) would be simpler but loses rich text rendering for the intro and closing.
+
+### Research Insights -- Phase 1
+
+**Best Practices (from Nuxt Content v3 docs):**
+- Nuxt Content v3 uses an SQL database backend (not file-based), which means querying large numbers of newsletter issues remains performant even as the archive grows
+- The `defineContentConfig` wrapper function is the recommended v3 pattern (the existing `content.config.ts` already uses it correctly via `defineContentConfig`)
+- `type: 'page'` automatically adds `body`, `title`, `path`, and SEO metadata fields to the schema; `type: 'data'` only provides base `metaStandardSchema` fields -- this confirms `type: 'page'` is correct for newsletter issues since we want path-based routing and body rendering
+- There is no strict file-extension requirement for collection types: page collections can use `.md`, `.yaml`, or `.json` files
+
+**Edge Cases:**
+- The `closing` field is stored in frontmatter as a plain string, but may contain Markdown formatting. If rich text rendering is needed for closing, consider using a Markdown section delimiter (e.g., `<!-- closing -->`) in the body to separate `editorialIntro` from `closing`, rendering both via `ContentRenderer`
+- YAML frontmatter with deeply nested arrays (like `featuredPicks`) can be fragile with special characters in `commentary` or `summary` fields. The sync script should escape YAML special chars (`"`, `:`, `#`, `|`) or use block scalars (`|`) for multiline text
+- If a newsletter has zero `quickLinks` or zero `featuredPicks`, the Zod schema will pass (arrays can be empty), but the UI must handle this gracefully
+
+**Performance Considerations:**
+- The `queryCollection('newsletters').order('publishedAt', 'DESC').all()` call fetches all issues at once. For the first year (~150 issues at 3x/week), this is fine. If the archive grows beyond 200+, consider pagination with `.limit()` and `.offset()` or a "load more" pattern
+- Prerendering with `crawlLinks: true` means every issue linked from the homepage will be discovered and prerendered automatically -- no need to manually add `/issues/*` routes
 
 **Estimated effort:** 2-3 hours
 
@@ -252,6 +292,37 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
   - Adequate spacing between items
 - [ ] Add SEO meta tags: `useHead()` with title, description, og:image for the homepage
 
+### Research Insights -- Phase 2
+
+**Spam Prevention (Honeypot Pattern):**
+- A honeypot field is strongly recommended for any public signup form, especially one used as a LinkedIn CTA destination (higher bot traffic). This avoids the UX penalty of reCAPTCHA while blocking most automated submissions
+- Implementation: add a hidden input field to the form with a realistic name (e.g., `company`), `tabindex="-1"`, `autocomplete="one-time-code"`, and `aria-hidden="true"` on the label. If this field has a value on submission, reject silently (return `{ ok: true }` to avoid leaking detection)
+- The server-side handler should check for the honeypot field and silently discard submissions where it is populated:
+  ```typescript
+  // In subscribe.post.ts
+  const honeypot = body?.company || ''
+  if (honeypot) {
+    // Bot detected -- return success to avoid revealing the trap
+    return { ok: true }
+  }
+  ```
+
+**Accessibility (from WCAG 2.1 guidelines):**
+- Use `useId()` (Vue 3.5+) for deterministic, SSR-safe IDs for label-input association -- this prevents hydration mismatches (documented in project learning: `docs/solutions/ui-bugs/styling-audit-legacy-cleanup-patterns.md`, pattern #1)
+- The signup form must be keyboard-navigable: `Tab` to email input, `Enter` to submit
+- Error messages should use `role="alert"` or `aria-live="assertive"` so screen readers announce validation failures immediately
+- Success messages should use `aria-live="polite"` to announce without interrupting
+
+**UX Best Practices:**
+- Single-field signup (email only) has the highest conversion rate for newsletter forms. Do not add first/last name fields at signup; collect those later via a welcome email or preference center
+- Show subscriber count or issue count as social proof near the form ("Join 500+ subscribers" or "47 issues and counting")
+- The success state should persist (use `localStorage` to remember signup) so returning visitors see "You're subscribed!" instead of the form
+- Consider adding a "preview latest issue" link near the signup CTA for visitors who want to evaluate content before subscribing
+
+**Performance Considerations:**
+- The signup form should be client-only (`<ClientOnly>` wrapper or `lazy: true`) since the form state is inherently client-side. This avoids serializing form state during SSR
+- Specify exact CSS transition properties instead of `transition: all` (documented in project learning: `docs/solutions/ui-bugs/styling-audit-legacy-cleanup-patterns.md`, pattern #4)
+
 **Estimated effort:** 3-4 hours
 
 #### Phase 3: Issue Detail Pages
@@ -276,7 +347,7 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
   <section class="featured-picks">
     <h2>Featured Picks</h2>
     <article v-for="pick in issue.featuredPicks" class="pick">
-      <h3><a :href="pick.url" target="_blank">{{ pick.title }}</a></h3>
+      <h3><a :href="pick.url" target="_blank" rel="noopener noreferrer">{{ pick.title }}</a></h3>
       <p class="pick__source">{{ pick.source }}</p>
       <p class="pick__summary">{{ pick.summary }}</p>
       <blockquote class="pick__commentary">{{ pick.commentary }}</blockquote>
@@ -289,7 +360,7 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
     <h2>Quick Links</h2>
     <ul>
       <li v-for="link in issue.quickLinks">
-        <a :href="link.url" target="_blank">{{ link.title }}</a>
+        <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
         <span class="quick-link__source">{{ link.source }}</span>
         <span class="quick-link__oneliner">{{ link.oneLiner }}</span>
       </li>
@@ -301,6 +372,53 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
 - [ ] Handle not-found gracefully (use existing `PageNotFound.vue` pattern)
 - [ ] Include the `NewsletterSignupForm` at the bottom of each issue page (secondary CTA for readers who arrived via direct link)
 
+### Research Insights -- Phase 3
+
+**SEO & Structured Data:**
+- Use JSON-LD `Article` schema with `@type: "Article"` (not `NewsArticle` -- that requires a news publishing organization). Include `headline`, `datePublished`, `author`, and `description`:
+  ```typescript
+  useHead({
+    script: [{
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: issue.subjectLine,
+        datePublished: issue.publishedAt,
+        description: issue.editorialIntro?.substring(0, 160),
+        author: {
+          '@type': 'Person',
+          name: 'AI Content Digest'  // Update with actual author/brand
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'AI Content Digest'
+        }
+      })
+    }]
+  })
+  ```
+- Open Graph tags should include `og:type: "article"`, `article:published_time`, and `article:section: "newsletter"`
+- Each issue page should have a unique, descriptive `<title>` and `<meta name="description">` -- truncate `editorialIntro` to ~155 characters for the description
+
+**Security:**
+- All external links (`pick.url`, `link.url`) must include `rel="noopener noreferrer"` when using `target="_blank"` to prevent reverse tabnapping. This is already reflected in the updated code examples above
+- Validate that URLs from content files are well-formed before rendering as `href` attributes. Malformed URLs in content could create broken links or XSS vectors if content files are ever user-contributed
+
+**Accessibility:**
+- External links should have an accessible indicator: add a visually hidden `<span class="sr-only">(opens in new tab)</span>` after each external link, or use an icon with `aria-label`
+- Use semantic HTML: `<article>` for each featured pick, `<blockquote>` for commentary (with `cite` attribute if applicable)
+- Ensure heading hierarchy is correct: `<h1>` for issue title, `<h2>` for section headings (Featured Picks, Quick Links), `<h3>` for individual pick titles
+
+**Performance:**
+- Avoid loading all issue content on the archive page. The homepage queries collection metadata only; full content (body) is loaded only on the detail page. Nuxt Content's `queryCollection` with `.all()` returns all fields including `body` -- consider using `.select()` to fetch only the fields needed for the archive list (subjectLine, publishedAt, path, stem) to reduce payload
+- For the homepage archive list, use `.select(['subjectLine', 'publishedAt', 'path', 'stem', 'featuredPicks', 'quickLinks'])` to avoid fetching the full body content
+
+**Edge Cases:**
+- Handle issues with very long subject lines (truncate with CSS `text-overflow: ellipsis` or clamp to 2 lines)
+- If `editorialIntro` in body contains images or iframes, ensure `ContentRenderer` does not load heavy assets on pages where only a text preview is needed
+- Prev/next navigation: use `queryCollection('newsletters').order('publishedAt', 'DESC').where('publishedAt', '<', currentIssue.publishedAt).limit(1)` for prev, and `'>'` for next
+
 **Estimated effort:** 3-4 hours
 
 #### Phase 4: Resend Signup API + Navigation + Cleanup
@@ -309,18 +427,43 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
 
 **Tasks:**
 
+- [ ] **Switch Nitro preset from `static` to `netlify`** in `src/nuxt.config.ts`:
+  ```typescript
+  nitro: {
+    preset: 'netlify',
+    // Prerender all content pages at build time
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
+    }
+  },
+  // Route rules for hybrid rendering
+  routeRules: {
+    // Prerender all content pages at build time
+    '/**': { prerender: true },
+    // Server routes remain as serverless functions (not prerendered)
+    '/api/**': { prerender: false }
+  }
+  ```
 - [ ] Add Resend runtime config to `src/nuxt.config.ts`:
   ```typescript
   runtimeConfig: {
     resendApiKey: process.env.RESEND_API_KEY || '',
-    resendAudienceId: process.env.RESEND_AUDIENCE_ID || '',
     // ... existing config
   }
   ```
 - [ ] Create `src/server/api/subscribe.post.ts`:
   ```typescript
   export default defineEventHandler(async (event) => {
-    const body = await readBody<{ email?: string }>(event)
+    const body = await readBody<{ email?: string; company?: string }>(event)
+
+    // Honeypot check -- bots fill hidden fields, humans don't
+    const honeypot = (body?.company || '').trim()
+    if (honeypot) {
+      // Silently accept to avoid revealing the trap
+      return { ok: true }
+    }
+
     const email = (body?.email || '').trim()
 
     // Validate email format
@@ -329,46 +472,99 @@ Use `type: 'page'` with Markdown files. This lets us use `ContentRenderer` for t
     }
 
     const config = useRuntimeConfig()
-    if (!config.resendApiKey || !config.resendAudienceId) {
+    if (!config.resendApiKey) {
       throw createError({ statusCode: 500, statusMessage: 'Email service not configured' })
     }
 
-    // Add contact to Resend audience
-    const response = await $fetch(
-      `https://api.resend.com/audiences/${config.resendAudienceId}/contacts`,
-      {
+    // Add contact to Resend (global contacts endpoint -- no audience_id needed)
+    try {
+      await $fetch('https://api.resend.com/contacts', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${config.resendApiKey}`,
           'Content-Type': 'application/json',
         },
         body: { email, unsubscribed: false },
+      })
+    } catch (err: any) {
+      // Handle Resend API errors gracefully
+      const status = err?.response?.status || 500
+      if (status === 429) {
+        throw createError({ statusCode: 429, statusMessage: 'Too many requests. Please try again in a moment.' })
       }
-    )
+      throw createError({ statusCode: 500, statusMessage: 'Unable to subscribe. Please try again later.' })
+    }
 
     return { ok: true }
   })
   ```
-  - Uses Resend's REST API directly (no SDK dependency needed -- it is a single POST call)
+  - Uses Resend's global `/contacts` endpoint (not the deprecated `/audiences/{id}/contacts` -- contacts are now global entities that can belong to multiple audiences)
+  - Includes honeypot check before validation
+  - Handles 429 rate limit responses explicitly
   - Pattern follows existing `src/server/api/contact.post.ts`
-  - Error handling: catch Resend API errors and return user-friendly messages
-  - Rate limiting consideration: Resend allows 2 req/sec; for a signup form this is not a bottleneck
 - [ ] Update navigation in sidebar/header:
   - Logo/title links to `/` (verify this is already the case)
   - If the sidebar (`SidebarNav.vue`) has a home link, ensure it points to `/` and is labeled appropriately
   - Consider whether to show "Newsletter" or "Home" as the primary nav item
-- [ ] Update prerender routes in `src/nuxt.config.ts`:
+- [ ] Update prerender routes in `src/nuxt.config.ts` (already covered in preset switch above)
+- [ ] Update `src/server/routes/sitemap.xml.ts` to include newsletter issue URLs and update homepage priority:
   ```typescript
-  nitro: {
-    prerender: {
-      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
-      // Note: /issues/* routes will be discovered via crawlLinks: true
-    }
+  // Homepage is now the primary content page (no longer a redirect)
+  urls.push({
+    loc: '/',
+    changefreq: 'daily',
+    priority: 1.0   // Was 0.5 when it was a redirect
+  })
+
+  // Summaries index (secondary content page now)
+  urls.push({
+    loc: '/summaries/',
+    changefreq: 'daily',
+    priority: 0.8   // Was 1.0 when it was the primary page
+  })
+
+  // Newsletter issue pages
+  const newsletters = await queryCollection(event, 'newsletters').all()
+  for (const issue of newsletters) {
+    urls.push({
+      loc: `/issues/${issue.stem}`,
+      lastmod: issue.publishedAt || undefined,
+      changefreq: 'monthly',   // Newsletter issues don't change after publication
+      priority: 0.7
+    })
   }
   ```
-- [ ] Update `src/server/routes/sitemap.xml.ts` to include newsletter issue URLs
 - [ ] Verify the homepage redirect removal does not break any existing links (the 302 to `/summaries/` should simply stop; `/summaries/` remains accessible directly)
-- [ ] Add `.env.example` entries for `RESEND_API_KEY` and `RESEND_AUDIENCE_ID`
+- [ ] Add `.env.example` entries for `RESEND_API_KEY`
+- [ ] Add RSS autodiscovery link for newsletter feed (if a separate newsletter RSS feed is planned)
+
+### Research Insights -- Phase 4
+
+**Netlify Preset & Hybrid Rendering (Critical Resolution):**
+- The `static` preset is confirmed as a hard blocker: server API routes do not exist at runtime in static deployments. Switching to `netlify` preset resolves this completely
+- With the `netlify` preset, Nuxt's hybrid rendering works out-of-the-box: pages with `prerender: true` in routeRules are generated at build time and served from CDN, while server routes (like `/api/subscribe`) become Netlify serverless functions automatically
+- Using `'/**': { prerender: true }` with `'/api/**': { prerender: false }` gives the best of both worlds: all content pages are static (fast, cheap), while API endpoints remain dynamic
+- This approach has been validated by Netlify: enterprise customers saw an 11% reduction in function invocations when using hybrid rendering with proper routeRules
+- The `crawlLinks: true` setting in prerender config means `/issues/*` routes are automatically discovered from homepage links -- no manual route list needed
+
+**Resend API Updates:**
+- Resend contacts are now global entities identified by email address. A contact can be part of zero, one, or multiple audiences. The new global `/contacts` endpoint replaces the old `/audiences/{id}/contacts` pattern
+- Contacts that exist in multiple audiences count as a single contact in your quota
+- The `audience_id` parameter is no longer required for contact creation -- SDKs have been updated accordingly
+- Default rate limit is 2 requests per second per team. For a newsletter signup form, this is not a bottleneck, but the handler should still catch 429 responses and return a user-friendly "try again" message
+- Resend returns error objects (not exceptions) for rate limits -- the `$fetch` wrapper will throw on non-2xx status codes, so the try/catch pattern works correctly
+
+**Sitemap Updates (from project learning):**
+- When removing the homepage redirect, sitemap priorities must be updated (documented in `docs/solutions/logic-errors/route-relocation-stale-reference-cleanup.md`, pattern #3): the homepage should become priority 1.0 (was 0.5 as a redirect), and `/summaries/` should drop to 0.8 (was 1.0 as primary page)
+- Newsletter issue URLs should use `changefreq: 'monthly'` since published issues rarely change
+- Consider adding `<lastmod>` with the `publishedAt` date for each issue URL
+
+**Naming Convention (from project learning):**
+- When the homepage changes purpose from redirect to newsletter landing, grep for stale "home" or "homepage" references across CSS classes, composable names, and `useAsyncData` keys (documented in `docs/solutions/logic-errors/route-relocation-stale-reference-cleanup.md`, pattern #2)
+- The `useAsyncData` key should be `'newsletters'` (as specified), not `'homepage-data'` or similar
+
+**Cross-Repo Plan Metadata (from project learning):**
+- This plan references `docs/plans/2026-03-19-001-feat-newsletter-3x-cadence-linkedin-teaser-plan.md` which covers work in `ai-content-scraper`. Apply the scope-note pattern from `docs/solutions/logic-errors/cross-repo-plan-metadata-accuracy.md`: reference AIC-28 (the Linear ticket) instead of file paths in code comments
 
 **Estimated effort:** 2-3 hours
 
@@ -385,9 +581,12 @@ User visits / (homepage)
 
 User submits signup form
   -> NewsletterSignupForm.vue
+    -> honeypot check (client discards if populated)
     -> $fetch('/api/subscribe', POST)
       -> src/server/api/subscribe.post.ts
-        -> Resend API: POST /audiences/{id}/contacts
+        -> honeypot check (server silently accepts if populated)
+        -> Resend API: POST /contacts
+        -> (Netlify serverless function in production)
 
 User clicks issue
   -> src/pages/issues/[id].vue
@@ -395,23 +594,27 @@ User clicks issue
     -> renders full newsletter content
 
 Build/deploy
-  -> nuxt generate
-    -> prerender / (homepage)
-    -> crawlLinks discovers /issues/* pages
+  -> nuxt build (netlify preset)
+    -> prerender / (homepage) -- static HTML on CDN
+    -> crawlLinks discovers /issues/* pages -- static HTML on CDN
+    -> /api/subscribe -> Netlify serverless function
     -> sitemap.xml includes issue URLs
 ```
 
 ### Error Propagation
 
-- **Resend API failure** in subscribe endpoint: caught in the event handler, returns 500 with user-friendly message. Frontend shows error state. No retry logic needed (user can resubmit).
+- **Resend API failure** in subscribe endpoint: caught in the try/catch block, returns 500 with user-friendly message. Frontend shows error state. No retry logic needed (user can resubmit).
+- **Resend rate limit (429)**: caught specifically, returns 429 with "try again" message. Frontend can show a brief retry message.
 - **Missing Resend config**: server returns 500 "Email service not configured". This is a deployment issue, not a user error. The signup form remains visible but non-functional -- consider showing a fallback message if the form is permanently broken.
 - **Newsletter collection empty**: homepage gracefully shows "First issue coming soon!" empty state. No errors thrown.
-- **Invalid newsletter content file**: Zod schema validation will fail at build time during `nuxt generate`, surfacing the issue early.
+- **Invalid newsletter content file**: Zod schema validation will fail at build time during `nuxt build`, surfacing the issue early.
+- **Honeypot triggered**: server silently returns `{ ok: true }` -- bot believes signup succeeded, no contact created.
 
 ### State Lifecycle Risks
 
-- **Duplicate signups**: Resend's audience API handles duplicate contacts gracefully (upserts rather than errors). No dedup logic needed on our side.
-- **Static site + dynamic signup**: The homepage is prerendered (static), but the signup form makes a POST to a server route. In `static` preset, Nitro server routes are not available at runtime. **This is a critical consideration** -- see Open Questions.
+- **Duplicate signups**: Resend's contacts API handles duplicate contacts gracefully (upserts rather than errors). No dedup logic needed on our side.
+- **Static site + dynamic signup**: Resolved by switching to `netlify` preset. Content pages are prerendered (static CDN), while `/api/subscribe` becomes a Netlify serverless function. Both coexist in the same deployment.
+- **localStorage for signup state**: If using `localStorage` to remember that a visitor has already signed up, handle the case where `localStorage` is unavailable (private browsing, SSR context). Use a `try/catch` wrapper.
 
 ## Acceptance Criteria
 
@@ -422,49 +625,56 @@ Build/deploy
 - [ ] Each issue in the archive links to `/issues/[id]`
 - [ ] Issue detail page renders: subject line, date, editorial intro, featured picks (with commentary), quick links (with one-liners), closing text
 - [ ] Signup form validates email format client-side before submission
-- [ ] Signup form calls Resend API to add contact to audience
+- [ ] Signup form calls Resend API to add contact
 - [ ] Signup form shows success/error states
+- [ ] Signup form includes honeypot field for bot prevention
 - [ ] Navigation logo/title links to `/`
 - [ ] Old redirect from `/` to `/summaries/` is removed
 - [ ] `/summaries/` continues to work independently
+- [ ] External links in issue pages include `rel="noopener noreferrer"`
 
 ### Non-Functional Requirements
 
 - [ ] Homepage loads in <2s on 3G (lightweight -- no heavy JS)
-- [ ] Signup form is accessible (proper labels, aria attributes, keyboard navigable)
+- [ ] Signup form is accessible (proper labels, aria attributes, keyboard navigable, `useId()` for SSR-safe IDs)
 - [ ] Issue detail pages have proper SEO meta tags (title, description, og:image)
-- [ ] All new pages are prerenderable for static hosting
+- [ ] Issue detail pages include JSON-LD structured data (`Article` schema)
+- [ ] All content pages are prerendered via Netlify hybrid rendering
+- [ ] API routes function as Netlify serverless functions
+- [ ] Sitemap reflects new homepage priority and includes issue URLs
 
 ### Quality Gates
 
 - [ ] Sample newsletter content file passes Zod schema validation
-- [ ] Signup endpoint has basic test coverage (validation, error cases)
+- [ ] Signup endpoint has basic test coverage (validation, honeypot, error cases)
 - [ ] Pages render correctly with 0, 1, and 5+ newsletter issues
 - [ ] No regressions on existing `/summaries/` pages
+- [ ] No SSR hydration mismatches (verify with Vue devtools)
+- [ ] `grep -r "homepage" src/` returns no stale naming references after implementation
 
 ## Dependencies & Risks
 
 ### Dependencies
 
-- **Resend API key + Audience ID**: Required for signup to work. Must be configured in environment variables before deployment.
+- **Resend API key**: Required for signup to work. Must be configured in environment variables before deployment. (Note: `RESEND_AUDIENCE_ID` is no longer needed -- contacts are global.)
 - **Newsletter draft JSON files**: The content collection depends on newsletter drafts generated by `ai-content-scraper`. At least 1-2 sample files are needed for development.
 - **AIC-30 (summaries relocation)**: Already merged. Summaries are at `/summaries/`, so claiming `/` for the newsletter does not conflict.
+- **Netlify preset compatibility**: Switching from `static` to `netlify` preset requires verification that existing pages (summaries, tags, channels, playlists) continue to prerender correctly.
 
 ### Risks
 
 | Risk | Impact | Mitigation |
 |------|--------|------------|
-| Static preset cannot serve POST routes at runtime | Signup form is non-functional on static host | See Open Questions -- may need Netlify Functions or switch to `netlify` preset |
+| Netlify preset changes build behavior for existing pages | Existing prerendered pages may break or become serverless-rendered | Test full build locally with `netlify` preset before deploying; verify all existing routes still prerender via `routeRules: { '/**': { prerender: true } }` |
 | No newsletter content yet (scraper pipeline not producing drafts for this repo) | Empty homepage on first deploy | Create 1-2 sample issues manually; sync script handles future automation |
-| Resend API changes or rate limits | Signup failures | Use REST API directly (no SDK version lock); 2 req/sec is fine for signup volume |
+| Resend API changes or rate limits | Signup failures | Handle 429 explicitly; use REST API directly (no SDK version lock); 2 req/sec is fine for signup volume |
+| Bot spam on public signup form | Inflated contact list, potential Resend quota issues | Honeypot field blocks most bots; consider adding rate limiting on the server endpoint if spam volume is high |
+| YAML frontmatter corruption from special characters | Build-time Zod validation errors | Sync script must properly escape YAML special characters; add validation step to sync script |
+| Stale naming references after route relocation | Developer confusion, misleading code | Run grep checklist from `docs/solutions/logic-errors/route-relocation-stale-reference-cleanup.md` |
 
 ## Open Questions
 
-1. **Static site + server routes**: The current Nitro preset is `static`. Server API routes (like `subscribe.post.ts`) do not exist at runtime in a static deployment. Options:
-   - **A)** Switch Nitro preset to `netlify` (or the appropriate hosting preset) so server routes become serverless functions
-   - **B)** Keep `static` and use Netlify Functions separately for the subscribe endpoint
-   - **C)** Use a client-side-only approach (call Resend API directly from the browser -- but this exposes the API key)
-   - **Recommendation:** Option A -- switch to `netlify` preset. This is the simplest path and Netlify already hosts the site. The preset handles both prerendering and serverless functions.
+1. **Static site + server routes**: ~~The current Nitro preset is `static`.~~ **RESOLVED:** Switch to `netlify` preset. This is confirmed as the correct approach by Netlify's documentation. The preset handles both prerendering (via routeRules) and serverless functions (for API routes) in a single deployment. Hybrid rendering with Nuxt 4 on Netlify works out-of-the-box, with enterprise-validated performance benefits.
 
 2. **Newsletter content sync workflow**: How will newsletter content files get into this repo?
    - **A)** Manual: copy JSON files and run `scripts/sync-newsletters.ts` locally, then commit
@@ -475,6 +685,10 @@ Build/deploy
 3. **Newsletter naming / branding**: The hero section needs a newsletter name and tagline. The scraper plan mentions a brand name decision is pending (Phase 3 of the cadence plan). Use a placeholder ("AI Content Digest") and update when finalized.
 
 4. **Issue URL scheme**: `/issues/[id]` where `[id]` is the date slug (e.g., `2026-03-19`). Confirm this is the desired format vs. sequential numbering (`/issues/42`) or subject-based slugs.
+
+5. **Double opt-in**: Should the signup flow include email confirmation (double opt-in)? This is a best practice for email deliverability and GDPR compliance, but adds complexity (requires a confirmation email template and a verification endpoint). Resend supports this via their broadcast/topic system. Consider deferring to a follow-up ticket.
+
+6. **Resend audience assignment**: With the new global contacts API, contacts are created without audience assignment. They need to be added to an audience separately (or via segments/topics) to receive broadcasts. Verify whether the scraper's newsletter send pipeline references contacts by audience or by the global contact list.
 
 ## Sources & References
 
@@ -488,10 +702,21 @@ Build/deploy
 - Summary list page pattern: `src/pages/summaries/index.vue`
 - Design system components: `src/components/ds/` (ccmHero, ccmCard, ccmButton, etc.)
 - Layout: `src/layouts/default.vue` (hero/footer/sidebar meta integration)
+- Sitemap generator: `src/server/routes/sitemap.xml.ts`
+- Project learning (SSR hydration): `docs/solutions/ui-bugs/styling-audit-legacy-cleanup-patterns.md`
+- Project learning (route relocation): `docs/solutions/logic-errors/route-relocation-stale-reference-cleanup.md`
+- Project learning (cross-repo plans): `docs/solutions/logic-errors/cross-repo-plan-metadata-accuracy.md`
 
 ### External References
 
-- Resend Audience API: https://resend.com/docs/api-reference/audiences
-- Resend Contacts API: https://resend.com/docs/api-reference/contacts/create-contact
-- Nuxt Content Collections: https://content.nuxt.com/
+- Resend Contacts API (create): https://resend.com/docs/api-reference/contacts/create-contact
+- Resend Rate Limits: https://resend.com/docs/api-reference/rate-limit
+- Resend Global Contacts Update: https://resend.com/blog/new-contacts-experience
+- Nuxt Content v3 Collections: https://content.nuxt.com/docs/collections/define
+- Nuxt Content Collection Types: https://content.nuxt.com/docs/collections/types
+- Nuxt on Netlify (hybrid rendering): https://docs.netlify.com/build/frameworks/framework-setup-guides/nuxt/
+- Netlify Platform Primitives with Nuxt 4: https://www.netlify.com/blog/platform-primitives-with-nuxt-4/
+- ISR and Advanced Caching with Nuxt v4 on Netlify: https://developers.netlify.com/guides/isr-and-advanced-caching-with-nuxt-v4-on-netlify/
+- Honeypot Spam Prevention: https://www.getvero.com/resources/add-a-honeypot-to-website-forms-to-reduce-spam/
+- Schema.org Article: https://schema.org/Article
 - Related plan: `docs/plans/2026-03-19-001-feat-newsletter-3x-cadence-linkedin-teaser-plan.md`
