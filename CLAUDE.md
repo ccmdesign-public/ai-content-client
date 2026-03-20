@@ -43,7 +43,7 @@ pnpm run analyze:components         # component analysis
 - `src/utils/` -- pure utility functions (formatDate, categorizeTools, slugify)
 - `src/lib/utils.ts` -- `cn()` helper (clsx + tailwind-merge)
 - `src/content/` -- Markdown/YAML content collections
-- `src/server/` -- Nitro API routes
+- `src/server/` -- Nitro server (`api/`, `routes/`, `services/`, `tasks/`, `prompts/`, `utils/`)
 - `src/assets/css/tailwind.css` -- Tailwind config + composition layout utilities
 - `src/tests/` -- Vitest specs organized by feature
 - `scripts/` -- build/sync/backfill scripts (tsx)
@@ -52,14 +52,16 @@ pnpm run analyze:components         # component analysis
 
 ## Component Quality Standards
 
-These rules are non-negotiable. Every data-driven component must satisfy them.
+These rules apply to **all new code**. Existing code has known deviations documented in the [Existing Violations](#existing-violations) section below -- migrate those opportunistically when touching affected files.
 
 ### Required States
 
-Every component that fetches or receives async data must handle all three states:
+Every **new** component that fetches or receives async data must handle all three states:
 - **Loading:** use `<Skeleton>` from `src/components/ui/skeleton/`. Never use "Loading..." text.
 - **Error:** structured display with icon + message + optional action
 - **Empty:** use `<PageEmptyState>` with icon, message, hint, and optional link
+
+> **Note:** Many existing pages still use "Loading..." text. See [Existing Violations](#existing-violations).
 
 ### HTML Sanitization
 
@@ -70,12 +72,15 @@ RIGHT:  v-html="DOMPurify.sanitize(marked.parse(rawContent))"
 ```
 Use `isomorphic-dompurify` for SSR-safe sanitization (`import DOMPurify from 'isomorphic-dompurify'`).
 
+> **Note:** `isomorphic-dompurify` is not yet installed -- it will be added in AIC-36. Until then, avoid introducing new `v-html` usage. Existing unsanitized `v-html` in `SummaryCard.vue` is a known violation tracked in AIC-36.
+
 ### Styling Rules
 
-- Tailwind utility classes only for spacing and layout. No scoped `<style>` blocks in `src/pages/` or `src/components/content/`. Exception: `src/components/ui/` (shadcn primitives may keep their own styles).
+- **New code:** Tailwind utility classes only for spacing and layout. No scoped `<style>` blocks in `src/pages/` or `src/components/content/`. Exception: `src/components/ui/` (shadcn primitives may keep their own styles).
+- When modifying an existing page that has a `<style scoped>` block, migrate those styles to Tailwind utilities or composition utilities in `src/assets/css/tailwind.css`. See AIC-35.
 - If Tailwind cannot express a layout pattern, add a composition utility in `src/assets/css/tailwind.css`.
 - Use `cn()` from `@/lib/utils` for conditional/merged classes.
-- Use specific transition properties (`transition-colors`, `transition-opacity`), never `transition-all`.
+- Use specific transition properties (`transition-colors`, `transition-opacity`), never `transition-all`. Exception: shadcn-vue primitives in `src/components/ui/` may keep their generated `transition-all` classes -- do not modify these.
 
 ### Accessibility Minimums
 
@@ -123,9 +128,9 @@ This is an SSR app. These rules apply to ALL code, not just components.
 ### Pattern 2: Detail Page (`src/pages/summaries/[slug].vue`)
 - `useAsyncData` + `queryCollection` for single-item fetch
 - Route param: `useRoute().params.slug`
-- Handle: pending, error (500), not-found (404 via `<PageNotFound>`)
+- Handle: pending, error, not-found states
 - `<ContentRenderer>` for markdown body
-- SEO meta via `useSeoMeta`
+- **Target (new detail pages should add):** `<PageNotFound>` for 404 (see `channels/[slug].vue`, `tags/[slug].vue` for examples), `useSeoMeta` for SEO (see `tools/index.vue`)
 
 ### Pattern 3: Card Component (`src/components/content/SummaryCard.vue`)
 - Props-only, no internal data fetching
@@ -183,9 +188,28 @@ This is an SSR app. These rules apply to ALL code, not just components.
 ## Agent Directories
 
 - `.claude/` -- Claude Code commands, skills, agents (see `.claude/skills/` for domain knowledge)
-- `.gemini/` -- Gemini-specific instructions
 
 New domain knowledge should go into `.claude/skills/` rather than expanding this file.
+
+## Existing Violations
+
+The rules above apply to **all new code**. The following known deviations in existing code are being addressed in follow-up issues. Do not replicate these patterns -- migrate them when touching affected files.
+
+### AIC-35: Scoped Styles & Composable Cleanup
+- **Scoped styles in pages** (rule: no `<style scoped>` outside `src/components/ui/`):
+  - `src/pages/channels/[slug].vue`, `src/pages/summaries/[slug].vue`, `src/pages/tags/[slug].vue`, `src/pages/tags/index.vue`, `src/pages/articles/[...slug].vue`, `src/pages/articles/publications/[slug].vue`
+  - Migration: move styles to Tailwind utilities or composition utilities in `src/assets/css/tailwind.css`
+
+### AIC-36: Sanitization & Loading States
+- **"Loading..." text instead of `<Skeleton>`** (rule: use `<Skeleton>`, never "Loading..." text):
+  - `src/pages/summaries/[slug].vue`, `src/pages/summaries/index.vue`, `src/pages/channels/[slug].vue`, `src/pages/tags/[slug].vue`, `src/pages/articles/[...slug].vue`, `src/pages/articles/publications/[slug].vue`, `src/pages/playlists/[slug].vue`
+- **Unsanitized `v-html`** (rule: always use DOMPurify):
+  - `src/components/content/SummaryCard.vue` -- `v-html="marked.parse(summary.tldr)"` without DOMPurify
+  - Requires installing `isomorphic-dompurify` as a dependency first
+
+### AIC-37: Accessibility & Dead Code
+- Detail pages missing `<PageNotFound>` for 404 states and `useSeoMeta` for SEO metadata
+- Audit needed for accessible names on interactive elements and `aria-live` regions
 
 ## Testing
 
