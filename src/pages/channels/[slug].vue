@@ -31,6 +31,16 @@ if (!channelConfig.value) {
   throw createError({ statusCode: 404, message: 'Channel not found' })
 }
 
+// Reactive 404 guard for client-side navigation between channels.
+// <script setup> only runs once per component instance, so the throw above
+// won't re-fire when route params change. This watcher catches invalid slugs
+// during client-side navigation (e.g., manually edited URL, broken NuxtLink).
+watch(channelConfig, (config) => {
+  if (!config) {
+    showError({ statusCode: 404, message: 'Channel not found' })
+  }
+})
+
 // Check if empty (channel exists in config but no summaries yet)
 const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
 

@@ -27,6 +27,15 @@ if (!playlist.value) {
   throw createError({ statusCode: 404, message: 'Playlist not found' })
 }
 
+// Reactive 404 guard for client-side navigation between playlists.
+// <script setup> only runs once per component instance, so the throw above
+// won't re-fire when route params change.
+watch(playlist, (config) => {
+  if (!config) {
+    showError({ statusCode: 404, message: 'Playlist not found' })
+  }
+})
+
 definePageMeta({
   footer: false
 })

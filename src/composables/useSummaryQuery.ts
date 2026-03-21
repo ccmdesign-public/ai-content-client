@@ -1,5 +1,7 @@
-// Nuxt Content auto-imports queryCollection, declare for TS/ESLint awareness
-declare const queryCollection: (name: string) => any
+// Nuxt Content auto-imports queryCollection at runtime.
+// Type is provided by .nuxt/imports.d.ts (included via tsconfig extending .nuxt/tsconfig.app).
+// The declare below gives TS/ESLint visibility without losing type safety on the query chain.
+declare const queryCollection: typeof import('#imports')['queryCollection']
 
 export interface SummaryQueryParams {
   channelId?: MaybeRefOrGetter<string | undefined>
@@ -58,10 +60,12 @@ export function useSummaryQuery(params: SummaryQueryParams = {}) {
         query = query.where('metadata.videoId', 'in', resolvedVideoIds.value)
       }
 
-      const docs = await query.all()
+      // Exclude drafts at the query level for consistency with server-side filtering philosophy.
+      // The 'published' field is false for drafts; excluding them here avoids transferring
+      // unnecessary data and keeps filtering consistent with the composable's stated purpose.
+      query = query.where('published', '<>', false)
 
-      // Replicate draft filtering from useContentStream (published !== false)
-      return docs.filter((d: any) => d.published !== false)
+      return await query.all()
     },
     { watch: watchSources }
   )
