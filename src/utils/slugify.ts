@@ -4,7 +4,3 @@ export function slugify(text: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '')
 }
-
-export function deslugify(slug: string, originalNames: string[]): string | undefined {
-  return originalNames.find(name => slugify(name) === slug)
-}

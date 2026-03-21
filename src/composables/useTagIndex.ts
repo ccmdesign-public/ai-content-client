@@ -1,5 +1,6 @@
-// Nuxt Content auto-imports queryCollection, declare for TS/ESLint awareness
-declare const queryCollection: (name: string) => any
+// Nuxt Content auto-imports queryCollection at runtime.
+// Type is provided by .nuxt/imports.d.ts (included via tsconfig extending .nuxt/tsconfig.app).
+declare const queryCollection: typeof import('#imports')['queryCollection']
 
 export interface TagItem {
   id: string
