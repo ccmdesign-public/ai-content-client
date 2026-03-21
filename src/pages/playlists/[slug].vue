@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
-import { useSummaryQuery } from '~/composables/useSummaryQuery'
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import type { Sortable } from '~/composables/useSortOptions'
 
@@ -13,11 +12,10 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // useSortedFeed internally calls useSortOptions which uses tryUseNuxtApp() and useRoute()
 // -- these must be called during synchronous component setup, before any throw.
 
-// Reactive playlistId for server-side filtered query
-const playlistId = computed(() => playlist.value?.id)
-
-// Fetch summaries for this playlist using shared composable
-const { data: summaries, pending, error, refresh } = useSummaryQuery({ playlistId })
+// Fetch summaries for this playlist (declared before items to avoid forward reference)
+const { data: summaries, pending, error, refresh } = useContentStream('summaries', {
+  where: { playlistId: playlist.value?.id }
+})
 
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
@@ -27,21 +25,12 @@ if (!playlist.value) {
   throw createError({ statusCode: 404, message: 'Playlist not found' })
 }
 
-// Reactive 404 guard for client-side navigation between playlists.
-// <script setup> only runs once per component instance, so the throw above
-// won't re-fire when route params change.
-watch(playlist, (config) => {
-  if (!config) {
-    showError({ statusCode: 404, message: 'Playlist not found' })
-  }
-})
-
 definePageMeta({
   footer: false
 })
 
 // Check if empty (playlist exists but no summaries)
-const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
+const isEmpty = computed(() => !pending.value && (!summaries.value || summaries.value.length === 0))
 
 useHead({
   title: `${playlist.value.name} | YouTube Summaries`

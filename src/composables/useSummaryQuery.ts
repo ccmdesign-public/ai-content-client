@@ -55,7 +55,10 @@ export function useSummaryQuery(params: SummaryQueryParams = {}) {
 
       // Apply filters client-side on the nested metadata fields
       if (resolvedChannelId.value) {
-        docs = docs.filter(d => d.metadata?.channelId === resolvedChannelId.value)
+        docs = docs.filter(d => {
+          const meta = typeof d.metadata === 'string' ? JSON.parse(d.metadata) : d.metadata
+          return meta?.channelId === resolvedChannelId.value
+        })
       }
       if (resolvedPlaylistId.value) {
         docs = docs.filter(d => d.playlistId === resolvedPlaylistId.value)
