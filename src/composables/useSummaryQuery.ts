@@ -47,25 +47,25 @@ export function useSummaryQuery(params: SummaryQueryParams = {}) {
         return []
       }
 
-      let query = queryCollection('summaries')
+      // Nuxt Content v3 stores nested Zod objects (like `metadata`) as JSON
+      // blobs in SQLite — dot-notation where clauses (e.g. 'metadata.channelId')
+      // fail with "no such column". Fetch all docs and filter in JS instead.
+      // This still deduplicates the filtering logic across all list views.
+      let docs: any[] = await queryCollection('summaries').all()
 
-      // Apply filters via chained .where() calls
+      // Apply filters client-side on the nested metadata fields
       if (resolvedChannelId.value) {
-        query = query.where('metadata.channelId', '=', resolvedChannelId.value)
+        docs = docs.filter(d => d.metadata?.channelId === resolvedChannelId.value)
       }
       if (resolvedPlaylistId.value) {
-        query = query.where('playlistId', '=', resolvedPlaylistId.value)
+        docs = docs.filter(d => d.playlistId === resolvedPlaylistId.value)
       }
       if (resolvedVideoIds.value?.length) {
-        query = query.where('metadata.videoId', 'in', resolvedVideoIds.value)
+        const idSet = new Set(resolvedVideoIds.value)
+        docs = docs.filter(d => idSet.has(d.metadata?.videoId))
       }
 
-      // Exclude drafts at the query level for consistency with server-side filtering philosophy.
-      // The 'published' field is false for drafts; excluding them here avoids transferring
-      // unnecessary data and keeps filtering consistent with the composable's stated purpose.
-      query = query.where('published', '<>', false)
-
-      return await query.all()
+      return docs
     },
     { watch: watchSources }
   )
