@@ -122,6 +122,10 @@ export default defineNuxtConfig({
   },
   components: [
     {
+      path: resolve(currentDir, 'components'),
+      pathPrefix: false
+    },
+    {
       path: resolve(currentDir, 'components/ui'),
       pathPrefix: false
     },

@@ -11,7 +11,7 @@
           <SearchBar
             v-model="searchQuery"
             :is-ready="isSearchReady"
-            @expand="onSearchExpand"
+            @expand="search?.init()"
           />
         </div>
       </header>
@@ -82,7 +82,4 @@ const searchQuery = computed({
 })
 const isSearchReady = computed(() => search?.isReady.value ?? false)
 
-function onSearchExpand() {
-  search?.init()
-}
 </script>

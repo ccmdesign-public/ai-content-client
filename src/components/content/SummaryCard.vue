@@ -22,7 +22,7 @@ defineProps<{
 </script>
 
 <template>
-  <article class="flex border-t border-border gap-4 py-4 max-md:flex-col">
+  <article v-if="summary?.metadata" class="flex border-t border-border gap-4 py-4 max-md:flex-col">
     <img
       v-if="summary.metadata.thumbnailUrl"
       :src="summary.metadata.thumbnailUrl"
