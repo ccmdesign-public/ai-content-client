@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useSummaryQuery } from '~/composables/useSummaryQuery'
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
@@ -9,7 +10,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending, error, refresh } = useContentStream('summaries')
+const { data: summaries, pending, error, refresh } = useSummaryQuery()
 const { tagsByCategory } = useTagsConfig()
 
 const {
