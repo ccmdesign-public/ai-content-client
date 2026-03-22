@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
 import { useSortedFeed } from '~/composables/useSortedFeed'
+import { useSummariesData } from '~/composables/useSummariesData'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug as string)
@@ -16,9 +17,8 @@ const { getChannelBySlug } = useChannelsConfig()
 const channelConfig = computed(() => getChannelBySlug(slug.value))
 
 // Get all summaries and filter by channelId (immutable YouTube channel ID)
-// Uses useContentStream which handles loading, caching, and client-side filtering
-// with a stable string key that works reliably with useAsyncData hydration.
-const { data: allSummaries, error, refresh } = useContentStream('summaries')
+// Uses shared summaries cache -- no re-fetch when navigating from /summaries.
+const { data: allSummaries, error, refresh } = useSummariesData()
 
 // Filter summaries for this channel using channelId (not channel name)
 const summaries = computed(() => {

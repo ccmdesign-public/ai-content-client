@@ -1,7 +1,7 @@
 ---
 title: "feat: Optimize summaries data transfer -- exclude body from list queries & disable prefetch"
 type: feat
-status: active
+status: completed
 date: 2026-03-22
 ---
 

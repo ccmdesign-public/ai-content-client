@@ -1,3 +1,13 @@
+/**
+ * Fields needed by SummaryCard and list-view composables (sort, filter, pagination).
+ * Excludes heavy fields: body, ai, seo, navigation, description, meta, id, stem.
+ * Keep `published` -- useContentStream filters on `d.published !== false`.
+ */
+export const SUMMARY_LIST_FIELDS = [
+  'metadata', 'processedAt', 'tldr', 'playlistId', 'path', 'tools',
+  'playlistName', 'category', 'source', 'published'
+] as const
+
 export type Order = 'asc' | 'desc'
 
 export type WhereClause =
@@ -72,9 +82,13 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
     const isPath = source.startsWith('/')
 
     // queryCollection/queryContent are auto-imported by @nuxt/content
+    // Push select() to queryCollection at the SQL level for network-level payload reduction.
+    // For path-based queries (queryContent), select is applied client-side via pick() below.
     let docs: any[] = isPath
       ? await queryContent(source).find()
-      : await queryCollection(source as any).all()
+      : options.select?.length
+        ? await queryCollection(source as any).select(...options.select).all()
+        : await queryCollection(source as any).all()
 
     if (!options.includeDrafts) {
       docs = docs.filter(d => d.published !== false)
@@ -82,7 +96,8 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
 
     if (options.where) docs = docs.filter(d => matchesWhere(d, options.where as WhereClause))
     if (options.sort) docs = sortDocs(docs, options.sort)
-    if (options.select?.length) docs = docs.map(d => pick(d, options.select as string[]))
+    // Client-side pick only for path-based queries; queryCollection already selected at SQL level
+    if (options.select?.length && isPath) docs = docs.map(d => pick(d, options.select as string[]))
     if (options.limit && options.limit > 0) docs = docs.slice(0, options.limit)
 
     return docs
