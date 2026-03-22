@@ -7,7 +7,18 @@ import type { Sortable } from '~/composables/useSortOptions'
 const props = defineProps<{
   segments: DateSegment<Sortable>[]
   showHeaders?: boolean
+  // Pagination (optional)
+  hasMore?: boolean
+  visibleCount?: number
+  totalCount?: number
 }>()
+
+defineEmits<{
+  loadMore: []
+}>()
+
+// SSR-safe unique ID to avoid duplicate HTML IDs when component is reused
+const feedId = useId()
 
 // Default to true for backwards compatibility
 const shouldShowHeaders = computed(() => props.showHeaders !== false)
@@ -17,7 +28,7 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 </script>
 
 <template>
-  <div class="flex flex-col gap-10">
+  <div :id="feedId" class="flex flex-col gap-10">
     <template v-if="shouldShowHeaders">
       <section
         v-for="segment in segments"
@@ -45,5 +56,17 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
     <div v-if="segments.length === 0" class="text-center py-12 text-muted-foreground">
       <p>No content found.</p>
     </div>
+
+    <p class="sr-only" aria-live="polite" aria-atomic="true">
+      Showing {{ visibleCount ?? 0 }} of {{ totalCount ?? 0 }} items
+    </p>
+
+    <LoadMoreButton
+      v-if="hasMore"
+      :visible-count="visibleCount ?? 0"
+      :total-count="totalCount ?? 0"
+      :feed-id="feedId"
+      @load-more="$emit('loadMore')"
+    />
   </div>
 </template>

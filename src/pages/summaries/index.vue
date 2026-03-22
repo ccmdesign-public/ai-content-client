@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useSummaryQuery } from '~/composables/useSummaryQuery'
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
@@ -10,7 +9,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending, error, refresh } = useSummaryQuery()
+const { data: summaries, pending, error, refresh } = useContentStream('summaries')
 const { tagsByCategory } = useTagsConfig()
 
 const {
@@ -21,8 +20,8 @@ const {
   selectCategory
 } = useSummariesFilter(summaries, tagsByCategory)
 
-// Sort the filtered results
-const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(filteredSummaries)
+// Sort the filtered results (with client-side pagination)
+const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount: paginatedTotalCount, loadMore } = useSortedFeed(filteredSummaries, undefined, { pageSize: 25 })
 
 // Search integration -- injected from layout
 const search = inject('search') as ReturnType<typeof import('~/composables/useSearch').useSearch> | undefined
@@ -147,6 +146,14 @@ const displayedCount = computed(() =>
     />
 
     <!-- Browse: date-grouped feed -->
-    <DateGroupedFeed v-else-if="!isSearchActive" :segments="feedSegments" :show-headers="isDateSort" />
+    <DateGroupedFeed
+      v-else-if="!isSearchActive"
+      :segments="feedSegments"
+      :show-headers="isDateSort"
+      :has-more="hasMore"
+      :visible-count="visibleCount"
+      :total-count="paginatedTotalCount"
+      @load-more="loadMore"
+    />
   </div>
 </template>

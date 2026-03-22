@@ -62,11 +62,15 @@ export function useTagIndex(slug: MaybeRefOrGetter<string>) {
       const ids = summaryVideoIds.value
       if (ids.length === 0) return []
 
-      // Query summaries whose videoId is in our tag's item list.
-      // Nuxt Content v3 queryCollection supports 'in' operator for arrays.
-      return await queryCollection('summaries')
-        .where('metadata.videoId', 'in', ids)
-        .all()
+      // Nuxt Content v3 stores nested Zod objects as JSON blobs in SQLite,
+      // so dot-notation where clauses (e.g. 'metadata.videoId') fail.
+      // Fetch all and filter in JS instead.
+      const allSummaries = await queryCollection('summaries').all()
+      const idSet = new Set(ids)
+      return (allSummaries as any[]).filter(d => {
+        const meta = typeof d.metadata === 'string' ? JSON.parse(d.metadata) : d.metadata
+        return idSet.has(meta?.videoId)
+      })
     },
     { watch: [summaryVideoIds] }
   )

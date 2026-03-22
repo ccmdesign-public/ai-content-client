@@ -19,7 +19,7 @@ const { summaries, summaryItemCount, pending, error, refresh } = useTagIndex(slu
 
 // Sort and group
 const items = computed(() => summaries.value || [])
-const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
+const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount, loadMore } = useSortedFeed(items, undefined, { pageSize: 25 })
 
 // Check if empty (tag exists but no matching summaries in client)
 const isEmpty = computed(() => !pending.value && summaries.value.length === 0)
@@ -67,7 +67,7 @@ useHead({
         </div>
       </header>
 
-      <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
+      <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
       <PageEmptyState
         v-if="isEmpty"
@@ -78,7 +78,15 @@ useHead({
         link-text="Browse all topics"
       />
 
-      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
+      <DateGroupedFeed
+        v-else
+        :segments="feedSegments"
+        :show-headers="isDateSort"
+        :has-more="hasMore"
+        :visible-count="visibleCount"
+        :total-count="totalCount"
+        @load-more="loadMore"
+      />
     </template>
   </div>
 </template>
