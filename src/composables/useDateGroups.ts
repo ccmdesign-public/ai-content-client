@@ -50,7 +50,7 @@ export function useDateGroups<T extends { processedAt: string; metadata: { publi
     // Sort items into groups using the date accessor.
     // Use pre-computed _publishedAtMs when available to avoid repeated new Date() calls.
     for (const item of items.value) {
-      const ms = (item as any)._publishedAtMs || new Date(dateAccessor(item)).getTime()
+      const ms = (item as any)._publishedAtMs ?? new Date(dateAccessor(item)).getTime()
       const date = new Date(ms)
       const group = getDateGroup(date)
       groups.get(group)!.push(item)
@@ -61,8 +61,8 @@ export function useDateGroups<T extends { processedAt: string; metadata: { publi
     const multiplier = dir === 'asc' ? 1 : -1
     for (const [, groupItems] of groups) {
       groupItems.sort((a, b) => {
-        const msA = (a as any)._publishedAtMs || new Date(dateAccessor(a)).getTime()
-        const msB = (b as any)._publishedAtMs || new Date(dateAccessor(b)).getTime()
+        const msA = (a as any)._publishedAtMs ?? new Date(dateAccessor(a)).getTime()
+        const msB = (b as any)._publishedAtMs ?? new Date(dateAccessor(b)).getTime()
         return multiplier * (msA - msB)
       })
     }

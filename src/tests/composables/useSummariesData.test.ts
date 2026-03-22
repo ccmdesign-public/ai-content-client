@@ -281,6 +281,24 @@ describe('writeLocalCache', () => {
     expect(written.cachedAt).toBeGreaterThan(0)
   })
 
+  it('strips pre-computed _publishedAtMs and _processedAtMs fields before writing', () => {
+    const data = [
+      { id: 1, title: 'Test', _publishedAtMs: 1718452800000, _processedAtMs: 1718539200000 },
+      { id: 2, title: 'Another', _publishedAtMs: 0, _processedAtMs: 0 }
+    ]
+    writeLocalCache(data)
+    expect(setItemSpy).toHaveBeenCalledTimes(1)
+    const written = JSON.parse(setItemSpy.mock.calls[0][1])
+    // Pre-computed fields should be stripped to save localStorage space
+    for (const item of written.data) {
+      expect(item).not.toHaveProperty('_publishedAtMs')
+      expect(item).not.toHaveProperty('_processedAtMs')
+    }
+    // Other fields should be preserved
+    expect(written.data[0]).toEqual({ id: 1, title: 'Test' })
+    expect(written.data[1]).toEqual({ id: 2, title: 'Another' })
+  })
+
   it('does not throw when localStorage quota is exceeded', () => {
     setItemSpy.mockImplementation(() => { throw new Error('QuotaExceededError') })
     expect(() => writeLocalCache([{ id: 1 }])).not.toThrow()

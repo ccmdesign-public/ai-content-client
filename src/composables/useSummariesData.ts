@@ -53,7 +53,6 @@ const STALE_THRESHOLD_MS = 6 * 60 * 60 * 1000 // 6 hours
  * Returns null if missing, corrupt, or wrong version.
  */
 export function readLocalCache(): SummariesCacheEntry | null {
-  if (import.meta.server) return null
   try {
     const raw = localStorage.getItem(CACHE_KEY)
     if (!raw) return null
@@ -67,17 +66,25 @@ export function readLocalCache(): SummariesCacheEntry | null {
 }
 
 /**
+ * Strip pre-computed fields (_publishedAtMs, _processedAtMs) before persisting.
+ * These are re-derived on read by normalizeSummaryDocs, so storing them wastes
+ * ~20-30KB of localStorage quota for ~1200 items.
+ */
+function stripPrecomputedFields(data: any[]): any[] {
+  return data.map(({ _publishedAtMs, _processedAtMs, ...rest }) => rest)
+}
+
+/**
  * Write summaries to localStorage (client-side only).
  * Silently fails on quota exceeded or private browsing.
  */
 export function writeLocalCache(data: any[]) {
-  if (import.meta.server) return
   try {
     const entry: SummariesCacheEntry = {
       version: CACHE_VERSION,
       cachedAt: Date.now(),
       count: data.length,
-      data,
+      data: stripPrecomputedFields(data),
     }
     localStorage.setItem(CACHE_KEY, JSON.stringify(entry))
   } catch {
@@ -141,16 +148,21 @@ export function useSummariesData() {
     }
   })
 
-  // Multi-tab sync via storage event (cross-tab only per W3C spec)
+  // Cross-tab sync: when another tab writes to localStorage, trigger a refresh
+  // so the data flows through normalizeSummaryDocs and Vue reactivity properly.
+  // (Previous implementation mutated payload.data directly, which did not trigger
+  // useAsyncData reactivity with deep: false -- effectively dead code.)
   if (import.meta.client) {
-    const nuxtApp = useNuxtApp()
-
     const onStorageChange = (e: StorageEvent) => {
       if (e.key === CACHE_KEY && e.newValue) {
         try {
           const entry: SummariesCacheEntry = JSON.parse(e.newValue)
           if (entry.data && entry.version === CACHE_VERSION) {
+            // Seed the payload so getCachedData returns the fresh data,
+            // then refresh to trigger proper reactivity through useAsyncData.
+            const nuxtApp = useNuxtApp()
             nuxtApp.payload.data['summaries-list'] = entry.data
+            result.data.value = entry.data
           }
         } catch {
           // Ignore corrupt cross-tab data
