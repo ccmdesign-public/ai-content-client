@@ -34,6 +34,7 @@ defineProps<{
       <div class="flex flex-wrap items-center gap-2 text-sm text-muted-foreground mb-2">
         <NuxtLink
           :to="`/channels/${summary.metadata.channel}`"
+          :prefetch-on="{ interaction: true, visibility: false }"
           class="font-medium hover:text-foreground motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           {{ summary.metadata.channel }}
@@ -53,6 +54,7 @@ defineProps<{
       <h3 class="text-lg font-semibold mb-2">
         <NuxtLink
           :to="`/summaries/${summary.metadata.videoId}`"
+          :prefetch="false"
           class="hover:text-primary hover:underline motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           {{ summary.metadata.title }}

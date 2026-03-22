@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useSortedFeed } from '~/composables/useSortedFeed'
+import { useSummariesData } from '~/composables/useSummariesData'
 import type { Sortable } from '~/composables/useSortOptions'
 
 const route = useRoute()
@@ -12,15 +13,14 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // useSortedFeed internally calls useSortOptions which uses tryUseNuxtApp() and useRoute()
 // -- these must be called during synchronous component setup, before any throw.
 
-// Fetch summaries for this playlist (declared before items to avoid forward reference)
-// Use a function-based where clause so it re-evaluates reactively on slug change
-const { data: summaries, pending, error, refresh } = useContentStream('summaries', {
-  where: (doc: Record<string, unknown>) => doc.playlistId === playlist.value?.id,
-  key: `playlist-summaries-${route.params.slug}`
-})
+// Use shared summaries cache and filter by playlist client-side.
+// Previously used a separate useContentStream call with per-playlist key, causing redundant fetches.
+const { data: allSummaries, pending, error, refresh } = useSummariesData()
 
-// Re-fetch when slug changes during client-side navigation
-watch(() => route.params.slug, () => refresh())
+const summaries = computed(() => {
+  if (!allSummaries.value || !playlist.value) return []
+  return allSummaries.value.filter((s: any) => s.playlistId === playlist.value?.id)
+})
 
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount, loadMore } = useSortedFeed(items, undefined, { pageSize: 25 })

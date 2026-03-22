@@ -2,6 +2,7 @@
 import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
+import { useSummariesData } from '~/composables/useSummariesData'
 import { AlertCircle } from 'lucide-vue-next'
 import type { SearchResult } from '~/types/search'
 
@@ -9,7 +10,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending, error, refresh } = useContentStream('summaries')
+const { data: summaries, pending, error, refresh } = useSummariesData()
 const { tagsByCategory } = useTagsConfig()
 
 const {
