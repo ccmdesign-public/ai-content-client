@@ -1,6 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { SUMMARY_LIST_FIELDS } from '~/composables/useContentStream'
-import { safeParseMetadata, normalizeSummaryDocs } from '~/composables/useSummariesData'
+import { safeParseMetadata, normalizeSummaryDocs, readLocalCache, writeLocalCache } from '~/composables/useSummariesData'
 
 describe('SUMMARY_LIST_FIELDS', () => {
   it('includes all fields required by SummaryCard', () => {
@@ -135,5 +135,154 @@ describe('normalizeSummaryDocs', () => {
     expect(result[0].tools).toEqual(['tool1'])
     expect(result[0].playlistId).toBe('pl-1')
     expect(result[0].category).toBe('tech')
+  })
+
+  it('pre-computes _publishedAtMs from metadata.publishedAt', () => {
+    const docs = [
+      {
+        metadata: { publishedAt: '2025-06-15T12:00:00Z' },
+        processedAt: '2025-06-16T10:00:00Z',
+        path: '/summaries/test'
+      }
+    ]
+
+    const result = normalizeSummaryDocs(docs)
+    expect(result[0]._publishedAtMs).toBe(new Date('2025-06-15T12:00:00Z').getTime())
+  })
+
+  it('pre-computes _processedAtMs from processedAt', () => {
+    const docs = [
+      {
+        metadata: { publishedAt: '2025-06-15T12:00:00Z' },
+        processedAt: '2025-06-16T10:00:00Z',
+        path: '/summaries/test'
+      }
+    ]
+
+    const result = normalizeSummaryDocs(docs)
+    expect(result[0]._processedAtMs).toBe(new Date('2025-06-16T10:00:00Z').getTime())
+  })
+
+  it('sets _publishedAtMs to 0 when publishedAt is missing', () => {
+    const docs = [
+      {
+        metadata: {},
+        processedAt: '2025-06-16T10:00:00Z',
+        path: '/summaries/test'
+      }
+    ]
+
+    const result = normalizeSummaryDocs(docs)
+    expect(result[0]._publishedAtMs).toBe(0)
+  })
+
+  it('sets _processedAtMs to 0 when processedAt is missing', () => {
+    const docs = [
+      {
+        metadata: { publishedAt: '2025-06-15T12:00:00Z' },
+        path: '/summaries/test'
+      }
+    ]
+
+    const result = normalizeSummaryDocs(docs)
+    expect(result[0]._processedAtMs).toBe(0)
+  })
+})
+
+describe('readLocalCache', () => {
+  let getItemSpy: ReturnType<typeof vi.spyOn>
+
+  beforeEach(() => {
+    // Mock localStorage for Node/SSR environment
+    if (typeof globalThis.localStorage === 'undefined') {
+      (globalThis as any).localStorage = {
+        getItem: vi.fn(),
+        setItem: vi.fn(),
+        removeItem: vi.fn(),
+        clear: vi.fn(),
+        length: 0,
+        key: vi.fn(),
+      }
+    }
+    getItemSpy = vi.spyOn(localStorage, 'getItem')
+  })
+
+  afterEach(() => {
+    getItemSpy.mockRestore()
+  })
+
+  it('returns null when localStorage has no cache entry', () => {
+    getItemSpy.mockReturnValue(null)
+    expect(readLocalCache()).toBeNull()
+  })
+
+  it('returns null for corrupt JSON in localStorage', () => {
+    getItemSpy.mockReturnValue('{bad-json}')
+    expect(readLocalCache()).toBeNull()
+  })
+
+  it('returns null when cached data is not an array', () => {
+    getItemSpy.mockReturnValue(JSON.stringify({ version: 1, cachedAt: Date.now(), data: 'not-array' }))
+    expect(readLocalCache()).toBeNull()
+  })
+
+  it('returns null when cachedAt is missing', () => {
+    getItemSpy.mockReturnValue(JSON.stringify({ version: 1, data: [] }))
+    expect(readLocalCache()).toBeNull()
+  })
+
+  it('returns null for wrong cache version', () => {
+    getItemSpy.mockReturnValue(JSON.stringify({ version: 999, cachedAt: Date.now(), data: [], count: 0 }))
+    expect(readLocalCache()).toBeNull()
+  })
+
+  it('returns valid cache entry', () => {
+    const entry = { version: 1, cachedAt: Date.now(), count: 2, data: [{ id: 1 }, { id: 2 }] }
+    getItemSpy.mockReturnValue(JSON.stringify(entry))
+    const result = readLocalCache()
+    expect(result).toEqual(entry)
+  })
+
+  it('returns null when localStorage throws (private browsing)', () => {
+    getItemSpy.mockImplementation(() => { throw new Error('QuotaExceededError') })
+    expect(readLocalCache()).toBeNull()
+  })
+})
+
+describe('writeLocalCache', () => {
+  let setItemSpy: ReturnType<typeof vi.spyOn>
+
+  beforeEach(() => {
+    if (typeof globalThis.localStorage === 'undefined') {
+      (globalThis as any).localStorage = {
+        getItem: vi.fn(),
+        setItem: vi.fn(),
+        removeItem: vi.fn(),
+        clear: vi.fn(),
+        length: 0,
+        key: vi.fn(),
+      }
+    }
+    setItemSpy = vi.spyOn(localStorage, 'setItem')
+  })
+
+  afterEach(() => {
+    setItemSpy.mockRestore()
+  })
+
+  it('writes cache entry to localStorage', () => {
+    const data = [{ id: 1 }, { id: 2 }]
+    writeLocalCache(data)
+    expect(setItemSpy).toHaveBeenCalledTimes(1)
+    const written = JSON.parse(setItemSpy.mock.calls[0][1])
+    expect(written.version).toBe(1)
+    expect(written.count).toBe(2)
+    expect(written.data).toEqual(data)
+    expect(written.cachedAt).toBeGreaterThan(0)
+  })
+
+  it('does not throw when localStorage quota is exceeded', () => {
+    setItemSpy.mockImplementation(() => { throw new Error('QuotaExceededError') })
+    expect(() => writeLocalCache([{ id: 1 }])).not.toThrow()
   })
 })

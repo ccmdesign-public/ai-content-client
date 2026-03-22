@@ -26,6 +26,8 @@ export interface Sortable {
     publishedAt: string
     title: string
   }
+  _publishedAtMs?: number
+  _processedAtMs?: number
 }
 
 export function useSortOptions<T extends Sortable>(
@@ -70,15 +72,18 @@ export function useSortOptions<T extends Sortable>(
     switch (currentSort.value) {
       case 'publish-date-desc':
         return list.sort((a, b) =>
-          new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime()
+          (b._publishedAtMs ?? new Date(b.metadata.publishedAt).getTime())
+          - (a._publishedAtMs ?? new Date(a.metadata.publishedAt).getTime())
         )
       case 'publish-date-asc':
         return list.sort((a, b) =>
-          new Date(a.metadata.publishedAt).getTime() - new Date(b.metadata.publishedAt).getTime()
+          (a._publishedAtMs ?? new Date(a.metadata.publishedAt).getTime())
+          - (b._publishedAtMs ?? new Date(b.metadata.publishedAt).getTime())
         )
       case 'processed-date-desc':
         return list.sort((a, b) =>
-          new Date(b.processedAt).getTime() - new Date(a.processedAt).getTime()
+          (b._processedAtMs ?? new Date(b.processedAt).getTime())
+          - (a._processedAtMs ?? new Date(a.processedAt).getTime())
         )
       case 'title-asc':
         return list.sort((a, b) =>

@@ -11,6 +11,8 @@ const props = defineProps<{
   hasMore?: boolean
   visibleCount?: number
   totalCount?: number
+  // Stale-while-revalidate: show skeleton cards while background refresh is in progress
+  revalidating?: boolean
 }>()
 
 defineEmits<{
@@ -29,6 +31,19 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 
 <template>
   <div :id="feedId" class="flex flex-col gap-10">
+    <!-- Revalidation skeletons at top of feed (stale-while-revalidate) -->
+    <div
+      v-if="revalidating"
+      role="status"
+      aria-live="polite"
+      aria-busy="true"
+      aria-label="Checking for new content"
+      class="flex flex-col gap-5"
+    >
+      <span class="sr-only">Checking for new content...</span>
+      <SummaryCardSkeleton v-for="n in 3" :key="`reval-${n}`" />
+    </div>
+
     <template v-if="shouldShowHeaders">
       <section
         v-for="segment in segments"

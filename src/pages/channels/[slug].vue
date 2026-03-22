@@ -18,7 +18,7 @@ const channelConfig = computed(() => getChannelBySlug(slug.value))
 
 // Get all summaries and filter by channelId (immutable YouTube channel ID)
 // Uses shared summaries cache -- no re-fetch when navigating from /summaries.
-const { data: allSummaries, error, refresh } = useSummariesData()
+const { data: allSummaries, error, refresh, isRevalidating } = useSummariesData()
 
 // Filter summaries for this channel using channelId (not channel name)
 const summaries = computed(() => {
@@ -102,6 +102,7 @@ useHead({
         :has-more="hasMore"
         :visible-count="visibleCount"
         :total-count="totalCount"
+        :revalidating="isRevalidating"
         @load-more="loadMore"
       />
     </template>

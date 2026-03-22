@@ -10,7 +10,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending, error, refresh } = useSummariesData()
+const { data: summaries, pending, error, refresh, isRevalidating } = useSummariesData()
 const { tagsByCategory } = useTagsConfig()
 
 const {
@@ -154,6 +154,7 @@ const displayedCount = computed(() =>
       :has-more="hasMore"
       :visible-count="visibleCount"
       :total-count="paginatedTotalCount"
+      :revalidating="isRevalidating"
       @load-more="loadMore"
     />
   </div>
