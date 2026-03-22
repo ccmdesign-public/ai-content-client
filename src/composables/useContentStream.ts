@@ -1,11 +1,12 @@
 /**
  * Fields needed by SummaryCard and list-view composables (sort, filter, pagination).
  * Excludes heavy fields: body, ai, seo, navigation, description, meta, id, stem.
- * Keep `published` -- useContentStream filters on `d.published !== false`.
+ * Note: `published` is NOT a schema field -- do not add it here (causes SQLite error).
+ * The draft filter (`d.published !== false`) is a no-op for summaries since the field is always undefined.
  */
 export const SUMMARY_LIST_FIELDS = [
   'metadata', 'processedAt', 'tldr', 'playlistId', 'path', 'tools',
-  'playlistName', 'category', 'source', 'published'
+  'playlistName', 'category', 'source'
 ] as const
 
 export type Order = 'asc' | 'desc'
