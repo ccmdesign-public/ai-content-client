@@ -20,8 +20,8 @@ const {
   selectCategory
 } = useSummariesFilter(summaries, tagsByCategory)
 
-// Sort the filtered results
-const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(filteredSummaries)
+// Sort the filtered results (with client-side pagination)
+const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount: paginatedTotalCount, loadMore } = useSortedFeed(filteredSummaries, undefined, { pageSize: 25 })
 
 // Search integration -- injected from layout
 const search = inject('search') as ReturnType<typeof import('~/composables/useSearch').useSearch> | undefined
@@ -146,6 +146,14 @@ const displayedCount = computed(() =>
     />
 
     <!-- Browse: date-grouped feed -->
-    <DateGroupedFeed v-else-if="!isSearchActive" :segments="feedSegments" :show-headers="isDateSort" />
+    <DateGroupedFeed
+      v-else-if="!isSearchActive"
+      :segments="feedSegments"
+      :show-headers="isDateSort"
+      :has-more="hasMore"
+      :visible-count="visibleCount"
+      :total-count="paginatedTotalCount"
+      @load-more="loadMore"
+    />
   </div>
 </template>

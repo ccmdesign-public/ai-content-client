@@ -35,7 +35,7 @@ const shouldShow404 = computed(() => {
 })
 
 // Sort and group
-const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(summaries)
+const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount, loadMore } = useSortedFeed(summaries, undefined, { pageSize: 25 })
 
 // Check if empty (channel exists in config but no summaries)
 const isEmpty = computed(() => {
@@ -79,7 +79,7 @@ useHead({
         </div>
       </header>
 
-      <p class="visually-hidden" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
+      <p class="sr-only" aria-live="polite">Sorted by {{ currentSortLabel }}</p>
 
       <PageEmptyState
         v-if="isEmpty"
@@ -90,7 +90,15 @@ useHead({
         link-text="Browse all summaries"
       />
 
-      <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
+      <DateGroupedFeed
+        v-else
+        :segments="feedSegments"
+        :show-headers="isDateSort"
+        :has-more="hasMore"
+        :visible-count="visibleCount"
+        :total-count="totalCount"
+        @load-more="loadMore"
+      />
     </template>
   </div>
 </template>

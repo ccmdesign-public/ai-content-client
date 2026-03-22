@@ -18,7 +18,7 @@ const { data: summaries, pending, error, refresh } = useContentStream('summaries
 })
 
 const items = computed<Sortable[]>(() => summaries.value || [])
-const { feedSegments, currentSort, isDateSort, currentSortLabel } = useSortedFeed(items)
+const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount, loadMore } = useSortedFeed(items, undefined, { pageSize: 25 })
 
 // 404 if playlist not found
 if (!playlist.value) {
@@ -66,6 +66,14 @@ useHead({
       link-text="Browse all summaries"
     />
 
-    <DateGroupedFeed v-else :segments="feedSegments" :show-headers="isDateSort" />
+    <DateGroupedFeed
+      v-else
+      :segments="feedSegments"
+      :show-headers="isDateSort"
+      :has-more="hasMore"
+      :visible-count="visibleCount"
+      :total-count="totalCount"
+      @load-more="loadMore"
+    />
   </div>
 </template>
