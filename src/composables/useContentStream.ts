@@ -102,6 +102,13 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
     if (options.limit && options.limit > 0) docs = docs.slice(0, options.limit)
 
     return docs
+  }, {
+    deep: false,
+    getCachedData: (key: string, nuxtApp: any, ctx: any) => {
+      // Bypass cache on manual refresh so users always get fresh data
+      if (ctx?.cause === 'refresh:manual') return undefined
+      return nuxtApp.payload.data[key] ?? nuxtApp.static.data[key] ?? undefined
+    }
   })
 
   return { data, pending, error, refresh }

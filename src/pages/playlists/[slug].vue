@@ -15,7 +15,7 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 
 // Use shared summaries cache and filter by playlist client-side.
 // Previously used a separate useContentStream call with per-playlist key, causing redundant fetches.
-const { data: allSummaries, pending, error, refresh } = useSummariesData()
+const { data: allSummaries, pending, error, refresh, isRevalidating } = useSummariesData()
 
 const summaries = computed(() => {
   if (!allSummaries.value || !playlist.value) return []
@@ -78,6 +78,7 @@ useHead({
       :has-more="hasMore"
       :visible-count="visibleCount"
       :total-count="totalCount"
+      :revalidating="isRevalidating"
       @load-more="loadMore"
     />
   </div>
