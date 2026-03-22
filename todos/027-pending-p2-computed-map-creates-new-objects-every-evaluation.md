@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "027"
 tags: [code-review, performance, vue-reactivity]
@@ -105,3 +105,12 @@ watch(() => result.data.value, (raw) => {
 
 **Learnings:**
 - Shared data layers need stable references to deliver their full performance benefit
+
+### 2026-03-22 - Resolved
+
+**By:** Claude Code (CE Todo Resolution)
+
+**Actions:**
+- Replaced `computed(() => .map())` with `watch() + shallowRef` for stable references
+- Normalization now runs only when source data changes, not on every computed access
+- Downstream computeds get stable object references, reducing unnecessary re-renders

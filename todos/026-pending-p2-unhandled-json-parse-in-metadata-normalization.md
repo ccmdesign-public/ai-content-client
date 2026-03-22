@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "026"
 tags: [code-review, quality, error-handling]
@@ -98,3 +98,13 @@ metadata: typeof doc.metadata === 'string'
 
 **Learnings:**
 - Shared cache design amplifies error blast radius -- defensive parsing is critical
+
+### 2026-03-22 - Resolved
+
+**By:** Claude Code (CE Todo Resolution)
+
+**Actions:**
+- Extracted `safeParseMetadata()` with try/catch + console.warn for observability
+- Extracted `normalizeSummaryDocs()` as a testable pure function
+- Added comprehensive tests for malformed JSON, null/undefined, and valid cases
+- All 13 tests passing

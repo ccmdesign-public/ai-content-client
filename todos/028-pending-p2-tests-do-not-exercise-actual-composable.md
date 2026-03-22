@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: p2
 issue_id: "028"
 tags: [code-review, quality, testing]
@@ -93,3 +93,13 @@ The test file `useSummariesData.test.ts` does not import or call `useSummariesDa
 
 **Learnings:**
 - Tests that reimplement logic give false confidence -- always test the actual code path
+
+### 2026-03-22 - Resolved
+
+**By:** Claude Code (CE Todo Resolution)
+
+**Actions:**
+- Extracted `safeParseMetadata` and `normalizeSummaryDocs` as exported pure functions
+- Rewrote tests to import and test the actual production functions
+- Added edge case tests: malformed JSON, null/undefined, field preservation
+- 13 tests passing, all exercising real production code

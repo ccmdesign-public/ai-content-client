@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: p3
 issue_id: "030"
 tags: [code-review, quality, error-handling]
@@ -59,3 +59,11 @@ This is a downstream consequence of finding #026 (unhandled JSON.parse). Once #0
 **Actions:**
 - Traced metadata parse failure path through channel page filter
 - Identified silent empty state as downstream consequence of #026
+
+### 2026-03-22 - Resolved
+
+**By:** Claude Code (CE Todo Resolution)
+
+**Actions:**
+- Resolved by fixing #026: `safeParseMetadata` now returns `{}` on failure with console.warn
+- Channel/playlist pages will show empty metadata instead of crashing, with observable warnings
