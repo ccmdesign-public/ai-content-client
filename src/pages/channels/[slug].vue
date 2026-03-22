@@ -27,7 +27,12 @@ const summaries = computed(() => {
   return allSummaries.value.filter(s => s.metadata?.channelId === targetId)
 })
 
-// 404 only if channel doesn't exist in config
+// Return proper HTTP 404 during SSR for invalid channel slugs
+if (import.meta.server && !channelConfig.value) {
+  throw createError({ statusCode: 404, message: 'Channel not found' })
+}
+
+// 404 only if channel doesn't exist in config (client-side navigation)
 const shouldShow404 = computed(() => {
   if (!allSummaries.value) return false
   if (!channelConfig.value) return true

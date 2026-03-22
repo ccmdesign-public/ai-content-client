@@ -13,9 +13,14 @@ const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
 // -- these must be called during synchronous component setup, before any throw.
 
 // Fetch summaries for this playlist (declared before items to avoid forward reference)
+// Use a function-based where clause so it re-evaluates reactively on slug change
 const { data: summaries, pending, error, refresh } = useContentStream('summaries', {
-  where: { playlistId: playlist.value?.id }
+  where: (doc: Record<string, unknown>) => doc.playlistId === playlist.value?.id,
+  key: `playlist-summaries-${route.params.slug}`
 })
+
+// Re-fetch when slug changes during client-side navigation
+watch(() => route.params.slug, () => refresh())
 
 const items = computed<Sortable[]>(() => summaries.value || [])
 const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount, loadMore } = useSortedFeed(items, undefined, { pageSize: 25 })

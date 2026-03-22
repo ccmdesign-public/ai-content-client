@@ -17,6 +17,9 @@ defineEmits<{
   loadMore: []
 }>()
 
+// SSR-safe unique ID to avoid duplicate HTML IDs when component is reused
+const feedId = useId()
+
 // Default to true for backwards compatibility
 const shouldShowHeaders = computed(() => props.showHeaders !== false)
 
@@ -25,7 +28,7 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
 </script>
 
 <template>
-  <div id="feed-content" class="flex flex-col gap-10">
+  <div :id="feedId" class="flex flex-col gap-10">
     <template v-if="shouldShowHeaders">
       <section
         v-for="segment in segments"
@@ -62,6 +65,7 @@ const allItems = computed(() => props.segments.flatMap(s => s.items))
       v-if="hasMore"
       :visible-count="visibleCount ?? 0"
       :total-count="totalCount ?? 0"
+      :feed-id="feedId"
       @load-more="$emit('loadMore')"
     />
   </div>

@@ -67,7 +67,10 @@ export function useTagIndex(slug: MaybeRefOrGetter<string>) {
       // Fetch all and filter in JS instead.
       const allSummaries = await queryCollection('summaries').all()
       const idSet = new Set(ids)
-      return (allSummaries as any[]).filter(d => idSet.has(d.metadata?.videoId))
+      return (allSummaries as any[]).filter(d => {
+        const meta = typeof d.metadata === 'string' ? JSON.parse(d.metadata) : d.metadata
+        return idSet.has(meta?.videoId)
+      })
     },
     { watch: [summaryVideoIds] }
   )

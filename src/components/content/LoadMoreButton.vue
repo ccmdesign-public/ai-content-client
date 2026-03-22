@@ -3,6 +3,7 @@ defineProps<{
   visibleCount: number
   totalCount: number
   loading?: boolean
+  feedId?: string
 }>()
 
 defineEmits<{
@@ -15,7 +16,7 @@ defineEmits<{
     <Button
       variant="outline"
       size="lg"
-      aria-controls="feed-content"
+      :aria-controls="feedId"
       :disabled="loading"
       @click="$emit('loadMore')"
     >
