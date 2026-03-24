@@ -1,0 +1,84 @@
+videoId: QZXaAc80OL0
+title: Claude Code Channels in 8 Minutes
+description: >-
+  Anthropic has released Channels for Claude Code, enabling external events (CI
+  alerts, production errors, PR comments, Discord/Telegram messages, webhooks,
+  cron jobs, logs, and monitoring signals) to be sent directly into running
+  cloud code sessions. Unlike piping into a headless cold session, Channels
+  support a warm, always-on session with continuity and large context windows,
+  letting Claude react automatically while staying active; this complements
+  Claude Code’s remote control feature, which is oriented toward manual review
+  and control. The script describes how an MCP plugin runs as a local subprocess
+  to bridge events and allow Claude to reply back, and gives an example where a
+  CI failure triggers a webhook, Claude fixes the issue, pushes a change, and CI
+  passes. A demo shows setting up a Telegram channel via BotFather, installing
+  the official Telegram plugin, configuring the bot token, pairing with a
+  session, and locking access to an allow list.
+
+
+  Here are all the links from the Claude Code Channels script:
+
+    Claude Code / Anthropic
+    - https://anthropic.com
+    - https://code.claude.com
+    - https://code.claude.com/docs/en/channels
+    - https://code.claude.com/docs/en/cli-reference
+    - https://code.claude.com/docs/en/remote-control
+    - https://code.claude.com/docs/en/mcp
+    - https://claude.ai/code
+    - https://claude.ai
+
+    Plugins & Github Repos
+    - https://github.com/anthropics/claude-plugins-official
+    - https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram
+    - https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord
+
+    Services / Tools
+    - https://telegram.org
+    - https://t.me/BotFather
+    - https://core.telegram.org/bots/api
+    - https://slack.com
+    - https://modelcontextprotocol.io
+    - https://openclaw.ai
+
+  00:00 Channels Launch Overview
+
+  00:24 Why Event Driven Agents Matter
+
+  01:16 Warm Sessions vs Cold Runs
+
+  01:40 Remote Control Pairing
+
+  02:24 MCP Plugin Architecture
+
+  02:42 CI Auto Fix Example
+
+  03:24 Always On Agent Future
+
+  04:05 Real World Monitoring Ideas
+
+  04:52 On Call Cascading Failures
+
+  05:32 Community Reactions Impact
+
+  06:18 Telegram Setup Demo
+
+  07:49 Secure Access Allowlist
+
+  08:30 Wrap Up and Next Steps
+channel: Developers Digest
+channelId: UCuE6iwZKgGz8s6kznBRI9LQ
+duration: PT8M40S
+publishedAt: 2026-03-22T00:45:05Z
+thumbnailUrl: https://i.ytimg.com/vi/QZXaAc80OL0/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=QZXaAc80OL0
+processedAt: 2026-03-24T21:14:23.254Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 7892
+outputTokens: 1209
+totalTokens: 9101
+processingTimeMs: 305314

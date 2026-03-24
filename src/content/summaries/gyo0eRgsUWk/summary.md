@@ -1,0 +1,151 @@
+---
+metadata:
+  videoId: "gyo0eRgsUWk"
+  title: "Bigger Context Windows Make AI Worse! Here's Why -- WISC Framework!"
+  description: "This video explores strategies for enhancing your ai agents, emphasizing that poor input quality often leads to agent errors. We introduce the \"Scout Pattern,\" where sub-agents process and synthesize information into concise paragraphs, and present a \"4-Layer Context Pyramid\" for effective claude code context management. This approach helps refine your ai workflow for better artificial intelligence outcomes.
+
+
+    In this complete breakdown, we cover every strategy in the WISC framework with real examples from Claude Code, Cursor, Windsurf, and Copilot. You'll learn why bigger context windows actually make your AI agent worse (Chroma Research tested 18 models -- same result every time), how to externalize your agent's memory so it never forgets your codebase, why splitting work across sub-agents produces 90.2% better outcomes than a single agent, how to build a four-layer context pyramid that makes every instruction count, and when to compress vs. prune your context so you never feed degraded tokens to your LLM.
+
+
+    WISC works with any AI coding tool that manages a context window. Whether you're using Claude Code, Cursor, GitHub Copilot, Windsurf, or any other LLM-powered coding assistant -- these strategies apply everywhere.
+
+
+    Which WISC strategy are you implementing first? Drop it in the comments.
+
+
+    ----
+
+    🚀 Want to learn agentic coding with live daily events and workshops?
+
+    Check out Dynamous AI: https://dynamous.ai/
+
+    Get 10% off here 👉 https://shorturl.smartcode.diy/dynamous_ai_10_percent_discount
+
+    ----
+
+
+    Chapters
+
+    0:00 Context rot is destroying your AI agent
+
+    0:11 You're feeding your agent garbage
+
+    1:01 Why more context makes it worse
+
+    2:09 Four letters that fix everything
+
+    2:54 W -- Write: externalize your memory
+
+    4:42 I -- Isolate: the 90.2% improvement
+
+    6:18 S -- Select: the four-layer context pyramid
+
+    8:15 C -- Compress: the safety net
+
+    10:01 The complete WISC cycle
+
+    11:11 Start using WISC today
+
+
+    Resources & Links
+
+    📄 Cole Medin's original WISC breakdown: https://www.youtube.com/watch?v=nxHKBq5ZU9U
+
+    📊 Anthropic multi-agent research: https://www.anthropic.com/engineering/multi-agent-research
+
+    📊 Chroma context degradation study (18 models): https://research.trychroma.com/evaluating-chunking
+
+    📖 Martin Fowler on AI-assisted development: https://martinfowler.com/articles/exploring-gen-ai.html
+
+    📖 Claude Code CLAUDE.md documentation: https://docs.anthropic.com/en/docs/claude-code/memory
+
+    🔧 Claude Code: https://docs.anthropic.com/en/docs/claude-code
+
+    🔧 Anthropic prompt caching: https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching
+
+
+    ---
+
+    🎬 Created with Remotion -- React-based video framework
+
+    🤖 AI-assisted production by Claude Code
+
+    📺 Subscribe for more AI coding workflows and deep dives
+
+
+    #WISC #WISCframework #ClaudeCode #AIcoding #ContextWindow #ContextManagement #Anthropic #AgenticCoding #DeveloperTools #ColeMedin #CodingAssistant #AI #Programming #LLM #SubAgents #PromptEngineering #AIagent #Cursor #Copilot #TokenManagement"
+  channel: "DIY Smart Code"
+  channelId: "UC_a85mUHqsy5j0CYCgLnkEQ"
+  duration: "PT11M53S"
+  publishedAt: "2026-03-24T10:57:53Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/gyo0eRgsUWk/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=gyo0eRgsUWk"
+processedAt: "2026-03-24T20:17:49.002Z"
+source: "youtube"
+tldr: "Bigger AI context windows worsen performance due to 'context rot'; the WISC framework (Write, Isolate, Select, Compress) reduces token load from 20,000 to 500, delivering a 90.2% improvement via specialized sub-agents and layered context management."
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
+  - name: "Copilot"
+    url: null
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tags:
+  - "agents"
+  - "ai-coding"
+  - "llm"
+  - "productivity"
+  - "prompt-engineering"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 7598
+  outputTokens: 776
+  totalTokens: 8374
+  processingTimeMs: 17907
+tagsNormalizedAt: "2026-03-24T22:56:20.471Z"
+---
+
+## Key Takeaways
+
+The WISC framework tackles AI context degradation by managing information flow systematically.
+
+## Summary
+
+**Context rot** is a documented phenomenon where AI performance degrades as context windows grow larger. Research across 18 models shows attention quality drops from near-perfect at message one to roughly 20% by message 40. The information remains, but the model cannot effectively find it, creating a 'needle in a haystack' problem.
+
+**The WISC framework** provides four sequential strategies to combat this.
+
+**Write** externalizes the agent's memory to persistent files, preventing repetitive explanations across sessions. This includes:
+
+- **Project rules** (e.g., a `claude.md` file for persistent instructions)
+- **Specification files** for complex tasks
+
+- **Progress journals** to track accomplishments
+
+The rule: if you've told your agent the same thing three times across sessions, it belongs in a file.
+
+**Isolate** leverages specialized sub-agents to cleanly handle tasks that require reading many files. Anthropic's research showed this approach yields a **90.2% improvement** over a single agent. A 'scout' pattern is recommended: delegate any task requiring reading more than five files to a sub-agent that explores, summarizes, and self-destructs, leaving the main agent's context window clean.
+
+**Select** builds a layered, cacheable system to load only the necessary context at the right time, respecting that frontier LLMs reliably follow only about 150 instructions. The pyramid includes:
+
+- **Global rules** (always loaded, cacheable for cost reduction)
+- **On-demand context** (rules for specific file types)
+- **Skills** (reusable command templates)
+- **Prime commands** (session starters)
+
+**Compress** acts as a safety net for long sessions. The strategy is to **compact early** (at the first sign of repetition) or perform **targeted pruning**, asking the agent to drop specific, no-longer-needed context like completed subtasks or resolved errors.
+
+The strategies work as a **cycle**, not a checklist: Write feeds Isolate with specifications, Isolate feeds Select with clean research, Select feeds Compress with structured layers, and Compress creates the handoff document that starts the cycle again.
+
+## Context
+
+This matters because developers and teams using AI coding agents (like Claude Code, Cursor, or Copilot) experience significant productivity loss as sessions lengthen, with agents hallucinating, repeating work, and breaking fixed things. The instinctual fix—using a bigger context window—actually worsens the problem. The WISC framework, backed by Anthropic's research and 2,000 hours of production coding, provides a systematic solution to make AI agents reliable and efficient over long sessions, which is critical for real-world development workflows.

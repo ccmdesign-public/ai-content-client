@@ -1,0 +1,46 @@
+videoId: pC0QpWqs-6I
+title: "Azure DevOps Engineer Exam: Question 21"
+description: >-
+  Azure Pipelines: Mastering Stage Order! 🚀 #shorts
+
+  Goal: Ensure your Production stage triggers automatically—but only after the
+  Test stage succeeds.
+
+
+  The Solution: dependsOn 🎯
+
+
+  - The Winner: Use the dependsOn property in your YAML stage definition.
+
+
+  - The Logic: It creates a functional link where ""Stage B"" waits for ""Stage
+  A"" to finish with a Succeeded status.
+
+
+  Why not others? Manual approvals stop automation, standalone pipelines lack
+  native tracking, and parallel jobs run simultaneously, breaking your
+  deployment flow.
+
+
+  Exam Tip: For AZ-400, ""sequential stages"" or ""success dependencies"" =
+  dependsOn. 🛠️
+
+
+  #AZ400 #AzureDevOps #YAML #CI/CD #PipelineAutomation #DevOps #TechTips
+  #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M14S
+publishedAt: 2026-03-23T07:33:44Z
+thumbnailUrl: https://i.ytimg.com/vi/pC0QpWqs-6I/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=pC0QpWqs-6I
+processedAt: 2026-03-24T19:26:12.192Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1751
+outputTokens: 570
+totalTokens: 2321
+processingTimeMs: 22075

@@ -1,0 +1,319 @@
+{
+  "videoId": "pC0QpWqs-6I",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.8689999999999998,
+      "duration": 0.010000000000000231,
+      "text": "This is the A400 certification prep"
+    },
+    {
+      "start": 2.879,
+      "duration": 2.3110000000000004,
+      "text": "This is the A400 certification prep question number 21 of 50. You're"
+    },
+    {
+      "start": 5.19,
+      "duration": 0.009999999999999787,
+      "text": "question number 21 of 50. You're"
+    },
+    {
+      "start": 5.2,
+      "duration": 1.9900000000000002,
+      "text": "question number 21 of 50. You're designing a multi-stage YAML pipeline"
+    },
+    {
+      "start": 7.19,
+      "duration": 0.009999999999999787,
+      "text": "designing a multi-stage YAML pipeline"
+    },
+    {
+      "start": 7.2,
+      "duration": 2.0699999999999994,
+      "text": "designing a multi-stage YAML pipeline that first builds the app, then runs"
+    },
+    {
+      "start": 9.27,
+      "duration": 0.009999999999999787,
+      "text": "that first builds the app, then runs"
+    },
+    {
+      "start": 9.28,
+      "duration": 2.309000000000001,
+      "text": "that first builds the app, then runs tests, then deploys to test and"
+    },
+    {
+      "start": 11.589,
+      "duration": 0.009999999999999787,
+      "text": "tests, then deploys to test and"
+    },
+    {
+      "start": 11.599,
+      "duration": 1.8309999999999995,
+      "text": "tests, then deploys to test and production. Now, the production stage"
+    },
+    {
+      "start": 13.43,
+      "duration": 0.009999999999999787,
+      "text": "production. Now, the production stage"
+    },
+    {
+      "start": 13.44,
+      "duration": 2.309000000000001,
+      "text": "production. Now, the production stage must only run after the test stage"
+    },
+    {
+      "start": 15.749,
+      "duration": 0.009999999999999787,
+      "text": "must only run after the test stage"
+    },
+    {
+      "start": 15.759,
+      "duration": 2.471,
+      "text": "must only run after the test stage succeeds. So, which mechanism should you"
+    },
+    {
+      "start": 18.23,
+      "duration": 0.00999999999999801,
+      "text": "succeeds. So, which mechanism should you"
+    },
+    {
+      "start": 18.24,
+      "duration": 2.9490000000000016,
+      "text": "succeeds. So, which mechanism should you use to enforce this dependency? A manual"
+    },
+    {
+      "start": 21.189,
+      "duration": 0.010000000000001563,
+      "text": "use to enforce this dependency? A manual"
+    },
+    {
+      "start": 21.199,
+      "duration": 1.9899999999999984,
+      "text": "use to enforce this dependency? A manual approval on the test stage. B [music]"
+    },
+    {
+      "start": 23.189,
+      "duration": 0.010000000000001563,
+      "text": "approval on the test stage. B [music]"
+    },
+    {
+      "start": 23.199,
+      "duration": 2.3099999999999987,
+      "text": "approval on the test stage. B [music] pipeline stage dependency using depends"
+    },
+    {
+      "start": 25.509,
+      "duration": 0.00999999999999801,
+      "text": "pipeline stage dependency using depends"
+    },
+    {
+      "start": 25.519,
+      "duration": 2.7910000000000004,
+      "text": "pipeline stage dependency using depends on C separate standalone pipelines for"
+    },
+    {
+      "start": 28.31,
+      "duration": 0.010000000000001563,
+      "text": "on C separate standalone pipelines for"
+    },
+    {
+      "start": 28.32,
+      "duration": 2.8689999999999998,
+      "text": "on C separate standalone pipelines for each stage. D. Parallel pipeline jobs."
+    },
+    {
+      "start": 31.189,
+      "duration": 0.010000000000001563,
+      "text": "each stage. D. Parallel pipeline jobs."
+    },
+    {
+      "start": 31.199,
+      "duration": 1.8309999999999995,
+      "text": "each stage. D. Parallel pipeline jobs. Now A is incorrect because manual"
+    },
+    {
+      "start": 33.03,
+      "duration": 0.00999999999999801,
+      "text": "Now A is incorrect because manual"
+    },
+    {
+      "start": 33.04,
+      "duration": 2.469999999999999,
+      "text": "Now A is incorrect because manual approvals introduce a human step and are"
+    },
+    {
+      "start": 35.51,
+      "duration": 0.010000000000005116,
+      "text": "approvals introduce a human step and are"
+    },
+    {
+      "start": 35.52,
+      "duration": 1.9099999999999966,
+      "text": "approvals introduce a human step and are orthogonal to automatic success"
+    },
+    {
+      "start": 37.43,
+      "duration": 0.00999999999999801,
+      "text": "orthogonal to automatic success"
+    },
+    {
+      "start": 37.44,
+      "duration": 1.8300000000000054,
+      "text": "orthogonal to automatic success dependency. C is incorrect because"
+    },
+    {
+      "start": 39.27,
+      "duration": 0.00999999999999801,
+      "text": "dependency. C is incorrect because"
+    },
+    {
+      "start": 39.28,
+      "duration": 1.75,
+      "text": "dependency. C is incorrect because separate pipelines do not enforce"
+    },
+    {
+      "start": 41.03,
+      "duration": 0.00999999999999801,
+      "text": "separate pipelines do not enforce"
+    },
+    {
+      "start": 41.04,
+      "duration": 2.3900000000000006,
+      "text": "separate pipelines do not enforce intrinsic ordering or dependencies and"
+    },
+    {
+      "start": 43.43,
+      "duration": 0.00999999999999801,
+      "text": "intrinsic ordering or dependencies and"
+    },
+    {
+      "start": 43.44,
+      "duration": 2.469999999999999,
+      "text": "intrinsic ordering or dependencies and they require manual coordination. And D"
+    },
+    {
+      "start": 45.91,
+      "duration": 0.010000000000005116,
+      "text": "they require manual coordination. And D"
+    },
+    {
+      "start": 45.92,
+      "duration": 1.8299999999999983,
+      "text": "they require manual coordination. And D is incorrect because parallel jobs"
+    },
+    {
+      "start": 47.75,
+      "duration": 0.00999999999999801,
+      "text": "is incorrect because parallel jobs"
+    },
+    {
+      "start": 47.76,
+      "duration": 2.1499999999999986,
+      "text": "is incorrect because parallel jobs execute concurrently which would violate"
+    },
+    {
+      "start": 49.91,
+      "duration": 0.010000000000005116,
+      "text": "execute concurrently which would violate"
+    },
+    {
+      "start": 49.92,
+      "duration": 2.628999999999998,
+      "text": "execute concurrently which would violate the after test stage requirement. So the"
+    },
+    {
+      "start": 52.549,
+      "duration": 0.00999999999999801,
+      "text": "the after test stage requirement. So the"
+    },
+    {
+      "start": 52.559,
+      "duration": 2.7110000000000056,
+      "text": "the after test stage requirement. So the correct answer is B. In Azure pipelines,"
+    },
+    {
+      "start": 55.27,
+      "duration": 0.00999999999999801,
+      "text": "correct answer is B. In Azure pipelines,"
+    },
+    {
+      "start": 55.28,
+      "duration": 2.3900000000000006,
+      "text": "correct answer is B. In Azure pipelines, you can define stages and specify"
+    },
+    {
+      "start": 57.67,
+      "duration": 0.00999999999999801,
+      "text": "you can define stages and specify"
+    },
+    {
+      "start": 57.68,
+      "duration": 2.3100000000000023,
+      "text": "you can define stages and specify depends on so that the production stage"
+    },
+    {
+      "start": 59.99,
+      "duration": 0.00999999999999801,
+      "text": "depends on so that the production stage"
+    },
+    {
+      "start": 60,
+      "duration": 2.5489999999999995,
+      "text": "depends on so that the production stage only runs after the test stage succeeds."
+    },
+    {
+      "start": 62.549,
+      "duration": 0.00999999999999801,
+      "text": "only runs after the test stage succeeds."
+    },
+    {
+      "start": 62.559,
+      "duration": 1.990000000000009,
+      "text": "only runs after the test stage succeeds. This declarative dependency model is the"
+    },
+    {
+      "start": 64.549,
+      "duration": 0.009999999999990905,
+      "text": "This declarative dependency model is the"
+    },
+    {
+      "start": 64.559,
+      "duration": 2.3910000000000053,
+      "text": "This declarative dependency model is the preferred way to enforce stage order and"
+    },
+    {
+      "start": 66.95,
+      "duration": 0.009999999999990905,
+      "text": "preferred way to enforce stage order and"
+    },
+    {
+      "start": 66.96,
+      "duration": 1.990000000000009,
+      "text": "preferred way to enforce stage order and success dependencies in multi-stage"
+    },
+    {
+      "start": 68.95,
+      "duration": 0.009999999999990905,
+      "text": "success dependencies in multi-stage"
+    },
+    {
+      "start": 68.96,
+      "duration": 2.710000000000008,
+      "text": "success dependencies in multi-stage pipelines. Check out our A400 course on"
+    },
+    {
+      "start": 71.67,
+      "duration": 0.010000000000005116,
+      "text": "pipelines. Check out our A400 course on"
+    },
+    {
+      "start": 71.68,
+      "duration": 2.719999999999999,
+      "text": "pipelines. Check out our A400 course on codecloud.com."
+    }
+  ],
+  "fullText": "This is the A400 certification prep This is the A400 certification prep question number 21 of 50. You're question number 21 of 50. You're question number 21 of 50. You're designing a multi-stage YAML pipeline designing a multi-stage YAML pipeline designing a multi-stage YAML pipeline that first builds the app, then runs that first builds the app, then runs that first builds the app, then runs tests, then deploys to test and tests, then deploys to test and tests, then deploys to test and production. Now, the production stage production. Now, the production stage production. Now, the production stage must only run after the test stage must only run after the test stage must only run after the test stage succeeds. So, which mechanism should you succeeds. So, which mechanism should you succeeds. So, which mechanism should you use to enforce this dependency? A manual use to enforce this dependency? A manual use to enforce this dependency? A manual approval on the test stage. B [music] approval on the test stage. B [music] approval on the test stage. B [music] pipeline stage dependency using depends pipeline stage dependency using depends pipeline stage dependency using depends on C separate standalone pipelines for on C separate standalone pipelines for on C separate standalone pipelines for each stage. D. Parallel pipeline jobs. each stage. D. Parallel pipeline jobs. each stage. D. Parallel pipeline jobs. Now A is incorrect because manual Now A is incorrect because manual Now A is incorrect because manual approvals introduce a human step and are approvals introduce a human step and are approvals introduce a human step and are orthogonal to automatic success orthogonal to automatic success orthogonal to automatic success dependency. C is incorrect because dependency. C is incorrect because dependency. C is incorrect because separate pipelines do not enforce separate pipelines do not enforce separate pipelines do not enforce intrinsic ordering or dependencies and intrinsic ordering or dependencies and intrinsic ordering or dependencies and they require manual coordination. And D they require manual coordination. And D they require manual coordination. And D is incorrect because parallel jobs is incorrect because parallel jobs is incorrect because parallel jobs execute concurrently which would violate execute concurrently which would violate execute concurrently which would violate the after test stage requirement. So the the after test stage requirement. So the the after test stage requirement. So the correct answer is B. In Azure pipelines, correct answer is B. In Azure pipelines, correct answer is B. In Azure pipelines, you can define stages and specify you can define stages and specify you can define stages and specify depends on so that the production stage depends on so that the production stage depends on so that the production stage only runs after the test stage succeeds. only runs after the test stage succeeds. only runs after the test stage succeeds. This declarative dependency model is the This declarative dependency model is the This declarative dependency model is the preferred way to enforce stage order and preferred way to enforce stage order and preferred way to enforce stage order and success dependencies in multi-stage success dependencies in multi-stage success dependencies in multi-stage pipelines. Check out our A400 course on pipelines. Check out our A400 course on pipelines. Check out our A400 course on codecloud.com.",
+  "fetchedAt": "2026-03-24T19:25:50.116Z"
+}

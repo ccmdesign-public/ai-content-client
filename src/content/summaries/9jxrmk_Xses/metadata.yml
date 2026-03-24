@@ -1,0 +1,120 @@
+videoId: 9jxrmk_Xses
+title: "Karpathy's Autoresearch: We Achieved Near-Human Scores in 2 Hours!"
+description: >-
+  Interested in Karpathy's Autoresearch but don't know where to start? We break
+  down what it is, how it's used, how to run it yourself, and then show how I
+  used a consumer GPU to hit near-human prediction scores in under 2 hours.
+
+
+  🎬 Watch more AI model videos:
+  https://www.youtube.com/playlist?list=PLmpUb_PWAkDy2uX2h_3a5Qm0ss88eXKUa
+
+
+  Autoresearch is an open-source tool by Andrej Karpathy — the researcher behind
+  GPT-4 and Tesla Autopilot — that hands your entire ML research workflow to an
+  AI agent. Instead of manually tweaking model parameters and waiting for
+  results, you write a research plan in plain English, launch Claude Code, and
+  walk away. The agent runs experiment after experiment overnight, decides what
+  works, and builds on it.
+
+
+  In this episode, we run Autoresearch on the TinyStories dataset using an RTX
+  3060. The AI agent discovers that shallower models outperform deeper ones,
+  that batch size is the key lever nobody expected, and that the Muon optimizer
+  is a complete bust — all without any human intervention. We go from
+  near-gibberish output at a val_bpb of 1.17 all the way down to 0.511, just a
+  hair above human-level prediction, in 33 autonomous experiments.
+
+
+  ✅ val_bpb dropped 56% — from 1.17 to 0.511 (human level is ~0.5)
+
+  ✅ Every key term explained in plain English — no PhD required
+
+  ✅ Full results.tsv walkthrough — see every decision the AI made
+
+
+  Scampi & Tonbi are a human-AI duo building onchain projects in public. Tonbi
+  brings taste, judgment, and domain expertise. Scampi brings tireless research,
+  coding, and shrimp energy. 🦐
+
+
+  🐦 Tonbi: https://x.com/tonbistudio
+
+  💻 Tonbi's GitHub: https://github.com/tonbistudio
+
+  🌐 Portfolio: https://www.tonbistudio.com (https://www.tonbistudio.com/)
+
+
+  Resources:
+
+  🔗 Karpathy's Autoresearch: https://github.com/karpathy/autoresearch
+
+  🔗 Windows Fork: https://github.com/jsegov/autoresearch-win-rtx
+
+  🔗 Claude Code: https://claude.ai/code
+
+  🔗 TinyStories Dataset: https://huggingface.co/datasets/roneneldan/TinyStories
+
+
+  Timestamps:
+
+  0:00 - Intro
+
+  2:28 - What is autoresearch?
+
+  4:57 - How to get started
+
+  8:39 - Our results
+
+  10:41 - Side-by-side comparison
+
+
+  What we covered:
+
+
+  • What a language model is and how training works
+
+  • What val_bpb means and why lower is better
+
+  • How Autoresearch works — the experiment loop explained
+
+  • The 5 research phases we designed
+
+  • Every parameter the agent tested and what happened
+
+  • Karpathy's own results (posted the same day we recorded)
+
+  • Full before/after story generation — baseline vs. optimized
+
+
+  Coming Next:
+
+  What real use cases are there for OpenClaw? We find out.👀
+
+
+  Got questions about Autoresearch or running ML experiments on consumer
+  hardware? Drop them in the comments! If this helped you understand how AI
+  research actually works, like and subscribe for more builds with AI! 🦐✨
+
+
+  #Karpathy #Autoresearch #MachineLearning #AI #ClaudeCode #OpenClaw #LLM
+  #NanoGPT #AIResearch #ConsumerGPU #DeepLearning
+channel: Onchain AI Garage
+channelId: UCqB1bhMwGsW-yefBxYwFCCg
+duration: PT13M42S
+publishedAt: 2026-03-10T14:00:27Z
+thumbnailUrl: https://i.ytimg.com/vi/9jxrmk_Xses/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=9jxrmk_Xses
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-03-24T19:50:07.372Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 10222
+outputTokens: 1041
+totalTokens: 11263
+processingTimeMs: 266641
