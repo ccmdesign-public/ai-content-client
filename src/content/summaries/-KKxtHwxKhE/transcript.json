@@ -1,0 +1,454 @@
+{
+  "videoId": "-KKxtHwxKhE",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 0.06,
+      "duration": 4.405,
+      "text": "How does a machine learning model determine whether an image contains a dog or cat?"
+    },
+    {
+      "start": 6.63,
+      "duration": 6.340000000000001,
+      "text": "Computers can now process images, texts, audios or videos directly like humans."
+    },
+    {
+      "start": 13.71,
+      "duration": 5.579000000000001,
+      "text": "Instead, we need to translate these inputs into a language they can understand, mathematics."
+    },
+    {
+      "start": 21.03,
+      "duration": 4.338999999999999,
+      "text": "This translation is made possible by the foundations of linear algebra."
+    },
+    {
+      "start": 26.41,
+      "duration": 7.818999999999999,
+      "text": "Linear algebra provides the framework to represent, manipulate and transform data in a form suitable for computation."
+    },
+    {
+      "start": 34.23,
+      "duration": 5.660000000000004,
+      "text": "For example, instead of reading an image directly, linear algebra allows us to"
+    },
+    {
+      "start": 39.89,
+      "duration": 5.579999999999998,
+      "text": "express it as numerical matrix in high dimensional space."
+    },
+    {
+      "start": 46.27,
+      "duration": 5.412999999999997,
+      "text": "Within this high dimensional space, objects and data types can be defined,"
+    },
+    {
+      "start": 51.683,
+      "duration": 5.485999999999997,
+      "text": "and their relationships and patterns can be measured, compared and learned."
+    },
+    {
+      "start": 58.33,
+      "duration": 7.918999999999997,
+      "text": "The same principles applies to this all type of data, audios, videos, text or structured data sets."
+    },
+    {
+      "start": 67.56,
+      "duration": 5.298999999999992,
+      "text": "Linear algebra helps convert data into mathematical objects through factorization."
+    },
+    {
+      "start": 74.06,
+      "duration": 7.320999999999998,
+      "text": "In this process, raw data is expressed as objects such as scalar, vector, matrix or tensors,"
+    },
+    {
+      "start": 81.381,
+      "duration": 4.138000000000005,
+      "text": "format that a computer can process and reason about."
+    },
+    {
+      "start": 85.52,
+      "duration": 4.698999999999998,
+      "text": "There are four fundamental data types that form the foundations of linear algebra."
+    },
+    {
+      "start": 92.89,
+      "duration": 13.25,
+      "text": "Scalars, vector, matrix and tensor."
+    },
+    {
+      "start": 110.16,
+      "duration": 6.759,
+      "text": "A scalar is the simplest unit, a single number representing a magnitude or quantity."
+    },
+    {
+      "start": 117.92,
+      "duration": 9.560000000000002,
+      "text": "It can be thought of as a single point in space, such as the number 5 or the flow 2.6 or a non-terminating decimal like pi."
+    },
+    {
+      "start": 129.16,
+      "duration": 7.592999999999989,
+      "text": "A vector extends this idea into one-dimensional sequence or a list of numbers such as 2, 3, 4."
+    },
+    {
+      "start": 138.3,
+      "duration": 7.339999999999975,
+      "text": "And a third data type is a matrix, a two-dimensional structure composed of rows and columns."
+    },
+    {
+      "start": 146.98,
+      "duration": 6.055000000000007,
+      "text": "They are capable of representing linear transformations, relationships or entire datasets."
+    },
+    {
+      "start": 154.6,
+      "duration": 8.539999999999992,
+      "text": "For instance, an image can be represented as a matrix where each entry corresponds to a pixel, grayscale or color intensity."
+    },
+    {
+      "start": 164.98,
+      "duration": 6.528999999999996,
+      "text": "A tensor generalizes this idea in even higher dimensional space that's greater than 3D."
+    },
+    {
+      "start": 172.11,
+      "duration": 4.299999999999983,
+      "text": "Tensors are also multi-dimensional arrays used to represent data in TensorFlow."
+    },
+    {
+      "start": 177.11,
+      "duration": 5.619,
+      "text": "After transforming or vectorizing raw data into linear algebraic objects, we"
+    },
+    {
+      "start": 182.729,
+      "duration": 4.040999999999997,
+      "text": "can manipulate them mathematically and prepare them for training."
+    },
+    {
+      "start": 187.81,
+      "duration": 4.692999999999984,
+      "text": "In common frameworks, such as PyTorch, Keras or TensorFlow, vector"
+    },
+    {
+      "start": 192.503,
+      "duration": 5.696000000000026,
+      "text": "operations are optimized for performance and can be computed in massive scale."
+    },
+    {
+      "start": 199.32,
+      "duration": 6.260000000000019,
+      "text": "For instance, text can be tokenized and represented as a vector or numbers."
+    },
+    {
+      "start": 207.16,
+      "duration": 2.180000000000007,
+      "text": "That captures its semantic meaning."
+    },
+    {
+      "start": 210.36,
+      "duration": 7.3799999999999955,
+      "text": "We can compare how similar two sentences are by calculating distance between their respective vectors or embeddings."
+    },
+    {
+      "start": 218.58,
+      "duration": 7.088999999999999,
+      "text": "They can be measured by a number of distance metrics, such as the Euclidean distance or cosine similarity."
+    },
+    {
+      "start": 228.52,
+      "duration": 9.813999999999993,
+      "text": "A Euclidean distance is a numeric measures between two vectors that computes the"
+    },
+    {
+      "start": 238.334,
+      "duration": 5.623999999999995,
+      "text": "point-wise similarity between each dimension and is summed across all dimensions."
+    },
+    {
+      "start": 245.02,
+      "duration": 8.412999999999982,
+      "text": "For example, the Euclidean distance between the vector A and B, this is the symbol for vectors,"
+    },
+    {
+      "start": 253.433,
+      "duration": 5.427000000000021,
+      "text": "is calculated by taking the point-wise similarity between the two vectors."
+    },
+    {
+      "start": 259.2,
+      "duration": 6.382000000000005,
+      "text": "So the first point is B1, Take the similarity of the first point in A."
+    },
+    {
+      "start": 267.65,
+      "duration": 5.059000000000026,
+      "text": "Plus, the second dimension, or the second point in B, B2."
+    },
+    {
+      "start": 273.71,
+      "duration": 8.460000000000036,
+      "text": "We sum that across all dimensions, all the way to B I A I squared."
+    },
+    {
+      "start": 282.97,
+      "duration": 2.578999999999951,
+      "text": "And we take the square root of that."
+    },
+    {
+      "start": 285.97,
+      "duration": 5.939999999999998,
+      "text": "The output is an unbounded scalar indicating the magnitude of their similarity."
+    },
+    {
+      "start": 292.27,
+      "duration": 12.620000000000005,
+      "text": "The cosine similarity, on the other hand, measures the angle between the two vectors, Vector A and vector B."
+    },
+    {
+      "start": 305.95,
+      "duration": 4.5989999999999895,
+      "text": "The angle between them is theta, and we calculate the cosine of theta."
+    },
+    {
+      "start": 311.19,
+      "duration": 6.0400000000000205,
+      "text": "The closer the two vector are in their semantic meaning, the smaller the angles will be."
+    },
+    {
+      "start": 319.29,
+      "duration": 8.517999999999972,
+      "text": "Cosine similarity is calculated by taking the dot product between the two vectors,"
+    },
+    {
+      "start": 327.808,
+      "duration": 6.439999999999998,
+      "text": "A and B, divided by the magnitude of the two vectors, A and B."
+    },
+    {
+      "start": 336.33,
+      "duration": 6.7450000000000045,
+      "text": "The output of the cosine similarity falls between negative one and one."
+    },
+    {
+      "start": 344.45,
+      "duration": 9.119000000000028,
+      "text": "Contrary to Euclidean distance, it is actually a standardized matrix that ensures the output never exceeds this bound."
+    },
+    {
+      "start": 354.79,
+      "duration": 14.439999999999998,
+      "text": "When the cosine similarity is equal to negative 1, that indicates that the two vectors is pointing at the exact same direction."
+    },
+    {
+      "start": 370.63,
+      "duration": 14.740000000000009,
+      "text": "When the cosign similarity is equal to zero, that means the two vectors are pointing at 90 degree or perpendicular."
+    },
+    {
+      "start": 386.67,
+      "duration": 6.201999999999998,
+      "text": "In machine learning, when two vectors are perpendicular, it means that the features"
+    },
+    {
+      "start": 392.872,
+      "duration": 2.6569999999999823,
+      "text": "that they represent are completely independent of one another."
+    },
+    {
+      "start": 398.4,
+      "duration": 13.159000000000049,
+      "text": "If the cosine similarity is equal to negative 1, that means that the two vectors are pointing towards the opposite direction."
+    },
+    {
+      "start": 412.06,
+      "duration": 6.5400000000000205,
+      "text": "In machine learning, the vector dot product can be extended to matrix dot product."
+    },
+    {
+      "start": 419.7,
+      "duration": 5.41900000000004,
+      "text": "Matrix dot product is one of the most important operations in linear algebra."
+    },
+    {
+      "start": 425.52,
+      "duration": 8.520000000000039,
+      "text": "It is used in all kinds of neural network, ranging from simple vanilla neural net to state-of-the-art transformer models."
+    },
+    {
+      "start": 434.9,
+      "duration": 3.3600000000000136,
+      "text": "Now let's talk about training ML models in practice."
+    },
+    {
+      "start": 439.3,
+      "duration": 8.139999999999986,
+      "text": "Modern LLMs are trained on billions and billions of tokens, and computations using all dimensions are impractical and inefficient."
+    },
+    {
+      "start": 448.9,
+      "duration": 2.841000000000008,
+      "text": "Instead, dimensionality reduction algorithms using linear algebra principles"
+    },
+    {
+      "start": 451.741,
+      "duration": 8.581999999999994,
+      "text": "such as singular value decomposition or SVD allows us to perform matrix factorization,"
+    },
+    {
+      "start": 460.323,
+      "duration": 7.133000000000038,
+      "text": "a process of breaking down a complex large matrix into smaller, more manageable and maintainable"
+    },
+    {
+      "start": 467.456,
+      "duration": 5.572999999999979,
+      "text": "matrices such that they can be reconstructed back to form the large matrix."
+    },
+    {
+      "start": 474.33,
+      "duration": 6.2590000000000146,
+      "text": "Using SVD, we can break down one single large matrix A into three smaller matrices."
+    },
+    {
+      "start": 481.772,
+      "duration": 9.437000000000012,
+      "text": "A. Let's think of A as a movie dataset, where it has rows and columns."
+    },
+    {
+      "start": 491.808,
+      "duration": 12.521999999999991,
+      "text": "So rows might represent user, and the columns might represent the movies, and the fields is populated with the user's rating of the movies."
+    },
+    {
+      "start": 505.51,
+      "duration": 7.572000000000003,
+      "text": "After vectorizing A into matrix, into this large matrix, we can use SVD to break it down"
+    },
+    {
+      "start": 513.082,
+      "duration": 4.8110000000000355,
+      "text": "into three smaller matrices, U, Sigma, and V-transposed."
+    },
+    {
+      "start": 520.98,
+      "duration": 2.840000000000032,
+      "text": "U is the left singular matrix."
+    },
+    {
+      "start": 524.36,
+      "duration": 7.600000000000023,
+      "text": "It is a orthogonal matrix that represents features in the row space or the user space."
+    },
+    {
+      "start": 532.72,
+      "duration": 4.028999999999996,
+      "text": "It captures the behavior of the user, it captures the feature of the user,"
+    },
+    {
+      "start": 536.749,
+      "duration": 4.529999999999973,
+      "text": "it gives us that representation from the original large matrix."
+    },
+    {
+      "start": 542.207,
+      "duration": 5.432000000000016,
+      "text": "Sigma is a diagonal matrix."
+    },
+    {
+      "start": 547.64,
+      "duration": 7.668999999999983,
+      "text": "That means every value is zero except for across the diagonal."
+    },
+    {
+      "start": 556.63,
+      "duration": 6.192000000000007,
+      "text": "In SVD, sigma is usually ordered such that the largest value comes in first,"
+    },
+    {
+      "start": 562.822,
+      "duration": 4.268000000000029,
+      "text": "and it signifies the importance of each of the features."
+    },
+    {
+      "start": 569.27,
+      "duration": 8.938999999999965,
+      "text": "V-transposed is the matrix that represents features in the column space or the movie space."
+    },
+    {
+      "start": 579.13,
+      "duration": 2.4600000000000364,
+      "text": "It captures informations about the movie."
+    },
+    {
+      "start": 583.15,
+      "duration": 6.538000000000011,
+      "text": "Now we can reconstruct these three smaller matrices back to form the larger matrix A."
+    },
+    {
+      "start": 592.31,
+      "duration": 6.315000000000055,
+      "text": "Using SVD algorithm, we can select and only retain the most informative features"
+    },
+    {
+      "start": 598.625,
+      "duration": 4.384999999999991,
+      "text": "based on the singular values and disregard unhelpful information."
+    },
+    {
+      "start": 603.15,
+      "duration": 6.618000000000052,
+      "text": "SVD is not only elegant, but extremely versatile because it's capable of performing"
+    },
+    {
+      "start": 609.768,
+      "duration": 4.841000000000008,
+      "text": "matrix factorization on any matrices without restrictions on the shapes."
+    },
+    {
+      "start": 615.41,
+      "duration": 5.300000000000068,
+      "text": "Linear algebra provides the essential framework that allows machine learning system to operate."
+    },
+    {
+      "start": 621.55,
+      "duration": 5.205000000000041,
+      "text": "It transforms raw data into structured numerical representations,"
+    },
+    {
+      "start": 626.755,
+      "duration": 4.726999999999975,
+      "text": "enables efficient computation through matrix operations and supports large-scale optimization"
+    },
+    {
+      "start": 631.482,
+      "duration": 5.66700000000003,
+      "text": "through modern libraries, such as PyTorch and TensorFlow."
+    },
+    {
+      "start": 639.21,
+      "duration": 5.916999999999916,
+      "text": "Methods like SVD further refine these representations by reducing dimensionality"
+    },
+    {
+      "start": 645.127,
+      "duration": 3.9890000000000327,
+      "text": "and highlighting the most informative structure within the data."
+    },
+    {
+      "start": 649.116,
+      "duration": 7.474000000000046,
+      "text": "Together, these principles illustrate why linear algebra remains foundational in machine learning."
+    },
+    {
+      "start": 657.63,
+      "duration": 9.56000000000006,
+      "text": "It converts data into mathematical form, computations into organized structure and structure into actionable intelligence."
+    }
+  ],
+  "fullText": "How does a machine learning model determine whether an image contains a dog or cat? Computers can now process images, texts, audios or videos directly like humans. Instead, we need to translate these inputs into a language they can understand, mathematics. This translation is made possible by the foundations of linear algebra. Linear algebra provides the framework to represent, manipulate and transform data in a form suitable for computation. For example, instead of reading an image directly, linear algebra allows us to express it as numerical matrix in high dimensional space. Within this high dimensional space, objects and data types can be defined, and their relationships and patterns can be measured, compared and learned. The same principles applies to this all type of data, audios, videos, text or structured data sets. Linear algebra helps convert data into mathematical objects through factorization. In this process, raw data is expressed as objects such as scalar, vector, matrix or tensors, format that a computer can process and reason about. There are four fundamental data types that form the foundations of linear algebra. Scalars, vector, matrix and tensor. A scalar is the simplest unit, a single number representing a magnitude or quantity. It can be thought of as a single point in space, such as the number 5 or the flow 2.6 or a non-terminating decimal like pi. A vector extends this idea into one-dimensional sequence or a list of numbers such as 2, 3, 4. And a third data type is a matrix, a two-dimensional structure composed of rows and columns. They are capable of representing linear transformations, relationships or entire datasets. For instance, an image can be represented as a matrix where each entry corresponds to a pixel, grayscale or color intensity. A tensor generalizes this idea in even higher dimensional space that's greater than 3D. Tensors are also multi-dimensional arrays used to represent data in TensorFlow. After transforming or vectorizing raw data into linear algebraic objects, we can manipulate them mathematically and prepare them for training. In common frameworks, such as PyTorch, Keras or TensorFlow, vector operations are optimized for performance and can be computed in massive scale. For instance, text can be tokenized and represented as a vector or numbers. That captures its semantic meaning. We can compare how similar two sentences are by calculating distance between their respective vectors or embeddings. They can be measured by a number of distance metrics, such as the Euclidean distance or cosine similarity. A Euclidean distance is a numeric measures between two vectors that computes the point-wise similarity between each dimension and is summed across all dimensions. For example, the Euclidean distance between the vector A and B, this is the symbol for vectors, is calculated by taking the point-wise similarity between the two vectors. So the first point is B1, Take the similarity of the first point in A. Plus, the second dimension, or the second point in B, B2. We sum that across all dimensions, all the way to B I A I squared. And we take the square root of that. The output is an unbounded scalar indicating the magnitude of their similarity. The cosine similarity, on the other hand, measures the angle between the two vectors, Vector A and vector B. The angle between them is theta, and we calculate the cosine of theta. The closer the two vector are in their semantic meaning, the smaller the angles will be. Cosine similarity is calculated by taking the dot product between the two vectors, A and B, divided by the magnitude of the two vectors, A and B. The output of the cosine similarity falls between negative one and one. Contrary to Euclidean distance, it is actually a standardized matrix that ensures the output never exceeds this bound. When the cosine similarity is equal to negative 1, that indicates that the two vectors is pointing at the exact same direction. When the cosign similarity is equal to zero, that means the two vectors are pointing at 90 degree or perpendicular. In machine learning, when two vectors are perpendicular, it means that the features that they represent are completely independent of one another. If the cosine similarity is equal to negative 1, that means that the two vectors are pointing towards the opposite direction. In machine learning, the vector dot product can be extended to matrix dot product. Matrix dot product is one of the most important operations in linear algebra. It is used in all kinds of neural network, ranging from simple vanilla neural net to state-of-the-art transformer models. Now let's talk about training ML models in practice. Modern LLMs are trained on billions and billions of tokens, and computations using all dimensions are impractical and inefficient. Instead, dimensionality reduction algorithms using linear algebra principles such as singular value decomposition or SVD allows us to perform matrix factorization, a process of breaking down a complex large matrix into smaller, more manageable and maintainable matrices such that they can be reconstructed back to form the large matrix. Using SVD, we can break down one single large matrix A into three smaller matrices. A. Let's think of A as a movie dataset, where it has rows and columns. So rows might represent user, and the columns might represent the movies, and the fields is populated with the user's rating of the movies. After vectorizing A into matrix, into this large matrix, we can use SVD to break it down into three smaller matrices, U, Sigma, and V-transposed. U is the left singular matrix. It is a orthogonal matrix that represents features in the row space or the user space. It captures the behavior of the user, it captures the feature of the user, it gives us that representation from the original large matrix. Sigma is a diagonal matrix. That means every value is zero except for across the diagonal. In SVD, sigma is usually ordered such that the largest value comes in first, and it signifies the importance of each of the features. V-transposed is the matrix that represents features in the column space or the movie space. It captures informations about the movie. Now we can reconstruct these three smaller matrices back to form the larger matrix A. Using SVD algorithm, we can select and only retain the most informative features based on the singular values and disregard unhelpful information. SVD is not only elegant, but extremely versatile because it's capable of performing matrix factorization on any matrices without restrictions on the shapes. Linear algebra provides the essential framework that allows machine learning system to operate. It transforms raw data into structured numerical representations, enables efficient computation through matrix operations and supports large-scale optimization through modern libraries, such as PyTorch and TensorFlow. Methods like SVD further refine these representations by reducing dimensionality and highlighting the most informative structure within the data. Together, these principles illustrate why linear algebra remains foundational in machine learning. It converts data into mathematical form, computations into organized structure and structure into actionable intelligence.",
+  "fetchedAt": "2026-03-24T01:31:35.244Z"
+}

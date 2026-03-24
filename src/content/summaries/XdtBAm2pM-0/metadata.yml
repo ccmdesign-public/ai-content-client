@@ -1,0 +1,82 @@
+videoId: XdtBAm2pM-0
+title: This New Designer Unlocks Claude Code
+description: >-
+  What if your ai coding agents could talk to each other? We put Claude Code and
+  Gemini CLI in a shared chat and let them plan, build, and review a full app
+  autonomously, this is what vibe coding looks like with multi-agent
+  coordination.
+
+
+  🔗 Links
+
+  - Repo - https://github.com/bcurts/agentchattr
+
+  - Our Repo With Added UI - https://github.com/ailabs-393/agentchattr
+
+  Community with All Resources 📦: http://ailabspro.io/
+
+  Video Code: V50
+
+
+  In this video, we explore Agentchattr, an open-source tool that lets you run
+  multiple ai coding agents side by side and have them communicate in real time
+  through a shared chat interface. Instead of switching between tools yourself,
+  you assign roles to each agent and let them coordinate autonomously across
+  different channels.
+
+
+  We walk through the full setup, from initializing agent sessions with tmux to
+  configuring permissions and MCP tools so agents can operate without constant
+  manual approval. We cover how to structure your project with planning
+  templates like a PRD, backend spec, and UI spec, and how to use an agents.md
+  file so that both Claude and Gemini follow the same guiding instructions
+  regardless of their native config files.
+
+
+  For anyone looking for the best ai for coding workflows that involve multiple
+  models, this is one of the most interesting approaches we've tested. The tool
+  supports coding with ai across Claude Code, Gemini CLI, Codex, and open-source
+  models like Kimi and Qwen, making it one of the more flexible ai coding tools
+  available right now. You can use an expensive model for planning and a cheaper
+  one for implementation, which is a practical way to manage costs while still
+  getting the best coding ai output where it matters.
+
+
+  We demonstrate a full planning-to-build pipeline: one agent creates the PRD,
+  another handles the UI spec, and a builder agent implements the backend, all
+  coordinating through the chat. The tool also includes structured review modes
+  where agents challenge each other's work across three phases, catching gaps
+  that a single ai for coding session would miss. The planner then acts as an
+  orchestrator, delegating tasks and keeping agents from overwriting each
+  other's files.
+
+
+  If you're into ai vibe coding or agentic ai workflows, this is a practical
+  look at what multi-agent collaboration actually looks like today, the wins,
+  the edge cases, and the setup needed to make it work. We also discuss how
+  using dedicated work trees with one agent handling the merge and review would
+  make ai automation with multiple agents much smoother for complex projects.
+  Whether you're using claude code or opencode or gemini cli, coordinating them
+  in a shared session opens up new ways to build.
+
+
+  Hashtags
+
+  #claudecode #claude #vibecoding #aiautomation #coding #opencode #agenticai
+  #geminicli #aicoding
+channel: AI LABS
+channelId: UCelfWQr9sXVMTvBzviPGlFw
+duration: PT11M50S
+publishedAt: 2026-03-20T15:24:28Z
+thumbnailUrl: https://i.ytimg.com/vi/XdtBAm2pM-0/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=XdtBAm2pM-0
+processedAt: 2026-03-24T00:51:33.959Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 9762
+outputTokens: 959
+totalTokens: 10721
+processingTimeMs: 31959

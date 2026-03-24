@@ -1,0 +1,319 @@
+{
+  "videoId": "NH0plIdqDMk",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 0.03,
+      "duration": 6.218999999999999,
+      "text": "Engineers are being tasked to build AI for their companies, but they're not identity experts, and that's a real problem."
+    },
+    {
+      "start": 6.61,
+      "duration": 6.419,
+      "text": "Today, we want to talk about agentic runtime security and how you can implement it safely and securely in your organization."
+    },
+    {
+      "start": 13.89,
+      "duration": 1,
+      "text": "What's that look like?"
+    },
+    {
+      "start": 14.99,
+      "duration": 1.7200000000000006,
+      "text": "It starts with an AI agent."
+    },
+    {
+      "start": 17.27,
+      "duration": 6.879999999999999,
+      "text": "This can be a Python application, a TypeScript application, but it can also be .NET, Java, really doesn't matter."
+    },
+    {
+      "start": 25.03,
+      "duration": 3.1799999999999997,
+      "text": "That AI application is going to be running somewhere, generally in a cloud."
+    },
+    {
+      "start": 28.5,
+      "duration": 3.4200000000000017,
+      "text": "Maybe it's on AWS Lambda or a virtual machine or running a container."
+    },
+    {
+      "start": 32.759,
+      "duration": 2.081000000000003,
+      "text": "But these by themselves don't provide any value."
+    },
+    {
+      "start": 35.04,
+      "duration": 2.139000000000003,
+      "text": "They have to make external connections to things."
+    },
+    {
+      "start": 38.44,
+      "duration": 1.6600000000000037,
+      "text": "And that could be a database."
+    },
+    {
+      "start": 41.68,
+      "duration": 3.6600000000000037,
+      "text": "That could be connecting to an LLM provider of your choice."
+    },
+    {
+      "start": 46.2,
+      "duration": 0.8399999999999963,
+      "text": "Likely."
+    },
+    {
+      "start": 47.04,
+      "duration": 2.419000000000004,
+      "text": "That could also be a SaaS application."
+    },
+    {
+      "start": 51.04,
+      "duration": 2.520000000000003,
+      "text": "Like a Salesforce or something else."
+    },
+    {
+      "start": 54.06,
+      "duration": 1.5,
+      "text": "We think about these external connections."
+    },
+    {
+      "start": 55.86,
+      "duration": 2.1799999999999997,
+      "text": "How do we govern access to those?"
+    },
+    {
+      "start": 58.589,
+      "duration": 8.400000000000006,
+      "text": "Traditionally, we would have our workload would hard code a static credential to a database or an API key to an LLM or an API key to SaaS."
+    },
+    {
+      "start": 67.63,
+      "duration": 1.460000000000008,
+      "text": "We actually recommend against that."
+    },
+    {
+      "start": 69.35,
+      "duration": 3.919000000000011,
+      "text": "And this is what we call non-human identity."
+    },
+    {
+      "start": 76.14,
+      "duration": 6.879000000000005,
+      "text": "What we recommend is you start to build out what these connections are dynamically at runtime per session."
+    },
+    {
+      "start": 83.82,
+      "duration": 1.1990000000000123,
+      "text": "What's that look like in practice?"
+    },
+    {
+      "start": 85.38,
+      "duration": 4.1200000000000045,
+      "text": "So we have an AI agent that's authorized to do read and write to a PostgreSQL database."
+    },
+    {
+      "start": 90.34,
+      "duration": 5.299999999999997,
+      "text": "If I was jailbroken or at prompt injection, they can read or write anything from the database."
+    },
+    {
+      "start": 96.22,
+      "duration": 1.918999999999997,
+      "text": "And so we want to strip that standing privilege."
+    },
+    {
+      "start": 98.32,
+      "duration": 5.861000000000004,
+      "text": "What we really want is for this AI agent, at the time of the session and at the time of evaluating an action,"
+    },
+    {
+      "start": 104.181,
+      "duration": 9.689000000000007,
+      "text": "to know what it's gonna request access to and get dynamic credentials into each one of these that is session bound and intent bound."
+    },
+    {
+      "start": 114.47,
+      "duration": 1,
+      "text": "How do you do that?"
+    },
+    {
+      "start": 115.61,
+      "duration": 2.0990000000000038,
+      "text": "The first is dynamic creds."
+    },
+    {
+      "start": 121.26,
+      "duration": 5.458999999999989,
+      "text": "This is the practice of creating just-in-time credentials for anything you need that are time-bound and automatically revoked at the end of the session."
+    },
+    {
+      "start": 127.04,
+      "duration": 3.3389999999999844,
+      "text": "That can be two minutes, two seconds, whatever really matters."
+    },
+    {
+      "start": 131.2,
+      "duration": 2.920000000000016,
+      "text": "But now we need to think about the users on top of this."
+    },
+    {
+      "start": 134.62,
+      "duration": 1.8400000000000034,
+      "text": "AI agents are generally used by users."
+    },
+    {
+      "start": 136.62,
+      "duration": 6.439999999999998,
+      "text": "While there are completely autonomous agents that are operating by themselves, today what we normally see is a user in front of it."
+    },
+    {
+      "start": 144.58,
+      "duration": 4.399000000000001,
+      "text": "So this user interacts with your AI agent, usually via HTTP or some other interface."
+    },
+    {
+      "start": 149.89,
+      "duration": 1.9000000000000057,
+      "text": "What about using the user identity?"
+    },
+    {
+      "start": 151.97,
+      "duration": 2.5589999999999975,
+      "text": "How do we understand who that user is and the context?"
+    },
+    {
+      "start": 155.11,
+      "duration": 2.518999999999977,
+      "text": "Well, this is where you layer in your IDP."
+    },
+    {
+      "start": 158.33,
+      "duration": 3.9399999999999977,
+      "text": "This can be an Okta, this can be an IBM Verify, it really doesn't matter."
+    },
+    {
+      "start": 162.91,
+      "duration": 5.399000000000001,
+      "text": "And AI agents will work with an IDP to understand who you are. That IDP works with you."
+    },
+    {
+      "start": 168.53,
+      "duration": 2.158999999999992,
+      "text": "This is how we do things like single sign-on."
+    },
+    {
+      "start": 171.79,
+      "duration": 5.052999999999997,
+      "text": "This is predicated on a standard called OAuth, typically OAuth 2.0, and it's"
+    },
+    {
+      "start": 179.917,
+      "duration": 1.8629999999999995,
+      "text": "Authorization code flow."
+    },
+    {
+      "start": 182.08,
+      "duration": 1.5999999999999943,
+      "text": "You've likely seen this interaction."
+    },
+    {
+      "start": 184.18,
+      "duration": 4.367999999999995,
+      "text": "When you go to click log on with Google, log on with Microsoft, you'll see a redirect,"
+    },
+    {
+      "start": 188.548,
+      "duration": 7.5120000000000005,
+      "text": "and that redirect page will ask you: do you authorize this application to access your portfolio, your profile, your email address, or act on your behalf?"
+    },
+    {
+      "start": 196.72,
+      "duration": 1.8189999999999884,
+      "text": "That is the OAuth standard implemented here."
+    },
+    {
+      "start": 199.38,
+      "duration": 1.4800000000000182,
+      "text": "But what about sensitive operations?"
+    },
+    {
+      "start": 201.42,
+      "duration": 6.774000000000001,
+      "text": "If you're building an HR application internally, and that HR application, the AI agent, can onboard off-board employees,"
+    },
+    {
+      "start": 208.194,
+      "duration": 5.356000000000023,
+      "text": "those are sensitive operations that can have real world impacts to your risk and to your employees and even financial security."
+    },
+    {
+      "start": 214.31,
+      "duration": 8.938999999999993,
+      "text": "When we have those higher-level operations that need to have additional scrutiny, this is when we recommend something called OAuth 2.0 CIBA."
+    },
+    {
+      "start": 223.55,
+      "duration": 2.5389999999999873,
+      "text": "And what that means is this is like passkeys for agents."
+    },
+    {
+      "start": 226.77,
+      "duration": 5.8799999999999955,
+      "text": "This will actually hit a prompt to the user's phone, completely outside of the browser context."
+    },
+    {
+      "start": 233.11,
+      "duration": 4.819999999999993,
+      "text": "So when a user makes a call to an AI agent, the AI determines that they want to do something sensitive."
+    },
+    {
+      "start": 238.34,
+      "duration": 7.0660000000000025,
+      "text": "The AI agent will call the IDP, will initiate this third-party CIBA, Client-Initiated Backchannel Authentication,"
+    },
+    {
+      "start": 245.406,
+      "duration": 4.513000000000005,
+      "text": "and prompt the user's phone and say: do you want to off-board this employee with the details?"
+    },
+    {
+      "start": 250.7,
+      "duration": 7.740000000000009,
+      "text": "That is a really powerful mechanism around security to make sure that the operations and actions being taken are authorized by the user."
+    },
+    {
+      "start": 258.88,
+      "duration": 4.3589999999999804,
+      "text": "It's also another layer of protection against jailbreaking and prompt injection on that AI agent."
+    },
+    {
+      "start": 263.52,
+      "duration": 6.660000000000025,
+      "text": "If there was a prompt injection that said off-bored all employees, I would get a notice for each one of those to my phone."
+    },
+    {
+      "start": 270.9,
+      "duration": 9.300000000000011,
+      "text": "To tie together the dynamic credentials with OAuth 2.0 and now adding in CIBA, Client-Initiated Backchannel Authentication, we put that code into our AI agent."
+    },
+    {
+      "start": 280.36,
+      "duration": 2.658999999999992,
+      "text": "That's where we do the work inside our Python or our TypeScript."
+    },
+    {
+      "start": 283.34,
+      "duration": 5.920000000000016,
+      "text": "We evaluate the JWTs, we create the dynamic credential, we access them, and then we automatically revoke them."
+    },
+    {
+      "start": 290.1,
+      "duration": 2.3789999999999623,
+      "text": "And that's how we provide agentic runtime security today."
+    }
+  ],
+  "fullText": "Engineers are being tasked to build AI for their companies, but they're not identity experts, and that's a real problem. Today, we want to talk about agentic runtime security and how you can implement it safely and securely in your organization. What's that look like? It starts with an AI agent. This can be a Python application, a TypeScript application, but it can also be .NET, Java, really doesn't matter. That AI application is going to be running somewhere, generally in a cloud. Maybe it's on AWS Lambda or a virtual machine or running a container. But these by themselves don't provide any value. They have to make external connections to things. And that could be a database. That could be connecting to an LLM provider of your choice. Likely. That could also be a SaaS application. Like a Salesforce or something else. We think about these external connections. How do we govern access to those? Traditionally, we would have our workload would hard code a static credential to a database or an API key to an LLM or an API key to SaaS. We actually recommend against that. And this is what we call non-human identity. What we recommend is you start to build out what these connections are dynamically at runtime per session. What's that look like in practice? So we have an AI agent that's authorized to do read and write to a PostgreSQL database. If I was jailbroken or at prompt injection, they can read or write anything from the database. And so we want to strip that standing privilege. What we really want is for this AI agent, at the time of the session and at the time of evaluating an action, to know what it's gonna request access to and get dynamic credentials into each one of these that is session bound and intent bound. How do you do that? The first is dynamic creds. This is the practice of creating just-in-time credentials for anything you need that are time-bound and automatically revoked at the end of the session. That can be two minutes, two seconds, whatever really matters. But now we need to think about the users on top of this. AI agents are generally used by users. While there are completely autonomous agents that are operating by themselves, today what we normally see is a user in front of it. So this user interacts with your AI agent, usually via HTTP or some other interface. What about using the user identity? How do we understand who that user is and the context? Well, this is where you layer in your IDP. This can be an Okta, this can be an IBM Verify, it really doesn't matter. And AI agents will work with an IDP to understand who you are. That IDP works with you. This is how we do things like single sign-on. This is predicated on a standard called OAuth, typically OAuth 2.0, and it's Authorization code flow. You've likely seen this interaction. When you go to click log on with Google, log on with Microsoft, you'll see a redirect, and that redirect page will ask you: do you authorize this application to access your portfolio, your profile, your email address, or act on your behalf? That is the OAuth standard implemented here. But what about sensitive operations? If you're building an HR application internally, and that HR application, the AI agent, can onboard off-board employees, those are sensitive operations that can have real world impacts to your risk and to your employees and even financial security. When we have those higher-level operations that need to have additional scrutiny, this is when we recommend something called OAuth 2.0 CIBA. And what that means is this is like passkeys for agents. This will actually hit a prompt to the user's phone, completely outside of the browser context. So when a user makes a call to an AI agent, the AI determines that they want to do something sensitive. The AI agent will call the IDP, will initiate this third-party CIBA, Client-Initiated Backchannel Authentication, and prompt the user's phone and say: do you want to off-board this employee with the details? That is a really powerful mechanism around security to make sure that the operations and actions being taken are authorized by the user. It's also another layer of protection against jailbreaking and prompt injection on that AI agent. If there was a prompt injection that said off-bored all employees, I would get a notice for each one of those to my phone. To tie together the dynamic credentials with OAuth 2.0 and now adding in CIBA, Client-Initiated Backchannel Authentication, we put that code into our AI agent. That's where we do the work inside our Python or our TypeScript. We evaluate the JWTs, we create the dynamic credential, we access them, and then we automatically revoke them. And that's how we provide agentic runtime security today.",
+  "fetchedAt": "2026-03-24T01:27:01.795Z"
+}

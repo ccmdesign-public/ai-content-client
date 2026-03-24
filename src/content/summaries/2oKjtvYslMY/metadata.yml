@@ -1,0 +1,47 @@
+videoId: 2oKjtvYslMY
+title: Stable diffusion dreams of steampunk brains
+description: >-
+  Prompt: "ultrarealistic steam punk neural network machine in the shape of a
+  brain, placed on a pedestal, covered with neurons made of gears. dramatic
+  lighting. #unrealengine"
+
+  Stable diffusion takes a noise vector as input and samples an image. To create
+  this video I smoothly (spherically) interpolate between randomly chosen noise
+  vectors and render frames along the way.
+
+
+  This video was produced by one A100 GPU dreaming about the prompt overnight
+  (~8 hours). While I slept and dreamt about other things.
+
+
+  This is version 2 video of this prompt, with (I think?) a bit higher quality
+  and trippy AGI music.
+
+
+  Music: Wonders by JVNA
+
+
+  Links:
+
+  - Stable diffusion: https://stability.ai/blog
+
+  - Code used to make this video:
+  https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+
+  - My twitter: https://twitter.com/karpathy
+channel: Andrej Karpathy
+channelId: UCXUPKJO5MZQN11PqgIvyuvQ
+duration: PT19M26S
+publishedAt: 2022-08-17T16:58:01Z
+thumbnailUrl: https://i.ytimg.com/vi/2oKjtvYslMY/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=2oKjtvYslMY
+processedAt: 2026-03-24T02:16:18.433Z
+lengthCategory: standard
+modelUsed: openrouter/google/gemini-2.5-flash
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1658
+outputTokens: 799
+totalTokens: 2457
+processingTimeMs: 38690

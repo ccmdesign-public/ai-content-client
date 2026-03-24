@@ -1,0 +1,177 @@
+videoId: eA9Zf2-qYYM
+title: Building AI Agents that actually work (Full Course)
+description: >-
+  I sit down with Remy Gaskell to break down how anyone can build AI agents to
+  run entire departments of their business. Remy walks through the core
+  concepts: agent loops, context files, memory, MCP tool connections, and
+  skills. We put everything together by building a fully functional executive
+  assistant live on screen. This is a beginner-friendly crash course that covers
+  Claude Code, Codex, Cowork, Antigravity, Manus, and OpenClaw, showing that
+  once you understand how to "drive," you can jump into any agent platform. By
+  the end, listeners know exactly how to set up markdown-based context files,
+  connect their everyday tools, and create reusable skills that compound over
+  weeks and months.
+
+
+  Timestamps
+
+  00:00 – Intro
+
+  01:35 – Agents vs Chat
+
+  03:22 – The Agent Loop
+
+  05:46 – How Agents work
+
+  06:39 – Demoing Agents (Claude Code, Codex, Antigravity)
+
+  08:52 – Security and Agent Permissions
+
+  10:43 – Comparing Results Across Three Platforms
+
+  13:57 – Startup Idea: Cold Email Website Offer
+
+  14:50 – Folder Structure and Department-Based Agents
+
+  15:52 – Onboarding an Agent Like a Real Employee
+
+  17:05 – Voice-to-Text With Monologue and WhisperFlow
+
+  18:04 – Chat Memory vs. Agent Memory
+
+  19:34 – Building the agents md
+
+  22:20 – Context Engineering Over Prompt Engineering
+
+  24:29 – How Memory Compounds and Reduces Errors
+
+  30:27 – How Big Can memory md Get?
+
+  31:43 – Connecting Tools via MCP (Model Context Protocol)
+
+  34:49 – Working in Claude Code for High-Value Tasks
+
+  37:09 – Why the Real Value Is in Stacking, Not Summarizing
+
+  40:04 – What Are Skills? (SOPs for AI)
+
+  43:08 – Creating Skills
+
+  48:36 – Real-World Example: Ads Analyst Skill: 4-Hour Process in Minutes
+
+  50:37 – Chaining Skills together
+
+  52:01 – Real-World Example: Automated Car Search
+
+  53:34 – OpenClaw and Migrating Agents to More Autonomous Platforms
+
+  55:19 – Which Platform Should Beginners Start With?
+
+  56:28 – Global vs. Project-Level Skills, Context, and MCPs
+
+
+  Key Points
+
+
+  * Agent platforms (Claude Code, Codex, Cowork, Antigravity, Manus, OpenClaw)
+  are all running the same observe-think-act loop under the hood — learning one
+  means you can use any of them.
+
+  * The shift from chat to agents requires moving from prompt engineering to
+  context engineering: load the agent with rich context so simple prompts
+  produce excellent results.
+
+  * A memory md file creates a self-improving loop where the agent learns
+  preferences across sessions and makes fewer errors over time.
+
+  * MCP (Model Context Protocol), built by Anthropic, acts as a universal
+  translator between your agent and every tool it needs — Gmail, Calendar,
+  Stripe, Notion, and more.
+
+  * Skills are reusable SOPs packaged as markdown files; once you explain a
+  process once, you can invoke it repeatedly, and they compound as you add three
+  to five per week.
+
+  * Scheduled tasks turn skills into automated workflows — morning briefs, car
+  searches, ad library analyses — that run on a cron without any manual trigger.
+
+
+  Numbered Section Summaries
+
+
+  1. The Agent Loop in Action
+
+
+  Remy kicks off with a live demo, sending the same prompt — "build a minimalist
+  portfolio site for Greg Isenberg" — to Claude Code, Codex, and Antigravity
+  simultaneously. All three platforms run the same observe-think-act loop:
+  research the subject, write the code, spin up a preview, and verify the result
+  with a screenshot. The demo makes it tangible that every agent harness is just
+  a different car with the same engine.
+
+
+  2. Onboarding Your Agent Like a Real Employee
+
+
+  Remy shows that without context, an agent asked to "write me a cold email" has
+  no idea who you are or what you sell. The fix is an agents.md (or Claude.md)
+  file — a persistent context document loaded at the start of every session. You
+  fill it with your role, business details, tools, and working preferences, and
+  the result is that a two-word prompt produces a fully informed output.
+
+
+  3. Memory That Compounds
+
+
+  Chat models store memory invisibly in the cloud; agents require you to build
+  it intentionally. Remy adds a memory.md file and a simple instruction in the
+  context file: "When I correct you or you learn something new, update
+  memory.md." Preferences like tone, email sign-offs, and design choices persist
+  across sessions, and errors decrease over time.
+
+
+
+  The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+
+  LCA helps Fortune 500s and fast-growing startups build their future - from
+  Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI,
+  apps, and next-gen products https://latecheckout.agency/
+
+
+  The Vibe Marketer - Resources for people into vibe marketing/marketing with
+  AI: https://www.thevibemarketer.com/
+
+
+  FIND ME ON SOCIAL
+
+  X/Twitter: https://twitter.com/gregisenberg
+
+  Instagram: https://instagram.com/gregisenberg/
+
+  LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+  FIND REMY ON SOCIAL
+
+  X:https://x.com/remy_gaskell
+
+  Youtube: https://www.youtube.com/@aiwithremy
+
+  Instagram: https://www.instagram.com/aiwithremy/
+channel: Greg Isenberg
+channelId: UCPjNBjflYl0-HQtUvOx0Ibw
+duration: PT58M56S
+publishedAt: 2026-03-17T19:25:00Z
+thumbnailUrl: https://i.ytimg.com/vi/eA9Zf2-qYYM/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=eA9Zf2-qYYM
+processedAt: 2026-03-24T01:10:05.772Z
+lengthCategory: longform
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 39395
+outputTokens: 2051
+totalTokens: 41446
+processingTimeMs: 543383

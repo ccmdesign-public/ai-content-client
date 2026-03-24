@@ -1,0 +1,42 @@
+videoId: kVpDARqZdrQ
+title: Stable diffusion dreams of psychedelic faces
+description: >-
+  Prompt: "psychedelic faces"
+
+  Stable diffusion takes a noise vector as input and samples an image. To create
+  this video I smoothly (spherically) interpolate between randomly chosen noise
+  vectors and render frames along the way.
+
+
+  This video was produced by one A100 GPU taking about 10 tabs and dreaming
+  about the prompt overnight (~8 hours). While I slept and dreamt about other
+  things.
+
+
+  Music: Stars by JVNA
+
+
+  Links:
+
+  - Stable diffusion: https://stability.ai/blog
+
+  - Code used to make this video:
+  https://gist.github.com/karpathy/00103b0037c5aaea32fe1da1af553355
+
+  - My twitter: https://twitter.com/karpathy
+channel: Andrej Karpathy
+channelId: UCXUPKJO5MZQN11PqgIvyuvQ
+duration: PT4M2S
+publishedAt: 2022-08-19T18:32:25Z
+thumbnailUrl: https://i.ytimg.com/vi/kVpDARqZdrQ/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=kVpDARqZdrQ
+processedAt: 2026-03-24T02:15:06.991Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1130
+outputTokens: 395
+totalTokens: 1525
+processingTimeMs: 10886

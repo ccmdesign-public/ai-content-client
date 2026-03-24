@@ -1,0 +1,170 @@
+videoId: fd4k16REDOU
+title: I fixed OpenClaw so it actually works (full setup)
+description: >-
+  I sit down with Moritz Kremb, an OpenClaw power user and agency builder based
+  in Berlin, to break down how to actually make OpenClaw useful. Moritz walks
+  through a 10-step optimization guide covering everything from troubleshooting
+  and memory management to model selection and security basics. He then demos
+  two real systems he built with OpenClaw: a full short-form video content
+  pipeline and a conversational CRM. This episode is for anyone who tried
+  OpenClaw, hit a wall, and wants a clear path to turning it into a superhuman
+  digital employee.
+
+
+  Timestamps
+
+  00:00 – Intro and episode promise
+
+  02:17 – What is OpenClaw
+
+  03:17 – OpenClaw vs. ChatGPT vs. Claude Code
+
+  07:43 – Where Claude Cowork and Dispatch fit in
+
+  09:47 – Why choose OpenClaw over Cowork
+
+  11:03 – Step 1: Setting up OpenClaw
+
+  14:46 – Step 2: Personalize your workspace files
+
+  18:04 – Step 3: Fix and optimize memory
+
+  22:43 – Step 4: Choose the right model (OAuth method)
+
+  25:56 – Anthropic ban and model provider gray areas
+
+  27:33 – Step 5: Organize Telegram groups and topics
+
+  30:19 – Step 6: Understand the three browser modes
+
+  35:18 – Step 7: Skills — built-in, marketplace, and custom
+
+  39:03 – Step 8: Optimize the heartbeat file
+
+  42:00 – Step 9: Security basics and prompt injection
+
+  48:08 – Step 10: Least access principle and agent-owned accounts
+
+  49:52 – Use case 1: No AI Slop content system
+
+  58:37 – Use case 2: Conversational CRM
+
+  01:01:15 – Final thoughts on the future of personal agents
+
+  01:02:55 – Jensen Huang's take: OpenClaw as the new computer
+
+
+  Key Points
+
+
+  * Upload the OpenClaw documentation into a Claude project to create a
+  dedicated troubleshooting baseline — it solves roughly 99% of setup issues.
+
+  * Use the OAuth method (your existing $20 ChatGPT or Anthropic subscription)
+  to avoid expensive API costs, and always configure backup models.
+
+  * Memory problems are almost always caused by memory never being saved in the
+  first place; add an auto-save instruction to the heartbeat file so it logs
+  every 30 minutes.
+
+  * Organize your OpenClaw conversations into separate Telegram groups and
+  topics with group-specific system prompts to avoid context bleed.
+
+  * Stronger models are meaningfully more resistant to prompt injection; pair
+  that with least-access principles and agent-owned accounts for a solid
+  security posture.
+
+  * Custom skills are the path to real automation — whenever you do something
+  repeatedly, tell your OpenClaw to turn it into a skill.
+
+
+  Numbered Section Summaries
+
+
+  1. OpenClaw Explained: What It Is and How It Differs
+
+
+  Moritz breaks down OpenClaw as the first truly personal, autonomous agent —
+  one that remembers, runs on a heartbeat every 30 minutes, executes cron jobs,
+  and lives inside whatever chat app you already use. He maps the evolution from
+  ChatGPT (cloud chat) to Claude Code (local files) to OpenClaw (persistent,
+  proactive, and portable).
+
+
+  2. OpenClaw vs. Claude Cowork and Dispatch
+
+
+  Anthropic's new Dispatch feature and Claude Cowork are moving toward what
+  OpenClaw already does, but OpenClaw remains more powerful and feature-rich
+  today. Moritz frames the long-term comparison as Linux vs. Windows: the
+  open-source version attracts community contribution, flexibility, and
+  customization that proprietary tools have a harder time matching.
+
+
+  3. The 10-Step Optimized Setup
+
+
+  The core of the episode. Moritz walks step by step through: creating a
+  troubleshooting project with the official docs, personalizing workspace files
+  (agents.md, soul.md, user.md, identity.md), fixing memory with compaction
+  settings and heartbeat auto-save, selecting models via OAuth, organizing
+  Telegram groups with system prompts, understanding the three browser modes,
+  activating and building skills, tuning the heartbeat file, hardening security,
+  and applying least-access principles with agent-owned accounts.
+
+
+  4. Model Selection and the OAuth Shortcut
+
+
+  Instead of paying per-API-call, Moritz recommends hooking OpenClaw into an
+  existing $20 ChatGPT subscription via OAuth. He suggests setting up a backup
+  chain — OpenAI as primary, Anthropic as secondary, and open-source models
+  through OpenRouter or Kilo Gateway as fallbacks — so the agent always has a
+  working brain.
+
+
+
+  The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+
+  LCA helps Fortune 500s and fast-growing startups build their future - from
+  Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI,
+  apps, and next-gen products https://latecheckout.agency/
+
+
+  The Vibe Marketer - Resources for people into vibe marketing/marketing with
+  AI: https://www.thevibemarketer.com/
+
+
+  FIND ME ON SOCIAL
+
+  X/Twitter: https://twitter.com/gregisenberg
+
+  Instagram: https://instagram.com/gregisenberg/
+
+  LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+  FIND MORITZ ON SOCIAL
+
+  X: https://x.com/moritzkremb
+
+  Youtube: https://www.youtube.com/@promptwarrior/videos
+
+  Instagram: https://www.youtube.com/@promptwarrior/
+channel: Greg Isenberg
+channelId: UCPjNBjflYl0-HQtUvOx0Ibw
+duration: PT1H4M42S
+publishedAt: 2026-03-19T19:45:01Z
+thumbnailUrl: https://i.ytimg.com/vi/fd4k16REDOU/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=fd4k16REDOU
+processedAt: 2026-03-24T01:00:28.801Z
+lengthCategory: longform
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 35722
+outputTokens: 2424
+totalTokens: 38146
+processingTimeMs: 97415

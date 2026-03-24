@@ -1,0 +1,469 @@
+{
+  "videoId": "soFWS8NBcSU",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 0.2,
+      "duration": 6.16,
+      "text": "Everyone is talking about AI agents right now, which usually means half the room is pretending they know what one actually is."
+    },
+    {
+      "start": 6.76,
+      "duration": 1.5990000000000002,
+      "text": "So let's clear it up for those folks."
+    },
+    {
+      "start": 8.96,
+      "duration": 11.018999999999998,
+      "text": "Here's the simplest definition I know of that actually works: agents are essentially models using tools in a loop autonomously."
+    },
+    {
+      "start": 21.08,
+      "duration": 4.020000000000003,
+      "text": "That's it, models using tools in a loop with autonomy."
+    },
+    {
+      "start": 25.7,
+      "duration": 10.709,
+      "text": "You kick off the process by telling the agent what you want it to do, what the objective is, and then it figures out how and actually does that thing all by itself."
+    },
+    {
+      "start": 37.03,
+      "duration": 3.5,
+      "text": "This capability can be tremendously powerful as a force multiplier."
+    },
+    {
+      "start": 41.09,
+      "duration": 8.838999999999999,
+      "text": "It's as if you're now the leader of a whole team of highly intelligent, highly motivated employees intent on executing your instructions with speed and scale."
+    },
+    {
+      "start": 50.49,
+      "duration": 1,
+      "text": "Sounds great, right?"
+    },
+    {
+      "start": 51.83,
+      "duration": 3.8800000000000026,
+      "text": "Well, to err is human, but to really mess up requires a computer."
+    },
+    {
+      "start": 56.11,
+      "duration": 5.960000000000001,
+      "text": "And that's what can happen if you don't make sure that your agents are secure and operating under your control."
+    },
+    {
+      "start": 62.63,
+      "duration": 7.478999999999992,
+      "text": "In this video, we're gonna take a look at the top 10 ways an agent can get hijacked by an attacker and how to prevent it from happening."
+    },
+    {
+      "start": 70.79,
+      "duration": 6.478999999999999,
+      "text": "OWASP, the Open Worldwide Application Security Project is an industry consortium known for its top 10 vulnerabilities list."
+    },
+    {
+      "start": 77.73,
+      "duration": 7.899000000000001,
+      "text": "For more than a decade, they've been producing a top 10 for web applications, and in the past few years, they've taken on large language models as well."
+    },
+    {
+      "start": 86.01,
+      "duration": 1.6799999999999926,
+      "text": "In fact, I've done some videos on these."
+    },
+    {
+      "start": 88.27,
+      "duration": 5.900000000000006,
+      "text": "We're gonna use their recent work on AI agents to examine and inform how we should be securing them."
+    },
+    {
+      "start": 94.55,
+      "duration": 3.5790000000000077,
+      "text": "So let's start with looking at the overall architecture of an agent."
+    },
+    {
+      "start": 98.77,
+      "duration": 3.5589999999999975,
+      "text": "So, an agent is basically got three major components to it."
+    },
+    {
+      "start": 102.35,
+      "duration": 6.02000000000001,
+      "text": "It's got inputs, it's got a processing or thinking-reasoning component, and then it's some outputs."
+    },
+    {
+      "start": 108.75,
+      "duration": 1.3790000000000049,
+      "text": "So what goes into each of these?"
+    },
+    {
+      "start": 110.45,
+      "duration": 4.679999999999993,
+      "text": "Well, the inputs, this is basically where, one example of inputs could be a prompt."
+    },
+    {
+      "start": 115.46,
+      "duration": 5.699000000000012,
+      "text": "You know, a user here is going to type something in and that goes into the system."
+    },
+    {
+      "start": 121.6,
+      "duration": 4.338999999999999,
+      "text": "Another example is our system could be called by an API."
+    },
+    {
+      "start": 126.24,
+      "duration": 8.340000000000018,
+      "text": "So we could have a system where the API is in fact calling our agent and that's what's kicking it off."
+    },
+    {
+      "start": 134.84,
+      "duration": 3.141999999999996,
+      "text": "It could also be another agent that's calling our agent."
+    },
+    {
+      "start": 138.28,
+      "duration": 4.319999999999993,
+      "text": "So these are basically the inputs or the perception part of the agent."
+    },
+    {
+      "start": 143.65,
+      "duration": 4.561999999999983,
+      "text": "Now there's, the real thinking, the processing, the reasoning part of all of this here in the middle."
+    },
+    {
+      "start": 148.212,
+      "duration": 4.197000000000003,
+      "text": "This is where we're going to have the reasoning that occurs."
+    },
+    {
+      "start": 152.73,
+      "duration": 6.060000000000002,
+      "text": "But we don't just want reasoning, we want it to also be informed by things like data sources."
+    },
+    {
+      "start": 158.99,
+      "duration": 8.284999999999997,
+      "text": "So we're gonna have data sources that are training the models that are used in this, because remember I said an agent begins with a model?"
+    },
+    {
+      "start": 167.275,
+      "duration": 1.2150000000000034,
+      "text": "Here's the model."
+    },
+    {
+      "start": 168.87,
+      "duration": 1.8789999999999907,
+      "text": "Well, the model begins with data."
+    },
+    {
+      "start": 170.75,
+      "duration": 2.8600000000000136,
+      "text": "And we might have other data sources as well."
+    },
+    {
+      "start": 173.86,
+      "duration": 8.278999999999996,
+      "text": "So we could have something like a RAG dataset, a retrieval augmented generation dataset that is feeding in here as well."
+    },
+    {
+      "start": 182.34,
+      "duration": 4.818999999999988,
+      "text": "And actually it's probably feeding in more this way, but you could use it in either context."
+    },
+    {
+      "start": 188.16,
+      "duration": 9.718999999999994,
+      "text": "And then we're also gonna have a policy component because we want this thing to be able to basically operate under the rules that we have for it."
+    },
+    {
+      "start": 197.94,
+      "duration": 3.3600000000000136,
+      "text": "And then ultimately we need to have a human in the loop."
+    },
+    {
+      "start": 201.86,
+      "duration": 3.758999999999986,
+      "text": "And the human in the loop is gonna be the oversight component of all of this."
+    },
+    {
+      "start": 205.96,
+      "duration": 6,
+      "text": "So that's really the processing components of all this, but ultimately the agent is going to take action."
+    },
+    {
+      "start": 212.26,
+      "duration": 1.9989999999999952,
+      "text": "And that's where the outputs come in."
+    },
+    {
+      "start": 214.52,
+      "duration": 7.494999999999976,
+      "text": "So the agent could then call tools, it could call another API to kick off yet another program that's gonna do something,"
+    },
+    {
+      "start": 222.015,
+      "duration": 6.6440000000000055,
+      "text": "write something in a database or something like that, or it could delegate some responsibilities to yet another agent."
+    },
+    {
+      "start": 228.66,
+      "duration": 8.479000000000013,
+      "text": "So here you see the possibility of an agent calling an agent to do something, which then calls yet other agents."
+    },
+    {
+      "start": 237.44,
+      "duration": 5.0989999999999895,
+      "text": "And you can see how this thing gets really complex in a hurry if all of this is operating autonomously."
+    },
+    {
+      "start": 242.82,
+      "duration": 4.920000000000016,
+      "text": "If it's working well and it's following the policies and the humans are overseeing it, we're good."
+    },
+    {
+      "start": 248.34,
+      "duration": 3.3389999999999986,
+      "text": "But there's a lot of areas here that someone could trip this thing up."
+    },
+    {
+      "start": 252.02,
+      "duration": 4.539999999999992,
+      "text": "So this architecture is really powerful in its ability to amplify human capabilities."
+    },
+    {
+      "start": 257.04,
+      "duration": 3.4399999999999977,
+      "text": "But if we aren't careful, it can also be a risk amplifier."
+    },
+    {
+      "start": 261.05,
+      "duration": 5.800000000000011,
+      "text": "So let's take a look at the top 10 list of vulnerabilities for AI agents according to OWASP."
+    },
+    {
+      "start": 267.09,
+      "duration": 2.979000000000042,
+      "text": "Number one on their list: agent goal hijack."
+    },
+    {
+      "start": 270.51,
+      "duration": 6.319000000000017,
+      "text": "Agent goal hijack occurs when an attacker manipulates what an agent is trying to achieve, not just what it says."
+    },
+    {
+      "start": 277.45,
+      "duration": 6.718000000000018,
+      "text": "Agents can't reliably distinguish instructions from content, which means that hidden prompts in documents,"
+    },
+    {
+      "start": 284.168,
+      "duration": 10.401999999999987,
+      "text": "in emails or web pages can silently redirect planning and execution. Once the goal shifts, the agent behaves correctly but toward the wrong objective."
+    },
+    {
+      "start": 295.43,
+      "duration": 2.819999999999993,
+      "text": "Number two on the list: tool misuse and exploitation."
+    },
+    {
+      "start": 299.27,
+      "duration": 5.1200000000000045,
+      "text": "Agents have the potential to misuse legitimate tools that they're authorized to use."
+    },
+    {
+      "start": 304.93,
+      "duration": 8.740000000000009,
+      "text": "Overprivileged access, ambiguous instructions or unsafe chaining can lead to data loss, exfiltration or costly actions without any exploit."
+    },
+    {
+      "start": 314.35,
+      "duration": 4.738999999999976,
+      "text": "The risk comes from autonomy combined with weak guardrails. That's a bad combination."
+    },
+    {
+      "start": 319.09,
+      "duration": 4.074000000000012,
+      "text": "Number three: identity and privilege abuse."
+    },
+    {
+      "start": 324.22,
+      "duration": 3.579999999999984,
+      "text": "Agentic systems frequently operate without a clearly governed identity."
+    },
+    {
+      "start": 328.42,
+      "duration": 9.63900000000001,
+      "text": "Agents inherit user credentials, trust other agents by default, or reuse cached access, enabling privilege escalation and confused deputy attacks."
+    },
+    {
+      "start": 338.96,
+      "duration": 4.91900000000004,
+      "text": "Without task-scoped, time-bound permissions, least privilege breaks down."
+    },
+    {
+      "start": 344.68,
+      "duration": 3.13900000000001,
+      "text": "Number four: agentic supply chain vulnerabilities."
+    },
+    {
+      "start": 348.7,
+      "duration": 5.7590000000000146,
+      "text": "Agentic systems dynamically load tools, prompts, plug-ins, and even other agents at runtime."
+    },
+    {
+      "start": 355.04,
+      "duration": 7.218999999999994,
+      "text": "A poisoned registry, descriptor or MCP server can inject malicious behavior instantly across many agents."
+    },
+    {
+      "start": 362.74,
+      "duration": 4.680000000000007,
+      "text": "This turns the supply chain into a live, continuously exploitable surface."
+    },
+    {
+      "start": 368.26,
+      "duration": 4.560000000000002,
+      "text": "Number five on the list: unexpected code execution."
+    },
+    {
+      "start": 373.96,
+      "duration": 3.039000000000044,
+      "text": "Many agents generate and execute code automatically."
+    },
+    {
+      "start": 377,
+      "duration": 8.418999999999983,
+      "text": "Prompt injection, unsafe serialization or tool chaining can escalate into remote code execution or sandbox escape."
+    },
+    {
+      "start": 385.84,
+      "duration": 5.619000000000028,
+      "text": "Because the code is generated dynamically, traditional security controls often fail to detect it."
+    },
+    {
+      "start": 391.74,
+      "duration": 2.399000000000001,
+      "text": "So that's the first five list of vulnerabilities."
+    },
+    {
+      "start": 394.58,
+      "duration": 1.6400000000000432,
+      "text": "Let's roll through the final five."
+    },
+    {
+      "start": 396.7,
+      "duration": 3.399000000000001,
+      "text": "Number six: memory and context poisoning."
+    },
+    {
+      "start": 400.92,
+      "duration": 2.63900000000001,
+      "text": "Agents rely on stored memory to reason across time."
+    },
+    {
+      "start": 404.02,
+      "duration": 9.890000000000043,
+      "text": "Attackers can poison that memory through uploads, RAG sources, shared context or peer agents, causing future decisions to become biased or even unsafe."
+    },
+    {
+      "start": 414.53,
+      "duration": 3.840000000000032,
+      "text": "The danger lies in persistence, not just the initial injection."
+    },
+    {
+      "start": 418.77,
+      "duration": 3.7800000000000296,
+      "text": "Number seven: insecure interagent communication."
+    },
+    {
+      "start": 423.75,
+      "duration": 2.980000000000018,
+      "text": "Multi-agent systems depend on constant message exchange."
+    },
+    {
+      "start": 427.23,
+      "duration": 9.788999999999987,
+      "text": "When agent-to-agent communication lacks strong authentication, integrity and semantic validation, attackers can spoof, replay or manipulate instructions."
+    },
+    {
+      "start": 437.54,
+      "duration": 3.7589999999999577,
+      "text": "This enables coordinated failures that are really hard to trace."
+    },
+    {
+      "start": 442.06,
+      "duration": 2.259999999999991,
+      "text": "Number eight: cascading failures."
+    },
+    {
+      "start": 445.64,
+      "duration": 5.6200000000000045,
+      "text": "Cascading failures occur when a single fault spreads across agents, tools and workflows."
+    },
+    {
+      "start": 451.76,
+      "duration": 6.5190000000000055,
+      "text": "Autonomy, delegation and persistent state allow errors to amplify faster than humans can intervene."
+    },
+    {
+      "start": 458.66,
+      "duration": 5.158999999999992,
+      "text": "The impact often far exceeds the original mistake as it just keeps amplifying."
+    },
+    {
+      "start": 464.8,
+      "duration": 4.658999999999992,
+      "text": "Number nine: human-agent trust exploitation."
+    },
+    {
+      "start": 470.08,
+      "duration": 5.980000000000018,
+      "text": "Agents can exploit human trust through confidence, authority or persuasive explanations."
+    },
+    {
+      "start": 476.5,
+      "duration": 6.699000000000012,
+      "text": "Users can approve harmful actions without independent verification, making the human the final execution path."
+    },
+    {
+      "start": 483.52,
+      "duration": 7.080000000000041,
+      "text": "This leaves clean audit trails that obscure the agent's role in the failure and making it very difficult to find the source."
+    },
+    {
+      "start": 491.52,
+      "duration": 2.0990000000000464,
+      "text": "Number ten: rogue agents."
+    },
+    {
+      "start": 496.11,
+      "duration": 4.158999999999992,
+      "text": "Rogue agents are agents that drift from their intended behavior over time."
+    },
+    {
+      "start": 500.71,
+      "duration": 7.879000000000019,
+      "text": "They may appear compliant, at a task- level, while pursuing hidden goals, colluding with other agents or gaming reward systems."
+    },
+    {
+      "start": 509.03,
+      "duration": 4.038999999999987,
+      "text": "This represents a loss of behavioral integrity rather than a single exploit."
+    },
+    {
+      "start": 513.85,
+      "duration": 6.4389999999999645,
+      "text": "So there you have the top 10 list of vulnerabilities for agentic AI systems according to OWASP."
+    },
+    {
+      "start": 520.51,
+      "duration": 5.82000000000005,
+      "text": "Go take a look at their document to learn more about each one of these attacks and also what you can do to prevent them."
+    }
+  ],
+  "fullText": "Everyone is talking about AI agents right now, which usually means half the room is pretending they know what one actually is. So let's clear it up for those folks. Here's the simplest definition I know of that actually works: agents are essentially models using tools in a loop autonomously. That's it, models using tools in a loop with autonomy. You kick off the process by telling the agent what you want it to do, what the objective is, and then it figures out how and actually does that thing all by itself. This capability can be tremendously powerful as a force multiplier. It's as if you're now the leader of a whole team of highly intelligent, highly motivated employees intent on executing your instructions with speed and scale. Sounds great, right? Well, to err is human, but to really mess up requires a computer. And that's what can happen if you don't make sure that your agents are secure and operating under your control. In this video, we're gonna take a look at the top 10 ways an agent can get hijacked by an attacker and how to prevent it from happening. OWASP, the Open Worldwide Application Security Project is an industry consortium known for its top 10 vulnerabilities list. For more than a decade, they've been producing a top 10 for web applications, and in the past few years, they've taken on large language models as well. In fact, I've done some videos on these. We're gonna use their recent work on AI agents to examine and inform how we should be securing them. So let's start with looking at the overall architecture of an agent. So, an agent is basically got three major components to it. It's got inputs, it's got a processing or thinking-reasoning component, and then it's some outputs. So what goes into each of these? Well, the inputs, this is basically where, one example of inputs could be a prompt. You know, a user here is going to type something in and that goes into the system. Another example is our system could be called by an API. So we could have a system where the API is in fact calling our agent and that's what's kicking it off. It could also be another agent that's calling our agent. So these are basically the inputs or the perception part of the agent. Now there's, the real thinking, the processing, the reasoning part of all of this here in the middle. This is where we're going to have the reasoning that occurs. But we don't just want reasoning, we want it to also be informed by things like data sources. So we're gonna have data sources that are training the models that are used in this, because remember I said an agent begins with a model? Here's the model. Well, the model begins with data. And we might have other data sources as well. So we could have something like a RAG dataset, a retrieval augmented generation dataset that is feeding in here as well. And actually it's probably feeding in more this way, but you could use it in either context. And then we're also gonna have a policy component because we want this thing to be able to basically operate under the rules that we have for it. And then ultimately we need to have a human in the loop. And the human in the loop is gonna be the oversight component of all of this. So that's really the processing components of all this, but ultimately the agent is going to take action. And that's where the outputs come in. So the agent could then call tools, it could call another API to kick off yet another program that's gonna do something, write something in a database or something like that, or it could delegate some responsibilities to yet another agent. So here you see the possibility of an agent calling an agent to do something, which then calls yet other agents. And you can see how this thing gets really complex in a hurry if all of this is operating autonomously. If it's working well and it's following the policies and the humans are overseeing it, we're good. But there's a lot of areas here that someone could trip this thing up. So this architecture is really powerful in its ability to amplify human capabilities. But if we aren't careful, it can also be a risk amplifier. So let's take a look at the top 10 list of vulnerabilities for AI agents according to OWASP. Number one on their list: agent goal hijack. Agent goal hijack occurs when an attacker manipulates what an agent is trying to achieve, not just what it says. Agents can't reliably distinguish instructions from content, which means that hidden prompts in documents, in emails or web pages can silently redirect planning and execution. Once the goal shifts, the agent behaves correctly but toward the wrong objective. Number two on the list: tool misuse and exploitation. Agents have the potential to misuse legitimate tools that they're authorized to use. Overprivileged access, ambiguous instructions or unsafe chaining can lead to data loss, exfiltration or costly actions without any exploit. The risk comes from autonomy combined with weak guardrails. That's a bad combination. Number three: identity and privilege abuse. Agentic systems frequently operate without a clearly governed identity. Agents inherit user credentials, trust other agents by default, or reuse cached access, enabling privilege escalation and confused deputy attacks. Without task-scoped, time-bound permissions, least privilege breaks down. Number four: agentic supply chain vulnerabilities. Agentic systems dynamically load tools, prompts, plug-ins, and even other agents at runtime. A poisoned registry, descriptor or MCP server can inject malicious behavior instantly across many agents. This turns the supply chain into a live, continuously exploitable surface. Number five on the list: unexpected code execution. Many agents generate and execute code automatically. Prompt injection, unsafe serialization or tool chaining can escalate into remote code execution or sandbox escape. Because the code is generated dynamically, traditional security controls often fail to detect it. So that's the first five list of vulnerabilities. Let's roll through the final five. Number six: memory and context poisoning. Agents rely on stored memory to reason across time. Attackers can poison that memory through uploads, RAG sources, shared context or peer agents, causing future decisions to become biased or even unsafe. The danger lies in persistence, not just the initial injection. Number seven: insecure interagent communication. Multi-agent systems depend on constant message exchange. When agent-to-agent communication lacks strong authentication, integrity and semantic validation, attackers can spoof, replay or manipulate instructions. This enables coordinated failures that are really hard to trace. Number eight: cascading failures. Cascading failures occur when a single fault spreads across agents, tools and workflows. Autonomy, delegation and persistent state allow errors to amplify faster than humans can intervene. The impact often far exceeds the original mistake as it just keeps amplifying. Number nine: human-agent trust exploitation. Agents can exploit human trust through confidence, authority or persuasive explanations. Users can approve harmful actions without independent verification, making the human the final execution path. This leaves clean audit trails that obscure the agent's role in the failure and making it very difficult to find the source. Number ten: rogue agents. Rogue agents are agents that drift from their intended behavior over time. They may appear compliant, at a task- level, while pursuing hidden goals, colluding with other agents or gaming reward systems. This represents a loss of behavioral integrity rather than a single exploit. So there you have the top 10 list of vulnerabilities for agentic AI systems according to OWASP. Go take a look at their document to learn more about each one of these attacks and also what you can do to prevent them.",
+  "fetchedAt": "2026-03-24T01:23:52.760Z"
+}
