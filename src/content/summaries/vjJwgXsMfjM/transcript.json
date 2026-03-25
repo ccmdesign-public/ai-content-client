@@ -1,0 +1,2509 @@
+{
+  "videoId": "vjJwgXsMfjM",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.629,
+      "duration": 0.010000000000000231,
+      "text": "I used Andre Carpathy's auto research to"
+    },
+    {
+      "start": 2.6390000000000002,
+      "duration": 2.551,
+      "text": "I used Andre Carpathy's auto research to build an automatically improving content"
+    },
+    {
+      "start": 5.19,
+      "duration": 0.009999999999999787,
+      "text": "build an automatically improving content"
+    },
+    {
+      "start": 5.2,
+      "duration": 2.95,
+      "text": "build an automatically improving content machine. It makes five videos per day,"
+    },
+    {
+      "start": 8.15,
+      "duration": 0.009999999999999787,
+      "text": "machine. It makes five videos per day,"
+    },
+    {
+      "start": 8.16,
+      "duration": 2.9499999999999993,
+      "text": "machine. It makes five videos per day, publishes them, gathers real data,"
+    },
+    {
+      "start": 11.11,
+      "duration": 0.009999999999999787,
+      "text": "publishes them, gathers real data,"
+    },
+    {
+      "start": 11.12,
+      "duration": 2.710000000000001,
+      "text": "publishes them, gathers real data, figures out what worked and what didn't,"
+    },
+    {
+      "start": 13.83,
+      "duration": 0.009999999999999787,
+      "text": "figures out what worked and what didn't,"
+    },
+    {
+      "start": 13.84,
+      "duration": 3.269000000000002,
+      "text": "figures out what worked and what didn't, then rewrites its own prompts to get"
+    },
+    {
+      "start": 17.109,
+      "duration": 0.00999999999999801,
+      "text": "then rewrites its own prompts to get"
+    },
+    {
+      "start": 17.119,
+      "duration": 3.350999999999999,
+      "text": "then rewrites its own prompts to get better every single day automatically."
+    },
+    {
+      "start": 20.47,
+      "duration": 0.010000000000001563,
+      "text": "better every single day automatically."
+    },
+    {
+      "start": 20.48,
+      "duration": 1.9899999999999984,
+      "text": "better every single day automatically. Let me show you how I built it, and I'll"
+    },
+    {
+      "start": 22.47,
+      "duration": 0.010000000000001563,
+      "text": "Let me show you how I built it, and I'll"
+    },
+    {
+      "start": 22.48,
+      "duration": 2.948999999999998,
+      "text": "Let me show you how I built it, and I'll give you the entire template for free."
+    },
+    {
+      "start": 25.429,
+      "duration": 0.010000000000001563,
+      "text": "give you the entire template for free."
+    },
+    {
+      "start": 25.439,
+      "duration": 2.0700000000000003,
+      "text": "give you the entire template for free. But before that, just let me show you"
+    },
+    {
+      "start": 27.509,
+      "duration": 0.00999999999999801,
+      "text": "But before that, just let me show you"
+    },
+    {
+      "start": 27.519,
+      "duration": 3.5100000000000016,
+      "text": "But before that, just let me show you how it works. So what is auto research?"
+    },
+    {
+      "start": 31.029,
+      "duration": 0.010000000000001563,
+      "text": "how it works. So what is auto research?"
+    },
+    {
+      "start": 31.039,
+      "duration": 2.1509999999999962,
+      "text": "how it works. So what is auto research? So a couple weeks ago, Andre Karpathy,"
+    },
+    {
+      "start": 33.19,
+      "duration": 0.010000000000005116,
+      "text": "So a couple weeks ago, Andre Karpathy,"
+    },
+    {
+      "start": 33.2,
+      "duration": 1.9899999999999949,
+      "text": "So a couple weeks ago, Andre Karpathy, one of the founding members of OpenAI"
+    },
+    {
+      "start": 35.19,
+      "duration": 0.010000000000005116,
+      "text": "one of the founding members of OpenAI"
+    },
+    {
+      "start": 35.2,
+      "duration": 3.75,
+      "text": "one of the founding members of OpenAI and former head of AI at Tesla, released"
+    },
+    {
+      "start": 38.95,
+      "duration": 0.00999999999999801,
+      "text": "and former head of AI at Tesla, released"
+    },
+    {
+      "start": 38.96,
+      "duration": 3.1090000000000018,
+      "text": "and former head of AI at Tesla, released this repo that is called Auto Research."
+    },
+    {
+      "start": 42.069,
+      "duration": 0.00999999999999801,
+      "text": "this repo that is called Auto Research."
+    },
+    {
+      "start": 42.079,
+      "duration": 2.3100000000000023,
+      "text": "this repo that is called Auto Research. And the idea is dead simple. You give an"
+    },
+    {
+      "start": 44.389,
+      "duration": 0.00999999999999801,
+      "text": "And the idea is dead simple. You give an"
+    },
+    {
+      "start": 44.399,
+      "duration": 3.591000000000001,
+      "text": "And the idea is dead simple. You give an AI agent three things, a file to change,"
+    },
+    {
+      "start": 47.99,
+      "duration": 0.00999999999999801,
+      "text": "AI agent three things, a file to change,"
+    },
+    {
+      "start": 48,
+      "duration": 2.709000000000003,
+      "text": "AI agent three things, a file to change, instructions on what to optimize, and a"
+    },
+    {
+      "start": 50.709,
+      "duration": 0.00999999999999801,
+      "text": "instructions on what to optimize, and a"
+    },
+    {
+      "start": 50.719,
+      "duration": 2.9510000000000005,
+      "text": "instructions on what to optimize, and a way to measure whether it got better."
+    },
+    {
+      "start": 53.67,
+      "duration": 0.00999999999999801,
+      "text": "way to measure whether it got better."
+    },
+    {
+      "start": 53.68,
+      "duration": 2.469999999999999,
+      "text": "way to measure whether it got better. Then you just let it run. And in his"
+    },
+    {
+      "start": 56.15,
+      "duration": 0.00999999999999801,
+      "text": "Then you just let it run. And in his"
+    },
+    {
+      "start": 56.16,
+      "duration": 3.270000000000003,
+      "text": "Then you just let it run. And in his case, he was optimizing for machine"
+    },
+    {
+      "start": 59.43,
+      "duration": 0.00999999999999801,
+      "text": "case, he was optimizing for machine"
+    },
+    {
+      "start": 59.44,
+      "duration": 2.469999999999999,
+      "text": "case, he was optimizing for machine learning training scripts. So his"
+    },
+    {
+      "start": 61.91,
+      "duration": 0.010000000000005116,
+      "text": "learning training scripts. So his"
+    },
+    {
+      "start": 61.92,
+      "duration": 1.9899999999999949,
+      "text": "learning training scripts. So his experiment right here, the agent would"
+    },
+    {
+      "start": 63.91,
+      "duration": 0.010000000000005116,
+      "text": "experiment right here, the agent would"
+    },
+    {
+      "start": 63.92,
+      "duration": 2.469999999999999,
+      "text": "experiment right here, the agent would tweak the code, run it, check if the"
+    },
+    {
+      "start": 66.39,
+      "duration": 0.010000000000005116,
+      "text": "tweak the code, run it, check if the"
+    },
+    {
+      "start": 66.4,
+      "duration": 2.8699999999999903,
+      "text": "tweak the code, run it, check if the results improved, then kept the changes"
+    },
+    {
+      "start": 69.27,
+      "duration": 0.010000000000005116,
+      "text": "results improved, then kept the changes"
+    },
+    {
+      "start": 69.28,
+      "duration": 2.6299999999999955,
+      "text": "results improved, then kept the changes if they did, throw them out if they"
+    },
+    {
+      "start": 71.91,
+      "duration": 0.010000000000005116,
+      "text": "if they did, throw them out if they"
+    },
+    {
+      "start": 71.92,
+      "duration": 2.7099999999999937,
+      "text": "if they did, throw them out if they didn't, and repeat. He ran hundreds of"
+    },
+    {
+      "start": 74.63,
+      "duration": 0.010000000000005116,
+      "text": "didn't, and repeat. He ran hundreds of"
+    },
+    {
+      "start": 74.64,
+      "duration": 3.5090000000000003,
+      "text": "didn't, and repeat. He ran hundreds of experiments overnight, and got an 11%"
+    },
+    {
+      "start": 78.149,
+      "duration": 0.010000000000005116,
+      "text": "experiments overnight, and got an 11%"
+    },
+    {
+      "start": 78.159,
+      "duration": 1.9109999999999872,
+      "text": "experiments overnight, and got an 11% improvement. But here's what most people"
+    },
+    {
+      "start": 80.07,
+      "duration": 0.010000000000005116,
+      "text": "improvement. But here's what most people"
+    },
+    {
+      "start": 80.08,
+      "duration": 2.0690000000000026,
+      "text": "improvement. But here's what most people miss. This isn't just for machine"
+    },
+    {
+      "start": 82.149,
+      "duration": 0.010000000000005116,
+      "text": "miss. This isn't just for machine"
+    },
+    {
+      "start": 82.159,
+      "duration": 1.4309999999999974,
+      "text": "miss. This isn't just for machine learning. You can apply this to"
+    },
+    {
+      "start": 83.59,
+      "duration": 0.009999999999990905,
+      "text": "learning. You can apply this to"
+    },
+    {
+      "start": 83.6,
+      "duration": 2.3100000000000023,
+      "text": "learning. You can apply this to literally anything that has a measurable"
+    },
+    {
+      "start": 85.91,
+      "duration": 0.010000000000005116,
+      "text": "literally anything that has a measurable"
+    },
+    {
+      "start": 85.92,
+      "duration": 2.228999999999999,
+      "text": "literally anything that has a measurable output. I looked at this and thought my"
+    },
+    {
+      "start": 88.149,
+      "duration": 0.010000000000005116,
+      "text": "output. I looked at this and thought my"
+    },
+    {
+      "start": 88.159,
+      "duration": 2.5509999999999877,
+      "text": "output. I looked at this and thought my content pipeline has all three of these."
+    },
+    {
+      "start": 90.71,
+      "duration": 0.010000000000005116,
+      "text": "content pipeline has all three of these."
+    },
+    {
+      "start": 90.72,
+      "duration": 3.3490000000000038,
+      "text": "content pipeline has all three of these. The prompt is my train.py. The loop"
+    },
+    {
+      "start": 94.069,
+      "duration": 0.009999999999990905,
+      "text": "The prompt is my train.py. The loop"
+    },
+    {
+      "start": 94.079,
+      "duration": 3.7510000000000048,
+      "text": "The prompt is my train.py. The loop instructions are my program MD and the"
+    },
+    {
+      "start": 97.83,
+      "duration": 0.010000000000005116,
+      "text": "instructions are my program MD and the"
+    },
+    {
+      "start": 97.84,
+      "duration": 3.8299999999999983,
+      "text": "instructions are my program MD and the eval is real views from Instagram and"
+    },
+    {
+      "start": 101.67,
+      "duration": 0.010000000000005116,
+      "text": "eval is real views from Instagram and"
+    },
+    {
+      "start": 101.68,
+      "duration": 2.309999999999988,
+      "text": "eval is real views from Instagram and Facebook. I built it and here's how you"
+    },
+    {
+      "start": 103.99,
+      "duration": 0.010000000000005116,
+      "text": "Facebook. I built it and here's how you"
+    },
+    {
+      "start": 104,
+      "duration": 2.8700000000000045,
+      "text": "Facebook. I built it and here's how you can do it too. Pulling the data. So, it"
+    },
+    {
+      "start": 106.87,
+      "duration": 0.009999999999990905,
+      "text": "can do it too. Pulling the data. So, it"
+    },
+    {
+      "start": 106.88,
+      "duration": 2.7900000000000063,
+      "text": "can do it too. Pulling the data. So, it all started when I posted this repo into"
+    },
+    {
+      "start": 109.67,
+      "duration": 0.010000000000005116,
+      "text": "all started when I posted this repo into"
+    },
+    {
+      "start": 109.68,
+      "duration": 2.2299999999999898,
+      "text": "all started when I posted this repo into Claude Code and asked if it was actually"
+    },
+    {
+      "start": 111.91,
+      "duration": 0.010000000000005116,
+      "text": "Claude Code and asked if it was actually"
+    },
+    {
+      "start": 111.92,
+      "duration": 1.9099999999999966,
+      "text": "Claude Code and asked if it was actually possible to use this repo with a"
+    },
+    {
+      "start": 113.83,
+      "duration": 0.010000000000005116,
+      "text": "possible to use this repo with a"
+    },
+    {
+      "start": 113.84,
+      "duration": 2.3089999999999975,
+      "text": "possible to use this repo with a feedback of views taken from social"
+    },
+    {
+      "start": 116.149,
+      "duration": 0.010000000000005116,
+      "text": "feedback of views taken from social"
+    },
+    {
+      "start": 116.159,
+      "duration": 2.7109999999999985,
+      "text": "feedback of views taken from social media instead because I kind of wanted"
+    },
+    {
+      "start": 118.87,
+      "duration": 0.009999999999990905,
+      "text": "media instead because I kind of wanted"
+    },
+    {
+      "start": 118.88,
+      "duration": 3.430000000000007,
+      "text": "media instead because I kind of wanted to selfoptimized based on views. After a"
+    },
+    {
+      "start": 122.31,
+      "duration": 0.009999999999990905,
+      "text": "to selfoptimized based on views. After a"
+    },
+    {
+      "start": 122.32,
+      "duration": 2.0690000000000026,
+      "text": "to selfoptimized based on views. After a quick confirmation that it wouldn't be"
+    },
+    {
+      "start": 124.389,
+      "duration": 0.010000000000005116,
+      "text": "quick confirmation that it wouldn't be"
+    },
+    {
+      "start": 124.399,
+      "duration": 3.5109999999999957,
+      "text": "quick confirmation that it wouldn't be exactly the same cuz this has a slow"
+    },
+    {
+      "start": 127.91,
+      "duration": 0.010000000000005116,
+      "text": "exactly the same cuz this has a slow"
+    },
+    {
+      "start": 127.92,
+      "duration": 3.8299999999999983,
+      "text": "exactly the same cuz this has a slow loop using 24 hours as the time base, I"
+    },
+    {
+      "start": 131.75,
+      "duration": 0.009999999999990905,
+      "text": "loop using 24 hours as the time base, I"
+    },
+    {
+      "start": 131.76,
+      "duration": 2.0700000000000216,
+      "text": "loop using 24 hours as the time base, I kind of started getting obsessed and"
+    },
+    {
+      "start": 133.83,
+      "duration": 0.009999999999990905,
+      "text": "kind of started getting obsessed and"
+    },
+    {
+      "start": 133.84,
+      "duration": 2.789999999999992,
+      "text": "kind of started getting obsessed and just had to figure out if I could do it."
+    },
+    {
+      "start": 136.63,
+      "duration": 0.009999999999990905,
+      "text": "just had to figure out if I could do it."
+    },
+    {
+      "start": 136.64,
+      "duration": 3.190000000000026,
+      "text": "just had to figure out if I could do it. So the actual work was to pull Instagram"
+    },
+    {
+      "start": 139.83,
+      "duration": 0.009999999999990905,
+      "text": "So the actual work was to pull Instagram"
+    },
+    {
+      "start": 139.84,
+      "duration": 3.6699999999999875,
+      "text": "So the actual work was to pull Instagram data and Facebook data to analyze it and"
+    },
+    {
+      "start": 143.51,
+      "duration": 0.010000000000019327,
+      "text": "data and Facebook data to analyze it and"
+    },
+    {
+      "start": 143.52,
+      "duration": 2.9499999999999886,
+      "text": "data and Facebook data to analyze it and start creating my eval basically what to"
+    },
+    {
+      "start": 146.47,
+      "duration": 0.009999999999990905,
+      "text": "start creating my eval basically what to"
+    },
+    {
+      "start": 146.48,
+      "duration": 3.670000000000016,
+      "text": "start creating my eval basically what to optimize for based on real data. I have"
+    },
+    {
+      "start": 150.15,
+      "duration": 0.009999999999990905,
+      "text": "optimize for based on real data. I have"
+    },
+    {
+      "start": 150.16,
+      "duration": 3.5900000000000034,
+      "text": "optimize for based on real data. I have fully unleashed my AI avatar to"
+    },
+    {
+      "start": 153.75,
+      "duration": 0.009999999999990905,
+      "text": "fully unleashed my AI avatar to"
+    },
+    {
+      "start": 153.76,
+      "duration": 3.430000000000007,
+      "text": "fully unleashed my AI avatar to Instagram and Facebook using my AI"
+    },
+    {
+      "start": 157.19,
+      "duration": 0.009999999999990905,
+      "text": "Instagram and Facebook using my AI"
+    },
+    {
+      "start": 157.2,
+      "duration": 2.710000000000008,
+      "text": "Instagram and Facebook using my AI clone. And as you can see, most of the"
+    },
+    {
+      "start": 159.91,
+      "duration": 0.009999999999990905,
+      "text": "clone. And as you can see, most of the"
+    },
+    {
+      "start": 159.92,
+      "duration": 3.1100000000000136,
+      "text": "clone. And as you can see, most of the views are a,000, but some actually get"
+    },
+    {
+      "start": 163.03,
+      "duration": 0.009999999999990905,
+      "text": "views are a,000, but some actually get"
+    },
+    {
+      "start": 163.04,
+      "duration": 3.1890000000000214,
+      "text": "views are a,000, but some actually get over 100,000 views without me having to"
+    },
+    {
+      "start": 166.229,
+      "duration": 0.009999999999990905,
+      "text": "over 100,000 views without me having to"
+    },
+    {
+      "start": 166.239,
+      "duration": 1.9110000000000014,
+      "text": "over 100,000 views without me having to film anything. And the real question"
+    },
+    {
+      "start": 168.15,
+      "duration": 0.009999999999990905,
+      "text": "film anything. And the real question"
+    },
+    {
+      "start": 168.16,
+      "duration": 2.2299999999999898,
+      "text": "film anything. And the real question was, what are the criteria that are"
+    },
+    {
+      "start": 170.39,
+      "duration": 0.010000000000019327,
+      "text": "was, what are the criteria that are"
+    },
+    {
+      "start": 170.4,
+      "duration": 3.188999999999993,
+      "text": "was, what are the criteria that are basically 198 views, right? So, I set"
+    },
+    {
+      "start": 173.589,
+      "duration": 0.009999999999990905,
+      "text": "basically 198 views, right? So, I set"
+    },
+    {
+      "start": 173.599,
+      "duration": 3.4310000000000116,
+      "text": "basically 198 views, right? So, I set this all up through a metagraph API,"
+    },
+    {
+      "start": 177.03,
+      "duration": 0.009999999999990905,
+      "text": "this all up through a metagraph API,"
+    },
+    {
+      "start": 177.04,
+      "duration": 2.468999999999994,
+      "text": "this all up through a metagraph API, which is completely free. I made a new"
+    },
+    {
+      "start": 179.509,
+      "duration": 0.010000000000019327,
+      "text": "which is completely free. I made a new"
+    },
+    {
+      "start": 179.519,
+      "duration": 2.710000000000008,
+      "text": "which is completely free. I made a new app and then I went to the tools, the"
+    },
+    {
+      "start": 182.229,
+      "duration": 0.009999999999990905,
+      "text": "app and then I went to the tools, the"
+    },
+    {
+      "start": 182.239,
+      "duration": 3.031000000000006,
+      "text": "app and then I went to the tools, the graph API explorer, added some Instagram"
+    },
+    {
+      "start": 185.27,
+      "duration": 0.009999999999990905,
+      "text": "graph API explorer, added some Instagram"
+    },
+    {
+      "start": 185.28,
+      "duration": 3.669000000000011,
+      "text": "graph API explorer, added some Instagram basic permissions and read pages and"
+    },
+    {
+      "start": 188.949,
+      "duration": 0.009999999999990905,
+      "text": "basic permissions and read pages and"
+    },
+    {
+      "start": 188.959,
+      "duration": 2.790999999999997,
+      "text": "basic permissions and read pages and just like that he found our 30 last"
+    },
+    {
+      "start": 191.75,
+      "duration": 0.009999999999990905,
+      "text": "just like that he found our 30 last"
+    },
+    {
+      "start": 191.76,
+      "duration": 3.430000000000007,
+      "text": "just like that he found our 30 last reels sorted by views as top performers"
+    },
+    {
+      "start": 195.19,
+      "duration": 0.009999999999990905,
+      "text": "reels sorted by views as top performers"
+    },
+    {
+      "start": 195.2,
+      "duration": 2.630000000000024,
+      "text": "reels sorted by views as top performers and the bottom performers as well. It"
+    },
+    {
+      "start": 197.83,
+      "duration": 0.009999999999990905,
+      "text": "and the bottom performers as well. It"
+    },
+    {
+      "start": 197.84,
+      "duration": 2.6299999999999955,
+      "text": "and the bottom performers as well. It said a clear pattern already jumping"
+    },
+    {
+      "start": 200.47,
+      "duration": 0.009999999999990905,
+      "text": "said a clear pattern already jumping"
+    },
+    {
+      "start": 200.48,
+      "duration": 3.7490000000000236,
+      "text": "said a clear pattern already jumping out. the wow factor visual demos crush"
+    },
+    {
+      "start": 204.229,
+      "duration": 0.009999999999990905,
+      "text": "out. the wow factor visual demos crush"
+    },
+    {
+      "start": 204.239,
+      "duration": 2.5509999999999877,
+      "text": "out. the wow factor visual demos crush it where clawed code or productivity"
+    },
+    {
+      "start": 206.79,
+      "duration": 0.010000000000019327,
+      "text": "it where clawed code or productivity"
+    },
+    {
+      "start": 206.8,
+      "duration": 2.869999999999976,
+      "text": "it where clawed code or productivity content underperforms and I was like"
+    },
+    {
+      "start": 209.67,
+      "duration": 0.010000000000019327,
+      "text": "content underperforms and I was like"
+    },
+    {
+      "start": 209.68,
+      "duration": 1.509999999999991,
+      "text": "content underperforms and I was like that doesn't really make sense can you"
+    },
+    {
+      "start": 211.19,
+      "duration": 0.009999999999990905,
+      "text": "that doesn't really make sense can you"
+    },
+    {
+      "start": 211.2,
+      "duration": 1.990000000000009,
+      "text": "that doesn't really make sense can you actually pull a lot more data and just"
+    },
+    {
+      "start": 213.19,
+      "duration": 0.009999999999990905,
+      "text": "actually pull a lot more data and just"
+    },
+    {
+      "start": 213.2,
+      "duration": 2.9490000000000123,
+      "text": "actually pull a lot more data and just like that it pulled 200 Instagram reels"
+    },
+    {
+      "start": 216.149,
+      "duration": 0.009999999999990905,
+      "text": "like that it pulled 200 Instagram reels"
+    },
+    {
+      "start": 216.159,
+      "duration": 2.551000000000016,
+      "text": "like that it pulled 200 Instagram reels and started getting even more key"
+    },
+    {
+      "start": 218.71,
+      "duration": 0.009999999999990905,
+      "text": "and started getting even more key"
+    },
+    {
+      "start": 218.72,
+      "duration": 3.1100000000000136,
+      "text": "and started getting even more key patterns of what was working and what"
+    },
+    {
+      "start": 221.83,
+      "duration": 0.009999999999990905,
+      "text": "patterns of what was working and what"
+    },
+    {
+      "start": 221.84,
+      "duration": 2.710000000000008,
+      "text": "patterns of what was working and what was underperforming but because"
+    },
+    {
+      "start": 224.55,
+      "duration": 0.009999999999990905,
+      "text": "was underperforming but because"
+    },
+    {
+      "start": 224.56,
+      "duration": 1.7489999999999952,
+      "text": "was underperforming but because Instagram is a bit different than"
+    },
+    {
+      "start": 226.309,
+      "duration": 0.009999999999990905,
+      "text": "Instagram is a bit different than"
+    },
+    {
+      "start": 226.319,
+      "duration": 2.070999999999998,
+      "text": "Instagram is a bit different than Facebook we had to pull from there as"
+    },
+    {
+      "start": 228.39,
+      "duration": 0.010000000000019327,
+      "text": "Facebook we had to pull from there as"
+    },
+    {
+      "start": 228.4,
+      "duration": 2.789999999999992,
+      "text": "Facebook we had to pull from there as well so we can actually sandbox it based"
+    },
+    {
+      "start": 231.19,
+      "duration": 0.009999999999990905,
+      "text": "well so we can actually sandbox it based"
+    },
+    {
+      "start": 231.2,
+      "duration": 2.5500000000000114,
+      "text": "well so we can actually sandbox it based on just Instagram and Facebook, no other"
+    },
+    {
+      "start": 233.75,
+      "duration": 0.009999999999990905,
+      "text": "on just Instagram and Facebook, no other"
+    },
+    {
+      "start": 233.76,
+      "duration": 2.3100000000000023,
+      "text": "on just Instagram and Facebook, no other social media platforms now that it had"
+    },
+    {
+      "start": 236.07,
+      "duration": 0.010000000000019327,
+      "text": "social media platforms now that it had"
+    },
+    {
+      "start": 236.08,
+      "duration": 3.3489999999999895,
+      "text": "social media platforms now that it had all the data, but we had to build the"
+    },
+    {
+      "start": 239.429,
+      "duration": 0.009999999999990905,
+      "text": "all the data, but we had to build the"
+    },
+    {
+      "start": 239.439,
+      "duration": 2.069999999999993,
+      "text": "all the data, but we had to build the eval. So, this is where most people"
+    },
+    {
+      "start": 241.509,
+      "duration": 0.010000000000019327,
+      "text": "eval. So, this is where most people"
+    },
+    {
+      "start": 241.519,
+      "duration": 2.2309999999999945,
+      "text": "eval. So, this is where most people screw up auto research. They make the"
+    },
+    {
+      "start": 243.75,
+      "duration": 0.009999999999990905,
+      "text": "screw up auto research. They make the"
+    },
+    {
+      "start": 243.76,
+      "duration": 2.710000000000008,
+      "text": "screw up auto research. They make the eval criteria something like, is this"
+    },
+    {
+      "start": 246.47,
+      "duration": 0.009999999999990905,
+      "text": "eval criteria something like, is this"
+    },
+    {
+      "start": 246.48,
+      "duration": 2.9490000000000123,
+      "text": "eval criteria something like, is this engaging or does it sound good? That's"
+    },
+    {
+      "start": 249.429,
+      "duration": 0.009999999999990905,
+      "text": "engaging or does it sound good? That's"
+    },
+    {
+      "start": 249.439,
+      "duration": 3.5100000000000193,
+      "text": "engaging or does it sound good? That's just vibes. And what we need is a clear"
+    },
+    {
+      "start": 252.949,
+      "duration": 0.009999999999990905,
+      "text": "just vibes. And what we need is a clear"
+    },
+    {
+      "start": 252.959,
+      "duration": 3.9110000000000014,
+      "text": "just vibes. And what we need is a clear yes no question, no gray area. And"
+    },
+    {
+      "start": 256.87,
+      "duration": 0.009999999999990905,
+      "text": "yes no question, no gray area. And"
+    },
+    {
+      "start": 256.88,
+      "duration": 2.3899999999999864,
+      "text": "yes no question, no gray area. And please roast me in the comments. I would"
+    },
+    {
+      "start": 259.27,
+      "duration": 0.009999999999990905,
+      "text": "please roast me in the comments. I would"
+    },
+    {
+      "start": 259.28,
+      "duration": 2.3100000000000023,
+      "text": "please roast me in the comments. I would love for this to improve by you guys"
+    },
+    {
+      "start": 261.59,
+      "duration": 0.010000000000047748,
+      "text": "love for this to improve by you guys"
+    },
+    {
+      "start": 261.6,
+      "duration": 2.5499999999999545,
+      "text": "love for this to improve by you guys improving it as well. But here are the e"
+    },
+    {
+      "start": 264.15,
+      "duration": 0.010000000000047748,
+      "text": "improving it as well. But here are the e"
+    },
+    {
+      "start": 264.16,
+      "duration": 2.1499999999999773,
+      "text": "improving it as well. But here are the e vowels that we ended up with. This is no"
+    },
+    {
+      "start": 266.31,
+      "duration": 0.009999999999990905,
+      "text": "vowels that we ended up with. This is no"
+    },
+    {
+      "start": 266.32,
+      "duration": 3.1899999999999977,
+      "text": "vowels that we ended up with. This is no vibes. It's just a yes no. Does the hook"
+    },
+    {
+      "start": 269.51,
+      "duration": 0.009999999999990905,
+      "text": "vibes. It's just a yes no. Does the hook"
+    },
+    {
+      "start": 269.52,
+      "duration": 3.3500000000000227,
+      "text": "vibes. It's just a yes no. Does the hook describe a result or transformation? Not"
+    },
+    {
+      "start": 272.87,
+      "duration": 0.009999999999990905,
+      "text": "describe a result or transformation? Not"
+    },
+    {
+      "start": 272.88,
+      "duration": 2.230000000000018,
+      "text": "describe a result or transformation? Not just a feature. Does the hook feature a"
+    },
+    {
+      "start": 275.11,
+      "duration": 0.009999999999990905,
+      "text": "just a feature. Does the hook feature a"
+    },
+    {
+      "start": 275.12,
+      "duration": 2.230000000000018,
+      "text": "just a feature. Does the hook feature a person or story, not just a company?"
+    },
+    {
+      "start": 277.35,
+      "duration": 0.009999999999990905,
+      "text": "person or story, not just a company?"
+    },
+    {
+      "start": 277.36,
+      "duration": 2.2299999999999613,
+      "text": "person or story, not just a company? Those are for the hook quality and the"
+    },
+    {
+      "start": 279.59,
+      "duration": 0.010000000000047748,
+      "text": "Those are for the hook quality and the"
+    },
+    {
+      "start": 279.6,
+      "duration": 2.308999999999969,
+      "text": "Those are for the hook quality and the content framing. Is the short framed"
+    },
+    {
+      "start": 281.909,
+      "duration": 0.009999999999990905,
+      "text": "content framing. Is the short framed"
+    },
+    {
+      "start": 281.919,
+      "duration": 3.511000000000024,
+      "text": "content framing. Is the short framed around what you can do, not what it is."
+    },
+    {
+      "start": 285.43,
+      "duration": 0.009999999999990905,
+      "text": "around what you can do, not what it is."
+    },
+    {
+      "start": 285.44,
+      "duration": 1.910000000000025,
+      "text": "around what you can do, not what it is. Does the script avoid sounding like a"
+    },
+    {
+      "start": 287.35,
+      "duration": 0.009999999999990905,
+      "text": "Does the script avoid sounding like a"
+    },
+    {
+      "start": 287.36,
+      "duration": 2.7099999999999795,
+      "text": "Does the script avoid sounding like a press release or change log? Right? So,"
+    },
+    {
+      "start": 290.07,
+      "duration": 0.009999999999990905,
+      "text": "press release or change log? Right? So,"
+    },
+    {
+      "start": 290.08,
+      "duration": 2.6299999999999955,
+      "text": "press release or change log? Right? So, you can see these are yes no questions"
+    },
+    {
+      "start": 292.71,
+      "duration": 0.010000000000047748,
+      "text": "you can see these are yes no questions"
+    },
+    {
+      "start": 292.72,
+      "duration": 2.5499999999999545,
+      "text": "you can see these are yes no questions that can be answered easily. Would the"
+    },
+    {
+      "start": 295.27,
+      "duration": 0.009999999999990905,
+      "text": "that can be answered easily. Would the"
+    },
+    {
+      "start": 295.28,
+      "duration": 2.07000000000005,
+      "text": "that can be answered easily. Would the first frame of this video make someone"
+    },
+    {
+      "start": 297.35,
+      "duration": 0.009999999999990905,
+      "text": "first frame of this video make someone"
+    },
+    {
+      "start": 297.36,
+      "duration": 2.069999999999993,
+      "text": "first frame of this video make someone stop scrolling? These were the 10"
+    },
+    {
+      "start": 299.43,
+      "duration": 0.009999999999990905,
+      "text": "stop scrolling? These were the 10"
+    },
+    {
+      "start": 299.44,
+      "duration": 2.3899999999999864,
+      "text": "stop scrolling? These were the 10 questions that we ended up with. And the"
+    },
+    {
+      "start": 301.83,
+      "duration": 0.009999999999990905,
+      "text": "questions that we ended up with. And the"
+    },
+    {
+      "start": 301.84,
+      "duration": 3.2700000000000387,
+      "text": "questions that we ended up with. And the key is that binary criteria are machine"
+    },
+    {
+      "start": 305.11,
+      "duration": 0.009999999999990905,
+      "text": "key is that binary criteria are machine"
+    },
+    {
+      "start": 305.12,
+      "duration": 1.990000000000009,
+      "text": "key is that binary criteria are machine readable. You can feed a script into"
+    },
+    {
+      "start": 307.11,
+      "duration": 0.009999999999990905,
+      "text": "readable. You can feed a script into"
+    },
+    {
+      "start": 307.12,
+      "duration": 2.3100000000000023,
+      "text": "readable. You can feed a script into Gemini and ask it these 10 questions and"
+    },
+    {
+      "start": 309.43,
+      "duration": 0.009999999999990905,
+      "text": "Gemini and ask it these 10 questions and"
+    },
+    {
+      "start": 309.44,
+      "duration": 2.069999999999993,
+      "text": "Gemini and ask it these 10 questions and you get a score out of 10. No"
+    },
+    {
+      "start": 311.51,
+      "duration": 0.009999999999990905,
+      "text": "you get a score out of 10. No"
+    },
+    {
+      "start": 311.52,
+      "duration": 3.3500000000000227,
+      "text": "you get a score out of 10. No subjectivity, no rate this on a scale of"
+    },
+    {
+      "start": 314.87,
+      "duration": 0.009999999999990905,
+      "text": "subjectivity, no rate this on a scale of"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.509999999999991,
+      "text": "subjectivity, no rate this on a scale of 1 to 10, just on vibes. It's just yes,"
+    },
+    {
+      "start": 318.39,
+      "duration": 0.009999999999990905,
+      "text": "1 to 10, just on vibes. It's just yes,"
+    },
+    {
+      "start": 318.4,
+      "duration": 3.1899999999999977,
+      "text": "1 to 10, just on vibes. It's just yes, no. But now that we had all of these, we"
+    },
+    {
+      "start": 321.59,
+      "duration": 0.010000000000047748,
+      "text": "no. But now that we had all of these, we"
+    },
+    {
+      "start": 321.6,
+      "duration": 3.0289999999999964,
+      "text": "no. But now that we had all of these, we started on wiring the loop. Here is the"
+    },
+    {
+      "start": 324.629,
+      "duration": 0.009999999999990905,
+      "text": "started on wiring the loop. Here is the"
+    },
+    {
+      "start": 324.639,
+      "duration": 1.829999999999984,
+      "text": "started on wiring the loop. Here is the actual system. I'll show you in a"
+    },
+    {
+      "start": 326.469,
+      "duration": 0.009999999999990905,
+      "text": "actual system. I'll show you in a"
+    },
+    {
+      "start": 326.479,
+      "duration": 3.11099999999999,
+      "text": "actual system. I'll show you in a minute. Here is the actual code that it"
+    },
+    {
+      "start": 329.59,
+      "duration": 0.010000000000047748,
+      "text": "minute. Here is the actual code that it"
+    },
+    {
+      "start": 329.6,
+      "duration": 5.269999999999982,
+      "text": "minute. Here is the actual code that it wrote. 1,000 lines, a auto research loop"
+    },
+    {
+      "start": 334.87,
+      "duration": 0.009999999999990905,
+      "text": "wrote. 1,000 lines, a auto research loop"
+    },
+    {
+      "start": 334.88,
+      "duration": 3.990000000000009,
+      "text": "wrote. 1,000 lines, a auto research loop that is working exactly like this. The"
+    },
+    {
+      "start": 338.87,
+      "duration": 0.009999999999990905,
+      "text": "that is working exactly like this. The"
+    },
+    {
+      "start": 338.88,
+      "duration": 2.4700000000000273,
+      "text": "that is working exactly like this. The first thing is that we pull our views"
+    },
+    {
+      "start": 341.35,
+      "duration": 0.009999999999990905,
+      "text": "first thing is that we pull our views"
+    },
+    {
+      "start": 341.36,
+      "duration": 2.1499999999999773,
+      "text": "first thing is that we pull our views from Facebook and Instagram. This is"
+    },
+    {
+      "start": 343.51,
+      "duration": 0.009999999999990905,
+      "text": "from Facebook and Instagram. This is"
+    },
+    {
+      "start": 343.52,
+      "duration": 2.38900000000001,
+      "text": "from Facebook and Instagram. This is really important cuz every morning maybe"
+    },
+    {
+      "start": 345.909,
+      "duration": 0.009999999999990905,
+      "text": "really important cuz every morning maybe"
+    },
+    {
+      "start": 345.919,
+      "duration": 2.2309999999999945,
+      "text": "really important cuz every morning maybe we got views, maybe we didn't. Then we"
+    },
+    {
+      "start": 348.15,
+      "duration": 0.010000000000047748,
+      "text": "we got views, maybe we didn't. Then we"
+    },
+    {
+      "start": 348.16,
+      "duration": 2.7099999999999795,
+      "text": "we got views, maybe we didn't. Then we match an update with views to our air"
+    },
+    {
+      "start": 350.87,
+      "duration": 0.009999999999990905,
+      "text": "match an update with views to our air"
+    },
+    {
+      "start": 350.88,
+      "duration": 2.149000000000001,
+      "text": "match an update with views to our air table. This is kind of our production"
+    },
+    {
+      "start": 353.029,
+      "duration": 0.009999999999990905,
+      "text": "table. This is kind of our production"
+    },
+    {
+      "start": 353.039,
+      "duration": 3.271000000000015,
+      "text": "table. This is kind of our production system. It looks like this right now."
+    },
+    {
+      "start": 356.31,
+      "duration": 0.009999999999990905,
+      "text": "system. It looks like this right now."
+    },
+    {
+      "start": 356.32,
+      "duration": 1.670000000000016,
+      "text": "system. It looks like this right now. And this is essentially where we make"
+    },
+    {
+      "start": 357.99,
+      "duration": 0.009999999999990905,
+      "text": "And this is essentially where we make"
+    },
+    {
+      "start": 358,
+      "duration": 2.1499999999999773,
+      "text": "And this is essentially where we make all the videos. And here is where the"
+    },
+    {
+      "start": 360.15,
+      "duration": 0.010000000000047748,
+      "text": "all the videos. And here is where the"
+    },
+    {
+      "start": 360.16,
+      "duration": 2.2299999999999613,
+      "text": "all the videos. And here is where the videos are stored as well. As you can"
+    },
+    {
+      "start": 362.39,
+      "duration": 0.009999999999990905,
+      "text": "videos are stored as well. As you can"
+    },
+    {
+      "start": 362.4,
+      "duration": 2.069000000000017,
+      "text": "videos are stored as well. As you can see, stop everything. Robots are now"
+    },
+    {
+      "start": 364.469,
+      "duration": 0.009999999999990905,
+      "text": "see, stop everything. Robots are now"
+    },
+    {
+      "start": 364.479,
+      "duration": 2.6310000000000286,
+      "text": "see, stop everything. Robots are now mastering your favorite sports just by"
+    },
+    {
+      "start": 367.11,
+      "duration": 0.009999999999990905,
+      "text": "mastering your favorite sports just by"
+    },
+    {
+      "start": 367.12,
+      "duration": 3.269999999999982,
+      "text": "mastering your favorite sports just by watching our messy YouTube clips."
+    },
+    {
+      "start": 370.39,
+      "duration": 0.009999999999990905,
+      "text": "watching our messy YouTube clips."
+    },
+    {
+      "start": 370.4,
+      "duration": 2.229000000000042,
+      "text": "watching our messy YouTube clips. Pretty cool. And as you can see, we have"
+    },
+    {
+      "start": 372.629,
+      "duration": 0.009999999999990905,
+      "text": "Pretty cool. And as you can see, we have"
+    },
+    {
+      "start": 372.639,
+      "duration": 2.950999999999965,
+      "text": "Pretty cool. And as you can see, we have the database here for the Eval score"
+    },
+    {
+      "start": 375.59,
+      "duration": 0.010000000000047748,
+      "text": "the database here for the Eval score"
+    },
+    {
+      "start": 375.6,
+      "duration": 2.5499999999999545,
+      "text": "the database here for the Eval score performance tier, etc. And the"
+    },
+    {
+      "start": 378.15,
+      "duration": 0.010000000000047748,
+      "text": "performance tier, etc. And the"
+    },
+    {
+      "start": 378.16,
+      "duration": 2.2299999999999613,
+      "text": "performance tier, etc. And the automation in the back end, just to show"
+    },
+    {
+      "start": 380.39,
+      "duration": 0.009999999999990905,
+      "text": "automation in the back end, just to show"
+    },
+    {
+      "start": 380.4,
+      "duration": 2.8700000000000045,
+      "text": "automation in the back end, just to show you, looks a bit like this. And AI can"
+    },
+    {
+      "start": 383.27,
+      "duration": 0.009999999999990905,
+      "text": "you, looks a bit like this. And AI can"
+    },
+    {
+      "start": 383.28,
+      "duration": 3.5100000000000477,
+      "text": "you, looks a bit like this. And AI can improve this by itself over time. But"
+    },
+    {
+      "start": 386.79,
+      "duration": 0.009999999999990905,
+      "text": "improve this by itself over time. But"
+    },
+    {
+      "start": 386.8,
+      "duration": 2.3100000000000023,
+      "text": "improve this by itself over time. But I'm getting ahead of myself. Next, we"
+    },
+    {
+      "start": 389.11,
+      "duration": 0.009999999999990905,
+      "text": "I'm getting ahead of myself. Next, we"
+    },
+    {
+      "start": 389.12,
+      "duration": 3.269999999999982,
+      "text": "I'm getting ahead of myself. Next, we prescore new ideas. So we scrape social"
+    },
+    {
+      "start": 392.39,
+      "duration": 0.009999999999990905,
+      "text": "prescore new ideas. So we scrape social"
+    },
+    {
+      "start": 392.4,
+      "duration": 2.3100000000000023,
+      "text": "prescore new ideas. So we scrape social media every single morning. We have an"
+    },
+    {
+      "start": 394.71,
+      "duration": 0.010000000000047748,
+      "text": "media every single morning. We have an"
+    },
+    {
+      "start": 394.72,
+      "duration": 3.509999999999991,
+      "text": "media every single morning. We have an eval that is actually based on just the"
+    },
+    {
+      "start": 398.23,
+      "duration": 0.009999999999990905,
+      "text": "eval that is actually based on just the"
+    },
+    {
+      "start": 398.24,
+      "duration": 3.1100000000000136,
+      "text": "eval that is actually based on just the sources as well. Even before creating."
+    },
+    {
+      "start": 401.35,
+      "duration": 0.009999999999990905,
+      "text": "sources as well. Even before creating."
+    },
+    {
+      "start": 401.36,
+      "duration": 1.990000000000009,
+      "text": "sources as well. Even before creating. So there's two sets of evals here. And"
+    },
+    {
+      "start": 403.35,
+      "duration": 0.009999999999990905,
+      "text": "So there's two sets of evals here. And"
+    },
+    {
+      "start": 403.36,
+      "duration": 2.7899999999999636,
+      "text": "So there's two sets of evals here. And if it gets above a five score, it"
+    },
+    {
+      "start": 406.15,
+      "duration": 0.010000000000047748,
+      "text": "if it gets above a five score, it"
+    },
+    {
+      "start": 406.16,
+      "duration": 2.7899999999999636,
+      "text": "if it gets above a five score, it answers the creation queue. Next, we"
+    },
+    {
+      "start": 408.95,
+      "duration": 0.009999999999990905,
+      "text": "answers the creation queue. Next, we"
+    },
+    {
+      "start": 408.96,
+      "duration": 2.9490000000000123,
+      "text": "answers the creation queue. Next, we score published script. So Gemini reads"
+    },
+    {
+      "start": 411.909,
+      "duration": 0.009999999999990905,
+      "text": "score published script. So Gemini reads"
+    },
+    {
+      "start": 411.919,
+      "duration": 2.4710000000000036,
+      "text": "score published script. So Gemini reads each script and answers 10 yes no eval"
+    },
+    {
+      "start": 414.39,
+      "duration": 0.009999999999990905,
+      "text": "each script and answers 10 yes no eval"
+    },
+    {
+      "start": 414.4,
+      "duration": 1.9090000000000487,
+      "text": "each script and answers 10 yes no eval questions. That's the one you just saw."
+    },
+    {
+      "start": 416.309,
+      "duration": 0.009999999999990905,
+      "text": "questions. That's the one you just saw."
+    },
+    {
+      "start": 416.319,
+      "duration": 2.5509999999999877,
+      "text": "questions. That's the one you just saw. And outputs a score for every published"
+    },
+    {
+      "start": 418.87,
+      "duration": 0.009999999999990905,
+      "text": "And outputs a score for every published"
+    },
+    {
+      "start": 418.88,
+      "duration": 3.3500000000000227,
+      "text": "And outputs a score for every published short. Next we correlate with high eval"
+    },
+    {
+      "start": 422.23,
+      "duration": 0.009999999999990905,
+      "text": "short. Next we correlate with high eval"
+    },
+    {
+      "start": 422.24,
+      "duration": 2.8700000000000045,
+      "text": "short. Next we correlate with high eval plus high views equal validated winners."
+    },
+    {
+      "start": 425.11,
+      "duration": 0.009999999999990905,
+      "text": "plus high views equal validated winners."
+    },
+    {
+      "start": 425.12,
+      "duration": 2.7889999999999873,
+      "text": "plus high views equal validated winners. High eval plus low views false"
+    },
+    {
+      "start": 427.909,
+      "duration": 0.009999999999990905,
+      "text": "High eval plus low views false"
+    },
+    {
+      "start": 427.919,
+      "duration": 2.1510000000000105,
+      "text": "High eval plus low views false positives. That means we have to fix the"
+    },
+    {
+      "start": 430.07,
+      "duration": 0.009999999999990905,
+      "text": "positives. That means we have to fix the"
+    },
+    {
+      "start": 430.08,
+      "duration": 2.7900000000000205,
+      "text": "positives. That means we have to fix the eval plus handle rankings plus approval"
+    },
+    {
+      "start": 432.87,
+      "duration": 0.009999999999990905,
+      "text": "eval plus handle rankings plus approval"
+    },
+    {
+      "start": 432.88,
+      "duration": 2.149000000000001,
+      "text": "eval plus handle rankings plus approval rate tracking. As you can see it's"
+    },
+    {
+      "start": 435.029,
+      "duration": 0.009999999999990905,
+      "text": "rate tracking. As you can see it's"
+    },
+    {
+      "start": 435.039,
+      "duration": 2.5500000000000114,
+      "text": "rate tracking. As you can see it's getting smarter. Then we generate and"
+    },
+    {
+      "start": 437.589,
+      "duration": 0.009999999999990905,
+      "text": "getting smarter. Then we generate and"
+    },
+    {
+      "start": 437.599,
+      "duration": 2.3910000000000196,
+      "text": "getting smarter. Then we generate and push. We write an improved prompt from"
+    },
+    {
+      "start": 439.99,
+      "duration": 0.009999999999990905,
+      "text": "push. We write an improved prompt from"
+    },
+    {
+      "start": 440,
+      "duration": 2.468999999999994,
+      "text": "push. We write an improved prompt from correlation data winners failures. push"
+    },
+    {
+      "start": 442.469,
+      "duration": 0.009999999999990905,
+      "text": "correlation data winners failures. push"
+    },
+    {
+      "start": 442.479,
+      "duration": 4.3910000000000196,
+      "text": "correlation data winners failures. push new prompt to nan workflow via API and"
+    },
+    {
+      "start": 446.87,
+      "duration": 0.009999999999990905,
+      "text": "new prompt to nan workflow via API and"
+    },
+    {
+      "start": 446.88,
+      "duration": 3.5889999999999986,
+      "text": "new prompt to nan workflow via API and selfimprovement loop is going every 24"
+    },
+    {
+      "start": 450.469,
+      "duration": 0.009999999999990905,
+      "text": "selfimprovement loop is going every 24"
+    },
+    {
+      "start": 450.479,
+      "duration": 3.9110000000000014,
+      "text": "selfimprovement loop is going every 24 hours starting at 8 a.m. my time. All"
+    },
+    {
+      "start": 454.39,
+      "duration": 0.009999999999990905,
+      "text": "hours starting at 8 a.m. my time. All"
+    },
+    {
+      "start": 454.4,
+      "duration": 2.8700000000000045,
+      "text": "hours starting at 8 a.m. my time. All fully automated with one Python script,"
+    },
+    {
+      "start": 457.27,
+      "duration": 0.009999999999990905,
+      "text": "fully automated with one Python script,"
+    },
+    {
+      "start": 457.28,
+      "duration": 2.07000000000005,
+      "text": "fully automated with one Python script, but you might be wondering how it"
+    },
+    {
+      "start": 459.35,
+      "duration": 0.009999999999990905,
+      "text": "but you might be wondering how it"
+    },
+    {
+      "start": 459.36,
+      "duration": 2.228999999999985,
+      "text": "but you might be wondering how it evolved. As you can see, we started with"
+    },
+    {
+      "start": 461.589,
+      "duration": 0.009999999999990905,
+      "text": "evolved. As you can see, we started with"
+    },
+    {
+      "start": 461.599,
+      "duration": 2.3100000000000023,
+      "text": "evolved. As you can see, we started with the original prompt that had a hook,"
+    },
+    {
+      "start": 463.909,
+      "duration": 0.009999999999990905,
+      "text": "the original prompt that had a hook,"
+    },
+    {
+      "start": 463.919,
+      "duration": 2.790999999999997,
+      "text": "the original prompt that had a hook, detail, tone, close, word budget, and"
+    },
+    {
+      "start": 466.71,
+      "duration": 0.010000000000047748,
+      "text": "detail, tone, close, word budget, and"
+    },
+    {
+      "start": 466.72,
+      "duration": 2.8689999999999714,
+      "text": "detail, tone, close, word budget, and etc. Then it started reframing it from"
+    },
+    {
+      "start": 469.589,
+      "duration": 0.009999999999990905,
+      "text": "etc. Then it started reframing it from"
+    },
+    {
+      "start": 469.599,
+      "duration": 2.951000000000022,
+      "text": "etc. Then it started reframing it from announcement to a curiosity trigger. It"
+    },
+    {
+      "start": 472.55,
+      "duration": 0.009999999999990905,
+      "text": "announcement to a curiosity trigger. It"
+    },
+    {
+      "start": 472.56,
+      "duration": 2.629000000000019,
+      "text": "announcement to a curiosity trigger. It pushed it to be broader, more dramatic."
+    },
+    {
+      "start": 475.189,
+      "duration": 0.009999999999990905,
+      "text": "pushed it to be broader, more dramatic."
+    },
+    {
+      "start": 475.199,
+      "duration": 1.829999999999984,
+      "text": "pushed it to be broader, more dramatic. Then it tried to deepen the"
+    },
+    {
+      "start": 477.029,
+      "duration": 0.009999999999990905,
+      "text": "Then it tried to deepen the"
+    },
+    {
+      "start": 477.039,
+      "duration": 2.5500000000000114,
+      "text": "Then it tried to deepen the personalization with lifealtering"
+    },
+    {
+      "start": 479.589,
+      "duration": 0.009999999999990905,
+      "text": "personalization with lifealtering"
+    },
+    {
+      "start": 479.599,
+      "duration": 3.430000000000007,
+      "text": "personalization with lifealtering language added. The hook scoped away"
+    },
+    {
+      "start": 483.029,
+      "duration": 0.009999999999990905,
+      "text": "language added. The hook scoped away"
+    },
+    {
+      "start": 483.039,
+      "duration": 2.790999999999997,
+      "text": "language added. The hook scoped away from events more into universal and"
+    },
+    {
+      "start": 485.83,
+      "duration": 0.009999999999990905,
+      "text": "from events more into universal and"
+    },
+    {
+      "start": 485.84,
+      "duration": 2.9500000000000455,
+      "text": "from events more into universal and timeless discoveries. And we ended up at"
+    },
+    {
+      "start": 488.79,
+      "duration": 0.009999999999990905,
+      "text": "timeless discoveries. And we ended up at"
+    },
+    {
+      "start": 488.8,
+      "duration": 2.7889999999999873,
+      "text": "timeless discoveries. And we ended up at hoop framing sharpened with secrets"
+    },
+    {
+      "start": 491.589,
+      "duration": 0.009999999999990905,
+      "text": "hoop framing sharpened with secrets"
+    },
+    {
+      "start": 491.599,
+      "duration": 2.790999999999997,
+      "text": "hoop framing sharpened with secrets about to be revealed. So it went through"
+    },
+    {
+      "start": 494.39,
+      "duration": 0.009999999999990905,
+      "text": "about to be revealed. So it went through"
+    },
+    {
+      "start": 494.4,
+      "duration": 2.8700000000000045,
+      "text": "about to be revealed. So it went through five meaningful revisions across two"
+    },
+    {
+      "start": 497.27,
+      "duration": 0.009999999999990905,
+      "text": "five meaningful revisions across two"
+    },
+    {
+      "start": 497.28,
+      "duration": 3.1100000000000136,
+      "text": "five meaningful revisions across two days and we can see it all here in this"
+    },
+    {
+      "start": 500.39,
+      "duration": 0.009999999999990905,
+      "text": "days and we can see it all here in this"
+    },
+    {
+      "start": 500.4,
+      "duration": 2.7100000000000364,
+      "text": "days and we can see it all here in this auto research prompt JSON that get"
+    },
+    {
+      "start": 503.11,
+      "duration": 0.009999999999990905,
+      "text": "auto research prompt JSON that get"
+    },
+    {
+      "start": 503.12,
+      "duration": 3.269999999999982,
+      "text": "auto research prompt JSON that get updated every single day based on the"
+    },
+    {
+      "start": 506.39,
+      "duration": 0.009999999999990905,
+      "text": "updated every single day based on the"
+    },
+    {
+      "start": 506.4,
+      "duration": 1.9090000000000487,
+      "text": "updated every single day based on the criteria. But the last part I had to"
+    },
+    {
+      "start": 508.309,
+      "duration": 0.009999999999990905,
+      "text": "criteria. But the last part I had to"
+    },
+    {
+      "start": 508.319,
+      "duration": 2.630999999999972,
+      "text": "criteria. But the last part I had to figure out was how to run it daily. The"
+    },
+    {
+      "start": 510.95,
+      "duration": 0.009999999999990905,
+      "text": "figure out was how to run it daily. The"
+    },
+    {
+      "start": 510.96,
+      "duration": 2.390000000000043,
+      "text": "figure out was how to run it daily. The last piece is making it hands off. So"
+    },
+    {
+      "start": 513.35,
+      "duration": 0.009999999999990905,
+      "text": "last piece is making it hands off. So"
+    },
+    {
+      "start": 513.36,
+      "duration": 2.3099999999999454,
+      "text": "last piece is making it hands off. So the script runs every morning at 8:00"
+    },
+    {
+      "start": 515.67,
+      "duration": 0.009999999999990905,
+      "text": "the script runs every morning at 8:00"
+    },
+    {
+      "start": 515.68,
+      "duration": 3.2690000000000055,
+      "text": "the script runs every morning at 8:00 a.m. via Launchd. So that's Mac OS's"
+    },
+    {
+      "start": 518.949,
+      "duration": 0.009999999999990905,
+      "text": "a.m. via Launchd. So that's Mac OS's"
+    },
+    {
+      "start": 518.959,
+      "duration": 2.07000000000005,
+      "text": "a.m. via Launchd. So that's Mac OS's task launcher. Every day it pulls"
+    },
+    {
+      "start": 521.029,
+      "duration": 0.009999999999990905,
+      "text": "task launcher. Every day it pulls"
+    },
+    {
+      "start": 521.039,
+      "duration": 1.669999999999959,
+      "text": "task launcher. Every day it pulls yesterday's views counts and it does all"
+    },
+    {
+      "start": 522.709,
+      "duration": 0.010000000000104592,
+      "text": "yesterday's views counts and it does all"
+    },
+    {
+      "start": 522.719,
+      "duration": 2.1509999999999536,
+      "text": "yesterday's views counts and it does all these things right and at the end it"
+    },
+    {
+      "start": 524.87,
+      "duration": 0.009999999999990905,
+      "text": "these things right and at the end it"
+    },
+    {
+      "start": 524.88,
+      "duration": 3.5090000000000146,
+      "text": "these things right and at the end it actually gives me a summary or auto auto"
+    },
+    {
+      "start": 528.389,
+      "duration": 0.009999999999990905,
+      "text": "actually gives me a summary or auto auto"
+    },
+    {
+      "start": 528.399,
+      "duration": 2.630999999999972,
+      "text": "actually gives me a summary or auto auto research daily report. Here it has the"
+    },
+    {
+      "start": 531.03,
+      "duration": 0.009999999999990905,
+      "text": "research daily report. Here it has the"
+    },
+    {
+      "start": 531.04,
+      "duration": 2.229000000000042,
+      "text": "research daily report. Here it has the top performers that we have done the"
+    },
+    {
+      "start": 533.269,
+      "duration": 0.009999999999990905,
+      "text": "top performers that we have done the"
+    },
+    {
+      "start": 533.279,
+      "duration": 2.3909999999999627,
+      "text": "top performers that we have done the prompt updates with a bunch of changes"
+    },
+    {
+      "start": 535.67,
+      "duration": 0.009999999999990905,
+      "text": "prompt updates with a bunch of changes"
+    },
+    {
+      "start": 535.68,
+      "duration": 2.550000000000068,
+      "text": "prompt updates with a bunch of changes that it's done with top handles and"
+    },
+    {
+      "start": 538.23,
+      "duration": 0.009999999999990905,
+      "text": "that it's done with top handles and"
+    },
+    {
+      "start": 538.24,
+      "duration": 2.7089999999999463,
+      "text": "that it's done with top handles and human approval as well. Currently I have"
+    },
+    {
+      "start": 540.949,
+      "duration": 0.009999999999990905,
+      "text": "human approval as well. Currently I have"
+    },
+    {
+      "start": 540.959,
+      "duration": 2.310000000000059,
+      "text": "human approval as well. Currently I have a team member that is using"
+    },
+    {
+      "start": 543.269,
+      "duration": 0.009999999999990905,
+      "text": "a team member that is using"
+    },
+    {
+      "start": 543.279,
+      "duration": 1.5910000000000082,
+      "text": "a team member that is using contentmate.2.0.3"
+    },
+    {
+      "start": 544.87,
+      "duration": 0.009999999999990905,
+      "text": "contentmate.2.0.3"
+    },
+    {
+      "start": 544.88,
+      "duration": 2.629000000000019,
+      "text": "contentmate.2.0.3 0.3 where he is using it himself"
+    },
+    {
+      "start": 547.509,
+      "duration": 0.009999999999990905,
+      "text": "0.3 where he is using it himself"
+    },
+    {
+      "start": 547.519,
+      "duration": 3.9109999999999445,
+      "text": "0.3 where he is using it himself manually and we got content mate v2.1"
+    },
+    {
+      "start": 551.43,
+      "duration": 0.010000000000104592,
+      "text": "manually and we got content mate v2.1"
+    },
+    {
+      "start": 551.44,
+      "duration": 2.4699999999999136,
+      "text": "manually and we got content mate v2.1 now that has this auto improvement"
+    },
+    {
+      "start": 553.91,
+      "duration": 0.009999999999990905,
+      "text": "now that has this auto improvement"
+    },
+    {
+      "start": 553.92,
+      "duration": 2.6299999999999955,
+      "text": "now that has this auto improvement feature built into it and literally"
+    },
+    {
+      "start": 556.55,
+      "duration": 0.009999999999990905,
+      "text": "feature built into it and literally"
+    },
+    {
+      "start": 556.56,
+      "duration": 2.38900000000001,
+      "text": "feature built into it and literally every single day five videos get made"
+    },
+    {
+      "start": 558.949,
+      "duration": 0.009999999999990905,
+      "text": "every single day five videos get made"
+    },
+    {
+      "start": 558.959,
+      "duration": 3.350999999999999,
+      "text": "every single day five videos get made and my coworker what he does is watch"
+    },
+    {
+      "start": 562.31,
+      "duration": 0.010000000000104592,
+      "text": "and my coworker what he does is watch"
+    },
+    {
+      "start": 562.32,
+      "duration": 3.269999999999982,
+      "text": "and my coworker what he does is watch the video and if it's good he puts this"
+    },
+    {
+      "start": 565.59,
+      "duration": 0.009999999999990905,
+      "text": "the video and if it's good he puts this"
+    },
+    {
+      "start": 565.6,
+      "duration": 3.590000000000032,
+      "text": "the video and if it's good he puts this one on schedule if it's not good he just"
+    },
+    {
+      "start": 569.19,
+      "duration": 0.009999999999990905,
+      "text": "one on schedule if it's not good he just"
+    },
+    {
+      "start": 569.2,
+      "duration": 3.589999999999918,
+      "text": "one on schedule if it's not good he just says no and AI learns from this as well"
+    },
+    {
+      "start": 572.79,
+      "duration": 0.009999999999990905,
+      "text": "says no and AI learns from this as well"
+    },
+    {
+      "start": 572.8,
+      "duration": 3.4300000000000637,
+      "text": "says no and AI learns from this as well making it almost 100% fully automated"
+    },
+    {
+      "start": 576.23,
+      "duration": 0.009999999999990905,
+      "text": "making it almost 100% fully automated"
+    },
+    {
+      "start": 576.24,
+      "duration": 2.4700000000000273,
+      "text": "making it almost 100% fully automated besides quality inspection. And the"
+    },
+    {
+      "start": 578.71,
+      "duration": 0.009999999999990905,
+      "text": "besides quality inspection. And the"
+    },
+    {
+      "start": 578.72,
+      "duration": 2.4700000000000273,
+      "text": "besides quality inspection. And the beautiful thing is that it never stops"
+    },
+    {
+      "start": 581.19,
+      "duration": 0.009999999999990905,
+      "text": "beautiful thing is that it never stops"
+    },
+    {
+      "start": 581.2,
+      "duration": 2.3899999999999864,
+      "text": "beautiful thing is that it never stops getting better. Every day, the pipeline"
+    },
+    {
+      "start": 583.59,
+      "duration": 0.009999999999990905,
+      "text": "getting better. Every day, the pipeline"
+    },
+    {
+      "start": 583.6,
+      "duration": 3.1100000000000136,
+      "text": "getting better. Every day, the pipeline publishes five shorts. 24 hours later,"
+    },
+    {
+      "start": 586.71,
+      "duration": 0.009999999999990905,
+      "text": "publishes five shorts. 24 hours later,"
+    },
+    {
+      "start": 586.72,
+      "duration": 3.0299999999999727,
+      "text": "publishes five shorts. 24 hours later, the loop checks back in what happened."
+    },
+    {
+      "start": 589.75,
+      "duration": 0.009999999999990905,
+      "text": "the loop checks back in what happened."
+    },
+    {
+      "start": 589.76,
+      "duration": 2.629000000000019,
+      "text": "the loop checks back in what happened. The prompts get slightly better. After a"
+    },
+    {
+      "start": 592.389,
+      "duration": 0.009999999999990905,
+      "text": "The prompts get slightly better. After a"
+    },
+    {
+      "start": 592.399,
+      "duration": 1.990000000000009,
+      "text": "The prompts get slightly better. After a week and seven iterations, after a"
+    },
+    {
+      "start": 594.389,
+      "duration": 0.009999999999990905,
+      "text": "week and seven iterations, after a"
+    },
+    {
+      "start": 594.399,
+      "duration": 3.191000000000031,
+      "text": "week and seven iterations, after a month, 30. Unlike manual tweaking, every"
+    },
+    {
+      "start": 597.59,
+      "duration": 0.009999999999990905,
+      "text": "month, 30. Unlike manual tweaking, every"
+    },
+    {
+      "start": 597.6,
+      "duration": 2.4700000000000273,
+      "text": "month, 30. Unlike manual tweaking, every single change is logged with the data"
+    },
+    {
+      "start": 600.07,
+      "duration": 0.009999999999990905,
+      "text": "single change is logged with the data"
+    },
+    {
+      "start": 600.08,
+      "duration": 2.8689999999999145,
+      "text": "single change is logged with the data that cost it. So when a smarter model"
+    },
+    {
+      "start": 602.949,
+      "duration": 0.009999999999990905,
+      "text": "that cost it. So when a smarter model"
+    },
+    {
+      "start": 602.959,
+      "duration": 2.2310000000001082,
+      "text": "that cost it. So when a smarter model comes out next month, I hand it that"
+    },
+    {
+      "start": 605.19,
+      "duration": 0.009999999999990905,
+      "text": "comes out next month, I hand it that"
+    },
+    {
+      "start": 605.2,
+      "duration": 2.7099999999999227,
+      "text": "comes out next month, I hand it that research log and it picks up exactly"
+    },
+    {
+      "start": 607.91,
+      "duration": 0.009999999999990905,
+      "text": "research log and it picks up exactly"
+    },
+    {
+      "start": 607.92,
+      "duration": 2.8700000000000045,
+      "text": "research log and it picks up exactly where it last left off. And Karpathy"
+    },
+    {
+      "start": 610.79,
+      "duration": 0.009999999999990905,
+      "text": "where it last left off. And Karpathy"
+    },
+    {
+      "start": 610.8,
+      "duration": 2.149000000000001,
+      "text": "where it last left off. And Karpathy said this himself, the research log"
+    },
+    {
+      "start": 612.949,
+      "duration": 0.009999999999990905,
+      "text": "said this himself, the research log"
+    },
+    {
+      "start": 612.959,
+      "duration": 2.550000000000068,
+      "text": "said this himself, the research log might be the most valuable asset. And"
+    },
+    {
+      "start": 615.509,
+      "duration": 0.009999999999990905,
+      "text": "might be the most valuable asset. And"
+    },
+    {
+      "start": 615.519,
+      "duration": 1.9109999999999445,
+      "text": "might be the most valuable asset. And you can apply this to anything. Your"
+    },
+    {
+      "start": 617.43,
+      "duration": 0.010000000000104592,
+      "text": "you can apply this to anything. Your"
+    },
+    {
+      "start": 617.44,
+      "duration": 2.3099999999999454,
+      "text": "you can apply this to anything. Your thumbnail prompts, your email sequences,"
+    },
+    {
+      "start": 619.75,
+      "duration": 0.009999999999990905,
+      "text": "thumbnail prompts, your email sequences,"
+    },
+    {
+      "start": 619.76,
+      "duration": 2.308999999999969,
+      "text": "thumbnail prompts, your email sequences, your landing pages. If a prompt has a"
+    },
+    {
+      "start": 622.069,
+      "duration": 0.009999999999990905,
+      "text": "your landing pages. If a prompt has a"
+    },
+    {
+      "start": 622.079,
+      "duration": 2.5510000000000446,
+      "text": "your landing pages. If a prompt has a measurable output, auto research can"
+    },
+    {
+      "start": 624.63,
+      "duration": 0.009999999999990905,
+      "text": "measurable output, auto research can"
+    },
+    {
+      "start": 624.64,
+      "duration": 1.509999999999991,
+      "text": "measurable output, auto research can improve it. This is the coolest thing"
+    },
+    {
+      "start": 626.15,
+      "duration": 0.009999999999990905,
+      "text": "improve it. This is the coolest thing"
+    },
+    {
+      "start": 626.16,
+      "duration": 2.6299999999999955,
+      "text": "improve it. This is the coolest thing that I found in a long while, and I'm"
+    },
+    {
+      "start": 628.79,
+      "duration": 0.009999999999990905,
+      "text": "that I found in a long while, and I'm"
+    },
+    {
+      "start": 628.8,
+      "duration": 2.149000000000001,
+      "text": "that I found in a long while, and I'm giving it all away for free. If you want"
+    },
+    {
+      "start": 630.949,
+      "duration": 0.009999999999990905,
+      "text": "giving it all away for free. If you want"
+    },
+    {
+      "start": 630.959,
+      "duration": 2.4710000000000036,
+      "text": "giving it all away for free. If you want Contentmate, if you want the Nan"
+    },
+    {
+      "start": 633.43,
+      "duration": 0.010000000000104592,
+      "text": "Contentmate, if you want the Nan"
+    },
+    {
+      "start": 633.44,
+      "duration": 1.75,
+      "text": "Contentmate, if you want the Nan template and you want the auto"
+    },
+    {
+      "start": 635.19,
+      "duration": 0.009999999999990905,
+      "text": "template and you want the auto"
+    },
+    {
+      "start": 635.2,
+      "duration": 1.990000000000009,
+      "text": "template and you want the auto improvement loop, head to our free"
+    },
+    {
+      "start": 637.19,
+      "duration": 0.009999999999990905,
+      "text": "improvement loop, head to our free"
+    },
+    {
+      "start": 637.2,
+      "duration": 2.3899999999999864,
+      "text": "improvement loop, head to our free school community where I give away all"
+    },
+    {
+      "start": 639.59,
+      "duration": 0.009999999999990905,
+      "text": "school community where I give away all"
+    },
+    {
+      "start": 639.6,
+      "duration": 2.5499999999999545,
+      "text": "school community where I give away all the resources here inside of the AI"
+    },
+    {
+      "start": 642.15,
+      "duration": 0.009999999999990905,
+      "text": "the resources here inside of the AI"
+    },
+    {
+      "start": 642.16,
+      "duration": 2.229000000000042,
+      "text": "the resources here inside of the AI clone automation. But I can understand"
+    },
+    {
+      "start": 644.389,
+      "duration": 0.009999999999990905,
+      "text": "clone automation. But I can understand"
+    },
+    {
+      "start": 644.399,
+      "duration": 2.2309999999999945,
+      "text": "clone automation. But I can understand that it is maybe a little bit technical"
+    },
+    {
+      "start": 646.63,
+      "duration": 0.009999999999990905,
+      "text": "that it is maybe a little bit technical"
+    },
+    {
+      "start": 646.64,
+      "duration": 2.230000000000018,
+      "text": "that it is maybe a little bit technical for some people. So if you want to"
+    },
+    {
+      "start": 648.87,
+      "duration": 0.009999999999990905,
+      "text": "for some people. So if you want to"
+    },
+    {
+      "start": 648.88,
+      "duration": 2.7899999999999636,
+      "text": "for some people. So if you want to implement this way easier, customize it"
+    },
+    {
+      "start": 651.67,
+      "duration": 0.009999999999990905,
+      "text": "implement this way easier, customize it"
+    },
+    {
+      "start": 651.68,
+      "duration": 2.4700000000000273,
+      "text": "implement this way easier, customize it for your business, head into the AIMAT"
+    },
+    {
+      "start": 654.15,
+      "duration": 0.009999999999990905,
+      "text": "for your business, head into the AIMAT"
+    },
+    {
+      "start": 654.16,
+      "duration": 2.229000000000042,
+      "text": "for your business, head into the AIMAT Plus community where I will help you"
+    },
+    {
+      "start": 656.389,
+      "duration": 0.009999999999990905,
+      "text": "Plus community where I will help you"
+    },
+    {
+      "start": 656.399,
+      "duration": 2.3909999999999627,
+      "text": "Plus community where I will help you more hands-on. Now I guess all we need"
+    },
+    {
+      "start": 658.79,
+      "duration": 0.009999999999990905,
+      "text": "more hands-on. Now I guess all we need"
+    },
+    {
+      "start": 658.8,
+      "duration": 2.149000000000001,
+      "text": "more hands-on. Now I guess all we need to do is wait. I want to make a video in"
+    },
+    {
+      "start": 660.949,
+      "duration": 0.009999999999990905,
+      "text": "to do is wait. I want to make a video in"
+    },
+    {
+      "start": 660.959,
+      "duration": 1.75100000000009,
+      "text": "to do is wait. I want to make a video in a month from now showing the exact"
+    },
+    {
+      "start": 662.71,
+      "duration": 0.009999999999990905,
+      "text": "a month from now showing the exact"
+    },
+    {
+      "start": 662.72,
+      "duration": 2.8700000000000045,
+      "text": "a month from now showing the exact results and what ended up happening. So,"
+    },
+    {
+      "start": 665.59,
+      "duration": 0.009999999999990905,
+      "text": "results and what ended up happening. So,"
+    },
+    {
+      "start": 665.6,
+      "duration": 3.3489999999999327,
+      "text": "results and what ended up happening. So, subscribe. Maybe it's gotten better or"
+    },
+    {
+      "start": 668.949,
+      "duration": 0.009999999999990905,
+      "text": "subscribe. Maybe it's gotten better or"
+    },
+    {
+      "start": 668.959,
+      "duration": 3.0310000000000628,
+      "text": "subscribe. Maybe it's gotten better or it's posting corn. Who knows? But it's"
+    },
+    {
+      "start": 671.99,
+      "duration": 0.009999999999990905,
+      "text": "it's posting corn. Who knows? But it's"
+    },
+    {
+      "start": 672,
+      "duration": 1.5900000000000318,
+      "text": "it's posting corn. Who knows? But it's going to be fun. Anyways, thanks for"
+    },
+    {
+      "start": 673.59,
+      "duration": 0.009999999999990905,
+      "text": "going to be fun. Anyways, thanks for"
+    },
+    {
+      "start": 673.6,
+      "duration": 3.6789999999999736,
+      "text": "going to be fun. Anyways, thanks for watching and I'll see you tomorrow at"
+    }
+  ],
+  "fullText": "I used Andre Carpathy's auto research to I used Andre Carpathy's auto research to build an automatically improving content build an automatically improving content build an automatically improving content machine. It makes five videos per day, machine. It makes five videos per day, machine. It makes five videos per day, publishes them, gathers real data, publishes them, gathers real data, publishes them, gathers real data, figures out what worked and what didn't, figures out what worked and what didn't, figures out what worked and what didn't, then rewrites its own prompts to get then rewrites its own prompts to get then rewrites its own prompts to get better every single day automatically. better every single day automatically. better every single day automatically. Let me show you how I built it, and I'll Let me show you how I built it, and I'll Let me show you how I built it, and I'll give you the entire template for free. give you the entire template for free. give you the entire template for free. But before that, just let me show you But before that, just let me show you But before that, just let me show you how it works. So what is auto research? how it works. So what is auto research? how it works. So what is auto research? So a couple weeks ago, Andre Karpathy, So a couple weeks ago, Andre Karpathy, So a couple weeks ago, Andre Karpathy, one of the founding members of OpenAI one of the founding members of OpenAI one of the founding members of OpenAI and former head of AI at Tesla, released and former head of AI at Tesla, released and former head of AI at Tesla, released this repo that is called Auto Research. this repo that is called Auto Research. this repo that is called Auto Research. And the idea is dead simple. You give an And the idea is dead simple. You give an And the idea is dead simple. You give an AI agent three things, a file to change, AI agent three things, a file to change, AI agent three things, a file to change, instructions on what to optimize, and a instructions on what to optimize, and a instructions on what to optimize, and a way to measure whether it got better. way to measure whether it got better. way to measure whether it got better. Then you just let it run. And in his Then you just let it run. And in his Then you just let it run. And in his case, he was optimizing for machine case, he was optimizing for machine case, he was optimizing for machine learning training scripts. So his learning training scripts. So his learning training scripts. So his experiment right here, the agent would experiment right here, the agent would experiment right here, the agent would tweak the code, run it, check if the tweak the code, run it, check if the tweak the code, run it, check if the results improved, then kept the changes results improved, then kept the changes results improved, then kept the changes if they did, throw them out if they if they did, throw them out if they if they did, throw them out if they didn't, and repeat. He ran hundreds of didn't, and repeat. He ran hundreds of didn't, and repeat. He ran hundreds of experiments overnight, and got an 11% experiments overnight, and got an 11% experiments overnight, and got an 11% improvement. But here's what most people improvement. But here's what most people improvement. But here's what most people miss. This isn't just for machine miss. This isn't just for machine miss. This isn't just for machine learning. You can apply this to learning. You can apply this to learning. You can apply this to literally anything that has a measurable literally anything that has a measurable literally anything that has a measurable output. I looked at this and thought my output. I looked at this and thought my output. I looked at this and thought my content pipeline has all three of these. content pipeline has all three of these. content pipeline has all three of these. The prompt is my train.py. The loop The prompt is my train.py. The loop The prompt is my train.py. The loop instructions are my program MD and the instructions are my program MD and the instructions are my program MD and the eval is real views from Instagram and eval is real views from Instagram and eval is real views from Instagram and Facebook. I built it and here's how you Facebook. I built it and here's how you Facebook. I built it and here's how you can do it too. Pulling the data. So, it can do it too. Pulling the data. So, it can do it too. Pulling the data. So, it all started when I posted this repo into all started when I posted this repo into all started when I posted this repo into Claude Code and asked if it was actually Claude Code and asked if it was actually Claude Code and asked if it was actually possible to use this repo with a possible to use this repo with a possible to use this repo with a feedback of views taken from social feedback of views taken from social feedback of views taken from social media instead because I kind of wanted media instead because I kind of wanted media instead because I kind of wanted to selfoptimized based on views. After a to selfoptimized based on views. After a to selfoptimized based on views. After a quick confirmation that it wouldn't be quick confirmation that it wouldn't be quick confirmation that it wouldn't be exactly the same cuz this has a slow exactly the same cuz this has a slow exactly the same cuz this has a slow loop using 24 hours as the time base, I loop using 24 hours as the time base, I loop using 24 hours as the time base, I kind of started getting obsessed and kind of started getting obsessed and kind of started getting obsessed and just had to figure out if I could do it. just had to figure out if I could do it. just had to figure out if I could do it. So the actual work was to pull Instagram So the actual work was to pull Instagram So the actual work was to pull Instagram data and Facebook data to analyze it and data and Facebook data to analyze it and data and Facebook data to analyze it and start creating my eval basically what to start creating my eval basically what to start creating my eval basically what to optimize for based on real data. I have optimize for based on real data. I have optimize for based on real data. I have fully unleashed my AI avatar to fully unleashed my AI avatar to fully unleashed my AI avatar to Instagram and Facebook using my AI Instagram and Facebook using my AI Instagram and Facebook using my AI clone. And as you can see, most of the clone. And as you can see, most of the clone. And as you can see, most of the views are a,000, but some actually get views are a,000, but some actually get views are a,000, but some actually get over 100,000 views without me having to over 100,000 views without me having to over 100,000 views without me having to film anything. And the real question film anything. And the real question film anything. And the real question was, what are the criteria that are was, what are the criteria that are was, what are the criteria that are basically 198 views, right? So, I set basically 198 views, right? So, I set basically 198 views, right? So, I set this all up through a metagraph API, this all up through a metagraph API, this all up through a metagraph API, which is completely free. I made a new which is completely free. I made a new which is completely free. I made a new app and then I went to the tools, the app and then I went to the tools, the app and then I went to the tools, the graph API explorer, added some Instagram graph API explorer, added some Instagram graph API explorer, added some Instagram basic permissions and read pages and basic permissions and read pages and basic permissions and read pages and just like that he found our 30 last just like that he found our 30 last just like that he found our 30 last reels sorted by views as top performers reels sorted by views as top performers reels sorted by views as top performers and the bottom performers as well. It and the bottom performers as well. It and the bottom performers as well. It said a clear pattern already jumping said a clear pattern already jumping said a clear pattern already jumping out. the wow factor visual demos crush out. the wow factor visual demos crush out. the wow factor visual demos crush it where clawed code or productivity it where clawed code or productivity it where clawed code or productivity content underperforms and I was like content underperforms and I was like content underperforms and I was like that doesn't really make sense can you that doesn't really make sense can you that doesn't really make sense can you actually pull a lot more data and just actually pull a lot more data and just actually pull a lot more data and just like that it pulled 200 Instagram reels like that it pulled 200 Instagram reels like that it pulled 200 Instagram reels and started getting even more key and started getting even more key and started getting even more key patterns of what was working and what patterns of what was working and what patterns of what was working and what was underperforming but because was underperforming but because was underperforming but because Instagram is a bit different than Instagram is a bit different than Instagram is a bit different than Facebook we had to pull from there as Facebook we had to pull from there as Facebook we had to pull from there as well so we can actually sandbox it based well so we can actually sandbox it based well so we can actually sandbox it based on just Instagram and Facebook, no other on just Instagram and Facebook, no other on just Instagram and Facebook, no other social media platforms now that it had social media platforms now that it had social media platforms now that it had all the data, but we had to build the all the data, but we had to build the all the data, but we had to build the eval. So, this is where most people eval. So, this is where most people eval. So, this is where most people screw up auto research. They make the screw up auto research. They make the screw up auto research. They make the eval criteria something like, is this eval criteria something like, is this eval criteria something like, is this engaging or does it sound good? That's engaging or does it sound good? That's engaging or does it sound good? That's just vibes. And what we need is a clear just vibes. And what we need is a clear just vibes. And what we need is a clear yes no question, no gray area. And yes no question, no gray area. And yes no question, no gray area. And please roast me in the comments. I would please roast me in the comments. I would please roast me in the comments. I would love for this to improve by you guys love for this to improve by you guys love for this to improve by you guys improving it as well. But here are the e improving it as well. But here are the e improving it as well. But here are the e vowels that we ended up with. This is no vowels that we ended up with. This is no vowels that we ended up with. This is no vibes. It's just a yes no. Does the hook vibes. It's just a yes no. Does the hook vibes. It's just a yes no. Does the hook describe a result or transformation? Not describe a result or transformation? Not describe a result or transformation? Not just a feature. Does the hook feature a just a feature. Does the hook feature a just a feature. Does the hook feature a person or story, not just a company? person or story, not just a company? person or story, not just a company? Those are for the hook quality and the Those are for the hook quality and the Those are for the hook quality and the content framing. Is the short framed content framing. Is the short framed content framing. Is the short framed around what you can do, not what it is. around what you can do, not what it is. around what you can do, not what it is. Does the script avoid sounding like a Does the script avoid sounding like a Does the script avoid sounding like a press release or change log? Right? So, press release or change log? Right? So, press release or change log? Right? So, you can see these are yes no questions you can see these are yes no questions you can see these are yes no questions that can be answered easily. Would the that can be answered easily. Would the that can be answered easily. Would the first frame of this video make someone first frame of this video make someone first frame of this video make someone stop scrolling? These were the 10 stop scrolling? These were the 10 stop scrolling? These were the 10 questions that we ended up with. And the questions that we ended up with. And the questions that we ended up with. And the key is that binary criteria are machine key is that binary criteria are machine key is that binary criteria are machine readable. You can feed a script into readable. You can feed a script into readable. You can feed a script into Gemini and ask it these 10 questions and Gemini and ask it these 10 questions and Gemini and ask it these 10 questions and you get a score out of 10. No you get a score out of 10. No you get a score out of 10. No subjectivity, no rate this on a scale of subjectivity, no rate this on a scale of subjectivity, no rate this on a scale of 1 to 10, just on vibes. It's just yes, 1 to 10, just on vibes. It's just yes, 1 to 10, just on vibes. It's just yes, no. But now that we had all of these, we no. But now that we had all of these, we no. But now that we had all of these, we started on wiring the loop. Here is the started on wiring the loop. Here is the started on wiring the loop. Here is the actual system. I'll show you in a actual system. I'll show you in a actual system. I'll show you in a minute. Here is the actual code that it minute. Here is the actual code that it minute. Here is the actual code that it wrote. 1,000 lines, a auto research loop wrote. 1,000 lines, a auto research loop wrote. 1,000 lines, a auto research loop that is working exactly like this. The that is working exactly like this. The that is working exactly like this. The first thing is that we pull our views first thing is that we pull our views first thing is that we pull our views from Facebook and Instagram. This is from Facebook and Instagram. This is from Facebook and Instagram. This is really important cuz every morning maybe really important cuz every morning maybe really important cuz every morning maybe we got views, maybe we didn't. Then we we got views, maybe we didn't. Then we we got views, maybe we didn't. Then we match an update with views to our air match an update with views to our air match an update with views to our air table. This is kind of our production table. This is kind of our production table. This is kind of our production system. It looks like this right now. system. It looks like this right now. system. It looks like this right now. And this is essentially where we make And this is essentially where we make And this is essentially where we make all the videos. And here is where the all the videos. And here is where the all the videos. And here is where the videos are stored as well. As you can videos are stored as well. As you can videos are stored as well. As you can see, stop everything. Robots are now see, stop everything. Robots are now see, stop everything. Robots are now mastering your favorite sports just by mastering your favorite sports just by mastering your favorite sports just by watching our messy YouTube clips. watching our messy YouTube clips. watching our messy YouTube clips. Pretty cool. And as you can see, we have Pretty cool. And as you can see, we have Pretty cool. And as you can see, we have the database here for the Eval score the database here for the Eval score the database here for the Eval score performance tier, etc. And the performance tier, etc. And the performance tier, etc. And the automation in the back end, just to show automation in the back end, just to show automation in the back end, just to show you, looks a bit like this. And AI can you, looks a bit like this. And AI can you, looks a bit like this. And AI can improve this by itself over time. But improve this by itself over time. But improve this by itself over time. But I'm getting ahead of myself. Next, we I'm getting ahead of myself. Next, we I'm getting ahead of myself. Next, we prescore new ideas. So we scrape social prescore new ideas. So we scrape social prescore new ideas. So we scrape social media every single morning. We have an media every single morning. We have an media every single morning. We have an eval that is actually based on just the eval that is actually based on just the eval that is actually based on just the sources as well. Even before creating. sources as well. Even before creating. sources as well. Even before creating. So there's two sets of evals here. And So there's two sets of evals here. And So there's two sets of evals here. And if it gets above a five score, it if it gets above a five score, it if it gets above a five score, it answers the creation queue. Next, we answers the creation queue. Next, we answers the creation queue. Next, we score published script. So Gemini reads score published script. So Gemini reads score published script. So Gemini reads each script and answers 10 yes no eval each script and answers 10 yes no eval each script and answers 10 yes no eval questions. That's the one you just saw. questions. That's the one you just saw. questions. That's the one you just saw. And outputs a score for every published And outputs a score for every published And outputs a score for every published short. Next we correlate with high eval short. Next we correlate with high eval short. Next we correlate with high eval plus high views equal validated winners. plus high views equal validated winners. plus high views equal validated winners. High eval plus low views false High eval plus low views false High eval plus low views false positives. That means we have to fix the positives. That means we have to fix the positives. That means we have to fix the eval plus handle rankings plus approval eval plus handle rankings plus approval eval plus handle rankings plus approval rate tracking. As you can see it's rate tracking. As you can see it's rate tracking. As you can see it's getting smarter. Then we generate and getting smarter. Then we generate and getting smarter. Then we generate and push. We write an improved prompt from push. We write an improved prompt from push. We write an improved prompt from correlation data winners failures. push correlation data winners failures. push correlation data winners failures. push new prompt to nan workflow via API and new prompt to nan workflow via API and new prompt to nan workflow via API and selfimprovement loop is going every 24 selfimprovement loop is going every 24 selfimprovement loop is going every 24 hours starting at 8 a.m. my time. All hours starting at 8 a.m. my time. All hours starting at 8 a.m. my time. All fully automated with one Python script, fully automated with one Python script, fully automated with one Python script, but you might be wondering how it but you might be wondering how it but you might be wondering how it evolved. As you can see, we started with evolved. As you can see, we started with evolved. As you can see, we started with the original prompt that had a hook, the original prompt that had a hook, the original prompt that had a hook, detail, tone, close, word budget, and detail, tone, close, word budget, and detail, tone, close, word budget, and etc. Then it started reframing it from etc. Then it started reframing it from etc. Then it started reframing it from announcement to a curiosity trigger. It announcement to a curiosity trigger. It announcement to a curiosity trigger. It pushed it to be broader, more dramatic. pushed it to be broader, more dramatic. pushed it to be broader, more dramatic. Then it tried to deepen the Then it tried to deepen the Then it tried to deepen the personalization with lifealtering personalization with lifealtering personalization with lifealtering language added. The hook scoped away language added. The hook scoped away language added. The hook scoped away from events more into universal and from events more into universal and from events more into universal and timeless discoveries. And we ended up at timeless discoveries. And we ended up at timeless discoveries. And we ended up at hoop framing sharpened with secrets hoop framing sharpened with secrets hoop framing sharpened with secrets about to be revealed. So it went through about to be revealed. So it went through about to be revealed. So it went through five meaningful revisions across two five meaningful revisions across two five meaningful revisions across two days and we can see it all here in this days and we can see it all here in this days and we can see it all here in this auto research prompt JSON that get auto research prompt JSON that get auto research prompt JSON that get updated every single day based on the updated every single day based on the updated every single day based on the criteria. But the last part I had to criteria. But the last part I had to criteria. But the last part I had to figure out was how to run it daily. The figure out was how to run it daily. The figure out was how to run it daily. The last piece is making it hands off. So last piece is making it hands off. So last piece is making it hands off. So the script runs every morning at 8:00 the script runs every morning at 8:00 the script runs every morning at 8:00 a.m. via Launchd. So that's Mac OS's a.m. via Launchd. So that's Mac OS's a.m. via Launchd. So that's Mac OS's task launcher. Every day it pulls task launcher. Every day it pulls task launcher. Every day it pulls yesterday's views counts and it does all yesterday's views counts and it does all yesterday's views counts and it does all these things right and at the end it these things right and at the end it these things right and at the end it actually gives me a summary or auto auto actually gives me a summary or auto auto actually gives me a summary or auto auto research daily report. Here it has the research daily report. Here it has the research daily report. Here it has the top performers that we have done the top performers that we have done the top performers that we have done the prompt updates with a bunch of changes prompt updates with a bunch of changes prompt updates with a bunch of changes that it's done with top handles and that it's done with top handles and that it's done with top handles and human approval as well. Currently I have human approval as well. Currently I have human approval as well. Currently I have a team member that is using a team member that is using a team member that is using contentmate.2.0.3 contentmate.2.0.3 contentmate.2.0.3 0.3 where he is using it himself 0.3 where he is using it himself 0.3 where he is using it himself manually and we got content mate v2.1 manually and we got content mate v2.1 manually and we got content mate v2.1 now that has this auto improvement now that has this auto improvement now that has this auto improvement feature built into it and literally feature built into it and literally feature built into it and literally every single day five videos get made every single day five videos get made every single day five videos get made and my coworker what he does is watch and my coworker what he does is watch and my coworker what he does is watch the video and if it's good he puts this the video and if it's good he puts this the video and if it's good he puts this one on schedule if it's not good he just one on schedule if it's not good he just one on schedule if it's not good he just says no and AI learns from this as well says no and AI learns from this as well says no and AI learns from this as well making it almost 100% fully automated making it almost 100% fully automated making it almost 100% fully automated besides quality inspection. And the besides quality inspection. And the besides quality inspection. And the beautiful thing is that it never stops beautiful thing is that it never stops beautiful thing is that it never stops getting better. Every day, the pipeline getting better. Every day, the pipeline getting better. Every day, the pipeline publishes five shorts. 24 hours later, publishes five shorts. 24 hours later, publishes five shorts. 24 hours later, the loop checks back in what happened. the loop checks back in what happened. the loop checks back in what happened. The prompts get slightly better. After a The prompts get slightly better. After a The prompts get slightly better. After a week and seven iterations, after a week and seven iterations, after a week and seven iterations, after a month, 30. Unlike manual tweaking, every month, 30. Unlike manual tweaking, every month, 30. Unlike manual tweaking, every single change is logged with the data single change is logged with the data single change is logged with the data that cost it. So when a smarter model that cost it. So when a smarter model that cost it. So when a smarter model comes out next month, I hand it that comes out next month, I hand it that comes out next month, I hand it that research log and it picks up exactly research log and it picks up exactly research log and it picks up exactly where it last left off. And Karpathy where it last left off. And Karpathy where it last left off. And Karpathy said this himself, the research log said this himself, the research log said this himself, the research log might be the most valuable asset. And might be the most valuable asset. And might be the most valuable asset. And you can apply this to anything. Your you can apply this to anything. Your you can apply this to anything. Your thumbnail prompts, your email sequences, thumbnail prompts, your email sequences, thumbnail prompts, your email sequences, your landing pages. If a prompt has a your landing pages. If a prompt has a your landing pages. If a prompt has a measurable output, auto research can measurable output, auto research can measurable output, auto research can improve it. This is the coolest thing improve it. This is the coolest thing improve it. This is the coolest thing that I found in a long while, and I'm that I found in a long while, and I'm that I found in a long while, and I'm giving it all away for free. If you want giving it all away for free. If you want giving it all away for free. If you want Contentmate, if you want the Nan Contentmate, if you want the Nan Contentmate, if you want the Nan template and you want the auto template and you want the auto template and you want the auto improvement loop, head to our free improvement loop, head to our free improvement loop, head to our free school community where I give away all school community where I give away all school community where I give away all the resources here inside of the AI the resources here inside of the AI the resources here inside of the AI clone automation. But I can understand clone automation. But I can understand clone automation. But I can understand that it is maybe a little bit technical that it is maybe a little bit technical that it is maybe a little bit technical for some people. So if you want to for some people. So if you want to for some people. So if you want to implement this way easier, customize it implement this way easier, customize it implement this way easier, customize it for your business, head into the AIMAT for your business, head into the AIMAT for your business, head into the AIMAT Plus community where I will help you Plus community where I will help you Plus community where I will help you more hands-on. Now I guess all we need more hands-on. Now I guess all we need more hands-on. Now I guess all we need to do is wait. I want to make a video in to do is wait. I want to make a video in to do is wait. I want to make a video in a month from now showing the exact a month from now showing the exact a month from now showing the exact results and what ended up happening. So, results and what ended up happening. So, results and what ended up happening. So, subscribe. Maybe it's gotten better or subscribe. Maybe it's gotten better or subscribe. Maybe it's gotten better or it's posting corn. Who knows? But it's it's posting corn. Who knows? But it's it's posting corn. Who knows? But it's going to be fun. Anyways, thanks for going to be fun. Anyways, thanks for going to be fun. Anyways, thanks for watching and I'll see you tomorrow at",
+  "fetchedAt": "2026-03-25T14:23:32.286Z"
+}
