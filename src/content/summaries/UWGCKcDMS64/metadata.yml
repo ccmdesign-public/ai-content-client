@@ -1,0 +1,32 @@
+videoId: UWGCKcDMS64
+title: Azure DevOps Engineer Question 23
+description: >-
+  The best strategy to retain standard artifacts for 30 days while keeping
+  production artifacts indefinitely is to set a global 30-day retention policy
+  and manually mark production releases to be retained. Unlike using Azure Blob
+  storage without a policy (unbounded costs), manual deletion (error-prone), or
+  pipeline variables (not for enforcement), this approach leverages the native
+  capability of Azure Pipelines to override global retention for specific
+  runs.  This ensures that temporary build data is automatically purged while
+  critical deployment records remain secure and accessible for as long as
+  needed.
+
+
+  #AZ400 #AzureDevOps #CICD #RetentionPolicy #CloudComputing #DevOps #TechTips
+  #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M8S
+publishedAt: 2026-03-26T12:16:22Z
+thumbnailUrl: https://i.ytimg.com/vi/UWGCKcDMS64/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=UWGCKcDMS64
+processedAt: 2026-03-26T21:11:36.130Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1688
+outputTokens: 541
+totalTokens: 2229
+processingTimeMs: 7572

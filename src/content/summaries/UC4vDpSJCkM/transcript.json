@@ -1,0 +1,789 @@
+{
+  "videoId": "UC4vDpSJCkM",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 0.15,
+      "duration": 0.9999999999999999,
+      "text": "Howdy, everyone."
+    },
+    {
+      "start": 1.77,
+      "duration": 2.08,
+      "text": "Context plays a crucial role in OWAF flows."
+    },
+    {
+      "start": 4.49,
+      "duration": 6.16,
+      "text": "And there's currently extensive conversation about how context is managed within agentic flows."
+    },
+    {
+      "start": 11.13,
+      "duration": 8.139999999999999,
+      "text": "In this video, we'll explore the role of context in an agentic system and discuss strategies for effectively utilizing it."
+    },
+    {
+      "start": 19.77,
+      "duration": 7.0390000000000015,
+      "text": "To get started, let's look at what we think of as traditional OWA systems and traditional context."
+    },
+    {
+      "start": 31.44,
+      "duration": 5.138999999999999,
+      "text": "And when we think about this, we really need to kind of start with a definition."
+    },
+    {
+      "start": 36.94,
+      "duration": 9.813000000000002,
+      "text": "And it really is about you have a user granting an app, so this is very specific,"
+    },
+    {
+      "start": 46.753,
+      "duration": 12.067,
+      "text": "we want to, we're working with an application and we want you to grant it permission to act on our behalf, the user's behalf."
+    },
+    {
+      "start": 64.82,
+      "duration": 3.680000000000007,
+      "text": "And this is critical during a single login."
+    },
+    {
+      "start": 71.58,
+      "duration": 6.879000000000005,
+      "text": "In other words, we want to grant permission for an application to do something on our behalf of, but during a single login."
+    },
+    {
+      "start": 78.72,
+      "duration": 1.1400000000000006,
+      "text": "So let's draw this up."
+    },
+    {
+      "start": 79.92,
+      "duration": 2.6400000000000006,
+      "text": "Let's just kind of take a view of how this looks."
+    },
+    {
+      "start": 82.64,
+      "duration": 1.4200000000000017,
+      "text": "So we start, we have a user."
+    },
+    {
+      "start": 87.36,
+      "duration": 2.0990000000000038,
+      "text": "They're interacting with an application."
+    },
+    {
+      "start": 91.22,
+      "duration": 2.5589999999999975,
+      "text": "And somewhere along the way, there's a resource."
+    },
+    {
+      "start": 97.18,
+      "duration": 1.3199999999999932,
+      "text": "That they're trying to tap into."
+    },
+    {
+      "start": 98.92,
+      "duration": 5.340000000000003,
+      "text": "And then as I mentioned, we have this authorization that happens."
+    },
+    {
+      "start": 104.68,
+      "duration": 1.8199999999999932,
+      "text": "So let's say, let's just do a quick example."
+    },
+    {
+      "start": 106.78,
+      "duration": 7.060000000000002,
+      "text": "I have some application I wanna interact with my bank, but I don't want that application to go actually connect to my bank and do stuff."
+    },
+    {
+      "start": 113.96,
+      "duration": 9.460000000000008,
+      "text": "I want to give permission for that application to actually use certain features of my bank so that it can go and buy stuff, perform transactions."
+    },
+    {
+      "start": 123.52,
+      "duration": 1.8389999999999986,
+      "text": "So we do this thing where I kind of."
+    },
+    {
+      "start": 125.75,
+      "duration": 9.180000000000007,
+      "text": "trust who I am, I say who it is, who I am, I interact with my application, I allow things to happen, I allow this to go and interact with the resource."
+    },
+    {
+      "start": 135.27,
+      "duration": 2.8189999999999884,
+      "text": "And this all happens by via issue a token."
+    },
+    {
+      "start": 140.82,
+      "duration": 1.4989999999999952,
+      "text": "That token represents me."
+    },
+    {
+      "start": 142.46,
+      "duration": 1.3199999999999932,
+      "text": "It's something I've authenticated."
+    },
+    {
+      "start": 144.12,
+      "duration": 6.088999999999999,
+      "text": "And within that token, there is a set of scopes that say what I allow,"
+    },
+    {
+      "start": 150.209,
+      "duration": 11.031000000000006,
+      "text": "what I am giving permission for this application to interact on my behalf with a resource and do read-only, read banking information, whatever it is that it needs to do."
+    },
+    {
+      "start": 161.26,
+      "duration": 4.260000000000019,
+      "text": "So this is what we look at when we think about more of a traditional context."
+    },
+    {
+      "start": 165.54,
+      "duration": 7.579000000000008,
+      "text": "And we can kind of break this down and think of it as there's who, which is the user."
+    },
+    {
+      "start": 173.142,
+      "duration": 5.7379999999999995,
+      "text": "There's the what resource or what am I trying to connect to."
+    },
+    {
+      "start": 181.89,
+      "duration": 6.160000000000025,
+      "text": "And there's also the conditions, which in the case of OAuth, this is the scopes."
+    },
+    {
+      "start": 188.39,
+      "duration": 5.339000000000027,
+      "text": "What specific action am I saying that this system is allowed to perform?"
+    },
+    {
+      "start": 193.87,
+      "duration": 6.900000000000006,
+      "text": "All right, so this is what we think of in terms of traditional OAuth flows and context within that."
+    },
+    {
+      "start": 200.85,
+      "duration": 3.599000000000018,
+      "text": "The context is the who, the what, and what am I trying to do, what am allowed to do."
+    },
+    {
+      "start": 204.65,
+      "duration": 3.5999999999999943,
+      "text": "So let's talk about this in terms of agentic systems."
+    },
+    {
+      "start": 208.51,
+      "duration": 11.04000000000002,
+      "text": "And again, let's start with a definition of what like agentic context then would be similar to what we did with traditional."
+    },
+    {
+      "start": 219.83,
+      "duration": 8.236999999999995,
+      "text": "So this, this is about really it's autonomous because we have agents that are interacting they're doing things on,"
+    },
+    {
+      "start": 228.067,
+      "duration": 3.401999999999987,
+      "text": "you know, thinking performing tasks, figuring out stuff."
+    },
+    {
+      "start": 231.79,
+      "duration": 1.960000000000008,
+      "text": "It's also very dynamic."
+    },
+    {
+      "start": 235.83,
+      "duration": 1.8389999999999986,
+      "text": "In other words, it's non-deterministic."
+    },
+    {
+      "start": 238.59,
+      "duration": 7.460000000000008,
+      "text": "To solve a task, an agent may do one thing one time and something completely different the next time, depending on what it is that they're being asked to do."
+    },
+    {
+      "start": 246.19,
+      "duration": 2.740000000000009,
+      "text": "It may talk to multiple systems, multiple agents."
+    },
+    {
+      "start": 249.73,
+      "duration": 2.919000000000011,
+      "text": "And it also does delegations."
+    },
+    {
+      "start": 255.06,
+      "duration": 1.63900000000001,
+      "text": "Has that as a model."
+    },
+    {
+      "start": 258.98,
+      "duration": 1.0439999999999827,
+      "text": "With multiple apps."
+    },
+    {
+      "start": 264.77,
+      "duration": 5.899000000000001,
+      "text": "So this is what starts making context more complex when we think about it in terms of agentic systems."
+    },
+    {
+      "start": 270.81,
+      "duration": 5.319000000000017,
+      "text": "It's autonomous, it's self-thinking, it's dynamic, it's figuring out how that flow is gonna look."
+    },
+    {
+      "start": 276.37,
+      "duration": 4.658999999999992,
+      "text": "It's not just a single application with a resource figuring out what I need to do."
+    },
+    {
+      "start": 281.29,
+      "duration": 1,
+      "text": "It's delegation."
+    },
+    {
+      "start": 282.31,
+      "duration": 1.4490000000000123,
+      "text": "It delegates on behalf of me."
+    },
+    {
+      "start": 283.91,
+      "duration": 1.5989999999999895,
+      "text": "It delegates down a flow."
+    },
+    {
+      "start": 285.71,
+      "duration": 2.3389999999999986,
+      "text": "And there could be multiple applications."
+    },
+    {
+      "start": 288.15,
+      "duration": 2.299000000000035,
+      "text": "So let's draw this out as well."
+    },
+    {
+      "start": 290.51,
+      "duration": 5.960000000000036,
+      "text": "So we may have something here, which we add, which is an orchestration."
+    },
+    {
+      "start": 296.63,
+      "duration": 2.480000000000018,
+      "text": "So we add orchestration in the middle of it."
+    },
+    {
+      "start": 299.47,
+      "duration": 2.319999999999993,
+      "text": "We may have another agent."
+    },
+    {
+      "start": 301.85,
+      "duration": 1.238999999999976,
+      "text": "There's agent one."
+    },
+    {
+      "start": 303.41,
+      "duration": 2.798999999999978,
+      "text": "We can have multiple agents."
+    },
+    {
+      "start": 306.29,
+      "duration": 1.2199999999999704,
+      "text": "So, there's agent two."
+    },
+    {
+      "start": 307.81,
+      "duration": 3.5790000000000077,
+      "text": "And we potentially bring in things like an MCP server."
+    },
+    {
+      "start": 311.65,
+      "duration": 6.420000000000016,
+      "text": "And all along this flow now, we're interacting dynamically with multiple things."
+    },
+    {
+      "start": 318.29,
+      "duration": 2.8389999999999986,
+      "text": "We also bring in, we can have an LLM."
+    },
+    {
+      "start": 322.58,
+      "duration": 9.052999999999997,
+      "text": "And that LLM is helping the orchestration figure out where it needs to, what is our dynamic path, it's working with agents, you know, in multiple places,"
+    },
+    {
+      "start": 331.633,
+      "duration": 6.326000000000022,
+      "text": "the LLM now is coming in to help this whole process think and work through how it's going to do that."
+    },
+    {
+      "start": 338,
+      "duration": 6.163999999999987,
+      "text": "So if we think of it in terms of who, you know, what and the conditions in an agentic system,"
+    },
+    {
+      "start": 344.164,
+      "duration": 10.014999999999986,
+      "text": "so we have the who, it's the user, but now we have agents, and there could be multiple agents that we have to take into our context."
+    },
+    {
+      "start": 354.62,
+      "duration": 7.618999999999971,
+      "text": "There's also, when we start thinking about what resource we're going to be interacting with."
+    },
+    {
+      "start": 362.4,
+      "duration": 10.939000000000021,
+      "text": "Well, again, this is autonomous, so it could be thinking on its own, and it's a multi-system orchestration."
+    },
+    {
+      "start": 376.87,
+      "duration": 4.218999999999994,
+      "text": "So when we were talking about this more in a traditional sense, really."
+    },
+    {
+      "start": 381.31,
+      "duration": 5.800000000000011,
+      "text": "Again, it's one user, there's an application, it is a single logon, and they're connecting to a resource."
+    },
+    {
+      "start": 387.41,
+      "duration": 4.459000000000003,
+      "text": "When we're looking, and that's our context, who, what and what are we allowed to do?"
+    },
+    {
+      "start": 392.91,
+      "duration": 3.718999999999994,
+      "text": "In the terms of agentic, now we have multiple systems."
+    },
+    {
+      "start": 396.65,
+      "duration": 1,
+      "text": "We have multiple agents."
+    },
+    {
+      "start": 397.71,
+      "duration": 0.7600000000000477,
+      "text": "We have LLMs."
+    },
+    {
+      "start": 398.47,
+      "duration": 4.479999999999961,
+      "text": "We have all this stuff that now comes into play when we're thinking about what is the resource."
+    },
+    {
+      "start": 402.95,
+      "duration": 11.410000000000025,
+      "text": "And then finally, when we think about the conditions and then we're really starting to think about more of really fine-grained access."
+    },
+    {
+      "start": 414.8,
+      "duration": 1.1990000000000123,
+      "text": "And it's very dynamic."
+    },
+    {
+      "start": 416.06,
+      "duration": 7.319000000000017,
+      "text": "We get back to thi non-deterministic behavior that we're seeing in agentic systems."
+    },
+    {
+      "start": 423.7,
+      "duration": 8.059000000000026,
+      "text": "So this really starts expanding out what we need to think of when we start thinking about context in an agentic system."
+    },
+    {
+      "start": 432.52,
+      "duration": 4.640000000000043,
+      "text": "Well, the first thing you kind of do, so let's kind of go to our model now and let's start thinking about this."
+    },
+    {
+      "start": 437.52,
+      "duration": 6.039000000000044,
+      "text": "First thing you really do when you're interacting with a system is you have a prompt."
+    },
+    {
+      "start": 444.92,
+      "duration": 1.099999999999966,
+      "text": "You're asking a task."
+    },
+    {
+      "start": 446.06,
+      "duration": 7.5,
+      "text": "I want to see the financial information for a particular region, for a particular piece of my business and bring that information back to me."
+    },
+    {
+      "start": 453.6,
+      "duration": 3.259999999999991,
+      "text": "So we start, and we look at this as a prompt."
+    },
+    {
+      "start": 456.94,
+      "duration": 2.298999999999978,
+      "text": "And of course, the prompt is linguistic, right?"
+    },
+    {
+      "start": 459.48,
+      "duration": 3.298999999999978,
+      "text": "It's in our native tongue and language."
+    },
+    {
+      "start": 463.24,
+      "duration": 4.9389999999999645,
+      "text": "The LLM understands it and understands how it's going to route and get through the system."
+    },
+    {
+      "start": 468.34,
+      "duration": 7.340000000000032,
+      "text": "Now, because it is a multi-system environment, we have to really then start looking at the situational context."
+    },
+    {
+      "start": 479.26,
+      "duration": 6.119000000000028,
+      "text": "And this is really, when we think situational context, this is our environment state."
+    },
+    {
+      "start": 487.53,
+      "duration": 3.13900000000001,
+      "text": "So we have to take into account, all right, what are all the components?"
+    },
+    {
+      "start": 490.75,
+      "duration": 3.660000000000025,
+      "text": "When we looked at traditional, it was very limited, so it was simple."
+    },
+    {
+      "start": 494.83,
+      "duration": 6.319000000000017,
+      "text": "But now we have to think of, we have orchestration, we have multiple agents, we have MCP servers, we gotta have multiple of those."
+    },
+    {
+      "start": 501.21,
+      "duration": 3.420000000000016,
+      "text": "We have multiple resources that are all being used to bring this together."
+    },
+    {
+      "start": 504.87,
+      "duration": 5.118999999999971,
+      "text": "So we really have to think about the environment's state when we start thinking about context."
+    },
+    {
+      "start": 510.41,
+      "duration": 8.189999999999998,
+      "text": "And of course, when we think about, you know, we're connecting ultimately to a resource or a tool, you know, there's actually a resource context here as well, right?"
+    },
+    {
+      "start": 518.6,
+      "duration": 4.058999999999969,
+      "text": "So we have to understand what the context of this is."
+    },
+    {
+      "start": 522.659,
+      "duration": 2.0399999999999636,
+      "text": "Because we could have multiple."
+    },
+    {
+      "start": 525.06,
+      "duration": 2.2120000000001028,
+      "text": "And so if there are multiple, we have understand."
+    },
+    {
+      "start": 527.36,
+      "duration": 1.1989999999999554,
+      "text": "What are they?"
+    },
+    {
+      "start": 528.64,
+      "duration": 1,
+      "text": "What do they provide?"
+    },
+    {
+      "start": 529.66,
+      "duration": 1.1399999999999864,
+      "text": "What are they capable of?"
+    },
+    {
+      "start": 530.8,
+      "duration": 1.4990000000000236,
+      "text": "So we take that into account."
+    },
+    {
+      "start": 532.6,
+      "duration": 2.980000000000018,
+      "text": "Same kind of thing happens on the other end of this."
+    },
+    {
+      "start": 535.64,
+      "duration": 2.879000000000019,
+      "text": "We need to really look then at the user context."
+    },
+    {
+      "start": 538.82,
+      "duration": 1.1399999999999864,
+      "text": "Who is the user?"
+    },
+    {
+      "start": 540.46,
+      "duration": 1.1599999999999682,
+      "text": "Is it an employee?"
+    },
+    {
+      "start": 542.02,
+      "duration": 1.1190000000000282,
+      "text": "Are they coming in from home?"
+    },
+    {
+      "start": 543.14,
+      "duration": 1.580000000000041,
+      "text": "Are they coming in from work?"
+    },
+    {
+      "start": 545.03,
+      "duration": 2.5400000000000773,
+      "text": "So that starts driving, okay, we have a person."
+    },
+    {
+      "start": 548.11,
+      "duration": 1.1190000000000282,
+      "text": "He's an employee."
+    },
+    {
+      "start": 549.25,
+      "duration": 4.5359999999999445,
+      "text": "He's at work, he's performing a user prompt that's work-related."
+    },
+    {
+      "start": 554.65,
+      "duration": 4.199000000000069,
+      "text": "We know these are all systems, which systems are we gonna talk to and what are the resources?"
+    },
+    {
+      "start": 559.33,
+      "duration": 3.978999999999928,
+      "text": "So now the context is starting to spread out a little bit on us."
+    },
+    {
+      "start": 564.31,
+      "duration": 7.160000000000082,
+      "text": "The other thing we kind of need to think about when we're looking at this as well is, you know, we've brought an LLM into this."
+    },
+    {
+      "start": 571.51,
+      "duration": 3.5289999999999964,
+      "text": "So we have, you know, some sort of a model context."
+    },
+    {
+      "start": 575.18,
+      "duration": 1.0200000000000955,
+      "text": "What is the model?"
+    },
+    {
+      "start": 576.32,
+      "duration": 1,
+      "text": "Which one are we using?"
+    },
+    {
+      "start": 577.52,
+      "duration": 2.080000000000041,
+      "text": "What is it, you know, tuned for?"
+    },
+    {
+      "start": 579.92,
+      "duration": 5.720000000000027,
+      "text": "And then we also, and this is going to be very important is we have task history."
+    },
+    {
+      "start": 587.91,
+      "duration": 1.63900000000001,
+      "text": "Because this starts playing into it."
+    },
+    {
+      "start": 589.55,
+      "duration": 1,
+      "text": "What did I ask before?"
+    },
+    {
+      "start": 590.63,
+      "duration": 1.240000000000009,
+      "text": "Did I get the right response?"
+    },
+    {
+      "start": 591.97,
+      "duration": 7.399000000000001,
+      "text": "And in an agentic system, we're trying to learn and improve how we're answering our prompts and our questions."
+    },
+    {
+      "start": 599.43,
+      "duration": 3.1400000000001,
+      "text": "So the history becomes very important as we start learning better."
+    },
+    {
+      "start": 602.95,
+      "duration": 5.67999999999995,
+      "text": "We need to, if you think of this in terms of context, not only is it, what are all the systems I'm looking at?"
+    },
+    {
+      "start": 608.69,
+      "duration": 0.9799999999999045,
+      "text": "Who is the user?"
+    },
+    {
+      "start": 609.67,
+      "duration": 1.13900000000001,
+      "text": "What are we connecting to?"
+    },
+    {
+      "start": 611.11,
+      "duration": 1.6989999999999554,
+      "text": "But also, what's the history?"
+    },
+    {
+      "start": 612.91,
+      "duration": 1.4600000000000364,
+      "text": "How did we solve this in the past?"
+    },
+    {
+      "start": 614.37,
+      "duration": 7.63900000000001,
+      "text": "Because that now plays into the context of, of what the resources are we want to connect to and what conditions are we going to allow."
+    },
+    {
+      "start": 622.49,
+      "duration": 2.379000000000019,
+      "text": "So this all starts playing into everything."
+    },
+    {
+      "start": 626.07,
+      "duration": 5.1049999999999045,
+      "text": "Now, originally when we kind of started approaching agentic systems,"
+    },
+    {
+      "start": 631.175,
+      "duration": 9.175000000000068,
+      "text": "we started thinking about this in terms of how to get the best answer back is we looked at it in terms of prompt engineering."
+    },
+    {
+      "start": 641.69,
+      "duration": 2.5599999999999454,
+      "text": "So we really thought, well, how do I shape my prompt?"
+    },
+    {
+      "start": 644.25,
+      "duration": 1.719000000000051,
+      "text": "How do I craft my prompt?"
+    },
+    {
+      "start": 646.07,
+      "duration": 1,
+      "text": "How do I ask it?"
+    },
+    {
+      "start": 647.09,
+      "duration": 2.9589999999999463,
+      "text": "How do I refine it, so that I get the right answer back."
+    },
+    {
+      "start": 650.37,
+      "duration": 7.32000000000005,
+      "text": "And that certainly has come a long ways in getting good responses back, but that's not nearly enough."
+    },
+    {
+      "start": 658.11,
+      "duration": 4.8799999999999955,
+      "text": "We, it doesn't tell us about everything that's happening and all the different interactions."
+    },
+    {
+      "start": 663.13,
+      "duration": 2.899000000000001,
+      "text": "We really have to think about a couple of things."
+    },
+    {
+      "start": 666.07,
+      "duration": 2.4389999999999645,
+      "text": "We have to about the state of the system."
+    },
+    {
+      "start": 668.95,
+      "duration": 3.558999999999969,
+      "text": "This is the user, the resource, all the things that are going into it."
+    },
+    {
+      "start": 672.97,
+      "duration": 4.059999999999945,
+      "text": "And we have to really start bringing in memory."
+    },
+    {
+      "start": 677.41,
+      "duration": 0.8999999999999773,
+      "text": "What's the history?"
+    },
+    {
+      "start": 678.31,
+      "duration": 0.900000000000091,
+      "text": "What's background?"
+    },
+    {
+      "start": 679.21,
+      "duration": 1,
+      "text": "What are we learning from?"
+    },
+    {
+      "start": 680.47,
+      "duration": 7.639999999999986,
+      "text": "And this is actually where we're starting to lead into what we are calling context engineering."
+    },
+    {
+      "start": 688.51,
+      "duration": 4.119000000000028,
+      "text": "And we add this on top of our prompt engineering to get the right response."
+    },
+    {
+      "start": 692.93,
+      "duration": 8.494000000000028,
+      "text": "And we take all of these different variables and things into account that drives what the context is of the entire system"
+    },
+    {
+      "start": 701.424,
+      "duration": 9.495000000000005,
+      "text": "and then ultimately says what the user is allowed to do, where is that information coming from, and how do I best shape and retrieve it to bring it back for the user."
+    },
+    {
+      "start": 711.9,
+      "duration": 9.908000000000015,
+      "text": "So the real takeaway from this whole conversation, the whole thing, is that agentic systems are more, are beyond what we think of in traditional context."
+    },
+    {
+      "start": 722.1,
+      "duration": 1.31899999999996,
+      "text": "And there's a lot of variables."
+    },
+    {
+      "start": 723.42,
+      "duration": 3.4400000000000546,
+      "text": "We've walked through all the different things that make this up."
+    },
+    {
+      "start": 727.8,
+      "duration": 3.6400000000001,
+      "text": "What you really need to start thinking about now is context engineering."
+    },
+    {
+      "start": 731.62,
+      "duration": 5.451000000000022,
+      "text": "How am I going to look at the system, all the things that really establish context,"
+    },
+    {
+      "start": 737.071,
+      "duration": 7.107999999999947,
+      "text": "and bring those to bear through your prompts and your questions so you get the right responses back for your agentic system?"
+    }
+  ],
+  "fullText": "Howdy, everyone. Context plays a crucial role in OWAF flows. And there's currently extensive conversation about how context is managed within agentic flows. In this video, we'll explore the role of context in an agentic system and discuss strategies for effectively utilizing it. To get started, let's look at what we think of as traditional OWA systems and traditional context. And when we think about this, we really need to kind of start with a definition. And it really is about you have a user granting an app, so this is very specific, we want to, we're working with an application and we want you to grant it permission to act on our behalf, the user's behalf. And this is critical during a single login. In other words, we want to grant permission for an application to do something on our behalf of, but during a single login. So let's draw this up. Let's just kind of take a view of how this looks. So we start, we have a user. They're interacting with an application. And somewhere along the way, there's a resource. That they're trying to tap into. And then as I mentioned, we have this authorization that happens. So let's say, let's just do a quick example. I have some application I wanna interact with my bank, but I don't want that application to go actually connect to my bank and do stuff. I want to give permission for that application to actually use certain features of my bank so that it can go and buy stuff, perform transactions. So we do this thing where I kind of. trust who I am, I say who it is, who I am, I interact with my application, I allow things to happen, I allow this to go and interact with the resource. And this all happens by via issue a token. That token represents me. It's something I've authenticated. And within that token, there is a set of scopes that say what I allow, what I am giving permission for this application to interact on my behalf with a resource and do read-only, read banking information, whatever it is that it needs to do. So this is what we look at when we think about more of a traditional context. And we can kind of break this down and think of it as there's who, which is the user. There's the what resource or what am I trying to connect to. And there's also the conditions, which in the case of OAuth, this is the scopes. What specific action am I saying that this system is allowed to perform? All right, so this is what we think of in terms of traditional OAuth flows and context within that. The context is the who, the what, and what am I trying to do, what am allowed to do. So let's talk about this in terms of agentic systems. And again, let's start with a definition of what like agentic context then would be similar to what we did with traditional. So this, this is about really it's autonomous because we have agents that are interacting they're doing things on, you know, thinking performing tasks, figuring out stuff. It's also very dynamic. In other words, it's non-deterministic. To solve a task, an agent may do one thing one time and something completely different the next time, depending on what it is that they're being asked to do. It may talk to multiple systems, multiple agents. And it also does delegations. Has that as a model. With multiple apps. So this is what starts making context more complex when we think about it in terms of agentic systems. It's autonomous, it's self-thinking, it's dynamic, it's figuring out how that flow is gonna look. It's not just a single application with a resource figuring out what I need to do. It's delegation. It delegates on behalf of me. It delegates down a flow. And there could be multiple applications. So let's draw this out as well. So we may have something here, which we add, which is an orchestration. So we add orchestration in the middle of it. We may have another agent. There's agent one. We can have multiple agents. So, there's agent two. And we potentially bring in things like an MCP server. And all along this flow now, we're interacting dynamically with multiple things. We also bring in, we can have an LLM. And that LLM is helping the orchestration figure out where it needs to, what is our dynamic path, it's working with agents, you know, in multiple places, the LLM now is coming in to help this whole process think and work through how it's going to do that. So if we think of it in terms of who, you know, what and the conditions in an agentic system, so we have the who, it's the user, but now we have agents, and there could be multiple agents that we have to take into our context. There's also, when we start thinking about what resource we're going to be interacting with. Well, again, this is autonomous, so it could be thinking on its own, and it's a multi-system orchestration. So when we were talking about this more in a traditional sense, really. Again, it's one user, there's an application, it is a single logon, and they're connecting to a resource. When we're looking, and that's our context, who, what and what are we allowed to do? In the terms of agentic, now we have multiple systems. We have multiple agents. We have LLMs. We have all this stuff that now comes into play when we're thinking about what is the resource. And then finally, when we think about the conditions and then we're really starting to think about more of really fine-grained access. And it's very dynamic. We get back to thi non-deterministic behavior that we're seeing in agentic systems. So this really starts expanding out what we need to think of when we start thinking about context in an agentic system. Well, the first thing you kind of do, so let's kind of go to our model now and let's start thinking about this. First thing you really do when you're interacting with a system is you have a prompt. You're asking a task. I want to see the financial information for a particular region, for a particular piece of my business and bring that information back to me. So we start, and we look at this as a prompt. And of course, the prompt is linguistic, right? It's in our native tongue and language. The LLM understands it and understands how it's going to route and get through the system. Now, because it is a multi-system environment, we have to really then start looking at the situational context. And this is really, when we think situational context, this is our environment state. So we have to take into account, all right, what are all the components? When we looked at traditional, it was very limited, so it was simple. But now we have to think of, we have orchestration, we have multiple agents, we have MCP servers, we gotta have multiple of those. We have multiple resources that are all being used to bring this together. So we really have to think about the environment's state when we start thinking about context. And of course, when we think about, you know, we're connecting ultimately to a resource or a tool, you know, there's actually a resource context here as well, right? So we have to understand what the context of this is. Because we could have multiple. And so if there are multiple, we have understand. What are they? What do they provide? What are they capable of? So we take that into account. Same kind of thing happens on the other end of this. We need to really look then at the user context. Who is the user? Is it an employee? Are they coming in from home? Are they coming in from work? So that starts driving, okay, we have a person. He's an employee. He's at work, he's performing a user prompt that's work-related. We know these are all systems, which systems are we gonna talk to and what are the resources? So now the context is starting to spread out a little bit on us. The other thing we kind of need to think about when we're looking at this as well is, you know, we've brought an LLM into this. So we have, you know, some sort of a model context. What is the model? Which one are we using? What is it, you know, tuned for? And then we also, and this is going to be very important is we have task history. Because this starts playing into it. What did I ask before? Did I get the right response? And in an agentic system, we're trying to learn and improve how we're answering our prompts and our questions. So the history becomes very important as we start learning better. We need to, if you think of this in terms of context, not only is it, what are all the systems I'm looking at? Who is the user? What are we connecting to? But also, what's the history? How did we solve this in the past? Because that now plays into the context of, of what the resources are we want to connect to and what conditions are we going to allow. So this all starts playing into everything. Now, originally when we kind of started approaching agentic systems, we started thinking about this in terms of how to get the best answer back is we looked at it in terms of prompt engineering. So we really thought, well, how do I shape my prompt? How do I craft my prompt? How do I ask it? How do I refine it, so that I get the right answer back. And that certainly has come a long ways in getting good responses back, but that's not nearly enough. We, it doesn't tell us about everything that's happening and all the different interactions. We really have to think about a couple of things. We have to about the state of the system. This is the user, the resource, all the things that are going into it. And we have to really start bringing in memory. What's the history? What's background? What are we learning from? And this is actually where we're starting to lead into what we are calling context engineering. And we add this on top of our prompt engineering to get the right response. And we take all of these different variables and things into account that drives what the context is of the entire system and then ultimately says what the user is allowed to do, where is that information coming from, and how do I best shape and retrieve it to bring it back for the user. So the real takeaway from this whole conversation, the whole thing, is that agentic systems are more, are beyond what we think of in traditional context. And there's a lot of variables. We've walked through all the different things that make this up. What you really need to start thinking about now is context engineering. How am I going to look at the system, all the things that really establish context, and bring those to bear through your prompts and your questions so you get the right responses back for your agentic system?",
+  "fetchedAt": "2026-03-26T20:44:32.276Z"
+}

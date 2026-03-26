@@ -1,0 +1,34 @@
+videoId: sLkZJ6yKXgg
+title: AWS AI Practitioner Question 33
+description: >-
+  Solving Bedrock issues like excessive length, competitor mentions, and
+  hallucinations requires a targeted three-pronged strategy: Inference
+  Parameters, Guardrails, and RAG. While Fine-tuning is expensive and System
+  Prompts are often bypassed, setting the Max Tokens inference parameter at the
+  API level ensures strict length control.  
+
+  To block competitor names, Amazon Bedrock Guardrails provides a managed
+  filtering layer, while Retrieval-Augmented Generation (RAG) grounds the model
+  in your actual product data to eliminate hallucinations. This modular approach
+  delivers professional, fact-checked results far more reliably than simply
+  asking the model to 'behave' via a prompt.
+
+
+  #AWS #GenerativeAI #AmazonBedrock #RAG #AIPractitioner #CloudComputing
+  #TechTips #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M47S
+publishedAt: 2026-03-26T16:01:18Z
+thumbnailUrl: https://i.ytimg.com/vi/sLkZJ6yKXgg/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=sLkZJ6yKXgg
+processedAt: 2026-03-26T21:10:07.188Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2-20251201
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2343
+outputTokens: 829
+totalTokens: 3172
+processingTimeMs: 25491
