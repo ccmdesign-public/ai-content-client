@@ -92,7 +92,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: true,
-      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml']
+      routes: ['/']
     }
   },
   // Route rules for hybrid rendering (prerender shell, ISR for content, serverless API)
@@ -106,6 +106,10 @@ export default defineNuxtConfig({
     // Tag pages: on-demand SSR (each tag cross-references all summaries)
     '/tags': { isr: 3600 },
     '/tags/**': { isr: 3600 },
+    // Feeds and sitemap: on-demand SSR (query all summaries)
+    '/feed.xml': { isr: 3600 },
+    '/digest.xml': { isr: 3600 },
+    '/sitemap.xml': { isr: 3600 },
     // Everything else: prerender at build time
     '/**': { prerender: true },
     // Server routes remain as serverless functions (not prerendered)
