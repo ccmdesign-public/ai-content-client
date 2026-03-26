@@ -22,16 +22,16 @@ defineProps<{
 </script>
 
 <template>
-  <article v-if="summary?.metadata" class="flex border-t border-border gap-4 py-4 max-md:flex-col">
+  <article v-if="summary?.metadata" class="flex border-t border-border gap-4 py-4 md:flex-row flex-col">
     <img
       v-if="summary.metadata.thumbnailUrl"
       :src="summary.metadata.thumbnailUrl"
       :alt="`Thumbnail for ${summary.metadata.title}`"
-      class="max-w-60 shrink-0 aspect-video object-cover rounded-md max-md:max-w-full"
+      class="w-full md:w-60 shrink-0 aspect-video object-cover rounded-md"
       loading="lazy"
     />
     <div class="flex-1 min-w-0">
-      <div class="flex flex-wrap items-center gap-2 text-sm text-muted-foreground mb-2">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground mb-2">
         <NuxtLink
           :to="`/channels/${summary.metadata.channel}`"
           :prefetch-on="{ interaction: true, visibility: false }"
@@ -46,12 +46,12 @@ defineProps<{
           target="_blank"
           rel="noopener noreferrer"
           :aria-label="`Watch ${summary.metadata.title} on YouTube (opens in new tab)`"
-          class="ml-auto hover:text-foreground hover:underline motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+          class="md:ml-auto hover:text-foreground hover:underline motion-safe:transition-colors motion-safe:duration-150 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
         >
           Watch on YouTube
         </a>
       </div>
-      <h3 class="text-lg font-semibold mb-2">
+      <h3 class="text-base md:text-lg font-semibold mb-2">
         <NuxtLink
           :to="`/summaries/${summary.metadata.videoId}`"
           :prefetch="false"
@@ -65,7 +65,7 @@ defineProps<{
         v-if="summary.tldr"
         role="document"
         aria-label="Summary"
-        class="text-sm text-muted-foreground prose prose-sm prose-zinc dark:prose-invert max-w-none [&_ul]:list-disc [&_ul]:ml-4"
+        class="text-sm text-muted-foreground prose prose-sm prose-zinc dark:prose-invert max-w-none [&_ul]:list-disc [&_ul]:ml-4 line-clamp-4 md:line-clamp-none"
         v-html="sanitizeMarkdown(summary.tldr)"
       />
     </div>

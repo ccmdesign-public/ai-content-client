@@ -7,13 +7,6 @@
         <SidebarTrigger class="-ml-1" />
         <Separator orientation="vertical" class="mr-2 h-4" />
         <BreadcrumbWithSchema :items="breadcrumbItems" />
-        <div class="ml-auto flex items-center gap-2">
-          <SearchBar
-            v-model="searchQuery"
-            :is-ready="isSearchReady"
-            @expand="search?.init()"
-          />
-        </div>
       </header>
 
       <!-- Main Content -->
@@ -74,12 +67,5 @@ watch(() => route.meta.sidebar, (val) => {
 // Provide search composable to all pages via provide/inject
 const search = useSearch()
 provide('search', search)
-
-// Search integration for header
-const searchQuery = computed({
-  get: () => search?.query.value ?? '',
-  set: (val) => { if (search) search.query.value = val },
-})
-const isSearchReady = computed(() => search?.isReady.value ?? false)
 
 </script>

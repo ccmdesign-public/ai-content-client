@@ -77,11 +77,21 @@ export function useSummariesFilter(
     selectedCategory.value = categoryId
   }
 
+  // Unique video count per category (for accurate filter bar display)
+  const categoryCounts = computed<Map<string, number>>(() => {
+    const counts = new Map<string, number>()
+    for (const [catId, ids] of categoryVideoIdMap.value) {
+      counts.set(catId, ids.size)
+    }
+    return counts
+  })
+
   return {
     selectedCategory,
     filteredSummaries,
     filteredCount,
     totalCount,
+    categoryCounts,
     selectCategory
   }
 }

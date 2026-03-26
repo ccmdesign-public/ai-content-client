@@ -1,7 +1,7 @@
 import { useDebounceFn } from '@vueuse/core'
 import type { ToolWithStars } from '~/types/tools'
 
-export type SortOption = 'mentions' | 'alpha' | 'stars'
+export type ToolSortOption = 'mentions' | 'alpha' | 'stars'
 
 /**
  * Composable for the tools directory page.
@@ -20,7 +20,7 @@ export function useToolsDirectory() {
   const searchQuery = ref((route.query.q as string) || '')
 
   // Sort state from URL
-  const sortBy = ref<SortOption>((route.query.sort as SortOption) || 'mentions')
+  const sortBy = ref<ToolSortOption>((route.query.sort as ToolSortOption) || 'mentions')
 
   // Infinite scroll state
   const displayCount = ref(50)
@@ -97,7 +97,7 @@ export function useToolsDirectory() {
   /**
    * Update sort option and sync to URL
    */
-  function setSort(option: SortOption) {
+  function setSort(option: ToolSortOption) {
     sortBy.value = option
     resetDisplayCount()
   }

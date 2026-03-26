@@ -3,7 +3,8 @@ import { useSortedFeed } from '~/composables/useSortedFeed'
 import { useTagsConfig } from '~/composables/useTagsConfig'
 import { useSummariesFilter } from '~/composables/useSummariesFilter'
 import { useSummariesData } from '~/composables/useSummariesData'
-import { AlertCircle } from 'lucide-vue-next'
+import { AlertCircle, Search, X } from 'lucide-vue-next'
+import { Input } from '@/components/ui/input'
 import type { SearchResult } from '~/types/search'
 
 definePageMeta({
@@ -13,13 +14,28 @@ definePageMeta({
 const { data: summaries, pending, error, refresh, isRevalidating } = useSummariesData()
 const { tagsByCategory } = useTagsConfig()
 
+// Exclude overly broad categories from the filter bar
+const HIDDEN_CATEGORIES = new Set(['ai-ml', 'programming'])
+const filteredCategories = computed(() =>
+  tagsByCategory.value.filter(c => !HIDDEN_CATEGORIES.has(c.categoryId))
+)
+
 const {
   selectedCategory,
   filteredSummaries,
   filteredCount,
   totalCount,
+  categoryCounts,
   selectCategory
 } = useSummariesFilter(summaries, tagsByCategory)
+
+// Override tag-based totalItems with accurate unique video counts
+const categoriesWithAccurateCounts = computed(() =>
+  filteredCategories.value.map(c => ({
+    ...c,
+    totalItems: categoryCounts.value.get(c.categoryId) ?? c.totalItems
+  }))
+)
 
 // Sort the filtered results (with client-side pagination)
 const { feedSegments, currentSort, isDateSort, currentSortLabel, hasMore, visibleCount, totalCount: paginatedTotalCount, loadMore } = useSortedFeed(filteredSummaries, undefined, { pageSize: 25 })
@@ -35,10 +51,50 @@ const isSearchActive = computed(() => search?.isSearchActive.value ?? false)
 const isSearchReady = computed(() => search?.isReady.value ?? false)
 const searchError = computed(() => search?.error.value ?? null)
 
-// Init search index on first interaction (lazy)
-function onSearchExpand() {
+// Search input ref + keyboard shortcut
+const searchInputRef = ref<HTMLInputElement | null>(null)
+
+function onSearchFocus() {
   search?.init()
 }
+
+function clearSearch() {
+  searchQuery.value = ''
+  nextTick(() => searchInputRef.value?.focus())
+}
+
+function handleSearchKeydown(e: KeyboardEvent) {
+  if (e.key === 'Escape') {
+    if (searchQuery.value) {
+      searchQuery.value = ''
+    } else {
+      searchInputRef.value?.blur()
+    }
+  }
+}
+
+// Cmd+K / Ctrl+K global shortcut
+function onGlobalKeydown(e: KeyboardEvent) {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+    if (
+      e.target instanceof HTMLInputElement ||
+      e.target instanceof HTMLTextAreaElement
+    ) {
+      if (e.target !== searchInputRef.value) return
+    }
+    e.preventDefault()
+    searchInputRef.value?.focus()
+  }
+}
+
+const isMac = ref(false)
+onMounted(() => {
+  isMac.value = navigator.platform.toUpperCase().includes('MAC')
+  document.addEventListener('keydown', onGlobalKeydown)
+})
+onUnmounted(() => {
+  document.removeEventListener('keydown', onGlobalKeydown)
+})
 
 // Map search results to the shape SummaryCard expects
 const searchResultsAsSummaries = computed(() =>
@@ -68,7 +124,7 @@ const displayedCount = computed(() =>
     <!-- Category filter: hidden during search -->
     <CategoryFilterBar
       v-if="!isSearchActive"
-      :categories="tagsByCategory"
+      :categories="categoriesWithAccurateCounts"
       :selected-category="selectedCategory"
       :total-count="totalCount"
       @select="selectCategory"
@@ -88,13 +144,37 @@ const displayedCount = computed(() =>
             </template>
           </p>
         </div>
-        <div class="flex items-center gap-3.5">
-          <SearchBar
-            v-model="searchQuery"
-            v-model:result-count="displayedCount"
-            :is-ready="isSearchReady"
-            @expand="onSearchExpand"
-          />
+        <div class="flex items-center gap-3 flex-1 md:flex-none md:w-auto justify-end">
+          <div class="relative w-full max-w-sm">
+            <Search class="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground pointer-events-none" aria-hidden="true" />
+            <Input
+              ref="searchInputRef"
+              v-model="searchQuery"
+              type="search"
+              class="pl-9 pr-16 [&::-webkit-search-cancel-button]:hidden"
+              placeholder="Search summaries..."
+              aria-label="Search all content"
+              @focus="onSearchFocus"
+              @keydown="handleSearchKeydown"
+            />
+            <div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
+              <button
+                v-if="searchQuery"
+                class="flex items-center justify-center p-1 text-muted-foreground rounded-sm hover:bg-accent hover:text-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-1"
+                aria-label="Clear search"
+                @click="clearSearch"
+              >
+                <X class="size-3.5" aria-hidden="true" />
+              </button>
+              <kbd
+                v-else
+                class="hidden md:inline-flex items-center px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] text-muted-foreground leading-none font-sans"
+                aria-hidden="true"
+              >
+                {{ isMac ? '⌘' : 'Ctrl+' }}K
+              </kbd>
+            </div>
+          </div>
           <SortControl v-if="!isSearchActive" v-model="currentSort" />
         </div>
       </div>
@@ -112,6 +192,11 @@ const displayedCount = computed(() =>
       message="Failed to load summaries."
       @retry="refresh()"
     />
+
+    <!-- Search loading (index not yet ready) -->
+    <div v-else-if="isSearchActive && !isSearchReady && !searchError" aria-busy="true" aria-label="Loading search index">
+      <SummaryCardSkeleton v-for="n in 3" :key="n" />
+    </div>
 
     <!-- Search error fallback -->
     <div v-else-if="isSearchActive && searchError" class="text-center py-14 px-7 text-muted-foreground">

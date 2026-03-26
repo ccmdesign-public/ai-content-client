@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { SortOption } from '~/composables/useToolsDirectory'
+import type { ToolSortOption } from '~/composables/useToolsDirectory'
 
 const props = defineProps<{
-  sortBy: SortOption
+  sortBy: ToolSortOption
   hasStarsData: boolean
 }>()
 
 const emit = defineEmits<{
-  'update:sortBy': [value: SortOption]
+  'update:sortBy': [value: ToolSortOption]
 }>()
 
 const sortOptions = computed(() => {
@@ -23,7 +23,7 @@ const sortOptions = computed(() => {
 })
 
 function handleSortChange(value: string) {
-  emit('update:sortBy', value as SortOption)
+  emit('update:sortBy', value as ToolSortOption)
 }
 </script>
 

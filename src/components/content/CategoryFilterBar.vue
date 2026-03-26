@@ -43,12 +43,11 @@ function handleValueChange(val: string) {
 </script>
 
 <template>
-  <div ref="barRef" class="sticky top-0 z-20 bg-background border-b border-border">
-    <div class="relative">
+  <div ref="barRef" class="reel">
       <ToggleGroup
         type="single"
         :model-value="toggleValue"
-        class="flex gap-2.5 overflow-x-auto scrollbar-none px-4 py-2.5 scroll-snap-x"
+        class=""
         aria-label="Filter by category"
         @update:model-value="handleValueChange"
       >
@@ -76,6 +75,5 @@ function handleValueChange(val: string) {
 
       <!-- Fade edge indicator -->
       <div class="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-r from-transparent to-background pointer-events-none" />
-    </div>
   </div>
 </template>

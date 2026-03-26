@@ -35,7 +35,12 @@ export function useSearch() {
   if (nuxtApp) {
     const route = useRoute()
     const initialQ = (route.query.q as string) || ''
-    if (initialQ) query.value = initialQ
+    if (initialQ) {
+      query.value = initialQ
+      // Auto-init the index when a URL query is present so results load
+      // without requiring the user to click the search icon first.
+      if (import.meta.client) init()
+    }
   }
 
   /**
@@ -89,7 +94,9 @@ export function useSearch() {
 
   const debouncedSearch = debounce((q: string) => performSearch(q), 150)
 
-  // Watch query changes and debounce search
+  // Watch query changes and debounce search.
+  // Also auto-initialises the index if the user types before init() was called
+  // (e.g. URL pre-population, or typing before the expand event fires).
   watch(query, (q) => {
     if (!q.trim()) {
       // Clear immediately (no debounce) for better UX
@@ -97,6 +104,7 @@ export function useSearch() {
       results.value = []
       debouncedSearch.cancel()
     } else {
+      if (!miniSearch && !isReady.value) init()
       debouncedSearch(q)
     }
   })
