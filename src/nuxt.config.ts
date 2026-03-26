@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { existsSync, readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt/config'
@@ -7,21 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 const currentDir = dirname(fileURLToPath(import.meta.url))
 const projectRoot = resolve(currentDir, '..')
-
-// Generate tag prerender routes from tags-index.json
-const tagsIndexPath = resolve(currentDir, '..', 'src/content/tags-index.json')
-let tagRoutes: string[] = []
-try {
-  if (existsSync(tagsIndexPath)) {
-    const tagsIndex = JSON.parse(readFileSync(tagsIndexPath, 'utf-8'))
-    tagRoutes = [
-      '/tags',
-      ...tagsIndex.map((tag: { slug: string }) => `/tags/${tag.slug}`)
-    ]
-  }
-} catch {
-  // Graceful fallback: tags not synced yet, skip prerender routes
-}
 
 export default defineNuxtConfig({
   rootDir: projectRoot,
@@ -108,13 +92,20 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: true,
-      routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
+      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml']
     }
   },
   // Route rules for hybrid rendering (prerender shell, ISR for content, serverless API)
   routeRules: {
-    // Summary detail pages: on-demand SSR, cached at edge for 1 hour
+    // Summaries list + detail pages: on-demand SSR, cached at edge for 1 hour
+    // These pages query all 1,500+ summaries and OOM during prerender
+    '/summaries': { isr: 3600 },
     '/summaries/**': { isr: 3600 },
+    // Tools page: on-demand SSR (queries all summaries for tool extraction)
+    '/tools': { isr: 3600 },
+    // Tag pages: on-demand SSR (each tag cross-references all summaries)
+    '/tags': { isr: 3600 },
+    '/tags/**': { isr: 3600 },
     // Everything else: prerender at build time
     '/**': { prerender: true },
     // Server routes remain as serverless functions (not prerendered)
