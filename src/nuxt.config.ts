@@ -106,14 +106,16 @@ export default defineNuxtConfig({
     preset: 'netlify',
     // Prerender all content routes at build time
     prerender: {
-      crawlLinks: true,
+      crawlLinks: false,
       failOnError: true,
       routes: ['/', '/tools', '/feed.xml', '/digest.xml', '/sitemap.xml', '/summaries', ...tagRoutes]
     }
   },
-  // Route rules for hybrid rendering (prerender content, serverless API)
+  // Route rules for hybrid rendering (prerender shell, ISR for content, serverless API)
   routeRules: {
-    // Prerender all content pages at build time
+    // Summary detail pages: on-demand SSR, cached at edge for 1 hour
+    '/summaries/**': { isr: 3600 },
+    // Everything else: prerender at build time
     '/**': { prerender: true },
     // Server routes remain as serverless functions (not prerendered)
     '/api/**': { prerender: false },
