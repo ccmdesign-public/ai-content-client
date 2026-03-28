@@ -88,6 +88,12 @@ export default defineNuxtConfig({
   serverDir: resolve(currentDir, 'server'),
   nitro: {
     preset: 'vercel',
+    vercel: {
+      functions: {
+        // 16MB bundle with 1500+ content items needs cold-start headroom
+        maxDuration: 30,
+      },
+    },
     // Prerender all content routes at build time
     prerender: {
       crawlLinks: false,
