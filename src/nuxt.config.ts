@@ -87,7 +87,7 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'netlify',
+    preset: 'vercel',
     // Prerender all content routes at build time
     prerender: {
       crawlLinks: false,

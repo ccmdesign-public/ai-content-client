@@ -10,7 +10,7 @@ Guidance for AI agents working on the AI Content client -- a production YouTube/
 - **Content system:** `@nuxt/content` v3 with Zod-typed collections defined in `content.config.ts` (summaries, articles, newsletters, tags)
 - **UI:** shadcn-vue (new-york style, Lucide icons, zinc base) + Tailwind CSS v4
 - **State:** Pinia via `@pinia/nuxt`
-- **Deployment:** Netlify (`nitro.preset: 'netlify'`)
+- **Deployment:** Vercel (`nitro.preset: 'vercel'`)
 - **Auto-imports enabled:** Vue composables, Nuxt utilities, and shadcn-vue components are auto-imported. Do not add manual imports for these.
 
 ## Essential Commands
