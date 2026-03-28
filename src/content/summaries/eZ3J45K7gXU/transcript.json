@@ -1,0 +1,1719 @@
+{
+  "videoId": "eZ3J45K7gXU",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 2.3890000000000002,
+      "duration": 0.009999999999999787,
+      "text": "If you're using Copilot right now, your"
+    },
+    {
+      "start": 2.399,
+      "duration": 1.5099999999999998,
+      "text": "If you're using Copilot right now, your code might already be training someone"
+    },
+    {
+      "start": 3.909,
+      "duration": 0.010000000000000231,
+      "text": "code might already be training someone"
+    },
+    {
+      "start": 3.919,
+      "duration": 2.39,
+      "text": "code might already be training someone else's model. You install Copilot, it"
+    },
+    {
+      "start": 6.309,
+      "duration": 0.009999999999999787,
+      "text": "else's model. You install Copilot, it"
+    },
+    {
+      "start": 6.319,
+      "duration": 1.6710000000000003,
+      "text": "else's model. You install Copilot, it works great, and you move on. But parts"
+    },
+    {
+      "start": 7.99,
+      "duration": 0.009999999999999787,
+      "text": "works great, and you move on. But parts"
+    },
+    {
+      "start": 8,
+      "duration": 1.83,
+      "text": "works great, and you move on. But parts of your codebase can actually leave your"
+    },
+    {
+      "start": 9.83,
+      "duration": 0.009999999999999787,
+      "text": "of your codebase can actually leave your"
+    },
+    {
+      "start": 9.84,
+      "duration": 2.8689999999999998,
+      "text": "of your codebase can actually leave your machine. That can be a problem. This is"
+    },
+    {
+      "start": 12.709,
+      "duration": 0.009999999999999787,
+      "text": "machine. That can be a problem. This is"
+    },
+    {
+      "start": 12.719,
+      "duration": 2.391,
+      "text": "machine. That can be a problem. This is Tabby, an open- source alternative to"
+    },
+    {
+      "start": 15.11,
+      "duration": 0.009999999999999787,
+      "text": "Tabby, an open- source alternative to"
+    },
+    {
+      "start": 15.12,
+      "duration": 1.9090000000000007,
+      "text": "Tabby, an open- source alternative to this that gives us the highest level of"
+    },
+    {
+      "start": 17.029,
+      "duration": 0.010000000000001563,
+      "text": "this that gives us the highest level of"
+    },
+    {
+      "start": 17.039,
+      "duration": 2.0700000000000003,
+      "text": "this that gives us the highest level of privacy compared to things like Copilot,"
+    },
+    {
+      "start": 19.109,
+      "duration": 0.00999999999999801,
+      "text": "privacy compared to things like Copilot,"
+    },
+    {
+      "start": 19.119,
+      "duration": 2.2300000000000004,
+      "text": "privacy compared to things like Copilot, Tab 9, and Cursor. We can get the same"
+    },
+    {
+      "start": 21.349,
+      "duration": 0.010000000000001563,
+      "text": "Tab 9, and Cursor. We can get the same"
+    },
+    {
+      "start": 21.359,
+      "duration": 2.1499999999999986,
+      "text": "Tab 9, and Cursor. We can get the same speed, same autocomplete, same workflow"
+    },
+    {
+      "start": 23.509,
+      "duration": 0.00999999999999801,
+      "text": "speed, same autocomplete, same workflow"
+    },
+    {
+      "start": 23.519,
+      "duration": 2.471,
+      "text": "speed, same autocomplete, same workflow in our code, never leaves our machine."
+    },
+    {
+      "start": 25.99,
+      "duration": 0.010000000000001563,
+      "text": "in our code, never leaves our machine."
+    },
+    {
+      "start": 26,
+      "duration": 1.8299999999999983,
+      "text": "in our code, never leaves our machine. That's basically Tabby. I'll show you"
+    },
+    {
+      "start": 27.83,
+      "duration": 0.010000000000001563,
+      "text": "That's basically Tabby. I'll show you"
+    },
+    {
+      "start": 27.84,
+      "duration": 1.5090000000000003,
+      "text": "That's basically Tabby. I'll show you how to set it up and how to get it"
+    },
+    {
+      "start": 29.349,
+      "duration": 0.010000000000001563,
+      "text": "how to set it up and how to get it"
+    },
+    {
+      "start": 29.359,
+      "duration": 6.790999999999997,
+      "text": "how to set it up and how to get it working in the next few minutes."
+    },
+    {
+      "start": 38.15,
+      "duration": 0.00999999999999801,
+      "text": "Now, at a simple level, Tabby is a"
+    },
+    {
+      "start": 38.16,
+      "duration": 2.709000000000003,
+      "text": "Now, at a simple level, Tabby is a self-hosted AI coding server. You run it"
+    },
+    {
+      "start": 40.869,
+      "duration": 0.00999999999999801,
+      "text": "self-hosted AI coding server. You run it"
+    },
+    {
+      "start": 40.879,
+      "duration": 1.9110000000000014,
+      "text": "self-hosted AI coding server. You run it locally, usually with Docker. You pick"
+    },
+    {
+      "start": 42.79,
+      "duration": 0.00999999999999801,
+      "text": "locally, usually with Docker. You pick"
+    },
+    {
+      "start": 42.8,
+      "duration": 1.5100000000000051,
+      "text": "locally, usually with Docker. You pick the model you want, and then you connect"
+    },
+    {
+      "start": 44.31,
+      "duration": 0.00999999999999801,
+      "text": "the model you want, and then you connect"
+    },
+    {
+      "start": 44.32,
+      "duration": 2.389000000000003,
+      "text": "the model you want, and then you connect it to your IDE. That's it. You get"
+    },
+    {
+      "start": 46.709,
+      "duration": 0.00999999999999801,
+      "text": "it to your IDE. That's it. You get"
+    },
+    {
+      "start": 46.719,
+      "duration": 2.1499999999999986,
+      "text": "it to your IDE. That's it. You get real-time code completions and codebase"
+    },
+    {
+      "start": 48.869,
+      "duration": 0.00999999999999801,
+      "text": "real-time code completions and codebase"
+    },
+    {
+      "start": 48.879,
+      "duration": 2.2310000000000016,
+      "text": "real-time code completions and codebase aware chat, just like you'd expect. But"
+    },
+    {
+      "start": 51.11,
+      "duration": 0.00999999999999801,
+      "text": "aware chat, just like you'd expect. But"
+    },
+    {
+      "start": 51.12,
+      "duration": 2.1500000000000057,
+      "text": "aware chat, just like you'd expect. But the real reason devs care isn't just the"
+    },
+    {
+      "start": 53.27,
+      "duration": 0.00999999999999801,
+      "text": "the real reason devs care isn't just the"
+    },
+    {
+      "start": 53.28,
+      "duration": 2.6299999999999955,
+      "text": "the real reason devs care isn't just the features, it's the control we get. Your"
+    },
+    {
+      "start": 55.91,
+      "duration": 0.010000000000005116,
+      "text": "features, it's the control we get. Your"
+    },
+    {
+      "start": 55.92,
+      "duration": 2.0700000000000003,
+      "text": "features, it's the control we get. Your code stays inside your network without"
+    },
+    {
+      "start": 57.99,
+      "duration": 0.00999999999999801,
+      "text": "code stays inside your network without"
+    },
+    {
+      "start": 58,
+      "duration": 2.3100000000000023,
+      "text": "code stays inside your network without any subscriptions, and it works fully"
+    },
+    {
+      "start": 60.31,
+      "duration": 0.00999999999999801,
+      "text": "any subscriptions, and it works fully"
+    },
+    {
+      "start": 60.32,
+      "duration": 1.908999999999999,
+      "text": "any subscriptions, and it works fully offline. It's built for teams with"
+    },
+    {
+      "start": 62.229,
+      "duration": 0.00999999999999801,
+      "text": "offline. It's built for teams with"
+    },
+    {
+      "start": 62.239,
+      "duration": 2.7110000000000056,
+      "text": "offline. It's built for teams with things like SSO, RBAC, and audit logs."
+    },
+    {
+      "start": 64.95,
+      "duration": 0.009999999999990905,
+      "text": "things like SSO, RBAC, and audit logs."
+    },
+    {
+      "start": 64.96,
+      "duration": 1.5900000000000034,
+      "text": "things like SSO, RBAC, and audit logs. And it's been blowing up on GitHub with"
+    },
+    {
+      "start": 66.55,
+      "duration": 0.010000000000005116,
+      "text": "And it's been blowing up on GitHub with"
+    },
+    {
+      "start": 66.56,
+      "duration": 2.8689999999999998,
+      "text": "And it's been blowing up on GitHub with over 33,000 stars for a good reason."
+    },
+    {
+      "start": 69.429,
+      "duration": 0.009999999999990905,
+      "text": "over 33,000 stars for a good reason."
+    },
+    {
+      "start": 69.439,
+      "duration": 1.831000000000003,
+      "text": "over 33,000 stars for a good reason. Honestly though, none of these matter if"
+    },
+    {
+      "start": 71.27,
+      "duration": 0.010000000000005116,
+      "text": "Honestly though, none of these matter if"
+    },
+    {
+      "start": 71.28,
+      "duration": 1.9899999999999949,
+      "text": "Honestly though, none of these matter if it feels bad to use. So, let's skip all"
+    },
+    {
+      "start": 73.27,
+      "duration": 0.010000000000005116,
+      "text": "it feels bad to use. So, let's skip all"
+    },
+    {
+      "start": 73.28,
+      "duration": 1.5090000000000003,
+      "text": "it feels bad to use. So, let's skip all this stuff and just jump straight into"
+    },
+    {
+      "start": 74.789,
+      "duration": 0.010000000000005116,
+      "text": "this stuff and just jump straight into"
+    },
+    {
+      "start": 74.799,
+      "duration": 1.7509999999999906,
+      "text": "this stuff and just jump straight into the demo. If you enjoy these types of"
+    },
+    {
+      "start": 76.55,
+      "duration": 0.010000000000005116,
+      "text": "the demo. If you enjoy these types of"
+    },
+    {
+      "start": 76.56,
+      "duration": 1.9899999999999949,
+      "text": "the demo. If you enjoy these types of tools to speed up your workflow, be sure"
+    },
+    {
+      "start": 78.55,
+      "duration": 0.010000000000005116,
+      "text": "tools to speed up your workflow, be sure"
+    },
+    {
+      "start": 78.56,
+      "duration": 1.9089999999999918,
+      "text": "tools to speed up your workflow, be sure to subscribe to the channel. We have"
+    },
+    {
+      "start": 80.469,
+      "duration": 0.010000000000005116,
+      "text": "to subscribe to the channel. We have"
+    },
+    {
+      "start": 80.479,
+      "duration": 2.1509999999999962,
+      "text": "to subscribe to the channel. We have videos coming out all the time. Here's"
+    },
+    {
+      "start": 82.63,
+      "duration": 0.010000000000005116,
+      "text": "videos coming out all the time. Here's"
+    },
+    {
+      "start": 82.64,
+      "duration": 2.149000000000001,
+      "text": "videos coming out all the time. Here's what the setup actually looks like. You"
+    },
+    {
+      "start": 84.789,
+      "duration": 0.010000000000005116,
+      "text": "what the setup actually looks like. You"
+    },
+    {
+      "start": 84.799,
+      "duration": 2.390999999999991,
+      "text": "what the setup actually looks like. You run one docker command and tabby is up"
+    },
+    {
+      "start": 87.19,
+      "duration": 0.010000000000005116,
+      "text": "run one docker command and tabby is up"
+    },
+    {
+      "start": 87.2,
+      "duration": 2.3100000000000023,
+      "text": "run one docker command and tabby is up and running locally. Then you install"
+    },
+    {
+      "start": 89.51,
+      "duration": 0.009999999999990905,
+      "text": "and running locally. Then you install"
+    },
+    {
+      "start": 89.52,
+      "duration": 2.629000000000005,
+      "text": "and running locally. Then you install the VS Code extension, point it to your"
+    },
+    {
+      "start": 92.149,
+      "duration": 0.010000000000005116,
+      "text": "the VS Code extension, point it to your"
+    },
+    {
+      "start": 92.159,
+      "duration": 2.790999999999997,
+      "text": "the VS Code extension, point it to your local server and you're done. Now you're"
+    },
+    {
+      "start": 94.95,
+      "duration": 0.009999999999990905,
+      "text": "local server and you're done. Now you're"
+    },
+    {
+      "start": 94.96,
+      "duration": 1.990000000000009,
+      "text": "local server and you're done. Now you're getting multi-line completions right"
+    },
+    {
+      "start": 96.95,
+      "duration": 0.009999999999990905,
+      "text": "getting multi-line completions right"
+    },
+    {
+      "start": 96.96,
+      "duration": 2.7890000000000015,
+      "text": "getting multi-line completions right inside your repo. So here in tabby I can"
+    },
+    {
+      "start": 99.749,
+      "duration": 0.010000000000005116,
+      "text": "inside your repo. So here in tabby I can"
+    },
+    {
+      "start": 99.759,
+      "duration": 1.9899999999999949,
+      "text": "inside your repo. So here in tabby I can open up to check out the models that I'm"
+    },
+    {
+      "start": 101.749,
+      "duration": 0.010000000000005116,
+      "text": "open up to check out the models that I'm"
+    },
+    {
+      "start": 101.759,
+      "duration": 1.4309999999999974,
+      "text": "open up to check out the models that I'm using and you can see here that these"
+    },
+    {
+      "start": 103.19,
+      "duration": 0.010000000000005116,
+      "text": "using and you can see here that these"
+    },
+    {
+      "start": 103.2,
+      "duration": 1.2689999999999912,
+      "text": "using and you can see here that these are the three that we're using and"
+    },
+    {
+      "start": 104.469,
+      "duration": 0.010000000000005116,
+      "text": "are the three that we're using and"
+    },
+    {
+      "start": 104.479,
+      "duration": 2.070999999999998,
+      "text": "are the three that we're using and they're running locally. No cloud or"
+    },
+    {
+      "start": 106.55,
+      "duration": 0.010000000000005116,
+      "text": "they're running locally. No cloud or"
+    },
+    {
+      "start": 106.56,
+      "duration": 2.3900000000000006,
+      "text": "they're running locally. No cloud or open AI where your data is going. Over"
+    },
+    {
+      "start": 108.95,
+      "duration": 0.009999999999990905,
+      "text": "open AI where your data is going. Over"
+    },
+    {
+      "start": 108.96,
+      "duration": 1.8290000000000077,
+      "text": "open AI where your data is going. Over in VS Code, I can start with a rough"
+    },
+    {
+      "start": 110.789,
+      "duration": 0.010000000000005116,
+      "text": "in VS Code, I can start with a rough"
+    },
+    {
+      "start": 110.799,
+      "duration": 1.9109999999999872,
+      "text": "in VS Code, I can start with a rough function and just with the tab button,"
+    },
+    {
+      "start": 112.71,
+      "duration": 0.010000000000005116,
+      "text": "function and just with the tab button,"
+    },
+    {
+      "start": 112.72,
+      "duration": 2.549999999999997,
+      "text": "function and just with the tab button, Tabby will autocomplete this for me. I"
+    },
+    {
+      "start": 115.27,
+      "duration": 0.010000000000005116,
+      "text": "Tabby will autocomplete this for me. I"
+    },
+    {
+      "start": 115.28,
+      "duration": 2.149000000000001,
+      "text": "Tabby will autocomplete this for me. I can push it a bit by chatting with it on"
+    },
+    {
+      "start": 117.429,
+      "duration": 0.009999999999990905,
+      "text": "can push it a bit by chatting with it on"
+    },
+    {
+      "start": 117.439,
+      "duration": 2.3910000000000053,
+      "text": "can push it a bit by chatting with it on the side to optimize and expand on my"
+    },
+    {
+      "start": 119.83,
+      "duration": 0.010000000000005116,
+      "text": "the side to optimize and expand on my"
+    },
+    {
+      "start": 119.84,
+      "duration": 2.1499999999999915,
+      "text": "the side to optimize and expand on my current code as well. It's all pretty"
+    },
+    {
+      "start": 121.99,
+      "duration": 0.010000000000005116,
+      "text": "current code as well. It's all pretty"
+    },
+    {
+      "start": 122,
+      "duration": 1.9099999999999966,
+      "text": "current code as well. It's all pretty simple and straightforward. I [snorts]"
+    },
+    {
+      "start": 123.91,
+      "duration": 0.010000000000005116,
+      "text": "simple and straightforward. I [snorts]"
+    },
+    {
+      "start": 123.92,
+      "duration": 1.5090000000000003,
+      "text": "simple and straightforward. I [snorts] can highlight some code and ask it to"
+    },
+    {
+      "start": 125.429,
+      "duration": 0.009999999999990905,
+      "text": "can highlight some code and ask it to"
+    },
+    {
+      "start": 125.439,
+      "duration": 2.3100000000000023,
+      "text": "can highlight some code and ask it to refactor for performance or add tests."
+    },
+    {
+      "start": 127.749,
+      "duration": 0.010000000000005116,
+      "text": "refactor for performance or add tests."
+    },
+    {
+      "start": 127.759,
+      "duration": 1.9899999999999949,
+      "text": "refactor for performance or add tests. It responds instantly and it understands"
+    },
+    {
+      "start": 129.749,
+      "duration": 0.009999999999990905,
+      "text": "It responds instantly and it understands"
+    },
+    {
+      "start": 129.759,
+      "duration": 1.9910000000000139,
+      "text": "It responds instantly and it understands your repo context, not just a single"
+    },
+    {
+      "start": 131.75,
+      "duration": 0.009999999999990905,
+      "text": "your repo context, not just a single"
+    },
+    {
+      "start": 131.76,
+      "duration": 2.4690000000000225,
+      "text": "your repo context, not just a single file. I can even drop in a comment of"
+    },
+    {
+      "start": 134.229,
+      "duration": 0.009999999999990905,
+      "text": "file. I can even drop in a comment of"
+    },
+    {
+      "start": 134.239,
+      "duration": 1.9110000000000014,
+      "text": "file. I can even drop in a comment of something I want built. And you can see"
+    },
+    {
+      "start": 136.15,
+      "duration": 0.009999999999990905,
+      "text": "something I want built. And you can see"
+    },
+    {
+      "start": 136.16,
+      "duration": 1.509999999999991,
+      "text": "something I want built. And you can see it picks up right here and actually"
+    },
+    {
+      "start": 137.67,
+      "duration": 0.010000000000019327,
+      "text": "it picks up right here and actually"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.2299999999999898,
+      "text": "it picks up right here and actually builds it out for me. Now over in local"
+    },
+    {
+      "start": 139.91,
+      "duration": 0.009999999999990905,
+      "text": "builds it out for me. Now over in local"
+    },
+    {
+      "start": 139.92,
+      "duration": 1.6690000000000111,
+      "text": "builds it out for me. Now over in local host, Tabby is still connected to"
+    },
+    {
+      "start": 141.589,
+      "duration": 0.009999999999990905,
+      "text": "host, Tabby is still connected to"
+    },
+    {
+      "start": 141.599,
+      "duration": 2.3910000000000196,
+      "text": "host, Tabby is still connected to everything in VS Code. So I can read my"
+    },
+    {
+      "start": 143.99,
+      "duration": 0.009999999999990905,
+      "text": "everything in VS Code. So I can read my"
+    },
+    {
+      "start": 144,
+      "duration": 2.069999999999993,
+      "text": "everything in VS Code. So I can read my code chats, even expand on it and follow"
+    },
+    {
+      "start": 146.07,
+      "duration": 0.010000000000019327,
+      "text": "code chats, even expand on it and follow"
+    },
+    {
+      "start": 146.08,
+      "duration": 2.309999999999974,
+      "text": "code chats, even expand on it and follow up and ask questions. This is all saved"
+    },
+    {
+      "start": 148.39,
+      "duration": 0.010000000000019327,
+      "text": "up and ask questions. This is all saved"
+    },
+    {
+      "start": 148.4,
+      "duration": 2.9499999999999886,
+      "text": "up and ask questions. This is all saved right here in local host. No cloud, no"
+    },
+    {
+      "start": 151.35,
+      "duration": 0.010000000000019327,
+      "text": "right here in local host. No cloud, no"
+    },
+    {
+      "start": 151.36,
+      "duration": 1.6699999999999875,
+      "text": "right here in local host. No cloud, no data leaving your machine. And it feels"
+    },
+    {
+      "start": 153.03,
+      "duration": 0.009999999999990905,
+      "text": "data leaving your machine. And it feels"
+    },
+    {
+      "start": 153.04,
+      "duration": 2.390000000000015,
+      "text": "data leaving your machine. And it feels very similar to Copilot except now this"
+    },
+    {
+      "start": 155.43,
+      "duration": 0.009999999999990905,
+      "text": "very similar to Copilot except now this"
+    },
+    {
+      "start": 155.44,
+      "duration": 1.9099999999999966,
+      "text": "very similar to Copilot except now this is a big except we actually own"
+    },
+    {
+      "start": 157.35,
+      "duration": 0.010000000000019327,
+      "text": "is a big except we actually own"
+    },
+    {
+      "start": 157.36,
+      "duration": 1.9099999999999966,
+      "text": "is a big except we actually own everything. All right, I kept the demo"
+    },
+    {
+      "start": 159.27,
+      "duration": 0.009999999999990905,
+      "text": "everything. All right, I kept the demo"
+    },
+    {
+      "start": 159.28,
+      "duration": 1.990000000000009,
+      "text": "everything. All right, I kept the demo quick cuz honestly it was just that"
+    },
+    {
+      "start": 161.27,
+      "duration": 0.009999999999990905,
+      "text": "quick cuz honestly it was just that"
+    },
+    {
+      "start": 161.28,
+      "duration": 1.990000000000009,
+      "text": "quick cuz honestly it was just that simple to fire up and get going. Now,"
+    },
+    {
+      "start": 163.27,
+      "duration": 0.009999999999990905,
+      "text": "simple to fire up and get going. Now,"
+    },
+    {
+      "start": 163.28,
+      "duration": 1.4300000000000068,
+      "text": "simple to fire up and get going. Now, let's talk about why this actually"
+    },
+    {
+      "start": 164.71,
+      "duration": 0.009999999999990905,
+      "text": "let's talk about why this actually"
+    },
+    {
+      "start": 164.72,
+      "duration": 2.6299999999999955,
+      "text": "let's talk about why this actually matters in our real world workflow. Now,"
+    },
+    {
+      "start": 167.35,
+      "duration": 0.010000000000019327,
+      "text": "matters in our real world workflow. Now,"
+    },
+    {
+      "start": 167.36,
+      "duration": 2.549999999999983,
+      "text": "matters in our real world workflow. Now, the real issue with cloud AI tools isn't"
+    },
+    {
+      "start": 169.91,
+      "duration": 0.009999999999990905,
+      "text": "the real issue with cloud AI tools isn't"
+    },
+    {
+      "start": 169.92,
+      "duration": 1.75,
+      "text": "the real issue with cloud AI tools isn't that they're bad. It's that the"
+    },
+    {
+      "start": 171.67,
+      "duration": 0.010000000000019327,
+      "text": "that they're bad. It's that the"
+    },
+    {
+      "start": 171.68,
+      "duration": 1.9899999999999807,
+      "text": "that they're bad. It's that the trade-off that we get is hidden, right?"
+    },
+    {
+      "start": 173.67,
+      "duration": 0.010000000000019327,
+      "text": "trade-off that we get is hidden, right?"
+    },
+    {
+      "start": 173.68,
+      "duration": 2.789999999999992,
+      "text": "trade-off that we get is hidden, right? With cloud tools, your code may be used"
+    },
+    {
+      "start": 176.47,
+      "duration": 0.009999999999990905,
+      "text": "With cloud tools, your code may be used"
+    },
+    {
+      "start": 176.48,
+      "duration": 2.38900000000001,
+      "text": "With cloud tools, your code may be used to train their models. With Tabby, your"
+    },
+    {
+      "start": 178.869,
+      "duration": 0.009999999999990905,
+      "text": "to train their models. With Tabby, your"
+    },
+    {
+      "start": 178.879,
+      "duration": 2.1510000000000105,
+      "text": "to train their models. With Tabby, your code never leaves your own network."
+    },
+    {
+      "start": 181.03,
+      "duration": 0.009999999999990905,
+      "text": "code never leaves your own network."
+    },
+    {
+      "start": 181.04,
+      "duration": 1.9090000000000202,
+      "text": "code never leaves your own network. Right? Cloud tools, you're paying per"
+    },
+    {
+      "start": 182.949,
+      "duration": 0.009999999999990905,
+      "text": "Right? Cloud tools, you're paying per"
+    },
+    {
+      "start": 182.959,
+      "duration": 2.390999999999991,
+      "text": "Right? Cloud tools, you're paying per developer every month cuz it's free"
+    },
+    {
+      "start": 185.35,
+      "duration": 0.010000000000019327,
+      "text": "developer every month cuz it's free"
+    },
+    {
+      "start": 185.36,
+      "duration": 2.1489999999999725,
+      "text": "developer every month cuz it's free forever. Um, well, it's not, right?"
+    },
+    {
+      "start": 187.509,
+      "duration": 0.010000000000019327,
+      "text": "forever. Um, well, it's not, right?"
+    },
+    {
+      "start": 187.519,
+      "duration": 1.9110000000000014,
+      "text": "forever. Um, well, it's not, right? We're paying for it. That's what we get."
+    },
+    {
+      "start": 189.43,
+      "duration": 0.009999999999990905,
+      "text": "We're paying for it. That's what we get."
+    },
+    {
+      "start": 189.44,
+      "duration": 1.8300000000000125,
+      "text": "We're paying for it. That's what we get. Um, and with cloud tools, we also need"
+    },
+    {
+      "start": 191.27,
+      "duration": 0.009999999999990905,
+      "text": "Um, and with cloud tools, we also need"
+    },
+    {
+      "start": 191.28,
+      "duration": 1.8300000000000125,
+      "text": "Um, and with cloud tools, we also need the internet. With Tabby, I'm not paying"
+    },
+    {
+      "start": 193.11,
+      "duration": 0.009999999999990905,
+      "text": "the internet. With Tabby, I'm not paying"
+    },
+    {
+      "start": 193.12,
+      "duration": 2.3100000000000023,
+      "text": "the internet. With Tabby, I'm not paying for it. It's running offline. And this"
+    },
+    {
+      "start": 195.43,
+      "duration": 0.009999999999990905,
+      "text": "for it. It's running offline. And this"
+    },
+    {
+      "start": 195.44,
+      "duration": 2.5500000000000114,
+      "text": "for it. It's running offline. And this shows up in real work. So really, we get"
+    },
+    {
+      "start": 197.99,
+      "duration": 0.009999999999990905,
+      "text": "shows up in real work. So really, we get"
+    },
+    {
+      "start": 198,
+      "duration": 2.3089999999999975,
+      "text": "shows up in real work. So really, we get less boilerplate. We can refactor messy"
+    },
+    {
+      "start": 200.309,
+      "duration": 0.009999999999990905,
+      "text": "less boilerplate. We can refactor messy"
+    },
+    {
+      "start": 200.319,
+      "duration": 2.3910000000000196,
+      "text": "less boilerplate. We can refactor messy legacy code with less hesitation. We can"
+    },
+    {
+      "start": 202.71,
+      "duration": 0.009999999999990905,
+      "text": "legacy code with less hesitation. We can"
+    },
+    {
+      "start": 202.72,
+      "duration": 2.069999999999993,
+      "text": "legacy code with less hesitation. We can learn frameworks quicker, generate tests"
+    },
+    {
+      "start": 204.79,
+      "duration": 0.010000000000019327,
+      "text": "learn frameworks quicker, generate tests"
+    },
+    {
+      "start": 204.8,
+      "duration": 1.75,
+      "text": "learn frameworks quicker, generate tests and docs without jumping between all"
+    },
+    {
+      "start": 206.55,
+      "duration": 0.009999999999990905,
+      "text": "and docs without jumping between all"
+    },
+    {
+      "start": 206.56,
+      "duration": 2.1500000000000057,
+      "text": "and docs without jumping between all these tools. So really, this is less"
+    },
+    {
+      "start": 208.71,
+      "duration": 0.009999999999990905,
+      "text": "these tools. So really, this is less"
+    },
+    {
+      "start": 208.72,
+      "duration": 2.8689999999999998,
+      "text": "these tools. So really, this is less wasted time, hopefully less risk, and a"
+    },
+    {
+      "start": 211.589,
+      "duration": 0.009999999999990905,
+      "text": "wasted time, hopefully less risk, and a"
+    },
+    {
+      "start": 211.599,
+      "duration": 2.311000000000007,
+      "text": "wasted time, hopefully less risk, and a lot more control over how we work."
+    },
+    {
+      "start": 213.91,
+      "duration": 0.009999999999990905,
+      "text": "lot more control over how we work."
+    },
+    {
+      "start": 213.92,
+      "duration": 2.309000000000026,
+      "text": "lot more control over how we work. That's why a lot of privacy focused devs"
+    },
+    {
+      "start": 216.229,
+      "duration": 0.009999999999990905,
+      "text": "That's why a lot of privacy focused devs"
+    },
+    {
+      "start": 216.239,
+      "duration": 2.069999999999993,
+      "text": "That's why a lot of privacy focused devs or teams are starting to move away from"
+    },
+    {
+      "start": 218.309,
+      "duration": 0.009999999999990905,
+      "text": "or teams are starting to move away from"
+    },
+    {
+      "start": 218.319,
+      "duration": 1.990000000000009,
+      "text": "or teams are starting to move away from these cloud first tools into tools like"
+    },
+    {
+      "start": 220.309,
+      "duration": 0.009999999999990905,
+      "text": "these cloud first tools into tools like"
+    },
+    {
+      "start": 220.319,
+      "duration": 2.1510000000000105,
+      "text": "these cloud first tools into tools like this. Now, let's compare it to other"
+    },
+    {
+      "start": 222.47,
+      "duration": 0.009999999999990905,
+      "text": "this. Now, let's compare it to other"
+    },
+    {
+      "start": 222.48,
+      "duration": 1.7490000000000236,
+      "text": "this. Now, let's compare it to other options because that's really what you"
+    },
+    {
+      "start": 224.229,
+      "duration": 0.009999999999990905,
+      "text": "options because that's really what you"
+    },
+    {
+      "start": 224.239,
+      "duration": 1.990000000000009,
+      "text": "options because that's really what you guys want to hear, right? Co-pilot is"
+    },
+    {
+      "start": 226.229,
+      "duration": 0.009999999999990905,
+      "text": "guys want to hear, right? Co-pilot is"
+    },
+    {
+      "start": 226.239,
+      "duration": 2.2309999999999945,
+      "text": "guys want to hear, right? Co-pilot is the easiest. It's great quality, almost"
+    },
+    {
+      "start": 228.47,
+      "duration": 0.009999999999990905,
+      "text": "the easiest. It's great quality, almost"
+    },
+    {
+      "start": 228.48,
+      "duration": 2.38900000000001,
+      "text": "the easiest. It's great quality, almost no setup, but it does live in the cloud."
+    },
+    {
+      "start": 230.869,
+      "duration": 0.009999999999990905,
+      "text": "no setup, but it does live in the cloud."
+    },
+    {
+      "start": 230.879,
+      "duration": 2.311000000000007,
+      "text": "no setup, but it does live in the cloud. We have continued dev. It's flexible."
+    },
+    {
+      "start": 233.19,
+      "duration": 0.009999999999990905,
+      "text": "We have continued dev. It's flexible."
+    },
+    {
+      "start": 233.2,
+      "duration": 2.0700000000000216,
+      "text": "We have continued dev. It's flexible. It's local first, but it's more of a"
+    },
+    {
+      "start": 235.27,
+      "duration": 0.009999999999990905,
+      "text": "It's local first, but it's more of a"
+    },
+    {
+      "start": 235.28,
+      "duration": 2.228999999999985,
+      "text": "It's local first, but it's more of a power user tool. Tab 9 is more"
+    },
+    {
+      "start": 237.509,
+      "duration": 0.010000000000019327,
+      "text": "power user tool. Tab 9 is more"
+    },
+    {
+      "start": 237.519,
+      "duration": 2.069999999999993,
+      "text": "power user tool. Tab 9 is more enterprise focused. And then obviously"
+    },
+    {
+      "start": 239.589,
+      "duration": 0.009999999999990905,
+      "text": "enterprise focused. And then obviously"
+    },
+    {
+      "start": 239.599,
+      "duration": 1.8300000000000125,
+      "text": "enterprise focused. And then obviously now I'm here talking about Tabby, which"
+    },
+    {
+      "start": 241.429,
+      "duration": 0.009999999999990905,
+      "text": "now I'm here talking about Tabby, which"
+    },
+    {
+      "start": 241.439,
+      "duration": 2.4710000000000036,
+      "text": "now I'm here talking about Tabby, which is self-hosted, it's free, a lot higher"
+    },
+    {
+      "start": 243.91,
+      "duration": 0.009999999999990905,
+      "text": "is self-hosted, it's free, a lot higher"
+    },
+    {
+      "start": 243.92,
+      "duration": 2.1500000000000057,
+      "text": "is self-hosted, it's free, a lot higher privacy, and it is built for teams. But"
+    },
+    {
+      "start": 246.07,
+      "duration": 0.010000000000019327,
+      "text": "privacy, and it is built for teams. But"
+    },
+    {
+      "start": 246.08,
+      "duration": 2.228999999999985,
+      "text": "privacy, and it is built for teams. But the real difference is this. Tabby is"
+    },
+    {
+      "start": 248.309,
+      "duration": 0.009999999999990905,
+      "text": "the real difference is this. Tabby is"
+    },
+    {
+      "start": 248.319,
+      "duration": 2.070999999999998,
+      "text": "the real difference is this. Tabby is not just a plugin. It's a dedicated AI"
+    },
+    {
+      "start": 250.39,
+      "duration": 0.010000000000019327,
+      "text": "not just a plugin. It's a dedicated AI"
+    },
+    {
+      "start": 250.4,
+      "duration": 1.9899999999999807,
+      "text": "not just a plugin. It's a dedicated AI coding server that really changes"
+    },
+    {
+      "start": 252.39,
+      "duration": 0.010000000000019327,
+      "text": "coding server that really changes"
+    },
+    {
+      "start": 252.4,
+      "duration": 1.6699999999999875,
+      "text": "coding server that really changes everything. You get a co-pilot-like"
+    },
+    {
+      "start": 254.07,
+      "duration": 0.010000000000019327,
+      "text": "everything. You get a co-pilot-like"
+    },
+    {
+      "start": 254.08,
+      "duration": 2.629999999999967,
+      "text": "everything. You get a co-pilot-like experience, the flexibility people like"
+    },
+    {
+      "start": 256.71,
+      "duration": 0.010000000000047748,
+      "text": "experience, the flexibility people like"
+    },
+    {
+      "start": 256.72,
+      "duration": 2.6289999999999623,
+      "text": "experience, the flexibility people like in continue in team level controls that"
+    },
+    {
+      "start": 259.349,
+      "duration": 0.009999999999990905,
+      "text": "in continue in team level controls that"
+    },
+    {
+      "start": 259.359,
+      "duration": 2.150000000000034,
+      "text": "in continue in team level controls that other users usually charge for. So"
+    },
+    {
+      "start": 261.509,
+      "duration": 0.009999999999990905,
+      "text": "other users usually charge for. So"
+    },
+    {
+      "start": 261.519,
+      "duration": 2.5509999999999877,
+      "text": "other users usually charge for. So instead of renting access to AI, we"
+    },
+    {
+      "start": 264.07,
+      "duration": 0.009999999999990905,
+      "text": "instead of renting access to AI, we"
+    },
+    {
+      "start": 264.08,
+      "duration": 1.910000000000025,
+      "text": "instead of renting access to AI, we actually own the infrastructure behind"
+    },
+    {
+      "start": 265.99,
+      "duration": 0.009999999999990905,
+      "text": "actually own the infrastructure behind"
+    },
+    {
+      "start": 266,
+      "duration": 2.7099999999999795,
+      "text": "actually own the infrastructure behind it. Now, let's be honest, right? Because"
+    },
+    {
+      "start": 268.71,
+      "duration": 0.010000000000047748,
+      "text": "it. Now, let's be honest, right? Because"
+    },
+    {
+      "start": 268.72,
+      "duration": 1.669999999999959,
+      "text": "it. Now, let's be honest, right? Because people love a lot of things, but it's"
+    },
+    {
+      "start": 270.39,
+      "duration": 0.009999999999990905,
+      "text": "people love a lot of things, but it's"
+    },
+    {
+      "start": 270.4,
+      "duration": 2.069000000000017,
+      "text": "people love a lot of things, but it's open source. Is that enough to actually"
+    },
+    {
+      "start": 272.469,
+      "duration": 0.009999999999990905,
+      "text": "open source. Is that enough to actually"
+    },
+    {
+      "start": 272.479,
+      "duration": 2.3910000000000196,
+      "text": "open source. Is that enough to actually make the switch? Well, the setup is"
+    },
+    {
+      "start": 274.87,
+      "duration": 0.009999999999990905,
+      "text": "make the switch? Well, the setup is"
+    },
+    {
+      "start": 274.88,
+      "duration": 2.5500000000000114,
+      "text": "make the switch? Well, the setup is pretty quick. usually just a Docker spin"
+    },
+    {
+      "start": 277.43,
+      "duration": 0.009999999999990905,
+      "text": "pretty quick. usually just a Docker spin"
+    },
+    {
+      "start": 277.44,
+      "duration": 2.468999999999994,
+      "text": "pretty quick. usually just a Docker spin up and then it fades into your workflow."
+    },
+    {
+      "start": 279.909,
+      "duration": 0.009999999999990905,
+      "text": "up and then it fades into your workflow."
+    },
+    {
+      "start": 279.919,
+      "duration": 2.1510000000000105,
+      "text": "up and then it fades into your workflow. We're not locked into a single model."
+    },
+    {
+      "start": 282.07,
+      "duration": 0.009999999999990905,
+      "text": "We're not locked into a single model."
+    },
+    {
+      "start": 282.08,
+      "duration": 1.990000000000009,
+      "text": "We're not locked into a single model. You can choose the model and overall it"
+    },
+    {
+      "start": 284.07,
+      "duration": 0.009999999999990905,
+      "text": "You can choose the model and overall it"
+    },
+    {
+      "start": 284.08,
+      "duration": 1.910000000000025,
+      "text": "You can choose the model and overall it feels much more production ready now"
+    },
+    {
+      "start": 285.99,
+      "duration": 0.009999999999990905,
+      "text": "feels much more production ready now"
+    },
+    {
+      "start": 286,
+      "duration": 2.468999999999994,
+      "text": "feels much more production ready now than it did before. Now again, open"
+    },
+    {
+      "start": 288.469,
+      "duration": 0.009999999999990905,
+      "text": "than it did before. Now again, open"
+    },
+    {
+      "start": 288.479,
+      "duration": 2.3910000000000196,
+      "text": "than it did before. Now again, open source there's downsides. The quality"
+    },
+    {
+      "start": 290.87,
+      "duration": 0.009999999999990905,
+      "text": "source there's downsides. The quality"
+    },
+    {
+      "start": 290.88,
+      "duration": 1.910000000000025,
+      "text": "source there's downsides. The quality depends on the model you choose. So"
+    },
+    {
+      "start": 292.79,
+      "duration": 0.009999999999990905,
+      "text": "depends on the model you choose. So"
+    },
+    {
+      "start": 292.8,
+      "duration": 1.6689999999999827,
+      "text": "depends on the model you choose. So smaller models aren't going to be as"
+    },
+    {
+      "start": 294.469,
+      "duration": 0.009999999999990905,
+      "text": "smaller models aren't going to be as"
+    },
+    {
+      "start": 294.479,
+      "duration": 2.3110000000000355,
+      "text": "smaller models aren't going to be as powerful and hardware does matters. If"
+    },
+    {
+      "start": 296.79,
+      "duration": 0.009999999999990905,
+      "text": "powerful and hardware does matters. If"
+    },
+    {
+      "start": 296.8,
+      "duration": 2.069999999999993,
+      "text": "powerful and hardware does matters. If you want a smooth performance, a GPU is"
+    },
+    {
+      "start": 298.87,
+      "duration": 0.009999999999990905,
+      "text": "you want a smooth performance, a GPU is"
+    },
+    {
+      "start": 298.88,
+      "duration": 1.7490000000000236,
+      "text": "you want a smooth performance, a GPU is going to help a lot. I'm running all"
+    },
+    {
+      "start": 300.629,
+      "duration": 0.009999999999990905,
+      "text": "going to help a lot. I'm running all"
+    },
+    {
+      "start": 300.639,
+      "duration": 2.870999999999981,
+      "text": "going to help a lot. I'm running all this on a Mac M4 Pro and it felt pretty"
+    },
+    {
+      "start": 303.51,
+      "duration": 0.009999999999990905,
+      "text": "this on a Mac M4 Pro and it felt pretty"
+    },
+    {
+      "start": 303.52,
+      "duration": 2.3100000000000023,
+      "text": "this on a Mac M4 Pro and it felt pretty good. The setup is still more work than"
+    },
+    {
+      "start": 305.83,
+      "duration": 0.009999999999990905,
+      "text": "good. The setup is still more work than"
+    },
+    {
+      "start": 305.84,
+      "duration": 1.75,
+      "text": "good. The setup is still more work than cloud tools. So, it's not ideal for"
+    },
+    {
+      "start": 307.59,
+      "duration": 0.010000000000047748,
+      "text": "cloud tools. So, it's not ideal for"
+    },
+    {
+      "start": 307.6,
+      "duration": 1.75,
+      "text": "cloud tools. So, it's not ideal for anyone who's non-technical, but you're"
+    },
+    {
+      "start": 309.35,
+      "duration": 0.009999999999990905,
+      "text": "anyone who's non-technical, but you're"
+    },
+    {
+      "start": 309.36,
+      "duration": 1.6689999999999827,
+      "text": "anyone who's non-technical, but you're watching this. I'm assuming you are. And"
+    },
+    {
+      "start": 311.029,
+      "duration": 0.009999999999990905,
+      "text": "watching this. I'm assuming you are. And"
+    },
+    {
+      "start": 311.039,
+      "duration": 1.8310000000000173,
+      "text": "watching this. I'm assuming you are. And of course, like any AI tools, you still"
+    },
+    {
+      "start": 312.87,
+      "duration": 0.009999999999990905,
+      "text": "of course, like any AI tools, you still"
+    },
+    {
+      "start": 312.88,
+      "duration": 2.149000000000001,
+      "text": "of course, like any AI tools, you still need to review the code. This leads me"
+    },
+    {
+      "start": 315.029,
+      "duration": 0.009999999999990905,
+      "text": "need to review the code. This leads me"
+    },
+    {
+      "start": 315.039,
+      "duration": 2.0710000000000264,
+      "text": "need to review the code. This leads me into the question that we actually want"
+    },
+    {
+      "start": 317.11,
+      "duration": 0.009999999999990905,
+      "text": "into the question that we actually want"
+    },
+    {
+      "start": 317.12,
+      "duration": 3.0299999999999727,
+      "text": "into the question that we actually want answered. Is this worth using? Yes, kind"
+    },
+    {
+      "start": 320.15,
+      "duration": 0.010000000000047748,
+      "text": "answered. Is this worth using? Yes, kind"
+    },
+    {
+      "start": 320.16,
+      "duration": 2.1499999999999773,
+      "text": "answered. Is this worth using? Yes, kind of. But it depends on a few things. You"
+    },
+    {
+      "start": 322.31,
+      "duration": 0.009999999999990905,
+      "text": "of. But it depends on a few things. You"
+    },
+    {
+      "start": 322.32,
+      "duration": 1.509999999999991,
+      "text": "of. But it depends on a few things. You should use Tabby if you care about"
+    },
+    {
+      "start": 323.83,
+      "duration": 0.009999999999990905,
+      "text": "should use Tabby if you care about"
+    },
+    {
+      "start": 323.84,
+      "duration": 2.150000000000034,
+      "text": "should use Tabby if you care about privacy, you hate subscriptions, you"
+    },
+    {
+      "start": 325.99,
+      "duration": 0.009999999999990905,
+      "text": "privacy, you hate subscriptions, you"
+    },
+    {
+      "start": 326,
+      "duration": 2.1499999999999773,
+      "text": "privacy, you hate subscriptions, you work in a regulated environment, or you"
+    },
+    {
+      "start": 328.15,
+      "duration": 0.010000000000047748,
+      "text": "work in a regulated environment, or you"
+    },
+    {
+      "start": 328.16,
+      "duration": 1.9899999999999523,
+      "text": "work in a regulated environment, or you need something your whole team can rely"
+    },
+    {
+      "start": 330.15,
+      "duration": 0.010000000000047748,
+      "text": "need something your whole team can rely"
+    },
+    {
+      "start": 330.16,
+      "duration": 2.468999999999994,
+      "text": "need something your whole team can rely on. In those cases, this is an awesome"
+    },
+    {
+      "start": 332.629,
+      "duration": 0.009999999999990905,
+      "text": "on. In those cases, this is an awesome"
+    },
+    {
+      "start": 332.639,
+      "duration": 1.5910000000000082,
+      "text": "on. In those cases, this is an awesome choice to try to integrate into that"
+    },
+    {
+      "start": 334.23,
+      "duration": 0.009999999999990905,
+      "text": "choice to try to integrate into that"
+    },
+    {
+      "start": 334.24,
+      "duration": 1.9099999999999682,
+      "text": "choice to try to integrate into that workflow. But if you want the absolute"
+    },
+    {
+      "start": 336.15,
+      "duration": 0.010000000000047748,
+      "text": "workflow. But if you want the absolute"
+    },
+    {
+      "start": 336.16,
+      "duration": 2.7899999999999636,
+      "text": "workflow. But if you want the absolute best model with zero setup, no effort,"
+    },
+    {
+      "start": 338.95,
+      "duration": 0.009999999999990905,
+      "text": "best model with zero setup, no effort,"
+    },
+    {
+      "start": 338.96,
+      "duration": 1.75,
+      "text": "best model with zero setup, no effort, honestly, come on. Cloud tools are still"
+    },
+    {
+      "start": 340.71,
+      "duration": 0.010000000000047748,
+      "text": "honestly, come on. Cloud tools are still"
+    },
+    {
+      "start": 340.72,
+      "duration": 1.829999999999984,
+      "text": "honestly, come on. Cloud tools are still easier. The difference now is the"
+    },
+    {
+      "start": 342.55,
+      "duration": 0.009999999999990905,
+      "text": "easier. The difference now is the"
+    },
+    {
+      "start": 342.56,
+      "duration": 1.509999999999991,
+      "text": "easier. The difference now is the trade-off has changed. We're not"
+    },
+    {
+      "start": 344.07,
+      "duration": 0.009999999999990905,
+      "text": "trade-off has changed. We're not"
+    },
+    {
+      "start": 344.08,
+      "duration": 2.230000000000018,
+      "text": "trade-off has changed. We're not choosing between a smart cloud tool and"
+    },
+    {
+      "start": 346.31,
+      "duration": 0.009999999999990905,
+      "text": "choosing between a smart cloud tool and"
+    },
+    {
+      "start": 346.32,
+      "duration": 1.910000000000025,
+      "text": "choosing between a smart cloud tool and a weaker local one anymore. You're"
+    },
+    {
+      "start": 348.23,
+      "duration": 0.009999999999990905,
+      "text": "a weaker local one anymore. You're"
+    },
+    {
+      "start": 348.24,
+      "duration": 1.589999999999975,
+      "text": "a weaker local one anymore. You're choosing between convenience with"
+    },
+    {
+      "start": 349.83,
+      "duration": 0.009999999999990905,
+      "text": "choosing between convenience with"
+    },
+    {
+      "start": 349.84,
+      "duration": 2.629000000000019,
+      "text": "choosing between convenience with something like cursor or strong enough"
+    },
+    {
+      "start": 352.469,
+      "duration": 0.009999999999990905,
+      "text": "something like cursor or strong enough"
+    },
+    {
+      "start": 352.479,
+      "duration": 2.6310000000000286,
+      "text": "something like cursor or strong enough AI on your own terms. And for a lot of"
+    },
+    {
+      "start": 355.11,
+      "duration": 0.009999999999990905,
+      "text": "AI on your own terms. And for a lot of"
+    },
+    {
+      "start": 355.12,
+      "duration": 1.829999999999984,
+      "text": "AI on your own terms. And for a lot of developers, this is starting to matter"
+    },
+    {
+      "start": 356.95,
+      "duration": 0.009999999999990905,
+      "text": "developers, this is starting to matter"
+    },
+    {
+      "start": 356.96,
+      "duration": 2.789000000000044,
+      "text": "developers, this is starting to matter more and more. Tabby isn't trying to be"
+    },
+    {
+      "start": 359.749,
+      "duration": 0.009999999999990905,
+      "text": "more and more. Tabby isn't trying to be"
+    },
+    {
+      "start": 359.759,
+      "duration": 2.0709999999999695,
+      "text": "more and more. Tabby isn't trying to be the smartest AI. It's trying to be the"
+    },
+    {
+      "start": 361.83,
+      "duration": 0.009999999999990905,
+      "text": "the smartest AI. It's trying to be the"
+    },
+    {
+      "start": 361.84,
+      "duration": 2.789000000000044,
+      "text": "the smartest AI. It's trying to be the one we can actually maybe trust. I've"
+    },
+    {
+      "start": 364.629,
+      "duration": 0.009999999999990905,
+      "text": "one we can actually maybe trust. I've"
+    },
+    {
+      "start": 364.639,
+      "duration": 1.670000000000016,
+      "text": "one we can actually maybe trust. I've linked some docs and repos in the"
+    },
+    {
+      "start": 366.309,
+      "duration": 0.009999999999990905,
+      "text": "linked some docs and repos in the"
+    },
+    {
+      "start": 366.319,
+      "duration": 1.6709999999999923,
+      "text": "linked some docs and repos in the description. If you enjoy open source"
+    },
+    {
+      "start": 367.99,
+      "duration": 0.009999999999990905,
+      "text": "description. If you enjoy open source"
+    },
+    {
+      "start": 368,
+      "duration": 2.468999999999994,
+      "text": "description. If you enjoy open source and other AI tools like this one, be"
+    },
+    {
+      "start": 370.469,
+      "duration": 0.009999999999990905,
+      "text": "and other AI tools like this one, be"
+    },
+    {
+      "start": 370.479,
+      "duration": 1.511000000000024,
+      "text": "and other AI tools like this one, be sure to subscribe to the Better Stack"
+    },
+    {
+      "start": 371.99,
+      "duration": 0.009999999999990905,
+      "text": "sure to subscribe to the Better Stack"
+    },
+    {
+      "start": 372,
+      "duration": 3.6000000000000227,
+      "text": "sure to subscribe to the Better Stack channel. We'll see you in another"
+    }
+  ],
+  "fullText": "If you're using Copilot right now, your If you're using Copilot right now, your code might already be training someone code might already be training someone code might already be training someone else's model. You install Copilot, it else's model. You install Copilot, it else's model. You install Copilot, it works great, and you move on. But parts works great, and you move on. But parts works great, and you move on. But parts of your codebase can actually leave your of your codebase can actually leave your of your codebase can actually leave your machine. That can be a problem. This is machine. That can be a problem. This is machine. That can be a problem. This is Tabby, an open- source alternative to Tabby, an open- source alternative to Tabby, an open- source alternative to this that gives us the highest level of this that gives us the highest level of this that gives us the highest level of privacy compared to things like Copilot, privacy compared to things like Copilot, privacy compared to things like Copilot, Tab 9, and Cursor. We can get the same Tab 9, and Cursor. We can get the same Tab 9, and Cursor. We can get the same speed, same autocomplete, same workflow speed, same autocomplete, same workflow speed, same autocomplete, same workflow in our code, never leaves our machine. in our code, never leaves our machine. in our code, never leaves our machine. That's basically Tabby. I'll show you That's basically Tabby. I'll show you That's basically Tabby. I'll show you how to set it up and how to get it how to set it up and how to get it how to set it up and how to get it working in the next few minutes. Now, at a simple level, Tabby is a Now, at a simple level, Tabby is a self-hosted AI coding server. You run it self-hosted AI coding server. You run it self-hosted AI coding server. You run it locally, usually with Docker. You pick locally, usually with Docker. You pick locally, usually with Docker. You pick the model you want, and then you connect the model you want, and then you connect the model you want, and then you connect it to your IDE. That's it. You get it to your IDE. That's it. You get it to your IDE. That's it. You get real-time code completions and codebase real-time code completions and codebase real-time code completions and codebase aware chat, just like you'd expect. But aware chat, just like you'd expect. But aware chat, just like you'd expect. But the real reason devs care isn't just the the real reason devs care isn't just the the real reason devs care isn't just the features, it's the control we get. Your features, it's the control we get. Your features, it's the control we get. Your code stays inside your network without code stays inside your network without code stays inside your network without any subscriptions, and it works fully any subscriptions, and it works fully any subscriptions, and it works fully offline. It's built for teams with offline. It's built for teams with offline. It's built for teams with things like SSO, RBAC, and audit logs. things like SSO, RBAC, and audit logs. things like SSO, RBAC, and audit logs. And it's been blowing up on GitHub with And it's been blowing up on GitHub with And it's been blowing up on GitHub with over 33,000 stars for a good reason. over 33,000 stars for a good reason. over 33,000 stars for a good reason. Honestly though, none of these matter if Honestly though, none of these matter if Honestly though, none of these matter if it feels bad to use. So, let's skip all it feels bad to use. So, let's skip all it feels bad to use. So, let's skip all this stuff and just jump straight into this stuff and just jump straight into this stuff and just jump straight into the demo. If you enjoy these types of the demo. If you enjoy these types of the demo. If you enjoy these types of tools to speed up your workflow, be sure tools to speed up your workflow, be sure tools to speed up your workflow, be sure to subscribe to the channel. We have to subscribe to the channel. We have to subscribe to the channel. We have videos coming out all the time. Here's videos coming out all the time. Here's videos coming out all the time. Here's what the setup actually looks like. You what the setup actually looks like. You what the setup actually looks like. You run one docker command and tabby is up run one docker command and tabby is up run one docker command and tabby is up and running locally. Then you install and running locally. Then you install and running locally. Then you install the VS Code extension, point it to your the VS Code extension, point it to your the VS Code extension, point it to your local server and you're done. Now you're local server and you're done. Now you're local server and you're done. Now you're getting multi-line completions right getting multi-line completions right getting multi-line completions right inside your repo. So here in tabby I can inside your repo. So here in tabby I can inside your repo. So here in tabby I can open up to check out the models that I'm open up to check out the models that I'm open up to check out the models that I'm using and you can see here that these using and you can see here that these using and you can see here that these are the three that we're using and are the three that we're using and are the three that we're using and they're running locally. No cloud or they're running locally. No cloud or they're running locally. No cloud or open AI where your data is going. Over open AI where your data is going. Over open AI where your data is going. Over in VS Code, I can start with a rough in VS Code, I can start with a rough in VS Code, I can start with a rough function and just with the tab button, function and just with the tab button, function and just with the tab button, Tabby will autocomplete this for me. I Tabby will autocomplete this for me. I Tabby will autocomplete this for me. I can push it a bit by chatting with it on can push it a bit by chatting with it on can push it a bit by chatting with it on the side to optimize and expand on my the side to optimize and expand on my the side to optimize and expand on my current code as well. It's all pretty current code as well. It's all pretty current code as well. It's all pretty simple and straightforward. I [snorts] simple and straightforward. I [snorts] simple and straightforward. I [snorts] can highlight some code and ask it to can highlight some code and ask it to can highlight some code and ask it to refactor for performance or add tests. refactor for performance or add tests. refactor for performance or add tests. It responds instantly and it understands It responds instantly and it understands It responds instantly and it understands your repo context, not just a single your repo context, not just a single your repo context, not just a single file. I can even drop in a comment of file. I can even drop in a comment of file. I can even drop in a comment of something I want built. And you can see something I want built. And you can see something I want built. And you can see it picks up right here and actually it picks up right here and actually it picks up right here and actually builds it out for me. Now over in local builds it out for me. Now over in local builds it out for me. Now over in local host, Tabby is still connected to host, Tabby is still connected to host, Tabby is still connected to everything in VS Code. So I can read my everything in VS Code. So I can read my everything in VS Code. So I can read my code chats, even expand on it and follow code chats, even expand on it and follow code chats, even expand on it and follow up and ask questions. This is all saved up and ask questions. This is all saved up and ask questions. This is all saved right here in local host. No cloud, no right here in local host. No cloud, no right here in local host. No cloud, no data leaving your machine. And it feels data leaving your machine. And it feels data leaving your machine. And it feels very similar to Copilot except now this very similar to Copilot except now this very similar to Copilot except now this is a big except we actually own is a big except we actually own is a big except we actually own everything. All right, I kept the demo everything. All right, I kept the demo everything. All right, I kept the demo quick cuz honestly it was just that quick cuz honestly it was just that quick cuz honestly it was just that simple to fire up and get going. Now, simple to fire up and get going. Now, simple to fire up and get going. Now, let's talk about why this actually let's talk about why this actually let's talk about why this actually matters in our real world workflow. Now, matters in our real world workflow. Now, matters in our real world workflow. Now, the real issue with cloud AI tools isn't the real issue with cloud AI tools isn't the real issue with cloud AI tools isn't that they're bad. It's that the that they're bad. It's that the that they're bad. It's that the trade-off that we get is hidden, right? trade-off that we get is hidden, right? trade-off that we get is hidden, right? With cloud tools, your code may be used With cloud tools, your code may be used With cloud tools, your code may be used to train their models. With Tabby, your to train their models. With Tabby, your to train their models. With Tabby, your code never leaves your own network. code never leaves your own network. code never leaves your own network. Right? Cloud tools, you're paying per Right? Cloud tools, you're paying per Right? Cloud tools, you're paying per developer every month cuz it's free developer every month cuz it's free developer every month cuz it's free forever. Um, well, it's not, right? forever. Um, well, it's not, right? forever. Um, well, it's not, right? We're paying for it. That's what we get. We're paying for it. That's what we get. We're paying for it. That's what we get. Um, and with cloud tools, we also need Um, and with cloud tools, we also need Um, and with cloud tools, we also need the internet. With Tabby, I'm not paying the internet. With Tabby, I'm not paying the internet. With Tabby, I'm not paying for it. It's running offline. And this for it. It's running offline. And this for it. It's running offline. And this shows up in real work. So really, we get shows up in real work. So really, we get shows up in real work. So really, we get less boilerplate. We can refactor messy less boilerplate. We can refactor messy less boilerplate. We can refactor messy legacy code with less hesitation. We can legacy code with less hesitation. We can legacy code with less hesitation. We can learn frameworks quicker, generate tests learn frameworks quicker, generate tests learn frameworks quicker, generate tests and docs without jumping between all and docs without jumping between all and docs without jumping between all these tools. So really, this is less these tools. So really, this is less these tools. So really, this is less wasted time, hopefully less risk, and a wasted time, hopefully less risk, and a wasted time, hopefully less risk, and a lot more control over how we work. lot more control over how we work. lot more control over how we work. That's why a lot of privacy focused devs That's why a lot of privacy focused devs That's why a lot of privacy focused devs or teams are starting to move away from or teams are starting to move away from or teams are starting to move away from these cloud first tools into tools like these cloud first tools into tools like these cloud first tools into tools like this. Now, let's compare it to other this. Now, let's compare it to other this. Now, let's compare it to other options because that's really what you options because that's really what you options because that's really what you guys want to hear, right? Co-pilot is guys want to hear, right? Co-pilot is guys want to hear, right? Co-pilot is the easiest. It's great quality, almost the easiest. It's great quality, almost the easiest. It's great quality, almost no setup, but it does live in the cloud. no setup, but it does live in the cloud. no setup, but it does live in the cloud. We have continued dev. It's flexible. We have continued dev. It's flexible. We have continued dev. It's flexible. It's local first, but it's more of a It's local first, but it's more of a It's local first, but it's more of a power user tool. Tab 9 is more power user tool. Tab 9 is more power user tool. Tab 9 is more enterprise focused. And then obviously enterprise focused. And then obviously enterprise focused. And then obviously now I'm here talking about Tabby, which now I'm here talking about Tabby, which now I'm here talking about Tabby, which is self-hosted, it's free, a lot higher is self-hosted, it's free, a lot higher is self-hosted, it's free, a lot higher privacy, and it is built for teams. But privacy, and it is built for teams. But privacy, and it is built for teams. But the real difference is this. Tabby is the real difference is this. Tabby is the real difference is this. Tabby is not just a plugin. It's a dedicated AI not just a plugin. It's a dedicated AI not just a plugin. It's a dedicated AI coding server that really changes coding server that really changes coding server that really changes everything. You get a co-pilot-like everything. You get a co-pilot-like everything. You get a co-pilot-like experience, the flexibility people like experience, the flexibility people like experience, the flexibility people like in continue in team level controls that in continue in team level controls that in continue in team level controls that other users usually charge for. So other users usually charge for. So other users usually charge for. So instead of renting access to AI, we instead of renting access to AI, we instead of renting access to AI, we actually own the infrastructure behind actually own the infrastructure behind actually own the infrastructure behind it. Now, let's be honest, right? Because it. Now, let's be honest, right? Because it. Now, let's be honest, right? Because people love a lot of things, but it's people love a lot of things, but it's people love a lot of things, but it's open source. Is that enough to actually open source. Is that enough to actually open source. Is that enough to actually make the switch? Well, the setup is make the switch? Well, the setup is make the switch? Well, the setup is pretty quick. usually just a Docker spin pretty quick. usually just a Docker spin pretty quick. usually just a Docker spin up and then it fades into your workflow. up and then it fades into your workflow. up and then it fades into your workflow. We're not locked into a single model. We're not locked into a single model. We're not locked into a single model. You can choose the model and overall it You can choose the model and overall it You can choose the model and overall it feels much more production ready now feels much more production ready now feels much more production ready now than it did before. Now again, open than it did before. Now again, open than it did before. Now again, open source there's downsides. The quality source there's downsides. The quality source there's downsides. The quality depends on the model you choose. So depends on the model you choose. So depends on the model you choose. So smaller models aren't going to be as smaller models aren't going to be as smaller models aren't going to be as powerful and hardware does matters. If powerful and hardware does matters. If powerful and hardware does matters. If you want a smooth performance, a GPU is you want a smooth performance, a GPU is you want a smooth performance, a GPU is going to help a lot. I'm running all going to help a lot. I'm running all going to help a lot. I'm running all this on a Mac M4 Pro and it felt pretty this on a Mac M4 Pro and it felt pretty this on a Mac M4 Pro and it felt pretty good. The setup is still more work than good. The setup is still more work than good. The setup is still more work than cloud tools. So, it's not ideal for cloud tools. So, it's not ideal for cloud tools. So, it's not ideal for anyone who's non-technical, but you're anyone who's non-technical, but you're anyone who's non-technical, but you're watching this. I'm assuming you are. And watching this. I'm assuming you are. And watching this. I'm assuming you are. And of course, like any AI tools, you still of course, like any AI tools, you still of course, like any AI tools, you still need to review the code. This leads me need to review the code. This leads me need to review the code. This leads me into the question that we actually want into the question that we actually want into the question that we actually want answered. Is this worth using? Yes, kind answered. Is this worth using? Yes, kind answered. Is this worth using? Yes, kind of. But it depends on a few things. You of. But it depends on a few things. You of. But it depends on a few things. You should use Tabby if you care about should use Tabby if you care about should use Tabby if you care about privacy, you hate subscriptions, you privacy, you hate subscriptions, you privacy, you hate subscriptions, you work in a regulated environment, or you work in a regulated environment, or you work in a regulated environment, or you need something your whole team can rely need something your whole team can rely need something your whole team can rely on. In those cases, this is an awesome on. In those cases, this is an awesome on. In those cases, this is an awesome choice to try to integrate into that choice to try to integrate into that choice to try to integrate into that workflow. But if you want the absolute workflow. But if you want the absolute workflow. But if you want the absolute best model with zero setup, no effort, best model with zero setup, no effort, best model with zero setup, no effort, honestly, come on. Cloud tools are still honestly, come on. Cloud tools are still honestly, come on. Cloud tools are still easier. The difference now is the easier. The difference now is the easier. The difference now is the trade-off has changed. We're not trade-off has changed. We're not trade-off has changed. We're not choosing between a smart cloud tool and choosing between a smart cloud tool and choosing between a smart cloud tool and a weaker local one anymore. You're a weaker local one anymore. You're a weaker local one anymore. You're choosing between convenience with choosing between convenience with choosing between convenience with something like cursor or strong enough something like cursor or strong enough something like cursor or strong enough AI on your own terms. And for a lot of AI on your own terms. And for a lot of AI on your own terms. And for a lot of developers, this is starting to matter developers, this is starting to matter developers, this is starting to matter more and more. Tabby isn't trying to be more and more. Tabby isn't trying to be more and more. Tabby isn't trying to be the smartest AI. It's trying to be the the smartest AI. It's trying to be the the smartest AI. It's trying to be the one we can actually maybe trust. I've one we can actually maybe trust. I've one we can actually maybe trust. I've linked some docs and repos in the linked some docs and repos in the linked some docs and repos in the description. If you enjoy open source description. If you enjoy open source description. If you enjoy open source and other AI tools like this one, be and other AI tools like this one, be and other AI tools like this one, be sure to subscribe to the Better Stack sure to subscribe to the Better Stack sure to subscribe to the Better Stack channel. We'll see you in another",
+  "fetchedAt": "2026-03-28T16:58:37.119Z"
+}

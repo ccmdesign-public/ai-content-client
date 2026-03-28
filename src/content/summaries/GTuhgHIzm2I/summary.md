@@ -1,0 +1,132 @@
+---
+metadata:
+  videoId: "GTuhgHIzm2I"
+  title: "Helping an SEO Agency Scale"
+  description: "Download your free scaling roadmap here: https://www.acquisition.com/roadmap-yth1
+
+    Business owners: Want to scale faster? We provide in-person advisory for companies doing at least $1M per year: http://www.acquisition.com/workshop-yth\ 
+
+
+
+
+    If you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can claim anything, I’ll give you some stuff you can google to verify below.
+
+
+    How I got here…
+
+
+    21: Graduated Vanderbilt in 3 years Magna Cum Laude, and took a fancy consulting job.
+
+    23 yrs old: Left my fancy consulting job to start a business (a gym).
+
+    24 yrs old: Opened 5 gym locations.
+
+    26 yrs old: Closed down 6th gym. Lost everything.\ 
+
+    26 yrs old: Got back to launching gyms (launched 33). Then, lost everything for a 2nd time.\ 
+
+    26 yrs old: In desperation, started licensing model as a hail mary. It worked.\ 
+
+    27 yrs old: \"Gym Launch\" does $3M profit the next 6 months. Then $17M profit next 12 months.
+
+    28 yrs old: Started Prestige Labs. $20M the first year. \ 
+
+    29 yrs old: Launched ALAN, a software company for agencies to work leads for customers. Scaled to $1.7mmo within 6 months.\ 
+
+    31 yrs old: Sold 75% of UseAlan to a strategic buyer in an all stock deal.\ 
+
+    31 yrs old: Sold 66% of Gym Launch & Prestige Labs at $46.2M valuation in all-cash deal to American Pacific Group. (you can google it)
+
+    31 yrs old: Started our family office Acquisition.com. We invest and scale companies using the $42M in distributions we had taken + the cash from the $46.2M exit.
+
+    32 yrs old: Started making free content showing how we grow companies to make real business education accessible to everyone (and) to attract business owners to invest or scale their businesses.\ 
+
+    34 yrs old: I became co-owner of https://Skool.com to help the many people who want to start a business online do so.
+
+
+    Today: Our portfolio now does $200M/yr between 10 companies. The largest doing $100M/yr the smallest doing $5M per year. Our ownership varies between 20% and 100% ownership of the companies. Many of them we invested in early and helped grow (which is how we make our money - not youtube videos).
+
+
+    To all the gladiators in the arena, we’re all in the middle of writing our own stories. The worse the monsters, the more epic the story.
+
+
+    You either get an epic outcome or an epic story. Both mean you win.\ 
+
+
+    Keep crushing. May your desires be greater than your obstacles.\ 
+
+
+    Never quit,
+
+
+    Alex
+
+
+    DISCLOSURE\ 
+
+    Information shared here is for educational purposes only.  Individuals and business owners should evaluate their own business strategies, and identify any potential risks.  The information shared here is not a guarantee of success. Your results may vary.
+
+    Copyright © 2026."
+  channel: "Hormozi Highlights"
+  channelId: "UCrvchO1h6lWZAuGaa1LqX9Q"
+  duration: "PT3M44S"
+  publishedAt: "2026-03-27T16:00:31Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/GTuhgHIzm2I/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=GTuhgHIzm2I"
+processedAt: "2026-03-28T17:19:57.624Z"
+source: "youtube"
+tldr: "For a founder of a $20M SEO/AEO agency building a personal brand in a crowded market, Alex Hormozi advises focusing 80% of content on high-value, business-oriented education for the target client audience, disregarding vanity metrics, while using 20% for personal 'pixie dust' to stand out."
+tools: []
+categories:
+  - "Business & Career"
+  - "Tools & Productivity"
+  - "Web Development"
+tags:
+  - "content-creation"
+  - "seo"
+  - "startup"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-v3.2-20251201"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4095
+  outputTokens: 714
+  totalTokens: 4809
+  processingTimeMs: 16565
+tagsNormalizedAt: "2026-03-28T18:07:08.882Z"
+---
+
+## Key Takeaways
+
+Alex Hormozi advises an SEO agency owner on building a personal brand to drive business growth. Key strategies include: • **Focus on high-value content** for your target audience, ignoring views and likes. • **Use an 80/20 split**: 80% strictly business/educational content, 20% personal 'pixie dust' to differentiate. • **Master content packaging** (hooks, visuals, pacing) as the 'ticket of entry' but keep the core meat client-focused.
+
+## Summary
+
+The video features Alex Hormozi advising the founder of a $20 million revenue SEO and AEO (AI Engine Optimization) agency who is looking to build a personal brand in a crowded, education-saturated market to attract more speaking engagements and clients.
+
+Hormozi's core advice is to **disregard vanity metrics** like views and likes entirely. The content strategy should be laser-focused on creating the **absolute highest value per second** for the specific audience the founder wants to attract—mid-market and enterprise clients (like QuickBooks, Nike).
+
+He breaks down the approach into two components: **content packaging** and **content core**.
+
+### Content Packaging is the 'Ticket of Entry'
+
+This involves mastering the fundamentals of engaging content creation that the algorithm rewards:
+
+*   Visual hooks
+
+*   Pacing
+
+*   Video production quality
+
+### Content Core Must Be Ruthlessly Focused
+
+This is the non-negotiable heart of the strategy. The majority of content (Hormozi suggests **80%**) should be 'straight down the barrel'—pure, high-density educational and business-oriented material that directly addresses the problems and desires of potential buyers.
+
+The remaining **20%** can be reserved for the creator's unique personality or '**pixie dust**'—the philosophical takes, personal stories, or interests that make them relatable and memorable. However, even this personal content should ideally be anchored back to a business lesson or perspective (e.g., philosophy on perseverance for business longevity, fitness tips for busy entrepreneurs).
+
+Hormozi states he would follow this exact 80/20, business-anchored strategy if he were starting his personal brand again from scratch, emphasizing that the primary objective (making more money by attracting clients) must dictate the content, not the desire for broad appeal.
+
+## Context
+
+This discussion is critical for business founders and service providers (like agencies) in competitive fields like SEO and digital marketing. Building a personal brand is a powerful lead generation and trust-building tool, but many struggle with balancing educational authority and personal differentiation. Hormozi's framework provides a clear, objective-driven model for content creation that prioritizes business outcomes over social media popularity, which is especially relevant as content markets become increasingly saturated.

@@ -1,0 +1,80 @@
+videoId: zvmtHZSt8es
+title: Build an AI Agent knowledge base using SQL (BigQuery + Gemini)
+description: >-
+  GCP credit →https://goo.gle/handson-ep2-lab1
+
+  Codelab & source code →https://goo.gle/scholar
+
+  ML in BigQuery → https://goo.gle/3O5squw
+
+
+  Did you know you can call a Gemini model directly from a SQL query in
+  BigQuery?
+
+
+  In this hands-on codelab, Ayo and Annie do exactly that, and use it to solve a
+  real problem: converting messy, unstructured text into clean, structured data
+  at scale. 
+
+
+  This is Episode 1 of our multi-part series where we build a fully functional,
+  data-aware AI agent on Google Cloud. 
+
+
+  🛠️ *What we cover:*
+
+  * Loading raw text files from Cloud Storage as BigQuery external tables
+
+  * Using BQML.GENERATE_TEXT to send prompts to Gemini inside SQL 
+
+  * Parsing and structuring LLM output using JSON functions in BigQuery
+
+  * Building a clean, queryable dataset ready for downstream AI pipelines This
+  pattern is incredibly powerful for any team sitting on a mountain of
+  unstructured documents, and wanting to make them queryable without a heavy ETL
+  pipeline. 
+
+
+  Chapters:
+
+  0:00 - Intro
+
+  1:44 - Claim GCP credit
+
+  2:40 - Data project overview
+
+  4:31 - Project set up
+
+  15:00 - ELT extraction loading transform intro
+
+  18:09 - Loading data
+
+  26:24 - BigQuery external table
+
+  33:52 [BQML] ML Generate In BigQuery
+
+
+  Watch more Hand on AI → https://goo.gle/HowToWithGemini 
+
+  🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech
+
+
+  #Gemini #GoogleCloud
+
+
+  Speakers: Ayo Adedeji, Annie Wang
+
+  Products Mentioned: Gemini, BigQuery
+channel: Google Cloud Tech
+channelId: UCJS9pqu9BzkAMNTmzNMNhvg
+duration: PT49M7S
+publishedAt: 2026-03-28T16:00:00Z
+thumbnailUrl: https://i.ytimg.com/vi/zvmtHZSt8es/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=zvmtHZSt8es
+processedAt: 2026-03-28T17:59:50.364Z
+lengthCategory: longform
+modelUsed: notebooklm
+aiProvider: notebooklm
+apiCalls: 1
+fallbackAttempts: 0
+processingTimeMs: 47265

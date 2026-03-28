@@ -1,0 +1,1594 @@
+{
+  "videoId": "yLXLHnD4fco",
+  "language": "en",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "start": 0.1,
+      "duration": 3.3,
+      "text": "Claude keeps getting succinctly powerful and unstoppable, and I"
+    },
+    {
+      "start": 3.4,
+      "duration": 2.1999999999999997,
+      "text": "really mean it as a claude power user."
+    },
+    {
+      "start": 5.7,
+      "duration": 5.2,
+      "text": "So what if you could turn Claude  into a full AI marketing team that research, writes,"
+    },
+    {
+      "start": 10.9,
+      "duration": 2.9000000000000004,
+      "text": "analyze and design all working together?"
+    },
+    {
+      "start": 13.8,
+      "duration": 3.599999999999998,
+      "text": "So in this video, I'll walk through step by step how to build this entire"
+    },
+    {
+      "start": 17.433,
+      "duration": 2,
+      "text": "system from scratch, inside Claude Code,"
+    },
+    {
+      "start": 19.5,
+      "duration": 2.1660000000000004,
+      "text": "Even if you're not technical, let's go."
+    },
+    {
+      "start": 23.7,
+      "duration": 3.933,
+      "text": "To design your first AI marketing team in Claude, follow these four step."
+    },
+    {
+      "start": 27.633,
+      "duration": 3.567,
+      "text": "Step one, map your marketing function, what marketing tasks"
+    },
+    {
+      "start": 31.2,
+      "duration": 1.5000000000000036,
+      "text": "you actually do every week."
+    },
+    {
+      "start": 32.7,
+      "duration": 5.899999999999999,
+      "text": "Step two, turn each repeatable into a skill, ideally one skill per workflow."
+    },
+    {
+      "start": 38.766,
+      "duration": 4.334000000000003,
+      "text": "Step three, group similar skills into non-overlapping agent roles."
+    },
+    {
+      "start": 43.233,
+      "duration": 3.8670000000000044,
+      "text": "So you have dedicated and focused agent that produce better work."
+    },
+    {
+      "start": 47.1,
+      "duration": 4.699999999999996,
+      "text": "Step four, connect agents and skills as a team, set up your project, so"
+    },
+    {
+      "start": 51.833,
+      "duration": 4.466999999999999,
+      "text": "Claude knows who is on a team and when to use agents versus skills."
+    },
+    {
+      "start": 56.366,
+      "duration": 3.6340000000000003,
+      "text": "So today we are building exactly that for a travel brand called Go"
+    },
+    {
+      "start": 60,
+      "duration": 2.732999999999997,
+      "text": "Travel, five Agents, 12 Skills."
+    },
+    {
+      "start": 62.733,
+      "duration": 2.6000000000000014,
+      "text": "And we are using Claude Code to build a whole thing."
+    },
+    {
+      "start": 65.5,
+      "duration": 2.9000000000000057,
+      "text": "Of course, it might look different for your brand depending on your"
+    },
+    {
+      "start": 68.4,
+      "duration": 2.6329999999999956,
+      "text": "marketing focus, but same concept apply."
+    },
+    {
+      "start": 71.066,
+      "duration": 2.566999999999993,
+      "text": "For now there are three popular ways to use cloud code."
+    },
+    {
+      "start": 73.7,
+      "duration": 2.8999999999999915,
+      "text": "Cloud code desktop, where you just switch to Claude code from the tab,"
+    },
+    {
+      "start": 76.8,
+      "duration": 5,
+      "text": "an IDE like VS code or cursor or a terminal, which gives you the full power."
+    },
+    {
+      "start": 81.8,
+      "duration": 3.5,
+      "text": "So for this video, I'll be using VS code so we can see the"
+    },
+    {
+      "start": 85.5,
+      "duration": 1.7660000000000053,
+      "text": "files and folders side by side."
+    },
+    {
+      "start": 87.266,
+      "duration": 4.667000000000002,
+      "text": "So first download vs code and then on VS code go to extension,"
+    },
+    {
+      "start": 91.933,
+      "duration": 4.466999999999999,
+      "text": "search for cloud code and install the one by Anthropic official."
+    },
+    {
+      "start": 96.4,
+      "duration": 3.799999999999997,
+      "text": "So once installed, click the Claude icon in your sidebar, log"
+    },
+    {
+      "start": 100.2,
+      "duration": 1.3329999999999984,
+      "text": "in with your Claude plan account."
+    },
+    {
+      "start": 102,
+      "duration": 3.799999999999997,
+      "text": "It will open your browser for login in and you'll be good to go."
+    },
+    {
+      "start": 105.9,
+      "duration": 3.5999999999999943,
+      "text": "All right, so I already set up the brand folder called Go Travel."
+    },
+    {
+      "start": 109.633,
+      "duration": 3.6000000000000085,
+      "text": "And inside you can see we have got folders for different departments"
+    },
+    {
+      "start": 113.4,
+      "duration": 1.7999999999999972,
+      "text": "like sales ops and marketing."
+    },
+    {
+      "start": 115.233,
+      "duration": 3.1670000000000016,
+      "text": "So think of it like how a real business organized their work."
+    },
+    {
+      "start": 118.7,
+      "duration": 2.299999999999997,
+      "text": "But today we are focused on the marketing folder."
+    },
+    {
+      "start": 121,
+      "duration": 2.5330000000000013,
+      "text": "So inside we'll set up two types of folder."
+    },
+    {
+      "start": 123.8,
+      "duration": 4.799999999999997,
+      "text": "So one I call the system folders like context, SOP templates."
+    },
+    {
+      "start": 128.666,
+      "duration": 2.5670000000000073,
+      "text": "Those are reusable by your AI agents."
+    },
+    {
+      "start": 131.4,
+      "duration": 4.199999999999989,
+      "text": "And then the working folders, like Ads, pages, presentations."
+    },
+    {
+      "start": 135.733,
+      "duration": 3.3669999999999902,
+      "text": "So when your agents produce work, everything goes here."
+    },
+    {
+      "start": 139.233,
+      "duration": 4.5,
+      "text": "Now a really important step is we need to first load some context inside"
+    },
+    {
+      "start": 143.733,
+      "duration": 4,
+      "text": "the context folder, like your brand voice guide, style guide, product"
+    },
+    {
+      "start": 147.733,
+      "duration": 1.8669999999999902,
+      "text": "offerings, marketing strategy."
+    },
+    {
+      "start": 149.6,
+      "duration": 3.700000000000017,
+      "text": "So your agents are pre equipped things about your brand and it"
+    },
+    {
+      "start": 153.3,
+      "duration": 1.4329999999999927,
+      "text": "will make the whole difference."
+    },
+    {
+      "start": 154.8,
+      "duration": 2.6999999999999886,
+      "text": "So other useful file, like the templates or SOPs."
+    },
+    {
+      "start": 157.8,
+      "duration": 3.765999999999991,
+      "text": "By the way, this is what we're covering in our AI growth system for marketing program"
+    },
+    {
+      "start": 161.666,
+      "duration": 4.1340000000000146,
+      "text": "inside our community, where you'll get all the templates and we go much deeper."
+    },
+    {
+      "start": 165.9,
+      "duration": 2.5999999999999943,
+      "text": "So if you're interested, you can find the link below to join."
+    },
+    {
+      "start": 168.666,
+      "duration": 2.266999999999996,
+      "text": "Now open the project folder on VS Code."
+    },
+    {
+      "start": 170.933,
+      "duration": 5.5,
+      "text": "The very first step is to initial this project by creating the Claude MD file."
+    },
+    {
+      "start": 176.433,
+      "duration": 3.4000000000000057,
+      "text": "So this is basically the custom instructions for your entire project,"
+    },
+    {
+      "start": 180.066,
+      "duration": 3.734000000000009,
+      "text": "and you can let Claude to scan your folder and draft it for you."
+    },
+    {
+      "start": 183.8,
+      "duration": 4.332999999999998,
+      "text": "And immediately, we have this CLAUDE.md file created, but note,"
+    },
+    {
+      "start": 188.233,
+      "duration": 2.1670000000000016,
+      "text": "we will keep updating this file."
+    },
+    {
+      "start": 190.433,
+      "duration": 2.5,
+      "text": "So it is not like a one off process."
+    },
+    {
+      "start": 193.033,
+      "duration": 2.5,
+      "text": "Now another thing is to install the official scale."
+    },
+    {
+      "start": 195.8,
+      "duration": 3.6329999999999814,
+      "text": "So these are the prebuilt Skills by anthropic, so you can use"
+    },
+    {
+      "start": 199.433,
+      "duration": 1.700000000000017,
+      "text": "right away for your project."
+    },
+    {
+      "start": 201.2,
+      "duration": 2.5,
+      "text": "So first type the slash command plugin."
+    },
+    {
+      "start": 203.9,
+      "duration": 3.9000000000000057,
+      "text": "We are gonna first add the official skills GitHub repository marketplace,"
+    },
+    {
+      "start": 207.8,
+      "duration": 5,
+      "text": "and then go back to plugin search for document skills and click install."
+    },
+    {
+      "start": 212.9,
+      "duration": 2.9000000000000057,
+      "text": "Now if you type the slash command and see all those scales, and"
+    },
+    {
+      "start": 215.8,
+      "duration": 3.5999999999999943,
+      "text": "that means you have successfully installed official skills pack."
+    },
+    {
+      "start": 219.5,
+      "duration": 3.032999999999987,
+      "text": "All right, let's build our first marketing team branded deck"
+    },
+    {
+      "start": 222.533,
+      "duration": 1.8000000000000114,
+      "text": "skills that every marketer needs."
+    },
+    {
+      "start": 224.733,
+      "duration": 3.299999999999983,
+      "text": "And for this one, we'll use what I call the reference based method."
+    },
+    {
+      "start": 228.033,
+      "duration": 3.6000000000000227,
+      "text": "So you give Claude examples or templates of what goods look like"
+    },
+    {
+      "start": 231.633,
+      "duration": 1.5,
+      "text": "And it studies the patterns"
+    },
+    {
+      "start": 233.133,
+      "duration": 4.566999999999979,
+      "text": "Now to build a great deck creation skill that really follows your branded template."
+    },
+    {
+      "start": 237.733,
+      "duration": 1.1999999999999886,
+      "text": "You need two things."
+    },
+    {
+      "start": 239.3,
+      "duration": 3.6329999999999814,
+      "text": "First is the branded deck template and a detailed understanding"
+    },
+    {
+      "start": 243,
+      "duration": 1.532999999999987,
+      "text": "of how that template works."
+    },
+    {
+      "start": 244.533,
+      "duration": 3.8000000000000114,
+      "text": "So inside the templates folder, we already have an existing deck template."
+    },
+    {
+      "start": 248.5,
+      "duration": 3.233000000000004,
+      "text": "So this is the style that we want Claude to follow exactly."
+    },
+    {
+      "start": 251.8,
+      "duration": 4.300000000000011,
+      "text": "Then have clause analyze this template first and to generate the analysis report."
+    },
+    {
+      "start": 256.1,
+      "duration": 2.83299999999997,
+      "text": "So it will come back with a really detailed analysis."
+    },
+    {
+      "start": 259,
+      "duration": 2,
+      "text": "Now we are ready to create our first skill."
+    },
+    {
+      "start": 261.3,
+      "duration": 3.6999999999999886,
+      "text": "So we will ask it to extend the official PowerPoint creation skill and"
+    },
+    {
+      "start": 265,
+      "duration": 4.5,
+      "text": "generate a new branded deck skill based on the template and analysis report."
+    },
+    {
+      "start": 269.533,
+      "duration": 2.099999999999966,
+      "text": "And immediately we have our first skill."
+    },
+    {
+      "start": 271.633,
+      "duration": 3.733000000000004,
+      "text": "So Claude creates a new folder, called \"Skills\", and underneath"
+    },
+    {
+      "start": 275.4,
+      "duration": 3.900000000000034,
+      "text": "we have the branded deck scale containing the assets and references."
+    },
+    {
+      "start": 279.533,
+      "duration": 3.5670000000000073,
+      "text": "Now, whenever we want to create on-branded slide decks, we can"
+    },
+    {
+      "start": 283.1,
+      "duration": 3.599999999999966,
+      "text": "just give it some background information and let Claude to create."
+    },
+    {
+      "start": 286.8,
+      "duration": 3.3000000000000114,
+      "text": "So in this case, we wanted to create a campaign strategy deck"
+    },
+    {
+      "start": 290.1,
+      "duration": 1.7999999999999545,
+      "text": "for an upcoming summer campaign."
+    },
+    {
+      "start": 291.9,
+      "duration": 4.7000000000000455,
+      "text": "So it will call the skill we just created and return a slide deck with 13 slide."
+    },
+    {
+      "start": 296.6,
+      "duration": 3.1999999999999886,
+      "text": "And you can see it is following exactly the same brand"
+    },
+    {
+      "start": 299.8,
+      "duration": 1.8999999999999773,
+      "text": "presentation template we just see."
+    },
+    {
+      "start": 301.9,
+      "duration": 3.133000000000038,
+      "text": "Although some slides still need to fix like the margin,"
+    },
+    {
+      "start": 305.033,
+      "duration": 2.5,
+      "text": "the charts, it is 90% done."
+    },
+    {
+      "start": 307.666,
+      "duration": 3.2339999999999804,
+      "text": "And using this method, you can include all the templates as well."
+    },
+    {
+      "start": 311.3,
+      "duration": 3.233000000000004,
+      "text": "Perhaps one for strategy deck, one for client reporting,"
+    },
+    {
+      "start": 314.8,
+      "duration": 3.099999999999966,
+      "text": "one for product launches, and Claude will follow exactly that."
+    },
+    {
+      "start": 318.366,
+      "duration": 3.1340000000000146,
+      "text": "Now that you build your first skills, but there are so many other marketing"
+    },
+    {
+      "start": 321.533,
+      "duration": 2,
+      "text": "use cases, you could turn into skills."
+    },
+    {
+      "start": 323.633,
+      "duration": 4.900000000000034,
+      "text": "So if you want more ideas on what to build next, then this resource I put together"
+    },
+    {
+      "start": 328.6,
+      "duration": 2.065999999999974,
+      "text": "with HubSpot is exactly what you need."
+    },
+    {
+      "start": 330.666,
+      "duration": 2.766999999999996,
+      "text": "It's called the AI toolkit I use every week."
+    },
+    {
+      "start": 333.433,
+      "duration": 3.0670000000000073,
+      "text": "I made this because most of us are either juggling too many"
+    },
+    {
+      "start": 336.5,
+      "duration": 4.5,
+      "text": "tools with no real system or stuck using one tool for everything."
+    },
+    {
+      "start": 341.166,
+      "duration": 4,
+      "text": "It covers my favorite use cases across popular AI tools like Claude,"
+    },
+    {
+      "start": 345.5,
+      "duration": 2.3000000000000114,
+      "text": "ChatGPT, Gemini, and Perplexity."
+    },
+    {
+      "start": 348.1,
+      "duration": 3.2659999999999627,
+      "text": "Based on my personal experience working with these tools, and"
+    },
+    {
+      "start": 351.4,
+      "duration": 2.2000000000000455,
+      "text": "when I use one tool over the other"
+    },
+    {
+      "start": 353.7,
+      "duration": 4.466000000000008,
+      "text": "For Claude, you'll see how I use it for things like strategy, brainstorming, data"
+    },
+    {
+      "start": 358.166,
+      "duration": 4.834000000000003,
+      "text": "visualization, content repurposing, and honestly, any of these could become the"
+    },
+    {
+      "start": 363.033,
+      "duration": 2.0670000000000073,
+      "text": "next skill you build in your own setup."
+    },
+    {
+      "start": 365.1,
+      "duration": 3.733000000000004,
+      "text": "You can use them as a starting point, then adapt for your own market needs."
+    },
+    {
+      "start": 369.033,
+      "duration": 2.1999999999999886,
+      "text": "So grab it for free in the description."
+    },
+    {
+      "start": 371.3,
+      "duration": 2.8659999999999854,
+      "text": "Thank HubSpot for partnering with me on this resource and"
+    },
+    {
+      "start": 374.166,
+      "duration": 1.1999999999999886,
+      "text": "for sponsoring this video."
+    },
+    {
+      "start": 375.5,
+      "duration": 2.8000000000000114,
+      "text": "All right, so that was one way to create a scale using"
+    },
+    {
+      "start": 378.366,
+      "duration": 1.66700000000003,
+      "text": "brand templates and references."
+    },
+    {
+      "start": 380.3,
+      "duration": 3.1999999999999886,
+      "text": "Now, this time, we are going to create a scale that connects to an external"
+    },
+    {
+      "start": 383.866,
+      "duration": 1.7340000000000373,
+      "text": "MCP tool for inmate generation."
+    },
+    {
+      "start": 386,
+      "duration": 3,
+      "text": "We are going to create our social creative design skill."
+    },
+    {
+      "start": 389.1,
+      "duration": 2.5329999999999586,
+      "text": "So first, set up your creative style library."
+    },
+    {
+      "start": 391.833,
+      "duration": 1.2999999999999545,
+      "text": "Under the templates folder."
+    },
+    {
+      "start": 393.166,
+      "duration": 3.934000000000026,
+      "text": "Create a sub folder called social creatives and then include all"
+    },
+    {
+      "start": 397.1,
+      "duration": 1.1999999999999886,
+      "text": "those on branded templates."
+    },
+    {
+      "start": 398.5,
+      "duration": 4.600000000000023,
+      "text": "So these serve as visual inspiration for Claude and not the exact copy."
+    },
+    {
+      "start": 403.133,
+      "duration": 4.367000000000019,
+      "text": "Then we also have the style guide, so Claude knows what style are"
+    },
+    {
+      "start": 407.5,
+      "duration": 2.3000000000000114,
+      "text": "available and when to use them."
+    },
+    {
+      "start": 409.933,
+      "duration": 3.5670000000000073,
+      "text": "Now since the skill used the nano banana model to generate images."
+    },
+    {
+      "start": 413.5,
+      "duration": 2.9329999999999927,
+      "text": "So we also need to set up the MCP connection first."
+    },
+    {
+      "start": 416.533,
+      "duration": 5.632999999999981,
+      "text": "The most reliable way I found in VS Code is to create a .mcp.json"
+    },
+    {
+      "start": 422.166,
+      "duration": 2.6340000000000146,
+      "text": "file in your project root folder."
+    },
+    {
+      "start": 424.9,
+      "duration": 4.100000000000023,
+      "text": "So simply this file tells Claude which external tools it can"
+    },
+    {
+      "start": 429,
+      "duration": 1.8999999999999773,
+      "text": "connect to for this project."
+    },
+    {
+      "start": 431,
+      "duration": 4.300000000000011,
+      "text": "We will add the nano banana MCP server with the Gemini API key."
+    },
+    {
+      "start": 435.3,
+      "duration": 3.6999999999999886,
+      "text": "I will also include the GitHub repository link below so you can check it out."
+    },
+    {
+      "start": 439.033,
+      "duration": 3.5670000000000073,
+      "text": "Then restart VS Code type slash command MCP."
+    },
+    {
+      "start": 442.6,
+      "duration": 3.7659999999999627,
+      "text": "So you should see all your connected MCP servers for this project."
+    },
+    {
+      "start": 446.433,
+      "duration": 2.1000000000000227,
+      "text": "So now we are ready to create a second skill."
+    },
+    {
+      "start": 448.7,
+      "duration": 3.5,
+      "text": "So this skill will design and create carousel or single social"
+    },
+    {
+      "start": 452.233,
+      "duration": 2.266999999999996,
+      "text": "creative using the nano banana model."
+    },
+    {
+      "start": 454.6,
+      "duration": 3.065999999999974,
+      "text": "So now it is scanning the style library we just create, and then"
+    },
+    {
+      "start": 457.666,
+      "duration": 3.934000000000026,
+      "text": "pretty quickly we have our second skill created in the same skill folder."
+    },
+    {
+      "start": 461.733,
+      "duration": 3.8999999999999773,
+      "text": "So now whenever we need some social creatives, we can just give it a simple"
+    },
+    {
+      "start": 465.666,
+      "duration": 2,
+      "text": "prompt like this and let it generate."
+    },
+    {
+      "start": 467.833,
+      "duration": 3.599999999999966,
+      "text": "So like in this case, it is a five slide Instagram carousel"
+    },
+    {
+      "start": 471.6,
+      "duration": 2.0329999999999586,
+      "text": "and they are really nicely done."
+    },
+    {
+      "start": 473.633,
+      "duration": 3.3670000000000186,
+      "text": "So following one of the style from the library, and not just copying"
+    },
+    {
+      "start": 477,
+      "duration": 1.6000000000000227,
+      "text": "the design, but just the vibe."
+    },
+    {
+      "start": 478.666,
+      "duration": 2.6999999999999886,
+      "text": "And that is why setting up references matters so much"
+    },
+    {
+      "start": 481.366,
+      "duration": 1.7340000000000373,
+      "text": "for your skill output quality."
+    },
+    {
+      "start": 483.233,
+      "duration": 5.067000000000007,
+      "text": "So using similar methods, we have created 12 marketing skills in our skill library."
+    },
+    {
+      "start": 488.333,
+      "duration": 3.1999999999999886,
+      "text": "But the more skills you pile into one conversation, the"
+    },
+    {
+      "start": 491.6,
+      "duration": 1.5,
+      "text": "less focused cloud become."
+    },
+    {
+      "start": 493.1,
+      "duration": 5.399999999999977,
+      "text": "Just like one person trying to be your writer, analyst, and designer all at once."
+    },
+    {
+      "start": 498.5,
+      "duration": 5.3659999999999854,
+      "text": "And that is when you need dedicated agents or what the official call the sub-agents."
+    },
+    {
+      "start": 503.933,
+      "duration": 3.5670000000000073,
+      "text": "So agents are specialized team members with their own roles and"
+    },
+    {
+      "start": 507.5,
+      "duration": 4.0330000000000155,
+      "text": "tools, and then skills are the shared playbook your agents can use."
+    },
+    {
+      "start": 511.6,
+      "duration": 3,
+      "text": "So let's build, our first agent a data analysts."
+    },
+    {
+      "start": 514.8,
+      "duration": 3.400000000000091,
+      "text": "This is a great one to start with because it thinks completely different"
+    },
+    {
+      "start": 518.2,
+      "duration": 2.199999999999932,
+      "text": "from the content skills we just built."
+    },
+    {
+      "start": 520.5,
+      "duration": 3.7999999999999545,
+      "text": "So to create our first custom agent, we have to use the built-in agent"
+    },
+    {
+      "start": 524.3,
+      "duration": 2.1000000000000227,
+      "text": "command inside the Claude code terminal."
+    },
+    {
+      "start": 526.433,
+      "duration": 4.7999999999999545,
+      "text": "So first type slash agents, and then click continue in terminal."
+    },
+    {
+      "start": 531.3,
+      "duration": 2.066000000000031,
+      "text": "So where it will bring up the terminal view."
+    },
+    {
+      "start": 533.6,
+      "duration": 2.1000000000000227,
+      "text": "So here, click Create New Agents."
+    },
+    {
+      "start": 535.933,
+      "duration": 3.6000000000000227,
+      "text": "Then click for this project only, and let Claude to generate"
+    },
+    {
+      "start": 539.533,
+      "duration": 1.66700000000003,
+      "text": "the Agent MD file for you."
+    },
+    {
+      "start": 541.2,
+      "duration": 3.0329999999999018,
+      "text": "And then tells it about what you want this agent to do."
+    },
+    {
+      "start": 544.4,
+      "duration": 3.9329999999999927,
+      "text": "So in this case, we want to create an agent called data analyst and"
+    },
+    {
+      "start": 548.366,
+      "duration": 4.1340000000000146,
+      "text": "what skill it should use and then pick the tools, the default model,"
+    },
+    {
+      "start": 552.5,
+      "duration": 2.2659999999999627,
+      "text": "color and agent memory, location."
+    },
+    {
+      "start": 554.833,
+      "duration": 3.6000000000000227,
+      "text": "And then immediately we create our first agent for this project."
+    },
+    {
+      "start": 558.433,
+      "duration": 3.3999999999999773,
+      "text": "And what it really does is you can see there is a new Agents folder."
+    },
+    {
+      "start": 561.833,
+      "duration": 4.66700000000003,
+      "text": "And underneath we see there is a data analyst Agent markdown file, and there"
+    },
+    {
+      "start": 566.5,
+      "duration": 4.732999999999947,
+      "text": "is a file defining the agent's role, its skills, and a core responsibility."
+    },
+    {
+      "start": 571.4,
+      "duration": 4.2000000000000455,
+      "text": "Now let's say we have this campaign data set for this project, so it contains"
+    },
+    {
+      "start": 575.7,
+      "duration": 1.7999999999999545,
+      "text": "eight different types of data sets."
+    },
+    {
+      "start": 577.7,
+      "duration": 3.8999999999999773,
+      "text": "Now, to use this agent, we can just use the @ tag and call this"
+    },
+    {
+      "start": 581.6,
+      "duration": 3.5,
+      "text": "agent and ask it to create the campaign report and the performance"
+    },
+    {
+      "start": 585.133,
+      "duration": 2.0670000000000073,
+      "text": "dashboard that is ready to present."
+    },
+    {
+      "start": 587.2,
+      "duration": 3.7329999999999472,
+      "text": "So this agent will call the campaign report and data Visualization skill."
+    },
+    {
+      "start": 591,
+      "duration": 3,
+      "text": "So for the campaign report, it looks quite comprehensive with"
+    },
+    {
+      "start": 594.033,
+      "duration": 3.2999999999999545,
+      "text": "all the channel performance breakdown summary and the analysis"
+    },
+    {
+      "start": 597.333,
+      "duration": 2,
+      "text": "synthesized from all those dataset."
+    },
+    {
+      "start": 599.366,
+      "duration": 4.533999999999992,
+      "text": "As for the data dashboard, summarizing the top line metrics with key takeaways,"
+    },
+    {
+      "start": 604,
+      "duration": 3.3659999999999854,
+      "text": "charts and diagrams that visualize different channel performance."
+    },
+    {
+      "start": 607.7,
+      "duration": 3.2999999999999545,
+      "text": "Week on week revenue trend and everything is interactive"
+    },
+    {
+      "start": 611,
+      "duration": 1.6000000000000227,
+      "text": "where you can hover or select."
+    },
+    {
+      "start": 612.7,
+      "duration": 2.8999999999999773,
+      "text": "So basically you can see this as a on-branded template."
+    },
+    {
+      "start": 615.866,
+      "duration": 4.033999999999992,
+      "text": "And let Claude to update this tracker whenever there's a new campaign data."
+    },
+    {
+      "start": 620.2,
+      "duration": 2.3999999999999773,
+      "text": "And this will be an other huge time saver."
+    },
+    {
+      "start": 622.933,
+      "duration": 3.7999999999999545,
+      "text": "So our data analyst agents thinks in numbers, charts, and patterns."
+    },
+    {
+      "start": 627.1,
+      "duration": 3.2659999999999627,
+      "text": "Now let's build another agent for content creation that"
+    },
+    {
+      "start": 630.4,
+      "duration": 2,
+      "text": "thinks in stories and headlines."
+    },
+    {
+      "start": 632.5,
+      "duration": 3.2000000000000455,
+      "text": "Again, use the slash command agents to trigger the terminal"
+    },
+    {
+      "start": 635.7,
+      "duration": 3.699999999999932,
+      "text": "view and use this prompt to create this content creator agent."
+    },
+    {
+      "start": 639.4,
+      "duration": 3.6000000000000227,
+      "text": "And so this agent, will produce marketing content across multiple"
+    },
+    {
+      "start": 643,
+      "duration": 4.265999999999963,
+      "text": "formats and equip with the four content creation skills we just created."
+    },
+    {
+      "start": 647.333,
+      "duration": 2.800000000000068,
+      "text": "And immediately we create this second agent."
+    },
+    {
+      "start": 650.2,
+      "duration": 3,
+      "text": "Now we can just tag this content creator agent in a chat."
+    },
+    {
+      "start": 653.733,
+      "duration": 1.2670000000000528,
+      "text": "Ask it for a relevant task."
+    },
+    {
+      "start": 655.1,
+      "duration": 3.5,
+      "text": "So in this case we want a blog post for an upcoming campaign that"
+    },
+    {
+      "start": 658.6,
+      "duration": 1.7659999999999627,
+      "text": "will also link to a lead magnet."
+    },
+    {
+      "start": 660.366,
+      "duration": 4.234000000000037,
+      "text": "So Claude now delegate task to this agent, which it would call the blog writer"
+    },
+    {
+      "start": 664.6,
+      "duration": 4.699999999999932,
+      "text": "skills for the blog creations that use the keyword research tool and then also"
+    },
+    {
+      "start": 669.3,
+      "duration": 4.300000000000068,
+      "text": "use the lead magnet skills to generate the pdf guidebook so the blog post is"
+    },
+    {
+      "start": 673.6,
+      "duration": 4.199999999999932,
+      "text": "following the structure we define with the table of content, bullet points and"
+    },
+    {
+      "start": 677.833,
+      "duration": 2.3999999999999773,
+      "text": "structure that is optimized for AI search."
+    },
+    {
+      "start": 680.4,
+      "duration": 3.7000000000000455,
+      "text": "And here it even added the link to our lead magnet resource guide."
+    },
+    {
+      "start": 684.2,
+      "duration": 4.83299999999997,
+      "text": "So this resource guide contain 11 pages designed in a brand color tone."
+    },
+    {
+      "start": 689.233,
+      "duration": 4.467000000000098,
+      "text": "So the design is intentionally simple to keep the focus on the content value,"
+    },
+    {
+      "start": 693.766,
+      "duration": 2.4340000000000828,
+      "text": "But you can always tweak the skills for your needs."
+    },
+    {
+      "start": 696.3,
+      "duration": 4,
+      "text": "So you can see how powerful Claude can be to create all kinds of marketing"
+    },
+    {
+      "start": 700.333,
+      "duration": 1.8670000000000755,
+      "text": "content that you need for your campaign."
+    },
+    {
+      "start": 702.3,
+      "duration": 3.4329999999999927,
+      "text": "So using similar methods, we can build three more agents,"
+    },
+    {
+      "start": 705.833,
+      "duration": 4.0330000000000155,
+      "text": "the market researcher, creative designer, and a campaign strategist."
+    },
+    {
+      "start": 710,
+      "duration": 4,
+      "text": "And each of them equip with their own set of skills we created earlier."
+    },
+    {
+      "start": 714.1,
+      "duration": 2.699999999999932,
+      "text": "But before running the AI marketing team, an important"
+    },
+    {
+      "start": 716.833,
+      "duration": 4.067000000000007,
+      "text": "step is to update the CLAUDE.md file to add agent routing routes."
+    },
+    {
+      "start": 721.033,
+      "duration": 4.5,
+      "text": "So Claude knows explicitly when to dedicate to this agent and it will"
+    },
+    {
+      "start": 725.533,
+      "duration": 2.16700000000003,
+      "text": "make your system much more reliable."
+    },
+    {
+      "start": 727.833,
+      "duration": 2.8670000000000755,
+      "text": "All right, this is exciting time as we are gonna give our marketing"
+    },
+    {
+      "start": 730.7,
+      "duration": 3.66599999999994,
+      "text": "team a complex task and see how they can work together on its own."
+    },
+    {
+      "start": 734.5,
+      "duration": 4.2999999999999545,
+      "text": "For example, we are launching a new Japan Cherry Blossom season campaign,"
+    },
+    {
+      "start": 738.8,
+      "duration": 4.5,
+      "text": "and we need a full marketing package from research campaign brief social"
+    },
+    {
+      "start": 743.333,
+      "duration": 4.8670000000000755,
+      "text": "posts of a landing page and ad creatives, since this is a complex task."
+    },
+    {
+      "start": 748.266,
+      "duration": 3.2670000000000528,
+      "text": "So you can see Claude will decide which step it needs, the"
+    },
+    {
+      "start": 751.533,
+      "duration": 2.66700000000003,
+      "text": "agents versus using skill only."
+    },
+    {
+      "start": 754.5,
+      "duration": 3.633000000000038,
+      "text": "So that is because we have add the rules in the CLAUDE.md file."
+    },
+    {
+      "start": 758.233,
+      "duration": 3.8670000000000755,
+      "text": "So not every step requires the use of agent, like research and campaign"
+    },
+    {
+      "start": 762.1,
+      "duration": 4,
+      "text": "that requires synthesizing an agent can be beneficial, but for content"
+    },
+    {
+      "start": 766.1,
+      "duration": 4.66599999999994,
+      "text": "creation that is really executional and straightforward skill should be enough."
+    },
+    {
+      "start": 770.766,
+      "duration": 2.9669999999999845,
+      "text": "So first is it's calling a research tool for market research."
+    },
+    {
+      "start": 773.766,
+      "duration": 4.1340000000000146,
+      "text": "And it moves on to campaign brief once finished and then generating"
+    },
+    {
+      "start": 778,
+      "duration": 2.0330000000000155,
+      "text": "images and building the landing page."
+    },
+    {
+      "start": 780.2,
+      "duration": 3.599999999999909,
+      "text": "And after like 10 minutes, it got all the deliverables ready."
+    },
+    {
+      "start": 783.8,
+      "duration": 1.8000000000000682,
+      "text": "So first we got the market research."
+    },
+    {
+      "start": 785.7,
+      "duration": 3.8999999999999773,
+      "text": "This is perfectly done, including the target audience we should target."
+    },
+    {
+      "start": 789.6,
+      "duration": 4.232999999999947,
+      "text": "And then it also translate to our campaign brief with more executional"
+    },
+    {
+      "start": 793.833,
+      "duration": 5.2000000000000455,
+      "text": "details like the messaging where it proposed the tagline, \"Sakura like a"
+    },
+    {
+      "start": 799.1,
+      "duration": 4,
+      "text": "Local\", and then the social post for the campaign with all those trending"
+    },
+    {
+      "start": 803.1,
+      "duration": 2,
+      "text": "conversation it have identified."
+    },
+    {
+      "start": 805.1,
+      "duration": 1.6000000000000227,
+      "text": "And finally, the creative."
+    },
+    {
+      "start": 806.7,
+      "duration": 3.5,
+      "text": "So you can see they're all tied back to the same campaign theme, and"
+    },
+    {
+      "start": 810.2,
+      "duration": 1.83299999999997,
+      "text": "particularly I like the last one."
+    },
+    {
+      "start": 812.1,
+      "duration": 3.6000000000000227,
+      "text": "Now for the offer landing page, it is also quite impressive."
+    },
+    {
+      "start": 815.7,
+      "duration": 2.7329999999999472,
+      "text": "So this is done using the landing page builder scale."
+    },
+    {
+      "start": 818.433,
+      "duration": 4.899999999999977,
+      "text": "Everything is on the brand tone, aligned with a campaign theme, the images,"
+    },
+    {
+      "start": 823.6,
+      "duration": 4.699999999999932,
+      "text": "style, all look professional with all important sections and call to action."
+    },
+    {
+      "start": 828.333,
+      "duration": 4.767000000000053,
+      "text": "So even for complex tasks like this Claude can keep all the deliverables connected."
+    },
+    {
+      "start": 833.2,
+      "duration": 2.2999999999999545,
+      "text": "Now we've built our first AI marketing team."
+    },
+    {
+      "start": 835.533,
+      "duration": 4.266999999999939,
+      "text": "We have seen them work together on complex campaigns, but in real world, you also"
+    },
+    {
+      "start": 839.8,
+      "duration": 2.066000000000031,
+      "text": "need to work with your real teammates too."
+    },
+    {
+      "start": 841.933,
+      "duration": 4.5,
+      "text": "So let me show you how to set up a shared task board on Notion, where anyone on"
+    },
+    {
+      "start": 846.433,
+      "duration": 4.4669999999999845,
+      "text": "your team can drop a task and your AI agents can pick it up and get it done."
+    },
+    {
+      "start": 851.033,
+      "duration": 3.2999999999999545,
+      "text": "So here we have a simple Kanban board that tracks all the"
+    },
+    {
+      "start": 854.366,
+      "duration": 1.0339999999999918,
+      "text": "marketing tasks for the team."
+    },
+    {
+      "start": 855.533,
+      "duration": 5,
+      "text": "So each task we have a priority, the task title and details and all pending"
+    },
+    {
+      "start": 860.533,
+      "duration": 1.766999999999939,
+      "text": "tasks with the status of \"To-Do\"."
+    },
+    {
+      "start": 862.366,
+      "duration": 3.3999999999999773,
+      "text": "And once they're done, they will be moved that to the complete status."
+    },
+    {
+      "start": 865.933,
+      "duration": 4.33299999999997,
+      "text": "Now, the magic happens when we let the Claude agents to pick up these tasks."
+    },
+    {
+      "start": 870.366,
+      "duration": 3.366999999999962,
+      "text": "By the way, shout out to David, a great marketer in my network"
+    },
+    {
+      "start": 873.766,
+      "duration": 1.7340000000000373,
+      "text": "who actually gave me this idea."
+    },
+    {
+      "start": 875.533,
+      "duration": 4.567000000000007,
+      "text": "So on Claude we can use this prompt to ask it to scan the pending task on this"
+    },
+    {
+      "start": 880.133,
+      "duration": 4.9669999999999845,
+      "text": "notion board and assign an agent to do it and execute them according to priority."
+    },
+    {
+      "start": 885.1,
+      "duration": 4,
+      "text": "So like this case, it will pick up the Europe campaign launch task and"
+    },
+    {
+      "start": 889.1,
+      "duration": 3.8999999999999773,
+      "text": "then according to tools to execute the research and design the carousel posts."
+    },
+    {
+      "start": 893,
+      "duration": 4.0330000000000155,
+      "text": "So you can see Claude updated tasks to complete status once done and"
+    },
+    {
+      "start": 897.033,
+      "duration": 1.7999999999999545,
+      "text": "include all the output file paths."
+    },
+    {
+      "start": 898.933,
+      "duration": 1.7000000000000455,
+      "text": "And we can double check all the results."
+    },
+    {
+      "start": 900.7,
+      "duration": 3.2999999999999545,
+      "text": "So the research is being done successfully as well as the set of"
+    },
+    {
+      "start": 904,
+      "duration": 3.8659999999999854,
+      "text": "carousel posts with a total seven slide that are informed by the research"
+    },
+    {
+      "start": 907.866,
+      "duration": 2.433999999999969,
+      "text": "findings, which is also nicely done."
+    },
+    {
+      "start": 910.3,
+      "duration": 3.800000000000068,
+      "text": "So that means now you can set up this task board, collaborate with the team,"
+    },
+    {
+      "start": 914.2,
+      "duration": 2.2329999999999472,
+      "text": "and let the AI agents to execute it."
+    },
+    {
+      "start": 916.5,
+      "duration": 1.6000000000000227,
+      "text": "But we can take it even further."
+    },
+    {
+      "start": 918.366,
+      "duration": 2.533999999999992,
+      "text": "You can actually talk to your AI team from your phone."
+    },
+    {
+      "start": 920.9,
+      "duration": 4.33299999999997,
+      "text": "So claude code now lets you connect your mobile device to your local running"
+    },
+    {
+      "start": 925.233,
+      "duration": 5.2000000000000455,
+      "text": "session, so you can send tasks to your AI team from the cloud mobile app anywhere,"
+    },
+    {
+      "start": 930.533,
+      "duration": 1.9669999999999845,
+      "text": "even when you're away from your desk."
+    },
+    {
+      "start": 932.6,
+      "duration": 3.4329999999999927,
+      "text": "And if you’re familiar with the Dispatch function from Claude Cowork,"
+    },
+    {
+      "start": 936.033,
+      "duration": 2.0670000000000073,
+      "text": "they are essentially the same thing."
+    },
+    {
+      "start": 938.1,
+      "duration": 3.5,
+      "text": "So for any conversation you want to connect remotely, we have to"
+    },
+    {
+      "start": 941.6,
+      "duration": 1.83299999999997,
+      "text": "first activate the remote control."
+    },
+    {
+      "start": 943.6,
+      "duration": 3.8999999999999773,
+      "text": "So type the slash command remote control in the chat and you will see"
+    },
+    {
+      "start": 947.5,
+      "duration": 4.2000000000000455,
+      "text": "it now says remote control connected and with a remote control link."
+    },
+    {
+      "start": 951.7,
+      "duration": 3.5,
+      "text": "So this is the link you will open in your mobile phone to chat with"
+    },
+    {
+      "start": 955.2,
+      "duration": 3.83299999999997,
+      "text": "your agents, but don't share this link to anyone since it will give"
+    },
+    {
+      "start": 959.033,
+      "duration": 1.66700000000003,
+      "text": "the full control of your session."
+    },
+    {
+      "start": 960.7,
+      "duration": 3.5,
+      "text": "So once you open it, you immediately connect with your local Claude"
+    },
+    {
+      "start": 964.266,
+      "duration": 3.4340000000000828,
+      "text": "code session and now we can communicate with the team remotely."
+    },
+    {
+      "start": 967.7,
+      "duration": 3.8999999999999773,
+      "text": "So for example, I can just type check the task board and it will trigger the skills"
+    },
+    {
+      "start": 971.6,
+      "duration": 5.100000000000023,
+      "text": "I have already set up and grab any pending task on notion and execute it as normal."
+    },
+    {
+      "start": 976.7,
+      "duration": 3.7999999999999545,
+      "text": "So basically everything you sent through your phone is immediately sync"
+    },
+    {
+      "start": 980.6,
+      "duration": 2.1329999999999245,
+      "text": "to your local Claude code session."
+    },
+    {
+      "start": 982.766,
+      "duration": 4.16700000000003,
+      "text": "So for this case, it has identified the new task about building a landing page"
+    },
+    {
+      "start": 987,
+      "duration": 1.83299999999997,
+      "text": "for a new campaign and get it done."
+    },
+    {
+      "start": 988.866,
+      "duration": 3.866999999999962,
+      "text": "But the limitations for now is you can rely on this one single"
+    },
+    {
+      "start": 992.733,
+      "duration": 1.8670000000000755,
+      "text": "connected session for any task."
+    },
+    {
+      "start": 994.6,
+      "duration": 4,
+      "text": "So if the context become full, you can type clear conversation"
+    },
+    {
+      "start": 998.7,
+      "duration": 2.8999999999999773,
+      "text": "to clear the context where you can start the chat again."
+    },
+    {
+      "start": 1001.6,
+      "duration": 2.699999999999932,
+      "text": "And whenever you want to disconnect, just click the three"
+    },
+    {
+      "start": 1004.333,
+      "duration": 1.7670000000000528,
+      "text": "dots here and click archive."
+    },
+    {
+      "start": 1006.1,
+      "duration": 3.7329999999999472,
+      "text": "And all the works are just saved locally, even if you are away."
+    },
+    {
+      "start": 1009.866,
+      "duration": 2.3999999999999773,
+      "text": "So imagine you might have some urgent tasks."
+    },
+    {
+      "start": 1012.3,
+      "duration": 2.6000000000000227,
+      "text": "You want your AI agent team to execute for you."
+    },
+    {
+      "start": 1014.933,
+      "duration": 3.7999999999999545,
+      "text": "It can be useful and it really feels like a 24 7 teammate that"
+    },
+    {
+      "start": 1018.766,
+      "duration": 1.8000000000000682,
+      "text": "works for you and get the work done."
+    },
+    {
+      "start": 1020.7,
+      "duration": 2.7999999999999545,
+      "text": "So try this yourself and build your AI agent team."
+    },
+    {
+      "start": 1023.533,
+      "duration": 2.8670000000000755,
+      "text": "If you find this video helpful, please give a thumbs up."
+    },
+    {
+      "start": 1026.4,
+      "duration": 1.2329999999999472,
+      "text": "I really appreciate that."
+    },
+    {
+      "start": 1027.633,
+      "duration": 2.5,
+      "text": "I also invite you to join our growth community."
+    },
+    {
+      "start": 1030.2,
+      "duration": 4.399999999999864,
+      "text": "We are running the AI system for marketing program where we go much deeper from"
+    },
+    {
+      "start": 1034.6,
+      "duration": 4.533000000000129,
+      "text": "context, setup, research, workflow, all the way to building a complete system."
+    },
+    {
+      "start": 1039.5,
+      "duration": 1.5329999999999018,
+      "text": "You can find the link below to join."
+    },
+    {
+      "start": 1041.1,
+      "duration": 3.1660000000001673,
+      "text": "I hope to see you there and join all the AI native marketers."
+    },
+    {
+      "start": 1044.333,
+      "duration": 3.366999999999962,
+      "text": "And before you go, also watch this video if you want to get"
+    },
+    {
+      "start": 1047.7,
+      "duration": 3.2999999999999545,
+      "text": "started with Cloud Skill first for building your marketing team."
+    },
+    {
+      "start": 1051,
+      "duration": 0.8330000000000837,
+      "text": "I'll see you next time."
+    }
+  ],
+  "fullText": "Claude keeps getting succinctly powerful and unstoppable, and I really mean it as a claude power user. So what if you could turn Claude  into a full AI marketing team that research, writes, analyze and design all working together? So in this video, I'll walk through step by step how to build this entire system from scratch, inside Claude Code, Even if you're not technical, let's go. To design your first AI marketing team in Claude, follow these four step. Step one, map your marketing function, what marketing tasks you actually do every week. Step two, turn each repeatable into a skill, ideally one skill per workflow. Step three, group similar skills into non-overlapping agent roles. So you have dedicated and focused agent that produce better work. Step four, connect agents and skills as a team, set up your project, so Claude knows who is on a team and when to use agents versus skills. So today we are building exactly that for a travel brand called Go Travel, five Agents, 12 Skills. And we are using Claude Code to build a whole thing. Of course, it might look different for your brand depending on your marketing focus, but same concept apply. For now there are three popular ways to use cloud code. Cloud code desktop, where you just switch to Claude code from the tab, an IDE like VS code or cursor or a terminal, which gives you the full power. So for this video, I'll be using VS code so we can see the files and folders side by side. So first download vs code and then on VS code go to extension, search for cloud code and install the one by Anthropic official. So once installed, click the Claude icon in your sidebar, log in with your Claude plan account. It will open your browser for login in and you'll be good to go. All right, so I already set up the brand folder called Go Travel. And inside you can see we have got folders for different departments like sales ops and marketing. So think of it like how a real business organized their work. But today we are focused on the marketing folder. So inside we'll set up two types of folder. So one I call the system folders like context, SOP templates. Those are reusable by your AI agents. And then the working folders, like Ads, pages, presentations. So when your agents produce work, everything goes here. Now a really important step is we need to first load some context inside the context folder, like your brand voice guide, style guide, product offerings, marketing strategy. So your agents are pre equipped things about your brand and it will make the whole difference. So other useful file, like the templates or SOPs. By the way, this is what we're covering in our AI growth system for marketing program inside our community, where you'll get all the templates and we go much deeper. So if you're interested, you can find the link below to join. Now open the project folder on VS Code. The very first step is to initial this project by creating the Claude MD file. So this is basically the custom instructions for your entire project, and you can let Claude to scan your folder and draft it for you. And immediately, we have this CLAUDE.md file created, but note, we will keep updating this file. So it is not like a one off process. Now another thing is to install the official scale. So these are the prebuilt Skills by anthropic, so you can use right away for your project. So first type the slash command plugin. We are gonna first add the official skills GitHub repository marketplace, and then go back to plugin search for document skills and click install. Now if you type the slash command and see all those scales, and that means you have successfully installed official skills pack. All right, let's build our first marketing team branded deck skills that every marketer needs. And for this one, we'll use what I call the reference based method. So you give Claude examples or templates of what goods look like And it studies the patterns Now to build a great deck creation skill that really follows your branded template. You need two things. First is the branded deck template and a detailed understanding of how that template works. So inside the templates folder, we already have an existing deck template. So this is the style that we want Claude to follow exactly. Then have clause analyze this template first and to generate the analysis report. So it will come back with a really detailed analysis. Now we are ready to create our first skill. So we will ask it to extend the official PowerPoint creation skill and generate a new branded deck skill based on the template and analysis report. And immediately we have our first skill. So Claude creates a new folder, called \"Skills\", and underneath we have the branded deck scale containing the assets and references. Now, whenever we want to create on-branded slide decks, we can just give it some background information and let Claude to create. So in this case, we wanted to create a campaign strategy deck for an upcoming summer campaign. So it will call the skill we just created and return a slide deck with 13 slide. And you can see it is following exactly the same brand presentation template we just see. Although some slides still need to fix like the margin, the charts, it is 90% done. And using this method, you can include all the templates as well. Perhaps one for strategy deck, one for client reporting, one for product launches, and Claude will follow exactly that. Now that you build your first skills, but there are so many other marketing use cases, you could turn into skills. So if you want more ideas on what to build next, then this resource I put together with HubSpot is exactly what you need. It's called the AI toolkit I use every week. I made this because most of us are either juggling too many tools with no real system or stuck using one tool for everything. It covers my favorite use cases across popular AI tools like Claude, ChatGPT, Gemini, and Perplexity. Based on my personal experience working with these tools, and when I use one tool over the other For Claude, you'll see how I use it for things like strategy, brainstorming, data visualization, content repurposing, and honestly, any of these could become the next skill you build in your own setup. You can use them as a starting point, then adapt for your own market needs. So grab it for free in the description. Thank HubSpot for partnering with me on this resource and for sponsoring this video. All right, so that was one way to create a scale using brand templates and references. Now, this time, we are going to create a scale that connects to an external MCP tool for inmate generation. We are going to create our social creative design skill. So first, set up your creative style library. Under the templates folder. Create a sub folder called social creatives and then include all those on branded templates. So these serve as visual inspiration for Claude and not the exact copy. Then we also have the style guide, so Claude knows what style are available and when to use them. Now since the skill used the nano banana model to generate images. So we also need to set up the MCP connection first. The most reliable way I found in VS Code is to create a .mcp.json file in your project root folder. So simply this file tells Claude which external tools it can connect to for this project. We will add the nano banana MCP server with the Gemini API key. I will also include the GitHub repository link below so you can check it out. Then restart VS Code type slash command MCP. So you should see all your connected MCP servers for this project. So now we are ready to create a second skill. So this skill will design and create carousel or single social creative using the nano banana model. So now it is scanning the style library we just create, and then pretty quickly we have our second skill created in the same skill folder. So now whenever we need some social creatives, we can just give it a simple prompt like this and let it generate. So like in this case, it is a five slide Instagram carousel and they are really nicely done. So following one of the style from the library, and not just copying the design, but just the vibe. And that is why setting up references matters so much for your skill output quality. So using similar methods, we have created 12 marketing skills in our skill library. But the more skills you pile into one conversation, the less focused cloud become. Just like one person trying to be your writer, analyst, and designer all at once. And that is when you need dedicated agents or what the official call the sub-agents. So agents are specialized team members with their own roles and tools, and then skills are the shared playbook your agents can use. So let's build, our first agent a data analysts. This is a great one to start with because it thinks completely different from the content skills we just built. So to create our first custom agent, we have to use the built-in agent command inside the Claude code terminal. So first type slash agents, and then click continue in terminal. So where it will bring up the terminal view. So here, click Create New Agents. Then click for this project only, and let Claude to generate the Agent MD file for you. And then tells it about what you want this agent to do. So in this case, we want to create an agent called data analyst and what skill it should use and then pick the tools, the default model, color and agent memory, location. And then immediately we create our first agent for this project. And what it really does is you can see there is a new Agents folder. And underneath we see there is a data analyst Agent markdown file, and there is a file defining the agent's role, its skills, and a core responsibility. Now let's say we have this campaign data set for this project, so it contains eight different types of data sets. Now, to use this agent, we can just use the @ tag and call this agent and ask it to create the campaign report and the performance dashboard that is ready to present. So this agent will call the campaign report and data Visualization skill. So for the campaign report, it looks quite comprehensive with all the channel performance breakdown summary and the analysis synthesized from all those dataset. As for the data dashboard, summarizing the top line metrics with key takeaways, charts and diagrams that visualize different channel performance. Week on week revenue trend and everything is interactive where you can hover or select. So basically you can see this as a on-branded template. And let Claude to update this tracker whenever there's a new campaign data. And this will be an other huge time saver. So our data analyst agents thinks in numbers, charts, and patterns. Now let's build another agent for content creation that thinks in stories and headlines. Again, use the slash command agents to trigger the terminal view and use this prompt to create this content creator agent. And so this agent, will produce marketing content across multiple formats and equip with the four content creation skills we just created. And immediately we create this second agent. Now we can just tag this content creator agent in a chat. Ask it for a relevant task. So in this case we want a blog post for an upcoming campaign that will also link to a lead magnet. So Claude now delegate task to this agent, which it would call the blog writer skills for the blog creations that use the keyword research tool and then also use the lead magnet skills to generate the pdf guidebook so the blog post is following the structure we define with the table of content, bullet points and structure that is optimized for AI search. And here it even added the link to our lead magnet resource guide. So this resource guide contain 11 pages designed in a brand color tone. So the design is intentionally simple to keep the focus on the content value, But you can always tweak the skills for your needs. So you can see how powerful Claude can be to create all kinds of marketing content that you need for your campaign. So using similar methods, we can build three more agents, the market researcher, creative designer, and a campaign strategist. And each of them equip with their own set of skills we created earlier. But before running the AI marketing team, an important step is to update the CLAUDE.md file to add agent routing routes. So Claude knows explicitly when to dedicate to this agent and it will make your system much more reliable. All right, this is exciting time as we are gonna give our marketing team a complex task and see how they can work together on its own. For example, we are launching a new Japan Cherry Blossom season campaign, and we need a full marketing package from research campaign brief social posts of a landing page and ad creatives, since this is a complex task. So you can see Claude will decide which step it needs, the agents versus using skill only. So that is because we have add the rules in the CLAUDE.md file. So not every step requires the use of agent, like research and campaign that requires synthesizing an agent can be beneficial, but for content creation that is really executional and straightforward skill should be enough. So first is it's calling a research tool for market research. And it moves on to campaign brief once finished and then generating images and building the landing page. And after like 10 minutes, it got all the deliverables ready. So first we got the market research. This is perfectly done, including the target audience we should target. And then it also translate to our campaign brief with more executional details like the messaging where it proposed the tagline, \"Sakura like a Local\", and then the social post for the campaign with all those trending conversation it have identified. And finally, the creative. So you can see they're all tied back to the same campaign theme, and particularly I like the last one. Now for the offer landing page, it is also quite impressive. So this is done using the landing page builder scale. Everything is on the brand tone, aligned with a campaign theme, the images, style, all look professional with all important sections and call to action. So even for complex tasks like this Claude can keep all the deliverables connected. Now we've built our first AI marketing team. We have seen them work together on complex campaigns, but in real world, you also need to work with your real teammates too. So let me show you how to set up a shared task board on Notion, where anyone on your team can drop a task and your AI agents can pick it up and get it done. So here we have a simple Kanban board that tracks all the marketing tasks for the team. So each task we have a priority, the task title and details and all pending tasks with the status of \"To-Do\". And once they're done, they will be moved that to the complete status. Now, the magic happens when we let the Claude agents to pick up these tasks. By the way, shout out to David, a great marketer in my network who actually gave me this idea. So on Claude we can use this prompt to ask it to scan the pending task on this notion board and assign an agent to do it and execute them according to priority. So like this case, it will pick up the Europe campaign launch task and then according to tools to execute the research and design the carousel posts. So you can see Claude updated tasks to complete status once done and include all the output file paths. And we can double check all the results. So the research is being done successfully as well as the set of carousel posts with a total seven slide that are informed by the research findings, which is also nicely done. So that means now you can set up this task board, collaborate with the team, and let the AI agents to execute it. But we can take it even further. You can actually talk to your AI team from your phone. So claude code now lets you connect your mobile device to your local running session, so you can send tasks to your AI team from the cloud mobile app anywhere, even when you're away from your desk. And if you’re familiar with the Dispatch function from Claude Cowork, they are essentially the same thing. So for any conversation you want to connect remotely, we have to first activate the remote control. So type the slash command remote control in the chat and you will see it now says remote control connected and with a remote control link. So this is the link you will open in your mobile phone to chat with your agents, but don't share this link to anyone since it will give the full control of your session. So once you open it, you immediately connect with your local Claude code session and now we can communicate with the team remotely. So for example, I can just type check the task board and it will trigger the skills I have already set up and grab any pending task on notion and execute it as normal. So basically everything you sent through your phone is immediately sync to your local Claude code session. So for this case, it has identified the new task about building a landing page for a new campaign and get it done. But the limitations for now is you can rely on this one single connected session for any task. So if the context become full, you can type clear conversation to clear the context where you can start the chat again. And whenever you want to disconnect, just click the three dots here and click archive. And all the works are just saved locally, even if you are away. So imagine you might have some urgent tasks. You want your AI agent team to execute for you. It can be useful and it really feels like a 24 7 teammate that works for you and get the work done. So try this yourself and build your AI agent team. If you find this video helpful, please give a thumbs up. I really appreciate that. I also invite you to join our growth community. We are running the AI system for marketing program where we go much deeper from context, setup, research, workflow, all the way to building a complete system. You can find the link below to join. I hope to see you there and join all the AI native marketers. And before you go, also watch this video if you want to get started with Cloud Skill first for building your marketing team. I'll see you next time.",
+  "fetchedAt": "2026-03-28T17:29:06.658Z"
+}

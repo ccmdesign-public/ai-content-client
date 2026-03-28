@@ -6,12 +6,14 @@ publicationName: "Towards AI"
 url: "https://pub.towardsai.net/agentic-ai-project-build-a-customer-service-chatbot-for-a-clinic-9744ef4a5b25?source=rss----98111c9905da---4"
 publishedAt: "2026-03-26"
 tags:
-  - "langgraph"
-  - "openai"
-  - "ai-agent"
-  - "agentic-ai"
-  - "ai"
+  - "agents"
+  - "ai-general"
+  - "chatgpt"
   - "research"
+categories:
+  - "AI & Machine Learning"
+  - "Tools & Productivity"
+tagsNormalizedAt: "2026-03-28T18:10:03.284Z"
 ---
 
 # Agentic AI Project: Build a Customer Service Chatbot for a Clinic
