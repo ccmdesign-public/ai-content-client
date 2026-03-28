@@ -94,6 +94,10 @@ export default defineNuxtConfig({
         maxDuration: 30,
       },
     },
+    // Keep better-sqlite3 as external (native addon can't be rollup-bundled)
+    externals: {
+      external: ['better-sqlite3'],
+    },
     // Prerender all content routes at build time
     prerender: {
       crawlLinks: false,
