@@ -138,8 +138,8 @@ const { tags, topTags } = useTagsConfig()
       <SidebarMenu>
         <SidebarMenuItem>
           <SidebarMenuButton as-child>
-            <NuxtLink to="/tools" class="text-sm text-muted-foreground hover:text-foreground">
-              Tools
+            <NuxtLink to="/masterclasses" class="text-sm text-muted-foreground hover:text-foreground">
+              Masterclasses
             </NuxtLink>
           </SidebarMenuButton>
         </SidebarMenuItem>
