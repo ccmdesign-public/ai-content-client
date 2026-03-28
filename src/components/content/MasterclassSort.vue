@@ -15,7 +15,7 @@ const sortOptions: Array<{ value: MasterclassSortOption; label: string }> = [
   { value: 'newest', label: 'Newest' },
 ]
 
-function handleSortChange(value: string) {
+function handleSortChange(value: any) {
   emit('update:sortBy', value as MasterclassSortOption)
 }
 </script>

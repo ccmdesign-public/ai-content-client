@@ -39,8 +39,9 @@ export function useMasterclassDetail(slug: Ref<string> | string) {
   // 4. Build tier availability map from metadata
   const tierAvailability = computed<TierAvailability[]>(() => {
     if (!rawMetadata.value?.tiers) return []
+    const tiers = rawMetadata.value.tiers
     return TIER_ORDER.map(tier => {
-      const tierMeta = rawMetadata.value.tiers.find((t: any) => t.tier === tier)
+      const tierMeta = tiers.find((t: any) => t.tier === tier)
       return {
         tier,
         available: tierMeta ? !tierMeta.failed : false,
