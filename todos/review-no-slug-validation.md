@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P3
 file: src/server/routes/guides/[slug].md.ts
 line: 16-19
