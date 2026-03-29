@@ -63,7 +63,7 @@ export default defineEventHandler(async (event) => {
   })
 
   // Individual guide pages
-  const guides = await (queryCollection as any)(event, 'guides').all()
+  const guides = await queryCollection(event, 'guides').all()
   for (const guide of guides) {
     const guideSlug = guide.stem.replace(/^guides\//, '').replace(/\/guide$/, '')
     urls.push({

@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, message: 'Slug is required' })
   }
 
-  const guide = await (queryCollection as any)(event, 'guides')
+  const guide = await queryCollection(event, 'guides')
     .path(`/guides/${slug}/guide`)
     .first()
 
