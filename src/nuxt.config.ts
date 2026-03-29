@@ -101,7 +101,7 @@ export default defineNuxtConfig({
     // These pages query all 1,500+ summaries and OOM during prerender
     '/summaries': { isr: 3600 },
     '/summaries/**': { isr: 3600 },
-    // Tools page: redirect to guides
+    // Tools page: permanent redirect to guides (old page removed in AIC-50)
     '/tools': { redirect: { to: '/guides', statusCode: 301 } },
     // Guide pages: on-demand SSR, cached at edge for 1 hour
     '/guides': { isr: 3600 },

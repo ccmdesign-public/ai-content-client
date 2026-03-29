@@ -26,26 +26,30 @@ const tool = computed(() => allTools.value?.find(t => t.slug === slug) || null)
 const pending = computed(() => guidePending.value)
 const error = computed(() => guideError.value)
 
-// SEO
+// SEO -- useAsyncData resolves before SSR render, so guide.value is available
 useSeoMeta({
-  title: computed(() => guide.value ? `${guide.value.title} Guide` : 'Guide'),
-  description: computed(() => guide.value?.description || ''),
-  ogTitle: computed(() => guide.value ? `${guide.value.title} Guide` : 'Guide'),
-  ogDescription: computed(() => guide.value?.description || ''),
+  title: () => guide.value ? `${guide.value.title} Guide` : 'Guide',
+  description: () => guide.value?.description || '',
+  ogTitle: () => guide.value ? `${guide.value.title} Guide` : 'Guide',
+  ogDescription: () => guide.value?.description || '',
 })
 
 // JSON-LD structured data
 useHead({
   script: computed(() => guide.value ? [{
     type: 'application/ld+json',
-    innerHTML: JSON.stringify({
+    children: JSON.stringify({
       '@context': 'https://schema.org',
-      '@type': 'SoftwareApplication',
+      '@type': 'TechArticle',
       name: guide.value.title,
-      applicationCategory: guide.value.category,
       description: guide.value.description,
-    })
-  }] : [])
+      about: {
+        '@type': 'SoftwareApplication',
+        name: guide.value.title,
+        applicationCategory: guide.value.category,
+      },
+    }),
+  }] : []),
 })
 
 </script>
@@ -83,9 +87,9 @@ useHead({
         <div class="mb-8">
           <div class="flex items-center gap-3 flex-wrap mb-2">
             <h1 class="text-2xl font-bold">{{ guide.title }}</h1>
-            <Badge v-if="tool?.stars !== undefined" variant="secondary" class="gap-1">
+            <Badge v-if="tool && tool.stars !== undefined" variant="secondary" class="gap-1">
               <Star class="size-3" aria-hidden="true" />
-              {{ formatStars(tool.stars!) }}
+              {{ formatStars(tool.stars) }}
             </Badge>
           </div>
 

@@ -2,7 +2,7 @@
 id: AIC-50-07
 title: GuideHumanSection uses non-functional CSS class name
 priority: P2
-status: pending
+status: resolved
 file: src/components/content/GuideHumanSection.vue
 line: 7
 ---

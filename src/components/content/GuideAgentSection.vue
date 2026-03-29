@@ -27,6 +27,11 @@ function resourceTypeLabel(type: string): string {
 
 <template>
   <div class="space-y-6">
+    <!-- Empty state -->
+    <p v-if="!agentResources.length && !agentResourceGaps.length && !rawAgentMarkdown" class="text-sm text-muted-foreground">
+      No agent resources have been cataloged for this tool yet.
+    </p>
+
     <!-- Copy button -->
     <div v-if="rawAgentMarkdown" class="flex justify-end">
       <GuideCopyButton :text="rawAgentMarkdown" />

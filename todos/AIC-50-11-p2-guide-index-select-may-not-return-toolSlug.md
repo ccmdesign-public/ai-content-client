@@ -2,7 +2,7 @@
 id: AIC-50-11
 title: Guides index query .select() may not return expected fields
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/index.vue
 line: 35-37
 ---

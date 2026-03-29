@@ -2,7 +2,7 @@
 id: AIC-50-14
 title: GuideCard stars badge shows for tools with 0 stars
 priority: P2
-status: pending
+status: resolved
 file: src/components/content/GuideCard.vue
 line: 38-41
 ---

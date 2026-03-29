@@ -2,7 +2,7 @@
 id: AIC-50-09
 title: JSON-LD script injection via useHead may not serialize correctly during SSR
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/[slug].vue
 line: 40-51
 ---

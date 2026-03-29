@@ -2,7 +2,7 @@
 id: AIC-50-05
 title: Non-null assertion on tool.stars in guide detail page template
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/[slug].vue
 line: 107
 ---

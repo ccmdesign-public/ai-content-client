@@ -22,7 +22,7 @@ defineProps<{
       <div class="flex-1 min-w-0">
         <div class="flex items-center gap-2 flex-wrap">
           <span class="font-medium text-card-foreground">{{ tool.name }}</span>
-          <Badge v-if="tool.stars !== undefined" variant="secondary" class="gap-1">
+          <Badge v-if="tool.stars" variant="secondary" class="gap-1">
             <Star class="size-3" aria-hidden="true" />
             {{ formatStars(tool.stars) }}
           </Badge>

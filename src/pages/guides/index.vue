@@ -30,7 +30,7 @@ const {
 // Load guides to know which tools have guides
 const { data: guides } = useAsyncData(
   'guides-index',
-  () => queryCollection('guides').select('toolSlug', 'description', 'path').all()
+  () => queryCollection('guides').all()
 )
 
 // Create a lookup map: toolSlug -> guide info
@@ -69,7 +69,7 @@ const showNoResults = computed(() =>
 </script>
 
 <template>
-  <div class="guides-directory">
+  <div>
     <!-- Loading state -->
     <div v-if="pending" class="py-6 space-y-2" aria-busy="true" aria-label="Loading guides and tools">
       <Skeleton v-for="n in 6" :key="n" class="h-16 w-full rounded-lg" />

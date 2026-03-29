@@ -2,7 +2,7 @@
 id: AIC-50-12
 title: Old /tools/index.vue page not deleted despite redirect being active
 priority: P2
-status: pending
+status: resolved
 file: src/pages/tools/index.vue
 line: entire file
 ---

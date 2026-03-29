@@ -2,7 +2,7 @@
 id: AIC-50-08
 title: useSeoMeta passes computed refs instead of plain values
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/[slug].vue
 line: 32-37
 ---

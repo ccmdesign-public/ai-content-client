@@ -2,7 +2,7 @@
 id: AIC-50-10
 title: GuideAgentSection shows nothing when both agentResources and agentResourceGaps are empty
 priority: P2
-status: pending
+status: resolved
 file: src/components/content/GuideAgentSection.vue
 line: 28-87
 ---

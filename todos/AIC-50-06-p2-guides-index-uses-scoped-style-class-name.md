@@ -2,7 +2,7 @@
 id: AIC-50-06
 title: Guides index page uses CSS class name without purpose
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/index.vue
 line: 72
 ---
