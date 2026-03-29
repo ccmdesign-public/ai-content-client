@@ -30,7 +30,7 @@ const {
 // Load guides to know which tools have guides
 const { data: guides } = useAsyncData(
   'guides-index',
-  () => queryCollection('guides').all()
+  () => queryCollection('guides').select('toolSlug', 'description', 'path').all()
 )
 
 // Create a lookup map: toolSlug -> guide info
