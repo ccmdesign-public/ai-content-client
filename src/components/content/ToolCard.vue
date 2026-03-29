@@ -1,0 +1,118 @@
+<script setup lang="ts">
+import type { ToolWithStars } from '~/types/tools'
+import { Badge } from '@/components/ui/badge'
+import { ChevronDown, Link as LinkIcon, Github, Star } from 'lucide-vue-next'
+
+const props = defineProps<{
+  tool: ToolWithStars
+  guideUrl?: string
+}>()
+
+const showAllVideos = ref(false)
+
+const displayedVideos = computed(() => {
+  const videos = props.tool.videos || []
+  return showAllVideos.value ? videos : videos.slice(0, 5)
+})
+
+</script>
+
+<template>
+  <details class="group border rounded-lg bg-card [&_summary]:list-none [&_summary::-webkit-details-marker]:hidden">
+    <summary
+      :aria-label="`${tool.name} - ${tool.stats.videoCount} videos`"
+      class="p-4 cursor-pointer select-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded-lg"
+    >
+      <div class="flex items-center gap-3 flex-wrap">
+        <!-- Tool name -->
+        <span class="font-medium text-card-foreground">{{ tool.name }}</span>
+
+        <!-- GitHub stars badge -->
+        <Badge v-if="tool.stars !== undefined" variant="secondary" class="gap-1">
+          <Star class="size-3" aria-hidden="true" />
+          {{ formatStars(tool.stars) }}
+        </Badge>
+
+        <!-- Guide link -->
+        <NuxtLink
+          v-if="guideUrl"
+          :to="guideUrl"
+          class="text-sm text-primary hover:underline"
+          @click.stop
+        >
+          View guide
+        </NuxtLink>
+
+        <!-- Video count -->
+        <span class="text-muted-foreground text-sm ml-auto">
+          {{ tool.stats.videoCount }} {{ tool.stats.videoCount === 1 ? 'video' : 'videos' }}
+        </span>
+
+        <!-- Chevron indicator -->
+        <ChevronDown
+          class="size-4 text-muted-foreground transition-transform duration-200 group-open:rotate-180 motion-reduce:transition-none"
+          aria-hidden="true"
+        />
+      </div>
+    </summary>
+
+    <div class="px-4 pb-4 border-t pt-4 space-y-4">
+      <!-- Links section -->
+      <div v-if="tool.website || tool.github" class="flex flex-wrap gap-3 text-sm">
+        <a
+          v-if="tool.website"
+          :href="tool.website"
+          target="_blank"
+          rel="noopener noreferrer"
+          :aria-label="`${tool.name} website (opens in new tab)`"
+          class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+        >
+          <LinkIcon class="size-4" aria-hidden="true" />
+          Website
+        </a>
+        <a
+          v-if="tool.github?.repo"
+          :href="getGitHubUrl(tool.github.repo)"
+          target="_blank"
+          rel="noopener noreferrer"
+          :aria-label="`${tool.name} on GitHub (opens in new tab)`"
+          class="text-primary hover:underline inline-flex items-center gap-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+        >
+          <Github class="size-4" aria-hidden="true" />
+          GitHub
+        </a>
+      </div>
+
+      <!-- Description if available -->
+      <p v-if="tool.description" class="text-sm text-muted-foreground">
+        {{ tool.description }}
+      </p>
+
+      <!-- Videos section -->
+      <div>
+        <h4 class="text-sm font-medium mb-2 text-muted-foreground">Mentioned in videos:</h4>
+        <ul class="space-y-1">
+          <li v-for="video in displayedVideos" :key="video.id">
+            <NuxtLink
+              :to="`/summaries/${video.id}`"
+              class="text-sm hover:underline text-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+            >
+              {{ video.title }}
+            </NuxtLink>
+          </li>
+        </ul>
+
+        <!-- Show more/less button -->
+        <button
+          v-if="tool.videos?.length > 5"
+          type="button"
+          :aria-expanded="showAllVideos"
+          class="text-sm text-primary hover:underline mt-2 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none rounded"
+          @click="showAllVideos = !showAllVideos"
+        >
+          {{ showAllVideos ? 'Show less' : `Show all ${tool.videos.length} videos` }}
+        </button>
+      </div>
+    </div>
+  </details>
+</template>

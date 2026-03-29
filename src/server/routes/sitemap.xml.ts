@@ -55,12 +55,28 @@ export default defineEventHandler(async (event) => {
     priority: 0.8
   })
 
-  // Tools directory page
+  // Guides directory page
   urls.push({
-    loc: '/tools',
+    loc: '/guides',
     changefreq: 'daily',
     priority: 0.9
   })
+
+  // Individual guide pages
+  // Assign to intermediate variable: wrapping queryCollection in (... as any)
+  // prevents Nitro's auto-import transformer from renaming the reference.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const qcGuides: any = queryCollection
+  const guides = await qcGuides(event, 'guides').all() as import('../../.nuxt/content/types').GuidesCollectionItem[]
+  for (const guide of guides) {
+    const guideSlug = guide.stem.replace(/^guides\//, '').replace(/\/guide$/, '')
+    urls.push({
+      loc: `/guides/${guideSlug}`,
+      lastmod: guide.generatedAt || undefined,
+      changefreq: 'weekly',
+      priority: 0.8
+    })
+  }
 
   // Summary pages
   for (const summary of summaries) {

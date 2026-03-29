@@ -1,103 +1,178 @@
 <script setup lang="ts">
-/**
- * Guide detail page -- placeholder for AIC-51 (agent-accessible guides).
- *
- * This page will be replaced/merged with AIC-50's full guide detail page.
- * For now it provides the markdown alternate link and TechArticle JSON-LD
- * so that the agent-accessible endpoints are discoverable from the HTML page.
- */
+import { Badge } from '@/components/ui/badge'
+import { Star, Github, Link as LinkIcon, ArrowLeft } from 'lucide-vue-next'
+import type { ToolWithStars } from '~/types/tools'
+
+definePageMeta({ footer: false })
+
 const config = useRuntimeConfig()
 const route = useRoute()
 const slug = route.params.slug as string
 const siteUrl = config.public.siteUrl || 'http://localhost:3000'
-const canonicalUrl = `${siteUrl}/guides/${slug}`
 
-// Fetch tool data from the prerendered JSON endpoint
-const { data: tools, status } = await useFetch<Array<{ slug: string; name: string; description: string | null; stats: { videoCount: number } }>>('/tools-with-stars.json')
-const tool = computed(() => tools.value?.find(t => t.slug === slug))
-
-const pageTitle = computed(() => tool.value?.name ? `${tool.value.name} Guide` : 'Guide')
-const pageDescription = computed(() =>
-  tool.value?.description || (tool.value ? `${tool.value.name} is mentioned in ${tool.value.stats.videoCount} videos.` : '')
+// 1. Load guide content from collection
+const { data: guide, pending: guidePending, error: guideError, refresh } = useAsyncData(
+  `guide-${slug}`,
+  () => queryCollection('guides').path(`/guides/${slug}/guide`).first()
 )
 
-useSeoMeta({
-  title: pageTitle,
-  ogTitle: pageTitle,
-  description: pageDescription,
-  ogDescription: pageDescription,
+// 2. Load tool metadata (stars, links, videos) from server route
+const { data: allTools } = useFetch<ToolWithStars[]>('/tools-with-stars.json', {
+  key: 'tools-directory'
 })
 
-useHead(() => ({
+// 3. Merge: find the matching tool by slug
+const tool = computed(() => allTools.value?.find(t => t.slug === slug) || null)
+
+// Combined loading state
+const pending = computed(() => guidePending.value)
+const error = computed(() => guideError.value)
+
+// SEO -- useAsyncData resolves before SSR render, so guide.value is available
+useSeoMeta({
+  title: () => guide.value ? `${guide.value.title} Guide` : 'Guide',
+  description: () => guide.value?.description || '',
+  ogTitle: () => guide.value ? `${guide.value.title} Guide` : 'Guide',
+  ogDescription: () => guide.value?.description || '',
+})
+
+// JSON-LD structured data + markdown alternate link (from AIC-51)
+useHead({
   link: [
     { rel: 'alternate', type: 'text/markdown', href: `/guides/${slug}.md` },
   ],
-  script: tool.value
-    ? [
-        {
-          type: 'application/ld+json',
-          innerHTML: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'TechArticle',
-            'headline': pageTitle.value,
-            'description': pageDescription.value,
-            'url': canonicalUrl,
-            'publisher': {
-              '@type': 'Organization',
-              'name': 'AI Content Guides',
-            },
-            'encoding': {
-              '@type': 'MediaObject',
-              'contentUrl': `${siteUrl}/guides/${slug}.md`,
-              'encodingFormat': 'text/markdown',
-            },
-          }),
-        },
-      ]
-    : [],
-}))
+  script: computed(() => guide.value ? [{
+    type: 'application/ld+json',
+    children: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      name: guide.value.title,
+      description: guide.value.description,
+      url: `${siteUrl}/guides/${slug}`,
+      about: {
+        '@type': 'SoftwareApplication',
+        name: guide.value.title,
+        applicationCategory: guide.value.category,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'AI Content Guides',
+      },
+      encoding: {
+        '@type': 'MediaObject',
+        contentUrl: `${siteUrl}/guides/${slug}.md`,
+        encodingFormat: 'text/markdown',
+      },
+    }),
+  }] : []),
+})
+
 </script>
 
 <template>
-  <div class="container mx-auto max-w-4xl px-4 py-8">
-    <div v-if="status === 'pending'" class="space-y-6">
-      <Skeleton class="h-8 w-48" />
-      <Skeleton class="h-4 w-96" />
-      <Skeleton class="h-4 w-64" />
+  <section class="py-8">
+    <!-- Loading skeleton -->
+    <div v-if="pending" aria-busy="true" aria-label="Loading guide">
+      <div class="max-w-[80ch] mx-auto px-4 space-y-4">
+        <Skeleton class="h-4 w-32" />
+        <Skeleton class="h-8 w-3/4" />
+        <Skeleton class="h-4 w-full" />
+        <Skeleton class="h-4 w-5/6" />
+        <Skeleton class="h-64 w-full rounded-lg" />
+      </div>
     </div>
-    <div v-else-if="status === 'error'" class="py-16 text-center">
-      <h1 class="text-2xl font-bold">
-        Something went wrong
-      </h1>
-      <p class="mt-2 text-muted-foreground">
-        Could not load guide data. Please try again later.
-      </p>
-    </div>
-    <div v-else-if="tool" class="space-y-6">
-      <h1 class="text-3xl font-bold">
-        {{ tool.name }}
-      </h1>
-      <p class="text-lg text-muted-foreground">
-        {{ pageDescription }}
-      </p>
-      <p class="text-sm text-muted-foreground">
-        This guide page is under construction. View the
-        <NuxtLink :to="`/guides/${slug}.md`" class="underline">
-          markdown version
+    <PageErrorState v-else-if="error" message="Failed to load this guide." @retry="refresh()" />
+    <PageNotFound
+      v-else-if="!guide"
+      icon="help_outline"
+      title="Guide not found"
+      message="We couldn't find the guide you're looking for."
+      link-to="/guides"
+      link-text="Browse all guides"
+    />
+    <div v-else>
+      <div class="max-w-[80ch] mx-auto px-4">
+        <!-- Back link -->
+        <NuxtLink to="/guides" class="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6">
+          <ArrowLeft class="size-4" aria-hidden="true" />
+          Back to guides
         </NuxtLink>
-        for agent-readable content.
-      </p>
+
+        <!-- Header -->
+        <div class="mb-8">
+          <div class="flex items-center gap-3 flex-wrap mb-2">
+            <h1 class="text-2xl font-bold">{{ guide.title }}</h1>
+            <Badge v-if="tool && tool.stars !== undefined" variant="secondary" class="gap-1">
+              <Star class="size-3" aria-hidden="true" />
+              {{ formatStars(tool.stars) }}
+            </Badge>
+          </div>
+
+          <div class="flex items-center gap-3 flex-wrap text-sm">
+            <Badge variant="outline">{{ guide.category }}</Badge>
+            <a
+              v-if="tool?.website"
+              :href="tool.website"
+              target="_blank"
+              rel="noopener noreferrer"
+              :aria-label="`${guide.title} website (opens in new tab)`"
+              class="text-primary hover:underline inline-flex items-center gap-1"
+            >
+              <LinkIcon class="size-4" aria-hidden="true" />
+              Website
+            </a>
+            <a
+              v-if="tool?.github?.repo"
+              :href="getGitHubUrl(tool.github.repo)"
+              target="_blank"
+              rel="noopener noreferrer"
+              :aria-label="`${guide.title} on GitHub (opens in new tab)`"
+              class="text-primary hover:underline inline-flex items-center gap-1"
+            >
+              <Github class="size-4" aria-hidden="true" />
+              GitHub
+            </a>
+          </div>
+
+          <p class="mt-3 text-muted-foreground">{{ guide.description }}</p>
+        </div>
+
+        <!-- Guide content (renders full markdown body with both sections) -->
+        <GuideHumanSection :guide="guide" />
+
+        <!-- Structured agent resources -->
+        <div class="mt-8 pt-8 border-t">
+          <GuideAgentSection
+            :agent-resources="guide.agentResources || []"
+            :agent-resource-gaps="guide.agentResourceGaps || []"
+            :raw-agent-markdown="guide.rawAgentMarkdown"
+          />
+        </div>
+
+        <!-- Related videos from tools.yml data -->
+        <div v-if="tool?.videos?.length" class="mt-8 pt-8 border-t">
+          <h2 class="text-lg font-semibold mb-4">Related Videos</h2>
+          <ul class="space-y-2">
+            <li v-for="video in tool.videos.slice(0, 10)" :key="video.id">
+              <NuxtLink
+                :to="`/summaries/${video.id}`"
+                class="text-sm hover:underline text-foreground"
+              >
+                {{ video.title }}
+              </NuxtLink>
+            </li>
+            <li v-if="tool.videos.length > 10" class="text-sm text-muted-foreground">
+              and {{ tool.videos.length - 10 }} more videos
+            </li>
+          </ul>
+        </div>
+
+        <!-- Generation metadata -->
+        <div class="mt-8 pt-4 border-t text-xs text-muted-foreground">
+          Generated from {{ guide.generatedFrom.summaryCount }} video summaries
+          <span v-if="guide.generatedFrom.articleCount"> and {{ guide.generatedFrom.articleCount }} articles</span>
+        </div>
+      </div>
     </div>
-    <div v-else class="py-16 text-center">
-      <h1 class="text-2xl font-bold">
-        Guide not found
-      </h1>
-      <p class="mt-2 text-muted-foreground">
-        The guide "{{ slug }}" does not exist.
-      </p>
-      <NuxtLink to="/tools" class="mt-4 inline-block underline">
-        Browse all tools
-      </NuxtLink>
-    </div>
-  </div>
+  </section>
 </template>

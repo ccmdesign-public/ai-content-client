@@ -2,20 +2,23 @@ import type { Tool } from '~/types/tools'
 import { loadToolsMap } from '~/server/utils/tools-loader'
 
 /**
- * /guides/[slug].md -- individual tool guide as markdown.
+ * Server middleware for /guides/[slug].md endpoints.
  *
- * Pre-AIC-50 fallback: generates a minimal markdown page from tools.yml
- * metadata. After AIC-50 merges, this should switch to querying the
- * guides content collection for full guide content.
+ * This is implemented as middleware (not a file-based route) to avoid
+ * Nitro's [slug] catch-all under /guides/ intercepting Nuxt's internal
+ * _payload.json requests during prerender. Middleware can selectively
+ * handle only .md requests and pass everything else through.
  */
 export default defineEventHandler(async (event) => {
+  const path = event.path || getRequestURL(event).pathname
+
+  // Only handle /guides/*.md requests
+  const match = path.match(/^\/guides\/([a-z0-9-]+)\.md$/)
+  if (!match) return // Pass through to Nuxt page routes
+
+  const slug = match[1]
   const config = useRuntimeConfig()
   const siteUrl = config.public.siteUrl || 'http://localhost:3000'
-  const slug = getRouterParam(event, 'slug')
-
-  if (!slug || !/^[a-z0-9-]+$/.test(slug)) {
-    throw createError({ statusCode: 400, message: 'Invalid slug format' })
-  }
 
   // Load tools asynchronously (cached after first call)
   const toolsMap = await loadToolsMap()
