@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P2
 file: netlify.toml
 line: 35-37

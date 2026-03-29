@@ -34,7 +34,12 @@
 
 # Agent-accessible text endpoints
 [[headers]]
-  for = "/*.txt"
+  for = "/llms.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/llms-full.txt"
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
