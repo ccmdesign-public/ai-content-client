@@ -168,6 +168,29 @@
 }
 
 
+/* Prose code blocks: light bg with syntax-highlighted text for contrast.
+   Shiki injects inline color styles per token; we just set the container. */
+.prose pre {
+  background-color: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.prose pre code {
+  background-color: transparent;
+  color: inherit;
+  font-size: 0.875em;
+}
+
+.prose :not(pre) > code {
+  background-color: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.15em 0.35em;
+  font-size: 0.875em;
+  color: var(--foreground);
+}
+
 /* Prose layout utility (migrated from CUBE prose.css) */
 .prose-layout {
   --_prose-padding-inline: 1rem;

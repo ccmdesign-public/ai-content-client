@@ -54,12 +54,12 @@ function resourceTypeLabel(type: string): string {
 
         <!-- Install command -->
         <div v-if="resource.installCommand" class="mt-2">
-          <pre class="text-sm bg-background border rounded p-3 overflow-x-auto"><code>{{ resource.installCommand }}</code></pre>
+          <pre class="text-sm bg-secondary border rounded p-3 overflow-x-auto"><code>{{ resource.installCommand }}</code></pre>
         </div>
 
         <!-- Content (primer prompts, config snippets) -->
         <div v-if="resource.content" class="mt-2">
-          <pre class="text-sm bg-background border rounded p-3 overflow-x-auto whitespace-pre-wrap"><code>{{ resource.content }}</code></pre>
+          <pre class="text-sm bg-secondary border rounded p-3 overflow-x-auto whitespace-pre-wrap"><code>{{ resource.content }}</code></pre>
         </div>
 
         <!-- External link -->

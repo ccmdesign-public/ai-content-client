@@ -29,6 +29,18 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: ''
   },
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'rose-pine-dawn',
+            dark: 'rose-pine-moon',
+          },
+        },
+      },
+    },
+  },
   gtag: {
     id: 'G-2CHWGY0HJ8'
   },
