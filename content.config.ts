@@ -49,8 +49,50 @@ const articleSchema = z.object({
   tags: z.array(z.string()).optional()
 })
 
+// Masterclass tier metadata (reusable sub-schema)
+const masterclassTierMetadataSchema = z.object({
+  tier: z.enum(['beginner', 'intermediate', 'advanced']),
+  inputTokens: z.number().optional(),
+  outputTokens: z.number().optional(),
+  totalTokens: z.number().optional(),
+  processingTimeMs: z.number().optional(),
+  failed: z.boolean().optional(),
+  failureReason: z.string().optional(),
+})
+
 export default defineContentConfig({
   collections: {
+    masterclasses: defineCollection({
+      type: 'page',
+      source: {
+        include: 'masterclasses/**/*.md',
+        cwd: contentDir
+      },
+      schema: z.object({})
+    }),
+    masterclassMetadata: defineCollection({
+      type: 'data',
+      source: {
+        include: 'masterclasses/*/metadata.yml',
+        cwd: contentDir
+      },
+      schema: z.object({
+        slug: z.string(),
+        name: z.string(),
+        category: z.enum(['tool', 'technique', 'skill']),
+        tags: z.array(z.string()),
+        generatedAt: z.string(),
+        sourceCount: z.number(),
+        contentHash: z.string(),
+        modelUsed: z.string(),
+        schemaVersion: z.string(),
+        tldr: z.string(),
+        description: z.string().optional(),
+        toolId: z.string().optional(),
+        relatedTopics: z.array(z.string()).optional(),
+        tiers: z.array(masterclassTierMetadataSchema),
+      })
+    }),
     summaries: defineCollection({
       type: 'page',
       source: {

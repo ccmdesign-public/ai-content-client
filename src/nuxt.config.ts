@@ -106,6 +106,9 @@ export default defineNuxtConfig({
     // Guide pages: on-demand SSR, cached at edge for 1 hour
     '/guides': { isr: 3600 },
     '/guides/**': { isr: 3600 },
+    // Masterclasses: on-demand SSR, cached at edge for 1 hour
+    '/masterclasses': { isr: 3600 },
+    '/masterclasses/**': { isr: 3600 },
     // Tag pages: on-demand SSR (each tag cross-references all summaries)
     '/tags': { isr: 3600 },
     '/tags/**': { isr: 3600 },
