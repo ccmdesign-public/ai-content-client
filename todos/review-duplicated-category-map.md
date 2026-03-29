@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P2
 file: scripts/build-llms-full.ts
 line: 14-81

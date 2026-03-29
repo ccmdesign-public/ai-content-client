@@ -11,36 +11,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { parse as parseYaml } from 'yaml'
 import type { Tool, ToolsYaml } from '../src/types/tools'
-
-// Inline category logic (scripts can't use Nitro auto-imports)
-const TOOL_CATEGORIES: Record<string, string> = {
-  'claude code': 'AI & ML', 'claude': 'AI & ML', 'model context protocol': 'AI & ML',
-  'mcp': 'AI & ML', 'dspy': 'AI & ML', 'baml': 'AI & ML', 'whisper': 'AI & ML',
-  'openai': 'AI & ML', 'anthropic': 'AI & ML', 'gemini': 'AI & ML', 'cursor': 'AI & ML',
-  'copilot': 'AI & ML', 'chatgpt': 'AI & ML', 'gpt-4': 'AI & ML', 'llm': 'AI & ML',
-  'langchain': 'AI & ML', 'llamaindex': 'AI & ML', 'ollama': 'AI & ML',
-  'hugging face': 'AI & ML', 'stable diffusion': 'AI & ML', 'midjourney': 'AI & ML',
-  'git': 'Developer Tools', 'github': 'Developer Tools', 'gitlab': 'Developer Tools',
-  'vscode': 'Developer Tools', 'visual studio code': 'Developer Tools',
-  'neovim': 'Developer Tools', 'vim': 'Developer Tools', 'terminal': 'Developer Tools',
-  'npm': 'Developer Tools', 'yarn': 'Developer Tools', 'pnpm': 'Developer Tools',
-  'homebrew': 'Developer Tools', 'postman': 'Developer Tools',
-  'react': 'Frameworks', 'vue': 'Frameworks', 'nuxt': 'Frameworks',
-  'next.js': 'Frameworks', 'nextjs': 'Frameworks', 'svelte': 'Frameworks',
-  'angular': 'Frameworks', 'tailwind css': 'Frameworks', 'tailwindcss': 'Frameworks',
-  'django': 'Frameworks', 'fastapi': 'Frameworks', 'express': 'Frameworks',
-  'node.js': 'Frameworks', 'nodejs': 'Frameworks',
-  'docker': 'Cloud & DevOps', 'kubernetes': 'Cloud & DevOps', 'aws': 'Cloud & DevOps',
-  'gcp': 'Cloud & DevOps', 'azure': 'Cloud & DevOps', 'vercel': 'Cloud & DevOps',
-  'netlify': 'Cloud & DevOps', 'cloudflare': 'Cloud & DevOps', 'terraform': 'Cloud & DevOps',
-  'figma': 'Design', 'sketch': 'Design', 'canva': 'Design', 'framer': 'Design',
-  'notion': 'Productivity', 'slack': 'Productivity', 'obsidian': 'Productivity',
-  'linear': 'Productivity', 'jira': 'Productivity', 'trello': 'Productivity',
-}
-
-function categorizeTool(name: string): string {
-  return TOOL_CATEGORIES[name.toLowerCase()] || 'Other'
-}
+import { categorizeTool } from '../src/server/utils/tool-categories'
 
 const FIVE_MB = 5 * 1024 * 1024
 const siteUrl = process.env.SITE_URL || 'http://localhost:3000'

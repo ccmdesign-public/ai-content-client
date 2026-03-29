@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P2
 file: src/server/routes/llms.txt.ts
 line: 49-57
