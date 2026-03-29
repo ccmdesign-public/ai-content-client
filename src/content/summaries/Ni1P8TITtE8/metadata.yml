@@ -1,0 +1,97 @@
+videoId: Ni1P8TITtE8
+title: How to Build a production-ready RAG AI agent
+description: >-
+  GCP credit →https://goo.gle/handson-ep2-lab2
+
+  Codelab & source code → https://goo.gle/scholar
+
+  Try Google ADK → https://goo.gle/4bPEHej
+
+
+  In this episode, Ayo and Annie go from structured data to a fully deployed,
+  data-aware RAG agent, and we cover a LOT of ground. Starting where they left
+  off from last episode (BigQuery + BQML.GENERATE_TEXT), the duo now wire up the
+  full backend for an AI agent: a vector database, an embedding pipeline, a RAG
+  retrieval system, and a production ready Cloud Run deployment. 
+
+
+  🛠️ *What we build:*
+
+  * Cloud SQL for PostgreSQL with pgvector for semantic search 
+
+  * A containerized Apache Beam pipeline on Dataflow to batch-process text and
+  generate Gemini embeddings 
+
+  * A RAG retrieval layer that lets the agent query vectorized knowledge 
+
+  * An ADK based agent that answers questions using that knowledge 
+
+  * A Cloud Run deployment with proper security and scalability settings 
+
+
+  This is hands-on, infrastructure-meets AI content. you'll leave with a real,
+  working pattern you can adapt for your own projects. 
+
+
+  Chapters:
+
+  0:00 - Intro
+
+  1:41 - (RAG) Retrieval Augmented Generation and chunking
+
+  4:40 - Data project overview
+
+  4:52 - Similarity search
+
+  6:40 - RAG in BigQuery
+
+  11:56 - [BQML] ML Generate in Big Query
+
+  19:46 - OLAP & OLTP
+
+  24:21 - AI in CloudSQL 
+
+  28:38 - Index using HNSW
+
+  31:29 - Scaling with data pipeline
+
+  36:46 - Apache Beam
+
+  53:02 - RAG agent With CloudSQL
+
+  1:09:52 - Flight the BOSS with A2A
+
+
+  More resources:
+
+  AI in CloudSQL→  https://goo.gle/4uRlm5v
+
+  Apache Beam → https://goo.gle/3O6OJzY
+
+  ADK Sample → https://goo.gle/4rQKWVn
+
+
+  Watch more Hand on AI → https://goo.gle/HowToWithGemini 
+
+  🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech
+
+
+  #Gemini #GoogleCloud
+
+
+  Speakers: Ayo Adedeji, Annie Wang
+
+  Products Mentioned: Agent Development Kit, Dataflow
+channel: Google Cloud Tech
+channelId: UCJS9pqu9BzkAMNTmzNMNhvg
+duration: PT1H13M43S
+publishedAt: 2026-03-28T19:00:00Z
+thumbnailUrl: https://i.ytimg.com/vi/Ni1P8TITtE8/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=Ni1P8TITtE8
+processedAt: 2026-03-29T00:00:37.163Z
+lengthCategory: longform
+modelUsed: notebooklm
+aiProvider: notebooklm
+apiCalls: 1
+fallbackAttempts: 0
+processingTimeMs: 75148
