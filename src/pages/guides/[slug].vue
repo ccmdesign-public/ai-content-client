@@ -5,8 +5,10 @@ import type { ToolWithStars } from '~/types/tools'
 
 definePageMeta({ footer: false })
 
+const config = useRuntimeConfig()
 const route = useRoute()
 const slug = route.params.slug as string
+const siteUrl = config.public.siteUrl || 'http://localhost:3000'
 
 // 1. Load guide content from collection
 const { data: guide, pending: guidePending, error: guideError, refresh } = useAsyncData(
@@ -34,8 +36,11 @@ useSeoMeta({
   ogDescription: () => guide.value?.description || '',
 })
 
-// JSON-LD structured data
+// JSON-LD structured data + markdown alternate link (from AIC-51)
 useHead({
+  link: [
+    { rel: 'alternate', type: 'text/markdown', href: `/guides/${slug}.md` },
+  ],
   script: computed(() => guide.value ? [{
     type: 'application/ld+json',
     children: JSON.stringify({
@@ -43,10 +48,20 @@ useHead({
       '@type': 'TechArticle',
       name: guide.value.title,
       description: guide.value.description,
+      url: `${siteUrl}/guides/${slug}`,
       about: {
         '@type': 'SoftwareApplication',
         name: guide.value.title,
         applicationCategory: guide.value.category,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'AI Content Guides',
+      },
+      encoding: {
+        '@type': 'MediaObject',
+        contentUrl: `${siteUrl}/guides/${slug}.md`,
+        encodingFormat: 'text/markdown',
       },
     }),
   }] : []),

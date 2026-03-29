@@ -3,10 +3,10 @@
   "private": true,
   "packageManager": "pnpm@10.28.2",
   "scripts": {
-    "prebuild": "tsx scripts/copy-transcripts.ts && tsx scripts/build-search-index.ts",
+    "prebuild": "tsx scripts/copy-transcripts.ts && tsx scripts/build-search-index.ts && tsx scripts/build-llms-full.ts",
     "build": "nuxt build",
     "build:search-index": "tsx scripts/build-search-index.ts",
-    "pregenerate": "tsx scripts/copy-transcripts.ts && tsx scripts/build-search-index.ts",
+    "pregenerate": "tsx scripts/copy-transcripts.ts && tsx scripts/build-search-index.ts && tsx scripts/build-llms-full.ts",
     "dev": "NODE_OPTIONS='--max-old-space-size=8192' nuxt dev",
     "dev:host": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",

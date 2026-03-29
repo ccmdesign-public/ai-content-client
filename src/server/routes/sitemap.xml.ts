@@ -124,6 +124,10 @@ export default defineEventHandler(async (event) => {
     })
   }
 
+  // Agent-accessible guide endpoints
+  urls.push({ loc: '/guides.md', changefreq: 'daily', priority: 0.6 })
+  urls.push({ loc: '/llms.txt', changefreq: 'weekly', priority: 0.3 })
+
   // Generate sitemap XML
   const xml = generateSitemapXml(urls, siteUrl)
 
