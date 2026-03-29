@@ -2,7 +2,7 @@
 id: AIC-50-18
 title: GuideCopyButton silently fails with console.error only
 priority: P3
-status: pending
+status: resolved
 file: src/components/content/GuideCopyButton.vue
 line: 18-20
 ---

@@ -2,7 +2,7 @@
 id: AIC-50-01
 title: Unsafe `as any` cast on queryCollection in sitemap and API endpoint
 priority: P1
-status: pending
+status: resolved
 file: src/server/routes/sitemap.xml.ts, src/server/api/guides/[slug].json.ts
 line: sitemap.xml.ts:68, [slug].json.ts:9
 ---

@@ -40,8 +40,8 @@ function resourceTypeLabel(type: string): string {
     <!-- Agent resources -->
     <div v-if="agentResources.length" class="space-y-4">
       <div
-        v-for="(resource, index) in agentResources"
-        :key="index"
+        v-for="resource in agentResources"
+        :key="`${resource.type}-${resource.name}`"
         class="p-4 border rounded-lg bg-muted/50"
       >
         <div class="flex items-center gap-2 mb-2">

@@ -2,7 +2,7 @@
 id: AIC-50-16
 title: GuideHumanSection prop typed as `any`
 priority: P3
-status: pending
+status: resolved
 file: src/components/content/GuideHumanSection.vue
 line: 3
 ---

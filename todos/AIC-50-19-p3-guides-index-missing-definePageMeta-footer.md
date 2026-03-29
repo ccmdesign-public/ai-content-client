@@ -2,7 +2,7 @@
 id: AIC-50-19
 title: Guides index page has empty definePageMeta
 priority: P3
-status: pending
+status: deferred
 file: src/pages/guides/index.vue
 line: 6
 ---

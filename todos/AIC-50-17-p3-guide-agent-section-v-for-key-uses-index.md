@@ -2,7 +2,7 @@
 id: AIC-50-17
 title: v-for key uses array index instead of stable identifier
 priority: P3
-status: pending
+status: resolved
 file: src/components/content/GuideAgentSection.vue
 line: 39
 ---
