@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P2
 file: src/pages/guides/[slug].vue
 line: 76

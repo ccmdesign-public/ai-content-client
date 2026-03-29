@@ -13,7 +13,7 @@ const siteUrl = config.public.siteUrl || 'http://localhost:3000'
 const canonicalUrl = `${siteUrl}/guides/${slug}`
 
 // Fetch tool data from the prerendered JSON endpoint
-const { data: tools } = await useFetch<Array<{ slug: string; name: string; description: string | null; stats: { videoCount: number } }>>('/tools-with-stars.json')
+const { data: tools, status } = await useFetch<Array<{ slug: string; name: string; description: string | null; stats: { videoCount: number } }>>('/tools-with-stars.json')
 const tool = computed(() => tools.value?.find(t => t.slug === slug))
 
 const pageTitle = computed(() => tool.value?.name ? `${tool.value.name} Guide` : 'Guide')
@@ -28,37 +28,52 @@ useSeoMeta({
   ogDescription: pageDescription,
 })
 
-useHead({
+useHead(() => ({
   link: [
     { rel: 'alternate', type: 'text/markdown', href: `/guides/${slug}.md` },
   ],
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'TechArticle',
-        'headline': pageTitle.value,
-        'description': pageDescription.value,
-        'url': canonicalUrl,
-        'publisher': {
-          '@type': 'Organization',
-          'name': 'AI Content Guides',
+  script: tool.value
+    ? [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'TechArticle',
+            'headline': pageTitle.value,
+            'description': pageDescription.value,
+            'url': canonicalUrl,
+            'publisher': {
+              '@type': 'Organization',
+              'name': 'AI Content Guides',
+            },
+            'encoding': {
+              '@type': 'MediaObject',
+              'contentUrl': `${siteUrl}/guides/${slug}.md`,
+              'encodingFormat': 'text/markdown',
+            },
+          }),
         },
-        'encoding': {
-          '@type': 'MediaObject',
-          'contentUrl': `${siteUrl}/guides/${slug}.md`,
-          'encodingFormat': 'text/markdown',
-        },
-      }),
-    },
-  ],
-})
+      ]
+    : [],
+}))
 </script>
 
 <template>
   <div class="container mx-auto max-w-4xl px-4 py-8">
-    <div v-if="tool" class="space-y-6">
+    <div v-if="status === 'pending'" class="space-y-6">
+      <Skeleton class="h-8 w-48" />
+      <Skeleton class="h-4 w-96" />
+      <Skeleton class="h-4 w-64" />
+    </div>
+    <div v-else-if="status === 'error'" class="py-16 text-center">
+      <h1 class="text-2xl font-bold">
+        Something went wrong
+      </h1>
+      <p class="mt-2 text-muted-foreground">
+        Could not load guide data. Please try again later.
+      </p>
+    </div>
+    <div v-else-if="tool" class="space-y-6">
       <h1 class="text-3xl font-bold">
         {{ tool.name }}
       </h1>
