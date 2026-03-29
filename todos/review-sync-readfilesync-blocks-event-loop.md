@@ -1,5 +1,5 @@
 ---
-status: pending
+status: resolved
 priority: P1
 file: src/server/routes/guides.md.ts, src/server/routes/guides/[slug].md.ts, src/server/routes/llms.txt.ts
 line: 19, 24, 19

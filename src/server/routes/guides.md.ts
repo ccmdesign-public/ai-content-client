@@ -1,8 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-import { parse as parseYaml } from 'yaml'
-import type { ToolsYaml } from '~/types/tools'
 import { categorizeTool, CATEGORY_ORDER } from '~/server/utils/tool-categories'
+import { loadTools } from '~/server/utils/tools-loader'
 
 /**
  * /guides.md -- markdown directory of all tool guides.
@@ -14,14 +11,8 @@ export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
   const siteUrl = config.public.siteUrl || 'http://localhost:3000'
 
-  // Read tools.yml
-  const toolsPath = resolve(process.cwd(), 'src/content/tools.yml')
-  const toolsYaml = readFileSync(toolsPath, 'utf-8')
-  const { tools: toolsMap } = parseYaml(toolsYaml) as ToolsYaml
-
-  // Convert to array and sort by video count
-  const tools = Object.values(toolsMap)
-    .sort((a, b) => b.stats.videoCount - a.stats.videoCount)
+  // Load tools asynchronously (cached after first call)
+  const tools = await loadTools()
 
   // Group by category
   const grouped = new Map<string, typeof tools>()

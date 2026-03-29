@@ -1,8 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-import { parse as parseYaml } from 'yaml'
-import type { ToolsYaml } from '~/types/tools'
-import { categorizeTool } from '~/server/utils/tool-categories'
+import { categorizeTool, CATEGORY_ORDER } from '~/server/utils/tool-categories'
+import { loadTools } from '~/server/utils/tools-loader'
 
 /**
  * /llms.txt -- machine-readable site index for LLM agents.
@@ -14,14 +11,8 @@ export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
   const siteUrl = config.public.siteUrl || 'http://localhost:3000'
 
-  // Read tools.yml (same pattern as tools-with-stars.json.ts)
-  const toolsPath = resolve(process.cwd(), 'src/content/tools.yml')
-  const toolsYaml = readFileSync(toolsPath, 'utf-8')
-  const { tools: toolsMap } = parseYaml(toolsYaml) as ToolsYaml
-
-  // Convert to array and sort by video count
-  const tools = Object.values(toolsMap)
-    .sort((a, b) => b.stats.videoCount - a.stats.videoCount)
+  // Load tools asynchronously (cached after first call)
+  const tools = await loadTools()
 
   // Group by category using the shared utility
   const grouped = new Map<string, typeof tools>()
@@ -47,18 +38,7 @@ export default defineEventHandler(async (event) => {
     '',
   ]
 
-  // Ordered categories
-  const categoryOrder = [
-    'AI & ML',
-    'Developer Tools',
-    'Frameworks',
-    'Cloud & DevOps',
-    'Design',
-    'Productivity',
-    'Other',
-  ]
-
-  for (const category of categoryOrder) {
+  for (const category of CATEGORY_ORDER) {
     const categoryTools = grouped.get(category)
     if (!categoryTools || categoryTools.length === 0) continue
 

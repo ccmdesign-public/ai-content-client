@@ -1,7 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-import { parse as parseYaml } from 'yaml'
-import type { Tool, ToolsYaml } from '~/types/tools'
+import type { Tool } from '~/types/tools'
+import { loadToolsMap } from '~/server/utils/tools-loader'
 
 /**
  * /guides/[slug].md -- individual tool guide as markdown.
@@ -15,14 +13,12 @@ export default defineEventHandler(async (event) => {
   const siteUrl = config.public.siteUrl || 'http://localhost:3000'
   const slug = getRouterParam(event, 'slug')
 
-  if (!slug) {
-    throw createError({ statusCode: 400, message: 'Missing slug parameter' })
+  if (!slug || !/^[a-z0-9-]+$/.test(slug)) {
+    throw createError({ statusCode: 400, message: 'Invalid slug format' })
   }
 
-  // Read tools.yml (fallback until AIC-50 guides collection is available)
-  const toolsPath = resolve(process.cwd(), 'src/content/tools.yml')
-  const toolsYaml = readFileSync(toolsPath, 'utf-8')
-  const { tools: toolsMap } = parseYaml(toolsYaml) as ToolsYaml
+  // Load tools asynchronously (cached after first call)
+  const toolsMap = await loadToolsMap()
 
   // Find the tool by slug
   const tool: Tool | undefined = Object.values(toolsMap).find(t => t.slug === slug)
@@ -69,9 +65,10 @@ export default defineEventHandler(async (event) => {
     lines.push('')
     lines.push('## Related Tools')
     lines.push('')
+    const toolsById = new Map(Object.values(toolsMap).map(t => [t.id, t]))
     const topRelated = tool.relatedTools.slice(0, 10)
     for (const related of topRelated) {
-      const relatedTool = Object.values(toolsMap).find(t => t.id === related.id)
+      const relatedTool = toolsById.get(related.id)
       if (relatedTool) {
         lines.push(`- [${relatedTool.name}](${siteUrl}/guides/${relatedTool.slug}.md) (${related.sharedVideos} shared videos)`)
       }
