@@ -2,7 +2,7 @@
 id: AIC-50-02
 title: GuideHumanSection renders full markdown body including agent section
 priority: P1
-status: pending
+status: resolved
 file: src/components/content/GuideHumanSection.vue
 line: 8
 ---
