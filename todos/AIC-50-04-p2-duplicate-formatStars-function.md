@@ -2,7 +2,7 @@
 id: AIC-50-04
 title: formatStars utility duplicated across three components
 priority: P2
-status: pending
+status: resolved
 file: src/pages/guides/[slug].vue, src/components/content/GuideCard.vue, src/components/content/ToolCard.vue
 line: "[slug].vue:59-66, GuideCard.vue:13-20"
 ---

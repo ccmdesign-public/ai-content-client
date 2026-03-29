@@ -15,25 +15,6 @@ const displayedVideos = computed(() => {
   return showAllVideos.value ? videos : videos.slice(0, 5)
 })
 
-/**
- * Format large numbers with K/M suffix
- */
-function formatStars(count: number): string {
-  if (count >= 1000000) {
-    return `${(count / 1000000).toFixed(1)}M`
-  }
-  if (count >= 1000) {
-    return `${(count / 1000).toFixed(1)}k`
-  }
-  return count.toString()
-}
-
-/**
- * Get the GitHub URL from repo path
- */
-function getGitHubUrl(repo: string): string {
-  return `https://github.com/${repo}`
-}
 </script>
 
 <template>

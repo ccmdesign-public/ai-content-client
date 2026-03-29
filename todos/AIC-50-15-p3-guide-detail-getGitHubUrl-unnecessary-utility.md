@@ -2,7 +2,7 @@
 id: AIC-50-15
 title: getGitHubUrl is a trivial function that could be a template expression
 priority: P3
-status: pending
+status: resolved
 file: src/pages/guides/[slug].vue
 line: 71-73
 ---
