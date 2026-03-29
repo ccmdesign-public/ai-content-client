@@ -63,9 +63,11 @@ export default defineEventHandler(async (event) => {
   })
 
   // Individual guide pages
-  // Type assertion needed: Nuxt Content v3 server-side queryCollection returns
-  // a union of all collection types. The runtime correctly queries only 'guides'.
-  const guides = await (queryCollection as any)(event, 'guides').all() as import('../../.nuxt/content/types').GuidesCollectionItem[]
+  // Assign to intermediate variable: wrapping queryCollection in (... as any)
+  // prevents Nitro's auto-import transformer from renaming the reference.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const qcGuides: any = queryCollection
+  const guides = await qcGuides(event, 'guides').all() as import('../../.nuxt/content/types').GuidesCollectionItem[]
   for (const guide of guides) {
     const guideSlug = guide.stem.replace(/^guides\//, '').replace(/\/guide$/, '')
     urls.push({

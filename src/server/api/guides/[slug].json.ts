@@ -1,12 +1,17 @@
 export default defineEventHandler(async (event) => {
-  const slug = getRouterParam(event, 'slug')
+  // Nitro maps [slug].json.ts to route param "slug.json" with value "foo.json"
+  const rawSlug = getRouterParam(event, 'slug.json')
+  const slug = rawSlug?.replace(/\.json$/, '')
   if (!slug) {
     throw createError({ statusCode: 400, message: 'Slug is required' })
   }
 
-  // Type assertion needed: Nuxt Content v3 server-side queryCollection returns
-  // a union of all collection types. The runtime correctly queries only 'guides'.
-  const guide = await (queryCollection as any)(event, 'guides')
+  // Use queryCollection without type assertion wrapping the call itself,
+  // as (queryCollection as any) prevents Nitro's auto-import transformer
+  // from renaming the reference during bundling.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const qc: any = queryCollection
+  const guide = await qc(event, 'guides')
     .path(`/guides/${slug}/guide`)
     .first() as import('../../.nuxt/content/types').GuidesCollectionItem | undefined
 
