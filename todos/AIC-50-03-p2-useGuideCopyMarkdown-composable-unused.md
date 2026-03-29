@@ -2,7 +2,7 @@
 id: AIC-50-03
 title: useGuideCopyMarkdown composable is unused dead code
 priority: P2
-status: pending
+status: resolved
 file: src/composables/useGuideCopyMarkdown.ts
 line: 1-22
 ---
