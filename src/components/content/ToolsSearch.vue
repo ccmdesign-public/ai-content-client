@@ -53,7 +53,7 @@ const announcement = computed(() => {
         id="tools-search"
         v-model="inputValue"
         type="search"
-        placeholder="Search tools..."
+        placeholder="Search guides & tools..."
         class="pl-10 pr-10"
         autocomplete="off"
         :aria-describedby="modelValue ? 'search-results-status' : undefined"

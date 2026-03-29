@@ -55,12 +55,24 @@ export default defineEventHandler(async (event) => {
     priority: 0.8
   })
 
-  // Tools directory page
+  // Guides directory page
   urls.push({
-    loc: '/tools',
+    loc: '/guides',
     changefreq: 'daily',
     priority: 0.9
   })
+
+  // Individual guide pages
+  const guides = await (queryCollection as any)(event, 'guides').all()
+  for (const guide of guides) {
+    const guideSlug = guide.stem.replace(/^guides\//, '').replace(/\/guide$/, '')
+    urls.push({
+      loc: `/guides/${guideSlug}`,
+      lastmod: guide.generatedAt || undefined,
+      changefreq: 'weekly',
+      priority: 0.8
+    })
+  }
 
   // Summary pages
   for (const summary of summaries) {

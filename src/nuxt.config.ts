@@ -101,8 +101,11 @@ export default defineNuxtConfig({
     // These pages query all 1,500+ summaries and OOM during prerender
     '/summaries': { isr: 3600 },
     '/summaries/**': { isr: 3600 },
-    // Tools page: on-demand SSR (queries all summaries for tool extraction)
-    '/tools': { isr: 3600 },
+    // Tools page: redirect to guides
+    '/tools': { redirect: { to: '/guides', statusCode: 301 } },
+    // Guide pages: on-demand SSR, cached at edge for 1 hour
+    '/guides': { isr: 3600 },
+    '/guides/**': { isr: 3600 },
     // Tag pages: on-demand SSR (each tag cross-references all summaries)
     '/tags': { isr: 3600 },
     '/tags/**': { isr: 3600 },

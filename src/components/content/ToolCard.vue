@@ -5,6 +5,7 @@ import { ChevronDown, Link as LinkIcon, Github, Star } from 'lucide-vue-next'
 
 const props = defineProps<{
   tool: ToolWithStars
+  guideUrl?: string
 }>()
 
 const showAllVideos = ref(false)
@@ -50,6 +51,16 @@ function getGitHubUrl(repo: string): string {
           <Star class="size-3" aria-hidden="true" />
           {{ formatStars(tool.stars) }}
         </Badge>
+
+        <!-- Guide link -->
+        <NuxtLink
+          v-if="guideUrl"
+          :to="guideUrl"
+          class="text-sm text-primary hover:underline"
+          @click.stop
+        >
+          View guide
+        </NuxtLink>
 
         <!-- Video count -->
         <span class="text-muted-foreground text-sm ml-auto">

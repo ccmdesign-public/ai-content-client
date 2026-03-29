@@ -109,6 +109,50 @@ export default defineContentConfig({
       },
       schema: articleSchema
     }),
+    guides: defineCollection({
+      type: 'page',
+      source: {
+        include: 'guides/*/guide.md',
+        cwd: contentDir
+      },
+      schema: z.object({
+        // Identity
+        toolSlug: z.string(),
+        title: z.string(),
+        category: z.string(),
+
+        // Human section metadata
+        humanSubsections: z.array(z.enum([
+          'overview', 'how-it-works',
+          'best-practices', 'common-pitfalls',
+          'workflows', 'integrations'
+        ])),
+
+        // Agent section metadata
+        agentResources: z.array(z.object({
+          type: z.enum(['mcp-server', 'cli', 'skill-folder', 'repo', 'config-example', 'primer-prompt']),
+          name: z.string(),
+          source: z.string().optional(),
+          url: z.string().url().optional(),
+          installCommand: z.string().optional(),
+          content: z.string().optional(),
+        })).default([]),
+        agentResourceGaps: z.array(z.string()).default([]),
+
+        // Raw markdown of agent section for copy button
+        rawAgentMarkdown: z.string().optional(),
+
+        // Generation metadata
+        generatedAt: z.string(),
+        generatedFrom: z.object({
+          summaryCount: z.number(),
+          articleCount: z.number(),
+        }),
+
+        // SEO
+        description: z.string(),
+      })
+    }),
     tags: defineCollection({
       type: 'data',
       source: {
