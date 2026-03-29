@@ -182,6 +182,12 @@
   font-size: 0.875em;
 }
 
+/* Strip per-token background highlights from Shiki (rose-pine applies
+   selection-like backgrounds to strings/comments that clash on light bg) */
+.prose pre code span {
+  background-color: transparent !important;
+}
+
 .prose :not(pre) > code {
   background-color: var(--secondary);
   border: 1px solid var(--border);
