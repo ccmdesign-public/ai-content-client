@@ -2,7 +2,7 @@
 priority: P2
 file: src/components/content/MasterclassCard.vue
 line: 14
-status: pending
+status: resolved
 ---
 
 ## MasterclassCard NuxtLink has no accessible name beyond visual text

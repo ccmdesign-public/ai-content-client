@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useMasterclassDetail } from '~/composables/useMasterclassDetail'
+import { formatDate } from '~/utils/formatDate'
 import { TIER_LABELS, CATEGORY_LABELS } from '~/types/masterclass'
 import type { MasterclassTier } from '~/types/masterclass'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs'
@@ -22,6 +23,7 @@ const {
   pending,
   error,
   notFound,
+  refresh,
 } = useMasterclassDetail(slug)
 
 // --- Tab state synced with URL ---
@@ -46,11 +48,6 @@ watch(activeTier, (tier) => {
   }
   router.replace({ query })
 })
-
-// Current tier content for ContentRenderer
-const currentTierContent = computed(() =>
-  tierContentMap.value.get(activeTier.value) ?? null
-)
 
 // --- SEO ---
 useSeoMeta({
@@ -84,16 +81,11 @@ useHead({
           '@type': 'Thing',
           name: detail.value.name,
         },
-      }),
+      }).replace(/<\/script/gi, '<\\/script'),
     }]
   }),
 })
 
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString('en-US', {
-    year: 'numeric', month: 'short', day: 'numeric'
-  })
-}
 </script>
 
 <template>
@@ -114,7 +106,7 @@ function formatDate(iso: string): string {
     </div>
 
     <!-- Error state -->
-    <PageErrorState v-else-if="error" message="Failed to load this masterclass." @retry="() => {}" />
+    <PageErrorState v-else-if="error" message="Failed to load this masterclass." @retry="refresh()" />
 
     <!-- Not found -->
     <PageNotFound
@@ -160,6 +152,7 @@ function formatDate(iso: string): string {
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-1 text-primary hover:underline"
+            :aria-label="`${detail.name} website (opens in new tab)`"
           >
             <ExternalLink class="size-4" aria-hidden="true" />
             Website
@@ -170,6 +163,7 @@ function formatDate(iso: string): string {
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-1 text-primary hover:underline"
+            :aria-label="`${detail.name} GitHub repository (opens in new tab)`"
           >
             <Github class="size-4" aria-hidden="true" />
             GitHub

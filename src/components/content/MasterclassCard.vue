@@ -12,7 +12,7 @@ defineProps<{
 
 <template>
   <Card class="transition-colors hover:border-primary/50">
-    <NuxtLink :to="`/masterclasses/${entry.slug}`" class="block no-underline text-foreground">
+    <NuxtLink :to="`/masterclasses/${entry.slug}`" :aria-label="`${entry.name} masterclass`" class="block no-underline text-foreground">
       <CardHeader class="pb-2">
         <div class="flex items-center justify-between gap-2">
           <h3 class="font-semibold text-base line-clamp-1">{{ entry.name }}</h3>

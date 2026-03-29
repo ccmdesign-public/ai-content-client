@@ -2,7 +2,7 @@
 priority: P1
 file: src/pages/masterclasses/[slug].vue
 line: 117
-status: pending
+status: resolved
 ---
 
 ## Error retry handler is a no-op

@@ -2,7 +2,7 @@
 priority: P2
 file: src/pages/masterclasses/index.vue
 line: 118
-status: pending
+status: resolved
 ---
 
 ## Empty grid when category filter yields zero results (no search)

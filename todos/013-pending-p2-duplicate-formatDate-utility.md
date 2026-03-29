@@ -2,7 +2,7 @@
 priority: P2
 file: src/pages/masterclasses/[slug].vue
 line: 92
-status: pending
+status: resolved
 ---
 
 ## Local `formatDate` duplicates existing utility

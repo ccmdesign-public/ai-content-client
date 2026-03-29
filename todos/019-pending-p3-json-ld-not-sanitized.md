@@ -2,7 +2,7 @@
 priority: P3
 file: src/pages/masterclasses/[slug].vue
 line: 73
-status: pending
+status: resolved
 ---
 
 ## JSON-LD structured data uses `innerHTML` with unsanitized content

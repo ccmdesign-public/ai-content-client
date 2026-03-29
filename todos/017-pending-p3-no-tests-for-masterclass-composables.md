@@ -2,7 +2,7 @@
 priority: P3
 file: src/composables/useMasterclassIndex.ts
 line: 1
-status: pending
+status: resolved
 ---
 
 ## No tests for new masterclass composables

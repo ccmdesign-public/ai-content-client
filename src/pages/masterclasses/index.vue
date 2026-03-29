@@ -66,7 +66,7 @@ const filterCategories = computed(() => {
 
 // Empty state conditions
 const showEmptySearch = computed(() =>
-  !pending.value && searchQuery.value && filteredCount.value === 0
+  !pending.value && (searchQuery.value || categoryFilter.value) && filteredCount.value === 0
 )
 const showNoData = computed(() =>
   !pending.value && !searchQuery.value && totalCount.value === 0
@@ -145,10 +145,10 @@ const showNoData = computed(() =>
     <PageEmptyState
       v-else-if="showEmptySearch"
       icon="search_off"
-      :message="`No results for &quot;${searchQuery}&quot;`"
-      hint="Try different keywords or clear the search."
-      action-text="Clear search"
-      @action="setSearch('')"
+      :message="searchQuery ? `No results for &quot;${searchQuery}&quot;` : 'No results for this category.'"
+      :hint="searchQuery ? 'Try different keywords or clear the search.' : 'Try a different category or clear the filter.'"
+      :action-text="searchQuery ? 'Clear search' : 'Clear filter'"
+      @action="searchQuery ? setSearch('') : setCategory(null)"
     />
 
     <!-- Card grid -->

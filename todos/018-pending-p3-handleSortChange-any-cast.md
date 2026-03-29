@@ -2,7 +2,7 @@
 priority: P3
 file: src/components/content/MasterclassSort.vue
 line: 18
-status: pending
+status: resolved
 ---
 
 ## `handleSortChange` uses `any` type cast

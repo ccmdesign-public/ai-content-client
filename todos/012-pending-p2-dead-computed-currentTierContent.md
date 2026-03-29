@@ -2,7 +2,7 @@
 priority: P2
 file: src/pages/masterclasses/[slug].vue
 line: 51
-status: pending
+status: resolved
 ---
 
 ## Dead code: `currentTierContent` computed is never used

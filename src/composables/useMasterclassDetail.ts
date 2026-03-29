@@ -10,7 +10,7 @@ export function useMasterclassDetail(slug: Ref<string> | string) {
   const resolvedSlug = toRef(slug)
 
   // 1. Load metadata
-  const { data: rawMetadata, pending: metaPending, error: metaError } = useAsyncData(
+  const { data: rawMetadata, pending: metaPending, error: metaError, refresh: refreshMeta } = useAsyncData(
     `masterclass-meta-${toValue(resolvedSlug)}`,
     () => queryCollection('masterclassMetadata')
       .where('slug', '=', toValue(resolvedSlug))
@@ -18,7 +18,7 @@ export function useMasterclassDetail(slug: Ref<string> | string) {
   )
 
   // 2. Load ALL tier content docs for this slug
-  const { data: rawTiers, pending: tiersPending, error: tiersError } = useAsyncData(
+  const { data: rawTiers, pending: tiersPending, error: tiersError, refresh: refreshTiers } = useAsyncData(
     `masterclass-tiers-${toValue(resolvedSlug)}`,
     () => queryCollection('masterclasses')
       .where('path', 'LIKE', `/masterclasses/${toValue(resolvedSlug)}/%`)
@@ -104,6 +104,11 @@ export function useMasterclassDetail(slug: Ref<string> | string) {
     }
   })
 
+  function refresh() {
+    refreshMeta()
+    refreshTiers()
+  }
+
   return {
     detail,
     tierContentMap,
@@ -113,5 +118,6 @@ export function useMasterclassDetail(slug: Ref<string> | string) {
     pending,
     error,
     notFound,
+    refresh,
   }
 }

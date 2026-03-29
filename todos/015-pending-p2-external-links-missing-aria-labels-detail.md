@@ -2,7 +2,7 @@
 priority: P2
 file: src/pages/masterclasses/[slug].vue
 line: 157
-status: pending
+status: resolved
 ---
 
 ## External links missing accessible names on detail page
