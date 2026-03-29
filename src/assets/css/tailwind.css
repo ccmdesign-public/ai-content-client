@@ -169,23 +169,20 @@
 
 
 /* Prose code blocks: light bg with syntax-highlighted text for contrast.
-   Shiki injects inline color styles per token; we just set the container. */
+   Shiki tokens use --shiki-default for text color; override it to our
+   foreground so uncolored tokens don't blend into the background. */
 .prose pre {
   background-color: var(--secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  --shiki-default: var(--foreground);
+  --shiki-default-bg: transparent;
 }
 
 .prose pre code {
   background-color: transparent;
   color: inherit;
   font-size: 0.875em;
-}
-
-/* Strip per-token background highlights from Shiki (rose-pine applies
-   selection-like backgrounds to strings/comments that clash on light bg) */
-.prose pre code span {
-  background-color: transparent !important;
 }
 
 .prose :not(pre) > code {
