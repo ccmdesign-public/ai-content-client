@@ -63,6 +63,8 @@ export default defineNuxtConfig({
         // RSS autodiscovery
         { rel: "alternate", type: "application/rss+xml", title: "YouTube Summaries RSS Feed", href: "/feed.xml" },
         { rel: "alternate", type: "application/rss+xml", title: "AI Content Digest Newsletter", href: "/digest.xml" },
+        // LLM agent discoverability
+        { rel: "author", type: "text/plain", href: "/llms.txt" },
       ],
       script: [],
     }
@@ -92,7 +94,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: true,
-      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml']
+      routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/llms.txt', '/guides.md']
     }
   },
   // Route rules for hybrid rendering (prerender shell, ISR for content, serverless API)
@@ -106,6 +108,10 @@ export default defineNuxtConfig({
     '/masterclasses/**': { isr: 3600 },
     // Redirect old tools URL — 301 permanent redirect
     '/tools': { redirect: { to: '/masterclasses', statusCode: 301 } },
+    // Guide markdown endpoints: ISR with 1-hour TTL
+    '/guides/**.md': { isr: 3600 },
+    // Dynamic robots.txt: ISR with 24-hour TTL
+    '/robots.txt': { isr: 86400 },
     // Tag pages: on-demand SSR (each tag cross-references all summaries)
     '/tags': { isr: 3600 },
     '/tags/**': { isr: 3600 },
