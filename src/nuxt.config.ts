@@ -95,6 +95,13 @@ export default defineNuxtConfig({
       crawlLinks: false,
       failOnError: true,
       routes: ['/', '/feed.xml', '/digest.xml', '/sitemap.xml', '/llms.txt', '/guides.md']
+    },
+    // Use memory storage for dev cache to avoid ENOTDIR conflicts.
+    // The filesystem cache treats /guides (index) as a file, blocking
+    // /guides/claude-code (child) from being created as a subdirectory.
+    // Production (Netlify/Vercel) uses edge caching, so this only affects dev.
+    devStorage: {
+      cache: { driver: 'memory' }
     }
   },
   // Route rules for hybrid rendering (prerender shell, ISR for content, serverless API)
