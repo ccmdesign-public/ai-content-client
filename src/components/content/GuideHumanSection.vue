@@ -1,8 +1,11 @@
 <script setup lang="ts">
-import type { Guide } from '~/types/guides'
+interface GuideWithBody {
+  body: { children: Array<Record<string, unknown>> }
+  [key: string]: unknown
+}
 
 const props = defineProps<{
-  guide: Guide & { body: { children: Array<Record<string, unknown>> } }
+  guide: GuideWithBody
 }>()
 
 /**

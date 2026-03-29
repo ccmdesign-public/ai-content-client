@@ -63,7 +63,9 @@ export default defineEventHandler(async (event) => {
   })
 
   // Individual guide pages
-  const guides = await queryCollection(event, 'guides').all()
+  // Type assertion needed: Nuxt Content v3 server-side queryCollection returns
+  // a union of all collection types. The runtime correctly queries only 'guides'.
+  const guides = await (queryCollection as any)(event, 'guides').all() as import('../../.nuxt/content/types').GuidesCollectionItem[]
   for (const guide of guides) {
     const guideSlug = guide.stem.replace(/^guides\//, '').replace(/\/guide$/, '')
     urls.push({
