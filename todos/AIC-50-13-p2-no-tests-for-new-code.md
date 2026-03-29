@@ -2,7 +2,7 @@
 id: AIC-50-13
 title: No tests for new composable, API endpoint, or schema validation
 priority: P2
-status: pending
+status: resolved
 file: src/composables/useGuideCopyMarkdown.ts, src/server/api/guides/[slug].json.ts, content.config.ts
 line: all
 ---
